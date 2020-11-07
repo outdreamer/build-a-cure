@@ -193,47 +193,12 @@
 
 - avoid:
 	- any artificial substances, which will get in your blood and may not get filtered out by your damaged filtration organs, which may cause structural damage & mutations leading to cancer
-
 	- histidine & angiotensin 11 receptor blockers, regarding glomerulonephritis
 		- Angiotensin_II_receptor_blockers reduce kidney function in the form of reducing glomerular repair
 		- Angiotensin_II_receptor_blocker share a imidazole component with histidine
 
-	- too much calcium can lead to hyperparathyroidism 
-
-- to lower creatinine:
-    - avoid: 
-      - potassium, sodium, phosphorus, creatine, nsaids, ace inhibitors, vanadium, diuretics, arginine tends to increase the liver’s production of creatine
-      - foods like meat, dairy, chocolate, nuts, soy, eggs, seaweed, spirulina, & gelatin will raise creatinine
-
-    	- The amino acids methionine, arginine, & glycine are processed in the kidneys to produce guanidinoacetic acid, which is then sent to the liver where it is converted to another amino acid called creatine. Creatinine is a waste byproduct of metabolizing creatine
-
-    - try: water, alpha lipoic acid, vitamin c, cucumber, fiber, chitosan, chamomile, nettle, dandelion root, cinnamon, siberian ginseng, corn silk, salvia/red sage, chinese rhubarb
-
-- to lower phosphorus:
-	- eat: coconut, almond milk
-	- almond milk has about 6% (20 - 60 mg) of phosphorus RDA per serving
-
-- to lower oxalates:
-	- oxalic acid in almond milk can steal calcium from the body and to form it into dangerous calcium stones in the kidneys
-	- macadamia are lower in oxalates than other nuts
-		Almonds 	1 oz (28 g) 	122 mg
-		Cashew Nuts 1 oz (28 g) 	49 mg
-		Peanuts 	1 oz (28 g) 	27 mg
-		Pistachios 	1 oz (28 g) 	14 mg
-		Pecans 		1 oz (28 g) 	10 mg
-
-	- bind to oxalates: calcium, Citric acid, green tea
-
-- to lower blood pressure 
-  - stevia
-  - melatonin 
-
-- digesting protein:
-  - Proteases and peptidases split proteins into small peptides and amino acids
-  - bcaa's and other amino acids as a temporary protein replacement to skip digestion, enzymes to help digestion
-
 - avoid excessive:
-    - sodium, potassium, phosphorus
+    - sodium, potassium, phosphorus, calcium
     - choline 
     - arginine
     - aspirin, nsaids
@@ -248,55 +213,10 @@
       - astragalus, goldenrod, horsetail, java, nettle, oregon grape, parsley, uva ursi, yohimbe, juniper
 	- causes of kidney stones:
 	  - Dairy products are high on calcium and studies have shown that too much dairy consumption leads to increased excretion of calcium with urine. This is known to cause kidney stones
+	  - too much calcium can lead to hyperparathyroidism 
 	  - calcium supplements, oxalates, cystine, salt and animal protein, high doses of vitamin D
 
-- cleaning blood:
-  - carnitine, arginine 
-  - lactulose
-  - sodium benzoate, phenylbutyrate
-
-- avoiding acidosis
-	- Baking soda can help supplement alkaline matter, bicarbonate, so it can help prevent acidosis and prevent kidney function decreasing so quickly
-
-- recovery/exercise:
-	- L-Arginine Alpha-Ketoglutarate: prevent muscle waste, wound healing, tissue repair
-	- bcaa: clear waste from blood, including waste produced by muscle damage from exercise
-
 - kidney function support 
-
-  - carnitine (help with anemia)
-  - quercetin (capers, dill, cilantro, fennel)
-
-  - People with CKD are at high risk for deficiencies in zinc, calcium, iron and B vitamins
-  - green tea bind to vitamin a, citric acid, calcium citrate can bind to oxalates
-
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5535732/
-      - dong quai (Angelica sinensis (Oliv.) Diels)
-      - huang qi (Astragalus membranaceus)
-      - dong chong xia cao (Cordyceps sinensis
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123830/
-      - reduce bun level: Polyenylphosphatidycholine (egg/soy, alternative version in lecithin)
-      - quercetin
-      - curcumin
-      - hesperidin
-      - catechin
-      - resveratrol
-      - sulfurophane
-      - sesame seed oil
-      - phytoestrogens
-
-  - lower/bind to phosphorus 
-  	- calcium carbonate
-  	- magnesium acetate
-    - vitamin d (help control phosphorus levels)
-
-  - avoid anemia
-  	- iron 
-
-  - red blood cell production
-  	- erythropoietin
-
-  - arginine
 
   - relevant functions/metrics
 
@@ -308,10 +228,14 @@
 		- P-selectin expression
 		- blood creatinine
 		- blood urea
+		- blood pressure
 
 	- maintain
 		- glomerular basement membrane
 		- glomerular structural integrity
+
+	- regulate
+		- blood pressure
 
 	- increase
 		- glomerular filtration function
@@ -335,7 +259,7 @@
 	- produce
 		- nitric oxide
 
-	- specific compounds for functions
+  - specific compounds for relevant functions/metrics
 
 	  - reduce fibrosis
 	    - Gynostemma (reduce fibrosis)
@@ -352,6 +276,21 @@
 	    - chamomile (lower creatinine levels)
 	    - dandelion root (reduces creatinine levels)
 
+	    - avoid: 
+	      - potassium, sodium, phosphorus, creatine, nsaids, ace inhibitors, vanadium, diuretics, arginine tends to increase the liver’s production of creatine
+	      - foods like meat, dairy, chocolate, nuts, soy, eggs, seaweed, spirulina, & gelatin will raise creatinine
+	      - The amino acids methionine, arginine, & glycine are processed in the kidneys to produce guanidinoacetic acid, which is then sent to the liver where it is converted to another amino acid called creatine. Creatinine is a waste byproduct of metabolizing creatine
+
+	    - try: water, alpha lipoic acid, vitamin c, cucumber, fiber, chitosan, chamomile, nettle, dandelion root, cinnamon, siberian ginseng, corn silk, salvia/red sage, chinese rhubarb
+
+	  - reduce bun level: 
+	  	- Polyenylphosphatidycholine (egg/soy, alternative version in lecithin)
+
+	  - reduce mortality from ckd: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5535732/
+	    - dong quai (Angelica sinensis (Oliv.) Diels)
+	    - huang qi (Astragalus membranaceus)
+	    - dong chong xia cao (Cordyceps sinensis
+
 	  - prevent kidney stones
 	    - Java Tea (diuretic, prevent kidney stones)
         - Hydrangea Root (prevent kidney stones, helps use calcium to prevent stones)
@@ -360,6 +299,35 @@
         - Couch Grass (diuretic, prevent kidney stones)
         - Dandelion Root (diuretic, prevent kidney stones)
         - Green Tea (diuretic, prevent kidney stones)
+
+	  - lower/bind to phosphorus 
+	  	- calcium carbonate
+	  	- magnesium acetate
+	  	- vitamin d (help control phosphorus levels)
+
+	  - produce red blood cells
+		- erythropoietin
+
+	  - cleaning blood:
+		- carnitine, arginine 
+		- lactulose
+		- sodium benzoate, phenylbutyrate
+
+	  - avoiding acidosis
+		- Baking soda can help supplement alkaline matter, bicarbonate, so it can help prevent acidosis and prevent kidney function decreasing so quickly
+
+	  - recovery/exercise:
+		- L-Arginine Alpha-Ketoglutarate: prevent muscle waste, wound healing, tissue repair
+		- bcaa: clear waste from blood, including waste produced by muscle damage from exercise
+
+	  - to lower blood pressure 
+		- stevia
+		- melatonin 
+		- algae
+
+	  - digest protein (convert to amino acids):
+		- Proteases and peptidases split proteins into small peptides and amino acids
+		- bcaa's and other amino acids as a temporary protein replacement to skip digestion, enzymes to help digestion
 
 	  - promoting kidney filtration function
 	     - cinnamon (lower serum creatinine and improve kidney problems by promoting kidney filtration)
@@ -389,9 +357,21 @@
 	    - Juniper (protects kidney cells against harmful toxins)
 	    - Ginkgo biloba (renoprotective)
 	    - caffeic acid (coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate)
+	    	- protect against SVP-induced nephrotoxicity via its antioxidant, anti-inflammatory, and antiapoptotic properties
+	    - renoprotective: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123830/
+	      - quercetin (capers, dill, cilantro, fennel)
+	      - curcumin
+	      - hesperidin
+	      - catechin
+	      - resveratrol
+	      - sulfurophane
+	      - sesame seed oil
+	      - phytoestrogens
 
 	  - bind to oxalates
 	   	- calcium
+	   	- citric acid
+	   	- green tea
 
 	  - diuretic
 	    - Punarnava/Boerhavia diffusa (regulating the creatinine level, diuretic, reduces kidney stones, reduces fibrosis)
@@ -421,6 +401,10 @@
 
 	  - prevent anemia
 	    - carnitine (derived from lysine): reduce lipid level, counter c reactive protein, anti-anemia action due to its effects on erythropoiesis, and positive effects on the longevity and deformability of erythrocytes
+	    - iron
+
+	  - prevent deficiency 
+	  	 - People with CKD are at high risk for deficiencies in zinc, calcium, iron and B vitamins
 
 	  - immune system
 	  	- curcumin
@@ -432,6 +416,22 @@
 	  	- dha/eha
 
 	  - other
+
+		- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
+			- enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure
+			- Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
+		
+		- GLP-1 RAs work by simulating the functions of the body's natural incretin hormones that help lower post-meal blood sugar levels. 
+			- The medicines in this group have been shown to reduce the risks of heart attack, ischemic stroke and/or cardiovascular death.
+
+		- avoid valproic acid
+			- Inhibitors of histone deacetylase (HDAC) like valproic acid have anti-inflammatory and antifibrotic effects
+			- valproic acid before kidney injury prevented the development of proteinuria and the onset of glomerulosclerosis. 
+	    	- Even after postponing treatment until the peak of adriamycin-induced proteinuria, valproic acid rapidly decreased the quantity of proteinuria and attenuated the progression of renal disease. 
+			- Valproic acid abrogated the decrease in glomerular acetylation observed during adriamycin-induced nephropathy. 
+			- Furthermore, valproic acid attenuated the significant upregulation of profibrotic and proinflammatory genes, the deposition of collagen, and the infiltration of macrophages into the kidney
+			- vitamin u (counters valproic acid)
+			  - Collectively, these data show that VPA is a promoter of inflammation, oxidative stress, and fibrosis which resulted in renal damage. Vit U can be proposed as a potential candidate for preventing renal damage which arose during the therapeutic usage of VPA. 
 
 	    - medications
 	    	- statins
@@ -445,8 +445,12 @@
 		   
 	    - nutritional compounds:
 		    - curcumin
-		    - phytochemicals/flavonoids/isoflavones/Polyphenols
-		    	- phytochemical sources
+		    - phytochemicals
+		    	- flavonoids
+		    	- isoflavones
+		    	- Polyphenols
+		    	- phytoestrogens
+		    	- phytochemicals
 				  - mushroom, avocado, artichoke, olive
 				  - red pepper, paprika, chilli pepper, black pepper, bell pepper
 				  - coffee, tea
@@ -458,22 +462,18 @@
 				    vanilla, licorice, nettle, burdock, echinacea, cinnamon, aloe, ginger
 				  - Epigallocatechin gallate (EGCG) green tea
 				  - algae
-				  
 		    - Resveratrol
 		    - garlic
 		    - soy
-		    - phytoestrogens
 		    - lycopene
 	    	- omega-3 fatty acids
 		    - onion
 	    	- lemon juice/citric acid/ascorbic acid
-	    	- vitamin e, c, d, Vitamin B6 (as pyridoxine HCI)
-	    	- quercetin
+	    	- vitamins: e, c, d, Vitamin B6 (as pyridoxine HCI)
 
 	    - supplements
 	    	- kasani (alkaliser, provide strength to the kidneys)
 		  	- Phyllanthus niruri
-		    - melatonin
 		    - carvedilol
 	    	- dangnyosoko
 	 		- Round-Head Lespedeza Extract (steam and leaf)
@@ -486,18 +486,25 @@
 		    - glutamate cystein ligase & glutathione reductase
 		    - testosterone
 		    - black cohosh
-			- fucoidan (algaes & seaweeds like mozuku, kombu, bladderwrack, wakame, and hijiki)
-				- inhibits renal fibrosis and glomerular sclerosis by reducing the accumulation of extracellular matrix
-				- reduces the inflammatory response and P-selectin expression
-				- maintains the glomerular basement membrane and glomerular structural integrity
-				- improves glomerular filtration function
-				- protects renal glycosaminoglycans from abnormal degradation
-				
-		- ketoanalogues of essential amino-acids (with nitrogen removed to reduce work for kidneys)
+		    - blue-green algae
+				- lowers blood pressure
+				- reduce the production of pro-inflammatory cytokines by inhibiting NF-κB pathway in macrophages and splenocytes - Sulfate polysaccharides exhibit immunomodulatory, antitumor, antithrombotic, anticoagulant, anti-mutagenic, anti-inflammatory, antimicrobial, and even antiviral activity
+				- regulation of macrophage function, natural killer cells, and T/B lymphocytes, together with the stimulation of the immune responses of lymphocytes and the activation of the complement system
 
-		  - amino acids
+				- fucoidan (algaes & seaweeds like mozuku, kombu, bladderwrack, wakame, and hijiki)
+					- inhibits renal fibrosis and glomerular sclerosis by reducing the accumulation of extracellular matrix
+					- reduces the inflammatory response and P-selectin expression
+					- maintains the glomerular basement membrane and glomerular structural integrity
+					- improves glomerular filtration function
+					- protects renal glycosaminoglycans from abnormal degradation
+			
+		- amino acids
 
-			- Essential:  
+			- possibly helpful to kidney function: branch chain amino acids (isoleucine, leucine, valine), glutamine, arginine
+			- possibly harmful to kidney function: glycine, arginine, methionine
+			- ketoanalogues of essential amino-acids (with nitrogen removed from amino acids, to further reduce work for kidneys)
+
+			- Essential amino acids 
 			  - histidine (beans, cauliflower, mushroom)
 			  - isoleucine
 			  - leucine
@@ -507,6 +514,7 @@
 			  - threonine (lentils, sesame)
 			  - tryptophan (spirulina, soy, sesame, sunflower)
 			  - valine
+
 			- Conditionally essential:
 			  - arginine
 			  	- synthesized in the body from glutamine via citrulline
@@ -520,6 +528,7 @@
 			  - proline
 			  	- produced from arginine
 			  - tyrosine
+			  
 			- Non-essential:
 			  - alanine 
 			  - aspartic acid 
@@ -528,35 +537,6 @@
 			  - serine
 			  - selenocysteine
 			  - pyrrolysine
-
-			- possibly helpful to kidney function: branch chain amino acids (isoleucine, leucine, valine), glutamine, arginine
-			- possibly harmful to kidney function: glycine, arginine, methionine
-
-			- other
-				- carnitine (derived from lysine): reduce lipid level, counter c reactive protein, anti-anemia action due to its effects on erythropoiesis, and positive effects on the longevity and deformability of erythrocytes
-
-				- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
-				  - enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure.[5]
-				  Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
-				- GLP-1 RAs work by simulating the functions of the body's natural incretin hormones that help lower post-meal blood sugar levels. 
-				  The medicines in this group have been shown to reduce the risks of heart attack, ischemic stroke and/or cardiovascular death.
-				- caffeic acid (spearmint)
-				  - CAFF proved to protect against SVP-induced nephrotoxicity via its antioxidant, anti-inflammatory, and antiapoptotic properties
-				  - coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate
-				- valproic acid
-				  - Inhibitors of histone deacetylase (HDAC) like valproic acid have anti-inflammatory and antifibrotic effects
-				  - valproic acid before kidney injury prevented the development of proteinuria and the onset of glomerulosclerosis. 
-				  - Even after postponing treatment until the peak of adriamycin-induced proteinuria, valproic acid rapidly decreased the quantity of proteinuria and attenuated the progression of renal disease. 
-				  - Valproic acid abrogated the decrease in glomerular acetylation observed during adriamycin-induced nephropathy. 
-				  - Furthermore, valproic acid attenuated the significant upregulation of profibrotic and proinflammatory genes, the deposition of collagen, and the infiltration of macrophages into the kidney
-				- vitamin u (counters valproic acid)
-				  - Collectively, these data show that VPA is a promoter of inflammation, oxidative stress, and fibrosis which resulted in renal damage. Vit U can be proposed as a potential candidate for preventing renal damage which arose during the therapeutic usage of VPA. 
-				- blue-green algae
-				  - lowers blood pressure
-				  - reduce the production of pro-inflammatory cytokines by inhibiting NF-κB pathway in macrophages and splenocytes - Sulfate polysaccharides exhibit immunomodulatory, antitumor, antithrombotic, anticoagulant, anti-mutagenic, anti-inflammatory, antimicrobial, and even antiviral activity
-				  - regulation of macrophage function, natural killer cells, and T/B lymphocytes, together with the stimulation of the immune responses of lymphocytes and the activation of the complement system
-
-	- Sulfated polysaccharides effectively inhibit SARS-CoV-2 in vitro (sulphurophane)
 
 	- water fasting places stress on kidneys but reduces:
 	  - blood pressure
