@@ -27,7 +27,7 @@
 - stack layers
     UI: templates, user event input processing, client (browser), config (browser settings), adjacent resources (active plugins), dependencies (SSL certs, keys, permissions, caches)
     Application server: handle (apply security config, namespacing, permissions, respond with error codes) & route user requests to application resources (code base, access, process/CPU/memory allowance)
-    Memory layer: buffers, volatile vs. persistent memory, memory access
+    Memory layer: buffers, volatile vs. persistent memory, memory access, latency (request/response time difference)
     Process layer: process vs. thread
     Data store: store metadata (timestamps, indexes), state (cache), records (database rows), schema (database table design), references (key-value maps), objects (class instances, migration data)
     Infrastructure: Servers, Databases, Config, Pipelines, Environments, Containers, Virtual Machines, OS, Machine Images, Disks
@@ -200,7 +200,107 @@
       - hypervisor layer
       - remote desktop protocol (RDP)
 
+    - data science & machine learning
+      
+      - computing tools (numpy, scipy)
+      
+      - data sanitization
+      
+      - math/statistical tools: partial differential equations, Markov processes (vs. recursive), probability distributions, trigonometric equations, matrix multiplication, eigenvectors, tensors, geometric progressions, regression, gradient descent for minimum-finding (cost-minimization)
+
+      - tasks
+
+        - neural networks
+          - minimize cost
+          - compare with threshold value
+          - apply weights
+          - aggregate inputs
+
+        - data
+          - sanitize
+          - streamline (types, corrupt values, remove/merge duplicates)
+          - regularize
+          - format (as vectors, matrixes)
+          - identify data components
+            - irrelevant/redundant variables
+            - patterns
+            - missing data
+            - corrupt data
+            - extreme data (outliers, edge cases, error triggers, assumption contradictions, interacting extremes producing black swans)
+            - structures (variable chains/alternatives)
+            - data reductions
+            - data classes (clusters in data set)
+            - data cases
+              - set of descriptive data cases needed to reduce data set to its variance
+      
+      - algorithms
+        - perceptron
+        - deep learning
+        - autoencoder
+        - genetic
+        - supervised
+        - unsupervised
+        - recurrent
+        - reinforcement
+        - convolution
+        - classification
+        - feedforward
+        - self-organizing map
+        - LSTM
+
+      - components
+
+        - parameters
+          - weights
+          - functions
+          - metrics & threshold values
+
+        - metrics
+
+        - processes
+          - weight initialization
+          - node activation/navigation
+
+        - functions
+          - learning
+            - update strategy
+            - node navigation function
+              - input aggregation/weighting function
+          - node activation function
+            - cost function
+
+      - methods
+        - feature reduction
+        - feature selection
+        - backpropagation
+        - gradient descent
+        - regularization
+        - normalization
+
+      - algorithm packages
+        - tensorflow
+        - scikit-learn
+        - caffe
+        - keras
+        - open neural networks
+        - deeplearning4j
+      - frameworks
+        - fast.ai
+        - open ai
+        - h20 
+      - AutoML
+      - metrics
+      - data visualization
+      - model deployment/governance tools
+      - machine learning IDEs
+
 - debugging
+
+  - attack types
+    - side channel attacks: info accessible by system implemenation, like how memory access is regulated/prioritized
+    - input hacking (injecting code, taking advantage of missing input validation)
+    - encryption algorithm hacking (reverse-engineering original input values to algorithms using rainbow tables/brute force calculations/possible parameter reduction/collisions)
+    - machine learning algorithm hacking (training it to identify adjacent inputs, training it to make prediction errors, 
 
   - debugging attack points
 
