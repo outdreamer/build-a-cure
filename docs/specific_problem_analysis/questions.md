@@ -118,7 +118,7 @@
 			- understanding
 
 		- structures:
-			- is/not/and/but
+			- equality/condition/combination/comparison operations (is/not/and/but)
 			- direction
 			- spectrum
 			- combination

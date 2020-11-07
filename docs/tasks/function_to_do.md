@@ -2,7 +2,7 @@
 
   - de-duplicate logic
     - integrate problem_solving_matching.md & analysis_examples.md
-    - integrate changes from solution_automation_analysis.py claims to repo
+    - integrate changes from interface_analysis.py and solution_automation_analysis.py to repo
     - integrate example.py & workflow logic
     - integrate rules from diagrams to relevant documents
 
