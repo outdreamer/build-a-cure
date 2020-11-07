@@ -221,9 +221,14 @@
 				- arginine: may increase creatine, but may also help reduce blood ammonia
 				- astragalus, goldenrod, horsetail, java, nettle, parsley, oregon grape, uva ursi, yohimbe, juniper may all be diuretics or have other useful functions, but they may also cause kidney damage in people who already have kidney damage/dysfunction
 
-- protocols & schema
+- medical app protocols & schema
 
 	- schema: 
+
+		- diagnosis/test/treatment
+		- protocol
+		- decision
+		- interface objects (insights/systems/strategies)
 
 		- condition object
 
@@ -245,7 +250,7 @@
 		- system object
 
 			- abstract interfaces
-			
+
 				- functions
 				- structures (position, surfaces, interaction layer)
 					- components (sub-structures)
@@ -256,7 +261,8 @@
 				- problems
 					- conflicts/competition (like conflicting structures)
 					- missing components (given the current set of useful combinations like those producing enzymes/proteins/genes, what other useful combinations arent being used or are adjacent)
-				- system objects
+				- systems
+					- functional systems (protective, restorative, filtration, update)
 					- efficiencies like sharing resources for common intents
 					- context/conditions/assumptions
 				- intents
@@ -290,10 +296,12 @@
 					- reduction/destruction/increase/inhibition/triggering/propagation/creation
 
 				- component
+					- info components: instructions, memory, networks, filters, regulations, markets, interactions, processors, functions, resources, energy
 					- enzyme
 					- protein
 					- cell
-					- pathways
+					- gene
+					- tasks/pathways/workflows (where directed processes happen & interact with other tasks/processes relevant to the directed trajectory)
 
 	- protocols
 
@@ -334,7 +342,24 @@
 		- add protocols for different symptom sets/stages in interaction space
 			- add info for different stages (including recovery protocol, adjacent causal/caused conditions, tests to take, symptoms to look for to indicate progression/recovery)
 
-		- add flow chart for decisions (diagnosis, stage identification, considering alternate causes, selecting supplements)
+		- add decision protocol
+
+			- diagnosis
+				- stage identification
+				- considering alternate causes
+				- testing selection & evaluation
+
+			- treatment
+				- selecting supplements
+				- selecting treatments based on priority (less invasive, higher success, lower risk, fewer side effects, higher impact, prevents other problems, more researched/tested)
+				- recovery protocol to avoid/invalidate other treatments (like maintaining/palliative treatments)
+
+			- checkup
+				- scheduling
+				- testing
+				- updating info (new habits/symptoms, changes to protocol followed)
+				- return to other decisions for re-evaluation
+				- evaluation for progression/regression (and associated stages/symptoms/conditions)
 
 - key questions
 
