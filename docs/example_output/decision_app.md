@@ -1,11 +1,28 @@
-# medical app protocols & schema
+# Medical app
 
-## schema: 
 
-		- diagnosis/test/treatment
+## schema
+
+		- diagnosis
+		- test
+		- treatment
+		- metric
+			- Identify the processes & bio markers related to the condition as you go through search results so you can do secondary searches
+				- target metric to inhibit/increase
+				- cooperative metrics: synergistic compounds that enhance the effect of drugs without debilitating side effects
+					- search for these & the stressors that deactivate/activate them
+						Example: MUC1 - bacteria exposed to a split tail activates it
+				- antagonistic metrics: any compounds that can neutralize the drug & the supplements/foods that contain them
+					- get these inhibitors by looking up existing treatment pharmacokinetics/dynamics & interactions
+						- search for inhibit, induce, substrate
+						- check for synergistic effects & any effects that prevent the drug from being metabolized, which may be required to activate it
+						- once you find a treatment, you need to check it against context provided by user to filter the list of treatments or style it differently
+				- metrics further up the causal stack 
+					- if you decrease hunger, diabetes doesnt happen, which is also a treatment (fasting)
+
 		- protocol
 		- decision
-		- interface objects (insights/systems/strategies)
+		- interface objects (insights/systems/strategies/errors/assumptions/synergies)
 
 		- condition object
 

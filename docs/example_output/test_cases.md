@@ -8,18 +8,6 @@
 
 ## Conditions
 
-	- Identify the processes & bio markers related to the condition as you go through search results so you can do secondary searches
-		- target metric to inhibit/increase
-		- cooperative metrics: synergistic compounds that enhance the effect of drugs without debilitating side effects
-			- search for these & the stressors that deactivate/activate them
-				Example: MUC1 - bacteria exposed to a split tail activates it
-		- antagonistic metrics: any compounds that can neutralize the drug & the supplements/foods that contain them
-			- get these inhibitors by looking up existing treatment pharmacokinetics/dynamics & interactions
-				- search for inhibit, induce, substrate
-				- check for synergistic effects & any effects that prevent the drug from being metabolized, which may be required to activate it
-				- once you find a treatment, you need to check it against context provided by user to filter the list of treatments or style it differently
-		- metrics further up the causal stack 
-			- if you decrease hunger, diabetes doesnt happen, which is also a treatment (fasting)
 
 ### I. diabetes 
 
@@ -39,6 +27,7 @@
 		- regulation of insulin signaling pathways
 		- translocation of GLUT-4 receptor 
 		- activation of the PPARγ
+
 
 ### II. fungal meningitis 
 
@@ -106,6 +95,7 @@
 		- stressor for kidneys
 		- 90% excreted in urine & sweat, 10% metabolized
 
+
 ### III. cancer
 
 	- relevant processes/attributes/systems:
@@ -144,121 +134,117 @@
 		- stressor routing (apply cell stress to nearby or systemic components, like with massage to induce blood flow, weights to induce tissue repair)
 		- reduce hormones that produce stressor-handler demand
 
-### IV. Liver function
 
-	- apple cider vinegar
-	- d-mannose
-	- bethanechol can stimulate the nerves of the bladder, making them more responsive to stimulus
-	- prelief is a dietary supplement that works as an acid blocker for the bladder
+### IV. Liver damage
 
-	- eat:
-	  - fruit & vegetables with vitamin c & get enough vitamin d
-	  - vegetables (broccoli, squash, kale, green beans, potatoes, lettuce, soy, celery, garlic)
-	  - lean proteins (turkey, chicken, fish, eggs)
-	  - low-acid fruit (certain berries, pears, apricots, papaya, watermelon)
-	  - high-fiber foods (wholegrain bread)
-	  - almonds, cashews, peanuts
+	- assist liver/digestion
 
-	- avoid:
-	  - alcoholic/caffeinated beverages (carbonated drinks, chocolate, coffee & tea)
-	  - high-acid foods (citrus fruits, apples, bananas, figs, cantaloupes, 
-	      grapes, guava, peaches, prunes, plums, strawberries, pineapples,
-	      cranberries (unless youre trying to clear an infection), 
-	      tomatoes, onions, rye bread, fava beans, lentils, lima beans, nuts
-	    )
-	  - acidic condiments (vinegar, spicy seasoning, mayonnaise, soy sauce)
-	  - weird or high-salt meat (corned beef, chicken liver, pickled herring)
-	  - dairy (except probiotic yogurt if it doesnt bother you)
-	  - excessive salt
-	  - any sugar other than from low-acid fruit
+		- supplements
+		  	- rosemary: cleans the blood & flushes harmful toxins from the liver, stimulates bile production & flow which aids digestion, may help liver problems (cirrhosis & jaundice)
+		  	- german chamomile stimulates the liver & gall bladder which helps digestion & cleans the blood
+		  	- peppermint stimulates bile flow from the liver & gall bladder & helps digestion
+		  	- juniper: helps digestion, helps liver eliminate waste products
+		  	- fennel: helps digestion, has an antiseptic, protective effect on the liver 
+		  	- cypress, lemon and thyme oils help clear the liver
+			- bethanechol can stimulate the nerves of the bladder, making them more responsive to stimulus
+			- prelief is a dietary supplement that works as an acid blocker for the bladder
+		  	- milk thistle
+		  	- turmeric
+		  	- bitter leafy greens such as dandelion, chicory and arugula also may promote liver function by reducing congestion because they stimulate bile flow
+		  	- diuretics (celery, parsley, dandelion root, cucumber, asparagus, eggplant, watercress, artichokes and watermelon)
+		  	- sulfur detoxifies medication substances, pesticides & other environmental toxins
+		  		- foods rich in sulfur include onions, garlic & cruciferous vegetables (broccoli, cauliflower, cabbage & brussels sprouts)
+		  		- the primary medicinal compound in garlic is called allicin, a strong antimicrobial that also deters infections
+		  	- antioxidants eliminate free radicals, which reduce tissue damage & allow the organs & blood vessels to properly heal 
+		  		- vitamins C & E, beta-carotene & flavonoids are powerful antioxidants found in citrus fruits, berries, dark-colored grapes, apples, tomatoes, carrots, broccoli, spinach & asparagus
+		  		- vitamin C also helps to dissolve calcium buildup in the kidneys
+		  	- b. rotunda fingerroot has the potential to help liver cirrhosis in humans & diuresis (excess urine), dysentery and abdominal pain 
 
-	- other compounds to help liver & kidneys:
-	  - milk thistle
-	  - turmeric
-	  - bitter leafy greens such as dandelion, chicory and arugula also may promote liver function by reducing congestion because they stimulate bile flow
-	  - diuretics (celery, parsley, dandelion root, cucumber, asparagus, eggplant, watercress, artichokes and watermelon)
-	  - sulfur detoxifies medication substances, pesticides & other environmental toxins
-	    foods rich in sulfur include onions, garlic & cruciferous vegetables (broccoli, cauliflower, cabbage & brussels sprouts)
-	    the primary medicinal compound in garlic is called allicin, a strong antimicrobial that also deters infections
-	  - antioxidants eliminate free radicals, which reduce tissue damage & allow the organs & blood vessels to properly heal
-	    vitamins C & E, beta-carotene & flavonoids are powerful antioxidants found in citrus fruits, berries, dark-colored grapes, apples, tomatoes, carrots, broccoli, spinach & asparagus
-	  - vitamin C also helps to dissolve calcium buildup in the kidneys
-	  - b. rotunda fingerroot has the potential to successfully treat liver cirrhosis in humans & diuresis (excess urine), dysentery and abdominal pain 
+		- nutrition:
+		  - apple cider vinegar
+		  - d-mannose
+		  - fruit & vegetables with vitamin c & get enough vitamin d
+		  - vegetables (broccoli, squash, kale, green beans, potatoes, lettuce, soy, celery, garlic)
+		  - lean proteins (turkey, chicken, fish, eggs)
+		  - low-acid fruit (certain berries, pears, apricots, papaya, watermelon)
+		  - high-fiber foods (wholegrain bread)
+		  - almonds, cashews, peanuts
 
-	- essential oils for liver:
-		- rosemary: cleans the blood & flushes harmful toxins from the liver, stimulates bile production & flow which aids digestion, treats liver problems (cirrhosis & jaundice)
-		- german chamomile: stimulates liver & gall bladder which helps digestion & cleans the blood
-		- peppermint: stimulates bile flow from liver & gall bladder & helps digestion
-		- juniper: helps digestion, helps liver eliminate waste products
-		- fennel: helps digestion, has an antiseptic & protective effect on the liver
+		- avoid:
+		  - alcoholic/caffeinated beverages (carbonated drinks, chocolate, coffee & tea)
+		  - high-acid foods (citrus fruits, apples, bananas, figs, cantaloupes, 
+		      grapes, guava, peaches, prunes, plums, strawberries, pineapples,
+		      cranberries (unless youre trying to clear an infection), 
+		      tomatoes, onions, rye bread, fava beans, lentils, lima beans, nuts
+		    )
+		  - acidic condiments (vinegar, spicy seasoning, mayonnaise, soy sauce)
+		  - organ/processed/high-salt meat (corned beef, chicken liver, pickled herring)
+		  - dairy (except probiotic yogurt if it doesnt bother you)
+		  - excessive salt
+		  - any sugar other than from low-acid fruit
 
-### V. Kidney function
+
+### V. Kidney damage
 
 	https://github.com/outdreamer/build-a-cure/blob/master/docs/example_output/kidney_function.md
 
-### VI. Heart function
 
-- heart supplements:
-  	- arginine in moderation
-  	- calcium in moderation
-  	- coq10
-  	- carnitine
-  	- magnesium
-  	- green tea in moderation
-  	- Angiotensin_II_receptor_blocker selectively block the activation of AT1 receptors, preventing the binding of angiotensin II compared to ACE inhibitors.[4] 
-	    - Angiotensin_II_receptor_blocker
-	      - Angiotensin_II_receptor_blocker main uses are in the treatment of hypertension (high blood pressure), diabetic nephropathy (kidney damage due to diabetes) and congestive heart failure. 
-	      - may worsen kidney functions such as reducing glomerular filtration rate associated with a rise of serum creatinine
-    - ace inhibitor
-      - ACEi have been shown to decrease erythropoietin production, help kidney function
-      - Suppression of angiotensin II leads to a decrease in aldosterone level
-      - ACE inhibitors can cause retention of potassium
-      - ACE inhibitors, but not for other RAAS blockers, is an increase in bradykinin level
-      - ACE inhibitor usually have a modest reduction in glomerular filtration rate (GFR)
-        - Reduced GFR is especially a problem if the patient is concomitantly taking an NSAID and a diuretic.
-          When the three drugs are taken together, the risk of developing renal failure is significantly increased.[20]
-    - angiotensin: a peptide hormone that causes vasoconstriction and an increase in blood pressure. 
-      It is part of the renin–angiotensin system, which regulates blood pressure. 
-      Angiotensin also stimulates the release of aldosterone from the adrenal cortex to promote sodium retention by the kidneys
-  	- beta blockers (reduce heart rate)
-  	- diuretic (fluid retention)
-  	- aldosterone antagonist
-	- creatine, taurine, D-ribose
-	- triptolide enhanced calcium restoration, curcumin inhibited ERK & p-STAT3 pathways, ginkolide B inhibited Ras/MAPK pathway, and steviol activated AMPK, which inhibited CFTR channel and mTOR pathway
+### VI. Heart damage
 
-
-## Functions
+	- heart supplements:
+	  	- arginine in moderation
+	  	- calcium in moderation
+	  	- coq10
+	  	- carnitine
+	  	- magnesium
+	  	- green tea in moderation
+	  	- Angiotensin_II_receptor_blocker selectively block the activation of AT1 receptors, preventing the binding of angiotensin II compared to ACE inhibitors.[4] 
+		    - Angiotensin_II_receptor_blocker
+		      - Angiotensin_II_receptor_blocker main uses are in the treatment of hypertension (high blood pressure), diabetic nephropathy (kidney damage due to diabetes) and congestive heart failure. 
+		      - may worsen kidney functions such as reducing glomerular filtration rate associated with a rise of serum creatinine
+	    - ace inhibitor
+	      - ACEi have been shown to decrease erythropoietin production, help kidney function
+	      - Suppression of angiotensin II leads to a decrease in aldosterone level
+	      - ACE inhibitors can cause retention of potassium
+	      - ACE inhibitors, but not for other RAAS blockers, is an increase in bradykinin level
+	      - ACE inhibitor usually have a modest reduction in glomerular filtration rate (GFR)
+	        - Reduced GFR is especially a problem if the patient is concomitantly taking an NSAID and a diuretic.
+	          When the three drugs are taken together, the risk of developing renal failure is significantly increased.[20]
+	    - angiotensin: a peptide hormone that causes vasoconstriction and an increase in blood pressure. 
+	      It is part of the renin–angiotensin system, which regulates blood pressure. 
+	      Angiotensin also stimulates the release of aldosterone from the adrenal cortex to promote sodium retention by the kidneys
+	  	- beta blockers (reduce heart rate)
+	  	- diuretic (fluid retention)
+	  	- aldosterone antagonist
+		- creatine, taurine, D-ribose
+		- triptolide enhanced calcium restoration, curcumin inhibited ERK & p-STAT3 pathways, ginkolide B inhibited Ras/MAPK pathway, and steviol activated AMPK, which inhibited CFTR channel and mTOR pathway
 
 
-I. stimulate bladder
-  - oregano oil
-  - cinnamon oil
-  - basil oil
-  - tea tree oil
-  - clary sage
-  - rosemary oil
+## Specific Functions
 
 
-2. bladder anti-spasmodic
-  - marjoram
-  - chamomile
-  - basil
-  - cypress
-  - grapefruit
-  - peppermint
-  - eucalyptus
+I. bladder
 
+	- stimulant
 
-3. assist liver/digestion
-  - rosemary treats liver problems including cirrhosis & jaundice
-  - german chamomile stimulates the liver & gall bladder which cleans the blood
-  - peppermint stimulates bile flow from the liver & gall bladder
-  - juniper
-  - fennel has an antiseptic, protective effect on the liver 
-  - cypress, lemon and thyme oils help clear the liver
+	  - oregano
+	  - cinnamon
+	  - basil
+	  - tea tree
+	  - clary sage
+	  - rosemary
 
+	- anti-spasmodic
+	  - marjoram
+	  - chamomile
+	  - basil
+	  - cypress
+	  - grapefruit
+	  - peppermint
+	  - eucalyptus
 
-4. regulate blood sugar
+2. regulate blood sugar
+
 	- cinnamon
 	- berberine
 	- Several flavonoids inhibit glucose absorption by inhibiting intestinal α-amylase and α-glucosidase
@@ -270,7 +256,17 @@ I. stimulate bladder
 		  - substitutions of caffeoyl, galloyl, and prenyl groups
 		  - ketone esters
 
-5. antifungal
+	- Hard exercise can make your blood sugar levels dip, which can lead to hypoglycemia
+	- dehydration can make your blood sugar harder to manage
+
+	- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
+		- enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure
+		- Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
+		
+	- amino acids may help regulate blood sugar, help recovery, improve muscle function
+
+
+3. antifungal
 
 	- compounds
 		- Propidium iodide rapidly penetrated the majority of the yeast cells when the cells were treated with concentrations just over the MICs, 
@@ -315,7 +311,6 @@ I. stimulate bladder
 		- 5-fluorocytosine
 		- Mebendazole, fenbendazole, flubendazole
 		- Caspofungin
-		- L-histidine supplements is important is the treatment of chronic kidney failure
 		- aryl-alkyl-lysines
 		- triclosan
 		- quercetin, rutin
@@ -366,6 +361,50 @@ I. stimulate bladder
 		- Azoles inhibit conversion of lanosterol to ergosterol by inhibition of lanosterol 14-alpha demethylase
 
 
+4. anti-inflammatory
+
+	- nsaids (aspirin)
+	- Antileukotrienes
+	- Immune selective anti-inflammatory derivatives (ImSAIDs)
+	- essential oils: eugenol, eucalyptol, menthone, and menthol
+	- curcumin
+	- phenols
+		- oleocanthal from olive oil (acts similarly to ibuprofen)
+		- flavonoids
+	- vitamins: 
+		- vitamin e
+		- selenium
+	- enzymes: 
+		- bromelain from pineapples (Ananas comosus)
+		- betaine
+		- batalaines
+	- Cannabichromene, a cannabinoid, also has anti-inflammatory effect
+	- Honokiol from Magnolia inhibits platelet aggregation, and works as an inverse agonist at the CB2 receptor
+	- Black seed (Nigella sativa) has shown anti-inflammatory effect due to its high thymoquinone content
+	- St. John's wort's chief constituent, hyperforin, has been found to be a potent COX-1 and 5-LO inhibitor, with anti-inflammatory effect several fold that of aspirin
+ 	- fruits & vegetables, nuts, seeds
+ 	- oily fish (which contain higher levels of omega-3 fatty acids)
+ 	- spices: ginger, garlic and cayenne
+ 	- exercise
+ 	- interactions: 
+ 		- garlic & nsaids (contradictory blood-thinning effects)
+ 		- high dose of omega 6 interferes with: cyclooxygenase 1 inhibitors, cyclooxygenase 2 inhibitors, antileukotrienes, nsaids
+ 		- nsaids & alcohol
+ 		- nsaids & cytokine derivatives (found in SSRI antidepressants)
+
+
+5. stimulate immune system
+
+	- melatonin
+	- algae
+	- vitamin d
+	- eha/dha
+	- turmeric/curcurmin
+	- glutamine
+	- probiotics
+	- Folic acid, vitamin B 6, riboflavin and thiamin are particularly important to the proper functioning of t-cells and their quantity
+
+
 6. lifespan extension/anti-aging
 
 	- carnosine prevents aging by preventing glycation
@@ -373,6 +412,7 @@ I. stimulate bladder
 
 
 7. prevent colitis
+
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2780078/
   - https://www.ncbi.nlm.nih.gov/pubmed/17217564 
 	  - Lactobacillus reuteri
@@ -418,12 +458,4 @@ I. stimulate bladder
 		    - green tea damages liver with more than a few cups
 
 
-10. anti-inflammatory
-	- melatonin
-	- algae
-	- vitamin d
-	- eha/dha
-	- turmeric/curcurmin
-	- glutamine
-	- probiotics
-	- Folic acid, vitamin B 6, riboflavin and thiamin are particularly important to the proper functioning of t-cells and their quantity
+10. compound functions/interactions: 	https://github.com/outdreamer/build-a-cure/blob/master/docs/example_output/compounds.md
