@@ -8,7 +8,7 @@
 
 	II. other substances listed may also be toxic & you should consult a nutritionist/scientist/doctor if you have any questions, like checking if you're using the right dose, to get specific custom advice for your health state
 
-		- for example, turmeric & fluconazole both damage your kidneys & liver above recommended amounts, like many other substances
+		- for example, both turmeric & fluconazole may damage your kidneys & liver at or above the recommended dose, like many other substances
 
 	III. other substances may be toxic in the amounts/combinations you take them, but there are no studies on the toxic dose of that substance/combination, so you may have no warning
 
@@ -25,3 +25,5 @@
 				- salvia: increases GFR, and anything that increases GFR may help reduce blood creatinine
 				- arginine: may increase creatine, but may also help reduce blood ammonia
 				- astragalus, goldenrod, horsetail, java, nettle, parsley, oregon grape, uva ursi, yohimbe, juniper may all be diuretics or have other useful functions, but they may also cause kidney damage in people who already have kidney damage/dysfunction
+
+	V. this repo does not contain specific, custom medical advice designed for your health state - it's an organized format applied to information about substances & rules output by systematic analysis, found in research with particular functionality for a given intent, which may or may not be helpful, given your health state. You need to do your own research, make your own calculations & decisions, consult professionals to resolve any questions & get custom advice, and stay up-to-date with the latest research, which may either invalidate/confirm the information in this repo.
