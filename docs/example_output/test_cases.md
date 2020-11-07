@@ -361,6 +361,76 @@
 				- return to other decisions for re-evaluation
 				- evaluation for progression/regression (and associated stages/symptoms/conditions)
 
+	- add info formats by intent
+
+		- advantages:
+
+			- function format
+				- you can see how organizing info by function clarifies the similarity between the reduce & prevent functions, which can both be used to accomplish prevention of the condition that compound 2 prevents
+
+			- component format
+				- this format narrows the focus to a particular object for quick, short-term fixes, which is useful for emergency situations like preventing destruction of important/rare resources
+
+			- type format
+				- this format clarifies the connections between similar objects, to quickly compared & find alternatives with the necessary similarities/differences
+
+		- by function (find impact/interaction of a function)
+
+			- reduce
+
+				- reduce damage
+					- compound 1
+					- compound 2
+
+				- reduce occurrence of condition
+					- compound 2
+
+			- prevent
+
+				- prevent condition
+					- compound 2
+
+		- by component (find related objects of a particular component)
+
+			- compound 1
+				- reduces damage
+
+			- compound 2
+				- reduces damage
+				- prevents condition
+
+		- by type (find similar/different alternatives)
+
+			- component type
+
+				- compound A
+					- compound 1
+
+				- cmopound B
+					- compound 2
+					- compound 3
+
+			- function type (types organized by function metadata)
+
+				- function type: has a particular input type
+					- reduce damage
+						- compound 1.reduce damage
+						- compound 2.reduce damage
+
+				- function type: has a structure
+					- compound 1.reduce damage
+
+				- function type: has a side effect
+					- compound 2.reduce damage
+
+				- function type: in a system
+					- compound A.reduce damage
+
+				- function type: for an intent
+					- compound 1.prevent condition
+
+		
+
 - key questions
 
 	- what are the ratios to maintain (amino acid, electrolyte, nutrient, calorie intake, vitamin, binders, rest vs. exercise, eating vs. fasting, hormone ratios)
