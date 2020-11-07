@@ -221,6 +221,16 @@
 				- arginine: may increase creatine, but may also help reduce blood ammonia
 				- astragalus, goldenrod, horsetail, java, nettle, parsley, oregon grape, uva ursi, yohimbe, juniper may all be diuretics or have other useful functions, but they may also cause kidney damage in people who already have kidney damage/dysfunction
 
+- recovery protocols
+	- to do: add protocols for different symptom sets/stages
+
+- key questions
+	- what are the ratios to maintain (amino acid, electrolyte, nutrient, calorie intake, vitamin, binders, rest vs. exercise, eating vs. fasting, hormone ratios)
+	- what causal structures are relevant (kidney-metabolic-heart inter-connected, multi-directional causal loop, where each can cause the other)
+	- what points, states, paths, & boundaries in the interaction space lead to recovery vs. progression
+	- what are the required functions for recovery/prevention/maintenance (filtration, circulation, fluid/blood pressure regulation)
+	- what causal degree can be targeted (amino acid vs. peptide vs. protein, inputs/requiremnts/precursors to problematic substances/processes)
+
 - kidney damage symptom causes:
 
 	- muscle weakness: fluid & electrolyte imbalance
