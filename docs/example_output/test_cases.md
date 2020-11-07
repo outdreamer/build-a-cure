@@ -73,6 +73,22 @@
 			(this insight should already exist in your insight db without those specifics)
 		- some natural processes break cell membranes
 
+		- Entry of anti-infectives into the central nervous system (CNS) depends on:
+		  - the compartment studied, 
+		  - molecular size, 
+		  - electric charge, 
+		  - lipophilicity, 
+		  - plasma protein binding, 
+		  - affinity to active transport systems at the blood-brain/blood-cerebrospinal fluid (CSF) barrier, 
+		  - host factors such as meningeal inflammation and CSF flow.
+
+		- The ideal compound to treat CNS infections 
+		  - is of small molecular size, 
+		  - is moderately lipophilic, 
+		  - has a low level of plasma protein binding, 
+		  - has a volume of distribution of around 1 liter/kg
+		  - is not a strong ligand of an efflux pump at the blood-brain or blood-CSF barrier
+
 	- standard system analysis questions should include:
 		- what are the limits of your system handling broken fungal cells?
 		- does combination therapy work (convert ergosterol to vitamin d & prevent ergosterol production) without system damage?
@@ -189,31 +205,92 @@
 
 ### V. Kidney function
 
-- check all compounds for dosage & interactions given your health with your doctor to verify research interpretation
 
-- avoid:
-	- any artificial substances, which will get in your blood and may not get filtered out by your damaged filtration organs, which may cause structural damage & mutations leading to cancer
-	- histidine & angiotensin 11 receptor blockers, regarding glomerulonephritis
-		- Angiotensin_II_receptor_blockers reduce kidney function in the form of reducing glomerular repair
-		- Angiotensin_II_receptor_blocker share a imidazole component with histidine
+- disclaimer: 
+	- check all compounds for dosage & interactions given your health with your doctor to verify research interpretation
+	- if you add supplements, check the label, reviews, business and add a little at a time (start with a fraction of a capsule)
+	- dont combine supplements without testing incrementally (start with small doses & minimal combinations, like starting with one at a time)
+	- dont take more than a few supplements at any time
 
-- avoid excessive:
-    - sodium, potassium, phosphorus, calcium
-    - choline 
-    - arginine
-    - aspirin, nsaids
-    - blood thinners or interactive supplements (garlic, saw palmetto)
-    - saturated fat/cholesterol/salt
-    - acceptable daily intake for stevia glycosides is 4 milligrams (mg) per kilogram of body weight (1 tsp max)
-    - high potassium herbs:
-      - alfalfa, dandelion, garlic, lemongrass, nettle, turmeric
-    - high phosphorus herbs:
-      - flax, milk thistle, onion, nettle, turmeric, sunflower
-    - avoid with kidney disease:
-      - astragalus, goldenrod, horsetail, java, nettle, oregon grape, parsley, uva ursi, yohimbe, juniper
+
+- kidney damage symptom causes:
+
+	- muscle weakness: fluid & electrolyte imbalance
+	- chest pain: inflammation of heart lining 
+	- lung pain: fluid buildup 
+
+
+- kidney damage causes
+
+	- blood flow to your kidneys is blocked or slowed
+		- dehydration, blood pressure problems, infection & liver failure can cause this 
+
+	- direct damage to your kidneys
+		- inflammation of glomeruli
+		- blood clots
+		- high cholesterol/deposits
+		- destruction of red blood cells causing Hemolytic uremic syndrome
+		- lupus
+		- medications/toxins
+		- Muscle tissue breakdown (rhabdomyolysis) or tumor lysis
+
+	- kidney urine drainage tubes (ureters) become blocked and wastes cant leave your body through your urine
+		- cancer
+		- nerve damage
+		- urinary blood clots
+		- kidney stones
+
+
+- kidney damage complications
+	- progression
+		- uremia
+		- conditions from low/high electrolytes (hypomagnesia/hypokalemia)
+			- hyperparathyroidism caused by high calcium
+	- blood pressure disregulation
+		- heart disease
+	- lack of blood sugar control
+		- hypoglycemia
+
+
+- nutrition
+
+	- nutritional requirements
+
+		- Acute renal failure
+		  Calories: 20-35 kcal/kg = 1000
+		  Protein: 0.6-0.8 g/kg if not receiving dialysis = 30 g 
+
+		- low calorie diet for renal damage repair
+			- VLCKD is a nutritional protocol that resembles fasting through a marked restriction of daily carbohydrate intake, usually lower than 30 g/day (≃ 13% of total energy intake) along with a relative increase in the proportions of fat (≃ 44%) and protein (≃ 43%) and a total daily energy intake < 800 kcal
+
+	- avoid:
+		- any artificial substances, which will get in your blood and may not get filtered out by your damaged filtration organs, which may cause structural damage & mutations leading to cancer
+		- histidine & angiotensin 11 receptor blockers, regarding glomerulonephritis
+			- Angiotensin_II_receptor_blockers reduce kidney function in the form of reducing glomerular repair
+			- Angiotensin_II_receptor_blocker share a imidazole component with histidine
+
+	- avoid excessive:
+	    - sodium, potassium, phosphorus, calcium	
+	    	- excess phosphate can cause low calcium levels, which can result in muscle spasms
+	    - choline 
+	    - arginine
+	    - aspirin, nsaids
+	    - blood thinners or interactive supplements (garlic, saw palmetto)
+	    - saturated fat/cholesterol/salt
+	    - acceptable daily intake for stevia glycosides is 4 milligrams (mg) per kilogram of body weight (1 tsp max)
+	    - high potassium herbs:
+	      - alfalfa, dandelion, garlic, lemongrass, nettle, turmeric
+	    - high phosphorus herbs:
+	      - flax, milk thistle, onion, nettle, turmeric, sunflower
+	    - avoid with kidney disease:
+	      - astragalus, goldenrod, horsetail, java, nettle, oregon grape, parsley, uva ursi, yohimbe, juniper
+	    - oxalate
+	    	- high oxalate: nuts, chocolate, soy, beans, starchy vegetables, & greens
+			- low oxalate: mushrooms, cucumbers, celery, iceberg lettuce & cauliflower
+
 
 - kidney function support 
-
+		  
   - relevant functions/metrics
 
   	- reduce:
@@ -225,6 +302,7 @@
 		- blood creatinine
 		- blood urea
 		- blood pressure
+		- blood ammonia
 
 	- maintain
 		- glomerular basement membrane
@@ -291,6 +369,13 @@
 	  - reduce bun level: 
 	  	- Polyenylphosphatidycholine (egg/soy, alternative version in lecithin)
 
+	  - reduce blood ammonia
+	    - kidneys cannot easily remove excess water, salt, or potassium from the blood
+		  - Low protein diets, are intended to minimize production of ammonia. Arginine, sodium benzoate and sodium phenylacetate help to remove ammonia from the blood. 
+		    Sodium phenylbutyrate metabolites allows the kidneys to excrete excess nitrogen in place of urea, and coupled with dialysis, amino acid supplements and a protein-restricted diet
+		    Phenylacetate is produced from bacterial degradation of unabsorbed phenylalanine (soybeans)
+		    Dialysis may be used to remove ammonia from the blood when it reaches critical levels
+
 	  - reduce mortality from ckd: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5535732/
 	    - dong quai (Angelica sinensis (Oliv.) Diels)
 	    - huang qi (Astragalus membranaceus)
@@ -343,6 +428,8 @@
 		- stevia
 		- melatonin 
 		- algae
+		- resveratrol
+		- avoid: capsicum (increases blood pressure)
 
 	  - digest protein (convert to amino acids):
 		- Proteases and peptidases split proteins into small peptides and amino acids
@@ -391,6 +478,10 @@
 	   	- calcium
 	   	- citric acid
 	   	- green tea
+	   	- extra vitamin C may be converted into oxalate
+
+	  - reduce hyperoxaluria
+	  	- probiotics 
 
 	  - diuretic
 	    - Punarnava/Boerhavia diffusa (regulating the creatinine level, diuretic, reduces kidney stones, reduces fibrosis)
@@ -426,6 +517,13 @@
 	  	- tryptophan
 	  	- green plants
 
+		- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
+			- enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure
+			- Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
+		
+		- GLP-1 RAs work by simulating the functions of the body's natural incretin hormones that help lower post-meal blood sugar levels. 
+			- The medicines in this group have been shown to reduce the risks of heart attack, ischemic stroke and/or cardiovascular death.
+
 	  - prevent microalbuminuria
 	  	- Gokshura-Punarnava Basti
 
@@ -446,13 +544,6 @@
 	  	- dha/eha
 
 	  - other
-
-		- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
-			- enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure
-			- Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
-		
-		- GLP-1 RAs work by simulating the functions of the body's natural incretin hormones that help lower post-meal blood sugar levels. 
-			- The medicines in this group have been shown to reduce the risks of heart attack, ischemic stroke and/or cardiovascular death.
 
 		- avoid valproic acid
 			- Inhibitors of histone deacetylase (HDAC) like valproic acid have anti-inflammatory and antifibrotic effects
@@ -477,6 +568,9 @@
 		    - curcumin
 		    - phytochemicals
 		    	- flavonoids
+		    		- Nobiletin: is a flavonoid isolated from citrus peels. It is an O-methylated flavone that has the activity to rescue bulbectomy-induced memory impairment 
+				- flavonone:
+				  - celery, lemons, rose hip, orange, peppermint, lime, tart/sour cherry, tomatoes, greek oregano, pearl mushroom
 		    	- isoflavones
 		    	- Polyphenols
 		    	- phytoestrogens
@@ -528,11 +622,34 @@
 					- improves glomerular filtration function
 					- protects renal glycosaminoglycans from abnormal degradation
 			
+					- hijiki has arsenic
+					- kelp, kombu are high in iodine
+					- creatine content 
+					  Spirulina   0.86 g
+					  Laver   0.79 g
+					  Wakame  0.27 g
+					  Kelp  0.19 g
+
 		- amino acids
 
 			- possibly helpful to kidney function: branch chain amino acids (isoleucine, leucine, valine), glutamine, arginine
 			- possibly harmful to kidney function: glycine, arginine, methionine
 			- ketoanalogues of essential amino-acids (with nitrogen removed from amino acids, to further reduce work for kidneys)
+
+			- getting essential amino acids
+				- complete proteins: Soy, Amaranth, quinoa, hempseed, and chia
+				- If you only eat grains and cereals, you wont get enough lysine; legumes such as peanuts, peas, dry beans and lentils contain a lot of lysine. 
+				- Legumes arent good sources of tryptophan, methionine, and cystine, but grains and cereals are. (Grains or nuts) & legumes are complementary proteins
+
+			- a-keto acids, by-products of amino acids: 
+				- oxaloacetate
+				- citrate
+				- isocitrate
+				- a-ketoglutarate
+				- succinyl coenzyme A
+				- succinate
+				- fumarate
+				- malate
 
 			- Essential amino acids 
 			  - histidine (beans, cauliflower, mushroom)
@@ -568,49 +685,147 @@
 			  - selenocysteine
 			  - pyrrolysine
 
-	- water fasting places stress on kidneys but reduces:
-	  - blood pressure
-	  - oxidative stress
-	  - mitochondrial dysfunction
-	  - fibrosis
-	  - preserves redox status and mitochondrial homeostasis at the chronic phase of damage after severe ischemia
-	  - the protective effect of fasting coincides with the suppression of inflammation and endoplasmic reticulum stress
+		- water fasting 
+			- places stress on kidneys but reduces:
+			  - blood pressure
+			  - oxidative stress
+			  - mitochondrial dysfunction
+			  - fibrosis
+			  - preserves redox status and mitochondrial homeostasis at the chronic phase of damage after severe ischemia
+			  - the protective effect of fasting coincides with the suppression of inflammation and endoplasmic reticulum stress
 
 
 - symptoms of kidney damage cause types: https://www.aafp.org/afp/2012/1001/p631.html
 
-	Type of acute kidney injury	History findings	Physical examination findings
+	- symptoms of related conditions
 
-	Prerenal
-	Volume loss (e.g., history of vomiting, diarrhea, diuretic overuse, hemorrhage, burns)
-	Weight loss, orthostatic hypotension and tachycardia
-	Thirst and reduced fluid intake
-	Poor skin turgor
-	Cardiac disease
-	Dilated neck veins, S3 heart sound, pulmonary rales, peripheral edema
-	Liver disease
-	Ascites, caput medusae, spider angiomas
+	  - hypercalcemia symptoms:
+	    - weakness and fatigue, depression, bone pain, muscle soreness (myalgias), decreased appetite, feelings of nausea and vomiting, constipation, polyuria, polydipsia, cognitive impairment, kidney stones ([nb 1]) and osteopenia or osteoporosis
 
-	Intrinsic renal
-	Acute tubular necrosis
-	History of receiving nephrotoxic medications (including over-the-counter, illicit, and herbal), hypotension, trauma or myalgias suggesting rhabdomyolysis, recent exposure to radiographic contrast agents
-	Muscle tenderness, compartment syndrome, assessment of volume status
+	  - hypocalcemia symptoms:
 
-	Glomerular
-	Lupus, systemic sclerosis, rash, arthritis, uveitis, weight loss, fatigue, hepatitis C virus infection, human immunodeficiency virus infection, hematuria, foamy urine, cough, sinusitis, hemoptysis
-	Periorbital, sacral, and lower-extremity edema; rash; oral/nasal ulcers
-		
-	Interstitial	
-	Medication use (e.g., antibiotics, proton pump inhibitors), rash, arthralgias, fever, infectious illness
-	Fever, drug-related rash
+	    - Petechiae which appear as on-off spots, then later become confluent, and appear as purpura (larger bruised areas, usually in dependent regions of the body).[citation needed]
+	    - Oral, perioral and acral paresthesias, tingling or 'pins and needles' sensation in and around the mouth and lips, and in the extremities of the hands and feet. This is often the earliest symptom of hypocalcaemia.
+	    - Carpopedal and generalized tetany (unrelieved and strong contractions of the hands, and in the large muscles of the rest of the body) are seen.
+	    - Latent tetany
+	      - Trousseau sign of latent tetany (eliciting carpal spasm by inflating the blood pressure cuff and maintaining the cuff pressure above systolic)
+	      - Chvostek's sign (tapping of the inferior portion of the cheekbone will produce facial spasms)[8]
 
-	Vascular
-	Nephrotic syndrome, trauma, flank pain, anticoagulation (atheroembolic disease), vessel catheterization or vascular surgery
-	Livedo reticularis, funduscopic examination (showing malignant hypertension), abdominal bruits
+	  - low/high blood pressure
 
-	Postrenal
-	Urinary urgency or hesitancy, gross hematuria, polyuria, stones, medications, cancer
-	Bladder distention, pelvic mass, prostate enlargement
+	    - hypertension
+
+	      - headaches (particularly at the back of the head and in the morning), as well as lightheadedness, vertigo, tinnitus (buzzing or hissing in the ears), altered vision or fainting episodes
+	      - headache, palpitations, pale appearance, and excessive sweating
+	      - confusion, drowsiness, chest pain and breathlessness
+	      - An increased rate of high blood urea 
+	      - eclampsia:
+	        - vision loss, brain swelling, seizures, kidney failure, pulmonary edema, and disseminated intravascular coagulation (a blood clotting disorder)
+
+	  - low/high blood sugar
+
+	    - hyperglycemia:
+            Polyuria – increased volume of urination (not an increased frequency, although it is a common consequence)
+            Blurred vision
+            Fatigue
+            Restlessness
+            Poor wound healing (cuts, scrapes, etc.)
+            Dry mouth
+            Dry or itchy skin
+            Tingling in feet or heels
+            Cardiac arrhythmia
+            Stupor
+            Seizures
+
+      	- hypoglycemia:
+            Shakiness, anxiety, nervousness
+            Palpitations, tachycardia
+            Sweating, feeling of warmth (sympathetic muscarinic rather than adrenergic)
+            Pallor, coldness, clamminess
+            Dilated pupils (mydriasis)
+            Hunger, borborygmus
+            Nausea, vomiting, abdominal discomfort
+            Headache
+            Abnormal thinking, impaired judgment
+            Feeling of numbness, pins and needles (paresthesia)
+            Fatigue, weakness, apathy, lethargy, daydreaming, sleep
+            Confusion, memory loss, lightheadedness or dizziness, delirium
+            Staring, glassy look, blurred vision, double vision
+            Flashes of light in the field of vision
+            Automatic behavior, also known as automatism
+            Difficulty speaking, slurred speech
+            Ataxia, incoordination, sometimes mistaken for drunkenness
+            Focal or general motor deficit, paralysis, hemiparesis
+            Headache
+            Stupor, coma, abnormal breathing
+            Generalized or focal seizures
+
+	  - fasting: drowsy, irritable, headache
+
+	- symptoms of electrolyte imbalances
+
+	  - High potassium
+	    - usually develops slowly over weeks or months. This can lead to feelings of fatigue or nausea
+	    - If your potassium spikes suddenly, you may experience difficulty breathing, chest pain, or heart palpitations, numbness or tingling, vomiting, irregular pulse
+
+	- symptom interactions
+		- Hard exercise can make your blood sugar levels dip, which can lead to hypoglycemia
+	  	- dehydration can make your blood sugar harder to manage
+
+	- Type of acute kidney injury
+
+		- Prerenal
+			Volume loss (e.g., history of vomiting, diarrhea, diuretic overuse, hemorrhage, burns)
+			Weight loss, orthostatic hypotension and tachycardia
+			Thirst and reduced fluid intake
+			Poor skin turgor
+			Cardiac disease
+			Dilated neck veins, S3 heart sound, pulmonary rales, peripheral edema
+			Liver disease
+			Ascites, caput medusae, spider angiomas
+
+		- Intrinsic renal
+			Acute tubular necrosis
+			History of receiving nephrotoxic medications (including over-the-counter, illicit, and herbal), hypotension, trauma or myalgias suggesting rhabdomyolysis, recent exposure to radiographic contrast agents
+			Muscle tenderness, compartment syndrome, assessment of volume status
+
+		- Glomerular
+			Lupus, systemic sclerosis, rash, arthritis, uveitis, weight loss, fatigue, hepatitis C virus infection, human immunodeficiency virus infection, hematuria, foamy urine, cough, sinusitis, hemoptysis
+			Periorbital, sacral, and lower-extremity edema; rash; oral/nasal ulcers
+			
+		- Interstitial	
+			Medication use (e.g., antibiotics, proton pump inhibitors), rash, arthralgias, fever, infectious illness
+			Fever, drug-related rash
+
+		- Vascular
+			Nephrotic syndrome, trauma, flank pain, anticoagulation (atheroembolic disease), vessel catheterization or vascular surgery
+			Livedo reticularis, funduscopic examination (showing malignant hypertension), abdominal bruits
+
+		- Postrenal
+			Urinary urgency or hesitancy, gross hematuria, polyuria, stones, medications, cancer
+			Bladder distention, pelvic mass, prostate enlargement
+
+
+- general symptoms
+
+    Fluid buildup. Acute kidney failure can sometimes cause a buildup of fluid in your body. If fluid builds up in your lungs, this can cause shortness of breath.
+	Chest pain. If the lining that covers your heart  becomes inflamed, you may have chest pain.
+	Acidic blood (metabolic acidosis). If your blood has too much acid due to acute kidney failure, you can end up with nausea, vomiting, drowsiness, and breathlessness.
+	Muscle weakness. When your body's fluids and electrolytes are out of balance, you can get  muscle weakness.  In serious cases, this can lead to paralysis and heart rhythm problems.
+    Lethargy
+    Weakness
+    Shortness of breath
+    Generalized swelling (edema)
+    Generalized weakness due to anemia
+    Loss of appetite
+    Lethargy
+    Fatigue
+    Congestive heart failure
+    Metabolic acidosis
+    High blood potassium (hyperkalemia)
+    Fatal heart rhythm disturbances (arrhythmias) including ventricular tachycardia and ventricular fibrillation
+    Rising urea levels in the blood (uremia) may lead to brain encephalopathy, pericarditis (inflammation of the heart lining), or low calcium blood levels (hypocalcemia)
+	Inability to remove potassium from the bloodstream may lead to abnormal heart rhythms and sudden death
 
 
 - chronic kidney disease symptoms by stage
@@ -721,25 +936,28 @@
   	- microalbumin: blood in urine, hematuria
   	- High urine specific gravity can indicate that you have extra substances in your urine, such as: glucose. protein. bilirubin. red blood cells. white blood cells. crystals. bacteria.
 
-- symptoms
-     Fluid buildup. Acute kidney failure can sometimes cause a buildup of fluid in your body. If fluid builds up in your lungs, this can cause shortness of breath.
-	Chest pain. If the lining that covers your heart  becomes inflamed, you may have chest pain.
-	Acidic blood (metabolic acidosis). If your blood has too much acid due to acute kidney failure, you can end up with nausea, vomiting, drowsiness, and breathlessness.
-	Muscle weakness. When your body's fluids and electrolytes are out of balance, you can get  muscle weakness.  In serious cases, this can lead to paralysis and heart rhythm problems.
-    Lethargy
-    Weakness
-    Shortness of breath
-    Generalized swelling (edema)
-    Generalized weakness due to anemia
-    Loss of appetite
-    Lethargy
-    Fatigue
-    Congestive heart failure
-    Metabolic acidosis
-    High blood potassium (hyperkalemia)
-    Fatal heart rhythm disturbances (arrhythmias) including ventricular tachycardia and ventricular fibrillation
-    Rising urea levels in the blood (uremia) may lead to brain encephalopathy, pericarditis (inflammation of the heart lining), or low calcium blood levels (hypocalcemia)
-	Inability to remove potassium from the bloodstream may lead to abnormal heart rhythms and sudden death
+  	- how to measure metrics
+  		- urine test strips
+			- if you have a kidney problem, there will be higher levels of urea, creatinine, and potassium in your urine 
+			- you may also have high blood pressure or changes in red blood cell count and calcium levels
+				https://www.thelancet.com/cms/attachment/2094672226/2077254362/gr2_lrg.jpg
+			- caffeine or ketones could cause pee to smell like popcorn 
+			- ketones cause the fruity smell, which indicates acids in the blood (ketoacidosis)
+			- measures:
+				1. Leukocytes – Presence of bacteria & Urinary Tract Infection
+				2. Nitrite – Indicator of Urinary Tract Infection
+				3. Urobilinogen – Indicator of liver issues
+				4. Protein – Indicator of kidney issues
+				5. pH – Acidic / alkaline levels in urine
+				6. Blood – Indicator of kidney stones
+				7. Specific Gravity – Efficiency of kidney filtering / Glomerular Filtration Rate (GFR)
+				8. Ketone – Indicator of diabetes / ketosis / acetoacetic level in urine
+				9. Bilirubin – Indicator of liver / gallbladder issues
+				10. Glucose – Indicator of diabetes (sugar in urine)
+				11. Ascorbate – Amount of vitamin C in urine
+				12. Micro-albumin – Indicator of kidney issues
+				13. Creatinine – Indicator of Kidney issues
+				14. Calcium – Indicator of Heart, Kidney & Thyroid issues
 
 
 ### VI. Heart function
@@ -775,6 +993,7 @@
 
 ## Functions
 
+
 I. stimulate bladder
   - oregano oil
   - cinnamon oil
@@ -782,6 +1001,7 @@ I. stimulate bladder
   - tea tree oil
   - clary sage
   - rosemary oil
+
 
 2. bladder anti-spasmodic
   - marjoram
@@ -792,6 +1012,7 @@ I. stimulate bladder
   - peppermint
   - eucalyptus
 
+
 3. assist liver/digestion
   - rosemary treats liver problems including cirrhosis & jaundice
   - german chamomile stimulates the liver & gall bladder which cleans the blood
@@ -799,6 +1020,7 @@ I. stimulate bladder
   - juniper
   - fennel has an antiseptic, protective effect on the liver 
   - cypress, lemon and thyme oils help clear the liver
+
 
 4. regulate blood sugar
 	- cinnamon
@@ -811,3 +1033,150 @@ I. stimulate bladder
 		  - holy basil, olive leaf, chaga
 		  - substitutions of caffeoyl, galloyl, and prenyl groups
 		  - ketone esters
+
+
+5. antifungal
+
+	- compounds
+		- Propidium iodide rapidly penetrated the majority of the yeast cells when the cells were treated with concentrations just over the MICs, 
+		  meaning that the fungicidal effect resulted from an extensive lesion of the cell membrane
+			- Clove oil and eugenol also caused a considerable reduction in the quantity of ergosterol, a specific fungal cell membrane component
+			- Natamycin is able to inhibit growth of fungi by specifically binding to ergosterol present in fungal cell membranes. The molecule interacts irreversibly with the sterol forming a sandwich-like structure embedded in the hydrophobic core of the membrane; between the two lipid layers. This causes membrane fragmentation and indirectly affects the functions ergosterol takes part in, such as endocytosis and exocytosis, vacuole fusion, morphogenesis, and amino acid and glucose transport across the membrane
+		- Amphotericin B, an antifungal drug, targets ergosterol. It binds physically to ergosterol within the membrane, thus creating a polar pore in fungal membranes. This causes ions (predominantly potassium and hydrons) and other molecules to leak out, which will kill the cell.
+			- quercetin & rutin helped activity of & lessened side effects of amphotericin
+		- Fluconazole, miconazole, itraconazole, clotrimazole, and myclobutanil work in a different way, inhibiting synthesis of ergosterol from lanosterol by interfering with 14α-demethylase
+		- Candicidin
+		- Filipin – 35 carbons, binds to cholesterol (toxic)
+		- Hamycin
+		- Natamycin – 33 carbons, binds well to ergosterol
+		- Nystatin
+		- Rimocidin
+		- berberine, caprylic acid, and undecylenic acid
+		- garlic
+			- In garlic supplements, vinyldithiins are only found in garlic oil macerates that are made by incubation of crushed garlic in oil
+			- When a garlic clove is crushed, the enzyme alliinase is released forming allicin from the cysteine sulfoxide alliin. Allicin breaks down into additional organosulfur compounds. 
+			- In the presence of oil or organic solvents, among the compounds formed are the isomeric vinyldithiins and ajoene
+			- allinase, allicin, ajoene, vinyldithiin, thiosulfinate
+			- ajoene is formed from a compound named allicin and an enzyme named allinase. When garlic is chopped or crushed, allicin and allinase come together to form the powerful antimicrobial agent ajoene.
+		- betulinic: rosemary
+		- ursolic: rosemary, thyme, holy basil, peppermint, apple peels
+		- oleanolic: olive oil, garlic
+		- amino and guanidinium derivatives of betulinic, ursolic, and oleanolic acids
+		- new triterpene acid derivatives exhibited excellent antifungal activity against Cryptococcus neoformans, 
+		  with MICs values being as low as 0.25 μg/ml (0.4 μM), and were approximately 65 times as active as fluconazole
+		- oregano, winter savory
+		- pine, thyme, eucalyptus
+		- green tea
+		- clove, cinnamon, thyme, garlic, ginger, tea, coffee (Cafestol), pepper, walnuts/pecans (ellagic acid), DHEA, saffron, resveratrol
+		- lysozyme
+		- cinnamic and benzoic acids
+		- Origanum vulgare (oregano), Pinus sylvestris (pine), and Thymus vulgaris (thyme red) EOs, and their components (α-pinene, carvacrol, thymol) 
+		- Apigenin - parsley, celery, celeriac, and chamomile tea
+		- polymyxin antibiotics (polymyxin B and colistin)
+		- miltefosine
+		- Scapania verrucosa
+		- Thapsia villosa
+		- Hirtellina lobelii
+		- 5-fluorocytosine
+		- Mebendazole, fenbendazole, flubendazole
+		- Caspofungin
+		- L-histidine supplements is important is the treatment of chronic kidney failure
+		- aryl-alkyl-lysines
+		- triclosan
+		- quercetin, rutin
+		- chlorpromazine
+		- terpenes, Aldehydes, & ketones are the toxic compound in essential oils
+		- essential oils:
+		  - ylang ylagn 
+		  - citronella/lemongrass, palmarosa, rose (geraniol) + aegle, geranium, patchouli, Eucalyptus, peppermint, Cinnamon
+		  - Among phenolic compounds, thymol and carvacrol are most fungitoxic. 
+		  - Terpenoids, citral, geraniol, and citronellol show best activities.
+		  - finger root (Boesenbergia rotunda) 
+		  	- Pinocembrin is in fingerroot (cerebral ischemia, intracerebral hemorrhage, neurodegenerative diseases)
+		  - limonene
+		  - thyme (Thymus camphoratus and Thymus carnosus): thymol, p-cymene, myrcene, borneol, & linalool
+		    - geraniol (LC50, 0.47 mg/ml) was the most toxic compound, 
+		    followed by thymol (1.08 mg/ml), 
+		    carvacrol (1.23 mg/ml) and 
+		    terpinen-4-ol (2.61 mg/ml)
+		    p-cymene significantly inhibited propagation
+		- chlorpromazine (Thorazine, Largactil, Hibernal, and Megaphen): increases valproic acid levels, which can be derived from valerian (valerian suppressed cyp3a4)
+
+	- mechanism
+
+		- The most common fungi to cause brain infections include filament-forming fungi like Aspergillus, Mucor and Rhizopus and yeast-type fungi such as Candida and Cryptococcus. 
+		  Less common causes of fungal brain infections include Trichosporon, Blastomyces, Histoplasma, Coccidioides, Paracoccidioides and Penicillium marneffei.
+
+		- Drug treatment of fungal brain infections is complicated by the fact that many common antifungal drugs do not easily cross the blood-brain barrier. 
+		  Some successes in treating fungal brain infections has been reported with the use of Amphotericin B, and some of the azole drugs such as Voriconazole and Posconazole. 
+		  The newer Echinocandin drugs such as Caspofungin and Micafungin are very effective in treating brain infections caused by such fungi as Aspergillus and Candida, 
+		  however they do not have good activity against some other fungi such as Cryptococcus, Mucor or Rhizopus.
+		  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4507162/
+
+		- Polyene antifungals
+			- A polyene is a molecule with multiple conjugated double bonds. 
+			- A polyene antifungal is a macrocyclic polyene with a heavily hydroxylated region on the ring opposite the conjugated system. 
+			- This makes polyene antifungals amphiphilic. 
+			- The polyene antimycotics bind with sterols in the fungal cell membrane, principally ergosterol. 
+			- This changes the transition temperature (Tg) of the cell membrane, thereby placing the membrane in a less fluid, more crystalline state. 
+			- In ordinary circumstances membrane sterols increase the packing of the phospholipid bilayer making the plasma membrane more dense.
+			- As a result, the cell contents including monovalent ions (K+, Na+, H+, and Cl−), small organic molecules leak.
+			- This is regarded one of the primary ways cell dies.
+		- convert ergosterol to vitamin d
+		- breaking fungal cell membranes by binding to ergosterol
+		- change transition temperature of cell membrane in same way as polyene antifungal so that small organic molecules leak
+		- Several anti-infectives (e.g., isoniazid, pyrazinamide, linezolid, metronidazole, fluconazole, and some fluoroquinolones) 
+		  reach a CSF-to-serum ratio of the areas under the curves close to 1.0 and, therefore, are extremely valuable for the treatment of CNS infections
+		- The polyene antimycotics bind with sterols in the fungal cell membrane, principally ergosterol
+		- Azoles inhibit conversion of lanosterol to ergosterol by inhibition of lanosterol 14-alpha demethylase
+
+
+6. lifespan
+	- carnosine prevents aging by preventing glycation
+	- excess methionine associated with short lifespan & cancer
+
+
+7. prevent colitis
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2780078/
+  - https://www.ncbi.nlm.nih.gov/pubmed/17217564 
+	  - Lactobacillus reuteri
+	  - Lactobacillus fermentum
+
+
+8. increase blood flow to brain
+
+  - increase electrolytes
+  - increase stimulants
+  - brain-clearing mechanisms (sleep)
+  - increase cell activity
+  - increase cell motion
+    - brain cell types that can move:
+      - glial: oligodendrocytes that migrate relative long distances to find their target axons onto which they wrap themselves to form the insulating myelin sheath
+      - neurons: post-mitotic (fully differentiated, not-dividing) neurons
+
+
+9. reduce hormones
+
+	- reduce estrogen
+	  - eat: red grapes, fiber, cauliflower, cabbage, b vitamins, mushrooms, melatonin, limonene, turmeric
+	  - avoid: dairy, fat
+	  - inhibit aromatase enzyme which enables conversion to estrogen
+	    - nettle root, resveratrol, oleuropein in olives, quercetin, zinc, green tea, white mushroomow
+
+	  - counteract phytoestrogen
+	    - ibuprofen
+	    - ranitidine
+
+	    - Avoid using saw palmetto together with other herbal/health supplements that can also affect blood-clotting. 
+	    	- This includes angelica (dong quai), capsicum, clove, danshen, garlic, ginger, ginkgo, horse chestnut, panax ginseng, poplar, red clover, turmeric, vitamin E, and willow.
+
+	    - Extracts of certain mushrooms have been shown to inhibit aromatase when evaluated by enzyme assays, with white mushroom having shown the greatest ability to inhibit the enzyme
+
+	    - alternative to saw palmetto (5-alpha reductase inhibitor, may block aromatase)
+
+		    - aromatase inhibitors (damiana, white mushroom, nettle, resveratrol, garlic, quercetin, apigenin, citrus, chamomile, thyme, red clover, brussel sprouts, cauliflower, DIM (Diindolylmethane), Indole-3-Carbinol)
+		      - decreased rate of bone maturation & growth, infertility, aggressive behavior, adrenal insufficiency, kidney failure, hair loss, and liver dysfunction
+		      - patients with liver, kidney or adrenal abnormalities are at a higher risk of developing adverse events
+		    - phytoestrogens in soy may block estrogen 
+		    - polyphenols reduce estrogen
+		    - green tea damages liver with more than a few cups
