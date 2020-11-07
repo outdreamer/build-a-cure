@@ -206,19 +206,26 @@
 ### V. Kidney function
 
 
-- disclaimer: 
-	- check all compounds for dosage & interactions given your health with your doctor to verify research interpretation
-	- if you add supplements, check the label, reviews, business and add a little at a time (start with a fraction of a capsule)
-	- dont combine supplements without testing incrementally (start with small doses & minimal combinations, like starting with one at a time)
-	- dont take more than a few supplements at any time
+- *** IMPORTANT ***
 
+	- disclaimer: 
+		- check all compounds for dosage & interactions given your health with your doctor to verify research interpretation
+		- if you add supplements, check the label, reviews, business and add a little at a time (start with a fraction of a capsule)
+		- dont combine supplements without testing incrementally (start with small doses & minimal combinations, like starting with one at a time)
+		- dont take more than a few supplements at any time
+		- pick one supplement from the most important functions (diuretic, renoprotective, reduce creatinine, lower blood pressure) and try the supplements with multiple functions first, according to your symptoms & stage
+			- example: 
+				- resveratrol is renoprotective & lowers blood pressure
+				- algae: boosts immune system & lowers blood pressure, but may increase creatinine levels, so avoid if your BUN/blood urea/blood creatinine is high or GFR is low
+				- salvia: increases GFR, and anything that increases GFR may help reduce blood creatinine
+				- arginine: may increase creatine, but may also help reduce blood ammonia
+				- astragalus, goldenrod, horsetail, java, nettle, parsley, oregon grape, uva ursi, yohimbe, juniper may all be diuretics or have other useful functions, but they may also cause kidney damage in people who already have kidney damage/dysfunction
 
 - kidney damage symptom causes:
 
 	- muscle weakness: fluid & electrolyte imbalance
 	- chest pain: inflammation of heart lining 
 	- lung pain: fluid buildup 
-
 
 - kidney damage causes
 
@@ -277,7 +284,7 @@
 	    - aspirin, nsaids
 	    - blood thinners or interactive supplements (garlic, saw palmetto)
 	    - saturated fat/cholesterol/salt
-	    - acceptable daily intake for stevia glycosides is 4 milligrams (mg) per kilogram of body weight (1 tsp max)
+	    - stevia: acceptable daily intake for stevia glycosides is 4 milligrams (mg) per kilogram of body weight (1 tsp max)
 	    - high potassium herbs:
 	      - alfalfa, dandelion, garlic, lemongrass, nettle, turmeric
 	    - high phosphorus herbs:
@@ -434,6 +441,10 @@
 	  - digest protein (convert to amino acids):
 		- Proteases and peptidases split proteins into small peptides and amino acids
 		- bcaa's and other amino acids as a temporary protein replacement to skip digestion, enzymes to help digestion
+		- avoid digesting protein by cutting out protein, or replacing protein with:
+			- peptides (shorter chains of amino acids)
+			- amino acids (building blocks of proteins)
+			- keto-analogues of amino acids (amino acids with nitrogen group removed)
 
 	  - promoting kidney filtration function
 	     - cinnamon (lower serum creatinine and improve kidney problems by promoting kidney filtration)
@@ -442,7 +453,7 @@
 	    - siberian ginseng (eleutheroside compounds in Siberian ginseng are thought to effectively rid the body of excess creatinine by promoting kidney circulation)
 
 	  - increase GFR
-	    - salvia (red sage, Chinese sage, tan shen, or danshen): (increase glomerular filtration rate. This helps facilitate creatinine elimination)
+	    - salvia (red sage, Chinese sage, tan shen, or danshen): increase glomerular filtration rate. This helps facilitate creatinine elimination
 	    - fucoidan
 
 	  - repair tissue
