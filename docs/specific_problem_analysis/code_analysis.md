@@ -25,16 +25,19 @@
       - functions should be entitled to push back on general app or other containing structure intents, if they are capable of spotting a probleem that could cascade upward that the app or other structures cannot (just like an engineer can see problems that the organization or industry cannot bc of incentive conflicts, profit cycles, & other structures)
 
 - stack layers
-    Frontend: templates, user event input processing, client (browser), config (browser settings), adjacent resources (active plugins), dependencies (SSL certs, keys, permissions, caches)
-    Web application server: route user requests to application resources (code base)
+    UI: templates, user event input processing, client (browser), config (browser settings), adjacent resources (active plugins), dependencies (SSL certs, keys, permissions, caches)
+    Application server: handle (apply security config, namespacing, permissions, respond with error codes) & route user requests to application resources (code base, access, process/CPU/memory allowance)
     Memory layer: buffers, volatile vs. persistent memory, memory access
     Process layer: process vs. thread
     Data store: store metadata (timestamps, indexes), state (cache), records (database rows), schema (database table design), references (key-value maps), objects (class instances, migration data)
     Infrastructure: Servers, Databases, Config, Pipelines, Environments, Containers, Virtual Machines, OS, Machine Images, Disks
     Networking layer: DNS, load balancer, proxies, VPN
-    Security layer: encryption algorithms, key store
+    Environment Layer: debugging, sandbox, pentesting, dev/quality assurance/test/production
+    Version Layer: data model governance (data versions, model versions), code versions, language versions, virtual environment versions, version sync/update/interaction strategy
+    Security layer: encryption algorithms, key store, permissions, firewalls
     Rule Layer: protocols, functions, rule access (permissions), rule enforcement (type checking)
-    Interaction Layer: cross-layer interactions, integration of code components, interaction of code & OS, interaction of processes
+    System Layer: OS, config, code, change tools (auto-updates, package managers), compilers/parsers/interpreters, languages, processes, ports
+    Isolation/Interaction Layer: competing/shared resources/processes, containers, cross-layer interactions, integration of code components, interaction of code & OS, interaction of processes
     Concept Layer: 
       Tests: 
         - concepts: clarity, responsibility, resiliency, necessity, scale, optimization, usage, extremes, standards, expectations, intent, meaning, cause, robustness
@@ -197,32 +200,33 @@
       - hypervisor layer
       - remote desktop protocol (RDP)
 
+- debugging
 
-- debugging attack points
+  - debugging attack points
 
-  - connectivity (network access, firewall/port config, router/cable/server environment problem (electricity/temperature regulation/connection/unplugged))
-  - dependency (versions, missing cache file/credentials/permissions/third party API service (like auth servers)/code library/different path after someone else updated tools on the server, CDN down, requesting/downloading prior/alternate versions of a resource since the expected one wasnt found, neglecting to update dependencies according to schedule from third party service provider before third party tool was updated, third party services havent fixed config/deployed updates like DNS propagation schedule, not patching code, hooking up added resources with existing resources)
-  - prioritization of requests favoring other requests on server
-  - lack of transaction management (failed requests arent re-tried, failed imports arent rolled back before re-import)
-  - model (a common input is being identified as indicating a need to update the model, and the update action accidentally allows re-training from beginning)
-  - browser/plugin (version has different support for or interaction with js libraries or other front-end features that dont have a backup code version available so the ajax call doesnt execute as expected, browser/plugin config optimizes for an intent like tab-navigation and overrides inputs having a certain pattern to make the inputs invalid)
-  - lack of edge case/exception handling for infrastructure or other stack component (cluster configured to launch new components if one fails, copying new instance from a particular node, but doesnt specify what to copy from if the reference node is missing)
-  - state/data structure (an operation becomes more performance in certain cases, like when a list is right under its threshold for allocating a new list and the entire list needs to be copied, and the time of this operation is below a web server config for returning certain error codes like a 60-second limit)
-  - timing (expected vs. actual schedules, lack of integration of sequential prioritization in scheduling)
-  - resources  (requests from users are above what infrastructure/configuration handles, so new components are being added to handle increased demand and copying/testing after addition is slowing down communication)
-  - code (CPU/memory hogging code, unhandled inputs, unnecessary/incorrect assumptions, missing rules, re-running processes more than necessary like every time a function is called instead of the first time, not accounting for threading vs. process trade-offs like synchronicity/memory-sharing/interaction with full stack components, a particular common input is triggering logs that aggregate quickly and the large log files are slowing down requests)
-  - maintenance (regular processes like running data imports or system optimization/tests occurring on a component of the stack)
-  - system (other tools/apps on the server being updated/installed, env vars are rewritten by system process so code uses a previous language version that is slower on some operations or cant handle inputs or find dependencies of other version, a process wasn't configured to reboot itself if terminated or boot on server startup if a new server just added to the cluster is being called)
-  - update conflict (priority of update requests ambiguous for conflicting versions - like sometimes one update source is executed first, sometimes another, and the update sequence has different results)
-  - data (database lock/optimization, database process like optimization/import/procedures/replications running, data corruption, slow queries/indexing not accounted for)
-  - access (lack of access to resources bc of other reasons - resources are being attacked, used by another process, accidentally deleted or otherwise missing, permissions were changed by an update or other admin/config process, config was overwritten by a self-fixing/reboot process after being interrupted)
-  - misconfiguration (accidental like selecting an incorrect cron schedule/firewall rule/user group, or copy-pasting the wrong config, or default like auto-configurations applied on startup/installation/update)
-  - attack (DDoS is keeping a resource busy and unable to handle incoming requests, ransomware changed file permissions)
+    - connectivity (network access, firewall/port config, router/cable/server environment problem (electricity/temperature regulation/connection/unplugged))
+    - dependency (versions, missing cache file/credentials/permissions/third party API service (like auth servers)/code library/different path after someone else updated tools on the server, CDN down, requesting/downloading prior/alternate versions of a resource since the expected one wasnt found, neglecting to update dependencies according to schedule from third party service provider before third party tool was updated, third party services havent fixed config/deployed updates like DNS propagation schedule, not patching code, hooking up added resources with existing resources)
+    - prioritization of requests favoring other requests on server
+    - lack of transaction management (failed requests arent re-tried, failed imports arent rolled back before re-import)
+    - model (a common input is being identified as indicating a need to update the model, and the update action accidentally allows re-training from beginning)
+    - browser/plugin (version has different support for or interaction with js libraries or other front-end features that dont have a backup code version available so the ajax call doesnt execute as expected, browser/plugin config optimizes for an intent like tab-navigation and overrides inputs having a certain pattern to make the inputs invalid)
+    - lack of edge case/exception handling for infrastructure or other stack component (cluster configured to launch new components if one fails, copying new instance from a particular node, but doesnt specify what to copy from if the reference node is missing)
+    - state/data structure (an operation becomes more performance in certain cases, like when a list is right under its threshold for allocating a new list and the entire list needs to be copied, and the time of this operation is below a web server config for returning certain error codes like a 60-second limit)
+    - timing (expected vs. actual schedules, lack of integration of sequential prioritization in scheduling)
+    - resources  (requests from users are above what infrastructure/configuration handles, so new components are being added to handle increased demand and copying/testing after addition is slowing down communication)
+    - code (CPU/memory hogging code, unhandled inputs, unnecessary/incorrect assumptions, missing rules, re-running processes more than necessary like every time a function is called instead of the first time, not accounting for threading vs. process trade-offs like synchronicity/memory-sharing/interaction with full stack components, a particular common input is triggering logs that aggregate quickly and the large log files are slowing down requests)
+    - maintenance (regular processes like running data imports or system optimization/tests occurring on a component of the stack)
+    - system (other tools/apps on the server being updated/installed, env vars are rewritten by system process so code uses a previous language version that is slower on some operations or cant handle inputs or find dependencies of other version, a process wasn't configured to reboot itself if terminated or boot on server startup if a new server just added to the cluster is being called)
+    - update conflict (priority of update requests ambiguous for conflicting versions - like sometimes one update source is executed first, sometimes another, and the update sequence has different results)
+    - data (database lock/optimization, database process like optimization/import/procedures/replications running, data corruption, slow queries/indexing not accounted for)
+    - access (lack of access to resources bc of other reasons - resources are being attacked, used by another process, accidentally deleted or otherwise missing, permissions were changed by an update or other admin/config process, config was overwritten by a self-fixing/reboot process after being interrupted)
+    - misconfiguration (accidental like selecting an incorrect cron schedule/firewall rule/user group, or copy-pasting the wrong config, or default like auto-configurations applied on startup/installation/update)
+    - attack (DDoS is keeping a resource busy and unable to handle incoming requests, ransomware changed file permissions)
 
-- debugging processes
+  - debugging processes
 
-  - dependency: set logs to debug, add logging statements/scripts from our team repo with process/stack tracing using pdb, sys trace & exception tracing and cli tracing to check running processes, check log aggregation/monitoring tools like datadog/cloudwatch/splunk, check healthcheck endpoints
-  - infrastructure issue: look for config drift in cloud provider, check that components exist & are active/accessible, check for failed deployments & scheduling conflicts
-  - server config/performance: check port access & firewall rules, check server/process logs, check which updates were executed recently, check for large files
-  - code: check code tests for failing tests, run code with edge-case data values with request data if available
-  - database: check logs, check for locks, recent permission changes, recent distribution/resiliency/transaction management config changes
+    - dependency: set logs to debug, add logging statements/scripts from our team repo with process/stack tracing using pdb, sys trace & exception tracing and cli tracing to check running processes, check log aggregation/monitoring tools like datadog/cloudwatch/splunk, check healthcheck endpoints
+    - infrastructure issue: look for config drift in cloud provider, check that components exist & are active/accessible, check for failed deployments & scheduling conflicts
+    - server config/performance: check port access & firewall rules, check server/process logs, check which updates were executed recently, check for large files
+    - code: check code tests for failing tests, run code with edge-case data values with request data if available
+    - database: check logs, check for locks, recent permission changes, recent distribution/resiliency/transaction management config changes
