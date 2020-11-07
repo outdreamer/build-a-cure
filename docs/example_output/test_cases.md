@@ -224,17 +224,30 @@
 - recovery protocols
 
 	- to do: 
+
 		- add diagnosis protocol
+
 			- questions & tests/metrics/symptoms to look for to resolve questions
+
 			- start with most-reductive questions first
+
 				- prioritize:
+
 					- questions that rule out the condition (most-filtering questions first with least info)
+
+						- questions that minimize 'minimum required info to answer'
+
+						- questions that have 'minimum required info to answer' in common with other questions
+
+						- questions that focus on unusual symptoms/metrics to reduce solution space
+
+						- questions that focus on symptoms/metrics with unique/unambiguous causes (vs. systemic variables that could be caused by many things)
 
 						- questions that rule out similar conditions
 							- questions that rule out conditions that are more common (prioritize more common conditions)
 							- questions that rule out conditions that are more commonly mistaken for this condition (prioritize ruling out common mistakes)
 							- questions that rule out conditions that are deadly (prioritize examining deadly conditions first)
-							- questions that rule out conditions that are untreatable (prioritize avoiding time spent analyzing untreatable conditions, relegating them to research)
+							- questions that rule out conditions that are untreatable/undiagnosable (prioritize avoiding time analyzing untreatable/undiagnosable/idiopathic conditions, relegating them to research)
 
 						- questions that rule out causal conditions
 							- conditions that cause kidney damage, which would make kidney damage diagnosis more likely if they cant be ruled out
@@ -242,6 +255,7 @@
 
 		- add protocols for different symptom sets/stages in interaction space
 			- add info for different stages (including recovery protocol, adjacent causal/caused conditions, tests to take, symptoms to look for to indicate progression/recovery)
+
 		- add flow chart for decisions (diagnosis, stage identification, considering alternate causes, selecting supplements)
 
 - key questions
