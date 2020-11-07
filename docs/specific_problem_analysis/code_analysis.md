@@ -84,8 +84,11 @@
       - Tomcat Server
       - IIS
 
+    - Computing
+      - Apache Spark
+
     - Streaming
-      - Apache Kafka
+      - Apache Kafka/Flink
 
     - Logging/Monitoring
       - Datadog
@@ -116,6 +119,7 @@
     - Connection Management
       - connection retry
       - request/response storage
+      - interrupt handling
 
     - Process Management
       - process tracing
@@ -175,7 +179,7 @@
       - relational database
       - object relational mapping
       - data classes (for migration)
-      - NoSQL (ElasticSearch, MongoDB)
+      - NoSQL (ElasticSearch, MongoDB) - https://en.wikipedia.org/wiki/NoSQL#Types_and_examples
       - key-value store (DynamoDB, Redis)
       - document store
       - distributed data store (Dynamo, BigTable, Mongo, Redis, Couchbase)
@@ -234,19 +238,49 @@
               - set of descriptive data cases needed to reduce data set to its variance
       
       - algorithms
-        - perceptron
-        - deep learning
-        - autoencoder
-        - genetic
-        - supervised
-        - unsupervised
-        - recurrent
-        - reinforcement
-        - convolution
-        - classification
-        - feedforward
-        - self-organizing map
-        - LSTM
+      
+        - core types
+
+          - perceptron
+          - feedforward
+          - artificial neural net
+          - deep learning algorithm
+
+        - general types
+
+          - supervised/unsupervised
+          - recurrent
+          - reinforcement
+          - clustering
+          - regression
+
+        - specific use/method
+
+          - decision tree
+
+
+          - classification
+            - clustering (nearest neighbors)
+
+          - competition
+            - genetic
+            - GANs
+
+          - data formatting
+            - autoencoders for categorical data
+
+          - dimensionality reduction
+            - pca/ica
+            - lda
+            - svd
+            - svm
+
+          - data type
+            - convolution
+            - time-relevant:
+              - LSTM
+
+          - self-organizing map
 
       - components
 
@@ -254,14 +288,12 @@
           - weights
           - functions
           - metrics & threshold values
+          - learning rate
 
         - metrics
 
-        - processes
-          - weight initialization
-          - node activation/navigation
+        - network functions
 
-        - functions
           - learning
             - update strategy
             - node navigation function
@@ -269,13 +301,18 @@
           - node activation function
             - cost function
 
-      - methods
-        - feature reduction
-        - feature selection
-        - backpropagation
-        - gradient descent
-        - regularization
-        - normalization
+          - network processes
+            - weight initialization
+            - node activation/navigation
+
+        - machine learning methods
+          - dimensionality reduction
+          - feature selection
+          - backpropagation
+          - gradient descent
+          - regularization
+          - normalization
+          - data augmentation
 
       - algorithm packages
         - tensorflow
@@ -284,15 +321,23 @@
         - keras
         - open neural networks
         - deeplearning4j
+        - ML lib
+
       - frameworks
         - fast.ai
         - open ai
         - h20 
+
       - AutoML
       - metrics
       - data visualization
       - model deployment/governance tools
       - machine learning IDEs
+        - jupyter
+        - pycharm
+        - rstudio
+        - visual studio
+        - atom
 
 - debugging
 
