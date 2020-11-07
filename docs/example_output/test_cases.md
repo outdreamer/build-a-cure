@@ -95,6 +95,7 @@
 		- anthrax for bladder cancer, salicylic acid (aspirin), AHCC, probiotics
 		- stressors & handlers (change demand request & supply response matching)
 		- known cancer drugs
+		- hormone-reduction methods
 		- ameliorative pathogen & microbe communities
 		- metabolism (especially in blood sugar control & other fuels for cancer, as well as culling misfolded proteins), dietary enzymes
 		- structural damage prevention (bind to toxins so theyre treated as fuel or not digested, tuning immune system to assume pathogens are hostile by default, tagging each new example encountered until its proven non-toxic using bio components as containers to form filters to allow testing, tuning immune system to gather & use the set of pathogen sub-components that will protect against all deadly pathogens)
@@ -116,6 +117,10 @@
 	  	- determine which organisms can borrow genes & look for link to cancer
 	  	- determine the ratio of stress that optimizes learning without killing the host; ideally the solution would use the extra cell division potential to make useful cells
 	  	- make a list of the common types of error the immune system makes (h pylori, cancer) & figure out if adjusting immune system function is the best layer to attack from
+		- teach system to 'forget' previous misconfigurations with cell regeneration
+		- teach system to function on various resource subsets with resource deprivation (fuel change, oxygen deprivation, environmental stress, nutrient-source variety)
+		- stressor routing (apply cell stress to nearby or systemic components, like with massage to induce blood flow, weights to induce tissue repair)
+		- reduce hormones that produce stressor-handler demand
 
 ### IV. Liver function
 
