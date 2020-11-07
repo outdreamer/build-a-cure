@@ -646,6 +646,12 @@
 			- possibly helpful to kidney function: branch chain amino acids (isoleucine, leucine, valine), glutamine, arginine
 			- possibly harmful to kidney function: glycine, arginine, methionine
 			- ketoanalogues of essential amino-acids (with nitrogen removed from amino acids, to further reduce work for kidneys)
+			- amino acids may help regulate blood sugar, help recovery, improve muscle function
+
+			- the amino acid ratio is important to get right:
+				- kidney damage patients may be low in BCAA's so supplementation may help prevent deficiency & related conditions (hypoalbuminemia)
+				- excess glutamine may reduce usage of other amino acids: https://pubmed.ncbi.nlm.nih.gov/22990615/
+				- lowering your methionine intake may enable other functions like recovery: https://pubmed.ncbi.nlm.nih.gov/29943496/
 
 			- getting essential amino acids
 				- complete proteins: Soy, Amaranth, quinoa, hempseed, and chia
