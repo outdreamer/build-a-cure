@@ -64,6 +64,7 @@
 		- histidine & angiotensin 11 receptor blockers, regarding glomerulonephritis
 			- Angiotensin_II_receptor_blockers reduce kidney function in the form of reducing glomerular repair
 			- Angiotensin_II_receptor_blocker share a imidazole component with histidine
+		- acidic foods: meat, fish, dairy, egg yolk, nuts, grains, carbonated drinks
 
 	- avoid excessive:
 	    - sodium, potassium, phosphorus, calcium	
@@ -130,6 +131,10 @@
 		- nitric oxide
 
   - specific compounds for relevant functions/metrics
+
+  	  - reduce blood acidity/increase blood ph
+
+  	    - alkaline foods (fruit, legumes, soy protein, egg whites, vegetables
 
 	  - reduce fibrosis
 	    - Gynostemma (reduce fibrosis)
@@ -315,7 +320,7 @@
 	  	- resveratrol
 	  	- ginger
 	  	- tryptophan
-	  	- green plants
+	  	- green plant membranes
 
 		- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
 			- enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure
@@ -436,6 +441,7 @@
 			- possibly harmful to kidney function: glycine, arginine, methionine
 			- ketoanalogues of essential amino-acids (with nitrogen removed from amino acids, to further reduce work for kidneys)
 			- amino acids may help regulate blood sugar, help recovery, improve muscle function
+			- L-histidine may help with chronic kidney failure
 
 			- the amino acid ratio is important to get right:
 				- kidney damage patients may be low in BCAA's so supplementation may help prevent deficiency & related conditions (hypoalbuminemia)
