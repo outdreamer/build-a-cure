@@ -222,9 +222,30 @@
 				- astragalus, goldenrod, horsetail, java, nettle, parsley, oregon grape, uva ursi, yohimbe, juniper may all be diuretics or have other useful functions, but they may also cause kidney damage in people who already have kidney damage/dysfunction
 
 - recovery protocols
-	- to do: add protocols for different symptom sets/stages
+
+	- to do: 
+		- add diagnosis protocol
+			- questions & tests/metrics/symptoms to look for to resolve questions
+			- start with most-reductive questions first
+				- prioritize:
+					- questions that rule out the condition (most-filtering questions first with least info)
+
+						- questions that rule out similar conditions
+							- questions that rule out conditions that are more common (prioritize more common conditions)
+							- questions that rule out conditions that are more commonly mistaken for this condition (prioritize ruling out common mistakes)
+							- questions that rule out conditions that are deadly (prioritize examining deadly conditions first)
+							- questions that rule out conditions that are untreatable (prioritize avoiding time spent analyzing untreatable conditions, relegating them to research)
+
+						- questions that rule out causal conditions
+							- conditions that cause kidney damage, which would make kidney damage diagnosis more likely if they cant be ruled out
+							- conditions that are caused by kidney damage, which would make kidney damage diagnosis more likely if they cant be ruled out
+
+		- add protocols for different symptom sets/stages in interaction space
+			- add info for different stages (including recovery protocol, adjacent causal/caused conditions, tests to take, symptoms to look for to indicate progression/recovery)
+		- add flow chart for decisions (diagnosis, stage identification, considering alternate causes, selecting supplements)
 
 - key questions
+
 	- what are the ratios to maintain (amino acid, electrolyte, nutrient, calorie intake, vitamin, binders, rest vs. exercise, eating vs. fasting, hormone ratios)
 	- what causal structures are relevant (kidney-metabolic-heart inter-connected, multi-directional causal loop, where each can cause the other)
 	- what points, states, paths, & boundaries in the interaction space lead to recovery vs. progression
