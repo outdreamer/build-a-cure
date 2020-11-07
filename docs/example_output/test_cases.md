@@ -221,9 +221,81 @@
 				- arginine: may increase creatine, but may also help reduce blood ammonia
 				- astragalus, goldenrod, horsetail, java, nettle, parsley, oregon grape, uva ursi, yohimbe, juniper may all be diuretics or have other useful functions, but they may also cause kidney damage in people who already have kidney damage/dysfunction
 
-- recovery protocols
+- protocols & schema
 
-	- to do: 
+	- schema: 
+
+		- condition object
+
+			- searching for a condition brings up related information like:
+				- standard medical info:
+					- differential diagnoses
+					- symptoms/states/stages
+					- tests/metrics
+				- recovery protocols
+				- diagnosis protocols (including tests/questions/metrics)
+				- variables
+				- questions
+				- requirements (inputs, precursors)
+				- related conditions (caused by & causative of)
+				- related systems (immune, circulatory)
+				- related functions (damaged/missing/unavailable functions, like 'regulate structure')
+					- inputs to related functions to check for (when examining specific causes for a particular patient & for use in diagnosing to test if a patient has a certain important function input/output that can be reported/measured)
+
+		- system object
+
+			- abstract interfaces
+			
+				- functions
+				- structures (position, surfaces, interaction layer)
+					- components (sub-structures)
+				- interactions (expected/handled/accidental, layer/function-based interactions)
+					- interaction space
+				- change/potential
+					- alternatives
+				- problems
+					- conflicts/competition (like conflicting structures)
+					- missing components (given the current set of useful combinations like those producing enzymes/proteins/genes, what other useful combinations arent being used or are adjacent)
+				- system objects
+					- efficiencies like sharing resources for common intents
+					- context/conditions/assumptions
+				- intents
+					- protect sub-system vs. protect system (a problematic conflict that allows auto-immune conditions to develop)
+					- trigger function vs. check for prioritization (a competition conflict for shared components that considers prioritized processes)
+				- strategies
+					- aligning neutralizing side effects (negative outputs used as inputs to a function in same interaction space)
+					- positioning functionality for task delegation (using DNA-propagating structures to restore damaged DNA)
+					- positioning functionality for relevance (position functionality at point-of-usage like at cellular level or in blood stream rather than a particular system/organ for quick responses to problems)
+					- positioning problems by handling function (deploy functionality to find relevant system, contain & move problems to a system that can handle them)
+
+			- specific interfaces
+
+				- input
+					- energy
+
+				- structures
+					- barriers: blood-brain barrier
+					- filters: skin/kidney/liver
+					- position: 
+						- adjacent components (healthy/dysfunctional, genes, cells)
+						- adjacent combinations (if merged with next similar component, what structures/components/functions can be formed)
+						- containing environment (organ, tumor, nerve, cell)
+						- interaction layer (molecular, blood, chemical, electrical, inflammatory)
+
+				- function
+					- testing/comparing/finding/filtering
+					- regulation/limiting
+					- repair/recovery
+					- evolution/stressor handling
+					- reduction/destruction/increase/inhibition/triggering/propagation/creation
+
+				- component
+					- enzyme
+					- protein
+					- cell
+					- pathways
+
+	- protocols
 
 		- add diagnosis protocol
 
