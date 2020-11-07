@@ -258,6 +258,10 @@
 - avoiding acidosis
 	- Baking soda can help supplement alkaline matter, bicarbonate, so it can help prevent acidosis and prevent kidney function decreasing so quickly
 
+- recovery/exercise:
+	- L-Arginine Alpha-Ketoglutarate: prevent muscle waste, wound healing, tissue repair
+	- bcaa: clear waste from blood, including waste produced by muscle damage from exercise
+
 - kidney function support 
 
   - carnitine (help with anemia)
@@ -281,158 +285,276 @@
       - sesame seed oil
       - phytoestrogens
 
-  - calcium carbonate to lower phosphorus 
-  - iron 
-  - erythropoietin for red blood cell production
+  - lower/bind to phosphorus 
+  	- calcium carbonate
+  	- magnesium acetate
+    - vitamin d (help control phosphorus levels)
+
+  - avoid anemia
+  	- iron 
+
+  - red blood cell production
+  	- erythropoietin
+
   - arginine
-  - Phyllanthus niruri
-    melatonin
-    curcumin
-    sulphonylurea glibenclamide
-    glibenclamide and glipizide
-    pioglitazone, rosiglitazone, thiazolidinedione, repaglinide, exenatide, pramlintide
-    Edaravone
-    Interleukin-1 receptor antagonists
-    vitamin e
-    ascorbic acid
-    carvedilol
-    Canagliflozin
-    phosphodiesterase 3, 4, 5 inhibitor
-    dangnyosoko
-    quercetin
-    flavonoids
-    Round-Head Lespedeza Extract (steam and leaf)
-    Birch Leaf Extract
-    Red Bilberry, (Vaccinium HIRTUM Thunb.) Extract (fruit)
-    Vitamin B6 (as pyridoxine HCI)
-    phytochemicals
-    Resveratrol
-    Polyphenols
-    Genistein
-    adiponectin
-    omega-3 fatty acids
-    statins
-    Teucrium
-    Satureja
-    garlic
-    soy
-    phytoestrogens
-    astragalus (asparagine that reduces creatinine levels and eliminates fluid in the kidneys)
-    lycopene
-    vitamin d (help control phosphorus levels)
-    glutamate cystein ligase and glutathione reductase
-    calcium (bind to oxalates)
-    testosterone
-    isoflavones
-    black cohosh
-    milk thistle (help kidney tissue recuperate faster)
-    Gynostemma (reduce fibrosis)
-    beet root (enhance your production of nitric oxide, increase blood flow)
-    ginger (remove toxins, reduce fibrosis)
-    Punarnava/Boerhavia diffusa (regulating the creatinine level, diuretic, reduces kidney stones, reduces fibrosis)
-    echinacea (removes various toxins like urea, uric acid, creatinine, high cholesterol from the blood)
-    Rehmannia (reduced the serum creatinine level, 24-h urinary protein excretion, & glomerulosclerosis, inhibited the expression of angiotensin II, AT(1) receptor, TGF-beta1 and type IV collagen )
-    Ginkgo biloba (renoprotective)
-    salvia (red sage, Chinese sage, tan shen, or danshen): (increase glomerular filtration rate. This helps facilitate creatinine elimination)
-    celery seed (diuretic)
-    onion
-    stinging nettle (diuretic properties that help remove metabolic waste products. The herb will also purify the blood and boost the immune system)
-    lemon juice/citric acid
-    chamomile (lower creatinine levels)
-    dandelion root (reduces creatinine levels)
-    cinnamon (lower serum creatinine and improve kidney problems by promoting kidney filtration)
-    siberian ginseng (eleutheroside compounds in Siberian ginseng are thought to effectively rid the body of excess creatinine by promoting kidney circulation)
-    Goldenrod (detoxify urinary tract)
-    Horsetail (diuretic)
-    Juniper (protects kidney cells against harmful toxins)
-    Java Tea (diuretic, prevent kidney stones)
-    Parsley (detoxify, diuretic)
-    Uva-Ursi (anti-irritant)
 
-	- fucoidan (algaes & seaweeds like mozuku, kombu, bladderwrack, wakame, and hijiki)
-		- inhibits renal fibrosis and glomerular sclerosis by reducing the accumulation of extracellular matrix. In addition, fucoidan reduces the inflammatory response and P-selectin expression, maintains the glomerular basement membrane and glomerular structural integrity, improves glomerular filtration function, and protects renal glycosaminoglycans from abnormal degradation
-		
-	- sulphurophane (maintained hemodynamics, mainly renal blood flow, Preservation of the nitric oxide pathway)
-	- cysteamine (produced by degradation of coenzyme A. The intermediate pantetheine is broken down into cysteamine and pantothenic acid - for renal glomerular disease, oral cysteamine reduces cellular cystine)
+  - relevant functions/metrics
 
-	- ketoanalogues of essential amino-acids (with nitrogen removed to reduce work for kidneys)
+  	- reduce:
+  		- renal fibrosis
+  		- glomerular sclerosis
+  		- accumulation of extracellular matrix
+		- inflammatory/irritation response
+		- P-selectin expression
+		- blood creatinine
+		- blood urea
 
-		- amino acids
+	- maintain
+		- glomerular basement membrane
+		- glomerular structural integrity
+
+	- increase
+		- glomerular filtration function
+		- immune function
+
+	- protect
+		- renal glycosaminoglycans
+		- renal filtration
+		- renal circulation
+		- nitric oxide pathway
+		- urinary function (filtration)
+
+	- repair
+		- tissue
+
+	- prevent
+		- kidney stones
+		- microalbuminuria
+		- uremia
+
+	- produce
+		- nitric oxide
+
+	- specific compounds for functions
+
+	  - reduce fibrosis
+	    - Gynostemma (reduce fibrosis)
+	    - ginger (remove toxins, reduce fibrosis)
+	    - Punarnava/Boerhavia diffusa (regulating the creatinine level, diuretic, reduces kidney stones, reduces fibrosis)
+
+	  - reduce creatinine (also anything that increases GFR will help reduce blood creatinine)
+	    - astragalus (asparagine that reduces creatinine levels and eliminates fluid in the kidneys)
+	    - Punarnava/Boerhavia diffusa (regulating the creatinine level, diuretic, reduces kidney stones, reduces fibrosis)
+	    - echinacea (removes various toxins like urea, uric acid, creatinine, high cholesterol from the blood)
+	    - Rehmannia (reduced the serum creatinine level, 24-h urinary protein excretion, & glomerulosclerosis, inhibited the expression of angiotensin II, AT(1) receptor, TGF-beta1 and type IV collagen)
+	    - cinnamon (lower serum creatinine and improve kidney problems by promoting kidney filtration)
+	    - siberian ginseng (eleutheroside compounds in Siberian ginseng are thought to effectively rid the body of excess creatinine by promoting kidney circulation)
+	    - chamomile (lower creatinine levels)
+	    - dandelion root (reduces creatinine levels)
+
+	  - prevent kidney stones
+	    - Java Tea (diuretic, prevent kidney stones)
+        - Hydrangea Root (prevent kidney stones, helps use calcium to prevent stones)
+        - Chanca Piedra (prevent kidney stones)
+        - Banaba (diuretic, prevent kidney stones)
+        - Couch Grass (diuretic, prevent kidney stones)
+        - Dandelion Root (diuretic, prevent kidney stones)
+        - Green Tea (diuretic, prevent kidney stones)
+
+	  - promoting kidney filtration function
+	     - cinnamon (lower serum creatinine and improve kidney problems by promoting kidney filtration)
+
+	  - promoting kidney circulation function
+	    - siberian ginseng (eleutheroside compounds in Siberian ginseng are thought to effectively rid the body of excess creatinine by promoting kidney circulation)
+
+	  - increase GFR
+	    - salvia (red sage, Chinese sage, tan shen, or danshen): (increase glomerular filtration rate. This helps facilitate creatinine elimination)
+	    - fucoidan
+
+	  - repair tissue
+	    - milk thistle (help kidney tissue recuperate faster)
+
+	  - produce nitric oxide
+	    - beet root (enhance your production of nitric oxide, increase blood flow)
+		- sulphurophane (maintained hemodynamics, mainly renal blood flow, Preservation of the nitric oxide pathway)
+
+	  - increase blood flow
+	    - beet root (enhance your production of nitric oxide, increase blood flow)
+		- sulphurophane (maintained hemodynamics, mainly renal blood flow, Preservation of the nitric oxide pathway)
+
+	  - reduce cellular cystine (for renal glomerular disease)
+	  	- oral cysteamine reduces cellular cystine (broken down from coenzyme A)
+
+	  - renoprotective
+	    - Juniper (protects kidney cells against harmful toxins)
+	    - Ginkgo biloba (renoprotective)
+	    - caffeic acid (coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate)
+
+	  - bind to oxalates
+	   	- calcium
+
+	  - diuretic
+	    - Punarnava/Boerhavia diffusa (regulating the creatinine level, diuretic, reduces kidney stones, reduces fibrosis)
+	    - stinging nettle (diuretic properties that help remove metabolic waste products. The herb will also purify the blood and boost the immune system)
+	    - celery root/seed (diuretic)
+	    - Horsetail (diuretic)
+	    - Java Tea (diuretic, prevent kidney stones)
+	    - Parsley (detoxify, diuretic)
+        - Marshmallow Root (diuretic, urinary tract health)
+        - Dandelion Root (diuretic, prevent kidney stones)
+        - Green Tea (diuretic, prevent kidney stones)
+
+	  - protect urinary function
+	    - Goldenrod (detoxify urinary tract)
+        - Marshmallow Root (diuretic, urinary tract health)
+
+	  - anti-inflammatory/anti-irritant
+	  	- fucoidan
+	    - Uva-Ursi (anti-irritant)
+		- caffeic acid (coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate)
+
+	  - prevent infection
+	    - Gravel Root (antibiotic)
+
+	  - prevent microalbuminuria
+	  	- Gokshura-Punarnava Basti
+
+	  - prevent anemia
+	    - carnitine (derived from lysine): reduce lipid level, counter c reactive protein, anti-anemia action due to its effects on erythropoiesis, and positive effects on the longevity and deformability of erythrocytes
+
+	  - immune system
+	  	- curcumin
+	  	- melatonin
+	  	- vitamin d
+	  	- algae (spirulina, bladderwrack)
+	  	- glutamine
+	  	- probiotics
+	  	- dha/eha
+
+	  - other
+
+	    - medications
+	    	- statins
+		    - sulphonylurea glibenclamide
+		    - glibenclamide/glipizide
+		    - pioglitazone, rosiglitazone, thiazolidinedione, repaglinide, exenatide, pramlintide
+		    - Edaravone
+		    - Interleukin-1 receptor antagonists
+		    - Canagliflozin
+		    - phosphodiesterase 3, 4, 5 inhibitor
+		   
+	    - nutritional compounds:
+		    - curcumin
+		    - phytochemicals/flavonoids/isoflavones/Polyphenols
+		    	- phytochemical sources
+				  - mushroom, avocado, artichoke, olive
+				  - red pepper, paprika, chilli pepper, black pepper, bell pepper
+				  - coffee, tea
+				  - seafood, egg
+				  - beans, nuts, seeds (sesame, almond, cashew, peanut, sunflower, walnut, flax, poppy)
+				  - spinach, chard, romaine lettuce, celery, leek, cucumber, broccoli, brussels sprout, cabbage, asparagus, turnip, kale, eggplant, zucchini, cauliflower, shallot, onion, horseradish, wasabi
+				  - alfalfa, garlic, clove, basil, rose hip, peppermint, lavender, oregano, thyme, chaga, spearmint, dill, celery, rosemary, ginger, hop, caraway, mint, fennel, parsley, sage, oregano, pepperwort, 
+				    wild bergamot, lovage, chive, endive, chicory, mustard, cilantro, goldenrod, mustard, ginkgo biloba, chamomile, celeriac, lemongrass, cocoa, red clover, milk thistle, curcumin, peppermint, 
+				    vanilla, licorice, nettle, burdock, echinacea, cinnamon, aloe, ginger
+				  - Epigallocatechin gallate (EGCG) green tea
+				  - algae
+				  
+		    - Resveratrol
+		    - garlic
+		    - soy
+		    - phytoestrogens
+		    - lycopene
+	    	- omega-3 fatty acids
+		    - onion
+	    	- lemon juice/citric acid/ascorbic acid
+	    	- vitamin e, c, d, Vitamin B6 (as pyridoxine HCI)
+	    	- quercetin
+
+	    - supplements
+	    	- kasani (alkaliser, provide strength to the kidneys)
+		  	- Phyllanthus niruri
+		    - melatonin
+		    - carvedilol
+	    	- dangnyosoko
+	 		- Round-Head Lespedeza Extract (steam and leaf)
+	    	- Birch Leaf Extract
+	    	- Red Bilberry (Vaccinium HIRTUM Thunb) Extract (fruit)
+		    - Genistein
+		    - adiponectin
+		    - Teucrium
+		    - Satureja
+		    - glutamate cystein ligase & glutathione reductase
+		    - testosterone
+		    - black cohosh
+			- fucoidan (algaes & seaweeds like mozuku, kombu, bladderwrack, wakame, and hijiki)
+				- inhibits renal fibrosis and glomerular sclerosis by reducing the accumulation of extracellular matrix
+				- reduces the inflammatory response and P-selectin expression
+				- maintains the glomerular basement membrane and glomerular structural integrity
+				- improves glomerular filtration function
+				- protects renal glycosaminoglycans from abnormal degradation
+				
+		- ketoanalogues of essential amino-acids (with nitrogen removed to reduce work for kidneys)
+
+		  - amino acids
 
 			- Essential:  
-			  histidine (beans, cauliflower, mushroom)
-			  isoleucine
-			  leucine
-			  lysine (soy, pea, beans)
-			  methionine
-			  phenylalanine (soy)
-			  threonine (lentils, sesame)
-			  tryptophan (spirulina, soy, sesame, sunflower)
-			  valine
+			  - histidine (beans, cauliflower, mushroom)
+			  - isoleucine
+			  - leucine
+			  - lysine (soy, pea, beans)
+			  - methionine
+			  - phenylalanine (soy)
+			  - threonine (lentils, sesame)
+			  - tryptophan (spirulina, soy, sesame, sunflower)
+			  - valine
 			- Conditionally essential:
-			  arginine
+			  - arginine
 			  	- synthesized in the body from glutamine via citrulline
 			  	- required to produce nitric oxide which may damage tissues
 			  	- useful with renal ablation, ureteral obstruction, nephropathy secondary to diabetes, and salt-sensitive hypertension, attenuating the symptoms of preeclampsia, protective in ischemic acute renal failure
 			  	- harmful in glomerulonephritis
-			  cysteine
-			  glutamine
+			  - cysteine
+			  - glutamine
 			  	- glutamine supplementation in healthy athletes were associated with no significant adverse effects, but it can cause glomerulosclerosis and serum creatinine level elevation in the setting of diabetic nephropathy
-			  glycine (sesame, soy, pumpkin, nuts)
-			  proline
+			  - glycine (sesame, soy, pumpkin, nuts)
+			  - proline
 			  	- produced from arginine
-			  tyrosine
+			  - tyrosine
 			- Non-essential:
-			  alanine 
-			  aspartic acid 
-			  asparagine
-			  glutamic acid
-			  serine
-			  selenocysteine
-			  pyrrolysine
+			  - alanine 
+			  - aspartic acid 
+			  - asparagine
+			  - - glutamic acid
+			  - serine
+			  - selenocysteine
+			  - pyrrolysine
 
 			- possibly helpful to kidney function: branch chain amino acids (isoleucine, leucine, valine), glutamine, arginine
 			- possibly harmful to kidney function: glycine, arginine, methionine
 
-			- carnitine (derived from lysine): reduce lipid level, counter c reactive protein, anti-anemia action due to its effects on erythropoiesis, and positive effects on the longevity and deformability of erythrocytes
+			- other
+				- carnitine (derived from lysine): reduce lipid level, counter c reactive protein, anti-anemia action due to its effects on erythropoiesis, and positive effects on the longevity and deformability of erythrocytes
 
-    - prevent infection
-        Gravel Root (antibiotic)
-    - prevent stones
-        Hydrangea Root (prevent kidney stones, helps use calcium to prevent stones)
-        Chanca Piedra (prevent kidney stones)
-        Banaba (diuretic, prevent kidney stones)
-        Couch Grass (diuretic, prevent kidney stones)
-    - diuretic
-        Celery Root (diuretic)
-        Marshmallow Root (diuretic, urinary tract health)
-        Dandelion Root (diuretic, prevent kidney stones)
-        Green Tea (diuretic, prevent kidney stones)
-    - other
-        kasani (alkaliser, provide strength to the kidneys)
-        Gokshura-Punarnava Basti (prevent microalbuminuria)
-
-
-	- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
-	  - enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure.[5]
-	  Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
-	- GLP-1 RAs work by simulating the functions of the body's natural incretin hormones that help lower post-meal blood sugar levels. 
-	  The medicines in this group have been shown to reduce the risks of heart attack, ischemic stroke and/or cardiovascular death.
-	- caffeic acid (spearmint)
-	  - CAFF proved to protect against SVP-induced nephrotoxicity via its antioxidant, anti-inflammatory, and antiapoptotic properties
-	  - coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate
-	- valproic acid
-	  - Inhibitors of histone deacetylase (HDAC) like valproic acid have anti-inflammatory and antifibrotic effects
-	  - valproic acid before kidney injury prevented the development of proteinuria and the onset of glomerulosclerosis. 
-	  - Even after postponing treatment until the peak of adriamycin-induced proteinuria, valproic acid rapidly decreased the quantity of proteinuria and attenuated the progression of renal disease. 
-	  - Valproic acid abrogated the decrease in glomerular acetylation observed during adriamycin-induced nephropathy. 
-	  - Furthermore, valproic acid attenuated the significant upregulation of profibrotic and proinflammatory genes, the deposition of collagen, and the infiltration of macrophages into the kidney
-	- vitamin u (counters valproic acid)
-	  - Collectively, these data show that VPA is a promoter of inflammation, oxidative stress, and fibrosis which resulted in renal damage. Vit U can be proposed as a potential candidate for preventing renal damage which arose during the therapeutic usage of VPA. 
-	- blue-green algae
-	  - lowers blood pressure
-	  - reduce the production of pro-inflammatory cytokines by inhibiting NF-κB pathway in macrophages and splenocytes - Sulfate polysaccharides exhibit immunomodulatory, antitumor, antithrombotic, anticoagulant, anti-mutagenic, anti-inflammatory, antimicrobial, and even antiviral activity
-	  - regulation of macrophage function, natural killer cells, and T/B lymphocytes, together with the stimulation of the immune responses of lymphocytes and the activation of the complement system
+				- SGLT2 inhibitors decrease blood sugar by causing the kidneys to remove sugar from the body through the urine. 
+				  - enhance blood sugar control as well as reduce body weight and systolic and diastolic blood pressure.[5]
+				  Research on medicines in this class have shown they also can reduce the risk of heart failure, slow the progression of chronic kidney disease and reduce risk of cardiovascular death. 
+				- GLP-1 RAs work by simulating the functions of the body's natural incretin hormones that help lower post-meal blood sugar levels. 
+				  The medicines in this group have been shown to reduce the risks of heart attack, ischemic stroke and/or cardiovascular death.
+				- caffeic acid (spearmint)
+				  - CAFF proved to protect against SVP-induced nephrotoxicity via its antioxidant, anti-inflammatory, and antiapoptotic properties
+				  - coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate
+				- valproic acid
+				  - Inhibitors of histone deacetylase (HDAC) like valproic acid have anti-inflammatory and antifibrotic effects
+				  - valproic acid before kidney injury prevented the development of proteinuria and the onset of glomerulosclerosis. 
+				  - Even after postponing treatment until the peak of adriamycin-induced proteinuria, valproic acid rapidly decreased the quantity of proteinuria and attenuated the progression of renal disease. 
+				  - Valproic acid abrogated the decrease in glomerular acetylation observed during adriamycin-induced nephropathy. 
+				  - Furthermore, valproic acid attenuated the significant upregulation of profibrotic and proinflammatory genes, the deposition of collagen, and the infiltration of macrophages into the kidney
+				- vitamin u (counters valproic acid)
+				  - Collectively, these data show that VPA is a promoter of inflammation, oxidative stress, and fibrosis which resulted in renal damage. Vit U can be proposed as a potential candidate for preventing renal damage which arose during the therapeutic usage of VPA. 
+				- blue-green algae
+				  - lowers blood pressure
+				  - reduce the production of pro-inflammatory cytokines by inhibiting NF-κB pathway in macrophages and splenocytes - Sulfate polysaccharides exhibit immunomodulatory, antitumor, antithrombotic, anticoagulant, anti-mutagenic, anti-inflammatory, antimicrobial, and even antiviral activity
+				  - regulation of macrophage function, natural killer cells, and T/B lymphocytes, together with the stimulation of the immune responses of lymphocytes and the activation of the complement system
 
 	- Sulfated polysaccharides effectively inhibit SARS-CoV-2 in vitro (sulphurophane)
 
@@ -444,18 +566,6 @@
 	  - preserves redox status and mitochondrial homeostasis at the chronic phase of damage after severe ischemia
 	  - the protective effect of fasting coincides with the suppression of inflammation and endoplasmic reticulum stress
 
-	- phytochemical sources
-	  - mushroom, avocado, artichoke, olive
-	  - red pepper, paprika, chilli pepper, black pepper, bell pepper
-	  - coffee, tea
-	  - seafood, egg
-	  - beans, nuts, seeds (sesame, almond, cashew, peanut, sunflower, walnut, flax, poppy)
-	  - spinach, chard, romaine lettuce, celery, leek, cucumber, broccoli, brussels sprout, cabbage, asparagus, turnip, kale, eggplant, zucchini, cauliflower, shallot, onion, horseradish, wasabi
-	  - alfalfa, garlic, clove, basil, rose hip, peppermint, lavender, oregano, thyme, chaga, spearmint, dill, celery, rosemary, ginger, hop, caraway, mint, fennel, parsley, sage, oregano, pepperwort, 
-	    wild bergamot, lovage, chive, endive, chicory, mustard, cilantro, goldenrod, mustard, ginkgo biloba, chamomile, celeriac, lemongrass, cocoa, red clover, milk thistle, curcumin, peppermint, 
-	    vanilla, licorice, nettle, burdock, echinacea, cinnamon, aloe, ginger
-	  - Epigallocatechin gallate (EGCG) green tea
-	  - algae
 
 - symptoms of kidney damage cause types: https://www.aafp.org/afp/2012/1001/p631.html
 
