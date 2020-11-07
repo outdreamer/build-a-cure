@@ -97,7 +97,7 @@
 
   - the 'prediction accuracy' is the relevant object to optimize, which can be derived from the original problem statement 'predicting system behavior more efficiently' once broken into sub-problem problem-solving intents like 'optimize learning' with the same structure-application process.
 
-  This invention involves several key components like:
+  - This invention involves several key components like:
     - a network of interfaces
     - information formats
     - a definition of problem-related objects - like intent, problem space, solution, & meaning (the meaning interface is a meta-interface to connect the other interfaces in a way that is relevant to the problem intent)
@@ -106,11 +106,55 @@
     - interface query logic that comes with defaults built-in (such as 'query the pattern interface to handle missing information or to find common information')
     - a language to standardize & connect these components using as few terms as possible (verbs like find/build/apply, components like interface/problem/context, formats like intent/cause/system)
     - interface-specific configuration to include useful logic & structures specific to each interface given its definition, like common problem types/formats or problem-solution matching logic
+    - solution automation workflows
+    - database schema (storing definitions, interface analysis rules, insight paths, patterns, functions, concepts, prior interface queries & interface query stats, etc)
+    - core interface query operations (find/apply/build, representing core 'intents' to solve 'problem types')
+
+  - Example of how the components interact:
+
+    - the causal interface applies causal standardization & causal analysis
+    - causal analysis involves analyzing objects of causation (like dependencies) & causal metadata (like causal direction)
+      - example of analysis rule from the causal interface analysis rules stored in the database functions table:
+          'hub causes, which cause many other causes, are typically associated with metadata like causal direction having a value of "all or most possible outward directions"'
+    - these analysis rules are configuration of the program, which are stored in a database (in a 'functions' table)
+    - these rules can be derived from applying other interfaces, applying definitions or ML models to identify the rules from raw data pulled from resources
+    - these rules are generatable from the core & object interfaces, using the system layer graph that generates all the possible structures (like causal trees or loops or combinations) of a defined interface object (like cause)
 
 
 ### Invention Relationship
 
   Solution automation is the main program implementing problem-solving workflows, API service, UI, & product, interface analysis is configuration of logic which is also accessible by API, and info objects like imported insights/functions are the content/data.
+
+
+### Example insight path
+
+  - an example of an insight path including questions to reduce a diagnosis search space quickly:
+
+    - questions that rule out conditions (most-filtering questions first with least info)
+
+      - questions that minimize 'minimum required info to answer'
+
+      - questions that have 'minimum required info to answer' in common with other questions
+
+      - questions that rule out low-variation conditions first (high-variation conditions are likelier to apply to difficult-to-diagnose conditions)
+
+      - questions that require minimal changes to diagnose (a condition has a state that, when triggered by eating a glucose tablet, is very quick to diagnose)
+
+      - questions that rule out common problem types first (mismatches, over-prioritization, structural damage, dysfunction/dysregulation cascades, false signals, interaction that shouldnt happen, conflicts, lack of resources/competition), given that complex conditions are likelier to have more unusual/complex problem types (such as structures of common problem types, like combinations/injections)
+
+      - questions that focus on unusual symptoms/metrics to reduce solution space
+
+      - questions that focus on symptoms/metrics with unique/unambiguous causes (vs. systemic variables that could be caused by many things)
+
+      - questions that rule out similar conditions
+        - questions that rule out conditions that are more common (prioritize more common conditions)
+        - questions that rule out conditions that are more commonly mistaken for this condition (prioritize ruling out common mistakes)
+        - questions that rule out conditions that are deadly (prioritize examining deadly conditions first)
+        - questions that rule out conditions that are untreatable/undiagnosable (prioritize avoiding time analyzing untreatable/undiagnosable/idiopathic conditions, relegating them to research)
+
+      - questions that rule out causal conditions
+        - conditions that cause kidney damage, which would make kidney damage diagnosis more likely if they cant be ruled out
+        - conditions that are caused by kidney damage, which would make kidney damage diagnosis more likely if they cant be ruled out
 
 
 ### Example interface queries to generate an invention
