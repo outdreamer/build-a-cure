@@ -211,10 +211,6 @@
       - flax, milk thistle, onion, nettle, turmeric, sunflower
     - avoid with kidney disease:
       - astragalus, goldenrod, horsetail, java, nettle, oregon grape, parsley, uva ursi, yohimbe, juniper
-	- causes of kidney stones:
-	  - Dairy products are high on calcium and studies have shown that too much dairy consumption leads to increased excretion of calcium with urine. This is known to cause kidney stones
-	  - too much calcium can lead to hyperparathyroidism 
-	  - calcium supplements, oxalates, cystine, salt and animal protein, high doses of vitamin D
 
 - kidney function support 
 
@@ -275,13 +271,22 @@
 	    - siberian ginseng (eleutheroside compounds in Siberian ginseng are thought to effectively rid the body of excess creatinine by promoting kidney circulation)
 	    - chamomile (lower creatinine levels)
 	    - dandelion root (reduces creatinine levels)
+	    - alpha lipoic acid
+	    - vitamin c
+	    - fiber
+	    - chitosan
+	    - corn silk
+	    - salvia/red sage
+	    - chinese rhubarb
+	    - nettle
+	    - dandelion root
+	    - water
 
 	    - avoid: 
 	      - potassium, sodium, phosphorus, creatine, nsaids, ace inhibitors, vanadium, diuretics, arginine tends to increase the liver’s production of creatine
 	      - foods like meat, dairy, chocolate, nuts, soy, eggs, seaweed, spirulina, & gelatin will raise creatinine
 	      - The amino acids methionine, arginine, & glycine are processed in the kidneys to produce guanidinoacetic acid, which is then sent to the liver where it is converted to another amino acid called creatine. Creatinine is a waste byproduct of metabolizing creatine
-
-	    - try: water, alpha lipoic acid, vitamin c, cucumber, fiber, chitosan, chamomile, nettle, dandelion root, cinnamon, siberian ginseng, corn silk, salvia/red sage, chinese rhubarb
+	    	- try: cucumber 
 
 	  - reduce bun level: 
 	  	- Polyenylphosphatidycholine (egg/soy, alternative version in lecithin)
@@ -291,6 +296,9 @@
 	    - huang qi (Astragalus membranaceus)
 	    - dong chong xia cao (Cordyceps sinensis
 
+	  - reduce excess calcium
+	  	- vitamin C: helps to dissolve calcium buildup in the kidneys
+
 	  - prevent kidney stones
 	    - Java Tea (diuretic, prevent kidney stones)
         - Hydrangea Root (prevent kidney stones, helps use calcium to prevent stones)
@@ -299,6 +307,17 @@
         - Couch Grass (diuretic, prevent kidney stones)
         - Dandelion Root (diuretic, prevent kidney stones)
         - Green Tea (diuretic, prevent kidney stones)
+		- fennel: diuretic, antiseptic, prevention of kidney stones
+		
+		- avoid causes of kidney stones:
+			- calcium supplements
+			  	- Dairy products are high on calcium and studies have shown that too much dairy consumption leads to increased excretion of calcium with urine. This is known to cause kidney stones
+		  			- too much calcium can also lead to hyperparathyroidism 
+			- oxalates
+			- cystine
+			- salt
+			- animal protein
+			- high doses of vitamin D
 
 	  - lower/bind to phosphorus 
 	  	- calcium carbonate
@@ -383,6 +402,8 @@
         - Marshmallow Root (diuretic, urinary tract health)
         - Dandelion Root (diuretic, prevent kidney stones)
         - Green Tea (diuretic, prevent kidney stones)
+		- juniper: depurative, detoxifier, diuretic
+		- fennel: diuretic, antiseptic, prevention of kidney stones
 
 	  - protect urinary function
 	    - Goldenrod (detoxify urinary tract)
@@ -392,9 +413,18 @@
 	  	- fucoidan
 	    - Uva-Ursi (anti-irritant)
 		- caffeic acid (coffee, argan oil, sunflower, thyme, sage, spearmint, yerba mate)
+		- chamomile: inhibits lipid peroxidation, anti-inflammatory, induced cancer cell apoptosis in certain cancers
 
 	  - prevent infection
 	    - Gravel Root (antibiotic)
+
+	  - regulate blood sugar
+	  	- cinnamon
+	  	- prebiotics
+	  	- resveratrol
+	  	- ginger
+	  	- tryptophan
+	  	- green plants
 
 	  - prevent microalbuminuria
 	  	- Gokshura-Punarnava Basti
@@ -528,7 +558,7 @@
 			  - proline
 			  	- produced from arginine
 			  - tyrosine
-			  
+
 			- Non-essential:
 			  - alanine 
 			  - aspartic acid 
@@ -770,7 +800,14 @@ I. stimulate bladder
   - fennel has an antiseptic, protective effect on the liver 
   - cypress, lemon and thyme oils help clear the liver
 
-4. assist kidneys
-	- juniper: depurative, detoxifier, diuretic
-	- fennel: diuretic, antiseptic, prevention of kidney stones
-	- chamomile: inhibits lipid peroxidation, anti-inflammatory, induced cancer cell apoptosis in certain cancers
+4. regulate blood sugar
+	- cinnamon
+	- berberine
+	- Several flavonoids inhibit glucose absorption by inhibiting intestinal α-amylase and α-glucosidase
+		  https://www.ncbi.nlm.nih.gov/pubmed/28729836
+		  https://www.sepalika.com/type-2-diabetes/14-amazing-herbs-that-lower-blood-sugar/
+		  - prebiotics, tryptophan, green-plant membranes, resveratrol
+		  - ginger
+		  - holy basil, olive leaf, chaga
+		  - substitutions of caffeoyl, galloyl, and prenyl groups
+		  - ketone esters
