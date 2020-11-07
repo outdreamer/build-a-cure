@@ -239,6 +239,12 @@
 
 						- questions that have 'minimum required info to answer' in common with other questions
 
+						- questions that rule out low-variation conditions first (high-variation conditions are likelier to apply to difficult-to-diagnose conditions)
+
+						- questions that require minimal changes to diagnose (a condition has a state that, when triggered by eating a glucose tablet, is very quick to diagnose)
+
+						- questions that rule out common problem types first (mismatches, over-prioritization, structural damage, dysfunction/dysregulation cascades, false signals, interaction that shouldnt happen, conflicts, lack of resources/competition), given that complex conditions are likelier to have more unusual/complex problem types (such as structures of common problem types, like combinations/injections)
+
 						- questions that focus on unusual symptoms/metrics to reduce solution space
 
 						- questions that focus on symptoms/metrics with unique/unambiguous causes (vs. systemic variables that could be caused by many things)
