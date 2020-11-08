@@ -169,7 +169,58 @@
               - produces concept of 'evolution' to describe inherited changes from previous environments, reflected in features
                 - apply similarity interface to output of application of change type interface
                   - would a dog ever evolve in the same way or evolve the same features as a cat?
-                  
+       
+
+### Example of applying an interface to identify problem types
+
+      - automatic problem type identification
+      
+        - structural problem types:
+
+          - mismatches
+
+            - intent mismatches
+
+              - the intent of a function
+
+                - is:
+                  - to capture unique logic (so it shouldnt be repeated but imported)
+
+                - is not:
+                  - to be complex (so it should be only as complex as required)
+
+          - now youve identified two rules to use when evaluating function quality, using their intent metadata
+
+        - generative query of automatic problem type identification
+
+          - apply problem interface
+
+            - apply structure interface
+
+              - structural problem types:
+
+                - mismatches
+
+                - apply intent interface
+
+                  - intent mismatches
+
+                    - apply function interface
+                    
+                      - the intent of a function
+
+                        - apply concept interface
+
+                          - apply concept 'equivalence'
+
+                            - is:
+                              - to capture unique logic (so it shouldnt be repeated but imported)
+
+                            - apply concept 'difference' or 'inequality' or 'contradiction' or 'invalidation/neutralization' or 'opposite'
+                              
+                              - is not:
+                                - to be complex (so it should be only as complex as required)
+
 
 ### Example insight path
 
