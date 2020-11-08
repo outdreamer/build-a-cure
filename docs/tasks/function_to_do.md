@@ -15,9 +15,11 @@
 
 ## examples to make
 
-  - example of applying problem-structure interface
+  - add diagram for intent-matching
+
+  - example of applying problem-structure interface: https://en.wikipedia.org/wiki/Anti-pattern
     - these are examples of contradiction/error types of the system-optimizing insight 'align relevant intents', which have the structural problem type 'misalignment' of the concept 'relevance':
-      - local & global intents (local efficiency/fulfillment of local incentives/priorities, at the expense of global inefficiency/lack of fulfillment of global priorities/requirements/incentives, by allocating local solution side effects to global entities): https://en.wikipedia.org/wiki/Anti-pattern
+      - local & global intents (local efficiency/fulfillment of local incentives/priorities, at the expense of global inefficiency/lack of fulfillment of global priorities/requirements/incentives, by allocating local solution side effects to global entities)
       - misaligning prioritization & intent (over-prioritize job duties like monitoring, to benefit the manager) that doesnt align with other intents (subordinate productivity) which benefit the company
       - imbalance/missing/disconnection from related objects (criticism & solution, solution & responsibility)
       - mis-aligning functionality (learning/potential) with requirement (repeating task)
@@ -69,7 +71,7 @@
         - variable accretion patterns (how an object becomes influenced by a new variable, complex system interaction patterns, etc)
         - make diagram of potential matrix to display the concept
           - map parameter sets to potential matrix shapes 
-        - finish diagrams for intent (more examples of matching structure with intent), cause (shapes & ambiguity), concept (evolution of concepts, networks, distortion functions)
+        - finish diagrams for cause (shapes & ambiguity), concept (evolution of concepts, networks, distortion functions)
         - diagram for argument
       - make a system layer diagram for each interface to allow specification of core interfaces & other interface layers (interface interface)
         - make a system layer diagram for structures to include layers of structures 
