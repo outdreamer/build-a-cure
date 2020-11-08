@@ -50,9 +50,11 @@ to do: organize into docs
           - example: 'same', 'reversed', 'different' macrostates of a two-try coin flip microstate have different relationships (such as similarity) to each other
             - can state aggregate or be injected into a stateless process (information injection to the first or second flip, like probability or adjacent microstates)
               - for example, given the relative unlikelihood of equivalent states occurring in a sequence compared to different states occurring in a sequence, are differences, corrupted information, or uncertainties likelier to stabilize, or increase/compound/generate new differences?
-              - can the event, probabilities, states influence the position (first, second), structure (sequence), or type (up/down) variables? 
+              - can the events, probabilities (of states, probability distributions, conditional/independent probabilities, system equilibrium/lack of change), states influence the position (first, second), structure (sequence), or type (up/down) variables? 
                 - does probability have physics favoring changes to a distribution in a vacuum?
-                - does randomness of each toss depend on lack of structure changing/aggregating through interactions of these parameters?
+                - do the symmetries between similar states (same, different, reversed) offer any influence on other symmetries (change types/range of other system params)
+                  - is the system of symmetries also approaching maximum entropy if the host system is doing so?
+                - does randomness of each toss depend on lack of structure changing/aggregating through interactions of these parameters? if randomness depends on that, randomness is not just an input, its also an output (of the condition that the system does not change)
             - can you equate one state (different) with a structure of another (same combined with reversed)
             - is the system capable of having its information corrupted (like if time parameter is removed), so information from different states may merge or otherwise change
 
