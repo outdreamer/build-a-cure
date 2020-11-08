@@ -110,6 +110,11 @@
     - database schema (storing definitions, interface analysis rules, insight paths, patterns, functions, concepts, prior interface queries & interface query stats, etc)
     - core interface query operations (find/apply/build, representing core 'intents' to solve 'problem types')
 
+
+### Invention Relationship
+
+  - Solution automation is the main program implementing problem-solving workflows, API service, UI, & product, interface analysis is configuration of logic which is also accessible by API, and info objects like imported insights/functions are the content/data.
+
   - Example of how the components interact:
 
     - the causal interface applies causal standardization & causal analysis
@@ -121,9 +126,31 @@
     - these rules are generatable from the core & object interfaces, using the system layer graph that generates all the possible structures (like causal trees or loops or combinations) of a defined interface object (like cause)
 
 
-### Invention Relationship
+## Examples
 
-  Solution automation is the main program implementing problem-solving workflows, API service, UI, & product, interface analysis is configuration of logic which is also accessible by API, and info objects like imported insights/functions are the content/data.
+
+### Example of applying an interface to a classification problem (classify images as having a dog vs. cat)
+
+  - applying structural interface to a data set's variables
+
+    - applying sequence structure (time sub-interface)
+
+      - does a dog ever become a cat? 
+        - apply similarity interface
+          - apply problem interface
+            - apply problem type: false similarity:
+              - does a dog image ever seem to become a cat?
+
+        - apply permutation interface (explore all possibilities, such as by swapping variable positions)
+          - does a cat ever become a dog?
+
+    - applying combination structure (interaction/group sub-interface)
+
+      - does a dog image ever contain a cat as well?
+        - apply similarity interface
+          - apply problem interface
+            - apply problem type: false similarity:
+              - does a dog image ever seem to contain a cat as well?
 
 
 ### Example insight path
