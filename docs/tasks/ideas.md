@@ -24,6 +24,10 @@ to do: organize into docs
       - in order for information to exist, there has to be structure (structure can be equated with information)
       - in order for time to exist, there has to be other possible states (change has to be possible)
       - in order for space-times to be connectable, there has to be potential (a chain of uncertainties in the host system structure, in which a wormhole or connecting/attracting force or energy type can form)
+        - which uncertainties, when positioned adjacently, can create a structure in which information possible in one space-time can be communicated to another?
+          - uncertainties can be captured on interfaces and formatted as filters with unenforced rules
+            - a sequence of space-times with coordinating uncertainties for a 'connection' intent may operate by linking uncertainty inputs/outputs in the sequence
+              - which space-times would have these coordinating sequences in the same position that can align across space-times?
 
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
 
