@@ -129,6 +129,27 @@
 ## Examples
 
 
+### Example of applying intent interface to automate logic selection (code finding & building)
+
+  - intent matching example
+
+    - sequence structure (
+        split.iterate.replace operations
+      )
+      - splitting, then iterating, and replacing in iterated strings, would be useful if 'the split delimiter has a string in common with the string to replace, but has different wrappers'
+
+    - sequence structure (
+        split.iterate.replace operations
+      )
+      - replace.split would eliminate a string that could interfere with the splitting or make it sub-optimal in another way (reducing whitespace to avoid later strip operations)
+
+    - how would you identify these matches between use cases (reasons to use a function, or general function intent) and the structure/operation intents automatically?
+      - apply system interface
+        - apply system object 'efficiency'
+          - apply a 'efficiency' definition, such as 'intent alignment for resource-sharing'
+            - alignment of intent between the use case 'delimiter has string in common with string to replace, but different wrappers' and the structure & operations "sequence(split.iterate.replace)" have an intent in common (so their directions are aligned)
+
+
 ### Example of applying an interface to a classification problem (classify images as having a dog vs. cat)
 
   - applying structural interface to a data set's variables
