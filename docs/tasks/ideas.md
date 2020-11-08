@@ -1,5 +1,19 @@
 to do: organize into docs
-  
+
+  - monopoly
+    - monopolistic products/industries/rules/priorities
+      - products/industries/rules/priorities that can compete with, control, or replace all others
+
+  - problem types
+    - missing concept
+    - radiation: fractal/cascading randomness across interfaces (systems & structures)
+    - incomplete structure (combination, sequence)
+    - causal structure mismatch
+    - incorrect definition route
+
+  - guaranteed information (like a connection/interaction) allows other information to aggregate on the foundation of the guaranteed information, limited by the scope of the guarantee (it can only develop change on variables that wont invalidate the guaranteed information)
+    - entanglements develop around symmetries, symmetries attract other symmetries (leading to interaction layer filled with symmetries, all regulating each other, producing randomness)
+
   - with constantly updated opinion/priority/argument/reason/resource/problem data, you can have:
     - districts that choose their own voting algorithm & issues to vote on
     - calculated assignment of perspectives (opinion sets) to territories that can support those populations (as they grow in population, they can acquire more territory, and offer relocation assistance to people who want to live there)
