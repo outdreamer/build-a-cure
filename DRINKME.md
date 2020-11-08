@@ -202,6 +202,9 @@
                     - 'when removing a string, check for false similarities like strings that the string to remove is a subset of, and remove those first before removing string to remove, then re-add them in original positions after removal of string to remove'
                     - "an equivalence of type 'subset' is not an indicator of relevance"
 
+            - this is the application of the problem-solving workflow: 'find a dimension set where problem types/system objects like intent alignments can be clearly identified/differentiated'
+              - meaning apply structure to the use case input (abstract object) and remove structure from the structure/operations (concrete object) until you find an interim interaction space where they can be checked for equivalence in intent (matching intent)
+
 
   - function interface metadata example
 
