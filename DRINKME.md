@@ -153,8 +153,16 @@
 
   - function interface metadata example
 
-    # code                                # intent                   # meaning                                                  # cause
-    for i in range(0, len(numbers)):      intending "iteration"      means    "apply structure to all in integer sequence"      because "a structure (like a change or test) is needed"        
+    # code                                # intent                         # meaning                                                        # cause
+    structure & operations                usage of structure/operations    system fit of structure/operations                               requirement for structure/operations
+
+    # code                                # intent                         # meaning                                                        # cause
+    def finding_function(numbers):        "filter" (or "test", "change")   finding relevant items (relevance determined by filter)          because a set contains irrelevant items
+
+    # code                                # intent                         # meaning                                                        # cause
+    for i in range(0, len(numbers)):      intending "index iteration"      means    "apply structure to all in integer index sequence"      because "a structure (like a filter/change/test) is needed"        
+    # code                                # intent                         # meaning                                                        # cause
+      subset = filter(numbers[i], func)   intending "filter list by func"  means    "apply filter structure to items in list"               because "a subset structure is needed"        
 
 
 ### Example of applying an interface to a classification problem (classify images as having a dog vs. cat)
