@@ -145,11 +145,49 @@
       - replace.split would eliminate a string that could interfere with the splitting or make it sub-optimal in another way (reducing whitespace to avoid later strip operations)
 
     - how would you identify these matches between use cases (reasons to use a function, or general function intent) and the structure/operation intents automatically?
+
       - apply system interface
         - apply system object 'efficiency'
-          - apply a 'efficiency' definition, such as 'intent alignment for resource-sharing'
-            - alignment of intent between the use case 'delimiter has string in common with string to replace, but different wrappers' and the structure & operations "sequence(split.iterate.replace)" have an intent in common (so their directions are aligned)
+          - apply an 'efficiency' definition, such as 'intent alignment for resource-sharing'
+            - alignment of intent between: 
+              - the use case input: 'delimiter has string in common with string to replace, but different wrappers'
+              - the structure & operations: "sequence(split.iterate.replace)"
 
+              have a structural intent in common (so their directions are aligned)
+
+            - use case for input:
+
+              - input string "if condition applies to the tithe, keep the objects"
+              - string to replace = "the", 
+              - function intent "replace 'the'" in input string
+
+              - apply tests for system objects & common problem types like "false similarities"
+                - find false similarity in the form of "similar strings in input"
+                  - without assumed resources like the concept of a "word" wrapped with whitespace, or a "string to replace" param including the whitespace, we can operate with just the string/subset/wrapper concepts
+                  - one should be kept, one should be replaced
+                    - difference is wrapper of string in common
+                      - objects: keep string, replace string, string in common, wrapper
+
+                  - to remove one but not the other:
+                    - 1. remove the string to keep first, retaining its position
+                      operation: "split"
+                    - 2. remove the string to remove, from output of split (either iterate or join with alternate delimiter)
+                      operation: "replace"
+
+                    - then the pieces can be joined if not already joined, with the original string to keep, if required by the function
+                    - given that one operation needs to be done before the other (remove "tithe" as split delimiter before removing "the"), we need a sequence structure
+                      - the intent of removing "the" is: reduce words that dont substantially change meaning of sentence
+                      - the intents of removing "tithe" include: remove object identifier, making if condition incomplete
+                      - given the difference in intent, we may be able to match the intent of either removal, depending on general function intent (like "reduce sentence to important words")
+                      - this is how we can identify which word should be kept, if not explicitly stated
+
+              - given this derived use case metadata in a generated or input list of possible use cases, we can match this set of requirements with the sequence(split.replace) intents
+
+                - derived use case metadata (intent): "replace 'the' but not 'tithe' in input string"
+                - structure/operation metadata (intent): "sequence(split.replace)"
+
+              - the structural match we can find from this information is in the input/output map for both intents
+              
 
   - function interface metadata example
 
@@ -157,12 +195,12 @@
     structure & operations                usage of structure/operations    system fit of structure/operations                               requirement for structure/operations
 
     # code                                # intent                         # meaning                                                        # cause
-    def finding_function(numbers):        "filter" (or "test", "change")   finding relevant items (relevance determined by filter)          because a set contains irrelevant items
+    def finding_function(numbers):        intending "filter" (test/change) means "find relevant items (relevance determined by filter)"     because "a set contains irrelevant items to remove"
 
     # code                                # intent                         # meaning                                                        # cause
-    for i in range(0, len(numbers)):      intending "index iteration"      means    "apply structure to all in integer index sequence"      because "a structure (like a filter/change/test) is needed"        
+    for i in range(0, len(numbers)):      intending "index iteration"      means "apply structure to all in integer index sequence"         because "a structure (like a filter/change/test) is needed"        
     # code                                # intent                         # meaning                                                        # cause
-      subset = filter(numbers[i], func)   intending "filter list by func"  means    "apply filter structure to items in list"               because "a subset structure is needed"        
+      subset = filter(numbers[i], func)   intending "filter list by func"  means "apply filter structure to items in list"                  because "a subset structure is needed"        
 
 
 ### Example of applying an interface to a classification problem (classify images as having a dog vs. cat)
