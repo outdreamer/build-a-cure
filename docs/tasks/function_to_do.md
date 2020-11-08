@@ -12,6 +12,21 @@
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
   
+  - monopoly
+    - monopolistic products/industries/rules/priorities
+      - products/industries/rules/priorities that can compete with, control, or replace all others
+
+  - problem types
+    - missing concept
+    - radiation: fractal/cascading randomness across interfaces (systems & structures)
+    - incomplete structure (combination, sequence)
+    - causal structure mismatch
+    - incorrect definition route
+
+  - guaranteed information (like a connection/interaction) allows other information to aggregate on the foundation of the guaranteed information, limited by the scope of the guarantee (it can only develop change on variables that wont invalidate the guaranteed information)
+  - entanglements develop around symmetries
+  
+
 ## examples to make
 
   - example of applying problem-structure interface
