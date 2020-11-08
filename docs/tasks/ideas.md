@@ -44,8 +44,17 @@ to do: organize into docs
         - can you generate randomness from within a closed/isolated high/maximal entropy system
 
       - entropy can only be really measured once a system is used to calculate a known quantity to test if the system actually offers certainty, and this full calculation of entropy can never be totally measured (tested in all possible systems/states for all possible calculations in all possible structures like sequences)
-        - for instance, when a space-time splits & two outcomes (microstates) occur simultaneously, resulting in an extra macrostate (multiple/both/either)
-        - or when the system is about to lose the ability to capture the concept of 'sequence' in its structure (bc the states/usage interacted in a way that disrupted the system), in which case the microstates can not describe the system anymore
+        - for instance, when a space-time splits bc an uncertainty develops & two outcomes (microstates) occur simultaneously, resulting in an extra macrostate (multiple/both/either)
+        - or when the system is about to lose the ability to capture the concept of 'sequence' or a change type or information about a previous value in the microstate in its structure (bc the states/usage interacted in a way that disrupted the system), in which case the microstates can not describe the system anymore
+        - for instance, if two microstates being adjacent creates a higher probability of either occurring, or if different microstates exert an attractive force, or if microstates can combine or merge to create new microstates or interact similarly with macrostates
+          - example: 'same', 'reversed', 'different' macrostates of a two-try coin flip microstate have different relationships (such as similarity) to each other
+            - can state aggregate or be injected into a stateless process (information injection to the first or second flip, like probability or adjacent microstates)
+              - for example, given the relative unlikelihood of equivalent states occurring in a sequence compared to different states occurring in a sequence, are differences, corrupted information, or uncertainties likelier to stabilize, or increase/compound/generate new differences?
+              - can the event, probabilities, states influence the position (first, second), structure (sequence), or type (up/down) variables? 
+                - does probability have physics favoring changes to a distribution in a vacuum?
+                - does randomness of each toss depend on lack of structure changing/aggregating through interactions of these parameters?
+            - can you equate one state (different) with a structure of another (same combined with reversed)
+            - is the system capable of having its information corrupted (like if time parameter is removed), so information from different states may merge or otherwise change
 
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
 
