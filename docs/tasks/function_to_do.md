@@ -15,8 +15,6 @@
 
 ## examples to make
 
-  - add diagram for intent-matching
-
   - example of applying problem-structure interface: https://en.wikipedia.org/wiki/Anti-pattern
     - these are examples of contradiction/error types of the system-optimizing insight 'align relevant intents', which have the structural problem type 'misalignment' of the concept 'relevance':
       - local & global intents (local efficiency/fulfillment of local incentives/priorities, at the expense of global inefficiency/lack of fulfillment of global priorities/requirements/incentives, by allocating local solution side effects to global entities)
@@ -51,6 +49,8 @@
 
 
 ## diagram
+  
+    - add diagram for intent-matching
 
     - diagram for workflow 1: 
       - function to determine relevance filter ('functions', 'required') from a problem_step ('find incentives') for a problem definition, to modify problem_steps with extra functions/attributes ('change_position') to be more specific to the problem definition ('find_incentives_to_change_position') for problem_steps involving 'incentives', so you know to use the function_name to modify the problem step if it's between the type 'functions' and the object searched for 'incentives'
