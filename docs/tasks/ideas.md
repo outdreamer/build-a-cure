@@ -46,19 +46,51 @@ to do: organize into docs
       - entropy can only be really measured once a system is used to calculate a known quantity to test if the system actually offers certainty, and this full calculation of entropy can never be totally measured (tested in all possible systems/states for all possible calculations in all possible structures like sequences)
         - for instance, when a space-time splits bc an uncertainty develops & two outcomes (microstates) occur simultaneously, resulting in an extra macrostate (multiple/both/either)
         - or when the system is about to lose the ability to capture the concept of 'sequence' or a change type or information about a previous value in the microstate in its structure (bc the states/usage interacted in a way that disrupted the system), in which case the microstates can not describe the system anymore
+        
         - for instance, if two microstates being adjacent creates a higher probability of either occurring, or if different microstates exert an attractive force, or if microstates can combine or merge to create new microstates or interact similarly with macrostates
+          
           - example: 'same', 'reversed', 'different' macrostates of a two-try coin flip microstate have different relationships (such as similarity) to each other
+            
             - can state aggregate or be injected into a stateless process (information injection to the first or second flip, like probability or adjacent microstates)
               - for example, given the relative unlikelihood of equivalent states occurring in a sequence compared to different states occurring in a sequence, are differences, corrupted information, or uncertainties likelier to stabilize, or increase/compound/generate new differences?
+              
               - can the events, probabilities (of states, probability distributions, conditional/independent probabilities, system equilibrium/lack of change), states influence the position (first, second), structure (sequence), or type (up/down) variables? 
-                - does probability have physics favoring changes to a distribution in a vacuum?
                 - do the symmetries between similar states (same, different, reversed) offer any influence on other symmetries (change types/range of other system params)
                   - is the system of symmetries also approaching maximum entropy if the host system is doing so?
-                - does randomness of each toss depend on lack of structure changing/aggregating through interactions of these parameters? if randomness depends on that, randomness is not just an input, its also an output (of the condition that the system does not change)
+
+            - randomness types, connections, sources: 
+                
+                - does randomness of each toss depend on lack of structure changing/aggregating through interactions of these parameters? 
+                  - if randomness depends on that, randomness is not just an input, its also an output (of the condition that the system does not change)
+                
+                - can randomness be generated another way (using different metadata), and how does that randomness interact with the input randomness of possible outcomes of each flip
+                  - how can structure be removed to reduce information (creating possible source of randomness)? 
+                    - are the inputs to probability subject to randomness injection?
+                    - randomness injection probabilities for metadata:
+                      - objects: event
+                      - inputs:
+                        - states: outcome sequence, outcome sequence equivalence
+                        - structures: symmetry, equivalence
+                        - params: velocity, number of rotations, angle (highest probability of a randomness injection is here)
+                        - interaction between probability types, structures, & bases
+
+                      - interacting (aggregate) probabilities of states
+                        - after getting tails in the first flip, the probability of tails in the next flip is still 50%
+                        - the probability of a same outcome vs. a different outcome overall (macrostate) is 50% for a different type of equivalencee (50% for T-H & H-T and 50% for T-T & H-H)
+
             - can you equate one state (different) with a structure of another (same combined with reversed)
+            - probability metadata
+              - does probability have physics favoring changes to a distribution in a vacuum?
+              - probability trajectories across states
+                - examine interaction of probabilities of states/outcomes at different times (before first toss, before second toss)
+              - minimum tosses to measure probability of states/outcomes & other metadata like symmetries
+              - emerging states at different scopes (superstates & atomic states)
+              - emerging probability during flip as a function of motion trajectories (velocity, number of rotations, time)
+                - what is the interaction space of different value sets of these parameters, and what probabilities are they associated with?
             - is the system capable of having its information corrupted (like if time parameter is removed), so information from different states may merge or otherwise change
 
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
+    - logs as weight path pattern structures
 
   - problem types
     - missing concept
