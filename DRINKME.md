@@ -140,24 +140,43 @@
       - splitting, then iterating, and replacing in iterated strings, would be useful if 'the split delimiter has a string in common with the string to replace, but has different wrappers'
 
     - sequence structure (
-        split.iterate.replace operations
+        replace.iterate.split operations
       )
       - replace.split would eliminate a string that could interfere with the splitting or make it sub-optimal in another way (reducing whitespace to avoid later strip operations)
 
-    - how would you identify these matches between use cases (reasons to use a function, or general function intent) and the structure/operation intents automatically?
+    - how would you identify these matches between use case (reasons to use a function, or general function intent) and the structure/operation intents automatically?
 
       - apply system interface
         - apply system object 'efficiency'
           - apply an 'efficiency' definition, such as 'intent alignment for resource-sharing'
             - alignment of intent between: 
-              - the use case input: 'delimiter has string in common with string to replace, but different wrappers'
+              - the general problem statement: "generate a 'replace' function with intent to remove one string in param1, which has a string in common with another string to keep, but different wrappers"
+                - actual problem statement or function intent may not have this much information, such as specifying that other strings may contain the string to replace but shouldnt be removed, which may need to be inferred
               - the structure & operations: "sequence(split.iterate.replace)"
 
-              have a structural intent in common (so their directions are aligned)
+              have a structural intent in common, so their directions are aligned (once they have a similar structural level on the same interaction layer)
 
-            - use case for input:
+            - use case: the intent of (reason to use) a particular structure/operation (like split.replace)
 
-              - input string "if condition applies to the tithe, keep the objects"
+            - the goal is to link the use case with the structure/operation, by finding an interaction space where their metadata can be checked for a match, like an intent alignment, since the 'compare' operation embedded in an equivalence check requires similar inputs:
+
+            - problem statement: 'find code to fulfill use case intent' or 'find use case intent that could use the code' (code meaning specific structure/operations)
+              - standardized problem format:
+                - equate use case intent with structure/operation intent
+                  - equivalence check
+                    - sub operations:
+                      - compare
+                        - compare operation requirement: similar inputs
+                          - solution format: find a dimension set (structural interaction layer) where use case intent and structure/operation intent have sufficiently similar structures that their intents can be checked for equivalence
+                            - solution structure: apply structure to use case intent and structure/operation intent until they can be compared (differentiated/equated)
+                              - solution structure: function with intent to "replace 'the' but not 'tithe' in input string"
+                                - apply solution formatting filter 'generalize' to structure 'function inputs'
+                                  - generalized solution structure: function with intent to "replace 'string_to_replace' but not 'containing_string' in input string"
+                                    - solution: subset = filter(input_string.split("tithe"), lambda x: x.replace('the', ''))
+
+            - use case for sample input:
+
+              - sample input string "if condition applies to the tithe, keep the objects"
               - string to replace = "the", 
               - function intent "replace 'the'" in input string
 
