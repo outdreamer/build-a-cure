@@ -187,7 +187,21 @@
                 - structure/operation metadata (intent): "sequence(split.replace)"
 
               - the structural match we can find from this information is in the input/output map for both intents
+              - the structure/operation may be generated, or filtered by common metadata matching the input metadata, to reduce the combinations to check for a match with the derived possible input metadata
+              - we now have a generated function for the use case intent: subset = filter(input_string.split("tithe"), lambda x: x.replace('the', ''))
               
+              - additional processing can be done with intents based on applying the logic interface to string metadata:
+                - the intent of removing 'the' as the delimiter (removing both ' the ' and 'the ') would be to leave 'ti' in the 'tithe' word and to remove ' the '
+                - the intent of removing 'tithe' as the delimiter (removing only 'tithe' but keeping 'the') would be to do further processing on 'the' or to remove 'tithe' temporarily to avoid processing 'tithe'
+                - given that using 'the' as the delimiter would alter both words, including the word to keep, we would remove the word to keep as the delimiter first, since the string to remove is a subset of the string to keep
+                - this is another way to give us the sequence of operations in our generated function, other than finding structures/operations matching general function intents like "reduce sentence to important words"
+
+              - other ways include:
+                  - fulfilling priorities like 'avoid possibility reduction (maximize potential)', which would exclude logic that assumed acceptable removal of possibilities like the usefulness/relevance of the word 'tithe'
+                  - applying insights like:
+                    - 'when removing a string, check for false similarities like strings that the string to remove is a subset of, and remove those first before removing string to remove, then re-add them in original positions after removal of string to remove'
+                    - "an equivalence of type 'subset' is not an indicator of relevance"
+
 
   - function interface metadata example
 
