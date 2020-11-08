@@ -23,6 +23,11 @@
 		- protocol
 		- decision
 		- interface objects (insights/systems/strategies/errors/assumptions/synergies)
+		- filters
+			- allow filters by function
+				- find substances that do not have attribute x/function y/interaction with system z
+
+		- substance
 
 		- condition object
 
