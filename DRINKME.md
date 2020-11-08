@@ -149,9 +149,27 @@
       - does a dog image ever contain a cat as well?
         - apply similarity interface
           - apply problem interface
-            - apply problem type: false similarity:
+            - apply problem type: false similarity
               - does a dog image ever seem to contain a cat as well?
 
+        - apply change interface
+          - apply change type interface
+            - apply change type: base distortion
+              - apply intent interface
+                - whats the intent of a base distortion 
+                  - apply change interface to components (DNA, evolution, regulation function)
+                    - whats the intent of a base distortion from the DNA base
+                      - missing/gap in/failure of regulation function
+                      - handle a different change type than change types handled by DNA base 
+                        (encountered on an interacting interface to the interface where the base distortion occurred, for example a problem like climate change produced a stress signal that was communicated to the DNA layer or an input layer, or selected for animals that already had access to temperature-handling functionality or inputs to those functions)
+                      - randomness (interactions with structurally damaging compounds, by operating on same interaction layer)
+
+          - apply structure interface
+            - apply 'match' structure to environment (in background of image) & species feature ('inferred/proxy' variable of genes & 'interface' variable linking genes-environment) 'cluster' structures (types)
+              - produces concept of 'evolution' to describe inherited changes from previous environments, reflected in features
+                - apply similarity interface to output of application of change type interface
+                  - would a dog ever evolve in the same way or evolve the same features as a cat?
+                  
 
 ### Example insight path
 
