@@ -4,6 +4,8 @@ to do: organize into docs
     - monopolistic products/industries/rules/priorities
       - products/industries/rules/priorities that can compete with, control, or replace all others
 
+  - to do: test 'path integral' concept for space-time positioning to identify path types (incentivized, adjacent, etc) once various interfaces are applied
+
   - nn with every core structure & every problem type embedded & accessible from any position, formatted as filters
 
   - problem types
@@ -11,8 +13,42 @@ to do: organize into docs
     - incomplete structure (combination, sequence)
     - causal structure mismatch
     - incorrect definition route
+
+    - irreversibilities
+      - change type traps (certain change types prevent changes of another type, like change toward a minimum may prevent change toward a maximum if gravitational forces apply to incentivize down directions)
+        - these can be identified as dead-ends when traversing an interface
   
     - radiation: fractal/cascading/distributed randomness across interfaces (systems & structures) - as opposed to concentrated randomness in a black hole
+
+  - function to identify proxy variables
+
+    - compare equivalencies of given & target information
+      - check for interim information between given & target information
+        - if interim information exists, its a proxy variable candidate
+
+    - example:
+      - if you dont know the exact functions linking two objects, do you know the functions' metadata, such as:
+        - generative variables: the questions that are normally asked to find the functions linking two objects
+        - metadata (input/output) patterns: the relationship patterns of input/output of connective functions?
+
+      - this is a comparison between equivalent structures (functions, input-output maps), being equivalent on some metric (contextual impact), connecting the given information (input/output relationship patterns or questions generating connective functions) and the target information (functions)
+
+    - comparisons
+      - equivalencies
+        - given information
+          - sample outputs
+          - target probabilities of sample outputs to qualify for a metric (like fairness)
+        - interim information
+          - interaction space of sample outputs (total outcome combinations)
+            - probability of interactions & interaction types
+              - equivalencies between compared sample outputs
+              - net ratio of equivalencies between compared sample outputs
+                - sum from 1 ... n
+                  - how often do they have (1 ... n) outcomes equal
+                - divide sum by total outcome combinations
+              - equivalence of net ratio & fairness ratio
+        - target information
+          - equivalence of sample output of compared objects
 
   - guaranteed information (like a connection/interaction) acts as an interface (foundation for change), allowing other information to aggregate on the foundation of the guaranteed information, limited by the scope of the guarantee (it can only develop change on variables that wont invalidate the guaranteed information, exceed its scope/ability to handle randomness)
     - entanglements develop around symmetries, symmetries attract other symmetries (leading to interaction layer filled with symmetries, all regulating each other, producing randomness)
