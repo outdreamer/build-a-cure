@@ -4,6 +4,8 @@ to do: organize into docs
     - monopolistic products/industries/rules/priorities
       - products/industries/rules/priorities that can compete with, control, or replace all others
 
+  - nn with every core structure & every problem type embedded & accessible from any position, formatted as filters
+
   - problem types
     - missing concept
     - incomplete structure (combination, sequence)
