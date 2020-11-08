@@ -6,13 +6,15 @@ to do: organize into docs
 
   - problem types
     - missing concept
-    - radiation: fractal/cascading randomness across interfaces (systems & structures)
     - incomplete structure (combination, sequence)
     - causal structure mismatch
     - incorrect definition route
+  
+    - radiation: fractal/cascading/distributed randomness across interfaces (systems & structures) - as opposed to concentrated randomness in a black hole
 
-  - guaranteed information (like a connection/interaction) allows other information to aggregate on the foundation of the guaranteed information, limited by the scope of the guarantee (it can only develop change on variables that wont invalidate the guaranteed information)
+  - guaranteed information (like a connection/interaction) acts as an interface (foundation for change), allowing other information to aggregate on the foundation of the guaranteed information, limited by the scope of the guarantee (it can only develop change on variables that wont invalidate the guaranteed information, exceed its scope/ability to handle randomness)
     - entanglements develop around symmetries, symmetries attract other symmetries (leading to interaction layer filled with symmetries, all regulating each other, producing randomness)
+    - information is converted into potential as randomness
 
   - with constantly updated opinion/priority/argument/reason/resource/problem data, you can have:
     - districts that choose their own voting algorithm & issues to vote on
