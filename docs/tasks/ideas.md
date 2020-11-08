@@ -15,7 +15,7 @@ to do: organize into docs
     - incorrect definition route
 
     - irreversibilities
-      - change type traps (certain change types prevent changes of another type, like change toward a minimum may prevent change toward a maximum if gravitational forces apply to incentivize down directions)
+      - change type traps (certain change types prevent changes of another type, like change toward a minimum may prevent change toward a maximum if gravitational forces apply to incentivize down directions, and the descent has progressed beyond a threshold indicating where the incentives are not desconstructable with resources like information & change types available at the minimum)
         - these can be identified as dead-ends when traversing an interface
   
     - radiation: fractal/cascading/distributed randomness across interfaces (systems & structures) - as opposed to concentrated randomness in a black hole
