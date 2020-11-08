@@ -22,6 +22,11 @@ to do: organize into docs
       - structure is aggregated information/certainty, which implies that if a structure exists, it can be calculated
       - structures can contain uncertainties if the space in the structure is not enforced enough (isnt filled with structures)
       - in order for information to exist, there has to be structure (structure can be equated with information)
+      - structures capable of holding information can exert an attractive force on that information
+        - what structures can hold the information of physics questions like how to:
+          - connect space-times
+          - preserve information in black holes
+          - break a universe boundary (as mentioned here: https://www.quantamagazine.org/the-black-hole-information-paradox-comes-to-an-end-20201029/)
       - in order for time to exist, there has to be other possible states (change has to be possible)
       - in order for space-times to be connectable, there has to be potential (a chain of uncertainties in the host system structure, in which a wormhole or connecting/attracting force or energy type can form)
         - which uncertainties, when positioned adjacently, can create a structure in which information possible in one space-time can be communicated to another?
