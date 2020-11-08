@@ -261,6 +261,8 @@
     - data science & machine learning
       
       - computing tools (numpy, scipy)
+
+      - optimization tools (cuda, cudnn, gpu)
       
       - data sanitization
       

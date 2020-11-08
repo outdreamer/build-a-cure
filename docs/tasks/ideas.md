@@ -6,7 +6,15 @@ to do: organize into docs
 
   - to do: test 'path integral' concept for space-time positioning to identify path types (incentivized, adjacent, etc) once various interfaces are applied
 
-  - nn with every core structure & every problem type embedded & accessible from any position, formatted as filters
+  - nonlocality is produced by similarities in interface queries, which output similar information (space-times that are linked by similarity)
+    - the interface queries formatted as filters producing information allow similar structures to develop, and within those structures, information about the interface filters can be derived (creating an intrinsic link between any space-time produced by that query, given that they can understand their own space-time and infer the existence of similar space-times, putting them in the same observer position)
+      - this information can then be used as a base/foundation for:
+        - other information to develop, which may be useful to the other similar space-times (and energy can be allocated based on usage, so the space-times have a connection on this energy sharing (energy formatted as information), and may draw those space-times together as the connection is used more
+        - accessing other information, like the output of other adjacent interface queries, where the base acts like the first rung of a ladder
+      - the sequence of information formats to get from the first rung to a higher position depends on whether adjacent space-times can be used to infer unknown interfaces not-derivable with the interface query of the origin space-time
+      - can they get to another interface with a limit set (calculation limit), a calculation set (lossy algorithm), an information set (encrypted information, quantum information), randomness (lack of information) injections?
+
+  - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
 
   - problem types
     - missing concept
