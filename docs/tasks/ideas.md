@@ -38,6 +38,10 @@ to do: organize into docs
             - a sequence of space-times with coordinating uncertainties for a 'connection' intent may operate by linking uncertainty inputs/outputs in the sequence
               - which space-times would have these coordinating sequences in the same position that can align across space-times?
 
+      - can a symmetry be injected into or generated in a system cascading irreversibly toward maximal entropy, without integrating it with another system?
+        - can you break information in the system by overloading it (using it as a foundational interface out of scope so it cant hold all the information allocated to it)
+        - can you break an irreversibility by integrating it with another irreversibility in the system
+
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
 
   - problem types
