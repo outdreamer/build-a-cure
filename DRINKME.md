@@ -131,6 +131,7 @@
 
 ### Example of applying intent interface to automate logic selection (code finding & building)
 
+
   - intent matching example
 
     - sequence structure (
@@ -148,6 +149,12 @@
         - apply system object 'efficiency'
           - apply a 'efficiency' definition, such as 'intent alignment for resource-sharing'
             - alignment of intent between the use case 'delimiter has string in common with string to replace, but different wrappers' and the structure & operations "sequence(split.iterate.replace)" have an intent in common (so their directions are aligned)
+
+
+  - function interface metadata example
+
+    # code                                # intent                   # meaning                                                  # cause
+    for i in range(0, len(numbers)):      intending "iteration"      means    "apply structure to all in integer sequence"      because "a structure (like a change or test) is needed"        
 
 
 ### Example of applying an interface to a classification problem (classify images as having a dog vs. cat)
