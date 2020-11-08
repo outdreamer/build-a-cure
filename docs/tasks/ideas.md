@@ -9,10 +9,21 @@ to do: organize into docs
   - nonlocality is produced by similarities in interface queries, which output similar information (space-times that are linked by similarity)
     - the interface queries formatted as filters producing information allow similar structures to develop, and within those structures, information about the interface filters can be derived (creating an intrinsic link between any space-time produced by that query, given that they can understand their own space-time and infer the existence of similar space-times, putting them in the same observer position)
       - this information can then be used as a base/foundation for:
-        - other information to develop, which may be useful to the other similar space-times (and energy can be allocated based on usage, so the space-times have a connection on this energy sharing (energy formatted as information), and may draw those space-times together as the connection is used more
+        - other information to develop, which may be useful to the other similar space-times (and energy can be allocated based on usage, so the space-times have a connection on this energy sharing (energy formatted as information), and may draw those space-times together as the connection is used more (possibly generating gravity or other forces that would draw them together, or a type of energy connecting the two space-times/information bits output by the query)
         - accessing other information, like the output of other adjacent interface queries, where the base acts like the first rung of a ladder
       - the sequence of information formats to get from the first rung to a higher position depends on whether adjacent space-times can be used to infer unknown interfaces not-derivable with the interface query of the origin space-time
       - can they get to another interface with a limit set (calculation limit), a calculation set (lossy algorithm), an information set (encrypted information, quantum information), randomness (lack of information) injections?
+      - what efficient paths (wormholes) are allowed within a topology of space-times (with their limits, uncertainties, calculations, symmetries, etc)?
+      - can a universe be converted to a boundary (pushed past threshold, breaking the balance between the universe & the boundary) & injected with randomness to use as a filter for information to get to other universe
+      - can a universe be condensed/broken/formatted to be able to slip through the boundary (does the boundary need an input like energy, does its existence depend on the universe, does it have unenforced rules)
+        - can energy be transmitted through the universe boundary
+      - what happens to a universe or space-time with information removed, either by radiation or another method?
+
+      - structure is aggregated information/certainty, which implies that if a structure exists, it can be calculated
+      - structures can contain uncertainties if the space in the structure is not enforced enough (isnt filled with structures)
+      - in order for information to exist, there has to be structure (structure can be equated with information)
+      - in order for time to exist, there has to be other possible states (change has to be possible)
+      - in order for space-times to be connectable, there has to be potential (a chain of uncertainties in the host system structure, in which a wormhole or connecting/attracting force or energy type can form)
 
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
 
