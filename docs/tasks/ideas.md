@@ -41,6 +41,11 @@ to do: organize into docs
       - can a symmetry be injected into or generated in a system cascading irreversibly toward maximal entropy, without integrating it with another system?
         - can you break information in the system by overloading it (using it as a foundational interface out of scope so it cant hold all the information allocated to it)
         - can you break an irreversibility by integrating it with another irreversibility in the system
+        - can you generate randomness from within a closed/isolated high/maximal entropy system
+
+      - entropy can only be really measured once a system is used to calculate a known quantity to test if the system actually offers certainty, and this full calculation of entropy can never be totally measured (tested in all possible systems/states for all possible calculations in all possible structures like sequences)
+        - for instance, when a space-time splits & two outcomes (microstates) occur simultaneously, resulting in an extra macrostate (multiple/both/either)
+        - or when the system is about to lose the ability to capture the concept of 'sequence' in its structure (bc the states/usage interacted in a way that disrupted the system), in which case the microstates can not describe the system anymore
 
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
 
