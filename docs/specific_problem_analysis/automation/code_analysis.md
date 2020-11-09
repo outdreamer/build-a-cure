@@ -34,7 +34,7 @@
     Networking layer: DNS, load balancer, proxies, VPN
     Environment Layer: debugging, sandbox, pentesting, dev/quality assurance/test/production
     Version Layer: data model governance (data versions, model versions), code versions, language versions, virtual environment versions, version sync/update/interaction strategy
-    Security layer: encryption algorithms, key store, permissions, firewalls
+    Security layer: encryption algorithms, key store, permissions, firewalls, gpg, hashing, signatures, certificates
     Rule Layer: protocols, functions, rule access (permissions), rule enforcement (type checking)
     System Layer: OS, config, code, change tools (auto-updates, package managers), compilers/parsers/interpreters, languages, processes, ports
     Isolation/Interaction Layer: competing/shared resources/processes, containers, cross-layer interactions, integration of code components, interaction of code & OS, interaction of processes
@@ -150,8 +150,21 @@
       - Splunk
       - Kibana
 
+    - Authentication
+      - Oauth
+
+    - Formats
+      - yaml, json, xml
+      - rdf
+
     - API Management
       - Swagger
+      - OpenAPI
+      - Apigee
+
+    - API integration tools
+      - informatica
+      - talend
 
     - Deployment Management
       - Artemis
@@ -243,14 +256,27 @@
       - sparql: queries RDF-formatted data, allows for a query to consist of triple patterns, conjunctions, disjunctions, and optional patterns
       - graphql: API query language
 
-    - API integration tools
-      - informatica
-      - talend
-
     - cloud providers: AWS, Google Cloud, Azure, Rackspace, IBM
 
     - Networking components:
-      - DNS, load balancer, proxies, VPN
+      - DNS
+      - load balancer
+      - proxies
+      - VPN
+      - TCP/IP
+      - SMTP
+      - LDAP
+      - HTTP, TLS, HTTPS, SSL
+      - WAN, LAN
+      - FTP
+      - Internet, Intranet, Extranet
+      - ethernet
+      - packets/router/host/domain
+      - throttling, bandwidth
+      - link layer
+      - transport layer
+      - internet layer
+      - application layer
 
     - isolation tools:
       - containers

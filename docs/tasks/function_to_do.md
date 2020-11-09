@@ -51,6 +51,7 @@
 ## diagram
   
     - add diagram for intent-matching
+    - add structures to diagram: interface overflow (to sub-interfaces), interface foundation
 
     - diagram for workflow 1: 
       - function to determine relevance filter ('functions', 'required') from a problem_step ('find incentives') for a problem definition, to modify problem_steps with extra functions/attributes ('change_position') to be more specific to the problem definition ('find_incentives_to_change_position') for problem_steps involving 'incentives', so you know to use the function_name to modify the problem step if it's between the type 'functions' and the object searched for 'incentives'

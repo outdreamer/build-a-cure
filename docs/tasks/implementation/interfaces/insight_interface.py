@@ -37,7 +37,6 @@
         It does not refer to specific strategies unless those strategies can be used to generate insights. 
         Insight paths usually consist of abstract or structural rules like 'match structure' or 'identify type'.
 
-
   - concepts: 
     - predictive power (an insight is true & may be powerful in predicting across systems) 
 
@@ -54,6 +53,59 @@
     - Applying an insight path like 'functions requiring more distortions are less likely' may automate the assignment of levels of probability to prediction functions, given the 'Averaging/Standardizing function' implementation structures depicted.
     - The section of Fig. 19 titled 'Interface Object Insight Path' depicts an example of an insight path that is a trajectory of objects on the interface network, which has some objects in common as the system path because of the cross-over in definitions of a system and an interface. These objects may be object/attributes/rules of an interface (or combinations/other core functions applied to them), maps between interfaces, or filters used to generate an interface.
     - The section of Fig. 19 titled 'Structural Insight Path: Function Pattern' depicts an example structure to frame common distortion patterns as alternate routes from function input to function output, which are a very useful subset of insight paths to generate insights across fields.
+
+    - joke insight path examples
+
+        - expectations
+          - inevitabilities/incentives/assumptions as a source of expectations
+          - hypothetical questions & question chains ('what if x') to generate assumptions
+            - what if function x normally associated with object 1 is instead in object 2, which shows no evidence of function x
+          - assumptions & assumption chains
+            - not just "that inanimate object x has feelings" but also "and has tried to manage them but fell for a sock anyway" to fulfill an 'explanatory alternate route' intent of "how it got stuck"
+            - permuting the assumption that a gender will be classified as an object of the gender classification system rather than an object of a different classification system, like race or social status or species
+              https://www.twitter.com/alienbot1/status/1053376572558852100
+        - intent
+          - missing the point
+            - the point of preventing animal cruelty is not "so they dont have obvious evidence to point to when justifying organizing criminal enterprise against humans"
+          - invalidating the point
+            - protesting animal cruelty using signs & bumper stickers made with glue made out of dead animals
+          - making a point in an unexpected route
+            - preventing animal cruelty so they taste better
+        - structures
+          - switching positions/structures
+          - relevance cycles
+          - efficiencies
+          - similarities
+            - differences can be found in:
+              - attribute value, attribute structure, attribute metadata
+              - adding/removing variables, variable structures (sets, sequences, networks)
+              - identifying variables likely to change
+              - identifying variables & patterns likely in a system/context
+              - interfaces (priorities, abstract attributes like relevance/meaning/sense, logic)
+            - difference types:
+              - absence of object
+              - combined object in a set
+              - distorted object
+              - filtered/subset object
+              - ambiguous/alternative/interchangeable object
+              - new object type
+              - developed object with new functionality/attributes
+              - deconstructed object
+              - formatted object
+              - object generator/effect
+              - illusory/implied difference
+              - reference vs. structural vs. systemic difference
+          - extremes
+          - bases
+            - maintaining a base of reality is useful for highlighting differences
+              - "reverse-engineering how an idiot came to a conclusion without the assumption that a cult got to them"
+          - paths
+            - alternate routes are a place to inject assumptions
+
+        - logic
+          - validity
+            - illogical connections are a plact to inject assumptions
+            - system has to make sense (have some organization) to maximize impact
 
   - answers questions like:
     - what rules are useful across systems?

@@ -1,3 +1,26 @@
+# science
+
+  - vitamin 3-d printer to print vitamins so that you can design your own multivitamin that:
+    - fits your bio conditions & requirements
+    - is released in the right order & timing
+    - excludes interactions that are contradictory (antimicrobials & probiotics)
+
+  - mask design can be optimized as a cover with one output flap like an esophagus preventing input on one nostril so the other can be used exclusively as an input with a filter 
+    (better to sanitize at point-of-usage in environments with many unpredictable interactions like wind direction and interpersonal contact, which can get around most masks)
+
+  - tool to make bacteria grow until detectable & then represent with AR
+
+    - this closes the gap in information:
+      - the information needed for the product (a testing & display tool) was insufficient
+      - the mechanism to make the information sufficient is accessible (solutions to feed bacteria)
+      - rather than make the measurement tool better, you can make the information more accessible (change the position of information rather than the position of the measurement tool)
+      - the AR component would augment the size to make it displayable to users without using the measurement tool (microscope) or indicate size/type of pathogen with standard data visualization rules
+
+      - applying the testing tool to hub nodes (then inputs/outputs of hub nodes, and adjacent objects to hub nodes) to check with increasing certainty whether surfaces were compromised
+      - redistributing resources based on immunity/infection status to avoid cleaning, like distributing unchecked, unsanitized, or contaminated goods to consumers with immunity/infection 
+      - keeping an animal likely to develop fast infections in buildings and then using air conditioner to distribute viral RNA when the building is unused and checking remotely if the animal shows symptoms to see if a building is safe is one way around the limitation to detect live copies of the virus, since the animal symptoms are easier to measure than a pathogen, so the problem becomes ensuring the animal will develop symptoms rather than immunity, and making sure the symptoms show up faster than a test done on hub nodes or quickened with enzymes/sugar/cells that help the pathogen replicate
+
+
 # Bio system analysis
 
   
