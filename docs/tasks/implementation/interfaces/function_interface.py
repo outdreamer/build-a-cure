@@ -81,6 +81,26 @@
     
     - interaction functions 
 
+    - function metadata (responsibility, meaning, cause, intent, permissions)
+
+      - add 'because' operator to link each decision to an intent, implication, interpretation, or assumption
+      - add 'meaning' operator to index functions by meaning in addition to intent/cause/assumption/implication/context
+        - "object.attribute1 = 'value' means "users can configure a variable that they will probably have different preferences on that will not add excess complexity or vulnerability to the system"
+        - 'what does it mean' translates to 'what structure does it have in a relevant system' (such as relevance to users' system of use cases & preferences), or 'how does it fit within this system'
+        - functions/libraries/applications should be indexed by meaning so they can be fit into a global function system across applications ("we're building this app because there's a need for this degree of difference given user intents, which means there is a mismatch in supply & demand for that market")
+
+      - 'responsibility' as a software concept to align with 'intent', to tie functions to input/processing/output resources/processes and the associated tasks, like cleaning up resources, deleting temp resources, optimizing a memory store, setting a cache, resetting a timer, changing permissions, etc - as a method of correcting incomplete functions
+      - 'integration' as a software concept to calculate interface metadata for integrated functions forming an app/site/workflow
+      - this is analogous to how there are intrinsically related info object dependencies, like:
+        - an argument is associated with underlying facts & logic
+        - a suggestion/idea is associated with implementation details
+        - a criticism is associated with a solution on how to fix it
+        - similarly, functions have power that involves associated responsibility to use that, in the form of permissions (to access inputs, processing requirements, & outputs), relevance (in cleaning memory), prioritization (in process sequence or rank)
+        - integrating these responsibilities with other functions isnt automated - a function doesnt check if another function with similar power has a gap in relevance-checking responsibility before leaving information unprotected, to make sure another function cant access irrelevant resources
+        - responsibility is tied to relevance of the function intent 
+      - privacy/permissions are relative to intent (for deriving permissions that should go with a request/function/context)
+        - can you submit a 'reassure' or 'send funny meme' or 'post photo from event' intent to your messaging app, and it generates/finds a re-assuring message or meme or photo at an event using predictive logic & user decision history/algorithm on their device, instead of you sending the message, and the intents you allow are pre-approved by you or from a standard open source intent & context package, contextually applied in conversation (when 'reassure' is contextually appropriate given the prior message history or the open source context package)
+
     - info functions:
       - alternate
       - limit

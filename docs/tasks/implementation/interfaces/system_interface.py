@@ -118,8 +118,11 @@
     - inefficiency: defined as not using a cost-reduction or benefit-increasing method (using extra unnecessary resources, not using a requirement-reduction method, not reusing solutions, etc) 
     - opportunity: potential move with a potential benefit, with a limited time component 
     - exploit opportunities: opportunity with temporary local (selfish) benefits that allocates cost disproportionately to the system (destroying a system-maintenance concept like 'trust' or 'rule of law') or other objects in the system, with negative emergent side effects (hoarding resource incentives, requirement for monitoring & rule enforcement investment, misallocation of justice) 
-    - vertices: important variables that generate/cause/determine/change system development, preferably all of the above but also variables that execute a subset
-  
+    - vertices: 
+      - important variables that generate/cause/determine/change system development, preferably all of the above but also variables that execute a subset
+      - variables where once theyre assigned a value, the rest of the uncertainties are often resolved or resolvable
+      - vertex as a pivot point for an interface
+
   - functions (optimize, traverse, open/close, apply system filters, reduce dependencies, close variance injection points, enforce rule, identify system objects given their definition, such as a variance gap, map a system layer graph representing combinations, identify/derive system context, find interactions of interaction spaces (which interactions are common across agents, likely given other interactions, etc)) 
     - system analysis function (identify boundaries, gaps, limits, layers, incentives/intents/questions, & other system objects)
     - function to generate a different object (like a different concept network) by varying attributes: 

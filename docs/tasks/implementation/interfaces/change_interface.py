@@ -6,6 +6,9 @@
       - how relationship structures (distortions, origins, combinations, sequences) relate 
       - when change is imminent to assess the value of identifying future states (gather more data for a prediction function, implement versioning, build interfaces for change into the function by parameterizing/abstracting it) 
       - what is the best way to frame a change (on what base, with what variables that describe the change, in what spaces/systems, as a combination of what functions, as a change of what uniqueness) 
+      - analyzing just by change rate makes it less likely to spot other patterns like overlap/intersection of patterns
+      - difference develops where there's potential for new interactions to develop (so a steady or increasing rate of change) & intent (like a possible gain from the difference)
+
     - related to the information (certainty) and potential (uncertainty, risk, predictions, possibility, probability) indexes 
     - change (difference) analysis: 
         - what is the path definitely not, based on various maximized measures of similarity? 
@@ -15,6 +18,8 @@
           - example: "what is the probable function linking these variables, given that it is an adjacent transform of a square (related function type), & a distant transform of a manifold (unrelated function type)?" 
         - variance accretion 
         - what variance is unexplained 
+        - if something can generate a change predictably/consistently, it's a change supply - otherwise it's a change request, so output as well as causal position relative to the output is important when determining category
+
       - this allows different representations of a multi-variable dimension like change in visually representable space without using topologies or parallel dimension lines:
         - vectors representing directions as types of change according to the unit base vectors (units of change types) and scalar as the degree of change
         - the perimeter of the changes to these vectors as a shape, and the function for that shape as the overall change function, and difference in area calculated the normal way to represent degree of change
@@ -62,6 +67,13 @@
       - function to map change types to dimensions 
       - function to identify dimensions where change types change (an aggregate, interface, or deciding dimension where change type is uncertain but not random), with embedded parameters & bases for framing changes of a certain type 
     
+      - function to identify other variables the data set might be able to predict other than y's
+        - subsets or the data set might predict other dependent vars beyond or adjacent to y, like outputs of y that can serve as predicted dependent variables instead
+        - example: the image of a dog/cat can predict species type, as well as locations of animals, objects found in domestic settings, species variation in similarly developed species, etc
+
+      - function to identify extra variables having patterns that if included in independent vars, can explain y's or other dependent vars
+        - example: if you add a random sequence or a sequence with some similarity to another column (indicating an independent but coincidentally similar value), and it increases variation explained in the data set, you might have a more simple, homogeneous system that has similar core functions used across positions/layers/other subsets (square container producing triangular shapes of components inside corners), or you might have a very complex system that generates a variety of objects within a certain range (cell surface structures having similar shapes across very different cell types)
+
       - function to identify/analyze variables as change sources (and alternatively as potential/uncertainty or information/certainty sources)
         - what type of variable is it? (object-differentiating/identifying attribute, emergent specific/abstract property, direct function input/output) 
         - how does the variable relate to other variables? (decisive metric, substitutable alternative, collinear) 

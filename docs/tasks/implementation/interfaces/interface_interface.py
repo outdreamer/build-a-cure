@@ -378,7 +378,9 @@
     - core components
 
   - functions 
+
     - interface query functions 
+      - example interface query involves: framing on interfaces, decomposing causation, then identifying parameters of problem on layer & matching solution
 
     - interface traversal functions
       - function to find distortions to apply that would generate useful information (example: 'apply core/interaction layer/generative/causative/primary functions to input information') 
@@ -397,6 +399,8 @@
             causal type cause (what causes causal types), type cause type (what types of type causes are there)
     
     - interface implementation functions
+
+      - interfaces can be applied iteratively (apply causal interface to find object components matching causal definitions, then apply causal interface again to find abstract causes of causes found)
 
       - interface change function
         - interfaces will attract other attributes until a new interface is necessary to capture extra attributes, acting like centers
@@ -419,6 +423,9 @@
         - this has to identify & remove unnecessary steps that dont change the output
         - identify & replace with faster ways to get to the output without changing the output
         - test cases to determine if output would be changed by removing a step and/or replacing it with another step
+        - organize db by intent & features for quicker access - like if types are a common filter, organize a graph into type clusters, and store node id's to limit size of various different graphs to depict the same database, a subset of indexes represented per graph
+        - a standardized language map can be used to skip comprehensive traversals using optimized queries
+          - language map: shared custom meaning/dictionary maps so communication can be queries on their shared custom dictionary map - or a common map where queries specify pattern & sub-set to apply pattern to, and sub-sets are rotated
 
       - function to map between core & important objects
         - example of choosing inefficiencies/exploit combinations in a system
@@ -445,6 +452,11 @@
           - Intent interface helps predict system priorities & find exploit opportunities
           - System interface helps find efficiencies
           - Pattern interface helps find insight paths/similarities
+        - the object model may not be the right default to start from in most situations - there arent many whole objects in existence if there are any
+          - even particles have sub-particles, and the extent of that chain isnt known, and may have a causal relationship where the smallest particles act as inputs or injection points
+          - should ratios/bases or sets be used instead ('a set of particles' rather than a 'plant' as a standard unit)
+          - when selecting a default, you should be checking for attribute matches (does a whole object make sense to describe a set)
+          - the idea of a whole number may describe something that doesnt exist in 3-d physical reality - does that mean its a concept that will never occupy a form, or is it a goal physics will move towards, or it causally independent from other systems or interfaces that are known, or it evolves as brains can measure information
 
       - function to calculate the interface query (set & order of filters/interfaces/standards to use to solve a particular problem)
         - the position of interfaces is determined by intent of problem/solution and cost/optimization metrics and available information or testing/derivation (information capture/generation) resources

@@ -1,5 +1,23 @@
 ## Standard Neural Network Design for initial complex problem factor identification reduction
   
+  - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
+      - logs as weight path pattern structures
+
+  - nn-intent matching
+      - in an algorithm, functions emerge like minimize, aggregate, differentiate, compete/win, choose
+      - these functions between data objects (like variables, types, etc) are suitable in a particular structure (like a sequence) for different problem types, which are appropriate/optimal for different data variance, variable type sets, category difference complexity, causal structures, different bases & ranges of difference, modeling sub-systems & alternate routes, etc)
+        - when detecting the difference between cat & dog:
+          - were a hundred different variables combined, weighted & changed, with interim variables at various points, then selected after having to compete? then an algorithm/network with a similar function structure might be able to capture that difference
+        - does a particular variable in the data set (output dog feature) indicate a path between other variables not in the data set (causal path between DNA & output features), which could be captured with a particular structure of nodes/layers or level of variation between weight paths?
+      - how do core network algorithm structural operations (power, scale, add, average, differentiate) map to functions & structure of a problem type (categorize, predict) or function assembly/filter (average)
+        - 'type patterns' and 'weight path patterns'
+        - 'averages of adjacent points' mimicking 'features with similar positions' and 'change about a base'
+        - 'a sequence of repeated options determining possible combinations' (like DNA) and 'initial starting nodes & node sequences across layers' and 'weight path patterns, starting at a base like average'
+        - 'unit vectors with different direction get a vote in determining function curvature' and 'different weight vectors get a vote in determining variable importance'
+      - how does the problem type map to the function & function assembly?
+        - if problem type is 'identification' and function assembly has a gap indicating an ambiguity, the identification cant occur in that gap, so functions with ambiguities arent good for the identification problem type, unless the ambiguity captures alternate structures (like variable values, causal paths, or variable sets)
+      - treat other objects than params (assumptions, processing steps) as prediction inputs
+
   - identify problem types that a neural network algorithm & structure is best equipped to handle with intent-matching, then once you have components matched with core intents (aggregate, select, average, etc), you can reverse engineer network structure/algorithm given input intent, once intent is deconstructed into core intents with known components
 
   - given that neural networks apply "apply, aggregate, & filter" functions to sort causative information into a standard shape like a tensor or vector set 

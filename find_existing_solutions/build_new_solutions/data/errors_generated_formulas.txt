@@ -1,0 +1,27 @@
+molecule auto loader: element: fromString(): element Z not supported
+molecule auto loader: SMILES loader: 'D' specifier is allowed only for query molecules
+molecule auto loader: SMILES loader: 'A' specifier is allowed only for query molecules
+molecule auto loader: scanner: readUnsigned(): no digits
+molecule auto loader: SMILES loader: '@' ring bond is allowed only for queries
+molecule auto loader: element: fromString(): element M not supported
+molecule auto loader: SMILES loader: empty atom?
+molecule auto loader: element: fromString(): element L not supported
+molecule auto loader: SMILES loader: invalid character within atom description: '/'
+molecule auto loader: SMILES loader: unexpected ')'
+molecule auto loader: element: fromString(): element T not supported
+molecule auto loader: SMILES loader: '[' without a ']'
+molecule auto loader: element: fromString(): element G not supported
+molecule auto loader: SMILES loader: invalid character within atom description: '\'
+molecule auto loader: SMILES loader: 'r' specifier is allowed only for query molecules
+molecule auto loader: SMILES loader: cycle number 0 is not allowed
+molecule auto loader: scanner: BufferScanner::read() error
+molecule auto loader: element: fromString(): element E not supported
+molecule auto loader: SMILES loader: 'a' specifier is allowed only for query molecules
+molecule auto loader: SMILES loader: invalid character within atom description: '='
+molecule auto loader: SMILES loader: 'h' specifier is not supported
+molecule auto loader: SMILES loader: invalid character within atom description: 't'
+molecule auto loader: SMILES loader: 'X' specifier is allowed only for query molecules
+molecule auto loader: SMILES loader: atom without a label
+molecule auto loader: SMILES loader: invalid character within atom description: ']'
+molecule auto loader: SMILES loader: unexpected end of input
+molecule auto loader: SMILES loader: probably misplaced '('

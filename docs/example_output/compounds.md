@@ -324,6 +324,7 @@
 		Ubiquinol (coenzyme Q)
 
 
+
 ## Specific Functions of compounds
 
 
@@ -605,3 +606,150 @@ I. bladder
 		    - phytoestrogens in soy may block estrogen 
 		    - polyphenols reduce estrogen
 		    - green tea damages liver with more than a few cups
+
+
+## Vitamins
+
+- related conditions
+	- heart disease
+		- deadlier with vitamin A/E supplementation
+
+- related symptoms
+	- overdose
+	- deficiency
+
+- anti-vitamins
+
+	 - avidin is a protein in raw egg whites that inhibits the absorption of biotin; it is deactivated by cooking
+	 - Pyrithiamine, a synthetic compound, has a molecular structure similar to thiamine, vitamin B1, and inhibits the enzymes that use thiamine
+
+- probiotics: lactobacillus (bulgaricus, plantarum)
+
+- essential vitamins
+
+	- vitamin A (retinol & esters provitamin A carotenoids like beta-carotene)
+		- regulator of cell and tissue growth and differentiation
+
+	- b vitamins
+		- coenzymes/precursors to coenzymes
+
+		- vitamin B1 (thiamine)
+		- vitamin B2 (riboflavin)
+		- vitamin B3 (niacin)
+		- vitamin B5 (pantothenic acid)
+		- vitamin B6 (pyridoxine)
+		- vitamin B7 (biotin)
+		- vitamin B9 (folic acid or folate)
+		- vitamin B12 (cobalamins)
+
+	- antioxidants
+		- vitamin C (ascorbic acid)
+		- vitamin E (tocopherols and tocotrienols)
+
+	- vitamin D (calciferols)
+		- hormone-like function, regulating mineral metabolism for bones and other organs
+
+	- vitamin K (K1, phylloquinone and K2, menaquinones)
+
+
+- bioavailability
+
+	- essential vitamins
+
+		- vitamin A, B1, B5, B6 and B9 are relatively stable to heat exposure
+		- calcium & vitamin D are more bio-available together
+
+		- full set of essential vitamins can be gotten from combinations of:
+			- animal: meat (including liver, pork), dairy, eggs, poultry, fish (including sardines)
+			- plants: 
+				- grains (including wholemeal, brown rice, pasta/bread/cereal (vitamin B9))
+				- fruits (including orange, bananas, avocados, ripe yellow fruits)
+				- nuts (including tree nuts, peanuts) & seeds
+				- vegetables: including (mushrooms (including shiitake), asparagus, broocoli, green beans, leafy vegetables (including spinach), carrots, pumpkin/squash/potato)
+			- b3, b12 & vitamin d can be gotten from fish 
+			- b12 can mostly be gotten from animal sources
+
+		- a vegan set of full vitamins
+			- lichen
+			- culture of saccharomyces cerevisiae
+			- kale, celery, cucumber, asparagus, red cabbage, cauliflower, parsley, green onion, garlic, ginger, brussel sprout, bell pepper, tomato, spinach, carrot, broccoli, beet, raspberry, blueberry, blackberry, tart cherry, strawberry, mushroom, moringa leaf, lemon, annato, holy basil, guava, curry leaf, apple, emblic, sesbania grandiflora leaf, sea kelp
+
+
+- other useful substances
+
+	- function
+
+		- growth
+
+		- maintenance
+
+			- electrolyte balance
+
+			- ph balance
+
+			- immune
+				- probiotics
+
+			- energy
+
+			- recovery/repair
+				- probiotics
+				- bcaa's
+
+			- protect
+
+				- reduce bone fractures
+					- vitamin D
+					- calcium
+
+		- metabolism
+
+			- fat metabolism (ketones)
+
+			- ATP production
+
+			- digestion:
+				- probiotics
+				- enzymes
+					- lipase, protease, aspergillopepsin, beta-glucanase, hemicellulase/cellulase, bromelain, phytase, lactase, papain, peptidase, pectinase, xylanase
+			
+
+	- other useful compounds
+		- lycopene (tomatoes)
+		- lutein: (vision)
+		- vanadium
+		- silicon
+		- chloride
+		- choline
+		- flavonoids
+		- boron
+		- coq10
+		- glutathione
+		- superoxide dismutase (sod)
+		- carnosine, carnitine, histidine, tyrosine, taurine
+
+		- electrolytes
+			- potassium
+			- sodium
+			- magnesium
+			- phosphorus
+
+		- other essential compounds
+			- calcium
+			- iodine
+			- zinc
+			- selenium
+			- copper
+			- iron
+			- manganese
+			- chromium
+			- molybdenum
+
+	- conditionally essential vitamins
+
+		- synthesized
+			- microorganisms in the gut flora produce vitamin K & biotin
+			- one form of vitamin D is synthesized in skin cells when they are exposed to a certain wavelength of ultraviolet light present in sunlight
+			- humans can produce vitamin A (using beta carotene) and niacin (from the amino acid tryptophan)
+			- carnitine
+		- vitamin U (S-Methylmethionine): Protein metabolite; synthesized in body

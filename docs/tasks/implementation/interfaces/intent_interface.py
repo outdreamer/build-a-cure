@@ -98,6 +98,97 @@
     - derive intent as a dependency of the intent interface conversion function  
     - map intent to direction & assess solution progress by movement in that direction 
 
+    - function to select priorities/metrics
+      - something that not everyone has the potential to be (non-structural) is more valuable if it optimizes some metric
+      - reductiveness: the lowest/simplest structure that complies with a metric (reductive choice like a parasite) also reduces potential, whereas the highest structure that complies with a metric (empowering choice like a mammal) increases potential
+      - evaluating the potential of lower life forms is less optimal than fixing them, so the metric becomes whether you fixed/empowered them or reduced them, bc they cant fix themselves
+      - the metric is whether you got the point (empowering, fixing, making other life forms complex), not whether a lower life form can become complex
+      - potential is an important metric bc more complex life forms are supposed to have the potential to be complex, so its more wrong for them (like a puppy or human) to not optimize a complexity metric than it is for a simpler life form with less potential (parasite)
+      - some metrics will be alignment with priorities rather than reaching a threshold value
+
+    - function to match intent-structure
+
+      - example: data viz can be automated using:
+        - lie core function layer graph or individual lie type graphs, with an output intent layer (hide information, layer information, minimize information, obfuscate information)
+        - intent-structure maps (this graph structure serves this intent stack, just like a function serves an intent stack)
+
+      - example: data structures:
+        - what kind of data structure would look like the original sequence from one angle, but look like its metadata (like the ordered sequence, or average value statistics) from another angle?
+          - is the extra storage of a tree, network, or other structure with more than one dimension worth the computation gains
+        - is the best storage format of a list where position would be checked later in code a map retaining order, with keys as ordered values & values as positions in original sequence (in case original position is significant and youre not just trying to find if the value is in the sequence)
+
+      - example: map position (a state structure) to variable structures like networks/loops/trees (like how rank assigns standardized relative position to values - how would you assign a position to nodes in a network in a similarly standardized way - an attribute like connection count or node type, or a trajectory position, or another method)
+        - how do rankings map to ratios, and what errors would result from direct mappings of various initial data types?
+        - is there a standard set of structures like networks that should be applied to a sequence to get its probable prediction function the fastest (framing numbers as 1, a map from number type to node types, 2, a node's connection count, & 3, distance between nodes, in order to map the sequence in the most robust way)
+
+      - program should be able to identify, predict, & finally calculate structures that will be useful for an intent, to avoid reducing/searching a solution set
+        - identify with structure-matching (which of these structures can fulfill this goal)
+          - example: finding a 'progression' structure for a function
+        - predict with intent-matching (find structures matching these intents)
+          - example: for calculating area, which structures fulfill that intent
+        - calculate with intent structures (derive intent-structure relationships and find operation sequence that will produce target intents)
+          - example: 
+            - which structures simplify difference calculations (like area) extending the addition/core/unit operation (like how multiply is an extension of add) when increasing a parameter like number of dimensions, given that 
+              - the add operation has a 'combine value' intent
+              - multiply has a 'combine value with different direction' or 'describe interaction space' or 'find intersection area of limits' intent
+              - length has a 'describe difference' intent for a dimension count of 1
+              - and so on for other operations
+            - the addition operation has an associated structure 'align with overflow in left direction' because inherent to the definition of values in their standard western depiction, higher digits are on the left, and the extra value from an operation like 8 + 3 (10) would overflow into the next digit because thats a unit of change that can be registered in the next digit's column, with no more than one digit to the left being able to register the excess change from addition two digits in a particular column (greatest value being 10, by adding 9 + 9)
+              
+            - tests:
+              - this is a good unit test for whether your program can generate math methods by applying structure:
+                - if the program can identify:
+                  - 'column as a digit store' (given that existing numbers use columns as a digit store, which could also be done with rows after converting numbers to row format)
+                  - 'alignment of digits'
+                  - 'adding digits in the same aligned column'
+                  - 'overflow extra value to the left'
+                  as concepts & operations that would respect inherent digit definitions/rules while executing the addition operation, and design the addition operation itself, that would be a successful basic test
+
+                - an example trajectory using the interim objects:
+                  - insight paths:
+                    - 'compare relevant objects'
+                    - 'compare standardized objects'
+                      - identifying the 'position' attribute as an input to the 'compare standardized objects' insight path (or identifying the 'comparison standard' object or 'standard as a required input for comparison' in the 'compare' definition route) which produces an input to the alignment process, as alignment is a process that should happen between similar objects (such as objects that have been standardized for comparison)
+                    - 'apply sequence to operations based on which operations enable other operations'
+                    - 'handle extreme cases'
+
+                  to generate the addition method would be:
+
+                  - 'compare relevant objects'
+                    - 'relevance = similarity on an interaction layer'
+                      - 'compare objects that interact'
+                        - 'digits in the same position (distance from right) interact'
+                          - 'apply a standard that aligns objects that interact (digits), to compare digit object values'
+                  - 'execute the add operation after digits are aligned, for relevant comparisons' (this operation is enabled by the previous operations, which is why it comes after them)
+                  - 'handle extreme cases, where value cannot be described by the digit value range'
+                    - 'extra values of addition operation need to be routed to other digits'
+                      - 'adjacent digits interact'
+                        - 'extra values need to be routed to adjacent digits'
+                          - 'adjacent left digits can hold extra values' (increasing from 9 to 10 moves value left)
+                            - 'extra values need to be routed to adjacent left digit'
+                              - 'add from right to left'
+                  - 'apply a default operation mode, limit to unit operation, or fulfill "isolatable operation" requirement':
+                    - 'add one pair of aligned digits at a time' so impact of each operation can be assessed & routed
+
+              - other default operations, like multiplication (2 x 25) identifying 'multiply digits in one number (20, 5) by each digits in the other number (2) and add the output of each multiplication (40 + 10)' as a standard rule to execute multiplication operation, with a multiplication definition that doesnt include those rules, such as:
+                - 'find the area of the space bordered by the limits generated by lower x bound = 0, upper x bound = x value, lower y bound = 0, upper y bound = y value'
+                - 'add the x-value y times'
+                - 'find an adjacent more calculatable or pre-computed value & subtract the difference'
+                - lattice multiplication
+                multiplication operation definitions which are also alternate outputs of the 'generate a multiplication method' query
+
+              - 'find a structure where calculating the output of numbers multiplied by themselves (exponents) is a set of addition operations' (log function)
+
+              - 'find the unit object of nonlinearity' which should have:
+                - info output: x ^ 2
+                - structural output: variable ^ (next value other than 1)
+                - conceptual output: 'compounding change', 'multi-dimensional (multiplicative) change' (change of variable, and change of a dimension)
+
+              - the program would integrate intent relationships like:
+                - 'a unit change in this direction has x impact on change in other directions, and a change of degree n toward other change types & states'
+                  - which would help predict what impact a change would have on change metrics, which are also calculatable from other change types/states, such as estimating the impact on area from a unit change in one direction (of various change types, including a unit addition/multiplication/parameter change, etc), and include the impact on difference from related change types (impact on tangents, inflection points, subsets, and related objects), and related change states (difference from adjacent functions like with one-off parameters (constants/exponents one degree away)
+                  - where the intents are structural by default ('multiply by this constant' having intents like 'increase the scale of this function from the unit version, keeping this maximum as a center or this point as an origin')
+
     - function to select components for an intent (function, pattern, metrics/threshold values)
       - network design favors an adjacency definition that differentiates features
         - to get around this, build in a concept of default core objects like boundaries/limits/intersections to the network structure or data propagation (send data on possible boundary line positions) to look for & focus on those first rather than continuous sets of adjacent high-variance, pattern-containing features
@@ -109,6 +200,7 @@
       - intent-metadata function (does this intent have side effects or is it granular/neutral)
       - intent-combination function
       - intent-similarity evaluation function
+
     - required functions for system intent analysis:
       - intent-pattern matching
       - identify gaps in rule enforcement in system
@@ -164,6 +256,8 @@
           - the main concern is whether there will be safeguards to control the last combination's potential exploits, or whether any safeguards will be invalidated by prior tools
 
   - examples:
+
+    - example of intent mapped to structure: the outlier or data point in the middle of two categories isnt supposed to be categorized, its supposed to be identified as belonging to a different group (a group in a state of change), which can be used to derive group boundaries, but shouldnt necessarily be integrated into a categorization function
 
     - function intent-indexing example
       - rule gaps are created by trust (lack of enforcement in rules)

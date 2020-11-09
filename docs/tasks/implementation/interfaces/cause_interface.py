@@ -115,8 +115,90 @@
             - resolve: identify cause in a set of possible alternate causes 
             - isolate: identify contribution of a particular cause to an output 
             - inject/extract dependency 
-            - identify causal structure, as shown in FIG. 13 (Causal structure-matching) 
-                *new
+
+            - function to identify alternate routes
+
+              - example of identifying alternate explanations: for a pattern like why people have different responses to a pathogen, is it bc of coincidences like that:
+                - the pathogen fits into the bio system in a way that requires the same functions used to protect it from another second condition, taking protection against that condition away
+                - the pathogen coincidentally applies mutations that the bio system hasnt yet evolved to handle
+                - the pathogen applies mutations that coincidentally spiral out of control bc theyre mutations to important/core change/regulation rules, or that it causes another error that triggers the second condition
+                - the pathogen evolved in an animal that didnt have those vulnerabilities so it was able to live in the host indefinitely rather than killing the host
+                - the pathogen needs a function that requires evolving other functions that are coincidentally harmful to the bio system
+                - the pathogen misidentifies the genes to target or cant identify the right genes in different systems
+                - how to generate the set of possible alternate explanations:
+                  - apply structures (evolution process of change sequences), concepts (identification function error, coincidence), functions (functions producing changes, such as mutations), and position them using other structures (causal network)
+
+            - function to identify proxy variables
+
+              - compare equivalencies of given & target information
+                - check for interim information between given & target information
+                  - if interim information exists, its a proxy variable candidate
+                - example:
+                  - if you dont know the exact functions linking two objects, do you know the functions' metadata, such as:
+                    - generative variables: the questions that are normally asked to find the functions linking two objects
+                    - metadata (input/output) patterns: the relationship patterns of input/output of connective functions?
+                  - this is a comparison between equivalent structures (functions, input-output maps), being equivalent on some metric (contextual impact), connecting the given information (input/output relationship patterns or questions generating connective functions) and the target information (functions)
+                - comparisons
+                  - equivalencies
+                    - given information
+                      - sample outputs
+                      - target probabilities of sample outputs to qualify for a metric (like fairness)
+                    - interim information
+                      - interaction space of sample outputs (total outcome combinations)
+                        - probability of interactions & interaction types
+                          - equivalencies between compared sample outputs
+                          - net ratio of equivalencies between compared sample outputs
+                            - sum from 1 ... n
+                              - how often do they have (1 ... n) outcomes equal
+                            - divide sum by total outcome combinations
+                          - equivalence of net ratio & fairness ratio
+                    - target information
+                      - equivalence of sample output of compared objects
+
+              - function to identify proxy variables of a missing variable
+                - includes inference of alternate variables that could generate the same information
+                - also includes inference of side effects of the missing variable
+                - example: if you dont have a variable like 'level of education' or 'level of intelligence' which is a predictor of income, how could you derive it from other variables, as an interim dependent variable to predict, before other dependent variables like income can be predicted?
+                  - apply a variable type pattern: 
+                    - 'variables with metadata similar to income have a predictive variable with metadata similar to education (which could point to intelligence, info access, tech access, group membership, and other variables with similar functionality to education)'
+                  
+                  - identify functionality produced by other variables you do have in the data set
+                    - 'what functionality does a system with these types of variation in genes, experiences, medicine, & information access produce?' 
+                      - output: the concept of 'agency' (and its related functions), which is a causal input/output of intelligence
+
+                  - identify insights in interactions of other variables explaining the missing variable
+                    - "these data points are distributed in physical position (data comes from several countries), which implies difference in 'information access', which is correlated with target dependent variable 'income', if you add a related interim variable (given insights like 'accessible information is not always used') like 'information usage' (a proxy for intelligence variable) that varies by cross-indexing with pollution-location data (creating mutations), indicating the 'information usage' is impacted by gene mutations (a gene determining information usage, such as intelligence genes) or other side effects of pollution (impacting 'information usage' functionality)"
+
+                    - bc we had:
+                      - location data in the original data set
+                      - another data set relating location & pollution
+                      - an insight data set about information usage not being equivalent to information access (indicating a need for different terms)
+
+                      we could:
+                        - identify the concept of 'gene' from any genetic attributes like gender/race in the data set 
+                          - the definition of the concept can be as simple as 'a set of constants for a record' or 'a set of constant inputs for a record' or 'a set of constant inputs of original position for a record', depending on necessity of specification
+                          - later we alter the gene concept to generate the 'genetic mutation' concept by applying the core function 'change' to the 'gene' concept, so we probably dont need 'constant' in the gene definition
+                          - we also infer a core component like 'functionality' being determined by the 'gene' concept, which can be added to the definition in this initial step rather than inferred later from other components
+                          - we also infer that the 'pollution' concept can be an input to the 'gene mutation' concept, which may be included in the original definition as a variable rather than inferring 'pollution' from other components like 'location'
+                        - identify a relationship between the 'location' variable correlating with the 'information access' variable
+                        - identify location-specific variables, like the 'pollution' concept
+                        - pull 'pollution-location' data
+                        - generate a possible interim 'information usage' variable by altering the 'info access' variable or pulling an 'info access' insight about the difference between those two terms
+                        - identify a relationship between 'info usage' and 'pollution-location' data
+                        - infer concept of 'gene' from original data set if it had any genetic attribute data
+                        - infer concept of 'gene mutation' from pollution definition
+                        - generate the concept of a possible function linking 'gene' concept and 'functionality', with 'gene' as an input
+                        - identify 'info usage' as an example of 'functionality'
+                        - infer that 'gene mutations' are also possible inputs to 'functionality', in addition to 'genes'
+                        - infer that 'gene mutations' are a possible input to functionality example 'info usage'
+                        - infer that inputs to gene mutations ('pollution') is a possible input to functionality example 'info usage'
+                        - infer that related variables to pollution ('location') is a possible input to functionality example 'info usage'
+                        - infer that 'info usage' variation generated by 'gene' concept or 'pollution' concept is a possible input to 'income'
+
+                    - you could infer the link from functionality (such as info usage) to 'intelligence' by further inferring that functionality varies in effectiveness by usage ('info usage' usage, or learning), which implies the concept of 'agency' or 'intelligence' (defined in similar terms as 'having the option of using a resource')
+                    - you could also infer 'education' as 'info storage' (remembering it) or 'info exposure' (reading it rather than just having access to it) from the 'info access' variable in the original data set, where education is an alternative or proxy variable for intelligence in some cases
+
+            - function to identify causal structure, as shown in FIG. 13 (Causal structure-matching) 
                 - FIG. 13 shows causal structure-matching on information standardized to the cause interface. 
                 - In FIG. 13, the program logic may fit variables to a causal structure, like one of the structures depicted in the top half of FIG. 13. 
                 - A unit example of a causal loop structure is where the output of one function is re-routed to its input.
@@ -132,11 +214,11 @@
                     - You can also identify those causes using other interfaces:
                         - system objects (identifying incentives in the bio system rewarding adaptive responses to stressors or maintaining DNA, matches between environment stressors and changes to DNA, sub-interfaces that provide a platform for change to develop like the spine provides a platform for variation within change limit)
                         - structure objects (identifying the rules that act as hub nodes, like change rules do, identify sequences like needing an audio communication system on the vocal chord sub-interface, once that interface is enabled with a spine, so the spine acts as an input requirement for the bark).
-                *eonew
               - answers the question:  
                   - why did something work (because of its causal position/structure/layer/pattern/interactions/attributes/similarities) 
                   - what layer of the causal stack is the relevant cause   
-          - change functions 
+
+          - change interface (change functions of cause)
             - change structure 
             - change intent 
             - change cause metrics 
@@ -203,7 +285,9 @@
                 meaning it either:
                   - doesn't exist (at any time), like a final output that doesnt ever return to interact with other systems as an input
                   - is one of the few things that does exist (across all times), like a concept that never stops influencing variance
-
+          - how to erase causation contributed by a prior/root cause to subsequent variables if root cause & subsequent variables are both included in the data set
+          - change phases for causal analysis (interim, changing, diverging, standard, efficient state, constant, interacting, converging, on the verge of obsolescence, outlier, etc)
+            - superficial cause, alternate cause in the case of a function, addressing input/output causes
 
         - context 
           - system context 

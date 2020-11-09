@@ -58,6 +58,49 @@
         type functions
         changing structural attributes (position) generates functions (move, polish, align, combine, etc)
 
+    - build/group function 
+
+      - example: language map queries to generate semantic objects
+          - ambiguously controversial paths (cant pin down anything you said as wrong but it sounds controversial)
+            - from standard path 'fill out the self-reporting census form' to ambiguously controversial path 'exploitation of the race/gender/disability option'
+          - things that sound controversial but are just accurate:
+            - having one set of optimal attributes creates a system with more ways to be wrong than ways to be right, so the minority at the top will be oppressed until a new optimal is chosen, which is a slower evolution process than having more than one optimal set 
+              (uses controversial word 'minority' and controversial depiction of 'minority at the top' being 'oppressed' in some way, which is true bc of the ratios and power dynamics resulting from them, but is controversial-sounding bc of the different positions of those objects compared to their standard positions in how theyre usually used)
+
+    - find/filter function
+
+    - derive/connect function
+
+      - example: derivable content metadata (giving context to an isolated descriptive variable analysis):
+        - the insight path an author took to generate their work, given their input info (what trajectory did they take from A 'reading the bible' to B 'writing this poem)
+        - other effective/creative/robust insight paths (how to get from A to B in a more creative way)
+        - the structures like core functions/bases/layers/objects to generate the content (take a plot from an old bible story, add drama, add local/contemporary plot lines, mix characters, apply a structural pattern like syllables to refine it)
+        - generative variables of the content, rather than just the descriptive variables (find objects that generate attention (drama), find new combinations of character attributes, find a structural pattern & apply it)
+
+    - apply/inject function
+      - example of applying a priority distortion to a structure:
+        - social manners perspective/intent translations with structure mapping in specific systems (like govt system using the satire perspective
+          - diplomatic perspective:
+            - from 'flaw/mistake' to 'optimization metrics' or 'variance source'
+            - from 'get/make/trick them into' to 'inspire them to' or 'give them a reason to' or 'enable them to justify'
+            - from 'please dont do that' to 'thank you for being self-aware enough to not do that' or 'i hate when this other person does that, im glad you dont do that'
+            - from 'youre annoying' to 'i need to recalculate my trajectory/i need time to process that'
+          - neutral perspective:
+            - from 'flaw/mistake' to 'unknown optimization metrics'
+            - from 'get/make/trick them into' to 'convince'
+            - from 'please dont do that' to 'track every occurrence in a database'
+            - from 'youre annoying' to 'i need you to share that with the team' (delegating negative feedback)
+          - govt satire perspective:
+            - from 'flaw/mistake' to 'tactic'
+            - from 'get/make/trick them into' to 'win them over'
+            - from 'please dont do that' to 'taxing that'
+            - from 'youre annoying' to 'redrawing district borders so their vote doesnt count'
+          - work productivity perspective:
+            - from 'flaw/mistake' to 'would you like to work on our mistake-fixing algorithm'
+            - from 'get/make/trick them into' to 'incentive alignment algorithm'
+            - from 'please dont do that' to 'cost-allocation learning optimization algorithm'
+            - from 'youre annoying' to 'busy work algorithm'
+          
     - core functions
         - build
           - copy/replace/remove
