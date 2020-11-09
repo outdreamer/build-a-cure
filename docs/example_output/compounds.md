@@ -607,7 +607,6 @@ I. bladder
 		    - polyphenols reduce estrogen
 		    - green tea damages liver with more than a few cups
 
-
 ## Vitamins
 
 - related conditions
@@ -622,8 +621,19 @@ I. bladder
 
 	 - avidin is a protein in raw egg whites that inhibits the absorption of biotin; it is deactivated by cooking
 	 - Pyrithiamine, a synthetic compound, has a molecular structure similar to thiamine, vitamin B1, and inhibits the enzymes that use thiamine
+	 - Plant phytates are particularly found in pulses and cereals and interfere with zinc absorption
 
-- probiotics: lactobacillus (bulgaricus, plantarum)
+- probiotics: 
+	- lactobacillus (bulgaricus, plantarum, brevis, helveticus, acidophilus, reuteri, rhamnosus, fermentum, paracasei, salivarius, gasseri, casei, kefir, parakefir, kefiranofaciens, kefirgranum, lactis, lactis biovar diacetylactis, cremoris)
+	- leuconostoc (lactis, mesenteroides, cremoris, dextranicum)
+	- kluyveronmyces (marxianus)
+	- brettanomyces (anomalus)
+	- debaryomyces (hansenii)
+	- saccharomyces (unisporus, turicensis, cerevisiae, exiguus)
+		- saccharomyces cerevisiae may be found growing on grape/plum skin
+	- torulaspora (delbrueckii)
+	- bifidobacterium (bifidum, breve, lactis, longum)
+	- streptococcus (thermophilus)
 
 - essential vitamins
 
@@ -711,22 +721,60 @@ I. bladder
 			- digestion:
 				- probiotics
 				- enzymes
-					- lipase, protease, aspergillopepsin, beta-glucanase, hemicellulase/cellulase, bromelain, phytase, lactase, papain, peptidase, pectinase, xylanase
+					- lyzosyme, lipase, protease, aspergillopepsin, beta-glucanase, hemicellulase/cellulase, bromelain, phytase, lactase, papain, peptidase, pectinase, xylanase
 			
-
 	- other useful compounds
 		- lycopene (tomatoes)
 		- lutein: (vision)
-		- vanadium
-		- silicon
-		- chloride
-		- choline
-		- flavonoids
-		- boron
+		- choline: eggs (lower in other foods, including meat, dairy, vegetables, grains, fruits, fats)
+		- flavonoids: plant compounds (see above)
 		- coq10
 		- glutathione
 		- superoxide dismutase (sod)
-		- carnosine, carnitine, histidine, tyrosine, taurine
+		- nitrate: spinach/turnips/beetroot, and minimially produced in body; converted into a molecule called nitric oxide, which can increase blood flow
+		- antacids: sodium bicarbonate
+		- energy
+			- guarana
+			- panax ginseng
+
+		- amino acid metabolites
+			- creatine (a metabolite of arginine, glycine and methionine): recycles ATP
+			- carnitine (methylaminobutyrate/butyric acid): synthesized by lysine; a quaternary ammonium compound involved in fat metabolism 
+
+		- dipeptides (groups of amino acids)
+			- contain histidine:
+				- carnosine (β-alanyl-l-histidine)
+				- anserine (a methylated product of carnosine; β-alanyl-1-methyl-l-histidine), containing alanine and methylated histidine
+
+		- amino acids
+			- bcaa's
+				- isoleucine
+				- leucine
+				- valine
+			- glutamine
+			- n-acetyl cysteine (NAC)
+			- l-citrulline (nonessential): synthesized to arginine
+			- taurine: sulfur-containing β-amino acid
+			- alanine: beta-alanine decreases acid
+			- tyrosine: synthesized from phenylalanine, precursor to dopamine, norepinephrine, epinephrine
+			- histidine
+			- taurine, creatine, carnosine, anserine and 4-hydroxyproline:
+				- prevent: 
+					- obesity, cardiovascular dysfunction, and aging-related disorders
+				- inhibit tumorigenesis
+				- improve skin/bone health & neurological abnormalities 
+				- promote the immunological defense of humans against infections 
+					- enhance the metabolism and functions of immune system cells (monocytes, macrophages)		
+			- 4-hydroxyproline
+
+		- malic acid
+		- d-mannose
+		- collagen
+		
+		- fatty acids
+			- omega 3
+			- caprylic acid
+			- alpha lipoic acid
 
 		- electrolytes
 			- potassium
@@ -735,15 +783,27 @@ I. bladder
 			- phosphorus
 
 		- other essential compounds
-			- calcium
-			- iodine
-			- zinc
-			- selenium
-			- copper
-			- iron
-			- manganese
-			- chromium
-			- molybdenum
+			- minerals
+				- lithium:
+				- sulfate:
+				- vanadium (increasing insulin sensitivity or otherwise improving glycemic control): vegetable oils, oats, corn, green beans, carrots, cabbage, garlic, tomatoes, radishes and onions
+				- boron: avocado, raisins, apricots, red grapes, celery, carrots, and broccoli
+				- silicon (maintain nail, hair, bone, and skin tissues, synthesize elastin/collagen): red wine, beer, raisins, whole-grain bread, bran cereal, brown rice, green beans, mineral water, barley, oats, whole wheat, nuts, dried fruit, bananas, root vegetables, spinach, seafood, organ meats
+				- chloride (ion of chlorine): seaweed, rye, tomatoes, lettuce, celery, and olives
+				- calcium: dairy, sardines, salmon, soy, kale
+				- iodine: fish, seaweeds (including kelp), shellfish, dairy and eggs
+				- zinc: meat, fish, shellfish, fowl, eggs, dairy, wheat (germ/bran), seeds (including sesame, poppy), alfalfa, celery, and mustard, beans, nuts, almonds, whole grains, pumpkin seeds, sunflower seeds, & blackcurrant
+				- selenium: meat, nuts, cereals and mushrooms
+				- copper: meat, dairy, plants
+				- iron:  red meat, oysters, lentils, beans, poultry, fish, leaf vegetables, watercress, tofu, chickpeas, black-eyed peas, and blackstrap molasses
+				- manganese:
+					- food: mineral water, whole grains, clams, oysters, mussels, nuts, soybeans and other legumes, rice, leafy vegetables, coffee, tea, spices (including black pepper)
+					- other:
+						- polypeptides: arginase, the diphtheria toxin, and superoxide dismutase with Mn
+					- enables enzymes: oxidoreductases, transferases, hydrolases, lyases, isomerases, ligases, lectins, and integrins.
+				- chromium: broccoli, barley, grapes, oats, potatoes, chicken, liver, beef, dairy, eggs, brown rice, whole grains, black pepper, green beans, orange, tomatoes, romaine lettuce, apples, bananas 
+				- molybdenum
+					- Pork, lamb, beef liver, green beans, eggs, sunflower seeds, wheat flour, lentils, cucumbers, and cereal grain
 
 	- conditionally essential vitamins
 
@@ -752,4 +812,18 @@ I. bladder
 			- one form of vitamin D is synthesized in skin cells when they are exposed to a certain wavelength of ultraviolet light present in sunlight
 			- humans can produce vitamin A (using beta carotene) and niacin (from the amino acid tryptophan)
 			- carnitine
-		- vitamin U (S-Methylmethionine): Protein metabolite; synthesized in body
+
+
+## Metrics
+
+	- nitric oxide
+
+	- co2
+
+	- oxygen
+
+	- creatinine
+
+	- heart rate
+
+	- electrolyte balance
