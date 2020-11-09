@@ -65,6 +65,8 @@
       - compressing
   - objects (type, state, definition) 
   - structures (attribute sets, type hierarchies, state networks) 
+    - types can be represented as directions (going farther from origin goes further up type stack, where similar types are adjacent)
+
   - concepts: 
     - standardization (defining objects in terms of core/structural terms)
     - core components (sets of components that can be used to construct other objects in a system) 

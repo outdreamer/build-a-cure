@@ -356,3 +356,18 @@
         - abstraction
 
           - abstract efficiency objects (patterns, concepts, strategies) 
+
+
+
+- finance
+
+  - pre-approved transactions on a schedule that give id service provider permission to update id
+    - businesses contact id provider to check that id hasnt changed or get new id if its changed
+    - then makes call to bank associated with id or updated id, which is expecting the transaction at that schedule & has already allocated/locked funds for that transaction
+    - this means customers dont need to update card numbers or bank account numbers if prior numbers are compromised, but the id provider does need to track the original number & changes, and new numbers need to be unique across customers
+    - transactions that are already configured/scheduled and havent been canceled are automatically approved
+    - transactions that are implied/predicted (purchasing jacket if the weather is colder or moving to a colder location) have conditional pre-approval
+    - customers can register their original id number with a particular business & optionally approve a budget with ratios of intents for transactions at that business/business type/product/product type, or range of transaction amounts, intents, types & other variables for their id number (by importing prior purchase histories or filling out new configurations or making new purchases) so transactions outside of that range arent allowed or have extra security intent layers applied
+    - intents can be used to add validation to purchases (what are you buying this for? for event x coming up, which the calendar app api can provide validation of)
+    - they can dis/associate other info with their id as needed (voting, address, purchase/subscription/transaction/configuration history)
+    - using contribution to economy/markets/financial instruments/purchases/legal frameworks (like whether they can influence/create purchases or markets or product regulations) as an input to credit (indicating their value-creation potential)

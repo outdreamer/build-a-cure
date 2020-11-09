@@ -1,0 +1,13 @@
+- ui
+
+  - example of UI for implementing intent-matching for code generation
+    - form accepting intent queries like 'build streaming platform optimizing for metric c with these data sources'
+    - user input can be a diagram of an optimal structure to generate:
+      - upload a diagram positioning data sources, formatting/aggregation/analysis processes, metrics, query types, permissions, visuals, & target output, which produces various implementation diagrams the program derives, which the user selects between
+        - including attributes/functions like:
+          - which data should be streamed where
+          - which data should be encrypted in what way
+          - which actions should follow which actions
+          - which data should be accessible by api, to which apps
+          - which queries are expected, from which users/apps
+    - identify uncertainties like config relevant to their intent and ask questions to confirm to reduce produced set of implementation diagrams

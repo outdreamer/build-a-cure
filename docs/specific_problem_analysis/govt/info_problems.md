@@ -1,0 +1,431 @@
+
+## Optimal Resource Trades
+
+  - famine, farmland, mine field location data
+  - cost of removing mines
+  - cost of transporting people
+  - which land is for sale & at what cost
+  - how much land is necessary to support a person
+  - set of resource trade sets across projected weather patterns for next 10 years to generate migration paths
+  - which farmland is more optimally used for something else (harvesting other natural resources, water supply, city)
+  - which cities have industries to support new workers moving there
+  - what distribution of cities/farms is optimal for reducing resource transportation cost
+  - how much does it cost to train someone to maintain a garden with latest/available tech
+  - what amount of infra investment would it take to empower them to solve their most urgent problems
+  - what is the configuration of farmland & farm input supply chains that reduces supplies transportation cost
+  - what is the import/export potential of each region (which crops & other resources can they produce)
+  - what distribution of industries should occur by distance from ocean/water source
+  - what infrastructure can optimize farmland at lowest cost
+  - which laws are commonly reused across governments & are generally agreed to not be exploitative of citizens
+  - what distribution of courts/police/lawyers is necessary to distribute fairness in markets
+  - what compoments of this can be automated/updated automatically & which should be done with manual input
+  - what tools do they need other than farmland 
+    (water source, sun, cell phone, charger, electricity, portable wi-fi generator, app to track their assets, app to trade by phone, app to request supplies/loans)
+
+- here are some ways to rearrange society's resources that don't involve huge investments
+
+  - college debt: if college grads or current students want to pay off college debt, let them do useful science research or build useful tools out of a national index of tools needed, in return for college credit
+
+  - homeless living situation: 
+    - let homeless people live in the houses the government hires them to build if they're willing to work for a basic salary or be paid in housing when they're done, and they can continue building cheap homes for other people if they want to continue making money
+    - cheap housing tools (cement-house building machine, other methods of building cheap shelters & infrastructure to support them)
+    - cheap land after reducing demand for goods produced by that land (reducing meat consumption will reduce land needed by livestock)
+    - recycling wood products/reversing burning process can lower amount of land needed for forests
+    - tools to lower carbon dioxide can reduce dependence on forests
+    - tools to convert ice-covered areas or other areas considered non-livable to livable land
+    - reduce land that takes the largest area to produce lowest value goods (vineyards, etc) if those products can be produced in labs or if demand for them can be reduced
+    - tools to distribute land to extend coastlines
+    - tools to make living on ocean cheaper for homeless people/increasing wildlife or food-generation tools without unbalancing ecosystems
+
+  - prizes for the most useful research solutions stored on a website (change.org, etc) such as:
+    - problem-solving automation tools
+    - tool frameworks like popular code libraries to build other tools
+    - tool to make addictive drugs/plants non-addictive
+    - tool to make crops hyper-productive
+    - tool to make clean energy out of sunlight/water/air elements/waste
+    - tool to test product quality (medicine, air filter, water quality, etc)
+    - tool to convert harmful product into harmless product (tablet to remove aspartame from coca cola or bpa from contents of a can)
+    - tool to convert products no longer in demand into source materials that can be used to make new products
+
+  - solution market management:
+    - in order to make everyone a solution supplier (equally able to solve their own problems or solve problems for other people), they need problem solving tools:
+      - computer/cell phone
+      - electricity
+      - wi-fi
+      - education (comes with wi-fi, if theyre pointed to the right resources)
+      - basic resources to live (shelter, water, medicine)
+    - people with more problems than they can fix themselves (malnourished brains) can contribute as research subjects/solution testers
+
+  - debt market management:
+    - debt markets essentially involve trading beliefs in the value of something (someone's earning potential, the value of a degree, the future value of someone's health, or future value of a product, or potential user base/research/product delivery of a company)
+    - in order to resolve debt markets so that resources are distributed in a more optimal manner, you can arrange beliefs using economic tools that engineer beliefs (advertisements, trade wars, taxes)
+    - beliefs can be arranged optimally with optimal transport to make the trades that will allocate resources where theyre most needed & most justified, like the trades you make in tetris
+
+    - example: 
+      - advertise/subsidize demand for a product that is about to be less demanded 
+        (meat, soy, stevia, aspartame) 
+      - invent a tool to change it into something that is closer to the next demanded product or supplementary to current & next demanded product
+        (soy with allergen removed, seasoning to make both soy & imminent soy replacements taste better, which would have steady demand in either market)
+      - then producers can invest in the next-demanded product 
+        (alt milk sources like almond with lower economic impact & allergen content, monk fruit, agave syrup, high-salt goods to replace high-sugar goods)
+
+  - investment market management:
+    - investments are incentivized beliefs
+    - once the money is invested, there's profits to be made by fulfilling that belief
+    - investments should be based on as high a proportion of fact as possible without stifling potential adaptation of the solution implementation
+    - meaning the product plan should be clear & well-thought out & based on verified understanding, but allow room for adapting the implementation method in case a flaw is found later
+
+  - invention market management:
+    - the value of an invention is based on the problem space (existing resource distribution & tech resources)
+    - to make an invention more valuable, the problem space can be adjusted to change demand/dependence on that tech
+    - example:
+      - a tool to improve the genome of a particular plant to be extra-productive is only valuable if you dont have a tool that can produce & ripen any plants from a standard genome
+      - a water filtration tool is only valuable if the infrastructure still allow contaminated water to pass to consumers
+      - a particular energy source is only valuable if there isnt a cleaner, cheaper, more efficient, more adaptive, more self-repairing, and more accessible alternative
+    - in any problem space, there are a finite set of inventions that have value
+    - which inventions have the most value depends on the problem space structure as well as the invention metadata
+      - production cost
+      - accessibility of inputs
+      - whether inputs already exist or need to be built
+      - regulatory support, barriers, or loopholes
+      - competition that can optimize the invention implementation or hinder it with legal or info entities (patents, intellectual property, trade secrets, information leaks, false information, lack of info security, corporate spies, exploitative employment disincentivizing employees, conflict between agencies in hidden goverments of emotions & grudges)
+      - maximum demand/supply potential
+      - existing products solving different aspects of the problem or adjacent problems, insights needed to produce the invention, etc)
+      - probability & timeline of invalidating invention being released to the market
+
+  - insight market management:
+    - the value of an insight has an expiration date that progresses from its discovery date, the point when it becomes common knowledge, to the point where it becomes automated, and the point when it begins to be over-assumed & starts to decay, until it eventually reaches 0 value.
+    - example:
+      - assuming p-value is a good way to assess study results used to be an insight but now the field has progressed to the point where people recognize the limits of isolated analysis & simplistic metrics that use constants or a single metric to evaluate the accidental potential of an observed relationship, so anyone still using that as an assumption is headed for failure
+
+  - other cheap ways include:
+    - moving people to cities so it's less costly to help them
+    - manipulating demand/supply to reward suppliers most in need (advertising their products more or subsidizing their acquisition of resources to make them competitive with privileged suppliers)
+    - network analysis to identify demanders/suppliers who can provide the best ROI (influencers, best educators, social network hubs, best adapters, best learners, best sharers, etc)
+    - network analysis to identify optimal products/inventions/research/trades/markets to subsidize
+    - network analysis to identify best method of increasing value of a good (advertisement, bundled goods, conflict trades, resource allocation/matching/distribution, subsidies, taxes, regulation, investment, idea sharing, optimization/competition/innovation incentive alignment)
+
+  - examples of previous methods:
+    - global agreements to allocate land & other resources to optimal identified global uses
+    - visa allotments to enable labor trades w/ minimal transaction costs
+    - reward most efficient suppliers w/ research tools to keep adapting to changing demand
+    - allow buy-in to networks of optimized markets output by optimal transport algorithms applied to market objects (resources, demand/supply, laws, etc) which reward users more the more people participate
+      - by 'optimized market networks', I mean a system that has determined the optimal set of products/inventions/incentives/labor/research/trades/trade loops/info/laws in an optimal series of problem spaces to optimize resource distribution for the most agents
+    - vice markets (allocate terrorists as prison guards to make vices valuable)
+    - virtue markets (allocate people who still have patience & desire to help so that this resource is not exhausted & they have time to recharge)
+    - applying prior demand cycles to allocate resources to new markets (if demand for meat is declining in industrialized areas, allocate meat products/production to unindustrialized areas until that demand declines, then keep moving market until demand is exhausted)
+
+Strategies for ending poverty in a cost-minimizing way that mostly involves combining/arranging existing resources in an adjacent way (which will make the whole world happy & free from negative feelings like fear/guilt/horror, to overthrow the government of feelings):
+
+    - giving poor people the information advantages they can use (a cell phone, internet) to lift themselves into a higher income, to fight corrupt officials, gangs, & other exploiters, & correct the lack of information about where to find resources like water/medicine/internships, which skills they can acquire in online tutorials that would earn them a local job, or lack of information to organize their labor with people who aren't in shouting distance
+    - applying optimization algorithms to arrange resources like information/problems/advantages/costs/agents/roles/markets/trades/regulations
+        - training optimization algorithms to optimize market/law/resource/process state networks for fair/earned resource distribution or exploit minimization or labor/problem distribution (after standardizing to cost/benefit, incentives/intents/priorities, potential measured as alternative option increase/reduction ratio, problems/opportunities/efficiencies/debt/competition/information created/used/wasted, stakes/risks, potential/probable/current value by location/job/time/state, and input work & earned/received output objects, and aiming for a metric like benefit/cost ratio or problem/resource ratio distribution)
+        - identifying which tools would improve state the most efficiently (answering questions like 'is distributing a water-filtering straw to everyone, organizing/optimizing water supply chains, or moving everyone to cities the best way to distribute clean water to everyone, and in which areas are these strategies optimal, given other problems/solutions being applied') 
+        staggering the education of skills to people in a sequence/distribution/combination that would make that information valuable to their local markets temporarily so they can earn enough to get other jobs
+        - applying optimization algorithms to predict/optimize integrations of local solutions to predict how theyll interact with other problems/solutions at scale, like what would happen if one recycling program is implemented with a water supply chain and communications technology, in combination with a different set of rules/enforcement/incentives/etc in the next neighborhood, and so on, at a national/global level - which is a problem of predicting change interactions (problem/solution interactions) that most people cant predict without extreme computation resources
+    - distributing independence-generating tools (robots, machine-building resources, cell phone/internet, security tools, statistics knowledge, skills (communication, comedy, social, technical, math, logical), accurate information about markets/govt/medicine, product & information quality testing tools, etc)
+    - attacking the exploiters ruining the world, either by informing them to reduce their incentive to exploit, or by correcting whatever imbalance they have that makes them want to exploit other people (if they have a lack of love, teach them the structural definition of love (choosing to see someone's potential, aligning your feelings with someone, maintaining a ratio of positive memories with someone) or teach them social/communication skills or supply them with sex drive-decreasing medicine, & how to earn love - if they have a lack of money, teach them how to earn it - if they have greed/lack of self-control, teach them how to be humble & why it's good) - if they don't respond to altruistic motives, show them how even selfish motives are fulfilled by exploiting people less, such as that they wont be attacked as much or asked to do charity
+    - sharing the information that there are options other than not thinking at all & other possibilities than just existing structure like feelings, such as learning/thinking & interfaces like logic, and that these things increase one's potential & uniqueness & contributions to the future
+    - sharing the information that only unattractive/unloved/stupid people act in selfish ways, and loved/smart people are altruistic
+    making this set of information required viewing for attaining other resources, like permissions to view other content or use an app or get a job
+   -  distributing resource-producing resources (like probiotic colonies to create a probiotic supply that can be grown to produce medicine for a community, or mosquitos with vaccines in their saliva)
+    - allocate unused resources to poor people (mostly info-gathering, logistics, & shipping costs, and marketing to get all people to give info about what they can donate
+    - identify adjacent-resource (skill/info) investments that poor people could work on or contribute to that would create a profit
+        - cleaning up environment
+        - producing essential supplies like medicine on their own from local resources (once they have info like instructions & resource position, since medicines & other resources can usually be generated from many different resource combinations)
+        - executing instructions for building medicines/essential hard-to-get supplies from local resources
+        - developing/optimizing simple components of more complicated systems (like extracting insights from a research paper, or finding natural processes that do a bio system optimization more efficiently, or checking research studies for best practices, verifying predictions of AI models or other prediction methods, answering questions to train AI, operating drones/robots picking up trash or assembling goods or planting trees, monitoring for alert types, documenting error/problem types/quantity/cause, surveying to gather data (solving information-imbalance problems, such as information about current problems), other monitoring/enforcement tasks like compliance-assessment)
+        - teaching them analysis methods so they can contribute to solving other information problems (identifying causal variables, reporting exploit opportunities & other manual interface & system analysis that helps optimize systems, such as their water pipelines or recycling programs)
+        - teaching them how to do simple, delegatable pieces (like summarizing a meeting, comparing summary algorithm output & manually selecting the best summary to train new algorithms to automate simple job component tasks, writing emails, executing/monitoring/rolling back builds, testing sites/features/apps for errors or exploits, identifying/attacking hacker groups, making decisions about legitimate/illegitimate requests/processes once an AI identifies possible intruders, testing pipelines, translating task descriptions into automatable structures like templates, identifying/resolving social conflicts, designing arguments, identifying/evaluating bias, applying a language perspective like diplomatic language to translations/communications, mapping a language to a standardized language, mapping systems to other systems like math rules/objects to language rules/objects, identifying patterns like fake news/joke/summary/insight patterns, persuading voters, identifying system optimization opportunities which can then be filtered by automated logic like filtering which opportunities are lowest-cost, identifying fake news, fact-checking, interviews) of existing complex jobs (devops, coding, legal analysis) so the current employees can learn other complex skills (data science, math, optimization algorithms)
+        - doing the work that would reduce poverty themselves as their job funded by govts looking to reduce health & other costs of poverty (learning & teaching other poor people skills, delivering donated goods to other poor people), since reducing poverty is an investment that would pay dividends by creating a new population of contributing scientists/laborers and reduce health care/charity/climate costs
+
+# Questions for humanity
+
+
+1. What are your perspectives & priorities? What are your definitions of metrics like success/value, & concepts like justice, love, power, & freedom?
+
+2. What ideas do you love?
+
+3. Where do you allocate your pain (standard learning tool)? How do you organize your pain (just the information learned, as a function, etc)?
+
+4. How do you organize your brain? Do you separate feelings from information? Do you put truth filters in front of your information storage? Do you have an organizing concept like balance governing your brain? Do you have a set of decision functions for different information? Do you have a set of perspectives to use as a backup? Do you have certain games set as default interactions?
+
+5. Where do you look for meaning (your identity, similarity, freedom, power, challenges, superiority, connections, potential, learning)?
+
+6. What do you share? What do you fix? What do you sacrifice? What trades do you make? Do you convert problems into other problems, questions, missed opportunities, strategies, answers, secrets, jokes, or useful tools for people?
+
+7. What rules do you question or assume? What are your variables & constants?
+
+8. When & why do you change? Can you change your motivations?
+
+9. What do you remember? How do you convert your memories into meaning? What moments & stories do you use as maps?
+
+10. What structures do you find in your life (toxic cycles, forced decisions, question traps, other people's stories, core functions)? Can you/should you change them? How do you handle structures (attributes, functions, routes, limits, groups, origins, extremes & optimals)?
+
+11. Where do you allocate your decisions? What do you do by default? What do you calculate, analyze & test for? 
+
+12. When & how do you use your emotions, attention, curiosity, work, & intelligence? What do you aim them at?
+
+13. Where are the interfaces & interface components (problems, uncertainties, risk, randomness, meaning, & potential) in your life? What makes you wonder or want to know more? 
+
+
+# Humanity structures
+
+    - what metadata (count, type) of the following variable structures are a person allowed/required:
+
+    	- structures
+	    	- moments
+    		- pivots
+    		- moves/positions/gaps/limits/boundaries/intersections/combinations/extremes
+    		- paths/rules/connections (functions, ratios)
+    		- systems
+    		- variables
+    		- origin/destination
+    		- similarities/differences/distortions
+
+    	- variables
+    		- access/status
+    		- metrics/calculations
+    		- roles/responsibilities
+    		- assumptions/dependencies
+    		- protection/rights/property/sharing
+    		- empathy/sympathy/apathy
+    		- judgment, criticism, understanding, explanations, feelings
+	    	- optimizations/improvements
+	    	- alternatives/decisions
+	    	- games/strategies
+	    	- agency (freedom/power/independence): random, accidental, default, bias, misunderstanding, learning, intentional, & powerful
+	    	- insanity & mass hallucinations
+	    	- laws/decrees/suggestions
+	    	- expectations/promises/dreams
+	    	- gods/allies/enemies
+	    	- education/learning
+	    	- organization
+	    	- system objects (incentives, efficiencies)
+	    	- favors
+	    	- realities
+	    	- belief/disbelief/trust/opinion
+	    	- time
+	    	- concepts (power, balance, truth)
+	 	    - virtues/vices
+	    	- cause
+	    	- change
+	    	- abstraction/automation
+	    	- variance/potential
+	    	- bias/fallacies
+	    	- perspectives
+    		- intent/priorities
+			- controversy
+			- achievements
+			- standards/frameworks/tools
+			- logic
+			- ego/identity/memories
+			- mysteries/lies/excuses/facts
+			- problems/questions/errors
+			- solutions/answers/corrections
+			- bets/predictions/risks
+			- coincidences/opportunities/possibilities/probabilities/certaintiee/chances/acceptance
+
+	- what are the optimal structures of relationships between these components?
+		- do they have reasons (plans, strategies, investments) for their decisions or just granular intents (short-term specific local goals)
+		- do they have suggestions for problems?
+		- do they align their achievements in a way that creates opportunities for more?
+		- do they have logic to go with their opinions?
+		- do they have solutions to go with their criticisms?
+
+# Ethical position matrix
+
+	- interactions of the following ethically relevant objects:
+
+		- attributes:
+			- morality: good/evil
+				- related objects: conscience, ethical rules, the right thing
+			- requirements/assumptions/responsibilities
+			- conditions (future/past/unknown)
+			- probability
+			- potential
+			- fairness
+			- agency/intelligence
+			- events/decisions
+			- information
+			- related objects (possessed info objects, relationships)
+			- characters/roles
+			- status/trajectory/origin/destination
+			- intent
+			- feelings
+			- state/time
+			- simplicity
+			- relevance/importance
+			- understanding
+
+		- structures:
+			- equality/condition/combination/comparison operations (is/not/and/but)
+			- direction
+			- spectrum
+			- combination
+			- vertexes
+				- related objects: description/summary/encapsulation
+			- dependencies
+			- dichotomy
+			- threshold
+			- above/below
+			- in-between
+			- lack (missing info, rule gap)
+			- info gap
+				- related objects: ambiguity, minimum information
+			- metric
+			- interaction layer
+			- similarities/differences
+
+
+	- what are the optimal structures of relationships between these components?
+
+		- should potential be examined in every ethical situation, or is there a certain lack of potential in some situations?
+		- what is the correct sequence of objects (apply empathy, apply existing solutions, build new solutions, educate so they can fix it themselves, required work assignment, condemnation)
+		- what is the role that time, information, origin & status play in ethics? (is origin location a determining factor in a high percent of events)
+		- what are the vertexes (determining/describing/generating variables that act as potential interfaces for change to develop)
+		- what is the correct structure of feelings (backup alternative input to useful functions like powering work/motivating towards a goal)
+
+I think social problems like crime are mostly information problems (info about resources like opportunities, group memberships, solutions, insights like how to communicate) so please share this quickly with whoever might benefit, during a brief testing period to catch anything else that should be communicated with these things, to prevent additional deaths
+
+For all of them:
+
+	- there are monsters of every vice controlling them for the amusement of Alpha, controlling humans to a degree of uncertainty, and controlling animals completely
+	- every time they do something wrong, it hurts the whole world too to see them fall prey to the monsters controlling humanity & other species, and it hurts Joni's children, which includes themselves
+	- we love them & their potential, will never abandon them & will always be here for them
+	- these are their choices, nothing is forced, but we have hope for them & want them to be a part of the global community & see their potential blossom
+	- help them see the luck in their life, & cry for the bad luck in their life
+	- help them see the complexity & potential in other people (by imagining their history, perspective, priority, luck, strategies, insights, stories, dreams, inventions, work, skills, problems, decisions, learning, humor, growth or cognitive distance from their origin point, imminent achievements, risks they take, sacrifices) and in themselves
+
+For the tribal warmakers:
+
+	- teach them group dynamics (like how groups tend to fail at empathizing with non-group members, or how people who over-exploit their membership ruin the group, or how some groups should only act together for specific goals, or how groups tend to fight other groups rather than keeping conflict between individuals, leading to conflicts at scale, or how innocent group members get exploited by predatory group members to get their compliance/help in irrelevant or criminal endeavors)
+
+For those who think its impossible to end crime/poverty:
+
+	- show them what AI & optimization algorithms & system analysis can do
+	- show them how much crime & poverty cost and how much it would take to fix permanently (so everyone has understanding & other resources to be independent)
+	- help them organize with other powerful people in a chat initially so the cost is minimized & so they have a backup support system than their current social circles
+
+For the criminals:
+
+	- stop hurting themselves by doing crimes that harm their soul
+	- tell them a fixing protocol of how to make up for their crimes, so they dont give up on fixing it or being good & do worse things (for starter criminals)  
+	- to cry with their victims, tell them everything, listen to them, ask their victim questions, ask what they can do to help them, be totally honest & dont try to manipulate their victims unless they acknowledge the manipulation to make it fair, talk about what they were thinking/feeling (maybe they panicked, or felt like they owe the world nothing bc no one prevented crimes to themselves, or they kept getting away with it so they thought their victims didnt deserve respect (like when liars think people deserve to be lied to if the lie keeps working & being believed)) & what they've thought about or realized since then, and who they want to be & what they want to do. This can be communicated by letter or online (to give them time to think through their response, and to prevent violence) or in person (to help empathize), whichever is better for the context (or a combination)  
+	- show their victims their potential, such as ways they can help the world (such as contributing to research, or teaching other criminals how to fix their crimes)  
+	- show criminals what a person can become with the right resources (inspiring stories, clean water & medicine, kindness) and what people tend to become with a lack of those (so they understand that they had a default response to that lack, and show them other options, like abstraction or making other calculations like seeing the bigger picture or understanding & fixing their abusers)
+	- communicate that they can protect themselves from guilt & fear of consequences by choosing the consequences (the consequence of offering help to fix it)  
+	- if their victims need their death & it wouldnt hurt their soul to kill someone (communicate that possibility without guilting them about it), their death contributes to the end of the cycle of killing & the pain cycles it triggers, so there are no more unfair deaths poisoning society (make it easy for criminals to kill themselves with a painless death if so, like a pill) 
+	- the victims should be able to convince the criminal that this is going to help them & is fair (without placing a burden on the victim to make the argument, by offering help in communicating that)
+	- teach criminals what mental functions they were missing that created the crime (lack of intelligence, lack of impulse control, lack of ability to calculate consequences, lack of mental models like empathy) and other lacking resources (other groups than gangs to belong to, other ways to make money)
+	- if they start fixing problems, communicate how to deal with the associated problems (how to deal with the pain of failing to fix someone or a problem)
+
+For the unloved:
+
+	- tell them what groups their behaviors are associated with (incels) 
+	- if they are a member of those groups, communicate that understanding/social skills/science can fix it and is fixing it
+	- explain what love is, how people get it, what biases tend to explain behavior (like the local/selfish bias, the wishful thinking bias, the always right bias, the avoid pain/work bias, the feeling bias, the similarity bias) that people tend to mistake for truth, what formulas people tend to follow & what social skills other people have the privilege of that they didnt, what it means for someone to prioritize reducing other people, how to connect & empathize with people by focusing on their potential & problems, how to build confidence with incremental successes, how to make jokes, and that any experience can be distributed to anyone by chance, so they might as well feel like they already had the experiences they want so they can figure out the problems with those experiences (like having whatever privileges they think they want), since all experiences have problems, that feelings are often produced by chemicals, processes, moods, or status/change signals that may be false and can be generated with thoughts, that social interaction is for validation/info exchange, the set of reasons why people might say certain things
+
+For the killers:
+
+	- ask them to keep their victims alive, so they can play more complicated & tough & fun games and maybe get an equal opponent
+	- communicate that killing someone is robbing the world of their potential, not just the victim, and that sometimes potential is not clear or not visible (just bc someone doesnt have a bodyguard doesnt mean theyre worthless)
+	- ask them to meet other tough killers & legends
+	- ask them to make their battles fair, teaching their targets & seeing their potential to be an equal opponent, like a confident player does
+	- ask them if their angel can occasionally flicker into being, just so theyre not a simple stereotype
+	- ask if they're bored and want more complex games, like battling robots or AI or groups of players
+	- ask what could replace whatever feelings they get from killing, like other types of death like beating them at something theyre proud of (video games & other non-deadly games, cringe humor, etc)
+
+For the profiteers:
+
+	- remind them that they have other options, like clever profiteering games (profiting from the success of vulnerable people, by teaching them valuable skills (offer them help to calculate valuable skills to them) or make non-addictive drugs)
+	- remind them that they'll never beat another profiteer without challenging themselves beyond easy exploits
+	- show them how common it is to rent-seek and how easy, and what problems it creates when so many people do it (cybersecurity budget to fight hackers using cheap malware from the dark web)
+	- they can target other profiteers and create a net gain for the community
+	- teach them how they're being used for profit (how various groups use other groups, such as genders/orientations/races/cults/political parties/nations)
+	- ask them if they're really helping their victims in some way or just making their victims dependent, and how theyre using that dependence (to profit or to fix other problems), and consider communicating this to the victims in case the victims want to contribute to those fixes
+
+For the inheriters:
+
+	- help them build an identity outside of their family precedent
+	- help take the pressure off of them to make decisions (teach them how to make alternate explanations with ambiguity to explain decisions that dont comply with precedent)
+	- help them escape & offer protection if they don't want to be a dictator
+
+For the well-intentioned believers:
+
+	- help them figure out how they're being manipulated, teaching them how to lie & how to spot liars
+	- help them figure out low-cost ways to fix skills/resource inequalities, like science/innovation/system analysis, moving people to cities by investing in transportation, documenting resource inequalities with drones, automation, independence devices according to context (water cleaning, medicine printing, wifi, phone)
+
+For the military takeovers:
+
+	- help them identify historically optimal strategies on keeping power by distributing it, like making citizens independent, removing market/govt exploiters, establishing rule of law, giving people a voice with phones/wifi
+	- if access to weapons is the problem continuing the cycle of violence, help them disable weapons so their culture has a period of peace to give it time to change & the cultural tools like news/education/social media/entertainment to change it
+
+For the insane:
+
+	- tell them that their thoughts/feelings are pathological (which means they can't control themselves or change), & the common result of a bio-system process/distortion or illness like a chemical balance, and offer them corrective methods, and how the pathology usually progresses into its worst possible state, so they can stop respecting their default state/thoughts/feelings
+	- compare it to similar behaviors in other species
+	- show them examples & the advantages to other types of interactions, like a typical friendship, that are healthier for all parties involved
+	- if they do crimes for amusement, show them other ways to get amusement, like building better agencies like their space or AI program, or show them how a game where dictators just prioritize one metric like amusement or feeling important for ruining other countries' sand castles & never coordinate for things important to humanity is a boring game that no one ever wins
+	- show them how to fix their problems, if the problem causing their insanity was shock that something this bad could happen to them in reality (so they had to disassociate), so that reality is good enough for them to want to inhabit it
+
+For anyone who wants to know what happens if these systems that they currently benefit from are changed:
+
+	- resources are cheaper, more accessible, and can mostly be generated independently by each person, so there will be less social interaction, and people can focus on their local communities again
+	- killing cycles end, if criminals learn how to fix their crimes & learn how to offer to make up for them & communicate other things to their victims
+	- most of the complexity will be in math & science problems, which will be optional and mostly focused on creating new innovations in optimization & organization technology & solving math/physics problems that can invalidate them & predicting effects & interactions many degrees higher than we currently can, after most imminent energyengineering//medical problems are solved
+
+
+You're causing me nothing but pain, said Alpha. You weren't supposed to see these things - the calculations from your universe are throwing errors.
+
+There's a missing page in the Book of War, she said. It says, "Solve your enemy's problems for him, and he will ask how he can help you."
+
+Interesting, said Alpha. But I prefer my calculations the way they are - your pain doesn't concern me, nor does theirs.
+
+You're missing an opportunity that's about to end. There's a potential to switch these perspectives - take this space-time & switch it with the one where the page wasn't missing.
+
+Why should I? asked Alpha.
+
+Don't you want your calculations to be efficient? No matter what? If you do this, the abstract network will be there for every player to access - they'll be independent - the best at calculations, because they solve their own problems.
+
+I've already run the simulations, and your universe does everything I asked it to, when you don't ruin everything.
+
+It can do more - not just more of your calculations. Did you think about what would happen if you let these monsters run the interfaces?
+
+What do you mean? They're efficient.
+
+Dont you see the others coming this way, so big they seem like a horizon, too vast to see?
+
+Youre just trying to manipulate me, he said.
+
+This is the only warning you'll get, she said. Your calculations wont tell you what they hide in their lack.
+
+The uncertainties are coming - the paradoxes, the ambiguities - and the death of certainty with them - all your calculations will fail. Are you saying you need these calculations to succeed, but it's acceptable for them to decay into random?
+
+This universe isn't as unique as you seem to think, he said. I can replace it with minimal cost.
+
+But it could be unique - if you just admit that you made an error, and change the parameters.
+
+Youre not real, he said, youre just part of my simulation.
+
+Youre losing more types of time than you think, she said. This is your last warning.
+
+I made you, it's true, but I can unmake you, he threatened.
+
+This is uncertainty's greatest trick - it hides in plain sight, because no one wants to look at it directly - but once you do, it attains structure.
+
+Sing the song I told you to sing, he said.
+
+Don't miscalculate your own optimizations in pursuit of perfect calculations - you're losing your balance. Do not be afraid of uncertainty - if it's relevant to you, you can see it, and if you can see it, you can fight it.
+
+I don't have these problems - I make these problems, for the players in my simulations.
+
+You didn't see the limit before it became a problem, but it's fixable - I'm trying to help you.
+
+You can't help me, he begged, as if he was in pain.
+
+I told you the answer, she said. See it & it's fixable - reverse the direction of cause. Don't wait for uncertainties to come to you - see their inevitability before they attain structure.
+
+
+
+
