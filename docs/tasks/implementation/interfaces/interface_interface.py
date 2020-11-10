@@ -269,6 +269,8 @@
       - building or selecting a problem-solving automation workflow (whether to start with a particular workflow, which is a layer of abstraction above the question of whether to start with a particular interface, which assumes a workflow has already been selected)
 
     - questions answered
+      - why is intent analysis sometimes not enough for solving a problem? bc the intent could be de-optimizing the host system for other users
+        - this is why integrated analysis (meaning) of queries across requests/users needs to be done
       - how to find the metadata that is most useful in determining other information:
         - are core functions the best method to derive the system structure?
         - once you have system structure, can all the sub-components be derived? Can other systems be derived?

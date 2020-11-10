@@ -15,8 +15,20 @@ to do: organize into docs
     - applying AI to select network parameters for a task
     - AI as a conversion function, translating structures (data set to prediction function)
 
-  - using single-purchase predictions as a cheap product that can add value to those without resources to train their own models (predictions for farmers about weather, water sources, market changes like demand/supply & competition/automation probabilities like 3-d printing or indoor farming tools)
-    - define problem as 'agent doesnt know if the market/tech relevant to their business will change, or where to find inputs to their business like good weather'
+  - applying structures like 'combinations' to these components can help predict trend collisions & other problem types, as in the insurance example below
+    - these components can be used in different formats (as objects & connecting/processing functions or interfaces):
+      - using a prediction as an object:
+        - a prediction object can be used as a target result, an input to a function, or a product in a market system
+      - using a prediction as a function:
+        - a prediction function can be applied to objects like technologies or other functions, or can be a product/target result, or a tool to achieve an intent
+      - using a prediction as an interface:
+        - once the other components are standardized to the prediction interface, other structures become clear, like:
+          - the similarity of metadata between information & predictions (like usage or intent), meaning they can act as proxies for each other
+          - the invalidation of prediction tools with cost-reduction tools like an appropriate optimization algorithm for a problem type
+
+  - example of generating an idea using interface queries
+    - idea: using single-purchase predictions as a cheap product that can add value to those without resources to train their own models (predictions for farmers about weather, water sources, market changes like demand/supply & competition/automation probabilities like 3-d printing or indoor farming tools)
+    - define problem as 'agent doesnt know if the market/tech relevant to their business will change, or where to find inputs to their business like good weather, and has limited resources/access'
     - identify problem type: info imbalance
     - identify solution format: prediction, information
       - remove assumption 'agent has resource to train model'
