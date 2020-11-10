@@ -158,14 +158,28 @@
       - yaml, json, xml
       - rdf
 
-    - API Management
-      - Swagger
-      - OpenAPI
-      - Apigee
-
-    - API integration tools
-      - informatica
-      - talend
+    - API tools
+      - API GUI: https://github.com/mermade/openapi-gui
+      - API format: 
+        - calls: curl/har/swagger
+        - output: rdf/xml/json
+        - spec: xsd, xml, swagger, raml
+      - API code gen: swagger, api-map
+      - API mapping: api-map (xsd, json)
+      - API integration tools: informatica, talend, celigo smartconnectors, api-map, Swagger (OpenAPI spec), Apigee
+      - API testing tools: jmeter (performance, load, functional)
+        - testing (security, reliability)
+          - structures: health check
+          - performance
+            - load testing
+          - security: resources are not accessible to users that are not authenticated/authorized/identified
+          - unit testing: check functionality of code units
+          - functionality: check that required high-level functionality works
+          - standards compliance:
+            - open api spec
+            - ws standard: WS-Addressing, WS-Discovery, WS-Federation, WS-Policy, WS-Security, and WS-Trust
+          - interoperability: apps can access the API
+          - pentesting: finding API vulnerabilities
 
     - Deployment Management
       - Artemis
@@ -238,13 +252,17 @@
       - system/structural problem type (code smell) detection: sonarqube, pmd, findbugs
 
     - Workflow Automation
-      - Airflow
+      - concepts: workflows, processing, formats, conditions, error protocols
+      - tools:
+        - Airflow
+        - Microsoft Flow
+        - Zapier (task automation)
 
     - Optimization
       - website optimization analysis
 
     - Database: 
-      - relational database
+      - relational database (mysql, db2, oracle, postgres)
       - object relational mapping
       - data classes (for migration)
       - NoSQL (ElasticSearch, MongoDB) - https://en.wikipedia.org/wiki/NoSQL#Types_and_examples
