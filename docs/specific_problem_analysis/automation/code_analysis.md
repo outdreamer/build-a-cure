@@ -1,4 +1,9 @@
-- interface analysis example with code components: 
+# Software Concepts
+
+
+## Interface Analysis
+
+  - interface analysis example with code components: 
     - usage: application, expectation/intention convergence, permission, error, interaction
     - change: difference/similarity types (difference in value, similarity in position), update, initialization, association/relation, removal, move
     - state, storage (database, distributed sync, cache, data structure), data
@@ -24,7 +29,9 @@
       - the purpose of a function, app or other component should be to invalidate itself - so the final state of a function is erasing itself once the user doesnt need it
       - functions should be entitled to push back on general app or other containing structure intents, if they are capable of spotting a probleem that could cascade upward that the app or other structures cannot (just like an engineer can see problems that the organization or industry cannot bc of incentive conflicts, profit cycles, & other structures)
 
-- stack layers
+## Software stack
+
+  - stack layers
     UI: templates, user event input processing, client (browser), config (browser settings), adjacent resources (active plugins), dependencies (SSL certs, keys, permissions, caches)
     Application server: handle (apply security config, namespacing, permissions, respond with error codes) & route user requests to application resources (code base, access, process/CPU/memory allowance)
     Memory layer: buffers, volatile vs. persistent memory, memory access, latency (request/response time difference)
@@ -43,7 +50,7 @@
         - concepts: clarity, responsibility, resiliency, necessity, scale, optimization, usage, extremes, standards, expectations, intent, meaning, cause, robustness
         - alignments/matching: user intention & dev expectation matching, risk/trust matching, code requirements vs. possible functionality matching
 
-- philosophies/paradigms
+## Philosophies/paradigms
   
   - software dev life cycle:
     - initiation
@@ -128,37 +135,110 @@
             Excessively long line of code (or God Line): A line of code which is too long, making the code difficult to read, understand, debug, refactor, or even identify possibilities of software reuse. Example: new XYZ(s).doSomething(buildParam1(x), buildParam2(x), buildParam3(x), a + Math.sin(x)*Math.tan(x*y + z)).doAnythingElse().build().sendRequest();
 
 
-- tool examples
+
+## Design patterns (relationship types of software components)
+
+      - Creational patterns 
+        - Abstract factory  Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+        - Builder Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
+        - Dependency Injection  A class accepts the objects it requires from an injector instead of creating the objects directly.
+        - Factory method  Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+        - Lazy initialization Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern.
+        - Multiton  Ensure a class has only named instances, and provide a global point of access to them.
+        - Object pool Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.
+        - Prototype Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
+        - Resource acquisition is initialization (RAII) Ensure that resources are properly released by tying them to the lifespan of suitable objects.
+        - Singleton Ensure a class has only one instance, and provide a global point of access to it.
+
+      - Structural patterns 
+        - Adapter, Wrapper, or Translator Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
+        - Bridge  Decouple an abstraction from its implementation allowing the two to vary independently.
+        - Composite Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+        - Decorator Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
+        - Extension object  Adding functionality to a hierarchy without changing the hierarchy.
+        - Facade  Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+        - Flyweight Use sharing to support large numbers of similar objects efficiently.
+        - Front controller  The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.
+        - Marker  Empty interface to associate metadata with a class.
+        - Module  Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.
+        - Proxy Provide a surrogate or placeholder for another object to control access to it.
+        - Twin allows modeling of multiple inheritance in programming languages that do not support this feature.
+
+      - Behavioral patterns 
+        - Blackboard  Artificial intelligence pattern for combining disparate sources of data (see blackboard system)
+        - Chain of responsibility Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+        - Command Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.
+        - Interpreter Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+        - Iterator  Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+        - Mediator  Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
+        - Memento Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
+        - Null object Avoid null references by providing a default object.
+        - Observer or Publish/subscribe Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+        - Servant Define common functionality for a group of classes. The servant pattern is also frequently called helper class or utility class implementation for a given set of classes. The helper classes generally have no objects hence they have all static methods that act upon different kinds of class objects.
+        - Specification Recombinable business logic in a Boolean fashion.
+        - State Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+        - Strategy  Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+        - Template method Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+        - Visitor Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
+
+      - Concurrency patterns  
+        - Active Object Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.
+        - Balking Only execute an action on an object when the object is in a particular state.
+        - Binding properties  Combining multiple observers to force properties in different objects to be synchronized or coordinated in some way.[22]
+        - Compute kernel  The same calculation many times in parallel, differing by integer parameters used with non-branching pointer math into shared arrays, such as GPU-optimized Matrix multiplication or Convolutional neural network.
+        - Double-checked locking  "Reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual locking logic proceed.
+        - Can be unsafe when implemented in some language/hardware combinations. It can therefore sometimes be considered an anti-pattern."
+        - Event-based asynchronous  Addresses problems with the asynchronous pattern that occur in multithreaded programs.[23]
+        - Guarded suspension  Manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.
+        - Join  Join-pattern provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high-level programming model.
+        - Lock  One thread puts a "lock" on a resource, preventing other threads from accessing or modifying it.[24]
+        - Messaging design pattern (MDP)  Allows the interchange of information (i.e. messages) between components and applications.
+        - Monitor object  An object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.
+        - Reactor A reactor object provides an asynchronous interface to resources that must be handled synchronously.
+        - Read-write lock Allows concurrent read access to an object, but requires exclusive access for write operations.
+        - Scheduler Explicitly control when threads may execute single-threaded code.
+        - Thread pool A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.
+        - Thread-specific storage Static or "global" memory local to a thread.
+
+
+## Architectures
+
+      - Service Oriented Architecture: can be implemented as web services, microservices
+      - Event Driven Architecture
+      - Space-based Architecture
+
+
+## Tool examples
+
+    - Protocols: 
+      - protocol domains: communication, authentication/authorization, security, sweb service, electronic trading, instant messaging, email, bluetooth, automation, file transfer, network, routing
+      - internet protocol layers
+        - link layer
+        - transport layer
+        - internet layer
+        - application layer
 
     - Web application server 
-      - Apache Server
-      - Tomcat Server
+      - Apache Web Server
+      - Apache Tomcat Server
       - IIS
       - NGINX
-
-    - Computing
-      - Apache Spark
-
-    - Streaming
-      - Apache Kafka/Flink
+      - Jetty
+      - Oracle/IBM HTTP Servers
 
     - Logging/Monitoring
       - Datadog
       - Logstash
       - AWS Cloudwatch
 
-    - Reporting (aggregation, structuring, dashboards):
-      - Splunk
-      - Kibana
-
-    - Authentication
-      - Oauth
+    - Authentication: Oauth, OpenID Connect, SSO, SAML, XACML
 
     - Formats
       - yaml, json, xml
       - rdf
 
     - API tools
+
       - API GUI: https://github.com/mermade/openapi-gui
       - API format: 
         - calls: curl/har/swagger
@@ -167,6 +247,7 @@
       - API code gen: swagger, api-map
       - API mapping: api-map (xsd, json)
       - API integration tools: informatica, talend, celigo smartconnectors, api-map, Swagger (OpenAPI spec), Apigee
+
       - API testing tools: jmeter (performance, load, functional)
         - testing (security, reliability)
           - structures: health check
@@ -181,19 +262,10 @@
           - interoperability: apps can access the API
           - pentesting: finding API vulnerabilities
 
-    - Deployment Management
-      - Artemis
-
-    - Config Management
-      - Terraform
-      - Ansible
-
-    - Cluster Management
-      - kubernetes
-
     - Transaction Management
-      - rollback/retry
-      - ACID requirements
+      - concepts
+        - rollback/retry
+        - ACID requirements
 
     - Connection Management
       - connection retry
@@ -228,6 +300,7 @@
                       traceback.print_exc()
 
     - Testing
+
       - coverage testing: determine ratio of code tested by existing tests
       - code complexity
       - duplicated code
@@ -261,9 +334,52 @@
     - Optimization
       - website optimization analysis
 
+    - Build tools
+
+      - build/deployment/testing management/automation: Jenkins
+
+      - Deployment Approval: Artemis
+
+      - Config Management: terraform, ansible
+
+    - Distribution tools
+
+      - Scaling/Cluster Management: kubernetes
+
+    - Package management: artifactory
+
+    - Big data: 
+      - compute: Spark, Hadoop
+      - data warehouse: redshift, hive
+      - data lineage/pipelines: Talend, SentryOne, Pachyderm, Logstash, Atom
+      - querying/reporting (aggregation, structuring, dashboards, visualization): Splunk, Kibana
+    
+    - ETL (extract-transform-load) tools:
+      - data integration (import/export/transform) automation: AWS Glue (data metadata store functioning as an etl engine & code generator)
+      - Apatar
+
+    - Streaming
+      - Apache Kafka/Flink
+
+    - Frameworks
+        - app-building frameworks (laravel, symfony, react, angular, spring)
+        - business application frameworks (for crm, erp, e-commerce, cms applications): drupal, sugarcrm, magento, wordpress, alfresco
+        - js frameworks (angular, react, jquery, bootstrap, vue)
+          - js dev cycle tools
+            - webpack: package/dependency management
+            - task runners: grunt, gulp
+            - compilers: browserify
+          - typescript: JS superset with extra features for compatability
+    
+    - IDE: atom, eclipse, intellij, pycharm, jupyter, xcode
+    
+    - Web site standards/regulations: wcag, 508, wai-aria
+
     - Database: 
       - relational database (mysql, db2, oracle, postgres)
-      - object relational mapping
+        - pl/sql: sql + procedure extension (from oracle)
+      - multi-model database (oracle, db2)
+      - object relational mapping (realm, multi-model databases)
       - data classes (for migration)
       - NoSQL (ElasticSearch, MongoDB) - https://en.wikipedia.org/wiki/NoSQL#Types_and_examples
       - key-value store (DynamoDB, Redis)
@@ -276,6 +392,10 @@
       - graphql: API query language
 
     - cloud providers: AWS, Google Cloud, Azure, Rackspace, IBM
+
+    - browsers: brave, chrome, safari, firefox
+
+    - OS: linux (ubuntu, debian, centos), windows, mac
 
     - Networking components:
       - DNS
@@ -292,10 +412,6 @@
       - ethernet
       - packets/router/host/domain
       - throttling, bandwidth
-      - link layer
-      - transport layer
-      - internet layer
-      - application layer
 
     - isolation tools:
       - containers

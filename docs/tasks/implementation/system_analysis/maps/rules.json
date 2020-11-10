@@ -1,0 +1,37 @@
+{
+	"logical_rules": [
+		"if two objects are different, they are in different positions",
+		"if two objects are different, there must be functions connecting them",
+		"difference can mean different object states",
+		"outputs match inputs of functions applied to outputs",
+		"system-wide attributes apply to all objects in the system",
+		"objects include function objects and attribute objects",
+		"objects can evolve within the system using core functions like combination, to produce combined objects like sub-systems",
+		"systems have state because they are a type of object",
+		"systems often have a standard set of states (efficient, low-cost, resting, valid)",
+		"systems often have unhandled variance",
+		"systems may develop variance handlers",
+		"types evolves in a system as a set of attributes commonly found together",
+		"valid intents may logically develop from a system which invalidate the system",
+		"sub-systems must follow the same rules as the system",
+		"sub-systems may have extra rules applicable just within the sub-system"
+	],
+	"problem_rules": [
+		"if the solution makes sense when applied to that problem space, the success metric of the problem needs to be improved by the solution"
+	],
+	"sub_system_rules": [
+		"sub-systems tend to generate false signals"
+	],
+	"system_analysis_questions": [
+		"is this the best interaction layer for this object/function",
+		"is this the most efficient path",
+		"is this the best structure for this object/function",
+		"is this the only object/function/sub-system where this could be useful",
+		"does this make a useful/efficient combination with anything else",
+		"is this adjacent to an error or optimal combination/state",
+		"is this lack of enforcement necessary or can it be restricted"
+	],
+	"general_interfaces": [
+		"bio systems are likely to have one-directional interface chains, communication interfaces, & certain priority interfaces like efficiency"
+	]
+}
