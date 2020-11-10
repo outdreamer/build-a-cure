@@ -2,6 +2,7 @@ to do: organize into docs
 
 
 - example of applying interface analysis (core system layer graph) to generate new & useful applications of resources
+  
   - tools:
     - AI/stats: prediction
     - interface analysis: understanding
@@ -13,6 +14,38 @@ to do: organize into docs
     - using optimization algorithms on AI parameters
     - applying AI to select network parameters for a task
     - AI as a conversion function, translating structures (data set to prediction function)
+
+  - using single-purchase predictions as a cheap product that can add value to those without resources to train their own models (predictions for farmers about weather, water sources, market changes like demand/supply & competition/automation probabilities like 3-d printing or indoor farming tools)
+    - define problem as 'agent doesnt know if the market/tech relevant to their business will change, or where to find inputs to their business like good weather'
+    - identify problem type: info imbalance
+    - identify solution format: prediction, information
+      - remove assumption 'agent has resource to train model'
+      - identify 'resources that cant be purchased with agent resources, including AI predictions'
+      - identify 'agent need to reduce uncertainty problem type, with information or predictions'
+        - identify relevant resource 'prediction API'
+          - identify version of relevant resource within agent limits (budget): 'call to prediction API' (applies 'subset' structure to prediction API resource)
+            - identify resources necessary to use that relevant resource version: cell phone or access to someone with a cell phone, data, internet
+              - apply check if the agent has or can borrow those required resources
+        - identify relevant resource 'information'
+          - identify version of relevant resource within agent limits (budget): communicate with business/agent with the information they need
+            - identify resources necessary to use that relevant resource version: travel/communication expenses, tool to find entity with the required information, tool to differentiate false information or entity incentives to provide false information
+              - apply check if the agent has or can borrow those required resources
+    - identify secondary problem type: 'changing to alternate income source', with solutions like 'buying predictions/information and reselling to others in their previous position'
+
+  - insurance
+    - trends: quantifying trust as a tradable product across customers, customization of risk valuation, investment in tech for risk & cost-reduction to avoid costly claim payouts
+    - integration (meaning) analysis can identify where these trends will collide, in various versions of implementations:
+      - if trust is a currency, risk is customized with info tech like prediction functions, and insurance companies invest in cost-reduction tech, what will happen?
+        - the value of trust depends on lack of info - otherwise if agents have all the relevant info, no trust is required
+        - trustless transactions (guaranteed value) are an asset, with comparable value to trust (such as brand loyalty)
+        - predictions can be an interface for manipulation - repeated predictions are likelier to be used as true information, and stakeholders are likely to make incentivized predictions seem or become true
+        - info & proxies of it, like prediction function tech, is not equally distributed across all agents
+        - insurance companies that invest in cost-reduction tech like AI or coordinating intents/optimizing systematic incentives are invalidating their product
+        - invalidating their product builds trust with customers
+        - they wont need their customers' trust if they also build optimized prediction tools at reduced cost, to distribute prediction tools equally across agents
+        - at that point, the insurance company can profit from more expensive optimization & integration information/prediction products, like identifying market & regulatory optimizations to benefit their customers, which requires more resources than the prediction models their customers will have access to
+        - optimization (such as cost-reduction) invalidates prediction markets (predicting value/costs) bc you dont need to predict costs if you have a tool (like an optimization algorithm) that reduces them enough
+        - inference methods like interface analysis, as well as automation tech, reduce the relative value of all other products
 
 - science
 
