@@ -3,10 +3,51 @@
   - de-duplicate logic
     - integrate problem_solving_matching.md & analysis_examples.md
     - integrate changes from interface_analysis.py and solution_automation_analysis.py to repo
-    - integrate example.py & workflow logic
+    - integrate system_analysis code & defs, including example.py & workflow logic
     - integrate rules from diagrams to relevant documents
-
-  - organize interface analysis definitions
+        [0010] Example embodiments will be described and explained with additional specificity and detail through the use of the accompanying drawings. 
+        [0011] FIG. 1. 'User Interface Module' illustrates a diagram of a user interface that can accept user input about a problem & program configuration. 
+        [0012] Fig. 2. Interface Analysis Module 140 is a diagram of example components (such as functions & constants) of a program to automatically apply information formats to achieve an input intent. 
+        [0013] Fig. 3. Machine learning system 120 is a diagram of an example wrapper component that would call a machine learning system to predict a variable. 
+        [0014] Fig. 4. API finding/calling system 130 is a diagram of an example wrapper component that would call an API finding/calling system to retrieve data. 
+        [0015] FIG. 5. 'Structure Application Function - Apply Function' illustrates applying a structure to another structure. 
+        [0016] FIG. 6. 'Problem space visualization' illustrates an example visualization of a problem space. 
+        [0017] FIG. 7. 'Network of related problems' illustrates an example of a network of related problems. 
+        [0018] FIG. 8. 'Problem Types' illustrates a set of common problem types formatted as information or structural problems. 
+        [0019] FIG. 9. 'Problem formats, with matching solution formats of problem formats' illustrates an example of various problem formats & solution formats that match them. 
+        [0020] FIG. 10. 'Problem-solution structure-matching: apply a solution function to a structure containing the problem to find specific solution structures for that problem' illustrates an example of matching a problem with a solution. 
+        [0021] FIG. 11. 'Finding alternate solution formats that fulfill different metrics' illustrates an example of selecting a solution format that fulfills a solution metric. 
+        [0022] FIG. 12. 'Network of problem sub-problems, breaking a problem into components problems' illustrates an example of breaking a problem into a set of sub-problems, which once solved, can be aggregated with a solution-aggregation method as shown. 
+        [0023] FIG. 13. 'Causal structure-matching' illustrates a method of matching causal structures to a variable set. 
+        [0024] FIG. 14. 'Design Interface Query' illustrates a method of assembling input information into structural meaning relevant to the input intent, using a structure containing information formats. 
+        [0025] FIG. 15. 'Concept definition network' illustrates a network of related concepts. 
+        [0026] FIG. 16. 'Alternate definition routes' illustrates a set of definition routes for a concept. 
+        [0027] FIG. 17. 'Match structure for a definition of a concept' illustrates matching a structure to a concept. 
+        [0028] FIG. 18. 'Intent-matching' illustrates matching intent to structure & vice versa. 
+        [0029] FIG. 19. 'Insight path application' illustrates insight path examples and an example of applying an insight path. 
+        [0030] FIG. 20. 'Interface conversion & matching' illustrates an example of selecting an interface to traverse. 
+        [0031] FIG. 21. 'Interface & traversal diagram' illustrates an example of a diagram indicating an example interface, & a diagram indicating which interfaces to traverse in what sequence (forming an interface query). 
+        [0032] Fig. 22 is a diagram of a process that describes the general workflow for implementing interface analysis. 
+        [0033] Fig. 23 is a diagram of an example usage of the system. 
+        [0034] Fig. 24 is a diagram of an example environment in which systems and/or methods, described herein, may be implemented, including interface analysis module 220 in FIG. 22. 
+        [0035] Fig. 25 is a diagram of example components of one or more devices of FIG. 22. 
+        [0006] Figs. 1A - 1J contain diagrams of an overview of an example implementation 100 described herein. 
+        [0007] Fig. 1A User Interaction Module 110 is a diagram of an example user interface implementation to gather input about a problem & program configuration for Solution Automation Module 140.
+        [0008] Fig. 1B Solution Automation Module 140 is a diagram of example components (such as functions & constants) of a program to automatically find/derive/generate a solution for a problem, to implement the general execution workflow of Fig. 4. 
+        [0009] Fig. 1C Machine learning system 120 is a diagram of an example wrapper component that would call a machine learning system to predict a variable. 
+        [0010] Fig. 1D API finding/calling system 130 is a diagram of an example wrapper component that would call an API finding/calling system to retrieve data. 
+        [0011] Fig. 1E Solution Output 150 is a diagram of an example output of the process in Fig. 4 that could be displayed & edited in the User Interaction Module 110. 
+        [0012] Figs. 1F - 1I contain diagrams of an example problem-solving automation workflow (such as problem space structurization (formatted as filters/limits/functions/networks/vectors)) detailing a particular interface traversal format sequence that can be used to solve most problems. 
+        [0013] Fig. 1F Finding matches between problem & interface components is a diagram of an example implementation of step 404 - 406 of the process of Fig. 4 (converting a problem to an interface, mapping between components of the problem & interface). 
+        [0014] Fig. 1G Applying matching interface components to relevant problem system components is a diagram of an example implementation of step 407 of the process of Fig. 4 (applying matching mapped objects from the interface to the problem system). 
+        [0015] Fig. 1H Applying solution metric structures to solution structures is a diagram of an example implementation of step 408 of the process of Fig. 4 (applying solution metric structures to solution structures). 
+        [0016] Fig. 1I Example Object Definition Structures is a diagram of example structures forming the definition routes of an example system object on the structural interface. An example of a definition route is documented here: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/definition_routes.json 
+        [0017] Fig. 1J is a diagram of an example usage of the system. 
+        [0018] Fig. 2 is a diagram of an example environment in which systems and/or methods, described herein, may be implemented, including solution automation module 220 in FIG. 2 which refers to solution automation module 140 in FIG. 1. 
+        [0019] Fig. 3 is a diagram of example components of one or more devices of FIG. 2. 
+        [0020] Fig. 4 General Execution Workflow is an overview of an example process 400 for implementing problem-solving automation workflows in steps 402 - 410, from initial problem formatting to solution matching to solution application & analysis. 
+          
+  - organize interface analysis logic definitions
   - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
     - resolve duplicate functions
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
@@ -126,4 +167,19 @@
       - perspective/filter/standard/index & relationship to variables/operations on the interface
       - filter vs. rule is a similar question to attribute vs. rule - sometimes one format is better based on the info you have, sometimes its worth it to transform the format
     
+       - info conceptual relationships:
+          priority = direction
+          observation = insight = function = result = relationship
+          conclusion = ordered_list(observations) + guess = coefficients + bias
+          strategy = ordered_list(insights)
+          strategy = insight + context
+          problem = (combination of intents having different priorities) or (an resource distribution imbalance)
+          intent = strategy + priority
+          solution = (combination of strategies operating on variables with insight functions that reduce dimensions of problem (function-combination) or (resource-imbalance))
+          type = combination(attributes)
+          intents = function outputs, including unintended/emergent/unforeseen side effects (target/avoid)
+          roles = functions
+          relationships = treatments, intents, functions, insights, strategies, mechanisms, patterns, systems
+          components = compounds, symptoms, treatments, metrics, conditions, stressors, types, variables
+
     - update links
