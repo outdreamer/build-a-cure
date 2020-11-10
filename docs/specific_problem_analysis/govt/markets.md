@@ -371,3 +371,12 @@
     - intents can be used to add validation to purchases (what are you buying this for? for event x coming up, which the calendar app api can provide validation of)
     - they can dis/associate other info with their id as needed (voting, address, purchase/subscription/transaction/configuration history)
     - using contribution to economy/markets/financial instruments/purchases/legal frameworks (like whether they can influence/create purchases or markets or product regulations) as an input to credit (indicating their value-creation potential)
+
+- optimizing existing asset markets
+
+  - example: real estate
+    - show them cost/benefit of housing types (buiding new house, maintaining existing house, printed house)
+    - ai to detect things that need to be fixed in a house
+    - prior owner data to alert them to broken/damaged functions
+    - automatic sign up to maintenance services that neighbors use 
+    - alerts to problem with house using location/other data, like fault lines/mudslide risk

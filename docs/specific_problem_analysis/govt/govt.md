@@ -25,6 +25,8 @@ to do: organize into docs
 
 - govt
 
+  - depts of govt: optimization, research for existing/adjacent solutions, integrating intents/work/resources (cross-level, team, task, priority)
+  
   - with constantly updated opinion/priority/argument/reason/resource/problem data, you can have:
     - districts that choose their own voting algorithm & issues to vote on
     - calculated assignment of perspectives (opinion sets) to territories that can support those populations (as they grow in population, they can acquire more territory, and offer relocation assistance to people who want to live there)
