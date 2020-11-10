@@ -1,6 +1,19 @@
 to do: organize into docs
 
 
+- example of applying interface analysis (core system layer graph) to generate new & useful applications of resources
+  - tools:
+    - AI/stats: prediction
+    - interface analysis: understanding
+    - automation: certainty
+    - optimization: improving automatically
+
+  - applications:
+    - applying AI to select optimization algorithms
+    - using optimization algorithms on AI parameters
+    - applying AI to select network parameters for a task
+    - AI as a conversion function, translating structures (data set to prediction function)
+
 - science
 
   - vitamin 3-d printer to print vitamins so that you can design your own multivitamin that:
@@ -25,7 +38,11 @@ to do: organize into docs
 
 - govt
 
-  - depts of govt: optimization, research for existing/adjacent solutions, integrating intents/work/resources (cross-level, team, task, priority)
+  - depts of govt: 
+    - optimization
+    - research for existing/adjacent solutions
+    - integrating intents/work/resources (cross-level, team, task, priority)
+      - example: interim/imminent/adjacent/existing product analysis
   
   - with constantly updated opinion/priority/argument/reason/resource/problem data, you can have:
     - districts that choose their own voting algorithm & issues to vote on
