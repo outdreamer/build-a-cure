@@ -52,7 +52,12 @@
     - resolve duplicate functions
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
-
+  - function to generate errors in a solution within a problem space
+    - identify errors using core analysis (inject componeents into other components, combine components in various structures, remove/add limits/rules/assumptions, explore alternate paths, switch expected with unexpected components, etc)
+    - filter by which of the generated errors would actually cause various problem types (process failure, vulnerability, corrupt data)
+    - identify types of identified errors (intent mismatch, incorrect permissions for context, breaking input/output sequence for later functions, lack of rule enforcement)
+    - match error types with solution types for those error types
+    - reduce by solution types that cover the most error types without contradicting other solution types or creating additional unsolved problem types
 
 ## examples
 

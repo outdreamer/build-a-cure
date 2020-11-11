@@ -41,7 +41,7 @@
     Networking layer: DNS, load balancer, proxies, VPN
     Environment Layer: debugging, sandbox, pentesting, dev/quality assurance/test/production
     Version Layer: data model governance (data versions, model versions), code versions, language versions, virtual environment versions, version sync/update/interaction strategy
-    Security layer: encryption algorithms, key store, permissions, firewalls, gpg, hashing, signatures, certificates
+    Security layer: encryption algorithms, key store, permissions, firewalls, gpg, hashing, signatures, certificates, ACL access control lists
     Rule Layer: protocols, functions, rule access (permissions), rule enforcement (type checking)
     System Layer: OS, config, code, change tools (auto-updates, package managers), compilers/parsers/interpreters, languages, processes, ports
     Isolation/Interaction Layer: competing/shared resources/processes, containers, cross-layer interactions, integration of code components, interaction of code & OS, interaction of processes
@@ -376,7 +376,7 @@
     - Web site standards/regulations: wcag, 508, wai-aria
 
     - Database: 
-      - relational database (mysql, db2, oracle, postgres)
+      - relational database (mysql, db2, oracle, postgres, AWS Aurora (mysql + postgres compatible)
         - pl/sql: sql + procedure extension (from oracle)
       - multi-model database (oracle, db2)
       - object relational mapping (realm, multi-model databases)
@@ -385,6 +385,18 @@
       - key-value store (DynamoDB, Redis)
       - document store
       - distributed data store (Dynamo, BigTable, Mongo, Redis, Couchbase)
+
+    - Cache tools
+
+    - Encodings
+
+    - Compression algorithms & tools
+
+    - Quantum processors
+
+    - Aggregate lists of good/opensource tools (like lists of free data sets or open source models)
+        - https://github.com/jnv/lists#technical
+        - programming 101 study guide: https://github.com/mtdvio/every-programmer-should-know
 
     - query languages
       - sql: queries relational databases implementing SQL support
@@ -428,6 +440,9 @@
       - data sanitization
       
       - math/statistical tools: partial differential equations, Markov processes (vs. recursive), probability distributions, trigonometric equations, matrix multiplication, eigenvectors, tensors, geometric progressions, regression, gradient descent for minimum-finding (cost-minimization)
+
+      - Pre-trained open source ml models (lists of pretrained models, like GPT, BERT, AlphaGo, AlexNet)
+        - https://modelzoo.co
 
       - tasks
 
@@ -531,12 +546,19 @@
           - normalization
           - data augmentation
 
-      - algorithm packages
+      - algorithm packages/tools
+        - Apache MXNet, Singa
+        - DeepSpeed
+        - Dlib
+        - Microsoft Cognitive Toolkit, ML.NET
+        - PyTorch
+        - Theano
+        - ONNX
         - tensorflow
         - scikit-learn
         - caffe
         - keras
-        - open neural networks
+        - open neural networks (OpenNN)
         - deeplearning4j
         - ML lib
 
