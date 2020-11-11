@@ -59,6 +59,10 @@
     - match error types with solution types for those error types
     - reduce by solution types that cover the most error types without contradicting other solution types or creating additional unsolved problem types
 
+    - invariant vs. symmetry
+
+    - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
+
 ## examples
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
