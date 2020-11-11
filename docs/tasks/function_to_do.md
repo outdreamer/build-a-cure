@@ -52,15 +52,43 @@
     - resolve duplicate functions
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
-  - function to generate errors in a solution within a problem space
-    - identify errors using core analysis (inject componeents into other components, combine components in various structures, remove/add limits/rules/assumptions, explore alternate paths, switch expected with unexpected components, etc)
-    - filter by which of the generated errors would actually cause various problem types (process failure, vulnerability, corrupt data)
-    - identify types of identified errors (intent mismatch, incorrect permissions for context, breaking input/output sequence for later functions, lack of rule enforcement)
-    - match error types with solution types for those error types
+  
+  - function to generate/identify errors in a solution (function set) within a problem space/system context
+    - identify error cause types using combinatorial core analysis
+      - find components
+        - structural mis/matches
+          - malicious function sequences matching validation requirements
+        - unnecessary structures
+        - missing structures
+      - apply components
+        - apply combinations
+          - combine components in various structures
+            - inject componeents into other components
+        - apply changes
+          - remove/add limits/rules/assumptions
+          - use alternate paths
+          - switch expected with unexpected components
+      - build components
+        - function sequences granting access
+    - filter error cause type by which generated errors would cause information problem types
+      - process failure
+      - access vulnerability
+      - corrupt data
+    - identify specific error types of filtered error cause types, organized by interface
+      - intent mismatch between function combinations across layers
+      - incorrect permissions for context
+      - breaking input/output sequence for later functions
+      - lack of rule enforcement
+    - match specific interface (intent, structural) error types with associated solution types
+      - align intent
+      - scope permissions, generate permissions for a context/intent & check for a match before executing
+      - check that all valid/supported function sequences are maintained
+      - check that all rules & rule structures (like sets or sequences) determining resource access are enforced, or rule gaps where error/attack types could develop are closed
     - reduce by solution types that cover the most error types without contradicting other solution types or creating additional unsolved problem types
-
+      - intent-matching covers multiple structural error types
+      - system-fitting or structure-matching as a superset of intent-matching
+    
     - invariant vs. symmetry
-
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
 
 ## examples
