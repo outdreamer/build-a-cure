@@ -54,7 +54,10 @@
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
 
 
-## examples to make
+## examples
+
+  - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
+    - a temperature monitor sensitive to a hundredth of a degree might provide similar but non-specific power reporting for important/extreme usage patterns without revealing such specific information as that which could infer exact operations being done, bc the interval of temperature measurements allows for greater variation in calculations that could explain it
 
   - example of applying problem-structure interface: https://en.wikipedia.org/wiki/Anti-pattern
     - these are examples of contradiction/error types of the system-optimizing insight 'align relevant intents', which have the structural problem type 'misalignment' of the concept 'relevance':
