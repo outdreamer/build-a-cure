@@ -53,41 +53,64 @@
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
   
-  - function to generate/identify errors in a solution (function set) within a problem space/system context
-    - identify error cause types using combinatorial core analysis
-      - find components
-        - structural mis/matches
+  - example of a system analysis function: identify a system object (error) in the problem space system
+
+    - general method: pull error cause types, error types caused, identify known possible information problem types, match error types with info problem types by applying structure, find matching solutions for error types once linked to info problem types
+
+    - function to generate/identify errors in a solution (function set, host system) within a problem space formatted as a system
+
+      - identify error root cause types using combinatorial core analysis
+
+        - find components
+          - structural mis/matches
+            - intent mismatch between function combinations across layers 
+          - unnecessary structures
+          - missing structures
+        - apply components
+          - apply combinations
+            - combine components in various structures
+              - inject componeents into other components
+          - apply changes
+            - remove/add limits/rules/assumptions
+            - use alternate paths
+            - switch expected with unexpected components
+        - build components
+          - function sequences granting access
+
+      - find error types caused by those cause types
+        - structural mismatches cause:
+          - lack of system/context-function fit (function-scope mismatch)
+          - lack of rule enforcement (function/responsibility mismatch, expectation/usage mismatch)
+          - lack of intent restriction for using a function (intent mismatch)
+
+      - filter caused error types by which generated errors would cause information problem types (process failure, access vulnerability, corrupt data)
+
+      - identify specific errors of filtered caused error types, organized by interface
+        - lack of intent restriction for using a function
           - malicious function sequences matching validation requirements
-        - unnecessary structures
-        - missing structures
-      - apply components
-        - apply combinations
-          - combine components in various structures
-            - inject componeents into other components
-        - apply changes
-          - remove/add limits/rules/assumptions
-          - use alternate paths
-          - switch expected with unexpected components
-      - build components
-        - function sequences granting access
-    - filter error cause type by which generated errors would cause information problem types
-      - process failure
-      - access vulnerability
-      - corrupt data
-    - identify specific error types of filtered error cause types, organized by interface
-      - intent mismatch between function combinations across layers
-      - incorrect permissions for context
-      - breaking input/output sequence for later functions
-      - lack of rule enforcement
-    - match specific interface (intent, structural) error types with associated solution types
-      - align intent
-      - scope permissions, generate permissions for a context/intent & check for a match before executing
-      - check that all valid/supported function sequences are maintained
-      - check that all rules & rule structures (like sets or sequences) determining resource access are enforced, or rule gaps where error/attack types could develop are closed
-    - reduce by solution types that cover the most error types without contradicting other solution types or creating additional unsolved problem types
-      - intent-matching covers multiple structural error types
-      - system-fitting or structure-matching as a superset of intent-matching
-    
+          - breaking input/output sequence for later functions
+        - lack of system/context-function fit: 
+          - incorrect permissions for context
+        - lack of rule enforcement
+          - unhandled function inputs
+          - granting cache access to unauthorized scripts
+
+      - match specific interface (intent, structural) error types with information problem types (apply information interface to error types)
+        - lack of intent restriction
+          - breaking input/output sequence for later functions
+            - injecting function with less validation in function chain
+
+      - match specific interface (intent, structural) error types with solution types
+        - intent mismatch: align intent
+        - lack of intent restriction: reduce intents supported by function (re-organize logic, add validation)
+        - incorrect permissions for context: scope permissions, generate permissions for a context/intent & check for a match before executing
+        - breaking input/output sequence: check that all valid/supported function sequences are maintained
+        - lack of rule enforcement: check that all rules & rule structures (like sets or sequences) determining resource access are enforced, or rule gaps where error/attack types could develop are closed
+      
+      - reduce by solution types that cover the most error types without contradicting other solution types or creating additional unsolved problem types
+        - intent-matching covers multiple structural error types
+        - system-fitting or structure-matching as a superset of intent-matching
+      
     - invariant vs. symmetry
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
 
