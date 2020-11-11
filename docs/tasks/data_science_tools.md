@@ -114,9 +114,11 @@
 		- noncentral
 		- inverse
 		- scaled
+
 	- probability density functions
 		- pdf
 		- cdf (cumulative)
+
 	- other functions
 		- delta function
 
@@ -132,6 +134,7 @@
 # Algorithms
 
 	- regression
+
 		- linear
 		- logistic
 		- poisson
@@ -155,20 +158,22 @@
 			- safe reinforceement learning
 
 			- specific reinforcement algorithms: 
+
 				- https://en.wikipedia.org/wiki/Reinforcement_learning#Comparison_of_reinforcement_learning_algorithms
-				Monte Carlo	Every visit to Monte Carlo
-				Q-learning	State–action–reward–state
-				SARSA	State–action–reward–state–action
-				Q-learning - Lambda	State–action–reward–state with eligibility traces
-				SARSA - Lambda	State–action–reward–state–action with eligibility traces
-				DQN	Deep Q Network
-				DDPG	Deep Deterministic Policy Gradient
-				A3C	Asynchronous Advantage Actor-Critic Algorithm
-				NAF	Q-Learning with Normalized Advantage Functions
-				TRPO	Trust Region Policy Optimization
-				PPO	Proximal Policy Optimization
-				TD3	Twin Delayed Deep Deterministic Policy Gradient
-				SAC	Soft Actor-Critic
+
+				Monte Carlo:		Every visit to Monte Carlo
+				Q-learning:			State–action–reward–state
+				SARSA:				State–action–reward–state–action
+				Q-learning-Lambda:	State–action–reward–state with eligibility traces
+				SARSA-Lambda:		State–action–reward–state–action with eligibility traces
+				DQN:				Deep Q Network
+				DDPG:				Deep Deterministic Policy Gradient
+				A3C:				Asynchronous Advantage Actor-Critic Algorithm
+				NAF:				Q-Learning with Normalized Advantage Functions
+				TRPO:				Trust Region Policy Optimization
+				PPO:				Proximal Policy Optimization
+				TD3:				Twin Delayed Deep Deterministic Policy Gradient
+				SAC:				Soft Actor-Critic
 
 		- unsupervised
 
@@ -177,6 +182,7 @@
 		- supervised
 
 			- classification
+
 			- regression
 			
 			- structure prediction (selecting a structure from a set of structures of a particular format, like a logic tree version)
@@ -277,20 +283,29 @@
 		    	- k-nearest neighbor
 		    	- local outlier factor
 		    	- isolation forests
+		    	
 		    - Outlier detection
 		    	- subspace
 		    	- correlation
 		    	- tensor
 		    	- cluster analysis 
 		    	- fuzzy logic
+
 		    - SVM (one-class)
+
 		    - Replicator neural networks
+
 		    - Autoencoders
 		    	- variational autoencoders
+
 		    - Long short-term memory neural networks
+
 		    - Bayesian networks
+
 		    - Hidden Markov models (HMMs)
+
 		    - Deviations from association rules/frequent itemsets
+
 		    - Ensemble techniques
 		    	- feature bagging
 		    	- score normalization
