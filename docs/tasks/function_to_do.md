@@ -127,7 +127,14 @@
           - the intent of a value set combined with a format can be to highlight connections between these causes
 
 
-    - structures of difference: chaining difference types (like core operations & definitions) across different component types like objects/variables are a quick way to identify new objects/systems to explain or fill rule gaps
+    - structures of difference: chaining difference types (like randomness, core operations & definitions) across different component types like objects/variables are a quick way to identify new objects/systems to explain or fill rule gaps
+
+    - identifying randomness vs. false illusion of randomness (temporary equivalence)
+
+    - pattern matching/anomaly detection/noise reduction in finding relevant information eliminates information based on:
+      - commonness/similarity to patterns (focus on common patterns)
+      - similarity to other data (isolate anomalies)
+      - reducing equivalence from randomness (isolate non-random processes that follow rules)
 
     - efficiency in calculation
       
