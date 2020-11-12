@@ -126,6 +126,9 @@
           - the limits & functions of the dimension, combined with other dimensions & rules of the space, are activated as causes of those value outputs
           - the intent of a value set combined with a format can be to highlight connections between these causes
 
+
+    - structures of difference: chaining difference types (like core operations & definitions) across different component types like objects/variables are a quick way to identify new objects/systems to explain or fill rule gaps
+
     - efficiency in calculation
       
       - why is finding a proxy value (that is a multiple of 10) of a multiplication value quicker at some multiplication problems?
