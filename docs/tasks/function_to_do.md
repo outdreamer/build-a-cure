@@ -176,9 +176,20 @@
           - these differences align in a structure that clarifies the increase in value from using digit base multipliers followed by conversion to original multipliers
             - if a multiplier fulfills the threshold values of these operations on the difference types:
               - maximize (value difference from zero) + minimize (value difference from adjacent digit base multipliers) + minimize (non-zero value position difference)
+                = minimal difference from efficient calculation (multiplying digit base multipliers)
             - the solution structure points to the alignment of these differences:
               - use methods (convert to digit base multipliers) that allow the use of position operations (move position) rather than more expensive operations (multiplication)
 
+            - how could you derive efficiencies if you didnt already know that using a digit base multiplier was lower-cost than using the original multipliers?
+              - you can apply definitions of objects to other definitions, and check for conversion adjacency to those objects
+                - examples:
+                  - apply a pattern to a parameter set
+                  - apply an average operation to a function
+              - you can also start with a set of efficient operations and build functions out of them that iteratively fulfill higher & higher intents
+              
+            - how to derive efficient operations in the first place:
+              - identify when there are alternate paths to an answer (65 * 10 = 650 * 1) while changing a minimum of other variables (having the same number types, like integers), and check if alternate paths are lower-cost, and in what cases (ratio of cases, common cases, etc)
+              
 ## examples
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
