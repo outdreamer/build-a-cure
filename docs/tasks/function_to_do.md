@@ -181,15 +181,29 @@
               - use methods (convert to digit base multipliers) that allow the use of position operations (move position) rather than more expensive operations (multiplication)
 
             - how could you derive efficiencies if you didnt already know that using a digit base multiplier was lower-cost than using the original multipliers?
+
               - you can apply definitions of objects to other definitions, and check for conversion adjacency to those objects
                 - examples:
+                
+                  - find difference/change types (like differences in variables like bases, adjacent transforms)
                   - apply a pattern to a parameter set
                   - apply an average operation to a function
+                  - the points formed by factors of a number that align with the digit base form a pattern of efficiencies in multiplication intents for certain original multiplier sets
+                  - apply transformation sequeence:
+                    - standardize to common interface (in the form of a common base value)
+                    - find derivative/slope
+                    - this transformation sequence identifies the difference type of a constant difference between exponential values of a multiplier (4 ^ 0, 4 ^ 1, 4 ^ 2) once transformed to derivatives, constants being easier/more efficient to work with than other value/function types
+
+                - youre looking for object intersections or object patterns that share resources in some way and reduce costs for each other by interacting
+
               - you can also start with a set of efficient operations and build functions out of them that iteratively fulfill higher & higher intents
               
             - how to derive efficient operations in the first place:
+
               - identify when there are alternate paths to an answer (65 * 10 = 650 * 1) while changing a minimum of other variables (having the same number types, like integers), and check if alternate paths are lower-cost, and in what cases (ratio of cases, common cases, etc)
-              
+                - a variant of this is identifying that multipliers share a common base, which has another calculation efficiency in the application of addition/subtraction to exponents instead of multipliers
+                  - example: 64 * 16 = 4 ^ 3 * 4 ^ 2
+
 ## examples
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
