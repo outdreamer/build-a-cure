@@ -114,6 +114,18 @@
     - invariant vs. symmetry
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
 
+    - core operators in math space
+      - structure
+      - set
+        - include (add, increase, multiply, combine)
+        - exclude (subtract, decrease, divide, filter
+        )
+    - efficiency in calculation
+      - why is finding a proxy value (that is a multiple of 10) of a multiplication value quicker at some multiplication problems?
+        - because of the efficiency present in applying the definition of a digit (base 10), which may make multiplying 65 * 10 and subtracting 65 quicker than multiplying 65 * 9
+        - the definition of a digit positions multiplication output of base 10 in a sequence that allows indexing of values in comparison to 10 & degrees of 10
+        - how to find the "definition of a digit' as a relevant object in all the objects of that space
+
 ## examples
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
