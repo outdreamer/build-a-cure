@@ -116,14 +116,20 @@
 
     - core operators in math space
       - structure
+        - format (as a series, function, function set, coordinate set, vectors, matrix, aligned values, base, on dimensions, as an embedded parameter)
       - set
         - include (add, increase, multiply, combine)
         - exclude (subtract, decrease, divide, filter)
 
+      - focused information with values
+        - when you inject information (value set) into a structure (dimension), what happens?
+          - the limits & functions of the dimension, combined with other dimensions & rules of the space, are activated as causes of those value outputs
+          - the intent of a value set combined with a format can be to highlight connections between these causes
+
     - efficiency in calculation
       
       - why is finding a proxy value (that is a multiple of 10) of a multiplication value quicker at some multiplication problems?
-        
+
         - because of the efficiency present in applying the definition of a digit (base 10), which may make multiplying 65 * 10 and subtracting 65 quicker than multiplying 65 * 9,
           - the operation 65 * 10 just involves moving 65 one digit to the left and adding a zero
           - subtraction is held to be less computationally expensive than multiplication
@@ -155,6 +161,23 @@
                 - find cases where work is maximized by preserving values
                   - filter by whether work-maximization conditions apply
                     - apply method of translating problem to case where work is minimized, if work-maximization conditions dont apply
+
+        - in other words, the original question is 'why do value position & digit base produce calculation efficiencies in multiplication?'
+          - because position (and emergent objects of position, like sequence) matters, as adjacent values have inherent relevance/meaning
+            - 1000 has more meaning in some contexts than 1, and the second one in 1101 has more meaning than the 1 next to the decimal in some contexts, or in a default definition of 'meaning' as 'value' or 'distance from origin', except with definitions where the definition of meaning is a concept like 'clarity' or 'unit' or 'standard'
+          - difference from base values is another way to measure relevance in values having position
+          - the more different a multiplier is from 1, the more relevant these digit-based adjacent values become in optimizing the multiplication process
+          - important metrics of relevance:
+            - value position difference
+            - non-zero value position difference (distribution of non-zero values in multipliers)
+            - value difference from zero
+            - value difference from adjacent digit base multipliers
+            - difference in calculation operations between digit base multipliers (move position operation) & original multipliers (multiplication operation)
+          - these differences align in a structure that clarifies the increase in value from using digit base multipliers followed by conversion to original multipliers
+            - if a multiplier fulfills the threshold values of these operations on the difference types:
+              - maximize (value difference from zero) + minimize (value difference from adjacent digit base multipliers) + minimize (non-zero value position difference)
+            - the solution structure points to the alignment of these differences:
+              - use methods (convert to digit base multipliers) that allow the use of position operations (move position) rather than more expensive operations (multiplication)
 
 ## examples
 
