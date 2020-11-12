@@ -118,13 +118,43 @@
       - structure
       - set
         - include (add, increase, multiply, combine)
-        - exclude (subtract, decrease, divide, filter
-        )
+        - exclude (subtract, decrease, divide, filter)
+
     - efficiency in calculation
+      
       - why is finding a proxy value (that is a multiple of 10) of a multiplication value quicker at some multiplication problems?
-        - because of the efficiency present in applying the definition of a digit (base 10), which may make multiplying 65 * 10 and subtracting 65 quicker than multiplying 65 * 9
+        
+        - because of the efficiency present in applying the definition of a digit (base 10), which may make multiplying 65 * 10 and subtracting 65 quicker than multiplying 65 * 9,
+          - the operation 65 * 10 just involves moving 65 one digit to the left and adding a zero
+          - subtraction is held to be less computationally expensive than multiplication
+        
         - the definition of a digit positions multiplication output of base 10 in a sequence that allows indexing of values in comparison to 10 & degrees of 10
+        
         - how to find the "definition of a digit' as a relevant object in all the objects of that space
+          
+          - filter: by noticing that:
+            - multiplication changes positions of numbers in some cases
+              - relevant concepts to number position
+                - 'digit'
+                - 'base'
+            - multiplication preserves the original numbers in some cases
+            - the original problem can easily be transformed into one of these cases (multiplying numbers rounded to an output of multiplying by 10), and easily converted back into the original problem (adding/subtracting remaining value)
+              - these two operations may be less computationally expensive than the multiplication operation
+          
+          - query: in order to notice the above relevant objects, you can do the queries:
+            
+            - change interface: 
+              - find variables of value changes and change types (value position change)
+              - static/anti-change (apply 'not' operator or 'lack' problem type to 'change' concept):
+                - find cases where change types dont apply (value position preservation and value preservation)
+                  - find method of translating problem to case where work is minimized, if work-maximization conditions dont apply
+                    - find secondary method to connect translated problem back into original format (with original parameters, meaning adding/subtracting remaining value)
+            
+            - intent interface:
+              - intent of preserving values is to minimize work of calculation
+                - find cases where work is maximized by preserving values
+                  - filter by whether work-maximization conditions apply
+                    - apply method of translating problem to case where work is minimized, if work-maximization conditions dont apply
 
 ## examples
 
