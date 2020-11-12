@@ -173,6 +173,16 @@
             - value difference from zero
             - value difference from adjacent digit base multipliers
             - difference in calculation operations between digit base multipliers (move position operation) & original multipliers (multiplication operation)
+
+          - intent-matching:
+            - intent-change
+              - the intent is to change position of a value, there is an efficient operation to accomplish that intent (move value position) if the inputs qualify given the base standard
+                - difference in multiplier value position = value position difference source, if difference between inputs & digit base requirements are negligible
+              - this is how you can frame a math problem on the change interface, framing the differences needed (intents) with the input differences (variables) and other relevant differences (differences from standards)
+              - an efficient solution is one that minimizes use of costly functions like transformation operations (maximizes use of adjacent resources or other efficient methods)
+                - so the inputs to an efficient solution will minimize the difference type that is 'input differences'
+                - efficiencies minimize differences/difference types needed to achieve an intent in general (an efficient alternate route may use fewer steps or lower-cost steps than the default route)
+
           - these differences align in a structure that clarifies the increase in value from using digit base multipliers followed by conversion to original multipliers
             - if a multiplier fulfills the threshold values of these operations on the difference types:
               - maximize (value difference from zero) + minimize (value difference from adjacent digit base multipliers) + minimize (non-zero value position difference)
@@ -187,6 +197,9 @@
                 - examples:
 
                   - find difference/change types (like differences in variables like bases, adjacent transforms)
+                  - apply aligning structures of difference types
+                    - difference from digit base multiplier (multiple of 10) aligning with value position difference operation (move)
+                    - (difference from common base) combined with (difference from common base) = exponent addition/subtraction 
                   - apply a pattern to a parameter set
                   - apply an average operation to a function
                   - the points formed by factors of a number that align with the digit base form a pattern of efficiencies in multiplication intents for certain original multiplier sets
@@ -197,6 +210,8 @@
 
                 - youre looking for object intersections or object patterns that share resources in some way and reduce costs for each other by interacting
                   - this means you want to focus on combinations that increase the likelihood of interactions with other objects, just like the base number 10 has interactions with value position (digit definition) & the move operation, and multipliers having a common base having interactivity in their exponents
+                  - youre also looking for shared spaces that can act as interfaces (common bases, formats, standards) where calculations are more trivial (addition rather than multiplication) because the values are already standardized
+                  - operations may develop on these shared spaces, leading to efficient object interactions
 
               - you can also start with a set of unit or efficient operations and build functions out of them that iteratively fulfill higher & higher intents
               
@@ -204,7 +219,8 @@
 
               - identify when there are alternate paths to an answer (65 * 10 = 650 * 1) while changing a minimum of other variables (having the same number types, like integers), and check if alternate paths are lower-cost, and in what cases (ratio of cases, common cases, etc)
                 - a variant of this is identifying that multipliers share a common base, which has another calculation efficiency in the application of addition/subtraction to exponents instead of multipliers
-                  - example: 64 * 16 = 4 ^ 3 * 4 ^ 2
+                  - example: 64 * 16 = 4 ^ 3 * 4 ^ 2 = 4 ^ (3 + 2)
+                  - if you dont need the result of the operation or can standardize other relevant values to that base, you can keep it in this format instead of executing the operation 4 ^ (3 + 2)
 
 ## examples
 
