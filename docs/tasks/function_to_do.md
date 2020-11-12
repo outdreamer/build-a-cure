@@ -183,8 +183,9 @@
             - how could you derive efficiencies if you didnt already know that using a digit base multiplier was lower-cost than using the original multipliers?
 
               - you can apply definitions of objects to other definitions, and check for conversion adjacency to those objects
-                - examples:
                 
+                - examples:
+
                   - find difference/change types (like differences in variables like bases, adjacent transforms)
                   - apply a pattern to a parameter set
                   - apply an average operation to a function
@@ -195,8 +196,9 @@
                     - this transformation sequence identifies the difference type of a constant difference between exponential values of a multiplier (4 ^ 0, 4 ^ 1, 4 ^ 2) once transformed to derivatives, constants being easier/more efficient to work with than other value/function types
 
                 - youre looking for object intersections or object patterns that share resources in some way and reduce costs for each other by interacting
+                  - this means you want to focus on combinations that increase the likelihood of interactions with other objects, just like the base number 10 has interactions with value position (digit definition) & the move operation, and multipliers having a common base having interactivity in their exponents
 
-              - you can also start with a set of efficient operations and build functions out of them that iteratively fulfill higher & higher intents
+              - you can also start with a set of unit or efficient operations and build functions out of them that iteratively fulfill higher & higher intents
               
             - how to derive efficient operations in the first place:
 
