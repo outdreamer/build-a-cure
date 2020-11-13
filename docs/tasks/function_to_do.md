@@ -114,6 +114,8 @@
     - invariant vs. symmetry
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
     - config manager that allows specifying conditions/processes (check for approval from Artemis), data source (url or queries) & UI components/graphs (template or queries) to build apps/pipelines  automatically
+    - app architecture/code/config search: searching other stack resources (application code, data store, resources, security & pipelines) to test the original app test cases to see if a particular codebase/database/config/pipeline will work for the users' needs, without having to manually code a migration to another stack (either migrating code, cloud, pipeline, data store, security tools, or all of the above)
+    - ml explanations: embedded interface structures (causal structures, type paths, problem types, change types/bases), function subsets/alternate functions composing the prediction function
 
     - core operators in math space
       - structure
