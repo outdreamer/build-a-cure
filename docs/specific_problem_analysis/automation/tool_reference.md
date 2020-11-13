@@ -150,13 +150,24 @@
 
     - Build tools
 
-      - build/deployment/testing management/automation: Jenkins
+      - build/deployment/testing management/automation: 
+        - Jenkins
+        - Gradle
+        - Maven
 
       - Deployment Approval: Artemis
 
-      - Config Management: terraform, ansible
+      - Infrastructure Config Management: 
+        - Terraform
+        - Ansible
+        - Vagrant
+        - Puppet
+        - Chef  
 
     - Orchestration tools
+      - automated systems/software configuration, coordination, & management, specifically to:
+        - integrate a variety of disparate applications and systems
+        - assemble end-to-end processes
 
     - Distribution tools
 
@@ -302,8 +313,11 @@
                 - A digital-to-analog converter (DAC), conversely, can allow a microcontroller to produce analog voltages for making sounds through analog devices
 
     - isolation tools:
-      - containers: Docker, ECS
-      - virtual machines: VirtualBox
+      - virtualization: 
+        - VirtualBox
+        - VMware Player
+        - Vagrant
+        - containers: Docker, ECS
       - hypervisor layer
       - remote desktop protocol (RDP)
 
