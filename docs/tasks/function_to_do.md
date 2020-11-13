@@ -116,6 +116,9 @@
     - config manager that allows specifying conditions/processes (check for approval from Artemis), data source (url or queries) & UI components/graphs (template or queries) to build apps/pipelines  automatically
     - migration/integration automation using app architecture/code/config search: searching other stack resources (application code, API, data store, resources, security & pipelines) in a repository of stack resources of existing or optimal applications, to test the original app test cases to see if a particular codebase/database/config/pipeline will work for the users' needs, without having to manually code a migration or integration to another stack (either migrating code, cloud, pipeline, data store, security tools, or all of the above), and using incremental tuning of the application code (mixing in code components, injecting dependencies, executing adjacent transforms, etc)
       - the primary work involved on the dev side would be ensuring the test cases covered all user needs
+      - the migration/integration logic would involve search filters in the form of exit conditions that would skip to the next resource stack if a particularly important test doesnt pass, rather than trying to fix the resource stack that is clearly too different from user needs to be adjacently useful
+      - it could also start from a standard set of application resource stacks in various stack combinations and add logic/config/schema until it fulfills the test cases
+      - identifying probably successful transforms of code/config can be done with code queries if indexed by intent, or by translating code to the currently iterated resource stack given pre-defined mappings
 
     - ml explanations: embedded interface structures (causal structures, type paths, problem types, change types/bases), function subsets/alternate functions composing the prediction function
 
