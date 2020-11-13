@@ -113,10 +113,12 @@
       
     - invariant vs. symmetry
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
+    - config manager that allows specifying conditions/processes (check for approval from Artemis), data source (url or queries) & UI components/graphs (template or queries) to build apps/pipelines  automatically
 
     - core operators in math space
       - structure
         - format (as a series, function, function set, coordinate set, vectors, matrix, aligned values, base, on dimensions, as an embedded parameter)
+      - differentiate
       - set
         - include (add, increase, multiply, combine)
         - exclude (subtract, decrease, divide, filter)
