@@ -53,7 +53,14 @@
     - resolve duplicate functions
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
 
+  - using set theory in query operations:
+    - edges as core organizing/formatting operations (find/apply) & interfaces (connecting/explanatory concepts/functions)
+    https://en.wikipedia.org/wiki/Hypergraph
+
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
+
+  - AI that identifies complexity requiring other structures to be added/embedded in analysis network
+    - example: identifying a 'map' structure to store a set of definitions (like to contain a language/dependency graph), and a 'filter' structure to store a set of standards (like to standardize to that language)
 
   - insight analysis includes:
       - identifying how an insight is generated (insight path)
