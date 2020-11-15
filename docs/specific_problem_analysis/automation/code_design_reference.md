@@ -147,3 +147,28 @@
         - Scheduler Explicitly control when threads may execute single-threaded code.
         - Thread pool A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.
         - Thread-specific storage Static or "global" memory local to a thread.
+
+
+# Best practices
+
+    - CICD:
+
+      - continuous integration (CI): merging all developers' working copies to a shared mainline regularly
+        1. run tests locally
+        2.a compile code & run tests in other environments
+        2.b deploy artifact
+      - Continuous delivery: checks that software is always deployable to users
+      - continuous deployment: automates deployment process
+
+      - CI/CD best practices
+
+        - Maintain a code repository
+        - Automate the build
+        - Everyone commits to the baseline every day
+        - Every commit (to baseline) should be built
+        - Every bug-fix commit should come with a test case
+        - Keep the build fast
+        - Test in a clone of the production environment
+        - Make it easy to get the latest deliverables
+        - Everyone can see the results of the latest build
+        - Automate deployment
