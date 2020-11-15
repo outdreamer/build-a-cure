@@ -48,10 +48,18 @@
         [0020] Fig. 4 General Execution Workflow is an overview of an example process 400 for implementing problem-solving automation workflows in steps 402 - 410, from initial problem formatting to solution matching to solution application & analysis. 
           
   - organize interface analysis logic definitions
+
   - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
     - resolve duplicate functions
     - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
+
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
+
+  - insight analysis includes:
+      - identifying how an insight is generated
+      - identifying alternate ways to generate the insight
+      - identifying how an insight fits into its problem space
+        - identifying the relationship between the problem space structure & the insight
   
   - example of a system analysis function: identify a system object (error) in the problem space system
 
@@ -167,13 +175,26 @@
       - a good AI would infer that this was a complicated problem requiring conceptual analysis by the complexity of language & variation in social interactions or language progression, which would give it information about how new terms develop (to categorize & identify oppressive behaviors, often using comedy, so those behaviors can be stopped) and how they propagate (used by oppressive groups for profit, leading to self-awareness), giving the AI information sufficient to infer the concept of oppression
 
       - a really good AI would identify causal structures like causal loops in the data:
+
         - example: 
           - oppressing a group by an irrelevant factor like hair may upset members of that group, which may either cause members of that group to develop social skills like emotional regulation, or do crimes
           - this creates a self-fulfilling prophecy in the form of a causal loop: the hair used to be irrelevant, until they were oppressed for it and reacted to that oppression in a negative way, which made the oppressors think they were right, and may make oppression continue
         - it would also isolate strong causative anti-crime factors like emotional regulation, which will have some different signs & problems (lack of emotional expression, signs of intelligence, signs of stress to correct other people's problems)
 
+        - it would also generate its own standardized language to generate/infer/associate concepts:
+          - 'emotional regulation' would be translated to 'irrelevant status change signal response regulation' by a very good AI that can process concepts & apply standards
+          - once that concept is formatted that way, it can infer structures to look for like facial expressions & chosen status signals, without knowing about them
+          - the concept of 'emotional regulation' can be inferred:
+            - 'status change signal responses' that are identifiable by other agents
+
+          - 'status change signal responses' (emotions) can be inferred from core concepts like 'status', applying 'change', and 'information processing' or 'communication', as well as 'stress' and the associated concept 'stress handler', identifying a 'status change signal' as a stressor
+
+          - once concepts are generated & standardized in this way, other concepts (like 'intelligence' or 'oppression') can be fit into this standard & the meaning of each concept identified quicker
+
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
+
     - config manager that allows specifying conditions/processes (check for approval from Artemis), data source (url or queries) & UI components/graphs (template or queries) to build apps/pipelines  automatically
+    
     - migration/integration automation using app architecture/code/config search: searching other stack resources (application code, API, data store, resources, security & pipelines) in a repository of stack resources of existing or optimal applications, to test the original app test cases to see if a particular codebase/database/config/pipeline will work for the users' needs, without having to manually code a migration or integration to another stack (either migrating code, cloud, pipeline, data store, security tools, or all of the above), and using incremental tuning of the application code (mixing in code components, injecting dependencies, executing adjacent transforms, etc)
       - the primary work involved on the dev side would be ensuring the test cases covered all user needs
       - the migration/integration logic would involve search filters in the form of exit conditions that would skip to the next resource stack if a particularly important test doesnt pass, rather than trying to fix the resource stack that is clearly too different from user needs to be adjacently useful
