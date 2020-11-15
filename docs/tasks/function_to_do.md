@@ -56,10 +56,18 @@
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
 
   - insight analysis includes:
-      - identifying how an insight is generated
+      - identifying how an insight is generated (insight path)
       - identifying alternate ways to generate the insight
-      - identifying how an insight fits into its problem space
+      - identifying how an insight fits into its problem space (relevance, or system fit)
         - identifying the relationship between the problem space structure & the insight
+          - given this system of problems & solutions, how does this insight relate?
+            - given resources like information about social skills & feudalism, and solutions like technology such as metalforging/surgery, and problems like survival & performing farm tasks, how did a person identify the idea of a vaccine
+        - information about insight-problem space system fit allows:
+          - inference of what insights are likely to develop in a problem space, in what sequence
+          - how much cognitive distance was involved in acquiring the insight (how much work it was to acquire)
+          - how relevant the insight is to the problem space (is the insight important to the problem space, what problem space changes did it trigger)
+      - identifying other problem spaces where the insight would develop
+      - identifying insight patterns (did this insight follow similar patterns as other insights, like variable type relationships, which could have been looked for first, instead of generating this specific insight)
   
   - example of a system analysis function: identify a system object (error) in the problem space system
 
