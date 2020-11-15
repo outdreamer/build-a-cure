@@ -148,6 +148,8 @@
     - Optimization
       - website optimization analysis
 
+    - CICD: Travis, GitLab, Jenkins, AppVeyor
+
     - Build tools
 
       - build/deployment/testing management/automation: 
@@ -163,6 +165,7 @@
         - Vagrant
         - Puppet
         - Chef  
+        - AWS CloudFormation
 
     - Orchestration tools
       - automated systems/software configuration, coordination, & management, specifically to:
@@ -229,9 +232,11 @@
     - query languages
       - sql: queries relational databases implementing SQL support
       - sparql: queries RDF-formatted data, allows for a query to consist of triple patterns, conjunctions, disjunctions, and optional patterns
-      - graphql: API query language
+      - graphql: API query language, allows querying of multiple databases, microservices, and APIs with a single endpoint
 
     - cloud providers: AWS, Google Cloud, Azure, Rackspace, IBM
+
+    - message broker: helps app communicate using messaging protocols
 
     - browsers: brave, chrome, safari, firefox
 
