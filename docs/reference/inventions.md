@@ -169,6 +169,29 @@
 		https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 		https://aws.amazon.com/well-architected-tool/?c=15&pt=20
 
+	- automation borrowed by aws:
+	    - compute-optimizer: analyzes the configuration and utilization metrics of your AWS resources, generates optimization recommendations
+	    - dax: managed caching service for Amazon DynamoDB, by caching frequently-accessed data 
+	    - glue databrew: filtering anomalies, standardizing formats, and correcting invalid values
+	    - forecast: prediction model provider & optimizer from a data set
+	    - CloudWatch Application Insights: identify anomalies in metrics & error types for apps
+	    - codeguru: code optimizer
+	    - inspector: uses codeguru logic to identify vulnerabilities automatically by priority in your apps
+	    - GuardDuty: security monitoring service analyzes/processes data sources about account usage, identifying unexpected/unauthorized/malicious activity, monitoring for signs of compromise
+	      (escalations of privileges, uses of exposed credentials, communication with malicious entities, detecting compromised sensitive resources like unauthorized access/usage or unusual API calls given the implied intent)
+	    - opsworks: 
+	    - globalaccelerator: create accelerators to improve availability/performance of apps for local/global users
+	    - builder:
+	      - honeycode: no-code app building tool
+	    - test automation:
+	      - codeguru
+	    - code search/finder:
+	      - serverlessrepo (Serverless Application Repository): quickly find/deploy serverless applications (like web/mobile backends, data processing apps, chatbots, or applications by name/publisher/event source)
+	    - predicting user requests from other request data patterns
+	      https://www.zdnet.com/article/alexa-can-now-guess-what-you-want-before-you-even-ask-for-it/
+	    - subset with specific implementation for a particular problem, using machine learning
+	      https://techxplore.com/news/2020-11-machine-machines-visual-mechanical.html
+
 	- sub-task derivation from a task definition
 
 	- intent 
