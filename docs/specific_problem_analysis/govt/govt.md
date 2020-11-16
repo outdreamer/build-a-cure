@@ -1,5 +1,7 @@
 to do: organize into docs
 
+- organizing states/laws by market behaviors to generate laws on-demand & assigning them to entities organized by their market interactions
+  - example: when x number of people participate as suppliers in this market, generate a law that protects them from attack types & prevents them from using above a ratio of attacks on other market demand participants
 
 - example of applying interface analysis (core system layer graph) to generate new & useful applications of resources
   
