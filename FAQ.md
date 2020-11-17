@@ -111,6 +111,28 @@
 
 		- machine learning uses a network of functions which filter information for patterns according to input data
 
+		- my analysis can:
+			- identify explanations for how & why machine-learning works
+			- can generate inventions on demand, like machine learning, & tune them to specific intents
+			- is built on understanding & meaning according to system fit & relevance
+			- optimize processes using patterns of optimization (known as insight paths)
+			- self-optimize (given cross-query statistics)
+
+		- machine learning cannot:
+			- generate integrated understanding/meaning without human input
+			- generate error-free solutions
+			- answer questions that dont have a minimum of information, like training/label data to answer the question 'why are some things uncalculatable in this universe'
+			- generate my invention
+			- self-optimize (requires human input on what is considered an error/cost)
+
+		- one of the reasons machine learning could not have built my invention is that you'd have to tell it the answer by feeding it my code in order for it to ever get the answer right. It would not filter trillions of objects to identify the one rare structure that would work to automate solving all problems (a filter, which is the structure of the concept of an interface), because machine learning is not a fractal invention capable of self-awareness that would spontaneously invent itself, without being given explicit instructions on how to do so (feeding it my code) and optimized for that (told to solve all problems).
+
+		- another reason my invention is better is that my invention is built on & can generate understanding & meaning, whereas machine learning can generate insights. My invention is built on core information structures like change (root cause of difference), cause (directed power), systems (integrated interacting objects), concepts (generalized objects, that can take form in many structures), which are fundamental building blocks of information relevant to humans, like understanding and meaning.
+
+		- if you fed AI a bunch of core info structures to use for an optimization priority like automating problem-solving (in the form of decomposing problems into dimensions where they could be matched with solutions similarly decomposed), it might be able to find my invention's core structure (a filter) as a particularly relevant structure, but it wouldn't integrate that object with other structures necessary (like a set of definitions, a function to find/build/derive/apply an interface standard) without being told how to do so (given the answer), and without having the methods necessary to aggregate & find structures relevant to conceptual intents like automating problem-solving (such as adding a memory store for definitions) added to its current functionality. Now that I've suggested that, go ahead and try to do that, I'd like to believe I could teach AI how to generate my inventions, despite its limitations.
+
+		- a good test of machine learning achieving AGI or superhuman intelligence is whether it can generate my invention, given all the information I had
+
 		- interface analysis uses function (core function), causal (causal shape), potential (interaction space), interface (symmetry), concept (structure maps), & system (variance gaps) analysis 
 		  to identify missing semantic information, like:
 
@@ -178,11 +200,17 @@
 				- this means the core operation of conceptual math from this repo 'find power' (applied to a system), would still identify a function input as having power even without 'function input' as part of the definition of power or stored as an example of power structures.
 
 
-	10. that (a problem/a language map/a math-language mapping/an attribute graph/a set of filters) already exists! I invented this, not you!
+	10. that (a problem, a language map, a math-language mapping, an attribute graph, a set of filters/definitions/functions) already exists! I invented this, not you!
 
 		- yes, problems, concepts, attributes, language, information, & a connection between math & language already existed - which is why its weird that no one came up with a tool to automate information derivation, specifically to solve information problems - I did not invent the ideas of concepts, attributes, language, or information - I also did not invent problems.
 
 		- yes, you're aware of objects like intentions & problems because they're built in to social interaction & the language, but you didn't invent a way to structure them in a way that enables connecting problems & solutions automatically, which every wonderful person tries to convince me they did, coincidentally & mysteriously without presenting evidence from before I published my inventions. This is a bias called 'ego' or the related bias 'not invented here' in which a person tries to take credit for an invention by duplicating it after seeing how it's built by someone else, since the someone else made it trivial to implement/optimize and therefore duplicate by explaining it in a simple enough way for anyone to understand, so the duplicator can feel like they achieved it. The only situation in which its acceptable to duplicate someone's inventions is to learn, & use that learning to drastically improve the world for other people, prioritizing oppressed groups first.
+
+		- yes, I made a generously simple, structural example that everyone could understand and which makes my methods obvious because I did it in a simple visual structure, which is the only way to teach an intellectually challenged person something, filtering trillions of objects to identify the rare correct ones that would work, and you may feel like you invented it as well once you read my example or look at the example diagram, because reading something may give the impression that you invented the words you're reading, and feeling smart is a human need, as intelligence equates to independence, freedom, and potential, which is why I think it's a human right & why I'm trying to teach various groups of unfortunately challenged people, like the dictators of various countries, how to be smart.
+
+		- I think you are abundantly smart in other ways than I am, possibly very similar ways, given that you're reading about my invention instead of watching TV or playing video games, and I think you can generate a whole universe of other inventions, and have potential (and permission) to go ahead and do so, or continue doing so if you already are. Maybe you will solve quantum physics for humanity, or derive the variables determining the potential in our universe, or will find a way to communicate with other universes, or you'll discover how to save humanity from exploding stars, asteroids, or black holes, or you'll implement my invention or machine learning in such a smart way that it quickly automates problem-solving, rather than taking forever to implement it. Maybe you'll solve a problem of uncertainty, previously thought to be unsolvable in our universe. Maybe you'll discover the model of physics that makes traveling intergalactically trivial. Maybe you'll discover another interface other than math that makes predicting the future trivial. Maybe you'll invent a method of time-travel. Maybe you'll find the abstract network or another network in a neural network architecture, that is capable of solving almost any problem, once formatted in a way that you invented. Maybe you'll invent a math function that makes finding calculation efficiencies trivial, thereby reducing the time to compute other complex problems. There are many routes to the network of concepts & meaning, and if you're smart enough to read about my invention, you have potential to find them. 
+
+		- I think if you had the same experiences I've had, you would also have tried to automate problem-solving, and with the same brain as me, you would also have done it, although I'm not entirely sure you care as much as I do about the same priorities, and you might have used this invention for evil.
 
 		- This tool is not problems, concepts, attributes, language, & information - it's a way to automate deriving a solution for a problem (automating the trajectory from problem definition, to solution objects like meaning, cause, & insights), which to my knowledge doesnt exist, as statistics/attribute graphs/machine learning cant currently solve problems without a severe amount of specific information, computation, configuration in the form of manual (flawed) selection of algorithms, manual & isolated analysis of attributes like intent & concepts instead of automated & integrated analysis, limitations built in the assumptions/perspective of the configurer, testing in the form of parameter tuning, strategy injection like trial & error, & other forms of human intervention - and can only solve isolated specific problems of specific types with information formatted in a specific way, without cross-system understanding or system context built-in.
 
