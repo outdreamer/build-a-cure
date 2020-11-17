@@ -1,5 +1,24 @@
 to do: organize into docs
 
+- the power structures of govt (structures to optimize to find an optimal govt structure)
+  - functionality: ability to access function logic
+  - permission: ability to call a function
+  - value creation: ability to generate value, and distribute it to other functions
+  - intelligence (in the form of freedom/potential, structured as an ability to move/change agent position, as in adapt/learn)
+    - this ability to move requires detachment from a perspective, to be able to delete/edit/generate perspectives, and change between perspectives
+  
+  - we already have relevant structures:
+    - permissions: basic rights & gaps in rule enforcement, which are sub-optimally enforced
+    - functionality access: technology, products, education, information
+    - value creation: resources like time & access to value-creation methods, or problems/conditions that adjacently (consistently) trigger value creation or value creation strategies
+    - intelligence: in the form of optimizing/learning/adaptation functions
+  
+  - we dont have:
+    - distributed resources (or resource-generators like intelligence, luck, permission, education, time)
+    - automated permission/functionality correction/optimization/generation for a given system/intent (automatic program self-correction, like 'correct this problem in this network of AI models', which can be done with structural priorities to optimize or logic & test generation/automation)
+    - automated value creation (can be done with independence machine, or proxies for components of it, with machines to filter water or plants engineered to perform those functions)
+
+
 - organizing states/laws by market behaviors to generate laws on-demand & assigning them to entities organized by their market interactions
   - example: when x number of people participate as suppliers in this market, generate a law that protects them from attack types & prevents them from using above a ratio of attacks on other market demand participants
 
