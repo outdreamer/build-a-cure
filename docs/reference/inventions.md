@@ -169,6 +169,29 @@
 		https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 		https://aws.amazon.com/well-architected-tool/?c=15&pt=20
 
+	- problem/solution database schema for automated matching & reusability
+		- solutions: https://docs.microsoft.com/en-us/power-platform/alm/solution-concepts-alm
+
+	- productivity automation with integrated cross-team analysis
+		- microsoft my analytics
+
+	- task templates to make tasks essentially logic queries to trivialize automation, which I suggested at work
+
+	- configurable & embedded structures in search results (microsoft bing, google)
+
+	- auto-conversion between formats/structures
+
+	- code automation
+		- microsoft power apps
+
+	- automation of user workflows (example I gave was 'create a route for my schedule optimizing minimal time'
+
+		- google: .commands
+		- microsoft: power automate, to do
+
+	- compliment bot
+		- microsoft shoutouts
+
 	- automation borrowed by aws:
 	    - compute-optimizer: analyzes the configuration and utilization metrics of your AWS resources, generates optimization recommendations
 	    - dax: managed caching service for Amazon DynamoDB, by caching frequently-accessed data 
