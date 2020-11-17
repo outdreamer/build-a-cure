@@ -62,6 +62,8 @@
   - AI that identifies complexity requiring other structures to be added/embedded in analysis network
     - example: identifying a 'map' structure to store a set of definitions (like to contain a language/dependency graph), and a 'filter' structure to store a set of standards (like to standardize to that language)
 
+  - create https temp server/cert for request sessions on sites that arent https already, after filtering content for malware on temp server
+
   - insight analysis includes:
       - identifying how an insight is generated (insight path)
       - identifying alternate ways to generate the insight
