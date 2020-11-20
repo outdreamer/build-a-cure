@@ -5,18 +5,94 @@
     - function units  
       - function names
 
+    - function workflows
+      - integrating function units (function sequences, hub functions, alternative function routes)
+
     - conditions
       - if/while
       - types
+      - tests
+      - sample/test data
+      - best/worst case scenario & relationship to sample/test data
+      - variables
 
     - inputs
-      - function params
-      - global vars
-      - config
-      - file reads
-      - open ports
-      - listeners
-      - events
+      - structural
+        - function params
+        - global vars
+        - config
+        - file reads
+        - open ports
+        - listeners
+        - events
+        - data (data variation, data state, data integrity, data processing)
+      - assumptions
+        - strings
+        - validation
+        - state (subnet is not right below its limit so that another application requesting an ip doesnt interfere with your app resources getting one when auto-scaling)
+        - components (with no generation function, indicating their existence is assumed)
+      - anti assumptions
+        - components that can be re-generated
+        - standardization
+        - alternative routes
+        - auto-error correction
+        - integrated analysis (not assuming one change will not produce changes for adjacent applications/resources)
+
+  - dont need to focus on unplanned changes so much as permuted assumptions/expectations, if your assumption index has correctly identified the important inputs
+    - index assumptions as all important process inputs, from app inputs like user events, down to the os level like available memory
+
+  - third party assumptions are another big error source, bc their assumptions may be invisible until theyve generated problems, but their assumptions can be derived using assumption patterns/types/variables
+
+  - what types of data can help in automation of code debugging
+    - saved snapshots of application state (track progress within application to find anomaly patterns)
+    - assumption data
+      - assumptions about state, process sequence, data values, data/config variation, and other params
+
+  - to predict the errors that will occur from a particular unplanned assumption change
+    - find inputs
+      - find dependencies/required inputs (and input combinations & other input structures)
+        - find problematic assumption types
+          - best/worst case combinations
+          - single-chain function sequence (with no alternative routes) depending on one input of initial function
+          - core structure changes (paths, permissions, ports)
+            - find assumptions matching assumption type structures
+              - check if change impacts those assumptions
+
+    - find assumption/input-invalidators
+      - find invalidating states of assumptions (inputs)
+        - what states would invalidate the application intents/assumptions
+          - find states that can invalidate required inputs
+            - find requirement invalidating states that this change will bring application/env closer to
+
+    - find changes
+      - find changes that will cause many other changes
+        - find alternative changes that wont cause many other changes
+          - find difference between those alternatives & original change
+            - find if difference adds value in reducing total changes needed (assumptions/components interacted with)
+
+    - find problem types
+      - find problem types involving related objects of change, changed components, and their dependencies
+        - find unplanned changes
+      - test state produced by change for problem type structures
+
+    - find error-triggering state changes 
+      - filter by state changes similar to this change
+        - check if those state changes resulted in rollbacks/alarms/errors
+
+  - create problem flow chart automatically by permuting problem types or alternatively assumptions 
+    
+    - problem types: dependency/input of condition is not populated, condition is inadequate to handle input, condition is not applied
+    - assumptions: variable is not populated
+
+    - inject structure 'boolean' to component 'variable'
+      - variable is populated
+        - inject structure 'process'
+          - variable checking process
+          - variable resolution process
+            - variable type is incorrect
+            - variable type is irrelevant
+      - variable is not populated
+
 
   - make interface query output diagram
 
