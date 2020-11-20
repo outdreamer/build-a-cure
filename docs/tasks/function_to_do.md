@@ -1,5 +1,25 @@
 # to do
 
+  - identifying app structure of code base
+
+    - function units  
+      - function names
+
+    - conditions
+      - if/while
+      - types
+
+    - inputs
+      - function params
+      - global vars
+      - config
+      - file reads
+      - open ports
+      - listeners
+      - events
+
+  - make interface query output diagram
+
   - de-duplicate logic
     - integrate problem_solving_matching.md & analysis_examples.md
     - integrate changes from interface_analysis.py and solution_automation_analysis.py to repo
@@ -62,7 +82,7 @@
   - AI that identifies complexity requiring other structures to be added/embedded in analysis network
     - example: identifying a 'map' structure to store a set of definitions (like to contain a language/dependency graph), and a 'filter' structure to store a set of standards (like to standardize to that language)
 
-  - create https temp server/cert for request sessions on sites that arent https already, after filtering content for malware on temp server
+  - create https temp server/cert for request sessions on sites that arent https already, after filtering content for immediate malware/attacks on temp server
 
   - insight analysis includes:
       - identifying how an insight is generated (insight path)
