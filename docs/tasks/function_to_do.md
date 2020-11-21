@@ -1,99 +1,5 @@
 # to do
 
-  - identifying app structure of code base
-
-    - function units  
-      - function names
-
-    - function workflows
-      - integrating function units (function sequences, hub functions, alternative function routes)
-
-    - conditions
-      - if/while
-      - types
-      - tests
-      - sample/test data
-      - best/worst case scenario & relationship to sample/test data
-      - variables
-
-    - inputs
-      - structural
-        - function params
-        - global vars
-        - config
-        - file reads
-        - open ports
-        - listeners
-        - events
-        - data (data variation, data state, data integrity, data processing)
-      - assumptions
-        - strings
-        - validation
-        - state (subnet is not right below its limit so that another application requesting an ip doesnt interfere with your app resources getting one when auto-scaling)
-        - components (with no generation function, indicating their existence is assumed)
-      - anti assumptions
-        - components that can be re-generated
-        - standardization
-        - alternative routes
-        - auto-error correction
-        - integrated analysis (not assuming one change will not produce changes for adjacent applications/resources)
-
-  - dont need to focus on unplanned changes so much as permuted assumptions/expectations, if your assumption index has correctly identified the important inputs
-    - index assumptions as all important process inputs, from app inputs like user events, down to the os level like available memory
-
-  - third party assumptions are another big error source, bc their assumptions may be invisible until theyve generated problems, but their assumptions can be derived using assumption patterns/types/variables
-
-  - what types of data can help in automation of code debugging
-    - saved snapshots of application state (track progress within application to find anomaly patterns)
-    - assumption data
-      - assumptions about state, process sequence, data values, data/config variation, and other params
-
-  - to predict the errors that will occur from a particular unplanned assumption change
-    - find inputs
-      - find dependencies/required inputs (and input combinations & other input structures)
-        - find problematic assumption types
-          - best/worst case combinations
-          - single-chain function sequence (with no alternative routes) depending on one input of initial function
-          - core structure changes (paths, permissions, ports)
-            - find assumptions matching assumption type structures
-              - check if change impacts those assumptions
-
-    - find assumption/input-invalidators
-      - find invalidating states of assumptions (inputs)
-        - what states would invalidate the application intents/assumptions
-          - find states that can invalidate required inputs
-            - find requirement invalidating states that this change will bring application/env closer to
-
-    - find changes
-      - find changes that will cause many other changes
-        - find alternative changes that wont cause many other changes
-          - find difference between those alternatives & original change
-            - find if difference adds value in reducing total changes needed (assumptions/components interacted with)
-
-    - find problem types
-      - find problem types involving related objects of change, changed components, and their dependencies
-        - find unplanned changes
-      - test state produced by change for problem type structures
-
-    - find error-triggering state changes 
-      - filter by state changes similar to this change
-        - check if those state changes resulted in rollbacks/alarms/errors
-
-  - create problem flow chart automatically by permuting problem types or alternatively assumptions 
-    
-    - problem types: dependency/input of condition is not populated, condition is inadequate to handle input, condition is not applied
-    - assumptions: variable is not populated
-
-    - inject structure 'boolean' to component 'variable'
-      - variable is populated
-        - inject structure 'process'
-          - variable checking process
-          - variable resolution process
-            - variable type is incorrect
-            - variable type is irrelevant
-      - variable is not populated
-
-
   - make interface query output diagram
 
   - de-duplicate logic
@@ -160,149 +66,10 @@
 
   - create https temp server/cert for request sessions on sites that arent https already, after filtering content for immediate malware/attacks on temp server
 
-  - insight analysis includes:
-      - identifying how an insight is generated (insight path)
-      - identifying alternate ways to generate the insight
-      - identifying how an insight fits into its problem space (relevance, or system fit)
-        - identifying the relationship between the problem space structure & the insight
-          - given this system of problems & solutions, how does this insight relate?
-            - given resources like information about social skills & feudalism, and solutions like technology such as metalforging/surgery, and problems like survival & performing farm tasks, how did a person identify the idea of a vaccine
-        - information about insight-problem space system fit allows:
-          - inference of what insights are likely to develop in a problem space, in what sequence
-          - how much cognitive distance was involved in acquiring the insight (how much work it was to acquire)
-          - how relevant the insight is to the problem space (is the insight important to the problem space, what problem space changes did it trigger)
-      - identifying other problem spaces where the insight would develop
-      - identifying insight patterns (did this insight follow similar patterns as other insights, like variable type relationships, which could have been looked for first, instead of generating this specific insight)
-  
-  - example of a system analysis function: identify a system object (error) in the problem space system
-
-    - general method: pull error cause types, error types caused, identify known possible information problem types, match error types with info problem types by applying structure, find matching solutions for error types once linked to info problem types
-
-    - function to generate/identify errors in a solution (function set, host system) within a problem space formatted as a system
-
-      - identify error root cause types using combinatorial core analysis
-
-        - find components
-          - structural mis/matches
-            - intent mismatch between function combinations across layers 
-          - unnecessary structures
-          - missing structures
-        - apply components
-          - apply combinations
-            - combine components in various structures
-              - inject componeents into other components
-          - apply changes
-            - remove/add limits/rules/assumptions
-            - use alternate paths
-            - switch expected with unexpected components
-        - build components
-          - function sequences granting access
-
-      - find error types caused by those cause types
-        - structural mismatches cause:
-          - lack of system/context-function fit (function-scope mismatch)
-          - lack of rule enforcement (function/responsibility mismatch, expectation/usage mismatch)
-          - lack of intent restriction for using a function (intent mismatch)
-
-      - filter caused error types by which generated errors would cause information problem types (process failure, access vulnerability, corrupt data)
-
-      - identify specific errors of filtered caused error types, organized by interface
-        - lack of intent restriction for using a function
-          - malicious function sequences matching validation requirements
-          - breaking input/output sequence for later functions
-        - lack of system/context-function fit: 
-          - incorrect permissions for context
-        - lack of rule enforcement
-          - unhandled function inputs
-          - granting cache access to unauthorized scripts
-
-      - match specific interface (intent, structural) error types with information problem types (apply information interface to error types)
-        - lack of intent restriction
-          - breaking input/output sequence for later functions
-            - injecting function with less validation in function chain
-
-      - match specific interface (intent, structural) error types with solution types
-        - intent mismatch: align intent
-        - lack of intent restriction: reduce intents supported by function (re-organize logic, add validation)
-        - incorrect permissions for context: scope permissions, generate permissions for a context/intent & check for a match before executing
-        - breaking input/output sequence: check that all valid/supported function sequences are maintained
-        - lack of rule enforcement: check that all rules & rule structures (like sets or sequences) determining resource access are enforced, or rule gaps where error/attack types could develop are closed
-      
-      - reduce by solution types that cover the most error types without contradicting other solution types or creating additional unsolved problem types
-        - intent-matching covers multiple structural error types
-        - system-fitting or structure-matching as a superset of intent-matching
-      
     - invariant vs. symmetry
 
     - applying 'combination' structure to type patterns:
       https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/
-
-    - generating false data to 'balance racially biased datasets' removes the embedded info that some races are oppressed
-      https://www.zdnet.com/article/this-startup-wants-to-fix-your-biased-ai-one-dataset-at-at-time/
-      
-      - how would you derive that info (derive the concept of 'racial oppression') from a data set with 'racially biased data' that reflects real problems, without erasing the information of those problems, information which might be relevant to what youre predicting?
-        - if you only have race/location columns in your data set:
-          - if races are differentiable by location:
-            - why are they isolated? is one race being targeted by the other? is there another conflict, like previous oppression, creating economic disparity (an alternate cause of separation by location)?
-          - if races arent differentiable by location:
-            - check for crime data by location:
-              - is crime higher in locations with integration? why might that be the case?
-            - check for other types of location separation (granular separation, like by neighborhood rather than zipcode)
-      
-      - the concept of 'oppression' can be inferred in many ways, depending on the data set
-        - resource access
-        - health metrics (image & consumption habit data will show signs of stress)
-        - state changes:
-          - if the data is new, it will reflect different problems based on the different state of power distribution
-            - previously powerful oppressive groups experiencing a backlash, reflected in stressors
-          - if the data is old, it will reflect problems like:
-            - clear differences in health/culture from severe segregation of groups
-        - 'group' changes
-          - group dynamics between oppressors/oppressed through phases over time
-        - 'tech' changes
-          - other variables, with info tech & science applied (science to improve health metrics, info tech to magnify & integrate group dynamics)
-        - the concept of a 'health standard' ascribed to racially-associated traits that doesnt correlate with actual health, but allows variation in social choices, given other metrics like social skills
-      
-      - real 'balancing' of a data set is meaningfully balanced, not just variable value-balanced:
-        - a data set with exclusively minority criminals could be balanced by adding real data of majority criminals (not generated data)
-        - this doesnt remove the information implying oppression, but it does include a standard to compare different causes of crime
-          - the oppressors who are poor are likely to be poor for different reasons (intellectual poverty, drug addiction) than oppressed minorities (systemic/compounding inequality)
-            - how would you identify this difference in cause in the data set?
-              - the poverty of an oppressor is likelier to be a choice, so the key factors would be:
-                - signs of intellectual poverty (facial tattoos, signs of aggression, copying pop culture, lack of social skills)
-                - signs of addiction (lack of habit variation, lack of other consumption habits)
-                - signs of agency (lack of optional health habits, access to expensive health options)
-                - signs of power (lack of self-modification, lack of stress)
-              - the poverty of an oppressed minority is less likely to be a choice, so the key factors would be:
-                - signs of group membership/strong relationships (gang signs, embedded cultural symbols, similarity of habits/consumption within groups, signs of social skills)
-                - signs of lack of power (self-modification, signs of poor health/high stress, lack of planning for future)
-                - signs of lack of agency (lack of health habits, modifications are likely to be cheaper, a/antisocial behavior)
-                - visible differentiating factors (enabling others to identify them as similar/different)
-        - a data set that correlates gingers with crime would be balanced with data where that trait is not targeted for oppression (is it associated with more crime in Mexico too where theyre given more power than average - what about where its not noticed/targeted at all, like a community of gingers)
-        
-      - a good AI would identify relevant causal concepts (depending on the data set) like:
-        - positive concepts of health, social skills, intelligence, strong relationships as factors in success that can offset the negative concepts associated with oppression
-        - negative concepts like stress, poverty, & gangs
-        - neutral relevant concepts like tech & science, which can be used to oppress or liberate
-
-      - a good AI would infer that this was a complicated problem requiring conceptual analysis by the complexity of language & variation in social interactions or language progression, which would give it information about how new terms develop (to categorize & identify oppressive behaviors, often using comedy, so those behaviors can be stopped) and how they propagate (used by oppressive groups for profit, leading to self-awareness), giving the AI information sufficient to infer the concept of oppression
-
-      - a really good AI would identify causal structures like causal loops in the data:
-
-        - example: 
-          - oppressing a group by an irrelevant factor like hair may upset members of that group, which may either cause members of that group to develop social skills like emotional regulation, or do crimes
-          - this creates a self-fulfilling prophecy in the form of a causal loop: the hair used to be irrelevant, until they were oppressed for it and reacted to that oppression in a negative way, which made the oppressors think they were right, and may make oppression continue
-        - it would also isolate strong causative anti-crime factors like emotional regulation, which will have some different signs & problems (lack of emotional expression, signs of intelligence, signs of stress to correct other people's problems)
-
-        - it would also generate its own standardized language to generate/infer/associate concepts:
-          - 'emotional regulation' would be translated to 'irrelevant status change signal response regulation' by a very good AI that can process concepts & apply standards
-          - once that concept is formatted that way, it can infer structures to look for like facial expressions & chosen status signals, without knowing about them
-          - the concept of 'emotional regulation' can be inferred:
-            - 'status change signal responses' that are identifiable by other agents
-
-          - 'status change signal responses' (emotions) can be inferred from core concepts like 'status', applying 'change', and 'information processing' or 'communication', as well as 'stress' and the associated concept 'stress handler', identifying a 'status change signal' as a stressor
-
-          - once concepts are generated & standardized in this way, other concepts (like 'intelligence' or 'oppression') can be fit into this standard & the meaning of each concept identified quicker
 
     - energy stored in information/structures has stability physics, where information in a certain structure can support other information of different structures, including structures allowing variation in change/potential
 
@@ -338,102 +105,6 @@
       - commonness/similarity to patterns (focus on common patterns)
       - similarity to other data (isolate anomalies)
       - reducing equivalence from randomness (isolate non-random processes that follow rules)
-
-    - efficiency in calculation
-      
-      - why is finding a proxy value (that is a multiple of 10) of a multiplication value quicker at some multiplication problems?
-
-        - because of the efficiency present in applying the definition of a digit (base 10), which may make multiplying 65 * 10 and subtracting 65 quicker than multiplying 65 * 9,
-          - the operation 65 * 10 just involves moving 65 one digit to the left and adding a zero
-          - subtraction is held to be less computationally expensive than multiplication
-        
-        - the definition of a digit positions multiplication output of base 10 in a sequence that allows indexing of values in comparison to 10 & degrees of 10
-        
-        - how to find the "definition of a digit' as a relevant object in all the objects of that space
-          
-          - filter: by noticing that:
-            - multiplication changes positions of numbers in some cases
-              - relevant concepts to number position
-                - 'digit'
-                - 'base'
-            - multiplication preserves the original numbers in some cases
-            - the original problem can easily be transformed into one of these cases (multiplying numbers rounded to an output of multiplying by 10), and easily converted back into the original problem (adding/subtracting remaining value)
-              - these two operations may be less computationally expensive than the multiplication operation
-          
-          - query: in order to notice the above relevant objects, you can do the queries:
-            
-            - change interface: 
-              - find variables of value changes and change types (value position change)
-              - static/anti-change (apply 'not' operator or 'lack' problem type to 'change' concept):
-                - find cases where change types dont apply (value position preservation and value preservation)
-                  - find method of translating problem to case where work is minimized, if work-maximization conditions dont apply
-                    - find secondary method to connect translated problem back into original format (with original parameters, meaning adding/subtracting remaining value)
-            
-            - intent interface:
-              - intent of preserving values is to minimize work of calculation
-                - find cases where work is maximized by preserving values
-                  - filter by whether work-maximization conditions apply
-                    - apply method of translating problem to case where work is minimized, if work-maximization conditions dont apply
-
-        - in other words, the original question is 'why do value position & digit base produce calculation efficiencies in multiplication?'
-          - because position (and emergent objects of position, like sequence) matters, as adjacent values have inherent relevance/meaning
-            - 1000 has more meaning in some contexts than 1, and the second one in 1101 has more meaning than the 1 next to the decimal in some contexts, or in a default definition of 'meaning' as 'value' or 'distance from origin', except with definitions where the definition of meaning is a concept like 'clarity' or 'unit' or 'standard'
-          - difference from base values is another way to measure relevance in values having position
-          - the more different a multiplier is from 1, the more relevant these digit-based adjacent values become in optimizing the multiplication process
-          - important metrics of relevance:
-            - value position difference
-            - non-zero value position difference (distribution of non-zero values in multipliers)
-            - value difference from zero
-            - value difference from adjacent digit base multipliers
-            - difference in calculation operations between digit base multipliers (move position operation) & original multipliers (multiplication operation)
-
-          - intent-matching:
-            - intent-change
-              - the intent is to change position of a value, there is an efficient operation to accomplish that intent (move value position) if the inputs qualify given the base standard
-                - difference in multiplier value position = value position difference source, if difference between inputs & digit base requirements are negligible
-              - this is how you can frame a math problem on the change interface, framing the differences needed (intents) with the input differences (variables) and other relevant differences (differences from standards)
-              - an efficient solution is one that minimizes use of costly functions like transformation operations (maximizes use of adjacent resources or other efficient methods)
-                - so the inputs to an efficient solution will minimize the difference type that is 'input differences'
-                - efficiencies minimize differences/difference types needed to achieve an intent in general (an efficient alternate route may use fewer steps or lower-cost steps than the default route)
-
-          - these differences align in a structure that clarifies the increase in value from using digit base multipliers followed by conversion to original multipliers
-            - if a multiplier fulfills the threshold values of these operations on the difference types:
-              - maximize (value difference from zero) + minimize (value difference from adjacent digit base multipliers) + minimize (non-zero value position difference)
-                = minimal difference from efficient calculation (multiplying digit base multipliers)
-            - the solution structure points to the alignment of these differences:
-              - use methods (convert to digit base multipliers) that allow the use of position operations (move position) rather than more expensive operations (multiplication)
-
-            - how could you derive efficiencies if you didnt already know that using a digit base multiplier was lower-cost than using the original multipliers?
-
-              - you can apply definitions of objects to other definitions, and check for conversion adjacency to those objects
-                
-                - examples:
-
-                  - find difference/change types (like differences in variables like bases, adjacent transforms)
-                  - apply aligning structures of difference types
-                    - difference from digit base multiplier (multiple of 10) aligning with value position difference operation (move)
-                    - (difference from common base) combined with (difference from common base) = exponent addition/subtraction 
-                  - apply a pattern to a parameter set
-                  - apply an average operation to a function
-                  - the points formed by factors of a number that align with the digit base form a pattern of efficiencies in multiplication intents for certain original multiplier sets
-                  - apply transformation sequeence:
-                    - standardize to common interface (in the form of a common base value)
-                    - find derivative/slope
-                    - this transformation sequence identifies the difference type of a constant difference between exponential values of a multiplier (4 ^ 0, 4 ^ 1, 4 ^ 2) once transformed to derivatives, constants being easier/more efficient to work with than other value/function types
-
-                - youre looking for object intersections or object patterns that share resources in some way and reduce costs for each other by interacting
-                  - this means you want to focus on combinations that increase the likelihood of interactions with other objects, just like the base number 10 has interactions with value position (digit definition) & the move operation, and multipliers having a common base having interactivity in their exponents
-                  - youre also looking for shared spaces that can act as interfaces (common bases, formats, standards) where calculations are more trivial (addition rather than multiplication) because the values are already standardized
-                  - operations may develop on these shared spaces, leading to efficient object interactions
-
-              - you can also start with a set of unit or efficient operations and build functions out of them that iteratively fulfill higher & higher intents
-              
-            - how to derive efficient operations in the first place:
-
-              - identify when there are alternate paths to an answer (65 * 10 = 650 * 1) while changing a minimum of other variables (having the same number types, like integers), and check if alternate paths are lower-cost, and in what cases (ratio of cases, common cases, etc)
-                - a variant of this is identifying that multipliers share a common base, which has another calculation efficiency in the application of addition/subtraction to exponents instead of multipliers
-                  - example: 64 * 16 = 4 ^ 3 * 4 ^ 2 = 4 ^ (3 + 2)
-                  - if you dont need the result of the operation or can standardize other relevant values to that base, you can keep it in this format instead of executing the operation 4 ^ (3 + 2)
 
 ## examples
 
@@ -567,3 +238,68 @@
           components = compounds, symptoms, treatments, metrics, conditions, stressors, types, variables
 
     - update links
+
+    - integrate archive_notes/finder_info/functions
+      Terms:
+      - objects: a data set, function set, attribute set, class definition, type hierarchy
+      - attribute value: value held by the attribute like True/False
+      - attribute property: conceptual metadata property of the attribute like unique, identifier, static, etc
+      - decisions:
+        - choosing to execute one section of code over another; 
+        - for example a conditional statement, design patterns, emergent usage/behavior 
+          of user/system, bugs, assumptions, & possible input values are decisions since
+          they may result in calling different code
+      - relationship types: sub-type, causal factor, cooperating equal, different version
+      - strategy: rule used to make decisions, possibly for a particular context
+      - solution: strategy implemented for a particular context & problem type
+
+      Abstract functions to code:
+      1. identify an attribute of an object (lookup definition of attribute, create logical tests based on definition)
+      2. identify & list all attributes of an object (database table fields)
+      3. identify & list all rules related to an object (entries in 'functions' database field)
+      4. determine if an attribute is new or fits into an existing attribute & whether its an ancestor or descendant of other attributes
+      5. add an attribute to a list of attributes of an object (add column to table)
+      6. identify all possible values of an attribute (alphanumeric, numbers, a value from a list)
+      7. identify all rules defining the list of possible values of an attribute (max length, string data type, contains limited characters)
+      8. identify all possible properties of an attribute (static/regularly changed, required, unique, identifier, causal, determines other attributes)
+      9. identify attribute/rule/type/object relationship rules (attribute A is used to calculate how attribute B should be updated or deleted)
+      10. identify rank/priority of attributes used to make decisions like classification in entity group, identification of unique entity
+      11. classify a field as a particular type (by category or data format or other identifying or deciding attribute having multiple possible values)
+      12. build a class definition 
+        - retrieve any known rules describing the object's interactions
+        - build a list of probable attributes which could be inherited from type ancestors or shared with other objects interacted with in rules
+        - retrieve the type hierarchy position based on attribute/rule similarity to ancestors/descendants
+        - filter possible attributes by which attributes can be used to identify it, which will be tagged with the 'required' property
+          - identifying attributes are those that maximize variance
+        - retrieve the values for these attributes required to qualify as an instance of the class
+        - assemble attribute-identification functions for each attribute if not already in database table 'functions'
+        - derive any additional interaction rules to describe interactions with other objects (if interaction data is available)
+      13. convert data from one format to another
+        csv/graph to database, csv to graph/functions, functions to patterns/objects, log to csv/database
+      14. identify data relevant to the same object
+      15. prioritize which version takes precedence over other versions (updated more recently, better design, etc)
+      16. determine intent (of data, function, design, convention, protocol, decision, change)
+      17. identify a change that should be entered into the 'functions' table as:
+        - a 'conversion' function type, which converts from one usable format to another
+        - a granular 'operation' function type doing a single operation on an input
+      18. identify a pattern 
+        to store in the 'functions' table as a 'pattern' function type
+      19. identify which operation or combination of operations can convert one object into another
+        to know which linking changes to look for when trying to connect two objects
+      20. derive a relationship using list of possible operation sets that convert an object into another or explain their interaction rules
+        - identify if one object is a sub-type, causal factor, cooperating equal, different version, etc of the other object
+      21. identify if a relationship fits into an existing network or if it contradicts a relationship in the network
+      22.identify if a strategy is a good fit to compress a problem & addresses its causal metrics without causing bigger problems
+      23. compare two input objects & return a list of similarities & differences,
+         as well as possible inferred similarities based on network position with probability,
+         and a list of ordered functions to convert one object into the other
+         - raw % difference between attribute values & attribute properties
+         - weight of attribute value differences based on attribute priority
+         - create attribute-rule network graph for each object & calculate raw degree of difference
+         - identify equivalent attributes & weight degree of difference between them & their corresponding relationships across graphs
+         - check equivalence of composite scores
+      24. identify minimum information needed to make a decision (identify required inputs to make the right decision 100% of the time)
+      25. identify operations to attain minimum required information (generate required inputs for decision)
+      26. optimize code (spot inefficiencies in code & fix them automatically, like redundant conditions)
+      27. identify field usage/query requirements in UI, request data, & code base
+        ex: 'code commonly queries by name field so create a separate index for that'
