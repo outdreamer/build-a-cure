@@ -88,7 +88,6 @@
         - "object.attribute1 = 'value' means "users can configure a variable that they will probably have different preferences on that will not add excess complexity or vulnerability to the system"
         - 'what does it mean' translates to 'what structure does it have in a relevant system' (such as relevance to users' system of use cases & preferences), or 'how does it fit within this system'
         - functions/libraries/applications should be indexed by meaning so they can be fit into a global function system across applications ("we're building this app because there's a need for this degree of difference given user intents, which means there is a mismatch in supply & demand for that market")
-
       - 'responsibility' as a software concept to align with 'intent', to tie functions to input/processing/output resources/processes and the associated tasks, like cleaning up resources, deleting temp resources, optimizing a memory store, setting a cache, resetting a timer, changing permissions, etc - as a method of correcting incomplete functions
       - 'integration' as a software concept to calculate interface metadata for integrated functions forming an app/site/workflow
       - this is analogous to how there are intrinsically related info object dependencies, like:
