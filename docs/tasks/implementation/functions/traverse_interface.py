@@ -201,6 +201,7 @@
               5. convert to original system format (input information format) 
                   - integrate causal structures found with the input information, checking for validity of the structures & their related objects once integrated with the input information
                   - integrating output into a structure relevant to the requested intent (on the meaning or interface-interface), which involves applying structure to the output information, as designated in the interface query design
+            
             - this function implements traversal by applying interface components (like functions/attributes/objects) of a certain type (like core/common) in a structure (like a sequence) such as: 
               - applying core/common/generative/cross-system components (like functions) first 
               - applying insight/intent interface first 

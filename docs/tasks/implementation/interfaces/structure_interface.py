@@ -128,10 +128,11 @@
           - identify layer to solve a problem at 
           - identify key objects needed to solve a problem 
           - identify structures for information 
-      - market structure analysis
-        - the market interface is a standard interface where resources (goods, labor, time, risk, information, expectations, theories, & stored prior labor (currency)) are traded
-        - a useful new way to use this is to frame non-resource objects as resources (systems, structures, positions, paths, directions, risk chains, trade loops, markets)
-        - then you can apply traditional market analysis (optimal transport) to find, for example, the optimal set of trades to change an industry's position
+      - example: 
+        - market structure analysis
+          - the market interface is a standard interface where resources (goods, labor, time, risk, information, expectations, theories, & stored prior labor (currency)) are traded
+          - a useful new way to use this is to frame non-resource objects as resources (systems, structures, positions, paths, directions, risk chains, trade loops, markets)
+          - then you can apply traditional market analysis (optimal transport) to find, for example, the optimal set of trades to change an industry's position
       - for a problem of type 'conflict', like vectors aiming at a corner of a closed shape (where the shape is formed by the intersections of limiting attributes), the structural way to solve that problem is:
         - reducing the angle of the corner 
           which reduces the difference between corners (and the incentive to aim for a corner) & adds extra alternatives

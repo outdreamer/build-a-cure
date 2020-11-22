@@ -74,6 +74,7 @@
       - function to identify extra variables having patterns that if included in independent vars, can explain y's or other dependent vars
         - example: if you add a random sequence or a sequence with some similarity to another column (indicating an independent but coincidentally similar value), and it increases variation explained in the data set, you might have a more simple, homogeneous system that has similar core functions used across positions/layers/other subsets (square container producing triangular shapes of components inside corners), or you might have a very complex system that generates a variety of objects within a certain range (cell surface structures having similar shapes across very different cell types)
 
+
       - function to identify/analyze variables as change sources (and alternatively as potential/uncertainty or information/certainty sources)
         - what type of variable is it? (object-differentiating/identifying attribute, emergent specific/abstract property, direct function input/output) 
         - how does the variable relate to other variables? (decisive metric, substitutable alternative, collinear) 
