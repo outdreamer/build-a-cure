@@ -11,6 +11,13 @@
     - this interface can be used for specific attribute analysis, of properties that descend from concepts & take form in a specific problem space: 
       - the power concept interface (has structures that look like trust, info, etc) 
       - the balance concept interface (has structures that look like symmetry, justice, etc) 
+  - examples:
+      - structures that apply a concept are depicted in FIG. 17 (Match structure for a definition of a concept), which depicts structures of the 'distribution' and 'power' concepts. 
+        - In the example 'distribution' function on the left of Fig. 17, a distribution function (that implements conceptual attributes like balance) is depicted, which may produce the Balanced Info Distribution example output from the Standard Info Distribution input.
+        - In the example concept structures, such as the 'power' concept structures, on the right of Fig. 17:
+            - a 'delegation' power structure is depicted, which indicates that information is sent to other entities for processing work.
+            - a 'derivation' power structure is depicted, which indicates that no information is shared except derivation tools.
+            - a 'delegation of derivation' power structure is depicted, which indicates that all entities delegate to entity with no caching/data retention power, only processing power.
   - objects (abstract network of structural, irreducible cross-system concepts, like power, balance, etc) 
   - structures (abstraction layer (level of specificity/certainty in a structure), systems where the concept fits as an interaction object, trajectory to generate the concept in conceptual networks) 
   - concepts: definability (how clear is the definition, given the level of structure like context applied, making a concept concrete rather than abstract) 
@@ -19,6 +26,21 @@
     - function to quantify conceptual potential (how much change it can enable) and core operations on conceptual potential, & where potential objects occur or where they fit in to those operations
     - function to identify/derive/define concepts in a system (unique objects in a system that cant be defined in terms of standard operations on other objects) 
       - example: 'meaning' concept definition (relevance/structure) is based on attributes like reduction of signals (relevance) and matching of signal structures (similarity) 
+      - example of possible definition routes for the concept of 'equality' are given in FIG. 16. Alternate definition routes 
+        - FIG. 16 depicts an example of alternate structural definition routes for 'equality'.
+            - For a concept like 'equality', the structural definition routes (standardized language map trajectories) may include:
+                - interchangeable (similar enough to be usable for the same trajectories (functions/intents))
+                - minimally distant (adjacent enough to be usable for the same trajectories)
+                - efficiently convertable (convertible with sufficiently minimal work as to be usable for the same trajectories)
+            - For another example, the definition routes for the 'power' concept may include:
+                - structural definitions: alternatives, connection hub, input
+                - concept-structure definitions: potential, change potential, change activation, truth source, truth access point/path (power being formattable as information)
+                - concept definitions: freedom, independence
+                - info definitions: energy
+            - The alternate definition routes for the 'truth' concept may include:
+                - ratio of information you need to ignore to make something seem true (low number of required conditions being an indicator of truth)
+                - ratio of successful usages (repeated usability, or robustness)
+                - ratio of fitting contexts (fit with other truths)
     - function to identify abstract concepts, by attributes like whether they: 
       - can take many structures (the concept of equivalence has many possible implementations) 
       - can impact many systems varying by system attributes or system types (abstract, calculatable, variable, understood, types, functional, prioritized, optimized) 
