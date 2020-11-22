@@ -318,3 +318,207 @@
                 - concept: a function to identify concepts given their definition & a system network (either structures applies to abstract concepts - or useful combinations of objects, functions, & attributes that are causative or interfaces in a system) 
 
 '''
+
+'''
+      - on this index, problems are mapped to structure, once problems have been converted to an information problem, which has a clear mapping to the structural interface 
+      - problems can be framed as info problems (missing info, conflicting info, unconnected info, mismatches, imbalances, asymmetries) 
+      - different problem types have different default problem shapes 
+          - example problem type shapes: 
+              - finding a prediction function can be framed as an optimal path in a network of variable nodes 
+              - conflicts can be vectors with different direction or which overlap 
+              - a misalignment problem has at least two vectors differing in direction, where the optimal alignment is calculatable or at least the alignment is clearly improvable 
+              - a variance injection problem has a opening in a closed system 
+              - an asymmetry has an uneven resource distribution 
+            - if a problem has a misalignment problem and a variance injection problem, the problem shape can have both shapes in isolated analysis, or they can be merged, applied, added, mixed, intersecting, or combined in another way 
+          - example solution shape for problem shape: 
+            - for a misalignment problem, the solution shape would be: 
+              - a vector aligning them 
+              - another adjustment to the system that makes the existing misalignment a correct alignment 
+              - a combination of the two 
+            - for a variance injection problem, the solution shape would be: 
+              - an object (resource, function, constant) to close the opening in the system 
+              - an object to prevent further variance injections 
+            - for an asymmetry, the solution shape would be: 
+              - an optimal transport operation set to distribute the resource optimally according to the metric of symmetry 
+      - this analysis involves: 
+        - identifying the given problem & solution target structures in the problem space & the related problem network, so the problem & solution can be visualized 
+        - identifying & anticipating problems in a system, which optionally includes identifying problem structures (inefficiencies, conflicts, etc) that exist or could emerge 
+          - example: in the bio system, DNA regulation functions don't prevent pathogens from injecting DNA or mutations from occurring, so if the program derives the concept of a pathogen or mutation without already having that definition available (using core system analysis), the program could predict that the current DNA regulation functions wouldn't be able to offset the changes exacted by those concepts & the program could predict problems of DNA disregulation in the bio system before they occur 
+    - functions: 
+      
+      - mapping function, to map objects to structures, functions, & other object types 
+          - graph an object, like the example problem space visualization depicts a problem space object & problem objects of the problem space in FIG. 6
+            - FIG. 6 depicts a problem space of building information technology with differentiating attributes like Resource Limits, Standard, & Priority, including problem objects indicating problems (like Finding or Derivation problems) that exist in that space & differ in those attributes.
+          - graph a related object network (as shown in FIGS. 6 - 7) & other relevant objects 
+            - FIGS. 6 - 7 contain a network system relating relevant problem objects. 
+            Problems like info problems, pattern problems, & derivation problems are adjacent (similar) and have similar dependence structures, because they are alternatives, and act as interfaces in hte problem network.
+            The resource limits, priority, and standard generating the problem space of info problems & related problems might be limited derivation technology resources, a priority to find rather than derive information, and a standard information format.
+            Other variables that can determine the shape of a problem space include other interface objects (a problem generating the problem space, unanswered questions, perspectives, default structures, attributes like relevance, etc). 
+            Resourcs can refer to any object potentially having value (information, technology, information-derivation protocols like science, social resources, physical resources, time, etc).
+            Priorities can narrow the focus of the problems or incentivize motion in a particular direction - like a priority to acquire resources, a priority to distribute information or rights, a priority to respect existing laws, etc)
+            A standard applied to the problem space can mean a format, a particular definition of a concept like similarity, or a reducing function that isolates particular attributes, like how cause narrows the focus to dependency relationships, inputs & outputs.
+                
+          - function to apply an object to another object, as shown in FIG. 5 (Structure Application Function - Apply Function) 
+            - example: applying a 'route optimization' solution may take the form of adjusting the system structure to invalidate the route, may attach a function to nodes, or inject an efficiency structure to the system, which may also reduce the problem dimensions in the problem space visualization in addition to changing the system structure in the associated visualized system-structure interface format of the problem. 
+            
+            - FIG. 5 depicts the application of a solution to a problem space (standardized to the problem interface) in the top left, specifically the solution of adding an efficiency to the system, which reduces the problem dimensions (like resource limits), leading to smaller problem objects & decreased distance between problem objects.
+            - It also depicts the application of a solution to the problem-containing system format (standardized to the system interface) in the top right, specifically the solution of adding an efficiency (like an alternate charging station in between nodes, or a position-switching function to each node) to the system, which removes the need for an optimized route between A & C.
+            - Below these two examples, on the bottom half of FIG. 5, the figure depicts an example of applying the structural definition of an information function to information. This solution applies the structural definition of the Allocation function (in which information is distributed to other system positions), to the Input Info Distribution structure, to produce the Allocated Info Distribution structures. 
+            - The Allocated Info Distribution structures are structures of examples of two solutions: Solution 1 applies the 'allocate' function to both information resources, and Solution 2 applies the 'allocate' function to unique information resource.
+            
+          - each format is better for different information, problem types/formats (with varying structure in the problem definition) & solution intents, but if the user has a particular required solution format, they may need to translate a sub-optimal problem format into one associated with that solution format 
+          - each format involves a standard form like a set of vectors (which may represent a set of database/interface queries or insight paths, info objects like questions/insights/related problems, decisions/actions, causes/explanations, steps like removal/addition of variables, directed structures like distortions/intents, etc) which may be applicable in the interface network to retrieve/connect information, or in the problem space to reduce a problem shape, move around problem components to change the problem, or traverse a route in the problem network system (not necessarily the network of related problems, but the problem framed as requiring a solution route within a network) 
+          
+          - functions to match & select a problem-solution connecting format trajectory 
+          - break the problem space into sub-problems, that can execute their own interface traversal & solution-matching process to find sub-solutions  
+          - find a structure to combine solutions & combine sub-solutions to create the origin problem's solution, once the sub-solutions to sub-problems are found 
+          - example logic of function to break a problem into sub-problems, shown in FIG. 12 (Network of problem sub-problems, breaking a problem into component problems) 
+            
+            - this logic includes functions to decompose/aggregate problems/solutions (as shown in FIG. 12, Network of problem sub-problems, breaking a problem into component problems) 
+                1. decompose a problem into sub-problems
+                2. solve sub-problems after the decomposition
+                3. identify structures to combine sub-solutions
+                4. apply structures to combine solutions & test combined solution output
+            - The initial split of sub-problems is indicated in the boxes under the original problem statement, which is 'find a prediction function for a data set'. 
+            - The subsequent splits of sub-problems are indicated with the connecting operations creating the splits in between the shapes inside the sub-problem boxes.
+            - The bottom half of FIG. 12 indicates a logical solution aggregation structure, which depicts the logical method of aggregating sub-problem solutions into an origin problem solution, formatted as a directed network.
+            - The sub-problem aggregating network on the left of the bottom half of FIG. 12 begins to resemble a sub-problem solution aggregating network on the right, with solution details such as requirements, queries, & operations applied.
+            - This solution-aggregation structure can be applied to sub-solutions (like by positioning causative sub-solutions before filtering sub-solutions), given the logic establishing precedence (logic derivable with iother interface objects, like using logic interface analysis indicating that requirements establish sequence of conditions, or causal interface analysis indicating that inputs establish direction of causation, since filters can be applied on info, so info is required to use the filter). Because causal structure & generator functions (core functions, variable/component combination functions, base-distortion functions, etc) are alternate solution formats of the origin problem, they can be merged & the output solution can be filtered for success solving the origin problem, 'find prediction function for data set'. 
+            - These sub-solutions can be organized by dependence (causal interface) or requirement (logic interface). The causal structures & generator functions can link the data set to an output function format. The function format produced by the causal structures (such as linking variables in a causal network to generate the prediction function) & function generators (such as an average base with distortion functions generating the prediction function) is an input format to the compare function that compares alternative solutions (prediction functions). Applying structure to combine sub-solutions can also be done with analysis from other interfaces (insights like 'connect formats by adjacent structures' or patterns like 'reduce complexity with standardization' or intents like 'find a sequence of solution formats matching this intent sequence').
+            
+            1. decompose a problem into sub-problems, using core functions like alternate/meta/find applied to problem objects (like how measurement is a core object of a solution, and the prediction function is the default solution object, and a variable is a sub-component object of the prediction function, and so on) 
+              - an example is breaking a problem into a problem of finding core components & arranging them in a way that passes filters formed by its solution requirements 
+                - a requirement of a function that follows another is a possible match of input/output, if the functions are dependent, rather than relatively independent functions (occupying different function sequences), thereby translating a requirement to a filter that can be used to reduce the solution space to only function sequences that have matching inputs/outputs. 
+            2. solve sub-problems after the decomposition 
+            3. identify structures (like a sequence containing combination operations, or other combination structures like an unordered set, or filters) to combine solutions 
+              After sub-problems have individual solutions, the user needs a way to integrate the sub-solutions so they can solve the original problem 
+              - for example, once the problem is broken into a set of filter structures to reduce the solution space, the user needs a way to arrange those filters so their output generates the solution (so that the input/output of the filters match, & the sequence of filters makes progress toward reducing the solution space). 
+              - the positions of each sub-problem set can be derived using logical positioning. A generative set should be followed by a measurement set because the output of the generative set (prediction function generated) matches the input of the measurement set (prediction function to measure); this involves a basic input-output chaining operation as mentioned before. A causal set may identify missing information in a variable set to establish cause between variables - that type of structure (missing information) should be followed either by generating the missing information, and if not generatable, should be integrated into the accuracy/confidence/error metrics, as not being able to find the information required to solve the problem (creating an accurate, robust prediction function). 
+            4. apply structures to combine solutions & test combined solution output 
+              - function to convert/represent objects (like a system/decisions/problem/solution) as a particular format (like a set of vector trajectories across interfaces, or a function) 
+              - function to check if a structure (like a solution) fits/matches another structure (like input assumptions & limits or a solution metric) 
+              - checking if a solution matches a metric structure is shown in FIG. 11 (Finding alternate solution formats that fulfill different metrics) 
+              
+              - FIG. 10 depicts an example of object structure application, by applying a function to a structure containing an object to find specific object structures for that object).
+                - Specifically, FIG. 10 depicts an example of applying a solution function (like 'apply definitions of objects') to a structure (like a system or network) containing the problem ('optimize a route'), to find specific solution structures for that problem (like specific functions or routes).
+                - As an example, FIG. 10 depicts a route optimization problem structure, to optimize a route from nodes S to E in a system network.
+                - The first step in applying one structure to find another is finding & standardizing definitions.
+                - The FIG. 10 includes a route optimization problem definition, an efficiency definition, and a cost definition, which can be retrieved from a data store or otherwise found/derived/generated.
+                - The default problem structure (for the route optimization problem) can have many solution formats, which apply the definition of efficiency (like resource re-use) and the solution metric (cost-reduction and benefit-maximization to reach the end point from the starting point) to network structures (like paths & nodes), given that the default problem format is in a network structure.
+                - Standardize definitions: focusing on the cost-minimizing definition, and the structural definitions of cost, we can standardize definitions to arrive at a structural definition of efficiency by applying the structural cost definitions:
+                    - minimizing cost:
+                        - minimizing number of steps
+                        - minimizing complexity of step
+                        - minimizing distance of step
+                        - maximizing certainty of step (uncertainty is high-cost)
+                        - selecting for necessity of step (only select required steps)
+                        - maximizing reuse of step
+                        - maximizing abstraction of step (unless abstraction adds steps like queries)
+                - Apply definitions to find matching structures: as an example of applying the object definitions to translate the problem into a solution, now that we have a structural definition of efficiency, we can translate the problem from 'find a route between start & end points fulfilling a metric the most' to a problem of 'add efficiencies until cost is reduced'.
+                    - Translating the new problem to add more structure (making it more specific & executable) means changing variables like:
+                        - scope of cost (whether it reduces all costs or just a certain type of cost or just a cost on a particular route)
+                        - type of cost
+                        - type of metric calculation (how to calculate cost, cost definition, etc)
+                        - type of efficiency (applying structural definitions of efficiency to the network structure, like route invalidation (position start & end in adjacent positions), cost distribution (routes are equally costly), cost reduction (path-shortening, system organization), cost invalidation (routes are equally costly), etc)
+                        - logical & causal position of solution (create a cost-reduction generator or reduce costs for just this system)
+                        - whether to re-calculate optimized route at each application of additional efficiencies
+              
+              - function to compare & select between comparable solutions, optionally including selecting solutions based on input preferences selected (preferences like 'avoid using ML in solution', 'use a particular interface', 'use pre-computed solutions from database', etc) 
+              - functions to select/add/remove problem dimensions  
+              - functions to identify/reduce solution space 
+
+        - An example problem-solving automation workflow for a problem like 'find an optimal implementation of an intersection' (shown in application 16887411 Figs. 1F - 1I),  
+          using the system/structure/concept interfaces. 
+          1. Problem definition: determine possible match between the problem system intersection object and the system conflict object. 
+          2. Standardize the problem to the system interface 
+            - Apply the context of the default interaction defined for the intersection (agents crossing the intersection) 
+            - Apply structures of possible matching objects in the system interface to the problem object, by applying the structure interface: 
+            - components capable of interacting (they have a nonzero interaction space) can be formatted as a network 
+            - the position overlap is an example of a tradeoff, so the 'subset' structure is applied) - this can be applied iteratively to check for structures that can be organized/optimized 
+            - the antagonistic agent & diverging direction components are merged with the agent component, where the diverging direction structure is applied directly and the antagonistic agent component is implied by their mutual approach of the intersection 
+            - the ambiguity system object is inferred by the match of the ambiguity 'unenforced rule' definition route, which matches the 'agent traversal sequence' intersection interaction attribute. 
+            - Now the intersection's default interaction (agents looking to cross) is formatted as a network, and system objects like conflict (and its sub-components, patterns, objects, etc) have been matched & applied to the intersection interaction network. 
+            - This is a structure of a problem type - 'find traversal sequence conflict resolution rule' - and given that it matches a known problem type 'resolve resource competition', it's likelier to be possible. 
+            - The traversal sequence rule can be found by applying other agent & intersection attributes, looking for system & other interface objects like: 
+            - irreversible changes (in case one agent will change the intersection in a way that prevents other people from traversing it, like burning a bridge) 
+            - intents that are higher priority 
+            - intent alignments (both agents have an incentive to apply social norms to maintain rule of law or trust, so their intents can be aligned to follow social rules to determine who traverses first, rather than building new rules to determine this). 
+          3. This step identifies whether the output of the previous step creates information that is easily transformed into the solution metric, given the relevant objects/attributes/functions of the solution metric. Is it clear which agent goes first, or whether the intersection can be changed in a way that determines which agent goes first? 
+            - If the solution metric 1 is fulfilled, the agents have no antagonistic agent attribute & there is no trade-off because no variance from a decision is allowed at the intersection. 
+            - If the solution metric 2 is fulfilled, the intersection loses its position overlap attribute & the diverging direction attribute doesn't matter anymore, but it does have a decision function at the intersection. 
+            - If the intersection object with the system interface is applied can be easily transformed into having one of the solution metrics fulfilled, that transformation can be considered a possible solution. 
+    - objects (problem, solution, problem/solution space/network) 
+    - structures: 
+      - problem-solution formats (shown in FIG. 9 (Problem formats, with matching solution formats) & FIG. 10 (Problem-solution structure matching)) 
+        - a vector set is good for converting between problem-solution structures, like converting an inefficiency to an efficiency in a system 
+        - problem shape-reducing vector set (where problem variables form the shape) is good for finding a function that reduces shape dimensions & size (like to form a summary), or a vector set to combine solution components in a way that fills the shape structure, if the solution format is a method to fill the problem structure rather than reducing the problem shape 
+        - a route optimization problem has the solution format of a vector set between network functions/nodes (where nodes are states/problems/objects, etc) that is optimal in some way (hits a node/path, moves in a direction, minimizes cost of traversal, etc) 
+          - with a network of states, the route can be a route between states with additional routes traversed within each state to convert to the next one (set of market states & trades to achieve a market intent) 
+        - structure-matching can be a good format for finding an example, finding a reason, or finding a causal structure of variables for a prediction function 
+        - an misalignment or mismatch (like an inefficiency, a conflict, or an information imbalance), where the solution format is the set of structures (which can be steps/vectors or applying a pattern or finding a structure in a network) necessary to correct the mismatch (minimize cost, align priorities, balance the information) 
+        - abstract format of a query (break problem into information problem types and then the solution is a query of solutions for each of those solved problems) 
+    - concepts (anomaly, outlier, conflict, inefficiency, mismatch, inequality) 
+    - attributes: 
+      - number of problem-causing variables/solution metrics fulfilled 
+      - complexity: (number of core function steps required, variables, differences/inefficiencies, counterintuitive steps (requiring non-standard solutions), contrary processes (requiring scoped/nuanced solutions)) 
+      - abstraction (does it solve the same problem when framed on an abstraction layer above) 
+      - number of steps required to create problem from stable system base state, once work is standardized, & adjacence of steps required 
+      - how much work is required to convert to a particular problem format (route, combination, composition) 
+      - structure of problem types causing or forming the problem (number/position of information asymmetries, resource limits) 
+      - structure of information objects in the problem (decision points, variance sources, unanswerable questions of the problem, the structure of causes generating the problem if known) 
+      - type/intent ranges/direction (of individual objects or composite stack) 
+      - similarity (how similar to a standard problem type, or how near to limits within a type dimension) 
+      - ratio of positive to negative outputs (problems solved vs. caused) 
+      - inevitability vs. agency of problem cause 
+      - agency involved in the problem 
+      - problem types
+        
+        - FIG. 8 contains examples of problem types & associated example structures.
+        - On the left of FIG. 8, structures for core problem types standardized to various formats are depicted.
+        - An example Info Asymmetry problem structure is depicted in FIG. 8, which is an imbalance in information (when depicted in an information format) or position (when depicted in a system format).
+        - An example Intersection problem structure is depicted in FIG. 8, which indicates a problematic intersection, like vectors that shouldn't interact.
+        - An example Conflict problem structure is depicted in FIG. 8, which indicates a conflict structure, such as the problem of selecting between alternatives, or the problem of conflicting vector like intents
+        - An example Independence problem structure is depicted in FIG. 8, which indicates an independence structure, such as orthogonal directions of change.
+        - An example Dependence problem structure is depicted in FIG. 8, which indicates an example dependence structure, such as where one attribute is determined by another which is used as a standard.
+        - An example Inequality problem structure is depicted in FIG. 8, which indicates an example inequality/mismatch structure between a solution (like a square shape) and a solution format (like a circle format).
+        - An example Information Inequality problem structure is depicted in FIG. 8, which indicates an example structure of an inequality of information, when formatted on the structural-information interface, rather than being formatted on a structural interface one layer of abstraction above it.
+        - An example Extra Dimension problem structure is depicted in FIG. 8, which indicates the structure of extra dimension added by integrating a circle across a vertical dimension.
+        - An example False Limit problem structure is depicted in FIG. 8, which indicates an example structure of a limit, such as a corner organizing change in a direction.
+        - On the right of FIG. 8, structures of problem types that may be generated with (operations like 'combine') are depicted.
+        - An example Organization problem structure is depicted in FIG. 8, which indicates an example organization structure, such as finding the right interaction layer to frame an interaction on, or resolving a mismatch/misalignment/imbalance is an organization problem space, where there are clear optimal structures for a certain interaction.
+        - An example Inefficiency problem structure is depicted in FIG. 8, which indicates an example inefficiency structure, such as navigating up an abstraction layer when there's no reason to do so.
+        - An example False Assumption problem structure is depicted in FIG. 8, which indicates an example false assumption structure, such as starting from the wrong starting point, or assuming there is a required starting point, or using over/under-restrictive limits.
+        - An example False Similarity problem structure is depicted in FIG. 8, which indicates an example false similarity structure, such as similar shapes that can develop with independent causes & contextual impact (for example, the appearance & behavior of a square between circles vs. an actual square).
+        
+        - dependency/fragility 
+        - mismatches 
+        - conflicts 
+          - intersection/collision 
+          - comparison 
+          - coordination 
+          - competition 
+          - conflicting direction/misalignment 
+          - incentives/intents 
+          - expectations/potential 
+          - requirements/enforcement 
+          - intent mismatch, like an unintended use (involves integrated third party tech not under review), like unintended side effects: whether it's a closed system or leaks variance (example: pre-computation, memory access, or process re-start event) 
+          - misidentification  
+          - incorrect structure (metric, information position, or organization/format) 
+        - imbalances/inequalities (misdistribution of resources) 
+        - inefficiencies (unmaximized benefit/cost ratio, such as unnecessary complexity/work) 
+        - gaps 
+          - missing information 
+          - ambiguity (example: ambiguous alternatives) 
+          - gap in rule enforcement 
+          - gap in boundary (example: leaks (variance, resource/info), and injection points (assumptions/variance/control/randomness)) 
+        - limits, such as enforced rules, or limited resources/functions 
+    - related objects: 
+      - questions 
+        - questions answered: this analysis definition answers questions like: 
+          - what are the problems (inefficiencies, conflicts, mismatches) in this system 
+          - what solutions are associated with this problem type 
+          - what problems are related to this problem 
+          - what problems will develop in this problem space system 
+          - what is the probable cost of solving this problem 
+          - what is the adjacent format of this problem 
+'''
