@@ -10,12 +10,28 @@
         - like all other sets of objects on an equal interface, any item in the set can be used to find the others
         - in a set of (4, 6, 2, 3) you can start with 4 to find 2 or 3 to find 4
 
+        - logic executed on interfaces fulfills the input intent task on the input information, extracting formatted information (like solutions, functions, meaning, & insights) from input information
+          - applying an interface standard to information
+          - finding & building logic for an intent
+          - applying structures to information operations (which enables analysis automation)
+
+        - use interface analysis workflows, standardizing interfaces & custom logic automation for constructing a interface analysis system, enabling the 
+          - identification of information in the format aligning with the input intent
+          - execution of structural information tasks fulfilling supported intents with information found/derived/generated on interfaces once input information is formatted for analysis on that interface
+          - automate formatting/filtering output information for an input intent task & information
+          - interface analysis may lead to output information for the intent, such as the cause of a variable, a set of recommended steps, or a list of organized priorities
+          
       - interface: 
         - an attribute that highlights differences within a limit when objects are reduced to that attribute, using it as a standard for comparison, that filters out attributes that dont fit its definition
           - gaps in known rules allowing filter to be applied to objects that can occupy the gaps, to identify variance nodes
         - each abstract interface (concept, cause, intent, structure, etc) can describe other abstract interfaces (you can use the concept interface to describe the cause/system/pattern interfaces, etc)
         - interfaces should resolve to a network or other structure when their variance is exhausted
+        - a information-filtering standard/format where cross-system change occurs
+        - a useful standard for comparison consisting of the filtering object's definition routes, conversion function, core functions, objects, & attributes, and related objects like patterns & metadata specific to the interface  
+            - the traversal of an interface implies mapping input information to interface components 
+            - interface operation act on interfaces themselves (like application, combination, mapping, or injection of an interface) 
 
+        - interface components: definition routes, conversion function, core functions/objects/attributes, and related objects like patterns & metadata specific to the interface
       - can generate an interface by the combinations of variables that minimize & maximize change (filters to remove common information to leave differentiating information for comparison)
 
       - interfaces that capture change types: 
@@ -460,7 +476,29 @@
           - when selecting a default, you should be checking for attribute matches (does a whole object make sense to describe a set)
           - the idea of a whole number may describe something that doesnt exist in 3-d physical reality - does that mean its a concept that will never occupy a form, or is it a goal physics will move towards, or it causally independent from other systems or interfaces that are known, or it evolves as brains can measure information
 
+        - includes assessment of:
+          - which interface maximizes the value (calculated as a combination of metrics like specificity, uniqueness, differentiation potential) of the given & directly inferable information, 
+          - which interfaces should be traversed in what sequence
+          - whether interfaces should be applied to other interfaces with interface operations (applying the conceptual interface to the structural interface for example)
+          - alternate default interface trajectories may be determined to be optimal using analysis of previous queries run on the solution automation module, if the user configures the program to self-optimize in the GUI, such as starting from an interface that generally solves the problem of a certain type more quickly, which is determined by querying the insight table pre-traversal once the problem type is identified, as opposed to searching for new solutions or optimizing known solutions for that problem type, or converting problems to a problem type with many known solution methods, like a route optimization problem. 
+          - Alternatively, if no optimal origin interface is determinable, use the standard origin interface, sequence & query, which may be: 
+                  - start from origin system interface, checking for components fitting the object, attribute, & function interfaces (as well as structural interfaces & objects frequently found in systems like symmetries and equivalences), applying the insight interface where there is uncertainty and the pattern interface where the insight interface cannot reduce uncertainty. 
+                  - it may not be clear which interface should be the origin interface, in which case multiple processes can be run if allowed by user configuration (for example, if they selected 'performance' as a metric to optimize, meaning the user requests a quick solution, multiple parallel processes wouldn't be allowed), and may periodically stop and check if the other process has useful information or is nearer to the solution, at which point the slower process can stop. 
+                  - this step may use a standard interface origin, sequence & query, if none are determinable from the problem statement - a standard interface origin, sequence & query which may be similar to: "start from origin system interface, checking for components fitting the object, attribute, & function interfaces (as well as structural interfaces & objects frequently found in systems like symmetries and equivalences), applying the insight interface where there is uncertainty and the pattern interface where the insight interface cannot reduce uncertainty". 
+                  - alternate default core interfaces may be selected than the abstract interfaces such as function, system, type, etc. Some embodiments may organize these interfaces by type, so that function/pattern/insight/strategy are all stored as sub- interfaces of the rule interface, and the same for information/structure/math being related interfaces with minor transformations. 
+          - origin interface selection process may also output a interface sequence and/or an interface operation to map one interface to the other, combine them, or apply one to the other
+          - origin interface may also be in the form of a query across multiple interfaces
+            - example: 'find patterns of associated solutions for this problem type, convert problem to patterns, & iterate through patterns, applying them one at a time to the problem pattern'
+          - different traversals are associated with different starting information and/or different problem type and/or different solution intent
+            - example: framing a problem on the change interface may help predict how the problem will change better than framing it on other interfaces
+
+        - example: 
+          - start from the pattern interface if there isn't enough information & then convert to the system interface by fitting the patterns identified into a system
+          - if it's a social problem, the best problem format is probably a system format, & starting traversal on the system interface to identify agent intents & incentives
+
       - function to calculate the interface query (set & order of filters/interfaces/standards to use to solve a particular problem)
+        - example queries:
+          - 'map the concept interface to the structural interface'
         - the position of interfaces is determined by intent of problem/solution and cost/optimization metrics and available information or testing/derivation (information capture/generation) resources
           - example: filter (function structure as a base) & prioritized focus & potential ranges
         - 'deriving core functions' can be converted to a set of filters in a particular order, just like a normal finding problem can
@@ -479,6 +517,12 @@
         - when the exploit, optimization, & variance opportunities have been exhausted using all possible combinations of components & core functions, so that the interface has fulfilled its potential usage
         - if there is external system variance, another interface may develop to host the remaining variance
 
+    - a function to map a definition as a set of routes on interfaces
+        FIG. 1I describes example structural component definitions, depicting a subset of the structural definitions of the conflict object.
+        The Resource Competition structure depicts an alignment of intent across agents in a sub-system of the conflict object.
+        Descriptive Ambiguity 1 depicts an example format of a decision sub-system, specifically the decision between equivalent or similar alternates in different directions.
+        Descriptive Ambiguity 2 depicts an example format of a decision sub-system, specifically the decision between equivalent or similar routes.
+    
       - interface compression function:
         - interfaces may devolve to their abstract forms once a particular implementation is fulfilled (once the interface definition is complete and cannot host additional change)
           - type :: combination (combination of attributes)
