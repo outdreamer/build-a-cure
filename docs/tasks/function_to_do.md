@@ -2,6 +2,8 @@
 
   - make interface query output diagram
 
+  - to handle intellectual property theft, offer IP/patents as a product/service (implemented as a licensed usage) to IP thieves at a lower cost than IP theft costs, where important IP like medical research is offered at a subsidized discount, to encourage different competitors trying to apply it the best/quickest
+
   - de-duplicate logic
     - integrate problem_solving_matching.md & analysis_examples.md
     - integrate changes from interface_analysis.py and solution_automation_analysis.py to repo
@@ -107,6 +109,12 @@
       - reducing equivalence from randomness (isolate non-random processes that follow rules)
 
 ## examples
+
+  - example: to identify false information across user requests:
+    - example of applying intent interface: 
+      - check with intent provider (site) if a request for an intent (request password) was just made, to validate messages
+    - example of applying pattern interface: 
+      - check if user access patterns (like 'navigate to site, then check email for site password reset') match the intent of a message
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
     - a temperature monitor sensitive to a hundredth of a degree might provide similar but non-specific power reporting for important/extreme usage patterns without revealing such specific information as that which could infer exact operations being done, bc the interval of temperature measurements allows for greater variation in calculations that could explain it
