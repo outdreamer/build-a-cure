@@ -4,6 +4,12 @@
 
   - to handle intellectual property theft, offer IP/patents as a product/service (implemented as a licensed usage) to IP thieves at a lower cost than IP theft costs, where important IP like medical research is offered at a subsidized discount, to encourage different competitors trying to apply it the best/quickest
 
+  - offer extra data or future experiment participation options as a way of paying for experimental drugs
+
+  - drug pricing should be done based on difficulty of calculating/producing it with AI or other methods 
+
+  - taxing beneficiaries of lottery systems (crime lottery, with bail payouts to prison system & example payouts to politicians/media, given the occasional jackpot of an emotional imbalance that benefits them)
+
   - de-duplicate logic
     - integrate problem_solving_matching.md & analysis_examples.md
     - integrate changes from interface_analysis.py and solution_automation_analysis.py to repo
