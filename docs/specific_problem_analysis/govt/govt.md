@@ -1,5 +1,13 @@
 to do: organize into docs
 
+- to handle intellectual property theft, offer IP/patents as a product/service (implemented as a licensed usage) to IP thieves at a lower cost than IP theft costs, where important IP like medical research is offered at a subsidized discount, to encourage different competitors trying to apply it the best/quickest
+
+- offer extra data or future experiment participation options as a way of paying for experimental drugs
+
+- drug pricing should be done based on difficulty of calculating/producing it with AI or other methods 
+
+- taxing beneficiaries of lottery systems (crime lottery, with bail payouts to prison system & example payouts to politicians/media, given the occasional jackpot of an emotional imbalance that benefits them)
+
 - the power structures of govt (structures to optimize to find an optimal govt structure)
   - functionality: ability to access function logic
   - permission: ability to call a function
