@@ -17,6 +17,33 @@
 
       - interface traversal functions
 
+        - function to traverse an interface: 
+              1. convert to interface based on definition 
+              2. apply an interface to input information 
+              3. apply interface components to distort information to generate additional information to match 
+                  - specific interface components (like navigation functions) for that interface 
+                  - core/common components (like distortion functions) of that interface 
+                  - related components of the interface 
+                  - other interfaces/interface operations 
+              4. find matching objects 
+              5. convert to original system format) 
+            
+            - this function implements traversal by applying interface components (like functions/attributes/objects) of a certain type (like core/common) in a structure (like a sequence) such as: 
+              - applying core/common/generative/cross-system components (like functions) first 
+              - applying insight/intent interface first 
+                - examplee: applying cause-related insight paths to input information once converted to the cause interface 
+              - applying interface checks first 
+                - example: checking for new interface objects (like change types), if the interface changes frequently (like the change interface) 
+              - applying related objects of the interface: 
+                - example: applying interface info objects like related questions/insights 
+            - the function to traverse an interface is referenced here: 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/math_semantic_map.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/function_to_do.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/to_do.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/ideas.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/README.md 
+        
         - iterate 
 
         - match 
@@ -24,6 +51,26 @@
         - apply
 
         - interface conversion function
+
+            - conversion to an interface format
+            - conversion back to input information format
+            - interface conversion function as shown in FIG. 20 (Interface conversion & matching) example:  
+                - converting objects to the type interface involves identifying attribute sets that are unique, and then identifying types that can describe multiple unique objects as variations of an attribute in the attribute set 
+                - converting to the cause interface involves focusing on dependence objects (inputs/outputs) 
+            
+                - As shown in Fig. 20, the application of a standard interface query (function-structure interface) is depicted for a problem definition such as 'complete the function based on the implied pattern'. 
+                    - The interface query steps to find/derive/generate the 'completion' function may include:
+                        1. standardize to structural interface (graph the function)
+                        2. query for implications of the structure (triangle with curvature applied, alternate paths between corners varying on curvature, motion in the direction of concavity, filling a shape similar to existing shape)
+                        3. apply implications (implications of change types indicating prior or next states)
+                        4. result is a triangle or ellipse for various implied change types
+                        5. convert triangle/ellipse to function
+                        6. filter by any specific solution metrics given
+                    - Given the origin function structure, the interface query would find rules, implications, & other objects relevant to the structure, such as:
+                        - 'Copy & rotate a semi-circle to create a circle/ellipse'
+                        - 'Streamline along tangent (involves standardizing to concept interface) to make triangle'
+                    - The origin function structure has been converted from the structure interface to the system interface (including the 'implication' object) and back to the structure interface, with system objects like relevant rules of implications applied.
+            
 
           - convert the problem object to the interface using the interface conversion function, so that the problem is framed in terms defined on the interface. 
             - example: 
@@ -105,116 +152,133 @@
                     - general: analyze whether the problem space changes in a way that invalidates the original or other problems once a particular solution is applied, anticipating cascading, self-sustaining & self-solving problems, and selecting between solutions 
                     - specific: organize a set of resources into a problem space system with dimensions indicating primary factors of change that are also interfaces (as a foundation where changes can develop and be described in other embedded graphs) or cross-system attributes (like relevance), for standardized comparison of solution impact on all problems in the problem space system 
      
+
+    - interface traversal functions
+      
+      - function to design an (internal) interface traversal: 
+        - this function allocates interface structures (like priorities/dependencies/conditions) to form a structure (like a network or sequence) containing operations applying: 
+            - specific interface components (like navigation functions) for that interface 
+            - core/common components (like distortion functions) of that interface 
+            - related components of the interface 
+            - other interfaces/interface operations 
+          - in order to form an (internal) interface traversal query, similar to the function that designs an (external) cross-interface query structure (like a sequence or network) containing interfaces to apply with connecting logic 
+        - determining position/trajectory on interface 
+          - starting from a particular object layer on an interface (like how info attributes like measurability are on one layer, and info objects like questions are on another layer) 
+      
+      - function to find distortions to apply that would generate useful information (example: 'apply core/interaction layer/generative/causative/primary functions to input information') 
+      
+      - function to identify & find related objects of an interface 
+      
+      - function to apply a distortion function from an interface to input information 
+
   - logic of general program workflow, from input intent & information to supported output (like a causal relationship, interface-filtered information, or an object definition): 
     - the general interface traversal process includes general logic to automate structural information tasks as indicated in Fig. 22
+    - interface analysis program flow (intent to output interface information)
+        1. obtaining input information from a program or user (like a data set of possibly related variables, or objects in a relational database) involving input:
+          - a supported intent (such as 'find a cause of this variable in the data set' or 'find an optimal structure for this information')
+          - information to fulfill that intent (like an API description, data set, or document).
+        2. retrieving an interface definition
+          - involves querying the database which stores information objects including definitions (as well as other interface components, like interface-specific functions).
+        3. deriving the interface definition if not found 
+          - involves applying logic like 'searching for examples of the interface on other interfaces', 'aggregating unhandled variance into the new interface as a potential change type formattable on that interface', 'filtering examples of an interface into core components, which can be used to generate the examples' or 'assuming common core components & patterns for the interface from other interfaces and applying distortion functions until the interface examples can be generated'.
+        4. determining relevant interfaces or interface structures 
+          - involves executing logic like evaluating whether an interface would frame the input information in a way that maximizes differences within the information, while fulfilling metrics like 'avoiding losing relevant information' or 'avoiding unnecessary complexity'.
+        5. determining an interface query structure to organize relevant interfaces or interface structures 
+          - involves assembling a structure (like a network) to connect interface structures (like an interface) into a format that will connect the input information format with the output information format given in the user-supplied intent.
+        6. execute query, checking for information needed after each interface or interface structure traversal 
+          - involves navigating the structure of the interface query, a structure such as a network with logical operations like conditions & exit or return statements to connect interface structures (like combined interfaces, interface traversals, or interfaces).
+        7. applying the interface definition to standardize the information to the interface format, and finding relevant matching information & interface components, which involves: 
+              1. convert input information to interface based on interface object definition (remove information unrelated to dependencies for the causal interface) 
+              2. apply an interface to input information 
+                  - find core causal interface components (like structures, such as directions of dependency) in the input information necessary to do other causal interface operations
+              3. apply interface components to distort information to generate additional information to match (distort input information with causal or other interface components)
+                  - specific interface components (like navigation functions) for that interface 
+                  - core/common components (like distortion functions) of that interface 
+                  - related components of the interface 
+                  - other interfaces/interface operations 
+              4. find matching objects 
+                  - check formatted information & distorted information for objects that match the causal interface objects
+              5. convert to original system format (input information format) 
+                  - integrate causal structures found with the input information, checking for validity of the structures & their related objects once integrated with the input information
+                  - integrating output into a structure relevant to the requested intent (on the meaning or interface-interface), which involves applying structure to the output information, as designated in the interface query design
+            - this function implements traversal by applying interface components (like functions/attributes/objects) of a certain type (like core/common) in a structure (like a sequence) such as: 
+              - applying core/common/generative/cross-system components (like functions) first 
+              - applying insight/intent interface first 
+                - example: applying cause-related insight paths to input information once converted to the cause interface 
+              - applying interface checks first 
+                - example: checking for new interface objects (like change types), if the interface changes frequently (like the change interface) 
+              - applying related objects of the interface: 
+                - example: applying interface info objects like related questions/insights 
+            - the function to traverse an interface is referenced here: 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/math_semantic_map.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/function_to_do.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/to_do.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/ideas.md 
+              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/README.md 
+            7.A. applying default components or prioritized structures to format or otherwise alter the information to identify its structural relevance to that interface 
+                - default components or prioritized structures can include: 
+                    - specific interface components (like navigation functions) for that interface 
+                    - core/common components (like distortion functions) of that interface 
+                    - related components of the interface 
+                    - other interfaces/interface operations 
+                - for example: 
+                    - once a data set is converted to the information interface format, like: 
+                        - an information-interface structure indicating information position/distribution/identity across agents 
+                        - a structural-interface structure like a language network 
+                        - a system-interface structure like the interaction of two information systems (with different internal functions/attributes/objects and/or information, like two type clusters in a data set) in a host system 
+                        - a math-interface graph of data points on various dimension sets 
+                     - the analysis program may follow that conversion with an additional conversion to a format amenable for comparison with important components on the information interface, like: 
+                          - core info objects (like a core differentiating/comparison/storage rule, core conversion/filtering/organization function for new information, or a constant fact as a core information unit) 
+                          - primary info objects (like perspectives/insights/questions/etc) 
+                        - for example, the structure of a question in its default format might be a structure indicating missing information (the important object of the 'question' definition) for an intent 
+                    - in a graph format, this core 'missing information' structure of the question info object could take the form of structures in the graph like: 
+                            - mismatches (like an incomplete rule set missing a function/variable attribute/object) 
+                            - assumptions (questions being the removal of an assumption, the missing information being how the graph would change if the assumption was removed) 
+                            - randomness (missing relevance/dependency to the system, like a data set having outliers that are missing the information of relationship to the data set) 
+                        - which could indicate several embedded questions given these question type sub-structures: 
+                            - which are the independent/dependent variables? 
+                            - what is the independent/dependent variable relationship? 
+                            - what do the clusters mean? (group membership of a data record) 
+                            - what are the patterns of the clusters? 
+                            - what is the probability of various given/generated data points being in a cluster? 
+                            - what causes the outliers? (randomness, group resolution/dissolution/merging/divergence/adaptation/misidentification) 
+                            - what function describes each clusters' variation? (function relating variables in data set) 
+                            - what functions relate the clusters? (how could you transform one cluster to the other) 
+                            - what direction or other structures of causation exist between the clusters? (does one group tend to become the other, and why/how/in what contexts) 
+                    - as another example, once a data set is converted to the system interface format (like a network of objects & functions with attribute shapes like layers), the program would follow that by converting it to a format amenable for comparison with primary interface objects (like incentives), functions (like optimize), or attributes (like complexity). 
+                        - a format that enables comparison with interface objects like incentives would attach labels & structures where known interface structures (or calculated probably interactive/relevant alternative/adjacent interface structures using core combination analysis) are found 
+                            - for example, if incentives have a structure like 'a shape where resources would stabilize at rest', a related structure would be generatable with core combination analysis by applying core functions like 'condition where other system variables are simultaneously changing' instead of the 'condition where other system variables are unchanging (at rest)' to generate an adjacent structures like 'a shape where resources are constant regardless of other variables', which may be a 'constant' or 'assumption' object 
+                            - if the data set has a structure matching the 'constant' or 'assumption' object definition the program just generated by applying core distortions to the system 'incentive' object definition, it may be comparable with the 'incentive' definition object, because those objects are adjacent and operate on similar interaction layers, and may even interact (the program would query for insights or functions to check). 
+            7.B. identifying matching components between information & interface components (components like systems, objects, functions, attributes, & types) 
+                A. then the input information objects (converted to the interface) would be compared to interface components, to find matching structures 
+                B. after this initial match check, the function interface is applied, using interface-specific functions, which are either: 
+                    - functions of that interface (function types like core/common/interactive/relevant/change/causative/generative/other prioritized distortion function types) 
+                    - functions of other interfaces 
+                        - patterns & functions across interfaces (apply the pattern interface) 
+                        - insights & insight paths (apply the insight interface, a sub-interface of the information interface) 
+                        - functions to achieve core/common/current interface intents, like core/common formats like 'minimized', attributes like a 'change-handling' priority, or other outputs like core/common/generative functions (apply the intent interface) 
+                        - functions of cause/change/potential (apply change/cause/potential interfaces, to ensure youre checking versions of the structure that are probably relevant by commonness or other core priorities like causative change types, causal adjacence, or probability) 
+                        - functions of concepts (apply concept interface, to identify concept structures) 
+                        - functions of systems (apply the system interface & its components, like the 'optimize' function) 
+                C.A. once these functions are applied, iterate through distortion sets producing different states of the input information: 
+                    - verify that the distortions are still relevant to the interface 
+                    - repeat the matching process, looking for matching structures between the newly distorted input information structures & the interface components 
+                        - for example, once youve applied an insight like 'comparison is quicker if you only compare different attributes', which involves reducing the attributes of the input information to the different attributes, do you find any new matches with interface objects, like a match with a function that could produce those differences, from either point in a compared pair as the input & the other point in the compared pair as the output? 
+                            - if so, this is a function that you might not have found as quickly if you were matching the object having those attributes on a different interaction layer, like how comparing two shapes would benefit from different functions than comparing two generative functions of the two shapes 
+                C.B. optionally, distortion functions can be applied with intent to identify new components on the interface (apply an intent distortion function on the cause interface) 
+                C.C. optionally, distortion functions can be applied to other interface objects, to identify new components on other interfaces (such as applying a causal distortion function to an insight path to check if a new insight path applies, while traversing the cause interface), using the new input information and/or the cause interface objects for comparison 
+            7.C. convert matching interface components back to input information 
+                - if the program identifies a matching object in step 4 like a pattern (like two variable types that are usually related in a certain way indicated by the pattern) found in the input information, apply that pattern to the input information 
+                - this means: 
+                    - retrieving functions/attributes/objects of that matching pattern (like which variable types are applicable), as well as relationships of that pattern to related objects (like related patterns/insights/functions, such as a validation function to check variable type) 
+                    - iterating through those related components and/or component sets of the matching pattern from the interface 
+                    - applying each related component or component set to the original input information (does this variable pair have the pattern implied by their variable types, which are applicable for that pattern) 
+                    - testing the new state of the input information for validity 
+                        - does that pattern make sense (does it match functions/outputs or other structures) or have meaning (does it interact with relevant structures), given the system context of other input information or other information generated by prior interface analysis) 
+                - if the probability of an accurate match is high enough, store that matching interface component, formatted to fit the input information, as a possible version of the input information, on which other interface analysis can be applied sequentially 
+            7.D. repeat steps 7.A - 7.C if the selected interface analysis intent (support intents of interface analysis including 'traversing the interface' or 'formatting input information in as many ways as possible' or 'filling out an interface definition') is not complete. 
+        
+        8. integrating output into a structure relevant to the interface traversal intent (on the meaning or interface-interface), interface traversal intents such as 'find a cause of this variable' or 'find an optimal structure for this information', which involves applying structure to the output information as designated in the initial interface query design 
 
-
-- interface analysis program flow (intent to output interface information)
-    1. obtaining input information from a program or user (like a data set of possibly related variables, or objects in a relational database) involving input:
-      - a supported intent (such as 'find a cause of this variable in the data set' or 'find an optimal structure for this information')
-      - information to fulfill that intent (like an API description, data set, or document).
-    2. retrieving an interface definition
-      - involves querying the database which stores information objects including definitions (as well as other interface components, like interface-specific functions).
-    3. deriving the interface definition if not found 
-      - involves applying logic like 'searching for examples of the interface on other interfaces', 'aggregating unhandled variance into the new interface as a potential change type formattable on that interface', 'filtering examples of an interface into core components, which can be used to generate the examples' or 'assuming common core components & patterns for the interface from other interfaces and applying distortion functions until the interface examples can be generated'.
-    4. determining relevant interfaces or interface structures 
-      - involves executing logic like evaluating whether an interface would frame the input information in a way that maximizes differences within the information, while fulfilling metrics like 'avoiding losing relevant information' or 'avoiding unnecessary complexity'.
-    5. determining an interface query structure to organize relevant interfaces or interface structures 
-      - involves assembling a structure (like a network) to connect interface structures (like an interface) into a format that will connect the input information format with the output information format given in the user-supplied intent.
-    6. execute query, checking for information needed after each interface or interface structure traversal 
-      - involves navigating the structure of the interface query, a structure such as a network with logical operations like conditions & exit or return statements to connect interface structures (like combined interfaces, interface traversals, or interfaces).
-    7. applying the interface definition to standardize the information to the interface format, and finding relevant matching information & interface components, which involves: 
-          1. convert input information to interface based on interface object definition (remove information unrelated to dependencies for the causal interface) 
-          2. apply an interface to input information 
-              - find core causal interface components (like structures, such as directions of dependency) in the input information necessary to do other causal interface operations
-          3. apply interface components to distort information to generate additional information to match (distort input information with causal or other interface components)
-              - specific interface components (like navigation functions) for that interface 
-              - core/common components (like distortion functions) of that interface 
-              - related components of the interface 
-              - other interfaces/interface operations 
-          4. find matching objects 
-              - check formatted information & distorted information for objects that match the causal interface objects
-          5. convert to original system format (input information format) 
-              - integrate causal structures found with the input information, checking for validity of the structures & their related objects once integrated with the input information
-              - integrating output into a structure relevant to the requested intent (on the meaning or interface-interface), which involves applying structure to the output information, as designated in the interface query design
-        - this function implements traversal by applying interface components (like functions/attributes/objects) of a certain type (like core/common) in a structure (like a sequence) such as: 
-          - applying core/common/generative/cross-system components (like functions) first 
-          - applying insight/intent interface first 
-            - example: applying cause-related insight paths to input information once converted to the cause interface 
-          - applying interface checks first 
-            - example: checking for new interface objects (like change types), if the interface changes frequently (like the change interface) 
-          - applying related objects of the interface: 
-            - example: applying interface info objects like related questions/insights 
-        - the function to traverse an interface is referenced here: 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/math_semantic_map.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/function_to_do.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/to_do.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/ideas.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/README.md 
-        7.A. applying default components or prioritized structures to format or otherwise alter the information to identify its structural relevance to that interface 
-            - default components or prioritized structures can include: 
-                - specific interface components (like navigation functions) for that interface 
-                - core/common components (like distortion functions) of that interface 
-                - related components of the interface 
-                - other interfaces/interface operations 
-            - for example: 
-                - once a data set is converted to the information interface format, like: 
-                    - an information-interface structure indicating information position/distribution/identity across agents 
-                    - a structural-interface structure like a language network 
-                    - a system-interface structure like the interaction of two information systems (with different internal functions/attributes/objects and/or information, like two type clusters in a data set) in a host system 
-                    - a math-interface graph of data points on various dimension sets 
-                 - the analysis program may follow that conversion with an additional conversion to a format amenable for comparison with important components on the information interface, like: 
-                      - core info objects (like a core differentiating/comparison/storage rule, core conversion/filtering/organization function for new information, or a constant fact as a core information unit) 
-                      - primary info objects (like perspectives/insights/questions/etc) 
-                    - for example, the structure of a question in its default format might be a structure indicating missing information (the important object of the 'question' definition) for an intent 
-                - in a graph format, this core 'missing information' structure of the question info object could take the form of structures in the graph like: 
-                        - mismatches (like an incomplete rule set missing a function/variable attribute/object) 
-                        - assumptions (questions being the removal of an assumption, the missing information being how the graph would change if the assumption was removed) 
-                        - randomness (missing relevance/dependency to the system, like a data set having outliers that are missing the information of relationship to the data set) 
-                    - which could indicate several embedded questions given these question type sub-structures: 
-                        - which are the independent/dependent variables? 
-                        - what is the independent/dependent variable relationship? 
-                        - what do the clusters mean? (group membership of a data record) 
-                        - what are the patterns of the clusters? 
-                        - what is the probability of various given/generated data points being in a cluster? 
-                        - what causes the outliers? (randomness, group resolution/dissolution/merging/divergence/adaptation/misidentification) 
-                        - what function describes each clusters' variation? (function relating variables in data set) 
-                        - what functions relate the clusters? (how could you transform one cluster to the other) 
-                        - what direction or other structures of causation exist between the clusters? (does one group tend to become the other, and why/how/in what contexts) 
-                - as another example, once a data set is converted to the system interface format (like a network of objects & functions with attribute shapes like layers), the program would follow that by converting it to a format amenable for comparison with primary interface objects (like incentives), functions (like optimize), or attributes (like complexity). 
-                    - a format that enables comparison with interface objects like incentives would attach labels & structures where known interface structures (or calculated probably interactive/relevant alternative/adjacent interface structures using core combination analysis) are found 
-                        - for example, if incentives have a structure like 'a shape where resources would stabilize at rest', a related structure would be generatable with core combination analysis by applying core functions like 'condition where other system variables are simultaneously changing' instead of the 'condition where other system variables are unchanging (at rest)' to generate an adjacent structures like 'a shape where resources are constant regardless of other variables', which may be a 'constant' or 'assumption' object 
-                        - if the data set has a structure matching the 'constant' or 'assumption' object definition the program just generated by applying core distortions to the system 'incentive' object definition, it may be comparable with the 'incentive' definition object, because those objects are adjacent and operate on similar interaction layers, and may even interact (the program would query for insights or functions to check). 
-        7.B. identifying matching components between information & interface components (components like systems, objects, functions, attributes, & types) 
-            A. then the input information objects (converted to the interface) would be compared to interface components, to find matching structures 
-            B. after this initial match check, the function interface is applied, using interface-specific functions, which are either: 
-                - functions of that interface (function types like core/common/interactive/relevant/change/causative/generative/other prioritized distortion function types) 
-                - functions of other interfaces 
-                    - patterns & functions across interfaces (apply the pattern interface) 
-                    - insights & insight paths (apply the insight interface, a sub-interface of the information interface) 
-                    - functions to achieve core/common/current interface intents, like core/common formats like 'minimized', attributes like a 'change-handling' priority, or other outputs like core/common/generative functions (apply the intent interface) 
-                    - functions of cause/change/potential (apply change/cause/potential interfaces, to ensure youre checking versions of the structure that are probably relevant by commonness or other core priorities like causative change types, causal adjacence, or probability) 
-                    - functions of concepts (apply concept interface, to identify concept structures) 
-                    - functions of systems (apply the system interface & its components, like the 'optimize' function) 
-            C.A. once these functions are applied, iterate through distortion sets producing different states of the input information: 
-                - verify that the distortions are still relevant to the interface 
-                - repeat the matching process, looking for matching structures between the newly distorted input information structures & the interface components 
-                    - for example, once youve applied an insight like 'comparison is quicker if you only compare different attributes', which involves reducing the attributes of the input information to the different attributes, do you find any new matches with interface objects, like a match with a function that could produce those differences, from either point in a compared pair as the input & the other point in the compared pair as the output? 
-                        - if so, this is a function that you might not have found as quickly if you were matching the object having those attributes on a different interaction layer, like how comparing two shapes would benefit from different functions than comparing two generative functions of the two shapes 
-            C.B. optionally, distortion functions can be applied with intent to identify new components on the interface (apply an intent distortion function on the cause interface) 
-            C.C. optionally, distortion functions can be applied to other interface objects, to identify new components on other interfaces (such as applying a causal distortion function to an insight path to check if a new insight path applies, while traversing the cause interface), using the new input information and/or the cause interface objects for comparison 
-        7.C. convert matching interface components back to input information 
-            - if the program identifies a matching object in step 4 like a pattern (like two variable types that are usually related in a certain way indicated by the pattern) found in the input information, apply that pattern to the input information 
-            - this means: 
-                - retrieving functions/attributes/objects of that matching pattern (like which variable types are applicable), as well as relationships of that pattern to related objects (like related patterns/insights/functions, such as a validation function to check variable type) 
-                - iterating through those related components and/or component sets of the matching pattern from the interface 
-                - applying each related component or component set to the original input information (does this variable pair have the pattern implied by their variable types, which are applicable for that pattern) 
-                - testing the new state of the input information for validity 
-                    - does that pattern make sense (does it match functions/outputs or other structures) or have meaning (does it interact with relevant structures), given the system context of other input information or other information generated by prior interface analysis) 
-            - if the probability of an accurate match is high enough, store that matching interface component, formatted to fit the input information, as a possible version of the input information, on which other interface analysis can be applied sequentially 
-        7.D. repeat steps 7.A - 7.C if the selected interface analysis intent (support intents of interface analysis including 'traversing the interface' or 'formatting input information in as many ways as possible' or 'filling out an interface definition') is not complete. 
-    
-    8. integrating output into a structure relevant to the interface traversal intent (on the meaning or interface-interface), interface traversal intents such as 'find a cause of this variable' or 'find an optimal structure for this information', which involves applying structure to the output information as designated in the initial interface query design 
-
-    '''
+'''

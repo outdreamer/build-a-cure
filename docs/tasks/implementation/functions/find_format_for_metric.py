@@ -11,15 +11,11 @@
     FIG. 17. 'Match structure for a definition of a concept' illustrates matching a structure to a concept. 
     FIG. 18. 'Intent-matching' illustrates matching intent to structure & vice versa.
 
-
-
   - this function can generate objects like problem-solving automation workflows, found in problem_solving_matching.md and /solution_workflows/*
 
-
-      - a workflow to automate problem-solving is an interface traversal that can be applied to any problem
-
-      - the workflow inherent to this tool (to match a problem with a solution) uses the problem information as the default interface. The overall workflow of this tool can be built with an interface query:
-
+      - a problem-solving automation workflow is a type of interface traversal that can be applied to any problem, although some workflows are more adjacent to a problem definition than others, like how a highly structured problem may already have an existing solution in the database, so that workflow of querying the database to find a solution should be applied first. 
+      - the workflow inherent to this tool (to match a problem with a solution) uses the problem information as the default interface
+      - the overall workflow of this tool can be built with an interface query:
         - find problem type & format the problem as a combination of information problem types (information (problem, assumption) interface, type interface), as well as any related problems (information (problem) interface, pattern interface, and the change interface to generate related problems if none are logged)
         - find solution requirements (structure interface where requirements are limits/thresholds)
         - apply a directed graph (structure interface) of various information formats (interface interface, information interface), positioned in the sequence likeliest to find the missing information to solve (structure interface, similarity concept interface)
@@ -27,35 +23,39 @@
         - if the information formats applied dont reveal enough info, apply combinations of the formats (structure interface, core interface)
         - if no solution space can be identified or reduced, return the queries and the problem & problem space metadata
 
-      - these are very abstract insight paths (a cross-system, insight-generating sequence) that can generate solutions automatically
-
       - workflow variables include:
-
         - starting point of the analysis (which interface the query starts from)
         - structures relevant (which structures or type of graphing method to use)
         - intent (create a prediction function, reduce solution space, compare solutions, or match problem with solution)
         - core abstract function represented (is it a find method, an apply method, a combination)
         - formats & structures used (object model, interface query)
 
-      - if the problem is 'finding a structure that matches conceptual priorities like strength', that can clearly begin on the concept-structure traversal if information required for that traversal already exists in the problem definition or derived metadata
+      - example: 
+        - if the problem is 'finding a structure that matches conceptual priorities like strength', that can clearly begin on the concept-structure traversal if information required for that traversal already exists in the problem definition or derived metadata
+          - concept-structure interface traversal (a multi-interface traversal linking the concept & structure interfaces, so a target concept combination/set/path or target structural attribute can be achieved with structures like filters/limits/functions that adjust the origin structure until it matches the target structural attributes or concepts)
+          - problem-solution interface traversal: sometimes a sufficient solution may be already stored in the solution table (solution being an information object) and the way to solve the problem is formatting it correctly or identifying its type correctly so that solutions for that format or type can be queried & applied as-is, the most basic traversal type 
+          - intent interface traversal, which is particularly effective at linking other interfaces (find intents & intent structures that fulfill the 'strength' attribute, and structures matching those intents) 
+  
+      - other workflows can be derived given alternate traversals that can generate information (like how causation, information formats, functions, and intent can generate structure information), given existing information. 
+      - these workflows can be generated with new interface combinations or interfaces, if each interface in the sequence can add information required to solve the problem. 
+      - occasionally an interface will be sufficient on its own, if the problem is already pre-structured. 
+        - example: the function interface may be enough to find the right sequence of functions, if the function metadata optionally includes input/outputs and there are no ambiguities to resolve, meaning this solution is a simple query to match inputs/outputs, where the final output is the intended goal of the query 
+      
+      - other problem-solving automation workflows would start with different interface traversals & use different origin & target structures (such as:
+          - designing interface trajectories
+          - generating new info object layers to use as interfaces or systems (combine perspective & potential to generate a potential-perspective field, combine problems & markets to create a market for problems, combine platforms with platforms to create a platform to sell platforms, combine variables and networks to create variable networks, combine variables & risk to identify variable development sequences))
+          - finding structures (like insights such as 'break a problem into sub-problems & aggregate solutions' or 'apply filters until the problem space is a solution space, then repeat until the solution space is a solution') that when applied to a problem, create a clear format/structure sequence linking the problem with a solution
+            - a specific example is 'problem vectorization' as mentioned above in VII: finding specific interim formats linking a problem & solution format (such as the structure of concepts/interfaces that would link variables with a prediction function) & applying structures to create that format sequence (like a directed network)
 
-        - concept-structure interface traversal (a multi-interface traversal linking the concept & structure interfaces, so a target concept combination/set/path or target structural attribute can be achieved with structures like filters/limits/functions that adjust the origin structure until it matches the target structural attributes or concepts)
+      - workflows are very abstract insight paths (a cross-system, insight-generating sequence) detailing specific interface traversals that can generate solutions automatically    
 
-        - or you can standardize to the intent interface which is particularly effective at linking other interfaces (find intents & intent structures that fulfill the 'strength' attribute, and structures matching those intents)
-
-      - other workflows can be derived given alternate traversals that can generate information (like how causation, information formats, functions, and intent can generate structure information), given existing information
-
-        - problem-solution interface traversal: sometimes a sufficient solution may be already stored in the solution table (solution being an information object) and the way to solve the problem is formatting it correctly or identifying its type correctly so that solutions for that format or type can be queried & applied as-is, the most basic traversal type
-
-      - these workflows can be generated with new interface combinations or interfaces, if each interface in the sequence can add information required to solve the problem
-
-      - occasionally an interface will be sufficient on its own, if the problem is already pre-structured
-
-        - for example, the function interface may be enough to find the right sequence of functions, if the function metadata includes input/outputs and there are no ambiguities to resolve, meaning this solution is a simple query to match inputs/outputs, where the final output is the intended goal of the query
+      - examples of interface queries that function as problem-solving automation workflows: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+        The process 400 in application 16887411 runs interface queries to match a problem with its intended solution information (like a strategy) in the intended solution format (strategy formatted as a set of steps in a problem network or vectors reducing a problem shape) 
+          - interface queries to solve a problem can be as simple as a query for specific solutions to re-use solutions in the database, or as complex as applying a format to the problem to make calculating the solution trivial) 
 
       - problem-solving automation workflows
 
-        - these workflows apply various interfaces & analysis types, and can be applied to any problem
+        - these workflows apply various interfaces & analysis types, and can be applied to any problem with sufficient information in its definition
 
           I. Filter problem definition until it matches solution structure (using definition & standardization, applying increasing limits/filters/transforms until problem & solution match)
             - this applies structures such as limits to fulfill solution intents iteratively
@@ -103,11 +103,6 @@
             - this is a more comprehensive format that allows quick application & identification of system objects (alternates, efficiencies, incentives)
             - for example, identifying known system objects for the 'find a prediction function' problem would mean identifying incentives in data collection (collect small sample, collect representative sample), efficiencies in calculating prediction functions (some sections should be treated as potential fields, where a network is embedded in place of a function section, to indicate decision logic or alternate functions accessible with additional information, if a predicted value is requested from that section of the function), false similarities (like the apparent similarity between two variables being correlation rather than a direct relationship), opposites (like neutralizing variables), and other core system objects
 
-        - other problem-solving automation workflows would start with different interface traversals & use different origin & target structures (such as:
-          - designing interface trajectories
-          - generating new info object layers to use as interfaces or systems (combine perspective & potential to generate a potential-perspective field, combine problems & markets to create a market for problems, combine platforms with platforms to create a platform to sell platforms, combine variables and networks to create variable networks, combine variables & risk to identify variable development sequences))
-          - finding structures (like insights such as 'break a problem into sub-problems & aggregate solutions' or 'apply filters until the problem space is a solution space, then repeat until the solution space is a solution') that when applied to a problem, create a clear format/structure sequence linking the problem with a solution
-            - a specific example is 'problem vectorization' as mentioned above in VII: finding specific interim formats linking a problem & solution format (such as the structure of concepts/interfaces that would link variables with a prediction function) & applying structures to create that format sequence (like a directed network)
 
 
   - functions to match & select a input-output format connecting format structure, like a format sequence or directed network 

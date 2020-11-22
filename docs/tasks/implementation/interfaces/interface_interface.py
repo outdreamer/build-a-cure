@@ -20,7 +20,7 @@
           - execution of structural information tasks fulfilling supported intents with information found/derived/generated on interfaces once input information is formatted for analysis on that interface
           - automate formatting/filtering output information for an input intent task & information
           - interface analysis may lead to output information for the intent, such as the cause of a variable, a set of recommended steps, or a list of organized priorities
-          
+            
       - interface: 
         - an attribute that highlights differences within a limit when objects are reduced to that attribute, using it as a standard for comparison, that filters out attributes that dont fit its definition
           - gaps in known rules allowing filter to be applied to objects that can occupy the gaps, to identify variance nodes
@@ -30,8 +30,11 @@
         - a useful standard for comparison consisting of the filtering object's definition routes, conversion function, core functions, objects, & attributes, and related objects like patterns & metadata specific to the interface  
             - the traversal of an interface implies mapping input information to interface components 
             - interface operation act on interfaces themselves (like application, combination, mapping, or injection of an interface) 
-
-        - interface components: definition routes, conversion function, core functions/objects/attributes, and related objects like patterns & metadata specific to the interface
+        - interface components: 
+          - definition routes
+          - conversion function
+          - core functions/objects/attributes
+          - related objects like patterns & metadata specific to the interface
       - can generate an interface by the combinations of variables that minimize & maximize change (filters to remove common information to leave differentiating information for comparison)
 
       - interfaces that capture change types: 
@@ -80,13 +83,18 @@
   
   - objects:
     - interface
+    - structurized interfaces: interfaces with other interface components applied (like limits applied to the causal interface components) 
     - interface operation (combine interfaces, etc)
     - interface traversal (apply an interface to a problem)
     - interface query (cross multiple interfaces in a sequence)
     - workflow (apply a problem-solving automation workflow with a particular origin interface or interface query)
       - an example of a workflow is shown in FIG 14 (Problem-solving automation workflow)
       - the general workflow of this program is shown in FIG 2 (Solution Automation Module 140)
-    - workflow operation (select a problem-solving automation workflow)
+      - an example of a problem-solving automation workflow is referenced in this application's Fig. 14 (Design Interface Query). 
+        - the default problem type of an interface traversal is 'find matching components between input information & this interface' 
+      - a particular interface query or traversal to solve a problem or problem type
+
+    - workflow operation: an interface traversal that selects a problem-solving automation workflow 
 
     - examples of interface objects
       - potential (risk chain, uncertainty) 
@@ -96,6 +104,8 @@
       - system objects (inefficiency, incentive, error, alternative, opportunity, conflict)
       - the reason these abstract objects fit on a particular interface is because they describe specific interactions:
         - a conflict may occur on every interface, but in the system interface, the interactions of a conflict with other objects are the clearest, closest to its most concise definition, & capture the most variation, whereas on other interfaces, the conflict object can take many forms
+
+    - the interface-interface where interface analysis is executed (the meta-interface or meaning interface) uses the core functions that can generate the general interface network (filter/find/identify, apply/combine, build/fill, derive/predict, change/transform/process) 
 
     - symmetry: change types that dont lose information, so can be used to define the boundaries of an interface or used as a base
 
@@ -222,8 +232,6 @@
                   - abstract: variance, efficiency
                 - the interface stack can be rearranged to optimize relationships when generating objects
                 
-
-
   - structures:
     - interface filter
     - interface network: the set of networks that act as useful filters/standards for applying structure to organize information 
@@ -269,7 +277,6 @@
 
     - problems solved
 
-      - finding explanatory variables on multiple interfaces 
       - building a problem-solving automation workflow 
       - selecting those optimal interfaces to solve a problem: 
         - framing a conflict of type 'competition' as opposing direction/intent or equivalent direction/intent is a calculation that can be automated using any of these kinds of analysis, but the logic & intent interfaces are best at this
@@ -283,6 +290,16 @@
       - calculating when to skip interim variables/interfaces
       - determining adjacent interfaces
       - building or selecting a problem-solving automation workflow (whether to start with a particular workflow, which is a layer of abstraction above the question of whether to start with a particular interface, which assumes a workflow has already been selected)
+      - finding the structure of cross-interface interactions, such as: 
+        - finding patterns in ratios between uncertainty generated by a function combination vs. uncertainty-reduction function patterns & potential  
+        - determining the relationship between the function converting one structure into another & the function converting its determining/descriptive/causative/generative variables 
+        - finding valid/invalid change types in a structure 
+        - finding structures fulfilling a concept combination & trajectory to the objects in that structure whose differences are relevant to those concepts 
+        - determining the impact of operations done on one attribute (length) vs. another attribute (angle) 
+        - finding how core operations & objects develop & accrete in a structure (like a system) 
+        - deriving object types with attributes useful for a particular operation ("quaternions for 3-d rotation") 
+        - converting information objects (like value) into system objects (like units, such as integer units) 
+        - finding patterns that turn into objects that attract/hold the most variance 
 
     - questions answered
       - why is intent analysis sometimes not enough for solving a problem? bc the intent could be de-optimizing the host system for other users
@@ -309,7 +326,6 @@
       - what space are these symmetries derivable in? the spectrum interface is derivable from the chaotic evil matrix - what space makes these symmetries derivable?
       - why do some of the most useful interfaces have semantic values (context like identities of nodes, producing interfaces like priority, which is specific to non-random systems that can have intent)rather than structural values (type, pattern, change, structural)
       
-
     - examples
       - give example of framing variance with different interfaces to highlight predictive information or information that can be structured on other interfaces that simplify the problem
         - the common goal of 'variance reduction' which maps to 'applying a standard' may not always be the right first step, as 'variance expansion' can offer potential to identify different component interfaces that would highlight hidden variable set ranges
@@ -389,7 +405,6 @@
             - abstraction (balance, power)
           - causal
 
-
     - concepts:  
       - perspective (default version of an interface, which implies a different method of calculation, priorities, & focus on different objects) 
     
@@ -397,15 +412,32 @@
 
   - functions 
 
+    - interface integration functions 
+      - assemble meaning (relevant cross-system structures) of information retrieved, during & after interface traversal, integrating new information retrieved/generated with input and/or prior information retrieved/generated 
+        - this function integrates output into a structure relevant to the interface query intent (on the interface-interface) which involves applying structure to the integrated output information from the interface traversals, as designated in the interface query design 
+
     - interface query functions 
       - example interface query involves: framing on interfaces, decomposing causation, then identifying parameters of problem on layer & matching solution
 
-    - interface traversal functions
-      - function to find distortions to apply that would generate useful information (example: 'apply core/interaction layer/generative/causative/primary functions to input information') 
-      - function to identify & find related objects of an interface 
-      - function to apply a distortion function from an interface to input information 
-    
+      - function to apply interface query config (default config or config input by user) 
+        - interface queries can be configured by parameters like: 
+              - priority 
+              - logic allowed in interface query (like exit/return statements or conditions) 
+              - error log level 
+              - optimizations 
+              - preferred interfaces/structures/formats/methods, like: 
+                - query organization methods 
+                - prefer the function interface over the pattern interface, for specificity 
+                - prefer sequential interface queries, for state tracking 
+                - prefer core functions (prefer finding existing information as opposed to deriving information or generating new information) 
+          
+      - function to find/derive/build an interim interface to standardize components from multiple interfaces 
+          - example: changes from other interfaces can all be framed on the interim change interface 
+          
+      - function to determine adjacent/causative/generative/descriptive/alternative interfaces 
+
     - interface-interface functions 
+
           - interface operations:
           - intent / structure interface: assess intent interface by a standard of structure interface (which structures can simplify the intent interface)
           - function + pattern interface: merge networks of functions & patterns into one standard interface definition (input/output/logic + metadata of both objects)
@@ -416,6 +448,53 @@
             causal type interface (what types of cause are there), type cause interface (what causes types)
             causal type cause (what causes causal types), type cause type (what types of type causes are there)
     
+          - interface-interface functions 
+            - find interfaces 
+              - find the pattern interface in the cause interface (used when validating that an interface is completely defined) 
+              - identifying all interfaces with variance that cant be captured in other interfaces 
+              - filter interfaces  
+                - filtering the pattern interface by the intent interface with would produce a set of intents found in patterns 
+              - identifying specific interfaces (filters) for a problem/space 
+            - build interfaces 
+              - construct an interface (apply interface definition & generate structures to fill it) 
+              - deriving an interface definition from examples of objects/functions/outputs of that interface or a source of unhandled variation: 
+                - 'searching for examples of the interface on other interfaces' 
+                - 'aggregating unhandled variance into the new interface as a potential change type formattable on that interface', 
+                - 'filtering examples of an interface into core components, which can be used to generate the examples' 
+                - 'assuming common core components & patterns for the interface from other interfaces and applying distortion functions until the interface examples can be generated' 
+              - derive the interface network from an interface 
+                - each interface network in the set of interfaces (core function interface network, general interface network, specific interface network) can be used to generate the others 
+                  - intent interface can be used to generate the type interface 
+                  - dependency interface can be used to generate the side effect interface 
+                  - interface network can be used to generate the core function interface 
+              - generating full set of general interfaces (intent, concept, structure) 
+                - these can be generated by identifying the key differentiating factors across systems, which can be generated as combinations of objects  
+                  - type is a combination of attributes 
+                  - intent is a combination of function effects 
+                  - concept is a network of networks describing a structural concept (balance, power) 
+                  - structure is a combination of information & rules  
+            - combine interfaces: 
+              - combining the pattern & intent interface with combination type 'group' would produce patterns grouped with intents 
+              - combining the pattern & intent interface with combination type 'merge' would produce merged objects containing attributes common to both patterns & intents 
+                - function to merge interfaces: 
+                  - function + pattern interface: merge networks of functions & patterns into one standard interface definition (input/output/logic + metadata of both objects) 
+              - combining the pattern & intent interface with combination type 'unify' would produce unified objects like intents distorted by patterns  
+            - inject interfaces: 
+              - injecting the pattern interface in the intent interface would produce: 
+                - intent examples & abstractions (applying the definition of 'pattern' to include specific & abstract patterns) 
+            - apply interfaces  
+              - applying the pattern interface to the intent interface with would produce intent patterns, intent component patterns (intent function patterns), intent interface related object patterns, etc  
+              - function to apply an interface to another interface: 
+                - intent / structure interface: assess intent interface by a standard of structure interface (which structures can simplify the intent interface)
+              - function to expand an interface by another interface: 
+                - function * pattern interface:  
+                  function patterns (what patterns are there in functions), pattern functions (what functions generate patterns) 
+                  function pattern functions (what functions generate function patterns), pattern function patterns (what patterns are there in functions that generate patterns) 
+                - cause * type interface:  
+                  causal type interface (what types of cause are there), type cause interface (what causes types) 
+                  causal type cause (what causes causal types), type cause type (what types of type causes are there) 
+                  
+
     - interface implementation functions
 
       - interfaces can be applied iteratively (apply causal interface to find object components matching causal definitions, then apply causal interface again to find abstract causes of causes found)
