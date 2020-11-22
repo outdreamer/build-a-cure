@@ -2,13 +2,18 @@
 
   - make interface query output diagram
 
+  - query for logic in examples when implmenting functions
+
+  - generate default function list
+
   - organize problem/interface functions in interface definitions
 
   - de-duplicate logic
-    - integrate problem_solving_matching.md & analysis_examples.md
-    - integrate changes from interface_analysis.py to repo
-    - integrate system_analysis code & defs, including example.py & workflow logic
-    - integrate rules from diagrams to relevant documents
+    - integrate problem_solving_matching.md
+    - integrate find/apply/build/derive logic from system_analysis/, integrate maps/defs*.json
+    - de-duplicate & separate interface analysis logic into implementation/functions
+
+    - integrate rules from other diagrams not included in patent applications to relevant documents
         [0010] Example embodiments will be described and explained with additional specificity and detail through the use of the accompanying drawings. 
         [0011] FIG. 1. 'User Interface Module' illustrates a diagram of a user interface that can accept user input about a problem & program configuration. 
         [0012] Fig. 2. Interface Analysis Module 140 is a diagram of example components (such as functions & constants) of a program to automatically apply information formats to achieve an input intent. 

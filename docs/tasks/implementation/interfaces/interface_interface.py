@@ -73,6 +73,7 @@
         - 'find an optimal structure for this information' 
         - 'design an interface query to convert input information into an output information type (like an insight, a cause, a new interface in data, problem-solving automation workflow)' 
         - 'assemble a meaningful (relevant) format of this information for this intent' 
+        - 'find the set of questions or formats that makes finding a solution trivial'
 
 
   - attributes: 
