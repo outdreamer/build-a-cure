@@ -20,7 +20,6 @@
       - identifying other problem spaces where the insight would develop
       - identifying insight patterns (did this insight follow similar patterns as other insights, like variable type relationships, which could have been looked for first, instead of generating this specific insight)
   
-  
   - attributes: 
     - reusability (insights can have a limited opportunity of applicability, and may have scope beyond their host system) 
   
@@ -30,9 +29,7 @@
     - identify insight
 
   - objects:
-
     - rule structure (combination of rules, sequence of rules, position of rules) 
-
     - units of insight paths include core functions to produce insights, such as:
         - change/split/merge type
         - change attribute value/set
@@ -46,8 +43,8 @@
         - remove/add assumption/requirement/dependency/connection
 
   - structures: 
-
-    - insight path: a reusable cross-system pattern, usually built out of core functions from a general interface filter (type, intent, function, structure), that allows generation of insights. 
+    - insight path: 
+      - a reusable cross-system pattern, usually built out of core functions from a general interface filter (type, intent, function, structure), that allows generation of insights. 
         It can be as simple as a function like differentiate, a standardizing attribute like relevance, or involve a standard object like a simplifying question. 
         It does not refer to specific strategies unless those strategies can be used to generate insights. 
         Insight paths usually consist of abstract or structural rules like 'match structure' or 'identify type'.

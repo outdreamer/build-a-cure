@@ -97,7 +97,21 @@
     - operate on intents (intent-modification intent) 
     - derive intent as a dependency of the intent interface conversion function  
     - map intent to direction & assess solution progress by movement in that direction 
-
+    - mapping intent to structure & vice versa is shown in FIG. 18 (Intent-matching) 
+        - Fig. 18 depicts examples of matching operations between intent & structure.
+        - In the 'Mapping Structure to Intent' section on the top left of Fig. 18, mapping intent to direction is depicted in a system as allowing the identification of different intents, given the general intent of the direction.
+        - In the 'Identifying side effects of Intents' section on the top right of Fig. 18, an example of deriving intents in a system - intents that have side effects - is depicted.
+            - The system limits may force someone prioritizing a priority to move in certain directions that they ordinarily would not if left to make their own decisions in a vacuum. 
+            - They start from a selfish priority, moving in the direction of being uncriticizable and building functions to enable that intent, and by the system they're operating in, they're forced to move in other directions (making a gesture of charity, copying agent with priority of improving functionality of other nodes), while still having the same intent.
+            - The agent prioritizing that priorit will have pivot/angle/rotation functions/concepts, and their decisions will be buildable with those functions. The agent prioritizing improving other nodes' functionality will have cooperation, sharing, problem-solving functions and their decisions will be buildable with those functions.
+            - This is an example of how different intents can not only have the same output (arriving at the same end node), but a similar/overlapping trajectory at various points, while still leaving traces of different intents in their side effects (traces such as functionality developed to serve different intents, at different stages of development).
+        - In the 'Intents mapped to structure' section on the bottom half of Fig. 18, examples of structural input intents are depicted on the left, which can adjacently support example structural output intents on the right.
+        - For example:
+            - Intent 1A (Unenforced equal growth) and intent 1B (Enforced equal growth) may support intents like intent 1C (See which entity gets to the corner first) and intent 1D (Create the emergent entities).
+            - Intent 2A (Inject variance in growth inputs) and intent 2B (Inject variance in growth inputs) may support intents like intent 2C (Create field of potential for emergent entities to grow, either within an existing or new boundary) and intent 2D (Create interaction space on emergent entity layer).
+            - Intent 3A (Inject variance in state (position after a process)) and intent 3B (Incentive to move toward corners decreases, leading eventually to corner erosion) may support intents like intent 3C (Create temporary interaction layer as needed to resolve question of which entities emerge or create their functions, then dissolve it by switching their positions).
+            - Intent 4A (Create evenly distributed growth incentives once corner objects & functions develop) and intent 4B (Remove square boundary & let all functions & objects develop new interaction patterns in outer circle) may support intents like intent 4C (Developing new layer functionality) and 4D (Apply a standardizing, transforming, or reducing filter (square boundary) to a system).
+    
     - function to select priorities/metrics
       - something that not everyone has the potential to be (non-structural) is more valuable if it optimizes some metric
       - reductiveness: the lowest/simplest structure that complies with a metric (reductive choice like a parasite) also reduces potential, whereas the highest structure that complies with a metric (empowering choice like a mammal) increases potential
