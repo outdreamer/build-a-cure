@@ -18,12 +18,13 @@ to do: organize into docs
 
   - which executes the following problem-solving workflow of applying a concept to a structure, to solve the problem of 'identifying all possible error types':
     - iterate concepts
-      - apply concept
-        - identify differences caused by concept on different interfaces
-          - identify error types in differences
-            - identify structural solutions to error types
-              - apply filter 'check structural solutions impact on existing solution metrics'
-      
+      - apply concept (fake) to existing components (inputs like data, outputs like labels, input-output linking units like functions, input-output links like network structure)
+        - identify differences caused by concept on different interfaces (different intent of fake data vs. valid data)
+          - identify error types in differences (fake data that can look like valid data)
+            - identify structures to identify error type (combination of low-cost signals without high-cost soft-required identifying signals)
+              - identify structural solutions to error types
+                - apply filter 'check structural solutions impact on existing solution metrics'
+        
 - example: frame a relevant insight to persuade a particular audience
 
   - insight: 'abusing power hurts society and occurs with a lack of intelligence'
