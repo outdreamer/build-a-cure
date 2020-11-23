@@ -29,6 +29,22 @@
       - the purpose of a function, app or other component should be to invalidate itself - so the final state of a function is erasing itself once the user doesnt need it
       - functions should be entitled to push back on general app or other containing structure intents, if they are capable of spotting a probleem that could cascade upward that the app or other structures cannot (just like an engineer can see problems that the organization or industry cannot bc of incentive conflicts, profit cycles, & other structures)
 
+    - example of applying core interface to logic interface includes generating core logic component combinations:
+
+        - apply ([assumption1 + priority 2 + condition 3], function 4)
+        - permission defined as a combination of core components: access to (or valid input of) 'activation' sub-function of a function object
+            - function object with metadata like:
+                - inputs/outputs
+                - alternate implementations
+                - current implementation logic
+                    - conditions
+                    - assignments
+                    - iterators
+                - system objects
+                    - optimization points
+                    - vertexes
+                - types: input/output data types, condition/assignment/iterator types, memory types
+                - sub-functions: activate, inject, import, compile, standardize, optimize, etc
 
 ## Debugging
 

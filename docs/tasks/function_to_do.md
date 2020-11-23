@@ -2,11 +2,21 @@
 
   - make interface query output diagram
 
-  - query for logic in examples when implmenting functions
+  - organize examplee
+    - label examples so they can be queried more structurally
+    - query for logic in examples when implementing functions
 
   - generate default function list
 
-  - organize problem/interface functions in interface definitions
+  - organize functions in problem/interface definitions, before organizing functions in implementations/*
+
+  - organize interface analysis logic definitions
+
+  - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
+    - resolve duplicate functions
+    - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
+
+  - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
 
   - de-duplicate logic
     - integrate problem_solving_matching.md
@@ -56,17 +66,11 @@
         [0019] Fig. 3 is a diagram of example components of one or more devices of FIG. 2. 
         [0020] Fig. 4 General Execution Workflow is an overview of an example process 400 for implementing problem-solving automation workflows in steps 402 - 410, from initial problem formatting to solution matching to solution application & analysis. 
           
-  - organize interface analysis logic definitions
-
-  - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
-    - resolve duplicate functions
-    - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
 
   - using set theory in query operations:
     - edges as core organizing/formatting operations (find/apply) & interfaces (connecting/explanatory concepts/functions)
     https://en.wikipedia.org/wiki/Hypergraph
 
-  - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
 
   - AI that identifies complexity requiring other structures to be added/embedded in analysis network
     - example: identifying a 'map' structure to store a set of definitions (like to contain a language/dependency graph), and a 'filter' structure to store a set of standards (like to standardize to that language)
@@ -132,29 +136,27 @@
       - mis-aligning functionality (learning/potential) with requirement (repeating task)
       - mis-aligning intent of a product (making customer independent) with dependency structures (requires customer to use it beyond its value to them)
 
-  - finish dilemma example formats
+  - finish dilemma problem type example formats
+  
   - query examples for use cases like:
     - lack of information stored (match problem of type 'information lack' with interface query 'check pattern interface for similar patterns')
     - query problem breakdown & integration diagram
     - calculating various different problem breakdown strategies first before executing normal query-building logic for each
+  
   - give interface math examples, like standardization of all distinct components into their own interfaces, rather than within a system context
       - rather than framing the behavior of objects in a system, you can:
         - remove the assumption of the system limits forcing interactions
         - frame each object on its own interface (containing all its possible forms, variables, attributes, generators, cooperative contexts, etc)
         - compute the interactions of those interfaces
+  
   - give example of generating problem types by applying structure
     - for instance, a common problem type is a mismatch/imbalance
       - by applying the 'mismatch' to the cost/benefit relationship, you get an 'inefficiency' problem type, which can be defined as a mismatch/imbalance between the cost & benefit, favoring the cost side (the negative object out of (cost, benefit), associated with problems)
+  
   - add examples of system/object/rule/type change patterns
+  
   - include example workflows with example problems
     - include example of how to generate other workflows (different starting/ending points & trajectories)
-  
-  - interface analysis example with government components: 
-    - democracy with an individual leader or group of elites/advisers/influencers which are treated as representatives of different population subsets is inherently contradictory - an alternative is in moving the leader to the same level as their adjacent advisers & other influencers, and giving them executive or majority/weighted/veto power over some decisions like whether to go to war, and the structure of the top advisers & the president would change according to needs
-      - do they need a consensus? then make sure the network of advisers has an odd number
-      - do they need an accurate resolution rather than an efficient one? then allow an even number & have regular re-calculations of votes until the issue is resolved
-    - the application of different analysis methods in calculating the different probable & relevant perspectives on an issue & the optimal structure of the issue should be integrated as AI voters into human decision systems, as an independent third party that is biased in its incentives embedded in its learning algorithm (which can be selected for relevant issues, like a bias toward priorities like accuracy or efficiency depending on what type of decision is required) but not biased by financial incentives
-    - a network or other structure of biases that is updated constantly is one way to counteract over-prioritization leading to a particular bias
 
 
 ## diagram
