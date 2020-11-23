@@ -1,5 +1,9 @@
 # Software Concepts
 
+- example of finding relevant code/resources
+    - grep for known id's, urls, code, config, paths, params, keywords
+        - iterate through results
+            - look for id's, urls, code, config, paths, params, keywords
 
 ## Interface Analysis
 
