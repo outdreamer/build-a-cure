@@ -1,5 +1,49 @@
 to do: organize into docs
 
+  
+- example: frame a relevant insight to persuade a particular audience
+
+  - insight: 'abusing power hurts society and occurs with a lack of intelligence'
+  - query for the requirements of their perspective
+  - frame the insight as a requirement-invalidator
+    - example: 
+      - to persuade a dictator to stop abusing their power
+        - identify one of their requirements: feeling powerful
+        - frame the insight as a requirement-invalidator: 
+          - abusing power is actually a need rather than a power, bc it shows a lack of a different/greater power (intelligence, to form self-awareness/control)
+
+  - query for their problems
+  - frame the insight as a problem-solver
+    - example: 
+      - identify their problems:
+        - a dictator has problems of understanding (understanding why they experience opposition) & safety (how to hand off power without being killed)
+      - frame the insight as a problem-solver, linking the problem (experience opposition) to the cause (creating vs. fixing problems), enabling querying for solutions to that cause
+        - they experience opposition bc their power handling strategies cause more problems for society than they solve, bc of their local bias, which is inefficient at organizing work to solve problems
+        - they arent safe bc they havent fixed prior problems they caused
+      - both of these problems are caused by lack of intelligence (formatted as organized work)
+
+  - how would you format an insight to achieve a particular conclusion automatically:
+    - the goal is to persuade an agent to move their position/change their state
+      - in order to do that, they need to understand they are missing an efficient opportunity to improve their state
+        - an efficient opportunity to move would be a clear set of steps
+          - a set of steps such as understanding, linking one of their problems (like a requirement) to an adjacent solution that minimizes their work (apply organization to agencies/employees' work)
+    
+    - how would you identify 'an efficiently clear set of steps to improve their state' as a structural solution to achieve the intent of 'giving an agent motivation to change/move to a particular state/position'
+      - apply the insights:
+        - 'movement is likelier to occur on efficient (low-cost) paths'
+        - 'understanding is a type of efficiency, bc it makes optimal solutions clearer to agents, rather than requiring them to build understanding & figure out which path to take'
+        - 'requirement is a type of problem'
+        - 'dictators have problems such as lack of intelligence, which takes the form of understanding'
+        - 'dictators create more problems than they solve'
+        - 'in order to create intelligence & solve problems, apply organization/structure to generate efficiencies in work allocation'
+
+- interface analysis example with government components: 
+    - democracy with an individual leader or group of elites/advisers/influencers which are treated as representatives of different population subsets is inherently contradictory - an alternative is in moving the leader to the same level as their adjacent advisers & other influencers, and giving them executive or majority/weighted/veto power over some decisions like whether to go to war, and the structure of the top advisers & the president would change according to needs
+      - do they need a consensus? then make sure the network of advisers has an odd number
+      - do they need an accurate resolution rather than an efficient one? then allow an even number & have regular re-calculations of votes until the issue is resolved
+    - the application of different analysis methods in calculating the different probable & relevant perspectives on an issue & the optimal structure of the issue should be integrated as AI voters into human decision systems, as an independent third party that is biased in its incentives embedded in its learning algorithm (which can be selected for relevant issues, like a bias toward priorities like accuracy or efficiency depending on what type of decision is required) but not biased by financial incentives
+    - a network or other structure of biases that is updated constantly is one way to counteract over-prioritization leading to a particular bias
+
 - to handle intellectual property theft, offer IP/patents as a product/service (implemented as a licensed usage) to IP thieves at a lower cost than IP theft costs, where important IP like medical research is offered at a subsidized discount, to encourage different competitors trying to apply it the best/quickest
 
 - offer extra data or future experiment participation options as a way of paying for experimental drugs
