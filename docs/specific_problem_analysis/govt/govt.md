@@ -1,6 +1,6 @@
 to do: organize into docs
 
-- applying a concept to a neural network to identify more error types:
+- applying a concept to a neural network to identify more error types & optimized network structure:
 
   - applying the concept of 'false':
     - allows calculations of combinations, with other existing concepts like:
@@ -22,8 +22,11 @@ to do: organize into docs
         - identify differences caused by concept on different interfaces (different intent of fake data vs. valid data)
           - identify error types in differences (fake data that can look like valid data)
             - identify structures to identify error type (combination of low-cost signals without high-cost soft-required identifying signals)
-              - identify structural solutions to error types
-                - apply filter 'check structural solutions impact on existing solution metrics'
+              - identify structural solutions to error types (add hard requirement in case where error type structure occurs)
+                - apply filter 'check structural solutions impact on existing solution metrics' (check for error types like false similarities in this solution, in the form of counterexamples)
+
+  - solution filtering logic needs to generate counterexamples
+  - 'false similarities' system problem type can also be applied instead of the conceptual route above
         
 - example: frame a relevant insight to persuade a particular audience
 
