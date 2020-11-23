@@ -1,6 +1,29 @@
 to do: organize into docs
 
-  
+- applying a concept to a neural network to identify more error types:
+
+  - applying the concept of 'false':
+    - allows calculations of combinations, with other existing concepts like:
+      - 'false' + 'data'
+        - 'static output data' (not changeable) permuted as 'dynamic input data' (changeable by an agent),
+          - resulting from the decisions of an agent, who can have 'false'-related intents, like 'intentional falsehood'
+            - in the format of: 'intent to fake data to get a particular output without the signals of validity'
+              - by finding: 'false signals that are easily faked and are sufficient to get the target output'
+        - 'fake data' having signals that may differ from valid data on the intent interface, bc fake data has a different intent:
+          - "to get a 'true' output with lower cost"
+      - which will help the network identify an error type it cant spot with its current algorithm, like:
+        - 'combinations of low-cost signals without another semi-required high-cost signal, being identified as the "true" output'
+      - which can have a structural fix of:
+        - 'applying a hard requirement to the high-cost signal in the case where only low-cost signals are found in data'
+
+  - which executes the following problem-solving workflow of applying a concept to a structure, to solve the problem of 'identifying all possible error types':
+    - iterate concepts
+      - apply concept
+        - identify differences caused by concept on different interfaces
+          - identify error types in differences
+            - identify structural solutions to error types
+              - apply filter 'check structural solutions impact on existing solution metrics'
+      
 - example: frame a relevant insight to persuade a particular audience
 
   - insight: 'abusing power hurts society and occurs with a lack of intelligence'
