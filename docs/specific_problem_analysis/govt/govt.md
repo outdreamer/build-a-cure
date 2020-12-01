@@ -1,6 +1,6 @@
 to do: organize into docs
 
-  - apply interfaces to social dynamics: 
+  - apply interfaces to power dynamics: 
     - context applied to ethical objects: 
       - conditionally good (locally good)
     - matching related structures to generate prioritized concepts like balance: 
@@ -10,7 +10,13 @@ to do: organize into docs
     - integrated analysis of decisions: 
       - with other decisions (local/global, economic/scientific)
       - with time (past/future states)
+      - with decisions/time (decision history)
+        - analyzing investment potential when calculating tax burden
       - with potential (limiting/expanding options)
+    - applying intent to ai model networks: 
+      - adding simulators & monitors to watch models that veer in one priority direction more, making them pass extra tests based on degree of distortion
+    - applying alternatives:
+      - find new interfaces & structures to reverse direction if a big interface is discovered and pivot faster to discoveries that dont invalidate current systems
   
 - applying a concept to a neural network to identify more error types & optimized network structure:
 
