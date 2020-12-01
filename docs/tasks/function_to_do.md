@@ -2,11 +2,19 @@
 
   - make interface query output diagram
 
-  - organize examplee
+  - organize examples
     - label examples so they can be queried more structurally
     - query for logic in examples when implementing functions
 
+    - structural query example diagram for GANs + image compression problem
+
   - generate default function list
+
+  - add example of how to generate the full set of unit definition routes of a concept
+    - generate different structural routes using core structure, like how cost is a core structure of incentives, so generate incentive structural definition routes by permuting types of cost in the relevant variation format
+    - give example of how to translate structural route to other interfaces
+
+  - give example of basic structure-intent map with db key-val structure used to store nested structures
 
   - organize functions in problem/interface definitions, before organizing functions in implementations/*
 

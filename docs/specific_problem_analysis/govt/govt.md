@@ -1,5 +1,17 @@
 to do: organize into docs
 
+  - apply interfaces to social dynamics: 
+    - context applied to ethical objects: 
+      - conditionally good (locally good)
+    - matching related structures to generate prioritized concepts like balance: 
+      - matching power with responsibility (access to global information means global responsibility)
+      - combining information with independence-generating tools (product testing tool, truth assessment tools)
+    - using tools with complexity as a side effect: integrating AI and algorithms into resource distribution so error complexity can provide a conduit for accidental resource transfers to oppressed groups
+    - integrated analysis of decisions: 
+      - with other decisions (local/global, economic/scientific)
+      - with time (past/future states)
+      - with potential (limiting/expanding options)
+  
 - applying a concept to a neural network to identify more error types & optimized network structure:
 
   - applying the concept of 'false':
