@@ -10,26 +10,41 @@
 
   - generate default function list
 
+  - add mapping for data sci use cases => tools
+
   - add example of how to generate the full set of unit definition routes of a concept
     - generate different structural routes using core structure, like how cost is a core structure of incentives, so generate incentive structural definition routes by permuting types of cost in the relevant variation format
     - give example of how to translate structural route to other interfaces
 
   - give example of basic structure-intent map with db key-val structure used to store nested structures
+    - intent of a key-value store is for lookups of info with unique keys in a map
+    - lookups of nested values would otherwise have to be stored in rdbms or existing nesting-supporting formats like json, given that a 'nested' structures implies an intent to store relationships to associated objects
+    - key structure can store strings - path in nested structure can be converted into a string
+      - nested structures can add delimiters & type tags to resolve ambiguities like unnamed/unordered lists
+      - by adding organization through type tags, info in nested structures can be stored in a map, with the intent of preventing information loss
 
-  - organize functions in problem/interface definitions, before organizing functions in implementations/*
+      - structure intents
+        - map: information organized by position
+        - key: a string to find information at a position
+        - string: a sequence (like a path in a nested structure)
+        - concatenate: combine into a set with different dimension values (value count, delimiter count, position)
+        - concatenated string: preserve order of list (like a list of path steps in a nested structure)
+        - delimiter: differentiate within a set concatenated into a string or within a list/set
+        - nested value: information associated with other information by position
+        - nested structure: structure organizing information with non-intersecting (unique) sequences of steps
 
-  - organize interface analysis logic definitions
-
-  - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
-    - resolve duplicate functions
-    - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
+      - you can see how you can query for objects with intents that would link input (like a json object) with output (info indexed in a db) formats, given the intents using standardized terms above
 
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
 
   - de-duplicate logic
+    - organize interface analysis logic definitions
+      - organize functions in problem/interface definitions, before organizing functions in implementations/*
     - integrate problem_solving_matching.md
-    - integrate find/apply/build/derive logic from system_analysis/, integrate maps/defs*.json
-    - de-duplicate & separate interface analysis logic into implementation/functions
+    - integrate find/apply/build/derive logic from system_analysis/ & maps/defs*.json
+    - separate interface analysis logic into implementation/functions (functions dont need unique info)
+    - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
+      - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
 
     - integrate rules from other diagrams not included in patent applications to relevant documents
         [0010] Example embodiments will be described and explained with additional specificity and detail through the use of the accompanying drawings. 
