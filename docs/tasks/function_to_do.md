@@ -16,6 +16,29 @@
     - generate different structural routes using core structure, like how cost is a core structure of incentives, so generate incentive structural definition routes by permuting types of cost in the relevant variation format
     - give example of how to translate structural route to other interfaces
 
+  - nn structure generation
+  
+    - default objects/functions/concepts in a neural net 
+      - aggregation
+      - filter
+      - combine
+      - compare (conflict problem type)
+
+      - these functions are relevant to various problem-solving automation workflows 
+        - break a problem into sub-problems and aggregate
+        - start with core functions & apply distortions to build solution structure
+
+      - neural nets can be built to implement these variants of solution automation workflows
+        - they can vary on other parameters, like
+          - structures to start from 
+            - interaction layer 
+            - causal structures
+            - problem type structures
+          - definitions
+          - direction to move toward (intent, priority)
+
+      - neural nets can be generated for an intent using combinations of these objects with these variants
+
   - give example of basic structure-intent map with db key-val structure used to store nested structures
     - intent of a key-value store is for lookups of info with unique keys in a map
     - lookups of nested values would otherwise have to be stored in rdbms or existing nesting-supporting formats like json, given that a 'nested' structures implies an intent to store relationships to associated objects
@@ -34,6 +57,8 @@
         - nested structure: structure organizing information with non-intersecting (unique) sequences of steps
 
       - you can see how you can query for objects with intents that would link input (like a json object) with output (info indexed in a db) formats, given the intents using standardized terms above
+
+  - give example of deriving 'protein folding' as a key interface in the bio system, given the stability & interaction level with other systems
 
   - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
 
