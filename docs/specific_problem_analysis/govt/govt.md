@@ -20,10 +20,20 @@ to do: organize into docs
 
     - aligning vectors to resolve conflicts (like debt/opportunity imbalances & reducing risks)
       - organizing debts & lawsuits to resolve unpaid debts
-        - people on a debt chain can coordinate resource to sue people who dont pay, reducing their risk of loss
-        - opportunities & other resources can be traded between people on debt chains/loops, to resolve other inequalities
-          - risk of default can be converted into a lawsuit opportunity & an opportunity for future contract/work with investment in education of defaulter
-          - resources like information about profit opportunities can be organized by loaners to help borrowers meet their goals
+        - loaners on a debt chain can coordinate resource to sue borrowers who dont pay, reducing their risk of loss
+          - loaners can also organize the debt so that losses accrue to the borrower if the borrower fails
+            - example: if the borrower starts a business, loaners can require that they use suppliers already on the debt chain
+              - if the borrower's business fails, they could either lose a key dependency to continue their business/achieve another goal, or gain an incentive to repay loans
+              - this incentive could also be built in to the loan before business outcome is determined
+                - people who the borrowers also owe money to, so the borrower has info that their loaners are sharing info, which increases their incentive to pay them back
+                - other people who also owe the loaners money, so the loaner is likelier to be paid by the supplier
+
+        - profit/learning opportunities & other resources like cost information, time, & responsibility can be traded between people on debt chains/loops, to resolve other inequalities
+          - risk of default (responsibility for broken contract term) can be converted into a lawsuit opportunity & an opportunity for future contract/work with investment in education of defaulter
+          - resources like information about profit opportunities & cost risks can be organized by loaners to help borrowers meet their goals
+          - loaners on debt chains can invest in AI to predict success of business decisions and investments, to help borrowers avoid losses that will create losses for loaners
+          - loaners can minimize their losses by using same AI to predict losses of other borrowers (they didnt personally lend to) & betting against borrowers making bad business decisions
+          - loaners can reduce threats to borrowers' businesses by allocating the same risk or different opportunities to other/alternative interim technologies/businesses with lower profit potential, potentially anticompetitive behavior which can be spotted with AI or contradictory/aligning/alternative/equivalent vectors in a vectorized problem space
   
 - applying a concept to a neural network to identify more error types & optimized network structure:
 
