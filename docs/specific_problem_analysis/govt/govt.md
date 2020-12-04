@@ -17,6 +17,13 @@ to do: organize into docs
       - adding simulators & monitors to watch models that veer in one priority direction more, making them pass extra tests based on degree of distortion
     - applying alternatives:
       - find new interfaces & structures to reverse direction if a big interface is discovered and pivot faster to discoveries that dont invalidate current systems
+
+    - aligning vectors to resolve conflicts (like debt/opportunity imbalances & reducing risks)
+      - organizing debts & lawsuits to resolve unpaid debts
+        - people on a debt chain can coordinate resource to sue people who dont pay, reducing their risk of loss
+        - opportunities & other resources can be traded between people on debt chains/loops, to resolve other inequalities
+          - risk of default can be converted into a lawsuit opportunity & an opportunity for future contract/work with investment in education of defaulter
+          - resources like information about profit opportunities can be organized by loaners to help borrowers meet their goals
   
 - applying a concept to a neural network to identify more error types & optimized network structure:
 
