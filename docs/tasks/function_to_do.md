@@ -16,16 +16,28 @@
     - generate different structural routes using core structure, like how cost is a core structure of incentives, so generate incentive structural definition routes by permuting types of cost in the relevant variation format
     - give example of how to translate structural route to other interfaces
 
+  - code generation
+    - abstraction levels including:
+      - plain language translation: "for item in iterator, set val = item" => "for item in list, set val to item"
+      - low abstraction
+        - translate actual logic to one layer of abstraction (for item in list, set val to item => "get value from json data source")
+      - medium abstraction
+        - high-impact functions to examine (interacting with os, changing memory usage/buffer/queue interactions, etc)
+        - translate actual keywords (for loop/equals/if) to core logic keywords (find/assign/filter/check)
+      - high abstraction
+        - business/application intents in user terms (change "filter for loop by if attribute condition" to "find user in group with most recent updates")
+      - graphs for systems of interacting objects (queues, buffers, memory locations) on different layers (memory retention/caching/cleanup, location reliability, performance, data structures & other inputs)
+
   - nn structure generation
-  
+
     - default objects/functions/concepts in a neural net 
       - aggregation
       - filter
       - combine
       - compare (conflict problem type)
 
-      - these functions are relevant to various problem-solving automation workflows 
-        - break a problem into sub-problems and aggregate
+      - these functions are relevant to various problem-solving automation workflows, such as:
+        - break a problem into sub-problems and aggregate solutions
         - start with core functions & apply distortions to build solution structure
 
       - neural nets can be built to implement these variants of solution automation workflows
@@ -37,7 +49,7 @@
           - definitions
           - direction to move toward (intent, priority)
 
-      - neural nets can be generated for an intent using combinations of these objects with these variants
+      - neural nets can be generated for a particular problem-solving intent using combinations of these objects with these variants
 
   - give example of basic structure-intent map with db key-val structure used to store nested structures
     - intent of a key-value store is for lookups of info with unique keys in a map
