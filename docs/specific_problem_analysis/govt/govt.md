@@ -34,7 +34,15 @@ to do: organize into docs
           - loaners on debt chains can invest in AI to predict success of business decisions and investments, to help borrowers avoid losses that will create losses for loaners
           - loaners can minimize their losses by using same AI to predict losses of other borrowers (they didnt personally lend to) & betting against borrowers making bad business decisions
           - loaners can reduce threats to borrowers' businesses by allocating the same risk or different opportunities to other/alternative interim technologies/businesses with lower profit potential, potentially anticompetitive behavior which can be spotted with AI or contradictory/aligning/alternative/equivalent vectors in a vectorized problem space
-  
+          - borrowers can pay with data if their business fails to train the AI to identify business risk & success probabilities
+          - vectorized objects: crime, debt, contract, information (prediction, opportunity info, organization/alignment/efficiency info), work, time, profit, cost, interest, incentive, tax, value, risk, opportunity, litigation
+            - all of these objects can be a resource (asset) to different positions
+              - cost can be a resource in debt market suppliers (loaners) and legal market suppliers (lawyers)
+              - risk is a resource in risk/prediction/investing/insurance markets, such as for short-sellers & insurers with more info about risks than buyers
+              - crime is a resource in enforcement, labor, crime prevention, education & debt markets
+              - inefficiencies in these markets occur with cross-market misalignments/gaps/imbalances, such as:
+                - when info imbalances are allowed to persist (so info is concentrated on exploiters side), incentives may only be clear to exploited agents when its too high-cost to choose non-incentivized actions, so inequalities persist in other structures like opportunities
+
 - applying a concept to a neural network to identify more error types & optimized network structure:
 
   - applying the concept of 'false':
