@@ -1,6 +1,6 @@
 to do: organize into docs
 
-  - apply interfaces to power dynamics: 
+  - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
       - conditionally good (locally good)
     - matching related structures to generate prioritized concepts like balance: 
@@ -18,7 +18,7 @@ to do: organize into docs
     - applying alternatives:
       - find new interfaces & structures to reverse direction if a big interface is discovered and pivot faster to discoveries that dont invalidate current systems
 
-    - aligning vectors to resolve conflicts (like debt/opportunity imbalances & reducing risks)
+    - example of aligning vectors to resolve conflicts (like debt/opportunity imbalances & reducing risks)
       - organizing debts & lawsuits to resolve unpaid debts
         - loaners on a debt chain can coordinate resource to sue borrowers who dont pay, reducing their risk of loss
           - loaners can also organize the debt so that losses accrue to the borrower if the borrower fails

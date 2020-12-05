@@ -2,6 +2,13 @@
 
   - make interface query output diagram
 
+  - link to stressor model
+    - is stress being routed to brain from elsewhere in bio system bc it can handle this type better given its response to free radicals, which may be similar to other stressors routed to brain
+    - can other forms of stress be converted to a similar format/structure as free radicals or other stressor types handled best in the brain?
+    - what other stressor formats/structures/types are handled optimally in a particular system, and are those stressor routed there by some existing mechanism?
+    - what is the relationship of free radicals to learning?
+    https://medicalxpress.com/news/2020-12-free-radicals-good-brain-insights.html
+
   - organize examples
     - label examples so they can be queried more structurally
     - query for logic in examples when implementing functions
@@ -16,7 +23,8 @@
     - generate different structural routes using core structure, like how cost is a core structure of incentives, so generate incentive structural definition routes by permuting types of cost in the relevant variation format
     - give example of how to translate structural route to other interfaces
 
-  - code generation
+  - code generation example
+
     - abstraction levels including:
       - plain language translation: "for item in iterator, set val = item" => "for item in list, set val to item"
       - low abstraction
@@ -28,7 +36,7 @@
         - business/application intents in user terms (change "filter for loop by if attribute condition" to "find user in group with most recent updates")
       - graphs for systems of interacting objects (queues, buffers, memory locations) on different layers (memory retention/caching/cleanup, location reliability, performance, data structures & other inputs)
 
-  - nn structure generation
+  - nn structure generation example
 
     - default objects/functions/concepts in a neural net 
       - aggregation
