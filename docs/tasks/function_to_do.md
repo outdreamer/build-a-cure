@@ -9,7 +9,7 @@
         - math version: moving toward highest negative slope
         - system version: incentives moving toward efficiency 
         - structural version: moving toward lowest-cost motion
-        - information version: with an information constraint, find adjacent optimal according to optimal definition
+        - information version: with an information constraint, find information relevant to adjacent optimal according to optimal definition
         - physics version: minimizing energy expenditure in the form of motion & calculation
         - physical version: a ball circling toward a drain
 
@@ -21,10 +21,16 @@
 
       - why would you do this calculation? to find:
         - a relevance structure in the form of patterns of coordinating differences across change types (moving horizontally toward a point and vertically to a point) with a priority (constraint)
-        - a definition of optimal/efficiency/cost/limit
+        - a definition of optimal/efficiency/cost/limit/error
         - alternative objects to seek (valleys, centers created by similar change on both sides, slowing change speed, points where slope = 0 and y is less than current y) to solve optimization problem
         - alternative methods of finding optimal points: 
           - using patterns in another change type (multi-dimensional, converging) or other difference parameters (distance, sign, direction, dimension, slope, angle) to find optimal points
+          - method to navigate an optimization topology by navigating a proxy topology, like an error topology with adjacence determining likely error types/values, a pattern topology, or a change topology
+          - method to differentiate relevant objects by minimal parameters that can be used as a map to navigate the function to find optimal points
+            - differentiate error, cost, and optimal by a parameter set that reduces calculations (like potential/change types of errors/costs/optimals)
+              - change type of error is exponential reduction, in parallel with cost change type
+              - optimal change (identifying new optimal points) increases marginally with parallel (positive) cost change 
+              - optimal points in a function with change types (change speed changes, change speed change changes, change type change speed changes) follow patterns with change types (continue change type, stabilize at lower cost change type, stop change)
         - other structures/formats that can be used to calculate the original optimization solution (reducing dimensions, switching to progression/vector format) and pull relevant insights that may be more efficient at calculating the optimization (patterns of efficiencies/overlap/similarity/alignment/convergence)
 
   - link to stressor model
