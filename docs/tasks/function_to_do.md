@@ -4,17 +4,26 @@
 
   - give example of mapping an insight to math interface, and structures that can hold/generate the insight, as well as content that can describe the insight
 
-    - example insight: gradient descent ('moving in direction of steepest descent of slope')
-      - math version: moving toward highest negative slope
-      - system version: moving toward efficiency 
-      - structural version: moving toward lowest-cost motion
-      - physical version: a ball circling toward a drain
+    - example insight: 
+      - gradient descent ('moving in direction of steepest descent of slope')
+        - math version: moving toward highest negative slope
+        - system version: incentives moving toward efficiency 
+        - structural version: moving toward lowest-cost motion
+        - physical version: a ball circling toward a drain
 
       - what structures can execute the following core operations for this insight
-        - describe: 
-        - hold: 
-        - generate: 
-      
+        - describe: increase of a parameter in the same direction as a function exerting force (vertically lower)
+        - hold: a structure that can support various optimal points (like a set of peaks), and a similarity between a parameter increase & the function force direction
+        - replace: a function exerting force in the same direction (vertically lower) or towards the optimal point (horizontally toward the center)
+        - generate: a structure that can generate the supporting structure & either the function or the parameter increase
+
+      - why would you do this calculation? to find:
+        - a relevance structure:
+          - in the form of patterns of coordinating differences across change types (moving horizontally toward a point and vertically to a point)
+        - alternative methods of finding optimal points: 
+          - using patterns in another change type (multi-dimensional, converging) or other difference parameters (distance, sign, direction, dimension, slope, angle) to find optimal points
+        - other structures/formats that can be used to calculate the original optimization solution (reducing dimensions, switching to progression/vector format) and pull relevant insights that may be more efficient at calculating the optimization (patterns of efficiencies/overlap/similarity/alignment/convergence)
+
   - link to stressor model
     - is stress being routed to brain from elsewhere in bio system bc it can handle this type better given its response to free radicals, which may be similar to other stressors routed to brain
     - can other forms of stress be converted to a similar format/structure as free radicals or other stressor types handled best in the brain?
