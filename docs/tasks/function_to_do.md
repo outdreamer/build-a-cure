@@ -4,9 +4,11 @@
 
   - identify counterarguments: remove assumptions/parameters until it contradicts a required parameter of the statement to contradict
 
-  - identify fake news: find attention-generating objects (hypocrisy, stupidity, obvious facts, obvious reductions/jokes, oversimplifications, falsehoods, unprovable statements, controversial statements, mixed types (statements of opinion as fact)
+  - identify fake news: find attention-generating objects (default responses to incentives (hypocrisy/selfishness), emotional/belief-based statements, low-cost statements (virtue-signaling), stupidity/misunderstanding/repetition, obvious facts/lies/reductions/jokes, oversimplifications, falsehoods, unprovable statements, controversial statements, mixed types (statements of opinion as fact), irrelevant statements)
 
-  - identify fallacious arguments: arguments with at least one parameter in common with structures, facts or logical fact-connection methods or priorities of a good argument
+  - identify fallacious arguments: arguments with at least one parameter in common with facts, or structures (logical fact-connection methods/priorities) of a good argument
+
+  - identify ambiguous arguments: arguments with undefined/conflated terms, abstract terms, lack of clear references, applicability to multiple situations
 
   - give example of mapping an insight to math interface, and structures that can hold/generate the insight, as well as content that can describe the insight
 
