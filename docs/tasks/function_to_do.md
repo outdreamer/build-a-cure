@@ -2,6 +2,12 @@
 
   - make interface query output diagram
 
+  - identify counterarguments: remove assumptions/parameters until it contradicts a required parameter of the statement to contradict
+
+  - identify fake news: find attention-generating objects (hypocrisy, stupidity, obvious facts, obvious reductions/jokes, oversimplifications, falsehoods, unprovable statements, controversial statements, mixed types (statements of opinion as fact)
+
+  - identify fallacious arguments: arguments with at least one parameter in common with structures, facts or logical fact-connection methods or priorities of a good argument
+
   - give example of mapping an insight to math interface, and structures that can hold/generate the insight, as well as content that can describe the insight
 
     - example insight: 
