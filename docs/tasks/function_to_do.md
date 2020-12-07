@@ -1,5 +1,10 @@
 # to do
 
+  - nn: the idea of 'health' as applied to neural network architecture includes:
+    - proper memory management
+      - dispose of resources as they become irrelevant, like an old memory cell that is creating problems or repairing DNA based on copy of correct version stored in memory
+      - storing useful memory efficiently, optimized for access/usage/security, protected from attacks like unauthorized overwrites from structural damage and/or a pathogen
+
   - current ways to lock people into/incentivize financial purchases or other resource transfers that help a business
     - contracts
     - loans
@@ -30,8 +35,17 @@
     - incentivized purchases 
       - bundled products 
       - dependent products
+      - products with inefficiencies built in (designed to break or otherwise require other purchases or fixes)
+      - products with complexities built in (designed to require purchases of other resources like reviews, which require resource investment of time to examine)
       - discounts 
       - subsidies
+
+    - optimal products
+      - require only a time investment in that users learn skills that make them independent
+      - create efficiencies for the user, in the form of free time (no time required examining reviews, disposing of product, updating/replacing/returning/fixing product)
+      - integrate with other optimal products to create combined & compounding efficiencies
+      - incentivize positive business practices to improve health of the network of markets
+      - help fund socially beneficial investments
 
     - ways to limit/enable purchases 
       - credit score/limit
@@ -44,7 +58,7 @@
       - should it steadily erode the idea of debt, so that transactions increasing general population debt are less incentivized than transactions reducing it 
       - should debt be recalculated historically & proportionally, to account for basic needs & actual contributions from uniquely good/high-impact/valuable decisions that few other people would have made in their situation, which indicates they are good at making financial decisions & should be making other financial decisions
 
-    - should you calculate incentives, identify inefficiencies or bad incentives, and remove them from the financial system completely, or should they be allowed in edge cases, like where 
+    - should you calculate incentives, identify inefficiencies or bad incentives, and remove them from the financial system completely, or should they be allowed in edge cases for given net positive intents, like where:
       - an otherwise good company needs to charge exploitative pricing to make profits to fund socially beneficial investments
       - an otherwise good country needs to gang up with other countries on an exploitative country
     - should the financial system be rewired to incentivize exclusively socially beneficial investments to reduce costs for & dependence of everyone
