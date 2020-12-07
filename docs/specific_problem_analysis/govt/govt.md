@@ -38,6 +38,9 @@ to do: organize into docs
 
     - check for efficient cross-interface paths (like how causal interface has a default connection by definition to function-sequence determination, which is useful for vectorized problem spaces) that can minimize traversal steps across interface query, and start from these paths in designing problem-solving workflow (convert problem to vectors, organize by functions that generate problem vectors, assigning sequence to generative functions by possible input/output paths which indicate causal dependencey, which has a direction component useful in structures with direction as a base object)
 
+    - format problem & solution by problem/interface metadata, then follow steps indicated by available/efficient cross-interface paths to convert those objects to solution format
+
+    - apply 'diversification' strategy to the above workflows (or other objects involving method selection, like solution aggregation method or metric selection method), selecting by maximum difference to maximize chances of finding useful information across workflows tried
 
   - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
