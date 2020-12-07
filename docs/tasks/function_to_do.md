@@ -42,7 +42,13 @@
     - what impact should a positive payment history or payment potential have on the interfaces involved (currency/debt markets, investment interest, govt policies)
       - should one company's positive payment history create systemic change incentivizing their decisions/strategies, and rewarding people in debt who could contribute to their goals
       - should it steadily erode the idea of debt, so that transactions increasing general population debt are less incentivized than transactions reducing it 
-      - should debt be recalculated historically & proportionally, to account for basic needs & actual contributions from uniquely good/high-impact/valuable decisions that few other people would have made in their situation
+      - should debt be recalculated historically & proportionally, to account for basic needs & actual contributions from uniquely good/high-impact/valuable decisions that few other people would have made in their situation, which indicates they are good at making financial decisions & should be making other financial decisions
+
+    - should you calculate incentives, identify inefficiencies or bad incentives, and remove them from the financial system completely, or should they be allowed in edge cases, like where 
+      - an otherwise good company needs to charge exploitative pricing to make profits to fund socially beneficial investments
+      - an otherwise good country needs to gang up with other countries on an exploitative country
+    - should the financial system be rewired to incentivize exclusively socially beneficial investments to reduce costs for & dependence of everyone
+    - should financial position be calculated based on ratio of problems solved/created and other metrics of integrated analysis
 
     - product value variables
       - exchange rates 
