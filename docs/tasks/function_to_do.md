@@ -10,7 +10,7 @@
     - optimization for functions
       - supporting alternative function inputs (like different energy sources)
       - having update mechanisms (evolution)
-      - having a source of randomness (mutations)
+      - having a source of randomness to inject change in systems that are too static to handle stressors (mutations)
     - optimization for interfaces
       - organization by:
         - intent
@@ -19,9 +19,11 @@
           - function search is built-in to certain mechanisms
         - cause
           - addressing cause at relevant/adjacent/root degree as needed
-            - mucosal lining addressing root cause of pathogen exposure as a first line of defense & other causes like system fragility as a backup
+            - bio: mucosal lining addressing root cause of pathogen exposure as a first line of defense & other causes like system fragility as a backup
+            - nn: identifying nodes causing various types/directness/degrees of error & deactivating them conditionally on input associated with error patterns
         - potential
-          - stem cells, cells that can re-generate or change type, telomere length, resource (energy/oxygen) usage efficiency, evolution/change/survival potential
+          - bio: stem cells, cells that can re-generate or change type, telomere length, resource (energy/oxygen) usage efficiency, evolution/change/survival potential
+          - nn: nodes that can change activation state/level, position/connection to other nodes (particularly frequently used nodes can be positioned to form sub-systems that incentivize error detection or prediction speed), type & other metadata, nodes that can create other nodes as they encounter feedback indicating extra decision complexity, nodes that can extend activation length as needed in conditions like when global system metrics indicate extra uncertainty or re-calculation of threshold values (different thresholds giving different answer accuracy for different input sub-systems & sub-types, which can be evaluated during training)
         - system
           - system backups
             - alternate systems to handle a function that is likely to be compromised at some point
@@ -30,7 +32,7 @@
               - bio: energy/heat across systems
               - nn: information about 'explanatory feature'-finding success, information enabling extracting features from input information ('start search in a particular position or with a particular search pattern for features')
           - system organization
-            - allocation of functionality/responsibility to systems (like immune) & positions (like organs)
+            - allocation of functionality/responsibility to systems (like immune or decision sub-systems) & positions (like organs, like max-pooling at certain positions)
         - information
           - proper memory management
             - dispose of resources like specific rules or abstractions as they become irrelevant
