@@ -1,7 +1,8 @@
 to do: organize into docs
 
-  - methods of workflows to process problem & integrate solutions to sub-problems to build a solution for a global problem-solving intent
+  - workflows to process problem & integrate solutions to sub-problems to build a solution for a global problem-solving intent
     - break problem into sub-problems
+      - break problem intent into sub-intents
       - waiting till sub-solutions are fully formed to integrate in final operation, adjusting as needed to optimize global problem solution metrics
       - regularly checking alignment with global goal at intervals that allow a rate of deviation that fulfills adaptation intents
       - organizing sub-solutions by variation, making each sub-solution unique to avoid repeating work, building a function index to solve global problem
@@ -11,7 +12,10 @@ to do: organize into docs
       - developing multiple alternative solutions and vacillating between them, as optimization metric subsets change
       - calculate important optimization metric subsets first, and build solutions for each of those 
     - apply pattern & metadata interface to workflow object, solving for common solution metrics, choosing workflow steps associated with solution success, etc
-    - aligning structure with problem-solving system (aligning intent analysis with vectorized problem space, applying structural interface to solution subset aggregation/selection, etc)
+    - aligning structures across interfaces & the problem-solving system (aligning intent & causal analysis to identify dependency direction within vectorized network problem space with global solution as end node, applying relevance/meaning interface to match solution & problem structures, applying structural interface to solution subset aggregation/selection, etc)
+    - select objects likely to be useful on an interface, then implement/specify them by applying structure
+      - select from a network of intents relevant to solving general problems & apply structure to determine specific intent combinations needed to implement & organize those general intents
+      - create a network of functions that is updated according to demands (in the form of solution metrics) for adding structure to functions to specialize functionality
 
   - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
