@@ -36,7 +36,7 @@ to do: organize into docs
 
     - check for vertex variables, solving problems & aggregating solutions relevant to vertex variables, in which case other problems in the space are usually solved by default once vertex-related problems are solved
 
-    - check for efficient cross-interface paths that can minimize traversal steps across interface query, and start from these paths in designing workflow
+    - check for efficient cross-interface paths (like how causal interface has a default connection by definition to function-sequence determination, which is useful for vectorized problem spaces) that can minimize traversal steps across interface query, and start from these paths in designing problem-solving workflow (convert problem to vectors, organize by functions that generate problem vectors, assigning sequence to generative functions by possible input/output paths which indicate causal dependencey, which has a direction component useful in structures with direction as a base object)
 
 
   - example of applying interfaces to power dynamics: 
