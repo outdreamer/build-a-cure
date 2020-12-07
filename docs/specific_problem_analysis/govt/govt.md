@@ -1,5 +1,10 @@
 to do: organize into docs
 
+  - methods of integrating solutions to sub-problems to build a solution for a global problem-solving intent
+    - waiting till sub-solutions are fully formed to integrate in final operation, adjusting as needed to optimize global problem solution metrics
+    - regularly checking alignment with global goal at intervals that allow a rate of deviation that fulfills adaptation intents
+    - organizing sub-solutions by variation, making each sub-solution unique to avoid repeating work, building a function index to solve global probleem
+
   - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
       - conditionally good (locally good)
