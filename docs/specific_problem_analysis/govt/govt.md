@@ -1,15 +1,17 @@
 to do: organize into docs
 
-  - methods of integrating solutions to sub-problems to build a solution for a global problem-solving intent
+  - methods of workflows to process problem & integrate solutions to sub-problems to build a solution for a global problem-solving intent
     - break problem into sub-problems
       - waiting till sub-solutions are fully formed to integrate in final operation, adjusting as needed to optimize global problem solution metrics
       - regularly checking alignment with global goal at intervals that allow a rate of deviation that fulfills adaptation intents
       - organizing sub-solutions by variation, making each sub-solution unique to avoid repeating work, building a function index to solve global problem
     - break problem into sequence of problems (interim solution, problem space-invalidating solution, etc)
       - building approximate interim solution that fulfills a subset of solution metrics, since optimizing on all metrics is likely to require future costs in updating solution regardless, so avoid optimizing on all metrics to minimize iterative solution update cost
-    - break solution metrics into multiple subsets and build multiple solutions, for solution metric subsets
+    - break solution metrics into multiple subsets & build multiple solutions, for solution metric subsets
       - developing multiple alternative solutions and vacillating between them, as optimization metric subsets change
       - calculate important optimization metric subsets first, and build solutions for each of those 
+    - apply pattern & metadata interface to workflow object, solving for common solution metrics, choosing workflow steps associated with solution success, etc
+    - aligning structure with problem-solving system (aligning intent analysis with vectorized problem space, applying structural interface to solution subset aggregation/selection, etc)
 
   - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
