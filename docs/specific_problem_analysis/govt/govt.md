@@ -9,6 +9,7 @@ to do: organize into docs
       - aggregate sub-solutions by efficiency structures (such as resource-sharing)
         - aggregate sub-solutions by aligning or chaining structure/intent/input/output of sub-solutions, so they gather according to resources they can share
       - aggregate sub-solutions iteratively by intent/sub-solutions on combination structures (like layers or networks, so aggregated sub-solutions form useful objects on iterated combination structures (sets/layers/networks)
+      - aggregate sub-solutions by regularly checking for usefulness to other sub-solutions, interim aggregated solutions (on previous or imminent combination structures), and final global aggregated solution, to avoid repeating work & emerging systemic errors
     - break problem into sequence of problems (interim solution, problem space-invalidating solution, etc)
       - building approximate interim solution that fulfills a subset of solution metrics, since optimizing on all metrics is likely to require future costs in updating solution regardless, so avoid optimizing on all metrics to minimize iterative solution update cost
     - break solution metrics into multiple subsets & build multiple solutions, for solution metric subsets
