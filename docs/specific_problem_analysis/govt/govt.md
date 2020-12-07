@@ -10,6 +10,10 @@ to do: organize into docs
         - aggregate sub-solutions by aligning or chaining structure/intent/input/output of sub-solutions, so they gather according to resources they can share
       - aggregate sub-solutions iteratively by intent/sub-solutions on combination structures (like layers or networks, so aggregated sub-solutions form useful objects on iterated combination structures (sets/layers/networks)
       - aggregate sub-solutions by regularly checking for usefulness to other sub-solutions, interim aggregated solutions (on previous or imminent combination structures), and final global aggregated solution, to avoid repeating work & emerging systemic errors
+      - aggregate sub-solutions according to definitions of optimal, such as system health/balance/organization
+      - aggregate sub-solutions according to optimization algorithm patterns that dont contradict solution metrics
+      - aggregate sub-solutions according to adaptability by generalizing each sub-solution & combination of sub-solutions to maximize likelihood of adapting to error quickly
+      - aggregate all combinations of sub-solutions using all possible combination structures to find the optimal combination
     - break problem into sequence of problems (interim solution, problem space-invalidating solution, etc)
       - building approximate interim solution that fulfills a subset of solution metrics, since optimizing on all metrics is likely to require future costs in updating solution regardless, so avoid optimizing on all metrics to minimize iterative solution update cost
     - break solution metrics into multiple subsets & build multiple solutions, for solution metric subsets
