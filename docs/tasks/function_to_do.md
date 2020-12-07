@@ -18,19 +18,31 @@
           - functions with global usefulness are kept generic or abstract & distributed regularly
           - function search is built-in to certain mechanisms
         - cause
-          - addressing cause where possible (mucosal lining addressing root cause of pathogen exposure as a first line of defense & other causes like system fragility as a backup)
-        - potential (stem cells, cells that can re-generate or change type, telomere length, resource (energy/oxygen) usage efficiency)
+          - addressing cause at relevant/adjacent/root degree as needed
+            - mucosal lining addressing root cause of pathogen exposure as a first line of defense & other causes like system fragility as a backup
+        - potential
+          - stem cells, cells that can re-generate or change type, telomere length, resource (energy/oxygen) usage efficiency, evolution/change/survival potential
         - system
           - system backups
             - alternate systems to handle a function that is likely to be compromised at some point
           - system integration (cooperation)
-            - common currencies like energy/heat across systems
+            - common currencies
+              - bio: energy/heat across systems
+              - nn: information about 'explanatory feature'-finding success, information enabling extracting features from input information ('start search in a particular position or with a particular search pattern for features')
           - system organization
             - allocation of functionality/responsibility to systems (like immune) & positions (like organs)
         - information
           - proper memory management
-            - dispose of resources as they become irrelevant, like an old memory cell that is creating problems or repairing DNA based on copy of correct version stored in memory
+            - dispose of resources like specific rules or abstractions as they become irrelevant
+              - bio: old memory cell that is creating problems or repairing DNA based on copy of correct version stored in memory
+              - nn: prior weights or inactive nodes
             - storing useful memory efficiently, optimized for access/usage/security, protected from attacks like unauthorized overwrites from structural damage and/or a pathogen
+              - bio: cell surface proteins that dont bind to pathogen patterns
+              - nn: organized memory according to usage intent, similarities like patterns, metadata to determine relevance like topics/types/systems
+    - other health metrics 
+      - inefficiencies/conflicts & other problem types dont cascade through the system
+      - problem types (damage, hostile invasions) are identified on multiple structures like layers/networks/positions
+      - solutions are allocated according to problem type & previous solution success history
 
   - current ways to lock people into/incentivize financial purchases or other resource transfers that help a business
     - contracts
