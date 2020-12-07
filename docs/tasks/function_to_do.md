@@ -1,10 +1,61 @@
 # to do
 
+  - current ways to lock people into/incentivize financial purchases or other resource transfers that help a business
+    - contracts
+    - loans
+    - subscriptions
+    - monopolies
+    - guaranteed returns
+    - predictions (of future value, in the form of profit/cost/automation/integration/regulation)
+    - derivatives/options/stocks/bonds
+    - optional discounts involving work to use (coupons, rebates, discount cards)
+    - incentivized payment methods
+      - credit card (incentivized purchases at partner businesses)
+      - coins/currencies/tokens 
+    - payment methods with benefits 
+      - credit/loan interest rate
+      - bond/investment yield rate
+      - secure transactions 
+      - guaranteed assets
+      - withdrawal/transfer options
+      - currency/liquidity conversion options
+      - purchase ROI (points, cash back)
+    - payment methods with costs 
+      - cost of credit system includes defaults, enforcement
+      - cost of crypto includes the criminal system 
+      - cost of currency market includes variable currency value 
+    - payment-platform dependencies
+      - credit cards tied to tech platforms (apple card, apple pay) 
+      - financial apps that work on or otherwise incentivize particular tech platforms & financial products
+    - incentivized purchases 
+      - bundled products 
+      - dependent products
+      - discounts 
+      - subsidies
+
+    - ways to limit/enable purchases 
+      - credit score/limit
+      - taxes
+      - exploitative pricing
+      - profit re-investment in cost reduction (automation, integrated investments that benefit society & reduce costs for everyone, like for climate change or AI)
+
+    - what impact should a positive payment history or payment potential have on the interfaces involved (currency/debt markets, investment interest, govt policies)
+      - should one company's positive payment history create systemic change incentivizing their decisions/strategies, and rewarding people in debt who could contribute to their goals
+      - should it steadily erode the idea of debt, so that transactions increasing general population debt are less incentivized than transactions reducing it 
+      - should debt be recalculated historically & proportionally, to account for basic needs & actual contributions from uniquely good/high-impact/valuable decisions that few other people would have made in their situation
+
+    - product value variables
+      - exchange rates 
+      - currency valuation insurance
+      - regulation rates 
+      - rating methods (rating bonds/stocks/currencies)
+      - value of relative demand (potential position of currency in currency market)
+
   - make interface query output diagram
 
   - identify counterarguments: remove assumptions/parameters until it contradicts a required parameter of the statement to contradict
 
-  - identify fake news: find attention-generating objects (default responses to incentives (hypocrisy/selfishness), emotional/belief-based statements, low-cost statements (virtue-signaling), stupidity/misunderstanding/repetition, obvious facts/lies/reductions/jokes, oversimplifications, falsehoods, unprovable statements, controversial statements, mixed types (statements of opinion as fact), irrelevant statements)
+  - identify fake news: find attention-generating objects (default responses to incentives (hypocrisy/selfishness), emotional/belief-based statements, low-cost statements (virtue-signaling), stupidity/misunderstanding/repetition, obvious facts/lies/reductions/jokes, oversimplifications, falsehoods, unprovable statements, controversial statements, mixed types (statements of opinion as fact), irrelevant statements, distortion chains, nonsense)
 
   - identify fallacious arguments: arguments with at least one parameter in common with facts, or structures (logical fact-connection methods/priorities) of a good argument
 
