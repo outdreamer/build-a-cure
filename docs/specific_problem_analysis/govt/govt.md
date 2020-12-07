@@ -1,6 +1,7 @@
 to do: organize into docs
 
   - workflows to process problem & integrate solutions to sub-problems to build a solution for a global problem-solving intent
+    
     - break problem into sub-problems
       - break problem intent into sub-intents
       - waiting till sub-solutions are fully formed to integrate in final operation, adjusting as needed to optimize global problem solution metrics
@@ -13,17 +14,25 @@ to do: organize into docs
       - aggregate sub-solutions according to definitions of optimal, such as system health/balance/organization
       - aggregate sub-solutions according to optimization algorithm patterns that dont contradict solution metrics
       - aggregate sub-solutions according to adaptability by generalizing each sub-solution & combination of sub-solutions to maximize likelihood of adapting to error quickly
-      - aggregate all combinations of sub-solutions using all possible combination structures to find the optimal combination
+      - aggregate all combinations of sub-solutions using all possible combination structures & apply optimization on all combinations to find the optimal combination of combination structures & sub-solutions
+    
     - break problem into sequence of problems (interim solution, problem space-invalidating solution, etc)
+      - example with sequence of problems in solving the problem of problem-workflow design: 
+        - solve problem decomposition problem first, then solve solution metric selection problem, then solve solution aggregation problem, then solve interface query problem
       - building approximate interim solution that fulfills a subset of solution metrics, since optimizing on all metrics is likely to require future costs in updating solution regardless, so avoid optimizing on all metrics to minimize iterative solution update cost
+    
     - break solution metrics into multiple subsets & build multiple solutions, for solution metric subsets
       - developing multiple alternative solutions and vacillating between them, as optimization metric subsets change
       - calculate important optimization metric subsets first, and build solutions for each of those 
-    - apply pattern & metadata interface to workflow object, solving for common solution metrics, choosing workflow steps associated with solution success, etc
+    
+    - switch method of implementing specific queries in a problem-solving workflow to other interfaces
+      - apply pattern & metadata interface to workflow object, solving for common solution metrics, choosing workflow steps associated with solution success, etc
     - aligning structures across interfaces & the problem-solving system (aligning intent & causal analysis to identify dependency direction within vectorized network problem space with global solution as end node, applying relevance/meaning interface to match solution & problem structures, applying structural interface to solution subset aggregation/selection, etc)
-    - select objects likely to be useful on an interface, then implement/specify them by applying structure
-      - select from a network of intents relevant to solving general problems & apply structure to determine specific intent combinations needed to implement & organize those general intents
-      - create a network of common/unique/core functions (or problem/solution types, or causal structures) that is updated according to demands (in the form of solution metrics) for adding structure to functions to specialize functionality
+    
+    - filter abstract objects by probable success, then apply structure to implement/update them
+      - select objects likely to be useful on an interface, then implement/specify them by applying structure
+        - select from a network of intents relevant to solving general problems & apply structure to determine specific intent combinations needed to implement & organize those general intents
+        - create a network of common/unique/core functions (and/or problem/solution types, or causal structures) that is updated according to demands (in the form of solution metrics) for adding structure to functions to specialize functionality
 
   - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
