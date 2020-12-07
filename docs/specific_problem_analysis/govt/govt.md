@@ -34,6 +34,11 @@ to do: organize into docs
         - select from a network of intents relevant to solving general problems & apply structure to determine specific intent combinations needed to implement & organize those general intents
         - create a network of common/unique/core functions (and/or problem/solution types, or causal structures) that is updated according to demands (in the form of solution metrics) for adding structure to functions to specialize functionality
 
+    - check for vertex variables, solving problems & aggregating solutions relevant to vertex variables, in which case other problems in the space are usually solved by default once vertex-related problems are solved
+
+    - check for efficient cross-interface paths that can minimize traversal steps across interface query, and start from these paths in designing workflow
+
+
   - example of applying interfaces to power dynamics: 
     - context applied to ethical objects: 
       - conditionally good (locally good)
