@@ -1,9 +1,36 @@
 # to do
 
   - nn: the idea of 'health' as applied to neural network architecture includes:
-    - proper memory management
-      - dispose of resources as they become irrelevant, like an old memory cell that is creating problems or repairing DNA based on copy of correct version stored in memory
-      - storing useful memory efficiently, optimized for access/usage/security, protected from attacks like unauthorized overwrites from structural damage and/or a pathogen
+
+    - optimization for attributes
+      - relevance
+      - security
+      - risk reduction
+      - alternatives
+    - optimization for functions
+      - supporting alternative function inputs (like different energy sources)
+      - having update mechanisms (evolution)
+      - having a source of randomness (mutations)
+    - optimization for interfaces
+      - organization by:
+        - intent
+          - functions with local/specific purposes are localized rather than global
+          - functions with global usefulness are kept generic or abstract & distributed regularly
+          - function search is built-in to certain mechanisms
+        - cause
+          - addressing cause where possible (mucosal lining addressing root cause of pathogen exposure as a first line of defense & other causes like system fragility as a backup)
+        - potential (stem cells, cells that can re-generate or change type, telomere length, resource (energy/oxygen) usage efficiency)
+        - system
+          - system backups
+            - alternate systems to handle a function that is likely to be compromised at some point
+          - system integration (cooperation)
+            - common currencies like energy/heat across systems
+          - system organization
+            - allocation of functionality/responsibility to systems (like immune) & positions (like organs)
+        - information
+          - proper memory management
+            - dispose of resources as they become irrelevant, like an old memory cell that is creating problems or repairing DNA based on copy of correct version stored in memory
+            - storing useful memory efficiently, optimized for access/usage/security, protected from attacks like unauthorized overwrites from structural damage and/or a pathogen
 
   - current ways to lock people into/incentivize financial purchases or other resource transfers that help a business
     - contracts
