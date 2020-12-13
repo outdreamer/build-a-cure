@@ -8,11 +8,24 @@
 
   - give example tying solution automation workflows to specific queries & query metadata 
     - tie specific queries (content) to solution automation workflows (structure) that generate or apply them optimally
+      - the solution automation workflows specifically connecting a problem to solution, and the queries connecting any interface objects
 
   - apply information organization methods as solution aggregation methods
-    - solutions act as organizing relevance in contrast to problem structures of randomness
-    - information organizes itself according to various metrics like energy-sharing (efficiency) & energy ratios (balance)
+    - solutions act as structures of organization/relevance in contrast to problem structures of randomness
+    - information organizes itself according to various metrics like energy-sharing (efficiency) & energy ratios/stability (balance)
     - structures generating randomness can be used as a default data source for identifying problem causes
+    
+  - give example of how to identify a vertex interface like randomness out of all the interface structures like combinations & subsets
+    - definition: equal probability distribution across outcomes
+    - queries to identify the vertex interface as important/explanatory
+      - change assumption of core objects (interface)
+        - lack of a primary interface 
+          - lack of cause, having a structural similarity with the problem space (appearance of lack of organization in the form of cause)
+          - lack of the interface interface (relevance/organization)
+          - lack of structure (equal distribution having minimal structure)
+          - lack of information (randomness revealing minimal information)
+      - apply a core structural concept's (similarity) insight function ('like attracts like', or 'equivalence can cause other equivalence'): 
+        - equivalence of conflicting forces generating another type of equivalence (in outcomes)
 
   - make interface query output diagram
 
