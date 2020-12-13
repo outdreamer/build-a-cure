@@ -1,5 +1,16 @@
 # to do
 
+  - give example of how to select query among good alternatives (without priorities or other requirements/constraints) to solve a problem structure optimally:
+    - applying structures of randomness, difference, and cause to generate structures of relevance
+    - patterns of function sequences filling in gap between structures with known positions in a system
+    - applying different problem formats
+    - identifying sub-problems best solved on different interfaces & starting from a solution aggregation method to connect them 
+
+  - give example tying solution automation workflows to specific queries & query metadata 
+    - tie specific queries (content) to solution automation workflows (structure) that generate or apply them optimally
+
+  - apply information organization methods as solution aggregation methods
+
   - make interface query output diagram
 
   - identify counterarguments: remove assumptions/parameters until it contradicts a required parameter of the statement to contradict
