@@ -10,6 +10,9 @@
     - tie specific queries (content) to solution automation workflows (structure) that generate or apply them optimally
 
   - apply information organization methods as solution aggregation methods
+    - solutions act as organizing relevance in contrast to problem structures of randomness
+    - information organizes itself according to various metrics like energy-sharing (efficiency) & energy ratios (balance)
+    - structures generating randomness can be used as a default data source for identifying problem causes
 
   - make interface query output diagram
 
