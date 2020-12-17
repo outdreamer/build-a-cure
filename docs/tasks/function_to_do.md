@@ -1,12 +1,16 @@
 # to do
 
-  - give examples of matching network structures that are good at solving certain problem structures 
+  - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
     - bounce between limits representing function versions, slowly correcting to similar line as regression line
     - bounce around a symmetry, finding distortion that matches data the best
     - combine common sub-function components or variables, slowly adjusting with common distortions to get to prediction function
     - find local points of slowing change (inflection points) given differences in change rates
     - find variables maximizing difference in difficult to determine (high similarity) cases for identification
     - aggregating isolated variables & other variable structures like generative/combination variables like nature does into a produced function
+  
+    - training an ai on these can match problem structure to solution architecture & algorithm structures
+      - the network algorithm structure represents the solution automation workflow from problem format to solution format, implemented with a specific interface query
+      - the network architecture structure represents the resources that can be traversed/combined (interfaces, definitions, queries)
 
   - give example of how to select query among good alternatives (without priorities or other requirements/constraints) to solve a problem structure optimally:
     - applying structures of randomness, difference, and cause to generate structures of relevance
