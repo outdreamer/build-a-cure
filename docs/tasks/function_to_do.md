@@ -1,5 +1,13 @@
 # to do
 
+  - give examples of matching network structures that are good at solving certain problem structures 
+    - bounce between limits representing function versions, slowly correcting to similar line as regression line
+    - bounce around a symmetry, finding distortion that matches data the best
+    - combine common sub-function components or variables, slowly adjusting with common distortions to get to prediction function
+    - find local points of slowing change (inflection points) given differences in change rates
+    - find variables maximizing difference in difficult to determine (high similarity) cases for identification
+    - aggregating isolated variables & other variable structures like generative/combination variables like nature does into a produced function
+
   - give example of how to select query among good alternatives (without priorities or other requirements/constraints) to solve a problem structure optimally:
     - applying structures of randomness, difference, and cause to generate structures of relevance
     - patterns of function sequences filling in gap between structures with known positions in a system
