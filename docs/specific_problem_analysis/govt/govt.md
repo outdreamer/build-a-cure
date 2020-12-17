@@ -1,5 +1,10 @@
 to do: organize into docs
 
+  - micro-transaction economies:
+    - lend person a phone (less than $100), which they pay off at low interest rate, and can buy valuable info in the form of one prediction at a time (for a few cents each), like info/predictions about local businesses that would train/hire them or low bus fares/coupons to the nearest city or ways to reduce their phone usage cost, which they repay with education time, info, using the provider's job/payment apps or other resources, and building credit with phone provider 
+      - this helps avoid loan sharks, helps bank & connect the unbanked, gives phone provider economic info, and is not charity
+      - phones are similar to other infrastructure, enabling higher revenue industries to take place (transaction fees, app/content/service subscriptions, referral/review/recommendation markets)
+
   - workflows to process problem & integrate solutions to sub-problems to build a solution for a global problem-solving intent
     
     - break problem into sub-problems
