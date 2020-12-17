@@ -1,6 +1,8 @@
 to do: organize into docs
 
-  - to do: evaluate the sticky quality of time, in entangled space-times that exert force pulling other space-times in the direction of greatest density or entanglement, allowing time that has accrued in a particular direction to be "reversed" by being pulled back toward other space-times
+  - to do: evaluate the sticky quality of time, in entangled space-times that exert force pulling other space-times in the direction of greatest density or entanglement, allowing time that has accrued in a particular direction into information, to be "reversed" by being pulled back toward other space-times, favoring connectedness of space-times over independent information development, unless: 
+    - a space-time is allowed to accrete information enabling movement in any direction so it can overcome the pull of that force & even influence the direction of the force of the connected space-times or their internal topology/organization/positions
+    - in which case this space-time has stabilized to a new state layer that is able to capture more energy with new symmetries, where it attracts other time types like new variables offering potential energy where more/new info types can accrue
 
   - micro-transaction economies:
     - lend person a phone (less than $100), which they pay off at low interest rate, and can buy valuable info in the form of one prediction at a time (for a few cents each), like info/predictions about local businesses that would train/hire them or low bus fares/coupons to the nearest city or ways to reduce their phone usage cost, which they repay with education time, info, using the provider's job/payment apps or other resources, and building credit with phone provider 
