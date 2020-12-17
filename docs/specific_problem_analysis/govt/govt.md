@@ -1,5 +1,7 @@
 to do: organize into docs
 
+  - to do: evaluate the sticky quality of time, in entangled space-times that exert force pulling other space-times in the direction of greatest density or entanglement, allowing time that has accrued in a particular direction to be "reversed" by being pulled back toward other space-times
+
   - micro-transaction economies:
     - lend person a phone (less than $100), which they pay off at low interest rate, and can buy valuable info in the form of one prediction at a time (for a few cents each), like info/predictions about local businesses that would train/hire them or low bus fares/coupons to the nearest city or ways to reduce their phone usage cost, which they repay with education time, info, using the provider's job/payment apps or other resources, and building credit with phone provider 
       - this helps avoid loan sharks, helps bank & connect the unbanked, gives phone provider economic info, and is not charity
