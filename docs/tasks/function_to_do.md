@@ -4,12 +4,23 @@
     - "all combinations, then possible, then similar, then position" = find "missing components"
 
   - example of queries to find opportunities to position an intent like 'phishing attempt'
-    - finding legitimate relationship structures
-      - such as prior intents like 'receving legitimate email triggering risk-aversion process involving a step containing a link click' to target intent of 'clicking link'
-    - finding rule enforcement gaps, like required priority-switching triggers
-      - such as where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
+
+    - finding legitimate relationship structures on an interface, such as other relevant intent types:
+
+      - prior intents like 'receving legitimate email triggering risk-aversion process involving a step containing a link click' to target intent of 'clicking link'
+      - related intents like 'permuting assumption or variable like authentication status that would trigger a related process, in the form of sending email about related process with a step containing a link click that wasnt triggered like disabling account authentication'
+      - required/important intents like 'maintaining account security' or 'avoiding risk' or 'minimizing risk' 
+        ('if my account was hacked and someone disabled auth, I need to fix it right away')
+      
+    - finding rule enforcement gaps, like required priority-switching triggers, such as:
+    
+      - where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
+      - where intents are over-prioritized, intents like 'contradicting lies', which could trigger a priority switch
+        ('no, I did not disable account authentication')
+
     - whats the query that could generate both examples of exploit opportunities to inject this malicious intent?
       - find causes (triggers, sequences) of change types (switching, change sequence) of core interface structures (relating/connecting functions, requirements, rule gaps, rule enforcement gaps)
+    
     - whats the query that could generate the generative query?
       - find structures (causes) on a generative interface (cause) of generalized (apply pattern, core, or abstract interface) core structures (types) a high-variation interface (change) of core interface structures
 
