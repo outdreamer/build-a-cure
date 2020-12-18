@@ -1,11 +1,22 @@
 # to do
 
+  - add abstract keyword search support (find objects of an abstract type), like 'find all customers impacted by attack' will return results including all specific customer names in search result snippets
+    - apply 'all' definition to return unique complete results
+    - apply 'abstract' or 'specific' definition or identify an object type (customers) to list specific customer names
+
+  - identify irrelevant components (interfaces like intent & structures like causal loop)
+    - example: 
+      - intent: when a default/required value is used, that may indicate the action was not intentional from the user position, and intent interface should not be used to capture variation in user changes
+      - cause: when two events are often/always found occurring in a sequence, that doesnt necessarily indicate a cause
+    - these irrelevant structures contradict some component of the definition of the component, like where the default/required assumption doesnt offer/require a choice, which is an input to intent
+
   - document optimal filter & other structures (sequences, combinations)
     - filter sequences
       - "all combinations, then possible, then similar, then position" = find "missing components"
     - change type sequences
       - input: 'switch priorities' applies function 'find perspective with validation as lower priority' to generate output: 'reduce validation checks'
-    - 
+
+  - examing how replacing a function producing stressors (like hormones & byproducts) with an artificial solution (birth control) to reduce variation (in hormone supply) also reduces stressor & stressor-byproduct variation & imbalance (in hormone-related cell supply) by delegating function calls to artificial solution, reducing original function calls in the process
 
   - example of queries to find opportunities to position an intent like 'phishing attempt'
 
