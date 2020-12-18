@@ -5,6 +5,7 @@
       - "all combinations, then possible, then similar, then position" = find "missing components"
     - change type sequences
       - input: 'switch priorities' applies function 'find perspective with validation as lower priority' to generate output: 'reduce validation checks'
+    - 
 
   - example of queries to find opportunities to position an intent like 'phishing attempt'
 
@@ -26,6 +27,17 @@
     
     - whats the query that could generate the generative query?
       - find structures (causes) on a generative interface (cause) of generalized (apply pattern, core, or abstract interface) core structures (types) a high-variation interface (change) of core interface structures
+
+  - add to definitions.json
+    - meaning
+      - structure:
+        - relevance (to a position/intent)
+          - importance
+            - utility value
+            - uniqueness
+          - similarity
+        - system fit
+          - understanding
 
   - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
 
