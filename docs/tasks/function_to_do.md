@@ -1,7 +1,10 @@
 # to do
 
   - document optimal filter & other structures (sequences, combinations)
-    - "all combinations, then possible, then similar, then position" = find "missing components"
+    - filter sequences
+      - "all combinations, then possible, then similar, then position" = find "missing components"
+    - change type sequences
+      - input: 'switch priorities' applies function 'find perspective with validation as lower priority' to generate output: 'reduce validation checks'
 
   - example of queries to find opportunities to position an intent like 'phishing attempt'
 
@@ -13,7 +16,7 @@
         ('if my account was hacked and someone disabled auth, I need to fix it right away')
       
     - finding rule enforcement gaps, like required priority-switching triggers, such as:
-    
+
       - where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
       - where intents are over-prioritized, intents like 'contradicting lies', which could trigger a priority switch
         ('no, I did not disable account authentication')
