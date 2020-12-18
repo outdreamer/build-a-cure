@@ -21,6 +21,19 @@
             - 'lack of required trust' having 'user risk-minimizing' structures like 'protecting/providing/cooperating with/lowering switching costs for alternative options' (no trustworthy provider requires exclusivity from demanders)
         - these structures can be used to identify the function nodes/positions/structures that would be highest-impact, to apply increased security in those function positions & their relevant structures (inputs/outputs)
 
+    - high-impact functions
+      - are permitted to access other high-impact functions
+      
+    - malicious structures
+      - have structures of variation like similarity ratio that follow patterns compared to legitimate variation structures
+        - malicious structures will have structures of legitimacy (like a whitelist/blacklist) to mimic legitimate structures that have components to defend themselves against attack
+          - however these structures of legitimacy used to signal similarity wont be implemented in the same way as legitimate components
+          - legitimate components implement structures of legitimacy in ways like:
+            - applying default config bc of budget constraints
+            - not finishing configuration & making errors in configuration bc of budget constraints
+          - malicious components implement structures of legitimacy in ways like:
+            - applying config that is not enforced (has a whitelist file but doesnt import it anywhere)
+
   - examine structures of randomness
     - lack of information from:
       - position (cant access information)
