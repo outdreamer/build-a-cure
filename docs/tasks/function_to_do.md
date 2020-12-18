@@ -6,8 +6,10 @@
   - example of queries to find opportunities to position an intent like 'phishing attempt'
     - finding legitimate relationship structures
       - such as prior intents like 'receving legitimate email triggering risk-aversion process involving a step containing a link click' to target intent of 'clicking link'
-    - finding rule enforcement gaps, like priority-switching requirements
+    - finding rule enforcement gaps, like required priority-switching triggers
       - such as where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
+    - whats the query that could generate both examples of exploit opportunities to inject this malicious intent?
+      - find causes (triggers, sequences) of change types (switching, change sequence) of core interface structure (relating/connecting functions, requirements, rule gaps, rule enforcement gaps)
 
   - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
 
