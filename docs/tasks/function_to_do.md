@@ -1,7 +1,10 @@
 # to do
 
+  - document optimal filter structures (sequences, combinations)
+    - all combinations, then possible, then similar, then position = helps find missing components
+
   - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
-  
+
     - example of problem structure matching network architecture/algorithm:
       - function sets aggregated into a prediction function (one input set following one weight path through the network layers, representing one function set that could be the inputs to the prediction function), as a unit for comparing structures like combinations of function subsets/subcomponents/versions to fit the data
         - initialize with weights at a probable distorted position (like average + some wave frequency A & magnitude B to capture variation), then adjust with iterated network layer weights on the weight path toward a good approximation of the prediction function
