@@ -9,6 +9,8 @@
       - entities in a dependency loop where each supplies an input that the other needs (like a security product from a security product provider and a software resource product like a cloud server provider, where each product is not supplied by the other entity) offer an opportunity to take out both entities & their dependencies while conflating root cause & minimizing impact
     - meta cause: 
       - dependencies (like security/deployment tools of security provider) of the same type/level of dependencies for other entities (security provider product)
+    - balance structures
+      - a position with the most contradictions is the most balanced position
     - combination structures
       - a meta cause injected in a causal loop can cause cascading conflated outages where structure & source is difficult to determine
         - examples
@@ -20,13 +22,13 @@
             - 'trust' being a conceptual definition of the concept of 'risk', and 'lack of input validation' being a structural definition
             - 'lack of required trust' having 'user risk-minimizing' structures like 'protecting/providing/cooperating with/lowering switching costs for alternative options' (no trustworthy provider requires exclusivity from demanders)
         - these structures can be used to identify the function nodes/positions/structures that would be highest-impact, to apply increased security in those function positions & their relevant structures (inputs/outputs)
-
     - high-impact functions
       - are permitted to access other high-impact functions
 
     - anomaly detection methods have vulnerabilities in single-metric threshold structures
       - a threshold identifies aggregated resources crossing that threshold, but does not identify aggregations across different thresholds to build similar functionality from multiple sources
       - a combination structure of anomalies like an anomaly chain/network can escape detection using manipulation of multiple threshold-governed signals
+      - example: monitoring just file modifications in isolation without monitoring file content modifications
 
     - malicious structures
       - have structures of variation like similarity ratio that follow patterns compared to legitimate variation structures

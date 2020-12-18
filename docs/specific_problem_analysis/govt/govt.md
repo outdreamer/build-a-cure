@@ -1,5 +1,17 @@
 to do: organize into docs
 
+  - optimal system design involves rules like:
+    - each node should have power to re-build the system (including how to build the all-destroy node) in the form of information & adjacent resources
+      (each person would be educated about how to build WMDs in case the imbalance in education was ever achieved & exploited by malicious entities, and could feasibly build one by coordinating with other entities to counter an attack from more organized entities)
+    - all-destroy functionality should be in the position nearest to all other nodes (usually the center)
+    - there should be one intent route leading to all-destroy function node
+    - other intents should be as equally distant from all-destroy node & route as possible
+    - more powerful functions should be nearer to other nodes than to the all-destroy node
+    - trigger/access to the all-destroy node should require more coordination than other nodes
+
+  - a govt with distributed power (education) across all nodes is protected from threats without distributed power
+  - organization shouldnt be stored in power distribution (applying structure to power, as in non-random and unequal distribution of power) but in information (equally powerful/organized information, equally distributed)
+
   - applying blockchain to verify transactions on a supply chain of information, like from suppliers like a yubikey or security key provider or usb or file containing recovery codes, to demanders, like app requesting auth to access protected resources
 
   - to do: evaluate the sticky quality of time, in entangled space-times that exert force pulling other space-times in the direction of greatest density or entanglement, allowing time that has accrued in a particular direction into information, to be "reversed" by being pulled back toward other space-times, favoring connectedness of space-times over independent information development, unless: 
