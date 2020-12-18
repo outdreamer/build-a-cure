@@ -9,7 +9,9 @@
     - finding rule enforcement gaps, like required priority-switching triggers
       - such as where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
     - whats the query that could generate both examples of exploit opportunities to inject this malicious intent?
-      - find causes (triggers, sequences) of change types (switching, change sequence) of core interface structure (relating/connecting functions, requirements, rule gaps, rule enforcement gaps)
+      - find causes (triggers, sequences) of change types (switching, change sequence) of core interface structures (relating/connecting functions, requirements, rule gaps, rule enforcement gaps)
+    - whats the query that could generate the generative query?
+      - find structures (causes) on a generative interface (cause) of generalized (apply pattern, core, or abstract interface) core structures (types) a high-variation interface (change) of core interface structures
 
   - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
 
