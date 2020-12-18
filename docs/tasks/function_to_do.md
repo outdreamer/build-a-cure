@@ -1,7 +1,13 @@
 # to do
 
-  - document optimal filter structures (sequences, combinations)
-    - all combinations, then possible, then similar, then position = helps find missing components
+  - document optimal filter & other structures (sequences, combinations)
+    - "all combinations, then possible, then similar, then position" = find "missing components"
+
+  - example of queries to find opportunities to position an intent like 'phishing attempt'
+    - finding legitimate relationship structures
+      - such as prior intents like 'receving legitimate email triggering risk-aversion process involving a step containing a link click' to target intent of 'clicking link'
+    - finding rule enforcement gaps, like priority-switching requirements
+      - such as where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
 
   - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
 
