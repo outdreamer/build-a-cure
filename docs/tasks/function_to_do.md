@@ -23,7 +23,11 @@
 
     - high-impact functions
       - are permitted to access other high-impact functions
-      
+
+    - anomaly detection methods have vulnerabilities in single-metric threshold structures
+      - a threshold identifies aggregated resources crossing that threshold, but does not identify aggregations across different thresholds to build similar functionality from multiple sources
+      - a combination structure of anomalies like an anomaly chain/network can escape detection using manipulation of multiple threshold-governed signals
+
     - malicious structures
       - have structures of variation like similarity ratio that follow patterns compared to legitimate variation structures
         - malicious structures will have structures of legitimacy (like a whitelist/blacklist) to mimic legitimate structures that have components to defend themselves against attack
