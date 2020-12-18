@@ -4,11 +4,21 @@
     - apply 'all' definition to return unique complete results
     - apply 'abstract' or 'specific' definition or identify an object type (customers) to list specific customer names
 
-  - identify irrelevant components (interfaces like intent & structures like causal loop)
+  - identify high-impact structures on an interface
+    - causal loop: 
+      - entities in a dependency loop where each supplies an input that the other needs (like a security product from a security product provider and a software resource product like a cloud server provider, where each product is not supplied by the other entity) offer an opportunity to take out both entities & their dependencies while conflating root cause & minimizing impact
+    - meta cause: 
+      - dependencies (like security/deployment tools of security provider) of the same type/level of dependencies for other entities (security provider product)
+    - combination structures
+      - a meta cause injected in a causal loop can cause cascading conflated outages where structure & source is difficult to determine
+
+  - identify 'relevance' mismatch in irrelevant components (interfaces like intent & structures like causal loop)
     - example: 
       - intent: when a default/required value is used, that may indicate the action was not intentional from the user position, and intent interface should not be used to capture variation in user changes
       - cause: when two events are often/always found occurring in a sequence, that doesnt necessarily indicate a cause
-    - these irrelevant structures contradict some component of the definition of the component, like where the default/required assumption doesnt offer/require a choice, which is an input to intent
+    - structures that dont match 'relevance' definition
+      - these irrelevant structures contradict some component of the definition of the component, like where the default/required assumption doesnt offer/require a choice, which is an input to intent
+    - to do: identify other important mismatches occurring in meaning/understanding and other fundamental attributes like similarity
 
   - document optimal filter & other structures (sequences, combinations)
     - filter sequences
