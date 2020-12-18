@@ -11,13 +11,34 @@
       - dependencies (like security/deployment tools of security provider) of the same type/level of dependencies for other entities (security provider product)
     - combination structures
       - a meta cause injected in a causal loop can cause cascading conflated outages where structure & source is difficult to determine
+        - examples
+          - disrupt deployment tool of a security product used for auth process
+          - disrupt neutral abstract tool (update/deploy/networking) used by security provider
+          - disrupt logging mechanism of a log search tool used by many companies for incident response
+          - disrupt default trusted response (string returned from ip checking service that may be queried & accepted without validation)
+          - disrupt trust root nodes like security providers & authorities
+            - 'trust' being a conceptual definition of the concept of 'risk', and 'lack of input validation' being a structural definition
+            - 'lack of required trust' having 'user risk-minimizing' structures like 'protecting/providing/cooperating with/lowering switching costs for alternative options' (no trustworthy provider requires exclusivity from demanders)
+        - these structures can be used to identify the function nodes/positions/structures that would be highest-impact, to apply increased security in those function positions & their relevant structures (inputs/outputs)
+
+  - examine structures of randomness
+    - lack of information from:
+      - position (cant access information)
+      - adjacent information (cant derive information from adjacent information)
+      - time (information was not generated yet or its generation is disincentivized or theres no structure that can contain/stabilize it)
 
   - identify 'relevance' mismatch in irrelevant components (interfaces like intent & structures like causal loop)
     - example: 
       - intent: when a default/required value is used, that may indicate the action was not intentional from the user position, and intent interface should not be used to capture variation in user changes
       - cause: when two events are often/always found occurring in a sequence, that doesnt necessarily indicate a cause
+      - change: 
+        - a static prediction function or data set contradicts the concept of 'generalizability' or 'robustness' which have the concept of 'change' as a dependency
+      - meaning:
+        - an 'isolated' function/data set (that does not have access to other functions/data sets as sources for an inference function) contradicts an integrated analysis of structures of meaning and structures allowing derivation of understanding
+
     - structures that dont match 'relevance' definition
       - these irrelevant structures contradict some component of the definition of the component, like where the default/required assumption doesnt offer/require a choice, which is an input to intent
+    
     - to do: identify other important mismatches occurring in meaning/understanding and other fundamental attributes like similarity
 
   - document optimal filter & other structures (sequences, combinations)
