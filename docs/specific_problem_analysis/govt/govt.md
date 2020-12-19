@@ -1,5 +1,15 @@
 to do: organize into docs
 
+  - identifying entities with potential to replace other entities or fulfill dependencies of other entities is a way to predict future power players, as well as identifying powerful tools that are currently fulfilling dependency demand
+
+  - after information problems are solved, the next big problem type is predicting new problem types by identifying structures likely to attract/generate information, which is the problem of decrypting uncertainty before it achieves an information structure signaling a new difference type
+    - when traversal in one direction on the interface network is not possible bc of lack of information/derivability, the other directions may also not have a clear connected path without generating new interfaces (you cant always 'sneak up behind' a bit of information by traveling through other dimension sets or from a different angle), and youll need to organize uncertainties to generate information
+    - some uncertainties will only be measurable when combined with other uncertainties
+      - 'how will this lack of structure interact with this possible new difference type, with one as an input to the other'
+      - 'how will a superposition interact with a new possible number type'
+      - 'how will quantum physics knowledge interact with structured information like calculation efficiencies'
+    - difference types can be generated, by identifying new interactions of variables & variable physics, and filtered by which are adjacent interactions, and which are limited by stabilized certainties
+
   - optimal system design involves rules like:
     - each node should have power to re-build the system (including how to build the all-destroy node) in the form of information & adjacent resources
       (each person would be educated about how to build WMDs in case the imbalance in education was ever achieved & exploited by malicious entities, and could feasibly build one by coordinating with other entities to counter an attack from more organized entities)
@@ -8,6 +18,7 @@ to do: organize into docs
     - other intents should be as equally distant from all-destroy node & route as possible
     - more powerful functions should be nearer to other nodes than to the all-destroy node
     - trigger/access to the all-destroy node should require more coordination than other nodes
+    - all-destroy node should be built iteratively out of requirements (gap/limit structures) of increasing necessity, rather than content structures
 
   - a govt with distributed power (education) across all nodes is protected from threats without distributed power
   - organization shouldnt be stored in power distribution (applying structure to power, as in non-random and unequal distribution of power) but in information (equally powerful/organized information, equally distributed)
