@@ -2,19 +2,27 @@ to do: organize into docs
 
   - identifying entities with potential to replace other entities or fulfill dependencies of other entities is a way to predict future power players, as well as identifying powerful tools that are currently fulfilling dependency demand
 
-  - after information problems are solved, the next big problem type is predicting new problem types by identifying structures likely to attract/generate information, which is the problem of decrypting uncertainty before it achieves an information structure signaling a new difference type
+  - after information problems are solved, the next big problem type is predicting new uncertainties (problem types) by identifying structures likely to attract/generate information, which is the problem of decrypting uncertainty before it achieves an information structure signaling a new difference type
     - when traversal in one direction on the interface network is not possible bc of lack of information/derivability, the other directions may also not have a clear connected path without generating new interfaces (you cant always 'sneak up behind' a bit of information by traveling through other dimension sets or from a different angle bc sometimes the info doesnt exist yet, isnt measurable yet, or cannot be captured by a known structure yet), and youll need to organize uncertainties to generate information
     - some uncertainties will only be measurable when combined with other uncertainties
       - 'how will this lack of structure interact with this possible new difference type, with one as an input to the other'
       - 'how will a superposition interact with a new possible number type'
       - 'how will quantum physics knowledge interact with structured information like calculation efficiencies'
+      - 'can you surround a superposition in all possible dimensions of change with calculation efficiencies so that information can be generated about the superposition'
+      - 'how do information units like numbers (and a number's network of related numbers like opposite, base, root, factors, difference types, symmetries) interact in core operations'
+      - 'what is the arrangement of spaces that maximizes calculation efficiencies/information-generation & their interactions'
+      - 'what are the missing spaces identifiable from information about known spaces'
+      - 'what are the structures of unknowability patterns in spaces having these change types'
+      - 'how should uncertainties be positioned in adjacent spaces to generate information'
     - sometimes youll only be able to identify what these combinations are not, using known definitions & generatable distortions of them
       - other times youll be able to identify structures like what interaction layer they operate on, to narrow down possible change types
     - difference types can be generated, by identifying new interactions of variables & variable physics, and filtered by which are adjacent interactions, and which are limited by stabilized certainties
     - interactions between sources of uncertainty can reduce the calculations required 
       - given that a space-time accrues information and quantum superpositions maintain a lack of information, can one neutralize attributes of the other
       - if information is irreversible/measurable structure, does information limit or otherwise influence possible math interactions (calculations of structures)
-      - given that information attracts information, what calculation efficiencies are likely for an information type
+        - what information structure trajectory would be necessary to calculate things not calculatable in this trajectory
+          - if something isnt calculatable in a system, what system would it be calculatable in, and what signals would that system generate when combined with other systems
+      - given that information attracts information, what calculation efficiencies are likely for an information type/structure
       - where are the information dead zones with no incentives for information to accrue in that direction
       - is there a buffer zone of uncertainty around calculatable information and structures that can hold information
       - how many & what type of combination structures can space-times sustain before they start to degrade
