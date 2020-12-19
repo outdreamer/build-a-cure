@@ -14,11 +14,12 @@ to do: organize into docs
       - 'what are the missing spaces identifiable from information about known spaces'
       - 'what are the structures of unknowability patterns in spaces having these change types'
       - 'how should uncertainties be positioned in adjacent spaces to generate information'
-    - sometimes youll only be able to identify what these combinations are not, using known definitions & generatable distortions of them
-      - other times youll be able to identify structures like what interaction layer they operate on, to narrow down possible change types
-    - difference types can be generated, by identifying new interactions of variables & variable physics, and filtered by which are adjacent interactions, and which are limited by stabilized certainties
-    - interactions between sources of uncertainty can reduce the calculations required 
       - given that a space-time accrues information and quantum superpositions maintain a lack of information, can one neutralize attributes of the other
+      - given that efficiencies offer information/structure a way to stabilize around a symmetry & generate new change types within a level of similarity, how do efficiencies attract/generate/influence other efficiencies & their adjacent related objects (structures & uncertainties)
+      - is there a type of uncertainty resistant to having energy applied to reveal or capture or force resolution of its structure (like an uncertainty surrounded by uncertainties with no efficient calculation route connecting them)
+        - can any uncertainty be standardized to structures of similarities
+      - what are the patterns/rules of efficiency/similarity/symmetry physics?
+        - do calculation efficiencies have structures in common, like subsets or adjacent positions, which can quickly find efficiencies if present?
       - if information is irreversible/measurable structure, does information limit or otherwise influence possible math interactions (calculations of structures)
         - what information structure trajectory would be necessary to calculate things not calculatable in this trajectory
           - if something isnt calculatable in a system, what system would it be calculatable in, and what signals would that system generate when combined with other systems
@@ -28,6 +29,10 @@ to do: organize into docs
       - how many & what type of combination structures can space-times sustain before they start to degrade
       - what are the structures of difference that can connect information with no efficient connecting structure of similarity?
         - given a randomly generated set of numbers with no apparent connection in a combination structure like a sequence, what difference structures can determine the connection between numbers if any exists?
+    - sometimes youll only be able to identify what these combinations are not, using known definitions & generatable distortions of them
+      - other times youll be able to identify structures like what interaction layer they operate on, to narrow down possible change types
+    - difference types can be generated, by identifying new interactions of variables & variable physics, and filtered by which are adjacent interactions, and which are limited by stabilized certainties
+    - interactions between sources of uncertainty can reduce the calculations required 
 
   - optimal system design involves rules like:
     - each node should have power to re-build the system (including how to build the all-destroy node) in the form of information & adjacent resources
