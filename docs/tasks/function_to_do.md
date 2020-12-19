@@ -25,7 +25,7 @@
     - high-impact functions
       - are permitted to access other high-impact functions
 
-    - anomaly detection methods have vulnerabilities in single-metric threshold structures
+    - anomaly detection methods to identify differences have vulnerabilities in single-metric threshold structures that can capture one difference type
       - a threshold identifies aggregated resources crossing that threshold, but does not identify aggregations across different thresholds to build similar functionality from multiple sources
       - a combination structure of anomalies like an anomaly chain/network can escape detection using manipulation of multiple threshold-governed signals
       - example: monitoring just file modifications in isolation without monitoring file content modifications
