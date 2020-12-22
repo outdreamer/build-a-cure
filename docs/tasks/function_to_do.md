@@ -1,5 +1,11 @@
 # to do
 
+  - abstraction as a method to capture variation in the form of change/difference types
+
+  - ratios of change across connecting structures like interaction layers/types as a way to predict error probabilities & locations
+    - example: code change ratio vs. config change ratio vs. user event/workflow change ratio
+    - when the dimension of change exceeds dimension of abstraction to handle change, errors will occur
+
   - halting problem (given n rules, what is the maximum number of operations needed to solve a problem, like 'find the lowest integer having factors that fulfill a condition')
 
     - finding structures of 
