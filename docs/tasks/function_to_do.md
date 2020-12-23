@@ -14,12 +14,16 @@
           - the browser would be the primary enforcing agent in this system, confirming the integrity of the intent map & edits made, as well as determining justified contexts of intent requests not specified in the map (allocating them to voting agencies in cases of uncalculatable justifiability)
         - this implements a centralized source of truth, applied in a decentralized way (everyone can view the keys of the map & has a local copy of the keys & the value hashes), synced with definitions of meaning & understanding (like how requests from a particular user follow patterns specific to their decision history, and how intents can seem but not be similar to other intents, and common manipulation patterns like using ambiguous intents to hide malicious intents)
 
+  - example of applying structures like 'approximation' and 'adjacence' to achieve intents like 'create proxy identification functions' fulfilling core alternate high-level intent functions like 'derive' rather than 'find'
+    - monitor accessible signals (user showing signs of detecting anomalies like staring at a phone number or frowning in concentration) surrounding the inaccessible target signal (attack)
+    - the relationship between core structures (like core functions such as apply/derive, core objects like implications/assumptions/conclusions/definitions) can provide a first-level data source on rules to design interface queries (try find information first, otherwise try alternatives to find like derive/build/test information or proxy information, with the assumption that proxy signals amount to the target signal)
+
   - organize system in a structure optimizing for 'security' priority:
     - with rules like:
       - a function that can edit signals of an attack (request logs) should not be the same function as (or an accessible function to) a function that can cause damage
       - the delete function can only be applied to file content, not file metadata or request logs
       - any rules about a function also apply to any functions that amount to that function when combined
-    - these are abstract rules about structures like rules & concepts like organization that offer a new layer of testing for system optimization
+    - these are abstract rules about structures like functions & concepts like organization/integration that offer a new layer of testing for system optimization
     - workflow testing is another type of testing that is not fully supported/automated (by tracking expected side effects of a task set, having conditions to select tests to execute, and having accepted range of variability in outputs like timestamps)
 
   - abstraction as a method to capture variation in the form of change/difference types
