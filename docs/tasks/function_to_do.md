@@ -1,5 +1,19 @@
 # to do
 
+  - example intent implementation for a priority like 'security'
+    - accessing a particular site by stating intent, where intents are mapped to a static network/route/server set, so that content cant be replaced with malicious content
+      - a browser accepting a request for a site can only deliver values specified in the intent map for that site key
+      - keys in the map represent partitioned content
+        - requested intents like 'whatsapp.myuserid' can only deliver content from the values associated with the key path map['whatsapp']['myuserid'] (server/database/network/content values)
+      - the integrity of the universal intent map as a source of truth/legitimacy/trust is the main point where requests/responses can be compromised, and if its enforced by lack of editing ability & verified with local copies, it cant be compromised
+      - edits to the intent map are supported by continuous & coordinated 'voting' as legitimate mappings, so new request intents can be supported, with increasing degree of readonly capacity as the new intent entry is more confirmed by votes
+      - paths (IP addresses, usernames/handles/email addresses, paths in the mapping, id numbers) in this system wouldnt change (changes such as inheritance/editing/randomizing/sharing)
+      - users & the requests they make would be intrinsically linked, and would be trusted with content relevant to them, including inputs like voting requests (they can vote on legitimacy of content relevant to them)
+        - intents would be evaluated by context, to sync/fit them into the absolute system of meaning
+          - intents like 'deactivate/hack encryption tools on the server associated with this site they just visited' would be fulfilled if the context was justified, such as contexts like 'in a location where encryption has been abused, like a porn or ransomware distribution site', where new intent requests support a particular change/difference/variation ratio & other metrics associated with calculating justifiability like 'intent (ability in the form of a justified actionable plan) to prevent harm'
+          - the browser would be the primary enforcing agent in this system, confirming the integrity of the intent map & edits made, as well as determining justified contexts of intent requests not specified in the map (allocating them to voting agencies in cases of uncalculatable justifiability)
+        - this implements a centralized source of truth, applied in a decentralized way (everyone can view the keys of the map & has a local copy of the keys & the value hashes), synced with definitions of meaning & understanding (like how requests from a particular user follow patterns specific to their decision history, and how intents can seem but not be similar to other intents, and common manipulation patterns like using ambiguous intents to hide malicious intents)
+
   - abstraction as a method to capture variation in the form of change/difference types
 
   - ratios of change across connecting structures like interaction layers/types as a way to predict error probabilities & locations
