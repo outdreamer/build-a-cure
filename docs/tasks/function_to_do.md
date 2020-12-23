@@ -1,5 +1,14 @@
 # to do
 
+  - example of function metadata query to find function for a target intent 
+    - build function with intent to 'clear misfolded proteins'
+      - trigger hormong production 
+        - hormones support 'growth' intent 
+          - 'growth' intent has related functions to support 'finding resources' and 'using resources' to support relevant growth intents like 'build new structures'
+          - 'misfolded proteins' are a resource providing protein components
+          - 'clear misfolded proteins' in the form of 'breaking them down & using thmm to build new structures' can be identified as a supported intent of 'growth hormone' objects and triggering functions
+    - then apply filters to check for other side effects neutralizing target intent
+    
   - example intent implementation for a priority like 'security'
     - accessing a particular site by stating intent, where intents are mapped to a static network/route/server set, so that content cant be replaced with malicious content
       - a browser accepting a request for a site can only deliver values specified in the intent map for that site key
