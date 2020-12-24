@@ -17,7 +17,9 @@
 
   - apply structure to structural concept to generate new object to format/organize/structure information
     - select structure (network, tree, sequence, position, path, combination, filter, value)
-    - select structural concept (definition, base, variable, function)
+    - select structural concept (definition, base, variable, constant, coefficient, rate, change, type, function)
+    - select structural operation (build, apply/change, derive/connect, test, find, organize)
+    - example: start from a network of bases, apply changes of types supported by that base to generate variable networks for each base, then test each variable network to find most useful base
 
   - variables can be represented better in other structures (probabilitistic networks/trees) than their original structures (spectrum representing full possible value range)
 
