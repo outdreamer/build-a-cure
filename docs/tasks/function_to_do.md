@@ -4,7 +4,11 @@
   - apply system analysis to current investments to detect imminent problems (conflicts, inefficiencies, exploit opportunities, incentivized laws/loopholes, incentives to use sub-optimal strategies or exploits, mismatch in demand/supply) and suggest corrections that will optimize investments
     - the right algorithm will identify structures like interaction layers of highest-variation inputs that produce highest-variation outputs to identify where high-impact changes can be made
       - then it will filter for optimizations like lowest-cost, lowest-side effect, highest-impact changes
-      - the probable highest-variation input structure is the network of technologies followed by the network of markets, with the highest-variation output structure being the networks for emergent (high-separation degree) side effects & exploits, with connecting dimension sets like the network of priorities (common priorities like respond to selfish incentives, fix problems, distribute power) problems being relatively low-variation (mostly incentive conflicts & inefficiencies & inequalities)
+      - the highest-variation input structure is probably the network of technologies followed by the network of markets
+      - the highest-variation output structure is probably the networks for emergent (high-separation degree) high-value opportunities (produced by such inputs as innovation-generators, risk-generators, and exploit opportunity-generators, such as compounding problems like edge case side effects) with connecting interim dimension sets like:
+        - the network of priorities (common priorities like respond to selfish incentives, fix problems, distribute power)
+        - the network of common problems being relatively low-variation (mostly incentive conflicts, inefficiencies, lack of information producing risks, and inequalities
+        which generate output exploit opportunities
       - high-impact changes can be made on the combination interface of cause-system-structure-potential interfaces, solving for tech that invalidates markets which depend on problems like inequalities
 
   - example of function metadata query to find function for a target intent 
