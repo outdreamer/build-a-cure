@@ -12,6 +12,8 @@
   - nn explanation example:
     - neural network as a reverse tree of weights
       - each network layer has coefficients mapped to sub-trees of weights, where feedback prunes the trees, differentiating them further & deactivating branches with weights that dont contribute given feature positions & variation
+      - iterations that adjust the weight trees amount to logic exacting conditions on the input set of component functions building the prediction function
+    - generating the most-different sets of weight trees likeliest to get an answer about their contribution quickest is more efficient than the standard training process to incrementally adjust weights
 
   - variables can be represented better in other structures (probabilitistic networks) than their original structures (spectrum representing full possible value range)
 
