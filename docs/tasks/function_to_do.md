@@ -15,7 +15,11 @@
       - iterations that adjust the weight trees amount to logic exacting conditions on the input set of component functions building the prediction function
     - generating the most-different sets of weight trees likeliest to get an answer about their contribution quickest is more efficient than the standard training process to incrementally adjust weights
 
-  - variables can be represented better in other structures (probabilitistic networks) than their original structures (spectrum representing full possible value range)
+  - apply structure to structural concept to generate new object to format/organize/structure information
+    - select structure (network, tree, sequence, position, path, combination, filter, value)
+    - select structural concept (definition, base, variable, function)
+
+  - variables can be represented better in other structures (probabilitistic networks/trees) than their original structures (spectrum representing full possible value range)
 
   - example intent implementation for a priority like 'security'
     - accessing a particular site by stating intent, where intents are mapped to a static network/route/server set, so that content cant be replaced with malicious content
