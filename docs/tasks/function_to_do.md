@@ -1,5 +1,12 @@
 # to do
 
+
+  - apply system analysis to current investments to detect imminent problems (conflicts, inefficiencies, exploit opportunities, incentivized laws/loopholes, incentives to use sub-optimal strategies or exploits, mismatch in demand/supply) and suggest corrections that will optimize investments
+    - the right algorithm will identify structures like interaction layers of highest-variation inputs that produce highest-variation outputs to identify where high-impact changes can be made
+      - then it will filter for optimizations like lowest-cost, lowest-side effect, highest-impact changes
+      - the probable highest-variation input structure is the network of technologies followed by the network of markets, with the highest-variation output structure being the networks for emergent (high-separation degree) side effects & exploits, with connecting dimension sets like the network of priorities (common priorities like respond to selfish incentives, fix problems, distribute power) problems being relatively low-variation (mostly incentive conflicts & inefficiencies & inequalities)
+      - high-impact changes can be made on the combination interface of cause-system-structure-potential interfaces, solving for tech that invalidates markets which depend on problems like inequalities
+
   - example of function metadata query to find function for a target intent 
     - build function with intent to 'clear misfolded proteins'
       - trigger hormong production 
