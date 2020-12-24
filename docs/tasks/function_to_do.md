@@ -8,7 +8,13 @@
           - 'misfolded proteins' are a resource providing protein components
           - 'clear misfolded proteins' in the form of 'breaking them down & using thmm to build new structures' can be identified as a supported intent of 'growth hormone' objects and triggering functions
     - then apply filters to check for other side effects neutralizing target intent
-    
+
+  - nn explanation example:
+    - neural network as a reverse tree of weights
+      - each network layer has coefficients mapped to sub-trees of weights, where feedback prunes the trees, differentiating them further & deactivating branches with weights that dont contribute given feature positions & variation
+
+  - variables can be represented better in other structures (probabilitistic networks) than their original structures (spectrum representing full possible value range)
+
   - example intent implementation for a priority like 'security'
     - accessing a particular site by stating intent, where intents are mapped to a static network/route/server set, so that content cant be replaced with malicious content
       - a browser accepting a request for a site can only deliver values specified in the intent map for that site key
