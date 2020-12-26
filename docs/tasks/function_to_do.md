@@ -1,5 +1,43 @@
 # to do
 
+  - testing tool to identify bias in algorithms as litigation profit opportunities
+    - biased algorithms use the incorrect 'reason' for their decisions
+      - example: using a race as a 'reason' - a factor determining a decision like a criminal categorization or assigning a risk probability
+      - the race shouldnt be the reason determining the decision, though it can be included in the data set to identify concepts like oppression
+      - if an illegitimate reason decision-determining factor is identified, the algorithm can do more analysis to:
+        - figure out why thats a determining factor
+        - find counterexamples (permuting race variable) to verify the illegitimacy of its predictive power
+      - the reason for a decision about something as important as criminality/recidivism probabilities should be:
+        - an agent's conscious response to incentives (they chose to commit a crime, but were not pressured or forced to do so)
+        - involuntary attributes/functions (inability to have impulse control, inability to empathize, other mental disability)
+      - the primary factors causing crime are:
+        - incentives (reasons to do crimes, such as injustice or boredom)
+        - potential in the form of intelligence (giving them other options to get resources than through crime)
+      - these factors can be approximated by factors associated with victims of injustice (oppressed groups) which do tend to have associated physical attributes
+      - so theres a feedback cycle over-rewarding use of these physical attributes as causative factors, bc the algorithm misses the connecting variables:
+        - oppression/injustice historically directed at groups having certain attributes
+        - intelligence (stupid people make hasty decisions & choose a career where they'll be forced to make hasty decisions, relying on easily accessible rules in quick decisions - rules like physical attribute assessments, or over-aggressive/protective fear responses)
+      - when in reality these physical attributes are nearer to outputs of that causal cycle:
+        - stupid people seeking powerful positions => quick decisions usually using illegitimate rules, depending on side effects of stupidity (lack of emotional regulation or planning or quick adaptation, or seeking/being exposed to bias-enforcing information, like focusing on criminals of a particular attribute) => biased decision => enforcement of power to hide biased decision (punish victim anyway, hide evidence of biased decision) => stupid people see another person of that attribute go to jail & miss all the causative factors involved (injustice, intelligence gaps) => more bias cycles are triggered/repeated (stupid brains make more simple single-attribute decisions bc they got rewarded for this one), resulting in hardened assumptions that theyre not biased, resulting in increasing lack of self-awareness/self-correction/learning potential & more stupidity/simple decisions/hard-coded rules/rewards for acting out of fear & bias => repeated oppression of people with those attributes => lack of meaning/justice in lives of oppressed people => stop trying to see the point of being good & start justifying criminal activity for basic needs => punished for fulfilling basic needs, resulting in more injustice cycles => retaliation of family for injustice => stupid people seeing more people with that attribute go to jail, as families/loved ones often share attributes => more stupid people conclude they need to control people with that attribute => stupid peopl seeking powerful positions
+
+      - algorithm tests:
+        - a good algorithm will identify these factors (incentives to do crime & potential/intelligence) as the primary determining variables creating crime, and will also be able to output the structure of the above causal cycle/network
+        - the algorithm should identify sub-reason causal structures, like
+          - boredom/entertainment
+          - feelings like power to correct their emotional imbalances
+          - cycles of criminal activity (victims seeking street/vigilante justice, unlucky people seeking to allocate their problems to perceived luckier people)
+        - concepts & relevant structures capturing them:
+          - intelligence
+            - functions of intelligence like impulse control, skills learning
+            - side effects of intelligence like steady income
+          - justice cycles
+          - lack of justice, leading to lack of meaning (they never got protected/justice so they cant see why innocent people should, given that there must be no absolute meaning)
+          - forgiveness/trust/understanding: tools of crime-correction that should not be enforced on victims
+          - victim complex: tendency of social agents to see themselves sympathetically & as passive victims, especially criminals
+          - lack of empathy/hypocrisy: criminals who cant empathize dont achieve self-awareness, dont correct their errors in judgment, and dont exhibit unnecessary concern for others' well-being, so they see themselves as victims while being unable to see other people like their victims as victims
+          - needs vs. desires: criminals dont separate needs & desires, and crimes of fulfilling needs like life-saving medicine shouldnt be categorized as crimes
+      - 
+
   - list examples of applying structure to create new neural network structures for an intent & how to generate them
     - example: 
       - cnn = apply 'subset' structure to 'adjacent features', given that 'position/adjacence' is an attribute determining a definition of 'relevance' in the form of 'local relevance to other local features, & other feature interaction layers built by local features', or 'size relevance'
