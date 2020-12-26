@@ -36,14 +36,26 @@
           - victim complex: tendency of social agents to see themselves sympathetically & as passive victims, especially criminals
           - lack of empathy/hypocrisy: criminals who cant empathize dont achieve self-awareness, dont correct their errors in judgment, and dont exhibit unnecessary concern for others' well-being, so they see themselves as victims while being unable to see other people like their victims as victims
           - needs vs. desires: criminals dont separate needs & desires, and crimes of fulfilling needs like life-saving medicine shouldnt be categorized as crimes
-      - 
 
   - list examples of applying structure to create new neural network structures for an intent & how to generate them
+  
     - example: 
       - cnn = apply 'subset' structure to 'adjacent features', given that 'position/adjacence' is an attribute determining a definition of 'relevance' in the form of 'local relevance to other local features, & other feature interaction layers built by local features', or 'size relevance'
       - the cnn prioritizes the 'subset' groups of local features, promoting this set as its own emerging feature serving as input to the next layer.
+    
     - to generate other examples, identify structures like the 'local adjacent feature subset' or 'size relevance' in an image as an approximation of meaning aggregation/filtering/construction/injection, to calculate global meaning/relevance across the whole image, relevant to a task (identification/categorization/differentiation)
       - this is a good standard example of how structure (position/subset) can have meaning when applied in other structures (image)
+
+      - algorithm to generate these structure changes for an intent (sample output of interface analysis):
+        1. determine a structural definition of meaning/relevance for a problem (with associated info/formats & target solution info/formats)
+          - adjacence as a definition of meaning for local features in an image info format
+        2. find a structure that fulfills that definition of meaning
+          - subsets of adjacent local features capture adjacent information
+          - adjacent information may be relevant information, given the definition of relevance used
+        3. apply that structure to the algorithm
+          - inject the subset structure in the input structures, adding an iteration to capture additional subsets
+          - injecting the subset structure is a proxy for injecting the structural relevance definition of adjacence
+
     - another example: 
       - given that reverse weight trees are a standard neural network structure, is there a structure that would help prune the trees, connect the leaves across different weight trees, or convert the trees into a useful network/cyclical structure that could be applied in any direction?
       - should neural network support pivots in other directions, so rather than optimizing for the original final target layers, they can have or add layers in other directions, after discovering patterns in loss/activation/weights that point to other dynamics than originally configured to identify? (star or cyclical structure, with different final target layers)
