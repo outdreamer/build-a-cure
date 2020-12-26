@@ -1,5 +1,16 @@
 # to do
 
+  - list examples of applying structure to create new neural network structures for an intent & how to generate them
+    - example: 
+      - cnn = apply 'subset' structure to 'adjacent features', given that 'position/adjacence' is an attribute determining a definition of 'relevance' in the form of 'local relevance to other local features, & other feature interaction layers built by local features', or 'size relevance'
+      - the cnn prioritizes the 'subset' groups of local features, promoting this set as its own emerging feature serving as input to the next layer.
+    - to generate other examples, identify structures like the 'local adjacent feature subset' or 'size relevance' in an image as an approximation of meaning aggregation/filtering/construction/injection, to calculate global meaning/relevance across the whole image, relevant to a task (identification/categorization/differentiation)
+      - this is a good standard example of how structure (position/subset) can have meaning when applied in other structures (image)
+    - another example: 
+      - given that reverse weight trees are a standard neural network structure, is there a structure that would help prune the trees, connect the leaves across different weight trees, or convert the trees into a useful network/cyclical structure that could be applied in any direction?
+      - should neural network support pivots in other directions, so rather than optimizing for the original final target layers, they can have or add layers in other directions, after discovering patterns in loss/activation/weights that point to other dynamics than originally configured to identify? (star or cyclical structure, with different final target layers)
+
+  - apply ddos against hackers by keeping them busy hacking decoy servers & fending off malware attacks to IPs that use the most security tools that arent associated with white hat communities
 
   - apply system analysis to current investments to detect imminent problems (conflicts, inefficiencies, exploit opportunities, incentivized laws/loopholes, incentives to use sub-optimal strategies or exploits, mismatch in demand/supply) and suggest corrections that will optimize investments
     - the right algorithm will identify structures like interaction layers of highest-variation inputs that produce highest-variation outputs to identify where high-impact changes can be made
@@ -26,11 +37,13 @@
       - iterations that adjust the weight trees amount to logic exacting conditions on the input set of component functions building the prediction function
     - generating the most-different sets of weight trees likeliest to get an answer about their contribution quickest is more efficient than the standard training process to incrementally adjust weights
 
-  - apply structure to structural concept to generate new object to format/organize/structure information
-    - select structure (network, tree, sequence, position, path, combination, filter, value)
-    - select structural concept (definition, base, variable, constant, coefficient, rate, change, type, function)
-    - select structural operation (build, apply/change, derive/connect, test, find, organize)
-    - example: start from a network of bases, apply changes of types supported by that base to generate variable networks for each base, then test each variable network to find most useful base
+  - structural interface query example
+    - apply structures to structural components & operations to generate new solution object to format/organize/structure information for a given intent
+      - select structure (network, tree, sequence, position, path, combination, filter, value)
+      - select structural component (definition, base, variable, constant, coefficient, rate, change, type, function)
+      - select structural operation (build, apply/change, derive/connect, test, find, organize)
+    - example: 
+      - start from a network of bases, apply changes of types supported by that base to generate variable networks for each base, then test each variable network with intent to find most useful base & variable network to solve a problem structure like 'finding relevant variables quickly'
 
   - variables can be represented better in other structures (probabilitistic networks/trees) than their original structures (spectrum representing full possible value range)
 
