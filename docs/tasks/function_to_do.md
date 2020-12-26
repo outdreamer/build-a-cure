@@ -12,6 +12,12 @@
 
   - apply ddos against hackers by keeping them busy hacking decoy servers & fending off malware attacks to IPs that use the most security tools that arent associated with white hat communities
 
+  - apply patterns of hacker decisions
+    - examples:
+      - when to attack an exploit (when its posted to a particular dark web forum, when their brute force tools discover it, when an exploit is discussed on a white hat chat)
+      - when to mimic benevolent signals compared to time of discovery/attention of benevolent signals (how soon after hearing a suggestion of mimicking white hat hackers do they apply it)
+      - level of effort applied to benevolent signals (do they tend to complete standard/benevolent config/is it implemented better than average configurer)
+
   - apply system analysis to current investments to detect imminent problems (conflicts, inefficiencies, exploit opportunities, incentivized laws/loopholes, incentives to use sub-optimal strategies or exploits, mismatch in demand/supply) and suggest corrections that will optimize investments
     - the right algorithm will identify structures like interaction layers of highest-variation inputs that produce highest-variation outputs to identify where high-impact changes can be made
       - then it will filter for optimizations like lowest-cost, lowest-side effect, highest-impact changes
