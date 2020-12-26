@@ -1,5 +1,7 @@
 # to do
 
+  - weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
+
   - testing tool to identify bias in algorithms as litigation profit opportunities
     - biased algorithms use the incorrect 'reason' for their decisions
       - example: using a race as a 'reason' - a factor determining a decision like a criminal categorization or assigning a risk probability
@@ -38,7 +40,7 @@
           - needs vs. desires: criminals dont separate needs & desires, and crimes of fulfilling needs like life-saving medicine shouldnt be categorized as crimes
 
   - list examples of applying structure to create new neural network structures for an intent & how to generate them
-  
+
     - example: 
       - cnn = apply 'subset' structure to 'adjacent features', given that 'position/adjacence' is an attribute determining a definition of 'relevance' in the form of 'local relevance to other local features, & other feature interaction layers built by local features', or 'size relevance'
       - the cnn prioritizes the 'subset' groups of local features, promoting this set as its own emerging feature serving as input to the next layer.
