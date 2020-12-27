@@ -2,7 +2,11 @@
 
   - weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
 
-  - an initial review of a data set can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
+  - initial automated review of a data set can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
+    - additional layers of analysis: 
+      - can a distortion of the variables provide the needed variance
+      - can an extra variable provide the needed variance
+      - can this architecture/algorithm form structures needed to explain (connect) these causal links (describe/derive the causal network) or hold the relevant concepts (like how the structure of 'evolution from a common ancestor' has a corresponding structure in the divergence of cat/dog graph clusters when you add an extreme value of the time variable)
 
   - testing tool to identify bias in algorithms as litigation profit opportunities
     - biased algorithms use the incorrect 'reason' for their decisions
