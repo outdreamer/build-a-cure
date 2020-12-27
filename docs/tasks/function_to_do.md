@@ -2,6 +2,8 @@
 
   - weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
 
+  - an initial review of a data set can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
+
   - testing tool to identify bias in algorithms as litigation profit opportunities
     - biased algorithms use the incorrect 'reason' for their decisions
       - example: using a race as a 'reason' - a factor determining a decision like a criminal categorization or assigning a risk probability
