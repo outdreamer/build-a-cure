@@ -2,11 +2,39 @@
 
   - weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
 
-  - initial automated review of a data set can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
+  - initial automated tests of a data set (to apply an associated architecture/algorithm to) can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
     - additional layers of analysis: 
       - can a distortion of the variables provide the needed variance
       - can an extra variable provide the needed variance
-      - can this architecture/algorithm form structures needed to explain (connect) these causal links (describe/derive the causal network) or hold the relevant concepts (like how the structure of 'evolution from a common ancestor' has a corresponding structure in the divergence of cat/dog graph clusters when you add an extreme value of the time variable)
+      - can this architecture/algorithm form structures needed to explain (connect) these causal links (describe/derive the causal network) or hold the relevant concepts (like how the structure of 'evolution from a common ancestor' has a corresponding structure in the divergence of cat/dog graph clusters when you add an extreme value of the time variable), given the complexity & variation & change potential involved
+
+  - game automation 
+
+    - choose a system with enough complexity to allow many change types
+      - information system
+        - information objects
+          - story: a sequence of events with a perspective focusing on a subset of events, interacting with agents & their objects (goals, lifetimes, problems), & their communication objects (conversations, stories, jokes, research, reports)
+      - function interface
+        - rules
+          - social rules
+            - court: a decision node, operated by an agent having information about rules (limits, protections of freedoms) & rule types (preferences/norms/laws), priorities (justice, avoiding giving justification/permission to legislate other unintended laws), interactions (impact on markets, diplomacy challenges, deals), change types (allowing a change type that triggers other changes), & concepts (precedent) of government
+      - system interface
+        - closed rule-based systems
+          - system objects
+            - objects with direction (incentives, goals, optimizations, range of potential changes)
+              - game: low-stakes goal in a discoverable system
+
+    - choose a level of variation to allow interactions with other systems
+      - variation in interaction layer (stories interacting with stories, human interaction laws interacting with physics laws of space-time)
+
+    - choose structure of this interaction
+      - can be a containing structure like a context, a platform like a background/foundation, or an object in a combination/sequence set
+
+    - choose agents with
+      - high change potential (no hard-coded biases that make their perspective static, like avoiding information)
+      - relatable problems (family problems, seeking a resource, etc)
+      - powers that add to their potential/freedom for escapist games
+      - new combinations of agent objects (powers that have problems)
 
   - testing tool to identify bias in algorithms as litigation profit opportunities
     - biased algorithms use the incorrect 'reason' for their decisions
