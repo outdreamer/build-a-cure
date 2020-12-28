@@ -1,5 +1,16 @@
 # to do
 
+  - generate starter pack of solution automation methods
+    - apply subset & group structures to problem/solution
+      - break problem into sub-problems, solve sub-problems, and aggregate sub-solutions
+
+    - apply filter structure to problem
+      - filter problem until its a solution object
+
+    - apply variable structure to problem
+      - find variable(s) that capture the most or most important variance across problem objects
+      - format problem objects in terms of those variables
+
   - apply structures to interfaces
     - list points of overlap & connection between interfaces & use that network as a primary/default interface query structure
 
