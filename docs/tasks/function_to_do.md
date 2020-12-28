@@ -2,7 +2,9 @@
 
   - list points of overlap & connection between interfaces
 
-  - concept definition
+  - define the application of interfaces to interfaces
+    - structural concept definition
+      - repeated, stable structure in a system that develops its own functions/attributes from interactions with other structured concepts rather than being definable solely as a set of components in isolation
 
   - find incentives of a system
     - apply structural incentive definition (cost-minimization, profit-maximization) - meaning applying 'cost-minimization' to interaction objects, indicating structures in the:
