@@ -1,5 +1,23 @@
 # to do
 
+  - list points of overlap & connection between interfaces
+
+  - concept definition
+
+  - find incentives of a system
+    - find relationships in system
+    - find primary inputs (work, cost, movement) and outputs (rewards) in system
+    - find input-minimizing points/routes in system (points/routes that minimize work)
+    - find concepts in system (remainder profit after required features are built)
+    - find interaction layer & objects in system (profit, features, contract)
+    - find strategy to allocate interaction objects (minimize features) in a way that achieves an input-minimizing point (minimize work)
+    - example: fixed-cost contract
+      - increased number of features have a negative correlation with increased profit
+        - work is an input to features
+      - 'remainder profit' is maximized if work to fulfill required features is minimized
+      - the primary incentive is to minimize features to just the required features
+        - sub-incentive to minimize work
+
   - weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
 
   - initial automated tests of a data set (to apply an associated architecture/algorithm to) can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
@@ -10,7 +28,7 @@
 
   - game automation 
 
-    - choose a system with enough complexity to allow many change types
+    - choose a system with enough complexity to allow many change types (rule changes, injection of other systems, changing system context, etc)
       - information system
         - information objects
           - story: a sequence of events with a perspective focusing on a subset of events, interacting with agents & their objects (goals, lifetimes, problems), & their communication objects (conversations, stories, jokes, research, reports)
@@ -34,7 +52,7 @@
       - high change potential (no hard-coded biases that make their perspective static, like avoiding information)
       - relatable problems (family problems, seeking a resource, etc)
       - powers that add to their potential/freedom for escapist games
-      - new combinations of agent objects (powers that have problems)
+      - new combinations of agent objects (powers that have problems, permuting assumptions, abstracting/invalidating definitions of game objects)
 
   - testing tool to identify bias in algorithms as litigation profit opportunities
     - biased algorithms use the incorrect 'reason' for their decisions

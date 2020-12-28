@@ -57,6 +57,14 @@
     - intersection: conflict/overlap
     - tangent: line of least nonzero interactions with another line
     - ratio
+    - connection
+    - barrier
+    - container
+    - spiral 
+    - curve
+    - twist
+    - overlap
+    - knot
     - symmetry
     - scalar
     - path
