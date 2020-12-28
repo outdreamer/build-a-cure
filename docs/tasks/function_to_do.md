@@ -10,13 +10,18 @@
     - find input-minimizing points/routes in system (points/routes that minimize work)
     - find concepts in system (remainder profit after required features are built)
     - find interaction layer & objects in system (profit, features, contract)
-    - find strategy to allocate interaction objects (minimize features) in a way that achieves an input-minimizing point (minimize work)
+    - find strategy to allocate interaction objects (minimize features) in a way that achieves an input-minimizing point (minimize work) - meaning inputs of interaction objects
+      - filter strategies by those that minimize cost or maximize profit 
+        - identify sub-incentives of an incentivized strategy applied to interaction objects (sub-incentives of related objects like inputs)
+        
     - example: fixed-cost contract
-      - increased number of features have a negative correlation with increased profit
-        - work is an input to features
-      - 'remainder profit' is maximized if work to fulfill required features is minimized
-      - the primary incentive is to minimize features to just the required features
-        - sub-incentive to minimize work
+      - identify relationships
+        - increased number of features have a negative correlation with increased profit
+          - identify interaction object inputs: work is an input to features
+        - identify concepts & relationships: 'remainder profit' is maximized if work to fulfill required features is minimized
+      - identify incentivized (profit-maximizing or cost-minimizing) interaction object allocation method
+        - the primary incentive is to minimize features to just the required features
+          - sub-incentive to minimize work
 
   - weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
 
