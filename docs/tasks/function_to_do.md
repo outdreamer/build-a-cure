@@ -1,6 +1,8 @@
 # to do
 
-  - generate starter pack of solution automation methods
+  - generate nn of every core structure (like a combination structure to aggregate features into groups) having a useful intent for 'generating prediction function' intent
+
+  - generate starter pack of solution automation methods by applying core structures to problem objects
     - apply subset & group structures to problem/solution
       - break problem into sub-problems, solve sub-problems, and aggregate sub-solutions
 
