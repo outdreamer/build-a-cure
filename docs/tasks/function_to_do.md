@@ -1,5 +1,22 @@
 # to do
 
+  - determine what intents to analyze, in what structure (sequence, combination, network)
+    - determine what structures (dimension sets like vertex variables, core functions or interaction layer objects, formats like definition, networks like attribute graph) can solve what problems optimally
+    - determine what problems need to be solved
+    - determine what work needs to be done to solve input problems
+    - determine priorities
+  - then you can organize analysis to fulfill those intents
+    - core analysis
+      - what are the core components?
+        - what are produced by core structures applied to core components?
+          - what are the useful products of core structures applied to core components, for which relevant intents?
+    - system analysis
+      - what are the system components (opportunities, efficiencies, incentives)
+    - interface analysis
+      - how does this fit with other intents & problem space changes while analysis was running? 
+      - can work be reduced using problem space changes like new tech?
+      - should this analysis continue or switch to another intent?
+
   - generate nn of every core structure (like a combination structure to aggregate features into groups) having a useful intent for 'generating prediction function' intent
 
   - generate starter pack of solution automation methods by applying core structures to problem objects
