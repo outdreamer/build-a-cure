@@ -1,8 +1,11 @@
 # to do
+  
+  - examine how normally distributed change (extreme change rate at tails manifesting as asymptotes/inflection points, approaching average change rate in middle) produces non-linearity 
 
-  - nn structures displaying concepts like 'fear':
-    - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
-    - in a neural network, the concept of fear shows up in the structures designed for cost-minimization
+  - nn structures displaying concepts:
+    - example: concept of 'fear'
+      - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
+      - in a neural network, the concept of fear shows up in the structures designed for cost-minimization
 
   - in order to identify their own error types, they need some of the following:
     - data from other neural nets, data sets, tasks, & error rates
