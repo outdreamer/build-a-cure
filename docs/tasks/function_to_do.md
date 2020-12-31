@@ -17,15 +17,23 @@
           - the original definition is lack of impact, implying that neither is an input/output of the other (such as outputs on a similar layer of a distant root cause in a tree)
         - is the cell surface shape resulting from additive interactions the output variable of these combined random variables (cell types, possibly having different surface shapes, sizes, and other variables) that has or stabilizes at a normal distribution
         - what is the input change trigger that produces an increase in output randomness after this stabilization
-        - there is an incentivized range by the host system, but is there incentivized centrality & stabilization of change
-        - does a normal distribution accompany stabilized change around an optimal average value
-        - is the compounding of random variables with normalized output ranges an output of systems with normalized value range incentives
-        - do similar structures commonly tend to have normalized systems/incentives driving their similarity
-        - what are the most dissimilar systems that can produce similar sub-structures?
-        - do independent change ranges in general just happen to gravitate around a change range around an average determined by the difference degree represented by extreme values, or is the root cause that variables in general happen to have averages where most of their values occur so when there is no enforcement of limits applied to inputs, the added variable tends to be average, or that certain interaction types or interactions in general necessarily neutralize randomness of the output/combined variables
+        - do similar structures also tend to have similar systems/incentives driving their similarity
+          - what are the most dissimilar systems that can produce similar sub-structures?
+        - does most change occur in a particular change range
+          - there is an incentivized range by the host system, but is there incentivized centrality & stabilization of change
+          - does a normal distribution accompany stabilized change around an optimal average value
+          - is the compounding of random variables with normalized output ranges an output of systems with normalized value range incentives
+          - do independent change ranges in general just happen to gravitate around a change range around an average determined by the difference degree represented by extreme values, or is the root cause that variables in general happen to have averages where most of their values occur so when there is no enforcement of limits applied to inputs, the added variable tends to be average, or that certain interaction types or interactions in general necessarily neutralize randomness of the output/combined variables
           - is it relevant that the distribution of change output ranges in the added variables is random (where each independent variable output range is equally likely)
           - what other variable type(s) could be combined to produce a normal distribution, and is their output added variable distribution driven by similar reasons
           - what would be necessary to keep the added variable distribution random instead of normal
+      - how to generate the above questions
+        - how to change the system to fulfill different intents
+        - how to change the structures of the system without changing the relevant interaction of the system
+        - what could also produce the system (other causes)
+        - what are other interactions/structures (stabilization of change, change range, similarities such as common overlaps of change ranges) that could be related to the relevant interaction, and in what way
+        - what are the assumptions, rules & other requirements
+
   - nn structures displaying concepts:
     - example: concept of 'fear'
       - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
