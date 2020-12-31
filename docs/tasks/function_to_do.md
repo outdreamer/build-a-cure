@@ -5,11 +5,17 @@
       - as when independent random variables interact in an 'aligned combination' structure going the same or converging direction, 
         - and the compounded aggregate effect is a normal distribution collecting minimal extreme values as most of the random variable sums gravitate around the average in the middle, 
           - given the range of values they tend to have in common that when added produces values in a similar range as the normal distribution's average +/- a standard deviation 
-    - a structure is a circular cell with equally distributed openings that many different cell types can pass through, and the probability distribution of cell types is relatively even
-      - when these cell types are in the circular cell, they interact with other randomly selected cell types
-        - these cell types are all similar in a certain range of certain variables (cell size)
-          - this similarity allows them to interact in a particular way, occupying a particular interaction level (colliding in the circular cell)
-            
+    - example:
+      - a relevant example structure is a circular cell with equally distributed openings that many different cell types can pass through, and the probability distribution of cell types is relatively even
+        - when these cell types are in the circular cell, they interact with other randomly selected cell types
+          - these cell types are all similar in a certain range of certain variables (cell size)
+            - this similarity allows them to interact in a particular way, occupying a particular interaction level (colliding in the circular cell)
+              - a compounding sum of the cell types would take the form of additive damage (cell surface disruption & smoothing) from collisions, which is spread relatively evenly across cell types, but would be concentrated on a range of any surfaces, and any other cell metadata (spin, velocity, size, position) that tend to be involved in collisions more
+                - interactions of this type tend to attract additional interactions of this type, but additional interactions have decreasing impact on cell surface change, stabilizing at a relatively smooth shape most of the time
+      - questions
+        - does the shared interaction layer interfere with the definition of independence, or change independence of the variables
+        - is the cell surface shape resulting from additive interactions the output variable of these combined random variables (cell types, possibly having different surface shapes, sizes, and other variables) that has or stabilizes at a normal distribution
+
   - nn structures displaying concepts:
     - example: concept of 'fear'
       - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
