@@ -1,7 +1,15 @@
 # to do
   
-  - examine how normally distributed change (extreme change rate at tails manifesting as asymptotes/inflection points, approaching average change rate in middle) produces non-linearity 
-
+  - examine how normally distributed change (extreme change rate at tails manifesting as asymptotes/inflection points, approaching average change rate in middle) produces non-linearity, 
+    - given the sum of independent random variables producing normal distribution (central limit theorem), 
+      - as when independent random variables interact in an 'aligned combination' structure going the same or converging direction, 
+        - and the compounded aggregate effect is a normal distribution collecting minimal extreme values as most of the random variable sums gravitate around the average in the middle, 
+          - given the range of values they tend to have in common that when added produces values in a similar range as the normal distribution's average +/- a standard deviation 
+    - a structure is a circular cell with equally distributed openings that many different cell types can pass through, and the probability distribution of cell types is relatively even
+      - when these cell types are in the circular cell, they interact with other randomly selected cell types
+        - these cell types are all similar in a certain range of certain variables (cell size)
+          - this similarity allows them to interact in a particular way, occupying a particular interaction level (colliding in the circular cell)
+            
   - nn structures displaying concepts:
     - example: concept of 'fear'
       - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
