@@ -8,7 +8,9 @@
     - data from other neural nets, data sets, tasks, & error rates
     - functions to track their own errors & gather extra information as needed
     - function to categorize error types & derive missing error types & other error structures, like error interaction layers & core error functions & core error structures (distortion, gap)
-    - function to derive structures of ambiguity, randomness, variance, & uncertainty beforehand, so they know what to look for & can quickly identify relevant objects like an ambiguity that will produce categorization errors
+    - function to derive structures of mismatch, ambiguity, randomness, variance, & uncertainty beforehand, so they know what to look for & can quickly identify relevant objects like an ambiguity that will produce categorization errors
+    - function to derive how a task like categorization could be incomplete or otherwise incorrectly implemented & watch for change in that direction
+    - function to identify concepts/causes/system driving the generation of errors (imbalances, unenforced rules, incomplete expectations, incorrect assumptions) or development of new error types (new interactions, compounding uncertainties/gaps)
 
   - determine what general intents to analyze, in what structure (sequence, combination, network)
     - determine what structures (dimension sets like vertex variables, core functions or interaction layer objects, formats like definition, networks like attribute graph) can solve what problems optimally
