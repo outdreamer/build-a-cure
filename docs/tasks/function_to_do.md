@@ -1,6 +1,10 @@
 # to do
 
-  - determine what intents to analyze, in what structure (sequence, combination, network)
+  - nn structures displaying concepts like 'fear':
+    - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
+    - in a neural network, the concept of fear shows up in the structures designed for cost-minimization
+
+  - determine what general intents to analyze, in what structure (sequence, combination, network)
     - determine what structures (dimension sets like vertex variables, core functions or interaction layer objects, formats like definition, networks like attribute graph) can solve what problems optimally
     - determine what problems need to be solved
     - determine what work needs to be done to solve input problems
