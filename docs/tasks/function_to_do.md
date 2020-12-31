@@ -13,15 +13,19 @@
               - a compounding sum of the cell types would take the form of additive damage (cell surface disruption & smoothing) from collisions, which is spread relatively evenly across cell types, but would be concentrated on a range of any surfaces, and any other cell metadata (spin, velocity, size, position) that tend to be involved in collisions more
                 - interactions of this type tend to attract additional interactions of this type, but additional interactions have decreasing impact on cell surface change, stabilizing at a relatively smooth shape most of the time
       - questions
-        - does the shared interaction layer interfere with the definition of independence, or change independence of the variables
+        - does the shared interaction layer interfere with the definition of independence, or change independence of the variables, or change a different type of independence
+          - the original definition is lack of impact, implying that neither is an input/output of the other (such as outputs on a similar layer of a distant root cause in a tree)
         - is the cell surface shape resulting from additive interactions the output variable of these combined random variables (cell types, possibly having different surface shapes, sizes, and other variables) that has or stabilizes at a normal distribution
         - what is the input change trigger that produces an increase in output randomness after this stabilization
         - there is an incentivized range by the host system, but is there incentivized centrality & stabilization of change
         - does a normal distribution accompany stabilized change around an optimal average value
-        - is the compounding of random variables with similar output ranges an artifact of systems with similar value range incentives
-        - do similar structures commonly tend to have similar systems/incentives driving their similarity
+        - is the compounding of random variables with normalized output ranges an output of systems with normalized value range incentives
+        - do similar structures commonly tend to have normalized systems/incentives driving their similarity
         - what are the most dissimilar systems that can produce similar sub-structures?
-
+        - do independent change ranges in general just happen to gravitate around a change range around an average determined by the difference degree represented by extreme values, or is the root cause that variables in general happen to have averages where most of their values occur so when there is no enforcement of limits applied to inputs, the added variable tends to be average, or that certain interaction types or interactions in general necessarily neutralize randomness of the output/combined variables
+          - is it relevant that the distribution of change output ranges in the added variables is random (where each independent variable output range is equally likely)
+          - what other variable type(s) could be combined to produce a normal distribution, and is their output added variable distribution driven by similar reasons
+          - what would be necessary to keep the added variable distribution random instead of normal
   - nn structures displaying concepts:
     - example: concept of 'fear'
       - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
@@ -29,6 +33,7 @@
 
   - in order to identify their own error types, they need some of the following:
     - data from other neural nets, data sets, tasks, & error rates
+    - info about error types & variables causing errors
     - functions to track their own errors & gather extra information as needed
     - function to categorize error types & derive missing error types & other error structures, like error interaction layers & core error functions & core error structures (distortion, gap)
     - function to derive structures of mismatch, ambiguity, randomness, variance, & uncertainty beforehand, so they know what to look for & can quickly identify relevant objects like an ambiguity that will produce categorization errors
