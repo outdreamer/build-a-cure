@@ -15,6 +15,12 @@
       - questions
         - does the shared interaction layer interfere with the definition of independence, or change independence of the variables
         - is the cell surface shape resulting from additive interactions the output variable of these combined random variables (cell types, possibly having different surface shapes, sizes, and other variables) that has or stabilizes at a normal distribution
+        - what is the input change trigger that produces an increase in output randomness after this stabilization
+        - there is an incentivized range by the host system, but is there incentivized centrality & stabilization of change
+        - does a normal distribution accompany stabilized change around an optimal average value
+        - is the compounding of random variables with similar output ranges an artifact of systems with similar value range incentives
+        - do similar structures commonly tend to have similar systems/incentives driving their similarity
+        - what are the most dissimilar systems that can produce similar sub-structures?
 
   - nn structures displaying concepts:
     - example: concept of 'fear'
