@@ -1,5 +1,13 @@
 # to do
 
+  - intelligence definition routes
+    - potential
+      - learning/change potential
+      - risk-reduction potential
+      - optimization potential
+      - self-optimizability/correction/awareness potential
+      - increasingly higher-dimensional space navigation potential
+
   - poetry function
     - focusing on/filtering/prioritizing connections to a higher-dimensional space (potential space, where more types of change are possible)
   
