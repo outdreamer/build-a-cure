@@ -1,4 +1,7 @@
 # to do
+
+  - poetry function
+    - focusing on/filtering/prioritizing connections to a higher-dimensional space (potential space, where more types of change are possible)
   
   - examine how normally distributed change (extreme change rate at tails manifesting as asymptotes/inflection points, approaching average change rate in middle) produces non-linearity, 
     - given the sum of independent random variables producing normal distribution (central limit theorem), 
@@ -35,18 +38,26 @@
         - what are the assumptions, rules & other requirements
 
   - nn structures displaying concepts:
+
     - example: concept of 'fear'
       - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
       - in a neural network, the concept of fear shows up in the structures designed for cost-minimization
 
-  - in order to identify their own error types, they need some of the following:
-    - data from other neural nets, data sets, tasks, & error rates
-    - info about error types & variables causing errors
-    - functions to track their own errors & gather extra information as needed
-    - function to categorize error types & derive missing error types & other error structures, like error interaction layers & core error functions & core error structures (distortion, gap)
-    - function to derive structures of mismatch, ambiguity, randomness, variance, & uncertainty beforehand, so they know what to look for & can quickly identify relevant objects like an ambiguity that will produce categorization errors
-    - function to derive how a task like categorization could be incomplete or otherwise incorrectly implemented & watch for change in that direction
-    - function to identify concepts/causes/system driving the generation of errors (imbalances, unenforced rules, incomplete expectations, incorrect assumptions) or development of new error types (new interactions, compounding uncertainties/gaps)
+  - in order to identify their own error types, neural nets need some of the following:
+
+    - intents:
+      - incentives or other rules of varying enforcement like priorities to invest in high-cost learning
+
+    - info:
+      - data from other neural nets, data sets, tasks, & error rates
+      - info about error types & variables causing errors
+
+    - functions:
+      - functions to track their own errors & gather extra information as needed
+      - function to categorize error types & derive missing error types & other error structures, like error interaction layers & core error functions & core error structures (distortion, gap)
+      - function to derive structures of mismatch, ambiguity, randomness, variance, & uncertainty beforehand, so they know what to look for & can quickly identify relevant objects like an ambiguity that will produce categorization errors
+      - function to derive how a task like categorization could be incomplete or otherwise incorrectly implemented & watch for change in that direction
+      - function to identify concepts/causes/system driving the generation of errors (imbalances, unenforced rules, incomplete expectations, incorrect assumptions) or development of new error types (new interactions, compounding uncertainties/gaps)
 
   - determine what general intents to analyze, in what structure (sequence, combination, network)
     - determine what structures (dimension sets like vertex variables, core functions or interaction layer objects, formats like definition, networks like attribute graph) can solve what problems optimally
