@@ -2,11 +2,23 @@
 
   - intelligence definition routes
     - potential
-      - learning/change potential
-      - risk-reduction potential
-      - optimization potential
-      - self-optimizability/correction/awareness potential
-      - increasingly higher-dimensional space navigation potential
+      - ethics potential (ethics being a proxy metric of intelligence)
+        - resource-distribution potential (can they distribute resources like privileged information, resolving inequalities)
+        - ethics derivation potential (can they figure out what is ethical, like resolving inequalities)
+      - problem solving potential
+        - work-reduction/efficiency creation potential (can they consistently find an efficient way to reduce their work, to enable solving other problems)
+        - risk-reduction potential (can they consistently reduce risk so they can handle bigger risks)
+        - automation potential (can they automate a task)
+        - learning/change/adaptation potential (can they learn in a way that allows them to survive to solve other problems)
+        - difference/change identification potential (can they identify an object that is increasingly different from everything they already know)
+        - understanding (system-fitting) potential (can they fit new info into an existing system of meaning or identify when a system of meaning is invalid)
+        - derivation potential (can they derive info or do they need to be given it)
+        - optimization potential (can they optimize something dynamically)
+        - self-optimizability/correction/awareness potential
+        - solvability calculation potential (can they determine solvability of a problem)
+      - difference navigation potential
+        - cognitive distance (how much they can do with minimized input)
+        - increasingly higher-dimensional space navigation potential (can they successfully navigate spaces with an increasing number of possible change types)
 
   - poetry function
     - focusing on/filtering/prioritizing connections to a higher-dimensional space (potential space, where more types of change are possible)
