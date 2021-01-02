@@ -1,5 +1,14 @@
 # to do
 
+  - definition of & difference between information & understanding
+    - information is specific, isolated, temporary, & directly structural, often in a structure of a connection between network nodes (an insight/rule/function)
+      - example: 
+        - 'enforce this law'
+        - 'correct this error'
+    - understanding is general, integrated, cumulative, & structural (in relation to a system of existing understanding, rather than in relation to a physical structure), often in a network structure built out of fitted interacting integrated unique generalized information (rules generalized as needed)
+      - example: 
+        - 'check if this law is good, check if the concept of a law is valid in this problem space, check if other variables are higher impact than the goodness of a law, define goodness & law, check how it interacts with other laws & how that law changes & how laws in general change, check if this is the right question/metric, check if enforcement methods violate other laws, check if theres a gap in laws relevant to this law, check if input laws or alternative laws should be enforced in place of this one'
+        - 'predict error types, come up with a solution to prevent known error types, come up with a way to fix errors optimally, find variables generating errors, define error, define error metric, check metric & metric structures like thresholds/constants for validity, check for more optimal errors to fix, check for input/causal errors that can be fixed with fewer side effects, check for errors with usefulness for other intents, find system structures causing errors'
 
   - intelligence definition routes
 
