@@ -8,8 +8,9 @@
       - the point of AI/AGI is to determine if a program can achieve human intelligence (with a grasp of integrated meaning, like the metaphorical but correct meaning of an instruction, rather than the literal but incorrect interpretation), not test if it can perform a task optimally, which is devoid of a concept of meaning, as meaning enables understanding, which is a superior alternative in performance & accuracy to optimizing a specific function in isolation of integrated meaning/understanding
         - https://www.fastcompany.com/90590042/turing-test-obsolete-ai-benchmark-amazon-alexa
         - the point of AI should be optimizing for functions/metrics listed below, which are examples of side effects of intelligence that can approximate a definitionss
-      - current AI is like a grammar Nazi/nerd, correcting insignificant errors like typos 
-        - actual intelligence looks like an extremely useful, efficient system of potential/learning/meaning/understanding/problem-solving/optimization automation
+      - current AI is like a grammar Nazi/nerd, correcting insignificant errors like typos or reacting to problems when they occur with known solution types
+        - actual intelligence looks like an extremely useful, efficient system of potential/learning/meaning/understanding/problem-solving/optimization automation, that can predict & solve/fix problem/error types before encountering them or their side effects or direct inputs
+        - the optimal use case isn't "wait for a problem, gather info, train a model, and update the model as you get more info", it's "build a program that collects its own information, identifies problems dynamically & fixes problems automatically & optimally, given the info derivable with current technology, then distribute this program to every agent & teach them how to re-build it, in case they ever have to"
 
     - potential
 
