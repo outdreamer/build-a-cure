@@ -11,6 +11,8 @@
     - 'is it verifiable/testable/provable/derivable/calculatable'
     - 'how can uncertainty/risk be reduced without decreasing important potential'
 
+  - anti-pathogens, which would take the form of viruses to counteract other viruses (like a harmless version of a virus), which would spread through contact without requiring vaccines
+
   - identify limits where additional change doesnt have an impact (variables turn into constants & interface becomes certain in structure, so it can be fit into other interfaces), like a progression approaching a value
 
   - definition of & difference between information & understanding
