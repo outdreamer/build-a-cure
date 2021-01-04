@@ -1,5 +1,13 @@
 # to do
 
+  - markets
+    - anti-crime markets (subsidy incentives): 
+      - purchase time of those likely to commit crimes, to give them other temporary options for income, such as days of:
+        - no criminal activity
+        - reporting others' criminal activity
+        - volunteering their resources 
+      - offer free information about lesser crimes than the one they were planning (relative profits from selling weed vs. other crimes) to alert them to less harmful profit opportunities that are lower cost with similar/higher reward
+
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
     - 'what are the causal/conceptual/system/other interface structures relevant to this information'
