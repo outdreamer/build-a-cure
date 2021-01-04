@@ -34,13 +34,15 @@
 
       - decision (vote allocation, investment spending, news curation) market
         - good decision history can buy products in this market (option to make decision, option to grant permission to use decision)
+        - info market about future decision-reducing decisions, decisions that create opportunities, decisions with historical side effects
 
-      - organization market
+      - organization info market
         - tools & info to organize resources (information/incentives/labor/laws/communities) to design/influence markets
 
-      - opportunity market
+      - opportunity info market
         - standard market opportunities (profit, deal, exit, cooperation)
         - war market opportunities (attack/risk/chaos opportunities, like alignments/equivalents/efficiencies such as when neighboring countries are both having elections or when two companies combined could take on a bigger competitor)
+        - tech opportunities (when a tool can be built with adjacent resources, when overlapping products can be integrated, when a product can be distorted in a valuable way)
 
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
