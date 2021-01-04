@@ -30,8 +30,10 @@
           - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
         - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
           - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
-        - they have to pay higher taxes (less encryption/favors/information) if they offer a variety of crimes, taking jobs away from less skilled criminals
-        - if they dont pay their in-app fees, they have to look at positive information about their impending/former victims before accepting a crime mission or being paid
+        - crime organizing/migration/trading app
+          - they have to pay higher app fees (less encryption/favors/information) if they offer a variety of crimes, taking jobs away from less skilled criminals
+          - if they dont pay their app fees, they have to look at information about their impending/former/possible victims before accepting a crime mission or being paid (you could have robbed this jerk who wronged your family, but you robbed a wonderful person, who instead you could have tricked into doing a minor crime)
+            - get paid if they recruit users to the app
 
       - decision (vote allocation, investment spending, news curation) market
         - good decision history can buy products in this market (option to make decision, option to grant permission to use decision)
