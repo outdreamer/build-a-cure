@@ -38,6 +38,10 @@
       - organization market
         - tools & info to organize resources (information/incentives/labor/laws/communities) to design/influence markets
 
+      - opportunity market
+        - standard market opportunities (profit, deal, exit, cooperation)
+        - war market opportunities (attack/risk/chaos opportunities, like alignments/equivalents/efficiencies such as when neighboring countries are both having elections or when two companies combined could take on a bigger competitor)
+
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
     - 'what are the causal/conceptual/system/other interface structures relevant to this information'
