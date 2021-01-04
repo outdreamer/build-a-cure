@@ -25,13 +25,18 @@
         - favor/deal/endorsement/ad market:
           - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
         - crime layer markets
-          - sell better encryption/spying/communication tools & information to criminals that do lesser crimes
-          - sell info warning imminent victims to criminals who dont pay their crime taxes or dont use crime organization apps
+          - sell better encryption/spying/weapons/communication tools & information (secrets, opportunities, statistics) to criminals that do lesser crimes
+          - sell info warning imminent victims or info to crime competitors for criminals who dont pay their crime taxes or dont use crime organization apps
           - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
         - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
           - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
         - they have to pay higher taxes (less encryption/favors/information) if they offer a variety of crimes, taking jobs away from less skilled criminals
 
+      - decision (vote allocation, investment spending, news curation) market
+        - good decision history can buy products in this market (option to make decision, option to grant permission to use decision)
+
+      - organization market
+        - tools & info to organize resources (information/incentives/labor/laws/communities) to design/influence markets
 
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
