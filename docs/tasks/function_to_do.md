@@ -31,7 +31,7 @@
         - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
           - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
         - crime organizing/migration/trading app
-          - they have to pay higher app fees (less encryption/favors/information) if they offer a variety of crimes, taking jobs away from less skilled criminals
+          - they have to pay higher app fees (less encryption/favors/information, go to group therapy or listen to another criminal complain to contribute to in-app therapy market to pay off their debt) if they offer a variety of crimes, taking jobs away from less skilled criminals
           - if they dont pay their app fees, they have to look at information about their impending/former/possible victims before accepting a crime mission or being paid (you could have robbed this jerk who wronged your family, but you robbed a wonderful person, who instead you could have tricked into doing a minor crime)
             - get paid if they recruit users to the app
 
@@ -46,6 +46,8 @@
         - standard market opportunities (profit, deal, exit, cooperation)
         - war market opportunities (attack/risk/chaos opportunities, like alignments/equivalents/efficiencies such as when neighboring countries are both having elections or when two companies combined could take on a bigger competitor)
         - tech opportunities (when a tool can be built with adjacent resources, when overlapping products can be integrated, when a product can be distorted in a valuable way)
+        - govt overthrow opportunity 
+          - tell oppressed people when they have escape opportunities, when police are nearby, when they can afford safe passage out (project on clouds if they dont have phones)
 
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
