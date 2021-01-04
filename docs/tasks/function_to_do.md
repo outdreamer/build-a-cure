@@ -31,6 +31,7 @@
         - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
           - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
         - they have to pay higher taxes (less encryption/favors/information) if they offer a variety of crimes, taking jobs away from less skilled criminals
+        - if they dont pay their in-app fees, they have to look at positive information about their impending/former victims before accepting a crime mission or being paid
 
       - decision (vote allocation, investment spending, news curation) market
         - good decision history can buy products in this market (option to make decision, option to grant permission to use decision)
