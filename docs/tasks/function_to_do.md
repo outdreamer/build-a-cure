@@ -5,6 +5,7 @@
       - anti-crime markets (subsidy incentives): 
         - purchase time/decisions of those likely/known to commit crimes, to give them other temporary options for income, such as days of:
           - no criminal activity
+          - neutral activity that isnt clearly criminal
           - reporting others' criminal activity
           - volunteering their resources 
           - participation in justice markets (directing their crimes toward other criminals to correct imbalances)
@@ -16,12 +17,13 @@
             - crime market opportunities (if you participate in this crime community, youll have access to these opportunities/profits)
             - exit opportunities (at which points in their probable trajectory theyll be able to exit the crime community/trade with minimal risk)
         - oppression balancing markets: 
-          - if theyre going to oppress people in one way (slavery), they have to accept oppression in another way (insults)
+          - if theyre going to oppress people in one way (slavery), they have to accept oppression in another way (insults, being monitored)
         - favor/deal/endorsement/ad market:
           - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
         - crime layer markets
           - sell better encryption/spying/communication tools & information to criminals that do lesser crimes
-          - organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities
+          - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
+        - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
 
 
   - uncertainty questions
