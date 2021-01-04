@@ -1,15 +1,25 @@
 # to do
 
   - markets
-    - anti-crime markets (subsidy incentives): 
-      - purchase time of those likely to commit crimes, to give them other temporary options for income, such as days of:
-        - no criminal activity
-        - reporting others' criminal activity
-        - volunteering their resources 
-        - participation in justice markets (directing their crimes toward other criminals to correct imbalances)
-      - offer free information about lesser crimes than the one they were planning (relative profits from selling weed vs. other crimes) to alert them to less harmful profit opportunities that are lower cost with similar/higher reward
-        - information to coordinate with other criminals on lesser crimes (incentivize less harmful crimes by helping them build small businesses)
-      - offer free information about crime statistics & net effects of mass-scale crimes (if you do this, the sentence for this crime will go up, given how many other people are doing the same crime or about to do it)
+    - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
+      - anti-crime markets (subsidy incentives): 
+        - purchase time/decisions of those likely/known to commit crimes, to give them other temporary options for income, such as days of:
+          - no criminal activity
+          - reporting others' criminal activity
+          - volunteering their resources 
+          - participation in justice markets (directing their crimes toward other criminals to correct imbalances)
+        - offer free information about lesser crimes than the one they were planning (relative profits from selling weed vs. other crimes) to alert them to less harmful profit opportunities that are lower cost with similar/higher reward
+          - information to coordinate with other criminals on lesser crimes (incentivize less harmful crimes by helping them build small businesses)
+        - offer free information about crime statistics & net effects of mass-scale crimes (if you do this, the sentence for this crime will go up, given how many other people are doing the same crime or about to do it)
+          - information about 
+            - criminal trajectories (if you do this crime, youll probably do this other crime in x years & get this sentence)
+            - crime market opportunities (if you participate in this crime community, youll have access to these opportunities/profits)
+            - exit opportunities (at which points in their probable trajectory theyll be able to exit the crime community/trade with minimal risk)
+        - oppression balancing markets: 
+          - if theyre going to oppress people in one way (slavery), they have to accept oppression in another way (insults)
+        - favor/deal/endorsement/ad market:
+          - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
+
 
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
