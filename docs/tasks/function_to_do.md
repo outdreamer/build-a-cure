@@ -13,15 +13,20 @@
           - information to coordinate with other criminals on lesser crimes (incentivize less harmful crimes by helping them build small businesses)
         - offer free information about crime statistics & net effects of mass-scale crimes (if you do this, the sentence for this crime will go up, given how many other people are doing the same crime or about to do it)
           - information about 
-            - criminal trajectories (if you do this crime, youll probably do this other crime in x years & get this sentence)
-            - crime market opportunities (if you participate in this crime community, youll have access to these opportunities/profits)
-            - exit opportunities (at which points in their probable trajectory theyll be able to exit the crime community/trade with minimal risk)
+            - criminal trajectories
+              - if you do this crime, youll probably do this other crime in x years & get this sentence
+            - crime market opportunities
+              - if you participate in this crime community, youll have access to these opportunities/profits
+            - exit opportunities
+              - at which points in their probable trajectory theyll be able to exit the crime community/trade with minimal risk
+              - youll reduce your next chance to convert your career to a police officer by x% if you do this
         - oppression balancing markets: 
           - if theyre going to oppress people in one way (slavery), they have to accept oppression in another way (insults, being monitored)
         - favor/deal/endorsement/ad market:
           - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
         - crime layer markets
           - sell better encryption/spying/communication tools & information to criminals that do lesser crimes
+          - sell info warning imminent victims to criminals who dont pay their crime taxes or dont use crime organization apps
           - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
         - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
           - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
