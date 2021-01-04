@@ -6,7 +6,10 @@
         - no criminal activity
         - reporting others' criminal activity
         - volunteering their resources 
+        - participation in justice markets (directing their crimes toward other criminals to correct imbalances)
       - offer free information about lesser crimes than the one they were planning (relative profits from selling weed vs. other crimes) to alert them to less harmful profit opportunities that are lower cost with similar/higher reward
+        - information to coordinate with other criminals on lesser crimes (incentivize less harmful crimes by helping them build small businesses)
+      - offer free information about crime statistics & net effects of mass-scale crimes (if you do this, the sentence for this crime will go up, given how many other people are doing the same crime or about to do it)
 
   - uncertainty questions
     - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
