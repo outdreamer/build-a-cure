@@ -24,6 +24,8 @@
           - sell better encryption/spying/communication tools & information to criminals that do lesser crimes
           - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
         - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
+          - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
+        - they have to pay higher taxes (less encryption/favors/information) if they offer a variety of crimes, taking jobs away from less skilled criminals
 
 
   - uncertainty questions
