@@ -35,12 +35,26 @@
           - if they dont pay their app fees, they have to look at information about their impending/former/possible victims before accepting a crime mission or being paid (you could have robbed this jerk who wronged your family, but you robbed a wonderful person, who instead you could have tricked into doing a minor crime)
             - get paid if they recruit users to the app
 
+      - security market
+        - security is a limited product available only for certain transaction types (organizing against serious crimes), and all secure transaction info is published after a safety period to avoid retaliation once organized event is complete & irreversible
+
       - decision (vote allocation, investment spending, news curation) market
         - good decision history can buy products in this market (option to make decision, option to grant permission to use decision)
         - info market about future decision-reducing decisions, decisions that create opportunities, decisions with historical side effects
+        - consensus market for 
+          - finding/organizing cooperative agents across perspectives/positions
+          - finding/applying incentivized trajectories to cooperativeness
 
       - organization info market
         - tools & info to organize resources (information/incentives/labor/laws/communities) to design/influence markets
+
+        - identify intents (in unprovable domains like belief systems with unquantitative metrics) that allow alignment of necessary entities with coordinating alternate/sub-intents
+
+        - time-staggered phases
+          - law/argument/market/info/weapon/tool phases to implement a sequence of progressive states that are likelier to be stable (preventing regression to previous higher-crime states) & otherwise beneficial when executed in that sequence
+            - keep something relatively innocuous a crime for a limited period of time, so fees can be gathered to invest in other programs
+            - organize laws to punish/catch the worst criminals (make some common behavior of the worst criminals a crime until they can be brought to justice for serious crimes)
+              - requires intl coordinate with the app's recommendations
 
       - opportunity info market
         - standard market opportunities (profit, deal, exit, cooperation)
