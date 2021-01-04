@@ -19,6 +19,9 @@
           - if theyre going to oppress people in one way (slavery), they have to accept oppression in another way (insults)
         - favor/deal/endorsement/ad market:
           - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
+        - crime layer markets
+          - sell better encryption/spying/communication tools & information to criminals that do lesser crimes
+          - organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities
 
 
   - uncertainty questions
