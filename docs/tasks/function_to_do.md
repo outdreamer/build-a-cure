@@ -6,9 +6,10 @@
       - randomness is injected in dose & timing of usage, that can interfere with regularity of schedule to pick up 
       - this may not show up in a data set, but if it does, a time-based prediction may not capture the randomness of a pickup schedule where a person varies their dose/timing (accidentally taking two, meaning pickup is a day earlier than expected)
       - the need to pick up is accurately predicted given whether theyve run out (if they have taken all doses)
-        - unless there's additional randomness injected in 
+        - unless there's additional randomness injected in:
           - their schedule around pickup day (they have a distraction preventing pickup when they need to refill their supplies)
           - their method/consistency of testing/determining when supplies are low (using an automated reminder, relying on memory to check, etc)
+          - habit consistency/compliance, memory & tendency to form/change habits
       - if you tried to predict based on timing of previous pickups, youd get it right only part of the time, if they make a habit out of accidentally taking more than one, or if they have a routine method they call to make up for a missed dose, or other functions they consistently execute with regard to dose/timing variation
         - unless your algorithm handles the randomness injections present, which can be injected to the prediction function or data set as composing/alternate/base/time-staggered functions/variables allowing these distortions to occur, siphoning randomness into developing functions called consistently to handle that randomness
         - to increase algorithm accuracy, bases should be built-in to the analysis as a variable, and developing functions to handle randomness as its identified (person building a habit to handle dose variation, or switching habits) can be injected as they occur with that metadata (level/type/directness) of randomness
@@ -20,6 +21,29 @@
         - example: a randomly sampled rotating set of distortion vectors of these magnitudes/directions accurately predicts an event in absolute time when applied to a particular regression line from a robust/augmented/imputed/normalized data set in this way, with this type/count of randomness injections & having this demand/supply causal structure, integrated with the vertex 'need' variable metadata (is the medicine necessary, what impact does it have on decisions & functions like memory)
       - organize the function as a structure (like a network or tree) of components once theyre derived (bases, randomness injections/aggregations, composing functions & variable subsets, prioritized/organized distortion vectors, metadata of components like probability distributions, component interactions like developing function overlap according to the time-base, or centrality of variation around local event sequence variables) & test it on subsets of the data set
         - example: if this structure of components explains the changes across subset data sets, its likelier to be true & capable of handling additional randomness aggregations or other variables, which are likely to be injected or accrue at these positions in the structure
+    - deriving relevant data set concepts of:
+      - resource:
+        - core input/output type of important interaction types (trade interaction type, like a pickup)
+        - generate resource metadata: 
+          - supply: unit count :: quantity, minimum/maximum quantity limits, acquisition limits
+          - demand: trigger :: usage, current vs. capacity quantity difference, usage limits
+      - habit (developing a function to handle randomness, like storing reminders in a scheduling app)
+        - repeated agent function with varying agency/intentionality (intentional vs. natural habit, vs. habit with randomness injected from vertex/interface variables like attention/discipline)
+      - event
+        - combination/alternate structure applied to output data type (pickup event)
+        - isolated/unit structure applied to input base (isolated units of time as events)
+        - pivot points of cause (once an event occurs, changes are triggered in other directions)
+      - need
+        - apply structure of imbalance between resource metadata (supply/demand)
+        - apply structure of limit to functions (requirement/assumption)
+        - apply structures of cause to functions (dependency)
+
+    - which variables apply or give the illusion of randomness, for what reasons:
+      - high-impact, root-cause, high-variation, multi-function variables that act like interfaces often have cascading side effects that interfere with a high variation of systems, across interaction structures like interaction layers, and if multiple interface variables exist, they may interact in a way that seems like randomness or generate randomness in their side effects
+      - homogeneity in system structure tends to generate highly similar variable sets (shapes that develop in corners of a shape) which tend to generate randomness (equivalence of probability of a shape occurring in a particular corner)
+      - what structures of randomness are more consistent/stable than others
+        - randomness that occurs on layers of a system built on a stable base whose foundations/limits can handle high variation or increasing variation up to a certain degree of increase, allowing unrestricted interaction between structures that can hold similar/equivalent randomness so there is a guaranteed interchange of randomness where overflows occur
+        - artificial/enforced randomness, in equally likely variable sets whose possible output sets are constant (possible values of dice)
 
   - markets
     - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
