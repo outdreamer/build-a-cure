@@ -13,6 +13,24 @@
       - if you tried to predict based on timing of previous pickups, youd get it right only part of the time, if they make a habit out of accidentally taking more than one, or if they have a routine method they call to make up for a missed dose, or other functions they consistently execute with regard to dose/timing variation
         - unless your algorithm handles the randomness injections present, which can be injected to the prediction function or data set as composing/alternate/base/time-staggered functions/variables allowing these distortions to occur, siphoning randomness into developing functions called consistently to handle that randomness
         - to increase algorithm accuracy, bases should be built-in to the analysis as a variable, and developing functions to handle randomness as its identified (person building a habit to handle dose variation, or switching habits) can be injected as they occur with that metadata (level/type/directness) of randomness
+
+    - organize function metadata
+      - points
+        - organization/randomness injection/aggregation points
+        - threshold points
+        - change points
+          - variable/function/interface structure (set, direction, variation) change points
+      - functions
+        - generative (subset/composing/limiting/distorting) functions
+        - time-based (sequential/overlapping/temporary) functions
+        - change functions (diverging, stabilizing, centralizing)
+          - structure change functions (symmetry/phase/center/base/limit development functions)
+        - explanatory (summarizing/simplifying/generalizing/standardizing) functions
+      - component-organizing structure (sequence, network, tree, sets)
+      - core structures (limit, base, subset, vertex, cross-interface) of variables/functions
+      - function interface metadata
+        - priority/intent/cause
+
     - randomness capture often involves overlapping developing functions, which "hand-off" randomness to each other, as one develops a more efficient randomness-capture method & handles the stress on previous developing functions, taking over more responsibility according to the variation they can handle
       - as developing randomness-capturing functions overlap & interact, they tend to either stabilize at an efficiency (increasing order through coordination between functions or optimization of a function) or diverge into chaos (compounding randomness)
       - the cycles of developing function overlap, compounding, & other types of interaction can increase the accuracy of absolute time-based prediction functions (as opposed to the more accurate event/need-based prediction function in this case), given the concentration of cause present in local time variables (right after the event determining a need, such as when supplies are checked & found to be low)
@@ -21,9 +39,10 @@
         - example: a randomly sampled rotating set of distortion vectors of these magnitudes/directions accurately predicts an event in absolute time when applied to a particular regression line from a robust/augmented/imputed/normalized data set in this way, with this type/count of randomness injections & having this demand/supply causal structure, integrated with the vertex 'need' variable metadata (is the medicine necessary, what impact does it have on decisions & functions like memory)
       - organize the function as a structure (like a network or tree) of components once theyre derived (bases, randomness injections/aggregations, composing functions & variable subsets, prioritized/organized distortion vectors, metadata of components like probability distributions, component interactions like developing function overlap according to the time-base, or centrality of variation around local event sequence variables) & test it on subsets of the data set
         - example: if this structure of components explains the changes across subset data sets, its likelier to be true & capable of handling additional randomness aggregations or other variables, which are likely to be injected or accrue at these positions in the structure
-    - deriving relevant data set concepts of:
+
+    - deriving relevant data set concepts with core structures & priorities (like commonness/organization/aggregation/base/causation to determine relevance):
       - resource:
-        - core input/output type of important interaction types (trade interaction type, like a pickup)
+        - core input/output type of relevant interaction types (trade interaction type, like a pickup)
         - generate resource metadata: 
           - supply: unit count :: quantity, minimum/maximum quantity limits, acquisition limits
           - demand: trigger :: usage, current vs. capacity quantity difference, usage limits
@@ -37,6 +56,8 @@
         - apply structure of imbalance between resource metadata (supply/demand)
         - apply structure of limit to functions (requirement/assumption)
         - apply structures of cause to functions (dependency)
+
+      - the structures of conceptual variables like resource/habit/event/need can be replaced with the structures of interval & lack of interaction enforcement, if the interacting system/function data is available
 
     - which variables apply or give the illusion of randomness, for what reasons:
       - high-impact, root-cause, high-variation, multi-function variables that act like interfaces often have cascading side effects that interfere with a high variation of systems, across interaction structures like interaction layers, and if multiple interface variables exist, they may interact in a way that seems like randomness or generate randomness in their side effects
