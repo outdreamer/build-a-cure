@@ -10,6 +10,8 @@
       - if you tried to predict based on timing of previous pickups, youd get it right only part of the time, if they make a habit out of accidentally taking more than one, or if they have a routine method they call to make up for a missed dose, or other functions they consistently execute with regard to dose/timing variation
         - unless your algorithm handles the randomness injections present, which can be injected to the prediction function or data set as composing/alternate/base/time-staggered functions/variables allowing these distortions to occur, siphoning randomness into developing functions called consistently to handle that randomness
         - to increase algorithm accuracy, bases should be built-in to the analysis as a variable, and developing functions to handle randomness as its identified (person building a habit to handle dose variation, or switching habits) can be injected as they occur with that metadata (level/type/directness) of randomness
+    - randomness capture often involves overlapping developing functions, which "hand-off" randomness to each other, as one develops a more efficient randomness-capture method & handles the stress on previous developing functions, taking over more responsibility according to the variation they can handle
+      - as developing randomness-capturing functions overlap & interact, they tend to either stabilize at an efficiency (increasing order through coordination between functions or optimization of a function) or diverge into chaos (compounding randomness)
 
   - markets
     - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
