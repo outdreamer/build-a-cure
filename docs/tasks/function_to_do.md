@@ -6,12 +6,15 @@
       - randomness is injected in dose & timing of usage, that can interfere with regularity of schedule to pick up 
       - this may not show up in a data set, but if it does, a time-based prediction may not capture the randomness of a pickup schedule where a person varies their dose/timing (accidentally taking two, meaning pickup is a day earlier than expected)
       - the need to pick up is accurately predicted given whether theyve run out (if they have taken all doses)
-        - unless there's additional randomness injected in their schedule around pickup day (they have a distraction preventing pickup when they need to refill their supplies)
+        - unless there's additional randomness injected in 
+          - their schedule around pickup day (they have a distraction preventing pickup when they need to refill their supplies)
+          - their method/consistency of testing/determining when supplies are low (using an automated reminder, relying on memory to check, etc)
       - if you tried to predict based on timing of previous pickups, youd get it right only part of the time, if they make a habit out of accidentally taking more than one, or if they have a routine method they call to make up for a missed dose, or other functions they consistently execute with regard to dose/timing variation
         - unless your algorithm handles the randomness injections present, which can be injected to the prediction function or data set as composing/alternate/base/time-staggered functions/variables allowing these distortions to occur, siphoning randomness into developing functions called consistently to handle that randomness
         - to increase algorithm accuracy, bases should be built-in to the analysis as a variable, and developing functions to handle randomness as its identified (person building a habit to handle dose variation, or switching habits) can be injected as they occur with that metadata (level/type/directness) of randomness
     - randomness capture often involves overlapping developing functions, which "hand-off" randomness to each other, as one develops a more efficient randomness-capture method & handles the stress on previous developing functions, taking over more responsibility according to the variation they can handle
       - as developing randomness-capturing functions overlap & interact, they tend to either stabilize at an efficiency (increasing order through coordination between functions or optimization of a function) or diverge into chaos (compounding randomness)
+      - the cycles of developing function overlap, compounding, & other types of interaction can increase the accuracy of absolute time-based prediction functions (as opposed to the more accurate event/need-based prediction function in this case), given the concentration of cause present in local time variables (right after the event determining a need, such as when supplies are checked & found to be low)
 
   - markets
     - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
