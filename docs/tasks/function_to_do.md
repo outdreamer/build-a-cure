@@ -1,5 +1,16 @@
 # to do
 
+  - example prediction using different bases
+    - need-based vs. time-based analysis
+      - pick up medicine when you run out vs. picking it up according to a schedule using time-series data
+      - randomness is injected in dose & timing of usage, that can interfere with regularity of schedule to pick up 
+      - this may not show up in a data set, but if it does, a time-based prediction may not capture the randomness of a pickup schedule where a person varies their dose/timing (accidentally taking two, meaning pickup is a day earlier than expected)
+      - the need to pick up is accurately predicted given whether theyve run out (if they have taken all doses)
+        - unless there's additional randomness injected in their schedule around pickup day (they have a distraction preventing pickup when they need to refill their supplies)
+      - if you tried to predict based on timing of previous pickups, youd get it right only part of the time, if they make a habit out of accidentally taking more than one, or if they have a routine method they call to make up for a missed dose, or other functions they consistently execute with regard to dose/timing variation
+        - unless your algorithm handles the randomness injections present, which can be injected to the prediction function or data set as composing/alternate/base/time-staggered functions/variables allowing these distortions to occur, siphoning randomness into developing functions called consistently to handle that randomness
+        - to increase algorithm accuracy, bases should be built-in to the analysis as a variable, and developing functions to handle randomness as its identified (person building a habit to handle dose variation, or switching habits) can be injected as they occur with that metadata (level/type/directness) of randomness
+
   - markets
     - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
       - anti-crime markets (subsidy incentives): 
