@@ -1,5 +1,97 @@
 # Prediction
 
+  - pattern matching/anomaly detection/noise reduction in finding relevant information eliminates information based on:
+      - commonness/similarity to patterns (focus on common patterns)
+      - similarity to other data (isolate anomalies)
+      - reducing equivalence from randomness (isolate non-random processes that follow rules)
+      
+  - randomness
+
+    - initial automated tests of a data set (to apply an associated architecture/algorithm to) can answer questions like "can a set of variables produce the level of variance needed to contribute information to complete a task (like prediction of an output variable), determined by matching the level of variance in the output (like the most different examples in a category)"
+      - additional layers of analysis: 
+        - can a distortion of the variables provide the needed variance
+        - can an extra variable provide the needed variance
+        - can this architecture/algorithm form structures needed to explain (connect) these causal links (describe/derive the causal network) or hold the relevant concepts (like how the structure of 'evolution from a common ancestor' has a corresponding structure in the divergence of cat/dog graph clusters when you add an extreme value of the time variable), given the complexity & variation & change potential involved
+
+    - examine how normally distributed change (extreme change rate at tails manifesting as asymptotes/inflection points, approaching average change rate in middle) produces non-linearity
+      - given the sum of independent random variables producing normal distribution (central limit theorem), 
+        - as when independent random variables interact in an 'aligned combination' structure going the same or converging direction, 
+          - and the compounded aggregate effect is a normal distribution collecting minimal extreme values as most of the random variable sums gravitate around the average in the middle, 
+            - given the range of values they tend to have in common that when added produces values in a similar range as the normal distribution's average +/- a standard deviation 
+      - example:
+        - a relevant example structure is a circular cell with equally distributed openings that many different cell types can pass through, and the probability distribution of cell types is relatively even
+          - when these cell types are in the circular cell, they interact with other randomly selected cell types
+            - these cell types are all similar in a certain range of certain variables (cell size)
+              - this similarity allows them to interact in a particular way, occupying a particular interaction level (colliding in the circular cell)
+                - a compounding sum of the cell types would take the form of additive damage (cell surface disruption & smoothing) from collisions, which is spread relatively evenly across cell types, but would be concentrated on a range of any surfaces, and any other cell metadata (spin, velocity, size, position) that tend to be involved in collisions more
+                  - interactions of this type tend to attract additional interactions of this type, but additional interactions have decreasing impact on cell surface change, stabilizing at a relatively smooth shape most of the time
+        - questions
+          - does the shared interaction layer interfere with the definition of independence, or change independence of the variables, or change a different type of independence
+            - the original definition is lack of impact, implying that neither is an input/output of the other (such as outputs on a similar layer of a distant root cause in a tree)
+          - is the cell surface shape resulting from additive interactions the output variable of these combined random variables (cell types, possibly having different surface shapes, sizes, and other variables) that has or stabilizes at a normal distribution
+          - what is the input change trigger that produces an increase in output randomness after this stabilization
+          - do similar structures also tend to have similar systems/incentives driving their similarity
+            - what are the most dissimilar systems that can produce similar sub-structures?
+          - does most change occur in a particular change range
+            - there is an incentivized range by the host system, but is there incentivized centrality & stabilization of change
+            - does a normal distribution accompany stabilized change around an optimal average value
+            - is the compounding of random variables with normalized output ranges an output of systems with normalized value range incentives
+            - do independent change ranges in general just happen to gravitate around a change range around an average determined by the difference degree represented by extreme values, or is the root cause that variables in general happen to have averages where most of their values occur so when there is no enforcement of limits applied to inputs, the added variable tends to be average, or that certain interaction types or interactions in general necessarily neutralize randomness of the output/combined variables
+            - is it relevant that the distribution of change output ranges in the added variables is random (where each independent variable output range is equally likely)
+            - what other variable type(s) could be combined to produce a normal distribution, and is their output added variable distribution driven by similar reasons
+            - what would be necessary to keep the added variable distribution random instead of normal
+        - how to generate the above questions
+          - how to change the system to fulfill different intents
+          - how to change the structures of the system without changing the relevant interaction of the system
+          - what could also produce the system (other causes)
+          - what are other interactions/structures (stabilization of change, change range, similarities such as common overlaps of change ranges) that could be related to the relevant interaction, and in what way
+          - what are the assumptions, rules & other requirements
+
+    - example prediction using different bases
+      - need-based vs. time-based analysis
+        - pick up medicine when you run out vs. picking it up according to a schedule using time-series data
+        - randomness is injected in dose & timing of usage, that can interfere with regularity of schedule to pick up 
+        - this may not show up in a data set, but if it does, a time-based prediction may not capture the randomness of a pickup schedule where a person varies their dose/timing (accidentally taking two, meaning pickup is a day earlier than expected)
+        - the need to pick up is accurately predicted given whether theyve run out (if they have taken all doses)
+          - unless there's additional randomness injected in:
+            - their schedule around pickup day (they have a distraction preventing pickup when they need to refill their supplies)
+            - their method/consistency of testing/determining when supplies are low (using an automated reminder, relying on memory to check, etc)
+            - habit consistency/compliance, memory & tendency to form/change habits
+        - if you tried to predict based on timing of previous pickups, youd get it right only part of the time, if they make a habit out of accidentally taking more than one, or if they have a routine method they call to make up for a missed dose, or other functions they consistently execute with regard to dose/timing variation
+          - unless your algorithm handles the randomness injections present, which can be injected to the prediction function or data set as composing/alternate/base/time-staggered functions/variables allowing these distortions to occur, siphoning randomness into developing functions called consistently to handle that randomness
+          - to increase algorithm accuracy, bases should be built-in to the analysis as a variable, and developing functions to handle randomness as its identified (person building a habit to handle dose variation, or switching habits) can be injected as they occur with that metadata (level/type/directness) of randomness
+      - randomness capture often involves overlapping developing functions, which "hand-off" randomness to each other, as one develops a more efficient randomness-capture method & handles the stress on previous developing functions, taking over more responsibility according to the variation they can handle
+        - as developing randomness-capturing functions overlap & interact, they tend to either stabilize at an efficiency (increasing order through coordination between functions or optimization of a function) or diverge into chaos (compounding randomness)
+        - the cycles of developing function overlap, compounding, & other types of interaction can increase the accuracy of absolute time-based prediction functions (as opposed to the more accurate event/need-based prediction function in this case), given the concentration of cause present in local time variables (right after the event determining a need, such as when supplies are checked & found to be low)
+      - how can you integrate this structure into an absolute time-based prediction function
+        - determine distortion vectors of different bases, developing randomness-capturing functions, & other related components (alternate/composing functions), & the metadata of these vectors (patterns, prediction functions of the distortion vectors, probability distributions related to distortion vectors & relationships between probability distributions)
+          - example: a randomly sampled rotating set of distortion vectors of these magnitudes/directions accurately predicts an event in absolute time when applied to a particular regression line from a robust/augmented/imputed/normalized data set in this way, with this type/count of randomness injections & having this demand/supply causal structure, integrated with the vertex 'need' variable metadata (is the medicine necessary, what impact does it have on decisions & functions like memory)
+        - organize the function as a structure (like a network or tree) of components once theyre derived (bases, randomness injections/aggregations, composing functions & variable subsets, prioritized/organized distortion vectors, metadata of components like probability distributions, component interactions like developing function overlap according to the time-base, or centrality of variation around local event sequence variables) & test it on subsets of the data set
+          - example: if this structure of components explains the changes across subset data sets, its likelier to be true & capable of handling additional randomness aggregations or other variables, which are likely to be injected or accrue at these positions in the structure
+      - deriving relevant data set concepts with core structures & priorities (like commonness/organization/aggregation/base/causation to determine relevance):
+        - resource:
+          - core input/output type of relevant interaction types (trade interaction type, like a pickup)
+          - generate resource metadata: 
+            - supply: unit count :: quantity, minimum/maximum quantity limits, acquisition limits
+            - demand: trigger :: usage, current vs. capacity quantity difference, usage limits
+        - habit (developing a function to handle randomness, like storing reminders in a scheduling app)
+          - repeated agent function with varying agency/intentionality (intentional vs. natural habit, vs. habit with randomness injected from vertex/interface variables like attention/discipline)
+        - event
+          - combination/alternate structure applied to output data type (pickup event)
+          - isolated/unit structure applied to input base (isolated units of time as events)
+          - pivot points of cause (once an event occurs, changes are triggered in other directions)
+        - need
+          - apply structure of imbalance between resource metadata (supply/demand)
+          - apply structure of limit to functions (requirement/assumption)
+          - apply structures of cause to functions (dependency)
+        - the structures of conceptual variables like resource/habit/event/need can be replaced with the structures of interval & lack of interaction enforcement, if the interacting system/function data is available
+      - which variables apply or give the illusion of randomness, for what reasons:
+        - high-impact, root-cause, high-variation, multi-function variables that act like interfaces often have cascading side effects that interfere with a high variation of systems, across interaction structures like interaction layers, and if multiple interface variables exist, they may interact in a way that seems like randomness or generate randomness in their side effects
+        - homogeneity in system structure tends to generate highly similar variable sets (shapes that develop in corners of a shape) which tend to generate randomness (equivalence of probability of a shape occurring in a particular corner)
+        - what structures of randomness are more consistent/stable than others
+          - randomness that occurs on layers of a system built on a stable base whose foundations/limits can handle high variation or increasing variation up to a certain degree of increase, allowing unrestricted interaction between structures that can hold similar/equivalent randomness so there is a guaranteed interchange of randomness where overflows occur
+          - artificial/enforced randomness, in equally likely variable sets whose possible output sets are constant (possible values of dice)
+
   - surprising patterns often come in the form of:
   
     - compounding patterns that go unmeasured (black swan pattern)

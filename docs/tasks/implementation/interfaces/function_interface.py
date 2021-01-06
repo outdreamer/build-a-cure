@@ -75,6 +75,25 @@
           - reversing operations
           - optimizing operations
 
+    - other function metadata
+      - structures 
+        - points
+          - organization/randomness injection/aggregation points
+          - threshold points
+          - change points
+            - variable/function/interface structure (set, direction, variation) change points
+        - functions
+          - generative (subset/composing/limiting/distorting) functions
+          - time-based (sequential/overlapping/temporary) functions
+          - change functions (diverging, stabilizing, centralizing)
+            - structure change functions (symmetry/phase/center/base/limit development functions)
+          - explanatory (summarizing/simplifying/generalizing/standardizing) functions
+        - component-organizing structure (sequence, network, tree, sets)
+        - core structures (limit, base, subset, vertex, cross-interface) of variables/functions
+      - function interface metadata
+        - priority/intent/cause/concept
+
+
 - functions:
   
     - interface-specific functions (find logical fallacy, organize, solve a problem, derive an intent, find dependencies, inject variance, maximize potential, conceptualize) 
@@ -180,5 +199,18 @@
 
 - structures:
     - formats: core functions, filters, sequences, limits, network/tree representation, probabilities, attributes
+
+
+- examples
+
+  - example of function metadata query to find function for a target intent 
+    - build function with intent to 'clear misfolded proteins'
+      - trigger hormong production 
+        - hormones support 'growth' intent 
+          - 'growth' intent has related functions to support 'finding resources' and 'using resources' to support relevant growth intents like 'build new structures'
+          - 'misfolded proteins' are a resource providing protein components
+          - 'clear misfolded proteins' in the form of 'breaking them down & using thmm to build new structures' can be identified as a supported intent of 'growth hormone' objects and triggering functions
+    - then apply filters to check for other side effects neutralizing target intent
+
 
 '''

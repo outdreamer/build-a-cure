@@ -12,6 +12,10 @@
       - the power concept interface (has structures that look like trust, info, etc) 
       - the balance concept interface (has structures that look like symmetry, justice, etc) 
   - examples:
+      - add example of how to generate the full set of unit definition routes of a concept
+        - generate different structural routes using core structure, like how cost is a core structure of incentives, so generate incentive structural definition routes by permuting types of cost in the relevant variation format
+        - give example of how to translate structural route to other interfaces
+
       - structures that apply a concept are depicted in FIG. 17 (Match structure for a definition of a concept), which depicts structures of the 'distribution' and 'power' concepts. 
         - In the example 'distribution' function on the left of Fig. 17, a distribution function (that implements conceptual attributes like balance) is depicted, which may produce the Balanced Info Distribution example output from the Standard Info Distribution input.
         - In the example concept structures, such as the 'power' concept structures, on the right of Fig. 17:

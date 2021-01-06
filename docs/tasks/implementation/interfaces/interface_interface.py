@@ -37,6 +37,66 @@
           - related objects like patterns & metadata specific to the interface
       - can generate an interface by the combinations of variables that minimize & maximize change (filters to remove common information to leave differentiating information for comparison)
 
+      - to do: 
+        - identify limits where additional change doesnt have an impact (variables turn into constants & interface becomes certain in structure, so it can be fit into other interfaces), like a progression approaching a value
+
+      - definition of & difference between information & understanding
+        - information is specific, isolated, temporary, & directly structural, often in a structure of a connection between network nodes (an insight/rule/function)
+          - example: 
+            - 'enforce this law'
+            - 'correct this error'
+        - understanding is general, integrated, cumulative, & structural (in relation to a system of existing understanding, rather than in relation to a physical structure), often in a network structure built out of fitted interacting integrated unique generalized information (rules generalized as needed)
+          - example: 
+            - 'check if this law is good, check if the concept of a law is valid in this problem space, check if other variables are higher impact than the goodness of a law, define goodness & law, check how it interacts with other laws & how that law changes & how laws in general change, check if this is the right question/metric, check if enforcement methods violate other laws, check if theres a gap in laws relevant to this law, check if input laws or alternative laws should be enforced in place of this one'
+            - 'predict error types, come up with a solution to prevent known error types, come up with a way to fix errors optimally, find variables generating errors, define error, define error metric, check metric & metric structures like thresholds/constants for validity, check for more optimal errors to fix, check for input/causal errors that can be fixed with fewer side effects, check for errors with usefulness for other intents, find system structures causing errors'
+
+      - intelligence definition
+
+        - definition routes
+
+          - potential (freedom/power/functionality/lack of limits)
+          - limits on potential
+
+        - intelligence structures
+
+          - limits (tests it needs to pass)
+
+            - the point of AI/AGI is to determine if a program can achieve human intelligence (with a grasp of integrated meaning, like the metaphorical but correct meaning of an instruction, rather than the literal but incorrect interpretation), not test if it can perform a task optimally, which is devoid of a concept of meaning, as meaning enables understanding, which is a superior alternative in performance & accuracy to optimizing a specific function in isolation of integrated meaning/understanding
+              - https://www.fastcompany.com/90590042/turing-test-obsolete-ai-benchmark-amazon-alexa
+              - the point of AI should be optimizing for functions/metrics listed below, which are examples of side effects of intelligence that can approximate a definitionss
+            - current AI is like a grammar Nazi/nerd, correcting insignificant errors like typos or reacting to problems when they occur with known solution types
+              - actual intelligence looks like an extremely useful, efficient system of potential/learning/meaning/understanding/problem-solving/optimization automation, that can predict & solve/fix problem/error types before encountering them or their side effects or direct inputs
+              - the optimal use case isn't "wait for a problem, gather info, train a model, and update the model as you get more info", it's "build a program that collects its own information, identifies problems dynamically & fixes problems automatically & optimally, given the info derivable with current technology, then distribute this program to every agent & teach them how to re-build it, in case they ever have to"
+
+        - intelligence functions/attributes/objects
+
+          - potential
+
+            - ethics potential (ethics being a proxy metric of intelligence)
+              - resource-distribution potential (can they distribute resources like privileged information, resolving inequalities)
+              - ethics derivation potential (can they figure out what is ethical, like resolving inequalities)
+
+            - problem solving potential
+              - known solution optimization potential (can they match or exceed human performance in identifying previous solutions, can they find insight paths to speed up finding known solutions)
+              - work-reduction/efficiency creation potential (can they consistently find an efficient way to reduce their work, to enable solving other problems)
+              - risk-reduction potential (can they consistently reduce risk so they can handle bigger risks)
+              - automation potential (can they automate a task)
+              - learning/change/adaptation potential (can they learn in a way that allows them to survive to solve other problems)
+                  - can they spot new error types without direct identifying information like the side effects of that error actually being triggered
+                  - can they spot how their solutions might fail before testing them
+              - difference/change identification potential (can they identify an object that is increasingly different from everything they already know, can they identify an alternative that is different from the alternatives they know, can they identify a counterexample without being given it directly or its direct inputs)
+              - understanding (system-fitting) potential (can they fit new info into an existing system of meaning or identify when a system of meaning is invalid)
+                - can they explain something in a meaningful way, to share understanding with other agents
+                - can they derive a definition of a concept like meaning that matches legitimate uses of it & doesnt contradict legitimate uses of it
+              - derivation potential (can they derive info or do they need to be given it)
+              - optimization potential (can they optimize something dynamically)
+              - self-optimizability/correction/awareness potential
+              - solvability calculation potential (can they determine solvability of a problem)
+
+            - difference navigation potential
+              - cognitive distance (how much they can do with minimized input or inputs n degrees away)
+              - increasingly higher-dimensional space navigation potential (can they successfully navigate spaces with an increasing number of possible change types)
+
       - interfaces that capture change types: 
         - conceptual bases (power), intent bases (motion, increase, efficiency), type bases (number type, variable type), structural bases (value, position, distance, set), change bases (rate, possibility/opportunity difference, randomness ratio, change interface stack, change type)
       - if the interface network (position of power with respect to balance, interfaces like intent/concept/structure) is static, there is a limited supply of change/potential/power in the universe/system, and change should be allocated non-randomly (priorities matter)
@@ -328,16 +388,25 @@
       - why do some of the most useful interfaces have semantic values (context like identities of nodes, producing interfaces like priority, which is specific to non-random systems that can have intent)rather than structural values (type, pattern, change, structural)
       
     - examples
+
+      - give interface math examples, like standardization of all distinct components into their own interfaces, rather than within a system context
+        - rather than framing the behavior of objects in a system, you can:
+          - remove the assumption of the system limits forcing interactions
+          - frame each object on its own interface (containing all its possible forms, variables, attributes, generators, cooperative contexts, etc)
+          - compute the interactions of those interfaces
+
       - give example of framing variance with different interfaces to highlight predictive information or information that can be structured on other interfaces that simplify the problem
         - the common goal of 'variance reduction' which maps to 'applying a standard' may not always be the right first step, as 'variance expansion' can offer potential to identify different component interfaces that would highlight hidden variable set ranges
           - example: if you expand or maintain variance, or frame it as a combination of variances simultaneously framable in multiple standards, you can identify hidden variable gaps where variable sets on different interfaces can fill the gap in a way that doesnt disrupt the original variance
           - identify example where variance cant be reduced to a common interface but is still solvable with a set of interface positions/trajectories
+      
       - give example of variance transforms
         - adding a new interface for variance to expand into
           - changing existing interface used as a filter to hold constant
           - adding new interactions to allow the expansion of new variance
         - moving variance into other interfaces to make the problem more solvable
           - rather than a species evolving into a new set of sub-species, host the variance in epigenetics rather than inherited mutations
+      
       - example interface (emotion) within another interface (agent):
         - emotion functions involve:
           - information indexing
@@ -346,8 +415,11 @@
           - perspective/layer switching
         - emotions are used as a cause, a standard, and an output, allowing for variance injection due to current lack of measurability
         - they can capture sub-nets or trajectory nets on the interface network
+      
       - give example of calculating which variable resolutions can be postponed & solved later with information acquired in subsequent analysis
+      
       - give example of mix & match interface assembly given the problem of 'model identification'
+      
       - example of finding an object on different interfaces, using its structures within that interface:
         - symmetric (efficiency & similarity) interfaces:
           - efficiencies can be found in: 
@@ -412,6 +484,41 @@
     - core components
 
   - functions 
+
+    - logic 
+      
+      - determine what general intents to analyze, in what structure (sequence, combination, network)
+        - determine what structures (dimension sets like vertex variables, core functions or interaction layer objects, formats like definition, networks like attribute graph) can solve what problems optimally
+        - determine what problems need to be solved
+        - determine what work needs to be done to solve input problems
+        - determine priorities
+      - then you can organize analysis to fulfill those intents
+        - core analysis
+          - what are the core components?
+            - what are produced by core structures applied to core components?
+              - what are the useful products of core structures applied to core components, for which relevant intents?
+        - system analysis
+          - what are the system components (opportunities, efficiencies, incentives)
+        - interface analysis
+          - how does this fit with other intents & problem space changes while analysis was running? 
+          - can work be reduced using problem space changes like new tech?
+          - should this analysis continue or switch to another intent?
+
+      - generate starter pack of solution automation methods by applying core structures to problem objects
+        - apply subset & group structures to problem/solution
+          - break problem into sub-problems, solve sub-problems, and aggregate sub-solutions
+        - apply filter structure to problem
+          - filter problem until its a solution object
+        - apply variable structure to problem
+          - find variable(s) that capture the most or most important variance across problem objects
+          - format problem objects in terms of those variables
+
+      - apply structures to interfaces
+        - list points of overlap & connection between interfaces & use that network as a primary/default interface query structure
+
+      - define the application of interfaces to interfaces
+        - structural concept definition
+          - repeated, stable structure in a system that develops its own functions/attributes from interactions with other structured concepts rather than being definable solely as a set of components in isolation
 
     - interface integration functions 
       - assemble meaning (relevant cross-system structures) of information retrieved, during & after interface traversal, integrating new information retrieved/generated with input and/or prior information retrieved/generated 
