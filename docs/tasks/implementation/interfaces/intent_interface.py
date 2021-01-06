@@ -271,7 +271,55 @@
 
   - examples:
 
-    - example of intent mapped to structure: the outlier or data point in the middle of two categories isnt supposed to be categorized, its supposed to be identified as belonging to a different group (a group in a state of change), which can be used to derive group boundaries, but shouldnt necessarily be integrated into a categorization function
+    - example of queries to find opportunities to position an intent like 'phishing attempt'
+
+      - finding legitimate relationship structures on an interface, such as other relevant intent types:
+
+        - prior intents like 'receving legitimate email triggering risk-aversion process involving a step containing a link click' to target intent of 'clicking link'
+        - related intents like 'permuting assumption or variable like authentication status that would trigger a related process, in the form of sending email about related process with a step containing a link click that wasnt triggered like disabling account authentication'
+        - required/important intents like 'maintaining account security' or 'avoiding risk' or 'minimizing risk' 
+          ('if my account was hacked and someone disabled auth, I need to fix it right away')
+        
+      - finding rule enforcement gaps, like required priority-switching triggers, such as:
+
+        - where priorities such as 'rule enforcement' are ranked lower than other priorities, like 'speed', such as when handling a high volume of emails
+        - where intents are over-prioritized, intents like 'contradicting lies', which could trigger a priority switch
+          ('no, I did not disable account authentication')
+
+      - whats the query that could generate both examples of exploit opportunities to inject this malicious intent?
+        - find causes (triggers, sequences) of change types (switching, change sequence) of core interface structures (relating/connecting functions, requirements, rule gaps, rule enforcement gaps)
+      
+      - whats the query that could generate the generative query?
+        - find structures (causes) on a generative interface (cause) of generalized (apply pattern, core, or abstract interface) core structures (types) a high-variation interface (change) of core interface structures
+
+    - example intent implementation for a priority like 'security'
+      - accessing a particular site by stating intent, where intents are mapped to a static network/route/server set, so that content cant be replaced with malicious content
+        - a browser accepting a request for a site can only deliver values specified in the intent map for that site key
+        - keys in the map represent partitioned content
+          - requested intents like 'whatsapp.myuserid' can only deliver content from the values associated with the key path map['whatsapp']['myuserid'] (server/database/network/content values)
+        - the integrity of the universal intent map as a source of truth/legitimacy/trust is the main point where requests/responses can be compromised, and if its enforced by lack of editing ability & verified with local copies, it cant be compromised
+        - edits to the intent map are supported by continuous & coordinated 'voting' as legitimate mappings, so new request intents can be supported, with increasing degree of readonly capacity as the new intent entry is more confirmed by votes
+        - paths (IP addresses, usernames/handles/email addresses, paths in the mapping, id numbers) in this system wouldnt change (changes such as inheritance/editing/randomizing/sharing)
+        - users & the requests they make would be intrinsically linked, and would be trusted with content relevant to them, including inputs like voting requests (they can vote on legitimacy of content relevant to them)
+          - intents would be evaluated by context, to sync/fit them into the absolute system of meaning
+            - intents like 'deactivate/hack encryption tools on the server associated with this site they just visited' would be fulfilled if the context was justified, such as contexts like 'in a location where encryption has been abused, like a porn or ransomware distribution site', where new intent requests support a particular change/difference/variation ratio & other metrics associated with calculating justifiability like 'intent (ability in the form of a justified actionable plan) to prevent harm'
+            - the browser would be the primary enforcing agent in this system, confirming the integrity of the intent map & edits made, as well as determining justified contexts of intent requests not specified in the map (allocating them to voting agencies in cases of uncalculatable justifiability)
+          - this implements a centralized source of truth, applied in a decentralized way (everyone can view the keys of the map & has a local copy of the keys & the value hashes), synced with definitions of meaning & understanding (like how requests from a particular user follow patterns specific to their decision history, and how intents can seem but not be similar to other intents, and common manipulation patterns like using ambiguous intents to hide malicious intents)
+
+    - example of applying structures like 'approximation' and 'adjacence' to achieve intents like 'create proxy identification functions' fulfilling core alternate high-level intent functions like 'derive' rather than 'find'
+      - monitor accessible signals (user showing signs of detecting anomalies like staring at a phone number or frowning in concentration) surrounding the inaccessible target signal (attack)
+      - the relationship between core structures (like core functions such as apply/derive, core objects like implications/assumptions/conclusions/definitions) can provide a first-level data source on rules to design interface queries (try find information first, otherwise try alternatives to find like derive/build/test information or proxy information, with the assumption that proxy signals amount to the target signal)
+
+    - example of organizing system in a structure optimizing for 'security' priority:
+      - with rules like:
+        - a function that can edit signals of an attack (request logs) should not be the same function as (or an accessible function to) a function that can cause damage
+        - the delete function can only be applied to file content, not file metadata or request logs
+        - any rules about a function also apply to any functions that amount to that function when combined
+      - these are abstract rules about structures like functions & concepts like organization/integration that offer a new layer of testing for system optimization
+      - workflow testing is another type of testing that is not fully supported/automated (by tracking expected side effects of a task set, having conditions to select tests to execute, and having accepted range of variability in outputs like timestamps)
+
+    - example of intent mapped to structure: 
+      - the outlier or data point in the middle of two categories isnt supposed to be categorized, its supposed to be identified as belonging to a different group (a group in a state of change), which can be used to derive group boundaries, but shouldnt necessarily be integrated into a categorization function
 
     - function intent-indexing example
       - rule gaps are created by trust (lack of enforcement in rules)

@@ -1,8 +1,52 @@
+- give example of mapping an insight to math interface, and structures that can hold/generate the insight, as well as content that can describe the insight
+
+    - example insight: 
+      - gradient descent: moving in direction of steepest descent of slope
+        - math version: moving toward highest negative slope
+        - system version: incentives moving toward efficiency 
+        - structural version: moving toward lowest-cost motion
+        - information version: with an information constraint, find information relevant to adjacent optimal according to optimal definition
+        - physics version: minimizing energy expenditure in the form of motion & calculation
+        - physical version: a ball circling toward a drain
+
+      - what structures can execute the following core operations for this insight
+        - describe: increase of a parameter in the same direction as a function exerting force (move vertically lower, like gravity)
+        - hold: a structure that can support various optimal points (like a set of peaks that stabilize to a certain amplitude range), and a similarity between a parameter increase & the function force direction
+        - replace: a function exerting force in the same direction (vertically lower) or towards the optimal point (horizontally toward the center represented by the optimal point)
+        - generate: a structure that can generate the supporting structure & either the function or the parameter increase
+
+      - why would you do this calculation? to find:
+        - a relevance structure in the form of patterns of coordinating differences across change types (moving horizontally toward a point and vertically to a point) with a priority (constraint)
+        - a definition of optimal/efficiency/cost/limit/error
+        - alternative objects to seek (valleys, centers created by similar change on both sides, slowing change speed, points where slope = 0 and y is less than current y) to solve optimization problem
+        - alternative methods of finding optimal points: 
+          - using patterns in another change type (multi-dimensional, converging) or other difference parameters (distance, sign, direction, dimension, slope, angle) to find optimal points
+          - method to navigate an optimization topology by navigating a proxy topology, like an error topology with adjacence determining likely error types/values, a pattern topology, or a change topology
+          - method to differentiate relevant objects by minimal parameters that can be used as a map to navigate the function to find optimal points
+            - differentiate error, cost, and optimal by a parameter set that reduces calculations (like potential/change types of errors/costs/optimals)
+              - change type of error is exponential reduction, in parallel with cost change type
+              - optimal change (identifying new optimal points) increases marginally with parallel (positive) cost change 
+              - optimal points in a function with change types (change speed changes, change speed change changes, change type change speed changes) follow patterns with change types (continue change type, stabilize at lower cost change type, stop change)
+        - other structures/formats that can be used to calculate the original optimization solution (reducing dimensions, switching to progression/vector format) and pull relevant insights that may be more efficient at calculating the optimization (patterns of efficiencies/overlap/similarity/alignment/convergence)
+
 - object interface
   - is the attribute or rule interface better when condensing objects for comparison
 
+- core operators in math space
+      - structure
+        - format (as a series, function, function set, coordinate set, vectors, matrix, aligned values, base, on dimensions, as an embedded parameter)
+      - differentiate
+      - set
+        - include (add, increase, multiply, combine)
+        - exclude (subtract, decrease, divide, filter)
 
-- example of function metadata
+      - focused information with values
+        - when you inject information (value set) into a structure (dimension), what happens?
+          - the limits & functions of the dimension, combined with other dimensions & rules of the space, are activated as causes of those value outputs
+          - the intent of a value set combined with a format can be to highlight connections between these causes
+
+
+- example of math function metadata
   - a wave function has metadata:
     - conceptual attributes:
       - repeatability

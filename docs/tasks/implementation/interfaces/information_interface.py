@@ -6,6 +6,19 @@
   - attributes (structure, format, organization, certainty (potential/future/measurable information)) 
   - functions (match, fit, apply, build, derive, define) 
 
+    - find/derive/change/generate info objects:
+      
+      - poetry function
+        - focusing on/filtering/prioritizing connections to a higher-dimensional space (potential space, where more types of change are possible)
+
+      - identify counterarguments: remove assumptions/parameters until it contradicts a required parameter of the statement to contradict
+
+      - identify fake news: find attention-generating objects (default responses to incentives (hypocrisy/selfishness), emotional/belief-based statements, low-cost statements (virtue-signaling), stupidity/misunderstanding/repetition, obvious facts/lies/reductions/jokes, oversimplifications, falsehoods, unprovable statements, controversial statements, mixed types (statements of opinion as fact), irrelevant statements, distortion chains, nonsense)
+
+      - identify fallacious arguments: arguments with at least one parameter in common with facts, or structures (logical fact-connection methods/priorities) of a good argument
+
+      - identify ambiguous arguments: arguments with undefined/conflated terms, abstract terms, lack of clear references, applicability to multiple situations
+
   - objects: 
     - info objects relate to agents & their communication (perspective, strategy, decision, intent, priority, game, problem) 
     - these objects can be defined as combinations of general interface objects (object/attribute/type) and core structures/functions/attributes 

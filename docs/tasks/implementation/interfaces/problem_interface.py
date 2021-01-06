@@ -113,6 +113,14 @@
 
     - examples:
 
+      - example of applying problem-structure interface: https://en.wikipedia.org/wiki/Anti-pattern
+        - these are examples of contradiction/error types of the system-optimizing insight 'align relevant intents', which have the structural problem type 'misalignment' of the concept 'relevance':
+          - local & global intents (local efficiency/fulfillment of local incentives/priorities, at the expense of global inefficiency/lack of fulfillment of global priorities/requirements/incentives, by allocating local solution side effects to global entities)
+          - misaligning prioritization & intent (over-prioritize job duties like monitoring, to benefit the manager) that doesnt align with other intents (subordinate productivity) which benefit the company
+          - imbalance/missing/disconnection from related objects (criticism & solution, solution & responsibility)
+          - mis-aligning functionality (learning/potential) with requirement (repeating task)
+          - mis-aligning intent of a product (making customer independent) with dependency structures (requires customer to use it beyond its value to them)
+
       - examples of problem types on different interfaces:
         - system problems: inefficiency, conflict, mismatch
         - information problems: excessive information, conflicting information, information asymmetry

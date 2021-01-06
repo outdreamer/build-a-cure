@@ -158,13 +158,19 @@
 
   - attributes: 
     - structure (potential being lack of information, and information being structure) 
+  
   - concepts (randomness, risk/probability, opportunity, certainty, variance, enforcement, validation) 
+  
   - objects: 
     - interaction space 
     - potential field 
 
   - structures:
+
+    - predictions (docs/objects/prediction.md)
+
     - indicate potential by injecting probability distributions, change range/type vectors, or potential fields in other dimensions at points with high variation across data points/sets/probabilities/patterns
+    
     - variance structures (gap, leak, cascades/catalysts, accretions/injections, compounding variance, variance building a new interface, variance distribution/alignment, unenforced rules, measurement limits, open systems) 
 
     - emergent/conceptual attributes as circuits within an object/system/type set, layers, or interaction structures
@@ -205,7 +211,20 @@
 
   - related objects
 
+    - uncertainty questions
+    
+      - 'what is the metadata (potential energy, variance/risk/randomness/uncertainty reduction potential) of this information'
+      - 'what are the causal/conceptual/system/other interface structures relevant to this information'
+      - 'what is the calculatability of similar structures'
+      - 'what type of similarity is relevant in the calculatability problem space'
+      - 'what is calculatable in a given system, and can that be changed'
+      - 'is there another accessible system where it would be calculatable'
+      - 'what is the ratio of uncalculatability compared to other uncalculatabilities (similar to ratios between types of infinity)'
+      - 'is it verifiable/testable/provable/derivable/calculatable'
+      - 'how can uncertainty/risk be reduced without decreasing important potential'
+
     - related questions
+
       - what types of objects/functions/attributes survive outside of a system that isn't closed by default, and to what extent
       - what interfaces capture the objects outside of a measurable system context with potential for information (maintenance of a fact for enough time & space to be measured or depended on)
       - what is the conversion potential of this object given its functions

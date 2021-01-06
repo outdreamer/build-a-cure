@@ -1,5 +1,22 @@
 # science
 
+  - give example of deriving 'protein folding' as a key interface in the bio system, given the stability & interaction level with other systems
+
+  - anti-pathogens, which would take the form of viruses to counteract other viruses (like a harmless version of a virus), which would spread through contact without requiring vaccines
+  
+  - examing how replacing a function producing stressors (like hormones & byproducts) with an artificial solution (birth control) to reduce variation (in hormone supply) also reduces stressor & stressor-byproduct variation & imbalance (in hormone-related cell supply) by delegating function calls to artificial solution, reducing original function calls in the process
+
+  - link to stressor model
+    - is stress being routed to brain from elsewhere in bio system bc it can handle this type better given its response to free radicals, which may be similar to other stressors routed to brain
+    - can other forms of stress be converted to a similar format/structure as free radicals or other stressor types handled best in the brain?
+    - what other stressor formats/structures/types are handled optimally in a particular system, and are those stressor routed there by some existing mechanism?
+    - what is the relationship of free radicals to learning? (causes anxiety, creating demand for brain network organization & integration)
+    https://medicalxpress.com/news/2020-12-free-radicals-good-brain-insights.html
+    - CD38 benefiting recovery from stroke but feeding hostile cell types elsewhere through cooperation/connectivity, which is sub-optimal in regions prone to hostile cell types but useful in other places like between neurons: https://phys.org/news/2020-12-nad-nicotine-adenine-dinucleotide-super.html
+      - can hostile cell types prioritize/protect CD38, leading to increased inflammation
+    - lack of protective bacteria may allow substances to accrue in brain that interfere with organization/connection/cooperation/clearance activities, substances that are not positive stressors for the brain  https://medicalxpress.com/news/2020-12-gut-microbiome-disturbances-linked-major.html
+      - can these be combined with anxiety-triggering stressors to increase stress handling in brain?
+      
   - vitamin 3-d printer to print vitamins so that you can design your own multivitamin that:
     - fits your bio conditions & requirements
     - is released in the right order & timing
