@@ -1,5 +1,156 @@
 ## Standard Neural Network Design for initial complex problem factor identification reduction
   
+  - to do: 
+    - generate nn of every core structure (like a combination structure to aggregate features into groups) having a useful intent for 'generating prediction function' intent
+
+  - nn predictions based on granular change-polling nodes, change integration functions (aggregate changes from polling nodes & test if they require changes at higher levels)
+
+    - example as a weather tool: deploy prediction algorithms to CDN servers instead of data - if actual data varies more from predicted data above a threshold as determined by calculation servers higher up pipeline, force query of actual data rather than predictions to downstream servers & update prediction functions' outlier handlers
+
+  - ml explanations: embedded interface structures (causal structures, type paths, problem types, change types/bases), function subsets/alternate functions composing the prediction function
+
+  - AI that identifies complexity requiring other structures to be added/embedded in analysis network
+    - example: identifying a 'map' structure to store a set of definitions (like to contain a language/dependency graph), and a 'filter' structure to store a set of standards (like to standardize to that language)
+
+  - nn structure generation example
+
+    - default objects/functions/concepts in a neural net 
+      - aggregation
+      - filter
+      - combine
+      - compare (conflict problem type)
+
+      - these functions are relevant to various problem-solving automation workflows, such as:
+        - break a problem into sub-problems and aggregate solutions
+        - start with core functions & apply distortions to build solution structure
+
+      - neural nets can be built to implement these variants of solution automation workflows
+        - they can vary on other parameters, like
+          - structures to start from 
+            - interaction layer 
+            - causal structures
+            - problem type structures
+          - definitions
+          - direction to move toward (intent, priority)
+
+      - neural nets can be generated for a particular problem-solving intent using combinations of these objects with these variants
+
+  - nn explanation example:
+    - neural network as a reverse tree of weights
+      - each network layer has coefficients mapped to sub-trees of weights, where feedback prunes the trees, differentiating them further & deactivating branches with weights that dont contribute given feature positions & variation
+      - iterations that adjust the weight trees amount to logic exacting conditions on the input set of component functions building the prediction function
+    - generating the most-different sets of weight trees likeliest to get an answer about their contribution quickest is more efficient than the standard training process to incrementally adjust weights
+
+  - game automation as a way to frame info filter structures (game to find information)
+
+    - choose a system with enough complexity to allow many change types (rule changes, injection of other systems, changing system context, etc)
+      - information system
+        - information objects
+          - story: a sequence of events with a perspective focusing on a subset of events, interacting with agents & their objects (goals, lifetimes, problems), & their communication objects (conversations, stories, jokes, research, reports)
+      - function interface
+        - rules
+          - social rules
+            - court: a decision node, operated by an agent having information about rules (limits, protections of freedoms) & rule types (preferences/norms/laws), priorities (justice, avoiding giving justification/permission to legislate other unintended laws), interactions (impact on markets, diplomacy challenges, deals), change types (allowing a change type that triggers other changes), & concepts (precedent) of government
+      - system interface
+        - closed rule-based systems
+          - system objects
+            - objects with direction (incentives, goals, optimizations, range of potential changes)
+              - game: low-stakes goal in a discoverable system
+
+    - choose a level of variation to allow interactions with other systems
+      - variation in interaction layer (stories interacting with stories, human interaction laws interacting with physics laws of space-time)
+
+    - choose structure of this interaction
+      - can be a containing structure like a context, a platform like a background/foundation, or an object in a combination/sequence set
+
+    - choose agents with
+      - high change potential (no hard-coded biases that make their perspective static, like avoiding information)
+      - relatable problems (family problems, seeking a resource, etc)
+      - powers that add to their potential/freedom for escapist games
+      - new combinations of agent objects (powers that have problems, permuting assumptions, abstracting/invalidating definitions of game objects)
+
+  - testing tool to identify bias in algorithms as litigation profit opportunities
+    - biased algorithms use the incorrect 'reason' for their decisions
+      - example: using a race as a 'reason' - a factor determining a decision like a criminal categorization or assigning a risk probability
+      - the race shouldnt be the reason determining the decision, though it can be included in the data set to identify concepts like oppression
+      - if an illegitimate reason decision-determining factor is identified, the algorithm can do more analysis to:
+        - figure out why thats a determining factor
+        - find counterexamples (permuting race variable) to verify the illegitimacy of its predictive power
+      - the reason for a decision about something as important as criminality/recidivism probabilities should be:
+        - an agent's conscious response to incentives (they chose to commit a crime, but were not pressured or forced to do so)
+        - involuntary attributes/functions (inability to have impulse control, inability to empathize, other mental disability)
+      - the primary factors causing crime are:
+        - incentives (reasons to do crimes, such as injustice or boredom)
+        - potential in the form of intelligence (giving them other options to get resources than through crime)
+      - these factors can be approximated by factors associated with victims of injustice (oppressed groups) which do tend to have associated physical attributes
+      - so theres a feedback cycle over-rewarding use of these physical attributes as causative factors, bc the algorithm misses the connecting variables:
+        - oppression/injustice historically directed at groups having certain attributes
+        - intelligence (stupid people make hasty decisions & choose a career where they'll be forced to make hasty decisions, relying on easily accessible rules in quick decisions - rules like physical attribute assessments, or over-aggressive/protective fear responses)
+      - when in reality these physical attributes are nearer to outputs of that causal cycle:
+        - stupid people seeking powerful positions => quick decisions usually using illegitimate rules, depending on side effects of stupidity (lack of emotional regulation or planning or quick adaptation, or seeking/being exposed to bias-enforcing information, like focusing on criminals of a particular attribute) => biased decision => enforcement of power to hide biased decision (punish victim anyway, hide evidence of biased decision) => stupid people see another person of that attribute go to jail & miss all the causative factors involved (injustice, intelligence gaps) => more bias cycles are triggered/repeated (stupid brains make more simple single-attribute decisions bc they got rewarded for this one), resulting in hardened assumptions that theyre not biased, resulting in increasing lack of self-awareness/self-correction/learning potential & more stupidity/simple decisions/hard-coded rules/rewards for acting out of fear & bias => repeated oppression of people with those attributes => lack of meaning/justice in lives of oppressed people => stop trying to see the point of being good & start justifying criminal activity for basic needs => punished for fulfilling basic needs, resulting in more injustice cycles => retaliation of family for injustice => stupid people seeing more people with that attribute go to jail, as families/loved ones often share attributes => more stupid people conclude they need to control people with that attribute => stupid peopl seeking powerful positions
+
+      - algorithm tests:
+        - a good algorithm will identify these factors (incentives to do crime & potential/intelligence) as the primary determining variables creating crime, and will also be able to output the structure of the above causal cycle/network
+        - the algorithm should identify sub-reason causal structures, like
+          - boredom/entertainment
+          - feelings like power to correct their emotional imbalances
+          - cycles of criminal activity (victims seeking street/vigilante justice, unlucky people seeking to allocate their problems to perceived luckier people)
+        - concepts & relevant structures capturing them:
+          - intelligence
+            - functions of intelligence like impulse control, skills learning
+            - side effects of intelligence like steady income
+          - justice cycles
+          - lack of justice, leading to lack of meaning (they never got protected/justice so they cant see why innocent people should, given that there must be no absolute meaning)
+          - forgiveness/trust/understanding: tools of crime-correction that should not be enforced on victims
+          - victim complex: tendency of social agents to see themselves sympathetically & as passive victims, especially criminals
+          - lack of empathy/hypocrisy: criminals who cant empathize dont achieve self-awareness, dont correct their errors in judgment, and dont exhibit unnecessary concern for others' well-being, so they see themselves as victims while being unable to see other people like their victims as victims
+          - needs vs. desires: criminals dont separate needs & desires, and crimes of fulfilling needs like life-saving medicine shouldnt be categorized as crimes
+
+  - list examples of applying structure to create new neural network structures for an intent & how to generate them
+
+    - example: 
+      - cnn = apply 'subset' structure to 'adjacent features', given that 'position/adjacence' is an attribute determining a definition of 'relevance' in the form of 'local relevance to other local features, & other feature interaction layers built by local features', or 'size relevance'
+      - the cnn prioritizes the 'subset' groups of local features, promoting this set as its own emerging feature serving as input to the next layer.
+    
+    - to generate other examples, identify structures like the 'local adjacent feature subset' or 'size relevance' in an image as an approximation of meaning aggregation/filtering/construction/injection, to calculate global meaning/relevance across the whole image, relevant to a task (identification/categorization/differentiation)
+      - this is a good standard example of how structure (position/subset) can have meaning when applied in other structures (image)
+
+      - algorithm to generate these structure changes for an intent (sample output of interface analysis):
+        1. determine a structural definition of meaning/relevance for a problem (with associated info/formats & target solution info/formats)
+          - adjacence as a definition of meaning for local features in an image info format
+        2. find a structure that fulfills that definition of meaning
+          - subsets of adjacent local features capture adjacent information
+          - adjacent information may be relevant information, given the definition of relevance used
+        3. apply that structure to the algorithm
+          - inject the subset structure in the input structures, adding an iteration to capture additional subsets
+          - injecting the subset structure is a proxy for injecting the structural relevance definition of adjacence
+
+    - another example: 
+      - given that reverse weight trees are a standard neural network structure, is there a structure that would help prune the trees, connect the leaves across different weight trees, or convert the trees into a useful network/cyclical structure that could be applied in any direction?
+      - should neural network support pivots in other directions, so rather than optimizing for the original final target layers, they can have or add layers in other directions, after discovering patterns in loss/activation/weights that point to other dynamics than originally configured to identify? (star or cyclical structure, with different final target layers)
+
+  - nn structures displaying concepts:
+
+    - example: concept of 'fear'
+      - fear of learning being too difficult (high cost) prevents investment in further pursuit of information
+      - in a neural network, the concept of fear shows up in the structures designed for cost-minimization
+
+  - in order to identify their own error types, neural nets need some of the following:
+
+    - intents:
+      - incentives or other rules of varying enforcement like priorities to invest in high-cost learning
+
+    - info:
+      - data from other neural nets, data sets, tasks, & error rates
+      - info about error types & variables causing errors
+
+    - functions:
+      - functions to track their own errors & gather extra information as needed
+      - function to categorize error types & derive missing error types & other error structures, like error interaction layers & core error functions & core error structures (distortion, gap)
+      - function to derive structures of mismatch, ambiguity, randomness, variance, & uncertainty beforehand, so they know what to look for & can quickly identify relevant objects like an ambiguity that will produce categorization errors
+      - function to derive how a task like categorization could be incomplete or otherwise incorrectly implemented & watch for change in that direction
+      - function to identify concepts/causes/system driving the generation of errors (imbalances, unenforced rules, incomplete expectations, incorrect assumptions) or development of new error types (new interactions, compounding uncertainties/gaps)
+
   - nn with every core structure & every problem type embedded & accessible from any position (3-d neural network), formatted as filters
       - logs as weight path pattern structures
 

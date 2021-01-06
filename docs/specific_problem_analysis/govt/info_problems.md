@@ -139,6 +139,74 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
         - teaching them how to do simple, delegatable pieces (like summarizing a meeting, comparing summary algorithm output & manually selecting the best summary to train new algorithms to automate simple job component tasks, writing emails, executing/monitoring/rolling back builds, testing sites/features/apps for errors or exploits, identifying/attacking hacker groups, making decisions about legitimate/illegitimate requests/processes once an AI identifies possible intruders, testing pipelines, translating task descriptions into automatable structures like templates, identifying/resolving social conflicts, designing arguments, identifying/evaluating bias, applying a language perspective like diplomatic language to translations/communications, mapping a language to a standardized language, mapping systems to other systems like math rules/objects to language rules/objects, identifying patterns like fake news/joke/summary/insight patterns, persuading voters, identifying system optimization opportunities which can then be filtered by automated logic like filtering which opportunities are lowest-cost, identifying fake news, fact-checking, interviews) of existing complex jobs (devops, coding, legal analysis) so the current employees can learn other complex skills (data science, math, optimization algorithms)
         - doing the work that would reduce poverty themselves as their job funded by govts looking to reduce health & other costs of poverty (learning & teaching other poor people skills, delivering donated goods to other poor people), since reducing poverty is an investment that would pay dividends by creating a new population of contributing scientists/laborers and reduce health care/charity/climate costs
 
+  - market optimization/organization
+  
+    - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
+      - anti-crime markets (subsidy incentives): 
+        - purchase time/decisions of those likely/known to commit crimes, to give them other temporary options for income, such as days of:
+          - no criminal activity
+          - neutral activity that isnt clearly criminal
+          - reporting others' criminal activity
+          - volunteering their resources 
+          - participation in justice markets (directing their crimes toward other criminals to correct imbalances)
+        - offer free information about lesser crimes than the one they were planning (relative profits from selling weed vs. other crimes) to alert them to less harmful profit opportunities that are lower cost with similar/higher reward
+          - information to coordinate with other criminals on lesser crimes (incentivize less harmful crimes by helping them build small businesses)
+        - offer free information about crime statistics & net effects of mass-scale crimes (if you do this, the sentence for this crime will go up, given how many other people are doing the same crime or about to do it)
+          - information about 
+            - criminal trajectories
+              - if you do this crime, youll probably do this other crime in x years & get this sentence
+            - crime market opportunities
+              - if you participate in this crime community, youll have access to these opportunities/profits
+            - exit opportunities
+              - at which points in their probable trajectory theyll be able to exit the crime community/trade with minimal risk
+              - youll reduce your next chance to convert your career to a police officer by x% if you do this
+        - oppression balancing markets: 
+          - if theyre going to oppress people in one way (slavery), they have to accept oppression in another way (insults, being monitored)
+        - favor/deal/endorsement/ad market:
+          - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
+        - crime layer markets
+          - sell better encryption/spying/weapons/communication tools & information (secrets, opportunities, statistics) to criminals that do lesser crimes
+          - sell info warning imminent victims or info to crime competitors for criminals who dont pay their crime taxes or dont use crime organization apps
+          - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
+        - help organize markets so if a criminal targets one group at first, they have to target another group next time, to even distribution of crime
+          - also organize labor so if they contribute to a dictatorship as a mercenary, their next career move has to be drug dealing or freelancing
+        - crime organizing/migration/trading app
+          - they have to pay higher app fees (less encryption/favors/information, go to group therapy or listen to another criminal complain to contribute to in-app therapy market to pay off their debt) if they offer a variety of crimes, taking jobs away from less skilled criminals
+          - if they dont pay their app fees, they have to look at information about their impending/former/possible victims before accepting a crime mission or being paid (you could have robbed this jerk who wronged your family, but you robbed a wonderful person, who instead you could have tricked into doing a minor crime)
+            - get paid if they recruit users to the app
+          - sell info from satellite/mobile data to help victims track crimes or find criminals as potential customers
+            - sell info about potential profits from affordable granular/bundle product pricing, to make deals with thieves/gangs as potential customers/business partners/employees, so crime can be avoided or at least optimized to avoid harming victims disproportionately without compensation
+              - example: "make $1 a month at this price given this customer size, $10 a month at this price, etc"
+                - https://www.wired.com/story/india-smartphones-cheap-data-giving-women-voice/
+
+      - security market
+        - security is a limited product available only for certain transaction types (organizing against serious crimes), and all secure transaction info is published after a safety period to avoid retaliation once organized event is complete & irreversible
+
+      - decision (vote allocation, investment spending, news curation) market
+        - good decision history can buy products in this market (option to make decision, option to grant permission to use decision)
+        - info market about future decision-reducing decisions, decisions that create opportunities, decisions with historical side effects
+        - consensus market for 
+          - finding/organizing cooperative agents across perspectives/positions
+          - finding/applying incentivized trajectories to cooperativeness
+
+      - organization info market
+        - tools & info to organize resources (information/incentives/labor/laws/communities) to design/influence markets
+
+        - identify intents (in unprovable domains like belief systems with unquantitative metrics) that allow alignment of necessary entities with coordinating alternate/sub-intents
+
+        - time-staggered phases
+          - law/argument/market/info/weapon/tool phases to implement a sequence of progressive states that are likelier to be stable (preventing regression to previous higher-crime states) & otherwise beneficial when executed in that sequence
+            - keep something relatively innocuous a crime for a limited period of time, so fees can be gathered to invest in other programs
+            - organize laws to punish/catch the worst criminals (make some common behavior of the worst criminals a crime until they can be brought to justice for serious crimes)
+              - requires intl coordinate with the app's recommendations
+
+      - opportunity info market
+        - standard market opportunities (profit, deal, exit, cooperation)
+        - war market opportunities (attack/risk/chaos opportunities, like alignments/equivalents/efficiencies such as when neighboring countries are both having elections or when two companies combined could take on a bigger competitor)
+        - tech opportunities (when a tool can be built with adjacent resources, when overlapping products can be integrated, when a product can be distorted in a valuable way)
+        - govt overthrow opportunity 
+          - tell oppressed people when they have escape opportunities, when police are nearby, when they can afford safe passage out (project on clouds if they dont have phones)
+
 # Questions for humanity
 
 
