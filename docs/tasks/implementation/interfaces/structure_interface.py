@@ -158,6 +158,156 @@
 
 - examples
 
+  - give example of basic structure-intent map with db key-val structure used to store nested structures
+    - intent of a key-value store is for lookups of info with unique keys in a map
+    - lookups of nested values would otherwise have to be stored in rdbms or existing nesting-supporting formats like json, given that a 'nested' structures implies an intent to store relationships to associated objects
+    - key structure can store strings - path in nested structure can be converted into a string
+      - nested structures can add delimiters & type tags to resolve ambiguities like unnamed/unordered lists
+      - by adding organization through type tags, info in nested structures can be stored in a map, with the intent of preventing information loss
+
+      - structure intents
+        - map: information organized by position
+        - key: a string to find information at a position
+        - string: a sequence (like a path in a nested structure)
+        - concatenate: combine into a set with different dimension values (value count, delimiter count, position)
+        - concatenated string: preserve order of list (like a list of path steps in a nested structure)
+        - delimiter: differentiate within a set concatenated into a string or within a list/set
+        - nested value: information associated with other information by position
+        - nested structure: structure organizing information with non-intersecting (unique) sequences of steps
+
+      - you can see how you can query for objects with intents that would link input (like a json object) with output (info indexed in a db) formats, given the intents using standardized terms above
+
+  - structures of difference: chaining difference types (like randomness, core operations & definitions) across different component types like objects/variables are a quick way to identify new objects/systems to explain or fill rule gaps
+
+  - identifying structures of randomness vs. false illusion of randomness (temporary equivalence)
+
+  - variables can be represented better in other structures (probabilitistic networks/trees) than their original structures (spectrum representing full possible value range)
+
+  - abstraction as a method to capture variation in the form of change/difference types
+
+  - ratios of change across connecting structures like interaction layers/types as a way to predict error probabilities & locations
+    - example: code change ratio vs. config change ratio vs. user event/workflow change ratio
+    - when the dimension of change exceeds dimension of abstraction to handle change, errors will occur
+
+  - add abstract keyword search support (find objects of an abstract type), like 'find all customers impacted by attack' will return results including all specific customer names in search result snippets
+    - apply 'all' definition to return unique complete results
+    - apply 'abstract' or 'specific' definition or identify an object type (customers) to list specific customer names
+
+  - identify high-impact structures on an interface
+    - causal loop: 
+      - entities in a dependency loop where each supplies an input that the other needs (like a security product from a security product provider and a software resource product like a cloud server provider, where each product is not supplied by the other entity) offer an opportunity to take out both entities & their dependencies while conflating root cause & minimizing impact
+    - meta cause: 
+      - dependencies (like security/deployment tools of security provider) of the same type/level of dependencies for other entities (security provider product)
+    - balance structures
+      - a position with the most contradictions is the most balanced position
+    - combination structures
+      - a meta cause injected in a causal loop can cause cascading conflated outages where structure & source is difficult to determine
+        - examples
+          - disrupt deployment tool of a security product used for auth process
+          - disrupt neutral abstract tool (update/deploy/networking) used by security provider
+          - disrupt logging mechanism of a log search tool used by many companies for incident response
+          - disrupt default trusted response (string returned from ip checking service that may be queried & accepted without validation)
+          - disrupt trust root nodes like security providers & authorities
+            - 'trust' being a conceptual definition of the concept of 'risk', and 'lack of input validation' being a structural definition
+            - 'lack of required trust' having 'user risk-minimizing' structures like 'protecting/providing/cooperating with/lowering switching costs for alternative options' (no trustworthy provider requires exclusivity from demanders)
+        - these structures can be used to identify the function nodes/positions/structures that would be highest-impact, to apply increased security in those function positions & their relevant structures (inputs/outputs)
+    - high-impact functions
+      - are permitted to access other high-impact functions
+
+    - anomaly detection methods to identify differences have vulnerabilities in single-metric threshold structures that can capture one difference type
+      - a threshold identifies aggregated resources crossing that threshold, but does not identify aggregations across different thresholds to build similar functionality from multiple sources
+      - a combination structure of anomalies like an anomaly chain/network can escape detection using manipulation of multiple threshold-governed signals
+      - example: monitoring just file modifications in isolation without monitoring file content modifications
+
+    - malicious structures
+      - have structures of variation like similarity ratio that follow patterns compared to legitimate variation structures
+        - malicious structures will have structures of legitimacy (like a whitelist/blacklist) to mimic legitimate structures that have components to defend themselves against attack
+          - however these structures of legitimacy used to signal similarity wont be implemented in the same way as legitimate components
+          - legitimate components implement structures of legitimacy in ways like:
+            - applying default config bc of budget constraints
+            - not finishing configuration & making errors in configuration bc of budget constraints
+          - malicious components implement structures of legitimacy in ways like:
+            - applying config that is not enforced (has a whitelist file but doesnt import it anywhere)
+
+  - examine structures of randomness
+    - lack of information from:
+      - position (cant access information)
+      - adjacent information (cant derive information from adjacent information)
+      - time (information was not generated yet or its generation is disincentivized or theres no structure that can contain/stabilize it)
+
+  - identify 'relevance' mismatch structure in irrelevant components (interfaces like intent & structures like causal loop)
+    - example: 
+      - intent: when a default/required value is used, that may indicate the action was not intentional from the user position, and intent interface should not be used to capture variation in user changes
+      - cause: when two events are often/always found occurring in a sequence, that doesnt necessarily indicate a cause
+      - change: 
+        - a static prediction function or data set contradicts the concept of 'generalizability' or 'robustness' which have the concept of 'change' as a dependency
+      - meaning:
+        - an 'isolated' function/data set (that does not have access to other functions/data sets as sources for an inference function) contradicts an integrated analysis of structures of meaning and structures allowing derivation of understanding
+
+    - structures that dont match 'relevance' definition
+      - these irrelevant structures contradict some component of the definition of the component, like where the default/required assumption doesnt offer/require a choice, which is an input to intent
+    
+    - to do: 
+      - identify other important mismatches occurring in meaning/understanding and other fundamental attributes like similarity
+      - document optimal filter & other structures (sequences, combinations)
+        - filter sequences
+          - "all combinations, then possible, then similar, then position" = find "missing components"
+        - change type sequences
+          - input: 'switch priorities' applies function 'find perspective with validation as lower priority' to generate output: 'reduce validation checks'
+
+  - give examples of matching network structures & algorithmic traversal structures that are good at solving certain problem structures 
+
+    - example of problem structure matching network architecture/algorithm:
+      - function sets aggregated into a prediction function (one input set following one weight path through the network layers, representing one function set that could be the inputs to the prediction function), as a unit for comparing structures like combinations of function subsets/subcomponents/versions to fit the data
+        - initialize with weights at a probable distorted position (like average + some wave frequency A & magnitude B to capture variation), then adjust with iterated network layer weights on the weight path toward a good approximation of the prediction function
+
+    - problem structures
+      - bounce between limits representing function versions, slowly correcting to similar line as regression line
+      - bounce around a symmetry, finding distortion that matches data the best
+      - combine common sub-function components or variables, slowly adjusting with common distortions to get to prediction function
+      - find local points of slowing change (inflection points) given differences in change rates
+      - find variables maximizing difference in difficult to determine (high similarity) cases for identification
+      - aggregating isolated variables & other variable structures like generative/combination variables like nature does into a produced function
+    
+    - training an ai on these can match problem structure to solution architecture & algorithm structures
+      - the network algorithm structure represents the solution automation workflow from problem format to solution format, implemented with a specific interface query
+      - the network architecture structure represents the resources that can be traversed/combined (interfaces, definitions, functions, information, queries)
+
+  - give example of how to select query among good alternatives (without priorities or other requirements/constraints) to solve a problem structure optimally:
+    - applying structures of randomness, difference, and cause to generate structures of relevance
+    - patterns of function sequences filling in gap between structures with known positions in a system
+    - applying different problem formats
+    - identifying sub-problems best solved on different interfaces & starting from a solution aggregation method to connect them 
+
+  - give example tying solution automation workflows to specific queries & query metadata 
+    - tie specific queries (content) to solution automation workflows (structure) that generate or apply them optimally
+      - the solution automation workflows specifically connecting a problem to solution, and the queries connecting any interface objects
+
+  - apply information organization methods as solution aggregation methods
+    - solutions act as structures of organization/relevance in contrast to problem structures of randomness
+    - information organizes itself according to various metrics like energy-sharing (efficiency) & energy ratios/stability (balance)
+    - structures generating randomness can be used as a default data source for identifying problem causes
+    
+  - give example of how to identify a vertex interface like randomness out of all the interface structures like combinations & subsets
+    - definition: equal probability distribution across outcomes
+    - queries to identify the vertex interface as important/explanatory
+      - change assumption of core objects (interface)
+        - lack of a primary interface 
+          - lack of cause, having a structural similarity with the problem space (appearance of lack of organization in the form of cause)
+          - lack of the interface interface (relevance/organization)
+          - lack of structure (equal distribution having minimal structure)
+          - lack of information (randomness revealing minimal information)
+      - apply a core structural concept's (similarity) insight function ('like attracts like', or 'equivalence can cause other equivalence'): 
+        - equivalence of conflicting forces generating another type of equivalence (in outcomes)
+
+  - structural interface query example
+    - apply structures to structural components & operations to generate new solution object to format/organize/structure information for a given intent
+      - select structure (network, tree, sequence, position, path, combination, filter, value)
+      - select structural component (definition, base, variable, constant, coefficient, rate, change, type, function)
+      - select structural operation (build, apply/change, derive/connect, test, find, organize)
+    - example: 
+      - start from a network of bases, apply changes of types supported by that base to generate variable networks for each base, then test each variable network with intent to find most useful base & variable network to solve a problem structure like 'finding relevant variables quickly'
+
   - info shapes: if you become dependent on info, youre always looking backward, using metrics/rules/info sources chosen in the past, with past info
 
   - ethical Shapes

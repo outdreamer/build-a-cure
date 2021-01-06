@@ -1,5 +1,13 @@
 to do: organize into docs
 
+  - apply ddos against hackers by keeping them busy hacking decoy servers & fending off malware attacks to IPs that use the most security tools that arent associated with white hat communities
+
+    - apply patterns of hacker decisions
+      - examples:
+        - when to attack an exploit (when its posted to a particular dark web forum, when their brute force tools discover it, when an exploit is discussed on a white hat chat)
+        - when to mimic benevolent signals compared to time of discovery/attention of benevolent signals (how soon after hearing a suggestion of mimicking white hat hackers do they apply it)
+        - level of effort applied to benevolent signals (do they tend to complete standard/benevolent config/is it implemented better than average configurer)
+        
   - identifying entities with potential to replace other entities or fulfill dependencies of other entities is a way to predict future power players, as well as identifying powerful tools that are currently fulfilling dependency demand
 
   - after information problems are solved, the next big problem type is predicting new uncertainties (problem types) by identifying structures likely to attract/generate information, which is the problem of decrypting uncertainty before it achieves an information structure signaling a new difference type

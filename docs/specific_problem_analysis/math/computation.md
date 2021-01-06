@@ -1,5 +1,32 @@
 # Computing/distribution
 
+    - halting problem (given n rules, what is the maximum number of operations needed to solve a problem, like 'find the lowest integer having factors that fulfill a condition')
+
+      - finding structures of 
+          - recursion (operation sets that trigger themselves)
+          - equivalence (operation sets that equal operation sets)
+          - neutralization (operation sets that counteract effects of another operation set)
+          - efficiency (operation sets that minimize required operation sets)
+          - symmetry (operation sets that dont lose information)
+        that generate 
+         - repeating structures like cycles/waves
+         - combination structures of these structures that compound the repetition of rule network traversals
+        can help identify which rule sets will not halt (if the rule sets support a case that would encounter a barrier in the form of a neutralizing condition to prevent halting under any traversal)
+      
+      - some rule sets will never achieve information bc the change types they support cant produce it (information-neutral or lossy), implying structures of randomness will be supported by the rule network (equivalent probability of alternate paths)
+      - structures of neutralization: opposites, infinities, extreme high distances, extreme base differences (anything that negates the progress of a previous operation toward an answer)
+      - structures of recursion: (anything requiring more information to move toward output)
+      - structures of repetition: (anything requiring more operations)
+      - rule set distortions can be used to approximate busy beaver halt positions, given the positions of adjacent computations
+      - halt condition: a reason to stop checking for examples/counterexamples bc a sufficient one was found
+      - equivalent question: 
+        - does the rule set move faster than the information-neutralizing capacity of the example numbers involved (is there a force injecting so much distance between examples that it can outrun the rule set under any circumstances)
+      - related question: what combination of efficiency, randomness, symmetry, equivalence structures in a rule network can compute which information types minimally & maximally?
+      - math is standardized relationships, where a number is a relative position compared to other relative positions
+        - the patterns in changes of attributes across numbers can be computed
+          - example pattern: 'increment one integer, relatively nearer to next prime than previous integer, exponentially higher number of factors, occupies position in fibonacci sequence, sum of a standard series'
+          - where the steps in the pattern are changes to attributes, and the pattern steps can be used to predict value patterns, vertex numbers, as well as attribute dead zones/blind spots
+
     - store position on network map or map trajectory matching word, then switch maps every interval period - when password is sent, check position of password in map using rotated position-calculation function, then if its trajectory/position matches what is stored, that can be used as a password rather than storing the hash (similar to the concept of a hash but using maps/dicts to generate trajectories/networks of words)
       
       - for password 'abc123', the trajectory might be:

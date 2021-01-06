@@ -1,5 +1,18 @@
 - automation
 
+  - code generation example
+
+    - abstraction levels including:
+      - plain language translation: "for item in iterator, set val = item" => "for item in list, set val to item"
+      - low abstraction
+        - translate actual logic to one layer of abstraction (for item in list, set val to item => "get value from json data source")
+      - medium abstraction
+        - high-impact functions to examine (interacting with os, changing memory usage/buffer/queue interactions, etc)
+        - translate actual keywords (for loop/equals/if) to core logic keywords (find/assign/filter/check)
+      - high abstraction
+        - business/application intents in user terms (change "filter for loop by if attribute condition" to "find user in group with most recent updates")
+      - graphs for systems of interacting objects (queues, buffers, memory locations) on different layers (memory retention/caching/cleanup, location reliability, performance, data structures & other inputs)
+
   - manual code should only be used when there's an unsolved problem in a domain that doesnt respond to algorithmically determined solutions (when optimization of implementation is uncertain), otherwise algorithms should be selecting code
   
   - soon users will be able to select & add features to apps automatically, invalidating the app market

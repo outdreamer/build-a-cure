@@ -249,6 +249,31 @@
 
   - examples
 
+    - example algorithm output by system analysis
+      - find incentives of a system
+        - apply structural incentive definition (cost-minimization, profit-maximization) - meaning applying 'cost-minimization' to interaction objects, indicating structures in the:
+          - general interaction layer of 'input-minimization'
+          - granular interaction layer of 'work-minimization'
+          - interim interaction layer of 'feature minimization'
+          - emergent interaction layer of 'output/profit maximization' (in the form of maximizing remainder profit)
+        - find relationships in system
+        - find primary inputs (work, cost, movement) and outputs (rewards) in system
+        - find input-minimizing (cost-minimizing) points/routes in system (points/routes that minimize work)
+        - find concepts in system (remainder profit after required features are built)
+        - find interaction layer & objects in system (profit, work, features, contract)
+        - find strategy to allocate interaction objects (minimize features) in a way that achieves an input-minimizing point (minimize work) - meaning inputs of interaction objects
+          - filter strategies by those that minimize cost or maximize profit 
+            - identify sub-incentives of an incentivized strategy applied to interaction objects (sub-incentives of related objects like inputs)
+
+        - example: fixed-cost contract
+          - identify relationships
+            - increased number of features have a negative correlation with increased profit
+              - identify interaction object inputs: work is an input to features
+            - identify concepts & relationships: 'remainder profit' is maximized if work to fulfill required features is minimized
+          - identify incentivized (profit-maximizing or cost-minimizing) interaction object allocation method
+            - the primary incentive is to minimize features to just the required features
+              - sub-incentive to minimize work
+
     - example of system object 'alternate routes'
       - an alternate route is an important system object that can be used to reduce solution spaces for analyzing causation in a system
       - a definition can be more useful if framed in objects on a certain interface
