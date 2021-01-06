@@ -83,7 +83,9 @@
           - change points
             - variable/function/interface structure (set, direction, variation) change points
         - functions
-          - generative (subset/composing/limiting/distorting) functions
+          - randomnness functions
+            - randomness-organizing/adapting/handling/generating/reducing functions
+          - generative (conditional/subset/composing/limiting/distorting) functions
           - time-based (sequential/overlapping/temporary) functions
           - change functions (diverging, stabilizing, centralizing)
             - structure change functions (symmetry/phase/center/base/limit development functions)
