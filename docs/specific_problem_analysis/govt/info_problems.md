@@ -179,12 +179,12 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
               - example: "make $1 a month at this price given this customer size, $10 a month at this price, etc"
                 - https://www.wired.com/story/india-smartphones-cheap-data-giving-women-voice/
 
-      - info demand/price info market 
-        - customers can commit to need info of a certain type at interval x for n periods
+      - info request prediction market 
+        - customers can commit to need info of a certain type at interval x for n periods in exchange for reduced info price
           - example:
             - 'ill probably check the weather app every morning until farming season ends'
             - 'ill need to compare price info on these sites until I can pay off my loan'
-        - then info providers & internet service/data providers can coordinate to deliver info for these queries at scale & optimize for repeated info demand across users, as well as optimizing for request timing
+        - then info providers & internet service/data providers can coordinate to deliver info for these queries at scale & optimize for repeated info demand across users, as well as optimizing for request timing, and reduce cost of transmitting/updating data & running query for both providers & customers
 
       - security market
         - security is a limited product available only for certain transaction types (organizing against serious crimes), and all secure transaction info is published after a safety period to avoid retaliation once organized event is complete & irreversible
