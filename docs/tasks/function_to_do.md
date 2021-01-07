@@ -1,4 +1,10 @@
 # to do
+
+  - add to workflowss
+    - find an example & generalize
+    - find an example & counterexample & connect
+    - execute a problem-reduction function sequence
+    - identify vertex variables first & approximate
   
   - examine structures of trend convergence 
 
