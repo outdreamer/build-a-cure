@@ -1,13 +1,15 @@
 # to do
 
-  - add to insight paths & solution automation workflowss
+  - add to insight path & solution automation workflow indexes
     - find an example & generalize
       - find core/unit objects, find example using those objects, & generalize
     - find an example & counterexample & connect them
     - execute a problem-reduction function/structure/question sequence
+    - execute a solution-space reduction sequence before solving for remainder problem
+    - run query to find interacting interface structures, then apply solutions for that specific problem space's interface network
     - identify vertex variables first & approximate
     - identify problem types & corresponding solution aggregation method for that set of types
-    - identify alternative problems to solve (organize, re-use, derive, discover, combine solutions) & apply problem selection method, then solve
+    - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
 
   - examine structures of trend convergence 
 
