@@ -21,11 +21,17 @@
       - hacking targets (democracies, big consumer markets like traders/gamers)
 
     - structures
-    
+
       - cascading errors
         - AI is applied iteratively to tasks that people dont want to pay attention to bc they assume lack of relevant or changing variation, which may include monitoring AI errors or designing AI tests
 
       - interacting trend trajectories
+        - price manipulation for investments in systemic price reduction (ending resource inequalities necessitating competition for moats)
+        - markets for info, decisions, risks, intelligence, potential, problems
+        - competing prediction/computation tools: stats, system analysis, quantum tech, AI-optimized processing units
+        - AI as an error-correction tool for quantum tech
+        - checks & balances through competing evaluation tools: 
+          - science experiment automation, automated testing tools, AI, quantum computing, system analysis, stats
         - competing task runners: AI, robots, & gig workers
         - contact-reduction & independence tools like 3d printing
         - organization tools, encryption & dictator overthrow-planning/subversion, consensus-building, or dictator-manipulation
