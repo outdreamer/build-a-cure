@@ -1,11 +1,14 @@
 # to do
 
-  - add to workflowss
+  - add to insight paths & solution automation workflowss
     - find an example & generalize
-    - find an example & counterexample & connect
-    - execute a problem-reduction function sequence
+      - find core/unit objects, find example using those objects, & generalize
+    - find an example & counterexample & connect them
+    - execute a problem-reduction function/structure/question sequence
     - identify vertex variables first & approximate
-  
+    - identify problem types & corresponding solution aggregation method for that set of types
+    - identify alternative problems to solve (organize, re-use, derive, discover, combine solutions) & apply problem selection method, then solve
+
   - examine structures of trend convergence 
 
     - trends 
