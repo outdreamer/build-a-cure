@@ -19,6 +19,7 @@
       - delegation of high-cost/low-interest problems to AI
       - ending resource inequalities (tech, energy, internet)
       - hacking targets (democracies, big consumer markets like traders/gamers)
+      - labor trends of balance between priorities (organization/innovation/optimization/integration/cooperation/research)
 
     - structures
 
@@ -32,6 +33,7 @@
         - AI as an error-correction tool for quantum tech
         - checks & balances through competing evaluation tools: 
           - science experiment automation, automated testing tools, AI, quantum computing, system analysis, stats
+        - evaluation/info-derivation/prediction/computation tools as components of a system building understanding
         - competing task runners: AI, robots, & gig workers
         - contact-reduction & independence tools like 3d printing
         - organization tools, encryption & dictator overthrow-planning/subversion, consensus-building, or dictator-manipulation
