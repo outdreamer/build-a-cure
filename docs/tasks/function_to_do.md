@@ -3,10 +3,11 @@
   - examine structures of trend convergence 
 
     - trends 
-      - competitor/competition bans/taxing
+      
       - micro internet markets
       - micro/specific app favor markets
       - violent power transitions
+      - competitor/competition bans/taxing
       - currency/wi-fi competition & dictators as a source of stability
       - anti-democratic activity as a specific case of anti-trust activity
       - investment in job creation/antiquated tech subsidies
@@ -28,7 +29,7 @@
 
       - interacting trend trajectories
         - price manipulation for investments in systemic price reduction (ending resource inequalities necessitating competition for moats)
-        - markets for info, decisions, risks, intelligence, potential, problems
+        - markets for info, decisions, risks, intelligence, potential, justice, laws, independence, problems/solutions, customization, organization
         - competing prediction/computation tools: stats, system analysis, quantum tech, AI-optimized processing units
         - AI as an error-correction tool for quantum tech
         - checks & balances through competing evaluation tools: 
@@ -37,6 +38,8 @@
         - competing task runners: AI, robots, & gig workers
         - contact-reduction & independence tools like 3d printing
         - organization tools, encryption & dictator overthrow-planning/subversion, consensus-building, or dictator-manipulation
+        - organization of competition in a problem market, for important optimizations only
+        - market selection/optimization/automation
 
   - make interface query output diagram
 
