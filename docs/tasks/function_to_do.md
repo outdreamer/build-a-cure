@@ -1,22 +1,34 @@
 # to do
   
-  - examine trend convergence 
-    - competitor/competition bans/taxing
-    - micro internet markets
-    - micro/specific app favor markets
-    - violent power transitions
-    - currency/wi-fi competition & dictators as a source of stability
-    - anti-democratic activity as a specific case of anti-trust activity
-    - investment in job creation/antiquated tech subsidies
-    - customer product lock-in
-    - dependent product price-raising
-    - drug discovery automation
-    - all-service companies
-    - info derivation tools
-    - temporary/sequential info markets as a social mobility/equalizing tool
+  - examine structures of trend convergence 
 
-  - example of cascading error structure:
-    - AI is applied iteratively to tasks that people dont want to pay attention to bc they assume lack of relevant or changing variation, which may include monitoring AI errors or designing AI tests
+    - trends 
+      - competitor/competition bans/taxing
+      - micro internet markets
+      - micro/specific app favor markets
+      - violent power transitions
+      - currency/wi-fi competition & dictators as a source of stability
+      - anti-democratic activity as a specific case of anti-trust activity
+      - investment in job creation/antiquated tech subsidies
+      - customer product lock-in
+      - dependent product price-raising
+      - drug discovery automation
+      - all-service companies
+      - info derivation tools
+      - temporary/sequential info markets as a social mobility/equalizing tool
+      - delegation of high-cost/low-interest problems to AI
+      - ending resource inequalities (tech, energy, internet)
+      - hacking targets (democracies, big consumer markets like traders/gamers)
+
+    - structures
+    
+      - cascading errors
+        - AI is applied iteratively to tasks that people dont want to pay attention to bc they assume lack of relevant or changing variation, which may include monitoring AI errors or designing AI tests
+
+      - interacting trend trajectories
+        - competing task runners: AI, robots, & gig workers
+        - contact-reduction & independence tools like 3d printing
+        - organization tools, encryption & dictator overthrow-planning/subversion, consensus-building, or dictator-manipulation
 
   - make interface query output diagram
 
