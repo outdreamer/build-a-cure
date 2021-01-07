@@ -1,4 +1,22 @@
 # to do
+  
+  - examine trend convergence 
+    - competitor/competition bans/taxing
+    - micro internet markets
+    - micro/specific app favor markets
+    - violent power transitions
+    - currency/wi-fi competition & dictators as a source of stability
+    - anti-democratic activity as a specific case of anti-trust activity
+    - investment in job creation/antiquated tech subsidies
+    - customer product lock-in
+    - dependent product price-raising
+    - drug discovery automation
+    - all-service companies
+    - info derivation tools
+    - temporary/sequential info markets as a social mobility/equalizing tool
+
+  - example of cascading error structure:
+    - AI is applied iteratively to tasks that people dont want to pay attention to bc they assume lack of relevant or changing variation, which may include monitoring AI errors or designing AI tests
 
   - make interface query output diagram
 
