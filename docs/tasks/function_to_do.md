@@ -2,6 +2,11 @@
 
   - how to find variables in a problem statement
     - find isolatable change types
+      - if the problem is 'predict movement of object', this means:
+        - 'find change in possible orthogonal directions'
+    - iteratively filter out variables or variable structures like combinations that look like randomness to leave sets of variable sets
+      - find prediction function for variables with randomness excluded
+    - apply degree of randomness with randomness accretion patterns & interaction structures (like other objects on interaction layers) to prediction functions once variable dependencies are described, to generate prediction function set or prediction function with distortion vectors for possible ranges
 
   - change: find highest change problem variables in problem statement
     - structure: find combinations/subsets of variables
