@@ -1,3 +1,18 @@
+	standard_nns = ['cnn', 'mlp', 'gan', 'recurrent', 'ltsm']
+	ensemble = ['adaboost', 'boosting', 'bagging', 'xgb', 'gradient_boosted_decision_tree', 'gradient_boosting_machine', 'random_forest', 'stacked_generalization']
+	# unsupervised clustering with methods appropriate according to varying density measures
+	clustering = ['knn', 'kmeans', 'dbscan', 'expectation-maximization', 'hierarchical', 'random_forest']
+	# unsupervised
+	unsupervised = ['hierarchical_clustering', 'gan', 'kmeans', 'mixture', 'dbscan', 'local_outlier_factor', 'autoencoder', 'deep_belief', 'self_organizing_map', 'expectation-maximization', 'pca', 'ica', 'nmf', 'svd']
+	# supervised
+	supervised = ['svm', 'knn', 'regression', 'decision_tree', 'naive_bayes', 'lda', 'learning_vector_quant']
+	# dimensionality reduction
+	reductions = ['dirichlet', 'pca', 'lda', 'svd', 'tsne', 'ica', 'nmf', 'mds', 'autoencoder', 'self_organizing_map'] # multidimensional scaling, non-negative matrix factorization
+	regressions = ['linear', 'binary', 'mixed', 'nonparametric', 'nonlinear', 'polynomial', 'binomial', 'poisson', 'ordinal', 'logreg', 'gaussian_process', 'partial_least_squares', 'principal_components']
+	anomaly = ['autoencoder', 'variational_autoencoders', 'local_outlier_factor', 'lstm', 'bayesian', 'hidden_markov', 'cluster_analysis_outlier_detection', 'knn', 'one-class svm', 'bagging', 'score_normalization']	
+	# hierarchical_linear_models = ['random_effects'] # kernel_functions = ['radial_basis_function'] # function_approximation = ['radial_basis_function']
+	
+
 		'''
 		- lasso
 			- params: alpha=1.0, *, fit_intercept=True, normalize=False, precompute=False, copy_X=True, max_iter=1000, tol=0.0001, warm_start=False, positive=False, random_state=None, selection='cyclic'
