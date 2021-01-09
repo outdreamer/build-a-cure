@@ -1,5 +1,8 @@
 # to do
 
+  - identify economic cycles not integrated enough with other economic structures so as to be considered essential
+    - debts to entities who dont provide essential inputs or inputs further up the chain with x degree of distance from essential resource suppliers
+
   - add to insight path & solution automation workflow indexes
     - find an example & generalize
       - find core/unit objects, find example using those objects, & generalize
