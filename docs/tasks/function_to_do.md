@@ -3,25 +3,50 @@
   - how to find variables in a problem statement
     - find isolatable change types
 
-  - change: find highest change variables in problem statement
+  - change: find highest change problem variables in problem statement
     - structure: find combinations/subsets of variables
     - cause: find dependency structure of variable subsets
       - function: find input/output sequences of variable subsets
       - structure: filter the sequences by whichever sequences link the source/target structure
         - problem: solve sub-problems of organizing variable subsets
         - structure: aggregate sub-problem solutions
-        
+
     - example:
-      - predict probability of event A given event B & some parameter/condition C
-        - sub-problems
-          - identify problem metadata (probability distribution, variables & values) in problem statement
-            - identify missing info (specific problem to solve, like 'find the missing info that is a probability of a specific event')
-          - identify alternate interpretations of problem
-            - filter alternate interpretations (to likeliest or the interpretation with no contradictions)
-              - match variables & values in problem with parameters of the probability distribution or relevant functions
-                - filter functions to functions with output type 'probability'
-                  - filter functions to functions with specific output probability matching missing info
-                    - apply variable values to relevant functions to generate missing info (specific output probability)
+
+      - change: find highest change problem variables in problem statement
+          - which probability distribution it is
+          - variable values given
+          - whether alternate probability distributions can be ruled out using constraints/assumptions/parameters/change types & other info of problem
+          - sub-problems
+          - sub-problem structure (organizing the sub-problems)
+
+        - structure: find subsets of variables
+          - example problem variable subsets:
+            - missing info + variables values given + sub-problems
+            - probability distribution + variable values given + other problems or problem patterns
+
+        - cause: find dependency structure of variable subsets
+            - missing info + variables values given + sub-problems
+              - with the missing info & variable values given, you may be able to infer the probability distribution (though not always if the problem statement is ambiguous) and derive the sub-problems to solve
+            - probability distribution + variable values given + other problems or problem patterns
+              - from the probability distribution & variable values given & other problems, you may be able to infer what the missing info is given questions usually asked with that distribution
+
+          - function: find input/output sequence of variable subsets
+
+          - structure: filter the sequences by whichever sequences link the source/target structure (variable values, probability distribution & missing info, 'probability of event')
+
+            - problem: 'predict probability of event A given event B & some parameter/condition C'
+              - sub-problems
+                - identify problem metadata (probability distribution, variables & values) in problem statement
+                  - identify missing info (specific problem to solve, like 'find the missing info that is a probability of a specific event')
+                - identify alternate interpretations of problem
+                  - filter alternate interpretations (to likeliest or the interpretation with no contradictions)
+                    - match variables & values in problem with parameters of the probability distribution or relevant functions
+                      - filter functions to functions with output type 'probability'
+                        - filter functions to functions with specific output probability matching missing info
+              - aggregate sub-problem solutions
+                - missing info:
+                  - apply variable values to relevant functions to generate missing info (specific output probability)
 
   - identify economic cycles not integrated enough with other economic structures so as to be considered essential
     - debts to entities who dont provide essential inputs or inputs further up the chain with x degree of distance from essential resource suppliers
