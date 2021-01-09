@@ -1,5 +1,13 @@
 # to do
 
+  - how to find variables in a problem statement
+    - find isolatable change types
+
+  - find highest change variables in problem statement
+    - find combinations of variables
+    - find input/output sequence of variable combinations
+    - filter the sequences by whichever sequences link the source/target structure
+
   - identify economic cycles not integrated enough with other economic structures so as to be considered essential
     - debts to entities who dont provide essential inputs or inputs further up the chain with x degree of distance from essential resource suppliers
 
