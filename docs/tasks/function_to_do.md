@@ -2,11 +2,27 @@
 
   - how to find variables in a problem statement
     - find isolatable change types
-      - if the problem is 'predict movement of object', this means:
-        - 'find change in possible orthogonal directions'
-    - iteratively filter out variables or variable structures like combinations that look like randomness to leave sets of variable sets
-      - find prediction function for variables with randomness excluded
-    - apply degree of randomness with randomness accretion patterns & interaction structures (like other objects on interaction layers) to prediction functions once variable dependencies are described, to generate prediction function set or prediction function with distortion vectors for possible ranges
+      - if the problem is 'predict movement of object', this means: 'find change in possible orthogonal directions'
+        - filter out redundant variables (like if variable A/B + randomness constant can be replaced with variable C + another randomness constant)
+        - filter out variables or variable structures like combinations that look like randomness to leave sets of variable/s
+          - find prediction function for variables with randomness excluded
+          - apply degree of randomness with randomness accretion patterns & interaction structures (like other objects on interaction layers) to prediction functions once variable dependencies are described, to generate prediction function set or prediction function with distortion vectors for possible ranges, then test on data 
+    - variable sets that cant be ruled out can be considered sub-problems to solve ('rule out this variable set') in addition to the original problem of 'finding a prediction function'
+
+    - 'find prediction function' interface query
+      - find solution filters
+        - find range of error allowed for solution
+      - convert to problem interface
+        - predict missing info 'future state of variables' with input 'past information'
+        - standardize to structural interface
+          - find vertex concepts
+            - 'find prediction function' using past information involves:
+              - risk structures like: possibility that an unknown structure is causative
+              - randomness structures like: possibility that known structures will be distorted by randomness
+              - change structures like: possibility that known structures will change & info needs to be found/derived to update variables
+            - combine risk structures, randomness structures, & change structures
+              - filter which combinations match data
+                - filter which combinations match data within range required by solution filter
 
   - change: find highest change problem variables in problem statement
     - structure: find combinations/subsets of variables
