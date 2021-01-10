@@ -9,7 +9,7 @@
           - apply degree of randomness with randomness accretion patterns & interaction structures (like other objects on interaction layers) to prediction functions once variable dependencies are described, to generate prediction function set or prediction function with distortion vectors for possible ranges, then test on data 
     - variable sets that cant be ruled out can be considered sub-problems to solve ('rule out this variable set') in addition to the original problem of 'finding a prediction function'
 
-    - 'find prediction function' interface query
+    - concept-structure 'find prediction function' interface query
       - find solution filters
         - find range of error allowed for solution
       - convert to problem interface
@@ -24,15 +24,17 @@
               - filter which combinations match data
                 - filter which combinations match data within range required by solution filter
 
-  - change: find highest change problem variables in problem statement
-    - structure: find combinations/subsets of variables
-    - cause: find dependency structure of variable subsets
-      - function: find input/output sequences of variable subsets
-      - structure: filter the sequences by whichever sequences link the source/target structure
-        - problem: solve sub-problems of organizing variable subsets
-        - structure: aggregate sub-problem solutions
+  - general interface query example for 'find prediction function'
 
-    - example:
+    - change: find highest change problem variables in problem statement
+      - structure: find combinations/subsets of variables
+      - cause: find dependency structure of variable subsets
+        - function: find input/output sequences of variable subsets
+        - structure: filter the sequences by whichever sequences link the source/target structure
+          - problem: solve sub-problems of organizing variable subsets
+          - structure: aggregate sub-problem solutions
+
+  - specific interface query example for 'find prediction function'
 
       - change: find highest change problem variables in problem statement
           - which probability distribution it is
