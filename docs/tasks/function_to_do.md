@@ -1,5 +1,10 @@
 # to do
 
+  - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
+    - missing info problem: the solution format is the complete structure
+    - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
+    - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
+
   - how to find variables in a problem statement
     - find isolatable change types
       - if the problem is 'predict movement of object', this means: 'find change in possible orthogonal directions'
