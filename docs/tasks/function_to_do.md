@@ -1,9 +1,23 @@
 # to do
 
   - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
-    - missing info problem: the solution format is the complete structure
-    - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
-    - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
+    - filling problem
+      - missing info problem: the solution format is the complete structure
+      - optimization problem: the solution format is the variables/system organized to comply with/fulfill the metric to optimize 
+    - limit problem
+      - constraint problem: the solution format is the removal/invalidation of that constraint
+    - reduction problem
+      - complexity reduction problem: the solution format is the set of variables that reduces complexity of the problem
+      - randomness reduction problem:
+      - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
+    - organization/mapping problem: the solution format is the set of relevant components in the right structure (positioning & connecting them)
+      - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
+      - balancing problem: the solution format is the distribution of resources nearest to a balanced state (subset of matching problem, by matching distribution across positions)
+    - finding problem
+      - discovery (insight-finding) problem: the solution format is the set of generative/distortion/core functions or the set of filters to find the insight
+      - route-finding problem: the solution format is the route between two points that doesnt contradict any solution constraints and/or optimizes a solution metric
+
+  - problem objects: solution constraints/metrics, problem space variables, available functions, useful formats/structures
 
   - how to find variables in a problem statement
     - find isolatable change types
