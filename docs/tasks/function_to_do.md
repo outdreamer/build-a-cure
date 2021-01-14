@@ -11,8 +11,11 @@
         - tree of solution automation workflows
 
           - 'find composing functions of set of functions with prediction accuracy range within x'
-          - 'find definitions & apply (finding matching structures), then integrate'
+          - 'find relevant component definitions & apply (finding matching structures), then integrate'
           - 'break into sub-problems & integrate sub-solutions'
+
+        - merged solution automation workflow tree
+          - 'find relevant component definitions & apply (finding matching structures), then integrate into a connecting structure, then find sub-problems of connecting structure (network of functions connecting nodes) and solve sub-problems, then integrate sub-solutions in original connecting structure'
 
     - apply solution automation workflow 'break into sub-problems & integrate sub-solutions'
 
@@ -71,7 +74,7 @@
         - optional: select between component structure alternatives (different valid definitions that dont contradict solution metrics or solution intent)
         - optional: find function to filter data
           - find specific structures to integrate sub-solutions
-              - filter outliers beyond range
+            - filter outliers beyond range
         - find function to calculate distance (between line & a data point)
         - find function to iterate data points (consecutively, most similar/average first, etc)
         - find function to aggregate area (calculate total difference between line & data points)
@@ -102,19 +105,19 @@
       
       10. change integrating/sub-solution structure to match additional solution structures (metrics)
       
-            - find solution variables/structures
-              - base line
-              - connecting lines
-              - most different/similar subsets of data
-              - most explanatory variables
-              - spaces where variables can be depicted in fewer dimensions
-              - standardizing variable structures (variable sets that change within a range x on parameters a, b)
+        - find solution variables/structures
+          - base line
+          - connecting lines
+          - most different/similar subsets of data
+          - most explanatory variables
+          - spaces where variables can be depicted in fewer dimensions
+          - standardizing variable structures (variable sets that change within a range x on parameters a, b)
 
-            - generate specific tree of alternative solutions
-              - use average line as a base line
-              - start with lines that connect most average or most different values & integrate
+        - generate specific tree of alternative solutions
+          - use average line as a base line
+          - start with lines that connect most average or most different values & integrate
 
-            - apply changes to check if additional solution metrics are fulfilled
+        - apply changes to check if additional solution metrics are fulfilled
 
       11. integrate change sets to match the most solution structures
 
