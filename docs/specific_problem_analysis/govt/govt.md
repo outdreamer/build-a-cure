@@ -1,13 +1,247 @@
-to do: organize into docs
+## Optimization
 
-  - apply ddos against hackers by keeping them busy hacking decoy servers & fending off malware attacks to IPs that use the most security tools that arent associated with white hat communities
+  - predictions as a path optimization problem, where nodes are variables
 
-    - apply patterns of hacker decisions
-      - examples:
-        - when to attack an exploit (when its posted to a particular dark web forum, when their brute force tools discover it, when an exploit is discussed on a white hat chat)
-        - when to mimic benevolent signals compared to time of discovery/attention of benevolent signals (how soon after hearing a suggestion of mimicking white hat hackers do they apply it)
-        - level of effort applied to benevolent signals (do they tend to complete standard/benevolent config/is it implemented better than average configurer)
+  - Determining which queries/calculations are optimal
+
+    - given that certain calculations have known cost estimates, which calculations are optimal, in what order/frequency, and given what information?
+    - example: when deriving a prediction function, when do you query for function & function generator patterns, when do you request more data, when do you continue assessing regression, when do you apply standardization?
+    - is it optimal to solve this problem set or another problem set, or deploy resources to both?
+    - solution distribution: should this solution be deployed at run time, in a specific system, should the solution be stored as its generator function, etc
+
+
+## Position trades (Navigation model)
+
+    - predict variance sources & ratios:
+      - type/shape/movement/interaction interface variance sources:
+        - is an object that moves in restricted directions likely to be sentient life (delivery robot)
+        - can sentient life move in restricted directions (drug addict, multi-tasking, drunk)
+        - can interactions predict movement types (waving across street, looking at phone, predicting drivers' moves, checking street for cars/behind car before crossing/backing up)
+        - are objects of a certain shape or size associated with different movement types (small objects are faster, larger objects have more obvious momentum physics, smaller objects likelier to be capable of flight)
+      - assumption/hypothesis interface variance sources
+        - are assumptions of a certain variance level given a certain minimum information associated with prediction accuracy
+        - are multiple contradictory starting hypothesis associated with higher prediction accuracy, if so, with what degree of variance between hypotheses?
+
+
+## Work trades
+
+  - work distribution & incentivization
+
+    - system users should always be system builders, so their incentives don't crystallize into an irreversibly static state
+    - users should be builders by the end of each game
+    - the questions of each problem space can be mapped to user tasks within a game, defined by a set of rules creating similar questions answerable in the game
+    - when builders have taught enough users, builders should move on to being users of another game, in an alternating cycle
+    https://twitter.com/remixerator/status/1217718371816329217
+
+
+## Risk trades
+  
+  - security
+
+    - one-time use stack (network, os, app) in extension of one-time password
+
+      - when ISP tech is distributed (network drones/satellites), you can also switch network providers for each message, in an agreed-on stack-switching pattern determined at start of conversation, using agreed-on pattern decompression algorithm
+
+  - election security
+
+    - apply your other solution to election security:
+
+      - given a range of expected votes in a category, how much does final result deviate from expected votes
+
+        - if an attribute like intelligence is associated with a particular vote, and outcome count deviates from known attribute count to this degree, what set of ratios of deviation can be attributed to noise and what percentage to interference/fraud?
+
+        - what is the path between the determining attribute (intelligence) & the output concept (interference/fraud)?
+            - is lack of intelligence a few transforms away from the output concept
+              - meaning, if stupidity is associated with voting for the x party, is interference actual fraud given that its still indicating the expected stupidity rates in population?
+              - or if stupidity is associated with voting for the x party, is the result inevitable, regardless of how it's achieved (they wouldve voted the same way as the fraudster tricked them into voting or artificially chose their vote with data manipulation)
+
+  - crypto
+
+    - use predictive tools to predict transactions & calculate them in advance to speed up tx
+
+      - this would assess people's known resources to build an index of global demand/supply, then calculating through these resource distributions, economic incentives for trades, social networks, platform dominance, & product availability & findability (search results rankings) - which tx were likely to happen where for which products, then calculate those tx in advance
+
+
+## Info trades (Learning models)
+
+    - learning models:
+
+      - brain learns through various reward models:
+      - short term rewards: storing useful information
+      - long term rewards: storing useful functions
+      - adaptive/reusable rewards: storing functions by relevance or abstraction
+      - on-demand rewards: storing function-generating methods/interfaces
+      - reward potential-maximization: storing derivation method core functions
+
+      - not only does ML have the potential to derive combinations like type paths & insight paths, it can derive other system/interface metadata such as core functions:
+        - example:
+          https://techxplore.com/news/2020-01-alphafold-protein.html
+
+      - you don't have to rely on disorder to detect order if you have an ordered way of generating disorder patterns
+
+        https://techxplore.com/news/2020-01-brain-like-network-disorder.html
+
+    - web info trades:
+
+      - tokenizing common content/content-generation functions on clients & in communications
+      - calculating computable sub-components & delegating computation to nodes on network trajectory
+        - this means if executing a process on content isnt efficient on the source system, calculate network trajectory to route communication toward servers that are better for that computation & start sending content unprocessed and process it on those servers
+        - if you had a communication protocol that supported common content tokens, sending content to servers that are better at converting content to tokenized form would be better than a random or non-optimized server
+        - sending converted tokenized content & the id of the tokenization map on different routes adds some interim security
+      - using neutrinos as a way to speed up communication using them as jumping-off/charging points
+
+
+## Rule trades
+
+  - protocol recommendations
+  
+    - auto-update crypto keys/algorithms to use constants that are always guaranteed to be below x% risk that they'll be hacked given common computational resources.
+  
+# investment analysis
+
+  - to do:
+
+    - gather & assign cost data
+
+  - priorities
+    - the goal of each market is to invalidate the market, rather than to maintain dependence of consumers on suppliers
+    - if there is a market that can benefit agents with artificial market maintenance (maintaining a closed trade loop if agents are optimizing their position within the loop), the goal is to maintain the market until those efficiencies are erased
+
+  - concepts
+
+    - information
+
+      - information is a tool that can create, stimulate or invalidate markets, as well as the idea of demand
+        - an agent with perfect information or perfect derivation tools has control over markets, but may not have a reason to trade given their position
+        - false or incomplete information can also act on markets, in the form of sales/marketing, staggered innovation, investment incentivization, etc
+
+    - permanence
+
+    - resource trajectory 
+
+      - whats the potential of a given resource
+        - what is its interaction space with possible actions & resource combinations with system contexts like tech & demand
+
+    - independence
+      - independence invalidates markets and should be distributed in markets that are providing basic rights (health)
+
+    - value (creation & storage)
+      - forms of value creation include innovation, efficiencies, opportunities
+      - value storage takes the form of proof of prior work, potential/promised future work, currency, & relative resource distribution
+
+    - trade structures
+
+      - what side effects of existing trades are there
+        - lack of resource distribution
+        - lack of efficiency creation
+        - lack of permanent or useful value creation
+
+      - what trade structure combinations are optimal to invalidate a given market
+        - what combination of trade loops, markets, & incentives can invalidate a market the fastest
+
+      - market structures:
+        - trade loops: independent sets of agents & positions
+        - inefficiency collisions
+        - price imbalances
+          - value assessments respond to incentives, rather than calculations of optimal paths/metrics
+        - product/test imbalances (product quality isnt currently measurable without using it)
+        - incentive imbalances
+          - agencies without regulation are trusted to enforce regulation, indirect donations from suppliers arent prohibited to regulatory agencies, regulation/testing isnt automated allowing room for incentive injection
+          - high-risk products or contexts arent optimized (non-addictive drugs, market maintenance or problem allocation isnt automated or enforced)
+        - promise trades
+          - promises to not produce unnecessary products, while necessary products are still sub-optimal
+
+    - market for markets (including market objects like demand, trades, cash flow, currency, etc)
+
+  - attributes
+
+    - coordination
+    - robustness (permanent price reduction or independence generated)
+    
+  - functions
+
+    - market functions
+      - stimulate demand/supply
+      - incentivize
+      - regulate
+      - substitute product or product components
+
+    - purchase resource
+
+      - info 
+        - prediction/promise/risk/condition
+
+        - value generator/store/destroyer
+          - currency as a value store works because it provides a standard interface to trade on, which is a similar position as language in an info market (which most products can be standardized to)
+
+        - government product like subsidy, law, agency, vote, tax
+
+      - product
+        - input/interim/end product
+
+    - create resource (market, function, product)
+
+    - standardize resource
+
+      - what happens when you translate a product into an information product?
+
+        - translate a product like 'laundry detergent' into a set of info products, like:
+          - the tests to run to check product quality
+          - the chemical formula & synthesis method of inputs
+          - the place to buy inputs & in what quantities & with what quality tests (including machines to synthesize it)
+          
+        - the product is now a program (buy inputs, run synthesis instructions, test output, apply product in context where it's demanded)
+
+        - it can also be allocated differently on a system level (calculate which context this product would be demanded in & likelihood of those products, then allocate resources to make the product when a trajectory toward those contexts is measured)
+
+        - the algorithm to identify these demand contexts can also calculate instructions to avoid those contexts (to avoid needing laundry detergent, follow these instructions or buy these products) based on system metrics like energy use
+
+        - ultimately the question is not 'how to allocate products according to consumer need' but:
+          - 'how to allocate calculations to fulfill system (community) needs'
+
+        - after you translate it to other questions like:
+          - 'how to standardize product to information interface'
+            - which sets of instructions generate this product or its alternatives or invalidators, with which metrics
+
+          - 'how to allocate product inputs according to demand patterns'
+            - how to minimize supplier-to-consumer difference to generate independence & reduce demand for market trades
+
+          - 'how to design infrastructure around an allocation algorithm that can change its input parameters like interfaces & metrics'
+            - given supply pipeline fragility & chemical-generating technology, which interfaces should this algorithm standardize information to & what infrastructure supports the range of possible calculations
+
+          - 'how to allocate investment in algorithms based on resource state' 
+            - given tech to create chemicals from air, what calculations are optimal & which instruction-generating algorithms should be run
         
+      - when you standardize products to the information interface, you can more clearly calculate which algorithms to invest in & optimize (allocation algorithms, instruction optimization algorithms, supply chain optimization algorithms, calculation algorithms, metric-identifying algorithms, system fitting algorithms, etc)
+
+  - example alternative combinations
+
+    - the reasons to choose between these vary but the more coordinated investment & labor there is, the more valuable certain options become. 
+
+    - example: if one person buys infrastructure & another person buys innovation to invalidate that infrastructure, theres a future collision creating a market for updating the infrastructure. But if they coordinate their investments, they can organize resources to achieve an interim infrastructure state trajectory that will enable compatibility with innovated infrastructure & innovation investment.
+
+    - strategy: 'buying adjacent independence-generating products'
+      - investment: purchase vaccines, laptops, & clean water generator
+
+    - strategy: 'building distant independence-generating products'
+      - implementation: building machines to generate independence-generating products
+
+    - strategy: 'buy infrastructure'
+      - implementation: make transportation/energy/wifi costs lower so people have increased access to existing resources
+      - investment: subsidized public transporation or energy format or public wifi
+
+    - strategy: 'reduce cost of independence-generating products or their inputs'
+      - implementation: invest in making computer parts cheaper, optimizing supply pipelines, automating health research, or educating people about derivation tools so they can do it themselves
+
+    - strategy: 'distribute information across economy with optimization algorithms'
+      - implementation: tell people what skills they should acquire to get a locally valuable position, tell businesses the best local suppliers & customers to transact with
+
+    - strategy: 'organize labor across economy with optimization algorithms'
+      - implementation: organize markets & labor to reduce work or increase market trades across all positions
+
+    - strategy: 'combine strategies, in their optimal strategy network positions'
+      - implementation: allocate competition/coordination (to resolve questions of property rights or optimal implementations), risk (problems), bets (investments), promises (insurance, contracts), value (secret vs. shared formulas/insights), interfaces (currency, ratings), markets, information & investments in their optimal positions (markets to re-allocate resources, competition to optimize, information to create markets, etc)
+
   - identifying entities with potential to replace other entities or fulfill dependencies of other entities is a way to predict future power players, as well as identifying powerful tools that are currently fulfilling dependency demand
 
   - after information problems are solved, the next big problem type is predicting new uncertainties (problem types) by identifying structures likely to attract/generate information, which is the problem of decrypting uncertainty before it achieves an information structure signaling a new difference type

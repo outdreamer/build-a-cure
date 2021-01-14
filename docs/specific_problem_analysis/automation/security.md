@@ -1,5 +1,13 @@
 - security methods
 
+    - apply ddos against hackers by keeping them busy hacking decoy servers & fending off malware attacks to IPs that use the most security tools that arent associated with white hat communities
+
+      - apply patterns of hacker decisions
+        - examples:
+          - when to attack an exploit (when its posted to a particular dark web forum, when their brute force tools discover it, when an exploit is discussed on a white hat chat)
+          - when to mimic benevolent signals compared to time of discovery/attention of benevolent signals (how soon after hearing a suggestion of mimicking white hat hackers do they apply it)
+          - level of effort applied to benevolent signals (do they tend to complete standard/benevolent config/is it implemented better than average configurer)
+          
     - create https temp server/cert for request sessions on sites that arent https already, after filtering content for immediate malware/attacks on temp server
 
       - invariant vs. symmetry
