@@ -1,0 +1,133 @@
+  - start with standardized problem definition
+
+    - apply structure to problem
+
+    - find/generate/build relevant solution automation workflows
+
+      - generate a structure of relevant solution automation workflows to execute
+
+        - tree of solution automation workflows
+
+          1. 'find composing functions of set of functions with input-output prediction accuracy range within x'
+          2. 'find relevant component definitions & apply (finding matching structures), then integrate'
+          3. 'break into sub-problems & integrate sub-solutions'
+
+        - merged solution automation workflow tree (workflows 2 & 3)
+
+          - find relevant component definitions
+            - apply component definitions (finding matching structures in problem)
+            - then integrate applied component definitions into a component connecting structure
+              - then find sub-problems of the connecting structure (network of functions connecting nodes)
+              - solve sub-problems
+              - then integrate sub-solutions in original connecting structure
+
+    - apply merged solution automation workflow
+
+      - identify sub-problems of problem structure
+        - method to find sub-problems of solution automation workflow
+          1. find/build/derive structure of components (objects)
+            2. apply structure of components
+          3. find/build/derive structure to integrate components
+            4. apply structure to integrate components
+          5. find/build/derive sub-problems of component structures
+
+      - identify integration method of sub-solutions
+        - integration method of solution automation workflow
+          6. find/build/derive structure to integrate sub-solutions
+            7. apply structure to integrate sub-solutions
+          8. find/build/derive solution structures (filter, combination, reduction, connection) to optimize integrating/sub-solution structures
+            9. apply solution structures to integrating/sub-solution structures
+              10. change integrating/sub-solution structure to match additional solution structures
+          11. integrate change sets to match the most solution structures
+
+
+  - apply merged solution automation workflow, with find operation (use find instead of build/derive where possible) to problem
+  
+    - problem: 'find a prediction/regression function/line'
+
+      - sub-problems:
+
+        1. find/derive/build structure (definition) of components (regression)
+          - 'find line minimizing distance from data'
+          - apply structure (definition) of component (regression)
+            - find specific structure of component
+              - 'find line minimizing perpendicular distance between line & data for all points'
+
+        2. apply structure (definition) of components (regression) 
+          - apply component input (data) to component
+            - sub-problems:
+              A. find component definitions
+                - sub-problems: 
+                  I. find definition of distance (and applicability to other comparisons like adjacence of data points)
+                    - 'area of perpendicular line as height with parallel distance to adjacent data points as width'
+                  II. find definition of data (and related objects like data points)
+                    - 'sets of variable value sets'
+              B. apply component definitions
+                - sub-problems:
+                  I. find structures matching component definition  (intent: check that definitions match inputs, as a proxy for relevance)
+                    - distance structures: area, line, height, width, parallel, perpendicular, adjacent, data, points
+                    - data set structures: data point, variables, values, variable value sets
+
+        3. find/build/derive structure to integrate components
+          - find structure to connect distance & data set structures, according to definitions
+            - 'find a line whose perpendicular height to data point & parallel distance between adjacent data points form an area that is minimized across data points in the sets of variable value sets'
+        
+        4. apply structure to integrate components
+          - apply function structure to connect components
+            - find specific functions to fulfill the component integration structure found in 3 (match the component integration structure & its specific application with the solution structure)
+              - 'for each data point, calculate area between point & line, aggregating area at each iteration, then check for structure change to minimize aggregate area'
+        
+        5. find/build/derive sub-problems of component structures
+          - optional: 
+            - select between component structure alternatives (different valid definitions that dont contradict solution metrics or solution intent)
+            - find function to filter data
+              - find specific structures to integrate sub-solutions
+                - filter outliers beyond range
+          - find function to calculate distance (between line & a data point)
+          - find function to iterate data points (consecutively, most similar/average first, etc)
+          - find function to aggregate area (calculate total difference between line & data points)
+          - find function to minimize aggregate area (function to add/change params of regression line function)
+
+        6. find/build/derive structure to integrate sub-solutions
+          - apply('function to minimize aggregate area', apply('function to aggregate area, apply('find function to calculate distance', apply('function to iterate data points', data points))))
+
+        7. apply structure to integrate sub-solutions
+          - execute the above function structure with injected calls to apply()    
+            - apply() executes logic: 
+              - find structure using param1 on param2      
+        
+        8. find/build/derive solution structures (solution metrics, in the form of a filter, combination, reduction, connection) to optimize integrating/sub-solution structures
+          - find solution metric for prediction function
+            - 'prediction function has high input-output connecting accuracy rate'
+            - 'prediction function uses fewest possible variables'
+            - 'prediction function can maintain an accuracy rate x with data change range y'
+
+        9. apply solution structures (metrics) to integrating/sub-solution structures
+
+          - apply solution metric for prediction function
+            - change variables & structures in data set with a change range to use as a test for prediction function
+              - find variables in data set (different change types)
+              - find structures in data set (causal structures, dependency structures, alternative structures, independent structures, random structures, info structures like variable sets)
+              - change variables/structures in data set according to change range x
+              - test prediction function on changed data sets
+        
+        10. change integrating/sub-solution structure to match additional solution structures (metrics)
+        
+          - find solution variables/structures
+            - base line
+            - connecting lines
+            - most different/similar subsets of data
+            - most explanatory variables
+            - spaces where variables can be depicted in fewer dimensions
+            - standardizing variable structures (variable sets that change within a range x on parameters a, b)
+
+          - generate specific tree of alternative solutions
+            - use average line as a base line
+            - start with lines that connect most average or most different values & integrate
+
+          - apply changes to check if additional solution metrics are fulfilled
+
+        11. integrate change sets to match the most solution structures
+
+          - find change set of solution variables/structures that produces highest count or highest-prioritized count of solution metrics fulfilled
+          - merge change sets to generate combination change sets & re-test to find higher counts of solution metrics fulfilled
