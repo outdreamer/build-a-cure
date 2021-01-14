@@ -9,9 +9,10 @@
       - generate a structure of relevant solution automation workflows to execute
 
         - tree of solution automation workflows
-          - find composing functions of set of functions with prediction accuracy range within x
-          - find definitions & apply (finding matching structures), then integrate
-          - break into sub-problems & integrate sub-solutions
+
+          - 'find composing functions of set of functions with prediction accuracy range within x'
+          - 'find definitions & apply (finding matching structures), then integrate'
+          - 'break into sub-problems & integrate sub-solutions'
 
     - apply solution automation workflow 'break into sub-problems & integrate sub-solutions'
 
@@ -86,7 +87,9 @@
       
       8. find/build/derive solution structures (solution metrics, in the form of a filter, combination, reduction, connection) to optimize integrating/sub-solution structures
         - find solution metric for prediction function
-          - 'regression line has high input-output accuracy rate'
+          - 'prediction function has high input-output connecting accuracy rate'
+          - 'prediction function uses fewest possible variables'
+          - 'prediction function can maintain an accuracy rate x with data change range y'
 
       9. apply solution structures (metrics) to integrating/sub-solution structures
 
@@ -103,6 +106,9 @@
               - base line
               - connecting lines
               - most different/similar subsets of data
+              - most explanatory variables
+              - spaces where variables can be depicted in fewer dimensions
+              - standardizing variable structures (variable sets that change within a range x on parameters a, b)
 
             - generate specific tree of alternative solutions
               - use average line as a base line
