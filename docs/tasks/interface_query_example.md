@@ -31,10 +31,10 @@
 
           - find relevant component definitions
             - apply component definitions (finding matching structures in problem)
-            - then integrate applied component definitions into a component connecting structure
-              - then find sub-problems of the connecting structure (network of functions connecting nodes)
+            - integrate applied component definitions into a component connecting structure
+              - find sub-problems of the connecting structure (network of unsolved functions connecting nodes)
               - solve sub-problems
-              - then integrate sub-solutions in original connecting structure
+              - integrate sub-solutions in original connecting structure (network of solved functions connecting nodes)
 
     - apply merged solution automation workflow
 

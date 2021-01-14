@@ -1,5 +1,9 @@
 # to do
 
+  - make diagram 
+  
+  - list interface selection (based on inputs like available APIs/data sets/definitions)
+
   - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
     - filling problem
       - missing info problem: the solution format is the complete structure
