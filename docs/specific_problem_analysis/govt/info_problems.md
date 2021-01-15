@@ -142,6 +142,7 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
   - market optimization/organization
 
     - contract term validation (similar to currency wallet validation to verify that funds exist) to confirm that an agent can fulfill a contract terms before the deal is closed
+      - similar to automated product testing tools to identify attributes & test for them, automated contract testing tools would evaluate the ability of an agent's resources to adjacently fulfill an intent (a contract term), adjacently meaning 'with work that can be done or resources that can be acquired in contract timeline, given prior history of work/resource acquisition, intents, market changes, etc'
   
     - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
       - anti-crime markets (subsidy incentives): 
