@@ -141,6 +141,14 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
   - market optimization/organization
 
+    - interaction of debt & risk markets
+      - with debt, there is a sub-market for risks, such as:
+        - risk of a merger/deal between loaner/borrower, so the loan becomes an investment in a business relationship
+        - risk of default, stimulating collection & higher-interest debt (loan shark) markets
+        - risk of incentives for/implementation of forgiveness/regulation/refinancing/resale forcing interest rate down (such as with faster payments) - potentially with riskier borrowers, again stimulating debt resale market
+      - there are also incentives to allocate risks around debt structures, delegating resources to borrowers & problems to non-borrowers/partners 
+        - these exploits can backfire if the entities receiving problems become market players or initiate a business relationship, rather than a market dead-end (a deal tree leaf that connects with another branch or tree, forming a network, or a closed trade loop that doesnt stay closed)
+
     - contract term validation (similar to currency wallet validation to verify that funds exist) to confirm that an agent can fulfill a contract terms before the deal is closed
       - similar to automated product testing tools to identify attributes & test for them, automated contract testing tools would evaluate the ability of an agent's resources to adjacently fulfill an intent (a contract term), adjacently meaning 'with work that can be done or resources that can be acquired in contract timeline, given prior history of work/resource acquisition, intents, market changes, etc'
   
