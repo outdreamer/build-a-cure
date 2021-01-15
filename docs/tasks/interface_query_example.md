@@ -1,16 +1,20 @@
 - alternate interface queries
 
 
-  1. vectorize problem: start from inputs & outputs and connect
+  1. start with standardized problem definition
+
+    - apply solution automation workflow 'vectorize problem': 
     
-    - apply function interface
+      - start with inputs & outputs and connect
       
-      - find functions that have a data set as input and a function as output
-        - filter by functions whose outputs are evaluated by a metric, indicating variation in output metric like accuracy
-        - filter by functions that are later updated with a lower-dimensional function, indicating the original function was a guess (approximation/prediction function)
-        - filter by functions that are associated with a data set used as input to a function that generated the function
-        - filter by functions that are tested on variable data sets, indicating the function is a guess that can be optimized
-        - filter by functions with a high number of inputs
+      - apply function interface
+        
+        - find functions that have a data set as input and a function as output
+          - filter by functions whose outputs are evaluated by a metric, indicating variation in output metric like accuracy
+          - filter by functions that are later updated with a lower-dimensional function, indicating the original function was a guess (approximation/prediction function)
+          - filter by functions that are associated with a data set used as input to a function that generated the function
+          - filter by functions that are tested on variable data sets, indicating the function is a guess that can be optimized
+          - filter by functions with a high number of inputs
 
 
   2. start with standardized problem definition
