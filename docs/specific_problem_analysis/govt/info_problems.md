@@ -140,6 +140,8 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
         - doing the work that would reduce poverty themselves as their job funded by govts looking to reduce health & other costs of poverty (learning & teaching other poor people skills, delivering donated goods to other poor people), since reducing poverty is an investment that would pay dividends by creating a new population of contributing scientists/laborers and reduce health care/charity/climate costs
 
   - market optimization/organization
+
+    - contract term validation (similar to currency wallet validation to verify that funds exist) to confirm that an agent can fulfill a contract terms before the deal is closed
   
     - oppression-migration markets (away from oppression/slavery toward less exploitative labor types)
       - anti-crime markets (subsidy incentives): 
