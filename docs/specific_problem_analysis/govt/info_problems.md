@@ -141,12 +141,22 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
   - market optimization/organization
 
-    - predict financial product value by:
-      - ai using available variables
+    - value proxies:
+      - other than earning value by occupying a position with a relatively high contribution ratio, proxies of value often take the place of value in some markets:
+        - potential value: investment in & ability to implement future tech/solutions
+        - inclusive value: value from being part of a social network (access to in-network resources, definitions of value, & market structures)
+        - cooperative value: value from cooperation between agents, temporary or otherwise (endorsements, collaborative lies, collusion, info-sharing)
+
+    - prioritize building tech using adjacent resources, including skills, to avoid high migration costs between tech (building tech that not only uses adjacent physical resources but also uses adjacent skills, since tech requiring high learning curve is often not implemented/maintained/fixed optimally)
+
+    - predict financial product value by error type structures, as opposed to ai using available variables
       - how inaccurate historical ratings or ratings based on those variables are
         - an error type prediction algorithm may be faster than building a highly accurate data set prediction function
-          - rather than identifying specific metrics like ROI & stability, identify general error type structures that may not be visible in the data set (assumptions, hidden dependencies, false equivalences, information gaps, unconnected logic)
-          - data set variables are likelier to change in unpredictable ways, compared to error type structures
+          - rather than identifying specific metrics like ROI & stability, identify general error type structures that may not be visible in the data set (assumptions, hidden dependencies, false equivalences, information gaps, unconnected logic), but which can be derived:
+            - statistically: by the commonness of those structures
+            - inferentially: by ruling out other explanatory structures
+            - structurally: by applying structures like combinations to error type structures
+          - data set variables are likelier to change in unpredictable ways across data set samples & across variable sets, compared to error type structures
 
     - interaction of debt & risk markets
       - with debt, there is a sub-market for risks, such as:
