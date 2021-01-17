@@ -1,10 +1,15 @@
 # to do
 
-  - starting point of identifying all the assumption sets that it would be most problematic to get incorrect to prevent the worst error types
-    - in the problem of 'predict cat vs. dog', the worst error types are:
-      - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
-      - an object that is artificial identified as real (cat robot identified as a cat)
-    - to predict these error types, certain concepts need to be inferred
+  - starting points of filters that reduce the problem space
+    - starting point of identifying all the assumption sets that it would be most problematic to get incorrect to prevent the worst error types
+      - in the problem of 'predict cat vs. dog', the worst error types are:
+        - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
+        - an object that is artificial identified as real (cat robot identified as a cat)
+      - to predict these error types, certain concepts need to be inferred
+        - the concept of 'agency' to design a machine that looks like an animal
+        - the structure of 'false equivalence' to design situations where features would look like a category but not actually be that
+    - starting point of identifying all the feature ranges where it would be impossible to give high-accuracy answers (ai-generated cat image vs. real image)
+    - organizing these filters in a useful sorting structure (network, tree) can reduce the computations required to solve for a prediction function
 
   - predicting prediction function error types
     - false equivalence
