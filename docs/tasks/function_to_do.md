@@ -1,7 +1,11 @@
 # to do
 
+  - prediction function
+    - alternative routes to the same answer: identify all the alternative routes between function components like variables, data sets/subsets, & neural net components like weight path patterns, and the differentiating factors & vertexes, then use that to implement a filtering structure to sort through them to filter out possible answers the quickest
+    - alternative answer types: identify all the different variable/function combinations that could create the most differences in answers (such as different types or contexts), and a filtering structure 
+
   - make diagram 
-  
+
   - list interface selection (based on inputs like available APIs/data sets/definitions)
 
   - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
