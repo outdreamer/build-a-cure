@@ -1,19 +1,25 @@
 # to do
 
-  - prediction function
+  - predicting prediction function error types
     - false equivalence
       - similar routes to different answers
         - this implies similar patterns in variable structures & interactions across data groups
+      - overlap
+      - lack of differentiating variables in data set
     - false difference
+      - merging/imminent similarity/equivalence
+        - functions that can act on other functions to produce a false or real equivalence to another function
       - alternative routes to the same answer
         - identify all the alternative structures (routes, combinations, trees) to an answer between function components like variables, data sets/subsets, & neural net components like weight path patterns, and the differentiating factors & vertexes, then use that to implement a filtering structure to sort through them to rule out the most possible answers the quickest
       - alternative answer types
-        - identify all the different variable/function combinations that could create the most differences in similar answers (such as different types or contexts like a separate function for outliers), and a filtering structure to apply these as variation reduction functions
+        - identify all the different variable/function combinations that could create the most differences in similar answers (such as different types or contexts like a separate function for outliers), and a filtering structure to apply these as variation-reduction functions
       - these filtering structures can act like interfaces, reducing variation in the possible answer set
     - equivalent combinations
       - alternative variable subsets that act as proxies to an answer
     - equivalent variable structures
-      - find variable structures like functions that approximate other variable structures like networks
+      - find variable structures like functions that approximate other variable structures like variable networks
+
+  - example of how to predict most interactive/causal concepts in a system
 
   - make diagram 
 
