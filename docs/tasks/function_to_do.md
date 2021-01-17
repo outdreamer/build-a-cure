@@ -1,8 +1,13 @@
 # to do
 
   - prediction function
-    - alternative routes to the same answer: identify all the alternative routes between function components like variables, data sets/subsets, & neural net components like weight path patterns, and the differentiating factors & vertexes, then use that to implement a filtering structure to sort through them to filter out possible answers the quickest
-    - alternative answer types: identify all the different variable/function combinations that could create the most differences in answers (such as different types or contexts), and a filtering structure 
+    - false difference
+      - alternative routes to the same answer: 
+        - identify all the alternative routes between function components like variables, data sets/subsets, & neural net components like weight path patterns, and the differentiating factors & vertexes, then use that to implement a filtering structure to sort through them to rule out the most possible answers the quickest
+    - false equivalence
+      - similar routes to different answers:
+    - alternative answer types: 
+      - identify all the different variable/function combinations that could create the most differences in answers (such as different types or contexts like a separate function for outliers), and a filtering structure 
 
   - make diagram 
 
