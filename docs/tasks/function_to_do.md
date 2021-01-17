@@ -1,5 +1,11 @@
 # to do
 
+  - starting point of identifying all the assumption sets that it would be most problematic to get incorrect to prevent the worst error types
+    - in the problem of 'predict cat vs. dog', the worst error types are:
+      - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
+      - an object that is artificial identified as real (cat robot identified as a cat)
+    - to predict these error types, certain concepts need to be inferred
+
   - predicting prediction function error types
     - false equivalence
       - similar routes to different answers

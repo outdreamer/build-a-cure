@@ -82,6 +82,8 @@
   - creativity nn: algorithm that mimics creativity in thinking of alternate possibilities/explanations
       - switch structure, abstraction, type, attribute, function, direction (like how random jokes come from a totally different direction but still have an intersection)
 
+  - religion nn: algorithm that finds a system that is semi-explanatory of rules that are unprovable or inconvenient to prove, so its immune to contradictions, to identify the gaps in enforcement that allow alternative false beliefs to take hold (aligning on many layers, aligning with a pattern of meaning like ethics, etc)
+
   - efficiency nn: algorithm with efficiency optimizations, like distributed starting points for a search through weight patterns/sets that signal to the others when they find efficiencies like automatically aligned intents or similar structures
 
   - emotion nn: algorithm with a concept of emotion built in, so that different modes of traversing a network can be switched between as needed 
