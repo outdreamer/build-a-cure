@@ -141,7 +141,16 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
   - market optimization/organization
 
-    - inject certainty in risk games (gambling/stock trading apps) to favor lower-income players
+    - automatically inject certainty from organization in risk games to favor lower-income players
+      - gambling/stock trading apps
+      - small business revenue streams like search rankings on amazon or search engines
+      - rating systems
+      - crypto mining games
+      - credit allocation/loan approvals
+      - visa/permit/deduction/subsidy/vote allocation (subject to randomness in luck of starting position, ie lobbying influence allocation)
+      - lotteries
+      - hacking targets
+      - social media decision-making communities/influencers
 
     - value proxies:
       - other than earning value by occupying a position with a relatively high contribution ratio, proxies of value often take the place of value in some markets
