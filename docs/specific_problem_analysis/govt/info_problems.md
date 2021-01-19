@@ -142,24 +142,39 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
   - market optimization/organization
 
     - organize markets for different forms of govt
+      
       - offer relocation assistance to citizens who voted against dictators from different countries so anti-dictator voters can easily organize into one democracy
         - this is also a way to determine actual voter counts in elections 
           - whoever opts to move to the new democracy probably voted against the dictator
           - whoever voted for the dictator but changes their mind can be moved to an interim semi-democracy to filter criminals who intend to exploit democratic freedoms
           - people employed to guard land of dictators can be paid to give false reports to dictators/managers (false report market, subset of the secret or info imbalance market)
+      
       - help dissidents identify the criticisms that will build consensus rather than continued oppression
         - criticism with these attributes are successful at building consensus
-          - acknowledge mistakes on both sides, common ground, and good abstract points/priorities by both sides
-          - identify structures leading to continued sources of conflict, like misunderstandings (use of group term instead of individual names, lack of willingness to compromise/trade, false trade-offs, crime cycles, crime as an info problem)
-          - using humor & false validation that feels true (sarcastically saying the truth to make it seem like a joke)
-          - agreement on some ratio of points bc every perspective has a basis in fact
-          - identifying potential in both groups
-          - focusing on opportunities for solutions
-          - asking both groups what they need & finding solutions that contradict neither set of demands
-          - concrete, simple, low-cost steps to implement solutions
-          - structures to implement safety/re-integration for relatively lesser violators of both groups
-          - sympathy for lesser violators & understanding of major violators of oppressive group
-          - structures to implement actionable justice (temporary local courts to implement justice to prevent vigilante/street justice) in a way that doesnt condemn lesser violators
+          - use individual/group references in appropriate contexts
+            - identify examples of ways to solve previous problems optimally without using individual names
+            - identify structures leading to continued sources of conflict, like misunderstandings (use of group term instead of individual names, lack of willingness to compromise/trade, false trade-offs, crime cycles, crime as an info problem)
+          - be balanced
+            - agreement on some ratio of points bc every perspective has a basis in fact
+            - admitting mistake to make it safe to admit mistakes
+            - earned criticizing: giving example of solution you did to make it clear you earned right to criticize anyone
+            - identifying potential in both groups
+            - acknowledge mistakes on both sides, common ground, and good abstract points/priorities by both sides
+          - emotion considerations
+            - allow redemption where possible
+              - avoid using fear or implying total condemnation unless absolutely necessary
+              - structures to implement safety/re-integration for relatively lesser violators of both groups
+              - sympathy for lesser violators & understanding of major violators of oppressive group
+              - structures to implement actionable justice (temporary local courts to implement justice to prevent vigilante/street justice) in a way that doesnt condemn lesser violators
+            - keep discussion on low-stakes solutions to avoid panic/fear responses & maintain calm
+            - using humor & false validation that feels true (sarcastically saying the truth to make it seem like a joke) & sympathizes with both sides
+          - prioritize solutions
+            - avoid criticism except where necessary
+            - focus on opportunities for solutions & methods of implementing solutions
+          - aim for unified solution
+            - asking both groups what they need & finding solutions that contradict neither set of demands
+            - find concrete, simple, low-cost steps to implement solutions
+
         - example:
           - "they should be persecuting us, we overload the grocery delivery system bc we're so fat and we act like all the science we do is good enough to justify it - I wish the dictator would kill (annoying people in social circles) instead of ethnic groups, whose main crime is good recipes that make us fat"
 
