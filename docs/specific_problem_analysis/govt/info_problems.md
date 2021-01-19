@@ -141,17 +141,32 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
   - market optimization/organization
 
-    - automatically inject certainty from organization in risk games to favor lower-income players
-      - gambling/stock trading apps
-      - small business revenue streams like search rankings on amazon or search engines
-      - rating systems
-      - crypto mining games
-      - credit allocation/loan approvals
-      - visa/permit/deduction/subsidy/vote allocation (subject to randomness in luck of starting position, ie lobbying influence allocation)
-      - lotteries
-      - hacking targets
-      - social media decision-making communities/influencers
+    - automatically inject certainty from organization in risk games (involving randomness/luck) to favor lower-income players
 
+      - risk levels
+
+        - intentional risk (gambling system randomness)
+          - gambling apps
+          - stock trading apps
+          - lotteries
+          - crypto mining games  
+
+        - mix of user control & market risk (prioritization system randomness)
+          - randomness in organized influence systems
+            - social media decision-making communities/influencers (randomness in allocation of injected priorities, like undisclosed funders)
+            - visa/permit/deduction/subsidy/vote allocation (subject to randomness in luck of starting position, ie lobbying influence allocation)
+          - rating systems (reviews, rankings)
+            - scoring systems
+              - credit allocation/loan approvals
+          - recommendation systems
+            - job sites to recommend matching jobs to lower-income users first
+            - small business revenue streams like search rankings on amazon or search engines
+            
+        - intentional protection against risk (security system randomness)
+          - law enforcement attention & rule enforcement (countering randomness in who is watched/punished/protected or made into an example)
+          - hacking targets (prioritize targeting VPNs used by higher-income criminal users)
+            - apply filters to identify all unverified traffic
+      
     - value proxies:
       - other than earning value by occupying a position with a relatively high contribution ratio, proxies of value often take the place of value in some markets
       - value is interchangeable with truth, so this also applies to truth proxies
