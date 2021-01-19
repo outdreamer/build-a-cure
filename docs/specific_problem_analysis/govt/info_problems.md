@@ -155,6 +155,7 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
             - identify examples of ways to solve previous problems optimally without using individual names
             - identify structures leading to continued sources of conflict, like misunderstandings (use of group term instead of individual names, lack of willingness to compromise/trade, false trade-offs, crime cycles, crime as an info problem)
           - be balanced
+            - use humanizing (best) examples of both groups, as if theyre fighting (especially for a long time), that indicates they have similarities, otherwise one group would have easily/quickly won by now
             - agreement on some ratio of points bc every perspective has a basis in fact
             - admitting mistake to make it safe to admit mistakes
             - earned criticizing: giving example of solution you did to make it clear you earned right to criticize anyone
