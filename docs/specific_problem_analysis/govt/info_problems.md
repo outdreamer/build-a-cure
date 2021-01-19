@@ -168,7 +168,9 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
               - sympathy for lesser violators & understanding of major violators of oppressive group
               - structures to implement actionable justice (temporary local courts to implement justice to prevent vigilante/street justice) in a way that doesnt condemn lesser violators
             - keep discussion on low-stakes solutions to avoid panic/fear responses & maintain calm
-            - using humor & false validation that feels true (sarcastically saying the truth to make it seem like a joke) & sympathizes with both sides
+            - using humor & false validation that feels true & sympathizes with both sides
+              - sarcastically saying the truth to make it seem like a joke
+              - balance between dignifying & humorizing both perspectives (self-own to call truthtellers toxic, absurd to recognize any power of a minority over a large group of people bc the group is the powerful side if they have info tech to organize)
           - prioritize solutions
             - avoid criticism except where necessary
             - focus on opportunities for solutions & methods of implementing solutions
