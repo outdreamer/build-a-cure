@@ -141,6 +141,9 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
   - market optimization/organization
 
+    - organize markets for different forms of govt
+      - offer relocation assistance to citizens who voted against dictators from different countries so anti-dictator voters can easily organize into one democracy
+
     - automatically inject certainty from organization in risk games (involving randomness/luck) to favor lower-income players
 
       - risk levels
@@ -161,7 +164,8 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
           - recommendation systems
             - job sites to recommend matching jobs to lower-income users first
             - small business revenue streams like search rankings on amazon or search engines
-            
+            - content shown to users (favor positive content about oppressed groups)
+
         - intentional protection against risk (security system randomness)
           - law enforcement attention & rule enforcement (countering randomness in who is watched/punished/protected or made into an example)
           - hacking targets (prioritize targeting VPNs used by higher-income criminal users)
