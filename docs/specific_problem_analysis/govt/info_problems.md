@@ -141,6 +141,8 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
   - market optimization/organization
 
+    - inject certainty in risk games (gambling/stock trading apps) to favor lower-income players
+
     - value proxies:
       - other than earning value by occupying a position with a relatively high contribution ratio, proxies of value often take the place of value in some markets
       - value is interchangeable with truth, so this also applies to truth proxies
