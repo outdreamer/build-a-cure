@@ -143,6 +143,9 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
 
     - organize markets for different forms of govt
       - offer relocation assistance to citizens who voted against dictators from different countries so anti-dictator voters can easily organize into one democracy
+        - this is also a way to determine actual voter counts in elections 
+          - whoever opts to move to the new democracy probably voted against the dictator
+          - whoever voted for the dictator but changes their mind can be moved to an interim semi-democracy to filter criminals who intend to exploit democratic freedoms
 
     - automatically inject certainty from organization in risk games (involving randomness/luck) to favor lower-income players
 
@@ -157,7 +160,7 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
         - mix of user control & market risk (prioritization system randomness)
           - randomness in organized influence systems
             - social media decision-making communities/influencers (randomness in allocation of injected priorities, like undisclosed funders)
-            - visa/permit/deduction/subsidy/vote allocation (subject to randomness in luck of starting position, ie lobbying influence allocation)
+            - visa/permit/deduction/subsidy/vote/deal/contract allocation (subject to randomness in luck of starting position, ie lobbying influence allocation)
           - rating systems (reviews, rankings)
             - scoring systems
               - credit allocation/loan approvals
