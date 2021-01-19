@@ -147,6 +147,21 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
           - whoever opts to move to the new democracy probably voted against the dictator
           - whoever voted for the dictator but changes their mind can be moved to an interim semi-democracy to filter criminals who intend to exploit democratic freedoms
           - people employed to guard land of dictators can be paid to give false reports to dictators/managers (false report market, subset of the secret or info imbalance market)
+      - help dissidents identify the criticisms that will build consensus rather than continued oppression
+        - criticism with these attributes are successful at building consensus
+          - acknowledge mistakes on both sides, common ground, and good abstract points/priorities by both sides
+          - identify structures leading to continued sources of conflict, like misunderstandings (use of group term instead of individual names, lack of willingness to compromise/trade, false trade-offs, crime cycles, crime as an info problem)
+          - using humor & false validation that feels true (sarcastically saying the truth to make it seem like a joke)
+          - agreement on some ratio of points bc every perspective has a basis in fact
+          - identifying potential in both groups
+          - focusing on opportunities for solutions
+          - asking both groups what they need & finding solutions that contradict neither set of demands
+          - concrete, simple, low-cost steps to implement solutions
+          - structures to implement safety/re-integration for relatively lesser violators of both groups
+          - sympathy for lesser violators & understanding of major violators of oppressive group
+          - structures to implement actionable justice (temporary local courts to implement justice to prevent vigilante/street justice) in a way that doesnt condemn lesser violators
+        - example:
+          - "they should be persecuting us, we overload the grocery delivery system bc we're so fat and we act like all the science we do is good enough to justify it - I wish the dictator would kill (annoying people in social circles) instead of ethnic groups, whose main crime is good recipes that make us fat"
 
     - automatically inject certainty from organization in risk games (involving randomness/luck) to favor lower-income players
 
@@ -159,6 +174,7 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
           - crypto mining games  
 
         - mix of user control & market risk (prioritization system randomness)
+          - randomness in justice allocation (tell soldiers which people are criminals/innocent civilians)
           - randomness in organized influence systems
             - social media decision-making communities/influencers (randomness in allocation of injected priorities, like undisclosed funders)
             - visa/permit/deduction/subsidy/vote/deal/contract allocation (subject to randomness in luck of starting position, ie lobbying influence allocation)
