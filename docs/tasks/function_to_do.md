@@ -1,5 +1,7 @@
 # to do
 
+  - design an optimal sorting structure for general interface queries to apply to problems manually
+
   - starting points of filters that reduce the problem space
     - starting point of identifying all the assumption sets that it would be most problematic to get incorrect to prevent the worst error types
       - in the problem of 'predict cat vs. dog', the worst error types are:
