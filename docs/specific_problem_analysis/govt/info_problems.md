@@ -146,6 +146,7 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
         - this is also a way to determine actual voter counts in elections 
           - whoever opts to move to the new democracy probably voted against the dictator
           - whoever voted for the dictator but changes their mind can be moved to an interim semi-democracy to filter criminals who intend to exploit democratic freedoms
+          - people employed to guard land of dictators can be paid to give false reports to dictators/managers (false report market, subset of the secret or info imbalance market)
 
     - automatically inject certainty from organization in risk games (involving randomness/luck) to favor lower-income players
 
