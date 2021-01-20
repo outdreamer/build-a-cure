@@ -1,5 +1,10 @@
 # to do
 
+  - identify bias structures as output of operations on structures, or by missing structures that cause bias
+    - bias is a filter that leaves out relevant information
+    - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
+      - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
+
   - design an optimal sorting structure for general interface queries to apply to problems manually
 
   - starting points of filters that reduce the problem space
