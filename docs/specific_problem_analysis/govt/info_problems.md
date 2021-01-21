@@ -274,6 +274,11 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
         - favor/deal/endorsement/ad market:
           - trade international deals or high-profile endorsements for proven participation in oppression-migration markets
         - crime layer markets
+          - addiction market
+            - suppliers make deals with drug dealers to add/remove valuable configurable properties of drugs for a relatively low price, which dealers can then charge for instead of hooking customers with destructive addictions:
+              - removing addictive properties to/associations with negative substances in drug
+              - adding addictive properties to customer preferences like pro-social activities/work
+              - adding addiction-suppression properties, like immunity to addictive substances, appetite suppressant, or reducing the response of other drugs
           - sell better encryption/spying/weapons/communication tools & information (secrets, opportunities, statistics) to criminals that do lesser crimes
           - sell info warning imminent victims or info to crime competitors for criminals who dont pay their crime taxes or dont use crime organization apps
           - help organize criminals who do lesser crimes to exact crimes/fees toward criminals who do worse crimes, so criminals who do lesser crimes can stay on top of & oppress other criminal communities, to allocate risk/problems toward the biggest oppressors
