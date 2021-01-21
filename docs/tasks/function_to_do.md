@@ -17,9 +17,14 @@
       - errors are evenly distributed among more complex adjacent sub-components not expected to change as much
 
   - the most useful patterns will be:
-    - core patterns & core interface components that can build other components
-    - cross-interface patterns: patterns linking interface objects (change trajectories of randomness)
+    - cross-interface patterns: patterns linking interface objects
+      - patterns of interface components that link all interfaces: 
+        - error patterns
+      - patterns of interface object links
+        - change trajectories of randomness
     - system patterns: which unite other structures and form an interim structure in between meaning and an agent
+    - core patterns & core interface components that can build other components
+      - patterns in core interface components, like change/difference patterns
 
   - identify bias structures as output of operations on structures, or by missing structures that cause bias
     - bias is a filter that leaves out relevant information
