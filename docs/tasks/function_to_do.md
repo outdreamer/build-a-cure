@@ -4,7 +4,7 @@
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
     - wrong context for a pattern
     - over-repetition
-    - over-similarity to previous information
+    - over-similarity to previous information (lacking expected change structures, like change trajectory & types)
     - no matching reason/intent/priority for deviations from archetypes/patterns
     - over-correction when integrating a variable
     - variables identified in isolation
@@ -15,6 +15,11 @@
       - clear composition of core patterns
     - sources of randomness
       - errors are evenly distributed among more complex adjacent sub-components not expected to change as much
+
+  - the most useful patterns will be:
+    - core patterns & core interface components that can build other components
+    - cross-interface patterns: patterns linking interface objects (change trajectories of randomness)
+    - system patterns: which unite other structures and form an interim structure in between meaning and an agent
 
   - identify bias structures as output of operations on structures, or by missing structures that cause bias
     - bias is a filter that leaves out relevant information
