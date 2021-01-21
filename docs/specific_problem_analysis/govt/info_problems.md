@@ -278,6 +278,10 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
             - estimate cost of hiding crimes (laundering money, doing research, finding people who wont report them, finding loopholes/navigating regulatory limits) & offer lower fees or leniency to self-reporting criminals to add an incentive
               - govt wont prosecute money laundering if they self-report, or will take a lower amount than theyd pay the money launderer
           - market for invalidating crime types
+            - rent-seeking & exploitative pricing can be resolved with:
+              - identifying false differences (reducing value of similar products with standardization)
+              - identifying inefficiencies (automated product test generation/application)
+              - calculating proportional value of the product, considering value relative to all other resources, implementation optimization, as well as profit usage (reinvestment in other products)
             - info imbalances enabling types of crime like theft can be resolved with existing tech like integrating blockchains & importing other currencies into blockchains
               - thefts can be handled by re-distributing assets according to pre-theft ratios of total value, with verified participants
               - thieves cant register for asset tracking or if they do, the transaction will be invalidated by the report, and proportional value is re-distributed to participants' accounts so thefts arent a permanent asset redistribution method, as thieves wont have a verified account or their balance wont include the stolen amount to use (requires central bank or central bank transaction database)
