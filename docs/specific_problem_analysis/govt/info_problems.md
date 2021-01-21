@@ -277,6 +277,12 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
           - crime obfuscation market
             - estimate cost of hiding crimes (laundering money, doing research, finding people who wont report them, finding loopholes/navigating regulatory limits) & offer lower fees or leniency to self-reporting criminals to add an incentive
               - govt wont prosecute money laundering if they self-report, or will take a lower amount than theyd pay the money launderer
+          - market for invalidating crime types
+            - info imbalances enabling types of crime like theft can be resolved with existing tech like integrating blockchains & importing other currencies into blockchains
+              - thefts can be handled by re-distributing assets according to pre-theft ratios of total value, with verified participants
+              - thieves cant register for asset tracking or if they do, the transaction will be invalidated by the report, and proportional value is re-distributed to participants' accounts so thefts arent a permanent asset redistribution method, as thieves wont have a verified account or their balance wont include the stolen amount to use (requires central bank or central bank transaction database)
+              - total value cant be exceeded by blockchain & other currencies & assets' value, or double accounting & other forms of hacking have occurred
+              - asset blockchains need to sync with each other so this cant happen & thieves wont have anywhere to go, if all assets are imported into blockchains (including currency identifiers)
           - addiction market
             - suppliers make deals with drug dealers to add/remove valuable configurable properties of drugs for a relatively low price, which dealers can then charge for instead of hooking customers with destructive addictions:
               - removing addictive properties to/associations with negative substances in drug
