@@ -1,5 +1,21 @@
 # to do
 
+  - real vs. ai detection algorithm
+    - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
+    - wrong context for a pattern
+    - over-repetition
+    - over-similarity to previous information
+    - no matching reason/intent/priority for deviations from archetypes/patterns
+    - over-correction when integrating a variable
+    - variables identified in isolation
+    - most clearly/measurably different variables identified
+    - structure organizing variable structures (randomness injection points, enforcement gaps, info imbalances)
+    - over-simplistic or erroneous automated sub-components
+    - improbable level of randomness
+      - clear composition of core patterns
+    - sources of randomness
+      - errors are evenly distributed among more complex adjacent sub-components not expected to change as much
+
   - identify bias structures as output of operations on structures, or by missing structures that cause bias
     - bias is a filter that leaves out relevant information
     - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
