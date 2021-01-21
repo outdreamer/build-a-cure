@@ -26,6 +26,21 @@
     - core patterns & core interface components that can build other components
       - patterns in core interface components, like change/difference patterns
 
+    - errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example problems 
+      - stacking errors may be a better way to frame problems than other interfaces
+        - the level of randomness captured by the error structure
+        - errors can function as limits as well as difference types building a problem structure
+
+    - when testing different variable subsets, you can select a variable set split by structures like:
+      - vertex variables
+      - variables on interim interfaces where other variables aggregate (in bottlenecks or hubs)
+      - difference interactions
+        - difference type (homogeneous sets of difference types)
+        - differences in different types (heterogeneous sets of difference types)
+        - which difference type sets would identify the most errors or are the most different from other difference type sets
+      - which difference types are the biggest variance-reducers when combined
+      - which difference types have an attribute (common, relevance, similarity)
+
   - identify bias structures as output of operations on structures, or by missing structures that cause bias
     - bias is a filter that leaves out relevant information
     - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
