@@ -26,7 +26,7 @@
     - core patterns & core interface components that can build other components
       - patterns in core interface components, like change/difference patterns
 
-    - errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example problems 
+    - errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
       - stacking errors may be a better way to frame problems than other interfaces
         - the level of randomness captured by the error structure
         - errors can function as limits as well as difference types building a problem structure
