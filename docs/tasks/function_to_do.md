@@ -1,10 +1,27 @@
 # to do
 
+  - decision (filtering problem-solving) times
+    - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
+      - sub time points: activation time, pooling time, aggregation time, filtering time
+    - optional points where decisions can be injected
+      - decisions: 
+        - network-level decisions: continue learning, select prediction answer
+        - structural decisions: change direction, delegate/delay decisions, identify threshold, decision to ignore info
+      - time where decision is clear/final/starts to emerge
+      - time where direction change decision is made
+      - time where more info/time is identified as necessary
+      - time where decision is identified as not answerable
+      - time where alternatives are identified, assigned probability, filtered out
+      - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
+
   - sub-decisions & decision times
     - structures of neural networks with delayed sub-decisions
       - conditionally activated cell structures with enough info to make a sub-decision
     - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
-      - govt structures/algorithms as neural network structures/algorithms
+      - govt structures/algorithms
+        - organization structures are a structural version of govt (agent-based) decision-making
+      - finding the level of 'agency' to apply to a network is possible with problem complexity identification
+        - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
 
   - alternative decisions
     - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
