@@ -15,13 +15,28 @@
       - time where alternatives are identified, assigned probability, filtered out
       - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
       - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
+      - time to check for a structure in the difference type index
       
   - variables of the network include structures emerging from or embedded in algorithms/structures
     - core structures
       - change types 
-      - agency types 
+        - difference type 
+      - agency types
+      - cause types (influence/power of structures)
+      - structures
+        - sequence (embedded concept of 'time' in structural interface)
+        - list (unique index)
     - structures applied to these core structures
       - decisions about change types to apply
+      - change applied to causal structures at training & prediction time
+      - difference type index
+
+  - translating structures into vectors
+    - many vector structures can represent interface structures
+    - give example of how to select a vector structure to represent an interface structure on a particular interface, applying structure to indicate metadata about structures
+      - example: causal loop
+        - standard network structure translation: vectors to indicate direction of cause
+        - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
 
   - sub-decisions & decision times
     - structures of neural networks with delayed sub-decisions
