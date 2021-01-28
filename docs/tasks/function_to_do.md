@@ -1,18 +1,27 @@
 # to do
 
-  - decision (filtering problem-solving) times
+  - decision (change-filtering problem-solving) times
     - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
       - sub time points: activation time, pooling time, aggregation time, filtering time
     - optional points where decisions can be injected
       - decisions: 
         - network-level decisions: continue learning, select prediction answer
-        - structural decisions: change direction, delegate/delay decisions, identify threshold, decision to ignore info
+        - structural decisions: change direction, identify threshold, ignore info
+        - meta decisions: delegate/delay decisions, consider alternative decisions
       - time where decision is clear/final/starts to emerge
       - time where direction change decision is made
       - time where more info/time is identified as necessary
       - time where decision is identified as not answerable
       - time where alternatives are identified, assigned probability, filtered out
       - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
+      - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
+      
+  - variables of the network include structures emerging from or embedded in algorithms/structures
+    - core structures
+      - change types 
+      - agency types 
+    - structures applied to these core structures
+      - decisions about change types to apply
 
   - sub-decisions & decision times
     - structures of neural networks with delayed sub-decisions
