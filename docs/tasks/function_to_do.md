@@ -1,10 +1,17 @@
 # to do
 
-  - sub-decisions
-    - structures of neural networks with delayed sub-decisions (conditionally activated cell structures with enough info to make a sub-decision)
-    
+  - sub-decisions & decision times
+    - structures of neural networks with delayed sub-decisions
+      - conditionally activated cell structures with enough info to make a sub-decision
+    - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
+      - govt structures/algorithms as neural network structures/algorithms
+
   - alternative decisions
-    - structures of neural networks exploring alternative variable structures & alternate decisions (like finding root cause) rather than the stated problem decision
+    - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
+    - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
+      - alternative decisions
+        - finding root cause
+        - solving a proxy problem
 
   - real vs. ai detection algorithm
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
