@@ -1,10 +1,10 @@
 # to do
 
-us20070156748A1 ibm emam (paragraph 48, 93 - 99, 138 - 141, 144, 145, 147 
-
-us20150106156A1 adobe (68, 73, 81, 82, 85, 86, 88 - 90, 107)
-
-us20110093452A1 jain (22, 23, 30, 34, 33, 36, 50 - 54)
+  - sub-decisions
+    - structures of neural networks with delayed sub-decisions (conditionally activated cell structures with enough info to make a sub-decision)
+    
+  - alternative decisions
+    - structures of neural networks exploring alternative variable structures & alternate decisions (like finding root cause) rather than the stated problem decision
 
   - real vs. ai detection algorithm
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
