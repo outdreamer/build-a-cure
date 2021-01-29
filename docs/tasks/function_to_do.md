@@ -3,8 +3,13 @@
   - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
     - it's missing info about:
       - other components & their structures (other pathogens, cell types, in other ratios/positions)
+        - other components with similar/contradictory shapes that might be interfering, like similar receptor/binding shapes that leave no room for the cell type being examined
+      - component dynamics
+        - attributes like aggressiveness might be determined by missing info (about variable factors like blood flow/pressure or prior exposure to nutrients like vitamin d triggering timers), indicating why one cell type would succeed at binding & another of a similar structure would not
+      - sample data might leave out variation like determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
       - changes to the host system structure (like nerve damage)
       - changes to forces governing change (like motion, as blood flow) in the host system structure 
+
 
   - structure standardization (applying structure to structure to generate a particular structure/format)
     - translating structures into vectors
