@@ -2,14 +2,25 @@
 
   - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
     - it's missing info about:
-      - other components & their structures (other pathogens, cell types, in other ratios/positions)
-        - other components with similar/contradictory shapes that might be interfering, like similar receptor/binding shapes that leave no room for the cell type being examined
-      - component dynamics
-        - attributes like aggressiveness might be determined by missing info (about variable factors like blood flow/pressure or prior exposure to nutrients like vitamin d triggering timers), indicating why one cell type would succeed at binding & another of a similar structure would not
-      - sample data might leave out variation like determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
-      - changes to the host system structure (like nerve damage)
-      - changes to forces governing change (like motion, as blood flow) in the host system structure 
-
+      - components
+        - other/possible components & their structures (other possible pathogens, foreign cell types, in other ratios/positions)
+          - other/possible components with similar/contradictory shapes that might be interfering
+            - like similar receptor/binding shapes that leave no room for the cell type being examined
+        - internal cell components
+      - change types
+        - changes to the host system structure (like nerve damage)
+        - changes to forces governing change (like motion, as blood flow) in the host system structure 
+        - hidden variables (like blood flow/pressure or prior exposure to nutrients like vitamin d triggering timers) or variable sets with similar net effects (activated lifecycle)
+        - component dynamics
+          - determining interaction attributes/functions 
+            - like how attributes like aggressiveness might be determined by missing info (indicating why one cell type would succeed at binding & another of a similar/equivalent structure would not)
+        - threshold dynamics
+          - sample data might leave out variation in the form of determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
+        - system dynamics
+          - functionality that is activated in environments & not obvious with structural analysis 
+            - like a function that folds dna/proteins in a way that has more errors than other folding function in a particular environment
+        - sequential dynamics
+          - exposure to a pathogen might trigger a function in response to a cell with a minor distortion that becomes determining in edge conditions
 
   - structure standardization (applying structure to structure to generate a particular structure/format)
     - translating structures into vectors
