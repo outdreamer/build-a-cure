@@ -10,17 +10,30 @@
       - change types
         - changes to the host system structure (like nerve damage)
         - changes to forces governing change (like motion, as blood flow) in the host system structure 
-        - hidden variables (like blood flow/pressure or prior exposure to nutrients like vitamin d triggering timers) or variable sets with similar net effects (activated lifecycle)
-        - component dynamics
+        - not measurable info
+          - hidden non-structural variables (like blood flow/pressure, electrical effects, or prior exposure to nutrients like vitamin d triggering timers) or variable sets with similar net effects (activated lifecycle)
+          - distortions commonly found in different cell types with same structure bc of different positions
+          - functional implementation differences
+            - different cell types have different method of achieving the same function using the same components, in a structure that varies within the data set but not enough to indicate different method
+        - component interaction dynamics
+          - interaction level
+            - cells with same structure might operate on different interaction levels, given different position/system
+          - structures of interaction object components
+            - a cell with equivalent DNA might encounter 'jumping gene' functionality in one system position, where an equivalent cell in another position would not
           - determining interaction attributes/functions 
             - like how attributes like aggressiveness might be determined by missing info (indicating why one cell type would succeed at binding & another of a similar/equivalent structure would not)
-        - threshold dynamics
+        - limit/threshold dynamics
           - sample data might leave out variation in the form of determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
+        - state dynamics
+          - false equivalence: structure might be measured at two equivalent states across two different cell type lifecycles, giving illusion of equivalent structures
         - system dynamics
+          - structural metadata (like position, which determines local system & adjacent cells/functionality)
+          - invalidating functionality
+            - system that deletes duplicates, where a particular cell type is handled second bc of some attribute (like size, indicating it needs to be broken down first), so its always found to be the duplicate & is deleted
           - functionality that is activated in environments & not obvious with structural analysis 
             - like a function that folds dna/proteins in a way that has more errors than other folding function in a particular environment
         - sequential dynamics
-          - exposure to a pathogen might trigger a function in response to a cell with a minor distortion that becomes determining in edge conditions
+          - exposure to a pathogen might trigger a function in response to a cell type with a minor distortion that becomes determining in edge conditions
 
   - structure standardization (applying structure to structure to generate a particular structure/format)
     - translating structures into vectors
