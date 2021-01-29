@@ -1,23 +1,21 @@
 # to do
 
-  - decision (change-filtering problem-solving) times
-    - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
-      - sub time points: activation time, pooling time, aggregation time, filtering time
-    - optional points where decisions can be injected
-      - decisions: 
-        - network-level decisions: continue learning, select prediction answer
-        - structural decisions: change direction, identify threshold, ignore info
-        - meta decisions: delegate/delay decisions, consider alternative decisions
-      - time where decision is clear/final/starts to emerge
-      - time where direction change decision is made
-      - time where more info/time is identified as necessary
-      - time where decision is identified as not answerable
-      - time where alternatives are identified, assigned probability, filtered out
-      - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
-      - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
-      - time to check for a structure in the difference type index
-      
+  - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
+    - it's missing info about:
+      - other components & their structures (other pathogens, cell types, in other ratios/positions)
+      - changes to the host system structure (like nerve damage)
+      - changes to forces governing change (like motion, as blood flow) in the host system structure 
+
+  - structure standardization (applying structure to structure to generate a particular structure/format)
+    - translating structures into vectors
+      - many vector structures can represent interface structures
+      - example of selecting a vector structure to represent an interface structure on a particular interface, applying structure to indicate metadata about structures
+        - example: causal loop
+          - standard network structure translation: vectors to indicate direction of cause
+          - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
+
   - variables of the network include structures emerging from or embedded in algorithms/structures
+
     - core structures
       - change types 
         - difference type 
@@ -26,34 +24,49 @@
       - structures
         - sequence (embedded concept of 'time' in structural interface)
         - list (unique index)
-    - structures applied to these core structures
-      - decisions about change types to apply
-      - change applied to causal structures at training & prediction time
-      - difference type index
 
-  - translating structures into vectors
-    - many vector structures can represent interface structures
-    - give example of how to select a vector structure to represent an interface structure on a particular interface, applying structure to indicate metadata about structures
-      - example: causal loop
-        - standard network structure translation: vectors to indicate direction of cause
-        - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
+    - structures applied to these core structures to generate conceptual structures in neural networks
+      - alternative cause: change applied to causal structures at training & prediction time
+      - organization: difference type index
+      - agency/govt: decisions about change types to apply
 
-  - sub-decisions & decision times
-    - structures of neural networks with delayed sub-decisions
-      - conditionally activated cell structures with enough info to make a sub-decision
-    - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
-      - govt structures/algorithms
-        - organization structures are a structural version of govt (agent-based) decision-making
-      - finding the level of 'agency' to apply to a network is possible with problem complexity identification
-        - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
+        - structures applied to agency objects like decisions (such as subsets/alternates) & other conceptual structures (like time)
 
-  - alternative decisions
-    - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
-    - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
-      - alternative decisions
-        - finding root cause
-        - solving a proxy problem
+          - sub-decisions
+            - structures of neural networks with delayed sub-decisions
+              - conditionally activated cell structures with enough info to make a sub-decision
+            - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
+              - govt structures/algorithms
+                - organization structures are a structural version of govt (agent-based) decision-making
+              - finding the level of 'agency' to apply to a network is possible with problem complexity identification
+                - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
 
+          - alternative decisions
+            - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
+            - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
+              - alternative decisions
+                - finding root cause
+                - solving a proxy problem
+
+          - decision (change-filtering problem-solving) times
+
+            - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
+              - sub time points: activation time, pooling time, aggregation time, filtering time
+
+            - optional points where decisions can be injected
+              - decisions: 
+                - network-level decisions: continue learning, select prediction answer
+                - structural decisions: change direction, identify threshold, ignore info
+                - meta decisions: delegate/delay decisions, consider alternative decisions
+              - time where decision is clear/final/starts to emerge
+              - time where direction change decision is made
+              - time where more info/time is identified as necessary
+              - time where decision is identified as not answerable
+              - time where alternatives are identified, assigned probability, filtered out
+              - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
+              - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
+              - time to check for a structure in the difference type index
+      
   - real vs. ai detection algorithm
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
     - wrong context for a pattern
