@@ -1,16 +1,26 @@
 # to do
 
+  - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
+
   - document interacting AI error types (as in financial price & crime prediction models)
 
-  - logic automation example
-    - check for missing relevant info in info found with variables
-      - change to add earlier window to mtime param bc its out of error window
-    - find interaction type & change type in info metadata (filename, modification time relationship)
-      - any logs changed in later would include logs modified earlier bc of lack of incrementing/rollover, so mtime increase is unnecessary
-    - check assumptions for requirements
-      - mtime param unnecessary bc most logs would be modified in original mtime param
-    - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
-      - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
+  - standardization application to generate logic automation algorithm
+  
+    - iterate through interface objects (change type, problem type, assumptions, etc)
+      - find interface objects in a problem space 
+        - filter by relevance structures (like interaction directness/causation, such as change hubs)
+          - apply problem structures related to relevant structures
+            - apply organization structures (like a sequence of tests/queries) to problem structures
+
+    - specific logic automation example
+      - check for missing relevant info in info found with variables
+        - change to add earlier window to mtime param bc its out of error window
+      - find interaction type & change type in info metadata (filename, modification time relationship)
+        - any logs changed in later would include logs modified earlier bc of lack of incrementing/rollover, so mtime increase is unnecessary
+      - check assumptions for requirements
+        - mtime param unnecessary bc most logs would be modified in original mtime param
+      - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
+        - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
 
   - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
     - it's missing info about:
