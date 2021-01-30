@@ -22,6 +22,16 @@
         - a lack of an object can be used like other gap structures are used (as a filter, container or template)
         - an object can be used as a component or other base object to use as an input
 
+    - this is why differences are not just the 'opposite of similarities' - it leaves out information like:
+      - similarities of varying relevance between similarity & difference (both use a distance metric)
+      - the reason why a difference is used vs. a similarity (like 'filtering' intents)
+      - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
+      - info about the structure of difference (difference paths/stacks/layers/trajectories), which may vary in ways that similarities do not
+        - this indicating the important point that similarities are insufficient to predict differences
+      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty, and solve all problems - which is not guaranteed
+        - meaning 'derive structures outside of the universe, using info from inside the universe' 
+      - similarities may have similarities to each other, more than similarities to differences
+
   - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
 
   - document interacting AI error types (as in financial price & crime prediction models)
