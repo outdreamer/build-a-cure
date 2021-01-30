@@ -27,12 +27,17 @@
       - the reason why a difference is used vs. a similarity (like 'filtering' intents)
       - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
       - info about the structure of difference (difference paths/stacks/layers/trajectories), which may vary in ways that similarities do not
-        - this indicating the important point that similarities are insufficient to predict differences
-      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty, and solve all problems - which is not guaranteed
+        - this indicates the important point that similarities are insufficient to predict differences
+      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty/randomness, and solve all problems - which is not guaranteed
         - meaning 'derive structures outside of the universe, using info from inside the universe' 
       - similarities may have similarities to each other, more than similarities to differences
 
   - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
+    - randomness collisions generate structure
+      - structure being the stabilized interaction of information (staying constant long enough to attain structure)
+      - randomness being a lack of information (like a star or circle with equally likely directions of change)
+        - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
+      - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
 
   - document interacting AI error types (as in financial price & crime prediction models)
 
