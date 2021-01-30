@@ -1,11 +1,16 @@
 # to do
 
+  - document locked objects that are inputs to core objects (like functions & concepts)
+    - core functions like 'change', with locked objects which should be generated as inputs to other functions and should not be removed bc they enable other rules & core objects
+      - a 'check for errors' function
+      - a concept of 'self-correction/optimization'
+
   - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
 
   - document interacting AI error types (as in financial price & crime prediction models)
 
   - standardization application to generate logic automation algorithm
-  
+
     - iterate through interface objects (change type, problem type, assumptions, etc)
       - find interface objects in a problem space 
         - filter by relevance structures (like interaction directness/causation, such as change hubs)
