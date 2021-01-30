@@ -1,9 +1,13 @@
 # to do
 
   - document locked objects that are inputs to core objects (like functions & concepts)
+
     - core functions like 'change', with locked objects which should be generated as inputs to other functions and should not be removed bc they enable other rules & core objects
       - a 'check for errors' function
       - a concept of 'self-correction/optimization'
+
+    - these locked objects can be used to generate rule-generating/deriving/finding structures, by forming an initial structure of locked objects and filling that structure with conditional & changeable structures
+      - these rule-generating/deriving/finding structures can be used as solution automation workflows
 
   - structural difference vs. similarity
 
