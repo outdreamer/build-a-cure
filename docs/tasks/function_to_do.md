@@ -28,9 +28,10 @@
       - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
       - info about the structure of difference (difference paths/stacks/layers/trajectories), which may vary in ways that similarities do not
         - this indicates the important point that similarities are insufficient to predict differences
-      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty/randomness, and solve all problems - which is not guaranteed
+      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty & randomness, and solve all problems - which is not guaranteed
         - meaning 'derive structures outside of the universe, using info from inside the universe' 
       - similarities may have similarities to each other, more than similarities to differences
+      - randomness has a similarity (in outcome probability), but is better than similarity as an input to generate difference structures like uncertainty
 
   - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
     - randomness collisions generate structure
