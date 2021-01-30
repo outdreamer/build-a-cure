@@ -306,6 +306,10 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
               - example: "make $1 a month at this price given this customer size, $10 a month at this price, etc"
                 - https://www.wired.com/story/india-smartphones-cheap-data-giving-women-voice/
 
+      - market for exchanges of variable risk, where certain trade types, investing intents, pricing strategies are allowed, vs an anything-goes exchange that is easily gamed
+         - trades based on logical/factual/intent/incentive analysis foundation, etc
+         - user decision history tracking to avoid hacks
+
       - info request prediction market 
         - customers can commit to need info of a certain type at interval x for n periods in exchange for reduced info price
           - example:
