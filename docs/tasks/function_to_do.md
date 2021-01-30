@@ -1,12 +1,24 @@
 # to do
 
+  - document interacting AI error types (as in financial price & crime prediction models)
+
+  - logic automation example
+    - check for missing relevant info in info found with variables
+      - change to add earlier window to mtime param bc its out of error window
+    - find interaction type & change type in info metadata (filename, modification time relationship)
+      - any logs changed in later would include logs modified earlier bc of lack of incrementing/rollover, so mtime increase is unnecessary
+    - check assumptions for requirements
+      - mtime param unnecessary bc most logs would be modified in original mtime param
+    - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
+      - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
+
   - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
     - it's missing info about:
       - components
         - other/possible components & their structures (other possible pathogens, foreign cell types, in other ratios/positions)
           - other/possible components with similar/contradictory shapes that might be interfering
             - like similar receptor/binding shapes that leave no room for the cell type being examined
-        - internal cell components
+        - internal cell components not measured or formed unless found in a particular environment context
       - change types
         - changes to the host system structure (like nerve damage)
         - changes to forces governing change (like motion, as blood flow) in the host system structure 
@@ -25,7 +37,7 @@
         - limit/threshold dynamics
           - sample data might leave out variation in the form of determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
         - state dynamics
-          - false equivalence: structure might be measured at two equivalent states across two different cell type lifecycles, giving illusion of equivalent structures
+          - false equivalence: structure might be measured at two equivalent states across two different cell type lifecycles (like evolutionary paths or distortion patterns), giving illusion of equivalent structures
         - system dynamics
           - structural metadata (like position, which determines local system & adjacent cells/functionality)
           - invalidating functionality
