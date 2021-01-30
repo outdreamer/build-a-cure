@@ -5,6 +5,23 @@
       - a 'check for errors' function
       - a concept of 'self-correction/optimization'
 
+  - structural difference vs. similarity
+
+    - example: spectrum structure
+      - handles different cases like 'near low/high/average value' (like between 0 & 1), which have differences in adjacent change types to produce relevant objects (like an integer)
+        - change types like 'small change to produce an integer', 'doubling to produce an integer', etc
+      - the isolated relevant difference structure (without additional info) 
+        - the average value, which has multiple difference types in adjacent change types
+      - conditional relevant difference structures
+        - if the nearest integer triggers other change types, the value near that integer has a relevant difference structure
+
+    - example: position structure
+      - similar positions will be near according to the distance metric, creating a radius of similarity, which results in emergent structures of a boundary, center & circle
+      - different positions can be represented as a structure lacking a circle/boundary/center
+      - the differences in similarity/difference structures have emergent effects & coordinate with different interface objects (like adjacent structures, change types, relevant objects, etc)
+        - a lack of an object can be used like other gap structures are used (as a filter, container or template)
+        - an object can be used as a component or other base object to use as an input
+
   - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
 
   - document interacting AI error types (as in financial price & crime prediction models)
