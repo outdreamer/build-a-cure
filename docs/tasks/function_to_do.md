@@ -9,12 +9,14 @@
     - these locked objects can be used to generate rule-generating/deriving/finding structures, by forming an initial structure of locked objects and filling that structure with conditional & changeable structures
       - these rule-generating/deriving/finding structures can be used as solution automation workflows
 
-  - structural difference vs. similarity
+  - difference vs. similarity
     - similarities between difference & similarity
       - distance metric
     - differences between difference & similarity
       - amount of info that needs to be stored for a complete accurate description ('what something is not' may require more info to be stored compared to 'what something is')
     - the position of difference between difference & similarity may be on non-opposite positions on a circle depicting routes to get from difference to similarity
+      - this is bc a similarity is a degree of difference (low or zero difference) and so is a difference (higher degree of difference that can be measured or is observed as noticeably different compared to a similarity)
+      - the structure may be a circle or other loop bc if you stack enough differences, eventually you may generate the original object
     - the conversion of difference into similarity is based on the concept of a threshold, where a difference acquires enough similarities to similarity to cross the threshold or vice versa
     - the gray area in between the two concepts & surrounding the symmetry of the threshold also conflates the differences between the two concepts, making the difference not a simple 'opposite'
 
