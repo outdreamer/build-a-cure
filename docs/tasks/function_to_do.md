@@ -10,6 +10,13 @@
       - these rule-generating/deriving/finding structures can be used as solution automation workflows
 
   - structural difference vs. similarity
+    - similarities between difference & similarity
+      - distance metric
+    - differences between difference & similarity
+      - amount of info that needs to be stored for a complete accurate description ('what something is not' may require more info to be stored compared to 'what something is')
+    - the position of difference between difference & similarity may be on non-opposite positions on a circle depicting routes to get from difference to similarity
+    - the conversion of difference into similarity is based on the concept of a threshold, where a difference acquires enough similarities to similarity to cross the threshold or vice versa
+    - the gray area in between the two concepts & surrounding the symmetry of the threshold also conflates the differences between the two concepts, making the difference not a simple 'opposite'
 
     - example: spectrum structure
       - handles different cases like 'near low/high/average value' (like between 0 & 1), which have differences in adjacent change types to produce relevant objects (like an integer)
