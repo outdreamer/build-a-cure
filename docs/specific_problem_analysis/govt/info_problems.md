@@ -306,6 +306,13 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
               - example: "make $1 a month at this price given this customer size, $10 a month at this price, etc"
                 - https://www.wired.com/story/india-smartphones-cheap-data-giving-women-voice/
 
+      - search engines as a reporting product (journalism market invalidation) with semantic queries:
+        - find most common distortions & opinions on an issue
+        - notification when issue has been researched enough to have reliable info at top of search results
+        - find info source distortions & incentives for opinions
+        - find incentivized bias (low cost, high reward, false opinion) on a topic/issue & filter out articles with that bias
+        - find change types specific to issue or report when a change type occurs
+
       - market for exchanges of variable risk, where certain trade types, investing intents, pricing strategies are allowed, vs an anything-goes exchange that is easily gamed
          - trades based on logical/factual/intent/incentive analysis foundation, etc
          - user decision history tracking to avoid hacks
