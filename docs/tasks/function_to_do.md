@@ -1,5 +1,17 @@
 # to do
 
+  - function to apply bias structures to a neural network structure
+    - thinking benefits from bias removal
+    - remove bias structures in neural networks to improve their thinking capacity
+    - example
+      - apply removal of 'simplicity' bias in a neural network structure
+        - the simplicity bias shows up in a neural network structure in many possible positions
+          - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
+            - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
+          - general default params also tend to store simplicity where it's not needed
+      - apply removal of 'similarity' bias 
+        - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs
+
   - function to convert article/listing/social posts into variables to enable queries (product with feature x in budget y that integrates with app z and has attribute independent)
 
   - document locked objects that are inputs to core objects (like functions & concepts)
