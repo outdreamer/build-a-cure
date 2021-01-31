@@ -70,5 +70,7 @@
 		- intent bias: bias to achieve a goal
 			- incentive bias: bias to achieve an incentivized goal (avoid pain, get reward)
 		- similarity bias: bias toward similar
+		- simplicity bias: bias toward simplicity
+		- anti-randomness bias: bias against randomness (tend to see meaning where it's not there)
 
 	- removal of assumptions
