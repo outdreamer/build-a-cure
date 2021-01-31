@@ -39,6 +39,27 @@
 									- they expect this info in the format of a 'response' (reaction)
 										- look for reactions that would benefit the liar, given their intents/incentives/priorities to get info rewards at a low cost
 
+		- a quicker way to derive the important concept of 'beneficial reactions' is:
+			- identifying the high-variation variables (reaction variable)
+			- identifying the pattern of frequent association between lying input & beneficial reaction output
+
+- insight path to derive patterns & rules from one example
+
+	- with one example, you can use abstraction to derive relevant concepts
+		- example: from one song, derive patterns of successful songs
+			- alignment of patterns
+				- circular pattern aligned with vacillation pattern
+				- level of variation from chord
+				- repeating pattern on different starting points
+				- return to original pattern
+				- alternation between patterns of expectation (repetition) and surprise (variation)
+			- conceptual structures
+				- sequential structures: melody, chorus, tension buildup/peak/release cycles
+				- unit structures: chord, variation units (jumping octave, increase/decrease at constant interval, variation around a note)
+				- limit structures: the threshold of variation around a chord/note or threshold of repetition that is successful
+		- using the changes or lack of changes around these objects, you can infer the concept of 'variation' as relevant, as well as 'repetition' and 'alignment'
+
+	- question: is it better to have an example of a successful song (adjacently relevant correct pattern info) or can an unsuccessful song provide enough info (indirect error type info to derive correct patterns)?
 
 - truth derivation
 
