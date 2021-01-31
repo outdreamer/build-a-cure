@@ -74,3 +74,6 @@
 		- anti-randomness bias: bias against randomness (tend to see meaning where it's not there)
 
 	- removal of assumptions
+
+- default general insight paths
+	- is it relevant (generates questions about direct usefulness & system context fit)
