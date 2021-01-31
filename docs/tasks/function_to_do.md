@@ -75,6 +75,8 @@
       - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
         - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
 
+  - examine function topologies (shapes & shape change metadata that can maintain a particular function)
+  
   - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
     - it's missing info about:
       - components
