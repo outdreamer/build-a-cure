@@ -1,5 +1,7 @@
 # to do
 
+  - function to convert article/listing/social posts into variables to enable queries (product with feature x in budget y that integrates with app z and has attribute independent)
+
   - document locked objects that are inputs to core objects (like functions & concepts)
 
     - core functions like 'change', with locked objects which should be generated as inputs to other functions and should not be removed bc they enable other rules & core objects
@@ -15,7 +17,7 @@
     - differences between difference & similarity
       - amount of info that needs to be stored for a complete accurate description ('what something is not' may require more info to be stored compared to 'what something is')
     - the position of difference between difference & similarity may be on non-opposite positions on a circle depicting routes to get from difference to similarity
-      - this is bc a similarity is a degree of difference (low or zero difference) and so is a difference (higher degree of difference that can be measured or is observed as noticeably different compared to a similarity)
+      - this is bc a similarity is a degree of difference (low/zero difference) & so is a difference (higher degree of difference that can be measured or is observed as noticeably different compared to a similarity)
       - the structure may be a circle or other loop bc if you stack enough differences, eventually you may generate the original object
     - the conversion of difference into similarity is based on the concept of a threshold, where a difference acquires enough similarities to similarity to cross the threshold or vice versa
     - the gray area in between the two concepts & surrounding the symmetry of the threshold also conflates the differences between the two concepts, making the difference not a simple 'opposite'
