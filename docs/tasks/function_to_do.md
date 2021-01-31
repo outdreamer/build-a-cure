@@ -75,8 +75,12 @@
       - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
         - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
 
-  - examine function topologies (shapes & shape change metadata that can maintain a particular function)
-  
+  - examine function topologies (structures & structure change metadata that can maintain a particular function)
+    - document intent structures (like intent sets) associated with function topologies
+    - even if a structure maintains a particular function, its other metadata like adjacent interaction/change types & intents may change with the structure change
+    - intent topologies dont necessarily match metadata of function topologies
+    - interaction of interface object topologies as a source of variance reduction
+
   - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
     - it's missing info about:
       - components
