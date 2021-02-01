@@ -1,5 +1,16 @@
 # to do
 
+  - stock market x gaming
+    - feature request market
+    - game plot/cheat code/successful strategy prediction market
+    - prediction games
+      - false signals, gathering/deriving info, identifying important variables, applying successful analysis rules
+    - insurance & other risk & financial products in games
+    - stock market games allowed by legislation to allow a degree of collusion/organization in prediction markets
+    - organization & risk structures allowed in a particular game, for a level of difficulty/complexity
+    - games accessed with performance in previous prediction games to find best predictors and assign them more complex problems, like predicting emergent trends in interactions of complex systems
+    - business & stock markets as an info-trading game to get products/features/prices and other company byproducts (clean energy practices, mergers, etc)
+
   - function to apply bias structures to a neural network structure
     - thinking benefits from bias removal
     - remove bias structures in neural networks to improve their thinking capacity
