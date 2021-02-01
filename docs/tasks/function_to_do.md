@@ -1,5 +1,7 @@
 # to do
 
+  - in a market where uncertainty & unexpectedly correct predictions (unlikely predictions) have value, high-value contradictions of assumptions (high price of low-valued stock) are an error type structure
+
   - stock market (predicting uncertain value) x gaming (low-stakes task completion in a system)
     - stock market tasks in a (legal, business) system
       - deriving value of legislation
