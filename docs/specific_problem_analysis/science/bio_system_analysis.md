@@ -1,5 +1,11 @@
 # science
 
+  - examine how to trigger cell-destroying chemical production (inflammation & hypochlorite) as a way to guard against pathogens at likely infection/exposure times
+
+  - examine identity commitment (unified bio-system, connected by priorities & identity system supporting them) as an input to health/recovery/learning
+
+  - examine errors of the 'static' error type (closed circuits, forced circuit traversal, forced position, forced extremes) as an input to mood disorders (anxiety/depression/bipolar/hyperactivity)
+
   - give example of deriving 'protein folding' as a key interface in the bio system, given the stability & interaction level with other systems
 
   - anti-pathogens, which would take the form of viruses to counteract other viruses (like a harmless version of a virus), which would spread through contact without requiring vaccines
