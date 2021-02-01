@@ -3,6 +3,13 @@
   - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
 
+  - the optimized network can be structured as versions for different intents like:
+    - lowest-memory generator: the average network + distortion functions
+    - relevant generator: the network nearest to the most useful versions of it
+    - quick generator: the network with the components that can build other versions at lowest cost
+    - core generator: the network with core components to build all other components
+    - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
+
   - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
     - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
       - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
