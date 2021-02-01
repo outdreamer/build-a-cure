@@ -24,6 +24,11 @@
 
 - here are some ways to rearrange society's resources that don't involve huge investments
 
+  - market differentiation as a way to stimulate economy
+    - agents need different resources to justify a trade
+    - organizing differences across economy, markets, products, resources, automation, & labor to ensure enough differentiation within trade loops that trade itself is protected
+    - creating differences where there are none to stimulate trade (innovation, education, info imbalances, etc)
+
   - college debt: if college grads or current students want to pay off college debt, let them do useful science research or build useful tools out of a national index of tools needed, in return for college credit
 
   - homeless living situation: 
