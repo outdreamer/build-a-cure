@@ -1,5 +1,17 @@
 # to do
 
+  - the optimized network has the interface components necessary to solve any problem, with no extra components
+
+  - primary variables of brain functionality:
+    - connectivity
+    - position/adjacence
+    - structural integrity
+    - available structures
+    - circuits (closed/open)
+    - sub-systems (optimized for a function)
+
+    - for some problems, some aspects of the optimized network should be deactivated/inaccessible - give example of how to calculate the structures necessary to solve a problem structure
+
   - in a market where uncertainty & unexpectedly correct predictions (unlikely predictions) have value, high-value contradictions of assumptions (high price of low-valued stock) are an error type structure
 
   - stock market (predicting uncertain value) x gaming (low-stakes task completion in a system)
