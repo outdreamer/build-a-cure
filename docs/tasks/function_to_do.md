@@ -1,7 +1,15 @@
 # to do
 
-  - stock market x gaming
-    - feature request market
+  - stock market (predicting uncertain value) x gaming (low-stakes task completion in a system)
+    - stock market tasks in a (legal, business) system
+      - deriving value of legislation
+      - predicting legislation
+      - legislation (more static rules) competing with more dynamic rules
+      - forming business structures to aggregate/delegate/distribute risk
+    - predicting uncertain value in tasks
+      - predicting which tasks will win a game
+      - insuring against risk of players completing or not completing a task
+    - feature request & prediction market
     - game plot/cheat code/successful strategy prediction market
     - prediction games
       - false signals, gathering/deriving info, identifying important variables, applying successful analysis rules
