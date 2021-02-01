@@ -1,5 +1,8 @@
 # to do
 
+  - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
+    - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
+
   - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
     - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
       - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
