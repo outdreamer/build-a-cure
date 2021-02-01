@@ -2,7 +2,7 @@
 
   - examine how to trigger cell-destroying chemical production (inflammation & hypochlorite) as a way to guard against pathogens at likely infection/exposure times
 
-  - examine identity commitment (unified bio-system, connected by priorities & identity system supporting them) as an input to health/recovery/learning
+  - examine learning, connectivity/communication, distribution of processing (multiple processing centers like cortexes/brains), identity development & commitment (unified bio-system, connected by priorities & identity system supporting them) as an input to health/recovery (immune system defenses against pathogens, repair, brain cleaning, mutation rejection/correction, foreign/hostile pathogen identification)
 
   - examine errors of the 'static' error type (closed circuits, forced circuit traversal, forced position, forced extremes) as an input to mood disorders (anxiety/depression/bipolar/hyperactivity)
 
