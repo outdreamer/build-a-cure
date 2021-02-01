@@ -75,5 +75,10 @@
 
 	- removal of assumptions
 
+
+	- find high-cost info signals
+		- the most difficult signal to fake regarding intelligence is hard work to help vulnerable agents
+		  - intelligence = empathy = imagination to simulate alternative systems to build understanding without information
+
 - default general insight paths
 	- is it relevant (generates questions about direct usefulness & system context fit)
