@@ -15,7 +15,9 @@
       - apply removal of 'similarity' bias 
         - similarity bias structural definitionss
           - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
-        - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs
+        - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
+
+  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
 
   - function to convert article/listing/social posts into variables to enable queries (product with feature x in budget y that integrates with app z and has attribute independent)
 
