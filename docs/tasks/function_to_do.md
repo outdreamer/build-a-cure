@@ -1,5 +1,11 @@
 # to do
 
+  - how to distribute disease-preventing bacteria
+    - usage of supply chains to use efficiencies like co-deliveries (physical supply chains as supply chains of beneficial bacteria)
+    - apply tools like enzymes to reduce ratio of harmful bacteria in cities to below threshold where it would kill beneficial bacteria
+    - inject bacteria-producing pathogens in insects that have a large range like mosquitoes
+    - use traditional delivery methods (drones, sprays)
+
   - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
 
