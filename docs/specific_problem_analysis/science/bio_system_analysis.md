@@ -1,5 +1,13 @@
 # science
 
+  - examine using the mechanism of forgetting as an alternative to synaptic plasticity in order to enable change/learning
+
+  - how to distribute disease-preventing bacteria
+    - usage of supply chains to use efficiencies like co-deliveries (physical supply chains as supply chains of beneficial bacteria)
+    - apply tools like enzymes to reduce ratio of harmful bacteria in cities to below threshold where it would kill beneficial bacteria
+    - inject bacteria-producing pathogens in insects that have a large range like mosquitoes
+    - use traditional delivery methods (drones, sprays)
+
   - examine how to trigger cell-destroying chemical production (inflammation & hypochlorite) as a way to guard against pathogens at likely infection/exposure times
 
   - examine learning, connectivity/communication, distribution of processing (multiple processing centers like cortexes/brains), identity development & commitment (unified bio-system, connected by priorities & identity system supporting them) as an input to health/recovery (immune system defenses against pathogens, repair, brain cleaning, mutation rejection/correction, foreign/hostile pathogen identification)
