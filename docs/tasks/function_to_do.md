@@ -3,6 +3,9 @@
   - add to decision points
     - when a method & data set can be determined to be capable of deriving the answer
 
+  - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error approach to determine system analysis methods
+    - what steps will prove to be optimal (faster/more accurate) to take in calculations, during processing
+
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
     - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network design, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
 
