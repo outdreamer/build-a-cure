@@ -1,5 +1,18 @@
 # to do
 
+  - example algorithm to identify rules that violate a metric requirement like 'dont exacerbate inequalities' or 'protect minorities on the disadvantaged side of an inequality'
+    - inequality structures: differences in distribution of required resources
+    - generate structures that would exacerbate inequality structures
+      - assumptions in rules (lack of guaranteed potential to follow rule)
+        - rule 'close malls after business hours'
+          - rule structure: 'limiting supplies' (access to facility)
+          - rule assumption: that they have alternative supplies
+        - rule: 'fine for not wearing mask'
+          - rule structure: 'requiring function' (purchase mask)
+          - rule assumption: that they have inputs to a requirement
+      - these assumptions would disproportionately increase inequality's disadvantages in distribution
+      - 'disadvantaging rules/assumptions' can be distributed more evenly or to offset inequalities
+
   - identify semantic processing necessary to get good prediction results with existing algorithms & params
     - example: find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
       - the approximation may leave out other analysis logic like alternative/combination analysis (to identify sets of alternate prediction functions, or causal/functional/priority/missing/type structures in the data set)
