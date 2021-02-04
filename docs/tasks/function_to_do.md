@@ -1,16 +1,26 @@
 # to do
 
   - add to decision points
-    - when a method & data set can be determined to be capable of deriving the answer
+    - when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
 
-  - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error approach to determine system analysis methods
+  - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error or other memory-based approach (simply storing methods that worked & incrementally building on that info) to determine system analysis methods
     - what steps will prove to be optimal (faster/more accurate) to take in calculations, during processing
 
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
     - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network design, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
 
-  - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
+  - examine efficiencies from missing components
+    - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
+    - example:
+      - not having a function incentivizes:
+        - development of that function
+        - alternate: development of a proxy or alternative or invalidating function, making the function itself unnecessary
+        - alternate format: development of a structure/attribute that replaces the requirement for the function or allows the function to be generated as needed
+        - derivation: developing a function to learn/derive/identify/borrow/cooperate functionality from external info, to generate functionality as needed
+        - core: developing components capable of building all functions to generate functionality as needed
+        - subset: developing components of that function so the function & other functions can be generated as needed
+        - combination: development of a function capable of fulfilling that intent & other intents
 
   - the optimized network can be structured as versions for different intents like:
     - lowest-memory generator: the average network + distortion functions
