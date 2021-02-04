@@ -1,6 +1,7 @@
 # to do
 
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
+    - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network design, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
 
   - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
