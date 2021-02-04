@@ -4,14 +4,20 @@
     - when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
 
   - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error or other memory-based approach (simply storing methods that worked & incrementally building on that info) to determine system analysis methods
-    - what steps will prove to be optimal (faster/more accurate) to take in calculations, during processing
+    - what steps will prove to be optimal (faster/more accurate) to take in calculations, before or during processing
 
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
-    - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network design, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
+    - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network structure, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
 
   - examine efficiencies from missing components
     - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
+    - missing component metadata
+      - how adjacently it can be learned/generated/invalidated/delegated/identified/borrowed
+      - how likely it is to be learned/generated/invalidated/delegated/identified/borrowed
+      - whether another missing component can be used instead
+      - whether the system missing that component should be changed instead
+      - whether a system having that component succeeds at the intent task (& fails at others currently fulfilled by the system missing that component)
     - example:
       - not having a function incentivizes:
         - identity: development of that function
@@ -26,16 +32,18 @@
         - distribution: distributing functionality-generating methods to all nodes requiring functions
         - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
 
-  - the optimized network can be structured as versions for different intents like:
-    - lowest-memory generator: the average network + distortion functions
-    - relevant generator: the network nearest to the most useful versions of it
-    - quick generator: the network with the components that can build other versions at lowest cost
-    - core generator: the network with core components to build all other components
-    - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
+  - optimized network structure
 
-  - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
-    - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
-      - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
+    - the optimized network can be structured as versions for different intents like:
+      - lowest-memory generator: the average network + distortion functions
+      - relevant generator: the network nearest to the most useful versions of it
+      - quick generator: the network with the components that can build other versions at lowest cost
+      - core generator: the network with core components to build all other components
+      - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
+
+    - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
+      - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
+        - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
 
   - primary variables of brain functionality:
     - connectivity/alignment
