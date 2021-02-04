@@ -14,13 +14,17 @@
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
     - example:
       - not having a function incentivizes:
-        - development of that function
+        - identity: development of that function
+        - abstraction: development of generalization of that function, parameterizing that function intent
         - alternate: development of a proxy or alternative or invalidating function, making the function itself unnecessary
+        - cause: development of structure/function/attribute that invalidates the original requirement metadata (priority, intent, dependency structures), not just invalidating the function
         - alternate format: development of a structure/attribute that replaces the requirement for the function or allows the function to be generated as needed
         - derivation: developing a function to learn/derive/identify/borrow/cooperate functionality from external info, to generate functionality as needed
         - core: developing components capable of building all functions to generate functionality as needed
         - subset: developing components of that function so the function & other functions can be generated as needed
         - combination: development of a function capable of fulfilling that intent & other intents
+        - distribution: distributing functionality-generating methods to all nodes requiring functions
+        - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
 
   - the optimized network can be structured as versions for different intents like:
     - lowest-memory generator: the average network + distortion functions
