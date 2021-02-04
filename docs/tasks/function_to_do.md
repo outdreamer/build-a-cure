@@ -1,5 +1,8 @@
 # to do
 
+  - add to decision points
+    - when a method & data set can be determined to be capable of deriving the answer
+
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
     - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network design, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
 
