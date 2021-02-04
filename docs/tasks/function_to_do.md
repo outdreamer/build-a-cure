@@ -4,11 +4,13 @@
     - example: find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
       - the approximation may leave out other analysis logic like alternative/combination analysis (to identify sets of alternate prediction functions, or causal/functional/priority/missing/type structures in the data set)
       - however it may find objects on an interface by including interface objects (include concept definition of agency/skill/decision in the titanic survival data set may identify concepts like 'education' as causative, given that a combination of agency/skill/decisions can be used to produce concept of 'education' = 'an agent making a decision to acquire a skill')
-      - similarly, including structural definitions of 'relevance' may improve prediction results with standard algorithms
-        - 'including' meaning 'standardizing to relevance structures, such as adjacence, inputs, interaction level, etc'
-        - first you'd apply standard analysis to get a set of probable dependency graphs
+      - similarly, including structural definitions of 'relevance' may improve prediction results with standard algorithms, allowing output structures of relevance like 'semantic variable connections on the relevance level input to the algorithm', such as an 'explanation'
+        - 'including' meaning 'standardizing to relevance structures, such as similarity/adjacence, inputs, interaction level, etc'
+        - first you'd apply standard analysis to get a set of probable dependency graphs, with paths like:
+          - gender => lifeboat access => survival rate
         - then you'd apply standardization to relevance structures to the dependency graphs
-        - the output would be an approximation of meaning, allowing explanations like 'being female (variable value) increased probability (ratio of outcome among possible alternatives) of being prioritized (randomness structures like starting position as well as the concept of agency in filter structure) for access to survival tools (type of 'lifeboat')
+          - difference in functional position (gender roles) => difference in function (skills) => difference in usage (responsibility) => difference in resource access => 'survival' intent inputs => 'survival' intent fulfillment
+        - the output would be an approximation of meaning, allowing explanations like 'being female (variable value) increased probability (ratio of outcome among possible alternatives) of being prioritized (randomness structures like starting position as well as the concept of agency in filter structure) for access to survival tools (type of 'lifeboat') bc of less agency/responsibility/skills'
 
   - add to decision points
     - when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
