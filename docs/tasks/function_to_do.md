@@ -103,9 +103,12 @@
 
   - apply anti-stupidity structures to neural network structure 
     - lack of learning functionality
-      - ability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
-      - ability to simulate difference structures (contradictions, paradoxes, lack of similarity)
-      - ability to direct thoughts (focus)
+      - inability to remember (identify relevant info quickly when new info isnt necessary)
+      - inability to identify relevance structures (meaning, usefulness, direct causation)
+      - inability to optimize (identify a quicker route to an insight, like an insight path)
+      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
+      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
+      - inability to direct thoughts (focus)
       - inability to forget sub-optimal/inaccurate rules (bias)
         - function to apply bias structures to a neural network structure
           - thinking benefits from bias removal
