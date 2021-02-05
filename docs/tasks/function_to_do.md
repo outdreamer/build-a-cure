@@ -101,22 +101,28 @@
     - games accessed with performance in previous prediction games to find best predictors and assign them more complex problems, like predicting emergent trends in interactions of complex systems
     - business & stock markets as an info-trading game to get products/features/prices and other company byproducts (clean energy practices, mergers, etc)
 
-  - function to apply bias structures to a neural network structure
-    - thinking benefits from bias removal
-    - remove bias structures in neural networks to improve their thinking capacity
-    - example
-      - apply removal of 'simplicity' bias in a neural network structure
-        - simplicity (specifically over-simplification) definition on structural interface: 
-          - lossy lower-dimensional representation
-          - low-cost representation with relatively reduced learning reward
-        - the simplicity bias shows up in a neural network structure in many possible positions
-          - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
-            - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
-          - general default params also tend to store simplicity where it's not needed
-      - apply removal of 'similarity' bias 
-        - similarity bias structural definitionss
-          - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
-        - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
+  - apply anti-stupidity structures to neural network structure 
+    - lack of learning functionality
+      - ability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
+      - ability to simulate difference structures (contradictions, paradoxes, lack of similarity)
+      - ability to direct thoughts (focus)
+      - inability to forget sub-optimal/inaccurate rules (bias)
+        - function to apply bias structures to a neural network structure
+          - thinking benefits from bias removal
+          - remove bias structures in neural networks to improve their thinking capacity
+          - example
+            - apply removal of 'simplicity' bias in a neural network structure
+              - simplicity (specifically over-simplification) definition on structural interface: 
+                - lossy lower-dimensional representation
+                - low-cost representation with relatively reduced learning reward
+              - the simplicity bias shows up in a neural network structure in many possible positions
+                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
+                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
+                - general default params also tend to store simplicity where it's not needed
+            - apply removal of 'similarity' bias 
+              - similarity bias structural definitionss
+                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
+              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
 
   - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
 
