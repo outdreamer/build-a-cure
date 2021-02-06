@@ -1,5 +1,7 @@
 # to do
 
+  - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error types barriers, abstraction levels, etc)
+
   - example algorithm to identify rules that violate a metric requirement like 'dont exacerbate inequalities' or 'protect minorities on the disadvantaged side of an inequality'
     - inequality structures: differences in distribution of required resources
     - generate structures that would exacerbate inequality structures
