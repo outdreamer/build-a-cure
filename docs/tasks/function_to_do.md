@@ -1,6 +1,7 @@
 # to do
 
-  - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions & distortion vectors of a neural network into the output prediction function
+  - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions of a neural network into the output prediction function
+  - examine the distortion vectors paths that adjacently decompose a data set into a prediction function
 
   - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error type boundaries, abstraction levels, etc)
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
