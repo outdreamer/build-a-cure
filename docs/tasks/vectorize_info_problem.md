@@ -67,6 +67,14 @@
               - 'obvious' math structure definition route:
                 - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
 
+                - example of formatting an argument as a shape
+                  - a, b, c, d are points on a square, starting from top left and going clockwise
+                  - side length: degree of difference
+                  - side line: change type with direction from starting point to end point
+                  - right angle: independence (difference in change type)
+                  - ad is different from ab by independence of change type & direction
+                  - ad is different from bc by starting/ending positions, but have similar change type & degree
+
     - another example, in reverse (meaning to math)
         - relevance: 
           - info that fits in a system (connects coordinating inputs/outputs, changes on system variables, has an intent position/function in the system, doesnt contradict system intents)
