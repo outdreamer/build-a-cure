@@ -42,7 +42,7 @@
           - calculate the contribution of that space in another space where it would contribute to those difference types
           - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there
 
-    - example of structural math info formats according to intent
+    - example of structural math info formats according to intent to calculate linguistic operations (solve info problems) 
       - add to shape definition routes with matching intents supported by each
         - adjacent intents use the objects directly stated in the definition route:
           - endpoint alignment
@@ -65,6 +65,10 @@
           - testing for obviousness of an argument:
             - 'obvious' math structure definition route:
               - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
+
+      - another example:
+        - relevance: info that is useful for a defined/structured input intent
+          - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
 
     - example of a vertex of a structure, like vertex vectors
       - the integrating structure organizing these structure formats (alternate, identifying) of a structure (vector) forms a complete description of a vertex, which can be indexed on a vertex vector space
