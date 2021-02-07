@@ -4,9 +4,12 @@
 
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
 
-  - identify contradictions & distortions from expected normal as input to info type generation algorithm
+  - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
 
   - example of how to mathematize (apply math structures to) an info problem (like vectorization)
+    - identify vertexes & transform input info to vectors for each vertex
+    - identify interfaces & primary interface objects & transform input to vectors for each vertex
+    - apply queries across vector spaces to find patterns of change that produce solutions optimally (quickest or most accurately)
 
   - consensus-building perspective algorithm
 
