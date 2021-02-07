@@ -1,22 +1,26 @@
 # to do
 
-  - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error types barriers, abstraction levels, etc)
-    - "isolate => maximize => combine" maps to a high-level intent like "voting"
+  - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error type boundaries, abstraction levels, etc)
+    - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
     - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
-
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
-
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
-
-  - consensus-building perspective algorithm
-
-  - concepts
-
+  
+  - consensus-building perspective algorithm (transform a structure in each perspective to a structure in the target perspective)
+    - identify structure of attributes/functions/objects common to both perspectives
+      - identify interface objects within structures
+        - identify similarities in interface objects within structures
+  
+  - structural concept definition routes
     - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
-
     - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
 
-  - example algorithm to identify rules that violate a metric requirement like 'dont exacerbate inequalities' or 'protect minorities on the disadvantaged side of an inequality'
+  - example algorithm to identify rules that violate a metric 
+    - requirement like: 
+      - 'dont exacerbate inequalities'
+      - 'protect minorities on the disadvantaged side of an inequality'
+      - 'identify advantaged side'
+    - power structures: required or non-specific/universal resources (such as inputs to any function, like 'energy' or 'information')
     - inequality structures: differences in distribution of required resources
     - generate structures that would exacerbate inequality structures
       - assumptions in rules (lack of guaranteed potential to follow rule)
