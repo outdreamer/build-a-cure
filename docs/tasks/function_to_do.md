@@ -28,7 +28,7 @@
         - vector boundaries: store info about vectors with similar interaction layers (like 'interacting with a sphere of radius 1')
         - vector gaps: store info about a space lacking vectors in a vector space
         - vector bases (core sets): store info about alternate basis vector sets describing a vector space according to different bases of change units
-        - vector shapes: shapes formed by vectors (polygons, shapes, corners, angles, centers, intersections)
+        - vector shapes: shapes formed by vectors (points, polygons, shapes, corners, angles, centers, intersections)
         
       - the vectors may be more efficiently described in one format than another, within or across spaces
       - to integrate the vector spaces that have had these formats applied, you can:
@@ -40,17 +40,51 @@
 
   - example of a vertex of a structure, like vertex vectors
     - alternate
-    - substitute
+      - what vectors can be an alternate for it (like an alternate route forming another vector)
+      - substitute
+        - what vectors can be a substitute for it, in what conditions
     - generative
+      - what vectors generate it (input vectors + generative vectors)
     - determining
+      - what vectors determine it (input vectors)
+    - contradicting
+      - what vectors oppose its direction
+    - neutralizing
+      - what vectors invalidate it
+    - balancing
+      - what vectors balance it (toward some equilibrium like a symmetry)
+    - limiting
+      - what vectors limit/bound/constrain it
+    - grouping
+      - how does it combine with other change types
+      - connecting
+        - how does it connect to other changee types
+      - integrating
+        - how does it merge with other change types
+    - minimizing/averaging/maximizing
+      - how to get to zero
+      - how to get to average
+      - how to get to infinity
     - causative
+      - what vectors cause it (consistently triggering inputs)
     - optimizing
+      - what vectors optimize it (generate it or maximize it efficiently)
     - core
+      - what vectors can be used to construct it using a structure (like a sequence or set)
     - common
+      - what vectors are common to it & other vectors
     - distorting
-    - approximating
+      - what vectors distort it from some base vector (like a core or common or average vector)
     - identifying
-    - compressing
+      - what vectors can be used to identify it 
+      - differentiating
+        - how to maximize difference
+      - approximating
+        - what vectors approximate it
+      - compressing
+        - what vectors efficiently compress it without losing info
+    - originating
+      - what vectors connect it or position it at which origin
 
   - consensus-building perspective algorithm
 
