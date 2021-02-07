@@ -23,12 +23,20 @@
 
       - given the set of vectors mapped within each space, the generative/determining/causative/optimizing/core/common/distorting/approximating/identifying/compressing vectors (vertex vectors) of the original differentiating vectors can be mapped as the vector space instead
 
-      - alternative formats/variables
+      - alternative vector formats/variables
         - vector paths: store method to generate a particular vector
         - vector boundaries: store info about vectors with similar interaction layers (like 'interacting with a sphere of radius 1')
         - vector gaps: store info about a space lacking vectors in a vector space
         - vector bases (core sets): store info about alternate basis vector sets describing a vector space according to different bases of change units
-        - vector shapes: shapes formed by vectors
+        - vector shapes: shapes formed by vectors (polygons, shapes, corners, angles, centers, intersections)
+        
+      - the vectors may be more efficiently described in one format than another, within or across spaces
+      - to integrate the vector spaces that have had these formats applied, you can:
+        - maintain the original space and describe the vector variables with new vector sets
+        - create new vector spaces to map the differences in that variable
+      - if the differences dont hold across every vector space, you can:
+        - calculate the contribution of that space in another space where it would contribute to those difference types
+        - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there
 
   - example of a vertex of a structure, like vertex vectors
     - alternate
