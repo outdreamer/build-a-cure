@@ -68,9 +68,11 @@
                 - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
 
     - another example, in reverse (meaning to math)
-        - relevance: info that is useful for a defined/structured input intent
-          - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
-          - so any implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
+        - relevance: 
+          - info that fits in a system (connects coordinating inputs/outputs, changes on system variables, has an intent position/function in the system, doesnt contradict system intents)
+            - info that is useful for a defined/structured input intent
+              - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
+              - so an implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
 
     - example of a vertex of a structure, like vertex vectors
       - the integrating structure organizing these structure formats (alternate, identifying) of a structure (vector) forms a complete description of a vertex, which can be indexed on a vertex vector space
