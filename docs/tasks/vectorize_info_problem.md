@@ -42,6 +42,21 @@
           - calculate the contribution of that space in another space where it would contribute to those difference types
           - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there
 
+    - example of structural math info formats according to intent
+      - add to shape definition routes with matching intents supported by each
+        - adjacent intents use the objects directly stated in the definition route:
+          - endpoint alignment
+            - adjacent intents associated with this format:
+              - use endpoints & rotation/shifting transforms to build a shape
+              - complete a shape using a line and an 'align endpoint' function
+              - store just endpoint & alignment info
+              - use an angle determining function to provide input to an alignment function
+              - keep coordinate info intact after transform
+              - track changes within space using endpoint/line coordinate changes
+              - use core structure (line, angle) as a building block
+          - coordinates of one corner & side length
+          - side count & angle
+
     - example of a vertex of a structure, like vertex vectors
       - the integrating structure organizing these structure formats (alternate, identifying) of a structure (vector) forms a complete description of a vertex, which can be indexed on a vertex vector space
 
