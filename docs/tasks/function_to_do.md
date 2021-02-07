@@ -17,7 +17,11 @@
       [space coefficient combination].[vector coefficient combination]
       [space topology position].[vector topology position]
 
-      - in this format, you store info about the original vector with its relative position given the basis vectors of that space, and info about the original space with its relative position to other spaces
+      - in this format, you store info about the original vector with its relative position to other vectors given the basis vectors of that space, and info about the original space with its relative position to other spaces
+
+      - each space offers a relative position for differences in an interface
+
+      - given the set of vectors mapped within each space, the generative/determining/approximating/identifying/compressing vectors (vertex vectors) of the original differentiating vectors can be mapped as the vector space instead
 
   - consensus-building perspective algorithm
 
