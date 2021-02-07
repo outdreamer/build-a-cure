@@ -21,26 +21,26 @@
         [space coefficient combination].[vector coefficient combination]
         [space topology position].[vector topology position]
 
-        - in this format, you store info about the original vector with its relative position to other vectors given the basis vectors of that space, and info about the original space with its relative position to other spaces
+      - in this format, you store info about the original vector with its relative position to other vectors given the basis vectors of that space, and info about the original space with its relative position to other spaces
 
         - each space offers a relative position for differences in an interface
 
         - given the set of vectors mapped within each space, the vertex vectors of the original differentiating vectors can be mapped as the vector space instead
 
-        - alternative vector formats/variables
+      - alternative vector formats/variables
           - vector paths: store method to generate a particular vector
           - vector boundaries: store info about vectors with similar interaction layers (like 'interacting with a sphere of radius 1')
           - vector gaps: store info about a space lacking vectors in a vector space
           - vector bases (core sets): store info about alternate basis vector sets describing a vector space according to different bases of change units
           - vector shapes: shapes formed by vectors (points, polygons, shapes, corners, angles, centers, intersections)
           
-        - the vectors may be more efficiently described in one format than another, within or across spaces
+      - the vectors may be more efficiently described in one format than another, within or across spaces
         - to integrate the vector spaces that have had these formats applied, you can:
           - maintain the original space and describe the vector variables with the new vertex vector sets
           - create new vector spaces to map the differences in that variable
         - if the differences dont hold across every vector space, you can:
-          - calculate the contribution of that space in another space where it would contribute to those difference types
-          - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there
+          - calculate the contribution of that space in another space where it would contribute to those difference types (apply elements in a biological space)
+          - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there (genes & elements in an evolutionary space)
 
     - example of mapping math to meaning formats
       - structural math info formats according to intent to calculate semantic operations (solve info problems) 
@@ -67,7 +67,7 @@
               - 'obvious' math structure definition route:
                 - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
 
-      - another example, in reverse (meaning to math)
+    - another example, in reverse (meaning to math)
         - relevance: info that is useful for a defined/structured input intent
           - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
           - so any implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
