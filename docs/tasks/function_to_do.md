@@ -1,15 +1,13 @@
 # to do
 
-  - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions of a neural network into the output prediction function
-  - examine the distortion vector paths that adjacently decompose a data set into a prediction function
+  - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+  - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
+  - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions represented by a neural network into the output prediction function
+  - examine the distortion vector paths that adjacently decompose a data set into a prediction function from a base point/function set
 
-  - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error type boundaries, abstraction levels, etc)
+  - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (concepts like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc)
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
     - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
-  
-  - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
-  
-  - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
   
   - consensus-building perspective algorithm (transform a structure in each perspective to a structure in the target perspective)
     - identify structure of attributes/functions/objects common to both perspectives (connecting function: 'function connecting power and distribution', 'function describing dictatorship dynamics')
@@ -54,7 +52,7 @@
     - when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
 
   - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error or other memory-based approach (simply storing methods that worked & incrementally building on that info) to determine system analysis methods
-    - what steps will prove to be optimal (faster/more accurate) to take in calculations, before or during processing
+    - what calculations will prove to be optimal (faster/more accurate), before or during processing
 
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
     - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network structure, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
