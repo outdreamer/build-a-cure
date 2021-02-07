@@ -11,6 +11,14 @@
     - identify interfaces & primary interface objects & transform input to vectors for each vertex
     - apply queries across vector spaces to find patterns of change that produce solutions optimally (quickest or most accurately)
 
+    - integrated info format for formatting vectors across vector spaces representing differences within an interface/vertex variable
+      space1.vectorA (magnitudeA, directionA) = space1.basis vector coefficient combination
+      spaces.space1.vectorA = spacevector.vectorA = vector differenting from other spaces
+      [space coefficient combination].[vector coefficient combination]
+      [space topology position].[vector topology position]
+
+      - in this format, you store info about the original vector with its relative position given the basis vectors of that space, and info about the original space with its relative position to other spaces
+
   - consensus-building perspective algorithm
 
   - concepts
