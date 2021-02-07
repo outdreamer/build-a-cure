@@ -1,18 +1,20 @@
 # to do
 
   - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions of a neural network into the output prediction function
-  - examine the distortion vectors paths that adjacently decompose a data set into a prediction function
+  - examine the distortion vector paths that adjacently decompose a data set into a prediction function
 
   - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error type boundaries, abstraction levels, etc)
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
     - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
+  
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+  
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
   
   - consensus-building perspective algorithm (transform a structure in each perspective to a structure in the target perspective)
-    - identify structure of attributes/functions/objects common to both perspectives (
-      - identify interface objects within structures
-        - identify similarities in interface objects within structures
+    - identify structure of attributes/functions/objects common to both perspectives (connecting function: 'function connecting power and distribution', 'function describing dictatorship dynamics')
+      - identify interface objects within structures (change type in conneecting function: 'direction of power distribution', 'changes in identity & size of group in power')
+        - identify similarities in interface objects within structures (similar change pattern in change type in connecting function: 'power favoring distribution', 'military coups after power abuses')
   
   - structural concept definition routes
     - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
