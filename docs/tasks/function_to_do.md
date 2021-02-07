@@ -1,5 +1,7 @@
 # to do
 
+  - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions & distortion vectors of a neural network into the output prediction function
+
   - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error type boundaries, abstraction levels, etc)
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
     - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
@@ -7,7 +9,7 @@
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
   
   - consensus-building perspective algorithm (transform a structure in each perspective to a structure in the target perspective)
-    - identify structure of attributes/functions/objects common to both perspectives
+    - identify structure of attributes/functions/objects common to both perspectives (
       - identify interface objects within structures
         - identify similarities in interface objects within structures
   
