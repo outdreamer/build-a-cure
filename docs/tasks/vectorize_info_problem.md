@@ -1,10 +1,15 @@
   - algorithm to mathematize (apply math structures to) an info problem
 
-    - combinatorialization: find sets
-
-    - functionalization: find connections
-
-    - vectorization: find differences
+    - apply point structure: find examples
+    - apply set structure: find combinations
+    - apply boundary structure: find limits (systems, shapes, expectations)
+    - apply gap structure: find possibilities (opportunities)
+    - apply sequence structure: find paths
+      - apply input structure: find assumptions (requirements)
+      - apply output structure: find intent (side effects)
+      - apply function structure: find connections (cause)
+    - apply origin structure: find symmetries (equivalence)
+    - apply vector structure: find differences (comparisons, opposites, errors, distortions/imbalances)
 
       - identify vertexes & transform input info to vectors for each vertex
       - identify interfaces & primary interface objects & transform input to vectors for each vertex
