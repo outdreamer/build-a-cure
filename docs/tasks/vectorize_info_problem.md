@@ -65,15 +65,22 @@
           - this structure can be applied to info problems
             - testing for obviousness of an argument:
               - 'obvious' math structure definition route:
-                - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
+                - adjacent change:
+                  - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
+                  - forming a square with two triangles is an 'obvious' way to make an argument that 'two triangles are equal to a square'
 
                 - example of formatting an argument as a shape
                   - a, b, c, d are points on a square, starting from top left and going clockwise
                   - side length: degree of difference
                   - side line: change type with direction from starting point to end point
+                  - change type: straight line, constant, tangent, border, etc
                   - right angle: independence (difference in change type)
-                  - ad is different from ab by independence of change type & direction
-                  - ad is different from bc by starting/ending positions, but have similar change type & degree
+                  - ad is similar to ab by starting position, but different by independence (in change type & direction)
+                  - ad is different from bc by starting/ending positions, but have similar change type & degree, and are connected in two ways by one degree
+
+                - inevitable conclusions map adjacently to filters with one possible output structure indicating the relationship of the conclusion objects
+
+                - logical conclusions are buildable from other logical conclusions or insights (known connections) with accessible transform operations applied
 
     - another example, in reverse (meaning to math)
         - relevance: 
