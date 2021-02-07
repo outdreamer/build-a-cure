@@ -23,7 +23,13 @@
 
       - given the set of vectors mapped within each space, the generative/determining/causative/optimizing/core/common/distorting/approximating/identifying/compressing vectors (vertex vectors) of the original differentiating vectors can be mapped as the vector space instead
 
+      - alternative formats/variables
+        - vector paths: store method to generate a particular vector
+        - vector boundaries: store info about vectors with similar interaction layers (like 'interacting with a sphere of radius 1')
+
   - example of a vertex of a structure, like vertex vectors
+    - alternate
+    - substitute
     - generative
     - determining
     - causative
