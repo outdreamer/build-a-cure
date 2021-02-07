@@ -21,7 +21,19 @@
 
       - each space offers a relative position for differences in an interface
 
-      - given the set of vectors mapped within each space, the generative/determining/approximating/identifying/compressing vectors (vertex vectors) of the original differentiating vectors can be mapped as the vector space instead
+      - given the set of vectors mapped within each space, the generative/determining/causative/optimizing/core/common/distorting/approximating/identifying/compressing vectors (vertex vectors) of the original differentiating vectors can be mapped as the vector space instead
+
+  - example of a vertex of a structure, like vertex vectors
+    - generative
+    - determining
+    - causative
+    - optimizing
+    - core
+    - common
+    - distorting
+    - approximating
+    - identifying
+    - compressing
 
   - consensus-building perspective algorithm
 
