@@ -39,6 +39,10 @@
         - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there
 
   - example of a vertex of a structure, like vertex vectors
+    - the integrating structure organizing these structure formats (alternate, identifying) of a structure (vector) forms a complete description of a vertex, which can be indexed on a vertex vector space
+
+    - abstraction
+      - what vectors can be used to describe the vector generalization (like a vector in the vector type space)
     - alternate
       - what vectors can be an alternate for it (like an alternate route forming another vector)
       - substitute
@@ -55,7 +59,7 @@
       - what vectors balance it (toward some equilibrium like a symmetry)
     - limiting
       - what vectors limit/bound/constrain it
-    - grouping
+    - grouping/integrating
       - how does it combine with other change types
       - connecting
         - how does it connect to other changee types
@@ -83,6 +87,9 @@
         - what vectors approximate it
       - compressing
         - what vectors efficiently compress it without losing info
+        - what info is lost with what compressions
+      - expanding
+        - what vectors efficiently expand it
     - originating
       - what vectors connect it or position it at which origin
 
