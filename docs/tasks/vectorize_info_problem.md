@@ -42,33 +42,35 @@
           - calculate the contribution of that space in another space where it would contribute to those difference types
           - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there
 
-    - example of structural math info formats according to intent to calculate linguistic operations (solve info problems) 
-      - add to shape definition routes with matching intents supported by each
-        - adjacent intents use the objects directly stated in the definition route:
-          - endpoint alignment
-            - adjacent intents associated with this format:
-              - use endpoints & rotation/shifting transforms to build a shape
-              - complete a shape using a line and an 'align endpoint' function
-              - store just endpoint & alignment info
-              - use an angle determining function to provide input to an alignment function
-              - keep coordinate info intact after transform
-              - track changes within space using endpoint/line coordinate changes
-              - use core structure (line, angle) as a building block
-          - coordinates of one corner & side length
-          - side count & angle
-      - these intents can be mapped to language
-        - "align endpoints" = "connect" (such as in the case of "connect a line to a shape missing one line to be completed")
-        
-      - once mapped to language, it is clearer how these structures can be used to calculate other metrics
-        - in the "connect a line with a shape to complete a shape" case, its good if we already stored info as coordinates & lines, bc then we can adjacently pick a line & place it in the right position to complete the shape, by aligning coordinates of endpoints
-        - this structure can be applied to info problems
-          - testing for obviousness of an argument:
-            - 'obvious' math structure definition route:
-              - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
+    - example of mapping math to meaning formats
+      - structural math info formats according to intent to calculate semantic operations (solve info problems) 
+        - add to shape definition routes with matching intents supported by each
+          - adjacent intents use the objects directly stated in the definition route:
+            - endpoint alignment
+              - adjacent intents associated with this format:
+                - use endpoints & rotation/shifting transforms to build a shape
+                - complete a shape using a line and an 'align endpoint' function
+                - store just endpoint & alignment info
+                - use an angle determining function to provide input to an alignment function
+                - keep coordinate info intact after transform
+                - track changes within space using endpoint/line coordinate changes
+                - use core structure (line, angle) as a building block
+            - coordinates of one corner & side length
+            - side count & angle
+        - these intents can be mapped to meaning
+          - "align endpoints" = "connect" (such as in the case of "connect a line to a shape missing one line to be completed")
+          
+        - once mapped to meaning, it is clearer how these structures can be used to calculate other metrics
+          - in the "connect a line with a shape to complete a shape" case, its good if we already stored info as coordinates & lines, bc then we can adjacently pick a line & place it in the right position to complete the shape, by aligning coordinates of endpoints
+          - this structure can be applied to info problems
+            - testing for obviousness of an argument:
+              - 'obvious' math structure definition route:
+                - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
 
-      - another example:
+      - another example, in reverse (meaning to math)
         - relevance: info that is useful for a defined/structured input intent
           - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
+          - so any implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
 
     - example of a vertex of a structure, like vertex vectors
       - the integrating structure organizing these structure formats (alternate, identifying) of a structure (vector) forms a complete description of a vertex, which can be indexed on a vertex vector space
