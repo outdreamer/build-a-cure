@@ -21,7 +21,7 @@
 
       - each space offers a relative position for differences in an interface
 
-      - given the set of vectors mapped within each space, the generative/determining/causative/optimizing/core/common/distorting/approximating/identifying/compressing vectors (vertex vectors) of the original differentiating vectors can be mapped as the vector space instead
+      - given the set of vectors mapped within each space, the vertex vectors of the original differentiating vectors can be mapped as the vector space instead
 
       - alternative vector formats/variables
         - vector paths: store method to generate a particular vector
@@ -32,7 +32,7 @@
         
       - the vectors may be more efficiently described in one format than another, within or across spaces
       - to integrate the vector spaces that have had these formats applied, you can:
-        - maintain the original space and describe the vector variables with new vector sets
+        - maintain the original space and describe the vector variables with the new vertex vector sets
         - create new vector spaces to map the differences in that variable
       - if the differences dont hold across every vector space, you can:
         - calculate the contribution of that space in another space where it would contribute to those difference types
