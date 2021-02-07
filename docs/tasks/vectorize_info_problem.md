@@ -56,6 +56,15 @@
               - use core structure (line, angle) as a building block
           - coordinates of one corner & side length
           - side count & angle
+      - these intents can be mapped to language
+        - "align endpoints" = "connect" (such as in the case of "connect a line to a shape missing one line to be completed")
+        
+      - once mapped to language, it is clearer how these structures can be used to calculate other metrics
+        - in the "connect a line with a shape to complete a shape" case, its good if we already stored info as coordinates & lines, bc then we can adjacently pick a line & place it in the right position to complete the shape, by aligning coordinates of endpoints
+        - this structure can be applied to info problems
+          - testing for obviousness of an argument:
+            - 'obvious' math structure definition route:
+              - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
 
     - example of a vertex of a structure, like vertex vectors
       - the integrating structure organizing these structure formats (alternate, identifying) of a structure (vector) forms a complete description of a vertex, which can be indexed on a vertex vector space
