@@ -2,6 +2,20 @@
 
   - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (security, error types barriers, abstraction levels, etc)
 
+  - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+
+  - identify contradictions & distortions from expected normal as input to info type generation algorithm
+
+  - example of how to mathematize (apply math structures to) an info problem (like vectorization)
+
+  - consensus-building perspective algorithm
+
+  - concepts
+
+    - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
+
+    - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
+
   - example algorithm to identify rules that violate a metric requirement like 'dont exacerbate inequalities' or 'protect minorities on the disadvantaged side of an inequality'
     - inequality structures: differences in distribution of required resources
     - generate structures that would exacerbate inequality structures
