@@ -1,5 +1,9 @@
 # to do
 
+  - identify definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
+    - example: a definition route that cant be used as a definition of balance & power, just one
+    - unique intents are also a useful foundation structure for the intent interface
+
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
   - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions represented by a neural network into the output prediction function
