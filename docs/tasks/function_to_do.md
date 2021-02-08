@@ -4,6 +4,10 @@
     - example: a definition route that cant be used as a definition of balance & power, just one
     - unique intents are also a useful foundation structure for the intent interface
 
+  - apply structures to error types
+    - false equivalence structures:
+      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
+
   - give example of mapping to structures & identifying contradictions its safe to ignore for applying a structure
 
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
