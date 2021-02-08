@@ -71,16 +71,20 @@
 
                 - example of formatting an argument as a shape
                   - a, b, c, d are points on a square, starting from top left and going clockwise
+                  - line structure: change operation
                   - side length: degree of difference
                   - side line: change type with direction from starting point to end point
+                  - connection: direct relevance
                   - change type: straight line, constant, tangent, border, etc
-                  - right angle: independence (difference in change type)
+                  - right angle/parallel: independence/dependence (difference/similarity in change type)
                   - ad is similar to ab by starting position, but different by independence (in change type & direction)
                   - ad is different from bc by starting/ending positions, but have similar change type & degree, and are connected in two ways by one degree
 
                 - inevitable conclusions map adjacently to filters with one possible output structure indicating the relationship of the conclusion objects
 
                 - logical conclusions are buildable from other logical conclusions or insights (known connections) with accessible transform operations applied
+
+              - function: link nodes in a network ('connecting the dots')
 
     - another example, in reverse (meaning to math)
         - relevance: 
