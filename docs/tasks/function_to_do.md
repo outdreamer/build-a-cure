@@ -1,8 +1,12 @@
 # to do
 
-  - identify definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
-    - example: a definition route that cant be used as a definition of balance & power, just one
-    - unique intents are also a useful foundation structure for the intent interface
+  - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
+
+  - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
+
+    - identify 'inevitable' definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
+      - example: a definition route that cant be used as a definition of balance & power, just one
+      - unique intents are also a useful foundation structure for the intent interface
 
   - apply structures to error types
     - false equivalence structures:
