@@ -7,7 +7,7 @@
   - apply structures to error types
     - false equivalence structures:
       - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
-      - the memory lack can look like a lack of ability, but its a false equivalence caused by a lack of an input resource
+      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
 
   - apply structures to overlaps in definition routes
     - find the adjacent structure without contradictions, that doesnt resolve to either specific option, within the limits of both definition routes
@@ -27,6 +27,7 @@
     - example:
       - query for intents that would require movement in different directions, 
       - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
+  
   - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (concepts like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc)
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
     - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
