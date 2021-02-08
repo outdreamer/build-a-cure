@@ -22,7 +22,11 @@
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
   - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions represented by a neural network into the output prediction function
   - examine the distortion vector paths that adjacently decompose a data set into a prediction function from a base point/function set
-
+  - algorithm to identify contradictions (of a statement formatted as a route between network nodes)
+    - query for conditions that would make some input, component, or output of the statement function some structure of falsehood (invalid, impossible)
+    - example:
+      - query for intents that would require movement in different directions, 
+      - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
   - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (concepts like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc)
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
     - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
