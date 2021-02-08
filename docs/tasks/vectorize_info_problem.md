@@ -89,7 +89,7 @@
     - another example, in reverse (meaning to math)
         - relevance: 
           - info that fits in a system (connects coordinating inputs/outputs, changes on system variables, has an intent position/function in the system, doesnt contradict system intents)
-            - info that is useful for a defined/structured input intent
+            - info that is useful for a defined/structured input intent or output impact at x degrees away from input
               - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
               - so an implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
 
