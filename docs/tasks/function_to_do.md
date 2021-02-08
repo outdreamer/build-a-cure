@@ -7,6 +7,14 @@
   - apply structures to error types
     - false equivalence structures:
       - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
+      - the memory lack can look like a lack of ability, but its a false equivalence caused by a lack of an input resource
+
+  - apply structures to overlaps in definition routes
+    - find the adjacent structure without contradictions, that doesnt resolve to either specific option, within the limits of both definition routes
+      - lack/limit :: resource 
+      - function :: resource 
+        - resource-generating function :: resource
+          - resource :: function
 
   - give example of mapping to structures & identifying contradictions its safe to ignore for applying a structure
 
