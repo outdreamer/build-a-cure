@@ -23,6 +23,8 @@
   - structural concept definition routes
     - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
     - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
+    - thinking definition as 'applying structure to uncertainty'
+    - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
 
   - example algorithm to identify rules that violate a metric 
     - requirement like: 
