@@ -86,7 +86,8 @@
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
     - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network structure, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
     - applications
-      - performing calculations in places with less gravity to speed them up and send them back to places with more gravity to get answers relatively quickly
+      - anti-structures: enforced lack of structure to preserve lack of structure development to ensure scale of operations
+        - performing calculations in places with less gravity to speed them up and send them back to places with more gravity to get answers relatively quickly
     - questions
       - which change measurement syncs the best with time progression
       - time speed factors: 
