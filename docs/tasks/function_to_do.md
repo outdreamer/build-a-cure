@@ -85,6 +85,8 @@
 
   - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
     - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network structure, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
+    - applications
+      - performing calculations in places with less gravity to speed them up and send them back to places with more gravity to get answers relatively quickly
 
   - examine efficiencies from missing components
     - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
