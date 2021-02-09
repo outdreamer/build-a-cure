@@ -90,6 +90,8 @@
         - performing calculations in places with less gravity to speed them up and send them back to places with more gravity to get answers relatively quickly
     - questions
       - which change measurement syncs the best with time progression
+      - which metadata (scale) are the best sources of randomness structures found in
+      - which structures can store one-directional time (where info is measurable, leaves signals, and processes are irreversible)
       - time speed factors: 
         - more interactions have to happen at larger scales
         - fewer things change at large scales
