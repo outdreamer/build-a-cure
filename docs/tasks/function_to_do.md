@@ -91,7 +91,10 @@
     - questions
       - which change measurement syncs the best with time progression
       - which metadata (scale) are the best sources of randomness structures found in
-      - which structures can store one-directional time (where info is measurable, leaves signals, and processes are irreversible)
+      - which structures can store one-directional time (aka information)
+        - where info is measurable, leaves signals, and processes are irreversible
+        - is there a structure that can permanently store information (unchangeable information)
+        - what structures of cause (inevitability, certainty) exist at subatomic scales
       - time speed factors: 
         - more interactions have to happen at larger scales
         - fewer things change at large scales
