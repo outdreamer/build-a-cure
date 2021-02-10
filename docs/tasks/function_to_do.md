@@ -1,21 +1,29 @@
 # to do
 
   - algorithm to generate variables in a system
-    - variable definition: isolatable, measurable change type
 
-    - apply definition filters: generate possible isolatable/measurable change types & filter
+    - variable definition: isolatable, measurable change type 
+
+    - component generation: identify components of a system & generate possible change types that enable/optimize interactions between those components
+      - core generation: identify core change types that can be combined to create other possible change types & generate other possible change types & filter
+      - subset generation: identify subsets of a system's components that are sufficiently stable in functionality/attributes to interact with other subsets without invalidating the system
     - limit generation: identify limits of a system & generate possible change types that can develop within those limits & filter
-    - core generation: identify core change types that can be combined to create other possible change types & generate other possible change types & filter
-    - reverse generation: generate required functionality in a system & derive possible variables that could produce it & filter
+      - reverse generation: generate required functionality in a system & derive possible variables that could produce it & filter
     - filter generation: identify & apply filters that determine variable development functions (like change combination, change metadata pattern, change coordination functions)
-      - example filters: 
+      - apply 'variable' definition filters: generate possible isolatable/measurable change types & filter
+      - apply 'efficiency' definition filters: generate structures that would be efficient & check for components that could generate those structures
+      - other example filters: 
         - are there resources to sustain this change type
         - does this change type contradict a system rule
         - is there a reason/intent/usage for this change type that is not fulfilled elsewhere (by metrics like adjacence to justify creating the functionality)
+          - is there a system-invalidating force requiring a new change type
+          - is there another position that could use similar functionality to existing functionality that is inaccessible in that position
         - is this change type adjacently buildable with system resources
         - is this change type probable
         - would this change type trigger changes that invalidate the system or reach stability
         - how would this change type interact with other change types
+        - does the environment system change enough to justify developing another or extra change types
+        
  
   - finding formulas: equate structures like:
     - concept: 
