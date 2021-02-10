@@ -1,5 +1,8 @@
 # to do
 
+  - authorized pick-ups/drop-offs by people in your social circle, extra keys for drop-off in lock boxes or cars, picking up packages from warehouses
+    - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
+
   - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
 
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
@@ -94,7 +97,7 @@
       - which structures can store one-directional time (aka information)
         - where info is measurable, leaves signals, and processes are irreversible
         - is there a structure that can permanently store information (unchangeable information)
-        - what structures of cause (inevitability, certainty) exist at subatomic scales
+        - what structures of cause (inevitability, certainty, stability, equivalence) exist at subatomic scales
       - time speed factors: 
         - more interactions have to happen at larger scales
         - fewer things change at large scales
@@ -137,6 +140,8 @@
     - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
       - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
         - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
+
+    - can probably be adjacently derived from subatomic particle interactions, which implement the core objects of interfaces like cause & potential
 
   - primary variables of brain functionality:
     - connectivity/alignment
