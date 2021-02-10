@@ -1,5 +1,15 @@
 # to do
 
+  - finding formulas: equate structures like:
+    - concept: 
+      - 'aesthetic': generating aesthetic formulas using simple/balanced/relevant structures
+    - pattern:
+      - generating formulas based on patterns & anti-patterns of other formulas
+    - structure:
+      - using limits that bound other formulas as assumptions to reduce solution space
+      - finding vertex variables of formulas & applying variations to generate other formulas
+      - https://www.vice.com/en/article/xgzkek/machines-are-inventing-new-math-weve-never-seen
+
   - authorized pick-ups/drop-offs by people in your social circle, extra keys for drop-off in lock boxes or cars, picking up packages from warehouses
     - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
 
