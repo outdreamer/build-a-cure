@@ -1,5 +1,14 @@
 # to do
 
+  - algorithm to generate variables
+    - variable definition: isolatable, measurable change type
+
+    - apply definition filters: generate possible isolatable/measurable change types & filter
+    - limit generation: identify limits of a system and generate possible change types that can develop within those limits & filter
+    - core generation: identify core change types that can be combined to create other possible change types & generate other possible change types & filter
+    - reverse generation: generate required functionality in a system & derive possible variables that could produce it & filter
+    - filter generation: identify & apply filters that determine variable development functions (like change combination functions)
+ 
   - finding formulas: equate structures like:
     - concept: 
       - 'aesthetic': generating aesthetic formulas using simple/balanced/relevant structures
