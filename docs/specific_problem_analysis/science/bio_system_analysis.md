@@ -1,5 +1,8 @@
 # science
 
+  - example of stressor structures to fix a problem: 
+    - a combination of a substance that disrupts the blood brain barrier to allow another substance to get through for drug delivery and a substance that binds tissue to fix the disruption after its delivered, or a substance that can cross the barrier which, once crossed, is converted to the drug
+
   - examine using stressor (task) distribution to correct errors in misfoldings, tasks that involve fold changes involving error-prone areas
 
   - stupidity
