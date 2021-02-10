@@ -1,13 +1,21 @@
 # to do
 
-  - algorithm to generate variables
+  - algorithm to generate variables in a system
     - variable definition: isolatable, measurable change type
 
     - apply definition filters: generate possible isolatable/measurable change types & filter
-    - limit generation: identify limits of a system and generate possible change types that can develop within those limits & filter
+    - limit generation: identify limits of a system & generate possible change types that can develop within those limits & filter
     - core generation: identify core change types that can be combined to create other possible change types & generate other possible change types & filter
     - reverse generation: generate required functionality in a system & derive possible variables that could produce it & filter
-    - filter generation: identify & apply filters that determine variable development functions (like change combination functions)
+    - filter generation: identify & apply filters that determine variable development functions (like change combination, change metadata pattern, change coordination functions)
+      - example filters: 
+        - are there resources to sustain this change type
+        - does this change type contradict a system rule
+        - is there a reason/intent/usage for this change type that is not fulfilled elsewhere (by metrics like adjacence to justify creating the functionality)
+        - is this change type adjacently buildable with system resources
+        - is this change type probable
+        - would this change type trigger changes that invalidate the system or reach stability
+        - how would this change type interact with other change types
  
   - finding formulas: equate structures like:
     - concept: 
