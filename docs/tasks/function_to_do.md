@@ -127,7 +127,9 @@
       - anti-structures: enforced lack of structure to preserve lack of structure development to ensure scale of operations
         - performing calculations in places with less gravity to speed them up and send them back to places with more gravity to get answers relatively quickly
     - questions
-      - what combinations of velocity/time/scale produce equal positions, and are there stable paths between these positions
+      - what combinations of velocity/time/scale produce equal positions/perspectives, and are there stable paths between them
+        - what differences in potential emerge in different perspectives (differences in potential like reversibility)
+        - how many different perspectives are there, and do they stabilize to a particular perspective in a vacuum
       - which change measurement syncs the best with time progression
       - which metadata (scale) are the best sources of randomness structures found in
       - which structures can store one-directional time (aka information)
