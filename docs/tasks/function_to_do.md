@@ -38,30 +38,37 @@
   - authorized pick-ups/drop-offs by people in your social circle, extra keys for drop-off in lock boxes or cars, picking up packages from warehouses
     - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
 
+  - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+    - the below 'reverse engineering' example uses the following filter query to determine relevance:
+      - relevance = reverse(similarity => core => (combine, not) => adjacence)
+
+
   - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
 
-    - problem: 'find individual unit metric value in a container having equivalent & different components, without a function to measure individual unit metric value, and given total container metric value & unit count'
-      - find relevant structures of the metric
-        - apply insight 'keep calculations using the same standard if possible'
-          - apply concept of 'similarity'
-            - find relevant structures having the same metric
-              - find relevant structures to 'unit'
-                - apply core concepts/structures to problem system structures
-                  - apply core structures of 'combination'
-                    - relevant structure: set of units, having an aggregate metric, usable input to an averaging function
-                  - apply core concept of 'opposite' or 'not equal' and the core concept of 'total' (the complete set of all components in container)
-                    - relevant structure: set of non-unit components in container, having the same metric, usable input to a subtraction function
-        - find most measurable structure (with greatest accuracy or fewest steps) out of the relevant structures having the same metric
-      - find calculation relationship between adjacent proxy metric of relevant structure and original solution metric (individual unit metric value)
-        - calculation relationship between sets of not-equal components and equal components to the individual unit metric:
-          - calculation relationship: "subtract not-equal component set metric value from total value, and divide by unit count to find indivdual unit metric"
-        - to find this relationship, execute the opposites/reversals of the operations to find the relevant structure metric values
-          - 'subtract' is opposing function of 'combine'
-            - 'combine' was executed to get the list of sets of components (not-equal components & equal components)
-          - 'divide' is opposing function of 'combine'
-            - 'combine' was executed to get the set of equal components, relative to the individual unit
-          - these two combine operations were used to create a path from the individual unit to the set of total components in the container
-          - they can also be applied in reverse to get from the given total container metric value to the individual unit metric value
+    - reverse engineering with core structures as filters to find relevant metric structures
+
+      - problem statement: 'find individual unit metric value in a container having equivalent & different components, without a function to measure individual unit metric value, and given total container metric value & unit count'
+        - find relevant structures of the metric
+          - apply insight 'keep calculations using the same standard if possible'
+            - apply concept of 'similarity'
+              - find relevant structures having the same metric
+                - find relevant structures to 'unit'
+                  - apply core concepts/structures to problem system structures
+                    - apply core structures of 'combination'
+                      - relevant structure: set of units, having an aggregate metric, usable input to an averaging function
+                    - apply core concept of 'opposite' or 'not equal' and the core concept of 'total' (the complete set of all components in container)
+                      - relevant structure: set of non-unit components in container, having the same metric, usable input to a subtraction function
+          - find most measurable structure (with greatest accuracy or fewest steps) out of the relevant structures having the same metric
+        - find calculation relationship between adjacent proxy metric of relevant structure and original solution metric (individual unit metric value)
+          - calculation relationship between sets of not-equal components and equal components to the individual unit metric:
+            - calculation relationship: "subtract not-equal component set metric value from total value, and divide by unit count to find individual unit metric"
+          - to find this relationship, execute the opposites/reversals of the operations to find the relevant structure metric values
+            - 'subtract' is opposing function of 'combine'
+              - 'combine' was executed to get the list of sets of components (not-equal components & equal components)
+            - 'divide' is opposing function of 'combine'
+              - 'combine' was executed to get the set of equal components, relative to the individual unit
+            - these two combine operations were used to create a path from the individual unit to the set of total components in the container
+            - they can also be applied in reverse to get from the given total container metric value to the individual unit metric value
 
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
 
@@ -83,7 +90,6 @@
 
   - give example of mapping to structures & identifying contradictions its safe to ignore for applying a structure
 
-  - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
   - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions represented by a neural network into the output prediction function
   - examine the distortion vector paths that adjacently decompose a data set into a prediction function from a base point/function set
