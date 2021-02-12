@@ -54,10 +54,12 @@
       - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
       - apply 'test' structure to problem system structure: find tests with output information containing the metric value
 
-    - these filter sets optimize for metrics like:
+    - these alternative filter sets optimize for metrics like:
       - filter set metadata
-      - having a particular structure (paths to connect source/destination) that fits with available functions
-      - maximizing a particular change or difference type
+      - having a particular structure (paths to connect source/destination) that uses available functions
+      - maximizing a particular change or difference type for identification/accuracy-related intents
+      - connecting difference types in different spaces (standardization)
+      - interface structure fitting (like 'intent alignment' or 'lack of contradictions')
 
     - these alternative filters have different metadata, like:
       - cost
@@ -73,7 +75,7 @@
 
   - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
 
-    - reverse engineering with core structures as filters to find relevant metric structures
+    - query: reverse engineering solution metric with core structures as filters to find relevant metric structures
 
       - problem statement: 'find individual unit metric value in a container having equivalent & different components, without a function to measure individual unit metric value, and given total container metric value & unit count'
         - find relevant structures of the metric
