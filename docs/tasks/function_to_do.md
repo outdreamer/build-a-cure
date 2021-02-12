@@ -28,7 +28,7 @@
         - how would this change type interact with other change types
         - does the environment system change enough to justify developing another or extra change types
         
- 
+
   - finding formulas: equate structures like:
     - concept: 
       - 'aesthetic': generating aesthetic formulas using simple/balanced/relevant structures
@@ -42,16 +42,26 @@
   - authorized pick-ups/drop-offs by people in your social circle, extra keys for drop-off in lock boxes or cars, picking up packages from warehouses
     - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
 
+  - differentiate change (sequence of difference structures) vs. difference (non-equivalence on some metric) vs. variable (attribute capturing an isolatable change)
+
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+
     - the below 'reverse engineering' example uses the following filter query to determine relevance:
       - relevance = reverse(similarity => core => (combine, not) => adjacence)
+
     - but it could also use alternate filters such as: (substitute || (similarity, quantity) || test)
       - apply 'substitute' structure: find a metric that functions as an identifier, filter, approximator, predictor, or proxy
       - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
       - apply 'test' structure to problem system structure: find tests with output information containing the metric value
 
+    - these filter sets optimize for metrics like:
+      - filter set metadata
+      - having a particular structure (paths to connect source/destination) that fits with available functions
+      - maximizing a particular change or difference type
+
     - these alternative filters have different metadata, like:
       - cost
+      - variation sources (equivalence definition)
       - requirements (like required information access)
       - path
       - interfaces, structures, & definitions used ('questions' asked by the query)
