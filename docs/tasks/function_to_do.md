@@ -1,5 +1,7 @@
 # to do
 
+  - find structure that would allow/incentivize/generate the changes in info change types (aggregation, structure-filling, gaps, similarities) of known math operations
+
   - algorithm to generate variables in a system
 
     - variable definition: isolatable, measurable change type 
@@ -55,7 +57,7 @@
     - these questions have the structure of a theorized directed connection/path in the problem system formatted as a network
       - the patterns of these questions in producing relevant info for a problem can be used as insight paths
       - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output information that could produce the answering info to the query
-        - formatting the system with structural metadata such as 'info gaps' and 'vertex variables' will make these optimal query patterns more obvious
+        - formatting the system with structural interface metadata (such as info gaps, intents, incentives, equivalences, & vertex variables) will make these optimal query patterns more obvious
 
   - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
 
