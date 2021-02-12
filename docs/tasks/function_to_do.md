@@ -3,6 +3,10 @@
   - find meta-math structure: 
     - which would allow/incentivize/generate the changes in info functions/variables (change types: interaction, aggregation, structure-filling, gaps, convergence, similarities) of known math operations
     - is it a metric like efficient stability that allows info to develop into a measurable structure in the first place (possibly changeable interaction), or is it enforced by a system of a set of limits forcing info to interact those ways (definitively inevitable interaction)
+    - 'the information amount/type/variance stored in this definition/structure can only take form in or interact with these other structures/to these degrees/in these spaces/on these interaction levels'
+      - information = certainty = definition = structure
+      - 'this certainty/structure can only interact with or be formatted in these certainties/structures'
+      - can you calculate the set of math relationships more quickly by examining opposing structures of uncertainty/randomness, by applying operations to existing certainties, or by finding a common differentiating standard in between, like abstraction'
 
   - algorithm to generate variables in a system
 
@@ -43,7 +47,7 @@
     - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
 
   - 'shared responsibility pools' as a form of insurance
-    - anyone who uses a particular proxy/VPN accepts some responsibility for requests executed on that service in cases where the actual criminal cant be determined
+    - anyone who uses a particular proxy/VPN/cryptocurrency accepts some responsibility for requests/transactions executed on that service in cases where the actual criminal cant be determined
     - feature where they can pay to prevent non-verified users from using the service or pay to use an 'invite-only' service
 
   - differentiate change (sequence of difference structures) vs. difference (non-equivalence on some metric) vs. variable (attribute capturing an isolatable change)
