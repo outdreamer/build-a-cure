@@ -1,6 +1,8 @@
 # to do
 
-  - find structure that would allow/incentivize/generate the changes in info change types (aggregation, structure-filling, gaps, similarities) of known math operations
+  - find meta-math structure: 
+    - which would allow/incentivize/generate the changes in info functions/variables (change types: interaction, aggregation, structure-filling, gaps, convergence, similarities) of known math operations
+    - is it a metric like efficient stability that allows info to develop into a measurable structure in the first place (possibly changeable interaction), or is it enforced by a system of a set of limits forcing info to interact those ways (definitively inevitable interaction)
 
   - algorithm to generate variables in a system
 
