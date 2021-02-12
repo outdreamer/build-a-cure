@@ -41,7 +41,21 @@
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
     - the below 'reverse engineering' example uses the following filter query to determine relevance:
       - relevance = reverse(similarity => core => (combine, not) => adjacence)
+    - but it could also use alternate filters such as: (substitute || (similarity, quantity) || test)
+      - apply 'substitute' structure: find a metric that functions as an identifier, filter, approximator, predictor, or proxy
+      - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
+      - apply 'test' structure to problem system structure: find tests with output information containing the metric value
 
+    - these alternative filters have different metadata, like:
+      - cost
+      - requirements (like required information access)
+      - path
+      - interfaces, structures, & definitions used ('questions' asked by the query)
+    
+    - these questions have the structure of a theorized directed connection/path in the problem system formatted as a network
+      - the patterns of these questions in producing relevant info for a problem can be used as insight paths
+      - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output information that could produce the answering info to the query
+        - formatting the system with structural metadata such as 'info gaps' and 'vertex variables' will make these optimal query patterns more obvious
 
   - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
 
@@ -49,7 +63,7 @@
 
       - problem statement: 'find individual unit metric value in a container having equivalent & different components, without a function to measure individual unit metric value, and given total container metric value & unit count'
         - find relevant structures of the metric
-          - apply insight 'keep calculations using the same standard if possible'
+          - apply insight relevant to 'calculations': 'apply the same standards when calculating if possible'
             - apply concept of 'similarity'
               - find relevant structures having the same metric
                 - find relevant structures to 'unit'
