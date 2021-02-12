@@ -56,17 +56,19 @@
 
     - these alternative filter sets optimize for metrics like:
       - filter set metadata
+      - optimizing for different interface metrics (variance degree, interaction layer, abstraction level)
       - having a particular structure (paths to connect source/destination) that uses available functions
       - maximizing a particular change or difference type for identification/accuracy-related intents
       - connecting difference types in different spaces (standardization)
-      - interface structure fitting (like 'intent alignment' or 'lack of contradictions')
+      - interface structure-fitting (like 'intent alignment' or 'lack of contradictions')
 
     - these alternative filters have different metadata, like:
       - cost
       - variation sources (equivalence definition)
+      - variance reduction (degree, type, pattern, potential)
       - requirements (like required information access)
-      - path
-      - interfaces, structures, & definitions used ('questions' asked by the query)
+      - path (in the filter network, & also possibly a path in the problem structure network)
+      - interfaces, structures, & definitions used ('questions' asked by the query, 'alternatives' used as 'approximations')
     
     - these questions have the structure of a theorized directed connection/path in the problem system formatted as a network
       - the patterns of these questions in producing relevant info for a problem can be used as insight paths
