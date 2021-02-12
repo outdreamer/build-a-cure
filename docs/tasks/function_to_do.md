@@ -40,6 +40,29 @@
 
   - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
 
+    - problem: 'find individual unit metric value in a container having equivalent & different components, without a function to measure individual unit metric value, and given total container metric value & unit count'
+      - find relevant structures of the metric
+        - apply insight 'keep calculations using the same standard if possible'
+          - apply concept of 'similarity'
+            - find relevant structures having the same metric
+              - find relevant structures to 'unit'
+                - apply core concepts/structures to problem system structures
+                  - apply core structures of 'combination'
+                    - relevant structure: set of units, having an aggregate metric, usable input to an averaging function
+                  - apply core concept of 'opposite' or 'not equal' and the core concept of 'total' (the complete set of all components in container)
+                    - relevant structure: set of non-unit components in container, having the same metric, usable input to a subtraction function
+        - find most measurable structure (with greatest accuracy or fewest steps) out of the relevant structures having the same metric
+      - find calculation relationship between adjacent proxy metric of relevant structure and original solution metric (individual unit metric value)
+        - calculation relationship between sets of not-equal components and equal components to the individual unit metric:
+          - calculation relationship: "subtract not-equal component set metric value from total value, and divide by unit count to find indivdual unit metric"
+        - to find this relationship, execute the opposites/reversals of the operations to find the relevant structure metric values
+          - 'subtract' is opposing function of 'combine'
+            - 'combine' was executed to get the list of sets of components (not-equal components & equal components)
+          - 'divide' is opposing function of 'combine'
+            - 'combine' was executed to get the set of equal components, relative to the individual unit
+          - these two combine operations were used to create a path from the individual unit to the set of total components in the container
+          - they can also be applied in reverse to get from the given total container metric value to the individual unit metric value
+
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
 
     - identify 'inevitable' definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
@@ -129,7 +152,7 @@
     - questions
       - what combinations of velocity/time/scale produce equal positions/perspectives, and are there stable paths between them
         - what differences in potential emerge in different perspectives (differences in potential like reversibility)
-        - how many different perspectives are there, and do they stabilize to a particular perspective in a vacuum
+        - how many different perspective types are there, and do they stabilize to a particular perspective in a vacuum
       - which change measurement syncs the best with time progression
       - which metadata (scale) are the best sources of randomness structures found in
       - which structures can store one-directional time (aka information)
