@@ -42,6 +42,10 @@
   - authorized pick-ups/drop-offs by people in your social circle, extra keys for drop-off in lock boxes or cars, picking up packages from warehouses
     - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
 
+  - 'shared responsibility pools' as a form of insurance
+    - anyone who uses a particular proxy/VPN accepts some responsibility for requests executed on that service in cases where the actual criminal cant be determined
+    - feature where they can pay to prevent non-verified users from using the service or pay to use an 'invite-only' service
+
   - differentiate change (sequence of difference structures) vs. difference (non-equivalence on some metric) vs. variable (attribute capturing an isolatable change)
 
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
