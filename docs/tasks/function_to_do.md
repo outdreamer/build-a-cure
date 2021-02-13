@@ -1,5 +1,9 @@
 # to do
 
+  - examine calculation errors from one partitioning method vs. other methods, & a function to balance their contribution to error to select an optimal partitioning method for an accuracy level
+    - a way around the discrete vs. continuous dichotomy is combinations: 
+      - discrete counts of continuous compositions (overlaps, layers, components)
+
   - find meta-math structure: 
     - which would allow/incentivize/generate the changes in info functions/variables (change types: interaction, aggregation, structure-filling, gaps, convergence, similarities) of known math operations
     - is it a metric like efficient stability that allows info to develop into a measurable structure in the first place (possibly changeable interaction), or is it enforced by a system of a set of limits forcing info to interact those ways (definitively inevitable interaction)
