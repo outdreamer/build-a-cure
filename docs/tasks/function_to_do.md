@@ -8,7 +8,7 @@
       - 'this certainty/structure can only interact with or be formatted in these certainties/structures'
       - can you calculate the set of math relationships more quickly by examining opposing structures of uncertainty/randomness, by applying operations to existing certainties, or by finding a common differentiating standard in between, like abstraction'
 
-  - development of a 'concept' in a system: an object begins aggregating functions/attributes in such a way that it develops unique interactions that differ from those calculated by a simplistic summing of the interactions of its components
+  - development of a 'concept' in a system: an object begins aggregating changes (like functions/attributes) in such a way that it develops unique interactions that differ from those calculated by a simplistic summing of the interactions of its components
     - example: a system may develop a concept like a 'layer'
       - structural definition of a layer: a set of components that separates other components & their interactions, inside a containing boundary
         - this definition differentiates it from a boundary, limit, line, or container structure
@@ -25,6 +25,10 @@
       - core function (stack, combine, bridge, support)
       - adjacent functionality (filter, separating interaction layers)
       - default structure (vertical layer related to stacking function)
+    - because it stabilizes into a useful unique component, the layer concept begins to act like an interface, since it starts becoming causative of changes due to its stability (rather than just being the output of changes to similar structures or iterated core functions or aggregated variance)
+    - concepts in a system can be local interfaces that are useful to use as standards for comparison
+      - standardize to the 'layer' structural interface
+      - standardize to the 'local system structural concept' interface
 
   - algorithm to generate variables in a system
 
