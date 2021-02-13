@@ -19,6 +19,13 @@
         - acting as a filter, if there are openings in the layer
       - so the layer is not only measurably different from similar structures, it may also have significantly different functionality, earning it a unique term (meaning it has developed into a 'concept' in the local system)
 
+    - the variable of 'structure' can describe the layer & generate it, but it doesnt capture the full definition of the 'layer' concept
+    - other variables are necessary to fully describe the layer, such as:
+      - adjacent structures (line, container, limit, boundary)
+      - core function (stack, combine, bridge, support)
+      - adjacent functionality (filter, separating interaction layers)
+      - default structure (vertical layer related to stacking function)
+
   - algorithm to generate variables in a system
 
     - variable definition: isolatable, measurable change type 
