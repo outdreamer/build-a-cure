@@ -8,6 +8,17 @@
       - 'this certainty/structure can only interact with or be formatted in these certainties/structures'
       - can you calculate the set of math relationships more quickly by examining opposing structures of uncertainty/randomness, by applying operations to existing certainties, or by finding a common differentiating standard in between, like abstraction'
 
+  - development of a 'concept' in a system: an object begins aggregating functions/attributes in such a way that it develops unique interactions that differ from those calculated by a simplistic summing of the interactions of its components
+    - example: a system may develop a concept like a 'layer'
+      - structural definition of a layer: a set of components that separates other components & their interactions, inside a containing boundary
+        - this definition differentiates it from a boundary, limit, line, or container structure
+      - the definition also has dimensions beyond a simple line
+      - the layer may aggregate functionality, such as:
+        - being stacked or combined to create larger layers or structures on top of a layer
+        - forming a base for interactions to develop on, if its a vertically stacked layer
+        - acting as a filter, if there are openings in the layer
+      - so the layer is not only measurably different from similar structures, it may also have significantly different functionality, earning it a unique term (meaning it has developed into a 'concept' in the local system)
+
   - algorithm to generate variables in a system
 
     - variable definition: isolatable, measurable change type 
