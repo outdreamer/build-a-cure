@@ -40,6 +40,8 @@
 
       - system metadata: invalidating/triggering/development conditions
 
+    - you can also apply core structures to get change types (multiply a number by the concept of 'opposite' to get the 'sign/direction' variable)
+
     - variable definition: isolatable, measurable change type 
 
     - component generation: identify components of a system & generate possible change types that enable/optimize interactions between those components
