@@ -61,7 +61,7 @@
           - insight paths inside the insight path:
 
             - the following similarities in structure provide quick alternate methods of deriving the solution
-            
+
               - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
                 - variation in identity:
                   - weak-powerful :: connected by opposite extreme
@@ -77,6 +77,11 @@
                   - lack & excess are error type structures (implying an associated solution)
                   - negative & positive are both differences from average
                   - connection to average resolves 'lack' and 'excess' error type structures
+
+                - *** alternate insight path: errors of extreme values in a variable imply a lack of a balancing (solution) structure like:
+                  - an extreme-connecting structure
+                  - a direction/degree-correcting structure
+                  - an error-detection structure like a low-level error threshold
 
               - ***: the over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
                 - variation in priority
