@@ -61,13 +61,32 @@
           - insight paths inside the insight path:
 
             - the following similarities in structure provide quick alternate methods of deriving the solution
+            
               - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
-                - weak/powerful :: negative/positive :: extreme/opposite extreme
+                - variation in identity:
+                  - weak-powerful :: connected by opposite extreme
+                  - negative-positive :: conncted by opposite extreme
+                - similarity in structure
+                  - weak/powerful :: negative/positive :: extreme/opposite extreme
+                  - opposites exist on a spectrum
+                  - spectrum extremes are inherently connected
+                - connecting function
+                  - connection by position
+                    - negative/weak :: lack
+                    - positive/powerful :: excess
+                  - lack & excess are error type structures (implying an associated solution)
+                  - negative & positive are both differences from average
+                  - connection to average resolves 'lack' and 'excess' error type structures
+
               - ***: the over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
-                - over-simplification :: reduction/isolation
-                - over-complication :: expansion/integration
-                - over-simplification :: opposite of over-complication
-                - opposite :: reverse
+                - variation in priority
+                  - over-simplification :: reduction/isolation
+                  - over-complication :: expansion/integration
+                - similarity between over-simplification & over-complication
+                  - over-simplification :: opposite of over-complication
+                - connecting function: 
+                  - opposite :: reverse
+
             - query to filter embedded insight paths
               - identify relevance structures (connecting function) of high-similarity structures (reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
 
