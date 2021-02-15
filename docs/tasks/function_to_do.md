@@ -60,16 +60,18 @@
 
           - insight paths inside the insight path:
 
-            - the following similarities in structure provide quick alternate methods of deriving the solution
+            - the following similarities in difference structures provide quick alternate methods of deriving the solution structure for an error structure 
 
-              - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
+            - the reason this works is that a problem/error contains structural similarities to its solution (like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together')
+
+              - ***: an error of extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
                 - variation in identity:
                   - weak-powerful :: connected by opposite extreme
                   - negative-positive :: conncted by opposite extreme
                 - similarity in structure
                   - weak/powerful :: negative/positive :: extreme/opposite extreme
                   - opposites exist on a spectrum
-                  - spectrum extremes are inherently connected
+                  - spectrum extremes are connected by similarity to average & conversion potential
                 - connecting function
                   - connection by position
                     - negative/weak :: lack
@@ -83,7 +85,7 @@
                   - a direction/degree-correcting structure
                   - an error-detection structure like a low-level error threshold
 
-              - ***: the extremity & over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
+              - ***: error structures of extremity, reduction & isolation can also be used to infer the solution structure function of a reversal applied to extremity/reduction/isolation structures
                 - variation in priority/direction
                   - over-simplification :: reduction/isolation
                   - over-complication :: expansion/integration
@@ -92,6 +94,8 @@
                 - connecting function: 
                   - opposite :: reverse
                   - apply 'reverse' structure to correct 'direction/degree' error
+
+              - ***: an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
 
               - ***: an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
 
