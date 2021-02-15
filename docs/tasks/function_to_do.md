@@ -32,7 +32,7 @@
                 - 'positive and negative are inherently connected'
                   - 'connecting the extreme positive value with the extreme negative value is often lower-cost (multiplication by integer of -1 with center at integer of 0) than connecting most interim values with extreme values (determine sequential difference in fraction digits, and use addition)'
 
-        - 'outward extreme negativity error implies a causative error structure of either an (internal extreme negativity error) or (minor negativity error, at extreme scale)'
+        - 'outward extreme negativity error implies a direct causative error structure of either an (internal extreme negativity error) or (minor negativity error, at extreme scale)'
           - 'the error structure can be lack of power distribution (power in the form of intelligence) or lack of distributed generative inputs of power (help becoming intelligent)'
             - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
               - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states due to lack of power (lack of intelligence or proxies to intelligence like information)'
@@ -83,17 +83,20 @@
                   - a direction/degree-correcting structure
                   - an error-detection structure like a low-level error threshold
 
-              - ***: the over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
-                - variation in priority
+              - ***: the extremity & over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
+                - variation in priority/direction
                   - over-simplification :: reduction/isolation
                   - over-complication :: expansion/integration
                 - similarity between over-simplification & over-complication
                   - over-simplification :: opposite of over-complication
                 - connecting function: 
                   - opposite :: reverse
+                  - apply 'reverse' structure to correct 'direction/degree' error
 
-            - query to filter embedded insight paths
-              - identify relevance structures (connecting function) of high-similarity structures (reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
+              - ***: an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
+
+            - insight-path generating query to filter & identify embedded insight paths
+              - identify relevance structures (connecting function) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
