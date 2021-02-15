@@ -2,22 +2,41 @@
 
   - example of linking perspectives with functions
 
+    - simplicity/complexity:
+      - identify over-prioritization
+        - identify error of over-simplification:
+          - 'repetition of problem-solving requests or identifying/receiving problem side effect information'
+          - 'identifying/receiving over-simplified solution side effect information'
+
+    - positive/negative:
+
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
-    - example of applying alternate interfaces
-      - 'logy' and 'logi' as prefix/suffix
-        - '-logy' as a study of the prefix
-        - 'logi-' as a permutation of 'logic'
-      - the position of the component can be used to determine/differentiate its meaning
+    - example of applying alternate interfaces with examples of advantages of each
+
+      - the structure (position) of the component can be used to determine/differentiate its meaning
+        - 'logy' and 'logi' as prefix/suffix
+          - '-logy' as a study of the prefix
+          - 'logi-' as a permutation of 'logic'
+
       - the usage context (sentences where they're used) can be used to determine intent
-        - '-logy' used when discussing science
-        - 'logi-' used when discussing reasoning/rationality
+        - '-logy' used when 
+          - discussing science & interactions between fields/topics or changes in a field/topic
+        - 'logi-' used when 
+          - discussing reasoning/rationality
+
       - intent can be used to determine meaning 
         - use '-logy' to describe a studying activity & topic
         - use 'logi-' to reference logic, its interactions & permutations
-      - apply system context to derive intent
-      - apply structure (position) as an alternative to system context & intent
-      - apply intent to derive usage & system context
+
+      - structural interface (differences in position) can be replaced with: 
+        - intent (reason to use within a system usage context)
+        - system interface (usage context to derive reason for usage), and fit to system (meaning)
+
+      - applying different interface queries
+        - apply system context to derive intent
+        - apply structure (position) as an alternative to system context & intent
+        - apply intent to derive usage & system context
 
   - examine temporary stabilized filter structures in ozone to push co2 out of atmospheric layers away from earth & forces to do that
 
