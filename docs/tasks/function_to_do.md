@@ -37,10 +37,6 @@
             - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
               - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states due to lack of power (lack of intelligence or proxies to intelligence like information)'
             - 'an invalidation request error can be solved with distribution of a negative-positive connection structure'
-            
-          - insight paths in the insight path:
-              - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure of a negative-positive connection structure
-              - ***: the over-reduction & isolation structures can also be used to infer the solution structure of a reversal applied to reduction/isolation operations
 
         - 'structures have variables, like size, position, connection, intent, cause, and potential for error'
           - 'errors are a type of structure'
@@ -62,6 +58,14 @@
                             - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
               - 'alternate sources of new error type information is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
 
+          - insight paths inside the insight path:
+
+            - the following similarities in structure provide quick alternate methods of deriving the solution
+              - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
+              - ***: the over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
+
+            - query to filter embedded insight paths
+              - identify high-similarity structures (reduction isolation/distribution functions) in high-variation structures (power distribution, positive/negative charge, priority direction, extremity)
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
