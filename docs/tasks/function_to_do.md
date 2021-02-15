@@ -18,6 +18,18 @@
                             - 'identifying/receiving over-simplified solution side effect information'
 
     - positive/negative:
+      - insight path
+        - 'all structures can be linked to all structures'
+          - 'similarity is similar to difference'
+          - 'structure-linking becomes likelier with previous structure-linking'
+        - 'all structures have an intent'
+        - 'all structures have potential for error'
+        - 'all errors have structure and cause'
+        - 'errors sometimes lead to signals that can be measured'
+        - 'measured errors can lead to organization of resources in the direction of the error'
+        - 'organization can lead to solutions'
+        - 'all structure variables can be changed'
+        - 'structure variables include size, position, and connection'
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
