@@ -62,10 +62,14 @@
 
             - the following similarities in structure provide quick alternate methods of deriving the solution
               - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
+                - weak/powerful :: negative/positive :: extreme/opposite extreme
               - ***: the over-reduction & isolation structures can also be used to infer the solution structure function of a reversal applied to reduction/isolation operations
-
+                - over-simplification :: reduction/isolation
+                - over-complication :: expansion/integration
+                - over-simplification :: opposite of over-complication
+                - opposite :: reverse
             - query to filter embedded insight paths
-              - identify high-similarity structures (reduction isolation/distribution functions) in high-variation structures (power distribution, positive/negative charge, priority direction, extremity)
+              - identify relevance structures (connecting function) of high-similarity structures (reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
