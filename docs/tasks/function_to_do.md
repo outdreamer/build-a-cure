@@ -1,8 +1,27 @@
 # to do
 
+  - example of linking perspectives with functions
+
+  - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
+
+    - example of applying alternate interfaces
+      - 'logy' and 'logi' as prefix/suffix
+        - '-logy' as a study of the prefix
+        - 'logi-' as a permutation of 'logic'
+      - the position of the component can be used to determine/differentiate its meaning
+      - the usage context (sentences where they're used) can be used to determine intent
+        - '-logy' used when discussing science
+        - 'logi-' used when discussing reasoning/rationality
+      - intent can be used to determine meaning 
+        - use '-logy' to describe a studying activity & topic
+        - use 'logi-' to reference logic, its interactions & permutations
+      - apply system context to derive intent
+      - apply structure (position) as an alternative to system context & intent
+      - apply intent to derive usage & system context
+
   - examine temporary stabilized filter structures in ozone to push co2 out of atmospheric layers away from earth & forces to do that
 
-  - reverse engineering structures like bet types & their ratios (ratio of types like random guessing, price-dependent algorithm bets, temporary bets in non-viable companies for profit, actual investments in innovation/businesses) to identify & filter out trading cycles to isolate unidentified bet types
+  - reverse engineering structures like bet types & their ratios (ratio of types like random guessing, price-dependent algorithm bets, temporary bets in non-viable companies for profit beyond actual value, actual investments in innovation/businesses) to identify & filter out trading cycles to isolate unidentified bet types
 
   - examine calculation errors from one partitioning method vs. other methods, & a function to balance their contribution to error to select an optimal partitioning method for an accuracy level
     - a way around the discrete vs. continuous dichotomy is combinations: 
