@@ -23,12 +23,11 @@
     
         - 'all structures can be linked to all structures'
           - 'similarity is similar to difference'
-
           - 'structure-linking becomes likelier with previous structure-linking'
             - 'connecting negative & positive structures is lower-cost with each iteration/application of the connection function'
+              - 'extra resources are lower-cost with a positive-negative connection structure (like a function to convert between negative/positive perspectives)'
           - 'opposite & equal (apply discrete not structure) are lower-cost to connect than different & similar (apply continuous scale structure)'
             - 'positive and negative are examples of extreme structures and opposite structures'
-            
               - 'positive and negative are opposite extreme values of a spectrum structure'
                 - 'positive and negative are inherently connected'
                   - 'connecting the extreme positive value with the extreme negative value is often lower-cost (multiplication by integer of -1 with center at integer of 0) than connecting most interim values with extreme values (determine sequential difference in fraction digits, and use addition)'
@@ -41,19 +40,24 @@
 
         - 'structures have variables, like size, position, connection, intent, cause, and potential for error'
           - 'errors are a type of structure'
-            - 'error outputs sometimes include measurable information, indicating the structural variables (position/direction) of the error'
-            - 'measured error information can lead to organization of resources in the direction of the error'
-            - 'organization can be a causative factor in generating solutions'
             - 'errors are not definitively a negativity structure'
-              - 'errors can be positivity structures, depending on the error cost vs. potential created by error solution or solution process'
-            - 'error structures include errors in structure variables (like direction or degree)'
-              - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
-                - 'extra resources are lower-cost with a positive-negative connection structure (like a function to convert between negative/positive perspectives)'
-                  - 'negativity errors are often due to over-simplification'
-                    - 'over-simplification is similar to over-reduction & over-isolation'
-                      - 'apply opposite structures (like reversal) to resolve an error'
-                        - 'applying reversal to reduction & isolation can resolve an over-simplification negativity error'
-                          - 'reduce the lack of negative-positive connection structures, by distributing it to all error sources'
+              - 'errors can be positivity structures, depending on the error variables (like cost vs. potential created by error solution or solution process)'
+                - 'errors have structural variables (position/direction)'
+                  - 'error outputs sometimes include measurable information, indicating the structural variables (position/direction) of the error'
+                    - 'measured error information can lead to organization of resources in the direction of the error'
+                      - 'organization can be a causative factor in generating solutions'
+
+            - 'error structure types include errors in structure variables (like direction/degree)'
+              - 'errors of extremity are often directly due to extremity of directed force (error of priority) - or indirectly due to lack of organization/adjacence to correct errors, lack of previous solutions, lack of previous direction/degree-correcting solutions, lack of previous errors, lack of previous direction/degree errors'
+                - 'negativity errors are often due to over-simplification'
+                  - 'over-simplification is similar to over-reduction & over-isolation'
+                    - 'apply opposite structures (like reversal) to resolve an error'
+                      - 'applying reversal to reduction & isolation can resolve an over-simplification negativity error'
+                        - 'reduce the lack of negative-positive connection structures, by distributing it to all error sources'
+                          - 'input of negativity errors is a lack of solutions and direct output may include new error information'
+                            - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
+              - 'alternate sources of new error type information is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
+
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
