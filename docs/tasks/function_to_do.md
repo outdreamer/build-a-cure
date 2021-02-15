@@ -3,10 +3,19 @@
   - example of linking perspectives with functions
 
     - simplicity/complexity:
-      - identify over-prioritization
-        - identify error of over-simplification:
-          - 'repetition of problem-solving requests or identifying/receiving problem side effect information'
-          - 'identifying/receiving over-simplified solution side effect information'
+      - identify structures where each perspective would be applied incorrectly & produce errors
+        - apply core structures (direction)
+          - apply core structures (angle) to relevant core interface objects (intent) to produce relevant interface objects (priority)
+            - apply core interface function structures (change)
+              - error type: priority distortion
+                - identify error type (over-prioritization) structure
+                  - apply priority list
+                    - identify over-prioritization (over-simplification) error structure:
+                      - apply structure search filter
+                        - what structures are relevant (meaning 'direct or useful' like 'input/output') to an over-simplification error
+                          - inputs/outputs (including requests, usage, side effects)
+                            - 'repetition of problem-solving requests or identifying/receiving problem side effect information'
+                            - 'identifying/receiving over-simplified solution side effect information'
 
     - positive/negative:
 
