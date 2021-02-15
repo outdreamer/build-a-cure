@@ -1,5 +1,9 @@
 # to do
 
+  - examine temporary stabilized filter structures in ozone to push co2 out of atmospheric layers away from earth & forces to do that
+
+  - reverse engineering structures like bet types & their ratios (ratio of types like random guessing, price-dependent algorithm bets, temporary bets in non-viable companies for profit, actual investments in innovation/businesses) to identify & filter out trading cycles to isolate unidentified bet types
+
   - examine calculation errors from one partitioning method vs. other methods, & a function to balance their contribution to error to select an optimal partitioning method for an accuracy level
     - a way around the discrete vs. continuous dichotomy is combinations: 
       - discrete counts of continuous compositions (overlaps, layers, components)
@@ -40,7 +44,7 @@
 
       - system metadata: invalidating/triggering/development conditions
 
-    - you can also apply core structures to get change types (multiply a number by the concept of 'opposite' to get the 'sign/direction' variable)
+    - you can also apply core structures to get change types (multiply a number by the structural concept of 'opposite' to get the 'sign/direction' variable)
 
     - variable definition: isolatable, measurable change type 
 
