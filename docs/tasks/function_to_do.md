@@ -32,11 +32,15 @@
                 - 'positive and negative are inherently connected'
                   - 'connecting the extreme positive value with the extreme negative value is often lower-cost (multiplication by integer of -1 with center at integer of 0) than connecting most interim values with extreme values (determine sequential difference in fraction digits, and use addition)'
 
-        - 'outward extreme negativity error implies either an (internal extreme negativity error) or (minor negativity error at extreme scale)'
-          - 'the error structure can be lack of power distribution (power in the form of intelligence) or lack of generative inputs of power (help becoming intelligent)'
+        - 'outward extreme negativity error implies a causative error structure of either an (internal extreme negativity error) or (minor negativity error, at extreme scale)'
+          - 'the error structure can be lack of power distribution (power in the form of intelligence) or lack of distributed generative inputs of power (help becoming intelligent)'
             - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
-              - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states'
-            - 'an invalidation request error can be solved with a negative-positive connection structure'
+              - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states due to lack of power (lack of intelligence or proxies to intelligence like information)'
+            - 'an invalidation request error can be solved with distribution of a negative-positive connection structure'
+            
+          - insight paths in the insight path:
+              - ***: the extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure of a negative-positive connection structure
+              - ***: the over-reduction & isolation structures can also be used to infer the solution structure of a reversal applied to reduction/isolation operations
 
         - 'structures have variables, like size, position, connection, intent, cause, and potential for error'
           - 'errors are a type of structure'
