@@ -18,36 +18,42 @@
                             - 'identifying/receiving over-simplified solution side effect information'
 
     - positive/negative:
+
       - insight path
-        - 'positive and negative are opposite extreme values of a spectrum structure'
-          - 'positive and negative are inherently connected'
-            - 'connecting the extreme positive value with the extreme negative value is often lower-cost (multiplication by integer of -1 with center at integer of 0) than connecting most interim values with extreme values (determine sequential difference in fraction digits, and use addition)'
-              
+    
         - 'all structures can be linked to all structures'
           - 'similarity is similar to difference'
-          - 'opposite & equal (apply discrete not structure) are lower-cost to connect than different & similar (apply continuous scale structure)'
+
           - 'structure-linking becomes likelier with previous structure-linking'
-            - 'connecting negative & positive structures is lower-cost with each iteration'
+            - 'connecting negative & positive structures is lower-cost with each iteration/application of the connection function'
+          - 'opposite & equal (apply discrete not structure) are lower-cost to connect than different & similar (apply continuous scale structure)'
+            - 'positive and negative are examples of extreme structures and opposite structures'
+            
+              - 'positive and negative are opposite extreme values of a spectrum structure'
+                - 'positive and negative are inherently connected'
+                  - 'connecting the extreme positive value with the extreme negative value is often lower-cost (multiplication by integer of -1 with center at integer of 0) than connecting most interim values with extreme values (determine sequential difference in fraction digits, and use addition)'
+
         - 'outward extreme negativity error implies either an (internal extreme negativity error) or (minor negativity error at extreme scale)'
           - 'the error structure can be lack of power distribution (power in the form of intelligence) or lack of generative inputs of power (help becoming intelligent)'
-          - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
-            - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states'
+            - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
+              - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states'
             - 'an invalidation request error can be solved with a negative-positive connection structure'
-          - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
-            - 'extra resources are lower-cost with a positive-negative connection structure (like a function to convert between negative/positive perspectives)'
-              - 'negativity errors are often due to over-simplification'
-                - 'over-simplification is similar to over-reduction & over-isolation'
-              - 'applying reversal to reduction & isolation can resolve an over-simplification negativity error'
-                - 'reduce the lack of negative-positive connection structures, by distributing it to all error sources'
-        - 'all structures have an intent, and potential for error'
-          - 'errors are a type of structure, having cause'
-            - 'error outputs sometimes include measurable information'
+
+        - 'structures have variables, like size, position, connection, intent, cause, and potential for error'
+          - 'errors are a type of structure'
+            - 'error outputs sometimes include measurable information, indicating the structural variables (position/direction) of the error'
             - 'measured error information can lead to organization of resources in the direction of the error'
             - 'organization can be a causative factor in generating solutions'
-            - 'errors are not always a negativity structure'
-            - 'errors can be positivity structures, depending on the error cost vs. potential created by error solution or solution process'
-        - 'all structure variables can be changed'
-          - 'structure variables include size, position, and connection'
+            - 'errors are not definitively a negativity structure'
+              - 'errors can be positivity structures, depending on the error cost vs. potential created by error solution or solution process'
+            - 'error structures include errors in structure variables (like direction or degree)'
+              - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
+                - 'extra resources are lower-cost with a positive-negative connection structure (like a function to convert between negative/positive perspectives)'
+                  - 'negativity errors are often due to over-simplification'
+                    - 'over-simplification is similar to over-reduction & over-isolation'
+                      - 'apply opposite structures (like reversal) to resolve an error'
+                        - 'applying reversal to reduction & isolation can resolve an over-simplification negativity error'
+                          - 'reduce the lack of negative-positive connection structures, by distributing it to all error sources'
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
