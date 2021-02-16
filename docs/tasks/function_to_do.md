@@ -1,5 +1,7 @@
 # to do
 
+  - search of local product supplies across exchanges
+
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
 
     - example of applying alternate interfaces with examples of advantages of each
