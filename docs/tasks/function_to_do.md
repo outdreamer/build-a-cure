@@ -2,6 +2,15 @@
 
   - platform to apply a portfolio of AI models to price a stock given private company data like available resources, internal analysis, & implementation plans & publish the ai-generated prices, with comparative historical pricing of other companies using similar data pre-ipo or valuation, as an offset to price pumping & other forms of misrepresentation
 
+  - identify accidental & intentional govts/laws/markets, based on function metadata concepts
+    - responsibility (restricting functionality to the functions that can & should handle, based on whether they caused the problem resolved by that functionality)
+    - relevance (restricting info only to functions that need it)
+    - structure (functionality gaps)
+    - potential (analyzing future functionality and paths to those states)
+    - integration (analyzing impact of intent/responsibility/optimizations of a function)
+    - optimization (storing functionality needed, generating functionality where possible & where usage allows)
+    - organization (indexing functionality in a way with specific side effects like limiting possibilities, and organization through queries & changes of functionality)
+
   - solution investing app
     - Is the cost (implementation/opportunity/mgmt/bug-fixing costs & lost previous work/equipment value) higher than the benefit?
       It's a technology if its problems solved/created ratio & relative feature value is high enough; if not, it's just a tax/debt
