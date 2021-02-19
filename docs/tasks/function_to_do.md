@@ -1,5 +1,9 @@
 # to do
 
+  - finding necessary forms for an intent subject to indexed rules like laws, filling them out, and optionally filtering info by regulations cited in forms, including relevant regulations applied
+    - involves automated calls/faxes to request/send forms, where processes/forms arent online, like how calls to find appointments are automated
+    - alternatively an automated process to digitize a process/form with necessary security, search functionality, and integration with other services/processes as digitization tool variables
+
   - search of local product supplies across exchanges
 
   - diagram of alternate interfaces (information = combination of structure, potential, change or structure, cause or structure, system)
