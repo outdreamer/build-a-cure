@@ -1,5 +1,7 @@
 # to do
 
+  - platform to apply a portfolio of AI models to price a stock given private company data like available resources, internal analysis, & implementation plans & publish the ai-generated prices, with comparative historical pricing of other companies using similar data pre-ipo or valuation, as an offset to price pumping & other forms of misrepresentation
+
   - solution investing app
     - Is the cost (implementation/opportunity/mgmt/bug-fixing costs & lost previous work/equipment value) higher than the benefit?
       It's a technology if its problems solved/created ratio & relative feature value is high enough; if not, it's just a tax/debt
@@ -11,9 +13,10 @@
       There should be an app to opt-out of taxes if they agree not to use local resources those taxes pay for
       Companies can have efficiency & problem-solving scores (problem-solution, solution metrics, cost/benefit, hidden costs, time to solution, problem solved/created metrics) in a solution investing app to win investments from citizen investors to solve problems relevant to them
 
-  - apply intents & other interfaces to other transaction types (code transactions, financial transactions, legal transactions)
-   - resource transactions (financial resource trades), to manage intents of a transaction - money is deposited on resource delivery, otherwise in pending state for x days agreed on by agents
-   - legal transactions (allow laws to be passed having any of a limited list of approved intents)
+  - apply intents & other interfaces to other decision (transaction) types (code transactions, financial transactions, legal transactions)
+    - code transactions (user action like 'clicking a button' or 'running a script' indicates what intents, according to relevant system contexts, like applicable laws/protocols)
+    - resource transactions (financial resource trades), to manage intents of a transaction - money is deposited on resource delivery, otherwise in pending state for x days agreed on by agents
+    - legal transactions (allow laws to be passed having any of a limited list of approved intents)
 
   - finding necessary forms for an intent subject to indexed rules like laws, filling them out, and optionally filtering info by regulations cited in forms, including relevant regulations applied
     - involves automated calls/faxes to request/send forms, where processes/forms arent online, like how calls to find appointments are automated
