@@ -12,6 +12,7 @@
       - example: "avoid a local road that needs local govt budget to repair, to decide where to route funds to more important projects"
       There should be an app to opt-out of taxes if they agree not to use local resources those taxes pay for
       Companies can have efficiency & problem-solving scores (problem-solution, solution metrics, cost/benefit, hidden costs, time to solution, problem solved/created metrics) in a solution investing app to win investments from citizen investors to solve problems relevant to them
+      - identify which companies/traders have the right market signals or info by retroactively analyzing historical data about which agents' investments turned out to be correct in the intended investing timeframe
 
   - apply intents & other interfaces to other decision (transaction) types (code transactions, financial transactions, legal transactions)
     - code transactions (user action like 'clicking a button' or 'running a script' indicates what intents, according to relevant system contexts, like applicable laws/protocols)
