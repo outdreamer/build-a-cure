@@ -1,5 +1,16 @@
 # to do
 
+  - solution investing app
+    - Is the cost (implementation/opportunity/mgmt/bug-fixing costs & lost previous work/equipment value) higher than the benefit?
+      It's a technology if its problems solved/created ratio & relative feature value is high enough; if not, it's just a tax/debt
+      We don't need to create problems to create jobs, we need guaranteed scientist jobs to handle existing science problems
+      Companies/agencies should exist to manage/build solutions to existing science problems (pay this company $x to get y% of pollution removed from outdoor air)
+      Taxes are a relatively inefficient & obscure way to allocate funds to these public good solutions, compared to product purchase payment plans
+      People should be able to see what their taxes are funding & opt-out to invest in other products/companies
+      - example: "avoid a local road that needs local govt budget to repair, to decide where to route funds to more important projects"
+      There should be an app to opt-out of taxes if they agree not to use local resources those taxes pay for
+      Companies can have efficiency & problem-solving scores (problem-solution, solution metrics, cost/benefit, hidden costs, time to solution, problem solved/created metrics) in a solution investing app to win investments from citizen investors to solve problems relevant to them
+
   - finding necessary forms for an intent subject to indexed rules like laws, filling them out, and optionally filtering info by regulations cited in forms, including relevant regulations applied
     - involves automated calls/faxes to request/send forms, where processes/forms arent online, like how calls to find appointments are automated
       - involves functions to:
@@ -12,9 +23,11 @@
         - identify & highlight input that needs manual review
         - find people with expertise to guide manual review (legal consultant, govt employee)
         - digitize process (auto-import to workflow management tool or multi-step form component)
-        
+
     - alternatively an automated process to digitize a process/form with necessary security, search functionality, and integration with other services/processes as digitization tool variabless
     - the tool should be able to submit user-permitted/submitted input to a preliminary process (like 'apply for a license' or 'submit voter registration') form (like a wsdl, other api spec, url with html form, or just a form pdf template with unfilled fields) and guess the values based on accessible inputs (user address info), then lookup any relevant regulations or related forms & fill out those forms or apply the regulations, and then return suggested output, with highlighting for missing fields or predicted fields with certainty below threshold that user or a legal consultant can manually review, and a list of remaining action items, which can be triggered if the user is ok with the output or updates the output, such as faxing/sending/printing/mailing the form on remote servers or using task-running apps to find a person willing to run the errand, or scheduling a call/appointment (like a dmv appointment).
+    - this should also be applicable to software updates (submit a current request to a current wsdl, and find/apply relevant or recent govt regulation updates as well as web protocol updates to generate updated wsdl/request/response as well as request/response wrapper/handling functions, like updating new field names or request structures in codebase)
+
 
   - search of local product supplies across exchanges
 
