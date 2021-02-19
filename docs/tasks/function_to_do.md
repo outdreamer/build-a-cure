@@ -2,7 +2,8 @@
 
   - finding necessary forms for an intent subject to indexed rules like laws, filling them out, and optionally filtering info by regulations cited in forms, including relevant regulations applied
     - involves automated calls/faxes to request/send forms, where processes/forms arent online, like how calls to find appointments are automated
-    - alternatively an automated process to digitize a process/form with necessary security, search functionality, and integration with other services/processes as digitization tool variables
+    - alternatively an automated process to digitize a process/form with necessary security, search functionality, and integration with other services/processes as digitization tool variabless
+    - the tool should be able to submit user-permitted/submitted input to a preliminary process (like 'apply for a license' or 'submit voter registration') form (like a wsdl, other api spec, url with html form, or just a form pdf template with unfilled fields) and guess the values based on accessible inputs (user address info), then lookup any relevant regulations or related forms & fill out those forms or apply the regulations, and then return suggested output, with highlighting for missing fields or predicted fields with certainty below threshold that user or a legal consultant can manually review, and a list of remaining action items, which can be triggered if the user is ok with the output or updates the output, such as faxing/sending/printing/mailing the form on remote servers or using task-running apps to find a person willing to run the errand, or scheduling a call/appointment (like a dmv appointment).
 
   - search of local product supplies across exchanges
 
