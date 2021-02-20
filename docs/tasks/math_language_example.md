@@ -33,12 +33,25 @@ x = a
 standardize both sides to language
 
 coefficient * x = adjacent_coefficient * a
-(coefficient * number giving other side an integer accessible with a fraction subtraction) * x = (.999 * number giving other side an integer accessible with a fraction subtraction) * a
-(coefficient * (number giving other side an integer accessible with a fraction subtraction - the fraction of itself based on this number, to give other side an integer)) * x = (.999 * (number giving other side an integer accessible with a fraction subtraction  - the fraction of itself based on this number)) * a
-integer produced by integerizing number (* 10) and subtracted fraction (/10) * x = integer produced by integerizing number (0.999 * 10) and subtracted fraction (9.999/10) * a
+(coefficient * number giving other side an integer accessible with a fraction subtraction) * x = (adjacent_coefficient * number giving other side an integer accessible with a fraction subtraction) * a
+(coefficient * (number giving other side an integer accessible with a fraction subtraction - the fraction of itself based on this number, to give other side an integer)) * x = (adjacent_coefficient * (number giving other side an integer accessible with a fraction subtraction  - the fraction of itself based on this number)) * a
+integer produced by integerizing number (* 10) and subtracted fraction (/10) * x = integer produced by integerizing number (adjacent_coefficient * 10) and subtracted fraction (9 + adjacent_coefficient)/10 * a
 x = a
 
 problem to solution intent:
+
+	- alternative intent using insight path
+		- find a number b (9.999) so that 1/n of itself is equal to the original adjacent_coefficient (0.999) so an integer (9) divisible by the repeating digit (9) to produce an integer (1) (after moving one decimal to produce the integer) can be achieved by subtracting the adjacent_coefficient, given that 1/n of itself will be the decimal after the integer, where n is a coefficient of the other side of the equation indicating only a multiplication operation has been done (requiring that no change has been done to the number type of the other side, as multiplying 1 by an integer = an integer)
+			- b * 1/n = adjacent_coefficient = (b - adjacent_coefficient) * 1/n * (infinite sequence of 1/(10 ^ 0), 1/(10 ^ 1), 1/(10 ^ 2) ...)
+			- 9.999 * 1/10 = 0.999 = (9.999 - 0.999) * 1/10
+
+	- other insights
+		- each repeating digit is 9/10, so 10 is a relevant number by default
+		- standardize number types for value difference reduction for comparison
+		- standardize coefficients for coefficient value difference reduction for comparison
+		- isolate variables on either side (after framing 1 as variable a)
+		- producing an integer 9 on the x side is adjacent with multiplication, and doesnt involve a number type change to the other side with either multiplication or subtraction, just a scalar change, which keeps it as an integer
+		- producing an integer 9 on the x side is adjacent with multiplication & subtraction, and does involve a number type change at the subtraction operation
 
 	intent: show that 0.999 and 1 are equal
 		sub-intent: equalize coefficient of x and coefficient of 1 (a)
