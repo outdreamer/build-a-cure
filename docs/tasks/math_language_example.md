@@ -1,48 +1,56 @@
-original proof:
+# problem-solving automation example with math proof 
 
-x = 0.999 (continuing digits to infinity)
-10x = 9.999
-10x - x = 9.999 - .999
-9x = 9
-x = 1
 
-frame both sides with coefficients
+## math-language conversion example
 
-1 * x = 0.999 * 1
-10 * x = 9.999 * 1
-(10 - 1) * x = (9.999 - .999) * 1
-9 * x = 9 * 1
-x = 1
+	original proof:
 
-frame both sides with variable a as coefficient in place of 1
+		x = 0.999 (continuing digits to infinity)
+		10x = 9.999
+		10x - x = 9.999 - .999
+		9x = 9
+		x = 1
 
-1 * x = 0.999 * a
-10 * x = 9.999 * a
-(10 - 1) * x = (9.999 - .999) * a
-9 * x = 9 * a
-x = a
+	frame both sides with coefficients
 
-frame both sides with equivalent integer coefficients
+		1 * x = 0.999 * 1
+		10 * x = 9.999 * 1
+		(10 - 1) * x = (9.999 - .999) * 1
+		9 * x = 9 * 1
+		x = 1
 
-1 * x = 0.999 * a
-(1 * 10) * x = (.999 * 10) * a
-(1 * 10 - (1 * 10)/10) * x = (.999 * 10 - (0.999 * 10)/10) * a
-9 * x = 9 * a
-x = a
+	frame both sides with variable a as coefficient in place of 1
 
-standardize both sides to language
+		1 * x = 0.999 * a
+		10 * x = 9.999 * a
+		(10 - 1) * x = (9.999 - .999) * a
+		9 * x = 9 * a
+		x = a
 
-coefficient * x = adjacent_coefficient * a
-(coefficient * number giving other side an integer accessible with a fraction subtraction) * x = (adjacent_coefficient * number giving other side an integer accessible with a fraction subtraction) * a
-(coefficient * (number giving other side an integer accessible with a fraction subtraction - the fraction of itself based on this number, to give other side an integer)) * x = (adjacent_coefficient * (number giving other side an integer accessible with a fraction subtraction  - the fraction of itself based on this number)) * a
-integer produced by integerizing number (* 10) and subtracted fraction (/10) * x = integer produced by integerizing number (adjacent_coefficient * 10) and subtracted fraction (9 + adjacent_coefficient)/10 * a
-x = a
+	frame both sides with equivalent integer coefficients
 
-problem to solution intent:
+		1 * x = 0.999 * a
+		(1 * 10) * x = (.999 * 10) * a
+		(1 * 10 - (1 * 10)/10) * x = (.999 * 10 - (0.999 * 10)/10) * a
+		9 * x = 9 * a
+		x = a
 
-	- alternative insight path: what operations can you do to b that would produce b on one side and an adjacent operation of 1 (10 - 9) on the other
+	standardize both sides to language
 
-	- alternative strategy using insight path
+		coefficient * x = adjacent_coefficient * a
+		(coefficient * number giving other side an integer accessible with a fraction subtraction) * x = (adjacent_coefficient * number giving other side an integer accessible with a fraction subtraction) * a
+		(coefficient * (number giving other side an integer accessible with a fraction subtraction - the fraction of itself based on this number, to give other side an integer)) * x = (adjacent_coefficient * (number giving other side an integer accessible with a fraction subtraction  - the fraction of itself based on this number)) * a
+		integer produced by integerizing number (* 10) and subtracted fraction (/10) * x = integer produced by integerizing number (adjacent_coefficient * 10) and subtracted fraction (9 + adjacent_coefficient)/10 * a
+		x = a
+
+
+## example of problem to solution mapping on various interfaces
+
+	- insight path
+		
+		- what operations can you do to b that would produce b on one side and an adjacent operation of 1 (10 - 9) on the other
+
+	- insight path
 
 		- find a number b (9.999) so that 1/n of itself is equal to the original adjacent_coefficient (0.999) so an adjacent integer (9) divisible by the repeating digit (9) to produce the target integer (1) (after moving one decimal to produce the integer) can be achieved by subtracting the adjacent_coefficient, given that 1/n of b will be the decimal after the integer, where n is a coefficient of the other side of the equation indicating only a multiplication operation has been done (requiring that no change has been done to the number type of the other side, as multiplying 1 by an integer = an integer)
 			- b * 1/n = adjacent_coefficient = (b - adjacent_coefficient) * 1/n * (infinite sequence of 1/(10 ^ 0), 1/(10 ^ 1), 1/(10 ^ 2) ...)
@@ -52,7 +60,7 @@ problem to solution intent:
 		b/n = 0.xxxxx = adjacent_coefficient
 		b - adjacent_coefficient = (n - 1)/b
 
-	- alternate strategy using specific insights
+	- specific insights
 
 		- apply the insight rule
 
@@ -85,7 +93,7 @@ problem to solution intent:
 						- assumes the theorem is irrelevant, otherwise using 1 - 0.999 would be pointless if the theorem is true (if 1 = 0.999, then 1 - 0.999 = 0, and subtracting zero is pointless here)
 					- we want to get from 0.999 to 1 by a circuitous route that uses operations other than adding/subtracting zero, just to prove that other operations dont change the fact of the theorem but rather confirm it by the fact that their attributes & relationship functions hold to the extent that they can be used as a foundation of the theorem
 
-	- other insights
+	- apply intent interface
 
 		- general intent path query
 
@@ -126,7 +134,7 @@ problem to solution intent:
 						- dont use division or operations that change to a decimal rather than an integer
 
 		- alternate intent path query
-			
+
 			intent: show that 0.999 and 1 are equal
 				sub-intent: equalize coefficient of x and coefficient of 1 (a)
 					sub-intent: equalize one side with integer (9)
