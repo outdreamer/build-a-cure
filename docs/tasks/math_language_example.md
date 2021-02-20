@@ -40,7 +40,9 @@ x = a
 
 problem to solution intent:
 
-	- alternative intent using insight path
+	- alternative insight path: what operations can you do to b that would produce b on one side and an adjacent operation of 1 (10 - 9) on the other
+
+	- alternative strategy using insight path
 
 		- find a number b (9.999) so that 1/n of itself is equal to the original adjacent_coefficient (0.999) so an adjacent integer (9) divisible by the repeating digit (9) to produce the target integer (1) (after moving one decimal to produce the integer) can be achieved by subtracting the adjacent_coefficient, given that 1/n of b will be the decimal after the integer, where n is a coefficient of the other side of the equation indicating only a multiplication operation has been done (requiring that no change has been done to the number type of the other side, as multiplying 1 by an integer = an integer)
 			- b * 1/n = adjacent_coefficient = (b - adjacent_coefficient) * 1/n * (infinite sequence of 1/(10 ^ 0), 1/(10 ^ 1), 1/(10 ^ 2) ...)
@@ -50,11 +52,12 @@ problem to solution intent:
 		b/n = 0.xxxxx = adjacent_coefficient
 		b - adjacent_coefficient = (n - 1)/b
 
-	- alternate strategy using insight 
+	- alternate strategy using specific insights
 
-		- apply the insight rule:
+		- apply the insight rule
 
 			- to determine if two values are equal, find a relationship using one value (10 - 9 = 1) and substitute the other value (10 - 9 = 0.999) to see if other operations produce the same output with the substituted alternate equal value
+
 				- find a number y (10) with an integer difference equal to the posited equal value of 0.999 (1) between x & the original adjacent_coefficient, once adjacent_coefficient is standardized to an integer (9), so that the integer difference of 1 can be used to equal the subtracted adjacent_coefficient (0.999)
 					y - 9 = 1
 					y - (9.999 - 0.999) = 1
@@ -82,39 +85,53 @@ problem to solution intent:
 						- assumes the theorem is irrelevant, otherwise using 1 - 0.999 would be pointless if the theorem is true (if 1 = 0.999, then 1 - 0.999 = 0, and subtracting zero is pointless here)
 					- we want to get from 0.999 to 1 by a circuitous route that uses operations other than adding/subtracting zero, just to prove that other operations dont change the fact of the theorem but rather confirm it by the fact that their attributes & relationship functions hold to the extent that they can be used as a foundation of the theorem
 
-
-	- frame with infinite sequence as coefficients
-		0.999 = 9 * [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-		0.999 * 10 = 9 * [1/(10 ^ 0) + 1/(10 ^ 1) + 1/(10 ^ 2) ...] = 
-				   = 9 * 1/(10 ^ 0) + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-				   = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-	    9.999      = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-	    0.999      = [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-
 	- other insights
-		- equalize 0.999 and 1
-			- comparison intent
-				- standardize (reduce difference)
-					- base
-						- each repeating digit is an element with the same numerator coefficient in an infinite sequence of formula 9/(10^n), so 10 is a relevant number by default
-					- coefficients
-						- of infinite series: the repetition of the numerator indicates a value that can be extracted as a coefficient of the series, so the numerator can be standardized to 1
-						- for coefficient value difference reduction intent, for comparison intent
-					- number types for value difference reduction intent, for comparison intent
-						- dont use division to change values, unless the output is an integer to keep values in integer number type (as target value to achieve from source value 0.999 is an integer, 1)
-				- isolate variables on either side (after optionally framing 1 as variable a)
-			- connect comparable values once standardized
-				- find adjacent operations producing target number type or value
-					- producing an integer 9 on the x side is adjacent with multiplication, and doesnt involve a number type change to the other side with either multiplication or subtraction, just a scalar change, which keeps it as an integer
-					- producing an integer 9 on the x side is adjacent with multiplication & subtraction, and does involve a number type change at the subtraction operation
-				- filter adjacent operations by restrictions
-					- dont use division or operations that change to a decimal rather than an integer
 
-	intent: show that 0.999 and 1 are equal
-		sub-intent: equalize coefficient of x and coefficient of 1 (a)
-			sub-intent: equalize one side with integer (9)
-				sub-intent: show coefficients of both sides
-				sub-intent: find coefficient (10) that will equalize the side with repeating digits to an integer + original quantity with repeating digit (0.999)
-					- this has to be a number (10) that will produce an integer (9) from the fraction 0.999, after a subtraction of itself (- 0.999), by moving the decimal one place
-				sub-intent: equalize both sides to an integer (subtract 0.999)
-					sub-intent: find x value in remaining formula (9x = 9)
+		- general intent path query
+
+			- equalize a & b
+				- compare
+					- standardize
+						- base
+						- coefficients
+						- number types
+				- connect once standardized
+					- find adjacent operations producing route from source to target value
+						- filter adjacent operations by restrictions
+					- substitute source with target value or vice versa in another relationship that will highlight the equivalent properties of the source/target values
+						(value produced by adding a-difference (1) between integerized value (9) from b (0.999) where the other side equals b)
+
+			- equalize 0.999 and 1
+				- comparison intent
+					- standardize (reduce difference)
+						- base
+							- each repeating digit is an element with the same numerator coefficient in an infinite sequence of formula 9/(10^n), so 10 is a relevant number by default
+								0.999 = 9 * [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+								0.999 * 10 = 9 * [1/(10 ^ 0) + 1/(10 ^ 1) + 1/(10 ^ 2) ...] = 
+										   = 9 * 1/(10 ^ 0) + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+										   = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+							    9.999      = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+							    0.999      = [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+						- coefficients
+							- of infinite series: the repetition of the numerator indicates a value that can be extracted as a coefficient of the series, so the numerator can be standardized to 1
+							- for coefficient value difference reduction intent, for comparison intent
+						- number types for value difference reduction intent, for comparison intent
+							- dont use division to change values, unless the output is an integer to keep values in integer number type (as target value to achieve from source value 0.999 is an integer, 1)
+					- isolate variables on either side (after optionally framing 1 as variable a)
+				- connect comparable values once standardized
+					- find adjacent operations producing target number type or value
+						- producing an integer 9 on the x side is adjacent with multiplication, and doesnt involve a number type change to the other side with either multiplication or subtraction, just a scalar change, which keeps it as an integer
+						- producing an integer 9 on the x side is adjacent with multiplication & subtraction, and does involve a number type change at the subtraction operation
+					- filter adjacent operations by restrictions
+						- dont use division or operations that change to a decimal rather than an integer
+
+		- alternate intent path query
+			
+			intent: show that 0.999 and 1 are equal
+				sub-intent: equalize coefficient of x and coefficient of 1 (a)
+					sub-intent: equalize one side with integer (9)
+						sub-intent: show coefficients of both sides
+						sub-intent: find coefficient (10) that will equalize the side with repeating digits to an integer + original quantity with repeating digit (0.999)
+							- this has to be a number (10) that will produce an integer (9) from the fraction 0.999, after a subtraction of itself (- 0.999), by moving the decimal one place
+						sub-intent: equalize both sides to an integer (subtract 0.999)
+							sub-intent: find x value in remaining formula (9x = 9)
