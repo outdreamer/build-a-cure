@@ -88,52 +88,76 @@
 							1 = 0.999
 
 				- the key is that ((10 * 0.999) - 0.999) is an adjacent way to get to a non-1 integer from 0.999 
+
 					- we dont want to find an adjacent route to the integer of 1, using operations like adding (1 - 0.999) to 0.999 to get 1, which 
 						- ignores the theorem to prove and uses an equivalence achieved by addition/subtraction that doesnt use external information to the theorem
-						- assumes the theorem is irrelevant, otherwise using 1 - 0.999 would be pointless if the theorem is true (if 1 = 0.999, then 1 - 0.999 = 0, and subtracting zero is pointless here)
+						- assumes the theorem is irrelevant, otherwise using 1 - 0.999 would be pointless if the theorem is true (if 1 = 0.999, then 1 - 0.999 = 0, and subtracting zero is pointless here & assumes the theorem is false, otherwise there would be no need to subtract anything to get from 1 to 0.999 bc theyre equal)
+
 					- we want to get from 0.999 to 1 by a circuitous route that uses operations other than adding/subtracting zero, just to prove that other operations dont change the fact of the theorem but rather confirm it by the fact that their attributes & relationship functions hold to the extent that they can be used as a foundation of the theorem
+
 
 	- apply intent interface
 
-		- general intent path query
+		- apply insight to generate query on intent interface
+
+			- if two objects are equal, their components are also equal
+
+				- components
+				
+					- functions
+						- connecting functions
+							- a = object1.function * b (connects a and b using object1 function)
+							- output a should be produced by applying object1.function to b
+								- the same should hold for object2 - you should be able to produce the same outputs using the same inputs, with the other object's corresponding function
+									- a = object2.function * b (connects a and b using object2 function)
+
+					- attributes
+
+		- apply general query on intent interface
 
 			- equalize a & b
+
 				- compare
 					- standardize
 						- base
 						- coefficients
 						- number types
+
 				- connect once standardized
 					- find adjacent operations producing route from source to target value
 						- filter adjacent operations by restrictions
 					- substitute source with target value or vice versa in another relationship that will highlight the equivalent properties of the source/target values
 						(value produced by adding a-difference (1) between integerized value (9) from b (0.999) where the other side equals b)
 
-			- equalize 0.999 and 1
-				- comparison intent
-					- standardize (reduce difference)
-						- base
-							- each repeating digit is an element with the same numerator coefficient in an infinite sequence of formula 9/(10^n), so 10 is a relevant number by default
-								0.999 = 9 * [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-								0.999 * 10 = 9 * [1/(10 ^ 0) + 1/(10 ^ 1) + 1/(10 ^ 2) ...] = 
-										   = 9 * 1/(10 ^ 0) + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-										   = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-							    9.999      = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-							    0.999      = [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
-						- coefficients
-							- of infinite series: the repetition of the numerator indicates a value that can be extracted as a coefficient of the series, so the numerator can be standardized to 1
-							- for coefficient value difference reduction intent, for comparison intent
-						- number types for value difference reduction intent, for comparison intent
-							- dont use division to change values, unless the output is an integer to keep values in integer number type (as target value to achieve from source value 0.999 is an integer, 1)
-					- isolate variables on either side (after optionally framing 1 as variable a)
-				- connect comparable values once standardized
-					- find adjacent operations producing target number type or value
-						- producing an integer 9 on the x side is adjacent with multiplication, and doesnt involve a number type change to the other side with either multiplication or subtraction, just a scalar change, which keeps it as an integer
-						- producing an integer 9 on the x side is adjacent with multiplication & subtraction, and does involve a number type change at the subtraction operation
-					- filter adjacent operations by restrictions
-						- dont use division or operations that change to a decimal rather than an integer
+			- apply general query to specific problem 
 
-		- alternate intent path query
+				- equalize 0.999 and 1
+
+					- comparison intent
+						- standardize (reduce difference)
+							- base
+								- each repeating digit is an element with the same numerator coefficient in an infinite sequence of formula 9/(10^n), so 10 is a relevant number by default
+									0.999 = 9 * [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+									0.999 * 10 = 9 * [1/(10 ^ 0) + 1/(10 ^ 1) + 1/(10 ^ 2) ...] = 
+											   = 9 * 1/(10 ^ 0) + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+											   = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+								    9.999      = 9 + [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+								    0.999      = [1/(10 ^ 1) + 1/(10 ^ 2) + 1/(10 ^ 3) ...]
+							- coefficients
+								- of infinite series: the repetition of the numerator indicates a value that can be extracted as a coefficient of the series, so the numerator can be standardized to 1
+								- for coefficient value difference reduction intent, for comparison intent
+							- number types for value difference reduction intent, for comparison intent
+								- dont use division to change values, unless the output is an integer to keep values in integer number type (as target value to achieve from source value 0.999 is an integer, 1)
+						- isolate variables on either side (after optionally framing 1 as variable a)
+
+					- connect comparable values once standardized
+						- find adjacent operations producing target number type or value
+							- producing an integer 9 on the x side is adjacent with multiplication, and doesnt involve a number type change to the other side with either multiplication or subtraction, just a scalar change, which keeps it as an integer
+							- producing an integer 9 on the x side is adjacent with multiplication & subtraction, and does involve a number type change at the subtraction operation
+						- filter adjacent operations by restrictions
+							- dont use division or operations that change to a decimal rather than an integer
+
+		- alternate query on intent interface
 
 			intent: show that 0.999 and 1 are equal
 				sub-intent: equalize coefficient of x and coefficient of 1 (a)
