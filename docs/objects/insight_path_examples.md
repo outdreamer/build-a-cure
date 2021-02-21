@@ -1,3 +1,30 @@
+- 'this group always thinks we're accusing them of bias'
+	- reasons for that conclusion
+		- fear
+			- they are targeted for excessive illegitimate criticism, bc people are biased against that group
+		- egotism
+			- they always think everything is about them
+	- paths to those reasons
+		- fear: being targeted for excessive illegitimate criticism has an output of self-protection functions in the 'preventative' type, like the specific self-protection function 'anticipating illegitimate criticism'
+	- paths between those reasons
+		- from egotism to fear:
+			- remove bias against that group or remove selfish/local bias
+				- remove assumption that 'they have no problems'
+					- query for 'what problems do they have'
+						- find problems like 'excessive attention'
+							- query for related objects to 'excessive attention': 'excessive criticism'
+								- query for outputs of 'excessive criticism': 
+									- fear
+										- check if 'fear' can be used as a source input to get to that conclusion destination
+											- 'fear' has outputs:
+												- 'self-protection'
+													- which has related objects:
+														s- specific self-protection functions, like 'preventative' functions, like 'anticipating illegitimate criticism'
+										- which matches the original statement
+
+	- paths to generate alternative reasons
+		- remove assumptions until another identifiable reason/intent or other causative interface structure is found, then check if that structure matches the original pattern and has a path to the original pattern
+
 - prediction
 
 	- example: predict individual participation in a group dynamic	
