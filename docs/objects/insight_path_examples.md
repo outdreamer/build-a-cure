@@ -1,11 +1,15 @@
-- 'this group always thinks we're accusing them of bias'
+- 'this group always falsely believes we're accusing them of bias'
+	
 	- reasons for that conclusion
 		- fear
 			- they are targeted for excessive illegitimate criticism, bc people are biased against that group
 		- egotism
-			- they always think everything is about them
+			- they always falsely believe everything is about them
+	
 	- paths to those reasons
 		- fear: being targeted for excessive illegitimate criticism has an output of self-protection functions in the 'preventative' type, like the specific self-protection function 'anticipating illegitimate criticism'
+		- egotism: assuming everything is about you is extreme selfish/local bias
+
 	- paths between those reasons
 		- from egotism to fear:
 			- remove bias against that group or remove selfish/local bias
@@ -24,7 +28,9 @@
 
 	- paths to generate alternative reasons
 		- remove assumptions until another identifiable reason/intent or other causative interface structure is found, then check if that structure matches the original pattern and has a path to the original pattern
-
+			- remove attributes built-in to the statement (like 'falsely' or 'everything')
+				- check if its true whether everything is about them bc the other groups over-focus on them, rather than false
+				
 - prediction
 
 	- example: predict individual participation in a group dynamic	
