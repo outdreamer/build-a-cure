@@ -44,7 +44,7 @@
 		x = a
 
 
-## example of problem to solution mapping on various interfaces
+## example of problem-solution mapping on various interfaces
 
 	- insight path
 		
@@ -103,7 +103,7 @@
 			- if two objects are equal, their components are also equal
 
 				- components
-				
+
 					- functions
 						- connecting functions
 							- a = object1.function * b (connects a and b using object1 function)
