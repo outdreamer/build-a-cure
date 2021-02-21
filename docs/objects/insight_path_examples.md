@@ -1,3 +1,33 @@
+- prediction
+
+	- example: predict individual participation in a group dynamic	
+
+		- find interface(s) where similar difference patterns develop (intent, logic, concept, system & other rule-centric interfaces)
+			- similarity in distortion errors
+		
+		- meta (self-referential) interface structures
+			- interface structure cascade, overlap, embedding, or loop
+				- bias: info imbalance (perception/understanding/knowledge) caused by info imbalance (convenient barrier to negative info))
+					- imbalance in perception of power distribution in lifetime events (victimhood/responsibility)
+		
+		- contradictory or compounding interface structures
+			- lack of functionality (lack of power) to find similarity (info power source) across power structures (powerful to powerless position)
+				- lack of similarity-seeking/finding function & usage across power structures (positions)
+		
+		- info efficiencies (low-cost, high-reward info)
+			- lack of incentive
+		
+		- imbalance in change request/response (function call & handler function)
+			- lack of limits to offset/counteract functionality spread/misuse
+				- lack of preventative law/norm enforcement/monitoring
+		
+		- imbalance in interface structures (position)
+			- misunderstanding/mis-identification/mis-investment in perspective
+				- incorrect position of randomness
+					- lack of identification of randomness as a power distributor
+					- lack of randomness/luck position recognition
+					- lack of problem distribution
+
 - lie detection
 
 	- question: 'is it true'
