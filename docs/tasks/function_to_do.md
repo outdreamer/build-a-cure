@@ -1,5 +1,23 @@
 # to do
 
+  - organize examples in indexes
+
+  - diagram with over-simplification error
+
+  - generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
+    - intent: future direction with benefit to agency
+    - cause: preceding inevitability requirement in sequential structure
+    - function: structure of task structures (conditions, assignments, iterations) consistently connecting input & output
+    - logic: function to connect information using info structures (definitions, inevitability, pattern-matching, exclusive/inclusive conditions, requirements, assumptions)
+    - potential: structures like combinations not certainly excluded by requirements
+    - change: difference in an attribute value, according to a base (time, relative change, change type)
+    - abstraction: general pattern of a specific structure set
+    - pattern: a set of connecting functions, often in a sequence structure
+    - structure: connections & change of measurable change & difference types
+    - information: specific description of a structure
+    - math: description-connecting functions
+    - system: structure of independence, often having boundary, function & other component structures, at a particular interaction level
+
   - platform to apply a portfolio of AI models to price a stock given private company data like available resources, internal analysis, & implementation plans & publish the ai-generated prices, with comparative historical pricing of other companies using similar data pre-ipo or valuation, as an offset to price pumping & other forms of misrepresentation
 
   - identify accidental & intentional govts/laws/markets, based on function metadata concepts
