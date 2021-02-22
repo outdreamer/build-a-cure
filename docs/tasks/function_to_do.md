@@ -4,6 +4,10 @@
 
   - diagram with over-simplification error
 
+  - diagram for structures of emergence
+    - example: 1-1 input/output relationship up an interaction layer, where extra resources that dont dissolve immediately on the higher interaction layer aggregate & form core structures like combinations, where interactions between combinations & sequences have different dynamics than the individual output interacting with other individual outputs
+    - emergent functionality/attributes come from interaction structures (sequences & layers)
+
   - calculate deaths caused by products/companies by proportional contribution to deaths from slavery & pollution/plastic/additive/medicine & other chemicals
 
   - generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
