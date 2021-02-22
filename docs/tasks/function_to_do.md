@@ -4,6 +4,8 @@
 
   - diagram with over-simplification error
 
+  - calculate deaths caused by products/companies by proportional contribution to deaths from slavery & pollution/plastic/additive/medicine & other chemicals
+
   - generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
     - intent: future direction with benefit to agency
     - cause: preceding inevitability requirement in sequential structure
