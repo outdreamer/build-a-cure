@@ -2,7 +2,32 @@
 
   - organize examples in indexes
 
-  - diagram with over-simplification error
+  - example of applying structure to components like technologies to find emergent trends
+  
+    - tech, standardized to common terms
+      - movie: sensory info emotion triggers & info/abstract paths (stories)
+      - video game: decision visualization
+      - music: audio emotion triggers & info/pattern paths
+      - ai: prediction/generation
+      - ar: integrate visualizations with real sensory info
+      - screen: visualization interface
+      - video conferencing: visualization sharing
+      - text voting: decision aggregation
+      - drug: direct sensory info semotion trigger
+      - brain-scanning tech: visualize memories & thought processes
+
+    - multi-player video game voting: applying voting tech of viewers to influence video game tactics/resources/problems/outcomes/decisions
+      - generative query: switch input of decisions to another decision-producing tool (audience voting vs. player/algorithm decisions), for randomness/customization/reality integration intents
+    - user character customization: applying AI to generate characters of real people or characters from other games to play as other players in video game
+      - generative query: switch input of character personality/story with another source of that info, for customization/reality integration intents
+    - memory-generated vidoe game: apply ai & brain-scanning to generate a game based on memories
+      - generative query: change experience level or skills required (use memory as a tool or test memory functionality), for testing/customization/reality integration intents
+    - emotional/sensory alignment games: query for desired emotional path & map a game/video/audio/drug to produce or match that path
+      - generative query: change content-creation direction & other variables, from story => emotions to emotions => structure applied to emotion-triggering tools
+    - brain-development games: apply AI & brain-scanning to identify missing functionality in brains & generate game to develop that function
+      - generative query: use output of game (learning) as input assumption for learning intents using games as intent-fulfillment resource
+
+  - diagram with over-simplification error & other error types
 
   - diagram for structures of emergence
     - example: 1-1 input/output relationship up an interaction layer, where extra resources that dont dissolve immediately on the higher interaction layer aggregate & form core structures like combinations, where interactions between combinations & sequences have different dynamics than the individual output interacting with other individual outputs
