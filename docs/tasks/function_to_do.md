@@ -6,6 +6,8 @@
     - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
     - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
 
+  - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
+
   - example of applying structure to components like technologies to find emergent trends
 
     - tech, standardized to common terms
