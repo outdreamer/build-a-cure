@@ -1,10 +1,16 @@
 # to do
 
+  - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
+
   - organize examples in indexes
+
+  - make efficiency map
 
   - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
     - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
     - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
+
+    - conflating stereotype (false statement about a group) with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
 
   - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
 
