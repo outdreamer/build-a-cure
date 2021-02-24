@@ -1,5 +1,11 @@
 # to do
 
+  - give example of mathematized insight path 
+    - formatting with math interface structures & values
+      - standardize variables with types to differentiated clusters
+      - compress variables with randomness injections to lower dimenesional representations
+    - connect variables once formatted using adjacent/interim dimensions that can act as interfaces between connected formatted variables (can capture info from input & output variables in the connection)
+
   - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
 
   - organize examples in indexes
