@@ -12,15 +12,16 @@
 
   - make efficiency map
 
-  - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
-    - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
-    - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
-
-    - conflating stereotype (false statement about a group) with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
+  - bias structures: 
+    - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
+      - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
+      - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
+    - conflating stereotype ('false statement about a group') with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
+    - stupidity manifests as similar structures (fulfillment of low expectations) across groups in response to low expectations
 
   - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
 
-  - finish applying structure to info components (memory components like forgetting, compression, generation, learning, bias, and organization components like type, abstraction, standards) to generate full set of neural net types
+  - finish applying structure to info components (memory components like personality, forgetting, compression, uniqueness, generation, learning, bias, and organization components like relevance, differences, type, abstraction, standards, randomness) to generate full set of neural net types
     - filter by usage intent
 
   - example of applying structure to components like technologies to find emergent trends
