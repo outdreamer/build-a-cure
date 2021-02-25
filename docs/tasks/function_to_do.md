@@ -1,19 +1,28 @@
 # to do
 
   - give example of mathematized insight path 
-    - format variables with math interface structures & values
-      - identify types
-        - standardize variables with types to differentiated clusters
-        - apply difference definitions (like variable subsets) until type separations are clear
-        - apply difference types until type separations are clear
-      - identify relative difference (difference from reference point, like origin node)
-        - apply adjacent structures (vector or spectrum or loop) to variables having the concept of 'opposite'
-      - identify causal structures like direction
-        - apply structures with direction to variables having causation in their connections
-      - remove randomness
-        - compress variables with randomness injections to lower dimensional representations
-      - integrate variables in one structure to relate them
-        - connect variables once formatted using adjacent/interim dimensions like topologies with variable subsets that can act as interfaces between connected formatted variables (can capture info from input & output variables in the connection)
+    - standardize variables to math interface structures & values
+      - apply type interface
+        - identify types
+          - standardize variables with types to differentiated clusters
+          - apply difference definitions (like variable subsets) until type separations are clear
+          - apply difference types until type separations are clear
+      - apply structural interface
+        - identify relative difference (difference from reference point, like origin node)
+          - apply adjacent structures (vector or spectrum or loop) to variables having the concept of 'opposite'
+      - apply causal interface
+        - identify causal structures like direction
+          - apply structures with direction to variables having causation in their connections
+      - apply function interface
+        - identify variables with input/output relationships to form path between structures on meaning interface
+      - apply concept interface
+        - remove randomness
+          - compress variables with randomness injections to lower dimensional representations
+      - apply meaning interface (using a structural relevance definition)
+        - integrate variables in one structure to relate them
+          - identify any vertex variables as the preferred variables to standardize other variables to
+          - connect variables once formatted using adjacent/interim dimensions like topologies with variable subsets that can act as interfaces between connected formatted variables 
+            (can capture info from input & output variables in the connection)
 
   - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
 
