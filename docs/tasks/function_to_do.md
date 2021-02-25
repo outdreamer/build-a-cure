@@ -25,7 +25,8 @@
             (can capture info from input & output variables in the connection)
 
   - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
-
+    - give parallel insight path examples, for insight paths that add info that the other is less likely to retrieve
+    
   - organize examples in indexes
 
   - make efficiency map
