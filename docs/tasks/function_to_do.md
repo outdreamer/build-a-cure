@@ -25,8 +25,17 @@
             (can capture info from input & output variables in the connection)
 
   - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
-    - give parallel insight path examples, for insight paths that add info that the other is less likely to retrieve
-    
+    - give parallel/perpendicular insight path examples, for insight paths that add info that the other is less/more likely to retrieve
+
+  - diagram with error types
+    - examples: 
+      - over-structurization (specification) of an uncertainty/variable (assumption as fact, variable as constant)
+      - over-correction of an error
+      - over-prioritization
+      - over-reduction (over-simplification)
+      - over-variability (over-complication)
+      - misidentification of minimum info to solve
+
   - organize examples in indexes
 
   - make efficiency map
@@ -67,8 +76,6 @@
       - generative query: change content-creation direction & other variables, from story => emotions to emotions => structure applied to emotion-triggering tools
     - brain-development games: apply AI & brain-scanning to identify missing functionality in brains & generate game to develop that function
       - generative query: use output of game (learning) as input assumption for learning intents using games as intent-fulfillment resource
-
-  - diagram with over-simplification error & other error types
 
   - diagram for structures of emergence
     - example: 1-1 input/output relationship up an interaction layer, where extra resources that dont dissolve immediately on the higher interaction layer aggregate & form core structures like combinations, where interactions between combinations & sequences have different dynamics than the individual output interacting with other individual outputs
