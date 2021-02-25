@@ -1,7 +1,7 @@
 # to do
 
   - give example of mathematized insight path 
-    - formatting with math interface structures & values
+    - format variables with math interface structures & values
       - standardize variables with types to differentiated clusters
       - compress variables with randomness injections to lower dimenesional representations
     - connect variables once formatted using adjacent/interim dimensions that can act as interfaces between connected formatted variables (can capture info from input & output variables in the connection)
@@ -19,6 +19,9 @@
     - conflating stereotype (false statement about a group) with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
 
   - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
+
+  - finish applying structure to info components (memory components like forgetting, compression, generation, learning, bias, and organization components like type, abstraction, standards) to generate full set of neural net types
+    - filter by usage intent
 
   - example of applying structure to components like technologies to find emergent trends
 
