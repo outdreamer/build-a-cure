@@ -2,11 +2,18 @@
 
   - give example of mathematized insight path 
     - format variables with math interface structures & values
-      - standardize variables with types to differentiated clusters
-      - apply adjacent structures (vector or spectrum or loop) to variables having the concept of 'opposite'
-      - apply structures with direction to variables having causation in their connections
-      - compress variables with randomness injections to lower dimenesional representations
-    - connect variables once formatted using adjacent/interim dimensions like topologies with variable subsets that can act as interfaces between connected formatted variables (can capture info from input & output variables in the connection)
+      - identify types
+        - standardize variables with types to differentiated clusters
+        - apply difference definitions (like variable subsets) until type separations are clear
+        - apply difference types until type separations are clear
+      - identify relative difference (difference from reference point, like origin node)
+        - apply adjacent structures (vector or spectrum or loop) to variables having the concept of 'opposite'
+      - identify causal structures like direction
+        - apply structures with direction to variables having causation in their connections
+      - remove randomness
+        - compress variables with randomness injections to lower dimensional representations
+      - integrate variables in one structure to relate them
+        - connect variables once formatted using adjacent/interim dimensions like topologies with variable subsets that can act as interfaces between connected formatted variables (can capture info from input & output variables in the connection)
 
   - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
 
