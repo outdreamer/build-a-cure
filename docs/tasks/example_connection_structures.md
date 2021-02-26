@@ -17,6 +17,40 @@
 
     - positive/negative:
 
+      - specific insights to convert between conceptual structures
+
+        - apply concept interface
+
+          - definition of positive/negative includes concept of 'opposite'
+
+            - for intent 'switch from positive to negative structures', apply 'opposite' structures where change can occur (variables)
+              
+              - list variables
+                - charge
+                - event
+                - perspective
+                - context
+
+              - list opposite structures of a variable value
+                - switch to value on other extreme
+                - switch to value at origin/average
+                - switch to multiple values
+                  - apply structure to multiple values (set, network, sequence)
+
+              - apply opposite structures to variables
+
+                - intent: subvert expectations by changing attribute to opposite value
+                  - change metadata (name) of something good to metadata (name) of something bad
+
+                - intent: highlight good events
+                  - change something good to something bad
+                  
+                - intent: identify melodramatic attribute of negative perspective
+                  - reduce metadata (size) of something bad
+                  - increase metadata (size) of something bad
+                  - compare to something extremely worse, as being the worse thing
+
+
       - insight path
     
         - 'all structures can be linked to all structures'
