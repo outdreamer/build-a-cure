@@ -36,6 +36,13 @@
       - over-variability (over-complication)
       - misidentification of minimum info to solve
 
+  - new insight-fitting algorithm for error type avoidance
+    - when a new discovery is made, apply questions to spot error types before they occur
+      - could this violate any assumptions/requirements/dependencies we rely on for other tasks like calculations or applying systems of understanding
+      - could this cause cascading (self-sustaining) errors
+      - could this cause emergent errors, given other knowledge like probably interactive trends or rules
+      - what are triggers of this? what can it trigger with certain interactions, how likely are those interactions
+
   - organize examples in indexes
 
   - make efficiency map
