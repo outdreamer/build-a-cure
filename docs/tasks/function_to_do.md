@@ -37,11 +37,35 @@
       - misidentification of minimum info to solve
 
   - new insight-fitting algorithm for error type avoidance
-    - when a new discovery is made, apply questions to spot error types before they occur
+    - when a new discovery is made, apply insight paths formatted as questions to spot error types before they occur
       - could this violate any assumptions/requirements/dependencies we rely on for other tasks like calculations or applying systems of understanding
       - could this cause cascading (self-sustaining) errors
       - could this cause emergent errors, given other knowledge like probably interactive trends or rules
       - what are triggers of this? what can it trigger with certain interactions, how likely are those interactions
+
+  - diagram with joke types
+    - 'annoying when they bring up human rights in a conversation'
+      - conversation system context
+        - functions
+          - change topic 
+            - change sequence of topic
+              - introduce a topic (first time topic is included in conversation)
+          - expected interaction functions
+            - criticism of a behavior
+              - 'conversation with dictator' system context
+                - criticism of power abuse (law violation, specifically human rights violation, which are a related object to dictators)
+                  - interpreted as right in the 'conversation with dictator' system context
+                    - expected interaction in this context
+                      - 'should bring up human rights to a criminal'
+            - norms:
+              - for low-stakes interactions & interaction errors (manners, annoyance, disrespect)
+            - laws: 
+              - for high-stake interactions & interaction errors (rights violations)
+        - placing a norm (or related objects) in the place where a law (or related objects) would normally go:
+          - 'its annoying when someone doesnt let you end the conversation'
+            - 'its annoying when someone keeps going on & on about your previous conversations where you ordered deaths of a dissident'
+              - 'its annoying when someone keeps going on & on about your previous conversations where you ordered deaths of a dissident for being annoying & then abruptly stops without explanation'
+            - 'its rude when someone doesnt let you end a conversation with a laywer interrogating you for war crimes' 
 
   - organize examples in indexes
 
