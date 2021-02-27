@@ -48,7 +48,7 @@
       - conversation system context
         - functions
           - change topic 
-            - change sequence of topic
+            - change topic structure (sequence)
               - introduce a topic (first time topic is included in conversation)
           - expected interaction functions
             - criticism of a behavior
