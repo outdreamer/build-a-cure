@@ -314,6 +314,10 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
       - markets for product structures
         - subset sequence structure
           - give discount on useful logistical products (drones/chips/solar panels/components) if the user agrees to let company use it for delivering donated goods for a period of time (or on the way to delivering to customer, during shipping) before receiving the product or when its being unused, like donating bitcoin mining on chips up to 1% wear to reduce price of chips/components
+        - you could also generate that idea by applying concept of 'physical asset banks' or 'liquidity' or 'expected usage times' to physical products
+          - physical asset banks are implemented in shared/used/returned product markets, and in applications with inventory management like supply chains, warehouses/factories, & vaults
+          - liquidity of financial assets is applied to allow other people to borrow the asset when its not being used, so it can be re-invested elsewhere until the asset is liquidated by the original owner
+          - expected usage times creates an asset in the form of a usage-sharing opportunity, given the input of an expected usage schedule, converting continuous usage expectation to a discrete subset usage expectation format
 
       - search engines as a reporting product (journalism market invalidation) with semantic queries:
         - find most common distortions & opinions on an issue
