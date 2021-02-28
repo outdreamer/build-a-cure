@@ -311,6 +311,10 @@ Strategies for ending poverty in a cost-minimizing way that mostly involves comb
               - example: "make $1 a month at this price given this customer size, $10 a month at this price, etc"
                 - https://www.wired.com/story/india-smartphones-cheap-data-giving-women-voice/
 
+      - markets for product structures
+        - subset sequence structure
+          - give discount on useful logistical products (drones/chips/solar panels/components) if the user agrees to let company use it for delivering donated goods for a period of time (or on the way to delivering to customer, during shipping) before receiving the product or when its being unused, like donating bitcoin mining on chips up to 1% wear to reduce price of chips/components
+
       - search engines as a reporting product (journalism market invalidation) with semantic queries:
         - find most common distortions & opinions on an issue
         - notification when issue has been researched enough to have reliable info at top of search results
