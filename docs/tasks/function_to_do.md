@@ -1162,6 +1162,8 @@
       - generated object change types
         - constant to variable
         - variable to removal of assumption in variable type/data type
+
+    - map variable structures to prediction potential for problem types, given ratio of equivalent alternate signals
     
     - research implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
     
