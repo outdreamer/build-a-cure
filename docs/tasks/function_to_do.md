@@ -1182,20 +1182,44 @@
         - related variables
           - attention
 
-    - optimizability of a problem, given resource limits (market, time, info about alternative products)
+    - optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
       - buttons vs. configuration (headphones with buttons)
-        - find common usage patterns & assign to options (buttons)
-          - buttons for common functions
-        - find memorable button structures & assign to common usage functions
-          - find memorable combinations & sequences, like double-click of a button, or a button combination click, and assign to common usage functions
-        - inject crucial high-variation function in higher-variation interface
-          - configurable button functions (configure options of how buttons connect to functions), using an app (higher-variation interface, allowing more buttons)
-        - inject crucial high-variation function into an option (button)
-          - configuration button (configure options of how buttons connect to functions), by clicking a config button
-        - embedded menus in buttons
-          - access menu (list of functions) with a button or button structure (combination, sequence)
-        - alternate input with higher-variation potential
-          - voice commands rather than or in combination with buttons
+        - variables
+          - hardware
+          - alternative/related/interactive products
+          - usage patterns
+          - sound functions (play, skip)
+          - buttons
+          - attachability/detachability/migratability
+          - compartmentalization/isolatability
+          - buildability
+          - configuration options
+          - simplicity
+          - memorizability
+          - adaptability
+          - app
+          - higher-variation alternative interfaces
+            - sound input/output (alternative input to a button)
+          - probability (commonness of a usage pattern)
+          - demand (need for a button, configuration, usage pattern, or a function)
+          - variable structures (combination of variables, like a particular set of variables or a set of interaction rules between variables)
+        - implementations
+          - find common usage patterns & assign to buttons
+            - buttons for common functions
+          - find memorable button structures & assign to common usage functions
+            - find memorable combinations & sequences, like double-click of a button, or a button combination click, and assign to common usage functions
+          - inject crucial high-variation function in higher-variation interface
+            - configurable button functions (configure options of how buttons connect to functions), using an app (higher-variation interface, allowing more buttons)
+          - inject crucial high-variation function into a button
+            - configuration button (configure options of how buttons connect to functions), by clicking a config button
+          - embedded menus in buttons
+            - access menu (list of functions) with a button or button structure (combination, sequence)
+          - alternate input with higher-variation potential
+            - voice commands rather than or in combination with buttons
+          - allow buttons to be attached like legos
+          - allow buttons/functions to be coded & switched out to do any function the hardware (or connected hardware) can support, including functions from other alternative products
+          - integrate with existing hardware like glasses/hat/shirt (use materials to conduct sound, attach speakers/microphones to glasses rather than having wires, attach buttons to glasses)
+          - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
     
