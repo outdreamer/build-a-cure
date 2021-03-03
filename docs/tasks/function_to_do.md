@@ -1165,7 +1165,7 @@
 
     - map variable structures to prediction potential for problem types, given ratio of equivalent alternate signals
 
-    - solvability limit of a problem, without being given the answer
+    - calculating solvability limit of a problem, without being given the answer
       - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
         - connected structural info:
           - when they choose the number
@@ -1181,7 +1181,7 @@
             - agent intents (trying to surprise the magician by subverting expectations of their choice)
         - related variables
           - attention
-      - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer
+      - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer (or info that makes it identifiable or possible to filter/reduce other options)
         - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
 
     - optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
@@ -1190,7 +1190,7 @@
           - hardware
           - alternative/related/interactive products
           - usage patterns
-          - sound functions (play, skip)
+          - sound functions (play, skip, switch to voice commands, reduce noise, highlight bass, use more capacity to clarify sound quality, change relative volume, predict lost sound)
           - buttons
           - attachability/detachability/migratability
           - compartmentalization/isolatability
@@ -1225,8 +1225,9 @@
           - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
 
         - optimized mathematized implementation for intent
+          
           - simplicity: assign common (high-probability) functions to buttons & simple button structures (low-dimensional buttons & button structures)
-            - variables: button count, button function, button structure (combination, set, sequence)
+            - variables: button count, button function, button structure (combination, set, sequence), function probability, simplicity
 
           - highest feature count, given filter of 'simplest implementation': highest number of functions possible to implement simply (low-dimensional memorization)
             - variables: function count, memorization, simplicity, abstraction (type), button usage structure (scale like repeated clicks of a button, sequence like buttons clicked in sequence)
@@ -1237,11 +1238,16 @@
               - intersection of independent variable changes (function count & memorization)
               - alignment of simplicity & memorization changes
               - alignment of abstraction (type) & simplicity changes
+              - substitution of proxy variables (substitute more measurable variable like simplicity for memorizability)
+              - substitution of more measurable variables
+                - substitute simplicity-filtering rules to identify complexity rather than using complexity identification rules
+                - substitute similarity-filtering rules (what something is) to identify similarity than difference identification rules (what something is not)
             - optimized variable structure: 
-              - maximized intersection of independent (or similarly bi-directional causative) variables (intersection of highest function count and highest memorizability)
+              - maximized intersection of independent (or similarly bi-directional causative) variables (intersection of highest function count and highest simplicity)
               - maximized alignment of dependent/related variables (aligning memorizability & simplicity)
+          
           - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
-
+            - variables: config input (voice, button), variable variation, config adaptability, config source (custom user-defined function, open source/multi-vendor libraries)
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
     
