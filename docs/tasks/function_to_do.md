@@ -1265,6 +1265,55 @@
             - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
+
+    - example of alternate variable sets for predicting motion
+
+      - exercise variables:
+        - info (about optimizations, possibilities, rules, metrics)
+          - attention/memory to focus on, remember & apply info
+        - patterns
+        - structures
+          - point (metric threshold values, change points, decision points)
+          - sequence: 
+          - combination: multiple variables to make a decision
+          - limits: time limits, energy limits
+          - context
+            - health
+            - energy
+            - environment
+              - landmarks
+              - agents
+              - interactions/events
+        - time
+          - time structures (alternation, number of seconds, continuity of pattern applied)
+        - functions 
+          - core functions (test, start/stop, switch, remember, identify)
+          - interaction level functions (decide when to speed up, plan decision points)
+        - concepts
+          - agency
+          - intent
+            - exercise intents: recover, rest, test/find limit, test function, switch energy sources, apply info, identify landmark, align with music
+            - other intents: what to do after workout, scheduling limits to work around, listen to new music, listen to music limited number of times
+            
+      - variable sets that can predict motion:
+        - time cant be used on its own bc usage patterns may offer the illusion of equivalent alternatives that are actually different
+          - example: pattern 'a-b-c' may occur just as often as 'a-b-d' without any distinguishable signals using available time info, so other interfaces need to be applied to predict c or d, such as contextual/intent probabilities, or patterns like intent patterns or change patterns 
+        - agency rules
+          - agents have known intents, which interact in a known way
+        - interaction rules
+          - energy, time, agents, & health interact in this way
+        - energy rules
+          - 'energy can be used to produce energy in other formats'
+          - 'stored energy can replace agent prioritization'
+          - 'excess energy can have these outputs when used optimally'
+          - 'energy efficiency increases with usage'
+          - 'high variation in usage increases energy coordination & distribution'
+          - 'brain & muscle energy are related, in a pseudo-tradeoff'
+          - 'high variation in energy usage can offset energy plateaus'
+        - variable interaction patterns
+          - 'using n number of variables to make a decision only occurs once out of every x decisions'
+          - 'applying previously applied variable interaction rules is most common'
+          - 'excess energy results in higher variability of variable interactions'
     
     - research implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
     
