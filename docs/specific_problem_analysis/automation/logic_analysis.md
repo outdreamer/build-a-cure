@@ -4,6 +4,7 @@
     - grep for known id's, urls, code, config, paths, params, keywords
         - iterate through results
             - look for id's, urls, code, config, paths, params, keywords
+                - find results in common
 
 ## Interface Analysis
 
