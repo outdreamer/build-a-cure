@@ -1181,6 +1181,8 @@
             - agent intents (trying to surprise the magician by subverting expectations of their choice)
         - related variables
           - attention
+      - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer
+        - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
 
     - optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
       - buttons vs. configuration (headphones with buttons)
@@ -1203,6 +1205,7 @@
           - probability (commonness of a usage pattern)
           - demand (need for a button, configuration, usage pattern, or a function)
           - variable structures (combination of variables, like a particular set of variables or a set of interaction rules between variables)
+
         - implementations
           - find common usage patterns & assign to buttons
             - buttons for common functions
@@ -1220,6 +1223,25 @@
           - allow buttons/functions to be coded & switched out to do any function the hardware (or connected hardware) can support, including functions from other alternative products
           - integrate with existing hardware like glasses/hat/shirt (use materials to conduct sound, attach speakers/microphones to glasses rather than having wires, attach buttons to glasses)
           - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
+
+        - optimized mathematized implementation for intent
+          - simplicity: assign common (high-probability) functions to buttons & simple button structures (low-dimensional buttons & button structures)
+            - variables: button count, button function, button structure (combination, set, sequence)
+
+          - highest feature count, given filter of 'simplest implementation': highest number of functions possible to implement simply (low-dimensional memorization)
+            - variables: function count, memorization, simplicity, abstraction (type), button usage structure (scale like repeated clicks of a button, sequence like buttons clicked in sequence)
+            - variable interaction rules:
+              - 'when function count increases absolutely (all other variables being equal), memorization decreases'
+              - 'when count increases but is organized simply (like accessing functions organized by type or scale with successive button clicks), memorization is constant'
+            - variable structure: 
+              - intersection of independent variable changes (function count & memorization)
+              - alignment of simplicity & memorization changes
+              - alignment of abstraction (type) & simplicity changes
+            - optimized variable structure: 
+              - maximized intersection of independent (or similarly bi-directional causative) variables (intersection of highest function count and highest memorizability)
+              - maximized alignment of dependent/related variables (aligning memorizability & simplicity)
+          - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
+
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
     
