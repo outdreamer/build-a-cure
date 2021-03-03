@@ -1242,16 +1242,26 @@
               - substitution of more measurable variables
                 - substitute simplicity-filtering rules to identify complexity rather than using complexity identification rules
                 - substitute similarity-filtering rules (what something is) to identify similarity than difference identification rules (what something is not)
+
             - optimized variable structure: 
-              - maximized intersection of independent (or similarly bi-directional/mutually causative) variables (intersection of highest function count and highest simplicity)
-              - maximized alignment of dependent/related variables (aligning memorizability & simplicity)
+
+              - maximized 
+                - parameterization of variables that change on similar input
+                - intersection of variables to optimize (intersection of highest function count and highest simplicity)
+                - alignment of related variables (aligning memorizability & simplicity) that should be similar
+                - opposition of variables that should be different
+                - compression/merging/selection of variables that act interchangeably
+
+              - structure application
+                - sequence structure applied to causative variation (input/output)
+                - topology structure applied where changes in variable values of a variable set can be mapped to distance (different changes do not produce equal points)
           
           - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
             - variables: config input (voice, button), variable variation, config adaptability, config source (custom user-defined function, open source/multi-vendor libraries)
 
         - how to generate optimized mathematized implementations for intents
           - apply structural definitions of components (rules, variables, intents, concepts)
-          - find interface where these structural definitions of components can be depicted according to their variation & interactions
+          - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
             - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
