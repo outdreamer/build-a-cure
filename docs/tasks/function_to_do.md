@@ -1224,7 +1224,7 @@
           - integrate with existing hardware like glasses/hat/shirt (use materials to conduct sound, attach speakers/microphones to glasses rather than having wires, attach buttons to glasses)
           - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
 
-        - optimized mathematized implementation for intent
+        - optimized mathematized implementation for intent (simplicity, highest features given simplicity, maximized features)
           
           - simplicity: assign common (high-probability) functions to buttons & simple button structures (low-dimensional buttons & button structures)
             - variables: button count, button function, button structure (combination, set, sequence), function probability, simplicity
@@ -1243,11 +1243,16 @@
                 - substitute simplicity-filtering rules to identify complexity rather than using complexity identification rules
                 - substitute similarity-filtering rules (what something is) to identify similarity than difference identification rules (what something is not)
             - optimized variable structure: 
-              - maximized intersection of independent (or similarly bi-directional causative) variables (intersection of highest function count and highest simplicity)
+              - maximized intersection of independent (or similarly bi-directional/mutually causative) variables (intersection of highest function count and highest simplicity)
               - maximized alignment of dependent/related variables (aligning memorizability & simplicity)
           
           - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
             - variables: config input (voice, button), variable variation, config adaptability, config source (custom user-defined function, open source/multi-vendor libraries)
+
+        - how to generate optimized mathematized implementations for intents
+          - apply structural definitions of components (rules, variables, intents, concepts)
+          - find interface where these structural definitions of components can be depicted according to their variation & interactions
+            - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
     
