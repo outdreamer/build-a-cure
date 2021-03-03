@@ -1164,6 +1164,40 @@
         - variable to removal of assumption in variable type/data type
 
     - map variable structures to prediction potential for problem types, given ratio of equivalent alternate signals
+
+    - solvability limit of a problem, without being given the answer
+      - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
+        - connected structural info:
+          - when they choose the number
+            - physical motion rules
+              - how arms/joints move 
+              - how their eyes move (indicating remembering or creative process or a local distraction or another input)
+          - default input rules
+            - hand motion dynamics, like how fingers interact & which motion types are favored/prioritized/likelier
+        - general rules
+          - alternative selection rules
+            - how people make decisions from a set of similar alternatives (familiarity, understandability, simplicity, standard vs. non-standard choices)
+          - intent rules
+            - agent intents (trying to surprise the magician by subverting expectations of their choice)
+        - related variables
+          - attention
+
+    - optimizability of a problem, given resource limits (market, time, info about alternative products)
+      - buttons vs. configuration (headphones with buttons)
+        - find common usage patterns & assign to options (buttons)
+          - buttons for common functions
+        - find memorable button structures & assign to common usage functions
+          - find memorable combinations & sequences, like double-click of a button, or a button combination click, and assign to common usage functions
+        - inject crucial high-variation function in higher-variation interface
+          - configurable button functions (configure options of how buttons connect to functions), using an app (higher-variation interface, allowing more buttons)
+        - inject crucial high-variation function into an option (button)
+          - configuration button (configure options of how buttons connect to functions), by clicking a config button
+        - embedded menus in buttons
+          - access menu (list of functions) with a button or button structure (combination, sequence)
+        - alternate input with higher-variation potential
+          - voice commands rather than or in combination with buttons
+
+    - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
     
     - research implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
     
