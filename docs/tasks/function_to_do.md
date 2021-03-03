@@ -1182,6 +1182,12 @@
         - related variables
           - attention
       - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer (or info that makes it identifiable or possible to filter/reduce other options)
+        - indicates that the interaction of the available variable info: 
+          - is too low-dimensional
+          - includes info about too distant/indirect variables/rules
+          - includes info that cant capture/derive approximations/actual values of the variation/patterns of the output variable or its proxy variable
+          - doesnt have a vertex variable or connectable interfaces/variables
+
         - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
 
     - optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
@@ -1290,11 +1296,12 @@
           - core functions (test, start/stop, switch, remember, identify)
           - interaction level functions (decide when to speed up, plan decision points)
         - concepts
+          - energy
           - agency
           - intent
             - exercise intents: recover, rest, test/find limit, test function, switch energy sources, apply info, identify landmark, align with music
             - other intents: what to do after workout, scheduling limits to work around, listen to new music, listen to music limited number of times
-            
+
       - variable sets that can predict motion:
         - time cant be used on its own bc usage patterns may offer the illusion of equivalent alternatives that are actually different
           - example: pattern 'a-b-c' may occur just as often as 'a-b-d' without any distinguishable signals using available time info, so other interfaces need to be applied to predict c or d, such as contextual/intent probabilities, or patterns like intent patterns or change patterns 
@@ -1314,6 +1321,8 @@
           - 'using n number of variables to make a decision only occurs once out of every x decisions'
           - 'applying previously applied variable interaction rules is most common'
           - 'excess energy results in higher variability of variable interactions'
+        - concepts
+          - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
     
     - research implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
     
