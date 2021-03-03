@@ -1,5 +1,5 @@
 '''
-  - example of the analysis for this interface: 
+  - definition: 
     - this describes the common components that can build other analysis types 
   - objects (interface objects like patterns & concepts) 
   - structures
