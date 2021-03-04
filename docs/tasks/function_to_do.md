@@ -1135,34 +1135,6 @@
         - make a system layer diagram for structures to include layers of structures 
           (beyond core structures like curves, to include n-degree structures like a wave, as well as semantic output structures like a key, crossing the layer that generates info structures like an insight, a probability, etc)
 
-# content/config
-
-    - import insight history data to identify insight paths (info insight paths like 'lie => joke => distortion => insight', system insight paths like 'three core functions + combine function with this definition + n distortions to nearest hub')
-    - define default & core objects necessary for system to function (out of the box, rather than minimal config necessary to derive other system components & assemble)
-      - add default functions to solve common problem types
-      - alternate utility function implementations have variation potential in the exact operations used to achieve the function intents, but there are requirements in which definitions these functions use because they are inherent to the system. For example, the embodiment may use a specific definition of an attribute (standardized to a set of filters) in order to build the attribute-identification function using a set of filters - but the general attribute definition is still partially determined in its initial version by requirements specified in the documentation, such as a set of core attribute types (input, output, function parameter, abstract, descriptive, identifying, differentiating, variable, constant), the definition of a function, and the definition of conversion functions between standard formats.
-    - document time structures (concave time explaining compounding similarities up to a point of maximum concavity, a structure that can separate from the other space-times)
-    - systematize your definitions of info objects, to include analysis that produces relationships of core objects like opposites to their relevant forms (anti-symmetry) in addition to permuted object states (asymmetry), such as an anti-strategy, anti-information, anti-pattern
-      - organize certainty (info) vs. uncertainty objects (potential, risk, probability)
-      - make doc to store insight paths, counterintuitive functions, hidden costs, counterexamples, phase shift triggers
-      - add technicality, synchronization, bias, counterintuition, & certainty objects leading to inevitable collisions
-        - the collision of compounding forces producing a phase shift
-        - lack of attention in one driver and false panic in a second driver leading to a car crash given the bases where their processes originate
-      - define alignment on interfaces (compounding, coordinating, parallel, similar, etc)
-      - start with these info object transforms that filter the most info: opposite, invalidating, symmetric, core, aligning, boundary-breaking, phase shift activating, structure stabilizing, constant changing, converging
-      - add core info objects (core strategies, core assumptions) so you can make a network of graphs for a system
-    - concept analysis:
-      - how new concepts (gaps in network rules) evolve once structure is applied to prior concepts 
-    - interface analysis:
-      - limitations of interfaces & how to derive them
-      - how rules develop on stability & how foundations are connected & destroyed
-      - explainability as a space limited by derivable attributes from data set & cross-system similarity
-      - vertex definition & give examples (as an intersection/combination of interface variables, such as determining/description(compressing)/generative/causative/derivation variables), around which change develops
-    - change analysis:
-      - generated object change types
-        - constant to variable
-        - variable to removal of assumption in variable type/data type
-
     - map variable structures to prediction potential for problem types, given ratio of equivalent alternate signals
 
     - calculating solvability limit of a problem, without being given the answer
@@ -1273,6 +1245,10 @@
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
     - add to bio system analysis: examine what types/positions of intentionally triggerable DNA damage (mutations from toxins, exercise, & other types of cell repair/division triggers) can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune respone
+      - once you identify a section of DNA that, when isolated & edited, would produce a useful section of pathogen DNA to trigger immunity with minimal or possible editing (adjacent change) given exposure to a chemical:
+        - identify position in bio system where this change could be triggered by exposure in such a way that production of the DNA section is scalable (like in a cell that is about to be copied or a root/memory/template/stem cell) & immune response is quick
+        - identify filter/containing structures necessary to give exposure/immune responses the time they need
+        - identify type of exposure possible (injection, nanoparticle) and assemble components
 
     - example of alternate variable sets for predicting motion
 
@@ -1325,8 +1301,36 @@
           - 'excess energy results in higher variability of variable interactions'
         - concepts
           - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
-    
-    - research implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
+
+# content/config
+
+    - import insight history data to identify insight paths (info insight paths like 'lie => joke => distortion => insight', system insight paths like 'three core functions + combine function with this definition + n distortions to nearest hub')
+    - define default & core objects necessary for system to function (out of the box, rather than minimal config necessary to derive other system components & assemble)
+      - add default functions to solve common problem types
+      - alternate utility function implementations have variation potential in the exact operations used to achieve the function intents, but there are requirements in which definitions these functions use because they are inherent to the system. For example, the embodiment may use a specific definition of an attribute (standardized to a set of filters) in order to build the attribute-identification function using a set of filters - but the general attribute definition is still partially determined in its initial version by requirements specified in the documentation, such as a set of core attribute types (input, output, function parameter, abstract, descriptive, identifying, differentiating, variable, constant), the definition of a function, and the definition of conversion functions between standard formats.
+    - document time structures (concave time explaining compounding similarities up to a point of maximum concavity, a structure that can separate from the other space-times)
+    - systematize your definitions of info objects, to include analysis that produces relationships of core objects like opposites to their relevant forms (anti-symmetry) in addition to permuted object states (asymmetry), such as an anti-strategy, anti-information, anti-pattern
+      - organize certainty (info) vs. uncertainty objects (potential, risk, probability)
+      - make doc to store insight paths, counterintuitive functions, hidden costs, counterexamples, phase shift triggers
+      - add technicality, synchronization, bias, counterintuition, & certainty objects leading to inevitable collisions
+        - the collision of compounding forces producing a phase shift
+        - lack of attention in one driver and false panic in a second driver leading to a car crash given the bases where their processes originate
+      - define alignment on interfaces (compounding, coordinating, parallel, similar, etc)
+      - start with these info object transforms that filter the most info: opposite, invalidating, symmetric, core, aligning, boundary-breaking, phase shift activating, structure stabilizing, constant changing, converging
+      - add core info objects (core strategies, core assumptions) so you can make a network of graphs for a system
+    - concept analysis:
+      - how new concepts (gaps in network rules) evolve once structure is applied to prior concepts 
+    - interface analysis:
+      - limitations of interfaces & how to derive them
+      - how rules develop on stability & how foundations are connected & destroyed
+      - explainability as a space limited by derivable attributes from data set & cross-system similarity
+      - vertex definition & give examples (as an intersection/combination of interface variables, such as determining/description(compressing)/generative/causative/derivation variables), around which change develops
+    - change analysis:
+      - generated object change types
+        - constant to variable
+        - variable to removal of assumption in variable type/data type
+
+    - examine implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
     
     - merge definitions into docs/tasks/implementation/constants/definitions.json
       - add to definitions.json
