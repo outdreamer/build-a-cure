@@ -1249,6 +1249,7 @@
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
     - add to science: 
+      - examine peak/valley of space-time wave as flow between energy (info) storage/usage types, possibly acting as opposite ends of a spectrum representing a trade-off (on liquidity, direction & other attributes)
       - examine magnetic/gravitational/electrical/other forces determining relationships of space-times
         - forces allowing:
           - non-adjacent & multi-directional space-times to be connected
