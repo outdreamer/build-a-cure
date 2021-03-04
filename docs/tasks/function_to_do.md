@@ -1242,6 +1242,10 @@
           - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
             - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
 
+    - add to markets:
+      - examine net effect of competition on markets
+        - does allowing companies to fail have a net negative effect thats biggest on the risk (insurance/debt) industries, organization/analysis (ratings, group investing), info markets, govt industry, or is the negative effect exported to other countries or used as an input (legal precedent, example to use for future legislation) or do negative effects continue to be transferred to end-nodes of debt chains (those oppressed by stacked inequalities)
+
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
     - add to bio system analysis: examine what types/positions of intentionally triggerable DNA damage can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
