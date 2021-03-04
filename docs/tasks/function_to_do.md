@@ -1242,6 +1242,10 @@
           - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
             - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
 
+    - vertex variable structures
+      - quantum physics, prediction/derivation tools, building automation tools, testing tools, learning/adaptation tools, system rules, computation power are all vertex variables of information
+      - which structure (sequence, network, set, or cycle) of vertex variables is most efficient
+
     - add to markets:
       - examine net effect of competition on markets
         - does allowing companies to fail have a net negative effect thats biggest on the risk (insurance/debt) industries, organization/analysis (ratings, group investing), info markets, govt industry, or is the negative effect exported to other countries or used as an input (legal precedent, example to use for future legislation) or do negative effects continue to be transferred to end-nodes of debt chains (those oppressed by stacked inequalities)
