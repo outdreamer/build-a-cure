@@ -1244,7 +1244,15 @@
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
-    - add to bio system analysis: examine what types/positions of intentionally triggerable DNA damage (mutations from toxins, exercise, animal pathogens, enzymes, hormones, & other types of DNA mutations or recovery & cell repair/division triggers, like bypassing digestion with amino acids to help recovery) can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
+    - add to bio system analysis: examine what types/positions of intentionally triggerable DNA damage can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
+      - structural (DNA/cell) damage/change triggers: mutations from toxins, exercise, animal pathogens, enzymes, competition for energy, & other types of DNA mutations
+      - structural (DNA/cell) division/growth triggers: hormones, extra energy (energy imbalance based on need)
+      - structural (DNA/cell) repair/recovery/regulation triggers: like bypassing digestion with amino acids to help recovery, timing cycles & alignment
+      - other sources of structural change/standardization: 
+        - gaps in cell types/attributes
+        - sets of attributes
+        - clusters of attribute changes/values
+        - structural interaction levels
       - once you identify a section of existing DNA/RNA that, when isolated & edited, would produce a useful section of pathogen DNA to trigger immunity with minimal & possible editing (adjacent change) given exposure to a chemical or other stressor:
         - identify position in bio system where this change could be triggered by exposure in such a way that production of the DNA section is scalable (like in a cell that is about to be copied or a root/memory/template/stem cell) & where immune response would be quick
         - identify filter/containing structures necessary to give exposure/immune responses the time they need
