@@ -1272,6 +1272,8 @@
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
+    - add to bio system analysis: examine what types/positions of intentionally triggerable DNA damage (mutations from toxins, exercise, & other types of cell repair/division triggers) can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune respone
+
     - example of alternate variable sets for predicting motion
 
       - exercise variables:
