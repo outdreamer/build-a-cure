@@ -1248,6 +1248,15 @@
 
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
+    - add to govt:
+    
+      - in order to prevent "info genocide", where groups that dont adapt quickly (bc of lack of group self-awarenesss & resulting adaptation, or alternatively a lack of lighter/temporary/optional connections allowing competition in a free market of group membership, requiring adaptation in group market to survive) are eliminated by groups with better organization/cooperation/adaptation/self-awareness or freedom given to members, you can:
+        - distribute power limits to prevent any group from acquiring more power than other groups (more resources in the form of info, tech, land, supply chain dominance, market share, innovation advantage, organization)
+        - distribute power artificially to offset naturally occurring imbalances from randomness
+        - delegate power to tech automation
+        - prevent power from accruing (prevent info from being storable/transferrable)
+        - help all groups achieve self-awareness & independence and distribute it to members
+
     - add to science: 
       - examine peak/valley of space-time wave as flow between energy (info) storage/usage types, possibly acting as opposite ends of a spectrum representing a trade-off (on liquidity, direction & other attributes)
       - examine magnetic/gravitational/electrical/other forces determining relationships of space-times
