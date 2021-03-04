@@ -1250,7 +1250,10 @@
 
     - add to science: 
       - examine magnetic/gravitational/electrical/other forces determining relationships of space-times
-        - finding structures of lack where forces arent triggered bc there arent particles there, to allow for uncertainties to develop & be used as input
+        - forces allowing:
+          - non-adjacent & multi-directional space-times to be connected
+          - space-times that arent efficient enough to be used as input to be left behind/dissolved rather than crystallized/connected
+        - finding structures of lack where forces arent triggered bc there arent particles or other structures of energy there, to allow for uncertainties to develop & be used as input
 
     - add to bio system analysis: examine what types/positions of intentionally triggerable DNA damage can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
       - structural (DNA/cell) damage/change triggers: mutations from toxins, exercise, animal pathogens, enzymes, competition for energy, & other types of DNA mutations
