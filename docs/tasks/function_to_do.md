@@ -1262,6 +1262,12 @@
         - prevent power from accruing (prevent info from being storable/transferrable)
         - help all groups achieve self-awareness & independence and distribute it to members
 
+    - finish core component metadata
+      - identify any missing attributes/functions that cant be reduced further
+        - example: 
+          - everything that exists (has structure, either implied or verified) has an opposite/different version, so 'opposite' is a core attribute
+          - everything that has structure can be verified to some degree, so 'verifiability' is a core attribute
+
     - add to science: 
       - examine whether imaginary numbers are a structure of uncertainty (bc of structural unverifiability), producing reversals of info with application of self-similarity (like time reversals) when interacting with other systems like physics
       - example of aligning & standardizing to interfaces to identify optimal methods to solve a problem:
