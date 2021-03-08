@@ -1,5 +1,7 @@
 # to do
 
+  - group device history authentication: authenticate credit card by proximity to cell phone & continuity applied to user usage history pattern
+
   - summary of advice
 
     - invest based on:
@@ -1253,7 +1255,6 @@
     - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
 
     - add to govt:
-
       - in order to prevent "info genocide", where groups that dont adapt quickly (bc of lack of group self-awarenesss & resulting adaptation, or alternatively a lack of lighter/temporary/optional connections allowing competition in a free market of group membership, requiring adaptation in group market to survive) are eliminated by groups with better organization/cooperation/adaptation/self-awareness or freedom given to members, you can:
         - distribute power limits to prevent any group from acquiring more power than other groups (more resources in the form of info, tech, land, supply chain dominance, market share, innovation advantage, organization)
         - distribute power artificially to offset naturally occurring imbalances from randomness
@@ -1262,6 +1263,7 @@
         - help all groups achieve self-awareness & independence and distribute it to members
 
     - add to science: 
+      - examine whether imaginary numbers are a structure of uncertainty (bc of structural unverifiability), producing reversals of info with application of self-similarity (like time reversals) when interacting with other systems like physics
       - example of aligning & standardizing to interfaces to identify optimal methods to solve a problem:
         - use of non-structural information (randomness, imaginary numbers, & other sources of uncertainty) as an input for intents like 'exploring rules of high-variation structures like energy, info, or space-time'
         - example accidental application of this: https://phys.org/news/2021-03-imaginary-quantum-resource-theory.html
