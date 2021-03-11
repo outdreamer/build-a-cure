@@ -1,7 +1,8 @@
 # to do
 
+  - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
   - finish list of interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats)
-  - finish list of core problem type structures (reduction, expansion, organization, regulation, prediction/derivation (missing info), limit/change conflict resolution, error-to-resource conversion, optimization) & optimal formats & format structures for each
+  - finish list of core problem type structures (reduction, expansion, organization, matching, standardization, regulation, prediction/derivation (missing info), limit/change conflict resolution, error-to-resource conversion, optimization) & optimal formats & format structures for each
     - optimal optimization formats include network path-finding
     - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
     - optimal organization formats include layered networks & vertex variables
