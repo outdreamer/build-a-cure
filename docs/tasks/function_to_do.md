@@ -8,14 +8,21 @@
 
   - give example of generating solution insight path on demand
 
-    - apply solution structures like
+    - apply solution structures like:
       - balance between supply/demand
       - maximizing benefit/cost ratio
 
-      to problem structures like:
+      to problem structures (metadata like available/missing info) to produce solution (insight path) variables:
       - cost of ignoring/focusing on info vs. benefit of actions like executing functions
       - cost of acquiring more info vs. benefits of applying quick best-case solutions
       - supply of available info vs. demand for info to solve the problem
+
+    - then select/change variable structures (variable values & variable sets) to produce components of solutions (insight paths) for a problem:
+        - concept components: low-impact variables, high-variation variables, most causative problems, worst/best case context
+        - function components: filter (ignore/focus), prioritize (set as primary intent), apply structure (like subset)
+        
+    - then apply structures to combine insight path components for a problem:
+      - 'ignore low-impact variables to prioritize high-impact variables'
 
     - functional insight path (what to execute) :: filter insight path (what to rule out or focus on)
       - 'breaking down problems into sub-problems' :: ignore non-isolatable problem types & non-combinable solution types
