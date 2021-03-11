@@ -1,12 +1,22 @@
 # to do
 
   - finish list of interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats)
-  - finish list of core problem type structures (reduction, expansion, organization, regulation, limit/change conflict resolution, error-to-resource conversion, optimization) & optimal format sequence for each
+  - finish list of core problem type structures (reduction, expansion, organization, regulation, prediction/derivation (missing info), limit/change conflict resolution, error-to-resource conversion, optimization) & optimal formats & format structures for each
     - optimal optimization formats include network path-finding
     - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
     - optimal organization formats include layered networks & vertex variables
 
   - give example of generating solution insight path on demand
+
+    - apply solution structures like
+      - balance between supply/demand
+      - maximizing benefit/cost ratio
+
+      to problem structures like:
+      - cost of ignoring/focusing on info vs. benefit of actions like executing functions
+      - cost of acquiring more info vs. benefits of applying quick best-case solutions
+      - supply of available info vs. demand for info to solve the problem
+
     - functional insight path (what to execute) :: filter insight path (what to rule out or focus on)
       - 'breaking down problems into sub-problems' :: ignore non-isolatable problem types & non-combinable solution types
       - 'identify worst case scenarios first and solving those in order' :: ignore less harmful problems (local/output problems) to prioritize more harmful problems (causal problems, problem types)
