@@ -94,7 +94,7 @@
 
             - the following similarities in difference structures provide quick alternate methods of deriving the solution structure for an error structure 
 
-            - the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance'
+            - the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance' - so the point is to identify structure of the solution & then find the interface where those similarities & differences in problem/solution structure are clear and can be assembled or otherwise operated on, using other resources on that interface
 
               - ***: an error of extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
                 - variation in identity:
