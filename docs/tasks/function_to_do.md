@@ -1,8 +1,13 @@
 # to do
 
-  - finish list of problem type structures in interface implementation (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats)
+  - finish list of interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats)
+  - finish list of core problem type structures (reduction, expansion, organization, regulation, limit/change conflict resolution, error-to-resource conversion, optimization) & optimal format sequence for each
+    - optimal optimization formats include network path-finding
+    - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
+    - optimal organization formats include layered networks & vertex variables
 
   - give example of structures (like alignments, positions, directions) necessary to integrate structures of organization
+    - organization structures are methods of organizing information (like neural architecture, information networks, OS)
     - as organization systems become integrated (like "applying an OS to machine learning networks to intercept/replace/validate bio system functionality"), their differences in structures like position and their organization & optimization structures will cause problems that are less predictable than other problems
       - example: applying a 'separation of functionality' structure to folders like occurs on an OS to a machine learning network structure may produce errors like 'separation of function & intent', which can be sub-optimal for tasks like 'identifying optimization metrics'
         - if this is further complicated by integration into a system as complex as the bio-system (for example by using that OS/network organization structure integration to filter & allocate sensory input information), it could cause less predictable errors, like misidentifying a bio system interface
