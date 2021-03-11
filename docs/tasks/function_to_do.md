@@ -25,7 +25,14 @@
       - 'ignore low-impact variables to prioritize high-impact variables'
 
     - then filter by problem structure (intents, sub-intents) to re-integrate insight paths with problem:
-      - 'is a direct cause of the problem ignoring local/contextual/worst-case/probability info? then ignore insight paths using that structure'
+
+      - apply filters like:
+        - 'is a direct cause of the problem ignoring local/contextual/worst-case/probability info?'
+        - 'does a function applied to a component tend to cause problems in complex systems, and is this a complex system'
+
+      to produce reduction of possible solution insight paths like:
+        - 'then ignore insight paths using those structures'
+        - 'then apply further filters to check for a reason (possible benefit) to ignore that'
 
     - functional insight path (what to execute) :: filter insight path (what to rule out or focus on)
       - 'breaking down problems into sub-problems' :: ignore non-isolatable problem types & non-combinable solution types
