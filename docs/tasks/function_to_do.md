@@ -20,7 +20,7 @@
 
     - then select/change variable structures (variable values & variable sets) to produce components of solutions (insight paths) for a problem:
         - concept components: low-impact variables, high-variation variables, most causative problems, worst/best case context
-        - function components: filter (ignore/focus), prioritize (set as primary intent), apply structure (like subset)
+        - function components: filter (ignore/focus/assume), prioritize (set as primary intent), apply structure (like subset)
         
     - then apply structures to combine insight path components for a problem:
       - 'ignore low-impact variables to prioritize high-impact variables'
@@ -40,7 +40,8 @@
       - 'identify worst case scenarios first and solving those in order' :: ignore less harmful problems (local/output problems) to prioritize more harmful problems (causal problems, problem types)
       - 'identify vertex variables & standardize to them, using solutions that act exclusively on them' :: ignore less impactful variables to address root causes
       - 'identify position of problem in causal network and apply solutions local to that context' :: ignore systemic solutions to avoid side effects
-      - 'find alternatives to solving a problem (delegation, solving abstract version) :: ignore specific solutions or move problem position
+      - 'find alternatives to solving a problem (delegation, solving abstract version)' :: ignore specific solutions or move problem position
+      - 'identify problem type & apply related known solutions' :: assume problem type can be identified & covers enough of the problem & is abstract enough to apply related solutions with effective impact
 
   - give example of structures (like alignments, positions, directions) necessary to integrate structures of organization
     - organization structures are methods of organizing information (like neural architecture, information networks, OS)
