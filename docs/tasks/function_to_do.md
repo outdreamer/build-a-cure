@@ -1,5 +1,11 @@
 # to do
 
+  - add to definitions
+    - games (metric optimization, input/output link finding)
+    - important decisions as changes that are limited, clear & necessary (two options to change direction rather than 360 degrees of direction change options)
+      - calculating decision metadata (optimal decision given intent, optimal decision across intents, least risky/causal decisions, alternative/equivalent decisions) can reduce the solution space of likely decisions
+      - rather than predicting just using user decision history/incentives, predict using system incentives present in the decision-generating limits & indicated in decision metadata
+
   - group device history authentication: authenticate credit card by proximity to cell phone & continuity applied to user usage history pattern
 
   - summary of advice
