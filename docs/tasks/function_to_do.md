@@ -1,5 +1,12 @@
 # to do
 
+  - finish list of problem type structures in interface implementation (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats)
+
+  - give example of structures (like alignments, positions, directions) necessary to integrate structures of organization
+    - as organization systems become integrated (like "applying an OS to machine learning networks to intercept/replace/validate bio system functionality"), their differences in structures like position and their organization & optimization structures will cause problems that are less predictable than other problems
+      - example: applying a 'separation of functionality' structure to folders like occurs on an OS to a machine learning network structure may produce errors like 'separation of function & intent', which can be sub-optimal for tasks like 'identifying optimization metrics'
+        - if this is further complicated by integration into a system as complex as the bio-system (for example by using that OS/network organization structure integration to filter & allocate sensory input information), it could cause less predictable errors, like misidentifying a bio system interface
+
   - add to definitions
     - games (metric optimization, input/output link finding) 
       - games applying system context (metric selection) & function (function building) as a source of interfaces
@@ -7,9 +14,10 @@
       - calculating decision metadata (optimal decision given intent, optimal decision across intents, least risky/causal decisions, alternative/equivalent decisions) can reduce the solution space of likely decisions
       - rather than predicting just using user decision history/incentives, predict using system incentives present in the decision-generating limits & indicated in decision metadata
 
-  - add structural queries to insight pathss
+  - add structural queries to insight paths
     - alignments present in security innovations (like alignment in inputs like keys)
-    - source of rule development as structures of conflict between change causes & constant structures like limits
+    - source of rule development as structures of conflict between forced interactions like change causes & constant structures like limits
+      - incomplete inevitability of interaction as a decision structure
 
   - group device history authentication: authenticate credit card by proximity to cell phone & continuity applied to user usage history pattern
 
