@@ -6,7 +6,7 @@
     - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
     - optimal organization formats include layered networks & vertex variables
 
-  - give example of generating solution insight path on demand
+  - give example of insight path to generate a solution insight path for a problem on demand
 
     - apply solution structures like:
       - balance between supply/demand
@@ -24,11 +24,15 @@
     - then apply structures to combine insight path components for a problem:
       - 'ignore low-impact variables to prioritize high-impact variables'
 
+    - then filter by problem structure (intents, sub-intents) to re-integrate insight paths with problem:
+      - 'is a direct cause of the problem ignoring local/contextual/worst-case/probability info? then ignore insight paths using that structure'
+
     - functional insight path (what to execute) :: filter insight path (what to rule out or focus on)
       - 'breaking down problems into sub-problems' :: ignore non-isolatable problem types & non-combinable solution types
       - 'identify worst case scenarios first and solving those in order' :: ignore less harmful problems (local/output problems) to prioritize more harmful problems (causal problems, problem types)
       - 'identify vertex variables & standardize to them, using solutions that act exclusively on them' :: ignore less impactful variables to address root causes
       - 'identify position of problem in causal network and apply solutions local to that context' :: ignore systemic solutions to avoid side effects
+      - 'find alternatives to solving a problem (delegation, solving abstract version) :: ignore specific solutions or move problem position
 
   - give example of structures (like alignments, positions, directions) necessary to integrate structures of organization
     - organization structures are methods of organizing information (like neural architecture, information networks, OS)
