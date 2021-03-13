@@ -2,7 +2,7 @@
   
   - organize examples of logic for functions (interface query design logic)
 
-  - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
+  - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
 
   - finish lists:
     - interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats) 
@@ -12,61 +12,26 @@
       - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
       - optimal organization formats include layered networks & vertex variables
 
-  - give example of insight path to generate a solution insight path for a problem on demand
-
-    - apply solution structures like:
-      - balance between supply/demand
-      - maximizing benefit/cost ratio
-
-      to problem structures (metadata like available/missing info) to produce solution (insight path) variables:
-      - cost of ignoring/focusing on info vs. benefit of actions like executing functions
-      - cost of acquiring more info vs. benefits of applying quick best-case solutions
-      - supply of available info vs. demand for info to solve the problem
-
-    - then select/change variable structures (variable values & variable sets) to produce components of solutions (insight paths) for a problem:
-        - concept components: low-impact variables, high-variation variables, most causative problems, worst/best case context
-        - function components: filter (ignore/focus/assume), prioritize (set as primary intent), apply structure (like subset)
-        
-    - then apply structures to combine insight path components for a problem:
-      - 'ignore low-impact variables to prioritize high-impact variables'
-
-    - then filter by problem structure (intents, sub-intents) to re-integrate insight paths with problem:
-
-      - apply filters like:
-        - 'is a direct cause of the problem ignoring local/contextual/worst-case/probability info?'
-        - 'does a function applied to a component tend to cause problems in complex systems, and is this a complex system'
-
-      to produce reduction of possible solution insight paths like:
-        - 'then ignore insight paths using those structures'
-        - 'then apply further filters to check for a reason (possible benefit) to ignore that'
-
-    - functional insight path (what to execute) :: filter insight path (what to rule out or focus on)
-      - 'breaking down problems into sub-problems' :: ignore non-isolatable problem types & non-combinable solution types
-      - 'identify worst case scenarios first and solving those in order' :: ignore less harmful problems (local/output problems) to prioritize more harmful problems (causal problems, problem types)
-      - 'identify vertex variables & standardize to them, using solutions that act exclusively on them' :: ignore less impactful variables to address root causes
-      - 'identify position of problem in causal network and apply solutions local to that context' :: ignore systemic solutions to avoid side effects
-      - 'find alternatives to solving a problem (delegation, solving abstract version)' :: ignore specific solutions or move problem position
-      - 'identify problem type & apply related known solutions' :: assume problem type can be identified & covers enough of the problem & is abstract enough to apply related solutions with effective impact
-
-  - give example of structures (like alignments, positions, directions) necessary to integrate structures of organization
-    - organization structures are methods of organizing information (like neural architecture, information networks, OS)
-    - as organization systems become integrated (like "applying an OS to machine learning networks to intercept/replace/validate bio system functionality"), their differences in structures like position and their organization & optimization structures will cause problems that are less predictable than other problems
-      - example: applying a 'separation of functionality' structure to folders like occurs on an OS to a machine learning network structure may produce errors like 'separation of function & intent', which can be sub-optimal for tasks like 'identifying optimization metrics'
-        - if this is further complicated by integration into a system as complex as the bio-system (for example by using that OS/network organization structure integration to filter & allocate sensory input information), it could cause less predictable errors, like misidentifying a bio system interface
-
   - add to definitions
+    - valid: having reason/logic/info supporting why it would be true, without higher-validity contradiction (info, more valid logic with higher support:contradiction ratio or higher applicability)
     - games (metric optimization, input/output link finding) 
       - games applying system context (metric selection) & function (function building) as a source of interfaces
     - important decisions as changes that are limited, clear & necessary (two options to change direction rather than 360 degrees of direction change options)
       - calculating decision metadata (optimal decision given intent, optimal decision across intents, least risky/causal decisions, alternative/equivalent decisions) can reduce the solution space of likely decisions
       - rather than predicting just using user decision history/incentives, predict using system incentives present in the decision-generating limits & indicated in decision metadata
+    - integration/organization structures
+      - give example of structures (like alignments, positions, directions) necessary to integrate structures of organization
+        - organization structures are methods of organizing information (like neural architecture, information networks, OS)
+        - as organization systems become integrated (like "applying an OS to machine learning networks to intercept/replace/validate bio system functionality"), their differences in structures like position and their organization & optimization structures will cause problems that are less predictable than other problems
+          - example: applying a 'separation of functionality' structure to folders like occurs on an OS to a machine learning network structure may produce errors like 'separation of function & intent', which can be sub-optimal for tasks like 'identifying optimization metrics'
+            - if this is further complicated by integration into a system as complex as the bio-system (for example by using that OS/network organization structure integration to filter & allocate sensory input information), it could cause less predictable errors, like misidentifying a bio system interface
 
   - add structural queries to insight paths
     - alignments present in security innovations (like alignment in inputs like keys)
     - source of rule development as structures of conflict between forced interactions like change causes & constant structures like limits
       - incomplete inevitability of interaction as a decision structure
-
-  - group device history authentication: authenticate credit card by proximity to cell phone & continuity applied to user usage history pattern
+    - other examples  
+      - group device history authentication: authenticate credit card by proximity to cell phone & continuity applied to user usage history pattern
 
   - summary of advice
 
