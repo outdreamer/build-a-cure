@@ -26,10 +26,14 @@
         - query-connecting condition is where the query identifies that another running or previously run query might have identified useful info relevant to its task
           - a query that identifies change-reducing structures (like types or interfaces) could be more efficient than this query to find high-variation, which may miss embedded query opportunities for embedded structures of change in the data (data about variables/functions)
           - how would the original query know to check for such a query running in parallel?
-            - it could identify that its processing was not finding info as quickly as typical queries asked to find structures of concepts like 'variation' 
+            - it could apply the concept of 'type' to itself (self-aware that it's a query) by abstracting the 'query' concept, identifying its type, and querying for other queries of that type
+              - identify that its processing was not finding info as quickly as typical queries asked to find structures of concepts like 'variation' 
             - it could identify that there is another route to the info during its processing
               - by examining data for variance, find a structure consistently causing/generating variance that relates to change reduction
-            - it could execute some of its processing using conceptual core structure analysis, creating combinations to identify concepts like 'change reduction'
+            - it could execute some of its processing using conceptual core structure analysis, creating combinations to identify concepts (related to query concepts like variation & data) like 'change reduction'
+          - then using the output of those analysis types, applied at intervals or decision points during its own processing, it could check for a query running with intent (or inputs or side effects/outputs during/after processing) to 
+            - identify 'change reduction' structures
+            - generate a function to generate 'change reduction' structures
         - query-embedding condition is where the data set is data about functions/variables
           - requiring an embedded query to find variation in embedded function/variable relationships/structures
     
