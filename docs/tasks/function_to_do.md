@@ -8,10 +8,21 @@
       - identify relationships between variable structures (subsets, combinations, alternatives) & variables
       - identify variable types (proxies, root cause, interdependent)
     - query-changing conditions
-      - a query-invalidating condition is where the data set defies the concept of variation or data 
-      - a query-embedding condition is where the data set is data about functions/variables (requiring an embedded query to find variation in embedded function/variable relationships/structures
+      - query-stopping condition is where its clear the data cant 
+        - fulfill the optimization metric or fulfill it more
+        - find the information or find any more
+      - query-invalidating condition is where the data set invalidates the concept of variation or data 
+        - when a query has identified type/relationship/pattern information invalidating the data
+        - when the data is not a source of truth (state has changed but data has not & has no variation and is not data anymore, if data is a source of truth)
+        - when a query has identified a function to reduce the variation/data without losing info
+          - or create a function to do so
+          - or identified a need to trigger an embedded query to create a function to do so
+          - and has identified & organized resources to create that function or execute that query, after identified its need for the function/query (AGI)
+      - query-embedding condition is where the data set is data about functions/variables
+        - requiring an embedded query to find variation in embedded function/variable relationships/structures
 
   - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
+
   - finish lists:
     - interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats) 
     - implementation variables as config options (different generation starting point/source of truth, equivalent/different voting influence in determining interface queries or system optimizations, different constants/derived info/functions, different default interfaces/definitions, etc)
