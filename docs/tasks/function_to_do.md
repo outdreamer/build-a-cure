@@ -24,6 +24,12 @@
           - and has identified & organized resources to create that function or execute that query, after identifying its need for the function/query (AGI)
       - query interaction conditions
         - query-connecting condition is where the query identifies that another running or previously run query might have identified useful info relevant to its task
+          - a query that identifies change-reducing structures (like types or interfaces) could be more efficient than this query to find high-variation, which may miss embedded query opportunities for embedded structures of change in the data (data about variables/functions)
+          - how would the original query know to check for such a query running in parallel?
+            - it could identify that its processing was not finding info as quickly as typical queries asked to find structures of concepts like 'variation' 
+            - it could identify that there is another route to the info during its processing
+              - by examining data for variance, find a structure consistently causing/generating variance that relates to change reduction
+            - it could execute some of its processing using conceptual core structure analysis, creating combinations to identify concepts like 'change reduction'
         - query-embedding condition is where the data set is data about functions/variables
           - requiring an embedded query to find variation in embedded function/variable relationships/structures
     
