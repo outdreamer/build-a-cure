@@ -33,10 +33,19 @@
         
         - query-connecting condition is where the query identifies that another running or previously run query might have identified useful info relevant to its task
 
+          - example:
+
+          - a query that identifies similar structures 'difference-reducing/increasing structures' or 'sismilarity-filtering structures (leaving just difference structures)' might find the high-variation structures quicker
+            - this alternative query could be found by applying the concept of 'similarity' to the 'query' object, allowing for the possibility that the query was almost correct
+
+          - a query to identify query metadata and apply them to generate other alternative queries
+            - query metadata like accuracy, side effects (like unintended functions built during processing)
+              - generating more accurate or faster alternative queries by applying optimization structures (like alignment, info/function re-use, etc)
+
           - a query that identifies 'change-reduction' structures (like types or interfaces) could be more efficient than this query to find high-variation, which may miss embedded query opportunities for embedded structures of change in the data (data about variables/functions)
           
           - how could the original query know to check for such a query running in parallel?
-            - identify problems with its own metadata (execution, design, connectivity, progress, probability of success)
+            - identify problems with its own query metadata (execution, design, connectivity, progress, probability of success)
             - identify problems in the original problem of the query (sub-problems of original problem, encountered problems like a missing function to derive)
             - apply structures of robustness by default, like apply 'alternative' to 'query' object to run alternative queries by default, filtering by difference or relevance to maximize probability of finding useful info
             - identify relevance structures that would be useful (such as useful for sub-problems identified initially or encountered during execution, or planned problem to solve later in original query)
