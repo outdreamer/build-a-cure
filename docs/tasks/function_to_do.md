@@ -1,5 +1,16 @@
 # to do
 
+  - identifying query-changing (invalidating, embedding) conditions
+    - query for high-variation in data
+      - identify relationships within a variable (across potential values for that variable)
+      - identify relationships within a variable's state changes (across potential values for that variable across its lifetime)
+      - identify relationships (interaction functions & types) between variables
+      - identify relationships between variable structures (subsets, combinations, alternatives) & variables
+      - identify variable types (proxies, root cause, interdependent)
+    - query-changing conditions
+      - a query-invalidating condition is where the data set defies the concept of variation or data 
+      - a query-embedding condition is where the data set is data about functions/variables (requiring an embedded query to find variation in embedded function/variable relationships/structures
+
   - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
   - finish lists:
     - interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats) 
