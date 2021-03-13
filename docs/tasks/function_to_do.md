@@ -22,12 +22,15 @@
           - or create a function to do so
           - or identified a need to trigger an embedded query to create a function to do so
           - and has identified & organized resources to create that function or execute that query, after identifying its need for the function/query (AGI)
-      - query-embedding condition is where the data set is data about functions/variables
-        - requiring an embedded query to find variation in embedded function/variable relationships/structures
+      - query interaction conditions
+        - query-connecting condition is where the query identifies that another running or previously run query might have identified useful info relevant to its task
+        - query-embedding condition is where the data set is data about functions/variables
+          - requiring an embedded query to find variation in embedded function/variable relationships/structures
     
     - condition types
       - invalidate query (compare & find alternative solution)
       - embedded query (correct an info gap)
+      - connecting query (delegate processing to another query)
       - stopped query (apply a metric)
 
   - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
