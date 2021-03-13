@@ -12,36 +12,50 @@
       - identify variable types (proxies, root cause, interdependent)
     
     - query-changing conditions
-      - query-stopping condition is where its clear the data cant 
-        - fulfill the optimization metric or fulfill it more
-        - find the information or find any more
-      - query-invalidating condition is where the data set invalidates the concept of variation or data 
-        - when a query has identified type/relationship/pattern information invalidating the data
-        - when the data is not a source of truth (state has changed but data has not & has no variation and is not data anymore, if data is a source of truth)
-        - when a query has identified a function to reduce the variation/data without losing info
-          - or create a function to do so
-          - or identified a need to trigger an embedded query to create a function to do so
-          - and has identified & organized resources to create that function or execute that query, after identifying its need for the function/query (AGI)
+      
+      - standard control flow conditions
+
+        - query-stopping condition is where its clear the data cant 
+          - fulfill the optimization metric or fulfill it more
+          - find the information or find any more
+        
+      - meta conditions
+
+        - query-invalidating condition is where the data set invalidates the concept of variation or data 
+          - when a query has identified type/relationship/pattern information invalidating the data
+          - when the data is not a source of truth (state has changed but data has not & has no variation and is not data anymore, if data is a source of truth)
+          - when a query has identified a function to reduce the variation/data without losing info
+            - or create a function to do so
+            - or identified a need to trigger an embedded query to create a function to do so
+            - and has identified & organized resources to create that function or execute that query, after identifying its need for the function/query (AGI)
+        
       - query interaction conditions
+        
         - query-connecting condition is where the query identifies that another running or previously run query might have identified useful info relevant to its task
-          - a query that identifies change-reducing structures (like types or interfaces) could be more efficient than this query to find high-variation, which may miss embedded query opportunities for embedded structures of change in the data (data about variables/functions)
+          - a query that identifies 'change-reduction' structures (like types or interfaces) could be more efficient than this query to find high-variation, which may miss embedded query opportunities for embedded structures of change in the data (data about variables/functions)
           - how would the original query know to check for such a query running in parallel?
             - it could apply the concept of 'type' to itself (self-aware that it's a query) by abstracting the 'query' concept, identifying its type, and querying for other queries of that type
               - identify that its processing was not finding info as quickly as typical queries asked to find structures of concepts like 'variation' 
             - it could identify that there is another route to the info during its processing
               - by examining data for variance, find a structure consistently causing/generating variance that relates to change reduction
             - it could execute some of its processing using conceptual core structure analysis, creating combinations to identify concepts (related to query concepts like variation & data) like 'change reduction'
-          - then using the output of those analysis types, applied at intervals or decision points during its own processing, it could check for a query running with intent (or inputs or side effects/outputs during/after processing) to 
+            - it could identify that a query-invalidating condition that reduces the variation in the data set has been met in another query
+            - it could use concepts like 'equal' and 'opposite' to apply a counter-query to check for the opposite structures, which can be faster
+              - just like checking for a difference may be faster than checking for a similarity or vice versa, or checking for a limit/conflict may be faster than checking for a function
+            - it could apply concepts related to the definition of 'change' such as 'potential', and identify that potential increases with more change structures, particularly change-expanding structures, the opposite of what this query is looking for
+          - then using the output of such analysis types, applied at intervals or decision points during its own processing, it could check for a query running with intent (or inputs, side effects/outputs during/after processing) to:
             - identify 'change reduction' structures
             - generate a function to generate 'change reduction' structures
-        - query-embedding condition is where the data set is data about functions/variables
-          - requiring an embedded query to find variation in embedded function/variable relationships/structures
+        
+        - query-embedding condition is where an embedded query is required
+          - in a data set is data about functions/variables, an embedded query might be used to find embedded variation in embedded function/variable relationships/structures
+            - data about functions/variables would expand the possible variation in the data set within each column/variable, with change types (functions/variables) as data
     
     - condition types
       - invalidate query (compare & find alternative solution)
-      - embedded query (correct an info gap)
-      - connecting query (delegate processing to another query)
-      - stopped query (apply a metric)
+      - embed query (correct an info gap)
+      - connect query (delegate processing to another query)
+      - stop query (apply a metric)
 
   - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
 
