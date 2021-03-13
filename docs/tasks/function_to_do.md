@@ -1,12 +1,16 @@
 # to do
 
-  - identifying query-changing (invalidating, embedding) conditions
-    - query for high-variation in data
+  - example of identifying query-changing (invalidating, embedding, stopping) conditions
+    
+    - queries are implementation of components of control flow (supply: decision/action/function, demand: problem/error/task/conflict/limit)
+    
+    - example: execute a query to find structures of 'high-variation' in a data set
       - identify relationships within a variable (across potential values for that variable)
       - identify relationships within a variable's state changes (across potential values for that variable across its lifetime)
       - identify relationships (interaction functions & types) between variables
       - identify relationships between variable structures (subsets, combinations, alternatives) & variables
       - identify variable types (proxies, root cause, interdependent)
+    
     - query-changing conditions
       - query-stopping condition is where its clear the data cant 
         - fulfill the optimization metric or fulfill it more
@@ -17,9 +21,14 @@
         - when a query has identified a function to reduce the variation/data without losing info
           - or create a function to do so
           - or identified a need to trigger an embedded query to create a function to do so
-          - and has identified & organized resources to create that function or execute that query, after identified its need for the function/query (AGI)
+          - and has identified & organized resources to create that function or execute that query, after identifying its need for the function/query (AGI)
       - query-embedding condition is where the data set is data about functions/variables
         - requiring an embedded query to find variation in embedded function/variable relationships/structures
+    
+    - condition types
+      - invalidate query (compare & find alternative solution)
+      - embedded query (correct an info gap)
+      - stopped query (apply a metric)
 
   - demand-supply matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
 
