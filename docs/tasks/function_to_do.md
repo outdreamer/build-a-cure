@@ -2,6 +2,12 @@
   
   - organize examples of logic for functions (interface query design logic)
 
+  - add functionality with components have common motion functions & user-defined connecting functions
+    - this can add functionality to products to reduce need for producing new versions
+    - physical components: add sensors with user-defined connecting functions & prioritized sensor functions
+      - if a sensor on top of trash can has function "lift" and can take input like "heat motion in range", add user-defined connecting function to another sensor not on lid that the sensor on top can use as a reference point to find direction to move in (away from other sensor) 
+    - code components: user-defined connecting function like "query regularly for a function that can do this (publish, copy, export, search, build), and when found, add to querying component"
+
   - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
 
   - finish lists:
