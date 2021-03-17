@@ -12,6 +12,9 @@
       - user-defined connecting function like "query regularly for a function that can do this (publish, copy, export, search, build), and when found, add to querying component"
       - find connecting function like 'abstraction' to add functionality like 'handling other inputs' or attributes like 'flexibility' and distribute flexibility to other accessible components
       - hook a search function component up to input component (filters) using user-defined connecting functions (input filters to search on)
+      - user-defined connecting function to connect components like core functions/scripts/metrics (when this event occurs in the sensory input function, send signal to trigger other function)
+        - this is a way to abstract code (any function that can receive input data of that type) & code connections, delegating execution to code located with queries (find a function of this type or with this input/output) and modularize code as well as making it more connectible
+    - task: identify the core functions/components that can generate required functionality for most user intents without introducing security flaws (making hacking devices less adjacently buildable than common legitimate use cases)
 
   - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
 
