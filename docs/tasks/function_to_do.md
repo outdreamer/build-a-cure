@@ -1,4 +1,6 @@
 # to do
+
+  - usb that stores os/state/processes/files so when you take it out, the computer is just hardware, so secure portable destructible readonly sessions (or sessions allowing only one write at a time, from a user-facing process like a document editor, with regular approval requests to re-authenticate writes or session) can take place
   
   - organize examples of logic for functions (interface query design logic)
 
