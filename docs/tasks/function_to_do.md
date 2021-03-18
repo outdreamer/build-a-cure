@@ -1,5 +1,15 @@
 # to do
 
+  - example of multiple structural filters to reduce solution space
+    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
+      - find similarity to type 'dog' and type 'cat'
+        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
+          - apply opposite structures (what is not a cat, what is not a dog)
+            - apply distortion structures (what distortions are often applied to cats or dogs)
+              - apply alternative path structures & network structure
+                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
+                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
+
   - usb that stores os/state/processes/files so when you take it out, the computer is just hardware, so secure portable destructible readonly sessions (or sessions allowing only one write at a time, from a user-facing process like a document editor, with regular approval requests to re-authenticate writes or session) can take place
   
   - organize examples of logic for functions (interface query design logic)
