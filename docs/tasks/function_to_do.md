@@ -5,10 +5,18 @@
       - find similarity to type 'dog' and type 'cat'
         - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
           - apply opposite structures (what is not a cat, what is not a dog)
-            - apply distortion structures (what distortions are often applied to cats or dogs)
+          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
+          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
+          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
+          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
+          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
+          - apply system structures (what contexts normally go with 'cat')
+          - apply change/distortion structures (what distortions are often applied to cats or dogs)
               - apply alternative path structures & network structure
                 - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
                   - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
+                    - re-apply similarity structures to boundaries (is this within the cat path region)
+                    - apply pattern structures (does this match cat path patterns)
 
   - usb that stores os/state/processes/files so when you take it out, the computer is just hardware, so secure portable destructible readonly sessions (or sessions allowing only one write at a time, from a user-facing process like a document editor, with regular approval requests to re-authenticate writes or session) can take place
   
