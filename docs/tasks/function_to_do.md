@@ -26,6 +26,7 @@
 
   - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
     - this can add functionality to products to reduce need for producing new versions
+    - physical sensors can use communications tech with varying required internet infrastructure (beacons/bluetooth/radio) to integrate with data, computers, physical resources, building blocks of robots
     - physical components examples:
       - use a sensor added to non-electric or non-AI-driven vehicles, pedestrians, & other moving objects on roads (animals, robots) to detect other objects or sensors & help avoid crashes by attaching sensor output as input to steering mechanism with a steering component (interim tech while waiting on market capture of EV & AI vehicles)
         - can also be used to turn a cart or anything with wheels into a delivery robot, to reduce human traffic
