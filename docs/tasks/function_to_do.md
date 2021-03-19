@@ -4,6 +4,8 @@
     - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
       - find similarity to type 'dog' and type 'cat'
         - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
+          - apply base structures (random, core, common, etc)
+            - apply path structures (how many steps from a base to produce a clear answer)
           - apply opposite structures (what is not a cat, what is not a dog)
           - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
           - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
@@ -18,13 +20,16 @@
                     - re-apply similarity structures to boundaries (is this within the cat path region)
                     - apply pattern structures (does this match cat path patterns)
 
-  - usb that stores os/state/processes/files so when you take it out, the computer is just hardware, so secure portable destructible readonly sessions (or sessions allowing only one write at a time, from a user-facing process like a document editor, with regular approval requests to re-authenticate writes or session) can take place
+  - usb that stores os/state/processes/files so when you take it out, all thats left is hardware, so secure portable destructible readonly sessions (or sessions allowing only one write at a time, from a user-facing process like a document editor, with regular approval requests to re-authenticate writes or session) can take place
   
   - organize examples of logic for functions (interface query design logic)
 
   - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
     - this can add functionality to products to reduce need for producing new versions
-    - physical components: 
+    - physical components examples:
+      - use a sensor added to non-electric or non-AI-driven vehicles, pedestrians, & other moving objects on roads (animals, robots) to detect other objects or sensors & help avoid crashes by attaching sensor output as input to steering mechanism with a steering component (interim tech while waiting on market capture of EV & AI vehicles)
+        - can also be used to turn a cart or anything with wheels into a delivery robot, to reduce human traffic
+        - this can turn the delivery market into a sensor coding market to add functionality/integrations to sensors & the robots or resources controlled by them
       - use a sensor (indicating position to lift away from) as input to another sensor (lifting sensor) with connecting function (fetch position to move away from, direct lift away from position, initiate lift)
         - add sensors with user-defined connecting functions & prioritized sensor functions
           - if a sensor on top of trash can has function "lift" and can take input like "heat motion in range", add user-defined connecting function to another sensor not on lid that the sensor on top can use as a reference point to find direction to move in (away from other sensor) 
