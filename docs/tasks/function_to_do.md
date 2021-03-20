@@ -10,13 +10,25 @@
     - input data set metadata (whether variables are output metrics, variance-covering metrics, proxy variables, etc)
       - different input/output relationships will imply different interface queries that will be useful
       - beyond that, other (interface analysis-identified) methods to design an interface query for a problem type
+      - apply interface analysis to interface query design (system including interface components, query components, metrics) - apply interfaces to the problem of designing an interface query
+        - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
         - example:
           - adjacent formats: 
             - problem is route optimization, problem format is network, solution format is network path, interface query should include function interface, bc function format is adjacent to finding a path on a network
-
-  - apply interface analysis to interface query design (system including interface components, query components, metrics)
-    - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
-
+          - intent alignment:
+            - problem is over-complicated system, problem format is network, solution format is reduced-complexity system network, interface should include math & structure interfaces, to find & apply dimension-reducing functions (interfaces already contain functions that align with 'reduction' intent)
+          - required inputs:
+            - problem is 'find a relationship between functions for calculation optimization intent', solution format is 'connecting function', interface query should involve 'connecting' functions, which are a required input to solution format of a 'function to connect functions that optimizes calculation efficiency'
+        - this can optimize for problem/solution metadata, as well as general problem-solving methods
+          - optimize for problem type: interface query for 'missing information' problem type should include the 'similarity/difference' sub-interface on the 'structure' to identify 'opposite' structures like 'what is not there'
+          - optimize for solution format: interface query for a problem with solution format 'prediction function' should include either causal, potential, change, or function or structure.network interface, all of which can generate a structure connecting the in/dependent variables
+          - optimize for general method: 
+            - example: 
+              - 'generate set of possible solutions & apply filters to reduce solution space'
+                - the interface query should have a format that is filterable once it reaches the filter step of the general solution method
+              - 'break problem into sub-problems & combine & merge sub-solutions'
+                - the interface query should have a format that is combinable/mergeable once it reaches the combine/merge step of the general solution method
+  
   - organize list of structures relevant for intents
     - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
 
