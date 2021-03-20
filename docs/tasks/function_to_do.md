@@ -4,16 +4,17 @@
     - concepts
       - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
 
-  - 
-
   - decision between selecting insight path/query for a problem & generating a new one is dependent on:
     - problem metadata (complexity, adjacent formats)
     - available info (whether metrics are capable of capturing relevant info)
     - input data set metadata (whether variables are output metrics, variance-covering metrics, proxy variables, etc)
       - different input/output relationships will imply different interface queries that will be useful
       - beyond that, other (interface analysis-identified) methods to design an interface query for a problem type
+      
       - apply interface analysis to interface query design (system including interface components, query components, metrics) - apply interfaces to the problem of designing an interface query
         - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
+        - check if you can skip some interfaces, like when you start with an input containing mixed-interface (concepts, functions, intents) or cross-interface structures (structures that apply/generalize to or connect interfaces), such as when you can identify common terms in input component definitions that can be used to frame all relevant objects
+          - once you standardize terms of component definitions, is there an interim sub-interface youve standardized components to, which can be used in place of a full interface query
         - example:
           - adjacent formats: 
             - problem is route optimization, problem format is network, solution format is network path, interface query should include function interface, bc function format is adjacent to finding a path on a network
