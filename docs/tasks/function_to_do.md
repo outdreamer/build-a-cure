@@ -13,6 +13,9 @@
   - apply interface analysis to interface query design (system including interface components, query components, metrics)
     - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
 
+  - organize list of structures relevant for intents
+    - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
+
   - grassroots citizen info tech & citizen journalism as an alternative to top-down govt law enforcement, where centralized/organized govt law enforcement is allocated when a metric threshold for citizen reports is reached
     - the correct position of govt is an automated tool usable by citizens to solve problems (prevent crime, enforce laws, exact justice)
 
