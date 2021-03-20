@@ -4,6 +4,13 @@
     - concepts
       - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
 
+    - functions
+      - apply error types to check a system for known optimizations (error types like 'structures that seem similar but are not')
+
+  - examine similarity (alignment/overlap) structures between 
+    - different components (when an error type is an incentive, or a function used for other intents)
+      - contradictory/opposite components
+
   - decision between selecting insight path/query for a problem & generating a new one is dependent on:
     - problem metadata (complexity, adjacent formats)
     - available info (whether metrics are capable of capturing relevant info)
