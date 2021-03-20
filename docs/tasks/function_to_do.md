@@ -1,5 +1,18 @@
 # to do
 
+  - organize list of structures required for system optimization & make diagram & generative insight path & query
+    - concepts
+      - anti-complacence structures (checking for new error types)
+
+  - decision between selecting insight path/query for a problem or generating a new one is dependent on:
+    - problem metadata (complexity)
+    - available info (whether metrics are capable of capturing relevant info)
+    - input data set metadata (whether variables are output metrics, variance-covering metrics)
+      - different input/output relationships will imply different interface queries that will be useful
+
+  - grassroots citizen info tech & citizen journalism as an alternative to top-down govt law enforcement, where centralized/organized govt law enforcement is allocated when a metric threshold for citizen reports is reached
+    - the correct position of govt is an automated tool usable by citizens to solve problems (prevent crime, enforce laws, exact justice)
+
   - example of multiple structural filters to reduce solution space
     - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
       - find similarity to type 'dog' and type 'cat'
