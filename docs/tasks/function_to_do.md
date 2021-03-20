@@ -22,6 +22,11 @@
         - this can optimize for problem/solution metadata, as well as general problem-solving methods
           - optimize for problem type: interface query for 'missing information' problem type should include the 'similarity/difference' sub-interface on the 'structure' to identify 'opposite' structures like 'what is not there'
           - optimize for solution format: interface query for a problem with solution format 'prediction function' should include either causal, potential, change, or function or structure.network interface, all of which can generate a structure connecting the in/dependent variables
+            - causal: organize variables with causal diagram having direction & check for predictive ability (identifying correlation, applying causal structures like moving/deactivating variables, using variable proxies or aggregate variables) to filter diagram for probable causation
+            - potential: identify potential alternatives (variable sets not in data set, randomness explanation) and filter if possible, possibly leaving original data set as last remaining solution
+            - change: identify variable change functions, and evaluate distorted data sets using those functions for alternate prediction functions, filtering by functions that are robustly predictive with more change conditions applied
+            - function: index variables as functions (functions using variable combinations/subsets) to check for input/output connectivity potential between in/dependent variables
+            - structure: organize the variables as a network to find relationships & if there is a relationship between in/dependent variables
           - optimize for general method: 
             - example: 
               - 'generate set of possible solutions & apply filters to reduce solution space'
