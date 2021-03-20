@@ -4,11 +4,14 @@
     - concepts
       - anti-complacence structures (checking for new error types)
 
-  - decision between selecting insight path/query for a problem or generating a new one is dependent on:
+  - decision between selecting insight path/query for a problem & generating a new one is dependent on:
     - problem metadata (complexity)
     - available info (whether metrics are capable of capturing relevant info)
     - input data set metadata (whether variables are output metrics, variance-covering metrics)
       - different input/output relationships will imply different interface queries that will be useful
+
+  - apply interface analysis to interface query design (system including interface components, query components, metrics)
+    - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
 
   - grassroots citizen info tech & citizen journalism as an alternative to top-down govt law enforcement, where centralized/organized govt law enforcement is allocated when a metric threshold for citizen reports is reached
     - the correct position of govt is an automated tool usable by citizens to solve problems (prevent crime, enforce laws, exact justice)
