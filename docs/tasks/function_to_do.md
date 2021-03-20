@@ -2,7 +2,9 @@
 
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
-      - anti-complacence structures (checking for new error types)
+      - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
+
+  - 
 
   - decision between selecting insight path/query for a problem & generating a new one is dependent on:
     - problem metadata (complexity, adjacent formats)
@@ -27,7 +29,7 @@
             - change: identify variable change functions, and evaluate distorted data sets using those functions for alternate prediction functions, filtering by functions that are robustly predictive with more change conditions applied
             - function: index variables as functions (functions using variable combinations/subsets) to check for input/output connectivity potential between in/dependent variables
             - structure: organize the variables as a network to find relationships & if there is a relationship between in/dependent variables
-          - optimize for general method: 
+          - optimize for general problem-solving methods: 
             - example: 
               - 'generate set of possible solutions & apply filters to reduce solution space'
                 - the interface query should have a format that is filterable once it reaches the filter step of the general solution method
@@ -36,6 +38,8 @@
   
   - organize list of structures relevant for intents
     - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
+    - for 'connection' intents (identify/generate connection), a structure where components are only defined in terms of other components (by their relationships to other components), like a network or vector space
+    - for 'differentiation' intents, a structure where the definition of difference is clear & applicable (can differentiate all different components)
 
   - grassroots citizen info tech & citizen journalism as an alternative to top-down govt law enforcement, where centralized/organized govt law enforcement is allocated when a metric threshold for citizen reports is reached
     - the correct position of govt is an automated tool usable by citizens to solve problems (prevent crime, enforce laws, exact justice)
