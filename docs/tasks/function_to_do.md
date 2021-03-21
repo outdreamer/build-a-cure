@@ -1,5 +1,11 @@
 # to do
 
+  - consciousness as choice to move between neural nodes (rather than being directed) required:
+    - the development of alternative node paths performing equal/similar functions, requiring:
+      - the development of excess resources, delaying required decision time (making immediate decision unnecessary, avoiding a forced decision), requiring:
+        - the existence & application of previous efficiencies & functions for alternative evaluation, energy storage, storage-checking, & energy requirement-identifying
+    - the cause could be framed as structures such as an 'efficiency stack' or 'energy maintenance functions' or 'alternative options' or 'navigation/motion control' or 'lack of requirement/need'
+
   - example of applying interfaces to derive metadata about a component
     - apply causal interface to identify connecting function 'power is responsibility' (also an insight)
       - power can be defined in causal interface components as 'causative potential' (its the input reason for change in a system, including changes preventing changes)
@@ -14,8 +20,8 @@
           - identifying that if power is necessary to change a structure, by process of elimination, nothing else could fix an error
 
   - connecting function of math/logic 
-    - a problem like the following is a logic problem that can respond to the general solution workflow (given a problem format of a function to check possible solutions with) of:
-      - 'identify the unique correct solution in a solution set' 
+    - a problem like the following is a logic problem ('find the logic connecting this input/output') that can respond to the general solution workflow (given a problem input format of a 'function' to check possible solutions with) of:
+      - 'identify the unique correct solution in a solution set to a problem of equalizing the sides of this function' 
       - 'identify which solutions are not correct, reducing the set to a size of 1'
       - this can be converted to a math problem of:
         - iterating through solutions
@@ -36,7 +42,7 @@
       - apply structural interface to connect logic & math structures:
         - 1. some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
           - similarity:
-            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should 
+            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should:
               - move in opposite directions
               - equal the original set size when added
           - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
