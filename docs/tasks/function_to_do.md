@@ -29,7 +29,7 @@
         - the check/test operation has an 'equal' & 'inject' structure (inject variable values to see if both sides are equal)
         - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
       - apply structural interface to connect logic & math structures:
-        - some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
+        - 1. some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
           - similarity:
             - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should 
               - move in opposite directions
@@ -39,9 +39,12 @@
             - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
           - direction:
             - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
-      - given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be inferred that when executing problem-solving method, the method should include a step where 
-        - an item(s) is removed from the set 
-          - this connection between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
+        - 2. given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be derived that:
+          - when executing problem-solving method, the method should include a step where:
+            - an item(s) is removed from the set 
+          - this connecting function between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
+          - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
+            - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
 
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
