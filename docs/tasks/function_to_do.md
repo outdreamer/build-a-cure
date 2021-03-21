@@ -8,6 +8,18 @@
     - apply structural interface to identify connecting function 'power is responsibility'
         - 'aligning error & fix sources' also corrects the 'power source distribution imbalance' error, which is another way to derive this insight, using the structural interface (correct distribution imbalance with alignment)
 
+  - connecting function of math/logic 
+    - a problem like:
+      - 'identify the unique correct solution in a solution set' 
+      is a logic problem that can respond to the general solution workflow of:
+      - 'identify which solutions are not correct, reducing the set to a size of 1'
+      - which can be converted to a math problem of iterating through solutions, checking each solution to see if it solves the problem ('equalizing both sides of a function'), removing it if not, otherwise checking if the set of possible remaining solutions has a size of 1 yet to give a success signal, and continuing iteration if not
+      - the connection between these interfaces is in the structure of logic (math being structural information in core terms like numbers):
+        - the set iteration has a 'sequence' (set, progression) structure
+        - the set size has a 'integer' (set, progression) structure
+        - the success signal & the continuation condition has a '0/1' (core alternative) structure
+        - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
+
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
       - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
