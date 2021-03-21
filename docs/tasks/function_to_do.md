@@ -25,8 +25,8 @@
         - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
         - the remove operation has a 'subtraction' structure
         - the continue operation has a 'sequence' structure
-        - the condition component has a 'direction' structure (change direction in logic network/tree)
-        - the check/test operation has an 'equalizing' & 'injecting' structure (inject variable values to see if both sides are equal)
+        - the condition component has a 'direction' structure (change direction in logic network/tree) and 'multiple option' structure (a decision between differing & mutually exclusive options must be made)
+        - the check/test operation has an 'equal' & 'inject' structure (inject variable values to see if both sides are equal)
         - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
       - apply structural interface to connect logic & math structures:
         - some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
@@ -39,6 +39,9 @@
             - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
           - direction:
             - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
+      - given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be inferred that when executing problem-solving method, the method should include a step where 
+        - an item(s) is removed from the set 
+          - this connection between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
 
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
