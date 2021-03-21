@@ -9,13 +9,13 @@
         - 'aligning error & fix sources' also corrects the 'power source distribution imbalance' error, which is another way to derive this insight, using the structural interface (correct distribution imbalance with alignment)
 
   - connecting function of math/logic 
-    - a problem like the following is a logic problem that can respond to the general solution workflow of:
+    - a problem like the following is a logic problem that can respond to the general solution workflow (given a problem format of a function to check possible solutions with) of:
       - 'identify the unique correct solution in a solution set' 
       - 'identify which solutions are not correct, reducing the set to a size of 1'
       - this can be converted to a math problem of:
         - iterating through solutions
         - checking each solution to see if it solves the problem ('equalizing both sides of a function')
-        - removing it if not
+        - removing it from the solution set if not
         - otherwise checking if the set of possible remaining solutions has a size of 1 yet to give a success signal
         - continuing iteration if not
       - the connection between these interfaces is in the structure of logic (math being structural information in core terms like numbers):
@@ -23,14 +23,22 @@
         - the remaining solution set size has a 'integer' (set, progression) structure
         - the success signal & the continuation condition has a '0/1' (core alternative) structure
         - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
-      - some of those structures have structural relationships
-        - similarity:
-          - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should 
-            - move in opposite directions
-            - equal the original set size when added
-        - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
-          - generate core functions & generate combinations of them, applying them to problem variables being examined for a connecting function (solution set size & set iteration)
-          - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
+        - the remove operation has a 'subtraction' structure
+        - the continue operation has a 'sequence' structure
+        - the condition component has a 'direction' structure (change direction in logic network/tree)
+        - the check/test operation has an 'equalizing' & 'injecting' structure (inject variable values to see if both sides are equal)
+        - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
+      - apply structural interface to connect logic & math structures:
+        - some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
+          - similarity:
+            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should 
+              - move in opposite directions
+              - equal the original set size when added
+          - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
+            - generate core functions & generate combinations of them, applying them to problem variables being examined for a connecting function (solution set size & set iteration)
+            - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
+          - direction:
+            - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
 
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
