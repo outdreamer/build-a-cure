@@ -45,6 +45,8 @@
           - this connecting function between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
           - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
             - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
+          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
+            - before applying a step, apply its required sub-queries to test for its alternatives, like that other non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
 
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
