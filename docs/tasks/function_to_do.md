@@ -1,12 +1,17 @@
 # to do
 
-  - applying interfaces to derive metadata about a component
+  - example of applying interfaces to derive metadata about a component
     - apply causal interface to identify connecting function 'power is responsibility' (also an insight)
       - power can be defined in causal interface components as 'causative potential' (its the input reason for change in a system, including changes preventing changes)
         - given that it has structure 'change input', its also a source of other change types than intentionally triggering the correct function (errors, side effects, changes to errors)
         - changes to fix errors are related to the concept of 'responsibility' (definable as 'work that isnt incentivized but is necessary')
     - apply structural interface to identify connecting function 'power is responsibility'
         - 'aligning error & fix sources' also corrects the 'power source distribution imbalance' error, which is another way to derive this insight, using the structural interface (correct distribution imbalance with alignment)
+        - identifying the 'similarity' (a core component of structural interface, applied during a standard application of interface) in the 'direction' structure, between power & side effects (including errors) as similar to the direction between power & fixes
+        - identifying connecting functions positioning power as an input/required structure to fixing errors:
+          - identifying that 'fixing functions' have an input trigger requirement like any other function, and function triggers therefore have power to fix errors
+          - identifying that if something can generate a 'fixing function', it necessarily has power
+          - identifying that if power is necessary to change a structure, by process of elimination, nothing else could fix an error
 
   - connecting function of math/logic 
     - a problem like the following is a logic problem that can respond to the general solution workflow (given a problem format of a function to check possible solutions with) of:
@@ -46,7 +51,7 @@
           - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
             - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
           - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
-            - before applying a step, apply its required sub-queries to test for its alternatives, like that other non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
+            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
 
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
