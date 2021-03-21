@@ -1,5 +1,13 @@
 # to do
 
+  - applying interfaces to derive metadata about a component
+    - apply causal interface to identify connecting function 'power is responsibility' (also an insight)
+      - power can be defined in causal interface components as 'causative potential' (its the input reason for change in a system, including changes preventing changes)
+        - given that it has structure 'change input', its also a source of other change types than intentionally triggering the correct function (errors, side effects, changes to errors)
+        - changes to fix errors are related to the concept of 'responsibility' (definable as 'work that isnt incentivized but is necessary')
+    - apply structural interface to identify connecting function 'power is responsibility'
+        - 'aligning error & fix sources' also corrects the 'power source distribution imbalance' error, which is another way to derive this insight, using the structural interface (correct distribution imbalance with alignment)
+
   - organize list of structures required for system optimization & make diagram & generative insight path & query
     - concepts
       - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
