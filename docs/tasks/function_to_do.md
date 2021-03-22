@@ -2,7 +2,9 @@
 
   - successful AI would identify multiple solutions as probably successful once variables of inequality were identified
 
-    - input variables determining value: 
+    - identify 'value' as the vertex variable
+
+    - identify input variables determining value: 
       - location
         - what is a low-method to change location: public transportation
         - what is a barrier to change location: visa, lack of info
@@ -10,27 +12,30 @@
         - make an alternative supply chain between high-traffic suppliers/demands in other direction (across continent rather than across an ocean)
       - relevant cost ratios (cost of going somewhere, finding job, selling something, finding info)
 
-    - what are methods to transfer resources
+    - query: find methods to transfer resources
       - temporary markets (tasks that will probably be automated within n years, markets for goods people probably wont want/need in n years, or only need once, or only while a law is applied that will be changed soon, or products that need a connecting product until theyre all invalidated by another product being built)
       - supply chains
       - transportation
       - delivery services
 
-    - what interfaces are relevant
+    - query: find relevant interfaces
       - laws
       - code
       - resource distribution
       - location
 
-    - solution methods
+    - query: find solution methods
       - connect existing resources
       - apply multiple high-difference solutions, vary them to find subsets & versions that work
 
-    - what is the lowest-cost combination of solutions
+    - query: find lowest-cost combination of solutions
       - finding highest-value public transportation infrastructure to build (what routes would allow low-cost resource transfer for the most agents)
       - finding temp markets (delivery/resource-sharing/education services)
       - finding adjacent/existing law combinations to benefit the most low-income agents
       - finding adjacent/existing bugs or code loopholes to benefit the most low-income agents
+      
+    - example of a combination solution, integrating multiple relevant interfaces, solutions, covering a high ratio of input variables to vertex variable
+      - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
 
   - consciousness as choice to move between neural nodes (rather than being directed) required:
     - the development of alternative node paths performing equal/similar functions, requiring:
