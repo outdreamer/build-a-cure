@@ -1,5 +1,37 @@
 # to do
 
+  - successful AI would identify multiple solutions as probably successful once variables of inequality were identified
+
+    - input variables determining value: 
+      - location
+        - what is a low-method to change location: public transportation
+        - what is a barrier to change location: visa, lack of info
+      - proximity to supply chains
+        - make an alternative supply chain between high-traffic suppliers/demands in other direction (across continent rather than across an ocean)
+      - relevant cost ratios (cost of going somewhere, finding job, selling something, finding info)
+
+    - what are methods to transfer resources
+      - temporary markets (tasks that will probably be automated within n years, markets for goods people probably wont want/need in n years, or only need once, or only while a law is applied that will be changed soon, or products that need a connecting product until theyre all invalidated by another product being built)
+      - supply chains
+      - transportation
+      - delivery services
+
+    - what interfaces are relevant
+      - laws
+      - code
+      - resource distribution
+      - location
+
+    - solution methods
+      - connect existing resources
+      - apply multiple high-difference solutions, vary them to find subsets & versions that work
+
+    - what is the lowest-cost combination of solutions
+      - finding highest-value public transportation infrastructure to build (what routes would allow low-cost resource transfer for the most agents)
+      - finding temp markets (delivery/resource-sharing/education services)
+      - finding adjacent/existing law combinations to benefit the most low-income agents
+      - finding adjacent/existing bugs or code loopholes to benefit the most low-income agents
+
   - consciousness as choice to move between neural nodes (rather than being directed) required:
     - the development of alternative node paths performing equal/similar functions, requiring:
       - the development of excess resources, delaying required decision time (making immediate decision unnecessary, avoiding a forced decision), requiring:
