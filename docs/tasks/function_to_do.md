@@ -1,10 +1,12 @@
 # to do
 
+  - finish core function structure example diagrams
+
   - successful AI would identify multiple solutions as probably successful once variables of inequality were identified
 
-    - identify 'value' as the vertex variable
+    - query: identify 'value' as the vertex variable
 
-    - identify input variables determining value: 
+    - query: identify input variables determining value: 
       - location
         - what is a low-method to change location: public transportation
         - what is a barrier to change location: visa, lack of info
@@ -33,9 +35,10 @@
       - finding temp markets (delivery/resource-sharing/education services)
       - finding adjacent/existing law combinations to benefit the most low-income agents
       - finding adjacent/existing bugs or code loopholes to benefit the most low-income agents
-      
-    - example of a combination solution, integrating multiple relevant interfaces, solutions, covering a high ratio of input variables to vertex variable
-      - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
+
+    - query: organize info into a combination solution
+      - example of a combination solution, integrating multiple relevant interfaces, solutions, covering a high ratio of input variables to vertex variable
+        - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
 
   - consciousness as choice to move between neural nodes (rather than being directed) required:
     - the development of alternative node paths performing equal/similar functions, requiring:

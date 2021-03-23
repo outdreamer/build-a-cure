@@ -155,6 +155,7 @@
 
       - lack of usage by genetically/systemically optimal timing linked to illnesses (hormone production & hormone usage)
         https://medicalxpress.com/news/2020-01-sex-linked-earlier-menopause.html
+        https://phys.org/news/2021-03-hormone-drugs-covid-spike-protein.html
 
       - muscles have stressor handler for excess lactate, and cell types in other tissues do not
         https://medicalxpress.com/news/2020-01-lactate-prompt-cancer-formation.html
