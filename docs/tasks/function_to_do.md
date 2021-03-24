@@ -1,10 +1,18 @@
 # to do
 
+  - applying non-standard methods across systems
+    - applying concept of 'bias' used to fulfill intent of 'creating a truth filter'
+      - bias is usually used to evaluate intentions of agents when interacting with other agents with some level of variance in agent identities
+      - after abstracting intentions as decision/function triggers:
+        - apply bias as a truth filter to determine non-agent decision/function triggers
+        - this can work bc even components without agency respond to incentives bc of their common tie to physics
+        - bias also interacts with the concept of randomness & randomness can explain false signals, which connects to problem-solving intent of identifying truth
+
   - finish core function structure example diagrams
 
   - vpn's & proxy servers to enable protection functions (viewing science research or medical info) by 
     - automatically finding countries with laws allowing those protected functions & routing requests from servers in those locations
-    - finding a version of an app that has target features so user is directed to download for that version
+    - finding a version of an app that has target features so user is directed to download for that versions
 
   - successful AI would identify multiple solutions as probably successful once variables of inequality were identified
 
