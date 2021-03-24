@@ -2,6 +2,10 @@
 
   - finish core function structure example diagrams
 
+  - vpn's & proxy servers to enable protection functions (viewing science research or medical info) by 
+    - automatically finding countries with laws allowing those protected functions & routing requests from servers in those locations
+    - finding a version of an app that has target features so user is directed to download for that version
+
   - successful AI would identify multiple solutions as probably successful once variables of inequality were identified
 
     - query: identify 'value' as the vertex variable
