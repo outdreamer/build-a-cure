@@ -10,29 +10,44 @@
           - this can work bc even components without agency respond to incentives bc of their common tie to physics
           - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to problem-solving intent of identifying truth
 
-    - query to generate method to find useful structures across systems, for an intent like 'truth filtering'
+    - query to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
 
-      - apply structural interface
-        - identify connections between structures in problem
-          - problem: 'find true info in agent-based system interactions despite agent incentives to send false info & intentions/decisions to do so'
-          - problem structures:
-            - concepts: 'truth' (intention matches decision output = 'successful decision'), 'agency', 'incentive', 'intent', 'decision'
-            - functions: 'interaction functions', 'decision functions'
-            - other structures: 'decision function triggers', 'false info', 'true info'
+      - find 'truth filtering' structures in source system
 
-      - apply combine function to conceptual interface
-        - create combinations of abstracted versions of structures
-          - problem: 'find true info in system interactions despite incentives to send false info & other sources of false info & change functions enabling that'
-          - problem structures:
-            - concepts: 'correct' (info implication matches its impact), 'incentive', 'change', 'randomness'
-            - functions: 'interaction functions', 'change functions'
-            - other structures: 'change function triggers', 'false info', 'true info'
+        - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
+          - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
 
-      - apply connect function to abstract structures
-        - find structures that connect abstract structures (randomness, false info, change/function triggers) without the specific attributes tying them to one system (agency)
-          - test whether the connecting structures fit with the new system after removing attributes:
-            - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
-              - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
+        - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
+          - apply bias/interface metadata (intent) to target system components
+            - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
+
+          - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
+            - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
+            - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
+
+      - standard interface query 
+
+        - apply structural interface
+          - identify connections between structures in problem
+            - problem: 'find true info in agent-based system interactions despite agent incentives to send false info & intentions/decisions to do so'
+            - problem structures:
+              - concepts: 'truth' (intention matches decision output = 'successful decision'), 'agency', 'incentive', 'intent', 'decision'
+              - functions: 'interaction functions', 'decision functions'
+              - other structures: 'decision function triggers', 'false info', 'true info'
+
+        - apply combine function to conceptual interface
+          - create combinations of abstracted versions of structures
+            - problem: 'find true info in system interactions despite incentives to send false info & other sources of false info & change functions enabling that'
+            - problem structures:
+              - concepts: 'correct' (info implication matches its impact), 'incentive', 'change', 'randomness'
+              - functions: 'interaction functions', 'change functions'
+              - other structures: 'change function triggers', 'false info', 'true info'
+
+        - apply connect function to abstract structures
+          - find structures that connect abstract structures (randomness, false info, change/function triggers) without the specific attributes tying them to one system (agency)
+            - test whether the connecting structures fit with the new system after removing attributes:
+              - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
+                - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
 
   - finish core function structure example diagrams
 
