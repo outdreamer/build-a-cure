@@ -5,24 +5,28 @@
 
   - examine using stressor (task) distribution to correct errors in misfoldings, tasks that involve fold changes involving error-prone areas
 
-  - stupidity
+  - examine impact of exercise (eliminating fluid with sweat), other methods of eliminating fluid like use of caffeine/diuretics, oxygen absorption, processes extracting oxygen from fluid, electrical processes' interactions with fluid of varying composition, blood pressure, & other fluid density/distribution/retention causes as factors in severe respiratory infection response
+    - https://medicalxpress.com/news/2021-03-microchip-human-lungs-enable-disease.html
 
-    - Is it like this, where you have feelings & input from senses instead of thoughts - or you can't move your thoughts around or focus on something by choice? Is it lack of a mental narrative? Is it lack of memory? Is it just a lack of understanding/learning?
-      https://www.iflscience.com/brain/people-with-no-internal-monologue-explain-what-its-like-in-their-head/
+  - move to nn structures
+    - stupidity
 
-    - Is it lack of runtime storage, so you can't hold a thought while considering another thought? Is it lack of complexity, so you can't consider contradictions? Is it an inability to consider differences, so you can't figure anything out unless it's very similar to things already explained to you?
+      - Is it like this, where you have feelings & input from senses instead of thoughts - or you can't move your thoughts around or focus on something by choice? Is it lack of a mental narrative? Is it lack of memory? Is it just a lack of understanding/learning?
+        https://www.iflscience.com/brain/people-with-no-internal-monologue-explain-what-its-like-in-their-head/
 
-    - Is it a lack of control or potential? Is it a lack of organization, so connecting info as needed is impossible? Is it lack of structure-building, so you can't build a structure to hold a new system to check it for dynamics & differences to learn it?
+      - Is it lack of runtime storage, so you can't hold a thought while considering another thought? Is it lack of complexity, so you can't consider contradictions? Is it an inability to consider differences, so you can't figure anything out unless it's very similar to things already explained to you?
 
-    - Is it like seeing something complicated & then your head automatically swivels toward the nearest person with a functional brain to get the answer, and then waits indefinitely without achieving any detection of structure in the complicated thing?
+      - Is it a lack of control or potential? Is it a lack of organization, so connecting info as needed is impossible? Is it lack of structure-building, so you can't build a structure to hold a new system to check it for dynamics & differences to learn it?
 
-    - Is it an inability to standardize something or focus or identify simple structures like unit cases or interaction layers, so that you can't find similarities to other systems or functions or structures?
+      - Is it like seeing something complicated & then your head automatically swivels toward the nearest person with a functional brain to get the answer, and then waits indefinitely without achieving any detection of structure in the complicated thing?
 
-    - Is it like being a robot or having someone control you, like you feel hungry & then your legs start moving toward the nearest store?
+      - Is it an inability to standardize something or focus or identify simple structures like unit cases or interaction layers, so that you can't find similarities to other systems or functions or structures?
 
-    - Is it lack of simulation capacity, so you can't imagine an alternate possibility or model a different system that the ones you already understand?
+      - Is it like being a robot or having someone control you, like you feel hungry & then your legs start moving toward the nearest store?
 
-  - examine using the mechanism of forgetting as an alternative to synaptic plasticity in order to enable change/learning
+      - Is it lack of simulation capacity, so you can't imagine an alternate possibility or model a different system that the ones you already understand?
+
+    - examine using the mechanism of forgetting as an alternative to synaptic plasticity in order to enable change/learning
 
   - how to distribute disease-preventing bacteria
     - usage of supply chains to use efficiencies like co-deliveries (physical supply chains as supply chains of beneficial bacteria)
