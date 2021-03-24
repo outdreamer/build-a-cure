@@ -1,5 +1,9 @@
 # to do
 
+  - add intent metadata to interface query examples 
+    - 'find combine structures after applying system interface to find connecting structures in problem/solution system'
+    - the intent of a sub-query should be defined in terms defined on that interaction level, to avoid gaps in connecting structures across sub-queries, so that further sub-queries of the sub-query can connect to the original triggering interaction level intent
+
   - applying non-standard methods across systems
 
     - example:
@@ -10,20 +14,22 @@
           - this can work bc even components without agency respond to incentives bc of their common tie to physics
           - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to problem-solving intent of identifying truth
 
-    - query to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
+    - queries to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
 
-      - find 'truth filtering' structures in source system
+      - apply insight paths to generate insight paths
 
-        - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
-          - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
+        - find structures with 'truth filtering' intent in solution (source) system
+          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
+            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
 
-        - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
-          - apply bias/interface metadata (intent) to target system components
-            - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
+        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
+          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
+            - apply bias/interface metadata (intent) to target system components
+              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
 
-          - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
-            - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
-            - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
+            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
+              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
+              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
 
       - standard interface query 
 
