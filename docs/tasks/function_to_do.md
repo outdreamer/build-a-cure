@@ -3,6 +3,9 @@
   - add intent metadata to interface query examples 
     - 'find combine structures after applying system interface to find connecting structures in problem/solution system'
     - the intent of a sub-query should be defined in terms defined on that interaction level, to avoid gaps in connecting structures across sub-queries, so that further sub-queries of the sub-query can connect to the original triggering interaction level intent
+    - example: 
+      - when solving a problem with an insight path like 'break problem into sub-problems', the sub-queries to solve each sub-problem should be defined in terms used by the insight path & problem statement
+      - a sub-query to solve a sub-problem like 'reduce & isolate dimensions of problem' should be defined using the problem statement components & the insight path ('break' as the original function mapped to sub-functions 'reduce' and 'isolate'), so when it comes time to integrate sub-solutions into a solution, the corresponding opposite function to 'break(problem)' can be applied to 'integrate(solution)', using a version of 'integrate' such as a specific version of 'merge' that connects to the version of sub-functions of 'break' used
 
   - applying non-standard methods across systems
 
