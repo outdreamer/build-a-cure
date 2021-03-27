@@ -1,7 +1,40 @@
 # to do
 
+  - example of deriving solutions 
+    - original solution (apply method to smaller matrices) applies 
+      - core structures: 
+        - meta (matrix of matrices)
+        - subset (sub-matrices)
+        - substitute (addition for multiplication)
+      - core functions:
+        - apply substitution method to subset once matrix is formatted as a matrix of matrices
+          = apply(substitution_method(format(original_matrix, 'subset')))
+
+    - how to generate other solutions
+      - two queries to arrive at the same solution
+      - apply structural interface
+        - apply core structures of structural interface
+          - apply structural similarity to structures of problem (including value)
+            - similar values enable addition instead of multiplication (multiply 5 * 8 & subtract/add 8 instead of multiply 4 * 8 and 6 * 8)
+            - if there are similar values in a matrix, and storage is allowed, this can reduce multiplication count (ignoring storage search)
+          - apply adjacence structures
+            - find values adjacent to matrix values to find similarities in computation requirements
+      - apply function interface
+        - find functions that convert multiplication to addition problem
+          - addition can replace a multiplication if an adjacent multiplication has already been done
+      - apply core function interface
+        - apply core functions (replace) & core structures (unit) to problem functions (multiply, add) until one problem function can be defined as a set of the other problem function (define multiply in terms of add using core functions)
+          - replace one unit of value with an add operation until multiply is defined in terms of add (standardize to add interface)
+            - identify when add can be used in matrix given adjacent multiplication operations (multiplication operation can produce an interim value in between other values so the multiplication can be re-used for another value)
+      - apply system interface
+        - apply system structures
+          - apply efficiency structures
+            - apply efficiency structure of 'reusing existing resources'
+          - apply symmetry structures
+            - apply symmetry structure of 'interim value one unit/radius length away from multiple values - one being addable in the position of a coefficient'
+
   - add intent metadata to interface query examples 
-    - 'find combine structures after applying system interface to find connecting structures in problem/solution system'
+    - 'find combine structures after applying system interface - to find connecting structures in problem/solution system'
     - the intent of a sub-query should be defined in terms defined on that interaction level, to avoid gaps in connecting structures across sub-queries, so that further sub-queries of the sub-query can connect to the original triggering interaction level intent
     - example: 
       - when solving a problem with an insight path like 'break problem into sub-problems', the sub-queries to solve each sub-problem should be defined in terms used by the insight path & problem statement
