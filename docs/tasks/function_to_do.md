@@ -25,11 +25,18 @@
                 - even number x even number can produce even number
                   - 4 x 4, 4 x 6, 4 x 8, etc
               - apply reduction tests (what could not be the solution)
-                - apply tests to inputs 
-                  - inputs are filtered out if they would produce an output that was too large to be 28
-                    - 28 is quite a small number so pairs of numbers above a threshold value (3 x anything above 9, etc)
-                    - some pairs are clearly too big to produce 28, without checking the product
-                      - 11 x 12 is clearly too big, so can be removed from list of possible pairs
+                - apply tests to inputs
+                  - inputs must be spaced according to the output number
+                    - adjacent numbers are unlikely to produce the output number (as a multiplied pair) for an increasing output number
+                  - structures of inequality (not equal to solution)
+                    - too large
+                    - too small
+                    - not even
+                  - identify threshold structures (values) of input structures (values, value pairs) that would produce one of these inequalities
+                    - filter out inputs if they would produce an output that was too large to be 28
+                      - 28 is quite a small number so pairs of numbers above a threshold value (3 x anything above 9, etc)
+                      - some pairs are clearly too big to produce 28, without checking the product
+                        - 11 x 12 is clearly too big, so can be removed from list of possible pairs
 
   - concept of attention in structures
     - mixed interim high-variation & high-similarity structures tend to maximize attention
