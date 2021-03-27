@@ -1,7 +1,8 @@
 # to do
 
-  - example of deriving solutions 
-    - original solution (apply method to smaller matrices) applies 
+  - example of deriving solutions (from https://www.quantamagazine.org/mathematicians-inch-closer-to-matrix-multiplication-goal-20210323/)
+
+    - original solution (apply method to smaller matrices) applies:
       - core structures: 
         - meta (matrix of matrices)
         - subset (sub-matrices)
@@ -11,25 +12,76 @@
           = apply(substitution_method(format(original_matrix, 'subset')))
 
     - how to generate other solutions
-      - two queries to arrive at the same solution
+
+      - multiple queries to arrive at the same solution of 'finding adjacent interim values & re-using multiplication operation, in case where adjacent interim values exist in a matrix'
+        - you can start with the target solution formats as your interface query filter (equating "problem format + operations = solution format")
+          - a more efficient operation than multiply
+          - a more efficient combination of operationss than 'multiply then add'
+        - or you can start with applying interfaces and focusing on useful structures for the solution (problem-reduction or problem-compartmentalization)
+          - apply structures known to generate solutions to fulfill solution metrics (move toward solution position or reduce solution space or reduce problem)
+            - apply core/adjacent/efficient/similar structures
+
       - apply structural interface
+
         - apply core structures of structural interface
           - apply structural similarity to structures of problem (including value)
             - similar values enable addition instead of multiplication (multiply 5 * 8 & subtract/add 8 instead of multiply 4 * 8 and 6 * 8)
             - if there are similar values in a matrix, and storage is allowed, this can reduce multiplication count (ignoring storage search)
           - apply adjacence structures
             - find values adjacent to matrix values to find similarities in computation requirements
+          - apply similarity structures
+            - find values in matrix having a common factor (base) and standardize operations involving those values
+          - apply sequence structures
+            - find sequences in multiplication operations & apply sequence operations rather than individual calculations
+              - find numbers in even number sequence (common factor of 2) and reduce to addition of coefficients of powers of two
+                - 3 * 5 + 2 * 6 + 2 * 4 =  3 * 5 + 2 * 2 * 3 + 2 * 2 * 2 = 3 * 5 + 3 (2^2) + 2 (2^2) = 3 * 5 + 5 (2^2)
+
       - apply function interface
-        - find functions that convert multiplication to addition problem
-          - addition can replace a multiplication if an adjacent multiplication has already been done
-      - apply core function interface
-        - apply core functions (replace) & core structures (unit) to problem functions (multiply, add) until one problem function can be defined as a set of the other problem function (define multiply in terms of add using core functions)
-          - replace one unit of value with an add operation until multiply is defined in terms of add (standardize to add interface)
-            - identify when add can be used in matrix given adjacent multiplication operations (multiplication operation can produce an interim value in between other values so the multiplication can be re-used for another value)
+        - find functions that convert multiplication to addition or other lower-cost problem
+          - replace/substitute
+            - identify when multiplication can be replaced by addition
+              - addition can replace a multiplication, if an adjacent multiplication has already been done
+            - convert numbers to efficient multipliers like powers of 10 that involve moving digits rather than multiplication
+
+      - apply core interface
+
+        - apply core functions (replace) & core structures (unit) to problem components (problem functions of multiply & add)
+          - apply interface interface (standardize problem to interfaces of problem space)
+
+          - apply system interface
+            - apply system structures
+              - apply efficiency structures
+                - identify efficiency structures in problem 
+                  - inefficient operation (multiply)
+                  - efficient operation (add)
+
+                - apply change interface
+                  - connect an inefficient function (multiply) to an efficient function (add) to change inefficient function to efficient function
+                    - define one problem function as a transformation of the other problem function
+                      - define multiply in terms of add using core functions/structures or problem functions/structures
+                        - apply replace to one unit of original multiplied values with an add operation until multiply is defined in terms of add (standardize to add interface)
+
+                - apply efficiency structures
+                  - apply efficiency structure 'apply one operation instead of multiple operations'
+                    - identify when multiple multiply operations can be replaced with this type of adjacent multiply/add operation 
+                      - identify when a multiplication operation can produce an interim value in between other values so the multiplication can be re-used for another value
+
+          - apply structure interface
+            - apply structural interface structures
+              - apply filter structure
+                - identify matrix cases where these operations are inefficient or unusable
+                  - identify operations/information needed to determine inefficiency/unusability of this solution
+                    - apply function to determine threshold value for matrix dimensions or metadata like value variability (if values are in a known range or have a known type): 
+                      - 'if there are more than x adjacent values with an interim value in a matrix of size n x n, this method can save computation steps even with the determining operation'
+                    - add average cost of determining operation to cost metric (computational complexity)
+
       - apply system interface
         - apply system structures
           - apply efficiency structures
             - apply efficiency structure of 'reusing existing resources'
+              - what resources exist or are created in original solution (values output by multiplication & addition operations)
+                - how can these be reused for other operations?
+                  - when other operations are adjacent
           - apply symmetry structures
             - apply symmetry structure of 'interim value one unit/radius length away from multiple values - one being addable in the position of a coefficient'
 
