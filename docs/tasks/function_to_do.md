@@ -1,5 +1,36 @@
 # to do
 
+  - apply insight path to solve problem of 'finding factors to produce number without using multiplication of every combination'
+    - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
+    - problem: find factors of 28 without using multiplication of every combination (trial & error)
+      - factors of 28: 1, 2, 4, 7, 14, 28
+      - remove: 1, 2, 14
+        - divide by integer unit 1, divide by 2 bc even, divide by co-factor of 2 which is half (select midpoint without multiplication))
+      - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+      - apply filters to solution space
+        - apply similarity of value structures as a filter
+          - adjacent items can be ruled out by proximity (for example, 13 couldnt be a candidate bc its too close to 14 to be a factor of such a small number)
+            - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+        - apply output patterns as a filter:
+          - multiples of 10 and 5 can be ruled out bc it doesnt end in zero or 5
+            - the remaining candidates are: 3, 4, 6, 7, 8, 9, 11, 12
+        - apply combination structure to produce solution format (multiplied pairs of factors)
+          - pairs are a combination structure
+          - the remaining factors can form pairs, which can also have filters applied
+          - apply filters to pairs 
+            - apply output requirements
+              - metadata of the output, 28, includes that its an even number, so multiplied pairs must produce an even number
+                - odd number x even number can produce an even number
+                  - 3 x 4, 3 x 6, 3 x 8, etc
+                - even number x even number can produce even number
+                  - 4 x 4, 4 x 6, 4 x 8, etc
+              - apply reduction tests (what could not be the solution)
+                - apply tests to inputs 
+                  - inputs are filtered out if they would produce an output that was too large to be 28
+                    - 28 is quite a small number so pairs of numbers above a threshold value (3 x anything above 9, etc)
+                    - some pairs are clearly too big to produce 28, without checking the product
+                      - 11 x 12 is clearly too big, so can be removed from list of possible pairs
+
   - concept of attention in structures
     - mixed interim high-variation & high-similarity structures tend to maximize attention
 
