@@ -6,11 +6,58 @@
   - examine conflating intent & requirement
 
   - insight path example
+
     - when generating solutions, identify:
-      - context/case/condition that can rule it out
+      - context/case/condition that can filter it out
       - variables that can generate the most solutions
       - filters that can filter the most solutions
         - apply filters to solution space by solutions that are ruled out in fewest cases, best cases where solutions are less required or least probable cases
+    
+    - example: how to put shirt on underneath jacket without taking off jacket completely
+      
+      - alternative queries
+
+        - identify sub-problem: 
+
+          - find a format where sequence (shirt on top of jacket) can be changed into solution format (jacket on top of shirt)
+            - identify adjacent format 'bunching into circle around neck' that allows changing sequence (which is on top) and transformation function into that format from origin format 'taking off sleeves'
+
+        - apply adjacent formats to problem & solution formats
+          - identify formats that have a sequence (stack, row) which is a structure implied in the solution format ('underneath')
+            - apply functions to test if shirt can be transformed into one of those formats
+
+        - generate adjacent functions (bunching) from core functions (move sleeve, lift, rotate) & try them to see if any useful structures emerge moving objects closer to solution formats/positions
+      
+        - generate default connecting function and apply structures of optimization (reusing functions, avoiding extra steps) to improve the default connecting function incrementally
+
+        - identify tests that can filter out solutions
+
+          - identify tests interacting with structures of variables (change types, potential, uncertainty) & constants (requirements, limits, definitions)
+            - possibility test: 
+              - interaction test:
+                - in what ways can the shirt/jacket interact
+                  - can the shirt occupy position (fit) under the jacket
+            - requirement test: 
+              - does the shirt/jacket have to stay in its current position/format
+              - does every step of functions ('removal' function) have to be executed (can you just remove pieces, like the sleeves, without removing the whole thing)
+            - change test: 
+              - in what ways can the shirt/jacket be changed while remaining a shirt/jacket (bunching, removing sleeves) 
+              - are these ways reversible (can it be put on after being taken off)
+
+          - apply tests to reduce solution space
+            - solution can involve variables:
+              - position 
+              - format
+              - change functions (bunch, lift, remove)
+              - components (sleeve)
+              - interaction functions (stack in sequence)
+            - solution must fulfill requirements
+              - jacket must be in 'worn' position at all states
+              - change functions cant change object identities (change jacket into shirt or into a not-jacket)
+              - solution must reverse sequence of objects in stack structure)
+            - any solution involving removing the jacket completely in a state, change functions that change object identities, and where solution format is not fulfilled are ruled out
+            - other tests include:
+              - minimize steps (did solution do any unnecessary steps)
 
   - alternate insight path direction types
     - generate solutions from problem statement using interface objects
