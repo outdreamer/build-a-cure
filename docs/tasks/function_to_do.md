@@ -1,8 +1,35 @@
 # to do
 
+  - concept of attention in structures
+    - mixed interim high-variation & high-similarity structures tend to maximize attention
+
+  - examine conflating intent & requirement
+
+  - insight path example
+    - when generating solutions, identify:
+      - context/case/condition that can rule it out
+      - variables that can generate the most solutions
+      - filters that can filter the most solutions
+        - apply filters to solution space by solutions that are ruled out in fewest cases, best cases where solutions are less required or least probable cases
+
+  - alternate insight path direction types
+    - generate solutions from problem statement using interface objects
+      - core functions 
+      - mixes/changes of previous or abstract solutions
+      - insight paths (break problem down, trial & error, etc)
+      - system structures
+      - core structures (opposite, equal, adjacent)
+      - function input/output chains
+      - vertex variables
+      - conceptual structures
+    - apply solution format and reverse engineer solution
+      - apply solution filters that are adjacently derivable from problem/solution metadata (most-reducing filters that rule out the most solutions)
+    - apply both the generate solutions method & solution format method and connect them in the middle
+
   - example of deriving solutions (from https://www.quantamagazine.org/mathematicians-inch-closer-to-matrix-multiplication-goal-20210323/)
 
     - original solution (apply method to smaller matrices) applies:
+
       - core structures: 
         - meta (matrix of matrices)
         - subset (sub-matrices)
@@ -17,7 +44,7 @@
         - you can start with the target solution formats as your interface query filter (equating "problem format + operations = solution format")
           - a more efficient operation than multiply
           - a more efficient combination of operationss than 'multiply then add'
-        - or you can start with applying interfaces and focusing on useful structures for the solution (problem-reduction or problem-compartmentalization)
+        - or you can start with applying interfaces, and iteratively focusing on & applying useful structures found for the solution (problem-reduction or problem-compartmentalization)
           - apply structures known to generate solutions to fulfill solution metrics (move toward solution position or reduce solution space or reduce problem)
             - apply core/adjacent/efficient/similar structures
 
@@ -37,6 +64,7 @@
                 - 3 * 5 + 2 * 6 + 2 * 4 =  3 * 5 + 2 * 2 * 3 + 2 * 2 * 2 = 3 * 5 + 3 (2^2) + 2 (2^2) = 3 * 5 + 5 (2^2)
 
       - apply function interface
+
         - find functions that convert multiplication to addition or other lower-cost problem
           - replace/substitute
             - identify when multiplication can be replaced by addition
@@ -76,14 +104,15 @@
                     - add average cost of determining operation to cost metric (computational complexity)
 
       - apply system interface
+
         - apply system structures
           - apply efficiency structures
             - apply efficiency structure of 'reusing existing resources'
-              - what resources exist or are created in original solution (values output by multiplication & addition operations)
-                - how can these be reused for other operations?
+              - identify what resources exist or are created in original solution (values output by multiplication & addition operations)
+                - identify condition where these can be reused for other operations
                   - when other operations are adjacent
           - apply symmetry structures
-            - apply symmetry structure of 'interim value one unit/radius length away from multiple values - one being addable in the position of a coefficient'
+            - apply symmetry structure of 'interim value one change unit away from multiple values - one being addable in the position of a coefficient'
 
   - add intent metadata to interface query examples 
     - 'find combine structures after applying system interface - to find connecting structures in problem/solution system'
