@@ -13,6 +13,8 @@
             - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
           - apply similarity (of adding factors to sequence) as a filter
             - test sequences for adjacent computations
+          - apply similarity of components (factors) in definitions (numbers definable in terms of their factors) to find relevant structures
+            - test primes which are relevant bc of their definition being definable in terms of the factor standard
         - apply output patterns as a filter:
           - multiples of 10 and 5 can be ruled out bc it doesnt end in zero or 5
             - the remaining candidates are: 3, 4, 6, 7, 8, 9, 11, 12
