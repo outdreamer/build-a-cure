@@ -8,6 +8,7 @@
       - answers the questions:
         - 'given A/B/C and G/H/I models, does D/E/F make sense'
         - 'can a reduced stable logical form of DEF be derived from ABC & GHI, and does this logical form match DEF, and to what degree'
+        - 'why a variable is useful to predict another', not just 'if a variable is useful to predict another', since knowing 'why' will help the model adapt when that reason changes
 
   - apply insight path to solve problem of 'finding factors to produce number without using multiplication of every combination'
     - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
