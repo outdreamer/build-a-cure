@@ -1,5 +1,8 @@
 # to do
 
+  - integrate related AI models to derive functionality 
+    - if you have an AI model to predict relationships between variables A/B/C, D/E/F, and G/H/I, apply the connecting variable set models (A/B/C and G/H/I) to create a function to connect inputs/outputs of the D/E/F variable AI model, as a filter to streamline output of the model in response to changes to relevant to data & variables.
+
   - apply insight path to solve problem of 'finding factors to produce number without using multiplication of every combination'
     - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
     - problem: find factors of 28 without using multiplication of every combination (trial & error)
