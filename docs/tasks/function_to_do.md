@@ -11,6 +11,8 @@
         - apply similarity of value structures as a filter
           - adjacent items can be ruled out by proximity (for example, 13 couldnt be a candidate bc its too close to 14 to be a factor of such a small number)
             - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+          - apply similarity (of adding factors to sequence) as a filter
+            - test sequences for adjacent computations
         - apply output patterns as a filter:
           - multiples of 10 and 5 can be ruled out bc it doesnt end in zero or 5
             - the remaining candidates are: 3, 4, 6, 7, 8, 9, 11, 12
