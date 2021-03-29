@@ -1,15 +1,27 @@
 # to do
 
-  - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables)
+  - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
     - create error types of ai using core combination generative function
       - includes generating error type structures (combination of error types)
-    - create ai algorithm that is different from error type algorithms to guarantee an algorithm without those known error types
+    - identify error type patterns (when differences accrue in this pattern, an error of some type is likely to occur)
+    - create ai algorithm that is different in some variable from error type algorithms to guarantee an algorithm without those known error types
     - identify interface queries (or ai algorithms) that generate error types to use as filters to differentiate & guide design of new queries algorithms
     - example of error type in structure: 
       - any distortion can be used as an asset, so every position has an error inherent to its structure
         - for example, 'having the most power' has an error of intent 'wanting dependency', inability to delegate, over-responsibility (imbalance in blame allocation), boredom
       - how to derive the error type from this distortion structure (too far in the direction of power centralization)
         - with power centralization (power being at least an input to everything), other things are also centralized, like inputs/outputs/sub-processess of power (responsibility, decisions, dependency)
+
+  - finish applying structures of concepts into algorithms
+    - apply structure of time (state) into algorithms (network state algorithm)
+    - apply structure of hypnosis (multi-interface alignment) to algorithm (hypnotized algorithm is static & cant learn, which is an error type)
+    - apply meta structure to algorithms
+      - an algorithm that cant see its own error types is one that cant:
+        - change its perspective/position
+        - change the variable creating the error type
+        - receive negative feedback for errors
+        - apply negative feedback to correct structure (like direction)
+        - identify costs (indicating why its an error, as in what resource is lost)
 
   - use exclusively ai with known biases & error types so output can be corrected with the associated solution type
     - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
