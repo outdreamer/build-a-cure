@@ -7,8 +7,15 @@
     - create ai algorithm that is different in some variable from error type algorithms to guarantee an algorithm without those known error types
     - identify interface queries (or ai algorithms) that generate error types to use as filters to differentiate & guide design of new queries algorithms
     - example of error type in structure: 
-      - any distortion can be used as an asset, so every position has an error inherent to its structure
-        - for example, 'having the most power' has an error of intent 'wanting dependency', inability to delegate, over-responsibility (imbalance in blame allocation), boredom
+      - any distortion can be used as an asset, & every position has an error inherent to its structure
+        - for example:
+          - 'occupying the center position' has:
+            - errors: having to do extra work to get to a position where it can handle less adjacent (outlier) problem types
+            - advantages: its work is distributed among many positions in every direction (many positions are adjacent) so if the problem is solvable with an adjacent position, and encountered problem types vary a lot, the center has an advantage
+            - 'a position in between most common error types' is another similar position that would have an advantage inherent to its structure, with the cost of having to do more work to get to a position where less adjacent error types are solvable, the less adjacent error types being more common than adjacent error types, but still less far than the average cost from other positionss
+          - 'having the most power' has:
+            - errors: intent 'wanting dependency', inability to delegate, over-responsibility (imbalance in blame allocation), boredom
+            - advantages: freedom in movement/change, ability to handle stressors, ability to make decisions that favor itself or its goals
       - how to derive the error type from this distortion structure (too far in the direction of power centralization)
         - with power centralization (power being at least an input to everything), other things are also centralized, like inputs/outputs/sub-processess of power (responsibility, decisions, dependency)
 
@@ -22,6 +29,8 @@
         - receive negative feedback for errors
         - apply negative feedback to correct structure (like direction)
         - identify costs (indicating why its an error, as in what resource is lost)
+        - structures that depend on the outputs of their distortion, becoming dependent on their distortion
+        - structures that cant develop a function to correct the error (a power source that cant develop a power distribution/delegation function)
 
   - use exclusively ai with known biases & error types so output can be corrected with the associated solution type
     - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
