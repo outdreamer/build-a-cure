@@ -6,6 +6,7 @@
     - identify error type patterns (when differences accrue in this pattern, an error of some type is likely to occur)
     - create ai algorithm that is different in some variable from error type algorithms to guarantee an algorithm without those known error types
     - identify interface queries (or ai algorithms) that generate error types to use as filters to differentiate & guide design of new queries algorithms
+    
     - example of error type in structure: 
       - any distortion can be used as an asset, & every position has an error inherent to its structure
         - for example:
@@ -14,10 +15,21 @@
             - advantages: its work is distributed among many positions in every direction (many positions are adjacent) so if the problem is solvable with an adjacent position, and encountered problem types vary a lot, the center has an advantage
             - 'a position in between most common error types' is another similar position that would have an advantage inherent to its structure, with the cost of having to do more work to get to a position where less adjacent error types are solvable, the less adjacent error types being more common than adjacent error types, but still less far than the average cost from other positionss
           - 'having the most power' has:
-            - errors: intent 'wanting dependency', inability to delegate, over-responsibility (imbalance in blame allocation), boredom
+            - errors: intent of 'requiring dependency', inability to delegate, over-responsibility (imbalance in blame allocation), boredom
             - advantages: freedom in movement/change, ability to handle stressors, ability to make decisions that favor itself or its goals
-      - how to derive the error type from this distortion structure (too far in the direction of power centralization)
-        - with power centralization (power being at least an input to everything), other things are also centralized, like inputs/outputs/sub-processess of power (responsibility, decisions, dependency)
+      
+      - how to derive the error type from this distortion structure 
+        - distortion structure: 
+          - 'too far in the direction of power centralization'
+            - associated objects (inputs/outputs) to components (power)
+              - with power centralization (power being at least an input to everything), other things are also centralized, like inputs/outputs/sub-processess of power (responsibility, decisions, dependency)
+          - 'too central to reach outer positions quickly'
+            - variables (cost, function, priority) in structures (paths) to similar objects (positions)
+              - average cost to reach other positions may be lower than other positions, depending on density distribution or commonness of adjacent positions' associated error types, but cost to reach outer layers would be higher in the absence of efficient connecting functions
+                - this error structure can generate other error structures:
+                  - bc it cant reach outer positions quickly:
+                    - it cant identify/handle external stressors quickly without building functionality to offset that error, like an alarm system to get info to the center faster
+                    - it cant quickly generate new outer positions like it can generate new adjacent positionss
 
   - finish applying structures of concepts into algorithms
     - apply structure of time (state) into algorithms (network state algorithm)
