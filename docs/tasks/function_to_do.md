@@ -1,5 +1,10 @@
 # to do
 
+  - use exclusively ai with known biases & error types so output can be corrected with the associated solution type
+    - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
+    - this is an interim solution (algorithm/model + correcting logic of error types) while other algorithms are tested
+    - every algorithm has limitations - those with known limitations can be an asset in some problem types (like to discover biases in data), while other algorithms with unknown limitations can be an asset in other problem types (like to add uncertainty or delegate responsibility for unfair decisions)
+
   - integrate related AI models within the same network of variables to derive functionality 
     - if you have an AI model to predict relationships between causally sequential variable sets A/B/C, D/E/F, and G/H/I, apply the connecting variable set models (A/B/C and G/H/I) to create a logical function to connect inputs/outputs of the D/E/F variable AI model (or a subset of variables), as a filter to streamline output of the model in response to changes to relevant to data & variables
       - this is an alternative to training a model on D/E/F in isolation, & updating it by training it on new data received
