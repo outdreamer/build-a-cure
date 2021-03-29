@@ -1,5 +1,16 @@
 # to do
 
+  - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables)
+    - create error types of ai using core combination generative function
+      - includes generating error type structures (combination of error types)
+    - create ai algorithm that is different from error type algorithms to guarantee an algorithm without those known error types
+    - identify interface queries (or ai algorithms) that generate error types to use as filters to differentiate & guide design of new queries algorithms
+    - example of error type in structure: 
+      - any distortion can be used as an asset, so every position has an error inherent to its structure
+        - for example, 'having the most power' has an error of intent 'wanting dependency', inability to delegate, over-responsibility (imbalance in blame allocation), boredom
+      - how to derive the error type from this distortion structure (too far in the direction of power centralization)
+        - with power centralization (power being at least an input to everything), other things are also centralized, like inputs/outputs/sub-processess of power (responsibility, decisions, dependency)
+
   - use exclusively ai with known biases & error types so output can be corrected with the associated solution type
     - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
     - this is an interim solution (algorithm/model + correcting logic of error types) while other algorithms are tested
