@@ -20,6 +20,11 @@
           - unknown cause :: set of possible causes of varying directness
           - state with inability to self-correct :: state with self-correcting function
           - state with inability to interact :: state with core functions to build interaction function & function to change interaction level
+          - structure :: different structure
+            - direction :: position
+              - goals :: flexibility
+          - missing structures (subtype of opposite structures, sub-type of difference structures)
+            - lack of structure :: unnecessary structure
       - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
       - apply system optimizations to all interface components 
         - example: 
@@ -71,6 +76,9 @@
         - structures that cant develop a function to correct the error (a power source that cant develop a power distribution/delegation function)
     - organize list of structures required for system optimization & make diagram & generative insight path & query
       - concepts
+        - anti-chaos structures (organization)
+        - multiple alternatives 
+          - example: having multiple definitions of cost avoid errors like 'lack of flexibility due to over-prioritization of avoiding costs like pain' and instead be able to sustain one cost type to reduce another cost type, for a duration like 'as needed' or 'while advantageous'
         - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
         - other structures for optimizing systems
           - anti-complexity
