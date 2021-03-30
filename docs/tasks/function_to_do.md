@@ -1,5 +1,9 @@
 # to do
 
+  - associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
+    - what errors can be present in a solution that can still be considered successful
+    - what errors are considered a problem or equal to the input problem when combined in a structure
+
   - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
     - create error types of ai using core combination generative function
       - includes generating error type structures (combination of error types)
@@ -43,6 +47,15 @@
         - identify costs (indicating why its an error, as in what resource is lost)
         - structures that depend on the outputs of their distortion, becoming dependent on their distortion
         - structures that cant develop a function to correct the error (a power source that cant develop a power distribution/delegation function)
+    - other structures for optimizing systems
+      - anti-complexity
+        - apply filters to remove information that is repeated without value added
+      - anti-trust
+        - apply tests regularly to system components & structures of them, checking it for new variance sources & error types as well as known sources/types
+      - anti-dependency
+        - apply solutions to optimize system that increase similarity of components in the direction of independence, distributing functionality across components (like cross-training)
+      - anti-static
+        - add solutions that dont remove possibility of generating other solutions/error types (thereby reducing the variation the system can handle)
 
   - use exclusively ai with known biases & error types so output can be corrected with the associated solution type
     - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
