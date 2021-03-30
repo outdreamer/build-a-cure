@@ -3,6 +3,10 @@
   - associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
     - what errors can be present in a solution that can still be considered successful
     - what errors are considered a problem or equal to the input problem when combined in a structure
+    - iterate through possible interface definitions of problem/solution
+      - problem :: solution 
+        - sub-optimal state :: more optimal state
+        - state with errors :: state with fewer errors
 
   - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
     - create error types of ai using core combination generative function
@@ -47,15 +51,20 @@
         - identify costs (indicating why its an error, as in what resource is lost)
         - structures that depend on the outputs of their distortion, becoming dependent on their distortion
         - structures that cant develop a function to correct the error (a power source that cant develop a power distribution/delegation function)
-    - other structures for optimizing systems
-      - anti-complexity
-        - apply filters to remove information that is repeated without value added
-      - anti-trust
-        - apply tests regularly to system components & structures of them, checking it for new variance sources & error types as well as known sources/types
-      - anti-dependency
-        - apply solutions to optimize system that increase similarity of components in the direction of independence, distributing functionality across components (like cross-training)
-      - anti-static
-        - add solutions that dont remove possibility of generating other solutions/error types (thereby reducing the variation the system can handle)
+    - organize list of structures required for system optimization & make diagram & generative insight path & query
+      - concepts
+        - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
+        - other structures for optimizing systems
+          - anti-complexity
+            - apply filters to remove information that is repeated without value added
+          - anti-trust
+            - apply tests regularly to system components & structures of them, checking it for new variance sources & error types as well as known sources/types
+          - anti-dependency
+            - apply solutions to optimize system that increase similarity of components in the direction of independence, distributing functionality across components (like cross-training)
+          - anti-static
+            - add solutions that dont remove possibility of generating other solutions/error types (thereby reducing the variation the system can handle)
+      - functions
+        - apply error types to check a system for known optimizations (error types like 'structures that seem similar but are not')
 
   - use exclusively ai with known biases & error types so output can be corrected with the associated solution type
     - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
@@ -435,13 +444,6 @@
             - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
           - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
             - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
-
-  - organize list of structures required for system optimization & make diagram & generative insight path & query
-    - concepts
-      - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
-
-    - functions
-      - apply error types to check a system for known optimizations (error types like 'structures that seem similar but are not')
 
   - examine similarity (alignment/overlap) structures between 
     - different components (when an error type is an incentive, or a function used for other intents)
