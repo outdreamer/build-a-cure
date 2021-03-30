@@ -27,9 +27,15 @@
               - apply errors/changes to learning functions to produce new learning functions
           - structure :: different structure
             - direction :: position
-              - goals :: flexibility
-          - missing structures (subtype of opposite structures, sub-type of difference structures)
+              - goals (result, impact, resource) :: flexibility (increase in function, increase in power)
+          - missing structures (sub-type of opposite structures, sub-type of difference structures)
             - lack of structure :: unnecessary structure
+          - sub-optimal solution :: improved solution
+          - solution set :: optimal solution
+          - decision options :: executed decision
+          - lack of decision :: decision options
+          - lack of power :: locally concentrated power
+          - too much (concentrated, high density, unnecessary, unmanageable) power :: globally distributed power
       - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
       - apply system optimizations to all interface components 
         - example: 
