@@ -30,6 +30,13 @@
         - example: 
           - apply 'have multiple variance sources' to 'variance sources' for intent 'distribute power' of input variance across sources
         - filter optimizations by contradicting intents that are identifiable as useful for functions connecting problem/solution structures
+    - apply error types to interface component design/optimization
+      - applying error type solutions to functions
+        - 'avoiding dependencies'
+        - 'avoiding traps leading to dead-end static states where variance injections cant change the system'
+      - to avoid the associated error types:
+        - 'missing dependencies', 'cost of generating dependencies'
+        - 'lack of flexibility', 'lack of potential', 'lack of functionality'
 
   - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
     - create error types of ai using core combination generative function
@@ -61,7 +68,7 @@
                   - bc it cant reach outer positions quickly:
                     - it cant identify/handle external stressors quickly without building functionality to offset that error, like an alarm system to get info to the center faster
                     - it cant quickly generate new outer positions like it can generate new adjacent positionss
-
+                    
   - finish applying structures of concepts into algorithms
     - apply structure of time (state) into algorithms (network state algorithm)
     - apply structure of hypnosis (multi-interface alignment) to algorithm (hypnotized algorithm is static & cant learn, which is an error type)
@@ -77,7 +84,8 @@
     - organize list of structures required for system optimization & make diagram & generative insight path & query
       - concepts
         - anti-chaos structures (organization)
-        - multiple alternatives 
+        - lack of requirements (dependencies): an optimized system operates in a self-sustaining, self-improving way with as minimal requirements as possible with existing resources like functionality, and with decreasing requirements over time
+        - multiple alternatives
           - example: having multiple definitions of cost avoid errors like 'lack of flexibility due to over-prioritization of avoiding costs like pain' and instead be able to sustain one cost type to reduce another cost type, for a duration like 'as needed' or 'while advantageous'
         - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
         - other structures for optimizing systems
