@@ -17,8 +17,14 @@
           - mismatched format :: matching format
           - misaligned intents :: aligned intents
           - info dependency :: info generating function dependency
-          - unknown cause :: set of possible causes of varying directnesss
+          - unknown cause :: set of possible causes of varying directness
+          - state with inability to self-correct :: state with self-correcting function
+          - state with inability to interact :: state with core functions to build interaction function & function to change interaction level
       - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
+      - apply system optimizations to all interface components 
+        - example: 
+          - apply 'have multiple variance sources' to 'variance sources' for intent 'distribute power' of input variance across sources
+        - filter optimizations by contradicting intents that are identifiable as useful for functions connecting problem/solution structures
 
   - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
     - create error types of ai using core combination generative function
