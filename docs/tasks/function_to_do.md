@@ -20,6 +20,11 @@
           - unknown cause :: set of possible causes of varying directness
           - state with inability to self-correct :: state with self-correcting function
           - state with inability to interact :: state with core functions to build interaction function & function to change interaction level
+          - lack of chaos :: variance injection, variance source
+            - when a system has no errors, that means its either not finding new variation (unlikely if capable of doing so), not capable of finding variation, or is not learning
+              - inject errors to try to produce variation
+              - apply function to build functionality to find/generate variation
+              - apply errors/changes to learning functions to produce new learning functions
           - structure :: different structure
             - direction :: position
               - goals :: flexibility
@@ -68,7 +73,7 @@
                   - bc it cant reach outer positions quickly:
                     - it cant identify/handle external stressors quickly without building functionality to offset that error, like an alarm system to get info to the center faster
                     - it cant quickly generate new outer positions like it can generate new adjacent positionss
-                    
+
   - finish applying structures of concepts into algorithms
     - apply structure of time (state) into algorithms (network state algorithm)
     - apply structure of hypnosis (multi-interface alignment) to algorithm (hypnotized algorithm is static & cant learn, which is an error type)
