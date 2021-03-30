@@ -7,6 +7,9 @@
       - problem :: solution 
         - sub-optimal state :: more optimal state
         - state with errors :: state with fewer errors
+        - state with unused resources :: state with fewer unused resources (unnecessary dimensions)
+        - state with no possibility for change: state with possibility for change (randomness injection points, variance sources, dependencies)
+      - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
 
   - apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
     - create error types of ai using core combination generative function
