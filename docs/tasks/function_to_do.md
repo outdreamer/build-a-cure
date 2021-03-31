@@ -1,5 +1,75 @@
 # to do
 
+  - intent of metrics
+
+  - calculating interactivity by coordinating/adjacent/convertible structures
+
+  - example of finding/deriving insight paths for a basic calculation
+    
+    - problem: 'find energy units used for 6 minutes at speed 2, given energy usage of 5 energy units (per session of 5 minutes at speed 2 & 3 minutes at speed 1)'
+      
+      - identify variables
+        - energy units used
+        - speed
+        - minutes
+      
+      - identify variable structures
+        - variable combinations
+          - variable standards (x given y, x per y, x based on y)
+            - energy units per minute
+            - energy units per minute at a speed (of an exercise type)
+            - minutes at a speed (of an exercise type)
+        - speed acts like a type variable (exercise at speed 2 uses energy at a different rate) except when converting between types, when it acts like a numerical spectrum variable
+      
+      - identify standards/formats of problem input & solution output
+        - problem input format (energy units per x minutes at speed 2 and y minutes at speed 1)
+        - output solution format (energy units per 6 minutes at speed 2)
+
+      - which can be reduced to any of the standards:
+        - standard 1: minutes at a particular speed (number of minutes at an exercise type)
+        - standard 2: energy units used per minute at a particular speed (energy units per minute of an exercise type)
+
+      - apply methods to connect problem input & solution output:
+
+        - apply standardization methods
+
+          - standardization to equate problem input & solution output requires either:
+            - A. converting minutes at speed 1 to minutes at speed 2 or vice versa
+            - B. converting energy units used to a minute/speed unit or vice versa
+
+          - identify connecting functions of:
+
+            - 1. standardization method A
+              - find connecting function of speed 2 b & speed 1 a energy unit usage
+                  - connecting function:
+                    - energy usage of speed 2 b = x * energy usage of speed 1 a
+                    - b = xa
+                - if none found, use default numerical connecting function
+                  - connecting function:
+                    - energy usage of speed 2 b = 2 * energy usage of speed 1 a
+                    - b = 2a
+              
+            - 2. problem input & solution output
+              - find function connecting problem input & solution output after standardizing using connecting function of standardization method A
+                - apply standardization connecting function of method A
+                  - original function
+                    - 5 energy units = 5 units of type 2 exercise + 3 units of type 1 exercise
+                    - 5 energy units = 5 minutes * speed 2 + 3 minutes * speed 1
+                    - a = minute of type 1 exercise
+                    - b = minute of type 2 exercise
+                    - 5 energy units = 5b + 3a
+                  - apply standardization connecting function of energy usage of speed 2 & speed 1 (b = 2a)
+                    - 5 energy units = 5 * 2 * a + 3 * a = 13 * a 
+                    - 5 energy units = 13 units of exercise type 1 (speed 1)
+                    - a = 5/13 energy units
+                  - how many energy units does a unit of each exercise type use?
+                    - one unit of exercise type 1 (speed 1) uses 5/13 energy units
+                    - two units of exercise type 1 (speed 1) uses 10/13 energy units
+                    - one unit of exercise type 2 (speed 2) uses 10/13 energy units
+                - apply energy units/per unit of an exercise type to find energy units for 6 minutes of type b exercise
+                  - x energy units used = 6 minutes * speed 2
+                  - x = 6 units of exercise type 2 (speed 2) = 6 * 10/13 = 60/13 energy units
+
   - associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
     - what errors can be present in a solution that can still be considered successful
     - what errors are considered a problem or equal to the input problem when combined in a structure
