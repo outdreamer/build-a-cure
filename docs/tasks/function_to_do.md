@@ -104,14 +104,14 @@
                     - x energy units used = 6 minutes * speed 2
                     - x = 6 units of exercise type 2 (speed 2) = 6 * 10/13 = 60/13 energy units
 
-    - deriving insight paths used:
+    - deriving insight paths used by applying insight paths that are also solution automation workflows
 
-      - apply insight path 'change the problem to a more solvable problem' (which is also a solution automation workflow)
+      - apply insight path 'change the problem to a more solvable problem' (which is also a solution automation workflow) to generate the insight path:
         - standardize to variables that fulfill both categories first if possible:
           - identify proxy variables & equate those instead of original variables
           - identify variables that problem input & solution output formats have in common
 
-      - apply insight path 'connect formats using structures of interaction, such as fit, adjacence, & similarity'
+      - apply insight path 'connect formats using structures of efficiency & interaction (such as standards, commonness, fit, adjacence, & similarity)' (which is also a solution automation workflow if applied to problem/solution formats) to generate the insight path:
         - identify interim formats by applying standardizing operations to input/output formats
           - standardize to common unit
           - find function to convert common unit to solution output format unit
