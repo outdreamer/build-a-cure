@@ -100,9 +100,22 @@
                         - b = 10/13 energy units
                 
                 - III. find value of x
-                  - apply energy units/per unit of an exercise type to find energy units for 6 minutes of type b exercise
+                  - query: apply energy units/per unit of an exercise type to find energy units for 6 minutes of type b exercise
                     - x energy units used = 6 minutes * speed 2
                     - x = 6 units of exercise type 2 (speed 2) = 6 * 10/13 = 60/13 energy units
+
+    - deriving insight paths used:
+
+      - apply insight path 'change the problem to a more solvable problem' (which is also a solution automation workflow)
+        - standardize to variables that fulfill both categories first if possible:
+          - identify proxy variables & equate those instead of original variables
+          - identify variables that problem input & solution output formats have in common
+
+      - apply insight path 'connect formats using structures of interaction, such as fit, adjacence, & similarity'
+        - identify interim formats by applying standardizing operations to input/output formats
+          - standardize to common unit
+          - find function to convert common unit to solution output format unit
+          - apply conversion function to unsolved functions once standardized
 
   - associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
     - what errors can be present in a solution that can still be considered successful
