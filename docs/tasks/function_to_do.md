@@ -25,17 +25,31 @@
           - 5 energy units = 5 minutes at speed 2 & 3 minutes at speed 1
           - x energy units = 6 minutes at speed 2
 
-      - identify standards/formats of problem input & solution output
+      - identify standards/formats of problem input & solution output (these have equivalent formats so minimal conversions are required)
         - problem input format: 'energy units' (5 energy units per 5 minutes at speed 2 and 3 minutes at speed 1)
         - solution output format: 'energy units' (x energy units per 6 minutes at speed 2)
 
-      - which can be reduced to any of the standards:
-        - standard 1: minutes at a particular speed (number of minutes at an exercise type)
-        - standard 2: energy units used per minute at a particular speed (energy units per minute of an exercise type)
+      - the input/output formats (energy units) can be reduced to any of the standards:
+        - standard 1: minutes at a particular speed
+          - exercise type unit
+        - standard 2: energy units per minute at a particular speed
+          - energy units per exercise type unit
+
+      - identify interim formats connecting problem & solution formats (interface query)
+        - identify proxy variables of input/output format (energy usage): exercise type units
+        - identify variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b): exercise type units
+        - identify variables that are both proxy variables of input/output formats and variable in common for input/output
+          - identify steps to connect input variable value & output variable value
+            - identify steps to connect input exercise type units & output exercise type units
+              - standardize exercise types to one exercise type
+              - I. identify input/output format value (energy usage) associated with proxy variable (standardized exercise type unit, a)
+              - II. convert standardized input exercise type format value (a = 5/13 energy units) to the output exercise type format value (b = 5/13 energy units)
+              - III. apply output exercise type format value to unsolved solution output variable x (x = 6 * 10/13 energy units)
 
       - apply methods to connect problem input & solution output:
 
-        - apply standardization methods to solve for:
+        - apply standardization & connecting (equalizing) methods to solve for interim formats connecting problem & solution formats:
+
           I. energy units for 1 unit of exercise type 1 (the value of a)
           II. energy units for 1 unit of exercise type 2 (the value of b)
           III. x energy units of 6 units of exercise type 2
