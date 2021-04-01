@@ -1,8 +1,12 @@
 # to do
 
-  - intent of metrics
+  - finance: assess value of prior work by work that is still relatively valuable, incentivizing new work
+
+  - alternative intent coordination & compatability of metrics
 
   - calculating interactivity by coordinating/adjacent/convertible structures
+
+  - rather than learning (applying new info to update standard equalized or randomized structure), apply structural insight paths that frequently produce accurate task completion (in general like producing problem/solution format connection sequence, specifically like producing prediction function)
 
   - example of finding/deriving insight paths for a basic calculation
     
