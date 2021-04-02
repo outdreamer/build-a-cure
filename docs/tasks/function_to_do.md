@@ -16,12 +16,24 @@
         - the correct format is important to find, bc some formats will make the problem trivial to solve or solvable with existing methods
       - as another example, a prediction function can be formatted as a problem of:
         - finding causal network of variables
-        - filtering variables in data set by impact
+        - finding variable network connected with functions
+        - mapping variables to influencing & interaction power (to influence & interact with other variables)
+        - isolating & filtering variables in data set by impact
         - finding coefficients of variables in data set
         - standardizing data set to a subset of variables (like a vertex variable) so core/unit functions can be applied
         - inferring other variables not present in data set
         - allocating randomness to explain lack of predictive power of independent variables & changing prediction function state
-        - finding the data set's distortion from a central or standard data set having those variables
+        - finding the data set's distortion from a base/central/standard data set having those variables
+        - finding the probability of a prediction function given a data set (or vice versa)
+        - finding a line/cluster/point (or generalized structure) averaging the data set relationships
+        - finding concepts & other interface objects in the data set (concepts like 'power' relevant to predictive/influential potential)
+        - filtering data set by which data can be ignored (outliers, corrupt data, randomness, worst/best case, prior outdated data)
+        - finding a statistic representing target solution info
+          - does 'average' represent the relevant solution 'prediction function' that is best able to predict y across adjacent/derived/given data sets, or is there a better statistic, like:
+            - 'weighted average'
+            - 'subset average sequence'
+            - 'emerging average given state data'
+            - 'derived average given randomness injection'
 
   - math is a connecting interface of abstraction & structure bc it maps fundamental structures to abstractions
     - math describes info (stabilized structures) 
