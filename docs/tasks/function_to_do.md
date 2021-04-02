@@ -9,13 +9,23 @@
     - statistics like average examples within a type
 
   - give example of selecting problem/solution format
-    - example: 
+    - examples: 
       - every problem can be framed as 'reducing solution space', but some problems are more adjacent to this format than other problems, such as:
         - 'find the one item in the set that matches the filter value', which is more adjacent to 'reduction' operation because it involves a solution output format of a lower quantity than the original quantity, specifically a quantity of one, which implies that the original quantity is greater than one, given that this is framed as a problem that is not solved yet
-      - problems have many possible formats, so an initial problem to solve is 'reducing the solution space of possible formats to the one most adjacent format'
-      - the correct format is important to find, bc some formats will make the problem trivial to solve or solvable with existing methods
+        - problems have many possible formats, so an initial problem to solve is 'reducing the solution space of possible formats to the one most adjacent format'
+        - the correct format is important to find, bc some formats will make the problem trivial to solve or solvable with existing methods
+      - as another example, a prediction function can be formatted as a problem of:
+        - finding causal network of variables
+        - filtering variables in data set by impact
+        - finding coefficients of variables in data set
+        - standardizing data set to a subset of variables (like a vertex variable) so core/unit functions can be applied
+        - inferring other variables not present in data set
+        - allocating randomness to explain lack of predictive power of independent variables & changing prediction function state
+        - finding the data set's distortion from a central or standard data set having those variables
 
   - math is a connecting interface of abstraction & structure bc it maps fundamental structures to abstractions
+    - math describes info (stabilized structures) 
+    - what structures have stabilized in the math interface, so math can be applied to describe stabilized structures of math?
 
   - finance: assess value of prior work by work that is still relatively valuable, incentivizing new work
 
