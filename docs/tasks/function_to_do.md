@@ -15,10 +15,11 @@
         - problems have many possible formats, so an initial problem to solve is 'reducing the solution space of possible formats to the one most adjacent format'
         - the correct format is important to find, bc some formats will make the problem trivial to solve or solvable with existing methods
       - as another example, a prediction function can be formatted as a problem of:
-        - finding causal network of variables
-        - finding variable network connected with functions
+        - finding causal network of variables (root/direct cause in structures of inevitability, lack of cause in interchangeable alternates)
+        - finding variable network connected with functions (apply 'randomize' to root cause variable, then apply 'specialize', then apply 'standardize')
+        - finding variable structure network (boolean causing vertex variable causing spectrum variable)
         - mapping variables to influencing & interaction power (to influence & interact with other variables)
-        - isolating & filtering variables in data set by impact
+        - isolating & filtering variables in data set by impact/contribution, filtered by probability of coincidence (coincidental structural similarity between independent variables & actual causative variables, leading to secondary structural similarity in apparent relationship to dependent variable)
         - finding coefficients of variables in data set
         - standardizing data set to a subset of variables (like a vertex variable) so core/unit functions can be applied
         - inferring other variables not present in data set
