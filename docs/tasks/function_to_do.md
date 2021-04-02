@@ -1,5 +1,37 @@
 # to do
 
+  - risk 
+    - risk: adjacence to negative events (error types)
+
+      - risk structures: 
+        - cascading risk
+        - compounding risk
+        - interacting error types
+          - adjacence of an error type to another error type
+          - adjacence of input/output & other interaction formats enabling interaction
+
+    - solutions to risk:
+      - distributing errors or otherwise ensuring they cant interact
+      - making sure if an error occurs, its at a dead-end trajectory where its side effects dont impact the system
+
+    - when should errors be allowed to continue: when they dont impact system functionality, dont interact with other errors to form cascades/compounding errors, and provide useful signals of unhandled variance
+    - when should motion be allowed in the direction of risk (risk of error types): when uncertainties exist between alternatives
+    - abstract/conditional/temporary error definitions to allow for beneficial errors
+      - example: 
+        - 'two wrongs make a right'
+          - when a robot instructed to go in a direction is forced off its trajectory by the first error, it has to make another error to get back on track, if an error is defined as 'motion in any direction different from original planned direction'
+          - a solution is a definition of error types that is:
+            - abstract: any intentional motion that brings robot nearer to its goal is not an error
+            - conditional: any motion to correct an external error is not itself an error
+            - temporary: motion in a direction different from planned direction sequence is not an error in some temporary contexts
+  
+    - error type 'low-dimensionality' signals:
+      - when motion approaches the solution metric (avoiding the error classification of not equaling the solution metric value), but never reaches it
+        - example: 
+          - vertical dimension: robot fell onto another level vertically but is still moving toward destination as planned
+          - alternative agent/force dimension: robot fell onto truck and is moving toward planned destination temporarily
+          - time/speed dimension: robot encountered barrier preventing it from reaching its planned destination in under the planned time limit
+
   - self-explaining AI test: able to identify metadata that align with its decision path, like:
     - thresholds
     - alternatives (selected & unselected based on thresholds)
