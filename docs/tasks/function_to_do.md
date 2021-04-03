@@ -1,8 +1,8 @@
 # to do
 
   - risk 
-    - risk: adjacence to negative events (error types)
 
+    - risk: adjacence to negative events (error types)
       - risk structures: 
         - cascading risk
         - compounding risk
@@ -13,10 +13,14 @@
     - solutions to risk:
       - distributing errors or otherwise ensuring they cant interact
       - making sure if an error occurs, its at a dead-end trajectory where its side effects dont impact the system
+      - distributing info sources to gather info on imminent risks (robot that can distribute a set of sensors to pick up signals it otherwise couldnt, like behind opaque objects)
 
-    - when should errors be allowed to continue: when they dont impact system functionality, dont interact with other errors to form cascades/compounding errors, and provide useful signals of unhandled variance
-    - when should motion be allowed in the direction of risk (risk of error types): when uncertainties exist between alternatives
-    - abstract/conditional/temporary error definitions to allow for beneficial errors
+    - when should errors be allowed to continue: 
+      - when they dont impact system functionality, dont interact with other errors to form cascades/compounding errors, and provide useful signals of unhandled variance
+    - when should motion be allowed in the direction of risk (risk of error types): 
+      - when uncertainties exist between alternatives
+
+    - flexible abstract/conditional/temporary error definitions to allow for beneficial errors & error-correcting errors
       - example: 
         - 'two wrongs make a right'
           - when a robot instructed to go in a direction is forced off its trajectory by the first error, it has to make another error to get back on track, if an error is defined as 'motion in any direction different from original planned direction'
