@@ -157,6 +157,12 @@ def get_problem_metadata(problem_statement):
         'find solutions resolving differences', 
         'combine solutions'
       ],
+      'distance_logic': [
+        'find positions causing problems', # ['source position', 'target position']
+        'find functions to move from source to target',
+        'find order of functions to move from source to target',
+        'apply filters to function sequences between source & target'
+      ],
       'info_gap_logic': [
         'find info gaps causing problems', # ['info gap of connection between a & b', 'info gap of how to apply structures like 'combine' to standardize variables', 'info gap of solution output energy unit number']
         'find order of info gaps to fill', 
@@ -167,6 +173,13 @@ def get_problem_metadata(problem_statement):
         'find functions with power to invalidate limits', 
         'find order of limits to invalidate',
         'apply functions to invalidate limits in correct order'
+      ],
+      'barrier_logic': [
+        'find barriers causing problems', #['specialization', 'differences']
+        'find functions to resolve barriers', # ['abstract', 'tunnel', 'move', 'traverse']
+        'select function to resolve barriers',
+        'find types of functions to apply to barrier types for selected function', # ['abstract to compress', 'abstract to standardize']
+        'apply functions to resolve barriers'
       ]
     },
     'components': ['problem', 'subproblem', 'subsolution', 'solution'],
