@@ -21,7 +21,10 @@ def get_problem_metadata(problem_statement):
   interface_objects['functions'] = get_functions(problem_statement, interface_objects)
   interface_objects['variables'] = ['energy units', 'speed', 'minutes']
   interface_objects['functions'] = ['find', 'use', 'assume']
-  
+
+  # inherit available functions from codebase, and/or pull from queries of code data sources
+  interface_objects['available_functions'] = ['add', 'multiply', 'divide', 'subtract', 'combine', 'find', 'assume_input', 'identify', 'filter', 'differentiate', 'connect', 'apply', 'convert', 'standardize']
+
   # II. apply structure interface
   interface_objects = apply_interfaces(['structure'], problem=problem_statement, interface_objects)
   interface_objects['variable_structures'] = {
@@ -94,6 +97,7 @@ def get_problem_metadata(problem_statement):
     - then a function connecting the new value of problem input energy units & the original value of solution output units needs to be built
   '''
   interface_objects['connecting_structures'] = identify_structures_between_positions(problem_input_format, solution_output_format, interface_objects)
+  # this function answers the question 'given the interface_objects['available_functions'] and the input/output format, how can conversions be applied to connect them'
   interface_objects['connecting_structures'] = {
     'sub-problems': [
       'difference in problem input formats exercise type 1 & 2',
@@ -116,7 +120,7 @@ def get_problem_metadata(problem_statement):
       'function connecting x energy units of 6b and 5 energy units of 5b and 3a'
     ],
   }
-  
+
   # V. apply interim formats to connect problem input & solution output
   interface_objects['current_position'] = problem_statement
   for i, subproblem in enumerate(interface_objects['connecting_structures']['sub-problems']):
