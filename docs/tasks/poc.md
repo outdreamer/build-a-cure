@@ -143,7 +143,7 @@ def get_problem_metadata(problem_statement):
   workflow = {
     'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
     'insights': [
-      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, lack of functionality, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers)',
+      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, lack of functionality, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers, definitions)',
       'core problem structures include limit, barrier, info gap, difference, distance'
       'solutions can be formatted as the opposite of the problem structure',
       'core solution structures include functions like empower, reduce, fill, similarize, connect'
