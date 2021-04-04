@@ -1,5 +1,7 @@
 # to do
 
+  - finish poc & give other examples applying different workflows
+
   - risk 
 
     - risk: adjacence to negative events (error types)
