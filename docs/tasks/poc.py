@@ -2,10 +2,6 @@
 - example of finding/deriving insight paths for a basic calculation
 '''
 
-problem_statement = 'find energy units used for 6 minutes at speed 2, assuming energy usage of 5 energy units for session of 5 minutes at speed 2 & 3 minutes at speed 1'
-# the following would be reduced by a typical language compression function, removing unnecessary words & converting rare to common words without losing info
-# reduced_problem_statement = 'find energy units for 6 minutes at speed 2, assuming 5 energy units for 5 minutes at speed 2 & 3 minutes at speed 1'
-
 def get_problem_metadata(problem_statement):
   '''
     1. apply function interface
@@ -23,10 +19,10 @@ def apply_solution_automation_workflow(workflow_metadata):
 
     - apply_solution_automation_workflow calls the logic associated with workflow1, including the function implementing the 'workflow intents', like 'connect problem input & ssolution output':
       
-      - apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format']) 
+      - apply_structure('function.connecting', workflow_objects['standardized_problem_statement'], workflow_objects['solution_output_format']) 
 
           - answers the question:
-            - 'given input resources of interface_objects['interface_functions'] & the problem formatted as a difference between input/output format'
+            - 'given input resources of workflow_objects['interface_functions'] & the problem formatted as a difference between input/output format'
               - 'how can convesrsions be applied to connect input/output format'
               
           - executes logic:
@@ -104,60 +100,17 @@ def apply_solution_automation_workflow(workflow_metadata):
                     - x = 6 units of exercise type 2 (speed 2) = 6 * 10/13 = 60/13 energy units
 
   '''
-  apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
-
-
-def apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
-  interface_objects['current_position'] = problem_statement
-  for i, subproblem in enumerate(interface_objects['connecting_structures']['sub-problems']):
-    subsolution = interface_objects['connecting_structures']['sub-solutions'][i]
-    interim_format = interface_objects['connecting_structures']['interim_formats'][i]
-    interface_objects['current_position'] = apply_solution(subsolution, subproblem)
-    # check if new current position had a difference between problem/solution resolved (if it made progress toward the goal), by applying solution metric filters
-    progress = apply_solution_metric_filters(interim_format)
-    if not progress:
-      break
-  # interface_objects['current_position'] should now be the solution output format, where the original equation has been converted into a value for x
-
-def apply_interface('function', problem_statement):
-
-def standardize_problem_statement(problem_statement):
-  '''
-    - this function applies similarities & other optimizations useful for simplifying & standardizing the problem statement, like replacing rare terms with more common terms & removing unnecessary terms where possible
-      - applies variable structures in order to standardize the problem statement
-        - variable structures like important variables, isolated variable components, variables that can be combined, variables that are interchangeable, variables that are adjacent, as in n conversions away from other variables (like core/unit variables)
-      - can identify/apply that: 
-        - 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
-        - speed 1 & 2 are values of the important variable to relate for 'standardization' intent
-        - variables that are both proxy variables of input/output formats and variable in common for input/output
-          - proxy variables of input/output format (energy usage) include exercise type units
-          - variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b) include exercise type units
-        - can apply that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
-          - bc the variables of minutes & exercise type don't add info useful for finding energy units at a different number of minutes & a related/equal exercise type/speed, 
-            so its safe to compress/abstract them into one combined variable 'exercise type 1 unit' 
-            (rather than a variable structure of a 'variable given/applied to another variable' like 'minute of exercise type 1', or 'minute at speed 1')
-  '''
-  for vstandard in interface_objects['variable_structures']['variable_combinations']['variable_standards']:
-    # convert the problem according to a variable standard to achieve some useful intent for connection/equalization, like simplification
-    converted = convert_problem_statement(problem_statement, vstandard)
-    # apply some filter to select most useful variable standard
-    if interface_objects['solution_output_format'] in converted and len(converted) < len(problem_statement):
-      interface_objects['standardized_problem_statement']
-
-
-
-  interface_objects = {}
 
   # I. apply function interface
-  interface_objects = apply_interface('function', problem_statement)
-  interface_objects['variables'] = get_variables(problem_statement)
-  interface_objects['variables'] = ['energy units', 'speed', 'minutes']
+  workflow_objects = apply_interface('function', problem_statement)
+  workflow_objects['variables'] = get_variables(problem_statement)
+  workflow_objects['variables'] = ['energy units', 'speed', 'minutes']
 
-  interface_objects['functions'] = get_functions(problem_statement)
-  interface_objects['functions'] = ['find', 'use', 'assume']
+  workflow_objects['functions'] = get_functions(problem_statement)
+  workflow_objects['functions'] = ['find', 'use', 'assume']
 
   # inherit available functions from interface analysis function table in database, and/or pull dynamically from queries of code data sources, to use later when connecting interim formats
-  interface_objects['interface_functions'] = {
+  workflow_objects['interface_functions'] = {
     'math': ['add', 'subtract', 'multiply', 'divide'], 
     'structure': ['direct/pivot', 'combine', 'merge', 'break', 'reduce', 'convert', 'fill', 'fit', 'match', 'map', 'filter', 'identify', 'connect', 'subset'],
     'system': ['optimize', 'equalize', 'differentiate', 'assume = apply(condition/input)'],
@@ -166,8 +119,8 @@ def standardize_problem_statement(problem_statement):
   }
 
   # II. apply structure interface
-  interface_objects = apply_interface('structure', problem=problem_statement, interface_objects)
-  interface_objects['variable_structures'] = {
+  workflow_objects = apply_interface('structure', problem=problem_statement, workflow_objects)
+  workflow_objects['variable_structures'] = {
     'variable_combinations': {
       'variable_standards': [
         'energy units per minute', 
@@ -205,18 +158,18 @@ def standardize_problem_statement(problem_statement):
       ]
     },
     'required_variables': {
-      'equalizing_intent': interface_objects['variable_structures']['common_variables']
+      'equalizing_intent': workflow_objects['variable_structures']['common_variables']
     },
     'variable_components': ['unit', 'time', 'rate']
   }
   # variable_connecting_functions could include a given default function of 'energy units at speed 2 = 2 * energy units at speed 1' if the problem statement includes that, and will include it later when we apply a connecting insight path
-  interface_objects['variable_structures']['common_variables'].extend(interface_objects['variable_structures']['variable_combinations']['variable_standards'])
+  workflow_objects['variable_structures']['common_variables'].extend(workflow_objects['variable_structures']['variable_combinations']['variable_standards'])
   
   # III. apply info.problem interface
-  interface_objects = apply_interface('info.problem', problem=problem_statement)
-  interface_objects['problem_input_format'] = 'energy units'
+  workflow_objects = apply_interface('info.problem', problem=problem_statement)
+  workflow_objects['problem_input_format'] = 'energy units'
   # this problem type format is adjacent to the workflow we'll use, which breaks the statement into sub-problems
-  interface_objects['problem_types'] = {
+  workflow_objects['problem_types'] = {
     1: 'connect input/output values of same/related variables & format',
       2: 'identify & reduce differences (variables) causing problem',
         3: 'identify & reduce variables by standardizing',
@@ -225,23 +178,62 @@ def standardize_problem_statement(problem_statement):
             6: 'connect related variables by identifying components in common & conversion functions to connect common components & other components'
     7: 'connect standardized input/output values of same variables & format'
   } 
-  interface_objects['solution'] = ''
-  interface_objects['solution_output_format'] = 'x number of energy units for 6 units of exercise type 2'
-  interface_objects['solution_metric_filters'] = {
+  workflow_objects['solution'] = ''
+  workflow_objects['solution_output_format'] = 'x number of energy units for 6 units of exercise type 2'
+  workflow_objects['solution_metric_filters'] = {
     'formats': ['energy units'],
     'values': ['6 minutes', 'speed 2']
   }
-  interface_objects['standardized_problem_statement'] = standardize_problem_statement(problem_statement)
-  interface_objects['standardized_problem_statement'] = 'find energy units for 6 minutes at exercise type 2, assuming 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
-  interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions & apply solution filters to create solutions']
+  workflow_objects['standardized_problem_statement'] = standardize_problem_statement(problem_statement)
+  workflow_objects['standardized_problem_statement'] = 'find energy units for 6 minutes at exercise type 2, assuming 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
+  workflow_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions & apply solution filters to create solutions']
+  apply_structure('function.connecting', workflow_objects['standardized_problem_statement'], workflow_objects['solution_output_format'])
+  workflow_objects['functions']['workflow_intents']['connect']['output']['connecting_structures'] = {
+    'sub-problems': [
+      'difference in problem input formats exercise type 1 & 2',
+      'difference in problem input & solution output from exercise type unit (one minute of exercise type)',
+      'difference in energy units of problem input & solution output'
+    ],
+    'sub-solutions': [ # steps to resolve sub-optimal differences, or sub-problems
+      'convert problem input energy units at exercise type 1 to problem input energy units at exercise type 2',
+      'convert problem input energy units at exercise type to energy units of an exercise type unit (one minute of an exercise type)',
+      'convert problem input energy units at exercise type unit to solution output energy units of same exercise type unit'
+    ],
+    'interim_formats': [
+      'original_equation_in_terms_of_b': 'standardized_problem_statement formatted with exercise type 1 standardized to exercise type 2 (requiring fewer conversions than the opposite)', # (apply 'b = 2a')
+      'b_in_terms_of_a': 'standardized_problem_statement formatted with energy units per unit (minute) of exercise type 2 found', # (found value of a)
+      'x_in_terms_of_b': 'standardized_problem_statement formatted with energy units per unit (minute) of exercise type 2 applied to problem input & solution output' # (apply value of a to find solution output x)
+    ],
+    'interim_variables': [
+      'function connecting exercise type 1 unit (a) and exercise type 2 unit (b)',
+      'function connecting energy units and exercise type 1 unit (a)',
+      'function connecting x energy units of 6b and 5 energy units of 5b and 3a'
+    ],
+    'states': [] # states after each interim format is applied, progressing toward solution output
+  }
+  return workflow_objects
 
-  # IV. apply solution automation workflow
+def apply_structure('function.connecting', workflow_objects['standardized_problem_statement'], workflow_objects['solution_output_format']):
+  workflow_objects['current_position'] = problem_statement
+  for i, subproblem in enumerate(workflow_objects['connecting_structures']['sub-problems']):
+    subsolution = workflow_objects['connecting_structures']['sub-solutions'][i]
+    interim_format = workflow_objects['connecting_structures']['interim_formats'][i]
+    workflow_objects['current_position'] = apply_solution(subsolution, subproblem)
+    # check if new current position had a difference between problem/solution resolved (if it made progress toward the goal), by applying solution metric filters
+    progress = apply_solution_metric_filters(interim_format)
+    if not progress:
+      break
+  # workflow_objects['current_position'] should now be the solution output format, where the original equation has been converted into a value for x
+
+def apply_interface(interface_name, problem_statement):
+
+def find_relevant_workflow(problem_statement):
+
   ''' 
-  metadata for this workflow:
-  - the interface metadata (intents, functions, insights) can be derived from the definition or pulled from the database of 'insight' functions
-  - the logic can be generated by the definition & insights driving this workflow
+  - metadata for this workflow:
+    - the interface metadata (intents, functions, insights) can be derived from the definition or pulled from the database of 'insight' functions
+    - the logic can be generated by the definition & insights driving this workflow
   '''
-
   workflow1 = {
     'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
     'insights': [
@@ -302,7 +294,7 @@ def standardize_problem_statement(problem_statement):
     'intents': {
       'core_intents': ['break', 'find', 'merge', 'filter'],
       'workflow_intents': [
-        "connect(interface_objects['problem_input_format'], interface_objects['solution_output_format'])"
+        "connect(workflow_objects['problem_input_format'], workflow_objects['solution_output_format'])"
       ]
     },
     'functions': {
@@ -313,7 +305,7 @@ def standardize_problem_statement(problem_statement):
         'filter': 'filter(combined_subsolutions, solution_metric_filters, solution)', # adjust combinations of subsolutions until they match the solution output format, based on solution metric filters
       },
       'interim_intents': {
-        'convert': interface_objects['interface_functions'] # interim intents connect core & workflow intents
+        'convert': workflow_objects['interface_functions'] # interim intents connect core & workflow intents
       },
       'workflow_intents': {
         'connect': {
@@ -324,35 +316,49 @@ def standardize_problem_statement(problem_statement):
     }
   }
 
-  apply_solution_automation_workflow(workflow1)
+def standardize_problem_statement(problem_statement):
+  '''
+    - this function applies similarities & other optimizations useful for simplifying & standardizing the problem statement, like replacing rare terms with more common terms & removing unnecessary terms where possible
+      - applies variable structures in order to standardize the problem statement
+        - variable structures like important variables, isolated variable components, variables that can be combined, variables that are interchangeable, variables that are adjacent, as in n conversions away from other variables (like core/unit variables)
+      - can identify/apply that: 
+        - 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
+        - speed 1 & 2 are values of the important variable to relate for 'standardization' intent
+        - variables that are both proxy variables of input/output formats and variable in common for input/output
+          - proxy variables of input/output format (energy usage) include exercise type units
+          - variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b) include exercise type units
+        - can apply that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
+          - bc the variables of minutes & exercise type don't add info useful for finding energy units at a different number of minutes & a related/equal exercise type/speed, 
+            so its safe to compress/abstract them into one combined variable 'exercise type 1 unit' 
+            (rather than a variable structure of a 'variable given/applied to another variable' like 'minute of exercise type 1', or 'minute at speed 1')
+  '''
+  for vstandard in workflow_objects['variable_structures']['variable_combinations']['variable_standards']:
+    # convert the problem according to a variable standard to achieve some useful intent for connection/equalization, like simplification
+    converted = convert_problem_statement(problem_statement, vstandard)
+    # apply some filter to select most useful variable standard
+    if workflow_objects['solution_output_format'] in converted and len(converted) < len(problem_statement):
+      workflow_objects['standardized_problem_statement']
 
-  interface_objects['functions']['workflow_intents']['connect']['output']['connecting_structures'] = {
-    'sub-problems': [
-      'difference in problem input formats exercise type 1 & 2',
-      'difference in problem input & solution output from exercise type unit (one minute of exercise type)',
-      'difference in energy units of problem input & solution output'
-    ],
-    'sub-solutions': [ # steps to resolve sub-optimal differences, or sub-problems
-      'convert problem input energy units at exercise type 1 to problem input energy units at exercise type 2',
-      'convert problem input energy units at exercise type to energy units of an exercise type unit (one minute of an exercise type)',
-      'convert problem input energy units at exercise type unit to solution output energy units of same exercise type unit'
-    ],
-    'interim_formats': [
-      'original_equation_in_terms_of_b': 'standardized_problem_statement formatted with exercise type 1 standardized to exercise type 2 (requiring fewer conversions than the opposite)', (apply 'b = 2a')
-      'b_in_terms_of_a': 'standardized_problem_statement formatted with energy units per unit (minute) of exercise type 2 found', (found value of a)
-      'x_in_terms_of_b': 'standardized_problem_statement formatted with energy units per unit (minute) of exercise type 2 applied to problem input & solution output' (apply value of a to find solution output x)
-    ],
-    'interim_variables': [
-      'function connecting exercise type 1 unit (a) and exercise type 2 unit (b)',
-      'function connecting energy units and exercise type 1 unit (a)',
-      'function connecting x energy units of 6b and 5 energy units of 5b and 3a'
-    ],
-    'states': [] # states after each interim format is applied, progressing toward solution output
-  }
+def apply_in_parallel(workflows):
+  # apply_in_parallel executes workflows across threads if there are more than one
+  for workflow in workflows:
+    workflow_objects = apply_solution_automation_workflow(workflow)
+    if workflow_objects:
+      interface_objects['workflows'['workflow1'] = workflow_objects
 
+def solve(problem_statement):
+  # select & apply solution automation workflow
+  workflows = find_relevant_workflow(problem_statement)
+  if workflows:
+    apply_in_parallel(workflows)
+
+interface_objects = {'workflows': {}}
+problem_statement = 'find energy units used for 6 minutes at speed 2, assuming energy usage of 5 energy units for session of 5 minutes at speed 2 & 3 minutes at speed 1'
+# the following would be reduced by a typical language compression function, removing unnecessary words & converting rare to common words without losing info
+# reduced_problem_statement = 'find energy units for 6 minutes at speed 2, assuming 5 energy units for 5 minutes at speed 2 & 3 minutes at speed 1'
+solve(problem_statement)
 
 '''
-
   - apply other insight path structures (before/after/with/in general call to apply_structure('function.connecting')) to generate other workflows
     - derive insight paths used by applying insight paths that are also solution automation workflows & check that they can also solve the problem
 
