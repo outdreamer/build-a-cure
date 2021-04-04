@@ -2,21 +2,26 @@
 - example of finding/deriving insight paths for a basic calculation
 '''
 
-problem_statement = 'find energy units used for 6 minutes at speed 2, assuming energy usage of 5 energy units for 5 minutes at speed 2 & 3 minutes at speed 1'
+problem_statement = 'find energy units used for 6 minutes at speed 2, assuming energy usage of 5 energy units for session of 5 minutes at speed 2 & 3 minutes at speed 1'
+# the following would be reduced by a typical language compression function, removing unnecessary words & converting rare to common words without losing info
+# reduced_problem_statement = 'find energy units for 6 minutes at speed 2, assuming 5 energy units for 5 minutes at speed 2 & 3 minutes at speed 1'
 
 def get_problem_metadata(problem_statement):
   '''
     1. apply function interface
       - get variables
+    2. apply structure interface
       - get variable structures
-    2. apply information (problem/solution interface)
-    3. apply standardization
+    3. apply information (problem/solution) interface
+      - get problem metadata like input/output format
+    4. apply logic from solution automation workflow
+      - create function connecting input/output format
 
   '''
   interface_objects = {}
 
   # I. apply function interface
-  interface_objects = apply_interfaces(['function'], problem_statement, interface_objects)
+  interface_objects = apply_interface('function', problem_statement, interface_objects)
   interface_objects['variables'] = get_variables(problem_statement, interface_objects)
   interface_objects['variables'] = ['energy units', 'speed', 'minutes']
 
@@ -27,12 +32,12 @@ def get_problem_metadata(problem_statement):
   interface_objects['interface_functions'] = {
     'math': ['add', 'subtract', 'multiply', 'divide'], 
     'structure': ['combine', 'merge', 'break', 'reduce', 'fill', 'fit', 'match', 'map', 'filter', 'connect', 'subset'],
-    'system': ['optimize', 'equalize', 'differentiate', 'convert', 'standardize', 'assume', 'identify'],
+    'system': ['optimize', 'equalize', 'differentiate', 'convert', 'standardize', 'assume = apply(condition/input)', 'identify'],
     'core': ['find', 'build', 'derive', 'apply']
   }
 
   # II. apply structure interface
-  interface_objects = apply_interfaces(['structure'], problem=problem_statement, interface_objects)
+  interface_objects = apply_interface('structure', problem=problem_statement, interface_objects)
   interface_objects['variable_structures'] = {
     'variable_combinations': {
       'variable_standards': [
@@ -50,6 +55,7 @@ def get_problem_metadata(problem_statement):
         'speed acts like a type variable (exercise at speed 2 uses energy at a different rate) except when converting between types, when it acts like a numerical spectrum variable'
       ],
     },
+    'unknown_variables': ['energy units for 6 minutes at speed 2'],
     'adjacent_variables': [
       'unit': ['time unit (minute)', 'exercise unit', 'energy unit', 'exercise type unit']
       'type': ['exercise type', 'exercise type unit']
@@ -74,25 +80,32 @@ def get_problem_metadata(problem_statement):
     },
     'variable_components': ['unit', 'time', 'rate']
   }
-  # variable_connecting_functions could include a given default function of 'energy units used at speed 2 = 2 * energy units used at speed 1' if the problem statement includes that, and will include it later when we apply a connecting insight path
+  # variable_connecting_functions could include a given default function of 'energy units at speed 2 = 2 * energy units at speed 1' if the problem statement includes that, and will include it later when we apply a connecting insight path
   interface_objects['variable_structures']['common_variables'].extend(interface_objects['variable_structures']['variable_combinations']['variable_standards'])
   
   # III. apply info.problem interface
-  interface_objects = apply_interfaces(['problem'], problem=problem_statement, interface_objects)
-  interface_objects['problem_input_format'] = 'energy units used'
+  interface_objects = apply_interface('info.problem', problem=problem_statement)
+  interface_objects['problem_input_format'] = 'energy units'
+  # this problem type format is adjacent to the workflow we'll use, which breaks the statement into sub-problems
   interface_objects['problem_types'] = {
-    1: 'connect different input/output values of same or related variables and same format',
-    2: 'standardize to as few variables as possible',
-    3: 'identify common standards to input & output formats',
-    4: 'identify connecting function between related variables to standardize to as few variables as possible',
-    5: 'connect standardized different input/output values of same variables and same format'
+    1: 'connect input/output values of same/related variables and same format',
+      2: 'identify & reduce differences (variables) causing problem',
+        3: 'identify & reduce variables & standardize',
+          4: 'identify common useful standard in input & output formats & standardize',
+          5: 'connect related variables to reduce variables & standardize',
+    6: 'connect standardized input/output values of same variables and same format'
+  } 
+  interface_objects['solution'] = 'energy units for 6 minutes at speed 2'
+  interface_objects['solution_output_format'] = 'energy units for 6 minutes at speed 2'
+  interface_objects['solution_metric_filters'] = {
+    'formats': ['energy units'],
+    'values': ['6 minutes', 'speed 2']
   }
-  interface_objects['solution'] = 'energy units used for 6 minutes at speed 2'
-  interface_objects['solution_output_format'] = 'energy units used for 6 minutes at speed 2'
-  interface_objects['standardized_problem_statement'] = standardize_problem_statement(problem_statement, interface_objects)
+  interface_objects['standardized_problem_statement'] = standardize_problem_statement(problem_statement)
 
   '''
-  def standardize_problem_statement(problem_statement, interface_objects):
+  def standardize_problem_statement(problem_statement):
+    '''
     - this function applies similarities & other optimizations useful for simplifying & standardizing the problem statement, like replacing rare terms with more common terms & removing unnecessary terms where possible
       - applies important variables, isolated variable components, variables that can be combined, variables that are interchangeable, variables that are adjacent, as in n conversions away from other variables (like core/unit variables) in order to standardize the problem statement
     - can apply that 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
@@ -102,43 +115,59 @@ def get_problem_metadata(problem_statement):
     - can apply variables that are both proxy variables of input/output formats and variable in common for input/output
     - can apply that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
       - bc the variables of minutes & exercise type don't add information that is useful for finding energy units at a different number of minutes & a related/equal exercise type/speed, so its safe to compress/abstract them into one combined variable 'exercise type 1 unit' (rather than a variable structure of a 'variable given/applied to another variable' like 'minute of exercise type 1', or 'minute at speed 1')
-
-  for vstandard in interface_objects['variable_structures']['variable_combinations']['variable_standards']:
-    # convert the problem according to a variable standard to achieve some useful intent for connection/equalization, like simplification
-    converted = convert_problem_statement(problem_statement, vstandard)
-    # apply some filter to select most useful variable standard
-    if interface_objects['solution_output_format'] in converted and len(converted) < len(problem_statement):
-      interface_objects['standardized_problem_statement']
+    '''
+    for vstandard in interface_objects['variable_structures']['variable_combinations']['variable_standards']:
+      # convert the problem according to a variable standard to achieve some useful intent for connection/equalization, like simplification
+      converted = convert_problem_statement(problem_statement, vstandard)
+      # apply some filter to select most useful variable standard
+      if interface_objects['solution_output_format'] in converted and len(converted) < len(problem_statement):
+        interface_objects['standardized_problem_statement']
   '''
 
-  interface_objects['standardized_problem_statement'] = 'find energy units used for 6 minutes at exercise type 2, assuming energy usage of 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
+  interface_objects['standardized_problem_statement'] = 'find energy units for 6 minutes at exercise type 2, assuming 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
 
-  # IV. apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'], interface_objects)
+  # IV. apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
+  ''' to connect solution output & problem input, build functions to resolve sub-differences by connecting:
+      1. exercise type 1 & 2
+      2. apply connecting function 1 to standardize to units of the same exercise type
+      3. new value of problem input energy units after standardizing to units of an exercise type & the original value of solution output units
   '''
-  to connect solution output energy units and problem input energy units, 
-    - a function connecting exercise type 1 & 2 needs to be built
-    - then a function connecting the new value of problem input energy units & the original value of solution output units needs to be built
-  '''
-  # this function answers the question 'given the interface_objects['available_functions'] and the input/output format, how can conversions be applied to connect them'
-  interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions']
+  # this function answers the question: 'given the interface_objects['interface_functions'] and the input/output format, how can conversions be applied to connect them'
+  interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions & apply solution filters to create solutions']
   interface_objects['connecting_structures'] = apply_solution_automation_workflow(interface_objects['workflows'])
 
   ''' metadata for this workflow
   workflow = {
     'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
+    'insights': [
+      'differences between origin/target cause the problem',
+      'if differences between origin/target cause the problem, the solution is a standard applied to input/output (creating a similarity), so the created similarity can be used to connect them'
+    ],  
     'logic': [
       'find differences causing problems ('difference between original & target position' being a core problem structure)', 
       'find solutions resolving differences', 
       'combine solutions'
     ],
-    'core_intents': ['break', 'find', 'merge'],
-    'intents': [
-      'connect(interface_objects['problem_input_format'], interface_objects['solution_output_format'])
-    ],
+    'components': ['problem', 'subproblem', 'subsolution', 'solution'],
+    'intents': {
+      'core_intents': ['break', 'find', 'merge', 'filter'],
+      'workflow_intents': [
+        'connect(interface_objects['problem_input_format'], interface_objects['solution_output_format'])
+      ]
+    },
     'functions': {
-      'break': 'isolate(differences_causing_problem)', # isolate the differences between origin & target states causing the original problem
-      'find': 'fit(problem_difference, solution_conversion)', # fit/match the problem's causative difference with a solution converting that difference into a non-problematic structure
-      'merge': 'connect(problem, solution)' # apply structures to create a connecting function between input & output to fulfill the 'merge' intent of the solution automation workflow)'
+      'core_intents': {
+        'break': 'isolate(differences_causing_problem)', # isolate the differences between origin & target states causing the original problem
+        'find': 'fit(problem_difference, solution_conversion)', # fit/match the problem's causative difference with a solution converting that difference into a non-problematic structure
+        'merge': 'combine(subsolutions, solution)', # find a combination function that allows combination of subsolutions into the solution,
+        'filter': 'filter(combined_subsolutions, solution_metric_filters, solution)', # adjust combinations of subsolutions until they match the solution output format, based on solution metric filters
+      },
+      'interim_intents': {
+        'convert': interface_objects['interface_functions'] # interim intents connect core & workflow intents
+      },
+      'workflow_intents': {
+        'connect': 'connect(problem, solution)' # apply structures to create a connecting function between input & output to fulfill the 'merge' intent of the solution automation workflow)'
+      }
     }
   }
   '''
@@ -172,7 +201,7 @@ def get_problem_metadata(problem_statement):
     subsolution = interface_objects['connecting_structures']['sub-solutions'][i]
     interim_format = interface_objects['connecting_structures']['interim_formats'][i]
     interface_objects['current_position'] = apply_solution(subsolution, subproblem)
-    # check if new current position made progress toward goal
+    # check if new current position made progress toward goal, applying solution metric filters
     progress = check_progress(interim_format, interface_objects)
     if not progress:
       break
