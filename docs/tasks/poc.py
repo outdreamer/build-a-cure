@@ -14,211 +14,14 @@ def get_problem_metadata(problem_statement):
       - get variable structures
     3. apply information (problem/solution) interface
       - get problem metadata like input/output format
-    4. apply logic from solution automation workflow
+  '''
+
+def apply_solution_automation_workflow(workflow_metadata):
+  '''
+    - applies logic from solution automation workflow workflow1
       - create function connecting input/output format
 
-  '''
-  interface_objects = {}
-
-  # I. apply function interface
-  interface_objects = apply_interface('function', problem_statement, interface_objects)
-  interface_objects['variables'] = get_variables(problem_statement, interface_objects)
-  interface_objects['variables'] = ['energy units', 'speed', 'minutes']
-
-  interface_objects['functions'] = get_functions(problem_statement, interface_objects)
-  interface_objects['functions'] = ['find', 'use', 'assume']
-
-  # inherit available functions from interface analysis function table in database, and/or pull dynamically from queries of code data sources, to use later when connecting interim formats
-  interface_objects['interface_functions'] = {
-    'math': ['add', 'subtract', 'multiply', 'divide'], 
-    'structure': ['direct/pivot', 'combine', 'merge', 'break', 'reduce', 'convert', 'fill', 'fit', 'match', 'map', 'filter', 'identify', 'connect', 'subset'],
-    'system': ['optimize', 'equalize', 'differentiate', 'assume = apply(condition/input)'],
-    'core': ['find', 'build', 'derive', 'apply'],
-    'interface': ['change', 'depend (cause)', 'prioritize (intent)', 'structure', 'communicate (info)', 'abstract', 'systematize', 'possibilize/empower (potential)', 'standardize (core)', 'typify', 'functionalize', 'objectify', 'describe (metadata/attributes)', 'define (certainty)', 'randomize (uncertainty)', 'connect/organize (interface)']
-  }
-
-  # II. apply structure interface
-  interface_objects = apply_interface('structure', problem=problem_statement, interface_objects)
-  interface_objects['variable_structures'] = {
-    'variable_combinations': {
-      'variable_standards': [
-        'energy units per minute', 
-        'energy units per minute at a speed', 
-        'energy units per minute of an exercise type', 
-        'minutes at a speed', 
-        'minutes of an exercise type'
-      ],
-      'variable_connecting_functions': [
-        '5 energy units = 5 minutes at speed 2 & 3 minutes at speed 1',
-        'x energy units = 6 minutes at speed 2'
-      ],
-      'variable_functions': [
-        'speed acts like a type variable (exercise at speed 2 uses energy at a different rate) except when converting between types, when it acts like a numerical spectrum variable'
-      ],
-    },
-    'unknown_variables': ['energy units for 6 minutes at speed 2'],
-    'adjacent_variables': [
-      'unit': ['time unit (minute)', 'exercise unit', 'energy unit', 'exercise type unit']
-      'type': ['exercise type', 'exercise type unit']
-    ],
-    'similar_variables': {
-      'interchangeable_variables': {},
-      'proxy_variables': {
-        'exercise type unit': 'time unit (minute) of exercise at a speed'
-      },
-    },
-    'common_variables': {
-      'input_output': [
-        'energy unit',
-        'minutes',
-        'speed',
-        'exercise type', 
-        'exercise type unit'
-      ]
-    },
-    'required_variables': {
-      'equalizing_intent': interface_objects['variable_structures']['common_variables']
-    },
-    'variable_components': ['unit', 'time', 'rate']
-  }
-  # variable_connecting_functions could include a given default function of 'energy units at speed 2 = 2 * energy units at speed 1' if the problem statement includes that, and will include it later when we apply a connecting insight path
-  interface_objects['variable_structures']['common_variables'].extend(interface_objects['variable_structures']['variable_combinations']['variable_standards'])
-  
-  # III. apply info.problem interface
-  interface_objects = apply_interface('info.problem', problem=problem_statement)
-  interface_objects['problem_input_format'] = 'energy units'
-  # this problem type format is adjacent to the workflow we'll use, which breaks the statement into sub-problems
-  interface_objects['problem_types'] = {
-    1: 'connect input/output values of same/related variables & format',
-      2: 'identify & reduce differences (variables) causing problem',
-        3: 'identify & reduce variables by standardizing',
-          4: 'identify common useful standard in input & output formats & standardize to that standard',
-          5: 'connect related variables to reduce variables by standardizing',
-            6: 'connect related variables by identifying components in common & conversion functions to connect common components & other components'
-    7: 'connect standardized input/output values of same variables & format'
-  } 
-  interface_objects['solution'] = ''
-  interface_objects['solution_output_format'] = 'x number of energy units for 6 units of exercise type 2'
-  interface_objects['solution_metric_filters'] = {
-    'formats': ['energy units'],
-    'values': ['6 minutes', 'speed 2']
-  }
-  interface_objects['standardized_problem_statement'] = standardize_problem_statement(problem_statement)
-  interface_objects['standardized_problem_statement'] = 'find energy units for 6 minutes at exercise type 2, assuming 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
-
-  def standardize_problem_statement(problem_statement):
-    '''
-    - this function applies similarities & other optimizations useful for simplifying & standardizing the problem statement, like replacing rare terms with more common terms & removing unnecessary terms where possible
-      - applies variable structures in order to standardize the problem statement
-        - variable structures like important variables, isolated variable components, variables that can be combined, variables that are interchangeable, variables that are adjacent, as in n conversions away from other variables (like core/unit variables)
-      - can identify/apply that: 
-        - 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
-        - speed 1 & 2 are values of the important variable to relate for 'standardization' intent
-        - variables that are both proxy variables of input/output formats and variable in common for input/output
-          - proxy variables of input/output format (energy usage) include exercise type units
-          - variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b) include exercise type units
-        - can apply that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
-          - bc the variables of minutes & exercise type don't add info useful for finding energy units at a different number of minutes & a related/equal exercise type/speed, 
-            so its safe to compress/abstract them into one combined variable 'exercise type 1 unit' 
-            (rather than a variable structure of a 'variable given/applied to another variable' like 'minute of exercise type 1', or 'minute at speed 1')
-    '''
-    for vstandard in interface_objects['variable_structures']['variable_combinations']['variable_standards']:
-      # convert the problem according to a variable standard to achieve some useful intent for connection/equalization, like simplification
-      converted = convert_problem_statement(problem_statement, vstandard)
-      # apply some filter to select most useful variable standard
-      if interface_objects['solution_output_format'] in converted and len(converted) < len(problem_statement):
-        interface_objects['standardized_problem_statement']
-
-  interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions & apply solution filters to create solutions']
-
-  ''' 
-  metadata for this workflow:
-  - the interface metadata (intents, functions, insights) can be derived from the definition or pulled from the database of 'insight' functions
-  - the logic can be generated by the definition & insights driving this workflow
-
-  workflow = {
-    'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
-    'insights': [
-      'problems are a sub-optimal state by some metric',
-      'structures of sub-optimality require a change of some type to create optimal structures',
-      'the change can be in many formats, like adding a function or reducing a difference, based on the original/adjacent/possible problem/solution formats & how those can be connected',
-      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, lack of functionality, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers, definitions)',
-      'core problem structures include limit, barrier, info gap, difference, distance'
-      'solutions can be formatted as the opposite of the problem structure',
-      'core solution structures include functions like empower, reduce, fill, similarize, connect'
-      'problems can be formatted by applying any core problem structures',
-      'when formatted using the difference core problem structure, differences between origin/target cause the problem',
-      'if differences between origin/target cause the problem, the solution is a standard applied to input/output (creating a similarity), so the created similarity can be used to connect them'
-    ],  
-    'logic': {
-      'difference_logic': [
-        'find differences causing problems', # ['difference between original & target position' = 'core problem structure'], 
-        'find solutions resolving differences', 
-        'combine solutions'
-      ],
-      'function_logic': [
-        'find functionality (or lack of) causing problems', # ['lack of conversion function', 'lack of standardization function', 'lack of equalizing function']
-        'find functions that can build that functionality', ['replace', 'subset', 'multiply', 'check']
-        'apply functions to build that functionality',
-        'apply built functions to resolve problem'
-      ],
-      'definition_logic': [
-        'find definitions causing problems', # ['definition of difference between problem & solution', 'definition of problem', 'definition of solution']
-        'find alternate definitions that dont cause problems, or find definition metadata that doesnt cause problems & derive definition', # 'solution': 'difference in value & format compared to problem value & format'
-        'apply found/derived alternate definitions that dont cause definition problems'
-      ],
-      'distance_logic': [
-        'find positions causing problems', # ['source position', 'target position']
-        'find functions to move from source to target',
-        'find order of functions to move from source to target',
-        'apply filters to function sequences between source & target'
-      ],
-      'info_gap_logic': [
-        'find info gaps causing problems', # ['info gap of connection between a & b', 'info gap of how to apply structures like 'combine' to standardize variables', 'info gap of solution output energy unit number'] and other applications of build/derive/find/filter/identify/select functions
-        'find order of info gaps to fill', 
-        'find/generate/derive info to fill info gaps in correct order'
-      ],
-      'limit_logic': [
-        'find limits causing problems', # ['limit of variables to capture info', 'limit of variables to be converted into each other', 'limit of variable structures to be equated']
-        'find functions with power to invalidate limits', 
-        'find order of limits to invalidate',
-        'apply functions to invalidate limits in correct order'
-      ],
-      'barrier_logic': [
-        'find barriers causing problems', #['specialization', 'differences']
-        'find functions to resolve barriers', # ['abstract', 'tunnel', 'move', 'traverse']
-        'select function to resolve barriers',
-        'find types of functions to apply to barrier types for selected function', # ['abstract to compress', 'abstract to standardize']
-        'apply functions to resolve barriers'
-      ]
-    },
-    'components': ['problem', 'subproblem', 'subsolution', 'solution'],
-    'intents': {
-      'core_intents': ['break', 'find', 'merge', 'filter'],
-      'workflow_intents': [
-        'connect(interface_objects['problem_input_format'], interface_objects['solution_output_format'])
-      ]
-    },
-    'functions': {
-      'core_intents': {
-        'break': 'isolate(differences_causing_problem)', # isolate the differences between origin & target states causing the original problem
-        'find': 'fit(problem_difference, solution_conversion)', # fit/match the problem's causative difference with a solution converting that difference into a non-problematic structure
-        'merge': 'combine(subsolutions, solution)', # find a combination function that allows combination of subsolutions into the solution,
-        'filter': 'filter(combined_subsolutions, solution_metric_filters, solution)', # adjust combinations of subsolutions until they match the solution output format, based on solution metric filters
-      },
-      'interim_intents': {
-        'convert': interface_objects['interface_functions'] # interim intents connect core & workflow intents
-      },
-      'workflow_intents': {
-        'connect': 'connect(problem, solution)' # apply structures to create a connecting function between input & output to fulfill the 'merge' intent of the solution automation workflow)'
-      }
-    }
-  }
-  '''
-
-  apply_solution_automation_workflow(interface_objects['workflows'])
-  ''' 
-    - apply_solution_automation_workflow calls the logic associated with this workflow, including the function implementing workflow intents like:
+    - apply_solution_automation_workflow calls the logic associated with workflow1, including the function implementing the 'workflow intents', like 'connect problem input & ssolution output':
       
       - apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format']) 
 
@@ -301,19 +104,228 @@ def get_problem_metadata(problem_statement):
                     - x = 6 units of exercise type 2 (speed 2) = 6 * 10/13 = 60/13 energy units
 
   '''
-  def apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
-    interface_objects['current_position'] = problem_statement
-    for i, subproblem in enumerate(interface_objects['connecting_structures']['sub-problems']):
-      subsolution = interface_objects['connecting_structures']['sub-solutions'][i]
-      interim_format = interface_objects['connecting_structures']['interim_formats'][i]
-      interface_objects['current_position'] = apply_solution(subsolution, subproblem)
-      # check if new current position had a difference between problem/solution resolved (if it made progress toward the goal), by applying solution metric filters
-      progress = apply_solution_metric_filters(interim_format)
-      if not progress:
-        break
-    # interface_objects['current_position'] should now be the solution output format, where the original equation has been converted into a value for x
-  interface_objects['connecting_structures'] = apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
-  interface_objects['connecting_structures'] = {
+  apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
+
+
+def apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'])
+  interface_objects['current_position'] = problem_statement
+  for i, subproblem in enumerate(interface_objects['connecting_structures']['sub-problems']):
+    subsolution = interface_objects['connecting_structures']['sub-solutions'][i]
+    interim_format = interface_objects['connecting_structures']['interim_formats'][i]
+    interface_objects['current_position'] = apply_solution(subsolution, subproblem)
+    # check if new current position had a difference between problem/solution resolved (if it made progress toward the goal), by applying solution metric filters
+    progress = apply_solution_metric_filters(interim_format)
+    if not progress:
+      break
+  # interface_objects['current_position'] should now be the solution output format, where the original equation has been converted into a value for x
+
+def apply_interface('function', problem_statement):
+
+def standardize_problem_statement(problem_statement):
+  '''
+    - this function applies similarities & other optimizations useful for simplifying & standardizing the problem statement, like replacing rare terms with more common terms & removing unnecessary terms where possible
+      - applies variable structures in order to standardize the problem statement
+        - variable structures like important variables, isolated variable components, variables that can be combined, variables that are interchangeable, variables that are adjacent, as in n conversions away from other variables (like core/unit variables)
+      - can identify/apply that: 
+        - 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
+        - speed 1 & 2 are values of the important variable to relate for 'standardization' intent
+        - variables that are both proxy variables of input/output formats and variable in common for input/output
+          - proxy variables of input/output format (energy usage) include exercise type units
+          - variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b) include exercise type units
+        - can apply that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
+          - bc the variables of minutes & exercise type don't add info useful for finding energy units at a different number of minutes & a related/equal exercise type/speed, 
+            so its safe to compress/abstract them into one combined variable 'exercise type 1 unit' 
+            (rather than a variable structure of a 'variable given/applied to another variable' like 'minute of exercise type 1', or 'minute at speed 1')
+  '''
+  for vstandard in interface_objects['variable_structures']['variable_combinations']['variable_standards']:
+    # convert the problem according to a variable standard to achieve some useful intent for connection/equalization, like simplification
+    converted = convert_problem_statement(problem_statement, vstandard)
+    # apply some filter to select most useful variable standard
+    if interface_objects['solution_output_format'] in converted and len(converted) < len(problem_statement):
+      interface_objects['standardized_problem_statement']
+
+
+
+  interface_objects = {}
+
+  # I. apply function interface
+  interface_objects = apply_interface('function', problem_statement)
+  interface_objects['variables'] = get_variables(problem_statement)
+  interface_objects['variables'] = ['energy units', 'speed', 'minutes']
+
+  interface_objects['functions'] = get_functions(problem_statement)
+  interface_objects['functions'] = ['find', 'use', 'assume']
+
+  # inherit available functions from interface analysis function table in database, and/or pull dynamically from queries of code data sources, to use later when connecting interim formats
+  interface_objects['interface_functions'] = {
+    'math': ['add', 'subtract', 'multiply', 'divide'], 
+    'structure': ['direct/pivot', 'combine', 'merge', 'break', 'reduce', 'convert', 'fill', 'fit', 'match', 'map', 'filter', 'identify', 'connect', 'subset'],
+    'system': ['optimize', 'equalize', 'differentiate', 'assume = apply(condition/input)'],
+    'core': ['find', 'build', 'derive', 'apply'],
+    'interface': ['change', 'depend (cause)', 'prioritize (intent)', 'structure', 'communicate (info)', 'abstract', 'systematize', 'possibilize/empower (potential)', 'standardize (core)', 'typify', 'functionalize', 'objectify', 'describe (metadata/attributes)', 'define (certainty)', 'randomize (uncertainty)', 'connect/organize (interface)']
+  }
+
+  # II. apply structure interface
+  interface_objects = apply_interface('structure', problem=problem_statement, interface_objects)
+  interface_objects['variable_structures'] = {
+    'variable_combinations': {
+      'variable_standards': [
+        'energy units per minute', 
+        'energy units per minute at a speed', 
+        'energy units per minute of an exercise type', 
+        'minutes at a speed', 
+        'minutes of an exercise type'
+      ],
+      'variable_connecting_functions': [
+        '5 energy units = 5 minutes at speed 2 & 3 minutes at speed 1',
+        'x energy units = 6 minutes at speed 2'
+      ],
+      'variable_functions': [
+        'speed acts like a type variable (exercise at speed 2 uses energy at a different rate) except when converting between types, when it acts like a numerical spectrum variable'
+      ],
+    },
+    'unknown_variables': ['energy units for 6 minutes at speed 2'],
+    'adjacent_variables': [
+      'unit': ['time unit (minute)', 'exercise unit', 'energy unit', 'exercise type unit']
+      'type': ['exercise type', 'exercise type unit']
+    ],
+    'similar_variables': {
+      'interchangeable_variables': {},
+      'proxy_variables': {
+        'exercise type unit': 'time unit (minute) of exercise at a speed'
+      },
+    },
+    'common_variables': {
+      'input_output': [
+        'energy unit',
+        'minutes',
+        'speed',
+        'exercise type', 
+        'exercise type unit'
+      ]
+    },
+    'required_variables': {
+      'equalizing_intent': interface_objects['variable_structures']['common_variables']
+    },
+    'variable_components': ['unit', 'time', 'rate']
+  }
+  # variable_connecting_functions could include a given default function of 'energy units at speed 2 = 2 * energy units at speed 1' if the problem statement includes that, and will include it later when we apply a connecting insight path
+  interface_objects['variable_structures']['common_variables'].extend(interface_objects['variable_structures']['variable_combinations']['variable_standards'])
+  
+  # III. apply info.problem interface
+  interface_objects = apply_interface('info.problem', problem=problem_statement)
+  interface_objects['problem_input_format'] = 'energy units'
+  # this problem type format is adjacent to the workflow we'll use, which breaks the statement into sub-problems
+  interface_objects['problem_types'] = {
+    1: 'connect input/output values of same/related variables & format',
+      2: 'identify & reduce differences (variables) causing problem',
+        3: 'identify & reduce variables by standardizing',
+          4: 'identify common useful standard in input & output formats & standardize to that standard',
+          5: 'connect related variables to reduce variables by standardizing',
+            6: 'connect related variables by identifying components in common & conversion functions to connect common components & other components'
+    7: 'connect standardized input/output values of same variables & format'
+  } 
+  interface_objects['solution'] = ''
+  interface_objects['solution_output_format'] = 'x number of energy units for 6 units of exercise type 2'
+  interface_objects['solution_metric_filters'] = {
+    'formats': ['energy units'],
+    'values': ['6 minutes', 'speed 2']
+  }
+  interface_objects['standardized_problem_statement'] = standardize_problem_statement(problem_statement)
+  interface_objects['standardized_problem_statement'] = 'find energy units for 6 minutes at exercise type 2, assuming 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
+  interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions & apply solution filters to create solutions']
+
+  ''' 
+  metadata for this workflow:
+  - the interface metadata (intents, functions, insights) can be derived from the definition or pulled from the database of 'insight' functions
+  - the logic can be generated by the definition & insights driving this workflow
+  '''
+
+  workflow1 = {
+    'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
+    'insights': [
+      'problems are a sub-optimal state by some metric',
+      'structures of sub-optimality require a change of some type to create optimal structures',
+      'the change can be in many formats, like adding a function or reducing a difference, based on the original/adjacent/possible problem/solution formats & how those can be connected',
+      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, lack of functionality, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers, definitions)',
+      'core problem structures include limit, barrier, info gap, difference, distance'
+      'solutions can be formatted as the opposite of the problem structure',
+      'core solution structures include functions like empower, reduce, fill, similarize, connect'
+      'problems can be formatted by applying any core problem structures',
+      'when formatted using the difference core problem structure, differences between origin/target cause the problem',
+      'if differences between origin/target cause the problem, the solution is a standard applied to input/output (creating a similarity), so the created similarity can be used to connect them'
+    ],  
+    'logic': {
+      'difference_logic': [
+        'find differences causing problems', # ['difference between original & target position' = 'core problem structure'], 
+        'find solutions resolving differences', 
+        'combine solutions'
+      ],
+      'function_logic': [
+        'find functionality (or lack of) causing problems', # ['lack of conversion function', 'lack of standardization function', 'lack of equalizing function']
+        'find functions that can build that functionality', ['replace', 'subset', 'multiply', 'check']
+        'apply functions to build that functionality',
+        'apply built functions to resolve problem'
+      ],
+      'definition_logic': [
+        'find definitions causing problems', # ['definition of difference between problem & solution', 'definition of problem', 'definition of solution']
+        'find alternate definitions that dont cause problems, or find definition metadata that doesnt cause problems & derive definition', # 'solution': 'difference in value & format compared to problem value & format'
+        'apply found/derived alternate definitions that dont cause definition problems'
+      ],
+      'distance_logic': [
+        'find positions causing problems', # ['source position', 'target position']
+        'find functions to move from source to target',
+        'find order of functions to move from source to target',
+        'apply filters to function sequences between source & target'
+      ],
+      'info_gap_logic': [
+        'find info gaps causing problems', # ['info gap of connection between a & b', 'info gap of how to apply structures like 'combine' to standardize variables', 'info gap of solution output energy unit number'] and other applications of build/derive/find/filter/identify/select functions
+        'find order of info gaps to fill', 
+        'find/generate/derive info to fill info gaps in correct order'
+      ],
+      'limit_logic': [
+        'find limits causing problems', # ['limit of variables to capture info', 'limit of variables to be converted into each other', 'limit of variable structures to be equated']
+        'find functions with power to invalidate limits', 
+        'find order of limits to invalidate',
+        'apply functions to invalidate limits in correct order'
+      ],
+      'barrier_logic': [
+        'find barriers causing problems', #['specialization', 'differences']
+        'find functions to resolve barriers', # ['abstract', 'tunnel', 'move', 'traverse']
+        'select function to resolve barriers',
+        'find types of functions to apply to barrier types for selected function', # ['abstract to compress', 'abstract to standardize']
+        'apply functions to resolve barriers'
+      ]
+    },
+    'components': ['problem', 'subproblem', 'subsolution', 'solution'],
+    'intents': {
+      'core_intents': ['break', 'find', 'merge', 'filter'],
+      'workflow_intents': [
+        "connect(interface_objects['problem_input_format'], interface_objects['solution_output_format'])"
+      ]
+    },
+    'functions': {
+      'core_intents': {
+        'break': 'isolate(differences_causing_problem)', # isolate the differences between origin & target states causing the original problem
+        'find': 'fit(problem_difference, solution_conversion)', # fit/match the problem's causative difference with a solution converting that difference into a non-problematic structure
+        'merge': 'combine(subsolutions, solution)', # find a combination function that allows combination of subsolutions into the solution,
+        'filter': 'filter(combined_subsolutions, solution_metric_filters, solution)', # adjust combinations of subsolutions until they match the solution output format, based on solution metric filters
+      },
+      'interim_intents': {
+        'convert': interface_objects['interface_functions'] # interim intents connect core & workflow intents
+      },
+      'workflow_intents': {
+        'connect': {
+          'connect': 'connect(problem, solution)', # apply structures to create a connecting function between input & output to fulfill the 'merge' intent of the solution automation workflow)'
+          'output': None
+        }
+      }
+    }
+  }
+
+  apply_solution_automation_workflow(workflow1)
+
+  interface_objects['functions']['workflow_intents']['connect']['output']['connecting_structures'] = {
     'sub-problems': [
       'difference in problem input formats exercise type 1 & 2',
       'difference in problem input & solution output from exercise type unit (one minute of exercise type)',
@@ -339,6 +351,8 @@ def get_problem_metadata(problem_statement):
 
 
 '''
+  - apply other insight path structures (before/after/with/in general call to apply_structure('function.connecting'))
+
     - deriving insight paths used by applying insight paths that are also solution automation workflows
 
       - apply insight path 'change the problem to a more solvable problem' (which is also a solution automation workflow) to generate the insight path:
