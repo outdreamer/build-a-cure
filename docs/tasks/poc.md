@@ -31,9 +31,10 @@ def get_problem_metadata(problem_statement):
   # inherit available functions from interface analysis function table in database, and/or pull dynamically from queries of code data sources, to use later when connecting interim formats
   interface_objects['interface_functions'] = {
     'math': ['add', 'subtract', 'multiply', 'divide'], 
-    'structure': ['combine', 'merge', 'break', 'reduce', 'fill', 'fit', 'match', 'map', 'filter', 'connect', 'subset'],
+    'structure': ['direct/pivot', 'combine', 'merge', 'break', 'reduce', 'fill', 'fit', 'match', 'map', 'filter', 'connect', 'subset'],
     'system': ['optimize', 'equalize', 'differentiate', 'convert', 'standardize', 'assume = apply(condition/input)', 'identify'],
-    'core': ['find', 'build', 'derive', 'apply']
+    'core': ['find', 'build', 'derive', 'apply'],
+    'interface': ['change', 'cause', 'prioritize (intent)', 'structure', 'define', 'communicate (info)', 'abstract', 'systematize', 'possibilize/empower (potential)', 'standardize (core)', 'typify', 'functionalize', 'objectify', 'describe (metadata/attributes)', 'randomize (uncertainty)', 'connect/organize (interface)']
   }
 
   # II. apply structure interface
