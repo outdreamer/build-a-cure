@@ -235,6 +235,7 @@ def standardize_problem_statement(problem_statement):
   interface_objects['standardized_problem_statement'] = 'find energy units for 6 minutes at exercise type 2, assuming 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
   interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions & apply solution filters to create solutions']
 
+  # IV. apply solution automation workflow
   ''' 
   metadata for this workflow:
   - the interface metadata (intents, functions, insights) can be derived from the definition or pulled from the database of 'insight' functions
@@ -351,16 +352,20 @@ def standardize_problem_statement(problem_statement):
 
 
 '''
-  - apply other insight path structures (before/after/with/in general call to apply_structure('function.connecting'))
 
-    - deriving insight paths used by applying insight paths that are also solution automation workflows
+  - apply other insight path structures (before/after/with/in general call to apply_structure('function.connecting')) to generate other workflows
+    - derive insight paths used by applying insight paths that are also solution automation workflows & check that they can also solve the problem
 
-      - apply insight path 'change the problem to a more solvable problem' (which is also a solution automation workflow) to generate the insight path:
+  - alternate versions of interface query above (steps 1 - 4)
+    
+    - apply insight path 'change the problem to a more solvable problem' (which is also a solution automation workflow) to generate the insight path:
+      - apply structure & change interface
         - standardize to variables that fulfill both categories first if possible:
           - identify proxy variables & equate those instead of original variables
           - identify variables that problem input & solution output formats have in common
-
-      - apply insight path 'connect formats using structures of efficiency & interaction (such as standards, commonness, fit, adjacence, & similarity)' (which is also a solution automation workflow if applied to problem/solution formats) to generate the insight path:
+    
+    - apply insight path 'connect formats using structures of efficiency & interaction (such as standards, commonness, fit, adjacence, & similarity)' (which is also a solution automation workflow if applied to problem/solution formats) to generate the insight path:
+      - apply structure & system interface 
         - identify interim formats by applying standardizing operations to input/output formats
           - standardize to common unit
           - find function to convert common unit to solution output format unit
