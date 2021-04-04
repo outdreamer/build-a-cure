@@ -157,6 +157,11 @@ def get_problem_metadata(problem_statement):
         'find solutions resolving differences', 
         'combine solutions'
       ],
+      'definition_logic': [
+        'find definitions causing problems', # ['definition of difference between problem & solution', 'definition of problem', 'definition of solution']
+        'find alternate definitions that dont cause problems, or find definition metadata that doesnt cause problems & derive definition', # 'solution': 'difference in value & format compared to problem value & format'
+        'apply found/derived alternate definitions that dont cause definition problems'
+      ],
       'distance_logic': [
         'find positions causing problems', # ['source position', 'target position']
         'find functions to move from source to target',
