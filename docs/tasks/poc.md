@@ -143,7 +143,7 @@ def get_problem_metadata(problem_statement):
   workflow = {
     'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
     'insights': [
-      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers)',
+      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, lack of functionality, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers)',
       'core problem structures include limit, barrier, info gap, difference, distance'
       'solutions can be formatted as the opposite of the problem structure',
       'core solution structures include functions like empower, reduce, fill, similarize, connect'
@@ -156,6 +156,12 @@ def get_problem_metadata(problem_statement):
         'find differences causing problems', # ['difference between original & target position' = 'core problem structure'], 
         'find solutions resolving differences', 
         'combine solutions'
+      ],
+      'function_logic': [
+        'find functionality (or lack of) causing problems', # ['lack of conversion function', 'lack of standardization function', 'lack of equalizing function']
+        'find functions that can build that functionality', ['replace', 'subset', 'multiply', 'check']
+        'apply functions to build that functionality',
+        'apply built functions to resolve problem'
       ],
       'definition_logic': [
         'find definitions causing problems', # ['definition of difference between problem & solution', 'definition of problem', 'definition of solution']
