@@ -143,10 +143,10 @@ def get_problem_metadata(problem_statement):
   workflow = {
     'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
     'insights': [
-      'problems can be framed as various structures, like a lack of structure (missing info, too much variation (variables that should be constants, differences that should be similarities)), or too much structure (limits, barriers)',
-      'core problem structures include limits, barriers, info gaps, differences'
-      'solutions can be framed as the opposite of the problem structure',
-      'core solution structures include functions like empower, reduce, fill, similarize/connect'
+      'problems can be formatted as various structures, like imbalances such as 1, a lack of structure (missing info, too much variation (variables that should be constants, differences that should be similarities)), or 2, too much structure (limits, barriers)',
+      'core problem structures include limit, barrier, info gap, difference, distance'
+      'solutions can be formatted as the opposite of the problem structure',
+      'core solution structures include functions like empower, reduce, fill, similarize, connect'
       'problems can be formatted by applying any core problem structures',
       'when formatted using the difference core problem structure, differences between origin/target cause the problem',
       'if differences between origin/target cause the problem, the solution is a standard applied to input/output (creating a similarity), so the created similarity can be used to connect them'
@@ -157,10 +157,16 @@ def get_problem_metadata(problem_statement):
         'find solutions resolving differences', 
         'combine solutions'
       ],
-      'missing_info_logic': [
-        'find missing info causing problems', # ['missing info of connection between a & b', 'missing info of how to apply structures like 'combine' to standardize variables', 'missing info of solution output energy unit number']
-        'find order of missing info gaps to fill', 
+      'info_gap_logic': [
+        'find info gaps causing problems', # ['info gap of connection between a & b', 'info gap of how to apply structures like 'combine' to standardize variables', 'info gap of solution output energy unit number']
+        'find order of info gaps to fill', 
         'find/generate/derive info to fill info gaps in correct order'
+      ],
+      'limit_logic': [
+        'find limits causing problems', # ['limit of variables to capture info', 'limit of variables to be converted into each other', 'limit of variable structures to be equated']
+        'find functions with power to invalidate limits', 
+        'find order of limits to invalidate',
+        'apply functions to invalidate limits in correct order'
       ]
     },
     'components': ['problem', 'subproblem', 'subsolution', 'solution'],
