@@ -2,7 +2,7 @@
 - example of finding/deriving insight paths for a basic calculation
 '''
 
-problem_statement = 'find energy units used for 6 minutes at speed 2, assuming energy usage of 5 energy units (per session of 5 minutes at speed 2 & 3 minutes at speed 1)'
+problem_statement = 'find energy units used for 6 minutes at speed 2, assuming energy usage of 5 energy units for 5 minutes at speed 2 & 3 minutes at speed 1'
 
 def get_problem_metadata(problem_statement):
   '''
@@ -18,42 +18,63 @@ def get_problem_metadata(problem_statement):
   # I. apply function interface
   interface_objects = apply_interfaces(['function'], problem_statement, interface_objects)
   interface_objects['variables'] = get_variables(problem_statement, interface_objects)
-  interface_objects['functions'] = get_functions(problem_statement, interface_objects)
   interface_objects['variables'] = ['energy units', 'speed', 'minutes']
+
+  interface_objects['functions'] = get_functions(problem_statement, interface_objects)
   interface_objects['functions'] = ['find', 'use', 'assume']
 
-  # inherit available functions from codebase, and/or pull from queries of code data sources
-  interface_objects['available_functions'] = ['add', 'multiply', 'divide', 'subtract', 'combine', 'find', 'assume_input', 'identify', 'filter', 'differentiate', 'connect', 'apply', 'convert', 'standardize']
+  # inherit available functions from interface analysis function table in database, and/or pull dynamically from queries of code data sources, to use later when connecting interim formats
+  interface_objects['interface_functions'] = {
+    'math': ['add', 'subtract', 'multiply', 'divide'], 
+    'structure': ['combine', 'merge', 'break', 'reduce', 'fill', 'fit', 'match', 'map', 'filter', 'connect', 'subset'],
+    'system': ['optimize', 'equalize', 'differentiate', 'convert', 'standardize', 'assume', 'identify'],
+    'core': ['find', 'build', 'derive', 'apply']
+  }
 
   # II. apply structure interface
   interface_objects = apply_interfaces(['structure'], problem=problem_statement, interface_objects)
   interface_objects['variable_structures'] = {
     'variable_combinations': {
-      'variable_standards': ['energy units per minute', 'energy units per minute at a speed', 'energy units per minute of an exercise type', 'minutes at a speed', 'minutes of an exercise type']
+      'variable_standards': [
+        'energy units per minute', 
+        'energy units per minute at a speed', 
+        'energy units per minute of an exercise type', 
+        'minutes at a speed', 
+        'minutes of an exercise type'
+      ],
+      'variable_connecting_functions': [
+        '5 energy units = 5 minutes at speed 2 & 3 minutes at speed 1',
+        'x energy units = 6 minutes at speed 2'
+      ],
+      'variable_functions': [
+        'speed acts like a type variable (exercise at speed 2 uses energy at a different rate) except when converting between types, when it acts like a numerical spectrum variable'
+      ],
     },
-    'variable_functions': [
-      'speed acts like a type variable (exercise at speed 2 uses energy at a different rate) except when converting between types, when it acts like a numerical spectrum variable'
-    ],
     'adjacent_variables': [
       'unit': ['time unit (minute)', 'exercise unit', 'energy unit', 'exercise type unit']
       'type': ['exercise type', 'exercise type unit']
     ],
-    'proxy_variables': [
-      'exercise type unit'
-    ],
-    'common_variables': [
-      'energy unit',
-      'minutes',
-      'speed',
-      'exercise type', 
-      'exercise type unit'
-    ],
-    'variable_connecting_functions': [
-      '5 energy units = 5 minutes at speed 2 & 3 minutes at speed 1',
-      'x energy units = 6 minutes at speed 2'
-    ]
+    'similar_variables': {
+      'interchangeable_variables': {},
+      'proxy_variables': {
+        'exercise type unit': 'time unit (minute) of exercise at a speed'
+      },
+    },
+    'common_variables': {
+      'input_output': [
+        'energy unit',
+        'minutes',
+        'speed',
+        'exercise type', 
+        'exercise type unit'
+      ]
+    },
+    'required_variables': {
+      'equalizing_intent': interface_objects['variable_structures']['common_variables']
+    },
+    'variable_components': ['unit', 'time', 'rate']
   }
-  # variable_connecting_functions can include a given default function of 'energy units used at speed 2 = 2 * energy units used at speed 1'
+  # variable_connecting_functions could include a given default function of 'energy units used at speed 2 = 2 * energy units used at speed 1' if the problem statement includes that, and will include it later when we apply a connecting insight path
   interface_objects['variable_structures']['common_variables'].extend(interface_objects['variable_structures']['variable_combinations']['variable_standards'])
   
   # III. apply info.problem interface
@@ -72,12 +93,14 @@ def get_problem_metadata(problem_statement):
 
   '''
   def standardize_problem_statement(problem_statement, interface_objects):
-    - identifies that 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
-    - identifies that speed 1 & 2 are values of the important variable to relate for 'standardization' intent
-    - identify proxy variables of input/output format (energy usage): exercise type units
-    - identify variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b): exercise type units
-    - identify variables that are both proxy variables of input/output formats and variable in common for input/output
-    - identifies that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
+    - this function applies similarities & other optimizations useful for simplifying & standardizing the problem statement, like replacing rare terms with more common terms & removing unnecessary terms where possible
+      - applies important variables, isolated variable components, variables that can be combined, variables that are interchangeable, variables that are adjacent, as in n conversions away from other variables (like core/unit variables) in order to standardize the problem statement
+    - can apply that 'minutes at a speed' is not a useful standard bc speed relies on time & time is already embedded in the minute count, so it should isolate these inputs
+    - can apply that speed 1 & 2 are values of the important variable to relate for 'standardization' intent
+    - can apply proxy variables of input/output format (energy usage): exercise type units
+    - can apply variables in common for problem input (5 = 5b + 3a) & solution output (x = 6b): exercise type units
+    - can apply variables that are both proxy variables of input/output formats and variable in common for input/output
+    - can apply that 'exercise type unit' is the most useful way to format the 'minutes of an exercise type' or 'minutes at a speed' variable structures
       - bc the variables of minutes & exercise type don't add information that is useful for finding energy units at a different number of minutes & a related/equal exercise type/speed, so its safe to compress/abstract them into one combined variable 'exercise type 1 unit' (rather than a variable structure of a 'variable given/applied to another variable' like 'minute of exercise type 1', or 'minute at speed 1')
 
   for vstandard in interface_objects['variable_structures']['variable_combinations']['variable_standards']:
@@ -90,14 +113,36 @@ def get_problem_metadata(problem_statement):
 
   interface_objects['standardized_problem_statement'] = 'find energy units used for 6 minutes at exercise type 2, assuming energy usage of 5 energy units for 5 minutes at exercise type 2 & 3 minutes at exercise type 1'
 
-  # IV. apply 'connecting function' structure
+  # IV. apply_structure('function.connecting', interface_objects['standardized_problem_statement'], interface_objects['solution_output_format'], interface_objects)
   '''
   to connect solution output energy units and problem input energy units, 
     - a function connecting exercise type 1 & 2 needs to be built
     - then a function connecting the new value of problem input energy units & the original value of solution output units needs to be built
   '''
-  interface_objects['connecting_structures'] = identify_structures_between_positions(problem_input_format, solution_output_format, interface_objects)
   # this function answers the question 'given the interface_objects['available_functions'] and the input/output format, how can conversions be applied to connect them'
+  interface_objects['workflows'] = ['break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions']
+  interface_objects['connecting_structures'] = apply_solution_automation_workflow(interface_objects['workflows'])
+
+  ''' metadata for this workflow
+  workflow = {
+    'definition': 'break problem into sub-problems, find sub-solutions, merge sub-solutions to create solutions',
+    'logic': [
+      'find differences causing problems ('difference between original & target position' being a core problem structure)', 
+      'find solutions resolving differences', 
+      'combine solutions'
+    ],
+    'core_intents': ['break', 'find', 'merge'],
+    'intents': [
+      'connect(interface_objects['problem_input_format'], interface_objects['solution_output_format'])
+    ],
+    'functions': {
+      'break': 'isolate(differences_causing_problem)', # isolate the differences between origin & target states causing the original problem
+      'find': 'fit(problem_difference, solution_conversion)', # fit/match the problem's causative difference with a solution converting that difference into a non-problematic structure
+      'merge': 'connect(problem, solution)' # apply structures to create a connecting function between input & output to fulfill the 'merge' intent of the solution automation workflow)'
+    }
+  }
+  '''
+
   interface_objects['connecting_structures'] = {
     'sub-problems': [
       'difference in problem input formats exercise type 1 & 2',
@@ -118,7 +163,7 @@ def get_problem_metadata(problem_statement):
       'function connecting exercise type 1 unit (a) and exercise type 2 unit (b)',
       'function connecting energy units and exercise type 1 unit (a)',
       'function connecting x energy units of 6b and 5 energy units of 5b and 3a'
-    ],
+    ]
   }
 
   # V. apply interim formats to connect problem input & solution output
@@ -152,8 +197,8 @@ def get_problem_metadata(problem_statement):
           III. x energy units of 6 units of exercise type 2
 
           - standardization to equate problem input & solution output requires either:
-            - A. converting minutes at speed 1 to minutes at speed 2 or vice versa
-            - B. converting energy units used to a minute/speed unit or vice versa
+            - A. converting minutes at speed 1 to minutes at speed 2 or vice versa (converting to speed 2 requires fewer operations)
+            - B. converting energy units used to a minute/speed unit or vice versa (converting to exercise type unit requires fewer operations without losing required info)
 
           - identify connecting functions of:
 
