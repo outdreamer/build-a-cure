@@ -1,5 +1,12 @@
 # to do
 
+  - anti-stupidity addiction counseling & meditation app, fixing addictions with incrementally slightly less evil replacements:
+    - racism by convincing them there are non-racial groups that deserve hatred more ("hey Sharon, you're so right about the Jews, they absolutely cared about covering up their space weapons program enough to serve you that ad about fun outdoor non-genocide activities in your area, but you know who I hate more - wiccans with vegan pets" could be all it takes to wean Sharon off of her ethnic hatred so she can write manifestos about the behaviors she hates instead)
+    - jealousy, by convincing them there are other people more deserving of jealousy, such as people who don't feel it bc they're the best ("my dearest Beatrice, rather than trying to criminalize your male coworkers complimenting someone else, dare I suggest developing intelligence so you can create any asset your heart desires" can fix Beatrice so she fulfills her destiny of being the recipient of increasingly & unnecessarily dramatic letters)
+    - false hope that their new accessory or brow grooming technique or another semi-acceptable trait is giving everyone the jels ("have mercy Kevin, your false eyelashes are murdering our will to live, an asset that is literally necessary for life, which is technically murder" could inspire Kevin to dim his own light to let others shine for once)
+    - victim complex, convincing them there are actual problems, and that they have actual power to fix the illusory problems they think they're a victim of ("oh my god, are you ok? why is the red cross trying to help sex trafficking victims when your nail just broke?" could alert Pamela to the fact that she does in fact have superpowers like fixing her nails (the better to strangle us with), or alternatively, her priorities (the better to crucify us with)
+    - god complex, convincing them that they are not in fact allowed to murder other people who happen to exist, which they take as an intentional malicious reminder about their own mistakes ("no Lisa, someone else having something out of your intellectual price range is not justification for altering international human rights terminology just this once" could be the wake-up call Lisa needed to acknowledge her mortal limitations)
+
   - finish poc & give other examples applying different workflows
 
   - risk 
