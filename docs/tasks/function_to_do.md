@@ -1,6 +1,15 @@
 # to do
 
+  - generative insight paths generating solution automation workflows
+    - identify patterns in structures distributing structure (constants) & lack of structure (variation) in interface queries to find new insight paths
+      - example: variation allocated to structure & data (information) interfaces, & constants allocated to the intent/concept interfaces
+    - abstract patterns of finding/selecting interaction levels for an interface query
+      - example: core functions linking these interfaces, specify structural versions of core functions linking these interface objectss
+
+  - find equidistant point to information to start parallel interface queries from
+
   - assess fair use of copied code by:
+    - how much effort it would have been to not copy (if its low-effort to not copy, there's no reason to copy)
     - ratio of value contributed by those lines (such as by the cost of bugs caused by distorting the line)
     - difficulty (cognitive distance) of inventing that product given what had been invented prior to that
     - ratio of total value that the code can generate (what other software can it generate, what can it automate)
