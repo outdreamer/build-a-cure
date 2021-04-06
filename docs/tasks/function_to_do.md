@@ -1,17 +1,24 @@
 # to do
 
+  - add to bias error type structures: variable combinations/connections that should be disassociated
+
   - generative insight paths generating solution automation workflows
-    - identify patterns in structures distributing structure (constants) & lack of structure (variation) in interface queries to find new insight paths
+    - identify patterns in structures allocating structure (constants) & lack of structure (variation) in interface queries to find new insight paths
       - example: 
-        - variation (like variables) allocated to structure & data (information) interfaces, & constants (like definitions) allocated to the intent/concept interfaces
-    - abstract patterns of finding/selecting interaction levels for an interface query
+        - variation (like variables) allocated to structure & info interfaces, & constants (like definitions) allocated to the intent/concept interfaces
+    - identify patterns in connecting structures as core components of interface queries (build interface queries with interface-connecting structures)
+      - examples:
+        - intent & function interfaces are connected as metadata & trigger structures, so the triggering structure can be followed by the triggered structure in interface queries
+    - identify patterns of finding/selecting interaction levels for an interface query
       - examples: 
         - core functions linking these interfaces
         - structural versions of core functions linking these interface objects
         - abstract network of an interface used for interface queries
         - cross-interaction level conversion function applied before other interface query steps
 
-  - find equidistant point to information to start parallel interface queries from
+  - interface query design:
+    - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
+    - find equidistant point to information to start parallel interface queries from
 
   - assess fair use of copied code by:
     - how much effort it would have been to not copy (if its low-effort to not copy, there's no reason to copy)
