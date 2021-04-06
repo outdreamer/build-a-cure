@@ -2,9 +2,14 @@
 
   - generative insight paths generating solution automation workflows
     - identify patterns in structures distributing structure (constants) & lack of structure (variation) in interface queries to find new insight paths
-      - example: variation allocated to structure & data (information) interfaces, & constants allocated to the intent/concept interfaces
+      - example: 
+        - variation (like variables) allocated to structure & data (information) interfaces, & constants (like definitions) allocated to the intent/concept interfaces
     - abstract patterns of finding/selecting interaction levels for an interface query
-      - example: core functions linking these interfaces, specify structural versions of core functions linking these interface objectss
+      - examples: 
+        - core functions linking these interfaces
+        - structural versions of core functions linking these interface objects
+        - abstract network of an interface used for interface queries
+        - cross-interaction level conversion function applied before other interface query steps
 
   - find equidistant point to information to start parallel interface queries from
 
