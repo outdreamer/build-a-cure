@@ -5,22 +5,39 @@
   - organize list of solution automation workflows
     - break problem into sub-problems, solve in isolation & merge into solution
     - change problem into more solvable problem
-      - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
+      - cause 
+        - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
+      - problem
+        - identify problem types of the problem & select which type to use known solutions for
     - apply structures
-      - vectorize problem system, filling in missing components with generative functions as needed
-      - apply functions to move problem (origin) state position to solution (target) state position
-      - apply function input/output connections to connect problem input & solution output with function sequences
-      - apply system structures to generate & filter solutions for a priority like speed
-      - apply map between problem-solution intents & function intents
+      - cause
+        - vectorize problem system, filling in missing components with generative functions as needed
+      - function
+        - apply functions to move problem (origin) state position to solution (target) state position
+        - apply function input/output connections to connect problem input & solution output with function sequences
+      - system
+        - apply system structures like difference & incentive to generate & filter solutions for a priority like speed
+      - intent
+        - apply map structure between problem-solution intents & function intents
     - generate solution space first, then filter
-      - apply core structures of solutions to generate probable solutions
-      - apply core functions to generate possible solutions & then apply filters to reduce solution space
+      - core
+        - apply core structures of solutions to generate probable solutions
+        - apply core functions to generate possible solutions & then apply filters to reduce solution space
     - apply filters first, then match with generatable solutions
-      - apply solution filters to reduce solution space
-      - apply structures of difference (what is not the solution) to filter solution space, then match to what core functions can generate as adjacent/accessible solutions
+      - core
+        - apply components of solution filters to generate filters
+      - structure
+        - apply solution filters to reduce solution space
+      - system
+        - apply structures of difference (what is not the solution) to filter solution space, then match to what core functions can generate as adjacent/accessible solutions
     - apply solution structures (filters) & problem structures (errors, reductions) in parallel and connect in the middle
 
   - generate solution automation workflows by applying workflows to other workflows
+    - solution automation workflow variables
+      - starting/ending position/format
+      - interfaces applied, in what query structure
+      - allocation of uncertainty
+        - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
 
   - generative insight paths generating solution automation workflows
 
