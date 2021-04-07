@@ -1,5 +1,7 @@
 # to do
 
+  - science: examine muons as a reflective surface for electrons to use, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
+
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
   - organize list of solution automation workflows
