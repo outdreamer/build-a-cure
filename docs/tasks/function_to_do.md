@@ -2,13 +2,33 @@
 
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
+  - organize list of solution automation workflows
+    - break problem into sub-problems, solve in isolation & merge into solution
+    - change problem into more solvable problem
+    - apply structures
+      - vectorize problem system, filling in missing components with generative functions as needed
+      - apply functions to move problem (origin) state to solution (target) state
+      - apply function input/output connections to connect problem input & solution output
+    - generate solution space first, then filter
+      - apply core structures of solutions to generate probable solutions
+      - apply core functions to generate possible solutions & then apply filters to reduce solution space
+    - apply filters first, then match with generatable solutions
+      - apply solution filters to reduce solution space
+      - apply structures of difference (what is not the solution) to filter solution space, then match to what core functions can generate as adjacent/accessible solutions
+    - apply solution structures (filters) & problem structures (errors, reductions) in parallel and connect in the middle
+
+  - generate solution automation workflows by applying workflows to other workflows
+
   - generative insight paths generating solution automation workflows
+
     - identify patterns in structures allocating structure (constants) & lack of structure (variation) in interface queries to find new insight paths
       - example: 
         - variation (like variables) allocated to structure & info interfaces, & constants (like definitions) allocated to the intent/concept interfaces
+    
     - identify patterns in connecting structures as core components of interface queries (build interface queries with interface-connecting structures)
       - examples:
         - intent & function interfaces are connected as metadata & trigger structures, so the triggering structure can be followed by the triggered structure in interface queries
+    
     - identify patterns of finding/selecting interaction levels for an interface query
       - examples: 
         - core functions linking these interfaces
@@ -17,11 +37,17 @@
         - cross-interaction level conversion function applied before other interface query steps
 
   - interface query design:
+    
     - connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
-      - example: 
+
+      - examples:
+
         - connecting a problem of 'too much structure' and solution of 'reduced structure' has a workflow involving steps like 'reduce variables', with requirements like 'variables', so the function or change interface can be applied to identify variables before executing that step in the workflow
-        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of error/differences are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
+        
+        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of variables (error/differences) are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
+    
     - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
+    
     - find equidistant point to information to start parallel interface queries from
 
   - assess fair use of copied code by:
@@ -42,7 +68,7 @@
 
   - finish poc & give other examples applying different workflows
 
-  - risk 
+  - apply concept of risk 
 
     - risk: adjacence to negative events (error types)
       - risk structures: 
