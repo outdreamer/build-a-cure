@@ -17,8 +17,15 @@
         - apply function input/output connections to connect problem input & solution output with function sequences
       - system
         - apply system structures like difference & incentive to generate & filter solutions for a priority like speed
+        - combine structures that avoid known error types & apply available functions to fit
+        - use solution for adjacent problem & apply available functions to fit
       - intent
         - apply map structure between problem-solution intents & function intents
+      - interface
+        - find interaction level where problem is trivial to solve
+        - apply structures of organization until problem is trivial to solve
+      - concept
+        - apply map structure between problem-solution concepts & sub-structure concepts
     - generate solution space first, then filter
       - core
         - apply core structures of solutions to generate probable solutions
