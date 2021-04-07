@@ -5,10 +5,13 @@
   - organize list of solution automation workflows
     - break problem into sub-problems, solve in isolation & merge into solution
     - change problem into more solvable problem
+      - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
     - apply structures
       - vectorize problem system, filling in missing components with generative functions as needed
-      - apply functions to move problem (origin) state to solution (target) state
-      - apply function input/output connections to connect problem input & solution output
+      - apply functions to move problem (origin) state position to solution (target) state position
+      - apply function input/output connections to connect problem input & solution output with function sequences
+      - apply system structures to generate & filter solutions for a priority like speed
+      - apply map between problem-solution intents & function intents
     - generate solution space first, then filter
       - apply core structures of solutions to generate probable solutions
       - apply core functions to generate possible solutions & then apply filters to reduce solution space
