@@ -17,6 +17,10 @@
         - cross-interaction level conversion function applied before other interface query steps
 
   - interface query design:
+    - connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
+      - example: 
+        - connecting a problem of 'too much structure' and solution of 'reduced structure' has a workflow involving steps like 'reduce variables', with requirements like 'variables', so the function or change interface can be applied to identify variables before executing that step in the workflow
+        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of error/differences are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
     - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
     - find equidistant point to information to start parallel interface queries from
 
