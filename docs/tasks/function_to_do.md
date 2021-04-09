@@ -19,8 +19,11 @@
         - limits in how information overflows (info that cannot be stored in an existing structure) can be predicted (structures built to store it)
           - building different info storage structures (different from brains, networks, topologies, matrices, & probabilities, like interfaces & superpositions) can change how patterns of uncertainty-to-certainty conversion (like with uncertainties n degrees away from pre-existing certainties) occur & their probabilities of occurring
       - missing dependencies
-        - gaps in conditions enabling energy storage (definition of a fraction is stable while the numerator/denominator are still defined, complex numbers defined using the definition of square root of -1)
+        - gaps in conditions enabling energy storage (definition of a fraction is stable while the numerator/denominator are still defined, complex numbers defined using the definition of square root of -1), creating a symmetry of stability, where the efficiency created by core functions of a new interface can dissolve once the functions buildable with core functions overflow the interface, so functions may dissolve to randomness when absorbed by other systems
         - changes invalidating the unit structure combined to create other structures (where basis vector is not defined)
+        - where definitions used by info definition (value, difference) break down
+      - where certainty is universally distributed & no uncertainties are possible, so a definition of certainty is not needed
+      
 
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
