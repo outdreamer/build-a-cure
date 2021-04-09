@@ -11,10 +11,13 @@
     - with information defined as 'stabilized energy storage', at what point does the definition of information break down:
       - type level interactions
         - gaps in the possible change ranges of symmetries
+      - structural changes
+        - lack of alignments, similarities, efficiencies or other structures enabling info to accrue/develop/stabilize
       - incorrect assumptions
-        - reversibilities in time symmetries, or symmetries that are theoretically irreversible
+        - reversibilities in time symmetries, or symmetries that are theoretically irreversible without a concept of symmetry operations
+        - constants like inevitabilities, absolute (acontextual) impossibilities, or limits on variable value ranges
         - limits in how information overflows (info that cannot be stored in an existing structure) can be predicted (structures built to store it)
-          - building different info storage structures can change how patterns of uncertainty conversion into certainty (like with uncertainties n degrees away from pre-existing certainties) occur & their probabilities of occurring
+          - building different info storage structures (different from brains, networks, topologies, matrices, & probabilities, like interfaces & superpositions) can change how patterns of uncertainty-to-certainty conversion (like with uncertainties n degrees away from pre-existing certainties) occur & their probabilities of occurring
       - missing dependencies
         - gaps in conditions enabling energy storage (definition of a fraction is stable while the numerator/denominator are still defined, complex numbers defined using the definition of square root of -1)
         - changes invalidating the unit structure combined to create other structures (where basis vector is not defined)
