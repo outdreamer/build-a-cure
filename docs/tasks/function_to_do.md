@@ -4,6 +4,9 @@
     - examine muons as a reflective surface for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
   - math interface as information (certainty) physics, specifying what can be known/calculated, predicted & approximated, & what certainties can be connected using numerical relationships (like how logic specifies what inferences/conclusions can be connected)
+    - with information defined as 'stabilized energy storage', at what point does the definition of information break down:
+      - gaps in the possible change ranges of symmetries
+      - reversibilities in time symmetries, or symmetries that are theoretically irreversible
 
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
