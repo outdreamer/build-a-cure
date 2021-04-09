@@ -14,6 +14,7 @@
       - incorrect assumptions
         - reversibilities in time symmetries, or symmetries that are theoretically irreversible
         - limits in how information overflows (info that cannot be stored in an existing structure) can be predicted (structures built to store it)
+          - building different info storage structures can change how patterns of uncertainty conversion into certainty (like with uncertainties n degrees away from pre-existing certainties) occur & their probabilities of occurring
       - missing dependencies
         - gaps in conditions enabling energy storage (definition of a fraction is stable while the numerator/denominator are still defined, complex numbers defined using the definition of square root of -1)
         - changes invalidating the unit structure combined to create other structures (where basis vector is not defined)
