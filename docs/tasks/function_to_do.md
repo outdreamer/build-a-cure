@@ -23,7 +23,8 @@
         - changes invalidating the unit structure combined to create other structures (where basis vector is not defined)
         - where definitions used by info definition (value, difference) break down
       - where certainty is universally distributed & no uncertainties are possible, so a definition of certainty is not needed
-      
+      - where certainty is not allowed by the system
+        - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
