@@ -1,6 +1,9 @@
 # to do
 
-  - science: examine muons as a reflective surface for electrons to use, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
+  - science: 
+    - examine muons as a reflective surface for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
+
+  - math interface as information (certainty) physics, specifying what can be known/calculated, predicted & approximated, & what certainties can be connected using numerical relationships (like how logic specifies what inferences/conclusions can be connected)
 
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
@@ -43,9 +46,9 @@
 
   - generate solution automation workflows by applying workflows to other workflows
     - solution automation workflow variables
-      - starting/ending position/format
+      - starting/ending position/format & format sequence
       - interfaces applied, in what query structure
-      - allocation of uncertainty
+      - allocation of uncertainty & variation
         - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
 
   - generative insight paths generating solution automation workflows
