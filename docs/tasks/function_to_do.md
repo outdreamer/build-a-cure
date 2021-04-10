@@ -7,7 +7,7 @@
     - opposite structure of interface (division by applying a standard) is a combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
     - make list of standardizing structures to apply for solution automation workflows (connecting problem/solution formats)
       - problem/solution
-      - random/structured
+      
       - similar/different
         - nothing/something
         - equivalence/comparison
@@ -21,18 +21,23 @@
         - constant/variable
       - combined/standardized
         - expanded/compressed
+        - group/unit
       - core/interactive structure
         - root/meta
       - set/reduction
         - network/hub
         - space/position
+        - possibilities/filter
       - requirement/change
         - direction/force
         - limit/efficiency
       - intersection/separation
         - contradiction/context
+        - conflict/alignment
       - uncertainty/certainty
         - probability/outcome
+        - random/structured
+        - abstraction/information
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
