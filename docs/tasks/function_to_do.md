@@ -16,6 +16,11 @@
         - expanded/compressed
       - core/interactive structure
         - root/meta
+      - set/reduction
+        - network/hub
+        - space/position
+      - requirement/change
+        - direction/force
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
