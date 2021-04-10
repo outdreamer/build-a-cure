@@ -3,8 +3,19 @@
   - science: 
     - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
-  - apply core structures to interface components
+  - apply core structures to interface components for language map
     - opposite structure of interface (division by applying a standard) is a combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
+    - make list of standardizing structures to apply for solution automation workflows (connecting problem/solution formats)
+      - problem/solution
+      - random/structured
+      - similar/different
+        - nothing/something
+        - equivalence/comparison
+        - source/target
+      - combined/standardized
+        - expanded/compressed
+      - core/interactive structure
+        - root/meta
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
@@ -31,18 +42,25 @@
       - where certainty is not allowed by the system
         - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
-  - applying causal interface to problems (like 'find a prediction function') is required for some intents (like 'reduce error' or 'handle change')
-    - structures of success causes (reasons or why): 
-      - finding the structure of similarity that explains 'why' an algorithm worked, such as a similarity in the form of an alignment in number of updates & degree of distortion from a base function
-    - structures of error causes
-      - structures of error causes (such as structures of difference like difference between core functions and required functions) can be used to predict errors & used as filters to produce similarity structures
+  - add to error structures
 
-  - add to error type structures
-    - error type causes
-      - other error types (lack of rule enforcement)
-      - variable structures (irrelevantly similar variable structures, missing variables, variables that are constant, variable allocation/interaction)
-      - bias error type structures:
-        - variable combinations/connections that should be disassociated
+    - when applying reductive insight paths to reduce solution space, identifying the set of unique isolatable component types (success, neutral, error, metric, function) on an interaction level is necessary to isolate subsets
+
+    - applying causal interface to problems (like 'find a prediction function') is required for some intents (like 'reduce error' or 'handle change')
+      
+      - success cause structures (reasons, or why)
+        - finding the structure of similarity that explains 'why' an algorithm worked, such as a similarity in the form of an alignment in number of updates & degree of distortion allowed from a base function
+      
+      - error cause structures
+
+        - error cause structures can be used to predict errors & used as filters to reduce solution space to similarity structures
+          - example: structures of difference like difference between core/required functions
+
+        - error type causes
+          - other error types (lack of rule enforcement)
+          - variable structures (irrelevantly similar variable structures, missing variables, variables that are constant, variable allocation/interaction)
+          - bias error type structures:
+            - variable combinations/connections that should be disassociated
 
   - organize list of solution automation workflows
     - break problem into sub-problems, solve in isolation & merge into solution
@@ -217,7 +235,7 @@
 
   - alternative intent coordination & compatability of metrics
 
-  - calculating interactivity by coordinating/adjacent/convertible structures
+    - calculating interactivity by coordinating/adjacent/convertible structures
 
   - rather than learning (applying new info to update standard equalized or randomized structure), apply structural insight paths that frequently produce accurate task completion (in general like producing problem/solution format connection sequence, specifically like producing prediction function)
 
