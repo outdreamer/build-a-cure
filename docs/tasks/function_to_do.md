@@ -3,6 +3,11 @@
   - science: 
     - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
+  - apply core structures to interface components
+    - opposite structure of interface (division by applying a standard) is a combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
+
+  - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
+
   - math interface as information (certainty) physics, specifying:
     - what can be known/calculated & approximated
     - what can be predicted
