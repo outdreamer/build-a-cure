@@ -23,11 +23,14 @@
       - derivability: derivation functions & inputs (core functions, structure application functions, prediction functions, metric selection functions, test functions)
       - independence: relevance calculation functions (to calculate meaning), system application functions (to derive context), organization functions (to build components using interactive components)
       - compartmentalization: core isolated unique components
+      - importance: generative or vertex variables
+      - efficiency: balance between variables & constants, derived/generated & stored functions based on usage
 
   - make list of standardizing structures to apply for generating & applying solution automation workflows (connecting problem/solution formats)
     - problem/solution
       - similar/different
         - nothing/something, container/component, negative/positive, equal/opposite
+        - balance/imbalance
         - equivalence/comparison
         - interaction/isolation
         - dependence/independence
