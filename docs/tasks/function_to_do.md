@@ -1,7 +1,7 @@
 # to do
 
   - science: 
-    - examine muons as a reflective surface for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
+    - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
   - math interface as information (certainty) physics, specifying:
     - what can be known/calculated & approximated
@@ -25,6 +25,12 @@
       - where certainty is universally distributed & no uncertainties are possible, so a definition of certainty is not needed
       - where certainty is not allowed by the system
         - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
+
+  - applying causal interface to problems (like 'find a prediction function') is required for some intents (like 'reduce error' or 'handle change')
+    - structures of success causes (reasons or why): 
+      - finding the structure of similarity that explains 'why' an algorithm worked, such as a similarity in the form of an alignment in number of updates & degree of distortion from a base function
+    - structures of error causes
+      - structures of error causes (such as structures of difference like difference between core functions and required functions) can be used to predict errors & used as filters to produce similarity structures
 
   - add to bias error type structures: variable combinations/connections that should be disassociated
 
