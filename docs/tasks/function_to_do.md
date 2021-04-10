@@ -27,6 +27,10 @@
       - efficiency: balance between variables & constants, derived/generated & stored functions based on usage & intent changes
 
   - make list of most useful standardizing structures to apply for generating & applying solution automation workflows (structures that connect problem/solution formats)
+    - example: 
+      - combine useful structures (similarities, connections, & types) to generate a new solution automation workflow
+        - apply definitions of 'error' & 'success' to generate a new solution automation workflow: 
+          - identify positions of known error types (abstract structures of difference from correct function output variable values) & avoid those positions
     - problem/solution
       - similar/different
         - nothing/something, container/component, negative/positive, equal/opposite
