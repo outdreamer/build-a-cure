@@ -44,17 +44,33 @@
         - question/definition
 
   - finding efficiencies by applying units of work
+
+    - find product of factors
+      - apply core, pattern, & structural interfaces
+        - find pattern structure of factor sets (function connecting factor sets) & use that to calculate using more efficient addition/subtraction operations
+          - find approximating function given pattern function (adjacent more calculatable pair with adjusting operation)
+          - find derivation function of a factor in a set, given another factor & pattern structure
+
+    - find function for integral
+      - apply core & structural interfaces
+        - apply combinations of core components (coefficients, powers, values) to find equivalence to area
+
+    - find function for derivative
+      - apply core & structural interfaces
+        - apply core structures (like unit) to reduce calculations
+
     - finding method to calculate difference: 
-      - intent: differentiate data point clusters in a clear (easily measured) way
-        - identify problem metadata
-        - apply one-degree change to each attribute, like variable count
-          - add/subtract variable count
-            - list new components & component changes
-              - new variable
-              - new variable structures (combinations, connections)
-            - apply units of work to new components or changed components
-              - find functions of differentiating values (positive/negative, multiplication) & attributes (value range allowing very different values) for new variable
-                - add variable of differentiating values to make overlapping 2d clusters clearly separable in 3d
+      - apply intent, core, structure, change interfaces
+        - intent: differentiate data point clusters in a clear (easily measured) way
+          - identify problem metadata
+          - apply one-degree change to each attribute, like variable count
+            - add/subtract variable count
+              - list new components & component changes
+                - new variable
+                - new variable structures (combinations, connections)
+              - apply units of work to new components or changed components
+                - find functions of differentiating values (positive/negative, multiplication) & attributes (value range allowing very different values) for new variable
+                  - add variable of differentiating values to make overlapping 2d clusters clearly separable in 3d
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
