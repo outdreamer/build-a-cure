@@ -14,6 +14,9 @@
         - interaction/isolation
         - dependence/independence
         - relevance/irrelevance
+        - connection/disconnection
+        - type/subtype, type/other type
+        - substitute/alternative
         - source/target
         - constant/variable
       - combined/standardized
