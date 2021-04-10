@@ -37,7 +37,12 @@
     - structures of error causes
       - structures of error causes (such as structures of difference like difference between core functions and required functions) can be used to predict errors & used as filters to produce similarity structures
 
-  - add to bias error type structures: variable combinations/connections that should be disassociated
+  - add to error type structures
+    - error type causes
+      - other error types (lack of rule enforcement)
+      - variable structures (irrelevantly similar variable structures, missing variables, variables that are constant, variable allocation/interaction)
+      - bias error type structures:
+        - variable combinations/connections that should be disassociated
 
   - organize list of solution automation workflows
     - break problem into sub-problems, solve in isolation & merge into solution
