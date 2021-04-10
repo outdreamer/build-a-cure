@@ -11,7 +11,11 @@
       - similar/different
         - nothing/something
         - equivalence/comparison
+        - interaction/isolation
+        - dependence/independence
+        - relevance/irrelevance
         - source/target
+        - constant/variable
       - combined/standardized
         - expanded/compressed
       - core/interactive structure
@@ -21,6 +25,11 @@
         - space/position
       - requirement/change
         - direction/force
+        - limit/efficiency
+      - intersection/separation
+        - contradiction/context
+      - uncertainty/certainty
+        - probability/outcome
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
