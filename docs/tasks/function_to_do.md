@@ -21,23 +21,27 @@
         - constant/variable
       - combined/standardized
         - expanded/compressed
-        - group/unit
+        - attribute set/type
       - core/interactive structure
         - root/meta
+        - unit/group
       - set/reduction
         - network/hub
         - space/position
         - possibilities/filter
+        - potential/adjacent
       - requirement/change
         - direction/force
         - limit/efficiency
       - intersection/separation
         - contradiction/context
         - conflict/alignment
+        - center/distribution
       - uncertainty/certainty
         - probability/outcome
         - random/structured
         - abstraction/information
+        - question/definition
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
