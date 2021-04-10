@@ -4,10 +4,10 @@
     - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
   - apply core structures to interface components for language map
-    - opposite structure of interface (division by applying a standard) is a combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
-    - make list of standardizing structures to apply for solution automation workflows (connecting problem/solution formats)
-      - problem/solution
-      
+    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
+  
+  - make list of standardizing structures to apply for solution automation workflows (connecting problem/solution formats)
+    - problem/solution
       - similar/different
         - nothing/something
         - equivalence/comparison
@@ -22,7 +22,7 @@
       - combined/standardized
         - expanded/compressed
         - attribute set/type
-      - core/interactive structure
+      - core/interactive
         - root/meta
         - unit/group
       - set/reduction
@@ -42,6 +42,19 @@
         - random/structured
         - abstraction/information
         - question/definition
+
+  - finding efficiencies by applying units of work
+    - finding method to calculate difference: 
+      - intent: differentiate data point clusters in a clear (easily measured) way
+        - identify problem metadata
+        - apply one-degree change to each attribute, like variable count
+          - add/subtract variable count
+            - list new components & component changes
+              - new variable
+              - new variable structures (combinations, connections)
+            - apply units of work to new components or changed components
+              - find functions of differentiating values (positive/negative, multiplication) & attributes (value range allowing very different values) for new variable
+                - add variable of differentiating values to make overlapping 2d clusters clearly separable in 3d
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 
