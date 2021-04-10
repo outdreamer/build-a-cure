@@ -7,6 +7,7 @@
     - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
   
   - most useful structures for solution automation
+
     - these structures should be applied first in any generative process, including interface query design
       - standards: filtering comparison methods
       - definitions: problem/solution definitions
@@ -16,8 +17,14 @@
       - similarity: adjacence, patterns
       - relevance: connections
       - organization: integration methods
-      
-  - make list of standardizing structures to apply for solution automation workflows (connecting problem/solution formats)
+
+    - these structures can be derived with system optimization principles, for attributes like:
+      - reusability: generative functions, definitions/constants
+      - derivability: derivation functions & inputs (core functions, structure application functions, prediction functions, metric selection functions, test functions)
+      - independence: relevance calculation functions (to calculate meaning), system application functions (to derive context), organization functions (to build components using interactive components)
+      - compartmentalization: core isolated unique components
+
+  - make list of standardizing structures to apply for generating & applying solution automation workflows (connecting problem/solution formats)
     - problem/solution
       - similar/different
         - nothing/something, container/component, negative/positive, equal/opposite
