@@ -6,10 +6,21 @@
   - apply core structures to interface components for language map
     - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
   
+  - most useful structures for solution automation
+    - these structures should be applied first in any generative process, including interface query design
+      - standards: filtering comparison methods
+      - definitions: problem/solution definitions
+      - optimizations/improvements: possible/probable changes for intents
+      - errors: difference
+      - metrics: intents
+      - similarity: adjacence, patterns
+      - relevance: connections
+      - organization: integration methods
+      
   - make list of standardizing structures to apply for solution automation workflows (connecting problem/solution formats)
     - problem/solution
       - similar/different
-        - nothing/something
+        - nothing/something, container/component, negative/positive, equal/opposite
         - equivalence/comparison
         - interaction/isolation
         - dependence/independence
@@ -43,7 +54,7 @@
         - abstraction/information
         - question/definition
 
-  - finding efficiencies by applying units of work
+  - finding efficiencies by applying adjacence definition (minimal units of work)
 
     - find product of factors
       - apply core, pattern, & structural interfaces
