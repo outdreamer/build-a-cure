@@ -11,6 +11,8 @@
       2. some definitions of complex components would require other structures than a single network path to be fully defined, like:
           - a layered network query such as a loop, which would be more optimally (like clearly) structured in another format, like a function network
           - complex functions/concepts could have very intricate structures on a language/math map, which would be more clearly defined on a function or core component network
+          - paths between other paths
+          - paths between attributes of nodes on a path rather than the whole node
           - multiple paths depicting the system context forming a sub-network around a path
             - the system interface where agent interactions occur or where stressors are clearly modeled is therefore the best format for some solution automation queries
       3. the standard network format assumes functionality & attributes should be bundled as components like objects/agents/words/concepts, which may not be optimal for queries like identifying conceptual structures or variable structures
@@ -22,6 +24,8 @@
       5. some concepts/functions/attributes/components will necessarily be missing from the map until theyre added to the map, and some terms are unnecessary, and some are false
         - missing components: components no one has used yet or thought of will be missing from the map
         - unnecessary components: you dont need every interchangeable synonym or every number to effectively communicate a path
+        - false definition: some definitions would be defined suboptimally, giving incorrect query results until corrected
+          - the components wouldnt have the definition routes specialized for different interfaces (like abstract paths generating or defining a component) that enable quick identification of connections & other useful structures
         - false variation: some changes to a language map would seem like variation but would actually not add much potential in terms of novelty/uniqueness in identifying a new concept
 
   - apply core structures to interface components for language map
