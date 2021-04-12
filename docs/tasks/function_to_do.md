@@ -3,6 +3,27 @@
   - science: 
     - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
+  - give example of the network of formats
+
+  - why shouldnt everything be formatted as a network (why should you use multiple interfaces or formats)
+    - everything can be depicted as a path on a math/language symbolic map, including insight paths, so why shouldnt that map be used to solve every problem?
+      1. all formats have assumptions embedded which distort the format from the central format (no structure, or randomness), having associated useful intents
+      2. some definitions of complex components would require other structures than a single network path to be fully defined, like:
+          - a layered network query such as a loop, which would be more optimally (like clearly) structured in another format, like a function network
+          - complex functions/concepts could have very intricate structures on a language/math map, which would be more clearly defined on a function or core component network
+          - multiple paths depicting the system context forming a sub-network around a path
+            - the system interface where agent interactions occur or where stressors are clearly modeled is therefore the best format for some solution automation queries
+      3. the standard network format assumes functionality & attributes should be bundled as components like objects/agents/words/concepts, which may not be optimal for queries like identifying conceptual structures or variable structures
+        - even the attribute format assumes that some attributes should be grouped, and assumes values for certain attributes, where layers would be a better structure for attributes
+        - depending on the interaction level, querying a comprehensive map including all functionality/attributes can be computationally prohibitive
+      4. the interaction functions of solution components (like cause or intent) arent automatically defined on a language/math map
+        - what type of query to run when the problem to solve is answering 'why', having an answer using the 'because' or 'reason' nodes
+        - cause/intent/concepts/systems/potential/change arent immediately clear from the language/math map, where they would be in a format using those interface structures
+      5. some concepts/functions/attributes/components will necessarily be missing from the map until theyre added to the map, and some terms are unnecessary, and some are false
+        - missing components: components no one has used yet or thought of will be missing from the map
+        - unnecessary components: you dont need every interchangeable synonym or every number to effectively communicate a path
+        - false variation: some changes to a language map would seem like variation but would actually not add much potential in terms of novelty/uniqueness in identifying a new concept
+
   - apply core structures to interface components for language map
     - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
   
