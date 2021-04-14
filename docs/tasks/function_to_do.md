@@ -1,5 +1,9 @@
 # to do
 
+  - assumption identification algorithm
+    - any specific info is a potentially problematic assumption
+      - example: 'what function in the software caused the problem' assumes that the stack variable is a constant ('software' part of the stack), when really other variable values should be examined
+
   - apply insight paths to generate other insight paths (such as a solution automation workflow)
     - example: 
       apply the insight path:
