@@ -4,11 +4,13 @@
     - example: 
       apply the insight path:
         'select commonly useful system objects for find problems' 
-      to the task:
+      to the problem:
         'find rules that fit a system such as a context'
       after applying standard interface variables like:
         - abstraction, intent, reusability, & complexity
-      with actual parsed query like:
+      to get system object filters from relevant problem interface object metadata like intents:
+        - problem intents: find, fit
+      which can be used as a filter to selected system objects, with actual parsed query like:
       - apply system object 'structural similarity' to find structural similarities in the problem system ('find rules that fit a system such as a context') after applying standard interface variables
         - iterate through standard interface variables
           - apply 'simplicity' to problem system
