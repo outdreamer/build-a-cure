@@ -1,6 +1,35 @@
 # to do
 
+  - apply insight paths to apply other insight paths (such as a solution automation workflow)
+    - example: 
+      apply the insight path:
+        'select commonly useful system objects for find problems' 
+      to the task:
+        'find rules that fit a system such as a context'
+      after applying standard interface variables like:
+        - abstraction, intent, reusability, & complexity
+      with actual parsed query like:
+      - apply system object 'structural similarity' to find structural similarities in the problem system ('find rules that fit a system such as a context') after applying standard interface variables
+        - iterate through standard interface variables
+          - apply 'simplicity' to problem system
+            - output: 'simple' rules, 'simple' systems (and sub-type of system 'simple' context)
+          - iterate through system objects to find sources of efficiency in assembling a solution query
+            - apply 'structural similarity' to problem system
+              - output: structural similarity between 'simple rules' and 'simple system'
+          - integrate output with original problem system to generate solution automation interface query for problem
+            - apply 'simple' rules (as a source of efficiency) in finding rules fitting a 'simple' system
+
+  - gauge theory definition: field where the difference in kinetic & potential energy doesnt change locally from a symmetry in the form of certain continuous (differentiable) sets with multiplication/division operations
+    - find interface boundaries by how its definition & structures break down
+    - find gaps in interfaces by points of variation not covered by other interfaces
+
+  - why not call interfaces a system? 
+    - everything can be formatted as a system, not everything is an interface - an interface is like a location where different systems can meet to communicate
+
   - science: 
+    - alternatives
+      - a limit on potential energy in the universe, concentrated in space-time moves or symmetry violations, where all other changes align with the standard model
+      
     - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
   - give example of the network of formats
@@ -27,6 +56,7 @@
         - false definition: some definitions would be defined suboptimally, giving incorrect query results until corrected
           - the components wouldnt have the definition routes specialized for different interfaces (like abstract paths generating or defining a component) that enable quick identification of connections & other useful structures
         - false variation: some changes to a language map would seem like variation but would actually not add much potential in terms of novelty/uniqueness in identifying a new concept
+      6. the definition of difference in a standard language/math/symbol map might not be the best organization for queries, requiring other formats like central core functions with distortion & interaction layers around the center
 
   - apply core structures to interface components for language map
     - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
