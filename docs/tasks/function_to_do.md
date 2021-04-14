@@ -1,6 +1,6 @@
 # to do
 
-  - apply insight paths to apply other insight paths (such as a solution automation workflow)
+  - apply insight paths to generate other insight paths (such as a solution automation workflow)
     - example: 
       apply the insight path:
         'select commonly useful system objects for find problems' 
@@ -10,7 +10,9 @@
         - abstraction, intent, reusability, & complexity
       to get system object filters from relevant problem interface object metadata like intents:
         - problem intents: find, fit
-      which can be used as a filter to selected system objects, with actual parsed query like:
+      which can be used as a filter to selected system objects
+        - 'fit' intent requires a structural similarity
+      with actual parsed query like:
       - apply system object 'structural similarity' to find structural similarities in the problem system ('find rules that fit a system such as a context') after applying standard interface variables
         - iterate through standard interface variables
           - apply 'simplicity' to problem system
