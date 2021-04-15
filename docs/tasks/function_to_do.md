@@ -4,6 +4,22 @@
     - any specific info is a potentially problematic assumption
       - example: 'what function in the software caused the problem' assumes that the stack variable is a constant ('software' part of the stack), when really other variable values should be examined
 
+  - generating error types
+    - apply definitions of error components
+      - incorrect: apply changes to variables to generate incorrect values
+      - imbalance: apply distribution function to create imbalance of a resource
+    - apply core structures to definitions of functional/stable/optimal states
+      - 'requirements fulfilled' -> change requirements to create error types like imbalances or lacks
+    - generate error types by applying distortion functions to an origin optimal or stable (error-free) state(s) to generate deviations from optimal state
+    - apply core functions of error types to problem space objects or interface objects
+      - apply core change functions to:
+        - structure/position/format
+        - data
+    - apply core structures to problem components
+      - lack error type
+        - lack of resource
+          - lack of dependency
+
   - apply insight paths to generate other insight paths (such as a solution automation workflow)
     - example: 
       apply the insight path:
