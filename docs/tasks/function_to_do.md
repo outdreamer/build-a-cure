@@ -1,5 +1,13 @@
 # to do
 
+  - organize examples
+
+  - example of deriving solution from problem framed as a distortion:
+    - problem, formatted using distortion structures as an error structure: 
+      - over-distortion, caused by over-applying 'reduction' function 
+    - solution, formatted using distortion structures:
+      - reduction function of the reduction function
+
   - assumption identification algorithm
     - any specific info is a potentially problematic assumption
       - example: 'what function in the software caused the problem' assumes that the stack variable is a constant ('software' part of the stack), when really other variable values should be examined
