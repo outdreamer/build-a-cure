@@ -3,23 +3,32 @@
   - organize examples
 
   - example of deriving solution from problem in a particular format:
+
     - original problem statement: 
-      - object has been over-reduced
+      - 'object has been over-reduced'
+
     - identify optimal format to solve problem in:
-      - definition of 'over' = 'excess', which is a known error type causal structure
-      - adjacent error types include: 
-        - imbalance
-          - solution format would involve finding balancing structures - a more abstract (less clear) solution format than a difference from a standard
-        - mismatch
-          - solution format would involve finding matching structures between object & the system context - also a more abstract (less clear) solution format
-        - difference from standard
-          - 'difference from standard' has a clear solution format, in the form of a path structure, from the original standard format to the distorted format
-          - this solution format is clear because it involves more core structures like 'distance', with clear mappings to the problem system components ('difference' mapped to 'distance' of 'network path' structure)
-          
-    - problem, formatted using distortion structures as an error structure: 
-      - over-distortion, caused by over-applying 'reduction' function 
-    - solution, formatted using distortion structures:
-      - reduction function of the reduction function
+      - standardized definition of 'over' = 'excess', which is a known error type causal structure
+        - standardized problem statement: 
+          - 'object has error of type excess, applied to reduction function iterations'
+      
+      - identify adjacent error structures & alternative definition routes of problem components (or iterate through error structures, checking each for fit to problem components)
+        - adjacent error types & definition routes of 'excess' include: 
+          - imbalance
+            - solution format would involve finding balancing structures - a more abstract (less clear) solution format than a difference from a standard
+          - mismatch
+            - solution format would involve finding matching structures between object & the system context - also a more abstract (less clear) solution format
+          - difference from standard
+            - 'difference from standard' has a clear solution format, in the form of a path structure, from the standard (origin) format to the distorted (over-reduced) format
+            - this solution format is clear because it involves more core structures like 'distance', with clear mappings to the problem system components ('difference' mapped to 'distance' of 'network path' structure, measured in 'number of differences' as steps between origin & distorted object versions)
+            
+    - apply optimal format to problem:
+
+      - problem, formatted using distortion structures as an error structure: 
+        - over-distortion, caused by over-applying 'reduction' function 
+
+      - solution, formatted using distortion structures:
+        - reduction function of the reduction function, applied to un-distort distortions ('differences from standard')
 
   - assumption identification algorithm
     - any specific info is a potentially problematic assumption
