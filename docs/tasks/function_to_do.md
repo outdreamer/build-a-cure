@@ -43,12 +43,14 @@
                         - the remaining steps to solve the problem involve connecting the new format ('differences from standard (origin)') with the solution format ('object is not over-reduced')
                           - remaining steps include:
                             - standardization of solution format
-                            - converting solution format to current problem format
+                            - converting standardized solution format to current problem format
                             - finding a connecting function
                           - example logic of remaining steps:
                             - standardize solution format:
-                              - apply 'opposite' structural definition: 
-                                - 'not over-reduced' can mean:
+                              - find structures relevant to problem & solution format
+                                - 'over-reduced' and 'not over-reduced' imply the 'opposite' core structure
+                              - apply 'opposite' structural definition to find structures relevant to the problem
+                                - 'not over-reduced' applied to the problem can mean:
                                   - 'less reduced than excess position'
                                   - 'origin position'
                             - convert standardized solution format to current problem format
@@ -59,8 +61,24 @@
                                       - any integer less than current number of steps associated with excess position
                               - the converted solution format:
                                 - 'less steps away from origin than excess position'
-                            - find connecting function of converted solution format & current problem format
-                              - find reduction-neutralizing or reduction-reducing functions
+                            - find connecting function of converted standardized solution format & current problem format
+                              - find 'opposite' structures of 'reduction' function:
+                                - find 'opposite' structures relevant to an 'excess'
+                                  - reduce the excess
+                                  - convert the excess to zero (if zero is acceptable structure for solution format)
+                                  - remove the object in excess (if zero is acceptable structure for solution format)
+                                - find 'opposite' structures relevant to a 'reduction'
+                                  - increase the component quantity that was reduced (object dimensions)
+                                - find 'opposite' structures relevant to a 'function application' (call_count)
+                                  - neutralizing
+                                  - invalidating
+                                  - reversing
+                                  - reducing
+                                - find opposite functions
+                                  - find function that reduces the excess
+                                  - find function that reduces the reduction
+                                  - find function that neutralizes/invalidates/reverses/reduces a function.call_count
+
                       - this may not be fewer general steps away:
                         - every problem format change requires:
                           - checking new problem format for difference from solution format
@@ -68,7 +86,7 @@
                           - finding a connecting function for the current problem format & the standardized solution format
                         - every solution format requires:
                           - standardization (can be done at beginning of interface query)
-                      - but the logic for these steps may be adjacent to create/derive, or it may already exist
+                      - but the logic for these steps may be adjacent to create/derive, or it may already exist, so that solution fulfilling the general steps is trivial to assemble with existing logic
                         - example logic that would already be defined: 
                           - standardize structures
                           - pull definitions
