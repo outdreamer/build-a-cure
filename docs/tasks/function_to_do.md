@@ -1497,33 +1497,6 @@
       - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output information that could produce the answering info to the query
         - formatting the system with structural interface metadata (such as info gaps, intents, incentives, equivalences, & vertex variables) will make these optimal query patterns more obvious
 
-  - organize list of high-impact queries which can be used for finding optimal solutions manually now while building product
-
-    - query: reverse engineering solution metric with core structures as filters to find relevant metric structures
-
-      - problem statement: 'find individual unit metric value in a container having equivalent & different components, without a function to measure individual unit metric value, and given total container metric value & unit count'
-        - find relevant structures of the metric
-          - apply insight relevant to 'calculations': 'apply the same standards when calculating if possible'
-            - apply concept of 'similarity'
-              - find relevant structures having the same metric
-                - find relevant structures to 'unit'
-                  - apply core concepts/structures to problem system structures
-                    - apply core structures of 'combination'
-                      - relevant structure: set of units, having an aggregate metric, usable input to an averaging function
-                    - apply core concept of 'opposite' or 'not equal' and the core concept of 'total' (the complete set of all components in container)
-                      - relevant structure: set of non-unit components in container, having the same metric, usable input to a subtraction function
-          - find most measurable structure (with greatest accuracy or fewest steps) out of the relevant structures having the same metric
-        - find calculation relationship between adjacent proxy metric of relevant structure and original solution metric (individual unit metric value)
-          - calculation relationship between sets of not-equal components and equal components to the individual unit metric:
-            - calculation relationship: "subtract not-equal component set metric value from total value, and divide by unit count to find individual unit metric"
-          - to find this relationship, execute the opposites/reversals of the operations to find the relevant structure metric values
-            - 'subtract' is opposing function of 'combine'
-              - 'combine' was executed to get the list of sets of components (not-equal components & equal components)
-            - 'divide' is opposing function of 'combine'
-              - 'combine' was executed to get the set of equal components, relative to the individual unit
-            - these two combine operations were used to create a path from the individual unit to the set of total components in the container
-            - they can also be applied in reverse to get from the given total container metric value to the individual unit metric value
-
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
 
     - identify 'inevitable' definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
@@ -1569,24 +1542,6 @@
     - thinking definition as 'applying structure to uncertainty'
     - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
 
-  - example algorithm to identify rules that violate a metric 
-    - requirement like: 
-      - 'dont exacerbate inequalities'
-      - 'protect minorities on the disadvantaged side of an inequality'
-      - 'identify advantaged side'
-    - power structures: required or non-specific/universal resources (such as inputs to any function, like 'energy' or 'information')
-    - inequality structures: differences in distribution of required resources
-    - generate structures that would exacerbate inequality structures
-      - assumptions in rules (lack of guaranteed potential to follow rule)
-        - rule 'close malls after business hours'
-          - rule structure: 'limiting supplies' (access to facility)
-          - rule assumption: that they have alternative supplies
-        - rule: 'fine for not wearing mask'
-          - rule structure: 'requiring function' (purchase mask)
-          - rule assumption: that they have inputs to a requirement
-      - these assumptions would disproportionately increase inequality's disadvantages in distribution
-      - 'disadvantaging rules/assumptions' can be distributed more evenly or to offset inequalities
-
   - identify semantic processing necessary to get good prediction results with existing algorithms & params
     - example: find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
       - the approximation may leave out other analysis logic like alternative/combination analysis (to identify sets of alternate prediction functions, or causal/functional/priority/missing/type structures in the data set)
@@ -1626,44 +1581,6 @@
         - there are more randomness injection points at larger scales
         - change-resistance (stability) occurs more at larger scales
         - change measurability varies across scales
-
-  - examine efficiencies from missing components
-    - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
-    - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
-    - missing component metadata
-      - how adjacently it can be learned/generated/invalidated/delegated/identified/borrowed
-      - how likely it is to be learned/generated/invalidated/delegated/identified/borrowed
-      - whether another missing component can be used instead
-      - whether the system missing that component should be changed instead
-      - whether a system having that component succeeds at the intent task (& fails at others currently fulfilled by the system missing that component)
-    - example:
-      - not having a function incentivizes:
-        - identity: development of that function
-        - abstraction: development of generalization of that function, parameterizing that function intent
-        - alternate: development of a proxy or alternative or invalidating function, making the function itself unnecessary
-        - cause: development of structure/function/attribute that invalidates the original requirement metadata (priority, intent, dependency structures), not just invalidating the function
-        - alternate format: development of a structure/attribute that replaces the requirement for the function or allows the function to be generated as needed
-        - derivation: developing a function to learn/derive/identify/borrow/cooperate functionality from external info, to generate functionality as needed
-        - core: developing components capable of building all functions to generate functionality as needed
-        - subset: developing components of that function so the function & other functions can be generated as needed
-        - combination: development of a function capable of fulfilling that intent & other intents
-        - distribution: distributing functionality-generating methods to all nodes requiring functions
-        - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
-
-  - optimized network structure
-
-    - the optimized network can be structured as versions for different intents like:
-      - lowest-memory generator: the average network + distortion functions
-      - relevant generator: the network nearest to the most useful versions of it
-      - quick generator: the network with the components that can build other versions at lowest cost
-      - core generator: the network with core components to build all other components
-      - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
-
-    - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
-      - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
-        - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
-
-    - can probably be adjacently derived from subatomic particle interactions, which implement the core objects of interfaces like cause & potential
 
   - primary variables of brain functionality:
     - connectivity/alignment
@@ -1735,69 +1652,7 @@
     - these locked objects can be used to generate rule-generating/deriving/finding structures, by forming an initial structure of locked objects and filling that structure with conditional & changeable structures
       - these rule-generating/deriving/finding structures can be used as solution automation workflows
 
-  - difference vs. similarity
-    - similarities between difference & similarity
-      - distance metric
-    - differences between difference & similarity
-      - amount of info that needs to be stored for a complete accurate description ('what something is not' may require more info to be stored compared to 'what something is')
-    - the position of difference between difference & similarity may be on non-opposite positions on a circle depicting routes to get from difference to similarity
-      - this is bc a similarity is a degree of difference (low/zero difference) & so is a difference (higher degree of difference that can be measured or is observed as noticeably different compared to a similarity)
-      - the structure may be a circle or other loop bc if you stack enough differences, eventually you may generate the original object
-    - the conversion of difference into similarity is based on the concept of a threshold, where a difference acquires enough similarities to similarity to cross the threshold or vice versa
-    - the gray area in between the two concepts & surrounding the symmetry of the threshold also conflates the differences between the two concepts, making the difference not a simple 'opposite'
-
-    - example: spectrum structure
-      - handles different cases like 'near low/high/average value' (like between 0 & 1), which have differences in adjacent change types to produce relevant objects (like an integer)
-        - change types like 'small change to produce an integer', 'doubling to produce an integer', etc
-      - the isolated relevant difference structure (without additional info) 
-        - the average value, which has multiple difference types in adjacent change types
-      - conditional relevant difference structures
-        - if the nearest integer triggers other change types, the value near that integer has a relevant difference structure
-
-    - example: position structure
-      - similar positions will be near according to the distance metric, creating a radius of similarity, which results in emergent structures of a boundary, center & circle
-      - different positions can be represented as a structure lacking a circle/boundary/center
-      - the differences in similarity/difference structures have emergent effects & coordinate with different interface objects (like adjacent structures, change types, relevant objects, etc)
-        - a lack of an object can be used like other gap structures are used (as a filter, container or template)
-        - an object can be used as a component or other base object to use as an input
-
-    - this is why differences are not just the 'opposite of similarities' - it leaves out information like:
-      - similarities of varying relevance between similarity & difference (both use a distance metric)
-      - the reason why a difference is used vs. a similarity (like 'filtering' intents)
-      - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
-      - info about the structure of difference (difference paths/stacks/layers/trajectories), which may vary in ways that similarities do not
-        - this indicates the important point that similarities are insufficient to predict differences
-      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty & randomness, and solve all problems - which is not guaranteed
-        - meaning 'derive structures outside of the universe, using info from inside the universe' 
-      - similarities may have similarities to each other, more than similarities to differences
-      - randomness has a similarity (in outcome probability), but is better than similarity as an input to generate difference structures like uncertainty
-
-  - document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
-    - randomness collisions generate structure
-      - structure being the stabilized interaction of information (staying constant long enough to attain structure)
-      - randomness being a lack of information (like a star or circle with equally likely directions of change)
-        - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
-      - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
-
   - document interacting AI error types (as in financial price & crime prediction models)
-
-  - standardization application to generate logic automation algorithm
-
-    - iterate through interface objects (change type, problem type, assumptions, etc)
-      - find interface objects in a problem space 
-        - filter by relevance structures (like interaction directness/causation, such as change hubs)
-          - apply problem structures related to relevant structures
-            - apply organization structures (like a sequence of tests/queries) to problem structures
-
-    - specific logic automation example
-      - check for missing relevant info in info found with variables
-        - change to add earlier window to mtime param bc its out of error window
-      - find interaction type & change type in info metadata (filename, modification time relationship)
-        - any logs changed in later would include logs modified earlier bc of lack of incrementing/rollover, so mtime increase is unnecessary
-      - check assumptions for requirements
-        - mtime param unnecessary bc most logs would be modified in original mtime param
-      - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
-        - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
 
   - examine function topologies (structures & structure change metadata that can maintain a particular function)
     - document intent structures (like intent sets) associated with function topologies
@@ -1901,22 +1756,6 @@
               - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
               - time to check for a structure in the difference type index
       
-  - real vs. ai detection algorithm
-    - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
-    - wrong context for a pattern
-    - over-repetition
-    - over-similarity to previous information (lacking expected change structures, like change trajectory & types)
-    - no matching reason/intent/priority for deviations from archetypes/patterns
-    - over-correction when integrating a variable
-    - variables identified in isolation
-    - most clearly/measurably different variables identified
-    - structure organizing variable structures (randomness injection points, enforcement gaps, info imbalances)
-    - over-simplistic or erroneous automated sub-components
-    - improbable level of randomness
-      - clear composition of core patterns
-    - sources of randomness
-      - errors are evenly distributed among more complex adjacent sub-components not expected to change as much
-
   - the most useful patterns will be:
     - cross-interface patterns: patterns linking interface objects
       - patterns of interface components that link all interfaces: 
@@ -1927,182 +1766,21 @@
     - core patterns & core interface components that can build other components
       - patterns in core interface components, like change/difference patterns
 
-    - errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
+  - errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
       - stacking errors may be a better way to frame problems than other interfaces
         - the level of randomness captured by the error structure
         - errors can function as limits as well as difference types building a problem structure
 
-    - when testing different variable subsets, you can select a variable set split by structures like:
-      - vertex variables
-      - variables on interim interfaces where other variables aggregate (in bottlenecks or hubs)
-      - difference interactions
-        - difference type (homogeneous sets of difference types)
-        - differences in different types (heterogeneous sets of difference types)
-        - which difference type sets would identify the most errors or are the most different from other difference type sets
-      - which difference types are the biggest variance-reducers when combined
-      - which difference types have an attribute (common, relevance, similarity)
-
-  - identify bias structures as output of operations on structures, or by missing structures that cause bias
-    - bias is a filter that leaves out relevant information
-    - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
-      - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
-
   - design an optimal sorting structure for general interface queries to apply to problems manually
-
-  - starting points of filters that reduce the problem space
-    - starting point of identifying all the assumption sets that it would be most problematic to get incorrect to prevent the worst error types
-      - in the problem of 'predict cat vs. dog', the worst error types are:
-        - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
-        - an object that is artificial identified as real (cat robot identified as a cat)
-      - to predict these error types, certain concepts need to be inferred
-        - the concept of 'agency' to design a machine that looks like an animal
-        - the structure of 'false equivalence' to design situations where features would look like a category but not actually be that
-    - starting point of identifying all the feature ranges where it would be impossible to give high-accuracy answers (ai-generated cat image vs. real image)
-    - organizing these filters in a useful sorting structure (network, tree) can reduce the computations required to solve for a prediction function
-
-  - predicting prediction function error types
-    - false equivalence
-      - similar routes to different answers
-        - this implies similar patterns in variable structures & interactions across data groups
-      - overlap
-      - lack of differentiating variables in data set
-    - false difference
-      - merging/imminent similarity/equivalence
-        - functions that can act on other functions to produce a false or real equivalence to another function
-      - alternative routes to the same answer
-        - identify all the alternative structures (routes, combinations, trees) to an answer between function components like variables, data sets/subsets, & neural net components like weight path patterns, and the differentiating factors & vertexes, then use that to implement a filtering structure to sort through them to rule out the most possible answers the quickest
-      - alternative answer types
-        - identify all the different variable/function combinations that could create the most differences in similar answers (such as different types or contexts like a separate function for outliers), and a filtering structure to apply these as variation-reduction functions
-      - these filtering structures can act like interfaces, reducing variation in the possible answer set
-    - equivalent combinations
-      - alternative variable subsets that act as proxies to an answer
-    - equivalent variable structures
-      - find variable structures like functions that approximate other variable structures like variable networks
 
   - example of how to predict most interactive/causal concepts in a system
 
-  - make diagram 
-
   - list interface selection (based on inputs like available APIs/data sets/definitions)
 
-  - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
-    - filling problem
-      - missing info problem: the solution format is the complete structure
-      - optimization problem: the solution format is the variables/system organized to comply with/fulfill the metric to optimize 
-      - aggregation problem: the solution format is the aggregation method to form a structure (like combining core functions to get a function for an intent)
-    - limit problem
-      - constraint problem: the solution format is the removal/invalidation of that constraint
-    - reduction/decomposition problem
-      - complexity reduction problem: the solution format is the set of variables that reduces complexity of the problem
-      - randomness reduction problem: the solution format is the set of variables that can replicate a semblance of randomness
-      - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
-    - organization/mapping problem: the solution format is the set of relevant components in the right structure (positioning & connecting them)
-      - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
-      - balancing problem: the solution format is the distribution of resources nearest to a balanced state (subset of matching problem, by matching distribution across positions)
-      - combination problem: the solution format is the set of components in a combination structure that doesnt contradict combination rules (components fit together, like 'finding a system where a function can execute')
-        - connecting problem: the solution format is the set of functions that connect the components, in the position where they act as connectors
-    - finding problem
-      - discovery (insight-finding) problem: the solution format is the set of generative/distortion/core functions or the set of filters to find the insight
-      - route-finding problem: the solution format is the route between two points that doesnt contradict any solution constraints and/or optimizes a solution metric
-    - other solution formats would be for adjacent/causal problems, solution formats that invalidate solving the problem, etc
-
-  - to generate solution automation workflows:
-    - combine problem types
-      - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
-    - combine structures & connect structure combinations by problem types
-      - the structure combination of 'a sequence injected in a network' is a structure matching a 'route finding problem', so apply solution structures that find a route in a network, such as filters using metrics or rules that can filter routes by which routes dont contradict rules
-        - the solution automation workflow is 'find structures relevant to resolving problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
-        - the workflow matches 'sequence in a network' with 'route filtering structures', connected by the problem format 'find a route'
-    - combine structures & core functions
-      - the structure of the core function sequence(find, apply, build, filter) = matches solution automation workflows like 'find components which, when this function is applied, can construct this structure, complying with these solution metric filters'
-    - combine components of solution automation workflows (functions, queries, interfaces, problems/solutions, structures) that have a valid input/output sequence
-
-  - problem objects: solution constraints/metrics, problem space variables, available functions, useful formats/structures
-
-  - how to find variables in a problem statement
-    - find isolatable change types
-      - if the problem is 'predict movement of object', this means: 'find change in possible orthogonal directions'
-        - filter out redundant variables (like if variable A/B + randomness constant can be replaced with variable C + another randomness constant)
-        - filter out variables or variable structures like combinations that look like randomness to leave sets of variable/s
-          - find prediction function for variables with randomness excluded
-          - apply degree of randomness with randomness accretion patterns & interaction structures (like other objects on interaction layers) to prediction functions once variable dependencies are described, to generate prediction function set or prediction function with distortion vectors for possible ranges, then test on data 
-    - variable sets that cant be ruled out can be considered sub-problems to solve ('rule out this variable set') in addition to the original problem of 'finding a prediction function'
-
-    - concept-structure 'find prediction function' interface query
-      - find solution filters
-        - find range of error allowed for solution
-      - convert to problem interface
-        - predict missing info 'future state of variables' with input 'past information'
-        - standardize to structural interface
-          - find vertex concepts
-            - 'find prediction function' using past information involves:
-              - risk structures like: possibility that an unknown structure is causative
-              - randomness structures like: possibility that known structures will be distorted by randomness
-              - change structures like: possibility that known structures will change & info needs to be found/derived to update variables
-            - combine risk structures, randomness structures, & change structures
-              - filter which combinations match data
-                - filter which combinations match data within range required by solution filter
-
-  - general interface query example for 'find prediction function'
-
-    - change: find highest change problem variables in problem statement
-      - structure: find combinations/subsets of variables
-      - cause: find dependency structure of variable subsets
-        - function: find input/output sequences of variable subsets
-        - structure: filter the sequences by whichever sequences link the source/target structure
-          - problem: solve sub-problems of organizing variable subsets
-          - structure: aggregate sub-problem solutions
-
-  - specific interface query example for 'find prediction function'
-
-      - change: find highest change problem variables in problem statement
-          - which probability distribution it is
-          - variable values given
-          - whether alternate probability distributions can be ruled out using constraints/assumptions/parameters/change types & other info of problem
-          - sub-problems
-          - sub-problem structure (organizing the sub-problems)
-
-        - structure: find subsets of variables
-          - example problem variable subsets:
-            - missing info + variables values given + sub-problems
-            - probability distribution + variable values given + other problems or problem patterns
-
-        - cause: find dependency structure of variable subsets
-            - missing info + variables values given + sub-problems
-              - with the missing info & variable values given, you may be able to infer the probability distribution (though not always if the problem statement is ambiguous) and derive the sub-problems to solve
-            - probability distribution + variable values given + other problems or problem patterns
-              - from the probability distribution & variable values given & other problems, you may be able to infer what the missing info is given questions usually asked with that distribution
-
-          - function: find input/output sequence of variable subsets
-
-          - structure: filter the sequences by whichever sequences link the source/target structure (variable values, probability distribution & missing info, 'probability of event')
-
-            - problem: 'predict probability of event A given event B & some parameter/condition C'
-              - sub-problems
-                - identify problem metadata (probability distribution, variables & values) in problem statement
-                  - identify missing info (specific problem to solve, like 'find the missing info that is a probability of a specific event')
-                - identify alternate interpretations of problem
-                  - filter alternate interpretations (to likeliest or the interpretation with no contradictions)
-                    - match variables & values in problem with parameters of the probability distribution or relevant functions
-                      - filter functions to functions with output type 'probability'
-                        - filter functions to functions with specific output probability matching missing info
-              - aggregate sub-problem solutions
-                - missing info:
-                  - apply variable values to relevant functions to generate missing info (specific output probability)
+  - problem interface structures: solution constraints/metrics, problem space variables, available functions, useful formats/structures
 
   - identify economic cycles not integrated enough with other economic structures so as to be considered essential
     - debts to entities who dont provide essential inputs or inputs further up the chain with x degree of distance from essential resource suppliers
-
-  - add to insight path & solution automation workflow indexes
-    - find an example & generalize
-      - find core/unit objects, find example using those objects, & generalize
-    - find an example & counterexample & connect them
-    - execute a problem-reduction function/structure/question sequence
-    - execute a solution-space reduction sequence before solving for remainder problem
-    - run query to find interacting interface structures, then apply solutions for that specific problem space's interface network
-    - identify vertex variables first & approximate
-    - identify problem types & corresponding solution aggregation method for that set of types
-    - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
 
   - examine structures of trend convergence 
 
@@ -2145,14 +1823,12 @@
         - organization of competition in a problem market, for important optimizations only
         - market selection/optimization/automation
 
-  - make interface query output diagram
-
   - organize examples
     - label examples so they can be queried more structurally
     - query for logic in examples when implementing functions
     - give structural query example diagram for GANs + image compression problem
 
-  - generate default function list
+  - update default function list
 
   - add mapping for data sci use cases => tools
 
@@ -2167,48 +1843,7 @@
     - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
       - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
 
-    - integrate rules from other diagrams not included in patent applications to relevant documents
-        [0010] Example embodiments will be described and explained with additional specificity and detail through the use of the accompanying drawings. 
-        [0011] FIG. 1. 'User Interface Module' illustrates a diagram of a user interface that can accept user input about a problem & program configuration. 
-        [0012] Fig. 2. Interface Analysis Module 140 is a diagram of example components (such as functions & constants) of a program to automatically apply information formats to achieve an input intent. 
-        [0013] Fig. 3. Machine learning system 120 is a diagram of an example wrapper component that would call a machine learning system to predict a variable. 
-        [0014] Fig. 4. API finding/calling system 130 is a diagram of an example wrapper component that would call an API finding/calling system to retrieve data. 
-        [0015] FIG. 5. 'Structure Application Function - Apply Function' illustrates applying a structure to another structure. 
-        [0016] FIG. 6. 'Problem space visualization' illustrates an example visualization of a problem space. 
-        [0017] FIG. 7. 'Network of related problems' illustrates an example of a network of related problems. 
-        [0018] FIG. 8. 'Problem Types' illustrates a set of common problem types formatted as information or structural problems. 
-        [0019] FIG. 9. 'Problem formats, with matching solution formats of problem formats' illustrates an example of various problem formats & solution formats that match them. 
-        [0020] FIG. 10. 'Problem-solution structure-matching: apply a solution function to a structure containing the problem to find specific solution structures for that problem' illustrates an example of matching a problem with a solution. 
-        [0021] FIG. 11. 'Finding alternate solution formats that fulfill different metrics' illustrates an example of selecting a solution format that fulfills a solution metric. 
-        [0022] FIG. 12. 'Network of problem sub-problems, breaking a problem into components problems' illustrates an example of breaking a problem into a set of sub-problems, which once solved, can be aggregated with a solution-aggregation method as shown. 
-        [0023] FIG. 13. 'Causal structure-matching' illustrates a method of matching causal structures to a variable set. 
-        [0024] FIG. 14. 'Design Interface Query' illustrates a method of assembling input information into structural meaning relevant to the input intent, using a structure containing information formats. 
-        [0025] FIG. 15. 'Concept definition network' illustrates a network of related concepts. 
-        [0026] FIG. 16. 'Alternate definition routes' illustrates a set of definition routes for a concept. 
-        [0027] FIG. 17. 'Match structure for a definition of a concept' illustrates matching a structure to a concept. 
-        [0028] FIG. 18. 'Intent-matching' illustrates matching intent to structure & vice versa. 
-        [0029] FIG. 19. 'Insight path application' illustrates insight path examples and an example of applying an insight path. 
-        [0030] FIG. 20. 'Interface conversion & matching' illustrates an example of selecting an interface to traverse. 
-        [0031] FIG. 21. 'Interface & traversal diagram' illustrates an example of a diagram indicating an example interface, & a diagram indicating which interfaces to traverse in what sequence (forming an interface query). 
-        [0032] Fig. 22 is a diagram of a process that describes the general workflow for implementing interface analysis. 
-        [0033] Fig. 23 is a diagram of an example usage of the system. 
-        [0034] Fig. 24 is a diagram of an example environment in which systems and/or methods, described herein, may be implemented, including interface analysis module 220 in FIG. 22. 
-        [0035] Fig. 25 is a diagram of example components of one or more devices of FIG. 22. 
-        [0006] Figs. 1A - 1J contain diagrams of an overview of an example implementation 100 described herein. 
-        [0007] Fig. 1A User Interaction Module 110 is a diagram of an example user interface implementation to gather input about a problem & program configuration for Solution Automation Module 140.
-        [0008] Fig. 1B Solution Automation Module 140 is a diagram of example components (such as functions & constants) of a program to automatically find/derive/generate a solution for a problem, to implement the general execution workflow of Fig. 4. 
-        [0009] Fig. 1C Machine learning system 120 is a diagram of an example wrapper component that would call a machine learning system to predict a variable. 
-        [0010] Fig. 1D API finding/calling system 130 is a diagram of an example wrapper component that would call an API finding/calling system to retrieve data. 
-        [0011] Fig. 1E Solution Output 150 is a diagram of an example output of the process in Fig. 4 that could be displayed & edited in the User Interaction Module 110. 
-        [0012] Figs. 1F - 1I contain diagrams of an example problem-solving automation workflow (such as problem space structurization (formatted as filters/limits/functions/networks/vectors)) detailing a particular interface traversal format sequence that can be used to solve most problems. 
-        [0013] Fig. 1F Finding matches between problem & interface components is a diagram of an example implementation of step 404 - 406 of the process of Fig. 4 (converting a problem to an interface, mapping between components of the problem & interface). 
-        [0014] Fig. 1G Applying matching interface components to relevant problem system components is a diagram of an example implementation of step 407 of the process of Fig. 4 (applying matching mapped objects from the interface to the problem system). 
-        [0015] Fig. 1H Applying solution metric structures to solution structures is a diagram of an example implementation of step 408 of the process of Fig. 4 (applying solution metric structures to solution structures). 
-        [0016] Fig. 1I Example Object Definition Structures is a diagram of example structures forming the definition routes of an example system object on the structural interface. An example of a definition route is documented here: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/definition_routes.json 
-        [0017] Fig. 1J is a diagram of an example usage of the system. 
-        [0018] Fig. 2 is a diagram of an example environment in which systems and/or methods, described herein, may be implemented, including solution automation module 220 in FIG. 2 which refers to solution automation module 140 in FIG. 1. 
-        [0019] Fig. 3 is a diagram of example components of one or more devices of FIG. 2. 
-        [0020] Fig. 4 General Execution Workflow is an overview of an example process 400 for implementing problem-solving automation workflows in steps 402 - 410, from initial problem formatting to solution matching to solution application & analysis. 
+    - integrate rules from diagrams in patent applications to relevant documents
           
   - using set theory in query operations:
     - edges as core organizing/formatting operations (find/apply) & interfaces (connecting/explanatory concepts/functions)
@@ -2217,11 +1852,11 @@
 
 ## examples
 
-  - example: to identify false information across user requests:
-    - example of applying intent interface: 
-      - check with intent provider (site) if a request for an intent (request password) was just made, to validate messages
-    - example of applying pattern interface: 
-      - check if user access patterns (like 'navigate to site, then check email for site password reset') match the intent of a message
+  - example: to identify false information across user requests
+    - apply intent interface: 
+      - check with intent store (site) if a request for an intent (request password) was just made by the user, to validate messages
+      - apply pattern interface: 
+        - check if user access patterns (like 'navigate to site, then check email for site password reset') match that intent
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" (platypus)
     - a temperature monitor sensitive to a hundredth of a degree might provide similar but non-specific power reporting for important/extreme usage patterns without revealing such specific information as that which could infer exact operations being done, bc the interval of temperature measurements allows for greater variation in calculations that could explain it
@@ -2232,10 +1867,6 @@
     - lack of information stored (match problem of type 'information lack' with interface query 'check pattern interface for similar patterns')
     - query problem breakdown & integration diagram
     - calculating various different problem breakdown strategies first before executing normal query-building logic for each
-  
-  - give example of generating problem types by applying structure
-    - for instance, a common problem type is a mismatch/imbalance
-      - by applying the 'mismatch' to the cost/benefit relationship, you get an 'inefficiency' problem type, which can be defined as a mismatch/imbalance between the cost & benefit, favoring the cost side (the negative object out of (cost, benefit), associated with problems)
   
   - add examples of system/object/rule/type change patterns
   
@@ -2260,9 +1891,8 @@
       - should show skippable/derivable variables (variables that can be resolved later than they normally are)
       - should show meta forces for overall trends in change rules (direction of combined variable forces)
       - should show limits of measurability & threshold metrics
-    - structurize (apply structure to) definitions of objects specific to interfaces
-      - example: info asymmetry is associated with an info loss in a particular direction between info types/formats, rather than just an info imbalance or mismatch
-      - diagrams for specific concepts, core functions, concept operations (combine, collide, connect, merge, apply), ethical shapes
+
+    - diagrams for specific concepts, core functions, concept operations (combine, collide, connect, merge, apply), ethical shapes
         - variable accretion patterns (how an object becomes influenced by a new variable, complex system interaction patterns, etc)
         - make diagram of potential matrix to display the concept
           - map parameter sets to potential matrix shapes 
@@ -2274,7 +1904,7 @@
 
     - map variable structures to prediction potential for problem types, given ratio of equivalent alternate signals
 
-    - calculating solvability limit of a problem, without being given the answer
+    - finding solvability limit of a problem, without being given the answer
       - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
         - connected structural info:
           - when they choose the number
@@ -2299,7 +1929,7 @@
 
         - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
 
-    - optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
+    - finding optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
       - buttons vs. configuration (headphones with buttons)
         - variables
           - hardware
@@ -2379,8 +2009,11 @@
           - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
             - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
 
+        - identify interaction structures (like trade-offs) between optimization metrics
+          - find maximization of metric-optimization in those interaction structures
+
     - vertex variable structures
-      - quantum physics, prediction/derivation tools, building automation tools, testing tools, learning/adaptation tools, system rules, computation power are all vertex variables of information
+      - quantum physics, prediction/derivation tools, build automation tools, testing tools, learning/adaptation tools, system rules, computation power are all vertex variables of information - they can generate/derive/find information
       - which structure (sequence, network, set, or cycle) of vertex variables is most efficient
 
     - add to markets:
@@ -2430,57 +2063,6 @@
         - identify type of exposure possible (injection, nanoparticle) and assemble components
       - identify evolution triggers (like cycles & variation of stressors) & use as a supply of change requests to trigger adaptive mutations for pathogens or pathogen types
 
-    - example of alternate variable sets for predicting motion
-
-      - exercise variables:
-        - info (about optimizations, possibilities, rules, metrics)
-          - attention/memory to focus on, remember & apply info
-        - patterns
-        - structures
-          - point (metric threshold values, change points, decision points)
-          - sequence: 
-          - combination: multiple variables to make a decision
-          - limits: time limits, energy limits
-          - context
-            - health
-            - energy
-            - environment
-              - landmarks
-              - agents
-              - interactions/events
-        - time
-          - time structures (alternation, number of seconds, continuity of pattern applied)
-        - functions 
-          - core functions (test, start/stop, switch, remember, identify)
-          - interaction level functions (decide when to speed up, plan decision points)
-        - concepts
-          - energy
-          - agency
-          - intent
-            - exercise intents: recover, rest, test/find limit, test function, switch energy sources, apply info, identify landmark, align with music
-            - other intents: what to do after workout, scheduling limits to work around, listen to new music, listen to music limited number of times
-
-      - variable sets that can predict motion:
-        - time cant be used on its own bc usage patterns may offer the illusion of equivalent alternatives that are actually different
-          - example: pattern 'a-b-c' may occur just as often as 'a-b-d' without any distinguishable signals using available time info, so other interfaces need to be applied to predict c or d, such as contextual/intent probabilities, or patterns like intent patterns or change patterns 
-        - agency rules
-          - agents have known intents, which interact in a known way
-        - interaction rules
-          - energy, time, agents, & health interact in this way
-        - energy rules
-          - 'energy can be used to produce energy in other formats'
-          - 'stored energy can replace agent prioritization'
-          - 'excess energy can have these outputs when used optimally'
-          - 'energy efficiency increases with usage'
-          - 'high variation in usage increases energy coordination & distribution'
-          - 'brain & muscle energy are related, in a pseudo-tradeoff'
-          - 'high variation in energy usage can offset energy plateaus'
-        - variable interaction patterns
-          - 'using n number of variables to make a decision only occurs once out of every x decisions'
-          - 'applying previously applied variable interaction rules is most common'
-          - 'excess energy results in higher variability of variable interactions'
-        - concepts
-          - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
 
 # content/config
 
