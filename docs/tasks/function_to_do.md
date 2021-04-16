@@ -2,7 +2,20 @@
 
   - organize examples
 
-  - example of deriving solution from problem framed as a distortion:
+  - example of deriving solution from problem in a particular format:
+    - original problem statement: 
+      - object has been over-reduced
+    - identify optimal format to solve problem in:
+      - definition of 'over' = 'excess', which is a known error type causal structure
+      - adjacent error types include: 
+        - imbalance
+          - solution format would involve finding balancing structures - a more abstract (less clear) solution format than a difference from a standard
+        - mismatch
+          - solution format would involve finding matching structures between object & the system context - also a more abstract (less clear) solution format
+        - difference from standard
+          - 'difference from standard' has a clear solution format, in the form of a path structure, from the original standard format to the distorted format
+          - this solution format is clear because it involves more core structures like 'distance', with clear mappings to the problem system components ('difference' mapped to 'distance' of 'network path' structure)
+          
     - problem, formatted using distortion structures as an error structure: 
       - over-distortion, caused by over-applying 'reduction' function 
     - solution, formatted using distortion structures:
