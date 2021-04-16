@@ -35,13 +35,13 @@
                       - makes the solution clear
                       - reduces the tasks necessary to solve the problem (connect problem & solution)
                     - once problem is formatted as a set of distortions from an origin, is the solution:
-                      - reached
+                      - reached (new problem format equals solution format)
                         - the format itself doesnt solve the problem - the object is still over-reduced
                       - clear
                         - the format adds clarity without losing info - the object & relationships are accurately represented, in a simple format
                       - fewer steps away
                         - the remaining steps to solve the problem involve connecting the new format ('differences from standard (origin)') with the solution format ('object is not over-reduced')
-                          - remaining steps include 
+                          - remaining steps include:
                             - standardization of solution format
                             - converting solution format to current problem format
                             - finding a connecting function
@@ -61,6 +61,21 @@
                                 - 'less steps away from origin than excess position'
                             - find connecting function of converted solution format & current problem format
                               - find reduction-neutralizing or reduction-reducing functions
+                      - this may not be fewer general steps away:
+                        - every problem format change requires:
+                          - checking new problem format for difference from solution format
+                          - finding a conversion function to convert the standardize solution format into the current problem format
+                          - finding a connecting function for the current problem format & the standardized solution format
+                        - every solution format requires:
+                          - standardization (can be done at beginning of interface query)
+                      - but the logic for these steps may be adjacent to create/derive, or it may already exist
+                        - example logic that would already be defined: 
+                          - standardize structures
+                          - pull definitions
+                          - find similar structures
+                          - find relevant structures (meaning)
+                          - check for matches in similar structures
+                          - check for usefulness (reduction of solution steps, clarity, or solution) of structurees
 
   - example of deriving solution from problem in a particular format:
 
