@@ -2,16 +2,78 @@
 
   - organize examples
 
+  - check reduced language components for any other useful functions (what terms cant be adjacently, clearly & accurately framed in terms youve defined) for completeness
+
+  - function to check format for clarity, adjacence & usefulness/relevance to a problem
+    - check if 'difference from standard' is a useful (clear, adjacent) format for the problem 'object is over-reduced'
+      - standardize problem statement: 
+        - standardized statement: 'excess' applications of 'reduction' function to 'object' component
+          - find standardized statement components:
+            - 'object' component
+            - 'reduction' function
+            - 'excess' applied to 'apply function' function
+              - formatted definition: function.attributes['call count'] excess
+                - find structure of this definition:
+                  - structure: 
+                    - difference (integer) between optimal function.call_count and excess function.call_count
+                  - check for adjacent method to find structure in problem system
+                    - find structure of a difference formatted as an integer, in a problem system formatted in standard formats
+                      - iterate through standard formats for problem
+                        - function network
+                          - network of problem functions, including 'application' and 'reduction'
+                        - state network: origin state & excess state
+                          - alternative format: state network with origin at center & distorted state, separated by distortion function nodes
+                            - this format has a structural similarity between count attribute of 'distortion function nodes' and function.call_count attribute format, as both are in integer format
+                            - check if this format is adjacent to convert problem to (low-cost, or similar)
+                              - steps to convert problem to this format:
+                                - map standard to origin
+                                - map function.call_count to differences (steps away from origin), structured as distortion function nodes (representing the 'application' function that calls the 'reduction' function)
+                                - map excess to distorted position, function.call_count steps away from origin
+                  - if the conversion steps of that format are lower cost than those of other formats, try this method to see if the format is useful as well as adjacent
+                    - check if applied format is 'useful', defined as:
+                      - solves the problem
+                      - makes the solution clear
+                      - reduces the tasks necessary to solve the problem (connect problem & solution)
+                    - once problem is formatted as a set of distortions from an origin, is the solution:
+                      - reached
+                        - the format itself doesnt solve the problem - the object is still over-reduced
+                      - clear
+                        - the format adds clarity without losing info - the object & relationships are accurately represented, in a simple format
+                      - fewer steps away
+                        - the remaining steps to solve the problem involve connecting the new format ('differences from standard (origin)') with the solution format ('object is not over-reduced')
+                          - remaining steps include 
+                            - standardization of solution format
+                            - converting solution format to current problem format
+                            - finding a connecting function
+                          - example logic of remaining steps:
+                            - standardize solution format:
+                              - apply 'opposite' structural definition: 
+                                - 'not over-reduced' can mean:
+                                  - 'less reduced than excess position'
+                                  - 'origin position'
+                            - convert standardized solution format to current problem format
+                              - convert 'less reduced object than excess position' to 'differences from standard (origin)'
+                                - 'less reduced' applied to excess position in 'differences from standard' format has structure:
+                                  - 'fewer differences (steps from origin)'
+                                    - fewer can mean:
+                                      - any integer less than current number of steps associated with excess position
+                              - the converted solution format:
+                                - 'less steps away from origin than excess position'
+                            - find connecting function of converted solution format & current problem format
+                              - find reduction-neutralizing or reduction-reducing functions
+
   - example of deriving solution from problem in a particular format:
 
     - original problem statement: 
-      - 'object has been over-reduced'
+      - 'object is over-reduced'
 
     - identify optimal format to solve problem in:
-      - standardized definition of 'over' = 'excess', which is a known error type causal structure
-        - standardized problem statement: 
-          - 'object has error of type excess, applied to reduction function iterations'
-      
+
+      - standardize definitions of problem system components
+        - standardized definition of 'over' = 'excess', which is a known error type causal structure
+          - standardized problem statement: 
+            - 'object has error of type excess, applied to reduction function applications'
+        
       - identify adjacent error structures & alternative definition routes of problem components (or iterate through error structures, checking each for fit to problem components)
         - adjacent error types & definition routes of 'excess' include: 
           - imbalance
