@@ -1,8 +1,12 @@
 # math-language map (connecting function) solution automation insight path examples
 
+## apply core structures to interface components for language map
+    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
+
 # solution metric/filter/test examples
 
 ## general solution filters
+
 	- meaning
 		- relevance
 			- usefulness
@@ -96,13 +100,76 @@
 
 # insight path examples
 
-## standard general insight paths (to apply structure to in order to make them specific to a context)
+## insight path of most useful structures for solution automation
+
+    - these structures should be applied first in any generative process, including interface query design
+      - standards: filtering comparison methods
+      - definitions: problem/solution definitions
+      - optimizations/improvements: possible/probable changes for intents
+      - errors: difference
+      - metrics: intents
+      - similarity: adjacence, patterns
+      - relevance: connections
+      - organization: integration methods
+
+    - these structures can be derived with system optimization principles, for attributes like:
+      - reusability: generative functions, definitions/constants/examples
+      - derivability: derivation functions & inputs (core functions, structure application functions, prediction functions, metric selection functions, test functions)
+      - independence: relevance calculation functions (to calculate meaning), system application functions (to derive context), organization functions (to build components using other interactive components)
+      - compartmentalization: core isolated unique components
+      - importance: generative or vertex variables
+      - efficiency: balance between variables & constants, derived/generated & stored functions based on usage & intent changes
+
+	- most useful standardizing structures to apply for generating & applying solution automation workflows (structures that connect problem/solution formats)
+	    - example: 
+	      - combine useful structures (similarities, connections, & types) to generate a new solution automation workflow
+	        - apply definitions of 'error' & 'success' to generate a new solution automation workflow: 
+	          - identify positions of known error types (abstract structures of difference from correct function output variable values) & avoid those positions
+	    - problem/solution
+	      - similar/different
+	        - nothing/something, container/component, negative/positive, equal/opposite
+	        - balance/imbalance
+	        - equivalence/comparison
+	        - interaction/isolation
+	        - dependence/independence
+	        - relevance/irrelevance
+	        - connection/disconnection
+	        - type/subtype, type/other type
+	        - substitute/alternative
+	        - source/target
+	        - constant/variable
+	      - combined/standardized
+	        - expanded/compressed
+	        - attribute set/type
+	        - function logic vs. input-output or intent-query map
+	      - core/interactive
+	        - root/meta
+	        - unit/group
+	      - set/reduction
+	        - network/hub
+	        - space/position
+	        - possibilities/filter
+	        - potential/adjacent
+	      - requirement/change
+	        - direction/force
+	        - limit/efficiency
+	      - intersection/separation
+	        - contradiction/context
+	        - conflict/alignment
+	        - center/distribution
+	      - uncertainty/certainty
+	        - probability/outcome
+	        - random/structured
+	        - abstraction/information
+	        - question/definition
+
+## standard basic general insight paths (to apply structure to in order to make them specific to a context)
 
 	- trial & error
 	- reverse-engineering
 	- break problem into sub-problems, find sub-solutions, merge sub-solutions into solution
 
-## standard structural insight paths
+## standard basic structural insight paths
 
 	- generate adjacent structures & filter by relevant intents
 
@@ -147,18 +214,40 @@
 
 ## error structures
 
-	- distortions from expectations
+	- generating error types
+	    - apply core structures to problem components
+	      - lack error type
+	        - lack of resource
+	          - lack of dependency
+	    - apply definitions of error/problem components
+	      - apply functions that can generate an error type according to its definition
+	        - incorrect: apply changes to variables to generate incorrect values
+	        - imbalance: apply distribution function to create imbalance of a resource
+	      - apply core functions of error types to problem space objects or interface objects
+	        - apply core change functions to:
+	          - structure/position/format
+	          - data
+	    - apply definitions of optimal/solution components
+	      - apply core structures to definitions of solution (functional/stable/optimal) states
+	        - 'requirements fulfilled': change requirements to create error types like imbalances or lacks
+	        - 'functionality working': break functionality
+	        - 'stable system': overwhelm the system
+	        - 'optimal system': solution metric unfulfilled
+	      - generate error types by applying distortion functions to an origin optimal or stable (error-free) state(s) to generate deviations from optimal state
 
-    - false equivalence structures
-      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
-      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
+	- error structures:
 
-	- errors defined as differences between intended/actual structures
+		- distortions from expectations
 
-	- errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
-      - stacking errors may be a better way to frame problems than other interfaces
-        - the level of randomness captured by the error structure
-        - errors can function as limits as well as difference types building a problem structure
+	    - false equivalence structures
+	      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
+	      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
+
+		- errors defined as differences between intended/actual structures
+			- errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
+		      - stacking errors may be a better way to frame problems than other interfaces
+		        - the level of randomness captured by the error structure
+		        - errors can function as limits as well as difference types building a problem structure
 
 ## stupidity structures (like bias)
 
@@ -252,6 +341,29 @@
 
 # generate solution automation insight paths
 
+## apply insight paths to generate other insight paths (such as a solution automation workflow)
+    - example: 
+      apply the insight path:
+        'select commonly useful system objects for find problems' 
+      to the problem:
+        'find rules that fit a system such as a context'
+      after applying standard interface variables like:
+        - abstraction, intent, reusability, & complexity
+      to get system object filters from relevant problem interface object metadata like intents:
+        - problem intents: find, fit
+      which can be used as a filter to selected system objects
+        - 'fit' intent requires a structural similarity
+      with actual parsed query like:
+      - apply system object 'structural similarity' to find structural similarities in the problem system ('find rules that fit a system such as a context') after applying standard interface variables
+        - iterate through standard interface variables
+          - apply 'simplicity' to problem system
+            - output: 'simple' rules, 'simple' systems (and sub-type of system 'simple' context)
+          - iterate through system objects to find sources of efficiency in assembling a solution query
+            - apply 'structural similarity' to problem system
+              - output: structural similarity between 'simple rules' and 'simple system'
+          - integrate output with original problem system to generate solution automation interface query for problem
+            - apply 'simple' rules (as a source of efficiency) in finding rules fitting a 'simple' system
+
 ## generate solution automation interface query
 
     - iterate through interface objects (change type, problem type, assumptions, etc)
@@ -319,6 +431,33 @@
 
 
 # interface query design logic examples
+
+## example of filter for selecting formats
+
+  - why shouldnt everything be formatted as a network (why should you use multiple interfaces or formats)
+    - everything can be depicted as a path on a math/language symbolic map, including insight paths, so why shouldnt that map be used to solve every problem?
+      1. all formats have assumptions embedded which distort the format from the central format (no structure, or randomness), having associated useful intents
+      2. some definitions of complex components would require other structures than a single network path to be fully defined, like:
+          - a layered network query such as a loop, which would be more optimally (like clearly) structured in another format, like a function network
+          - complex functions/concepts could have very intricate structures on a language/math map, which would be more clearly defined on a function or core component network
+          - paths between other paths
+          - paths between attributes of nodes on a path rather than the whole node
+          - multiple paths depicting the system context forming a sub-network around a path
+            - the system interface where agent interactions occur or where stressors are clearly modeled is therefore the best format for some solution automation queries
+      3. the standard network format assumes functionality & attributes should be bundled as components like objects/agents/words/concepts, which may not be optimal for queries like identifying conceptual structures or variable structures
+        - even the attribute format assumes that some attributes should be grouped, and assumes values for certain attributes, where layers would be a better structure for attributes
+        - depending on the interaction level, querying a comprehensive map including all functionality/attributes can be computationally prohibitive
+      4. the interaction functions of solution components (like cause or intent) arent automatically defined on a language/math map
+        - what type of query to run when the problem to solve is answering 'why', having an answer using the 'because' or 'reason' nodes
+        - cause/intent/concepts/systems/potential/change arent immediately clear from the language/math map, where they would be in a format using those interface structures
+      5. some concepts/functions/attributes/components will necessarily be missing from the map until theyre added to the map, and some terms are unnecessary, and some are false
+        - missing components: components no one has used yet or thought of will be missing from the map
+        - unnecessary components: you dont need every interchangeable synonym or every number to effectively communicate a path
+        - false definition: some definitions would be defined suboptimally, giving incorrect query results until corrected
+          - the components wouldnt have the definition routes specialized for different interfaces (like abstract paths generating or defining a component) that enable quick identification of connections & other useful structures
+        - false variation: some changes to a language map would seem like variation but would actually not add much potential in terms of novelty/uniqueness in identifying a new concept
+      6. the definition of difference in a standard language/math/symbol map might not be the best organization for queries, requiring other formats like central core functions with distortion & interaction layers around the center
+
 
 ## example of identifying query-changing (invalidating, embedding, stopping) conditions during an interface query or interface query-generating query
     
@@ -597,6 +736,74 @@
         - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+
+## apply structural definition routes of adjacence (minimal units of work) to find efficiencies 
+
+	- find efficiencies in core functions (multiply, find integral/derivative, find efficient method to calculate difference) by applying structures of adjacence (core functions) and clarity (isolatable structures, definitions)
+
+	    - find product of factors
+	      - apply core, pattern, & structural interfaces
+	        - find pattern structure of factor sets (function connecting factor sets) & use that to calculate using more efficient addition/subtraction operations
+	          - find approximating function given pattern function (adjacent more calculatable pair with adjusting operation)
+	          - find derivation function of a factor in a set, given another factor & pattern structure
+
+	    - find function for integral
+	      - apply core & structural interfaces
+	        - apply combinations of core components (coefficients, powers, values) to find equivalence to area
+
+	    - find function for derivative
+	      - apply core & structural interfaces
+	        - apply core structures (like unit) to reduce calculations
+
+	    - finding method to calculate difference: 
+	      - apply intent, core, structure, change interfaces
+	        - intent: differentiate data point clusters in a clear (easily measured) way
+	          - identify problem metadata
+	          - apply one-degree change to each attribute, like variable count
+	            - add/subtract variable count
+	              - list new components & component changes
+	                - new variable
+	                - new variable structures (combinations, connections)
+	              - apply units of work to new components or changed components
+	                - find functions of differentiating values (positive/negative, multiplication) & attributes (value range allowing very different values) for new variable
+	                  - add variable of differentiating values to make overlapping 2d clusters clearly separable in 3d
+
+## apply structures to generate an assumption identification function
+
+    - define 'assumption' with alternate interfaces, like info/abstraction, filtering for assumptions that cause errors
+      - definition route: any specific info is a potentially problematic assumption
+      - example of an assumption: solving the problem by asking 'what function in the software caused the problem' assumes that the stack variable is a constant ('software' part of the stack), when really other variable values should be examined
+      - since specificity is the root cause of the problematic assumption, remove specificity in the form of a constant by applying the opposite structure (change types to variable values)
+
+## identify & apply optimal structures to connect problem & solution, using alternative definition routes & error structures
+
+    - original problem statement: 
+      - 'object is over-reduced'
+
+    - identify optimal format to solve problem in:
+
+      - standardize definitions of problem system components
+        - standardized definition of 'over' = 'excess', which is a known error type causal structure
+          - standardized problem statement: 
+            - 'object has error of type excess, applied to reduction function applications'
+        
+      - identify adjacent error structures & alternative definition routes of problem components (or iterate through error structures, checking each for fit to problem components)
+        - adjacent error types & definition routes of 'excess' include: 
+          - imbalance
+            - solution format would involve finding balancing structures - a more abstract (less clear) solution format than a difference from a standard
+          - mismatch
+            - solution format would involve finding matching structures between object & the system context - also a more abstract (less clear) solution format
+          - difference from standard
+            - 'difference from standard' has a clear solution format, in the form of a path structure, from the standard (origin) format to the distorted (over-reduced) format
+            - this solution format is clear because it involves more core structures like 'distance', with clear mappings to the problem system components ('difference' mapped to 'distance' of 'network path' structure, measured in 'number of differences' as steps between origin & distorted object versions)
+            
+    - apply optimal format to problem:
+
+      - problem, formatted using distortion structures as an error structure: 
+        - over-distortion, caused by over-applying 'reduction' function 
+
+      - solution, formatted using distortion structures:
+        - reduction function of the reduction function, applied to un-distort distortions ('differences from standard')
 
 ## apply structures of definition routes of a concept (usefulness) like conceptual attributes such as clarity/adjacence
 
