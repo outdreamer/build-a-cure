@@ -106,7 +106,22 @@
 
 	- find optimal structure (combination, path, direction, sequence) for a problem-solving intent (find predictive variable set, functions connecting input/output, priority direction, operation sequence) given metrics like adjacence (structural alignment, low-cost conversion potential) or available functionality/variation in that structure
 
-	- find similarities between available/adjacent/possible structures and connect problem/solution structures using these similarities (like function sequence with coordinating input/outputs)
+	- find similarities (like fit, interactivity, coordination, direction, inputs/outputs, position) between available/adjacent/possible structures and connect problem/solution structures using these similarities (like function sequence with coordinating input/outputs)
+
+## efficient insight paths (using fewest resources, with relatively good accuracy)
+
+### identify interface object set necessary to get good approximate prediction results with existing algorithms & params
+    - find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
+      - definitions may include structures of relevance, like structures of similarity/difference
+      - the approximation may leave out other analysis logic like alternative/combination analysis (to identify sets of alternate prediction functions, or causal/functional/priority/missing/type structures in the data set)
+      - however it may find objects on an interface by including interface objects (include concept definition of agency/skill/decision in the titanic survival data set may identify concepts like 'education' as causative, given that a combination of agency/skill/decisions can be used to produce concept of 'education' = 'an agent making a decision to acquire a skill')
+      - similarly, including structural definitions of 'relevance' may improve prediction results with standard algorithms, allowing output structures of relevance like 'semantic variable connections on the relevance level input to the algorithm', such as an 'explanation'
+        - 'including' meaning 'standardizing to relevance structures, such as similarity/adjacence, inputs, interaction level, etc'
+        - first you'd apply standard analysis to get a set of probable dependency graphs, with paths like:
+          - gender => lifeboat access => survival rate
+        - then you'd apply standardization to relevance structures to the dependency graphs
+          - difference in functional position (gender roles) => difference in function (skills) => difference in usage (responsibility) => difference in resource access => 'survival' intent inputs => 'survival' intent fulfillment
+        - the output would be an approximation of meaning, allowing explanations like 'being female (variable value) increased probability (ratio of outcome among possible alternatives) of being prioritized (randomness structures like starting position as well as the concept of agency in filter structure) for access to survival tools (type of 'lifeboat') bc of less agency/responsibility/skills'
 
 ## solution automation workflow insight path examples
     - find an example & generalize
@@ -121,6 +136,12 @@
 
 # structure examples
 
+## apply structural definition routes to differentiate similar or related concepts
+	- change: sequence of difference structures
+	- difference: non-equivalence on some metric
+	- variable: attribute capturing an isolatable change type
+
+
 ## structural concept definition routes
     - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
     - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
@@ -129,7 +150,15 @@
     - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
 
 ## error structures
+
+	- distortions from expectations
+
+    - false equivalence structures
+      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
+      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
+
 	- errors defined as differences between intended/actual structures
+
 	- errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
       - stacking errors may be a better way to frame problems than other interfaces
         - the level of randomness captured by the error structure
@@ -565,6 +594,29 @@
         - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+
+## apply structures to identify consensus perspective between opposing perspectives
+	- transform a structure in each perspective to a structure in the target perspective
+	    - identify structure of attributes/functions/objects common to both perspectives
+	    	- connecting functions like: 'function connecting power and distribution', 'function describing dictatorship dynamics'
+	    - identify interface objects within structures
+	    	- change type in connecting function: 'direction of power distribution', 'changes in identity & size of group in power'
+	    - identify similarities in interface objects within structures
+	    	- similar change pattern in change type in connecting function: 'power favoring distribution', 'military coups after power abuses'
+
+## apply structures to identify an object like 'contradiction' (contradiction of a statement, formatted as a route between network nodes)
+    - query for conditions that would convert some input, component, or output of the statement function route into some structure of falsehood (invalid, impossible)
+    - example:
+      - query for intents that would require movement in different directions than the statement function route requires
+      - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
+  
+
+## combine core operations (rotate, connect, combine, shift, filter) to convert the base subset/limit functions building or used by a neural network into the output prediction function
+
+## example of applying interface structures to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network typ
+	- organization structures represent applied concepts & structures like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc
+    - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
+    - these structural equivalences/similarities across interaction layers (like different abstraction levels of intents) can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
 
 ## structures applied to these core structures to generate conceptual structures in neural networks
       
