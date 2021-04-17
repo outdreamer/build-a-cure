@@ -1,3 +1,179 @@
+# structure examples
+
+## structural concept definition routes
+    - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
+    - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
+      - opposite requiring a potential for extreme values to occur in a structural possibility where difference can develop
+    - thinking definition as 'applying structure to uncertainty'
+    - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
+
+## error structures
+
+	- generating error types
+	    - apply core structures to problem components
+	      - lack error type
+	        - lack of resource
+	          - lack of dependency
+	    - apply definitions of error/problem components
+	      - apply functions that can generate an error type according to its definition
+	        - incorrect: apply changes to variables to generate incorrect values
+	        - imbalance: apply distribution function to create imbalance of a resource
+	      - apply core functions of error types to problem space objects or interface objects
+	        - apply core change functions to:
+	          - structure/position/format
+	          - data
+	    - apply definitions of optimal/solution components
+	      - apply core structures to definitions of solution (functional/stable/optimal) states
+	        - 'requirements fulfilled': change requirements to create error types like imbalances or lacks
+	        - 'functionality working': break functionality
+	        - 'stable system': overwhelm the system
+	        - 'optimal system': solution metric unfulfilled
+	      - generate error types by applying distortion functions to an origin optimal or stable (error-free) state(s) to generate deviations from optimal state
+
+	- error structures:
+
+		- distortions from expectations
+
+	    - false equivalence structures
+	      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
+	      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
+
+	    - signals of the error type 'low-dimensionality':
+	      - when motion approaches the solution metric (avoiding the error classification of not equaling the solution metric value), but never reaches it
+	        - example: 
+	          - vertical dimension: robot fell onto another level vertically but is still moving toward destination as planned
+	          - alternative agent/force dimension: robot fell onto truck and is moving toward planned destination temporarily
+	          - time/speed dimension: robot encountered barrier preventing it from reaching its planned destination in under the planned time limit
+
+			- errors defined as differences between intended/actual structures
+				- errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
+			      - stacking errors may be a better way to frame problems than other interfaces
+			        - the level of randomness captured by the error structure
+			        - errors can function as limits as well as difference types building a problem structure
+
+	- success vs. error structures
+
+	    - when applying reductive insight paths to reduce solution space, identifying the set of unique isolatable component types (success, neutral, error, metric, function) on an interaction level is necessary to isolate subsets
+
+	    - applying causal interface to problems (like 'find a prediction function') is required for some intents (like 'reduce error' or 'handle change')
+	      
+	      - success cause structures (reasons, or why)
+	        - finding the structure of similarity that explains 'why' an algorithm worked, such as a similarity in the form of an alignment in number of updates & degree of distortion allowed from a base function
+	      
+	      - error cause structures
+
+	        - error cause structures can be used to predict errors & used as filters to reduce solution space to similarity structures
+	          - example: structures of difference like difference between core/required functions
+
+	        - error type causes
+	          - other error types (lack of rule enforcement)
+	          - variable structures (irrelevantly similar variable structures, missing variables, variables that are constant, variable allocation/interaction)
+	          - bias error type structures:
+	            - variable combinations/connections that should be disassociated
+
+    - when should errors be allowed to continue: 
+      - when they dont impact system functionality, dont interact with other errors to form cascades/compounding errors, and provide useful signals of unhandled variance
+    - when should motion be allowed in the direction of risk (risk of error types): 
+      - when uncertainties exist between alternatives
+
+    - flexible abstract/conditional/temporary error definitions to allow for beneficial errors & error-correcting errors
+      - example: 
+        - 'two wrongs make a right'
+          - when a robot instructed to go in a direction is forced off its trajectory by the first error, it has to make another error to get back on track, if an error is defined as 'motion in any direction different from original planned direction'
+          - a solution is a definition of error types that is:
+            - abstract: any intentional motion that brings robot nearer to its goal is not an error
+            - conditional: any motion to correct an external error is not itself an error
+            - temporary: motion in a direction different from planned direction sequence is not an error in some temporary contexts
+  
+## stupidity structures (like bias)
+
+  - apply anti-stupidity structures to neural network structure 
+    - lack of learning functionality
+      - inability to remember (identify relevant info quickly when new info isnt necessary)
+      - inability to identify relevance structures (meaning, usefulness, direct causation)
+      - inability to optimize (identify a quicker route to an insight, like an insight path)
+      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
+      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
+      - inability to direct thoughts (focus)
+      - inability to forget sub-optimal/inaccurate rules (bias)
+        - function to apply bias structures to a neural network structure
+          - thinking benefits from bias removal
+          - remove bias structures in neural networks to improve their thinking capacity
+          - example
+            - apply removal of 'simplicity' bias in a neural network structure
+              - simplicity (specifically over-simplification) definition on structural interface: 
+                - lossy lower-dimensional representation
+                - low-cost representation with relatively reduced learning reward
+              - the simplicity bias shows up in a neural network structure in many possible positions
+                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
+                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
+                - general default params also tend to store simplicity where it's not needed
+            - apply removal of 'similarity' bias 
+              - similarity bias structural definitionss
+                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
+              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
+
+  - bias structures: 
+    - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
+      - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
+      - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
+    - conflating stereotype ('false statement about a group') with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
+    - stupidity manifests as similar structures (fulfillment of low expectations) across groups in response to low expectations, leading to feedback loop
+
+  - identify bias structures as output of operations on structures, or by missing structures that cause bias
+    - bias is a filter that leaves out relevant information
+    - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
+      - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
+  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
+
+## info asymmetry
+	- associated with an info loss ('missing' or 'gap' structure) in a particular direction between info types/formats/positions, rather than just an info imbalance or a mismatch
+
+## difference vs. similarity
+
+    - similarities between difference & similarity
+      - distance metric
+    - differences between difference & similarity
+      - amount of info that needs to be stored for a complete accurate description ('what something is not' may require more info to be stored compared to 'what something is')
+    - the position of difference between difference & similarity may be on non-opposite positions on a circle depicting routes to get from difference to similarity
+      - this is bc a similarity is a degree of difference (low/zero difference) & so is a difference (higher degree of difference that can be measured or is observed as noticeably different compared to a similarity)
+      - the structure may be a circle or other loop bc if you stack enough differences, eventually you may generate the original object
+    - the conversion of difference into similarity is based on the concept of a threshold, where a difference acquires enough similarities to similarity to cross the threshold or vice versa
+    - the gray area in between the two concepts & surrounding the symmetry of the threshold also conflates the differences between the two concepts, making the difference not a simple 'opposite'
+
+    - example: spectrum structure
+      - handles different cases like 'near low/high/average value' (like between 0 & 1), which have differences in adjacent change types to produce relevant objects (like an integer)
+        - change types like 'small change to produce an integer', 'doubling to produce an integer', etc
+      - the isolated relevant difference structure (without additional info) 
+        - the average value, which has multiple difference types in adjacent change types
+      - conditional relevant difference structures
+        - if the nearest integer triggers other change types, the value near that integer has a relevant difference structure
+
+    - example: position structure
+      - similar positions will be near according to the distance metric, creating a radius of similarity, which results in emergent structures of a boundary, center & circle
+      - different positions can be represented as a structure lacking a circle/boundary/center
+      - the differences in similarity/difference structures have emergent effects & coordinate with different interface objects (like adjacent structures, change types, relevant objects, etc)
+        - a lack of an object can be used like other gap structures are used (as a filter, container or template)
+        - an object can be used as a component or other base object to use as an input
+
+    - this is why differences are not just the 'opposite of similarities' - it leaves out information like:
+      - similarities of varying relevance between similarity & difference (both use a distance metric)
+      - the reason why a difference is used vs. a similarity (like 'filtering' intents)
+      - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
+      - info about the structure of difference (difference paths/stacks/layers/trajectories), which may vary in ways that similarities do not
+        - this indicates the important point that similarities are insufficient to predict differences
+      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty & randomness, and solve all problems - which is not guaranteed
+        - meaning 'derive structures outside of the universe, using info from inside the universe' 
+      - similarities may have similarities to each other, more than similarities to differences
+      - randomness has a similarity (in outcome probability), but is better than similarity as an input to generate difference structures like uncertainty
+
+## document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
+    - randomness collisions generate structure
+      - structure being the stabilized interaction of information (staying constant long enough to attain structure)
+      - randomness being a lack of information (like a star or circle with equally likely directions of change)
+        - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
+      - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
+
 # math-language map (connecting function) solution automation insight path examples
 
 ## apply core structures to interface components for language map
@@ -44,7 +220,6 @@
       - which difference types are the biggest variance-reducers when combined
       - which difference types have an attribute (common, relevance, similarity)
 
-
 ## solution filters of an identification algorithm (to differentiate real & AI-generated content)
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
     - wrong context for a pattern
@@ -73,30 +248,6 @@
     - organize these filters in a useful sorting structure (network, tree) can reduce the computations required to solve for a prediction function, such as:
     	- placing the most-reductive solution filter first, if the info required for that filter is already available
     	- placing a filter after another filter that generates/identifies the info required for the second filter
-
-# problem-solution format maps
-
-  - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
-    - filling problem
-      - missing info problem: the solution format is the complete structure
-      - optimization problem: the solution format is the variables/system organized to comply with/fulfill the metric to optimize 
-      - aggregation problem: the solution format is the aggregation method to form a structure (like combining core functions to get a function for an intent)
-    - limit problem
-      - constraint problem: the solution format is the removal/invalidation of that constraint
-    - reduction/decomposition problem
-      - complexity reduction problem: the solution format is the set of variables that reduces complexity of the problem
-      - randomness reduction problem: the solution format is the set of variables that can replicate a semblance of randomness
-      - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
-    - organization/mapping problem: the solution format is the set of relevant components in the right structure (positioning & connecting them)
-      - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
-      - balancing problem: the solution format is the distribution of resources nearest to a balanced state (subset of matching problem, by matching distribution across positions)
-      - combination problem: the solution format is the set of components in a combination structure that doesnt contradict combination rules (components fit together, like 'finding a system where a function can execute')
-        - connecting problem: the solution format is the set of functions that connect the components, in the position where they act as connectors
-    - finding problem
-      - discovery (insight-finding) problem: the solution format is the set of generative/distortion/core functions or the set of filters to find the insight
-      - route-finding problem: the solution format is the route between two points that doesnt contradict any solution constraints and/or optimizes a solution metric
-    - other solution formats would be for adjacent/causal problems, solution formats that invalidate solving the problem, etc
-
 
 # insight path examples
 
@@ -193,6 +344,7 @@
         - the output would be an approximation of meaning, allowing explanations like 'being female (variable value) increased probability (ratio of outcome among possible alternatives) of being prioritized (randomness structures like starting position as well as the concept of agency in filter structure) for access to survival tools (type of 'lifeboat') bc of less agency/responsibility/skills'
 
 ## solution automation workflow insight path examples
+
     - find an example & generalize
       - find core/unit objects, find example using those objects, & generalize
     - find an example & counterexample & connect them
@@ -202,146 +354,70 @@
     - identify vertex variables first & approximate
     - identify problem types & corresponding solution aggregation method for that set of types
     - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
-
-# structure examples
-
-## structural concept definition routes
-    - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
-    - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
-      - opposite requiring a potential for extreme values to occur in a structural possibility where difference can develop
-    - thinking definition as 'applying structure to uncertainty'
-    - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
-
-## error structures
-
-	- generating error types
-	    - apply core structures to problem components
-	      - lack error type
-	        - lack of resource
-	          - lack of dependency
-	    - apply definitions of error/problem components
-	      - apply functions that can generate an error type according to its definition
-	        - incorrect: apply changes to variables to generate incorrect values
-	        - imbalance: apply distribution function to create imbalance of a resource
-	      - apply core functions of error types to problem space objects or interface objects
-	        - apply core change functions to:
-	          - structure/position/format
-	          - data
-	    - apply definitions of optimal/solution components
-	      - apply core structures to definitions of solution (functional/stable/optimal) states
-	        - 'requirements fulfilled': change requirements to create error types like imbalances or lacks
-	        - 'functionality working': break functionality
-	        - 'stable system': overwhelm the system
-	        - 'optimal system': solution metric unfulfilled
-	      - generate error types by applying distortion functions to an origin optimal or stable (error-free) state(s) to generate deviations from optimal state
-
-	- error structures:
-
-		- distortions from expectations
-
-	    - false equivalence structures
-	      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
-	      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
-
-		- errors defined as differences between intended/actual structures
-			- errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
-		      - stacking errors may be a better way to frame problems than other interfaces
-		        - the level of randomness captured by the error structure
-		        - errors can function as limits as well as difference types building a problem structure
-
-## stupidity structures (like bias)
-
-  - apply anti-stupidity structures to neural network structure 
-    - lack of learning functionality
-      - inability to remember (identify relevant info quickly when new info isnt necessary)
-      - inability to identify relevance structures (meaning, usefulness, direct causation)
-      - inability to optimize (identify a quicker route to an insight, like an insight path)
-      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
-      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
-      - inability to direct thoughts (focus)
-      - inability to forget sub-optimal/inaccurate rules (bias)
-        - function to apply bias structures to a neural network structure
-          - thinking benefits from bias removal
-          - remove bias structures in neural networks to improve their thinking capacity
-          - example
-            - apply removal of 'simplicity' bias in a neural network structure
-              - simplicity (specifically over-simplification) definition on structural interface: 
-                - lossy lower-dimensional representation
-                - low-cost representation with relatively reduced learning reward
-              - the simplicity bias shows up in a neural network structure in many possible positions
-                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
-                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
-                - general default params also tend to store simplicity where it's not needed
-            - apply removal of 'similarity' bias 
-              - similarity bias structural definitionss
-                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
-              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
-
-  - bias structures: 
-    - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
-      - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
-      - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
-    - conflating stereotype ('false statement about a group') with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
-    - stupidity manifests as similar structures (fulfillment of low expectations) across groups in response to low expectations, leading to feedback loop
-
-  - identify bias structures as output of operations on structures, or by missing structures that cause bias
-    - bias is a filter that leaves out relevant information
-    - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
-      - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
-  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
-
-## info asymmetry
-	- associated with an info loss ('missing' or 'gap' structure) in a particular direction between info types/formats/positions, rather than just an info imbalance or a mismatch
-
-## difference vs. similarity
-
-    - similarities between difference & similarity
-      - distance metric
-    - differences between difference & similarity
-      - amount of info that needs to be stored for a complete accurate description ('what something is not' may require more info to be stored compared to 'what something is')
-    - the position of difference between difference & similarity may be on non-opposite positions on a circle depicting routes to get from difference to similarity
-      - this is bc a similarity is a degree of difference (low/zero difference) & so is a difference (higher degree of difference that can be measured or is observed as noticeably different compared to a similarity)
-      - the structure may be a circle or other loop bc if you stack enough differences, eventually you may generate the original object
-    - the conversion of difference into similarity is based on the concept of a threshold, where a difference acquires enough similarities to similarity to cross the threshold or vice versa
-    - the gray area in between the two concepts & surrounding the symmetry of the threshold also conflates the differences between the two concepts, making the difference not a simple 'opposite'
-
-    - example: spectrum structure
-      - handles different cases like 'near low/high/average value' (like between 0 & 1), which have differences in adjacent change types to produce relevant objects (like an integer)
-        - change types like 'small change to produce an integer', 'doubling to produce an integer', etc
-      - the isolated relevant difference structure (without additional info) 
-        - the average value, which has multiple difference types in adjacent change types
-      - conditional relevant difference structures
-        - if the nearest integer triggers other change types, the value near that integer has a relevant difference structure
-
-    - example: position structure
-      - similar positions will be near according to the distance metric, creating a radius of similarity, which results in emergent structures of a boundary, center & circle
-      - different positions can be represented as a structure lacking a circle/boundary/center
-      - the differences in similarity/difference structures have emergent effects & coordinate with different interface objects (like adjacent structures, change types, relevant objects, etc)
-        - a lack of an object can be used like other gap structures are used (as a filter, container or template)
-        - an object can be used as a component or other base object to use as an input
-
-    - this is why differences are not just the 'opposite of similarities' - it leaves out information like:
-      - similarities of varying relevance between similarity & difference (both use a distance metric)
-      - the reason why a difference is used vs. a similarity (like 'filtering' intents)
-      - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
-      - info about the structure of difference (difference paths/stacks/layers/trajectories), which may vary in ways that similarities do not
-        - this indicates the important point that similarities are insufficient to predict differences
-      - if similarities were equivalent to differences, you could use similarities to derive all info, reduce all uncertainty & randomness, and solve all problems - which is not guaranteed
-        - meaning 'derive structures outside of the universe, using info from inside the universe' 
-      - similarities may have similarities to each other, more than similarities to differences
-      - randomness has a similarity (in outcome probability), but is better than similarity as an input to generate difference structures like uncertainty
-
-## document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
-    - randomness collisions generate structure
-      - structure being the stabilized interaction of information (staying constant long enough to attain structure)
-      - randomness being a lack of information (like a star or circle with equally likely directions of change)
-        - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
-      - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
-
+    - change problem into more solvable problem
+      - cause 
+        - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
+      - problem
+        - identify problem types of the problem & select which type to use known solutions for
+    - apply structures
+      - cause
+        - vectorize problem system, filling in missing components with generative functions as needed
+      - function
+        - apply functions to move problem (origin) state position to solution (target) state position
+        - apply function input/output connections to connect problem input & solution output with function sequences
+      - system
+        - apply system structures like difference & incentive to generate & filter solutions for a priority like speed
+        - combine structures that avoid known error types & apply available functions to fit
+        - use solution for adjacent problem & apply available functions to fit
+      - intent
+        - apply map structure between problem-solution intents & function intents
+      - interface
+        - find interaction level where problem is trivial to solve
+        - apply structures of organization until problem is trivial to solve
+      - concept
+        - apply map structure between problem-solution concepts & sub-structure concepts
+    - generate solution space first, then filter
+      - core
+        - apply core structures of solutions to generate probable solutions
+        - apply core functions to generate possible solutions & then apply filters to reduce solution space
+    - apply filters first, then match with generatable solutions
+      - core
+        - apply components of solution filters to generate filters
+      - structure
+        - apply solution filters to reduce solution space
+      - system
+        - apply structures of difference (what is not the solution) to filter solution space, then match to what core functions can generate as adjacent/accessible solutions
+    - apply solution structures (filters) & problem structures (errors, reductions) in parallel and connect in the middle
 
 # generate solution automation insight paths
 
+## generate solution automation workflows by applying workflows to other workflows
+    - solution automation workflow variables
+      - starting/ending position/format & format sequence
+      - interfaces applied, in what query structure
+      - allocation of uncertainty & variation
+        - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
+
+## generative insight paths that generate solution automation workflows
+
+    - identify patterns in structures allocating structure (constants) & lack of structure (variation) in interface queries to find new insight paths
+      - example: 
+        - variation (like variables) allocated to structure & info interfaces, & constants (like definitions) allocated to the intent/concept interfaces
+    
+    - identify patterns in connecting structures as core components of interface queries (build interface queries with interface-connecting structures)
+      - examples:
+        - intent & function interfaces are connected as metadata & trigger structures, so the triggering structure can be followed by the triggered structure in interface queries
+    
+    - identify patterns of finding/selecting interaction levels for an interface query
+      - examples: 
+        - core functions linking these interfaces
+        - structural versions of core functions linking these interface objects
+        - abstract network of an interface used for interface queries
+        - cross-interaction level conversion function applied before other interface query steps
+
 ## apply insight paths to generate other insight paths (such as a solution automation workflow)
+
+
     - example: 
       apply the insight path:
         'select commonly useful system objects for find problems' 
@@ -431,6 +507,121 @@
 
 
 # interface query design logic examples
+
+## connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
+
+    - examples:
+
+        - connecting a problem of 'too much structure' and solution of 'reduced structure' has a workflow involving steps like 'reduce variables', with requirements like 'variables', so the function or change interface can be applied to identify variables before executing that step in the workflow
+        
+        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of variables (error/differences) are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
+    
+    - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
+    
+    - find equidistant point to information to start parallel interface queries from
+
+## connecting problems & solutions with error types (reverse of connecting with solution types)
+
+  - associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
+    - what errors can be present in a solution that can still be considered successful
+    - what errors are considered a problem or equal to the input problem when combined in a structure
+    - iterate through possible interface definitions of problem/solution
+      - problem :: solution 
+        - general connecting function:
+          - sub-optimal state :: more optimal state
+        - specific problem/error type connecting functions:
+          - state with errors :: state with fewer errors
+          - state with unused resources :: state with fewer unused resources (unnecessary dimensions)
+          - state with no possibility for change: state with possibility for change (randomness injection points, variance sources, dependencies)
+          - distorted state (specific intent) :: undistorted state (center)
+          - state where organization is a dependency source (too big to fail) :: state where organization is an efficiency source (solution provider)
+          - specific solution for specific parameters/values :: abstract parameterized solution
+          - mismatched format :: matching format
+          - misaligned intents :: aligned intents
+          - info dependency :: info generating function dependency
+          - unknown cause :: set of possible causes of varying directness
+          - state with inability to self-correct :: state with self-correcting function
+          - state with inability to interact :: state with core functions to build interaction function & function to change interaction level
+          - lack of chaos :: variance injection, variance source
+            - when a system has no errors, that means its either not finding new variation (unlikely if capable of doing so), not capable of finding variation, or is not learning
+              - inject errors to try to produce variation
+              - apply function to build functionality to find/generate variation
+              - apply errors/changes to learning functions to produce new learning functions
+          - structure :: different structure
+            - direction :: position
+              - goals (result, impact, resource) :: flexibility (increase in function, increase in power)
+          - missing structures (sub-type of opposite structures, sub-type of difference structures)
+            - lack of structure :: unnecessary structure
+          - sub-optimal solution :: improved solution
+          - solution set :: optimal solution
+          - decision options :: executed decision
+          - lack of decision :: decision options
+          - lack of power :: locally concentrated power
+          - too much (concentrated, high density, unnecessary, unmanageable) power :: globally distributed power
+      - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
+      - apply system optimizations to all interface components 
+        - example: 
+          - apply 'have multiple variance sources' to 'variance sources' for intent 'distribute power' of input variance across sources
+        - filter optimizations by contradicting intents that are identifiable as useful for functions connecting problem/solution structures
+    - apply error types to interface component design/optimization
+      - applying error type solutions to functions
+        - 'avoiding dependencies'
+        - 'avoiding traps leading to dead-end static states where variance injections cant change the system'
+      - to avoid the associated error types:
+        - 'missing dependencies', 'cost of generating dependencies'
+        - 'lack of flexibility', 'lack of potential', 'lack of functionality'
+
+## problem-solution format maps
+
+  - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
+    - filling problem
+      - missing info problem: the solution format is the complete structure
+      - optimization problem: the solution format is the variables/system organized to comply with/fulfill the metric to optimize 
+      - aggregation problem: the solution format is the aggregation method to form a structure (like combining core functions to get a function for an intent)
+    - limit problem
+      - constraint problem: the solution format is the removal/invalidation of that constraint
+    - reduction/decomposition problem
+      - complexity reduction problem: the solution format is the set of variables that reduces complexity of the problem
+      - randomness reduction problem: the solution format is the set of variables that can replicate a semblance of randomness
+      - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
+    - organization/mapping problem: the solution format is the set of relevant components in the right structure (positioning & connecting them)
+      - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
+      - balancing problem: the solution format is the distribution of resources nearest to a balanced state (subset of matching problem, by matching distribution across positions)
+      - combination problem: the solution format is the set of components in a combination structure that doesnt contradict combination rules (components fit together, like 'finding a system where a function can execute')
+        - connecting problem: the solution format is the set of functions that connect the components, in the position where they act as connectors
+    - finding problem
+      - discovery (insight-finding) problem: the solution format is the set of generative/distortion/core functions or the set of filters to find the insight
+      - route-finding problem: the solution format is the route between two points that doesnt contradict any solution constraints and/or optimizes a solution metric
+    - other solution formats would be for adjacent/causal problems, solution formats that invalidate solving the problem, etc
+
+## example of selecting problem/solution format
+
+    - examples: 
+      - every problem can be framed as 'reducing solution space', but some problems are more adjacent to this format than other problems, such as:
+        - 'find the one item in the set that matches the filter value', which is more adjacent to 'reduction' operation because it involves a solution output format of a lower quantity than the original quantity, specifically a quantity of one, which implies that the original quantity is greater than one, given that this is framed as a problem that is not solved yet
+        - problems have many possible formats, so an initial problem to solve is 'reducing the solution space of possible formats to the one most adjacent format'
+        - the correct format is important to find, bc some formats will make the problem trivial to solve or solvable with existing methods
+      - as another example, a prediction function can be formatted as a problem of:
+        - finding causal network of variables (root/direct cause in structures of inevitability, lack of cause in interchangeable alternates)
+        - finding variable network connected with functions (apply 'randomize' to root cause variable, then apply 'specialize', then apply 'standardize')
+        - finding variable structure network (boolean causing vertex variable causing spectrum variable)
+        - mapping variables to influencing & interaction power (to influence & interact with other variables)
+        - isolating & filtering variables in data set by impact/contribution, filtered by probability of coincidence (coincidental structural similarity between independent variables & actual causative variables, leading to secondary structural similarity in apparent relationship to dependent variable)
+        - finding coefficients of variables in data set
+        - standardizing data set to a subset of variables (like a vertex variable) so core/unit functions can be applied
+        - inferring other variables not present in data set
+        - allocating randomness to explain lack of predictive power of independent variables & changing prediction function state
+        - finding the data set's distortion from a base/central/standard data set having those variables
+        - finding the probability of a prediction function given a data set (or vice versa)
+        - finding a line/cluster/point (or generalized structure) averaging the data set relationships
+        - finding concepts & other interface objects in the data set (concepts like 'power' relevant to predictive/influential potential)
+        - filtering data set by which data can be ignored (outliers, corrupt data, randomness, worst/best case, prior outdated data)
+        - finding a statistic representing target solution info
+          - does 'average' represent the relevant solution 'prediction function' that is best able to predict y across adjacent/derived/given data sets, or is there a better statistic, like:
+            - 'weighted average'
+            - 'subset average sequence'
+            - 'emerging average given state data'
+            - 'derived average given randomness injection'
 
 ## example of filter for selecting formats
 
@@ -697,7 +888,7 @@
 
 # solution format examples
 
-## optimized network structure
+## solution of optimized network structure
 
     - the optimized network can be structured as versions for different intents like:
       - lowest-memory generator: the average network + distortion functions
@@ -712,7 +903,7 @@
 
     - can probably be adjacently derived from subatomic particle interactions, which implement the core objects of interfaces like cause & potential
 
-## efficiencies from missing components
+## solution of efficiencies gained from missing components
     - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
     - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
     - missing component metadata
@@ -734,6 +925,60 @@
         - combination: development of a function capable of fulfilling that intent & other intents
         - distribution: distributing functionality-generating methods to all nodes requiring functions
         - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
+
+# examples of interface operations
+
+## apply an interface to a concept 
+
+  - apply interfaces to concept of risk to find relevant interface objects like solutions to risk error type, risk structures, & other risk metadata
+
+    - risk: adjacence to negative events (error types)
+      - risk structures: 
+        - cascading risk
+        - compounding risk
+        - interacting error types
+          - adjacence of an error type to another error type
+          - adjacence of input/output & other interaction formats enabling interaction
+
+    - solutions to risk:
+      - distributing errors or otherwise ensuring they cant interact
+      - making sure if an error occurs, its at a dead-end trajectory where its side effects dont impact the system
+      - distributing info sources to gather info on imminent risks (robot that can distribute a set of sensors to pick up signals it otherwise couldnt, like behind opaque objects)
+
+
+## apply an interface to an interface
+
+	- apply information & physics interface to math interface 
+
+		- math is a connecting interface of abstraction & structure bc it maps fundamental structures to abstractions
+		    - math describes info (stabilized structures) 
+		    - relevant questions:
+		    	- what structures have stabilized in the math interface, so math can be applied to describe stabilized structures of math
+
+		- math interface as information (certainty) physics, specifying:
+		    - what can be known/calculated & approximated
+		    - what can be predicted
+		    - what certainties can be connected using numerical relationships (like how logic specifies what inferences/conclusions can be connected)
+
+		    - determine what can be calculated by applying information & physics interfaces 
+		      - when information doesnt exist, math cannot solve the problem
+		        - with information defined as 'stabilized energy storage', at what point does the definition of information break down:
+		          - type level interactions
+		            - gaps in the possible change ranges of symmetries
+		          - structural changes
+		            - lack of alignments, similarities, efficiencies or other structures enabling info to accrue/develop/stabilize
+		          - incorrect assumptions
+		            - reversibilities in time symmetries, or symmetries that are theoretically irreversible without a concept of symmetry operations
+		            - constants like inevitabilities, absolute (acontextual) impossibilities, or limits on variable value ranges
+		            - limits in how information overflows (info that cannot be stored in an existing structure) can be predicted (structures built to store it)
+		              - building different info storage structures (different from brains, networks, topologies, matrices, & probabilities, like interfaces & superpositions) can change how patterns of uncertainty-to-certainty conversion (like with uncertainties n degrees away from pre-existing certainties) occur & their probabilities of occurring
+		          - missing dependencies
+		            - gaps in conditions enabling energy storage (definition of a fraction is stable while the numerator/denominator are still defined, complex numbers defined using the definition of square root of -1), creating a symmetry of stability, where the efficiency created by core functions of a new interface can dissolve once the functions buildable with core functions overflow the interface, so functions may dissolve to randomness when absorbed by other systems
+		            - changes invalidating the unit structure combined to create other structures (where basis vector is not defined)
+		            - where definitions used by info definition (value, difference) break down
+		          - where certainty is universally distributed & no uncertainties are possible, so a definition of certainty is not needed
+		          - where certainty is not allowed by the system
+		            - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
 
@@ -946,7 +1191,6 @@
               - can structures of interaction between variables a, b, c, or their attributes/functions/components create variable d
                 - apply structures (combinations, sequences) of interaction to variables a, b, c & their attributes/functions/components
 
-
 ## apply structural definition routes to differentiate similar or related concepts
 	- change: sequence of difference structures
 	- difference: non-equivalence on some metric
@@ -1057,13 +1301,13 @@
               - time to check for a structure in the difference type index
       
 ## applying structure to structure to generate a particular structure/format (structure standardization)
+
     - example of converting structures into vectors
       - many vector structures can represent interface structures
       - example of selecting a vector structure to represent an interface structure on a particular interface, applying structure to indicate metadata about structures
         - example: causal loop
           - standard network structure translation: vectors to indicate direction of cause
           - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
-
 
 ## example of applying structure to identify rules that violate a metric 
 
