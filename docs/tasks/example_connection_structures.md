@@ -111,7 +111,6 @@
                   - lack & excess are error type structures (implying an associated solution)
                   - negative & positive are both differences from average
                   - connection to average resolves 'lack' and 'excess' error type structures
-
                 - *** alternate insight path: errors of extreme values in a variable imply a lack of a balancing (solution) structure like:
                   - an extreme-connecting structure
                   - a direction/degree-correcting structure
@@ -126,10 +125,8 @@
                 - connecting function: 
                   - opposite :: reverse
                   - apply 'reverse' structure to correct 'direction/degree' error
-
               - ***: an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
 
               - ***: an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
-
             - insight-path generating query to filter & identify embedded insight paths
               - identify relevance structures (connecting function) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
