@@ -1464,36 +1464,34 @@
     - anyone who uses a particular proxy/VPN/cryptocurrency accepts some responsibility for requests/transactions executed on that service in cases where the actual criminal cant be determined
     - feature where they can pay to prevent non-verified users from using the service or pay to use an 'invite-only' service
 
-  - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+  - questions have the structure of a possible connection sequence forming a path in the problem system, formatted as a network
 
-    - the below 'reverse engineering' example uses the following filter query to determine relevance:
-      - relevance = reverse(similarity => core => (combine && not) => adjacence)
-
-    - but it could also use alternate filters such as: (substitute || (similarity && quantity) || test)
-      - apply 'substitute' structure: find a metric that functions as an identifier, filter, approximator, predictor, or proxy
-      - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
-      - apply 'test' structure to problem system structure: find tests with output information containing the metric value
-
-    - these alternative filter sets optimize for metrics like:
-      - filter set metadata
-      - optimizing for different interface metrics (variance degree, interaction layer, abstraction level)
-      - having a particular structure (paths to connect source/destination) that uses available functions
-      - maximizing a particular change or difference type for identification/accuracy-related intents
-      - connecting difference types in different spaces (standardization)
-      - interface structure-fitting (like 'intent alignment' or 'lack of contradictions')
-
-    - these alternative filters have different metadata, like:
-      - cost
-      - variation sources (equivalence definition)
-      - variance reduction (degree, type, pattern, potential)
-      - requirements (like required information access)
-      - path (in the filter network, & also possibly a path in the problem structure network)
-      - interfaces, structures, & definitions used ('questions' asked by the query, 'alternatives' used as 'approximations')
-    
-    - these questions have the structure of a theorized directed connection/path in the problem system formatted as a network
       - the patterns of these questions in producing relevant info for a problem can be used as insight paths
       - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output information that could produce the answering info to the query
         - formatting the system with structural interface metadata (such as info gaps, intents, incentives, equivalences, & vertex variables) will make these optimal query patterns more obvious
+
+      - identify the connection between components with the uncertain connection using inputs & definition routes of the connection
+        - example: 
+          - find connection function: 'is it object A' uses the 'equal' connecting function
+          - find inputs: the 'equal' connecting function uses the 'definition' object as an input
+          - generate the interface query to solve this problem:
+            - 'to determine equality, find the definitions of the objects whose connection is uncertain'
+          - which can be abstracted into the solution automation workflow insight path:
+            - find the inputs of the uncertain connection function and apply them to connect the objects with the uncertain connection
+
+      - questions:
+
+        - is it object A (the uncertainty is whether 'it is equal to object A')
+          - check definitions of object A & referenced object (it) for equivalence => if matching, convert to declarative statement with boolean => yes, it is
+        
+        - how to connect variables a, b, c with variable d in the direction of variable d (the uncertainty is 'are a/b/c predictive of variable d')
+          - apply change interface to question
+            - identify change functions applied to variables (or structures of variables) (or their components) that could change variables a/b/c into variable d, or move them to variable d's position
+          - apply structural interface 
+            - position variables in a variable/function/object network
+            - convert to structural question: 
+              - can structures of interaction between variables a, b, c, or their attributes/functions/components create variable d
+                - apply structures (combinations, sequences) of interaction to variables a, b, c & their attributes/functions/components
 
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
 
