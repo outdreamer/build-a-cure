@@ -103,7 +103,10 @@
 	- break problem into sub-problems, find sub-solutions, merge sub-solutions into solution
 
 ## standard structural insight paths
+
 	- find optimal structure (combination, path, direction, sequence) for a problem-solving intent (find predictive variable set, functions connecting input/output, priority direction, operation sequence) given metrics like adjacence (structural alignment, low-cost conversion potential) or available functionality/variation in that structure
+
+	- find similarities between available/adjacent/possible structures and connect problem/solution structures using these similarities (like function sequence with coordinating input/outputs)
 
 ## solution automation workflow insight path examples
     - find an example & generalize
