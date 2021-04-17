@@ -83,21 +83,13 @@
 
   - finish poc & give other examples applying different workflows
 
-  - self-explaining AI test: able to identify metadata that align with its decision path, like:
-    - thresholds
-    - alternatives (selected & unselected based on thresholds)
-    - testing points (gather info about relative value to threshold)
-    - types/clusters
-    - examples
-    - statistics like average examples within a type
-
   - finance: assess value of prior work by work that is still relatively valuable, incentivizing new work
 
   - alternative intent coordination & compatability of metrics
 
     - calculating interactivity by coordinating/adjacent/convertible structures
 
-  - use exclusively ai with known biases & error types so output can be corrected with logic from the associated solution type
+  - use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
     - algorithms that dont have a mechanism to offset/correct biases from data can be used with a correcting function to improve output likelier to be an error type
     - this is an interim solution (algorithm/model + correcting logic of error types) while other algorithms are tested
     - every algorithm has limitations - those with known limitations can be an asset in some problem types (like to discover biases in data), while other algorithms with unknown limitations can be an asset in other problem types (like to add uncertainty or delegate responsibility for unfair decisions)
@@ -123,119 +115,23 @@
     - automatically finding countries with laws allowing those protected functions & routing requests from servers in those locations
     - finding a version of an app that has target features so user is directed to download for that versions
 
-  - successful AI would identify multiple solutions as probably successful, once variables of inequality are identified
-
-    - interface query structure (sequence)
-
-      - query: identify 'value' as the vertex variable
-
-      - query: identify input variables determining value: 
-        - location
-          - what is a low-method to change location: public transportation
-          - what is a barrier to change location: visa, lack of info
-        - proximity to supply chains
-          - make an alternative supply chain between high-traffic suppliers/demands in other direction (across continent rather than across an ocean)
-        - relevant cost ratios (cost of going somewhere, finding job, selling something, finding info)
-
-      - query: apply function & intent interfaces
-        - find functions for intent 'transfer resources'
-          - temporary markets (tasks that will probably be automated within n years, markets for goods people probably wont want/need in n years, or only need once, or only while a law is applied that will be changed soon, or products that need a connecting product until theyre all invalidated by another product being built)
-          - supply chains
-          - transportation
-          - delivery services
-
-      - query: find relevant interfaces
-        - laws
-        - code
-        - resource distribution
-        - location
-
-      - query: find solution methods
-        - connect existing resources
-        - apply multiple high-difference solutions, vary them to find subsets & versions that work
-
-      - query: find lowest-cost combination of solutions
-        - finding highest-value public transportation infrastructure to build (what routes would allow low-cost resource transfer for the most agents)
-        - finding temp markets (delivery/resource-sharing/education services)
-        - finding adjacent/existing law combinations to benefit the most low-income agents
-        - finding adjacent/existing bugs or code loopholes to benefit the most low-income agents
-
-      - query: organize info into a combination solution
-        - example of a combination solution, integrating multiple relevant interfaces, solutions, covering a high ratio of input variables to vertex variable
-          - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
-
   - consciousness as choice to move between neural nodes (rather than being directed) required:
     - the development of alternative node paths performing equal/similar functions, requiring:
       - the development of excess resources, delaying required decision time (making immediate decision unnecessary, avoiding a forced decision), requiring:
         - the existence & application of previous efficiencies & functions for alternative evaluation, energy storage, storage-checking, & energy requirement-identifying
     - the cause could be framed as structures such as an 'efficiency stack' or 'energy maintenance functions' or 'alternative options' or 'navigation/motion control' or 'lack of requirement/need'
 
-  - example of applying interfaces to derive metadata about a component
-    - apply causal interface to identify connecting function 'power is responsibility' (also an insight)
-      - power can be defined in causal interface components as 'causative potential' (its the input reason for change in a system, including changes preventing changes)
-        - given that it has structure 'change input', its also a source of other change types than intentionally triggering the correct function (errors, side effects, changes to errors)
-        - changes to fix errors are related to the concept of 'responsibility' (definable as 'work that isnt incentivized but is necessary')
-    - apply structural interface to identify connecting function 'power is responsibility'
-        - 'aligning error & fix sources' also corrects the 'power source distribution imbalance' error, which is another way to derive this insight, using the structural interface (correct distribution imbalance with alignment)
-        - identifying the 'similarity' (a core component of structural interface, applied during a standard application of interface) in the 'direction' structure, between power & side effects (including errors) as similar to the direction between power & fixes
-        - identifying connecting functions positioning power as an input/required structure to fixing errors:
-          - identifying that 'fixing functions' have an input trigger requirement like any other function, and function triggers therefore have power to fix errors
-          - identifying that if something can generate a 'fixing function', it necessarily has power
-          - identifying that if power is necessary to change a structure, by process of elimination, nothing else could fix an error
-
-  - examine similarity (alignment/overlap) structures between 
-    - different components (when an error type is an incentive, or a function used for other intents)
-      - contradictory/opposite components
-
-  - organize list of structures relevant for intents
-    - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
-    - for 'connection' intents (identify/generate connection), a structure where components are only defined in terms of other components (by their relationships to other components), like a network or vector space
-    - for 'differentiation' intents, a structure where the definition of difference is clear & applicable (can differentiate all different components)
+  - examine similarity (alignment/overlap) structures between: 
+    - extremely different components (when an error type is an incentive or a function used for other intents) 
+      - when the solution format of some problem has similarities to the error type, like when you need randomness so errors generating randomness are a possible function to use for that intent
+      - contradictory/opposite components (have some metric in common, with opposite values)
 
   - grassroots citizen info tech & citizen journalism as an alternative to top-down govt law enforcement, where centralized/organized govt law enforcement is allocated when a metric threshold for citizen reports is reached
     - the correct position of govt is an automated tool usable by citizens to solve problems (prevent crime, enforce laws, exact justice)
 
-  - example of multiple structural filters to reduce solution space
-    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
-      - find similarity to type 'dog' and type 'cat'
-        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
-          - apply base structures (random, core, common, etc)
-            - apply path structures (how many steps from a base to produce a clear answer)
-          - apply opposite structures (what is not a cat, what is not a dog)
-          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
-          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
-          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
-          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
-          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
-          - apply system structures (what contexts normally go with 'cat')
-          - apply change/distortion structures (what distortions are often applied to cats or dogs)
-              - apply alternative path structures & network structure
-                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
-                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
-                    - re-apply similarity structures to boundaries (is this within the cat path region)
-                    - apply pattern structures (does this match cat path patterns)
-
   - usb that stores os/state/processes/files so when you take it out, all thats left is hardware, so secure portable destructible readonly sessions (or sessions allowing only one write at a time, from a user-facing process like a document editor, with regular approval requests to re-authenticate writes or session) can take place
   
   - organize examples of logic for functions (interface query design logic)
-
-  - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
-    - this can add functionality to products to reduce need for producing new versions
-    - physical sensors can use communications tech with varying required internet infrastructure (beacons/bluetooth/radio) to integrate with data, computers, physical resources, building blocks of robots
-    - physical components examples:
-      - use a sensor added to non-electric or non-AI-driven vehicles, pedestrians, & other moving objects on roads (animals, robots) to detect other objects or sensors & help avoid crashes by attaching sensor output as input to steering mechanism with a steering component (interim tech while waiting on market capture of EV & AI vehicles)
-        - can also be used to turn a cart or anything with wheels into a delivery robot, to reduce human traffic
-        - this can turn the delivery market into a sensor coding market to add functionality/integrations to sensors & the robots or resources controlled by them
-      - use a sensor (indicating position to lift away from) as input to another sensor (lifting sensor) with connecting function (fetch position to move away from, direct lift away from position, initiate lift)
-        - add sensors with user-defined connecting functions & prioritized sensor functions
-          - if a sensor on top of trash can has function "lift" and can take input like "heat motion in range", add user-defined connecting function to another sensor not on lid that the sensor on top can use as a reference point to find direction to move in (away from other sensor) 
-    - code components/functions
-      - user-defined connecting function like "query regularly for a function that can do this (publish, copy, export, search, build), and when found, add to querying component"
-      - find connecting function like 'abstraction' to add functionality like 'handling other inputs' or attributes like 'flexibility' and distribute flexibility to other accessible components
-      - hook a search function component up to input component (filters) using user-defined connecting functions (input filters to search on)
-      - user-defined connecting function to connect components like core functions/scripts/metrics (when this event occurs in the sensory input function, send signal to trigger other function)
-        - this is a way to abstract code (any function that can receive input data of that type) & code connections, delegating execution to code located with queries (find a function of this type or with this input/output) and modularize code as well as making it more connectible
-    - task: identify the core functions/components that can generate required functionality for most user intents without introducing security flaws (making hacking devices less adjacently buildable than common legitimate use cases)
 
   - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
 

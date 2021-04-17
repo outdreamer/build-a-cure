@@ -258,6 +258,27 @@
 
 # solution metric/filter/test examples
 
+## example of applying multiple structural filters to reduce solution space
+
+    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
+      - find similarity to type 'dog' and type 'cat'
+        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
+          - apply base structures (random, core, common, etc)
+            - apply path structures (how many steps from a base to produce a clear answer)
+          - apply opposite structures (what is not a cat, what is not a dog)
+          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
+          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
+          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
+          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
+          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
+          - apply system structures (what contexts normally go with 'cat')
+          - apply change/distortion structures (what distortions are often applied to cats or dogs)
+              - apply alternative path structures & network structure
+                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
+                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
+                    - re-apply similarity structures to boundaries (is this within the cat path region)
+                    - apply pattern structures (does this match cat path patterns)
+
 ## general solution filters
 
 	- meaning
@@ -286,7 +307,63 @@
 					    	- patterns which can build other components
 					      - patterns in core interface components, like change/difference patterns
 
-## alternate variable set filters
+## solution filters for specific problems
+
+	- problem: create self-explaining AI
+		- self-explaining AI solution filter: able to identify metadata that aligns with its decision path, like:
+		    - thresholds
+		    - alternatives (selected & unselected based on thresholds)
+		    - testing points (gather info about relative value to threshold)
+		    - types/clusters
+		    - examples
+		    - statistics like average examples within a type
+
+  - problem: create successful AI algorithm to identify probability of solution success
+
+	  - solution metric filters:
+
+	  	- a successful AI algorithm would identify multiple solutions as probably successful, once variables of inequality are identified
+
+		    - interface query structure (sequence)
+
+		      - query: identify 'value' as the vertex variable
+
+		      - query: identify input variables determining value: 
+		        - location
+		          - what is a low-method to change location: public transportation
+		          - what is a barrier to change location: visa, lack of info
+		        - proximity to supply chains
+		          - make an alternative supply chain between high-traffic suppliers/demands in other direction (across continent rather than across an ocean)
+		        - relevant cost ratios (cost of going somewhere, finding job, selling something, finding info)
+
+		      - query: apply function & intent interfaces
+		        - find functions for intent 'transfer resources'
+		          - temporary markets (tasks that will probably be automated within n years, markets for goods people probably wont want/need in n years, or only need once, or only while a law is applied that will be changed soon, or products that need a connecting product until theyre all invalidated by another product being built)
+		          - supply chains
+		          - transportation
+		          - delivery services
+
+		      - query: find relevant interfaces
+		        - laws
+		        - code
+		        - resource distribution
+		        - location
+
+		      - query: find solution methods
+		        - connect existing resources
+		        - apply multiple high-difference solutions, vary them to find subsets & versions that work
+
+		      - query: find lowest-cost combination of solutions
+		        - finding highest-value public transportation infrastructure to build (what routes would allow low-cost resource transfer for the most agents)
+		        - finding temp markets (delivery/resource-sharing/education services)
+		        - finding adjacent/existing law combinations to benefit the most low-income agents
+		        - finding adjacent/existing bugs or code loopholes to benefit the most low-income agents
+
+		      - query: organize info into a combination solution
+		        - example of a combination solution, integrating multiple relevant interfaces, solutions, covering a high ratio of input variables to vertex variable
+		          - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
+
+## filtering alternate variable sets
     - when testing different variable subsets, you can select a variable set split by structures like:
       - vertex variables
       - variables on interim interfaces where other variables aggregate (in bottlenecks or hubs)
@@ -447,6 +524,8 @@
 
 ## solution automation workflow insight path examples
 
+	- solve problem by changing structures (like position) of interface objects, like functions & variables
+	- use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
 	- identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system
 	- when generating solutions, identify:
 	      - contexts/cases/conditions that can filter it out
@@ -475,11 +554,13 @@
     - identify vertex variables first & approximate
     - identify problem types & corresponding solution aggregation method for that set of types
     - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
+
     - change problem into more solvable problem
       - cause 
         - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
       - problem
         - identify problem types of the problem & select which type to use known solutions for
+
     - apply structures
       - cause
         - vectorize problem system, filling in missing components with generative functions as needed
@@ -497,10 +578,12 @@
         - apply structures of organization until problem is trivial to solve
       - concept
         - apply map structure between problem-solution concepts & sub-structure concepts
+
     - generate solution space first, then filter
       - core
         - apply core structures of solutions to generate probable solutions
         - apply core functions to generate possible solutions & then apply filters to reduce solution space
+
     - apply filters first, then match with generatable solutions
       - core
         - apply components of solution filters to generate filters
@@ -923,7 +1006,6 @@
         - sequential dynamics
           - exposure to a pathogen might trigger a function in response to a cell type with a minor distortion that becomes determining in edge conditions
 
-
 ## interface queries for problem 'find a prediction function'
 
 	- apply information (definition) interface
@@ -1090,7 +1172,22 @@
 
 # examples of interface operations
 
-## apply an interface to a concept 
+## apply interfaces to derive an insight like 'power is responsibility'
+
+    - apply causal interface to identify connecting function 'power is responsibility' (which is also an insight)
+      - power can be defined in causal interface components as 'causative potential' (its the input reason for change in a system, including changes preventing changes)
+        - given that it has structure 'change input', its also a source of other change types than intentionally triggering the correct function (errors, side effects, changes to errors)
+        - changes to fix errors are related to the concept of 'responsibility' (definable as 'work that isnt incentivized but is necessary')
+    
+    - apply structural interface to identify connecting function 'power is responsibility'
+        - 'aligning error & fix sources' also corrects the 'power source distribution imbalance' error, which is another way to derive this insight, using the structural interface (correct distribution imbalance with alignment)
+        - identifying the 'similarity' (a core component of structural interface, applied during a standard application of interface) in the 'direction' structure, between power & side effects (including errors) as similar to the direction between power & fixes
+        - identifying connecting functions positioning power as an input/required structure to fixing errors:
+          - identifying that 'fixing functions' have an input trigger requirement like any other function, and function triggers therefore have power to fix errors
+          - identifying that if something can generate a 'fixing function', it necessarily has power
+          - identifying that if power is necessary to change a structure, by process of elimination, nothing else could fix an error
+
+## apply interfaces to a concept 
 
   - apply interfaces to concept of risk to find relevant interface objects like solutions to risk error type, risk structures, & other risk metadata
 
@@ -1143,6 +1240,32 @@
 		            - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+
+## apply structures to solve problem by changing structures (like position) of interface objects, like functions & variables
+
+    - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
+      - this can add functionality to products to reduce need for producing new versions
+      - physical sensors can use communications tech with varying required internet infrastructure (beacons/bluetooth/radio) to integrate with data, computers, physical resources, building blocks of robots
+      - physical components examples:
+        - use a sensor added to non-electric or non-AI-driven vehicles, pedestrians, & other moving objects on roads (animals, robots) to detect other objects or sensors & help avoid crashes by attaching sensor output as input to steering mechanism with a steering component (interim tech while waiting on market capture of EV & AI vehicles)
+          - can also be used to turn a cart or anything with wheels into a delivery robot, to reduce human traffic
+          - this can turn the delivery market into a sensor coding market to add functionality/integrations to sensors & the robots or resources controlled by them
+        - use a sensor (indicating position to lift away from) as input to another sensor (lifting sensor) with connecting function (fetch position to move away from, direct lift away from position, initiate lift)
+          - add sensors with user-defined connecting functions & prioritized sensor functions
+            - if a sensor on top of trash can has function "lift" and can take input like "heat motion in range", add user-defined connecting function to another sensor not on lid that the sensor on top can use as a reference point to find direction to move in (away from other sensor) 
+      - code components/functions
+        - user-defined connecting function like "query regularly for a function that can do this (publish, copy, export, search, build), and when found, add to querying component"
+        - find connecting function like 'abstraction' to add functionality like 'handling other inputs' or attributes like 'flexibility' and distribute flexibility to other accessible components
+        - hook a search function component up to input component (filters) using user-defined connecting functions (input filters to search on)
+        - user-defined connecting function to connect components like core functions/scripts/metrics (when this event occurs in the sensory input function, send signal to trigger other function)
+          - this is a way to abstract code (any function that can receive input data of that type) & code connections, delegating execution to code located with queries (find a function of this type or with this input/output) and modularize code as well as making it more connectible
+      - task: identify the core functions/components that can generate required functionality for most user intents without introducing security flaws (making hacking devices less adjacently buildable than common legitimate use cases)
+
+## apply structures to identify relevant structures for an intent 
+
+    - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
+    - for 'connection' intents (identify/generate connection), a structure where components are only defined in terms of other components (by their relationships to other components), like a network or vector space
+    - for 'differentiation' intents, a structure where the definition of difference is clear & applicable (can differentiate all different components)
 
 ## example of applying insight paths to find & apply cross-interface non-standard methods across systems to generate solutions
 
