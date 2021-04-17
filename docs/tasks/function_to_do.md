@@ -1464,14 +1464,12 @@
     - anyone who uses a particular proxy/VPN/cryptocurrency accepts some responsibility for requests/transactions executed on that service in cases where the actual criminal cant be determined
     - feature where they can pay to prevent non-verified users from using the service or pay to use an 'invite-only' service
 
-  - differentiate change (sequence of difference structures) vs. difference (non-equivalence on some metric) vs. variable (attribute capturing an isolatable change)
-
   - give example of alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
 
     - the below 'reverse engineering' example uses the following filter query to determine relevance:
-      - relevance = reverse(similarity => core => (combine, not) => adjacence)
+      - relevance = reverse(similarity => core => (combine && not) => adjacence)
 
-    - but it could also use alternate filters such as: (substitute || (similarity, quantity) || test)
+    - but it could also use alternate filters such as: (substitute || (similarity && quantity) || test)
       - apply 'substitute' structure: find a metric that functions as an identifier, filter, approximator, predictor, or proxy
       - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
       - apply 'test' structure to problem system structure: find tests with output information containing the metric value
@@ -1500,52 +1498,21 @@
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
 
     - identify 'inevitable' definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
-      - example: a definition route that cant be used as a definition of balance & power, just one
+      - example: a definition route that cant be used as a definition of both balance & power, just one
       - unique intents are also a useful foundation structure for the intent interface
 
-  - apply structures to error types
-    - false equivalence structures:
-      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
-      - the memory lack can look like a lack of ability, but its a false equivalence/similarity caused by a lack of an input resource, within a range of change potential where the memory lack & ability lack ranges overlap
-
-  - apply structures to overlaps in definition routes
-    - find the adjacent structure without contradictions, that doesnt resolve to either specific option, within the limits of both definition routes
-      - lack/limit :: resource 
-      - function :: resource 
-        - resource-generating function :: resource
-          - resource :: function
+    - apply structures to overlaps in definition routes
+      - find the adjacent structure without contradictions, that doesnt resolve to either specific option, within the limits of both definition routes
+        - lack/limit :: resource 
+        - function :: resource 
+          - resource-generating function :: resource
+            - resource :: function
 
   - give example of mapping to structures & identifying contradictions its safe to ignore for applying a structure
 
   - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
-  - examine which operations (rotate, connect, combine, shift) convert the base subset/limit functions represented by a neural network into the output prediction function
+
   - examine the distortion vector paths that adjacently decompose a data set into a prediction function from a base point/function set
-  - algorithm to identify contradictions (of a statement formatted as a route between network nodes)
-    - query for conditions that would make some input, component, or output of the statement function some structure of falsehood (invalid, impossible)
-    - example:
-      - query for intents that would require movement in different directions, 
-      - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
-  
-  - give example of how to embed interface structures in neural networks (core functions, interaction layers, etc) to select different organization structures as components of the network (concepts like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc)
-    - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
-    - these structural equivalences/similarities across interaction layers can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
-  
-  - consensus-building perspective algorithm (transform a structure in each perspective to a structure in the target perspective)
-    - identify structure of attributes/functions/objects common to both perspectives (connecting function: 'function connecting power and distribution', 'function describing dictatorship dynamics')
-      - identify interface objects within structures (change type in conneecting function: 'direction of power distribution', 'changes in identity & size of group in power')
-        - identify similarities in interface objects within structures (similar change pattern in change type in connecting function: 'power favoring distribution', 'military coups after power abuses')
-  
-  - identify semantic processing necessary to get good prediction results with existing algorithms & params
-    - example: find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
-      - the approximation may leave out other analysis logic like alternative/combination analysis (to identify sets of alternate prediction functions, or causal/functional/priority/missing/type structures in the data set)
-      - however it may find objects on an interface by including interface objects (include concept definition of agency/skill/decision in the titanic survival data set may identify concepts like 'education' as causative, given that a combination of agency/skill/decisions can be used to produce concept of 'education' = 'an agent making a decision to acquire a skill')
-      - similarly, including structural definitions of 'relevance' may improve prediction results with standard algorithms, allowing output structures of relevance like 'semantic variable connections on the relevance level input to the algorithm', such as an 'explanation'
-        - 'including' meaning 'standardizing to relevance structures, such as similarity/adjacence, inputs, interaction level, etc'
-        - first you'd apply standard analysis to get a set of probable dependency graphs, with paths like:
-          - gender => lifeboat access => survival rate
-        - then you'd apply standardization to relevance structures to the dependency graphs
-          - difference in functional position (gender roles) => difference in function (skills) => difference in usage (responsibility) => difference in resource access => 'survival' intent inputs => 'survival' intent fulfillment
-        - the output would be an approximation of meaning, allowing explanations like 'being female (variable value) increased probability (ratio of outcome among possible alternatives) of being prioritized (randomness structures like starting position as well as the concept of agency in filter structure) for access to survival tools (type of 'lifeboat') bc of less agency/responsibility/skills'
 
   - add to decision points
     - when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
