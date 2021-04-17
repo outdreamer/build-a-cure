@@ -70,6 +70,7 @@
 	    - over-variability (over-complication)
 	    - misidentification of minimum info to solve
 		- distortions from expectations
+		- incomplete/damaged structure
 
 	    - false equivalence structures
 	      - 'lack of functionality' bc of root cause of 'lack of memory' or 'lack of functionality to build functionality' or 'lack of intent for that functionality'
@@ -710,6 +711,54 @@
 
 # interface query design logic examples
 
+## example of advantages of applying alternate interfaces, for selecting interfaces
+
+      - the structure (position) of the component can be used to determine/differentiate its meaning
+        - 'logy' and 'logi' as prefix/suffix
+          - '-logy' as a study of the prefix
+          - 'logi-' as a permutation of 'logic'
+
+      - the usage system context (sentences where they're used) can be used to determine intent
+        - '-logy' used when:
+          - discussing science & interactions between fields/topics or changes in a field/topic
+        - 'logi-' used when:
+          - discussing reasoning/rationality
+
+      - intent can be used to determine meaning 
+        - use '-logy' to describe a studying activity & topic
+        - use 'logi-' to reference logic, its interactions & permutations
+
+      - structural interface (differences in position) can be replaced with: 
+        - intent (reason to use within a system usage context)
+        - system interface (usage context to derive reason for usage), and fit to system (meaning)
+
+      - applying different interface queries
+        - apply system context to derive intent
+        - apply structure (position) as an alternative to system context & intent
+        - apply intent to derive usage & system context
+
+## generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
+    - intent: future direction with benefit to agency
+    - cause: preceding inevitability requirement in sequential structure
+    - function: structure of task structures (conditions, assignments, iterations) consistently connecting input & output
+    - logic: function to connect information using info structures (definitions, inevitability, pattern-matching, exclusive/inclusive conditions, requirements, assumptions)
+    - potential: structures like combinations not certainly excluded by requirements
+    - change: difference in an attribute value, according to a base (time, relative change, change type)
+    - abstraction: general pattern of a specific structure set
+    - pattern: a set of connecting functions, often in a sequence structure
+    - structure: connections & change of measurable change & difference types
+    - information: specific description of a structure
+    - math: description-connecting functions
+    - system: structure of independence, often having boundary, function & other component structures, at a particular interaction level
+
+## multiple queries for low-information problem statements
+
+    - use parallel/perpendicular insight paths, for insight paths that add info that the other is less/more likely to retrieve
+
+## variables
+
+	- implementation variables as config options (different generation starting point/source of truth, equivalent/different voting influence in determining interface queries or system optimizations, different constants/derived info/functions, different default interfaces/definitions, etc)
+
 ## associating interface operations with intent 
 
     - solve sub-problem 'find combine structures after applying system interface' for sub-intent 'to find connecting structures in problem/solution system'
@@ -721,6 +770,7 @@
       - a sub-query to solve a sub-problem like 'reduce & isolate dimensions of problem' should be defined using the problem statement components & the insight path ('break' as the original function mapped to sub-functions 'reduce' and 'isolate'), so when it comes time to integrate sub-solutions into a solution, the corresponding opposite function to 'break(problem)' can be applied to 'integrate(solution)', using a version of 'integrate' such as a specific version of 'merge' that connects to the version of sub-functions of 'break' used
 
 ## the decision between selecting insight path/query for a problem & generating a new one is dependent on:
+
     - problem metadata (complexity, adjacent formats)
     - available info (whether metrics are capable of capturing relevant info)
     - input data set metadata (whether variables are output metrics, variance-covering metrics, proxy variables, etc)
@@ -767,56 +817,61 @@
 
 ## connecting problems & solutions with error types (opposite of connecting with solution types)
 
-  - associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
-    - what errors can be present in a solution that can still be considered successful
-    - what errors are considered a problem or equal to the input problem when combined in a structure
-    - iterate through possible interface definitions of problem/solution
-      - problem :: solution 
-        - general connecting function:
-          - sub-optimal state :: more optimal state
-        - specific problem/error type connecting functions:
-          - state with errors :: state with fewer errors
-          - state with unused resources :: state with fewer unused resources (unnecessary dimensions)
-          - state with no possibility for change: state with possibility for change (randomness injection points, variance sources, dependencies)
-          - distorted state (specific intent) :: undistorted state (center)
-          - state where organization is a dependency source (too big to fail) :: state where organization is an efficiency source (solution provider)
-          - specific solution for specific parameters/values :: abstract parameterized solution
-          - mismatched format :: matching format
-          - misaligned intents :: aligned intents
-          - info dependency :: info generating function dependency
-          - unknown cause :: set of possible causes of varying directness
-          - state with inability to self-correct :: state with self-correcting function
-          - state with inability to interact :: state with core functions to build interaction function & function to change interaction level
-          - lack of chaos :: variance injection, variance source
-            - when a system has no errors, that means its either not finding new variation (unlikely if capable of doing so), not capable of finding variation, or is not learning
-              - inject errors to try to produce variation
-              - apply function to build functionality to find/generate variation
-              - apply errors/changes to learning functions to produce new learning functions
-          - structure :: different structure
-            - direction :: position
-              - goals (result, impact, resource) :: flexibility (increase in function, increase in power)
-          - missing structures (sub-type of opposite structures, sub-type of difference structures)
-            - lack of structure :: unnecessary structure
-          - sub-optimal solution :: improved solution
-          - solution set :: optimal solution
-          - decision options :: executed decision
-          - lack of decision :: decision options
-          - lack of power :: locally concentrated power
-          - too much (concentrated, high density, unnecessary, unmanageable) power :: globally distributed power
-      - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
-      - apply system optimizations to all interface components 
-        - example: 
-          - apply 'have multiple variance sources' to 'variance sources' for intent 'distribute power' of input variance across sources
-        - filter optimizations by contradicting intents that are identifiable as useful for functions connecting problem/solution structures
-    - apply error types to interface component design/optimization
-      - applying error type solutions to functions
-        - 'avoiding dependencies'
-        - 'avoiding traps leading to dead-end static states where variance injections cant change the system'
-      - to avoid the associated error types:
-        - 'missing dependencies', 'cost of generating dependencies'
-        - 'lack of flexibility', 'lack of potential', 'lack of functionality'
+	- associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
+	    - what errors can be present in a solution that can still be considered successful
+	    - what errors are considered a problem or equal to the input problem when combined in a structure
+	    - iterate through possible interface definitions of problem/solution
+	      - problem :: solution 
+	        - general connecting function:
+	          - sub-optimal state :: more optimal state
+	        - specific problem/error type connecting functions:
+	          - state with errors :: state with fewer errors
+	          - state with unused resources :: state with fewer unused resources (unnecessary dimensions)
+	          - state with no possibility for change: state with possibility for change (randomness injection points, variance sources, dependencies)
+	          - distorted state (specific intent) :: undistorted state (center)
+	          - state where organization is a dependency source (too big to fail) :: state where organization is an efficiency source (solution provider)
+	          - specific solution for specific parameters/values :: abstract parameterized solution
+	          - mismatched format :: matching format
+	          - misaligned intents :: aligned intents
+	          - info dependency :: info generating function dependency
+	          - unknown cause :: set of possible causes of varying directness
+	          - state with inability to self-correct :: state with self-correcting function
+	          - state with inability to interact :: state with core functions to build interaction function & function to change interaction level
+	          - lack of chaos :: variance injection, variance source
+	            - when a system has no errors, that means its either not finding new variation (unlikely if capable of doing so), not capable of finding variation, or is not learning
+	              - inject errors to try to produce variation
+	              - apply function to build functionality to find/generate variation
+	              - apply errors/changes to learning functions to produce new learning functions
+	          - structure :: different structure
+	            - direction :: position
+	              - goals (result, impact, resource) :: flexibility (increase in function, increase in power)
+	          - missing structures (sub-type of opposite structures, sub-type of difference structures)
+	            - lack of structure :: unnecessary structure
+	          - sub-optimal solution :: improved solution
+	          - solution set :: optimal solution
+	          - decision options :: executed decision
+	          - lack of decision :: decision options
+	          - lack of power :: locally concentrated power
+	          - too much (concentrated, high density, unnecessary, unmanageable) power :: globally distributed power
+	      - apply error & problem types to generate other possible definitions of a problem & solution, allowing functions connecting them to be built/stored specifically for those types
+	      - apply system optimizations to all interface components 
+	        - example: 
+	          - apply 'have multiple variance sources' to 'variance sources' for intent 'distribute power' of input variance across sources
+	        - filter optimizations by contradicting intents that are identifiable as useful for functions connecting problem/solution structures
+	    - apply error types to interface component design/optimization
+	      - applying error type solutions to functions
+	        - 'avoiding dependencies'
+	        - 'avoiding traps leading to dead-end static states where variance injections cant change the system'
+	      - to avoid the associated error types:
+	        - 'missing dependencies', 'cost of generating dependencies'
+	        - 'lack of flexibility', 'lack of potential', 'lack of functionality'
 
 ## problem-solution format maps
+
+	- core problem type structures (reduction, expansion, organization, matching, standardization, regulation, prediction/derivation (missing info), limit/change conflict resolution, error-to-resource conversion, optimization) & optimal solution formats & format structures for each
+	    - optimal optimization formats include network path-finding
+	    - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
+	    - optimal organization formats include layered networks & vertex variables
 
   - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
     - filling problem
@@ -1241,6 +1296,137 @@
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
 
+## apply structures to generate variables in a system
+
+    - identify changes that lead to development of a 'concept' in a system:
+
+	      - an object begins aggregating changes (like functions/attributes) in such a way that it develops unique interactions that differ from those calculated by a simplistic summing of the interactions of its components
+
+	      - example: a system may develop a concept like a 'layer'
+	        - structural definition of a layer: a set of components that separates other components & their interactions, inside a containing boundary
+	          - this definition differentiates it from a boundary, limit, line, or container structure
+	        - the definition also has dimensions beyond a simple line
+	        - the layer may aggregate functionality, such as:
+	          - being stacked or combined to create larger layers or structures on top of a layer
+	          - forming a base for interactions to develop on, if its a vertically stacked layer
+	          - acting as a filter, if there are openings in the layer
+	        - so the layer is not only measurably different from similar structures, it may also have significantly different functionality, earning it a unique term (meaning it has developed into a 'concept' in the local system)
+
+	      - the variable of 'structure' can describe the layer & generate it, but it doesnt capture the full definition of the 'layer' concept
+	      
+	      - other variables are necessary to fully describe the layer, such as:
+	        - adjacent structures (line, container, limit, boundary)
+	        - core function (stack, combine, bridge, support)
+	        - adjacent functionality (filter, separating interaction layers)
+	        - default structure (vertical layer related to stacking function)
+	      
+	      - because it stabilizes into a useful unique component, the layer concept begins to act like a vertex variable and/or an interface, since it starts becoming causative of changes due to its stability (rather than just being the output of changes to similar structures or iterated core functions or aggregated variance)
+	      
+	      - concepts in a system can be local interfaces that are useful to use as standards for comparison
+	        - standardize to the 'layer' structural interface
+	        - standardize to the 'local system structural concept' interface
+
+	    - so you can generate the sequence of a set of variables for a system by which change type structures are stable enough to act like concepts/interfaces for a given stage subset in the sequence of system development
+
+	      - system metadata: invalidating/triggering/development conditions
+
+    - you can also apply core structures to generate change types (multiply a number by the structural concept of 'opposite' to get the 'sign/direction' variable)
+
+	    - variable definition route: 
+	      - isolatable, measurable change type 
+
+	    - component generation: identify components of a system & generate possible change types that enable/optimize interactions between those components
+	      - core generation: identify core change types that can be combined to create other possible change types & generate other possible change types & filter
+	      - subset generation: identify subsets of a system's components that are sufficiently stable in functionality/attributes to interact with other subsets without invalidating the system
+	    - limit generation: identify limits of a system & generate possible change types that can develop within those limits & filter
+	      - reverse generation: generate required functionality in a system & derive possible variables that could produce it & filter
+	    - filter generation: identify & apply filters that determine variable development functions (like change combination, change metadata pattern, change coordination functions)
+	      - apply 'variable' definition filters: generate possible isolatable/measurable change types & filter
+	      - apply 'efficiency' definition filters: generate structures that would be efficient & check for components that could generate those structures
+	      - other example filters: 
+	        - are there resources to sustain this change type
+	        - does this change type contradict a system rule
+	        - is there a reason/intent/usage for this change type that is not fulfilled elsewhere (by metrics like adjacence to justify creating the functionality)
+	          - is there a system-invalidating force requiring a new change type
+	          - is there another position that could use similar functionality to existing functionality that is inaccessible in that position
+	        - is this change type adjacently buildable with system resources
+	        - is this change type probable
+	        - would this change type trigger changes that invalidate the system or reach stability
+	        - how would this change type interact with other change types
+	        - does the environment system change enough to justify developing another or extra change types
+	        
+## apply structure to identify false information across user requests
+    - apply intent interface: 
+      - check with intent store (site) if a request for an intent (request password) was just made by the user, to validate messages
+      - apply pattern interface: 
+        - check if user access patterns (like 'navigate to site, then check email for site password reset') match that intent
+
+## apply structures to predict trend convergence 
+
+    - trends 
+      
+      - micro internet markets
+      - micro/specific app favor markets
+      - violent power transitions
+      - competitor/competition bans/taxing
+      - currency/wi-fi competition & dictators as a source of stability
+      - anti-democratic activity as a specific case of anti-trust activity
+      - investment in job creation/antiquated tech subsidies
+      - customer product lock-in
+      - dependent product price-raising
+      - drug discovery automation
+      - all-service companies
+      - info derivation tools
+      - temporary/sequential info markets as a social mobility/equalizing tool
+      - delegation of high-cost/low-interest problems to AI
+      - ending resource inequalities (tech, energy, internet)
+      - hacking targets (democracies, big consumer markets like traders/gamers)
+      - labor trends of balance between priorities (organization/innovation/optimization/integration/cooperation/research)
+
+    - structures
+
+      - cascading errors
+        - AI is applied iteratively to tasks that people dont want to pay attention to bc they assume lack of relevant or changing variation, which may include monitoring AI errors or designing AI tests
+
+      - interacting trend trajectories
+        - price manipulation for investments in systemic price reduction (ending resource inequalities necessitating competition for moats)
+        - markets for info, decisions, risks, intelligence, potential, justice, laws, independence, problems/solutions, customization, organization
+        - competing prediction/computation tools: stats, system analysis, quantum tech, AI-optimized processing units
+        - AI as an error-correction tool for quantum tech
+        - checks & balances through competing evaluation tools: 
+          - science experiment automation, automated testing tools, AI, quantum computing, system analysis, stats
+        - evaluation/info-derivation/prediction/computation tools as components of a system building understanding
+        - competing task runners: AI, robots, & gig workers
+        - contact-reduction & independence tools like 3d printing
+        - organization tools, encryption & dictator overthrow-planning/subversion, consensus-building, or dictator-manipulation
+        - organization of competition in a problem market, for important optimizations only
+        - market selection/optimization/automation
+
+## apply structure to components like technologies to find emergent trends
+
+    - tech, standardized to common terms
+      - movie: sensory info emotion triggers & info/abstract paths (stories)
+      - video game: decision visualization
+      - music: audio emotion triggers & info/pattern paths
+      - ai: prediction/generation
+      - ar: integrate visualizations with real sensory info
+      - screen: visualization interface
+      - video conferencing: visualization sharing
+      - text voting: decision aggregation
+      - drug: direct sensory info semotion trigger
+      - brain-scanning tech: visualize memories & thought processes
+
+    - multi-player video game voting: applying voting tech of viewers to influence video game tactics/resources/problems/outcomes/decisions
+      - generative query: switch input of decisions to another decision-producing tool (audience voting vs. player/algorithm decisions), for randomness/customization/reality integration intents
+    - user character customization: applying AI to generate characters of real people or characters from other games to play as other players in video game
+      - generative query: switch input of character personality/story with another source of that info, for customization/reality integration intents
+    - memory-generated vidoe game: apply ai & brain-scanning to generate a game based on memories
+      - generative query: change experience level or skills required (use memory as a tool or test memory functionality), for testing/customization/reality integration intents
+    - emotional/sensory alignment games: query for desired emotional path & map a game/video/audio/drug to produce or match that path
+      - generative query: change content-creation direction & other variables, from story => emotions to emotions => structure applied to emotion-triggering tools
+    - brain-development games: apply AI & brain-scanning to identify missing functionality in brains & generate game to develop that function
+      - generative query: use output of game (learning) as input assumption for learning intents using games as intent-fulfillment resource
+
 ## apply structures to solve problem by changing structures (like position) of interface objects, like functions & variables
 
     - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
@@ -1319,6 +1505,115 @@
             - test whether the connecting structures fit with the new system after removing attributes:
               - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
                 - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
+
+## apply interface analysis to find optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
+
+    - problem of finding optimizability in the form of a solvability limit of a problem, without knowing the answer
+      - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
+        - connected structural info:
+          - when they choose the number
+            - physical motion rules
+              - how arms/joints move 
+              - how their eyes move (indicating remembering or creative process or a local distraction or another input)
+          - default input rules
+            - hand motion dynamics, like how fingers interact & which motion types are favored/prioritized/likelier
+        - general rules
+          - alternative selection rules
+            - how people make decisions from a set of similar alternatives (familiarity, understandability, simplicity, standard vs. non-standard choices)
+          - intent rules
+            - agent intents (trying to surprise the magician by subverting expectations of their choice)
+        - related variables
+          - attention
+      - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer (or info that makes it identifiable or possible to filter/reduce other options)
+        - indicates that the interaction of the available variable info: 
+          - is too low-dimensional
+          - includes info about too distant/indirect variables/rules
+          - includes info that cant capture/derive approximations/actual values of the variation/patterns of the output variable or its proxy variable
+          - doesnt have a vertex variable or connectable interfaces/variables
+
+        - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
+
+    - problem of finding optimizability of 'buttons vs. configuration' problem (headphones with buttons)
+        - variables
+          - hardware
+          - alternative/related/interactive products
+          - usage patterns
+          - sound functions (play, skip, switch to voice commands, reduce noise, highlight bass, use more capacity to clarify sound quality, change relative volume, predict lost sound)
+          - buttons
+          - attachability/detachability/migratability
+          - compartmentalization/isolatability
+          - buildability
+          - configuration options
+          - simplicity
+          - memorizability
+          - adaptability
+          - app
+          - higher-variation alternative interfaces
+            - sound input/output (alternative input to a button)
+          - probability (commonness of a usage pattern)
+          - demand (need for a button, configuration, usage pattern, or a function)
+          - variable structures (combination of variables, like a particular set of variables or a set of interaction rules between variables)
+
+        - implementations
+          - find common usage patterns & assign to buttons
+            - buttons for common functions
+          - find memorable button structures & assign to common usage functions
+            - find memorable combinations & sequences, like double-click of a button, or a button combination click, and assign to common usage functions
+          - inject crucial high-variation function in higher-variation interface
+            - configurable button functions (configure options of how buttons connect to functions), using an app (higher-variation interface, allowing more buttons)
+          - inject crucial high-variation function into a button
+            - configuration button (configure options of how buttons connect to functions), by clicking a config button
+          - embedded menus in buttons
+            - access menu (list of functions) with a button or button structure (combination, sequence)
+          - alternate input with higher-variation potential
+            - voice commands rather than or in combination with buttons
+          - allow buttons to be attached like legos
+          - allow buttons/functions to be coded & switched out to do any function the hardware (or connected hardware) can support, including functions from other alternative products
+          - integrate with existing hardware like glasses/hat/shirt (use materials to conduct sound, attach speakers/microphones to glasses rather than having wires, attach buttons to glasses)
+          - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
+
+        - optimized mathematized implementation for intent (simplicity, highest features given simplicity, maximized features)
+          
+          - simplicity: assign common (high-probability) functions to buttons & simple button structures (low-dimensional buttons & button structures)
+            - variables: button count, button function, button structure (combination, set, sequence), function probability, simplicity
+
+          - highest feature count, given filter of 'simplest implementation': highest number of functions possible to implement simply (low-dimensional memorization)
+            - variables: function count, memorization, simplicity, abstraction (type), button usage structure (scale like repeated clicks of a button, sequence like buttons clicked in sequence)
+            - variable interaction rules:
+              - 'when function count increases absolutely (all other variables being equal), memorization decreases'
+              - 'when count increases but is organized simply (like accessing functions organized by type or scale with successive button clicks), memorization is constant'
+            - variable structure: 
+              - intersection of independent variable changes (function count & memorization)
+              - alignment of simplicity & memorization changes
+              - alignment of abstraction (type) & simplicity changes
+              - substitution of proxy variables (substitute more measurable variable like simplicity for memorizability)
+              - substitution of more measurable variables
+                - substitute simplicity-filtering rules to identify complexity rather than using complexity identification rules
+                - substitute similarity-filtering rules (what something is) to identify similarity than difference identification rules (what something is not)
+
+            - optimized variable structure: 
+
+              - maximized 
+                - parameterization of variables that change on similar input
+                - intersection of variables to optimize (intersection of highest function count and highest simplicity)
+                - alignment of related variables (aligning memorizability & simplicity) that should be similar
+                - opposition of variables that should be different
+                - compression/merging/selection of variables that act interchangeably
+
+              - structure application
+                - sequence structure applied to causative variation (input/output)
+                - topology structure applied where changes in variable values of a variable set can be mapped to distance (different changes do not produce equal points)
+          
+          - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
+            - variables: config input (voice, button), variable variation, config adaptability, config source (custom user-defined function, open source/multi-vendor libraries)
+
+        - how to generate optimized mathematized implementations for intents
+          - apply structural definitions of components (rules, variables, intents, concepts)
+          - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
+            - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
+
+        - identify interaction structures (like trade-offs) between optimization metrics
+          - find maximization of metric-optimization in those interaction structures
 
 ## apply interface analysis to find alternative solutions for matrix multiplication problem
 
