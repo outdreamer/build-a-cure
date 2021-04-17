@@ -6,8 +6,28 @@
 	- meaning
 		- relevance
 			- usefulness
-				- clarity
-				- adjacence (reduction of cost to reach solution)
+				- applies solution structures (opposite to error structures) as structures of usefulness/relevance/meaning
+					- clarity (structure, definition)
+					- adjacence (reduction of cost to reach solution)
+					- connection (connecting problem & solution formats)
+					- reduction (reducing problem dimensions)
+					- fulfillment (filling abstract structure)
+					- optimization/organization (positioning components efficiently for a metric)
+					- similarity (resolve conflict)
+					- differentiation (identification)
+
+				- example
+					  - the most useful functions (including patterns) will be:
+					    - cross-interface patterns: 
+					    	- patterns linking interface objects
+					      		- example of patterns linking all interfaces: error patterns
+						    - patterns of interface object links
+						        - change path patterns of randomness
+					    - system patterns: 
+					    	- patterns which unite other structures & form an interim structure in between meaning & problem-solving task intents
+					    - core patterns & core interface components 
+					    	- patterns which can build other components
+					      - patterns in core interface components, like change/difference patterns
 
 ## alternate variable set filters
     - when testing different variable subsets, you can select a variable set split by structures like:
@@ -76,6 +96,15 @@
 
 # insight path examples
 
+## standard general insight paths (to apply structure to in order to make them specific to a context)
+
+	- trial & error
+	- reverse-engineering
+	- break problem into sub-problems, find sub-solutions, merge sub-solutions into solution
+
+## standard structural insight paths
+	- find optimal structure (combination, path, direction, sequence) for a problem-solving intent (find predictive variable set, functions connecting input/output, priority direction, operation sequence) given metrics like adjacence (structural alignment, low-cost conversion potential) or available functionality/variation in that structure
+
 ## solution automation workflow insight path examples
     - find an example & generalize
       - find core/unit objects, find example using those objects, & generalize
@@ -89,15 +118,53 @@
 
 # structure examples
 
+## structural concept definition routes
+    - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
+    - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
+      - opposite requiring a potential for extreme values to occur in a structural possibility where difference can develop
+    - thinking definition as 'applying structure to uncertainty'
+    - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
+
 ## error structures
 	- errors defined as differences between intended/actual structures
+	- errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
+      - stacking errors may be a better way to frame problems than other interfaces
+        - the level of randomness captured by the error structure
+        - errors can function as limits as well as difference types building a problem structure
 
-## bias structures
+## stupidity structures (like bias)
+
+  - apply anti-stupidity structures to neural network structure 
+    - lack of learning functionality
+      - inability to remember (identify relevant info quickly when new info isnt necessary)
+      - inability to identify relevance structures (meaning, usefulness, direct causation)
+      - inability to optimize (identify a quicker route to an insight, like an insight path)
+      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
+      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
+      - inability to direct thoughts (focus)
+      - inability to forget sub-optimal/inaccurate rules (bias)
+        - function to apply bias structures to a neural network structure
+          - thinking benefits from bias removal
+          - remove bias structures in neural networks to improve their thinking capacity
+          - example
+            - apply removal of 'simplicity' bias in a neural network structure
+              - simplicity (specifically over-simplification) definition on structural interface: 
+                - lossy lower-dimensional representation
+                - low-cost representation with relatively reduced learning reward
+              - the simplicity bias shows up in a neural network structure in many possible positions
+                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
+                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
+                - general default params also tend to store simplicity where it's not needed
+            - apply removal of 'similarity' bias 
+              - similarity bias structural definitionss
+                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
+              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
 
   - identify bias structures as output of operations on structures, or by missing structures that cause bias
     - bias is a filter that leaves out relevant information
     - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
       - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
+  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
 
 ## info asymmetry
 	- associated with an info loss ('missing' or 'gap' structure) in a particular direction between info types/formats/positions, rather than just an info imbalance or a mismatch
@@ -293,6 +360,43 @@
 
 # interface query examples
 
+## example of interface analysis applied to explain lack of perfect predictive power of a variable (like cell structure)
+
+	- structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality bc it's missing info about:
+      - components
+        - other/possible components & their structures (other possible pathogens, foreign cell types, in other ratios/positions)
+          - other/possible components with similar/contradictory shapes that might be interfering
+            - like similar receptor/binding shapes that leave no room for the cell type being examined
+        - internal cell components not measured or formed unless found in a particular environment context
+      - change types
+        - changes to the host system structure (like nerve damage)
+        - changes to forces governing change (like motion, as blood flow) in the host system structure 
+        - not measurable info
+          - hidden non-structural variables (like blood flow/pressure, electrical effects, or prior exposure to nutrients like vitamin d triggering timers) or variable sets with similar net effects (activated lifecycle)
+          - distortions commonly found in different cell types with same structure bc of different positions
+          - functional implementation differences
+            - different cell types have different method of achieving the same function using the same components, in a structure that varies within the data set but not enough to indicate different method
+        - component interaction dynamics
+          - interaction level
+            - cells with same structure might operate on different interaction levels, given different position/system
+          - structures of interaction object components
+            - a cell with equivalent DNA might encounter 'jumping gene' functionality in one system position, where an equivalent cell in another position would not
+          - determining interaction attributes/functions 
+            - like how attributes like aggressiveness might be determined by missing info (indicating why one cell type would succeed at binding & another of a similar/equivalent structure would not)
+        - limit/threshold dynamics
+          - sample data might leave out variation in the form of determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
+        - state dynamics
+          - false equivalence: structure might be measured at two equivalent states across two different cell type lifecycles (like evolutionary paths or distortion patterns), giving illusion of equivalent structures
+        - system dynamics
+          - structural metadata (like position, which determines local system & adjacent cells/functionality)
+          - invalidating functionality
+            - system that deletes duplicates, where a particular cell type is handled second bc of some attribute (like size, indicating it needs to be broken down first), so its always found to be the duplicate & is deleted
+          - functionality that is activated in environments & not obvious with structural analysis 
+            - like a function that folds dna/proteins in a way that has more errors than other folding function in a particular environment
+        - sequential dynamics
+          - exposure to a pathogen might trigger a function in response to a cell type with a minor distortion that becomes determining in edge conditions
+
+
 ## interface queries for problem 'find a prediction function'
 
 	- apply information (definition) interface
@@ -458,6 +562,69 @@
         - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+
+## structures applied to these core structures to generate conceptual structures in neural networks
+      
+      - variables of the network include structures emerging from or embedded in algorithms/structures
+
+      - core structures
+        - change types 
+          - difference type 
+        - agency types
+        - cause types (influence/power of structures)
+        - structures
+          - sequence (embedded concept of 'time' in structural interface)
+          - list (unique index)
+
+      - alternative cause: change applied to causal structures at training & prediction time
+      - organization: difference type index
+      - agency/govt: decisions about change types to apply
+
+        - structures applied to agency objects like decisions (such as subsets/alternates) & other conceptual structures (like time)
+
+          - sub-decisions
+            - structures of neural networks with delayed sub-decisions
+              - conditionally activated cell structures with enough info to make a sub-decision
+            - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
+              - govt structures/algorithms
+                - organization structures are a structural version of govt (agent-based) decision-making
+              - finding the level of 'agency' to apply to a network is possible with problem complexity identification
+                - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
+
+          - alternative decisions to make in interface query
+            - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
+            - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
+              - alternative decisions
+                - finding root cause
+                - solving a proxy problem
+
+          - decision (change-filtering problem-solving) times
+
+            - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
+              - sub time points: activation time, pooling time, aggregation time, filtering time
+
+            - optional points where decisions can be injected
+              - decisions: 
+                - network-level decisions: continue learning, select prediction answer
+                - structural decisions: change direction, identify threshold, ignore info
+                - meta decisions: delegate/delay decisions, consider alternative decisions
+              - time where decision is clear/final/starts to emerge
+              - time where direction change decision is made
+              - time where more info/time is identified as necessary
+              - time where decision is identified as not answerable
+              - time where alternatives are identified, assigned probability, filtered out
+              - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
+              - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
+              - time to check for a structure in the difference type index
+      
+## applying structure to structure to generate a particular structure/format (structure standardization)
+    - example of converting structures into vectors
+      - many vector structures can represent interface structures
+      - example of selecting a vector structure to represent an interface structure on a particular interface, applying structure to indicate metadata about structures
+        - example: causal loop
+          - standard network structure translation: vectors to indicate direction of cause
+          - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
+
 
 ## example of applying structure to identify rules that violate a metric 
 
