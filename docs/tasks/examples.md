@@ -136,12 +136,6 @@
 
 # structure examples
 
-## apply structural definition routes to differentiate similar or related concepts
-	- change: sequence of difference structures
-	- difference: non-equivalence on some metric
-	- variable: attribute capturing an isolatable change type
-
-
 ## structural concept definition routes
     - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
     - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
@@ -595,6 +589,38 @@
 
 # apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
 
+## apply structural definition routes to differentiate similar or related concepts
+	- change: sequence of difference structures
+	- difference: non-equivalence on some metric
+	- variable: attribute capturing an isolatable change type
+
+## apply structure to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+
+    - the below 'reverse engineering' example uses the following filter query to determine relevance, reverse-engineering a definition of relevance that can be used to find relevant structures, a definition that is formatted as a set of filters, using a structural definition of relevance (similarity)
+      - relevance = reverse(similarity => core => combine => not structural alignment => adjacence)
+      - relevance = a structural definition of relevance (similarity), with core functions derived, core functions which are used to create function combinations, which can be applied to the original structure to find adjacent structures, filtering out similarities that are one-interface similarities (like structural similarities) rather than relevant similarities (multi-interface similarities)
+
+    - but it could also use alternate solution filters to find relevant info to the solution such as: (substitute || (similarity && quantity) || test)
+      - apply 'substitute' structure: find a metric that functions as an identifier, filter, approximator, predictor, or proxy
+      - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
+      - apply 'test' structure to problem system structure: find tests with output information containing the metric value
+
+    - these alternative filter sets optimize for metrics like:
+      - filter set metadata
+      - optimizing for different interface metrics (variance degree, interaction layer, abstraction level)
+      - having a particular structure (paths to connect source/destination) that uses available functions
+      - maximizing a particular change or difference type for identification/accuracy-related intents
+      - connecting difference types in different spaces (standardization)
+      - interface structure-fitting (like 'intent alignment' or 'lack of contradictions')
+
+    - these alternative filters have different metadata, like:
+      - cost
+      - variation sources (equivalence definition)
+      - variance reduction (degree, type, pattern, potential)
+      - requirements (like required information access)
+      - path (in the filter network, & also possibly a path in the problem structure network)
+      - interfaces, structures, & definitions used ('questions' asked by the query, 'alternatives' used as 'approximations')
+    
 ## apply structures to identify consensus perspective between opposing perspectives
 	- transform a structure in each perspective to a structure in the target perspective
 	    - identify structure of attributes/functions/objects common to both perspectives
