@@ -1,99 +1,13 @@
 # to do
 
-  - organize examples
+  - make efficiency map
+  
+  - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
+
+  - finish applying structure to info components (memory components like personality, forgetting, compression, uniqueness, generation, learning, bias, and organization components like relevance, differences, type, abstraction, standards, randomness) to generate full set of neural net types
+    - filter by usage intent
 
   - check reduced language components for any other useful functions (what terms cant be adjacently, clearly & accurately framed in terms youve defined) for completeness
-
-  - function to check format for clarity, adjacence & usefulness/relevance to a problem
-    - check if 'difference from standard' is a useful (clear, adjacent) format for the problem 'object is over-reduced'
-      - standardize problem statement: 
-        - standardized statement: 'excess' applications of 'reduction' function to 'object' component
-          - find standardized statement components:
-            - 'object' component
-            - 'reduction' function
-            - 'excess' applied to 'apply function' function
-              - formatted definition: function.attributes['call count'] excess
-                - find structure of this definition:
-                  - structure: 
-                    - difference (integer) between optimal function.call_count and excess function.call_count
-                  - check for adjacent method to find structure in problem system
-                    - find structure of a difference formatted as an integer, in a problem system formatted in standard formats
-                      - iterate through standard formats for problem
-                        - function network
-                          - network of problem functions, including 'application' and 'reduction'
-                        - state network: origin state & excess state
-                          - alternative format: state network with origin at center & distorted state, separated by distortion function nodes
-                            - this format has a structural similarity between count attribute of 'distortion function nodes' and function.call_count attribute format, as both are in integer format
-                            - check if this format is adjacent to convert problem to (low-cost, or similar)
-                              - steps to convert problem to this format:
-                                - map standard to origin
-                                - map function.call_count to differences (steps away from origin), structured as distortion function nodes (representing the 'application' function that calls the 'reduction' function)
-                                - map excess to distorted position, function.call_count steps away from origin
-                  - if the conversion steps of that format are lower cost than those of other formats, try this method to see if the format is useful as well as adjacent
-                    - check if applied format is 'useful', defined as:
-                      - solves the problem
-                      - makes the solution clear
-                      - reduces the tasks necessary to solve the problem (connect problem & solution)
-                    - once problem is formatted as a set of distortions from an origin, is the solution:
-                      - reached (new problem format equals solution format)
-                        - the format itself doesnt solve the problem - the object is still over-reduced
-                      - clear
-                        - the format adds clarity without losing info - the object & relationships are accurately represented, in a simple format
-                      - fewer steps away
-                        - the remaining steps to solve the problem involve connecting the new format ('differences from standard (origin)') with the solution format ('object is not over-reduced')
-                          - remaining steps include:
-                            - standardization of solution format
-                            - converting standardized solution format to current problem format
-                            - finding a connecting function
-                          - example logic of remaining steps:
-                            - standardize solution format:
-                              - find structures relevant to problem & solution format
-                                - 'over-reduced' and 'not over-reduced' imply the 'opposite' core structure
-                              - apply 'opposite' structural definition to find structures relevant to the problem
-                                - 'not over-reduced' applied to the problem can mean:
-                                  - 'less reduced than excess position'
-                                  - 'origin position'
-                            - convert standardized solution format to current problem format
-                              - convert 'less reduced object than excess position' to 'differences from standard (origin)'
-                                - 'less reduced' applied to excess position in 'differences from standard' format has structure:
-                                  - 'fewer differences (steps from origin)'
-                                    - fewer can mean:
-                                      - any integer less than current number of steps associated with excess position
-                              - the converted solution format:
-                                - 'less steps away from origin than excess position'
-                            - find connecting function of converted standardized solution format & current problem format
-                              - find 'opposite' structures of 'reduction' function:
-                                - find 'opposite' structures relevant to an 'excess'
-                                  - reduce the excess
-                                  - convert the excess to zero (if zero is acceptable structure for solution format)
-                                  - remove the object in excess (if zero is acceptable structure for solution format)
-                                - find 'opposite' structures relevant to a 'reduction'
-                                  - increase the component quantity that was reduced (object dimensions)
-                                - find 'opposite' structures relevant to a 'function application' (call_count)
-                                  - neutralizing
-                                  - invalidating
-                                  - reversing
-                                  - reducing
-                                - find opposite functions
-                                  - find function that reduces the excess
-                                  - find function that reduces the reduction
-                                  - find function that neutralizes/invalidates/reverses/reduces a function.call_count
-
-                      - this may not be fewer general steps away:
-                        - every problem format change requires:
-                          - checking new problem format for difference from solution format
-                          - finding a conversion function to convert the standardize solution format into the current problem format
-                          - finding a connecting function for the current problem format & the standardized solution format
-                        - every solution format requires:
-                          - standardization (can be done at beginning of interface query)
-                      - but the logic for these steps may be adjacent to create/derive, or it may already exist, so that solution fulfilling the general steps is trivial to assemble with existing logic
-                        - example logic that would already be defined: 
-                          - standardize structures
-                          - pull definitions
-                          - find similar structures
-                          - find relevant structures (meaning)
-                          - check for matches in similar structures
-                          - check for usefulness (reduction of solution steps, clarity, or solution) of structurees
 
   - example of deriving solution from problem in a particular format:
 
@@ -1241,21 +1155,7 @@
               - 'its annoying when someone keeps going on & on about your previous conversations where you ordered deaths of a dissident for being annoying & then abruptly stops without explanation'
             - 'its rude when someone doesnt let you end a conversation with a laywer interrogating you for war crimes' 
 
-  - organize examples in indexes
 
-  - make efficiency map
-
-  - bias structures: 
-    - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
-      - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
-      - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
-    - conflating stereotype ('false statement about a group') with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
-    - stupidity manifests as similar structures (fulfillment of low expectations) across groups in response to low expectations, leading to feedback loop
-
-  - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
-
-  - finish applying structure to info components (memory components like personality, forgetting, compression, uniqueness, generation, learning, bias, and organization components like relevance, differences, type, abstraction, standards, randomness) to generate full set of neural net types
-    - filter by usage intent
 
   - example of applying structure to components like technologies to find emergent trends
 
@@ -1447,51 +1347,12 @@
         - does the environment system change enough to justify developing another or extra change types
         
 
-  - finding formulas: equate structures like:
-    - concept: 
-      - 'aesthetic': generating aesthetic formulas using simple/balanced/relevant structures
-    - pattern:
-      - generating formulas based on patterns & anti-patterns of other formulas
-    - structure:
-      - using limits that bound other formulas as assumptions to reduce solution space
-      - finding vertex variables of formulas & applying variations to generate other formulas
-      - https://www.vice.com/en/article/xgzkek/machines-are-inventing-new-math-weve-never-seen
-
   - authorized pick-ups/drop-offs by people in your social circle, extra keys for drop-off in lock boxes or cars, picking up packages from warehouses
     - https://www.vice.com/en/article/v7mnga/amazons-megacycle-shift-will-push-some-delivery-drivers-out-of-work
 
   - 'shared responsibility pools' as a form of insurance
     - anyone who uses a particular proxy/VPN/cryptocurrency accepts some responsibility for requests/transactions executed on that service in cases where the actual criminal cant be determined
     - feature where they can pay to prevent non-verified users from using the service or pay to use an 'invite-only' service
-
-  - questions have the structure of a possible connection sequence forming a path in the problem system, formatted as a network
-
-      - the patterns of these questions in producing relevant info for a problem can be used as insight paths
-      - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output information that could produce the answering info to the query
-        - formatting the system with structural interface metadata (such as info gaps, intents, incentives, equivalences, & vertex variables) will make these optimal query patterns more obvious
-
-      - identify the connection between components with the uncertain connection using inputs & definition routes of the connection
-        - example: 
-          - find connection function: 'is it object A' uses the 'equal' connecting function
-          - find inputs: the 'equal' connecting function uses the 'definition' object as an input
-          - generate the interface query to solve this problem:
-            - 'to determine equality, find the definitions of the objects whose connection is uncertain'
-          - which can be abstracted into the solution automation workflow insight path:
-            - find the inputs of the uncertain connection function and apply them to connect the objects with the uncertain connection
-
-      - questions:
-
-        - is it object A (the uncertainty is whether 'it is equal to object A')
-          - check definitions of object A & referenced object (it) for equivalence => if matching, convert to declarative statement with boolean => yes, it is
-        
-        - how to connect variables a, b, c with variable d in the direction of variable d (the uncertainty is 'are a/b/c predictive of variable d')
-          - apply change interface to question
-            - identify change functions applied to variables (or structures of variables) (or their components) that could change variables a/b/c into variable d, or move them to variable d's position
-          - apply structural interface 
-            - position variables in a variable/function/object network
-            - convert to structural question: 
-              - can structures of interaction between variables a, b, c, or their attributes/functions/components create variable d
-                - apply structures (combinations, sequences) of interaction to variables a, b, c & their attributes/functions/components
 
   - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
 
