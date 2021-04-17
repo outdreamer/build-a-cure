@@ -1535,13 +1535,6 @@
       - identify interface objects within structures (change type in conneecting function: 'direction of power distribution', 'changes in identity & size of group in power')
         - identify similarities in interface objects within structures (similar change pattern in change type in connecting function: 'power favoring distribution', 'military coups after power abuses')
   
-  - structural concept definition routes
-    - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
-    - opposite vs. lack (of common attributes/values, connections, similarities, spaces)
-      - opposite requiring a potential for extreme values to occur in a structural possibility where difference can develop
-    - thinking definition as 'applying structure to uncertainty'
-    - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
-
   - identify semantic processing necessary to get good prediction results with existing algorithms & params
     - example: find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
       - the approximation may leave out other analysis logic like alternative/combination analysis (to identify sets of alternate prediction functions, or causal/functional/priority/missing/type structures in the data set)
@@ -1586,7 +1579,7 @@
     - connectivity/alignment
     - position/adjacence
     - structural integrity
-    - available structures
+    - available/adjacent/possible structures
     - circuits (closed/open)
     - sub-systems (optimized for a function)
 
@@ -1594,52 +1587,25 @@
 
   - in a market where uncertainty & unexpectedly correct predictions (unlikely predictions) have value, high-value contradictions of assumptions (high price of low-valued stock) are an error type structure
 
-  - stock market (predicting uncertain value) x gaming (low-stakes task completion in a system)
-    - stock market tasks in a (legal, business) system
-      - deriving value of legislation
-      - predicting legislation
-      - legislation (more static rules) competing with more dynamic rules
-      - forming business structures to aggregate/delegate/distribute risk
-    - predicting uncertain value in tasks
-      - predicting which tasks will win a game
-      - insuring against risk of players completing or not completing a task
-    - feature request & prediction market
-    - game plot/cheat code/successful strategy prediction market
-    - prediction games
-      - false signals, gathering/deriving info, identifying important variables, applying successful analysis rules
-    - insurance & other risk & financial products in games
-    - stock market games allowed by legislation to allow a degree of collusion/organization in prediction markets
-    - organization & risk structures allowed in a particular game, for a level of difficulty/complexity
-    - games accessed with performance in previous prediction games to find best predictors and assign them more complex problems, like predicting emergent trends in interactions of complex systems
-    - business & stock markets as an info-trading game to get products/features/prices and other company byproducts (clean energy practices, mergers, etc)
-
-  - apply anti-stupidity structures to neural network structure 
-    - lack of learning functionality
-      - inability to remember (identify relevant info quickly when new info isnt necessary)
-      - inability to identify relevance structures (meaning, usefulness, direct causation)
-      - inability to optimize (identify a quicker route to an insight, like an insight path)
-      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
-      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
-      - inability to direct thoughts (focus)
-      - inability to forget sub-optimal/inaccurate rules (bias)
-        - function to apply bias structures to a neural network structure
-          - thinking benefits from bias removal
-          - remove bias structures in neural networks to improve their thinking capacity
-          - example
-            - apply removal of 'simplicity' bias in a neural network structure
-              - simplicity (specifically over-simplification) definition on structural interface: 
-                - lossy lower-dimensional representation
-                - low-cost representation with relatively reduced learning reward
-              - the simplicity bias shows up in a neural network structure in many possible positions
-                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
-                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
-                - general default params also tend to store simplicity where it's not needed
-            - apply removal of 'similarity' bias 
-              - similarity bias structural definitionss
-                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
-              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
-
-  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
+  - example of merging structures and filtering by intents that are useful to some agent
+    - stock market (predicting uncertain value) x gaming (low-stakes task completion in a system)
+      - stock market tasks in a (legal, business) system
+        - deriving value of legislation
+        - predicting legislation
+        - legislation (more static rules) competing with more dynamic rules
+        - forming business structures to aggregate/delegate/distribute risk
+      - predicting uncertain value in tasks
+        - predicting which tasks will win a game
+        - insuring against risk of players completing or not completing a task
+      - feature request & prediction market
+      - game plot/cheat code/successful strategy prediction market
+      - prediction games
+        - false signals, gathering/deriving info, identifying important variables, applying successful analysis rules
+      - insurance & other risk & financial products in games
+      - stock market games allowed by legislation to allow a degree of collusion/organization in prediction markets
+      - organization & risk structures allowed in a particular game, for a level of difficulty/complexity
+      - games accessed with performance in previous prediction games to find best predictors and assign them more complex problems, like predicting emergent trends in interactions of complex systems
+      - business & stock markets as an info-trading game to get products/features/prices and other company byproducts (clean energy practices, mergers, etc)
 
   - function to convert article/listing/social posts into variables to enable queries (product with feature x in budget y that integrates with app z and has attribute independent)
 
@@ -1659,117 +1625,6 @@
     - even if a structure maintains a particular function, its other metadata like adjacent interaction/change types & intents may change with the structure change
     - intent topologies dont necessarily match metadata of function topologies
     - interaction of interface object topologies as a source of variance reduction
-
-  - why structural analysis of components (like cell shape/surface) is insufficient as a predictor of functionality
-    - it's missing info about:
-      - components
-        - other/possible components & their structures (other possible pathogens, foreign cell types, in other ratios/positions)
-          - other/possible components with similar/contradictory shapes that might be interfering
-            - like similar receptor/binding shapes that leave no room for the cell type being examined
-        - internal cell components not measured or formed unless found in a particular environment context
-      - change types
-        - changes to the host system structure (like nerve damage)
-        - changes to forces governing change (like motion, as blood flow) in the host system structure 
-        - not measurable info
-          - hidden non-structural variables (like blood flow/pressure, electrical effects, or prior exposure to nutrients like vitamin d triggering timers) or variable sets with similar net effects (activated lifecycle)
-          - distortions commonly found in different cell types with same structure bc of different positions
-          - functional implementation differences
-            - different cell types have different method of achieving the same function using the same components, in a structure that varies within the data set but not enough to indicate different method
-        - component interaction dynamics
-          - interaction level
-            - cells with same structure might operate on different interaction levels, given different position/system
-          - structures of interaction object components
-            - a cell with equivalent DNA might encounter 'jumping gene' functionality in one system position, where an equivalent cell in another position would not
-          - determining interaction attributes/functions 
-            - like how attributes like aggressiveness might be determined by missing info (indicating why one cell type would succeed at binding & another of a similar/equivalent structure would not)
-        - limit/threshold dynamics
-          - sample data might leave out variation in the form of determining cell type attributes like size above a threshold with emerging behaviors, or potential to change that attribute triggered by the environment
-        - state dynamics
-          - false equivalence: structure might be measured at two equivalent states across two different cell type lifecycles (like evolutionary paths or distortion patterns), giving illusion of equivalent structures
-        - system dynamics
-          - structural metadata (like position, which determines local system & adjacent cells/functionality)
-          - invalidating functionality
-            - system that deletes duplicates, where a particular cell type is handled second bc of some attribute (like size, indicating it needs to be broken down first), so its always found to be the duplicate & is deleted
-          - functionality that is activated in environments & not obvious with structural analysis 
-            - like a function that folds dna/proteins in a way that has more errors than other folding function in a particular environment
-        - sequential dynamics
-          - exposure to a pathogen might trigger a function in response to a cell type with a minor distortion that becomes determining in edge conditions
-
-  - structure standardization (applying structure to structure to generate a particular structure/format)
-    - translating structures into vectors
-      - many vector structures can represent interface structures
-      - example of selecting a vector structure to represent an interface structure on a particular interface, applying structure to indicate metadata about structures
-        - example: causal loop
-          - standard network structure translation: vectors to indicate direction of cause
-          - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
-
-  - variables of the network include structures emerging from or embedded in algorithms/structures
-
-    - core structures
-      - change types 
-        - difference type 
-      - agency types
-      - cause types (influence/power of structures)
-      - structures
-        - sequence (embedded concept of 'time' in structural interface)
-        - list (unique index)
-
-    - structures applied to these core structures to generate conceptual structures in neural networks
-      - alternative cause: change applied to causal structures at training & prediction time
-      - organization: difference type index
-      - agency/govt: decisions about change types to apply
-
-        - structures applied to agency objects like decisions (such as subsets/alternates) & other conceptual structures (like time)
-
-          - sub-decisions
-            - structures of neural networks with delayed sub-decisions
-              - conditionally activated cell structures with enough info to make a sub-decision
-            - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
-              - govt structures/algorithms
-                - organization structures are a structural version of govt (agent-based) decision-making
-              - finding the level of 'agency' to apply to a network is possible with problem complexity identification
-                - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
-
-          - alternative decisions
-            - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
-            - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
-              - alternative decisions
-                - finding root cause
-                - solving a proxy problem
-
-          - decision (change-filtering problem-solving) times
-
-            - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
-              - sub time points: activation time, pooling time, aggregation time, filtering time
-
-            - optional points where decisions can be injected
-              - decisions: 
-                - network-level decisions: continue learning, select prediction answer
-                - structural decisions: change direction, identify threshold, ignore info
-                - meta decisions: delegate/delay decisions, consider alternative decisions
-              - time where decision is clear/final/starts to emerge
-              - time where direction change decision is made
-              - time where more info/time is identified as necessary
-              - time where decision is identified as not answerable
-              - time where alternatives are identified, assigned probability, filtered out
-              - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
-              - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
-              - time to check for a structure in the difference type index
-      
-  - the most useful patterns will be:
-    - cross-interface patterns: patterns linking interface objects
-      - patterns of interface components that link all interfaces: 
-        - error patterns
-      - patterns of interface object links
-        - change trajectories of randomness
-    - system patterns: which unite other structures and form an interim structure in between meaning and an agent
-    - core patterns & core interface components that can build other components
-      - patterns in core interface components, like change/difference patterns
-
-  - errors are a difference type in a specific structure (between expected/actual values) so theyre useful as example core problem signals
-      - stacking errors may be a better way to frame problems than other interfaces
-        - the level of randomness captured by the error structure
-        - errors can function as limits as well as difference types building a problem structure
 
   - design an optimal sorting structure for general interface queries to apply to problems manually
 
