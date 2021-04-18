@@ -615,12 +615,16 @@
 
 	- identify relevance structures (connections, truth, organization, optimization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
 
-	- apply definition routes of cost as a core structure of optimization
-		- identify solution steps or solution(s) that optimize a definition of cost/reward
-			- definition route of cost on an interface like information would be an 'information loss', where a reward/benefit would be an 'information gain'
-			- definition route of cost on structural interface would be 'position change in direction away from target position', where a reward would be a 'position change in direction toward target position'
+	- apply definitions of core structures of relevance structures to generate/filter/find/derive/connect solutions
+
+		- apply definition routes of cost as a core structure of efficiency, which is a core structure of optimization
+			- identify solution steps or solution(s) that optimize a definition of cost/reward
+				- definition route of cost on an interface like information would be an 'information loss', where a reward/benefit would be an 'information gain'
+				- definition route of cost on structural interface would be 'position change in direction away from target position', where a reward would be a 'position change in direction toward target position'
 
 ## generate solution automation workflows by permuting variables of problems/solutions
+
+	- apply structures (combinations, sequences) of core problem-solving functions (find, apply, derive, generate, connect, change, reduce) as connection functions
 
 	- general insight paths permute variables of problems/solutions, like:
 		- formats
@@ -640,13 +644,14 @@
 					- find variables with structures of inevitability in the direction of caused variable
 
 ## generate solution automation workflows by applying workflows to other workflows
+
     - solution automation workflow variables
       - starting/ending position/format & format sequence
       - interfaces applied, in what query structure
       - allocation of uncertainty & variation
         - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
 
-## generative insight paths that generate solution automation workflows
+## generative insight paths that generate insight paths (like solution automation workflows)
 
     - identify patterns in structures allocating structure (constants) & lack of structure (variation) in interface queries to find new insight paths
       - example: 
@@ -662,8 +667,6 @@
         - structural versions of core functions linking these interface objects
         - abstract network of an interface used for interface queries
         - cross-interaction level conversion function applied before other interface query steps
-
-## apply insight paths to generate other insight paths (such as a solution automation workflow)
 
     - example: 
       apply the insight path:
