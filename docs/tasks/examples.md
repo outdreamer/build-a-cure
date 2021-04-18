@@ -698,10 +698,14 @@
 		- these functions dont have to match problem/solution formats (connect function can be applied to connect any structures, not just connection structures)
 
 	- general insight paths permute variables of problems/solutions, like:
-		- formats
-		- source problem input & target solution output structures to connect (like positions in a network) 
-			- problem structures: structures of difference (between source & target structures), randomness (lack of structure/organization), inefficiency
-			- solution structures: structures of similarity (adjacence), usefulness (efficiency, relevance, organization), solution-reducing structures like filters
+    	- problem/solution abstraction level
+    	- system context (problem space, available resources)
+    	- adjacent interfaces & formats
+    	- info requirements (host system is known, some variable relationship rules are known, some definitions are known, variance gaps are known)
+		- problem/solution formats
+			- source problem input & target solution output structures to connect (like positions in a network) 
+				- problem structures: structures of difference (between source & target structures), randomness (lack of structure/organization), inefficiency
+				- solution structures: structures of similarity (adjacence), usefulness (efficiency, relevance, organization), solution-reducing structures like filters
 		- format-connection functions/structures (solution automation workflow insight paths)
 			- cross-interface format-connection functions/structures
 				- format connection functions using definition routes of 'connect':
