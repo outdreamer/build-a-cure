@@ -490,6 +490,8 @@
 
 	- find similarities (like fit, interactivity, coordination, direction, inputs/outputs, position) between available/adjacent/possible structures and connect problem/solution structures using these similarities (like function sequence with coordinating input/outputs)
 
+	- find system context where source problem input & target solution output are adjacent with operations defined in that system
+
 	- apply definitions of structural connection functions to connect problem & solution formats, using specific versions of sub-problems of structural connection functions like 'equalize', once a solution automation workflow like 'break problem into sub-problems & merge sub-solutions' is applied to the connection function definition, since specifying steps necessary to build the connecting function is the problem to solve
 		- equalize definition: 
 			- apply conversions (like 'change structures such as position or set') to components of objects, until objects to equate are equal
