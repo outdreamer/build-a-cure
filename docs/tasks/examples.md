@@ -611,7 +611,10 @@
 
 # generate solution automation workflow insight paths
 
-## specific insight paths to generate solution automation workflows using structural definitions of core problem/solution components like difference & relevance & truth & cost
+## specific insight paths to generate solution automation workflows using structural definitions of core problem/solution components like similarity/difference, relevance, truth, & cost
+
+	- the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance'
+	- so the point is to identify solution structure & find the interface where similarities & differences in problem/solution structure are clear and the problem/solution structures can be adjacently connected
 
 	- identify relevance structures (connections, truth, organization, optimization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
 
@@ -624,12 +627,14 @@
 
 ## generate solution automation workflows by permuting variables of problems/solutions
 
-	- apply structures (combinations, sequences) of core problem-solving functions (equate, find, filter, apply, derive, generate, connect, change, reduce) as problem-solution connection functions
+	- apply structures (combinations, sequences) of core problem-solving functions (equate, find, complete, filter, apply, derive components, generate, connect, change, reduce) as problem-solution connection functions
 		- examples:
-			- filter problem until its the solution format
+			- filter/reduce problem until its the solution format
 			- equate problem format with solution format
 			- apply changes to problem until its the solution format
 			- generate solutions from problem format
+			- complete/fill structural components of solution format
+		- these functions dont have to match problem/solution formats (connect function can be applied to connect any structures, not just connection structures)
 
 	- general insight paths permute variables of problems/solutions, like:
 		- formats
@@ -2309,6 +2314,121 @@
             - 'excess energy results in higher variability of variable interactions'
           - concepts
             - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
+
+## apply interface analysis to connect problem & solution formats with interface query functions (including applying insight paths)
+
+	- source problem input & target solution output formats 
+
+	    - simplicity/complexity:
+	      - identify structures where each perspective would be applied incorrectly & produce errors
+	        - apply core structures (direction)
+	          - apply core structures (angle) to relevant core interface objects (intent) to produce relevant interface objects (priority)
+	            - apply core interface function structures (change)
+	              - error type: priority distortion
+	                - identify error type (over-prioritization) structure
+	                  - apply priority list
+	                    - identify over-prioritization (over-simplification) error structure:
+	                      - apply structure search filter
+	                        - what structures are relevant (meaning 'direct or useful' like 'input/output') to an over-simplification error
+	                          - inputs/outputs (including requests, usage, side effects)
+	                            - 'repetition of problem-solving requests or identifying/receiving problem side effect information'
+	                            - 'identifying/receiving over-simplified solution side effect information'
+
+	    - positive/negative:
+	      - specific insights to convert between conceptual structures
+	        - apply concept interface
+	          - definition of positive/negative includes concept of 'opposite'
+	            - for intent 'switch from positive to negative structures', apply 'opposite' structures where change can occur (variables)
+	              - list variables
+	                - charge
+	                - event
+	                - perspective
+	                - context
+	              - list opposite structures of a variable value
+	                - switch to value on other extreme
+	                - switch to value at origin/average
+	                - switch to multiple values
+	                  - apply structure to multiple values (set, network, sequence)
+	              - apply opposite structures to variables
+	                - intent: subvert expectations by changing attribute to opposite value
+	                  - change metadata (name) of something good to metadata (name) of something bad
+	                - intent: highlight good events
+	                  - change something good to something bad
+	                - intent: identify melodramatic attribute of negative perspective
+	                  - reduce metadata (size) of something bad
+	                  - increase metadata (size) of something bad
+	                  - compare to something extremely worse, as being the worse thing
+
+      - applied insight paths
+        - 'all structures can be linked to all structures'
+          - 'similarity is similar to difference'
+          - 'structure-linking becomes likelier with previous structure-linking'
+            - 'connecting negative & positive structures is lower-cost with each iteration/application of the connection function'
+              - 'extra resources are lower-cost with a positive-negative connection structure (like a function to convert between negative/positive perspectives)'
+          - 'opposite & equal (apply discrete not structure) are lower-cost to connect than different & similar (apply continuous scale structure)'
+            - 'positive and negative are examples of extreme structures and opposite structures'
+              - 'positive and negative are opposite extreme values of a spectrum structure'
+                - 'positive and negative are inherently connected'
+                  - 'connecting the extreme positive value with the extreme negative value is often lower-cost (multiplication by integer of -1 with center at integer of 0) than connecting most interim values with extreme values (determine sequential difference in fraction digits, and use addition)'
+
+        - 'outward extreme negativity error implies a direct causative error structure of either an (internal extreme negativity error) or (minor negativity error, at extreme scale)'
+          - 'the error structure can be lack of power distribution (power in the form of intelligence) or lack of distributed generative inputs of power (help becoming intelligent)'
+            - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
+              - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states due to lack of power (lack of intelligence or proxies to intelligence like information)'
+            - 'an invalidation request error can be solved with distribution of a negative-positive connection structure'
+
+        - 'structures have variables, like size, position, connection, intent, cause, and potential for error'
+          - 'errors are a type of structure'
+            - 'errors are not definitively a negativity structure'
+              - 'errors can be positivity structures, depending on the error variables (like cost vs. potential created by error solution or solution process)'
+                - 'errors have structural variables (position/direction)'
+                  - 'error outputs sometimes include measurable information, indicating the structural variables (position/direction) of the error'
+                    - 'measured error information can lead to organization of resources in the direction of the error'
+                      - 'organization can be a causative factor in generating solutions'
+
+            - 'error structure types include errors in structure variables (like direction/degree)'
+              - 'errors of extremity are often directly due to extremity of directed force (error of priority) - or indirectly due to lack of organization/adjacence to correct errors, lack of previous solutions, lack of previous direction/degree-correcting solutions, lack of previous errors, lack of previous direction/degree errors'
+                - 'negativity errors are often due to over-simplification'
+                  - 'over-simplification is similar to over-reduction & over-isolation'
+                    - 'apply opposite structures (like reversal) to resolve an error'
+                      - 'applying reversal to reduction & isolation can resolve an over-simplification negativity error'
+                        - 'reduce the lack of negative-positive connection structures, by distributing it to all error sources'
+                          - 'input of negativity errors is a lack of solutions and direct output may include new error information'
+                            - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
+              - 'alternate sources of new error type information is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
+
+      - insight paths inside applied insight paths
+            - the following similarities in structures of difference provide quick alternate methods of deriving the solution structure for an error structure, bc they represent standard formats in common
+              - an error of extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
+                - variation in identity:
+                  - weak-powerful :: connected by opposite extreme
+                  - negative-positive :: conncted by opposite extreme
+                - similarity in structure
+                  - weak/powerful :: negative/positive :: extreme/opposite extreme
+                  - opposites exist on a spectrum
+                  - spectrum extremes are connected by similarity to average & conversion potential
+                - connecting function
+                  - connection by position
+                    - negative/weak :: lack
+                    - positive/powerful :: excess
+                  - lack & excess are error type structures (implying an associated solution)
+                  - negative & positive are both differences from average
+                  - connection to average resolves 'lack' and 'excess' error type structures
+                - *** alternate insight path: errors of extreme values in a variable imply a lack of a balancing (solution) structure like:
+                  - an extreme-connecting structure
+                  - a direction/degree-correcting structure
+                  - an error-detection structure like a low-level error threshold
+              - error structures of extremity, reduction & isolation can also be used to infer the solution structure function of a reversal applied to extremity/reduction/isolation structures
+                - variation in priority/direction
+                  - over-simplification :: reduction/isolation
+                  - over-complication :: expansion/integration
+                - similarity between over-simplification & over-complication
+                  - over-simplification :: opposite of over-complication
+                - connecting function: 
+                  - opposite :: reverse
+                  - apply 'reverse' structure to correct 'direction/degree' error
+              - an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
+              - an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
 
 # example of solving problem of 'find connecting function between math-language to generate a math-language map' with example useful solution automation insight paths
 

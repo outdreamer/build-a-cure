@@ -1,4 +1,4 @@
-# structure examples
+# structural definition route examples
 ## structural concept definition routes
 ## relevance structures
 ## error structures
@@ -13,7 +13,7 @@
 ### example of applying multiple filters to reduce solution space
 ## solution filters for specific problems
 ## solution filters for alternate variable sets
-## solution filters of an identification algorithm (to differentiate real & AI-generated content)
+## solution filters of an identification algorithm (to differentiate real & fake content)
 
 # insight path examples
 ## example of mathematized insight path 
@@ -24,10 +24,11 @@
 ### identify interface object set necessary to get good approximate prediction results with existing algorithms & params
 ## solution automation workflow insight path examples
 
-# generate solution automation insight paths
+# generate solution automation workflow insight paths
+## specific insight paths to generate solution automation workflows using structural definitions of core problem/solution components like difference & relevance & truth & cost
+## generate solution automation workflows by permuting variables of problems/solutions
 ## generate solution automation workflows by applying workflows to other workflows
-## generative insight paths that generate solution automation workflows
-## apply insight paths to generate other insight paths (such as a solution automation workflow)
+## generative insight paths that generate insight paths (like solution automation workflows)
 ## generate solution automation interface query
 ## to generate solution automation workflows
 ## example of insight path to generate a solution insight path for a problem
@@ -87,6 +88,7 @@
 ## example of applying structure to identify rules that violate a metric 
 ## example of applying structure to generate problem types
 ## example of finding alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
+## apply interface analysis to connect problem & solution formats with interface query functions (including applying insight paths)
 
 # example of solving problem of 'find connecting function between math-language to generate a math-language map' with example useful solution automation insight paths
 ## apply core structures like 'opposite' to interface components to generate a language map
