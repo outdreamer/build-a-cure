@@ -12,7 +12,14 @@
 	- relevance: structures of meaning, having structural components like:
 
 		- truth
-			- predictive power is a structure of truth, which is a useful structure for testing accuracy of a solution to apply as a solution filter
+			- structures of truth are useful structures for testing accuracy of a solution, to apply as solution filters
+				- predictive power
+					- explanatory power
+				- fit across systems
+				- permanence
+					- consistency
+					- stability
+					- robustness
 
 		- adjacence
 			- similarity
