@@ -484,6 +484,11 @@
 
 ## standard basic structural insight paths
 
+	- general insight paths permute variables of problems/solutions, like
+		- formats
+		- source/target structures (like position)
+		- format connecting functions & structures
+
 	- generate adjacent structures & filter by relevant intents
 
 	- find optimal structure (combination, path, direction, sequence) for a problem-solving intent (find predictive variable set, functions connecting input/output, priority direction, operation sequence) given metrics like adjacence (structural alignment, low-cost conversion potential) or available functionality/variation in that structure
