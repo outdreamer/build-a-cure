@@ -16,43 +16,31 @@
                             - 'identifying/receiving over-simplified solution side effect information'
 
     - positive/negative:
-
       - specific insights to convert between conceptual structures
-
         - apply concept interface
-
           - definition of positive/negative includes concept of 'opposite'
-
             - for intent 'switch from positive to negative structures', apply 'opposite' structures where change can occur (variables)
-              
               - list variables
                 - charge
                 - event
                 - perspective
                 - context
-
               - list opposite structures of a variable value
                 - switch to value on other extreme
                 - switch to value at origin/average
                 - switch to multiple values
                   - apply structure to multiple values (set, network, sequence)
-
               - apply opposite structures to variables
-
                 - intent: subvert expectations by changing attribute to opposite value
                   - change metadata (name) of something good to metadata (name) of something bad
-
                 - intent: highlight good events
                   - change something good to something bad
-                  
                 - intent: identify melodramatic attribute of negative perspective
                   - reduce metadata (size) of something bad
                   - increase metadata (size) of something bad
                   - compare to something extremely worse, as being the worse thing
 
-
       - insight path
-    
         - 'all structures can be linked to all structures'
           - 'similarity is similar to difference'
           - 'structure-linking becomes likelier with previous structure-linking'
@@ -91,12 +79,9 @@
               - 'alternate sources of new error type information is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
 
           - insight paths inside the insight path:
-
             - the following similarities in difference structures provide quick alternate methods of deriving the solution structure for an error structure 
-
             - the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance' - so the point is to identify structure of the solution & then find the interface where those similarities & differences in problem/solution structure are clear and can be assembled or otherwise operated on, using other resources on that interface
-
-              - ***: an error of extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
+              - an error of extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
                 - variation in identity:
                   - weak-powerful :: connected by opposite extreme
                   - negative-positive :: conncted by opposite extreme
@@ -115,8 +100,7 @@
                   - an extreme-connecting structure
                   - a direction/degree-correcting structure
                   - an error-detection structure like a low-level error threshold
-
-              - ***: error structures of extremity, reduction & isolation can also be used to infer the solution structure function of a reversal applied to extremity/reduction/isolation structures
+              - error structures of extremity, reduction & isolation can also be used to infer the solution structure function of a reversal applied to extremity/reduction/isolation structures
                 - variation in priority/direction
                   - over-simplification :: reduction/isolation
                   - over-complication :: expansion/integration
@@ -125,8 +109,8 @@
                 - connecting function: 
                   - opposite :: reverse
                   - apply 'reverse' structure to correct 'direction/degree' error
-              - ***: an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
-
-              - ***: an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
+              - an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
+              - an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
+            
             - insight-path generating query to filter & identify embedded insight paths
               - identify relevance structures (connecting function) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
