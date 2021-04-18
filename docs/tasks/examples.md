@@ -11,6 +11,9 @@
 
 	- relevance: structures of meaning, having structural components like:
 
+		- truth
+			- predictive power is a structure of truth, which is a useful structure for testing accuracy of a solution to apply as a solution filter
+
 		- adjacence
 			- similarity
 			- connection
@@ -484,19 +487,6 @@
 
 ## standard basic structural insight paths
 
-	- general insight paths permute variables of problems/solutions, like:
-		- formats
-		- source problem input & target solution output structures to connect (like positions in a network) 
-			- problem structures: structures of difference (between source & target structures), randomness (lack of structure/organization), inefficiency
-			- solution structures: structures of similarity (adjacence), usefulness (efficiency, relevance, organization), solution-reducing structures like filters
-		- format-connection functions/structures
-			- cross-interface format-connection functions/structures
-				- format connection function across interfaces:
-					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'error, 'difference'
-			- interface-specific format-connection functions/structures
-				- format-connection function on causal interface:
-					- find variables with structures of inevitability in the direction of caused variable
-
 	- generate adjacent structures & filter by relevant intents
 
 	- find optimal structure (combination, path, direction, sequence) for a problem-solving intent (find predictive variable set, functions connecting input/output, priority direction, operation sequence) given metrics like adjacence (structural alignment, low-cost conversion potential) or available functionality/variation in that structure
@@ -606,7 +596,25 @@
         - apply structures of difference (what is not the solution) to filter solution space, then match to what core functions can generate as adjacent/accessible solutions
     - apply solution structures (filters) & problem structures (errors, reductions) in parallel and connect in the middle
 
-# generate solution automation insight paths
+# generate solution automation workflow insight paths
+
+## specific insight path to generate solution automation workflows using structural definitions of core problem/solution components like difference & relevance & truth
+	- identify relevance structures (connections, truth, organization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
+
+## generate solution automation workflows by permuting variables of problems/solutions
+
+	- general insight paths permute variables of problems/solutions, like:
+		- formats
+		- source problem input & target solution output structures to connect (like positions in a network) 
+			- problem structures: structures of difference (between source & target structures), randomness (lack of structure/organization), inefficiency
+			- solution structures: structures of similarity (adjacence), usefulness (efficiency, relevance, organization), solution-reducing structures like filters
+		- format-connection functions/structures (solution automation workflow insight paths)
+			- cross-interface format-connection functions/structures
+				- format connection function across interfaces:
+					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'error, 'difference'
+			- interface-specific format-connection functions/structures
+				- format-connection function on causal interface:
+					- find variables with structures of inevitability in the direction of caused variable
 
 ## generate solution automation workflows by applying workflows to other workflows
     - solution automation workflow variables
