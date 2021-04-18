@@ -1,42 +1,41 @@
 # problem-solving automation example with math proof 
 
+## math-language conversion example 
+	
+	- original proof, with problem-solution connecting formats
+		- definition of variable
+			x = 0.999 (continuing digits to infinity)
+		- definition of variable, distored to be more adjacent to integers (with factors of 1)
+			10x = 9.999
+		- definition of variable, organized on one side
+			10x - x = 9.999 - .999
+		- definition of variable, standardized to integers
+			9x = 9
+		- definition of variable, standardized to unit
+			x = 1
 
-## math-language conversion example
-
-	original proof:
-
-		x = 0.999 (continuing digits to infinity)
-		10x = 9.999
-		10x - x = 9.999 - .999
-		9x = 9
-		x = 1
-
-	frame both sides with coefficients
-
+	- format both sides with coefficients
 		1 * x = 0.999 * 1
 		10 * x = 9.999 * 1
 		(10 - 1) * x = (9.999 - .999) * 1
 		9 * x = 9 * 1
 		x = 1
 
-	frame both sides with variable a as coefficient in place of 1
-
+	- format both sides with variable a as coefficient in place of 1
 		1 * x = 0.999 * a
 		10 * x = 9.999 * a
 		(10 - 1) * x = (9.999 - .999) * a
 		9 * x = 9 * a
 		x = a
 
-	frame both sides with equivalent integer coefficients
-
+	- format both sides with equivalent integer coefficients
 		1 * x = 0.999 * a
 		(1 * 10) * x = (.999 * 10) * a
 		(1 * 10 - (1 * 10)/10) * x = (.999 * 10 - (0.999 * 10)/10) * a
 		9 * x = 9 * a
 		x = a
 
-	standardize both sides to language
-
+	- format both sides with language
 		coefficient * x = adjacent_coefficient * a
 		(coefficient * number giving other side an integer accessible with a fraction subtraction) * x = (adjacent_coefficient * number giving other side an integer accessible with a fraction subtraction) * a
 		(coefficient * (number giving other side an integer accessible with a fraction subtraction - the fraction of itself based on this number, to give other side an integer)) * x = (adjacent_coefficient * (number giving other side an integer accessible with a fraction subtraction  - the fraction of itself based on this number)) * a
@@ -48,7 +47,7 @@
 
 	- insight path
 		
-		- what operations can you do to b that would produce b on one side and an adjacent operation of 1 (10 - 9) on the other
+		- what operations can you do to b that would produce b on one side and an adjacent operation on 1 (10 - 9) on the other side
 
 	- insight path
 
@@ -56,27 +55,21 @@
 			- b * 1/n = adjacent_coefficient = (b - adjacent_coefficient) * 1/n * (infinite sequence of 1/(10 ^ 0), 1/(10 ^ 1), 1/(10 ^ 2) ...)
 			- 9.999 * 1/10 = 0.999 = (9.999 - 0.999) * 1/10 * (infinite sequence)
 
-		- find a number b & n so that 1/n of itself (b/n) is equal to the original repeating decimal, adjacent_coefficient, so an adjacent integer divisible by the repeating digit x in adjacent_coefficient to produce the target integer can be achieved by subtracting the adjacent_coefficient from b
-		b/n = 0.xxxxx = adjacent_coefficient
-		b - adjacent_coefficient = (n - 1)/b
+		- find a number b & n so that 1/n of itself (b/n) is equal to the original repeating decimal (adjacent_coefficient) so an adjacent integer divisible by the repeating digit x in adjacent_coefficient to produce the target integer can be produced by subtracting the adjacent_coefficient from b
+			- b/n = 0.xxxxx = adjacent_coefficient
+			- b - adjacent_coefficient = (n - 1)/b
 
 	- specific insights
 
-		- apply the insight rule
-
-			- to determine if two values are equal, find a relationship using one value (10 - 9 = 1) and substitute the other value (10 - 9 = 0.999) to see if other operations produce the same output with the substituted alternate equal value
-
-				- find a number y (10) with an integer difference equal to the posited equal value of 0.999 (1) between x & the original adjacent_coefficient, once adjacent_coefficient is standardized to an integer (9), so that the integer difference of 1 can be used to equal the subtracted adjacent_coefficient (0.999)
-					y - 9 = 1
-					y - (9.999 - 0.999) = 1
-					y = (9.999 - 0.999) + 1 = 10
-
+		- apply the insight rule 'to determine if two values are equal, find a relationship using one value (10 - 9 = 1) and substitute the other value (10 - 9 = 0.999) to see if other operations produce the same output with the substituted alternate equal value'
+			- find a number y (10) with an integer difference equal to the posited equal value of 0.999 (1) between x & the original adjacent_coefficient, once adjacent_coefficient is standardized to an integer (9), so that the integer difference of 1 can be used to equal the subtracted adjacent_coefficient (0.999)
+				y - 9 = 1
+				y - (9.999 - 0.999) = 1
+				y = (9.999 - 0.999) + 1 = 10
 			- we aim for 10 bc its one theorem value away (1) from an adjacent integer of the other supposedly equivalent value in the theorem (0.999)
 				- so if 1 = 0.999, then the substitute equivalent value also holds (10 - 9 = 0.999), which we can adjacently check
 
-		- apply the insight rule
-
-			- find common base & standardize
+		- apply the insight rule 'find common base & standardize to compare objects'
 				- standardize to the common base as the infinite series (10)
 							1 = 10 - 9 = 10 - (10 * 0.999 - 0.999) = 0.999
 					        1 = 10 - 0.999(10 - 1) 
@@ -86,24 +79,16 @@
 							  = 0.999 (10 - 1)
 							  = 0.999 (9)
 							1 = 0.999
-
 				- the key is that ((10 * 0.999) - 0.999) is an adjacent way to get to a non-1 integer from 0.999 
-
 					- we dont want to find an adjacent route to the integer of 1, using operations like adding (1 - 0.999) to 0.999 to get 1, which 
 						- ignores the theorem to prove and uses an equivalence achieved by addition/subtraction that doesnt use external information to the theorem
 						- assumes the theorem is irrelevant, otherwise using 1 - 0.999 would be pointless if the theorem is true (if 1 = 0.999, then 1 - 0.999 = 0, and subtracting zero is pointless here & assumes the theorem is false, otherwise there would be no need to subtract anything to get from 1 to 0.999 bc theyre equal)
-
 					- we want to get from 0.999 to 1 by a circuitous route that uses operations other than adding/subtracting zero, just to prove that other operations dont change the fact of the theorem but rather confirm it by the fact that their attributes & relationship functions hold to the extent that they can be used as a foundation of the theorem
 
+	- apply intent interface (problem metadata including sub-problems with metadata like 'intent' and 'functions') & the solution automation workflow insight path 'break problem into sub-problems & merge sub-solutions'
 
-	- apply intent interface
-
-		- apply insight to generate query on intent interface
-
-			- if two objects are equal, their components are also equal
-
+		- apply insight to generate query on intent interface 'if two objects are equal, their components are also equal'
 				- components
-
 					- functions
 						- connecting functions
 							- a = object1.function * b (connects a and b using object1 function)
@@ -111,29 +96,20 @@
 								- the same should hold for object2 - you should be able to produce the same outputs using the same inputs, with the other object's corresponding function
 									- a = object2.function * b (connects a and b using object2 function)
 
-					- attributes
-
-		- apply general query on intent interface
-
-			- equalize a & b
-
+		- apply general query on intent interface 'equalize a & b once indexed by intent':
 				- compare
 					- standardize
 						- base
 						- coefficients
 						- number types
-
-				- connect once standardized
+				- connect once comparable (standardized)
 					- find adjacent operations producing route from source to target value
 						- filter adjacent operations by restrictions
 					- substitute source with target value or vice versa in another relationship that will highlight the equivalent properties of the source/target values
 						(value produced by adding a-difference (1) between integerized value (9) from b (0.999) where the other side equals b)
 
-			- apply general query to specific problem 
-
-				- equalize 0.999 and 1
-
-					- comparison intent
+		- apply general query to specific problem 'equalize 0.999 and 1 once indexed by intent'
+				- comparison intent
 						- standardize (reduce difference)
 							- base
 								- each repeating digit is an element with the same numerator coefficient in an infinite sequence of formula 9/(10^n), so 10 is a relevant number by default
@@ -149,8 +125,7 @@
 							- number types for value difference reduction intent, for comparison intent
 								- dont use division to change values, unless the output is an integer to keep values in integer number type (as target value to achieve from source value 0.999 is an integer, 1)
 						- isolate variables on either side (after optionally framing 1 as variable a)
-
-					- connect comparable values once standardized
+				- connect comparable values once standardized
 						- find adjacent operations producing target number type or value
 							- producing an integer 9 on the x side is adjacent with multiplication, and doesnt involve a number type change to the other side with either multiplication or subtraction, just a scalar change, which keeps it as an integer
 							- producing an integer 9 on the x side is adjacent with multiplication & subtraction, and does involve a number type change at the subtraction operation
@@ -158,12 +133,11 @@
 							- dont use division or operations that change to a decimal rather than an integer
 
 		- alternate query on intent interface
-
-			intent: show that 0.999 and 1 are equal
-				sub-intent: equalize coefficient of x and coefficient of 1 (a)
-					sub-intent: equalize one side with integer (9)
-						sub-intent: show coefficients of both sides
-						sub-intent: find coefficient (10) that will equalize the side with repeating digits to an integer + original quantity with repeating digit (0.999)
+			- intent: show that 0.999 and 1 are equal
+				- sub-intent: equalize coefficient of x and coefficient of 1 (a)
+					- sub-intent: equalize one side with integer (9)
+						- sub-intent: show coefficients of both sides
+						- sub-intent: find coefficient (10) that will equalize the side with repeating digits to an integer + original quantity with repeating digit (0.999)
 							- this has to be a number (10) that will produce an integer (9) from the fraction 0.999, after a subtraction of itself (- 0.999), by moving the decimal one place
-						sub-intent: equalize both sides to an integer (subtract 0.999)
-							sub-intent: find x value in remaining formula (9x = 9)
+						- sub-intent: equalize both sides to an integer (subtract 0.999)
+							- sub-intent: find x value in remaining formula (9x = 9)
