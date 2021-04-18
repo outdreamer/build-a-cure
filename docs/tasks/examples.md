@@ -7,6 +7,31 @@
     - thinking definition as 'applying structure to uncertainty'
     - reasonable (making sense) definition as 'fitting an existing structure, like a pattern, without invalidating contradictions' 
 
+## relevance structures
+
+	- relevance: structures of meaning, having structural components like:
+
+		- adjacence
+			- similarity
+			- connection
+			- usefulness
+				- clarity (definition)
+			- interactivity
+				- probability of usage/interaction
+					- required resources
+					- usable resources
+					- efficient resources
+
+		- causative potential
+			- core structures
+			- important (highly causative/generative/limiting) structures
+
+		- organization
+			- fit
+			- relative position
+
+		- intent alignment
+
 ## error structures
 
 	- apply definition of errors as structures of difference (what is not correct, meaning different from correct) to generate error types (structures of difference, like stacking variable permutations/distortions or generating new variables) and error patterns
@@ -1462,8 +1487,8 @@
         - after abstracting intentions as decision/function triggers:
           - apply bias as a truth filter to determine non-agent change/function triggers
           - this can work bc even components without agency respond to incentives bc of their common tie to physics
-            - example: bias has a core error structure of over-prioritizing locality, which can be converted into the concept of adjacence as a solution to the problem of 'minimizing cost', so truth filters can be formatted as 'low-cost or otherwise adjacent distortions'
-          - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to problem-solving intent of identifying truth
+            - example: bias can have a core error structure like 'over-prioritizing locality', which can be converted into the concept of 'adjacence' as a core structure to use when solving the bias-causing problems of 'minimizing cost' or 'limited info', or when identifying structures that can be used as truth filters, which can be formatted as 'low-cost or otherwise adjacent distortions are likelier to be false info'
+          - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to the problem-solving intent of identifying truth
 
     - queries to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
 
