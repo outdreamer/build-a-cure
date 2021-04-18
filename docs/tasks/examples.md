@@ -484,10 +484,18 @@
 
 ## standard basic structural insight paths
 
-	- general insight paths permute variables of problems/solutions, like
+	- general insight paths permute variables of problems/solutions, like:
 		- formats
-		- source/target structures (like position)
-		- format connecting functions & structures
+		- source problem input & target solution output structures to connect (like positions in a network) 
+			- problem structures: structures of difference (between source & target structures), randomness (lack of structure/organization), inefficiency
+			- solution structures: structures of similarity (adjacence), usefulness (efficiency, relevance, organization), solution-reducing structures like filters
+		- format-connection functions/structures
+			- cross-interface format-connection functions/structures
+				- format connection function across interfaces:
+					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'error, 'difference'
+			- interface-specific format-connection functions/structures
+				- format-connection function on causal interface:
+					- find variables with structures of inevitability in the direction of caused variable
 
 	- generate adjacent structures & filter by relevant intents
 
