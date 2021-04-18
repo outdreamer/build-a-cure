@@ -624,7 +624,12 @@
 
 ## generate solution automation workflows by permuting variables of problems/solutions
 
-	- apply structures (combinations, sequences) of core problem-solving functions (find, apply, derive, generate, connect, change, reduce) as connection functions
+	- apply structures (combinations, sequences) of core problem-solving functions (equate, find, filter, apply, derive, generate, connect, change, reduce) as problem-solution connection functions
+		- examples:
+			- filter problem until its the solution format
+			- equate problem format with solution format
+			- apply changes to problem until its the solution format
+			- generate solutions from problem format
 
 	- general insight paths permute variables of problems/solutions, like:
 		- formats
