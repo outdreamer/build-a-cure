@@ -148,7 +148,7 @@
             - conditional: any motion to correct an external error is not itself an error
             - temporary: motion in a direction different from planned direction sequence is not an error in some temporary contexts
   
-## stupidity structures (like bias)
+## specific error structures, including stupidity structures (with components like bias)
 
   - apply anti-stupidity structures to neural network structure 
     - lack of learning functionality
@@ -344,7 +344,7 @@
 		    - examples
 		    - statistics like average examples within a type
 
-  - problem: create successful AI algorithm to identify probability of solution success
+	- problem: create successful AI algorithm to identify probability of solution success
 
 	  - solution metric filters:
 
@@ -389,7 +389,7 @@
 		        - example of a combination solution, integrating multiple relevant interfaces, solutions, covering a high ratio of input variables to vertex variable
 		          - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
 
-## filtering alternate variable sets
+## solution filters for alternate variable sets
     - when testing different variable subsets, you can select a variable set split by structures like:
       - vertex variables
       - variables on interim interfaces where other variables aggregate (in bottlenecks or hubs)
@@ -416,7 +416,7 @@
     - sources of randomness
       - errors are evenly distributed among more complex adjacent sub-components not expected to change as much
 
-## filters that reduce the problem space
+## solution filters that reduce the problem space
     - identify the worst error types, as assumption combinations having the lowest solution metric fulfillment if incorrect
       - in the problem of 'predict cat vs. dog', the worst error types are:
         - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
@@ -893,31 +893,58 @@
 
 ## problem-solution format maps
 
+	- generate possible (full set) & probable (adjacent or useful set) formats to use to connect problem & solution
+		- identify relevant structures to the object an interface is based on, given its definition
+			- examples: 
+				- cause & intent have a relevant structure of 'direction'
+				- cause has a relevant structure of 'inevitability' & 'uniqueness'
+				- intent has a relevant structure of 'usefulness' with structures of 'clarity' and 'efficiency'
+				- system has a relevant structure of 'network with boundary & circuits (as commonly used paths)'
+				- potential has a relevant structure of 'field of adjacent structures'
+				- concept has a relevant structure of 'network of generalized structure & distorted variant structures' or 'sub-network of system network objects that interact with a conceptual attribute'
+				- change has a relevant structure of 'core functions'
+		
+		- if the problem is 'find the cause of variable x': 
+						
+			- relevant structures to use as the connecting function format include specific implementations of general solution-finding structures (sequence/filters) like:
+				- specific 'sequence' structures, like:
+					- direction
+				- specific 'filters' with direction, like:
+					- same direction as cause:
+						- dependency/requirement, inevitability, causative power, causative position/degree relative to that of x
+					- opposite direction as cause: 
+						- counterexamples
+						- limits on causation
+
+			- relevant interface objects (once interfaces are applied) include:
+				- causal variable network
+					- variables further up the causal sequence than x that could cause x
+
 	- core problem type structures (reduction, expansion, organization, matching, standardization, regulation, prediction/derivation (missing info), limit/change conflict resolution, error-to-resource conversion, optimization) & optimal solution formats & format structures for each
 	    - optimal optimization formats include network path-finding
 	    - optimal reduction/expansion formats include change type isolation as shape dimensions after structural assignment of problem attributes
 	    - optimal organization formats include layered networks & vertex variables
 
-  - the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
-    - filling problem
-      - missing info problem: the solution format is the complete structure
-      - optimization problem: the solution format is the variables/system organized to comply with/fulfill the metric to optimize 
-      - aggregation problem: the solution format is the aggregation method to form a structure (like combining core functions to get a function for an intent)
-    - limit problem
-      - constraint problem: the solution format is the removal/invalidation of that constraint
-    - reduction/decomposition problem
-      - complexity reduction problem: the solution format is the set of variables that reduces complexity of the problem
-      - randomness reduction problem: the solution format is the set of variables that can replicate a semblance of randomness
-      - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
-    - organization/mapping problem: the solution format is the set of relevant components in the right structure (positioning & connecting them)
-      - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
-      - balancing problem: the solution format is the distribution of resources nearest to a balanced state (subset of matching problem, by matching distribution across positions)
-      - combination problem: the solution format is the set of components in a combination structure that doesnt contradict combination rules (components fit together, like 'finding a system where a function can execute')
-        - connecting problem: the solution format is the set of functions that connect the components, in the position where they act as connectors
-    - finding problem
-      - discovery (insight-finding) problem: the solution format is the set of generative/distortion/core functions or the set of filters to find the insight
-      - route-finding problem: the solution format is the route between two points that doesnt contradict any solution constraints and/or optimizes a solution metric
-    - other solution formats would be for adjacent/causal problems, solution formats that invalidate solving the problem, etc
+	- the problem is the solution in a different format, or a piece of the solution (problem being a sub-optimal state to optimize, or a difference that shouldnt occur, and the solution being a set of constraints forming boundaries, or an optimal structure to construct)
+	    - filling problem
+	      - missing info problem: the solution format is the complete structure
+	      - optimization problem: the solution format is the variables/system organized to comply with/fulfill the metric to optimize 
+	      - aggregation problem: the solution format is the aggregation method to form a structure (like combining core functions to get a function for an intent)
+	    - limit problem
+	      - constraint problem: the solution format is the removal/invalidation of that constraint
+	    - reduction/decomposition problem
+	      - complexity reduction problem: the solution format is the set of variables that reduces complexity of the problem
+	      - randomness reduction problem: the solution format is the set of variables that can replicate a semblance of randomness
+	      - problematic structure: the solution format is reducing the structure (identifying variables & invalidating those variables)
+	    - organization/mapping problem: the solution format is the set of relevant components in the right structure (positioning & connecting them)
+	      - conflict problem: the solution format is positioning the conflicting problematic vectors so they dont intersect
+	      - balancing problem: the solution format is the distribution of resources nearest to a balanced state (subset of matching problem, by matching distribution across positions)
+	      - combination problem: the solution format is the set of components in a combination structure that doesnt contradict combination rules (components fit together, like 'finding a system where a function can execute')
+	        - connecting problem: the solution format is the set of functions that connect the components, in the position where they act as connectors
+	    - finding problem
+	      - discovery (insight-finding) problem: the solution format is the set of generative/distortion/core functions or the set of filters to find the insight
+	      - route-finding problem: the solution format is the route between two points that doesnt contradict any solution constraints and/or optimizes a solution metric
+	    - other solution formats would be for adjacent/causal problems, solution formats that invalidate solving the problem, etc
 
 ## example of selecting problem/solution format
 
