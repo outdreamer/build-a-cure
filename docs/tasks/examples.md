@@ -624,8 +624,9 @@
 		- format-connection functions/structures (solution automation workflow insight paths)
 			- cross-interface format-connection functions/structures
 				- format connection functions using definition routes of 'connect':
-					- 'equalize'
-					- 'organize'
+					- 'equalize' (reduce difference)
+					- 'organize' (structure, fit)
+					- 'standardize' (apply standardizing filter, for intents like 'increase common similar components for comparison')
 				- format connection function across interfaces:
 					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'equal', 'error', 'difference'
 			- interface-specific format-connection functions/structures
