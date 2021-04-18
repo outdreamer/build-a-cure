@@ -611,8 +611,14 @@
 
 # generate solution automation workflow insight paths
 
-## specific insight path to generate solution automation workflows using structural definitions of core problem/solution components like difference & relevance & truth
-	- identify relevance structures (connections, truth, organization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
+## specific insight paths to generate solution automation workflows using structural definitions of core problem/solution components like difference & relevance & truth & cost
+
+	- identify relevance structures (connections, truth, organization, optimization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
+
+	- apply definition routes of cost as a core structure of optimization
+		- identify solution steps or solution(s) that optimize a definition of cost/reward
+			- definition route of cost on an interface like information would be an 'information loss', where a reward/benefit would be an 'information gain'
+			- definition route of cost on structural interface would be 'position change in direction away from target position', where a reward would be a 'position change in direction toward target position'
 
 ## generate solution automation workflows by permuting variables of problems/solutions
 
