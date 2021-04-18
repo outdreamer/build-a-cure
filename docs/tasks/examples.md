@@ -101,7 +101,7 @@
 
 		- causative potential
 			- core structures
-			- important (highly causative/generative/limiting) structures
+			- important (highly causative/generative/limiting) structures like vertexes & symmetries
 
 		- organization
 			- fit
@@ -707,6 +707,9 @@
 				- format connection functions using definition routes of 'connect':
 					- 'equalize' (reduce difference)
 					- 'organize' (structure, fit)
+					- 'cause' (what causes solution)
+					- 'use' (what is useful, implying that if its useful, it will be used to connect something)
+					- 'relate' (what components are relevant to both problem & solution, like important causative vertex variables)
 					- 'standardize' (apply standardizing filter, for intents like 'increase common similar components for comparison')
 				- format connection function across interfaces:
 					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'equal', 'error', 'difference'
