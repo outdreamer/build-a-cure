@@ -490,6 +490,20 @@
 
 	- find similarities (like fit, interactivity, coordination, direction, inputs/outputs, position) between available/adjacent/possible structures and connect problem/solution structures using these similarities (like function sequence with coordinating input/outputs)
 
+	- apply definitions of structural connection functions to connect problem & solution formats, using specific versions of sub-problems of structural connection functions like 'equalize', once a solution automation workflow like 'break problem into sub-problems & merge sub-solutions' is applied to the connection function definition, since specifying steps necessary to build the connecting function is the problem to solve
+		- equalize definition: 
+			- apply conversions (like 'change structures such as position or set') to components of objects, until objects to equate are equal
+		- interface query applying solution automation workflow insight path 'break problem into sub-problems & merge sub-solutions' to 'equalize' definition
+			- intent: connect (equalize) objects
+				- intent: compare
+					- intent: standardize components to common core structures (such as base, combinations, & types)
+				- intent: connect once comparable (standardized)
+					- alternate intents:
+						- intent: find adjacent operations producing route from source to target value
+							- intent: filter adjacent operations by restrictive conditions like solution requirements (metrics)
+						- intent: substitute source with target value & reverse-engineer source value
+							- intent: filter components by equivalent components of source/target values
+
 ## efficient insight paths (using fewest resources, with relatively good accuracy)
 
 ### identify interface object set necessary to get good approximate prediction results with existing algorithms & params
