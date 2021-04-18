@@ -13,9 +13,15 @@
 
 		- truth
 			- structures of truth are useful structures for testing accuracy of a solution, to apply as solution filters
-				- predictive power
-					- explanatory power
-				- fit across systems
+				- predictive power (identifying output variables)
+				- explanatory power (identifying input cause)
+				- synchronization
+					- fit across systems
+					- alignment with other truths
+				- similarity
+					- adjacence to other truths (few distortions away from other truths) with aligning useful intent to explain distortion
+				- efficiency
+					- simplicity (few connections may be needed bc efficient structures are more stable)
 				- permanence
 					- consistency
 					- stability
