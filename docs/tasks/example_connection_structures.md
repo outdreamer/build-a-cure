@@ -1,4 +1,4 @@
-  - example of linking perspectives with functions
+  - example of linking problem & solution perspective structures with functions
 
     - simplicity/complexity:
       - identify structures where each perspective would be applied incorrectly & produce errors
@@ -79,7 +79,7 @@
               - 'alternate sources of new error type information is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
 
           - insight paths inside the insight path:
-            - the following similarities in difference structures provide quick alternate methods of deriving the solution structure for an error structure 
+            - the following similarities in structures of difference provide quick alternate methods of deriving the solution structure for an error structure, bc they represent standard formats in common
             - the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance' - so the point is to identify structure of the solution & then find the interface where those similarities & differences in problem/solution structure are clear and can be assembled or otherwise operated on, using other resources on that interface
               - an error of extremes of power distribution in positions (weak vs. powerful position) can also be used to infer the solution structure component of a negative-positive connection structure
                 - variation in identity:
@@ -111,6 +111,3 @@
                   - apply 'reverse' structure to correct 'direction/degree' error
               - an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
               - an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
-            
-            - insight-path generating query to filter & identify embedded insight paths
-              - identify relevance structures (connecting function) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
