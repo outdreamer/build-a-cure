@@ -1,4 +1,4 @@
-# structure examples
+# structural definition route examples
 
 ## structural concept definition routes
     - nothing (lack) structures, as opposed to randomness (lack of differentiating info among possibilities)
@@ -148,7 +148,7 @@
             - conditional: any motion to correct an external error is not itself an error
             - temporary: motion in a direction different from planned direction sequence is not an error in some temporary contexts
   
-## specific error structures, including stupidity structures (with components like bias)
+### specific error structures, including stupidity structures (with components like bias)
 
   - apply anti-stupidity structures to neural network structure 
     - lack of learning functionality
@@ -230,84 +230,18 @@
       - similarities may have similarities to each other, more than similarities to differences
       - randomness has a similarity (in outcome probability), but is better than similarity as an input to generate difference structures like uncertainty
 
-## document uncertainty structures like randomness collisions & structures that produce certainty (combinations that stabilize)
+## uncertainty structures (like randomness collisions) & structures that produce certainty (combinations that stabilize)
     - randomness collisions generate structure
       - structure being the stabilized interaction of information (staying constant long enough to attain structure)
       - randomness being a lack of information (like a star or circle with equally likely directions of change)
         - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
       - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
 
-# math-language map (connecting function) solution automation insight path examples
-
-## apply core structures to interface components for language map
-    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
-
-## apply connecting function of math/logic 
-    - a problem like the following is a logic problem ('find the logic connecting this input/output') that can respond to the general solution workflow (given a problem input format of a 'function' to check possible solutions with) of:
-      - 'identify the unique correct solution in a solution set to a problem of equalizing the sides of this function' 
-      - 'identify which solutions are not correct, reducing the set to a size of 1'
-      - this can be converted to a math problem of:
-        - iterating through solutions
-        - checking each solution to see if it solves the problem ('equalizing both sides of a function')
-        - removing it from the solution set if not
-        - otherwise checking if the set of possible remaining solutions has a size of 1 yet to give a success signal
-        - continuing iteration if not
-      - the connection between these interfaces is in the structure of logic (math being structural information in core terms like numbers):
-        - the set iteration has a 'sequence' (set, progression) structure
-        - the remaining solution set size has a 'integer' (set, progression) structure
-        - the success signal & the continuation condition has a '0/1' (core alternative) structure
-        - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
-        - the remove operation has a 'subtraction' structure
-        - the continue operation has a 'sequence' structure
-        - the condition component has a 'direction' structure (change direction in logic network/tree) and 'multiple option' structure (a decision between differing & mutually exclusive options must be made)
-        - the check/test operation has an 'equal' & 'inject' structure (inject variable values to see if both sides are equal)
-        - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
-      - apply structural interface to connect logic & math structures:
-        - 1. some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
-          - similarity:
-            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should:
-              - move in opposite directions
-              - equal the original set size when added
-          - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
-            - generate core functions & generate combinations of them, applying them to problem variables being examined for a connecting function (solution set size & set iteration)
-            - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
-          - direction:
-            - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
-        - 2. given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be derived that:
-          - when executing problem-solving method, the method should include a step where:
-            - an item(s) is removed from the set 
-          - this connecting function between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
-          - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
-            - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
-          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
-            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
-
 # solution metric/filter/test examples
-
-## example of applying multiple structural filters to reduce solution space
-
-    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
-      - find similarity to type 'dog' and type 'cat'
-        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
-          - apply base structures (random, core, common, etc)
-            - apply path structures (how many steps from a base to produce a clear answer)
-          - apply opposite structures (what is not a cat, what is not a dog)
-          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
-          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
-          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
-          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
-          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
-          - apply system structures (what contexts normally go with 'cat')
-          - apply change/distortion structures (what distortions are often applied to cats or dogs)
-              - apply alternative path structures & network structure
-                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
-                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
-                    - re-apply similarity structures to boundaries (is this within the cat path region)
-                    - apply pattern structures (does this match cat path patterns)
 
 ## general solution filters
 
-	- meaning
+	- example of a generating a general filter of meaning (as a solution is meaningful to a problem), by applying a definition of a component of relevance (usefulness)
 		- relevance
 			- usefulness
 				- applies solution structures (opposite to error structures) as structures of usefulness/relevance/meaning
@@ -332,6 +266,41 @@
 					    - core patterns & core interface components 
 					    	- patterns which can build other components
 					      - patterns in core interface components, like change/difference patterns
+
+## solution filters that reduce the problem space
+
+    - identify the worst error types, as assumption combinations having the lowest solution metric fulfillment if incorrect
+      - in the problem of 'predict cat vs. dog', the worst error types are:
+        - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
+        - an object that is artificial identified as real (cat robot identified as a cat)
+      - to predict these error types, certain concepts need to be inferred
+        - the concept of 'agency' to design a machine that looks like an animal
+        - the structure of 'false equivalence' to design situations where features would look like a category but not actually be that
+    - identify all the feature ranges where it would be impossible to give high-accuracy answers (ai-generated cat image vs. real image)
+    - organize these filters in a useful sorting structure (network, tree) can reduce the computations required to solve for a prediction function, such as:
+    	- placing the most-reductive solution filter first, if the info required for that filter is already available
+    	- placing a filter after another filter that generates/identifies the info required for the second filter
+
+### example of applying multiple filters to reduce solution space
+
+    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
+      - find similarity to type 'dog' and type 'cat'
+        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
+          - apply base structures (random, core, common, etc)
+            - apply path structures (how many steps from a base to produce a clear answer)
+          - apply opposite structures (what is not a cat, what is not a dog)
+          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
+          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
+          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
+          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
+          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
+          - apply system structures (what contexts normally go with 'cat')
+          - apply change/distortion structures (what distortions are often applied to cats or dogs)
+              - apply alternative path structures & network structure
+                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
+                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
+                    - re-apply similarity structures to boundaries (is this within the cat path region)
+                    - apply pattern structures (does this match cat path patterns)
 
 ## solution filters for specific problems
 
@@ -390,6 +359,7 @@
 		          - 'investing in delivery businesses near planned supply chain routes offering a high-traffic alternative route, and relocation or transportation infrastructure to enable lower-cost market participation with subsidized education for delivery workers to help them get better jobs and leave their jobs open for immigrants'
 
 ## solution filters for alternate variable sets
+
     - when testing different variable subsets, you can select a variable set split by structures like:
       - vertex variables
       - variables on interim interfaces where other variables aggregate (in bottlenecks or hubs)
@@ -400,7 +370,8 @@
       - which difference types are the biggest variance-reducers when combined
       - which difference types have an attribute (common, relevance, similarity)
 
-## solution filters of an identification algorithm (to differentiate real & AI-generated content)
+## solution filters of an identification algorithm (to differentiate real & fake content)
+
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
     - wrong context for a pattern
     - over-repetition
@@ -415,19 +386,6 @@
       - clear composition of core patterns
     - sources of randomness
       - errors are evenly distributed among more complex adjacent sub-components not expected to change as much
-
-## solution filters that reduce the problem space
-    - identify the worst error types, as assumption combinations having the lowest solution metric fulfillment if incorrect
-      - in the problem of 'predict cat vs. dog', the worst error types are:
-        - an object from one category having all the features used to differentiate between categories, but with variable values of the other category (cat having dog features)
-        - an object that is artificial identified as real (cat robot identified as a cat)
-      - to predict these error types, certain concepts need to be inferred
-        - the concept of 'agency' to design a machine that looks like an animal
-        - the structure of 'false equivalence' to design situations where features would look like a category but not actually be that
-    - identify all the feature ranges where it would be impossible to give high-accuracy answers (ai-generated cat image vs. real image)
-    - organize these filters in a useful sorting structure (network, tree) can reduce the computations required to solve for a prediction function, such as:
-    	- placing the most-reductive solution filter first, if the info required for that filter is already available
-    	- placing a filter after another filter that generates/identifies the info required for the second filter
 
 # insight path examples
 
@@ -828,23 +786,19 @@
               - 'break problem into sub-problems & combine & merge sub-solutions'
                 - the interface query should have a format that is combinable/mergeable once it reaches the combine/merge step of the general solution method
   
-## connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
+## problem-solution format maps (structural components of solution automation workflow insight paths)
 
-    - examples:
+	- connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
+	    - examples:
+	        - connecting a problem of 'too much structure' and solution of 'reduced structure' has a workflow involving steps like 'reduce variables', with requirements like 'variables', so the function or change interface can be applied to identify variables before executing that step in the workflow
+	        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of variables (error/differences) are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
+	    - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
+	    - find equidistant point to information to start parallel interface queries from
 
-        - connecting a problem of 'too much structure' and solution of 'reduced structure' has a workflow involving steps like 'reduce variables', with requirements like 'variables', so the function or change interface can be applied to identify variables before executing that step in the workflow
-        
-        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of variables (error/differences) are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
-    
-    - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
-    
-    - find equidistant point to information to start parallel interface queries from
-
-## connecting problems & solutions with error types (opposite of connecting with solution types)
-
-	- associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
-	    - what errors can be present in a solution that can still be considered successful
-	    - what errors are considered a problem or equal to the input problem when combined in a structure
+	- connecting problems & solutions with error types (opposite of connecting with solution types)
+		- associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
+	    	- what errors can be present in a solution that can still be considered successful
+	    	- what errors are considered a problem or equal to the input problem when combined in a structure
 	    - iterate through possible interface definitions of problem/solution
 	      - problem :: solution 
 	        - general connecting function:
@@ -891,8 +845,6 @@
 	        - 'missing dependencies', 'cost of generating dependencies'
 	        - 'lack of flexibility', 'lack of potential', 'lack of functionality'
 
-## problem-solution format maps
-
 	- generate possible (full set) & probable (adjacent or useful set) formats to use to connect problem & solution
 		- identify relevant structures to the object an interface is based on, given its definition
 			- examples: 
@@ -903,9 +855,7 @@
 				- potential has a relevant structure of 'field of adjacent structures'
 				- concept has a relevant structure of 'network of generalized structure & distorted variant structures' or 'sub-network of system network objects that interact with a conceptual attribute'
 				- change has a relevant structure of 'core functions'
-		
 		- if the problem is 'find the cause of variable x': 
-						
 			- relevant structures to use as the connecting function format include specific implementations of general solution-finding structures (sequence/filters) like:
 				- specific 'sequence' structures, like:
 					- direction
@@ -915,10 +865,11 @@
 					- opposite direction as cause: 
 						- counterexamples
 						- limits on causation
-
-			- relevant interface objects (once interfaces are applied) include:
-				- causal variable network
-					- variables further up the causal sequence than x that could cause x
+			- query intents for relevant interface objects (once interfaces are applied) include:
+				- interface object 'causal variable network' query:
+					- 'find variables further up the sequential causal network than x that could cause x with no counterexamples'
+			- solution format:
+				- 'causal variables on sequential causal network with causal structures (inevitability) passing filters (no counterexamples)'
 
 	- core problem type structures (reduction, expansion, organization, matching, standardization, regulation, prediction/derivation (missing info), limit/change conflict resolution, error-to-resource conversion, optimization) & optimal solution formats & format structures for each
 	    - optimal optimization formats include network path-finding
@@ -975,31 +926,30 @@
             - 'emerging average given state data'
             - 'derived average given randomness injection'
 
-## example of filter for selecting formats
-
-  - why shouldnt everything be formatted as a network (why should you use multiple interfaces or formats)
-    - everything can be depicted as a path on a math/language symbolic map, including insight paths, so why shouldnt that map be used to solve every problem?
-      1. all formats have assumptions embedded which distort the format from the central format (no structure, or randomness), having associated useful intents
-      2. some definitions of complex components would require other structures than a single network path to be fully defined, like:
-          - a layered network query such as a loop, which would be more optimally (like clearly) structured in another format, like a function network
-          - complex functions/concepts could have very intricate structures on a language/math map, which would be more clearly defined on a function or core component network
-          - paths between other paths
-          - paths between attributes of nodes on a path rather than the whole node
-          - multiple paths depicting the system context forming a sub-network around a path
-            - the system interface where agent interactions occur or where stressors are clearly modeled is therefore the best format for some solution automation queries
-      3. the standard network format assumes functionality & attributes should be bundled as components like objects/agents/words/concepts, which may not be optimal for queries like identifying conceptual structures or variable structures
-        - even the attribute format assumes that some attributes should be grouped, and assumes values for certain attributes, where layers would be a better structure for attributes
-        - depending on the interaction level, querying a comprehensive map including all functionality/attributes can be computationally prohibitive
-      4. the interaction functions of solution components (like cause or intent) arent automatically defined on a language/math map
-        - what type of query to run when the problem to solve is answering 'why', having an answer using the 'because' or 'reason' nodes
-        - cause/intent/concepts/systems/potential/change arent immediately clear from the language/math map, where they would be in a format using those interface structures
-      5. some concepts/functions/attributes/components will necessarily be missing from the map until theyre added to the map, and some terms are unnecessary, and some are false
-        - missing components: components no one has used yet or thought of will be missing from the map
-        - unnecessary components: you dont need every interchangeable synonym or every number to effectively communicate a path
-        - false definition: some definitions would be defined suboptimally, giving incorrect query results until corrected
-          - the components wouldnt have the definition routes specialized for different interfaces (like abstract paths generating or defining a component) that enable quick identification of connections & other useful structures
-        - false variation: some changes to a language map would seem like variation but would actually not add much potential in terms of novelty/uniqueness in identifying a new concept
-      6. the definition of difference in a standard language/math/symbol map might not be the best organization for queries, requiring other formats like central core functions with distortion & interaction layers around the center
+	- example of filter for selecting formats
+	  - why shouldnt everything be formatted as a network (why should you use multiple interfaces or formats)
+	    - everything can be depicted as a path on a math/language symbolic map, including insight paths, so why shouldnt that map be used to solve every problem?
+	      1. all formats have assumptions embedded which distort the format from the central format (no structure, or randomness), having associated useful intents
+	      2. some definitions of complex components would require other structures than a single network path to be fully defined, like:
+	          - a layered network query such as a loop, which would be more optimally (like clearly) structured in another format, like a function network
+	          - complex functions/concepts could have very intricate structures on a language/math map, which would be more clearly defined on a function or core component network
+	          - paths between other paths
+	          - paths between attributes of nodes on a path rather than the whole node
+	          - multiple paths depicting the system context forming a sub-network around a path
+	            - the system interface where agent interactions occur or where stressors are clearly modeled is therefore the best format for some solution automation queries
+	      3. the standard network format assumes functionality & attributes should be bundled as components like objects/agents/words/concepts, which may not be optimal for queries like identifying conceptual structures or variable structures
+	        - even the attribute format assumes that some attributes should be grouped, and assumes values for certain attributes, where layers would be a better structure for attributes
+	        - depending on the interaction level, querying a comprehensive map including all functionality/attributes can be computationally prohibitive
+	      4. the interaction functions of solution components (like cause or intent) arent automatically defined on a language/math map
+	        - what type of query to run when the problem to solve is answering 'why', having an answer using the 'because' or 'reason' nodes
+	        - cause/intent/concepts/systems/potential/change arent immediately clear from the language/math map, where they would be in a format using those interface structures
+	      5. some concepts/functions/attributes/components will necessarily be missing from the map until theyre added to the map, and some terms are unnecessary, and some are false
+	        - missing components: components no one has used yet or thought of will be missing from the map
+	        - unnecessary components: you dont need every interchangeable synonym or every number to effectively communicate a path
+	        - false definition: some definitions would be defined suboptimally, giving incorrect query results until corrected
+	          - the components wouldnt have the definition routes specialized for different interfaces (like abstract paths generating or defining a component) that enable quick identification of connections & other useful structures
+	        - false variation: some changes to a language map would seem like variation but would actually not add much potential in terms of novelty/uniqueness in identifying a new concept
+	      6. the definition of difference in a standard language/math/symbol map might not be the best organization for queries, requiring other formats like central core functions with distortion & interaction layers around the center
 
 
 ## example of identifying query-changing (invalidating, embedding, stopping) conditions during an interface query or interface query-generating query
@@ -2292,3 +2242,47 @@
           - concepts
             - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
 
+# example of solving problem of 'find connecting function between math-language to generate a math-language map' with example useful solution automation insight paths
+
+## apply core structures like 'opposite' to interface components to generate a language map
+    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
+
+## apply connecting function of math-logic (logic being an interim interface of math & language)
+    - a problem like the following is a logic problem ('find the logic connecting this input/output') that can respond to the general solution workflow (given a problem input format of a 'function' to check possible solutions with) of:
+      - 'identify the unique correct solution in a solution set to a problem of equalizing the sides of this function' 
+      - 'identify which solutions are not correct, reducing the set to a size of 1'
+      - this can be converted to a math problem of:
+        - iterating through solutions
+        - checking each solution to see if it solves the problem ('equalizing both sides of a function')
+        - removing it from the solution set if not
+        - otherwise checking if the set of possible remaining solutions has a size of 1 yet to give a success signal
+        - continuing iteration if not
+      - the connection between these interfaces is in the structure of logic (math being structural information in core terms like numbers):
+        - the set iteration has a 'sequence' (set, progression) structure
+        - the remaining solution set size has a 'integer' (set, progression) structure
+        - the success signal & the continuation condition has a '0/1' (core alternative) structure
+        - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
+        - the remove operation has a 'subtraction' structure
+        - the continue operation has a 'sequence' structure
+        - the condition component has a 'direction' structure (change direction in logic network/tree) and 'multiple option' structure (a decision between differing & mutually exclusive options must be made)
+        - the check/test operation has an 'equal' & 'inject' structure (inject variable values to see if both sides are equal)
+        - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
+      - apply structural interface to connect logic & math structures:
+        - 1. some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
+          - similarity:
+            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should:
+              - move in opposite directions
+              - equal the original set size when added
+          - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
+            - generate core functions & generate combinations of them, applying them to problem variables being examined for a connecting function (solution set size & set iteration)
+            - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
+          - direction:
+            - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
+        - 2. given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be derived that:
+          - when executing problem-solving method, the method should include a step where:
+            - an item(s) is removed from the set 
+          - this connecting function between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
+          - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
+            - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
+          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
+            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
