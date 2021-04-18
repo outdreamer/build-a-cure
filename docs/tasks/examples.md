@@ -623,8 +623,11 @@
 			- solution structures: structures of similarity (adjacence), usefulness (efficiency, relevance, organization), solution-reducing structures like filters
 		- format-connection functions/structures (solution automation workflow insight paths)
 			- cross-interface format-connection functions/structures
+				- format connection functions using definition routes of 'connect':
+					- 'equalize'
+					- 'organize'
 				- format connection function across interfaces:
-					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'error, 'difference'
+					- connection function between problem/solution formats, using objects with definable structures across interfaces like 'standard', 'equal', 'error', 'difference'
 			- interface-specific format-connection functions/structures
 				- format-connection function on causal interface:
 					- find variables with structures of inevitability in the direction of caused variable
