@@ -5,13 +5,13 @@
 	- original proof, with problem-solution connecting formats
 		- definition of variable
 			x = 0.999 (continuing digits to infinity)
-		- definition of variable, distored to be more adjacent to integers (with factors of 1)
+		- definition of variable, distorted to be more adjacent to solution output format of 'integer' (numbers having factor of 1)
 			10x = 9.999
-		- definition of variable, organized on one side
+		- definition of variable, distorted by core operation to make one side more adjacent to solution output format of 'integer', without decreasing the other side's adjacence to integers
 			10x - x = 9.999 - .999
 		- definition of variable, standardized to integers
 			9x = 9
-		- definition of variable, standardized to unit
+		- definition of variable, standardized to unit coefficient of variable (1 * x)
 			x = 1
 
 	- format both sides with coefficients
