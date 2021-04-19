@@ -725,30 +725,42 @@
 
 	- apply core functions (find, derive, apply, build) & interface components to relate problem/solution components (problem space, origin/target, available info like definitions, structures, causes, concepts, sub-problems, adjacent formats, proxy problems/solutions, solution filters, problem/solution attributes like complexity)
 
+	- connect problem/solution
+
 		- general solution automation workflow: connect problem to solution
 			- core function version: apply 'connect' function to convert problem structures into solution structures
+
+	- disconnect problem/solution
 
 		- general solution automation workflow: differentiate solution from known problems in problem space
 			- core function version: find filter separating solution from known problems in problem space
 
-			- general solution automation workflow: find structures of problem (like position of problem, or problem cause) & differentiate to find solution
+			- general solution automation workflow: find structures of problem (like position of problem, or problem cause) & differentiate from those structures to find solution
 				- core function version: find opposite structures (like simplicity) of problem structures (like complexity) to find solutions
 
-			- general solution automation workflow: find general causes of solution error & differentiate solution from those causes
+			- general solution automation workflow: find general causes of solution errors & differentiate solution from those causes
 				- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and use opposite structures of those structures to build solution
+
+	- remove problem
 
 		- general solution automation workflow: find structures in the problem space that would invalidate the problem (so problem doesnt need to be solved)
 			- core function version: find proxy solution structures (solving similar problems) or organization structures (like combination of position changes of problem space components) that would invalidate the problem 
 
+	- change problem into more solvable problem
+
+		- change problem into a structure of solved problems
 			- general solution automation workflow: find structures of solutions (solved problems) in or adjacent to the problem
 				- core function version: find components of or adjacent problems to the problem that can be substituted or equal solutions (solved problems)
 
+		- solve the abstracted problem (problem type)
 			- general solution automation workflow: abstract the problem & solve the abstract version (problem type), parameterizing the solution type to generate solutions
 				- core function version: apply abstraction interface to the problem & find solutions in that interface, then find parameters to specify solutions in specific problem spaces
 
-		- general solution automation workflow: build general solution & error filter structures & apply to problem with specific format
-			- core function version: build solution & error filter that can be applied to problem formatted as a network
+		- solve the problem of sub-optimal solution & error filters
+			- general solution automation workflow: build general solution & error filter structures & apply to problem with specific format
+				- core function version: build solution & error filter that can be applied to problem formatted as a network
 
+		- solve the problem of building solution with solution components
 			- general solution automation workflow: find structures of solutions & apply to problem to find solution
 				- core function version: find truth (stability, fit with other truths), probability (likely possibilities) & optimization structures (efficiency) & apply to problem structures to find solution
 
