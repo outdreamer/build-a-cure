@@ -58,6 +58,9 @@
     - everything can be formatted as a system, not everything is an interface - an interface is like a location where different systems can meet to communicate
 
   - science: 
+
+    - physics determines probability (of interactions), math describes certainty (of interactions)
+
     - alternatives
       - a limit on potential energy in the universe, concentrated in space-time moves or symmetry violations, where all other changes align with the standard model
       
