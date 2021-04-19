@@ -723,10 +723,10 @@
 
 ## generate solution automation workflows by applying core functions & problem/solution components
 
-	- apply core functions (find, derive, apply, build) to problem/solution components (structures, causes, sub-problems, adjacent formats, solution filters, problem/solution attributes like complexity)
+	- apply core functions (find, derive, apply, build) & interface components to relate problem/solution components (structures, causes, sub-problems, adjacent formats, solution filters, problem/solution attributes like complexity)
 
 		- general solution automation workflow: connect problem to solution
-			- core function version: apply 'connect' function to problem & solution structures
+			- core function version: apply 'connect' function to convert problem structures into solution structures
 
 		- general solution automation workflow: differentiate solution from known problems in problem space
 			- core function version: find filter separating solution from known problems in problem space
@@ -735,7 +735,10 @@
 			- core function version: find opposite structures (like simplicity) of problem structures (like complexity) to find solutions
 
 		- general solution automation workflow: find general causes of solution error & differentiate solution from those causes
-			- core function version: find assumption structures (like a constant that should be a variable) and differentiate solution from those structures
+			- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and use opposite structures of those structures to build solution
+
+		- general solution automation workflow: find structures in the problem space that would invalidate the problem
+			- core function version: find proxy solution structures (solving similar problems) or organization structures (like combination of position changes of problem space components) that would invalidate the problem
 
 ## generate solution automation workflows by applying workflows to other workflows
 
