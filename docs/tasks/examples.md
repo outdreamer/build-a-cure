@@ -734,6 +734,9 @@
 			- general solution automation workflow: find structures of problem (like position of problem, or problem cause) & differentiate to find solution
 				- core function version: find opposite structures (like simplicity) of problem structures (like complexity) to find solutions
 
+			- general solution automation workflow: find structures of solutions & apply to problem to find solution
+				- core function version: find optimization structures (like efficiency) & apply to problem structures to find solution
+
 			- general solution automation workflow: find general causes of solution error & differentiate solution from those causes
 				- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and use opposite structures of those structures to build solution
 
