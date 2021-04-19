@@ -772,6 +772,12 @@
 			- general solution automation workflow: find structures of solutions & apply to problem to find solution
 				- core function version: find truth (stability, fit with other truths), probability (likely possibilities) & optimization structures (efficiency) & apply to problem structures to find solution
 
+	- change solution into structures that can out-compete problems
+
+		- change solution into structures of optimization that can prevent problems
+			- general solution automation workflow: build solutions that have more structures of optimization than problems in the problem space
+				- core function version: build solutions that have more structures of optimization (efficiency/organization) than problems in the problem space
+
 ## generate solution automation workflows by applying workflows to other workflows
 
     - solution automation workflow variables
