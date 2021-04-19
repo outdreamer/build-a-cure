@@ -742,7 +742,11 @@
 
 		- apply problem structures of solution structures (solution errors) to differentiate solution from
 			- general solution automation workflow: find general causes of solution errors & differentiate solution from those causes
-				- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and use opposite structures of those structures to build solution
+				- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and apply difference/opposite structures to those structures to build solution
+
+		- apply sub-optimal solution structures (sub-optimal solutions) to differentiate solution from
+			- general solution automation workflow: find sub-optimal solutions & differentiate solution from those solutions
+				- core function version: find structures of sub-optimality in existing solutions and apply difference/opposite structures to those structures to build solution
 
 	- remove problem
 
