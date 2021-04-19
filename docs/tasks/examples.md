@@ -734,9 +734,6 @@
 			- general solution automation workflow: find structures of problem (like position of problem, or problem cause) & differentiate to find solution
 				- core function version: find opposite structures (like simplicity) of problem structures (like complexity) to find solutions
 
-			- general solution automation workflow: find structures of solutions & apply to problem to find solution
-				- core function version: find optimization structures (like efficiency) & apply to problem structures to find solution
-
 			- general solution automation workflow: find general causes of solution error & differentiate solution from those causes
 				- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and use opposite structures of those structures to build solution
 
@@ -751,6 +748,9 @@
 
 		- general solution automation workflow: build general solution & error filter structures & apply to problem with specific format
 			- core function version: build solution & error filter that can be applied to problem formatted as a network
+
+			- general solution automation workflow: find structures of solutions & apply to problem to find solution
+				- core function version: find truth (stability, fit with other truths), probability (likely possibilities) & optimization structures (efficiency) & apply to problem structures to find solution
 
 ## generate solution automation workflows by applying workflows to other workflows
 
@@ -894,6 +894,7 @@
         - apply intent to derive usage & system context
 
 ## generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
+
     - intent: future direction with benefit to agency
     - cause: preceding inevitability requirement in sequential structure
     - function: structure of task structures (conditions, assignments, iterations) consistently connecting input & output
@@ -1776,7 +1777,7 @@
         - bias is usually used to evaluate intentions of agents when interacting with other agents with some level of variance in agent identities
         - after abstracting intentions as decision/function triggers:
           - apply bias as a truth filter to determine non-agent change/function triggers
-          - this can work bc even components without agency respond to incentives bc of their common tie to physics
+          - this can work bc even components without agency respond to incentives bc of their common tie to physics, and agents are likelier to identify optimal structures
             - example: bias can have a core error structure like 'over-prioritizing locality', which can be converted into the concept of 'adjacence' as a core structure to use when solving the bias-causing problems of 'minimizing cost' or 'limited info', or when identifying structures that can be used as truth filters, which can be formatted as 'low-cost or otherwise adjacent distortions are likelier to be false info'
           - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to the problem-solving intent of identifying truth
 
