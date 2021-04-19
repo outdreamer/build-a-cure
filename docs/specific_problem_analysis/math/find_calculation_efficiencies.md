@@ -91,6 +91,6 @@
             - how to derive efficient operations in the first place:
 
               - identify when there are alternate paths to an answer (65 * 10 = 650 * 1) while changing a minimum of other variables (having the same number types, like integers), and check if alternate paths are lower-cost, and in what cases (ratio of cases, common cases, etc)
-                - a variant of this is identifying that multipliers share a common base, which has another calculation efficiency in the application of addition/subtraction to exponents instead of multipliers
+                - a variant of this is identifying that multipliers can be converted into a structure of solved problems (like that bases have calculation efficiencies), in that they share a common base, which has another calculation efficiency in the application of addition/subtraction to exponents instead of multipliers
                   - example: 64 * 16 = 4 ^ 3 * 4 ^ 2 = 4 ^ (3 + 2)
                   - if you dont need the result of the operation or can standardize other relevant values to that base, you can keep it in this format instead of executing the operation 4 ^ (3 + 2)

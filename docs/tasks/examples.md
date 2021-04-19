@@ -738,7 +738,10 @@
 			- core function version: find randomness, difference, & assumption structures (like a constant that should be a variable) and use opposite structures of those structures to build solution
 
 		- general solution automation workflow: find structures in the problem space that would invalidate the problem
-			- core function version: find proxy solution structures (solving similar problems) or organization structures (like combination of position changes of problem space components) that would invalidate the problem
+			- core function version: find proxy solution structures (solving similar problems) or organization structures (like combination of position changes of problem space components) that would invalidate the problem (so problem doesnt need to be solved)
+
+		- general solution automation workflow: find structures of solutions (solved problems) in or adjacent to the problem
+			- core function version: find components of or adjacent problems to the problem that can be substituted or equal solutions (solved problems)
 
 ## generate solution automation workflows by applying workflows to other workflows
 
