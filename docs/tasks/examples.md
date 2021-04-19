@@ -724,10 +724,15 @@
 ## generate solution automation workflows by applying core functions & problem/solution components
 
 	- apply core functions (find, derive, apply, build) to problem/solution components (structures, causes, sub-problems, adjacent formats, solution filters, problem/solution attributes like complexity)
+
 		- general solution automation workflow: connect problem to solution
 			- core function version: apply 'connect' function to problem & solution structures
-		- general solution automation workflow: differentiate solution from known problems
-			- core function version: find filter separating solution from known problems
+
+		- general solution automation workflow: differentiate solution from known problems in problem space
+			- core function version: find filter separating solution from known problems in problem space
+
+		- general solution automation workflow: find structures of problem (like position of problem, or problem cause) & differentiate to find solution
+			- core function version: find opposite structures (like simplicity) of problem structures (like complexity) to find solutions
 
 ## generate solution automation workflows by applying workflows to other workflows
 
