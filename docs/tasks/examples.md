@@ -721,6 +721,14 @@
 				- format-connection function on causal interface:
 					- find variables with structures of inevitability in the direction of caused variable
 
+## generate solution automation workflows by applying core functions & problem/solution components
+
+	- apply core functions (find, derive, apply, build) to problem/solution components (structures, causes, sub-problems, adjacent formats, solution filters, problem/solution attributes like complexity)
+		- general solution automation workflow: connect problem to solution
+			- core function version: apply 'connect' function to problem & solution structures
+		- general solution automation workflow: differentiate solution from known problems
+			- core function version: find filter separating solution from known problems
+
 ## generate solution automation workflows by applying workflows to other workflows
 
     - solution automation workflow variables
@@ -786,7 +794,8 @@
       - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
         - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
 
-## to generate solution automation workflows
+## generate solution automation workflows
+
     - combine problem types
       - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
     - combine structures & connect structure combinations by problem types
@@ -928,6 +937,14 @@
                 - the interface query should have a format that is combinable/mergeable once it reaches the combine/merge step of the general solution method
   
 ## problem-solution format maps (structural components of solution automation workflow insight paths)
+
+	- based on where the problem is & what type it is, you can start with different methods:
+	    - to invent something, start with structure-fitting or a conceptual query
+	    - to understand a system, start with system derivation
+	    - to predict an optimal function of variables in a system, & with system info & intents mapped in the system, start with vectorization of the problem space
+	    - to find a path across a variance gap or use unused variance, & with system info, start with modeling gaps in the problem systems as solutions
+	    - to find a quick approximation of system understanding & without time for system derivation, start with interface derivation
+	    - with specific information about objects in the system, & without a few relationships, use queries on the object model
 
 	- connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
 	    - examples:
