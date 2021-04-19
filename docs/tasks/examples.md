@@ -727,8 +727,13 @@
 
 	- connect (equate) problem/solution
 
-		- general solution automation workflow: connect problem to solution
-			- core function version: apply 'connect' function to convert problem structures into solution structures
+		- connect problem & solution formats
+			- general solution automation workflow: connect problem format to solution format
+				- core function version: apply 'connect' function to convert problem structures into solution structures
+
+		- connect problem & solution interface components
+			- general solution automation workflow: connect problem interface structures to solution interface structures
+				- core function version: apply 'connect' function to convert problem structures (like truth/stability) into solution structures (like uncertainty/potential)
 
 	- disconnect (differentiate) problem/solution
 
@@ -775,7 +780,7 @@
 	- change solution into structures that can out-compete problems
 
 		- change solution into structures of optimization that can prevent problems
-			- general solution automation workflow: build solutions that have more structures of optimization than problems in the problem space
+			- general solution automation workflow: build solutions that have more structures of optimization than problems & problem sources (randomness structures) in the problem space
 				- core function version: build solutions that have more structures of optimization (efficiency/organization) than problems in the problem space
 
 ## generate solution automation workflows by applying workflows to other workflows
