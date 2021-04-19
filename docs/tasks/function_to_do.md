@@ -60,6 +60,11 @@
   - science: 
 
     - physics determines probability (of interactions), math describes certainty (of interactions)
+      - map physics/math with structural connections like:
+        - truth: organization, efficiency, stability, power to act as a foundation/filter, opposite of randomness 
+        - power: energy
+        - variation: structural interactivity, lack of limits/constants
+        - time: lack of constants preventing change, lack of structure-invalidating conditions, difference between constants & interaction potential of structures
 
     - alternatives
       - a limit on potential energy in the universe, concentrated in space-time moves or symmetry violations, where all other changes align with the standard model
