@@ -1,4 +1,4 @@
-# structural definition route examples
+# definition route examples
 
 ## vertex definition 
 
@@ -607,7 +607,7 @@
 	        - abstraction/info
 	        - question/definition
 
-## standard basic general insight paths (to apply structures to in order to make them specific to a context)
+## standard basic general insight paths (to apply structural interface to in order to make them specific to a context)
 
 	- trial & error
 	- reverse-engineering
@@ -636,6 +636,8 @@
 							- intent: filter adjacent operations by restrictive conditions like solution requirements (metrics)
 						- intent: substitute source with target value & reverse-engineer source value
 							- intent: filter components by equivalent components of source/target values
+
+	- identify similar interface components (like concepts/structures) in other systems & solutions used to solve relevant problems in those systems, then convert & apply solutions from similar interface components to solve the problem in the original system
 
 ## insight paths optimizing for an attribute like efficiency (using fewest resources, with relatively good accuracy)
 
@@ -930,7 +932,7 @@
         - concept components: low-impact variables, high-variation variables, most causative problems, worst/best case context
         - function components: filter (ignore/focus/assume), prioritize (set as primary intent), apply structure (like subset)
         
-    - then apply structures to combine insight path components for a problem:
+    - then apply structural interface to combine insight path components for a problem:
       - 'ignore low-impact variables to prioritize high-impact variables'
 
     - then filter by problem structure (intents, sub-intents) to re-integrate insight paths with problem:
@@ -959,7 +961,7 @@
 				- abstracted & standardized to interface components: 
 					- find (change types and/or system structures like differences) in problem space, then find connecting structures of structured values & output structures
 
-# interface query design logic examples
+# interface query-building logic examples
 
 ## example of advantages of applying alternate interfaces, for selecting interfaces
 
@@ -1389,7 +1391,7 @@
 	          - filter by functions with a high number of inputs
 
 	  2. start with standardized problem definition
-	    - apply structure interface: apply structures to problem
+	    - apply structure interface: apply structural interface to problem
 	    - find/generate/build relevant solution automation workflows
 	      - generate a structure of relevant solution automation workflows to execute
 	        - tree of solution automation workflows
@@ -1409,18 +1411,20 @@
 	          1. find/build/derive structure of components (objects)
 	            2. apply structure of components
 	          3. find/build/derive structure to integrate components
-	            4. apply structures to integrate components
+	            4. apply structural interface to integrate components
 	          5. find/build/derive sub-problems of component structures
 	      - identify integration method of sub-solutions
 	        - integration method of solution automation workflow
 	          6. find/build/derive structure to integrate sub-solutions
-	            7. apply structures to integrate sub-solutions
+	            7. apply structural interface to integrate sub-solutions
 	          8. find/build/derive solution structures (filter, combination, reduction, connection) to optimize integrating/sub-solution structures
 	            9. apply solution structures to integrating/sub-solution structures
 	              10. change integrating/sub-solution structure to match additional solution structures
 	          11. integrate change sets to match the most solution structures
 
-## example of applying merged solution automation workflow, with find operation (use find instead of build/derive where possible) to problem 'find a prediction/regression function/line', with sub-problems:
+## example of applying solution automation workflow
+
+	- apply 'find' operation instead of build/derive/apply where possible to generate interface query for problem 'find a prediction/regression function/line', with sub-problems:
 
         1. find/derive/build structure (definition) of components (regression)
           - 'find line minimizing distance from data'
@@ -1447,7 +1451,7 @@
           - find structure to connect distance & data set structures, according to definitions
             - 'find a line whose perpendicular height to data point & parallel distance between adjacent data points form an area that is minimized across data points in the sets of variable value sets'
         
-        4. apply structures to integrate components
+        4. apply structural interface to integrate components
           - apply function structure to connect components
             - find specific functions to fulfill the component integration structure found in 3 (match the component integration structure & its specific application with the solution structure)
               - 'for each data point, calculate area between point & line, aggregating area at each iteration, then check for structure change to minimize aggregate area'
@@ -1466,7 +1470,7 @@
         6. find/build/derive structure to integrate sub-solutions
           - apply('function to minimize aggregate area', apply('function to aggregate area, apply('find function to calculate distance', apply('function to iterate data points', data points))))
 
-        7. apply structures to integrate sub-solutions
+        7. apply structural interface to integrate sub-solutions
           - execute the above function structure with injected calls to apply()    
             - apply() executes logic: 
               - find structure using param1 on param2      
@@ -1731,9 +1735,9 @@
 		          - where certainty is not allowed by the system
 		            - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
-# examples of applying structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+# examples of applying structural interface to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
 
-## apply structures to generate variables in a system
+## apply structural interface to generate variables in a system
 
     - identify changes that lead to development of a 'concept' in a system:
 
@@ -1792,13 +1796,13 @@
 	        - how would this change type interact with other change types
 	        - does the environment system change enough to justify developing another or extra change types
 	        
-## apply structures to identify false info across user requests
+## apply structural interface to identify false info across user requests
     - apply intent interface: 
       - check with intent store (site) if a request for an intent (request password) was just made by the user, to validate messages
       - apply pattern interface: 
         - check if user access patterns (like 'navigate to site, then check email for site password reset') match that intent
 
-## apply structures to predict trend convergence 
+## apply structural interface to predict trend convergence 
 
     - trends 
       
@@ -1839,7 +1843,7 @@
         - organization of competition in a problem market, for important optimizations only
         - market selection/optimization/automation
 
-## apply structures to components like technologies to find emergent trends
+## apply structural interface to components like technologies to find emergent trends
 
     - tech, standardized to common terms
       - movie: sensory info emotion triggers & info/abstract paths (stories)
@@ -1864,7 +1868,7 @@
     - brain-development games: apply AI & brain-scanning to identify missing functionality in brains & generate game to develop that function
       - generative query: use output of game (learning) as input assumption for learning intents using games as intent-fulfillment resource
 
-## apply structures to solve problem by changing structures (like position) of interface objects, like functions & variables
+## apply structural interface to solve problem by changing structures (like position) of interface objects, like functions & variables
 
     - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
       - this can add functionality to products to reduce need for producing new versions
@@ -1884,13 +1888,13 @@
           - this is a way to abstract code (any function that can receive input data of that type) & code connections, delegating execution to code located with queries (find a function of this type or with this input/output) and modularize code as well as making it more connectible
       - task: identify the core functions/components that can generate required functionality for most user intents without introducing security flaws (making hacking devices less adjacently buildable than common legitimate use cases)
 
-## apply structures to identify relevant structures for an intent 
+## apply structural interface to identify relevant structures for an intent 
 
     - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
     - for 'connection' intents (identify/generate connection), a structure where components are only defined in terms of other components (by their relationships to other components), like a network or vector space
     - for 'differentiation' intents, a structure where the definition of difference is clear & applicable (can differentiate all different components)
 
-## apply structures of concepts into function to find prediction functions
+## apply structural & conceptual interfaces to apply structures of concepts into function to find prediction functions
   
     - apply structure of time (state) into algorithms (network state algorithm)
     - apply structure of hypnosis (multi-interface alignment) to algorithm (hypnotized algorithm is static & cant learn, which is an error type)
@@ -1922,7 +1926,7 @@
       - functions
         - apply error types to check a system for known optimizations (error types like 'structures that seem similar but are not')
 
-## apply structural definition routes of adjacence (minimal units of work) to find efficiencies 
+## apply structural interface to apply structural definition routes of adjacence (minimal units of work) to find efficiencies 
 
 	- find efficiencies in core functions (multiply, find integral/derivative, find efficient method to calculate difference) by applying structures of adjacence (core functions) and clarity (isolatable structures, definitions)
 
@@ -1953,14 +1957,14 @@
 	                - find functions of differentiating values (positive/negative, multiplication) & attributes (value range allowing very different values) for new variable
 	                  - add variable of differentiating values to make overlapping 2d clusters clearly separable in 3d
 
-## apply structures to generate an assumption identification function
+## apply structural interface to generate an assumption identification function
 
     - define 'assumption' with alternate interfaces, like info/abstraction, filtering for assumptions that cause errors
       - definition route: any specific info is a potentially problematic assumption
       - example of an assumption: solving the problem by asking 'what function in the software caused the problem' assumes that the stack variable is a constant ('software' part of the stack), when really other variable values should be examined
       - since specificity is the root cause of the problematic assumption, remove specificity in the form of a constant by applying the opposite structure (change types to variable values)
 
-## identify & apply optimal structures to connect problem & solution, using alternative definition routes & error structures
+## apply structural interface to identify & apply optimal structures to connect problem & solution, using alternative definition routes & error structures
 
     - original problem statement: 
       - 'object is over-reduced'
@@ -1990,7 +1994,7 @@
       - solution, formatted using distortion structures:
         - reduction function of the reduction function, applied to un-distort distortions ('differences from standard')
 
-## apply structures of definition routes of a concept (usefulness) like conceptual attributes such as clarity/adjacence
+## apply structural interface to apply structures of definition routes of a concept (usefulness) like conceptual attributes such as clarity/adjacence
 
   - function to check a format for structures of usefulness/relevance like clarity, adjacence to determine usefulness/relevance of the format to a problem
     - check if 'difference from standard' is a useful (clear, adjacent) format for the problem 'object is over-reduced'
@@ -2086,7 +2090,7 @@
 
                       - other filters can then be applied, like intent (does the format make it more efficient to fulfill a problem-solving intent relevant to the problem)
 
-## apply structures to find connecting functions
+## apply structural interface to find connecting functions
 
   - integrate (align & connect) structures of functions on multiple interfaces:
 
@@ -2100,7 +2104,7 @@
       - using limits that bound other formulas as assumptions to reduce solution space
       - finding vertex variables of formulas & applying variations to generate other formulas
 
-## apply question (info imbalance) structures to find answers to questions
+## apply structural & info interfaces to apply question (info imbalance) structures to find answers to questions
 
 	- questions have the structure of a possible connection sequence forming a path in the problem system, formatted as a network
 
@@ -2132,11 +2136,12 @@
                 - apply structures (combinations, sequences) of interaction to variables a, b, c & their attributes/functions/components
 
 ## apply structural definition routes to differentiate similar or related concepts
+
 	- change: sequence of difference structures
 	- difference: non-equivalence on some metric
 	- variable: attribute capturing an isolatable change type
 
-## apply structures to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+## apply structural interface to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
 
     - the below 'reverse engineering' example uses the following filter query to determine relevance, reverse-engineering a definition of relevance that can be used to find relevant structures, a definition that is formatted as a set of filters, using a structural definition of relevance (similarity)
       - relevance = reverse(similarity => core => combine => not structural alignment => adjacence)
@@ -2163,7 +2168,7 @@
       - path (in the filter network, & also possibly a path in the problem structure network)
       - interfaces, structures, & definitions used ('questions' asked by the query, 'alternatives' used as 'approximations')
     
-## apply structures to identify consensus perspective between opposing perspectives
+## apply structural interface to identify consensus perspective between opposing perspectives
 	- transform a structure in each perspective to a structure in the target perspective
 	    - identify structure of attributes/functions/objects common to both perspectives
 	    	- connecting functions like: 'function connecting power and distribution', 'function describing dictatorship dynamics'
@@ -2172,15 +2177,13 @@
 	    - identify similarities in interface objects within structures
 	    	- similar change pattern in change type in connecting function: 'power favoring distribution', 'military coups after power abuses'
 
-## apply structures to identify an object like 'contradiction' (contradiction of a statement, formatted as a route between network nodes)
+## apply structural interface to identify an object like 'contradiction' (contradiction of a statement, formatted as a route between network nodes)
     - query for conditions that would convert some input, component, or output of the statement function route into some structure of falsehood (invalid, impossible)
     - example:
       - query for intents that would require movement in different directions than the statement function route requires
       - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
-  
-## combine core operations (rotate, connect, combine, shift, filter) to convert the base subset/limit functions building or used by a neural network into the output prediction function
 
-## apply structures to structure to generate a particular structure/format (structure standardization)
+## apply structural interface to structure to generate a particular structure/format (structure standardization)
 
     - example of converting structures into vectors
       - many vector structures can represent interface structures
@@ -2189,7 +2192,7 @@
           - standard network structure translation: vectors to indicate direction of cause
           - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
 
-## apply structures to identify rules that violate a metric 
+## apply structural interface to identify rules that violate a metric 
 
     - requirement like: 
       - 'dont exacerbate inequalities'
@@ -2208,7 +2211,7 @@
       - these assumptions would disproportionately increase inequality's disadvantages in distribution
       - 'disadvantaging rules/assumptions' can be distributed more evenly or to offset inequalities
 
-## find alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
+## apply structural & change interfaces to find alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
 
       - apply interfaces to find relevant structures
 
@@ -2264,7 +2267,7 @@
           - concepts
             - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
 
-## apply structures to solve an info problem
+## apply structural interface to solve an info problem
 
     - apply point structure: find examples
     - apply set structure: find combinations
@@ -2584,7 +2587,7 @@
 	                - switch to value on other extreme
 	                - switch to value at origin/average
 	                - switch to multiple values
-	                  - apply structures to multiple values (set, network, sequence)
+	                  - apply structural interface to multiple values (set, network, sequence)
 	              - apply opposite structures to variables
 	                - intent: subvert expectations by changing attribute to opposite value
 	                  - change metadata (name) of something good to metadata (name) of something bad
@@ -2668,11 +2671,18 @@
 
 ## apply interface analysis to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network type
 
-	- organization structures represent applied concepts & structures like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc
-    - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
-    - these structural equivalences/similarities across interaction layers (like different abstraction levels of intents) can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
+	- examples of interface structures relevant to neural network structures
 
-	- apply structures to core structures to generate conceptual structures in neural networks
+		- interface interface (relevance/usefulness)
+			- organization structures represent applied concepts & structures like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc
+		- core & structure interfaces:
+			- combine core operations (rotate, connect, combine, shift, filter) to convert the base subset/limit functions building or used by a neural network into the output prediction function
+	    - intent interface:
+	    	- a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
+	    
+    	- these structural equivalences/similarities across interaction layers (like different abstraction levels of intents) can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
+
+	- apply structural interface to core structures to generate conceptual structures in neural networks
 	      
 	      - variables of the network include structures emerging from or embedded in algorithms/structures
 
@@ -2883,40 +2893,40 @@
 
     - queries to generate insight path to find useful structures to apply across systems, for a general problem-solving intent like 'truth filtering'
 
-      - apply insight path: 'apply insight paths to generate insight paths'
+	    - apply solution automation workflow insight path: 'apply insight paths to generate insight paths to solve a problem'
 
-      	- insight path: find structures for the same intent in other systems, connect structures between systems, & apply matching structures to original system
-	        - find structures with 'truth filtering' intent in solution (source) system
-	          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
-	            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
-	        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
-	          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
-	            - apply bias/interface metadata (intent) to target system components
-	              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
-	            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
-	              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
-	              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
+	      	- apply insight path: find structures for the same intent in other systems, connect structures between systems, & apply matching structures to original system
+		        - find structures with 'truth filtering' intent in solution (source) system
+		          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
+		            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
+		        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
+		          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
+		            - apply bias/interface metadata (intent) to target system components
+		              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
+		            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
+		              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
+		              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
 
-      - standard interface query 
+	    - apply standard interface query 
 
-        - apply structural interface
-          - identify connections between structures in problem
-            - problem: 'find true info in agent-based system interactions despite agent incentives to send false info & intentions/decisions to do so'
-            - problem structures:
-              - concepts: 'truth' (intention matches decision output = 'successful decision'), 'agency', 'incentive', 'intent', 'decision'
-              - functions: 'interaction functions', 'decision functions'
-              - other structures: 'decision function triggers', 'false info', 'true info'
+	        - apply structural interface
+	          - identify connections between structures in problem
+	            - problem: 'find true info in agent-based system interactions despite agent incentives to send false info & intentions/decisions to do so'
+	            - problem structures:
+	              - concepts: 'truth' (intention matches decision output = 'successful decision'), 'agency', 'incentive', 'intent', 'decision'
+	              - functions: 'interaction functions', 'decision functions'
+	              - other structures: 'decision function triggers', 'false info', 'true info'
 
-        - apply combine function to conceptual interface
-          - create combinations of abstracted versions of structures
-            - problem: 'find true info in system interactions despite incentives to send false info & other sources of false info & change functions enabling that'
-            - problem structures:
-              - concepts: 'correct' (info implication matches its impact), 'incentive', 'change', 'randomness'
-              - functions: 'interaction functions', 'change functions'
-              - other structures: 'change function triggers', 'false info', 'true info'
+	        - apply combine function to conceptual interface
+	          - create combinations of abstracted versions of structures
+	            - problem: 'find true info in system interactions despite incentives to send false info & other sources of false info & change functions enabling that'
+	            - problem structures:
+	              - concepts: 'correct' (info implication matches its impact), 'incentive', 'change', 'randomness'
+	              - functions: 'interaction functions', 'change functions'
+	              - other structures: 'change function triggers', 'false info', 'true info'
 
-        - apply connect function to abstract structures
-          - find structures that connect abstract structures (randomness, false info, change/function triggers) without the specific attributes tying them to one system (agency)
-            - test whether the connecting structures fit with the new system after removing attributes:
-              - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
-                - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
+	        - apply connect function to abstract structures
+	          - find structures that connect abstract structures (randomness, false info, change/function triggers) without the specific attributes tying them to one system (agency)
+	            - test whether the connecting structures fit with the new system after removing attributes:
+	              - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
+	                - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
