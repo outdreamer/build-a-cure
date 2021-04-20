@@ -601,6 +601,7 @@
 
 ## solution automation workflow insight path examples
 
+	- solve problem by finding/generating/deriving efficiencies in a problem system (like calculation efficiencies), then applying coordinating structures of those (like a sequence connected by coordinating inputs/outputs) as initial solution methods to refine with solution metric filters
 	- solve problem by changing structures (like position) of interface objects, like functions & variables
 	- use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
 	- identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system
