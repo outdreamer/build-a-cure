@@ -1735,9 +1735,9 @@
 		          - where certainty is not allowed by the system
 		            - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
-# examples of applying structural interface to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+## apply interface analysis for an intent (solve a problem, complete a task)
 
-## apply structural interface to generate variables in a system
+### apply structural interface to generate variables in a system
 
     - identify changes that lead to development of a 'concept' in a system:
 
@@ -1796,13 +1796,13 @@
 	        - how would this change type interact with other change types
 	        - does the environment system change enough to justify developing another or extra change types
 	        
-## apply structural interface to identify false info across user requests
+### apply structural interface to identify false info across user requests
     - apply intent interface: 
       - check with intent store (site) if a request for an intent (request password) was just made by the user, to validate messages
       - apply pattern interface: 
         - check if user access patterns (like 'navigate to site, then check email for site password reset') match that intent
 
-## apply structural interface to predict trend convergence 
+### apply structural interface to predict trend convergence 
 
     - trends 
       
@@ -1843,7 +1843,7 @@
         - organization of competition in a problem market, for important optimizations only
         - market selection/optimization/automation
 
-## apply structural interface to components like technologies to find emergent trends
+### apply structural interface to components like technologies to find emergent trends
 
     - tech, standardized to common terms
       - movie: sensory info emotion triggers & info/abstract paths (stories)
@@ -1868,7 +1868,7 @@
     - brain-development games: apply AI & brain-scanning to identify missing functionality in brains & generate game to develop that function
       - generative query: use output of game (learning) as input assumption for learning intents using games as intent-fulfillment resource
 
-## apply structural interface to solve problem by changing structures (like position) of interface objects, like functions & variables
+### apply structural interface to solve problem by changing structures (like position) of interface objects, like functions & variables
 
     - add functionality (or associated attributes) with components with base/core functions included, components which can be connected with user-defined functions
       - this can add functionality to products to reduce need for producing new versions
@@ -1888,13 +1888,13 @@
           - this is a way to abstract code (any function that can receive input data of that type) & code connections, delegating execution to code located with queries (find a function of this type or with this input/output) and modularize code as well as making it more connectible
       - task: identify the core functions/components that can generate required functionality for most user intents without introducing security flaws (making hacking devices less adjacently buildable than common legitimate use cases)
 
-## apply structural interface to identify relevant structures for an intent 
+### apply structural interface to identify relevant structures for an intent 
 
     - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
     - for 'connection' intents (identify/generate connection), a structure where components are only defined in terms of other components (by their relationships to other components), like a network or vector space
     - for 'differentiation' intents, a structure where the definition of difference is clear & applicable (can differentiate all different components)
 
-## apply structural & conceptual interfaces to apply structures of concepts into function to find prediction functions
+### apply structural & conceptual interfaces to apply structures of concepts into function to find prediction functions
   
     - apply structure of time (state) into algorithms (network state algorithm)
     - apply structure of hypnosis (multi-interface alignment) to algorithm (hypnotized algorithm is static & cant learn, which is an error type)
@@ -1926,7 +1926,7 @@
       - functions
         - apply error types to check a system for known optimizations (error types like 'structures that seem similar but are not')
 
-## apply structural interface to apply structural definition routes of adjacence (minimal units of work) to find efficiencies 
+### apply structural interface to apply structural definition routes of adjacence (minimal units of work) to find efficiencies 
 
 	- find efficiencies in core functions (multiply, find integral/derivative, find efficient method to calculate difference) by applying structures of adjacence (core functions) and clarity (isolatable structures, definitions)
 
@@ -1957,14 +1957,14 @@
 	                - find functions of differentiating values (positive/negative, multiplication) & attributes (value range allowing very different values) for new variable
 	                  - add variable of differentiating values to make overlapping 2d clusters clearly separable in 3d
 
-## apply structural interface to generate an assumption identification function
+### apply structural interface to generate an assumption identification function
 
     - define 'assumption' with alternate interfaces, like info/abstraction, filtering for assumptions that cause errors
       - definition route: any specific info is a potentially problematic assumption
       - example of an assumption: solving the problem by asking 'what function in the software caused the problem' assumes that the stack variable is a constant ('software' part of the stack), when really other variable values should be examined
       - since specificity is the root cause of the problematic assumption, remove specificity in the form of a constant by applying the opposite structure (change types to variable values)
 
-## apply structural interface to identify & apply optimal structures to connect problem & solution, using alternative definition routes & error structures
+### apply structural interface to identify & apply optimal structures to connect problem & solution, using alternative definition routes & error structures
 
     - original problem statement: 
       - 'object is over-reduced'
@@ -1994,7 +1994,7 @@
       - solution, formatted using distortion structures:
         - reduction function of the reduction function, applied to un-distort distortions ('differences from standard')
 
-## apply structural interface to apply structures of definition routes of a concept (usefulness) like conceptual attributes such as clarity/adjacence
+### apply structural interface to apply structures of definition routes of a concept (usefulness) like conceptual attributes such as clarity/adjacence
 
   - function to check a format for structures of usefulness/relevance like clarity, adjacence to determine usefulness/relevance of the format to a problem
     - check if 'difference from standard' is a useful (clear, adjacent) format for the problem 'object is over-reduced'
@@ -2090,7 +2090,7 @@
 
                       - other filters can then be applied, like intent (does the format make it more efficient to fulfill a problem-solving intent relevant to the problem)
 
-## apply structural interface to find connecting functions
+### apply structural interface to find connecting functions
 
   - integrate (align & connect) structures of functions on multiple interfaces:
 
@@ -2104,7 +2104,7 @@
       - using limits that bound other formulas as assumptions to reduce solution space
       - finding vertex variables of formulas & applying variations to generate other formulas
 
-## apply structural & info interfaces to apply question (info imbalance) structures to find answers to questions
+### apply structural & info interfaces to apply question (info imbalance) structures to find answers to questions
 
 	- questions have the structure of a possible connection sequence forming a path in the problem system, formatted as a network
 
@@ -2135,13 +2135,13 @@
               - can structures of interaction between variables a, b, c, or their attributes/functions/components create variable d
                 - apply structures (combinations, sequences) of interaction to variables a, b, c & their attributes/functions/components
 
-## apply structural definition routes to differentiate similar or related concepts
+### apply structural definition routes to differentiate similar or related concepts
 
 	- change: sequence of difference structures
 	- difference: non-equivalence on some metric
 	- variable: attribute capturing an isolatable change type
 
-## apply structural interface to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+### apply structural interface to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
 
     - the below 'reverse engineering' example uses the following filter query to determine relevance, reverse-engineering a definition of relevance that can be used to find relevant structures, a definition that is formatted as a set of filters, using a structural definition of relevance (similarity)
       - relevance = reverse(similarity => core => combine => not structural alignment => adjacence)
@@ -2168,7 +2168,7 @@
       - path (in the filter network, & also possibly a path in the problem structure network)
       - interfaces, structures, & definitions used ('questions' asked by the query, 'alternatives' used as 'approximations')
     
-## apply structural interface to identify consensus perspective between opposing perspectives
+### apply structural interface to identify consensus perspective between opposing perspectives
 	- transform a structure in each perspective to a structure in the target perspective
 	    - identify structure of attributes/functions/objects common to both perspectives
 	    	- connecting functions like: 'function connecting power and distribution', 'function describing dictatorship dynamics'
@@ -2177,13 +2177,13 @@
 	    - identify similarities in interface objects within structures
 	    	- similar change pattern in change type in connecting function: 'power favoring distribution', 'military coups after power abuses'
 
-## apply structural interface to identify an object like 'contradiction' (contradiction of a statement, formatted as a route between network nodes)
+### apply structural interface to identify an object like 'contradiction' (contradiction of a statement, formatted as a route between network nodes)
     - query for conditions that would convert some input, component, or output of the statement function route into some structure of falsehood (invalid, impossible)
     - example:
       - query for intents that would require movement in different directions than the statement function route requires
       - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
 
-## apply structural interface to structure to generate a particular structure/format (structure standardization)
+### apply structural interface to structure to generate a particular structure/format (structure standardization)
 
     - example of converting structures into vectors
       - many vector structures can represent interface structures
@@ -2192,7 +2192,7 @@
           - standard network structure translation: vectors to indicate direction of cause
           - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
 
-## apply structural interface to identify rules that violate a metric 
+### apply structural interface to identify rules that violate a metric 
 
     - requirement like: 
       - 'dont exacerbate inequalities'
@@ -2211,7 +2211,7 @@
       - these assumptions would disproportionately increase inequality's disadvantages in distribution
       - 'disadvantaging rules/assumptions' can be distributed more evenly or to offset inequalities
 
-## apply structural & change interfaces to find alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
+### apply structural & change interfaces to find alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
 
       - apply interfaces to find relevant structures
 
@@ -2267,7 +2267,7 @@
           - concepts
             - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
 
-## apply structural interface to solve an info problem
+### apply structural interface to solve an info problem
 
     - apply point structure: find examples
     - apply set structure: find combinations
@@ -2356,7 +2356,7 @@
               - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
               - so an implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
 
-## apply interface analysis to find optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
+### apply interface analysis to find optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
 
     - problem of finding optimizability in the form of a solvability limit of a problem, without knowing the answer
       - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
@@ -2465,7 +2465,7 @@
         - identify interaction structures (like trade-offs) between optimization metrics
           - find maximization of metric-optimization in those interaction structures
 
-## apply interface analysis to find alternative solutions for matrix multiplication problem
+### apply interface analysis to find alternative solutions for matrix multiplication problem
 
     - existing solution (apply multiplication method to smaller matrices) applies:
 
@@ -2554,7 +2554,7 @@
           - apply symmetry structures
             - apply symmetry structure of 'interim value one change unit away from multiple values - one being addable in the position of a coefficient'
 
-## apply interface analysis to connect problem & solution formats with interface query functions (including applying insight paths)
+### apply interface analysis to connect problem & solution formats with interface query functions (including applying insight paths)
 
 	- source problem input & target solution output formats 
 
@@ -2669,7 +2669,7 @@
               - an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
               - an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
 
-## apply interface analysis to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network type
+### apply interface analysis to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network type
 
 	- examples of interface structures relevant to neural network structures
 
@@ -2736,7 +2736,7 @@
 	              - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
 	              - time to check for a structure in the difference type index
 	      
-## apply solution automation insight paths to solve problem of 'find connecting function between math-language to generate a math-language map'
+### apply solution automation insight paths to solve problem of 'find connecting function between math-language to generate a math-language map'
 
 	- apply core structures like 'opposite' to interface components to generate a language map
 	    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
@@ -2781,7 +2781,7 @@
 	          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
 	            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
 
-## apply insight path to solve problem of 'find correct structure (sequence/position) for components'
+### apply insight path to solve problem of 'find correct structure (sequence/position) for components'
 
 	- insight path:
 	    - when generating solutions, identify:
@@ -2836,7 +2836,7 @@
             - other tests include:
               - minimize steps (did solution do any unnecessary steps)
 
-## apply insight path to solve problem of 'find factors to produce number without using multiplication of every combination'
+### apply insight path to solve problem of 'find factors to produce number without using multiplication of every combination'
 
     - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
     - problem: find factors of 28 without using multiplication of every combination (trial & error)
@@ -2879,7 +2879,7 @@
                       - some pairs are clearly too big to produce 28, without checking the product
                         - 11 x 12 is clearly too big, so can be removed from list of possible pairs
 
-## apply insight paths to find & apply cross-interface non-standard methods across systems to generate solutions
+### apply insight paths to find & apply cross-interface non-standard methods across systems to generate solutions
 
     - apply insight path: 'identify similar interface components (like concepts/structures) in other systems & solutions used to solve relevant problems in those systems, then convert & apply solutions from similar interface components to solve the problem in the original system'
       
