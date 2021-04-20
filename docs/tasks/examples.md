@@ -607,7 +607,7 @@
 	        - abstraction/info
 	        - question/definition
 
-## standard basic general insight paths (to apply structure to in order to make them specific to a context)
+## standard basic general insight paths (to apply structures to in order to make them specific to a context)
 
 	- trial & error
 	- reverse-engineering
@@ -1389,7 +1389,7 @@
 	          - filter by functions with a high number of inputs
 
 	  2. start with standardized problem definition
-	    - apply structure interface: apply structure to problem
+	    - apply structure interface: apply structures to problem
 	    - find/generate/build relevant solution automation workflows
 	      - generate a structure of relevant solution automation workflows to execute
 	        - tree of solution automation workflows
@@ -1409,12 +1409,12 @@
 	          1. find/build/derive structure of components (objects)
 	            2. apply structure of components
 	          3. find/build/derive structure to integrate components
-	            4. apply structure to integrate components
+	            4. apply structures to integrate components
 	          5. find/build/derive sub-problems of component structures
 	      - identify integration method of sub-solutions
 	        - integration method of solution automation workflow
 	          6. find/build/derive structure to integrate sub-solutions
-	            7. apply structure to integrate sub-solutions
+	            7. apply structures to integrate sub-solutions
 	          8. find/build/derive solution structures (filter, combination, reduction, connection) to optimize integrating/sub-solution structures
 	            9. apply solution structures to integrating/sub-solution structures
 	              10. change integrating/sub-solution structure to match additional solution structures
@@ -1447,7 +1447,7 @@
           - find structure to connect distance & data set structures, according to definitions
             - 'find a line whose perpendicular height to data point & parallel distance between adjacent data points form an area that is minimized across data points in the sets of variable value sets'
         
-        4. apply structure to integrate components
+        4. apply structures to integrate components
           - apply function structure to connect components
             - find specific functions to fulfill the component integration structure found in 3 (match the component integration structure & its specific application with the solution structure)
               - 'for each data point, calculate area between point & line, aggregating area at each iteration, then check for structure change to minimize aggregate area'
@@ -1466,7 +1466,7 @@
         6. find/build/derive structure to integrate sub-solutions
           - apply('function to minimize aggregate area', apply('function to aggregate area, apply('find function to calculate distance', apply('function to iterate data points', data points))))
 
-        7. apply structure to integrate sub-solutions
+        7. apply structures to integrate sub-solutions
           - execute the above function structure with injected calls to apply()    
             - apply() executes logic: 
               - find structure using param1 on param2      
@@ -1792,7 +1792,7 @@
 	        - how would this change type interact with other change types
 	        - does the environment system change enough to justify developing another or extra change types
 	        
-## apply structure to identify false info across user requests
+## apply structures to identify false info across user requests
     - apply intent interface: 
       - check with intent store (site) if a request for an intent (request password) was just made by the user, to validate messages
       - apply pattern interface: 
@@ -1839,7 +1839,7 @@
         - organization of competition in a problem market, for important optimizations only
         - market selection/optimization/automation
 
-## apply structure to components like technologies to find emergent trends
+## apply structures to components like technologies to find emergent trends
 
     - tech, standardized to common terms
       - movie: sensory info emotion triggers & info/abstract paths (stories)
@@ -2136,7 +2136,7 @@
 	- difference: non-equivalence on some metric
 	- variable: attribute capturing an isolatable change type
 
-## apply structure to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
+## apply structures to find alternative filters/routes & identifying optimal filter/route structure, as well as optimal starting point (origin), direction (target) & steps (queries) to generate them
 
     - the below 'reverse engineering' example uses the following filter query to determine relevance, reverse-engineering a definition of relevance that can be used to find relevant structures, a definition that is formatted as a set of filters, using a structural definition of relevance (similarity)
       - relevance = reverse(similarity => core => combine => not structural alignment => adjacence)
@@ -2180,7 +2180,7 @@
   
 ## combine core operations (rotate, connect, combine, shift, filter) to convert the base subset/limit functions building or used by a neural network into the output prediction function
 
-## apply structure to structure to generate a particular structure/format (structure standardization)
+## apply structures to structure to generate a particular structure/format (structure standardization)
 
     - example of converting structures into vectors
       - many vector structures can represent interface structures
@@ -2189,7 +2189,7 @@
           - standard network structure translation: vectors to indicate direction of cause
           - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
 
-## apply structure to identify rules that violate a metric 
+## apply structures to identify rules that violate a metric 
 
     - requirement like: 
       - 'dont exacerbate inequalities'
@@ -2584,7 +2584,7 @@
 	                - switch to value on other extreme
 	                - switch to value at origin/average
 	                - switch to multiple values
-	                  - apply structure to multiple values (set, network, sequence)
+	                  - apply structures to multiple values (set, network, sequence)
 	              - apply opposite structures to variables
 	                - intent: subvert expectations by changing attribute to opposite value
 	                  - change metadata (name) of something good to metadata (name) of something bad
@@ -2666,7 +2666,7 @@
               - an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
               - an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
 
-## apply interface structures to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network type
+## apply interface analysis to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network type
 
 	- organization structures represent applied concepts & structures like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc
     - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
@@ -2771,7 +2771,7 @@
 	          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
 	            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
 
-## apply insight path to solve a problem
+## apply insight path to solve problem of 'find correct structure (sequence/position) for components'
 
 	- insight path:
 	    - when generating solutions, identify:
@@ -2826,7 +2826,7 @@
             - other tests include:
               - minimize steps (did solution do any unnecessary steps)
 
-## apply insight path to solve problem of 'finding factors to produce number without using multiplication of every combination'
+## apply insight path to solve problem of 'find factors to produce number without using multiplication of every combination'
 
     - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
     - problem: find factors of 28 without using multiplication of every combination (trial & error)
@@ -2871,9 +2871,9 @@
 
 ## apply insight paths to find & apply cross-interface non-standard methods across systems to generate solutions
 
-    - apply insight path: 'identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system'
+    - apply insight path: 'identify similar interface components (like concepts/structures) in other systems & solutions used to solve relevant problems in those systems, then convert & apply solutions from similar interface components to solve the problem in the original system'
       
-      - applying concept of 'bias' used to fulfill intent of 'creating a truth filter'
+      - apply concepts of agency like 'bias' to fulfill intent of 'creating a truth filter' in non-agent systems
         - bias is usually used to evaluate intentions of agents when interacting with other agents with some level of variance in agent identities
         - after abstracting intentions as decision/function triggers:
           - apply bias as a truth filter to determine non-agent change/function triggers
@@ -2881,22 +2881,21 @@
             - example: bias can have a core error structure like 'over-prioritizing locality', which can be converted into the concept of 'adjacence' as a core structure to use when solving the bias-causing problems of 'minimizing cost' or 'limited info', or when identifying structures that can be used as truth filters, which can be formatted as 'low-cost or otherwise adjacent distortions are likelier to be false info'
           - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to the problem-solving intent of identifying truth
 
-    - queries to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
+    - queries to generate insight path to find useful structures to apply across systems, for a general problem-solving intent like 'truth filtering'
 
       - apply insight path: 'apply insight paths to generate insight paths'
 
-        - find structures with 'truth filtering' intent in solution (source) system
-          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
-            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
-
-        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
-          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
-            - apply bias/interface metadata (intent) to target system components
-              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
-
-            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
-              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
-              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
+      	- insight path: find structures for the same intent in other systems, connect structures between systems, & apply matching structures to original system
+	        - find structures with 'truth filtering' intent in solution (source) system
+	          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
+	            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
+	        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
+	          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
+	            - apply bias/interface metadata (intent) to target system components
+	              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
+	            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
+	              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
+	              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
 
       - standard interface query 
 
