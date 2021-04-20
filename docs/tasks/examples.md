@@ -99,7 +99,7 @@
 					- usable resources
 					- efficient resources
 
-		- causative potential
+		- power (causative potential)
 			- core structures
 			- important (highly causative/generative/limiting) structures like vertexes & symmetries
 
@@ -142,7 +142,7 @@
 	                    - it cant identify/handle external stressors quickly without building functionality to offset that error, like an alarm system to get info to the center faster
 	                    - it cant quickly generate new outer positions like it can generate new adjacent positionss
 
-	- generating error types
+	- another method of generating error types
 	    - apply core structures to problem components
 	      - lack error type
 	        - lack of resource
@@ -211,65 +211,73 @@
 	          - bias error type structures:
 	            - variable combinations/connections that should be disassociated
 
-    - when should errors be allowed to continue: 
-      - when they dont impact system functionality, dont interact with other errors to form cascades/compounding errors, and provide useful signals of unhandled variance
-    - when should motion be allowed in the direction of risk (risk of error types): 
-      - when uncertainties exist between alternatives
+	- error rules
 
-    - flexible abstract/conditional/temporary error definitions to allow for beneficial errors & error-correcting errors
-      - example: 
-        - 'two wrongs make a right'
-          - when a robot instructed to go in a direction is forced off its trajectory by the first error, it has to make another error to get back on track, if an error is defined as 'motion in any direction different from original planned direction'
-          - a solution is a definition of error types that is:
-            - abstract: any intentional motion that brings robot nearer to its goal is not an error
-            - conditional: any motion to correct an external error is not itself an error
-            - temporary: motion in a direction different from planned direction sequence is not an error in some temporary contexts
-  
-### specific error structures, including stupidity structures (with components like bias)
+    	- when should errors be allowed to continue (when should motion be allowed in the direction of risk (risk of error types))
+     		- when they dont impact system functionality, dont interact with other errors to form cascades/compounding errors, and provide useful signals of unhandled variance
+     		- when uncertainties exist between alternatives
 
-  - apply anti-stupidity structures to neural network structure 
-    - lack of learning functionality
-      - inability to remember (identify relevant info quickly when new info isnt necessary)
-      - inability to identify relevance structures (meaning, usefulness, direct causation)
-      - inability to optimize (identify a quicker route to an insight, like an insight path)
-      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
-      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
-      - inability to direct thoughts (focus)
-      - inability to forget sub-optimal/inaccurate rules (bias)
-        - function to apply bias structures to a neural network structure
-          - thinking benefits from bias removal
-          - remove bias structures in neural networks to improve their thinking capacity
-          - example
-            - apply removal of 'simplicity' bias in a neural network structure
-              - simplicity (specifically over-simplification) definition on structural interface: 
-                - lossy lower-dimensional representation
-                - low-cost representation with relatively reduced learning reward
-              - the simplicity bias shows up in a neural network structure in many possible positions
-                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
-                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
-                - general default params also tend to store simplicity where it's not needed
-            - apply removal of 'similarity' bias 
-              - similarity bias structural definitionss
-                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
-              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
+	    - apply flexible abstract/conditional/temporary error definitions to allow for beneficial errors & error-correcting errors
+	      - example: 
+	        - 'two wrongs make a right'
+	          - when a robot instructed to go in a direction is forced off its trajectory by the first error, it has to make another error to get back on track, if an error is defined as 'motion in any direction different from original planned direction'
+	          - a solution is a definition of error types that is:
+	            - abstract: any intentional motion that brings robot nearer to its goal is not an error
+	            - conditional: any motion to correct an external error is not itself an error
+	            - temporary: motion in a direction different from planned direction sequence is not an error in some temporary contexts
+	  
+	- specific error structures, implemented with agency error structures (like stupidity, with components like bias)
 
-  - bias structures: 
-    - bias cycle: where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
-      - saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
-      - the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
-    - conflating stereotype ('false statement about a group') with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
-    - stupidity manifests as similar structures (fulfillment of low expectations) across groups in response to low expectations, leading to feedback loop
+	  - apply anti-error (anti-stupidity) structures to optimize neural network structures
+	    - lack of learning functionality
+	      - inability to remember (identify relevant info quickly when new info isnt necessary)
+	      - inability to identify relevance structures (meaning, usefulness, direct causation)
+	      - inability to optimize (identify a quicker route to an insight, like an insight path)
+	      - inability to model structures (enough memory to store a different structure, ability to explore/change it like a visualization)
+	      - inability to simulate difference structures (contradictions, paradoxes, lack of similarity)
+	      - inability to direct thoughts (focus)
+	      - inability to forget sub-optimal/inaccurate rules (bias)
+	        - function to apply bias structures to a neural network structure
+	          - thinking benefits from bias removal
+	          - remove bias structures in neural networks to improve their thinking capacity
+	          - example
+	            - apply removal of 'simplicity' bias in a neural network structure
+	              - simplicity (specifically over-simplification) definition on structural interface: 
+	                - lossy lower-dimensional representation
+	                - low-cost representation with relatively reduced learning reward
+	              - the simplicity bias shows up in a neural network structure in many possible positions
+	                - for example, a pooling function, which has no reason to aggregate other than adjacence, which may not be an indicator of relevance
+	                  - find the structures that can build/derive/apply/store relevance and remove structures with artificial relevance
+	                - general default params also tend to store simplicity where it's not needed
+	            - apply removal of 'similarity' bias 
+	              - similarity bias structural definitionss
+	                - relatively adjacent in variable values according to a distance metric applicable & relevant to that variable
+	              - the similarity bias shows up when adjacent structures are given relevance/meaning that they may not actually be capable of storing/building/deriving, like subsets of inputs or clustering thresholds
 
-  - identify bias structures as output of operations on structures, or by missing structures that cause bias
-    - bias is a filter that leaves out relevant information
-    - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
-      - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
-  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
+	  - bias structures: 
+	    - bias cycle: 
+	    	- where specifically/partially false statements are falsely categorized as completely false, which triggers increase in distorted view of the group making the miscategorization error
+	     	- saying a specifically/partially false negative thing about a group often has a partially true sentiment backing it (most people in any group do negative behaviors enough to trigger negative sentiments), so even if the specific negative thing is wrong, the sentiment might not be
+	     	- the lack of acknowledgement of their own negative behaviors by the group saying the specifically/partially false statement also triggers the same response in the group making the miscategorization error (the group saying the specifically/partially false statement is doing a negative behavior, so the miscategorizing group has a negative sentiment about them, and often says specifically/partially false negative things about the group)
+	   		- conflating stereotype ('false statement about a group') with 'a statement about a group that is more true of a higher ratio of that group than it is of other groups'
+		    - stupidity manifests as similar structures (fulfillment of low expectations) across groups in response to low expectations, leading to feedback loop
 
-## info asymmetry
-	- associated with an info loss ('missing' or 'gap' structure) in a particular direction between info types/formats/positions, rather than just an info imbalance or a mismatch
+	  - identify bias structures as output of operations on structures, or by missing structures that cause bias
+	    - bias is a filter that leaves out relevant info
+	    - 'facts without connection to meaning' is a biased priority (current state of truth) and a biased lack (ignoring potential truth & potential connections that change the meaning/position of facts)
+	      - example: if you just focus on data set facts, you miss other facts (contradictions, counterexamples, alternative conditional variables/functions), as well as opportunities to derive other facts from the data set (given the favorability of the data set to influential entities, we can derive a guess that other facts might imply a different conclusion), and the connections between the data set facts & other facts (other facts imply a different cause than the data set facts) as well as the meaning of those connections (why this data set was selected)
+	  - neural network with anti-bias structures built in (a complexity structure, a difference structure, etc) to correct error types from common biases
 
-## difference vs. similarity
+## info error structures
+
+	- info asymmetry
+		- associated with an info loss ('missing' or 'gap' structure) in a particular direction between info types/formats/positions, rather than just an info imbalance or a mismatch
+
+	- info imbalance
+		- a lack of equal distribution of info across positions
+		- related to the 'incentive' problem type, like incentives to maintain info imbalances to profit from lack of info leading to sub-optimal decisions
+
+## opposite/difference vs. equivalent/similarity structures
 
     - similarities between difference & similarity
       - distance metric
@@ -296,7 +304,7 @@
         - a lack of an object can be used like other gap structures are used (as a filter, container or template)
         - an object can be used as a component or other base object to use as an input
 
-    - this is why differences are not just the 'opposite of similarities' - it leaves out information like:
+    - this is why differences are not just the 'opposite of similarities' - it leaves out info like:
       - similarities of varying relevance between similarity & difference (both use a distance metric)
       - the reason why a difference is used vs. a similarity (like 'filtering' intents)
       - emergent/adjacent/relevant structures of similarity & difference, embedded in different structures (position/spectrum)
@@ -307,10 +315,11 @@
       - similarities may have similarities to each other, more than similarities to differences
       - randomness has a similarity (in outcome probability), but is better than similarity as an input to generate difference structures like uncertainty
 
-## uncertainty structures (like randomness collisions) & structures that produce certainty (combinations that stabilize)
+## uncertainty structures (like randomness collisions) & structures that produce certainty (combinations that stabilize into info)
+
     - randomness collisions generate structure
-      - structure being the stabilized interaction of information (staying constant long enough to attain structure)
-      - randomness being a lack of information (like a star or circle with equally likely directions of change)
+      - structure being the stabilized interaction of info (staying constant long enough to attain structure)
+      - randomness being a lack of info (like a star or circle with equally likely directions of change)
         - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
       - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
 
@@ -358,26 +367,25 @@
     	- placing the most-reductive solution filter first, if the info required for that filter is already available
     	- placing a filter after another filter that generates/identifies the info required for the second filter
 
-### example of applying multiple filters to reduce solution space
-
-    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
-      - find similarity to type 'dog' and type 'cat'
-        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
-          - apply base structures (random, core, common, etc)
-            - apply path structures (how many steps from a base to produce a clear answer)
-          - apply opposite structures (what is not a cat, what is not a dog)
-          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
-          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
-          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
-          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
-          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
-          - apply system structures (what contexts normally go with 'cat')
-          - apply change/distortion structures (what distortions are often applied to cats or dogs)
-              - apply alternative path structures & network structure
-                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
-                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
-                    - re-apply similarity structures to boundaries (is this within the cat path region)
-                    - apply pattern structures (does this match cat path patterns)
+	- example of applying multiple filters to reduce solution space
+	    - example of where a structural similarity could be used as an initial filter (in a dog vs. cat categorization algorithm)
+	      - find similarity to type 'dog' and type 'cat'
+	        - in cases where similarities point to equivalent probabilities for each category, apply additional filtering structures than similarities
+	          - apply base structures (random, core, common, etc)
+	            - apply path structures (how many steps from a base to produce a clear answer)
+	          - apply opposite structures (what is not a cat, what is not a dog)
+	          - apply filtering structures (both/neither) - (what are cats/dogs both or neither of)
+	          - apply structures of difference (what comes from a different origin/cause, like causes of evolving dog functions)
+	          - apply state/time structures (could this become a dog or could it have been a dog previously according to definitive attributes/functions)
+	          - apply variance structures (does this have variance from the cat base or following cat variance patterns)
+	          - apply agency/group structures (what groups do cats belong to or which groups are they found with)
+	          - apply system structures (what contexts normally go with 'cat')
+	          - apply change/distortion structures (what distortions are often applied to cats or dogs)
+	              - apply alternative path structures & network structure
+	                - how many different paths could this data produce a dog category? (how to get to 'dog' answer using that particular data)
+	                  - apply boundary structures in network (cat type path set or path region, dog type path set or path region)
+	                    - re-apply similarity structures to boundaries (is this within the cat path region)
+	                    - apply pattern structures (does this match cat path patterns)
 
 ## solution filters for specific problems
 
@@ -390,7 +398,7 @@
 		    - examples
 		    - statistics like average examples within a type
 
-	- problem: create successful AI algorithm to identify probability of solution success
+	- problem: create successful AI algorithm to identify probability of a particular solution's success
 
 	  - solution metric filters:
 
@@ -398,7 +406,7 @@
 
 		    - interface query structure (sequence)
 
-		      - query: identify 'value' as the vertex variable
+		      - query: identify vertex variables (like 'value')
 
 		      - query: identify input variables determining value: 
 		        - location
@@ -452,7 +460,7 @@
     - variable count/size (under-complexity, fragmentation, lack of smoothness/curvature)
     - wrong context for a pattern
     - over-repetition
-    - over-similarity to previous information (lacking expected change structures, like change trajectory & types)
+    - over-similarity to previous info (lacking expected change structures, like change trajectory & types)
     - no matching reason/intent/priority for deviations from archetypes/patterns
     - over-correction when integrating a variable
     - variables identified in isolation
@@ -467,6 +475,7 @@
 # insight path examples
 
 ## example of mathematized insight path 
+
     - standardize variables to math interface structures & values
       - apply type interface
         - identify types
@@ -518,6 +527,7 @@
 	    - problem/solution
 	      - similar/different
 	        - nothing/something, container/component, negative/positive, equal/opposite
+	        - lack of structure/structure (mix, map, circuit, filter, value, position)
 	        - balance/imbalance
 	        - equivalence/comparison
 	        - interaction/isolation
@@ -550,7 +560,7 @@
 	      - uncertainty/certainty
 	        - probability/outcome
 	        - random/structured
-	        - abstraction/information
+	        - abstraction/info
 	        - question/definition
 
 ## standard basic general insight paths (to apply structure to in order to make them specific to a context)
@@ -583,9 +593,9 @@
 						- intent: substitute source with target value & reverse-engineer source value
 							- intent: filter components by equivalent components of source/target values
 
-## efficient insight paths (using fewest resources, with relatively good accuracy)
+## insight paths optimizing for an attribute like efficiency (using fewest resources, with relatively good accuracy)
 
-### identify interface object set necessary to get good approximate prediction results with existing algorithms & params
+- identify interface object set necessary to get good approximate prediction results with existing algorithms & params
 
     - find the abstraction level or definitions necessary to get an approximation of system or conceptual analysis with a standard data set 
       - definitions may include structures of relevance, like structures of similarity/difference
@@ -601,7 +611,7 @@
 
 ## solution automation workflow insight path examples
 
-	- solve problem by finding/generating/deriving efficiencies in a problem system (like calculation efficiencies), then applying coordinating structures of those (like a sequence connected by coordinating inputs/outputs) as initial solution methods to refine with solution metric filters
+	- solve problem by finding/generating/deriving solution structures like relevance (usefulness) with structures like efficiencies (usefulness through adjacence) in a problem system (like calculation efficiencies), then applying coordinating structures of those (like a sequence connected by coordinating inputs/outputs) as initial solution methods to refine with solution metric filters
 	- solve problem by changing structures (like position) of interface objects, like functions & variables
 	- use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
 	- identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system
@@ -673,7 +683,46 @@
 
 # generate solution automation workflow insight paths
 
-## specific insight paths to generate solution automation workflows using structural definitions of core problem/solution components like similarity/difference, relevance, truth, & cost
+## insight paths that generate insight paths (like solution automation workflows)
+
+    - identify patterns in structures allocating structure (constants) & lack of structure (variation) in interface queries to find new insight paths
+      - example: 
+        - variation (like variables) allocated to structure & info interfaces, & constants (like definitions) allocated to the intent/concept interfaces
+    
+    - identify patterns in connecting structures as core components of interface queries (build interface queries with interface-connecting structures)
+      - examples:
+        - intent & function interfaces are connected as metadata & trigger structures, so the triggering structure can be followed by the triggered structure in interface queries
+    
+    - identify patterns of finding/selecting interaction levels for an interface query
+      - examples: 
+        - core functions linking these interfaces
+        - structural versions of core functions linking these interface objects
+        - abstract network of an interface used for interface queries
+        - cross-interaction level conversion function applied before other interface query steps
+
+    - example: 
+      apply the insight path:
+        'select commonly useful system objects for find problems' 
+      to the problem:
+        'find rules that fit a system such as a context'
+      after applying standard interface variables like:
+        - abstraction, intent, reusability, & complexity
+      to get system object filters from relevant problem interface object metadata like intents:
+        - problem intents: find, fit
+      which can be used as a filter to selected system objects
+        - 'fit' intent requires a structural similarity
+      with actual parsed query like:
+      - apply system object 'structural similarity' to find structural similarities in the problem system ('find rules that fit a system such as a context') after applying standard interface variables
+        - iterate through standard interface variables
+          - apply 'simplicity' to problem system
+            - output: 'simple' rules, 'simple' systems (and sub-type of system 'simple' context)
+          - iterate through system objects to find sources of efficiency in assembling a solution query
+            - apply 'structural similarity' to problem system
+              - output: structural similarity between 'simple rules' and 'simple system'
+          - integrate output with original problem system to generate solution automation interface query for problem
+            - apply 'simple' rules (as a source of efficiency) in finding rules fitting a 'simple' system
+
+## generate solution automation workflows using structural definitions of core problem/solution components like similarity/difference, relevance, truth, & cost
 
 	- the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance'
 	- so the point is to identify solution structure & find the interface where similarities & differences in problem/solution structure are clear and the problem/solution structures can be adjacently connected
@@ -684,8 +733,20 @@
 
 		- apply definition routes of cost as a core structure of efficiency, which is a core structure of optimization
 			- identify solution steps or solution(s) that optimize a definition of cost/reward
-				- definition route of cost on an interface like information would be an 'information loss', where a reward/benefit would be an 'information gain'
+				- definition route of cost on an interface like info would be an 'info loss', where a reward/benefit would be an 'info gain'
 				- definition route of cost on structural interface would be 'position change in direction away from target position', where a reward would be a 'position change in direction toward target position'
+
+	- combine problem structures & match with solution structures
+
+	    - combine problem types
+	      - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
+	    - combine structures & connect structure combinations by problem types
+	      - the structure combination of 'a sequence injected in a network' is a structure matching a 'route finding problem', so apply solution structures that find a route in a network, such as filters using metrics or rules that can filter routes by which routes dont contradict rules
+	        - the solution automation workflow is 'find structures relevant to resolving problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
+	        - the workflow matches 'sequence in a network' with 'route filtering structures', connected by the problem format 'find a route'
+	    - combine structures & core functions
+	      - the structure of the core function sequence(find, apply, build, filter) = matches solution automation workflows like 'find components which, when this function is applied, can construct this structure, complying with these solution metric filters'
+	    - combine components of solution automation workflows (functions, queries, interfaces, problems/solutions, structures) that have a valid input/output sequence
 
 ## generate solution automation workflows by permuting variables of problems/solutions
 
@@ -792,45 +853,6 @@
       - allocation of uncertainty & variation
         - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
 
-## generative insight paths that generate insight paths (like solution automation workflows)
-
-    - identify patterns in structures allocating structure (constants) & lack of structure (variation) in interface queries to find new insight paths
-      - example: 
-        - variation (like variables) allocated to structure & info interfaces, & constants (like definitions) allocated to the intent/concept interfaces
-    
-    - identify patterns in connecting structures as core components of interface queries (build interface queries with interface-connecting structures)
-      - examples:
-        - intent & function interfaces are connected as metadata & trigger structures, so the triggering structure can be followed by the triggered structure in interface queries
-    
-    - identify patterns of finding/selecting interaction levels for an interface query
-      - examples: 
-        - core functions linking these interfaces
-        - structural versions of core functions linking these interface objects
-        - abstract network of an interface used for interface queries
-        - cross-interaction level conversion function applied before other interface query steps
-
-    - example: 
-      apply the insight path:
-        'select commonly useful system objects for find problems' 
-      to the problem:
-        'find rules that fit a system such as a context'
-      after applying standard interface variables like:
-        - abstraction, intent, reusability, & complexity
-      to get system object filters from relevant problem interface object metadata like intents:
-        - problem intents: find, fit
-      which can be used as a filter to selected system objects
-        - 'fit' intent requires a structural similarity
-      with actual parsed query like:
-      - apply system object 'structural similarity' to find structural similarities in the problem system ('find rules that fit a system such as a context') after applying standard interface variables
-        - iterate through standard interface variables
-          - apply 'simplicity' to problem system
-            - output: 'simple' rules, 'simple' systems (and sub-type of system 'simple' context)
-          - iterate through system objects to find sources of efficiency in assembling a solution query
-            - apply 'structural similarity' to problem system
-              - output: structural similarity between 'simple rules' and 'simple system'
-          - integrate output with original problem system to generate solution automation interface query for problem
-            - apply 'simple' rules (as a source of efficiency) in finding rules fitting a 'simple' system
-
 ## generate solution automation interface query
 
     - iterate through interface objects (change type, problem type, assumptions, etc)
@@ -849,19 +871,7 @@
       - check for relevant change-aggregation objects in structure (event objects in a sequence structure)
         - significant date (upgrade, reboot) was within original mtime param which could be a factor in error so mtime param is necessary
 
-## generate solution automation workflows
-
-    - combine problem types
-      - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
-    - combine structures & connect structure combinations by problem types
-      - the structure combination of 'a sequence injected in a network' is a structure matching a 'route finding problem', so apply solution structures that find a route in a network, such as filters using metrics or rules that can filter routes by which routes dont contradict rules
-        - the solution automation workflow is 'find structures relevant to resolving problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
-        - the workflow matches 'sequence in a network' with 'route filtering structures', connected by the problem format 'find a route'
-    - combine structures & core functions
-      - the structure of the core function sequence(find, apply, build, filter) = matches solution automation workflows like 'find components which, when this function is applied, can construct this structure, complying with these solution metric filters'
-    - combine components of solution automation workflows (functions, queries, interfaces, problems/solutions, structures) that have a valid input/output sequence
-
-## example of insight path to generate a solution insight path for a problem
+## insight path to generate a solution insight path for a problem
 
     - apply solution structures like:
       - balance between supply/demand
@@ -897,6 +907,13 @@
       - 'find alternatives to solving a problem (delegation, solving abstract version)' :: ignore specific solutions or move problem position
       - 'identify problem type & apply related known solutions' :: assume problem type can be identified & covers enough of the problem & is abstract enough to apply related solutions with effective impact
 
+## insight path to generate a solution automation workflow from a solution-problem connecting insight path
+	- once a solution is found, a solution automation workflow can be derived (and checked for uniqueness, compared to stored solution automation workflows or inputs/variables of generative functions of solution automation workflows) from the path taken from problem to solution (with general workflows like removing the problem, converting the problem into a solution with connecting functions, or generate the solution from solution components)
+		- this can be done with abstraction & connection to defined components
+			- example: if a solution like 'find the difference in these two values, then apply this operation to get the output' is found through a less optimal method like trial & error, abstract the method & standardize it to interface components so it can be integrated with the generative functions of solution automation workflows
+				- abstracted & standardized to interface components: 
+					- find (change types and/or system structures like differences) in problem space, then find connecting structures of structured values & output structures
+
 # interface query design logic examples
 
 ## example of advantages of applying alternate interfaces, for selecting interfaces
@@ -930,17 +947,17 @@
     - intent: future direction with benefit to agency
     - cause: preceding inevitability requirement in sequential structure
     - function: structure of task structures (conditions, assignments, iterations) consistently connecting input & output
-    - logic: function to connect information using info structures (definitions, inevitability, pattern-matching, exclusive/inclusive conditions, requirements, assumptions)
+    - logic: function to connect info using info structures (definitions, inevitability, pattern-matching, exclusive/inclusive conditions, requirements, assumptions)
     - potential: structures like combinations not certainly excluded by requirements
     - change: difference in an attribute value, according to a base (time, relative change, change type)
     - abstraction: general pattern of a specific structure set
     - pattern: a set of connecting functions, often in a sequence structure
     - structure: connections & change of measurable change & difference types
-    - information: specific description of a structure
+    - info: specific description of a structure
     - math: description-connecting functions
     - system: structure of independence, often having boundary, function & other component structures, at a particular interaction level
 
-## multiple queries for low-information problem statements
+## multiple queries for low-info problem statements
 
     - use parallel/perpendicular insight paths, for insight paths that add info that the other is less/more likely to retrieve
 
@@ -978,7 +995,7 @@
           - required inputs:
             - problem is 'find a relationship between functions for calculation optimization intent', solution format is 'connecting function', interface query should involve 'connecting' functions, which are a required input to solution format of a 'function to connect functions that optimizes calculation efficiency'
         - this can optimize for problem/solution metadata, as well as general problem-solving methods
-          - optimize for problem type: interface query for 'missing information' problem type should include the 'similarity/difference' sub-interface on the 'structure' to identify 'opposite' structures like 'what is not there'
+          - optimize for problem type: interface query for 'missing info' problem type should include the 'similarity/difference' sub-interface on the 'structure' to identify 'opposite' structures like 'what is not there'
           - optimize for solution format: interface query for a problem with solution format 'prediction function' should include either causal, potential, change, or function or structure.network interface, all of which can generate a structure connecting the in/dependent variables
             - causal: organize variables with causal diagram having direction & check for predictive ability (identifying correlation, applying causal structures like moving/deactivating variables, using variable proxies or aggregate variables) to filter diagram for probable causation
             - potential: identify potential alternatives (variable sets not in data set, randomness explanation) and filter if possible, possibly leaving original data set as last remaining solution
@@ -1000,14 +1017,14 @@
 	    - to predict an optimal function of variables in a system, & with system info & intents mapped in the system, start with vectorization of the problem space
 	    - to find a path across a variance gap or use unused variance, & with system info, start with modeling gaps in the problem systems as solutions
 	    - to find a quick approximation of system understanding & without time for system derivation, start with interface derivation
-	    - with specific information about objects in the system, & without a few relationships, use queries on the object model
+	    - with specific info about objects in the system, & without a few relationships, use queries on the object model
 
 	- connecting problem & solution formats has a set of workflows based on structure & adjacent solution automation workflows that can direct the interface query design by the requirements of the steps in those workflows
 	    - examples:
 	        - connecting a problem of 'too much structure' and solution of 'reduced structure' has a workflow involving steps like 'reduce variables', with requirements like 'variables', so the function or change interface can be applied to identify variables before executing that step in the workflow
 	        - connecting a problem & solution with a particular solution automation workflow also has input requirements, like 'break a problem into sub-problems' workflow, which requires that structure of variables (error/differences) are identified (to identify sub-problems), so applying the structural, function, or system interface is necessary to identify those structures which act as sub-problems
 	    - interaction structures allow interactions to develop but are different from interfaces/standards that specifically enable communication/comparison interaction types, despite interaction structures acting as a connecting structure which has structural similarities to communication, communication being the exchange of info that is interpretable & actionable to source/target
-	    - find equidistant point to information to start parallel interface queries from
+	    - find equidistant point to info to start parallel interface queries from
 
 	- connecting problems & solutions with error types (opposite of connecting with solution types)
 		- associate error types (with interface metadata like intents, causes, structures) with problem & solution types, to identify connections like:
@@ -1183,12 +1200,12 @@
 
         - query-stopping condition is where its clear the data cant:
           - fulfill the optimization metric or fulfill it more
-          - find the information or find any more
+          - find the info or find any more
         
       - meta conditions
 
         - query-invalidating condition is where the data set invalidates the concept of variation or data 
-          - when a query has identified type/relationship/pattern information invalidating the data
+          - when a query has identified type/relationship/pattern info invalidating the data
           - when the data is not a source of truth (state has changed but data has not & has no variation and is not data anymore, if data is a source of truth)
           - when a query has identified a function to reduce the variation/data without losing info
             - or create a function to do so
@@ -1245,11 +1262,11 @@
 
     - general method: 
     	- apply general solution automation workflow insight path:
-    		- 'apply problem interface (standardize problem, identify problem types & sub-problems) or core interface (generate problem types), apply structural & information interfaces (to find structural, specific info implementations of problem types relevant to the problem space), then look up solutions to those specific or general problem types, sub-problems & structures, & apply solution filters'
+    		- 'apply problem interface (standardize problem, identify problem types & sub-problems) or core interface (generate problem types), apply structural & info interfaces (to find structural, specific info implementations of problem types relevant to the problem space), then look up solutions to those specific or general problem types, sub-problems & structures, & apply solution filters'
     	- with specific interface query:
 	    	- apply info interface (problem definition) to identify problem metadata like cause & find problem metadata like problem cause types, or apply core interface to generate problem types, or retrieve index of problem types in data store
 	    	- find problem types causes (problem types caused by problem types)
-	    	- identify known possible information problem types (specific problems in problem space)
+	    	- identify known possible info problem types (specific problems in problem space)
 	    	- match error types with info problem types by applying structure to error types ('missing resource' => 'missing function input info')
 	    	- find matching solutions for error types once linked to info problem types ('generate default param value', 'predict probable param value')
 	    	- filter solutions with filters like 'completeness of error types handled ('solution that handles multiple missing resources (missing function inputs & missing code dependencies)')
@@ -1279,7 +1296,7 @@
           - lack of rule enforcement (function/responsibility mismatch, expectation/usage mismatch)
           - lack of intent restriction for using a function (intent mismatch)
 
-      - filter caused error types by which generated errors would cause specific (information) problem types (process failure, access vulnerability, corrupt data)
+      - filter caused error types by which generated errors would cause specific (info) problem types (process failure, access vulnerability, corrupt data)
 
       - identify specific errors of filtered caused error types, organized by interface
         - lack of intent restriction for using a function
@@ -1291,7 +1308,7 @@
           - unhandled function inputs
           - granting cache access to unauthorized scripts
 
-      - match specific interface (intent, structural) error types with specific (information) problem types (apply information interface to error types)
+      - match specific interface (intent, structural) error types with specific (info) problem types (apply info interface to error types)
         - lack of intent restriction
           - breaking input/output sequence for later functions
             - injecting function with less validation in function chain
@@ -1309,7 +1326,7 @@
       
 ## example of alternate interface queries 
 
-	- interface queries are structures generated by the program in response to a user request for information, to find/derive/generate information, such as how to connect two information structures/formats
+	- interface queries are structures generated by the program in response to a user request for info, to find/derive/generate info, such as how to connect two info structures/formats
 
 	- alternate interface queries
 
@@ -1477,7 +1494,7 @@
 
 ## interface queries for problem 'find a prediction function'
 
-	- apply information (definition) interface
+	- apply info (definition) interface
 		- apply error definition routes/attributes/functions/objects/structures
 			- identify error types for problem 'find a prediction function' to use as filters of solution space
 			    - false equivalence
@@ -1511,10 +1528,10 @@
       - find solution filters
         - find range of error allowed for solution
       - convert to problem interface
-        - predict missing info 'future state of variables' with input 'past information'
+        - predict missing info 'future state of variables' with input 'past info'
         - standardize to structural interface
           - find vertex concepts
-            - 'find prediction function' using past information involves:
+            - 'find prediction function' using past info involves:
               - risk structures like: possibility that an unknown structure is causative
               - randomness structures like: possibility that known structures will be distorted by randomness
               - change structures like: possibility that known structures will change & info needs to be found/derived to update variables
@@ -1611,7 +1628,7 @@
       - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
 
     - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
-      - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable information into a system of understanding
+      - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable info into a system of understanding
         - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
 
     - can probably be adjacently derived from subatomic particle interactions, which implement the core objects of interfaces like cause & potential
@@ -1676,21 +1693,21 @@
 
 ## apply an interface to an interface
 
-	- apply information & physics interface to math interface 
+	- apply info & physics interface to math interface 
 
 		- math is a connecting interface of abstraction & structure bc it maps fundamental structures to abstractions
 		    - math describes info (stabilized structures) 
 		    - relevant questions:
 		    	- what structures have stabilized in the math interface, so math can be applied to describe stabilized structures of math
 
-		- math interface as information (certainty) physics, specifying:
+		- math interface as info (certainty) physics, specifying:
 		    - what can be known/calculated & approximated
 		    - what can be predicted
 		    - what certainties can be connected using numerical relationships (like how logic specifies what inferences/conclusions can be connected)
 
-		    - determine what can be calculated by applying information & physics interfaces 
-		      - when information doesnt exist, math cannot solve the problem
-		        - with information defined as 'stabilized energy storage', at what point does the definition of information break down:
+		    - determine what can be calculated by applying info & physics interfaces 
+		      - when info doesnt exist, math cannot solve the problem
+		        - with info defined as 'stabilized energy storage', at what point does the definition of info break down:
 		          - type level interactions
 		            - gaps in the possible change ranges of symmetries
 		          - structural changes
@@ -1698,7 +1715,7 @@
 		          - incorrect assumptions
 		            - reversibilities in time symmetries, or symmetries that are theoretically irreversible without a concept of symmetry operations
 		            - constants like inevitabilities, absolute (acontextual) impossibilities, or limits on variable value ranges
-		            - limits in how information overflows (info that cannot be stored in an existing structure) can be predicted (structures built to store it)
+		            - limits in how info overflows (info that cannot be stored in an existing structure) can be predicted (structures built to store it)
 		              - building different info storage structures (different from brains, networks, topologies, matrices, & probabilities, like interfaces & superpositions) can change how patterns of uncertainty-to-certainty conversion (like with uncertainties n degrees away from pre-existing certainties) occur & their probabilities of occurring
 		          - missing dependencies
 		            - gaps in conditions enabling energy storage (definition of a fraction is stable while the numerator/denominator are still defined, complex numbers defined using the definition of square root of -1), creating a symmetry of stability, where the efficiency created by core functions of a new interface can dissolve once the functions buildable with core functions overflow the interface, so functions may dissolve to randomness when absorbed by other systems
@@ -1769,7 +1786,7 @@
 	        - how would this change type interact with other change types
 	        - does the environment system change enough to justify developing another or extra change types
 	        
-## apply structure to identify false information across user requests
+## apply structure to identify false info across user requests
     - apply intent interface: 
       - check with intent store (site) if a request for an intent (request password) was just made by the user, to validate messages
       - apply pattern interface: 
@@ -2102,7 +2119,7 @@
             - apply structural interface structures
               - apply filter structure
                 - identify matrix cases where these operations are inefficient or unusable
-                  - identify operations/information needed to determine inefficiency/unusability of this solution
+                  - identify operations/info needed to determine inefficiency/unusability of this solution
                     - apply function to determine threshold value for matrix dimensions or metadata like value variability (if values are in a known range or have a known type): 
                       - 'if there are more than x adjacent values with an interim value in a matrix of size n x n, this method can save computation steps even with the determining operation'
                     - add average cost of determining operation to cost metric (computational complexity)
@@ -2237,7 +2254,7 @@
         - anti-complacence structures (checking for new error types that cant be measured with existing tools yet by always building new measurement tools)
         - other structures for optimizing systems
           - anti-complexity
-            - apply filters to remove information that is repeated without value added
+            - apply filters to remove info that is repeated without value added
           - anti-trust
             - apply tests regularly to system components & structures of them, checking it for new variance sources & error types as well as known sources/types
           - anti-dependency
@@ -2430,7 +2447,7 @@
 	- questions have the structure of a possible connection sequence forming a path in the problem system, formatted as a network
 
       - the patterns of these questions in producing relevant info for a problem can be used as insight paths
-      - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output information that could produce the answering info to the query
+      - alternatively, apply a general insight path of calculating which paths in the problem network have the sequence of input/output info that could produce the answering info to the query
         - formatting the system with structural interface metadata (such as info gaps, intents, incentives, equivalences, & vertex variables) will make these optimal query patterns more obvious
 
       - identify the connection between components with the uncertain connection using inputs & definition routes of the connection
@@ -2470,7 +2487,7 @@
     - but it could also use alternate solution filters to find relevant info to the solution such as: (substitute || (similarity && quantity) || test)
       - apply 'substitute' structure: find a metric that functions as an identifier, filter, approximator, predictor, or proxy
       - apply 'similarity' structure to 'quantity' attribute: find a metric value for a quantity of more than one unit
-      - apply 'test' structure to problem system structure: find tests with output information containing the metric value
+      - apply 'test' structure to problem system structure: find tests with output info containing the metric value
 
     - these alternative filter sets optimize for metrics like:
       - filter set metadata
@@ -2484,7 +2501,7 @@
       - cost
       - variation sources (equivalence definition)
       - variance reduction (degree, type, pattern, potential)
-      - requirements (like required information access)
+      - requirements (like required info access)
       - path (in the filter network, & also possibly a path in the problem structure network)
       - interfaces, structures, & definitions used ('questions' asked by the query, 'alternatives' used as 'approximations')
     
@@ -2580,7 +2597,7 @@
       - 'dont exacerbate inequalities'
       - 'protect minorities on the disadvantaged side of an inequality'
       - 'identify advantaged side'
-    - power structures: required or non-specific/universal resources (such as inputs to any function, like 'energy' or 'information')
+    - power structures: required or non-specific/universal resources (such as inputs to any function, like 'energy' or 'info')
     - inequality structures: differences in distribution of required resources
     - generate structures that would exacerbate inequality structures
       - assumptions in rules (lack of guaranteed potential to follow rule)
@@ -2670,8 +2687,8 @@
 	                      - apply structure search filter
 	                        - what structures are relevant (meaning 'direct or useful' like 'input/output') to an over-simplification error
 	                          - inputs/outputs (including requests, usage, side effects)
-	                            - 'repetition of problem-solving requests or identifying/receiving problem side effect information'
-	                            - 'identifying/receiving over-simplified solution side effect information'
+	                            - 'repetition of problem-solving requests or identifying/receiving problem side effect info'
+	                            - 'identifying/receiving over-simplified solution side effect info'
 
 	    - positive/negative:
 	      - specific insights to convert between conceptual structures
@@ -2713,7 +2730,7 @@
         - 'outward extreme negativity error implies a direct causative error structure of either an (internal extreme negativity error) or (minor negativity error, at extreme scale)'
           - 'the error structure can be lack of power distribution (power in the form of intelligence) or lack of distributed generative inputs of power (help becoming intelligent)'
             - 'an invalidation request error is structurally adjacent to a negative-positive connection structure request error, bc the negative-positive request occurs with a prior powerful invalidation request directed at the powerless requester' 
-              - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states due to lack of power (lack of intelligence or proxies to intelligence like information)'
+              - example: 'weak person trying to destroy a powerful person indicates lack of ability to become powerful, so the weak person requests help to connect their current negative state with the positive state bc they cant build the structure connecting those states due to lack of power (lack of intelligence or proxies to intelligence like info)'
             - 'an invalidation request error can be solved with distribution of a negative-positive connection structure'
 
         - 'structures have variables, like size, position, connection, intent, cause, and potential for error'
@@ -2721,8 +2738,8 @@
             - 'errors are not definitively a negativity structure'
               - 'errors can be positivity structures, depending on the error variables (like cost vs. potential created by error solution or solution process)'
                 - 'errors have structural variables (position/direction)'
-                  - 'error outputs sometimes include measurable information, indicating the structural variables (position/direction) of the error'
-                    - 'measured error information can lead to organization of resources in the direction of the error'
+                  - 'error outputs sometimes include measurable info, indicating the structural variables (position/direction) of the error'
+                    - 'measured error info can lead to organization of resources in the direction of the error'
                       - 'organization can be a causative factor in generating solutions'
 
             - 'error structure types include errors in structure variables (like direction/degree)'
@@ -2732,9 +2749,9 @@
                     - 'apply opposite structures (like reversal) to resolve an error'
                       - 'applying reversal to reduction & isolation can resolve an over-simplification negativity error'
                         - 'reduce the lack of negative-positive connection structures, by distributing it to all error sources'
-                          - 'input of negativity errors is a lack of solutions and direct output may include new error information'
+                          - 'input of negativity errors is a lack of solutions and direct output may include new error info'
                             - 'negativity errors are a useful mechanism to allocate extra resources to find new error types & correct them'
-              - 'alternate sources of new error type information is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
+              - 'alternate sources of new error type info is error-type generation function using vertex or interface (core/common/causative) components, to identify where errors can occur or would be invalidating in a system'
 
       - insight paths inside applied insight paths
             - the following similarities in structures of difference provide quick alternate methods of deriving the solution structure for an error structure, bc they represent standard formats in common
@@ -2858,47 +2875,47 @@
               - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
               - so an implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
 
-# example of solving problem of 'find connecting function between math-language to generate a math-language map' with example useful solution automation insight paths
+## example of applying useful solution automation insight paths to solve problem of 'find connecting function between math-language to generate a math-language map'
 
-## apply core structures like 'opposite' to interface components to generate a language map
-    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
+	- apply core structures like 'opposite' to interface components to generate a language map
+	    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
 
-## apply connecting function of math-logic (logic being an interim interface of math & language)
-    - a problem like the following is a logic problem ('find the logic connecting this input/output') that can respond to the general solution workflow (given a problem input format of a 'function' to check possible solutions with) of:
-      - 'identify the unique correct solution in a solution set to a problem of equalizing the sides of this function' 
-      - 'identify which solutions are not correct, reducing the set to a size of 1'
-      - this can be converted to a math problem of:
-        - iterating through solutions
-        - checking each solution to see if it solves the problem ('equalizing both sides of a function')
-        - removing it from the solution set if not
-        - otherwise checking if the set of possible remaining solutions has a size of 1 yet to give a success signal
-        - continuing iteration if not
-      - the connection between these interfaces is in the structure of logic (math being structural information in core terms like numbers):
-        - the set iteration has a 'sequence' (set, progression) structure
-        - the remaining solution set size has a 'integer' (set, progression) structure
-        - the success signal & the continuation condition has a '0/1' (core alternative) structure
-        - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
-        - the remove operation has a 'subtraction' structure
-        - the continue operation has a 'sequence' structure
-        - the condition component has a 'direction' structure (change direction in logic network/tree) and 'multiple option' structure (a decision between differing & mutually exclusive options must be made)
-        - the check/test operation has an 'equal' & 'inject' structure (inject variable values to see if both sides are equal)
-        - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
-      - apply structural interface to connect logic & math structures:
-        - 1. some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
-          - similarity:
-            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should:
-              - move in opposite directions
-              - equal the original set size when added
-          - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
-            - generate core functions & generate combinations of them, applying them to problem variables being examined for a connecting function (solution set size & set iteration)
-            - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
-          - direction:
-            - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
-        - 2. given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be derived that:
-          - when executing problem-solving method, the method should include a step where:
-            - an item(s) is removed from the set 
-          - this connecting function between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
-          - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
-            - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
-          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
-            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
+	- apply connecting function of math-logic (logic being an interim interface of math & language)
+	    - a problem like the following is a logic problem ('find the logic connecting this input/output') that can respond to the general solution workflow (given a problem input format of a 'function' to check possible solutions with) of:
+	      - 'identify the unique correct solution in a solution set to a problem of equalizing the sides of this function' 
+	      - 'identify which solutions are not correct, reducing the set to a size of 1'
+	      - this can be converted to a math problem of:
+	        - iterating through solutions
+	        - checking each solution to see if it solves the problem ('equalizing both sides of a function')
+	        - removing it from the solution set if not
+	        - otherwise checking if the set of possible remaining solutions has a size of 1 yet to give a success signal
+	        - continuing iteration if not
+	      - the connection between these interfaces is in the structure of logic (math being structural info in core terms like numbers):
+	        - the set iteration has a 'sequence' (set, progression) structure
+	        - the remaining solution set size has a 'integer' (set, progression) structure
+	        - the success signal & the continuation condition has a '0/1' (core alternative) structure
+	        - the solution test has a 'function' and 'equal' structure (are both sides equal yet)
+	        - the remove operation has a 'subtraction' structure
+	        - the continue operation has a 'sequence' structure
+	        - the condition component has a 'direction' structure (change direction in logic network/tree) and 'multiple option' structure (a decision between differing & mutually exclusive options must be made)
+	        - the check/test operation has an 'equal' & 'inject' structure (inject variable values to see if both sides are equal)
+	        - the logic function has a 'directed network' or 'tree' structure (follow directed relationships between function components)
+	      - apply structural interface to connect logic & math structures:
+	        - 1. some of those structures have structural relationships which should be identified by applying interfaces, like structure (including components like the similarity concept)
+	          - similarity:
+	            - the similarity in structure between the solution set size & set iteration (a progression or sequence) is relevant, bc the iteration & the set size should:
+	              - move in opposite directions
+	              - equal the original set size when added
+	          - by applying the structural interface (with components like the concept of 'similarity'), the query can identify this relevance by checking if an adjacent connecting function between the similar structures exists & is relevant to the problem/solution
+	            - generate core functions & generate combinations of them, applying them to problem variables being examined for a connecting function (solution set size & set iteration)
+	            - filter by those applied core function combinations that move/change the problem (converted into a solution space, once identified) to be more similar or closer to the solution structure (solution set of size 1)
+	          - direction:
+	            - given the sequence & other direction-related components/attributes/structures of the problem, the input problem components & output solution structures can have a position structure applied
+	        - 2. given that the solution format is a 'set of size 1', and the input problem format is a 'set of size greater than 1', it can be derived that:
+	          - when executing problem-solving method, the method should include a step where:
+	            - an item(s) is removed from the set 
+	          - this connecting function between problem & solution format derives the solution requirement of the 'remove' operation (without being explicitly told to include that operation in the problem definition)
+	          - given the other structures involved (integers, iteration sequence), it can also be derived that the remove operation should apply a subtraction operation rather than another structure like division, which would introduce other less relevant & adjacent formats like non-integers
+	            - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
+	          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
+	            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
