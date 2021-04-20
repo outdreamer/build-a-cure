@@ -9,35 +9,39 @@
         
         - the definition of a digit positions multiplication output of base 10 in a sequence that allows indexing of values in comparison to 10 & degrees of 10
         
-        - how to find the "definition of a digit' as a relevant object in all the objects of that space
+        - how to find the 'digit' as a relevant object in all the objects of that space
           
-          - filter: by noticing that:
-            - multiplication changes positions of numbers in some cases
+          - apply filter to emphasize that:
+            - multiplication changes variables like number position in some conditions
               - relevant concepts to number position
-                - 'digit'
-                - 'base'
-            - multiplication preserves the original numbers in some cases
-            - the original problem can easily be transformed into one of these cases (multiplying numbers rounded to an output of multiplying by 10), and easily converted back into the original problem (adding/subtracting remaining value)
-              - these two operations may be less computationally expensive than the multiplication operation
+                - digit
+                - base/power
+            - multiplication preserves the original numbers in some conditions (like multiplying by a power of 10), which involves an alternative method involving minimal work to convert input into output (move digit rather than execute full multiplication operation)
+            
+          - the original multiplication problem can easily be transformed into an addition problem with one of these value-preserving conditions (multiplying numbers rounded to an output of multiplying by 10), and easily converted back into the original problem's solution (by adding/subtracting the correcting value)
+            - these two operations may be less computationally expensive than the multiplication operation
           
-          - query: in order to notice the above relevant objects, you can do the queries:
+          - query: in order to notice the above relevant objects like 'digit', you can do the queries:
             
-            - change interface: 
+            - apply change interface: 
               - find variables of value changes and change types (value position change)
-              - static/anti-change (apply 'not' operator or 'lack' problem type to 'change' concept):
-                - find cases where change types dont apply (value position preservation and value preservation)
-                  - find method of translating problem to case where work is minimized, if work-maximization conditions dont apply
-                    - find secondary method to connect translated problem back into original format (with original parameters, meaning adding/subtracting remaining value)
+              - apply 'not' operator or 'opposite' structures or 'lack' problem type to 'change' & 'input condition' concepts to create static (anti-change condition) concept
+                - find conditions where change types dont apply (value position preservation and value preservation)
+                  - find function to convert problem to condition where work is minimized, if work-maximization conditions dont apply
+                    - find function to connect converted problem back into original format (with original parameters, meaning adding/subtracting remaining value)
             
-            - intent interface:
+            - apply intent interface:
               - intent of preserving values is to minimize work of calculation
-                - find cases where work is maximized by preserving values
+                - find conditions where work is maximized by preserving values
                   - filter by whether work-maximization conditions apply
-                    - apply method of translating problem to case where work is minimized, if work-maximization conditions dont apply
+                    - apply function to convert problem to condition where work is minimized, if work-maximization conditions dont apply
 
         - in other words, the original question is 'why do value position & digit base produce calculation efficiencies in multiplication?'
           - because position (and emergent objects of position, like sequence) matters, as adjacent values have inherent relevance/meaning
             - 1000 has more meaning in some contexts than 1, and the second one in 1101 has more meaning than the 1 next to the decimal in some contexts, or in a default definition of 'meaning' as 'value' or 'distance from origin', except with definitions where the definition of meaning is a concept like 'clarity' or 'unit' or 'standard'
+          - in some conditions, efficient calculations are adjacent (efficiently convertible) to the original calculations, adjacence (as a definition of difference) meaning that concepts interacting with relevant variables as 'difference measures' (general concepts like position & value interacting with the specific concept of 'digit') can be used to find efficient adjacent calculations
+            - in some conditions, where bases that involve value position changes are adjacent to the multipliers, an operation can be formatted as a value position change rather than the set of changes produced by the operation steps
+            - this means you can retrieve a list of efficient calculations, find out if there's an adjacent conversion to structures of those calculations, and apply those conversions to find the most efficient calculation method for various input conditions
           - difference from base values is another way to measure relevance in values having position
           - the more different a multiplier is from 1, the more relevant these digit-based adjacent values become in optimizing the multiplication process
           - important metrics of relevance:
