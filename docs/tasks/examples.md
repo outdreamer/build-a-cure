@@ -143,6 +143,10 @@
 	                    - it cant quickly generate new outer positions like it can generate new adjacent positionss
 
 	- another method of generating error types
+
+	    - example: a common problem type is a 'mismatch/imbalance' structure
+	      - by applying the 'mismatch' structure to the core cost/benefit connecting function, you get an 'inefficiency' problem type, which can be defined as a mismatch/imbalance between the cost & benefit, favoring the cost side (which is the negative version out of the cost/benefit combinations, negativity being part of a definition route of a problem)
+
 	    - apply core structures to problem components
 	      - lack error type
 	        - lack of resource
@@ -322,6 +326,46 @@
       - randomness being a lack of info (like a star or circle with equally likely directions of change)
         - where influences are equal enough in power to leave no clear priority of direction favoring one over the other
       - when an info lack interacts with an info lack, they may not generate another info lack, but a structure stable enough to organize them, depending on the angle/type of interaction and whether the info lacks are a similar or coordinating type
+
+# solution format examples
+
+## solution of optimized network structure
+
+    - the optimized network can be structured as versions for different intents like:
+      - lowest-memory generator: the average network + distortion functions
+      - relevant generator: the network nearest to the most useful versions of it
+      - quick generator: the network with the components that can build other versions at lowest cost
+      - core generator: the network with core components to build all other components
+      - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
+
+    - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
+      - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable info into a system of understanding
+        - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
+
+    - can probably be adjacently derived from subatomic particle interactions, which implement the core objects of interfaces like cause & potential
+
+## solution of efficiencies gained from missing components
+    - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
+    - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
+    - missing component metadata
+      - how adjacently it can be learned/generated/invalidated/delegated/identified/borrowed
+      - how likely it is to be learned/generated/invalidated/delegated/identified/borrowed
+      - whether another missing component can be used instead
+      - whether the system missing that component should be changed instead
+      - whether a system having that component succeeds at the intent task (& fails at others currently fulfilled by the system missing that component)
+    - example:
+      - not having a function incentivizes:
+        - identity: development of that function
+        - abstraction: development of generalization of that function, parameterizing that function intent
+        - alternate: development of a proxy or alternative or invalidating function, making the function itself unnecessary
+        - cause: development of structure/function/attribute that invalidates the original requirement metadata (priority, intent, dependency structures), not just invalidating the function
+        - alternate format: development of a structure/attribute that replaces the requirement for the function or allows the function to be generated as needed
+        - derivation: developing a function to learn/derive/identify/borrow/cooperate functionality from external info, to generate functionality as needed
+        - core: developing components capable of building all functions to generate functionality as needed
+        - subset: developing components of that function so the function & other functions can be generated as needed
+        - combination: development of a function capable of fulfilling that intent & other intents
+        - distribution: distributing functionality-generating methods to all nodes requiring functions
+        - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
 
 # solution metric/filter/test examples
 
@@ -722,37 +766,45 @@
           - integrate output with original problem system to generate solution automation interface query for problem
             - apply 'simple' rules (as a source of efficiency) in finding rules fitting a 'simple' system
 
-## generate solution automation workflows using structural definitions of core problem/solution components like similarity/difference, relevance, truth, & cost
+## generate solution automation workflows by applying functions to components of problems/solutions (like variables, workflows, structures, definitions)
 
-	- the reason this works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance'
-	- so the point is to identify solution structure & find the interface where similarities & differences in problem/solution structure are clear and the problem/solution structures can be adjacently connected
+	- generate solution automation workflows by applying solution automation workflows to other workflows
 
-	- identify relevance structures (connections, truth, organization, optimization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
+	    - solution automation workflow variables
+	      - starting/ending position/format & format structure (like a sequence)
+	      - interfaces applied, in what query structure
+	      - allocation of uncertainty & variation
+	        - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
 
-	- apply definitions of core structures of relevance structures to generate/filter/find/derive/connect solutions
+	- generate solution automation workflows using definition routes of problem/solution components like similarity/difference, relevance, truth, & cost
 
-		- apply definition routes of cost as a core structure of efficiency, which is a core structure of optimization
-			- identify solution steps or solution(s) that optimize a definition of cost/reward
-				- definition route of cost on an interface like info would be an 'info loss', where a reward/benefit would be an 'info gain'
-				- definition route of cost on structural interface would be 'position change in direction away from target position', where a reward would be a 'position change in direction toward target position'
+		- the reason that applying structural definition routes works is that a problem/error contains structural similarities to its solution, like how a puzzle (a problem having structure 'isolated pieces') has solution structure 'fitting pieces together' or how a problem structure like 'imbalance' has solution structure 'balance'
+		- so the point is to identify solution structure & find the interface where similarities & differences in problem/solution structure are clear and the problem/solution structures can be adjacently connected
 
-	- combine problem structures & match with solution structures
+		- identify relevance structures (connections, truth, organization, optimization, usefulness) of high-similarity structures (extremes, opposites, reduction & isolation/distribution functions) in error structures (like an imbalance) of high-variation structures (power distribution, positive/negative charge, priority direction/extremity, causal direction)
 
-	    - combine problem types
-	      - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
-	    - combine structures & connect structure combinations by problem types
-	      - the structure combination of 'a sequence injected in a network' is a structure matching a 'route finding problem', so apply solution structures that find a route in a network, such as filters using metrics or rules that can filter routes by which routes dont contradict rules
-	        - the solution automation workflow is 'find structures relevant to resolving problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
-	        - the workflow matches 'sequence in a network' with 'route filtering structures', connected by the problem format 'find a route'
-	    - combine structures & core functions
-	      - the structure of the core function sequence(find, apply, build, filter) = matches solution automation workflows like 'find components which, when this function is applied, can construct this structure, complying with these solution metric filters'
-	    - combine components of solution automation workflows (functions, queries, interfaces, problems/solutions, structures) that have a valid input/output sequence
+		- apply definitions of core structures of relevance structures to generate/filter/find/derive/connect solutions
 
-## generate solution automation workflows by permuting variables of problems/solutions
+			- apply definition routes of cost as a core structure of efficiency, which is a core structure of optimization
+				- identify solution steps or solution(s) that optimize a definition of cost/reward
+					- definition route of cost on an interface like info would be an 'info loss', where a reward/benefit would be an 'info gain'
+					- definition route of cost on structural interface would be 'position change in direction away from target position', where a reward would be a 'position change in direction toward target position'
+
+		- combine problem structures & match with solution structures
+
+		    - combine problem types
+		      - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
+		    - combine structures & connect structure combinations by problem types
+		      - the structure combination of 'a sequence injected in a network' is a structure matching a 'route finding problem', so apply solution structures that find a route in a network, such as filters using metrics or rules that can filter routes by which routes dont contradict rules
+		        - the solution automation workflow is 'find structures relevant to resolving problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
+		        - the workflow matches 'sequence in a network' with 'route filtering structures', connected by the problem format 'find a route'
+		    - combine structures & core functions
+		      - the structure of the core function sequence(find, apply, build, filter) = matches solution automation workflows like 'find components which, when this function is applied, can construct this structure, complying with these solution metric filters'
+		    - combine components of solution automation workflows (functions, queries, interfaces, problems/solutions, structures) that have a valid input/output sequence
 
 	- apply structures (combinations, sequences) of core problem-solving functions (equate, find, complete, filter, apply, derive components, generate, connect, change, reduce) as problem-solution connection functions
 		- examples:
-			- filter/reduce problem until its the solution format
+			- filter/reduce problem until its in the solution format
 			- equate problem format with solution format
 			- apply changes to problem until its the solution format
 			- generate solutions from problem format
@@ -845,14 +897,6 @@
 			- general solution automation workflow: build solutions that have more structures of optimization than problems & problem sources (randomness structures) in the problem space
 				- core function version: build solutions that have more structures of optimization (efficiency/organization) than problems in the problem space
 
-## generate solution automation workflows by applying workflows to other workflows
-
-    - solution automation workflow variables
-      - starting/ending position/format & format sequence
-      - interfaces applied, in what query structure
-      - allocation of uncertainty & variation
-        - problem to solve (generate solution filters, find workflow, break problem, solve original problem)
-
 ## generate solution automation interface query
 
     - iterate through interface objects (change type, problem type, assumptions, etc)
@@ -908,6 +952,7 @@
       - 'identify problem type & apply related known solutions' :: assume problem type can be identified & covers enough of the problem & is abstract enough to apply related solutions with effective impact
 
 ## insight path to generate a solution automation workflow from a solution-problem connecting insight path
+
 	- once a solution is found, a solution automation workflow can be derived (and checked for uniqueness, compared to stored solution automation workflows or inputs/variables of generative functions of solution automation workflows) from the path taken from problem to solution (with general workflows like removing the problem, converting the problem into a solution with connecting functions, or generate the solution from solution components)
 		- this can be done with abstraction & connection to defined components
 			- example: if a solution like 'find the difference in these two values, then apply this operation to get the output' is found through a less optimal method like trial & error, abstract the method & standardize it to interface components so it can be integrated with the generative functions of solution automation workflows
@@ -975,40 +1020,42 @@
       - when solving a problem with an insight path like 'break problem into sub-problems', the sub-queries to solve each sub-problem should be defined in terms used by the insight path & problem statement
       - a sub-query to solve a sub-problem like 'reduce & isolate dimensions of problem' should be defined using the problem statement components & the insight path ('break' as the original function mapped to sub-functions 'reduce' and 'isolate'), so when it comes time to integrate sub-solutions into a solution, the corresponding opposite function to 'break(problem)' can be applied to 'integrate(solution)', using a version of 'integrate' such as a specific version of 'merge' that connects to the version of sub-functions of 'break' used
 
-## the decision between selecting insight path/query for a problem & generating a new one is dependent on:
+## logic of selecting between insight path/query for a problem & generating a new one
 
-    - problem metadata (complexity, adjacent formats)
-    - available info (whether metrics are capable of capturing relevant info)
-    - input data set metadata (whether variables are output metrics, variance-covering metrics, proxy variables, etc)
-      - different input/output relationships will imply different interface queries that will be useful
-      - beyond that, other (interface analysis-identified) methods to design an interface query for a problem type
-      
-      - apply interface analysis to interface query design (system including interface components, query components, metrics) - apply interfaces to the problem of designing an interface query
-        - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
-        - check if you can skip some interfaces, like when you start with an input containing mixed-interface (concepts, functions, intents) or cross-interface structures (structures that apply/generalize to or connect interfaces), such as when you can identify common terms in input component definitions that can be used to frame all relevant objects
-          - once you standardize terms of component definitions, is there an interim sub-interface youve standardized components to, which can be used in place of a full interface query
-        - example:
-          - adjacent formats: 
-            - problem is route optimization, problem format is network, solution format is network path, interface query should include function interface, bc function format is adjacent to finding a path on a network
-          - intent alignment:
-            - problem is over-complicated system, problem format is network, solution format is reduced-complexity system network, interface should include math & structure interfaces, to find & apply dimension-reducing functions (interfaces already contain functions that align with 'reduction' intent)
-          - required inputs:
-            - problem is 'find a relationship between functions for calculation optimization intent', solution format is 'connecting function', interface query should involve 'connecting' functions, which are a required input to solution format of a 'function to connect functions that optimizes calculation efficiency'
-        - this can optimize for problem/solution metadata, as well as general problem-solving methods
-          - optimize for problem type: interface query for 'missing info' problem type should include the 'similarity/difference' sub-interface on the 'structure' to identify 'opposite' structures like 'what is not there'
-          - optimize for solution format: interface query for a problem with solution format 'prediction function' should include either causal, potential, change, or function or structure.network interface, all of which can generate a structure connecting the in/dependent variables
-            - causal: organize variables with causal diagram having direction & check for predictive ability (identifying correlation, applying causal structures like moving/deactivating variables, using variable proxies or aggregate variables) to filter diagram for probable causation
-            - potential: identify potential alternatives (variable sets not in data set, randomness explanation) and filter if possible, possibly leaving original data set as last remaining solution
-            - change: identify variable change functions, and evaluate distorted data sets using those functions for alternate prediction functions, filtering by functions that are robustly predictive with more change conditions applied
-            - function: index variables as functions (functions using variable combinations/subsets) to check for input/output connectivity potential between in/dependent variables
-            - structure: organize the variables as a network to find relationships & if there is a relationship between in/dependent variables
-          - optimize for general problem-solving methods: 
-            - example: 
-              - 'generate set of possible solutions & apply filters to reduce solution space'
-                - the interface query should have a format that is filterable once it reaches the filter step of the general solution method
-              - 'break problem into sub-problems & combine & merge sub-solutions'
-                - the interface query should have a format that is combinable/mergeable once it reaches the combine/merge step of the general solution method
-  
+	- logic dependencies
+
+	    - problem metadata (complexity, adjacent formats)
+	    - available info (whether metrics are capable of capturing relevant info)
+	    - input data set metadata (whether variables are output metrics, variance-covering metrics, proxy variables, etc)
+	      - different input/output relationships will imply different interface queries that will be useful
+	      - beyond that, other (interface analysis-identified) methods to design an interface query for a problem type
+	      
+	      - apply interface analysis to interface query design (system including interface components, query components, metrics) - apply interfaces to the problem of designing an interface query
+	        - examine what are the core functions, efficiencies, incentives, error types, etc of the interface query system, and check that they match what Ive identified
+	        - check if you can skip some interfaces, like when you start with an input containing mixed-interface (concepts, functions, intents) or cross-interface structures (structures that apply/generalize to or connect interfaces), such as when you can identify common terms in input component definitions that can be used to frame all relevant objects
+	          - once you standardize terms of component definitions, is there an interim sub-interface youve standardized components to, which can be used in place of a full interface query
+	        - example:
+	          - adjacent formats: 
+	            - problem is route optimization, problem format is network, solution format is network path, interface query should include function interface, bc function format is adjacent to finding a path on a network
+	          - intent alignment:
+	            - problem is over-complicated system, problem format is network, solution format is reduced-complexity system network, interface should include math & structure interfaces, to find & apply dimension-reducing functions (interfaces already contain functions that align with 'reduction' intent)
+	          - required inputs:
+	            - problem is 'find a relationship between functions for calculation optimization intent', solution format is 'connecting function', interface query should involve 'connecting' functions, which are a required input to solution format of a 'function to connect functions that optimizes calculation efficiency'
+	        - this can optimize for problem/solution metadata, as well as general problem-solving methods
+	          - optimize for problem type: interface query for 'missing info' problem type should include the 'similarity/difference' sub-interface on the 'structure' to identify 'opposite' structures like 'what is not there'
+	          - optimize for solution format: interface query for a problem with solution format 'prediction function' should include either causal, potential, change, or function or structure.network interface, all of which can generate a structure connecting the in/dependent variables
+	            - causal: organize variables with causal diagram having direction & check for predictive ability (identifying correlation, applying causal structures like moving/deactivating variables, using variable proxies or aggregate variables) to filter diagram for probable causation
+	            - potential: identify potential alternatives (variable sets not in data set, randomness explanation) and filter if possible, possibly leaving original data set as last remaining solution
+	            - change: identify variable change functions, and evaluate distorted data sets using those functions for alternate prediction functions, filtering by functions that are robustly predictive with more change conditions applied
+	            - function: index variables as functions (functions using variable combinations/subsets) to check for input/output connectivity potential between in/dependent variables
+	            - structure: organize the variables as a network to find relationships & if there is a relationship between in/dependent variables
+	          - optimize for general problem-solving methods: 
+	            - example: 
+	              - 'generate set of possible solutions & apply filters to reduce solution space'
+	                - the interface query should have a format that is filterable once it reaches the filter step of the general solution method
+	              - 'break problem into sub-problems & combine & merge sub-solutions'
+	                - the interface query should have a format that is combinable/mergeable once it reaches the combine/merge step of the general solution method
+	  
 ## problem-solution format maps (structural components of solution automation workflow insight paths)
 
 	- based on where the problem is & what type it is, you can start with different methods:
@@ -1615,48 +1662,7 @@
             - these two combine operations were used to create a path from the individual unit to the set of total components in the container
             - they can also be applied in reverse to get from the given total container metric value to the individual unit metric value
 
-
-# solution format examples
-
-## solution of optimized network structure
-
-    - the optimized network can be structured as versions for different intents like:
-      - lowest-memory generator: the average network + distortion functions
-      - relevant generator: the network nearest to the most useful versions of it
-      - quick generator: the network with the components that can build other versions at lowest cost
-      - core generator: the network with core components to build all other components
-      - adjacent core generator: network with core components at an abstraction/interaction level where they are most adjacent (mid-level functions as opposed to granular functions or high-level agent-interaction functions or conceptual functions)
-
-    - the optimized network (ark) has the interface components necessary to solve any problem, with no extra components
-      - it has one of each parameter of required components (like definitions, bias/randomness/error structures, interfaces, core/change functions, etc) which provide enough functionality to decompose & fit all discoverable info into a system of understanding
-        - for example, one example of each opposite end of a spectrum & the average in the center, or the average + distortion functions to generate the other possible values
-
-    - can probably be adjacently derived from subatomic particle interactions, which implement the core objects of interfaces like cause & potential
-
-## solution of efficiencies gained from missing components
-    - some functions are generated more quickly without a component, bc of the needs that the lack generates, which focuses generative processes on building alternate functions to fill the gap
-    - this can be used as a way to predict what tasks the optimized network with missing components would be relatively good at
-    - missing component metadata
-      - how adjacently it can be learned/generated/invalidated/delegated/identified/borrowed
-      - how likely it is to be learned/generated/invalidated/delegated/identified/borrowed
-      - whether another missing component can be used instead
-      - whether the system missing that component should be changed instead
-      - whether a system having that component succeeds at the intent task (& fails at others currently fulfilled by the system missing that component)
-    - example:
-      - not having a function incentivizes:
-        - identity: development of that function
-        - abstraction: development of generalization of that function, parameterizing that function intent
-        - alternate: development of a proxy or alternative or invalidating function, making the function itself unnecessary
-        - cause: development of structure/function/attribute that invalidates the original requirement metadata (priority, intent, dependency structures), not just invalidating the function
-        - alternate format: development of a structure/attribute that replaces the requirement for the function or allows the function to be generated as needed
-        - derivation: developing a function to learn/derive/identify/borrow/cooperate functionality from external info, to generate functionality as needed
-        - core: developing components capable of building all functions to generate functionality as needed
-        - subset: developing components of that function so the function & other functions can be generated as needed
-        - combination: development of a function capable of fulfilling that intent & other intents
-        - distribution: distributing functionality-generating methods to all nodes requiring functions
-        - organization: allocating gap requirements (uncertainties) to the gap in functionality (example: keep the gap so you can apply methods as a test to resolve the gap)
-
-# examples of interface operations
+# examples of interface operation logic
 
 ## apply interfaces to derive an insight like 'power is responsibility'
 
@@ -1725,7 +1731,7 @@
 		          - where certainty is not allowed by the system
 		            - system has distributed randomness injection points, or structures of certainty like interaction levels are prevented from developing
 
-# apply structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
+# examples of applying structures to solve a problem (complete a task, fulfill an intent/requirement, apply a solution metric test)
 
 ## apply structures to generate variables in a system
 
@@ -1883,354 +1889,6 @@
     - for 'identify' intent, relevant structures include structures of difference (filters) and uniqueness (unique identifiers)
     - for 'connection' intents (identify/generate connection), a structure where components are only defined in terms of other components (by their relationships to other components), like a network or vector space
     - for 'differentiation' intents, a structure where the definition of difference is clear & applicable (can differentiate all different components)
-
-## example of applying insight paths to find & apply cross-interface non-standard methods across systems to generate solutions
-
-    - apply insight path: 'identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system'
-      
-      - applying concept of 'bias' used to fulfill intent of 'creating a truth filter'
-        - bias is usually used to evaluate intentions of agents when interacting with other agents with some level of variance in agent identities
-        - after abstracting intentions as decision/function triggers:
-          - apply bias as a truth filter to determine non-agent change/function triggers
-          - this can work bc even components without agency respond to incentives bc of their common tie to physics, and agents are likelier to identify optimal structures
-            - example: bias can have a core error structure like 'over-prioritizing locality', which can be converted into the concept of 'adjacence' as a core structure to use when solving the bias-causing problems of 'minimizing cost' or 'limited info', or when identifying structures that can be used as truth filters, which can be formatted as 'low-cost or otherwise adjacent distortions are likelier to be false info'
-          - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to the problem-solving intent of identifying truth
-
-    - queries to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
-
-      - apply insight path: 'apply insight paths to generate insight paths'
-
-        - find structures with 'truth filtering' intent in solution (source) system
-          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
-            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
-
-        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
-          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
-            - apply bias/interface metadata (intent) to target system components
-              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
-
-            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
-              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
-              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
-
-      - standard interface query 
-
-        - apply structural interface
-          - identify connections between structures in problem
-            - problem: 'find true info in agent-based system interactions despite agent incentives to send false info & intentions/decisions to do so'
-            - problem structures:
-              - concepts: 'truth' (intention matches decision output = 'successful decision'), 'agency', 'incentive', 'intent', 'decision'
-              - functions: 'interaction functions', 'decision functions'
-              - other structures: 'decision function triggers', 'false info', 'true info'
-
-        - apply combine function to conceptual interface
-          - create combinations of abstracted versions of structures
-            - problem: 'find true info in system interactions despite incentives to send false info & other sources of false info & change functions enabling that'
-            - problem structures:
-              - concepts: 'correct' (info implication matches its impact), 'incentive', 'change', 'randomness'
-              - functions: 'interaction functions', 'change functions'
-              - other structures: 'change function triggers', 'false info', 'true info'
-
-        - apply connect function to abstract structures
-          - find structures that connect abstract structures (randomness, false info, change/function triggers) without the specific attributes tying them to one system (agency)
-            - test whether the connecting structures fit with the new system after removing attributes:
-              - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
-                - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
-
-## apply interface analysis to find optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
-
-    - problem of finding optimizability in the form of a solvability limit of a problem, without knowing the answer
-      - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
-        - connected structural info:
-          - when they choose the number
-            - physical motion rules
-              - how arms/joints move 
-              - how their eyes move (indicating remembering or creative process or a local distraction or another input)
-          - default input rules
-            - hand motion dynamics, like how fingers interact & which motion types are favored/prioritized/likelier
-        - general rules
-          - alternative selection rules
-            - how people make decisions from a set of similar alternatives (familiarity, understandability, simplicity, standard vs. non-standard choices)
-          - intent rules
-            - agent intents (trying to surprise the magician by subverting expectations of their choice)
-        - related variables
-          - attention
-      - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer (or info that makes it identifiable or possible to filter/reduce other options)
-        - indicates that the interaction of the available variable info: 
-          - is too low-dimensional
-          - includes info about too distant/indirect variables/rules
-          - includes info that cant capture/derive approximations/actual values of the variation/patterns of the output variable or its proxy variable
-          - doesnt have a vertex variable or connectable interfaces/variables
-
-        - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
-
-    - problem of finding optimizability of 'buttons vs. configuration' problem (headphones with buttons)
-        - variables
-          - hardware
-          - alternative/related/interactive products
-          - usage patterns
-          - sound functions (play, skip, switch to voice commands, reduce noise, highlight bass, use more capacity to clarify sound quality, change relative volume, predict lost sound)
-          - buttons
-          - attachability/detachability/migratability
-          - compartmentalization/isolatability
-          - buildability
-          - configuration options
-          - simplicity
-          - memorizability
-          - adaptability
-          - app
-          - higher-variation alternative interfaces
-            - sound input/output (alternative input to a button)
-          - probability (commonness of a usage pattern)
-          - demand (need for a button, configuration, usage pattern, or a function)
-          - variable structures (combination of variables, like a particular set of variables or a set of interaction rules between variables)
-
-        - implementations
-          - find common usage patterns & assign to buttons
-            - buttons for common functions
-          - find memorable button structures & assign to common usage functions
-            - find memorable combinations & sequences, like double-click of a button, or a button combination click, and assign to common usage functions
-          - inject crucial high-variation function in higher-variation interface
-            - configurable button functions (configure options of how buttons connect to functions), using an app (higher-variation interface, allowing more buttons)
-          - inject crucial high-variation function into a button
-            - configuration button (configure options of how buttons connect to functions), by clicking a config button
-          - embedded menus in buttons
-            - access menu (list of functions) with a button or button structure (combination, sequence)
-          - alternate input with higher-variation potential
-            - voice commands rather than or in combination with buttons
-          - allow buttons to be attached like legos
-          - allow buttons/functions to be coded & switched out to do any function the hardware (or connected hardware) can support, including functions from other alternative products
-          - integrate with existing hardware like glasses/hat/shirt (use materials to conduct sound, attach speakers/microphones to glasses rather than having wires, attach buttons to glasses)
-          - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
-
-        - optimized mathematized implementation for intent (simplicity, highest features given simplicity, maximized features)
-          
-          - simplicity: assign common (high-probability) functions to buttons & simple button structures (low-dimensional buttons & button structures)
-            - variables: button count, button function, button structure (combination, set, sequence), function probability, simplicity
-
-          - highest feature count, given filter of 'simplest implementation': highest number of functions possible to implement simply (low-dimensional memorization)
-            - variables: function count, memorization, simplicity, abstraction (type), button usage structure (scale like repeated clicks of a button, sequence like buttons clicked in sequence)
-            - variable interaction rules:
-              - 'when function count increases absolutely (all other variables being equal), memorization decreases'
-              - 'when count increases but is organized simply (like accessing functions organized by type or scale with successive button clicks), memorization is constant'
-            - variable structure: 
-              - intersection of independent variable changes (function count & memorization)
-              - alignment of simplicity & memorization changes
-              - alignment of abstraction (type) & simplicity changes
-              - substitution of proxy variables (substitute more measurable variable like simplicity for memorizability)
-              - substitution of more measurable variables
-                - substitute simplicity-filtering rules to identify complexity rather than using complexity identification rules
-                - substitute similarity-filtering rules (what something is) to identify similarity than difference identification rules (what something is not)
-
-            - optimized variable structure: 
-
-              - maximized 
-                - parameterization of variables that change on similar input
-                - intersection of variables to optimize (intersection of highest function count and highest simplicity)
-                - alignment of related variables (aligning memorizability & simplicity) that should be similar
-                - opposition of variables that should be different
-                - compression/merging/selection of variables that act interchangeably
-
-              - structure application
-                - sequence structure applied to causative variation (input/output)
-                - topology structure applied where changes in variable values of a variable set can be mapped to distance (different changes do not produce equal points)
-          
-          - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
-            - variables: config input (voice, button), variable variation, config adaptability, config source (custom user-defined function, open source/multi-vendor libraries)
-
-        - how to generate optimized mathematized implementations for intents
-          - apply structural definitions of components (rules, variables, intents, concepts)
-          - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
-            - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
-
-        - identify interaction structures (like trade-offs) between optimization metrics
-          - find maximization of metric-optimization in those interaction structures
-
-## apply interface analysis to find alternative solutions for matrix multiplication problem
-
-    - existing solution (apply multiplication method to smaller matrices) applies:
-
-      - core structures: 
-        - meta (matrix of matrices)
-        - subset (sub-matrices)
-        - substitute (addition for multiplication)
-        
-      - core functions:
-        - apply substitution method to subset once matrix is formatted as a matrix of matrices
-          = apply(substitution_method(format(original_matrix, 'subset')))
-
-    - how to generate other solutions
-
-      - multiple queries to arrive at the same solution of 'finding adjacent interim values & re-using multiplication operation, in case where adjacent interim values exist in a matrix'
-        - you can start with the target solution formats as your interface query filter (equating "problem format + operations = solution format")
-          - a more efficient operation than multiply
-          - a more efficient combination of operationss than 'multiply then add'
-        - or you can start with applying interfaces, and iteratively focusing on & applying useful structures found for the solution (problem-reduction or problem-compartmentalization)
-          - apply structures known to generate solutions to fulfill solution metrics (move toward solution position or reduce solution space or reduce problem)
-            - apply core/adjacent/efficient/similar structures
-
-      - apply structural interface
-
-        - apply core structures of structural interface
-          - apply structural similarity to structures of problem (including value)
-            - similar values enable addition instead of multiplication (multiply 5 * 8 & subtract/add 8 instead of multiply 4 * 8 and 6 * 8)
-            - if there are similar values in a matrix, and storage is allowed, this can reduce multiplication count (ignoring storage search)
-          - apply adjacence structures
-            - find values adjacent to matrix values to find similarities in computation requirements
-          - apply similarity structures
-            - find values in matrix having a common factor (base) and standardize operations involving those values
-          - apply sequence structures
-            - find sequences in multiplication operations & apply sequence operations rather than individual calculations
-              - find numbers in even number sequence (common factor of 2) and reduce to addition of coefficients of powers of two
-                - 3 * 5 + 2 * 6 + 2 * 4 =  3 * 5 + 2 * 2 * 3 + 2 * 2 * 2 = 3 * 5 + 3 (2^2) + 2 (2^2) = 3 * 5 + 5 (2^2)
-
-      - apply function interface
-
-        - find functions that convert multiplication to addition or other lower-cost problem
-          - replace/substitute
-            - identify when multiplication can be replaced by addition
-              - addition can replace a multiplication, if an adjacent multiplication has already been done
-            - convert numbers to efficient multipliers like powers of 10 that involve moving digits rather than multiplication
-
-      - apply core interface
-
-        - apply core functions (replace) & core structures (unit) to problem components (problem functions of multiply & add)
-          - apply interface interface (standardize problem to interfaces of problem space)
-
-          - apply system interface
-            - apply system structures
-              - apply efficiency structures
-                - identify efficiency structures in problem 
-                  - inefficient operation (multiply)
-                  - efficient operation (add)
-
-                - apply change interface
-                  - connect an inefficient function (multiply) to an efficient function (add) to change inefficient function to efficient function
-                    - define one problem function as a transformation of the other problem function
-                      - define multiply in terms of add using core functions/structures or problem functions/structures
-                        - apply replace to one unit of original multiplied values with an add operation until multiply is defined in terms of add (standardize to add interface)
-
-                - apply efficiency structures
-                  - apply efficiency structure 'apply one operation instead of multiple operations'
-                    - identify when multiple multiply operations can be replaced with this type of adjacent multiply/add operation 
-                      - identify when a multiplication operation can produce an interim value in between other values so the multiplication can be re-used for another value
-
-          - apply structure interface
-            - apply structural interface structures
-              - apply filter structure
-                - identify matrix cases where these operations are inefficient or unusable
-                  - identify operations/info needed to determine inefficiency/unusability of this solution
-                    - apply function to determine threshold value for matrix dimensions or metadata like value variability (if values are in a known range or have a known type): 
-                      - 'if there are more than x adjacent values with an interim value in a matrix of size n x n, this method can save computation steps even with the determining operation'
-                    - add average cost of determining operation to cost metric (computational complexity)
-
-      - apply system interface
-
-        - apply system structures
-          - apply efficiency structures
-            - apply efficiency structure of 'reusing existing resources'
-              - identify what resources exist or are created in original solution (values output by multiplication & addition operations)
-                - identify condition where these can be reused for other operations
-                  - when other operations are adjacent
-          - apply symmetry structures
-            - apply symmetry structure of 'interim value one change unit away from multiple values - one being addable in the position of a coefficient'
-
-## apply insight path to solve a problem
-
-	- insight path:
-	    - when generating solutions, identify:
-	      - contexts/cases/conditions that can filter it out
-	      - variables that can generate the most solutions
-	      - filters that can filter the most solutions
-	        - apply filters to solution space by solutions that are ruled out in fewest cases, best cases where solutions are less required or least probable cases
-	    
-    - example problem: how to put shirt on underneath jacket without taking off jacket completely
-      
-      - alternative queries
-
-        - identify sub-problem: 
-
-          - find a format where sequence (shirt on top of jacket) can be changed into solution format (jacket on top of shirt)
-            - identify adjacent format 'bunching into circle around neck' that allows changing sequence (which is on top) and transformation function into that format from origin format 'taking off sleeves'
-
-        - apply adjacent formats to problem & solution formats
-          - identify formats that have a sequence (stack, row) which is a structure implied in the solution format ('underneath')
-            - apply functions to test if shirt can be transformed into one of those formats
-
-        - generate adjacent functions (bunching) from core functions (move sleeve, lift, rotate) & try them to see if any useful structures emerge moving objects closer to solution formats/positions
-      
-        - generate default connecting function and apply structures of optimization (reusing functions, avoiding extra steps) to improve the default connecting function incrementally
-
-        - identify filters that can filter out solutions
-
-          - identify filters interacting with structures of variables (change types, potential, uncertainty) & constants (requirements, limits, definitions)
-            - possibility filter: 
-              - interaction filter:
-                - in what ways can the shirt/jacket interact
-                  - can the shirt occupy position (fit) under the jacket
-            - requirement filter: 
-              - does the shirt/jacket have to stay in its current position/format
-              - does every step of functions ('removal' function) have to be executed (can you just remove pieces, like the sleeves, without removing the whole thing)
-            - change filter: 
-              - in what ways can the shirt/jacket be changed while remaining a shirt/jacket (bunching, removing sleeves) 
-              - are these ways reversible (can it be put on after being taken off)
-
-          - apply filters to reduce solution space
-            - solution can involve variables:
-              - position 
-              - format
-              - change functions (bunch, lift, remove)
-              - components (sleeve)
-              - interaction functions (stack in sequence)
-            - solution must fulfill requirements
-              - jacket must be in 'worn' position at all states
-              - change functions cant change object identities (change jacket into shirt or into a not-jacket)
-              - solution must reverse sequence of objects in stack structure)
-            - any solution involving removing the jacket completely in a state, change functions that change object identities, and where solution format is not fulfilled are ruled out
-            - other tests include:
-              - minimize steps (did solution do any unnecessary steps)
-
-## apply insight path to solve problem of 'finding factors to produce number without using multiplication of every combination'
-    - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
-    - problem: find factors of 28 without using multiplication of every combination (trial & error)
-      - factors of 28: 1, 2, 4, 7, 14, 28
-      - remove: 1, 2, 14
-        - divide by integer unit 1, divide by 2 bc even, divide by co-factor of 2 which is half (select midpoint without multiplication))
-      - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
-      - apply filters to solution space
-        - apply similarity of value structures as a filter
-          - adjacent items can be ruled out by proximity (for example, 13 couldnt be a candidate bc its too close to 14 to be a factor of such a small number)
-            - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-          - apply similarity (of adding factors to sequence) as a filter
-            - test sequences for adjacent computations
-          - apply similarity of components (factors) in definitions (numbers definable in terms of their factors) to find relevant structures
-            - test primes which are relevant bc of their definition being definable in terms of the factor standard
-        - apply output patterns as a filter:
-          - multiples of 10 and 5 can be ruled out bc it doesnt end in zero or 5
-            - the remaining candidates are: 3, 4, 6, 7, 8, 9, 11, 12
-        - apply combination structure to produce solution format (multiplied pairs of factors)
-          - pairs are a combination structure
-          - the remaining factors can form pairs, which can also have filters applied
-          - apply filters to pairs 
-            - apply output requirements
-              - metadata of the output, 28, includes that its an even number, so multiplied pairs must produce an even number
-                - odd number x even number can produce an even number
-                  - 3 x 4, 3 x 6, 3 x 8, etc
-                - even number x even number can produce even number
-                  - 4 x 4, 4 x 6, 4 x 8, etc
-              - apply reduction tests (what could not be the solution)
-                - apply tests to inputs
-                  - inputs must be spaced according to the output number
-                    - adjacent numbers are unlikely to produce the output number (as a multiplied pair) for an increasing output number
-                  - structures of inequality (not equal to solution)
-                    - too large
-                    - too small
-                    - not even
-                  - identify threshold structures (values) of input structures (values, value pairs) that would produce one of these inequalities
-                    - filter out inputs if they would produce an output that was too large to be 28
-                      - 28 is quite a small number so pairs of numbers above a threshold value (3 x anything above 9, etc)
-                      - some pairs are clearly too big to produce 28, without checking the product
-                        - 11 x 12 is clearly too big, so can be removed from list of possible pairs
 
 ## apply structures of concepts into function to find prediction functions
   
@@ -2442,7 +2100,7 @@
       - using limits that bound other formulas as assumptions to reduce solution space
       - finding vertex variables of formulas & applying variations to generate other formulas
 
-## apply question (info asymmetry) structures to find answers to questions
+## apply question (info imbalance) structures to find answers to questions
 
 	- questions have the structure of a possible connection sequence forming a path in the problem system, formatted as a network
 
@@ -2520,69 +2178,9 @@
       - query for intents that would require movement in different directions than the statement function route requires
       - query for causes or preceding/adjacent/interacting functions that would require development of functionality making some step in route impossible
   
-
 ## combine core operations (rotate, connect, combine, shift, filter) to convert the base subset/limit functions building or used by a neural network into the output prediction function
 
-## example of applying interface structures to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network typ
-	- organization structures represent applied concepts & structures like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc
-    - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
-    - these structural equivalences/similarities across interaction layers (like different abstraction levels of intents) can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
-
-## structures applied to these core structures to generate conceptual structures in neural networks
-      
-      - variables of the network include structures emerging from or embedded in algorithms/structures
-
-      - core structures
-        - change types 
-          - difference type 
-        - agency types
-        - cause types (influence/power of structures)
-        - structures
-          - sequence (embedded concept of 'time' in structural interface)
-          - list (unique index)
-
-      - alternative cause: change applied to causal structures at training & prediction time
-      - organization: difference type index
-      - agency/govt: decisions about change types to apply
-
-        - structures applied to agency objects like decisions (such as subsets/alternates) & other conceptual structures (like time)
-
-          - sub-decisions
-            - structures of neural networks with delayed sub-decisions
-              - conditionally activated cell structures with enough info to make a sub-decision
-            - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
-              - govt structures/algorithms
-                - organization structures are a structural version of govt (agent-based) decision-making
-              - finding the level of 'agency' to apply to a network is possible with problem complexity identification
-                - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
-
-          - alternative decisions to make in interface query
-            - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
-            - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
-              - alternative decisions
-                - finding root cause
-                - solving a proxy problem
-
-          - decision (change-filtering problem-solving) times
-
-            - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
-              - sub time points: activation time, pooling time, aggregation time, filtering time
-
-            - optional points where decisions can be injected
-              - decisions: 
-                - network-level decisions: continue learning, select prediction answer
-                - structural decisions: change direction, identify threshold, ignore info
-                - meta decisions: delegate/delay decisions, consider alternative decisions
-              - time where decision is clear/final/starts to emerge
-              - time where direction change decision is made
-              - time where more info/time is identified as necessary
-              - time where decision is identified as not answerable
-              - time where alternatives are identified, assigned probability, filtered out
-              - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
-              - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
-              - time to check for a structure in the difference type index
-      
-## applying structure to structure to generate a particular structure/format (structure standardization)
+## apply structure to structure to generate a particular structure/format (structure standardization)
 
     - example of converting structures into vectors
       - many vector structures can represent interface structures
@@ -2591,7 +2189,7 @@
           - standard network structure translation: vectors to indicate direction of cause
           - relevant network structure translation: vectors of influence degree away from hub cause & other cause structures
 
-## example of applying structure to identify rules that violate a metric 
+## apply structure to identify rules that violate a metric 
 
     - requirement like: 
       - 'dont exacerbate inequalities'
@@ -2610,12 +2208,7 @@
       - these assumptions would disproportionately increase inequality's disadvantages in distribution
       - 'disadvantaging rules/assumptions' can be distributed more evenly or to offset inequalities
 
-## example of applying structure to generate problem types
-
-    - for instance, a common problem type is a mismatch/imbalance
-      - by applying the 'mismatch' to the cost/benefit relationship, you get an 'inefficiency' problem type, which can be defined as a mismatch/imbalance between the cost & benefit, favoring the cost side (which is the negative version out of the cost/benefit combinations, negativity being part of a definition route of a problem)
-
-## example of finding alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
+## find alternatives (alternate variable sets) in a problem space (exercise) for problem of 'predicting a change type' (predicting motion) 
 
       - apply interfaces to find relevant structures
 
@@ -2670,6 +2263,293 @@
             - 'excess energy results in higher variability of variable interactions'
           - concepts
             - concepts & concept structures (concept set including 'energy' or 'health') can predict independently of other variables bc theyre a low-dimensional (conceptual dimension) representation of high variation (motion)
+
+## apply structures to solve an info problem
+
+    - apply point structure: find examples
+    - apply set structure: find combinations
+    - apply boundary structure: find limits (systems, shapes, expectations)
+    - apply gap structure: find possibilities (opportunities)
+    - apply sequence structure: find paths
+      - apply input structure: find assumptions (requirements)
+      - apply output structure: find intent (side effects)
+      - apply function structure: find connections (cause)
+    - apply origin structure: find symmetries (equivalence)
+    - apply vector structure: find differences (comparisons, opposites, errors, distortions/imbalances)
+
+      - identify vertexes & transform input info to vectors for each vertex
+      - identify interfaces & primary interface objects & transform input to vectors for each vertex
+      - apply queries across vector spaces to find patterns of change that produce solutions optimally (quickest or most accurately)
+
+      - integrated info format for formatting vectors across vector spaces representing differences within an interface/vertex variable
+        space1.vectorA (magnitudeA, directionA) = space1.basis vector coefficient combination
+        spaces.space1.vectorA = spacevector.vectorA = vector differenting from other spaces
+        [space coefficient combination].[vector coefficient combination]
+        [space topology position].[vector topology position]
+
+      - in this format, you store info about the original vector with its relative position to other vectors given the basis vectors of that space, and info about the original space with its relative position to other spaces
+        - each space offers a relative position for differences in an interface
+        - given the set of vectors mapped within each space, the vertex vectors of the original differentiating vectors can be mapped as the vector space instead
+
+      - alternative vector formats/variables
+          - vector paths: store method to generate a particular vector
+          - vector boundaries: store info about vectors with similar interaction layers (like 'interacting with a sphere of radius 1')
+          - vector gaps: store info about a space lacking vectors in a vector space
+          - vector bases (core sets): store info about alternate basis vector sets describing a vector space according to different bases of change units
+          - vector shapes: shapes formed by vectors (points, polygons, shapes, corners, angles, centers, intersections)
+          
+      - the vectors may be more efficiently described in one format than another, within or across spaces
+        - to integrate the vector spaces that have had these formats applied, you can:
+          - maintain the original space and describe the vector variables with the new vertex vector sets
+          - create new vector spaces to map the differences in that variable
+        - if the differences dont hold across every vector space, you can:
+          - calculate the contribution of that space in another space where it would contribute to those difference types (apply elements in a biological space)
+          - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there (genes & elements in an evolutionary space)
+
+    - example of mapping math to meaning formats
+      - structural math info formats according to intent to calculate semantic operations (solve info problems) 
+        - add to shape definition routes with matching intents supported by each
+          - adjacent intents use the objects directly stated in the definition route:
+            - endpoint alignment
+              - adjacent intents associated with this format:
+                - use endpoints & rotation/shifting transforms to build a shape
+                - complete a shape using a line and an 'align endpoint' function
+                - store just endpoint & alignment info
+                - use an angle determining function to provide input to an alignment function
+                - keep coordinate info intact after transform
+                - track changes within space using endpoint/line coordinate changes
+                - use core structure (line, angle) as a building block
+            - coordinates of one corner & side length
+            - side count & angle
+        - these intents can be mapped to meaning
+          - "align endpoints" = "connect" (such as in the case of "connect a line to a shape missing one line to be completed")
+          
+        - once mapped to meaning, it is clearer how these structures can be used to calculate other metrics
+          - in the "connect a line with a shape to complete a shape" case, its good if we already stored info as coordinates & lines, bc then we can adjacently pick a line & place it in the right position to complete the shape, by aligning coordinates of endpoints
+          - this structure can be applied to info problems
+            - testing for obviousness of an argument:
+              - 'obvious' math structure definition route:
+                - adjacent change:
+                  - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
+                  - forming a square with two triangles is an 'obvious' way to make an argument that 'two triangles are equal to a square'
+                - example of formatting an argument as a shape
+                  - a, b, c, d are points on a square, starting from top left and going clockwise
+                  - line structure: change operation
+                  - side length: degree of difference
+                  - side line: change type with direction from starting point to end point
+                  - connection: direct relevance
+                  - change type: straight line, constant, tangent, border, etc
+                  - right angle/parallel: independence/dependence (difference/similarity in change type)
+                  - ad is similar to ab by starting position, but different by independence (in change type & direction)
+                  - ad is different from bc by starting/ending positions, but have similar change type & degree, and are connected in two ways by one degree
+                - inevitable conclusions map adjacently to filters with one possible output structure indicating the relationship of the conclusion objects
+                - logical conclusions are buildable from other logical conclusions or insights (known connections) with accessible transform operations applied
+              - function: link nodes in a network ('connecting the dots')
+
+    - another example, in reverse (meaning to math)
+        - relevance: 
+          - info that fits in a system (connects coordinating inputs/outputs, changes on system variables, has an intent position/function in the system, doesnt contradict system intents)
+            - info that is useful for a defined/structured input intent or output impact at x degrees away from input
+              - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
+              - so an implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
+
+## apply interface analysis to find optimizability of a problem, given resource limits (market, time, info about alternative, related, & interactive products)
+
+    - problem of finding optimizability in the form of a solvability limit of a problem, without knowing the answer
+      - example: standard 'psychic' magic trick like guessing number of fingers held behind back, or which number people will choose
+        - connected structural info:
+          - when they choose the number
+            - physical motion rules
+              - how arms/joints move 
+              - how their eyes move (indicating remembering or creative process or a local distraction or another input)
+          - default input rules
+            - hand motion dynamics, like how fingers interact & which motion types are favored/prioritized/likelier
+        - general rules
+          - alternative selection rules
+            - how people make decisions from a set of similar alternatives (familiarity, understandability, simplicity, standard vs. non-standard choices)
+          - intent rules
+            - agent intents (trying to surprise the magician by subverting expectations of their choice)
+        - related variables
+          - attention
+      - limits of solvability occur with non-interchangeable (not equal) alternatives that can't be distinguished with the given info, without being given the info of the answer (or info that makes it identifiable or possible to filter/reduce other options)
+        - indicates that the interaction of the available variable info: 
+          - is too low-dimensional
+          - includes info about too distant/indirect variables/rules
+          - includes info that cant capture/derive approximations/actual values of the variation/patterns of the output variable or its proxy variable
+          - doesnt have a vertex variable or connectable interfaces/variables
+
+        - there may be some combination of movement, rule selection, default config, attention & memory that produces difference choices without giving clear info signaling this difference (limit of solvability is reached)
+
+    - problem of finding optimizability of 'buttons vs. configuration' problem (headphones with buttons)
+        - variables
+          - hardware
+          - alternative/related/interactive products
+          - usage patterns
+          - sound functions (play, skip, switch to voice commands, reduce noise, highlight bass, use more capacity to clarify sound quality, change relative volume, predict lost sound)
+          - buttons
+          - attachability/detachability/migratability
+          - compartmentalization/isolatability
+          - buildability
+          - configuration options
+          - simplicity
+          - memorizability
+          - adaptability
+          - app
+          - higher-variation alternative interfaces
+            - sound input/output (alternative input to a button)
+          - probability (commonness of a usage pattern)
+          - demand (need for a button, configuration, usage pattern, or a function)
+          - variable structures (combination of variables, like a particular set of variables or a set of interaction rules between variables)
+
+        - implementations
+          - find common usage patterns & assign to buttons
+            - buttons for common functions
+          - find memorable button structures & assign to common usage functions
+            - find memorable combinations & sequences, like double-click of a button, or a button combination click, and assign to common usage functions
+          - inject crucial high-variation function in higher-variation interface
+            - configurable button functions (configure options of how buttons connect to functions), using an app (higher-variation interface, allowing more buttons)
+          - inject crucial high-variation function into a button
+            - configuration button (configure options of how buttons connect to functions), by clicking a config button
+          - embedded menus in buttons
+            - access menu (list of functions) with a button or button structure (combination, sequence)
+          - alternate input with higher-variation potential
+            - voice commands rather than or in combination with buttons
+          - allow buttons to be attached like legos
+          - allow buttons/functions to be coded & switched out to do any function the hardware (or connected hardware) can support, including functions from other alternative products
+          - integrate with existing hardware like glasses/hat/shirt (use materials to conduct sound, attach speakers/microphones to glasses rather than having wires, attach buttons to glasses)
+          - allow each alternative to be selected so they can choose which config/button/sound interaction rules to apply to those variables
+
+        - optimized mathematized implementation for intent (simplicity, highest features given simplicity, maximized features)
+          
+          - simplicity: assign common (high-probability) functions to buttons & simple button structures (low-dimensional buttons & button structures)
+            - variables: button count, button function, button structure (combination, set, sequence), function probability, simplicity
+
+          - highest feature count, given filter of 'simplest implementation': highest number of functions possible to implement simply (low-dimensional memorization)
+            - variables: function count, memorization, simplicity, abstraction (type), button usage structure (scale like repeated clicks of a button, sequence like buttons clicked in sequence)
+            - variable interaction rules:
+              - 'when function count increases absolutely (all other variables being equal), memorization decreases'
+              - 'when count increases but is organized simply (like accessing functions organized by type or scale with successive button clicks), memorization is constant'
+            - variable structure: 
+              - intersection of independent variable changes (function count & memorization)
+              - alignment of simplicity & memorization changes
+              - alignment of abstraction (type) & simplicity changes
+              - substitution of proxy variables (substitute more measurable variable like simplicity for memorizability)
+              - substitution of more measurable variables
+                - substitute simplicity-filtering rules to identify complexity rather than using complexity identification rules
+                - substitute similarity-filtering rules (what something is) to identify similarity than difference identification rules (what something is not)
+
+            - optimized variable structure: 
+
+              - maximized 
+                - parameterization of variables that change on similar input
+                - intersection of variables to optimize (intersection of highest function count and highest simplicity)
+                - alignment of related variables (aligning memorizability & simplicity) that should be similar
+                - opposition of variables that should be different
+                - compression/merging/selection of variables that act interchangeably
+
+              - structure application
+                - sequence structure applied to causative variation (input/output)
+                - topology structure applied where changes in variable values of a variable set can be mapped to distance (different changes do not produce equal points)
+          
+          - maximized features: use highest-variation interface as input to generate temporary/editable config (app configuring which implementation to apply, which custom functions to use, which hardware to combine when ordering/updating)
+            - variables: config input (voice, button), variable variation, config adaptability, config source (custom user-defined function, open source/multi-vendor libraries)
+
+        - how to generate optimized mathematized implementations for intents
+          - apply structural definitions of components (rules, variables, intents, concepts)
+          - find interface where these structural definitions of components can be depicted according to their variation (dimensionality), interactions (substitutability, causation), & metadata (accuracy)
+            - interface where variable structures (constant, sequence, input) and function structures (interactions/alignments) can be found & connected as needed
+
+        - identify interaction structures (like trade-offs) between optimization metrics
+          - find maximization of metric-optimization in those interaction structures
+
+## apply interface analysis to find alternative solutions for matrix multiplication problem
+
+    - existing solution (apply multiplication method to smaller matrices) applies:
+
+      - core structures: 
+        - meta (matrix of matrices)
+        - subset (sub-matrices)
+        - substitute (addition for multiplication)
+        
+      - core functions:
+        - apply substitution method to subset once matrix is formatted as a matrix of matrices
+          = apply(substitution_method(format(original_matrix, 'subset')))
+
+    - how to generate other solutions
+
+      - multiple queries to arrive at the same solution of 'finding adjacent interim values & re-using multiplication operation, in case where adjacent interim values exist in a matrix'
+        - you can start with the target solution formats as your interface query filter (equating "problem format + operations = solution format")
+          - a more efficient operation than multiply
+          - a more efficient combination of operationss than 'multiply then add'
+        - or you can start with applying interfaces, and iteratively focusing on & applying useful structures found for the solution (problem-reduction or problem-compartmentalization)
+          - apply structures known to generate solutions to fulfill solution metrics (move toward solution position or reduce solution space or reduce problem)
+            - apply core/adjacent/efficient/similar structures
+
+      - apply structural interface
+
+        - apply core structures of structural interface
+          - apply structural similarity to structures of problem (including value)
+            - similar values enable addition instead of multiplication (multiply 5 * 8 & subtract/add 8 instead of multiply 4 * 8 and 6 * 8)
+            - if there are similar values in a matrix, and storage is allowed, this can reduce multiplication count (ignoring storage search)
+          - apply adjacence structures
+            - find values adjacent to matrix values to find similarities in computation requirements
+          - apply similarity structures
+            - find values in matrix having a common factor (base) and standardize operations involving those values
+          - apply sequence structures
+            - find sequences in multiplication operations & apply sequence operations rather than individual calculations
+              - find numbers in even number sequence (common factor of 2) and reduce to addition of coefficients of powers of two
+                - 3 * 5 + 2 * 6 + 2 * 4 =  3 * 5 + 2 * 2 * 3 + 2 * 2 * 2 = 3 * 5 + 3 (2^2) + 2 (2^2) = 3 * 5 + 5 (2^2)
+
+      - apply function interface
+
+        - find functions that convert multiplication to addition or other lower-cost problem
+          - replace/substitute
+            - identify when multiplication can be replaced by addition
+              - addition can replace a multiplication, if an adjacent multiplication has already been done
+            - convert numbers to efficient multipliers like powers of 10 that involve moving digits rather than multiplication
+
+      - apply core interface
+
+        - apply core functions (replace) & core structures (unit) to problem components (problem functions of multiply & add)
+          - apply interface interface (standardize problem to interfaces of problem space)
+
+          - apply system interface
+            - apply system structures
+              - apply efficiency structures
+                - identify efficiency structures in problem 
+                  - inefficient operation (multiply)
+                  - efficient operation (add)
+
+                - apply change interface
+                  - connect an inefficient function (multiply) to an efficient function (add) to change inefficient function to efficient function
+                    - define one problem function as a transformation of the other problem function
+                      - define multiply in terms of add using core functions/structures or problem functions/structures
+                        - apply replace to one unit of original multiplied values with an add operation until multiply is defined in terms of add (standardize to add interface)
+
+                - apply efficiency structures
+                  - apply efficiency structure 'apply one operation instead of multiple operations'
+                    - identify when multiple multiply operations can be replaced with this type of adjacent multiply/add operation 
+                      - identify when a multiplication operation can produce an interim value in between other values so the multiplication can be re-used for another value
+
+          - apply structure interface
+            - apply structural interface structures
+              - apply filter structure
+                - identify matrix cases where these operations are inefficient or unusable
+                  - identify operations/info needed to determine inefficiency/unusability of this solution
+                    - apply function to determine threshold value for matrix dimensions or metadata like value variability (if values are in a known range or have a known type): 
+                      - 'if there are more than x adjacent values with an interim value in a matrix of size n x n, this method can save computation steps even with the determining operation'
+                    - add average cost of determining operation to cost metric (computational complexity)
+
+      - apply system interface
+
+        - apply system structures
+          - apply efficiency structures
+            - apply efficiency structure of 'reusing existing resources'
+              - identify what resources exist or are created in original solution (values output by multiplication & addition operations)
+                - identify condition where these can be reused for other operations
+                  - when other operations are adjacent
+          - apply symmetry structures
+            - apply symmetry structure of 'interim value one change unit away from multiple values - one being addable in the position of a coefficient'
 
 ## apply interface analysis to connect problem & solution formats with interface query functions (including applying insight paths)
 
@@ -2786,96 +2666,67 @@
               - an error structure produced by a sequence implies a solution structure in the form of an opposing operation relevant to sequence (like reversal)
               - an over-reduction/isolation error structure can be used to infer a solution structure of a 'connecting & expanding' or 'averaging/balancing' function
 
-## applying structures to solve an info problem
+## apply interface structures to neural networks (core functions, interaction layers, etc) to generate different organization structures as components of a new neural network type
 
-    - apply point structure: find examples
-    - apply set structure: find combinations
-    - apply boundary structure: find limits (systems, shapes, expectations)
-    - apply gap structure: find possibilities (opportunities)
-    - apply sequence structure: find paths
-      - apply input structure: find assumptions (requirements)
-      - apply output structure: find intent (side effects)
-      - apply function structure: find connections (cause)
-    - apply origin structure: find symmetries (equivalence)
-    - apply vector structure: find differences (comparisons, opposites, errors, distortions/imbalances)
+	- organization structures represent applied concepts & structures like balance, functions/attributes like relevance/security, error type boundaries, abstraction levels, etc
+    - a granular intent structure like "differentiate => maximize => combine => compare => select" can map to a high-level intent like "voting"
+    - these structural equivalences/similarities across interaction layers (like different abstraction levels of intents) can be used to implement concepts like 'security' to neural networks, such as identifiable/possible error type structures as a boundary/limit (in the form of a threshold or weight-offsetting operation) across a metric calculated from an adjacent-node cross-layer sub-network (like 'function sequence' structures are often used in exploits)
 
-      - identify vertexes & transform input info to vectors for each vertex
-      - identify interfaces & primary interface objects & transform input to vectors for each vertex
-      - apply queries across vector spaces to find patterns of change that produce solutions optimally (quickest or most accurately)
+	- apply structures to core structures to generate conceptual structures in neural networks
+	      
+	      - variables of the network include structures emerging from or embedded in algorithms/structures
 
-      - integrated info format for formatting vectors across vector spaces representing differences within an interface/vertex variable
-        space1.vectorA (magnitudeA, directionA) = space1.basis vector coefficient combination
-        spaces.space1.vectorA = spacevector.vectorA = vector differenting from other spaces
-        [space coefficient combination].[vector coefficient combination]
-        [space topology position].[vector topology position]
+	      - core structures
+	        - change types 
+	          - difference type 
+	        - agency types
+	        - cause types (influence/power of structures)
+	        - structures
+	          - sequence (embedded concept of 'time' in structural interface)
+	          - list (unique index)
 
-      - in this format, you store info about the original vector with its relative position to other vectors given the basis vectors of that space, and info about the original space with its relative position to other spaces
-        - each space offers a relative position for differences in an interface
-        - given the set of vectors mapped within each space, the vertex vectors of the original differentiating vectors can be mapped as the vector space instead
+	      - alternative cause: change applied to causal structures at training & prediction time
+	      - organization: difference type index
+	      - agency/govt: decisions about change types to apply
 
-      - alternative vector formats/variables
-          - vector paths: store method to generate a particular vector
-          - vector boundaries: store info about vectors with similar interaction layers (like 'interacting with a sphere of radius 1')
-          - vector gaps: store info about a space lacking vectors in a vector space
-          - vector bases (core sets): store info about alternate basis vector sets describing a vector space according to different bases of change units
-          - vector shapes: shapes formed by vectors (points, polygons, shapes, corners, angles, centers, intersections)
-          
-      - the vectors may be more efficiently described in one format than another, within or across spaces
-        - to integrate the vector spaces that have had these formats applied, you can:
-          - maintain the original space and describe the vector variables with the new vertex vector sets
-          - create new vector spaces to map the differences in that variable
-        - if the differences dont hold across every vector space, you can:
-          - calculate the contribution of that space in another space where it would contribute to those difference types (apply elements in a biological space)
-          - find a space where both the non-contributing vector space and the contributing vector space can be differentiated & calculate it there (genes & elements in an evolutionary space)
+	        - structures applied to agency objects like decisions (such as subsets/alternates) & other conceptual structures (like time)
 
-    - example of mapping math to meaning formats
-      - structural math info formats according to intent to calculate semantic operations (solve info problems) 
-        - add to shape definition routes with matching intents supported by each
-          - adjacent intents use the objects directly stated in the definition route:
-            - endpoint alignment
-              - adjacent intents associated with this format:
-                - use endpoints & rotation/shifting transforms to build a shape
-                - complete a shape using a line and an 'align endpoint' function
-                - store just endpoint & alignment info
-                - use an angle determining function to provide input to an alignment function
-                - keep coordinate info intact after transform
-                - track changes within space using endpoint/line coordinate changes
-                - use core structure (line, angle) as a building block
-            - coordinates of one corner & side length
-            - side count & angle
-        - these intents can be mapped to meaning
-          - "align endpoints" = "connect" (such as in the case of "connect a line to a shape missing one line to be completed")
-          
-        - once mapped to meaning, it is clearer how these structures can be used to calculate other metrics
-          - in the "connect a line with a shape to complete a shape" case, its good if we already stored info as coordinates & lines, bc then we can adjacently pick a line & place it in the right position to complete the shape, by aligning coordinates of endpoints
-          - this structure can be applied to info problems
-            - testing for obviousness of an argument:
-              - 'obvious' math structure definition route:
-                - adjacent change:
-                  - if an argument can be made by connecting a line to complete a shape, that's an "adjacent" change, and it can be considered obvious using this math structural definition route
-                  - forming a square with two triangles is an 'obvious' way to make an argument that 'two triangles are equal to a square'
-                - example of formatting an argument as a shape
-                  - a, b, c, d are points on a square, starting from top left and going clockwise
-                  - line structure: change operation
-                  - side length: degree of difference
-                  - side line: change type with direction from starting point to end point
-                  - connection: direct relevance
-                  - change type: straight line, constant, tangent, border, etc
-                  - right angle/parallel: independence/dependence (difference/similarity in change type)
-                  - ad is similar to ab by starting position, but different by independence (in change type & direction)
-                  - ad is different from bc by starting/ending positions, but have similar change type & degree, and are connected in two ways by one degree
-                - inevitable conclusions map adjacently to filters with one possible output structure indicating the relationship of the conclusion objects
-                - logical conclusions are buildable from other logical conclusions or insights (known connections) with accessible transform operations applied
-              - function: link nodes in a network ('connecting the dots')
+	          - sub-decisions
+	            - structures of neural networks with delayed sub-decisions
+	              - conditionally activated cell structures with enough info to make a sub-decision
+	            - structures applied to decisions can generate networks with other decision structures than 'consensus voting'
+	              - govt structures/algorithms
+	                - organization structures are a structural version of govt (agent-based) decision-making
+	              - finding the level of 'agency' to apply to a network is possible with problem complexity identification
+	                - apply agency: delegating decisions to subsets/groups/layers of cells to delay change decisions to another point in time
 
-    - another example, in reverse (meaning to math)
-        - relevance: 
-          - info that fits in a system (connects coordinating inputs/outputs, changes on system variables, has an intent position/function in the system, doesnt contradict system intents)
-            - info that is useful for a defined/structured input intent or output impact at x degrees away from input
-              - implied in this definition, specifically the 'defined' part, where the structure of the input intent definition determines what can fit it, is the concept of 'focus', which has a 'filter' structure, meaning only some info will be relevant to the input intent, and other info needs to have the filter definition structure applied
-              - so an implementation of a relevance testing function will incorporate a filter structure or an equivalent substitute
+	          - alternative decisions to make in interface query
+	            - decisions are a 'selection/identification/filtering' problem about a possible change type (like direction) to consider/implement
+	            - structures of neural networks exploring alternative variable structures & alternate decisions rather than the stated problem decision or default variable structure (identify direct causation, filter out non-directly causative variables)
+	              - alternative decisions
+	                - finding root cause
+	                - solving a proxy problem
 
-## example of applying useful solution automation insight paths to solve problem of 'find connecting function between math-language to generate a math-language map'
+	          - decision (change-filtering problem-solving) times
+
+	            - standard time points: training time, data gathering/processing/standardization time, decision/prediction time, re-training/update time, parameter selection/update time
+	              - sub time points: activation time, pooling time, aggregation time, filtering time
+
+	            - optional points where decisions can be injected
+	              - decisions: 
+	                - network-level decisions: continue learning, select prediction answer
+	                - structural decisions: change direction, identify threshold, ignore info
+	                - meta decisions: delegate/delay decisions, consider alternative decisions
+	              - time where decision is clear/final/starts to emerge
+	              - time where direction change decision is made
+	              - time where more info/time is identified as necessary
+	              - time where decision is identified as not answerable
+	              - time where alternatives are identified, assigned probability, filtered out
+	              - time where possible routes to an answer are identified (what structure of variable values like 'ranges' can produce a clear answer)
+	              - time where possible decisions remaining are identified (and conditional remaining decisions if a change is applied)
+	              - time to check for a structure in the difference type index
+	      
+## apply solution automation insight paths to solve problem of 'find connecting function between math-language to generate a math-language map'
 
 	- apply core structures like 'opposite' to interface components to generate a language map
 	    - opposite structure of interface (division by applying a standard) is an application/combination (multiplication by creating combinations of pairs, of one variable's range applied to another's)
@@ -2919,3 +2770,154 @@
 	            - this applies problem-solving insight paths like 'adjacent solutions should be tested first in an absence of reasons to do otherwise', where reasons to do otherwise could be metrics like system complexity, info about adjacent solutions failing in that system, info about non-adjacent solutions succeeding in that system (info about non-adjacent solutions being optimal for a system metric)
 	          - interface query design should involve queries to check for inputs to a step given required sub-query tests for alternatives
 	            - before applying a step, apply its required sub-queries to test for its alternatives, like for an adjacent solution step, checking that alternative non-adjacent solution sub-queries have returned no contradictory info indicating an adjacent solution should not be applied
+
+## apply insight path to solve a problem
+
+	- insight path:
+	    - when generating solutions, identify:
+	      - contexts/cases/conditions that can filter it out
+	      - variables that can generate the most solutions
+	      - filters that can filter the most solutions
+	        - apply filters to solution space by solutions that are ruled out in fewest cases, best cases where solutions are less required or least probable cases
+	    
+    - example problem: how to put shirt on underneath jacket without taking off jacket completely
+      
+      - alternative queries
+
+        - identify sub-problem: 
+
+          - find a format where sequence (shirt on top of jacket) can be changed into solution format (jacket on top of shirt)
+            - identify adjacent format 'bunching into circle around neck' that allows changing sequence (which is on top) and transformation function into that format from origin format 'taking off sleeves'
+
+        - apply adjacent formats to problem & solution formats
+          - identify formats that have a sequence (stack, row) which is a structure implied in the solution format ('underneath')
+            - apply functions to test if shirt can be transformed into one of those formats
+
+        - generate adjacent functions (bunching) from core functions (move sleeve, lift, rotate) & try them to see if any useful structures emerge moving objects closer to solution formats/positions
+      
+        - generate default connecting function and apply structures of optimization (reusing functions, avoiding extra steps) to improve the default connecting function incrementally
+
+        - identify filters that can filter out solutions
+
+          - identify filters interacting with structures of variables (change types, potential, uncertainty) & constants (requirements, limits, definitions)
+            - possibility filter: 
+              - interaction filter:
+                - in what ways can the shirt/jacket interact
+                  - can the shirt occupy position (fit) under the jacket
+            - requirement filter: 
+              - does the shirt/jacket have to stay in its current position/format
+              - does every step of functions ('removal' function) have to be executed (can you just remove pieces, like the sleeves, without removing the whole thing)
+            - change filter: 
+              - in what ways can the shirt/jacket be changed while remaining a shirt/jacket (bunching, removing sleeves) 
+              - are these ways reversible (can it be put on after being taken off)
+
+          - apply filters to reduce solution space
+            - solution can involve variables:
+              - position 
+              - format
+              - change functions (bunch, lift, remove)
+              - components (sleeve)
+              - interaction functions (stack in sequence)
+            - solution must fulfill requirements
+              - jacket must be in 'worn' position at all states
+              - change functions cant change object identities (change jacket into shirt or into a not-jacket)
+              - solution must reverse sequence of objects in stack structure)
+            - any solution involving removing the jacket completely in a state, change functions that change object identities, and where solution format is not fulfilled are ruled out
+            - other tests include:
+              - minimize steps (did solution do any unnecessary steps)
+
+## apply insight path to solve problem of 'finding factors to produce number without using multiplication of every combination'
+
+    - insight path: use filters to reduce solution space instead of generating solutions (such as by identifying metadata of solutions & applying combinations of those attributes)
+    - problem: find factors of 28 without using multiplication of every combination (trial & error)
+      - factors of 28: 1, 2, 4, 7, 14, 28
+      - remove: 1, 2, 14
+        - divide by integer unit 1, divide by 2 bc even, divide by co-factor of 2 which is half (select midpoint without multiplication))
+      - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+      - apply filters to solution space
+        - apply similarity of value structures as a filter
+          - adjacent items can be ruled out by proximity (for example, 13 couldnt be a candidate bc its too close to 14 to be a factor of such a small number)
+            - the remaining candidates are: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+          - apply similarity (of adding factors to sequence) as a filter
+            - test sequences for adjacent computations
+          - apply similarity of components (factors) in definitions (numbers definable in terms of their factors) to find relevant structures
+            - test primes which are relevant bc of their definition being definable in terms of the factor standard
+        - apply output patterns as a filter:
+          - multiples of 10 and 5 can be ruled out bc it doesnt end in zero or 5
+            - the remaining candidates are: 3, 4, 6, 7, 8, 9, 11, 12
+        - apply combination structure to produce solution format (multiplied pairs of factors)
+          - pairs are a combination structure
+          - the remaining factors can form pairs, which can also have filters applied
+          - apply filters to pairs 
+            - apply output requirements
+              - metadata of the output, 28, includes that its an even number, so multiplied pairs must produce an even number
+                - odd number x even number can produce an even number
+                  - 3 x 4, 3 x 6, 3 x 8, etc
+                - even number x even number can produce even number
+                  - 4 x 4, 4 x 6, 4 x 8, etc
+              - apply reduction tests (what could not be the solution)
+                - apply tests to inputs
+                  - inputs must be spaced according to the output number
+                    - adjacent numbers are unlikely to produce the output number (as a multiplied pair) for an increasing output number
+                  - structures of inequality (not equal to solution)
+                    - too large
+                    - too small
+                    - not even
+                  - identify threshold structures (values) of input structures (values, value pairs) that would produce one of these inequalities
+                    - filter out inputs if they would produce an output that was too large to be 28
+                      - 28 is quite a small number so pairs of numbers above a threshold value (3 x anything above 9, etc)
+                      - some pairs are clearly too big to produce 28, without checking the product
+                        - 11 x 12 is clearly too big, so can be removed from list of possible pairs
+
+## apply insight paths to find & apply cross-interface non-standard methods across systems to generate solutions
+
+    - apply insight path: 'identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system'
+      
+      - applying concept of 'bias' used to fulfill intent of 'creating a truth filter'
+        - bias is usually used to evaluate intentions of agents when interacting with other agents with some level of variance in agent identities
+        - after abstracting intentions as decision/function triggers:
+          - apply bias as a truth filter to determine non-agent change/function triggers
+          - this can work bc even components without agency respond to incentives bc of their common tie to physics, and agents are likelier to identify optimal structures
+            - example: bias can have a core error structure like 'over-prioritizing locality', which can be converted into the concept of 'adjacence' as a core structure to use when solving the bias-causing problems of 'minimizing cost' or 'limited info', or when identifying structures that can be used as truth filters, which can be formatted as 'low-cost or otherwise adjacent distortions are likelier to be false info'
+          - bias also interacts with the concept of randomness & randomness can explain false info signals, which connects to the problem-solving intent of identifying truth
+
+    - queries to generate insight path to find useful structures to apply across systems, for an intent like 'truth filtering'
+
+      - apply insight path: 'apply insight paths to generate insight paths'
+
+        - find structures with 'truth filtering' intent in solution (source) system
+          - map system components across systems (map 'truth' in agent system to 'correct' in non-agent system, match 'intent' to 'incentive' bc non-agent systems always respond to incentives)
+            - map connecting structures in source system to connecting structures in target system (what connects bias function in source system vs. corresponding connection in target system)
+
+        - apply components of structures with 'truth filtering' intent across systems, to equalize problem (target) & solution (source) systems
+          - apply metadata of 'truth-filtering' structures (bias) from agent source system to non-agent target system
+            - apply bias/interface metadata (intent) to target system components
+              - find intent ('reasons') for 'randomness' (find the change interactions producing false or temporary randomness in non-agent systems)
+
+            - apply bias interface objects (intents/reasons to use biased rules) to target system components, due to commonness in intents across systems
+              - bias intents/reasons: over-simplicity, lack of storage, lack of change type functions (update functionality)
+              - 'if an info signal has bias intent signals (if its clearly caused by lack of storage), classify it as a potential false info signal (request from pathogen rather than from host cell, false electrical signal, illusion of an electron count)'
+
+      - standard interface query 
+
+        - apply structural interface
+          - identify connections between structures in problem
+            - problem: 'find true info in agent-based system interactions despite agent incentives to send false info & intentions/decisions to do so'
+            - problem structures:
+              - concepts: 'truth' (intention matches decision output = 'successful decision'), 'agency', 'incentive', 'intent', 'decision'
+              - functions: 'interaction functions', 'decision functions'
+              - other structures: 'decision function triggers', 'false info', 'true info'
+
+        - apply combine function to conceptual interface
+          - create combinations of abstracted versions of structures
+            - problem: 'find true info in system interactions despite incentives to send false info & other sources of false info & change functions enabling that'
+            - problem structures:
+              - concepts: 'correct' (info implication matches its impact), 'incentive', 'change', 'randomness'
+              - functions: 'interaction functions', 'change functions'
+              - other structures: 'change function triggers', 'false info', 'true info'
+
+        - apply connect function to abstract structures
+          - find structures that connect abstract structures (randomness, false info, change/function triggers) without the specific attributes tying them to one system (agency)
+            - test whether the connecting structures fit with the new system after removing attributes:
+              - can bias be used to filter out false info or find true info in chemical interactions, despite elements not having agency, as an abstracted way to decompose randomness/noise or complex systems
+                - for example, can an abstracted version of bias structures correctly model the integration of quantum physics with chemistry rules to explain some chemical phenomenon
