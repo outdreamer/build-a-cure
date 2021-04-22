@@ -1,3 +1,14 @@
+  - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error or other memory-based approach (simply storing methods that worked & incrementally building on that info) to determine system analysis methods
+    - what calculations will prove to be optimal (faster/more accurate), before or during processing
+
+  - find meta-math structure: 
+    - which would allow/incentivize/generate the changes in info functions/variables (change types: interaction, aggregation, structure-filling, gaps, convergence, similarities) of known math operations
+    - is it a metric like efficient stability that allows info to develop into a measurable structure in the first place (possibly changeable interaction), or is it enforced by a system of a set of limits forcing info to interact those ways (definitively inevitable interaction)
+    - 'the information amount/type/variance stored in this definition/structure can only take form in or interact with these other structures/to these degrees/in these spaces/on these interaction levels'
+      - information = certainty = definition = structure
+      - 'this certainty/structure can only interact with or be formatted in these certainties/structures'
+      - can you calculate the set of math relationships more quickly by examining opposing structures of uncertainty/randomness, by applying operations to existing certainties, or by finding a common differentiating standard in between, like abstraction'
+
 - math (information-probability interaction) metadata
 
   - whats the reason for number relationships (numbers being a definition of value, math having a set of relationships between values)
@@ -34,7 +45,9 @@
     - information is converted into potential as randomness
 
   - to do: test 'path integral' concept for space-time positioning to identify path types (incentivized, adjacent, etc) once various interfaces are applied
+  
   - problem types
+
     - missing concept
     - incomplete structure (combination, sequence)
     - causal structure mismatch
@@ -45,3 +58,9 @@
         - these can be identified as dead-ends when traversing an interface
   
     - radiation: fractal/cascading/distributed randomness across interfaces (systems & structures) - as opposed to concentrated randomness in a black hole
+
+    - examine whether imaginary numbers are a structure of uncertainty (bc of structural unverifiability), producing reversals of info with application of self-similarity (like time reversals) when interacting with other systems like physics
+
+  - gauge theory definition: field where the difference in kinetic & potential energy doesnt change locally from a symmetry in the form of certain continuous (differentiable) sets with multiplication/division operations
+    - find interface boundaries by how its definition & structures break down
+    - find gaps in interfaces by points of variation not covered by other interfaces
