@@ -1,5 +1,7 @@
 # to do
 
+  - organize examples of useful structures in index.md
+  
   - finish organizing examples
 
   - add to nn concepts:
@@ -45,43 +47,6 @@
       - interface: how are these questions organized in a way to design the interface query optimally? (apply 'potential' filter first to make sure it's possible to solve)
       - intent: what are the input/output intents of the interface query (input intent to solve a particular problem, output intents like emergent side effects of the interface query, like program optimization)
 
-  - summary of advice
-
-    - invest based on:
-
-      - prioritizing real value signals: 
-          - products that fulfill a need
-          - companies that self-invest (prioritizing growth by re-investing in growth)
-          - leaders that guide by example
-          - independence: invest in independent value sources & independence-generating assets, become an independent self-supplier of your required inputs
-          - understanding: invest in assets you understand
-          - established/proven (long-term) value
-          - efficiency: take responsibility for your required inputs
-
-      - avoiding false value signals: 
-        - incentives: high-reward/low-cost reasons to invest that may not align with real value or be sub-optimal dynamics that destroy value in a different position of the system 
-          - speculation
-          - investment banker advice
-          - ceo status
-          - short-term value changes
-
-  - future value signals
-
-    - problem metrics: current problem-solution ratio, problem to problems-solved ratio
-      - solution metrics: 
-        - efficiency: sustainability, reusability, cost-benefit ratio
-        - independence: self-generatability, self-awareness/regulation/correction
-    - efficiency-generating metrics: 
-      - integration/organization/optimization/regulation/generalization
-    - info distribution (across teams, departments, ranks, customers, other businesses)
-    - info proxy derivation/acquisition/building
-      - education
-      - group membership (do they outsource some processing to groups, and which ones, and how do they evaluate groups like partners/clients/competition)
-      - understanding
-        - group dynamics (do they help toxic groups improve, do they have a self-destruct mechanism if they become a toxic group, etc)
-        - markets (do they organize & optimize markets to achieve their goals quicker)
-      - flexibility or learning potential (intelligence derivation/generation/acquisition/building)
-
   - diagram with error types
 
   - give example of the network of formats
@@ -101,20 +66,6 @@
 
   - why not call interfaces a system? 
     - everything can be formatted as a system, not everything is an interface - an interface is like a location where different systems can meet to communicate
-
-  - science: 
-
-    - physics determines probability (of interactions), math describes certainty (of interactions)
-      - map physics/math with structural connections like:
-        - truth: organization, efficiency, stability, power to act as a foundation/filter, opposite of randomness 
-        - power: energy
-        - variation: structural interactivity, lack of limits/constants
-        - time: lack of constants preventing change, lack of structure-invalidating conditions, difference between constants & interaction potential of structures
-
-    - alternatives
-      - a limit on potential energy in the universe, concentrated in space-time moves or symmetry violations, where all other changes align with the standard model
-      
-    - examine muons as a reflective surface or temporary boundary for electrons to use to avoid violating symmetry, where artificial experiment conditions or other muons can interfere with planned reflection, leading to an imbalance in particle ratios that would occur with distributed/isolated particle pairs
 
   - chart type: overlaying multiple 2-dimension variable comparisons to identify common shapes of variable connections (density of points added with a visible attribute like more opacity)
 

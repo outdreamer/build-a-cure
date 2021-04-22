@@ -10,7 +10,43 @@
         which generate output exploit opportunities
       - high-impact changes can be made on the combination interface of cause-system-structure-potential interfaces, solving for tech that invalidates markets which depend on problems like inequalities
 
-      
+  - summary of advice
+
+    - invest based on:
+
+      - prioritizing real value signals: 
+          - products that fulfill a need
+          - companies that self-invest (prioritizing growth by re-investing in growth)
+          - leaders that guide by example
+          - independence: invest in independent value sources & independence-generating assets, become an independent self-supplier of your required inputs
+          - understanding: invest in assets you understand
+          - established/proven (long-term) value
+          - efficiency: take responsibility for your required inputs
+
+      - avoiding false value signals: 
+        - incentives: high-reward/low-cost reasons to invest that may not align with real value or be sub-optimal dynamics that destroy value in a different position of the system 
+          - speculation
+          - investment banker advice
+          - ceo status
+          - short-term value changes
+
+  - future value signals
+
+    - problem metrics: current problem-solution ratio, problem to problems-solved ratio
+      - solution metrics: 
+        - efficiency: sustainability, reusability, cost-benefit ratio
+        - independence: self-generatability, self-awareness/regulation/correction
+    - efficiency-generating metrics: 
+      - integration/organization/optimization/regulation/generalization
+    - info distribution (across teams, departments, ranks, customers, other businesses)
+    - info proxy derivation/acquisition/building
+      - education
+      - group membership (do they outsource some processing to groups, and which ones, and how do they evaluate groups like partners/clients/competition)
+      - understanding
+        - group dynamics (do they help toxic groups improve, do they have a self-destruct mechanism if they become a toxic group, etc)
+        - markets (do they organize & optimize markets to achieve their goals quicker)
+      - flexibility or learning potential (intelligence derivation/generation/acquisition/building)
+
 ## Prediction markets
 
 
