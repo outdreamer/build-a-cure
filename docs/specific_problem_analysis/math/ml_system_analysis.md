@@ -1,6 +1,5 @@
 ## Standard Neural Network Design for initial complex problem factor identification reduction
   
-
   - to do: 
     - generate nn of every core structure (like a combination structure to aggregate features into groups) having a useful intent for 'generating prediction function' intent
     - document interacting AI error types (as in financial price & crime prediction models)
