@@ -37,6 +37,7 @@
               - understanding
 
     - clarify/resolve terms that can be conflated: 
+      - anti/opposite
       - shape/structure
       - rule/test/metric/limit/threshold/boundary/state change/phase shift
       - intent/priority/motivation/incentive

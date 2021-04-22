@@ -16,13 +16,16 @@ useful_components = {
 		confusion
 		attention
 		understanding
+		convexity
+		importance/relevance/meaning
 	]
 	attributes: [
 		uniqueness
+		sensitivity
 		required/optional
 		positive/neutral/negative
 		automatic
-		verifiability/measurability
+		verifiability/measurability (invisibility, imaginary)
 		reusability
 		consistency
 		stability
@@ -35,9 +38,17 @@ useful_components = {
 		clarity (explicit/implicit)
 		directness
 		commonness
+		control
 	]
 	structures: [
 		filter
+		extreme
+		edge
+		angle
+		matrix
+		field
+		fractal
+		corner
 		spectrum
 		dichotomy
 		repetition
@@ -56,7 +67,7 @@ useful_components = {
 		stack
 		intersection
 		point
-		combination/list/group
+		combination/list/group/subset
 		sequence
 		hub
 		vector
@@ -74,8 +85,13 @@ useful_components = {
 	]
 	functions: [
 		update
+		prepare
+		execute
 		attack
-		distribute
+		share/trade/own
+		create/destroy
+		distribute/centralize
+		delegate
 		activate/enable
 		accept/trust
 		decide/select
@@ -99,7 +115,7 @@ useful_components = {
 		derive
 		connect
 		organize
-		coordinate
+		coordinate/cooperate
 		integrate
 		fit
 		match
@@ -109,13 +125,17 @@ useful_components = {
 		break
 		damage
 		disconnect
-		remove
+		add/remove
 		enforce/regulate
+		compound
 	]
 	objects (should contain all structures, as well as all objectified functions/concepts): [
 		interface
 			organization
+				compartmentalization
+				index
 			integration
+			composition
 		potential
 			irreversibility
 			alternative
@@ -132,14 +152,18 @@ useful_components = {
 				possibility
 				probability
 				approximation
+				technicality
+				counterintuition
 		structure
+			convergence
 			scale
+			collision
 			adjacence
 			scope/range
 			origin/destination
 			alignment
 			reduction/expansion
-			equivalence/similarity/difference/opposite
+			equivalence/similarity/difference/opposite/inequality
 		cause
 			dependency/requirement/option
 			inevitability/ambiguity
@@ -164,7 +188,9 @@ useful_components = {
 					bias
 				assumption
 				expectation
+				conflation
 				conclusion
+				theory & supporting argument
 				correlation
 				interpretation
 				implication
@@ -193,13 +219,19 @@ useful_components = {
 			problem/solution/question/answer
 			definition
 			memory
+			reference
+			illusion
 		system
+			synchronization
+			component
 			trigger
 			context
 			efficiency
 			boundary
 			hub
 			vertex
+			exploit
+			competition
 			cost/benefit (incentive, tradeoff)
 			agent
 			resource
