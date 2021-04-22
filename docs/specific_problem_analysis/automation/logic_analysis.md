@@ -8,17 +8,35 @@
 
 ## Interface Analysis
 
+  - applying interface analysis to code problem space
+    - adding interface components & optimization, regulation, organization, integration components to each component
+      - example intent component:
+        - checking for user intent with next page indicator to open page of suggested intents/problems theyre trying to fulfill/solve, to check regularly that functionality matches intents
+      - example organization:
+        - indexing code as:
+          - data (in rules engine, or as examples of interface components like patterns, contradictions/counterexamples, or connecting logic)
+          - a variable that can be a constant if the system doesn't handle any further variation
+      - example optimization: 
+        - parameterizing functions to handle alternate intents
+        - hosting complexity/variation only where it's needed to handle lack of structure
+        - applying map structures to input/output to abstract & simplify input/output connection logic to as few functions as possible
+
   - interface analysis example with code components: 
     - usage: application, expectation/intention convergence, permission, error, interaction
     - change: difference/similarity types (difference in value, similarity in position), update, initialization, association/relation, removal, move
     - state, storage (database, distributed sync, cache, data structure), data
-    - organization (index, business logic)
+    - organization (index, structures (connections/positions), business logic)
+    - regulation
+    - optimization
+    - meaning/integration (system context fit)
+    - understanding (state of application relative to intended/optimal state, given problem/intent/tech understanding)
     - priority/intent/requirement
     - variable (parameter, attribute, input/output, type)
     - logic (function, fit, completeness, validity, match, gap, connection)
     - assumption: legitimate assumption (context) or false assumption (logic gap)
     - cause, responsibility, dependency
-    - scope/relevance, system/context, meaning/integration (system context fit), understanding (state of application relative to intended/optimal state, given problem/intent/tech understanding)
+    - scope/relevance
+    - system/context
     - interface analysis answers 'how do these concepts interact in a typical implementation', and 'what is the graph of their optimal interactions', with output like:
       - sub-intent of lines of code should match intents of code blocks, functions, & other larger units & structures of code
       - cause, intent, & meaning of code should align (the cause of a function call should match the intents supported by the function and the meaning of the function fit in the system context)
