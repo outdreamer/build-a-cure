@@ -1,19 +1,3 @@
-      - power dynamics
-          - rules: 
-            - if a person abuses their power without contribution, the others will notice and take their power away
-
-        - truth (type of power in the form of constant, reliable information) dynamics
-          - the truth has a limit on how much it can be stretched or re-used before over-dependence will make it false or reveal its limits
-
-        - trust (type of power in the form of delegation of an unenforced opportunity/responsibility) dynamics
-          - rules:
-            - there is an incentive to trust people in an absence of resources
-            - there is an incentive to trust people to create resources (positive expectations, as an input to peaceful coexistence)
-            - there is an incentive to not trust people if they have resources like:
-              - information about signals of untrustworthiness
-              - fear response or memory of untrustworthy behavior
-              - logical knowledge of incentive structure to abuse trust
-
 
 {
 
@@ -85,6 +69,68 @@
   },
 }
 
+{
+  "power": {
+    "types": [],
+    "definitions": {},
+    "objects": {},
+    "attributes": {
+      "inputs": ["excess", "efficiency", "storage", "energy"],
+      "outputs": ["change"]
+    },
+    "functions": [
+      "organization",
+      "distribution",
+      "cause",
+      "activation"
+    ]
+  },
+  "trust": {
+    "types": [],
+    "definitions": {},
+    "objects": {},
+    "attributes": {},
+    "functions": []
+  },
+  "cause": {
+    "structure": ["gap", "limit", "boundary", "shape", "layer", "set", "path", "position", "intersection", "base"],
+    "reason": ["incentive", "intent", "efficiency", "logic", "rule compliance", "matches"],
+    "attribute": ["similarity", "balance", "equal"],
+    "function": ["order", "alternatives", "combinations"],
+    "information": ["assumption", "implication", "definition", "pattern", "probability"],
+    "unit": ["core functions", "core objects", "core attributes", "core types"],
+    "change_rules": ["core", "structural", "system", "interface"],
+    "alternatives": ["paths", "metrics", "priorities", "filters"],
+    "certainty": ["risk", "randomness", "variance", "inevitability", "impossibility", "possibility", "probability"]
+  }
+}
+{
+  "info": {
+    "system": "structure"
+  },
+  "randomness": {
+    "info": ["lack info", "lack bias"],
+    "structure": ["equal alternatives", "equal distribution", "diverse input"]
+  },
+  "trust": {
+    "structure": ["depend on limited/specific inputs", "check at intervals"]
+  },
+  "power": {
+    "structure": ["alternatives", "connection hub", "input"],
+    "concept_structure": ["potential", "change potential", "change activation", "truth source", "truth access point", "truth access path"],
+    "concept": ["freedom", "independence"],
+    "info": ["energy"]
+  },
+  "equal": {
+    "structure": ["conditionally interchangeable", "absolutely interchangeable", "approximately interchangeable", "minimally distant", "efficiently convertable"]
+  },
+  "truth": {
+    "info": ["constant info", "aggregate info", "average info", "testable info", "measurable info", "storable info", "not impossible info"],
+    "intent": ["useful info", "relevant info", "maintainable info"],
+    "structure": ["adjacent info"]
+  }
+}
+
 
   - define the database schema containing:
     - an index of info objects (data store containing info objcts like queries, definitions, formats, concepts, insights, solutions, functions, strategies, patterns, etc)
@@ -108,3 +154,21 @@
     - the interface-interface where interface analysis is executed (the meta-interface or meaning interface) uses the core functions that can generate the general interface network (filter/find/identify, apply/combine, build/fill, derive/predict, change/transform/process) 
     - interface network: the set of networks that act as useful filters/standards for applying structure to organize information 
     - interface: a filter/standard for comparison of specific attribute(s) 
+
+  - add concepts to definitions
+      - power dynamics
+          - rules: 
+            - if a person abuses their power without contribution, the others will notice and take their power away
+
+        - truth (type of power in the form of constant, reliable information) dynamics
+          - the truth has a limit on how much it can be stretched or re-used before over-dependence will make it false or reveal its limits
+
+        - trust (type of power in the form of delegation of an unenforced opportunity/responsibility) dynamics
+          - rules:
+            - there is an incentive to trust people in an absence of resources
+            - there is an incentive to trust people to create resources (positive expectations, as an input to peaceful coexistence)
+            - there is an incentive to not trust people if they have resources like:
+              - information about signals of untrustworthiness
+              - fear response or memory of untrustworthy behavior
+              - logical knowledge of incentive structure to abuse trust
+

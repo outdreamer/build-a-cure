@@ -1,5 +1,39 @@
 # physics 
 
+    - examine temporary stabilized filter structures in ozone to push co2 out of atmospheric layers away from earth & forces to do that
+
+    - example of aligning & standardizing to interfaces to identify optimal methods to solve a problem:
+        - use of non-structural information (randomness, imaginary numbers, & other sources of uncertainty) as an input for intents like 'exploring rules of high-variation structures like energy, info, or space-time'
+        - example accidental application of this: https://phys.org/news/2021-03-imaginary-quantum-resource-theory.html
+      - examine peak/valley of space-time wave as flow between energy (info) storage/usage types, possibly acting as opposite ends of a spectrum representing a trade-off (on liquidity, direction & other attributes)
+      - examine magnetic/gravitational/electrical/other forces determining relationships of space-times
+        - forces allowing:
+          - non-adjacent & multi-directional space-times to be connected
+          - space-times that arent efficient enough to be used as input to be left behind/dissolved rather than crystallized/connected
+        - finding structures of lack where forces arent triggered bc there arent particles or other structures of energy there, to allow for uncertainties to develop & be used as input
+
+  - examine subatomic superpositions as such a fast aggregation of time that each possibility is occurring simultaneously
+    - if superpositions are a core physical structure of uncertainty, examine whether they can be used as a base for the optimal neural network structure, where core problem types are handled by subatomic particle type structures & other structures relevant to superpositions
+    - applications
+      - anti-structures: enforced lack of structure to preserve lack of structure development to ensure scale of operations
+        - performing calculations in places with less gravity to speed them up and send them back to places with more gravity to get answers relatively quickly
+    - questions
+      - what combinations of velocity/time/scale produce equal positions/perspectives, and are there stable paths between them
+        - what differences in potential emerge in different perspectives (differences in potential like reversibility)
+        - how many different perspective types are there, and do they stabilize to a particular perspective in a vacuum
+      - which change measurement syncs the best with time progression
+      - which metadata (scale) are the best sources of randomness structures found in
+      - which structures can store one-directional time (aka information)
+        - where info is measurable, leaves signals, and processes are irreversible
+        - is there a structure that can permanently store information (unchangeable information)
+        - what structures of cause (inevitability, certainty, stability, equivalence) exist at subatomic scales
+      - time speed factors: 
+        - more interactions have to happen at larger scales
+        - fewer things change at large scales
+        - there are more randomness injection points at larger scales
+        - change-resistance (stability) occurs more at larger scales
+        - change measurability varies across scales
+
     - physics determines probability (of interactions), math describes certainty (of interactions)
       - map physics/math with structural connections like:
         - truth: organization, efficiency, stability, power to act as a foundation/filter, opposite of randomness 

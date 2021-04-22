@@ -1,5 +1,40 @@
 ## Investing markets 
 
+  - reverse engineering structures like bet types & their ratios (ratio of types like random guessing, price-dependent algorithm bets, temporary bets in non-viable companies for profit beyond actual value, actual investments in innovation/businesses) to identify & filter out trading cycles to isolate unidentified bet types
+
+  - identify economic cycles not integrated enough with other economic structures so as to be considered essential
+    - debts to entities who dont provide essential inputs or inputs further up the chain with x degree of distance from essential resource suppliers
+
+  - platform to apply a portfolio of AI models to price a stock given private company data like available resources, internal analysis, & implementation plans & publish the ai-generated prices, with comparative historical pricing of other companies using similar data pre-ipo or valuation, as an offset to price pumping & other forms of misrepresentation
+
+  - 'shared responsibility pools' as a form of insurance
+    - anyone who uses a particular proxy/VPN/cryptocurrency accepts some responsibility for requests/transactions executed on that service in cases where the actual criminal cant be determined
+    - feature where they can pay to prevent non-verified users from using the service or pay to use an 'invite-only' service
+
+  - abstract risk insurance: guarantee a relative position (without specific currencies or amounts), such as 'resources giving a top 10% economic position'
+
+  - in a market where uncertainty & unexpectedly correct predictions (unlikely predictions) have value, high-value contradictions of assumptions (high price of low-valued stock) are an error type structure
+
+  - example of merging structures and filtering by intents that are useful to some agent
+    - stock market (predicting uncertain value) x gaming (low-stakes task completion in a system)
+      - stock market tasks in a (legal, business) system
+        - deriving value of legislation
+        - predicting legislation
+        - legislation (more static rules) competing with more dynamic rules
+        - forming business structures to aggregate/delegate/distribute risk
+      - predicting uncertain value in tasks
+        - predicting which tasks will win a game
+        - insuring against risk of players completing or not completing a task
+      - feature request & prediction market
+      - game plot/cheat code/successful strategy prediction market
+      - prediction games
+        - false signals, gathering/deriving info, identifying important variables, applying successful analysis rules
+      - insurance & other risk & financial products in games
+      - stock market games allowed by legislation to allow a degree of collusion/organization in prediction markets
+      - organization & risk structures allowed in a particular game, for a level of difficulty/complexity
+      - games accessed with performance in previous prediction games to find best predictors and assign them more complex problems, like predicting emergent trends in interactions of complex systems
+      - business & stock markets as an info-trading game to get products/features/prices and other company byproducts (clean energy practices, mergers, etc)
+
   - apply system analysis to current investments to detect imminent problems (conflicts, inefficiencies, exploit opportunities, incentivized laws/loopholes, incentives to use sub-optimal strategies or exploits, mismatch in demand/supply) and suggest corrections that will optimize investments
     - the right algorithm will identify structures like interaction layers of highest-variation inputs that produce highest-variation outputs to identify where high-impact changes can be made
       - then it will filter for optimizations like lowest-cost, lowest-side effect, highest-impact changes
@@ -46,6 +81,8 @@
         - group dynamics (do they help toxic groups improve, do they have a self-destruct mechanism if they become a toxic group, etc)
         - markets (do they organize & optimize markets to achieve their goals quicker)
       - flexibility or learning potential (intelligence derivation/generation/acquisition/building)
+
+  - finance: assess value of prior work by work that is still relatively valuable, incentivizing new work
 
 ## Prediction markets
 

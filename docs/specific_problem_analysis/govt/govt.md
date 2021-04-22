@@ -1,5 +1,23 @@
 ## Optimization
 
+    - identify accidental & intentional govts/laws/markets, based on function metadata concepts
+      - responsibility (restricting functionality to the functions that can & should handle, based on whether they caused the problem resolved by that functionality)
+      - relevance (restricting info only to functions that need it)
+      - structure (functionality gaps)
+      - potential (analyzing future functionality and paths to those states)
+      - integration (analyzing impact of intent/responsibility/optimizations of a function)
+      - optimization (storing functionality needed, generating functionality where possible & where usage allows)
+      - organization (indexing functionality in a way with specific side effects like limiting possibilities, and organization through queries & changes of functionality)
+
+    - calculate deaths caused by products/companies by proportional contribution to deaths from slavery & pollution/plastic/additive/medicine & other chemicals
+
+    - in order to prevent "info genocide", where groups that dont adapt quickly (bc of lack of group self-awarenesss & resulting adaptation, or alternatively a lack of lighter/temporary/optional connections allowing competition in a free market of group membership, requiring adaptation in group market to survive) are eliminated by groups with better organization/cooperation/adaptation/self-awareness or freedom given to members, you can:
+        - distribute power limits to prevent any group from acquiring more power than other groups (more resources in the form of info, tech, land, supply chain dominance, market share, innovation advantage, organization)
+        - distribute power artificially to offset naturally occurring imbalances from randomness
+        - delegate power to tech automation
+        - prevent power from accruing (prevent info from being storable/transferrable)
+        - help all groups achieve self-awareness & independence and distribute it to members
+
   - predictions as a path optimization problem, where nodes are variables
 
   - Determining which queries/calculations are optimal

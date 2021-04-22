@@ -1,7 +1,33 @@
 ## Standard Neural Network Design for initial complex problem factor identification reduction
   
+
   - to do: 
     - generate nn of every core structure (like a combination structure to aggregate features into groups) having a useful intent for 'generating prediction function' intent
+    - document interacting AI error types (as in financial price & crime prediction models)
+    - finish applying structure to info components (memory components like personality, forgetting, compression, uniqueness, generation, learning, bias, and organization components like relevance, differences, type, abstraction, standards, randomness) to generate full set of neural net types & filter by usage intent
+    - integrate related AI models within the same network of variables to derive functionality 
+      - if you have an AI model to predict relationships between causally sequential variable sets A/B/C, D/E/F, and G/H/I, apply the connecting variable set models (A/B/C and G/H/I) to create a logical function to connect inputs/outputs of the D/E/F variable AI model (or a subset of variables), as a filter to streamline output of the model in response to changes to relevant to data & variables
+        - this is an alternative to training a model on D/E/F in isolation, & updating it by training it on new data received
+        - not only should it be able to identify the dependent variable value with accuracy, it should be able to fit into the network of relevant variables, connecting other related variable sets (A/B/C and G/H/I)
+        - this may offer the possibility of skipping modeling D/E/F at all, if A/B/C is predictive of G/H/I on its own in the target range of accuracy, but at least will offer extra validation potential of D/E/F model inputs/outputs, and may provide core functions/structures (generalizers, thresholds, filters) to use in building the reduced stabilized logical form of the D/E/F model on-demand
+        - answers the questions:
+          - 'given A/B/C and G/H/I models, does D/E/F make sense'
+          - 'can a reduced stable logical form of DEF be derived from ABC & GHI, and does this logical form match DEF, and to what degree'
+          - 'why a variable is useful to predict another', not just 'if a variable is useful to predict another', since knowing 'why' will help the model adapt when that reason changes
+
+  - nn concepts:
+      - 'games/play' as injecting low-stakes false info into other ai models/algorithms
+      - useful insight path questions to derive new neural network structures/algorithms to produce problem/solution types
+        - what kind of mind can produce this decision (one without this definition, truth filter, rule, network, concept, etc)
+
+  - primary variables of brain functionality:
+      - connectivity/alignment
+      - position/adjacence
+      - structural integrity
+      - available/adjacent/possible structures
+      - circuits (closed/open)
+      - sub-systems (optimized for a function)
+      - for some problems, some aspects of the optimized network should be deactivated/inaccessible - give example of how to calculate the structures necessary to solve a problem structure
 
   - nn predictions based on granular change-polling nodes, change integration functions (aggregate changes from polling nodes & test if they require changes at higher levels)
 
