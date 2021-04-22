@@ -991,26 +991,39 @@
 
 ## generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
 
-    - intent: future direction with benefit to agency
-    - cause: preceding inevitability requirement in sequential structure
-    - function: structure of task structures (conditions, assignments, iterations) consistently connecting input & output
-    - logic: function to connect info using info structures (definitions, inevitability, pattern-matching, exclusive/inclusive conditions, requirements, assumptions)
-    - potential: structures like combinations not certainly excluded by requirements
-    - change: difference in an attribute value, according to a base (time, relative change, change type)
-    - abstraction: general pattern of a specific structure set
-    - pattern: a set of connecting functions, often in a sequence structure
-    - structure: connections & change of measurable change & difference types
-    - info: specific description of a structure
-    - math: description-connecting functions
-    - system: structure of independence, often having boundary, function & other component structures, at a particular interaction level
+	- the interfaces defined as the following:
+	    - intent: future direction with benefit to agency
+	    - cause: preceding inevitability requirement in sequential structure
+	    - function: structure of task structures (conditions, assignments, iterations) consistently connecting input & output
+	    - logic: function to connect info using info structures (definitions, inevitability, pattern-matching, exclusive/inclusive conditions, requirements, assumptions)
+	    - potential: structures like combinations not certainly excluded by requirements
+	    - change: difference in an attribute value, according to a base (time, relative change, change type)
+	    - abstraction: general pattern of a specific structure set
+	    - pattern: a set of connecting functions, often in a sequence structure
+	    - structure: connections & change of measurable change & difference types
+	    - info: specific description of a structure
+	    - math: description-connecting functions
+	    - system: structure of independence, often having boundary, function & other component structures, at a particular interaction level
 
+	   have common components/variables, like:
+	   	- connections, time, structure, types
+
+	   which can be used to create alternate interfaces, like:
+	   	- combine info, time, & types to create a new interface, combination interface, or interface structure (type state network, network of contexts/conditions/assumptions)
+	   	
 ## multiple queries for low-info problem statements
 
     - use parallel/perpendicular insight paths, for insight paths that add info that the other is less/more likely to retrieve
+    - use the insight path combination that is likely to capture the most different/verifiable/incorrect info, which can be quickly tested for relevance or used to filter the solution space the most efficiently
 
-## variables
+## interface query variables
 
-	- implementation variables as config options (different generation starting point/source of truth, equivalent/different voting influence in determining interface queries or system optimizations, different constants/derived info/functions, different default interfaces/definitions, etc)
+	- solution automation & interface analysis program implementation variables can be configuration options, and may include:
+		- generation starting point/source of truth
+		- voting influence in determining interface queries or system optimizations
+		- system optimization metrics
+		- constants, definitions, derived info, and functions
+		- default interfaces/definitions
 
 ## associating interface operations with intent 
 
