@@ -9,9 +9,12 @@ useful_components = {
 		independence
 		potential
 		energy
+		validity
+		time
 	]
 	attributes: [
 		uniqueness
+		verifiability/measurability
 		reusability
 		consistency
 		stability
@@ -22,9 +25,13 @@ useful_components = {
 		optimal
 		complexity
 		clarity (explicit/implicit)
+		directness
 	]
 	structures: [
 		filter
+		ratio
+		interval
+		position
 		symmetry
 		path
 		alignment
@@ -36,22 +43,25 @@ useful_components = {
 		level
 		intersection
 		point
-		combination/set/group
+		combination/list/group
 		sequence
 		hub
 		vector
-		inequality: [
+		loop
+		limit
+		in/equality: [
 			specificity/generalization
 			overlap
+			in/complete
 			lack/excess
-			mismatch
-			imbalance
-			limit
+			mis/match
+			im/balance
 			conflict
 		]
 	]
 	functions: [
 		update
+		distribute
 		activate/enable
 		accept/trust
 		decide/select
@@ -59,6 +69,9 @@ useful_components = {
 		find
 		filter
 		identify
+		emphasize
+		move
+		invalidate
 		differentiate
 		equate
 		isolate
@@ -79,10 +92,14 @@ useful_components = {
 		test
 	]
 	objects (should contain all structures, as well as all objectified functions/concepts): [
-		resource
+		interface
+			organization
+			integration
 		potential
 			irreversibility
 			alternative
+				interchangeability
+				substitute
 			certainty/uncertainty
 				stability (ability to change from variance injections)
 				randomness
@@ -101,11 +118,15 @@ useful_components = {
 			reduction/expansion
 			equivalence/similarity/difference/opposite
 		cause
-			dependency
+			dependency/requirement/option
 			inevitability/ambiguity
 			isolatability
 		core
 			object/attribute/function/type
+			base
+				standard
+					average
+				compliance (alignment vs. distortion)
 		function
 			usage
 			logic
@@ -133,34 +154,34 @@ useful_components = {
 			incentive
 		concept
 			generalization/specification
-		base
-			core
-			standard
-			average
-			compliance (alignment vs. distortion)
 		change
 			version
 			distortion
 			variable
 			constant
 				default
+			change variable to constant (selection/decision)
 		information
 			state
 			problem/solution/question/answer
 			definition
 			memory
 		system
+			context
 			efficiency
 			boundary
 			hub
-		optimization		
-			test
-			metric
-			measurement		
-		interaction
-			connection
-			interaction layer
-			coordination
+			cost/benefit (incentive)
+			agent
+			resource
+			optimization		
+				test
+				metric
+				measurement		
+			interaction
+				connection
+				interaction layer
+				coordination
 	]
 	error_concepts: [
 

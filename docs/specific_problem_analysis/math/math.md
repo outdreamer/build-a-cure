@@ -1,3 +1,7 @@
+  - examine calculation errors from one partitioning method vs. other methods, & a function to balance their contribution to error to select an optimal partitioning method for an accuracy level
+    - a way around the discrete vs. continuous dichotomy is combinations: 
+      - discrete counts of continuous compositions (overlaps, layers, components)
+
   - questions that a computer may not be able to answer even with unlimited memory/computation capacity, without trial & error or other memory-based approach (simply storing methods that worked & incrementally building on that info) to determine system analysis methods
     - what calculations will prove to be optimal (faster/more accurate), before or during processing
 

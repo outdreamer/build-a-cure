@@ -1,5 +1,7 @@
 - code
 
+  - add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
+
   - anti-stupidity addiction counseling & meditation app, fixing addictions & related error types with incrementally slightly less evil replacements:
     - racism by convincing them there are non-racial groups that deserve hatred more ("hey Sharon, you're so right about the Jews, they absolutely cared about covering up their space weapons program enough to serve you that ad about fun outdoor non-genocide activities in your area, but you know who I hate more - wiccans with vegan pets" could be all it takes to wean Sharon off of her ethnic hatred so she can write manifestos about the behaviors she hates instead)
     - jealousy, by convincing them there are other people more deserving of jealousy, such as people who don't feel it bc they're the best ("my dearest Beatrice, rather than trying to criminalize your male coworkers complimenting someone else, dare I suggest developing intelligence so you can create any asset your heart desires" can fix Beatrice so she fulfills her destiny of being the recipient of increasingly & unnecessarily dramatic letters)
