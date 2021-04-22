@@ -54,7 +54,7 @@
         - interface network: a set of standardizing filters applicable to format information in way that it can be analyzed with interface-specific logic, 
         - a query of the interface network may also be a problem-solving automation workflow, if problems can be solved with the format sequence indicated by the interface traversal
 
-        -  For a prediction function problem, the solution space is the range of likely prediction functions. 
+        - For a prediction function problem, the solution space is the range of likely prediction functions. 
         - The problem space is the route between independent variables and the dependent variable on a network - it can also be framed as the route between common prediction function terms for a data set like the input data set, and the prediction function. The original problem structure is also depicted as a subset of this problem space visualization.
         - The solution function can be a route on the problem space if the problem space is formatted as a network, for example.
         
@@ -92,7 +92,7 @@
         - game: a set of intents/alternatives/limits/incentives/exploits/rules/risk & a definition of distance from intent fulfillment (position), usually resulting in the resolution of a clearly optimal route. The game definition includes: 
             - a game is a type of system & a mixed set, which can exist as a component of a system 
             - games can have many different structures like: 
-                - a directed graph with a vector set representing possible agent intents/ functions/resources 
+                - a directed graph with a vector set representing possible agent intents/functions/resources 
                 - a system of nodes & links where agents need function input resources to traverse 
                 - a decision tree where certain tree info becomes accessible only at certain nodes (adding uncertainty/risk) 
                 - a set of trade options between nodes with different info change/update rules in a system to optimize a resource/trade/market metric 
@@ -119,9 +119,9 @@
         - component: functions/attributes/types/objects/systems 
         - input information: can refer to original information input to the initial interface traversal, or traversal output information that has been converted, enhanced, formatted, or otherwise altered in a prior interface traversal, stored as a possible version of the original input information, and sent as input to another interface traversal 
         - interface: 
-        - function: a set of inputs, a sequential list of rules or rule lists (logic tree) applied to the input set, an output set created by changes to the input set executed by the sequential rule list, optionally including side effects from execution. A function may be formatted in a different way, such as a list of attributes, filters, or a network. 
-        - intent: any of an abstract goal with direction, a reason to use something, or an output such as the intended result or an unintended side effect, which can be an abstract priority like fairness, a concrete goal, and can have a starting & ending position. 
-        - concept: set of unique objects remaining once objects from other spaces have their context & contradictory attributes removed.  
+          - function: a set of inputs, a sequential list of rules or rule lists (logic tree) applied to the input set, an output set created by changes to the input set executed by the sequential rule list, optionally including side effects from execution. A function may be formatted in a different way, such as a list of attributes, filters, or a network. 
+          - intent: any of an abstract goal with direction, a reason to use something, or an output such as the intended result or an unintended side effect, which can be an abstract priority like fairness, a concrete goal, and can have a starting & ending position. 
+          - concept: set of unique objects remaining once objects from other spaces have their context & contradictory attributes removed.  
         - network: standard network graph containing nodes (sometimes called vertices) & linking functions (sometimes called edges), with or without node attributes, function relationship determining function shape, and direction as an indicator of intent or another metric.  
 
        - info conceptual relationships:

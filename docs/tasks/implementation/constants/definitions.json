@@ -94,7 +94,7 @@
   },
   "cause": {
     "structure": ["gap", "limit", "boundary", "shape", "layer", "set", "path", "position", "intersection", "base"],
-    "reason": ["incentive", "intent", "efficiency", "logic", "rule compliance", "matches"],
+    "reason": ["incentive", "intent", "efficiency", "logic", "compliance", "match"],
     "attribute": ["similarity", "balance", "equal"],
     "function": ["order", "alternatives", "combinations"],
     "information": ["assumption", "implication", "definition", "pattern", "probability"],

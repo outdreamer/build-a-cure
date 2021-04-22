@@ -1,3 +1,16 @@
+  - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
+
+    - identify 'inevitable' definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
+      - example: a definition route that cant be used as a definition of both balance & power, just one
+      - unique intents are also a useful foundation structure for the intent interface
+
+    - apply structures to overlaps in definition routes
+      - find the adjacent structure without contradictions, that doesnt resolve to either specific option, within the limits of both definition routes
+        - lack/limit :: resource 
+        - function :: resource 
+          - resource-generating function :: resource
+            - resource :: function
+
   - organize examples of logic for functions (interface query design logic)
 
     - document locked objects that are inputs to core objects (like functions & concepts)
@@ -20,6 +33,9 @@
     - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
     - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
     - finish list of interface implementation problem type structures (suboptimal interface queries, incomplete definition routes, sub-optimal or mismatched formats) 
+
+    - decision points (required/optional resolution of variables to constants, as in selecting a variable value)
+      - identify when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
 
     - different interfaces to solve problem on:
       - interfaces to format problem on:
