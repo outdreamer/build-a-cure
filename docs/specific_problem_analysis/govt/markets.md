@@ -1,5 +1,8 @@
 ## Investing markets 
 
+  - examine net effect of competition on markets
+        - does allowing companies to fail have a net negative effect thats biggest on the risk (insurance/debt) industries, organization/analysis (ratings, group investing), info markets, govt industry, or is the negative effect exported to other countries or used as an input (legal precedent, example to use for future legislation) or do negative effects continue to be transferred to end-nodes of debt chains (those oppressed by stacked inequalities)
+
   - reverse engineering structures like bet types & their ratios (ratio of types like random guessing, price-dependent algorithm bets, temporary bets in non-viable companies for profit beyond actual value, actual investments in innovation/businesses) to identify & filter out trading cycles to isolate unidentified bet types
 
   - identify economic cycles not integrated enough with other economic structures so as to be considered essential

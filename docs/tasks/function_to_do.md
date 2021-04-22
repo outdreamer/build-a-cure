@@ -1,6 +1,7 @@
 # to do
 
-  - structures
+  - apply to structures
+
     - concept of attention in structures
       - mixed interim high-variation & high-similarity structures tend to maximize attention
     - examine conflating intent & requirement
@@ -17,53 +18,17 @@
   - finish organizing lists of examples, functions, info objects (insight paths, definitions, questions), components for configuration
 
     - organize examples
+    
       - label examples so they can be queried more structurally
       - query for logic in examples when implementing functions
       - organize examples of useful structures & questions in index.md
         - identify useful questions in notes
         - check reduced language components for any other useful functions (what terms cant be adjacently, clearly & accurately framed in terms youve defined) for completeness
 
-  - examine calculation errors from one partitioning method vs. other methods, & a function to balance their contribution to error to select an optimal partitioning method for an accuracy level
-    - a way around the discrete vs. continuous dichotomy is combinations: 
-      - discrete counts of continuous compositions (overlaps, layers, components)
-
-  - use isolatability/inevitability/uniqueness as a structural foundation for interface conversion/generation logic
-
-    - identify 'inevitable' definition routes that are unique which can be used as a default generation intent for the core data included for app functionality
-      - example: a definition route that cant be used as a definition of both balance & power, just one
-      - unique intents are also a useful foundation structure for the intent interface
-
-    - apply structures to overlaps in definition routes
-      - find the adjacent structure without contradictions, that doesnt resolve to either specific option, within the limits of both definition routes
-        - lack/limit :: resource 
-        - function :: resource 
-          - resource-generating function :: resource
-            - resource :: function
-
-  - identify structures (like contradictions & distortions from expected normal) as input to info type generation algorithm
-
-  - examine the distortion vector paths that adjacently decompose a data set into a prediction function from a base point/function set
-
-  - add to decision points
-    - when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
-
-  - de-duplicate logic
-    - organize interface analysis logic definitions
-      - organize functions in problem/interface definitions, before organizing functions in implementations/*
-    - integrate problem_solving_matching.md
-    - integrate find/apply/build/derive logic from system_analysis/ & maps/defs*.json
-    - separate interface analysis logic into implementation/functions (functions dont need unique info)
-    - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
-      - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
-
-    - integrate rules from diagrams in patent applications to relevant documents
-          
-  - using set theory in query operations:
-    - edges as core organizing/formatting operations (find/apply) & interfaces (connecting/explanatory concepts/functions)
-    https://en.wikipedia.org/wiki/Hypergraph
-
 
 ## examples
+
+  - examine the distortion vector paths that adjacently decompose a data set into a prediction function from a base point/function set
 
   - give example of mapping to structures & identifying contradictions its safe to ignore for applying a structure
 
@@ -82,6 +47,9 @@
   - include example workflows with example problems
     - include example of how to generate other workflows (different starting/ending points & trajectories)
 
+  - example of using set theory in query operations:
+    - edges as core organizing/formatting operations (find/apply) & interfaces (connecting/explanatory concepts/functions)
+    https://en.wikipedia.org/wiki/Hypergraph
 
 ## diagram
   
@@ -153,22 +121,10 @@
     - map variable structures to prediction potential for problem types, given ratio of equivalent alternate signals
 
     - vertex variable structures
-      - quantum physics, prediction/derivation tools, build automation tools, testing tools, learning/adaptation tools, system rules, computation power are all vertex variables of information - they can generate/derive/find information
-      - which structure (sequence, network, set, or cycle) of vertex variables is most efficient
+      - quantum physics, prediction/derivation tools, build automation tools, testing tools, learning/adaptation tools, system rules, computation power are all vertex variables of information, since they can generate/derive/find information
+        - which structure (sequence, network, set, or cycle) of vertex variables is most efficient
 
-    - add to markets:
-      - examine net effect of competition on markets
-        - does allowing companies to fail have a net negative effect thats biggest on the risk (insurance/debt) industries, organization/analysis (ratings, group investing), info markets, govt industry, or is the negative effect exported to other countries or used as an input (legal precedent, example to use for future legislation) or do negative effects continue to be transferred to end-nodes of debt chains (those oppressed by stacked inequalities)
-
-    - add to internet optimizations: add local data backup centers to cache copies of critical data just like backup electricity generators to methods of recovering or rebuilding crashed systems with alternate data sources
-
-    - add to govt:
-
-    - finish core component metadata
-      - identify any missing attributes/functions that cant be reduced further
-        - example: 
-          - everything that exists (has structure, either implied or verified) has an opposite/different version, so 'opposite' is a core attribute
-          - everything that has structure can be verified to some degree, so 'verifiability' is a core attribute
+    - core component attributes: identify any missing attributes/functions that cant be reduced further
 
 # content/config
 
@@ -197,11 +153,18 @@
       - generated object change types
         - constant to variable
         - variable to removal of assumption in variable type/data type
-
     - examine implementing your solution type (constructing structures (made of boundary/filter/resource sets) to produce substances like antibodies, using bio system stressors)
-    
     - resolve & merge definitions into docs/tasks/implementation/constants/definitions.json
-
     - update links
-
     - integrate archive_notes/finder_info/functions
+    - de-duplicate logic
+      - organize interface analysis logic definitions
+        - organize functions in problem/interface definitions, before organizing functions in implementations/*
+      - integrate problem_solving_matching.md
+      - integrate find/apply/build/derive logic from system_analysis/ & maps/defs*.json
+      - separate interface analysis logic into implementation/functions (functions dont need unique info)
+      - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
+        - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
+
+      - integrate rules from diagrams in patent applications to relevant documents
+            
