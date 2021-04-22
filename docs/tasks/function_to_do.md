@@ -8,10 +8,15 @@
       - potential: what alternative options are available to solve the problem
       - functions: what functions can construct (and by implication, deconstruct) the problem
       - intent: what intents (of which functions, like 'find info') can the problem be represented as
-      - change: what changes to the problem can convert it into a non-problem or solution
+      - change: what changes to the problem can convert it into a non-problem or solution, what variables of the problem are relevant on some interface
       - interface: what structures of randomness or organization can be applied to the problem interface objects to make them relevant/useful for the problem-solving intent
     - questions:
       - how can structures of these interfaces be changed/organized to reduce/remove the problem or convert it into a solution
+
+    - all of these primary interfaces are relevant for interface query design:
+      - potential: is the problem possible to solve with adjacent resources, what alternative queries can be run in parallel to reduce solution space the quickest
+      - structure: what is the adjacent format for this problem
+      - info: what info should be found/derived/generated in what structure (like sequence)
 
   - summary of advice
 
