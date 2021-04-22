@@ -1,5 +1,25 @@
 # to do
 
+  - finish organizing examples
+
+  - add to nn concepts:
+    - 'games/play' as injecting low-stakes false info into other ai models/algorithms
+    - useful insight path questions to derive new neural network structures/algorithms to produce problem/solution types
+      - what kind of mind can produce this decision (one without this definition, truth filter, rule, network, concept, etc)
+
+  - implementing interface analysis in code problem space
+    - adding interface components & optimization, regulation, organization, integration components to each component
+      - example intent component:
+        - checking for user intent with next page indicator to open page of suggested intents/problems theyre trying to fulfill/solve, to check regularly that functionality matches intents
+      - example organization:
+        - indexing code as:
+          - data (in rules engine, or as examples of interface components like patterns, contradictions/counterexamples, or connecting logic)
+          - a variable that can be a constant if the system doesn't handle any further variation
+      - example optimization: 
+        - parameterizing functions to handle alternate intents
+        - hosting complexity/variation only where it's needed to handle lack of structure
+        - applying map structures to input/output to abstract & simplify input/output connection logic to as few functions as possible
+
   - different interfaces to solve problem on:
     - interfaces to format problem on:
       - structure: what are the problem structures
