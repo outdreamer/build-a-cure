@@ -1,5 +1,7 @@
 # to do
 
+  - integrate objects/ text with interface implementations
+  
   - apply to structures
 
     - concept of attention in structures
@@ -10,6 +12,7 @@
         - the development of excess resources, delaying required decision time (making immediate decision unnecessary, avoiding a forced decision), requiring:
           - the existence & application of previous efficiencies & functions for alternative evaluation, energy storage, storage-checking, & energy requirement-identifying
       - the cause could be framed as structures such as an 'efficiency stack' or 'energy maintenance functions' or 'alternative options' or 'navigation/motion control' or 'lack of requirement/need'
+    
     - examine similarity (alignment/overlap) structures between: 
       - extremely different components (when an error type is an incentive or a function used for other intents) 
         - when the solution format of some problem has similarities to the error type, like when you need randomness so errors generating randomness are a possible function to use for that intent
@@ -18,7 +21,7 @@
   - finish organizing lists of examples, functions, info objects (insight paths, definitions, questions), components for configuration
 
     - organize examples
-    
+
       - label examples so they can be queried more structurally
       - query for logic in examples when implementing functions
       - organize examples of useful structures & questions in index.md
@@ -34,8 +37,6 @@
 
   - example of permuting assumption: "reports of power consumption have to be exact measurements" 
     - a temperature monitor sensitive to a hundredth of a degree might provide similar but non-specific power reporting for important/extreme usage patterns without revealing such specific information as that which could infer exact operations being done, bc the interval of temperature measurements allows for greater variation in calculations that could explain it
-
-  - finish dilemma problem type example formats
   
   - query examples for use cases like:
     - lack of information stored (match problem of type 'information lack' with interface query 'check pattern interface for similar patterns')
