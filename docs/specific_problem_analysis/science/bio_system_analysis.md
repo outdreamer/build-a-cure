@@ -1,5 +1,20 @@
 # science
 
+    - bio system analysis: examine what types/positions of intentionally triggerable DNA damage can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
+      - structural (DNA/cell) damage/change triggers: mutations from toxins, exercise, animal pathogens, enzymes, competition for energy, & other types of DNA mutations
+      - structural (DNA/cell) division/growth triggers: hormones, extra energy (energy imbalance based on need)
+      - structural (DNA/cell) repair/recovery/regulation triggers: like bypassing digestion with amino acids to help recovery, timing cycles & alignment
+      - other sources of structural change/standardization: 
+        - gaps in cell types/attributes
+        - sets of attributes
+        - clusters of attribute changes/values
+        - structural interaction levels
+      - once you identify a section of existing DNA/RNA that, when isolated & edited, would produce a useful section of pathogen DNA to trigger immunity with minimal & possible editing (adjacent change) given exposure to a chemical or other stressor:
+        - identify position in bio system where this change could be triggered by exposure in such a way that production of the DNA section is scalable (like in a cell that is about to be copied or a root/memory/template/stem cell) & where immune response would be quick
+        - identify filter/containing structures necessary to give exposure/immune responses the time they need
+        - identify type of exposure possible (injection, nanoparticle) and assemble components
+      - identify evolution triggers (like cycles & variation of stressors) & use as a supply of change requests to trigger adaptive mutations for pathogens or pathogen types
+
   - example of stressor structures to fix a problem: 
     - a combination of a substance that disrupts the blood brain barrier to allow another substance to get through for drug delivery and a substance that binds tissue to fix the disruption after its delivered, or a substance that can cross the barrier which, once crossed, is converted to the drug
 
