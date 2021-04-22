@@ -22,6 +22,8 @@
       - cause: what causes can be used to justify interface query design intents & decisions
       - change: what changes should the interface query support, and at what structures (like points in the logical sequence or tree)
       - logic: what logical fallacies are possibly present or possible for this interface query? does it comply with logical rules like connecting info across interfaces (facts, assumptions, implications)
+      - interface: how are these questions organized in a way to design the interface query optimally? (apply 'potential' filter first to make sure it's possible to solve)
+      - intent: what are the input/output intents of the interface query (input intent to solve a particular problem, output intents like emergent side effects of the interface query, like program optimization)
 
   - summary of advice
 
