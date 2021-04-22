@@ -7,9 +7,11 @@
       - info: what info is missing to solve the problem
       - potential: what alternative options are available to solve the problem
       - functions: what functions can construct (and by implication, deconstruct) the problem
+      - logic: what structures like connections fit (make sense), given how logic can be used to filter info structures (like by checking for multi-interface alignment such as aligning facts with logical connections)
       - intent: what intents (of which functions, like 'find info') can the problem be represented as
       - change: what changes to the problem can convert it into a non-problem or solution, what variables of the problem are relevant on some interface
       - interface: what structures of randomness or organization can be applied to the problem interface objects to make them relevant/useful for the problem-solving intent
+      - core: what core functions can be used to standardize the problem components
     - questions:
       - how can structures of these interfaces be changed/organized to reduce/remove the problem or convert it into a solution
 
@@ -17,6 +19,9 @@
       - potential: is the problem possible to solve with adjacent resources, what alternative queries can be run in parallel to reduce solution space the quickest
       - structure: what is the adjacent format for this problem
       - info: what info should be found/derived/generated in what structure (like sequence)
+      - cause: what causes can be used to justify interface query design intents & decisions
+      - change: what changes should the interface query support, and at what structures (like points in the logical sequence or tree)
+      - logic: what logical fallacies are possibly present or possible for this interface query? does it comply with logical rules like connecting info across interfaces (facts, assumptions, implications)
 
   - summary of advice
 
