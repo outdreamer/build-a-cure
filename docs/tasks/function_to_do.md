@@ -1,7 +1,7 @@
 # to do
 
-  - integrate objects/ text with interface implementations
-  
+  - integrate objects/.md text with interface implementations
+
   - apply to structures
 
     - concept of attention in structures
@@ -134,14 +134,14 @@
       - add default functions to solve common problem types
       - alternate utility function implementations have variation potential in the exact operations used to achieve the function intents, but there are requirements in which definitions these functions use because they are inherent to the system. For example, the embodiment may use a specific definition of an attribute (standardized to a set of filters) in order to build the attribute-identification function using a set of filters - but the general attribute definition is still partially determined in its initial version by requirements specified in the documentation, such as a set of core attribute types (input, output, function parameter, abstract, descriptive, identifying, differentiating, variable, constant), the definition of a function, and the definition of conversion functions between standard formats.
     - document time structures (concave time explaining compounding similarities up to a point of maximum concavity, a structure that can separate from the other space-times)
-    - systematize your definitions of info objects, to include analysis that produces relationships of core objects like opposites to their relevant forms (anti-symmetry) in addition to permuted object states (asymmetry), such as an anti-strategy, anti-information, anti-pattern
+    
+    - systematize definitions of info objects, to include analysis that produces relationships of core objects like opposites to their relevant forms (anti-symmetry) in addition to permuted object states (asymmetry), such as an anti-strategy, anti-information, anti-pattern
       - organize certainty (info) vs. uncertainty objects (potential, risk, probability)
       - make doc to store insight paths, counterintuitive functions, hidden costs, counterexamples, phase shift triggers
       - add technicality, synchronization, bias, counterintuition, & certainty objects leading to inevitable collisions
-        - the collision of compounding forces producing a phase shift
+        - error of the collision of compounding forces producing a phase shift
         - lack of attention in one driver and false panic in a second driver leading to a car crash given the bases where their processes originate
       - define alignment on interfaces (compounding, coordinating, parallel, similar, etc)
-      - start with these info object transforms that filter the most info: opposite, invalidating, symmetric, core, aligning, boundary-breaking, phase shift activating, structure stabilizing, constant changing, converging
       - add core info objects (core strategies, core assumptions) so you can make a network of graphs for a system
     - concept analysis:
       - how new concepts (gaps in network rules) evolve once structure is applied to prior concepts 
@@ -166,6 +166,5 @@
       - separate interface analysis logic into implementation/functions (functions dont need unique info)
       - add functions from workflows & analysis (to do list, questions answered, problems solved, interface definition & functions) as files in functions/ folder
         - organize into primary core functions & list sample parameters (like objects to identify for the identify function)
-
       - integrate rules from diagrams in patent applications to relevant documents
             
