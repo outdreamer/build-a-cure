@@ -11,9 +11,17 @@ useful_components = {
 		energy
 		validity
 		time
+		agency
+		security
+		confusion
+		attention
+		understanding
 	]
 	attributes: [
 		uniqueness
+		required/optional
+		positive/neutral/negative
+		automatic
 		verifiability/measurability
 		reusability
 		consistency
@@ -26,9 +34,13 @@ useful_components = {
 		complexity
 		clarity (explicit/implicit)
 		directness
+		commonness
 	]
 	structures: [
 		filter
+		spectrum
+		dichotomy
+		repetition
 		ratio
 		interval
 		position
@@ -38,9 +50,10 @@ useful_components = {
 		direction
 		boundary
 		value
-		network
+		network/tree
 		container
 		level
+		stack
 		intersection
 		point
 		combination/list/group
@@ -61,6 +74,7 @@ useful_components = {
 	]
 	functions: [
 		update
+		attack
 		distribute
 		activate/enable
 		accept/trust
@@ -85,11 +99,18 @@ useful_components = {
 		derive
 		connect
 		organize
+		coordinate
 		integrate
 		fit
 		match
 		map
 		test
+		forget
+		break
+		damage
+		disconnect
+		remove
+		enforce/regulate
 	]
 	objects (should contain all structures, as well as all objectified functions/concepts): [
 		interface
@@ -101,6 +122,7 @@ useful_components = {
 				interchangeability
 				substitute
 			certainty/uncertainty
+				clarification/obfuscation
 				stability (ability to change from variance injections)
 				randomness
 				complexity
@@ -111,6 +133,7 @@ useful_components = {
 				probability
 				approximation
 		structure
+			scale
 			adjacence
 			scope/range
 			origin/destination
@@ -124,11 +147,13 @@ useful_components = {
 		core
 			object/attribute/function/type
 			base
+				unit
 				standard
 					average
 				compliance (alignment vs. distortion)
 		function
 			usage
+			automation
 			logic
 				function logic
 					input/output
@@ -138,7 +163,9 @@ useful_components = {
 				logical error
 					bias
 				assumption
+				expectation
 				conclusion
+				correlation
 				interpretation
 				implication
 				association
@@ -167,11 +194,13 @@ useful_components = {
 			definition
 			memory
 		system
+			trigger
 			context
 			efficiency
 			boundary
 			hub
-			cost/benefit (incentive)
+			vertex
+			cost/benefit (incentive, tradeoff)
 			agent
 			resource
 			optimization		
@@ -192,11 +221,7 @@ useful_components = {
 	error_structures: [
 	]
 	error_functions: [
-		forget
-		break
-		damage
-		disconnect
-		remove
+
 	]
 	error_objects: [
 		problem space
