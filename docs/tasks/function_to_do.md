@@ -1,5 +1,18 @@
 # to do
 
+  - different interfaces to solve problem on:
+    - interfaces to format problem on:
+      - structure: what are the problem structures
+      - cause: what are the problem causes
+      - info: what info is missing to solve the problem
+      - potential: what alternative options are available to solve the problem
+      - functions: what functions can construct (and by implication, deconstruct) the problem
+      - intent: what intents (of which functions, like 'find info') can the problem be represented as
+      - change: what changes to the problem can convert it into a non-problem or solution
+      - interface: what structures of randomness or organization can be applied to the problem interface objects to make them relevant/useful for the problem-solving intent
+    - questions:
+      - how can structures of these interfaces be changed/organized to reduce/remove the problem or convert it into a solution
+
   - summary of advice
 
     - invest based on:
