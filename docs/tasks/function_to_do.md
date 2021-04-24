@@ -1,5 +1,24 @@
 # to do
 
+  - identify probably useful (relevant) structures of organization that integrate interface objects for a problem type
+    - standard structure for solving a 'find variable connection' problem
+      - variable structure in a common format or standard format with connection structures (network) 
+      - using 
+          - equal as a base function to generate the origin network structure differences (position)
+          - causal direction
+          - type
+          - core functions as sub-components
+
+    - how to generate a standard useful cross-interface structure of organization
+      - find connection change structures (variables):
+        - type is relevant bc variable types have direct connections (like 'variable of one data type like boolean likely to be connected to another variable of a data type like condition')
+      - find connection core structures (components):
+        - core functions are relevant to build new connections where info is missing about a connection
+      - find connection interface or structure structures (standards, filters):
+        - equal positions of variables are likelier to find differences (distortions from equal) faster than starting from an extreme positioning function
+      - find connection structures associated with interfaces (direction structure associated with intent):
+        - causal direction is directly defined to be relevant in the 'connection' definition, which implies an input/output connection, inputs being liked to 'dependency', which is linked to 'cause'
+
   - integrate objects/.md text with interface implementations
 
   - apply to structures
