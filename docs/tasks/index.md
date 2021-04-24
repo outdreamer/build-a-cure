@@ -18,6 +18,7 @@ useful_components = {
 		understanding
 		convexity
 		importance/relevance/meaning
+		permission
 	]
 	attributes: [
 		uniqueness
@@ -32,6 +33,7 @@ useful_components = {
 		organization
 		optimization
 		adaptability
+		responsibility
 		random
 		optimal
 		complexity
@@ -176,7 +178,7 @@ useful_components = {
 					average
 				compliance (alignment vs. distortion)
 		function
-			usage
+			usage/application
 			automation
 			logic
 				function logic
