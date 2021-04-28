@@ -610,7 +610,21 @@
 ## standard basic general insight paths (to apply structural interface to in order to make them specific to a context)
 
 	- trial & error
+		- insight path definition: 'try every combination of components to see what combination fulfills a solution metric value'
+		- to apply this insight path programmatically (without human intervention), the program would:
+			- pull definition of terms used in insight path definition (combination, square) & problem/solution components
+			- problem definition: 'find combination of blocks to build a square'
+			- problem space definition for the 'find combination of blocks to build a square' problem includes:
+				- components like 'blocks of various sizes'
+				- variables like block size, block count, block position, block combination structures (corners, layers, sequences)
+			- 'combination' structural definition route: 
+				- set of variable values without repetition (one value for each variable)
+			- apply structural definition routes of terms to problem space structures
+				- structural definition of 'combination' in the problem space including differently sized blocks:
+					- combination of blocks that can form a square (excluding block combinations that form structures with non-square attribute, like more than four sides), where combinations can be of blocks of varying size in varying position, and combinations can't include various combination structures that can't build squares
+					
 	- reverse-engineering
+
 	- break problem into sub-problems, find sub-solutions, merge sub-solutions into solution
 
 ## standard basic structural insight paths
@@ -874,6 +888,12 @@
 		- organize problem space so problem is removed
 			- general solution automation workflow: find structures in the problem space that would invalidate the problem (so problem doesnt need to be solved)
 				- core function version: find proxy solution structures (solving similar problems) or organization structures (like combination of position changes of problem space components) that would invalidate the problem 
+
+	- organize problem
+
+		- sort problems (or problem components) in to a sequence that would solve the problems
+			- general solution automation workflow: sort problems (or problem components) in to a sequence that would solve the problems (like input-output connection sequence of each problem), where the sequence is the solution, so the problems (or problem components) in the sequence are resolved once in the correct sequence
+				- core function version: find sequence structure in which problems (or problem components) are equal to a solution
 
 	- change problem into more solvable problem
 
