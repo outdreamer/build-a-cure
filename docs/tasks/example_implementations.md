@@ -616,13 +616,19 @@
 			- problem definition: 'find combination of blocks to build a square'
 			- problem space definition for the 'find combination of blocks to build a square' problem includes:
 				- components like 'blocks of various sizes'
-				- variables like block size, block count, block position, block combination structures (corners, layers, sequences)
+				- variables like:
+					- block size, block count, block position, block combination structures (corners, layers, sequences)
 			- 'combination' structural definition route: 
-				- set of variable values without repetition (one value for each variable)
+				- set of variable values without repetition (using existing resources like value ranges for each variable, or blocks in an available block set)
+					- example combinations of variable values for problem space variables:
+						- blocks of size 1 for block type x, blocks of count 2 for block type y, blocks in relative position 'top of previous block', blocks in combination structure 'layer stack'
+					
 			- apply structural definition routes of terms to problem space structures
 				- structural definition of 'combination' in the problem space including differently sized blocks:
 					- combination of blocks that can form a square (excluding block combinations that form structures with non-square attribute, like more than four sides), where combinations can be of blocks of varying size in varying position, and combinations can't include various combination structures that can't build squares
-					
+				- structural definition of 'every combination' in problem space, using problem space components
+					- each possible (block identity in available block set) of every (type/size/shape) in every possible (position) in every possible (count) combined in every possible (combination structure)
+	
 	- reverse-engineering
 
 	- break problem into sub-problems, find sub-solutions, merge sub-solutions into solution
