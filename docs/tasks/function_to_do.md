@@ -7,10 +7,13 @@
       - connections between connection structures, to find: 
         - patterns in connections
           - connections between identified patterns of difference, like degree of difference observed between adjacent points
+          - variables of & distortions to those variables common to connection structures & connections of those structures
         - connection components that coordinate for some intent
           - intents like calculation in an input/output sequence, or fitting into a structure that is efficiently compressed or retrieved
+            - incentivized connections that are optimal for some calculation intent
       - generate & test predictions of future calculations, to find local/adjacent prediction functions
         - generate set of prediction functions to test predictions
+          - apply operations & structures known to produce common connection structures to calculations in reverse to derive possible function components
         - generate set of prediction function filters (extreme prior connection structures) to select prediction functions
         - generate set of opposite structures (like non-adjacent points) to test predictions
     - filters of functions (reduce solution space of possible function & function components)
