@@ -1,5 +1,9 @@
 # to do
 
+  - a nn that fails when its original training set 'clues' are gone can identify 
+    - alternate variable sets to generate predictions & identify differentiating functions to separate those variable values to make them clearer & the predictions more accurate
+    - variables that can be added to generate more accurate predictions, given a lack of information
+
   - calculating a flow field numerically can be optimized by calculating:
     - possible/probable/fitting components of functions 
       - connections between prior calculations, to find connection structures that re-occur, as the output of a function
@@ -18,9 +22,9 @@
         - generate set of opposite structures (like non-adjacent points) to test predictions
     - filters of functions (reduce solution space of possible function & function components)
       - filtering functions by these connection structures & patterns, filtering out functions that wouldn't adjacently produce these connection structures
-    - interaction structures of functions
+    - interaction structures of functions & function components
       - function components that can interact by coordinating, vs function components that invalidate each other & can't coexist absolutely or be adjacent locally/directly
-    - function causal structures
+    - function & function component causal structures
       - apply patterns of causation between functions (function of structure A causes function of structure B) to identify the level of cause a function is based at
 
   - relevance attribute filters to determine cause of x
