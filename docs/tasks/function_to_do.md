@@ -6,7 +6,7 @@
       - what else also has this attribute/function/component without the cause
     - intent
       - does this component indicate agency or other direct/clear intent
-      - could this component be accidental vs. intended (useful to some degree for some goal)
+      - could this component be accidental (not useful or not used) vs. intended (is it useful to some degree for some goal)
     - requirement
       - is this component required or optional
       - could the requirement be the cause
@@ -15,12 +15,19 @@
       - could the standard or the distortion from the expected/standard component be the cause
     - commonness/uniqueness
       - is this component common or unique
-      - are unique components the cause
+      - are unique components the cause, if common components don't cause x
     - input/output
       - is this an input or output
       - can the output be the cause, if the goal causes it
       - can the input be the cause, if another input wouldn't cause it
       - can the function be the cause, if any input would cause it
+    - system context
+      - can the system be configured to not need the component
+    - change
+      - can the component be changed to not cause x
+      - do changes to the component still cause x
+    - structure
+      - are other structures like combined errors capable of causing x
 
   - identify probably useful (relevant) structures of organization that integrate interface objects for a problem type
     - standard structure for solving a 'find variable connection' problem
