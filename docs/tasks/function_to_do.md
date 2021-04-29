@@ -1,10 +1,12 @@
 # to do
 
-  - calculating flow field numerically can include calculating:
-    - connections between prior calculations, to find structures that re-occur
-    - connections between connection structures, to find patterns in connections
-    - filtering functions by these connection structures & patterns
-    - testing predictions of future calculations, to find local/adjacent prediction functions
+  - calculating a flow field numerically can be optimized by calculating:
+    - possible/probable/fitting components of functions 
+      - connections between prior calculations, to find structures that re-occur, as the output of a function
+      - connections between connection structures, to find patterns in connections
+      - testing predictions of future calculations, to find local/adjacent prediction functions
+    - filters of functions (reduce solution space of possible function & function components)
+      - filtering functions by these connection structures & patterns, filtering out functions that wouldn't adjacently produce these connection structures
 
   - relevance attribute filters to determine cause of x
     - exclusivity/specificity
