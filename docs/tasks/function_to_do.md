@@ -7,6 +7,8 @@
       - testing predictions of future calculations, to find local/adjacent prediction functions
     - filters of functions (reduce solution space of possible function & function components)
       - filtering functions by these connection structures & patterns, filtering out functions that wouldn't adjacently produce these connection structures
+    - interaction structures of functions
+      - function components that can interact by coordinating, vs function components that invalidate each other & can't coexist absolutely or be adjacent locally
 
   - relevance attribute filters to determine cause of x
     - exclusivity/specificity
