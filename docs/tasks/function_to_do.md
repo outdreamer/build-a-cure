@@ -3,7 +3,7 @@
   - relevance attribute filters to determine cause of x
     - exclusivity/specificity
       - could this component be the cause
-      - what else also has this attribute/function/component without the cause
+      - what else also has this attribute/function/component without the cause (what else doesnt have the component but still causes x)
     - intent
       - does this component indicate agency or other direct/clear intent
       - could this component be accidental (not useful or not used) vs. intended (is it useful to some degree for some goal)
@@ -22,12 +22,18 @@
       - can the input be the cause, if another input wouldn't cause it
       - can the function be the cause, if any input would cause it
     - system context
-      - can the system be configured to not need the component
-    - change
-      - can the component be changed to not cause x
-      - do changes to the component still cause x
-    - structure
-      - are other structures like combined errors capable of causing x
+      - can the system be configured to not need the component (is the system or system configuration the cause of x)
+      - would the component be re-generated if you removed the component or the direct cause of the component
+        - would the component be created anyway, even with a minor barrier
+        - is the component incentivized in the system
+        - how much work would you have to do to prevent the component from being generated in the system (it would be created unconditionally, or in what percent of conditions)
+        - does that work change the system to an extreme degree (changing its identity/type/intent)
+    - change.structure:
+      - opposite: can the component be changed to not cause x
+      - symmetry: do changes to the component still cause x
+    - potential.structure
+      - alternatives: are other structures like combined errors capable of causing x
+      - are those structures possible in the system (do they exist in the system)
 
   - identify probably useful (relevant) structures of organization that integrate interface objects for a problem type
     - standard structure for solving a 'find variable connection' problem
