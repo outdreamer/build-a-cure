@@ -3,11 +3,16 @@
   - calculating a flow field numerically can be optimized by calculating:
     - possible/probable/fitting components of functions 
       - connections between prior calculations, to find connection structures that re-occur, as the output of a function
+        - find core connection structures like waves, peaks, inflection points
       - connections between connection structures, to find: 
         - patterns in connections
+          - connections between identified patterns of difference, like degree of difference observed between adjacent points
         - connection components that coordinate for some intent
           - intents like calculation in an input/output sequence, or fitting into a structure that is efficiently compressed or retrieved
-      - testing predictions of future calculations, to find local/adjacent prediction functions
+      - generate & test predictions of future calculations, to find local/adjacent prediction functions
+        - generate set of prediction functions to test predictions
+        - generate set of prediction function filters (extreme prior connection structures) to select prediction functions
+        - generate set of opposite structures (like non-adjacent points) to test predictions
     - filters of functions (reduce solution space of possible function & function components)
       - filtering functions by these connection structures & patterns, filtering out functions that wouldn't adjacently produce these connection structures
     - interaction structures of functions
