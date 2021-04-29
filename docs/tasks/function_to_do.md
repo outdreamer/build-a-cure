@@ -1,5 +1,11 @@
 # to do
 
+  - calculating flow field numerically can include calculating:
+    - connections between prior calculations, to find structures that re-occur
+    - connections between connection structures, to find patterns in connections
+    - filtering functions by these connection structures & patterns
+    - testing predictions of future calculations, to find local/adjacent prediction functions
+
   - relevance attribute filters to determine cause of x
     - exclusivity/specificity
       - could this component be the cause
