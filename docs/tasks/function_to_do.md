@@ -1,5 +1,15 @@
 # to do
 
+  - resolve definitions of components so you can finishing organizing useful structures like combinations of concepts such as "format sequence", "solution automation workflow", "insight path", "reverse-engineer problem from solution", "connect problem & solution"
+    - change variables to complete definitions of interactions between components
+      - origin/destination points
+        - connect context to problem/solution:
+          - start from system in which problem & solution occur (given solution potential) and fit/connect problem/solution structures to system, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
+        - connect solution components to solution
+          - start from existing solution structures & apply filters or other structures to reach solution
+        - general form of 'filter connecting sequence': 
+          - apply structures of standards such as filters to both/either problem & solution until theyre equal (meaning connected, or similar in structure like position/variables)
+
   - example of how to generate monopoly case arguments
     - change variable 'location of power':
       - spotify is welcome to build their own app store with their own phones or team up with their coalition to do so
