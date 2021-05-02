@@ -5,6 +5,7 @@
     - definition: 'structure of minimized surface area as a component of 'entanglement' connecting function of two boundary points'
       - reduced mapping (minimized surface area) is a calculation efficiency to determine boundary position
         - this reduced mapping could be used to connect boundary positions (or their components like an attribute)
+    - entanglement as an efficiency to handle risk of information destruction or to handle over efficiency (distribute efficiency (in the form of information) across multiple points)
 
   - give example of deriving formula with definitions of components 
 
