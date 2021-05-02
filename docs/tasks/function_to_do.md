@@ -1,7 +1,7 @@
 # to do
 
   - resolve definitions of components so you can finishing organizing useful structures like combinations of concepts such as "format sequence", "solution automation workflow", "insight path", "reverse-engineer solution from problem requirements or opposite structures", "connect problem & solution"
-    - example connections between useful structures
+    - example useful structures with type stacks
       - format sequence
         - type of structure
         - type of structure that is useful for connecting origin/destination formats 
@@ -12,7 +12,16 @@
       - insight path
         - useful rule to derive/find/generate insights in a system
       - reverse-engineer solution from problem requirements or opposite structures
-        - specific insight path 
+        - specific example of a general insight path (like a structural strategy)
+
+    - example connections between useful structures
+      - a format sequence can be used to connect any structures
+      - an insight path can be used to connect some structures relevantly/efficiently/usefully (like problem/solution structures, input/output structures, origin/destination structures)
+      - a solution automation workflow can be formatted as a format sequence
+
+    - meaning of connections between useful structures
+      - because a format sequence can be a connecting structure, it can be used to implement functions with 'connecting' intents
+
     - change variables to check & complete definitions of interactions between components
       - variables
         - origin/destination points
