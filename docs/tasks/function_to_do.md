@@ -1,5 +1,72 @@
 # to do
 
+  - give example of deriving formula with definitions of components 
+
+    - problem metadata
+
+      - problem statement (formula to derive):
+        - expected value of the random variable f(x) = actual average of distribution
+
+      - definitions of components:
+        - average definition: 
+          - sum of all values divided by number of values
+        - expected value definition: 
+          - average of all possible values, weighted by probability of each possible value
+          - expectation is linear
+        - p(x) probability density 'distribution sample' definition
+          - independent & identically distributed values
+
+      - solution statement:
+        - independently & identically distributed samples (data points) from a distribution inside the boundary of the area to estimate, divided by the total number of data points in the distribution is a way to fulfill intent 'approximate area inside boundary'
+
+    - definition connections
+
+      - 'area' is a related concept to 'probability' when:
+        - data points are possible outcomes
+        - problem-solving intent is to estimate the probability of a subset of possible outcomes
+
+    - alternate routes to derive formula
+
+        - apply conceptual structures
+
+          - apply 'opposite' structure
+            - probability of being in the area to estimate
+            - probability of not being in the area to estimate
+
+          - apply 'random' structure
+            - reduce 'trial & error' solution structure in this problem space of 'testing all possible points' to a subset of all possible points
+              - how to select a subset of points
+                - extreme points
+                - evenly distributed points
+                - random selection of points would produce a representative sample of points in a bounded area with increasing accuracy given increasing number of points
+                  - randomly distributed points are a way around trial & error of all possible points
+
+        - generate counter-arguments (questions) as filters to reduce error types
+
+          - question every decision (variable selections that impact future decisions - 'variable selections')
+
+            - variables
+
+              - method of selecting points
+                - beginner question: 
+                  - why not just generate integer or .1 points starting at origin until all possible outcomes have been covered by an even lattice of points
+                - beginner answer:
+                  - this introduces bias in the form of an anchored starting point & applies unnecessary meaning to the sequence of points added, which means estimates with low number of points would be biased towards the area around the origin graphable with that number of points
+                  - this bias represents a structure of certainty, rather than a way of estimating probability, which by definition is uncertain
+                - generate beginner question
+                  - apply error type "lack of concept of 'probability'" (indicating an uncertainty like a random distribution, rather than a certainty like a constant in the form of an origin)
+                - generate beginner answer
+                  - generate differences in between structure posited by beginner and actual requirements
+                    - meaning assigned to the origin/sequence is unnecessary and even the opposite of what is required (independent samples that are not connected to subsequence samples in the sequence)
+                - advanced question:
+                  - wouldnt this take a lot of data points to converge to the actual mean
+
+        - apply concept of 'probability' to 2d graph problem space
+          - probability definition route: 
+            - observed x outcomes / all possible outcomes = probability of x outcome
+          - applied concept of 'probability' to 2d graph problem space: 
+            - subset of 2d structures (points) compared to total set of 2d structures (points)
+
   - resolve definitions of components so you can finishing organizing useful structures like combinations of concepts such as "format sequence", "solution automation workflow", "insight path", "reverse-engineer solution from problem requirements or opposite structures", "connect problem & solution"
     - example useful structures with type stacks
       - format sequence
@@ -24,6 +91,11 @@
 
     - change variables to check & complete definitions of interactions between components
       - variables
+        - components used:
+          - structures: filters, sequences, formats
+            - variables: variable selection sequence
+            - structures: format sequence
+            - functions: conversion/connecting function sequence
         - origin/destination points
           - connect context to problem/solution:
             - start from system in which problem & solution occur (given solution potential) and fit/connect problem/solution structures to system, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
