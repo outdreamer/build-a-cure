@@ -14,7 +14,11 @@
     - "highest-weighted path from point a to b is the most efficient space-time path, which is not always equal to the 'classical physics' space-time path" (find examples of intents that classical physics is not efficient for)
       - is quantum physics using a different definition of efficiency/similarity or is it using another priority (like energy storage vs. energy usage)
       - how do weighted quantum paths interact with the weighted paths of other particles
-
+    - wormholes as 
+      - calculation efficiencies
+      - interfaces (connecting standardizing functions)
+      - hidden variables/differences (masquerading as similarities)
+    - 'replica trick' as a way of transferring energy stored in sequential repetition (one coin outcome repeated a number of times in a sequence structure) to energy stored in distributed equivalence (two coins having equal outcome)
 
   - give example of deriving formula with definitions of components 
 
