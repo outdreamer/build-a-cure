@@ -44,6 +44,9 @@ useful_components = {
 	]
 	structures: [
 		filter
+		convolution
+		product
+		sum
 		extreme
 		edge
 		angle
