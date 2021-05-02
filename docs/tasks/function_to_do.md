@@ -2,6 +2,9 @@
 
   - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area) are an input to information
     - gravity between bulk/boundary creating the mapping of equivalent attributes
+      - gravity as:
+        - the average or highest-weighted path of interacting paths
+        - structure of efficiency through organization 
     - definition: 'structure of minimized surface area as a component of 'entanglement' connecting function of two boundary points'
       - reduced mapping (minimized surface area) is a calculation efficiency to determine boundary position
         - this reduced mapping could be used to connect boundary positions (or their components like an attribute)
@@ -9,7 +12,9 @@
       - use a mapping efficiency to connect distributed info with structural similarities
     - particles lose their adjacence/similarity bias/efficiency inside the black hole
     - "highest-weighted path from point a to b is the most efficient space-time path, which is not always equal to the 'classical physics' space-time path" (find examples of intents that classical physics is not efficient for)
-      - is quantum physics using a different definition of efficiency/similarity or is it using another priority (like energy storage vs. energy usage) 
+      - is quantum physics using a different definition of efficiency/similarity or is it using another priority (like energy storage vs. energy usage)
+      - how do weighted quantum paths interact with the weighted paths of other particles
+
 
   - give example of deriving formula with definitions of components 
 
