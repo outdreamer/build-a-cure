@@ -1,6 +1,10 @@
 # to do
 
-  - map gravity to similarity (in position) as a calculation efficiency
+  - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area) are an input to information
+    - gravity between bulk/boundary creating the mapping of equivalent attributes
+    - definition: 'structure of minimized surface area as a component of 'entanglement' connecting function of two boundary points'
+      - reduced mapping (minimized surface area) is a calculation efficiency to determine boundary position
+        - this reduced mapping could be used to connect boundary positions (or their components like an attribute)
 
   - give example of deriving formula with definitions of components 
 
