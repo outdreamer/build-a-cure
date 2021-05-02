@@ -22,6 +22,14 @@
             - start from existing solution structures & apply filters or other structures to reach solution
           - general form of 'filter connecting sequence': 
             - apply structures of standards such as filters to both/either problem & solution until theyre equal (meaning connected, or similar in structure like position/variables)
+    - change variables to complete definitions of interactions between components
+      - origin/destination points
+        - connect context to problem/solution:
+          - start from system in which problem & solution occur (given solution potential) and fit/connect problem/solution structures to system, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
+        - connect solution components to solution
+          - start from existing solution structures & apply filters or other structures to reach solution
+        - general form of 'filter connecting sequence': 
+          - apply structures of standards such as filters to both/either problem & solution until theyre equal (meaning connected, or similar in structure like position/variables)
 
   - example of how to generate monopoly case arguments
     - change variable 'location of power':
