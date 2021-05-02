@@ -1,5 +1,7 @@
 # to do
 
+  - map gravity to similarity (in position) as a calculation efficiency
+
   - give example of deriving formula with definitions of components 
 
     - problem metadata
@@ -116,7 +118,8 @@
             - functions: conversion/connecting function sequence
         - origin/destination points
           - connect context to problem/solution:
-            - start from system in which problem & solution occur (given solution potential) and fit/connect problem/solution structures to system, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
+            - start from system in which problem & solution occur (given solution potential) and fit/connect systems gap structures to problem/solution structures, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
+              - 
           - connect solution components to solution
             - start from existing solution structures & apply filters or other structures to reach solution
           - general form of 'filter connecting sequence': 
