@@ -8,11 +8,14 @@
         - expected value of the random variable f(x) = actual average of distribution
 
       - definitions of components:
+
         - average definition: 
           - sum of all values divided by number of values
+
         - expected value definition: 
           - average of all possible values, weighted by probability of each possible value
           - expectation is linear
+
         - p(x) probability density 'distribution sample' definition
           - independent & identically distributed values
 
@@ -21,9 +24,19 @@
 
     - definition connections
 
-      - 'area' is a related concept to 'probability' when:
-        - data points are possible outcomes
-        - problem-solving intent is to estimate the probability of a subset of possible outcomes
+      - identify 'probability' as a useful concept to map to problem space:
+        - because of structural similarity in probability structures & problem definition (proportion)
+        - or as a useful method to find a representative subset to avoid trial & error (or combinationatorial) calculation of area
+
+      - connect concepts of core components ('probability', 'average value', 'sample size', 'data points', 'area') using definitions
+        - this should produce the concept of 'convergence' as sample size variable is changed & average value approaches actual area
+
+      - definitions of concept interations
+        - 'area' is a related concept to 'probability' when:
+          - data points are mapped to possible outcomes
+          - problem-solving intent is either:
+            - general structure: estimate the proportion of a subset relative to a whole
+              - specific structure: estimate the probability of a subset of possible outcomes relative to all possible outcomes
 
     - alternate routes to derive formula
 
@@ -43,11 +56,12 @@
 
         - generate counter-arguments (questions) as filters to reduce error types
 
-          - question every decision (variable selections that impact future decisions - 'variable selections')
+          - question every decision, with decision defined as 'variable selections that impact future decisions (future variable selections)'
 
             - variables
 
               - method of selecting points
+                
                 - beginner question: 
                   - why not just generate integer or .1 points starting at origin until all possible outcomes have been covered by an even lattice of points
                 - beginner answer:
@@ -58,14 +72,18 @@
                 - generate beginner answer
                   - generate differences in between structure posited by beginner and actual requirements
                     - meaning assigned to the origin/sequence is unnecessary and even the opposite of what is required (independent samples that are not connected to subsequence samples in the sequence)
+                
                 - advanced question:
                   - wouldnt this take a lot of data points to converge to the actual mean
 
-        - apply concept of 'probability' to 2d graph problem space
+        - apply concept of 'probability' to 2d graph problem space to solve the problem of 'estimating 2d scalar multiplication or summing of 2d scalar multiplication' 
+
           - probability definition route: 
-            - observed x outcomes / all possible outcomes = probability of x outcome
+            - observed x outcomes in proportion to all possible outcomes = probability of x outcome
+
           - applied concept of 'probability' to 2d graph problem space: 
-            - subset of 2d structures (points) compared to total set of 2d structures (points)
+            - subset of 2d structures (points) in proportion to total set of 2d structures (points) = bounded area
+
 
   - resolve definitions of components so you can finishing organizing useful structures like combinations of concepts such as "format sequence", "solution automation workflow", "insight path", "reverse-engineer solution from problem requirements or opposite structures", "connect problem & solution"
     - example useful structures with type stacks
