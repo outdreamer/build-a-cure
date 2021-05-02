@@ -19,7 +19,7 @@
       - an insight path can be used to connect some structures relevantly/efficiently/usefully (like problem/solution structures, input/output structures, origin/destination structures)
       - a solution automation workflow can be formatted as a format sequence
 
-    - meaning of connections between useful structures
+    - example meaning of connections between useful structures
       - because a format sequence can be a connecting structure, it can be used to implement functions with 'connecting' intents
 
     - change variables to check & complete definitions of interactions between components
@@ -79,6 +79,23 @@
           - falsify realistic data, categorize, generate text
             - falsify realistic image to fool a categorizer used to generate standardized text
 
+  - example of calculating possible questions/problems that are solvable using metric filters
+    - convolution of metric structures to determine what can be measured
+      - example metrics
+        - specificity of solution
+        - reusability of solution
+        - accuracy of solution
+      - example metric structures
+        - apply metric filter combination as equal priorities
+          - specificity of solution & reusability of solution
+        - apply metric filter sequence
+          - reusable solution, specific solution
+      - example problem structures that can be solved with metric structures
+        - a problem of 'find approximation' can be solved with metric structures like accuracy & specificity':
+          - apply filters of specificity (to make sure the problem solved is the right problem to solve, like 'find an approximation for a prediction function' rather than finding an approximation for another object)
+            - apply filters of accuracy (to make sure input/output values are within a range that can be fit to the definition of accuracy in the problem space)
+          - in other words, because we can measure specificity & accuracy, we can solve problems like 'find an approximation function'
+
   - example of calculating possible error types 
     - error type:
       - alignment of structures can from an unpredicted error
@@ -93,7 +110,10 @@
     - requirements
       - is there a required basis for communicating info
     - intersection:
-      - state/content of a data flow intersecting with a possible access chain
+      - data * time/sequence
+        - state/content of a data flow intersecting with a possible access chain
+    - code x time/sequence
+      - state of a build to check intent multiple times during build phase of code
 
   - bio system general strategies
     - calculate & inject vulnerability in pathogen dna language
