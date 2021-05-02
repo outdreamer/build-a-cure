@@ -1,6 +1,6 @@
 # to do
 
-  - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area) are an input to information
+  - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area or how to apply a key to decrypt info) are an input to information
     - gravity between bulk/boundary creating the mapping of equivalent attributes
       - gravity as:
         - the average or highest-weighted path of interacting paths
@@ -14,8 +14,11 @@
     - "highest-weighted path from point a to b is the most efficient space-time path, which is not always equal to the 'classical physics' space-time path" (find examples of intents that classical physics is not efficient for)
       - is quantum physics using a different definition of efficiency/similarity or is it using another priority (like energy storage vs. energy usage)
       - how do weighted quantum paths interact with the weighted paths of other particles
+    - nonlocality/entanglement as a calculation efficiency in the form of the replica trick
     - wormholes as 
       - calculation efficiencies
+      - radiation given off of calculation efficiencies, removing information or filters preventing possibilities
+      - sequence of a lack of filters preventing possible paths
       - interfaces (connecting standardizing functions)
       - hidden variables/differences (masquerading as similarities)
     - 'replica trick' as a way of transferring energy stored in sequential repetition (one coin outcome repeated a number of times in a sequence structure) to energy stored in distributed equivalence (two coins having equal outcome)
