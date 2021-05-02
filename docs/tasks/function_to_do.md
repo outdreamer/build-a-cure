@@ -6,6 +6,10 @@
       - reduced mapping (minimized surface area) is a calculation efficiency to determine boundary position
         - this reduced mapping could be used to connect boundary positions (or their components like an attribute)
     - entanglement as an efficiency to handle risk of information destruction or to handle over efficiency (distribute efficiency (in the form of information) across multiple points)
+      - use a mapping efficiency to connect distributed info with structural similarities
+    - particles lose their adjacence/similarity bias/efficiency inside the black hole
+    - "highest-weighted path from point a to b is the most efficient space-time path, which is not always equal to the 'classical physics' space-time path" (find examples of intents that classical physics is not efficient for)
+      - is quantum physics using a different definition of efficiency/similarity or is it using another priority (like energy storage vs. energy usage) 
 
   - give example of deriving formula with definitions of components 
 
