@@ -1,27 +1,61 @@
 # to do
 
-  - definitions
+  - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to an automated process, or finding search path (sorting))
+    - logistical resource allocation
+      - 'select a delivery method' problem
+        - deliver to local warehouses rather than centralized warehouses & customers pick up (warehouses, stores, or locker boxes)
+          - becomes a 'pick-up schedule allocation & reminder timing' problem
+        - deliver to local drop-off points rather than local warehouses (dropboxes in neighborhoods, like a designated safe house)
+          - becomes a 'trust neighbor' problem
+        - crowdsource using existing routes used for other errands
+          - indirectly paid favors from social network
+            - becomes a 'favor repayment finding & distribution' problem
+          - directly paid favors from app network
+            - this then becomes a 'ride-allocation & route-finding' problem
+        - deliver with drivers & cars
+          - becomes a 'fund car investment, monitor & insure drivers' problem
+        - deliver with drones
+          - becomes a 'test tech to avoid causing damage or being damaged and navigate regulations' problem
+        - deliver to vault inside or near home
+          - becomes a 'vault access & integration' problem
+        - sell resource-generation tools (3d printing, gardening, other machines to produce products)
+          - becomes a 'import product to resource-generation tool format' or 'create resource-generating tool for this product' problem
+        - sell info on how to build products (either original products or resource-generation tools)
+          - becomes a 'write clear documentation' problem
+        - change delivery strategies based on how local conditions interact with global conditions
+          - becomes a 'integrate local & global context like state/rules/processes' problem
+      - 'select a route finding method' problem
+        - a
+    - adding variable to automated process
+    - finding search path
+
+  - structural similarity of logistical resource allocation & search path-finding problem
+    - 
+
+  - add to definitions
     - reason as source cause node ('this happened because of this causal factor')
     - intent as target cause node ('this happened because this intent was the goal used as a cause of the agent's decisions')
 
-  - causation 
+  - add to causation variables
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
-  - set of interactions that are unrelated but appear correlated
+  - add to false similarity examples
+    - set of interactions that are unrelated but appear correlated
 
-    - examples
-      - system B has an output that is structural similar to outputs of system A
-        - interactions of system B that happen at a later time but their interim outputs may have a structural similarity to the outputs of system A
-      - system B may cause a similar or equal output to that of system A, for a different intent/reason
-        - if the output is used as a metric, they will seem similar or related
+      - examples
+        - system B has an output that is structural similar to outputs of system A
+          - interactions of system B that happen at a later time but their interim outputs may have a structural similarity to the outputs of system A
+        - system B may cause a similar or equal output to that of system A, for a different intent/reason
+          - if the output is used as a metric, they will seem similar or related
 
-    - efficiencies are a reason (source cause node) that structural similarities occur
-      - efficient structures follow patterns that may produce similar structural outputs
+      - efficiencies are a reason (source cause node) that structural similarities occur
+        - efficient structures follow patterns that may produce similar structural outputs
 
-  - how to map connections between two systems
-    - standardize structures (like sequential structures such as time), standardizing to either system's structures, interim structures, common structures, interface (like system or core) structures, contextual system-containing system's structures, etc
-    - abstract to patterns (like type, cause, system structures)
-    - conversion functions (like remove, apply, connect, define)
+  - add to connect function examples
+    - how to map connections between two systems
+      - standardize structures (like sequential structures such as time), standardizing to either system's structures, interim structures, common structures, interface (like system or core) structures, contextual system-containing system's structures, etc
+      - abstract to patterns (like type, cause, system structures)
+      - conversion functions (like remove, apply, connect, define)
 
   - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area or how to apply a key to decrypt info) are an input to information
     - gravity between bulk/boundary creating the mapping of equivalent attributes
@@ -49,6 +83,7 @@
     - time as:
       - energy store
         - if time exists, it means change is possible, because energy has been organized in a structure that allows change to occur, meaning structures have developed, meaning efficient structures have been found (organization of energy formats)
+        - can you attract other spacetimes so theyre adjacent by storing energy in a way that is adjacent to their storage methods
 
   - give example of deriving formula with definitions of components 
 
