@@ -1,5 +1,19 @@
 # to do
 
+  - definitions
+    - reason as source cause node
+    - intent as target cause node
+
+  - set of interactions that are unrelated but appear correlated
+    - interactions of system B that happen at a later time but their interim outputs may have a structural similarity to the outputs of system A
+    - system B may cause a similar or equal output to that of system A, for a different intent/reason
+      - if the output is used as a metric, they will seem similar or related
+    - 
+  - how to map connections between two systems
+    - standardize timing
+    - abstract to patterns
+    - conversion functions
+
   - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area or how to apply a key to decrypt info) are an input to information
     - gravity between bulk/boundary creating the mapping of equivalent attributes
       - gravity as:
