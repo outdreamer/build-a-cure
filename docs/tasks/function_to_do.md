@@ -23,12 +23,38 @@
         - sell resource-generation tools (3d printing, gardening, other machines to produce products)
           - becomes a 'import product to resource-generation tool format' or 'create resource-generating tool for this product' problem
         - sell info on how to build products (either original products or resource-generation tools)
-          - becomes a 'write clear documentation' problem
+          - becomes a 'index info & write clear documentation' problem
         - change delivery strategies based on how local conditions interact with global conditions
           - becomes a 'integrate local & global context like state/rules/processes' problem
       
       - 'select a route finding method' problem
         - allocate delivery method components (origin, destination, method, required method resources), resources to be delivered, & assign costs
+
+    - 'finding search path' problem
+
+      - identify metadata of info being searched for (type, content, perspective, structure, purpose/intent)
+      - identify info variables to generate info structures (completeness, language/phrasing, containing structure formats like lists, adjacent info structures found with the info)
+      - identify info structures (partial info, info pattern, info beginning, info keywords) to search for
+      - generate search strategies
+        - search for info structures (content)
+          - search for adjacent info like links to constitution when searching for text of declaration of independence
+          - search for info structures like law reference format 1.2.3 or law keywords or law-specific terms
+        - search for opposite of not-info structures (filters)
+          - exclude logical fallacy structures when searching for facts
+        - use patterns of previous searches with similar inputs
+          - use patterns of previous searches for similar topic or similar keywords or similar intents
+        - search for relevant info containing structures (template containing content, html structures, logical trajectory like a 'intro-explanation-summary' sequence structure)
+        - search indexes of info, organized by most efficient 'input keyword' to 'output content link' relationship
+        - identify need for new efficient keyword-content link relationship, predict most efficient relationship, create new index for it, & search the index while creating it to optimize for future queries
+        - predict likely sources of info & select interim points in likely sources to start search in (search at intervals of size n within likely sources of info)
+      - select between search strategies
+        - randomly select search strategy
+        - diversify across search strategies until gains clarify optimal strategies to invest further searching in
+        - dont search, just index info to optimize for this query
+          - index info in a way that identifies possible uses/intents that apply to the query, and identify intent of search & conduct the search by the intent index going forward
+
+    - structural similarity of logistical resource allocation & search path-finding problem
+      - allocating efficiencies & investments in various processes (like building, indexing info, moving resources, allocating resources to operate on resources)
 
     - 'adding variable to automated process' problem
 
@@ -50,13 +76,8 @@
               - dependencies
               - context
             - variable values (ranges, types, sequence, uniqueness)
-            - variable structures (components that use variables, like indexes made from a column or functions calling a function or using the same input elsewhere)
+            - variable structures (components that use variables, like indexes made from a column, code modifying/using a column, or functions calling a function or using the same input elsewhere)
             - variable structure variables (how many conditions allowed in a condition statement, or levels of nesting allowed in a dictionary)
-    
-    - 'finding search path' problem
-
-  - structural similarity of logistical resource allocation & search path-finding problem
-    - 
 
   - add to definitions
     - reason as source cause node ('this happened because of this causal factor')
