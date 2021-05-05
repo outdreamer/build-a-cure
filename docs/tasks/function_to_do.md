@@ -1,7 +1,9 @@
 # to do
 
   - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to an automated process, or finding search path (sorting))
-    - logistical resource allocation
+    
+    - 'logistical resource allocation' problem
+      
       - 'select a delivery method' problem
         - deliver to local warehouses rather than centralized warehouses & customers pick up (warehouses, stores, or locker boxes)
           - becomes a 'pick-up schedule allocation & reminder timing' problem
@@ -24,10 +26,34 @@
           - becomes a 'write clear documentation' problem
         - change delivery strategies based on how local conditions interact with global conditions
           - becomes a 'integrate local & global context like state/rules/processes' problem
+      
       - 'select a route finding method' problem
-        - a
-    - adding variable to automated process
-    - finding search path
+        - allocate delivery method components (origin, destination, method, required method resources), resources to be delivered, & assign costs
+
+    - 'adding variable to automated process' problem
+
+        - identify timeline of solution lifecycle (when it will & wont be needed)
+        - identify impact on related processes, based on interactions or common variables/inputs/outputs/dependencies
+        - identify if a solution can be re-used for another process
+        - identify existing functionality that can handle the task (configuration options that can do it like a database field type or built-in validation)
+        - identify abstraction layer to inject variable at (whether to parameterize function, split function, copy function & modify logic to handle new variable)
+        - identify if components (variable, function using variable, etc) are necessary or if connecting other components would resolve the problem
+        - identify position of logic to inject variable at
+        - identify format structure benefit/cost (keep in database for query advantages, store in csv's for data version tracking, store in dataframe for filtering query-like capacity)
+        - identify problems to solve for each solution (add a variable, change function conditions to use parameter, etc)
+        - identify optimizations like storing info & logic in as few positions as possible, ideally in one place
+        - identify tests
+          - structures of components:
+            - variables
+              - function parameters
+              - assumptions
+              - dependencies
+              - context
+            - variable values (ranges, types, sequence, uniqueness)
+            - variable structures (components that use variables, like indexes made from a column or functions calling a function or using the same input elsewhere)
+            - variable structure variables (how many conditions allowed in a condition statement, or levels of nesting allowed in a dictionary)
+    
+    - 'finding search path' problem
 
   - structural similarity of logistical resource allocation & search path-finding problem
     - 
