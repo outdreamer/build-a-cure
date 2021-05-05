@@ -19,9 +19,9 @@
       - efficient structures follow patterns that may produce similar structural outputs
 
   - how to map connections between two systems
-    - standardize timing
-    - abstract to patterns
-    - conversion functions
+    - standardize structures (like sequential structures such as time), standardizing to either system's structures, interim structures, common structures, interface (like system or core) structures, contextual system-containing system's structures, etc
+    - abstract to patterns (like type, cause, system structures)
+    - conversion functions (like remove, apply, connect, define)
 
   - map gravity to similarity (in position) as a calculation efficiency, where calculation efficiencies (like how to minimize surface area or how to apply a key to decrypt info) are an input to information
     - gravity between bulk/boundary creating the mapping of equivalent attributes
