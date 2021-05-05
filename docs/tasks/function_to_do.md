@@ -1,14 +1,23 @@
 # to do
 
   - definitions
-    - reason as source cause node
-    - intent as target cause node
+    - reason as source cause node ('this happened because of this causal factor')
+    - intent as target cause node ('this happened because this intent was the goal used as a cause of the agent's decisions')
+
+  - causation 
+    - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
   - set of interactions that are unrelated but appear correlated
-    - interactions of system B that happen at a later time but their interim outputs may have a structural similarity to the outputs of system A
-    - system B may cause a similar or equal output to that of system A, for a different intent/reason
-      - if the output is used as a metric, they will seem similar or related
-    - 
+
+    - examples
+      - system B has an output that is structural similar to outputs of system A
+        - interactions of system B that happen at a later time but their interim outputs may have a structural similarity to the outputs of system A
+      - system B may cause a similar or equal output to that of system A, for a different intent/reason
+        - if the output is used as a metric, they will seem similar or related
+
+    - efficiencies are a reason (source cause node) that structural similarities occur
+      - efficient structures follow patterns that may produce similar structural outputs
+
   - how to map connections between two systems
     - standardize timing
     - abstract to patterns
@@ -29,13 +38,17 @@
       - is quantum physics using a different definition of efficiency/similarity or is it using another priority (like energy storage vs. energy usage)
       - how do weighted quantum paths interact with the weighted paths of other particles
     - nonlocality/entanglement as a calculation efficiency in the form of the replica trick
-    - wormholes as 
+    - wormholes as:
       - calculation efficiencies
       - radiation given off of calculation efficiencies, removing information or filters preventing possibilities
       - sequence of a lack of filters preventing possible paths
       - interfaces (connecting standardizing functions)
       - hidden variables/differences (masquerading as similarities)
-    - 'replica trick' as a way of transferring energy stored in sequential repetition (one coin outcome repeated a number of times in a sequence structure) to energy stored in distributed equivalence (two coins having equal outcome)
+    - 'replica trick' as:
+      - a way of transferring energy stored in sequential repetition (one coin outcome repeated a number of times in a sequence structure) to energy stored in distributed equivalence (two coins having equal outcome)
+    - time as:
+      - energy store
+        - if time exists, it means change is possible, because energy has been organized in a structure that allows change to occur, meaning structures have developed, meaning efficient structures have been found (organization of energy formats)
 
   - give example of deriving formula with definitions of components 
 
