@@ -1,7 +1,20 @@
 # to do
 
-  - add to structures
+  - add to problem type structures
+
     - multiple causes of the same variable
+
+      - example: gravity (no agency, just granular intent of 'apply force to relevant objects') can cause an object to fall, just like throwing it down (concept of agency and intent to 'move object down' or 'move object to ground') can cause it to fall
+
+  - add to useful concepts
+    - bitcoin and ai both benefit from integrating the concept of time into existing inventions (tx history, weight updates)
+    - what other concepts could be equally powerful if injected into structures of existing inventions
+    - why is time (or the structure of sequence) a powerful concept in those problem systems
+      - historical info integrated into current & imminent info was a pre-existing gap in relevant info structures of the problem system
+      - the usefulness of historical info wasnt identified or wasnt identified as integratable into existing inventions
+      - the related concept of:
+        - 'connection' could have served as a replacement, indicating relevance of previous info to new or derived info
+        - 'position' could have also replaced 'time' or 'sequence', given the relevance of 'position' as a predictor of financial transactions and connecting one info state to another, given data that can access the destination from that origin
 
   - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to a function, or finding search path (sorting))
     - give examples of problems with relevant structures
@@ -48,6 +61,7 @@
           - search version: integrate search methods based on available resources, imminent/adjacent resources, reasons not to use resources, meaning of resource metadata like position, etc
       
       - 'select a route-finding method' problem
+
         - allocate delivery method components (origin, destination, method, required method resources), resources to be delivered, & assign costs
 
     - 'finding search path' problem
@@ -78,7 +92,7 @@
             - 'why does x happen' indicates a need for a 'cause' index ('cause' is the object being sought)
 
     - structural similarity of logistical resource allocation & search path-finding problem
-      - allocating efficiencies & investments in various processes (like building, indexing info, moving resources, allocating resources to operate on resources)
+      - allocating efficiencies & investments in various processes (like building, indexing info, moving resources, checking values, allocating resources to operate on resources)
       - preparing resources & resource distribution based on foreseeable requirements
       - allocating constants/variables where variation is predicted or occurs on demand
       - integrating attributes, functions, & objects at optimal interaction level (truck, package bundles by neighborhood, traffic - query pattern/type, info connections/abstraction)
