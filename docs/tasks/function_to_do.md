@@ -1,12 +1,7 @@
 # to do
 
-  - add to problem type structures
-
-    - multiple causes of the same variable
-
-      - example: gravity (no agency, just granular intent of 'apply force to relevant objects') can cause an object to fall, just like throwing it down (concept of agency and intent to 'move object down' or 'move object to ground') can cause it to fall
-
   - add to useful concepts
+
     - bitcoin and ai both benefit from integrating the concept of time into existing inventions (tx history, weight updates)
     - what other concepts could be equally powerful if injected into structures of existing inventions
     - why is time (or the structure of sequence) a powerful concept in those problem systems
@@ -15,6 +10,7 @@
       - the related concept of:
         - 'connection' could have served as a replacement, indicating relevance of previous info to new or derived info
         - 'position' could have also replaced 'time' or 'sequence', given the relevance of 'position' as a predictor of financial transactions and connecting one info state to another, given data that can access the destination from that origin
+      - its also inherently relevant to know how space-times (states) connect (like in a sequence structure) in order to predict adjacent imminent space-times (or states) as imminent members of the sequence
 
   - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to a function, or finding search path (sorting))
     - give examples of problems with relevant structures
@@ -22,103 +18,17 @@
       - a connected function sequence
       - a set of filters & limits
 
-  - example of applying a problem to solve a similar problem
+  - how to identify that more normal language is likelier to contain factual statements
 
-    - 'logistical resource allocation' problem
-      
-      - 'select a delivery method' problem
-
-        - deliver to local warehouses rather than centralized warehouses & customers pick up (warehouses, stores, or locker boxes)
-          - becomes a 'pick-up schedule allocation & reminder timing' problem
-          - search version: decentralized data stores, CDN's, cached data, indexes based on common request metadata shared locally
-        - deliver to local drop-off points rather than local warehouses (dropboxes in neighborhoods, like a designated safe house)
-          - becomes a 'trust neighbor' problem
-          - search version: decentralized servers hosting services
-        - crowdsource using existing routes used for other errands
-          - indirectly paid favors from social network
-            - becomes a 'favor repayment finding & distribution' problem
-            - search version: using patterns & other crowd-sourced knowledge to direct search or as a data source
-          - directly paid favors from app network
-            - this then becomes a 'ride-allocation & route-finding' problem
-            - search version: paying for expert search routing
-        - deliver with drivers & cars (standard method, other than using government delivery service)
-          - becomes a 'fund car investment, monitor & insure drivers' problem
-          - search version: fund investment in discovery/testing infrastructure, to test for & find info directly with experimentation
-        - deliver with drones
-          - becomes a 'test tech to avoid causing damage or being damaged and navigate regulations' problem
-          - search version: build discovery/testing tools that can be purchased by users or run by groups/organizations
-        - deliver to vault inside or near home
-          - becomes a 'vault access & integration' problem
-          - search version: distribute data based on permissioned access and intent
-        - sell resource-generation tools (3d printing, gardening, other machines to produce products)
-          - becomes a 'import product to resource-generation tool format' or 'create resource-generating tool for this product' problem
-          - search version: tool to automate connecting question/answers with available methods like testing tools, applying patterns, or AI
-        - sell info on how to build products (either original products or resource-generation tools)
-          - becomes a 'index info & write clear documentation' problem
-          - search version: info response to query is instructions on how to find info from data sources with other queries or processes
-        - change delivery strategies based on how local conditions interact with global conditions
-          - becomes a 'integrate local & global context like state/rules/processes' problem
-          - search version: integrate search methods based on available resources, imminent/adjacent resources, reasons not to use resources, meaning of resource metadata like position, etc
-      
-      - 'select a route-finding method' problem
-
-        - allocate delivery method components (origin, destination, method, required method resources), resources to be delivered, & assign costs
-
-    - 'finding search path' problem
-
-      - identify metadata of info being searched for (type, content, perspective, structure, purpose/intent)
-      - identify info variables to generate info structures (completeness, language/phrasing, containing structure formats like lists, adjacent info structures found with the info)
-      - identify info structures (partial info, info pattern, info beginning, info keywords) to search for
-      - generate search strategies
-        - search for info structures (content)
-          - search for adjacent info like links to constitution when searching for text of declaration of independence
-          - search for info structures like law reference format 1.2.3 or law keywords or law-specific terms
-        - search for opposite of not-info structures (filters)
-          - exclude logical fallacy structures when searching for facts
-          - exclude anomalies in language patterns when searching for facts
-        - use patterns of previous searches with similar inputs
-          - use patterns of previous searches for similar topic or similar keywords or similar intents
-        - search for relevant info containing structures (template containing content, html structures, logical trajectory like a 'intro-explanation-summary' sequence structure)
-        - search indexes of info, organized by most efficient 'input keyword' to 'output content link' relationship
-        - identify need for new efficient keyword-content link relationship, predict most efficient relationship, create new index for it, & search the index while creating it to optimize for future queries
-        - predict likely sources of info & select interim points in likely sources to start search in (search at intervals of size n within likely sources of info)
-      - select between search strategies
-        - randomly select search strategy
-        - diversify across search strategies until gains clarify optimal strategies to invest further searching in
-        - dont search, just index info to optimize for this query
-          - index info in a way that identifies possible uses/intents that apply to the query, and identify intent of search & conduct the search by the intent index going forward
-          - example: 
-            - if 'cost of product x' is a common query, index products by cost attribute by default
-            - 'why does x happen' indicates a need for a 'cause' index ('cause' is the object being sought)
-
-    - structural similarity of logistical resource allocation & search path-finding problem
-      - allocating efficiencies & investments in various processes (like building, indexing info, moving resources, checking values, allocating resources to operate on resources)
-      - preparing resources & resource distribution based on foreseeable requirements
-      - allocating constants/variables where variation is predicted or occurs on demand
-      - integrating attributes, functions, & objects at optimal interaction level (truck, package bundles by neighborhood, traffic - query pattern/type, info connections/abstraction)
-
-    - 'adding variable to automated process' problem
-
-        - identify timeline of solution lifecycle (when it will & wont be needed)
-        - identify impact on related processes, based on interactions or common variables/inputs/outputs/dependencies
-        - identify if a solution can be re-used for another process
-        - identify existing functionality that can handle the task (configuration options that can do it like a database field type or built-in validation)
-        - identify abstraction layer to inject variable at (whether to parameterize function, split function, copy function & modify logic to handle new variable)
-        - identify if components (variable, function using variable, etc) are necessary or if connecting other components would resolve the problem
-        - identify position of logic to inject variable at
-        - identify format structure benefit/cost (keep in database for query advantages, store in csv's for data version tracking, store in dataframe for filtering query-like capacity)
-        - identify problems to solve for each solution (add a variable, change function conditions to use parameter, etc)
-        - identify optimizations like storing info & logic in as few positions as possible, ideally in one place
-        - identify tests
-          - structures of components:
-            - variables
-              - function parameters
-              - assumptions
-              - dependencies
-              - context
-            - variable values (ranges, types, sequence, uniqueness)
-            - variable structures (components that use variables, like indexes made from a column, code modifying/using a column, or functions calling a function or using the same input elsewhere)
-            - variable structure variables (how many conditions allowed in a condition statement, or levels of nesting allowed in a dictionary)
+    - multiple interrelated reasons
+      - facts often have simpler connections
+      - language patterns have intents
+        - agents apply language patterns to achieve intent
+          - linguistic intents are often to distort meaning until its false (out of the full set of intents to 'communicate info')
+          - agent often over-think how to emphasize/reduce language components and it creates unnatural language patterns
+          - agent-modified language (newly created patterns) is rarely more efficient than normal language patterns (inherited patterns)
+            - when it is more efficient, it is quickly adopted
+            - more efficient language patterns are likelier to be true, bc of the normally simpler connectino patterns of facts 
 
   - add to definitions
     - reason as source cause node ('this happened because of this causal factor')
@@ -126,6 +36,12 @@
 
   - add to causation variables
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
+
+  - add to problem type structures as 'indistinguishable cause'
+
+    - multiple causes of the same variable
+
+      - example: gravity (no agency, just granular intent of 'apply force to relevant objects') can cause an object to fall, just like throwing it down (concept of agency and intent to 'move object down' or 'move object to ground') can cause it to fall
 
   - add to false similarity examples
     - set of interactions that are unrelated but appear correlated
