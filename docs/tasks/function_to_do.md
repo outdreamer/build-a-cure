@@ -72,6 +72,9 @@
 
     - structural similarity of logistical resource allocation & search path-finding problem
       - allocating efficiencies & investments in various processes (like building, indexing info, moving resources, allocating resources to operate on resources)
+      - preparing resources & resource distribution based on foreseeable requirements
+      - allocating constants/variables where variation is predicted or occurs on demand
+      - integrating attributes, functions, & objects at optimal interaction level (truck, package bundles by neighborhood, traffic - query pattern/type, info connections/abstraction)
 
     - 'adding variable to automated process' problem
 
