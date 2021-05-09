@@ -20,15 +20,33 @@
 
   - how to identify that more normal language is likelier to contain factual statements
 
-    - multiple interrelated reasons
-      - facts often have simpler connections
-      - language patterns have intents
-        - agents apply language patterns to achieve intent
-          - linguistic intents are often to distort meaning until its false (out of the full set of intents to 'communicate info')
-          - agent often over-think how to emphasize/reduce language components and it creates unnatural language patterns
-          - agent-modified language (newly created patterns) is rarely more efficient than normal language patterns (inherited patterns)
-            - when it is more efficient, it is quickly adopted
-            - more efficient language patterns are likelier to be true, bc of the normally simpler connectino patterns of facts 
+    - multiple interrelated reasons, from the insight path
+      1. facts often have simpler connections
+      2. language patterns have intents
+        3. agents apply language patterns to achieve intent
+          4. linguistic intents are often to change meaning until its false (out of the full set of intents to 'communicate info')
+          5. agent often over-think how to emphasize/reduce language components and it creates unnatural language patterns
+          6. agent-changed language (newly created patterns) is rarely more efficient than normal language patterns (inherited patterns)
+            7. when it is more efficient, it is quickly adopted until its normal
+            8. more efficient language patterns are likelier to be true, bc of the normally simpler connection patterns of facts 
+          9. it takes work to make a set of falsehoods or mix of falsehoods & facts seems like a fact, and the work has side effects like lack of normality (sounding unnatural in structure) or simplicity (using fewer resources to connect components)
+
+    - relevant concepts
+      - the concept of 'simplicity' interacts with connections 1, 5, 8, & 9
+      - the concept of 'normality' interacts with connections 5, 6, 7, 8, & 9
+
+    - these concepts can be used as almost interchangeable alternatives in generating the interface query generating this insight path
+
+    - despite their differing definitions, simplicity & normality are connected by the concept of efficiency, because what is simple often becomes normal because of the efficiency of simplicity, so efficiency can be used as an interchangeable concept of both of these in some cases
+
+    - interface query to generate the insight path to 'derive an attribute to identify facts'
+      - apply concept interface
+        - identify important concepts (simplicity, efficiency, emphasis, reduction, falsehood, change, connection, pattern, normality, agency) of the problem system of 'identify facts'
+        - apply relevant concepts to problem system
+          - agents change language to achieve intents
+            - apply intent interface by mapping to intents ('change info' for intent of lying, or 'false similarity to fact')
+              - connect intents to original relevant concepts
+                - connect problem system component derived from intent interface of 'agent-changed language' to concepts of normality & falsehood
 
   - add to definitions
     - reason as source cause node ('this happened because of this causal factor')
