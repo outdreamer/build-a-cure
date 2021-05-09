@@ -1,33 +1,47 @@
 # to do
 
+  - add to structures
+    - multiple causes of the same variable
+
   - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to an automated process, or finding search path (sorting))
     
     - 'logistical resource allocation' problem
       
       - 'select a delivery method' problem
+
         - deliver to local warehouses rather than centralized warehouses & customers pick up (warehouses, stores, or locker boxes)
           - becomes a 'pick-up schedule allocation & reminder timing' problem
+          - search version: decentralized data stores, CDN's, cached data, indexes based on common request metadata shared locally
         - deliver to local drop-off points rather than local warehouses (dropboxes in neighborhoods, like a designated safe house)
           - becomes a 'trust neighbor' problem
+          - search version: decentralized servers hosting services
         - crowdsource using existing routes used for other errands
           - indirectly paid favors from social network
             - becomes a 'favor repayment finding & distribution' problem
+            - search version: using patterns & other crowd-sourced knowledge to direct search or as a data source
           - directly paid favors from app network
             - this then becomes a 'ride-allocation & route-finding' problem
-        - deliver with drivers & cars
+            - search version: paying for expert search routing
+        - deliver with drivers & cars (standard method, other than using government delivery service)
           - becomes a 'fund car investment, monitor & insure drivers' problem
+          - search version: fund investment in discovery/testing infrastructure, to test for & find info directly with experimentation
         - deliver with drones
           - becomes a 'test tech to avoid causing damage or being damaged and navigate regulations' problem
+          - search version: build discovery/testing tools that can be purchased by users or run by groups/organizations
         - deliver to vault inside or near home
           - becomes a 'vault access & integration' problem
+          - search version: distribute data based on permissioned access and intent
         - sell resource-generation tools (3d printing, gardening, other machines to produce products)
           - becomes a 'import product to resource-generation tool format' or 'create resource-generating tool for this product' problem
+          - search version: tool to automate connecting question/answers with available methods like testing tools, applying patterns, or AI
         - sell info on how to build products (either original products or resource-generation tools)
           - becomes a 'index info & write clear documentation' problem
+          - search version: info response to query is instructions on how to find info from data sources with other queries or processes
         - change delivery strategies based on how local conditions interact with global conditions
           - becomes a 'integrate local & global context like state/rules/processes' problem
+          - search version: integrate search methods based on available resources, imminent/adjacent resources, reasons not to use resources, meaning of resource metadata like position, etc
       
-      - 'select a route finding method' problem
+      - 'select a route-finding method' problem
         - allocate delivery method components (origin, destination, method, required method resources), resources to be delivered, & assign costs
 
     - 'finding search path' problem
@@ -52,6 +66,9 @@
         - diversify across search strategies until gains clarify optimal strategies to invest further searching in
         - dont search, just index info to optimize for this query
           - index info in a way that identifies possible uses/intents that apply to the query, and identify intent of search & conduct the search by the intent index going forward
+          - example: 
+            - if 'cost of product x' is a common query, index products by cost attribute by default
+            - 'why does x happen' indicates a need for a 'cause' index ('cause' is the object being sought)
 
     - structural similarity of logistical resource allocation & search path-finding problem
       - allocating efficiencies & investments in various processes (like building, indexing info, moving resources, allocating resources to operate on resources)
