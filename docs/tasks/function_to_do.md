@@ -3,8 +3,14 @@
   - add to structures
     - multiple causes of the same variable
 
-  - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to an automated process, or finding search path (sorting))
-    
+  - structures like origin/destination points, loops, layers, boundaries, & paths for solving problems (like logistical resource allocation, adding variable to a function, or finding search path (sorting))
+    - give examples of problems with relevant structures
+      - a question/variable/cause pattern
+      - a connected function sequence
+      - a set of filters & limits
+
+  - example of applying a problem to solve a similar problem
+
     - 'logistical resource allocation' problem
       
       - 'select a delivery method' problem
@@ -55,6 +61,7 @@
           - search for info structures like law reference format 1.2.3 or law keywords or law-specific terms
         - search for opposite of not-info structures (filters)
           - exclude logical fallacy structures when searching for facts
+          - exclude anomalies in language patterns when searching for facts
         - use patterns of previous searches with similar inputs
           - use patterns of previous searches for similar topic or similar keywords or similar intents
         - search for relevant info containing structures (template containing content, html structures, logical trajectory like a 'intro-explanation-summary' sequence structure)
