@@ -1,18 +1,25 @@
 # to do
 
   - problem-causing assumptions of turing machine (lack of input validation)
-    - that length of input equals length of string before a function in the form of an instruction character
-      - if these are equal, the input fulfills the input definition
-    - that the definitions of input/function are not violated
-      - if input has functionality or if functions are used as input, the definitions may be violated
-    - that position of instruction (rather than the meaning of the instruction, like position in relation to other components) is a good indicator of instruction signals
-      - the meaning of the instruction positioned in the input is different from the meaning of the instruction after the input
-        - the meaning includes different possible intents
-    - that a variable with a value filter 'input = continuous initial string of characters that are not instructions, if equal to length of input' shouldnt replace the constant 'position of input-terminating signal'
-    - that input doesnt contain instructional characters
-      - lack of typical input validation in the form of variable value limits
-    - that one problem space component (input) cant be adjacently converted into another (function) bc of definition violation
-    - that input strings should be convertible into instructions without first being processed by a function
+    - difference in component metadata
+      - that length of input equals length of string before a function in the form of an instruction character
+        - if these are equal, the input fulfills the input definition
+    - similarity in definitions
+      - that the definitions of input/function are not violated
+        - if input has functionality or if functions are used as input, the definitions may be violated
+    - lack of enforced relevance/meaning
+      - that position of instruction (rather than the meaning of the instruction, like position in relation to other components) is a good indicator of instruction signals
+        - the meaning of the instruction positioned in the input is different from the meaning of the instruction after the input
+          - the meaning includes different possible intents
+    - lack of applied definition
+      - that a variable with a value filter 'input = continuous initial string of characters that dont fulfill the "instruction" definition, if equal to length of input' shouldnt replace the constant structure 'position of input-terminating character' used to define or differentiate components
+    - lack of exclusive component alignment (between 'character string' structure and 'input' structure, where 'character string' structure also aligns with 'function' structure)
+      - that input doesnt contain instructional characters
+        - lack of typical input validation in the form of variable value limits
+    - lack of differentiation between components that should be different
+      - that one problem space component (input) cant be adjacently converted into another (function) bc of definition violation
+    - lack of enforced structural requirement (sequence)
+      - that input strings should be convertible into instructions without first being processed by a function
 
   - add to useful concepts
 
