@@ -33,6 +33,8 @@
       - conflation of functionality between 'read' function and 'execute' function
 
     - core problem structures, resolved with solution structures (system optimization rules)
+      - excess/unnecessary components 
+        - lack of alignment between required & implemented functionality (excess functionality)
       - lack of uniqueness/exclusivity of definitions (definitions shouldnt overlap)
         - system optimization: 
           - ensure that definitions dont overlap or allow ambiguities that are not useful
@@ -62,17 +64,19 @@
 
   - interfaces that are important bc of generative concepts/structures
     - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
-    - 'interface' interface's generative concepts 'interactivity' and 'balance' (how does info from each interface integrate or interact to produce meaning)
+    - 'interface' interface's generative concepts 'interactivity' and 'balance' (how does info from each interface integrate or interact to produce meaning, balancing influence of interfaces in a way thats indicates contribution)
     - 'cause' interface's generative concept 'power' (ability to trigger other components)
     - 'concept' interface's generative concepts 'uniqueness' and 'applicability'
     - 'info' interface's generative concept 'stability' producing info
-    - 'intent' interface's generative concept 'functionality' (functionality develops when there's a reason for it to develop)
+    - 'intent' interface's generative concepts 'functionality' and 'direction' (functionality develops when there's a reason for it to develop, like a direction of change)
     - 'function' interface's generative concept 'connection' (connecting inputs/outputs)
-    - 'pattern' interface's generative concepts 'repetition' and 'similarity' (powerful patterns are repeated and patterns develop in similar ways, producing similarities across interfaces)
+    - 'pattern' interface's generative concepts 'similarity' (powerful patterns are repeated and patterns develop in similar ways, producing similarities across interfaces)
     - 'logic' interface's generative concept 'alignment' (aligning logical connections with info as a supportive foundation)
     - 'change' interface's generative concept 'difference'
     - 'structure' interface's generative concept 'info' (info about other interfaces with potential for structure)
     - 'potential' interface's generative concept 'adjacence' (what is probable is more adjacent)
+
+    - the generative attributes (simplicity, interactivity, balance, power, uniqueness, applicability, stability, functionality, direction, connection, similarity, alignment, difference, info, adjacence) reflect core structures (unit, value, force, direction, equivalence, distance, rate, ratio, input-output, type, dependency, constant)
 
   - add to useful concepts
 

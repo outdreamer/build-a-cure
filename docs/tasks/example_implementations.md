@@ -710,7 +710,7 @@
     - identify problem types & corresponding solution aggregation method for that set of types
     - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
     - solve problem by removing problem structures (remove structures of conflict, error, bias, limits, over-prioritization) or adding solution structures (add structures of organization, relevance, efficiency, like aligning with intent & connecting to/building on a logical foundation) and integrating these structures with neutral structures like interaction layers and systems
-    - identify useful structures for converting problem structures into solution structures, & apply to problem space
+    - identify useful structures for converting problem structures into solution structures, & apply to problem space to derive solution structures
     	
     	- attribute structures
 	    	- opposite structures can produce solution structures bc problems may be completely different from solutions
