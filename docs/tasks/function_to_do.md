@@ -1,7 +1,10 @@
 # to do
 
   - problem-causing assumptions of turing machine (lack of input validation)
-    - difference in component metadata
+    - lack of potential alignment in interpretating vs. applying a component
+      - potential for difference allowed in interpretation vs. application
+        - potential for difference allowed in character string interpreted as input and character string used as input
+    - difference in component metadata that should be equal
       - that length of input equals length of string before a function in the form of an instruction character
         - if these are equal, the input fulfills the input definition
     - similarity in definitions
@@ -16,7 +19,7 @@
     - lack of exclusive component alignment (between 'character string' structure and 'input' structure, where 'character string' structure also aligns with 'function' structure)
       - that input doesnt contain instructional characters
         - lack of typical input validation in the form of variable value limits
-    - lack of differentiation between components that should be different
+    - lack of differentiation between components that should be different by definition
       - that one problem space component (input) cant be adjacently converted into another (function) bc of definition violation
     - lack of enforced structural requirement (sequence)
       - that input strings should be convertible into instructions without first being processed by a function
