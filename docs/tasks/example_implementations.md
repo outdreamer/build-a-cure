@@ -710,12 +710,15 @@
     - identify problem types & corresponding solution aggregation method for that set of types
     - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
     - solve problem by removing problem structures (remove structures of conflict, error, bias, limits, over-prioritization) or adding solution structures (add structures of organization, relevance, efficiency, like aligning with intent & connecting to/building on a logical foundation) and integrating these structures with neutral structures like interaction layers and systems
-    - identify useful structures of problem structures & apply to problem space
+    - identify useful structures for converting problem structures into solution structures, & apply to problem space
     	- opposite structures can produce solution structures bc problems may be completely different from solutions
 	    	- for a problem like 'functionality overlap', the opposite structure is a potential solution structure 'separation of functionality using exclusivity/uniqueness'
 	    - fitting structures can produce solution structures bc problems may be slightly different from solutions
 	    	- for a problem like 'structure-input mismatch', a fitting structure like an 'remove/add distortion' function is a potential solution structure
-
+	    - combining structures can produce solution structures bc problem combinations may be a solution
+	    - reducing structures can produce solution structures bc lack of problem variables may be a solution
+	    - filtering structures can produce solution structures bc a problem space may be a superset of a solution (problem space is adjacent or equal to solution space, where filtering the problem space produces the solution set)
+	  
     - change problem into more solvable problem
       - cause 
         - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
