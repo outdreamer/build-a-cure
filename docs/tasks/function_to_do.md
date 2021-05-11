@@ -34,20 +34,25 @@
 
     - core structural problems resolved with system optimization rules
       - lack of uniqueness/exclusivity of definitions (definitions shouldnt overlap)
-        - in a well-defined system, definitions dont overlap
-      - interpretation vs. application conflict
-        - similarity of interpretation & application of definitions
+        - system optimization: ensure that definitions dont overlap or allow ambiguities that are not useful
+      - conflict between interpretation vs. application bc of difference that shouldnt exist
+        - system optimization: ensure similarity of interpretation & application of definitions
       - lack of meaning in the form of contextual/system position
         - meaningful position of 'input with function character' differs from position of 'input without function character' in a system
-        - the meaningful position of components should be analyzed at other interaction levels, like at a 
+        - system optimization: the meaningful position of components should be analyzed at other interaction levels, like at a 
           - system level (using system-level integrated metrics) rather than just locally (with local or granular metrics like 'position of function character')
           - function level (using function metrics like 'functionality potential of function convolution/product/sequence')
       - requirement as an indicator of info reliability
         - position isnt required to reliably indicate a component like input/function, but the definition of those components is required to reliably indicate a component
+        - system optimization: apply definitions in identification functions
       - lack of exclusivity in structural intents
         - multi-purpose structure like 'character string' used for multiple purposes (input, function) without differentiating/separating structure (separating input from function)
+        - system optimization: 
+          - apply multi-purpose structures with differentiating structures to align usage with intent
+          - apply multi-purpose containing structures (like 'variable' or 'template') with differentiating sub-structures to organize other sub-structures stored (like 'constant string')
       - lack of alignment between structural limits/potential
         - structural limit of 'character string' doesnt align with the structural potential of its contents (input, function, position, character)
+        - system optimization: align structural limits with potential
 
   - interfaces that are important bc of generative concepts/structures
     - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
