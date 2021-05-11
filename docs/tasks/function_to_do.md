@@ -32,6 +32,21 @@
       - assumption: that one function cant be used to provide functionality associated with another function
       - conflation of functionality between 'read' function and 'execute' function
 
+  - interfaces that are important bc of generative concepts/structures
+    - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
+    - 'interface' interface's generative concepts 'interactivity' and 'balance' (how does info from each interface integrate or interact to produce meaning)
+    - 'cause' interface's generative concept 'power' (ability to trigger other components)
+    - 'concept' interface's generative concepts 'uniqueness' and 'applicability'
+    - 'info' interface's generative concept 'stability' producing info
+    - 'intent' interface's generative concept 'functionality' (functionality develops when there's a reason for it to develop)
+    - 'function' interface's generative concept 'connection' (connecting inputs/outputs)
+    - 'pattern' interface's generative concepts 'repetition' and 'similarity' (powerful patterns are repeated and patterns develop in similar ways, producing similarities across interfaces)
+    - 'logic' interface's generative concept 'alignment' (aligning logical connections with info as a supportive foundation)
+    - 'change' interface's generative concept 'difference'
+    - 'structure' interface's generative concept 'info' (info about other interfaces with potential for structure)
+    - 'potential' interface's generative concept 'adjacence' (what is probable is more adjacent)
+
+
   - add to useful concepts
 
     - bitcoin and ai both benefit from integrating the concept of time into existing inventions (tx history, weight updates)
