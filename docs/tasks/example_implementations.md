@@ -718,7 +718,10 @@
 	    - combining structures can produce solution structures bc problem combinations may be a solution
 	    - reducing structures can produce solution structures bc lack of problem variables may be a solution
 	    - filtering structures can produce solution structures bc a problem space may be a superset of a solution (problem space is adjacent or equal to solution space, where filtering the problem space produces the solution set)
-	  
+	  	- standardizing structures can produce solution structures bc a problem may be a solution once standardized
+	  	- intent structures can produce solution structures bc a problem may be a solution if used in a different way (for a different intent)
+	  	- organizing structures can produce solution structures bc a problem may be a solution if organized in a different position
+
     - change problem into more solvable problem
       - cause 
         - identify cause by applying network to causation, then select which cause to solve based on solvability with adjacent resources
