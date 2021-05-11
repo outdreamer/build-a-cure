@@ -1,28 +1,36 @@
 # to do
 
-  - problem-causing assumptions of turing machine (lack of input validation)
+  - problem-causing structures of turing machine (with 'lack of input validation' problem)
     - lack of potential alignment in interpretating vs. applying a component
+      - assumption: interpretation & application should be allowed to be different
       - potential for difference allowed in interpretation vs. application
         - potential for difference allowed in character string interpreted as input and character string used as input
-    - difference in component metadata that should be equal
-      - that length of input equals length of string before a function in the form of an instruction character
+    - difference in component metadata that shouldnt exist (should be equal)
+      - assumption: length of input equals length of string before a function in the form of a function character
         - if these are equal, the input fulfills the input definition
     - similarity in definitions
-      - that the definitions of input/function are not violated
+      - assumption: the definitions of input/function are not violated
         - if input has functionality or if functions are used as input, the definitions may be violated
     - lack of enforced relevance/meaning
-      - that position of instruction (rather than the meaning of the instruction, like position in relation to other components) is a good indicator of instruction signals
-        - the meaning of the instruction positioned in the input is different from the meaning of the instruction after the input
+      - assumption: position of function (rather than the meaning of the function, like position in relation to other components) is a reliable indicator of function signals, when only requirements can be used as a reliable indicator & position of functional characters after input string is not required
+        - the meaning of the function positioned in the input is different from the meaning of the function after the input
           - the meaning includes different possible intents
     - lack of applied definition
-      - that a variable with a value filter 'input = continuous initial string of characters that dont fulfill the "instruction" definition, if equal to length of input' shouldnt replace the constant structure 'position of input-terminating character' used to define or differentiate components
-    - lack of exclusive component alignment (between 'character string' structure and 'input' structure, where 'character string' structure also aligns with 'function' structure)
-      - that input doesnt contain instructional characters
+      - assumption: that a structure like position can be used in place of a definition
+      - that a variable with a value filter 'input = continuous initial string of characters that dont fulfill the "function" definition, if equal to length of input' shouldnt replace the constant structure 'position of input-terminating character' used to define or differentiate components
+    - lack of exclusivity in component alignment (between 'character string' structure and 'input' structure, where 'character string' structure also aligns with 'function' structure, and where 'character string' contains 'position' structures which are used to differentiate input & function structures without interaction rules enforced for position/input/function contents stored in the 'character string' structure system)
+      - assumption: that 'character string' is a structure that can be used to contain different components & that 'character position' is a structure that can differentiate them in isolation of other structures, and that those component positions & contents wont overlap, be switched, or otherwise be distorted or conflated
+      - that input doesnt contain functional characters
         - lack of typical input validation in the form of variable value limits
     - lack of differentiation between components that should be different by definition
+      - assumption: that position can differentiate components
       - that one problem space component (input) cant be adjacently converted into another (function) bc of definition violation
-    - lack of enforced structural requirement (sequence)
-      - that input strings should be convertible into instructions without first being processed by a function
+    - lack of enforced structural requirement (sequence of producing functionality by applying functions, rather than by reading input)
+      - assumption: that a function not designed to produce functionality in all cases (like reading input) cant be used to produce functionality in all cases
+      - that input strings should be convertible into functions without first being processed by a function
+    - overlap in functionality that shouldnt exist
+      - assumption: that one function cant be used to provide functionality associated with another function
+      - conflation of functionality between 'read' function and 'execute' function
 
   - add to useful concepts
 
