@@ -5,9 +5,9 @@
       - assumption: interpretation & application should be allowed to be different
       - potential for difference allowed in interpretation vs. application
         - potential for difference allowed in character string interpreted as input and character string used as input
-    - difference in component metadata that shouldnt exist (should be equal)
-      - assumption: length of input equals length of string before a function in the form of a function character
-        - if these are equal, the input fulfills the input definition
+    - difference in component attributes that shouldnt exist (should be equal)
+      - assumption: 'length of input' equals 'length of string before a function in the form of a function character'
+        - if these attributes are equal, the input fulfills the input definition
     - similarity in definitions
       - assumption: the definitions of input/function are not violated
         - if input has functionality or if functions are used as input, the definitions may be violated
@@ -32,6 +32,23 @@
       - assumption: that one function cant be used to provide functionality associated with another function
       - conflation of functionality between 'read' function and 'execute' function
 
+    - core structural problems resolved with system optimization rules
+      - lack of uniqueness/exclusivity of definitions (definitions shouldnt overlap)
+        - in a well-defined system, definitions dont overlap
+      - interpretation vs. application conflict
+        - similarity of interpretation & application of definitions
+      - lack of meaning in the form of contextual/system position
+        - meaningful position of 'input with function character' differs from position of 'input without function character' in a system
+        - the meaningful position of components should be analyzed at other interaction levels, like at a 
+          - system level (using system-level integrated metrics) rather than just locally (with local or granular metrics like 'position of function character')
+          - function level (using function metrics like 'functionality potential of function convolution/product/sequence')
+      - requirement as an indicator of info reliability
+        - position isnt required to reliably indicate a component like input/function, but the definition of those components is required to reliably indicate a component
+      - lack of exclusivity in structural intents
+        - multi-purpose structure like 'character string' used for multiple purposes (input, function) without differentiating/separating structure (separating input from function)
+      - lack of alignment between structural limits/potential
+        - structural limit of 'character string' doesnt align with the structural potential of its contents (input, function, position, character)
+
   - interfaces that are important bc of generative concepts/structures
     - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
     - 'interface' interface's generative concepts 'interactivity' and 'balance' (how does info from each interface integrate or interact to produce meaning)
@@ -45,7 +62,6 @@
     - 'change' interface's generative concept 'difference'
     - 'structure' interface's generative concept 'info' (info about other interfaces with potential for structure)
     - 'potential' interface's generative concept 'adjacence' (what is probable is more adjacent)
-
 
   - add to useful concepts
 
