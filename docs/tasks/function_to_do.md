@@ -12,6 +12,9 @@
 
         - in the space of connections, function A & B have a similarity in position
 
+        - the efficiencies connecting two absolute references may replace another function connecting those references
+          - given the adjacence of 2 & 10 to each other, it may be more efficient to use this similarity to connect them (by transforming one to the other) than using other connections (either as similarities or differences) such as multiply by 5 or divide 20 by 10
+          - or it may be more efficient to transform 2 to 1 given its similarity to 1 and use unit multiplication (1 * 10 = 10, requiring no change) and transforming 1 back to two through addition (10 + 10 = 2 * 10) rather than multiplying 2 * 10
 
     - absolute reference connections
 
