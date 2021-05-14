@@ -1,7 +1,22 @@
 # to do
 
-    - make diagram of reference connections
+    - make diagram of absolute reference connections
+
+    - connection-connecting methods
+
+      - given how values can be connected, how can connections be connected using those value-connecting connections
+
+        - how can connections be formatted as absolute references (numbers) so value-connecting connections can be applied to connect connections
+
+        - given that a function A connects 2 & 10, and so does function B, function B is connected to function A by change types & operations
+
+        - in the space of connections, function A & B have a similarity in position
+
+
+    - absolute reference connections
+
       - what is the complete set of unique connections between two values (numbers being absolute references), such as numbers like 2 & 10
+
         - their metadata is connected with:
 
           - similarities:
@@ -15,7 +30,7 @@
                 - value types (integers)
 
             - system contexts (relevance through usefulness)
-              - uses/applications
+              - applications
                 - common usage (commonly used as bases)
                 - usage potential (can be used to produce useful functions, sequences, & sets, like even numbers or digit-moving functions)
 
@@ -32,12 +47,13 @@
 
           - differences like:
 
-            - adjacent transforms
-              - power
-                - usage
+            - adjacent transforms, formats, & applications
+
+              - usage
+                - power
                   - 2 or its inverse is more commonly used as a power than 10 bc its one away from the unit power 1
             
-            - connections
+            - difference-reducing connections
               - operations
                 - factors connecting the two numbers with multiplication/division like 5 & 20
       
