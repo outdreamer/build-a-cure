@@ -22,10 +22,17 @@
               - "apply the difference interface to connect reference differences adjacent to a more computable/optimizable/efficient difference" (the difference between 2 & 10 is adjacent to the difference between 1 & 10)
               - "apply the unit interface to the difference interface (find the core component of difference), then the alternative interface (replacing multiplication with addition)"
 
-        - connection-connecting methods can apply interface components
+        - connection-connecting methods can be connected with interface components
+          
           - apply interface component 'opposite'
             - a function connecting 2 & 10 has an 'opposite' structure applied to the attribute of 'direction', in the form of a function connecting 10 & 2
             - this absolute reference (opposite direction) connects these connection types (functions) just like -1 is connected to 1 by an opposite structure applied to the attribute of 'direction'
+
+          - apply interfaces to get the metadata of a function (like we applied interfaces to get the metadata of values below)
+            - this will produce other functions that may be efficient in some way, possibly more efficient than the original function at many of its intents
+
+          - given that values can be connected with value-connecting metadata, functions can be connected with function-connecting metadata (and value-connecting metadata, given that values are components of functions and functions can be represented as values)
+            - just like 2 & 10 can be connected by their adjacence to primes, to each other, and to 1, functions can be connected by their adjacence to each other & to unit functions
 
     - absolute reference connections
 
