@@ -15,6 +15,12 @@
         - the efficiencies connecting two absolute references may replace another function connecting those references
           - given the adjacence of 2 & 10 to each other, it may be more efficient to use this similarity to connect them (by transforming one to the other) than using other connections (either as similarities or differences) such as multiply by 5 or divide 20 by 10
           - or it may be more efficient to transform 2 to 1 given its similarity to 1 and use unit multiplication (1 * 10 = 10, requiring no change) and transforming 1 back to two through addition (10 + 10 = 2 * 10) rather than multiplying 2 * 10
+          - this efficiency is generated from the metadata of these two numbers, metadata that may connect them more efficiently than other operations
+            - example queries:
+              - "apply the prime interface to connect numbers adjacent to primes" (adjacence given common factor pattern)
+              - "apply the unit interface to connect references adjacent to unit references" (adjacence to 1)
+              - "apply the difference interface to connect reference differences adjacent to a difference" (the difference between 2 & 10 is adjacent to the difference between 1 & 10)
+
 
     - absolute reference connections
 
