@@ -8,7 +8,7 @@
 
         - how can connections be formatted as absolute references (numbers) so value-connecting connections can be applied to connect connections
 
-        - given that a function A connects 2 & 10, and so does function B, function B is connected to function A by change types & operations
+        - given that a function A connects 2 & 10, and so does function B, function B is connected to function A by change types & operations that preserve the input/output relationship for that case
 
         - in the space of connections, function A & B have a similarity in position
 
@@ -19,8 +19,13 @@
             - example queries:
               - "apply the prime interface to connect numbers adjacent to primes" (adjacence given common factor pattern)
               - "apply the unit interface to connect references adjacent to unit references" (adjacence to 1)
-              - "apply the difference interface to connect reference differences adjacent to a difference" (the difference between 2 & 10 is adjacent to the difference between 1 & 10)
+              - "apply the difference interface to connect reference differences adjacent to a more computable/optimizable/efficient difference" (the difference between 2 & 10 is adjacent to the difference between 1 & 10)
+              - "apply the unit interface to the difference interface (find the core component of difference), then the alternative interface (replacing multiplication with addition)"
 
+        - connection-connecting methods can apply interface components
+          - apply interface component 'opposite'
+            - a function connecting 2 & 10 has an 'opposite' structure applied to the attribute of 'direction', in the form of a function connecting 10 & 2
+            - this absolute reference (opposite direction) connects these connection types (functions) just like -1 is connected to 1 by an opposite structure applied to the attribute of 'direction'
 
     - absolute reference connections
 
