@@ -23,7 +23,13 @@
               - "apply the unit interface to the difference interface (find the core component of difference), then the alternative interface (replacing multiplication with addition)"
 
               - interface queries can be framed as structural paths:
-                - "take the prime network until you hit the unit network, then take the difference sequence in the direction of increasing difference until you get to the target value"
+                - value query: 
+                  - "take the prime network until you hit the unit network or am ambiguity, then take the difference sequence in the direction of increasing difference until you get to the target value"
+                - function query: 
+                  - "apply area operations (integral/derivative) until you reach a connection that can be reduced to coefficient operations (multiplication) or sequence operations (progressions, sums)"
+                  - "apply difference operations (adding new difference types in values) until predictions of highly non-adjacent values are similar to actual values (converge)"
+                  - "derive difference types in known input-output connections (local data) until interactive difference types (emerging in non-local data) are predictable with a degree of certainty"
+                  - "determine difference types that are quickest to filter out (prove wrong), given common difference type patterns"
 
         - connection-connecting methods can be connected with interface components
           
