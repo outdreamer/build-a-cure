@@ -22,6 +22,9 @@
               - "apply the difference interface to connect reference differences adjacent to a more computable/optimizable/efficient difference" (the difference between 2 & 10 is adjacent to the difference between 1 & 10)
               - "apply the unit interface to the difference interface (find the core component of difference), then the alternative interface (replacing multiplication with addition)"
 
+              - interface queries can be framed as structural paths:
+                - "take the prime network until you hit the unit network, then take the difference sequence in the direction of increasing difference until you get to the target value"
+
         - connection-connecting methods can be connected with interface components
           
           - apply interface component 'opposite'
