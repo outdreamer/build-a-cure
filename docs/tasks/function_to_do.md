@@ -118,7 +118,7 @@
           - light-filtering structures & containing structures like vacillations in a range (waves) around a symmetry (average) given a change-governing force (gravity)
           - how would you format info as light
             - light distributes/highlights/focuses energy on specific components, like objects within a distance range from a position, along a trajectory, at an angle, or with a particular interactive structure that absorbs or reflects light
-            - info has similar structures, like difference from origin or other info, info connectible on a path, info visible from a perspective angle, or interaction with info-absorbing or reflecting structures like black holes or encryption algorithms
+            - info has similar structures, like difference from origin info, info connectible on a path, info visible from a perspective angle, or interaction with info-absorbing/storing/reflecting structures like black holes or encryption algorithms
 
   - crypto as community consensus, where a decision can have value if backed by a community
 
