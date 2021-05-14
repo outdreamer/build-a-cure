@@ -2,7 +2,7 @@
 
     - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
 
-    - determine connections between useful alternative concepts for formatting (concepts like energy, entropy, random)
+    - determine connections between useful alternative concepts for formatting (concepts like energy, entropy, random) to work around lack of other interface info
       - energy (in the form of cross-system interface components can be stored in structures varying on cross-system interface component variables
           - components like type, change, similarity, simplicity, stability, ambiguity, symmetry, interactivity, limit, efficiency, connectivity, & info preservation/compression
             - a structure that can store some info has adjacent storage structures that can also store that info or a subset/parameters of it
@@ -10,9 +10,14 @@
       - these concepts are useful & structural enough that they can be used as metadata of a problem/solution that circumvents the need to structurize a problem
         - if you know the energy components of a problem and a solution, you can connect them with energy functions without structurizing the problem
           - example:
-            - if a problem is 'optimizing a system that wastes energy or degrades without maintenance processes', and the solution is a method like 'connect energy outputs with energy inputs', these can be connected in either direction using energy metadata of interim steps/structures like 'apply energy usage-reducing components like connections' (to connect inputs/outputs)
+            - if a problem is 'optimizing a system that wastes energy or degrades without maintenance processes', and the solution is a method like 'connect energy outputs with energy inputs', these can be connected in either direction using energy metadata of interim steps/structures like 'apply energy usage-reducing components like connections' (to connect inputs/outputs), where energy is defined as common abstract structures like 'source of change', 'output', 'input:output ratio', 'potential', 'robustness'
+      - these concepts are useful bc they:
+        - can reduce info to its most relevant structures
+          - involve structures of relevance (commonness, abstraction, connection)
+        - apply to all interface components
+          - can be defined across interfaces (with alternative definitions that apply directly to interface components)
 
-  - crypto as community consensus, where a decision can only have value if backed by a community
+  - crypto as community consensus, where a decision can have value if backed by a community
 
   - problem-causing structures of turing machine (with 'lack of input validation' problem)
     - lack of potential alignment in interpretating vs. applying a component
