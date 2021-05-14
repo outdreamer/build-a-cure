@@ -1,6 +1,6 @@
 # to do
 
-    - make diagram of absolute reference connections
+    - make diagram of absolute reference connections with metadata structures like networks/paths
 
     - connection-connecting methods
 
@@ -13,9 +13,13 @@
         - in the space of connections, function A & B have a similarity in position
 
         - the efficiencies connecting two absolute references may replace another function connecting those references
+
           - given the adjacence of 2 & 10 to each other, it may be more efficient to use this similarity to connect them (by transforming one to the other) than using other connections (either as similarities or differences) such as multiply by 5 or divide 20 by 10
+          
           - or it may be more efficient to transform 2 to 1 given its similarity to 1 and use unit multiplication (1 * 10 = 10, requiring no change) and transforming 1 back to two through addition (10 + 10 = 2 * 10) rather than multiplying 2 * 10
+          
           - this efficiency is generated from the metadata of these two numbers, metadata that may connect them more efficiently than other operations
+            
             - example queries:
               - "apply the prime interface to connect numbers adjacent to primes" (adjacence given common factor pattern)
               - "apply the unit interface to connect references adjacent to unit references" (adjacence to 1)
@@ -43,11 +47,10 @@
           - given that values can be connected with value-connecting metadata, functions can be connected with function-connecting metadata (and value-connecting metadata, given that values are components of functions and functions can be represented as values)
             - just like 2 & 10 can be connected by their adjacence to primes, to each other, and to 1, functions can be connected by their adjacence to each other & to unit functions
 
-          - these connections can be used to connect difference types
-            - "apply 'opposite direction' operations to connect a component to another, if they can be connected with a sequence structure (they exist or change in a space where a path can connect them)"
+          - these absolute reference connections can be used to connect difference types
+            - "apply 'opposite direction' operations to connect a component to another, if they can be connected with a sequence structure (they exist or change in a space where a path can connect them, or in spaces that can be connected with a path)"
 
-
-    - absolute reference connections
+    - absolute reference-connecting methods
 
       - what is the complete set of unique connections between two values (numbers being absolute references), such as numbers like 2 & 10
 
@@ -110,6 +113,12 @@
           - involve structures of relevance (commonness, abstraction, connection)
         - apply to all interface components
           - can be defined across interfaces (with alternative definitions that apply directly to interface components)
+      - alternate energy formats:
+        - light
+          - light-filtering structures & containing structures like vacillations in a range (waves) around a symmetry (average) given a change-governing force (gravity)
+          - how would you format info as light
+            - light distributes/highlights/focuses energy on specific components, like objects within a distance range from a position, along a trajectory, at an angle, or with a particular interactive structure that absorbs or reflects light
+            - info has similar structures, like difference from origin or other info, info connectible on a path, info visible from a perspective angle, or interaction with info-absorbing or reflecting structures like black holes or encryption algorithms
 
   - crypto as community consensus, where a decision can have value if backed by a community
 
