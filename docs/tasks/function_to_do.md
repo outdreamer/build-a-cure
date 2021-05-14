@@ -2,11 +2,15 @@
 
     - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
 
-    - determine connections between useful alternative concepts for formatting (concepts like energy, info, entropy, symmetry, transforms)
+    - determine connections between useful alternative concepts for formatting (concepts like energy, entropy, random)
       - energy (in the form of cross-system interface components can be stored in structures varying on cross-system interface component variables
           - components like type, change, similarity, simplicity, stability, ambiguity, symmetry, interactivity, limit, efficiency, connectivity, & info preservation/compression
             - a structure that can store some info has adjacent storage structures that can also store that info or a subset/parameters of it
       - the connectivity of these structures can be determined by the energy preservation/loss from origin/target structure and the structures enabling structures connecting them
+      - these concepts are useful & structural enough that they can be used as metadata of a problem/solution that circumvents the need to structurize a problem
+        - if you know the energy components of a problem and a solution, you can connect them with energy functions without structurizing the problem
+          - example:
+            - if a problem is 'optimizing a system that wastes energy or degrades without maintenance processes', and the solution is a method like 'connect energy outputs with energy inputs', these can be connected in either direction using energy metadata of interim steps/structures like 'apply energy usage-reducing components like connections' (to connect inputs/outputs)
 
   - crypto as community consensus, where a decision can only have value if backed by a community
 
