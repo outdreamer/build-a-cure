@@ -43,6 +43,10 @@
           - given that values can be connected with value-connecting metadata, functions can be connected with function-connecting metadata (and value-connecting metadata, given that values are components of functions and functions can be represented as values)
             - just like 2 & 10 can be connected by their adjacence to primes, to each other, and to 1, functions can be connected by their adjacence to each other & to unit functions
 
+          - these connections can be used to connect difference types
+            - "apply 'opposite direction' operations to connect a component to another, if they can be connected with a sequence structure (they exist or change in a space where a path can connect them)"
+
+
     - absolute reference connections
 
       - what is the complete set of unique connections between two values (numbers being absolute references), such as numbers like 2 & 10
