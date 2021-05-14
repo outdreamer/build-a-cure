@@ -1,5 +1,18 @@
 # to do
 
+    - what is the complete set of connections between two values (numbers being absolute references), such as numbers like 2 & 10
+      - their metadata is connected with similarities like:
+        - factors (common factors)
+        - types (integers)
+        - common usage (commonly used as bases)
+        - usage potential (can be used to produce useful functions, sequences, & sets, like even numbers or digit-moving functions)
+        - adjacent value metadata (both near primes, e, pi, 1, & zero)
+      - and connected with differences like:
+        - 2 or its inverse is more commonly used as a power than 10 bc its one away from the unit power 1
+        - factors connecting the two numbers with multiplication/division like 5 & 20
+    - these values can store different info with varying optimization/efficiency & varying info loss/preservation
+    - given the ways that change types like variables/operations are connected in functions, what functions efficiently connect values like the above pair, using minimal info, and for what intents
+
     - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
 
     - determine connections between useful alternative concepts for formatting (concepts like energy, entropy, random) to work around lack of other interface info
