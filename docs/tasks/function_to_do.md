@@ -1,5 +1,15 @@
 # to do
 
+    - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
+
+    - determine connections between useful alternative concepts for formatting (concepts like energy, info, entropy, symmetry, transforms)
+      - energy (in the form of cross-system interface components can be stored in structures varying on cross-system interface component variables
+          - components like type, change, similarity, simplicity, stability, ambiguity, symmetry, interactivity, limit, efficiency, connectivity, & info preservation/compression
+            - a structure that can store some info has adjacent storage structures that can also store that info or a subset/parameters of it
+      - the connectivity of these structures can be determined by the energy preservation/loss from origin/target structure and the structures enabling structures connecting them
+
+  - crypto as community consensus, where a decision can only have value if backed by a community
+
   - problem-causing structures of turing machine (with 'lack of input validation' problem)
     - lack of potential alignment in interpretating vs. applying a component
       - assumption: interpretation & application should be allowed to be different
