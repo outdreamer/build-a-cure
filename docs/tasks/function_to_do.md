@@ -58,6 +58,13 @@
               - limit convergence:
                 - are we near that point or will we be in the lifecycle of this solution
 
+          - 'filter' perspective
+            - identify which filters exist & how to change them to implement solution
+              - existing filters: conditions, dependencies, constants, validations
+
+          - 'interaction' perspective
+            - identify how system components interact & how to change interactions to implement solution
+
         - logic attribute ('type') perspective
           - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
             - are certain types of logic better in different positions (validation in json dict, dependency changes in database triggers, parsing/testing in another position)
