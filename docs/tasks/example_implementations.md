@@ -1367,6 +1367,69 @@
 
 # interface query examples
 
+## example of problem-causing structures of turing machine (with 'lack of input validation' problem)
+
+    - lack of potential alignment in interpretating vs. applying a component
+      - assumption: interpretation & application should be allowed to be different
+      - potential for difference allowed in interpretation vs. application
+        - potential for difference allowed in character string interpreted as input and character string used as input
+    - difference in component attributes that shouldnt exist (should be equal)
+      - assumption: 'length of input' equals 'length of string before a function in the form of a function character'
+        - if these attributes are equal, the input fulfills the input definition
+    - similarity in definitions
+      - assumption: the definitions of input/function are not violated
+        - if input has functionality or if functions are used as input, the definitions may be violated
+    - lack of enforced relevance/meaning
+      - assumption: position of function (rather than the meaning of the function, like position in relation to other components) is a reliable indicator of function signals, when only requirements can be used as a reliable indicator & position of functional characters after input string is not required
+        - the meaning of the function positioned in the input is different from the meaning of the function after the input
+          - the meaning includes different possible intents
+    - lack of applied definition
+      - assumption: that a structure like position can be used in place of a definition
+      - that a variable with a value filter 'input = continuous initial string of characters that dont fulfill the "function" definition, if equal to length of input' shouldnt replace the constant structure 'position of input-terminating character' used to define or differentiate components
+    - lack of exclusivity in component alignment (between 'character string' structure and 'input' structure, where 'character string' structure also aligns with 'function' structure, and where 'character string' contains 'position' structures which are used to differentiate input & function structures without interaction rules enforced for position/input/function contents stored in the 'character string' structure system)
+      - assumption: that 'character string' is a structure that can be used to contain different components & that 'character position' is a structure that can differentiate them in isolation of other structures, and that those component positions & contents wont overlap, be switched, or otherwise be distorted or conflated
+      - that input doesnt contain functional characters
+        - lack of typical input validation in the form of variable value limits
+    - lack of differentiation between components that should be different by definition
+      - assumption: that position can differentiate components
+      - that one problem space component (input) cant be adjacently converted into another (function) bc of definition violation
+    - lack of enforced structural requirement (sequence of producing functionality by applying functions, rather than by reading input)
+      - assumption: that a function not designed to produce functionality in all cases (like reading input) cant be used to produce functionality in all cases
+      - that input strings should be convertible into functions without first being processed by a function
+    - overlap in functionality that shouldnt exist
+      - assumption: that one function cant be used to provide functionality associated with another function
+      - conflation of functionality between 'read' function and 'execute' function
+
+    - core problem structures, resolved with solution structures (system optimization rules)
+      - excess/unnecessary components 
+        - lack of alignment between required & implemented functionality (excess functionality)
+      - lack of uniqueness/exclusivity of definitions (definitions shouldnt overlap)
+        - system optimization: 
+          - ensure that definitions dont overlap or allow ambiguities that are not useful
+          - allow only intents that are useful, which dont allow non-useful intents
+      - conflict between interpretation vs. application bc of difference that shouldnt exist
+        - system optimization: 
+          - ensure similarity of interpretation & application of definitions
+      - lack of meaning in the form of contextual/system position
+        - meaningful position of 'input with function character' differs from position of 'input without function character' in a system
+        - system optimization: 
+          - the meaningful position of components should be analyzed at other interaction levels, like at a 
+            - system level (using system-level integrated metrics) rather than just locally (with local or granular metrics like 'position of function character')
+            - function level (using function metrics like 'functionality potential of function convolution/product/sequence')
+      - requirement as an indicator of info reliability
+        - position isnt required to reliably indicate a component like input/function, but the definition of those components is required to reliably indicate a component
+        - system optimization: 
+          - apply definitions in identification functions
+      - lack of exclusivity in structural intents
+        - multi-purpose structure like 'character string' used for multiple purposes (input, function) without differentiating/separating structure (separating input from function)
+        - system optimization: 
+          - apply multi-purpose structures with differentiating structures to align usage with intent
+          - apply multi-purpose containing structures (like 'variable' or 'template') with differentiating sub-structures to organize other sub-structures stored (like 'constant string')
+      - lack of alignment between structural limits/potential
+        - structural limit of 'character string' doesnt align with the structural potential of its contents (input, function, position, character)
+        - system optimization: 
+          - align structural limits with potential
+
 ## example of applying a problem to solve a similar problem
 
     - 'logistical resource allocation' problem
