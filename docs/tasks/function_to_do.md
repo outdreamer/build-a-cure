@@ -13,7 +13,28 @@
 
         - interface component perspectives
 
+          - 'time' perspective identifying time-based interactions of components
+            - the lifecycle timing of a solution/problem
+            - the sequential timing of steps of a process, like validations or functions to execute in a sequence
+            - timing variables like steps that should be executable external to a process or out of order in a certain context
+            - state sequence that should be fulfilled by a process
+            - imminent tasks to automate after this solution is complete
+
           - 'object' perspective identifying object changes/structures needed
+
+          - 'data' perspective, identifying data flow, from origin state, to various alternative or sequential interim states, to target state
+            - the 'data flow' perspective aligns with testing of specific examples for entire processes creating the data flows & enables identifying/preventing data flow structures like differences or interactions that shouldnt be allowed
+            - as opposed to the 'function' perspective, the 'data flow' perspective focuses on inputs/outputs of logic, measured at various points in the process
+
+          - 'system' perspective, identifying system objects like duplicates, alternatives, efficiencies, ambiguities in data/logic
+            - the system perspective offers a useful contrast with the data, variable, & function perspectives
+              - system: context where interactions of data, variables, functions, & processes are integrated in a way that is useful to agents
+              - data: examples
+              - data flow: sequential input-output examples
+              - variable: input structure (combination) options, change options
+              - function: input/output connection options
+              - function call stack: structures (container, combination, sequence) of input-output connections
+              - process: interaction objects in a system with agents
 
           - 'state' perspective identifying state changes/structures needed
 
