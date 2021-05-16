@@ -1,7 +1,48 @@
 # to do
 
     - data problem trajectories
-      
+
+      - data problem perspectives
+
+        - 'organized' perspective that integrates solution with existing system of solutions & finds/handles error types
+
+          - apply interfaces to task & integrate interface objects into solution
+            1. find variables of task ('inject logic for specific cases') first
+            2. identify variable interactions & important error types to avoid with those variables
+            3. design solution fulfilling foreseeable error types
+              - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
+                - whether specific inputs have specific associated logic
+                - whether logic variables are available/populated in input
+                - whether logic functions in associated logic are available in execution context
+                - whether logic inputs are validated
+                - whether other specific cases are supported by 'logic injection' function
+                - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
+                - whether outputs of injected logic components suboptimally change inputs of other injected logic components
+                - whether injected logic components have a correct sequence and whether it aligns with injection sequence
+
+        - 'efficient' perspective with low learning curve
+
+          - apply most granular change & add changes/logic as necessary to support future intents
+            - apply most adjacent solution (add specific conditions to actual logic)
+
+        - 'consolidated' perspective with low maintainence requirements
+
+          - move logic to position with best available testing, validation, processing functions
+
+        - 'reusability' perspective enabling future usage
+
+          - keep logic in position enabling future usage intents
+
+        - integrated 'consolidated' and 'reusability' perspectives
+          - keep logic in position enabling future usage intents, but add function to convert to position with best functions to support those intents (testing, validation, processing functions)
+        
+        - 'limit' perspective
+          - identify limit of implementations & identify whether usage will converge to limit
+            - implementation limits: 
+              - will adding granular specific cases directly to existing solution ever hit a point where its sub-optimal
+            - limit convergence:
+              - are we near that point or will we be in the lifecycle of this solution
+
       - find correct structures to approach problem 
 
         - 'organize problem components' intent
@@ -49,16 +90,6 @@
         - testing updated logic:
           - determining difference in original/updated outputs (original data & updated data with new function to inject logic for cases)
         - a difference-determining function would be useful for both of the above intents
-
-      - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
-        - whether specific inputs have specific associated logic
-        - whether logic variables are available/populated in input
-        - whether logic functions in associated logic are available in execution context
-        - whether logic inputs are validated
-        - whether other specific cases are supported by 'logic injection' function
-        - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
-        - whether outputs of injected logic components suboptimally change inputs of other injected logic components
-        - whether injected logic components have a correct sequence and whether it aligns with injection sequence
 
     - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
