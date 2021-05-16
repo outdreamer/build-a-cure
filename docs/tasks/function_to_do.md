@@ -1,8 +1,12 @@
 # to do
 
-    - data problem trajectories
+    - logic automation problem structures
 
-      - data problem perspectives with associated solution metrics
+      - connecting perspectives & solutions
+        - by prioritizing different components (structures/attributes/interfaces), perspectives solve problem(s) in different ways and may solve different problem(s)
+        - applying or integrating multiple perspectives can cover more problems solved or reduce the problems to solve, or it can create more problems depending on error types, like unnecessary abstraction or complexity added (in regard to complexity handled)
+
+      - problem perspectives with associated solution priorities/metrics
 
         - interface component perspectives
 
@@ -16,6 +20,17 @@
 
           - 'cause' perspective identifying causal network of system components and which causes need to be changed to complete automation task
             - cause of logic selection in existing solution may be the sequence & existence of queries, whether the logic functions are available, & whether the logic variables are populated, whereas the target cause of logic selection should be which logic exists in a data store & the sequence of queries to that data store
+
+          - logic attribute (type-position) connecting perspective
+
+            - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
+              - are certain types of logic better in different positions (validation in json dict, dependency changes in database triggers, parsing/testing in another position)
+              - what other types apply to logic (configuration, filters, data, examples)
+            
+            - examples of logic attribute (type-position) connection functions
+              - if a logic type is configuration, that should be in positions associated with configuration
+              - if a logic type is changed more than other logic types, that may qualify as data
+              - if a logic type is an example, that suggests a testing position
 
         - attribute-specific perspectives
 
@@ -64,15 +79,6 @@
 
           - 'interaction' perspective
             - identify how system components interact & how to change interactions to implement solution
-
-        - logic attribute ('type') perspective
-          - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
-            - are certain types of logic better in different positions (validation in json dict, dependency changes in database triggers, parsing/testing in another position)
-            - what other types apply to logic (configuration, filters, data, examples)
-          - examples of logic attribute (type-position) connection functions
-            - if a logic type is configuration, that should be in positions associated with configuration
-            - if a logic type is changed more than other logic types, that may qualify as data
-            - if a logic type is an example, that suggests a testing position
 
       - apply solutions to various related & sub-problems to task automation problem
 
