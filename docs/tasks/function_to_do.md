@@ -1,5 +1,65 @@
 # to do
 
+    - data problem trajectories
+      
+      - find correct structures to approach problem 
+
+        - 'organize problem components' intent
+          - position (as an input to the 'organize problem components' intent)
+            - find correct position of components
+              - logic, input/output/interim/duplicate/index data, validation/generative functions
+          
+        - 'reduce solution space' intent
+          - filters
+            - apply organization intent with regard to solution filters (as an input to 'reduce solution space' intent)
+              - tasks, processes, process variables, process steps, required inputs/outputs, and cost of implementing re-arrangements
+        
+      - apply solutions to various problems
+
+        1. problem of 'dependency' between logic components
+          - apply 'dependency' definition
+            - separate dependent variable logic & apply after initial logic once inputs are populated as constant independent inputs
+        
+        2. problem of 'dependency' between problem/solution components (solution steps)
+          - solving problem 3 must occur before solving problem 4
+        
+        3. problem of 'selecting which implementation to use for primary automation task'
+          - select between strategies
+            - inject variable to store logic & apply if populated (store logic in database table)
+            - embed logic in other logic (store logic in query logic)
+        
+        4. problem of 'selecting format to use once an implementation is selected'
+          - select between logic formats
+            - delimited format
+            - actual logic format
+            - logic standardized to executing language format (python)
+            - logic standardized to common format (json dict) to be used as config vs. data in a data store
+
+      5. find correct interaction level to apply solution at based on interaction interface 
+        - interaction level: process, query, task, script, variable, function
+        - interaction interface: usage interface, logic interface, input/output interface, state interface
+      
+      6. find intents supported by implementation options
+        - storing in database supports intent of 'fast initial querying & re-querying, & subsequent querying'
+        - storing in python support intents of 'maintainability, modifications to add new logic, consolidate to process/step interface'
+      
+      7. find related & aligning intents of 'enable injecting logic in query logic' automation task
+        - testing logic correctness: 
+          - determining difference in inputs/outputs, as aligning with differences applied in logic (input/output difference created by logic & input/output data difference)
+        - testing updated logic:
+          - determining difference in original/updated outputs (original data & updated data with new function to inject logic for cases)
+        - a difference-determining function would be useful for both of the above intents
+
+      - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
+        - whether specific inputs have specific associated logic
+        - whether logic variables are available/populated in input
+        - whether logic functions in associated logic are available in execution context
+        - whether logic inputs are validated
+        - whether other specific cases are supported by 'logic injection' function
+        - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
+        - whether outputs of injected logic components suboptimally change inputs of other injected logic components
+        - whether injected logic components have a correct sequence and whether it aligns with injection sequence
+
     - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
         - why something is true
@@ -28,187 +88,9 @@
 
     - make diagram of absolute reference connections with metadata structures like networks/paths
 
-    - connection-connecting methods
-
-      - given how values can be connected, how can connections be connected using those value-connecting connections
-
-        - how can connections be formatted as absolute references (numbers) so value-connecting connections can be applied to connect connections
-
-        - given that a function A connects 2 & 10, and so does function B, function B is connected to function A by change types & operations that preserve the input/output relationship for that case
-
-        - in the space of connections, function A & B have a similarity in position
-
-        - the efficiencies connecting two absolute references may replace another function connecting those references
-
-          - given the adjacence of 2 & 10 to each other, it may be more efficient to use this similarity to connect them (by transforming one to the other) than using other connections (either as similarities or differences) such as multiply by 5 or divide 20 by 10
-          
-          - or it may be more efficient to transform 2 to 1 given its similarity to 1 and use unit multiplication (1 * 10 = 10, requiring no change) and transforming 1 back to two through addition (10 + 10 = 2 * 10) rather than multiplying 2 * 10
-          
-          - this efficiency is generated from the metadata of these two numbers, metadata that may connect them more efficiently than other operations
-            
-            - example queries:
-              - "apply the prime interface to connect numbers adjacent to primes" (adjacence given common factor pattern)
-              - "apply the unit interface to connect references adjacent to unit references" (adjacence to 1)
-              - "apply the difference interface to connect reference differences adjacent to a more computable/optimizable/efficient difference" (the difference between 2 & 10 is adjacent to the difference between 1 & 10)
-              - "apply the unit interface to the difference interface (find the core component of difference), then the alternative interface (replacing multiplication with addition)"
-
-              - interface queries can be framed as structural paths:
-                - value query: 
-                  - "take the prime network until you hit the unit network or am ambiguity, then take the difference sequence in the direction of increasing difference until you get to the target value"
-                - function query: 
-                  - "apply area operations (integral/derivative) until you reach a connection that can be reduced to coefficient operations (multiplication) or sequence operations (progressions, sums)"
-                  - "apply difference operations (adding new difference types in values) until predictions of highly non-adjacent values are similar to actual values (converge)"
-                  - "derive difference types in known input-output connections (local data) until interactive difference types (emerging in non-local data) are predictable with a degree of certainty"
-                  - "determine difference types that are quickest to filter out (prove wrong), given common difference type patterns"
-
-        - connection-connecting methods can be connected with interface components
-          
-          - apply interface component 'opposite'
-            - a function connecting 2 & 10 has an 'opposite' structure applied to the attribute of 'direction', in the form of a function connecting 10 & 2
-            - this absolute reference (opposite direction) connects these connection types (functions) just like -1 is connected to 1 by an opposite structure applied to the attribute of 'direction'
-
-          - apply interfaces to get the metadata of a function (like we applied interfaces to get the metadata of values below)
-            - this will produce other functions that may be efficient in some way, possibly more efficient than the original function at many of its intents
-
-          - given that values can be connected with value-connecting metadata, functions can be connected with function-connecting metadata (and value-connecting metadata, given that values are components of functions and functions can be represented as values)
-            - just like 2 & 10 can be connected by their adjacence to primes, to each other, and to 1, functions can be connected by their adjacence to each other & to unit functions
-
-          - these absolute reference connections can be used to connect difference types
-            - "apply 'opposite direction' operations to connect a component to another, if they can be connected with a sequence structure (they exist or change in a space where a path can connect them, or in spaces that can be connected with a path)"
-
-    - absolute reference-connecting methods
-
-      - what is the complete set of unique connections between two values (numbers being absolute references), such as numbers like 2 & 10
-
-        - their metadata is connected with:
-
-          - similarities:
-
-            - components
-              - inputs
-                - factors (common factors)
-
-            - abstractions
-              - types
-                - value types (integers)
-
-            - system contexts (relevance through usefulness)
-              - applications
-                - common usage (commonly used as bases)
-                - usage potential (can be used to produce useful functions, sequences, & sets, like even numbers or digit-moving functions)
-
-            - relevant components
-
-              - relevance through adjacence in position
-                - adjacent value metadata (both near primes, e, pi, 1, & zero)
-
-              - relevance through interactivity
-                - interactive with value-connecting metadata (metadata like number types)
-                  - intersections
-                    - 2 intersects with primes formatted as a sequential path (sequence of primes) or a network (formatted by adjacence to other primes, adjacence to other high-energy numbers, or other highly connecting metadata) or a function (checking for factors qualifying as those of a prime)
-                    - sequence of even numbers
-
-          - differences like:
-
-            - adjacent transforms, formats, & applications
-
-              - usage
-                - power
-                  - 2 or its inverse is more commonly used as a power than 10 bc its one away from the unit power 1
-            
-            - difference-reducing connections
-              - operations
-                - factors connecting the two numbers with multiplication/division like 5 & 20
-      
-      - these values can store different info with varying optimization/efficiency & varying info loss/preservation
-      - given the ways that change types like variables/operations are connected in functions, what functions efficiently connect values like the above pair, using minimal info, and for what intents
-
-    - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
-
-    - determine connections between useful alternative concepts for formatting (concepts like energy, entropy, random) to work around lack of other interface info
-      - energy (in the form of cross-system interface components can be stored in structures varying on cross-system interface component variables
-          - components like type, change, similarity, simplicity, stability, ambiguity, symmetry, interactivity, limit, efficiency, connectivity, & info preservation/compression
-            - a structure that can store some info has adjacent storage structures that can also store that info or a subset/parameters of it
-      - the connectivity of these structures can be determined by the energy preservation/loss from origin/target structure and the structures enabling structures connecting them
-      - these concepts are useful & structural enough that they can be used as metadata of a problem/solution that circumvents the need to structurize a problem
-        - if you know the energy components of a problem and a solution, you can connect them with energy functions without structurizing the problem
-          - example:
-            - if a problem is 'optimizing a system that wastes energy or degrades without maintenance processes', and the solution is a method like 'connect energy outputs with energy inputs', these can be connected in either direction using energy metadata of interim steps/structures like 'apply energy usage-reducing components like connections' (to connect inputs/outputs), where energy is defined as common abstract structures like 'source of change', 'output', 'input:output ratio', 'potential', 'robustness'
-      - these concepts are useful bc they:
-        - can reduce info to its most relevant structures
-          - involve structures of relevance (commonness, abstraction, connection)
-        - apply to all interface components
-          - can be defined across interfaces (with alternative definitions that apply directly to interface components)
-      - alternate energy formats:
-        - light
-          - light-filtering structures & containing structures like vacillations in a range (waves) around a symmetry (average) given a change-governing force (gravity)
-          - how would you format info as light
-            - light distributes/highlights/focuses energy on specific components, like objects within a distance range from a position, along a trajectory, at an angle, or with a particular interactive structure that absorbs or reflects light
-            - info has similar structures, like difference from origin info, info connectible on a path, info visible from a perspective angle, or interaction with info-absorbing/storing/reflecting structures like black holes or encryption algorithms
+  - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
 
   - crypto as community consensus, where a decision can have value if backed by a community
-
-  - problem-causing structures of turing machine (with 'lack of input validation' problem)
-    - lack of potential alignment in interpretating vs. applying a component
-      - assumption: interpretation & application should be allowed to be different
-      - potential for difference allowed in interpretation vs. application
-        - potential for difference allowed in character string interpreted as input and character string used as input
-    - difference in component attributes that shouldnt exist (should be equal)
-      - assumption: 'length of input' equals 'length of string before a function in the form of a function character'
-        - if these attributes are equal, the input fulfills the input definition
-    - similarity in definitions
-      - assumption: the definitions of input/function are not violated
-        - if input has functionality or if functions are used as input, the definitions may be violated
-    - lack of enforced relevance/meaning
-      - assumption: position of function (rather than the meaning of the function, like position in relation to other components) is a reliable indicator of function signals, when only requirements can be used as a reliable indicator & position of functional characters after input string is not required
-        - the meaning of the function positioned in the input is different from the meaning of the function after the input
-          - the meaning includes different possible intents
-    - lack of applied definition
-      - assumption: that a structure like position can be used in place of a definition
-      - that a variable with a value filter 'input = continuous initial string of characters that dont fulfill the "function" definition, if equal to length of input' shouldnt replace the constant structure 'position of input-terminating character' used to define or differentiate components
-    - lack of exclusivity in component alignment (between 'character string' structure and 'input' structure, where 'character string' structure also aligns with 'function' structure, and where 'character string' contains 'position' structures which are used to differentiate input & function structures without interaction rules enforced for position/input/function contents stored in the 'character string' structure system)
-      - assumption: that 'character string' is a structure that can be used to contain different components & that 'character position' is a structure that can differentiate them in isolation of other structures, and that those component positions & contents wont overlap, be switched, or otherwise be distorted or conflated
-      - that input doesnt contain functional characters
-        - lack of typical input validation in the form of variable value limits
-    - lack of differentiation between components that should be different by definition
-      - assumption: that position can differentiate components
-      - that one problem space component (input) cant be adjacently converted into another (function) bc of definition violation
-    - lack of enforced structural requirement (sequence of producing functionality by applying functions, rather than by reading input)
-      - assumption: that a function not designed to produce functionality in all cases (like reading input) cant be used to produce functionality in all cases
-      - that input strings should be convertible into functions without first being processed by a function
-    - overlap in functionality that shouldnt exist
-      - assumption: that one function cant be used to provide functionality associated with another function
-      - conflation of functionality between 'read' function and 'execute' function
-
-    - core problem structures, resolved with solution structures (system optimization rules)
-      - excess/unnecessary components 
-        - lack of alignment between required & implemented functionality (excess functionality)
-      - lack of uniqueness/exclusivity of definitions (definitions shouldnt overlap)
-        - system optimization: 
-          - ensure that definitions dont overlap or allow ambiguities that are not useful
-          - allow only intents that are useful, which dont allow non-useful intents
-      - conflict between interpretation vs. application bc of difference that shouldnt exist
-        - system optimization: 
-          - ensure similarity of interpretation & application of definitions
-      - lack of meaning in the form of contextual/system position
-        - meaningful position of 'input with function character' differs from position of 'input without function character' in a system
-        - system optimization: 
-          - the meaningful position of components should be analyzed at other interaction levels, like at a 
-            - system level (using system-level integrated metrics) rather than just locally (with local or granular metrics like 'position of function character')
-            - function level (using function metrics like 'functionality potential of function convolution/product/sequence')
-      - requirement as an indicator of info reliability
-        - position isnt required to reliably indicate a component like input/function, but the definition of those components is required to reliably indicate a component
-        - system optimization: 
-          - apply definitions in identification functions
-      - lack of exclusivity in structural intents
-        - multi-purpose structure like 'character string' used for multiple purposes (input, function) without differentiating/separating structure (separating input from function)
-        - system optimization: 
-          - apply multi-purpose structures with differentiating structures to align usage with intent
-          - apply multi-purpose containing structures (like 'variable' or 'template') with differentiating sub-structures to organize other sub-structures stored (like 'constant string')
-      - lack of alignment between structural limits/potential
-        - structural limit of 'character string' doesnt align with the structural potential of its contents (input, function, position, character)
-        - system optimization: 
-          - align structural limits with potential
 
   - interfaces that are important bc of generative concepts/structures
     - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
