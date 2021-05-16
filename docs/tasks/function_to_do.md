@@ -4,42 +4,59 @@
 
       - data problem perspectives with associated solution metrics
 
-        - 'function' perspective identifying the most useful functions to write that add the most flexibility to existing system (to support other intents) while fulfilling relevant problem-solving intents of the automation task problem
+        - interface component perspectives
 
-        - 'organized' perspective that integrates solution with existing system of solutions & finds/handles error types
-          - apply interfaces to task & integrate interface objects into solution
-            1. find variables of task ('inject logic for specific cases') first
-            2. identify variable interactions & important error types to avoid with those variables
-            3. design solution fulfilling foreseeable error types
-            - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
-              - whether specific inputs have specific associated logic
-              - whether logic variables are available/populated in input
-              - whether logic functions in associated logic are available in execution context
-              - whether logic inputs are validated
-              - whether other specific cases are supported by 'logic injection' function
-              - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
-              - whether outputs of injected logic components suboptimally change inputs of other injected logic components
-              - whether injected logic components have a correct sequence and whether it aligns with injection sequence
+          - 'object' perspective identifying object changes/structures needed
 
-        - 'efficient' or 'default' perspective with low learning curve (adjust existing logic & write tests, dont change anything that isnt necessary like rearranging components)
-          - apply most granular change & add changes/logic as necessary to support future intents
-            - apply most adjacent solution (add specific conditions to actual logic)
+          - 'state' perspective identifying state changes/structures needed
 
-        - 'consolidated' perspective with low maintainence requirements
-          - move logic to position with best available testing, validation, processing functions
+          - 'variable' perspective identifying which variables are required for solving automation task problem before changing existing system
 
-        - 'reusability' perspective enabling future usage
-          - keep logic in position enabling future usage intents
+          - 'function' perspective identifying which functions to write before implementing solution
 
-        - integrated 'consolidated' and 'reusability' perspectives
-          - keep logic in position enabling future usage intents, but add function to convert to position with best functions to support those intents (testing, validation, processing functions)
+          - 'cause' perspective identifying causal network of system components and which causes need to be changed to complete automation task
+            - cause of logic selection in existing solution may be the sequence & existence of queries, whether the logic functions are available, & whether the logic variables are populated, whereas the target cause of logic selection should be which logic exists in a data store & the sequence of queries to that data store
+
+        - attribute-specific perspectives
+
+          - 'optimization' perspective: identifying the most useful functions to write that optimize a metric (like 'flexibility') to the existing system (to support other intents), while fulfilling relevant problem-solving intents of the automation task problem
+
+          - 'organized' perspective that integrates solution with existing system of solutions & finds/handles error types
+            - apply interfaces to task & integrate interface objects into solution
+              1. find variables of task ('inject logic for specific cases') first
+              2. identify variable interactions & important error types to avoid with those variables
+              3. design solution fulfilling foreseeable error types
+              - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
+                - whether specific inputs have specific associated logic
+                - whether logic variables are available/populated in input
+                - whether logic functions in associated logic are available in execution context
+                - whether logic inputs are validated
+                - whether other specific cases are supported by 'logic injection' function
+                - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
+                - whether outputs of injected logic components suboptimally change inputs of other injected logic components
+                - whether injected logic components have a correct sequence and whether it aligns with injection sequence
+
+          - 'efficient' or 'default' perspective with low learning curve (adjust existing logic & write tests, dont change anything that isnt necessary like rearranging components)
+            - apply most granular change & add changes/logic as necessary to support future intents
+              - apply most adjacent solution (add specific conditions to actual logic)
+
+          - 'consolidated' perspective with low maintainence requirements
+            - move logic to position with best available testing, validation, processing functions
+
+          - 'reusability' perspective enabling future usage
+            - keep logic in position enabling future usage intents
+
+          - integrated 'consolidated' and 'reusability' perspectives
+            - keep logic in position enabling future usage intents, but add function to convert to position with best functions to support those intents (testing, validation, processing functions)
         
-        - 'limit' perspective
-          - identify limit of implementations & identify whether usage will converge to limit
-            - implementation limits: 
-              - will adding granular specific cases directly to existing solution ever hit a point where its sub-optimal
-            - limit convergence:
-              - are we near that point or will we be in the lifecycle of this solution
+        - structure perspectives
+
+          - 'limit' perspective
+            - identify limit of implementations & identify whether usage will converge to limit
+              - implementation limits: 
+                - will adding granular specific cases directly to existing solution ever hit a point where its sub-optimal
+              - limit convergence:
+                - are we near that point or will we be in the lifecycle of this solution
 
         - logic attribute ('type') perspective
           - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
