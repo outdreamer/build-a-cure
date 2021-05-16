@@ -2,45 +2,39 @@
 
     - data problem trajectories
 
-      - data problem perspectives
+      - data problem perspectives with associated solution metrics
+
+        - 'function' perspective identifying the most useful functions to write that add the most flexibility to existing system (to support other intents) while fulfilling relevant problem-solving intents of the automation task problem
 
         - 'organized' perspective that integrates solution with existing system of solutions & finds/handles error types
-
           - apply interfaces to task & integrate interface objects into solution
-
             1. find variables of task ('inject logic for specific cases') first
             2. identify variable interactions & important error types to avoid with those variables
             3. design solution fulfilling foreseeable error types
-            
             - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
-                - whether specific inputs have specific associated logic
-                - whether logic variables are available/populated in input
-                - whether logic functions in associated logic are available in execution context
-                - whether logic inputs are validated
-                - whether other specific cases are supported by 'logic injection' function
-                - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
-                - whether outputs of injected logic components suboptimally change inputs of other injected logic components
-                - whether injected logic components have a correct sequence and whether it aligns with injection sequence
+              - whether specific inputs have specific associated logic
+              - whether logic variables are available/populated in input
+              - whether logic functions in associated logic are available in execution context
+              - whether logic inputs are validated
+              - whether other specific cases are supported by 'logic injection' function
+              - whether specific cases of multiple injected logic compoennts coordinate or contradict each other
+              - whether outputs of injected logic components suboptimally change inputs of other injected logic components
+              - whether injected logic components have a correct sequence and whether it aligns with injection sequence
 
-        - 'efficient' perspective with low learning curve
-
+        - 'efficient' or 'default' perspective with low learning curve (adjust existing logic & write tests, dont change anything that isnt necessary like rearranging components)
           - apply most granular change & add changes/logic as necessary to support future intents
             - apply most adjacent solution (add specific conditions to actual logic)
 
         - 'consolidated' perspective with low maintainence requirements
-
           - move logic to position with best available testing, validation, processing functions
 
         - 'reusability' perspective enabling future usage
-
           - keep logic in position enabling future usage intents
 
         - integrated 'consolidated' and 'reusability' perspectives
-
           - keep logic in position enabling future usage intents, but add function to convert to position with best functions to support those intents (testing, validation, processing functions)
         
         - 'limit' perspective
-
           - identify limit of implementations & identify whether usage will converge to limit
             - implementation limits: 
               - will adding granular specific cases directly to existing solution ever hit a point where its sub-optimal
@@ -48,7 +42,6 @@
               - are we near that point or will we be in the lifecycle of this solution
 
         - logic attribute ('type') perspective
-
           - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
             - are certain types of logic better in different positions (validation in json dict, dependency changes in database triggers, parsing/testing in another position)
             - what other types apply to logic (configuration, filters, data, examples)
@@ -57,19 +50,7 @@
             - if a logic type is changed more than other logic types, that may qualify as data
             - if a logic type is an example, that suggests a testing position
 
-      - find correct structures to approach problem 
-
-        - 'organize problem components' intent
-          - position (as an input to the 'organize problem components' intent)
-            - find correct position of components
-              - logic, input/output/interim/duplicate/index data, validation/generative functions
-          
-        - 'reduce solution space' intent
-          - filters
-            - apply organization intent with regard to solution filters (as an input to 'reduce solution space' intent)
-              - tasks, processes, process variables, process steps, required inputs/outputs, and cost of implementing re-arrangements
-        
-      - apply solutions to various problems
+      - apply solutions to various related & sub-problems to task automation problem
 
         1. problem of 'dependency' between logic components
           - apply 'dependency' definition
@@ -90,21 +71,39 @@
             - logic standardized to executing language format (python)
             - logic standardized to common format (json dict) to be used as config vs. data in a data store
 
-      5. find correct interaction level to apply solution at based on interaction interface 
-        - interaction level: process, query, task, script, variable, function
-        - interaction interface: usage interface, logic interface, input/output interface, state interface
-      
-      6. find intents supported by implementation options
-        - storing in database supports intent of 'fast initial querying & re-querying, & subsequent querying'
-        - storing in python support intents of 'maintainability, modifications to add new logic, consolidate to process/step interface'
-      
-      7. find related & aligning intents of 'enable injecting logic in query logic' automation task
-        - testing logic correctness: 
-          - determining difference in inputs/outputs, as aligning with differences applied in logic (input/output difference created by logic & input/output data difference)
-        - testing updated logic:
-          - determining difference in original/updated outputs (original data & updated data with new function to inject logic for cases)
-        - a difference-determining function would be useful for both of the above intents
+        5. problem of 'finding correct interaction level to apply solution at based on interaction interface'
+          - interaction level: process, query, task, script, variable, function
+          - interaction interface: usage interface, logic interface, input/output interface, state interface
+        
+        6. problem of 'finding intents supported by implementation options'
+          - storing in database supports intent of 'fast initial querying & re-querying, & subsequent querying'
+          - storing in python support intents of 'maintainability, modifications to add new logic, consolidate to process/step interface'
+        
+        7. problem of 'finding related & aligning intents of 'enable injecting logic in query logic' automation task'
+          - testing logic correctness: 
+            - determining difference in inputs/outputs, as aligning with differences applied in logic (input/output difference created by logic & input/output data difference)
+          - testing updated logic:
+            - determining difference in original/updated outputs (original data & updated data with new function to inject logic for cases)
+          - a difference-determining function would be useful for both of the above intents
 
+        8. problem of 'finding correct structures to approach problem'
+          - 'organize problem components' intent
+            - position (as an input to the 'organize problem components' intent)
+              - find correct position of components
+                - logic, input/output/interim/duplicate/index data, validation/generative functions
+          - 'reduce solution space' intent
+            - filters
+              - apply organization intent with regard to solution filters (as an input to 'reduce solution space' intent)
+                - tasks, processes, process variables, process steps, required inputs/outputs, and cost of implementing re-arrangements
+
+        9. problem of 'finding functions to solve these problems & selecting the functions that solve the most problems to write the least code'
+          - functions that solve the most problems out of problems 1 - 8 & fulfill the most perspectives (fulfill the most perspective-associated solution metrics)
+            - function to determine (data/logic) difference
+            - function to find required/similar logic/data
+            - function to convert logic to a format
+            - function to sort (logic/data) in sequence
+            - function to apply logic based on variable (execute specific logic for an input, or a specific input to execute a process step logic)
+          
     - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
         - why something is true
