@@ -8,6 +8,11 @@
         - some perspectives are more useful than others for various intents
         - some perspectives need to be applied in structures (like sequences/combinations) with other perspectives
         - some perspectives will cause error types for an intent
+
+        - examples:
+          - if you think based purely on avoiding errors, you may miss optimal solutions
+          - if you think based purely about functions & their interactions, you may miss how they fit into the system or how they apply to data
+          - if you think based purely in sequential time, you may miss ways to parallelize operations
         
       - problem perspectives with associated solution priorities/metrics
 
