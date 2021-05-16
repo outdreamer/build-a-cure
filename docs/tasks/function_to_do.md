@@ -7,10 +7,12 @@
         - 'organized' perspective that integrates solution with existing system of solutions & finds/handles error types
 
           - apply interfaces to task & integrate interface objects into solution
+
             1. find variables of task ('inject logic for specific cases') first
             2. identify variable interactions & important error types to avoid with those variables
             3. design solution fulfilling foreseeable error types
-              - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
+            
+            - variables of 'logic injection' function (solution to automation task of 'injecting logic in specific cases'): 
                 - whether specific inputs have specific associated logic
                 - whether logic variables are available/populated in input
                 - whether logic functions in associated logic are available in execution context
@@ -34,14 +36,26 @@
           - keep logic in position enabling future usage intents
 
         - integrated 'consolidated' and 'reusability' perspectives
+
           - keep logic in position enabling future usage intents, but add function to convert to position with best functions to support those intents (testing, validation, processing functions)
         
         - 'limit' perspective
+
           - identify limit of implementations & identify whether usage will converge to limit
             - implementation limits: 
               - will adding granular specific cases directly to existing solution ever hit a point where its sub-optimal
             - limit convergence:
               - are we near that point or will we be in the lifecycle of this solution
+
+        - logic attribute ('type') perspective
+
+          - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
+            - are certain types of logic better in different positions (validation in json dict, dependency changes in database triggers, parsing/testing in another position)
+            - what other types apply to logic (configuration, filters, data, examples)
+          - examples of logic attribute (type-position) connection functions
+            - if a logic type is configuration, that should be in positions associated with configuration
+            - if a logic type is changed more than other logic types, that may qualify as data
+            - if a logic type is an example, that suggests a testing position
 
       - find correct structures to approach problem 
 
