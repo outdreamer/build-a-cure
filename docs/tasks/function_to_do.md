@@ -2,7 +2,7 @@
 
     - logic automation problem structures
 
-      - connecting perspectives (interfaces with a goal like a priority or metric, which makes them by definition relevant to solutions) & solutions
+      - connecting solutions & perspectives (interfaces with a goal like a priority or metric, which makes them by definition relevant to solutions)
         - by prioritizing different components (structures/attributes/interfaces), perspectives solve problem(s) in different ways, with different variables (problem origin points, solution metrics), and may solve different problem(s)
         - applying or integrating multiple perspectives can cover more problems solved or reduce the problems to solve, or it can create more problems depending on error types, like unnecessary abstraction or complexity added (in regard to complexity handled)
         - some perspectives are more useful than others for various intents
@@ -43,6 +43,8 @@
           - 'function' perspective identifying which functions to write before implementing solution
 
           - 'test' perspective identifying which tests the solution needs to fulfill (enables finding solutions by iterating changes & checking changes to see if they fulfill test)
+
+          - 'error' perspective that enables applying an 'not error' filter to solutions to avoid known/predictable error structures (like error types)
 
           - 'cause' perspective identifying causal network of system components and which causes need to be changed to complete automation task
             - cause of logic selection in existing solution may be the sequence & existence of queries, whether the logic functions are available, & whether the logic variables are populated, whereas the target cause of logic selection should be which logic exists in a data store & the sequence of queries to that data store
