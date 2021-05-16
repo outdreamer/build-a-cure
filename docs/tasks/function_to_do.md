@@ -2,10 +2,13 @@
 
     - logic automation problem structures
 
-      - connecting perspectives & solutions
-        - by prioritizing different components (structures/attributes/interfaces), perspectives solve problem(s) in different ways and may solve different problem(s)
+      - connecting perspectives (interfaces with a goal like a priority or metric, which makes them by definition relevant to solutions) & solutions
+        - by prioritizing different components (structures/attributes/interfaces), perspectives solve problem(s) in different ways, with different variables (problem origin points, solution metrics), and may solve different problem(s)
         - applying or integrating multiple perspectives can cover more problems solved or reduce the problems to solve, or it can create more problems depending on error types, like unnecessary abstraction or complexity added (in regard to complexity handled)
-
+        - some perspectives are more useful than others for various intents
+        - some perspectives need to be applied in structures (like sequences/combinations) with other perspectives
+        - some perspectives will cause error types for an intent
+        
       - problem perspectives with associated solution priorities/metrics
 
         - interface component perspectives
@@ -18,10 +21,12 @@
 
           - 'function' perspective identifying which functions to write before implementing solution
 
+          - 'test' perspective identifying which tests the solution needs to fulfill (enables finding solutions by iterating changes & checking changes to see if they fulfill test)
+
           - 'cause' perspective identifying causal network of system components and which causes need to be changed to complete automation task
             - cause of logic selection in existing solution may be the sequence & existence of queries, whether the logic functions are available, & whether the logic variables are populated, whereas the target cause of logic selection should be which logic exists in a data store & the sequence of queries to that data store
 
-          - logic attribute (type-position) connecting perspective
+          - 'logic' attribute-connecting perspective (attributes like type-position) 
 
             - sub-queries about type attributes to solve problem of 'finding correct position of components to fulfill organization intent'
               - are certain types of logic better in different positions (validation in json dict, dependency changes in database triggers, parsing/testing in another position)
