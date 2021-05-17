@@ -730,6 +730,38 @@
 
 	- generate solution structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
 
+	- generate solution structure based on solution requirements, identify variables of solution space, and map solution space variables to variables of solution structure
+		- example: 
+			
+			- solution template structure based on solution requirements, like a set of boundaries/limits or filters ('a continuous function of x with integer coefficients & powers less than 3')
+				
+				- solution template structure variables:
+					- coefficient number type, continuity, input/output variables, power value limit, input/output variable dependency direction
+			
+			- solution space, as in the 'functions of x producing reliable predictions of variable y that are possible in the problem system' - which when reduced will be the set of solution template structure variable values associated with such functions
+				
+				- solution space variables: 
+					- alignment of predicted & actual output y, input/output variables, input/output variable dependency direction, difference types possible in problem space
+			
+			- connecting structures of solution requirement structure & solution space
+				
+				- solution structure to solution space
+					- apply structure to solution structure variables to reduce the solution space possibilities
+						- combine/change values of solution structure variables to most probable/different/filtering value combinations
+				
+				- solution space to solution structure
+					- apply the solution space variables to filter the possible variable values of the solution structure
+						- filter out functions having a specific coefficient pair for example
+							- 'what types of difference are possible in the problem space'
+						- difference types (variables) between input/output pairs
+							- 'what variables & values applied to difference type A is present between (x1, y1)'
+
+				- identify what structures of solution space variables can map to the solution requirement template structure variables
+					- structures of solution space variables
+						- components that can be combined or can interact in the problem space, between x & y
+					- solution requirement template structure variables
+						- solution metric requirement components
+
 	- generate and/or apply solution structures (like structures of uncertainty reduction or organization) that generate the least entropy in the problem system & select between these structures as an initial reduced solution space
 
     - change problem into more solvable problem
