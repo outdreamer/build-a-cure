@@ -60,6 +60,18 @@
     - subset/core: 
       - sub-networks or core network components can be added to handle resolution of subset/core component interactions
       - a decision network can be applied to determine when sub-sets or core component interactions need resolution, like reducing common factors of input variables with standardization
+    - combination:
+      - integration structures can include a decision network to determine when components should be combined
+    - filters:
+      - filters or limit structures can be used to reduce what doesnt contribute to prediction accuracy or cant be applied by default (solution cant merge variables from alternate functions)
+    
+    - the core structure of a network is 'connection', with related structures 'positions', 'direction', and 'filters'
+      - a problem & solution can be 'connected' using a structure (like a sequence or network) of formats
+      - other structural insight paths can be used to derive solutions
+        - find solution by applying solution metric structures like structures of a priority
+        - find solution by applying core structures available in problem space
+        - find solution by applying system structures like ambiguity & incentive
+      - these can also be applied to the ml problem space
 
   - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
