@@ -49,10 +49,17 @@
           - generalized form:
             - classifier that identifies multiple differences, within labeled attributes & category/type definitions, between type definitions, and difference patterns between types
 
-  - is an ml network the best structure for implementing ml?
-    - standard: an ANN network has: direction linking input/output, weight distortions & applied distortion filters to select the distortions that contribute to prediction accuracy
-    - alternate: other networks can be added to handle conditions where alternate functions can be applied
-    - subset/core: sub-networks can be added to handle resolution of subset/core component interactions
+  - is a network the best structure for implementing ml?
+    - standard: an ANN network has: 
+      - causation: direction linking input/output
+      - changing parameters, starting from a standard origin: weight distortions
+      - solution filters: applied distortion filters to select the distortions that contribute to prediction accuracy
+    - alternate: 
+      - other networks can be added to handle conditions where alternate functions can be applied
+      - a decision network can be applied to determine when decisions are made to switch to an alternate network (where data contributes to prediction accuracy of an alternate function instead of the current one)
+    - subset/core: 
+      - sub-networks or core network components can be added to handle resolution of subset/core component interactions
+      - a decision network can be applied to determine when sub-sets or core component interactions need resolution, like reducing common factors of input variables with standardization
 
   - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
