@@ -1,6 +1,20 @@
 # to do
 
   - add other interfaces to ml (beyond intent interface)
+    - interface interface
+      - calculating perspectives of the ml problem space and applying them to generate a network that applies multiple perspectives, like the:
+        - possibility perspective
+          - the possibility that each or a subset of data points is incorrect or random
+          - the possibility that variables are missing
+          - the possibility that variable ranges are misrepresented by the data
+          - the possibility that multiple alternate functions of the input variables apply in different conditions which can be parameterized
+        - opposite x intent perspective
+          - rather than solving the problem of 'trying to differentiate between categories', solve problem of 'trying to merge categories'
+        - opopsite x direction x abstract (type) perspective
+          - rather than trying to categorize from image, try to derive image template types from category & definitions
+        - difference x pattern perspective
+          - apply difference type interaction patterns to augment data to strengthen prediction function
+
     - structure interface
       - alignment
         - what alignments exist between ml network algorithms/structures and:
