@@ -8,7 +8,7 @@
     
     - interface interface
       
-      - calculating perspectives (including interface components like origin-target differences & important concepts/priorities/filters) of the ml problem/solution space and applying them to generate a network that applies multiple perspectives, like the:
+      - calculating perspectives (including interface components like origin-target differences & important concepts/priorities/filters) of the ml problem/solution space and applying them to generate a structure that applies multiple perspectives, like the:
         - possibility perspective
           - random/corrupted: the possibility that each or a subset of data points is incorrect/corrupted or random
           - incomplete: the possibility that variables are missing
@@ -49,7 +49,12 @@
           - generalized form:
             - classifier that identifies multiple differences, within labeled attributes & category/type definitions, between type definitions, and difference patterns between types
 
-    - add to reasons why variable or object network is insufficient
+  - is an ml network the best structure for implementing ml?
+    - standard: an ANN network has: direction linking input/output, weight distortions & applied distortion filters to select the distortions that contribute to prediction accuracy
+    - alternate: other networks can be added to handle conditions where alternate functions can be applied
+    - subset/core: sub-networks can be added to handle resolution of subset/core component interactions
+
+  - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
         - why something is true
           - 'structure of an input' may cause a variable like the 'output of an interaction with another structure', but why is that true - bc:
