@@ -1,31 +1,45 @@
 # to do
 
+  - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
+    - can be optimized with reductions like:
+      - 'calculating the most different distortions that will reduce possible values the quickest & applying those distortions'
+
   - add other interfaces to ml (beyond intent interface)
+    
     - interface interface
-      - calculating perspectives of the ml problem space and applying them to generate a network that applies multiple perspectives, like the:
+      
+      - calculating perspectives (including interface components like origin-target differences & important concepts/priorities/filters) of the ml problem/solution space and applying them to generate a network that applies multiple perspectives, like the:
         - possibility perspective
-          - the possibility that each or a subset of data points is incorrect or random
-          - the possibility that variables are missing
-          - the possibility that variable ranges are misrepresented by the data
-          - the possibility that multiple alternate functions of the input variables apply in different conditions which can be parameterized
+          - random/corrupted: the possibility that each or a subset of data points is incorrect/corrupted or random
+          - incomplete: the possibility that variables are missing
+          - distorted/extreme: the possibility that variable ranges are misrepresented by the data
+          - conditional functions: the possibility that multiple alternate functions of the input variables apply in different conditions which can be parameterized
         - opposite x intent perspective
           - rather than solving the problem of 'trying to differentiate between categories', solve problem of 'trying to merge categories'
         - opopsite x direction x abstract (type) perspective
           - rather than trying to categorize from image, try to derive image template types from category & definitions
         - difference x pattern perspective
           - apply difference type interaction patterns to augment data to strengthen prediction function
+      
+      - finding variables enabling the selected perspectives & generating network algorithm/structure from those variables
 
     - structure interface
       - alignment
         - what alignments exist between ml network algorithms/structures and:
           - problem components like 'uncertainty reduction' intents (networks that have differentiation, missing info derivation, or de-randomizing side effects)
           - boundaries of interacting solution metric requirement structures
+    
     - core interface
       - what components of algorithms exist that can be used to construct algorithms on demand
+    
     - function interface
       - what input/output interactions exist between ml network structures/config/algorithms that allow for functionality to develop
+    
     - cause interface
-      - what causal structures (dependencies, direct/unique/ambiguous causation, alternate causes, proxy causes, causal metadata like degree) exist between ml network structures/config/algorithms, such as input-output sequences where each component causes (builds, leads to, enables, activates/triggers) and/or supplies requirements of subsequent components, or core components which can be used to construct a system/object
+      - what causal structures (dependencies, direct/unique/ambiguous causation, alternate causes, proxy causes, causal metadata like degree) exist between ml network structures/config/algorithms, such as:
+        - input-output sequences where each component causes (builds, leads to, enables, activates/triggers, supplies requirements of subsequent components)
+        - core components which can be used to construct a system/object
+    
     - concept interface
       - specificity of ml solutions, which can be generalized to handle more cases
         - unsupervised classifiers identify difference type as defined by a distance definition (distance from center/average/nearest neighbor)
