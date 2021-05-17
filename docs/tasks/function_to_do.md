@@ -1,5 +1,13 @@
 # to do
 
+    - specificity of ml solutions, which can be generalized to handle more cases
+      - unsupervised classifiers identify difference type as defined by a distance definition (distance from center/average/nearest neighbor)
+        - generalized form:
+          - classifier that identifies multiple difference types (differences within variable subsets, distance from other clusters/average/neighbors, etc) to support various intents (like probability of accuracy in identification/differentiation)
+      - supervised classifiers identify difference type as defined by difference from labeled training samples
+        - generalized form:
+          - classifier that identifies multiple differences, within labeled attributes & category/type definitions, between type definitions, and difference patterns between types
+
     - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
         - why something is true
