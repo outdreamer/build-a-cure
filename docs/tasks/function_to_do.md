@@ -3,7 +3,9 @@
   - add other interfaces to ml (beyond intent interface)
     - structure interface
       - alignment
-        - what alignments exist between ml network algorithms/structures & problem components like 'uncertainty reduction' intents (networks that have differentiation, missing info derivation, or de-randomizing side effects)
+        - what alignments exist between ml network algorithms/structures and:
+          - problem components like 'uncertainty reduction' intents (networks that have differentiation, missing info derivation, or de-randomizing side effects)
+          - boundaries of interacting solution metric requirement structures
     - core interface
       - what components of algorithms exist that can be used to construct algorithms on demand
     - function interface

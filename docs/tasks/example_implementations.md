@@ -728,6 +728,7 @@
 		  	- standardizing structures can produce solution structures bc a problem may be a solution once standardized
 		  	- intent structures can produce solution structures bc a problem may be a solution if used in a different way (for a different intent)
 
+	- generate solution structure based on solution requirements and apply to problem system to fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
 
     - change problem into more solvable problem
       - cause 
@@ -944,6 +945,7 @@
 		- change solution into structures of optimization that can prevent problems
 			- general solution automation workflow: build solutions that have more structures of optimization than problems & problem sources (randomness structures) in the problem space
 				- core function version: build solutions that have more structures of optimization (efficiency/organization) than problems in the problem space
+
 
 ## generate solution automation interface query
 
