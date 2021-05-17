@@ -1,12 +1,18 @@
 # to do
 
-    - specificity of ml solutions, which can be generalized to handle more cases
-      - unsupervised classifiers identify difference type as defined by a distance definition (distance from center/average/nearest neighbor)
-        - generalized form:
-          - classifier that identifies multiple difference types (differences within variable subsets, distance from other clusters/average/neighbors, etc) to support various intents (like probability of accuracy in identification/differentiation)
-      - supervised classifiers identify difference type as defined by difference from labeled training samples
-        - generalized form:
-          - classifier that identifies multiple differences, within labeled attributes & category/type definitions, between type definitions, and difference patterns between types
+  - add other interfaces to ml (beyond intent interface)
+    - function interface
+      - what input/output interactions exist between ml network structures/config/algorithms that allow for functionality to develop
+    - cause interface
+      - what causal structures (dependencies, direct/unique/ambiguous causation, alternate causes, proxy causes, causal metadata like degree) exist between ml network structures/config/algorithms, such as input-output sequences where each component supplies requirements of subsequent components, or core components which can be used to construct a system/object
+    - concept interface
+      - specificity of ml solutions, which can be generalized to handle more cases
+        - unsupervised classifiers identify difference type as defined by a distance definition (distance from center/average/nearest neighbor)
+          - generalized form:
+            - classifier that identifies multiple difference types (differences within variable subsets, distance from other clusters/average/neighbors, etc) to support various intents (like probability of accuracy in identification/differentiation)
+        - supervised classifiers identify difference type as defined by difference from labeled training samples
+          - generalized form:
+            - classifier that identifies multiple differences, within labeled attributes & category/type definitions, between type definitions, and difference patterns between types
 
     - add to reasons why variable or object network is insufficient
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
