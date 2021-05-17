@@ -1,10 +1,15 @@
 # to do
 
   - add other interfaces to ml (beyond intent interface)
+    - structure interface
+      - alignment
+        - what alignments exist between ml network algorithms/structures & problem components like 'uncertainty reduction' intents (networks that have differentiation, missing info derivation, or de-randomizing side effects)
+    - core interface
+      - what components of algorithms exist that can be used to construct algorithms on demand
     - function interface
       - what input/output interactions exist between ml network structures/config/algorithms that allow for functionality to develop
     - cause interface
-      - what causal structures (dependencies, direct/unique/ambiguous causation, alternate causes, proxy causes, causal metadata like degree) exist between ml network structures/config/algorithms, such as input-output sequences where each component supplies requirements of subsequent components, or core components which can be used to construct a system/object
+      - what causal structures (dependencies, direct/unique/ambiguous causation, alternate causes, proxy causes, causal metadata like degree) exist between ml network structures/config/algorithms, such as input-output sequences where each component causes (builds, leads to, enables, activates/triggers) and/or supplies requirements of subsequent components, or core components which can be used to construct a system/object
     - concept interface
       - specificity of ml solutions, which can be generalized to handle more cases
         - unsupervised classifiers identify difference type as defined by a distance definition (distance from center/average/nearest neighbor)
