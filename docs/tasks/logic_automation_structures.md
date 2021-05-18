@@ -1,6 +1,6 @@
     - logic automation problem structures
 
-      - connecting solutions & perspectives (interfaces with a goal like a priority or metric, which makes them by definition relevant to solutions)
+      - connecting solutions & perspectives (interfaces with intent, such as a goal like a priority or metric value, which makes them by definition relevant to solutions)
         - by prioritizing different components (structures/attributes/interfaces), perspectives solve problem(s) in different ways, with different variables (problem origin points, solution metrics), and may solve different problem(s)
         - applying or integrating multiple perspectives can cover more problems solved or reduce the problems to solve, or it can create more problems depending on error types, like unnecessary abstraction or complexity added (in regard to complexity handled)
         - some perspectives are more useful than others for various intents
