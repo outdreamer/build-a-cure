@@ -799,9 +799,18 @@
     	- example:
     		- apply structure 'distribute generative capacity for resilience' to system that can fail at any point
 
-    - align structures of organization with certainties (constants) of a system and structures of disorganization (randomness) with uncertainties of a system to distribute flexibility where its needed
+    - align structures of organization (balance, connection, alignment) with certainties (constants) of a system and structures of disorganization (randomness) with uncertainties of a system to distribute flexibility where its needed
     	- example:
     		- apply a network structure (rather than a single value) to an uncertain variable like 'correct market regulation structure' until its clear (certain) which position each possible value has in what system contexts
+
+    - identify error structures of existing solutions and apply as solution filters of solution space
+    	- example:
+    		- why do people want democracy? bc their needs arent being met - 'needs met' is a solution filter of a solution space of all possible govt structures
+
+    - general problem-solving workflows
+    	- apply solution filters of a solution space (where the problem-solving intent is to 'find a solution in this solution space')
+    	- apply changes that add structures of useful attributes
+    	- identify attribute-fulfilling (adjacent/probable/reusable) solutions to make an attribute-specific (adjacent/probable/reusable) solution space & filter those solutions
 
     - apply structures
       - cause
