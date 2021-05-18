@@ -807,19 +807,24 @@
     	- example:
     		- why do people want democracy? bc their needs arent met - 'needs met' is a solution filter of a solution space of all possible govt structures
 
-    - general problem-solving workflow variables to generate solution automation workflows (variables like solution process origin/target, solution process step, problem-solution connection, solution method, solution method for problem metadata, define components, apply general problem-solving workflow, problem origin, solution target)
-    
+    - change general problem-solving workflow variables to generate solution automation workflows (variables like solution process origin/target, solution process step, problem-solution connection, solution method, solution method for problem metadata, define components, apply general problem-solving workflow, problem origin, solution target)
+
+    	- aim at different target (generate problem-solving structure from solution example, generate approximate/partial solution, etc)
+    	- start from different format (vectors, variable/object network)
+    	- start from different origin position
+    		- start from solution
+    			- solution components (available resources), solution interface, solution format, solution functions, sub-solutions (solving sub-problem) or partial solutions, solution space, solution filters, solution example/counterexample, solution type, or existing solutions
     	- start at a particular step in general process (beginning at solution space)
     		- apply solution filters to a solution space (where the problem-solving intent is to 'identify/define solution space & find a solution in this solution space')
     	- connect problem & solution structures with changes (apply changes to match structure with target structure)
     		- apply minor/granular changes that add structures of useful attributes
     	- define problem/solution components (specify solution space)
     		- identify attribute-fulfilling (adjacent/probable/reusable) solutions to make an attribute-specific (adjacent/probable/reusable) solution space & filter those solutions
-    	- solve different problem (reduce problem causes rather than problem)
+    	- solve different problem (reduce problem causes or more important/causative related vertex problem rather than original problem)
     		- identify problem causes & apply structures to resolve those, then integrate those structures into a structure that is can be applied to solve the problem (doesnt contradict any rules)
     	- apply known problem-solving methods for problem with known metadata (apply known solution methods for a problem type)
     		- apply 'reduction' methods to problem type 'structure'
-    	- apply general problem-solution interaction methods (problem-solution connection methods)
+    	- apply general problem-solution workflow/interaction methods (problem-solution connection methods)
 
     - apply structures
       - cause
