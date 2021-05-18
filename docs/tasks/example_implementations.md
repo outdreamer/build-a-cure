@@ -728,6 +728,8 @@
 		  	- standardizing structures can produce solution structures bc a problem may be a solution once standardized
 		  	- intent structures can produce solution structures bc a problem may be a solution if used in a different way (for a different intent)
 
+	- generate structures (like containers, shapes, sequences, networks, stacks, layers) of useful interface components like efficiencies, power/change sources, & organization structures, and see if they fit/interact with the problem & solution or achieve a problem-solving intent/sub-intent
+
 	- generate solution structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
 
 	- generate solution structure based on solution requirements, identify variables of solution space, and map solution space variables to variables of solution structure
