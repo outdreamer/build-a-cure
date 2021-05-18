@@ -4,11 +4,11 @@
     - can be optimized with reductions like:
       - 'calculating the most different distortions that will reduce possible values the quickest & applying those distortions'
 
-  - add other interfaces to ml (beyond intent interface)
+  - add other interfaces to ml problem space (beyond intent interface)
     
     - interface interface
       
-      - calculating perspectives (including interface components like origin-target differences & important concepts/priorities/filters) of the ml problem/solution space and applying them to generate a structure that applies multiple perspectives, like the:
+      - calculating perspectives (interfaces with intent, including interface components like origin-target differences & important concepts/priorities/filters) of the ml problem/solution space and applying them to generate a structure that applies multiple perspectives, like the:
         - possibility perspective
           - random/corrupted: the possibility that each or a subset of data points is incorrect/corrupted or random
           - incomplete: the possibility that variables are missing
@@ -65,7 +65,7 @@
     - filters:
       - filters or limit structures can be used to reduce what doesnt contribute to prediction accuracy or cant be applied by default (solution cant merge variables from alternate functions)
     
-    - the core structure of a network is 'connection', with related structures 'positions', 'direction', and 'filters'
+    - the core structure of a network is 'connection', with related structures 'position', 'direction', and 'filters'
       - a problem & solution can be 'connected' using a structure (like a sequence or network) of formats
       - other structural insight paths can be used to derive solutions
         - find solution by applying solution metric structures like structures of a priority
