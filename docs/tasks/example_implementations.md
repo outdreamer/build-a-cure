@@ -677,17 +677,20 @@
         - the output would be an approximation of meaning, allowing explanations like 'being female (variable value) increased probability (ratio of outcome among possible alternatives) of being prioritized (randomness structures like starting position as well as the concept of agency in filter structure) for access to survival tools (type of 'lifeboat') bc of less agency/responsibility/skills'
 
 ## solution automation workflow insight path examples
-
-	- solve problem by finding/generating/deriving solution structures like relevance (usefulness) with structures like efficiencies (usefulness through adjacence) in a problem system (like calculation efficiencies), then applying coordinating structures of those (like a sequence connected by coordinating inputs/outputs) as initial solution methods to refine with solution metric filters
-	- solve problem by changing structures (like position) of interface objects, like functions & variables
-	- use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
-	- identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from similar system to original system
+	
+	- solve problem by changing structures (like position & alignment) & relevant attributes (like complexity) of interface components, like functions & variables, using change optimizations (like adjacence), to find if updated structures fit the target structure
+	
+	- use only solutions with known biases & other error types so the output can be corrected with logic from the associated solution type to correct those errors, or only solutions that are different from solutions with known error types
+	
+	- identify similar systems & solutions used to solve the problem in those systems, then convert & apply solutions from the similar system to the original system
+	
 	- when generating solutions, identify:
-	      - contexts/cases/conditions that can filter it out
-	      - variables that can generate the most solutions
-	      - filters that can filter the most solutions
-	        - apply filters to solution space by solutions that are ruled out in fewest cases, best cases where solutions are less required or least probable cases
-    - generate solutions from problem statement using interface objects
+		- contexts/cases/conditions that can filter out that solution
+	    - variables that can generate the most solutions
+	    - filters that can filter the most solutions
+	      - apply filters to solution space by solutions that are ruled out in fewest cases, best cases where solutions are less required or least probable cases
+    
+    - generate solutions from problem statement using interface components
       - core functions 
       - mixes/changes of previous or abstract solutions
       - insight paths (break problem down, trial & error, etc)
@@ -696,20 +699,37 @@
       - function input/output chains
       - vertex variables
       - conceptual structures
-    - apply solution format and reverse engineer solution
+    
+    - apply solution format (or 'solution template structure') & reverse engineer structure (like sequence) generating solution
       - apply solution filters that are adjacently derivable from problem/solution metadata (most-reducing filters that rule out the most solutions)
-    - apply both the generate solutions method & solution format method and connect them in the middle
+    
+    - apply both the 'generate solutions' method (starting from problem definition) & apply 'solution format filter' method (starting from solution definition) and connect them in the middle (rather than connecting origin problem to target solution)
+	
 	- rather than learning & fitting a function (applying new info to update standard equalized or randomized structure), apply structural insight paths that frequently produce accurate task completion (in general like producing problem/solution format connection sequence, specifically like producing prediction function)
-    - find an example & generalize
+    
+    - find an example/counterexample & generalize to find robust solution
       - find core/unit objects, find example using those objects, & generalize
+      - find general method & specify to create a testable example
+    
     - find an example & counterexample & connect them
-    - execute a problem-reduction function/structure/question sequence
-    - execute a solution-space reduction sequence before solving for remainder problem
+    	- example of a successful prediction function & example of an unsuccessful prediction function & connect them to find changes applied to create either from the other, which will reveal causation of function success/failure
+
+    - execute a problem-reduction function/structure/question insight path
+    
+    - execute a solution-space reduction sequence before solving for the remaining problem
+    
     - run query to find interacting interface structures, then apply solutions for that specific problem space's interface network
-    - identify vertex variables first & approximate
-    - identify problem types & corresponding solution aggregation method for that set of types
+    
+    - identify vertex variables first & derive other variables with vertex variables to create approximation function
+    
+    - identify problem types & corresponding solution aggregation/integration method for that set of types, then apply
+    
     - identify alternative problems to solve (like whether to solve for organize, format, select, re-use, derive, discover, build, diversify, optimize, distort, or combine problems/solutions) & apply problem selection method, then solve
+    
     - solve problem by removing problem structures (remove structures of conflict, error, bias, limits, over-prioritization) or adding solution structures (add structures of organization, relevance, efficiency, like aligning with intent & connecting to/building on a logical foundation) and integrating these structures with neutral structures like interaction layers and systems
+        - identify useful structures (like combinations) of useful cross-interface concepts (like difference, energy, vertex, random) to use as conceptual attribute interfaces to solve a problem on
+		- solve problem by finding/generating/deriving solution structures like relevance (usefulness) with structures like efficiencies (usefulness through adjacence) in a problem system (like calculation efficiencies), then applying coordinating/organization structures of those (like a sequence connected by coordinating inputs/outputs) as initial solution methods to refine with solution metric filters
+
     - identify useful structures for converting problem structures into solution structures, & apply to problem space to derive solution structures
     	
     	- attribute structures
@@ -728,11 +748,14 @@
 		  	- standardizing structures can produce solution structures bc a problem may be a solution once standardized
 		  	- intent structures can produce solution structures bc a problem may be a solution if used in a different way (for a different intent)
 
-	- generate structures (like containers, shapes, sequences, networks, stacks, layers) of useful interface components like efficiencies, power/change sources, & organization structures, and see if they fit/interact with the problem & solution or achieve a problem-solving intent/sub-intent
+	- standard change-pattern interface insight path: 
+		- identify patterns of distortions of existing solution components to select & apply distortions to existing solution components to handle problem with new components (like a problem with a new variable, complexity level, abstraction level, error type relationship, etc)
 
-	- generate solution structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
+	- generate structures (like containers, shapes, sequences, networks, stacks, layers) of useful interface components like efficiencies, power/change sources, & organization structures, and see if they fit/interact with the problem & solution in a useful way, like achieving a problem-solving intent/sub-intent or related intents like problem-solution connecting intent
 
-	- generate solution structure based on solution requirements, identify variables of solution space, and map solution space variables to variables of solution structure
+	- generate solution template structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
+
+	- generate solution template structure based on solution requirements, identify variables of solution space, and map solution space variables to variables of solution structure
 		- example: 
 			
 			- solution template structure based on solution requirements, like a set of boundaries/limits or filters ('a continuous function of x with integer coefficients & powers less than 3')
