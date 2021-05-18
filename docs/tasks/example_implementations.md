@@ -807,9 +807,11 @@
     	- example:
     		- why do people want democracy? bc their needs arent met - 'needs met' is a solution filter of a solution space of all possible govt structures
 
-    - change general problem-solving workflow variables to generate solution automation workflows (variables like solution process origin/target, solution process step, problem-solution connection, solution method, solution method for problem metadata, define components, apply general problem-solving workflow, problem origin, solution target)
+    - change general problem-solving workflow variables to generate solution automation workflows
 
-    	- aim at different target (generate problem-solving structure from solution example, generate approximate/partial solution, etc)
+    	- variables: solution process origin/target, solution process step, problem-solution connection, solution method, solution method for problem metadata, define components, apply general problem-solving workflow, problem origin, solution target
+
+    	- aim at different target (generate problem-solving structure from solution example, generate approximate/partial solution, identify error structures & problem-exacerbating structures & apply as filters, etc)
     	- start from different format (vectors, variable/object network)
     	- start from different origin position
     		- start from solution
@@ -826,7 +828,7 @@
     		- apply 'reduction' methods to problem type 'structure'
     	- apply general problem-solution workflow/interaction methods (problem-solution connection methods)
 
-    - apply structures
+    - apply interface structures
       - cause
         - vectorize problem system, filling in missing components with generative functions as needed
       - function
@@ -844,12 +846,12 @@
       - concept
         - apply map structure between problem-solution concepts & sub-structure concepts
 
-    - generate solution space first, then filter
+    - generate solution space first, then filter to reduce to solution(s)
       - core
         - apply core structures of solutions to generate probable solutions
         - apply core functions to generate possible solutions & then apply filters to reduce solution space
 
-    - apply filters first, then match with generatable solutions
+    - apply filters first, then generate solutions & match with generatable solutions
       - core
         - apply components of solution filters to generate filters
       - structure
