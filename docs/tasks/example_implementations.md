@@ -795,6 +795,14 @@
       - problem
         - identify problem types of the problem & select which type to use known solutions for
 
+    - apply structures of system optimization & check if structures solve problem
+    	- example:
+    		- apply structure 'distribute generative capacity for resilience' to system that can fail at any point
+
+    - align structures of organization with certainties (constants) of a system and structures of disorganization (randomness) with uncertainties of a system to distribute flexibility where its needed
+    	- example:
+    		- apply a network structure (rather than a single value) to an uncertain variable like 'correct market regulation structure' until its clear (certain) which position each possible value has in what system contexts
+
     - apply structures
       - cause
         - vectorize problem system, filling in missing components with generative functions as needed
