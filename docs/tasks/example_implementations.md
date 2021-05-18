@@ -743,7 +743,8 @@
 		  	- organizing structures can produce solution structures bc a problem may be a solution if organized in a different position
 		    - fitting structures can produce solution structures bc problems may be slightly different from solutions
 		    	- for a problem like 'structure-input mismatch', a fitting structure like an 'remove/add distortion' function is a potential solution structure
-		
+			- apply multiple integrated solution attributes including concepts & structures like commonness, adjacence, simplicity, efficiency, alignment, usefulness to filter solution structures bc these are likeliest attributes to apply to solutions
+
 		- function structures
 		  	- standardizing structures can produce solution structures bc a problem may be a solution once standardized
 		  	- intent structures can produce solution structures bc a problem may be a solution if used in a different way (for a different intent)
