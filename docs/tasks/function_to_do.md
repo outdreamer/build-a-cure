@@ -73,7 +73,11 @@
         - find solution by applying system structures like ambiguity & incentive
       - these can also be applied to the ml problem space
 
-  - add to reasons why variable or object network is insufficient
+  - add to reasons why variable or object network (including all terms like a language map, or a subset of relevant terms to the problem) can be insufficient/inefficient, while it can be used as a format to solve problems in general just like vectors can
+      - a language map of operators used by a set of functions would have many overlaps & complicated paths between operators, resulting in unclear directions that functions move in or move inputs toward
+      - an object network cannot clearly show all the possible object states (or the system contexts producing those object states)
+      - the network is an absolute reference structure with static positions of terms/variables/objects, with a definition of difference or interaction applied to the objects to determine position, a position that may not be ideal for making a particular solution path or interaction sub-network clear
+
       - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
         - why something is true
           - 'structure of an input' may cause a variable like the 'output of an interaction with another structure', but why is that true - bc:
