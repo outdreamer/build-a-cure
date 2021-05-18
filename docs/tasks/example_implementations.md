@@ -755,6 +755,8 @@
 
 	- generate solution template structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
 
+	- generate multiple solutions or solution template structures (like a function-generating function, or function-filtering limits) maximizing different alternative solution variable value sets & apply filters to reduce the set of solutions or solution templates
+
 	- generate solution template structure based on solution requirements, identify variables of solution space, and map solution space variables to variables of solution structure
 		- example: 
 			
@@ -811,7 +813,7 @@
 
     	- variables: solution process origin/target, solution process step, problem-solution connection, solution method, solution method for problem metadata, define components, apply general problem-solving workflow, problem origin, solution target
 
-    	- aim at different target (generate problem-solving structure from solution example, generate approximate/partial solution, identify error structures & problem-exacerbating structures & apply as filters, etc)
+    	- aim at different target (generate problem-solving structure from solution example, generate approximate/partial solution, identify error structures & problem-maximizing structures & apply as filters, etc)
     	- start from different format (vectors, variable/object network)
     	- start from different origin position
     		- start from solution
