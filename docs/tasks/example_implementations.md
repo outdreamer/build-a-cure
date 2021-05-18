@@ -950,7 +950,7 @@
 		- these functions dont have to match problem/solution formats (connect function can be applied to connect any structures, not just connection structures)
 
 	- apply opposite structures (like similarities) of error structures (like misalignments) to problem system to find solution
-		- example: misalignment between actual/expected values can be resolved by methods to similarize or connect the values
+		- example: misalignment between actual/expected values can be resolved by methods to similarize, standardize, or otherwise connect the values
 
 	- general insight paths permute variables of problems/solutions, like:
     	- problem/solution abstraction level
