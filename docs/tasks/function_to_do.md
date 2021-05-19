@@ -7,7 +7,11 @@
   - map math terms to problem components
     - cycle: error type of a structure, involving a unique variable subset that can be used to derive the original structure when combined with other unique variable subsets
     - knot: structure with a gap error type where the structure's subset forming the gap allows other subsets of the structure to fill the gap
-    - topology: structure that preserves its error types when a specific set of change types are applied
+    - manifold: structure that preserves its error types when a specific set of change types are applied
+    - topology: structure with core components of structural changes having no gap error types (continuous), having:
+      - including limits in the form of including subset combinations & subset intersections determining included structures
+      - excluding limit error type structure: 'combined/intersecting elements being excluded', or the opposite structure of the limit error type 'non-combined (isolated), non-intersecting (non-common) elements being included'
+    - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem
 
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
