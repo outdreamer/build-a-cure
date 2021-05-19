@@ -9,6 +9,11 @@
     - a 'function that identifies causative ability of a change type (variable)' is by definition useful to solving a problem of 'find causes of dependent variable' bc it connects the component 'cause' of the problem with interim objects like independent variables, which interact with other problem components like 'dependent variable'
     - some structures are more useful in general (rather than for a specific intent) bc the intents they are useful to are themselves more general or more common
     - 'finding structures of alignment' is useful in general bc structures of alignment solve problems of difference/conflict, which are common problem structures
+    - useful problem-solving structures can be found by which structures of structures solve common problem structures
+
+  - another useful concept is 'improvement of a problem metric' vs. 'solving a problem'
+    - where the problem is that a spectrum metric is not equal to or beyond a correct value, a solution can take the form of improvement
+    - 'a component that improves a problem but doesnt solve it' is a useful interim or alternative structure to position as the target, when error/solution types are not structural
 
   - map math terms to problem components as default connecting structures other than core/interface structures
     - cycle: error type of a structure, involving a unique variable subset that can be used to derive the original structure when combined with other unique variable subsets
@@ -73,6 +78,7 @@
                 - the solution is different from error structures
             - similarity (alignment):
               - the solution is some change applied to the problem that convert the problem into a useful component (an alignment with a useful intent)
+              - the solution makes the origin position more similar to the target position
       - build/cause:
         - input/output      
           - the solution is some change applied to the problem that produces or is produced by a structure (like an interaction)
