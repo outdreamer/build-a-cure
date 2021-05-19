@@ -13,7 +13,7 @@
       - excluding limit error type structure: 'combined/intersecting elements being excluded', or the opposite structure of the limit error type 'non-combined (isolated), non-intersecting (non-common) elements being included'
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
     
-  - relationship structure types between problem/solution, applying core structural relationship structures (relevant to core general abstract-intent functions like apply/find/build/identify/change)
+  - core relationship structure types between problem/solution, by applying core structural relationship structures (relevant to core general abstract-intent functions like apply/find/build/identify/change)
       - organize
         - position
           - the solution is the problem components in the right position in a structure (like an object-function or variable network)
@@ -27,6 +27,10 @@
             - the solution resolves the problem of a lack
           - limit
             - the solution is some change applied to the problem that doesnt intersect with a limit or exist on a particular side of the limit
+        - change
+          - the solution is some structure of change applied to the problem
+        - context
+          - the solution is some context where the problem is not a problem
       - find
         - identify
           - inclusion/exclusion
@@ -59,6 +63,9 @@
           - origin/target structure (sub-structure of input/output)
             - the solution is some change that resolves the difference (reduces distance) between origin/target, connects origin/target, or makes conversion between origin/target trivial
             - the solution is changing the origin or target position/structure so the problem is more solvable or reduced
+      - derive
+        - abstract reverse input/output direction
+          - the solution is the generalized path from an example solution to the problem definition
 
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
