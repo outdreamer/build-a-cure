@@ -4,6 +4,11 @@
 
   - error types as a way to derive the host component type
 
+  - map math terms to problem components
+    - cycle: error type of a structure, involving a unique variable subset that can be used to derive the original structure when combined with other unique variable subsets
+    - knot: structure with a gap error type where the structure's subset forming the gap allows other subsets of the structure to fill the gap
+    - topology: structure that preserves its error types when a specific set of change types are applied
+
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
       - 'calculating the most different distortions that will reduce possible values the quickest & applying those distortions'
