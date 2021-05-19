@@ -1,6 +1,12 @@
 # to do
 
-  - visualizing higher dimensions with changes in visualizable variable subsets like three dimensions, or grouping similar dimensional changes into a change type across a dimension subset, to visualize the change types
+  - visualizing higher dimensions with changes in a network of visualizable variable subsets like:
+    - dimension subsets: displaying dimension subsets in groups of sizes that are already visualizable (from 1 - 4 dimensions)
+    - embedded dimensions like parameters
+    - dimension groups: grouping similar dimensional changes into a change type across a dimension subset, to visualize the change types
+    - dimension invalidations: grouping invalidating/neutralizing change types
+    - causative dimensions: just visualizing higher-impact/causal dimensions
+    - mapping dimensions: group value sets as other structures like points or networks in a space where change types like 'continuous change' are supported
   
   - possible components of a scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
 
