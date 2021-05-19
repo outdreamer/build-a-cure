@@ -1,14 +1,28 @@
 # to do
 
   - visualizing higher dimensions with changes in a network of visualizable variable subsets like:
-    - dimension subsets: displaying dimension subsets in groups of sizes that are already visualizable (from 1 - 4 dimensions)
-    - embedded dimensions: dimensions graphed visually using extra dimensions as parameters
-    - base dimensions: dimensions standardized to a base and graphed in alignment, like multiple functions on a graph with a common base
+
+    - dimension subsets: displaying dimension subsets in groups of sizes that are already visualizable (from 1 - 4 dimensions), where orthogonality is preserved across the network of subsets
     - dimension groups: grouping similar dimensional changes into a change type across a dimension subset, to visualize the change types
-    - dimension invalidations: grouping invalidating/neutralizing change types
-    - causative dimensions: just visualizing higher-impact/causal dimensions
+    
+    - relevant (robust) dimensions
+      - dimension invalidations: grouping invalidating/neutralizing change types
+      - causative dimensions: just visualizing higher-impact/causal dimensions
+      - vertex dimensions: graphing variables as differences from vertex variables
+    
     - mapping dimensions: group value sets as other structures like points or networks in a space where change types like 'continuous change' are supported
-  
+      - embedded dimensions: dimensions graphed visually using extra dimensions as parameters
+      - base dimensions: dimensions standardized to a base and graphed in alignment, like multiple functions on a graph with a common base
+      - mapping other dimension metadata: interactions between dimensions units/change types/limits/definitions are graphed
+      - abstract dimensions: abstract value structures are graphed ('a point on a line') instead of specific values in a dimension
+      - constant dimensions: adjacent limiting constant dimensions are graphed instead of dimensions of change
+
+    - dimension interactions: 
+      - interactive dimensions: dimensions that interact are condensed into an input/output of the interaction structure, and input/output dimensions are graphed instead
+      - dimension interaction structures: structures of interactions between variables (like direction/circuits/networks) are preserved, where values may be lost
+        - dimensional difference: difference between dimensions is graphed instead of different dimensions & values, where dimension values are structures associated with graphed dimension interactions
+        - conversion requirements: conversion requirements to a visualizable shape are graphed instead of actual dimensions/values
+
   - possible components of a scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
 
   - apply solutions and/or associated error types as a way to derive the origin component type
