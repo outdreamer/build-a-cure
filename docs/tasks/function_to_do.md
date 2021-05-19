@@ -2,7 +2,10 @@
   
   - possible components of a scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
 
-  - error types as a way to derive the host component type
+  - apply error types as a way to derive the origin component type
+    - given solutions (with associated error types solved by the solution), derive what problem types existed to trigger the application of the solution (can be constructed from those error types, where error types can cause/build the original problem or address sub-problems of the original problem or related problems)
+    - example:
+      - given that an agent delegates instead of trying to solve a problem, it is implied that 'their previous alternate solution methods have caused error types rather than resolving them' or 'delegation has worked for them before', and the fact that this is the likeliest explanation can be derived with additional information like their decision patterns, or adjacent information like 'having more info about delegation processes' or 'more info about alternate solution method error types than delegation error types'
 
   - why are certain structures of structures more useful
     - bc by definition (of usefulness), they reduce differences between origin & target
@@ -16,14 +19,14 @@
     - 'a component that improves a problem but doesnt solve it' is a useful interim or alternative structure to position as the target, when error/solution types are not structural
     - example: 
       - an approximation function improves a 'missing information about dependent variable y' problem but doesnt solve it (the 'actual prediction function for y' would solve it)
-      - a buoy improves a 'drowning' problem but probably doesnt solve it (a method of getting to land would solve it, which the buoy is unlikely to be)
-      - a 'fitting structure' improves a 'gap' problem but doesnt solve it (a method of preventing & correcting gaps would solve it, like a method of preventing slices/knots & other structures that qualify as gap error types)
+      - a buoy improves a 'drowning' problem but probably doesnt solve it (a 'method of getting to land' would solve it, which the buoy is unlikely to be except in rare contexts or with extreme/distorted/stretched definitions)
+      - a 'fitting structure' improves a 'gap' problem but doesnt solve it (a 'method of preventing & correcting gaps' would solve it, like a 'method of preventing slices/knots & other structures that qualify as gap error types')
 
   - map math terms to problem components as default connecting structures other than core/interface structures
     - cycle: error type of a structure, involving a unique variable subset that can be used to derive the original structure when combined with other unique variable subsets
     - knot: structure with a gap error type where the structure's subset forming the gap allows other subsets of the structure to fill the gap
     - manifold: structure that preserves its error types when a specific set of change types are applied
-    - topology: structure with core components of structural changes having no gap error types (continuous), having:
+    - topology: structure connecting subsets & a set, with core components of structural changes having no gap error types (continuous), having:
       - including limits in the form of including subset combinations & subset intersections determining included structures
       - excluding limit error type structure: 'combined/intersecting elements being excluded', or the opposite structure of the limit error type 'non-combined (isolated), non-intersecting (non-common) elements being included'
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
@@ -59,7 +62,7 @@
       - find
         - identify
           - inclusion/exclusion
-            - subset: 
+            - subset/set: (partial/complete)
               - the solution is the problem with a 'filter' applied (a subset of the problem)
               - core structure
                 - the solution is the core components of the problem
@@ -80,9 +83,16 @@
               - opposite: 
                 - the problem is the opposite of ('not') the solution
                 - the solution is different from error structures
+              - invalid
+                - the solution is a lack of a valid version of the problem in the problem space (the problem cant exist in the problem space given a definition of 'valid' including validation rules)
+              - undefined
+                - the solution is a lack of problem definition (the problem is abstract rather than clearly defined, or structural, in the problem space)
+              - empty
+                - the solution is a lack of the problem (the problem has no possible value in the problem space)
             - similarity (alignment):
               - the solution is some change applied to the problem that convert the problem into a useful component (an alignment with a useful intent)
               - the solution makes the origin position more similar to the target position
+              - the solution is some coordinating structure (like a complement) with the problem that converts the problem into a non-problem
       - build/cause:
         - input/output      
           - the solution is some change applied to the problem that produces or is produced by a structure (like an interaction)
