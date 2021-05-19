@@ -14,21 +14,36 @@
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
     
   - relationship structure types between problem/solution, applying core structural relationship structures:
-      - connect: 
+      - connect (path): 
         - solve the problem by connecting the problem & the solution
       - opposite: 
         - the problem is the opposite of ('not') the solution
         - the solution is different from error structures
-      - inclusion/exclusion: 
+      - subset (inclusion/exclusion): 
         - the solution is the problem with a 'filter' applied
       - sequence: 
         - the problem is the solution with a 'sort' applied
       - gap: 
         - the problem is the solution with a 'gap' error type corrected
-      - reduce: 
-        - the solution is a subset of the problem variables
-      - combine:
+        - the solution is the removal of the problem 
+        - the solution resolves the problem of a lack
+      - reduce/expand
+        - the solution is a subset/superset of the problem variables
+        - abstract structure:
+          - the solution is an example/type of the problem
+      - group (combination):
         - the solution is some combination of problem components
+      - equal (balance:
+        - the solution is some change applied to the problem and/or solution that equates the solution to the problem (as opposed to 'connecting' the problem/solution)
+      - alignment
+        - the solution is some change applied to the problem that convert the problem into a useful component (an alignment with a useful intent)
+      - limit
+        - the solution is some change applied to the problem that doesnt intersect with a limit or exist on a particular side of the limit
+      - input/output
+        - the solution is some change applied to the problem that produces or is produced by a structure (like an interaction)
+        - subset structure: 
+          - origin/target
+            - the solution is some change that resolves the difference (reduces distance) between origin/target, connects origin/target, or makes conversion between origin/target trivial
 
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
