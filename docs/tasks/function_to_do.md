@@ -13,47 +13,52 @@
       - excluding limit error type structure: 'combined/intersecting elements being excluded', or the opposite structure of the limit error type 'non-combined (isolated), non-intersecting (non-common) elements being included'
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
     
-  - relationship structure types between problem/solution, applying core structural relationship structures:
-      - inclusion/exclusion
-        - subset: 
-          - the solution is the problem with a 'filter' applied (a subset of the problem)
-          - core structure
-            - the solution is the core components of the problem
-        - group (combination):
-          - the solution is some combination of problem components
+  - relationship structure types between problem/solution, applying core structural relationship structures (relevant to core general abstract-intent functions like apply/find/build/identify/change)
       - organize
         - position
           - the solution is the problem components in the right position in a structure (like an object-function or variable network)
         - sequence: 
           - the problem is the solution with a 'sort' applied
-      - usage (space used vs. allowed by structure)
-        - gap: 
-          - the problem is the solution with a 'gap' error type corrected
-          - the solution is the removal of the problem 
-          - the solution resolves the problem of a lack
-        - limit
-          - the solution is some change applied to the problem that doesnt intersect with a limit or exist on a particular side of the limit
-      - variable count/value
-        - reduce/expand
-          - the solution is a subset/superset of the problem variables
-          - abstract structure:
-            - the solution is an example/type of the problem
-      - comparison:
-        - equal (balance):
-          - the solution is some change applied to the problem and/or solution that equates the solution to the problem (as opposed to 'connecting' the problem/solution)
-          - connect (path): 
-            - solve the problem by connecting the problem & the solution
-        - difference structure:
-          - the solution is differences between the solution & the problem reduced/expanded or added/removed (as opposed to 'connecting' the problem/solution)
-          - opposite: 
-            - the problem is the opposite of ('not') the solution
-            - the solution is different from error structures
-        - similarity (alignment):
-          - the solution is some change applied to the problem that convert the problem into a useful component (an alignment with a useful intent)
-      - input/output
-        - the solution is some change applied to the problem that produces or is produced by a structure (like an interaction)
-        - origin/target structure (sub-structure of input/output)
-          - the solution is some change that resolves the difference (reduces distance) between origin/target, connects origin/target, or makes conversion between origin/target trivial
+      - apply
+        - usage (space used vs. allowed by structure)
+          - gap: 
+            - the problem is the solution with a 'gap' error type corrected
+            - the solution is the removal of the problem 
+            - the solution resolves the problem of a lack
+          - limit
+            - the solution is some change applied to the problem that doesnt intersect with a limit or exist on a particular side of the limit
+      - find
+        - identify
+          - inclusion/exclusion
+            - subset: 
+              - the solution is the problem with a 'filter' applied (a subset of the problem)
+              - core structure
+                - the solution is the core components of the problem
+            - group (combination):
+              - the solution is some combination of problem components
+          - fit (count/value)
+            - reduce/expand
+              - the solution is a subset/superset of the problem variables
+              - abstract structure:
+                - the solution is an example/type of the problem
+          - comparison:
+            - equal (balance):
+              - the solution is some change applied to the problem and/or solution that equates the solution to the problem (as opposed to 'connecting' the problem/solution)
+              - connect (path): 
+                - solve the problem by connecting the problem & the solution
+            - difference structure:
+              - the solution is differences between the solution & the problem reduced/expanded or added/removed (as opposed to 'connecting' the problem/solution)
+              - opposite: 
+                - the problem is the opposite of ('not') the solution
+                - the solution is different from error structures
+            - similarity (alignment):
+              - the solution is some change applied to the problem that convert the problem into a useful component (an alignment with a useful intent)
+      - build/cause:
+        - input/output      
+          - the solution is some change applied to the problem that produces or is produced by a structure (like an interaction)
+          - origin/target structure (sub-structure of input/output)
+            - the solution is some change that resolves the difference (reduces distance) between origin/target, connects origin/target, or makes conversion between origin/target trivial
+            - the solution is changing the origin or target position/structure so the problem is more solvable or reduced
 
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
