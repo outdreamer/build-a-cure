@@ -4,7 +4,13 @@
 
   - error types as a way to derive the host component type
 
-  - map math terms to problem components
+  - why are certain structures of structures more useful
+    - bc by definition (of usefulness), they reduce differences between origin & target
+    - a 'function that identifies causative ability of a change type (variable)' is by definition useful to solving a problem of 'find causes of dependent variable' bc it connects the component 'cause' of the problem with interim objects like independent variables, which interact with other problem components like 'dependent variable'
+    - some structures are more useful in general (rather than for a specific intent) bc the intents they are useful to are themselves more general or more common
+    - 'finding structures of alignment' is useful in general bc structures of alignment solve problems of difference/conflict, which are common problem structures
+
+  - map math terms to problem components as default connecting structures other than core/interface structures
     - cycle: error type of a structure, involving a unique variable subset that can be used to derive the original structure when combined with other unique variable subsets
     - knot: structure with a gap error type where the structure's subset forming the gap allows other subsets of the structure to fill the gap
     - manifold: structure that preserves its error types when a specific set of change types are applied
@@ -14,7 +20,7 @@
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
     
   - core relationship structure types between problem/solution, by applying core structural relationship structures (relevant to core general abstract-intent functions like apply/find/build/organize/derive)
-  
+
     - the relevant (meaning core/causative/determining/abstract/invalidating) difference type between the problem/solution can point to an adjacent function to correct the difference
     - example for problem 'too many variables (too much complexity)' and solution 'method of reducing variables without losing accuracy or robustness'
       - a core difference type between problem & solution: variable count
