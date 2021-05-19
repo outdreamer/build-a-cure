@@ -1,4 +1,8 @@
 # to do
+  
+  - possible components of a scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
+
+  - error types as a way to derive the host component type
 
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
