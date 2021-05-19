@@ -22,6 +22,8 @@
       - dimension interaction structures: structures of interactions between variables (like direction/circuits/networks) are preserved, where values may be lost
         - dimensional difference: difference between dimensions is graphed instead of different dimensions & values, where dimension values are structures associated with graphed dimension interactions
         - conversion requirements: conversion requirements to a visualizable shape are graphed instead of actual dimensions/values
+        - interaction structures between value structures like positions on dimensions when graphed as a standardized shape
+          - example: with dimensions formatted as a standardized form like 'lines of equal length, & values as points on these lines', the interaction structure would be the lines connecting the points on the dimension lines, when arranged in any order
 
   - possible components of a scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
 
