@@ -11,7 +11,24 @@
     - topology: structure with core components of structural changes having no gap error types (continuous), having:
       - including limits in the form of including subset combinations & subset intersections determining included structures
       - excluding limit error type structure: 'combined/intersecting elements being excluded', or the opposite structure of the limit error type 'non-combined (isolated), non-intersecting (non-common) elements being included'
-    - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem
+    - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
+    
+  - relationship structure types between problem/solution, applying core structural relationship structures:
+      - connect: 
+        - solve the problem by connecting the problem & the solution
+      - opposite: 
+        - the problem is the opposite of ('not') the solution
+        - the solution is different from error structures
+      - inclusion/exclusion: 
+        - the solution is the problem with a 'filter' applied
+      - sequence: 
+        - the problem is the solution with a 'sort' applied
+      - gap: 
+        - the problem is the solution with a 'gap' error type corrected
+      - reduce: 
+        - the solution is a subset of the problem variables
+      - combine:
+        - the solution is some combination of problem components
 
   - ml explanation of finding coefficients of prediction function by applying distortions to coefficients & ruling out distortions that dont contribute to prediction accuracy
     - can be optimized with reductions like:
