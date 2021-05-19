@@ -12,8 +12,12 @@
     - useful problem-solving structures can be found by which structures of structures solve common problem structures
 
   - another useful concept is 'improvement of a problem metric' vs. 'solving a problem'
-    - where the problem is that a spectrum metric is not equal to or beyond a correct value, a solution can take the form of improvement
+    - where the problem is that a spectrum metric like accuracy/robustness is not equal to or beyond a correct value, a solution can take the form of improvement
     - 'a component that improves a problem but doesnt solve it' is a useful interim or alternative structure to position as the target, when error/solution types are not structural
+    - example: 
+      - an approximation function improves a 'missing information about dependent variable y' problem but doesnt solve it (the 'actual prediction function for y' would solve it)
+      - a buoy improves a 'drowning' problem but probably doesnt solve it (a method of getting to land would solve it, which the buoy is unlikely to be)
+      - a 'fitting structure' improves a 'gap' problem but doesnt solve it (a method of preventing & correcting gaps would solve it, like a method of preventing slices/knots & other structures that qualify as gap error types)
 
   - map math terms to problem components as default connecting structures other than core/interface structures
     - cycle: error type of a structure, involving a unique variable subset that can be used to derive the original structure when combined with other unique variable subsets
