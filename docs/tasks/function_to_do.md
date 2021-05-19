@@ -13,7 +13,17 @@
       - excluding limit error type structure: 'combined/intersecting elements being excluded', or the opposite structure of the limit error type 'non-combined (isolated), non-intersecting (non-common) elements being included'
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
     
-  - core relationship structure types between problem/solution, by applying core structural relationship structures (relevant to core general abstract-intent functions like apply/find/build/identify/change)
+  - core relationship structure types between problem/solution, by applying core structural relationship structures (relevant to core general abstract-intent functions like apply/find/build/organize/derive)
+  
+    - the relevant (meaning core/causative/determining/abstract/invalidating) difference type between the problem/solution can point to an adjacent function to correct the difference
+    - example for problem 'too many variables (too much complexity)' and solution 'method of reducing variables without losing accuracy or robustness'
+      - a core difference type between problem & solution: variable count
+      - a causative difference type: lack of understanding
+      - a determining difference type: whether additional variables add accuracy or robustness
+      - an abstract difference type: whether these function types (a complex prediction function and a variable reduction function) can interact without additional changes (a variable reduction function can be a generator of a prediction function)
+      - an invalidating difference type: whether complex & simple solution types (function types) can both be useful for the same problem
+
+    - core problem-solution relationship types:
       - organize
         - position
           - the solution is the problem components in the right position in a structure (like an object-function or variable network)
@@ -30,7 +40,7 @@
         - change
           - the solution is some structure of change applied to the problem
         - context
-          - the solution is some context where the problem is not a problem
+          - the solution is some context applied to the problem, so that the problem is not a problem
       - find
         - identify
           - inclusion/exclusion
