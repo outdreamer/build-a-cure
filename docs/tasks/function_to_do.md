@@ -2,7 +2,8 @@
 
   - visualizing higher dimensions with changes in a network of visualizable variable subsets like:
     - dimension subsets: displaying dimension subsets in groups of sizes that are already visualizable (from 1 - 4 dimensions)
-    - embedded dimensions like parameters
+    - embedded dimensions: dimensions graphed visually using extra dimensions as parameters
+    - base dimensions: dimensions standardized to a base and graphed in alignment, like multiple functions on a graph with a common base
     - dimension groups: grouping similar dimensional changes into a change type across a dimension subset, to visualize the change types
     - dimension invalidations: grouping invalidating/neutralizing change types
     - causative dimensions: just visualizing higher-impact/causal dimensions
