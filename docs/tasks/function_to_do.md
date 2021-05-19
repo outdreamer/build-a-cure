@@ -1,16 +1,25 @@
 # to do
+
+  - visualizing higher dimensions with changes in visualizable variable subsets like three dimensions, or grouping similar dimensional changes into a change type across a dimension subset, to visualize the change types
   
   - possible components of a scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
 
   - apply solutions and/or associated error types as a way to derive the origin component type
     - given solutions (with associated error types solved by the solution), derive what problem types existed to trigger the application of the solution (can be constructed from those error types, where error types can cause/build the original problem or address sub-problems of the original problem or related problems)
     - example:
-      - given that an agent delegates instead of trying to solve a problem, it is implied that 'their previous alternate solution methods have caused error types rather than resolving them' or 'delegation has worked for them before', and the fact that this is the likeliest explanation can be derived with additional information like their decision patterns, or adjacent information like 'having more info about delegation processes' or 'more info about alternate solution method error types than delegation error types'
-    - given an error type of "delegation problems (like 'misallocation', 'uneven distribution of work', or 'micromanagement')", we can infer that:
-      - 'alternate solutions to delegations have been tried'
-      - 'delegation was an adjacent solution at the time of solution selection'
-      - 'this is a problem not suited to delegation'
-      - 'excess work requirements is an origin problem type'
+      - given that an agent delegates instead of trying to solve a problem, it is implied that: 
+        - 'their previous alternate solution methods have caused error types rather than resolving them'
+        - 'delegation has worked for them before'
+        - the fact that either of these are likely explanations can be derived with additional information like:
+          - their decision patterns
+          - adjacent information like:
+            - 'having more info about delegation processes'
+            - 'more info about alternate solution method error types than delegation error types'
+      - given an error type of "delegation problems (like 'misallocation', 'uneven distribution of work', or 'micromanagement')", we can infer that:
+        - 'alternate solutions to delegations have been tried'
+        - 'delegation was an adjacent solution at the time of solution selection'
+        - 'this is a problem not suited to delegation'
+        - 'excess work requirements is an origin problem type'
 
   - why are certain structures of structures more useful
     - bc by definition (of usefulness), they reduce differences between origin & target
