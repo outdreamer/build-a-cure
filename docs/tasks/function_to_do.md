@@ -14,35 +14,40 @@
     - solving a problem by applying filters to the solution space converts the problem into a sorting/set problem structure, applying organization to the definition of the problem & solution so they can be accurately related
     
   - relationship structure types between problem/solution, applying core structural relationship structures:
-      - connect (path): 
-        - solve the problem by connecting the problem & the solution
-      - opposite: 
-        - the problem is the opposite of ('not') the solution
-        - the solution is different from error structures
-      - subset (inclusion/exclusion): 
-        - the solution is the problem with a 'filter' applied
-        - core structure
-          - the solution is the core components of the problem
-      - position
-        - the solution is the problem components in the right position in a structure (like an object-function or variable network)
-      - sequence: 
-        - the problem is the solution with a 'sort' applied
-      - gap: 
-        - the problem is the solution with a 'gap' error type corrected
-        - the solution is the removal of the problem 
-        - the solution resolves the problem of a lack
-      - limit
-        - the solution is some change applied to the problem that doesnt intersect with a limit or exist on a particular side of the limit
-      - reduce/expand
-        - the solution is a subset/superset of the problem variables
-        - abstract structure:
-          - the solution is an example/type of the problem
-      - group (combination):
-        - the solution is some combination of problem components
-      - equal (balance):
-        - the solution is some change applied to the problem and/or solution that equates the solution to the problem (as opposed to 'connecting' the problem/solution)
+      - inclusion/exclusion
+        - subset: 
+          - the solution is the problem with a 'filter' applied (a subset of the problem)
+          - core structure
+            - the solution is the core components of the problem
+        - group (combination):
+          - the solution is some combination of problem components
+      - organize
+        - position
+          - the solution is the problem components in the right position in a structure (like an object-function or variable network)
+        - sequence: 
+          - the problem is the solution with a 'sort' applied
+      - usage (space used vs. allowed by structure)
+        - gap: 
+          - the problem is the solution with a 'gap' error type corrected
+          - the solution is the removal of the problem 
+          - the solution resolves the problem of a lack
+        - limit
+          - the solution is some change applied to the problem that doesnt intersect with a limit or exist on a particular side of the limit
+      - variable count/value
+        - reduce/expand
+          - the solution is a subset/superset of the problem variables
+          - abstract structure:
+            - the solution is an example/type of the problem
+      - comparison:
+        - equal (balance):
+          - the solution is some change applied to the problem and/or solution that equates the solution to the problem (as opposed to 'connecting' the problem/solution)
+          - connect (path): 
+            - solve the problem by connecting the problem & the solution
         - difference structure:
-          - the solution is differences between the solution & the problem reduced/removed (as opposed to 'connecting' the problem/solution)
+          - the solution is differences between the solution & the problem reduced/expanded or added/removed (as opposed to 'connecting' the problem/solution)
+          - opposite: 
+            - the problem is the opposite of ('not') the solution
+            - the solution is different from error structures
         - similarity (alignment):
           - the solution is some change applied to the problem that convert the problem into a useful component (an alignment with a useful intent)
       - input/output
