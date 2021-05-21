@@ -27,6 +27,7 @@
             - find an interface component in a structure ('find a concept like relevance in a structure')
             - find all the possible ways to connect two structures & all the info structures necessary to connect them with those methods
             - find all the possible structures (like networks) that could convert a 'find a connection between input-output' problem into a 'integrate input-output connection methods with these other structures so they can coexist' problem
+              - example: 'find a function' problem can interact with a network of problems, like the 'prevent logic injection' problem, 'prevent execution interruption' problem, etc, so it becomes a problem structure that is not simply finding a connecting path between inputs/outputs but a layered network structure of 'finding the connecting structures, while preventing interfering interactions from this problem network'
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
