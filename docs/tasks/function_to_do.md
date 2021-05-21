@@ -58,8 +58,8 @@
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
-        - attacking a known security vuln by deploying a code fix doesnt address the problem of identifying/preventing vulns automatically or identifying/preventing hackers from having/using reasons to hack
-        - playing whack-a-mole doesnt address the causative problems of a conflict between agent intents & a lack of coexistence/cooperating/coordination structures
+        - attacking a known security vuln by deploying a code fix specific to that vuln doesnt address the problem of identifying/preventing vulns automatically or identifying/preventing hackers from having/using reasons to hack
+        - playing whack-a-mole with exploit structures & exploitative agents doesnt address the causative problems of a conflict between agent intents & a lack of coexistence/cooperating/coordination structures
         - paying ransomware hackers as a 'recover lost data' function doesnt address the related problems of risks like that they wont or cant return data or will return it in error (partial/unusable) state & common hacker intents like making money rather than fixing problems and the incentive to move on to next victim or next scam rather than helping victims without ability to enforce data recovery
       
     - what generates understanding? specific interface concepts integrated into the solution, with examples showing understanding (of interface components like interactions/systems in general, & of the problem space), like:
@@ -81,6 +81,17 @@
       - function structures like 'useful input-output sequences' & 'core functions'
       - change components like 'vertex variables' and 'adjacence'
       - common/useful structures like 'maps between interfaces'
+
+    - the relevant structures for a problem (like related problem types & structures of those related problem types) should be generated & applied until understanding is reached
+      - at this point, a neural net can solve problems like:
+        - why is the user using a neural net to solve this problem
+          - example: 
+            - why is the user using an AI to solve a problem of differentiating cat/dog photos, if the photos are very clearly separable, meaning the problem doesnt require AI
+            - bc the process of using AI is solving a different problem for the user than sorting cat/dog photos, such as different outputs of an AI model, like:
+              - time usage: looking busy at work
+              - authority: using AI as a source of truth/authority ('the AI said it was true so it must be true')
+            - by knowing about system & related system components like 'usage' and 'context' and 'agent', as well as other related interface concepts like 'intent', the AI can infer that AI model outputs (given a definition of AI models) might be the intent of the user
+            - alternatively, by knowing that sometimes a problem type of 'different origin/target (like a different cause/reason/intent) is more relevant than the direct/stated origin/target' applies to a context, it can infer that the user has a different origin/target (like a different output of the AI than the AI model itself, or the completion of the task)
 
     - with regard to using the structure of a filter network as a filter for useful info contributing to a function, other info & info formats are useful & derivable which can be derived with faster means (definitions, bases, subsets, concepts, error types, intents, opposite structures, efficiencies, alternatives)
     
