@@ -17,7 +17,12 @@
           - unhandled context: fixing the problem in a particular problem space context, without handling the adjacent problem space the original problem space is about to become
           - specific state: fixing the problem for a specific state in a data flow rather than all possible states
 
-        - you can generate the above problem structures (like 'multiple intents') by applying interface components to the problem type concept of 'specificity' and filtering by the resulting structures which would qualify as problems, given the definition routes of the concept of 'problem' (like 'structures that are sub-optimal for some legitimate intent, like fulfilling a particular metric')
+        - you can generate the above problem structures (like 'multiple intents') by applying interface components to the problem type concept of 'specificity' (with general problem type 'excess' applied to this concept) in common/general/interface problem spaces like 'finding a function', and filtering the resulting structures by which structures would qualify as problems, given the definition routes of the concept of 'problem' (like 'structures that are sub-optimal for some legitimate intent, like fulfilling a particular metric')
+          - other useful problem spaces than 'finding a function' (finding a 'connection' structure) for finding specific problem structures of a problem type:
+            - finding/fitting a structure
+            - finding a useful structure for an intent
+            - finding a definition
+            - organize/randomize a structure
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
