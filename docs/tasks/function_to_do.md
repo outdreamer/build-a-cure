@@ -28,8 +28,12 @@
         - handle the problem type 'sub-optimal interaction of solution with other components' by applying simulations of interactions with other components
 
     - a good solution shows that it was built with understanding of these interface components, including components like:
-      - concepts like 'malicious intent', 'organization', and 'integration'
-      - problem types like 'conflicting incentives' and 'contradictory neutralizing functions'
+      - concepts like 'malicious intent', 'organization', 'relevance', 'probability', and 'integration'
+      - problem types like 'conflicting incentives' and 'contradictory neutralizing functions' and 'structure vs. flexibility trade-off'
+      - system components like 'similarities', 'standards', 'opposite structures', 'interaction layers'
+      - function structures like 'useful input-output sequences' & 'core functions'
+      - change components like 'vertex variables' and 'adjacence'
+      - common/useful structures like 'maps between interfaces'
 
     - with regard to using the structure of a filter network as a filter for useful info contributing to a function, other info & info formats are useful & derivable which can be derived with faster means (definitions, bases, subsets, concepts, error types, intents, opposite structures, efficiencies, alternatives)
     
