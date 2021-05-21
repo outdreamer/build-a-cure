@@ -1,5 +1,11 @@
 # to do
 
+  - add to nn
+    - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without invalidating side effects
+      - an approximation method isnt as useful as a correct method built on understanding
+    - with regard to using the structure of a filter network as a filter for useful info, other info is useful & derivable which can be derived with faster means (concepts, error types, intents, opposite structures, efficiencies, alternatives)
+    - nn to derive error types & bias incorporated into other AI
+
   - visualizing higher dimensions with changes in a network of visualizable variable subsets like:
 
     - dimension subsets: displaying dimension subsets in groups of sizes that are already visualizable (from 1 - 4 dimensions), where orthogonality is preserved across the network of subsets
