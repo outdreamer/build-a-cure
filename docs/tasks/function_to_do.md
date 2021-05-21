@@ -14,7 +14,19 @@
         - attacking a known security vuln by deploying a code fix doesnt address the problem of identifying/preventing vulns automatically or identifying/preventing hackers from having/using reasons to hack
         - playing whack-a-mole doesnt address the causative problems of a conflict between agent intents & a lack of coexistence/cooperating/coordination structures
         - paying ransomware hackers as a 'recover lost data' function doesnt address the related problems of risks like that they wont or cant return data or will return it in error (partial/unusable) state & common hacker intents like making money rather than fixing problems and the incentive to move on to next victim or next scam rather than helping victims without ability to enforce data recovery
-    
+      
+    - what generates understanding? specific interface concepts integrated into the solution, with examples showing understanding (of interface components like interactions/systems in general, & of the problem space), like:
+      - abstraction: 
+        - handle the problem type 'unhandled problem variants of a problem type' by abstracting the solution
+      - intent: 
+        - handle the problem type 'conflicting agent intents' by restricting the intent applicability of the solution (what intents are supported by the function)
+      - system:
+        - handle the problem type 'solution used in different context to enable malicious intents' by applying system context filters to enable applying the solution in specific contexts
+      - change: 
+        - handle the problem type 'unexpected changes to inputs, logic changes at execution time, or changes applied to change usage of outputs' by enforcing validation of function version, input validation, and validation of output integration with other solutions
+      - organization: 
+        - handle the problem type 'sub-optimal interaction of solution with other components' by applying simulations of interactions with other components
+
     - with regard to using the structure of a filter network as a filter for useful info contributing to a function, other info & info formats are useful & derivable which can be derived with faster means (definitions, bases, subsets, concepts, error types, intents, opposite structures, efficiencies, alternatives)
     
     - nn to derive error types & bias incorporated into other nn data/parameters/algorithms/structures/models
