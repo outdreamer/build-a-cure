@@ -2,7 +2,25 @@
 
   - add to nn
 
-    - causes of problem type 'false success info signals': 
+    - generating problem structures
+
+      - generating problem structures of a problem space like 'find a function for an intent':
+        
+        - apply error type definition routes
+          - error type: missing component
+            - if this error type is relevant to the problem space, that means the component was relevant in some way (like being required)
+        
+        - apply error type-generating functions
+          - error type-generating functions:
+            - 'change components'
+              - components
+                - variable values
+                  - inputs
+                    - to generate a problem type of 'missing input', apply 'change' function or 'opposite' structure to 'input' structure
+                  - attribute values
+                   - to generate a problem type of 'missing attribute' (such as an attribute required for a solution metric), apply 'change' function or 'opposite' structure to 'attribute' structure
+
+      - example: identifying structural causes of problem type 'false success info signals': 
 
       - problem type of 'excess specificity' can create a problem of 'false success info signals'
 
@@ -83,7 +101,7 @@
       - common/useful structures like 'maps between interfaces'
 
     - the relevant structures for a problem (like related problem types & structures of those related problem types) should be generated & applied until understanding is reached
-      - at this point, a neural net can solve problems like:
+      - at this point, once it has understanding, a neural net can solve problems like:
         - why is the user using a neural net to solve this problem
           - example: 
             - why is the user using an AI to solve a problem of differentiating cat/dog photos, if the photos are very clearly separable, meaning the problem doesnt require AI
