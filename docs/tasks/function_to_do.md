@@ -1,10 +1,23 @@
 # to do
 
   - add to nn
-    - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without invalidating side effects
-      - an approximation method isnt as useful as a correct method built on understanding
-    - with regard to using the structure of a filter network as a filter for useful info, other info is useful & derivable which can be derived with faster means (concepts, error types, intents, opposite structures, efficiencies, alternatives)
-    - nn to derive error types & bias incorporated into other AI
+
+    - false success info signals: 
+
+      - granular solutions are often insufficient, where the granularity can take the form of:
+        - time: fixing a specific instance of a problem instead of all instances of a problem
+        - position on problem network: fixing a problem without regard to other related problems, such as causative problems
+        - type: fixing a specific type of a problem instead of all possible types
+
+      - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
+        - an approximation method isnt as useful as a correct method built on cross-interface understanding
+        - attacking a known security vuln by deploying a code fix doesnt address the problem of identifying/preventing vulns automatically or identifying/preventing hackers from having/using reasons to hack
+        - playing whack-a-mole doesnt address the causative problems of a conflict between agent intents & a lack of coexistence/cooperating/coordination structures
+        - paying ransomware hackers as a 'recover lost data' function doesnt address the related problems of risks like that they wont or cant return data or will return it in error (partial/unusable) state & common hacker intents like making money rather than fixing problems and the incentive to move on to next victim or next scam rather than helping victims without ability to enforce data recovery
+    
+    - with regard to using the structure of a filter network as a filter for useful info contributing to a function, other info & info formats are useful & derivable which can be derived with faster means (definitions, bases, subsets, concepts, error types, intents, opposite structures, efficiencies, alternatives)
+    
+    - nn to derive error types & bias incorporated into other nn data/parameters/algorithms/structures/models
 
   - visualizing higher dimensions with changes in a network of visualizable variable subsets like:
 
