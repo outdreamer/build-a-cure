@@ -27,6 +27,10 @@
       - organization: 
         - handle the problem type 'sub-optimal interaction of solution with other components' by applying simulations of interactions with other components
 
+    - a good solution shows that it was built with understanding of these interface components, including components like:
+      - concepts like 'malicious intent', 'organization', and 'integration'
+      - problem types like 'conflicting incentives' and 'contradictory neutralizing functions'
+
     - with regard to using the structure of a filter network as a filter for useful info contributing to a function, other info & info formats are useful & derivable which can be derived with faster means (definitions, bases, subsets, concepts, error types, intents, opposite structures, efficiencies, alternatives)
     
     - nn to derive error types & bias incorporated into other nn data/parameters/algorithms/structures/models
