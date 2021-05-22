@@ -84,6 +84,8 @@
 
       - ai depends on insight path algorithms like 'trial & error' to accomplish some tasks like in grid search to find optimal algorithm parameters, but still must be told to do so by a human who has decided that exploring all parameter combinations is needed
         - theyre wrong to think that, they should have come up with my method to filter a solution space using interfaces & solution automation workflows
+        - a 'function network' is only useful if a human puts it in the right system & applies it in the right way to solve the problems its optimized for
+        - my system self-optimizes as its given more problems to solve
 
       - a function network can sometimes be replaced by an object (interface components) or variable network (of interface variables) but ai wouldnt figure this out if it was given a function network as its origin algorithm, bc while learning how to optimize for a particular solution, ai is not evaluating how to optimize its own algorithm, input, & parameters and would need to be instructed to do so
         - then it would encounter error types and it would need to be instructed to identify & handle error types
@@ -95,7 +97,7 @@
 
       - my system can generate error types & apply different solution automation workflows as needed to solve a problem, and identify the workflow likeliest to be useful before applying it
 
-      - a function network depends on input data, whereas my system depends on definitions, the logic of interface queries, & an internet connection to find new info as it identifies its own need for new info
+      - a function network depends on input data, whereas my system depends on problems, definitions, the logic of interface queries, & an internet connection to find new info as it identifies its own need for new info
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
