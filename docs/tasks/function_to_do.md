@@ -93,7 +93,7 @@
 
       - ai depends on my system in order to predict error types better, integrate common sense, apply definitions of concepts, etc
 
-      - if 
+      - my system can generate error types & apply different solution automation workflows as needed to solve a problem, and identify the workflow likeliest to be useful before applying it
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
