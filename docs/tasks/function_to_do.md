@@ -1,7 +1,6 @@
 # to do
 
-  - add to nn
-
+    - add to solution automation workflow
     - generating problem structures
 
       - generating problem structures of a problem space like 'find a function for an intent':
@@ -22,7 +21,7 @@
 
       - example: identifying structural causes of problem type 'false success info signals': 
 
-      - problem type of 'excess specificity' can create a problem of 'false success info signals'
+        - problem type of 'excess specificity' can create a problem of 'false success info signals'
 
         - granular/specific solutions are often insufficient, where the granularity can take the form of problem structures:
           
@@ -73,6 +72,21 @@
             - apply 'interaction' concept to 'connection' structure
               - find all the possible structures (like networks) that could convert a 'find a connection between input-output' problem into a 'integrate input-output connection methods with these other structures so they can coexist' problem
                 - example: 'find a function' problem can interact with a network of problems, like the 'prevent logic injection' problem, 'prevent execution interruption' problem, etc, so it becomes a problem structure that is not simply finding a connecting path between inputs/outputs but a layered network structure of 'finding the connecting structures, while preventing interfering interactions from this problem network'
+
+    - add to nn
+
+      - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
+
+      - ai has still not derived the concept of an interface & generated its own interface structure to solve a problem, without being fed the definition of an interface
+
+      - ai relies on insight path algorithms like 'trial & error' to accomplish some tasks like in grid search to find optimal algorithm parameters, but still must be told to do so by a human who has decided that exploring all parameter combinations is needed (theyre wrong to think that, they should have come up with my method to filter a solution space)
+
+      - a function network can sometimes be replaced by an object (interface components) or variable network (of interface variables) but ai wouldnt figure this out if it was given a function network as its origin algorithm, bc while learning how to optimize for a particular solution, ai is not evaluating how to optimize its own algorithm, input, & parameters and would need to be instructed to do so
+        - then it would encounter error types and it would need to be instructed to identify & handle error types
+        - then it would be linked with other models, data, & function networks, and other interaction error types would emerge and it would need to be instructed on how to handle new data, integrate with other function networks for useful agent intents without merging with other function networks (which would remove its connection to the original tasks it solved), help other models avoid new error types while identifying & handling them itself
+        - it wouldnt just identify that it should apply concepts like 'meaning' in its integrations with other automation components, it would have to be told to do so & told how to do so
+
+      - for example, ai needs to apply my system in order to predict error types better, integrate common sense, apply definitions of concepts, etc
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
