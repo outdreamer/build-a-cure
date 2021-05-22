@@ -76,17 +76,24 @@
     - add to nn
 
       - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
+        - which functions/components need to be added for which tasks is still not a solved problem in the ai space, whereas my system does solve that
 
-      - ai has still not derived the concept of an interface & generated its own interface structure to solve a problem, without being fed the definition of an interface
+      - ai has still not derived the concept of an interface & generated its own interface structure to solve a problem, without being fed the definition of an interface, which is an input to my system
+        - if ai was the optimal structure, it would have quickly identified the useful components of my system (like trade-offs, exploits, efficiencies, ambiguities, definitions & interfaces) & applied them to solve any problem, but most ai algorithms/parameters cant do even one task with perfect accuracy (or total coverage, like 90% accuracy & an explanation of why it cant achieve higher accuracy - like 'insufficient data')
+        - my system can identify when minimal info to solve a problem isnt reached & can generate explanations of its processes (interface queries, which are trajectories on the 'interface' interface)
 
-      - ai relies on insight path algorithms like 'trial & error' to accomplish some tasks like in grid search to find optimal algorithm parameters, but still must be told to do so by a human who has decided that exploring all parameter combinations is needed (theyre wrong to think that, they should have come up with my method to filter a solution space)
+      - ai depends on insight path algorithms like 'trial & error' to accomplish some tasks like in grid search to find optimal algorithm parameters, but still must be told to do so by a human who has decided that exploring all parameter combinations is needed
+        - theyre wrong to think that, they should have come up with my method to filter a solution space using interfaces & solution automation workflows
 
       - a function network can sometimes be replaced by an object (interface components) or variable network (of interface variables) but ai wouldnt figure this out if it was given a function network as its origin algorithm, bc while learning how to optimize for a particular solution, ai is not evaluating how to optimize its own algorithm, input, & parameters and would need to be instructed to do so
         - then it would encounter error types and it would need to be instructed to identify & handle error types
         - then it would be linked with other models, data, & function networks, and other interaction error types would emerge and it would need to be instructed on how to handle new data, integrate with other function networks for useful agent intents without merging with other function networks (which would remove its connection to the original tasks it solved), help other models avoid new error types while identifying & handling them itself
         - it wouldnt just identify that it should apply concepts like 'meaning' in its integrations with other automation components, it would have to be told to do so & told how to do so
+        - a structural definition of 'meaning' is an input to my system, so my system does have methods to handle complex integration/organization tasks bc these are components of meaning
 
-      - for example, ai needs to apply my system in order to predict error types better, integrate common sense, apply definitions of concepts, etc
+      - ai depends on my system in order to predict error types better, integrate common sense, apply definitions of concepts, etc
+
+      - if 
 
       - examples of functions that are sub-optimal for a task but get it done (or appear to do so) without immediately invalidating side effects
         - an approximation method isnt as useful as a correct method built on cross-interface understanding
