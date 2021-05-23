@@ -91,6 +91,11 @@
         - surprise as a learning/prediction tool
           - structures of surprise & truth are useful insight paths to generate solutions
           - structures of surprise & falsehood are useful solution filters
+            - conspiracy theories are so unlikely bc they go against incentives or apply an inefficient connection path
+              - why would someone go to all that trouble to do that when its way easier to use this other method
+        - structures of disincentives (that go against incentives) can be used to find info hiding spots
+        - agent behaviors that are extreme in most ways (extremely dignified, pointless, ineffective) are less likely (uncommon) so theyre a source of surprise/comedy
+        - structures of safety/stability can be used as a filter to identify possible/probable interactions
 
     - add to solution automation workflow
 
