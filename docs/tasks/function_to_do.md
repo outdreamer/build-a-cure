@@ -78,20 +78,22 @@
         - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
         - cults/ex's (definitely worshiping the wrong things)
         - total opposite: 'your fatal flaw wasn't so much all the excessive drunk online shopping purchases at the police store & the corporate sabotage so much as the curtains from korea that spied on us & posted our arguments to porn sites' (it was absolutely the excessive spending at the police store)
-        - changing definitions 
+        - changing definitions to very different alternate definition
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
         - mixed contexts/styles
           - talking about an unimportant matter in the same terms used for important matters
             - 'his parents couldnt deal with the idea of confrontation so they gently let him lose touch rather than disowning him outright' 
         - adding relevant structures of meaning like:
           - aligning layers like double entendres
-            - calling him a 'magician' bc they 'hide scarves' which is similar to 'tucking a tie' bc 'tucking' has a related output of 'hiding'
+            - calling him a 'magician' bc they have a function of 'hiding scarves' which is similar to 'tucking a tie' bc 'tucking' has a related output of 'hiding'
+        - defeating the purpose/self-defeating
+          - listing all the manipulations youre using while using them to the target 
         - false dignity/over-generousity
           - calling him a 'international man of mystery' bc its a very dignified way to portray having mysterious fashion habits that defy analysis from subject matter experts
           - 'he must be doing it to scare away women bc theyre always chasing him'
         - injecting stupidity/extremes
           - he thought it would act like a talisman to protect him from rape or unwanted pregnancy
-          - he was told by a foreign holy man that it would protect him from infertility (has association with 'wise foreigner' stereotype)
+          - he was told by a foreign holy man (has association with 'wise foreigner' stereotype) that it would protect him from fertility like a 'cosmic condom' (repetition, catchy) 
         - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
         - fitting with existing systems without obvious contradictions
           - 'using existing phrases in a new way with minimal distortions' is surprising bc its unlikely to find a new distortion of an existing component that someone hasnt tried, so the simpler the better for this type
