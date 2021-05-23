@@ -73,6 +73,7 @@
               - important + reduced: condensing the entire story into a brief structure like a nickname and casually referencing it despite the importance implied in a problem that generates a nickname
         - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
         - cults/ex's (definitely worshiping the wrong things)
+        - total opposite: 'your fatal flaw wasn't so much all the excessive drunk online shopping purchases at the police store & the corporate sabotage so much as the curtains from china that spied on us & posted our arguments to porn sites' (it was absolutely the excessive spending at the police store)
         - changing definitions 
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
         - mixed contexts/styles
