@@ -72,6 +72,7 @@
             - 'the mysterious tie-tucker left the board of directors' 
               - important + reduced: condensing the entire story into a brief structure like a nickname and casually referencing it despite the importance implied in a problem that generates a nickname
         - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
+        - cults/ex's (definitely worshiping the wrong things)
         - changing definitions 
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
         - mixed contexts/styles
