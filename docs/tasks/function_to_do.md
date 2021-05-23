@@ -1,17 +1,22 @@
 # to do
 
     - apply comedy structures to a problem space
-      - different
+      - surprising
+        - different
         - opposite
         - extreme/exaggerated
-        - false/nonsense
+        - nonsense
+          - not incentivized
+          - not normal
         - unusual/weird
+      - safe
+        - reduce common experience/problem/fear or other negative emotion until ridiculous/unimportant/powerless
       - relevant
         - multiple alignments of relevant structures
           - self-fulling prophecy
             - multiple layers of relevance
               - prediction function
-                - related concepts
+                - repeated concepts used in different ways
                   - add 'usage' concept while applying 'usage' function: use prediction function to predict usage
                 - relevance cycle: 
                   - prediction function used to determine discussions, which are used to determine usage, which are an input to prediction function to predict usage
@@ -19,6 +24,8 @@
                   - 'prediction function of usage being used as an input to discussions which are an input to usage, so the function/paper is used more often, and becomes more accurate at predicting usage bc its usage predictions made it used more'
                 - relevance in the form of usefulness/efficiency structures:
                   - function output (usage predictions) created a function input (usage)
+                - the opposite would be ridiculous self-defeating structures:
+                  - function output (high access & site crash from server overload) prevented a function input (using the paper)
         - aligning
           - actual intent & stated intent align (sincerity)
           - relevance structures align (at same intervals/points)
@@ -36,9 +43,21 @@
         - serious
       - ridiculous
         - self-defeating
-        - pointless
+        - pointless/not useful
+        - irrelevant
         - ineffective
         - drastically/obviously false
+          - conspiracy theories connect objects that are obviously not connected
+
+      - insight paths
+        - hypothetical
+          - several degrees of assumption chains to generate a surprising hypothetical
+            - serious + petty + important: 'none of us can figure out why he tucks in his tie'
+              - implies that the problem was so serious that a discussion happened to investigate & research it to fix it
+            - 'none of us ever figured out why he tucked in his tie'
+              - repeated + important: implies that the discussion was repeated bc it was such an important matter
+        - conspiracy theory
+        - changing definitions
 
     - add to solution automation workflow
 
