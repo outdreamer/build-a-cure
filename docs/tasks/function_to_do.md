@@ -8,7 +8,7 @@
         - nonsense
           - not incentivized
           - not normal
-        - unusual/weird
+        - unusual/weird/unlikely
       - safe
         - reduce common experience/problem/fear or other negative emotion until ridiculous/unimportant/powerless
       - relevant
@@ -55,8 +55,8 @@
           - conspiracy theories connect objects that are obviously not connected
 
       - insight paths
-        - hypothetical
-          - several degrees of assumption chains to generate a surprising hypothetical
+        - unlikely hypothetical
+          - several degrees of assumption chains to generate an unlikely hypothetical (assumptions generating a background story/context)
             - serious + petty + important: 'none of us can figure out why he tucks in his tie'
               - implies that the problem was so serious that a discussion happened to investigate & research it to fix it
               - implies that no one is allowed to ask him or has the courage to ask him directly, implying he's powerful in some way & cannot be questioned, which implies these are his subordinates who are not doing work in order to discuss this, which implies this could cause their work arrangement to be invalid 
@@ -68,10 +68,20 @@
               - important: it has ruined multiple relationships with people who cared about him who tried to stop him from doing this to himself
             - 'even after being accused of being a double-tucker who tucks his tie but not his shirt, he persisted'
               - important + petty + similar: fashion is a petty thing to care about this much, and a special jargon term 'double-tucker' implies a whole community or sub-culture based on or caring about this issue or related issues, which he has caused controversy in, with added importance by association from term 'double-agent', typically reserved for high-stakes situations like foreign wars, as if he's betraying someone or his heritage or group or people who rooted for him, and rhymes with a curse word
+            - 'the mysterious tie-tucker left the board of directors' 
+              - important + reduced: condensing the entire story into a nickname and casually referencing it despite the importance implied to a problem that generates a nickname
         - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
         - changing definitions 
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
-        - adding layers of meaning like aligning double entendres
+        - mixed contexts/styles
+          - talking about an unimportant matter in the same terms used for important matters
+            - 'his parents couldnt deal with the idea of confrontation so they gently let him lose touch rather than disowning him outright' 
+        - adding relevant structures of meaning like:
+          - aligning layers like double entendres
+            - calling him a 'magician' bc they 'hide scarves' which is similar to 'tucking a tie' bc 'tucking' has a related output of 'hiding'
+        - false dignity/over-generousity
+          - calling him a 'international man of mystery' bc its a very dignified way to portray having mysterious fashion habits that defy analysis from subject matter experts
+          - 'he must be doing it to scare away women bc theyre always chasing him'
         - injecting stupidity/extremes (he thought it would protect him from rape or unwanted pregnancy)
         - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
 
