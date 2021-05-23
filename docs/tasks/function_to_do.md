@@ -31,17 +31,22 @@
           - relevance structures align (at same intervals/points)
         - useful
           - connected
+          - common/relatable
           - timely
           - efficient
           - similar
-          - obvious
           - true
+            - obvious
             - sincere
       - important
         - emotional
         - petty
         - serious
+      - easily understood
+        - brief
+        - uses references that are commonly known
       - ridiculous
+        - invalid/illegitimate
         - self-defeating
         - pointless/not useful
         - irrelevant
@@ -54,10 +59,21 @@
           - several degrees of assumption chains to generate a surprising hypothetical
             - serious + petty + important: 'none of us can figure out why he tucks in his tie'
               - implies that the problem was so serious that a discussion happened to investigate & research it to fix it
+              - implies that no one is allowed to ask him or has the courage to ask him directly, implying he's powerful in some way & cannot be questioned, which implies these are his subordinates who are not doing work in order to discuss this, which implies this could cause their work arrangement to be invalid 
             - 'none of us ever figured out why he tucked in his tie'
               - repeated + important: implies that the discussion was repeated bc it was such an important matter
-        - conspiracy theory
-        - changing definitions
+            - 'none of our lawyers or R&D staff ever figured out why he tucked in his tie'
+              - important: adds another level of importance in that they hired an expensive legal team to investigate the matter for liability/indemnity/litigation potential as if it made the company look so bad they had to hire a legal team
+            - "he kept tucking in his tie despite every ex-girlfriends' intervention"
+              - important: it has ruined multiple relationships with people who cared about him who tried to stop him from doing this to himself
+            - 'even after being accused of being a double-tucker who tucks his tie but not his shirt, he persisted'
+              - important + petty + similar: fashion is a petty thing to care about this much, and a special jargon term 'double-tucker' implies a whole community or sub-culture based on or caring about this issue or related issues, which he has caused controversy in, with added importance by association from term 'double-agent', typically reserved for high-stakes situations like foreign wars, as if he's betraying someone or his heritage or group or people who rooted for him, and rhymes with a curse word
+        - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
+        - changing definitions 
+          - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
+        - adding layers of meaning like aligning double entendres
+        - injecting stupidity/extremes (he thought it would protect him from rape or unwanted pregnancy)
+        - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
 
     - add to solution automation workflow
 
