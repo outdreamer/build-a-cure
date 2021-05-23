@@ -1,6 +1,7 @@
 # to do
 
-    - apply comedy structures to a problem space
+    - apply structures from relevant system (like comedy) to a problem space
+      - if its a joke that means its probably not a structure of truth, just like how if it's justified/earned it's likelier to be a stable structure (a component of truth) bc everything has a benefit/cost (so when the right investment matches the right costs, its likelier to achieve the goal)
       - surprising
         - different
         - opposite
@@ -69,7 +70,7 @@
             - 'even after being accused of being a double-tucker who tucks his tie but not his shirt, he persisted'
               - important + petty + similar: fashion is a petty thing to care about this much, and a special jargon term 'double-tucker' implies a whole community or sub-culture based on or caring about this issue or related issues, which he has caused controversy in, with added importance by association from term 'double-agent', typically reserved for high-stakes situations like foreign wars, as if he's betraying someone or his heritage or group or people who rooted for him, and rhymes with a curse word
             - 'the mysterious tie-tucker left the board of directors' 
-              - important + reduced: condensing the entire story into a nickname and casually referencing it despite the importance implied to a problem that generates a nickname
+              - important + reduced: condensing the entire story into a brief structure like a nickname and casually referencing it despite the importance implied in a problem that generates a nickname
         - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
         - changing definitions 
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
@@ -87,7 +88,7 @@
           - he was told by a foreign holy man that it would protect him from infertility (has association with 'wise foreigner' stereotype)
         - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
 
-      - these can be used to filter other non-comedy problems
+      - these can be used to filter for other non-comedy problems
         - surprise as a learning/prediction tool
           - structures of surprise & truth are useful insight paths to generate solutions
           - structures of surprise & falsehood are useful solution filters
