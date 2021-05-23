@@ -1,7 +1,48 @@
 # to do
 
+    - apply comedy structures to a problem space
+      - different
+        - opposite
+        - extreme/exaggerated
+        - false/nonsense
+        - unusual/weird
+      - relevant
+        - multiple alignments of relevant structures
+          - self-fulling prophecy
+            - multiple layers of relevance
+              - prediction function
+                - related concepts
+                  - add 'usage' concept while applying 'usage' function: use prediction function to predict usage
+                - relevance cycle: 
+                  - prediction function used to determine discussions, which are used to determine usage, which are an input to prediction function to predict usage
+                - function usage makes it better at its usage intent
+                  - 'prediction function of usage being used as an input to discussions which are an input to usage, so the function/paper is used more often, and becomes more accurate at predicting usage bc its usage predictions made it used more'
+                - relevance in the form of usefulness/efficiency structures:
+                  - function output (usage predictions) created a function input (usage)
+        - aligning
+          - actual intent & stated intent align (sincerity)
+          - relevance structures align (at same intervals/points)
+        - useful
+          - connected
+          - timely
+          - efficient
+          - similar
+          - obvious
+          - true
+            - sincere
+      - important
+        - emotional
+        - petty
+        - serious
+      - ridiculous
+        - self-defeating
+        - pointless
+        - ineffective
+        - drastically/obviously false
+
     - add to solution automation workflow
-    - generating problem structures
+
+      - generating problem/solution structures in a problem space or a system
 
       - generating problem structures of a problem space like 'find a function for an intent':
         
@@ -84,7 +125,7 @@
 
       - ai depends on insight path algorithms like 'trial & error' to accomplish some tasks like in grid search to find optimal algorithm parameters, but still must be told to do so by a human who has decided that exploring all parameter combinations is needed
         - theyre wrong to think that, they should have come up with my method to filter a solution space using interfaces & solution automation workflows
-        - a 'function network' is only useful if a human puts it in the right system & applies it in the right way to solve the problems its optimized for
+        - a 'function network' is only useful if a human puts it in the right system & applies it in the right way to solve the problems its optimized for, and retires it when better methods are implemented - the function network doesnt get better at solving all problems just by being fed more problems
         - my system self-optimizes as its given more problems to solve
 
       - a function network can sometimes be replaced by an object (interface components) or variable network (of interface variables) but ai wouldnt figure this out if it was given a function network as its origin algorithm, bc while learning how to optimize for a particular solution, ai is not evaluating how to optimize its own algorithm, input, & parameters and would need to be instructed to do so
