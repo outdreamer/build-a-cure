@@ -57,7 +57,7 @@
 
       - insight paths
         - unlikely hypothetical
-          - several degrees of assumption chains to generate an unlikely hypothetical (assumptions generating a background story/context)
+          - several degrees of assumption chains to generate an unlikely hypothetical (sequence of assumptions from a starting assumption/premise, generating a background story/context)
             - serious + petty + important: 'none of us can figure out why he tucks in his tie'
               - implies that the problem was so serious that a discussion happened to investigate & research it to fix it
               - implies that no one is allowed to ask him or has the courage to ask him directly, implying he's powerful in some way & cannot be questioned, which implies these are his subordinates who are not doing work in order to discuss this, which implies this could cause their work arrangement to be invalid 
@@ -87,6 +87,8 @@
           - he thought it would act like a talisman to protect him from rape or unwanted pregnancy
           - he was told by a foreign holy man that it would protect him from infertility (has association with 'wise foreigner' stereotype)
         - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
+        - fitting with existing systems without obvious contradictions
+          - 'using existing phrases in a new way with minimal distortions' is surprising bc its unlikely to find a new distortion of an existing component that someone hasnt tried, so the simpler the better for this type
 
       - these can be used to filter for other non-comedy problems
         - surprise as a learning/prediction tool
