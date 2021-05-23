@@ -82,8 +82,15 @@
         - false dignity/over-generousity
           - calling him a 'international man of mystery' bc its a very dignified way to portray having mysterious fashion habits that defy analysis from subject matter experts
           - 'he must be doing it to scare away women bc theyre always chasing him'
-        - injecting stupidity/extremes (he thought it would protect him from rape or unwanted pregnancy)
+        - injecting stupidity/extremes
+          - he thought it would act like a talisman to protect him from rape or unwanted pregnancy
+          - he was told by a foreign holy man that it would protect him from infertility (has association with 'wise foreigner' stereotype)
         - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
+
+      - these can be used to filter other non-comedy problems
+        - surprise as a learning/prediction tool
+          - structures of surprise & truth are useful insight paths to generate solutions
+          - structures of surprise & falsehood are useful solution filters
 
     - add to solution automation workflow
 
