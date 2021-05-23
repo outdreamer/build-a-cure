@@ -75,11 +75,14 @@
               - important + petty + similar: fashion is a petty thing to care about this much, and a special jargon term 'double-tucker' implies a whole community or sub-culture based on or caring about this issue or related issues, which he has caused controversy in, with added importance by association from term 'double-agent', typically reserved for high-stakes situations like foreign wars, as if he's betraying someone or his heritage or group or people who rooted for him, and rhymes with a curse word
             - 'the mysterious tie-tucker left the board of directors' 
               - important + reduced: condensing the entire story into a brief structure like a nickname and casually referencing it despite the importance implied in a problem that generates a nickname
-        - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
-        - cults/ex's (definitely worshiping the wrong things)
+        - topics
+          - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
+          - cults/ex's (definitely worshiping the wrong things)
         - total opposite: 'your fatal flaw wasn't so much all the excessive drunk online shopping purchases at the police store & the corporate sabotage so much as the curtains from korea that spied on us & posted our arguments to porn sites' (it was absolutely the excessive spending at the police store)
         - changing definitions to very different alternate definition
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
+        - resolving awkwardness
+          - 'i dont hate your dick pics (introduces the problem, 'uh oh does she hate my dick pics'), I just think theyre (foreshadowing something that seems like a difference but is actually similar) more optimal when directed at professionals, such as doctors, who might appreciate it more than I ever could (optional: from a curiousity perspective)'
         - mixed contexts/styles
           - talking about an unimportant matter in the same terms used for important matters
             - 'his parents couldnt deal with the idea of confrontation so they gently let him lose touch rather than disowning him outright' 
@@ -87,7 +90,7 @@
           - aligning layers like double entendres
             - calling him a 'magician' bc they have a function of 'hiding scarves' which is similar to 'tucking a tie' bc 'tucking' has a related output of 'hiding'
         - defeating the purpose/self-defeating
-          - listing all the manipulations youre using while using them to the target 
+          - listing all the manipulations youre using, while using them, to the target 
         - false dignity/over-generousity
           - calling him a 'international man of mystery' bc its a very dignified way to portray having mysterious fashion habits that defy analysis from subject matter experts
           - 'he must be doing it to scare away women bc theyre always chasing him'
