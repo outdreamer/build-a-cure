@@ -242,6 +242,11 @@
           - difference
           - important variables
 
+        - questions unanswered by ai
+          - does the definition of difference make sense for this problem/solution components (algorithm, data, intent)
+          - can this algorithm fulfill the intent of connecting the input/output differences in the data
+            - is it capable of mapping the inputs/outputs, given the difference structures in the data (difference types, lack of sufficient differentiation, etc)
+
       - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
         - which functions/components need to be added for which tasks is still not a solved problem in the ai space, whereas my system does solve that
 
