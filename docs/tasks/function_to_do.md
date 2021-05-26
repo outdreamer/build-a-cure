@@ -1,13 +1,20 @@
 # to do
 
     - other structures to use as problem/solution structures
-      - similarity/approximation/alternative structures
-        - as not all inaccuracies are errors & some level of error can be acceptable in some cases, structures like similarities, proxies, approximations & aligning/adjacent alternatives can take the place of the original problem/solution structures
-      - cost structures
-        - the patterns of costs/benefits as a way to determine investment structures (what alternatives to invest in, for what cause/reason/intent, to what degree, etc) as a way of determining uncertainty resolution
-          - investments (exploring a possibility) are a structure of resolving uncertainty problems, like 'exploring very different strategies until one pays off' as a way to find good solutions when selecting between solutions is ambiguous or other structures of uncertainty like lacking in info
-      - power structures
-        - the location & interaction of sources of power (like importance, usefulness, interactivity)
+      - these are highly relevant/useful cross-interface structures
+        - sufficient/threshold or partial/subset structures (vs. completely aligning structures)
+          - similarity/approximation/alternative structures
+            - as not all inaccuracies are errors & some level of error can be acceptable in some cases, structures like similarities, proxies, approximations & aligning/adjacent alternatives can take the place of the original problem/solution structures
+            - error types that can be useful for more optimal solutions for a metric
+              - false similarity
+                - where a sub-optimal method has false similarities with an optimal method (like similarities inputs/outputs of another solution, even though its logic differs and other metadata like the reason why it works differs), but the false similarities are all that matters for a particular metric (like having resources to use the sub-optimal method) and it doesnt create side effects that contradict other methods, it can be a temporary/contextually optimal method
+        - change/learning inputs
+          - cost structures
+            - the patterns of costs/benefits as a way to determine investment structures (what alternatives to invest in, for what cause/reason/intent, to what degree, etc) as a way of determining uncertainty resolution
+              - investments (exploring a possibility) are a structure of resolving uncertainty problems, like 'exploring very different strategies until one pays off' as a way to find good solutions when selecting between solutions is ambiguous or other structures of uncertainty like lacking in info
+        - determining/relevance/causation structures
+          - power structures
+            - the location & interaction of sources of power (like importance, usefulness, interactivity)
 
     - apply structures from relevant system (like comedy) to a problem space
       - if its a joke that means its probably not a structure of truth, just like how if it's justified/earned it's likelier to be a stable structure (a component of truth) bc everything has a benefit/cost (so when the right investment matches the right costs, its likelier to achieve the goal)
