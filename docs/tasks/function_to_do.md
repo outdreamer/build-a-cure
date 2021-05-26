@@ -263,6 +263,10 @@
                 - related contexts & their interactions
                 - spaces where info is structural (graphable) or has an attribute like difference structure (difference type/degree)
             - point sets (like threshold values/centers/origins to use as references)
+            - cross-interface maps
+
+          - alternate variable set structures
+            - isolated aligned variable changes as a map (stack of differences) between types/thresholds
 
         - structures identified by interface analysis
           
