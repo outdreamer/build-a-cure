@@ -227,6 +227,13 @@
           - however the methods for one intent can act as proxies for another related intent
           - how to identify related intents
             - 'avoiding errors' is an intent that coordinate with intents like 'find a connecting function' (like 'find a prediction function')
+            - the reason they are related is bc of interface structures (definition, structure, & functionality):
+              - definition
+                - errors are by definition a component of learning
+              - intent
+                - the 'prediction' intent is helped by intents like 'learning new info'
+              - structure & functionality
+                - the inputs/outputs of 'avoid errors of this type (inaccurate prediction types, as inaccuracy/difference types)' and 'find a connecting prediction function' are similar
           
         - structures identified by interface analysis
           
