@@ -220,12 +220,16 @@
             - error structures to derive a function from opposite structures to those error structures
           
         - structures identified by interface analysis
-          - error structures
+          - learning structures 
+            - error structures
+            - guess-answer interaction structures (structures of difference/similarity between very wrong or almost correct guess & actual answer)
+            - question-answer interaction structures (structures of interaction between question, info retrieved by question, difference between info retrieved so far & answer, and the answer)
           - interface structures (intents, concepts, patterns)
+            - system structures like incentives, ambiguities, & efficiencies
+            - meaning structures (reasons why something worked, how an insight fits in a system, how components can be organized in a useful way, how a structure is relevant for an intent)
           - useful interface interaction structures 
             - function sequences with alignment in inputs/outputs
-            - core functions
-            - efficiencies
+            - core functions as a component for 'build' intents
             - interaction layers (coordinating, competing, contradicting, coexisting & other interaction structures)
             - definition structures
             - change potential
