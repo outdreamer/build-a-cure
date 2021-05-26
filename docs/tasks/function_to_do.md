@@ -217,7 +217,16 @@
         - learning method
           - ai applies updates to learning parameters to adjust a function until its a good predictor
           - interface analysis can apply other methods of learning, like applying:
-            - error structures to derive a function from opposite structures to those error structures
+            - error structures to derive a function from opposite structures to those error structures, for intents like 'create an accurate prediction function'
+            - vertex structures, which are an interface structure related to 'important variables', for intents like 'identify important variables'
+          
+          - related intents of ai can have different adjacent algorithms
+            - 'create an accurate prediction function' (apply function, base, component, subset, filter & limit structures)
+            - 'avoid errors' (apply error structures)
+            - 'identify important variables' (apply vertex structures)
+          - however the methods for one intent can act as proxies for another related intent
+          - how to identify related intents
+            - 'avoiding errors' is an intent that coordinate with intents like 'find a connecting function' (like 'find a prediction function')
           
         - structures identified by interface analysis
           
@@ -249,7 +258,7 @@
               - apply concept interface: conceptual intents like priorities
         
         - structures identified by ai
-          - group membership
+          - type (group membership)
           - difference
           - important variables
 
