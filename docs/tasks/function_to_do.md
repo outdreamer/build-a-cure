@@ -82,7 +82,7 @@
         - changing definitions to very different alternate definition
           - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
         - resolving awkwardness
-          - 'i dont hate your dick pics (introduces the problem, 'uh oh does she hate my dick pics'), I just think theyre (foreshadowing something that seems like a difference but is actually similar) more optimal when directed at professionals, such as doctors, who might appreciate it more than I ever could (optional: from a curiousity perspective)'
+          - 'i dont hate your dick pics (introduces the problem, 'uh oh does she hate my dick pics'), I just think theyre (foreshadowing something that seems like a difference but is actually similar) more optimal when directed at enthusiasts (or professionals), such as doctors/researchers, who might appreciate it more than I ever could (optional: from a curiousity perspective)'
         - mixed contexts/styles
           - talking about an unimportant matter in the same terms used for important matters
             - 'his parents couldnt deal with the idea of confrontation so they gently let him lose touch rather than disowning him outright' 
@@ -97,7 +97,7 @@
         - injecting stupidity/extremes
           - he thought it would act like a talisman to protect him from rape or unwanted pregnancy
           - he was told by a foreign holy man (has association with 'wise foreigner' stereotype) that it would protect him from fertility like a 'cosmic condom' (repetition, catchy) 
-        - removing a point/agency (had the clingiest underwear/reproductive organs known to mankind)
+        - removing a point/agency (its not an intent, he just had the clingiest underwear/reproductive organs known to mankind)
         - fitting with existing systems without obvious contradictions
           - 'using existing phrases in a new way with minimal distortions' is surprising bc its unlikely to find a new distortion of an existing component that someone hasnt tried, so the simpler the better for this type
 
@@ -186,6 +186,16 @@
                 - example: 'find a function' problem can interact with a network of problems, like the 'prevent logic injection' problem, 'prevent execution interruption' problem, etc, so it becomes a problem structure that is not simply finding a connecting path between inputs/outputs but a layered network structure of 'finding the connecting structures, while preventing interfering interactions from this problem network'
 
     - add to nn
+
+      - youre always using multiple formats in a graph, even when trying to depict one format (a variable network always has core structures & conceptual structures even when it's intent is to depict variable interactions)
+        - even a conceptual network has conceptual (and other interface) structures depicted on it that overlap with other structures (like concept nodes & interaction functions)
+        - the formats used can be side effects of the primary format
+        - the reason theyre included by default is bc interfaces are fundamental
+
+      - why cant you just apply an algorithm to data, once data is standardized to an interface format?
+        - I suggested doing so in my patent, but only as a short-term sub-optimal solution to connect input/output while the interface logic was being built
+        - interfaces have logic specific to them that may be more useful/efficient than an ai algorithm
+          - formats have interaction logic specific to them that may not fit with the input/output relationships of a particular algorithm
 
       - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
         - which functions/components need to be added for which tasks is still not a solved problem in the ai space, whereas my system does solve that
