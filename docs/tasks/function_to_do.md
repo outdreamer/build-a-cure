@@ -252,11 +252,12 @@
                 - route data to other network structures when its determined by a routing network structure that other structures cant use it (like routing info to another interaction layer, if its a network of interaction layers)
               - network of mixes of structures
                 - network of mixes (highly variable combinations) of structures, like a network of cross-interface structures
-            - adjacent/proxy network
+            - similarity (adjacent/proxy) network
               - replace components with adjacent components for intents like 'find alternatives'
             - difference network
               - a network of difference structures (like extreme, opposite, specific, value, structure, & pattern differences) for intents like 'find alternatives' or 'find interactions between a specific difference set'
-          
+            - relevance/irrelevance network (for what contexts & problems would info be useful/useless)
+
         - structures identified by interface analysis
           
           - learning structures (including by definition variables, types & differences)
