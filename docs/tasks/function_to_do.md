@@ -189,19 +189,25 @@
 
       - youre always using multiple formats in a graph, even when trying to depict one format (a variable network always has core structures & conceptual structures even when it's intent is to depict variable interactions)
         - even a conceptual network has conceptual (and other interface) structures depicted on it that overlap with other structures (like concept nodes & interaction functions)
-        - the formats used can be side effects of the primary format
+        - the formats used can be side effects of the primary format, indicating adjacence
         - the reason theyre included by default is bc interfaces are fundamental
 
-      - why cant you just apply an algorithm to data, once data is standardized to an interface format?
+      - why cant you just apply a good ai algorithm with probable predictive value to data, once data is standardized to an interface format?
         - example: format data as concepts, and apply an ai algorithm to predict concepts in a data set
-        - I suggested doing so in my patent for coverage, as it's the obvious existing solution, but only as a short-term sub-optimal solution to connect input/output while the interface logic was being built
+        - you certainly can, I suggested doing so in my patent for coverage, as it's the obvious existing solution, but only as a short-term sub-optimal solution to connect input/output while the interface logic was being built
         - interfaces have logic specific to them that may be more useful/efficient than an ai algorithm
           - formats have interaction logic specific to them that may not fit with the input/output relationships of a particular algorithm
           - examples:
             - functions/intent/cause/pattern/logic/change have inherent sequential structures that other interfaces dont
               - this is bc they are objects that map inputs/outputs
-            - concepts have an inherent tree & net (capturing extensions of definitions) structure that other interfaces dont (concepts capture openings, overlaps, evolutions of definitions before theyre fully structured)
+            - concepts have an inherent tree & net (capturing evolutions of definitions before fully structured) structure that other interfaces dont (concepts capture openings, overlaps, definition evolutions)
               - this is bc the interface object ('concept') is by definition a definition structure (a structure that describes definition structures, like definition routes)
+        - ai automates learning, like identifying important variables, why cant you use it for everything
+          - some learning algorithms are sub-optimal (as in slow) or cant derive the required info (as in limited in possible accuracy achievable)
+          - interface analysis can automate identifying important variables by applying the interface:
+            - to apply interface component definitions
+              - like identifying variable structures, such as vertex variables
+            - to convert to a format where the data is framed in terms of these structures & has the interaction logic rules applied (like rules governing interactions between variable types, like how a vertex variable is often an input to other variables bc its causative)
 
       - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
         - which functions/components need to be added for which tasks is still not a solved problem in the ai space, whereas my system does solve that
