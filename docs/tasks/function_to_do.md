@@ -216,18 +216,24 @@
         
         - learning method
           - ai applies updates to learning parameters to adjust a function until its a good predictor
-          - interface analysis can apply other methods of learning
+          - interface analysis can apply other methods of learning, like applying:
             - error structures to derive a function from opposite structures to those error structures
           
         - structures identified by interface analysis
+          
           - learning structures (including by definition variables, types & differences)
             - error structures
             - guess-answer interaction structures (structures of difference/similarity between very wrong or almost correct guess & actual answer)
             - prediction-answer interaction structures (structures of interaction between informed prediction, uninformed prediction, pattern-informed prediction, etc)
             - question-answer interaction structures (structures of interaction between question, info retrieved by question, difference between info retrieved so far & answer, and the answer)
+
+          - adjacent learning structures
+            - change structures are adjacent to learning structures bc learning involves change types (like between initial/interim/final states, inputs/outputs)
+          
           - interface structures (intents, concepts, patterns)
             - system structures like incentives, ambiguities, & efficiencies
             - meaning structures (reasons why something worked, how an insight fits in a system, how components can be organized in a useful way, how a structure is relevant for an intent)
+          
           - useful interface interaction structures 
             - function sequences with alignment in inputs/outputs
             - core functions as a component for 'build' intents
@@ -244,8 +250,10 @@
 
         - questions unanswered by ai
           - does the definition of difference make sense for this problem/solution components (algorithm, data, intent)
-          - can this algorithm fulfill the intent of connecting the input/output differences in the data
-            - is it capable of mapping the inputs/outputs, given the difference structures in the data (difference types, lack of sufficient differentiation, etc)
+          - what are the intents (structure intents like direct uses & conceptual intents like priorities) supported by the algorithm/parameters
+            - can this algorithm fulfill the intent of connecting the input/output differences in the data
+              - is it capable of mapping the inputs/outputs, given the difference structures in the data (difference types, lack of sufficient differentiation, etc)
+            - what other intents (like adjacent/contradictory intents to the primary intent) are supported
 
       - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
         - which functions/components need to be added for which tasks is still not a solved problem in the ai space, whereas my system does solve that
