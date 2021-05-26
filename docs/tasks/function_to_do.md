@@ -197,6 +197,7 @@
         - you certainly can, I suggested doing so in my patent for coverage, as it's the obvious existing solution, but only as a short-term sub-optimal solution to connect input/output while the interface logic was being built
         - its also manually applying interface analysi instead of incorporating it into an algorithm
           - by manually applying the definition of a 'concept' to fulfill 'data processing' intents like 'standardization', you are manually applying interface analysis, which is still my invention even if you do it manually
+        
         - interfaces have logic specific to them that may be more useful/efficient than an ai algorithm
           - formats have interaction logic specific to them that may not fit with the input/output relationships of a particular algorithm
           - examples:
@@ -205,19 +206,31 @@
             - concepts have an inherent tree & net (capturing evolutions of definitions before fully structured) structure that other interfaces dont (concepts capture openings, overlaps, definition evolutions)
               - this is bc the interface object ('concept') is by definition a definition structure (a structure that describes definition structures, like definition routes)
           - an algorithm that applies the more powerful interface interactions & structures inherent to interfaces to quickly identify important variables, group membership, & other important structures would be a better goal than trying to pretend you didnt steal my work
+        
         - ai automates learning, like identifying structures such as important variables, why cant you use it for everything
           - some learning algorithms are sub-optimal (as in slow, or missing important info) or cant derive the required info (as in limited in possible accuracy achievable) so theyre not fitting for everything & cant derive the missing info
           - interface analysis can automate identifying important variables by applying an interface:
             - to apply interface component definitions
               - like identifying variable structures, such as vertex variables
             - to convert to a format where the data is framed in terms of these structures & has the interaction logic rules applied (like rules governing interactions between variable types, like how a vertex variable is often an input to other variables bc its causative)
-          - ai applies updates to learning parameters to adjust a function until its a good predictor
-          - interface analysis can apply error structures to derive a function from opposite structures to those error structures
         
+        - learning method
+          - ai applies updates to learning parameters to adjust a function until its a good predictor
+          - interface analysis can apply other methods of learning
+            - error structures to derive a function from opposite structures to those error structures
+          
         - structures identified by interface analysis
           - error structures
           - interface structures (intents, concepts, patterns)
-          - useful interface interaction structures (function sequences with alignment in inputs/outputs)
+          - useful interface interaction structures 
+            - function sequences with alignment in inputs/outputs
+            - core functions
+            - efficiencies
+            - interaction layers (coordinating, competing, contradicting, coexisting & other interaction structures)
+            - definition structures
+            - change potential
+            - conversion adjacence
+            - structures of interface interactions (intent-function maps, logic/cause/state networks)
         
         - structures identified by ai
           - group membership
