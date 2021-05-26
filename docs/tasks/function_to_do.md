@@ -228,6 +228,7 @@
             - 'create an accurate prediction function' (apply function, base, component, subset, filter & limit structures)
             - 'avoid errors' (apply error structures)
             - 'identify important variables' (apply vertex structures)
+
           - however the methods for one intent can act as proxies for another related intent
           - how to identify related intents
             - 'avoiding errors' is an intent that coordinate with intents like 'find a connecting function' (like 'find a prediction function')
@@ -257,6 +258,11 @@
             - difference network
               - a network of difference structures (like extreme, opposite, specific, value, structure, & pattern differences) for intents like 'find alternatives' or 'find interactions between a specific difference set'
             - relevance/irrelevance network (for what contexts & problems would info be useful/useless)
+              - system context network
+                - systems where info would fit into the system or be useful
+                - related contexts & their interactions
+                - spaces where info is structural (graphable) or has an attribute like difference structure (difference type/degree)
+            - point sets (like threshold values/centers/origins to use as references)
 
         - structures identified by interface analysis
           
