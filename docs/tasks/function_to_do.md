@@ -222,14 +222,14 @@
         - structures identified by interface analysis
           
           - learning structures (including by definition variables, types & differences)
-            - error structures
+            - error/solution structures
+              - adjacent (sub-problem, related problem, available/known/possible) error/solution structures
             - guess-answer interaction structures (structures of difference/similarity between very wrong or almost correct guess & actual answer)
-            - prediction-answer interaction structures (structures of interaction between informed prediction, uninformed prediction, pattern-informed prediction, etc)
+              - prediction-answer interaction structures (structures of interaction between informed prediction, uninformed prediction, pattern-informed prediction, etc)
             - question-answer interaction structures (structures of interaction between question, info retrieved by question, difference between info retrieved so far & answer, and the answer)
-
-          - adjacent learning structures
-            - change structures are adjacent to learning structures bc learning involves change types (like between initial/interim/final states, inputs/outputs)
-          
+            - adjacent learning structures
+              - change structures are adjacent to learning structures bc learning involves change types (like between initial/interim/final states, inputs/outputs)
+            
           - interface structures (intents, concepts, patterns)
             - system structures like incentives, ambiguities, & efficiencies
             - meaning structures (reasons why something worked, how an insight fits in a system, how components can be organized in a useful way, how a structure is relevant for an intent)
