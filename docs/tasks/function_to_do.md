@@ -239,16 +239,23 @@
               - structure & functionality
                 - the inputs/outputs of 'avoid errors of this type (inaccurate prediction types, as inaccuracy/difference types)' and 'find a connecting prediction function' are similar
 
-          - alternative structures to function network (other than variable/object/state network)
+          - alternative structures to filter function network (other than variable/object/state network)
             - limit network
               - format data in a way that it can be input into a limit network and the limits will perform intents supported by limits:
                 - identify it or what it is not
                 - find its optimal position
             - combination network
-              - network of subsets/combinations of components
+              - network of subsets/combinations of components (like variable subsets/combinations)
+                - applying functions to nodes in this network can identify optimal combinations quickly, if functions applied align with outputs (applying the functions produces useful info to determine functionality)
             - mixed network
               - combination of network structures
+                - route data to other network structures when its determined by a routing network structure that other structures cant use it (like routing info to another interaction layer, if its a network of interaction layers)
               - network of mixes of structures
+                - network of mixes (highly variable combinations) of structures, like a network of cross-interface structures
+            - adjacent/proxy network
+              - replace components with adjacent components for intents like 'find alternatives'
+            - difference network
+              - a network of difference structures (like extreme, opposite, specific, value, structure, & pattern differences) for intents like 'find alternatives' or 'find interactions between a specific difference set'
           
         - structures identified by interface analysis
           
