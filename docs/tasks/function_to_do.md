@@ -242,6 +242,11 @@
             - change potential
             - conversion adjacence
             - structures of interface interactions (intent-function maps, logic/cause/state networks)
+
+          - core interface interaction structures (apply interface structures to interface structures)
+            - to generate core intent structures:
+              - apply structure interface: structure intents like direct uses
+              - apply concept interface: conceptual intents like priorities
         
         - structures identified by ai
           - group membership
