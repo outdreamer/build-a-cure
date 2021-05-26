@@ -220,9 +220,10 @@
             - error structures to derive a function from opposite structures to those error structures
           
         - structures identified by interface analysis
-          - learning structures 
+          - learning structures (including by definition variables, types & differences)
             - error structures
             - guess-answer interaction structures (structures of difference/similarity between very wrong or almost correct guess & actual answer)
+            - prediction-answer interaction structures (structures of interaction between informed prediction, uninformed prediction, pattern-informed prediction, etc)
             - question-answer interaction structures (structures of interaction between question, info retrieved by question, difference between info retrieved so far & answer, and the answer)
           - interface structures (intents, concepts, patterns)
             - system structures like incentives, ambiguities, & efficiencies
