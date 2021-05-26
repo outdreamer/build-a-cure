@@ -193,9 +193,15 @@
         - the reason theyre included by default is bc interfaces are fundamental
 
       - why cant you just apply an algorithm to data, once data is standardized to an interface format?
-        - I suggested doing so in my patent, but only as a short-term sub-optimal solution to connect input/output while the interface logic was being built
+        - example: format data as concepts, and apply an ai algorithm to predict concepts in a data set
+        - I suggested doing so in my patent for coverage, as it's the obvious existing solution, but only as a short-term sub-optimal solution to connect input/output while the interface logic was being built
         - interfaces have logic specific to them that may be more useful/efficient than an ai algorithm
           - formats have interaction logic specific to them that may not fit with the input/output relationships of a particular algorithm
+          - examples:
+            - functions/intent/cause/pattern/logic/change have inherent sequential structures that other interfaces dont
+              - this is bc they are objects that map inputs/outputs
+            - concepts have an inherent tree & net (capturing extensions of definitions) structure that other interfaces dont (concepts capture openings, overlaps, evolutions of definitions before theyre fully structured)
+              - this is bc the interface object ('concept') is by definition a definition structure (a structure that describes definition structures, like definition routes)
 
       - ai has added concepts since its first implementation bc the first implementation (multi-layer perceptron) was not enough & other functions needed to be embedded to optimize for certain tasks
         - which functions/components need to be added for which tasks is still not a solved problem in the ai space, whereas my system does solve that
