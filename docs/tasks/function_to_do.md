@@ -1,23 +1,47 @@
 # to do
 
+    - add to structure finding/selecting rules
+      - select a structure that:
+        - preserves relevant info
+          - input/output variables should have their position preserved bc there are few cases where input/output flag is not relevant
+        - isolates differences & combines similarities as needed
+          - variable groups should be differentiated from individual variables bc variable groups are on a different interaction level
+          - input/output variables should be connected in some way (like constant position or adjacence or connecting path) but should also be clearly isolated, unless interchangeable
+        - choose a base that fits & is relevant to data meaning
+          - connecting variables based on original position adjacence
+          - connecting states in original sequence based on time
+        - avoids assigning arbitrary structure
+          - distance/position that doesnt indicate info about a function, attribute, or identity  
+
+    - database polling/prompting user for update & predicting updates or searching for & receiving user-approved updates from other services, rather than being a passive receiver of input from user
+      - based on local usage/change patterns or integrated usage patterns to identify expected transactions with other services
+        - once a credit card is marked as lost in a banking service, a change of credit card numbers is expected by other services which can poll for updates to this flag
+        - once a renters insurance policy is changed in an insurance service, a change of address might be expected by other services
+
     - other structures to use as problem/solution structures
+
       - these are highly relevant/useful cross-interface structures
+        
         - sufficient/threshold or partial/subset structures (vs. completely aligning structures)
           - similarity/approximation/alternative structures
             - as not all inaccuracies are errors & some level of error can be acceptable in some cases, structures like similarities, proxies, approximations & aligning/adjacent alternatives can take the place of the original problem/solution structures
             - error types that can be useful for more optimal solutions for a metric
               - false similarity
                 - where a sub-optimal method has false similarities with an optimal method (like similarities inputs/outputs of another solution, even though its logic differs and other metadata like the reason why it works differs), but the false similarities are all that matters for a particular metric (like having resources to use the sub-optimal method) and it doesnt create side effects that contradict other methods, it can be a temporary/contextually optimal method
+        
         - change/learning inputs
           - cost structures
             - the patterns of costs/benefits as a way to determine investment structures (what alternatives to invest in, for what cause/reason/intent, to what degree, etc) as a way of determining uncertainty resolution
               - investments (exploring a possibility) are a structure of resolving uncertainty problems, like 'exploring very different strategies until one pays off' as a way to find good solutions when selecting between solutions is ambiguous or other structures of uncertainty like lacking in info
+              - when an object 'earns' their resources (does the work necessary to acquire them), theyre likelier to be able to maintain those resources & acquire/generate new ones, so theyre likelier to have those resources, as opposed to random distribution of resources
+                - if it's earned it's likelier to be a stable structure (a component of truth) bc everything has a benefit/cost (so when the right investment matches the right costs, its likelier to achieve the goal)
+        
         - determining/relevance/causation structures
           - power structures
             - the location & interaction of sources of power (like importance, usefulness, interactivity)
 
-    - apply structures from relevant system (like comedy) to a problem space
-      - if its a joke that means its probably not a structure of truth, just like how if it's justified/earned it's likelier to be a stable structure (a component of truth) bc everything has a benefit/cost (so when the right investment matches the right costs, its likelier to achieve the goal)
+    - apply structures from relevant system (like comedy) to a problem space (like 'correcting behavior' or 'fixing social norm violation')
+      - if its a joke that means its by definitio at least partly untrue so is less likely to be a structure of truth & more likely to a structure of a combination of truth/falsehoods
       - surprising
         - different
         - opposite
