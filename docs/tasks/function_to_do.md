@@ -11,7 +11,18 @@
           - connecting variables based on original position adjacence
           - connecting states in original sequence based on time
         - avoids assigning arbitrary structure
-          - distance/position that doesnt indicate info about a function, attribute, or identity  
+          - distance/position that doesnt indicate info about a function, attribute, or identity
+
+    - add to question-predicting rules
+      - required questions format:
+        - structure like a network/sequence/combination of sub-problems, or missing connections between existing/known problem space network nodes, preventing movement from origin to destination on info network
+        - movement requires knowing connections, bc the connections allow navigation/planning of movement on the network oriented toward a goal like the destination info state
+      - question structures
+        - finding correct position of a component
+          - 'x is an input to y'
+        - deriving missing connections between relevant components
+          - 'to get output variable z info, you need filter variable x info'
+      - highest ambiguity density, filtered by relevant intents to primary intent
 
     - database polling/prompting user for update & predicting updates or searching for & receiving user-approved updates from other services, rather than being a passive receiver of input from user
       - based on local usage/change patterns or integrated usage patterns to identify expected transactions with other services
