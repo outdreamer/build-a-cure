@@ -13,16 +13,30 @@
         - avoids assigning arbitrary structure
           - distance/position that doesnt indicate info about a function, attribute, or identity
 
-    - add to question-predicting rules
-      - required questions format:
+    - question structures (missing info error type)
+
+      - question-predicting rules
+        - filter by relevant intents to primary intent to identify probable questions
+          - proxies for determining where info is unlikely to be distributed as needed
+            - high ambiguity/complexity/specificity/variation or inaccuracy rate
+            - info distribution gaps (where info is not distributed due to distribution barriers, lack of intent, or alternative distribution paths)
+
+      - required questions to info state format:
         - structure like a network/sequence/combination of sub-problems, or missing connections between existing/known problem space network nodes, preventing movement from origin to destination on info network
-        - movement requires knowing connections, bc the connections allow navigation/planning of movement on the network oriented toward a goal like the destination info state
+          - movement for an intent requires knowing connections, bc the connections allow navigation/planning of movement on the network oriented toward a goal like the destination info state
+      
       - question structures
-        - finding correct position of a component
-          - 'x is an input to y'
-        - deriving missing connections between relevant components
-          - 'to get output variable z info, you need filter variable x info'
-      - highest ambiguity density, filtered by relevant intents to primary intent
+
+        - deriving missing connections between relevant components ('how does x relate to y')
+          - 'to get output variable y info, you need filter variable x info & variable z info'
+          - finding correct position of a component in a structure ('where does x fit in y')
+            - 'x is an input to y'
+          - deriving usefulness of structures for intents ('is x interactive with y as a possible input')
+            - 'x can be an input to y with changes 1-3'
+          - deriving reason for a functionn/change ('why does x change y')
+            - 'x changes y bc the structure of y is not stable when x is an input'
+          - filtering structures for an intent ('what is the best path from x to y for an intent z')
+            - 'x as an input to function 1 is the best path to y for intent z'
 
     - database polling/prompting user for update & predicting updates or searching for & receiving user-approved updates from other services, rather than being a passive receiver of input from user
       - based on local usage/change patterns or integrated usage patterns to identify expected transactions with other services
