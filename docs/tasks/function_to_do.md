@@ -3,8 +3,14 @@
     - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
 
     - apply an interface as different formats for different intents, like:
-      - a filter for cross-interface intents like mapping inputs/outputs
-      - a function network for converting/standardizing objects
+      - a filter for cross-interface intents that fit with a filter structure, like mapping inputs/outputs
+      - a function network for performing interface operations, like converting/standardizing objects
+      - a composition of other interfaces when those interfaces are more adjacent to inputs
+      - a convolution when deriving what intents are supported by the interface
+      - a subset of paths on a language map when handling agent-formatted queries
+      - a map when used as a connecting interface to other interfaces
+      - a variable network when describing the interface
+      - a query on other interfaces when solving a problem in another interface
 
     - add to structure finding/selecting rules
       - select a structure that:
