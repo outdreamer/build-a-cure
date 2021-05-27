@@ -1,5 +1,11 @@
 # to do
 
+    - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
+
+    - apply an interface as different formats for different intents, like:
+      - a filter for cross-interface intents like mapping inputs/outputs
+      - a function network for converting/standardizing objects
+
     - add to structure finding/selecting rules
       - select a structure that:
         - preserves relevant info
@@ -8,7 +14,7 @@
           - variable groups should be differentiated from individual variables bc variable groups are on a different interaction level
           - input/output variables should be connected in some way (like constant position or adjacence or connecting path) but should also be clearly isolated, unless interchangeable
         - choose a base that fits & is relevant to data meaning
-          - connecting variables based on original position adjacence
+          - connecting variables based on original position adjacence if no position changes are necessary
           - connecting states in original sequence based on time
         - avoids assigning arbitrary structure
           - distance/position that doesnt indicate info about a function, attribute, or identity
@@ -21,7 +27,7 @@
             - high ambiguity/complexity/specificity/variation or inaccuracy rate
             - info distribution gaps (where info is not distributed due to distribution barriers, lack of intent, or alternative distribution paths)
 
-      - required questions to info state format:
+      - format for 'required questions to info state':
         - structure like a network/sequence/combination of sub-problems, or missing connections between existing/known problem space network nodes, preventing movement from origin to destination on info network
           - movement for an intent requires knowing connections, bc the connections allow navigation/planning of movement on the network oriented toward a goal like the destination info state
       
