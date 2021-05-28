@@ -1,7 +1,15 @@
 # to do
 
-    - solutions with associated error types
-      - a solution that only spots patterns can be fooled by false similarities with similarities stored in the pattern but not the structures of the pattern implementation
+    - causative error types of sub-optimal solutions
+      
+      - one interface-based solution, when multiple are optimal, given the structures (false similarities on that interface) and attributes (complexity) & other components involved
+        
+        - example: applying the simple version of the pattern interface in isolation, in a complex system that has false similarities on the pattern interface
+          - a solution that only identifies patterns (& not other relevant interface components, like errors in pattern-structure mapping) will not identify false similarities where the position of similarities is in the pattern, but not the structures of the pattern implementation, where they should be in order for the pattern to be applied
+
+          - solution to this error:
+            - you can still apply the pattern interface in isolation, if you map other interface components to the pattern interface
+            - example: map structural, conceptual & system components to the pattern interface, such as 'false similarities', so that conversion to the pattern interface includes identifying 'patterns of false similarities', which would prevent this error type
 
     - value isnt created/lost by companies in the timespan of hype cycles
 
