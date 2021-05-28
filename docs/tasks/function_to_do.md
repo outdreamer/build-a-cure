@@ -3,7 +3,8 @@
     - this isnt a war against China, or incels, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
 
     - indexing solutions by the 'reason why it worked' is a quicker way to select/filter solutions in some cases
-      - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods
+      - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
+        - 'try existing solutions', 'try adjacent modifications to existing solutions', 'derive solution requirements from problem statement & filter solutions', etc
       - example:
         - structural reasons why a solution worked
           - info reason
@@ -12,6 +13,10 @@
             - bc structural similarities are a useful structure for solving 'fitting' interaction problems
           - direct reason
             - bc the inputs to the solution already existed in the system
+          - cause reason
+            - bc the solution addressed a root cause of the problem
+          - abstract reason
+            - bc the solution solves the problem type of the problem
 
     - application variables of an interface
       - different versions of an interface can be used in place of the entire interface, just like different formats of an interface can be applied instead of the whole interface
