@@ -10,6 +10,14 @@
           - solution to this error:
             - you can still apply the pattern interface in isolation, if you map other interface components to the pattern interface
             - example: map structural, conceptual & system components to the pattern interface, such as 'false similarities', so that conversion to the pattern interface includes identifying 'patterns of false similarities', which would prevent this error type
+            - a 'simple' or 'quick' application of the pattern interface would apply an AI algorithm to the problem & consider it solved
+            - reason this would be identified as an acceptable solution is bc 'there are patterns in the data'
+            - reason its not an acceptable solution: 'there are other relevant structures in the system than just patterns between input/output from the data set'
+              - other relevant structures include:
+                - false similarities, complexity, structures associated with the pattern implementation
+                - other variables not in the data set
+                - alternate causes of the data set variables
+                - contradictory emerging or conditional functions that will soon interfere with the data set interactions
 
     - value isnt created/lost by companies in the timespan of hype cycles
 
