@@ -4,22 +4,35 @@
       
       - one interface-based solution, when multiple are optimal, given the structures (false similarities on that interface) and attributes (complexity) & other components involved
         
-        - example: applying the simple version of the pattern interface in isolation, in a complex system that has false similarities on the pattern interface
+        - example of this error type:
+          - applying the simple version of the pattern interface in isolation, in a complex system that has false similarities on the pattern interface
           - a solution that only identifies patterns (& not other relevant interface components, like errors in pattern-structure mapping) will not identify false similarities where the position of similarities is in the pattern, but not the structures of the pattern implementation, where they should be in order for the pattern to be applied
 
           - solution to this error:
             - you can still apply the pattern interface in isolation, if you map other interface components to the pattern interface
             - example: map structural, conceptual & system components to the pattern interface, such as 'false similarities', so that conversion to the pattern interface includes identifying 'patterns of false similarities', which would prevent this error type
             - a 'simple' or 'quick' application of the pattern interface would apply an AI algorithm to the problem & consider it solved
-            - reason this would be identified as an acceptable solution is bc 'there are patterns in the data'
-            - reason its not an acceptable solution: 'there are other relevant structures in the system than just patterns between input/output from the data set'
+            - reason this would be identified as an acceptable solution:
+              - reason: 'there are patterns in the data between input/output, so a solution that identifies patterns & converts them into an efficient function is acceptable'
+            - reason its not an acceptable solution: 
+              - reason: 'there are other relevant structures in the system than just patterns between input/output from the data set'
               - other relevant structures include:
-                - false similarities, complexity, structures associated with the pattern implementation
-                - other variables not in the data set
-                - alternate causes of the data set variables
-                - contradictory emerging or conditional functions that will soon interfere with the data set interactions
+                - the above error-related components: 
+                  - false similarities, complexity, structures associated with the pattern implementation
+                - other causative or interfering variables not in the data set
+                  - alternate causes of the data set variables
+                  - contradictory emerging or conditional functions that will soon interfere with the data set interactions
 
-    - value isnt created/lost by companies in the timespan of hype cycles
+    - value isnt created/lost by companies in the timespan of hype/short cycles, so stock market price swings aren't reflective of reality from a macro perspective
+      - it takes years to build value, it doesn't happen overnight, excluding almost magical insights that create cascading efficiencies like my system
+      - losing value also happens slowly, excluding extreme natural disasters, like the value of a community still being relatively high despite shared losses, bc of social network effects & organization/coordination effects
+      - value can be calculated differently, using metadata like the lifetime & total possible value of a product
+        - what is the total supply of the product inputs (fossil fuels)
+        - what is the usability lifetime
+        - what are the costs
+        - what are the product intent alternatives (can intents fulfilled by the product be fulfilled by other products)
+        - what is purchased with revenue from a product (research, insights, other more valuable resellable products, etc)
+        - if this pricing method is applied to fossil fuels, oil companies would be paying people to use them
 
     - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
 
