@@ -3,28 +3,41 @@
     - this isnt a war against China, or incels, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
 
     - application variables of an interface
+      - different versions of an interface can be used in place of the entire interface, just like different formats of an interface can be applied instead of the whole interface
       - interface components can be used to generate different applications of an interface
-        - speed-optimizing interface applications:
-          - core interface application:
-            - include core components that can be used to construct other components on the interface
-            - also optimizes for 'build' and 'change' intents
-          - basic interface application:
-            - include standard components of the interface (common components, components on the most-used interaction layer, etc)
-        
+      - speed-optimizing interface applications:
+        - core interface application:
+          - include core components that can be used to construct other components on the interface
+          - also optimizes for 'build' and 'change' intents
+        - basic interface application:
+          - include standard components of the interface (common components, components on the most-used interaction layer, etc)
+
     - causative error types of sub-optimal solutions
-      
-      - one/basic/quick interface-based solution, when multiple are optimal, given the structures (false similarities on that interface) and attributes (complexity) & other components involved
+
+      - over-simplification error sub-type, relating to interface components/queries
+
+        - one/basic/quick interface-based solution, when multiple are optimal, given the structures (false similarities on that interface) and attributes (complexity) & other components involved
         
         - example of this error type:
+          
           - applying the simple version of the pattern interface in isolation, in a complex system that has false similarities on the pattern interface
           - a solution that only identifies patterns (& not other relevant interface components, like errors in pattern-structure mapping) will not identify false similarities where the position of similarities is in the pattern, but not the structures of the pattern implementation, where they should be in order for the pattern to be applied
 
-          - solution to this error:
+          - solutions to this error:
             - you can still apply the pattern interface in isolation, if you map other interface components to the pattern interface
-            - example: map structural, conceptual & system components to the pattern interface, such as 'false similarities', so that conversion to the pattern interface includes identifying 'patterns of false similarities', which would prevent this error type
+            - examples of solutions:
+              - map structural, conceptual & system components to the pattern interface, such as 'false similarities', so that conversion to the pattern interface includes identifying 'patterns of false similarities', which would prevent this error type
+              - map intent to the problem system before applying the pattern interface
+                - query for patterns with associated valid/invalid intents, connecting the inputs/outputs by intent as well as patterns, to determine how different the intents are that a pattern can be associated with
+              - query for patterns in errors applying pattern interface components
+
             - a 'simple' or 'quick' application of the pattern interface would apply an AI algorithm to the problem & consider it solved
+
+          - causal paths/source nodes of this error:
+            
             - reason this would be identified as an acceptable solution:
               - reason: 'there are patterns in the data between input/output, so a solution that identifies patterns & converts them into an efficient function is acceptable'
+            
             - reason its not an acceptable solution: 
               - reason: 'there are other relevant structures in the system than just patterns between input/output from the data set'
               - other relevant structures include:
