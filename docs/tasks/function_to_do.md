@@ -4,6 +4,14 @@
 
     - indexing solutions by the 'reason why it worked' is a quicker way to select/filter solutions in some cases
       - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods
+      - example:
+        - structural reasons why a solution worked
+          - info reason
+            - bc the solution was the fitting structure to the problem structure
+          - system reason
+            - bc structural similarities are a useful structure for solving 'fitting' interaction problems
+          - direct reason
+            - bc the inputs to the solution already existed in the system
 
     - application variables of an interface
       - different versions of an interface can be used in place of the entire interface, just like different formats of an interface can be applied instead of the whole interface
