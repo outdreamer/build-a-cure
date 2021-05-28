@@ -1,5 +1,10 @@
 # to do
 
+    - solutions with associated error types
+      - a solution that only spots patterns can be fooled by false similarities with similarities stored in the pattern but not the structures of the pattern implementation
+
+    - value isnt created/lost by companies in the timespan of hype cycles
+
     - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
 
     - apply an interface as different formats for different intents, like:
