@@ -1,5 +1,7 @@
 # to do
 
+    - this isnt a war against China, or incels, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
+
     - causative error types of sub-optimal solutions
       
       - one interface-based solution, when multiple are optimal, given the structures (false similarities on that interface) and attributes (complexity) & other components involved
