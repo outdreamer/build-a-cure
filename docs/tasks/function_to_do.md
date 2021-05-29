@@ -27,6 +27,10 @@
           - this can be an error type in some cases
         - definition:
           - switching definitions of error/solution can identify possible error types of other systems that wouldnt define another system's survival as 'success', where their error would be 'failing to destroy another system'
+      - identifying error types is important for other functions like:
+        - 'find solutions by avoiding known error types'
+        - 'prevent errors'
+        - 'identify error interactions, so the interaction of changes to one error & changes in related errors can be predicted'
 
     - indexing solutions by the 'reason why it worked or didnt work' (solution success/error cause) is a quicker way to select/filter solutions in some cases
       - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
