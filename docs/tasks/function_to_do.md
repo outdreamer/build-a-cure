@@ -29,6 +29,10 @@
           - switching definitions of error/solution can identify possible error types of other systems that wouldnt define another system's survival as 'success', where their error would be 'failing to destroy another system'
       - this works bc some solutions can be used to solve similar problems, so solving for a similar problem instead can be more efficient & find a solution to the original problem
         - applying solution insights like 'solutions may solve similar problems as the origin problem' can find new solution automation workflows
+      - applying other core functions than 'change' can also identify error types quickly
+        - build: the task of building an error-free system (like a sub-system of the origin system) can identify new error types
+        - derive: deriving error types from problem spaces or problematic systems (rather than deriving from core system components or from core error components) can identify error types of a system
+        - find: finding difference structures with intents that contradict approved intents can identify error types quickly
       - identifying error types is important for other functions like:
         - 'find solutions by avoiding known error types'
         - 'prevent errors'
