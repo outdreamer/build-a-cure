@@ -31,6 +31,7 @@
                 - construct a perspective that has one of the above attributes/functions as a solution structure, and find existing perspectives that match that perspective
             - intent: 
               - switching intent can find intents that are possible error type causes, for the original component, other components, or the system enabling them to exist
+              - example: 'cause error' intent rather than 'solve problem' intent can solve the problem quicker in some cases 
             - cause:
               - switching causes can make a component more robust
               - finding a way to build/execute a function given alternate causes can make the function more robust to changing inputs
