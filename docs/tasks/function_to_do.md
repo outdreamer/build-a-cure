@@ -27,6 +27,8 @@
           - this can be an error type in some cases
         - definition:
           - switching definitions of error/solution can identify possible error types of other systems that wouldnt define another system's survival as 'success', where their error would be 'failing to destroy another system'
+      - this works bc some solutions can be used to solve similar problems, so solving for a similar problem instead can be more efficient & find a solution to the original problem
+        - applying solution insights like 'solutions may solve similar problems as the origin problem' can find new solution automation workflows
       - identifying error types is important for other functions like:
         - 'find solutions by avoiding known error types'
         - 'prevent errors'
