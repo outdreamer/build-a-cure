@@ -15,6 +15,7 @@
         - find: 
           - finding difference structures with intents that contradict approved intents can identify error types quickly
         - change:
+          - apply interface components to origin system & apply core functions to those components (perspective mapped to a driving problem system is a position)
           - changing interface component variables of the problem system can identify error types quickly
             - perspectives:
               - switching perspectives can identify problematic differences between solution metrics & actual values bc of the info obvious or focused on by another component
