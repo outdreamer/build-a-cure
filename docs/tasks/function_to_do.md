@@ -8,6 +8,15 @@
       - switching perspectives can identify problematic differences between solution metrics & actual values bc of the info obvious or focused on by another component
         - just like another car may be able to see if a car has a flat tire before the user driving from a perspective of the car with the problem
       - switching perspectives is a way to find error types faster, if the error is adjacent to or equals info that is focused on or obvious to another perspective
+      - switching interfaces is one way of switching perspectives, but you can also switch variables in the origin system:
+        - switch positions of agents or components with info-gathering functions (sensory functions) with a particular focus on info that may be in error
+      - calculating the possible errors (like by determining variables that are difficult for the origin component to check, so errors can involve structures of those variables) is a useful process to run before identifying a perspective that can see errors in that set of possible errors
+      - how to calculate a perspective that can see a possible error, once a possible error structure is identified
+        - find a perspective that interacts with info related to the variables/structures/components of the possible error, by:
+          - intent perspective: focusing on or prioritizing the info
+          - input/specific perspective: using/implementing the info
+          - causal perspective: generating the info
+        - construct a perspective that has one of the above attributes/functions as a solution structure, and find existing perspectives that match that perspective
 
     - indexing solutions by the 'reason why it worked or didnt work' (solution success/error cause) is a quicker way to select/filter solutions in some cases
       - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
