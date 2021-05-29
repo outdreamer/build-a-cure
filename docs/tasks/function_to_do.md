@@ -2,20 +2,36 @@
 
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
 
-    - some error types are caused by errors in other components
-      
-      - if a dependency has a vulnerability, all its dependent components might inherit it through usage or inclusion
-      - solutions from other components can prevent error types bc different perspectives of other components can spot errors before the origin component
-      
-      - applying core functions can identify error types quickly
+    - identify error types quickly
+
+      - apply insight 'related components of a component can cause changes (including sub-optimal changes like errors or improving changes like solutions) in that component bc of interactivity' to problem/solution definitions
+
+        - some error types are caused by errors in other components
+
+          - example: 
+            - if a dependency has a vulnerability, all its dependent components might inherit it through usage or inclusion
+          - solution:
+            - the solution could involve fixing the other component, or communicating info to help the component fix itself
+          - relevant interface component: 
+            - perspectives
+              - in a system with optimal component communcation, solutions built/derived/found/identified by other components can prevent error types bc different perspectives of other components can identify errors before the origin component identifies its own errors (concept of 'self-awareness')
+            - function
+              - similar components may be related by position, so they might have similar functionality which can be shared to fix adjacent components
+
+      - applying core functions to interface components of the problem system (or to related components) can identify error types quickly (and associated solutions)
         - build: 
-          - the task of building an error-free system (like a sub-system of the origin system) can identify new error types
+          - the intent of 'building an error-free system' (like a sub-system of the origin system) can quickly identify new error types, if using non-standard building functions or other components
         - derive: 
           - deriving error types from problem spaces or problematic systems (rather than deriving from core system components or from core error components) can identify error types of a system
         - find: 
           - finding difference structures with intents that contradict approved intents can identify error types quickly
+          - find interface component variables of the problem system (or versions of it or its compoments produced by 'change' function or other functions, like a 'related system') to identify new error types
+            - system:
+              - find a system where it's not an error and the cause of the error to fix (or cause of other error types) in the origin system will be a structure of difference between the two systems
+                - example: 'bowing' is a social error in some systems - the difference between those systems and a system where it's not an error is a difference in the 'culture' sub-system
         - change:
-          - apply interface components to origin system & apply core functions to those components (perspective mapped to a driving problem system is a position)
+          - apply interface components to origin system & apply core functions to those components
+            - example: perspective mapped to a driving problem system is a position
           - changing interface component variables of the problem system can identify error types quickly
             - structure: 
                - changing common structures of difference between similar components like instances of a type)
@@ -37,8 +53,6 @@
               - example: 'cause error' intent rather than 'solve problem' intent can solve the problem quicker in some cases 
             - change: 
               - change change components like variable types (what's required or default for some components may be intended or optional or not possible for others)
-            - system:
-              - find a system where it's not an error and the cause of the error in the origin system will be a structure of difference between the two systems
             - cause:
               - switching causes can make a component more robust
               - finding a way to build/execute a function given alternate causes can make the function more robust to changing inputs
@@ -48,6 +62,7 @@
             - definition:
               - switching definitions of error/solution can identify possible error types of other systems that wouldnt define another system's survival as 'success', where their error would be 'failing to destroy another system'
                 - this can identify possible error types like 'attack from a system with this definition of error'
+      
       - solution success cause: 
         - this works bc some solutions can be used to solve similar problems, so solving for a similar problem instead can be more efficient & find a solution to the original problem
         - applying solution insights like 'solutions may solve similar problems as the origin problem' can find new solution automation workflows
