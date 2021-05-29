@@ -32,6 +32,8 @@
             - intent: 
               - switching intent can find intents that are possible error type causes, for the original component, other components, or the system enabling them to exist
               - example: 'cause error' intent rather than 'solve problem' intent can solve the problem quicker in some cases 
+            - system:
+              - find a system where it's not an error and the cause of the error in the origin system will be a structure of difference between the two systems
             - cause:
               - switching causes can make a component more robust
               - finding a way to build/execute a function given alternate causes can make the function more robust to changing inputs
