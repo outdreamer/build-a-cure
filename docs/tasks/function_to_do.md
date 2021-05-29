@@ -17,8 +17,16 @@
       - a reason to use a particular solution often relies on structural system components (like similarities/alignments, such as structural similarities or input/output alignments) & other important interface components
         - there is a structural similarity between the above solution & problem, indicating a reason to use it:
           - existing (non-changed) solutions fit with an existing (non-changed) problem space or problem
+          - the usage intent may be to reduce cost of solving the problem
         - the more important interface components that exist connecting a solution & problem, it may be likelier that the solution is optimal for that problem
         - a reason to use the solution indicates its optimal in some way for that problem, as in it solves the problem efficiently according to some metric
+        - examples
+          - opposite structure:
+            - an opposite structure connecting a problem & solution may indicate a reason to use a solution, if the problem-solving intent is to negate, reduce, invalidate or destroy the problem, which are structures that relate to 'opposite' structures
+              - a problematic structure can be solved with an opposite ('structure-destroy') solution function
+            - the usage intent (reason a solution is used, like a solution metric it fulfills, such as 'minimizes cost') is different from the reason why a solution worked (why it was better than other solutions for the solution metrics, such as:
+              - 'structural similarity between problem/solution where problem-solving intent was alignment'
+              - 'opposite structure between problem/solution where problem-solving intent was neutralization'
       - example:
         - structural reasons why a solution worked
           - info reason
