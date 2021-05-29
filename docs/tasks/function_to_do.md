@@ -11,7 +11,11 @@
           - example: 
             - if a dependency has a vulnerability, all its dependent components might inherit it through usage or inclusion
           - solution:
-            - the solution could involve fixing the other component, or communicating info to help the component fix itself
+            - the solution could involve:
+              - fixing the other component
+              - communicating info to help the component fix itself
+            - a general solution could involve:
+              - delegating error-type identification to components in positions that can identify error types
           - relevant interface component: 
             - perspectives
               - in a system with optimal component communcation, solutions built/derived/found/identified by other components can prevent error types bc different perspectives of other components can identify errors before the origin component identifies its own errors (concept of 'self-awareness')
@@ -31,7 +35,9 @@
                 - example: 'bowing' is a social error in some systems - the difference between those systems and a system where it's not an error is a difference in the 'culture' sub-system
         - change:
           - apply interface components to origin system & apply core functions to those components
-            - example: perspective mapped to a driving problem system is a position
+            - example: 'perspective' mapped to a 'driving' problem system can have structures like:
+              - 'position' bc its a physical system where differences in 'position' change perspective definition components (like 'visibility' or 'priority')
+              - 'role' bc it involves agents where differences in 'role' may change 'focus' or 'priority'
           - changing interface component variables of the problem system can identify error types quickly
             - structure: 
                - changing common structures of difference between similar components like instances of a type)
