@@ -14,6 +14,11 @@
         - 'derive solution requirements from problem statement & filter solutions'
           - reasons why it may work:
             - the problem has enough info to derive sufficient filtering requirements
+      - a reason to use a particular solution often relies on structural system components (like similarities/alignments, such as structural similarities or input/output alignments) & other important interface components
+        - there is a structural similarity between the above solution & problem, indicating a reason to use it:
+          - existing (non-changed) solutions fit with an existing (non-changed) problem space or problem
+        - the more important interface components that exist connecting a solution & problem, it may be likelier that the solution is optimal for that problem
+        - a reason to use the solution indicates its optimal in some way for that problem, as in it solves the problem efficiently according to some metric
       - example:
         - structural reasons why a solution worked
           - info reason
