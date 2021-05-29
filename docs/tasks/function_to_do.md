@@ -4,7 +4,16 @@
 
     - indexing solutions by the 'reason why it worked' is a quicker way to select/filter solutions in some cases
       - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
-        - 'try existing solutions', 'try adjacent modifications to existing solutions', 'derive solution requirements from problem statement & filter solutions', etc
+        - 'try existing solutions'
+          - reason why it may work: 
+            - the problem space may not have changed sufficiently or the problem may not be new to invalidate existing solutions
+        - 'try adjacent modifications to existing solutions'
+          - reasons why it may work: 
+            - existing solutions may be similar enough to a working solution that minor modifications (like by adjacent conversions built from core functions) may be sufficient
+            - the problem space may not have changed sufficiently or the problem may not be new to invalidate every component of existing solutions
+        - 'derive solution requirements from problem statement & filter solutions'
+          - reasons why it may work:
+            - the problem has enough info to derive sufficient filtering requirements
       - example:
         - structural reasons why a solution worked
           - info reason
@@ -17,6 +26,12 @@
             - bc the solution addressed a root cause of the problem
           - abstract reason
             - bc the solution solves the problem type of the problem
+
+      - components of 'reasons why solutions work for a problem' can be inputs to interface operations (to combine/filter reasons, or build interface queries or solution automation workflows) to:
+          - find the reason why a particular reason is relevant to a problem/solution
+          - design a reason why a solution should work & then test it
+          - derive a reason why a solution worked
+          - filter solution automation workflow insight paths
 
     - application variables of an interface
       - different versions of an interface can be used in place of the entire interface, just like different formats of an interface can be applied instead of the whole interface
