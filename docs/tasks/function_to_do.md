@@ -3,37 +3,48 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
 
     - some error types are caused by errors in other components
+      
       - if a dependency has a vulnerability, all its dependent components might inherit it through usage or inclusion
       - solutions from other components can prevent error types bc different perspectives of other components can spot errors before the origin component
-      - changing interface component variables can identify error types quickly
-        - perspectives:
-          - switching perspectives can identify problematic differences between solution metrics & actual values bc of the info obvious or focused on by another component
-            - just like another car may be able to see if a car has a flat tire before the user driving from a perspective of the car with the problem
-          - switching perspectives is a way to find error types faster, if the error is adjacent to or equals info that is focused on or obvious to another perspective
-          - switching primary interfaces is one way of switching perspectives, but you can also switch variables in the origin system:
-            - switch positions of agents or components with info-gathering functions (sensory functions) with a particular focus on info that may be in error
-          - calculating the possible errors (like by determining variables that are difficult for the origin component to check, so errors can involve structures of those variables) is a useful process to run before identifying a perspective that can see errors in that set of possible errors
-          - how to calculate a perspective that can see a possible error, once a possible error structure is identified
-            - find a perspective that interacts with info related to the variables/structures/components of the possible error, by:
-              - intent perspective: focusing on or prioritizing the info
-              - input/specific perspective: using/implementing the info
-              - causal perspective: generating the info
-            - construct a perspective that has one of the above attributes/functions as a solution structure, and find existing perspectives that match that perspective
-        - intent: 
-          - switching intent can find intents that are possible error type causes, for the original component, other components, or the system enabling them to exist
-        - cause:
-          - switching causes can make a component more robust
-          - finding a way to build/execute a function given alternate causes can make the function more robust to changing inputs
-          - this can be an error type in some cases
-        - definition:
-          - switching definitions of error/solution can identify possible error types of other systems that wouldnt define another system's survival as 'success', where their error would be 'failing to destroy another system'
-      - this works bc some solutions can be used to solve similar problems, so solving for a similar problem instead can be more efficient & find a solution to the original problem
+      
+      - applying core functions can identify error types quickly
+        - build: 
+          - the task of building an error-free system (like a sub-system of the origin system) can identify new error types
+        - derive: 
+          - deriving error types from problem spaces or problematic systems (rather than deriving from core system components or from core error components) can identify error types of a system
+        - find: 
+          - finding difference structures with intents that contradict approved intents can identify error types quickly
+        - change:
+          - changing interface component variables of the problem system can identify error types quickly
+            - perspectives:
+              - switching perspectives can identify problematic differences between solution metrics & actual values bc of the info obvious or focused on by another component
+                - just like another car may be able to see if a car has a flat tire before the user driving from a perspective of the car with the problem
+              - switching perspectives is a way to find error types faster, if the error is adjacent to or equals info that is focused on or obvious to another perspective
+              - switching primary interfaces is one way of switching perspectives, but you can also switch variables in the origin system:
+                - switch positions of agents or components with info-gathering functions (sensory functions) with a particular focus on info that may be in error
+              - calculating the possible errors (like by determining variables that are difficult for the origin component to check, so errors can involve structures of those variables) is a useful process to run before identifying a perspective that can see errors in that set of possible errors
+              - how to calculate a perspective that can see a possible error, once a possible error structure is identified
+                - find a perspective that interacts with info related to the variables/structures/components of the possible error, by:
+                  - intent perspective: focusing on or prioritizing the info
+                  - input/specific perspective: using/implementing the info
+                  - causal perspective: generating the info
+                - construct a perspective that has one of the above attributes/functions as a solution structure, and find existing perspectives that match that perspective
+            - intent: 
+              - switching intent can find intents that are possible error type causes, for the original component, other components, or the system enabling them to exist
+            - cause:
+              - switching causes can make a component more robust
+              - finding a way to build/execute a function given alternate causes can make the function more robust to changing inputs
+              - this can be an error type in some cases
+            - abstract:
+              - mixing abstractions with specific examples/implementations the problem system can result in a quicker identification of error types
+            - definition:
+              - switching definitions of error/solution can identify possible error types of other systems that wouldnt define another system's survival as 'success', where their error would be 'failing to destroy another system'
+                - this can identify possible error types like 'attack from a system with this definition of error'
+      - solution success cause: 
+        - this works bc some solutions can be used to solve similar problems, so solving for a similar problem instead can be more efficient & find a solution to the original problem
         - applying solution insights like 'solutions may solve similar problems as the origin problem' can find new solution automation workflows
-      - applying other core functions than 'change' can also identify error types quickly
-        - build: the task of building an error-free system (like a sub-system of the origin system) can identify new error types
-        - derive: deriving error types from problem spaces or problematic systems (rather than deriving from core system components or from core error components) can identify error types of a system
-        - find: finding difference structures with intents that contradict approved intents can identify error types quickly
-      - identifying error types is important for other functions like:
+      
+      - identifying error types is important for functions like:
         - 'find solutions by avoiding known error types'
         - 'prevent errors'
         - 'identify error interactions, so the interaction of changes to one error & changes in related errors can be predicted'
