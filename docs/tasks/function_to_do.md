@@ -17,6 +17,8 @@
         - change:
           - apply interface components to origin system & apply core functions to those components (perspective mapped to a driving problem system is a position)
           - changing interface component variables of the problem system can identify error types quickly
+            - structure: 
+               - changing common structures of difference between similar components like instances of a type)
             - perspectives:
               - switching perspectives can identify problematic differences between solution metrics & actual values bc of the info obvious or focused on by another component
                 - just like another car may be able to see if a car has a flat tire before the user driving from a perspective of the car with the problem
@@ -33,6 +35,8 @@
             - intent: 
               - switching intent can find intents that are possible error type causes, for the original component, other components, or the system enabling them to exist
               - example: 'cause error' intent rather than 'solve problem' intent can solve the problem quicker in some cases 
+            - change: 
+              - change change components like variable types (what's required or default for some components may be intended or optional or not possible for others)
             - system:
               - find a system where it's not an error and the cause of the error in the origin system will be a structure of difference between the two systems
             - cause:
