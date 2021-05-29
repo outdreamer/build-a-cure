@@ -1,6 +1,13 @@
 # to do
 
-    - this isnt a war against China, or incels, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
+    - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
+
+    - some error types are caused by errors in other components
+      - if a dependency has a vulnerability, all its dependent components might inherit it through usage or inclusion
+      - solutions from other components can prevent error types bc different perspectives of other components can spot errors before the origin component
+      - switching perspectives can identify problematic differences between solution metrics & actual values bc of the info obvious or focused on by another component
+        - just like another car may be able to see if a car has a flat tire before the user driving from a perspective of the car with the problem
+      - switching perspectives is a way to find error types faster, if the error is adjacent to or equals info that is focused on or obvious to another perspective
 
     - indexing solutions by the 'reason why it worked or didnt work' (solution success/error cause) is a quicker way to select/filter solutions in some cases
       - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
