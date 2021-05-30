@@ -11,7 +11,7 @@
         - 'when will the end of the world happen'
       - these are relegated to human philosophy & endeavor bc theyre considered too complex to answer, requiring many contributors over many generations
       - example of how my system would approach these questions:
-        - 'what is the meaning of life'
+        - problem: 'find an answer to the question: what is the meaning of life'
           - the answer is 'protecting potential of the universe'
           - an example of an interface query to get to that answer is:
             - standardize problem:
@@ -70,11 +70,31 @@
             - function
               - similar components may be related by position, so they might have similar functionality which can be shared to fix adjacent components
 
-      - applying core functions to interface components of the problem system (or to related components) can identify error types quickly (and associated solutions)
+      - interface query to solve the problem of 'finding new error types' or 'finding new ways to find new error types':
+        
+        - applying core functions to interface components of the problem system (or to related components) can identify error types quickly (and associated solutions)
+        - this query can solve the problem of identifying:
+          - sub-problems of finding new error types' like:
+            - lack of info (about variable interactions/changes)
+          - by identifying causes of the sub-problems like:
+            - limits of info in specific positions/angles
+
+        - apply interface components to origin system (standard cross-interface query), then apply core functions to those components to run another interface query to:
+          - solve the problem of 'identify new error types' for different versions of them (change)
+          - solve the problem using a different origin position (build starting from different origin position of components to build with)
+          - solve the problem of connecting problem & solution (derive)
+          - solve the problem of filtering possible error types (find)
+
+          - example: 'perspective' mapped to a 'driving' problem system can have structures like:
+            - 'position' bc its a physical system where differences in 'position' change perspective definition components (like 'visibility' or 'priority')
+            - 'role' bc it involves agents where differences in 'role' may change 'focus' or 'priority'
+        
         - build: 
           - the intent of 'building an error-free system' (like a sub-system of the origin system) can quickly identify new error types, if using non-standard building functions or other components
+        
         - derive: 
           - deriving error types from problem spaces or problematic systems (rather than deriving from core system components or from core error components) can identify error types of a system
+        
         - find: 
           - finding difference structures with intents that contradict approved intents can identify error types quickly
           - find interface component variables of the problem system (or versions of it or its compoments produced by 'change' function or other functions, like a 'related system') to identify new error types
@@ -82,11 +102,8 @@
               - find a system where it's not an error and the cause of the error to fix (or cause of other error types) in the origin system will be a structure of difference between the two systems
                 - example: 'bowing' is a social error in some systems - the difference between those systems and a system where it's not an error is a difference in the 'culture' sub-system
                   - error types involved include: 'culture', 'sub-system', 'interaction', 'social interaction'
+        
         - change:
-          - apply interface components to origin system & apply core functions to those components
-            - example: 'perspective' mapped to a 'driving' problem system can have structures like:
-              - 'position' bc its a physical system where differences in 'position' change perspective definition components (like 'visibility' or 'priority')
-              - 'role' bc it involves agents where differences in 'role' may change 'focus' or 'priority'
           - changing interface component variables of the problem system can identify error types quickly
             - structure: 
                - changing common structures of difference between similar components like instances of a type)
