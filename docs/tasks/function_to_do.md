@@ -3,6 +3,9 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - interface query types can be an alternative to interface query design
+      - use patterns of interface query types, parameters (like origin interface & input problem type), & input-output connections to identify query types that are useful for solving specific problem types
+
     - add to ai tests
       - questions/tasks that are typically framed as unable to be answered by anyone other than a human, like:
         - 'what is the meaning of life'
@@ -28,6 +31,7 @@
                     - the most different intent supported by 'human brain functions' is 'protecting entities with potential who cannot reward them'
                     - the reason this is the most different intent is that its the:
                       - rarest intent
+                      - aligns with responsibilities (sources of potential have responsibility & power to protect other sources of potential)
                       - most difficult intent
                       - an intent that requires unlikely conditions, like being taught to prioritize it, or deriving that its the right intent to prioritize, by deriving an ethical system prioritizing it
                       - associated with intelligence, a proxy of potential
