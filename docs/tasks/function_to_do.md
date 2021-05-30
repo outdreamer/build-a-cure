@@ -3,6 +3,53 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - add to ai tests
+      - questions/tasks that are typically framed as unable to be answered by anyone other than a human, like:
+        - 'what is the meaning of life'
+        - 'find a new system to predict events'
+        - 'what will be the next big invention'
+        - 'when will the end of the world happen'
+      - these are relegated to human philosophy & endeavor bc theyre considered too complex to answer, requiring many contributors over many generations
+      - example of how my system would approach these questions:
+        - 'what is the meaning of life'
+          - the answer is 'protecting potential of the universe'
+          - an example of an interface query to get to that answer is:
+            - standardize problem:
+              - 'what is the purpose/intent of life'
+              - 'how does it fit into the contextual system in which it develops'
+            - alternate queries:
+              - apply definition & system interface
+                - a definition route of 'life' is the 'ability to change' (learn/adapt)
+                - a definition route of 'intent' is what something can be used for
+                  - sub-problem: what can life be used for:
+                    - all functions of the human brain
+                  - apply 'system context' interface to this sub-problem (sub-question, or sub-query)
+                    - when a question like 'what can x be used for' or 'what intents does it support' is asked, the intent of the question is often finding the most differentiating intent from other components, rather than listing all intents
+                    - the most different intent supported by 'human brain functions' is 'protecting entities with potential who cannot reward them'
+                    - the reason this is the most different intent is that its the:
+                      - rarest intent
+                      - most difficult intent
+                      - an intent that requires unlikely conditions, like being taught to prioritize it, or deriving that its the right intent to prioritize, by deriving an ethical system prioritizing it
+                      - associated with intelligence, a proxy of potential
+              - apply definition & conceptual interface
+                - 'meaning' has a structural system definition route 'fit in a system'
+                - 'intelligence' is a proxy for 'potential'
+                - 'potential is uncertain ability'
+                - 'a contradictory component to potential is certain ability or certain inability'
+                - 'intelligence is power'
+                - 'power' distributes when it's misused (used to preserve itself, at the cost of power distribution)
+                - intelligence has functions like:
+                  - can change a component to fit into a system (create meaning)
+                  - distributes its power bc it can generate power/meaning under any conditions
+                  - identifies that:
+                    - potential is the rarest & most valuable resource that is a similar input to meaning to intelligence (itself)
+                    - protecting sources of potential is top priority
+                    - delegation of power is equal to delegation of responsibility
+                    - delegating both power & responsibility is more efficient than other methods, as other entities will learn to solve their own problems with help
+                    - distributing power in the form of intelligence does not contradict any sources of potential & enables sources of potential
+                  - concludes that:
+                    - not only is it efficient to distribute intelligence, it is also ethical (does not destroy sources of potential)
+
     - identify error types quickly
 
       - apply insight 'related components of a component can cause changes (including sub-optimal changes like errors or improving changes like solutions) in that component bc of interactivity' to problem/solution definitions
@@ -238,6 +285,10 @@
     - other structures to use as problem/solution structures
 
       - these are highly relevant/useful cross-interface structures
+
+        - understanding structures
+          - empathy (as a prediction tool bc its an output of understanding)
+          - language (as a structural approximator of meaning)
         
         - sufficient/threshold or partial/subset structures (vs. completely aligning structures)
           - similarity/approximation/alternative structures
