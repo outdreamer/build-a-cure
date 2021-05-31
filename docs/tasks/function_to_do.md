@@ -20,12 +20,12 @@
           - standardization is a useful function for both equalizing & comparing objects
       
     - add to solution automation workflows
-      - apply structures based on their definitions in relation to the definition of a solution
-        - apply opposite structures as a solution filter structure
-        - apply error structures as a solution filter structure
-        - apply possibility structures as a solution limit structure
-        - apply similar structures as an alternative solution structure or solution base structure
-        - apply core structures as a solution subset or solution building structure
+      - apply structures based on their definitions in relation to the definition of a solution/problem or the problem-solving process
+        - apply opposite structures as a solution filter structure (exclude what a solution is not)
+        - apply error structures as a solution filter structure (avoid errors)
+        - apply possibility structures as a solution limit structure (exclude impossibilities or improbabilities, include common solutions)
+        - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, base changes on existing solutions)
+        - apply core structures as a solution subset or solution building structure (build solution from core components or solve subsets (core components) of solution)
 
     - add to determining relevant components
       - components that are:
