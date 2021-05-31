@@ -20,11 +20,23 @@
           - standardization is a useful function for both equalizing & comparing objects
       
     - add to solution automation workflows
+
       - apply structures based on their definitions in relation to the definition of a solution/problem or the problem-solving process
+
+        - depending on the solution automation workflow applied, it will involve various functions, like:
+          - generate possible solutions & filter
+          - break into sub-problems, solve them, & integrate
+
+        - example with a particular solution automation workflow function 'filter':
+        - the definition like 'filter' is 'remove items from set based on metric', so functions that support intents like the following sub-functions, which fulfill the 'solution filter' intent (identify if it's a solution or not) can fulfill sub-functions of the 'filter' function definition 'remove items from set based on metric':
+          - determining difference
+          - determining metric value
+
         - apply opposite structures as a solution filter structure (exclude what a solution is not)
+
         - apply error structures as a solution filter structure (avoid errors)
-        - apply possibility structures as a solution limit structure (exclude impossibilities or improbabilities, include common solutions)
-        - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, base changes on existing solutions)
+        - apply possibility structures as a solution filter structure (exclude impossibilities or improbabilities, include common solutions)
+        - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, start from similar origin, base changes on existing solutions)
         - apply core structures as a solution subset or solution building structure (build solution from core components or solve subsets (core components) of solution)
 
     - add to determining relevant components
