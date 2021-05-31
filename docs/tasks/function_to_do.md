@@ -28,16 +28,20 @@
           - break into sub-problems, solve them, & integrate
 
         - example with a particular solution automation workflow function 'filter':
-        - the definition like 'filter' is 'remove items from set based on metric', so functions that support intents like the following sub-functions, which fulfill the 'solution filter' intent (identify if it's a solution or not) can fulfill sub-functions of the 'filter' function definition 'remove items from set based on metric':
-          - determining difference
-          - determining metric value
+          - the definition like 'filter' is 'remove items from set based on metric', so functions that support intents like the following sub-functions, which fulfill the 'solution filter' intent (identify if it's a solution or not) can fulfill sub-functions of the 'filter' function definition 'remove items from set based on metric':
+            - determining difference
+            - determining metric value
 
-        - apply opposite structures as a solution filter structure (exclude what a solution is not)
+        - structures that fulfill the solution automation workflow function, like 'filter':
+          - apply opposite structures as a solution filter structure (exclude what a solution is not)
+          - apply error structures as a solution filter structure (avoid errors)
+          - apply possibility structures as a solution filter structure (exclude impossibilities or improbabilities, include common solutions)
 
-        - apply error structures as a solution filter structure (avoid errors)
-        - apply possibility structures as a solution filter structure (exclude impossibilities or improbabilities, include common solutions)
-        - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, start from similar origin, base changes on existing solutions)
-        - apply core structures as a solution subset or solution building structure (build solution from core components or solve subsets (core components) of solution)
+        - structures that fulfill the solution automation workflow function 'solve different problem'
+          - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, start from similar origin, base changes on existing solutions)
+
+        - structures that fulfill the solution automation workflow function 'build solution' or 'solve for the components of a solution'
+          - apply core structures as a solution subset or solution building structure (build solution from core components or solve subsets (core components) of solution)
 
     - add to determining relevant components
       - components that are:
