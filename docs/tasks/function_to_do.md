@@ -7,8 +7,17 @@
       - for some functions, there are requirements & limits on what other functions they can interact with, in what structures
         - example: for 'compare' and 'standardize' intents, examples of basic interactions are:
           - sequence: standardize, then compare
-          - sequence of subset: standardize systems components to compare systems
+          - sequence of subset/total: standardize systems components to compare systems
       - the cause of the requirement in sequence for an intent like 'compare to find differences' is that the standardization (when applied first) reduces irrelevant differences, so the relevant differences are clearer & easier to identify
+      - the concept of a common base/standard that both objects have is associated with the definition of 'compare', as a way to anchor calculations, to reduce differences in calculations (calculations of difference will be more accurate & easier when the calculation can start from the same position & take the same steps in both objects)
+      - the above intents are relevant to functions like compare to improve accuracy of metrics:
+        - 'reducing differences in calculations of a function (like compare)'
+        - 'reducing irrelevant differences' or 'isolating relevant differences'
+      - apply opposite structure
+        - if standardization was not applied, an equivalence check could not be reliably executed
+      - apply related functions
+        - 'equate' is a similar function to 'compare'
+          - standardization is a useful function to equalize objects as well
 
     - add to determining relevant components
       - components that are:
