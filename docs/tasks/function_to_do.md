@@ -3,6 +3,15 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - add to determining relevant components
+      - components that are:
+        - adjacent in interaction degree/directness
+        - controllable
+        - low-cost to implement
+        - specific to that context
+        - required/unique
+        - enforcing/robust (no matter what changes you make, it will always have an attribute/function)
+
     - interface query types can be an alternative to interface query design
       - use patterns of interface query types, parameters (like origin interface & input problem type), & input-output connections to identify query types that are useful for solving specific problem types
 
@@ -301,6 +310,7 @@
     - database polling/prompting user for update & predicting updates or searching for & receiving user-approved updates from other services, rather than being a passive receiver of input from user
       - based on local usage/change patterns or integrated usage patterns to identify expected transactions with other services
         - once a credit card is marked as lost in a banking service, a change of credit card numbers is expected by other services which can poll for updates to this flag
+          - user option like 'yes, allow other approved databases containing my address poll to collect this update'
         - once a renters insurance policy is changed in an insurance service, a change of address might be expected by other services
 
     - other structures to use as problem/solution structures
