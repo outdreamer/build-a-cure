@@ -3,11 +3,28 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - add to error type structures as a quick solution filter (solution automation workflow)
+      - error interaction structures
+        - structures (like set/opposite/combination/sequence) of error structures
+        - cross-interface structures
+          - error structures that are interactive across interfaces
+          - structures that form error structures when allowed to interact
+
+      - analyzing errors on a different interaction layer applies the insight 'interaction layer is often a relevant variable (like other important system structures) determining outputs'
+      - other variables (including system structures) applied to errors
+        - core:
+          - components of error structures
+        - ambiguity:
+          - errors that are equally likely to be solutions (useful functions/attribute structures)
+        - default:
+          - errors that are defaults are likely to have useful components or be an output of useful components
+
     - finish attribute structures associated with problems/solutions
-      - attributes of solutions/problems can be used to identify error types & causes of errors
-        - if something is not required, it is likely to produce more errors than something that is required
+      - add to attributes of solutions/problems can be used to identify error types & causes of errors
+        - if something is unnecessary (not required), it is likely to produce more errors than something that is required
         - if something is highly variable, it is likelier to produce errors than more constant structures
         - if something is inefficient, it is likelier to produce errors than structures that are efficient
+        - if something is not aligned with an interacting structure, it is likelier to produce errors than alignments (mismatches, imbalances, incompleteness)
         - if something is highly connective/interactive, it is likelier to produce errors bc it introduces other error-increasing structures like variability
         - if something is reusable, it is likely to be useful, so it has more attributes of a solution than of a problem
 
