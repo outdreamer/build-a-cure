@@ -4,8 +4,12 @@
       - I will cry for the lost when I have time to spare
 
     - finish attribute structures associated with problems/solutions
-      - attributes of solutions can be used to identify error types & causes of errors
+      - attributes of solutions/problems can be used to identify error types & causes of errors
         - if something is not required, it is likely to produce more errors than something that is required
+        - if something is highly variable, it is likelier to produce errors than more constant structures
+        - if something is inefficient, it is likelier to produce errors than structures that are efficient
+        - if something is highly connective/interactive, it is likelier to produce errors bc it introduces other error-increasing structures like variability
+        - if something is reusable, it is likely to be useful, so it has more attributes of a solution than of a problem
 
     - add to solution automation workflows
       - identify overlap of problem/solution definitions (when a problem is a solution and vice versa) to identify contexts where a problem should be framed as a solution instead & solution structures should be applied (like solution metrics or insights like causes of why it works for a problem) instead of problem structures (like questions to change/resolve it)
