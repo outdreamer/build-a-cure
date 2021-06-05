@@ -3,7 +3,12 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - finish attribute structures associated with problems/solutions
+      - attributes of solutions can be used to identify error types & causes of errors
+        - if something is not required, it is likely to produce more errors than something that is required
+
     - add to solution automation workflows
+      - identify overlap of problem/solution definitions (when a problem is a solution and vice versa) to identify contexts where a problem should be framed as a solution instead & solution structures should be applied (like solution metrics or insights like causes of why it works for a problem) instead of problem structures (like questions to change/resolve it)
       - identify solution spaces based on problem/solution metadata
         - pre-filter solution space by identifying structures in a system that fulfill general solution metrics (efficiency, reusability, etc & structures like combinations of these) to reduce the solution set to search for specific problems
         - generate/find/derive structures (like combinations) of a solution automation relationship structure (connection, reduction, removal, building) & construct (probable, relevant, useful, adjacent, interactive, efficient) solutions from those, then use as a default solution space to search
