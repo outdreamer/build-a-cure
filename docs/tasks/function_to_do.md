@@ -3,21 +3,40 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
-    - add to error type structures as a quick solution filter (solution automation workflow)
-      - error interaction structures
-        - structures (like set/opposite/combination/sequence) of error structures
-        - cross-interface structures
-          - error structures that are interactive across interfaces
-          - structures that form error structures when allowed to interact
+    - mvp should include function that standardizes to math interface first
+      - apply a solution automation workflow like a sequential connection between problem & solution:
+        - identify isolatable differences between problem & solution
+        - map differences to numerical differences (like cosine or other difference)
+        - identify conversions that reduce differences in a sequence
 
-      - analyzing errors on a different interaction layer applies the insight 'interaction layer is often a relevant variable (like other important system structures) determining outputs'
-      - other variables (including system structures) applied to errors
-        - core:
-          - components of error structures
-        - ambiguity:
-          - errors that are equally likely to be solutions (useful functions/attribute structures)
-        - default:
-          - errors that are defaults are likely to have useful components or be an output of useful components
+      - example with prediction function (using a 'sequential connection' solution automation workflow insight path)
+        - identify isolatable differences between problem (data set) and solution (prediction function)
+          - data set is a collection of points
+          - prediction function is a connection between points
+        - map differences to numerical differences (numerize non-numerical data)
+        - identify a function to connect a collection of points (reduce differences between points & point-connecting function) - and the format sequence to connect in order to convert points to a function
+          - possible format sequences:
+            - data set => points => variables => variable operations & structures (like set) => various possible prediction functions => integrated format (like average) of various possible prediction functions => prediction function
+            - data set => points => various point-connecting functions (like average/regression) => integrated format (like average) of various point-connecting functions => prediction function        
+
+    - finish applying interface components to error structures
+
+      - add to error type structures as a quick solution filter (solution automation workflow)
+
+        - error interaction structures
+          - structures (like set/opposite/combination/sequence) of error structures
+          - cross-interface structures
+            - error structures that are interactive across interfaces
+            - structures that form error structures when allowed to interact
+
+        - analyzing errors on a different interaction layer applies the insight 'interaction layer is often a relevant variable (like other important system structures) determining outputs'
+        - other variables (including system structures) applied to errors
+          - core:
+            - components of error structures
+          - ambiguity:
+            - errors that are equally likely to be solutions (useful functions/attribute structures)
+          - default:
+            - errors that are defaults are likely to have useful components or be an output of useful components
 
     - finish attribute structures associated with problems/solutions
       - add to attributes of solutions/problems can be used to identify error types & causes of errors
