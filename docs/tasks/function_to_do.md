@@ -3,11 +3,28 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
-    - examine connection between fractals, sequences, averages, & circles
+    - requirements of a proof (connect a function on the math interface with the logic interface)
+      - complete set of test cases or representative example test
+      - connects components using only logic rules & definitions
+        - example: if we have connections 'a is a subset of b', and 'b is a subset of c', then we can derive new connections by applying the definitions of 'subset', 'equal', and 'container' to the components
+          - 'a is a subset of c'
+          - 'c is a container of b & a'
+          - 'b is a container of a'
+          - 'b is not equal to a is not equal to c'
+        - definitions:
+          - container: if a is a subset of b, b contains a
+          - subset: if a contains only elements that also appear in b, but b has more elements that dont appear in a, a is a subset of b
+          - equal: if a and b have the same elements and no different elements, a is equal to b
+        - we've applied the logic of the 'subset-container' connection in the definitions to the subsets a & b, to identify their connected container components (b & c, and c)
+        - proofs also have this restriction, in that they can apply definitions/rules to identify connections between components, if the rules specify certainties like equivalence
+        - proofs are a combination of rules with certain connections
+        - 'proof templates' can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets) 
+
+    - examine connection between fractals, sequences, averages, origins, multipliers (self, as in power), & circles
       - fractals as a relevant structure for adding sequences of fractions (adding numbers similar to itself on a smaller scale, infinitely) as a way of producing inputs to circles created by transforming a fractal spiral, where the origin is the original number as a base for applying increasingly smaller scales
       - the set of points forming roots of an infinite negative number sequence (roots of unity, rather than roots of any negative integer number) as a way of producing a circle because of their common distance to their average (center) forming the radius
       - lines of equal length having a common average point (center/origin)
-      - fractals as a way of calculating area under a continuous line (increasing small subsets of structures with area calculatable with multiplication of x & y)
+      - fractals & infinite sequences as a way of calculating area under a continuous line (increasing small subsets of structures with area calculatable with multiplication of x & y)
       - what continuous line segments would have an area equal to a circle of relevant proportions?
 
     - mvp should include function that standardizes to math interface first
