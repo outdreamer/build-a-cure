@@ -10,7 +10,9 @@
       - why would AI miss these attributes? bc:
         - patterns arent the only important component, even sequential patterns
         - abstracting & isolating into a pattern leaves out info about context, which removes the relevance between different components of the verse
-        - ai has no concept of relevance except the definition of adjacence built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
+        - ai has no concept of relevance except the definition (injected by the developer) of adjacence (or the definition of relevance emerging from the algorithm + data) built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
+          - the injected definition of relevance from this algorithm/data is 'sequential connections' or 'sequential repeated/common connections'
+          - the emerging definition of relevance depending on the algorithm/data might be 'isolated sequences of x words beginning with subject and having at least one verb + adjective', which is the pattern in the sequential pattern components that might emerge from the data set
         - patterns might be cut off right where theyre about to make a sequential connection pattern with another pattern
         - patterns might only have meaning in particular structures (which may not even need to be in a sequence, because reversing the order might have the same impact), structures which are not preserved by the ai algorithm
 
