@@ -3,6 +3,8 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - examine fractals as a relevant structure for adding sequences of fractions (adding numbers similar to itself on a smaller scale, infinitely) as a way of producing inputs to circles
+
     - mvp should include function that standardizes to math interface first
       - apply a solution automation workflow like a sequential connection between problem & solution:
         - identify isolatable differences between problem & solution
@@ -32,7 +34,7 @@
           - connections should be made in increasing adjacent order, from x origin to highest value of x, unless some points can be connected quickly by skipping points once priority points are identified, like when there's a clear inflection point or maximum/minimum
         - solution metric filter: does the line have to be composed of lines directly connecting one or more points?
           - no because the general intent is predict position of y given x, not to connect the points
-        - solution metric filter: can the line be composed of subset/alternate connecting lines, line subset-connecting lines or various average lines?
+        - solution metric filter: can the line be composed of subset/alternate connecting lines, like subset-connecting lines or various average lines?
           - yes, if an integration operation (like average) is applied to create one continuous line (with no angles)
             - why does it have to be continuous & free of angles? it doesnt, but a discrete line set is less likely to occur in real life (isolated variable subsets predicting y for different ranges) which would ignore the pattern interface, but it may be more relevant with missing data or variables
 
