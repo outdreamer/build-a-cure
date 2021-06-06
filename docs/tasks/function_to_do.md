@@ -18,8 +18,24 @@
         - we've applied the logic of the 'subset-container' connection in the definitions to the subsets a & b, to identify their connected container components (b & c, and c)
         - proofs also have this restriction, in that they can apply definitions/rules to identify connections between components, if the rules specify certain (having certainty attributes like absolute, constant, required, or definitive) connections like equivalence
         - proofs are a combination of rules with certain connections
-        - 'proof templates' can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets)
-        - you can match input-outputs (like question-proof) using proof templates (connection sequences between question & proof), but you may not know the proof in advance (like if doing combinatorial analysis on functions to see if anything can be proven about the functions)
+        - 'proof templates' (structures) can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets)
+        - you can match input-outputs (like question-proof) using proof templates (connection sequences between question & proof), if there's a proof template that matches the input question & output proof, but you may not know the proof in advance (like if doing combinatorial analysis on functions to see if anything can be proven about the functions)
+          - example question: prove that 'a is a subset of c', given rules 'a is a subset of b' and 'b is a subset of c'
+          - example proof: 
+            - prove: 
+              - 'a is a subset of c' = 'a has only elements that appear in c, but c has more'
+            - apply definition of 'subset'
+              - 'a is a subset of b' = 'a has only elements that appear in b, but b has more'
+              - 'b is a subset of c' = 'b has only elements that appear in c, but c has more'
+              - 'a is a subset of c' = 'a has only elements that appear in c, but c has more' (arrived at proof using 'subset' definition)
+          - proof template:
+            - specific template:
+              - to prove that an attribute is transitive for a standard case (three input components),
+                given example connection rules regarding the component with the attribute (subset) & the component giving it that attribute (set), 
+                and given a definition that makes testing for definition fit as simple as a set of basic calculations ('does a only have elements that appear in b', and 'does b have more elements')
+                where the connection rules connect two different component pairs in the set of three input components,
+                and the proof requirement is to prove that the remaining pair is also connected in the same way,
+                apply the definition of the connection rule to the remaining pair to test for definition fit
 
     - examine connection between fractals, sequences, averages, origins, multipliers (self, as in power), & circles
       - fractals as a relevant structure for adding sequences of fractions (adding numbers similar to itself on a smaller scale, infinitely) as a way of producing inputs to circles created by transforming a fractal spiral, where the origin is the original number as a base for applying increasingly smaller scales
