@@ -12,6 +12,30 @@
         - why would AI error out on these filters:
           - patterns arent the only important component, even sequential patterns
             - it might also miss other patterns (of varying size like patterns of structures like lines or linguistic components, or varying pattern componet, like patterns of patterns/connections/attributes) & position (like skipping a position)
+            - even if it copies a pattern of node traversal in a language map, the context might be lost between the two positions on the language map where the query is started
+              - the second position might have a different query that is equal to the original position's traversal query, bc the query is guided by incorrect attributes that dont generalize to the second position
+                - example:
+                  - original position:
+                    - "daybreak's lost citizens"
+                    - queries:
+                      - language component query: possessive noun adjective plural noun
+                      - meaning query: 'the dead'
+                        - possible related meaning query: 'dead from activities in the night, like a war raid'
+                  - apply the language component query to another position:
+                    - "mountain's missing flowers"
+                    - queries:
+                      - language component query: possessive noun adjective plural noun (same query)
+                      - meaning query: 'damaged environment'
+                        - possible related meaning query: 
+                          - 'flowers plucked by people to give to another person'
+                          - 'environmental damaged exacted by people'
+                          - 'natural disaster like lava or storm'
+                          - 'lack of flowers from harvest or animals'
+                          - 'lack of flowers planted by people to protect environment'
+                          - 'too many bees for the number of flowers to sustain them'
+                  - the second position has some of the poetry of the first just using the language component pattern, but lacks the gravity in tone, the associations & context of the original bc of the different nodes connected with the pattern
+                    - some of these attributes are mimicked by selecting certain nodes to re-generate the original tone & connection patterns ('lost' and 'missing' having similar meanings)
+
           - abstracting & isolating into a pattern leaves out info about context, which removes the relevance between different components of the verse
           - ai has no concept of relevance except the definition (injected by the developer) of adjacence (or the definition of relevance emerging from the algorithm + data) built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
             - the injected definition of relevance from this algorithm/data is 'sequential connections' or 'sequential repeated/common connections'
