@@ -11,6 +11,7 @@
           - compliance with a standard, whether its a standard tone (emotional), style (formal language), structure (syllable count), or usage (cadence)
         - why would AI error out on these filters:
           - patterns arent the only important component, even sequential patterns
+            - it might also miss other patterns (of varying size like patterns of structures like lines or linguistic components, or varying pattern componet, like patterns of patterns/connections/attributes) & position (like skipping a position)
           - abstracting & isolating into a pattern leaves out info about context, which removes the relevance between different components of the verse
           - ai has no concept of relevance except the definition (injected by the developer) of adjacence (or the definition of relevance emerging from the algorithm + data) built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
             - the injected definition of relevance from this algorithm/data is 'sequential connections' or 'sequential repeated/common connections'
