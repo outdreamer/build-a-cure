@@ -3,6 +3,22 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - how to identify the killer counterpoint
+      - point: 'election fraud claims'
+        - counterpoint: you dont think the other party has members?
+          - followup points:
+            - how are they organizing? why do you even hear about them?
+            - who's benefitting from investing massive funding in creating a false illusion, if its all fake?
+            - why wouldnt they choose cheaper methods of doing so than an elaborate illusion?
+      - identify most extreme false assumption of point by identify causes of the output metric (vote count)
+        - the primary/basic false assumption of the point is that the other side doesnt have votes that are comparable in quantity
+          - possible causes (inputs) of 'not having similar vote count' include:
+            - not going to vote
+            - not being able to vote
+            - not having members to vote
+          - the most extreme false assumption is the most extreme cause of 'not having similar vote count' (that the other side doesnt even have members (input of votes) that are comparable in quantity, let alone votes (output))
+      - identify 'incentives', 'side effects of party/member/vote existence & size' as other relevant concepts to generate followup questions
+
     - we still have to vaccinate the world's poorest bc we kept them poor so they couldn't vaccinate themselves bc when people are poor, there are thousands of things that could kill them, so we have to save them from all of the thousands of things each time which is very expensive, bc we havent helped them build sustainable stabilized markets to trade in, which is cheaper
 
     - example of injected vs. emerging definition in an algorithm/data
