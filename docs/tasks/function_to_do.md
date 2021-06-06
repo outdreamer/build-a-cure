@@ -3,6 +3,11 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - poetry automation
+      - has to be a reason for a distortion from normal connections (away it came is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in  the verse, such as that the distortion emphasizes another structure to add meaning to it)
+      - show rather than tell (gives structures of mysticism rather than just calling it mystical to sound like its indescribable, as in beyond words/structure)
+      - compliance with a standard, whether its a standard tone (emotional), style (formal language), structure (syllable count), or usage (cadence)
+
     - definition of difference
       - default
         - adjacence in value
