@@ -36,6 +36,17 @@
                 where the connection rules connect two different component pairs in the set of three input components,
                 and the proof requirement is to prove that the remaining pair is also connected in the same way,
                 apply the definition of the connection rule to the remaining pair to test for definition fit
+            - general template:
+              - to prove that an attribute applies to all subsets in a set, 
+                find a standard case that is extensible to other formats/inputs,
+                and apply the definition of the attribute connection rule to all subsets in the set for the standard case
+            - if you have inputs like a set of components, and rules connecting a subset of components, and a proof requirement of determining if the same rule can connect the remaining component subsets, these proof templates are applicable
+
+    - false association error
+      - just bc one item has both associative & distributive attributes doesn't mean another item with an associative attribute also is distributive
+      - it would be incorrect to associate these metadata in the absence of meaning (relevance & context) assessment
+        - multiplication can be done in any order bc its the same operation (find the area of the same shape)
+        - division cant be done in any order bc the operation is 'apply a standard' where the standard is the base, so when the base changes, the operation changes
 
     - examine connection between fractals, sequences, averages, origins, multipliers (self, as in power), & circles
       - fractals as a relevant structure for adding sequences of fractions (adding numbers similar to itself on a smaller scale, infinitely) as a way of producing inputs to circles created by transforming a fractal spiral, where the origin is the original number as a base for applying increasingly smaller scales
