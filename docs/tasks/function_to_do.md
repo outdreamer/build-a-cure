@@ -6,7 +6,7 @@
     - example of injected vs. emerging definition in an algorithm/data
       - example: poetry automation
         - solution metric filters
-          - has to be a reason for a distortion from normal connections (distortions like leaving words out, or like 'away it came' is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in  the verse, such as that the distortion emphasizes another structure to add meaning to it)
+          - has to be a reason for a distortion from normal connections (distortions like leaving words out, or like 'away it came' is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in the verse, such as that the distortion emphasizes another structure to add meaning to it)
           - show rather than tell (gives structures of mysticism rather than just calling it mystical to sound like its indescribable, as in beyond words/structure)
           - compliance with a standard, whether its a standard tone (emotional), style (formal language), structure (syllable count), or usage (cadence)
         - why would AI error out on these filters:
@@ -20,7 +20,8 @@
                     - queries:
                       - language component query: possessive noun adjective plural noun
                       - meaning query: 'the dead'
-                        - possible related meaning query: 'dead from activities in the night, like a war raid'
+                        - possible related meaning query: 
+                          - 'dead from activities in the night, like a war raid'
                   - apply the language component query to another position:
                     - "mountain's missing flowers"
                     - queries:
@@ -66,6 +67,10 @@
         - differences in different formats (as a sequence, function, set of determining points)
       - system
         - differences in different spaces (vectors, dimension sets, network graph)
+      - change
+        - as a unit of change
+      - logic
+        - as a core connection structure ('x is not y')
       - intent
         - default
           - differences in adjacent/neutral/specific/common uses
@@ -141,6 +146,18 @@
           - possible format sequences:
             - data set => points => variables => variable operations & structures (like set) => various possible prediction functions => integrated format (like average) of various possible prediction functions => prediction function
             - data set => points => various point-connecting functions (like average/regression) => integrated format (like average) of various point-connecting functions => prediction function        
+
+      - another example with finding the solution to a function:
+        - problem 'convert x to y'
+          - list differences between x and y
+          - list ways to resolve those differences
+          - apply solution metric filter: 'is x == y?' or solution metric filter to test for progress (similarity to solution) 'is new x value nearer to y than previous x?'
+
+        - once youve mapped a problem to the math interface, you can query for available functions that resolve the differences between input/output, either all the differences at once, or resolving one subset of differences at a time when applied in the correct subset structure (like sequence, combination, or integration/aggregation structure)
+
+        - example: map a problem like 'generate a poem' to the math interface
+          - apply solution metric filters of a successful poem:
+          - or apply an error-prone algorithm and apply distortion function mapping error output to successful output
 
       - this format connection sequence can be derived by definitions of 'point' and 'line':
         - identify the intents to connect the problem & solution
