@@ -3,6 +3,33 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - definition of difference
+      - default
+        - adjacence in value
+      - proxy
+        - adjacence to interim values
+        - adjacence to similar values to the different value
+      - subset
+        - adjacence to different value type or other attribute value
+      - opposite
+        - lack of equivalence/similarity attributes
+      - connections
+        - varying adjacent values (adjacent values of one are different from adjacent values of the other)
+        - differences in relative values (above/below threshold, near a constant/other number type)
+      - potential
+        - possible difference (how different can they be, while retaining original information)
+      - structure
+        - differences in different formats (as a sequence, function, set of determining points)
+      - system
+        - differences in different spaces (vectors, dimension sets, network graph)
+      - intent
+        - default
+          - differences in adjacent/neutral/specific/common uses
+        - potential
+          - differences in possible uses
+      - cause
+        - differences in cause
+
     - requirements of a proof (connect a function on the math interface with the logic interface)
       - complete set of test cases or representative example test
       - connects components using only logic rules & definitions
