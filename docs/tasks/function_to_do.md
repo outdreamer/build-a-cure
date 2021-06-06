@@ -3,18 +3,24 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
-    - poetry automation
-      - has to be a reason for a distortion from normal connections (distortions like leaving words out, or like 'away it came' is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in  the verse, such as that the distortion emphasizes another structure to add meaning to it)
-      - show rather than tell (gives structures of mysticism rather than just calling it mystical to sound like its indescribable, as in beyond words/structure)
-      - compliance with a standard, whether its a standard tone (emotional), style (formal language), structure (syllable count), or usage (cadence)
-      - why would AI miss these attributes? bc:
-        - patterns arent the only important component, even sequential patterns
-        - abstracting & isolating into a pattern leaves out info about context, which removes the relevance between different components of the verse
-        - ai has no concept of relevance except the definition (injected by the developer) of adjacence (or the definition of relevance emerging from the algorithm + data) built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
-          - the injected definition of relevance from this algorithm/data is 'sequential connections' or 'sequential repeated/common connections'
-          - the emerging definition of relevance depending on the algorithm/data might be 'isolated sequences of x words beginning with subject and having at least one verb + adjective', which is the pattern in the sequential pattern components that might emerge from the data set
-        - patterns might be cut off right where theyre about to make a sequential connection pattern with another pattern
-        - patterns might only have meaning in particular structures (which may not even need to be in a sequence, because reversing the order might have the same impact), structures which are not preserved by the ai algorithm
+    - example of injected vs. emerging definition in an algorithm/data
+      - example: poetry automation
+        - solution metric filters
+          - has to be a reason for a distortion from normal connections (distortions like leaving words out, or like 'away it came' is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in  the verse, such as that the distortion emphasizes another structure to add meaning to it)
+          - show rather than tell (gives structures of mysticism rather than just calling it mystical to sound like its indescribable, as in beyond words/structure)
+          - compliance with a standard, whether its a standard tone (emotional), style (formal language), structure (syllable count), or usage (cadence)
+        - why would AI error out on these filters:
+          - patterns arent the only important component, even sequential patterns
+          - abstracting & isolating into a pattern leaves out info about context, which removes the relevance between different components of the verse
+          - ai has no concept of relevance except the definition (injected by the developer) of adjacence (or the definition of relevance emerging from the algorithm + data) built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
+            - the injected definition of relevance from this algorithm/data is 'sequential connections' or 'sequential repeated/common connections'
+            - the emerging definition of relevance depending on the algorithm/data might be 'isolated sequences of x words beginning with subject and having at least one verb + adjective', which is the pattern in the sequential pattern components that might emerge from the data set
+          - ai doesn't align definitions of meaning between input/output
+            - does not self correct its conceptual changes between input/output definitions of meaning
+          - ai doesn't align definitions of meaning across interfaces or interaction layers
+            - whats meaningful in a particular example data point (relevance to another pattern in the data point) or on the structural interface (number of syllables/words in pattern) isnt automatically aligned with whats meaningful for the general intent of 'generating good poetry' for any input data points
+          - patterns might be cut off right where theyre about to make a sequential connection pattern with another pattern
+          - patterns might only have meaning in particular structures (which may not even need to be in a sequence, because reversing the order might have the same impact), structures which are not preserved by the ai algorithm
 
     - definition of difference
       - default
