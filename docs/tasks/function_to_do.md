@@ -4,9 +4,15 @@
       - I will cry for the lost when I have time to spare
 
     - poetry automation
-      - has to be a reason for a distortion from normal connections (away it came is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in  the verse, such as that the distortion emphasizes another structure to add meaning to it)
+      - has to be a reason for a distortion from normal connections (distortions like leaving words out, or like 'away it came' is a distortion from how youd normally portray movement, but there isnt a reason for it, such as similarity or relevance to other forms of movement in  the verse, such as that the distortion emphasizes another structure to add meaning to it)
       - show rather than tell (gives structures of mysticism rather than just calling it mystical to sound like its indescribable, as in beyond words/structure)
       - compliance with a standard, whether its a standard tone (emotional), style (formal language), structure (syllable count), or usage (cadence)
+      - why would AI miss these attributes? bc:
+        - patterns arent the only important component, even sequential patterns
+        - abstracting & isolating into a pattern leaves out info about context, which removes the relevance between different components of the verse
+        - ai has no concept of relevance except the definition of adjacence built in to the pattern identification function (like 'isolate sequences that are repeated' or 'isolate sequences of x words')
+        - patterns might be cut off right where theyre about to make a sequential connection pattern with another pattern
+        - patterns might only have meaning in particular structures (which may not even need to be in a sequence, because reversing the order might have the same impact), structures which are not preserved by the ai algorithm
 
     - definition of difference
       - default
