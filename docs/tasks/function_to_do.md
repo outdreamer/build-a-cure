@@ -16,9 +16,10 @@
           - subset: if a contains only elements that also appear in b, but b has more elements that dont appear in a, a is a subset of b
           - equal: if a and b have the same elements and no different elements, a is equal to b
         - we've applied the logic of the 'subset-container' connection in the definitions to the subsets a & b, to identify their connected container components (b & c, and c)
-        - proofs also have this restriction, in that they can apply definitions/rules to identify connections between components, if the rules specify certainties like equivalence
+        - proofs also have this restriction, in that they can apply definitions/rules to identify connections between components, if the rules specify certain (having certainty attributes like absolute, constant, required, or definitive) connections like equivalence
         - proofs are a combination of rules with certain connections
-        - 'proof templates' can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets) 
+        - 'proof templates' can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets)
+        - you can match input-outputs (like question-proof) using proof templates (connection sequences between question & proof), but you may not know the proof in advance (like if doing combinatorial analysis on functions to see if anything can be proven about the functions)
 
     - examine connection between fractals, sequences, averages, origins, multipliers (self, as in power), & circles
       - fractals as a relevant structure for adding sequences of fractions (adding numbers similar to itself on a smaller scale, infinitely) as a way of producing inputs to circles created by transforming a fractal spiral, where the origin is the original number as a base for applying increasingly smaller scales
