@@ -29,7 +29,7 @@
         - solution metric filter: does the line have to connect every point?
           - no but it should be as near as possible to as many as possible points
         - solution metric filter: in what sequence should points be connected?
-          - connections should be made in increasing order, from x origin to highest value of x
+          - connections should be made in increasing adjacent order, from x origin to highest value of x, unless some points can be connected quickly by skipping points once priority points are identified 
         - solution metric filter: does the line have to be composed of lines directly connecting one or more points?
           - no because the general intent is predict position of y given x, not to connect the points
         - solution metric filter: can the line be composed of subset/alternate connecting lines, line subset-connecting lines or various average lines?
@@ -42,11 +42,20 @@
           - prioritization of points
           - inclusion of points
           - point subsets
-          - point subset/set approximations
+            - point subset/set approximations
           - integration method of subset connections
           - point-connection methods
         - generate solution metric filters by framing solution format variables as questions
+
       - how to find answers to solution metric filter questions to determine required solution metric filters
+        - the answers to the filter questions must align with the intents of the solution ('derive/improve/approximate a prediction function')
+          - points can be prioritized according to adjacence to the average or to subsets of other points if clusters are identified, so the function is predictive
+          - direction of point connections matters for some point-connection methods (like 'connect each point pair with their own line, in increasing order'), but not others (like 'find important points & connect them, then integrate/average their connections')
+          - points can be included based on metrics (like importance in representing other points, or adjacence to average, as a way of adding value to prediction)
+          - point subsets can be selected based on representative samples (a predictive subset) or alternatives (alternate predictive subsets) or integrations (subsets to integrate to form an integration structure like aggregate/average)
+            - point subset approximations can be used in place of the entire set, just like the data set points can be approximated with a subset
+          - integration method of subset connections have varying value in predicting y (average, weighted average, aggregate, connect)
+          - point-connection methods have varying value to improving a prediction function
 
     - finish applying interface components to error structures
 
