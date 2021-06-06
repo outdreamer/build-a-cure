@@ -5,7 +5,9 @@
 
     - examine 
       - fractals as a relevant structure for adding sequences of fractions (adding numbers similar to itself on a smaller scale, infinitely) as a way of producing inputs to circles created by transforming a fractal spiral, where the origin is the original number as a base for applying increasingly smaller scales
-      - the set of points forming roots of an infinite negative number sequence (roots of unity, rather than roots of any negative integer number) as a way of producing a circle because of their common distance to the origin forming the radius
+      - the set of points forming roots of an infinite negative number sequence (roots of unity, rather than roots of any negative integer number) as a way of producing a circle because of their common distance to their average (center) forming the radius
+      - lines of equal length having a common average point (center/origin)
+      - fractals as a way of calculating area under a continuous line (increasing small subsets of structures with area calculatable with multiplication of x & y)
 
     - mvp should include function that standardizes to math interface first
       - apply a solution automation workflow like a sequential connection between problem & solution:
