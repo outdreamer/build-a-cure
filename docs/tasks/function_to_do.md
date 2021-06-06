@@ -19,6 +19,21 @@
             - data set => points => variables => variable operations & structures (like set) => various possible prediction functions => integrated format (like average) of various possible prediction functions => prediction function
             - data set => points => various point-connecting functions (like average/regression) => integrated format (like average) of various point-connecting functions => prediction function        
 
+      - this format connection sequence can be derived by definitions of 'point' and 'line':
+        - identify the intents to connect the problem & solution
+          - general intent: 'predict y given x'
+            - sub-intent: 'convert points into a line'
+        - identify the format sequence to implement intents:
+          - implement intent 'convert points into a line': connect points to convert them into a line
+          - implement intent 'find component to connect them': 'lines' component can be used to connect them
+        - solution metric filter: does the line have to match all points?
+          - no but it should be as near as possible to as many as possible points
+        - solution metric filter: does the line have to be composed of lines directly connecting one or more points?
+          - no because the general intent is predict position of y given x, not to connect the points
+        - solution metric filter: can the line be composed of subset/alternate connecting lines, line subset-connecting lines or various average lines?
+          - yes, if an integration operation (like average) is applied to create one continuous line (with no angles)
+            - why does it have to be continuous & free of angles? it doesnt, but a discrete line set is less likely to occur in real life (isolated variable subsets predicting y for different ranges) which would ignore the pattern interface, but it may be more relevant with missing data or variables
+
     - finish applying interface components to error structures
 
       - add to error type structures as a quick solution filter (solution automation workflow)
