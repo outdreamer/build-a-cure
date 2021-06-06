@@ -3,6 +3,8 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - we still have to vaccinate the world's poorest bc we kept them poor so they couldn't vaccinate themselves bc when people are poor, there are thousands of things that could kill them, so we have to save them from all of the thousands of things each time which is very expensive, bc we havent helped them build sustainable stabilized markets to trade in, which is cheaper
+
     - example of injected vs. emerging definition in an algorithm/data
       - example: poetry automation
         - solution metric filters
