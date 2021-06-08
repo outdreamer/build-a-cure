@@ -65,8 +65,11 @@
       - apply 'contradiction' (opposite) filter: should any of these changes from inequality-reduction be avoided for any reason, that are more relevant/important than the reasons to reduce inequality
         - if none found, costs/benefits of the strategy to implement the goal are accurately meaningful, meaning (with relevance to original question) that:
           - 'reducing inequality does reduce costs in general'
-          - meaning on the logic interface:
-            - it was possible to connect 'reduce inequality' to 'reduce costs in general' using connections of the interaction rules of those components (cost, general, inequality, reduce)
+          - meaning of this query on the logic interface:
+            - it was possible to connect 'reduce inequality' to 'reduce costs in general' using logical connections of the interaction rules of those components (cost, general, inequality, reduce)
+              - logical connections use definitions & interaction rules to link components
+                - two rules can be directly connected in a sequence without conversion if the output of one rule matches the input to the other
+                - two rules can be directly connected without conversion if common components in both rules are equivalent
 
     - error insights
       - generate structures of components related to solutions/errors
