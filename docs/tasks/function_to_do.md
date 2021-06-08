@@ -21,11 +21,13 @@
             - inputs to human bias error can also be inputs to future decisions, but mostly only bc of human bias errors applied to decision-makers, rather than bc of their absolute decision-making patterns in a vacuum (even in the absence of human bias errors like racism/sexism applied to them)
           - identify insight that a particular variable is only applicable in specific contexts
             - race/gender are applicable in a system where race/gender are inputs to decisions subject to human bias errors, and where that system cant change, and where no counterexamples of race/gender being unpredictive can be found
+          - identify that if the algorithm uses the variables race/gender just like human bias errors used race/gender variables, the error will continue & the algorithm will either be increasingly less accurate over time, or it will be more accurate only bc it caused its own accuracy (condemned a group so they continued to be condemned)
           - identify insight that input variables to errors like human bias errors are typically overly simple and shouldnt be used in isolation
           - apply concept of 'fairness' to avoid errors like over-simplification bias & variable isolation bias
             - if a pattern is legitimate to use for a usage intent, it will also be fair (using prior financial decisions is fair game to predict future financial decisions)
             - if a pattern is highly predictive for a usage intent, it will also be legitimate (a racist/sexist algorithm wont be highly predictive)
           - identify insight that the algorithm repeatedly making errors anytime an oppressed/weaker group is part of the data set, bc humans commit a bias error of 'allocating costs to oppressed/weak groups bc they cant return the punishment & allocate costs to the allocator'
+
         - how to derive these insights to correct this error:
           - identify & apply relevant concepts
             - fairness (use relevant components to predict variable)
