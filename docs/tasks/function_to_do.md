@@ -47,9 +47,13 @@
         - insight: 'error is the opposite of a solution in a problem system or problem space'
           - applies the definition of solution/error
         - insight: 'check if an error is a solution in another problem system or problem space'
-          - applies structural interface
+          - applies structural interface components like opposite
             - check if an error can be its opposite component (and check if that context is possible/probable/adjacent/imminent, to evaluate relevance to current problem space/system)
-
+        - insight: 'check if an error is definitely an error'
+          - applies the system interface component definition of 'ambiguity'
+        - insight: 'check if an error is intended or is bc of a usage intent error'
+          - applies the intent interface
+          
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
         - counterpoint: you dont think the other party has members?
