@@ -2,6 +2,7 @@
 
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
+      - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
     - over-identifying error, even when it's correctly interpreted as an error
       - simple cost-avoidance isnt an optimal method in some cases, so a cost on its own cant be used as an optimal learning tool in all cases
@@ -91,7 +92,7 @@
             - the reason this works is bc relevance is meaningful, and equivalence is a structure of relevance (rules involving the same component are relevant to each other by default)
             - this is a specific implementation of the insight 'standardize components to connect them (reduce conversion work, or reduce difference)'
 
-      - error insights
+      - generate error insights
         - generate structures of components related to solutions/errors
         - filter component structures to find meaningful structures (like insights or solution automation workflows) by applying interface components:
           - insight: 'calculate absolute cost rather than specific cost'
@@ -105,6 +106,7 @@
             - applies the system interface component definition of 'ambiguity'
           - insight: 'check if an error is intended or is bc of a usage intent error'
             - applies the intent interface
+          - logic: 'connect components by equivalences'
 
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
