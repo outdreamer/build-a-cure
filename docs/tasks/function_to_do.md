@@ -33,11 +33,40 @@
         - given the inclusion of 'all', this rule should rarely be applied bc there are few rules that apply in 'all' situations or to 'all' instances of a general component like 'error'
         - identify the above cases where this rule is optimal:
           - when all costs should actually be avoided
-            - when any cost can trigger all costs (like if 'any cost you knowingly take on is interpreted as permission for anyone to take everything')
+            - when any cost can trigger all costs (like if 'any cost you knowingly take on is interpreted as permission for anyone to allocate all costs to you')
           - when simplicity/selfishness/cost-avoidance is useful in the position of a rule
           - when a cost is unnecessary or doesnt benefit anyone so theres no possible reason to take on the cost
 
       - determine definition of errors (& metrics of costs as inputs to determine an error) for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including avoiding causing problems for other users of the system)
+
+    - determine whether something 'makes sense' using the logic interface:
+      - insight: 'deploying a change makes sense if the change increases meaningful benefits or decreases meaningful costs'
+      - problem question: 'does reducing inequality reduce or increase costs in general'
+        - identify the costs/benefits of reducing inequality 
+          - reduces costs:
+            - deploying specific solutions as needed after determining where theyre needed (vaccines, military/police funding, & food aid (solve specific problems for other people))
+            - debt default costs of unpaid debts
+            - insurance/safety net payout costs
+          - increases costs (deployment/implementation costs)
+            - cost of convincing market participants to implement this strategy & deploying implementation
+            - increases/re-allocates costs to temporary one-time costs:
+              - reducing pollution
+              - educating workers so they can automate their jobs (create efficiencies to reduce global work requirements)
+              - increasing wages for lowest paid workers
+              - automation of labor to produce/deliver required basic goods to make it relatively cheap to do so
+          - reduces benefits:
+            - reduces suppliers in the cheapest labor market
+          - increases benefits:
+            - new suppliers (labor/products/employment, loaners)
+            - new demanders (consumers, borrowers)
+            - increases cash flow, investment, & trading
+            - new self-suppliers of self-demanders (solve their own specific problems, with already available information about what they need)
+
+      - apply 'contradiction' (opposite) filter: should any of these changes from inequality-reduction be avoided for any reason, that are more relevant/important than the reasons to reduce inequality
+        - if none found, costs/benefits of the strategy to implement the goal are accurately meaningful, meaning (with relevance to original question) that:
+          - 'reducing inequality does reduce costs in general'
+          - meaning on the logic interface:
+            - it was possible to connect 'reduce inequality' to 'reduce costs in general' using connections of the interaction rules of those components (cost, general, inequality, reduce)
 
     - error insights
       - generate structures of components related to solutions/errors
@@ -53,7 +82,7 @@
           - applies the system interface component definition of 'ambiguity'
         - insight: 'check if an error is intended or is bc of a usage intent error'
           - applies the intent interface
-          
+
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
         - counterpoint: you dont think the other party has members?
