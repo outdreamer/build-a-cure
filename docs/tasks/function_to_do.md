@@ -39,6 +39,17 @@
 
       - determine definition of errors (& metrics of costs as inputs to determine an error) for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including avoiding causing problems for other users of the system)
 
+    - error insights
+      - generate structures of components related to solutions/errors
+      - filter component structures to find meaningful structures (like insights or solution automation workflows) by applying interface components:
+        - insight: 'calculate absolute cost rather than specific cost'
+          - applies the definition of meaning ('integrated components', like 'cost for system or agents relative to each other' as opposed to 'cost for agent') or interface ('component definition, integrating view of component from every primary perspective')
+        - insight: 'error is the opposite of a solution in a problem system or problem space'
+          - applies the definition of solution/error
+        - insight: 'check if an error is a solution in another problem system or problem space'
+          - applies structural interface
+            - check if an error can be its opposite component (and check if that context is possible/probable/adjacent/imminent, to evaluate relevance to current problem space/system)
+
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
         - counterpoint: you dont think the other party has members?
