@@ -37,7 +37,11 @@
               - avoid common known bias errors (like over-simplification) unless theyre required for a relevant reason (like 'finding bias errors')
             - some variables only apply in specific contexts
               - if a variable (like differences in financial decisions) disappears when its input (human bias error) is removed, its a contextual variable, and therefore wont be predictive
-              - absolute factors like definitively relevant variables (decision-making history)
+              - absolute factors like definitively relevant variables (decision-making history) are better predictors
+          - these concepts & insights are relevant to the usage intent (predict future decisions) & context (human bias error history) by definition
+          - the injected concepts & insights in the error are not relevant to the usage intent
+            - concepts like 'simplicity' and 'group' are not relevant if applied as 'any position or structure of simplicity' (including over-simplicity in the algorithm, or algorithm inputs like over-simplification error causing biased data) and 'any group' (including groups of race/gender)
+            - the subsequent implicit assumption 'any reason is good enough for any usage intent if its above a level of predictive accuracy' of insights like 'patterns exist for a reason' is not relevant, bc 'any reason is good enough' doesnt align with the usage intent
 
     - over-identifying error, even when it's correctly interpreted as an error
       - simple cost-avoidance isnt an optimal method in some cases, so a cost on its own cant be used as an optimal learning tool in all cases
