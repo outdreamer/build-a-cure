@@ -12,8 +12,12 @@
               - a definition of cost as 'cost to one self or one component or given one cost metric' is too isolated to be useful on its own as an input to evaluate the integrated meaningful cost
               - the definition of cost has to be more complex than one metric, otherwise the lessons learned from these over-simplified costs (and other error structures applied to cost) would be false & lead to other errors
               - losing the battle of 'getting every possible benefit to myself' is a necessary cost to win the war of 'reducing all costs of contextually necessary interactions like trust'
+                - if I avoid all possible costs like 'paying a fine when I display trust to criminals', I may learn the very wrong & high-cost lesson of 'avoiding all trusted transactions', bc I will technically be avoiding costs which will seem like success, at the cost of occasionally getting a benefit from trusting someone, which I will never experience if I avoid all costs
+              - losing the battle of 'avoiding every possible cost to oneself' is a necessary cost to win the war of 'reducing all costs of selfish cost-avoidance (like inequality)'
+                - if every company prioritizes avoiding all costs, it keeps a subset of the population unequal (which is self-defeating, and keeps the cost of equalizing high, requiring granular costs for every specific problems encountered by that population), whereas if they identify that not all costs should be avoided, they can correct the inequality at comparatively lower cost (enabling the population to take care of their own specific problems)
+        - 'avoiding all costs' is by definition flawed bc the costs that can be seen by a simple mind that would select such a rule are necessarily incomplete
 
-      - change definition of errors for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including causing problems for other users of the system)
+      - determine definition of errors (& metrics of costs as inputs to determine an error) for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including avoiding causing problems for other users of the system)
 
 
     - how to identify the killer counterpoint
