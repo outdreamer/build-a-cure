@@ -4,7 +4,7 @@
       - I will cry for the lost when I have time to spare
 
     - over-identifying error, even when it's correctly interpreted as an error
-      - simple cost-avoidance isnt an optimal method in some cases, so cost on its own cant be used as a learning tool
+      - simple cost-avoidance isnt an optimal method in some cases, so a cost on its own cant be used as an optimal learning tool in all cases
         - when cost in one benefit-cost definition set is necessary to get required benefits of a different benefit-cost definition
           - example: 
             - it may be a cost to lose a battle (reduce one particular cost), but it may be a necessary cost to win a war (reduce all costs of a type)
@@ -16,9 +16,28 @@
               - losing the battle of 'avoiding every possible cost to oneself' is a necessary cost to win the war of 'reducing all costs of selfish cost-avoidance (like inequality)'
                 - if every company prioritizes avoiding all costs, it keeps a subset of the population unequal (which is self-defeating, and keeps the cost of equalizing high, requiring granular costs for every specific problems encountered by that population), whereas if they identify that not all costs should be avoided, they can correct the inequality at comparatively lower cost (enabling the population to take care of their own specific problems)
         - 'avoiding all costs' is by definition flawed bc the costs that can be seen by a simple mind that would select such a rule are necessarily incomplete
+        - what type of mind would produce a decision to use that rule? one that prioritizes:
+          - simplicity
+            - simple rules like 'avoid possible costs (risk)' and 'avoid known costs (prior costs or known cost definitions)' or 'avoid costs to yourself or your dependencies'
+           - selfishness
+           - avoiding being exploited (used at relative/absolute cost to oneself) by a powerful component
+        - in some cases, the rule would be optimal to use in those specific cases
+          - if all costs are aligned with one cost (if one cost triggers other costs), there's a reason to avoid all costs
+          - if a cost being avoided is unnecessary and doesnt serve any other purpose (doesnt benefit anyone), there's a reason to avoid that cost, so a rule to 'avoid all costs' wouldnt produce an error for that cost
+            - sometimes the cost not being avoided is unnecessary to not avoid
+              - the benefits of not avoiding cost (like 'drawing attention to the negative attributes of exploitation') are unnecessary
+              - in this case, the rule is sub-optimal ('avoiding all costs' is now the optimal rule, bc 'not avoiding all costs' is unnecessary & producing no benefit)
+        - sometimes optimal learning occurs not being accruing info from costs, but by creating costs for other learning nodes
+          - this amounts to teaching other nodes to optimize them so they dont create costs that are unnecessary or sub-optimal in some way
+      - how to identify when to use a rule like 'avoid all costs'
+        - given the inclusion of 'all', this rule should rarely be applied bc there are few rules that apply in 'all' situations or to 'all' instances of a general component like 'error'
+        - identify the above cases where this rule is optimal:
+          - when all costs should actually be avoided
+            - when any cost can trigger all costs (like if 'any cost you knowingly take on is interpreted as permission for anyone to take everything')
+          - when simplicity/selfishness/cost-avoidance is useful in the position of a rule
+          - when a cost is unnecessary or doesnt benefit anyone so theres no possible reason to take on the cost
 
       - determine definition of errors (& metrics of costs as inputs to determine an error) for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including avoiding causing problems for other users of the system)
-
 
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
