@@ -3,6 +3,19 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
 
+    - over-identifying error, even when it's correctly interpreted as an error
+      - simple cost-avoidance isnt an optimal method in some cases, so cost on its own cant be used as a learning tool
+        - when cost in one benefit-cost definition set is necessary to get required benefits of a different benefit-cost definition
+          - example: 
+            - it may be a cost to lose a battle (reduce one particular cost), but it may be a necessary cost to win a war (reduce all costs of a type)
+            - if I learned every lesson taught by any cost, I would learn not to help anyone other than myself
+              - a definition of cost as 'cost to one self or one component or given one cost metric' is too isolated to be useful on its own as an input to evaluate the integrated meaningful cost
+              - the definition of cost has to be more complex than one metric, otherwise the lessons learned from these over-simplified costs (and other error structures applied to cost) would be false & lead to other errors
+              - losing the battle of 'getting every possible benefit to myself' is a necessary cost to win the war of 'reducing all costs of contextually necessary interactions like trust'
+
+      - change definition of errors for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including causing problems for other users of the system)
+
+
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
         - counterpoint: you dont think the other party has members?
