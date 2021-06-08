@@ -71,30 +71,40 @@
                 - two rules can be directly connected in a sequence without conversion if the output of one rule matches the input to the other
                 - two rules can be directly connected without conversion if common components in both rules are equivalent
 
-    - insight path for implementation workflow of solution automation workflow 'connect problem & solution using format structure like a format sequence'
-      - apply insight: 'connect rules logically by equivalences' to 'connect problem & solution' problem:
-        - connect components using definition routes of 'match' or 'fit'
-          - match definition routes
-            - equivalence (equal components, like matching input/outputs in a function sequence)
-            - structural coordination (interacting components)
-        - this is the abstract version of 'connect components using equal input/outputs'
-        - the reason this works is bc relevance is meaningful, and equivalence is a structure of relevance (rules involving the same component are relevant to each other by default)
-        - this is a specific implementation of the insight 'standardize components to connect them (reduce conversion work, or reduce difference)'
+    - add to solution automation workflow insight paths:
 
-    - error insights
-      - generate structures of components related to solutions/errors
-      - filter component structures to find meaningful structures (like insights or solution automation workflows) by applying interface components:
-        - insight: 'calculate absolute cost rather than specific cost'
-          - applies the definition of meaning ('integrated components', like 'cost for system or agents relative to each other' as opposed to 'cost for agent') or interface ('component definition, integrating view of component from every primary perspective')
-        - insight: 'error is the opposite of a solution in a problem system or problem space'
-          - applies the definition of solution/error
-        - insight: 'check if an error is a solution in another problem system or problem space'
-          - applies structural interface components like opposite
-            - check if an error can be its opposite component (and check if that context is possible/probable/adjacent/imminent, to evaluate relevance to current problem space/system)
-        - insight: 'check if an error is definitely an error'
-          - applies the system interface component definition of 'ambiguity'
-        - insight: 'check if an error is intended or is bc of a usage intent error'
-          - applies the intent interface
+      - derive insight path for implementing a solution automation workflow
+        
+        - apply possible different structures relevant to functions like 'connect' in solution automation workflow to implement the workflow (implement 'connect problem & solution')
+          - logic governs how components can be rigorously & rationally connected (with reasons like 'equivalence indicates a connecting relation, by definition')
+            - logic structures can be applied to connect problem/solution components 
+          - cause governs how component interactions develop
+            - cause structures can be applied to connect problem/solution components
+        
+        - example insight path for implementation workflow of the solution automation workflow 'connect problem & solution using format structure like a format sequence'
+          - apply insight: 'connect components logically by equivalences' to 'connect problem & solution' problem:
+            - connect components using definition routes of 'match' or 'fit'
+              - match definition routes
+                - equivalence (equal components, like matching input/outputs in a function sequence)
+                - structural coordination (interacting components)
+            - this is the abstract version of 'connect components using equal input/outputs'
+            - the reason this works is bc relevance is meaningful, and equivalence is a structure of relevance (rules involving the same component are relevant to each other by default)
+            - this is a specific implementation of the insight 'standardize components to connect them (reduce conversion work, or reduce difference)'
+
+      - error insights
+        - generate structures of components related to solutions/errors
+        - filter component structures to find meaningful structures (like insights or solution automation workflows) by applying interface components:
+          - insight: 'calculate absolute cost rather than specific cost'
+            - applies the definition of meaning ('integrated components', like 'cost for system or agents relative to each other' as opposed to 'cost for agent') or interface ('component definition, integrating view of component from every primary perspective')
+          - insight: 'error is the opposite of a solution in a problem system or problem space'
+            - applies the definition of solution/error
+          - insight: 'check if an error is a solution in another problem system or problem space'
+            - applies structural interface components like opposite
+              - check if an error can be its opposite component (and check if that context is possible/probable/adjacent/imminent, to evaluate relevance to current problem space/system)
+          - insight: 'check if an error is definitely an error'
+            - applies the system interface component definition of 'ambiguity'
+          - insight: 'check if an error is intended or is bc of a usage intent error'
+            - applies the intent interface
 
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
