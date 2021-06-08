@@ -71,6 +71,16 @@
                 - two rules can be directly connected in a sequence without conversion if the output of one rule matches the input to the other
                 - two rules can be directly connected without conversion if common components in both rules are equivalent
 
+    - insight path for implementation workflow of solution automation workflow 'connect problem & solution using format structure like a format sequence'
+      - apply insight: 'connect rules logically by equivalences' to 'connect problem & solution' problem:
+        - connect components using definition routes of 'match' or 'fit'
+          - match definition routes
+            - equivalence (equal components, like matching input/outputs in a function sequence)
+            - structural coordination (interacting components)
+        - this is the abstract version of 'connect components using equal input/outputs'
+        - the reason this works is bc relevance is meaningful, and equivalence is a structure of relevance (rules involving the same component are relevant to each other by default)
+        - this is a specific implementation of the insight 'standardize components to connect them (reduce conversion work, or reduce difference)'
+
     - error insights
       - generate structures of components related to solutions/errors
       - filter component structures to find meaningful structures (like insights or solution automation workflows) by applying interface components:
