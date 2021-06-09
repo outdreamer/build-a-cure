@@ -48,6 +48,7 @@
             - 'find alternative intents of the problem to find usage solution structures'
           - problem interaction functions are variables of the solution automation workflow
             - problem interface functions can be changed to use a different workflow
+          - these problem interaction functions are connecting functions between the primary problem-solving intent which is a general intent of 'solve the problem', primary core functions like 'apply, build, change, derive', problem-solution interaction structures like 'neutralize problem by finding interactive contradicting structure' and solution structures like 'a prediction function' or 'a set of steps to produce a solution for this problem type'
 
       - solution variable interaction rules as a way of generating/filtering solutions
         - example: 'solution variable reusability tends to contradict solution variable specificity, so avoid solutions with high reusability when a custom/new solution specific to a problem is required'
