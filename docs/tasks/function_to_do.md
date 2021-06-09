@@ -4,12 +4,17 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
+    - add to solution automation workflow implementation workflows
+      - example of applying different but aligning solution automation workflow interaction rules (connect/reduce) to implement the original workflow
+        - reduce difference between problem/solution by selecting a space where they are adjacent
+          - rather than applying 'connect' functions to connect the problem/solution format, apply 'find' to 'system' components to achieve a related aligning intent of applying 'reduce' to the problem-solution differences, thus reducing the need for 'connect' functions by default
+
     - ai measures variance of a specific variable structure type
       - example: 
         - an image categorization algorithm measures variance in variable position, in formats where variable position is uncertain, like images
         - apply attributes useful for position-differentiation & position-grouping (like adjacence) to a standard algorithm
           - apply combinations of adjacent data as input to look for features in combinations, rather than standard unit input
-        - why this works:
+        - cause of solution success (why this works):
           - features tend to have position patterns
           - features tend to have relative position patterns
           - a way of measuring relative position is by combining adjacent features
