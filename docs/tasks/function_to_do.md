@@ -5,9 +5,27 @@
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
     - add to solution automation workflow implementation workflows
+
       - example of applying different but aligning solution automation workflow interaction rules (connect/reduce) to implement the original workflow
         - reduce difference between problem/solution by selecting a space where they are adjacent
           - rather than applying 'connect' functions to connect the problem/solution format, apply 'find' to 'system' components to achieve a related aligning intent of applying 'reduce' to the problem-solution differences, thus reducing the need for 'connect' functions by default
+
+      - finding alternative solution automation workflow insight paths
+        - find aligning functions like 'reduce differences' for functions like 'connect differences' given supported function intents of 'reduce' and 'connect', in cases where 'connect' functions are not available or optimal
+          - 'connect' inputs include the requirement that a distance exists that needs to be traversed from origin to target (to solve the general problem intent of 'moving from origin to target')
+          - identify cause of problem
+            - cause: 'distance between origin & target'
+          - identify functions that solve cause of problem & check if they have side effects that maintain the problem or if they solve the problem
+            - 'distance-reduction' functions are relevant to solve the cause of this problem (the distance between origin & target)
+              - 'reducing' the distance to traverse is one way of implementing the general intent of 'moving from origin to target'
+              - 'reducing' the cost of travel is another way of implementingn the general intent of 'moving from origin to target'
+
+      - example: what does this mean for the 'find a prediction function' problem?
+        - 'find a space that reduces differences' implementation workflow could be implemented as follows, connected to the 'to identify difference causes & solutions in each dimension change' as a way to connect to general intent of 'find a prediction function'
+          - find dimension set where problem/solution are equal
+          - change dimension set until problem/solution are increasingly different
+            - each dimension change is a possible cause of problem/solution difference
+            - find solutions to each difference type in that dimension set
 
     - ai measures variance of a specific variable structure type
       - example: 
