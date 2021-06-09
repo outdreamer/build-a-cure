@@ -6,8 +6,10 @@
 
     - add to solution automation workflow implementation workflows
 
-      - problem-solution interaction structures as a set of solution automation workflows
-        - example: 'opposite', 'neutralization', 'completion/interlocking', or 'contradiction' structures are useful for optimizing interactions between problem/solution pairs, where the problem is the difference between them that should be reduced, or the lack of connection between them, or the existence of the problem that needs to be opposed, since 'neutralization' structures are by default coordinating/interactive/completing structures, so a check for problem/solution fit can be skipped
+      - add other problem-solution interaction structures to solution automation workflows
+        - example: 
+          - 'opposite', 'neutralization', 'completion/interlocking', or 'contradiction' structures are useful for optimizing interactions between problem/solution pairs, where the problem is the difference between them that should be reduced, or the lack of connection between them, or the existence of the problem that needs to be opposed, since 'neutralization' structures are by default coordinating/interactive/completing structures, so a check for problem/solution fit can be skipped
+          - 'alternative' structures are useful for problems like 'lack of optimal solutions'
 
       - solution variable interaction rules as a way of generating/filtering solutions
         - example: 'solution variable reusability tends to contradict solution variable specificity, so avoid solutions with high reusability when a custom/new solution specific to a problem is required'
