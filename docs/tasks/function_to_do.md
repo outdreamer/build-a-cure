@@ -14,16 +14,38 @@
           - find difference of points from an average, given conceptual definition of the average as a useful prediction tool by definition of probability
           - find other conceptual definitions that apply to the prediction problem & apply them instead of the average
         - these solutions vary on metrics like inputs, side effects, speed, robustness, accuracy, and meaning, which vary on usefulness, so apply solution metric prioritization functions to select a solution
-          - usually solutions with a basis on meaning perform better, so select these where possible
+          - usually solutions with a basis on meaning perform better bc theyre powered by understanding, so select these where possible
           - if not possible, select solutions that fulfill more higher-priority metrics
           - if there are no solutions fulfilling more higher-priority metrics, assign a different prioritization scheme and apply that filter
           - otherwise apply other standard system optimization functions, like 'avoid side effects'
           - derive & apply solution metric filters from problem statement, problem space & problem system, & solution usage intent stack
 
+      - add to finding new error types & solution automation workflows in a given problem system
+
+        - map differences to distances in various dimension sets & try every combination of difference reduction
+          - differences including legitimate variables, differences between correct/incorrect values of components like intended outputs & required inputs, differences between formats
+          - the differences that successfully produce a solution 
+            - when reduced are probably errors
+            - when added are probably solution automation workflows
+
+        - identify how problems develop to identify components to understand/solve (prevent, reduce, contain, oppose, use) them
+          - how does a prediction function problem develop? 
+            - when there are many variables interacting & many variable interaction types & random injection points (a problem of complexity)
+            - identify & solve the cause of this complexity problem:
+              - decomposing variable interactions & how they develop can solve prediction function problems
+
       - add other problem-solution interaction structures to solution automation workflows
+
         - example: 
           - 'opposite', 'neutralization', 'completion/interlocking', or 'contradiction' structures are useful for optimizing interactions between problem/solution pairs, where the problem is the difference between them that should be reduced, or the lack of connection between them, or the existence of the problem that needs to be opposed, since 'neutralization' structures are by default coordinating/interactive/completing structures, so a check for problem/solution fit can be skipped
           - 'alternative' structures are useful for problems like 'lack of optimal solutions'
+
+        - identify problem interaction functions
+          - primary problem-interaction functions include:
+            - prevent, reduce, contain, remove, oppose, use
+          - these can be used as primary interface query intents ('find cause to find preventative solution structures', 'find alternative intents of the problem to find usage solution structures')
+          - problem interaction functions are variables of the solution automation workflow
+            - problem interface functions can be changed to use a different workflow
 
       - solution variable interaction rules as a way of generating/filtering solutions
         - example: 'solution variable reusability tends to contradict solution variable specificity, so avoid solutions with high reusability when a custom/new solution specific to a problem is required'
