@@ -21,11 +21,22 @@
               - 'reducing' the cost of travel is another way of implementingn the general intent of 'moving from origin to target'
 
       - example: what does this mean for the 'find a prediction function' problem?
+
         - 'find a space that reduces differences' implementation workflow could be implemented as follows, connected to the 'to identify difference causes & solutions in each dimension change' as a way to connect to general intent of 'find a prediction function'
           - find dimension set where problem/solution are equal
           - change dimension set until problem/solution are increasingly different
             - each dimension change is a possible cause of problem/solution difference
             - find solutions to each difference type in that dimension set
+
+        - dimension sets could include formats like:
+          - probability distribution
+          - series/sequence or area format
+          - adjacent functions
+          - function subsets
+          - core functions
+          - type point sets
+          - root sets/patterns of various adjacent functions
+          - function patterns
 
     - ai measures variance of a specific variable structure type
       - example: 
