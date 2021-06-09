@@ -41,9 +41,11 @@
           - 'alternative' structures are useful for problems like 'lack of optimal solutions'
 
         - identify problem interaction functions
-          - primary problem-interaction functions include:
-            - prevent, reduce, contain, remove, oppose, use
-          - these can be used as primary interface query intents ('find cause to find preventative solution structures', 'find alternative intents of the problem to find usage solution structures')
+          - primary problem-interaction functions include the following, depending on adjacent problem structures (problem existence, a lack, a lack of time, an incorrect position, a lack of usefulness, a structure to fill, problem difference from solution)
+            - identify, prevent, reduce, contain, remove, oppose, use, convert, fill, understand, approximate
+          - these can be used as primary interface query intents
+            - 'find cause to find preventative solution structures'
+            - 'find alternative intents of the problem to find usage solution structures'
           - problem interaction functions are variables of the solution automation workflow
             - problem interface functions can be changed to use a different workflow
 
