@@ -4,6 +4,18 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
+    - ai measures variance of a specific variable structure type
+      - example: 
+        - an image categorization algorithm measures variance in variable position, in formats where variable position is uncertain, like images
+        - apply attributes useful for position-differentiation & position-grouping (like adjacence) to a standard algorithm
+          - apply combinations of adjacent data as input to look for features in combinations, rather than standard unit input
+        - why this works:
+          - features tend to have position patterns
+          - features tend to have relative position patterns
+          - a way of measuring relative position is by combining adjacent features
+
+      - make list of variable structure variables measured by algorithms & why they are measured by a network algorithm
+
     - ai assumptions
       - ai assumes that there is a causal node (indicating a source reason) for a pattern that is relevant to the problem ai is applied for
         - assumes 'if a group is associated with x, there must be a reason for that'
