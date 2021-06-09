@@ -6,6 +6,20 @@
 
     - add to solution automation workflow implementation workflows
 
+      - add to interface query-selection workflows
+        - for the 'find a prediction function' problem, which of the following solutions do you select:
+          - start by averaging subsets of points or generating functions connecting point subsets and weighting them
+          - identify core functions or base functions of prediction functions & apply changes according to function distortion patterns
+          - assume that the function should be broken into subsets and that not all the variables are interactive
+          - find difference of points from an average, given conceptual definition of the average as a useful prediction tool by definition of probability
+          - find other conceptual definitions that apply to the prediction problem & apply them instead of the average
+        - these solutions vary on metrics like inputs, side effects, speed, robustness, accuracy, and meaning, which vary on usefulness, so apply solution metric prioritization functions to select a solution
+          - usually solutions with a basis on meaning perform better, so select these where possible
+          - if not possible, select solutions that fulfill more higher-priority metrics
+          - if there are no solutions fulfilling more higher-priority metrics, assign a different prioritization scheme and apply that filter
+          - otherwise apply other standard system optimization functions, like 'avoid side effects'
+          - derive & apply solution metric filters from problem statement, problem space & problem system, & solution usage intent stack
+
       - add other problem-solution interaction structures to solution automation workflows
         - example: 
           - 'opposite', 'neutralization', 'completion/interlocking', or 'contradiction' structures are useful for optimizing interactions between problem/solution pairs, where the problem is the difference between them that should be reduced, or the lack of connection between them, or the existence of the problem that needs to be opposed, since 'neutralization' structures are by default coordinating/interactive/completing structures, so a check for problem/solution fit can be skipped
