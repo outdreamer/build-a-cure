@@ -21,6 +21,10 @@
 
       - just like you can use error structures to find solutions, you can use certainty structures to find solutions, because:
         - logic relies on certain/probable equivalents to make connections between rules involving equivalent components
+        - filtering solutions with metrics rely on calculations determining a certainty in the form of a relationship between actual solution implementation value & optimal solution threshold/filter value
+        - uncertainties are a source of error
+        - solutions add organization to systems with uncertainty/randomness/chaos, and organization relies on structure (certainty being a proxy of structure bc it is a generator/output of structure)
+        - structures (certainties) act like a resource, producing info that can be used for learning
 
     - add to error type interaction rules
       - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules or solution structures)'
