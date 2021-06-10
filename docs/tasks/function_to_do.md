@@ -4,19 +4,27 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
-    - error type interaction rules
-      - error types can lead to other error types, but also to learning (new error types or error interaction rules)
-        - the human brain tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
-          - this means that when one error type is repeated, like over-prioritization of something, that abstract error type is likelier to be repeated (over-prioritization of things in general)
+    - add to error type interaction rules
+      - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules)'
+        - example: the human brain (and AI based on it) tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
+          - this means that when one error type is repeated, like over-prioritization of something, that abstract error type is likelier to be repeated (over-prioritization of things in general) 
+            - this is bc the brain doesnt always store specific details, but the general pattern of how info interacts, so it often applies that pattern rule where its not needed or where its sub-optimal, bc info with similar patterns can be very different in context/meaning & required usage or supported usage intents
           - by over-prioritizing patterns as a source of useful info, error types are likelier to be repeated (with other variants of the abstract error type)
           - over-prioritization of other things can lead to other error types, which can lead to learning if used correctly (if the brain is aware of this process & is looking for new error types or repeated error types or variants of a repeated error type)
-        - why does over-prioritization of patterns lead to a pattern of over-prioritization?
-          - patterns lead to repetition, which leads to over-prioritization
-          - a pattern-focused brain will therefore prioritize over-prioritization, by repeating it
-          - repeating something is a pattern
-          - a pattern focused-brain will make a pattern out of over-prioritization
-        - however, some structures can prevent this error, like prioritizing identifying error types, allowing them to occur where useful & using them as an input to learning
-          - in this case, a pattern of over-prioritization errors would lead to fewer errors rather than more over-prioritization errors
+          - why does over-prioritization of patterns lead to a pattern of over-prioritization?
+            - the logic interface connects these (using definitions, equivalent components across logical rules, & interaction functions)
+              - patterns lead to repetition, which leads to over-prioritization
+              - a pattern-prioritizing brain will therefore prioritize over-prioritization, by repeating it
+              - repeating something is a pattern
+              - a pattern-prioritizing brain will make a pattern out of over-prioritization
+          - however, some structures can prevent this error, like prioritizing identifying error types, allowing them to occur where useful & using them as an input to learning
+            - in this case, a pattern of over-prioritization errors would lead to fewer errors rather than more over-prioritization errors
+        - example: 
+          - copying the human brain as a source of structures to implement in algorithms to copy methods of generating solutions also copies the errors of the human brain like bias
+          - copying physics structures like rules to prevent error types in info processing (rules like 'identifying lack of information to solve a problem', 'identifying its own over-prioritization of patterns over meaning', 'identifying its own incentives towards cheaper solutions') can help prevent this copying error of copying the exact structure to minimize work of improving the output with structural modifications
+        - example: 
+          - an error in selecting a prediction function will output errors in predictions made using it
+          - this can be offset by weighting the predicting function or using it only according to its known error types
 
     - example of 'self-defeating' error type: killing their people to protect cultural artifacts that were only meaningful to the people being killed to protect them
       - this is also an example of error types:
