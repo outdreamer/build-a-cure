@@ -21,7 +21,7 @@
             - in this case, a pattern of over-prioritization errors would lead to fewer errors rather than more over-prioritization errors
         - example: 
           - stupidly copying the human brain as a source of structures to implement in algorithms to copy methods of generating solutions also copies the errors of the human brain like bias
-          - copying physics structures like 'rules to prevent info processing error types' can help prevent this error of stupidly copying the brain structure as it is to minimize work of improving the output with structural modifications
+          - copying physics structures like efficiencies such as 'rules to filter out info processing error types' can help prevent this error of stupidly copying the brain structure as it is to minimize work of improving the output with structural modifications
             - rules like:
               - 'identifying lack of information or other resources required to solve a problem'
               - 'identifying its own assumptions that may not be constant'
@@ -33,8 +33,26 @@
             - identify over-prioritization of patterns: identifying the patterns in a data set accurately but not identifying the meaning of those patterns (the reason/cause of the pattern is 'researcher injecting bias')
             - identifying incentives prioritizing cheap solutions: identifying & implementing a low-cost solution like regression or Ai without recognizing efficiencies gained from other more expensive solutions that will produce cheaper solutions in future resolutions of this problem type
         - example: 
-          - an error in selecting a prediction function will output errors in predictions made using it
-          - this can be offset by weighting the predicting function or using it only according to its known error types
+          - an error in selecting a prediction function will output errors in components depending on it (users of predictions made using the function)
+          - this can be offset by weighting the predicting function or using it only according to its known error types (when those error type cases dont apply) or distorting it to handle known error types
+
+        - using error type interaction rules to predict other error types
+          - by knowing that 'over-prioritization' is an error type, we can see that 'over-prioritizing constants/assumptions' can generate errors, before a constant or assumption generates an error
+          - by knowing that 'cheaper solutions are incentivized', we can see that 'assumptions/constants' are a cheap resource and are therefore a possible source of error
+
+        - using error type interaction rules to predict solution structures
+          - by knowing that 'cheaper solutions are incentivized', we can infer by applying the logic interface that:
+            - 'cheap solutions often help fulfill intents optimally' 
+              - 'a solution can be composed at least in part from efficiencies like low-cost solutions'
+              - 'there may be efficiencies available in the system bc of this rule that will help with any given problem-solving intent'
+                - 'bc if its a problem, there is a reason for the intent'
+                  - 'so given that an agent will benefit from solving the problem'
+                    - 'there is a way to solve it'
+                    - 'if there is one way, there are likely other ways'
+                    - 'of these other ways, some are more efficient than others'
+                    - 'if its a problem, its probably complex'
+                      - 'in a complex system, there will be at least some efficiencies'
+                        - 'some of these efficiencies may be usable to fulfill the agent intent'
 
     - example of 'self-defeating' error type: killing their people to protect cultural artifacts that were only meaningful to the people being killed to protect them
       - this is also an example of error types:
