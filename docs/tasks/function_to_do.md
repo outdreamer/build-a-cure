@@ -10,6 +10,7 @@
           - prioritizing property (buildings, land) over human potential
             - humans can build property and give it meaning or take it away
           - prioritizing similarity
+            - protecting what they can see & what is nearby
             - protecting anything similar to or related to themselves rather than empathizing or thinking
             - blaming dissimilar groups (the US & Russia) for their own violence
             - blaming the enemy (Israel & Palestine) for their own violence
@@ -33,13 +34,17 @@
           - false perspective of seeing themselves as a set of attributes rather than a dynamic individual capable of something other than defaults
             - seeing themselves as static attributes like an ethnicity, or having static roles like a citizen of a country, a victim
             - seeing themselves as unable to avoid defaults like 'minimizing cost (by prioritizing similarity/simplicity)' or 'applying biased decision rules'
-          - false perspective of prioritizing 'protecting their own people' or 'dying a local hero' instead of 'fixing human nature'
-          - false perspective of meaninglessness, where only meaning is in another dimension, when it's actually wherever you create it (by creating understanding & sharing it so other people can evolve)
-          - false perspective of peer pressure being truth, when large groups of people are regularly wrong bc theyre just saying whatever feels good rather than what is true & they confuse good feelings with truth so they never evolve past that to develop a brain that can make the truth good (using science, meaning, understanding, potential or another interface)
+          - false perspective of prioritizing addressing local recent intents like 'protecting their own people temporarily' or 'dying a local temporary hero' instead of addressing root cause by 'fixing human nature globally'
+          - false perspective of meaninglessness, where only meaning is in another dimension
+            - meaning is wherever you create it (by creating understanding/science & other useful resources & sharing them so other people can evolve)
+          - false perspective of peer pressure (social confirmation) being truth
+            - large groups of people are regularly wrong bc theyre just saying whatever feels good rather than what is true & they confuse good feelings with truth so they never evolve past that to develop a brain that can make the truth good (using science, meaning, understanding, potential or another interface)
           - false perspective of fighting individuals who are members of an enemy group, rather than fighting mental errors
             - fight mental errors like bias, incorrect perspective/priority, lack of thinking/understanding/information with tools like education in the form of understanding of mental errors & their causes, & information about solutions
           - false perspective of impossibility of fixing a crime (criminals can do useful work to help victims, even if it doesn't completely fix the crime)
-          - false perspective of 
+          - false perspective of taking assumptions/defaults/current state or current cycle as constant & unchangeable
+          - false perspective of ignoring the output/impact/endgame
+            - what is their plan if the violence continues and shooting one additional person doesnt fix the violence
 
         - not analyzing causes that tend to lead to violence
           - violence
