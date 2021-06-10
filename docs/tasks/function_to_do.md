@@ -4,10 +4,18 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
-    - components that are relevant to solutions
+    - components that are relevant to solutions (other than primary interface components or interface query or solution automation workflow generating the query)
       - errors (opposite of solutions)
-      - certainties
-        - requirements (solution filters/limits)
+      - connections between solution/problem components & their interaction rules & patterns 
+        - patterns of these components interactions can be used to find solutions
+          - connections between:
+            - solution/problem
+            - solution automation workflow and interface query
+            - solution automation workflow & solution implementation
+            - problem & solution metric filters derived from it
+      - possibilities (solution space)
+      - certainties (solution components & filters)
+        - requirements (solution requirements as filters/limits)
         - inevitabilities
         - equivalents
         - constants
@@ -15,6 +23,7 @@
         - probabilities (approximations of certainty)
           - commonalities
             - averages/centers
+          - adjacencies
           - ranges
           - distribution
           - patterns
