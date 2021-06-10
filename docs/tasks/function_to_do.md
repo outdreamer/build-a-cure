@@ -21,10 +21,15 @@
 
       - just like you can use error structures to find solutions, you can use certainty structures to find solutions, because:
         - logic relies on certain/probable equivalents to make connections between rules involving equivalent components
-        - filtering solutions with metrics rely on calculations determining a certainty in the form of a relationship between actual solution implementation value & optimal solution threshold/filter value
-        - uncertainties are a source of error
+        - 'filtering solutions with metrics' relies on calculations determining a certainty in the form of a relationship between actual solution implementation value & optimal solution threshold/filter value & a certain limit in the metric value (a requirement of the solution)
+        - uncertainties are more often a source of error than a source of solutions
         - solutions add organization to systems with uncertainty/randomness/chaos, and organization relies on structure (certainty being a proxy of structure bc it is a generator/output of structure)
         - structures (certainties) act like a resource, producing info that can be used for learning
+        - certainty is more related to equivalents than errors are (errors being an incorrect/sub-optimal value, or a mismatch between the actual & optimal value)
+        - solutions must be built on understanding to be actually robust, and understanding can use certainties as an input
+        - if you have enough certainty structures, you can rule out error structures in a system
+        - certainty structures interact in a way that can produce other certainties
+          - if applied in the right way, incentives can create a guaranteed outcome (where the cost of avoiding the incentives is too high and there isnt a reason to avoid them), generating a certainty, which can be used as a resource (like an assumption that can be relied on to build solutions on top of)
 
     - add to error type interaction rules
       - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules or solution structures)'
