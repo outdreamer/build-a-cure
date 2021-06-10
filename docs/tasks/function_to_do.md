@@ -4,8 +4,26 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
+    - components that are relevant to solutions
+      - errors (opposite of solutions)
+      - certainties
+        - requirements (solution filters/limits)
+        - inevitabilities
+        - equivalents
+        - constants
+        - stabilities
+        - probabilities (approximations of certainty)
+          - commonalities
+            - averages/centers
+          - ranges
+          - distribution
+          - patterns
+
+      - just like you can use error structures to find solutions, you can use certainty structures to find solutions, because:
+        - logic relies on certain/probable equivalents to make connections between rules involving equivalent components
+
     - add to error type interaction rules
-      - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules)'
+      - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules or solution structures)'
         - example: the human brain (and AI based on it) tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
           - this means that when one error type is repeated, like over-prioritization of something, that abstract error type is likelier to be repeated (over-prioritization of things in general) 
             - this is bc the brain doesnt always store specific details, but the general pattern of how info interacts, so it often applies that pattern rule where its not needed or where its sub-optimal, bc info with similar patterns can be very different in context/meaning & required usage or supported usage intents
@@ -38,9 +56,9 @@
 
         - using error type interaction rules to predict other error types
           - by knowing that 'over-prioritization' is an error type, we can see that 'over-prioritizing constants/assumptions' can generate errors, before a constant or assumption generates an error
-          - by knowing that 'cheaper solutions are incentivized', we can see that 'assumptions/constants' are a cheap resource and are therefore a possible source of error, before they generate en error (before we see them generate an error)
+          - by knowing that 'cheaper solutions are incentivized (meaning low-cost, even though theyre not necessarily optimal)', we can see that 'assumptions/constants' are a cheap resource and are therefore a possible source of error, before they generate en error (before we see them generate an error)
             - for 'find a prediction function' problem, the assumptions that are cheap error-causing resources may be assumptions of components of the solution or the method used to solve the problem
-              - assumptions that data set variables should be primary components of the solution, which is found with regression
+              - assumptions that data set variables should be primary components of the solution, which is found with a method like regression
               - as opposed to using higher-value components like understanding of:
                 - how patterns interact & develop & the cause/reason for them
                   - sufficiently similar patterns may merge into a type or compete for dominance or cooperate for efficiency
