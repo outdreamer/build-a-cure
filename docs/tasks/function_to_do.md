@@ -4,6 +4,20 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
+    - error type interaction rules
+      - error types can lead to other error types, but also to learning (new error types or error interaction rules)
+        - the human brain tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
+          - this means that when one error type is repeated, like over-prioritization of something, that abstract error type is likelier to be repeated (over-prioritization of things in general)
+          - by over-prioritizing patterns as a source of useful info, error types are likelier to be repeated (with other variants of the abstract error type)
+          - over-prioritization of other things can lead to other error types, which can lead to learning if used correctly (if the brain is aware of this process & is looking for new error types or repeated error types or variants of a repeated error type)
+        - why does over-prioritization of patterns lead to a pattern of over-prioritization?
+          - patterns lead to repetition, which leads to over-prioritization
+          - a pattern-focused brain will therefore prioritize over-prioritization, by repeating it
+          - repeating something is a pattern
+          - a pattern focused-brain will make a pattern out of over-prioritization
+        - however, some structures can prevent this error, like prioritizing identifying error types, allowing them to occur where useful & using them as an input to learning
+          - in this case, a pattern of over-prioritization errors would lead to fewer errors rather than more over-prioritization errors
+
     - example of 'self-defeating' error type: killing their people to protect cultural artifacts that were only meaningful to the people being killed to protect them
       - this is also an example of error types:
         - bias:
@@ -39,6 +53,7 @@
             - meaning is wherever you create it (by creating understanding/science & other useful resources & sharing them so other people can evolve)
           - false perspective of peer pressure (social confirmation) being truth
             - large groups of people are regularly wrong bc theyre just saying whatever feels good rather than what is true & they confuse good feelings with truth so they never evolve past that to develop a brain that can make the truth good (using science, meaning, understanding, potential or another interface)
+            - this social confirmation of lies leads to cascades of stupidity
           - false perspective of fighting individuals who are members of an enemy group, rather than fighting mental errors
             - fight mental errors like bias, incorrect perspective/priority, lack of thinking/understanding/information with tools like education in the form of understanding of mental errors & their causes, & information about solutions
           - false perspective of impossibility of fixing a crime (criminals can do useful work to help victims, even if it doesn't completely fix the crime)
