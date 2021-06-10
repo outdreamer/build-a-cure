@@ -4,6 +4,36 @@
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
 
+    - example of 'self-defeating' error type: killing their people to protect cultural artifacts that were only meaningful to the people being killed to protect them
+      - this is also an example of error types:
+        - bias:
+          - prioritizing property (buildings, land) over human potential
+          - prioritizing similarity
+            - protecting anything similar to or related to themselves rather than empathizing or thinking
+            - blaming dissimilar groups (the US & Russia) for their own violence
+            - blaming the enemy (Israel & Palestine) for their own violence
+            - blaming the past & the dead for their own violence (they did it to avenge someone dead, or bc they had to fulfill their family legacy of the feud, or for 'their ancestors' or 'their people/tribe')
+            - blaming the future or people who will be alive in the future (they did it to protect future generations, or their own children, when they primarily put them in danger by maintaining the feud)
+          - prioritizing simplicity
+            - not thinking about impact of decisions, which is to hurt their cause, their claimed priorities, their culture, & themselves
+            - not switching strategies when one clearly doesnt work
+            - focusing on protecting property bc its simpler to protect an object that can be seen & touched
+            - remaining in the one place where they'll almost certainly die a preventable death without fulfilling their goals bc its easier to be a victim & they think theyll be glorified if theyre a victim
+          - perspective of seeing themselves as a set of attributes (as static attributes like an ethnicity, or having roles like a citizen of a country, a victim) rather than a dynamic individual capable of something other than defaults or minimizing cost or applying biased decision rules
+        - not analyzing causes that tend to lead to violence
+          - violence
+          - being physically adjacent to the enemy
+          - having weapons
+          - provoking the enemy
+          - not showing difference from other victims
+          - not showing similarities or the potential to be similar to enemies
+          - not helping enemy or trying to help in some intentional way
+          - not showing potential to think
+          - not showing empathy
+          - showing too much weakness
+          - condemning the enemy (saying everything about their group is wrong without acknowledging counterexamples)
+        - not focusing on solutions or thinking
+
     - add to solution automation workflow implementation workflows
 
       - add to interface query-selection workflows
