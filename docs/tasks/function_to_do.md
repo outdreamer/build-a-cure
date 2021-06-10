@@ -8,6 +8,7 @@
       - this is also an example of error types:
         - bias:
           - prioritizing property (buildings, land) over human potential
+            - humans can build property and give it meaning or take it away
           - prioritizing similarity
             - protecting anything similar to or related to themselves rather than empathizing or thinking
             - blaming dissimilar groups (the US & Russia) for their own violence
@@ -17,9 +18,29 @@
           - prioritizing simplicity
             - not thinking about impact of decisions, which is to hurt their cause, their claimed priorities, their culture, & themselves
             - not switching strategies when one clearly doesnt work
+            - focusing on short-term goals that dont help their cause, like: 
+              - 'bombing the correct position'
+              - 'dodging bomb'
+              - 'being a glorified heroic victim' 
+            rather than long-term goals (or short-term goals that help fulfill long-term goals) like:
+              - 'building a safe peaceful place for culture to survive/thrive'
+              - 'saving money to move to a place where they can have time to think of solutions' 
+              - 'manage emotions to make rational decisions by thinking'
+              - 'organizing to help both groups understand how to think & come up with solutions'
+              - 'come up with good arguments or inventions to convince other side not to fight them'
             - focusing on protecting property bc its simpler to protect an object that can be seen & touched
             - remaining in the one place where they'll almost certainly die a preventable death without fulfilling their goals bc its easier to be a victim & they think theyll be glorified if theyre a victim
-          - perspective of seeing themselves as a set of attributes (as static attributes like an ethnicity, or having roles like a citizen of a country, a victim) rather than a dynamic individual capable of something other than defaults or minimizing cost or applying biased decision rules
+          - false perspective of seeing themselves as a set of attributes rather than a dynamic individual capable of something other than defaults
+            - seeing themselves as static attributes like an ethnicity, or having static roles like a citizen of a country, a victim
+            - seeing themselves as unable to avoid defaults like 'minimizing cost (by prioritizing similarity/simplicity)' or 'applying biased decision rules'
+          - false perspective of prioritizing 'protecting their own people' or 'dying a local hero' instead of 'fixing human nature'
+          - false perspective of meaninglessness, where only meaning is in another dimension, when it's actually wherever you create it (by creating understanding & sharing it so other people can evolve)
+          - false perspective of peer pressure being truth, when large groups of people are regularly wrong bc theyre just saying whatever feels good rather than what is true & they confuse good feelings with truth so they never evolve past that to develop a brain that can make the truth good (using science, meaning, understanding, potential or another interface)
+          - false perspective of fighting individuals who are members of an enemy group, rather than fighting mental errors
+            - fight mental errors like bias, incorrect perspective/priority, lack of thinking/understanding/information with tools like education in the form of understanding of mental errors & their causes, & information about solutions
+          - false perspective of impossibility of fixing a crime (criminals can do useful work to help victims, even if it doesn't completely fix the crime)
+          - false perspective of 
+
         - not analyzing causes that tend to lead to violence
           - violence
           - being physically adjacent to the enemy
@@ -31,7 +52,7 @@
           - not showing potential to think
           - not showing empathy
           - showing too much weakness
-          - condemning the enemy (saying everything about their group is wrong without acknowledging counterexamples)
+          - condemning the enemy (saying everything about their group is negative when it's not, without acknowledging any counterexamples)
         - not focusing on solutions or thinking
 
     - add to solution automation workflow implementation workflows
