@@ -38,7 +38,17 @@
 
         - using error type interaction rules to predict other error types
           - by knowing that 'over-prioritization' is an error type, we can see that 'over-prioritizing constants/assumptions' can generate errors, before a constant or assumption generates an error
-          - by knowing that 'cheaper solutions are incentivized', we can see that 'assumptions/constants' are a cheap resource and are therefore a possible source of error
+          - by knowing that 'cheaper solutions are incentivized', we can see that 'assumptions/constants' are a cheap resource and are therefore a possible source of error, before they generate en error (before we see them generate an error)
+            - for 'find a prediction function' problem, the assumptions that are cheap error-causing resources may be assumptions of components of the solution or the method used to solve the problem
+              - assumptions that data set variables should be primary components of the solution, which is found with regression
+              - as opposed to using higher-value components like understanding of:
+                - how patterns interact & develop & the cause/reason for them
+                  - sufficiently similar patterns may merge into a type or compete for dominance or cooperate for efficiency
+                  - patterns develop when there is structural stability to support their development (causal structures are constant enough to rely on so they repeat and form a pattern)
+                - how variables interact & develop & the cause/reason for them
+                  - how change occurs within a variable to identify corrupt data
+                  - how variable types interact
+                  - how variable interact (by positional adjacence, input/output connections, similarities)
 
         - using error type interaction rules to predict solution structures
           - by knowing that 'cheaper solutions are incentivized', we can infer by applying the logic interface that:
