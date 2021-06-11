@@ -27,6 +27,8 @@
               - the position of this particular info relative to the other outputs 
               doesnt fit the concept of 'description'
               - the distortion on the symmetry of the energy unit relative to distortions on equal, adjacent or otherwise related energy units as a source of balance/equilibrium for a field of related energy units
+          - info formatted as similarity/difference from other info 
+            - what 'an energy unit's position can be' is something that can be described by its similarity/difference to other info, or even equivalence to other info if there info alternatives, info interchangeables, info substitutes, info approximations, or info proxies that are sufficient to replace the info
 
     - determining the maximum error/difference that a difference type can produce can be scaled to calculate other limits on errors, like the limit of differences in infinite sequences
       - a pair of infinite sequences that differ only by one value has an upper limit on how different they (& the outputs of operations on them) can be
