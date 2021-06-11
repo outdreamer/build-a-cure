@@ -54,6 +54,8 @@
         - a 'change' translated to a 'difference' on other interfaces
         - 'useful' translated to structures like 'relatively good at producing outputs that are inputs to other components' on the function interface
 
+    - apply error interaction rules to identify error structures (missing/imminent/conditional) of error types (missing error types, imminent error types, conditional error types) on interfaces
+
     - identifying the error structures in the interface query or insight path used to generate/derive/find a function/insight can identify error structures in the insight, so its useful to store the context to which the interface query/insight path was applied to generate/derive/find the insight/function
         - similarly, error structures that are inputs to a problem space (missing info, lack of understanding, etc) can identify/predict error structures in solutions in that space
 
