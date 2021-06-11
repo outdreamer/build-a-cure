@@ -30,6 +30,14 @@
           - info formatted as similarity/difference from other info 
             - what 'an energy unit's position can be' is something that can be described by its similarity/difference to other info, or even equivalence to other info if there info alternatives, info interchangeables, info substitutes, info approximations, or info proxies that are sufficient to replace the info
 
+    - filter components by uniqueness in structure & usage
+      - derive a set of functions to solve all problems by:
+        - generating a 'difference type-handling function' selection function
+        - identifying unique difference/error types & generating functions to handle those difference types, so when one fails, another can be selected
+        - generating a function to identify new difference types (in the set of functions, in itself, in solution metrics, and other component combinations)
+      - this function set & its alternate versions will reflect possible versions of the forces of an accurate (effectively predictive) physics model
+      - which function set is the real function set (or the function set describing or determining reality) is probably an invalid question, as different function set versions are relevant in different contexts having different probabilities that may even change if function set versions have forces governing them so they change over time, as may the central origin function set representing the base for distortions, and different function sets may have different roles in generating/determining/describing reality
+
     - determining the maximum error/difference that a difference type can produce can be scaled to calculate other limits on errors, like the limit of differences in infinite sequences
       - a pair of infinite sequences that differ only by one value has an upper limit on how different they (& the outputs of operations on them) can be
       - this difference limit can be scaled & extended to other parameters of operations
