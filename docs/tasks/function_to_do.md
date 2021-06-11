@@ -47,15 +47,21 @@
       - which function set is the real function set (or the function set describing or determining reality) is probably an invalid question, as different function set versions are relevant in different contexts having different probabilities that may even change if function set versions have forces governing them so they change over time, as may the central origin function set representing the base for distortions, and different function sets may have different roles in generating/determining/describing reality
       - the 'true' format of reality may not involve just a function set, but rather a function set with other structures (like specific inputs/outputs, a network of function sets, a set of change functions to the function sets, a set of usages of the function set, etc)
 
-    - add to error type identification
-      - identifying the error structures in the interface query or insight path used to generate/derive/find a function/insight can identify error structures in the insight, so its useful to store the context to which the interface query/insight path was applied to generate/derive/find the insight/function
+  - add to error type identification
+    - identify error structures on interfaces & apply across interfaces
+      - an error structure on the change interface is 'changes that develop with no relevant or useful usage intent' which can be used to identify errors across interfaces or formatted as error structures on other interfaces
+        - a 'change type' translated to a 'variable' on other interfaces
+        - a 'change' translated to a 'difference' on other interfaces
+        - 'useful' translated to structures like 'relatively good at producing outputs that are inputs to other components' on the function interface
+
+    - identifying the error structures in the interface query or insight path used to generate/derive/find a function/insight can identify error structures in the insight, so its useful to store the context to which the interface query/insight path was applied to generate/derive/find the insight/function
         - similarly, error structures that are inputs to a problem space (missing info, lack of understanding, etc) can identify/predict error structures in solutions in that space
 
-      - determining the maximum error/difference that a difference type can produce can be scaled to calculate other limits on errors, like the limit of differences in infinite sequences
+    - determining the maximum error/difference that a difference type can produce can be scaled to calculate other limits on errors, like the limit of differences in infinite sequences
         - a pair of infinite sequences that differ only by one value has an upper limit on how different they (& the outputs of operations on them) can be
         - this difference limit can be scaled & extended to other parameters of operations
 
-    - add to solution/error filtering structures
+  - add to solution/error filtering structures
       - energy interaction rules can be used to predict/derive info interaction rules
         - this is bc info stores energy (usually as approximations), and info interacts with other info according to energy interactions like potential, variability, interactivity, etc
           - example: change cascades (functions with non-constantly changing values) can predict structures governed by momentum (like a bouncing ball), given how momentum changes a value non-constantly
