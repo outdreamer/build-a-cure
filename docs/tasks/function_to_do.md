@@ -58,6 +58,8 @@
     - add to solution/error filtering structures
       - energy interaction rules can be used to predict/derive info interaction rules
         - this is bc info stores energy (usually as approximations), and info interacts with other info according to energy interactions like potential, variability, interactivity, etc
+          - example: change cascades (functions with non-constantly changing values) can predict structures governed by momentum (like a bouncing ball), given how momentum changes a value non-constantly
+          - other energy interactions can predict info structures useful for describing/deriving connections given structural similarities like equivalences/patterns/types/opposites that the energy & info interactions have in common
 
     - components that are relevant to solutions (other than primary interface components or interface query or solution automation workflow generating the query)
 
