@@ -50,6 +50,10 @@
       - the 'true' format of reality may not involve just a function set, but rather a function set with other structures (like specific inputs/outputs, a network of function sets, a set of change functions to the function sets, a set of usages of the function set, etc)
 
   - add to error type identification
+
+    - use opposite structures to generate error structures
+      - identify what type of structure doesnt make sense or doesnt fit within a system and find a way connect it to system components/state anyway to see how that error could develop
+
     - identify error structures on interfaces & apply across interfaces
       - an error structure on the change interface is 'changes that develop with no relevant or useful usage intent' which can be used to identify errors across interfaces or formatted as error structures on other interfaces
         - a 'change type' translated to a 'variable' on other interfaces
@@ -117,6 +121,7 @@
         - equivalents
         - constants
         - stabilities
+        - interactivities/coordinations (something is likelier to be true the more it coordinates with current info & adjacent versions of current info)
         - probabilities (approximations of certainty)
           - commonalities
             - averages/centers
