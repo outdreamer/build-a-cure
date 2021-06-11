@@ -29,7 +29,8 @@
               - the distortion on the symmetry of the energy unit relative to distortions on equal, adjacent or otherwise related energy units as a source of balance/equilibrium for a field of related energy units
           - info formatted as similarity/difference from other info 
             - what 'an energy unit's position can be' is something that can be described by its similarity/difference to other info, or even equivalence to other info if there info alternatives, info interchangeables, info substitutes, info approximations, or info proxies that are sufficient to replace the info
-
+            - a 'continuous function' as a description of a field connecting core units of difference (the smallest possible difference, leading to a connection as it becomes equivalent to an equivalence)
+            - 'significant differences' between components is a useful standardizing interface for systems (significant differences from vertexes, from core components, from structures, from defaults)
     - filter components by uniqueness in structure & usage
       - derive a set of functions to solve all problems by:
         - generating a 'difference type-handling function' selection function
