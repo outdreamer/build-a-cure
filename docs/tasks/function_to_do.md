@@ -3,10 +3,10 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
-      - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease? (lol!) feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
+      - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
 
-    - some systems like quantum physics may seem to defy structurization bc they generate info on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves
-      - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one
+    - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
+      - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
       - alternative info formats
         - rather than structurizing info, they can focus on structurizing info probability and relative info
@@ -16,19 +16,20 @@
               - surrounding info
               - info probabilities
               - other info causes than adjacence & patterns, such as stability (info as an energy format that has achieved enough stability to achieve structure)
-          - info formatted as a field or symmetry around a unit of energy, where the field or symmetry is generated by the possible info that can be generated with respect to time, and is governed by forces similar to gravity/magnetism in the form of interactivity & relevance
+          - info formatted as a field or symmetry around a unit of energy (similar to a variable & its probability distribution), where the field or symmetry is generated by the possible info that can be generated with respect to time, and is governed by forces similar to gravity/magnetism in the form of interactivity & relevance
           - info formatted as a sequence of causes, like 'a lack of structures preventing it' or 'an overlap of not-info structures' (rather than info structures)
-          - info formatted as structures of certainty like inevitabilities or requirements
+          - info formatted as structures of certainty like inevitabilities or requirements or interactivity
           - info formatted as a reflection of physical forces interacting & their energy outputs
-          - info formatted as an error of position or isolation assigned to forces' outputs
+          - info formatted as an error of absolute position or isolation (as opposed to relative position) assigned to forces' outputs
             - the idea of describing info is self-invalidating without including:
               - the other outputs of the forces in question
               - the position of the info on the time-based symmetry of the energy unit, which is what may really differentiate it from other related outputs (which may otherwise be equal, so its irrelevant to differentiate them without this attribute)
               - the position of this particular info relative to the other outputs 
               doesnt fit the concept of 'description'
               - the distortion on the symmetry of the energy unit relative to distortions on equal, adjacent or otherwise related energy units as a source of balance/equilibrium for a field of related energy units
-          - info formatted as similarity/difference from other info 
-            - what 'an energy unit's position can be' is something that can be described by its similarity/difference to other info, or even equivalence to other info if there info alternatives, info interchangeables, info substitutes, info approximations, or info proxies that are sufficient to replace the info
+          - info formatted as interactivity with or similarity/difference from other info 
+            - what 'an energy unit's position can be' is something that can be described by its similarity/difference to other info, or even equivalence to other info if there are info alternatives, interchangeables, substitutes, approximations, or proxies that are sufficient to replace the info
+            - a variable formatted as a set of distortions from other variables, leading to the development of the isolated variable capturing a difference type
             - a 'continuous function' as a description of a field connecting core units of difference (the smallest possible difference, leading to a connection as it becomes equivalent to an equivalence)
               - an equivalence between two components must always have some degree of falsehood bc there is no real equivalence possible between two components (one always has at least some difference to the other, even if its just position or probability of existing given the surrounding context)
                 - a method connecting inherently different components typically focuses on their similarities of a particular type (similarity in difference type, similarity in attribute value like position)
@@ -36,6 +37,7 @@
                     - an area calculation focuses on the similarity in difference type between the reference points included (theyre similar in the difference type of 'position', or similar in aggregate group inherent to the difference type of 'aggregate shapes formed by subsets')
                     - area calculations could focus on differences from other related area shapes, differences from other shapes like intersecting lines, differences of boundaries from difference types (like cascading differences created by exponents rather than constant/stable differences like straight lines)
             - 'significant differences' between components is a useful standardizing interface for systems (significant differences from vertexes, from core components, from structures, from defaults)
+
     - filter components by uniqueness in structure & usage
       - derive a set of functions to solve all problems by:
         - generating a 'difference type-handling function' selection function
@@ -45,13 +47,17 @@
       - which function set is the real function set (or the function set describing or determining reality) is probably an invalid question, as different function set versions are relevant in different contexts having different probabilities that may even change if function set versions have forces governing them so they change over time, as may the central origin function set representing the base for distortions, and different function sets may have different roles in generating/determining/describing reality
       - the 'true' format of reality may not involve just a function set, but rather a function set with other structures (like specific inputs/outputs, a network of function sets, a set of change functions to the function sets, a set of usages of the function set, etc)
 
-    - determining the maximum error/difference that a difference type can produce can be scaled to calculate other limits on errors, like the limit of differences in infinite sequences
-      - a pair of infinite sequences that differ only by one value has an upper limit on how different they (& the outputs of operations on them) can be
-      - this difference limit can be scaled & extended to other parameters of operations
-
     - add to error type identification
       - identifying the error structures in the interface query or insight path used to generate/derive/find a function/insight can identify error structures in the insight, so its useful to store the context to which the interface query/insight path was applied to generate/derive/find the insight/function
         - similarly, error structures that are inputs to a problem space (missing info, lack of understanding, etc) can identify/predict error structures in solutions in that space
+
+      - determining the maximum error/difference that a difference type can produce can be scaled to calculate other limits on errors, like the limit of differences in infinite sequences
+        - a pair of infinite sequences that differ only by one value has an upper limit on how different they (& the outputs of operations on them) can be
+        - this difference limit can be scaled & extended to other parameters of operations
+
+    - add to solution/error filtering structures
+      - energy interaction rules can be used to predict/derive info interaction rules
+        - this is bc info stores energy (usually as approximations), and info interacts with other info according to energy interactions like potential, variability, interactivity, etc
 
     - components that are relevant to solutions (other than primary interface components or interface query or solution automation workflow generating the query)
 
