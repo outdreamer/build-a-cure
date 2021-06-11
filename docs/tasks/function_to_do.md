@@ -7,6 +7,9 @@
 
     - some systems like quantum physics may seem to defy structurization bc they generate info on demand from whatever resources are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves
 
+    - identifying the error structures in the interface query or insight path used to generate/derive/find a function/insight can identify error structures in the insight, so its useful to store the context to which the interface query/insight path was applied to generate/derive/find the insight/function
+      - similarly, error structures that are inputs to a problem space (missing info, lack of understanding, etc) can identify/predict error structures in solutions in that space
+
     - components that are relevant to solutions (other than primary interface components or interface query or solution automation workflow generating the query)
 
       - errors (opposite of solutions)
