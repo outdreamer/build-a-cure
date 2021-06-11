@@ -17,6 +17,12 @@
           - info formatted as a sequence of causes, like 'a lack of structures preventing it' or 'an overlap of not-info structures' (rather than info structures)
           - info formatted as structures of certainty like inevitabilities or requirements
           - info formatted as a reflection of physical forces interacting & their energy outputs
+          - info formatted as an error of position or isolation assigned to forces' outputs
+            - the idea of describing info is self-invalidating without including:
+              - the other outputs of the forces in question
+              - the position of the info on the time-based symmetry of the energy unit, which is what may really differentiate it from other related outputs (which may otherwise be equal, so its irrelevant to differentiate them without this attribute)
+              - the position of this particular info relative to the other outputs 
+              doesnt fit the concept of 'description'
 
     - add to error type identification
       - identifying the error structures in the interface query or insight path used to generate/derive/find a function/insight can identify error structures in the insight, so its useful to store the context to which the interface query/insight path was applied to generate/derive/find the insight/function
