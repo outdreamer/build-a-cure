@@ -17,7 +17,7 @@
       - this can be used as a filter when selecting structures like solutions
 
     - add to solution automation workflow insight paths
-    
+
       - identify complex inputs of simple outputs by injecting a specific interaction rule structure
 
       - when outputs are simple (lower-dimensional), but can have many different inputs, the outputs will not accurately be usable to determine the inputs without relevant interaction rule structures to inject understanding of input metadata (input interactions, input probabilities, input causes & intents, input contexts, input context interactions/probabilities/causes/intents)
@@ -43,6 +43,12 @@
           - identify when common outputs would benefit multiple intents, where at least one of the multiple intents has a related intent of obscuring inputs
             - power can obscure itself (as well as its input power sources)
             - ambiguity of repeated function structures (like wave function curves, which may obscure the identity of which curve a particular parameter point occupies) is a potential benefit through obscurity
+
+        - this works bc there is usually a minimal number of vertex variables that determine a particular variable interaction, except in extreme cases where inputs are extremely complex alternatives with minimal differentiating variables
+
+    - add missing solution automation workflow metadata
+      - success cause metadata to solution automation workflows
+      - counterexample to indicate where a solution automation workflow is contraindicated, bc of inputs like missing info or nonadjacent formats relative to other more adjacent formats
 
     - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
