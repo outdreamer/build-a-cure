@@ -16,8 +16,25 @@
         - structures that are more stable
       - this can be used as a filter when selecting structures like solutions
 
-    - when outputs are simple (lower-dimensional), but can have many different inputs, the outputs will not accurately be usable to determine the inputs without relevant interaction rule networks to inject understanding of input metadata (input interactions, input probabilities, input causes & intents, input contexts, input context interactions/probabilities/causes/intents)
-      - example: if parameters of a function follow a wave function structure, knowing that input structure can help determine the outputs (direction & probable position on the wave), to predict the adjacent/extreme/probable/origin/possible/alternate values of parameters & inferring the wave function parameters
+    - when outputs are simple (lower-dimensional), but can have many different inputs, the outputs will not accurately be usable to determine the inputs without relevant interaction rule structures to inject understanding of input metadata (input interactions, input probabilities, input causes & intents, input contexts, input context interactions/probabilities/causes/intents)
+      - examples:
+        - if parameters of a function follow a wave function structure, knowing that input structure can help determine the outputs (direction & probable position on the wave), to predict the adjacent/extreme/probable/origin/possible/alternate values of parameters & inferring the wave function parameters
+        - low-dimensional outputs like demographic crime stats can be decomposed with a useful interaction rule structure of power interactions
+          - power interaction rule structure
+            - powerful groups oppress powerless groups
+            - powerless groups tend to remain powerless or decrease in power
+            - powerful groups try to maintain power but rely on powerless groups as suppliers
+            - powerless groups tend to be common, which is an alternate form of power
+          - rules about power interactions inform demographic crime data, once the concept of 'power' is inferred as relevant in determining low-dimensional outputs like crime stats
+          - inferring the concept of power can take the form of interface queries like:
+            - an application of common standard useful concepts like power, efficiency, and balance
+            - an application of logical structures like 'implication' & a logical derivation path connecting determining variables of resource distribution differences, which is an implied variable by the position of the data (crime definition routes imply 'lack of resources'), which leads to power difference causes (like simplicity (in visual differences & maintaining the status quo), historical resource transactions)
+            - applying definition, structural & error interfaces to identify errors like 'missing structures' to infer the 'lack of specific groups' in crime demographic distribution, and given the negative definition of crime & implied punishment, infer the power of those specific groups to avoid it
+
+      - particularly relevant to deriving inputs:
+        - interaction rules of alternate variable sets or variable value sets
+        - interaction rules between causes & alternate variable/value selection
+
 
     - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
