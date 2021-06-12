@@ -3,11 +3,23 @@
     - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
       - I will cry for the lost when I have time to spare
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
-      - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
+      - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults/compliments & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
+
+    - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
+      - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
+
+    - use probability structures as a filter when generating possible error/solution structures
+      - find determining attributes of more probable structures like:
+        - structures with more common components
+        - structures with more relevant/useful intents for more agents
+        - structures with higher coordination, alignment, & interactivity
+        - structures that are more stable
+      - this can be used as a filter when selecting structures like solutions
 
     - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
+        - 'overlap/union field' as a convolution of observation position perspective & a structure
       - gaps in describability (created by structures like combinations of indescribabilities) using existing description tools are where uncertainties will often be located, for various reasons/causes
         - measurement might stabilize energy into a structure suboptimally, taking energy away from it, which opposes the purpose of maintaining an uncertainty (to store more energy, more efficiently for some metrics, without having to maintain a particular structure)
       - alternative info formats
@@ -113,7 +125,16 @@
               - an interface query like 'apply definition interface, then structural interface, then causal interface' can produce many possible solution implementations, like:
                 = given the definition of variables/functions/predictions, find their interactive structures & the cause of error structures, and build a solution set that avoids error structure causes using interactive structures'
             
-      - possibilities (solution space)
+      - possibilities (solution space, alternate problem spaces)
+
+      - uncertainties
+        - questions
+          - which questions to ask to find/derive/generate which info
+        - errors
+        - possible sources of randomness & variance
+          - equivalents generating equal probabilities
+          - alignment gaps generating variance injection points
+          - alternatives
 
       - certainties (solution components & filters)
         - requirements (solution requirements as filters/limits)
