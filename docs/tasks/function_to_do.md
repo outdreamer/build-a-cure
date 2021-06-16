@@ -11,6 +11,18 @@
       - break the problem into related sub-problems, find a solution to one problem, and apply that solution to the other sub-problems, adjusting as necessary to fit to the other sub-problems with adjacent conversion functions
         - this works indirectly bc of similarity of structures in a system which are similar so they can interact, or directly bc of similarities in interactive structures like related problems
       - apply system components like 'efficiency' and 'structural similarities/alignments' to generate solution automation workflows
+        - apply structures of 'efficiency' to generate solution automation workflows
+          - structures of efficiency include:
+            - interactive structures like function sequences
+              - generated workflow:
+                - find interactive structures in solution automation workflow system components (solution space, problem definition, related problems, problem types) & organize them in their interactive structures
+            - paths using fewer resources
+              - generated workflow:
+                - find paths between problems & solutions that use fewer resources and use those paths where possible
+            - storing generative info rather than original info
+              - generated workflow:
+                - store generative info sets of a solution (or related component like solution input) instead of specific solutions to generate solutions as needed
+                - store generative info sets (for alternate causal variable sets) of a problem to find problem causes quickly
 
     - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
