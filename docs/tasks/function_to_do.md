@@ -7,12 +7,15 @@
 
 
     - add to solution automation workflows
-      - generate alternative abstract optimal system structures to fit to a problem system with adjacent conversion functions
-        - this applies the potential (alternative), conceptual (abstract), system (optimized system), structure, (fit by structures like similarities, adjacence), change (conversion), and function interfaces in a way that allows them to interact to connect problems & solutions
+
       - apply the structure of an optimal system by fitting the problem system to the optimal system & identifying adjacent conversion functions between them
       - break the problem into related sub-problems, find a solution to one problem, and apply that solution to the other sub-problems, adjusting as necessary to fit to the other sub-problems with adjacent conversion functions
         - this works indirectly bc of similarity of structures in a system which are similar so they can interact, or directly bc of similarities in interactive structures like related problems
-      - apply system components like 'efficiency' and 'structural similarities/alignments' to generate solution automation workflows
+      - generate solution automation workflows by applying system optimization structures (like efficiencies such as interactivities) between interfaces or interface components (to connect problem/solution components)
+        - example: generate alternative abstract optimal system structures to fit to a problem system with adjacent conversion functions
+          - this applies the potential (alternative), conceptual (abstract), system (optimized system), structure, (fit by structures like similarities, adjacence), change (conversion), and function interfaces in a way that allows them to interact to connect problems & solutions
+      - generate solution automation workflows by applying system optimization structures like 'efficiency' and 'structural similarities/alignments' to problem/solution components to connect them
+        - this identifies the system containing problem/solution components (problem space, solution space, problem types) as a system to apply system optimizations to
         - apply structures of 'efficiency' to generate solution automation workflows
           - structures of efficiency include:
             - interactive structures like function sequences
