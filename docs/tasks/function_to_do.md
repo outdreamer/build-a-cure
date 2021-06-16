@@ -8,6 +8,18 @@
 
     - add to solution automation workflows
 
+      - find generative structures of solution success cause structures & apply to find/derive/generate solution structures likely to be successful
+        - solution success cause structures like:
+          - 'this solution fulfilled more general optimization or specific solution metrics'
+          - 'this solution addressed the root cause, preventing the problem from occurring'
+          - 'this solution was general and prevented other variants of the problem'
+        - generative structures of solution success causes:
+          - solution success causes are caused by interface components relevant to optimization like:
+            - alignment/similarity (multiple solution metrics fulfilled)
+            - fix cause rather than output
+            - abstract rather than specific solution
+            - prevention rather than fixing
+      - apply solution success cause structures to find/derive generate solution likely to be successful
       - apply the structure of an optimal system by fitting the problem system to the optimal system & identifying adjacent conversion functions between them
       - break the problem into related sub-problems, find a solution to one problem, and apply that solution to the other sub-problems, adjusting as necessary to fit to the other sub-problems with adjacent conversion functions
         - this works indirectly bc of similarity of structures in a system which are similar so they can interact, or directly bc of similarities in interactive structures like related problems
