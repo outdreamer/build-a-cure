@@ -5,6 +5,13 @@
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
       - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults/compliments & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
 
+
+    - add to solution automation workflows
+      - apply the design of an optimal system by fitting the problem system to the optimal system & identifying adjacent conversion functions between them
+      - break the problem into related sub-problems, find a solution to one problem, and apply that solution to the other sub-problems, adjusting as necessary to fit to the other sub-problems with adjacent conversion functions
+        - this works indirectly bc of similarity of structures in a system which are similar so they can interact, or directly bc of similarities in interactive structures like related problems
+      - apply system components like 'efficiency' and 'structural similarities/alignments' to generate solution automation workflows
+
     - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
 
@@ -262,14 +269,16 @@
         - bias:
           - prioritizing property (buildings, land) over human potential
             - humans can build property and give it meaning or take it away
-          - prioritizing similarity
-            - protecting what they can see & what is nearby
+          - prioritizing similarity 
+            - protecting what they can see & what is nearby (similarity in position)
+            - working with those who claim similar goals like weapons dealers who claim to be helping them
             - protecting anything similar to or related to themselves rather than empathizing or thinking
             - blaming dissimilar groups (the US & Russia) for their own violence
             - blaming the enemy (Israel & Palestine) for their own violence
             - blaming the past & the dead for their own violence (they did it to avenge someone dead, or bc they had to fulfill their family legacy of the feud, or for 'their ancestors' or 'their people/tribe')
             - blaming the future or people who will be alive in the future (they did it to protect future generations, or their own children, when they primarily put them in danger by maintaining the feud)
           - prioritizing simplicity
+            - not thinking about how war benefits war industry market-makers, to figure out that they were tricked into waging war to profit weapons dealers so they could get profits in the form of financial resources, land, power, laws, etc
             - not thinking about impact of decisions, which is to hurt their cause, their claimed priorities, their culture, & themselves
             - not switching strategies when one clearly doesnt work
             - focusing on short-term goals that dont help their cause, like: 
