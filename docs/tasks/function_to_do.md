@@ -9,6 +9,24 @@
 
     - add to solution automation workflows
 
+      - identify connection structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify 
+        - example: 
+          - error type: 'one incorrect difference type causes another incorrect difference type'
+          - error structure: 'alignment in incorrect difference types'
+          - connecting structure: 
+            - 'alignment in incorrect difference types indicates a relationship between the difference types'
+            - 'causes are one type of relationship'
+            - generated error type: 'one incorrect difference type causes another incorrect difference type'
+
+        - example:
+          - error type: 'one incorrect difference type has an error type of "extreme difference" from another incorrect difference type'
+          - error structure: 'difference in related incorrect difference types (related by possible unrelated connection, like adjacence or group membership)'
+          - connecting structure: 
+            - 'extreme difference in incorrect difference types indicates a possible error (incorrect difference type) between the errors (incorrect difference types)'
+            - 'errors can have errors in their connections (they can be incorrectly different from each other, as in they should be aligned)'
+            - 'error structures (of difference) include extreme differences'
+            - generated error type: 'one incorrect difference type has an error type of "extreme difference" from another incorrect difference type'
+
       - predict interactivity & interaction output of structures to find interactive structures to use as components to connect problem/solution
         - interactivity based on:
           - whether a component can use/identify/process/store structures of the other
