@@ -10,17 +10,18 @@
     - add to solution automation workflows
 
       - identify connection structures between efficiently measurable interface components (like 'error structures' on the structural interface) and the efficient indicator that is an input to quick connections to solutions (error types, with which you can query for solutions associated with those error types & efficiently find a probably good solution)
-        - structures with adjacent/efficient connections to solutions
+        - solution input structures with adjacent/efficient connections to solutions
           - error types
           - problem/solution difference structures & difference types
           - problem types
           - problem-solution connection function structures ('reduce', 'remove', 'connect')
-        - inputs to structures with adjacent/efficient connections to solutions
+        - efficiently measurable interface components of solution input structures with adjacent/efficient connections to solutions
           - type input structures (group, difference)
-          - problem input structures (difference, imbalance, mismatch, misalignment, lack/excess)
-          - solution input structures (similarity/equalizing, connection, match, alignment)
+          - problem input structures (difference, imbalance, mismatch, misalignment, lack/excess - and solution structures like requirements to identify what is a problem)
+          - solution input structures (requirements, similarity/equalizing, connection, match, alignment - and problem structures like errors with available error-solution connection info or connection derivation function)
           - difference type input structures (adjacent structure capturing the most info of the difference that is different from existing different types)
           - problem-solution connection function structure input structures (sub-problem type structure like a sequence/network, relevant (adjacent) difference structures)
+        - this works bc once efficiently measurable components are connected to efficient solution inputs, you have a reliable efficient path to a solution that works by combining efficiencies in a sequential structure to connect them & connect inputs/outputs
 
       - identify connection structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify error types or error structures in a system/structure
         - example: 
