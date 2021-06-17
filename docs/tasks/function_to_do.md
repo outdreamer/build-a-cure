@@ -8,11 +8,14 @@
 
     - add to solution automation workflows
 
-      - predict interactivity & interaction output of structures to find interactive structures to use as components to connect
+      - predict interactivity & interaction output of structures to find interactive structures to use as components to connect problem/solution
         - interactivity based on:
           - whether a component can use/identify/process/store structures of the other
           - whether structural alignments/similarities/matches exist between the structures so they can attain emergent attributes like position and form structures of coordination & combination
           - whether structures have variations on the same interaction level
+          - interface components like cause (origin position) and intent (direction, destination position) of the structures
+          - structural system-related attributes like stability of the structures
+          - error types handled by the structures
       - find generative structures of solution success cause structures & apply to find/derive/generate solution structures likely to be successful
         - solution success cause structures like:
           - 'this solution fulfilled more general optimization or specific solution metrics'
