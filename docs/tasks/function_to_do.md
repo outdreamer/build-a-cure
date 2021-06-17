@@ -23,6 +23,8 @@
           - problem-solution connection function structure input structures (sub-problem type structure like a sequence/network, relevant (adjacent) difference structures)
         - this works bc once efficiently measurable components are connected to efficient solution inputs, you have a reliable efficient path to a solution that works by combining efficiencies in a sequential structure to connect them & connect inputs/outputs
 
+      - apply connection functions (like 'difference-reduction' or 'efficient path-finding' functions) to connect interface components (like efficiencies, which align with the connection function intents) that can form a connecting interaction structures (like a function input/output structure) that can take problem structures as inputs & create solution structures as outputs
+
       - identify connection structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify error types or error structures in a system/structure
         - example: 
           - error type: 'one incorrect difference type causes another incorrect difference type'
