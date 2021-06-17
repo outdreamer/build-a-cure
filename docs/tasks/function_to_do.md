@@ -13,7 +13,7 @@
           - whether a component can use/identify/process/store structures of the other
           - whether structural alignments/similarities/matches exist between the structures so they can attain emergent attributes like position and form structures of coordination & combination
           - whether structures have variations on the same interaction level
-          - interface components like cause (origin position) and intent (direction, destination position) of the structures
+          - interface components like cause (origin position) and intent (direction, destination position) of the structures leading to structures like angle/point of interaction
           - structural system-related attributes like stability of the structures
           - error types handled by the structures
       - find generative structures of solution success cause structures & apply to find/derive/generate solution structures likely to be successful
@@ -38,6 +38,9 @@
         - this identifies the system containing problem/solution components (problem space, solution space, problem types) as a system to apply system optimizations to
         - apply structures of 'efficiency' to generate solution automation workflows
           - structures of efficiency include:
+            - structural alignments (delay operations requiring iteration until the next required iteration)
+              - generated workflow:
+                - connect structures that are otherwise difficult to connect by creating efficiencies with structural alignments to connect problem/solution
             - low cost (low input, high output) structures
               - generated workflow:
                 - find functions with low input & high output and apply where possible to connect/reduce difference between problem/solution
