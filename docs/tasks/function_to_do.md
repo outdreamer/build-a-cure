@@ -8,6 +8,11 @@
 
     - add to solution automation workflows
 
+      - predict interactivity & interaction output of structures to find interactive structures to use as components to connect
+        - interactivity based on:
+          - whether a component can use/identify/process/store structures of the other
+          - whether structural alignments/similarities/matches exist between the structures so they can attain emergent attributes like position and form structures of coordination & combination
+          - whether structures have variations on the same interaction level
       - find generative structures of solution success cause structures & apply to find/derive/generate solution structures likely to be successful
         - solution success cause structures like:
           - 'this solution fulfilled more general optimization or specific solution metrics'
@@ -15,7 +20,7 @@
           - 'this solution was general and prevented other variants of the problem'
         - generative structures of solution success causes:
           - solution success causes are caused by interface components relevant to optimization like:
-            - alignment/similarity (multiple solution metrics fulfilled)
+            - alignment/similarity (multiple solution metrics fulfilled, higher ratio of metrics fulfilled relative to other solutions)
             - fix cause rather than output
             - abstract rather than specific solution
             - prevention rather than fixing
@@ -30,6 +35,9 @@
         - this identifies the system containing problem/solution components (problem space, solution space, problem types) as a system to apply system optimizations to
         - apply structures of 'efficiency' to generate solution automation workflows
           - structures of efficiency include:
+            - low cost (low input, high output) structures
+              - generated workflow:
+                - find functions with low input & high output and apply where possible to connect/reduce difference between problem/solution
             - interactive structures like function sequences
               - generated workflow:
                 - find interactive structures in solution automation workflow system components (solution space, problem definition, related problems, problem types) & organize them in their interactive structures
