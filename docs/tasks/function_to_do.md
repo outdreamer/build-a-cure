@@ -9,7 +9,7 @@
 
     - add to solution automation workflows
 
-      - identify connection structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify 
+      - identify connection structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify error types or error structures in a system/structure
         - example: 
           - error type: 'one incorrect difference type causes another incorrect difference type'
           - error structure: 'alignment in incorrect difference types'
