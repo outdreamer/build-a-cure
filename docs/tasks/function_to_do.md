@@ -7,6 +7,10 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+    - example of resolving a conflict between structure/limits using a structural similarity between a structure (gradient of function) & its container/limits (gradient of constraints)
+      - https://en.wikipedia.org/wiki/Lagrange_multiplier
+      - also an example of a solution space (the whole function is the solution space of possible minima/maxima) and a filter applied to it (constraint)
+
     - specific problems
 
       - hamiltonian path
@@ -100,7 +104,7 @@
       - find vertex variables of differences (certainty/uncertainty, equal/opposite, structural/abstract) and apply as problem-solution connecting structures
 
       - apply interfaces (like concept/cause/function) to generate solution automation workflows that connect problem/solution metadata given known connections between problems-solutions
-        - apply core interaction function (like 'connect') to problem/solution metadata (like 'generative functions') of problem/solutions structures instead of the structures themselves
+        - apply core interaction function (like 'connect') to problem/solution metadata (like 'generative functions' or vertex variables) of problem/solutions structures instead of the structures themselves
           - example:
             - generative function of a 'info asymmetry problem' is 'apply filters to outbound info to aggregate info on one side of the filter'
             - generative function of a 'info asymmetry solution' is 'apply opposite function of any problem-generating functions (aggregation) & opposite structure of any problem-generating structures found (filter)'
