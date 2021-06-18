@@ -42,6 +42,7 @@
               - is there a containing/limit structure, or an efficient interaction structure, or a core component structure generating these structural similarities
         - do quantum particles produce neutralization structures of mass when moving at different speeds
         - do their quantum fields aggregate into a wave under certain conditions, while the non-aggregated components retain mass with efficient interaction structures that can store energy with temporary certainty structures
+        - what is the function of quantum particles - are they just generative or descriptive info of the particle output by the particle's structure, or indicators of lack of info about the particle, or differences between info about the particle
 
     - finish applying interfaces to solution automation workflows
 
