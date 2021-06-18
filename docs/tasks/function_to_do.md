@@ -348,6 +348,7 @@
               doesnt fit the concept of 'description'
               - the distortion on the symmetry of the energy unit relative to distortions on equal, adjacent or otherwise related energy units as a source of balance/equilibrium for a field of related energy units
           - info formatted as interactivity with or similarity/difference from other info 
+            - is a quantum superposition a useful energy format bc it stores many difference types or bc it removes info from the original info or does it keep all original info in its interactions (like storing a thought structure through circulation rather than leaving in a neural structure?
             - what 'an energy unit's position can be' is something that can be described by its similarity/difference to other info, or even equivalence to other info if there are info alternatives, interchangeables, substitutes, approximations, or proxies that are sufficient to replace the info
             - a variable formatted as a set of distortions from other variables, leading to the development of the isolated variable capturing a difference type
             - a 'continuous function' as a description of a field connecting core units of difference (the smallest possible difference, leading to a connection as it becomes equivalent to an equivalence)
