@@ -285,6 +285,8 @@
           - can you reduce infinite series to 
             - a set of distortions from an adjacent standard series
             - a set of lacks rather than a set of numbers (if it had these components, it would collapse into a function)
+        - did the fourth dimension of time develop to store energy that couldnt be stored in three dimensions (storing info as energy/info probability structures instead of physical energy/info structures like electrons)
+        - what other dimension structures would store other excess energy, in what formats?
 
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
