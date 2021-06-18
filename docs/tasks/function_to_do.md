@@ -7,17 +7,41 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
-    - hamiltonian path
-      - apply 'subset' structure:
-        - create sub-structures of paths
-      - apply 'combination' structure:
-        - create combinations of sub-structures of paths
-      - apply 'equivalence' filter
-        - remove combinations of sub-structures of paths that include a duplicate node
-      - apply 'interactive' filter
-        - remove combinations of sub-structures of paths that arent interactive (adjacent connections)
-      - apply 'contradiction' filter
-        - remove combinations of sub-structures of paths that contradict original structure to traverse
+    - specific problems
+
+      - hamiltonian path
+        - apply 'subset' structure:
+          - create sub-structures of paths
+        - apply 'combination' structure:
+          - create combinations of sub-structures of paths
+        - apply 'equivalence' filter
+          - remove combinations of sub-structures of paths that include a duplicate node
+        - apply 'interactive' filter
+          - remove combinations of sub-structures of paths that arent interactive (adjacent connections)
+        - apply 'contradiction' filter
+          - remove combinations of sub-structures of paths that contradict original structure to traverse
+
+      - the fundamental question of p vs np is 'are all ambiguities resolvable' meaning 'is there a structure that can resolve any ambiguity'
+        - find counterexample of an ambiguity that is not resolvable (not calculatable, no matter how much info or understanding you have, no matter how many alternatives you can rule out, or how many other filters you can apply)
+
+      - mass gap: 'quantum particles have positive masses, even though the classical waves travel at the speed of light'
+        - "gauge theory is a type of field theory in which the Lagrangian (system change descriptor using coordinates & time derivatives, or potential - kinetic energy) does not change (is invariant) under local transformations from certain Lie groups (continuous groups where points can be multiplied/inverted with smooth/differentiable results)"
+        - "Lagrangian density is a function of the fields in the system & their derivatives & possibly the space/time coordinates themselves, where the independent variable is an event in spacetime (x, y, z, t) or more generally a point s on a manifold"
+        - "action of output variables = integral of [density of (output variables, output variable derivatives, and event as a point on a manifold) * the measure of the domain of the field function]"
+          - calculate action given operations like density on variables, their derivatives & an event (point on a manifold)
+        - "density is a section of a density line bundle (lines created by varying points, like tangent bundle), 
+          where the density bundle contains volumes assigned to the shape created by x's tangent vectors"
+        - "Lagranian: function that describes the state of a dynamic system using position coordinates & their time derivatives, which is equal to the difference between the potential & kinetic energy"
+
+        - the local transformations from the lie group dont change the difference in potential/kinetic energy even if it changes their values, and it doesnt change the change rates connecting points
+        - this is like how quantum particles may keep the atom constant, despite local transformations
+          - where else do structures of alternatives produce equivalent outputs?
+            - in functions like elliptic curves/wave/circular functions, where ambiguities lie in alternative inputs with similar/equal outputs
+            - do these functions benefit from conversion to another 'multi-input for equivalent/similar output' function?
+            - what attribute/structures generates the attribute of structural similarities in outputs of alternate paths? 
+              - is there a containing/limit structure, or an efficient interaction structure, or a core component structure generating these structural similarities
+        - do quantum particles produce neutralization structures of mass when moving at different speeds
+        - do their quantum fields aggregate into a wave under certain conditions, while the non-aggregated components retain mass with efficient interaction structures that can store energy with temporary certainty structures
 
     - finish applying interfaces to solution automation workflows
 
