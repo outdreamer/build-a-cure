@@ -10,8 +10,45 @@
     - finish list of problem interface queries
       - before running an interface query to solve the problem, run interface queries to solve the problem of identifying problem-solution metadata on the problem interface
         - identify when solution metrics need to change bc an assumption (whether an implicit assumption derived from implication of problem, or an explicit assumption) was built on false info type (like lack of info, incorrect object identities, incorrect format)
+      - if the problem interface queries produce enough info, the problem interface may occasionally be the only interface required to solve the problem, like when known solutions are known to be optimal for the problem type & solve the problem when applied in a simulation of the problem space
 
     - add to solution automation workflows
+
+      - convert structures to a structure type that maps to structures with more clearly defined connections/components to convert the problem into a more determinable problem, if the new structures dont lose relevant info
+        - example: 
+          - randomness is 'equal probability of outcomes' which can be converted to a structure of difference types like 'equal probability of difference structures from a number'
+          - once structures of the problem space are mapped to these core structure types that are easily mapped to the math interface (like difference to 'distance between positions' or 'angle between lines with same origin' or 'vector magnitude/angle'), the problem can be converted into math terms
+
+        - example problem: 'find minima/maxima of function'
+          - applying randomness structures is one way to solve the problem - testing random points for limits to narrow down the function minima/maxima possibilities
+          - difference structures can also be applied as an approximation of randomness
+            - difference structure examples:
+              - difference of same type (like an 'opposite' difference type) in all function variables
+              - difference of different types in all function variables
+              - difference based on similarity structures (like general function/variable patterns, or actual function change rates), like creating a difference to check if a pattern applies to the function
+
+        - example:
+          - logic can be defined as 'connectivity of rules', which can be standardized to the structure or math interface to more clearly determine logic interactions/components
+            - structure interface:
+              - graph logic connectivity rules as a function network
+                - example: logic connectivity rules themselves obey logic connectivity rules, so they can be connected with those rules (like 'connect rules by equivalence of rule components')
+            - math interface:
+              - graph logic connectivity rules as a set of math structures (like points/vectors/functions)
+                - example: a connected logic rule network can be formatted as standard math structures like:
+                  - a set of functions (indicating steps), where one rule is x steps away from another, indicating the number of rules required to connect them
+                    - where n number of steps can also indicate distance between points
+                    - where functions can be components of the network, and to get from one component path (input object to logic rule, or logic rule) to another (input object or logic rule), a specific network path between logic rule function nodes must be traversed (logic rules connecting them)
+                    - where the network nodes are (either components, functions, or both), where components are connected by a set of functions indicating operations between components found in logic rules
+                    - where relevant structures like equivalences between logic rules are applied to the network structure
+                      - so alternate components are removed & an original component takes the position of its equivalents
+                      - where logic rule contradictions act like limits (like filters or barriers) to operations & traversals on the network structure
+                      - where defined structures are prioritized in traversals to limit the impact of implicit structures like implications & patterns & similarities, which arent definitively relevant/true & may be false
+                - once its formatted in math structures, determining the following become trivial:
+                  - whether a rule is new to the logic network
+                  - whether a rule fits with the logic network
+                  - whether an object can be tested for a connection to another object using the rules of the converted logic network, or whether less definitive structures are needed to infer logic connections
+
+      - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections
 
       - identify connection structures between efficiently measurable interface components (like 'error structures' on the structural interface) and the efficient indicator that is an input to quick connections to solutions (error types, with which you can query for solutions associated with those error types & efficiently find a probably good solution)
         - solution input structures with adjacent/efficient connections to solutions
