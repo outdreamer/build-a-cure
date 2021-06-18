@@ -24,21 +24,27 @@
     - give example of core interaction functions used to connect problem & solution
       - example problem: find a prediction function
         - reduce:
+          - useful for solving problems of excess, like fitting over-sized shapes inside containers
           - reduce 'find a prediction function' problem to a problem of 'find variables that change output variable' problem
           - reduce number of data points or variables to solve related problems
         - remove:
+          - useful for solving problems of excess, like over-prioritization or excess complexity
           - remove complicating/variance-adding attributes like nonlinearity of a standard prediction function created with various regression methods, until the prediction function is a set of linear functions, and combine variables to predict those functions for the relevant ranges
           - remove variables from data set until prediction function is found for each subset & apply weights to the subset functions to find the prediction function
           - remove randomness structures like outliers & corrupt points from data set to make the prediction function more representative
           - remove any neutralizing/opposite structures that counter each others' effects from the data set/variables
         - fill:
+          - useful for solving problems of lack (like filling a template)
           - create local prediction functions to fill out the template leaving space for the whole prediction function
         - convert:
+          - useful for solving problems of problem-solving inefficiency for the original problem, or lack of inputs to original problem solution
           - convert 'find a prediction function for data set' problem to another problem like 'find a representative/average function for data set'
         - structurize:
+          - useful for solving problems of uncertainty that require applying structure to create certainties
           - connect variable/function/data structures (like a subset of functions, variables, or data points) to create a prediction function
           - create a template leaving space for a prediction function using filters as limits/boundaries of the template (like a rectangle or other shape within which the prediction function is likely to be)
-        - connect:
+        - connect:  
+          - useful for solving problems of difference
           - connect variables with a line representing a majority of data points
       - some of these solution automation workflows applied to the problem may be equivalent/interchangeable and may generate equivalent/similar interface queries or solutions
       - some are more adjacent to the original problem format or the target solution format or both than others
@@ -49,6 +55,8 @@
       - if the problem interface queries produce enough info, the problem interface may occasionally be the only interface required to solve the problem, like when known solutions are known to be optimal for the problem type & solve the problem when applied in a simulation of the problem space
 
     - add to solution automation workflows
+
+      - find vertex variables of differences (certainty/uncertainty, equal/opposite, structural/abstract) and apply as problem-solution connecting structures
 
       - apply interfaces (like concept/cause/function) to generate solution automation workflows that connect problem/solution metadata given known connections between problems-solutions
         - apply core interaction function (like 'connect') to problem/solution metadata (like 'generative functions') of problem/solutions structures instead of the structures themselves
