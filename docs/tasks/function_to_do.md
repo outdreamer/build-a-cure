@@ -283,6 +283,7 @@
           - functions that convert a value set into an individual value (example functions, average functions)
           - comparison functions (across values in a set and relative values in a field)
       - other ways to generate the idea:
+        - find patterns in point subset connection patterns & generalize to field connection patterns
         - apply a filter of identifying patterns of probability-hoarding points (aggregating the most probability) given interaction structures leading to higher probabilities and assign lower values to remaining points without calculating every point
         - apply interaction structures between adjacent probability distributions, similarities like adjacence, infinities, or aggregation/neutralization structures to identify structures with higher probabilities
 
@@ -295,9 +296,11 @@
         - what math probability structures (impossibility, requirement, probability distribution, range, randomness) are interactive to create which stability/aggregation/emergence structures
         - how do absolute/abstract unlimited structures like infinities interact with specific/limit/definition structures like position?
         - how do infinite series interact with other infinite series?
-          - can you reduce infinite series to 
+          - can you reduce infinite series to formats like:
             - a set of distortions from an adjacent standard series
             - a set of lacks rather than a set of numbers (if it had these components, it would collapse into a function)
+        - can you calculate descriptive attributes of an infinite series by the amount of storage it uses relative to other series, or the patterns of storage as the sequence is randomly traversed
+          - how to calculate convergence without sequentially iterating series (identifying common connection patterns between point pairs, like connections by a certain coefficient/exponent pattern)
         - did the fourth dimension of time develop to store energy that couldnt be stored in three dimensions (storing info as energy/info probability structures instead of physical energy/info structures like electrons)
         - what other dimension structures would store other excess energy, in what formats?
           - time adds the possibility of 'state changes' to structures that can vary between adjacent states
