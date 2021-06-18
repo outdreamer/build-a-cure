@@ -287,6 +287,10 @@
             - a set of lacks rather than a set of numbers (if it had these components, it would collapse into a function)
         - did the fourth dimension of time develop to store energy that couldnt be stored in three dimensions (storing info as energy/info probability structures instead of physical energy/info structures like electrons)
         - what other dimension structures would store other excess energy, in what formats?
+          - time adds the possibility of 'state changes' to structures that can vary between adjacent states
+            - or it takes away the possibility of change by following physics rules of change to structures instead of remaining in a probability state
+          - are there structures that can vary across non-adjacent states?
+          - what determines adjacence/probability of states?
 
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
