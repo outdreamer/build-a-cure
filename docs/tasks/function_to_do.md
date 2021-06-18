@@ -50,6 +50,12 @@
 
     - add to solution automation workflows
 
+      - apply cause/function interface to generate solution automation workflows that connect problem/solution metadata
+        - apply core interaction function (like 'connect') to problem/solution metadata (like 'generative functions') of problem/solutions structures instead of the structures themselves
+          - example:
+            - generative function of a 'info asymmetry problem' is 'apply filters to outbound info to aggregate info on one side of the filter'
+            - generative function of a 'info asymmetry solution' is 'apply opposite function of any problem-generating functions (aggregation) & opposite structure of any problem-generating structures found (filter)'
+
       - convert structures to a structure type that maps to structures with more clearly defined connections/components to convert the problem into a more determinable problem, if the new structures dont lose relevant info
         - example: 
           - randomness is 'equal probability of outcomes' which can be converted to a structure of difference types like 'equal probability of difference structures from a number'
