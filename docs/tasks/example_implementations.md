@@ -934,7 +934,7 @@
 		      - a reduction/decomposition problem + a filling/aggregation problem = the solution automation workflow 'break a problem into sub-problems, solve sub-problems, aggregate sub-solutions'
 		    - combine structures & connect structure combinations by problem types
 		      - the structure combination of 'a sequence injected in a network' is a structure matching a 'route finding problem', so apply solution structures that find a route in a network, such as filters using metrics or rules that can filter routes by which routes dont contradict rules
-		        - the solution automation workflow is 'find structures relevant to resolving problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
+		        - the solution automation workflow is 'find structures relevant to resolvin- g problem structures like inequalities in other structures' (inequalities like the difference between start/end positions)
 		        - the workflow matches 'sequence in a network' with 'route filtering structures', connected by the problem format 'find a route'
 		    - combine structures & core functions
 		      - the structure of the core function sequence(find, apply, build, filter) = matches solution automation workflows like 'find components which, when this function is applied, can construct this structure, complying with these solution metric filters'

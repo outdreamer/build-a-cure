@@ -7,6 +7,10 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away
 
+    - finish list of problem interface queries
+      - before running an interface query to solve the problem, run interface queries to solve the problem of identifying problem-solution metadata on the problem interface
+        - identify when solution metrics need to change bc an assumption (whether an implicit assumption derived from implication of problem, or an explicit assumption) was built on false info type (like lack of info, incorrect object identities, incorrect format)
+
     - add to solution automation workflows
 
       - identify connection structures between efficiently measurable interface components (like 'error structures' on the structural interface) and the efficient indicator that is an input to quick connections to solutions (error types, with which you can query for solutions associated with those error types & efficiently find a probably good solution)
@@ -26,7 +30,7 @@
       - apply connection functions (like 'difference-reduction' or 'efficient path-finding' or 'organization' functions) to connect interface components (like efficiencies) which align with the connection function intents that can form a connecting interaction structures (like a function input/output structure) that can take problem structures as inputs & create solution structures as outputs
 
       - identify & apply functions to generate useful system components like efficiencies (or causes of these components) that help fulfill intents in general & apply to problem-solving intents
-        - efficiency-generating functions to fulfill problem-solving intent of connecting problem/solution
+        - example of efficiency-generating functions to fulfill problem-solving intent of connecting problem/solution
           - function to position source/destination positions in a more adjacent position
           - function to reduce differences or their causes
           - function to remove differences or their causes
