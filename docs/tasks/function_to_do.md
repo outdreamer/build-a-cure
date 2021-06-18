@@ -300,6 +300,12 @@
           - if you design a state that can store energy better than your current state, how do you deploy that state change (design particles that store energy better than quantum particles and deploy a function to convert them) or introduce it to current energy storage so it self-migrates (make it adjacent)?
           - do the existing energy storage methods have priorities (like self-maintenance), are they unaware of environment context or unable to communicate/send energy?
           - what formats can existing energy storage methods already convert between?
+          - can energy storage methods attract components with energy-storage optimization intents/potential like brains to store themselves as math function info rather than preserving their state
+          - do energy storage devices like brains have potential energy to add extra dimensions than time
+          - what weighting mechanism can be applied to state changes (time) to identify the true complete structure with time (state changes) removed
+          - do structures that have excess energy necessarily stabilize over state changes to distribute their energy across state changes (time)
+            - can changing state change trajectory change probability structures (like probability distribution) of the structure's energy
+          - is there a structure whose energy cant be distributed across time (it cannot be completely described with state changes in 3 physical dimensions)
 
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
