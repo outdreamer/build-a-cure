@@ -277,6 +277,7 @@
         - what are the weights applied to aggregated quantum fields? is it adjacence, average (adjacence to center), or some other similarity
         - is it the emergent interactions of probable interactive structures given interaction functions (like connection functions) & their inputs (like position), across related fields (how are they related)
         - are weights applied based on info that survives these interactions bc it has stabilized & isnt contradicted by most interaction types (lack of opposite structures invalidating stabilization)
+        - how do infinite series interact with other infinite series?
 
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
