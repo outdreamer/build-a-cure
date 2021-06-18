@@ -70,7 +70,11 @@
                       - what makes structurizing a problem/solution easier to fulfill (library of core structures & structures adjacent to that structure & connecting structures)
                       - what makes finding a solution easier to fulfill (a reduced solution space using solution metric structures as limits)
                 - generated solution automation workflow:
-                  - iterate through core problem-solving functions & structures useful for those functions & apply them to connect problem/solution
+                  - general workflow:
+                    - iterate through core problem-solving functions (define, connect, reduce) & structures useful for those functions (structures, connections/differences, efficiencies/minimizing functions) & apply them to fulfill problem-solving function like 'connect' (or related problem-solving function) for problem/solution
+                    - specific workflow:
+                      - apply 'structures' (structure useful for 'define/structurize' problem-solving function) to 'connect' (core problem-solvingn function) problem/solution 'definitions' (structure relevant to 'define/structurize' problem-solving function)
+                      - identify 'connection structures' (useful structures) between 'opposite structures' (problem structures) for a 'difference' problem (resolvable with 'connection structures')
 
       - solution success cause: automating problem-solving can be formatted as a problem of defining (applying structure to) the problem & solution
         - apply structures to problem & solution definitions until one optimizes for reducing solution space, or until theyre equivalent
