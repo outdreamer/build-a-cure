@@ -273,6 +273,11 @@
       - counterexample to indicate where a solution automation workflow is contraindicated, bc of inputs like missing info or nonadjacent formats relative to other more adjacent formats
 
     - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
+      - questions about qft
+        - what are the weights applied to aggregated quantum fields? is it adjacence, average (adjacence to center), or some other similarity
+        - is it the emergent interactions of probable interactive structures given interaction functions (like connection functions) & their inputs (like position), across related fields (how are they related)
+        - are weights applied based on info that survives these interactions bc it has stabilized & isnt contradicted by most interaction types (lack of opposite structures invalidating stabilization)
+
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
         - 'overlap/union field' as a convolution of observation position perspective & a structure
