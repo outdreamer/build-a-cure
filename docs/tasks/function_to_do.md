@@ -5,7 +5,21 @@
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
       - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults/compliments & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
 
-    - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal despite all the barriers you put in my way
+    - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
+
+    - finish list of logical rules
+      - similarities
+        - equivalents in connections: components of connected rules are equivalent by some metric (interchangeable, equivalent identities, sufficiently similar where differences are irrelevant, etc)
+        - definition alignment: applies & aligns with definitions
+        - equivalents in meaning: the meaning of a rule in one context (such as the interaction level) is equivalent to the meaning of the rule when applied to another context (it fits into the system the same way so the meaning is the same)
+      - includes where possible, except as relevant/required
+        - components & structures of certainty like facts where possible, and where not possible, certainty-deriving methods like math/stats & definitions
+      - excludes where possible, except as relevant/required
+        - uncertainty structures like ambiguities
+      - example:
+        - patterns are logically a relevant object to prediction functions, given the nature of the problem (predicting a variable with insufficient info, such as info building understanding about the actual variable connections)
+
+    - identify filters for definition routes
 
     - give example of core interaction functions used to connect problem & solution
       - example problem: find a prediction function
