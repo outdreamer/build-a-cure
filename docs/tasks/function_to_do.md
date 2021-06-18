@@ -50,6 +50,16 @@
 
       - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections & apply changes until the structures fit the problem system and a solution is defined
 
+      - iterate through solution success causes & apply interface structures to them to identify a solution automation workflow
+        - example solution success causes:
+          - 'structural similarities are an opposite structure of a problem of difference so theyre useful for resolving difference problems'
+            - apply abstract interface to (identify the general types in) the above solution success cause to identify the general pattern:
+              - 'structures of type x are a difference structure of a difference problem, a difference to a problem being a solution, so structures of type x are useful for solving difference problems'
+                - apply function interface to identify functionality structures ('x has functionality of connecting y & z')
+                  - 'differences are a structure that can connect a problem to a solution bc they are different by definition'
+            - generated solution automation workflow: 
+              - identify structures that connect problems/solutions as a way of finding a solution to a problem
+
       - solution success cause: automating problem-solving can be formatted as a problem of defining (applying structure to) the problem & solution
         - apply structures to problem & solution definitions until one optimizes for reducing solution space, or until theyre equivalent
         - identify connections between definitions of problem-solution connection structures (like connections between opposite/difference structures) and apply to connect problem/solution definitions
