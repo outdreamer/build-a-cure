@@ -282,10 +282,16 @@
           - value-aggregation or value-set description functions like add (for a standard compare to relative values in other positions, given pre-existing input standard already applied to position) or average (to find expected value if each field was equally likely, which may not be the case)
           - functions that convert a value set into an individual value (example functions, average functions)
           - comparison functions (across values in a set and relative values in a field)
+
       - other ways to generate the idea:
         - find patterns in point subset connection patterns & generalize to field connection patterns
         - apply a filter of identifying patterns of probability-hoarding points (aggregating the most probability) given interaction structures leading to higher probabilities and assign lower values to remaining points without calculating every point
         - apply interaction structures between adjacent probability distributions, similarities like adjacence, infinities, or aggregation/neutralization structures to identify structures with higher probabilities
+        - the reason an aggregation is useful in smoe cases as opposed to an average is bc of the lack of interactivity across fields, meaning the fields dont influence each other and the concept of an average value is valid bc the items are produced independently from each other, so we can apply structures related to randomness like an average (which is the value if each value in the original value set was 'equally probable')
+        - each field may not be equally likely, so an average of the field value for a certain position may not be relevant/useful
+          - the function used to find one value for a value set needs to be relevant, given the interaction structures of the components that are inputs to the function (the intents of the actual interactions & the interactions in the function need to align)
+        - the reason adding them works in some cases is bc the probability of fields that when summed, exactly neutralize each other to form an output field with a random distribution invalidating the idea of evaluating/comparing values on that field is highly unlikely, even restricted by definition of the infinite fields
+          - what is the probability distribution of the sums or other interaction structures of fields
 
       - questions about qft
         - what are the weights applied to aggregated quantum fields? is it adjacence, average (adjacence to center), or some other similarity
@@ -299,6 +305,7 @@
           - can you reduce infinite series to formats like:
             - a set of distortions from an adjacent standard series
             - a set of lacks rather than a set of numbers (if it had these components, it would collapse into a function)
+            - a description of other infinite sequences that reduce/limit the potential size/range/distribution of another infinite series bc of adjacence or interaction with the other infinite series
         - can you calculate descriptive attributes of an infinite series by the amount of storage it uses relative to other series, or the patterns of storage as the sequence is randomly traversed
           - how to calculate convergence without sequentially iterating series (identifying common connection patterns between point pairs, like connections by a certain coefficient/exponent pattern)
         - did the fourth dimension of time develop to store energy that couldnt be stored in three dimensions (storing info as energy/info probability structures instead of physical energy/info structures like electrons)
