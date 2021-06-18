@@ -5,7 +5,29 @@
       - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
       - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults/compliments & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
 
-    - if trolling you was all it took to inspire you to do better, you were already a few steps away
+    - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal despite all the barriers you put in my way
+
+    - give example of core interaction functions used to connect problem & solution
+      - example problem: find a prediction function
+        - reduce:
+          - reduce 'find a prediction function' problem to a problem of 'find variables that change output variable' problem
+          - reduce number of data points or variables to solve related problems
+        - remove:
+          - remove complicating/variance-adding attributes like nonlinearity of a standard prediction function created with various regression methods, until the prediction function is a set of linear functions, and combine variables to predict those functions for the relevant ranges
+          - remove variables from data set until prediction function is found for each subset & apply weights to the subset functions to find the prediction function
+          - remove randomness structures like outliers & corrupt points from data set to make the prediction function more representative
+          - remove any neutralizing/opposite structures that counter each others' effects from the data set/variables
+        - fill:
+          - create local prediction functions to fill out the template leaving space for the whole prediction function
+        - convert:
+          - convert 'find a prediction function for data set' problem to another problem like 'find a representative/average function for data set'
+        - structurize:
+          - connect variable/function/data structures (like a subset of functions, variables, or data points) to create a prediction function
+          - create a template leaving space for a prediction function using filters as limits/boundaries of the template (like a rectangle or other shape within which the prediction function is likely to be)
+        - connect:
+          - connect variables with a line representing a majority of data points
+      - some of these solution automation workflows applied to the problem may be equivalent/interchangeable and may generate equivalent/similar interface queries or solutions
+      - some are more adjacent to the original problem format or the target solution format or both than others
 
     - finish list of problem interface queries
       - before running an interface query to solve the problem, run interface queries to solve the problem of identifying problem-solution metadata on the problem interface
@@ -50,7 +72,7 @@
 
       - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections & apply changes until the structures fit the problem system and a solution is defined
 
-      - iterate through solution success causes & apply interface structures to them to identify a solution automation workflow
+      - iterate through solution success causes & apply interface structures to them to identify/generate/derive an associated solution automation workflow with that solution success cause
         - example solution success causes:
           - 'structural similarities are an opposite structure of a problem of difference so theyre useful for resolving difference problems'
             - apply abstract interface to (identify the general types in) the above solution success cause to identify the general pattern:
@@ -85,7 +107,7 @@
           - error types
           - problem/solution difference structures & difference types
           - problem types
-          - problem-solution connection function structures ('reduce', 'remove', 'connect')
+          - problem-solution connection function structures (which is the set of core interaction functions, including 'reduce', 'remove', 'connect')
         - efficiently measurable interface components of solution input structures with adjacent/efficient connections to solutions
           - type input structures (group, difference)
           - problem input structures (difference, imbalance, mismatch, misalignment, lack/excess - and solution structures like requirements to identify what is a problem)
