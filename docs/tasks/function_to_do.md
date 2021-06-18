@@ -7,6 +7,18 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+    - hamiltonian path
+      - apply 'subset' structure:
+        - create sub-structures of paths
+      - apply 'combination' structure:
+        - create combinations of sub-structures of paths
+      - apply 'equivalence' filter
+        - remove combinations of sub-structures of paths that include a duplicate node
+      - apply 'interactive' filter
+        - remove combinations of sub-structures of paths that arent interactive (adjacent connections)
+      - apply 'contradiction' filter
+        - remove combinations of sub-structures of paths that contradict original structure to traverse
+
     - finish applying interfaces to solution automation workflows
 
     - finish list of logical rules
