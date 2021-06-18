@@ -59,6 +59,18 @@
                   - 'differences are a structure that can connect a problem to a solution bc they are different by definition'
             - generated solution automation workflow: 
               - identify structures that connect problems/solutions as a way of finding a solution to a problem
+          - 'problem-solving can be formatted as a problem of defining the problem & solution'
+            - apply change interface
+              - once problem & solution have been changed by applying the 'definition' function, they are easier to 'connect' (a core problem-solving function)
+                - apply 'alternative' change function
+                  - what other core problem-solving functions are there (reduce, remove, neutralize, use to solve another problem, fill, structurize/define, find, build)
+                  - iterate through these functions
+                    - what else makes problems/solutions easier to fulfill core problem-solving functions
+                      - what makes building a solution easier to fulfill (core components of solution)
+                      - what makes structurizing a problem/solution easier to fulfill (library of core structures & structures adjacent to that structure & connecting structures)
+                      - what makes finding a solution easier to fulfill (a reduced solution space using solution metric structures as limits)
+                - generated solution automation workflow:
+                  - iterate through core problem-solving functions & structures useful for those functions & apply them to connect problem/solution
 
       - solution success cause: automating problem-solving can be formatted as a problem of defining (applying structure to) the problem & solution
         - apply structures to problem & solution definitions until one optimizes for reducing solution space, or until theyre equivalent
