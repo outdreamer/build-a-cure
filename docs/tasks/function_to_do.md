@@ -7,6 +7,8 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+    - finish applying interfaces to solution automation workflows
+
     - finish list of logical rules
       - similarities
         - equivalents in connections: components of connected rules are equivalent by some metric (interchangeable, equivalent identities, sufficiently similar where differences are irrelevant, etc)
