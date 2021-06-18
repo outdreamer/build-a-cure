@@ -43,12 +43,16 @@
                       - so alternate components are removed & an original component takes the position of its equivalents
                       - where logic rule contradictions act like limits (like filters or barriers) to operations & traversals on the network structure
                       - where defined structures are prioritized in traversals to limit the impact of implicit structures like implications & patterns & similarities, which arent definitively relevant/true & may be false
-                - once its formatted in math structures, determining the following become trivial:
-                  - whether a rule is new to the logic network
-                  - whether a rule fits with the logic network
-                  - whether an object can be tested for a connection to another object using the rules of the converted logic network, or whether less definitive structures are needed to infer logic connections
+            - once its formatted in more determined/defined structures, determining the following become trivial:
+              - whether a rule is new to the logic network
+              - whether a rule fits with the logic network
+              - whether an object can be tested for a connection to another object using the rules of the converted logic network, or whether less definitive structures are needed to infer logic connections
 
-      - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections
+      - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections & apply changes until the structures fit the problem system and a solution is defined
+
+      - solution success cause: automating problem-solving can be formatted as a problem of defining (applying structure to) the problem & solution
+        - apply structures to problem & solution definitions until one optimizes for reducing solution space, or until theyre equivalent
+        - identify connections between definitions of problem-solution connection structures (like connections between opposite/difference structures) and apply to connect problem/solution definitions
 
       - identify connection structures between efficiently measurable interface components (like 'error structures' on the structural interface) and the efficient indicator that is an input to quick connections to solutions (error types, with which you can query for solutions associated with those error types & efficiently find a probably good solution)
         - solution input structures with adjacent/efficient connections to solutions
