@@ -273,6 +273,19 @@
       - counterexample to indicate where a solution automation workflow is contraindicated, bc of inputs like missing info or nonadjacent formats relative to other more adjacent formats
 
     - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
+
+      - insight path to generate idea of 'adding quantum fields to identify value probability at a position'
+        - apply aggregation function to find relative info about a value in a position (compared to info about values in other positions) in standardizable/mappable sets (like fields having some value in the same positions across fields)
+        - problem format: many fields with values in each position
+        - solution format: value for each position
+        - structures that could connect them the problem & solution formats
+          - value-aggregation or value-set description functions like add (for a standard compare to relative values in other positions, given pre-existing input standard already applied to position) or average (to find expected value if each field was equally likely, which may not be the case)
+          - functions that convert a value set into an individual value (example functions, average functions)
+          - comparison functions (across values in a set and relative values in a field)
+      - other ways to generate the idea:
+        - apply a filter of identifying patterns of probability-hoarding points (aggregating the most probability) given interaction structures leading to higher probabilities and assign lower values to remaining points without calculating every point
+        - apply interaction structures between adjacent probability distributions, similarities like adjacence, infinities, or aggregation/neutralization structures to identify structures with higher probabilities
+
       - questions about qft
         - what are the weights applied to aggregated quantum fields? is it adjacence, average (adjacence to center), or some other similarity
           - is it the emergent interactions of probable interactive structures given interaction functions (like connection/neutralization/opposite/fit functions) & their inputs (like position), across related fields (how are they related)
@@ -294,7 +307,7 @@
             - are state chnages (time) resulting from input rules/attributes like stability/efficiency of info in a particular state trajectory?
           - are there structures that can vary across non-adjacent states?
           - what determines adjacence/probability of states?
-          - can you change to non-adjacent states using different probability structures than adjacence?
+          - can you change to non-adjacent states using different probability structures than adjacence/similarity?
           - what would be able to store excess energy that time cannot handle (is probability a dimension that stores energy like time stores energy)
           - do state changes (time) allocate energy according to which states can handle/preserve it?
           - if you design a state that can store energy better than your current state, how do you deploy that state change (design particles that store energy better than quantum particles and deploy a function to convert them) or introduce it to current energy storage so it self-migrates (make it adjacent)?
