@@ -56,6 +56,8 @@
 
     - add to solution automation workflows
 
+      - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components
+
       - find vertex variables of differences (certainty/uncertainty, equal/opposite, structural/abstract) and apply as problem-solution connecting structures
 
       - apply interfaces (like concept/cause/function) to generate solution automation workflows that connect problem/solution metadata given known connections between problems-solutions
