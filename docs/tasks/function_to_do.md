@@ -359,6 +359,11 @@
                     - area calculations could focus on differences from other related area shapes, differences from other shapes like intersecting lines, differences of boundaries from difference types (like cascading differences created by exponents rather than constant/stable differences like straight lines)
             - 'significant differences' between components is a useful standardizing interface for systems (significant differences from vertexes, from core components, from structures, from defaults)
 
+    - randomness structures must include:
+      - contradiction/opposite/neutralization structures so there is an average value to temper extremities
+      - many structures of difference so there is a source of difference in their interactions
+      - high interactivity between variables
+
     - filter components by uniqueness in structure & usage
       - derive a set of functions to solve all problems by:
         - generating a 'difference type-handling function' selection function
