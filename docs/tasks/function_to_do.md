@@ -56,7 +56,7 @@
 
     - add to solution automation workflows
 
-      - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components
+      - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components, and build possible solutions out of these filtered interaction structures
 
       - find vertex variables of differences (certainty/uncertainty, equal/opposite, structural/abstract) and apply as problem-solution connecting structures
 
@@ -276,6 +276,7 @@
 
     - some systems like quantum physics may seem to defy structurization bc they generate structure (info) on demand from whatever resources (like adjacent energy/charge) are available, rather than from a consistent set of resources in a consistent pattern or with consistent rules, by using different versions of objects & functions like references & patterns rather than specific objects & functions themselves - but the structures generated are somewhat predictable in their interchangeability with each other (alternates having some attributes in common) and coordination with boundary/limit/invalidating structures, so finding alternative structures that coordinate with the surrounding structures is one way of reducing the solution space & assigning probability
 
+      - the bootstrap is just an iterative 'point subset connecting function'
       - insight path to generate idea of 'adding quantum fields to identify value probability at a position'
         - apply aggregation function to find relative info about a value in a position (compared to info about values in other positions) in standardizable/mappable sets (like fields having some value in the same positions across fields)
         - problem format: many fields with values in each position
@@ -289,11 +290,11 @@
         - find patterns in point subset connection patterns & generalize to field connection patterns
         - apply a filter of identifying patterns of probability-hoarding points (aggregating the most probability) given interaction structures leading to higher probabilities and assign lower values to remaining points without calculating every point
         - apply interaction structures between adjacent probability distributions, similarities like adjacence, infinities, or aggregation/neutralization structures to identify structures with higher probabilities
-        - the reason an aggregation is useful in smoe cases as opposed to an average is bc of the lack of interactivity across fields, meaning the fields dont influence each other and the concept of an average value is valid bc the items are produced independently from each other, so we can apply structures related to randomness like an average (which is the value if each value in the original value set was 'equally probable')
+          - the reason an aggregation is useful in smoe cases as opposed to an average is bc of the lack of interactivity across fields, meaning the fields dont influence each other and the concept of an average value is valid bc the items are produced independently from each other, so we can apply structures related to randomness like an average (which is the value if each value in the original value set was 'equally probable')
         - each field may not be equally likely, so an average of the field value for a certain position may not be relevant/useful
           - the function used to find one value for a value set needs to be relevant, given the interaction structures of the components that are inputs to the function (the intents of the actual interactions & the interactions in the function need to align)
-        - the reason adding them works in some cases is bc the probability of fields that when summed, exactly neutralize each other to form an output field with a random distribution invalidating the idea of evaluating/comparing values on that field is highly unlikely, even restricted by definition of the infinite fields
-          - what is the probability distribution of the sums or other interaction structures of fields
+          - the reason adding them works in some cases is bc the probability of fields that when summed, exactly neutralize each other to form an output field with a random distribution invalidating the idea of evaluating/comparing values on that field is highly unlikely, even restricted by definition of the infinite fields
+            - what is the probability distribution of the sums or other interaction structures of fields
 
       - questions about qft
         - what are the weights applied to aggregated quantum fields? is it adjacence, average (adjacence to center), or some other similarity
@@ -959,7 +960,16 @@
       - cause
         - differences in cause
 
+    - what makes something easy to calculate
+      - a solution structure where the solution metric is clearly defined (structural or having other structures of certainty like consistency or inevitability or requirement)
+        - checking a path to see if it includes a node twice is clearly defined (it uses the structure of 'node visit counts' in the 'path' solution structure)
+
+    - what makes something difficult to prove
+      - where there are ambiguities (lack of certainty/structure/definition) between the input parameters & the output function value
+        - ambiguities such as where multiple inputs produce the same output, like how different x-values can produce the same y value on a wave function
+
     - requirements of a proof (connect a function on the math interface with the logic interface)
+      - describes all possible variation in the output in terms of components capable of producing that variation
       - complete set of test cases or representative example test
       - connects components using only logic rules & definitions
         - example: if we have connections 'a is a subset of b', and 'b is a subset of c', then we can derive new connections by applying the definitions of 'subset', 'equal', and 'container' to the components
