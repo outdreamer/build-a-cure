@@ -298,6 +298,8 @@
           - what would be able to store excess energy that time cannot handle (is probability a dimension that stores energy like time stores energy)
           - do state changes (time) allocate energy according to which states can handle/preserve it?
           - if you design a state that can store energy better than your current state, how do you deploy that state change (design particles that store energy better than quantum particles and deploy a function to convert them) or introduce it to current energy storage so it self-migrates (make it adjacent)?
+          - do the existing energy storage methods have priorities (like self-maintenance), are they unaware of environment context or unable to communicate/send energy?
+          - what formats can existing energy storage methods already convert between?
 
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
