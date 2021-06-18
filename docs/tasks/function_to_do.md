@@ -288,9 +288,15 @@
         - did the fourth dimension of time develop to store energy that couldnt be stored in three dimensions (storing info as energy/info probability structures instead of physical energy/info structures like electrons)
         - what other dimension structures would store other excess energy, in what formats?
           - time adds the possibility of 'state changes' to structures that can vary between adjacent states
-            - or it takes away the possibility of change by following physics rules of change to structures instead of remaining in a probability state
+            - or it takes away the possibility of change by following physics rules of change to structures instead of remaining in a probability state, 
+              - giving the illusion that time has passed but really a certainty has just been applied to create the state changes as expected
+              - where actual change indicating actual time indicates an addition of potential (adding a dimension of possible change)
+            - are state chnages (time) resulting from input rules/attributes like stability/efficiency of info in a particular state trajectory?
           - are there structures that can vary across non-adjacent states?
           - what determines adjacence/probability of states?
+          - can you change to non-adjacent states using different probability structures than adjacence?
+          - what would be able to store excess energy that time cannot handle (is probability a dimension that stores energy like time stores energy)
+          - do state changes (time) allocate energy according to which states can handle/preserve it?
 
       - quantum physics specifically will benefit from de-observation through interface analysis, to find the standardized (like averaged) perception rather than the measured one in isolation of measurement perspective bias
         - this can involve deriving the errors in observation from the observation context's error structures, and removing those errors, distorting them until theyre not technically errors, or weighting them with other perspectives' errors
