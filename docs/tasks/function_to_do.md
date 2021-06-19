@@ -50,7 +50,8 @@
 
     - finish applying interfaces to solution automation workflows to generate solution automation workflows
       - apply logic interface to identify interaction rules between problem/solution components given their definitions, to create workflows by applying those interaction rules to connect problems/solutions (or apply another interaction function than 'connect')
-
+      - apply function interface to identify core functions or generative functions or vertex functions relevant to solution automation workflows & apply them to generate them
+      - apply solution automation workflows to the problem of 'generating solution automation workflows'
 
     - finish list of logical rules
       - similarities
