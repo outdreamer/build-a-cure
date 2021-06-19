@@ -52,7 +52,14 @@
       - apply logic interface to identify interaction rules between problem/solution components given their definitions, to create workflows by applying those interaction rules to connect problems/solutions (or apply another interaction function than 'connect')
       - apply function interface to identify core functions or generative functions or vertex functions relevant to solution automation workflows & apply them to generate them
       - apply solution automation workflows to the problem of 'generating solution automation workflows'
-      - apply abstract & info & structure interfaces to identify in what interface to resolve sub-problems or other components of a solution automation workflow, given that interfaces differ on their core structure & their certainty structures
+      - apply abstract & info & structure interfaces to identify in what interface to resolve sub-problems or other components of a solution automation workflow, given that interfaces vary on their core structure & their certainty structures
+        - core function interface structure: input/output, interaction rule sequence
+          - logic interface (higher certainty variant of the function interface) is applied as an interaction function filter (to identify/generate/derive interaction functions)
+          - pattern interface (lower certainty variant of the function interface, without certainty structures like input/output providing specific contextual info)
+        - core abstract interface structure: cross-system attribute with varying structures by system
+          - info interface (higher certainty variant of the abstract interface) is applied to identify the relevant structure of concepts applicable to a specific system
+        - core cause interface structure: a determining input
+          - intent interface (a higher certainty variant of the cause interface) is a determining input for a structure like a function (reason to use a function)
       - apply intent interface to generate solution automation workflows
         - definition of 'intent' is 'reason to use something' which is related to cause, so intents can be used as a info source of optimization functions (bc intents are often used bc they optimize for a particular goal), and apply optimization functions to optimize problem system, optimize problem-solution connection, optimize a solution for solution metrics, or optimize another problem/solution component interation
       - apply solution automation workflow core interaction functions to the problem of 'generating solution automation workflows'
