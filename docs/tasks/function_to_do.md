@@ -48,7 +48,9 @@
         - do their quantum fields aggregate into a wave under certain conditions, while the non-aggregated components retain mass with efficient interaction structures that can store energy with temporary certainty structures
         - what is the function of quantum particles - are they just generative or descriptive info of the particle output by the particle's structure, or indicators of lack of info about the particle, or differences between info about the particle
 
-    - finish applying interfaces to solution automation workflows
+    - finish applying interfaces to solution automation workflows to generate solution automation workflows
+      - apply logic interface to identify interaction rules between problem/solution components given their definitions, to create workflows by applying those interaction rules to connect problems/solutions (or apply another interaction function than 'connect')
+
 
     - finish list of logical rules
       - similarities
