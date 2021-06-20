@@ -61,6 +61,7 @@
         - example: 
           - for the intent 'minimize cost' applied to problem-solving ('solve problem with minimal input info'), the associated problem-solving function is 'derive info', which requires functions that can generate relatively high info from low input, producing the workflow:
             - 'identify high-output, low-input (low-cost) structures in info processing to form set of default structures to check for in deriving info from minimal info'
+      - apply system optimizations like 'minimize cost' to problem-solving workflows (like how 'minimize cost' is an optimization that solves the info problem of 'solving a problem with minimal info') to identify associated functions/structures for that system optimization intent & associated problem structure (once an interface like the info interface is applied so the system optimization can be applied)
       - apply standard solution automation workflow generator workflow based on aligning functions to sub-problem intents
         - apply 'identify pattern' function to identify & isolate common structures in prior problem-solving workflows to form a pattern
         - apply 'identify useful system components' function to identify useful system components to fulfill intents more efficiently/optimally
