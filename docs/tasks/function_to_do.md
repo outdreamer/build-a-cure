@@ -50,6 +50,10 @@
 
     - finish iterating through applying interfaces to solution automation workflows to generate solution automation workflows
       - apply logic interface to identify interaction rules between problem/solution components given their definitions, to create workflows by applying those interaction rules to connect problems/solutions (or apply another interaction function than 'connect')
+      - apply standard solution automation workflow generator workflow based on aligning functions to sub-problem intents
+        - apply 'identify pattern' function to identify & isolate common structures in prior problem-solving workflows to form a pattern
+        - apply 'identify useful system components' function to identify useful system components to fulfill intents more efficiently/optimally
+        - apply 'abstract' function to generalize to all problems
       - apply function interface to identify core functions or generative functions or vertex functions relevant to solution automation workflows & apply them to generate them
       - apply solution automation workflows to the problem of 'generating solution automation workflows'
       - apply system interface to identify useful system structures like efficiencies in prior problem-solving paths & apply the pattern interface to patterns in those efficiencies to generalize them to other problems
