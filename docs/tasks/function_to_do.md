@@ -58,6 +58,9 @@
           - first break the problem into sub-problems, then return it to its original format once sub-solutions are solved by integrating/aggregating them
           - connecting the differences between a problem/solution with connecting formats
       - identify useful structures for varying intents in a system (like a particular problem system) and assume some component is using those structures especially if theyre useful to multiple components/intents
+        - example: 
+          - for the intent 'minimize cost' applied to problem-solving ('solve problem with minimal input info'), the associated problem-solving function is 'derive info', which requires functions that can generate relatively high info from low input, producing the workflow:
+            - 'identify high-output, low-input (low-cost) structures in info processing to form set of default structures to check for in deriving info from minimal info'
       - apply standard solution automation workflow generator workflow based on aligning functions to sub-problem intents
         - apply 'identify pattern' function to identify & isolate common structures in prior problem-solving workflows to form a pattern
         - apply 'identify useful system components' function to identify useful system components to fulfill intents more efficiently/optimally
