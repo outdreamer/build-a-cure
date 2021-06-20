@@ -50,6 +50,11 @@
 
     - finish iterating through applying interfaces to solution automation workflows to generate solution automation workflows
       - apply logic interface to identify interaction rules between problem/solution components given their definitions, to create workflows by applying those interaction rules to connect problems/solutions (or apply another interaction function than 'connect')
+      - vary variables that workflows have in common & differ on, including variables implicit to the definition of a solution automation workflow:
+        - derive info of varying certainty from other info in an efficient & effective way
+        - apply structure to info to generate a particular certainty (like an answer to a question, such as a particular solution to a problem)
+          - apply structure to adjacent info to generate filters/limits to derive info about the structure of the target solution, if direct info cant be derived (like patterns or solutions to similar but not equal problems)
+        - identify useful structures for varying intents in a system (like a particular problem system)
       - apply standard solution automation workflow generator workflow based on aligning functions to sub-problem intents
         - apply 'identify pattern' function to identify & isolate common structures in prior problem-solving workflows to form a pattern
         - apply 'identify useful system components' function to identify useful system components to fulfill intents more efficiently/optimally
