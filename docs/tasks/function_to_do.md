@@ -142,7 +142,7 @@
 
     - add to solution automation workflows
 
-      - identify useful interface components for various problem/solution core interaction functions
+      - identify & apply useful interface components for various problem/solution core interaction functions
 
         - 'reduce': identify functions that reduce the work of other functions if executed in a particular function structure
           - examples:
@@ -153,16 +153,21 @@
 
         - 'connect': identify connective/interactive functions for 'connect problem/solution' intents
 
-      - identify structures convertible to input of specific core interaction functions like connect/reduce & apply those functions specifically to those structures in a structure like a function sequence/network, rather than randomly applying connect/reduce to problem/solution structures or applying a core interaction function structure as a general static method
+      - identify structures convertible to input of specific core interaction functions (like connect/reduce) or associated solution automation workflows & apply those functions specifically to those structures in a structure like a function sequence/network, rather than:
+          - randomly applying core interaction functions to problem/solution structures
+          - applying a specific core interaction function & associated solution automation workflow
+          - applying a core interaction function structure as a general static method
 
-      - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions like connect/reduce, as a general method of solving a problem (rather than selecting a specific solution automation workflow associated with a specific core interaction function), thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
+      - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions (like connect/reduce) or associated solution automation workflows, as a general static method of solving a problem, thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
 
         - apply 'reduce' to the problem: 
           - reduce the differences between problem/solution by converting the input into a more adjacent format to the solution (containing variables already known to be important in the data set)
-            - apply changes to input data to make it a possible input to tool structures (like algorithm sequences) for a specific useful function sequence
-              - example: apply changes to make input data a possible input to the useful function sequence: 
-                - feature selection algorithm 
-                - normal ai algorithm to create a prediction function
+            - apply changes to input data to make it a possible input to tool structures (like algorithm sequences or network of quantum bits) for a specific structure (like a useful function sequence or a network of related sub-problems/questions or sub-systems)
+              - example: 
+                - apply changes to make input data a possible input to the useful function sequence: 
+                  - feature selection algorithm 
+                  - normal ai algorithm to create a prediction function
+                - structure quantum bits in a structure that connects them according to an interface query, resolving sub-systems in separate bit structures and integrating them in a way reflective of reality (or reflections of it captured in useful/realistic system structures like efficiencies or in patterns reflecting realistic probabilities)
 
         - apply 'connect' to the problem/solution:
           - connect the problem/solution by connecting important structures in the data set to the input to the algorithm to identify important variables (using highlighting structures like markers/masks for image data)
