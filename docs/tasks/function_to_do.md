@@ -153,6 +153,8 @@
 
         - 'connect': identify connective/interactive functions for 'connect problem/solution' intents
 
+      - identify structures convertible to input of specific core interaction functions like connect/reduce & apply those functions specifically to those structures in a structure like a function sequence/network, rather than randomly applying connect/reduce to problem/solution structures or applying a core interaction function structure as a general static method
+
       - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions like connect/reduce, as a general method of solving a problem (rather than selecting a specific solution automation workflow associated with a specific core interaction function), thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
 
         - apply 'reduce' to the problem: 
