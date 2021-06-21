@@ -144,6 +144,11 @@
 
       - identify useful interface components for various problem/solution core interaction functions
         - identify functions that reduce the work of other functions if executed in a particular function structure
+          - examples:
+            - 'standardizing functions' reduce the work of 'comparison functions'
+            - 'type identification functions' reduce the work of 'differentiation functions'
+            - 'pattern identification functions' reduce the work of 'prediction function identification functions'
+            - 'variable interaction identification functions', 'important variable identification functions', and 'cause identification functions' reduce the work of 'finding prediction function functions'
         - identify connective/interactive functions for 'connect problem/solution' intents
 
       - apply changes to problem structure to more optimally fulfill various adjacent core interaction functions between problem/solution like connect/reduce
