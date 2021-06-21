@@ -7,6 +7,8 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+    - make a function network of math domains (inputs/outputs of geometry, algebra, calculus that align)
+
     - example of resolving a conflict between structure/limits using a structural similarity between a structure (gradient of function) & its container/limits (gradient of constraints)
       - https://en.wikipedia.org/wiki/Lagrange_multiplier
       - also an example of a solution space (the whole function is the solution space of possible minima/maxima) and a filter applied to it (constraint)
@@ -139,6 +141,8 @@
       - if the problem interface queries produce enough info, the problem interface may occasionally be the only interface required to solve the problem, like when known solutions are known to be optimal for the problem type & solve the problem when applied in a simulation of the problem space
 
     - add to solution automation workflows
+
+      - when applying AI, first distort useful system/interface components like structural similarities/alignments/efficiencies in data sets to reduce the work of Ai algorithms to identify important variables/structures, or automate this by applying important variable or variable structure patterns like hub variables connecting many variables with functions like 'cause' or foundation variables (on which other variables develop) to identify these structures automatically
 
       - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components, and build possible solutions out of these filtered interaction structures
 
