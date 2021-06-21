@@ -143,15 +143,17 @@
     - add to solution automation workflows
 
       - identify useful interface components for various problem/solution core interaction functions
-        - identify functions that reduce the work of other functions if executed in a particular function structure
+
+        - 'reduce': identify functions that reduce the work of other functions if executed in a particular function structure
           - examples:
             - 'standardizing functions' reduce the work of 'comparison functions'
             - 'type identification functions' reduce the work of 'differentiation functions'
             - 'pattern identification functions' reduce the work of 'prediction function identification functions'
             - 'variable interaction identification functions', 'important variable identification functions', and 'cause identification functions' reduce the work of 'finding prediction function functions'
-        - identify connective/interactive functions for 'connect problem/solution' intents
 
-      - apply changes to problem structure to more optimally fulfill various adjacent core interaction functions between problem/solution like connect/reduce
+        - 'connect': identify connective/interactive functions for 'connect problem/solution' intents
+
+      - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions like connect/reduce, as a general method of solving a problem (rather than selecting a specific solution automation workflow associated with a specific core interaction function), thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
 
         - apply 'reduce' to the problem: 
           - reduce the differences between problem/solution by converting the input into a more adjacent format to the solution (containing variables already known to be important in the data set)
