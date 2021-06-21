@@ -142,16 +142,24 @@
 
     - add to solution automation workflows
 
-      - apply adjacent changes to structure the problem input to fulfill various core interaction functions between problem/solution
+      - identify useful interface components for various problem/solution core interaction functions
+        - identify functions that reduce the work of other functions if executed in a particular function structure
+        - identify connective/interactive functions for 'connect problem/solution' intents
 
-        - apply 'reduce' to the problem: apply changes to input data to make it a possible input to algorithm sequences for a useful function sequence
-          - example: apply changes to make input data a possible input to the algorithm sequence: 
-            - feature selection algorithm 
-            - normal ai algorithm to create a prediction function
+      - apply changes to problem structure to more optimally fulfill various adjacent core interaction functions between problem/solution like connect/reduce
 
-        - apply 'connect' to the problem/solution: apply changes to input data to make it possible to input into existing tools/functions that connect the problem/solution
-          - example: when applying AI, first distort useful system/interface components like structural similarities/alignments/efficiencies in data sets to reduce the work of Ai algorithms to identify important variables/structures, or automate this by applying important variable or variable structure patterns like hub variables connecting many variables with functions like 'cause' or foundation variables (on which other variables develop) to identify these structures automatically
-            - this connects the problem format of a data set with the solution format of a prediction function, using additional logic to transform the data set into another data set format that is a possible input to an AI algorithm, but with additional highlighting distortions added in the data set format to keep it in a format that is useful to an AI algorithm with the relevant modifications to make the ai algorithm's task more adjacent
+        - apply 'reduce' to the problem: 
+          - reduce the differences between problem/solution by converting the input into a more adjacent format to the solution (containing variables already known to be important in the data set)
+            - apply changes to input data to make it a possible input to tool structures (like algorithm sequences) for a specific useful function sequence
+              - example: apply changes to make input data a possible input to the useful function sequence: 
+                - feature selection algorithm 
+                - normal ai algorithm to create a prediction function
+
+        - apply 'connect' to the problem/solution:
+          - connect the problem/solution by connecting important structures in the data set to the input to the algorithm to identify important variables (using highlighting structures like markers/masks for image data)
+          - apply changes to input data to make it possible to input into existing tools/functions that connect the problem/solution
+            - example: when applying AI, first distort useful system/interface components like structural similarities/alignments/efficiencies in data sets to reduce the work of Ai algorithms to identify important variables/structures, or automate this by applying important variable or variable structure patterns like hub variables connecting many variables with functions like 'cause' or foundation variables (on which other variables develop) to identify these structures automatically
+              - this connects the problem format of a data set with the solution format of a prediction function, using additional logic to transform the data set into another data set format that is a possible input to an AI algorithm, but with additional highlighting distortions added in the data set format to keep it in a format that is useful to an AI algorithm with the relevant modifications to make the ai algorithm's task more adjacent
 
       - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components, and build possible solutions out of these filtered interaction structures
 
