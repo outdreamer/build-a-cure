@@ -158,7 +158,7 @@
           - applying a specific core interaction function & associated solution automation workflow
           - applying a core interaction function structure as a general static method
 
-      - identify interaction level structures between inputs/outputs of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those structures to map inputs to outputs
+      - identify useful structures (like interaction level structures between inputs/outputs or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those structures to map inputs to outputs
         - example: 
           - interaction level structures of ai algorithms include:
             - filters
@@ -181,6 +181,10 @@
 
         - examples of alternatives to info:
           - probability
+          - interactive structures
+          - uncertainty-resolution structures 
+            - including solution automation functions like:
+              - 'convert to abstract interface to resolve uncertain connections & convert to original interface to resolve implementation once abstract connections are resolved'
           - logic/functions to connect inputs/outputs
           - info filters
           - info derivation/generation functions
