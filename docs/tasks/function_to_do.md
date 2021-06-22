@@ -193,6 +193,14 @@
         - generate (or find & map) solution automation workflows that can generate these alternate structures & apply them to generate these alternate structures as a solution to map inputs/outputs
         - this works bc of the definition of 'alternate' applied to solution automation workflow inputs like info structures
 
+      - apply structures of power to solution automation workflow components (like inputs, core interaction functions, or implementation variables)
+        - structures of power include:
+          - alternative structures
+          - efficiency structures
+          - organization structures
+          - alignment structures
+        - these structures are powerful because they enable other components (like functions such as 'storage' by reducing need for storing other structures)
+
       - identify & apply changes to general solution automation workflows to fit them to & implement them as configurations of alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
         - example: 
           - identify & apply changes to a solution automation workflow to convert it to an ai algorithm
