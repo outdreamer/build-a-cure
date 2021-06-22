@@ -159,7 +159,12 @@
           - applying a core interaction function structure as a general static method
 
       - identify & apply changes to general solution automation workflows to fit them to alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
-        - example: identify & apply changes to a solution automation workflow to convert it to an ai algorithm
+        - example: 
+          - identify & apply changes to a solution automation workflow to convert it to an ai algorithm
+            - identify variables of the workflow implementation
+              - apply variables of the workflow implementation as network parameters or apply them to generate alternative networks/algorithms
+            - identify functions/structures that can replace components of the workflow (like interaction layers, definitions, input/output sequences, sub-problems, core interaction functions)
+              - organize the structures into a network structure so the structures can interact in a way that maps original inputs/outputs
 
       - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions (like connect/reduce) or associated solution automation workflows, as a general static method of solving a problem, thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
 
