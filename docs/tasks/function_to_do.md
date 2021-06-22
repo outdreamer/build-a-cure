@@ -158,6 +158,12 @@
           - applying a specific core interaction function & associated solution automation workflow
           - applying a core interaction function structure as a general static method
 
+      - apply structures relevant to 'generative' function intents to the intent of 'generating solution automation workflows'
+        - structures relevant to 'generative' intents:
+          - variable structures
+          - alternate structures
+          - structures of difference
+
       - identify relevant different structures for solution automation workflow components & iterate through combinations of them, filtering by relevance metrics (like reusability) 
         - apply alternate/proxy/difference structures of definitions of components & iterate through combinations of them
           - examples:
@@ -189,11 +195,12 @@
                 - this works bc any general filtering method is a possible solution automation workflow bc 'filter' is a core interaction function between problems/solutions
 
       - apply interfaces & interface components useful to solve various interface query sub-problems (like 'determining probable cost/benefit of a sub-query before executing it') to design optimal interface queries to apply core interaction functions (like connect) to problems/solutions
-        - apply the abstract interface to identify interaction structures between definitions as a filter to determine whether a possible structure (like a query or a solution automation workflow or a function) is worth executing/implementing before executing/implementing it
-          - example: 
-            - before appling the concept of power to generate an output, check if the definition interaction structures indicate the actual output will be the intended output
-              - if applying power structures to generate power is the intent, its a valid structure given the definition of power (& its interactions given definitions of related components like generative functions, generate, output, etc)
-              - if applying power structures to generate power-neutralizing structures (like power-centralization) is the intent, its not a valid structure (given the definitions of power, centralization, neutralization, etc)
+        - example:
+          - apply the abstract interface to identify interaction structures between definitions as a filter to determine whether a possible structure (like a query or a solution automation workflow or a function) is worth executing/implementing before executing/implementing it for a given intent (whether it will fulfill the intended function, to generate the intended output)
+            - example: 
+              - before appling the concept of power to generate an output, check if definition interaction structures indicate the actual output will be the intended output
+                - if applying power structures to generate power is the intent, its a valid structure given the definition of power (& its interactions given definitions of related components like generative functions, generate, output, etc)
+                - if applying power structures to generate power-neutralizing structures (like power-centralization) is the intent, its not a valid structure (given the definitions of power, centralization, neutralization, etc)
 
       - identify alternate structures than info that can act as an input-output interaction structures (like connection structures) or another core interaction function applied to problem/solution structures (or abstract or proxy versions of them like inputs/outputs) and solve the problem of applying core interaction functions (generating/connecting/filtering) to alternate structures instead & apply alternate structures to apply core interaction functions (like connect) to original problem inputs/outputs
 
