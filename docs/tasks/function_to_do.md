@@ -177,9 +177,9 @@
                 - this applies the ai workflow of 'assigning probabilities for outputs given inputs' to the solution automation problem of 'assigning probabilities to structures for a general output problem-solving intent (like filtering relevant structures) given input structures'
                 - this works bc any general filtering method is a possible solution automation workflow bc 'filter' is a core interaction function between problems/solutions
 
-      - identify alternate structures than info that can act as an input-output connection structure or another core interaction function applied to problem/solution structures or abstract versions of them like inputs/outputs and solve the problem of applying core interaction functions (generating/connecting/filtering) to alternate structures instead
+      - identify alternate structures than info that can act as an input-output interaction structures (like connection structures) or another core interaction function applied to problem/solution structures (or abstract or proxy versions of them like inputs/outputs) and solve the problem of applying core interaction functions (generating/connecting/filtering) to alternate structures instead & apply alternate structures to apply core interaction functions (like connect) to original problem inputs/outputs
 
-        - examples of alternatives to info:
+        - examples of alternative structures to info:
           - probability
           - interactive structures
           - uncertainty-resolution structures 
@@ -191,6 +191,7 @@
           - info components
 
         - generate (or find & map) solution automation workflows that can generate these alternate structures & apply them to generate these alternate structures as a solution to map inputs/outputs
+        - this works bc of the definition of 'alternate' applied to solution automation workflow inputs like info structures
 
       - identify & apply changes to general solution automation workflows to fit them to & implement them as configurations of alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
         - example: 
