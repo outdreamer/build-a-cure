@@ -177,6 +177,17 @@
                 - this applies the ai workflow of 'assigning probabilities for outputs given inputs' to the solution automation problem of 'assigning probabilities to structures for a general output problem-solving intent (like filtering relevant structures) given input structures'
                 - this works bc any general filtering method is a possible solution automation workflow bc 'filter' is a core interaction function between problems/solutions
 
+      - identify alternate structures than info that can act as an input-output connection structure or another core interaction function applied to problem/solution structures or abstract versions of them like inputs/outputs and solve the problem of applying core interaction functions (generating/connecting/filtering) to alternate structures instead
+
+        - examples of alternatives to info:
+          - probability
+          - logic/functions to connect inputs/outputs
+          - info filters
+          - info derivation/generation functions
+          - info components
+
+        - generate (or find & map) solution automation workflows that can generate these alternate structures & apply them to generate these alternate structures as a solution to map inputs/outputs
+
       - identify & apply changes to general solution automation workflows to fit them to & implement them as configurations of alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
         - example: 
           - identify & apply changes to a solution automation workflow to convert it to an ai algorithm
