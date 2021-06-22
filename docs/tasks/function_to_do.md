@@ -158,10 +158,21 @@
           - applying a specific core interaction function & associated solution automation workflow
           - applying a core interaction function structure as a general static method
 
+      - identify relevant different structures for solution automation workflow components & iterate through combinations of them, filtering by relevance metrics (like reusability) 
+        - apply alternate/proxy/difference structures of definitions of components & iterate through combinations of them
+          - examples:
+            - apply alternate definition routes of components
+              - rather than 'input' structures, apply 'power' structures to solution automation workflows
+            - apply abstract/specific structures of components
+              - rather than 'connect' structures, apply 'sequence' structures
+              - rather than 'cause' structures, apply 'inevitability' structures
+        - then filter combinations of different structures by which can apply a core interaction function like connect between problem/solution inputs/outputs to optimize for a solution metric filter
+
       - identify useful structures (like interaction level structures between inputs/outputs or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those structures to map inputs to outputs
         - example: 
           - interaction level structures of ai algorithms include:
             - filters
+            - functions
             - probabilities
               - apply structures that generate info about probabilities of input-output interactions and apply as info-filtering network structures between original problem input & solution output
                 - a trained ai model gives data about probabilities of outputs given inputs
