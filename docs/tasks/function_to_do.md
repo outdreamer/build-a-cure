@@ -158,6 +158,9 @@
           - applying a specific core interaction function & associated solution automation workflow
           - applying a core interaction function structure as a general static method
 
+      - identify & apply changes to general solution automation workflows to fit them to alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
+        - example: identify & apply changes to a solution automation workflow to convert it to an ai algorithm
+
       - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions (like connect/reduce) or associated solution automation workflows, as a general static method of solving a problem, thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
 
         - apply 'reduce' to the problem: 
@@ -167,7 +170,7 @@
                 - apply changes to make input data a possible input to the useful function sequence: 
                   - feature selection algorithm 
                   - normal ai algorithm to create a prediction function
-                - structure quantum bits in a structure that connects them according to an interface query, resolving sub-systems in separate bit structures and integrating them in a way reflective of reality (or reflections of it captured in useful/realistic system structures like efficiencies or in patterns reflecting realistic probabilities)
+                - structure quantum bits in a structure that connects them according to an interface query, resolving sub-systems/problems in separate bit structures and integrating them in a structure reflective of reality (or reflections of it captured in useful/realistic system structures like efficiencies or in patterns reflecting realistic probabilities), implementing the 'break problems into sub-problems & aggregate/integrate into solutions' workflow
 
         - apply 'connect' to the problem/solution:
           - connect the problem/solution by connecting important structures in the data set to the input to the algorithm to identify important variables (using highlighting structures like markers/masks for image data)
