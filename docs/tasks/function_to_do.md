@@ -169,6 +169,10 @@
                 - example of fitting a solution automation workflow component to an ai network/algorithm structure:
                   - identify variables of the workflow implementation
                     - apply variables of the workflow implementation as network parameters or apply them to generate alternative networks/algorithms
+                  - identify solution metrics of the workflow
+                    - apply solution metrics as final layers or filters (like threshold values or other boundary/limiting/condition structures like input/output connection restrictions) in the algorithm
+                  - identify core interaction function of the workflow & apply as a general intent of input/output structure mapping of the network 
+                    - example: the 'reduce' interaction function of the workflow should 'reduce' the relevant network problem inputs (variables) to the 'important variable' structures, or reduce it to a 'category prediction' structure
 
       - identify & apply changes to problem structure to more optimally fulfill multiple/alternate adjacent core interaction functions (like connect/reduce) or associated solution automation workflows, as a general static method of solving a problem, thereby executing one or more core problem-solution interaction functions in a structure like a sequence/network as a general solution automation workflow
 
