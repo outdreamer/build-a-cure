@@ -7,6 +7,12 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+    - give examples of identifying vertex variables
+      - general vertex variables: topic, errors, variables, types
+      - comedy vertex variables: sincerity, stupidity, stakes
+      - music vertex variables: tone, structural tension-resolution pattern variation, lyrics
+      - optimization vertex variables: solution metric patterns (what other solutions optimize for)
+
     - make a function network of math domains (inputs/outputs of geometry, algebra, calculus that align)
 
     - example of resolving a conflict between structure/limits using a structural similarity between a structure (gradient of function) & its container/limits (gradient of constraints)
@@ -56,7 +62,7 @@
         - derive info of varying certainty from other info in an efficient & effective way
         - apply structure to info to generate a particular certainty (like an answer to a question, such as a particular solution to a problem)
           - apply structure to adjacent info to generate filters/limits to derive info about the structure of the target solution, if direct info cant be derived (like patterns or solutions to similar but not equal problems)
-        - resolve the tension of the uncertainty in some way, for example:
+        - resolve the tension (difference) of the uncertainty in some way, for example:
           - first break the problem into sub-problems, then return it to its original format once sub-solutions are solved by integrating/aggregating them
           - connecting the differences between a problem/solution with connecting formats
       - identify useful structures for varying intents in a system (like a particular problem system) and assume some component is using those structures especially if theyre useful to multiple components/intents
@@ -179,9 +185,9 @@
           - differences between the solution space & ethical solution structures
           - differences between the solution space & abstract solution structures
           - patterns of differences or difference types between the solution space & optimal structures
-        - this works bc of the definition of various definitions of optimal, like how 'ethics' means 'what should occur', as in 'unenforced rules for filtering a solution space of possible decisions to navigate complex decisions that are not governed by enforced rules'
+        - this works bc of the definition of various definitions of optimal, like how 'ethics' means 'what should occur', as in 'unenforced rules for filtering a solution space of possible decisions to navigate complex decisions that are not governed by enforced rules', such as 'fulfill responsibilities' being an ethical structure that can guide system optimization
 
-      - identify useful structures (like interaction level structures between inputs/outputs or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those useful structures to map inputs to outputs
+      - identify useful structures (like interaction level structures between inputs/outputs, alternate/interim inputs/outputs, or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those useful structures to map inputs to outputs
         - example: 
           - interaction level structures of ai algorithms include:
             - filters
