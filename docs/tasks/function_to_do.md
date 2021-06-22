@@ -191,6 +191,9 @@
           - info components
 
         - generate (or find & map) solution automation workflows that can generate these alternate structures & apply them to generate these alternate structures as a solution to map inputs/outputs
+          - example of a solution automation workflow that can generate these alternate structures:
+            - 'apply power of interactivity to find interaction structures of an info alternative structure (like probability) and connect them to connect problem inputs/outputs with the info alternative structures'
+
         - this works bc of the definition of 'alternate' applied to solution automation workflow inputs like info structures
 
       - apply structures of power (which tend to overlap with 'useful system components' bc of the definition of 'useful/relevant') to solution automation workflow components (like inputs, core interaction functions, or implementation variables)
@@ -1518,6 +1521,8 @@
         - 'identify error interactions, so the interaction of changes to one error & changes in related errors can be predicted'
 
     - indexing solutions by the 'reason why it worked or didnt work' (solution success/error cause) is a quicker way to select/filter solutions in some cases
+      - add the solution success cause (like power or certainty or interactivity) to the solution automation workflow:
+        - example: 'apply the definition of power to generate/find power structures to find inputs that can enable this output'
       - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
         - 'try existing solutions'
           - reason why it may work: 
