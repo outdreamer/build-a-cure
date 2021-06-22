@@ -158,7 +158,19 @@
           - applying a specific core interaction function & associated solution automation workflow
           - applying a core interaction function structure as a general static method
 
-      - identify & apply changes to general solution automation workflows to fit them to alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
+      - apply structures that output info about probabilities of interactions and apply as a info-filtering network structures between original problem input & solution output
+        - a trained ai model gives data about probabilities of outputs given inputs
+        - other sources of probability info of outputs for a given input structure (like an intent/context/function) can be generated from pattern & other certainty & uncertainty-resolution structures
+          - example for predicting outputs like occurrence/usage:
+            - interactive structures are more likely to be connected in a 'system, integration, or combination' structure
+            - structures that follow common patterns or similarities are likelier to occur in structures for common intents
+            - simple/efficient structures are likelier to occur in a 'new, stabilized, or optimized system' structure
+            - structures that use the same core structures are likelier to occur in a 'system' structure
+            - stable structures are likelier to be used as a 'foundation' structure or 'building' intents
+            - standardizing structures are likelier to be used for 'info exchange' intents
+            - core structures are likelier to be used for 'generating' intents
+
+      - identify & apply changes to general solution automation workflows to fit them to & implement them as configurations of alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
         - example: 
           - identify & apply changes to a solution automation workflow to convert it to an ai algorithm
             - identify & organize structures by one or more of the following methods:
@@ -168,7 +180,7 @@
                 - organize the structures into a network structure so the structures can interact in a way that maps original inputs/outputs
                 - example of fitting a solution automation workflow component to an ai network/algorithm structure:
                   - identify variables of the workflow implementation
-                    - apply variables of the workflow implementation as network parameters or apply them to generate alternative networks/algorithms
+                    - apply variables of the workflow implementation as 'network parameter' structures or apply them to generate 'alternative network/algorithm' structures
                   - identify solution metrics of the workflow
                     - apply solution metrics as final layers or filters (like threshold values or other boundary/limiting/condition structures like input/output connection restrictions) in the algorithm
                   - identify core interaction function of the workflow & apply as a general intent of input/output structure mapping of the network 
