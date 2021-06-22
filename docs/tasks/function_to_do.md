@@ -174,6 +174,13 @@
               - rather than 'cause' structures, apply 'inevitability' structures
         - then filter combinations of different structures by which can apply a core interaction function like connect between problem/solution inputs/outputs to optimize for a solution metric filter
 
+      - apply optimization or core interaction function structures/intents (like 'reduce') to optimize & generate solution automation workflows for solving the problem of finding interaction structures (like 'differences') between solution structures (like optimal structures) & default/input structures (like the whole solution space such as 'all possible combinations')
+        - apply 'reduce differences' intent to fulfill intent of 'finding optimal structures efficiently':
+          - differences between the solution space & ethical solution structures
+          - differences between the solution space & abstract solution structures
+          - patterns of differences or difference types between the solution space & optimal structures
+        - this works bc of the definition of various definitions of optimal, like how 'ethics' means 'what should occur', as in 'unenforced rules for filtering a solution space of possible decisions to navigate complex decisions that are not governed by enforced rules'
+
       - identify useful structures (like interaction level structures between inputs/outputs or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those useful structures to map inputs to outputs
         - example: 
           - interaction level structures of ai algorithms include:
