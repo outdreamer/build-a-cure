@@ -1,126 +1,21 @@
-    - generate structures common across multiple solution automation workflows
-      - structures to identify solutions
-        - any structures that qualify as the following can help fulfill the problem-solving intent of 'identify solutions', so they can be used as a solution automation workflow (once the solution space is identified or if the solution space is a given input)
-          - solution metric filters
-          - error structures
-          - optimization structures
+## other solution automation workflows
 
-    - apply optimal structure finding/selecting rules to select structures that:
-        - preserve relevant info
-          - input/output variables should have their position preserved bc there are few cases where input/output flag is not relevant
-        - isolate differences & combine similarities as needed
-          - variable groups should be differentiated from individual variables bc variable groups are on a different interaction level
-          - input/output variables should be connected in some way (like constant position or adjacence or connecting path) but should also be clearly isolated, unless interchangeable
-        - choose a base that fits & is relevant to data meaning
-          - connecting variables based on original position adjacence if no position changes are necessary
-          - connecting states in original sequence based on time
-        - avoid assigning arbitrary structures
-          - distance/position that doesnt indicate info about a function, attribute, or identity
+    - apply structures of interface components to solution automation workflows to generate solution automation workflows
+      - apply 'pattern' structures (like 'common' structures) to solution automation workflows to generate solution automation workflows
+        - generate structures common across multiple solution automation workflows
+          - structures to identify solutions
+            - any structures that qualify as the following can help fulfill the problem-solving intent of 'identify solutions', so they can be used as a solution automation workflow (once the solution space is identified or if the solution space is a given input)
+              - solution metric filters
+              - error structures
+              - optimization structures
 
-    - identify & apply useful interface components for various problem/solution core interaction functions
-
-        - 'reduce': identify functions that reduce the work of other functions if executed in a particular function structure
-          - examples:
-            - 'standardizing functions' reduce the work of 'comparison functions'
-            - 'type identification functions' reduce the work of 'differentiation functions'
-            - 'pattern identification functions' reduce the work of 'prediction function identification functions'
-            - 'variable interaction identification functions', 'important variable identification functions', and 'cause identification functions' reduce the work of 'finding prediction function functions'
-
-        - 'connect': identify connective/interactive functions for 'connect problem/solution' intents
-
-    - identify structures convertible to input of specific core interaction functions (like connect/reduce) or associated solution automation workflows & apply those functions specifically to those structures in a structure like a function sequence/network, rather than:
-          - randomly applying core interaction functions to problem/solution structures
-          - applying a specific core interaction function & associated solution automation workflow
-          - applying a core interaction function structure as a general static method
-
-    - apply structures relevant to 'generative' function intents to the intent of 'generating solution automation workflows'
-        - structures relevant to 'generative' intents:
-          - variable structures
-          - alternate structures
-          - structures of difference
-
-    - apply structures of general/specific solution automation workflow components based on definitions of the components
-        - general components include: solution space, solution metrics, solution automation workflow variables, & core interaction functions
-          - example:
-            - apply a 'interaction space' or 'combination space' rather than a 'solution space'
-
-        - identify relevant different structures for specific solution automation workflow components & iterate through combinations of them, filtering by relevance metrics (like reusability) 
-          - apply alternate/proxy/difference structures of definitions of components & iterate through combinations of them
-            - examples:
-              - apply alternate definition routes of components
-                - rather than 'input' structures, apply 'power' structures to solution automation workflows
-                - rather than variable structures, apply 'difference' structures
-              - apply abstract/specific structures of components
-                - rather than 'connect' structures, apply 'sequence' structures
-                - rather than 'cause' structures, apply 'inevitability' structures
-          - then filter combinations of different structures by which can apply a core interaction function like connect between problem/solution inputs/outputs to optimize for a solution metric filter
-
-    - apply optimization or core interaction function structures/intents (like 'reduce') to optimize & generate solution automation workflows for solving the problem of finding interaction structures (like 'differences') between solution structures (like optimal structures) & default/input structures (like the whole solution space such as 'all possible combinations')
-        - apply 'reduce differences' intent to fulfill intent of 'finding optimal structures efficiently':
-          - differences between the solution space & ethical solution structures
-          - differences between the solution space & abstract solution structures
-          - patterns of differences or difference types between the solution space & optimal structures
-        - this works bc of the definition of various definitions of optimal, like how 'ethics' means 'what should occur', as in 'unenforced rules for filtering a solution space of possible decisions to navigate complex decisions that are not governed by enforced rules', such as 'fulfill responsibilities' being an ethical structure that can guide system optimization
-
-    - identify useful structures (like interaction level structures between inputs/outputs, alternate/interim inputs/outputs, or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative structures that generate those useful structures to map inputs to outputs
-        - example: 
-          - interaction level structures of ai algorithms include:
-            - filters
-            - functions
-            - probabilities
-              - apply structures that generate info about probabilities of input-output interactions and apply as info-filtering network structures between original problem input & solution output
-                - a trained ai model gives data about probabilities of outputs given inputs
-                - other sources of probability info of outputs for a given input structure (like an intent/context/function) can be generated from certainty & uncertainty-resolution structures (like patterns)
-                  - example for predicting outputs like occurrence/usage/interaction, as a way of filtering structures for an intent:
-                    - interactive structures are more likely to be connected in a 'system, integration, or combination' structure
-                    - structures that follow common patterns or similarities are likelier to occur in structures for common intents
-                    - simple/efficient structures are likelier to occur in a 'new, stabilized, or optimized system' structure
-                    - structures that use the same core structures are likelier to occur in a 'system' structure
-                    - stable structures are likelier to be used as a 'foundation' structure or 'building' intents
-                    - standardizing structures are likelier to be used for 'info exchange' intents
-                    - core structures are likelier to be used for 'generating' intents
-                - this applies the ai workflow of 'assigning probabilities for outputs given inputs' to the solution automation problem of 'assigning probabilities to structures for a general output problem-solving intent (like filtering relevant structures) given input structures'
-                - this works bc any general filtering method is a possible solution automation workflow bc 'filter' is a core interaction function between problems/solutions
-
-    - apply interfaces & interface components useful to solve various interface query sub-problems (like 'determining probable cost/benefit of a sub-query before executing it') to design optimal interface queries to apply core interaction functions (like connect) to problems/solutions
+    - apply interfaces & interface components useful to solve various interface query sub-problems (like 'determining probable cost/benefit of a sub-query before executing it') to design optimal interface queries to apply core interaction functions (like 'connect') to problems/solutions
         - example:
           - apply the abstract interface to identify interaction structures between definitions as a filter to determine whether a possible structure (like a query or a solution automation workflow or a function) is worth executing/implementing before executing/implementing it for a given intent (whether it will fulfill the intended function, to generate the intended output)
             - example: 
               - before appling the concept of power to generate an output, check if definition interaction structures indicate the actual output will be the intended output
                 - if applying power structures to generate power is the intent, its a valid structure given the definition of power (& its interactions given definitions of related components like generative functions, generate, output, etc)
                 - if applying power structures to generate power-neutralizing structures (like power-centralization) is the intent, its not a valid structure (given the definitions of power, centralization, neutralization, etc)
-
-    - identify alternate structures than info that can act as an input-output interaction structures (like connection structures) or another core interaction function applied to problem/solution structures (or abstract or proxy versions of them like inputs/outputs) and solve the problem of applying core interaction functions (generating/connecting/filtering) to alternate structures instead & apply alternate structures to apply core interaction functions (like connect) to original problem inputs/outputs
-
-        - examples of alternative structures to info:
-          - probability
-          - interactive structures
-          - uncertainty-resolution structures 
-            - including solution automation functions like:
-              - 'convert to abstract interface to resolve uncertain connections & convert to original interface to resolve implementation once abstract connections are resolved'
-          - logic/functions to connect inputs/outputs
-          - info filters
-          - info derivation/generation functions
-          - info components
-
-        - generate (or find & map) solution automation workflows that can generate these alternate structures & apply them to generate these alternate structures as a solution to map inputs/outputs
-          - example of a solution automation workflow that can generate these alternate structures:
-            - 'apply power of interactivity to find interaction structures of an info alternative structure (like probability) and connect them to connect problem inputs/outputs with the info alternative structures'
-
-        - this works bc of the definition of 'alternate' applied to solution automation workflow inputs like info structures
-
-    - apply structures of power (which tend to overlap with 'useful system components' bc of the definition of 'useful/relevant') to solution automation workflow components (like inputs, core interaction functions, or implementation variables)
-        - structures of power include:
-          - alternative structures
-          - efficiency structures
-          - organization/integration structures
-          - connection/interaction structures
-          - filter structures
-          - distribution structures
-          - alignment structures
-          - certainty structures
-        - these structures are powerful because they enable other components (like functions such as 'storage' by reducing need for storing other structures)
-        - this works bc of the definition of 'power' (as an 'root or causal input' or 'input enabling (distributing power to) other components' or a 'resource-distribution function') applied to problem/solution interaction functions
 
     - identify & apply changes to general solution automation workflows to fit them to & implement them as configurations of alternate problem-solving tools or tools acting as components of a solution automation workflow (ai networks/algorithms, math functions, other structures for specific intents like 'info-finding' tools as 'filter sequence' structures)
         - example: 
@@ -155,10 +50,6 @@
             - example: when applying AI, first distort useful system/interface components like structural similarities/alignments/efficiencies in data sets to reduce the work of Ai algorithms to identify important variables/structures, or automate this by applying important variable or variable structure patterns like hub variables connecting many variables with functions like 'cause' or foundation variables (on which other variables develop) to identify these structures automatically
               - this connects the problem format of a data set with the solution format of a prediction function, using additional logic to transform the data set into another data set format that is a possible input to an AI algorithm, but with additional highlighting distortions added in the data set format to keep it in a format that is useful to an AI algorithm with the relevant modifications to make the ai algorithm's task more adjacent
 
-    - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components, and build possible solutions out of these filtered interaction structures
-
-    - find vertex variables of differences (certainty/uncertainty, equal/opposite, structural/abstract) and apply as structures to fulfill problem-solution core interaction functions
-
     - apply interfaces (like concept/cause/function) to generate solution automation workflows that connect problem/solution metadata given known connections between problems-solutions
         - apply core interaction function (like 'connect') to problem/solution metadata (like 'generative functions' or vertex variables) of problem/solutions structures instead of the structures themselves
           - example:
@@ -186,7 +77,6 @@
               - difference of same type (like an 'opposite' difference type) in all function variables
               - difference of different types in all function variables
               - difference based on similarity structures (like general function/variable patterns, or actual function change rates), like creating a difference to check if a pattern applies to the function
-
         - example:
           - logic can be defined as 'connectivity of rules', which can be standardized to the structure or math interface to more clearly determine logic interactions/components
             - structure interface:
@@ -208,7 +98,25 @@
               - whether a rule fits with the logic network
               - whether an object can be tested for a connection to another object using the rules of the converted logic network, or whether less definitive structures are needed to infer logic connections
 
-    - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections & apply changes until the structures fit the problem system and a solution is defined
+### apply solution success cause structures as a solution or solution component filter
+
+    - apply structures relevant to 'generative' function intents to the intent of 'generating solution automation workflows'
+        - structures relevant to 'generative' intents:
+          - variable structures
+          - alternate structures
+          - structures of difference
+
+    - find generative structures of useful structures (like solution success cause structures) & apply to find/derive/generate solution structures likely to be successful
+          - solution success cause structures like:
+            - 'this solution fulfilled more general optimization or specific solution metrics'
+            - 'this solution addressed the root cause, preventing the problem from occurring'
+            - 'this solution was general and prevented other variants of the problem'
+          - generative structures of solution success causes:
+            - solution success causes are caused by interface components relevant to optimization like:
+              - alignment/similarity (multiple solution metrics fulfilled, higher ratio of metrics fulfilled relative to other solutions)
+              - fix cause rather than output
+              - abstract rather than specific solution
+              - prevention rather than fixing
 
     - iterate through solution success causes & apply interface structures to them to identify/generate/derive an associated solution automation workflow with that solution success cause
         - example solution success causes:
@@ -249,147 +157,67 @@
           - 'finding structures of alignment' is useful in general bc structures of alignment solve problems of difference/conflict, which are common problem structures
           - useful problem-solving structures can be found by which structures of structures solve common problem structures
 
-
-    - identify connection structures between efficiently measurable interface components (like 'error structures' on the structural interface) and the efficient indicator that is an input to quick connections to solutions (error types, with which you can query for solutions associated with those error types & efficiently find a probably good solution)
-        - solution input structures with adjacent/efficient connections to solutions
-          - error types
-          - problem/solution difference structures & difference types
-          - problem types
-          - problem-solution connection function structures (which is the set of core interaction functions, including 'reduce', 'remove', 'connect')
-        - efficiently measurable interface components of solution input structures with adjacent/efficient connections to solutions
-          - type input structures (group, difference)
-          - problem input structures (difference, imbalance, mismatch, misalignment, lack/excess - and solution structures like requirements to identify what is a problem)
-          - solution input structures (requirements, similarity/equalizing, connection, match, alignment - and problem structures like errors with available error-solution connection info or connection derivation function)
-          - difference type input structures (adjacent structure capturing the most info of the difference that is different from existing different types)
-          - problem-solution connection function structure input structures (sub-problem type structure like a sequence/network, relevant (adjacent) difference structures)
-        - this works bc once efficiently measurable components are connected to efficient solution inputs, you have a reliable efficient path to a solution that works by combining efficiencies in a sequential structure to connect them & connect inputs/outputs
-
-    - apply connection functions (like 'difference-reduction' or 'efficient path-finding' or 'organization' functions) to connect interface components (like efficiencies) which align with the connection function intents that can form a connecting interaction structures (like a function input/output structure) that can take problem structures as inputs & create solution structures as outputs
-
-    - identify & apply functions to generate useful system components like efficiencies (or causes of these components) that help fulfill intents in general & apply to problem-solving intents
-        - example of efficiency-generating functions to fulfill problem-solving intent of connecting problem/solution
-          - function to position source/destination positions in a more adjacent position
-          - function to reduce differences or their causes
-          - function to remove differences or their causes
-          - function to connect any differences efficiently, making a high or complete ratio of differences trivial
-
-    - identify connection structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify error types or error structures in a system/structure
-        - example: 
-          - error type: 'one incorrect difference type causes another incorrect difference type'
-          - error structure: 'alignment in incorrect difference types'
-          - connecting structure: 
-            - 'alignment in incorrect difference types indicates a relationship between the difference types'
-            - 'causes are one type of relationship'
-            - generated error type: 'one incorrect difference type causes another incorrect difference type'
-
+    - apply solution success cause structures to find/derive/generate solutions that are likely to be successful
+      - filter solutions once existing solution data (for other problems) is indexed by solution success/error cause ('reason why it worked or didnt work', such as concepts like power or certainty or interactivity)
+      - example: 'apply the definition of power to generate/find power structures to find inputs that can enable this output'
+        - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the original problem system, that may help filter solutions more efficiently than other methods like:
+          - 'try existing solutions'
+            - reason why it may work: 
+              - the problem space may not have changed sufficiently or the problem may not be new to invalidate existing solutions
+          - 'try adjacent modifications to existing solutions'
+            - reasons why it may work: 
+              - existing solutions may be similar enough to a working solution that minor modifications (like by adjacent conversions built from core functions) may be sufficient
+              - the problem space may not have changed sufficiently or the problem may not be new to invalidate every component of existing solutions
+          - 'derive solution requirements from problem statement & filter solutions'
+            - reasons why it may work:
+              - the problem has enough info to derive sufficient filtering requirements
+        - a reason to use a particular solution often relies on structural system components (like similarities/alignments, such as structural similarities or input/output alignments) & other important interface components
+          - there is a structural similarity between the above solution & problem, indicating a reason to use it:
+            - existing (non-changed) solutions fit with an existing (non-changed) problem space or problem
+            - the usage intent may be to reduce cost of solving the problem
+          - the more important interface components that exist connecting a solution & problem, it may be likelier that the solution is optimal for that problem
+          - a reason to use the solution indicates its optimal in some way for that problem, as in it solves the problem efficiently according to some metric
+          - examples
+            - opposite structure:
+              - an opposite structure connecting a problem & solution may indicate a reason to use a solution, if the problem-solving intent is to negate, reduce, invalidate or destroy the problem, which are structures that relate to 'opposite' structures
+                - a problematic structure can be solved with an opposite ('structure-destroy') solution function
+              - the usage intent (reason a solution is used, like a solution metric it fulfills, such as 'minimizes cost') is different from the reason why a solution worked (why it was better than other solutions for the solution metrics, such as:
+                - 'structural similarity between problem/solution where problem-solving intent was alignment'
+                - 'opposite structure between problem/solution where problem-solving intent was neutralization'
         - example:
-          - error type: 'one incorrect difference type has an error type of "extreme difference" from another incorrect difference type'
-          - error structure: 'difference in possibly related incorrect difference types (related by possible unrelated connection, like adjacence or group membership)'
-          - connecting structure: 
-            - 'extreme difference in incorrect difference types indicates a possible error (incorrect difference type) between the errors (incorrect difference types)'
-            - 'errors can have errors in their connections (they can be incorrectly different from each other, as in they should be aligned)'
-            - 'error structures (of difference) include extreme differences'
-            - generated error type: 'one incorrect difference type has an error type of "extreme difference" from another incorrect difference type'
+          - structural reasons why a solution worked
+            - info reason
+              - bc the solution was the fitting structure to the problem structure
+            - system reason
+              - bc structural similarities are a useful structure for solving 'fitting' interaction problems
+            - direct reason
+              - bc the inputs to the solution already existed in the system
+            - cause reason
+              - bc the solution addressed a root cause of the problem
+            - abstract reason
+              - bc the solution solves the problem type of the problem
 
-    - predict interactivity & interaction output of structures to find interactive structures to use as components to fulfill core interaction function intents (like connect) of problem/solution, without computing every interaction to quickly identify probable interactions & probable interaction attributes like their output
-        - interactivity based on:
-          - whether a component can use/identify/process/store structures of the other
-          - whether structural alignments/similarities/matches exist between the structures so they can attain emergent attributes like position and form structures of coordination & combination
-          - whether structures have variations on the same interaction level
-          - interface components like cause (origin position) and intent (direction, destination position) of the structures leading to structures like angle/point of interaction
-          - structural system-related attributes like stability of the structures
-          - error types handled by the structures
-      - find generative structures of solution success cause structures & apply to find/derive/generate solution structures likely to be successful
-        - solution success cause structures like:
-          - 'this solution fulfilled more general optimization or specific solution metrics'
-          - 'this solution addressed the root cause, preventing the problem from occurring'
-          - 'this solution was general and prevented other variants of the problem'
-        - generative structures of solution success causes:
-          - solution success causes are caused by interface components relevant to optimization like:
-            - alignment/similarity (multiple solution metrics fulfilled, higher ratio of metrics fulfilled relative to other solutions)
-            - fix cause rather than output
-            - abstract rather than specific solution
-            - prevention rather than fixing
-
-    - indexing solutions by the 'reason why it worked or didnt work' (solution success/error cause) is a quicker way to select/filter solutions in some cases
-      - add the solution success cause (like power or certainty or interactivity) to the solution automation workflow:
-        - example: 'apply the definition of power to generate/find power structures to find inputs that can enable this output'
-      - if the 'reason why the solution worked' (or its associated 'reason why the problem exists') is present in the problem system, that may help filter solutions more efficiently than other methods like:
-        - 'try existing solutions'
-          - reason why it may work: 
-            - the problem space may not have changed sufficiently or the problem may not be new to invalidate existing solutions
-        - 'try adjacent modifications to existing solutions'
-          - reasons why it may work: 
-            - existing solutions may be similar enough to a working solution that minor modifications (like by adjacent conversions built from core functions) may be sufficient
-            - the problem space may not have changed sufficiently or the problem may not be new to invalidate every component of existing solutions
-        - 'derive solution requirements from problem statement & filter solutions'
-          - reasons why it may work:
-            - the problem has enough info to derive sufficient filtering requirements
-      - a reason to use a particular solution often relies on structural system components (like similarities/alignments, such as structural similarities or input/output alignments) & other important interface components
-        - there is a structural similarity between the above solution & problem, indicating a reason to use it:
-          - existing (non-changed) solutions fit with an existing (non-changed) problem space or problem
-          - the usage intent may be to reduce cost of solving the problem
-        - the more important interface components that exist connecting a solution & problem, it may be likelier that the solution is optimal for that problem
-        - a reason to use the solution indicates its optimal in some way for that problem, as in it solves the problem efficiently according to some metric
-        - examples
-          - opposite structure:
-            - an opposite structure connecting a problem & solution may indicate a reason to use a solution, if the problem-solving intent is to negate, reduce, invalidate or destroy the problem, which are structures that relate to 'opposite' structures
-              - a problematic structure can be solved with an opposite ('structure-destroy') solution function
-            - the usage intent (reason a solution is used, like a solution metric it fulfills, such as 'minimizes cost') is different from the reason why a solution worked (why it was better than other solutions for the solution metrics, such as:
-              - 'structural similarity between problem/solution where problem-solving intent was alignment'
-              - 'opposite structure between problem/solution where problem-solving intent was neutralization'
-      - example:
-        - structural reasons why a solution worked
-          - info reason
-            - bc the solution was the fitting structure to the problem structure
-          - system reason
-            - bc structural similarities are a useful structure for solving 'fitting' interaction problems
-          - direct reason
-            - bc the inputs to the solution already existed in the system
-          - cause reason
-            - bc the solution addressed a root cause of the problem
-          - abstract reason
-            - bc the solution solves the problem type of the problem
-
-      - components of 'reasons why solutions work for a problem' can be inputs to interface operations (to combine/filter reasons, or build interface queries or solution automation workflows) to:
-          - find the reason why a particular reason is relevant to a problem/solution
-          - design a reason why a solution should work & then test it
-          - derive a reason why a solution worked
-          - filter solution automation workflow insight paths
-
-    - apply solution success cause structures to find/derive generate solution likely to be successful
+        - components of 'reasons why solutions work for a problem' can be inputs to interface operations (to combine/filter reasons, or build interface queries or solution automation workflows) to:
+            - find the reason why a particular reason is relevant to a problem/solution
+            - design a reason why a solution should work & then test it
+            - derive a reason why a solution worked
+            - filter solution automation workflow insight paths
     
-    - apply the structure of an optimal system by fitting the problem system to the optimal system & identifying adjacent conversion functions between them
-    
-    - break the problem into related sub-problems, find a solution to one problem, and apply that solution to the other sub-problems, adjusting as necessary to fit to the other sub-problems with adjacent conversion functions
-        - this works indirectly bc of similarity of structures in a system which are similar so they can interact, or directly bc of similarities in interactive structures like related problems
-    
-    - generate solution automation workflows by applying system optimization structures (like efficiencies such as interactivities) between interfaces or interface components (to connect problem/solution components)
-        - example: generate alternative abstract optimal system structures to fit to a problem system with adjacent conversion functions
-          - this applies the potential (alternative), conceptual (abstract), system (optimized system), structure, (fit by structures like similarities, adjacence), change (conversion), and function interfaces in a way that allows them to interact to connect problems & solutions
-    
-    - generate solution automation workflows by applying system optimization structures like 'efficiency' and 'structural similarities/alignments' to problem/solution components to connect them
-        - this identifies the system containing problem/solution components (problem space, solution space, problem types) as a system to apply system optimizations to
-        - apply structures of 'efficiency' to generate solution automation workflows
-          - structures of efficiency include:
-            - structural alignments (delay operations requiring iteration until the next required iteration)
-              - generated workflow:
-                - connect structures that are otherwise difficult to connect by creating efficiencies with structural alignments to connect problem/solution
-            - low cost (low input, high output) structures
-              - generated workflow:
-                - find functions with low input & high output and apply where possible to connect/reduce difference between problem/solution
-            - interactive structures like function sequences
-              - generated workflow:
-                - find interactive structures in solution automation workflow system components (solution space, problem definition, related problems, problem types) & organize them in their interactive structures
-            - paths using fewer resources
-              - generated workflow:
-                - find paths between problems & solutions that use fewer resources and use those paths where possible
-            - storing generative info rather than original info
-              - generated workflow:
-                - store generative info sets of a solution (or related component like solution input) instead of specific solutions to generate solutions as needed
-                - store generative info sets (for alternate causal variable sets) of a problem to find problem causes quickly
+### apply useful solution filters
 
-    - apply solution metric filters from interfaces
+    - apply optimal structure finding/selecting rules to select structures that fulfill solution filters such as:
+        - preserve relevant info
+          - input/output variables should have their position preserved bc there are few cases where input/output flag is not relevant
+        - isolate differences & combine similarities as needed
+          - variable groups should be differentiated from individual variables bc variable groups are on a different interaction level
+          - input/output variables should be connected in some way (like constant position or adjacence or connecting path) but should also be clearly isolated, unless interchangeable
+        - choose a base that fits & is relevant to data meaning
+          - connecting variables based on original position adjacence if no position changes are necessary
+          - connecting states in original sequence based on time
+        - avoid assigning arbitrary structures
+          - distance/position that doesnt indicate info about a function, attribute, or identity
+
+    - apply solution metric filters derived from applying interfaces
 
       - determine whether something 'makes sense' using the logic interface:
         - insight: 'deploying a change makes sense if the change increases meaningful benefits or decreases meaningful costs'
@@ -423,7 +251,6 @@
                   - two rules can be directly connected in a sequence without conversion if the output of one rule matches the input to the other
                   - two rules can be directly connected without conversion if common components in both rules are equivalent
 
-
     - apply useful filtering structures for identifying solution automation workflow components like solutions/errors
 
         - apply probability structures as a filter when generating possible error/solution structures
@@ -443,156 +270,7 @@
               - more errors may result in a randomized probability distribution of its outputs
                 - the state of an energy unit's info symmetry/field with respect to its position in this randomization process is another input to its structure
 
-#### defaults: apply default structures in interface queries
-
-    - interface query types can be an alternative to interface query design
-      - use default patterns of interface query types, parameters (like origin interface & input problem type), & input-output connections to identify query types that are useful for solving specific problem types
-
-    - apply default useful/optimal structures determined to be probable determinants of a solution
-      - before running an interface query to 'design an interface query to solve the problem' or to 'solve the problem', run default interface queries to solve the problem of 'identifying problem-solution components on the problem interface to determine interface query solution metrics for designing the problem-solving interface query'
-        - if the problem interface queries produce enough info, the problem interface may occasionally be the only interface required to solve the problem, like when known solutions are known to be optimal for the problem type & solve the problem when applied in a simulation of the problem space
-        - problem interface contains rules to fulfill intents like:
-          - 'identify when solution metrics need to change bc an assumption (whether an implicit assumption derived from implication of problem, or an explicit assumption) was built on false info type (like lack of info, incorrect object identities, incorrect format)''
- 
-   - identify & apply default useful/relevant structures of solution structures (like 'organization') that fulfill solution structure intents (organization intents like 'integrate interface objects for a problem type')
-    - example:
-      - default useful structures for solving a 'find variable connection' problem
-        - variable structure in a common format or standard format with connection structures (network) 
-        - applying structures like:
-            - equal as a base function to generate the origin network structure differences (position)
-            - causal direction
-            - type
-            - core functions as sub-components
-
-    - how to generate a standard useful cross-interface structure of organization
-      - find connection change structures (variables):
-        - type is relevant bc variable types have direct connections (like 'variable of one data type like boolean likely to be connected to another variable of a data type like condition')
-      - find connection core structures (components):
-        - core functions are relevant to build new connections where info is missing about a connection
-      - find connection interface or structure structures (standards, filters):
-        - equal positions of variables are likelier to find differences (distortions from equal) faster than starting from an extreme positioning function
-      - find connection structures associated with interfaces (direction structure associated with intent):
-        - causal direction is directly defined to be relevant in the 'connection' definition, which implies an input/output connection, inputs being liked to 'dependency', which is linked to 'cause'
-    
-    - filter components by uniqueness in structure & usage to derive default reliable/useful structures to apply as an 'apply default interface structures' solution automation workflow
-      - derive a set of functions to solve all problems by:
-        - generating a 'difference type-handling function' selection function
-        - identifying unique difference/error types & generating functions to handle those difference types, so when one fails, another can be selected
-        - generating a function to identify new difference types (in the set of functions, in itself, in solution metrics, and other component combinations)
-      - this function set & its alternate versions will reflect possible versions of the forces of an accurate (effectively predictive) physics model
-      - which function set is the real function set (or the function set describing or determining reality) is probably an invalid question, as different function set versions are relevant in different contexts having different probabilities that may even change if function set versions have forces governing them so they change over time, as may the central origin function set representing the base for distortions, and different function sets may have different roles in generating/determining/describing reality
-      - the 'true' format of reality may not involve just a function set, but rather a function set with other structures (like specific inputs/outputs, a network of function sets, a set of change functions to the function sets, a set of usages of the function set, etc)
-
-    - apply definitions & interface structures to identify components that are relevant to solutions (other than primary interface components or interface query or solution automation workflow generating the query)
-
-      - errors (opposite of solutions)
-        - assumptions
-        - ambiguities
-        - mismatches (misalignment, imbalance)
-
-      - connections between solution/problem components & their interaction rules & patterns 
-        - patterns of these components' interactions can be used to find solutions
-          - connections between:
-            - problem & problem space
-              - problems created by a problem space defined by a lack of a technology may be resolved by building an adjacent/possible/accessible version of that technology with components that can be replaced with more advanced versions as theyre built
-            - solution/problem (the objects or their components/attributes/functions)
-              - problem definition & solution metric filters derived from it
-                - a problem definition like 'find a prediction function' implies a solution metric filter of 'predictive components of a function (like constants/coefficient values, operations)' so a solution will have components that add to the predictive nature of the variable assembly
-              - solution & solution metric filters
-                - the solution will fit inside the solution metric filters
-                - the solution will fit inside the solution space or be equal to it
-              - solution space & problem space
-                - these are coordinating structures to generate opposite structures to the problem (the solution)
-                  - a problem of 'a difference to resolve' in a problem space where 'difference-opposing structures are uncertain' & the solution space of 'possible methods to resolve the difference (convert it to an equality) given a solution metric', where the solution space is a subset of the problem space or equal to it (until/unless it's filtered)
-                  - a problem of 'find a prediction function' (a 'lack of prediction function') in a problem space where 'variable interactions are uncertain' & the solution space of 'possible prediction functions or function-finding methods to equal dependent & independent variables with some accuracy value', where the solution space is 'a subset of all variable interactions, filtered by variables of the problem definition & by possible variable interactions', producing a solution that is the opposite structure of the problem ('a prediction function')
-            - solution automation workflow (to design interface query) and actual interface query (to find/derive/build solution)
-              - a solution automation workflow like 'connect problem/solution format sequence' has many possible interface queries but they will all be built from conversion operations between formats that connect the problem/solution, whether in a sequence/network or other structure
-            - solution automation workflow & solution implementation (output solution generated by interface query)
-              - a solution automation workflow like 'connection problem/solution format sequence' can have many possible solution implementations, like:
-                - 'connect formats starting from point sets to continuous function format'
-                - 'connect variable structures and function structures'
-                - 'connect base, subset & combination structures'
-                - 'connect prediction structures like clusters with prediction function filters like averages'
-            - interface query & solution implementation (output solution generated by interface query)
-              - an interface query like 'apply definition interface, then structural interface, then causal interface' can produce many possible solution implementations, like:
-                = given the definition of variables/functions/predictions, find their interactive structures & the cause of error structures, and build a solution set that avoids error structure causes using interactive structures'
-            
-      - possibilities (solution space, alternate problem spaces)
-
-      - uncertainties
-        - questions
-          - which questions to ask to find/derive/generate which info
-        - errors
-        - randomness
-          - randomness structures must include:
-            - contradiction/opposite/neutralization structures so there is an average value to temper extremities
-            - many structures of difference so there is a source of difference in their interactions
-            - high interactivity between variables
-          - possible sources of randomness & variance
-            - equivalents generating equal probabilities
-            - alignment gaps generating variance injection points
-            - alternatives
-
-      - certainties (solution components & filters)
-        - requirements (solution requirements as filters/limits)
-        - inevitabilities
-        - equivalents
-        - constants
-        - consistencies/stabilities
-        - interactivities/coordinations (something is likelier to be true the more it coordinates with current info & adjacent versions of current info)
-        - probabilities (approximations of certainty)
-          - commonalities
-            - averages/centers
-          - adjacencies
-          - ranges
-          - distribution
-          - patterns
-
-      - just like you can use error structures to find solutions, you can use certainty structures to find solutions, because:
-        - logic relies on certain/probable equivalents to make connections between rules involving equivalent components
-        - 'filtering solutions with metrics' relies on calculations determining a certainty in the form of a relationship between actual solution implementation value & optimal solution threshold/filter value & a certain limit in the metric value (a requirement of the solution)
-        - uncertainties are more often a source of error than a source of solutions
-        - solutions add organization to systems with uncertainty/randomness/chaos, and organization relies on structure (certainty being a proxy of structure bc it is a generator/output of structure)
-        - structures (certainties) act like a resource, producing info that can be used for learning
-        - certainty is more related to equivalents than errors are (errors being an incorrect/sub-optimal value, or a mismatch between the actual & optimal value)
-        - solutions must be built on understanding to be actually robust, and understanding can use certainties as an input
-        - if you have enough certainty structures, you can rule out error structures in a system
-        - certainty structures interact in a way that can produce other certainties
-          - if applied in the right way, incentives can create a guaranteed outcome (where the cost of avoiding the incentives is too high and there isnt a reason to avoid them), generating a certainty, which can be used as a resource (like an assumption that can be relied on to build solutions on top of)
-      
-    - identify structures of complexity reduction or ambiguity resolution & apply to fulfill core interaction functions intents between problem/solution components
-
-      - example structures of complexity reduction or ambiguity resolution include 'functions with complex inputs & simple outputs'
-
-        - identify complex inputs of simple outputs by injecting a specific interaction rule structure
-
-        - when outputs are simple (lower-dimensional), but can have many different inputs, the outputs will not accurately be usable to determine the inputs without relevant interaction rule structures to inject understanding of input metadata (input interactions, input probabilities, input causes & intents, input contexts, input context interactions/probabilities/causes/intents)
-          - examples:
-            - if parameters of a function follow a wave function structure, knowing that input structure can help determine the outputs (direction & probable position on the wave), to predict the adjacent/extreme/probable/origin/possible/alternate values of parameters & inferring the wave function parameters
-            - low-dimensional outputs like demographic crime stats can be decomposed with a useful interaction rule structure of power interactions
-              - power interaction rule structure
-                - powerful groups oppress powerless groups
-                - powerless groups tend to remain powerless or decrease in power
-                - powerful groups try to maintain power but rely on powerless groups as suppliers
-                - powerless groups tend to be common, which is an alternate form of power
-              - rules about power interactions inform demographic crime data, once the concept of 'power' is inferred as relevant in determining low-dimensional outputs like crime stats
-              - inferring the concept of power can take the form of interface queries like:
-                - an application of common standard useful concepts like power, efficiency, and balance
-                - an application of logical structures like 'implication' & a logical derivation path connecting determining variables of resource distribution differences, which is an implied variable by the position of the data (crime definition routes imply 'lack of resources'), which leads to power difference causes (like simplicity (in visual differences & maintaining the status quo), historical resource transactions)
-                - applying definition, structural & error interfaces to identify errors like 'missing structures' to infer the 'lack of specific groups' in crime demographic distribution, and given the negative definition of crime & implied punishment, infer the power of those specific groups to avoid it
-
-          - particularly relevant to deriving inputs from low-dimensional outputs:
-            - interaction rules of alternate variable sets or variable value sets
-            - interaction rules between causes & alternate variable/value selection
-
-          - how to identify the relevant interaction rule structure (like power interaction rules, or parameter wave function structure interaction rules, or alternate variable set interaction rules) that will quickly help identify inputs to low-dimensional outputs
-            - identify when common outputs would benefit multiple intents, where at least one of the multiple intents has a related intent of obscuring inputs
-              - power can obscure itself (as well as its input power sources)
-              - ambiguity of repeated function structures (like wave function curves, which may obscure the identity of which curve a particular parameter point occupies) is a potential benefit through obscurity
-
-          - solution success cause: this works bc there is usually a minimal number of vertex variables that determine a particular variable interaction, except in extreme cases where inputs are extremely complex alternatives with minimal differentiating variables
-
-    - derive insight path for implementing a solution automation workflow
+    - derive insight paths for implementing a solution automation workflow
         
         - apply possible different structures relevant to functions like 'connect' in solution automation workflow to implement the workflow (implement 'connect problem & solution')
           - logic governs how components can be rigorously & rationally connected (with reasons like 'equivalence indicates a connecting relation, by definition')
@@ -610,7 +288,7 @@
             - the reason this works is bc relevance is meaningful, and equivalence is a structure of relevance (rules involving the same component are relevant to each other by default)
             - this is a specific implementation of the insight 'standardize components to connect them (reduce conversion work, or reduce difference)'
 
-    - example of interface query-selection & query-design workflows
+    - apply interface query-selection & query-design workflows to problem of 'generating/finding/deriving solution automation workflows'
         
         - for the 'find a prediction function' problem, which of the following solutions do you select:
           - start by averaging subsets of points or generating functions connecting point subsets and weighting them
@@ -643,7 +321,7 @@
             - applies the intent interface
           - logic: 'connect components by equivalences'
 
-    - solution automation workflow to find new error types & solution automation workflows in a given problem system
+    - solution automation workflow to find new problem/solution components (like error types & solution automation workflows) in a given problem system
 
         - map differences to distances in various dimension sets & try every combination of difference reduction
           - differences including legitimate variables, differences between correct/incorrect values of components like intended outputs & required inputs, differences between formats
@@ -655,7 +333,7 @@
           - how does a prediction function problem develop? 
             - when there are many variables interacting & many variable interaction types & random injection points (a problem of complexity)
             - identify & solve the cause of this complexity problem:
-              - decomposing variable interactions & how they develop can solve prediction function problems
+              - applying structures like cause to variable interactions & their change types can solve prediction function problems
 
     - apply problem-solution interaction structures to solution automation workflows
 
@@ -672,15 +350,6 @@
           - problem interaction functions are variables of the solution automation workflow
             - problem interface functions can be changed to use a different workflow
           - these problem interaction functions are connecting functions between the primary problem-solving intent which is a general intent of 'solve the problem', primary core functions like 'apply, build, change, derive', problem-solution interaction structures like 'neutralize problem by finding interactive contradicting structure' and solution structures like 'a prediction function' or 'a set of steps to produce a solution for this problem type'
-
-    - apply attribute structures of problem/solution components to identify components like errors/solutions
-      - attributes of solutions/problems can be used to identify error types & causes of errors
-        - if something is unnecessary (not required), it is likely to produce more errors than something that is required
-        - if something is highly variable, it is likelier to produce errors than more constant structures
-        - if something is inefficient, it is likelier to produce errors than structures that are efficient
-        - if something is not aligned with an interacting structure, it is likelier to produce errors than alignments (mismatches, imbalances, incompleteness)
-        - if something is highly connective/interactive, it is likelier to produce errors bc it introduces other error-increasing structures like variability
-        - if something is reusable, it is likely to be useful, so it has more attributes of a solution than of a problem
 
     - apply changes to usage/application variables of an interface to generate & optimize solution automation workflows & interface queries implementing them
       - different versions of an interface can be used in place of the entire interface, just like different formats of an interface can be applied instead of the whole interface
@@ -736,70 +405,6 @@
                       - to generate a problem type of 'missing input', apply 'change' function or 'opposite' structure to 'input' structure
                     - attribute values
                      - to generate a problem type of 'missing attribute' (such as an attribute required for a solution metric), apply 'change' function or 'opposite' structure to 'attribute' structure
-
-    - apply alternate definitions of a structure given the different definitions of 'difference' to generate different solution automation workflows
-
-      - definition routes of 'difference'
-        - default
-          - adjacence in value
-        - proxy
-          - adjacence to interim values
-          - adjacence to similar values to the different value
-        - subset
-          - adjacence to different value type or other attribute value
-        - opposite
-          - lack of equivalence/similarity attributes
-        - connections
-          - varying adjacent values (adjacent values of one are different from adjacent values of the other)
-          - differences in relative values (above/below threshold, near a constant/other number type)
-        - potential
-          - possible difference (how different can they be, while retaining original information)
-        - structure
-          - differences in different formats (as a sequence, function, set of determining points)
-        - system
-          - differences in different spaces (vectors, dimension sets, network graph)
-        - change
-          - as a unit of change
-        - logic
-          - as a core connection structure ('x is not y')
-        - intent
-          - default
-            - differences in adjacent/neutral/specific/common uses
-          - potential
-            - differences in possible uses
-        - cause
-          - differences in cause
-
-    - apply structures based on their definitions in relation to the definition of a solution/problem or the problem-solving process
-
-        - depending on the solution automation workflow applied, it will involve various functions, like:
-          - generate possible solutions & filter
-          - break into sub-problems, solve them, & integrate
-
-        - example with a particular solution automation workflow function 'filter':
-          - the definition like 'filter' is 'remove items from set based on metric', so functions that support intents like the following sub-functions, which fulfill the 'solution filter' intent (identify if it's a solution or not) can fulfill sub-functions of the 'filter' function definition 'remove items from set based on metric':
-            - determining difference
-            - determining metric value
-
-        - structures that fulfill the solution automation workflow function, like 'filter':
-          - apply opposite structures as a solution filter structure (exclude what a solution is not)
-          - apply error structures as a solution filter structure (avoid errors)
-          - apply possibility structures as a solution filter structure (exclude impossibilities or improbabilities, include common solutions)
-
-        - structures that fulfill the solution automation workflow function 'solve different problem'
-          - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, start from similar origin, base changes on existing solutions)
-
-        - structures that fulfill the solution automation workflow function 'build solution' or 'solve for the components of a solution'
-          - apply core structures as a solution subset or solution building structure (build solution from core components or solve subsets (core components) of solution)
-
-        - apply structures of relevance given its definition to identify relevant components for a particular intent like 'solve a problem' or specifically 'generate solution automation workflows', given that relevance is by definition related to the solution automation workflow intent of 'solve a problem'
-          - relevant components are:
-            - adjacent in interaction degree/directness
-            - controllable
-            - low-cost to implement
-            - specific to that context
-            - required/unique
-            - enforcing/robust (no matter what changes you make, it will always have an attribute/function)
 
     - apply solution variable interaction rules as a way of generating/filtering solutions
         - example: 'solution variable reusability tends to contradict solution variable specificity, so avoid solutions with high reusability when a custom/new solution specific to a problem is required'
@@ -954,7 +559,16 @@
               - find all the possible structures (like networks) that could convert a 'find a connection between input-output' problem into a 'integrate input-output connection methods with these other structures so they can coexist' problem
                 - example: 'find a function' problem can interact with a network of problems, like the 'prevent logic injection' problem, 'prevent execution interruption' problem, etc, so it becomes a problem structure that is not simply finding a connecting path between inputs/outputs but a layered network structure of 'finding the connecting structures, while preventing interfering interactions from this problem network'
 
-    - generate implementations of core interaction functions
+    - apply error types to generate solution filters
+      - 'false association without associated meaning' error type
+        - just bc one item has both associative & distributive attributes doesn't mean another item with an associative attribute also is distributive
+        - it would be incorrect to associate these attributes in the absence of meaning (relevance & context) connecting them with high-certainty (logic/info/definition) structures
+          - multiplication can be done in any order bc its the same operation (find the area of the same shape)
+          - division cant be done in any order bc the operation is 'apply a standard' where the standard is the base, so when the base changes, the operation meaning changes
+          - generated solution filter:
+            - if there is no reason to change the order, like a change in intended meaning of the operation, the order shouldnt be changed
+
+    - generate implementations of problem/solution components (like 'core interaction functions')
 
       - identify relevant concepts to the core interaction function
         - 'similarity' is relevant to 'connect' function
@@ -1005,94 +619,29 @@
           - 'excess work requirements is an origin problem type'
           - 'delegation has been applied as a solution to excess work requirements'
 
-    - apply interfaces to generate alternate definitions of useful structures (like "format connection sequence" or "problem-solution interaction functions") to apply as alternate implementations of a solution automation workflow
-
-      - identify attributes of useful structures, like:
-        - type stack:
-          - format sequence
-            - type of structure
-            - type of structure that is useful for connecting origin/destination formats 
-            - type of structure that is useful for connecting problem/solution formats 
-          - solution automation workflow
-            - type of insight path
-            - type of insight path that is useful for connecting problem/solution
-          - insight path
-            - useful rule to derive/find/generate insights in a system
-          - reverse-engineer solution from problem requirements or opposite structures
-            - specific example of a general insight path (like a structural strategy)
-        - useful structure connections
-          - a format sequence can be used to connect any structures
-          - an insight path can be used to connect some structures relevantly/efficiently/usefully (like problem/solution structures, input/output structures, origin/destination structures)
-          - a solution automation workflow can be formatted as a format sequence
-        - meaning of connections between useful structures
-          - 'because a format sequence can be a connecting structure, it can be used to implement functions with 'connecting' intents'
-
-      - change variables to check/complete definitions of problem/solution component interactions
-        - variables
-          - components used:
-            - structures: filters, sequences, formats
-              - variables: variable selection sequence
-              - structures: format sequence
-              - functions: conversion/connecting function sequence
-          - origin/destination points
-            - connect context to problem/solution:
-              - start from system in which problem & solution occur (given solution potential) and fit/connect systems gap structures to problem/solution structures, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
-            - connect solution components to solution
-              - start from existing solution structures & apply filters or other structures to reach solution
-            - general form of 'filter connecting sequence': 
-              - apply structures of standards such as filters to both/either problem & solution until theyre equal (meaning connected, or similar in structure like position/variables)
-
-### interface-generating structures
-
-    - apply structures (like alternates) relevant to structures that are important bc they generate core/primary interfaces (composability, simplicity) to problem/solution components (apply these structures to solution metric filters, solution automation workflow variables) to generate new solution automation workflows
-
-      - core/primary interfaces are important bc of the core structures that are their generative concepts/structures
-        - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
-        - 'interface' interface's generative concepts 'interactivity' and 'balance' (how does info from each interface integrate or interact to produce meaning, balancing influence of interfaces in a way thats indicates contribution)
-        - 'cause' interface's generative concept 'power' (ability to trigger other components)
-        - 'concept' interface's generative concepts 'uniqueness' and 'applicability'
-        - 'info' interface's generative concept 'stability' producing info
-        - 'intent' interface's generative concepts 'functionality' and 'direction' (functionality develops when there's a reason for it to develop, like a direction of change)
-        - 'function' interface's generative concept 'connection' (connecting inputs/outputs)
-        - 'pattern' interface's generative concepts 'similarity' (powerful patterns are repeated and patterns develop in similar ways, producing similarities across interfaces)
-        - 'logic' interface's generative concept 'alignment' (aligning logical connections with info as a supportive foundation)
-        - 'change' interface's generative concept 'difference'
-        - 'structure' interface's generative concept 'info' (info about other interfaces with potential for structure)
-        - 'potential' interface's generative concept 'adjacence' (what is probable is more adjacent)
-
-        - the generative attributes (simplicity, interactivity, balance, power, uniqueness, applicability, stability, functionality, direction, connection, similarity, alignment, difference, info, adjacence) reflect core structures (unit, value, force, direction, equivalence, distance, rate, ratio, input-output, type, dependency, constant) are fundamental across interfaces
-
-    - apply interface-generating structures like simplicity/normality as a filter to identify relevant insights to apply as filters of problem/solution components like solutions/errors
-      - how to identify that more normal language is likelier to contain factual statements
-        - multiple connected reasons, from the insight path
-          1. facts often have simpler connections
-          2. language patterns have intents
-            3. agents apply language patterns to achieve intent
-              4. linguistic intents are often to change meaning until its false (out of the full set of intents to 'communicate info')
-              5. agent often over-think how to emphasize/reduce language components and it creates unnatural language patterns
-              6. agent-changed language (newly created patterns) is rarely more efficient than normal language patterns (inherited patterns)
-                7. when it is more efficient, it is quickly adopted until its normal
-                8. more efficient language patterns are likelier to be true, bc of the normally simpler connection patterns of facts 
-              9. it takes work to make a set of falsehoods or mix of falsehoods & facts seems like a fact, and the work has side effects like lack of normality (sounding unnatural in structure) or simplicity (using fewer resources to connect components)
-        - relevant concepts
-          - the concept of 'simplicity' interacts with connections 1, 5, 8, & 9
-          - the concept of 'normality' interacts with connections 5, 6, 7, 8, & 9
-
-        - these concepts can be used as almost interchangeable alternatives in generating the interface query generating this insight path
-
-        - despite their differing definitions, simplicity & normality are connected by the concept of efficiency, because what is simple often becomes normal because of the efficiency of simplicity, so efficiency can be used as an interchangeable concept of both of these in some cases
-
-        - interface query to generate the insight path to 'derive an attribute to identify facts'
-          - apply concept interface
-            - identify important concepts (simplicity, efficiency, emphasis, reduction, falsehood, change, connection, pattern, normality, agency) of the problem system of 'identify facts'
-            - apply relevant concepts to problem system
-              - agents change language to achieve intents
-                - apply intent interface by mapping to intents ('change info' for intent of lying, or 'false similarity to fact')
-                  - connect intents to original relevant concepts
-                    - connect problem system component derived from intent interface of 'agent-changed language' to concepts of normality & falsehood
-
 
 #### core interaction functions
+
+    - identify & apply useful interface components for various problem/solution core interaction functions
+        - 'reduce': identify functions that reduce the work of other functions if executed in a particular function structure
+          - examples:
+            - 'standardizing functions' reduce the work of 'comparison functions'
+            - 'type identification functions' reduce the work of 'differentiation functions'
+            - 'pattern identification functions' reduce the work of 'prediction function identification functions'
+            - 'variable interaction identification functions', 'important variable identification functions', and 'cause identification functions' reduce the work of 'finding prediction function functions'
+        - 'connect': identify connective/interactive functions for 'connect problem/solution' intents
+
+    - identify structures convertible to input of specific core interaction functions (like connect/reduce) or associated solution automation workflows & apply those functions specifically to those structures in a structure like a function sequence/network, rather than:
+          - randomly applying core interaction functions to problem/solution structures
+          - applying a specific core interaction function & associated solution automation workflow
+          - applying a core interaction function structure as a general static method
+
+    - apply optimization or core interaction function structures/intents (like 'reduce') to optimize & generate solution automation workflows for solving the problem of finding interaction structures (like 'differences') between solution structures (like optimal structures) & default/input structures (like the whole solution space such as 'all possible combinations')
+        - apply 'reduce differences' intent to fulfill intent of 'finding optimal structures efficiently':
+          - differences between the solution space & ethical solution structures
+          - differences between the solution space & abstract solution structures
+          - patterns of differences or difference types between the solution space & optimal structures
+        - this works bc of the definition of various definitions of optimal, like how 'ethics' means 'what should occur', as in 'unenforced rules for filtering a solution space of possible decisions to navigate complex decisions that are not governed by enforced rules', such as 'fulfill responsibilities' being an ethical structure that can guide system optimization
 
     - apply core interaction functions to relate problem/solution components, by applying core interaction structures (relevant to core general abstract-intent functions like apply/find/build/organize/derive)
 
@@ -1197,7 +746,296 @@
         - some are more adjacent to the original problem format or the target solution format or both than others
 
 
-### useful structures
+### apply known useful structures for problem-solving intents
+
+    - apply known useful structures like the following, to relate/optimize problem/solution components:
+      - definitions
+      - input-output connecting sequences/networks
+      - implementation structures (of a more abstract/less certain structure)
+      - solution/error structures
+      - solution filters
+      - relevance structures (alternates/proxies/substitutes/approximations/improvements/optimizations/adjacents/power)
+      - generative functions
+      - solution success causes
+      - core interaction functions
+      - interaction level structures between inputs/outputs
+      - alternate/interim inputs/outputs
+      - mapping functions between inputs/outputs or systems
+
+    - identify the position/structure of certainties & uncertainties in the problem system & apply structures in the positions of certainties & remove structures in the positions of uncertainties to resolve their connections & apply changes until the structures fit the problem system and a solution is defined
+
+    - apply solution automation workflows (like 'break into sub-problems & integrate sub-solutions') & useful interface structures (like 'adjacent conversions') to generate solution automation workflows
+      - break the problem into related sub-problems, find a solution to a sub-problem, and apply that solution to the other sub-problems, adjusting as necessary to fit to the other sub-problems with adjacent conversion functions
+          - this works indirectly bc of similarity of structures in a system which are similar so they can interact (they exist on the same interaction level, so one is likely to be adjacently derivable from the other as theyre likely to have common core components), or directly bc of similarities in interactive structures like related problems
+
+    - filter interaction structures that dont contradict relevant interactions in the problem system or the solution system (or adjust solution system if not required to be in its original format), determining relevance by whether the components are interactive with or are vertex variables (causative/generative/descriptive) of the problem/solution components, and build possible solutions out of these filtered interaction structures
+
+    - find vertex variables of differences (certainty/uncertainty, equal/opposite, structural/abstract) and apply as structures to fulfill problem-solving intents (like problem-solution core interaction functions or solution filters)
+
+    - identify interaction structures between efficiently measurable interface components (like 'error structures' on the structural interface) and the efficient indicator that is an input to quick connections to solutions (error types, with which you can query for solutions associated with those error types & efficiently find a probably good solution)
+        - solution input structures with adjacent/efficient connections to solutions
+          - error types
+          - problem/solution difference structures & difference types
+          - problem types
+          - problem-solution connection function structures (which is the set of core interaction functions, including 'reduce', 'remove', 'connect')
+        - efficiently measurable interface components of solution input structures with adjacent/efficient connections to solutions
+          - type input structures (group, difference)
+          - problem input structures (difference, imbalance, mismatch, misalignment, lack/excess - and solution structures like requirements to identify what is a problem)
+          - solution input structures (requirements, similarity/equalizing, connection, match, alignment - and problem structures like errors with available error-solution connection info or connection derivation function)
+          - difference type input structures (adjacent structure capturing the most info of the difference that is different from existing different types)
+          - problem-solution connection function structure input structures (sub-problem type structure like a sequence/network, relevant (adjacent) difference structures)
+        - this works bc once efficiently measurable components are connected to efficient solution inputs, you have a reliable efficient path to a solution that works by combining efficiencies in a sequential structure to connect them & connect inputs/outputs
+
+    - apply problem-solution interaction functions (like 'difference-reduction' or 'efficient path-finding' or 'organization' functions) to relate interface components (like efficiencies) which align with the connection function intents that can form a connecting interaction structures (like a function input/output structure) that can take problem structures as inputs & create solution structures as outputs
+
+    - identify & apply functions to generate useful system components like efficiencies (or causes of these components) that help fulfill intents in general & apply to problem-solving intents
+        - example of efficiency-generating functions to fulfill problem-solving intent of connecting problem/solution
+          - function to position source/destination positions in a more adjacent position
+          - function to reduce differences or their causes
+          - function to remove differences or their causes
+          - function to connect any differences efficiently, making a high or complete ratio of differences trivial
+
+    - identify interaction structures between error structures (like difference structures) & the associated error types of those error structures, and use connecting structures to identify error types or error structures in a system/structure
+        - example: 
+          - error type: 'one incorrect difference type causes another incorrect difference type'
+            - error structure: 'alignment in incorrect difference types'
+            - connecting structure: 
+              - 'alignment in incorrect difference types indicates a relationship between the difference types'
+              - 'causes are one type of relationship'
+              - generated error type: 'one incorrect difference type causes another incorrect difference type'
+          - error type: 'one incorrect difference type has an error type of "extreme difference" from another incorrect difference type'
+            - error structure: 'difference in possibly related incorrect difference types (related by possible unrelated connection, like adjacence or group membership)'
+            - connecting structure: 
+              - 'extreme difference in incorrect difference types indicates a possible error (incorrect difference type) between the errors (incorrect difference types)'
+              - 'errors can have errors in their connections (they can be incorrectly different from each other, as in they should be aligned)'
+              - 'error structures (of difference) include extreme differences'
+              - generated error type: 'one incorrect difference type has an error type of "extreme difference" from another incorrect difference type'
+
+    - apply 'interactivity' structures as a solution filter or solution component filter
+      - predict interactivity & interaction output of structures to find interactive structures to use as components to fulfill problem-solving intents like 'core interaction function' intents (like 'connect') of problem/solution, without computing every interaction to quickly identify probable interactions & probable interaction attributes like their output
+          - interactivity based on:
+            - whether a component can use/identify/process/store structures of the other
+            - whether structural alignments/similarities/matches exist between the structures so they can attain emergent attributes like position and form structures of coordination & combination
+            - whether structures have variations on the same interaction level
+            - interface components like cause (origin position) and intent (direction, destination position) of the structures leading to structures like angle/point of interaction
+            - structural system-related attributes like stability of the structures
+            - error types handled by the structures
+    
+    - identify useful structures (like interaction level structures between inputs/outputs, alternate/interim inputs/outputs, or mapping functions between inputs/outputs) of alternate solution tools (like ai algorithms or math like regression) and find/apply alternative solution structures that generate those useful structures to map original problem inputs to solution outputs
+        - example: 
+          - interaction level structures of ai algorithms include:
+            - filters
+            - functions
+            - probabilities
+              - apply structures that generate info about probabilities of input-output interactions and apply as info-filtering network structures between original problem input & solution output
+                - a trained ai model gives data about probabilities of outputs given inputs
+                - other sources of probability info of outputs for a given input structure (like an intent/context/function) can be generated from certainty & uncertainty-resolution structures (like patterns)
+                  - example for predicting outputs like occurrence/usage/interaction, as a way of filtering structures for an intent:
+                    - interactive structures are more likely to be connected in a 'system, integration, or combination' structure
+                    - structures that follow common patterns or similarities are likelier to occur in structures for common intents
+                    - simple/efficient structures are likelier to occur in a 'new, stabilized, or optimized system' structure
+                    - structures that use the same core structures are likelier to occur in a 'system' structure
+                    - stable structures are likelier to be used as a 'foundation' structure or 'building' intents
+                    - standardizing structures are likelier to be used for 'info exchange' intents
+                    - core structures are likelier to be used for 'generating' intents
+                - this applies the ai workflow of 'assigning probabilities for outputs given inputs' to the solution automation problem of 'assigning probabilities to structures for a general output problem-solving intent (like filtering relevant structures) given input structures'
+                - this works bc any general filtering method is a possible solution automation workflow bc 'filter' is a core interaction function between problems/solutions
+
+    - identify alternate structures than info that can act as an input-output interaction structures (like 'connection' structures) or another core interaction function applied to problem/solution structures (or abstract or proxy versions of them like inputs/outputs) and solve the problem of applying core interaction functions (generating/connecting/filtering) to alternate structures instead & apply alternate structures to apply core interaction functions (like connect) to original problem inputs/outputs
+        - examples of alternative structures to info:
+          - probability
+          - interactive structures
+          - uncertainty-resolution structures 
+            - including solution automation functions like:
+              - 'convert to abstract interface to resolve uncertain connections & convert to original interface to resolve implementation once abstract connections are resolved'
+          - logic/functions to connect inputs/outputs
+          - info filters
+          - info derivation/generation functions
+          - info components
+        - generate (or find & map) solution automation workflows that can generate these alternate structures & apply them to generate these alternate structures as a solution to map inputs/outputs
+          - example of a solution automation workflow that can generate these alternate structures:
+            - 'apply power of interactivity to find interaction structures of an info alternative structure (like probability) and connect them to connect problem inputs/outputs with the info alternative structures'
+        - this works bc of the definition of 'alternate' applied to solution automation workflow inputs like info structures
+
+    - apply structures of power (which tend to overlap with 'useful system components' bc of the definition of 'useful/relevant') to solution automation workflow components (like inputs, core interaction functions, or implementation variables)
+        - structures of power include:
+          - alternative structures
+          - efficiency structures
+          - organization/integration structures
+          - connection/interaction structures
+          - filter structures
+          - distribution structures
+          - alignment structures
+          - certainty structures
+        - these structures are powerful because they enable other components (like functions such as 'storage' by reducing need for storing other structures)
+        - this works bc of the definition of 'power' (as an 'root or causal input' or 'input enabling (distributing power to) other components' or a 'resource-distribution function') applied to problem/solution interaction functions
+
+    - apply useful structures (like 'optimization' structures) across problem/solution/interface structures with system optimization structures (like 'structural alignments', such as the 'structural alignment' between problem 'system' and optimal 'system' structures)
+      - apply the structure of an 'optimal' system by fitting the problem system to the optimal system & identifying adjacent conversion functions between them to 'connect' them, given that they have a 'structural alignment'
+    
+    - apply structures of 'efficiency' to generate solution automation workflows
+          - structures of efficiency include:
+            - structural alignments (delay operations requiring iteration until the next required iteration)
+              - generated workflow:
+                - connect structures that are otherwise difficult to connect by creating efficiencies with structural alignments to connect problem/solution
+            - low cost (low input, high output) structures
+              - generated workflow:
+                - find functions with low input & high output and apply where possible to connect/reduce difference between problem/solution
+            - interactive structures like function sequences
+              - generated workflow:
+                - find interactive structures in solution automation workflow system components (solution space, problem definition, related problems, problem types) & organize them in their interactive structures
+            - paths using fewer resources
+              - generated workflow:
+                - find paths between problems & solutions that use fewer resources and use those paths where possible
+            - storing generative info rather than original info
+              - generated workflow:
+                - store generative info sets of a solution (or related component like solution input) instead of specific solutions to generate solutions as needed
+                - store generative info sets (for alternate causal variable sets) of a problem to find problem causes quickly
+
+    - generate solution automation workflows by applying useful structures (like 'optimization' structures) to interface structures (like 'systems') between interfaces or interface components to connect problem/solution components
+      - generate solution automation workflows by applying system optimization structures (like efficiencies such as interactivities) between interfaces or interface components to connect problem/solution components
+          - example: generate alternative abstract 'optimal' system structures to fit to a 'problem' system with adjacent core interaction function-fulfilling functions (like 'conversion functions' to fulfill 'connect' core interaction function)
+            - this applies the potential (alternative), conceptual (abstract), system (optimized system), structure, (fit by structures like similarities, adjacence), change (conversion), and function interfaces in a way that allows them to interact to connect problems & solutions
+            - this identifies the system containing problem/solution components (problem space, solution space, problem types) as a system to apply system optimizations to
+
+    - interface query types can be an alternative to interface query design
+      - use default patterns of interface query types, parameters (like origin interface & input problem type), & input-output connections to identify query types that are useful for solving specific problem types
+
+    - apply default useful/optimal structures determined to be probable determinants of a solution
+      - before running an interface query to 'design an interface query to solve the problem' or to 'solve the problem', run default interface queries to solve the problem of 'identifying problem-solution components on the problem interface to determine interface query solution metrics for designing the problem-solving interface query'
+        - if the problem interface queries produce enough info, the problem interface may occasionally be the only interface required to solve the problem, like when known solutions are known to be optimal for the problem type & solve the problem when applied in a simulation of the problem space
+        - problem interface contains rules to fulfill intents like:
+          - 'identify when solution metrics need to change bc an assumption (whether an implicit assumption derived from implication of problem, or an explicit assumption) was built on false info type (like lack of info, incorrect object identities, incorrect format)''
+ 
+   - identify & apply default useful/relevant structures of solution structures (like 'organization') that fulfill solution structure intents ('organization' intents like 'integrate interface objects for a problem type')
+    - example:
+      - default useful structures for solving a 'find variable connection' problem
+        - variable structure in a common format or standard format with connection structures (network) 
+        - applying structures like:
+            - equal as a base function to generate the origin network structure differences (position)
+            - causal direction
+            - type
+            - core functions as sub-components
+
+    - how to generate a standard useful cross-interface structure of 'organization'
+      - find connection change structures (variables):
+        - type is relevant bc variable types have direct connections (like 'variable of one data type like boolean likely to be connected to another variable of a data type like condition')
+      - find connection core structures (components):
+        - core functions are relevant to build new connections where info is missing about a connection
+      - find connection interface or structure structures (standards, filters):
+        - equal positions of variables are likelier to find differences (distortions from equal) faster than starting from an extreme positioning function
+      - find connection structures associated with interfaces (direction structure associated with intent):
+        - causal direction is directly defined to be relevant in the 'connection' definition, which implies an input/output connection, inputs being liked to 'dependency', which is linked to 'cause'
+    
+    - filter components by uniqueness in structure & usage to derive default reliable/useful structures to apply as an 'apply default interface structures' solution automation workflow
+      - derive a set of functions to solve all problems by:
+        - generating a 'difference type-handling function' selection function
+        - identifying unique difference/error types & generating functions to handle those difference types, so when one fails, another can be selected
+        - generating a function to identify new difference types (in the set of functions, in itself, in solution metrics, and other component combinations)
+      - this function set & its alternate versions will reflect possible versions of the forces of an accurate (effectively predictive) physics model
+      - which function set is the real function set (or the function set describing or determining reality) is probably an invalid question, as different function set versions are relevant in different contexts having different probabilities that may even change if function set versions have forces governing them so they change over time, as may the central origin function set representing the base for distortions, and different function sets may have different roles in generating/determining/describing reality
+      - the 'true' format of reality may not involve just a function set, but rather a function set with other structures (like specific inputs/outputs, a network of function sets, a set of change functions to the function sets, a set of usages of the function set, etc)
+
+    - identify structures of specific solutions (like 'complexity-reduction' or 'ambiguity-resolution') to specific error types (like 'complexity', 'ambiguity') & apply to fulfill problem-solving intents (like 'core interaction function' intents between problem/solution components)
+      - example structures of 'complexity-reduction' or 'ambiguity-resolution' include 'functions with complex inputs & simple outputs'
+        - identify complex inputs of simple outputs by injecting a specific interaction rule structure
+        - when outputs are simple (lower-dimensional), but can have many different inputs, the outputs will not accurately be usable to determine the inputs without relevant interaction rule structures to inject understanding of input metadata (input interactions, input probabilities, input causes & intents, input contexts, input context interactions/probabilities/causes/intents)
+          - examples:
+            - if parameters of a function follow a wave function structure, knowing that input structure can help determine the outputs (direction & probable position on the wave), to predict the adjacent/extreme/probable/origin/possible/alternate values of parameters & inferring the wave function parameters
+            - low-dimensional outputs like demographic crime stats can be decomposed with a useful interaction rule structure of power interactions
+              - power interaction rule structure
+                - powerful groups oppress powerless groups
+                - powerless groups tend to remain powerless or decrease in power
+                - powerful groups try to maintain power but rely on powerless groups as suppliers
+                - powerless groups tend to be common, which is an alternate form of power
+              - rules about power interactions inform demographic crime data, once the concept of 'power' is inferred as relevant in determining low-dimensional outputs like crime stats
+              - inferring the concept of power can take the form of interface queries like:
+                - an application of common standard useful concepts like power, efficiency, and balance
+                - an application of logical structures like 'implication' & a logical derivation path connecting determining variables of resource distribution differences, which is an implied variable by the position of the data (crime definition routes imply 'lack of resources'), which leads to power difference causes (like simplicity (in visual differences & maintaining the status quo), historical resource transactions)
+                - applying definition, structural & error interfaces to identify errors like 'missing structures' to infer the 'lack of specific groups' in crime demographic distribution, and given the negative definition of crime & implied punishment, infer the power of those specific groups to avoid it
+
+          - particularly relevant to deriving inputs from low-dimensional outputs:
+            - interaction rules of alternate variable sets or variable value sets
+            - interaction rules between causes & alternate variable/value selection
+
+          - how to identify the relevant interaction rule structure (like power interaction rules, or parameter wave function structure interaction rules, or alternate variable set interaction rules) that will quickly help identify inputs to low-dimensional outputs
+            - identify when common outputs would benefit multiple intents, where at least one of the multiple intents has a related intent of obscuring inputs
+              - power can obscure itself (as well as its input power sources)
+              - ambiguity of repeated function structures (like wave function curves, which may obscure the identity of which curve a particular parameter point occupies) is a potential benefit through obscurity
+
+          - solution success cause: this works bc there is usually a minimal number of vertex variables that determine a particular variable interaction, except in extreme cases where inputs are extremely complex alternatives with minimal differentiating variables
+
+    - apply useful structures to problem/solution components (like input sequences & possible implementation structures) to problem/solution components
+      - example of identifying useful interface structures (like useful concepts) to apply to problems with specific error types
+        - example: 
+          - bitcoin and ai both benefit from integrating the concept of time into existing inventions (transaction history, weight updates)
+          - solution success cause: why is time (or the structure of sequence) a powerful concept in those problem systems
+            - the concept of 'time' applied to problem system structures (historical info integrated into current & imminent info) was a pre-existing 'gap' error type in relevant info structures of the problem system
+              - the usefulness of historical info wasnt identified or wasnt identified as integratable into existing inventions
+            - related alternative concepts to 'time': 
+              - 'connection' could have served as a replacement for 'time', indicating relevance/meaning of previous info once integrated/connected to new/derived info, as states should be connected by the 'state' definition that states are 'different versions of the same object'
+              - 'position' could have also replaced 'time' or 'sequence', given the relevance of 'position' as a predictor of financial transactions and connecting one info state to another, given data that can access the destination from that origin
+              - 'sequence': its also inherently relevant to know how space-times (states) connect (like in a 'sequence' structure) in order to predict relevant ('adjacent' or 'imminent') space-times (or states) as relevant members of the 'sequence' structure
+          
+          - solution automation workflow of applying 'input sequences' & 'possible implementation structures' to find solutions
+            - identify this solution (of "apply 'time' to generate an improved system to solve problems like 'optimize transactions' or 'automate learning/prediction'")
+              - identify relevant structures (like 'input sequences') to target solution structures
+                - identify input variables of implementation inputs of target solution structure (like 'prediction function-automating function' or 'transaction-optimizing function')
+                  - identify possible implementation inputs of target solution structures
+                    - 'learning function sequence' is a possible input of a 'prediction function-automating function'
+                      - 'time' is a base input to 'learning function sequence' structures
+                    - 'funds verification function' structures are a possible input of a 'transaction-optimizing function'
+                      - 'certainty' is an input to 'funds verification function' structures
+                        - relevant info that is an input to decisions (such as 'conducting a financial transaction') is connected/stable across adjacent time sequences or adjacent states, creating 'certainty' structures (for which 'stability/consistency' are identifying attributes)
+
+    - apply relevant (interface-generating) structures
+
+        - apply structures (like alternates) relevant to structures that are important bc they generate core/primary interfaces (composability, simplicity) to problem/solution components (apply these structures to solution metric filters, solution automation workflow variables) to generate new solution automation workflows
+
+          - core/primary interfaces are important bc of the core structures that are their generative concepts/structures
+            - 'core' interface's generative concept 'simplicity' and related attribute 'composability'
+            - 'interface' interface's generative concepts 'interactivity' and 'balance' (how does info from each interface integrate or interact to produce meaning, balancing influence of interfaces in a way thats indicates contribution)
+            - 'cause' interface's generative concept 'power' (ability to trigger other components)
+            - 'concept' interface's generative concepts 'uniqueness' and 'applicability'
+            - 'info' interface's generative concept 'stability' producing info
+            - 'intent' interface's generative concepts 'functionality' and 'direction' (functionality develops when there's a reason for it to develop, like a direction of change)
+            - 'function' interface's generative concept 'connection' (connecting inputs/outputs)
+            - 'pattern' interface's generative concepts 'similarity' (powerful patterns are repeated and patterns develop in similar ways, producing similarities across interfaces)
+            - 'logic' interface's generative concept 'alignment' (aligning logical connections with info as a supportive foundation)
+            - 'change' interface's generative concept 'difference'
+            - 'structure' interface's generative concept 'info' (info about other interfaces with potential for structure)
+            - 'potential' interface's generative concept 'adjacence' (what is probable is more adjacent)
+
+            - the generative attributes (simplicity, interactivity, balance, power, uniqueness, applicability, stability, functionality, direction, connection, similarity, alignment, difference, info, adjacence) reflect core structures (unit, value, force, direction, equivalence, distance, rate, ratio, input-output, type, dependency, constant) are fundamental across interfaces
+
+        - apply interface-generating structures like simplicity/normality as a filter to identify relevant insights to apply as filters of problem/solution components like solutions/errors
+          - how to identify that more normal language is likelier to contain factual statements
+            - multiple connected reasons, from the insight path
+              1. facts often have simpler connections
+              2. language patterns have intents
+                3. agents apply language patterns to achieve intent
+                  4. linguistic intents are often to change meaning until its false (out of the full set of intents to 'communicate info')
+                  5. agent often over-think how to emphasize/reduce language components and it creates unnatural language patterns
+                  6. agent-changed language (newly created patterns) is rarely more efficient than normal language patterns (inherited patterns)
+                    7. when it is more efficient, it is quickly adopted until its normal
+                    8. more efficient language patterns are likelier to be true, bc of the normally simpler connection patterns of facts 
+                  9. it takes work to make a set of falsehoods or mix of falsehoods & facts seems like a fact, and the work has side effects like lack of normality (sounding unnatural in structure) or simplicity (using fewer resources to connect components)
+            - relevant concepts
+              - the concept of 'simplicity' interacts with connections 1, 5, 8, & 9
+              - the concept of 'normality' interacts with connections 5, 6, 7, 8, & 9
+
+            - these concepts can be used as almost interchangeable alternatives in generating the interface query generating this insight path
+
+            - despite their differing definitions, simplicity & normality are connected by the concept of efficiency, because what is simple often becomes normal because of the efficiency of simplicity, so efficiency can be used as an interchangeable concept of both of these in some cases
+
+            - interface query to generate the insight path to 'derive an attribute to identify facts'
+              - apply concept interface
+                - identify important concepts (simplicity, efficiency, emphasis, reduction, falsehood, change, connection, pattern, normality, agency) of the problem system of 'identify facts'
+                - apply relevant concepts to problem system
+                  - agents change language to achieve intents
+                    - apply intent interface by mapping to intents ('change info' for intent of lying, or 'false similarity to fact')
+                      - connect intents to original relevant concepts
+                        - connect problem system component derived from intent interface of 'agent-changed language' to concepts of normality & falsehood
 
     - apply relevant/useful cross-interface structures as problem/solution interaction structures
 
@@ -1231,9 +1069,238 @@
           - power structures
             - the location & interaction of sources of power (like importance, usefulness, interactivity)
 
+    - apply logical interface (including logical component interaction rules & logical components like assumptions) to connect problem/solution components to generate solution automation workflows
+      - interaction rule-determining rules
+        - similarities
+          - equivalents in connections: components of connected rules are equivalent by some metric (interchangeable, equivalent identities, sufficiently similar where differences are irrelevant, etc)
+          - definition alignment: applies & aligns with definitions
+          - equivalents in meaning: the meaning of a rule in one context (such as the interaction level) is equivalent to the meaning of the rule when applied to another context (it fits into the system the same way so the meaning is the same)
+        - includes where possible, except as relevant/required
+          - components & structures of certainty like facts where possible, and where not possible, certainty-deriving methods like math/stats & definitions
+        - excludes where possible, except as relevant/required
+          - uncertainty structures like ambiguities
+        - example:
+          - patterns are logically a relevant object to prediction functions, given the nature of the problem (predicting a variable with insufficient info, such as info building understanding about the actual variable connections)
+    
 
+### apply definitions to generate solution automation workflows
 
-### definitions
+    - apply structures of general/specific solution automation workflow components based on definitions of the components
+        - general components include: solution space, solution metrics, solution automation workflow variables, & core interaction functions
+          - example:
+            - apply a 'interaction space' or 'combination space' rather than a 'solution space'
+        - identify relevant different structures for specific solution automation workflow components & iterate through combinations of them, filtering by relevance metrics (like reusability) 
+          - apply alternate/proxy/difference structures of definitions of components & iterate through combinations of them
+            - examples:
+              - apply alternate definition routes of components
+                - rather than 'input' structures, apply 'power' structures to solution automation workflows
+                - rather than variable structures, apply 'difference' structures
+              - apply abstract/specific structures of components
+                - rather than 'connect' structures, apply 'sequence' structures
+                - rather than 'cause' structures, apply 'inevitability' structures
+          - then filter combinations of different structures by which can apply a core interaction function like connect between problem/solution inputs/outputs to optimize for a solution metric filter
+
+   - apply attribute structures of problem/solution components to identify components like errors/solutions
+      - attributes of solutions/problems can be used to identify error types & causes of errors
+        - if something is unnecessary (not required), it is likely to produce more errors than something that is required
+        - if something is highly variable, it is likelier to produce errors than more constant structures
+        - if something is inefficient, it is likelier to produce errors than structures that are efficient
+        - if something is not aligned with an interacting structure, it is likelier to produce errors than alignments (mismatches, imbalances, incompleteness)
+        - if something is highly connective/interactive, it is likelier to produce errors bc it introduces other error-increasing structures like variability
+        - if something is reusable, it is likely to be useful, so it has more attributes of a solution than of a problem
+
+    - apply interfaces to generate alternate definitions of useful structures (like "format connection sequence" or "problem-solution interaction functions") to apply as alternate implementations of a solution automation workflow
+
+      - identify attributes of useful structures, like:
+        - type stack:
+          - format sequence
+            - type of structure
+            - type of structure that is useful for connecting origin/destination formats 
+            - type of structure that is useful for connecting problem/solution formats 
+          - solution automation workflow
+            - type of insight path
+            - type of insight path that is useful for connecting problem/solution
+          - insight path
+            - useful rule to derive/find/generate insights in a system
+          - reverse-engineer solution from problem requirements or opposite structures
+            - specific example of a general insight path (like a structural strategy)
+        - useful structure connections
+          - a format sequence can be used to connect any structures
+          - an insight path can be used to connect some structures relevantly/efficiently/usefully (like problem/solution structures, input/output structures, origin/destination structures)
+          - a solution automation workflow can be formatted as a format sequence
+        - meaning of connections between useful structures
+          - 'because a format sequence can be a connecting structure, it can be used to implement functions with 'connecting' intents'
+
+      - change variables to check/complete definitions of problem/solution component interactions
+        - variables
+          - components used:
+            - structures: filters, sequences, formats
+              - variables: variable selection sequence
+              - structures: format sequence
+              - functions: conversion/connecting function sequence
+          - origin/destination points
+            - connect context to problem/solution:
+              - start from system in which problem & solution occur (given solution potential) and fit/connect systems gap structures to problem/solution structures, rather than starting from problem & navigating to solution or connecting them in the middle or working in reverse
+            - connect solution components to solution
+              - start from existing solution structures & apply filters or other structures to reach solution
+            - general form of 'filter connecting sequence': 
+              - apply structures of standards such as filters to both/either problem & solution until theyre equal (meaning connected, or similar in structure like position/variables)
+
+    - apply alternate definitions of a structure given the different definitions of 'difference' to generate different solution automation workflows
+
+      - definition routes of 'difference'
+        - default
+          - adjacence in value
+        - proxy
+          - adjacence to interim values
+          - adjacence to similar values to the different value
+        - subset
+          - adjacence to different value type or other attribute value
+        - opposite
+          - lack of equivalence/similarity attributes
+        - connections
+          - varying adjacent values (adjacent values of one are different from adjacent values of the other)
+          - differences in relative values (above/below threshold, near a constant/other number type)
+        - potential
+          - possible difference (how different can they be, while retaining original information)
+        - structure
+          - differences in different formats (as a sequence, function, set of determining points)
+        - system
+          - differences in different spaces (vectors, dimension sets, network graph)
+        - change
+          - as a unit of change
+        - logic
+          - as a core connection structure ('x is not y')
+        - intent
+          - default
+            - differences in adjacent/neutral/specific/common uses
+          - potential
+            - differences in possible uses
+        - cause
+          - differences in cause
+
+    - apply structures based on their definitions in relation to the definition of a solution/problem or the problem-solving process
+
+        - depending on the solution automation workflow applied, it will involve various functions, like:
+          - generate possible solutions & filter
+          - break into sub-problems, solve them, & integrate
+
+        - example with a particular solution automation workflow function 'filter':
+          - the definition like 'filter' is 'remove items from set based on metric', so functions that support intents like the following sub-functions, which fulfill the 'solution filter' intent (identify if it's a solution or not) can fulfill sub-functions of the 'filter' function definition 'remove items from set based on metric':
+            - determining difference
+            - determining metric value
+
+        - structures that fulfill the solution automation workflow function, like 'filter':
+          - apply opposite structures as a solution filter structure (exclude what a solution is not)
+          - apply error structures as a solution filter structure (avoid errors)
+          - apply possibility structures as a solution filter structure (exclude impossibilities or improbabilities, include common solutions)
+
+        - structures that fulfill the solution automation workflow function 'solve different problem'
+          - apply similar structures as an alternative problem/solution structure or solution base structure (solve alternate similar problem, start from similar origin, base changes on existing solutions)
+
+        - structures that fulfill the solution automation workflow function 'build solution' or 'solve for the components of a solution'
+          - apply core structures as a solution subset or solution building structure (build solution from core components or solve subsets (core components) of solution)
+
+        - apply structures of relevance given its definition to identify relevant components for a particular intent like 'solve a problem' or specifically 'generate solution automation workflows', given that relevance is by definition related to the solution automation workflow intent of 'solve a problem'
+          - relevant components are:
+            - adjacent in interaction degree/directness
+            - controllable
+            - low-cost to implement
+            - specific to that context
+            - required/unique
+            - enforcing/robust (no matter what changes you make, it will always have an attribute/function)
+
+    - apply definitions & interface structures to identify components that are relevant to solutions (other than primary interface components or interface query or solution automation workflow generating the query)
+
+      - errors (opposite of solutions)
+        - assumptions
+        - ambiguities
+        - mismatches (misalignment, imbalance)
+
+      - connections between solution/problem components & their interaction rules & patterns 
+        - patterns of these components' interactions can be used to find solutions
+          - connections between:
+            - problem & problem space
+              - problems created by a problem space defined by a lack of a technology may be resolved by building an adjacent/possible/accessible version of that technology with components that can be replaced with more advanced versions as theyre built
+            - solution/problem (the objects or their components/attributes/functions)
+              - problem definition & solution metric filters derived from it
+                - a problem definition like 'find a prediction function' implies a solution metric filter of 'predictive components of a function (like constants/coefficient values, operations)' so a solution will have components that add to the predictive nature of the variable assembly
+              - solution & solution metric filters
+                - the solution will fit inside the solution metric filters
+                - the solution will fit inside the solution space or be equal to it
+              - solution space & problem space
+                - these are coordinating structures to generate opposite structures to the problem (the solution)
+                  - a problem of 'a difference to resolve' in a problem space where 'difference-opposing structures are uncertain' & the solution space of 'possible methods to resolve the difference (convert it to an equality) given a solution metric', where the solution space is a subset of the problem space or equal to it (until/unless it's filtered)
+                  - a problem of 'find a prediction function' (a 'lack of prediction function') in a problem space where 'variable interactions are uncertain' & the solution space of 'possible prediction functions or function-finding methods to equal dependent & independent variables with some accuracy value', where the solution space is 'a subset of all variable interactions, filtered by variables of the problem definition & by possible variable interactions', producing a solution that is the opposite structure of the problem ('a prediction function')
+            - solution automation workflow (to design interface query) and actual interface query (to find/derive/build solution)
+              - a solution automation workflow like 'connect problem/solution format sequence' has many possible interface queries but they will all be built from conversion operations between formats that connect the problem/solution, whether in a sequence/network or other structure
+            - solution automation workflow & solution implementation (output solution generated by interface query)
+              - a solution automation workflow like 'connection problem/solution format sequence' can have many possible solution implementations, like:
+                - 'connect formats starting from point sets to continuous function format'
+                - 'connect variable structures and function structures'
+                - 'connect base, subset & combination structures'
+                - 'connect prediction structures like clusters with prediction function filters like averages'
+            - interface query & solution implementation (output solution generated by interface query)
+              - an interface query like 'apply definition interface, then structural interface, then causal interface' can produce many possible solution implementations, like:
+                = given the definition of variables/functions/predictions, find their interactive structures & the cause of error structures, and build a solution set that avoids error structure causes using interactive structures'
+            
+      - possibilities (solution space, alternate problem spaces)
+
+      - uncertainties
+        - questions
+          - which questions to ask to find/derive/generate which info
+        - errors
+        - randomness
+          - randomness structures must include:
+            - contradiction/opposite/neutralization structures so there is an average value to temper extremities
+            - many structures of difference so there is a source of difference in their interactions
+            - high interactivity between variables
+          - possible sources of randomness & variance
+            - equivalents generating equal probabilities
+            - alignment gaps generating variance injection points
+            - alternatives
+
+      - certainties (solution components & filters)
+        - requirements (solution requirements as filters/limits)
+        - inevitabilities
+        - equivalents
+        - constants
+        - consistencies/stabilities
+        - interactivities/coordinations (something is likelier to be true the more it coordinates with current info & adjacent versions of current info)
+        - probabilities (approximations of certainty)
+          - commonalities
+            - averages/centers
+          - adjacencies
+          - ranges
+          - distribution
+          - patterns
+
+      - just like you can use error structures to find solutions, you can use certainty structures to find solutions, because:
+        - logic relies on certain/probable equivalents to make connections between rules involving equivalent components
+        - 'filtering solutions with metrics' relies on calculations determining a certainty in the form of a relationship between actual solution implementation value & optimal solution threshold/filter value & a certain limit in the metric value (a requirement of the solution)
+        - uncertainties are more often a source of error than a source of solutions
+        - solutions add organization to systems with uncertainty/randomness/chaos, and organization relies on structure (certainty being a proxy of structure bc it is a generator/output of structure)
+        - structures (certainties) act like a resource, producing info that can be used for learning
+        - certainty is more related to equivalents than errors are (errors being an incorrect/sub-optimal value, or a mismatch between the actual & optimal value)
+        - solutions must be built on understanding to be actually robust, and understanding can use certainties as an input
+        - if you have enough certainty structures, you can rule out error structures in a system
+        - certainty structures interact in a way that can produce other certainties
+          - if applied in the right way, incentives can create a guaranteed outcome (where the cost of avoiding the incentives is too high and there isnt a reason to avoid them), generating a certainty, which can be used as a resource (like an assumption that can be relied on to build solutions on top of)
+      
+  - generate error structures to generate an identification function for a structure by applying the structure's definition to identify structure filters or applying interface structures (like variable interaction structures) to components of the structure's definition
+    - example: 
+      - generate error structures to generate an identification function (find 'exploit' structures) by applying 'exploit' definition (applying definition attributes as exploit-filtering attributes like 'anomaly', which is an 'unexpected difference given common/normal value patterns' or a 'requirement filter') to identify structure filters, or applying interface structures like variable interaction structures to components of the 'exploit' definition
+        - general difference filter (anomaly)
+          - non-standard/common data flows
+            - 'does data normally follow this pattern'
+        - requirement filter
+          - 'is there a required basis for sending info'
+        - interface structure (variable) interactions to identify possible 'exploit' structures
+          - data * time/sequence * usage
+            - 'state/content of a data flow intersecting with a possible access chain'
+          - code * time/sequence * intent
+            - difference in sub-intent & general intent
+              - "state of a high-change function (like build) to check important vertex variables (determining solution success like 'function intent') or error types (like 'difference in sub-intent & general intent') multiple times during high-change function application to code (build phase with varying states of function interactions)"
 
   - apply relevance attribute filters to determine problem/solution component structures (like 'cause of a variable x')
     - exclusivity/specificity

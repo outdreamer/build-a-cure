@@ -160,7 +160,7 @@
 
 
 
-    - add to nn
+    - nn disadvantages/costs
 
       - youre always using multiple formats in a graph, even when trying to depict one format (a variable network always has core structures & conceptual structures even when it's intent is to depict variable interactions)
         - even a conceptual network has conceptual (and other interface) structures depicted on it that overlap with other structures (like concept nodes & interaction functions)
