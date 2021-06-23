@@ -1,6 +1,68 @@
-# examples of solution automation workflow insight paths
+Inventor Name: Joni Jezewski
+Filing Date: 06/23/2021
 
-## specific examples of prior solution automation workflow insight paths referenced in patent application 17301942 & PCT application PCT/US21/70425:
+TITLE OF INVENTION 
+
+Additional Solution Automation & Interface Analysis Implementations
+
+FIELD 
+
+[0001] Embodiments of the disclosure relate to implementation methods of problem-solving automation & interface analysis.
+
+BACKGROUND OF THE INVENTION 
+
+[0002] Interface components like problem-solving automation workflow insight paths can be found/generated/derived/applied & implemented with various methods, such as by applying structures of problem/solution components/variables/structures, as the examples included specify.
+[0003] These example implementations specify logic that can be used to implement the components referenced in US patent applications 16887411 & 17016403, and extends the example implementations referenced in US patent application 17301942. Examples given in 17301942 & this patent application extend the implementation example sets given in 16887411 & 17016403.
+
+BRIEF SUMMARY OF THE INVENTION 
+
+[0004] One or more embodiments of the present disclosure may include a method that involves:
+- definition routes
+- problem/solution structures
+- solution filter structures (like metrics, tests, conditions) to filter solution sets, or specify/adapt/ refine/test solutions
+- insight paths (including solution automation workflows, which are insight paths that connect problem/solution formats)
+- functions to generate solution automation workflow insight paths - interface query-building logic (to generate interface queries)
+- interface queries (to complete a task by connecting the origin input & target output, which may be a problem & solution format)
+- interface operations (combine interfaces, apply the causal interface to a structure to solve a problem of 'finding cause', apply an interface to an interface), including interface-specific analysis logic (like connecting functions of components of that interface, such as the info interface function to 'apply insight paths to solve a problem'). The object and advantages of the embodiments will be realized and achieved at least by the elements, features, and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are merely examples and explanatory and are not restrictive.
+
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+[0005] Example embodiments will be described & explained with additional specificity & detail through the use of the accompanying drawings in US patent applications 16887411 & 17016403, which contain diagrams of the relevant program components (like solution automation modeul 140) where example implementations contained in this specification can be applied.
+
+DETAILED DESCRIPTION OF THE INVENTION 
+
+[0006] As used herein, terms used in claims may include the definitions & term usage:
+	- 'error' may be used interchangeably with 'problem', except that 'problem' is intended to refer specifically to program input, unless used to indicate an 'error'
+	- cause/reason vs. intent
+		- reason can indicate a cause, specifically a causal source node, or an intent
+    	- intent can indicate a structure leading to a usage of a component, like a causal target node
+	- where the general structure (like 'problem-solving intents') is used, the specific structures (like 'applying solution filters') may also be referred to by default, and vice versa
+	- 'interaction' structures may refer to or be referenced by:
+		- 'connection' structures
+		- 'relating' structures
+    - problem-solving intents include:
+    	- apply core interaction functions
+    	- applying solution filters
+    	- avoid error structures
+    - problem-solution components include:
+    	- solution space
+    	- problem space
+    	- related problem network
+    	- problem input & solution output formats
+    	- solution metric filters
+    	- core interaction functions
+	- solution automation workflow insight path variables include:
+		- success cause metadata to solution automation workflows
+		- counterexamples and/or contraindication structures
+			- indicate where a solution automation workflow is contraindicated, bc of inputs like problem type or missing info or nonadjacent formats relative to other more adjacent formats
+		- example application to a problem
+		- example specific interface query implementing the solution automation workflow
+		- associated interface query variables
+			- standards to apply before applying the workflow
+			- interface query variable values optimal for implementing the workflow
+		- solution automation workflow implementation variables
+
+[0007] examples of solution automation workflow insight paths may include specific examples of prior solution automation workflow insight paths referenced in patent application 17301942 & PCT application PCT/US21/70425:
 		- solve problem by changing structures (like position) of interface objects, like functions & variables
 			- solve problem by changing structures (like position & alignment) & relevant attributes (like complexity) of interface components, like functions & variables, using change optimizations (like adjacence), to find if updated structures fit the target structure
 		- use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
@@ -25,7 +87,7 @@
 				 		- 'type state network'
 				 		- 'network of contexts/conditions/assumptions'
 
-## apply change interface to problem/solution components for problem-solving intents
+[0008] examples of solution automation workflow insight paths may include applying change interface to problem/solution components for problem-solving intents
 
     - standard change-pattern interface insight path: 
       - identify patterns of distortions of existing solution components to select & apply distortions to existing solution components to handle problem with new components (like a problem with a new variable, complexity level, abstraction level, error type relationship, etc)
@@ -117,7 +179,7 @@
               - whether a rule fits with the logic network
               - whether an object can be tested for a connection to another object using the rules of the converted logic network, or whether less definitive structures are needed to infer logic connections
 
-## apply solution success cause structures as a solution or solution component filter
+[0009] examples of solution automation workflow insight paths may include applying solution success cause structures as a solution or solution component filter
 
     - apply structures relevant to 'generative' function intents to the intent of 'generating solution automation workflows'
         - structures relevant to 'generative' intents:
@@ -222,7 +284,7 @@
             - derive a reason why a solution worked
             - filter solution automation workflow insight paths
     
-## apply useful solution filters to identify solutions
+[0010] examples of solution automation workflow insight paths may include applying useful solution filters to identify solutions
 
     - generate solution template structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
     
@@ -680,7 +742,7 @@
           - 'delegation has been applied as a solution to excess work requirements'
 
 
-## implement/apply core interaction functions between problem/solution components to fulfill problem-solving intents
+[0011] examples of solution automation workflow insight paths may include implementing/applying core interaction functions between problem/solution components to fulfill problem-solving intents
 
     - apply interfaces & interface components useful to solve various interface query sub-problems (like 'determining probable cost/benefit of a sub-query before executing it') to design optimal interface queries to apply core interaction functions (like 'connect') to problems/solutions
         - example:
@@ -829,7 +891,7 @@
         - some are more adjacent to the original problem format or the target solution format or both than others
 
 
-## apply known useful structures for problem-solving intents
+[0012] examples of solution automation workflow insight paths may include applying known useful structures for problem-solving intents
 
     - apply known useful structures like the following, to relate/optimize problem/solution components:
       - input-output connecting sequences/networks
@@ -1306,7 +1368,7 @@
           - patterns are logically a relevant object to prediction functions, given the nature of the problem (predicting a variable with insufficient info, such as info building understanding about the actual variable connections)
     
 
-## apply definitions to generate solution automation workflows
+[0013] examples of solution automation workflow insight paths may include applying definitions to generate solution automation workflows
 
     - apply structures of general/specific solution automation workflow components based on definitions of the components
         - general components include: solution space, solution metrics, solution automation workflow variables, & core interaction functions
@@ -1549,17 +1611,17 @@
         - is the component incentivized in the system
         - how much work would you have to do to prevent the component from being generated in the system (it would be created unconditionally, or in what percent of conditions)
         - does that work change the system to an extreme degree (changing its identity/type/intent)
-    - change.structure:
+    - change + structure:
       - opposite: can the component be changed to not cause x
       - symmetry: do changes to the component still cause x
-    - potential.structure
+    - potential + structure
       - alternatives: are other structures like combined errors capable of causing x
       - are those structures possible in the system (do they exist in the system)
 
 
-## apply error structures to fulfill relevant problme-solving intents like 'avoid error structures'
+[0014] examples of solution automation workflow insight paths may include applying error structures to fulfill relevant problme-solving intents like 'avoid error structures' as follows.
 
-### examples of error type identification functions
+[0015] examples of error type identification functions may include:
 
     - determine definition of errors (& metrics of costs as inputs to determine an error) for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including avoiding causing problems for other users of the system)
 
@@ -1700,7 +1762,7 @@
         - 'prevent errors'
         - 'identify error interactions, so the interaction of changes to one error & changes in related errors can be predicted'
 
-### examples of error type interaction rules
+[0016] examples of error type interaction rules may include:
 
       - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules or solution structures)'
         - example: the human brain (and AI based on it) tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
@@ -1761,7 +1823,7 @@
                       - 'in a complex system, there will be at least some efficiencies'
                         - 'some of these efficiencies may be usable to fulfill the agent intent'
 
-### example error types
+[0017] example error types may include:
 
     - example of 'indistinguishable cause' error type
       - multiple causes of the same variable
@@ -1940,9 +2002,7 @@
           - filtering optimal structures for an intent ('what is the best path from x to y for an intent z')
             - 'x as an input to function 1 is the best path to y for intent z'
 
-# other example implementations of problem/solution components
-
-## example of implementing an insight path
+[0018] other example implementations of problem/solution components include an example of implementing an insight path
 
 	- example implementation of 'trial & error' insight path
 		- insight path definition: 'try every combination of components to see what combination fulfills a solution metric value'
@@ -1963,7 +2023,7 @@
 				- structural definition of 'every combination' in problem space, using problem space components
 					- each possible (block identity in available block set) of every (type/size/shape) in every possible (position) in every possible (count) combined in every possible (combination structure)
 
-## example of problem-causing structures of turing machine (with 'lack of input validation' problem)
+[0019] other example implementations of problem/solution components include an example of problem-causing structures of turing machine (with 'lack of input validation' problem)
 
 	- lack of potential alignment in interpretating vs. applying a component
 		- assumption: interpretation & application should be allowed to be different
@@ -2025,7 +2085,7 @@
 		- system optimization: 
 			- align structural limits with potential
 
-## example of solution automation workflow 'applying a problem to solve a similar problem'
+[0020] other example implementations of problem/solution components include an example of solution automation workflow 'applying a problem to solve a similar problem'
 
 	- 'logistical resource allocation' problem
 		- 'select a delivery method' problem
@@ -2114,7 +2174,7 @@
 			- variable structures (components that use variables, like indexes made from a column, code modifying/using a column, or functions calling a function or using the same input elsewhere)
 			- variable structure variables (how many conditions allowed in a condition statement, or levels of nesting allowed in a dictionary)
 
-## example of applying structures from relevant systems (like 'comedy' or 'music') to a problem system
+[0021] other example implementations of problem/solution components include an example of applying structures from relevant systems (like 'comedy' or 'music') to a problem system
 
 	- identify vertex variables of systems to efficiently map one system to another:
       - general vertex variables: topic, errors, types, interactivity, probability
@@ -2204,7 +2264,7 @@
         - agent behaviors that are extreme in most ways (extremely dignified, pointless, ineffective) are less likely (uncommon) so theyre a source of surprise/comedy
         - structures of safety/stability can be used as a filter to identify possible/probable interactions
 
-## example of deriving formula by applying definitions of components 
+[0022] other example implementations of problem/solution components include an example of deriving formula by applying definitions of components 
 
     - problem metadata
       - problem statement (formula to derive):
@@ -2267,7 +2327,7 @@
           - applied concept of 'probability' to 2d graph problem space: 
             - subset of 2d structures (points) in proportion to total set of 2d structures (points) = bounded area
 
-## example of calculating possible/adjacent/relevant functions with core functions applied to function structures like combinations (convolution of function structures)
+[0023] other example implementations of problem/solution components include an example of calculating possible/adjacent/relevant functions with core functions applied to function structures like combinations (convolution of function structures)
     - ai functions
       - categorize
       - generate text
@@ -2285,7 +2345,7 @@
           - falsify realistic data, categorize, generate text
             - falsify realistic image to fool a categorizer used to generate standardized text
 
-## example of calculating possible questions/problems that are solvable using metric filters
+[0024] other example implementations of problem/solution components include an example of calculating possible questions/problems that are solvable using metric filters
     - convolution of metric structures to determine what can be measured
       - example metrics
         - specificity of solution
@@ -2302,7 +2362,7 @@
             - apply filters of accuracy (to make sure input/output values are within a range that can be fit to the definition of accuracy in the problem space)
           - in other words, because we can measure specificity & accuracy, we can solve problems like 'find an approximation function'
 
-## example of calculating possible error types & finding relevant solution structures
+[0025] other example implementations of problem/solution components include an example of calculating possible error types & finding relevant solution structures
     - error type:
       - a 'structural alignment' error type can result from an unexpected emergent error
         - core example: stacking layers in a filter opening can eventually fill the opening, preventing the filter from working (like arteries lined with fat)
@@ -2315,7 +2375,7 @@
         - 'prevent functionality/structures/attributes that has no valid/relevant/useful intent' (like 'aggregation' or 'alignment' intents)
         - this solution structure is relevant because the error type 'structure has no valid intent', so a 'prevention' function should be applied to it
 
-## example of applying solution metric filters such as 'requirements' to find/derive/generate a target solution structure like a 'proof'
+[0026] other example implementations of problem/solution components include an example of applying solution metric filters such as 'requirements' to find/derive/generate a target solution structure like a 'proof'
       
       - interface query implementing a solution automation workflow having the 'connect' core interaction function 
         - connect a function 'specific example' or 'rule' input with 'general or absolute proof' output on the math interface by applying the logic interface
@@ -2360,9 +2420,9 @@
                   and apply the definition of the attribute connection rule to all subsets in the set for the standard case
               - if you have inputs like a set of components, and rules connecting a subset of components, and a proof requirement of determining if the same rule can connect the remaining component subsets, these proof templates are applicable
 
-## example of applying interface analysis to 'artificial intelligence' problem space
+[0027] an example of applying interface analysis to the 'artificial intelligence' problem space follows.
 
-### ai assumptions
+[0028] example ai assumptions resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
 
       - ai assumes that there is a causal node (indicating a source reason) for a pattern that is relevant to the problem ai is applied for
         - assumes 'if a group is associated with x, there must be a reason for that'
@@ -2404,7 +2464,7 @@
             - concepts like 'simplicity' and 'group' are not relevant if applied as 'any position or structure of simplicity' (including over-simplicity in the algorithm, or algorithm inputs like over-simplification error causing biased data) and 'any group' (including groups of race/gender)
             - the subsequent implicit assumption 'any reason is good enough for any usage intent if its above a level of predictive accuracy' of insights like 'patterns exist for a reason' is not relevant, bc 'any reason is good enough' doesnt align with the usage intent
 
-### example ai error structures
+[0029] example ai error structures resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
 
     - example of 'difference between injected definition vs. emerging definition' error type in an algorithm/data
       - example: 'automate poetry' problem space
@@ -2468,7 +2528,7 @@
           - ai doesn't align definitions of meaning across interfaces or interaction layers
             - whats meaningful in a particular example data point (relevance to another pattern in the data point) or on the structural interface (number of syllables/words in pattern) isnt automatically aligned with whats meaningful for the general intent of 'generating good poetry' for any input data points
           
-### ai tests
+[0030] example ai tests resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
 
       - questions/tasks that are typically framed as unable to be answered by anyone other than a human, like:
         - 'what is the meaning of life'
@@ -2517,7 +2577,7 @@
                   - concludes that:
                     - not only is it efficient to distribute intelligence, it is also ethical (does not destroy sources of potential)
 
-### comparison of AI and solution automation/nterface analysis
+[0031] example comparison of AI and solution automation/nterface analysis resulting from applying interface analysis to the 'artificial intelligence' problem space:
 
       - with any graph, multiple formats are always integrated, even when trying to depict one format (a variable network always has core structures & conceptual structures even when it's intent is to depict variable interactions)
         - even a conceptual network has conceptual (and other interface) structures depicted on it that overlap with other structures (like concept nodes & interaction functions)
@@ -2711,7 +2771,7 @@
           - features tend to have relative position patterns
           - a way of measuring relative position is by combining adjacent features
 
-### apply interfaces to the ai problem space
+[0032] example of applying interfaces to the ai problem space:
     
     - interface interface
       
@@ -2784,7 +2844,6 @@
           - a language map of operators used by a set of functions would have many overlaps & complicated paths between operators, resulting in unclear directions that functions move in or move inputs toward
           - an object network cannot clearly show all the possible object states (or the system contexts producing those object states)
           - the network is an absolute reference structure with static positions of terms/variables/objects, with a definition of difference or interaction applied to the objects to determine position, a position that may not be ideal for making a particular solution path or interaction sub-network clear
-
           - variable networks may illustrate attributes & direction of cause, but they dont illustrate:
             - why something is true
               - 'structure of an input' may cause a variable like the 'output of an interaction with another structure', but why is that true - bc:
@@ -2809,3 +2868,25 @@
               - 'alignment' may involve pairs of objects that make up most of the network - showing how 'usefulness' is defined in terms of 'alignment' (connecting 'usefulness' to those pairs of objects indicating alignment structures) will look differently on that network than on the language network of definition routes
               - so a query to find 'alignment' in a merged variable/object network (that includes all interface components) would have to select between the language network version of 'alignment' (definition routes between concepts) and the structures of 'alignment' found on the object/variable network (pairs of objects), which is less efficient and clear than designing an interface query to select these sub-queries beforehand (like 'standardize object network to concepts & match concepts with alignment definition route')
             - a merged network implies that all possible useful info has already been generated & added to the network, whereas interface queries involve operations that can find/derive new info
+
+[0033] One skilled in the art, after reviewing this disclosure, may recognize that modifications, additions, or omissions may be made to the solution automation module 140 without departing from the scope of the disclosure. For example, the designations of different elements in the manner described is meant to help explain concepts described herein and is not limiting. Further, the solution automation module 140 may include any number of other elements or may be implemented within other systems or contexts than those described.
+[0034] The foregoing disclosure is not intended to limit the present disclosure to the precise forms or particular fields of use disclosed. As such, it is contemplated that various alternate embodiments and/or modifications to the present disclosure, whether explicitly described or implied herein, are possible in light of the disclosure. Having thus described embodiments of the present disclosure, it may be recognized that changes may be made in form and detail without departing from the scope of the present disclosure. Thus, the present disclosure is limited only by the claims.
+[0035] In some embodiments, the different components, modules, engines, and services described herein may be implemented as objects or processes that execute on a computing system (e.g., as separate threads). While some of the systems and processes described herein are generally described as being implemented in software (stored on and/or executed by general purpose hardware), specific hardware implementations or a combination of software and specific hardware implementations are also possible and contemplated.
+[0036] Terms used herein and especially in the appended claims (e.g., bodies of the appended claims) are generally intended as "open" terms (e.g., the term "including" should be interpreted as "including, but not limited to," the term "having" should be interpreted as "having at least," the term "includes" should be interpreted as "includes, but is not limited to," etc.).
+[0037] Additionally, if a specific number of an introduced claim recitation is intended, such an intent will be explicitly recited in the claim, and in the absence of such recitation no such intent is present. For example, as an aid to understanding, the following appended claims may contain usage of the introductory phrases "at least one" and "one or more" to introduce claim recitations. However, the use of such phrases should not be construed to imply that the introduction of a claim recitation by the indefinite articles "a" or "an" limits any particular claim containing such introduced claim recitation to embodiments containing only one such recitation, even when the same claim includes the introductory phrases "one or more" or "at least one" and indefinite articles such as "a" or "an" (e.g., "a" and/or "an" should be interpreted to mean "at least one" or "one or more"); the same holds true for the use of definite articles used to introduce claim recitations.
+[0038] In addition, even if a specific number of an introduced claim recitation is explicitly recited, those skilled in the art will recognize that such recitation should be interpreted to mean at least the recited number (e.g., the bare recitation of "two recitations," without other modifiers, means at least two recitations, or two or more recitations). Furthermore, in those instances where a convention analogous to "at least one of A, B, and C, etc." or "one or more of A, B, and C, etc." is used, in general such a construction is intended to include A alone, B alone, C alone, A and B together, A and C together, B and C together, or A, B, and C together, etc. For example, the use of the term "and/or" is intended to be construed in this manner.
+[0039] Further, any disjunctive word or phrase presenting two or more alternative terms, whether in the description, claims, or drawings, should be understood to contemplate the possibilities of including one of the terms, either of the terms, or both terms. For example, the phrase "A or B" should be understood to include the possibilities of "A" or "B" or "A and B."
+[0040] However, the use of such phrases should not be construed to imply that the introduction of a claim recitation by the indefinite articles "a" or "an" limits any particular claim containing such introduced claim recitation to embodiments containing only one such recitation, even when the same claim includes the introductory phrases "one or more" or "at least one" and indefinite articles such as "a" or "an" (e.g., "a" and/or "an" should be interpreted to mean "at least one" or "one or more"); the same holds true for the use of definite articles used to introduce claim recitations.
+[0041] Additionally, the use of the terms "first," "second," "third," etc. are not necessarily used herein to connote a specific order. Generally, the terms "first," "second," "third," etc., are used to distinguish between different elements. Absence a showing of a specific that the terms "first," "second," "third," etc. connote a specific order, these terms should not be understood to connote a specific order.
+[0042] All examples and conditional language recited herein are intended for pedagogical objects to aid the reader in understanding the invention and the concepts contributed by the inventor to furthering the art, and are to be construed as being without limitation to such specifically recited examples and conditions. Although embodiments of the present disclosure have been described in detail, it should be understood that various changes, substitutions, and alterations could be made hereto without departing from the spirit and scope of the present disclosure.
+[0043] The previous description of the disclosed embodiments is provided to enable any person skilled in the art to make or use the present disclosure. Various modifications to these embodiments will be readily apparent to those skilled in the art, and the generic principles defined herein may be applied to other embodiments without departing from the spirit or scope of the disclosure. Thus, the present disclosure is not intended to be limited to the embodiments shown herein but is to be accorded the widest scope consistent with the principles and novel features disclosed herein.
+[0044] The foregoing disclosure provides illustration and description, but is not intended to be exhaustive or to limit the implementations to the precise form disclosed. Modifications and variations are possible in light of the above disclosure or may be acquired from practice of the implementations.
+[0045] As used herein, the term component in this disclaimer is intended to be broadly construed as hardware, firmware, or a combination of hardware and software.
+[0046] Certain user interfaces have been described herein and/or shown in the figures. A user interface may include a graphical user interface, a non-graphical user interface, a text-based user interface, or the like. A user interface may provide information for display. In some implementations, a user may interact with the information, such as by providing input via an input component of a device that provides the user interface for display. In some implementations, a user interface may be configurable by a device and/or a user (e.g., a user may change the size of the user interface, information provided via the user interface, a position of information provided via the user interface, etc.). Additionally, or alternatively, a user interface may be pre-configured to a standard configuration, a specific configuration based on a type of device on which the user interface is displayed, and/or a set of configurations based on capabilities and/or specifications associated with a device on which the user interface is displayed.
+[0047] It will be apparent that systems and/or methods, described herein, may be implemented in different forms of hardware, firmware, or a combination of hardware and software. The actual specialized control hardware or software code used to implement these systems and/or methods is not limiting of the implementations. Thus, the operation and behavior of the systems and/or methods were described herein without reference to specific software code--it being understood that software and hardware may be designed to implement the systems and/ or methods based on the description herein.
+[0048] Even though particular combinations of features are recited in the claims and/or disclosed in the specification, these combinations are not intended to limit the disclosure of possible implementations. In fact, many of these features may be combined in ways not specifically recited in the claims and/or disclosed in the specification. Although each dependent claim listed below may directly depend on only one claim, the disclosure of possible implementations includes each dependent claim in combination with every other claim in the claim set.
+
+
+
+
+
