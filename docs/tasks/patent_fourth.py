@@ -62,7 +62,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 			- interface query variable values optimal for implementing the workflow
 		- solution automation workflow implementation variables
 
-[0007] examples of solution automation workflow insight paths may include specific examples of prior solution automation workflow insight paths referenced in patent application 17301942 & PCT application PCT/US21/70425:
+[0007] Examples of solution automation workflow insight paths may include specific examples of prior solution automation workflow insight paths referenced in patent application 17301942 & PCT application PCT/US21/70425:
 		- solve problem by changing structures (like position) of interface objects, like functions & variables
 			- solve problem by changing structures (like position & alignment) & relevant attributes (like complexity) of interface components, like functions & variables, using change optimizations (like adjacence), to find if updated structures fit the target structure
 		- use exclusively solution with known biases & error types so output can be corrected with logic from the associated solution type
@@ -87,7 +87,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 				 		- 'type state network'
 				 		- 'network of contexts/conditions/assumptions'
 
-[0008] examples of solution automation workflow insight paths may include applying change interface to problem/solution components for problem-solving intents
+[0008] Examples of solution automation workflow insight paths may include applying change interface to problem/solution components for problem-solving intents
 
     - standard change-pattern interface insight path: 
       - identify patterns of distortions of existing solution components to select & apply distortions to existing solution components to handle problem with new components (like a problem with a new variable, complexity level, abstraction level, error type relationship, etc)
@@ -179,7 +179,7 @@ DETAILED DESCRIPTION OF THE INVENTION
               - whether a rule fits with the logic network
               - whether an object can be tested for a connection to another object using the rules of the converted logic network, or whether less definitive structures are needed to infer logic connections
 
-[0009] examples of solution automation workflow insight paths may include applying solution success cause structures as a solution or solution component filter
+[0009] Examples of solution automation workflow insight paths may include applying solution success cause structures as a solution or solution component filter
 
     - apply structures relevant to 'generative' function intents to the intent of 'generating solution automation workflows'
         - structures relevant to 'generative' intents:
@@ -284,7 +284,7 @@ DETAILED DESCRIPTION OF THE INVENTION
             - derive a reason why a solution worked
             - filter solution automation workflow insight paths
     
-[0010] examples of solution automation workflow insight paths may include applying useful solution filters to identify solutions
+[0010] Examples of solution automation workflow insight paths may include applying useful solution filters to identify solutions
 
     - generate solution template structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
     
@@ -742,7 +742,7 @@ DETAILED DESCRIPTION OF THE INVENTION
           - 'delegation has been applied as a solution to excess work requirements'
 
 
-[0011] examples of solution automation workflow insight paths may include implementing/applying core interaction functions between problem/solution components to fulfill problem-solving intents
+[0011] Examples of solution automation workflow insight paths may include implementing/applying core interaction functions between problem/solution components to fulfill problem-solving intents
 
     - apply interfaces & interface components useful to solve various interface query sub-problems (like 'determining probable cost/benefit of a sub-query before executing it') to design optimal interface queries to apply core interaction functions (like 'connect') to problems/solutions
         - example:
@@ -891,7 +891,7 @@ DETAILED DESCRIPTION OF THE INVENTION
         - some are more adjacent to the original problem format or the target solution format or both than others
 
 
-[0012] examples of solution automation workflow insight paths may include applying known useful structures for problem-solving intents
+[0012] Examples of solution automation workflow insight paths may include applying known useful structures for problem-solving intents
 
     - apply known useful structures like the following, to relate/optimize problem/solution components:
       - input-output connecting sequences/networks
@@ -1368,7 +1368,7 @@ DETAILED DESCRIPTION OF THE INVENTION
           - patterns are logically a relevant object to prediction functions, given the nature of the problem (predicting a variable with insufficient info, such as info building understanding about the actual variable connections)
     
 
-[0013] examples of solution automation workflow insight paths may include applying definitions to generate solution automation workflows
+[0013] Examples of solution automation workflow insight paths may include applying definitions to generate solution automation workflows
 
     - apply structures of general/specific solution automation workflow components based on definitions of the components
         - general components include: solution space, solution metrics, solution automation workflow variables, & core interaction functions
@@ -1619,9 +1619,9 @@ DETAILED DESCRIPTION OF THE INVENTION
       - are those structures possible in the system (do they exist in the system)
 
 
-[0014] examples of solution automation workflow insight paths may include applying error structures to fulfill relevant problme-solving intents like 'avoid error structures' as follows.
+[0014] Examples of solution automation workflow insight paths may include applying error structures to fulfill relevant problme-solving intents like 'avoid error structures' as follows.
 
-[0015] examples of error type identification functions may include:
+[0015] Examples of error type identification functions may include:
 
     - determine definition of errors (& metrics of costs as inputs to determine an error) for other system contexts/positions to identify the cost meaning (actual integrated cost, rather than cost given one position of an agent in the system) to identify the right error/solution metrics to solve a problem & avoid causing other problems (including avoiding causing problems for other users of the system)
 
@@ -1762,7 +1762,7 @@ DETAILED DESCRIPTION OF THE INVENTION
         - 'prevent errors'
         - 'identify error interactions, so the interaction of changes to one error & changes in related errors can be predicted'
 
-[0016] examples of error type interaction rules may include:
+[0016] Examples of error type interaction rules may include:
 
       - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules or solution structures)'
         - example: the human brain (and AI based on it) tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
@@ -1823,7 +1823,7 @@ DETAILED DESCRIPTION OF THE INVENTION
                       - 'in a complex system, there will be at least some efficiencies'
                         - 'some of these efficiencies may be usable to fulfill the agent intent'
 
-[0017] example error types may include:
+[0017] Example error types may include:
 
     - example of 'indistinguishable cause' error type
       - multiple causes of the same variable
@@ -2002,7 +2002,7 @@ DETAILED DESCRIPTION OF THE INVENTION
           - filtering optimal structures for an intent ('what is the best path from x to y for an intent z')
             - 'x as an input to function 1 is the best path to y for intent z'
 
-[0018] other example implementations of problem/solution components include an example of implementing an insight path
+[0018] Other example implementations of problem/solution components include an example of implementing an insight path
 
 	- example implementation of 'trial & error' insight path
 		- insight path definition: 'try every combination of components to see what combination fulfills a solution metric value'
@@ -2023,7 +2023,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 				- structural definition of 'every combination' in problem space, using problem space components
 					- each possible (block identity in available block set) of every (type/size/shape) in every possible (position) in every possible (count) combined in every possible (combination structure)
 
-[0019] other example implementations of problem/solution components include an example of problem-causing structures of turing machine (with 'lack of input validation' problem)
+[0019] Other example implementations of problem/solution components include an example of problem-causing structures of turing machine (with 'lack of input validation' problem)
 
 	- lack of potential alignment in interpretating vs. applying a component
 		- assumption: interpretation & application should be allowed to be different
@@ -2085,7 +2085,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 		- system optimization: 
 			- align structural limits with potential
 
-[0020] other example implementations of problem/solution components include an example of solution automation workflow 'applying a problem to solve a similar problem'
+[0020] Other example implementations of problem/solution components include an example of solution automation workflow 'applying a problem to solve a similar problem'
 
 	- 'logistical resource allocation' problem
 		- 'select a delivery method' problem
@@ -2174,7 +2174,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 			- variable structures (components that use variables, like indexes made from a column, code modifying/using a column, or functions calling a function or using the same input elsewhere)
 			- variable structure variables (how many conditions allowed in a condition statement, or levels of nesting allowed in a dictionary)
 
-[0021] other example implementations of problem/solution components include an example of applying structures from relevant systems (like 'comedy' or 'music') to a problem system
+[0021] Other example implementations of problem/solution components include an example of applying structures from relevant systems (like 'comedy' or 'music') to a problem system
 
 	- identify vertex variables of systems to efficiently map one system to another:
       - general vertex variables: topic, errors, types, interactivity, probability
@@ -2264,7 +2264,7 @@ DETAILED DESCRIPTION OF THE INVENTION
         - agent behaviors that are extreme in most ways (extremely dignified, pointless, ineffective) are less likely (uncommon) so theyre a source of surprise/comedy
         - structures of safety/stability can be used as a filter to identify possible/probable interactions
 
-[0022] other example implementations of problem/solution components include an example of deriving formula by applying definitions of components 
+[0022] Other example implementations of problem/solution components include an example of deriving formula by applying definitions of components 
 
     - problem metadata
       - problem statement (formula to derive):
@@ -2327,7 +2327,7 @@ DETAILED DESCRIPTION OF THE INVENTION
           - applied concept of 'probability' to 2d graph problem space: 
             - subset of 2d structures (points) in proportion to total set of 2d structures (points) = bounded area
 
-[0023] other example implementations of problem/solution components include an example of calculating possible/adjacent/relevant functions with core functions applied to function structures like combinations (convolution of function structures)
+[0023] Other example implementations of problem/solution components include an example of calculating possible/adjacent/relevant functions with core functions applied to function structures like combinations (convolution of function structures)
     - ai functions
       - categorize
       - generate text
@@ -2345,7 +2345,7 @@ DETAILED DESCRIPTION OF THE INVENTION
           - falsify realistic data, categorize, generate text
             - falsify realistic image to fool a categorizer used to generate standardized text
 
-[0024] other example implementations of problem/solution components include an example of calculating possible questions/problems that are solvable using metric filters
+[0024] Other example implementations of problem/solution components include an example of calculating possible questions/problems that are solvable using metric filters
     - convolution of metric structures to determine what can be measured
       - example metrics
         - specificity of solution
@@ -2362,7 +2362,7 @@ DETAILED DESCRIPTION OF THE INVENTION
             - apply filters of accuracy (to make sure input/output values are within a range that can be fit to the definition of accuracy in the problem space)
           - in other words, because we can measure specificity & accuracy, we can solve problems like 'find an approximation function'
 
-[0025] other example implementations of problem/solution components include an example of calculating possible error types & finding relevant solution structures
+[0025] Other example implementations of problem/solution components include an example of calculating possible error types & finding relevant solution structures
     - error type:
       - a 'structural alignment' error type can result from an unexpected emergent error
         - core example: stacking layers in a filter opening can eventually fill the opening, preventing the filter from working (like arteries lined with fat)
@@ -2375,7 +2375,7 @@ DETAILED DESCRIPTION OF THE INVENTION
         - 'prevent functionality/structures/attributes that has no valid/relevant/useful intent' (like 'aggregation' or 'alignment' intents)
         - this solution structure is relevant because the error type 'structure has no valid intent', so a 'prevention' function should be applied to it
 
-[0026] other example implementations of problem/solution components include an example of applying solution metric filters such as 'requirements' to find/derive/generate a target solution structure like a 'proof'
+[0026] Other example implementations of problem/solution components include an example of applying solution metric filters such as 'requirements' to find/derive/generate a target solution structure like a 'proof'
       
       - interface query implementing a solution automation workflow having the 'connect' core interaction function 
         - connect a function 'specific example' or 'rule' input with 'general or absolute proof' output on the math interface by applying the logic interface
@@ -2420,9 +2420,9 @@ DETAILED DESCRIPTION OF THE INVENTION
                   and apply the definition of the attribute connection rule to all subsets in the set for the standard case
               - if you have inputs like a set of components, and rules connecting a subset of components, and a proof requirement of determining if the same rule can connect the remaining component subsets, these proof templates are applicable
 
-[0027] an example of applying interface analysis to the 'artificial intelligence' problem space follows.
+[0027] An example of applying interface analysis to the 'artificial intelligence' problem space follows.
 
-[0028] example ai assumptions resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
+[0028] Example ai assumptions resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
 
       - ai assumes that there is a causal node (indicating a source reason) for a pattern that is relevant to the problem ai is applied for
         - assumes 'if a group is associated with x, there must be a reason for that'
@@ -2464,7 +2464,7 @@ DETAILED DESCRIPTION OF THE INVENTION
             - concepts like 'simplicity' and 'group' are not relevant if applied as 'any position or structure of simplicity' (including over-simplicity in the algorithm, or algorithm inputs like over-simplification error causing biased data) and 'any group' (including groups of race/gender)
             - the subsequent implicit assumption 'any reason is good enough for any usage intent if its above a level of predictive accuracy' of insights like 'patterns exist for a reason' is not relevant, bc 'any reason is good enough' doesnt align with the usage intent
 
-[0029] example ai error structures resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
+[0029] Example ai error structures resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
 
     - example of 'difference between injected definition vs. emerging definition' error type in an algorithm/data
       - example: 'automate poetry' problem space
@@ -2528,7 +2528,7 @@ DETAILED DESCRIPTION OF THE INVENTION
           - ai doesn't align definitions of meaning across interfaces or interaction layers
             - whats meaningful in a particular example data point (relevance to another pattern in the data point) or on the structural interface (number of syllables/words in pattern) isnt automatically aligned with whats meaningful for the general intent of 'generating good poetry' for any input data points
           
-[0030] example ai tests resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
+[0030] Example ai tests resulting from applying interface analysis to the 'artificial intelligence' problem space may include:
 
       - questions/tasks that are typically framed as unable to be answered by anyone other than a human, like:
         - 'what is the meaning of life'
@@ -2577,7 +2577,7 @@ DETAILED DESCRIPTION OF THE INVENTION
                   - concludes that:
                     - not only is it efficient to distribute intelligence, it is also ethical (does not destroy sources of potential)
 
-[0031] example comparison of AI and solution automation/nterface analysis resulting from applying interface analysis to the 'artificial intelligence' problem space:
+[0031] Example comparison of AI and solution automation/nterface analysis resulting from applying interface analysis to the 'artificial intelligence' problem space:
 
       - with any graph, multiple formats are always integrated, even when trying to depict one format (a variable network always has core structures & conceptual structures even when it's intent is to depict variable interactions)
         - even a conceptual network has conceptual (and other interface) structures depicted on it that overlap with other structures (like concept nodes & interaction functions)
@@ -2771,10 +2771,9 @@ DETAILED DESCRIPTION OF THE INVENTION
           - features tend to have relative position patterns
           - a way of measuring relative position is by combining adjacent features
 
-[0032] example of applying interfaces to the ai problem space:
+[0032] Example of applying interfaces to the ai problem space:
     
-    - interface interface
-      
+    - interface ('meaning' or 'relevance') interface
       - calculating perspectives (interfaces with intent, including interface components like origin-target differences & important concepts/priorities/filters) of the ml problem/solution space and applying them to generate a structure that applies multiple perspectives, like the:
         - possibility perspective
           - random/corrupted: the possibility that each or a subset of data points is incorrect/corrupted or random
@@ -2810,13 +2809,11 @@ DETAILED DESCRIPTION OF THE INVENTION
             - classifier that identifies multiple differences, within labeled attributes & category/type definitions, between type definitions, and difference patterns between types
 
     - structure interface
-
       - alignment
         - what alignments exist between ml network algorithms/structures and:
           - problem components like 'uncertainty reduction' intents (networks that have differentiation, missing info derivation, or de-randomizing side effects)
           - boundaries of interacting solution metric requirement structures
-    
-      - test if a network is the best structure for implementing ml
+      - apply tests to check if a network is the best structure for implementing ml
         - standard: an ANN network has: 
           - causation: direction linking input/output
           - changing parameters, starting from a standard origin: weight distortions
@@ -2831,7 +2828,6 @@ DETAILED DESCRIPTION OF THE INVENTION
           - integration structures can include a decision network to determine when components should be combined
         - filters:
           - filters or limit structures can be used to reduce what doesnt contribute to prediction accuracy or cant be applied by default (solution cant merge variables from alternate functions)
-        
         - the core structure of a network is 'connection', with related structures 'position', 'direction', and 'filters'
           - a problem & solution can be 'connected' using a structure (like a sequence or network) of formats
           - other structural insight paths can be used to derive solutions
@@ -2839,7 +2835,6 @@ DETAILED DESCRIPTION OF THE INVENTION
             - find solution by applying core structures available in problem space
             - find solution by applying system structures like ambiguity & incentive
           - these can also be applied to the ml problem space
-
       - examples of reasons why variable or object network (including all terms like a language map, or a subset of relevant terms to the problem) can be insufficient/inefficient, while it can be used as a format to solve problems in general just like vectors can
           - a language map of operators used by a set of functions would have many overlaps & complicated paths between operators, resulting in unclear directions that functions move in or move inputs toward
           - an object network cannot clearly show all the possible object states (or the system contexts producing those object states)
