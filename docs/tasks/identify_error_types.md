@@ -139,7 +139,6 @@
         - 'prevent errors'
         - 'identify error interactions, so the interaction of changes to one error & changes in related errors can be predicted'
 
-
 - error type interaction rules
       - error type interaction rule: 'error types can lead to other error types, but also to learning (new error types or error interaction rules or solution structures)'
         - example: the human brain (and AI based on it) tends to over-prioritize patterns (some patterns get stronger when repeated, like in making/breaking a habit)
@@ -199,7 +198,6 @@
                     - 'if its a problem, its probably complex'
                       - 'in a complex system, there will be at least some efficiencies'
                         - 'some of these efficiencies may be usable to fulfill the agent intent'
-
 
 - example error types
 
@@ -311,6 +309,14 @@
           - when simplicity/selfishness/cost-avoidance is useful in the position of a rule
           - when a cost is unnecessary or doesnt benefit anyone so theres no possible reason to take on the cost
 
+    - example of applying solution automation workflows to generate an error
+      - apply various solution automation workflows to 'generate pathogen dna error'
+        - 'trial & error' implementation example: 
+          - use dna code switcher to apply change to all possible positions & position combinations in pathogen dna
+        - 'common pattern' implementation example:
+          - inject known dna error types to see if any work on new pathogen
+        - 'standardize & equalize to apply existing components' implementation example:
+          - standardize pathogen dna to host dna language & apply host dna error types
 
     - examples of causative error types of sub-optimal solutions
 
