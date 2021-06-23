@@ -1,17 +1,37 @@
-## examples of solution automation workflow insight path variables
-      - success cause metadata to solution automation workflows
-      - counterexample to indicate where a solution automation workflow is contraindicated, bc of inputs like missing info or nonadjacent formats relative to other more adjacent formats
-	
-## generate other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
+## definitions
 
-	- the interfaces have common components/variables (like connections, time, structure, types) which can be used to create alternate interfaces
-		- example:
-		 	- combine info, time, & types to create a new interface, combination interface, or interface structure (type state network, network of contexts/conditions/assumptions)
+	- 'error' may be used interchangeably with 'problem', except that 'problem' is intended to refer specifically to program input, unless used to indicate an 'error'
 
-	- use the insight path combination that is likely to capture the most different/verifiable/incorrect info, which can be quickly tested for relevance or used to filter the solution space the most efficiently
+	- where the general structure (like 'problem-solving intents') is used, the specific structures (like 'applying solution filters') may also be referred to by default, and vice versa
 
+	- interaction structures
+		- connection structures
+		- relating structures
 
-## solution automation workflow insight path examples
+    - problem-solving intents include:
+      - core interaction functions
+      - applying solution filters
+      
+    - problem-solution components include:
+      - solution space
+      - problem space
+      - related problem network
+      - problem input & solution output formats
+      - solution metric filters
+
+## solution automation workflow insight path variables
+
+	- success cause metadata to solution automation workflows
+	- counterexamples and/or contraindication structures
+		- indicate where a solution automation workflow is contraindicated, bc of inputs like problem type or missing info or nonadjacent formats relative to other more adjacent formats
+	- example application to a problem
+	- example specific interface query implementing the solution automation workflow
+	- associated interface query variables
+		- standards to apply before applying the workflow
+		- interface query variable values optimal for implementing the workflow
+	- solution automation workflow implementation variables
+
+## examples of solution automation workflow insight paths
 
 	- specific examples of prior solution automation workflow insight paths referenced in patent application 17301942 & PCT application PCT/US21/70425:
 		- solve problem by changing structures (like position) of interface objects, like functions & variables
@@ -31,9 +51,19 @@
 		- identify vertex variables first & approximate
 			- identify vertex variables first & derive other variables with vertex variables to create approximation function
 		- identify problem types & corresponding solution aggregation/integration method for that set of types, then apply
+	 	- generate & apply other interfaces with interface components (connection, requirement, structure, abstraction, set, independence)
+			- interfaces have common components/variables (like interaction functions, bases, concepts, structure, types) which can be used to create alternate interfaces
+				- example:
+				 	- combine info, 'time' base, & types to create a new interface, combination interface, or interface structure
+				 		- 'type state network'
+				 		- 'network of contexts/conditions/assumptions'
+
+
+	- apply interface query that is likeliest to capture the most different/verifiable/incorrect info, which can be quickly tested for relevance or used to filter the solution space the most efficiently
 
 	- solve problem by removing problem structures (remove structures of conflict, error, bias, limits, over-prioritization) or adding solution structures (add structures of organization, relevance, efficiency, like aligning with intent & connecting to/building on a logical foundation) and integrating these structures with neutral structures like interaction layers and systems
 		- identify useful structures (like combinations) of useful cross-interface concepts (like difference, energy, vertex, random) to use as conceptual attribute interfaces to solve a problem on
+	
 	- identify useful structures for converting problem structures into solution structures, & apply to problem space to derive solution structures
 		- attribute structures
 			- opposite structures can produce solution structures bc problems may be completely different from solutions
@@ -50,11 +80,16 @@
 		- function structures
 				- standardizing structures can produce solution structures bc a problem may be a solution once standardized
 				- intent structures can produce solution structures bc a problem may be a solution if used in a different way (for a different intent)
+	
 	- standard change-pattern interface insight path: 
 		- identify patterns of distortions of existing solution components to select & apply distortions to existing solution components to handle problem with new components (like a problem with a new variable, complexity level, abstraction level, error type relationship, etc)
+	
 	- generate structures (like containers, shapes, sequences, networks, stacks, layers) of useful interface components like efficiencies, power/change sources, & organization structures, and see if they fit/interact with the problem & solution in a useful way, like achieving a problem-solving intent/sub-intent or related intents like problem-solution connecting intent
+	
 	- generate solution template structure based on solution requirements and apply to problem system to apply solving function like fill/reduce/generate (based on problem definition & solution requirements) the solution structure with problem system components
+	
 	- generate multiple solutions or solution template structures (like a function-generating function, or function-filtering limits) maximizing different alternative solution variable value sets & apply filters to reduce the set of solutions or solution templates
+	
 	- generate solution template structure based on solution requirements, identify variables of solution space, and map solution space variables to variables of solution structure
 		- example: 
 			- solution template structure based on solution requirements, like a set of boundaries/limits or filters ('a continuous function of x with integer coefficients & powers less than 3')
@@ -78,16 +113,21 @@
 						- components that can be combined or can interact in the problem space, between x & y
 					- solution requirement template structure variables
 						- solution metric requirement components
+	
 	- generate and/or apply solution structures (like structures of uncertainty reduction or organization) that generate the least entropy in the problem system & select between these structures as an initial reduced solution space
+	
 	- apply structures of system optimization & check if structures solve problem
 		- example:
 			- apply structure 'distribute generative capacity for resilience' to system that can fail at any point
+	
 	- align structures of organization (balance, connection, alignment) with certainties (constants) of a system and structures of disorganization (randomness) with uncertainties of a system to distribute flexibility where its needed
 		- example:
 			- apply a network structure (rather than a single value) to an uncertain variable like 'correct market regulation structure' until its clear (certain) which position each possible value has in what system contexts
+	
 	- identify error structures of existing solutions and apply as solution filters of solution space
 		- example:
 			- why do people want democracy? bc their needs arent met - 'needs met' is a solution filter of a solution space of all possible govt structures
+	
 	- change general problem-solving workflow variables to generate solution automation workflows
 		- variables: solution process origin/target, solution process step, problem-solution connection, solution method, solution method for problem metadata, define components, apply general problem-solving workflow, problem origin, solution target
 		- aim at different target (generate problem-solving structure from solution example, generate approximate/partial solution, identify error structures & problem-maximizing structures & apply as filters, etc)
@@ -109,12 +149,14 @@
 
 	- apply opposite structures (like similarities) of error structures (like misalignments) to problem system to find solution
 		- example: misalignment between actual/expected values can be resolved by methods to similarize, standardize, or otherwise connect the values
+	
 	- organize problem
 		- sort problems (or problem components) in to a sequence that would solve the problems
 			- general solution automation workflow: sort problems (or problem components) in to a sequence that would solve the problems (like input-output connection sequence of each problem), where the sequence is the solution, so the problems (or problem components) in the sequence are resolved once in the correct sequence
 				- core function version: find sequence structure in which problems (or problem components) are equal to a solution
 
-## examples of implementing an insight path
+
+## example of implementing an insight path
 
 	- example implementation of 'trial & error' insight path
 		- insight path definition: 'try every combination of components to see what combination fulfills a solution metric value'
@@ -289,14 +331,13 @@
 			- variable structure variables (how many conditions allowed in a condition statement, or levels of nesting allowed in a dictionary)
 
 ## example of applying structures from relevant system (like comedy) to a problem space (like 'correcting behavior' or 'fixing social norm violation')
+
       - if its a joke that means its by definitio at least partly untrue so is less likely to be a structure of truth & more likely to a structure of a combination of truth/falsehoods
       - surprising
         - different
         - opposite
         - extreme/exaggerated
-        - nonsense
-          - not incentivized
-          - not normal
+        - nonsense (not incentivized/normal)
         - unusual/weird/unlikely
       - safe
         - reduce common experience/problem/fear or other negative emotion until ridiculous/unimportant/powerless
@@ -324,9 +365,7 @@
           - timely
           - efficient
           - similar
-          - true
-            - obvious
-            - sincere
+          - true (obvious, sincere)
       - important
         - emotional
         - petty
@@ -389,7 +428,7 @@
         - fitting with existing systems without obvious contradictions
           - 'using existing phrases in a new way with minimal distortions' is surprising bc its unlikely to find a new distortion of an existing component that someone hasnt tried, so the simpler the better for this type
 
-      - these can be used to filter for other non-comedy problems
+      - these structures can be used to filter for other non-comedy problems
         - surprise as a learning/prediction tool
           - structures of surprise & truth are useful insight paths to generate solutions
           - structures of surprise & falsehood are useful solution filters
@@ -509,3 +548,48 @@
       - apply solution structure (like a 'structure filter') that has relevant structures to the error type, such as the insight:
         - 'prevent functionality/structures/attributes that has no valid/relevant/useful intent' (like 'aggregation' or 'alignment' intents)
         - this solution structure is relevant because the error type 'structure has no valid intent', so a 'prevention' function should be applied to it
+
+## example of applying solution metric filters such as 'requirements' to find/derive/generate a target solution structure like a 'proof'
+      
+      - interface query implementing a solution automation workflow having the 'connect' core interaction function 
+        - connect a function 'specific example' or 'rule' input with 'general or absolute proof' output on the math interface by applying the logic interface
+      
+      - apply 'proof' structure requirements:
+        - describes all possible variation in the output in terms of components capable of producing that variation
+        - complete set of test cases or representative example test that can scale absolutely
+        - connects components using only logic rules & definitions
+          - example: if we have connections 'a is a subset of b', and 'b is a subset of c', then we can derive new connections by applying the definitions of 'subset', 'equal', and 'container' to the components
+            - 'a is a subset of c'
+            - 'c is a container of b & a'
+            - 'b is a container of a'
+            - 'b is not equal to a is not equal to c'
+          - definitions:
+            - container: if a is a subset of b, b contains a
+            - subset: if a contains only elements that also appear in b, but b has more elements that dont appear in a, a is a subset of b
+            - equal: if a and b have the same elements and no different elements, a is equal to b
+          - we've applied the logic of the 'subset-container' connection in the definitions to the subsets a & b, to identify their connected container components (b & c, and c)
+          - proofs also have this restriction, in that they can apply definitions/rules to identify connections between components, if the rules specify certain (having certainty attributes like absolute, constant, required, or definitive) connections like equivalence
+          - proofs are a combination of rules with certain connections
+          - 'proof templates' (structures) can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets)
+          - you can match input-outputs (like question-proof) using proof templates (connection sequences between question & proof), if there's a proof template that matches the input question & output proof, but you may not know the proof in advance (like if doing combinatorial analysis on functions to see if anything can be proven about the functions)
+            - example question: prove that 'a is a subset of c', given rules 'a is a subset of b' and 'b is a subset of c'
+            - example proof: 
+              - prove: 
+                - 'a is a subset of c' = 'a has only elements that appear in c, but c has more'
+              - apply definition of 'subset'
+                - 'a is a subset of b' = 'a has only elements that appear in b, but b has more'
+                - 'b is a subset of c' = 'b has only elements that appear in c, but c has more'
+                - 'a is a subset of c' = 'a has only elements that appear in c, but c has more' (arrived at proof using 'subset' definition)
+            - proof template:
+              - specific template:
+                - to prove that an attribute is transitive for a standard case (three input components),
+                  given example connection rules regarding the component with the attribute (subset) & the component giving it that attribute (set), 
+                  and given a definition that makes testing for definition fit as simple as a set of basic calculations ('does a only have elements that appear in b', and 'does b have more elements')
+                  where the connection rules connect two different component pairs in the set of three input components,
+                  and the proof requirement is to prove that the remaining pair is also connected in the same way,
+                  apply the definition of the connection rule to the remaining pair to test for definition fit
+              - general template:
+                - to prove that an attribute applies to all subsets in a set, 
+                  find a standard case that is extensible to other formats/inputs,
+                  and apply the definition of the attribute connection rule to all subsets in the set for the standard case
+              - if you have inputs like a set of components, and rules connecting a subset of components, and a proof requirement of determining if the same rule can connect the remaining component subsets, these proof templates are applicable

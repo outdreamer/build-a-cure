@@ -5,20 +5,8 @@
       - also an example of a solution space (the whole function is the solution space of possible minima/maxima) and a filter applied to it (constraint)
 
     - make a function network of math domains (inputs/outputs of geometry, algebra, calculus that align)
-    - finish list of logical rules
-      - similarities
-        - equivalents in connections: components of connected rules are equivalent by some metric (interchangeable, equivalent identities, sufficiently similar where differences are irrelevant, etc)
-        - definition alignment: applies & aligns with definitions
-        - equivalents in meaning: the meaning of a rule in one context (such as the interaction level) is equivalent to the meaning of the rule when applied to another context (it fits into the system the same way so the meaning is the same)
-      - includes where possible, except as relevant/required
-        - components & structures of certainty like facts where possible, and where not possible, certainty-deriving methods like math/stats & definitions
-      - excludes where possible, except as relevant/required
-        - uncertainty structures like ambiguities
-      - example:
-        - patterns are logically a relevant object to prediction functions, given the nature of the problem (predicting a variable with insufficient info, such as info building understanding about the actual variable connections)
-  
+    
     - resolve definitions of components so you can finish organizing useful structures like combinations of concepts such as "format sequence", "solution automation workflow", "insight path", "reverse-engineer solution from problem requirements or opposite structures", "connect problem & solution"
-
 
     - calculating a flow field numerically can be optimized by calculating:
       - possible/probable/fitting components of functions 
@@ -45,7 +33,6 @@
         - function components that can interact by coordinating, vs function components that invalidate each other & can't coexist absolutely or be adjacent locally/directly
       - function & function component causal structures
         - apply patterns of causation between functions (function of structure A causes function of structure B) to identify the level of cause a function is based at
-
 
     - example of how to generate monopoly case arguments
       - change variable 'location of power':
@@ -100,39 +87,6 @@
       - fractals & infinite sequences as a way of calculating area under a continuous line (increasing small subsets of structures with area calculatable with multiplication of x & y)
       - what continuous line segments would have an area equal to a circle of relevant proportions?
 
-  - add to useful concepts
-
-    - bitcoin and ai both benefit from integrating the concept of time into existing inventions (tx history, weight updates)
-    - what other concepts could be equally powerful if injected into structures of existing inventions
-    - why is time (or the structure of sequence) a powerful concept in those problem systems
-      - historical info integrated into current & imminent info was a pre-existing gap in relevant info structures of the problem system
-      - the usefulness of historical info wasnt identified or wasnt identified as integratable into existing inventions
-      - the related concept of:
-        - 'connection' could have served as a replacement, indicating relevance of previous info to new or derived info
-        - 'position' could have also replaced 'time' or 'sequence', given the relevance of 'position' as a predictor of financial transactions and connecting one info state to another, given data that can access the destination from that origin
-      - its also inherently relevant to know how space-times (states) connect (like in a sequence structure) in order to predict adjacent imminent space-times (or states) as imminent members of the sequence
-
-  - exploit filter structure examples:
-    - anomaly
-      - non-standard data flows
-        - does data normally follow this pattern
-    - requirements
-      - is there a required basis for communicating info
-    - intersection:
-      - data * time/sequence
-        - state/content of a data flow intersecting with a possible access chain
-    - code x time/sequence
-      - state of a build to check intent multiple times during build phase of code
-
-  - bio system general strategies
-    - calculate & inject vulnerability in pathogen dna language
-      - trial & error implementation example: 
-        - use dna code switcher to apply change to all positions in pathogen dna
-      - common pattern implementation example:
-        - inject known dna error types to see if any work on new pathogen
-    - standard pathogen dna to host dna language
-
-
     - how to identify the killer counterpoint
       - point: 'election fraud claims'
         - counterpoint: you dont think the other party has members?
@@ -150,83 +104,33 @@
       - identify 'incentives', 'side effects of party/member/vote existence & size' as other relevant concepts to generate followup questions
 
 
-
-
 - examples
 
     - add to definitions
       - reason as source cause node ('this happened because of this causal factor, which can be an intent')
       - intent as target cause node ('this happened because this intent was the goal used as a cause guiding direction of decisions')
 
+    - proof/determination structures
+      - what makes something possible to determine/calculate
+        - a solution structure where the solution metric is clearly defined (structural or having other structures of certainty like consistency or inevitability or requirement)
+          - checking a path to see if it includes a node twice is clearly defined (it uses the structure of 'node visit counts' in the 'path' solution structure)
+      - what makes something difficult to prove
+        - where there are ambiguities (lack of certainty/structure/definition) between the input parameters & the output function value
+          - ambiguities such as where multiple inputs produce the same output, like how different x-values can produce the same y value on a wave function
+      - useful proof structures
+        - apply possible components to create an absolute or scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure across interfaces or dimension sets) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
+
     - add to causation variables
       - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
     - give examples of identifying vertex variables
       - general vertex variables: topic, origin/destination, reason/cause/point/intent, errors, variables, types
-      - comedy vertex variables: sincerity, stupidity, stakes, tension/expectations
-      - music vertex variables: tone, structural tension-resolution pattern variation, lyrics
-      - optimization vertex variables: solution metric patterns (what other solutions optimize for)
+      - comedy vertex variables: sincerity, stupidity, stakes, tension-resolution/expectation-subverting pattern variation
+      - music vertex variables: tone, tension-resolution/expectation-subverting pattern variation, lyrics
+      - optimization metric vertex variables: solution metric patterns (what other solutions optimize for, to determine optimization metrics to apply)
 
     - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
-
-  - proof/complexity/computation structures
-
-    - what makes something easy to calculate
-      - a solution structure where the solution metric is clearly defined (structural or having other structures of certainty like consistency or inevitability or requirement)
-        - checking a path to see if it includes a node twice is clearly defined (it uses the structure of 'node visit counts' in the 'path' solution structure)
-
-    - what makes something difficult to prove
-      - where there are ambiguities (lack of certainty/structure/definition) between the input parameters & the output function value
-        - ambiguities such as where multiple inputs produce the same output, like how different x-values can produce the same y value on a wave function
-
-    - apply possible components to create an absolute or scalable definition include components framed in terms of interactions with other components that can be used with a consistent measurement (like a stable structure) & can also scale (boundaries), rather than framing them in terms that can have different meanings at different parameters (closed, hollow)
-
-    - requirements of a proof (connect a function on the math interface with the logic interface)
-      - describes all possible variation in the output in terms of components capable of producing that variation
-      - complete set of test cases or representative example test
-      - connects components using only logic rules & definitions
-        - example: if we have connections 'a is a subset of b', and 'b is a subset of c', then we can derive new connections by applying the definitions of 'subset', 'equal', and 'container' to the components
-          - 'a is a subset of c'
-          - 'c is a container of b & a'
-          - 'b is a container of a'
-          - 'b is not equal to a is not equal to c'
-        - definitions:
-          - container: if a is a subset of b, b contains a
-          - subset: if a contains only elements that also appear in b, but b has more elements that dont appear in a, a is a subset of b
-          - equal: if a and b have the same elements and no different elements, a is equal to b
-        - we've applied the logic of the 'subset-container' connection in the definitions to the subsets a & b, to identify their connected container components (b & c, and c)
-        - proofs also have this restriction, in that they can apply definitions/rules to identify connections between components, if the rules specify certain (having certainty attributes like absolute, constant, required, or definitive) connections like equivalence
-        - proofs are a combination of rules with certain connections
-        - 'proof templates' (structures) can be constructed using connectible/interactive rule sets (applying structures like combinations to core components of a proof like rule sets)
-        - you can match input-outputs (like question-proof) using proof templates (connection sequences between question & proof), if there's a proof template that matches the input question & output proof, but you may not know the proof in advance (like if doing combinatorial analysis on functions to see if anything can be proven about the functions)
-          - example question: prove that 'a is a subset of c', given rules 'a is a subset of b' and 'b is a subset of c'
-          - example proof: 
-            - prove: 
-              - 'a is a subset of c' = 'a has only elements that appear in c, but c has more'
-            - apply definition of 'subset'
-              - 'a is a subset of b' = 'a has only elements that appear in b, but b has more'
-              - 'b is a subset of c' = 'b has only elements that appear in c, but c has more'
-              - 'a is a subset of c' = 'a has only elements that appear in c, but c has more' (arrived at proof using 'subset' definition)
-          - proof template:
-            - specific template:
-              - to prove that an attribute is transitive for a standard case (three input components),
-                given example connection rules regarding the component with the attribute (subset) & the component giving it that attribute (set), 
-                and given a definition that makes testing for definition fit as simple as a set of basic calculations ('does a only have elements that appear in b', and 'does b have more elements')
-                where the connection rules connect two different component pairs in the set of three input components,
-                and the proof requirement is to prove that the remaining pair is also connected in the same way,
-                apply the definition of the connection rule to the remaining pair to test for definition fit
-            - general template:
-              - to prove that an attribute applies to all subsets in a set, 
-                find a standard case that is extensible to other formats/inputs,
-                and apply the definition of the attribute connection rule to all subsets in the set for the standard case
-            - if you have inputs like a set of components, and rules connecting a subset of components, and a proof requirement of determining if the same rule can connect the remaining component subsets, these proof templates are applicable
-
-    - 'false association' error type
-      - just bc one item has both associative & distributive attributes doesn't mean another item with an associative attribute also is distributive
-      - it would be incorrect to associate these attributes in the absence of meaning (relevance & context) connecting them with structure/certainty
-        - multiplication can be done in any order bc its the same operation (find the area of the same shape)
-        - division cant be done in any order bc the operation is 'apply a standard' where the standard is the base, so when the base changes, the operation changes
 
     - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
 
