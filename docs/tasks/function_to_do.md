@@ -8,8 +8,8 @@
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
     - give examples of identifying vertex variables
-      - general vertex variables: topic, errors, variables, types
-      - comedy vertex variables: sincerity, stupidity, stakes
+      - general vertex variables: topic, origin/destination, reason/cause/point/intent, errors, variables, types
+      - comedy vertex variables: sincerity, stupidity, stakes, tension/expectations
       - music vertex variables: tone, structural tension-resolution pattern variation, lyrics
       - optimization vertex variables: solution metric patterns (what other solutions optimize for)
 
@@ -170,15 +170,21 @@
           - alternate structures
           - structures of difference
 
-      - identify relevant different structures for solution automation workflow components & iterate through combinations of them, filtering by relevance metrics (like reusability) 
-        - apply alternate/proxy/difference structures of definitions of components & iterate through combinations of them
-          - examples:
-            - apply alternate definition routes of components
-              - rather than 'input' structures, apply 'power' structures to solution automation workflows
-            - apply abstract/specific structures of components
-              - rather than 'connect' structures, apply 'sequence' structures
-              - rather than 'cause' structures, apply 'inevitability' structures
-        - then filter combinations of different structures by which can apply a core interaction function like connect between problem/solution inputs/outputs to optimize for a solution metric filter
+      - apply structures of general/specific solution automation workflow components based on definitions of the components
+        - general components include: solution space, solution metrics, solution automation workflow variables, & core interaction functions
+          - example:
+            - apply a 'interaction space' or 'combination space' rather than a 'solution space'
+
+        - identify relevant different structures for specific solution automation workflow components & iterate through combinations of them, filtering by relevance metrics (like reusability) 
+          - apply alternate/proxy/difference structures of definitions of components & iterate through combinations of them
+            - examples:
+              - apply alternate definition routes of components
+                - rather than 'input' structures, apply 'power' structures to solution automation workflows
+                - rather than variable structures, apply 'difference' structures
+              - apply abstract/specific structures of components
+                - rather than 'connect' structures, apply 'sequence' structures
+                - rather than 'cause' structures, apply 'inevitability' structures
+          - then filter combinations of different structures by which can apply a core interaction function like connect between problem/solution inputs/outputs to optimize for a solution metric filter
 
       - apply optimization or core interaction function structures/intents (like 'reduce') to optimize & generate solution automation workflows for solving the problem of finding interaction structures (like 'differences') between solution structures (like optimal structures) & default/input structures (like the whole solution space such as 'all possible combinations')
         - apply 'reduce differences' intent to fulfill intent of 'finding optimal structures efficiently':
