@@ -9,13 +9,29 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+
+  - identifying useful cross-interface interactions
+  
+    - examples:
+      - 'merge difference types' function
+      - 'common relevant efficiencies' structures
+      - 'find simplifying/generative/change-generating function' function
+
+    - how to identify useful cross-interface interactions:
+      - structures of useful components from one interface applied to another interface
+        - example: useful structure interface components (combinations) of useful system components (incentives, ambiguities) applied to other interfaces
+      - useful interaction structures of relevant problem-solving structures (like core interface structures or problem interface structures like errors)
+        - 'merge' is a useful interaction structure of error structures like 'difference types'
+        - 'common relevant efficiencies' combines multiple useful interface structures/attributes to create a useful structure for 'fulfilling an intent', which is relevant to 'problem-solving'
+
   - document useful structures & generative functions of cross-interface interactions (like structure-concept interactions)
     
     - example:
       
-      - structures that function 'resolve varying difference types'
+      - structures that generate function to 'merge difference types'
       
       - structures with conceptual attribute 'relevance':
+
         - a 'database index' structure gathers & searches just the information useful for 'find' intents based on structures of standards like 'what is commonly searched for' and 'what varies across data' and 'what combination of fields uniquely identifies/differentiates data', so it can be used to fulfill intents like:
           - intent: 'identify unique records'
             - fulfills 'unique combination' standard
@@ -24,7 +40,14 @@
           - intent: 'differentiate records'
             - fulfills 'what varies across data' standard
         
-        - applying the above structures of standards as solution filters can find the 'database index' structure in the 'search database' problem space:
+        - applying the above structures of standards as solution filters can find the 'database index' structure in the 'search database' problem space
+
+        - the solution creates an efficiency for the 3 'search database' intents, while creating inefficiencies for the 'minimize storage' & 'generalize solution' intent
+          - these intents could be fulfilled with modifications to the 'database index' solution:
+            - 'minimize storage': store static values in a nested index
+            - 'generalize solution': apply 'database index' solution dynamically or for other queries or query types
+
+        - interface query to generate implementation of this cross-interface interaction
           
           - identify variables
             - core variables
