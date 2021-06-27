@@ -1,3 +1,28 @@
+    - calculating a flow field numerically can be optimized by calculating:
+      - possible/probable/fitting components of functions 
+        - connections between prior calculations, to find connection structures that re-occur, as the output of a function
+          - find core connection structures like waves, peaks, inflection points
+        - connections between connection structures, to find: 
+          - patterns in connections between:
+              - identified patterns of difference, like degree of difference observed between adjacent points
+              - structures of approximation & accuracy (what kind of structure could add prediction accuracy, in what contexts)
+              - base functions & base function components & useful/stable functions
+              - similarities in structures of difference, between function structures like variables & error structures like distortions
+            - variables of & distortions to those variables common to connection structures & connections of those structures
+          - connection components that coordinate for some intent
+            - intents like calculation in an input/output sequence, or fitting into a structure that is efficiently compressed or retrieved
+              - incentivized connections that are optimal for some calculation intent
+        - generate & test predictions of future calculations, to find local/adjacent prediction functions
+          - generate set of prediction functions to test predictions
+            - apply operations & structures known to produce common connection structures to calculations in reverse to derive possible function components
+          - generate set of prediction function filters (extreme prior connection structures) to select prediction functions
+          - generate set of opposite structures (like non-adjacent points) to test predictions
+      - filters of functions (reduce solution space of possible function & function components)
+        - filtering functions by these connection structures & patterns, filtering out functions that wouldn't adjacently produce these connection structures
+      - interaction structures of functions & function components
+        - function components that can interact by coordinating, vs function components that invalidate each other & can't coexist absolutely or be adjacent locally/directly
+      - function & function component causal structures
+        - apply patterns of causation between functions (function of structure A causes function of structure B) to identify the level of cause a function is based at
 
 
     - specific problems

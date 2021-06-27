@@ -7,23 +7,57 @@ Additional Solution Automation & Interface Analysis Implementations
 
 FIELD 
 
-[0001] Embodiments of the disclosure relate to implementation methods of problem-solving automation & interface analysis.
+[0001] Embodiments of the disclosure relate to additional example implementation methods of problem-solving automation & interface analysis.
 
 BACKGROUND OF THE INVENTION 
 
-[0002] Interface components like problem-solving automation workflow insight paths can be found/generated/derived/applied & implemented with various methods, such as by applying structures of problem/solution components/variables/structures, as the examples included specify.
-[0003] These example implementations specify logic that can be used to implement the components referenced in US patent applications 16887411 & 17016403, and extends the example implementations referenced in US patent application 17301942. Examples given in 17301942 & this patent application extend the implementation example sets given in 16887411 & 17016403.
+[0002] Interface components like problem-solving automation workflow insight paths or generative functions can be found/generated/derived/applied with various methods, such as by applying structures of problem/solution components/variables/structures, as the examples included specify.
+[0003] These example implementations specify logic that can be used to implement the components referenced in US patent applications 16887411 & 17016403, and extends the example implementations referenced in US patent application 17301942 & implementation example sets given in 16887411 & 17016403.
 
 BRIEF SUMMARY OF THE INVENTION 
 
 [0004] One or more embodiments of the present disclosure may include a method that involves:
-- definition routes
-- problem/solution structures
-- solution filter structures (like metrics, tests, conditions) to filter solution sets, or specify/adapt/ refine/test solutions
-- insight paths (including solution automation workflows, which are insight paths that connect problem/solution formats)
-- functions to generate solution automation workflow insight paths - interface query-building logic (to generate interface queries)
-- interface queries (to complete a task by connecting the origin input & target output, which may be a problem & solution format)
-- interface operations (combine interfaces, apply the causal interface to a structure to solve a problem of 'finding cause', apply an interface to an interface), including interface-specific analysis logic (like connecting functions of components of that interface, such as the info interface function to 'apply insight paths to solve a problem'). The object and advantages of the embodiments will be realized and achieved at least by the elements, features, and combinations particularly pointed out in the claims. It is to be understood that both the foregoing general description and the following detailed description are merely examples and explanatory and are not restrictive.
+	- problem/solution components
+		- solution/problem spaces
+		- related problem network
+		- solution metrics
+		- problem input & solution output formats
+	    - general problem-solving intents include:
+	    	- apply core interaction functions
+	    	- applying solution filters
+	    	- avoid error structures
+	- components to fulfill problem-solving intents
+		- problem-solution core interaction functions
+		- interface query-building logic (to generate interface queries)
+		- interface queries (to complete a task by connecting the origin input & target output, which may be a problem & solution format)
+		- interface operations (combine interfaces, apply the causal interface to a structure to solve a problem of 'finding cause', apply an interface to an interface), including interface-specific analysis logic (like connecting functions of components of that interface, such as the info interface function to 'apply insight paths to solve a problem')
+		- insight paths
+			- solution automation workflows (insight paths that relate problem/solution formats)
+		- functions to generate relevant structures for problem-solving intents, like 'solution/error' structures
+		- functions to apply core intents (generate/find/derive/apply) to solution automation workflow insight paths, which vary on metadata such as:
+			- success cause metadata to solution automation workflows
+			- counterexamples and/or contraindication structures
+				- indicate where a solution automation workflow is contraindicated, bc of inputs like problem type or missing info or nonadjacent formats relative to other more adjacent formats
+			- example application to a problem
+			- example specific interface query implementing the solution automation workflow
+			- associated interface query variables
+				- standards to apply before applying the workflow
+				- interface query variable values optimal for implementing the workflow
+			- solution automation workflow implementation & optimization variables
+		- known useful components that can be applied as optional default solution structures to apply core intents (apply/generate/find/derive/organize) to problem/solution components
+			- implementation structures (of a more abstract/less certain structure)
+			- solution filters (like metrics, tests, conditions) to filter solution sets, or specify/adapt/refine/test solutions
+			- solution/error structures to apply as components to build/filter structures
+				- specific solution structures useful for problem-solving intents (including solution automation workflow generation intents, core function intents, and interface query intents)
+				    - 'identification' structures (definitions/types/filters)
+				    - 'relevance' structures (alternates/proxies/substitutes/approximations/improvements/optimizations/adjacents/power)
+			    - solution success causes
+			    - alternate/interim inputs/outputs
+			- vertex (generative/core/optimal/interactive/alternate/adjacent) functions
+			- adjacent core interaction functions
+			- interaction level structures
+			- mapping functions between components
+			  	- input-output connecting sequences/networks
 
 BRIEF DESCRIPTION OF THE DRAWINGS
 
@@ -40,7 +74,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 	- 'interaction' structures may refer to or be referenced by:
 		- 'connection' structures
 		- 'relating' structures
-    - problem-solving intents include:
+    - general problem-solving intents include:
     	- apply core interaction functions
     	- applying solution filters
     	- avoid error structures
