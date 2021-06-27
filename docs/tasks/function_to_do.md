@@ -9,17 +9,30 @@
 
     - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+  - document interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
+    - to answer questions like:
+      - with what 'frequency' can a 'random combination' of 'alignments' create an 'efficiency'?
+    - having variables:
+      - certainty (probability, frequency, average)
+      - requirements
+      - intents
+      - applicable connecting logic rules
+      - attributes (random, adjacent, difference-maximizing, similar, opposite)
+      - structures (combination, subset)
+      - useful components (alignments, efficiency)
 
   - identifying useful cross-interface interactions
-  
+
     - examples:
       - 'merge difference types' function
       - 'common relevant efficiencies' structures
       - 'find simplifying/generative/change-generating function' function
 
     - how to identify useful cross-interface interactions:
+
       - structures of useful components from one interface applied to another interface
         - example: useful structure interface components (combinations) of useful system components (incentives, ambiguities) applied to other interfaces
+
       - useful interaction structures of relevant problem-solving structures (like core interface structures or problem interface structures like errors)
         - 'merge' is a useful interaction structure of error structures like 'difference types'
         - 'common relevant efficiencies' combines multiple useful interface structures/attributes to create a useful structure for 'fulfilling an intent', which is relevant to 'problem-solving'
