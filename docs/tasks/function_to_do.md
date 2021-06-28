@@ -9,12 +9,24 @@
 
     - if trolling you was all it took to inspire you to do better (and if youre actually better), you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
+  - translate interface queries & solution automation workflows to other interfaces
+    - apply other interfaces like 'structure' interface to specify a query/workflow and interfaces like 'concept' to abstract a query/workflow
+
+  - finish list of useful interface components, including structures of useful interface components like specific useful concepts
+    - example: 'apply concepts to system to identify conceptual structures in system'
+      - system
+        - system structures of uniqueness: exclusivities
+        - system structures of power: trigger, input
+
+  - finish interface query design rules
+    - 'if solution requirements arent given, derive/predict them or apply default requirements from related/similar problems'
+
   - example of different structures of an interface component on different interfaces
-      - 'alternative'
+      - alternative
         - 'structural alternative': where one or more structures are options where one or the other or both if not mutually exclusive can be chosen (applied at a given time), with varying relevance/optimization, for a particular intent (like 'navigate in a direction', having structural alternatives in the form of a set of paths)
         - 'conceptual alternative': where one or more concepts can be applied at a given time with varying relevance/optimization for a particular intent (concepts with an intent in common)
         - 'structural conceptual alternative': alternative conceptual structures, like varying structures of power or balance
-      - 'alignment'
+      - alignment
         - 'structural alignment': based in the structural interface, where a 'structural alignment' takes the form of an equivalence/similarity in components (attributes/functions/objects/structures), such as:
           - interchangeable attributes/functions/objects
           - a fitting/matching structure
@@ -24,7 +36,7 @@
         - example of injecting the structural interface to components on other interfaces:
           - a 'structural conceptual alignment' is the 'alignment' in structures of concepts, like 'similar conceptual connections' or 'equivalent concepts'
 
-  - document useful sub-structures of interface queries (interface components, interaction rules, cross-interface interactions, generative functions)
+  - document useful component/sub-structures of interface queries (interface components, interaction rules, cross-interface interactions, generative functions)
 
   - interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
     - to answer questions like:
