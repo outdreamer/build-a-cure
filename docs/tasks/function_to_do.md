@@ -9,11 +9,19 @@
 
     - if trolling you was all it took to inspire you to do better (and if youre actually better), you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
-  - translate interface queries & solution automation workflows to other interfaces
+  - why do structures overlap across interfaces:
+    - different interaction types:
+      - one interface may define the structure, and another may apply it
+    - interfaces may have different definitions of the structure while still referencing the same underlying structure
+    - interfaces have other interfaces injected in them by default
+      - example: every interface has the core interface injected, bc it has core components
+    - there's usually one interface that is the base interface for any given structure
+
+  - standardize interface queries & solution automation workflows to other interfaces
     - apply other interfaces like 'structure' interface to specify a query/workflow and interfaces like 'concept' to abstract a query/workflow
 
-  - finish list of useful interface components, including structures of useful interface components like specific useful concepts
-    - example: 'apply concepts to system to identify conceptual structures in system'
+  - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
+    - example: 'apply concepts to system interface to identify conceptual structures in system'
       - system
         - system structures of uniqueness: exclusivities
         - system structures of power: trigger, input
