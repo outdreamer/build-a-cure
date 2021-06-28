@@ -17,6 +17,12 @@
       - example: every interface has the core interface injected, bc it has core components
     - there's usually one interface that is the base interface for any given structure
 
+  - apply useful interface components (like 'interactivity', 'ambiguity', 'incentive', 'contradiction', 'requirement') to connect interface structures for optimized querying
+    - fulfill optimization intent 'avoid full interface standardization'
+      - map interactive structures across interfaces for queries that support avoiding full interface standardization
+      - map corresponding structures across interfaces to avoid standardization to an interface in case an isolated operation like 'identify one object' is needed
+        - this allows for an efficient interface query that executes only the conversions necessary & keeps the processing on one base interface, pulling in isolated structures from other interfaces with sub-queries as needed
+
   - standardize interface queries & solution automation workflows to other interfaces
     - apply other interfaces like 'structure' interface to specify a query/workflow and interfaces like 'concept' to abstract a query/workflow
 
