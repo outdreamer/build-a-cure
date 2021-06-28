@@ -7,19 +7,43 @@
 
     - we still have to vaccinate the world's poorest bc we kept them poor so they couldn't vaccinate themselves bc when people are poor, there are thousands of things that could kill them, so we have to save them from all of the thousands of things each time which is very expensive, bc we havent helped them build sustainable stabilized markets to trade in, which is cheaper
 
-    - if trolling you was all it took to inspire you to do better, you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
+    - if trolling you was all it took to inspire you to do better (and if youre actually better), you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
-  - document interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
+  - example of different structures of an interface component on different interfaces
+      - 'alternative'
+        - 'structural alternative': where one or more structures are options where one or the other or both if not mutually exclusive can be chosen (applied at a given time), with varying relevance/optimization, for a particular intent (like 'navigate in a direction', having structural alternatives in the form of a set of paths)
+        - 'conceptual alternative': where one or more concepts can be applied at a given time with varying relevance/optimization for a particular intent (concepts with an intent in common)
+        - 'structural conceptual alternative': alternative conceptual structures, like varying structures of power or balance
+      - 'alignment'
+        - 'structural alignment': based in the structural interface, where a 'structural alignment' takes the form of an equivalence/similarity in components (attributes/functions/objects/structures), such as:
+          - interchangeable attributes/functions/objects
+          - a fitting/matching structure
+          - a parallel structure
+          - a structure having similar shape or other attribute like size
+        - 'conceptual alignment': translated to the conceptual interface, an 'alignment' takes the form of concept such as 'equal' and/or related concepts like 'similar'
+        - example of injecting the structural interface to components on other interfaces:
+          - a 'structural conceptual alignment' is the 'alignment' in structures of concepts, like 'similar conceptual connections' or 'equivalent concepts'
+
+  - document useful sub-structures of interface queries (interface components, interaction rules, cross-interface interactions, generative functions)
+
+  - interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
     - to answer questions like:
-      - with what 'frequency' can a 'random combination' of 'alignments' create an 'efficiency'?
+      - with what 'frequency' can a 'random combination' of 'alignments' create an 'efficiency' in a given 'system'?
     - having variables:
-      - certainty (probability, frequency, average)
-      - requirements
-      - intents
-      - applicable connecting logic rules
-      - attributes (random, adjacent, difference-maximizing, similar, opposite)
-      - structures (combination, subset)
-      - useful components (alignments, efficiency)
+      - solution formats
+        - certainty (probability, frequency, average) 
+          - format solution as 'certainty of a particular structure given inputs' rather than other formats like 'method to generate a particular structure given inputs'
+      - solution filters
+        - requirements
+        - intents
+      - problem space
+        - system context
+      - interactions
+        - applicable connecting logic rules
+        - attributes (random, adjacent, difference-maximizing, similar, opposite)
+        - structures (combination, subset)
+      - interacting components
+        - useful components (alignments, efficiency)
 
   - identifying useful cross-interface interactions
 
