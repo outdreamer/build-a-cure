@@ -2,10 +2,23 @@
 '''
 - to do:
 	- select implementation options of functions
+
 		- implement a subset of functions that can be used to generate the others & store generated functions as combinations of implemented functions
 			- 'core interaction functions': implement only core interaction functions, and write all functions as combinations of core functions
 			- 'common functions': implement only common functions that can be used to create all other functions, define function requirements as combinations of implemented functions
-		- write functions as a cmobination of math functions
+			- 'math functions': most of these should already be implemented in most languages
+
+		- define math structures & apply math interface to write functions as a cmobination of math functions
+
+			- dependencies
+				- create math structure definitions & filter function definition
+				- write function to find similar items by calculating similarity of items (using cosine, aggregate attribute equivalency checks, or other similarity measure) after creating math structure definitions
+					- test on filter function definition
+					- this function also needs to be able to build a structure, which requires increasing the similarity of structures (by injecting an interaction structure, like a difference from another value)
+					- when building a structure, the required & foundation structures should usually be prioritized, unless other structures like core structures are adjacent & clear to avoid unnecessary operations
+				- write function to identify structures in definition
+				- or you could write your filter function definition in math structures so standardizing isnt necessary
+
 			- example:
 				- the 'filter' function described below would be structured as:
 					- a sequence of objects in 3-d space, where:
@@ -18,7 +31,7 @@
 					- the test structure could be as simple as a loop or pipe that a value must be able to pass through, or a threshold value that a value must be able to cross over
 						- for example, filtering a database table by a specified value means any passing values must fit a structure that only allows equal values to the specified value
 					
-			- how to translate the function into a set of math operations:
+			- how to translate the function into a set of math operations (apply math interface to a function definition):
 				- determine structures that match & can hold function components based on function/attribute/component similarities/equivalences, without any contradicting structures invalidating use of that structure, and without unnecessary structures
 				- example query for a sequence:
 					- 'find a structure that can hold a set of items that has an order, so that only one item of the structure is stored at each position of the structure (one y value for each x value), 
