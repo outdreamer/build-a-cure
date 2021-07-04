@@ -42,10 +42,27 @@
 					- all thats missing at this point is the structure of the variable to store the updated value, and the break condition structure if there is one provided to the filter function config
 
 					- at this point, we have math structures providing components of the filter function - we need to connect them according to the function's definition
-						- the filter function definition includes connections between components like:
+						- the filter function definition includes interaction rules between components like:
 							- iterate through (sequence) & (apply test to [each individual item])
 						- to connect the sequence structure (set of points) & the test structure (check if value has a decimal and if the value's ones digit is in the set of (0,2,4,6,8)), we apply this rule to the structures of components in the definition:
 							- iterate through the (set of points) and (check if [each point's] ones digit value is in the set (0,2,4,6,8) and if the value has a decimal)
+
+					- so to identify the math structures that correspond with a function:
+						- pull the function's definition, which has interaction rules like the above: 
+							- 'filter' function definition interaction rule: 
+								- iterate through (sequence) & (apply test to [each individual item in sequence])
+						- identify structures in the function definition:
+							- iterate
+							- sequence
+							- apply
+							- test
+							- individual item
+						- query for structures matching these components
+							- 'set of points having position on x-axis and value on y-axis' for a sequence
+						- assemble structures found according to original interaction rules of the function's definition:
+							- iterate through (sequence)
+								- iterate through ('set of points having position on x-axis and value on y-axis')
+						- test for structures that contradict the intent of the original function definition structures, or have any unnecessary structures beyond the definition, which is sub-optimal even if errors are immediately foreseeable
 
 					- other advantages to this approach:
 						- generating the function becomes a query of similar math structures, which have more definition/structure than other interfaces, allowing fewer ambiguities & other errors (given the structures in the 'filter' definition)
