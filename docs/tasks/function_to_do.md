@@ -1,13 +1,41 @@
 # to do
 
-    - this isnt a war against a country or religion or ethnicity, or a specific group of criminals, or other powerful entities or people - its a war against the suffering of others who are oppressed, vulnerable & deserving - against inequality, against easy, against cruelty, greed & all other vices that cause their suffering, and against the self-oppression of anyone who stands in the way of us saving the others - a war that we fight with tools of love, in giving solutions away to those in need, finding new solutions as needed, trying new strategies where the old ways don't work, distributing power wherever it's hoarded & otherwise abused
-      - I will cry for the lost when I have time to spare
-      - if you think you need to attack me, first attack the errors of your mind, and see how happy it makes you compared to everything you thought you needed
-      - confused as to how the greatest minority of all time (an extremely high-functioning biracial hero genius rape, genocide, theft, racism/sexism, & hate crime survivor, who is the very first & last of her kind) is surviving your claimed false disapproval with ease, since there's no legitimate way to criticize me so you have to criticize lies about me & try to force me to pretend theyre true by scaring me to death & other methods of coercion so you can get cheap good feelings? (lol!) upset that no one protected you from your crimes? a little sad that you dont get to crap on oppressed people for cheap good feelings anymore? starting to realize you might not actually deserve all those fake cheap good feelings if you cant get over an insult to save the world? feeling a dawning sense of dread that you might not be as wonderful or important to me as you self-report? in awe of my mind's spectacular stress-handling problem-solving skills? concerned that you cant control me like I gave you false hope of easily doing to see if you would take easy opportunities for cruelty? (lol of course you would, you dont have humanity!) worried you might be one of my many terrible jokes? puzzling over what else people can get you to do just with insults/compliments & peer pressure bc youre totally & utterly insecure? (it's anything, anyone can get you to do anything) want some of my fancy human qualities like potential, a sense of humor, chill, confidence that I can handle anything, free will, and a conscience - without faking them by merely claiming to have them or repeating words i say like you always do? looking for something else to rape or steal from me, in case you missed anything? thinking about targeting an easier victim than me, since this didnt work out so well & produce the good feelings you were seeking to forget what you are? welcome to la realidad! here are my methods of survival & adaptation! feel free to try to home-grow a brain instead of molesting me or anyone else!
+  - organize new_examples.md
+    - identify any examples missing from patents in docs/tasks by diffing patent spec texts
+ 
+  - identify useful perspectives
 
-    - we still have to vaccinate the world's poorest bc we kept them poor so they couldn't vaccinate themselves bc when people are poor, there are thousands of things that could kill them, so we have to save them from all of the thousands of things each time which is very expensive, bc we havent helped them build sustainable stabilized markets to trade in, which is cheaper
+  - interim functions to build:
+    - derive definition routes on various interfaces from a definition
+    - apply a standard format (function/attribute/object) to an input
+    - derive function intent stack
+    - identify error types
+    - identify structures of cause
+    - identify variable types & structures
+    - consolidate repo, remove repeated content, merge similar functions
 
-    - if trolling you was all it took to inspire you to do better (and if youre actually better), you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
+  - create configuration for 2-3 list items every day
+
+      - create compilation script to compile code/config into a network graph on every change
+        - add support for equivalent synonyms
+        - add conversion to standard vocab
+
+      - finish lists:
+        - useful perspectives
+          - useful to think of prediction functions as generative functions to select the variable interactions that are most likely
+        - interface component definition routes
+        - ai structures with supported intents & solution success causes
+        - solution filters to apply in functions
+        - useful interface components
+          - aligning/balancing structures, to solve problems like 'a balance position of structures producing errors when unbalanced'
+          - questions formatted as a disconnection between components like causal positions, paths, directions
+        - subset indexes of an interface useful for solving most problems (structure indexed by metadata like problems solvable, fitting systems, interactive structures, supported intents)
+
+    - finish processes:
+      - finish interface analysis of physics to determine other useful components like efficiencies, incentives, trade-offs, closed systems
+      - finish applying interface components (like abstract) to useful interface components
+        - core interaction functions of core interaction functions
+      - create interface queries of finding useful interface component filters
 
   - why do structures overlap across interfaces:
     - different interaction types:
@@ -17,13 +45,13 @@
       - example: every interface has the core interface injected, bc it has core components
     - there's usually one interface that is the base interface for any given structure
 
-  - apply useful interface components (like 'interactivity', 'ambiguity', 'incentive', 'contradiction', 'requirement') to connect interface structures for optimized querying
+  - apply useful interface components (like 'interactivity', 'ambiguity', 'incentive', 'contradiction', 'requirement') to fulfill core interaction functions (like connect, complete, reduce, merge) with interface structures for optimized querying
     - fulfill optimization intent 'avoid full interface standardization'
       - map interactive structures across interfaces for queries that support avoiding full interface standardization
       - map corresponding structures across interfaces to avoid standardization to an interface in case an isolated operation like 'identify one object' is needed
         - this allows for an efficient interface query that executes only the conversions necessary & keeps the processing on one base interface, pulling in isolated structures from other interfaces with sub-queries as needed
 
-  - standardize interface queries & solution automation workflows to other interfaces
+  - standardize interface queries & solution automation workflows to other interfaces (to avoid converting problem system to a particular interface just to implement a workflow)
     - apply other interfaces like 'structure' interface to specify a query/workflow and interfaces like 'concept' to abstract a query/workflow
 
   - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
