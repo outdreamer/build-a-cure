@@ -1,6 +1,32 @@
 
 '''
 - to do:
+	- select implementation options of functions
+		- implement a subset of functions that can be used to generate the others & store generated functions as combinations of implemented functions
+			- 'core interaction functions': implement only core interaction functions, and write all functions as combinations of core functions
+			- 'common functions': implement only common functions that can be used to create all other functions, define function requirements as combinations of implemented functions
+		- write functions as a cmobination of math functions
+			- example:
+				- the 'filter' function described below would be structured as:
+					- a sequence of objects in 3-d space, where:
+						- one dimension is used to depict the sequence in order
+						- another dimension is used to depict the sequence items' differences
+						- a third dimension is used to depict the result of a test applied to each item
+							- where the test is a template/scaffold structure and the inner shape allows for fitting a value derived from each sequence item
+					- this structure would allow input/output value convergence sequences to be depicted as well, 
+						from input sequence items, to items with conditional logic applied after test results, to updated value store, to final solution output value, with each step in the sequence
+					- the test structure could be as simple as a loop or pipe that a value must be able to pass through, or a threshold value that a value must be able to cross over
+						- for example, filtering a database table by a specified value means any passing values must fit a structure that only allows equal values to the specified value
+					
+			- how to translate the function into a set of math operations:
+				- determine structures that match & can hold function components based on function/attribute/component similarities/equivalences, without any contradicting structures invalidating use of that structure, and without unnecessary structures
+				- example query for a sequence:
+					- 'find a structure that can hold a set of items that has an order, so that only one item of the structure is stored at each position of the structure (one y value for each x value), 
+						that preserves the original order of the structure'
+						- this implies a set of points that could be used to draw a line, which is an acceptable structure to use for the 'sequence' structure
+						- this does not enforce which y-value is used for each item position in the sequence, so the y-value can be assigned to the value of each item
+						- this structure has the advantage of allowing parallel sequences to be depicted, to show valuable info about differences between the original & parallel sequences
+
 	- abstract workflows in apply() based on common components
 	- adjust workflows in apply() based on variables of each structure, stored in apply() params variable
 		- 'combine' has many possible combination_types
@@ -198,6 +224,7 @@ def apply(structure, inputs, input_format, output_format, metrics, logic, params
 				- iterating through this standard structure, generating calls to apply() to generate its components (like functions)
 
 			- this is where custom logic often occurs at some point in the connection sequence, in the form of a function interface defined for the structure, 
+				(like the traditional software definition of a 'function interface', meaning a 'list of required functions')
 				like how 'filter' function interface has defined required functions:
 				- iterate through items
 				- test each item in iteration in each iteration
@@ -239,7 +266,7 @@ def apply(structure, inputs, input_format, output_format, metrics, logic, params
 						where the output value is based on list items content (like a boolean based on whether a value is found, or the value itself, or a list of all values fulfilling the test filter structure)
 			
 			- a particular filter function implementation may differ in the connection structure, which may have multiple possible outputs & output paths, taking the form of a tree/network instead of a sequence
-			
+
 			- input/output connection structure:
 				- the inputs & outputs run in parallel in this function, since the output is usually initialized at the beginning before the function logic based on inputs starts in a 'filter' function
 				- the inputs also interact laterally with the outputs according to conditional logic (run according to a test application) and any break condition specified
