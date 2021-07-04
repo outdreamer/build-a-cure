@@ -26,6 +26,30 @@
 						- this implies a set of points that could be used to draw a line, which is an acceptable structure to use for the 'sequence' structure
 						- this does not enforce which y-value is used for each item position in the sequence, so the y-value can be assigned to the value of each item
 						- this structure has the advantage of allowing parallel sequences to be depicted, to show valuable info about differences between the original & parallel sequences
+						- by changing x variable value (indicating position in sequence) & aligning the x-value with positions in parallel sequences, we can identify other useful info like 'patterns of differences' in the sequence
+					
+					- 'find a filter test structure that will not allow incorrect values, according to the input filter_test_structure (such as 'even' values)'
+						- this can have many different structures, such as:
+							- whole solution space (trial & error): computing a sequence of non-even numbers and checking if a value is a member in that sequence
+							- generative: deriving a generative function of even values and checking if the value can be generated with that function
+							- definition: deriving a test function of even values, based on a useful/adjacent definition of even (integer, having a remainder of zero when divided by 2) and applying that as the implementation of the filter test
+							- pattern: deriving a function to test an attribute of even numbers based on their patterns (integer, having ones digit is in 0, 2, 4, 6, or 8)
+							- opposite: deriving a test function of non-even values and applying the opposite of that as a filter
+
+					- once you apply these two structure queries, you have:
+						- a sequence structure (a set of points that can be joined to form a line) and 
+						- a test structure (a check if the number is an integer and if the ones digit is even)
+					- all thats missing at this point is the structure of the variable to store the updated value, and the break condition structure if there is one provided to the filter function config
+
+					- at this point, we have math structures providing components of the filter function - we need to connect them according to the function's definition
+						- the filter function definition includes connections between components like:
+							- iterate through (sequence) & (apply test to [each individual item])
+						- to connect the sequence structure (set of points) & the test structure (check if value has a decimal and if the value's ones digit is in the set of (0,2,4,6,8)), we apply this rule to the structures of components in the definition:
+							- iterate through the (set of points) and (check if [each point's] ones digit value is in the set (0,2,4,6,8) and if the value has a decimal)
+
+					- other advantages to this approach:
+						- generating the function becomes a query of similar math structures, which have more definition/structure than other interfaces, allowing fewer ambiguities & other errors (given the structures in the 'filter' definition)
+							- this query can be a query of differences between the original filter function query & the new custom filter function query
 
 	- abstract workflows in apply() based on common components
 	- adjust workflows in apply() based on variables of each structure, stored in apply() params variable
