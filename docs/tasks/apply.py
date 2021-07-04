@@ -1,11 +1,24 @@
 
 '''
 - to do:
-	- format each function definition in terms of 'apply' function calls() wherever possible
+	- abstract workflows in apply() based on common components
+	- adjust workflows in apply() based on variables of each structure, stored in apply() params variable
+		- 'combine' has many possible combination_types
+	- add support for other structures to apply
+		- function
+			- applies the function specified in params as a function of apply() inputs
+		- attribute
+			- applies the attribute specified in params to apply() inputs
+		- structure
+			- applies the structure (which may be a function or attribute) to apply() inputs
+			- structure types
+				- cross-interface structures like 'function_sequence'
+				- core structures
+				- core functions
+	- format each function definition in terms of 'apply' function calls() wherever possible for organization & streamlining
 	- fill in function logic with calls to other functions
 	- identify which core functions are necessary to implement other required functions
 	- identify which functions are possible to build given these core functions
-		- finish list of functions indexed by type
 	- identify if intended usage cases are covered by variables & function calls in function definitions
 
 	- create index of function types:
@@ -71,7 +84,7 @@
 										- creating a predictive/generative function allowing a variable value selection from configurable options as sub-parameters to the prediction function
 '''
 
-def generate_all_structures(input, output_format):
+def generate_possible_structures(input, output_format):
 	# identify all structures of input given item metadata, formats, interaction level, etc
 
 def pull_definition(keyword):
@@ -136,7 +149,68 @@ def define(keyword):
 	merged_definition_structures = apply(structure='merge', inputs=all_possible_definition_structures)
 	return merged_definition_structures
 
-def apply(structure, inputs, input_format, outputs, output_format, metrics, logic, params):
+def apply(structure, inputs, input_format, output_format, metrics, logic, params):
+	'''
+	- apply is always changing the input structure with some core interaction function, like:
+		- filtering
+		- reducing
+		- connecting
+		- filling
+		- creating
+		- deriving
+		- formatting
+		- organizing
+
+	- apply() function, which implements: 
+		- an interface query containing a 
+			- standard solution automation workflow:
+				- determine differences between input/output & reduce differences
+
+	- constant logic of the apply() function
+	
+		- validate:
+			- validating initial checks that the inputs can interact in the requested structure
+				- check if the input structure (filter) can be applied to the inputs given the input format
+				- check if the input structure (filter) can be applied in the structure given in the logic/conditions
+				- check if the logic/conditions contain only inputs supplied/available to the function
+				- check if inputs can be converted into outputs given the output format
+				- check if inputs can be converted into outputs using the logic/conditions
+				- check if selected logic complies with the input structure (filter) structure definition, according to requirements from that structure's definition:
+					- a 'filter' structure would have:
+						- required logic:
+							- a test function embedded in the iteration that the input structure (or some adjacent iterable structure of it, like its components) can be an input to
+							- an iteration to apply the test to each item in input
+						- optional logic according to the 'filter' structure requirements:
+							- iteration variables (like 'break/continue conditions')
+							- test variables (like 'equivalence operators')
+						- variable logic that varies by the input structure & params:
+							- which structure of the input is iterated
+							- multiple tests based on conditions
+
+		- define:
+			- pulling definitions of params and deriving definitions from a standard set where a definition is missing
+			- standardization of definitions of params 
+
+		- connect:
+			- connect inputs/outputs
+				- determining structure of changes required to convert input into output
+				- converting required changes into a standard structure, like a function structure
+				- iterating through this standard structure, generating calls to apply() to generate its components (like functions)
+
+		- apply:
+			- apply connections between inputs/outputs
+				- executing the calls to apply() that would generate the components of the standard structure to translate inputs to outputs
+
+	- variable logic of the apply() function:
+
+		- formatting applied to the input before the changes
+		- how the changes to the input are determined
+		- how the changes to the input are done
+			- what function is used to apply a change required in the input/output required change structure
+				- whether a prioritized function is passed in params
+			- whether those functions are found/derived/generated
+		- structure-specific variables stored in params
+	'''
 	#structure = 'combination(components.type=core)'
 	#inputs = [['1','2','3'], ['4','5','6']]
 	outputs = set() # returns input structures matching the structure
@@ -308,30 +382,6 @@ def identify(input_structure, filter_structure):
 		outputs=[set(list(input_structure.x, filter_structure.input.x))], # 'x' indicates any matching structures from inputs that fulfill filter conditions
 		output_format='item_sets_from_lists' # like 'pairs' having one item from each list
 	)
-
-	'''
-	what 'apply' does here is:
-		- check if the input structure (filter) can be applied to the inputs given the input format
-		- check if the input structure (filter) can be applied in the structure given in the logic/conditions
-		- check if the logic/conditions contain only inputs supplied/available to the function
-		- check if inputs can be converted into outputs given the output format
-		- check if inputs can be converted into outputs using the logic/conditions
-		- check if logic complies with the input structure (filter) structure definition, specifying requirements:
-			- for loop of guiding structure (filter_structure, then input_structure, mapped together like the zip function maps sequences to create pairs)
-			- filtering condition of values in for loop
-			- output interaction to aggregate filtered output
-			- output format (set of differences between item1 and item2.input)
-			- any conversion functions necessary to format output (diff(item1 - item2.input))
-		- then applies the logic in the logic param
-			- translating input logic:
-				'for item2 in filter_structure, output.append((item1 - item2.input)) if item1 in input_structure != item2.input in filter_structure'
-			- into:
-				output = set()
-				for item2, item1 in zip(filter_structure, input_structure):
-					if item1 != item2.input
-						output.add(diff(item1, item2.input))
-				return output
-	'''
 
 def test(item1, item2, condition):
 	'''
