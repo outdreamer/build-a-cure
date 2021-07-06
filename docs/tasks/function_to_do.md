@@ -5,6 +5,16 @@
  
   - identify useful perspectives
 
+  - add to science
+    - cancer cells' mutations might just be some of the more adjacent/common/interactive mutations out of all the mutations that are possible or actually occur with any frequency
+      - if this is true & the primary cause, that means these mutations will continue occurring unless actively prevented
+        - substances should be examined for mutation-prevention functionality
+        - root causes can be addressed as a prevention method, like:
+          - the reason mutations occur more frequently for a gene structure (like a gene type, pattern, or set), such as gene position in relation to another structure
+          - the host system's inability to prevent malicious interactivity/cascading of mutations that protect mutability & promote additional mutations
+      - examine what mutations almost never occur & determine the cause of mutation frequency (at a certain position on chromosomes, protein folds, relative position to gene types, or other structures on different interaction levels)
+      - simulate whether changing position of genes reduces the frequency of mutations of those genes, if position is a variable to the mutation frequency
+
   - interim functions to build:
     - derive definition routes on various interfaces from a definition
     - apply a standard format (function/attribute/object) to an input
