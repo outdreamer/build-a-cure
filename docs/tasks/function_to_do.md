@@ -68,7 +68,16 @@
         - solution success cause: this works bc of the overlap between the definitions of adjacence and efficiency
           - paths are 'efficient' bc they require less work, meaning they may use 'adjacent' resources (nodes or methods)
 
-    - apply alternative inputs of solution automation workflows to create other workflow-generating workflows, given the definition of 'generative' meaning 'an input to', and given that this workflow for the default inputs is already stored, so this applies 'alternative' as a transform
+    - identify & apply alternative inputs (variables) of solution automation workflows to create other workflow-generating workflows, given the definition of 'generative' meaning 'an input to', and given that this workflow for the default inputs is already stored, so this applies 'alternative' as a transform
+      - example of alternative inputs:
+        - to identify that a method is especially useful out of all the possible methods, you can use alternate variable sets:
+          - start with solution metrics as limits creating the structure/template of a solution, and fill it in or work backwards
+          - common components of useful solutions, or components of commonly useful solutions
+          - adjacent combinations of available resources at the origin state (problem position)
+          - core interactive components
+        - these are alternates bc they have equivalent/similar input/output when applied to this problem of 'identifying a useful method in a large set of possible methods'
+
+    - iterate through optimization priorities & apply other optimizations to workflows, like 'find alternatives to optimize for robustness', which when applied to workflows would generate the previous 'apply alternative inputs to workflows' workflow-generating workflow
 
     - apply useful interface components (like 'interactivity', 'ambiguity', 'incentive', 'contradiction', 'requirement') to fulfill core interaction functions (like connect, complete, reduce, merge) with interface structures for optimized querying
       - fulfill optimization intent 'avoid full interface standardization'
