@@ -12,8 +12,12 @@
         - root causes can be addressed as a prevention method, like:
           - the reason mutations occur more frequently for a gene structure (like a gene type, pattern, or set), such as gene position in relation to another structure
           - the host system's inability to prevent malicious interactivity/cascading of mutations that protect mutability & promote additional mutations
+          - lack of a substance structure that would prevent or reverse these mutations, or particularly damaging subsets of mutations that enable the others
+          - whether signals that enable/activate cancer cells can be routed where mutations are needed
       - examine what mutations almost never occur & determine the cause of mutation frequency (at a certain position on chromosomes, protein folds, relative position to gene types, or other structures on different interaction levels)
       - simulate whether changing position of genes reduces the frequency of mutations of those genes, if position is a variable to the mutation frequency
+        - ultimately it should be possible by analyzing components like structures/functionality as combinable attack vectors, to calculate what diseases are possible/probable & will happen given a genome, their metadata like frequency & degree of impact on the host, and the substances/processes/stressors that can prevent or neutralize them
+        - genomic data can be enhanced with data from output system & interaction structures
 
   - interim functions to build:
     - derive definition routes on various interfaces from a definition
@@ -55,14 +59,25 @@
       - example: every interface has the core interface injected, bc it has core components
     - there's usually one interface that is the base interface for any given structure
 
-  - apply useful interface components (like 'interactivity', 'ambiguity', 'incentive', 'contradiction', 'requirement') to fulfill core interaction functions (like connect, complete, reduce, merge) with interface structures for optimized querying
-    - fulfill optimization intent 'avoid full interface standardization'
-      - map interactive structures across interfaces for queries that support avoiding full interface standardization
-      - map corresponding structures across interfaces to avoid standardization to an interface in case an isolated operation like 'identify one object' is needed
-        - this allows for an efficient interface query that executes only the conversions necessary & keeps the processing on one base interface, pulling in isolated structures from other interfaces with sub-queries as needed
+  - add to solution automation workflows
 
-  - standardize interface queries & solution automation workflows to other interfaces (to avoid converting problem system to a particular interface just to implement a workflow)
-    - apply other interfaces like 'structure' interface to specify a query/workflow and interfaces like 'concept' to abstract a query/workflow
+    - apply definition of any other components of the workflow that havent been applied in other solution automation workflows or workflow-generating workflows
+      - an 'insight path' is a 'shortcut to find new useful info' so apply the definition of 'shortcut'
+        - by definition, its a method that requires less work
+        - so generate methods requiring less work as an initial solution space
+        - solution success cause: this works bc of the overlap between the definitions of adjacence and efficiency
+          - paths are 'efficient' bc they require less work, meaning they may use 'adjacent' resources (nodes or methods)
+
+    - apply alternative inputs of solution automation workflows to create other workflow-generating workflows, given the definition of 'generative' meaning 'an input to', and given that this workflow for the default inputs is already stored, so this applies 'alternative' as a transform
+
+    - apply useful interface components (like 'interactivity', 'ambiguity', 'incentive', 'contradiction', 'requirement') to fulfill core interaction functions (like connect, complete, reduce, merge) with interface structures for optimized querying
+      - fulfill optimization intent 'avoid full interface standardization'
+        - map interactive structures across interfaces for queries that support avoiding full interface standardization
+        - map corresponding structures across interfaces to avoid standardization to an interface in case an isolated operation like 'identify one object' is needed
+          - this allows for an efficient interface query that executes only the conversions necessary & keeps the processing on one base interface, pulling in isolated structures from other interfaces with sub-queries as needed
+
+    - standardize interface queries & solution automation workflows to other interfaces (to avoid converting problem system to a particular interface just to implement a workflow)
+      - apply other interfaces like 'structure' interface to specify a query/workflow and interfaces like 'concept' to abstract a query/workflow
 
   - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
     - example: 'apply concepts to system interface to identify conceptual structures in system'
