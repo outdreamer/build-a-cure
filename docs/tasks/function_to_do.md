@@ -65,7 +65,22 @@
       - example: every interface has the core interface injected, bc it has core components
     - there's usually one interface that is the base interface for any given structure
 
+  - add to useful structures
+    - intent sequences
+      - a 'requirement to survive' is the reason why an animal might develop bright colors, with varying intents:
+        - with intent to 'attract prey', bc 'prey are difficult to find'
+        - with intent to 'mimic a scarier animal' bc 'theyre not scary enough to disincentivize predators'
+        - with intent to 'store excess mutations' bc 'mutations occurred for no reason other than structural damage'
+      - the two intent sequences above overlap at the 'bright colors' node and diverge bc of different requirements, given their different positions relative to useful objects for survival (prey, predators, energy storage, change as energy)
+      - this is a way to determine alternate causes of the same variable, given useful system objects like requirements & incentives
+
   - add to solution automation workflows
+
+    - derived alternate merged interfaces (like the meaning interface) to avoid sub-optimal metrics inherent to each interface perspective, where the problem can be adjacently solved
+      - the 'survival' and 'evolution' perspectives have their own disadvantages, so merge them into an interface to avoid these disadvantages
+        - 'survival' disadvantages include errors like 'over-identifying threats', from survival functions like 'constantly checking for threats'
+        - 'evolution' disadvantages include errors like 'excess change, incompatible with other changes', from evolutionary functions like 'gene modification/activation/addition/movement'
+      - applying the survival function 'check for threats' to identify a threat of the change type that is 'incompatible changes with other changes' is one way to merge those components on these interfaces
 
     - apply definition of any other components of the workflow that havent been applied in other solution automation workflows or workflow-generating workflows
       - an 'insight path' is a 'shortcut to find new useful info' so apply the definition of 'shortcut'
@@ -74,9 +89,9 @@
         - solution success cause: this works bc of the overlap between the definitions of adjacence and efficiency
           - paths are 'efficient' bc they require less work, meaning they may use 'adjacent' resources (nodes or methods)
 
-    - identify the shortest, lowest-cost, most adjacent or otherwise most efficient/optimized route/function to known solutions from problem definitions and identify patterns in these routes or the structures/formats enabling them to be optimized (sub-interfaces, definitions, interaction levels), and generate function to iterate through those patterns based on usefulness for a problem definition, and apply those patterns
+    - identify the shortest, lowest-cost, most adjacent or otherwise most efficient/optimized route/function to known solutions from problem definitions and identify patterns in these routes or the variables/components/structures/formats enabling them to be optimized (sub-interfaces, definitions, interaction levels), and generate function to iterate through those patterns based on usefulness for a problem definition, and apply those patterns
 
-    - apply trial & error except with the injection of the concept of 'solution progress' as a filter of multiple methods attempted in parallel, derived from maximizing difference types (learning from error/cost)
+    - apply trial & error except with the injection of the concept of 'solution progress' as a filter of multiple methods attempted in parallel, derived from maximizing difference types based on filter capacity (solution progress assessed similar to learning from error/cost)
       - identify the most different structures you can apply (like directions of motion) and apply them iteratively, checking for progress toward the solution metric based on solution patterns of progress (accept costs of these types up to a particular threshold or other structure), and stopping the pursuit of any differences that dont match solution progress patterns
 
     - identify & apply alternative inputs (variables) of solution automation workflows to create other workflow-generating workflows, given the definition of 'generative' meaning 'an input to', and given that this workflow for the default inputs (variables) of workflows is already stored elsewhere, so this applies 'alternative' as a transform
@@ -91,6 +106,7 @@
             - a set of filters
             - a set of differences
             - a set of intents
+            - a set of requirements
           - these are alternate versions of the function that dont lose info expressed by the function, and they can serve as alternate inputs to the function outputs, since the function itself is also an input
 
     - iterate through optimization priorities & apply other optimizations to workflows, like 'find alternatives to optimize for robustness', which when applied to workflows would generate the previous 'apply alternative inputs to workflows' workflow-generating workflow
