@@ -2,7 +2,25 @@
 
   - organize new_examples.md
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
+    - organize function implementations, to do list, examples, logic
  
+   - create configuration for 2-3 list items every day
+
+      - create compilation script to compile code/config into a network graph on every change
+        - add support for equivalent synonyms
+        - add conversion to standard vocab
+
+      - finish lists:
+        - useful perspectives
+          - useful to think of prediction functions as generative functions to select the variable interactions that are most likely
+        - interface component definition routes
+        - ai structures with supported intents & solution success causes
+        - solution filters to apply in functions
+        - useful interface components
+          - aligning/balancing structures, to solve problems like 'a balance position of structures producing errors when unbalanced'
+          - questions formatted as a disconnection between components like causal positions, paths, directions
+        - subset indexes of an interface useful for solving most problems (structure indexed by metadata like problems solvable, fitting systems, interactive structures, supported intents)
+
   - identify useful perspectives
 
   - add to science
@@ -19,6 +37,11 @@
         - ultimately it should be possible by analyzing components like structures/functionality as combinable attack vectors, to calculate what diseases are possible/probable & will happen given a genome, their metadata like frequency & degree of impact on the host, and the substances/processes/stressors that can prevent or neutralize them
         - genomic data can be enhanced with data from output system & interaction structures
 
+    - the idea of a 'cure' may be invalid, the concept of a 'functional state' may be a more valid goal
+      - an example would be rather than returning someone to a prior or absolute state of optimal health, adjust their system to a state where its more functional, even if that functionality is distorted
+
+    - the theory of 'the universe as a simulation' is only now getting popular bc our brain structures & functions are such that we are only now recognizing the influence of physics on human decisions, noticing that we can influence these decisions, and therefore fake them, which reminds us of computer simulations
+
   - interim functions to build:
     - derive definition routes on various interfaces from a definition
     - apply a standard format (function/attribute/object) to an input
@@ -27,23 +50,6 @@
     - identify structures of cause
     - identify variable types & structures
     - consolidate repo, remove repeated content, merge similar functions
-
-  - create configuration for 2-3 list items every day
-
-      - create compilation script to compile code/config into a network graph on every change
-        - add support for equivalent synonyms
-        - add conversion to standard vocab
-
-      - finish lists:
-        - useful perspectives
-          - useful to think of prediction functions as generative functions to select the variable interactions that are most likely
-        - interface component definition routes
-        - ai structures with supported intents & solution success causes
-        - solution filters to apply in functions
-        - useful interface components
-          - aligning/balancing structures, to solve problems like 'a balance position of structures producing errors when unbalanced'
-          - questions formatted as a disconnection between components like causal positions, paths, directions
-        - subset indexes of an interface useful for solving most problems (structure indexed by metadata like problems solvable, fitting systems, interactive structures, supported intents)
 
     - finish processes:
       - finish interface analysis of physics to determine other useful components like efficiencies, incentives, trade-offs, closed systems
@@ -68,14 +74,24 @@
         - solution success cause: this works bc of the overlap between the definitions of adjacence and efficiency
           - paths are 'efficient' bc they require less work, meaning they may use 'adjacent' resources (nodes or methods)
 
-    - identify & apply alternative inputs (variables) of solution automation workflows to create other workflow-generating workflows, given the definition of 'generative' meaning 'an input to', and given that this workflow for the default inputs is already stored, so this applies 'alternative' as a transform
+    - identify the shortest, lowest-cost, most adjacent or otherwise most efficient/optimized route/function to known solutions from problem definitions and identify patterns in these routes or the structures/formats enabling them to be optimized (sub-interfaces, definitions, interaction levels), and generate function to iterate through those patterns based on usefulness for a problem definition, and apply those patterns
+
+    - apply trial & error except with the injection of the concept of 'solution progress' as a filter of multiple methods attempted in parallel, derived from maximizing difference types (learning from error/cost)
+      - identify the most different structures you can apply (like directions of motion) and apply them iteratively, checking for progress toward the solution metric based on solution patterns of progress (accept costs of these types up to a particular threshold or other structure), and stopping the pursuit of any differences that dont match solution progress patterns
+
+    - identify & apply alternative inputs (variables) of solution automation workflows to create other workflow-generating workflows, given the definition of 'generative' meaning 'an input to', and given that this workflow for the default inputs (variables) of workflows is already stored elsewhere, so this applies 'alternative' as a transform
       - example of alternative inputs:
         - to identify that a method is especially useful out of all the possible methods, you can use alternate variable sets:
-          - start with solution metrics as limits creating the structure/template of a solution, and fill it in or work backwards
-          - common components of useful solutions, or components of commonly useful solutions
-          - adjacent combinations of available resources at the origin state (problem position)
-          - core interactive components
-        - these are alternates bc they have equivalent/similar input/output when applied to this problem of 'identifying a useful method in a large set of possible methods'
+            - start with solution metrics as limits creating the structure/template of a solution, and fill it in or work backwards
+            - common components of useful solutions, or components of commonly useful solutions
+            - adjacent combinations of available resources at the origin state (problem position)
+            - core interactive components
+          - these are alternates bc they have equivalent/similar input/output when applied to this problem of 'identifying a useful method in a large set of possible methods'
+        - a function (structure of connections between specific inputs & outputs) can have alternate formats like:
+            - a set of filters
+            - a set of differences
+            - a set of intents
+          - these are alternate versions of the function that dont lose info expressed by the function, and they can serve as alternate inputs to the function outputs, since the function itself is also an input
 
     - iterate through optimization priorities & apply other optimizations to workflows, like 'find alternatives to optimize for robustness', which when applied to workflows would generate the previous 'apply alternative inputs to workflows' workflow-generating workflow
 
