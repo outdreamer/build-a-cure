@@ -76,11 +76,30 @@
 
   - add to solution automation workflows
 
+    - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
+      - example of applying differences to generate alternate solution automation workflows (different routes to connect problem & solution)
+        - standard basic workflow: trial & error
+        - alternate workflow: apply 'trial & error' to filtered solution space of 'adjacent' solutions
+        - the differences between these workflows include:
+          - container structure (one workflow contains the other)
+          - different position of components (position of 'trial & error' in one is different from position of 'trial & error' in another)
+          - one workflow has an attribute applied to filter solution space ('adjacent')
+        - these can be reduced to interface components:
+          - 'structure' variable including structures like containers & positions
+          - 'workflow component' variable including other workflows, solution spaces, solution metric filters
+          - 'core component' variable including attributes/functions/objects
+          - 'interaction function' variable including interaction functions like 'apply' & 'filter'
+        - other differences between alternate workflows may identify other variables that can be used to generate one workflow from another
+
+    - derive & apply workflow template/structure to fill with workflow variable values once interface analysis is applied to workflows
+      - this means once components like standard/base workflows, common workflows & workflow patterns, & workflow variables are identified
+
+
     - derived alternate merged interfaces (like the meaning interface) to avoid sub-optimal metrics inherent to each interface perspective, where the problem can be adjacently solved
       - the 'survival' and 'evolution' perspectives have their own disadvantages, so merge them into an interface to avoid these disadvantages
         - 'survival' disadvantages include errors like 'over-identifying threats', from survival functions like 'constantly checking for threats'
         - 'evolution' disadvantages include errors like 'excess change, incompatible with other changes', from evolutionary functions like 'gene modification/activation/addition/movement'
-      - applying the survival function 'check for threats' to identify a threat of the change type that is 'incompatible changes with other changes' is one way to merge those components on these interfaces
+      - applying the survival function 'check for threats' to identify a threat of the change type that is 'incompatible changes with other changes' is one way to merge those components on these interfaces (using the error of one interface to fix an error in the other interface, assuming no other errors are adjacent in these merged positions)
 
     - apply definition of any other components of the workflow that havent been applied in other solution automation workflows or workflow-generating workflows
       - an 'insight path' is a 'shortcut to find new useful info' so apply the definition of 'shortcut'
