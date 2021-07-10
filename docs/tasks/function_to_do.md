@@ -76,6 +76,9 @@
 
   - add to solution automation workflows
 
+    - generate structures of difference (like 'difference sequences') and apply as components of workflows
+      - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent
+
     - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
       
       - example of applying differences to generate alternate solution automation workflows (different routes to connect problem & solution)
