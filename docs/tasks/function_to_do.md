@@ -84,16 +84,22 @@
           - container structure (one workflow contains the other)
           - different position of components (position of 'trial & error' in one is different from position of 'trial & error' in another)
           - one workflow has an attribute applied to filter solution space ('adjacent')
-        - these can be reduced to interface components:
+        - these can be reduced to interface component variables:
           - 'structure' variable including structures like containers & positions
           - 'workflow component' variable including other workflows, solution spaces, solution metric filters
-          - 'core component' variable including attributes/functions/objects
+          - 'core component' variable including attributes/functions/objects (like 'adjacent' attribute, which is relevant to intents like 'finding solutions quickly' or 'finding feasible solutions with existing resources')
           - 'interaction function' variable including interaction functions like 'apply' & 'filter'
+        - so an example of generating a workflow from another workflow would involve three logic rules:
+          1. 'apply workflow components as inputs of core interaction functions'
+            - example application of this rule:'inject one workflow into the other'
+          2. 'apply relevant core components like attributes to workflow components like the solution space to generate a different workflow'
+          - apply any remaining general logic rules once the workflows are generated:
+            3. 'filter generated workflows by whether they connect components in a way that can connect problem input & solution output'
         - other differences between alternate workflows may identify other variables that can be used to generate one workflow from another
 
-    - derive & apply workflow template/structure to fill with workflow variable values once interface analysis is applied to workflows
+    - derive & apply workflow template/structure to fill with workflow variable values once interface analysis is fully applied to workflows
       - this means once components like standard/base workflows, common workflows & workflow patterns, & workflow variables are identified
-
+      - this is an alternative to writing static function logic to design interface queries
 
     - derived alternate merged interfaces (like the meaning interface) to avoid sub-optimal metrics inherent to each interface perspective, where the problem can be adjacently solved
       - the 'survival' and 'evolution' perspectives have their own disadvantages, so merge them into an interface to avoid these disadvantages
