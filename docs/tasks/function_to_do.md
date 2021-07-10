@@ -89,14 +89,16 @@
           - 'workflow component' variable including other workflows, solution spaces, solution metric filters
           - 'core component' variable including attributes/functions/objects (like 'adjacent' attribute, which is relevant to intents like 'finding solutions quickly' or 'finding feasible solutions with existing resources')
           - 'interaction function' variable including interaction functions like 'apply' & 'filter'
-        - so an example of generating a workflow from another workflow would involve three logic rules:
+        - so an example of generating a workflow from another workflow using differences between these two example workflows would involve applying three logic rules used to connect the two workflows, which can presumably connect/generate other workflows:
           1. 'apply workflow components as inputs of core interaction functions'
             - example application of this rule:'inject one workflow into the other'
           2. 'apply relevant core components like attributes to workflow components like the solution space to generate a different workflow'
           - apply any remaining general logic rules once the workflows are generated:
             3. 'filter generated workflows by whether they connect components in a way that can connect problem input & solution output'
         - other differences between alternate workflows may identify other variables that can be used to generate one workflow from another
-
+        - solution success cause: why does this method work to generate different workflows?
+          - analyzing 'differences' between workflows is by definition relevant to identifying variables between workflows, which can by definition be used to generate them
+          - one workflow is a more abstract version of the other, and varying abstraction level is by definition applicable to many contexts like inputs, within a range
     - derive & apply workflow template/structure to fill with workflow variable values once interface analysis is fully applied to workflows
       - this means once components like standard/base workflows, common workflows & workflow patterns, & workflow variables are identified
       - this is an alternative to writing static function logic to design interface queries
