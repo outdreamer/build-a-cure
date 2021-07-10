@@ -77,28 +77,41 @@
   - add to solution automation workflows
 
     - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
+      
       - example of applying differences to generate alternate solution automation workflows (different routes to connect problem & solution)
-        - standard basic workflow: trial & error
-        - alternate workflow: apply 'trial & error' to filtered solution space of 'adjacent' solutions
+        - standard basic workflow: 
+          - trial & error
+        - alternate workflow: 
+          - apply 'trial & error' to filtered solution space of 'adjacent' solutions
+        
         - the differences between these workflows include:
           - container structure (one workflow contains the other)
           - different position of components (position of 'trial & error' in one is different from position of 'trial & error' in another)
           - one workflow has an attribute applied to filter solution space ('adjacent')
-        - these can be reduced to interface component variables:
+        
+        - these can be reduced to known interface component variables, even if the variables interact in a new way thats different from other workflows:
           - 'structure' variable including structures like containers & positions
           - 'workflow component' variable including other workflows, solution spaces, solution metric filters
           - 'core component' variable including attributes/functions/objects (like 'adjacent' attribute, which is relevant to intents like 'finding solutions quickly' or 'finding feasible solutions with existing resources')
           - 'interaction function' variable including interaction functions like 'apply' & 'filter'
-        - so an example of generating a workflow from another workflow using differences between these two example workflows would involve applying three logic rules used to connect the two workflows, which can presumably connect/generate other workflows:
+        
+        - so an example of generating a workflow from another workflow using differences between these two example workflows would involve applying three logic rules that can be used to connect the two example workflows, which can presumably connect/generate other workflows:
           1. 'apply workflow components as inputs of core interaction functions'
             - example application of this rule:'inject one workflow into the other'
           2. 'apply relevant core components like attributes to workflow components like the solution space to generate a different workflow'
           - apply any remaining general logic rules once the workflows are generated:
             3. 'filter generated workflows by whether they connect components in a way that can connect problem input & solution output'
+
         - other differences between alternate workflows may identify other variables that can be used to generate one workflow from another
+
         - solution success cause: why does this method work to generate different workflows?
           - analyzing 'differences' between workflows is by definition relevant to identifying variables between workflows, which can by definition be used to generate them
           - one workflow is a more abstract version of the other, and varying abstraction level is by definition applicable to many contexts like inputs, within a range
+
+        - given these solution success causes (inputs of success of the solution), we can derive other methods to generate workflows:
+          - 'abstract a workflow within a certain range of abstraction' (so it doesnt lose its meaning)
+          - "apply definitions of relevant components to workflows like 'differences' with an interaction function like 'generate' that is relevant given their definition like 'variables'"
+
     - derive & apply workflow template/structure to fill with workflow variable values once interface analysis is fully applied to workflows
       - this means once components like standard/base workflows, common workflows & workflow patterns, & workflow variables are identified
       - this is an alternative to writing static function logic to design interface queries
