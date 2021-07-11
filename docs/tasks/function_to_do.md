@@ -83,11 +83,15 @@
         - similarly, a problem is different from a solution
           - the problem 'find a value' is different from the solution of 'a value'
       - in order to find error types ('problematic' differences), you can generate difference structures & find optimal routes between the inputs/outputs as a source of solution automation workflows
-        - to find solution automation workflows, first generate & identify problems in a known system and find optimal routes between inputs/outputs
+        - to find solution automation workflows, first generate & identify problems in a known system and find optimal routes between inputs/outputs (formatted as starting/ending positions)
+          - then identify the interface components interacting with those routes
+
+    - apply differences to solutions that are known not to work (can be calculated as definitely not solutions, or have been tried and are known not to work) bc a solution that works would have to be different from these in order to solve the problem
 
     - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
-      
+
       - example of applying differences to generate alternate solution automation workflows (different routes to connect problem & solution)
+
         - standard basic workflow: 
           - trial & error
         - alternate workflow: 
