@@ -77,7 +77,13 @@
   - add to solution automation workflows
 
     - generate structures of difference (like 'difference sequences') and apply as components of workflows
-      - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent
+      - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
+        - a difference can be an error type: 
+          - a value is different from another value, like an expected/required value
+        - similarly, a problem is different from a solution
+          - the problem 'find a value' is different from the solution of 'a value'
+      - in order to find error types ('problematic' differences), you can generate difference structures & find optimal routes between the inputs/outputs as a source of solution automation workflows
+        - to find solution automation workflows, first generate & identify problems in a known system and find optimal routes between inputs/outputs
 
     - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
       
