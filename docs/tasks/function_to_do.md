@@ -90,10 +90,13 @@
 
     - derive patterns of differences between solutions that definitely dont work and solutions occupying structures like areas of ambiguity where the solutions in the area might work but are more difficult to calculate, and reduce solution space to those areas
 
-    - derive structures of solution spaces that position/structure solutions in a way that adjacence indicates probability of working
-      - rather than applying a simplistic similarity metric, apply a metric that determines actual similarities based on relevance
-        - example:
-          - structural similarities can indicate similar functionality, or they can be insignificant to a particular problem and caused by an unrelated factor like boundary structures, so grouping solutions by structural similarities is one way that can contextually represent similarity of solution success for a particular problem
+    - derive structures of solution spaces that position/structure solutions in a way that adjacence indicates probability of working, so areas can be ruled out with threshold metrics representing boundaries
+      - rather than applying a simplistic similarity metric, apply a metric that determines actual similarities based on relevance to the problem
+        - example of grouping methods to determine adjacence in a solution space:
+          - structural similarities can indicate similar functionality, or they can be insignificant to a particular problem and caused by an unrelated factor (like two similar structures created in different positions by similar boundary structures but having different functionality bc of the different position), so grouping solutions by structural similarities is one way that can contextually represent similarity of solution success for a particular problem
+          - combinations of components of workflows/interface queries (interactions, differences) that can act in isolation (a workflow can be formatted as a set of interactions)
+          - vertex variables
+          - apply solution ranges where solution formats can be reduced to approximations of solutions or adjacent components to solutions (a theorem can be framed as adjacent to a proof)
 
     - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
 
