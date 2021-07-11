@@ -76,7 +76,7 @@
 
   - add to solution automation workflows
 
-    - generate structures of difference (like 'difference sequences') and apply as components of workflows
+    - generate structures of difference (like 'difference sequences') and apply as components of workflows (similar to applying interaction structures, solution structures, optimization structures, relevance structures, or not-error structures)
       - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
         - a difference can be an error type: 
           - a value is different from another value, like an expected/required value
@@ -87,6 +87,13 @@
           - then identify the interface components interacting with those routes
 
     - apply differences to solutions that are known not to work (can be calculated as definitely not solutions, or have been tried and are known not to work) bc a solution that works would have to be different from these in order to solve the problem
+
+    - derive patterns of differences between solutions that definitely dont work and solutions occupying structures like areas of ambiguity where the solutions in the area might work but are more difficult to calculate, and reduce solution space to those areas
+
+    - derive structures of solution spaces that position/structure solutions in a way that adjacence indicates probability of working
+      - rather than applying a simplistic similarity metric, apply a metric that determines actual similarities based on relevance
+        - example:
+          - structural similarities can indicate similar functionality, or they can be insignificant to a particular problem and caused by an unrelated factor like boundary structures, so grouping solutions by structural similarities is one way that can contextually represent similarity of solution success for a particular problem
 
     - apply pattern-identification methods of differences between solution automation workflows, isolate into difference types, & add to variables determining difference between workflows to generate them
 
