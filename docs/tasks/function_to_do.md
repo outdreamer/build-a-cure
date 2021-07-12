@@ -97,10 +97,21 @@
           - 'break & combine' solves the error structure of 'complexity added by combined problem components' (where sub-problems are simpler to solve)
 
     - identify insights that optimize problem-solving, identify their variables & generate them to apply them dynamically to generate solution automation workflows
+
       - example:
-        - the workflow 'break problem into sub-problems & combine sub-solutions' applies the insight 'smaller problems are easier to solve'
+
+        - the workflow 'break problem into sub-problems & combine sub-solutions' applies the insight 'smaller/simpler problems are easier to solve'
       - how to identify this insight:
         - pull patterns from problem-solving and identify that problem-solvers often apply the workflow of 'use unit/basic/simple case to solve the problem, then check if it holds with other cases'
+        - pull definitions & fit them in a way that makes sense (doesnt contradict any factual rules)
+          - 'small' is an adjacent term to 'simple', 'unit', 'basic', 'low-cost' or 'adjacent' because they are all similar to the concept of 'easy', so it fits into the rule 'smaller problems are easier to solve'
+          - 'simple' is a synonym of 'easy'
+        - test if changes to a problem make it easier to solve, and filter which changes succeed in making it easier to solve
+          - if a problem is 'climbing a ladder', test if changing the problem to 'climbing a step' makes it easier to solve - if so, identify that the change was 'reducing' or 'simplifying' the problem to its 'unit' case, and test if this change simplifies other problems as well
+
+      - how to identify/generate other insights that make problems easier to solve:
+        - any change that has an opposite effect ('change', 'reduce', 'neutralize', 'remove') on a component/cause/variable/structure of the problem, or the problem itself, or its system
+        - any function that connects inputs/outputs more efficiently than another function can make a problem of a relevant structure easier to solve (a more efficient 'reduction' function may be a better solution like 'filter' than a less efficient 'reduction' function like 'sort then filter')
 
     - solve problem for one component/variable/structure of the problem, then add other components of the problem and check if solution holds or modify it to fit the new component
 
