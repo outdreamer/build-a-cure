@@ -76,14 +76,14 @@
 
   - add to solution automation workflows
 
-    - identify causes answering the question of 'why is one problem format easier to solve than another format' & apply them to make a problem easier to solve (optimize solutions)
+    - identify causes answering the question of 'why is one problem format easier to solve than another format' & other questions relevent to problem-solving & apply them to make a problem easier to solve (optimize solutions)
       - example:
         - 'breaking a problem into sub-problems' makes a problem easier to solve bc of the cause that 'separates variables causing the problem and they are easier to solve in isolation'
         - apply this cause to generate other solution optimizations:
           - apply this cause to the 'connect problem & solution' solution automation workflow to generate a new workflow or implement (specify) a workflow:
             - isolate the variables of connection & connect them separately
 
-    - generate inputs to causes of simplifying problems
+    - generate inputs to causes of simplifying problems & other relevant process to problem-solving
       - example:
         - 'adjacent structures for one problem format are more interactive than those of another format' (adjacent functions interact in a way that fulfills one problem-solution format connection better than another problem-solution format connection)
           - this is another cause of why a problem is easier to solve in a particular format
@@ -113,6 +113,8 @@
           - 'mix' solves the error structure of 'find new solution' or 'find a random combination to solve obfuscation problem'
           - 'break & combine' solves the error structure of 'complexity added by combined problem components' (where sub-problems are simpler to solve)
 
+      - this isnt the same as 'apply core interaction functions like reduce/connect & basic structures known to solve problems like input-output sequences', its saying 'generate & apply all core structures/functions that are relevant to solve problems, given that error structures are also fundamental structures connectible to solutions with core interaction functions' and also 'generate & apply all possible problem/solution formats and find structures that connect them to generate solution automation workflows'
+
     - identify insights that optimize problem-solving, identify their variables & generate them to apply them dynamically to generate solution automation workflows
 
       - example:
@@ -132,6 +134,12 @@
 
     - solve problem for one component/variable/structure of the problem, then add other components of the problem and check if solution holds or modify it to fit the new component
       - this is a specific case of the general workflow 'simplify the problem, solve the simpler version, then check if the simple solution holds when complexity is added, or adjust the simpler solution for complicating structures'
+      - its also a variant of the 'break problem into sub-problems & combine sub-solutions' solution automation workflow
+
+    - find any gaps in the workflows by applying change functions to workflows to find variants like general/specific versions of a workflow
+      - apply a workflow to various problems to find changes to apply to workflows to adapt them to specific problems, and add those changes to a general solution automation workflow
+
+    - convert workflows to other workflows to find missing variables to generate one workflow from another
 
     - generate structures of difference (like 'difference sequences') and apply as components of workflows (similar to applying interaction structures, solution structures, optimization structures, relevance structures, or not-error structures)
       - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
