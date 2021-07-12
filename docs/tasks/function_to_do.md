@@ -76,12 +76,29 @@
 
   - add to solution automation workflows
 
-    - identify causes answering the question of 'why is something easier to solve than another format' & apply them to make a problem easier to solve (optimize solutions)
+    - identify causes answering the question of 'why is one problem format easier to solve than another format' & apply them to make a problem easier to solve (optimize solutions)
       - example:
         - 'breaking a problem into sub-problems' makes a problem easier to solve bc of the cause that 'separates variables causing the problem and they are easier to solve in isolation'
         - apply this cause to generate other solution optimizations:
           - apply this cause to the 'connect problem & solution' solution automation workflow to generate a new workflow or implement (specify) a workflow:
             - isolate the variables of connection & connect them separately
+
+    - generate inputs to causes of simplifying problems
+      - example:
+        - 'adjacent structures for one problem format are more interactive than those of another format' (adjacent functions interact in a way that fulfills one problem-solution format connection better than another problem-solution format connection)
+          - this is another cause of why a problem is easier to solve in a particular format
+        - this cause has inputs/requirements:
+          - there must be adjacent structures
+          - the adjacent structures in one format must be interactive
+          - their interactions must enable connection of the problem/solution in that format
+        - derive & generate the inputs to problem-simplifying solution success causes:
+          - determine the requirements of a problem-simplifying cause
+          - generate & apply those requireemnts
+        - example:
+          - identify that in order to find & apply adjacent interactive structures, they must exist
+          - in order for these to exist, in some cases the program will need to generate them
+          - in some cases, this will involve converting between formats, and the problem can be simplifed to 'converting to a format where adjacent interactive structures already exist'
+          - this amounts to 'applying an interface', which this insight path has derived as the solution
 
     - identify structures with input/output structures like sequences that can be used to connect problems/solutions for a generated set of problem/solution formats
       - example:
@@ -110,10 +127,11 @@
           - if a problem is 'climbing a ladder', test if changing the problem to 'climbing a step' makes it easier to solve - if so, identify that the change was 'reducing' or 'simplifying' the problem to its 'unit' case, and test if this change simplifies other problems as well
 
       - how to identify/generate other insights that make problems easier to solve:
-        - any change that has an opposite effect ('change', 'reduce', 'neutralize', 'remove') on a component/cause/variable/structure of the problem, or the problem itself, or its system
+        - any change that has an opposite effect ('change', 'reduce', 'neutralize', 'remove') on a component/cause/variable/structure of an error structure, or its generative system
         - any function that connects inputs/outputs more efficiently than another function can make a problem of a relevant structure easier to solve (a more efficient 'reduction' function may be a better solution like 'filter' than a less efficient 'reduction' function like 'sort then filter')
 
     - solve problem for one component/variable/structure of the problem, then add other components of the problem and check if solution holds or modify it to fit the new component
+      - this is a specific case of the general workflow 'simplify the problem, solve the simpler version, then check if the simple solution holds when complexity is added, or adjust the simpler solution for complicating structures'
 
     - generate structures of difference (like 'difference sequences') and apply as components of workflows (similar to applying interaction structures, solution structures, optimization structures, relevance structures, or not-error structures)
       - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
