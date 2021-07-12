@@ -76,6 +76,19 @@
 
   - add to solution automation workflows
 
+    - identify causes answering the question of 'why is something easier to solve than another format' & apply them to make a problem easier to solve (optimize solutions)
+      - example:
+        - 'breaking a problem into sub-problems' makes a problem easier to solve bc of the cause that 'separates variables causing the problem and they are easier to solve in isolation'
+
+
+    - identify structures with input/output structures like sequences that can be used to connect problems/solutions for a generated set of problem/solution formats
+      - example:
+        - the solution automation workflow 'generate possible solutions and filter them' applies a 'filter' structure bc the problem format involves 'many solutions' and the solution format involves 'one solution', the problem format being to 'find one solution out of the many possible solutions', and a filter can reduce the number of an object that is output, so it fulfills a problem-solving intent to connect these formats, given that in order to find one solution out of many possible solutions, a program would have to reduce the number of possible solutions in some way, so 'reduce' functions/structures like 'filters' are useful
+
+    - identify insights that optimize problem-solving, identify their variables & generate them to apply them dynamically to generate solution automation workflows
+      - example:
+        - the workflow 'break problem into sub-problems & combine sub-solutions' applies the insight 'smaller problems are easier to solve'
+
     - generate structures of difference (like 'difference sequences') and apply as components of workflows (similar to applying interaction structures, solution structures, optimization structures, relevance structures, or not-error structures)
       - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
         - a difference can be an error type: 
@@ -88,7 +101,7 @@
 
     - apply differences to solutions that are known not to work (can be calculated as definitely not solutions, or have been tried and are known not to work) bc a solution that works would have to be different from these in order to solve the problem
 
-    - derive patterns of differences between solutions that definitely dont work and solutions occupying structures like areas of ambiguity where the solutions in the area might work but are more difficult to calculate, and reduce solution space to those areas
+    - derive patterns of differences between solutions that definitely dont work and solutions occupying structures like areas of ambiguity where the solutions in the area might work but are more difficult to calculate, and reduce solution space to those areas, and apply those patterns of difference to calculate solutions that might work given solutions that definitely are known/calculatable as not solutions
 
     - derive structures of solution spaces that position/structure solutions in a way that adjacence indicates probability of working, so areas can be ruled out with threshold metrics representing boundaries
       - rather than applying a simplistic similarity metric, apply a metric that determines actual similarities based on relevance to the problem
