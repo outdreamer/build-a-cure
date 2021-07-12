@@ -99,6 +99,10 @@
     - identify insights that optimize problem-solving, identify their variables & generate them to apply them dynamically to generate solution automation workflows
       - example:
         - the workflow 'break problem into sub-problems & combine sub-solutions' applies the insight 'smaller problems are easier to solve'
+      - how to identify this insight:
+        - pull patterns from problem-solving and identify that problem-solvers often apply the workflow of 'use unit/basic/simple case to solve the problem, then check if it holds with other cases'
+
+    - solve problem for one component/variable/structure of the problem, then add other components of the problem and check if solution holds or modify it to fit the new component
 
     - generate structures of difference (like 'difference sequences') and apply as components of workflows (similar to applying interaction structures, solution structures, optimization structures, relevance structures, or not-error structures)
       - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
