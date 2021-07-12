@@ -76,12 +76,28 @@
 
   - add to solution automation workflows
 
+    - finish applying solution automation workflows to the problem of 'generate solution automation workflows'
+      - example:
+        - applying 'break problem into sub-problems & merge sub-solutions' takes the form of the following when applied to this problem:
+          - sub-problem: generate solution automation workflow components
+            - sub-solution: to generate solution automation workflow components, find structures that can be used to build solution automation workflows (variables, structures like connection/interaction/difference structures)
+          - sub-problem: find alternate inputs of solution automation workflow components
+            - sub-solution: apply different interfaces & interface components like abstraction & system contexts to find alternate inputs of solution automation workflows
+          - sub-problem: generate new workflows
+            - sub-solution: apply interface analysis (& associated interface queries) to generate new workflows
+              - example: 
+                - apply the solution automation workflow 'apply useful interface components (like useful structures or system objects) to connect problem/solution'
+            - sub-solution: solve the alternate problems of 'find new difference types to apply or find conversion functions between interfaces & find new interfaces to apply to find new workflows'
+
     - identify the errors of the perspectives generating each set of workflow variables & remove the errors to change the perspective to a new perspective that can generate other variables
       - example:
         - the perspective of problem/solution components has an error of 'over-prioritizing the interaction layer involving those components' which is an error bc it reduces the chances of finding workflows involving other components like 'differences'
         - to change this perspective into another (like a perspective where 'differences' are a core component that is likelier to be identified as an input to problem-solving components like workflows), apply interfaces or conversion functions between them
       - solution success cause: 
         - this works bc there are alternative variable sets that can generate solution automation workflows, like 'interactive components', 'function sequences', 'core interaction functions', 'causes of solution success', 'insights to optimize problem-solving', etc - all of them are not required to be used to generate a workflow, even if you can find these structures in any system bc of their abstraction level
+      - solution requirement cause:
+        - this solution is necessary bc over-focusing on structures that are too certain/static will prevent difference types from being injected that can identify other variables
+        - its also necessary bc a variable thats adjacently structural on one interface may not be on another, so different variables on different interfaces makes sense as a requirement
 
     - identify causes answering the question of 'why is one problem format easier to solve than another format for a problem/problem space' & other questions relevent to problem-solving & apply them to make a problem easier to solve (optimize solutions)
       - example:
