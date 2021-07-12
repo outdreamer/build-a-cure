@@ -76,7 +76,14 @@
 
   - add to solution automation workflows
 
-    - identify causes answering the question of 'why is one problem format easier to solve than another format' & other questions relevent to problem-solving & apply them to make a problem easier to solve (optimize solutions)
+    - identify the errors of the perspectives generating each set of workflow variables & remove the errors to change the perspective to a new perspective that can generate other variables
+      - example:
+        - the perspective of problem/solution components has an error of 'over-prioritizing the interaction layer involving those components' which is an error bc it reduces the chances of finding workflows involving other components like 'differences'
+        - to change this perspective into another (like a perspective where 'differences' are a core component that is likelier to be identified as an input to problem-solving components like workflows), apply interfaces or conversion functions between them
+      - solution success cause: 
+        - this works bc there are alternative variable sets that can generate solution automation workflows, like 'interactive components', 'function sequences', 'core interaction functions', 'causes of solution success', 'insights to optimize problem-solving', etc - all of them are not required to be used to generate a workflow, even if you can find these structures in any system bc of their abstraction level
+
+    - identify causes answering the question of 'why is one problem format easier to solve than another format for a problem/problem space' & other questions relevent to problem-solving & apply them to make a problem easier to solve (optimize solutions)
       - example:
         - 'breaking a problem into sub-problems' makes a problem easier to solve bc of the cause that 'separates variables causing the problem and they are easier to solve in isolation'
         - apply this cause to generate other solution optimizations:
