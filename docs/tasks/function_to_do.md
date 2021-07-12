@@ -87,6 +87,15 @@
       - example:
         - the solution automation workflow 'generate possible solutions and filter them' applies a 'filter' structure bc the problem format involves 'many solutions' and the solution format involves 'one solution', the problem format being to 'find one solution out of the many possible solutions', and a filter can reduce the number of an object that is output, so it fulfills a problem-solving intent to connect these formats, given that in order to find one solution out of many possible solutions, a program would have to reduce the number of possible solutions in some way, so 'reduce' functions/structures like 'filters' are useful
 
+      - generate possible problem/solution formats to connect by applying error structures
+        - the above 'finding' problem has an error structure of 'excess possible solutions' or 'lack of solution filters'
+        - most structures would be problematic in particular contexts
+          - some structures are especially errors when applied to problem/solution components, like a 'lack of solution filters' as opposed to 'any lack of filters'
+        - other error structures involve structures that can be solved with core interaction functions
+          - 'connect' solves the error structure of 'lack of connection between problem & solution'
+          - 'mix' solves the error structure of 'find new solution' or 'find a random combination to solve obfuscation problem'
+          - 'break & combine' solves the error structure of 'complexity added by combined problem components' (where sub-problems are simpler to solve)
+
     - identify insights that optimize problem-solving, identify their variables & generate them to apply them dynamically to generate solution automation workflows
       - example:
         - the workflow 'break problem into sub-problems & combine sub-solutions' applies the insight 'smaller problems are easier to solve'
