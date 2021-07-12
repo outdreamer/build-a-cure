@@ -79,7 +79,9 @@
     - identify causes answering the question of 'why is something easier to solve than another format' & apply them to make a problem easier to solve (optimize solutions)
       - example:
         - 'breaking a problem into sub-problems' makes a problem easier to solve bc of the cause that 'separates variables causing the problem and they are easier to solve in isolation'
-
+        - apply this cause to generate other solution optimizations:
+          - apply this cause to the 'connect problem & solution' solution automation workflow to generate a new workflow or implement (specify) a workflow:
+            - isolate the variables of connection & connect them separately
 
     - identify structures with input/output structures like sequences that can be used to connect problems/solutions for a generated set of problem/solution formats
       - example:
