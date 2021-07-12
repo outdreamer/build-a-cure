@@ -136,10 +136,12 @@
       - this is a specific case of the general workflow 'simplify the problem, solve the simpler version, then check if the simple solution holds when complexity is added, or adjust the simpler solution for complicating structures'
       - its also a variant of the 'break problem into sub-problems & combine sub-solutions' solution automation workflow
 
-    - find any gaps in the workflows by applying change functions to workflows to find variants like general/specific versions of a workflow
+    - find any missing workflows by applying change functions to workflows to find variants like general/specific versions of a workflow
       - apply a workflow to various problems to find changes to apply to workflows to adapt them to specific problems, and add those changes to a general solution automation workflow
 
-    - convert workflows to other workflows to find missing variables to generate one workflow from another
+    - convert workflows to other workflows to find any missing variables to generate one workflow from another
+
+    - apply error structures to problem/solution components like solution automation workflows (like 'missing' error structure applied to 'worfklows') & known solutions to those error structures, and generate/identify new/specific error types in the problem-solving system & apply solutions to those error types
 
     - generate structures of difference (like 'difference sequences') and apply as components of workflows (similar to applying interaction structures, solution structures, optimization structures, relevance structures, or not-error structures)
       - solution success cause: this works bc in order to get from problem to solution, you have to apply differences to the problem/solution until theyre equivalent, bc they start as different, which is the problem
