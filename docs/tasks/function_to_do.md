@@ -129,7 +129,7 @@
           - if a problem is 'climbing a ladder', test if changing the problem to 'climbing a step' makes it easier to solve - if so, identify that the change was 'reducing' or 'simplifying' the problem to its 'unit' case, and test if this change simplifies other problems as well
 
       - how to identify/generate other insights that make problems easier to solve:
-        - any change that has an opposite effect ('change', 'reduce', 'neutralize', 'remove') on a component/cause/variable/structure of an error structure, or its generative system
+        - any change that has an opposite effect ('change', 'reduce', 'neutralize', 'remove') on a component/cause/variable/structure of an error structure, or its generative system, without causing other error structures
         - any function that connects inputs/outputs more efficiently than another function can make a problem of a relevant structure easier to solve (a more efficient 'reduction' function may be a better solution like 'filter' than a less efficient 'reduction' function like 'sort then filter')
 
     - solve problem for one component/variable/structure of the problem, then add other components of the problem and check if solution holds or modify it to fit the new component
@@ -140,6 +140,8 @@
       - apply a workflow to various problems to find changes to apply to workflows to adapt them to specific problems, and add those changes to a general solution automation workflow
 
     - convert workflows to other workflows to find any missing variables to generate one workflow from another
+
+    - identify & apply commonly useful structures by standardized structures of usefulness (like 'which structures have outputs that have common inputs for other functions', 'which are capable of generating many other components', 'which are inputs to structures of usefulness') to all functions/variables/components of problem/solution components
 
     - apply error structures to problem/solution components like solution automation workflows (like 'missing' error structure applied to 'worfklows') & known solutions to those error structures, and generate/identify new/specific error types in the problem-solving system & apply solutions to those error types
 
