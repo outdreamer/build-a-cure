@@ -36,7 +36,7 @@
           - over-prioritization of inputs (like 'resources/ability') rather than using inputs to reduce costs (like 'required inputs')
         - lack of solution structures (once structures like over-prioritization are noticed, no solution structures were there to offset it)
         - lack of alternatives (other alternatives to 'increase product quality' to offset lack of intent fulfillment in the 'output routing' functions werent in position or available)
-        - lack of opposite structures of competitor success (no monopoly or competitive moat or platform advantage in place)
+        - lack of opposite structures of competitor success (no monopoly or competitive moat or platform/supply chain/regulatory advantage in place)
         - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
 
   - add to science
@@ -94,6 +94,8 @@
       - this is a way to determine alternate causes of the same variable, given useful system objects like requirements & incentives
 
   - add to solution automation workflows
+
+    - solve for the adjacent problem of 'preventing problem inputs/outputs' or 'enabling solution inputs/outputs' instead of the original problem
 
     - identify optimal problem to solve & solve that instead
         
