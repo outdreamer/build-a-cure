@@ -88,16 +88,21 @@
                   - temperature can influence emotions, which are an important input to the stock market & other financial markets, and tropical temperatures lead to more tropical plants like coffee, and higher caffeine intake also leads to changes in emotions, and temperature also influences many commodity prices & prices influence other prices
                   - collusion can create unequal stress distribution, where market participants who play fair arent making fair gains relative to malicious players, which has an impact on the stock market & regulatory environment, which can influence other regulatory environments, which is an input to financial markets
             
-
             - causal variables can have different causal structures like a causal loop or causal alignments between interaction layers, but that doesnt mean the causal relationship where they cause the dependent variable is incorrect, its just incomplete
               - example:
-                - incomplete causal loop:
+                - incomplete causal loop
+                  - 'high temperate causes lack of work ethic, causing rise in temperature from pollution'
                 - incomplete causal interaction layer alignment
-                  - causative variables can be causative on a different interaction layer like an abstraction level of the problem, so including them as causal variables isnt incorrect, but excluding the other alternate variable sets would be incorrect bc it gives an incomplete structure of the causal connections
+                  - causative variables can be causative on a different interaction layer like an abstraction level of the problem
+                  - 'power is a causative concept and input is a causative structure but that doesnt mean they contradict each other - theyre aligning variables on different interfaces, bc power takes the form of inputs in the function format'
+                  - 'gravity can cause storms and so can electric charge, which are aligning causes on different interaction layers'
 
             - causative variables can have alternate causes (they might cause the dependent variable, but they might also be replaceable with alternate causes that also cause the dependent variable, with/out them)
+              - example:
+                - 'any source of energy can cause a storm, not just one like wind or gravity'
 
             - causative variables may seem interchangeable with other variable sets, while a hidden dependency exists, so theyre both required in order to predict the dependent variable
+              - 'a plant can develop according to the input variable of human intervention or the variable of biology rules' is incomplete bc human intervention is in a causal loop structure with biology, and may be considered a subset or output of biology
 
           - so even if you find out that a variable is correlated with the dependent variable, & created a prediction function that seems to work at some level of accuracy for now, you still havent solved the problem bc youve applied inaccurate structures/definitions/connections rather than those based on understanding
             - example:
@@ -108,11 +113,23 @@
             - 'how direct is the cause of this variable on the dependent variable'
             - 'how easy would it be to convert this variable into a causative variable' (how much work would you have to do like 'applying changes' to make the variable cause the dependent variable)
           
-          - this is where useful interface components like filters can be applied
-          - filters reduce the solution space, just like reducing the set of possible variables by 'directness of causation' is useful
+          - this is where useful interface components like 'filters' can be applied
+            - filters reduce the solution space, just like reducing the set of possible variables by 'directness of causation' is useful
         
-        - to find the optimal problem to solve, you would need to apply the causal interface to identify the accurate structures of causation (like directness, uniqueness, inevitability of cause) to identify causal relationships, rather than proxy signals of causation like 'correlation' and 'sequence'
-
+        - to find the optimal problem to solve in this specific case, you would need to apply the causal interface to identify the accurate structures of causation (like directness, uniqueness, inevitability of cause) to identify causal relationships, rather than proxy signals of causation like 'correlation' and 'sequence'
+        - to generalize finding the optimal problem to solve, you would apply interface components to determine if the original problem & problem structures like sub-problems are capable of solving the problem (fulfill solution metric like 'accuracy') or if there is potential for optimization by applying interface analysis
+        - solution automation workflow:
+          - in order to find out if the original/default problem structures are sufficient to fulfill a solution metric, analyze the assumptions of the problem & problem structures to check for error types in those structures, implying that optimizations are possible
+          - error types in problem structures include:
+            - contextually accurate structures (like connections, such as when conditional/proxy variables are used instead of root causes)
+              - like fragile/forced conditions, such as whether a correlation or an adjacent cause like bias is used as a cause
+            - missing/incomplete interface components like cause structures
+              - bias is caused by over-prioritization of simplicity and by economic uncertainty (finite/unequal resources, leading to resource competition, leading to the development & use of filtering rules, such as hiring decisions)
+              - bias is not the only cause, as the root cause is economic status & education, which has a causal loop structure with bias
+              - bias & economic uncertainty are both caused by economic status
+              - other causal structures exist between these variables, bc they encapsulate a vast degree of information (like history, decisions, agency, culture, habits, patterns, brain structures, and priorities), so can be treated as important or possibly even vertex variables
+          - the problem structures & their error structures can be compared/connected/reduced/combined until the solution structures (like the 'accuracy' metric) are reached, to check if they can adjacently fulfill the solution metric
+            - the 'isolating variable impact' sub-problem can create an 'accurate prediction function' solution format, but not in all cases of different input variable causal structures, so if the interim solution structure of the sub-problem structure of the "isolated variables' causal structures" have an error type (are incorrectly mapped to causal structures), they wont create the optimal 'accurate prediction function', fulfilling general optimization metrics like 'robustness' of the solution
 
     - finish applying solution automation workflows to the problem of 'generate solution automation workflows'
       - example:
