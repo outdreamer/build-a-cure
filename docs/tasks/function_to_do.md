@@ -97,6 +97,10 @@
 
     - solve for the adjacent problem of 'preventing problem inputs/outputs' or 'enabling solution inputs/outputs' instead of the original problem
 
+    - find overlapping problems with various problem components and solve for overlapping problems instead
+
+    - generate other variants of 'solve a different problem bc of optimizations fulfilled by solving the other problem (like using existing/adjacent resources)'
+
     - identify optimal problem to solve & solve that instead
         
         - the 'find a prediction function' problem has a default sub-problem of 'isolate each variable' and 'check if this variable impacts the dependent variable'
