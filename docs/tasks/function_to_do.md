@@ -117,15 +117,17 @@
             - filters reduce the solution space, just like reducing the set of possible variables by 'directness of causation' is useful
         
         - to find the optimal problem to solve in this specific case, you would need to apply the causal interface to identify the accurate structures of causation (like directness, uniqueness, inevitability of cause) to identify causal relationships, rather than proxy signals of causation like 'correlation' and 'sequence'
+        
         - to generalize finding the optimal problem to solve, you would apply interface components to determine if the original problem & problem structures like sub-problems are capable of solving the problem (fulfill solution metric like 'accuracy') or if there is potential for optimization by applying interface analysis
+        
         - solution automation workflow:
-          - in order to find out if the original/default problem structures are sufficient to fulfill a solution metric, analyze the assumptions of the problem & problem structures to check for error types in those structures, implying that optimizations are possible
+          - in order to find out if the original/default problem structures are sufficient to fulfill a solution metric, analyze the assumptions of the problem & problem structures to check for error types in those structures, implying that optimizations in the problem structures are possible, where there are default problem structures embedded in the problem statement or pulled from definitions or common solution workflows for a particular problem
           - error types in problem structures include:
             - contextually accurate structures (like connections, such as when conditional/proxy variables are used instead of root causes)
               - like fragile/forced conditions, such as whether a correlation or an adjacent cause like bias is used as a cause
             - missing/incomplete interface components like cause structures
               - bias is caused by over-prioritization of simplicity and by economic uncertainty (finite/unequal resources, leading to resource competition, leading to the development & use of filtering rules, such as hiring decisions)
-              - bias is not the only cause, as the root cause is economic status & education, which has a causal loop structure with bias
+              - bias is not the only cause, as the primary root cause is economic status & education, which has a causal loop structure with bias (the ultimate root cause being physics, an interim root cause being brain structure, and a more direct root cause being lack of information/testing tools to offset bias)
               - bias & economic uncertainty are both caused by economic status
               - other causal structures exist between these variables, bc they encapsulate a vast degree of information (like history, decisions, agency, culture, habits, patterns, brain structures, and priorities), so can be treated as important or possibly even vertex variables
           - the problem structures & their error structures can be compared/connected/reduced/combined until the solution structures (like the 'accuracy' metric) are reached, to check if they can adjacently fulfill the solution metric
