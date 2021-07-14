@@ -81,7 +81,37 @@
         - the 'find a prediction function' problem has a default sub-problem of 'isolate each variable' and 'check if this variable impacts the dependent variable'
           
           - this is the wrong sub-problem to solve, bc:
-            
+
+            - it may not be possible to isolate a variable's contribution to cause bc of a causal structure between causal variables that is neither totally independent or dependent
+              - if variables are independent, they can be isolated, and if theyre totally dependent, one can be used as a substitute of another
+              - example of a variable with various dependence causal structure:
+                - variables considered independent:
+                  - shape of the earth and the latest news headline
+                    - one is very constant and the other seems highly variable, but is becoming more constant as fundamental attributes of the earth become more relevant to news
+                - variables considered dependent:
+                  - the function caller requiring an output of a function, & the expected function output reliably created by the called function
+                    - this isnt perfect dependence bc the outputs of a function may not be produced even if the code is correct, bc of other variables like hardware, but its a good approximation of dependence given the definition route of input as a causal structure
+                - variables with mixed dependence:
+                  - variables involving structures of ambiguity may not be able to be isolated such as mixed causal structures like similar alternatives with unmeasurable differences having a conditional dependency between alternatives
+                    - for a problem of 'predict which equivalent route gets to the destination more optimally':
+                      - routes that seem independent (unrelated) may have built-in dependencies, like:
+                        - 'structural similarities'
+                        - 'opposite structures'
+                        - 'adjacent position'
+                        - 'route selection alternation preference, caused by a variation preference'
+                      - if you take the left/right route around an obstacle, it may not be measurable whether you made a better decision to get to your destination, because the other outputs of your route (leaning or looking one way more frequently) may be so negligible as to 
+                        - resolve themselves
+                        - never be measured in the first place
+                        - offset by other decisions (taking a different route next time for variation)
+                      - the routes may be equivalent or the differences may be immeasurable, and the output destination is the same, but the routes may also have a dependency that makes the input route variables (like left route frequency & right route frequency) of the output destination impossible to accurately isolate
+                      - they also cant be combined accurately into one variable (like 'route structure' or 'route adjacence') bc this erases the info about their dependency & any conditions impacting one route or a route's selection
+                          - whether you take a route may depend subconsciously on whether you took a different route previously (with a built-in preference for variation)
+                          - the route frequencies and other route variables like route structure would both have to be incorporated in this case bc they cant be reduced
+                        - one isolated component of the route variable might be sufficient to predict some variables (like whether a person develops a bias toward left/right), but they wont predict other variables (like vulnerability to natural disasters only impacting one route)
+                        - if you cant identify/measure the structures like prediction potential or differences/connections in the route variable structures, you cant isolate them
+                      - the dependency between alternatives may also be conditional
+                        - 'the left route only influences the right route if theres a condition changing their interaction or if an agent creates a dependency by choosing one based on the other'
+
             - everything has some connection to everything else
               - example:
                 - 'temperature' or 'collusion' in a particular industry like pharmaceuticals may seem unrelated to a problem like 'predict financial instrument markets', and variables like 'stock prices' might seem more relevant, but:
