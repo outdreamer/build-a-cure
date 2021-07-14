@@ -23,6 +23,22 @@
 
   - identify useful perspectives
 
+  - example of standardizing an error type:
+
+    - 'maximizing shareholder value': using outputs (profit) to attract investment/capital rather than re-investing in products
+      - calling 'routing outputs' function with intent to 'get more required inputs (like capital)' as a replacement of calling 'routing outputs' function with intent to 'make required inputs optional' has error structures with varying degrees:
+        - false trade-off (not mutually exclusive)
+          - outputs can be divided between both intents to create short-term & long-term gains
+        - false causal structure
+          - routing outputs with intent to 'increase product quality/variety' would fulfill the intent of 'attracting investment/capital'
+        - over-prioritization
+          - short-term gains
+          - over-prioritization of inputs (like 'resources/ability') rather than using inputs to reduce costs (like 'required inputs')
+        - lack of solution structures (once structures like over-prioritization are noticed, no solution structures were there to offset it)
+        - lack of alternatives (other alternatives to 'increase product quality' to offset lack of intent fulfillment in the 'output routing' functions werent in position or available)
+        - lack of opposite structures of competitor success (no monopoly or competitive moat or platform advantage in place)
+        - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
+
   - add to science
     - cancer cells' mutations might just be some of the more adjacent/common/interactive mutations out of all the mutations that are possible or actually occur with any frequency
       - if this is true & the primary cause, that means these mutations will continue occurring unless actively prevented
