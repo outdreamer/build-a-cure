@@ -76,6 +76,20 @@
 
   - add to solution automation workflows
 
+    - identify optimal problem to solve
+        - the 'find a prediction function' problem has a default sub-problem of 'isolate each variable' and 'check if this variable impacts the dependent variable'
+          - this is the wrong sub-problem to solve, bc:
+            - everything has some connection to everything else
+            - causative variables can have alternate causes (they might cause the dependent variable, but they might also be replaceable with alternate causes that also cause the dependent variable, with/out them)
+          - so even if you find out that a variable is correlated with the dependent variable, & created a prediction function that seems to work at some level of accuracy for now, you still havent solved the problem bc youve applied inaccurate structures/definitions/connections rather than those based on understanding
+            - this makes the default sub-problem a shortcut to solving the problem, but it wont always have good results bc of these inaccuracies built in to the assumptions of solving the problem that way
+          - so the right question is:
+            - 'how direct is the cause of this variable on the dependent variable'
+            - 'how easy would it be to convert this variable into a causative variable' (how much work would you have to do like 'applying changes' to make the variable cause the dependent variable)
+          - this is where useful interface components like filters can be applied
+          - filters reduce the solution space, just like reducing the set of possible variables by 'directness of causation' is useful
+        - to find the optimal problem to solve, you would need to apply the causal interface to identify the accurate structures of causation (like directness, uniqueness, inevitability of cause) to identify causal relationships, rather than proxy signals of causation like 'correlation' and 'sequence'
+
     - finish applying solution automation workflows to the problem of 'generate solution automation workflows'
       - example:
         - applying 'break problem into sub-problems & merge sub-solutions' takes the form of the following when applied to this problem:
