@@ -37,8 +37,11 @@
         - ultimately it should be possible by analyzing components like structures/functionality as combinable attack vectors, to calculate what diseases are possible/probable & will happen given a genome, their metadata like frequency & degree of impact on the host, and the substances/processes/stressors that can prevent or neutralize them
         - genomic data can be enhanced with data from output system & interaction structures
 
-    - the idea of a 'cure' may be invalid, the concept of a 'functional state' may be a more valid goal
+    - the idea of a 'cure' may be invalid, the concept of a 'functional state' may be a more useful goal
       - an example would be rather than returning someone to a prior or absolute state of optimal health, adjust their system to a state where its more functional, even if that functionality is distorted
+        - rather than returning to origin DNA state, find adjacent DNA state to avoid susceptibility to a condition or general conditions
+        - move bacteria from another region even if that reduces functionality in that region
+        - generate useful bacteria factories, even if it sometimes results in overpopulation problems
 
     - the theory of 'the universe as a simulation' is only now getting popular bc our brain structures & functions are such that we are only now recognizing the influence of physics on human decisions, noticing that we can influence these decisions, and therefore fake them, which reminds us of computer simulations
 
