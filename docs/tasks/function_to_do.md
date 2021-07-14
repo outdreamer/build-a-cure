@@ -95,11 +95,10 @@
 
   - add to solution automation workflows
 
-    - solve for the adjacent problem of 'preventing problem inputs/outputs' or 'enabling solution inputs/outputs' instead of the original problem
-
-    - find overlapping problems with various problem components and solve for overlapping problems instead
-
     - generate other variants of 'solve a different problem bc of optimizations fulfilled by solving the other problem (like using existing/adjacent resources)'
+      - find adjacent structures (like approximations/alternates/interchangeables) of problem/solution components and apply those as inputs to the solution automation workflow or interface query instead
+      - find overlapping problems with various problem components and solve for overlapping problems instead
+      - solve for the adjacent problem of 'preventing problem inputs/outputs' or 'enabling solution inputs/outputs' instead of the original problem
 
     - identify optimal problem to solve & solve that instead
         
