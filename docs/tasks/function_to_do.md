@@ -4,6 +4,9 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
  
+  - add to govt/war
+    - their lost loved ones wouldnt want them to seek revenge in isolation of context/meaning, bc it would destroy more innocent lives as collateral damage & continue the fight forever, they would want them to be the person who ends war forever
+
    - create configuration for 2-3 list items every day
 
       - create compilation script to compile code/config into a network graph on every change
@@ -11,6 +14,8 @@
         - add conversion to standard vocab
 
       - finish lists:
+        - most valuable interface queries & workflows
+          - find the sets of differences/dependencies/formats/errors & other useful structures that are the most valuable in a particular structure like a sequence to solve a problem
         - useful perspectives
           - useful to think of prediction functions as generative functions to select the variable interactions that are most likely
         - interface component definition routes
@@ -92,11 +97,17 @@
         - with intent to 'store excess mutations' bc 'mutations occurred for no reason other than structural damage'
       - the two intent sequences above overlap at the 'bright colors' node and diverge bc of different requirements, given their different positions relative to useful objects for survival (prey, predators, energy storage, change as energy)
       - this is a way to determine alternate causes of the same variable, given useful system objects like requirements & incentives
+    - attribute sequences to connect problem/solution
 
   - add to solution automation workflows
 
+    - rather than generating/deriving specific rules to implement a workflow, use known specific rules to implement a workflow or components of it
+      - example: "occam's razor" is a known rule that can be used to fulfill the 'filter solutions' component of the 'generate & filter possible solutions' workflow
+        - other known/optimal attribute filters can be used as solution filters
+        - solution filters that filter the solution space the most optimally for a metric like speed/completeness, in the right sequence/structure can also be derived & applied
+
     - generate other variants of 'solve a different problem bc of optimizations fulfilled by solving the other problem (like using existing/adjacent resources)'
-      - find adjacent structures (like approximations/alternates/interchangeables) of problem/solution components and apply those as inputs to the solution automation workflow or interface query instead
+      - find adjacent structures (like approximations/alternates/interchangeables/simplifications/subsets) of problem/solution components and apply those as inputs to the solution automation workflow or interface query instead
       - find overlapping problems with various problem components and solve for overlapping problems instead
       - solve for the adjacent problem of 'preventing problem inputs/outputs' or 'enabling solution inputs/outputs' instead of the original problem
 
