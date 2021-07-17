@@ -98,10 +98,14 @@
       - the two intent sequences above overlap at the 'bright colors' node and diverge bc of different requirements, given their different positions relative to useful objects for survival (prey, predators, energy storage, change as energy)
       - this is a way to determine alternate causes of the same variable, given useful system objects like requirements & incentives
     - attribute sequences to connect problem/solution
+      - example: a solution to this problem type has attribute sequence: complex, organized, filtered, isolated
 
   - add to solution automation workflows
 
-    - rather than generating/deriving specific rules to implement a workflow, use known specific rules to implement a workflow or components of it
+    - apply attribute structure patterns as another problem-solution connection format
+      - change a problem (input) until it fulfills an attribute in a problem-solution connecting attribute sequence, then fulfill the next attribute, etc
+
+    - rather than generating/deriving specific rules to implement a workflow, pull & apply known specific rules to implement a workflow or components of it
       - example: "occam's razor" is a known rule that can be used to fulfill the 'filter solutions' component of the 'generate & filter possible solutions' workflow
         - other known/optimal attribute filters can be used as solution filters
         - solution filters that filter the solution space the most optimally for a metric like speed/completeness, in the right sequence/structure can also be derived & applied
