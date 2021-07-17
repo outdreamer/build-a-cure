@@ -105,6 +105,8 @@
     - apply attribute structure patterns as another problem-solution connection format
       - change a problem (input) until it fulfills an attribute in a problem-solution connecting attribute sequence, then fulfill the next attribute, etc
 
+    - apply interface analysis to identify different versions of an insight or insight pattern in different interfaces, as insights are typically inputs to other insights so they can be used to generate them
+
     - rather than generating/deriving specific rules to implement a workflow, pull & apply known specific rules to implement a workflow or components of it
       - example: "occam's razor" is a known rule that can be used to fulfill the 'filter solutions' component of the 'generate & filter possible solutions' workflow
         - other known/optimal attribute filters can be used as solution filters
