@@ -100,10 +100,27 @@
     - attribute sequences to connect problem/solution
       - example: a solution to this problem type has attribute sequence: complex, organized, filtered, isolated
 
+  - finish identifying & applying other problem/solution components
+      - insights/insight patterns: identify the variables of insight generation (such as structures like difference types/degrees, like 'applying a mixed different/similar system with various difference/similarity types to another system, with intent to understand the other system') and apply these variables to generate insights that can be applied to solve a problem
+
   - add to solution automation workflows
 
-    - apply attribute structure patterns as another problem-solution connection format
-      - change a problem (input) until it fulfills an attribute in a problem-solution connecting attribute sequence, then fulfill the next attribute, etc
+    - derive interactions between problem/solution components to derive solution automation workflows from those interactions
+      - example:
+        - 'break a problem into sub-problems and solve separately, then merge/integrate into solution' works bc:
+          - component function between components of a problem & the complete problem
+            - a problem can be broken into components (like core functions, or components of inputs like problem variables) like anything else, and 'solving a component of the problem' makes progress toward fulfilling the intent of 'solving the complete problem'
+        - 'generate solution space of possible solutions & filter by solution metrics' works bc:
+          - subset function between solution & solution space:
+            - 'a solution ia necessarily a subset of all possibilities in the solution space'
+            - 'the solution space is a subset of all possibilities'
+
+    - apply other component structure patterns (like attributes/functions) as another problem-solution connection format
+      - change a problem (input) structure until it fulfills an attribute in a problem-solution connecting attribute sequence like the following, then fulfill the next attribute, etc
+        - attribute sequences
+          - 'complex, organized, filtered, isolated, simple'
+          - 'abstract, random, grouped, relevant, matched, compared, equated'
+        - function sequences
 
     - apply interface analysis to identify different versions of an insight or insight pattern in different interfaces, as insights are typically inputs to other insights so they can be used to generate them
 
