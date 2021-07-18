@@ -105,11 +105,16 @@
 
   - add to solution automation workflows
 
-    - derive interaction functions/structures between problem/solution components to derive solution automation workflows from those interactions
+    - derive other interaction functions/structures between problem/solution components to derive solution automation workflows from those interactions
       - example:
         - 'break a problem into sub-problems and solve separately, then merge/integrate into solution' works bc of the solution success cause:
           - interaction function: component function between components of a problem & the complete problem
             - a problem can be broken into components (like core functions, or components of inputs like problem variables) like anything else, and 'solving a component of the problem' makes progress toward fulfilling the intent of 'solving the complete problem'
+
+          - other solution success causes:
+            - another reason a 'component' structure works when applied to a problem is that there may be existing/adjacent solutions for sub-problems rather than the original problem, so this structure offers a different way to connect problem/solution
+            - this also works bc it applies a known core interaction function of problems/solutions ('reduce') to the problem, 'reducing' it into sub-problems, so it's already moving closer to a solution given problem/solution interaction functions & their patterns
+
         - 'generate solution space of possible solutions & filter by solution metrics' works bc of the solution success cause:
           - interaction function: subset function between solution & solution space
             - 'a solution ia necessarily a subset of all possibilities in the solution space'
@@ -120,11 +125,13 @@
         - 'apply changes to existing solutions known not to work & test' works bc of the solution success cause:
           - interaction function: difference structure
             - 'by definition a solution that works will be different from solutions that dont work'
-        - 'start from certainties and apply certainty interaction functions to generate or reach a solution' works bc of the solution success cause:
+        - 'start from system of certainties and apply certainty interaction functions to generate or reach a solution' works bc of the solution success cause:
           - interaction function: certainty interaction layer
             - the solution is the target certainty, and applying interaction (connecting/changing) functions specific to certainties to an initial certainty will generate other certainties, like the solution structure, and/or reduce uncertainties like the unfiltered solution space of possible solutions
-      - these interaction structures (subset, component, similarity sequence, difference) offer different ways to connect problem & solution components, offering different ways to connect problems/solutions
-        - the reason a 'component' structure works when applied to a problem is that there may be existing/adjacent solutions for sub-problems rather than the original problem, so this structure offers a different way to connect problem/solution
+      - these interaction structures (subset, component, similarity sequence, difference) offer different ways to connect problem & solution components, offering different ways to connect problems/solutions        
+        - other interaction structures/functions can be derived/generated to connect problem/solution components in new ways
+          - any interaction function applied to problem/solution components that doesnt violate their definitions is a possible problem/solution interaction function
+          - filter these by which functions interact in a way that can make progress toward or fulfill a problem-solving intent (like 'connect problem/solution' or 'reduce problem')
 
     - apply other component structure patterns (like attributes/functions) as another problem-solution connection format
       - change a problem (input) structure until it fulfills an attribute in a problem-solution connecting attribute sequence like the following, then fulfill the next attribute, etc
