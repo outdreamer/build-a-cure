@@ -105,15 +105,26 @@
 
   - add to solution automation workflows
 
-    - derive interactions between problem/solution components to derive solution automation workflows from those interactions
+    - derive interaction functions/structures between problem/solution components to derive solution automation workflows from those interactions
       - example:
-        - 'break a problem into sub-problems and solve separately, then merge/integrate into solution' works bc:
-          - component function between components of a problem & the complete problem
+        - 'break a problem into sub-problems and solve separately, then merge/integrate into solution' works bc of the solution success cause:
+          - interaction function: component function between components of a problem & the complete problem
             - a problem can be broken into components (like core functions, or components of inputs like problem variables) like anything else, and 'solving a component of the problem' makes progress toward fulfilling the intent of 'solving the complete problem'
-        - 'generate solution space of possible solutions & filter by solution metrics' works bc:
-          - subset function between solution & solution space:
+        - 'generate solution space of possible solutions & filter by solution metrics' works bc of the solution success cause:
+          - interaction function: subset function between solution & solution space
             - 'a solution ia necessarily a subset of all possibilities in the solution space'
             - 'the solution space is a subset of all possibilities'
+        - 'apply changes to existing solutions to similar problems & test' works bc of the solution success cause:
+          - interaction function: similarity sequence
+            - 'similar objects, like similar problems, will have attributes in common, and so will objects related to them in a similar way (their solutions)'
+        - 'apply changes to existing solutions known not to work & test' works bc of the solution success cause:
+          - interaction function: difference structure
+            - 'by definition a solution that works will be different from solutions that dont work'
+        - 'start from certainties and apply certainty interaction functions to generate or reach a solution' works bc of the solution success cause:
+          - interaction function: certainty interaction layer
+            - the solution is the target certainty, and applying interaction (connecting/changing) functions specific to certainties to an initial certainty will generate other certainties, like the solution structure, and/or reduce uncertainties like the unfiltered solution space of possible solutions
+      - these interaction structures (subset, component, similarity sequence, difference) offer different ways to connect problem & solution components, offering different ways to connect problems/solutions
+        - the reason a 'component' structure works when applied to a problem is that there may be existing/adjacent solutions for sub-problems rather than the original problem, so this structure offers a different way to connect problem/solution
 
     - apply other component structure patterns (like attributes/functions) as another problem-solution connection format
       - change a problem (input) structure until it fulfills an attribute in a problem-solution connecting attribute sequence like the following, then fulfill the next attribute, etc
