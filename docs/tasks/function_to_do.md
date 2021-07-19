@@ -105,7 +105,14 @@
 
   - add to solution automation workflows
 
-    - convert problem to standard problem, find standard/base solution, and map difference types to intent to apply when a different problem is input that can be solved with differences applied to the standard solution 
+    - convert problem to standard problem, find standard/base solution, and map difference types to intent to apply when a different problem is input that can be solved with differences applied to the standard solution
+      - example: 
+        - when a function has multiple variables, apply difference type 'partial' to a derivative function and 'subset' to the 'partial derivative' input (find a partial derivative for one of the multiple variables)
+        - when you need to solve a different problem 'find a derivative function for a function of x, y, & z', that differs from a standard/base problem (like 'find a derivative function for a function of x'), apply the differences that map with the intents of those differences
+          - the relevant 'intent' of adding 'multiple' structure to the 'input variable' structure (the intent relevant to the problem) is 'find a derivative for each variable'
+            - to get to this intent, apply the intent map: 'multiple': ['partial', 'subset']
+              - apply the 'partial' and 'subset' structures to the standard solution once the 'multiple' structure is added to the standard problem
+          - an adjacent/direct intent of adding 'multiple' structure to the 'input variable' structure is ('add a variable' or 'vary an existing variable', where the variable is 'number of input variables')
 
     - apply useful vertex rules from other systems after standardizing to a problem system
       - example: a useful physics rule is 'like attracts like' 
