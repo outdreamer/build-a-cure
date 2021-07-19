@@ -105,6 +105,10 @@
 
   - add to solution automation workflows
 
+    - find the most testable solution structures (like components of a solution) that are the most testably true/false & apply those structures when building a solution
+      - example: for the 'find a prediction function' problem, find the probable subset functions that can be proved as true/false the quickest & assemble a prediction function out of those functions or adjustments to them to fit in or fit together with the other functions (like in a subset function sequence or fit together for continuity/curvature or fit into the same function with adjustments)
+      - workflow fit: this is similar to the 'find the most different possibilities to form a solution space and start filtering/testing/adjusting those to find a solution' or 'find the vertex variables as an approximation to a complete function' solutions or workflows, but optimizing for 'testability' rather than 'important variables' or 'maximum difference in possible solutions' as a solution filter to speed up finding a solution
+
     - apply structural interface to derive & build structures that will solve problem structures of a particular solution automation workflow and an organizing structure to integrate them once solved (like a 'problem state sequence' or a 'solution metric filter')
       - example:
         - just like the 'prisonners dilemma' structure is a structure that solves the question of 'which choice is more often optimal, as in producing better outcomes more often', and a 'pinball machine' structure solves the question of 'which structures will a ball traverse', certain structures can resolve questions more efficiently than others
