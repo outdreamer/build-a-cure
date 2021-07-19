@@ -110,9 +110,18 @@
         - when a function has multiple variables, apply difference type 'partial' to a derivative function and 'subset' to the 'partial derivative' input (find a partial derivative for one of the multiple variables)
         - when you need to solve a different problem 'find a derivative function for a function of x, y, & z', that differs from a standard/base problem (like 'find a derivative function for a function of x'), apply the differences that map with the intents of those differences
           - the relevant 'intent' of adding 'multiple' structure to the 'input variable' structure (the intent relevant to the problem) is 'find a derivative for each variable'
-            - to get to this intent, apply the intent map: 'multiple': ['partial', 'subset']
+            - to fulfill this intent, apply the intent map: 'multiple': ['partial', 'subset', 'iterate']
               - apply the 'partial' and 'subset' structures to the standard solution once the 'multiple' structure is added to the standard problem
+              - in other words:
+                - to achieve a 'multiple' difference type applied to the input variable count of the original standard problem, apply 'partial' to the standard solution component ('derivative') of a 'subset' of each ('iterate') of the input variables
           - an adjacent/direct intent of adding 'multiple' structure to the 'input variable' structure is ('add a variable' or 'vary an existing variable', where the variable is 'number of input variables')
+
+      - workflow fit: this is simlar to applying the intent interface but adds a starting position of a 'standard solution' mapped to a 'standard problem', for problems where a standard solution is available, rather than for example assembling structures fulfilling various relevant intents, such as intents for sub-problem or problem component structures
+
+      - solution success cause:
+        - this works bc a standard known solution for a related standard problem offers an 'interface' problem to use as a base to apply changes to
+        - it uses the fact that 'similar problems will often have similar solutions'
+        - it also uses the fact that a structure 'mapping differences to intents' is useful for 'mapping solution differences to intents' where intents can be derived from the problem, as 'different solutions' is a relevant object in this workflow
 
     - apply useful vertex rules from other systems after standardizing to a problem system
       - example: a useful physics rule is 'like attracts like' 
