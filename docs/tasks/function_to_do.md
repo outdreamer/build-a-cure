@@ -105,9 +105,20 @@
 
   - add to solution automation workflows
 
-    - find the most testable solution structures (like components of a solution) that are the most testably true/false & apply those structures when building a solution
+    - find a solution that is at least partially correct (like a solution that almost works) and determine solution success cause, then apply that as a solution metric filter or a solution structure like a solution component
+      - example: for the 'find a prediction function' problem, a partially correct solution function might work bc it has a 'similarity' to an 'average function'
+        - once you know that, you can use that as:
+          - a solution component & apply other workflows to construct the rest of the solution, while including that component as an input requirement to other workflows
+          - a solution metric filter & apply that as inputs to other solution automation workflows, like:
+            - 'create a structure of solution metric filters as solution requirements acting as limit structures in a solution template'
+
+    - find the most testable solution structures (like 'solution components') that are the most testably true/false & apply those structures when building a solution
       - example: for the 'find a prediction function' problem, find the probable subset functions that can be proved as true/false the quickest & assemble a prediction function out of those functions or adjustments to them to fit in or fit together with the other functions (like in a subset function sequence or fit together for continuity/curvature or fit into the same function with adjustments)
-      - workflow fit: this is similar to the 'find the most different possibilities to form a solution space and start filtering/testing/adjusting those to find a solution' or 'find the vertex variables as an approximation to a complete function' solutions or workflows, but optimizing for 'testability' rather than 'important variables' or 'maximum difference in possible solutions' as a solution filter to speed up finding a solution
+      - workflow fit: this is similar to the solutions or workflows:
+        - 'find the most different possibilities to form a solution space and start filtering/testing/adjusting those to find a solution'
+        - 'find the vertex variables as an approximation to a complete function' 
+        - 'construct solution template using requirements as limit structures'
+        but optimizing for 'testability' (rather than 'important variables' or 'maximum difference in possible solutions' or 'solution requirement limits') as a solution filter to speed up finding a solution
 
     - apply structural interface to derive & build structures that will solve problem structures of a particular solution automation workflow and an organizing structure to integrate them once solved (like a 'problem state sequence' or a 'solution metric filter')
       - example:
