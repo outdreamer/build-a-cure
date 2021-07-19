@@ -111,6 +111,11 @@
           - a solution component & apply other workflows to construct the rest of the solution, while including that component as an input requirement to other workflows
           - a solution metric filter & apply that as inputs to other solution automation workflows, like:
             - 'create a structure of solution metric filters as solution requirements acting as limit structures in a solution template'
+      - workflow fit: this is similar to the workflows of:
+        1. 'solving one component of the problem at a time, then solving the next in the sequence'
+        2. 'find a solution that is sub-optimal and apply changes to optimize it'
+        3. 'apply inputs of solutions (like causes of solution success) to create solutions'
+        but combines other components of the other workflows, like the 'starting position' of workflow 2, a 'function' used in workflow 1, and the general 'structure' of workflow 3
 
     - find the most testable solution structures (like 'solution components') that are the most testably true/false & apply those structures when building a solution
       - example: for the 'find a prediction function' problem, find the probable subset functions that can be proved as true/false the quickest & assemble a prediction function out of those functions or adjustments to them to fit in or fit together with the other functions (like in a subset function sequence or fit together for continuity/curvature or fit into the same function with adjustments)
