@@ -112,6 +112,10 @@
           - if the problem is resolving a set of variables in a particular order, arrange a sequence of gap structures & apply changes until each variable is resolved in the right input/output sequence, such as to solve the problem of 'determining variables that cause each other'
           - if the problem is finding out which set of path steps is optimal, organize problem states in a maze structure, where error paths end in a barrier so an agent cant continue to the destination
       - these structures implement the workflow 'break a problem into sub-problems & merge sub-solutions' or 'solve sub-problems one at a time in a sequence to help solve later sub-problems' or 'filter the solution space' or 'connect problem/solution with a format sequence', by assigning structure to sub-problems or interim states, then applying change functions until the sub-problem is solved
+      - fit with other workflows:
+        - rather than applying only a specific solution automation workflow to the problem, this workflow designs a structure to solve relevant problem structures (like 'sub-problems' or 'the problem of connecting sub-problems' or 'changing problem state in a way that makes progress toward a solution metric') by applying changes
+
+    - identify workflow fit attribute (how a workflow fits with or relates to other workflows) to identify new variables of workflows or change types that can be applied to generate workflows using an input workflow or identify missing workflows
 
     - derive other interaction functions/structures between problem/solution components to derive solution automation workflows from those interactions
       - example:
