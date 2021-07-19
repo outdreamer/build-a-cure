@@ -136,7 +136,7 @@
         3. 'apply inputs of solutions (like causes of solution success) to create solutions'
         but combines other components of the other workflows, like the 'starting position' of workflow 2, a 'function' used in workflow 1, and the general 'structure' of workflow 3
 
-    - find the most testable solution structures (like 'solution components') that are the most testably true/false & apply those structures when building a solution
+    - identify possible solution structures that are the most testable (like 'solution components'), as in the most testably true/false & apply those structures when building a solution
       - example: for the 'find a prediction function' problem, find the probable subset functions that can be proved as true/false the quickest & assemble a prediction function out of those functions or adjustments to them to fit in or fit together with the other functions (like in a subset function sequence or fit together for continuity/curvature or fit into the same function with adjustments)
       - workflow fit: this is similar to the solutions or workflows:
         - 'find the most different possibilities to form a solution space and start filtering/testing/adjusting those to find a solution'
@@ -146,10 +146,11 @@
 
     - apply structural interface to derive & build structures that will solve problem structures of a particular solution automation workflow and an organizing structure to integrate them once solved (like a 'problem state sequence' or a 'solution metric filter')
       - example:
-        - just like the 'prisonners dilemma' structure is a structure that solves the question of 'which choice is more often optimal, as in producing better outcomes more often', and a 'pinball machine' structure solves the question of 'which structures will a ball traverse', certain structures can resolve questions more efficiently than others
+        - just like the 'prisonners dilemma' structure is a structure that solves the question of 'which choice is more often optimal, as in producing better outcomes more often', and a 'pinball machine' structure solves the question of 'which structures will a ball traverse given input variable values like direction/speed', certain structures can resolve questions more efficiently than others
         - build a structure (like a network, maze, game, or sequence of gaps) to represent variables to resolve that are organized in a way that solves the problem according to the selected workflow
           - if the problem is 'resolving order of a set of variables', build a sequence of gap structures & apply changes until each variable is resolved in the right input/output sequence, such as to solve the problem of 'determining variables that cause each other in an input/output sequence'
-          - if the problem is finding out which set of path steps is optimal, organize problem states in a maze structure, where error paths end in a barrier so an agent cant continue to the destination
+          - if the problem structure is a 'complexity', apply complexity-reduction structures or organizing structures like mapping/sorting/clustering/prediction algorithms to organize & resolve problem structures that are complexities
+          - if the problem is 'finding out which set of path steps is optimal', organize problem states in a maze structure, where error paths end in a barrier so an agent cant continue to the destination
       - these structures assign structure to workflow-specific problem structures (like sub-problems or interim problem states), then apply change & test functions until the problem structure is solved
         - 'break a problem into sub-problems & merge sub-solutions'
         - 'solve sub-problems one at a time in a sequence to help solve later sub-problems'
