@@ -105,15 +105,21 @@
 
   - add to solution automation workflows
 
-    - derive & build structures that will solve a problem based on a particular solution automation workflow
+    - apply structural interface to derive & build structures that will solve problem structures of a particular solution automation workflow and an organizing structure to integrate them once solved (like a 'problem state sequence' or a 'solution metric filter')
       - example:
         - just like the 'prisonners dilemma' structure is a structure that solves the question of 'which choice is more often optimal, as in producing better outcomes more often', and a 'pinball machine' structure solves the question of 'which structures will a ball traverse', certain structures can resolve questions more efficiently than others
-        - construct a structure (like a network, maze, game, or sequence of gaps) to represent variables to resolve that are organized in a way that solves the problem according to the selected workflow
-          - if the problem is resolving a set of variables in a particular order, arrange a sequence of gap structures & apply changes until each variable is resolved in the right input/output sequence, such as to solve the problem of 'determining variables that cause each other'
+        - build a structure (like a network, maze, game, or sequence of gaps) to represent variables to resolve that are organized in a way that solves the problem according to the selected workflow
+          - if the problem is 'resolving order of a set of variables', build a sequence of gap structures & apply changes until each variable is resolved in the right input/output sequence, such as to solve the problem of 'determining variables that cause each other in an input/output sequence'
           - if the problem is finding out which set of path steps is optimal, organize problem states in a maze structure, where error paths end in a barrier so an agent cant continue to the destination
-      - these structures implement the workflow 'break a problem into sub-problems & merge sub-solutions' or 'solve sub-problems one at a time in a sequence to help solve later sub-problems' or 'filter the solution space' or 'connect problem/solution with a format sequence', by assigning structure to sub-problems or interim states, then applying change functions until the sub-problem is solved
+      - these structures assign structure to workflow-specific problem structures (like sub-problems or interim problem states), then apply change & test functions until the problem structure is solved
+        - 'break a problem into sub-problems & merge sub-solutions'
+        - 'solve sub-problems one at a time in a sequence to help solve later sub-problems'
+        - 'filter the solution space by applying highly reductive filters'
+        - 'connect problem/solution with a format sequence'
       - fit with other workflows:
-        - rather than applying only a specific solution automation workflow to the problem, this workflow designs a structure to solve relevant problem structures (like 'sub-problems' or 'the problem of connecting sub-problems' or 'changing problem state in a way that makes progress toward a solution metric') by applying changes
+        - rather than applying only a specific solution automation workflow to the problem, this workflow designs a structure to solve relevant problem structures (like 'sub-problems' or 'the problem of connecting sub-problems' or 'changing problem state in a way that makes progress toward a solution metric') by applying changes (like 'move a ball around the pinball machine' or 'decide which route to go in the maze') and testing if a solution metric is fulfilled ('like hitting the right structures' or 'selecting a route that can exit the maze')
+        - this is a 'mix' structure applied to solution automation workflows:
+          - it injects a workflow 'apply changes & filter output with solution metric tests' into the workflow of 'apply structural interface to design a structure that can solve problem structures with available change functions in those structures' which can be applied to workflows where problem structures like sub-problems or interim problem states exist (like 'reduce problem' and 'connect problem with solution') instead of another workflow
 
     - identify workflow fit attribute (how a workflow fits with or relates to other workflows) to identify new variables of workflows or change types that can be applied to generate workflows using an input workflow or identify missing workflows
 
