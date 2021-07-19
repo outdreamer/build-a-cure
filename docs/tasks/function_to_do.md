@@ -105,7 +105,9 @@
 
   - add to solution automation workflows
 
-    - apply useful rules from other systems after standardizing to a problem system
+    - convert problem to standard problem, find standard/base solution, and map difference types to intent to apply when a different problem is input that can be solved with differences applied to the standard solution 
+
+    - apply useful vertex rules from other systems after standardizing to a problem system
       - example: a useful physics rule is 'like attracts like' 
         - what is a causative structure:
           - applying this to other systems indicates the usefulness of 'similarities'
