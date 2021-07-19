@@ -105,6 +105,20 @@
 
   - add to solution automation workflows
 
+    - apply useful rules from other systems after standardizing to a problem system
+      - example: a useful physics rule is 'like attracts like' 
+        - applying this to other systems indicates the usefulness of 'similarities'
+        - applying this to a problem system would generate workflows such as: 
+          - 'apply solutions to similar problems & adjust to create similarities to the original problem system so the solution/problem fit/interact'
+          - 'a similar structure to a similarity is a difference (which are only a few changes away, as they are almost opposite structures), so differences are also a useful structure that can be applied'
+          - 'change the problem until its similar to the solution (connect problem/solution by equating them'
+      - this rule is particularly useful bc its:
+        - core/fundamental (that can be used to build other rules or be used as a foundation for other rules to develop)
+        - powerful (impacts many interactions)
+        - abstract (can be applied to many layers/systems bc it interacts with a core concept/structure like 'similarity')
+      - other useful rules can be identified using these & other attributes that differentiate useful rules
+      - workflow fit: this is similar to 'apply insights to implement a solution automation workflow' but is different in that it applies generally 'useful rules' (which have attributes like causative power, core importance, abstract structures) rather than insights ('rules useful for specific intents like generating new understanding')
+
     - find a solution that is at least partially correct (like a solution that almost works) and determine solution success cause, then apply that as a solution metric filter or a solution structure like a solution component
       - example: for the 'find a prediction function' problem, a partially correct solution function might work bc it has a 'similarity' to an 'average function'
         - once you know that, you can use that as:
