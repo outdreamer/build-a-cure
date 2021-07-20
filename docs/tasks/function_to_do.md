@@ -103,7 +103,36 @@
   - finish identifying & applying other problem/solution components
       - insights/insight patterns: identify the variables of insight generation (such as structures like difference types/degrees, like 'applying a mixed different/similar system with various difference/similarity types to another system, with intent to understand the other system') and apply these variables to generate insights that can be applied to solve a problem
 
+  - finish applying interfaces to problem/solution structures
+    - intent: derive intent maps & align intents on multiple problem/solution structure layers, like problem-solution connection and sub-problem or problem/solution component connections
+    - logic: derive interactive structures given logical rules like equivalences used as connecting functions
+    - definition: apply problem/solution structure definitions to determine their possible interactions
+    - cause: find solution success cause and generate solution automation workflows from that
+
+  - example of multiple ways to solve a problem
+    - multiple ways to solve the 'find if a particular number is in a random sequence & find its position' problem
+      - iterate through the sequence & check
+      - filter the solution space of all possible sequences & approximate an answer by checking various points with solution filters
+        - apply the definition of generative function's 'random' definition if available to identify error types possible/expected
+        - apply the general definition of 'random' and 'probability' to find filter structures of likely sequences, which has probability-based filter structures when applied to a 'random number sequence' structure, like:
+          - the sequence structure is likely to not have clear patterns in it (patterns that imply that it can be reduced to a function other than a random function)
+          - the sequence structure is likely to not have a pattern that applies to the entire sequence (a pattern may occur, but is likely to only occur in a subset, the larger the sequence is)
+          - if most positions do not have the number, its likely that remaining positions do have the number given possible patterns not ruled out by most positions (rather than finding a long sequence that doesnt contain the number, which is less likely than most numbers appearing in a long sequence at least once)
+        - apply patterns of probability patterns as filters
+          - how likely is it that 'if most positions do not have the number, its likely that remaining positions do have the number' produces an error?
+
   - add to solution automation workflows
+
+    - apply the useful 'maximum difference' structure to find 'maximally different solutions' and use those as an initial solution space to filter, or 'maximally different solution component sets' or other problem/solution structures to assemble/filter/connect problem/solution components
+      - variant of the 'apply maximally different solution filters' workflow
+
+    - find a solution & apply error types to a solution to identify if the error types produce the expected output of an error type
+      - example: 
+        - for the 'find a prediction function' problem, identify an approximate prediction function & apply error types to it
+          - apply the 'incorrect assumption' error type
+            - does the prediction function have the expected errors if you change the assumptions (input variables & variable values, problem statement, other assumptions like that the independent variables are causative at all & not coincidentally correlated)
+          - apply the 'incorrect causal structure' error type:
+            - does the prediction function have the expected errors if you change its causal structures?
 
     - convert problem to standard problem, find standard/base solution, and map difference types to intent to apply when a different problem is input that can be solved with differences applied to the standard solution
       - example: 
