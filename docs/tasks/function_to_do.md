@@ -126,6 +126,13 @@
 
   - add to solution automation workflows
 
+    - find or generate structures of difference between multiple solutions & derive solution success cause of each, and apply those differences when one solution doesnt work, based on changes in solution success cause (conditionally generate different solutions based on changing inputs)
+      - example: different solutions to the 'find a prediction function' problem involve differences like:
+        - differences in variability between data set points
+        - number of traversed data set points of a function
+        - difference between the function & corresponding data points
+      - applying these variables to a sub-optimal solution when a solution is determined to be sub-optimal for a particular input condition (which may not be known) allows a rotation of the available/generated solutions to find one that is successful for a different input condition
+
     - apply the useful 'maximum difference' structure to all problem/solution components, like find 'maximally different solutions' and use those as an initial solution space to filter/adjust quickly, or 'maximally different solution component sets' or other problem/solution structures to assemble/filter/connect problem/solution components
       - variant of the 'apply maximally different solution filters' workflow
 
