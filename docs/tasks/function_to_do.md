@@ -108,6 +108,9 @@
     - logic: derive interactive structures given logical rules like equivalences used as connecting functions
     - definition: apply problem/solution structure definitions to determine their possible interactions
     - cause: find solution success cause and generate solution automation workflows from that
+    - change: 
+      - find changes to problem/solution structures that still allow the structures to interact
+      - find remaining variables of interactions
 
   - example of multiple ways to solve a problem
     - multiple ways to solve the 'find if a particular number is in a random sequence & find its position' problem
@@ -123,7 +126,7 @@
 
   - add to solution automation workflows
 
-    - apply the useful 'maximum difference' structure to find 'maximally different solutions' and use those as an initial solution space to filter, or 'maximally different solution component sets' or other problem/solution structures to assemble/filter/connect problem/solution components
+    - apply the useful 'maximum difference' structure to all problem/solution components, like find 'maximally different solutions' and use those as an initial solution space to filter/adjust quickly, or 'maximally different solution component sets' or other problem/solution structures to assemble/filter/connect problem/solution components
       - variant of the 'apply maximally different solution filters' workflow
 
     - find a solution & apply error types to a solution to identify if the error types produce the expected output of an error type
@@ -133,6 +136,7 @@
             - does the prediction function have the expected errors if you change the assumptions (input variables & variable values, problem statement, other assumptions like that the independent variables are causative at all & not coincidentally correlated)
           - apply the 'incorrect causal structure' error type:
             - does the prediction function have the expected errors if you change its causal structures?
+      - if applying these error types produces the expected errors (rather than improving the accuracy of the solution), the solution is likelier to be correct or approximately correct
 
     - convert problem to standard problem, find standard/base solution, and map difference types to intent to apply when a different problem is input that can be solved with differences applied to the standard solution
       - example: 
