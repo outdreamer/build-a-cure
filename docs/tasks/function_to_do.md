@@ -141,6 +141,12 @@
       - applying these solution-connection rules to find adjacent optimal solutions to sub-optimal solutions is a way to work around the problem of 'trial & error (trying every combination)' to filter the solution space
       - workflow fit: this is similar to the 'apply changes to solutions to find other solutions, based on differences in intent/structure associated with those changes' but applies the pattern interface to these solution structure connections to inject the useful interface component 'probability' into the success of solutions, given the applied solution success cause 'patterns indicate a consistent connection that may be useful as a prediction rule to reduce uncertainty' (so applying connection patterns as a guide of queries is a way to increase the probability of finding certainties like true variable connections)
 
+    - identify & apply other important structures that offset error types (that are important across problems/systems) to problem/solution structures as a way of improving solutions given an initial sub-optimal solution
+      - example:
+        - applying 'probability' structures like patterns & other probability structures reduces the error types related to not considering probability structures
+          - such as the logical fallacy of 'assuming there isnt value in a high-cost, low-reward direction bc of prior costs' which doesnt account for outliers, threshold values & resulting phase shifts, & other probability structures indicating a complex system that isnt governed by just that cost/benefit
+      - workflow fit: this is a general variant of the above workflow 'apply rules/patterns of solution connections' with the addition of identifying other important structures to consider when solving a problem optimally where they are not already known & deriving structures to neutralize that error type where there arent already known structures to neutralize it & applying those neutralizing structures
+
     - find or generate structures of difference between multiple solutions & derive solution success cause of each, and apply those differences when one solution doesnt work, based on changes in solution success cause (conditionally generate different solutions based on changing inputs)
       - example: different solutions to the 'find a prediction function' problem involve differences like:
         - differences in variability between data set points
