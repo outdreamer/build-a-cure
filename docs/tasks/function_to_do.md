@@ -126,10 +126,12 @@
 
   - add to solution automation workflows
 
-    - apply patterns of solution connections to identify when a more optimal solution is adjacent to a sub-optimal solution
+    - apply rules/patterns of solution connections to identify when a more optimal solution is adjacent to a sub-optimal solution (to offset the error type 'failing to pursue a direction when a more optimal solution is adjacent bc of prior cost from that pursuit')
       - just like the 'identify absolute minima/maxima' problem solved by methods like 'gradient descent', optimal solutions are often adjacent to the selected sub-optimal solution, but arent found bc of lack of understanding of solution patterns, connections & probabilities
       - solutions follow patterns revealing rules in their connections
         - some solutions are connected by an adjacent function, like an 'opposite' function or 'adding a variable/constant'
+          - applying common differences determining the difference between sub-optimal & optimal solutions is a good way to find an optimal solution quickly once you have an initial sub-optimal solution with methods like 'approximation' or 'subset prediction'
+        - applying 'standard function subset difference' structures to a standard/initial solution (like a function predicting a data subset) to produce 'maximally different' or 'highly probable given function patterns' possible alternative functions & checking which of these functions are good predictors for randomly selected data subsets is a good way to reduce the solution space
         - assuming that a consistent lack of value added by pursuing a particular direction will never produce value is a fallacy
           - just like assuming that bc you havent found a local maxima in a particular direction for a consistent period doesnt mean there isnt one, and bc functions & variables have patterns, maxima pattern probabilities can be used to predict their positions rather than applying random checks or applying a particular cost/benefit ratio to each pursued 'direction' variable value
         - solutions are rarely an idealized simple continuous function 
@@ -137,7 +139,7 @@
             - a set of subset functions, indicating emergent phase shifts at different threshold values of the independent variable
             - a set of conditional functions connected by a network organized by input conditions
       - applying these solution-connection rules to find adjacent optimal solutions to sub-optimal solutions is a way to work around the problem of 'trial & error (trying every combination)' to filter the solution space
-      - workflow fit: this is similar to the 'apply changes to solutions to find other solutions, based on differences in intent/structure associated with those changes'
+      - workflow fit: this is similar to the 'apply changes to solutions to find other solutions, based on differences in intent/structure associated with those changes' but applies the pattern interface to these solution structure connections to inject the useful interface component 'probability' into the success of solutions, given the applied solution success cause 'patterns indicate a consistent connection that may be useful as a prediction rule to reduce uncertainty' (so applying connection patterns as a guide of queries is a way to increase the probability of finding certainties like true variable connections)
 
     - find or generate structures of difference between multiple solutions & derive solution success cause of each, and apply those differences when one solution doesnt work, based on changes in solution success cause (conditionally generate different solutions based on changing inputs)
       - example: different solutions to the 'find a prediction function' problem involve differences like:
