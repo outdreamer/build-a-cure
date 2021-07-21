@@ -137,6 +137,13 @@
     - why this is useful: many solution/error structures are possible, and its useful to filter them to reduce the operations required or reduce the solution space
     - solution success cause: this works as a filter bc some structures are only relevant for some systems
 
+    - apply interaction (connection functions, structure-building) & neutralizing (structure-invalidating) structures & apply them to generate the sets of possible systems to allowing identifying the true structure of a problem system (how a problem system works)
+      - once the sets are generated, filter the possible system structures by other structures like probabilities, patterns & prediction tests ('can a known system connection function be predicted by assuming this system structure')
+        - prediction tests can be filtered by relevance ('predict important system connection functions, such as functions that are inputs to many other functions or required functions')
+      - why this is useful: misunderstanding a problem system is a major source of error types and solving that problem can solve other problems like 'finding a specific connection function', just by knowing how structures can interact given relevant neutralizing structures, which allows identifying possible & probable problem system structures
+      - workflow fit: this is similar to the 'apply useful structures like interaction structures to problem/solution structures' but is applied to the 'problem system' structure as a way of drastically reducing other errors, given rules about how interaction/neutralizing structures can create systems
+      - solution success cause: this works bc if an interaction structure cant exist in a system given other neutralizing structures, its not relevant and doesnt need to be included in the solution space, allowing reduction of the solution space
+
     - apply rules/patterns of solution connections to identify when a more optimal solution is adjacent to a sub-optimal solution (to offset the error type 'failing to pursue a direction when a more optimal solution is adjacent bc of prior cost from that pursuit')
       - just like the 'identify absolute minima/maxima' problem solved by methods like 'gradient descent', optimal solutions are often adjacent to the selected sub-optimal solution, but arent found bc of lack of understanding of solution patterns, connections & probabilities
       - solutions follow patterns revealing rules in their connections
