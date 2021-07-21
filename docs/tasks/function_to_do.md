@@ -126,6 +126,19 @@
 
   - add to solution automation workflows
 
+    - apply patterns of solution connections to identify when a more optimal solution is adjacent to a sub-optimal solution
+      - just like the 'identify absolute minima/maxima' problem solved by methods like 'gradient descent', optimal solutions are often adjacent to the selected sub-optimal solution, but arent found bc of lack of understanding of solution patterns, connections & probabilities
+      - solutions follow patterns revealing rules in their connections
+        - some solutions are connected by an adjacent function, like an 'opposite' function or 'adding a variable/constant'
+        - assuming that a consistent lack of value added by pursuing a particular direction will never produce value is a fallacy
+          - just like assuming that bc you havent found a local maxima in a particular direction for a consistent period doesnt mean there isnt one, and bc functions & variables have patterns, maxima pattern probabilities can be used to predict their positions rather than applying random checks or applying a particular cost/benefit ratio to each pursued 'direction' variable value
+        - solutions are rarely an idealized simple continuous function 
+          - more often in reality a solution function for the 'find a prediction function' problem might be:
+            - a set of subset functions, indicating emergent phase shifts at different threshold values of the independent variable
+            - a set of conditional functions connected by a network organized by input conditions
+      - applying these solution-connection rules to find adjacent optimal solutions to sub-optimal solutions is a way to work around the problem of 'trial & error (trying every combination)' to filter the solution space
+      - workflow fit: this is similar to the 'apply changes to solutions to find other solutions, based on differences in intent/structure associated with those changes'
+
     - find or generate structures of difference between multiple solutions & derive solution success cause of each, and apply those differences when one solution doesnt work, based on changes in solution success cause (conditionally generate different solutions based on changing inputs)
       - example: different solutions to the 'find a prediction function' problem involve differences like:
         - differences in variability between data set points
