@@ -127,6 +127,10 @@
   - add to solution automation workflows
 
     - apply error structures to problems as a neutralization structure and as a way of generating related problems (sub-problems, component problems) to solve instead or as part of the workflow
+      - example: apply 'missing' error structure to problem components like data points or variables for the 'find a prediction function' problem, to solve the problem for a subset of the data set/variables instead
+        - you can also apply correcting solution structures for each error type applied
+          - to correct the 'missing' error structure that manifests as missing data points or variables, add an offsetting solution structure of 'iterate' & 'average' to repeat the process for other 'missing' error applications & average them to get back to the original solution format, a prediction function for the complete data set
+            - data_set => missing(data set points) * iterate(missing, data_set) * average(iterations) => data set prediction function
       - workflow fit: this is a variant of 'apply solution structures to solutions to optimize them' workflow
 
     - identify systems where a particular solution/error structure will be relevant (an error that causes damage by neutralizing required (or all alternative optional) functions, or a solution that neutralizes many error types) as a way of filtering relevant solution/error structures from the set of all possible structures, to find structures that are relevant to avoid for the input problem system, & add as a solution metric filter or solution component structure, in case the solution metric filters are incomplete/missing or solution components are not already identified by other methods
