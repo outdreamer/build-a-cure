@@ -126,6 +126,9 @@
 
   - add to solution automation workflows
 
+    - apply error structures to problems as a neutralization structure and as a way of generating related problems (sub-problems, component problems) to solve instead or as part of the workflow
+      - workflow fit: this is a variant of 'apply solution structures to solutions to optimize them' workflow
+
     - identify systems where a particular solution/error structure will be relevant (an error that causes damage by neutralizing required (or all alternative optional) functions, or a solution that neutralizes many error types) as a way of filtering relevant solution/error structures from the set of all possible structures, to find structures that are relevant to avoid for the input problem system, & add as a solution metric filter or solution component structure, in case the solution metric filters are incomplete/missing or solution components are not already identified by other methods
       - error type of 'assuming simplicity (failing to identify complexity)' can be caused by an error type of 'failing to identify the impact on complexity of the output of assuming simplicity'
         - when you assume simplicity, it reduces the incentive/benefit for an agent to be complex, and reduces the probability that they will be complex, causing a reduction in complexity or a reduction in showing complexity, if they were initially complex
