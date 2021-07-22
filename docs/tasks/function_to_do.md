@@ -132,9 +132,30 @@
           - apply the solution format as a template with a 'missing' error type or 'identification' problem:
             - for the question 'how did they get from A to B', the 'missing' structure is a 'missing path connecting the points', and the identification problem is selecting the correct route from all possible routes connecting the points
           - apply known solutions for the 'missing' error type (like 'matching structures that fit missing structure') or the 'identification' problem (like 'apply probability-based filters')
-      - if you have derivation functions & access to info like agent decision histories but dont have specific info to filter possibilities of the optimal solution format of 'who drove it'
+      - if you have concept identification, system structure identification, & derivation functions & access to info like agent decision histories but dont have specific info to filter possibilities of the optimal solution format of 'who drove it'
         - derive understanding of 'decisions' objects (to drive a car) & give proxy/approximate/abstract answers based on understanding
           - for the question 'who drove the car', derive relevant concepts such as 'inputs' to 'driving a car', like 'incentives', 'functions', 'access', 'requirements', 'intents' to 'drive a car' and produce a set of abstract descriptions of the types of people with those intents/incentives & other related objects
+
+  - identify useful info formats for intents
+    - rather than a language map, other useful info formats may include:
+      - a map on a different interaction level, like 'core components':
+        - a component language map (common core components of other terms) with words graphed as queries of the map
+          - this would be useful for intents like the following, bc these involve adjacent attributes/functions/structures of this info format:
+            - 'build a language map query like a particular word query'
+            - 'find similarity between words'
+            - 'generate a new word'
+        - a network of common query structures on the language map (what are the words used for, like common sentence patterns such as questions)
+    - rather than an attribute graph, containing a network of grouped attributes as objects:
+      - a network of attributes as nodes
+      - a network of individual attribute networks
+    - rather than a causal network diagram:
+      - a causal diagram with specifically n-degrees of causal inputs mapped
+      - a set of vectors pointing in the same direction of other caused nodes (as vectors) with magnitude indicating input directness degree (root cause being shorter to indicate earlier position in the causal sequence)
+      - clustered nodes by the outputs they have in common
+    - rather than a system network diagram:
+      - a network of functions that can generate/describe it
+    - rather than a variable network:
+      - a set of example system networks that include those variables as attributes of objects as network nodes
 
   - add to solution automation workflows
 
