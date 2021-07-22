@@ -164,6 +164,8 @@
         - you can also apply correcting solution structures for each error type applied to get to the original solution format
           - to correct the 'missing' error structure that manifests as missing data points or variables, add an offsetting solution structure of 'iterate' & 'average' to repeat the process for other 'missing' error applications & average them to get back to the original solution format, a prediction function for the complete data set
             - data_set => missing(data set points) * iterate(missing, data_set) * average(iterations) => data set prediction function
+        - other example: apply 'opposite' structure to the 'find a prediction function' problem, as in 'find functions that are not predictive' & differentiate from them to find the original solution format of the prediction function
+          - apply('opposite', 'prediction function') => 'non-predictive functions' => apply ('differences', 'non-predictive functions') => 'set of possible prediction functions'
       - workflow fit: this is a variant of 'apply solution structures to solutions to optimize them' workflow
         - this specific process is similar to that produced by applying other analysis, like core analysis, which would apply a 'subset' function to various problem structures since thats a core structure, and then integrate those structures in a structure that would produce the original solution format, but its another route to produce that process
 
