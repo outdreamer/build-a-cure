@@ -124,14 +124,27 @@
         - apply patterns of probability patterns as filters
           - how likely is it that 'if most positions do not have the number, its likely that remaining positions do have the number' produces an error?
 
+    - multiple ways to solve the 'answer a question automatically' problem, with the following interface query:
+      - if you have question-answer pattern info:
+        - apply those patterns of language map routes or other info structures in the pattern to produce the answer
+      - if you have error type & solution format or known solution info:
+        - identify error type & apply solution formats or known solutions for that error type
+          - apply the solution format as a template with a 'missing' error type or 'identification' problem:
+            - for the question 'how did they get from A to B', the 'missing' structure is a 'missing path connecting the points', and the identification problem is selecting the correct route from all possible routes connecting the points
+          - apply known solutions for the 'missing' error type (like 'matching structures that fit missing structure') or the 'identification' problem (like 'apply probability-based filters')
+      - if you have derivation functions & access to info like agent decision histories but dont have specific info to filter possibilities of the optimal solution format of 'who drove it'
+        - derive understanding of 'decisions' objects (to drive a car) & give proxy/approximate/abstract answers based on understanding
+          - for the question 'who drove the car', derive relevant concepts such as 'inputs' to 'driving a car', like 'incentives', 'functions', 'access', 'requirements', 'intents' to 'drive a car' and produce a set of abstract descriptions of the types of people with those intents/incentives & other related objects
+
   - add to solution automation workflows
 
     - apply error structures to problems as a neutralization structure and as a way of generating related problems (sub-problems, component problems) to solve instead or as part of the workflow
       - example: apply 'missing' error structure to problem components like data points or variables for the 'find a prediction function' problem, to solve the problem for a subset of the data set/variables instead
-        - you can also apply correcting solution structures for each error type applied
+        - you can also apply correcting solution structures for each error type applied to get to the original solution format
           - to correct the 'missing' error structure that manifests as missing data points or variables, add an offsetting solution structure of 'iterate' & 'average' to repeat the process for other 'missing' error applications & average them to get back to the original solution format, a prediction function for the complete data set
             - data_set => missing(data set points) * iterate(missing, data_set) * average(iterations) => data set prediction function
       - workflow fit: this is a variant of 'apply solution structures to solutions to optimize them' workflow
+        - this specific process is similar to that produced by applying other analysis, like core analysis, which would apply a 'subset' function to various problem structures since thats a core structure, and then integrate those structures in a structure that would produce the original solution format, but its another route to produce that process
 
     - identify systems where a particular solution/error structure will be relevant (an error that causes damage by neutralizing required (or all alternative optional) functions, or a solution that neutralizes many error types) as a way of filtering relevant solution/error structures from the set of all possible structures, to find structures that are relevant to avoid for the input problem system, & add as a solution metric filter or solution component structure, in case the solution metric filters are incomplete/missing or solution components are not already identified by other methods
       - error type of 'assuming simplicity (failing to identify complexity)' can be caused by an error type of 'failing to identify the impact on complexity of the output of assuming simplicity'
