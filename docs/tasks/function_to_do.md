@@ -159,6 +159,11 @@
 
   - add to solution automation workflows
 
+    - apply error cause once an error is identified as a way of determining understanding of the problem system & decide whether to solve that error type
+      - example:
+        - an outlier would create an error in inaccuracy of predictions if incorporated into a prediction function, but the reason for the outlier ('error cause') may be that the connections between function variables are changing and the outlier is an early warning sign, or the outlier is the result of a set of interacting conditions creating an edge case that is expected occasionally but doesnt have to be included in a prediction function of other points & can be separated into its own conditional prediction function
+      - workflow fit: this is similar to workflows analyzing 'solution success/failure cause' but identifying error cause in this case is to specifically improve understanding of the problem system so the connections between problem/solution structures are more identifiable & optimizable
+
     - apply error structures to problems as a neutralization structure and as a way of generating related problems (sub-problems, component problems) to solve instead or as part of the workflow
       - example: apply 'missing' error structure to problem components like data points or variables for the 'find a prediction function' problem, to solve the problem for a subset of the data set/variables instead
         - you can also apply correcting solution structures for each error type applied to get to the original solution format
