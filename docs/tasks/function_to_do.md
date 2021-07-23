@@ -159,13 +159,21 @@
 
   - add to solution automation workflows
 
-    - reduce problem/solution structures into known error structures & check the produced variants if they have known solutions, if they generate a solution, or reduce the problem or the need to solve the problem
-      - example: for the 'find a prediction function' problem, reduce the data set by patterns of 'human error', the output of which may overlap with the output of other commonly applied methods like 'data augmentation', 'data reduction' or 'data subset sampling for cross-validation'
+    - reduce problem/solution structures into known error structures & check the produced variants of those structure to see if they have known solutions, if they generate a solution, reduce/change the problem or the need to solve it
+      - example: for the 'find a prediction function' problem, reduce the data set by 'human error patterns', the output of which may overlap with the output of other commonly applied methods like 'data augmentation', 'data reduction' or 'data subset sampling for cross-validation'
         - reducing the data set in this way may reduce the problem of 'finding a prediction function', or the data set may not have much variation once 'human error patterns' are removed from the data set, reducing the need to solve the problem with a more complex method (the resulting data with 'human error patterns' removed may have a clear pattern that simple methods can output a prediction function for)
-      - workflow fit: this is similar to the 'break a problem into sub-problems' workflow, but its specifically trying to break down the problem into known error types to see if the problem is created by (or equal to) a combination of errors which act as components constructing the problem
+
+        - if a complex/noisy data set can be reduced into a straight line by reducing it by 'human error patterns', 'outlier patterns', 'noise patterns' or with operations on variables to correct variable error types (like removing redundant variables or combining variables into a type), the problem structures may have been distorted and may be inaccurate
+          - this applies an insight like 'simpler connections are likelier bc they require less work (are more adjacent) and stable systems tend to minimize cost to maintain stability' (Occam's razor)
+          - if an insight indicates the possible presence of an error structure (like a structure of improbability) in a problem/solution (such as an improbably complex/noisy data set), that error structure should be addressed & the problem should be attempted to be reduced by/broken into/converted/connected to (depending on the workflow & core interaction function applied) that error structure, before trying to solve the original problem
+          - the first step of this workflow can include a query for insights to detect errors in the original problem/solution structures
+      
+      - other structures of 'human error patterns' can show up in other problem/solution structures than the 'problem input variables/formats' (like problem/solution assumptions, the problem statement, the solution metrics selected) which may distort the structures, leading to a pointless query bc the problem statement or solution metric is inaccurate
+
+      - workflow fit: this is similar to the 'break a problem into sub-problems' workflow, but its specifically trying to break down the problem into sub-problems that are 'known error types', to see if the problem is created by (or equal to) a structure like a combination of errors which act as components constructing the problem
         - this can be generalized to other error structures than 'combinations' and matched with the appropriate workflows:
-          - check if 'combination of errors' = 'problem': uses 'break problem into sub-problems' workflow
-          - check if 'sequence of errors' = 'problem': uses 'find root cause of problem & solve the cause instead' workflow
+          - check if 'combination of errors' = 'problem': uses 'break problem into sub-problems' workflow, bc a 'combination of errors' can be used to build a 'problem', so a problem can be broken into those errors
+          - check if 'sequence of errors' = 'problem': uses 'find root cause of problem & solve the cause instead' workflow, bc an 'error sequence = problem' allows analyzing 'problem cause'
 
     - identify solution input variables that maximize differences in solution output or identify solution output types & weight them by some metric to integrate/filter them into a solution
       - example: for the 'find a prediction function' problem, find the most differentiating variables (number/value of constants/exponents, number of conditional/sub-range functions) producing the most differences in solutions ('constant linear average function', a 'highly variable function intersecting with the most data points', a 'piece-wise function describing threshold-based phases of the function') and weight these solutions to integrate/filter them according to a metric (like 'probability of the prediction function occurring with these input variable types/dependencies/correlations & data set patterns') to create an output solution
