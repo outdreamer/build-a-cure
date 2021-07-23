@@ -161,6 +161,12 @@
 
     - identify solution input variables that maximize differences in solution output or identify solution output types & weight them by some metric to integrate/filter them into a solution
       - example: for the 'find a prediction function' problem, find the most differentiating variables (number/value of constants/exponents, number of conditional/sub-range functions) producing the most differences in solutions ('constant linear average function', a 'highly variable function intersecting with the most data points', a 'piece-wise function describing threshold-based phases of the function') and weight these solutions to integrate/filter them according to a metric (like 'probability of the prediction function occurring with these input variable types/dependencies/correlations & data set patterns') to create an output solution
+        - the metric to weight them needs to be relevant to the problem/solution structures
+          - probability of a particular solution function is relevant to the operation of 'weighting' that solution function
+            - 'weighting' function involves assigning a ratio to an input's power to imapct the output, based on how likely it is to be equal to the output (given that we're comparing the same data type, an input solution function and an output solution function)
+            - a 'probability' is a 'ratio' data type, so its relevant to the 'weighting' function which requires identifying & assigning a 'ratio' to an input
+            - what inputs are used to calculate the probability is a different problem, but the inputs to the probability should also be relevant to problem/solution structures
+              - using 'function/variable patterns' is relevant to predict the probability of the occurrence of a function having 'equal/different patterns'
       - workflow fit: this is similar to 'find the maximally different filtering structures that will filter solution space the most efficiently', but is applied to 'input solution variables' rather than 'solution space filters'
 
     - apply error cause once an error is identified as a way of determining understanding of the problem system & decide whether to solve that error type or adjusting solution based on error cause
