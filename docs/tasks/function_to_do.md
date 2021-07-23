@@ -159,6 +159,14 @@
 
   - add to solution automation workflows
 
+    - reduce problem/solution structures into known error structures & check the produced variants if they have known solutions, if they generate a solution, or reduce the problem or the need to solve the problem
+      - example: for the 'find a prediction function' problem, reduce the data set by patterns of 'human error', the output of which may overlap with the output of other commonly applied methods like 'data augmentation', 'data reduction' or 'data subset sampling for cross-validation'
+        - reducing the data set in this way may reduce the problem of 'finding a prediction function', or the data set may not have much variation once 'human error patterns' are removed from the data set, reducing the need to solve the problem with a more complex method (the resulting data with 'human error patterns' removed may have a clear pattern that simple methods can output a prediction function for)
+      - workflow fit: this is similar to the 'break a problem into sub-problems' workflow, but its specifically trying to break down the problem into known error types to see if the problem is created by (or equal to) a combination of errors which act as components constructing the problem
+        - this can be generalized to other error structures than 'combinations' and matched with the appropriate workflows:
+          - check if 'combination of errors' = 'problem': uses 'break problem into sub-problems' workflow
+          - check if 'sequence of errors' = 'problem': uses 'find root cause of problem & solve the cause instead' workflow
+
     - identify solution input variables that maximize differences in solution output or identify solution output types & weight them by some metric to integrate/filter them into a solution
       - example: for the 'find a prediction function' problem, find the most differentiating variables (number/value of constants/exponents, number of conditional/sub-range functions) producing the most differences in solutions ('constant linear average function', a 'highly variable function intersecting with the most data points', a 'piece-wise function describing threshold-based phases of the function') and weight these solutions to integrate/filter them according to a metric (like 'probability of the prediction function occurring with these input variable types/dependencies/correlations & data set patterns') to create an output solution
         - the metric to weight them needs to be relevant to the problem/solution structures
