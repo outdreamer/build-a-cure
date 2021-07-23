@@ -170,10 +170,13 @@
       
       - other structures of 'human error patterns' can show up in other problem/solution structures than the 'problem input variables/formats' (like problem/solution assumptions, the problem statement, the solution metrics selected) which may distort the structures, leading to a pointless query bc the problem statement or solution metric is inaccurate
 
-      - workflow fit: this is similar to the 'break a problem into sub-problems' workflow, but its specifically trying to break down the problem into sub-problems that are 'known error types', to see if the problem is created by (or equal to) a structure like a combination of errors which act as components constructing the problem
-        - this can be generalized to other error structures than 'combinations' and matched with the appropriate workflows:
-          - check if 'combination of errors' = 'problem': uses 'break problem into sub-problems' workflow, bc a 'combination of errors' can be used to build a 'problem', so a problem can be broken into those errors
-          - check if 'sequence of errors' = 'problem': uses 'find root cause of problem & solve the cause instead' workflow, bc an 'error sequence = problem' allows analyzing 'problem cause'
+      - workflow fit: 
+
+        - this is similar to the 'break a problem into sub-problems' workflow, but its specifically trying to break down the problem into sub-problems that are 'known error types', to see if the problem is created by (or equal to) a structure like a combination of errors which act as components constructing the problem
+          - this can be generalized to other error structures than 'combinations' and matched with the appropriate workflows:
+            - check if 'combination of errors' = 'problem': uses 'break problem into sub-problems' workflow, bc a 'combination of errors' can be used to build a 'problem', so a problem can be broken into those errors
+            - check if 'sequence of errors' = 'problem': uses 'find root cause of problem & solve the cause instead' workflow, bc an 'error sequence = problem' allows analyzing 'problem cause'
+        - this is a variant of the 'apply error structures to problem structures' workflow, except it includes a function to select a solution automation workflow ('break problem into sub-problems') based on the error structure ('combination of component errors') to connect the problem/error structures, and the injection of insights that can identify error structures in problem/solution structures
 
     - identify solution input variables that maximize differences in solution output or identify solution output types & weight them by some metric to integrate/filter them into a solution
       - example: for the 'find a prediction function' problem, find the most differentiating variables (number/value of constants/exponents, number of conditional/sub-range functions) producing the most differences in solutions ('constant linear average function', a 'highly variable function intersecting with the most data points', a 'piece-wise function describing threshold-based phases of the function') and weight these solutions to integrate/filter them according to a metric (like 'probability of the prediction function occurring with these input variable types/dependencies/correlations & data set patterns') to create an output solution
