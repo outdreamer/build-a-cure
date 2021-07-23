@@ -159,7 +159,11 @@
 
   - add to solution automation workflows
 
-    - apply error cause once an error is identified as a way of determining understanding of the problem system & decide whether to solve that error type
+    - identify solution input variables that maximize differences in solution output or identify solution output types & weight them by some metric to integrate/filter them into a solution
+      - example: for the 'find a prediction function' problem, find the most differentiating variables (number/value of constants/exponents, number of conditional/sub-range functions) producing the most differences in solutions ('constant linear average function', a 'highly variable function intersecting with the most data points', a 'piece-wise function describing threshold-based phases of the function') and weight these solutions to integrate/filter them according to a metric (like 'probability of the prediction function occurring with these input variable types/dependencies/correlations & data set patterns') to create an output solution
+      - workflow fit: this is similar to 'find the maximally different filtering structures that will filter solution space the most efficiently', but is applied to 'input solution variables' rather than 'solution space filters'
+
+    - apply error cause once an error is identified as a way of determining understanding of the problem system & decide whether to solve that error type or adjusting solution based on error cause
       - example:
         - an outlier would create an error in inaccuracy of predictions if incorporated into a prediction function, but the reason for the outlier ('error cause') may be that the connections between function variables are changing and the outlier is an early warning sign, or the outlier is the result of a set of interacting conditions creating an edge case that is expected occasionally but doesnt have to be included in a prediction function of other points & can be separated into its own conditional prediction function
       - workflow fit: this is similar to workflows analyzing 'solution success/failure cause' but identifying error cause in this case is to specifically improve understanding of the problem system so the connections between problem/solution structures are more identifiable & optimizable
