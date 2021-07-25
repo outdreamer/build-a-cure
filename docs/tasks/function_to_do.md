@@ -45,6 +45,8 @@
         - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
 
   - add to science
+    - add to cancer system analysis:
+      - identify connections like 'naked mole rats' lack of cancer linked to lack of serum vitamin d which helps cell growth'
     - cancer cells' mutations might just be some of the more adjacent/common/interactive mutations out of all the mutations that are possible or actually occur with any frequency
       - if this is true & the primary cause, that means these mutations will continue occurring unless actively prevented
         - substances should be examined for mutation-prevention functionality
