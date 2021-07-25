@@ -57,10 +57,12 @@
           - energy sources
           - other vitamins directly impacting or required for these functions
         - find extreme cases where inputs are missing & check for those functions
-          - some species (like naked mole rats) dont produce vitamin d from sunlight, which may impact their relevant function 'cell growth' structures (patterns/cycles), which may impact their cancer rates
+          - some species (like naked mole rats) dont produce vitamin d from sunlight or have lower rates of vitamin d, which may impact their relevant function 'cell growth' structures (patterns/cycles), which may impact their cancer rates
             - check if these species have differences in cancer rates
               - if so, those inputs (lower vitamin d or inability to produce vitamin d from sunlight) may be relevant in preventing the output process enabled by them (cancer)
       - this is a simple input-output sequence query to find input conditions that dont produce a process/condition (like cancer) as often
+      - translating this into a different system like the human bio system would be a query involving mapping one species' system to another
+      - once its mapped, it can be filtered for invalidating conditions, indicating whether a similar process can be activated in the human system without causing other problems
 
     - cancer cells' mutations might just be some of the more adjacent/common/interactive mutations out of all the mutations that are possible or actually occur with any frequency
       - if this is true & the primary cause, that means these mutations will continue occurring unless actively prevented
