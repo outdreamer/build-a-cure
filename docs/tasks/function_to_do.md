@@ -45,8 +45,23 @@
         - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
 
   - add to science
-    - add to cancer system analysis:
+    - add to 'cancer' process/condition system analysis:
       - identify connections like 'naked mole rats' lack of cancer linked to lack of serum vitamin d which helps cell growth'
+        - find functions relevant to cancer:
+          - cell growth
+          - cell apoptosis inhibition
+          - energy production
+          - fuel source switching
+        - find inputs of those functions
+          - vitamin d
+          - energy sources
+          - other vitamins directly impacting or required for these functions
+        - find extreme cases where inputs are missing & check for those functions
+          - some species (like naked mole rats) dont produce vitamin d from sunlight, which may impact their relevant function 'cell growth' structures (patterns/cycles), which may impact their cancer rates
+            - check if these species have differences in cancer rates
+              - if so, those inputs (lower vitamin d or inability to produce vitamin d from sunlight) may be relevant in preventing the output process enabled by them (cancer)
+      - this is a simple input-output sequence query to find input conditions that dont produce a process/condition (like cancer) as often
+
     - cancer cells' mutations might just be some of the more adjacent/common/interactive mutations out of all the mutations that are possible or actually occur with any frequency
       - if this is true & the primary cause, that means these mutations will continue occurring unless actively prevented
         - substances should be examined for mutation-prevention functionality
