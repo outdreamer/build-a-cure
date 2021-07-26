@@ -45,6 +45,7 @@
         - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
 
   - add to science
+    - use certainty-identification machine as a certainty-generating machine if it can outpace some physical processes to generate/store/find information
     - add to 'cancer' process/condition system analysis:
       - identify connections like 'naked mole rats' lack of cancer linked to lack of serum vitamin d which helps cell growth'
         - find functions relevant to cancer:
