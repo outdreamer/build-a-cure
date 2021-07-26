@@ -44,8 +44,15 @@
         - lack of opposite structures of competitor success (no monopoly or competitive moat or platform/supply chain/regulatory advantage in place)
         - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
 
+  - add to conceptual math examples
+    - example of an operation that builds a boundary structure leaving an inevitability of a matching concept (numbers) filling the structure
+      - the concepts of 'missing', 'multiple/more', 'unit', 'type', 'identifiable as similar/equal/different' and 'difference in amount' allow for/require/build the concept of 'numbers'
+      - functions like 'compare' or 'reduce' or 'expand' require the concept of 'numbers' when comparing objects of that data type or objects having a quantifiable attribute
+
   - add to science
     - use certainty-identification machine as a certainty-generating machine if it can outpace some physical processes to generate/store/find information
+      - quantum physics may be a system that can outpace the info-production/derivation methods of physics, so a certainty machine built on quantum technology could be capable of this, if connected to other quantum certainty machines more efficiently than those built on physics are
+
     - add to 'cancer' process/condition system analysis:
       - identify connections like 'naked mole rats' lack of cancer linked to lack of serum vitamin d which helps cell growth'
         - find functions relevant to cancer:
