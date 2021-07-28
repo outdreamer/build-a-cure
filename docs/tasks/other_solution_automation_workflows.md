@@ -1,4 +1,112 @@
-  - add to solution automation workflows
+- add to solution automation workflows
+
+  - identify which interface structures fulfill problem/solution structures on different interfaces & apply those structures to fulfill those problem/solution structures
+    - example: identify which intents & intent structures (like which sub-intent structure solution metrics help fulfill the general solution metric intent) fulfill solution metric intents (like 'keep this variable below this threshold value') & apply these intent structures as solution filters or solution components
+    - this applies across interfaces:
+      - identify intent metrics that help fulfill a problem/solution structure metric (like a core interaction function or a solution metric)
+      - the general version of which is 'identify attributes that help fulfill a problem/solution structure attribute'
+    - solution success cause: this works bc the same format is being applied to fulfill core interaction functions for problem/solution structures, and some formats can be used to fulfill core interaction functions on their own
+      - this should allow structures that are not standardized to the same format to be connected as well, using the version of a format in that structure
+        - example: you dont have to standardize every structure to the 'intent' or 'solution metric' attribute interface if you know the corresponding structures of those structures in the current formats
+    - workflow fit: this is similar to 'standardize to the same format by applying an interface and apply interaction rules of that interface to determine structure interactions' but is specific to the interface structures that help fulfill problem/solution structures & allows them to be mixed with other formats using corresponding equivalents rather than forcing all structures to be standardized, and involves matching structures of problem/solution structures with those of other problem/solution structures (matching 'intents of sub-problem solutions' with 'original problem solution metric intents'), given how the fact that a solution metric of a sub-problem may be relevant to the solution metric of the original problem, which is a possible structural relevance that allows these components to be relevant in a way that allows one (sub-problem solution) to predict the other (original problem solution), so that structure (sub-solution/solution metric) is a useful format to use to fulfill interaction intents (like 'connect') between these structures (sub-solution metric & solution metric)
+    
+  - derive & apply interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
+    - to answer questions like:
+      - with what 'frequency' can a 'random combination' of 'alignments' create an 'efficiency' in a given 'system'?
+    - having variables:
+      - solution formats
+        - certainty (probability, frequency, average) 
+          - format solution as 'certainty of a particular structure given inputs' rather than other formats like 'method to generate a particular structure given inputs'
+      - solution filters
+        - requirements
+        - intents
+      - problem space
+        - system context
+      - interactions
+        - applicable connecting logic rules
+        - attributes (random, adjacent, difference-maximizing, similar, opposite)
+        - structures (combination, subset)
+      - interacting components
+        - useful components (alignments, efficiency)
+
+    - identifying useful cross-interface interaction rules
+      - examples:
+        - 'merge difference types' function
+        - 'common relevant efficiencies' structures
+        - 'find simplifying/generative/change-generating function' function
+
+      - how to identify useful cross-interface interactions:
+        - structures of useful components from one interface applied to another interface
+          - example: useful structure interface components (combinations) of useful system components (incentives, ambiguities) applied to other interfaces
+        - useful interaction structures of relevant problem-solving structures (like core interface structures or problem interface structures like errors)
+          - 'merge' is a useful interaction structure of error structures like 'difference types'
+          - 'common relevant efficiencies' combines multiple useful interface structures/attributes to create a useful structure for 'fulfilling an intent', which is relevant to 'problem-solving'
+
+  - identify & apply generative functions of cross-interface interaction rules (like structure-concept interactions) & useful cross-interface interactions & cross-interface interactions between useful structures
+    
+    - example:
+      
+      - structures that generate function to 'merge difference types'
+      
+      - structures with conceptual attribute 'relevance':
+
+        - a 'database index' structure gathers & searches just the information useful for 'find' intents based on structures of standards like 'what is commonly searched for' and 'what varies across data' and 'what combination of fields uniquely identifies/differentiates data', so it can be used to fulfill intents like:
+          - intent: 'identify unique records'
+            - fulfills 'unique combination' standard
+          - intent: 'find records quickly by only searching relevant data'
+            - fulfills 'what is commonly searched for' standard
+          - intent: 'differentiate records'
+            - fulfills 'what varies across data' standard
+        
+        - applying the above structures of standards as solution filters can find the 'database index' structure in the 'search database' problem space
+
+        - the solution creates an efficiency for the 3 'search database' intents, while creating inefficiencies for the 'minimize storage' & 'generalize solution' intent
+          - these intents could be fulfilled with modifications to the 'database index' solution:
+            - 'minimize storage': store static values in a nested index
+            - 'generalize solution': apply 'database index' solution dynamically or for other queries or query types
+
+        - interface query to generate implementation of this cross-interface interaction
+          
+          - identify variables
+            - core variables
+              - data set format
+              - data set stores
+              - data set store format
+              - data set store fields
+              - data set store records
+              - search method
+              - sort method
+              - storage method
+              - query
+            - variable combinations
+              - data set/store-query relation
+              - search-sort relation
+
+          - apply requirement filters to solution space:
+            - iterating data of some format is required
+          
+          - apply variable expansions to solution space:
+            - apply probability interface to 'input/output formats' structure: 
+              - data doesnt have to be in original input format or output format of 'common' queries
+            - apply change interface to 'input/output formats' structure: 
+              - data doesnt have to be in a static format
+            - apply structural interface: 
+              - data can be in 'multiple' formats
+              - data 'subsets' can be stored in addition to the 'complete' data set
+
+          - apply structure filters: 
+            - what structure in the 'search database' problem space can identify unique field combinations, enable quick searching for common searches, and differentiate data (even if it differentiates them incompletely, or to a contextual definition of 'differentiate')
+
+            - apply differences to variable values to generate core adjacent combinations of variable values
+              - store subset of rows for a query type (search only these rows for queries involving these fields/operations/conditions/values)
+              - store subset of fields (search only these fields)
+              - store subset of example rows with allowed variation (search for these examples for these queries & anything adjacent to the example)
+              - store data patterns to search for a query (search for these patterns for these queries)
+            
+            - filter combinations by usefulness for 'search database' problem intents
+              - apply filter with 'system optimization' ('only add required functionality')
+                - which of the combinations fulfills the above 3 intents without fulfilling extra unnecessary intents (aligned demand/supply of intents)
+
 
     - identify & apply interaction structures (like core interaction functions such as 'connect' or core interaction structures like 'combination') to solution structures (like solution automation workflows or known solutions) to solve general related/sub-problems of problem-solving ('filter solution space', 'select solution metrics') to generate solution automation workflows
       - related component (workflow) fit (position in network of related components): this formulates the task of 'generate solution automation workflows' as a set of problem structures (like related/sub-problems such as 'filter solution space') to solve with queries (like 'find solutions to the problem of filtering the solution space' or 'apply interaction structures of known solution structures to create new solution structures to fulfill general problem-solving intents like filtering the solution space')
