@@ -187,6 +187,12 @@
     - rather than a variable network:
       - a set of example system networks that include those variables as attributes of objects as network nodes
 
+  - finish applying math-concept interface mapping
+    - number: all possible values
+    - variable: all possible changes
+    - function/structure: all possible interactions
+    - area: all possible interaction spaces
+
   - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
     - example: 'apply concepts to system interface to identify conceptual structures in system'
       - system
