@@ -28,8 +28,6 @@
           - questions formatted as a disconnection between components like causal positions, paths, directions
         - subset indexes of an interface useful for solving most problems (structure indexed by metadata like problems solvable, fitting systems, interactive structures, supported intents)
 
-  - identify useful perspectives
-
   - example of standardizing an error type:
 
     - 'maximizing shareholder value': using outputs (profit) to attract investment/capital rather than re-investing in products
@@ -119,6 +117,9 @@
     - there's usually one interface that is the base interface for any given structure
 
   - add to useful structures
+    - identify useful perspectives
+    - requirements (useful for filtering by relevance)
+    - intent maps (useful for connecting intents across interaction layers)
     - intent sequences
       - a 'requirement to survive' is the reason why an animal might develop bright colors, with varying intents:
         - with intent to 'attract prey', bc 'prey are difficult to find'
@@ -134,7 +135,7 @@
 
   - finish applying interfaces to problem/solution structures
     - intent: derive intent maps & align intents on multiple problem/solution structure layers, like problem-solution connection and sub-problem or problem/solution component connections
-    - logic: derive interactive structures given logical rules like equivalences used as connecting functions
+    - logic: derive interactive structures given logical rules like equivalences/implications used as connecting functions
     - definition: apply problem/solution structure definitions to determine their possible interactions
     - cause: find solution success cause and generate solution automation workflows from that
     - change: 
@@ -212,7 +213,7 @@
 
   - document useful component/sub-structures of interface queries (interface components, interaction rules, cross-interface interactions, generative functions)
 
-  - interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
+  - derive & apply interaction rules of useful cross-interface or useful interface components (efficiencies/alignments)
     - to answer questions like:
       - with what 'frequency' can a 'random combination' of 'alignments' create an 'efficiency' in a given 'system'?
     - having variables:
@@ -231,23 +232,20 @@
       - interacting components
         - useful components (alignments, efficiency)
 
-  - identifying useful cross-interface interactions
-
+  - identifying useful cross-interface interaction rules
     - examples:
       - 'merge difference types' function
       - 'common relevant efficiencies' structures
       - 'find simplifying/generative/change-generating function' function
 
     - how to identify useful cross-interface interactions:
-
       - structures of useful components from one interface applied to another interface
         - example: useful structure interface components (combinations) of useful system components (incentives, ambiguities) applied to other interfaces
-
       - useful interaction structures of relevant problem-solving structures (like core interface structures or problem interface structures like errors)
         - 'merge' is a useful interaction structure of error structures like 'difference types'
         - 'common relevant efficiencies' combines multiple useful interface structures/attributes to create a useful structure for 'fulfilling an intent', which is relevant to 'problem-solving'
 
-  - document useful structures & generative functions of cross-interface interactions (like structure-concept interactions)
+  - identify & apply generative functions of cross-interface interaction rules (like structure-concept interactions) & useful cross-interface interactions & cross-interface interactions between useful structures
     
     - example:
       
