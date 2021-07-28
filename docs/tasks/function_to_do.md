@@ -166,6 +166,29 @@
         - derive understanding of 'decisions' objects (to drive a car) & give proxy/approximate/abstract answers based on understanding
           - for the question 'who drove the car', derive relevant concepts such as 'inputs' to 'driving a car', like 'incentives', 'functions', 'access', 'requirements', 'intents' to 'drive a car' and produce a set of abstract descriptions of the types of people with those intents/incentives & other related objects
 
+  - identify & apply non-standard intents as ways of finding useful structures for problem/solution intents like 'core interaction function' intents
+    - example: apply alternate definition routes of 'power' & 'truth' to fulfill core interaction functions like 'connect' to fulfill a non-standard intent of 'power structures' (intents such as 'finding truth structures', like facts)
+      - alternate definition routes of 'power' include:
+        - 'ability to produce changes' bc power indicates an input to functions, where functions produce changes like new/altered components
+      - alternate definition routes of 'truth' include:
+        - 'stability/reliability'
+      - implied related power/truth insights given connections of definition routes
+        - if a structure is powerful, it can produce changes
+        - an absolute or input truth cant be changed, even by powerful structures
+        - if many powerful structures cant change a particular structure, that indicates the structure is true (true in the form of 'stability;reliability')
+      - so 'power structures' have a non-standard intent of 'finding truth' by applying 'power structures' to produce changes (an output of power) to see if some structure can be changed
+        - this intent connects alternate definition routes & implications of 'power' and 'truth'
+          - these concepts are by default connected in the insight 'truth is a form of power' (applying this insight is not required but it is relevant)
+      - how would you know to use 'power structures' to fulfill the intent 'find truth structures'
+        - bc the two concepts are connected by their alternate definition routes:
+          - power produces changes
+          - truth cant be changed
+          - power can used to determine if something can be changed
+            - if it cant be changed, its true
+        - the important part is identifying 'change' as a connecting structure between the two concepts, and identifying that one (power) produces an opposite structure (change) of the other (truth, which is stable/reliable), so it can be used to find 'not truths', and therefore can be used to find 'truths'
+        - so 'power structures' have a non-standard intent of 'finding truth' which is a relevant intent to problem/solution intents like 'filtering the solution space'
+      - this can be generalized to identify & apply useful structures with non-standard intents that produce other useful structures like 'truths' relevant to problem-solving intents
+
   - example of identifying useful info formats for intents & apply to fulfill those intents given the metric those formats fulfill (like 'minimizing cost' or 'reusing resources')
     - rather than a language map, other useful info formats may include:
       - a map on a different interaction level, like 'core components':
