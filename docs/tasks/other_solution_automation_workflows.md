@@ -1,5 +1,7 @@
   - add to solution automation workflows
 
+    - identify & apply interaction structures (like core interaction functions such as 'connect' or core interaction structures like 'combination') to solution structures (like solution automation workflows or known solutions) to solve general related/sub-problems of problem-solving ('filter solution space', 'select solution metrics') to generate solution automation workflows
+
     - identify 'difference' structures between known problems/solutions & apply them to possible solutions to see if it becomes more like a solution/problem structure, to test if it fulfills a solution format
       - if you apply 'differences' known to differentiate problems/solutions to a possible solution, it should become more like a problem if its originally a solution, so this is a way of identifying solutions
 
