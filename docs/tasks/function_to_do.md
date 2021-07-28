@@ -188,6 +188,7 @@
         - the important part is identifying 'change' as a connecting structure between the two concepts, and identifying that one (power) produces an opposite structure (change) of the other (truth, which is stable/reliable), so it can be used to find 'not truths', and therefore can be used to find 'truths'
         - so 'power structures' have a non-standard intent of 'finding truth' which is a relevant intent to problem/solution intents like 'filtering the solution space'
       - this can be generalized to identify & apply useful structures with non-standard intents that produce other useful structures like 'truths' relevant to problem-solving intents
+      - workflow fit: this involves identifying useful structures for problem-solving intents (like truths) as a problem to solve ('find useful structures for problem-solving like truths'), in addition to other general problems to solve when problem-solving (like 'filtering solution space'), which differentiates it from other workflows, bc these useful structures are inputs to general problem-solving intents so they can act as a new general problem-solving intent
 
   - example of identifying useful info formats for intents & apply to fulfill those intents given the metric those formats fulfill (like 'minimizing cost' or 'reusing resources')
     - rather than a language map, other useful info formats may include:
