@@ -2,6 +2,8 @@
 
     - add 'isolate/separate' to core interaction functions in problem/solution interaction space, since creating barriers to separate a problem from the problem space or separate a problematic structure from its required inputs is a possible solution format
 
+    - identify general structures associated with solutions to general/core problem formats (efficient filters, optimal routes, cost-minimizing structures) and apply them as default or component structures to build a solution out of or apply them to fulfill a core interaction function of the problem/solution structures (like 'reducing' the problem)
+
     - apply structures of meaning to find relevant (useful, interactive) problem/solution structures (like core interaction functions such as 'connect' that fit with structures like 'causal sequences') & apply those to fulfill problem-solving intents, solution automation workflow intents, interface query design or sub-query intents, or core interaction function intents
       - there are many different structures of relevance in the problem/solution interaction space, such as inputs (problem cause, error types) and outputs (solution metric filters, solutions)
       - this is why there are many different solution automation workflows, and many differences in applicable workflows even between equivalent problem/solution formats
