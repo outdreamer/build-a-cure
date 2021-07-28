@@ -186,6 +186,15 @@
 
   - add to solution automation workflows
 
+    - apply structures of meaning to find relevant (useful, interactive) problem/solution structures (like core interaction functions such as 'connect' that fit with structures like 'causal sequences') & apply those to fulfill problem-solving intents, solution automation workflow intents, interface query design or sub-query intents, or core interaction function intents
+      - there are many different structures of relevance in the problem/solution interaction space, such as inputs (problem cause, error types) and outputs (solution metric filters, solutions)
+      - this is why there are many different solution automation workflows, and many differences in applicable workflows even between equivalent problem/solution formats
+      - the relevant structures are 'meaningful' to find a 'solution' for the 'problem', sometimes meaningful by 'connecting' or 'merging' the problem/solution, by 'building' one or the other, 'deriving' one from the other, 'invalidating' one or the other, etc
+      - structures of meaning could be a 'causal input/output function sequence' for a 'connect' core interaction function, or a 'filter function sequence' for a 'reduce' core interaction function applied to the 'solution space' in the workflow
+        - these structures are meaningful bc they are useful to each other in some way, such as interacting bc they fit together (like how an input interacts with a function bc it fits its input requirements)
+      - the workflow would involve deriving structures that fit together in a meaningful way to fulfill a core interaction function intent & using those as building blocks of solutions, or that fulfills a solution automation workflow intent
+      - workflow fit: this workflow generalizes other workflows & adds applicability to multiple layers of the problem-solving intent stack
+
     - reduce problem/solution structures into known error structures & check the produced variants of those structure to see if they have known solutions, if they generate a solution, reduce/change the problem or the need to solve it
       - example: for the 'find a prediction function' problem, reduce the data set by 'human error patterns', the output of which may overlap with the output of other commonly applied methods like 'data augmentation', 'data reduction' or 'data subset sampling for cross-validation'
         - reducing the data set in this way may reduce the problem of 'finding a prediction function', or the data set may not have much variation once 'human error patterns' are removed from the data set, reducing the need to solve the problem with a more complex method (the resulting data with 'human error patterns' removed may have a clear pattern that simple methods can output a prediction function for)
