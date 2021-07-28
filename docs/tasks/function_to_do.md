@@ -188,10 +188,14 @@
       - a set of example system networks that include those variables as attributes of objects as network nodes
 
   - finish applying math-concept interface mapping
-    - number: all possible values
-    - variable: all possible changes
-    - function/structure: all possible interactions
-    - area: all possible interaction spaces
+    - number: all possible values (and value types, like units)
+    - variable: all possible change types
+    - function: all possible equivalent variable/value interactions
+      - recursion: all possible self-references
+      - multiplication: all possible value interaction spaces
+      - division: all possible value standards
+    - function input variable: all possible change types that can be causes
+    - space: value interaction space where variable (change type) interactions have structure (can be described)
 
   - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
     - example: 'apply concepts to system interface to identify conceptual structures in system'
