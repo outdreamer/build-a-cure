@@ -1,5 +1,33 @@
 - add to solution automation workflows
 
+  - identify & apply non-standard intents as ways of finding useful structures for problem/solution intents like 'core interaction function' intents
+    - example: apply alternate definition routes of 'power' & 'truth' to fulfill core interaction functions like 'connect' to fulfill a non-standard intent of 'power structures' (intents such as 'finding truth structures', like facts)
+      - alternate definition routes of 'power' include:
+        - 'ability to produce changes' bc power indicates an input to functions, where functions produce changes like new/altered components
+      - alternate definition routes of 'truth' include:
+        - 'stability/reliability'
+      - implied related power/truth insights given connections of definition routes
+        - if a structure is powerful, it can produce changes
+        - an absolute or input truth cant be changed, even by powerful structures
+        - if many powerful structures cant change a particular structure, that indicates the structure is true (true in the form of 'stability;reliability')
+      - so 'power structures' have a non-standard intent of 'finding truth' by applying 'power structures' to produce changes (an output of power) to see if some structure can be changed
+        - this intent connects alternate definition routes & implications of 'power' and 'truth'
+          - these concepts are by default connected in the insight 'truth is a form of power' (applying this insight is not required but it is relevant)
+      - how would you know to use 'power structures' to fulfill the intent 'find truth structures'
+        - bc the two concepts are connected by their alternate definition routes:
+          - power produces changes
+          - truth cant be changed
+          - power can used to determine if something can be changed
+            - if it cant be changed, its true
+        - the important part is identifying 'change' as a connecting structure between the two concepts, and identifying that one (power) produces an opposite structure (change) of the other (truth, which is stable/reliable), so it can be used to find 'not truths', and therefore can be used to find 'truths'
+        - so 'power structures' have a non-standard intent of 'finding truth' which is a relevant intent to problem/solution intents like 'filtering the solution space'
+      - this can be generalized to identify & apply useful structures with non-standard intents that produce other useful structures like 'truths' relevant to problem-solving intents
+      - workflow fit: this involves identifying useful structures for problem-solving intents (like truths) as a problem to solve ('find useful structures for problem-solving like truths'), in addition to other general problems to solve when problem-solving (like 'filtering solution space'), which differentiates it from other workflows, bc these useful structures are inputs to general problem-solving intents so they can act as a new general problem-solving intent
+
+  - once problem/solution structures are combined & filtered for workflow structures/types like difference-maximizing workflows or base workflows, and further filtered by which combinations fulfill problem-solving intents, further filter the set by which combinations fulfill differences that are also structures of relevance for those problem-solving intents
+    - workflow fit: this is an extension of the workflow 'combine problem/solution structures (like core interaction functions & error structures & workflows) or change workflow input variables to create a set of all possible workflows & filter the possible workflows by metrics like relevance to problem-solving intents & interactivity', extending it by an additional filter, to filter out workflows that differ by structures that are not relevant to some problem-solving intent
+      - if a workflow differs from other workflows, it should differ in a way that is relevant to fulfilling a problem-solving intent (some workflows may differ in ways that are not useful for a problem-solving intent, so this filters them out)
+      
   - identify which interface structures fulfill problem/solution structures on different interfaces & apply those structures to fulfill those problem/solution structures
     - example: identify which intents & intent structures (like which sub-intent structure solution metrics help fulfill the general solution metric intent) fulfill solution metric intents (like 'keep this variable below this threshold value') & apply these intent structures as solution filters or solution components
     - this applies across interfaces:
