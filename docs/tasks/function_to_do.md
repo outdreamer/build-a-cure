@@ -206,8 +206,11 @@
         - 'missing variables' from the data set
         - 'missing variation' in different data sets
     - these structures are necessary for creating a robust algorithm to create a prediction function, bc a typical algorithm will not infer all of these structures bc they are not directly in the input data set points, variables, or their direct interaction spaces containing their connections
-    - these structures can be embedded with pre-processing in the input format
+    - these structures can be embedded with pre-processing in the input format, but that can lead to problems if processed/embedded incorrectly according to the processed structures' actual meaning
       - using '0.5' as input instead of the 'average health data point', which may or may not be a predictive structure ('difference from average') and may be calculated incorrectly (should be a difference from a different average) so embedding it with a manual standardization may lead to other errors
+      - also, pre-processing for one of these structures may contradict pre-processing for another structure
+  
+  - apply difference patterns in assumed/implied/actual meaning as a way of correcting false implications to connect structures without explicit known connections
 
   - apply differences that cause errors in the fewest possible cases as a way of changing a problem into a solution or changing a solution to a similar problem or changing other problem/solution structures for problem-solving intents
 
