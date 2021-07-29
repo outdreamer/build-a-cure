@@ -172,7 +172,7 @@
     - this is a proxy for knowledge, to replace rules like 'augment the data set with variants of it' with general structures like 'apply core structures like difference to all problem inputs like data sets' and 'find error types like false similarities with alternate causes' (in relevant problem structures like 'equivalent data sets with different causes of their patterns')
     - an example is applying 'difference' & 'average' to find 'difference from average' as a relevant structure that may be an input to the 'prediction function solution'
     - solution success cause: this works bc these general structures are known to occur & be useful across systems for variable problem-solving intents and are therefore likely to interact, meaning they are relevant for finding & connecting interactive structures of a problem/solution, by applying the general structures to the problem space to find specific relevant structures to connect
-    - workflow fit: this is an extension of the 'apply useful structures' workflow, with the application of filters for relevance of structures like 'position' of the useful structures once specified for that problem space
+    - workflow fit: this is an extension of the 'apply useful structures' workflows, with the application of additional filters for relevance of structures, like 'contradicting error structures' and 'position' of the useful structures once specified for that problem space
       - for example, positioning a useful structure in the input data may not be correct for the 'find a prediction-function-finding algorithm' problem bc that may not be a meaningful position where it is useful to other structures
 
   - example of finding useful structures like 'average' to find relevant variables like 'difference from average' in a 'find a prediction function' problem
@@ -221,6 +221,7 @@
     - these structures are necessary for creating a robust algorithm to create a prediction function, bc a typical algorithm will not infer all of these structures bc they are not directly in the input data set points, variables, or their direct interaction spaces containing their connections
     - these structures can be embedded with pre-processing in the input format, but that can lead to problems if processed/embedded incorrectly according to the processed structures' actual meaning
       - using '0.5' as input instead of the 'average health data point', which may or may not be a predictive structure ('difference from average') and may be calculated incorrectly (should be a difference from a different average) so embedding it with a manual standardization may lead to other errors
+        - this would inject a certainty in the input data that may be an error or an uncertainty or may not be resolvable with the existing data
       - also, pre-processing for one of these structures may contradict pre-processing for another structure
     - an algorithm would identify & apply these general useful structures to create relevant useful structures for solving the problem, adjusting the structures as needed to improve the problem-solving intent fulfillment
 
