@@ -1,5 +1,9 @@
 - add to solution automation workflows
 
+  - apply difference patterns between assumed/implied/actual meaning as a way of correcting false implications/assumptions to connect structures without explicit known connections
+
+  - apply differences that cause errors in the fewest possible cases as a way of changing a problem into a solution or changing a solution to a similar problem or changing other problem/solution structures for problem-solving intents
+  
   - identify & apply non-standard intents as ways of finding useful structures for problem/solution intents like 'core interaction function' intents
     - example: apply alternate definition routes of 'power' & 'truth' to fulfill core interaction functions like 'connect' to fulfill a non-standard intent of 'power structures' (intents such as 'finding truth structures', like facts)
       - alternate definition routes of 'power' include:
@@ -27,7 +31,7 @@
   - once problem/solution structures are combined & filtered for workflow structures/types like difference-maximizing workflows or base workflows, and further filtered by which combinations fulfill problem-solving intents, further filter the set by which combinations fulfill differences that are also structures of relevance for those problem-solving intents
     - workflow fit: this is an extension of the workflow 'combine problem/solution structures (like core interaction functions & error structures & workflows) or change workflow input variables to create a set of all possible workflows & filter the possible workflows by metrics like relevance to problem-solving intents & interactivity', extending it by an additional filter, to filter out workflows that differ by structures that are not relevant to some problem-solving intent
       - if a workflow differs from other workflows, it should differ in a way that is relevant to fulfilling a problem-solving intent (some workflows may differ in ways that are not useful for a problem-solving intent, so this filters them out)
-      
+
   - identify which interface structures fulfill problem/solution structures on different interfaces & apply those structures to fulfill those problem/solution structures
     - example: identify which intents & intent structures (like which sub-intent structure solution metrics help fulfill the general solution metric intent) fulfill solution metric intents (like 'keep this variable below this threshold value') & apply these intent structures as solution filters or solution components
     - this applies across interfaces:
