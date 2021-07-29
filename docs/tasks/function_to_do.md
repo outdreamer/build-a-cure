@@ -166,6 +166,51 @@
         - derive understanding of 'decisions' objects (to drive a car) & give proxy/approximate/abstract answers based on understanding
           - for the question 'who drove the car', derive relevant concepts such as 'inputs' to 'driving a car', like 'incentives', 'functions', 'access', 'requirements', 'intents' to 'drive a car' and produce a set of abstract descriptions of the types of people with those intents/incentives & other related objects
 
+  - example of finding useful structures like 'average' to find relevant variables like 'difference from average' in a 'find a prediction function' problem
+    - if an algorithm identifies 'difference from an average' as a variable of a prediction function for 'health problems', other useful structures may be applied, like 'abstraction', so the 'difference from an average' is not applied to the 'specific' average of that initial training data set, but rather from the average of 'any' data set
+      - often a problem wont be as simple as finding one particular important structure
+      - this simplistic algorithm that just checks for 'difference from average' to predict 'health' would have errors like missing relevant structures such as:
+        - 'difference from average in an interactive community'
+        - 'difference from absolute average'
+        - 'skewed data filled with outliers from many communities, which seem like the average in the skewed data set'
+    - how would it identify 'average' as an important object for the 'find a prediction function' problem?
+      - this problem has sub-intents:
+        - 'find differences between data points', which has sub-intents:
+          - 'compare data points'
+            - which has related objects like 'average' or 'standard'
+              - these related objects enable comparison, similar to 'centering' a line between points or 'normalizing' a variable value, which remove the common factor by creating an average in the form of a common distance from the regression line or average value (0.5 between 0 and 1), allowing the remaining non-common difference (which the two data points dont have in common) to be clearly identified (difference from regression line or difference from 0.5, rather than difference from 0), bc the average value has meaning in the form of being more common so difference from it also means a 'lower probability', not just a 'difference in value'
+      - the 'average' can be important for the 'find a prediction function' problem bc it allows for comparison between data points to find differences that can be used as variables to build the prediction function
+      - in standard terms, the 'average' can be useful bc its a possible relevant object/input/sub-intent to a sub-intent (compare) of a sub-intent (find differences as variables) to implement a method (build) of fulfilling the original problem (find prediction function)
+      - so we know the 'average' can be a useful structure - how do we know 'difference from average' is a relevant variable of the prediction function?
+        - we are looking for variables, which by definition involve changes to values, so applying 'differences' to already identified useful structures is a way of finding possible variables
+        - then, applying standard methods, 'difference from average' is a relevant variable if it has predictive value across data sets
+    - we are making assumptions:
+      - the data set involves interactive data point sources
+      - other useful structures dont apply, such as 'alternate causes'
+        - the reason an outlier may have differences in 'health' may not be bc of 'differences from average' but another cause like 'randomness' or 'interactivity between similar data points' (meaning interactions with similar data point sources is an alternate cause of health differences)
+    - so applying useful structures:
+      - alternate causes
+      - assumptions
+      - core structures like 'average' & 'difference'
+    - to a problem structure & input (data set) creates relevant structures to the 'find a prediction function' problem, like:
+      - relevant data set differences (variables)
+      - differences between data sets (alternate samples)
+      - 'difference from average' as a predictive structure
+        - variants of 'difference from average' by applying:
+          - relevant attributes like 'interactivity'
+          - variants of input structures like a 'community data set' rather than a 'data set distributed across non-interactive communities'
+      - error types
+        - 'false similarities' in data sets
+          - two data sets may be equivalent for different reasons ('alternate causes'), such as one group is healthy in one data set bc of missing variables, like proximity to lab testing center, and is healthy in the other data set bc theyre more average, and healthy in another data set bc they interact more & share medicine
+        - 'many outliers in a data set' indicating a 'false signal' error type of the 'absolute average'
+        - 'missing variables' from the data set
+        - 'missing variation' in different data sets
+    - these structures are necessary for creating a robust algorithm to create a prediction function, bc a typical algorithm will not infer all of these structures bc they are not directly in the input data set points, variables, or their direct interaction spaces containing their connections
+    - these structures can be embedded with pre-processing in the input format
+      - using '0.5' as input instead of the 'average health data point', which may or may not be a predictive structure ('difference from average') and may be calculated incorrectly (should be a difference from a different average) so embedding it with a manual standardization may lead to other errors
+
+  - apply differences that cause errors in the fewest possible cases as a way of changing a problem into a solution or changing a solution to a similar problem or changing other problem/solution structures for problem-solving intents
+
   - example of identifying useful info formats for intents & apply to fulfill those intents given the metric those formats fulfill (like 'minimizing cost' or 'reusing resources')
     - rather than a language map, other useful info formats may include:
       - a map on a different interaction level, like 'core components':
