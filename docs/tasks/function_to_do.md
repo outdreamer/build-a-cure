@@ -166,8 +166,13 @@
         - derive understanding of 'decisions' objects (to drive a car) & give proxy/approximate/abstract answers based on understanding
           - for the question 'who drove the car', derive relevant concepts such as 'inputs' to 'driving a car', like 'incentives', 'functions', 'access', 'requirements', 'intents' to 'drive a car' and produce a set of abstract descriptions of the types of people with those intents/incentives & other related objects
 
+  - standardize core interaction functions (improve/optimize a standard/default solution, make progress toward, move toward, connect with) between problem/solution structures
+
   - example of finding useful structures like 'average' to find relevant variables like 'difference from average' in a 'find a prediction function' problem
-    - if an algorithm identifies 'difference from an average' as a variable of a prediction function for 'health problems', other useful structures may be applied, like 'abstraction', so the 'difference from an average' is not applied to the 'specific' average of that initial training data set, but rather from the average of 'any' data set
+    - if a simple algorithm identifies 'difference from an average' as a variable of a prediction function for 'health problems', other useful structures may be applied to align the meaning of the structure, like 'abstraction', so the 'difference from an average' is not applied to the 'specific' average of that initial training data set, but rather from the average of 'any' data set, if thats relevant for the specific problem, and if error types of that structure are not relevant
+      - this would indicate that its any difference from the average that leads to differences in 'health', rather than a specific difference from the average of a particular data set 
+        - but if the specific average happens to be the same as the absolute average or is a common average across data sets, this adjustment may not be necessary to the simplistic 'difference from average' prediction variable
+        - adjustments to the simple structure should be made where necessary to improve problem-solving intent fulfillment (improve the prediction function)
       - often a problem wont be as simple as finding one particular important structure
       - this simplistic algorithm that just checks for 'difference from average' to predict 'health' would have errors like missing relevant structures such as:
         - 'difference from average in an interactive community'
@@ -188,8 +193,9 @@
       - the data set involves interactive data point sources
       - other useful structures dont apply, such as 'alternate causes'
         - the reason an outlier may have differences in 'health' may not be bc of 'differences from average' but another cause like 'randomness' or 'interactivity between similar data points' (meaning interactions with similar data point sources is an alternate cause of health differences)
-    - so applying useful structures:
+    - so applying known general useful structures:
       - alternate causes
+      - abstraction
       - assumptions
       - core structures like 'average' & 'difference'
     - to a problem structure & input (data set) creates relevant structures to the 'find a prediction function' problem, like:
@@ -209,10 +215,7 @@
     - these structures can be embedded with pre-processing in the input format, but that can lead to problems if processed/embedded incorrectly according to the processed structures' actual meaning
       - using '0.5' as input instead of the 'average health data point', which may or may not be a predictive structure ('difference from average') and may be calculated incorrectly (should be a difference from a different average) so embedding it with a manual standardization may lead to other errors
       - also, pre-processing for one of these structures may contradict pre-processing for another structure
-  
-  - apply difference patterns in assumed/implied/actual meaning as a way of correcting false implications to connect structures without explicit known connections
-
-  - apply differences that cause errors in the fewest possible cases as a way of changing a problem into a solution or changing a solution to a similar problem or changing other problem/solution structures for problem-solving intents
+    - an algorithm would identify & apply these general useful structures to create relevant useful structures for solving the problem, adjusting the structures as needed to improve the problem-solving intent fulfillment
 
   - example of identifying useful info formats for intents & apply to fulfill those intents given the metric those formats fulfill (like 'minimizing cost' or 'reusing resources')
     - rather than a language map, other useful info formats may include:
