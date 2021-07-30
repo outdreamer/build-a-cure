@@ -171,13 +171,14 @@
   - apply structures of interface components as filters when predicting unknown systems
 
     - example: using just info about inputs/outputs of a cell and one of its components like DNA, predict all the other interactions/components/functions occurring inside a cell
-    
-      - apply insights, system, core, & potential structures to generate a set of possible default components (like sub-systems or sub-components that can exist in the cell) based on insights about: 
+
+      - apply higher-certainty interfaces like insights, system, core, & potential structures to generate a set of possible default components (like sub-systems or sub-components that can exist in the cell) based on insights about:
+        
         - system structures like efficiencies in the form of energy usage
-        - potential structures like limits in the form of contradicting rules preventing a structure from occurring
+        - potential-impacting structures like limits in the form of contradicting rules preventing a structure from occurring
         - given info like the cell's attributes like size, the inputs available given the cell's inputs & the outputs of components & their interactions given the cell's outputs
 
-      - once this set of default components/functions is generated, filter it by applying other interface components (like intent)
+      - once this set of default components/functions is generated, filter it by applying other interface components (like intent) to add extra certainty
         
         - interface component combination structure (intent + cause + change as sequential filters):
           - intent: this set of components/functions is possible (given a sub-system that could stabilize given how efficiency works in the form of energy usage in biological systems), but is there an intent associated with it? what agent would benefit from its existence? is there a reason for it to exist? does its outputs benefit any other system?
@@ -189,7 +190,7 @@
         - interface component contradiction structure (error as a contradictory structure of the above interface component sequential combination filter structure)
           - error: is there a way for a component/system to stabilize without these attributes or in contradiction of these attributes? (is it possible for a component to be independent of the other components but still exist within a system like a cell, like an output of evolution that isnt necessary but hasnt been removed yet, or a particularly efficient/useful component, or a component that causes problems but hasnt been handled yet bc they are lower priority or relatively lower in impact/scale of problems caused)
 
-    - workflow fit: this applies the concept of 'multi-interface alignment' to fulfill the problem-solving intent of 'filtering the solution space', which is similar to 'applying interfaces in an interface query' but is different in that it specifically applies combinations of 'cooperative/aligning' interface components as 'filter' structures to apply when identifying 'probable solution structures' based on 'multi-interface alignment' as a source of truth, given that 'cooperative/aligning structures' tend to be likelier to be true/real bc they add value such as 'efficiency' to a structure ('sharing resources through cooperation') so theres a reason to use those structures over other structures, and this is also similar to 'applying certainty structures as a source of solutions' but acts as a variant of both workflows that also combines them
+    - workflow fit: this applies the concept of 'multi-interface alignment' to fulfill the problem-solving intent of 'filtering the solution space', which is similar to 'applying interfaces in an interface query' but is different in that it specifically applies combinations of 'cooperative/aligning' interface components as 'filter' structures to apply when identifying 'probable solution structures' based on 'multi-interface alignment' as a source of certainty, given that 'cooperative/aligning structures' tend to be likelier to be true/real bc they add value such as 'efficiency' to a structure ('sharing resources through cooperation') so theres a reason to use those structures over other structures, and this is also similar to 'applying certainty structures as a source of solutions' but acts as a variant of both workflows that also combines them
       - applies specific certainty structures like attributes such as 'alignment' from the 'applying certainty structures' workflow
         - applies the insight that structures with attributes like stable/cooperative/efficient are likelier to be true, and applying this insight & related certainty structures to 'interface components'
       - applies 'apply interfaces in an interface query' workflow, but specifically using interfaces that are organized by certainty structures:
@@ -198,6 +199,27 @@
           - not all interface queries are useful for all problems, but some are, like this one, so it qualifies as a solution automation workflow
       - combines the two workflows (with a standard problem-solving workflow of 'filtering the solution space'):
         - apply the interface query of "filter the solution space by applying 'structures of multi-interface alignment composed of interface components'"
+      - this may be the same output as the output generated by another interface query or solution automation workflow, but it differs in route applied to generate it (the 'combination' structure of solution automation workflows), and this route can be used to generate other workflows/queries
+
+  - output difference:
+
+    - this workflow's output interface queries differ from other interface queries
+
+      - example: applying the 'break a problem into sub-problems & merge sub-solutions' workflow generates an interface query like:
+        - sub-problem: identify solution space of possible components
+        - sub-problem: reduce solution space (identify probable components)
+          - sub-problem: identify components that can be used as filters or components of solutions
+            - sub-problem: apply 'concept' interface, specifically the 'probability' concept, to identify common components in other structures of bio system
+            - sub-problem: apply 'core' interface to identify core components in other structures of bio system
+            - sub-problem: apply 'pattern' interface identify patterns in differences between containing structure & component structures, from other structures of bio system
+          - sub-problem: apply filters to possible structures to identify remaining probable solutions or apply components as possible structures to build probable solutions
+        - sub-problem: check if solutions pass solution metrics
+
+        - note: the indentation indicates the integration/merging level of sub-solutions
+
+      - this interface query also identifies filters of possible components, but using a different route, bc it implemented a different solution automation workflow ('break a problem into sub-problems & merge sub-solutions') as opposed to the other workflow ('apply structures (like combinations) of interface components fulfilling metrics like 'cooperation/alignment' to build/identify structures that fulfill metrics like multi-interface alignment as a source of certainty')
+      - this workflow can be generalized to:
+        - 'apply structures of interface components fulfilling useful metrics to build/identify solution structures that fulfill any useful (like 'certainty') structures involving interfaces'
 
   - apply general useful structures to find probably relevant useful structures in the problem space, as a way of filtering problem-solving intent fulfillment components, like solution inputs or solution components
     - this is a proxy for knowledge, to replace rules like 'augment the data set with variants of it' with general structures like 'apply core structures like difference to all problem inputs like data sets' and 'find error types like false similarities with alternate causes' (in relevant problem structures like 'equivalent data sets with different causes of their patterns')
