@@ -175,6 +175,9 @@
           - whether it can or cant be a structure is taken as a variable in this system
           - in what system would this be a variable of structure? where this structure is 'not guaranteed' but also 'can occur', and both states can occur simultaneously in different system positions or sub-contexts, sub-contexts that may invalidate the host system context
             - it undoes a meta self-reference by replacing itself with its definition or lack thereof as required by the system, using abstraction or structure as needed
+              - so it places the responsibility on the 'system context' as being the 'structure responsible for or capable of determining truth', rather than the statement being the 'structure of truth'
+              - this interacts with the requirement that any statement necessarily has a system context where it can exist (have structure/truth) in, rather than being independent of a system context
+              - if it doesnt have structures of truth (like stability across varied system contexts, such as where its been proven true/false or is capable of being proven true/false), it is less likely to be absolutely true (true in any context where it could possibly exist)
         - alternate version: 
           - when a proof (or a definition in general) has to use itself or its definition as a reference to explain itself, it cant explain/define itself
           - this is like a structure that says 'I dont have structure' a statement that contradicts the concept of 'making a statement about its structure' (a structure which involves having a 'connection' between objects, which is a structure, and 'missing' objects, which is also a structure)
