@@ -159,7 +159,7 @@
       - polynomial: multi-variable pattern alignment (alignment of multiple added terms at regular intervals creates waves where the inflection points represent alignments in values or a pattern in alignment of neutralizing values)
     - function input variable: all possible change types that can be causes
     - space: value interaction space where variable (change type) interactions have structure (can be described)
-    - example function mapping:
+    - example specific function mapping:
       - fermats last theorem:
         - why would the "sum of a pair of interaction spaces (areas) created by equivalent integer multipliers (integer x multiplied by itself once) equal the interaction space of another equivalent integer multiplier" have many solutions, whereas the same formula with a different exponent (3 as opposed to 2) doesnt have any solutions:
           - possible structural answers involve:
@@ -167,6 +167,8 @@
               - unit cases are likelier to be representable with units (integers)
               - insight 'adding more dimensions to a problem creates more complexity that cant be captured with integer coefficients' (just like adding self-multipliers in the form of exponents creates curvature)
               - derivate of first is a constant whereas derivative of the second is another exponent term which is less likely to have integer solution
+        - why would the solution involve elliptic curves?
+          - bc of structural similarities like 'elliptic curve parameter patterns are related to wave functions (polynomials) which are created with exponents'
 
   - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
     - example: 'apply concepts to system interface to identify conceptual structures in system'
