@@ -164,7 +164,15 @@
     - example specific function mapping:
 
       - continuum hypothesis
-        - when something is both true and false in a system using different rule subsets, there is usually one version that is more relevant/useful or has a higher number of other structures of truth, like interactivity, stability, reusability (occurrence in other systems) or fulfills inputs of structures of truth, like similarity/commonness, unless there is a hidden assumption that is not identified in one rule subset vs. the other rule subset, or a different implication of the output that is misinterpreted to have more structures of truth than it actually does
+        - when something is both true and false in a system using different rule subsets, there is usually:
+          - one version that is more relevant/useful or has a higher number of other structures of truth, like interactivity, stability, reusability (occurrence in other systems) or fulfills inputs of structures of truth, like similarity/commonness
+          - a hidden input like an assumption that is not identified in one rule subset vs. the other rule subset
+          - a different implication of the output that is misinterpreted to have more structures of truth than it actually does
+          - a missing rule/variable/structure like context in the system that would differentiate the two or contradict at least one
+          - the two versions are sub-components of the same system context:
+            - 1x + 0x = 1x and 0x + 1x = 1x are equivalent (in a system where 'sequence is irrelevant')
+            - 'evil is good' and 'good is good' are both true (in a system where 'the definitions of objects arent clearly defined or when contextual evil is applied in the wrong context, negating it')
+              - example: its evil to steal in the context 'when you dont need it' but in a different irrelevant context like 'when you need it in order to do something good', it would be the right thing, a context that invalidates the structure of evil in the first context ('stealing') bc the definition of 'stealing' is 'taking something undeserved' but in the second context, that definition is negated bc 'its deserved' so its not stealing in the second context, and doesnt match the first context's structure of evil ('stealing') which is only evil in some contexts, so its not the definition of evil, just a structure that evil takes in some contexts, so it shouldnt be applied as the definition of evil in other contexts where that definition is irrelevant bc the structure has a different meaning
 
       - four color theorem
         - the key solution metric here can be:
