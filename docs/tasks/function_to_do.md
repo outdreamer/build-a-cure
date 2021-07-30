@@ -150,7 +150,10 @@
       - generative variable structures: 'find "generative variables" of a problem and reduce those instead'
       - interactive structures & 'build' core interaction function structure: 'find interactive/cooperative structures in a problem space and use those to build a solution'
     - a workflow that can generate all the relevant structures used to build these workflows could be:
-      - identify attributes/structures that are interchangeable ('format', 'input/output', 'interaction') and apply them to fulfill a structural requirement (a structure that can be 'connected') to solve a problem ('connect' problem/solution)
+      - identify attributes/structures/components that are interchangeable ('format', 'input/output', 'interaction') and apply them to fulfill a structural requirement (a structure that can be 'connected') to solve a problem ('connect' problem/solution)
+      - solution success cause: this works bc if components are interchangeable, they can be changed to generate differences that dont alter the input/output/functionality of the original structure
+      - generalization: this can be generalized to the workflow 'identify variables of workflows that dont invalidate functionality of workflows & apply variables to generate different workflows'
+      - workflow fit: this is similar to 'identify differences between solution automation workflows & apply variables to generate different workflows' but is a specific variant that identifies specific queries/workflows used to solve the same problem, and applies concepts like 'interchangeability' to generate insights like 'use interchangeables to generate different workflows' to apply as generators of workflow-generating functions
 
   - example of multiple ways to solve a problem
     - multiple ways to solve the 'find if a particular number is in a random sequence & find its position' problem
