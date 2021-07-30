@@ -174,6 +174,7 @@
           - if false (it can be structured), it can be a structure
           - whether it can or cant be a structure is taken as a variable in this system
           - in what system would this be a variable of structure? where this structure is 'not guaranteed' but also 'can occur', and both states can occur simultaneously in different system positions or sub-contexts, sub-contexts that may invalidate the host system context
+            - it undoes a meta self-reference by replacing itself with its definition or lack thereof as required by the system, using abstraction or structure as needed
         - alternate version: 
           - when a proof (or a definition in general) has to use itself or its definition as a reference to explain itself, it cant explain/define itself
           - this is like a structure that says 'I dont have structure' a statement that contradicts the concept of 'making a statement about its structure' (a structure which involves having a 'connection' between objects, which is a structure, and 'missing' objects, which is also a structure)
