@@ -1,5 +1,56 @@
 - add to solution automation workflows
 
+  - identify alternate causes of solution success as generators of solutions:
+    - the reason a 'function network' or 'state simulator' or a 'stacked alignment' may be successful as predicting interactions may not be bc of the structure itself but bc of one of its outputs, such as:
+      - a 'dependency' or 'interaction' structure caused by a 'function network' structure 
+      - a 'state sequence' caused by a 'state simulator' structure
+      - a 'phase shift bc of a threshold crossing' caused by a 'stacked alignment' structure
+    - these useful output structures can be caused by other structures:
+      - a 'dependency' structure can be caused by a 'containing' structure forcing that specific 'input-output sequence' to develop, caused by for example a 'lack of functionality' rather than 'connected functions in a function network'
+      - a 'state sequence' can be caused by an 'interactive, adjacent, & probable structure filter set' structure
+      - a 'phase shift bc of a threshold crossing' can be caused by a 'lack of input validation' structure
+    - identifying variables of the solution success cause allows different solution causes to be identified & applied as solution generators
+    - workflow fit: this is similar to 'identify & apply solution success causes as solution generators' but abstracts it & applies a higher causal node as input to 'solution success cause' as the 'causes of solution success cause'
+    - generalization: this can be generalized to: 'identify generators of useful solution structures or identify alternate routes to useful solution structures & apply those alternate routes or generators as generators of solutions'
+    - solution success cause: this works bc there isnt usually one input to the success of a solution, allowing for the usefulness of alternate inputs to solution success, and these inputs can be generated, and there are ether useful solution structures than solution success cause that this rule can be applied to as well, to generate solutions using other useful solution structures
+
+  - identify differences in interface queries, workflows & other problem/solution components that can be used to solve the same problem & apply those variables to generate possible/adjacent solution queries or solutions given a base solution or just given the variables
+    - the output of this would include workflows like:
+      - input-output sequence & 'build' core interaction function structures: 'find the "input-output sequences" that build/produce the same output solution from the same input problem, with a given range of difference in input context (robust solutions), to build/produce/process the solution structure info from the problem structure info'
+        - note: this is particularly useful bc it abstracts away causality & functionality, leaving just 'available resources' (inputs) and 'outputs' as the factors to analyze, so it could be specified as 'causal input-output sequences' or 'function input-output sequences' but that may be unnecessary in some circumstances where that info is irrelevant or captured in the abstraction of the 'input-output' structures
+      - format/state sequence & 'connect' core interaction function structure: 'find adjacent "format sequences" that can "connect" a problem/solution'
+      - generative variable structures: 'find "generative variables" of a problem and reduce those instead'
+      - interactive structures & 'build' core interaction function structure: 'find interactive/cooperative structures in a problem space and use those to build a solution'
+    - a workflow that can generate all the relevant structures used to build these workflows could be:
+      - identify attributes/structures/components that are interchangeable ('format', 'input/output', 'interaction') and apply them to fulfill a structural requirement (a structure that can be 'connected') to solve a problem ('connect' problem/solution)
+      - solution success cause: this works bc if components are interchangeable, they can be changed to generate differences that dont alter the input/output/functionality of the original structure
+      - generalization: this can be generalized to the workflow 'identify variables of workflows that dont invalidate functionality of workflows & apply variables to generate different workflows'
+      - workflow fit: this is similar to 'identify differences between solution automation workflows & apply variables to generate different workflows' but is a specific variant that identifies differences in specific queries/workflows used to solve the same problem which are standardized in some way for comparison (all of the above compared workflows use 'connect' or 'build' interaction functions and a 'sequence' structure in some position), and applies useful interface components such as concepts like 'interchangeability' to generate insights like 'use interchangeables to generate different workflows' to apply these insights as generators of workflow-generating functions
+
+  - example of multiple ways to solve a problem
+    - multiple ways to solve the 'find if a particular number is in a random sequence & find its position' problem
+      - iterate through the sequence & check
+      - filter the solution space of all possible sequences & approximate an answer by checking various points with solution filters
+        - apply the definition of generative function's 'random' definition if available to identify error types possible/expected
+        - apply the general definition of 'random' and 'probability' to find filter structures of likely sequences, which has probability-based filter structures when applied to a 'random number sequence' structure, like:
+          - the sequence structure is likely to not have clear patterns in it (patterns that imply that it can be reduced to a function other than a random function)
+          - the sequence structure is likely to not have a pattern that applies to the entire sequence (a pattern may occur, but is likely to only occur in a subset, the larger the sequence is)
+          - if most positions do not have the number, its likely that remaining positions do have the number given possible patterns not ruled out by most positions (rather than finding a long sequence that doesnt contain the number, which is less likely than most numbers appearing in a long sequence at least once)
+        - apply patterns of probability patterns as filters
+          - how likely is it that 'if most positions do not have the number, its likely that remaining positions do have the number' produces an error?
+
+    - multiple ways to solve the 'answer a question automatically' problem, with the following interface query:
+      - if you have question-answer pattern info:
+        - apply those patterns of language map routes or other info structures in the pattern to produce the answer
+      - if you have error type & solution format or known solution info:
+        - identify error type & apply solution formats or known solutions for that error type
+          - apply the solution format as a template with a 'missing' error type or 'identification' problem:
+            - for the question 'how did they get from A to B', the 'missing' structure is a 'missing path connecting the points', and the identification problem is selecting the correct route from all possible routes connecting the points
+          - apply known solutions for the 'missing' error type (like 'matching structures that fit missing structure') or the 'identification' problem (like 'apply probability-based filters')
+      - if you have concept identification, system structure identification, & derivation functions & access to info like agent decision histories but dont have specific info to filter possibilities of the optimal solution format of 'who drove it'
+        - derive understanding of 'decisions' objects (to drive a car) & give proxy/approximate/abstract answers based on understanding
+          - for the question 'who drove the car', derive relevant concepts such as 'inputs' to 'driving a car', like 'incentives', 'functions', 'access', 'requirements', 'intents' to 'drive a car' and produce a set of abstract descriptions of the types of people with those intents/incentives & other related objects
+
   - apply structures of interface components as filters when predicting unknown systems
 
     - example: using just info about inputs/outputs of a cell and one of its components like DNA, predict all the other interactions/components/functions occurring inside a cell
