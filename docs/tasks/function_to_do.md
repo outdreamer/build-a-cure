@@ -169,26 +169,35 @@
   - standardize core interaction functions (improve/optimize a standard/default solution, make progress toward, move toward, connect with) between problem/solution structures
 
   - apply structures of interface components as filters when predicting unknown systems
-  
+
     - example: using just info about inputs/outputs of a cell and one of its components like DNA, predict all the other interactions/components/functions occurring inside a cell
+    
       - apply insights, system, core, & potential structures to generate a set of possible default components (like sub-systems or sub-components that can exist in the cell) based on insights about: 
         - system structures like efficiencies in the form of energy usage
         - potential structures like limits in the form of contradicting rules preventing a structure from occurring
         - given info like the cell's attributes like size, the inputs available given the cell's inputs & the outputs of components & their interactions given the cell's outputs
-      - once this set of default components/functions is generated, filter it by applying other interface components like intent
-        - intent: this set of components/functions is possible (given a sub-system that could stabilize given how efficiency works in the form of energy usage in biological systems), but is there an intent associated with it? what agent would benefit from its existence? is there a reason for it to exist? does its outputs benefit any other system?
-          - these questions can filter the set of possible components given structural system insights & core structures by intent, bc structures dont usually exist persistently if they are not useful to some other system
-          - this filter could be replaced with a 'relevance' filter
-        - cause: this set of components/functions is possible & there is a reason for them to exist, but is there a cause that could produce them (and would produce them, given its intent to do so)? 
-        - change: this set of components/functions is possible, there's a reason for them to exist, and there is a cause that could produce them, but can it be changed in a way that would invalidate it and are these changes likely, or are there changes that would produce more optimal functionality for some higher priority intent and are those changes likely?
+
+      - once this set of default components/functions is generated, filter it by applying other interface components (like intent)
+        
+        - interface component combination structure (intent + cause + change as sequential filters):
+          - intent: this set of components/functions is possible (given a sub-system that could stabilize given how efficiency works in the form of energy usage in biological systems), but is there an intent associated with it? what agent would benefit from its existence? is there a reason for it to exist? does its outputs benefit any other system?
+            - these questions can filter the set of possible components given structural system insights & core structures by intent, bc structures dont usually exist persistently if they are not useful to some other system
+            - this filter could be replaced with a 'relevance' filter
+          - cause: this set of components/functions is possible & there is a reason for them to exist, but is there a cause that could produce them (and would produce them, given its intent to do so)? 
+          - change: this set of components/functions is possible, there's a reason for them to exist, and there is a cause that could produce them, but can it be changed in a way that would invalidate it and are these changes likely, or are there changes that would produce more optimal functionality for some higher priority intent and are those changes likely?
+
+        - interface component contradiction structure (error as a contradictory structure of the above interface component sequential combination filter structure)
+          - error: is there a way for a component/system to stabilize without these attributes or in contradiction of these attributes? (is it possible for a component to be independent of the other components but still exist within a system like a cell, like an output of evolution that isnt necessary but hasnt been removed yet, or a particularly efficient/useful component, or a component that causes problems but hasnt been handled yet bc they are lower priority or relatively lower in impact/scale of problems caused)
 
     - workflow fit: this applies the concept of 'multi-interface alignment' to fulfill the problem-solving intent of 'filtering the solution space', which is similar to 'applying interfaces in an interface query' but is different in that it specifically applies combinations of 'cooperative/aligning' interface components as 'filter' structures to apply when identifying 'probable solution structures' based on 'multi-interface alignment' as a source of truth, given that 'cooperative/aligning structures' tend to be likelier to be true/real bc they add value such as 'efficiency' to a structure ('sharing resources through cooperation') so theres a reason to use those structures over other structures, and this is also similar to 'applying certainty structures as a source of solutions' but acts as a variant of both workflows that also combines them
       - applies specific certainty structures like attributes such as 'alignment' from the 'applying certainty structures' workflow
         - applies the insight that structures with attributes like stable/cooperative/efficient are likelier to be true, and applying this insight & related certainty structures to 'interface components'
       - applies 'apply interfaces in an interface query' workflow, but specifically using interfaces that are organized by certainty structures:
         - "combine interface components in a way that fulfills the 'multi-interface alignment' or 'cooperative' structure"
-        - a specifically highly useful interface query like this can function as a solution automation workflow
+        - a specific highly useful interface query like this can function as a solution automation workflow
           - not all interface queries are useful for all problems, but some are, like this one, so it qualifies as a solution automation workflow
+      - combines the two workflows (with a standard problem-solving workflow of 'filtering the solution space'):
+        - apply the interface query of "filter the solution space by applying 'structures of multi-interface alignment composed of interface components'"
 
   - apply general useful structures to find probably relevant useful structures in the problem space, as a way of filtering problem-solving intent fulfillment components, like solution inputs or solution components
     - this is a proxy for knowledge, to replace rules like 'augment the data set with variants of it' with general structures like 'apply core structures like difference to all problem inputs like data sets' and 'find error types like false similarities with alternate causes' (in relevant problem structures like 'equivalent data sets with different causes of their patterns')
