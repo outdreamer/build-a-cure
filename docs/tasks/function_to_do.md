@@ -159,7 +159,20 @@
       - polynomial: multi-variable pattern alignment (alignment of multiple added terms at regular intervals creates waves where the inflection points represent alignments in values or a pattern in alignment of neutralizing values)
     - function input variable: all possible change types that can be causes
     - space: value interaction space where variable (change type) interactions have structure (can be described)
+    
     - example specific function mapping:
+
+      - four color theorem
+        - the key solution metric here can be:
+          - whether an 'equivalent component' interaction type (two adjacent nodes having the same colors) is required to color a graph having the input graph restrictions
+          - whether the most reduced graph (removing guaranteed irrelevant position values, like the "outer border nodes having one connection") requires the 'equivalent component' interaction type
+          - whether any interaction structures created from allowed interaction types match the graph structure
+        - input (graph structure) restrictions:
+            - number of connecting nodes allowed
+            - interaction structure type allowed (such as "no surrounding/containing/overlap/stack/merge structures allowed, only isolated bordering structures")
+            - interaction types allowed (every different combination of colors, where the combination has size 2)
+              - interaction layers emerging from restrictions & variables, like concentric circuits connected to at most to adjacent nodes on the same circuit & two other circuits
+
       - fermats last theorem:
         - why would the "sum of a pair of interaction spaces (areas) created by equivalent integer multipliers (integer x multiplied by itself once) equal the interaction space of another equivalent integer multiplier" have many solutions, whereas the same formula with a different exponent (3 as opposed to 2) doesnt have any solutions:
           - possible structural answers involve:
