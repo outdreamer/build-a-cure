@@ -152,6 +152,9 @@
       - a 'state sequence' can be caused by an 'interactive, adjacent, & probable structure filter set' structure
       - a 'phase shift bc of a threshold crossing' can be caused by a 'lack of input validation' structure
     - identifying variables of the solution success cause allows different solution causes to be identified & applied as solution generators
+    - workflow fit: this is similar to 'identify & apply solution success causes as solution generators' but abstracts it & applies a higher causal node as input to 'solution success cause' as the 'causes of solution success cause'
+    - generalization: this can be generalized to: 'identify generators of useful solution structures or identify alternate routes to useful solution structures & apply those alternate routes or generators as generators of solutions'
+    - solution success cause: this works bc there isnt usually one input to the success of a solution, allowing for the usefulness of alternate inputs to solution success, and these inputs can be generated, and there are ether useful solution structures than solution success cause that this rule can be applied to as well, to generate solutions using other useful solution structures
 
   - identify differences in interface queries, workflows & other problem/solution components that can be used to solve the same problem & apply those variables to generate possible/adjacent solution queries or solutions given a base solution or just given the variables
     - the output of this would include workflows like:
