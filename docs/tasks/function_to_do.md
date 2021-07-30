@@ -142,6 +142,17 @@
       - find changes to problem/solution structures that still allow the structures to interact
       - find remaining variables of interactions
 
+  - identify alternate causes of solution success as generators of solutions:
+    - the reason a 'function network' or 'state simulator' or a 'stacked alignment' may be successful as predicting interactions may not be bc of the structure itself but bc of one of its outputs, such as:
+      - a 'dependency' or 'interaction' structure caused by a 'function network' structure 
+      - a 'state sequence' caused by a 'state simulator' structure
+      - a 'phase shift bc of a threshold crossing' caused by a 'stacked alignment' structure
+    - these useful output structures can be caused by other structures:
+      - a 'dependency' structure can be caused by a 'containing' structure forcing that specific 'input-output sequence' to develop, caused by for example a 'lack of functionality' rather than 'connected functions in a function network'
+      - a 'state sequence' can be caused by an 'interactive, adjacent, & probable structure filter set' structure
+      - a 'phase shift bc of a threshold crossing' can be caused by a 'lack of input validation' structure
+    - identifying variables of the solution success cause allows different solution causes to be identified & applied as solution generators
+
   - identify differences in interface queries, workflows & other problem/solution components that can be used to solve the same problem & apply those variables to generate possible/adjacent solution queries or solutions given a base solution or just given the variables
     - the output of this would include workflows like:
       - input-output sequence & 'build' core interaction function structures: 'find the "input-output sequences" that build/produce the same output solution from the same input problem, with a given range of difference in input context (robust solutions), to build/produce/process the solution structure info from the problem structure info'
