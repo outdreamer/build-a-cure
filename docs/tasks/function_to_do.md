@@ -118,7 +118,8 @@
 
   - add interface versions to your solution/workflow metadata
     - example:
-      - structural version of solution difference from original solution: this is like using a pair of connected lines at different angles to connect two points (multiplying alternate multiplier pairs to create a product), where summing the line lengths produces an equivalence
+      - structural version of solution difference from original solution: 
+        - this is like using a pair of connected lines at different angles to connect two points (multiplying alternate multiplier pairs to create a product), where summing the line lengths produces an equivalence
         - https://www.popularmechanics.com/science/math/a30152083/solve-quadratic-equations/
 
   - add to useful structures
@@ -159,8 +160,11 @@
       - polynomial: multi-variable pattern alignment (alignment of multiple added terms at regular intervals creates waves where the inflection points represent alignments in values or a pattern in alignment of neutralizing values)
     - function input variable: all possible change types that can be causes
     - space: value interaction space where variable (change type) interactions have structure (can be described)
-    
+
     - example specific function mapping:
+
+      - continuum hypothesis
+        - when something is both true and false in a system using different rule subsets, there is usually one version that is more relevant/useful or has a higher number of other structures of truth, like interactivity, stability, reusability (occurrence in other systems) or fulfills inputs of structures of truth, like similarity/commonness, unless there is a hidden assumption that is not identified in one rule subset vs. the other rule subset, or a different implication of the output that is misinterpreted to have more structures of truth than it actually does
 
       - four color theorem
         - the key solution metric here can be:
