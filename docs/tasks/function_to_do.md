@@ -164,6 +164,16 @@
     - example specific function mapping:
 
       - godel's incompleteness theorem: 'this statement cannot be proven true'
+        - standardized versions:
+          - 'this statement cannot be defined with a structure of truth'
+          - 'this statement is not subject to truth derivation methods'
+          - 'this statement cannot be structured'
+          - 'this structure cannot be structured'
+          - there is an inherent contradiction given the definitions of these terms
+          - if true (it cant be structured), it cant be a structure
+          - if false (it can be structured), it can be a structure
+          - whether it can or cant be a structure is taken as a variable in this system
+          - in what system would this be a variable of structure? where this structure is 'not guaranteed' but also 'can occur', and both states can occur simultaneously in different system positions or sub-contexts, sub-contexts that may invalidate the host system context
         - alternate version: 
           - when a proof (or a definition in general) has to use itself or its definition as a reference to explain itself, it cant explain/define itself
           - this is like a structure that says 'I dont have structure' a statement that contradicts the concept of 'making a statement about its structure' (a structure which involves having a 'connection' between objects, which is a structure, and 'missing' objects, which is also a structure)
@@ -171,6 +181,11 @@
           - 'self-description' involves the function of 'checking if the description is true' and in the process of 'checking a self-descriptive statement', the object has to recurse
           - 'this statement cant be limited in a way that will make it definitely true'
         - variants:
+          - true
+            - if true, (meaning 'it cant be proven true') 'this statement cannot be proven true' is:
+              - true in the sense of its definition as 'true'
+              - false in the sense that its definition contradicts its application/usage in a particular system context structure ('once its proven that it cannot be proven true')
+              - once 'proven true', the statement has a new state in a new context where it was proven true, meaning some component of the statement like 'cannot' was incompletely defined and applies only in a particular subset of contexts
           - false:
             - if false, (meaning 'its proven true') 'this statement cannot be proven true' is:
               - false, in the sense that it 'can be proven true' (it 'contradicts the original statement', so its by definition 'false')
@@ -178,6 +193,7 @@
                 - so "'this statement cannot be proven true' is a true statement that is proven true once its proved"
                   - this embeds the reference to the original statement in a new context where it "is a true statement that is proven true once its proved"
               - the statement has a new state which is that 'its proven true', so its the new state that is false in the new embedded context ('cant be proven true' is false once 'its proven true' has occurred)
+        - the structure of this problem is incomplete - its not just a rule to prove (with a static related set of axiom rules used to prove it), but a system network structure that the rule exists in (as well as the axiom rules)
 
       - continuum hypothesis
         - when something is both true and false in a system using different rule subsets, there is usually a structure of incompleteness in info, such as:
