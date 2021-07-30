@@ -173,9 +173,11 @@
         - variants:
           - false:
             - if false, (meaning 'its proven true') 'this statement cannot be proven true' is:
-              - false, in the sense that it 'can be proven true' 
-              - true, in the sense that it 'was proven true' by a prior operation of 'proving it'
-              - the statement has a new state which is that it was proved, so its the new state that is false ('cant be proven true' is false once 'its proven true' has occurred)
+              - false, in the sense that it 'can be proven true' (it 'contradicts the original statement', so its by definition 'false')
+              - true, in the sense that 'its proven true' by a prior operation of 'proving it'
+                - so "'this statement cannot be proven true' is a true statement that is proven true once its proved"
+                  - this embeds the reference to the original statement in a new context where it "is a true statement that is proven true once its proved"
+              - the statement has a new state which is that 'its proven true', so its the new state that is false in the new embedded context ('cant be proven true' is false once 'its proven true' has occurred)
 
       - continuum hypothesis
         - when something is both true and false in a system using different rule subsets, there is usually a structure of incompleteness in info, such as:
