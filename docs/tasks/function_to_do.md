@@ -163,8 +163,22 @@
 
     - example specific function mapping:
 
+      - godel's incompleteness theorem: 'this statement cannot be proven true'
+        - alternate version: 
+          - when a proof (or a definition in general) has to use itself or its definition as a reference to explain itself, it cant explain/define itself
+          - this is like a structure that says 'I dont have structure' a statement that contradicts the concept of 'making a statement about its structure' (a structure which involves having a 'connection' between objects, which is a structure, and 'missing' objects, which is also a structure)
+            - saying 'I dont have limits' is a limit structure that prohibits 'any structure with limits', so 'I do have limits' in that I have to follow the limit that 'I cant have any limits'
+          - 'self-description' involves the function of 'checking if the description is true' and in the process of 'checking a self-descriptive statement', the object has to recurse
+          - 'this statement cant be limited in a way that will make it definitely true'
+        - variants:
+          - false:
+            - if false, (meaning 'its proven true') 'this statement cannot be proven true' is:
+              - false, in the sense that it 'can be proven true' 
+              - true, in the sense that it 'was proven true' by a prior operation of 'proving it'
+              - the statement has a new state which is that it was proved, so its the new state that is false ('cant be proven true' is false once 'its proven true' has occurred)
+
       - continuum hypothesis
-        - when something is both true and false in a system using different rule subsets, there is usually:
+        - when something is both true and false in a system using different rule subsets, there is usually a structure of incompleteness in info, such as:
           - one version that is more relevant/useful or has a higher number of other structures of truth, like interactivity, stability, reusability (occurrence in other systems) or fulfills inputs of structures of truth, like similarity/commonness
           - a hidden input like an assumption that is not identified in one rule subset vs. the other rule subset
           - a different implication of the output that is misinterpreted to have more structures of truth than it actually does
