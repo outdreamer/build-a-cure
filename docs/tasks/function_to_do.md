@@ -182,7 +182,7 @@
           - what other numbers produce curvature when applied to a square & are they of the same or related types or have attributes in common with transcendental numbers?
           - exponents are a factor in curvature in polynomials bc of interval patterns in sums of sequences ('curvature' defined as 'differing adjacent differences in change rates')
           - why would pi produce 'differing adjacent differences in change rates' when applied to an area? it doesnt have to be represented as the area of a circle 
-            - can the area of a circle be represented as an area of a rectangle or other shape producible with just integer factors
+            - can the area of a circle be represented as an area of a rectangle or other shape producible with just integer factors, or can it specifically not be and is an 'interim structure' just like primes are an 'interim structure' that cant be represented as an area of integer factors or the sum of sequences?
 
       - 'is (pi + e), (pi * e) or (pi / e) transcendental' problem
         - algebraic definition: numbers that can be multiplied by themselves (an integer number of times) and multiplied by integers to equal integers (vs transcendental numbers, which cannot)
