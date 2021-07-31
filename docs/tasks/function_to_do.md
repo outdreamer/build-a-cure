@@ -163,6 +163,13 @@
 
     - example specific function mapping:
 
+      - proof using radicals
+        - related questions
+          - why are rational coefficients relevant for the 'relevance of permutations of roots where any algebraic equation involving roots is consistent after permutation'
+            - number unit (integer) relationships (rational numbers) are relevant to the consistency of unit relationships having number unit (integer) coefficients
+          - why is the symmetry of an average between the roots relevant for this consistency?
+            - bc the symmetry in roots produces a cancellation of non-integer terms and the multiplication of square roots produces an integer, which when combined with the integer representing the average is also an integer, so the operations dont require a change in number type, meaning the relationship of A multiplied by B is likely to contain rational coefficients
+
       - prime number theorem
         - related questions
           - why would ten be a relevant standard to frame other numbers in terms of?
