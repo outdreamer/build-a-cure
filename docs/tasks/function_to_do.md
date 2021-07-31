@@ -163,15 +163,31 @@
 
     - example specific function mapping:
 
+      - 'is (pi + e), (pi * e) or (pi / e) transcendental' problem
+        - algebraic definition: numbers that can be multiplied by themselves/integers to equal integers (vs transcendental numbers, which cannot)
+          - rational numbers (relations between integers) and roots of rational numbers (rational number powers of rational numbers) are algebraic
+          - pi and e are transcendental, but operations of them are not definitely transcendental
+            - 'pi + e' cannot definitely be multiplied by itself/integers to equal/not equal integers
+              - alternate version: an integer multiple of (pi + e) to an integer power doesnt definitely equal an integer
+        - this is a question of finding 'invalidating conditions' that 'prevent number types from being operated on to produce different number types'
+        - this is related to the definition of 'rational numbers' as 'relations between integers' and the rule of 'multiplying an integer by an integer equals an integer'
+          - a rectangle with an integer side and an integer side produces an area that is an integer
+          - a rectangle with an integer side and a pi side produces an area that is not an integer
+          - if it cant be represented as a fraction of integers, it cant be used to form an integer area using just multiplication with an integer
+        - a related question is 'can shapes with equivalent non-integer sides (areas, cubes) be used to produce an integer given simple operations like multiplication by an integer'
+        - a 'connection between rational/transcendental numbers' is a useful structure to solve this and connect a possibly transcendental number with 'integer relations' (rational numbers)
+
       - large cardinal limit problem
-        - the size of an infinite sequence/set varies across sets bc some number types have more members
+        - the size of an infinite number type set varies across sets bc some number types have more members
         - this can be formatted as 'what types of numbers can form infinite sets and what types cannot'
           - the implication is that if there are non-zero types (at least one type) of numbers that cannot form infinite sets, there is a limit on the number of large cardinal number types/sets (it is not all number types)
-        - by definition a number type is a subset of numbers
+        - by definition a number type refers to a subset of numbers (or it wouldnt be a type, it would be an inherent attribute of all numbers)
           - the resulting question from this definition is 'are there infinitely many subsets of numbers that have infinite sets'
           - a 'type' is a compressing attribute describing a 'subset', but a number can have multiple 'types'
           - how many possible number types are there having infinite members in the set of numbers in that type
             - related question: how many possible combinations of attributes can be combined into a type (producing a 'number type')
+          - a 'type' varies around the symmetry of a 'definition of an object'
+            - how many ways can a type vary around the 'number definition' symmetry?
 
       - unknotting problem
         - this can be standardized to a problem of identifying structures that prevent change types (or 'moves')
