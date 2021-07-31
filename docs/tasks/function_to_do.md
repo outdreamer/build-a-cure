@@ -163,10 +163,13 @@
 
     - example specific function mapping:
 
+      - kissing problem
+        - this is a problem of matching the rate of change in the definition of a sphere (an 'object that can be adjacent to another object in a containing object') with the rate of change in the definition of a dimension (a 'possible change type', such as 'in a straight line' in 2d bc theres no possibility of a non-straight line, its excluded by the definition of 2d & the resulting change type possibilities & change type interaction possibilities)
+
       - swinnerton-dyer theorem
         - elliptic curves are a unit case of 'higher-dimensional inputs (power of 3) generating lower-dimensional outputs (power of 2), having more than one opposite value (roots of y squared)'
         - elliptic curves add an attribute of obscurity in their outputs by having more than one possible output (two opposite factors of y-squared)
-        - another useful structure related to encoding info in low dimensions is a sequence that converges to a particular number
+        - another useful structure related to encoding info in low dimensions is a sequence that converges to a particular number, or a wave/circle with a magnitude/radius but obscurity in position (which particular peak in the wave a y-value occurs on, or which particular point on the circle given its equivalent distance from the center)
           - this structure enables high-dimensional inputs like sequences to be highly varied but produce the same output bc they converge to the same number (have a symmetry around the number)
 
       - riemann sum
