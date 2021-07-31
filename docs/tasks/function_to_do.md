@@ -167,14 +167,23 @@
         - standardized version: the 'prime differences equal to the unit even number' is an infinite sequence
         - related rules:
           - standardized definition of a prime: an integer (number divisible by 1) with zero other factors (a unit integer having zero factors)
-            - this means a prime can be described as just an integer, excluding other factors bc it has none, and the 'integer' definition replaces the 'factors': [itself, 1] attribute, so you could call it a unit integer
+            - this means a prime can be described as just an integer, excluding other factors bc it has none, and the 'integer' definition replaces the 'factors': [itself, 1] attribute, so you could call it a unit factor integer
               - prime: 
                 - 'integer': true (or 'factors': [itself, 1])
                 - 'other factors than itself and 1': []
-          - standardized definition of a related number type unit (2): 2 is by definition a prime (or unit integer, having itself & 1 as a factor) and an even number (bc its divisible by 2 and it happens to be equivalent to that divisor, so itself is a factor of itself)
+          - standardized definition of a related number type unit (2): 2 is by definition a prime (or unit factor integer, having itself & 1 as a factor) and an even number (bc its divisible by 2 and it happens to be equivalent to that divisor, so itself is a factor of itself)
           - structures of infinite sequences that have regular value attributes (like a regularly occuring pattern in 'prime differences') like waves or circles are a useful structure for depicting patterns with no contradictions or end conditions
         - example of determining a rule excluding prime candidates using operations applied to another rule excluding prime candidates
-          - what is definitely not prime (definitely is not an integer with only itself & 1 as a factor)? even numbers
+          - what is definitely not a prime (definitely not an integer with only itself & 1 as a factor)? even numbers
+            - what is the connection between even/odd numbers? a difference of 1
+            - what is the connection between even numbers & a partial sequence of even numbers (6x)? differences of 0, 2, or 4
+            - what is the connection between odd numbers & this partial sequence? differences of 1, 3, or 5
+              - what attributes do each of these differences from the partial sequence produce?
+                - difference of 1 from a multiple of 6 = odd
+                - difference of 3 from a multiple of 6 = odd, with a factor of 3 (which is a factor of 6)
+                - difference of 5 from a multiple of 6 = odd
+              - one of these differences disqualifies a number from being prime (having only itself & 1 as a factor)
+          - by applying change operations (difference, partial, sequence, factors) to connect these objects, starting from a limit condition, we've reached another object of the same type (a limit condition)
 
       - goldbach's theorem
         - standardized version: every even number (greater than an even number that is only the unit prime away from the unit prime) is a prime away from another prime
