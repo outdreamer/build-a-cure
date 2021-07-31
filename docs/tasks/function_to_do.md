@@ -163,7 +163,16 @@
 
     - example specific function mapping:
 
+      - prime number theorem
+        - related questions
+          - why would ten be a relevant standard to frame other numbers in terms of?
+          - the theorem frames the probability of a prime less than n digits in terms of the inverse of its value in terms of powers of 10 (log 10 ^ n), where 10 is a standard that is required for the definition of a digit
+          - why would e be a relevant standard to frame the area of the unit inverse function (1/x)
+          - why is e a relevant structure to the prime number theorem? bc it involves an inverse function, n / ln(n)
+          - why would comparing a number standardized to e and a number standardized to 10 (to the power of the digit count) be relevant? bc it connects the concept of an inverse and a digit count
+
       - godel's incompleteness theorem: 'this statement cannot be proven true'
+        - structural version: this is like a structure (such as a curved line) that forms a lack of structure (like a gap inside a circle when the line forms a circle)
         - standardized versions:
           - 'this statement cannot be defined with a structure of truth'
           - 'this statement is not subject to truth derivation methods'
