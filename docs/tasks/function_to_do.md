@@ -164,9 +164,14 @@
     - example specific function mapping:
 
       - large cardinal limit problem
-        - the size of an infinite sequence/set varies across sets bc some have more members
+        - the size of an infinite sequence/set varies across sets bc some number types have more members
         - this can be formatted as 'what types of numbers can form infinite sets and what types cannot'
-        - if there are non-zero types (at least one type) of numbers that cannot form infinite sets, there is a limit on the number of large cardinals
+          - the implication is that if there are non-zero types (at least one type) of numbers that cannot form infinite sets, there is a limit on the number of large cardinal number types/sets (it is not all number types)
+        - by definition a number type is a subset of numbers
+          - the resulting question from this definition is 'are there infinitely many subsets of numbers that have infinite sets'
+          - a 'type' is a compressing attribute describing a 'subset', but a number can have multiple 'types'
+          - how many possible number types are there having infinite members in the set of numbers in that type
+            - related question: how many possible combinations of attributes can be combined into a type (producing a 'number type')
 
       - unknotting problem
         - this can be standardized to a problem of identifying structures that prevent change types (or 'moves')
