@@ -166,9 +166,13 @@
       - proof using radicals
         - related questions
           - why are rational coefficients relevant for the 'relevance of permutations of roots where any algebraic equation involving roots is consistent after permutation'
-            - number unit (integer) relationships (rational numbers) are relevant to the consistency of unit relationships having number unit (integer) coefficients
+            - number unit (integer) relationships (like rational numbers) are relevant to the consistency of unit relationships having number unit (integer) coefficients
+            - standardized version of permutation requirement: the 'unit relations' of roots must be consistent when the root positions are changed
+            - the number unit relations hold despite position changes bc their relations (differences connecting them) are similar, given their common symmetry
           - why is the symmetry of an average between the roots relevant for this consistency?
             - bc the symmetry in roots produces a cancellation of non-integer terms and the multiplication of square roots produces an integer, which when combined with the integer representing the average is also an integer, so the operations dont require a change in number type, meaning the relationship of A multiplied by B is likely to contain rational coefficients
+          - 'change within the range of a symmetry without breaking the symmetry' is a common structure used in other equations/definitions
+          - why is 'associativity' a relevant attribute, indicating the relevance of 'groups' to this proof? bc changes are being made and the changes need to fulfill the metric of 'not changing the output'
 
       - prime number theorem
         - related questions
