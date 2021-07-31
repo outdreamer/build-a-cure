@@ -163,6 +163,13 @@
 
     - example specific function mapping:
 
+      - collatz conjecture
+        - the key variable is not that it 'always arrives at 1' but that it 'always arrives at an input to 1, like an even number that when halved will always produce 1' 
+          - an odd number multiplied by an odd number + 1 will produce an even number, which makes it less unlikely that the even number triggering the 'even number sequence leading to 1' will be produced
+          - sub-problem: finding triggering numbers (like 8 or 16)
+          - sub-problem: finding odd numbers that when multiplied by an odd number + 1, produce the triggering numbers (like 8 or 16)
+          - sub-problem: finding out if these odd numbers can always be produced by the sequence, which is the key question to answer
+
       - proof using radicals
         - related questions
           - why are rational coefficients relevant for the 'relevance of permutations of roots where any algebraic equation involving roots is consistent after permutation'
