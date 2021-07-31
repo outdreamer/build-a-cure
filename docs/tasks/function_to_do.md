@@ -165,8 +165,9 @@
 
       - riemann sum
         - related questions
-          - why would the sum of inverses of squares (like an 'area') equal a factor of pi squared/6?
+          - why would the sum of inverses of squares (like an 'area') equal a factor of (pi squared)/6?
             - inverses are related to the natural log base e having its area summed across consecutive values, and e is related to pi
+          - how is the riemann zeta function for imaginary numbers connected to this unit case sequence with power of 2? is it connected by the symmetry of the root power (1/2)?
 
       - twin primes
         - standardized version: the 'prime differences equal to the unit even number' is an infinite sequence
