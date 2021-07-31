@@ -163,6 +163,11 @@
 
     - example specific function mapping:
 
+      - twin primes
+        - standardized version: the 'difference between primes is the unit even number' is an infinite sequence
+        - related rules:
+          - structures of infinite sequences that have regular value attributes (like a regularly occuring pattern in 'consecutive prime differences') like waves or circles are a useful structure for depicting patterns with no contradictions or end conditions
+
       - goldbach's theorem
         - standardized version: every even number (greater than an even number that is only the unit prime away from the unit prime) is a prime away from another prime
         - alternate version:
