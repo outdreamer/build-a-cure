@@ -171,6 +171,12 @@
           - why is e a relevant structure to the prime number theorem? bc it involves an inverse function, n / ln(n)
           - why would comparing a number standardized to e and a number standardized to 10 (to the power of the digit count) be relevant? bc it connects the concept of an inverse and a digit count
 
+          - why would it be true that as x increases, it is less likely to be prime? restate it in different formats:
+            - as x increases, the number of factors that can be multiplied to generate it will increase in most cases (for example, 6 can be used to generate 12 and both 6 & 12 can be used to generate 24, which is larger than 12)
+              - this problem can be framed as 'find the integers that cannot be formatted as a rectangle made of unit (integer) components'
+            - the probability of a number overlapping with a number sequence like 2x or 3x or 4x is likelier the larger it is (3 can only overlap with the 3x sequence but a larger number like 12 overlaps with all three sequences)
+              - this problem can be framed as 'find the gaps in overlapping number sequences of 1 ... x where x is the coefficient and find the patterns of these gaps'
+
       - godel's incompleteness theorem: 'this statement cannot be proven true'
         - structural version: this is like a structure (such as a curved line) that forms a lack of structure (like a gap inside a circle when the line forms a circle)
         - standardized versions:
