@@ -163,6 +163,11 @@
 
     - example specific function mapping:
 
+      - unknotting problem
+        - this can be standardized to a problem of identifying structures that prevent change types (or 'moves')
+          - as in, once a structure is in a particular knot type (having various core structures like overlaps, intersections, twists, & loops), which moves arent possible, and what formats can be produced by changes given the available operations once those operations are limited
+        - it can also be formatted as a question of 'which change types or structures like overlaps prevent neutralizing structures from being applied'
+
       - kissing problem
         - this is a problem of matching the rate of change in the definition of a sphere (an 'object that can be adjacent to another object in a containing object') with the rate of change in the definition of a dimension (a 'possible change type', such as 'in a straight line' in 2d bc theres no possibility of a non-straight line, its excluded by the definition of 2d & the resulting change type possibilities & change type interaction possibilities)
 
