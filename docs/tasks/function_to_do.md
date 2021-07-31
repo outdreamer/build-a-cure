@@ -163,8 +163,11 @@
 
     - example specific function mapping:
 
-      - swinnerton-dyer 
-        - elliptic curves have a unit case of 'higher dimensional inputs generating lower-dimensional outputs'
+      - swinnerton-dyer theorem
+        - elliptic curves are a unit case of 'higher-dimensional inputs (power of 3) generating lower-dimensional outputs (power of 2), having more than one opposite value (roots of y squared)'
+        - elliptic curves add an attribute of obscurity in their outputs by having more than one possible output (two opposite factors of y-squared)
+        - another useful structure related to encoding info in low dimensions is a sequence that converges to a particular number
+          - this structure enables high-dimensional inputs like sequences to be highly varied but produce the same output bc they converge to the same number (have a symmetry around the number)
 
       - riemann sum
         - related questions
