@@ -163,6 +163,9 @@
 
     - example specific function mapping:
 
+      - swinnerton-dyer 
+        - elliptic curves have a unit case of 'higher dimensional inputs generating lower-dimensional outputs'
+
       - riemann sum
         - related questions
           - why would the sum of inverses of squares (like an 'area') equal a factor of (pi squared)/6?
