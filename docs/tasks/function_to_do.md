@@ -168,9 +168,11 @@
           - a 'limit' operation applied to (harmonic series - natural log) to find its 'converging value', which may or may not have 'rational number' attributes (can be a relation between integers)
         - if one attribute of ir/rational numbers is contradicted, that would be a sufficient proof
         - the 'patterns of differences between ir/rational numbers' would be a useful structure to prove if gamma is rational
+        - related question: are pi and e a unit case of a number type, like a gap in a set of number sequences such as 'core integer relations' (rational numbers) - if so what are the operations used to combine those numbers in a way that invalidates or preserves their attributes?
 
       - 'is (pi + e), (pi * e) or (pi / e) transcendental' problem
-        - algebraic definition: numbers that can be multiplied by themselves/integers to equal integers (vs transcendental numbers, which cannot)
+        - algebraic definition: numbers that can be multiplied by themselves (an integer number of times) and multiplied by integers to equal integers (vs transcendental numbers, which cannot)
+          - this definition can be reduced to: numbers that can be multiplied by themselves an integer number of times to equal a rational number (integer constant divided by integer coefficient) in the unit case of a polynomial with one term
           - rational numbers (relations between integers) and roots of rational numbers (rational number powers of rational numbers) are algebraic
           - pi and e are transcendental, but operations of them are not definitely transcendental
             - 'pi + e' cannot definitely be multiplied by itself/integers to equal/not equal integers
