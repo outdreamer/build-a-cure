@@ -169,6 +169,20 @@
         - if one attribute of ir/rational numbers is contradicted, that would be a sufficient proof
         - the 'patterns of differences between ir/rational numbers' would be a useful structure to prove if gamma is rational
         - related question: are pi and e a unit case of a number type, like a gap in a set of number sequences such as 'core integer relations' (rational numbers) - if so what are the operations used to combine those numbers in a way that invalidates or preserves their attributes?
+          - pi is the number that can be used as a coefficient to convert a square's area (r squared) into a circle's area (pi * r squared)
+            - a circle's area is a transcendental number * an integer power of a number
+            - pi is how to relate a number to the area of a shape created by:
+              - rotating that number
+              - connecting the midpoints of its original area (r squared) in a continuous convex curved line
+                - related question: what is the relationship between r and the area of the associated concave shape
+          - the relation between the radius r and its circle's area is specifically 'not an algebraic number'
+            - why would the number creating this relation (pi) not be algebraic (multipliable by itself an integer number of times to be an integer)
+          - relations between a number (that is algebraic) and the generated areas producible with it are probably lacking an attribute of circles, like curvature
+          - why would a transcendental number produce curvature when applied to a square?
+          - what other numbers produce curvature when applied to a square & are they of the same or related types or have attributes in common with transcendental numbers?
+          - exponents are a factor in curvature in polynomials bc of interval patterns in sums of sequences ('curvature' defined as 'differing adjacent differences in change rates')
+          - why would pi produce 'differing adjacent differences in change rates' when applied to an area? it doesnt have to be represented as the area of a circle 
+            - can the area of a circle be represented as an area of a rectangle or other shape producible with just integer factors
 
       - 'is (pi + e), (pi * e) or (pi / e) transcendental' problem
         - algebraic definition: numbers that can be multiplied by themselves (an integer number of times) and multiplied by integers to equal integers (vs transcendental numbers, which cannot)
