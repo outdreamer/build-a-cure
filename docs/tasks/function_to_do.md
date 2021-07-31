@@ -163,6 +163,12 @@
 
     - example specific function mapping:
 
+      - 'is gamma rational' problem
+        - this is a problem of determining how operations on numbers with attributes produce numbers with attributes
+          - a 'limit' operation applied to (harmonic series - natural log) to find its 'converging value', which may or may not have 'rational number' attributes (can be a relation between integers)
+        - if one attribute of ir/rational numbers is contradicted, that would be a sufficient proof
+        - the 'patterns of differences between ir/rational numbers' would be a useful structure to prove if gamma is rational
+
       - 'is (pi + e), (pi * e) or (pi / e) transcendental' problem
         - algebraic definition: numbers that can be multiplied by themselves/integers to equal integers (vs transcendental numbers, which cannot)
           - rational numbers (relations between integers) and roots of rational numbers (rational number powers of rational numbers) are algebraic
