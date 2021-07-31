@@ -171,6 +171,11 @@
             - how is it connected to the unit case sequence with power of 2? is it connected by the symmetry of the root power (1/2)?
             - is the unit complex structure of 'roots of -1' related to the 'roots of unity' structure, which occur around a circle?
             - what is the connection to primes having difference patterns centering around 6?
+          - why is 6 a relevant number? is it bc its:
+            - a product of a unit even number and a non-1 odd number, or bc its the first multiple of the first non-1 odd number
+            - just big enough to allow for more than one different difference types to generate primes (1, 5) having a unit distance (2)
+            - inherently related to other relevant connections between pi and a circle, the rules of which are an input to this theorem, so those connections impact these connections
+          - how do you prove the behavior can be represented as a circle/wave, indicating its a structure of infinity?
 
       - twin primes
         - standardized version: the 'prime differences equal to the unit even number' is an infinite sequence
