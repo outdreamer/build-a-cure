@@ -163,6 +163,11 @@
 
     - example specific function mapping:
 
+      - large cardinal limit problem
+        - the size of an infinite sequence/set varies across sets bc some have more members
+        - this can be formatted as 'what types of numbers can form infinite sets and what types cannot'
+        - if there are non-zero types (at least one type) of numbers that cannot form infinite sets, there is a limit on the number of large cardinals
+
       - unknotting problem
         - this can be standardized to a problem of identifying structures that prevent change types (or 'moves')
           - as in, once a structure is in a particular knot type (having various core structures like overlaps, intersections, twists, & loops), which moves arent possible, and what formats can be produced by changes given the available operations once those operations are limited
