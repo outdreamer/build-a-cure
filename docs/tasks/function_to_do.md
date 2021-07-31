@@ -173,6 +173,7 @@
             - bc the symmetry in roots produces a cancellation of non-integer terms and the multiplication of square roots produces an integer, which when combined with the integer representing the average is also an integer, so the operations dont require a change in number type, meaning the relationship of A multiplied by B is likely to contain rational coefficients
           - 'change within the range of a symmetry without breaking the symmetry' is a common structure used in other equations/definitions
           - why is 'associativity' a relevant attribute, indicating the relevance of 'groups' to this proof? bc changes are being made and the changes need to fulfill the metric of 'not changing the output'
+            - so you could select 'associativity' as an important attribute of a solution structure, given that youre making changes that need to not change a related connection
 
       - prime number theorem
         - related questions
