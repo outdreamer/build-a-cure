@@ -163,6 +163,11 @@
 
     - example specific function mapping:
 
+      - riemann sum
+        - related questions
+          - why would the sum of inverses of squares (like an 'area') equal a factor of pi squared/6?
+            - inverses are related to the natural log base e having its area summed across consecutive values, and e is related to pi
+
       - twin primes
         - standardized version: the 'prime differences equal to the unit even number' is an infinite sequence
         - related rules:
@@ -183,7 +188,7 @@
                 - difference of 3 from a multiple of 6 = odd, with a factor of 3 (which is a factor of 6)
                 - difference of 5 from a multiple of 6 = odd
               - one of these differences disqualifies a number from being prime (having only itself & 1 as a factor)
-          - by applying change operations (difference, partial, sequence, factors) to connect these objects, starting from a limit condition, we've reached another object of the same type (a limit condition)
+        - by applying change operations (difference, partial, sequence, factors) to connect these objects, starting from a limit condition, we've reached another object of the same type (a limit condition)
 
       - goldbach's theorem
         - standardized version: every even number (greater than an even number that is only the unit prime away from the unit prime) is a prime away from another prime
