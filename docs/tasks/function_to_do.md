@@ -53,6 +53,8 @@
     - use certainty-identification machine as a certainty-generating machine if it can outpace some physical processes to generate/store/find information
       - quantum physics may be a system that can outpace the info-production/derivation methods of physics, so a certainty machine built on quantum technology could be capable of this, if connected to other quantum certainty machines more efficiently than those built on physics are
 
+    - examine states of matter in wave/circuit structures as sources of time crystals
+
     - add to 'cancer' process/condition system analysis:
       - identify connections like 'naked mole rats' lack of cancer linked to lack of serum vitamin d which helps cell growth'
         - find functions relevant to cancer:
@@ -162,6 +164,7 @@
     - space: value interaction space where variable (change type) interactions have structure (can be described)
 
     - example specific function mapping:
+      - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
 
       - 'is gamma rational' problem
         - this is a problem of determining how operations on numbers with attributes produce numbers with attributes
@@ -183,6 +186,7 @@
           - exponents are a factor in curvature in polynomials bc of interval patterns in sums of sequences ('curvature' defined as 'differing adjacent differences in change rates')
           - why would pi produce 'differing adjacent differences in change rates' when applied to an area? it doesnt have to be represented as the area of a circle 
             - can the area of a circle be represented as an area of a rectangle or other shape producible with just integer factors, or can it specifically not be and is an 'interim structure' just like primes are an 'interim structure' that cant be represented as an area of integer factors or the sum of sequences?
+              - related question: is there a sequence that sums to or converges to pi, and do you need to use specific number types like transcendental numbers to generate it
 
       - 'is (pi + e), (pi * e) or (pi / e) transcendental' problem
         - algebraic definition: numbers that can be multiplied by themselves (an integer number of times) and multiplied by integers to equal integers (vs transcendental numbers, which cannot)
