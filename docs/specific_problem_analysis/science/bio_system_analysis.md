@@ -104,6 +104,46 @@
 
 ## Cancer & Stressors
 
+- general
+
+    - add to 'cancer' process/condition system analysis:
+      - identify connections like 'naked mole rats' lack of cancer linked to lack of serum vitamin d which helps cell growth'
+        - find functions relevant to cancer:
+          - cell growth
+          - cell apoptosis inhibition
+          - energy production
+          - fuel source switching
+        - find inputs of those functions
+          - vitamin d
+          - energy sources
+          - other vitamins directly impacting or required for these functions
+        - find extreme cases where inputs are missing & check for those functions
+          - some species (like naked mole rats) dont produce vitamin d from sunlight or have lower rates of vitamin d, which may impact their relevant function 'cell growth' structures (patterns/cycles), which may impact their cancer rates
+            - check if these species have differences in cancer rates
+              - if so, those inputs (lower vitamin d or inability to produce vitamin d from sunlight) may be relevant in preventing the output process enabled by them (cancer)
+      - this is a simple input-output sequence query to find input conditions that dont produce a process/condition (like cancer) as often
+      - translating this into a different system like the human bio system would be a query involving mapping one species' system to another
+      - once its mapped, it can be filtered for invalidating conditions, indicating whether a similar process can be activated in the human system without causing other problems
+
+    - cancer cells' mutations might just be some of the more adjacent/common/interactive mutations out of all the mutations that are possible or actually occur with any frequency
+      - if this is true & the primary cause, that means these mutations will continue occurring unless actively prevented
+        - substances should be examined for mutation-prevention functionality
+        - root causes can be addressed as a prevention method, like:
+          - the reason mutations occur more frequently for a gene structure (like a gene type, pattern, or set), such as gene position in relation to another structure
+          - the host system's inability to prevent malicious interactivity/cascading of mutations that protect mutability & promote additional mutations
+          - lack of a substance structure that would prevent or reverse these mutations, or particularly damaging subsets of mutations that enable the others
+          - whether signals that enable/activate cancer cells can be routed where mutations are needed
+      - examine what mutations almost never occur & determine the cause of mutation frequency (at a certain position on chromosomes, protein folds, relative position to gene types, or other structures on different interaction levels)
+      - simulate whether changing position of genes reduces the frequency of mutations of those genes, if position is a variable to the mutation frequency
+        - ultimately it should be possible by analyzing components like structures/functionality as combinable attack vectors, to calculate what diseases are possible/probable & will happen given a genome, their metadata like frequency & degree of impact on the host, and the substances/processes/stressors that can prevent or neutralize them
+        - genomic data can be enhanced with data from output system & interaction structures
+
+    - the idea of a 'cure' may be invalid, the concept of a 'functional state' may be a more useful goal
+      - an example would be rather than returning someone to a prior or absolute state of optimal health, adjust their system to a state where its more functional, even if that functionality is distorted
+        - rather than returning to origin DNA state, find adjacent DNA state to avoid susceptibility to a condition or general conditions
+        - move bacteria from another region even if that reduces functionality in that region
+        - generate useful bacteria factories, even if it sometimes results in overpopulation problems
+
 
   ### Predictive tools
 
