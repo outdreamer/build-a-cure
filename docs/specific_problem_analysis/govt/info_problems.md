@@ -1,5 +1,7 @@
 ## Information
 
+    - families of war victims' lost loved ones wouldnt want them to seek revenge in isolation of context/meaning, bc it would destroy more innocent lives as collateral damage & continue the fight forever, they would want them to be the person who ends war forever
+
   - terrorists are easily swayed by cheap tricks like peer pressure & repetition & will do anything they're told to avoid thinking
 
   - not a post-truth age due to deep fakes, its an age of:
