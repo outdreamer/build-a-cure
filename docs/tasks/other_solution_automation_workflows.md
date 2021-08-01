@@ -1,5 +1,13 @@
 - add to solution automation workflows
 
+  - identify which solution automation workflows or interface queries would produce solutions according to an optimization metric of solutions determined to be sufficient, like computational complexity, speed, accuracy or efficiency, and use this as a filter of possible solution workflows/queries
+    - if a solution method is slow, its unlikely to be an effective application of a workflow, so avoid that and exclude it from initial rounds of solutions generated/applied
+    - example: in the 'find a prediction function' problem, applying 'adjacent changes' as a useful system structure is a component of various workflows/queries, but it is only useful in some positions of the problem space
+      - if you apply 'adjacent changes' to the function itself, it will produce many versions of the function that require testing & further adjustments, and you would need to apply an effective search/filter method to reduce that solution space, like applying 'adjacent changes' to known positions of limits of the function where it wouldnt likely have structure
+      - if you apply 'adjacent changes' to other problem space components, like 'variable structures' or 'data sets', you may generate useful output for various intents like 'identifying variable structure causation' and 'data augmentation'
+      - if you apply other useful structures like 'base' to the 'adjacent change', to find 'adjacent changes that produce a base' to the function structure, that could be useful bc then youre looking for a conversion function between functions, which is a quicker task to solve & more optimizable
+      - by definition, 'methods that use a lot of resources' are not usually optimal problem-solving methods, so that can be used to filter the set of generated solutions created by applying useful structures or by other methods
+
   - identify alternate causes of solution success as generators of solutions:
     - the reason a 'function network' or 'state simulator' or a 'stacked alignment' may be successful as predicting interactions may not be bc of the structure itself but bc of one of its outputs, such as:
       - a 'dependency' or 'interaction' structure caused by a 'function network' structure 
