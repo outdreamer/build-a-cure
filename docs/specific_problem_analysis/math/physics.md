@@ -1,9 +1,12 @@
-# physics 
+# physics
 
     - use certainty-identification machine as a certainty-generating machine if it can outpace some physical processes to generate/store/find information
       - quantum physics may be a system that can outpace the info-production/derivation methods of physics, so a certainty machine built on quantum technology could be capable of this, if connected to other quantum certainty machines more efficiently than those built on physics are
 
     - examine states of matter in wave/circuit structures as sources of time crystals
+      - examine if some particles appear to be isolated but the isolation is an illusion and theyre dependent in the sense that theyre reflections of each other or another particle
+
+      - maintaining an uncertainty sequence or an uncertainty pattern/degree at regular intervals can allow for multiple origins to merge or be relevant
 
     - the theory of 'the universe as a simulation' is only now getting popular bc our brain structures & functions are such that we are only now recognizing the influence of physics on human decisions, noticing that we can influence these decisions, and therefore fake them, which reminds us of computer simulations
 
