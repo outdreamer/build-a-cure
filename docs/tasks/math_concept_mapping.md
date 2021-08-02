@@ -12,10 +12,18 @@
     - find other structures useful for depicting interface components like change types & particularly useful structures like adjacent structures in different formats
       - example: a graph of a topology of properties indicating the change types that break properties or produce phase shifts in properties to show change structures
 
-    - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced or prioritized by certain formats
+    - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced/prioritized by certain formats
         - connections are implied with default adjacent or otherwise obvious structures, like a line that completes a triangle when added to an angle structure formed by two lines where the missing line is the same length as the other lines
         - some structures are clear in different formats, like differences or patterns being more visible from one angle than another
-      - so a structure should be used to graph a component when the particular structures made obvious by that graph format are required or otherwise useful
+      - so a structure should be used to graph a component when the particular structures made obvious/clear by that graph format are required or otherwise useful
+      - example:
+        - a 'unit case' structure is useful to answer the question of 'whether a possible connecting rule is true at all'
+        - a 'contradiction' structure is useful to answer the question of 'whether a connecting rule is absolutely true'
+
+    - identify solution success cause of why a structure is useful & apply that to identify other useful structures as needed to solve a problem
+      - example:  
+        - some structures are useful by definition bc they 'fulfill a requirement', which is a definition route of 'relevance' which involves 'usefulness' as one of its definition routes
+        - others are 'probably useful' bc they tend to fulfill a general solution or optimization metric like 'reducing complexity' or 'increasing coordination/organization'
 
     - example specific function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
