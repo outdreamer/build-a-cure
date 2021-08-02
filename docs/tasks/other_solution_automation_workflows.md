@@ -42,6 +42,18 @@
             - have more of these structures
             - are capable of more of these structures
             - arent missing any of these structures by definition/requirement
+          - apply the insight that 'adjacent structures are a form of obvious structure', so construct structures where the required connections will be adjacent:
+            - to connect 'two opposite unconnected sides of structures with a common connected origin', specify these structures as math structures to format it as a 'set of lines with a common endpoint', at which point the connection between endpoints will be obvious
+            - how do we know the connection between endpoints will be obvious in that format, before applying it?
+              - bc 'connections between structures' are just a 'line structure' in that space, which is an adjacent connection, adjacence being a structure of obviousness
+            - how do you find a space where a structure to fulfill an intent like 'connect unconnected structures of two structures connected at a common origin' will be an adjacent structure?
+              - identify the requirements of the connection structure, and remove structures that are not relevant to it, and find a space where the remaining structures can be depicted
+            - "identify a structure (like 'connected lines at an endpoint') where unconnected structures of difference (like 'unconnected endpoints') can be connected using adjacent conversions
+              - adjacent conversions like 'adding objects equivalent to themselves' (a third line) or 'rotate to form a 3d object'"
+              - this 'two connected lines at an endpoint' structure would be useful to depict structures like the following, where the implied third line is required to solve some problem:
+                - 'two alternate definitions (or types/variants) of an object & the structure to connect these definitions'
+                - a 'route to maximize distance traversed in different directions with minimal turns'
+                - the 'magnitude of a vector to connect two similar objects depicted in a vector space with an angle indicating their similarity, where magnitude indicates object type'
 
   - identify solution success cause of why a structure is useful (or specifically why its useful for an intent) & apply that to identify other useful structures as needed to solve a problem
       - example:  
@@ -60,6 +72,7 @@
               - the 'similarity structure' in 'change type' between the endpoints and their starting point (they have a similar position away from the connected endpoints forming the angle, and this similarity in position to that connected endpoint structure makes them comparable, and comparing two endpoints of an angle structure leads to a connection between them, as in a third line connecting them)
           - these two equivalences form another equivalence:
             - the equivalence between 'equal line lengths' and 'missing line length' of the implied third line in the pattern sequence
+          - another structure of 'obviousness' implied by this 'angle between two lines' structure is a 'cone' bc adjacent structures like a 'rotation function' are also structures of obviousness
 
       - workflow fit: this is similar to the 'identify problem/solution structures (like solution success cause) of problem/solution structures (like useful solution structures)' workflow, but adds the connection to 'system contexts' where a particular structure is relevant
 
