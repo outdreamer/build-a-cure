@@ -25,7 +25,9 @@
         - some structures are useful by definition bc they 'fulfill a requirement', which is a definition route of 'relevance' which involves 'usefulness' as one of its definition routes
         - others are 'probably useful' bc they tend to fulfill a general solution or optimization metric like 'reducing complexity' or 'increasing coordination/organization'
         - some structures are only useful in a particular context, like how structures of 'counterintuition' are useful for intents like 'prevent errors' in 'complex system' contexts
-      - identify patterns in differences in useful structures in various systems (like structures of 'requirements' in various systems) to identify variables of how a structure should be changed to become useful in a particular system, as well as the differences between useful & non-useful structures in a particular system compared to each other & compared to the system structure, to identify probable useful structures given a system structure
+        
+    - identify patterns in differences in useful structures in various systems (like structures of 'requirements' in various systems) to identify variables of how a structure should be changed to become useful in a particular system, as well as the differences between useful & non-useful structures in a particular system compared to each other & compared to the system structure, to identify probable useful structures given a system structure
+      - generalization: this can be generalized to 'identify the differentiating variables of the most useful structures to compare (like useful/non-useful structures, or useful structures vs. system structure, or error structures vs. solution structures) and identify the most useful structures to compare, to enable optimal identification of these structures which are directly relevant for problem-solving intents'
 
     - example specific function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
