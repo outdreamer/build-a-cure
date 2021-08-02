@@ -34,6 +34,18 @@
         - some structures are useful by definition bc they 'fulfill a requirement', which is a definition route of 'relevance' which involves 'usefulness' as one of its definition routes
         - others are 'probably useful' bc they tend to fulfill a general solution or optimization metric like 'reducing complexity' or 'increasing coordination/organization'
         - some structures are only useful in a particular context, like how structures of 'counterintuition' are useful for intents like 'prevent errors' in 'complex system' contexts
+      - why is a structure made obvious by a particular format? bc its standardized in some way that allows for clear implied connections between differences to be made
+        - example: the example of 'two lines of equal length connected at one endpoint to form an angle' has a clear implied connection between the 'unconnected endpoints' which has another 'degree of implication' added by the 'equal distance between the unconnected endpoints' which has another 'equivalence' structure in the form of "equal length to the other two sides' length", to resolve the implied 'difference structure' that is the 'distance between the unconnected endpoints'
+          - these equivalences between side lengths form an implied pattern structure:
+            - two line lengths are equal
+            - the distance between unconnected endpoints is a third equal side, forming a pattern of equivalences in side lengths, given the addition in the pattern sequence of another line object having an equal length attribute value, after applying a 'sequence' structure to the first two lines
+          - a difference structure offers a connection between this initial equivalence (equivalence between 'existing line lengths') and the next equivalence (equivalence between 'existing & missing line lengths') by identifying the missing line as a relevant difference
+            - this structure can be identified as 'missing' or a 'relevant difference' in the first place by applying:
+              - the identified 'pattern structure' to generate implications like the third value in the pattern sequence
+              - the 'similarity structure' in 'change type' between the endpoints and their starting point (they have a similar position away from the connected endpoints forming the angle, and this similarity in position to that connected endpoint structure makes them comparable, and comparing two endpoints of an angle structure leads to a connection between them, as in a third line connecting them)
+          - these two equivalences form another equivalence:
+            - the equivalence between 'equal line lengths' and 'missing line length' of the implied third line in the pattern sequence
+
       - workflow fit: this is similar to the 'identify problem/solution structures (like solution success cause) of problem/solution structures (like useful solution structures)' workflow, but adds the connection to 'system contexts' where a particular structure is relevant
 
   - identify patterns in differences in useful structures in various systems (like structures of 'requirements' in various systems) to identify variables of how a structure should be changed to become useful in a particular system, as well as the differences between useful & non-useful structures in a particular system compared to each other & compared to the system structure, to identify probable useful structures given a system structure
