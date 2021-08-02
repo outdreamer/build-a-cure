@@ -91,6 +91,9 @@
       - can randomness structures also disconnect/interfere with adjacent space-times?
         - what can connect space-times - can certainty structures connect them or would they do the opposite given that they remove/invalidate time?
       - if you created a barrier of enough time crystals preventing change (the passage of time) in the forward direction, would the backward direction be inevitable?
+        - is that direction capable of handling the current energy storage or would it create problems?
+      - if you disrupt stability structures like entanglements, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
+      - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
 
   - example of interface query to apply interfaces to solve a problem:
     - sub-problem: create inputs of following sub-problem solutions
