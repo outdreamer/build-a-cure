@@ -9,6 +9,14 @@
     - function input variable: all possible change types that can be causes
     - space: value interaction space where variable (change type) interactions have structure (can be described)
 
+    - find other structures useful for depicting interface components like change types & particularly useful structures like adjacent structures in different formats
+      - example: a graph of a topology of properties indicating the change types that break properties or produce phase shifts in properties to show change structures
+
+    - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced or prioritized by certain formats
+        - connections are implied with default adjacent or otherwise obvious structures, like a line that completes a triangle when added to an angle structure formed by two lines where the missing line is the same length as the other lines
+        - some structures are clear in different formats, like differences or patterns being more visible from one angle than another
+      - so a structure should be used to graph a component when the particular structures made obvious by that graph format are required or otherwise useful
+
     - example specific function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
 
