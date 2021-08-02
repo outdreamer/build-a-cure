@@ -1,12 +1,19 @@
 - add to solution automation workflows
 
-  - identify structures of useful interface components that can be used to generate other useful structures
+  - identify structures of useful interface components that can be used to generate/identify other useful structures
     - example: identify useful structures (like patterns) of useful structures 
-      - example pattern of useful structures: 'structures having a higher number of useful concepts it can act as'
-        - example of a structure having a high number of useful concepts it can act as:
+      - example pattern of useful structures: 'structures having a higher number of useful concepts it can function as'
+        - example of a structure having a high number of useful concepts it can function as:
           - tangent: useful bc it acts like an 'interaction', 'intersection', 'approximation' or 'similarity' structure
+    - workflow fit: this applies useful structures to themselves to generate useful identification/generation structures of those structures, given that theyre by definition useful
+      - this is similar to workflows involving 'apply useful structures to find useful structures' or a variant of it, but specifically applies useful structures to create functions to identify/generate other useful structures
+        - example: the function created above is 'identify structures matching the useful structure that is the structure of a pattern of useful structures "structures having a higher number of useful concepts it can function as"'
+        - the 'structure' of useful structures is the 'pattern' of useful structures
+      - this translates structures (like patterns or combinations or input-output sequences) of useful structures into specific structures (like 'structures with a higher number of useful concepts it can function as') that can be used for effective identification/generation of specific useful structures (once formatted in a useful format, like the 'structure-function-concept' format) & applied as solution structures in a specific problem space
+      - this is generating what amounts to 'insight paths' to connect general useful structures with a function to identify specific useful structures, using connecting rules like 'identify patterns of useful structures, once structures are standardized to various interfaces or interface structures, like combinations of interfaces'
+      - it also adds the 'standardization to various interfaces' step, which adds variation in the solution space of possible useful structures to search
 
-  - identify useful structures for depicting interface components (like change types), particularly useful structures (like 'adjacent structures in different formats'), and apply these structures to create solution structures like structures of clarity/obviousness where the info made clear by that structure is useful for problem-solving intents
+  - identify useful structures for depicting interface components (like change types), particularly useful structures (like 'adjacent structures in different formats'), and apply these structures to create solution structures (like structures of clarity/obviousness, where the info made clear by that structure is useful for problem-solving intents)
       - example: a graph of a topology of properties indicating the change types that break properties or produce phase shifts in properties to show change structures
       - solution success cause: 
         - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced/prioritized by certain formats
