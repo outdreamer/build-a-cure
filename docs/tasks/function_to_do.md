@@ -82,6 +82,7 @@
     - alternative structures
       - structures of 'connection' like 'entanglement' are another source of 'stability' & 'certainty' structures
     - questions
+      - do numbers represent the most efficient energy storage unit? (any physical structure can be described by any number if distorted enough, which matches the 'any particle can be in any position if moved enough' structure)
       - how would various structures of 'certainty' like 'stability' interact, and how would they interact with structures of 'uncertainty' like 'randomness'?
         - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
         - can they be allowed to be adjacent or do they exert attracting forces, leading to structures of certainties
