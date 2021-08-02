@@ -9,6 +9,13 @@
     - function input variable: all possible change types that can be causes
     - space: value interaction space where variable (change type) interactions have structure (can be described)
 
+  - finish applying concepts to math structures to identify metadata like 'solution success cause' for particularly useful math structures which can act as components of solutions
+    - useful math structures with useful relevant concepts
+      - subset: useful bc it acts as a structure of 'simplicity' like a 'unit case' or a structure of 'variation' by creating variety in various subset combinations or a structure of 'assumption invalidation' by removing assumed connections (like those between a complete variable set and a dependent variable)
+      - opposite: useful bc it acts like a 'contradiction' structure, a useful source of 'filter' structures
+      - average (center): useful bc it acts as a structure of 'unity' or 'origin' or 'commonness' (the factor the numbers around the center/average have in common)
+      - tangent: useful bc it acts like an 'interaction', 'intersection', 'approximation' or 'similarity' structure
+
     - example specific function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
 
