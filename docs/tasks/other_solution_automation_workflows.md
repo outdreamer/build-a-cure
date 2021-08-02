@@ -1,8 +1,9 @@
 - add to solution automation workflows
 
-  - apply core interaction functions & core structures to useful structures to generate other useful structures
+  - apply core interaction functions & core structures to useful structures to identify generate & apply other useful structures as solution structures
     - example: apply the concept of 'probability' to generate useful structures, which would produce a query like 'identify probability structures like patterns of useful structures'
-    - workflow fit: this may have the same output as other workflows but it involves applying the insight that 'core structures of useful structures' benefits from the usefulness of the concept of 'adjacence' in that core structures (like combination of useful structures, or patterns of useful structures) will probably also be useful structures
+    - workflow fit: this may have the same output as other workflows but it involves applying the insight that 'core structures of useful structures' which benefits from the usefulness of the concept of 'adjacence' in that core structures (like combination of useful structures, or patterns of useful structures) will probably also be useful structures
+    - generalization: other useful concepts & interface components (like 'adjacence') can be used to generate insights (like 'core structures of useful structures are also likely to be useful') that can be used to generate solution automation workflows (like 'apply useful structures like the concept of probability to identify/generate other useful structures that can be used as solution structures')
 
   - identify structures of useful interface components that can be used to generate/identify other useful structures
     - example: identify useful structures (like patterns) of useful structures 
