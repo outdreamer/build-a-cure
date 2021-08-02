@@ -88,6 +88,17 @@
       - this is a way to determine alternate causes of the same variable, given useful system objects like requirements & incentives
     - attribute sequences to connect problem/solution
       - example: a solution to this problem type has attribute sequence: complex, organized, filtered, isolated
+    - counterintuition structures
+      - example: 
+        - the insight that 'over-prioritizing a priority usually invalidates the priority' is counterintuitive but its true bc:
+          - 'other priorities usually matter with equivalent or similar relevance, and prioritizing one priority over the others usually invalidates other similarly important priorities, creating error structures that break a system, reducing its ability to fulfill the over-prioritized priority'
+        - with an exception that:
+          - 'if the priority is determining of the system (the most important priority), it is not sub-optimal to over-prioritize it up to a limit, bc that wouldnt actually be over-prioritizing it, just allocating it the correct importance'
+      - how to determine a counterintuition structure:
+        - variable and sub-problem/question sets
+          - alternate priorities
+            - key variable/structure is 'alternate priorities', which can be identified as possibly useful by applying core/commonly useful structures like 'alternates' to the problem system components ('priorities' in this problem)
+            - key question is 'identify a system with one priority' and if a system fulfilling that structure cant be identified, it can be assumed that 'systems in general have multiple priorities', which would invalidate applying the rule of 'prioritizing one over the others'
 
   - finish identifying & applying other problem/solution components
       - insights/insight patterns: identify the variables of insight generation (such as structures like difference types/degrees, like 'applying a mixed different/similar system with various difference/similarity types to another system, with intent to understand the other system') and apply these variables to generate insights that can be applied to solve a problem

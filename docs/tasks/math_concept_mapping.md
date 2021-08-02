@@ -24,6 +24,8 @@
       - example:  
         - some structures are useful by definition bc they 'fulfill a requirement', which is a definition route of 'relevance' which involves 'usefulness' as one of its definition routes
         - others are 'probably useful' bc they tend to fulfill a general solution or optimization metric like 'reducing complexity' or 'increasing coordination/organization'
+        - some structures are only useful in a particular context, like how structures of 'counterintuition' are useful to prevent errors in 'complex system' contexts
+
 
     - example specific function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
