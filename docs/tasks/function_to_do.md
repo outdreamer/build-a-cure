@@ -86,7 +86,12 @@
         - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
         - can they be allowed to be adjacent or do they exert attracting forces, leading to structures of certainties
         - what happens if a structure of uncertainty is trapped inside a structure of certainties?
-        - are uncertainties just occupying an adjacent state of matter in an unobservable structure (hidden behind other structures of uncertainty, or unconnectible to space-times where other structures can be measured/observed)
+        - are uncertainties just occupying an adjacent state of matter in an unobservable structure (hidden behind other structures of uncertainty, or unconnectible to space-times where other structures can be measured/observed), like a certainty when above the surface of water and an uncertainty when below it?
+          - if efficiencies & other stability structures allow energy to develop into structures above it, do the opposite structures allow energy storage below it (or inside it)?
+          - how do quantum fields fit with interfaces? can each field be formatted as an interface, and their intersection is the interface/meaning interface?
+            - is each point in the quantum field intersection an entry point to the interface interface or an implementation of it (potential particles)
+          - is it a set of dimensions describing change types that is unconnectible to observable dimensions?
+          - what are the directions of interaction/causality between interacting fields? how do attributes of each point interact/map/align with those of adjacent & non-adjacent points - is there organization to this mapping? can the fields exist across disconnected layers at each adjacent point, or do they have to be connected/continuous? what rules out position possibilities of a particle other than other particle positions? can all of the particles be measured at once?
           - when one structure 'doesnt exist' (loses structure), does it just move to these spaces involving uncertainty structures (like particles with opposite spin)
           - does there need to be some ratio like a balance maintained between the structures of certainty/uncertainty in these two positions?
           - do 'structures' as we know/measure them only exist in space-time points that are connectible with certainty structures, and between these points, uncertainty structures can develop
@@ -103,11 +108,13 @@
         - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
         - is 'antimatter' an uncertainty structure that can only be approximated or theorized but not measured, like true randomness?
         - what else would explain this illusion of uncertainty vs. certainty dichotomy, if its an error?
-        - does matter not exist for every possible state between stable space-times?
+        - does matter not exist for every possible state between stable space-times? how much can this interval be extended if so, without breaking the matter's probability of re-assembling in the next space-time it reaches stability in?
       - how can reflections & other distortions & structures of light be used to encode info about the original energy?
       - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
       - can you move structures of space-times like combinations (similar to a ship) to other positions in space-time fabric
         - are there gaps in space-time fabric and can they be crossed or filled with certainty structures
+      - do certainty structures map to other interfaces, so that fractons/entanglements map to the logic interface in some structure that is robust to change on that interface, like 'exceptions', 'contradictions' or 'connections between equivalent components of rules' - can they create certainty or just reflect it, and where is it generated from if so?
+      - what concepts allow for the existence of 'infinity': complexity, scale, change, interaction (combining these allows for the development of enough changes to allow an infinity to develop)
 
   - example of interface query to apply interfaces to solve a problem:
     - sub-problem: create inputs of following sub-problem solutions
