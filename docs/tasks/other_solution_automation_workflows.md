@@ -26,40 +26,42 @@
       - it also adds the 'standardization to various interfaces' step, which adds variation in the solution space of possible useful structures to search
 
   - identify useful structures for depicting interface components (like change types), particularly useful structures (like 'adjacent structures in different formats'), and apply these structures to create solution structures (like structures of clarity/obviousness, where the info made clear by that structure is useful for problem-solving intents)
-      - example: a graph of a topology of properties indicating the change types that break properties or produce phase shifts in properties to show change structures
-      - solution success cause: 
-        - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced/prioritized by certain formats
-          - connections are implied with default adjacent or otherwise obvious structures, like a line that completes a triangle when added to an angle structure formed by two lines where the missing line is the same length as the other lines
-          - some structures are clear in different formats, like differences or patterns being more visible from one angle than another
-        - selection rules to identify a structure to visualize/structurize a system
-          - so a structure should be used to graph a component when the particular structures made obvious/clear by that graph format are required or otherwise useful
-            - example:
-              - a 'unit case' structure is useful to answer the question of 'whether a possible connecting rule is true at all'
-              - a 'contradiction' structure is useful to answer the question of 'whether a connecting rule is absolutely true'
-          - the selected structure should be able to maintain the relevant structures (such as structures of interaction, equivalence/difference, change) of the origin system if its going to be useful in depicting interactions in that system, which implies the relevant structures are already identified in the origin system
-          - if other formats can make other attributes/functions of a system obvious, those other formats can be integrated into a combination/merge or other structure of formats to gather info about the origin structure
-          - abstract & query for structures or structures (combinations/subsets) of structures from the origin system in other systems and filter other systems by which systems:
-            - have more of these structures
-            - are capable of more of these structures
-            - arent missing any of these structures by definition/requirement
-          - apply the insight that 'adjacent structures are a form of obvious structure', so construct structures where the required connections will be adjacent:
-            - to connect 'two opposite unconnected sides of structures with a common connected origin', specify these structures as math structures to format it as a 'set of lines with a common endpoint', at which point the connection between endpoints will be obvious
-            - how do we know the connection between endpoints will be obvious in that format, before applying it?
-              - bc 'connections between structures' are just a 'line structure' in that space, which is an adjacent connection, adjacence being a structure of obviousness
-            - how do you find a space where a structure to fulfill an intent like 'connect unconnected structures of two structures connected at a common origin' will be an adjacent structure?
-              - identify the requirements of the connection structure (like 'connect differences of this type'), and remove structures that are not relevant to it (like the general 'structure' term instead of a specific term like a 'line', and the general 'origin' term instead of a specific term like 'comment endpoints of lines'), and find a space where the remaining structures can be depicted
-                - the term 'origin' is not relevant to solving the problem of 'connecting the other opposite unconnected endpoints of the two lines', all thats relevant is that there is one set of endpoints that are connected and the other endpoints are not, so that term can be specified/generalized as needed to standardize it to the new space where this connection resolution is obvious
-              - identify adjacent components of the problem space and identify spaces where those components can exist or be applied
-                - identify adjacent components (like the existing components of the problem space, like 'structures that can be connected' and 'origins') and check if those components can be added or otherwise operated on in the new space where the connection resolution is obvious
-                  - example: identify a space where 'connection structures' can be added (where 'lines can be added')
-              - iterate through variants of the problem space components (like 'connection structures') to find possible specific/general/other variations of the structures & associated spaces
-                - variations of 'connection structures' include 'lines' in associated spaces like spaces greater than 1d
-            - "identify a structure (like 'connected lines at an endpoint') where unconnected structures of difference (like 'unconnected endpoints') can be connected using adjacent conversions
-              - adjacent conversions like 'adding objects equivalent to themselves' (a third line) or 'rotate to form a 3d object'"
-              - this 'two connected lines at an endpoint' structure would be useful to depict structures like the following, where the implied third line is required to solve some problem:
-                - 'two alternate definitions (or types/variants) of an object & the structure to connect these definitions'
-                - a 'route to maximize distance traversed in different directions with minimal turns'
-                - the 'magnitude of a vector to connect two similar objects depicted in a vector space with an angle indicating their similarity, where magnitude indicates object type'
+    - example: a graph of a topology of properties indicating the change types that break properties or produce phase shifts in properties to show change structures
+    - solution success cause: 
+      - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced/prioritized by certain formats
+        - connections are implied with default adjacent or otherwise obvious structures, like a line that completes a triangle when added to an angle structure formed by two lines where the missing line is the same length as the other lines
+        - some structures are clear in different formats, like differences or patterns being more visible from one angle than another
+
+  - apply useful selection rules to identify a structure to structurize a system in a useful format that applies solution structures like structures of certainty/optimization for problem-solving intents like 'to make the solution trivial/obvious'
+    - workflow fit: this workflow is to 'apply insights that map structures by relevance across systems' which is a variant of a combination of the 'apply problem-solving insights to solve problems' and 'apply structures of relevance to fulfill problem-solving intents' workflows
+    - a structure should be used to graph a component when the particular structures made obvious/clear by that graph format are required or otherwise useful
+      - example:
+        - a 'unit case' structure is useful to answer the question of 'whether a possible connecting rule is true at all'
+        - a 'contradiction' structure is useful to answer the question of 'whether a connecting rule is absolutely true'
+    - the selected structure should be able to maintain the relevant structures (such as structures of interaction, equivalence/difference, change) of the origin system if its going to be useful in depicting interactions in that system, which implies the relevant structures are already identified in the origin system
+      - if other formats can make other attributes/functions of a system obvious, those other formats can be integrated into a combination/merge or other structure of formats to gather info about the origin structure
+    - abstract & query for structures or structures (combinations/subsets) of structures from the origin system in other systems and filter other systems by which systems:
+      - have more of these structures
+      - are capable of more of these structures
+      - arent missing any of these structures by definition/requirement
+    - apply the insight that 'adjacent structures are a form of obvious structure', so construct structures where the required connections will be adjacent:
+      - to connect 'two opposite unconnected sides of structures with a common connected origin', specify these structures as math structures to format it as a 'set of lines with a common endpoint', at which point the connection between endpoints will be obvious
+      - how do we know the connection between endpoints will be obvious in that format, before applying it?
+        - bc 'connections between structures' are just a 'line structure' in that space, which is an adjacent connection, adjacence being a structure of obviousness
+      - how do you find a space where a structure to fulfill an intent like 'connect unconnected structures of two structures connected at a common origin' will be an adjacent structure?
+        - identify the requirements of the connection structure (like 'connect differences of this type'), and remove structures that are not relevant to it (like the general 'structure' term instead of a specific term like a 'line', and the general 'origin' term instead of a specific term like 'comment endpoints of lines'), and find a space where the remaining structures can be depicted
+          - the term 'origin' is not relevant to solving the problem of 'connecting the other opposite unconnected endpoints of the two lines', all thats relevant is that there is one set of endpoints that are connected and the other endpoints are not, so that term can be specified/generalized as needed to standardize it to the new space where this connection resolution is obvious
+        - identify adjacent components of the problem space and identify spaces where those components can exist or be applied
+          - identify adjacent components (like the existing components of the problem space, like 'structures that can be connected' and 'origins') and check if those components can be added or otherwise operated on in the new space where the connection resolution is obvious
+            - example: identify a space where 'connection structures' can be added (where 'lines can be added')
+        - iterate through variants of the problem space components (like 'connection structures') to find possible specific/general/other variations of the structures & associated spaces
+          - variations of 'connection structures' include 'lines' in associated spaces like spaces greater than 1d
+    - "identify a structure (like 'connected lines at an endpoint') where unconnected structures of difference (like 'unconnected endpoints') can be connected using adjacent conversions
+      - adjacent conversions like 'adding objects equivalent to themselves' (a third line) or 'rotate to form a 3d object'"
+        - this 'two connected lines at an endpoint' structure would be useful to depict structures like the following, where the implied third line is required to solve some problem:
+          - 'two alternate definitions (or types/variants) of an object & the structure to connect these definitions'
+          - a 'route to maximize distance traversed in different directions with minimal turns'
+          - the 'magnitude of a vector to connect two similar objects depicted in a vector space with an angle indicating their similarity, where magnitude indicates object type'
 
   - identify solution success cause of why a structure is useful (or specifically why its useful for an intent) & apply that to identify other useful structures as needed to solve a problem
       - example:  
