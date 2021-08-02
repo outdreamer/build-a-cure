@@ -90,6 +90,7 @@
       - can these also function as structures of efficiency and independence?
       - can randomness structures also disconnect/interfere with adjacent space-times?
         - what can connect space-times - can certainty structures connect them or would they do the opposite given that they remove/invalidate time?
+      - if you created a barrier of enough time crystals preventing change (the passage of time) in the forward direction, would the backward direction be inevitable?
 
   - example of interface query to apply interfaces to solve a problem:
     - sub-problem: create inputs of following sub-problem solutions
