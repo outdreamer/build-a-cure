@@ -20,12 +20,12 @@
         - a 'unit case' structure is useful to answer the question of 'whether a possible connecting rule is true at all'
         - a 'contradiction' structure is useful to answer the question of 'whether a connecting rule is absolutely true'
 
-    - identify solution success cause of why a structure is useful & apply that to identify other useful structures as needed to solve a problem
+    - identify solution success cause of why a structure is useful (or specifically why its useful for an intent) & apply that to identify other useful structures as needed to solve a problem
       - example:  
         - some structures are useful by definition bc they 'fulfill a requirement', which is a definition route of 'relevance' which involves 'usefulness' as one of its definition routes
         - others are 'probably useful' bc they tend to fulfill a general solution or optimization metric like 'reducing complexity' or 'increasing coordination/organization'
-        - some structures are only useful in a particular context, like how structures of 'counterintuition' are useful to prevent errors in 'complex system' contexts
-
+        - some structures are only useful in a particular context, like how structures of 'counterintuition' are useful for intents like 'prevent errors' in 'complex system' contexts
+      - identify patterns in differences in useful structures in various systems (like structures of 'requirements' in various systems) to identify variables of how a structure should be changed to become useful in a particular system, as well as the differences between useful & non-useful structures in a particular system compared to each other & compared to the system structure, to identify probable useful structures given a system structure
 
     - example specific function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
