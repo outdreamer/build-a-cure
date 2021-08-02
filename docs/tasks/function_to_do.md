@@ -95,10 +95,19 @@
         - with an exception that:
           - 'if the priority is determining of the system (the most important priority), it is not sub-optimal to over-prioritize it up to a limit, bc that wouldnt actually be over-prioritizing it, just allocating it the correct importance'
       - how to determine a counterintuition structure:
-        - variable and sub-problem/question sets
-          - alternate priorities
-            - key variable/structure is 'alternate priorities', which can be identified as possibly useful by applying core/commonly useful structures like 'alternates' to the problem system components ('priorities' in this problem)
-            - key question is 'identify a system with one priority' and if a system fulfilling that structure cant be identified, it can be assumed that 'systems in general have multiple priorities', which would invalidate applying the rule of 'prioritizing one over the others'
+        - relevant variable and sub-problem/question sets to build interface queries around
+          - 'alternate priorities'
+            - key variable/structure: 'alternate priorities', which can be identified as possibly useful by applying core/commonly useful structures like 'alternates' to the problem system components ('priorities' in this problem)
+            - key question: 'identify a system with one priority' and if a system fulfilling that structure cant be identified, its implied that 'systems in general have multiple priorities', which would invalidate applying the rule of 'prioritizing one over the others'
+          - 'unbreakable system'
+            - key variable/structure: 'unbreakable system', which can be identified as the 'contradiction' structure of the insight rule by applying 'opposite' structures to the rule 
+            - key question: identify a system contradicting the rule, which cant be broken by positioning a priority (or other structures of intent, like requirements, outputs or function/structure intents) as more important than it is
+              - if a system fulfilling that structure doesnt exist, its implied that 'any system can be broken by over-prioritizing a priority beyond its actual importance/value'
+              - how to prove this without combinatorial search: 
+                - apply 'requirement' structures as a 'filter' structure, by applying 'definitions' of relevant components of the problem space: 
+                  - 'if the definition of a system contradicts this possibility, no such system exists'
+                - apply 'input' structures as a 'filter' structure:
+                  - 'if the inputs of such a system are impossible, no such system exists'
 
   - finish identifying & applying other problem/solution components
       - insights/insight patterns: identify the variables of insight generation (such as structures like difference types/degrees, like 'applying a mixed different/similar system with various difference/similarity types to another system, with intent to understand the other system') and apply these variables to generate insights that can be applied to solve a problem
