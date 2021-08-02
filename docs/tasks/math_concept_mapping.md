@@ -8,6 +8,9 @@
       - polynomial: multi-variable pattern alignment (alignment of multiple added terms at regular intervals creates waves where the inflection points represent alignments in values or a pattern in alignment of neutralizing values)
     - function input variable: all possible change types that can be causes
     - space: value interaction space where variable (change type) interactions have structure (can be described)
+    - structure of a group/combination, like continuity such as a line or shape: a generalization/abstraction/variation of a point/value
+      - the opposite structure would be a condensation/compression/specification, condensing a structure into a point
+    - structure of an average: a standard value to base conversions on
 
   - finish applying concepts to math structures to identify metadata like 'solution success cause' for particularly useful math structures which can act as components of solutions
     - useful math structures with useful relevant concepts
