@@ -84,6 +84,12 @@
     - questions
       - how would various structures of 'certainty' like 'stability' interact, and how would they interact with structures of 'uncertainty' like 'randomness'?
         - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
+      - given that structures of certainty remove or invalidate time (time cant pass when something is certain), will these structures be capable of removing time in other locations? can time be added in locations/moments as well as removed?
+      - will these certainty cascades destroy time necessary to solve other problems?
+      - can these certainty structures be directed at uncertainty structures, like sources of randomness/risk/ambiguity/change/potential/energy to make them more certain?
+      - can these also function as structures of efficiency and independence?
+      - can randomness structures also disconnect/interfere with adjacent space-times?
+        - what can connect space-times - can certainty structures connect them or would they do the opposite given that they remove/invalidate time?
 
   - example of interface query to apply interfaces to solve a problem:
     - sub-problem: create inputs of following sub-problem solutions
