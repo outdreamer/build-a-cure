@@ -8,3 +8,5 @@
     - are you sure you didnt believe I could automate problem-solving? even when you saw my creative work, like 'a hole maggot infested by the jealousy roach, suffering from intellectual poverty so they have to poke me to trick themselves into thinking theyre smart now'? you werent all like, 'ok, dat girl smart, dat was pretty creative, she combine multiple negative things in a new way to make giant memorable insult dat haunts your soul, I must admit, it was also a pretty good point, do yuu happen to have any tissues'
 
     - if trolling you was all it took to inspire you to do better (and if youre actually better), you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
+
+    - I wont die for you but I will live for them
