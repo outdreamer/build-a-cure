@@ -1,5 +1,11 @@
 - add to solution automation workflows
 
+  - apply solution automation workflows to solve problems like 'identify structures of obviousness' to generate solution structures to other problems
+    - example: apply the 'reverse-engineer' solution automation workflow to identify/generate useful structures (like structures of 'truth', such as 'obviousness') using useful structures like 'opposites' to identify & apply 'filter/limit' structures of what a 'structure of obviousness' cannot be
+    - workflow fit: this applies solution automation workflows to generate inputs to solution automation workflows, like 'solution structures' like 'truth structures'
+      - this is similar to the 'apply problem/solution structures to other problem/solution structures' workflows & variants, but specifically applies workflows to generate inputs to these workflows, applying structures like 'combinations' to workflows as needed to fulfill the 'generate workflow inputs' intent
+        - the above example uses a combination structure of the 'reverse-engineer' workflow (applying the 'apply useful structures' workflow, and the 'filter solution space' problem-solving intent to do so) as a component to fulfill the general workflow of 'identify/generate solution structures & apply as components of solutions'
+
   - apply core interaction functions & core structures to useful structures to identify generate & apply other useful structures as solution structures
     - example: apply the concept of 'probability' to generate useful structures, which would produce a query like 'identify probability structures like patterns of useful structures'
     - workflow fit: this may have the same output as other workflows but it involves applying the insight that 'core structures of useful structures' which benefits from the usefulness of the concept of 'adjacence' in that core structures (like combination of useful structures, or patterns of useful structures) will probably also be useful structures
