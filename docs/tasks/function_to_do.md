@@ -75,6 +75,14 @@
         - this is like using a pair of connected lines at different angles to connect two points (multiplying alternate multiplier pairs to create a product), where summing the line lengths produces an equivalence
         - https://www.popularmechanics.com/science/math/a30152083/solve-quadratic-equations/
 
+  - example of interface query to apply interfaces to solve a problem:
+    - create input-output index of structures (like 'sheaves')
+    - identify 'alternate definition routes' of the structure ('tangent bundles' or 'subset bundles' instead of a 'boundary')
+    - apply 'connect' function between problem input & solution output structure
+      - apply 'structure input-output sequence' as a 'connection structure'
+        - identify 'structure input-output sequence' that connects 'alternate origin structure' with 'target solution structure'
+    - https://www.quantamagazine.org/with-a-new-shape-mathematicians-link-geometry-and-numbers-20210719/
+
   - add to useful structures
     - identify what is the system structure format where the maximum number of interface queries can be executed structurally, with minimal conversions required? is it a merged format of variable/function/concept/cause network graphs, or system state networks, or a set of variable subset graphs, or differences visualized as vectors, or input-output sequence visualizations, or a network with all identifiable interface components visualized
     - identify useful perspectives
