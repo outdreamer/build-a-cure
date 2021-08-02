@@ -84,6 +84,8 @@
     - questions
       - how would various structures of 'certainty' like 'stability' interact, and how would they interact with structures of 'uncertainty' like 'randomness'?
         - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
+        - can they be allowed to be adjacent or do they exert attracting forces, leading to structures of certainties
+        - what happens if a structure of uncertainty is trapped inside a structure of certainties?
       - given that structures of certainty remove or invalidate time (time cant pass when something is certain), will these structures be capable of removing time in other locations? can time be added in locations/moments as well as removed?
       - will these certainty cascades destroy time necessary to solve other problems?
       - can these certainty structures be directed at uncertainty structures, like sources of randomness/risk/ambiguity/change/potential/energy to make them more certain?
@@ -92,10 +94,12 @@
         - what can connect space-times - can certainty structures connect them or would they do the opposite given that they remove/invalidate time?
       - if you created a barrier of enough time crystals preventing change (the passage of time) in the forward direction, would the backward direction be inevitable?
         - is that direction capable of handling the current energy storage or would it create problems?
-      - if you disrupt stability structures like entanglements, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
-      - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
-      - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
+      - if you disrupt stability structures like entanglements, absolutes, connections, continuities, inevitabilities, constants, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
+        - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
       - how can reflections & other distortions & structures of light be used to encode info about the original energy?
+      - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
+      - can you move structures of space-times like combinations (similar to a ship) to other positions in space-time fabric
+        - are there gaps in space-time fabric and can they be crossed or filled with certainty structures
 
   - example of interface query to apply interfaces to solve a problem:
     - sub-problem: create inputs of following sub-problem solutions
