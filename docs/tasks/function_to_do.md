@@ -75,11 +75,22 @@
         - this is like using a pair of connected lines at different angles to connect two points (multiplying alternate multiplier pairs to create a product), where summing the line lengths produces an equivalence
         - https://www.popularmechanics.com/science/math/a30152083/solve-quadratic-equations/
 
+  - structures of 'adjacence' connecting structures of 'stability' as a source of 'certainty' structures that are alternatives to 'default certainty' structures like 'equilibriums'
+    - remove 'connection structures' between 'adjacent states' with 'invalidating structures' to 'remove a variable' ('maintain a particular state')
+    - possible error structures
+      - is energy absorbed/emitted during laser/microwave application, like during traversal of particle sequence
+    - alternative structures
+      - structures of 'connection' like 'entanglement' are another source of 'stability' & 'certainty' structures
+    - questions
+      - how would various structures of 'certainty' like 'stability' interact, and how would they interact with structures of 'uncertainty' like 'randomness'?
+        - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
+
   - example of interface query to apply interfaces to solve a problem:
     - sub-problem: create inputs of following sub-problem solutions
       - create input structures of solutions of following sub-problems in the interface query sub-problem sequence
         - create input-output index of structures (like 'sheaves')
         - find 'connection structure' (like a line) to connect 'structures of a type'
+          - find line connecting definitive p-adic structures like p-adic rings
     - sub-problem: find adjacent structures to apply as components/inputs of the 'connect' sequence to be applied later
       - find format that both problem & solution can be standardized to ('sheaves')
       - identify alternate formats of problem/solution using alternate definition routes, since current formats arent connectible using known or alternate adjacent methods
@@ -90,6 +101,29 @@
       - apply 'connect' function between problem input & solution output structure
         - apply 'structure input-output sequence' as a 'connection structure' (as opposed to a 'state sequence' or 'format sequence')
           - identify 'structure input-output sequence' that connects 'alternate origin structure' with 'target solution structure'
+
+    - example format sequences, by applying structural similarities to form connections:
+      - primes -> p-adic numbers -> galois groups -> polynomial roots
+      - p-adic numbers => one prime => rationals (all primes) => 'prime' definition applied to 'polynomial roots'
+
+    - intents:
+      - connect 'p-adic numbers' and 'rational numbers'
+      - connect 'p-adic numbers' and 'polynomial roots'
+        - connect 'p-adic number groups' with 'galois group of p-adic numbers' ('galois groups' are the solution format, already adjacently connected with 'polynomial roots')
+          - connect 'p-adic numbers' to 'sheaves'
+          - connect 'sheaves' to 'galois groups'
+        - connect 'p-adic structures' to 'fargues fontaine curve' using 'alternate definition' of 'p-adic number structures' & 'sheaves' as 'connection structures' to fulfill conjecture matching 'galois groups of rational numbers' with 'automorphic forms' like 'p-adic numbers'
+
+    - relevant structures:
+      - core structures
+        - tangents
+        - roots
+        - boundaries
+      - similarities
+        - galois group: polynomial roots
+        - p-adic/rational numbers: unit/specific primes vs. sequential primes
+        - polynomial/prime:factor
+        - polynomial/number: operation
     - https://www.quantamagazine.org/with-a-new-shape-mathematicians-link-geometry-and-numbers-20210719/
 
   - add to useful structures
