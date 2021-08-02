@@ -8,6 +8,11 @@
 
       - maintaining an uncertainty sequence or an uncertainty pattern/degree at regular intervals can allow for multiple origins to merge or be relevant
 
+      - to explain matter vs. antimatter, need to identify:
+        - what structures are missing that would prevent matter from gathering
+        - differences in strength & other attributes of mass aggregation vs. dispersion forces
+        - what structures would produce patterns of mass aggregation (oscillation alignment, single position of origin particles, adjacence patterns) & output structures (when oscillations of adjacent particles align, what happens) 
+
     - the theory of 'the universe as a simulation' is only now getting popular bc our brain structures & functions are such that we are only now recognizing the influence of physics on human decisions, noticing that we can influence these decisions, and therefore fake them, which reminds us of computer simulations
 
     - examine temporary stabilized filter structures in ozone to push co2 out of atmospheric layers away from earth & forces to do that
