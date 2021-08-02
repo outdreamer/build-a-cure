@@ -104,10 +104,13 @@
             - key question: identify a system contradicting the rule, which cant be broken by positioning a priority (or other structures of intent, like requirements, outputs or function/structure intents) as more important than it is
               - if a system fulfilling that structure doesnt exist, its implied that 'any system can be broken by over-prioritizing a priority beyond its actual importance/value'
               - how to prove this without combinatorial search: 
-                - apply 'requirement' structures as a 'filter' structure, by applying 'definitions' of relevant components of the problem space: 
-                  - 'if the definition of a system contradicts this possibility, no such system exists'
-                - apply 'input' structures as a 'filter' structure:
-                  - 'if the inputs of such a system are impossible, no such system exists'
+                - apply 'requirement' structures as a 'filter' structure, to identify structures that are 'opposite' to requirements (dont fulfill requirements), such as 'contradiction' & 'impossibility'
+                  - by applying 'definitions' of relevant components of the problem space to limit possible interaction rules:
+                    - 'if the definition of a system contradicts this possibility, no such system exists'
+                  - by applying 'input' structures as a 'filter' structure:
+                    - 'if the inputs of such a system are impossible, no such system exists'
+                  - by applying 'possibility' & 'change' structures as a 'filter' structure:
+                    - 'if systems where it is or would/could be possible cannot be produced by applying changes to the system in question, no such system exists'
 
   - finish identifying & applying other problem/solution components
       - insights/insight patterns: identify the variables of insight generation (such as structures like difference types/degrees, like 'applying a mixed different/similar system with various difference/similarity types to another system, with intent to understand the other system') and apply these variables to generate insights that can be applied to solve a problem
