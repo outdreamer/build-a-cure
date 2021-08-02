@@ -1,5 +1,9 @@
 - add to solution automation workflows
 
+  - apply core interaction functions & core structures to useful structures to generate other useful structures
+    - example: apply the concept of 'probability' to generate useful structures, which would produce a query like 'identify probability structures like patterns of useful structures'
+    - workflow fit: this may have the same output as other workflows but it involves applying the insight that 'core structures of useful structures' benefits from the usefulness of the concept of 'adjacence' in that core structures (like combination of useful structures, or patterns of useful structures) will probably also be useful structures
+
   - identify structures of useful interface components that can be used to generate/identify other useful structures
     - example: identify useful structures (like patterns) of useful structures 
       - example pattern of useful structures: 'structures having a higher number of useful concepts it can function as'
@@ -10,7 +14,7 @@
         - example: the function created above is 'identify structures matching the useful structure that is the structure of a pattern of useful structures "structures having a higher number of useful concepts it can function as"'
         - the 'structure' of useful structures is the 'pattern' of useful structures
       - this translates structures (like patterns or combinations or input-output sequences) of useful structures into specific structures (like 'structures with a higher number of useful concepts it can function as') that can be used for effective identification/generation of specific useful structures (once formatted in a useful format, like the 'structure-function-concept' format) & applied as solution structures in a specific problem space
-      - this is generating what amounts to 'insight paths' to connect general useful structures with a function to identify specific useful structures, using connecting rules like 'identify patterns of useful structures, once structures are standardized to various interfaces or interface structures, like combinations of interfaces'
+      - this is generating what amounts to 'insight paths' to connect general useful structures with a function to identify specific useful structures, using connecting rules like 'standardize structures to various interfaces or interface structures, like combinations of interfaces, and then identify useful structures like patterns of useful structures'
       - it also adds the 'standardization to various interfaces' step, which adds variation in the solution space of possible useful structures to search
 
   - identify useful structures for depicting interface components (like change types), particularly useful structures (like 'adjacent structures in different formats'), and apply these structures to create solution structures (like structures of clarity/obviousness, where the info made clear by that structure is useful for problem-solving intents)
