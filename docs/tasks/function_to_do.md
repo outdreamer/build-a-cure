@@ -86,6 +86,11 @@
         - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
         - can they be allowed to be adjacent or do they exert attracting forces, leading to structures of certainties
         - what happens if a structure of uncertainty is trapped inside a structure of certainties?
+        - are uncertainties just occupying an adjacent state of matter in an unobservable structure (hidden behind other structures of uncertainty, or unconnectible to space-times where other structures can be measured/observed)
+          - when one structure 'doesnt exist' (loses structure), does it just move to these spaces involving uncertainty structures (like particles with opposite spin)
+          - does there need to be some ratio like a balance maintained between the structures of certainty/uncertainty in these two positions?
+          - do 'structures' as we know/measure them only exist in space-time points that are connectible with certainty structures, and between these points, uncertainty structures can develop
+            - which of these is more stable? are uncertainty structures by definition less stable, or are they the default that energy always resolves into when left to its own devices, an attribute that is counterintuitive bc it would contradict the definition of uncertainty?
       - given that structures of certainty remove or invalidate time (time cant pass when something is certain), will these structures be capable of removing time in other locations? can time be added in locations/moments as well as removed?
       - will these certainty cascades destroy time necessary to solve other problems?
       - can these certainty structures be directed at uncertainty structures, like sources of randomness/risk/ambiguity/change/potential/energy to make them more certain?
@@ -96,6 +101,7 @@
         - is that direction capable of handling the current energy storage or would it create problems?
       - if you disrupt stability structures like entanglements, absolutes, connections, continuities, inevitabilities, constants, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
         - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
+        - is 'antimatter' an uncertainty structure that can only be approximated or theorized but not measured, like true randomness?
       - how can reflections & other distortions & structures of light be used to encode info about the original energy?
       - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
       - can you move structures of space-times like combinations (similar to a ship) to other positions in space-time fabric
