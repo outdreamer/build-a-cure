@@ -76,6 +76,7 @@
         - https://www.popularmechanics.com/science/math/a30152083/solve-quadratic-equations/
 
   - add to useful structures
+    - identify what is the system structure format where the maximum number of interface queries can be executed structurally, with minimal conversions required? is it a merged format of variable/function/concept/cause network graphs, or system state networks, or a set of variable subset graphs, or differences visualized as vectors, or input-output sequence visualizations, or a network with all identifiable interface components visualized
     - identify useful perspectives
     - requirements (useful for filtering by relevance)
     - intent maps (useful for connecting intents across interaction layers)
