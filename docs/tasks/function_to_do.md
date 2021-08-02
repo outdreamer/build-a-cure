@@ -102,6 +102,8 @@
       - if you disrupt stability structures like entanglements, absolutes, connections, continuities, inevitabilities, constants, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
         - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
         - is 'antimatter' an uncertainty structure that can only be approximated or theorized but not measured, like true randomness?
+        - what else would explain this illusion of uncertainty vs. certainty dichotomy, if its an error?
+        - does matter not exist for every possible state between stable space-times?
       - how can reflections & other distortions & structures of light be used to encode info about the original energy?
       - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
       - can you move structures of space-times like combinations (similar to a ship) to other positions in space-time fabric
