@@ -10,3 +10,4 @@
     - if trolling you was all it took to inspire you to do better (and if youre actually better), you were already a few steps away, though thats not quite the same as being unwaveringly committed to my goal of saving the potential in the world despite all the barriers you put in my way, is it?
 
     - I wont die for you but I will live for them
+    	- I wont suffer for your pleasure but I will rejoice in my dance on the grave of math & other false definitions of meaning for their freedom
