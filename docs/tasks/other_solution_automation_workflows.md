@@ -3,8 +3,9 @@
   - apply solution automation workflows to solve problems like 'identify structures of obviousness' to generate solution structures to other problems
     - example: apply the 'reverse-engineer' solution automation workflow to identify/generate useful structures (like structures of 'truth', such as 'obviousness') using useful structures like 'opposites' to identify & apply 'filter/limit' structures of what a 'structure of obviousness' cannot be
     - workflow fit: this applies solution automation workflows to generate inputs to solution automation workflows, like 'solution structures' like 'truth structures'
-      - this is similar to the 'apply problem/solution structures to other problem/solution structures' workflows & variants, but specifically applies workflows to generate inputs to these workflows, applying structures like 'combinations' to workflows as needed to fulfill the 'generate workflow inputs' intent
+      - this is similar to the 'apply problem/solution structures to other problem/solution structures' workflows & variants, but specifically applies workflows to generate inputs to these workflows, applying structures like 'combinations' to workflows as needed to fulfill the 'generate workflow inputs' intent, specifically for 'solution structures' inputs in this example, rather than other solution structures/metadata like 'solution success cause'
         - the above example uses a combination structure of the 'reverse-engineer' workflow (applying the 'apply useful structures' workflow, and the 'filter solution space' problem-solving intent to do so) as a component to fulfill the general workflow of 'identify/generate solution structures & apply as components of solutions'
+    - simplification: this applies general solution structures like 'solution automation workflows' to solve general problem-solving intents like 'finding components of solutions' for other problems
 
   - apply core interaction functions & core structures to useful structures to identify generate & apply other useful structures as solution structures
     - example: apply the concept of 'probability' to generate useful structures, which would produce a query like 'identify probability structures like patterns of useful structures'
@@ -30,10 +31,17 @@
         - why is it easier to solve problems when they are graphed? bc of structures of truth like clarity/obviousness given focus/implications produced/prioritized by certain formats
           - connections are implied with default adjacent or otherwise obvious structures, like a line that completes a triangle when added to an angle structure formed by two lines where the missing line is the same length as the other lines
           - some structures are clear in different formats, like differences or patterns being more visible from one angle than another
-        - so a structure should be used to graph a component when the particular structures made obvious/clear by that graph format are required or otherwise useful
-        - example:
-          - a 'unit case' structure is useful to answer the question of 'whether a possible connecting rule is true at all'
-          - a 'contradiction' structure is useful to answer the question of 'whether a connecting rule is absolutely true'
+        - selection rules to identify a structure to visualize/structurize a system
+          - so a structure should be used to graph a component when the particular structures made obvious/clear by that graph format are required or otherwise useful
+            - example:
+              - a 'unit case' structure is useful to answer the question of 'whether a possible connecting rule is true at all'
+              - a 'contradiction' structure is useful to answer the question of 'whether a connecting rule is absolutely true'
+          - the selected structure should be able to maintain the relevant structures (such as structures of interaction, equivalence/difference, change) of the origin system if its going to be useful in depicting interactions in that system, which implies the relevant structures are already identified in the origin system
+          - if other formats can make other attributes/functions of a system obvious, those other formats can be integrated into a combination/merge or other structure of formats to gather info about the origin structure
+          - abstract & query for structures or structures (combinations/subsets) of structures from the origin system in other systems and filter other systems by which systems:
+            - have more of these structures
+            - are capable of more of these structures
+            - arent missing any of these structures by definition/requirement
 
   - identify solution success cause of why a structure is useful (or specifically why its useful for an intent) & apply that to identify other useful structures as needed to solve a problem
       - example:  
@@ -56,7 +64,13 @@
       - workflow fit: this is similar to the 'identify problem/solution structures (like solution success cause) of problem/solution structures (like useful solution structures)' workflow, but adds the connection to 'system contexts' where a particular structure is relevant
 
   - identify patterns in differences in useful structures in various systems (like structures of 'requirements' in various systems) to identify variables of how a structure should be changed to become useful in a particular system, as well as the differences between useful & non-useful structures in a particular system compared to each other & compared to the system structure, to identify probable useful structures given a system structure
-      - generalization: this can be generalized to 'identify the differentiating variables of the most useful structures to compare (like useful/non-useful structures, or useful structures vs. system structure, or error structures vs. solution structures) and identify the most useful structures to compare, to enable optimal identification of these structures which are directly relevant for problem-solving intents'
+      - generalization: this can be generalized to 'identify the differentiating variables of the most useful structures to compare & identify the most useful structures to compare, to enable optimal identification of these structures which are directly relevant for problem-solving intents'
+        - useful structures to compare:
+          - useful/non-useful structures
+          - useful structures vs. system structure
+          - error structures vs. solution structures
+          - patterns of difference between formats that can identify different attributes/functions/structures
+         
       - workflow fit: this is similar to the 'identify useful structures (like patterns) in useful structures to identify/generate them, & apply them as solution structures' workflow, but generalizes it to all problem/solution structures, and adds a core interaction function of 'comparison' to 'connect the structures that are most useful to differentiate', an intent that is particularly useful for problem-solving intents when applied to problem/solution structures
 
   - apply variance structures like 'approximation' using useful structures like 'adjacence' to other required or otherwise useful structures like 'input output sequences' to generate sources of variation to apply to problem/solution structures like workflows to generate different structures, such as 'apply adjacent transforms to input-output sequences to find adjacent input-output sequences to use as solution structures as well as the structures required to solve the sub-problems of converting to those adjacent structures' instead of 'find all currently possible input-output sequences to find solutions using only existing resources'
