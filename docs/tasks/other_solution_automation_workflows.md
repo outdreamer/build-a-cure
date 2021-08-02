@@ -1,5 +1,11 @@
 - add to solution automation workflows
 
+  - identify structures of useful interface components that can be used to generate other useful structures
+    - example: identify useful structures (like patterns) of useful structures 
+      - example pattern of useful structures: 'structures having a higher number of useful concepts it can act as'
+        - example of a structure having a high number of useful concepts it can act as:
+          - tangent: useful bc it acts like an 'interaction', 'intersection', 'approximation' or 'similarity' structure
+
   - identify useful structures for depicting interface components (like change types), particularly useful structures (like 'adjacent structures in different formats'), and apply these structures to create solution structures like structures of clarity/obviousness where the info made clear by that structure is useful for problem-solving intents
       - example: a graph of a topology of properties indicating the change types that break properties or produce phase shifts in properties to show change structures
       - solution success cause: 
