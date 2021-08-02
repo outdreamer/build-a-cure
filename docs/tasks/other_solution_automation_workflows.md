@@ -47,7 +47,13 @@
             - how do we know the connection between endpoints will be obvious in that format, before applying it?
               - bc 'connections between structures' are just a 'line structure' in that space, which is an adjacent connection, adjacence being a structure of obviousness
             - how do you find a space where a structure to fulfill an intent like 'connect unconnected structures of two structures connected at a common origin' will be an adjacent structure?
-              - identify the requirements of the connection structure, and remove structures that are not relevant to it, and find a space where the remaining structures can be depicted
+              - identify the requirements of the connection structure (like 'connect differences of this type'), and remove structures that are not relevant to it (like the general 'structure' term instead of a specific term like a 'line', and the general 'origin' term instead of a specific term like 'comment endpoints of lines'), and find a space where the remaining structures can be depicted
+                - the term 'origin' is not relevant to solving the problem of 'connecting the other opposite unconnected endpoints of the two lines', all thats relevant is that there is one set of endpoints that are connected and the other endpoints are not, so that term can be specified/generalized as needed to standardize it to the new space where this connection resolution is obvious
+              - identify adjacent components of the problem space and identify spaces where those components can exist or be applied
+                - identify adjacent components (like the existing components of the problem space, like 'structures that can be connected' and 'origins') and check if those components can be added or otherwise operated on in the new space where the connection resolution is obvious
+                  - example: identify a space where 'connection structures' can be added (where 'lines can be added')
+              - iterate through variants of the problem space components (like 'connection structures') to find possible specific/general/other variations of the structures & associated spaces
+                - variations of 'connection structures' include 'lines' in associated spaces like spaces greater than 1d
             - "identify a structure (like 'connected lines at an endpoint') where unconnected structures of difference (like 'unconnected endpoints') can be connected using adjacent conversions
               - adjacent conversions like 'adding objects equivalent to themselves' (a third line) or 'rotate to form a 3d object'"
               - this 'two connected lines at an endpoint' structure would be useful to depict structures like the following, where the implied third line is required to solve some problem:
