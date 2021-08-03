@@ -4,14 +4,58 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
  
-   - create configuration for 2-3 list items every day
+  - example of applying interface components to solve problem of 'generating arguments to make a point'
+    - change variable 'location of power':
+    - this company is welcome to build their own app store with their own phones or team up with their coalition to do so
+    - add variable 'time sequence' to 'location of power' change:
+      - if this company operates an app store someday, they will set rules to benefit themselves too, just like theyve done in the past
+    - offer an alternative to charging app store rate
+      - is there a one-click button to migrate from this company to the monopoly that could replace any difference in taxes on this company
+    - apply conceptual definition filter 'does concept of persecution (and related components of the definition like focus) apply to the behavior (does behavior have a specific target that is the focus of persecution)'
+    - are the monopoly's rules applied exclusively to this company? if not, it's not anti-competitive behavior
+    - apply intent filter
+    - is this company's mission nobler than the monopoly's
+    - apply system cost-benefit analysis
+    - what features were improved bc this company exists? are those features worth anything or required needs? did they develop those features better than competitors?
+    - if this company is just charging rent on a catalog, are they adding value to the market, so they should be allowed to dictate the market at all?
+    - what products/features would the monopoly develop if they didnt have to pay a fine, and what are those features worth, and are those features required?
+    - apply logical fallacy filters
+    - apply 'hypocrisy' filter
+      - apply 'anti-competitive' conceptual definition structures & test if these structures fit the opponent
+      - does this company plan on raising prices at some point or will they keep prices low even if the app store rate holds? are they only keeping prices low to dominate the market & plan on raising prices later? isnt that anti-competitive behavior?
+      - if they are so concerned about anti-competitive behavior, why arent they trying to compete by building their own app store? isnt there a risk that the apple app store is sub-optimal and needs to be improved with competition from this company
 
+  - organize examples of logic for functions (interface query design logic)
+    - document default static config objects that are inputs to core objects (like functions & concepts)
+      - core functions like 'change', with locked objects which should be generated as inputs to other functions and should not be removed bc they enable other rules & core objects
+        - a 'check for errors' function
+        - a concept of 'self-correction/optimization'
+      - these locked objects can be used to generate rule-generating/deriving/finding structures, by forming an initial structure of locked objects and filling that structure with conditional & changeable structures
+        - these rule-generating/deriving/finding structures can be used as solution automation workflows
+    - design an optimal sorting structure for general interface queries to apply to problems manually
+    - example of how to predict most interactive/causal concepts in a system
+    - list interface selection (based on inputs like available APIs/data sets/definitions)
+    - problem interface structures: solution constraints/metrics, problem space variables, available functions, useful formats/structures
+    - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
+    - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
+    - decision points (required/optional resolution of variables to constants, as in selecting a variable value)
+      - identify when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
+    - alternative intent coordination & compatability of metrics
+      - calculating interactivity by coordinating/adjacent/convertible structures
+
+  - add structural queries to insight paths
+    - alignments present in security innovations (like alignment in inputs like keys)
+    - source of rule development as structures of conflict between forced interactions like change causes & constant structures like limits
+      - incomplete inevitability of interaction as a decision structure
+    - other examples  
+      - group device history authentication: authenticate credit card by proximity to cell phone & continuity applied to user usage history pattern
+    - functionalize insight paths & integrate functions in optimized program with parameters to select function subset & structure for input problem
+
+  - create configuration for 2-3 list items every day
       - create compilation script to compile code/config into a network graph on every change
         - add support for equivalent synonyms
         - add conversion to standard vocab
-
       - write some default interface queries to use until logic is written
-
       - finish lists:
         - most valuable interface queries & workflows
           - find the sets of differences/dependencies/formats/errors & other useful structures that are the most valuable in a particular structure like a sequence to solve a problem
@@ -25,26 +69,10 @@
           - questions formatted as a disconnection between components like causal positions, paths, directions
         - subset indexes of an interface useful for solving most problems (structure indexed by metadata like problems solvable, fitting systems, interactive structures, supported intents)
 
-  - example of standardizing an error type:
-
-    - 'maximizing shareholder value': using outputs (profit) to attract investment/capital rather than re-investing in products
-      - calling 'routing outputs' function with intent to 'get more required inputs (like capital)' as a replacement of calling 'routing outputs' function with intent to 'make required inputs optional' has error structures with varying degrees:
-        - false trade-off (not mutually exclusive)
-          - outputs can be divided between both intents to create short-term & long-term gains
-        - false causal structure
-          - routing outputs with intent to 'increase product quality/variety' would fulfill the intent of 'attracting investment/capital'
-        - over-prioritization
-          - short-term gains
-          - over-prioritization of inputs (like 'resources/ability') rather than using inputs to reduce costs (like 'required inputs')
-        - lack of solution structures (once structures like over-prioritization are noticed, no solution structures were there to offset it)
-        - lack of alternatives (other alternatives to 'increase product quality' to offset lack of intent fulfillment in the 'output routing' functions werent in position or available)
-        - lack of opposite structures of competitor success (no monopoly or competitive moat or platform/supply chain/regulatory advantage in place)
-        - lack of incentive structures to improve product in the absence of solution structures or correct output-routing functions (if executives planned on quitting/retiring before problems were noticed or compensation regulation changed)
-
   - add to conceptual math examples
-    - example of an operation that builds a boundary structure leaving an inevitability of a matching concept (numbers) filling the structure
+    - example of a conceptual math operation that builds a boundary structure leaving an inevitability of a matching concept (numbers) filling the structure
       - the concepts of 'missing', 'multiple/more', 'unit', 'type', 'identifiable as similar/equal/different' and 'difference in amount' allow for/require/build the concept of 'numbers'
-      - functions like 'compare' or 'reduce' or 'expand' require the concept of 'numbers' when comparing objects of that data type or objects having a quantifiable attribute
+      - also functions like 'compare' or 'reduce' or 'expand' require the concept of 'numbers' when comparing objects of that data type or objects having a quantifiable attribute
 
   - interim functions to build:
     - derive definition routes on various interfaces from a definition
@@ -55,192 +83,19 @@
     - identify variable types & structures
     - consolidate repo, remove repeated content, merge similar functions
 
-    - finish processes:
+   - finish processes:
       - finish interface analysis of physics to determine other useful components like efficiencies, incentives, trade-offs, closed systems
       - finish applying interface components (like abstract) to useful interface components
         - core interaction functions of core interaction functions
       - create interface queries of finding useful interface component filters
 
-  - why do structures overlap across interfaces:
-    - different interaction types:
-      - one interface may define the structure, and another may apply it
-    - interfaces may have different definitions of the structure while still referencing the same underlying structure
-    - interfaces have other interfaces injected in them by default
-      - example: every interface has the core interface injected, bc it has core components
-    - there's usually one interface that is the base interface for any given structure
-
-  - add interface versions to your solution/workflow metadata
-    - example:
-      - structural version of solution difference from original solution: 
-        - this is like using a pair of connected lines at different angles to connect two points (multiplying alternate multiplier pairs to create a product), where summing the line lengths produces an equivalence
-        - https://www.popularmechanics.com/science/math/a30152083/solve-quadratic-equations/
-
-  - structures of 'adjacence' connecting structures of 'stability' as a source of 'certainty' structures that are alternatives to 'default certainty' structures like 'equilibriums'
-    - remove 'connection structures' between 'adjacent states' with 'invalidating structures' to 'remove a variable' ('maintain a particular state')
-    - possible error structures
-      - is energy absorbed/emitted during laser/microwave application, like during traversal of particle sequence
-    - alternative structures
-      - structures of 'connection' like 'entanglement' are another source of 'stability' & 'certainty' structures
-    - questions
-      - do numbers represent the most efficient energy storage unit? (any physical structure can be described by any number if distorted enough, which matches the 'any particle can be in any position if moved enough' structure)
-      - how would various structures of 'certainty' like 'stability' interact, and how would they interact with structures of 'uncertainty' like 'randomness'?
-        - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
-        - can they be allowed to be adjacent or do they exert attracting forces, leading to structures of certainties
-        - what happens if a structure of uncertainty is trapped inside a structure of certainties?
-        - are uncertainties just occupying an adjacent state of matter in an unobservable structure (hidden behind other structures of uncertainty, or unconnectible to space-times where other structures can be measured/observed), like a certainty when above the surface of water and an uncertainty when below it?
-          - if efficiencies & other stability structures allow energy to develop into structures above it, do the opposite structures allow energy storage below it (or inside it)?
-          - how do quantum fields fit with interfaces? can each field be formatted as an interface, and their intersection is the interface/meaning interface?
-            - is each point in the quantum field intersection an entry point to the interface interface or an implementation of it (potential particles)
-          - is it a set of dimensions describing change types that is unconnectible to observable dimensions?
-          - what are the directions of interaction/causality between interacting fields? how do attributes of each point interact/map/align with those of adjacent & non-adjacent points - is there organization to this mapping? can the fields exist across disconnected layers at each adjacent point, or do they have to be connected/continuous? what rules out position possibilities of a particle other than other particle positions? can all of the particles be measured at once?
-          - when one structure 'doesnt exist' (loses structure), does it just move to these spaces involving uncertainty structures (like particles with opposite spin)
-          - does there need to be some ratio like a balance maintained between the structures of certainty/uncertainty in these two positions?
-          - do 'structures' as we know/measure them only exist in space-time points that are connectible with certainty structures, and between these points, uncertainty structures can develop
-            - which of these is more stable? are uncertainty structures by definition less stable, or are they the default that energy always resolves into when left to its own devices, an attribute that is counterintuitive bc it would contradict the definition of uncertainty?
-      - given that structures of certainty remove or invalidate time (time cant pass when something is certain), will these structures be capable of removing time in other locations? can time be added in locations/moments as well as removed?
-      - will these certainty cascades destroy time necessary to solve other problems?
-      - can these certainty structures be directed at uncertainty structures, like sources of randomness/risk/ambiguity/change/potential/energy to make them more certain?
-      - can these also function as structures of efficiency and independence?
-      - can randomness structures also disconnect/interfere with adjacent space-times?
-        - what can connect space-times - can certainty structures connect them or would they do the opposite given that they remove/invalidate time?
-      - if you created a barrier of enough time crystals preventing change (the passage of time) in the forward direction, would the backward direction be inevitable?
-        - is that direction capable of handling the current energy storage or would it create problems?
-      - if you disrupt stability structures like entanglements, absolutes, connections, continuities, inevitabilities, constants, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
-        - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
-        - is 'antimatter' an uncertainty structure that can only be approximated or theorized but not measured, like true randomness?
-        - what else would explain this illusion of uncertainty vs. certainty dichotomy, if its an error?
-        - does matter not exist for every possible state between stable space-times? how much can this interval be extended if so, without breaking the matter's probability of re-assembling in the next space-time it reaches stability in?
-      - how can reflections & other distortions & structures of light be used to encode info about the original energy?
-      - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
-      - can you move structures of space-times like combinations (similar to a ship) to other positions in space-time fabric
-        - are there gaps in space-time fabric and can they be crossed or filled with certainty structures
-      - do certainty structures map to other interfaces, so that fractons/entanglements map to the logic interface in some structure that is robust to change on that interface, like 'exceptions', 'contradictions' or 'connections between equivalent components of rules' - can they create certainty or just reflect it, and where is it generated from if so?
-      - what concepts allow for the existence of 'infinity': complexity, scale, change, interaction (combining these allows for the development of enough changes to allow an infinity to develop)
-
-  - example of interface query to apply interfaces to solve a problem:
-    - sub-problem: create inputs of following sub-problem solutions
-      - create input structures of solutions of following sub-problems in the interface query sub-problem sequence
-        - create input-output index of structures (like 'sheaves')
-        - find 'connection structure' (like a line) to connect 'structures of a type'
-          - find line connecting definitive p-adic structures like p-adic rings
-    - sub-problem: find adjacent structures to apply as components/inputs of the 'connect' sequence to be applied later
-      - find format that both problem & solution can be standardized to ('sheaves')
-      - identify alternate formats of problem/solution using alternate definition routes, since current formats arent connectible using known or alternate adjacent methods
-        - identify 'alternate definition routes' of the structure
-          - 'tangent bundles' or 'subset bundles' instead of a 'boundary'
-      - filter alternate formats by those which can be standardized to the common 'sheave' format
-    - sub-problem: integrate structures with problem/solution core interaction function
-      - apply 'connect' function between problem input & solution output structure
-        - apply 'structure input-output sequence' as a 'connection structure' (as opposed to a 'state sequence' or 'format sequence')
-          - identify 'structure input-output sequence' that connects 'alternate origin structure' with 'target solution structure'
-
-    - example format sequences, by applying structural similarities to form connections:
-      - primes -> p-adic numbers -> galois groups -> polynomial roots
-      - p-adic numbers => one prime => rationals (all primes) => 'prime' definition applied to 'polynomial roots'
-
-    - intents:
-      - connect 'p-adic numbers' and 'rational numbers'
-      - connect 'p-adic numbers' and 'polynomial roots'
-        - connect 'p-adic number groups' with 'galois group of p-adic numbers' ('galois groups' are the solution format, already adjacently connected with 'polynomial roots')
-          - connect 'p-adic numbers' to 'sheaves'
-          - connect 'sheaves' to 'galois groups'
-        - connect 'p-adic structures' to 'fargues fontaine curve' using 'alternate definition' of 'p-adic number structures' & 'sheaves' as 'connection structures' to fulfill conjecture matching 'galois groups of rational numbers' with 'automorphic forms' like 'p-adic numbers'
-
-    - relevant structures:
-      - core structures
-        - tangents
-        - roots
-        - boundaries
-      - similarities
-        - galois group: polynomial roots
-        - p-adic/rational numbers: unit/specific primes vs. sequential primes
-        - polynomial/prime:factor
-        - polynomial/number: operation
-    - https://www.quantamagazine.org/with-a-new-shape-mathematicians-link-geometry-and-numbers-20210719/
+  - example of structural version of solution difference from original solution: 
+        - this is like using a pair of connected lines at different angles to connect two points (multiplying alternate multiplier pairs to create a product), where summing the line lengths produces an equivalence, so different solutions would look like differently angled triangles connecting the two points
+        - https://www.popularmechanics.com/science/math/a30152083/solve-quadratic-equations
 
   - add to useful structures
     - identify what is the system structure format where the maximum number of interface queries can be executed structurally, with minimal conversions required? is it a merged format of variable/function/concept/cause network graphs, or system state networks, or a set of variable subset graphs, or differences visualized as vectors, or input-output sequence visualizations, or a network with all identifiable interface components visualized
     - identify useful perspectives
-    - requirements (useful for filtering by relevance)
-    - intent maps (useful for connecting intents across interaction layers)
-    - intent sequences
-      - a 'requirement to survive' is the reason why an animal might develop bright colors, with varying intents:
-        - with intent to 'attract prey', bc 'prey are difficult to find'
-        - with intent to 'mimic a scarier animal' bc 'theyre not scary enough to disincentivize predators'
-        - with intent to 'store excess mutations' bc 'mutations occurred for no reason other than structural damage'
-      - the two intent sequences above overlap at the 'bright colors' node and diverge bc of different requirements, given their different positions relative to useful objects for survival (prey, predators, energy storage, change as energy)
-      - this is a way to determine alternate causes of the same variable, given useful system objects like requirements & incentives
-    - attribute sequences to connect problem/solution
-      - example: a solution to this problem type has attribute sequence: complex, organized, filtered, isolated
-    - counterintuition structures
-      - example: 
-        - the insight that 'over-prioritizing a priority usually invalidates the priority' is counterintuitive but its true bc:
-          - 'other priorities usually matter with equivalent or similar relevance, and prioritizing one priority over the others usually invalidates other similarly important priorities, creating error structures that break a system, reducing its ability to fulfill the over-prioritized priority'
-        - with an exception that:
-          - 'if the priority is determining of the system (the most important priority), it is not sub-optimal to over-prioritize it up to a limit, bc that wouldnt actually be over-prioritizing it, just allocating it the correct importance'
-      - how to determine a counterintuition structure:
-        - relevant variable and sub-problem/question sets to build interface queries around
-          - 'alternate priorities'
-            - key variable/structure: 'alternate priorities', which can be identified as possibly useful by applying core/commonly useful structures like 'alternates' to the problem system components ('priorities' in this problem)
-            - key question: 'identify a system with one priority' and if a system fulfilling that structure cant be identified, its implied that 'systems in general have multiple priorities', which would invalidate applying the rule of 'prioritizing one over the others'
-          - 'unbreakable system'
-            - key variable/structure: 'unbreakable system', which can be identified as the 'contradiction' structure of the insight rule by applying 'opposite' structures to the rule 
-            - key question: identify a system contradicting the rule, which cant be broken by positioning a priority (or other structures of intent, like requirements, outputs or function/structure intents) as more important than it is
-              - if a system fulfilling that structure doesnt exist, its implied that 'any system can be broken by over-prioritizing a priority beyond its actual importance/value'
-              - how to prove this without combinatorial search: 
-                - apply 'requirement' structures as a 'filter' structure, to identify structures that are 'opposite' to requirements (dont fulfill requirements), such as 'contradiction' & 'impossibility' of requirements
-                  - by applying 'definitions' of relevant components of the problem space to limit possible interaction rules:
-                    - 'if the definition of a system contradicts this possibility, no such system exists'
-                  - by applying 'input' structures as a 'filter' structure:
-                    - 'if the inputs of such a system are impossible, no such system exists'
-                  - by applying 'possibility' & 'change' structures as a 'filter' structure:
-                    - 'if systems where it is or would/could be possible cannot be produced by applying changes to the system in question, no such system exists'
-
-  - finish identifying & applying other problem/solution components
-      - insights/insight patterns: identify the variables of insight generation (such as structures like difference types/degrees, like 'applying a mixed different/similar system with various difference/similarity types to another system, with intent to understand the other system') and apply these variables to generate insights that can be applied to solve a problem
-
-  - finish applying interfaces to problem/solution structures
-    - intent: derive intent maps & align intents on multiple problem/solution structure layers, like problem-solution connection and sub-problem or problem/solution component connections
-    - logic: derive interactive structures given logical rules like equivalences/implications used as connecting functions
-    - definition: apply problem/solution structure definitions to determine their possible interactions
-    - cause: find solution success cause and generate solution automation workflows from that
-    - change: 
-      - find changes to problem/solution structures that still allow the structures to interact
-      - find remaining variables of interactions
-
-  - standardize core interaction functions (improve/optimize a standard/default solution, make progress toward, move toward, connect with) between problem/solution structures
-
-  - finish list of useful interface components, including structures of useful interface components (like structures of specific useful concepts)
-    - example: 'apply concepts to system interface to identify conceptual structures in system'
-      - system
-        - system structures of uniqueness: exclusivities
-        - system structures of power: trigger, input
-
-  - finish interface query design rules
-    - 'if solution requirements arent given, derive/predict them or apply default requirements from related/similar problems'
-
-  - add error type prioritization to resolve competing error types, or error types like 'contradictions between success signals' that result from different success signal sources/relevance
-    - example: the 'ego' comes from 'self-protection' intents and its success signals may contradict success signals produced by other sources like 'sensory info'
-      - alternate ways to resolve this contradiction:
-        - apply the insight 'over-prioritization of a priority results in contradiction of that priority'
-        - identify if general/specific 'self-protection' intents or other high-priority or relevant intents are invalidated by choosing a particular success signal source
-        - identify if the inputs of one success signal are more relevant (such as involving 'specific, accurate, useful info'), or if they are independent of other more relevant success signal sources ('success signals produced by prior success, rather than the accuracy/relevance of current success signals', or 'health success signals' which may be unrelated to/independent of 'current success signals')
-          - the reason success signals may be produced by a suboptimal method may be because the success signals are produced by default by the system or from another source, rather than bc they are accurate signals of good decisions
-
-  - example of different structures of an interface component on different interfaces
-      - alternative
-        - 'structural alternative': where one or more structures are options where one or the other or both if not mutually exclusive can be chosen (applied at a given time), with varying relevance/optimization, for a particular intent (like 'navigate in a direction', having structural alternatives in the form of a set of paths)
-        - 'conceptual alternative': where one or more concepts can be applied at a given time with varying relevance/optimization for a particular intent (concepts with an intent in common)
-        - 'structural conceptual alternative': alternative conceptual structures, like varying structures of power or balance
-      - alignment
-        - 'structural alignment': based in the structural interface, where a 'structural alignment' takes the form of an equivalence/similarity in components (attributes/functions/objects/structures), such as:
-          - interchangeable attributes/functions/objects
-          - a fitting/matching structure
-          - a parallel structure
-          - a structure having similar shape or other attribute like size
-        - 'conceptual alignment': translated to the conceptual interface, an 'alignment' takes the form of concept such as 'equal' and/or related concepts like 'similar'
-        - example of injecting the structural interface to components on other interfaces:
-          - a 'structural conceptual alignment' is the 'alignment' in structures of concepts, like 'similar conceptual connections' or 'equivalent concepts'
 
   - document useful component/sub-structures of interface queries (interface components, interaction rules, cross-interface interactions, generative functions)
 
@@ -261,20 +116,21 @@
     - add to causation variables
       - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
-    - give examples of identifying vertex variables
+  - examples of identifying vertex variables
       - general vertex variables: topic, origin/destination, reason/cause/point/intent, errors, variables, types
       - comedy vertex variables: sincerity, stupidity, stakes, tension-resolution/expectation-subverting pattern variation
       - music vertex variables: tone, tension-resolution/expectation-subverting pattern variation, lyrics
       - optimization metric vertex variables: solution metric patterns (what other solutions optimize for, to determine optimization metrics to apply)
 
-    - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
+  - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
 
-    - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
+  - all primary interfaces can act like the problem-solving interface (start solving problem from the concept or structure interface and integrate all info back into that interface & frame the solution in terms of that interface) but the meaning interface (the interface interface) is the most powerful
 
   - visualizing higher dimensions with changes in a network of visualizable variable subsets like:
 
     - dimension subsets: displaying dimension subsets in groups of sizes that are already visualizable (from 1 - 4 dimensions), where orthogonality is preserved across the network of subsets
+
     - dimension groups: grouping similar dimensional changes into a change type across a dimension subset, to visualize the change types
     
     - relevant (robust) dimensions
@@ -304,27 +160,6 @@
     - make a function network of math domains (inputs/outputs of geometry, algebra, calculus that align)
 
     - resolve definitions of components so you can finish organizing useful structures like combinations of concepts such as "format sequence", "solution automation workflow", "insight path", "reverse-engineer solution from problem requirements or opposite structures", "connect problem & solution"
-
-    - example of how to generate monopoly case arguments
-      - change variable 'location of power':
-        - spotify is welcome to build their own app store with their own phones or team up with their coalition to do so
-        - add variable 'time sequence' to 'location of power' change:
-          - if spotify operates an app store someday, they will set rules to benefit themselves too, just like theyve done in the past
-        - offer an alternative to charging app store rate
-          - is there a one-click button to migrate from spotify to apple that could replace any difference in taxes on spotify
-      - apply conceptual definition filter 'does concept of persecution (and related components of the definition like focus) apply to the behavior (does behavior have a specific target that is the focus of persecution)'
-        - are apple's rules applied exclusively to spotify? if not, it's not anti-competitive behavior
-      - apply intent filter
-        - is spotify's mission nobler than apple's
-      - apply system cost-benefit analysis
-        - what features were improved bc spotify exists? are those features worth anything or required needs? did they develop those features better than competitors?
-        - if spotify is just charging rent on a catalog, are they adding value to the market, so they should be allowed to dictate the market at all?
-        - what products/features would apple develop if they didnt have to pay a fine, and what are those features worth, and are those features required?
-      - apply logical fallacy filters
-        - apply 'hypocrisy' filter
-          - apply 'anti-competitive' conceptual definition structures & test if these structures fit the opponent
-            - does spotify plan on raising prices at some point or will they keep prices low even if the app store rate holds? are they only keeping prices low to dominate the market & plan on raising prices later? isnt that anti-competitive behavior?
-            - if they are so concerned about anti-competitive behavior, why arent they trying to compete by building their own app store? isnt there a risk that the apple app store is sub-optimal and needs to be improved with competition from spotify
 
     - value isnt created/lost by companies in the timespan of hype/short cycles, so stock market price swings aren't reflective of reality from a macro perspective
       - it takes years to build value, it doesn't happen overnight, excluding almost magical insights that create cascading efficiencies like my system
