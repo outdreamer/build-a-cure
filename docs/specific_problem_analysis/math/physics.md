@@ -1,5 +1,47 @@
 # physics
 
+  - structures of 'adjacence' connecting structures of 'stability' as a source of 'certainty' structures that are alternatives to 'default certainty' structures like 'equilibriums'
+    - remove 'connection structures' between 'adjacent states' with 'invalidating structures' to 'remove a variable' ('maintain a particular state')
+    - possible error structures
+      - is energy absorbed/emitted during laser/microwave application, like during traversal of particle sequence
+    - alternative structures
+      - structures of 'connection' like 'entanglement' are another source of 'stability' & 'certainty' structures
+    - questions
+      - do numbers represent the most efficient energy storage unit? (any physical structure can be described by any number if distorted enough, which matches the 'any particle can be in any position if moved enough' structure)
+      - how would various structures of 'certainty' like 'stability' interact, and how would they interact with structures of 'uncertainty' like 'randomness'?
+        - how would two contradicting structures of certainty (like two structures of certainty created from the same or different stability sources) interact - could they coexist in the same interaction space, or would they neutralize each other in some way, or would one structure at motion exert a destructive force on the other, removing its stability or dispersing its components?
+        - can they be allowed to be adjacent or do they exert attracting forces, leading to structures of certainties
+        - what happens if a structure of uncertainty is trapped inside a structure of certainties?
+        - are uncertainties just occupying an adjacent state of matter in an unobservable structure (hidden behind other structures of uncertainty, or unconnectible to space-times where other structures can be measured/observed), like a certainty when above the surface of water and an uncertainty when below it?
+          - if efficiencies & other stability structures allow energy to develop into structures above it, do the opposite structures allow energy storage below it (or inside it)?
+          - how do quantum fields fit with interfaces? can each field be formatted as an interface, and their intersection is the interface/meaning interface?
+            - is each point in the quantum field intersection an entry point to the interface interface or an implementation of it (potential particles)
+          - is it a set of dimensions describing change types that is unconnectible to observable dimensions?
+          - what are the directions of interaction/causality between interacting fields? how do attributes of each point interact/map/align with those of adjacent & non-adjacent points - is there organization to this mapping? can the fields exist across disconnected layers at each adjacent point, or do they have to be connected/continuous? what rules out position possibilities of a particle other than other particle positions? can all of the particles be measured at once?
+          - when one structure 'doesnt exist' (loses structure), does it just move to these spaces involving uncertainty structures (like particles with opposite spin)
+          - does there need to be some ratio like a balance maintained between the structures of certainty/uncertainty in these two positions?
+          - do 'structures' as we know/measure them only exist in space-time points that are connectible with certainty structures, and between these points, uncertainty structures can develop
+            - which of these is more stable? are uncertainty structures by definition less stable, or are they the default that energy always resolves into when left to its own devices, an attribute that is counterintuitive bc it would contradict the definition of uncertainty?
+      - given that structures of certainty remove or invalidate time (time cant pass when something is certain), will these structures be capable of removing time in other locations? can time be added in locations/moments as well as removed?
+      - will these certainty cascades destroy time necessary to solve other problems?
+      - can these certainty structures be directed at uncertainty structures, like sources of randomness/risk/ambiguity/change/potential/energy to make them more certain?
+      - can these also function as structures of efficiency and independence?
+      - can randomness structures also disconnect/interfere with adjacent space-times?
+        - what can connect space-times - can certainty structures connect them or would they do the opposite given that they remove/invalidate time?
+      - if you created a barrier of enough time crystals preventing change (the passage of time) in the forward direction, would the backward direction be inevitable?
+        - is that direction capable of handling the current energy storage or would it create problems?
+      - if you disrupt stability structures like entanglements, absolutes, connections, continuities, inevitabilities, constants, time crystals, equilibriums & symmetries enough, do they disperse into components like energy stores, allowing other versions to form or allowing the adjacence of other previously non-adjacent alternate forms, or do they always disperse into disorder? can you 'skip ahead' to non-adjacent space-times with more information if you use more certainty structures, and does this decrease other useful resources like 'potential energy' & other uncertainty structures, reducing the number of possible paths?
+        - are 'fractons' another 'certainty' structure to create 'certain connections in similarities in behavior across separate particles'?
+        - is 'antimatter' an uncertainty structure that can only be approximated or theorized but not measured, like true randomness?
+        - what else would explain this illusion of uncertainty vs. certainty dichotomy, if its an error?
+        - does matter not exist for every possible state between stable space-times? how much can this interval be extended if so, without breaking the matter's probability of re-assembling in the next space-time it reaches stability in?
+      - how can reflections & other distortions & structures of light be used to encode info about the original energy?
+      - can you create connections between space-times by adding stability or efficiencies between states, so the original trajectory is higher-energy to maintain?
+      - can you move structures of space-times like combinations (similar to a ship) to other positions in space-time fabric
+        - are there gaps in space-time fabric and can they be crossed or filled with certainty structures
+      - do certainty structures map to other interfaces, so that fractons/entanglements map to the logic interface in some structure that is robust to change on that interface, like 'exceptions', 'contradictions' or 'connections between equivalent components of rules' - can they create certainty or just reflect it, and where is it generated from if so?
+      - what concepts allow for the existence of 'infinity': complexity, scale, change, interaction (combining these allows for the development of enough changes to allow an infinity to develop)
+
     - use certainty-identification machine as a certainty-generating machine if it can outpace some physical processes to generate/store/find information
       - quantum physics may be a system that can outpace the info-production/derivation methods of physics, so a certainty machine built on quantum technology could be capable of this, if connected to other quantum certainty machines more efficiently than those built on physics are
 
@@ -13,7 +55,7 @@
         - differences in strength & other attributes of mass aggregation vs. dispersion forces
         - what structures would produce patterns of mass aggregation (oscillation alignment, single position of origin particles, adjacence patterns) & output structures (when oscillations of adjacent particles align, what happens) 
 
-    - the theory of 'the universe as a simulation' is only now getting popular bc our brain structures & functions are such that we are only now recognizing the influence of physics on human decisions, noticing that we can influence these decisions, and therefore fake them, which reminds us of computer simulations
+  - the theory of 'the universe as a simulation' is only now getting popular bc our brain structures & functions are such that we are only now recognizing the influence of physics on human decisions, noticing that we can influence these decisions, and therefore fake them, which reminds us of computer simulations
 
     - examine temporary stabilized filter structures in ozone to push co2 out of atmospheric layers away from earth & forces to do that
 
