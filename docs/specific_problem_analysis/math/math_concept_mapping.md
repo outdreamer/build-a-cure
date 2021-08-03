@@ -1,25 +1,4 @@
-  - finish applying math-concept interface mapping
-    - number: all possible values (and value types, like units)
-    - variable: all possible change types
-    - function: all possible equivalent variable/value interactions
-      - recursion: all possible self-references
-      - multiplication: all possible value interaction spaces
-      - division: all possible value standards
-      - polynomial: multi-variable pattern alignment (alignment of multiple added terms at regular intervals creates waves where the inflection points represent alignments in values or a pattern in alignment of neutralizing values)
-    - function input variable: all possible change types that can be causes
-    - space: value interaction space where variable (change type) interactions have structure (can be described)
-    - structure of a group/combination, like continuity such as a line or shape: a generalization/abstraction/variation of a point/value
-      - the opposite structure would be a condensation/compression/specification, condensing a structure into a point
-    - structure of an average: a standard value to base conversions on
-
-  - finish applying concepts to math structures to identify metadata like 'solution success cause' for particularly useful math structures which can act as components of solutions
-    - useful math structures with useful relevant concepts
-      - subset: useful bc it acts as a structure of 'simplicity' like a 'unit case' or a structure of 'variation' by creating variety in various subset combinations or a structure of 'assumption invalidation' by removing assumed connections (like those between a complete variable set and a dependent variable)
-      - opposite: useful bc it acts like a 'contradiction' structure, a useful source of 'filter' structures
-      - average (center): useful bc it acts as a structure of 'unity' or 'origin' or 'commonness' (the factor the numbers around the center/average have in common)
-      - tangent: useful bc it acts like an 'interaction', 'intersection', 'approximation' or 'similarity' structure
-
-    - example specific function mapping:
+    - example specific math-concept function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
 
       - 'is gamma rational' problem
@@ -137,7 +116,7 @@
         - solution metric:
           - these rules allow for the possibility of an even number resulting from a sum of primes, but doesnt require it for every even number by definition, bc the definitions are incomplete 
             - an even number should be definable in terms of the sum of primes given that the theorem is true and an even number is equal to the sum of two primes
-          - by definition, summing two odd numbers will produce an even number, which applies one attribute of primes (theyre always an 'odd' number) & and the definition of the 'sum' operation, but not every attribute of primes
+          - by definition, summing two odd numbers will produce an even number, which applies one attribute of primes (theyre always an 'odd' number except the unit exception case given low availability of factors) & and the definition of the 'sum' operation, but not every attribute of primes
           - it should be provable using every attribute of the definition of primes, bc every attribute will contain info related to the solution success cause (the reason 'why it works' or 'why its true')
 
       - collatz conjecture
