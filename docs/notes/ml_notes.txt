@@ -1,0 +1,15 @@
+"For the CNN-based classifier they observe that units associated with objects and parts emerge in later layers, while earlier layers are largely associated with colours. For the generator network, on the other hand, object/part neurons can be found more frequently in earlier layers, while the later layers focus on colors."
+	- https://towardsdatascience.com/four-deep-learning-papers-to-read-in-august-2021-7d98385a378d
+
+- for a cnn, the feature causation moves from adjacently identifiable features (colors being an attribute found in every pixel/feature) to absolutely identifiable features (larger features like objects being identifiable with features representing larger sections)
+
+- for a gan, the feature causation moves from foundation/type/template structures (objects) to apply details to, and specific details (colors) to tune the output with.
+
+- identifying the relevant interaction layer or base to act as the symmetry (foundation/type/template to apply variations to) and the variables/attributes that determine the variations from those bases is a workaround that integrates these feature causation structures.
+
+	- the algorithm would list the identifiable structures (components/attributes/objects/interaction functions/errors) in the data set
+	- then it would try to identify default relevant interface structures like types that form the basis of different clusters/subsets in the data set, applied to the structures (error types, component types, variable types), which are relevant for categorization problems (predicting category, generating category example)
+	- then it would try to identify variables that determine variations from those types
+	
+	- this is similar to 'starting in the middle interaction layer and radiating outwards', as opposed to starting from adjacent details or starting from core objects as foundations for change
+		- it integrates error types as an 'adversarial guide'
