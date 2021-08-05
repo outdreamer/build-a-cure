@@ -16,6 +16,13 @@
         - matches a useful structure like 'common interaction patterns', which in this case is the pattern between width & area
       - it can be considered a likely candidate for a solution
 
+    - apply 'attribute' interface
+      - apply 'change' interface or apply 'adjacent change' useful structure
+        - generate connection functions between input structures (objects/attributes/functions) by connecting transformed structures with the target variable ('area') predicted by the solution function
+          - filter generated connection functions ('pi r^2') by which connection functions fulfill:
+            - solution metrics like 'prediction success probability'
+            - useful structures like 'common interaction pattern'
+
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
     - this company is welcome to build their own app store with their own phones or team up with their coalition to do so
