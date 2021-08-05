@@ -14,6 +14,10 @@
 		- the structure applied to the concept of 'locality' may or may not be applied in the right form when assigned to the position of 'features' in the structural problem space (compared to other structures like variable/interaction structures, functions in the function network, parameter output difference patterns, etc)
 		- these other structures may be more relevant to apply this conceptual priority (or de-prioritization) to, in order to correct associated error types with that priority or contradicting priorities
 		- 'parameter output difference patterns' is a particularly useful structure in this problem space that is not being applied optimally
+			- the 'threshold' structure in parameter differences is also not being applied optimally, to generate understanding of parameter/algorithm/network/error interactions
+			- example: 
+				- answering questions like the following would indicate understanding of these interactions:
+					- 'does a particular parameter/algorithm/network combination generate activation patterns for normal data set that result in too many 'deactivated' nodes for the possible output of the network to capture the variance of the original output' (like a 'barrier of deactivated nodes')
 
 - identifying the relevant interaction layer or base to act as the symmetry (foundation/type/template to apply variations to) and the variables/attributes that determine the variations from those bases is a workaround that integrates these feature causation structures.
 
