@@ -22,3 +22,7 @@
 			- variable & error structures commonly found with attribute values or value patterns
 
 		- this applies a different cross-section as a different interaction layer than the default interaction layers that could act as symmetries, such as a template/foundation/type, or the raw data set attributes, or the default object/attribute/function structures, or an interface layer, where these cross-sections are mixing interface components
+
+		- another variant would be starting from the cross-section definition as the symmetry, & identifying various cross-sections that can act as symmetries & applying them as input data to identify the cross-sections that are most predictive of predictive feature structures or algorithm success
+
+	- applying interface components (like intent/structure/bases) is better than ML (which builds a function from an algorithm & function network that is tuned & designed & applied seemingly by accident) bc it starts from understanding of what is useful for solving the problem, rather than guessing based on a limited list of mental functions & structures (like neurons, activation status, weighted connections, & attention) that drew ML engineers' attention for being simple & known.
