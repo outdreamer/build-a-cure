@@ -5,6 +5,16 @@
 
 - for a gan, the feature causation moves from foundation/type/template structures (objects) to apply details to, and specific details (colors) to tune the output with.
 
+- these methods have biases toward priorities that may help or hinder their intents
+	- cnn: prioritization of 'adjacent feature' structures (as inputs to 'larger features')
+	- gan: prioritization of 'template/type' structures (as inputs to 'detailed type examples' output)
+	- gpsa: de-prioritization of 'locality' priority
+
+	- these priorities are conceptual, and the implementation of structuring these priorities may or may not be correct for these intents
+		- the structure applied to the concept of 'locality' may or may not be applied in the right form when assigned to the position of 'features' in the structural problem space (compared to other structures like variable/interaction structures, functions in the function network, parameter output difference patterns, etc)
+		- these other structures may be more relevant to apply this conceptual priority (or de-prioritization) to, in order to correct associated error types with that priority or contradicting priorities
+		- 'parameter output difference patterns' is a particularly useful structure in this problem space that is not being applied optimally
+
 - identifying the relevant interaction layer or base to act as the symmetry (foundation/type/template to apply variations to) and the variables/attributes that determine the variations from those bases is a workaround that integrates these feature causation structures.
 
 	- the algorithm would list the identifiable structures (components/attributes/objects/interaction functions/errors) in the data set
@@ -26,3 +36,7 @@
 		- another variant would be starting from the cross-section definition as the symmetry, & identifying various cross-sections that can act as symmetries & applying them as input data to identify the cross-sections that are most predictive of predictive feature structures or algorithm success
 
 	- applying interface components (like intent/structure/bases) is better than ML (which builds a function from an algorithm & function network that is tuned & designed & applied seemingly by accident) bc it starts from understanding of what is useful for solving the problem, rather than guessing based on a limited list of mental functions & structures (like neurons, activation status, weighted connections, & attention) that drew ML engineers' attention for being simple & known.
+
+	- this is also better bc it starts from the correct interaction layer (problem/solution on the meaning interface) where alternate solutions can be generated/applied and coordinated with other solutions & solution-generating queries for other problems.
+
+	- this is different from a math 'solver' program that just applies known math rules to solve a function with known associated solution rules, which is unaware of any concept of 'meaning' except the definition of 'equivalence' and does not integrate any concept of 'interfaces' like potential, cause, intent, concepts, logic, or information.
