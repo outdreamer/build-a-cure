@@ -4,6 +4,18 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
  
+  - how would you derive the function for the area of a circle:
+    - by observing attributes of circles, like their dimensions, such as width/height
+      - by applying adjacent transforms of these dimensions, like basic operations like multiplication/addition (half, power of 2)
+        - half * width = radius 
+          - radius ^ 2 = r^2
+            - area / r^2 = pi
+      - once you identify adjacent relationships (like area = pi * (1/2 * width)^2), check if these hold across other examples
+      - if the formula holds across other examples, meaning it:
+        - fulfills the 'probability of success' solution metric
+        - matches a useful structure like 'common interaction patterns', which in this case is the pattern between width & area
+      - it can be considered a likely candidate for a solution
+
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
     - this company is welcome to build their own app store with their own phones or team up with their coalition to do so
