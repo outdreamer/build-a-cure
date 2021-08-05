@@ -1,6 +1,6 @@
 # to do
 
-  - organize new_examples.md
+  - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
  
