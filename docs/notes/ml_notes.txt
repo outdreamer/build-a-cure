@@ -8,7 +8,7 @@
 - these methods have biases toward priorities that may help or hinder their intents
 	- cnn: prioritization of 'adjacent feature' structures (as inputs to 'larger features')
 	- gan: prioritization of 'template/type' structures (as inputs to 'detailed type examples' output)
-	- gpsa: de-prioritization of 'locality' priority
+	- gpsa: de-prioritization of 'locality' priority or 'position' structure
 
 	- these priorities are conceptual, and the implementation of structuring these priorities may or may not be correct for these intents
 		- the structure applied to the concept of 'locality' may or may not be applied in the right form when assigned to the position of 'features' in the structural problem space (compared to other structures like variable/interaction structures, functions in the function network, parameter output difference patterns, etc)
@@ -17,7 +17,12 @@
 			- the 'threshold' structure in parameter differences is also not being applied optimally, to generate understanding of parameter/algorithm/network/error interactions
 			- example: 
 				- answering questions like the following would indicate understanding of these interactions:
-					- 'does a particular parameter/algorithm/network combination generate activation patterns for normal data set that result in too many 'deactivated' nodes for the possible output of the network to capture the variance of the original output' (like a 'barrier of deactivated nodes')
+					- interaction: 
+						- 'does a particular parameter/algorithm/network combination generate activation patterns for normal data set that result in an error of "too many 'deactivated' nodes for the possible output of the network to capture the variance of the original output"' (like a structure such as a 'barrier of deactivated nodes preventing a proportion of feature value combinations from contributing to predictions')
+					- cause: 
+						- 'why does this error occur for this combination'
+							- 'parameters combine in this algorithm & network structure in a way that prevents relevant value combinations that are "just below configured & emerging thresholds" from succeeding at contributing to output'
+							- 'emerging thresholds & other emerging structures in the "process" object created by data/parameter/algorithm/network/error interaction structures are not accounted for in the input structures'
 
 - identifying the relevant interaction layer or base to act as the symmetry (foundation/type/template to apply variations to) and the variables/attributes that determine the variations from those bases is a workaround that integrates these feature causation structures.
 
