@@ -13,3 +13,12 @@
 	
 	- this is similar to 'starting in the middle interaction layer and radiating outwards', as opposed to starting from adjacent details or starting from core objects as foundations for change
 		- it integrates error types as an 'adversarial guide'
+
+		- this uses a cross-section of interaction layers rather than the raw objects/attributes clearly identifiable in the data set, so there is some derivation work to do before it can be applied
+
+		- another version of 'starting from the middle' would be a cross-section of interaction layer attributes, like:
+			- a component of the image + common attribute values for that component + a partial adjacent component
+			- pairs of components commonly found together across the image, regardless of adjacence
+			- variable & error structures commonly found with attribute values or value patterns
+
+		- this applies a different cross-section as a different interaction layer than the default interaction layers that could act as symmetries, such as a template/foundation/type, or the raw data set attributes, or the default object/attribute/function structures, or an interface layer, where these cross-sections are mixing interface components
