@@ -366,6 +366,10 @@
     - structure of a group/combination, like continuity such as a line or shape: a generalization/abstraction/variation of a point/value
       - the opposite structure would be a condensation/compression/specification, condensing a structure into a point
     - structure of an average: a standard value to base conversions on
+    - exponent: 'change of a change rate' (which is an output matching the 'self as an input to self operations' pattern, so as the 'self changes' the 'change rate changes')
+      - 'applying a change of x in x^2 to create change' is like the 'self applied as a change to the self (x^squared)' bc of the self-reference
+        - 'change in change rates' is different when the 'self' is injected as a multiplier (of itself), indicating that a 'self-reference' (indicated by an exponent) is a core conceptual unit of or input to 'change in change rate'
+    - operation outputs: change types they can produce, so change types producible with operation & value interactions can be predicted & the structures generating those change types can be generated on-demand (intent interface, where outputs are assumed to be possible intents of using a function)
 
 [0000] Example of an insight-fitting interface query for fulfilling the problem-solving intent of 'avoiding error types'
     - when a new discovery is made, apply insight paths formatted as questions like the following to identify error types before they occur
