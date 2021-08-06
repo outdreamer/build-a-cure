@@ -9,6 +9,7 @@
 	- cnn: prioritization of 'adjacent feature' structures (as inputs to 'larger features')
 	- gan: prioritization of 'template/type' structures (as inputs to 'detailed type examples' output)
 	- gpsa: de-prioritization of 'locality' priority or 'position' structure
+	- loss-minimizer using loss landscape: prioritization of 'perspective differentiated by difference from target' as a parameter-selection filter
 
 	- these priorities are conceptual, and the implementation of structuring these priorities may or may not be correct for these intents
 		- the structure applied to the concept of 'locality' may or may not be applied in the right form when assigned to the position of 'features' in the structural problem space (compared to other structures like variable/interaction structures, functions in the function network, parameter output difference patterns, etc)
@@ -49,3 +50,8 @@
 	- this is also better bc it starts from the correct interaction layer (problem/solution on the meaning interface) where alternate solutions can be generated/applied and coordinated with other solutions & solution-generating queries for other problems.
 
 	- this is different from a math 'solver' program that just applies known math rules to solve a function with known associated solution rules, which is unaware of any concept of 'meaning' except the definition of 'equivalence' and does not integrate any concept of 'interfaces' like potential, cause, intent, concepts, logic, or information.
+
+- identifying interface components are useful for selecting solutions
+	- example: the 'meaning' of this 'optimizer/pooling/regularization function set in these positions' is a 'sub-optimal performance for this intent' because 'the standardizing function removes this info which is required for determining this variable'
+	- statements about 'meaning' like this are possible once structures are mapped to 'intent' & 'cause' & other interface components
+	- these statements can be used as rules to identify value of & select structures for a context, like for a particular intent
