@@ -37,6 +37,12 @@
             - solution metrics like 'prediction success probability'
             - useful structures like 'common interaction pattern'
 
+  - related notes
+    - these adjacent distortions are similar to trigonometric identity coefficient ratios (2, 3, 4, 6)
+      2.71828183 / 4 = 0.679570458 (2/3)
+      3.14159265 / 4 = 0.785398163 (3/4)
+    - find out if other more adjacent coefficients (like 3 ^ 1/2) are related
+
   - add to math mapping: 
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
 
