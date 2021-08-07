@@ -75,6 +75,10 @@
               - what is the power/coefficient of r that you could use to create each quarter of the circle, other than pi/4 * r^2 - are there any other adjacent transforms of r to create this value without referencing pi directly but by an alternate route? its unlikely given that pi is the exact definition of this relationship, but there could be alternate paths that are good approximations
                 - meaning 'how does r^3 relate to the area of the circle', 'how does r^1/2 relate to the area of the circle', etc
 
+          - what is the distribution in difference between the changes you would need to make to r as you rotated it in order to generate the area of the square instead?
+            - sequence of r-values to generate the circle as you rotate r: r r r r r
+            - sequence of r-values to generate the square as you rotate r: r, r + 0.1, r + 0.2, etc
+
   - related questions & notes from applying known rules & adjacent transforms
 
     - these adjacent distortions are similar to trigonometric identity coefficient ratios (2, 3, 4, 6)
