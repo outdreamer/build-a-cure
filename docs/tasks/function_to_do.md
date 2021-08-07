@@ -23,6 +23,9 @@
             - solution metrics like 'prediction success probability'
             - useful structures like 'common interaction pattern'
 
+  - add to math mapping: 
+    - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
+
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
     - this company is welcome to build their own app store with their own phones or team up with their coalition to do so

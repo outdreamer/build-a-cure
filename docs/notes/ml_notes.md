@@ -25,12 +25,16 @@
 							- 'parameters combine in this algorithm & network structure in a way that prevents relevant value combinations that are "just below configured & emerging thresholds" from succeeding at contributing to output'
 							- 'emerging thresholds & other emerging structures in the "process" object created by data/parameter/algorithm/network/error interaction structures are not accounted for in the input structures'
 
-- identifying the relevant interaction layer or base to act as the symmetry (foundation/type/template to apply variations to) and the variables/attributes that determine the variations from those bases is a workaround that integrates these feature causation structures.
+- identifying the relevant interaction layer or base to act as the symmetry (foundation/type/template to apply variations to) and the variables/attributes that determine the variations from those bases is a workaround that integrates these feature causation structures
+
+	- insights can be used as symmetries or components of them bc theyre units of truth that capture attention, and applying changing to them (using them as a symmetry) will reveal how true they are, in the sense of stability/reliability/consistency
+
+	- causal concepts of useful structures in ml (like how 'difference' is a causal concept of 'attention') are another useful structure that these structures can be standardized to, beyond other metadata like priorities
 
 	- the algorithm would list the identifiable structures (components/attributes/objects/interaction functions/errors) in the data set
-	- then it would try to identify default relevant interface structures like types that form the basis of different clusters/subsets in the data set, applied to the structures (error types, component types, variable types), which are relevant for categorization problems (predicting category, generating category example)
-	- then it would try to identify variables that determine variations from those types
-	
+		- then it would try to identify default relevant interface structures like types that form the basis of different clusters/subsets in the data set, applied to the structures (error types, component types, variable types), which are relevant for categorization problems (predicting category, generating category example)
+		- then it would try to identify variables that determine variations from those types
+		
 	- this is similar to 'starting in the middle interaction layer and radiating outwards', as opposed to starting from adjacent details or starting from core objects as foundations for change
 		- it integrates error types as an 'adversarial guide'
 
