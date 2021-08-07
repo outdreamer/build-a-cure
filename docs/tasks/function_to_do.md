@@ -37,11 +37,47 @@
             - solution metrics like 'prediction success probability'
             - useful structures like 'common interaction pattern'
 
-  - related notes
+  - related questions & notes from applying known rules & adjacent transforms
+
     - these adjacent distortions are similar to trigonometric identity coefficient ratios (2, 3, 4, 6)
-      2.71828183 / 4 = 0.679570458 (2/3)
-      3.14159265 / 4 = 0.785398163 (3/4)
+        e = 2.71828183
+        pi = 3.14159265
+        e / 2 = 1.35914091
+        pi / 2 = 1.57079633
+        e / 3 = 0.906093943
+        pi / 3 = 1.04719755
+        e / 4 = 0.679570458 (2/3) - 4 is relevant to process above used in determining area of circle
+        pi / 4 = 0.785398163 (3/4) - 4 is relevant to process above used in determining area of circle
+      - sums are approximately 6, 2.9, 2.0, 1.45 ... 1
+      - at what point of increasing denominators do the sum of their ratios equal 1?
+
+      - this applies the intents:
+        - identify unit area (r^2)
+        - identify coefficient to connect unit area & adjacent circle area (square area formed by 4 * r^2)
+
+      - what intents are missing to connect 4 * r^2 to the area of a circle?
+        - identify difference types causing ratio of difference between 4 * r^2 and pi * r^2
+          - identify difference types between 4 and pi (integer/decimal data type, rational/transcendental number)
+            - examine question of producing integer like 4 by multiplying an irrational number like pi by another number 
+              - what kind of number would the other number have to be & is this possible using either of these data types or adjacent versions of them?
+          - once difference types are identified, identify functions to reduce those differences (one or more differences at a time) & apply them
+
+      - other adjacent transforms
+        2 ^ 1/2 = 1.41421356
+          1 / (2 ^ 1/2) = 0.707106782
+        e ^ 1/2 = 1.64872127
+          1 / (e ^ 1/2) = 0.60653066
+        3 ^ 1/2 = 1.73205081
+          1 / (3 ^ 1/2) = 0.577350268
+        pi ^ 1/2 = 1.77245385
+          1 / (pi ^ 1/2) = 0.564189584
+        1/e = 0.367879441
+        1/pi = 0.318309886
+        1/e + 1/pi (0.686189327) ~ e / 4 (0.679570458)
+    
     - find out if other more adjacent coefficients (like 3 ^ 1/2) are related
+    - why is the derivative of 1/2 * width^2 = 1 * width - is that relevant as a unit of area?
+    - find out how factorials are related to decreasing growth (in terms of calculating area)
 
   - add to math mapping: 
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
@@ -81,7 +117,7 @@
     - function to translate interface query logic into interface language (combination of core functions (find/build) & other core components)
     - function-usage-intent::output or demand::supply combination/merging/building/matching functions (alternatively formatted as a solution-finding query for a problem or lack-resource matching function) as an alternative solution to ads
     - decision points (required/optional resolution of variables to constants, as in selecting a variable value)
-      - identify when a method & data set can be determined to be capable of deriving the answer to a prediction function problem
+      - identify when a method & data set can be identifyd to be capable of deriving the answer to a prediction function problem
     - alternative intent coordination & compatability of metrics
       - calculating interactivity by coordinating/adjacent/convertible structures
 
@@ -126,7 +162,7 @@
     - consolidate repo, remove repeated content, merge similar functions
 
    - finish processes:
-      - finish interface analysis of physics to determine other useful components like efficiencies, incentives, trade-offs, closed systems
+      - finish interface analysis of physics to identify other useful components like efficiencies, incentives, trade-offs, closed systems
       - finish applying interface components (like abstract) to useful interface components
         - core interaction functions of core interaction functions
       - create interface queries of finding useful interface component filters
@@ -146,7 +182,7 @@
       - 'calculating the most different distortions that will reduce possible values the quickest & applying those distortions'
   
   - proof/determination structures
-      - what makes something possible to determine/calculate
+      - what makes something possible to identify/calculate
         - a solution structure where the solution metric is clearly defined (structural or having other structures of certainty like consistency or inevitability or requirement)
           - checking a path to see if it includes a node twice is clearly defined (it uses the structure of 'node visit counts' in the 'path' solution structure)
       - what makes something difficult to prove
@@ -162,7 +198,7 @@
       - general vertex variables: topic, origin/destination, reason/cause/point/intent, errors, variables, types
       - comedy vertex variables: sincerity, stupidity, stakes, tension-resolution/expectation-subverting pattern variation
       - music vertex variables: tone, tension-resolution/expectation-subverting pattern variation, lyrics
-      - optimization metric vertex variables: solution metric patterns (what other solutions optimize for, to determine optimization metrics to apply)
+      - optimization metric vertex variables: solution metric patterns (what other solutions optimize for, to identify optimization metrics to apply)
 
   - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
@@ -225,7 +261,7 @@
     - make list of variable structure variables measured by algorithms & why they are measured by a network algorithm
 
   - make diagram of absolute reference connections with metadata structures like networks/paths
-  - determine core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
+  - identify core graph variables (definition of adjacence/difference, connectivity, dimensions, info storage methods, interactivity of structures like sequences)
   - crypto as community consensus, where a decision can have value if backed by a community
 
     - examine connection between fractals, sequences, averages, origins, multipliers (self, as in power), & circles
@@ -359,7 +395,7 @@
     - add diagram for intent-matching
     - add structures to diagram: interface overflow (to sub-interfaces), interface foundation
     - diagram for workflow 1: 
-      - function to determine relevance filter ('functions', 'required') from a problem_step ('find incentives') for a problem definition, to modify problem_steps with extra functions/attributes ('change_position') to be more specific to the problem definition ('find_incentives_to_change_position') for problem_steps involving 'incentives', so you know to use the function_name to modify the problem step if it's between the type 'functions' and the object searched for 'incentives'
+      - function to identify relevance filter ('functions', 'required') from a problem_step ('find incentives') for a problem definition, to modify problem_steps with extra functions/attributes ('change_position') to be more specific to the problem definition ('find_incentives_to_change_position') for problem_steps involving 'incentives', so you know to use the function_name to modify the problem step if it's between the type 'functions' and the object searched for 'incentives'
     - add conceptual math interface query diagram
       - use lattice multiplication as standard example, other than core operations (add/multiply mapped to language, concepts like irreversibility/asymmetry mapped to math)
     - interface conversion, matching, starting point selection (applying structure, checking if relevant information is found)
@@ -395,7 +431,7 @@
     - import insight history data to identify insight paths (info insight paths like 'lie => joke => distortion => insight', system insight paths like 'three core functions + combine function with this definition + n distortions to nearest hub')
     - define default & core objects necessary for system to function (out of the box, rather than minimal config necessary to derive other system components & assemble)
       - add default functions to solve common problem types
-      - alternate utility function implementations have variation potential in the exact operations used to achieve the function intents, but there are requirements in which definitions these functions use because they are inherent to the system. For example, the embodiment may use a specific definition of an attribute (standardized to a set of filters) in order to build the attribute-identification function using a set of filters - but the general attribute definition is still partially determined in its initial version by requirements specified in the documentation, such as a set of core attribute types (input, output, function parameter, abstract, descriptive, identifying, differentiating, variable, constant), the definition of a function, and the definition of conversion functions between standard formats.
+      - alternate utility function implementations have variation potential in the exact operations used to achieve the function intents, but there are requirements in which definitions these functions use because they are inherent to the system. For example, the embodiment may use a specific definition of an attribute (standardized to a set of filters) in order to build the attribute-identification function using a set of filters - but the general attribute definition is still partially identifyd in its initial version by requirements specified in the documentation, such as a set of core attribute types (input, output, function parameter, abstract, descriptive, identifying, differentiating, variable, constant), the definition of a function, and the definition of conversion functions between standard formats.
     - document time structures (concave time explaining compounding similarities up to a point of maximum concavity, a structure that can separate from the other space-times)
     
     - systematize definitions of info objects, to include analysis that produces relationships of core objects like opposites to their relevant forms (anti-symmetry) in addition to permuted object states (asymmetry), such as an anti-strategy, anti-information, anti-pattern
