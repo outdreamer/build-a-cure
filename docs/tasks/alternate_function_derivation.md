@@ -102,9 +102,17 @@
         - connect adjacent versions of these structures
           - connect the units of these structures
             - connect adjacent units of these structures
-        - connect interim versions of these structures
+          - calculate difference in area added by a particular change type (difference in variability or value) to a standard shape and format the difference between that difference and the circle's area in terms of that change type
+          - apply differences to variables (connective angle, generative function, side count, side length) of the origin/target shape (square/circle) or adjacent shapes (line, triangle) and find the area of the different shapes, then connect the area to the original shape's area using a transformed version of the differences relevant to the area
+            - example: once you change the side count, how does that change the area calculation?
+        - connect interim versions of these structures (difference between circle/hexagon/triangle area vs. circle/square area, or triangle/square area)
+        - connect opposing versions of these structures
+          - like 'average an equidistant larger value & a smaller value' or an 'equidistant higher-dimensional (square) vs. lower-dimensional value (triangle)' once you know the difference in area between these values, compared to the circle's area
       - connect structures of differences between these structures
         - connect ratios of adjacent/interim versions of these structures
+    - connect components of these structures
+      - patterns of line length changes, as a line becomes more curved (like changes from x ^ 1 to x ^ 2)
+      - sequences of decreasing triangles/squares or other unit shapes can be used to calculate area of curved shapes
     - connect generative functions of these structures
       - generative functions of shift/rotate
       - generative sequences of area as convergence/sum values
