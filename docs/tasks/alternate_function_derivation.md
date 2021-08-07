@@ -103,8 +103,15 @@
         - by definition, the coefficient of the area unit for a circle's area will be greater than 3, bc 3 * r^2 fits inside the circle
       - identify remaining structure allowed by initial limits: 
         - the remaining factor explaining the difference in area will be a fraction, and a smaller one closer to zero than 1, bc the circle's area is nearer to 3r^2 than 4r^2
-      - apply 'equivalence' change to position the 'circle area' as the 'average' structure
-        - identify a structure more equidistant to the circle (compared to 3r^2) than the square is, to use as the next upper limit (octogon, hexagon) and find the area of that shape, then average with the area of 3r^2, which is likelier to be closer to the circle's area than the average of 4r^2 and 3r^2
+      - derive & apply changes so an adjacent operation like 'average' can be used to calculate the area
+        - what operation would allow an 'average' operation to determine the area, applied to which objects?
+          - two values have to be equidistant from a symmetry value in order for their average to result in that value
+          - we know the average value to generate, we dont have the values to generate it
+            - we do have some values different from the average value (circle area), such as the square area & 3r^2 area, but they arent equidistant
+            - determine equidistant values from either of these values (from 4r^2 or from 3r^2) and apply that as the other value to input to the average function to generate the circle
+              - determining equidistant values requires already knowing the difference between the circle area & 3r^2, so use an approximation, like a shape that is approximately as different from the circle as the 3r^2 shape area or other attribute is
+        - apply 'equivalence' change to position the 'circle area' as the 'average' structure, so that the 'average' operation can be applied to the extremes (hexagon area & 3r^2 area) to calculate the middle value (circle area)
+          - identify a structure more equidistant to the circle (compared to 3r^2) than the square is, to use as the next upper limit (octogon, hexagon) and find the area of that shape, then average with the area of 3r^2, which is likelier to be closer to the circle's area than the average of 4r^2 and 3r^2
 
   - summary of operations used to determine the relationship between square area & circle area (or between the area unit r^2 and the circle area)
     - connect difference types between these structures
