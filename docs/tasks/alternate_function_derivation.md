@@ -208,6 +208,12 @@
               - these sequences which converge (have decreasing changes) are likelier to be useful in generating an irrational number than a rational number
             - sequences can be structures of convergence/symmetry around a particular value, just like the average can, and can therefore be more useful than other comparably simple structures in determining a particular value as the output
 
+          - example of a structure (combination) of alternate structures (wave transforms created with rotations) applied to define another (rotation) structure with syncing intervals & intersections
+            - https://en.wikipedia.org/wiki/Euler%27s_formula#/media/File:Euler's_Formula_c.png
+            - 'structural similarity' in the 
+              - data types of the common similar structure of a 'rotation' operation applied to connect the input wave structures with the output 'unit circle' rotation (circle) structures
+              - intervals of change & intersections of the input defining & output defined structures
+
         - e/4 = 0.679570458
         - pi/4 = 0.785398163
         - (pi + e)/4 = 1.46496862
