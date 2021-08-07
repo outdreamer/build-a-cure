@@ -6,6 +6,7 @@
  
   - add to math mapping: 
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
+    - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
 
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
