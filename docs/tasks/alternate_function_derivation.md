@@ -96,22 +96,33 @@
               - 4 ^ 1/2 = 2, indicating the number of r^2 units that would be multiplied by the same number to generate the square of 4 r^2 forming a boundary outside of pi * r^2
               - 3 ^ 1/2 would be the lower limit to generate the inner square of 3 ^ 1/2 r^2 units multiplied by 3 ^ 1/2 r^2 units to generate the inner square
 
-    - apply 'requirement' filter structure
+    - apply 'requirement' filter structure to apply 'reduce' function to 'solution space'
       - define initial adjacent upper limit: 
         - by definition, the coefficient of the area unit for a circle's area will be less than 4, bc 4 * r^2 is the square bounding the circle that exceeds its area
       - define initial adjacent lower limit: 
         - by definition, the coefficient of the area unit for a circle's area will be greater than 3, bc 3 * r^2 fits inside the circle
       - identify remaining structure allowed by initial limits: 
         - the remaining factor explaining the difference in area will be a fraction, and a smaller one closer to zero than 1, bc the circle's area is nearer to 3r^2 than 4r^2
-      - derive & apply changes so an adjacent operation like 'average' can be used to calculate the area
-        - what operation would allow an 'average' operation to determine the area, applied to which objects?
-          - two values have to be equidistant from a symmetry value in order for their average to result in that value
-          - we know the average value to generate, we dont have the values to generate it
-            - we do have some values different from the average value (circle area), such as the square area & 3r^2 area, but they arent equidistant
-            - determine equidistant values from either of these values (from 4r^2 or from 3r^2) and apply that as the other value to input to the average function to generate the circle
-              - determining equidistant values requires already knowing the difference between the circle area & 3r^2, so use an approximation, like a shape that is approximately as different from the circle as the 3r^2 shape area or other attribute is
-        - apply 'equivalence' change to position the 'circle area' as the 'average' structure, so that the 'average' operation can be applied to the extremes (hexagon area & 3r^2 area) to calculate the middle value (circle area)
-          - identify a structure more equidistant to the circle (compared to 3r^2) than the square is, to use as the next upper limit (octogon, hexagon) and find the area of that shape, then average with the area of 3r^2, which is likelier to be closer to the circle's area than the average of 4r^2 and 3r^2
+      - derive & apply changes so an adjacent operation (like 'average') can be used to calculate the area
+        - apply 'average' operation to generate circle area
+          - what operation would allow an 'average' operation to determine the area, applied to which objects?
+            - two values have to be equidistant from a symmetry value in order for their average to result in that value
+            - we know the average value to generate, we dont have the values to generate it
+              - we do have some values different from the average value (circle area), such as the square area & 3r^2 area, but they arent equidistant
+              - determine equidistant values from either of these values (from 4r^2 or from 3r^2) and apply that as the other value to input to the average function to generate the circle
+                - determining equidistant values requires already knowing the difference between the circle area & 3r^2, so use an 'approximation' structure of 'equidistance', like a shape that is approximately as different from the circle as the 3r^2 shape area or other attribute is
+          - apply 'equivalence' change to position the 'circle area' as the 'average' structure, so that the 'average' operation can be applied to the extremes (hexagon area & 3r^2 area) to calculate the middle value (circle area)
+            - identify a structure more equidistant to the circle (compared to 3r^2) than the square is, to use as the next upper limit (octogon, hexagon) and find the area of that shape, then average with the area of 3r^2, which is likelier to be closer to the circle's area than the average of 4r^2 and 3r^2
+        - apply 'sequence' operation to generate area
+          - what sequence of fractions or powers reaches 0.14159265 or an approximation the quickest
+          - what sequence of decreasing triangle areas creates a curve most similar to the circle's curve in a quarter of the circle
+        - apply 'sum' operation to generate area
+        - apply a 'sum of a decreasing sequence' operation to generate area
+        - apply a change to the 'base' structure r to generate area from a different base structure
+        - apply a 'ratio' structure connecting 'differences' & 'difference types' to the area of a structure that is a particular difference & difference type from the circle area
+        - apply 'pattern' structures connecting variables/structures/operations like area/differences/rotation
+          - apply area change patterns to approximate the area of a circle
+        - find the combination of approximations that when averaged or adjacently transformed would be more similar to the actual circle area, given their neutralizing distortions
 
   - summary of operations used to determine the relationship between square area & circle area (or between the area unit r^2 and the circle area)
     - connect difference types between these structures
