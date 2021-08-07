@@ -44,6 +44,16 @@
             - solution metrics like 'prediction success probability'
             - useful structures like 'common interaction pattern'
 
+    - apply 'meaning' interface
+      - why do 'unit' values like 3, 4, 6 relate to other 'unit' values like pi & e and 'unit' operations like addition/multiplication/powers?
+        - bc of the definition of 'relevance' based on 'similarity' (meaning 'similar structures are often relevant/useful for determining important info'), as these are 'structural similarities'
+          - they are similar:
+            - to each other in value
+            - similar in value to primes
+            - similar in value to absolute unit values like 1
+            - similar in adjacent transformations from primes (1 is similar by multiplication, 6 is similar by addition & multiplication)
+            - the square of a value means 'multiply something by itself once' which is relevant to the concept of a prime (factor of itself & 1), where taking the power of 2 is 1 higher than taking the power of 1
+
   - related questions & notes from applying known rules & adjacent transforms
 
     - these adjacent distortions are similar to trigonometric identity coefficient ratios (2, 3, 4, 6)
