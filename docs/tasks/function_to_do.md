@@ -5,6 +5,15 @@
     - organize function implementations, to do list, examples, logic
  
   - how would you derive the function for the area of a circle:
+    - applying the known version of the area function for a standard shape
+      - r^2 is the unit formula of an area of a standard square shape
+      - identify differences between r^2 and the area of a circle with radius r
+        - multiply r^2 * 4 and subtract basic differences (like increasingly smaller fractions) until the area approaches the actual circle's area
+      - alternatively, find neutralizing structures to combine differences into differences that are more computable
+      - alternatively, compute a different difference and apply the resulting ratio of difference to the original difference
+        - rather than finding difference between square & circle, find differences between square & octogon
+        - given the ratio of difference between the square & octogon, identify the likely difference ratio between the octogon & the circle, or the square & the circle
+
     - by observing attributes of circles, like their dimensions, such as width/height
       - by applying adjacent transforms of these dimensions, like basic operations like multiplication/addition (half, power of 2)
         - half * width = radius 
@@ -16,6 +25,10 @@
         - matches a useful structure like 'common interaction patterns', which in this case is the pattern between width & area
       - it can be considered a likely candidate for a solution
 
+    - apply 'standard' interface to 'solution' structure
+      - apply a 'standard solution' structure 
+        - identify differences (errors) in target solution & applied standard solution output
+        - identify functions that could reduce these differences (errors)
     - apply 'attribute' interface
       - apply 'change' interface or apply 'adjacent change' useful structure
         - generate connection functions between input structures (objects/attributes/functions) by connecting transformed structures with the target variable ('area') predicted by the solution function
