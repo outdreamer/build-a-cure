@@ -46,14 +46,38 @@
         pi / 2 = 1.57079633
         e / 3 = 0.906093943
         pi / 3 = 1.04719755
-        e / 4 = 0.679570458 (2/3) - 4 is relevant to process above used in determining area of circle
-        pi / 4 = 0.785398163 (3/4) - 4 is relevant to process above used in determining area of circle
-      - sums are approximately 6, 2.9, 2.0, 1.45 ... 1
-      - at what point of increasing denominators do the sum of their ratios equal 1?
+        e / 4 = 0.679570458 (~2/3) - 4 is relevant to process above used in determining area of circle
+        pi / 4 = 0.785398163 (~3/4) - 4 is relevant to process above used in determining area of circle
+
+        e / 5 = 0.543656366
+        pi / 5 = 0.628318531
+
+        e / (e + pi) = 0.463880555
+        pi / (e + pi) = 0.536119445
+
+        e / 6 = 0.453046971 (~1/2)
+        pi / 6 = 0.523598776 (~1/2)
+
+      - sums are approximately 6, 2.9, 2.0, 1.45, 1.17, 0.97
+        - at what point of increasing denominators do the sum of their ratios equal 1?
+        - at denominator = 6, their sum is 0.976645747
+        - pi + e = 5.85987448
+        - if you use (pi + e) as the denominator, their sum equals 1
 
       - this applies the intents:
         - identify unit area (r^2)
-        - identify coefficient to connect unit area & adjacent circle area (square area formed by 4 * r^2)
+        - identify coefficient or constant to connect unit area & adjacent circle area (square area formed by 4 * r^2)
+          - 4 - pi = 0.858407346
+          - pi/4 = 0.785398163
+          - 4/pi = 1.27323954
+          - 4 ^ 1/2 / pi ^ 1/2 = 1.12837917
+            (4 ^ 1/2 / pi ^ 1/2) / 4 = 0.282094793
+            4 ^ 1/2 - pi ^ 1/2 = 0.22754615
+
+          - 4 - 3, pi - 3                          (difference from common number like 3, which standardizes one of the terms to 1)
+                1, 0.14159265
+                1/1, 1/0.14159265 = 7.06251329     (4 is 7.06251329 times as different from 3 as pi is different from 3)
+          - 
 
       - what intents are missing to connect 4 * r^2 to the area of a circle?
         - identify difference types causing ratio of difference between 4 * r^2 and pi * r^2
@@ -62,22 +86,27 @@
               - what kind of number would the other number have to be & is this possible using either of these data types or adjacent versions of them?
           - once difference types are identified, identify functions to reduce those differences (one or more differences at a time) & apply them
 
-      - other adjacent transforms
+      - other adjacent transforms with associated meaning
         2 ^ 1/2 = 1.41421356
-          1 / (2 ^ 1/2) = 0.707106782
+          1 / (2 ^ 1/2) = 0.707106782     (unit used to create 2, with the negative unit exponent of 2, meaning (x^-2) = 2 where x = 0.707106782)
         e ^ 1/2 = 1.64872127
-          1 / (e ^ 1/2) = 0.60653066
+          1 / (e ^ 1/2) = 0.60653066      (unit used to create e, with the negative unit exponent of 2)
         3 ^ 1/2 = 1.73205081
-          1 / (3 ^ 1/2) = 0.577350268
+          1 / (3 ^ 1/2) = 0.577350268     (unit used to create 3, with the negative unit exponent of 2)
         pi ^ 1/2 = 1.77245385
-          1 / (pi ^ 1/2) = 0.564189584
-        1/e = 0.367879441
-        1/pi = 0.318309886
-        1/e + 1/pi (0.686189327) ~ e / 4 (0.679570458)
+          1 / (pi ^ 1/2) = 0.564189584    (unit used to create pi, with the negative unit exponent of 2)
+
+        1/e = 0.367879441                 (unit negative power of e)
+        1/pi = 0.318309886                (unit negative power of pi)
+
+        - adjacent approximate connection
+          1/e + 1/pi (0.686189327) ~ e / 4 (0.679570458)
     
     - find out if other more adjacent coefficients (like 3 ^ 1/2) are related
     - why is the derivative of 1/2 * width^2 = 1 * width - is that relevant as a unit of area?
     - find out how factorials are related to decreasing growth (in terms of calculating area)
+    - is it significant that the numbers 1, 2, 3, 4, 6, 2^1/2, 3^1/2, pi, and e are similar in value? their ratios are near 1 because they were already similar in the first place, which is all their ratios' similarity to 1 means
+    - 
 
   - add to math mapping: 
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
