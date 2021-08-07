@@ -6,9 +6,9 @@
         - multiply r^2 * 4 and subtract basic differences (like increasingly smaller fractions) until the area approaches the actual circle's area
       - alternatively, find neutralizing structures to combine differences into differences that are more computable
       - alternatively, compute a different difference and apply the resulting ratio of difference to the original difference
-        - rather than finding difference between square & circle, find differences between square & octogon, or unit area (r^2) and the associated quarter of the circle's area (which is pi/4, but without knowing pi yet)
-        - given the ratio of difference between the square & octogon in relation to their difference types, identify the likely difference ratio between the octogon & the circle, or the square & the circle
-          - given the square area/octogon area ratio, in relation to the difference types (side count, angle count, distance from standard, distance from sub-structures like angles/corners, difference in operations & operator values like powers, composable component structures like triangles) between the square & octogon shapes, calculate the square/circle area ratio, or the octogon/circle area ratio, in relation to their difference types
+        - rather than finding difference between square & circle, find differences between square & hexagon, or unit area (r^2) and the associated quarter of the circle's area (which is pi/4, but without knowing pi yet)
+        - given the ratio of difference between the square & hexagon in relation to their difference types, identify the likely difference ratio between the hexagon & the circle, or the square & the circle
+          - given the square area/hexagon area ratio, in relation to the difference types (side count, angle count, distance from standard, distance from sub-structures like angles/corners, difference in operations & operator values like powers, composable component structures like triangles) between the square & hexagon shapes, calculate the square/circle area ratio, or the hexagon/circle area ratio, in relation to their difference types
         - apply a sequence that converges at pi (not known from the beginning, but by generating a sequence of terms that approach the circle's area, like the following, and finding a generative function to create that sequence in such a way that it converges to pi)
           - 4, 3, 3.5, 3.125, 3.15, 3.14, 3.1415
           - then connect the sequence's generating function to the area calculation by compressing the sequence's formula (to reduce steps from the first value in the sequence 4 to the final converged value pi)
@@ -77,7 +77,14 @@
 
           - what is the distribution in difference between the changes you would need to make to r as you rotated it in order to generate the area of the square instead?
             - sequence of r-values to generate the circle as you rotate r: r r r r r
-            - sequence of r-values to generate the square as you rotate r: r, r + 0.1, r + 0.2, etc
+            - sequence of r-values to generate the square as you rotate r: r, r + 0.1y, r + 0.2y, r + 0.3y, r + 0.2y, r + 0.1y
+
+          - what is the equivalent relationship between square/circle but applied to the circle/x (such as a triangle), and what is the difference in area between those shapes?
+            - add another variable to the 'rotate' operation in the form of 'variable r' or add another variable to the 'shift' operation like 'variable power' to generate the equivalent x-generating operation
+            - connect the triangle's area to r instead of connecting the circle's area to r (this is the same as calculating the ratio of difference/difference types between the hexagon/circle)
+              - calculating the area of a circle using triangles is adjacent given the trigonometric relationships connected to pi
+            - is the fact that the hexagon, square, and triangle all have more symmetries than the pentagon a relevant fact to explain why 3/4/6 are more relevant in calculating constants & circle metrics like e & pi than 5 is?
+              - why is 5 more relevant than 3 in some cases like finding primes (repeatability of factors between 3/6)
 
   - related questions & notes from applying known rules & adjacent transforms
 
