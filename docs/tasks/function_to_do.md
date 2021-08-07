@@ -12,8 +12,8 @@
       - alternatively, find neutralizing structures to combine differences into differences that are more computable
       - alternatively, compute a different difference and apply the resulting ratio of difference to the original difference
         - rather than finding difference between square & circle, find differences between square & octogon
-        - given the ratio of difference between the square & octogon, identify the likely difference ratio between the octogon & the circle, or the square & the circle
-
+        - given the ratio of difference between the square & octogon in relation to their difference types, identify the likely difference ratio between the octogon & the circle, or the square & the circle
+          - given the square area/octogon area ratio, in relation to the difference types (side count, angle count, distance from standard, distance from sub-structures like angles/corners, difference in operations & operator values like powers, composable component structures like triangles) between the square & octogon shapes, calculate the square/circle area ratio, or the octogon/circle area ratio, in relation to their difference types
     - by observing attributes of circles, like their dimensions, such as width/height
       - by applying adjacent transforms of these dimensions, like basic operations like multiplication/addition (half, power of 2)
         - half * width = radius 
@@ -21,14 +21,15 @@
             - area / r^2 = pi
       - once you identify adjacent relationships (like area = pi * (1/2 * width)^2), check if these hold across other examples
       - if the formula holds across other examples, meaning it:
-        - fulfills the 'probability of success' solution metric
-        - matches a useful structure like 'common interaction patterns', which in this case is the pattern between width & area
-      - it can be considered a likely candidate for a solution
+        - fulfills the 'probability of success' & 'accuracy/precision' solution metrics
+        - matches a useful structure like 'common or repeated interaction patterns', which in this case is the pattern between width & area
+      - it can be considered a likely candidate for a solution the more metrics it fulfills
 
     - apply 'standard' interface to 'solution' structure
       - apply a 'standard solution' structure 
         - identify differences (errors) in target solution & applied standard solution output
         - identify functions that could reduce these differences (errors)
+          - create interim structures that are more computable & calculate difference types & difference in area in relation to those interim structures, then apply the formula to derive the area difference from those difference types to the origin-target difference or interim-target difference
     - apply 'attribute' interface
       - apply 'change' interface or apply 'adjacent change' useful structure
         - generate connection functions between input structures (objects/attributes/functions) by connecting transformed structures with the target variable ('area') predicted by the solution function
