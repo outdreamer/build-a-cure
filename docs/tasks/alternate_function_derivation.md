@@ -173,8 +173,31 @@
       - sums are approximately 6, 2.9, 2.0, 1.45, 1.17, 0.97
         - solution metric question              (halting condition of increasing adjacent transforms of denominator)
           - at what point of increasing denominators do the sum of their ratios equal 1?
+        - 
         - at denominator = 6, their sum is 0.976645747
+
+        - pi / e = 1.15572735
+        - e / pi = 0.865255979
+        - pi * e = 8.53973422
+        - e ^ 1.14472989 = pi
+        - log pi = 0.497149873
+        - log e = 0.434294482
         - pi + e = 5.85987448
+        - pi - e = 0.423310825
+          - (pi + e) / 2 = 2.92993724
+          - (pi - e) / 3 = 0.141103608
+          - (pi + e) / 4 = 1.46496862
+          - (pi - e) / 5 = 0.084662165
+          - (pi + e) / 6 = 0.976645747
+          - (pi - e) / 7 = 0.060472975
+
+        - with pi and e, the average of their sum + a third of their difference ~ pi
+          (pi + e)/2 + (pi - e)/3      ~ pi
+          (pi + e)/4 + (pi - e)/5 * 2  ~ pi
+                      1.54963079  * 2  = 3.09926158
+          ((pi + e)/6 + (pi - e)) * 3  ~ pi
+                       1.03711872 * 3  = 3.11135616
+
         - e/4 = 0.679570458
         - pi/4 = 0.785398163
         - (pi + e)/4 = 1.46496862
