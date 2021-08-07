@@ -182,6 +182,7 @@
         - e ^ 1.14472989 = pi
         - log pi = 0.497149873
         - log e = 0.434294482
+        - 2 * pi = 6.28318530718
         - pi + e = 5.85987448
         - pi - e = 0.423310825
           - (pi + e) / 2 = 2.92993724
@@ -208,11 +209,20 @@
               - these sequences which converge (have decreasing changes) are likelier to be useful in generating an irrational number than a rational number
             - sequences can be structures of convergence/symmetry around a particular value, just like the average can, and can therefore be more useful than other comparably simple structures in determining a particular value as the output
 
-          - example of a structure (combination) of alternate structures (wave transforms created with rotations) applied to define another (rotation) structure with syncing intervals & intersections
+          - example of a structure (combination) of alternate structures (wave transforms created with rotations & shifts) applied to define another (rotation) structure with syncing intervals & intersections
             - https://en.wikipedia.org/wiki/Euler%27s_formula#/media/File:Euler's_Formula_c.png
-            - 'structural similarity' in the 
+            - 'structural similarity' in the:
               - data types of the common similar structure of a 'rotation' operation applied to connect the input wave structures with the output 'unit circle' rotation (circle) structures
               - intervals of change & intersections of the input defining & output defined structures
+              - symmetry reflecting the change types from the midpoint
+
+          - related sin/cos/tan functions are ratios of triangle sides needed to create unit circle of radius 1 at intervals related to adjacent transforms of pi/e using 2,3,4,6
+            - these ratios (or combinations of right angle triangles depicting these ratios) may be useful in determining area of circle by an alternate route
+              - curves can be created by decreasing shapes like fitted increasingly small/er triangles (fitted at one end of the triangle or in the middle), or decreasing sequences (decreasing by an exponent or other change type)
+              - the first unit of curvature requires very small structures to explain the difference
+              - the 'most curved shape' can be constructed with a sequence of decreasing structures starting from a larger size
+          - the circle is the 'most curved shape' possible between straight lines, so patterns of difference in curvature & related metrics like area are useful
+          - alternate ways of generating a circle include overlaps between asymptotic curves
 
         - e/4 = 0.679570458
         - pi/4 = 0.785398163
