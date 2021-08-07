@@ -78,13 +78,18 @@
           - what is the distribution in difference between the changes you would need to make to r as you rotated it in order to generate the area of the square instead?
             - sequence of r-values to generate the circle as you rotate r: r r r r r
             - sequence of r-values to generate the square as you rotate r: r, r + 0.1y, r + 0.2y, r + 0.3y, r + 0.2y, r + 0.1y
+            - alternate methods:
+              - find two opposing sequences on different sides of the circle and compute their average
+              - find sequences that when summed would equal the default r sequence
 
           - what is the equivalent relationship between square/circle but applied to the circle/x (such as a triangle), and what is the difference in area between those shapes?
             - add another variable to the 'rotate' operation in the form of 'variable r' or add another variable to the 'shift' operation like 'variable power' to generate the equivalent x-generating operation
             - connect the triangle's area to r instead of connecting the circle's area to r (this is the same as calculating the ratio of difference/difference types between the hexagon/circle)
               - calculating the area of a circle using triangles is adjacent given the trigonometric relationships connected to pi
-            - is the fact that the hexagon, square, and triangle all have more symmetries than the pentagon a relevant fact to explain why 3/4/6 are more relevant in calculating constants & circle metrics like e & pi than 5 is?
-              - why is 5 more relevant than 3 in some cases like finding primes (repeatability of factors between 3/6)
+            - is the fact that the hexagon & square have more symmetries (no clear up/down orientation indicating a difference between top/bottom of the shape) than the pentagon (and the triangle is the first possible unit 3-d shape) a relevant fact to explain why 3/4/6 are more relevant in calculating constants & circle metrics like e & pi than 5 is?
+              - why is 5 more relevant than 3 in some cases like finding primes (definition of commonness/repeatability of factors between 3/6)
+          - what sequence of unit structures like triangles would approach pi r^2 (or the quarter area, pi/4 r^2)?
+            - fractal triangles of some sequence would generate a quarter of the circle once an arc of the curve is established by another triangle
 
   - related questions & notes from applying known rules & adjacent transforms
 
