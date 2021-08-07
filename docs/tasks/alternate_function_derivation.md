@@ -1,0 +1,122 @@
+  - how would you derive the function for the area of a circle
+
+    - applying the known version of the area function for a standard shape
+      - r^2 is the unit formula of an area of a standard square shape
+      - identify differences between r^2 and the area of a circle with radius r
+        - multiply r^2 * 4 and subtract basic differences (like increasingly smaller fractions) until the area approaches the actual circle's area
+      - alternatively, find neutralizing structures to combine differences into differences that are more computable
+      - alternatively, compute a different difference and apply the resulting ratio of difference to the original difference
+        - rather than finding difference between square & circle, find differences between square & octogon, or unit area (r^2) and the associated quarter of the circle's area (which is pi/4, but without knowing pi yet)
+        - given the ratio of difference between the square & octogon in relation to their difference types, identify the likely difference ratio between the octogon & the circle, or the square & the circle
+          - given the square area/octogon area ratio, in relation to the difference types (side count, angle count, distance from standard, distance from sub-structures like angles/corners, difference in operations & operator values like powers, composable component structures like triangles) between the square & octogon shapes, calculate the square/circle area ratio, or the octogon/circle area ratio, in relation to their difference types
+        - apply a sequence that converges at pi (not known from the beginning, but by generating a sequence of terms that approach the circle's area, like the following, and finding a generative function to create that sequence in such a way that it converges to pi)
+          - 4, 3, 3.5, 3.125, 3.15, 3.14, 3.1415
+          - then connect the sequence's generating function to the area calculation by compressing the sequence's formula (to reduce steps from the first value in the sequence 4 to the final converged value pi)
+    
+    - by observing attributes of circles, like their dimensions, such as width/height
+      - by applying adjacent transforms of these dimensions, like basic operations like multiplication/addition (half, power of 2)
+        - half * width = radius 
+          - radius ^ 2 = r^2
+            - area / r^2 = pi
+      - once you identify adjacent relationships (like area = pi * (1/2 * width)^2), check if these hold across other examples
+      - if the formula holds across other examples, meaning it:
+        - fulfills the 'probability of success' & 'accuracy/precision' solution metrics
+        - matches a useful structure like 'common or repeated interaction patterns', which in this case is the pattern between width & area
+      - it can be considered a likely candidate for a solution the more metrics it fulfills
+
+    - apply 'standard' interface to 'solution' structure
+      - apply a 'standard solution' structure 
+        - identify differences (errors) in target solution & applied standard solution output
+        - identify functions that could reduce these differences (errors)
+          - create interim structures that are more computable & calculate difference types & difference in area in relation to those interim structures, then apply the formula to derive the area difference from those difference types  to the origin-target difference or interim-target difference
+            - apply ratios of difference types based on other calculated differences/difference types
+          - apply a sequence that gravitates around pi as a symmetry (value converged to by the sequence) that eventually arrives at a term that is equal to pi
+          - apply a sum of a sequence of decreasing values that when added eventually converge to pi
+          - what type of curve has an area that converges quickly to circle or circle-adjacent shape areas? (simple exponential, polynomial, log)
+            - what equivalences exist between the area patterns of a circle or circle-adjacent shapes, as opposed to the area patterns of other shapes
+            - what is another unit or lower-dimensional equivalent of the problem
+              - 'unit' structure applied to number of dimensions meaning 'calculating length of a curved vs. linear line' instead of 'change type' unit r^2
+
+    - apply 'attribute' interface
+      - apply 'change' interface or apply 'adjacent change' useful structure
+        - generate connection functions between input structures (objects/attributes/functions) by connecting transformed structures with the target variable ('area') predicted by the solution function
+          - filter generated connection functions ('pi * r^2') by which connection functions fulfill:
+            - solution metrics like 'prediction success probability'
+            - useful structures like 'common interaction pattern'
+
+  - related questions & notes from applying known rules & adjacent transforms
+
+    - these adjacent distortions are similar to trigonometric identity coefficient ratios (2, 3, 4, 6)
+        e = 2.71828183
+        pi = 3.14159265
+        e / 2 = 1.35914091
+        pi / 2 = 1.57079633
+        e / 3 = 0.906093943
+        pi / 3 = 1.04719755
+        e / 4 = 0.679570458 (~2/3) - 4 is relevant to process above used in determining area of circle
+        pi / 4 = 0.785398163 (~3/4) - 4 is relevant to process above used in determining area of circle
+        e / 5 = 0.543656366
+        pi / 5 = 0.628318531
+        e / (e + pi) = 0.463880555
+        pi / (e + pi) = 0.536119445
+        e / 6 = 0.453046971 (~1/2)
+        pi / 6 = 0.523598776 (~1/2)
+
+      - sums are approximately 6, 2.9, 2.0, 1.45, 1.17, 0.97
+        - solution metric question              (halting condition of increasing adjacent transforms of denominator)
+          - at what point of increasing denominators do the sum of their ratios equal 1?
+        - at denominator = 6, their sum is 0.976645747
+        - pi + e = 5.85987448
+        - e/4 = 0.679570458
+        - pi/4 = 0.785398163
+        - (pi + e)/4 = 1.46496862
+        - pi/(pi + e) = 0.536119445
+        - 4/(pi + e) = 0.682608478
+        - (4 - pi)^2 = 0.736863172
+        - (4 - pi) ^ 1/2 = 0.92650275
+        - (4 - pi) / 4 = 0.214601837            (difference in each area unit (r^2) from the corresponding 1/4 section of the circle)
+        - if you use (pi + e) as the denominator, their sum equals 1
+          - e + pi / e + pi = 1
+        - you can arrive at this by a roundabout method of applying adjacent transforms (like adding one to the denominator or adding relevant objects like pi & e), or by applying known operations like adding fractions
+        - relations between 53/46 occur a lot in these comparable adjacent transforms involving pi + e
+
+      - this applies the intents:
+        - identify unit area (r^2)
+        - identify coefficient or constant to connect unit area & adjacent circle area (square area formed by 4 * r^2)
+          - 4 - pi = 0.858407346
+          - pi/4 = 0.785398163
+          - 4/pi = 1.27323954
+          - 4 ^ 1/2 / pi ^ 1/2 = 1.12837917
+            (4 ^ 1/2 / pi ^ 1/2) / 4 = 0.282094793
+            4 ^ 1/2 - pi ^ 1/2 = 0.22754615
+          - 4 - 3, pi - 3                          (difference from common number like 3, which standardizes one of the terms to 1)
+                1, 0.14159265
+                1/1, 1/0.14159265 = 7.06251329     (4 is 7.06251329 times as different from 3 as pi is different from 3)
+
+      - what intents are missing to connect 4 * r^2 to the area of a circle?
+        - identify difference types causing ratio of difference between 4 * r^2 and pi * r^2
+          - identify difference types between 4 and pi (integer/decimal data type, rational/transcendental number)
+            - examine question of producing integer like 4 by multiplying an irrational number like pi by another number 
+              - what kind of number would the other number have to be & is this possible using either of these data types or adjacent versions of them?
+          - once difference types are identified, identify functions to reduce those differences (one or more differences at a time) & apply them
+
+      - other adjacent transforms with associated meaning
+        2 ^ 1/2 = 1.41421356
+          1 / (2 ^ 1/2) = 0.707106782     (unit used to create 2, with the negative unit exponent of 2, meaning (x^-2) = 2 where x = 0.707106782)
+        e ^ 1/2 = 1.64872127
+          1 / (e ^ 1/2) = 0.60653066      (unit used to create e, with the negative unit exponent of 2)
+        3 ^ 1/2 = 1.73205081
+          1 / (3 ^ 1/2) = 0.577350268     (unit used to create 3, with the negative unit exponent of 2)
+        pi ^ 1/2 = 1.77245385
+          1 / (pi ^ 1/2) = 0.564189584    (unit used to create pi, with the negative unit exponent of 2)
+
+        1/e = 0.367879441                 (unit negative power of e)
+        1/pi = 0.318309886                (unit negative power of pi)
+
+        - adjacent approximate connection
+          1/e + 1/pi (0.686189327) ~ e / 4 (0.679570458)
+    
+    - find out if other more adjacent coefficients (like 3 ^ 1/2) are related
+    - why is the derivative of 1/2 * width^2 = 1 * width - is that relevant as a unit of area?
+    - find out how factorials are related to decreasing growth (in terms of calculating area)
+    - is it significant that the numbers 1, 2, 3, 4, 6, 2^1/2, 3^1/2, pi, and e are similar in value? their ratios are near 1 because they were already similar in the first place, which is all their ratios' similarity to 1 means
