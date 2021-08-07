@@ -96,7 +96,17 @@
               - 4 ^ 1/2 = 2, indicating the number of r^2 units that would be multiplied by the same number to generate the square of 4 r^2 forming a boundary outside of pi * r^2
               - 3 ^ 1/2 would be the lower limit to generate the inner square of 3 ^ 1/2 r^2 units multiplied by 3 ^ 1/2 r^2 units to generate the inner square
 
-  - summary of operations used to determine the relationship between square area & circle area
+    - apply 'requirement' filter structure
+      - define initial adjacent upper limit: 
+        - by definition, the coefficient of the area unit for a circle's area will be less than 4, bc 4 * r^2 is the square bounding the circle that exceeds its area
+      - define initial adjacent lower limit: 
+        - by definition, the coefficient of the area unit for a circle's area will be greater than 3, bc 3 * r^2 fits inside the circle
+      - identify remaining structure allowed by initial limits: 
+        - the remaining factor explaining the difference in area will be a fraction, and a smaller one closer to zero than 1, bc the circle's area is nearer to 3r^2 than 4r^2
+      - apply 'equivalence' change to position the 'circle area' as the 'average' structure
+        - identify a structure more equidistant to the circle (compared to 3r^2) than the square is, to use as the next upper limit (octogon, hexagon) and find the area of that shape, then average with the area of 3r^2, which is likelier to be closer to the circle's area than the average of 4r^2 and 3r^2
+
+  - summary of operations used to determine the relationship between square area & circle area (or between the area unit r^2 and the circle area)
     - connect difference types between these structures
       - add variables to connect the structures
         - connect adjacent versions of these structures
