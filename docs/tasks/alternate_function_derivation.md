@@ -191,12 +191,22 @@
           - (pi + e) / 6 = 0.976645747
           - (pi - e) / 7 = 0.060472975
 
-        - with pi and e, the average of their sum + a third of their difference ~ pi
-          (pi + e)/2 + (pi - e)/3      ~ pi
-          (pi + e)/4 + (pi - e)/5 * 2  ~ pi
-                      1.54963079  * 2  = 3.09926158
-          ((pi + e)/6 + (pi - e)) * 3  ~ pi
-                       1.03711872 * 3  = 3.11135616
+        - with structures of pi and e combinations, the following sequence approaches a value near pi:
+          - ((pi + e)/x + (pi - e)/(x + 1)) * x/2
+          ((pi + e)/2 + (pi - e)/3) * 1  ~ pi
+                                         = 3.07104085
+          ((pi + e)/4 + (pi - e)/5) * 2  ~ pi
+                        1.54963079  * 2  = 3.09926158
+          ((pi + e)/6 + (pi - e)/7) * 3  ~ pi
+                         1.03711872 * 3  = 3.11135616
+          ((pi + e)/8 + (pi - e)/9) * 4  ~ pi
+                        0.779518846 * 4  = 3.11807538
+          ((pi + e)/10 + (pi - e)/11) * 5  ~ pi
+
+          - why is this useful? bc:
+            - sequences of adjacent transformations of irrational numbers are likelier to be components of or equal to an irrational number than they are an integer
+              - these sequences which converge (have decreasing changes) are likelier to be useful in generating an irrational number than a rational number
+            - sequences can be structures of convergence/symmetry around a particular value, just like the average can, and can therefore be more useful than other comparably simple structures in determining a particular value as the output
 
         - e/4 = 0.679570458
         - pi/4 = 0.785398163
