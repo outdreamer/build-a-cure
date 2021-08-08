@@ -1,0 +1,134 @@
+- Archemy search report comments
+
+	- 2019 0171438 A1 - Archemy, Inc
+				
+		- https://patents.google.com/patent/US20190171438A1/en
+				
+	- figures:
+
+		- 8 - 10, 12, 22, 27, 30, 47, 79
+
+			- the only similarity I see here is a general intent to retrieve solutions from a database (which forms the basis of their invention, but is a minor optional detail in mine) & the use of a few words like 'search' in common, which refer to 'known business problems & processes' in their system but refer to 'custom solution automation functions to solve those problems' in mine:
+
+				- differences in those business process/problem terms, vs. my custom problem-solving functions implementing a general solution of those problem-solving intents:
+
+					- in their invention, these terms refer to executing static logic to automate a few business processes that follow known rules
+					- in my invention, words like 'apply' and 'select' refer to custom functions with specific custom meanings in the context of custom structures defined in my invention like interfaces, problems/solutions & related objects that enables these objects to be connected in a way that automates problem-solving, not just automating a few business processes that follow known rules, which many systems do.
+
+					- these words (like apply, select, classify, match, learn, search, discover, create, update, deploy, reuse, operate, manage) refer to static processes in their invention that enables automation of business processes that follow known rules, but refer to custom functions with custom logic/meaning in my invention that enables general problem-solving automation
+
+						- 'apply' 
+							- in their invention this term means 'package the selected function with other functions & test'
+							- in my invention refers to a custom general logic interaction function to 'apply' a structure (like a function or solution) to another structure (like an attribute or problem)
+
+						- 'select'
+							- in their invention this term means 'the user selects the solution'
+							- in my invention refers to general logic interaction function that can implement multiple 'selection' processes like:
+								- 'selecting a function to fulfill the problem-solving intent of "selecting a solution" that fulfills the solution structure of "solution metrics"'
+								- 'selecting an interface query or solution automation workflow or core interaction function or origin/target problem solution formats to solve the problem'
+								- 'selecting solution metric filter structures to filter possible solutions'
+
+						- 'evolve'
+							- their definition of 'evolve' to improve their system & suggest updates uses machine learning & prior usage data patterns to connect input problems with solution outputs, rather than applying 'understanding' of 'why a solution works' (solution success cause)
+								- this means their system relies on users (such as the 'community ecosystem' they refer to), their usage patterns, the accuracy of their feedback, machine learning, the accuracy of their usage patterns in reflecting problem/solution connections, and the availability of data on usage patterns related to a problem, without which their system would fail
+							- in my invention, attributes such as the 'solution success cause' are attributes of the 'solution' object that indicates why a solution worked or didnt work, so that the system can identify similar causes in new problems submitted by users and match solutions using this understanding of similarity in 'solution success cause' (why a solution worked), and these attributes allow understanding-based improvements to solutions & suggested solutions, rather than relying solely on basic usage patterns & user-submitted feedback like user ratings, which many systems rely on
+
+						- 'adapt' in their system is a 'manual step' (as indicated in Fig 12), as are other processes like 'operate'
+
+						- 'discover' in their system means 'look up in a database'
+
+						- 'solution-implementation' process
+
+							- the 'implementation roadmap' is static and/or relies on user-submitted input of an 'implementation strategy' in their invention
+								- their 'implementation roadmap' is executed with 'available solutions', but if none are available, it fails to automate the 'suggest solutions' process, and manual intervention is required if no available solutions are found in their repository/database
+							
+							- in my invention, each problem may be handled differently by the system, which generates a custom solution-finding/generating query called an 'interface query' which may also be a solution automation workflow, or may apply a solution automation workflow if an existing workflow is suitable to solve the problem
+
+						- their terms are not standardized 
+							- 'update/evolve/adapt/learn/upgrade' are synonyms but here are used as if they are different
+							- 'search/discover/match' are synonyms in their system but are used as if they are different to imply a complexity that isnt there
+
+						- the other processes they refer to here like 'search' and 'classify' also follow known rules like 'apply a classification algorithm' or 'apply a search algorithm', which in all likelihood, hundreds of thousands of apps & hundreds of 'knowledge management & discovery platforms' do, using known tools like AI - rather than discovering, designing & building a custom problem-solving process for each input problem that enables knowledge derivation independent of machine learning, like my invention does.
+
+					- their method offers:
+						- incremental & specific updates to known business process automation, if a user's business process complies with their definition of the process & their logic to automate it
+						- a list of business processes & problems (apply, select, classify, search, etc) with associated static specific logic or manual processes to implement them
+							- in my system these are the names of some common user problem intents (they 'state the problem', as these are common problems), but names & associated static logic arent the only related objects to these processes & problems in my invention 
+								- in my invention these are general functions to solve these problems, which enable connecting other objects to fulfill problem-solving intents like:
+									- 'automatically find a solution'
+									- 'automatically reduce the solution space with filter structures'
+									- 'automatically build a solution out of solution components if there isnt one'
+									- 'automatically connect problem & solution formats'
+						- pattern detection & application (indicated in Fig 30), which is also offered by many other 'business process automation' and 'knowledge management' systems
+							- for comparison, rather than being the primary if not only strategy to solve a problem in their system, the 'pattern interface' is one of many primary interfaces on which a problem can be solved in my system, and includes the entire interface definition (including other interface components on the pattern interface, like pattern interaction logic, pattern types, pattern probabilities, pattern change types, etc), rather than a specific definition of logic 'applying a particular type of pattern to a particular type of process'
+						- a list of known software structures (Fig 46) like 'architectural patterns' and 'program libraries' and 'program generators'
+							- for comparison, my invention includes new methods of finding, generating & implementing solutions automatically, like 'find useful structures such as "function input-output sequences" to connect problem input & solution output formats' (and ways of generating these new methods)
+
+					- dependencies
+
+						- their method depends on:
+							- an inferior taxonomy that doesnt capture the highest variation objects & relies on repeated terms & user-submitted input
+								- their taxonomy is largely submitted by & therefore dependent on users & their communities of partners/experts
+								- their focus is specific to software/business and relies on the software/business interaction level (involving objects like software vulnerabilities/fixes/API usage examples/tests/libraries/functions, business applications/rules, software designs, & business products), rather than my invention which is broad enough to solve any problem type/structure (involving general objects like errors, structures, types, concepts, potential, logic, cause, change, etc), including math problems (my system can invent a new method to solve a known math problem, even if theres no existing solution or similar solution in the repository/database)
+								- they do have a concept of 'similarity/difference' built in to their system like any search system or categorization system or pattern identifying/analyzing system, but this concept is only applied in the context where a similar solution exists or can be generated, or if a similarity exists between a solution & objects in a problem/solution search, indicating a known pattern from the database is applicable
+									- this is one 'static specific workflow' of 'finding/generating a solution' (as I mentioned where they code static logic to implement their invention), rather than being a framework where solution automation workflows can be generated & applied on-demand
+									- they also did not invent the idea of 'identifying similarities between objects' or 'applying differences to an object' or this particular implementation of those ideas
+							- logs of user activities to derive usage patterns 
+								- this is similar to 'applying machine-learning' (which they did not invent) to 'user activity' data to suggest 'user activities' as a next step in a known business process with available user data
+								- another analogy is 'forming a network graph of user activities' (they did not invent network graphs either) using 'user activity' data, and then querying for the 'next step' in a known business process
+							- expert knowledge input to the system (including a team of librarians, partners, community managers, as well as experts)
+							- static functions like create/search/select/classify which depend on machine learning, statistics, & expert knowledge rules and which apply static logic that automates business processes that follow known rules
+
+						- my method depends on:
+							- a comprehensive definition set encompassing all the primary interfaces that differences occur on, where any problem can be solved on each interface with sufficient information, where the definitions dont require user feedback, as they are input configuration that enables the system to work independently of user-submitted info other than the problem statement
+							- inference logic that can derive knowledge independently of machine learning, statistics, and expert knowledge rules
+
+					- other differences
+
+						- key difference: this is just searching & indexing functions by metadata, which I invented in 2013
+
+						- from their abstract:
+							- "A method includes receiving a text description of a system capability request, and converting the text description into a normalized description of the system capability request"
+								- this is just 'standardizing language terms' which is a known common process like 'removing corrupt data from a data set', not an idea
+							- "A repository is then queried, based on the normalized description and using a search algorithm, to identify multiple candidate application software units (ASUs)"
+								- querying for functionality isnt new, I invented a function index for function searching many years ago
+							- "The candidate ASUs are displayed to a user for selection"
+								- this requires the user to do the work of 'selecting the solution', the system cannot do it for them
+							- "The user-selected ASU is then deployed, either locally or to at least one remote compute device, in response to receiving the user selection"
+								- deployment is a known common process, not an idea
+							- "Deployment can include the user-selected candidate ASU being integrated into a local or remote software package, thus defining a modified software package that is configured to provide the system capability."
+								- 'replacing a function with a user-selected function from function search results' doesn't automate problem-solving in any way or provide analysis capable of doing so at all
+
+						- their system is missing:
+							- a concept of 'user intent' as a relevant structure to identify the related problem-solving intents that need to be solved, bc they didnt identify the intent interface as an important primary interface like cause or logic or patterns
+							- a 'derivation' function to derive solutions without the use of known methods they did not invent (like applying user-submitted patterns, statistics, machine-learning, etc)
+								- my 'derive' function applies understanding in the form of useful structures like 'structural similarities', 'input-output sequences', 'information proxies', 'alternate routes to information', 'alternate definitions', 'alternate formats', & 'probabilities' to generate information where none is available
+							- a concept of the 'problem/solution' interface as being particularly relevant to automating problem-solving, as well as primary interfaces like potential, logic, structure, math, etc to select & apply dynamically as needed, where each interface is sufficient to solve a problem on with sufficient information & a complete interface definition
+							- structurization of the problem in a way that understanding (in the form of probability, definitions, patterns, rules, useful system structures, differences) can be found/derived/generated/applied as needed
+							- anyone can apply machine-learning to generate a software function from 'software' input data, their system doesnt add value beyond this because it's not built on understanding and it doesn't automate anything valuable that hasn't already been automated in other ways by other Business Process Automation & Knowledge Management Platforms with similar requirements for manual intervention
+
+						- they did not identify the following, which my invention adds:
+							- the possibility of multiple solution automation workflows (they apply one specific workflow that relies on user data like user activity patterns & tools like machine-learning) & the variables of solution automation workflows
+							- the possibility of 'connecting' problem/solution formats automatically (as well as identifying other problem/solution core interaction functions than 'connect' like 'reduce' or 'break' or 'neutralize') once they are structured in a way so that they can be compared & equated (standardized to an interface)
+							- the possibility of solving a problem on multiple alternative interfaces (my invention shows how to solve a problem on the concept interface, the structure interface, the pattern interface, etc)
+							- the concept of 'interfaces' as a useful tool for comparison of structures (analogous to the concept of a 'symmetry' in math serving as a base for change to develop, or a 'filter' structure that highlights relevant interactive information & excludes other information)
+							- the idea of automating logical analysis such as system analysis, with automated analysis functions like 'automatically identifying useful structures like contradictions, assumptions, & efficiencies' by 'importing rules into a system format like a variable/object/function graph where the definitions of these useful structures can be identified with a query'
+							- the concept of an 'interface query' navigating structures of interfaces
+							- the existence of useful structures that speed up problem-solving like 'alternate routes'
+							- my invention is independent of statistics/machine-learning/graph databases (though it may use these tools, if an interface query determines they are useful inputs to a solution) & offers an alternative to these as solution-derivation methods
+							- my invention includes analysis logic not found in other systems
+								- for example, interface analysis logic includes rules like:
+									- 'apply other interfaces to an interface to generate the complete interface definition', such as 'applying the cause interface to the pattern interface' to generate structures in the pattern interface definition, such as:
+										- 'causal pattern objects (as in objects that cause patterns)'
+										- 'patterns of cause'
+							- my invention is built on understanding & adapts built on that understanding - rather than guessing, hard-coded logic, or other people's inventions
+								- for example, my invention applies the insight that 'certainty structures can also be solution structures' bc of the insight that 'solutions built on facts are more robust', so it indexes 'certainty structures' as a useful structure to apply when finding/generating solutions, by my system indexes insights like this in the first place & has the tools to apply this insight bc it applies the 'structure interface' as needed, so that 'certainty structures' can be found & integrated with other structures
+
+
+	- paragraphs
+		- 130, 133, 148, 176, 183
+		- 209, 223, 228, 239, 263, 267
+		- 307, 310, 320, 331, 360, 393, 394-400
+		- 467, 482, 493, 494
+		- 513, 546, 552, 558, 559, 577
+		- 635, 657, 673

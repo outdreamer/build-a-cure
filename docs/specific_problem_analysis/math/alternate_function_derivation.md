@@ -224,6 +224,10 @@
           - the circle is the 'most curved shape' possible between straight lines, so patterns of difference in curvature & related metrics like area are useful
           - alternate ways of generating a circle include overlaps between asymptotic curves
 
+          - apply other relationship formulas to format circle function in terms of other values like e
+            - e^(i*pi) = -1
+          - find wave functions (as structures of convergence or repetition) that have pi/e as points (minima/maxima, inflection points, roots, centers, origins, symmetries) or other functions using them as parameters to connect r^2 and the area, or connect pi & other relevant terms like e, x^2, unit circle terms, powers, derivatives, factorials
+
         - e/4 = 0.679570458
         - pi/4 = 0.785398163
         - (pi + e)/4 = 1.46496862
