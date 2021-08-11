@@ -16,6 +16,7 @@
       - loss function (how a prediction error is determined)
     - network learning algorithm (how weights are updated, like backpropagation)
     - network learning algorithm parameters
+    - interface structures embedded in ml, either explicitly like 'feature subsets' or implicitly as emergent structures like 'merged feature structures'
     - general combination types of these network structures
       - supervised, unsupervised, reinforcement
 
@@ -38,6 +39,20 @@
         - applying the concept of 'adjacence' as a source of 'relevance' with intent to 'identify causation' may not make logical sense if the output of that operation is later 'randomized' in some way, so these operations would have to be reversed
           - example: if randomness in the form of 'noise' is added to the data set to augment it for robust training, and then 'adjacence' is added as a source of inputs to the 'identify causation' intent, that wouldnt create a 'logical contradiction' structure
           - the original sequence cant use logical structures to reach the target structure, indicating that a particular set of network structures isnt a useful combination
+      - a useful solution space-filtering structure is 'if it doesnt make sense with the laws of physics (connectible on the physics interface), its not a good idea'
+        - example: aligning 'attention' in the form of extra computation power with 'complexity' makes sense with the laws of physics, even if its not an optimal complexity-reduction method (such as reducing a complex structure on other interaction layers that compress features efficiently)
+
+    - the problem with incremental weight adjustments typically found in network learning states is that they might miss non-adjacent weight adjustments that would be useful
+      - an algorithm that looks like minima with incremental steps and encounters only costs in one particular direction, resulting in a deactivated node, would fail to identify a minima in some functions with more complexity
+        - this is why its important to generate maximally different bases of the possible solution space, and start with those as initial inputs
+        - in a network structure, this could be fixed by adding nodes where a deactivation occurs, optionally according to known 'deactivation followed by epiphany' patterns or up to a general threshold of added nodes, to avoid failing to explore a useful high-cost direction, that may not occur in the data set but may be possible given the problem space & variables
+        - its also useful to calculate possible stabilized solution & error structures in the problem space to:
+          - identify error types of failing to identify these stabilized solution structures
+          - design an algorithm that can find these stabilized structures efficiently in the data set, if they exist
+          - example: 
+            - generating all the possible sub-species (stabilized solution structures) given a set of required & probable features of the general species (as well as other important variables like costs the species sustains & their interactions with environment & other species), so that if a deactivation in one direction occurs but there is a sub-species possibility in that direction, the algorithm adds nodes/iterations as needed to pursue that possibility in the data set, and retains a nonzero weight or activation path in that direction just in case, even if no examples of it are found in the data set, once the direction of a particular sub-species is identified in the network structure
+
+    - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
