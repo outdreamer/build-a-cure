@@ -40,10 +40,15 @@
           - example: if randomness in the form of 'noise' is added to the data set to augment it for robust training, and then 'adjacence' is added as a source of inputs to the 'identify causation' intent, that wouldnt create a 'logical contradiction' structure
           - the original sequence cant use logical structures to reach the target structure, indicating that a particular set of network structures isnt a useful combination
       - a useful solution space-filtering structure is 'if it doesnt make sense with the laws of physics (connectible on the physics interface), its not a good idea'
-        - example: aligning 'attention' in the form of extra computation power with 'complexity' makes sense with the laws of physics, even if its not an optimal complexity-reduction method (such as reducing a complex structure on other interaction layers that compress features efficiently)
+        - example: 
+          - aligning 'attention' in the form of extra computation power with 'complexity' makes sense with the laws of physics, even if its not an optimal complexity-reduction method (such as reducing a complex structure on other interaction layers that compress features efficiently)
+          - if its more costly to create, its less likely to be true/real
+            - high-variance functions connecting exact data set points are less likely than a general function with fewer changes/terms
+            - functions of one variable with many terms of that variable are less likely than functions of one variable with few terms of that variable, just bc of the improbability of a variable having a causal relationship to another variable without any other variable interactions in isolation
+          - if x's causal variables arent correlated with y, a causal relationship between x and y is not established, bc of how the 'sequence' structure works
 
     - the problem with incremental weight adjustments typically found in network learning states is that they might miss non-adjacent weight adjustments that would be useful
-      - an algorithm that looks like minima with incremental steps and encounters only costs in one particular direction, resulting in a deactivated node, would fail to identify a minima in some functions with more complexity
+      - an algorithm that looks for minima with incremental steps and encounters only costs in one particular direction, resulting in a deactivated node or deactivated node set barrier, would fail to identify a minima in some functions with more complexity
         - this is why its important to generate maximally different bases of the possible solution space, and start with those as initial inputs
         - in a network structure, this could be fixed by adding nodes where a deactivation occurs, optionally according to known 'deactivation followed by epiphany' patterns or up to a general threshold of added nodes, to avoid failing to explore a useful high-cost direction, that may not occur in the data set but may be possible given the problem space & variables
         - its also useful to calculate possible stabilized solution & error structures in the problem space to:
