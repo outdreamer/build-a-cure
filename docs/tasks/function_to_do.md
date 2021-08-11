@@ -78,7 +78,8 @@
     - a function that can access usage info (the outputs of functions triggering it and the inputs of functions using its output) can identify before an error is encountered if it will produce an error for the functions using it
     - allocating awareness of context in the form of triggering function info based on a function's ability to identify & correct errors is useful at that interaction level
     - cross-interaction level interaction awareness is also useful in addition to intra-interface interaction context awareness, so an application can identify which functions that use it may encounter errors given their input/output structures
-    - this is useful in ml at the function & node-level, where a function/node can identify when error structure patterns are occurring in adjacent functions/nodes & modify its params like thresholds to account for that imminent error before it occurs
+    - this is useful in ml at the function & node-level, where a function/node can identify when error structure patterns (like 'deactivation barriers to valuable feature values' or 'incorrect feature structure to identify all possible solution structures') are occurring in adjacent functions/nodes & modify its params like thresholds to account for that imminent error before it occurs
+      - this adds error-correcting functionality to the network on certain interaction layers, which can create other error types if the error-corrections aggregate into an error, so network-level error-corrections can be built to handle this emerging error structure from lower layers
   
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
