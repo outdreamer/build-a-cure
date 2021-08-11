@@ -16,12 +16,13 @@
       - there are limits to what math can calculate, bc there are limits to the interaction space of number types
         - like how 'integers' and 'infinities' can interact bc you can have 'multiple infinities' and 'infinite integers' and so on, but not every number or number type/attribute can interact like this, in such a clearly defined (structural) way
         - for example, the 'root of negative infinity' is less structural than the 'root of infinity', and the 'root of infinity' is less structural than the 'unit of infinity', bc the less structural interactions require special definitions/limits creating spaces in which they can exist, rather than having structure in a high ratio of spaces
-      - can you extend the direction of reductions in structure in the interaction space to determine the limits of structure
-        - does it reach zero structure at its limit
-        - does it extend indefinitely by definition, bc of the lack of structure and a corresponding lack of limits enforcing structure to exist/develop
-        - at what point do the requirements of the 'special definition' prevent any structure from being defined?
-        - is the interaction space continuous (does it form a topology)
-      - some questions (lack of structure) cannot be resolved by any combination of structures bc some structures cant be connected with known rules (such as ambiguities that are more efficient/stable than any structure that can deconstruct them)
+      - relevant questions
+        - can you extend the direction of reductions in structure in the interaction space to determine the limits of structure
+          - does it reach zero structure at its limit
+          - does it extend indefinitely by definition, bc of the lack of structure and a corresponding lack of limits enforcing structure to exist/develop
+          - at what point do the requirements of the 'special definition' prevent any structure from being defined?
+          - is the interaction space continuous (does it form a topology)
+      - some questions (lack of structure) cannot be adjacently resolved by any combination of known structures (such as ambiguities that are more efficient/stable than any structure that can deconstruct them or any input/output structure)
         - is this an absolute limit or does it result from logical flaws, lack of info, or other errors
         - example: calculate interactions of infinite sequences (like in quantum field theories) with perfect accuracy in less than x time type
           - in order to calculate these interactions, the following would be necessary:
@@ -31,14 +32,26 @@
             - rules about interactions in a space that compresses to other relevant info about the sequences
               - meaning alternative compressions than the value/sequence attributes of generative functions, progressions or probability distributions
               - rules about other interface structures than the values or the values' attributes themselves, such as structures like:
-                - requirements/opposites
+                - requirements/opposites & other standard structures
                 - alternative equivalents
-                - approximations
+                - approximations/probabilities
                 - difference topologies (rather than infinite sequence value topologies)
                 - rules about the system where these sequences could exist rather than the values that exist in the system
                 - the structures (of differences & patterns & other useful structures) in the sequences/values that would be impossible, possible, adjacent to calculate, and adjacent functions to determine structures of calculation impossibilities/possibilities/adjacencies in the original topology
                   - finding the structures of sequence sums that would be adjacently calculatable creates a test that can filter out structures that are not adjacently calculatable, like finding local minima using gradient descent
-          - if there is an ambiguity that defies calculation (without checking every value), it means there is a certainty in its structure of uncertainty that can be relied on to calculate its attributes, if not its actual output values at a given input
+                    - this is an example of why other system structures than input/output sequences/networks are useful, such as the 'structural similarity' of 'gradient descent' and 'filters of structures of adjacent calculation potentials'
+          - if there is an ambiguity that defies calculation (without checking every value), it means there is a certainty in its structure of uncertainty (like an ambiguity between a 'random generative function' and an 'input structure that generates output that seems random') that can be relied on to calculate its attributes (like requirements/limits, such as 'equal distribution of outcomes as trials n increases'), if not its actual output values at a given input
+        - in terms of graphing these structures, a space where every variable can be reduced to a spectrum with opposites indicating a difference type would be able to visualize these structures
+          - a variable indicating additional operations added to a function, where each operation has an opposite, and each operation adds a change type, still doesnt have an inherent ordinal value indicating how far from the origin it should be, unless there's a clear association in increases in complexity/potential between change types added by each operation
+          - the definitions of 'ambiguity', 'inevitability', 'intent', 'output', and other structures may allow visualization in a mathematical space without using vectors or networks, if their definitions can be mapped with opposites & incremental increases in an attribute with an inherent ordinal ranking and a zero value having no structure
+            - ambiguity: 'lack of differences in alternatives (different options)'
+            - inevitability: 'lack of alternatives (different options)'
+            - requirement: 'exclusive trigger'
+            - output: 'subsequent causal node'
+          - if 'lack' can be mapped to the negative direction, the other structures can be mapped to structures of certainty (largely in the form of logical sequences & variables as useful axes)
+            - 'output' creates a certainty in the form of a sequence (as in a 'guaranteed product of the cause')
+            - 'requirement' is a 'certain input' if another structure occurs (a function is triggered), which is also a sequential structure
+            - 'ambiguity' is a lack of 'structure indicating difference between different objects', meaning the differences cant be mapped in the current space, indicating the structure of a sequence of a 'conversion' (like 'adding a variable') before the difference can be mapped, which makes sense bc it offset the 'lack of structure indicating difference' (a variable), and if change types (variables) are mapped in this space, this can be structured as a function converting the current or previous change type value to the required change type value
 
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
