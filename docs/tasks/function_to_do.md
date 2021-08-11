@@ -74,7 +74,13 @@
           - variables whose changes dont correlate with changes in the other variables, so they might as well be converted to a constant
           - variables whose changes/interactions can be compressed in a type variable, where the type variable is sufficiently predictive & variations within that type are irrelevant
 
-    - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
+  - generating a function set to fulfill an intent can encounter errors after generation time, so injecting 'self-awareness according to responsibility/ability' is a useful structure to apply at the function level
+    - a function that can access usage info (the outputs of functions triggering it and the inputs of functions using its output) can identify before an error is encountered if it will produce an error for the functions using it
+    - allocating awareness of context in the form of triggering function info based on a function's ability to identify & correct errors is useful at that interaction level
+    - cross-interaction level interaction awareness is also useful in addition to intra-interface interaction context awareness, so an application can identify which functions that use it may encounter errors given their input/output structures
+    - this is useful in ml at the function & node-level, where a function/node can identify when error structure patterns are occurring in adjacent functions/nodes & modify its params like thresholds to account for that imminent error before it occurs
+  
+  - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
