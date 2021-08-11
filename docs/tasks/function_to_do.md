@@ -56,6 +56,16 @@
           - design an algorithm that can find these stabilized structures efficiently in the data set, if they exist
           - example: 
             - generating all the possible sub-species (stabilized solution structures) given a set of required & probable features of the general species (as well as other important variables like costs the species sustains & their interactions with environment & other species), so that if a deactivation in one direction occurs but there is a sub-species possibility in that direction, the algorithm adds nodes/iterations as needed to pursue that possibility in the data set, and retains a nonzero weight or activation path in that direction just in case, even if no examples of it are found in the data set, once the direction of a particular sub-species is identified in the network structure
+      - the whole point of 'weights' is to 'highlight features that are useful'
+        - the corresponding error type for a learning method is:
+          - 'if a learning method of weight update cant update weights in the structure that matches the actual prediction function'
+        - other error types:
+          - 'if a useful feature structure like a combination cant be identified by the network structures like the network feature/weight processing functions, the weights cant reflect the right feature structure to use in the prediction function'
+            - its important to identify what feature structures a network structure set can identify & use
+            - you can also derive what feature structures would be useful to solve a particular problem
+              - example: 
+                - for the 'image-categorization' problem, derive that 'features of varying size/position' (leading to 'subset' feature structures) might be a useful feature structure to generate in the network & assign weights based on this feature structure
+                - for the general 'find a prediction function' problem, derive that 'function-subset functions, variable subset functions, base functions, or data point subset-functions' might be useful feature structures to allocate training computation to
 
     - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
