@@ -10,6 +10,11 @@
   - add to math mapping: 
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
     - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
+    - numbers as symmetries given the adjacent change types available to them, and math as the interaction space of these symmetries, where values that dont have structure can exist between the interactions of these symmetries but only while they can maintain a lack of structure & interaction
+      - math helps with calculatable problems
+      - there are limits to what math can calculate, bc there are limits to the interaction space of number types
+        - like how 'integers' and 'infinities' can interact bc you can have 'multiple infinities' and 'infinite integers' and so on, but not every number or number type/attribute can interact like this, in such a clearly defined (structural) way
+        - for example, the 'root of negative infinity' is less structural than the 'root of infinity', and the 'root of infinity' is less structural than the 'unit of infinity', bc the less structural interactions require special definitions/limits creating spaces in which they can exist, rather than having structure in a high ratio of spaces
 
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
