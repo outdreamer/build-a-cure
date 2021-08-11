@@ -5,8 +5,9 @@
     - organize function implementations, to do list, examples, logic
  
   - add to science
-    - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
-    - energy transfer from observer to observed allowing resolution of observed 'lack of structure' (as a variable) into a value
+    - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
+    - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
+
   - add to math mapping: 
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
     - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
@@ -15,6 +16,29 @@
       - there are limits to what math can calculate, bc there are limits to the interaction space of number types
         - like how 'integers' and 'infinities' can interact bc you can have 'multiple infinities' and 'infinite integers' and so on, but not every number or number type/attribute can interact like this, in such a clearly defined (structural) way
         - for example, the 'root of negative infinity' is less structural than the 'root of infinity', and the 'root of infinity' is less structural than the 'unit of infinity', bc the less structural interactions require special definitions/limits creating spaces in which they can exist, rather than having structure in a high ratio of spaces
+      - can you extend the direction of reductions in structure in the interaction space to determine the limits of structure
+        - does it reach zero structure at its limit
+        - does it extend indefinitely by definition, bc of the lack of structure and a corresponding lack of limits enforcing structure to exist/develop
+        - at what point do the requirements of the 'special definition' prevent any structure from being defined?
+        - is the interaction space continuous (does it form a topology)
+      - some questions (lack of structure) cannot be resolved by any combination of structures bc some structures cant be connected with known rules (such as ambiguities that are more efficient/stable than any structure that can deconstruct them)
+        - is this an absolute limit or does it result from logical flaws, lack of info, or other errors
+        - example: calculate interactions of infinite sequences (like in quantum field theories) with perfect accuracy in less than x time type
+          - in order to calculate these interactions, the following would be necessary:
+            - rules about sequence interactions (why one sequence is adjacent to another, if there is such a rule, and how they can be combined)
+            - info about the probability distribution or function that could generate the sequences
+            - rules about combining infinities, where each infinite sequence could be defined as an object in the space of infinities
+            - rules about interactions in a space that compresses to other relevant info about the sequences
+              - meaning alternative compressions than the value/sequence attributes of generative functions, progressions or probability distributions
+              - rules about other interface structures than the values or the values' attributes themselves, such as structures like:
+                - requirements/opposites
+                - alternative equivalents
+                - approximations
+                - difference topologies (rather than infinite sequence value topologies)
+                - rules about the system where these sequences could exist rather than the values that exist in the system
+                - the structures (of differences & patterns & other useful structures) in the sequences/values that would be impossible, possible, adjacent to calculate, and adjacent functions to determine structures of calculation impossibilities/possibilities/adjacencies in the original topology
+                  - finding the structures of sequence sums that would be adjacently calculatable creates a test that can filter out structures that are not adjacently calculatable, like finding local minima using gradient descent
+          - if there is an ambiguity that defies calculation (without checking every value), it means there is a certainty in its structure of uncertainty that can be relied on to calculate its attributes, if not its actual output values at a given input
 
   - example of applying interface components to solve problem of 'generating arguments to make a point'
     - change variable 'location of power':
