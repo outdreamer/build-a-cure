@@ -1,30 +1,20 @@
-search reports
+Search reports & response comments
+- This zip archive includes copies of the search reports for the international PCT application versions of domestic patent applications Solution Automation (16887411) international (PCT/US20/46705) and Interface Analysis (17016403) International (PCT/US20/50591).
+- It also includes my comments responding to these search reports.
 
 - solution automation search report, intl PCT/US20/46705
-
 	- date of international search report: 04/23/2021
-
 	- general comments
 		- 'apply AI to connect all inputs/outputs' is a method of 'connecting inputs/outputs', but it's absolutely not a novel method and it's certainly not equivalent to my invention, which offers an alternative to replace AI
-
 	- errors
-
 		- certain claims were found unsearchable
 			- dependent claims 7, 16, 25 were not drafted in accordance with rule 6.4a, second & third sentences
-
 	- relevant other inventions
-
 		- category X: documents considered to be relevant, invalidating novelty on its own
-
 			- 2019 0171438 A1 - Archemy, Inc
-				
 				- https://patents.google.com/patent/US20190171438A1/en
-				
 				- relevant sections of other invention
-
-					- figures: 
-						- 8 - 10, 12, 22, 27, 30, 47, 79
-
+					- figures: 8 - 10, 12, 22, 27, 30, 47, 79
 					- paragraphs: 
 						- 130, 133, 148, 176, 183
 						- 209, 223, 228, 239, 263, 267
@@ -32,35 +22,22 @@ search reports
 						- 467, 482, 493, 494
 						- 513, 546, 552, 558, 559, 577
 						- 635, 657, 673
-				
 	- relevant general 'state of the art'-defining inventions
-
 		- category A: documents defining general state of the art not considered to be relevant
-
 			- 2014 0195462 A1 - MuSigma Business Solutions
-				
 				- https://patents.google.com/patent/US20140195462A1/en
-				
-				- relevant sections of other invention
-					- entire document
-				
+				- relevant sections of other invention: entire document
 				- differences
 					- requires the user to do the work
-					- this is just a variable network
-
+					- this seems like it's mostly a variable network
 			- 2012 8200527 B1 - Thompson 
-				
 				- https://patents.google.com/patent/US8200527B1/en
-				
-				- relevant sections of other invention
-					- entire document
-				
+				- relevant sections of other invention: entire document
 				- differences
+					- this seems like a standard recommender system with many manual processes involving a standard question-answer pattern-identification & prioritized-ranking algorithm which is a common solution to the 'matching search query with results' problem
 
 - interface analysis search report, intl PCT/US20/50591
-
 	- date of international search report: 01/05/2021
-
 	- general comments
 		- nearly every program involves an equivalence check of some sort, where an explicit data type check or an implicit state/process check or other input metric
 			- 'having an equivalence check' that doesnt make it equivalent to my method of 'comparing any structure with any other structure after standardizing it to a custom primary interface which is a standardizing filter with a special meaning that indicates it can be used to solve any problem', but I understand why someone who isnt good at comparing things would have trouble identifying the difference between the two
@@ -69,31 +46,15 @@ search reports
 			- apply known existing functions to process data, for example to create summaries of data with a 'summarize' function or identify topics/entities in data with an 'identify entities' or 'identify topics' function
 			- apply input-output function sequences of known existing functions, which can be replaced with a sql select statement & an iteration of the results to create a nested list connecting inputs/outputs
 		- my invention provides a method to automate problem-solving by applying solution structures like interface queries, which use interfaces ('standardizing filters that make comparison of inputs trivial', so that problem/solution structures can be compared & connected)
-
-	- errors
-
 	- relevant other inventions
-
 		- category Y: documents considered to be relevant, invalidating novelty when combined
-
-			- US 2007/0156748 A1 - Emam IBM
-
+			- US 2007/0156748 A1 - Emam, IBM
 				- https://patents.google.com/patent/US20070156748A1
-
-				- paragraphs
-					- 48, 93 - 99, 138 - 141, 144, 145, 147
-
+				- paragraphs: 48, 93 - 99, 138 - 141, 144, 145, 147
 			- US 2015/0106156 A1 - Adobe Systems Incorporated
-
 				- https://patents.google.com/patent/US20150106156A1
-
-				- paragraphs
-					- 68, 73, 81, 82, 85, 86, 88 - 90, 107
-
+				- paragraphs: 68, 73, 81, 82, 85, 86, 88 - 90, 107
 			- US 2011/0093452 A1 - Jain, Oath
-				
 				- https://patents.google.com/patent/US20110093452A1
-				
-				- paragraphs
-					- 22, 23, 30, 32, 33, 36, 50 - 54
+				- paragraphs: 22, 23, 30, 32, 33, 36, 50 - 54
 				
