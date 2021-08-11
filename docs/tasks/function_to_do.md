@@ -6,7 +6,6 @@
  
 
   - main variables of ml:
-
     - data
     - data pre-processing & standardizations applied
     - data format
@@ -32,6 +31,13 @@
         - the network constants, learning algorithm, & other network structures allow other errors/info to be derived/identified/created
       - these structures combined may interact in a way that allows progress toward the optimization metric, or neutralizes/contradicts progress
     
+    - applying interface analysis to network structures
+      - the interface structures of a set of network structures may not align
+        - for example, a set of network structures standardized to the logic interface may not allow logical connections between the structures once converted
+          - including logical structures like assumptions, connections, conclusions, contradictions
+        - applying the concept of 'adjacence' as a source of 'relevance' with intent to 'identify causation' may not make logical sense if the output of that operation is later 'randomized' in some way, so these operations would have to be reversed
+          - example: if randomness in the form of 'noise' is added to the data set to augment it for robust training, and then 'adjacence' is added as a source of inputs to the 'identify causation' intent, that wouldnt create a 'logical contradiction' structure
+          - the original sequence cant use logical structures to reach the target structure, indicating that a particular set of network structures isnt a useful combination
 
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
