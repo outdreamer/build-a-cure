@@ -48,6 +48,7 @@
           - if x's causal variables arent correlated with y, a causal relationship between x and y is not established, bc of how the 'sequence' structure works
 
     - the problem with incremental weight adjustments typically found in network learning states is that they might miss non-adjacent weight adjustments that would be useful
+
       - an algorithm that looks for minima with incremental steps and encounters only costs in one particular direction, resulting in a deactivated node or deactivated node set barrier, would fail to identify a minima in some functions with more complexity
         - this is why its important to generate maximally different bases of the possible solution space, and start with those as initial inputs
         - in a network structure, this could be fixed by adding nodes where a deactivation occurs, optionally according to known 'deactivation followed by epiphany' patterns or up to a general threshold of added nodes, to avoid failing to explore a useful high-cost direction, that may not occur in the data set but may be possible given the problem space & variables
@@ -56,16 +57,22 @@
           - design an algorithm that can find these stabilized structures efficiently in the data set, if they exist
           - example: 
             - generating all the possible sub-species (stabilized solution structures) given a set of required & probable features of the general species (as well as other important variables like costs the species sustains & their interactions with environment & other species), so that if a deactivation in one direction occurs but there is a sub-species possibility in that direction, the algorithm adds nodes/iterations as needed to pursue that possibility in the data set, and retains a nonzero weight or activation path in that direction just in case, even if no examples of it are found in the data set, once the direction of a particular sub-species is identified in the network structure
-      - the whole point of 'weights' is to 'highlight features that are useful'
+
+      - the whole point of 'weights' is to 'highlight features that are useful' (after identifying & removing irrelevant variables like 'orientation' in the 'image-categorization' problem)
         - the corresponding error type for a learning method is:
           - 'if a learning method of weight update cant update weights in the structure that matches the actual prediction function'
         - other error types:
           - 'if a useful feature structure like a combination cant be identified by the network structures like the network feature/weight processing functions, the weights cant reflect the right feature structure to use in the prediction function'
             - its important to identify what feature structures a network structure set can identify & use
-            - you can also derive what feature structures would be useful to solve a particular problem
+            - you can also derive what feature structures would be useful to solve a particular problem & start with those as an initial structure when generating/identifying an algorithm to create those useful feature structures
               - example: 
                 - for the 'image-categorization' problem, derive that 'features of varying size/position' (leading to 'subset' feature structures) might be a useful feature structure to generate in the network & assign weights based on this feature structure
                 - for the general 'find a prediction function' problem, derive that 'function-subset functions, variable subset functions, base functions, or data point subset-functions' might be useful feature structures to allocate training computation to
+
+      - identifying irrelevant variables for a problem type
+        - variable structures & interactions likely to indicate an irrelevant variable
+          - variables whose changes dont correlate with changes in the other variables, so they might as well be converted to a constant
+          - variables whose changes/interactions can be compressed in a type variable, where the type variable is sufficiently predictive & variations within that type are irrelevant
 
     - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
