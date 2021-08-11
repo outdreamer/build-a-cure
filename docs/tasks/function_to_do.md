@@ -4,6 +4,35 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
  
+
+  - main variables of ml:
+
+    - data
+    - data pre-processing & standardizations applied
+    - data format
+    - data processing functions in network
+    - network constants
+      - node count, node layer types, node layer type count
+      - activation function & thresholds
+      - loss function (how a prediction error is determined)
+    - network learning algorithm (how weights are updated, like backpropagation)
+    - network learning algorithm parameters
+    - general combination types of these network structures
+      - supervised, unsupervised, reinforcement
+
+    - out of all the interface structures, a given network structure set can identify a subset of them better than other algorithms
+      - difference types, interaction types, function types
+
+    - given the variance & interactions in the data set, only so much info can be derived from it
+      - additional restrictions are added by other network structures, like the algorithm
+        - meaning a subset of the 'possible info derivable from a data set' is derivable with a particular algorithm
+        - in addition to this subset:
+          - a set of errors can be created and added to the 'derived info' as legitimate info by the network structures
+          - a set of errors can be identified by the network structures
+        - the network constants, learning algorithm, & other network structures allow other errors/info to be derived/identified/created
+      - these structures combined may interact in a way that allows progress toward the optimization metric, or neutralizes/contradicts progress
+    
+
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
