@@ -87,9 +87,26 @@
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
 
   - add to math mapping: 
-    - information is a form of certainty that has energy from various sources, like interactivity/similarity/efficiency/requirement/composability
+
+    - information is a form of certainty that has energy from various sources
+
+      - energy sources include:
+      
+        - interactivity
+          - if a structure is more interactive with other structures, its likelier to be required and can get energy from those other structures, although its also likely to produce energy if its highly interactive and may be self-sustaining
+        - similarity
+          - similar change types are likelier to be found near similar change types 
+            - one of the reasons for continuity in a function with curvature
+        - efficiency
+          - if a structures has more useful attributes (like -1, 0, 1, 2, and 10), meaning it 'stores more information' than other structures with the same type of structure (differing just on 'position'), it is likelier to appear in more interaction rules (have higher interactivity)
+        - requirement
+          - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
+        - composability (unit that interacts with other units)
+          - units interact with every other structure in an interaction space & with other units in the unit (type) space
+
       - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
         - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
+    
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
     - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
     - numbers as symmetries given the adjacent change types available to them, and math as the interaction space of these symmetries, where values that dont have structure can exist between the interactions of these symmetries but only while they can maintain a lack of structure & interaction
