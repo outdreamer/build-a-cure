@@ -103,9 +103,14 @@
           - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
         - composability (unit that interacts with other units)
           - units interact with every other structure in an interaction space & with other units in the unit (type) space
+        - standards
+          - interaction with y = 0 provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
 
       - other structures are structures of energy distribution
         - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
+
+      - example of combination structures that form other useful structures
+        - an interactivity combined with orthogonal (applying 'maximal differences' as a source of independence) symmetries form the basis of default useful structures like 'rotation' functions (by connecting endpoints of the symmetries)
 
       - some structures make these energy sources useful for other intents requiring numerical structures, like:
         - ambiguities providing a source of obscurity/protection
