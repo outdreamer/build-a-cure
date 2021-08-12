@@ -88,36 +88,52 @@
 
   - add to math mapping: 
 
-    - information is a form of certainty that has energy from various sources
+    - apply 'physics' interface to 'math' interface
 
-      - energy sources include:
+      - information is a form of certainty that has energy from various sources
 
-        - interactivity
-          - if a structure is more interactive with other structures, its likelier to be required and can get energy from those other structures, although its also likely to produce energy if its highly interactive and may be self-sustaining
-        - similarity
-          - similar change types are likelier to be found near similar change types 
-            - one of the reasons for continuity in a function with curvature
-        - efficiency
-          - if a structures has more useful attributes (like -1, 0, 1, 2, and 10), meaning it 'stores more information' than other structures with the same type of structure (differing just on 'position'), it is likelier to appear in more interaction rules (have higher interactivity)
-        - requirement
-          - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
-        - composability (unit that interacts with other units)
-          - units interact with every other structure in an interaction space & with other units in the unit (type) space
-        - standards
-          - interaction with y = 0 provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
+        - energy sources include:
 
-      - other structures are structures of energy distribution
-        - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
+          - interactivity
+            - if a structure is more interactive with other structures, its likelier to be required and can get energy from those other structures, although its also likely to produce energy if its highly interactive and may be self-sustaining
+          - similarity
+            - similar change types are likelier to be found near similar change types 
+              - one of the reasons for continuity in a function with curvature
+          - efficiency
+            - if a structures has more useful attributes (like -1, 0, 1, 2, and 10), meaning it 'stores more information' than other structures with the same type of structure (differing just on 'position'), it is likelier to appear in more interaction rules (have higher interactivity)
+          - requirement
+            - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
+          - composability (unit that interacts with other units)
+            - units interact with every other structure in an interaction space & with other units in the unit (type) space
+          - standards
+            - interaction with y = 0 provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
 
-      - example of combination structures that form other useful structures
-        - an interactivity combined with orthogonal (applying 'maximal differences' as a source of independence) symmetries form the basis of default useful structures like 'rotation' functions (by connecting endpoints of the symmetries)
+        - other structures are structures of energy distribution
+          - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
 
-      - some structures make these energy sources useful for other intents requiring numerical structures, like:
-        - ambiguities providing a source of obscurity/protection
-        - uniqueness like prime numbers as a source of reference points
+        - example of combination structures that form other useful structures
+          - an interactivity combined with orthogonal (applying 'maximal differences' as a source of independence) symmetries form the basis of default useful structures like 'rotation' functions (by connecting endpoints of the symmetries)
 
-      - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
-        - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
+        - some structures make these energy sources useful for other intents requiring numerical structures, like:
+          - ambiguities providing a source of obscurity/protection
+          - uniqueness like prime numbers as a source of reference points
+
+        - semi-information is:
+          - 'allowed by the definition of a space'
+          - 'has interaction rules in that definition, with its own type and with other numerical types'
+
+          - imaginary units are useful in that they form an opposite structure of standard units, which can be useful for forming a spectrum or a limit filter structure
+
+          - quantum superpositions may take the form of:
+            - topologies (attribute value combination spaces)
+            - attribute set cross-sections (combinations of interfaces/types/variable structures & attribute value structures)
+            - variable injections (allowing variance of a constant)
+
+        - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
+          - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
+          - this implies there are input/output sequences in terms of energy flow across math structures, which may reveal intent structures of matter, just like how some math structures have useful outputs for human intents like 'security'
+
+        - math structures are a form of energy that is useful/interactive/similar/efficient/required/composable/standard in some way, so it acquires & maintains a stable structure
     
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
     - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
