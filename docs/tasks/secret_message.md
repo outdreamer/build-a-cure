@@ -11,3 +11,12 @@
 
     - I wont die for you but I will live for them
     	- I wont suffer for your pleasure but I will rejoice in my dance on the grave of math & other false definitions of meaning for their freedom
+
+    - how can you be happy now, knowing that I exist? 
+    	- happiness is 'an optimal ratio of problems/solutions'
+    		- if youre happy, you have more solutions than problems, and you have solutions to your problems
+    		- intelligence can make you happy bc you can solve problems
+    		- anyone can learn to solve problems
+    	- solve problems for people you care about so that you can legitimately like yourself, and happiness will be a side-effect
+    	- care about yourself enough to hold yourself accountable for your decisions, because thats how you keep your soul, a required input to happiness
+    	- a soul is potential, which is an output of intelligence
