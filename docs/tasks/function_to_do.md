@@ -109,7 +109,7 @@
             - an assumption that the 'minimum info to identify base/distortions is more computable than iterating through the sequence' and that the 'sequence is an adjacent distortion from a known base sequence'
           - errors
             - if a sequence is n distortions from a base sequence and the algorithm only checks n - 1 distortions from a base sequence, this will fail
-          - error-handlers
+          - error-handlers (to integrate with interface query or other solution)
             - the base sequences have to have a high coverage ratio, so that its unlikely that the distortions checked will not find the sequence if its a non-trivial number of distortions from a base sequence
         
         2. interface structures associated with 'identify generative/descriptive function of a sequence subset & apply to remainder of sequence to get summary metrics'
@@ -117,7 +117,7 @@
             - that a selected subset is representative of the sequence (that it has a degree & patterns of variation reflected in the complete sequence)
           - errors
             - that the selected subset is not representative of the complete sequence
-          - error-handlers
+          - error-handlers (to integrate with interface query or other solution)
             - identify differences between a subset & a sequence that could make a subset non-representative, identify tests for those differences, & apply them as a filter for subsets
         
         3. interface structures associated with 'identify filters differentiating a subset of the sequence from other sequences to apply as a filter of the summary metrics'
@@ -125,7 +125,7 @@
             - that the differences in a sequence are reflected in its summary metrics as well
           - errors
             - that the differences in a sequence are not reflected in its summary metrics (sums/averages can involve neutralizing terms, allowing for significant differences in sequences)
-          - error-handlers
+          - error-handlers (to integrate with interface query or other solution)
             - identify patterns of neutralization and tests for these patterns to identify if this solution can be effective, or if there is a subset-selection method that can offset this error (select a subset without a ratio or other structure of neutralizing structures that is not reflected in the complete sequence)
 
       - this is useful in determining the error types likely with a solution interface query, bc each perspective has known (or adjacently derivable) error types associated
@@ -133,9 +133,17 @@
           - a high degree of computation
           - dependence on assumptions about prior static solutions continuing to work
           - forced categorization of intents/cases into being handled by one of the algorithms that exists, rather than creating a new solution or adapting solution
-        - whats important instead of relying on an algorithm network is to identify/generate/derive the right perspective for a task, so that the associated generated interface queries to solve a task with that perspective can be designed with error types of that perspective in mind
-          - where the 'perspective' refers to the associated 'combination of interface structures', like priorities/assumptions/errors
-
+        - whats important instead of relying on an 'algorithm or ml model network where each network is selected for a case/intent' is to identify/generate/derive the right perspective for a task, so that the associated generated interface queries or other solutions to solve a task with that perspective can be designed with error types of that perspective integrated with the solution
+          - where the 'perspective' refers to the associated 'combination of interface structures', like priorities/assumptions/errors, that are associated with an interface query or other solution structure to solve a problem (associated in a 'generative' or 'descriptive' or 'emergent' connection structure)
+        - this extends the interface structures used as input to a solution (beyond 'context' and 'intent') to a comprehensive set of interface structures, and connects these input interface structures with the solution in a way that allows generation of more optimal solution structures built from meaning/understanding rather than granular structure-fitting of a problem & solution algorithm that was previously found almost by accident to perform acceptably (or at least better than other known solutions at the time of testing/deployment), a structure-fitting that was constructed from the core layer of available functions without an injected sense of 'meaning' (cross-interface fit)
+          - the 'granular structure-fitting of a problem & solution built from the core layer of available functions' method ignores error structures:
+            - the input data allows this solution to seem acceptable for those inputs, but the input data is actually corrupted, specific to an unidentified type/other variable, reflects noise, is unlikely, reflects a disproportionate ratio of outliers, or is about to change/has changed by the time the solution is built/tested/deployed
+            - the resulting solution algorithm is only effective for some subsets of the input data but cant handle (throws errors for) other subsets
+            - the resulting solution algorithm works in general for most problems within a certain range of problem attributes like complexity, but cant handle problems outside of that range, like the problem the original problem is about to convert into, rendering the initial solution ineffective
+            - the resulting solution algorithm identifies generally useful objects like certain difference or contradiction types, but it cant handle types of differences or other useful structures that it didnt identify in the input data
+          - the first solution found with this granular structure-fitting method of 'apply available functions to form a solution that solves the problem in a slightly better way on some metric than other solutions' is also unlikely to be the optimal solution
+            - however the patterns of differences between an initial solution found with this method & an optimal solution to the problem can be applied as a default conversion to any solution found with specific granular problem-solution structure-fitting
+              - optimization functions that apply structures of optimization like 'structures of generalization' can be applied to make an initial solution found with available functions likelier to be optimal, to reflect differences between sub-optimal & optimal solutions like 'specificity'
 
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
