@@ -1,10 +1,11 @@
 # to do
 
+  - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
+
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
  
-
   - main variables of ml:
     - data
     - data pre-processing & standardizations applied
@@ -81,13 +82,14 @@
     - this is useful in ml at the function & node-level, where a function/node can identify when error structure patterns (like 'deactivation barriers to valuable feature values' or 'incorrect feature structure to identify all possible solution structures') are occurring in adjacent functions/nodes & modify its params like thresholds to account for that imminent error before it occurs
       - this adds error-correcting functionality to the network on certain interaction layers, which can create other error types if the error-corrections aggregate into an error, so network-level error-corrections can be built to handle this emerging error structure from lower layers
   
-  - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
-
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
 
   - add to math mapping: 
+    - information is a form of certainty that has energy from various sources, like interactivity/similarity/efficiency/requirement/composability
+      - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
+        - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
     - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
     - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
     - numbers as symmetries given the adjacent change types available to them, and math as the interaction space of these symmetries, where values that dont have structure can exist between the interactions of these symmetries but only while they can maintain a lack of structure & interaction
