@@ -160,6 +160,8 @@
               - occasionally a perspective in a perspective network may be associated with a granular solution rather than solution generators, like how the above perspectives can be associated with specific solutions or solution-generating interface queries
 
   - add to science
+    - time crystals are an example of a 'certainty' structure created by 'requirements'
+      - there is no other possibility allowed by the 'interactions of those structures' which create 'requirements', so the behavior of the time crystal is 'inevitable', or 'required'
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
     - how could you derive that 'light collisions generate matter':
@@ -183,7 +185,14 @@
                   - you could frame 'matter' as an 'error', as in an error in the form of an 'imbalance' between antimatter & matter
       - either of these structures could connect 'light' with 'matter' with different routes
 
-  - add to math mapping: 
+  - add to math mapping:
+
+    - formatting primes as the 'gaps in the various configurations of a four-sided shape; (produced by multiplying two integers) is a useful way to see patterns in the gaps, which are also 'intersections of gaps in various configurations of other factor sets within a range' which form structures similar to 'concentric circles'
+      - finding the circular (repeated) structure in the riemann zeta function is probably relevant to the zeros & the primes, which may also correlate with these 'concentric circles' formed by configurations of four-sided shapes in factor range sets
+      - the 'various configurations of a four-sided shape produced by two integer factors' is a useful way of producing curvature in their 'integrated tangents'
+
+    - this is just applying any of the useful interface structures: 'change types' or 'generative structures' or 'symmetries', using 'change types that dont break a symmetry' as a 'filter' structure of relevance
+      - https://www.quantamagazine.org/how-galois-groups-used-polynomial-symmetries-to-reshape-math-20210803/
 
     - apply 'physics' (energy) interface, 'function' interface (composability), 'logic' interface (requirement), 'system' interface (scalability, interactivity), and 'concept' interface (certainty) to 'math' interface
 
