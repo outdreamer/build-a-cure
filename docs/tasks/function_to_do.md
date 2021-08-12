@@ -91,7 +91,7 @@
     - information is a form of certainty that has energy from various sources
 
       - energy sources include:
-      
+
         - interactivity
           - if a structure is more interactive with other structures, its likelier to be required and can get energy from those other structures, although its also likely to produce energy if its highly interactive and may be self-sustaining
         - similarity
@@ -103,6 +103,13 @@
           - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
         - composability (unit that interacts with other units)
           - units interact with every other structure in an interaction space & with other units in the unit (type) space
+
+      - other structures are structures of energy distribution
+        - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
+
+      - some structures make these energy sources useful for other intents requiring numerical structures, like:
+        - ambiguities providing a source of obscurity/protection
+        - uniqueness like prime numbers as a source of reference points
 
       - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
         - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
