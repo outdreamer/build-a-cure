@@ -110,11 +110,13 @@
           - standards
             - interaction with y = 0 provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
 
-        - other structures are structures of energy distribution
+        - other structures are structures of energy distribution/storage
           - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
           - given that infinity is a 'sequence that doesnt end', the opposite of infinity is a 'sequence that ends'
             - the structures that are semi or almost infinite indicate the boundary between non/infinite sequences
             - a similar structure is a closed vs. open shape, or a wave (or another function defined for all values of x) vs. a line with endpoints if infinities can be mapped to a regular repeating pattern by some parameter
+          - what structure store energy the most (consumes energy in the form of inputs/information but never pays off, or just stores it), like a black hole, such as a set of numbers like the real numbers
+          - what structures correspond to pi (which represents the 'cost of creating a unit shape from a unit line, converted into an area (cost of applying the line to itself), by applying the default symmetry operation of rotation, as in "applying all possible changes within the symmetry"'), which is a particularly useful number (with high energy output)
 
         - example of combination structures that form other useful structures
           - an interactivity combined with orthogonal (applying 'maximal differences' as a source of independence) symmetries form the basis of default useful structures like 'rotation' functions (by connecting endpoints of the symmetries)
