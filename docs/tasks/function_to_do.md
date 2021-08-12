@@ -82,6 +82,11 @@
     - this is useful in ml at the function & node-level, where a function/node can identify when error structure patterns (like 'deactivation barriers to valuable feature values' or 'incorrect feature structure to identify all possible solution structures') are occurring in adjacent functions/nodes & modify its params like thresholds to account for that imminent error before it occurs
       - this adds error-correcting functionality to the network on certain interaction layers, which can create other error types if the error-corrections aggregate into an error, so network-level error-corrections can be built to handle this emerging error structure from lower layers
   
+  - add to error-finding methods
+    - identifying & generating known useful structures like 'symmetries', 'variables', 'subsets', 'interchangeable alternatives', 'maximally different inputs' & 'bases' & 'type/phase shift thresholds'
+      - identifying & generating combination structures like 'maximally different inputs around bases'
+    - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
+
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
