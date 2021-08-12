@@ -101,6 +101,8 @@
               - one of the reasons for continuity in a function with curvature
           - efficiency
             - if a structures has more useful attributes (like -1, 0, 1, 2, and 10), meaning it 'stores more information' than other structures with the same type of structure (differing just on 'position'), it is likelier to appear in more interaction rules (have higher interactivity)
+            - scalability
+              - if a generative function can efficiently create an infinite sequence or convert a non-infinite sequence into an infinite sequence or conduct infinity operations, it is optimally efficient bc thats the largest scale
           - requirement
             - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
           - composability (unit that interacts with other units)
@@ -110,6 +112,9 @@
 
         - other structures are structures of energy distribution
           - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
+          - given that infinity is a 'sequence that doesnt end', the opposite of infinity is a 'sequence that ends'
+            - the structures that are semi or almost infinite indicate the boundary between non/infinite sequences
+            - a similar structure is a closed vs. open shape, or a wave (or another function defined for all values of x) vs. a line with endpoints if infinities can be mapped to a regular repeating pattern by some parameter
 
         - example of combination structures that form other useful structures
           - an interactivity combined with orthogonal (applying 'maximal differences' as a source of independence) symmetries form the basis of default useful structures like 'rotation' functions (by connecting endpoints of the symmetries)
@@ -125,9 +130,12 @@
           - imaginary units are useful in that they form an opposite structure of standard units, which can be useful for forming a spectrum or a limit filter structure
 
           - quantum superpositions may take the form of:
-            - topologies (attribute value combination spaces)
-            - attribute set cross-sections (combinations of interfaces/types/variable structures & attribute value structures)
-            - variable injections (allowing variance of a constant)
+            - possibility interaction space: 
+              - topologies (attribute value combination spaces)
+            - mixed certainty/uncertainty: 
+              - attribute set cross-sections (combinations of interfaces/types/variable structures & attribute value structures)
+            - uncertainty addition: 
+              - variable injections (allowing variance of a constant)
 
         - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
           - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
