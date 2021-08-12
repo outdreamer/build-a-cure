@@ -191,7 +191,13 @@
       - finding the circular (repeated) structure in the riemann zeta function is probably relevant to the zeros & the primes, which may also correlate with these 'concentric circles' formed by configurations of four-sided shapes in factor range sets
         - this is also relevant bc the riemann zeta function looks like a connecting function providing the conversion between the structures of infinite connected change/curvature/continuity & finite unit change/constants/discreteness
         - this unites a lot of opposing conceptual structures which is why one reason its an important structure
-        - another reason its important is that it involves a core structure (combination, as in 'sum') of core structures (units, as in 'integers' and 'constants') having a core operation ('inverse', to connect them with the imaginary unit, and 'exponential change', as in 'continuous infinitesimally small change') applied, and core structures/operations are usually important as input/component structures
+        - another reason its important is that it involves a core structure (combination, as in 'sum') of core structures (units, as in 'integers' and 'constants') having a core operation ('inverse', to connect them with the imaginary unit, and 'exponential change', as in 'continuous infinitesimally small changing (curved) change') applied, and core structures/operations are usually important by default as input/component structures
+        - you could predict that this function would connect change types 'infinite connected change/curvature/continuity' & 'finite unit change/constants/discreteness' by identifying that unit structures of these change types occur in the function
+        - related questions
+          - what relationship does this function have with adjacent variants of it (non-inverse, fractional powers or constants, different number types, different starting position, etc)
+          - what emergent structures exist from the sum of these numbers (the maximum value that can be created with the 'addition' operation from the sequence values in this pattern)
+          - how to frame this as a different operation type like multiplication rather than addition (area calculation rather than a sum of values indicated by a line), so that a multiplication problem can be formatted as sums of sequences like in some integration methods
+            - variant: how to format the prime identification problem as a sum of sequences
       - the 'various configurations of a four-sided shape produced by two integer factors' is a useful way of producing curvature in their 'integrated tangents'
 
     - this is just applying any of the useful interface structures: 'change types' or 'generative structures' or 'symmetries', using 'change types that dont break a symmetry' as a 'filter' structure of relevance
