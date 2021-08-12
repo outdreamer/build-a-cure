@@ -85,10 +85,30 @@
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
+    - how could you derive that 'light collisions generate matter':
+      - core structures of physics interface include:
+        - 'light'
+        - 'matter'
+      - core structures of structure interface include:
+        - 'combinations'
+      - core structures of system interface include:
+        - unit
+          - it makes sense that: 
+            - 'fundamental structures are created from other fundamental structures'
+            - alternatives/contradictions to this include rules like:
+              - 'structures that seem fundamental may just be dissipated side effects of more complex object interactions rather than core components of a system'
+        - interactivity
+          - if 'the universe has boundaries preventing light from being emitted or destroyed in some form (like through black holes or other objects without complete understanding)',
+            - it makes sense that 'light combined with interactivity & boundary structures leads to common light interactions, leading to a required handler making the output of light interactions useful'
+              - 'light would be forced (required) to frequently interact with itself by being rebounded by universal boundaries'
+                - a 'required common interaction' like this would be 'probably useful' in some way, or 'required to be useful' by its commonness
+                  - its output, whatever that might be, would have to be handled or the side effects would cascade and cause errors
+                  - you could frame 'matter' as an 'error', as in an error in the form of an 'imbalance' between antimatter & matter
+      - either of these structures could connect 'light' with 'matter' with different routes
 
   - add to math mapping: 
 
-    - apply 'physics' interface to 'math' interface
+    - apply 'physics' (energy) interface, 'function' interface (composability), 'logic' interface (requirement), 'system' interface (scalability, interactivity), and 'concept' interface (certainty) to 'math' interface
 
       - information is a form of certainty that has energy from various sources
 
@@ -101,6 +121,7 @@
               - one of the reasons for continuity in a function with curvature
           - efficiency
             - if a structures has more useful attributes (like -1, 0, 1, 2, and 10), meaning it 'stores more information' than other structures with the same type of structure (differing just on 'position'), it is likelier to appear in more interaction rules (have higher interactivity)
+            - reusability
             - scalability
               - if a generative function can efficiently create an infinite sequence or convert a non-infinite sequence into an infinite sequence or conduct infinity operations, it is optimally efficient bc thats the largest scale
           - requirement
@@ -108,7 +129,7 @@
           - composability (unit that interacts with other units)
             - units interact with every other structure in an interaction space & with other units in the unit (type) space
           - standards
-            - interaction with y = 0 provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
+            - interaction with y = 0 (zeros) provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
 
         - other structures are structures of energy distribution/storage
           - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
@@ -116,6 +137,12 @@
             - the structures that are semi or almost infinite indicate the boundary between non/infinite sequences
             - a similar structure is a closed vs. open shape, or a wave (or another function defined for all values of x) vs. a line with endpoints if infinities can be mapped to a regular repeating pattern by some parameter
           - what structure store energy the most (consumes energy in the form of inputs/information but never pays off, or just stores it), like a black hole, such as a set of numbers like the real numbers
+            - self-sustaining structures like recursion structures
+            - the opposite structures 'self-invalidating' or 'neutralizing' structures are useful in determining less efficient structures
+            - the related 'boundary structures' (halting conditions, boundaries between in/finite sequences) are useful as filtering structures, so may be more efficient depending on the energy intent (energy storage, categorization, vs. energy conservation or 'cost minimization')
+          - what is the 'qft' structure or 'meaning' interface of other structures than infinite sequences
+            - what is the summary or integration structure that describes or forms a base or average metric of other structures
+              - given that all interfaces have rules, and physics is the generative rule system, is physics a more effective 'meaning' interface than the meaning ('meta' or 'interface') interface, and for which intents
           - what structures correspond to pi (which represents the 'cost of creating a unit shape from a unit line, converted into an area (cost of applying the line to itself), by applying the default symmetry operation of rotation, as in "applying all possible changes within the symmetry"'), which is a particularly useful number (with high energy output)
 
         - example of combination structures that form other useful structures
@@ -139,9 +166,9 @@
             - uncertainty addition: 
               - variable injections (allowing variance of a constant)
 
-        - this energy will follow other energy patterns, like energy dissipation/distribution & energy storage
+        - these energy structures follow other energy patterns, like energy dissipation/distribution & energy storage
           - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
-          - this implies there are input/output sequences in terms of energy flow across math structures, which may reveal intent structures of matter, just like how some math structures have useful outputs for human intents like 'security'
+          - this implies there are input/output sequences in terms of energy flow across math structures, which may reveal intent structures of matter, just like how some math structures have useful outputs for human intents like 'security' by 'obscuring inputs'
 
         - math structures are a form of energy that is useful/interactive/similar/efficient/required/composable/standard in some way, so it acquires & maintains a stable structure
     
