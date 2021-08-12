@@ -87,6 +87,56 @@
       - identifying & generating combination structures like 'maximally different inputs around bases'
     - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
 
+  - add to ml
+
+    - identify interface structures that can generate a particular algorithm or interface query
+      
+      - for the example problem 'sum a sequence', multiple interface queries to solve it include:
+        
+        1. identify minimum info to fulfill the following sub-intents & execute the steps to identify that minimum info for those sub-intents
+          - identify various standard sequences like 'random' and 'sum of n * increasingly negative exponent n' or 'sum of factorials' or 'sum of n / (n - 1)'
+          - identify distortions of these standard sequences
+          - identify efficient method to filter these sequences
+        
+        2. generate a probability distribution or generative function from a subset & extend that as an assumption for the remainder of the sequence
+        
+        3. identify filters differentiating a subset of the sequence from other sequences ('opposite' structure, or 'what the sequence is definitely not') & apply to the sums of those sequences (the sum is 'definitely not the sum of the other sequences')
+      
+      - for each of these queries, the associated priorities/assumptions & other interface structures that allow that interface query to be seen as an optimal solution include:
+        
+        1. interface structures associated with 'identify minimum info to identify if a sequence is n distortions from a base sequence'
+          - assumptions
+            - an assumption that the 'minimum info to identify base/distortions is more computable than iterating through the sequence' and that the 'sequence is an adjacent distortion from a known base sequence'
+          - errors
+            - if a sequence is n distortions from a base sequence and the algorithm only checks n - 1 distortions from a base sequence, this will fail
+          - error-handlers
+            - the base sequences have to have a high coverage ratio, so that its unlikely that the distortions checked will not find the sequence if its a non-trivial number of distortions from a base sequence
+        
+        2. interface structures associated with 'identify generative/descriptive function of a sequence subset & apply to remainder of sequence to get summary metrics'
+          - assumptions
+            - that a selected subset is representative of the sequence (that it has a degree & patterns of variation reflected in the complete sequence)
+          - errors
+            - that the selected subset is not representative of the complete sequence
+          - error-handlers
+            - identify differences between a subset & a sequence that could make a subset non-representative, identify tests for those differences, & apply them as a filter for subsets
+        
+        3. interface structures associated with 'identify filters differentiating a subset of the sequence from other sequences to apply as a filter of the summary metrics'
+          - assumptions
+            - that the differences in a sequence are reflected in its summary metrics as well
+          - errors
+            - that the differences in a sequence are not reflected in its summary metrics (sums/averages can involve neutralizing terms, allowing for significant differences in sequences)
+          - error-handlers
+            - identify patterns of neutralization and tests for these patterns to identify if this solution can be effective, or if there is a subset-selection method that can offset this error (select a subset without a ratio or other structure of neutralizing structures that is not reflected in the complete sequence)
+
+      - this is useful in determining the error types likely with a solution interface query, bc each perspective has known (or adjacently derivable) error types associated
+        - this is relevant bc the idea of 'specialization' in generating algorithms for a particular intent/case, or an 'algorithm network' where problems are solved by allocating them to a network of specialized algorithms for various intents/cases, may be a standard structure, but its also extremely inefficient, involving:
+          - a high degree of computation
+          - dependence on assumptions about prior static solutions continuing to work
+          - forced categorization of intents/cases into being handled by one of the algorithms that exists, rather than creating a new solution or adapting solution
+        - whats important instead of relying on an algorithm network is to identify/generate/derive the right perspective for a task, so that the associated generated interface queries to solve a task with that perspective can be designed with error types of that perspective in mind
+          - where the 'perspective' refers to the associated 'combination of interface structures', like priorities/assumptions/errors
+
+
   - add to science
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
     - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
