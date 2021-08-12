@@ -189,6 +189,9 @@
 
     - formatting primes as the 'gaps in the various configurations of a four-sided shape; (produced by multiplying two integers) is a useful way to see patterns in the gaps, which are also 'intersections of gaps in various configurations of other factor sets within a range' which form structures similar to 'concentric circles'
       - finding the circular (repeated) structure in the riemann zeta function is probably relevant to the zeros & the primes, which may also correlate with these 'concentric circles' formed by configurations of four-sided shapes in factor range sets
+        - this is also relevant bc the riemann zeta function looks like a connecting function providing the conversion between the structures of infinite connected change/curvature/continuity & finite unit change/constants/discreteness
+        - this unites a lot of opposing conceptual structures which is why one reason its an important structure
+        - another reason its important is that it involves a core structure (combination, as in 'sum') of core structures (units, as in 'integers' and 'constants') having a core operation ('inverse', to connect them with the imaginary unit, and 'exponential change', as in 'continuous infinitesimally small change') applied, and core structures/operations are usually important as input/component structures
       - the 'various configurations of a four-sided shape produced by two integer factors' is a useful way of producing curvature in their 'integrated tangents'
 
     - this is just applying any of the useful interface structures: 'change types' or 'generative structures' or 'symmetries', using 'change types that dont break a symmetry' as a 'filter' structure of relevance
