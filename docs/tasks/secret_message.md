@@ -17,6 +17,6 @@
     		- if youre happy, you have more solutions than problems, and you have solutions to your problems
     		- intelligence can make you happy bc you can solve problems
     		- anyone can learn to solve problems
+    		- a soul is potential, which is an output of intelligence
     	- solve problems for people you care about so that you can legitimately like yourself, and happiness will be a side-effect
     	- care about yourself enough to hold yourself accountable for your decisions, because thats how you keep your soul, a required input to happiness
-    	- a soul is potential, which is an output of intelligence
