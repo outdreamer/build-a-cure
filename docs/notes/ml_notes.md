@@ -1,15 +1,3 @@
-- apply useful structures like 'alternative routes' to the ml network problem space by substituting other useful functions that accomplish the same intent
-	
-	- example: rather than 'feature reduction', apply 'compression' or 'type identification patterns' which also has a high input/output ratio, but retains the input info, which is an important input of other functions eventually applied to the output
-
-	- example of injecting structures of relevance like certainty structures into ml neural networks
-		- example of injecting structures of 'obviousness' into a network would be highlighting features manually during pre-processing
-
-	- example of how to identify protein-folding as an important variable in illness: structures of variance (high-variation) and structures of relevance (adjacent to the processes used by various illnesses)
-		- this is bc of the:
-			- 'structural similarity' between input/output of the function, which is similar in the complexity of the input protein structure & the output illnesses
-			- insight that 'variation doesnt just disappear in a system, it has to be routed somewhere, so if there is complexity or variation in inputs, the outputs will reflect that attribute as well, unless a complexity/variation-reducing function like a delete or cause/type identification or compression function is applied between them'
-
 - "For the CNN-based classifier they observe that units associated with objects and parts emerge in later layers, while earlier layers are largely associated with colours. For the generator network, on the other hand, object/part neurons can be found more frequently in earlier layers, while the later layers focus on colors."
 	- https://towardsdatascience.com/four-deep-learning-papers-to-read-in-august-2021-7d98385a378d
 
