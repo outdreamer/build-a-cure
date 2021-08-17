@@ -43,7 +43,7 @@
       - the structures are/generate/derive/identify either inputs to subsequent functions, or outputs of the function itself
       - example: the combination of 'freedom' & 'interactions' is a useful structures to 'generate difference' to fulfill intents like 'resolve uncertainties' bc of the structure of usefulness 'find/generate/derive inputs' (to the 'resolve uncertainties' intent, bc if you have a way to generate differences, you can test if these differences explain the uncertain/complex system, so 'differences' are an input to that intent and anything that generates an input to that intent is a useful structure)
 
-    - apply error structures to solutions to account for & correct probable errors in standard or known sub-optimal solutions
+    - apply error structures to known standard/sub-optimal solutions to account for & correct probable errors in known standard/sub-optimal solutions (which can be bad guesses/approximations, so hardly a solution but still a useful origin structure to base changes on)
 
       - apply error & change structures to error structures to generate solution structures (the opposite of an error is a solution)
     
@@ -57,6 +57,8 @@
     - apply difference patterns in how solutions change with different info to:
       - identify whether the minimum info to reach a optimal solution is available
       - generate changes to existing solutions to test if their change patterns match changes in solutions with different info in a way that leads to an optimal solution
+
+    - apply connection structures to connect useful structures so other useful structures can be found/derived/generated from input useful structures which may be more adjacnet to the problem space structures
 
     - find combination of interface structures (like change types/sequences) that creates a topology that can be navigated with methods of finding global minima/maxima
 
