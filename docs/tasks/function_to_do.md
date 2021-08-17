@@ -13,8 +13,11 @@
     - what about recursive definitions with no halting condition defined or triggered
     - apply the definition of absolute/contextual/alternate/potential meaning to this problem
     - finding a system to define/prove the rule set is required if the rule set has a false paradox/contradiction in its definition, which is resolved with conditional logic
+    
     - add to math mapping:
-      - mathematatical structures of certainty ('inevitability', 'requirement')
+      - math structures of 'certainty' ('inevitability', 'requirement')
+      - math-logic structures of 'reference' ('self-reference' as 'recursion', 'identity or unit reference' as 'variable label', 'combinations of multiple reference sets' as 'nested loops', 'contradiction' as 'opposite' structures like 'booleans' or 'difference' structures in 'continuous variable values')
+      - connect 'complexity' and 'reference' concepts using math structures ('self-reference' adds complexity x, 'iterate reference sets' adds complexity y)
 
   - add to govt
 
