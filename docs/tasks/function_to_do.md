@@ -30,10 +30,21 @@
     - my invention can evaluate meaning, such as whether the output of a query is relevant to the general problem-solving intent, if it contradicts another solution, if it solves another problem, if it creates another problem, etc
 
   - add to solution automation workflows
+
     - apply error structures to solutions to account for & correct probable errors in standard or known sub-optimal solutions
+
       - apply error & change structures to error structures to generate solution structures (the opposite of an error is a solution)
+    
+      - apply variable & error structures to interaction structures (like between input variables, interim variables like weights, or processing functions) to account for errors in their interactions, generate possible interaction structures connecting them, and generate alternative structures to filter out
+        - weights are an interim structure that can be an input to the solution so they can be treated as variables to analyze on a secondary basis
+        - example: 
+          - apply rules of variable interactions like 'high variation variables are likely to be found together or in a connection structure, unless some distribution structure occurs between them to distribute variance' to weights, inputs, network layers, etc
+          - apply error structures like 'opposite' of the correct value to existing variable values to generate altnrnates to filter or form an alternative base
+  
     - different origin/inputs/data can produce a solution faster, even invalidating any update/learning process (if you have the right info, a solution may be obvious and no learning is required, as your data is optimized so no learning optimization is required)
-      - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
+      - apply data optimizations (pre-processing) to find optimal data to reduce learning requirements
+        - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
+        - this includes rules like 'apply change patterns & other change structures to data that typically produce solutions'
 
   - apply useful structures like 'alternative routes' to the ml network problem space by substituting other useful functions that accomplish the same intent
     
