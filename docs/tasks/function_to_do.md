@@ -52,7 +52,14 @@
         - example: 
           - apply rules of variable interactions like 'high variation variables are likely to be found together or in a connection structure, unless some distribution structure occurs between them to distribute variance' to weights, inputs, network layers, etc
           - apply error structures like 'opposite' of the correct value to existing variable values to generate altnrnates to filter or form an alternative base
+      - apply change & error structures to structures of standards to generate possible solution structures if the structures of standards dont fulfill solution metrics
   
+    - apply difference patterns in how solutions change with different info to:
+      - identify whether the minimum info to reach a optimal solution is available
+      - generate changes to existing solutions to test if their change patterns match changes in solutions with different info in a way that leads to an optimal solution
+
+    - find combination of interface structures (like change types/sequences) that creates a topology that can be navigated with methods of finding global minima/maxima
+
     - different origin/inputs/data can produce a solution faster, even invalidating any update/learning process (if you have the right info, a solution may be obvious and no learning is required, as your data is optimized so no learning optimization is required)
 
       - apply data optimizations (pre-processing) to find optimal data to reduce learning requirements
