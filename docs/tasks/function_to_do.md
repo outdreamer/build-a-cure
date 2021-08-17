@@ -6,6 +6,13 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
 
+  - examine alternate interpretations of incompleteness theorem statements & implications:
+    - 'has to use terms outside of the definition to define the object'
+    - 'the definition has to exist in a system where contradictions to it can exist'
+    - 'are there non-mathematical structures (cannot be standardized to math interface) that are necessary for describing math structures'
+    - what about recursive definitions with no halting condition defined or triggered
+    - apply the definition of absolute/contextual/alternate/potential meaning to this problem
+
   - add to govt
 
     - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, they will continue
@@ -176,7 +183,7 @@
 
     - you generate a new ml algorithm/network when you have a theory about the structures of relevance (feature position, feature structures, feature interaction structures) for a particular data/problem type
       - these relevance structures can be used as variables to generate new ml algorithms/networks
-      - interface structures that are frequently useful or specifically useful for a problem type can also be injected instead of selecting these variable values by other methods
+      - interface structures that are frequently useful or specifically useful for a problem type can also be injected as variable values, instead of selecting these variable values by other methods
 
     - out of all the interface structures, a given network structure set can identify a subset of them better than other algorithms
       - difference types, interaction types, function types
