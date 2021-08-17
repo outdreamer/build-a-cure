@@ -71,6 +71,8 @@
         - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
         - this includes rules like 'apply change patterns & other change structures to data that typically produce solutions'
 
+    - apply differences in problem structures as a filter of solutions (solutions to different problems have to have a correlated level of difference in the solution)
+
   - apply useful structures like 'alternative routes' to the ml network problem space by substituting other useful functions that accomplish the same intent
     
     - example: rather than 'feature reduction', apply 'compression' or 'summary metrics' ('average' or other common values or probability distribution) or 'cause/intent/type identification patterns' which also has a high input/output ratio, but retains the input info, which is an important input of other functions eventually applied to the output
