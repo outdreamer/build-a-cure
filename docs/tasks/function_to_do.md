@@ -140,6 +140,10 @@
 
       - this is why its important to have other interface structures in place, which can identify alternatives that could contradict/neutralize/prevent bias from developing
         - this interface structure can be another function network, or a parameterized bias-assignment function that changes learning costs/rewards to avoid bias development
+        - other examples:
+          - change-function interface structures: function network with updated weights to indicate prioritized useful info (ml)
+          - cause-function interface structures: cause-identifying/generating/deriving function, generative functions in general
+          - potential-structure-logic-function interface structure: applying logic to rules about what is possible to create filter functions to filter out impossibilities in the solution space of possible solution functions
 
     - apply differences in problem structures as a filter of solutions (solutions to different problems have to have a correlated level of difference in the solution)
 
