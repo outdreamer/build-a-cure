@@ -33,6 +33,10 @@
 
     - apply specific useful system concepts like 'democracy' or 'freedom' to problem systems given their usefulness for general problem-solving intents like 'organization' (of a neural net architecture or another problem system)
       - example: apply it to the ml system to generate networks where a node can do whatever processing it wants, as long as its output doesnt contradict another node's processing functions and its output contributes to the global intent and doesnt require more default processing inputs/functions than other nodes
+      - these useful structures can be found with connection sequences to problem-solving intents
+        - example: for the problem-solving intent of 'organization', the connecting structure would be 'government', which organizes interface structures of a complex 'society' system such as 'info' like laws & 'functions' like law enforcement & defense
+          - other structures that 'organize' interface structures could also be possible connecting structures to useful system-specific or abstract concepts related to those organizing structures
+          - the same applies for other problem-solving intents than 'organization'
 
     - find/generate/derive & apply structures where they are determined to be useful by some structure of usefulness
       - the structures are known to fulfill an intent, given the known intent of the structure
