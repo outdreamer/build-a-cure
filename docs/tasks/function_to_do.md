@@ -12,6 +12,9 @@
     - 'are there non-mathematical structures (cannot be standardized to math interface) that are necessary for describing math structures'
     - what about recursive definitions with no halting condition defined or triggered
     - apply the definition of absolute/contextual/alternate/potential meaning to this problem
+    - finding a system to define/prove the rule set is required if the rule set has a false paradox/contradiction in its definition, which is resolved with conditional logic
+    - add to math mapping:
+      - mathematatical structures of certainty ('inevitability', 'requirement')
 
   - add to govt
 
