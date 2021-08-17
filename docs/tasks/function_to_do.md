@@ -31,7 +31,13 @@
 
   - add to solution automation workflows
 
-    - apply useful system concepts like 'democracy' or 'freedom' to generate networks where a node can do whatever processing it wants, as long as its output doesnt contradict another node's processing functions and its output contributes to the global intent and doesnt require more default processing inputs/functions than other nodes
+    - apply specific useful system concepts like 'democracy' or 'freedom' to problem systems given their usefulness for general problem-solving intents like 'organization' (of a neural net architecture or another problem system)
+      - example: apply it to the ml system to generate networks where a node can do whatever processing it wants, as long as its output doesnt contradict another node's processing functions and its output contributes to the global intent and doesnt require more default processing inputs/functions than other nodes
+
+    - find/generate/derive & apply structures where they are determined to be useful by some structure of usefulness
+      - the structures are known to fulfill an intent, given the known intent of the structure
+      - the structures are/generate/derive/identify either inputs to subsequent functions, or outputs of the function itself
+      - example: the combination of 'freedom' & 'interactions' is a useful structures to 'generate difference' to fulfill intents like 'resolve uncertainties' bc of the structure of usefulness 'find/generate/derive inputs' (to the 'resolve uncertainties' intent, bc if you have a way to generate differences, you can test if these differences explain the uncertain/complex system, so 'differences' are an input to that intent and anything that generates an input to that intent is a useful structure)
 
     - apply error structures to solutions to account for & correct probable errors in standard or known sub-optimal solutions
 
