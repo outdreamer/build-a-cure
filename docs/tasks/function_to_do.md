@@ -31,6 +31,8 @@
 
   - add to solution automation workflows
 
+    - apply useful system concepts like 'democracy' or 'freedom' to generate networks where a node can do whatever processing it wants, as long as its output doesnt contradict another node's processing functions and its output contributes to the global intent and doesnt require more default processing inputs/functions than other nodes
+
     - apply error structures to solutions to account for & correct probable errors in standard or known sub-optimal solutions
 
       - apply error & change structures to error structures to generate solution structures (the opposite of an error is a solution)
@@ -42,6 +44,7 @@
           - apply error structures like 'opposite' of the correct value to existing variable values to generate altnrnates to filter or form an alternative base
   
     - different origin/inputs/data can produce a solution faster, even invalidating any update/learning process (if you have the right info, a solution may be obvious and no learning is required, as your data is optimized so no learning optimization is required)
+
       - apply data optimizations (pre-processing) to find optimal data to reduce learning requirements
         - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
         - this includes rules like 'apply change patterns & other change structures to data that typically produce solutions'
