@@ -31,6 +31,9 @@
 
   - add to solution automation workflows
     - apply error structures to solutions to account for & correct probable errors in standard or known sub-optimal solutions
+      - apply error & change structures to error structures to generate solution structures (the opposite of an error is a solution)
+    - different origin/inputs/data can produce a solution faster, even invalidating any update/learning process (if you have the right info, a solution may be obvious and no learning is required, as your data is optimized so no learning optimization is required)
+      - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
 
   - apply useful structures like 'alternative routes' to the ml network problem space by substituting other useful functions that accomplish the same intent
     
