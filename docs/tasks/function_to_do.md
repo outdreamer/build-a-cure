@@ -174,6 +174,10 @@
     - general combination types of these network structures
       - supervised, unsupervised, reinforcement
 
+    - you generate a new ml algorithm/network when you have a theory about the structures of relevance (feature position, feature structures, feature interaction structures) for a particular data/problem type
+      - these relevance structures can be used as variables to generate new ml algorithms/networks
+      - interface structures that are frequently useful or specifically useful for a problem type can also be injected instead of selecting these variable values by other methods
+
     - out of all the interface structures, a given network structure set can identify a subset of them better than other algorithms
       - difference types, interaction types, function types
 
