@@ -59,8 +59,11 @@
       - generate changes to existing solutions to test if their change patterns match changes in solutions with different info in a way that leads to an optimal solution
 
     - apply connection structures to connect useful structures so other useful structures can be found/derived/generated from input useful structures which may be more adjacnet to the problem space structures
+      - example: find connection/difference patterns between requirements & vertex variables, or efficiencies & ambiguities, so that either can be generated from the other
 
-    - find combination of interface structures (like change types/sequences) that creates a topology that can be navigated with methods of finding global minima/maxima
+    - find combination of interface structures (like change types/sequences) that creates a topology of solution optimization that can be navigated with methods of finding global minima/maxima
+      - generalization: apply other interface structures that can solve a relevant problem (like 'finding a maximum value') once info is formatted in a particular structure (like a function or topology), and convert problem system info (like possible solutions) to that input structure, optionally using interface structures (like solution filters to reduce possible solutions), as a way of applying the 'input-output sequence' structure using useful functions on various interfaces
+      - example: cluster analysis to 'identify similar solutions of different types' is another example
 
     - different origin/inputs/data can produce a solution faster, even invalidating any update/learning process (if you have the right info, a solution may be obvious and no learning is required, as your data is optimized so no learning optimization is required)
 
