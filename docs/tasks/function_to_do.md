@@ -77,8 +77,23 @@
         - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
         - this includes rules like 'apply change patterns & other change structures to data that typically produce solutions'
 
-      - understanding can also reduce learning requirements
-        - applying interface analysis to identify useful interface structures like 'probable variable interaction structures' improves the probability of a successful variable interaction prediction function, which is based on the insight that 'variable interactions follow patterns so they have corresponding probabilities' and 'probability is a relevant concept to prediction', insights which reflect understanding & reduce the requirement to learn a new function with no understanding, which interacts with the meaning of these structures
+      - understanding based on meaning can also reduce learning requirements
+        - applying interface analysis to identify useful interface structures like 'probable variable interaction structures' or 'approximate variable interaction structures' improves the probability of a successful variable interaction prediction function, which is based on the insights that reflect understanding & reduce the requirement to learn a new function with no understanding, which interacts with the meaning of these structures
+          - 'probability is a relevant concept to prediction'
+          - 'variable interactions follow patterns so they have corresponding probabilities'
+          - 'approximation is a relevant concept to prediction'
+          - 'approximations are related to predictions in the form of "minimal difference"'
+
+      - anything that can find/derive/generate understanding or find/generate/derive optimized data can also act as an alternative to learning, understanding, or optimized data, with varying success rates
+        - for example, a known solution database may act as an alternative
+        - a rules database of known interactions may act as an alternative to a meaning-deriving/finding/applying/generating function
+      
+      - these are static alternatives so are likelier to be sub-optimal, so other structures of optimization (like generalization, or generating causes/inputs rather than original components) should be applied
+        - an alternative that can update itself is by definition likelier to be optimal
+          - an alternative that can find/generate/derive/apply itself is likelier to be optimal
+            - an alternative that can find/generate/derive/apply components/inputs of itself is likelier to be optimal
+              - an alternative that can find/generate/derive/apply components/inputs of anything (including other alternatives) is likelier to be optimal
+                - an alternative that can find/generate/derive/apply components/inputs of find/generate/derive/apply functions is likelier to be optimal
 
     - apply differences in problem structures as a filter of solutions (solutions to different problems have to have a correlated level of difference in the solution)
 
