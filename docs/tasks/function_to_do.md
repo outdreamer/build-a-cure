@@ -84,6 +84,10 @@
 
   - add to solution automation workflows
 
+    - apply other changes/differences (like 'opposites' or 'gaps') (or patterns/generative functions of changes/differences) of error or error-relevant (like 'sub-optimal solution' structures) to identify what is not a solution & differentiate from it to find solutions
+      - finding the 'gaps' in sub-optimal solutions identifies spaces where optimal solutions can exist by definition
+      - this provides a different target when solving a problem (a solution filter that enables adjacently identifying multiple optimal solutions, once applied) than aiming for the solution itself
+
     - apply specific useful system concepts like 'democracy' or 'freedom' to problem systems given their usefulness for general problem-solving intents like 'organization' (of a neural net architecture or another problem system)
       - example: apply it to the ml system to generate networks where a node can do whatever processing it wants, as long as its output doesnt contradict another node's processing functions and its output contributes to the global intent and doesnt require more default processing inputs/functions than other nodes
       - these useful structures can be found with connection sequences to problem-solving intents
