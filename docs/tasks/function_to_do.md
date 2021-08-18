@@ -13,13 +13,16 @@
     - what about recursive definitions with no halting condition defined or triggered
     - apply the definition of absolute/contextual/alternate/potential meaning to this problem
     - finding a system to define/prove the rule set is required if the rule set has a false paradox/contradiction in its definition, which is resolved with conditional logic
-    
+
     - add to math mapping:
       - math structures of 'certainty' ('inevitability', 'requirement')
       - math-logic structures of 'reference' ('self-reference' as 'recursion', 'identity or unit reference' as 'variable label', 'combinations of multiple reference sets' as 'nested loops', 'contradiction' as 'opposite' structures like 'booleans' or 'difference' structures in 'continuous variable values')
       - connect 'complexity' and 'reference' concepts using math structures ('self-reference' adds complexity x, 'iterate reference sets' adds complexity y)
 
   - add to govt
+
+    - debt repayment avoidance: 
+      - if everyone but a lender moves to a volatile currency, debts to that lender may go unpaid - this is a risk for nations that fund a lot of debt, with debtors using crypto market & adoption of a currency as a way to avoid repaying debts, and driving down the price of assets artificially, as if there's only one person who possesses a currency and no one will accept or trade using that currency, their currency becomes worthless
 
     - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, they will continue
     
