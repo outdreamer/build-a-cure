@@ -1,5 +1,30 @@
 # physics
 
+  - time crystals are an example of a 'certainty' structure created by 'requirements'
+      - there is no other possibility allowed by the 'interactions of those structures' which create 'requirements', so the behavior of the time crystal is 'inevitable', or 'required'
+    - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
+    - energy transfer from observer to observed in the form of certainty/structure allowing resolution of observed 'lack of structure' (as a variable) into a 'structure' (value)
+    - how could you derive that 'light collisions generate matter':
+      - core structures of physics interface include:
+        - 'light'
+        - 'matter'
+      - core structures of structure interface include:
+        - 'combinations'
+      - core structures of system interface include:
+        - unit
+          - it makes sense that: 
+            - 'fundamental structures are created from other fundamental structures'
+            - alternatives/contradictions to this include rules like:
+              - 'structures that seem fundamental may just be dissipated side effects of more complex object interactions rather than core components of a system'
+        - interactivity
+          - if 'the universe has boundaries preventing light from being emitted or destroyed in some form (like through black holes or other objects without complete understanding)',
+            - it makes sense that 'light combined with interactivity & boundary structures leads to common light interactions, leading to a required handler making the output of light interactions useful'
+              - 'light would be forced (required) to frequently interact with itself by being rebounded by universal boundaries'
+                - a 'required common interaction' like this would be 'probably useful' in some way, or 'required to be useful' by its commonness
+                  - its output, whatever that might be, would have to be handled or the side effects would cascade and cause errors
+                  - you could frame 'matter' as an 'error', as in an error in the form of an 'imbalance' between antimatter & matter
+      - either of these structures could connect 'light' with 'matter' with different routes
+
   - structures of 'adjacence' connecting structures of 'stability' as a source of 'certainty' structures that are alternatives to 'default certainty' structures like 'equilibriums'
     - remove 'connection structures' between 'adjacent states' with 'invalidating structures' to 'remove a variable' ('maintain a particular state')
     - possible error structures
