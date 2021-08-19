@@ -52,11 +52,12 @@
           - the way to handle a negative truth is not to destroy truth-tellers but to be better at handling & telling the truth than they are, or better than them in some other way like solving problems better
             - if they were funnier/smarter than women, they would be able to control women without guns, but instead they have to kill & threaten to control people
         - just bc someone looks like a woman, doesnt mean they think like the stereotypical woman, and it doesnt mean they have the same hormones or desires, bc hormones are just one variable & hormones do not control the brain, which cannot be seen without technology - the brain can control chemicals like hormones (you can see this by studying smart people, who tend to have lower sex drives & greater self control in general, but this is a controllable learnable skill, rather than an uncontrollable genetic/hormonal behavior)
-        - they cant evaluate meaning, such as the meaning of their actions, given the impact of their action in the world, which is to cause ridicule for being so afraid of women's freedom that they have to attack it, rather than the fear they wanted
-          - if they really wanted to cause fear, they would become smart bc normal people are scared of smart people
+        - they cant evaluate meaning (how something fits into a system), such as the meaning of their actions, given the fit of the output/impact of their action in the global system (the world), which is to cause ridicule for being so afraid of women's freedom that they have to attack it, rather than the fear they wanted to cause
+          - if they really wanted to cause fear, they would become smart bc normal people are scared of smart people because they dont understand us because we're different and they dont like things that are different
         - rather than attacking people with violence, they can attack people with insults & comedy
           - if they want to feel powerful over a woman, all they have to do is make fun of her, and that should be enough for them & they shouldnt need to commit violence - if its not, their brains are defective & cant come up with a good joke
-            - they should be aware of how insecure women are, how controlled by their needs they are just like men are, & how women oppress/attack themselves, and they wouldnt be threatened by their freedom
+            - they should be aware of how insecure women are, how controlled by their needs they are just like men are, & how women oppress/attack themselves, and they wouldnt be threatened by their freedom anymore
+            - people exist to realize their potential to help people, people dont exist to be controlled
         - the taliban dont understand that they are attacking the hormones & stupidity of other people, and that these things also control the taliban's leaders & prophets & supporters
         - the way to handle excessive hormones & stupidity is science such as thinking/medicine/education, not killing
           - if theyre afraid of women's sexual power, the way to handle that is by empowering men to control their sex drives, which would mean they dont need to control women & women will have less power over them
@@ -65,6 +66,9 @@
         - they shouldnt see themselves as a cohesive unit, but rather a cohesive system of components that can be replaced/upgraded that is constantly improving 
           - if they do see themselves as a unit, they will feel bad whenever they make any error or bad decision at all
         - if they ever got true power, which is where people depend on them, they wouldnt want it anymore, so I know theyre not smart because of their aggressive pursuit of power, when if they were really smart, they would be trying to empower other people who need/deserve it, like oppressed people
+        - the taliban are so stupid they dont understand they were tricked into making war by the Russian govt & other entities that benefit/profit from war
+        - they dont understand basic social dynamics like projecting, because they keep projecting the fact the they are controlled by hormones on to women (both men & women are controlled by hormones, people dont define themselves as a gender and arent controlled by hormones/stupidity), because theyre so stupid that all they can think of is stuff that has happened to them, they cant figure anything out unless its happened to them, so they can retrieve it from their memory, which is just a rules database, not real intelligence capable of adaptation & problem-solving
+          - if they copy people's sub-optimal solutions instead of inventing more optimal solutions, thats another way to tell that theyre stupid
 
     - examples of connecting/equating opposing/conflicting perspectives
 
