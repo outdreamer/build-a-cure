@@ -20,10 +20,11 @@
       - connect 'complexity' and 'reference' concepts using math structures ('self-reference' adds complexity x, 'iterate reference sets' adds complexity y)
 
   - add to science
-    - trigger immunity by applying the abstract vaccine (vaccine for that pathogen type or general variant, or for a more demanding variant of the illness that also produces antibodies active against the original target)
+    - trigger immunity by applying the abstract vaccine (vaccine for that pathogen type or general variant or identifiable features of the pathogen, or for a more demanding variant of the illness that also produces antibodies active against the original target)
       - this can build immunity to one illness that belongs to a family of types
     - how do you trigger the evolution of the illness inside the host, so that immunity can be built to variants of it, by triggering immunity processes after variants are allowed to develop?
       - can environments be relatively isolated inside the body so that a pathogen can evolve in those environments, like injecting it in a tumor, and then applying immunity triggers once variants are allowed to develop, so that more general immunity is achieved
+    - what triggers of dna repair can be triggered after dna is damaged, and can a higher ratio/priority of dna repair processes prevent promotion of a pathogen that damages dna
 
   - add to govt
 
@@ -32,6 +33,39 @@
 
     - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, they will continue
     
+    - how to make a group question itself
+      - convince them of their own stupidity, which is total lack of power, so they understand they dont deserve power, and accidentally start sabotaging themselves bc they wont believe in themselves anymore
+        - the taliban are so stupid they cant identify that people will realize that if they take over a community that was peaceful, they dont have good intentions like 'bringing peace'
+        - they also are so stupid they couldnt realize that the us was not trying to hurt them, so all their anti-us messaging was invalid & would be proven false thereby sabotaging their reputation, and if they were smart they would have worked with the us rather than demonizing the entire govt bc of a few rogue soldiers & some prior bad decisions like working with Russia's govt, which actually does want to cause harm bc they depend on war for money, but all they can do is think in terms of simple types like 'Americans', 'women', 'enemy', & 'soldier' instead of 'individuals', and theyre far more similar to their perceived enemies than they want to admit bc it doesnt make them feel good/powerful, but there are neutral or better ways to feel good/powerful (solving problems for people, becoming good at something like comedy/writing/math/games, sharing solutions, building understanding, targeting other criminals instead of innocent people, or just neutral activities like playing games)
+        - if they were good & smart they would have solutions and wouldnt need to use guns or lies to convince people to let them govern
+        - people who need to use tools of power (weapons, lies, & other cheap tricks) arent powerful (theyre stupid)
+        - the taliban are burdens who only cause problems & need help becoming smart, not smart people who should be governing
+        - the taliban are easily fooled by the same psychological tricks they use on other people - try to scam them and see how easily they fall for it, just like they fell for the scam that is their ideology, which they swallowed without question or thought despite being very obviously false, bc like all religions it makes unprovable claims that dont match reality & are carefully designed to not be testable/provable, whereas if their ideology was true, it would be based on science/math & other truth-deriving methods, which could be used to derive their ideology & no other ideology would pass their system's tests
+        - they dont understand that logic is all it takes to disagree with them, let alone information/facts, common sense about human rights, etc
+          - if the us govt was really evil, the us govt would have murdered everyone who wasnt a us citizen by now, instead the govt usually tries to save people being oppressed in other countries & usually succeeds, except in rare cases of corruption which we try to fix quickly
+        - they dont understand that anyone can use cheap tricks to fool people, people arent difficult to fool, so anyone else could fool their victims as well, its not an achievement, so it shouldnt make them feel special/powerful
+        - if a shape (like the shape of a gender or american) is all it takes to make them angry, they are the powerless ones who are easily triggered/controlled
+        - their leaders/prophets are limited by their lack of intelligence 
+          - the quran is not absolute truth, even if some of its statements make them feel good/powerful/valid bc it portrays men as superior, bc it was written by a defective mind incapable of logic
+          - men are just a product of genes/hormones/nutrients like women are
+          - 'blasphemy' is just noticing an error, which is a good thing because it allows someone to improve their system, and they should be happy that someone communicated the error to them, because that means the person thinks theyre capable of fixing the error, rather than abandoning them to failure
+          - the way to handle a negative truth is not to destroy truth-tellers but to be better at handling & telling the truth than they are, or better than them in some other way like solving problems better
+            - if they were funnier/smarter than women, they would be able to control women without guns, but instead they have to kill & threaten to control people
+        - just bc someone looks like a woman, doesnt mean they think like the stereotypical woman, and it doesnt mean they have the same hormones or desires, bc hormones are just one variable & hormones do not control the brain, which cannot be seen without technology - the brain can control chemicals like hormones (you can see this by studying smart people, who tend to have lower sex drives & greater self control in general, but this is a controllable learnable skill, rather than an uncontrollable genetic/hormonal behavior)
+        - they cant evaluate meaning, such as the meaning of their actions, given the impact of their action in the world, which is to cause ridicule for being so afraid of women's freedom that they have to attack it, rather than the fear they wanted
+          - if they really wanted to cause fear, they would become smart bc normal people are scared of smart people
+        - rather than attacking people with violence, they can attack people with insults & comedy
+          - if they want to feel powerful over a woman, all they have to do is make fun of her, and that should be enough for them & they shouldnt need to commit violence - if its not, their brains are defective & cant come up with a good joke
+            - they should be aware of how insecure women are, how controlled by their needs they are just like men are, & how women oppress/attack themselves, and they wouldnt be threatened by their freedom
+        - the taliban dont understand that they are attacking the hormones & stupidity of other people, and that these things also control the taliban's leaders & prophets & supporters
+        - the way to handle excessive hormones & stupidity is science such as thinking/medicine/education, not killing
+          - if theyre afraid of women's sexual power, the way to handle that is by empowering men to control their sex drives, which would mean they dont need to control women & women will have less power over them
+        - they should try teaching my system to women and see if they can learn, which if theyre not malnourished or brain damaged, they will be able to learn, and will become smarter
+        - if the taliban was already smart, they would have come up with my invention, clearly I need to teach them how to be smart
+        - they shouldnt see themselves as a cohesive unit, but rather a cohesive system of components that can be replaced/upgraded that is constantly improving 
+          - if they do see themselves as a unit, they will feel bad whenever they make any error or bad decision at all
+        - if they ever got true power, which is where people depend on them, they wouldnt want it anymore, so I know theyre not smart because of their aggressive pursuit of power, when if they were really smart, they would be trying to empower other people who need/deserve it, like oppressed people
+
     - examples of connecting/equating opposing/conflicting perspectives
 
       - temporary alliances in war zones can be built against conflict suppliers (surveillance/conspiracy tech, US & Russia providing propaganda, weapons & other fear-based/promoting tools)
