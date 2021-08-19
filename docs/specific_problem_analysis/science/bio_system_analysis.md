@@ -1,5 +1,12 @@
 # science
 
+    - trigger immunity by applying the abstract vaccine (vaccine for that pathogen type or general variant or identifiable features of the pathogen, or for a more demanding variant of the illness that also produces antibodies active against the original target)
+        - this can build immunity to one illness that belongs to a family of types
+      - how do you trigger the evolution of the illness inside the host, so that immunity can be built to variants of it, by triggering immunity processes after variants are allowed to develop?
+        - can environments be relatively isolated inside the body so that a pathogen can evolve in those environments, like injecting it in a tumor, and then applying immunity triggers once variants are allowed to develop, so that more general immunity is achieved
+      - what triggers of dna repair can be triggered after dna is damaged, and can a higher ratio/priority of dna repair processes prevent promotion of a pathogen that damages dna
+
+
     - bio system analysis: examine what types/positions of intentionally triggerable DNA damage can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
       - structural (DNA/cell) damage/change triggers: mutations from toxins, exercise, animal pathogens, enzymes, competition for energy, & other types of DNA mutations
       - structural (DNA/cell) division/growth triggers: hormones, extra energy (energy imbalance based on need)
