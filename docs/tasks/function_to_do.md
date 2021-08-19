@@ -82,6 +82,18 @@
     - ml cant evaluate meaning, it can only tell if one variable changes another
     - my invention can evaluate meaning, such as whether the output of a query is relevant to the general problem-solving intent, if it contradicts another solution, if it solves another problem, if it creates another problem, etc
 
+  - how do you build a contradiction-identifying function:
+    - apply structures of contradictions:
+      - example: 
+        - a function that diverges from the original function in an opposite/different direction is a 'contradiction' of the original function (though it could also be an 'error' structure if misinformed or otherwise falsely constructed)
+        - an outlier of a function is another contradiction structure
+        - true/false difference: an assumption that something is true, like that something is required, can be proved false by finding another way to generate the output without the requirement
+    - find a space where these contradiction structures are clearly identifiable and differentiable from non-contradiction (confirmation/matching/similarity) structures
+      - an object node network might make the 'diverging function' structure obviously different from a converging function
+      - a function that cannot generate the outlier from the inputs/components/assumptions of the function would make it obvious that the outlier is a real contradiction
+      - a function network can identify alternate routes to an output, to prove that a required input is not actually required, given the definition of a 'requirement' (an input necessary to generate the output)
+    - these methods apply interface structures like definitions, inputs/outputs, differences, & alternates to identify/exaggerate differences in the 'asserted true' & 'actual false' structures to make the asserted/actual structures obviously different
+
   - add to solution automation workflows
 
     - integrate other sources of certainty than 'an update function' with a solution, so it applies:
