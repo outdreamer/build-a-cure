@@ -103,11 +103,15 @@
           - understanding can generate error types of a prediction function like specificity, and these error types can be integrated into a solution with more certainty sources & types built in
         - predicting solution structures, variables, & optimal implementations
           - understanding can identify: 
-            - patterns in prediction functions which make them easier to check/generate/find/derive
-            - the standard attributes of prediction functions like continuity, conditional subsets/alternates, averages, specificity, & probability distribution
-            - interface structures of prediction functions like sub-interfaces, assumptions, examples, contradictions, errors, causes, concepts, intents, logic, & probable changes
+            - patterns in prediction functions (which make them easier to check/generate/find/derive)
+            - the standard attributes & structures of prediction functions, which can act as solution filters/structures, and the reasons why these are standard solution attributes/structures (an average is a standard solution structure of a prediction function because of the cross-system insight rule that 'variation typically occurs around a symmetry, like an average')
+              - continuity, conditional subsets/alternates, averages, specificity, & probability distribution
+            - interface structures of prediction functions
+              - sub-interfaces, assumptions, examples, contradictions, errors, causes, concepts, intents, logic, & probable changes
             - solution structures like topologies of solution variables that have peaks at optimal solutions, or solution components/inputs/requirements
         - identifying whether a solution confirms/contradicts existing structures & other sources of certainty, to identify probability of being correct (like whether it has known contradictions or flawed assumptions or uses logical fallacies or implications rather than information)
+        - check that predictions/solutions from various certainty sources match up with each other, as an additional certainty structure, given that other certainty sources are integrated & can be applied, either as solution generators/filters/verifiers
+        - identify that the host system where a prediction function is being injected can be used to verify the prediction function, so if that information is available it can be used instead of the original data set
 
       - this applies interface analysis & specifically the understanding/meaning interface to a specific solution (as opposed to building a general solution-finding/deriving/generating/applying system implementing interface analysis)
         - so a prediction function for example would have:
