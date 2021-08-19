@@ -84,6 +84,23 @@
 
   - add to solution automation workflows
 
+    - integrate other sources of certainty than 'an update function' with a solution, so it applies:
+      
+      - rules of optimization & certainty-development like:
+        - build from understanding (meaning interface) first, rather than building to get understanding
+          - new information & rules discovered should usually sync with previous information & rules & other interface structures, as there is rarely a discovery that requires a change to many/all known rules, and these discoveries follow patterns & rules as well
+        - build in learning/update functionality to allow injection of new information to correct understanding
+        - build in functionality to assess the comparable reasons a solution/prediction/answer is right/wrong
+          - this is to filter out solutions that have more reasons it could be wrong compared to other solutions or compared to reasons it could be right (like being 'possible' with known rules)
+        - build in functionality to evaluate the probable error types & cost of those error types for any given solution, compared to other solutions, and rules to minimize error costs (like generalization, updating quickly with new information, identifying the reasons for contradictory/confirming information, identifying sources of bias & other error types, etc)
+        - build in functionality to evaluate solvability & resources required to solve a problem before solving it, compared to its possible solution's value
+      
+      - so that the system can do other operations than just 'make a prediction of a variable interaction function', like:
+        - predicting updates to their prediction function
+        - predicting error types & costs of a solution
+        - predicting solution structures, variables, & optimal implementations
+        - identifying whether a solution confirms/contradicts existing structures & other sources of certainty, to identify probability of being correct
+
     - apply other changes/differences (like 'opposites' or 'gaps') (or patterns/generative functions of changes/differences) of error or error-relevant (like 'sub-optimal solution' structures) to identify what is not a solution & differentiate from it to find solutions
       - finding the 'gaps' in sub-optimal solutions identifies spaces where optimal solutions can exist by definition
       - this provides a different target when solving a problem (a solution filter that enables adjacently identifying multiple optimal solutions, once applied) than aiming for the solution itself
