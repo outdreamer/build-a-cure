@@ -1,3 +1,127 @@
+    - formatting primes as the 'gaps in the various configurations of a four-sided shape; (produced by multiplying two integers) is a useful way to see patterns in the gaps, which are also 'intersections of gaps in various configurations of other factor sets within a range' which form structures similar to 'concentric circles'
+      - finding the circular (repeated) structure in the riemann zeta function is probably relevant to the zeros & the primes, which may also correlate with these 'concentric circles' formed by configurations of four-sided shapes in factor range sets
+        - this is also relevant bc the riemann zeta function looks like a connecting function providing the conversion between the structures of infinite connected change/curvature/continuity & finite unit change/constants/discreteness
+        - this unites a lot of opposing conceptual structures which is why one reason its an important structure
+        - another reason its important is that it involves a core structure (combination, as in 'sum') of core structures (units, as in 'integers' and 'constants') having a core operation ('inverse', to connect them with the imaginary unit, and 'exponential change', as in 'continuous infinitesimally small changing (curved) change') applied, and core structures/operations are usually important by default as input/component structures
+        - you could predict that this function would connect change types 'infinite connected change/curvature/continuity' & 'finite unit change/constants/discreteness' by identifying that unit structures of these change types occur in the function
+        - related questions
+          - what relationship does this function have with adjacent variants of it (non-inverse, fractional powers or constants, different number types, different starting position, etc)
+          - what emergent structures exist from the sum of these numbers (the maximum value that can be created with the 'addition' operation from the sequence values in this pattern)
+          - how to frame this as a different operation type like multiplication rather than addition (area calculation rather than a sum of values indicated by a line), so that a multiplication problem can be formatted as sums of sequences like in some integration methods
+            - variant: how to format the prime identification problem as a sum of sequences
+      - the 'various configurations of a four-sided shape produced by two integer factors' is a useful way of producing curvature in their 'integrated tangents'
+
+    - this is just applying any of the useful interface structures: 'change types' or 'generative structures' or 'symmetries', using 'change types that dont break a symmetry' as a 'filter' structure of relevance
+      - https://www.quantamagazine.org/how-galois-groups-used-polynomial-symmetries-to-reshape-math-20210803/
+
+    - apply 'physics' (energy) interface, 'function' interface (composability), 'logic' interface (requirement), 'system' interface (scalability, interactivity), and 'concept' interface (certainty) to 'math' interface
+
+      - information is a form of certainty that has energy from various sources
+
+        - energy sources include:
+
+          - interactivity
+            - if a structure is more interactive with other structures, its likelier to be required and can get energy from those other structures, although its also likely to produce energy if its highly interactive and may be self-sustaining
+          - similarity
+            - similar change types are likelier to be found near similar change types 
+              - one of the reasons for continuity in a function with curvature
+          - efficiency
+            - if a structures has more useful attributes (like -1, 0, 1, 2, and 10), meaning it 'stores more information' than other structures with the same type of structure (differing just on 'position'), it is likelier to appear in more interaction rules (have higher interactivity)
+            - reusability
+            - scalability
+              - if a generative function can efficiently create an infinite sequence or convert a non-infinite sequence into an infinite sequence or conduct infinity operations, it is optimally efficient bc thats the largest scale
+          - requirement
+            - if a structure exists by requirement, it gets its energy by default from the structures requiring it, so any energy it produces is a net gain
+          - composability (unit that interacts with other units)
+            - units interact with every other structure in an interaction space & with other units in the unit (type) space
+          - standards
+            - interaction with y = 0 (zeros) provides info about the behavior of a function in its default/standard form, which can be used to describe it efficiently
+
+        - other structures are structures of energy distribution/storage
+          - equivalent or similar alternates can share the energy distributed from another energy source and distribute it using an efficient method like a rotation function, or store it in its components (roots of unity)
+          - given that infinity is a 'sequence that doesnt end', the opposite of infinity is a 'sequence that ends'
+            - the structures that are semi or almost infinite indicate the boundary between non/infinite sequences
+            - a similar structure is a closed vs. open shape, or a wave (or another function defined for all values of x) vs. a line with endpoints if infinities can be mapped to a regular repeating pattern by some parameter
+          - what structure store energy the most (consumes energy in the form of inputs/information but never pays off, or just stores it), like a black hole, such as a set of numbers like the real numbers
+            - self-sustaining structures like recursion structures
+            - the opposite structures 'self-invalidating' or 'neutralizing' structures are useful in determining less efficient structures
+            - the related 'boundary structures' (halting conditions, boundaries between in/finite sequences) are useful as filtering structures, so may be more efficient depending on the energy intent (energy storage, categorization, vs. energy conservation or 'cost minimization')
+          - what is the 'qft' structure or 'meaning' interface of other structures than infinite sequences
+            - what is the summary or integration structure that describes or forms a base or average metric of other structures
+              - given that all interfaces have rules, and physics is the generative rule system, is physics a more effective 'meaning' interface than the meaning ('meta' or 'interface') interface, and for which intents
+          - what structures correspond to pi (which represents the 'cost of creating a unit shape from a unit line, converted into an area (cost of applying the line to itself), by applying the default symmetry operation of rotation, as in "applying all possible changes within the symmetry"'), which is a particularly useful number (with high energy output)
+
+        - example of combination structures that form other useful structures
+          - an interactivity combined with orthogonal (applying 'maximal differences' as a source of independence) symmetries form the basis of default useful structures like 'rotation' functions (by connecting endpoints of the symmetries)
+
+        - some structures make these energy sources useful for other intents requiring numerical structures, like:
+          - ambiguities providing a source of obscurity/protection
+          - uniqueness like prime numbers as a source of reference points
+
+        - semi-information is:
+          - 'allowed by the definition of a space'
+          - 'has interaction rules in that definition, with its own type and with other numerical types'
+
+          - imaginary units are useful in that they form an opposite structure of standard units, which can be useful for forming a spectrum or a limit filter structure
+
+          - quantum superpositions may take the form of:
+            - possibility interaction space: 
+              - topologies (attribute value combination spaces)
+            - mixed certainty/uncertainty: 
+              - attribute set cross-sections (combinations of interfaces/types/variable structures & attribute value structures)
+            - uncertainty addition: 
+              - variable injections (allowing variance of a constant)
+
+        - these energy structures follow other energy patterns, like energy dissipation/distribution & energy storage
+          - if a number has more energy than its structure can contain, it may distribute it into a system of related numbers, like components or variants
+          - this implies there are input/output sequences in terms of energy flow across math structures, which may reveal intent structures of matter, just like how some math structures have useful outputs for human intents like 'security' by 'obscuring inputs'
+
+        - math structures are a form of energy that is useful/interactive/similar/efficient/required/composable/standard in some way, so it acquires & maintains a stable structure
+    
+    - similarity of structures like data type in connections (like how 'absolute references' are a possible connecting structure between absolute structures like 'infinities' and referential structures like 'ratios' or 'constants')
+    - imaginary unit as a unit of non-definition, or non-structural definition (requires a different axis to portray bc its not defined in the original axes), or a unit of isolation/independence from a dimension set
+    - numbers as symmetries given the adjacent change types available to them, and math as the interaction space of these symmetries, where values that dont have structure can exist between the interactions of these symmetries but only while they can maintain a lack of structure & interaction
+      - math helps with calculatable problems
+      - there are limits to what math can calculate, bc there are limits to the interaction space of number types
+        - like how 'integers' and 'infinities' can interact bc you can have 'multiple infinities' and 'infinite integers' and so on, but not every number or number type/attribute can interact like this, in such a clearly defined (structural) way
+        - for example, the 'root of negative infinity' is less structural than the 'root of infinity', and the 'root of infinity' is less structural than the 'unit of infinity', bc the less structural interactions require special definitions/limits creating spaces in which they can exist, rather than having structure in a high ratio of spaces
+      - relevant questions
+        - can you extend the direction of reductions in structure in the interaction space to determine the limits of structure
+          - does it reach zero structure at its limit
+          - does it extend indefinitely by definition, bc of the lack of structure and a corresponding lack of limits enforcing structure to exist/develop
+          - at what point do the requirements of the 'special definition' prevent any structure from being defined?
+          - is the interaction space continuous (does it form a topology)
+      - some questions (lack of structure) cannot be adjacently resolved by any combination of known structures (such as ambiguities that are more efficient/stable than any structure that can deconstruct them or any input/output structure)
+        - is this an absolute limit or does it result from logical flaws, lack of info, or other errors
+        - example: calculate interactions of infinite sequences (like in quantum field theories) with perfect accuracy in less than x time type
+          - in order to calculate these interactions, the following would be necessary:
+            - rules about sequence interactions (why one sequence is adjacent to another, if there is such a rule, and how they can be combined)
+            - info about the probability distribution or function that could generate the sequences
+            - rules about combining infinities, where each infinite sequence could be defined as an object in the space of infinities
+            - rules about interactions in a space that compresses to other relevant info about the sequences
+              - meaning alternative compressions than the value/sequence attributes of generative functions, progressions or probability distributions
+              - rules about other interface structures than the values or the values' attributes themselves, such as structures like:
+                - requirements/opposites & other standard structures
+                - alternative equivalents
+                - approximations/probabilities
+                - difference topologies (rather than infinite sequence value topologies)
+                - rules about the system where these sequences could exist rather than the values that exist in the system
+                - the structures (of differences & patterns & other useful structures) in the sequences/values that would be impossible, possible, adjacent to calculate, and adjacent functions to determine structures of calculation impossibilities/possibilities/adjacencies in the original topology
+                  - finding the structures of sequence sums that would be adjacently calculatable creates a test that can filter out structures that are not adjacently calculatable, like finding local minima using gradient descent
+                    - this is an example of why other system structures than input/output sequences/networks are useful, such as the 'structural similarity' of 'gradient descent' and 'filters of structures of adjacent calculation potentials'
+          - if there is an ambiguity that defies calculation (without checking every value), it means there is a certainty in its structure of uncertainty (like an ambiguity between a 'random generative function' and an 'input structure that generates output that seems random') that can be relied on to calculate its attributes (like requirements/limits, such as 'equal distribution of outcomes as trials n increases'), if not its actual output values at a given input
+        - in terms of graphing these structures, a space where every variable can be reduced to a spectrum with opposites indicating a difference type would be able to visualize these structures
+          - a variable indicating additional operations added to a function, where each operation has an opposite, and each operation adds a change type, still doesnt have an inherent ordinal value indicating how far from the origin it should be, unless there's a clear association in increases in complexity/potential between change types added by each operation
+          - the definitions of 'ambiguity', 'inevitability', 'intent', 'output', and other structures may allow visualization in a mathematical space without using vectors or networks, if their definitions can be mapped with opposites & incremental increases in an attribute with an inherent ordinal ranking and a zero value having no structure
+            - ambiguity: 'lack of differences in alternatives (different options)'
+            - inevitability: 'lack of alternatives (different options)'
+            - requirement: 'exclusive trigger'
+            - output: 'subsequent causal node'
+          - if 'lack' can be mapped to the negative direction, the other structures can be mapped to structures of certainty (largely in the form of logical sequences & variables as useful axes)
+            - 'output' creates a certainty in the form of a sequence (as in a 'guaranteed product of the cause')
+            - 'requirement' is a 'certain input' if another structure occurs (a function is triggered), which is also a sequential structure
+            - 'ambiguity' is a lack of 'structure indicating difference between different objects', meaning the differences cant be mapped in the current space, indicating the structure of a sequence of a 'conversion' (like 'adding a variable') before the difference can be mapped, which makes sense bc it offset the 'lack of structure indicating difference' (a variable), and if change types (variables) are mapped in this space, this can be structured as a function converting the current or previous change type value to the required change type value
+
     - example specific math-concept function mapping:
       - https://www.popularmechanics.com/science/math/g29251596/impossible-math-problems/
 
@@ -156,6 +280,14 @@
               - problem format: this problem can be framed as 'find rules allowing existence of a prime number x given available multipliers smaller than x'
 
       - godel's incompleteness theorem: 'this statement cannot be proven true'
+         - examine alternate interpretations of incompleteness theorem statements & implications:
+          - 'has to use terms outside of the definition to define the object'
+          - 'the definition has to exist in a system where contradictions to it can exist'
+          - 'are there non-mathematical structures (cannot be standardized to math interface) that are necessary for describing math structures'
+          - 'structure only has meaning in relation/reference to other structures'
+          - what about recursive definitions with no halting condition defined or triggered
+          - apply the definition of absolute/contextual/alternate/potential meaning to this problem
+          - finding a system to define/prove the rule set is required if the rule set has a false paradox/contradiction in its definition, which is resolved with conditional logic
         - structural version: this is like a structure (such as a curved line) that forms a lack of structure (like a gap inside a circle when the line forms a circle)
         - standardized versions:
           - 'this statement cannot be defined with a structure of truth'

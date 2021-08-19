@@ -1,5 +1,8 @@
 ## Information
 
+    - debt repayment avoidance: 
+      - if everyone but a lender moves to a volatile currency, debts to that lender may go unpaid - this is a risk for nations that fund a lot of debt, with debtors using crypto market & adoption of a currency as a way to avoid repaying debts, and driving down the price of assets artificially, as if there's only one person who possesses a currency and no one will accept or trade using that currency, their currency becomes worthless
+
     - families of war victims' lost loved ones wouldnt want them to seek revenge in isolation of context/meaning, bc it would destroy more innocent lives as collateral damage & continue the fight forever, they would want them to be the person who ends war forever
 
   - terrorists are easily swayed by cheap tricks like peer pressure & repetition & will do anything they're told to avoid thinking
@@ -14,6 +17,102 @@
   - deep fakes rely on inability to test facts independently, attempting to make specific assertions about events that are framed as not verifiable
     - but other sources of info (like derivation tools such as thinking, logic, or stats) can provide alternate info gathering & testing tools 
     - some facts that dont matter wont be testable, but if they matter (if they're relevant to other facts, as in important, common, powerful, useful, highly variable, highly interactive, or meaningful), they'll be easier to test
+
+- lack of understanding of people is a cause of war
+
+    - people tend to think only on the structural interface, which is why structure is so important to them and they have trouble thinking of concepts that lack structure, or lack of structure/certainty in the form of complexity/questions
+      - the meaning interface is where most of their mental operations should take place, which will make their lives a lot better bc they'll be smarter, independent, & free, because they'll be more capable of managing/solving their own problems
+
+    - examples of connecting/equating opposing/conflicting perspectives
+
+      - temporary alliances in war zones can be built against conflict suppliers (surveillance/conspiracy tech, US & Russia providing propaganda, weapons & other fear-based/promoting tools)
+        - if theyd just given them cell phones & internet, they might have gotten addicted to gaming/arguing/insulting people online instead of killing people
+      - criminals & victims can be connected with the intent to repair damage & reduce conditions leading to crime
+      - incels & woman can be connected by intent to reduce conditions leading to sex crimes (social skills, lie identification techniques, lack of understanding about attraction/love, lack of science tools)
+      - if either side was right, they would be able to come up with solutions & solve the conflict themselves, but theyre equals because neither side has won, so theyre similar in their inability to solve problems
+      - if either side has to win by having more resources like more weapons/funding, they didnt really win, bc anyone could win with more resources, so theyre equivalent to their victims
+      - if either side was right, they would be able to convince the other side that they were right
+
+    - the 'physics' perspective can unite other perspectives in a testable way that can create trust in the perspective locally, bc these dynamics can be proved with individual local testing
+
+        - apply conflict resolution rules like the following, which can be used by individuals to check that these rules work to reduce conflict/conspiracies/cults
+
+          - apply social/info rules   
+            - offering common enemies to unite them
+            - delivering facts from trusted insiders
+            - show how to take social power away from a side if they abuse their power (comedy, pity/empathy, exaggerated over-dignifying the other side) by offering them help, by teaching them what it means to abuse their power & how to fix it, or by teaching them how to have self-esteem/self-respect so they dont need to abuse their power
+            - show how to forget (not forgive, which is asking too much, places a burden on victims, & repeats the crime) in case people want to move on from conflict (distractions, memory/focus management tools, alternate reality-enabling info tech, alternate perspectives like 'future' or 'abstract' or 'interface' or 'random/probability' or 'change' or 'solution/computational complexity' or 'tech/ai/robot' or 'multi-sentient species (animals, alien)' or 'multi-religion/heaven' or 'multi-verse/hologram universe/simulation/game, universe as game/test levels' or 'potential/quantum physics' perspective)
+            - inspiring by example rather than by using force
+            - showing people how to be happy without abusing their power (distributing power, solving problems), even if theyre selfish (they get more power if they distribute power/solve problems the best, not less power)
+            - show people how to not condemn the other side completely, which invalidates other conflict resolution rules (show them probability of behaviors of the other side, given the context, such as limits like their available resources & experiences & stupidity), and focus on fixing the other side with understanding/science
+            - show people how to get justice without starting new conflicts (try to make sure criminals have a way to contribute to society & invalidate conditions leading to crime, distribute justice as possible among victims of a crime type rather than of a specific criminal who may be unpunishable bc theyre dead)
+            - show people how to humanize themselves to the other side (showing intelligence/potential & ability to empathize with & help their oppressors)
+            - list the thoughts that their enemies have to understand that theyre similar in how they think and see how they arrive at their conclusions/decisions
+            - show oppressors how theyre only able to justify their actions if they ignore the similarities to their victims & carefully avoid applying any logical analysis to themselves to reach self-awareness, as theyre often similarly stupid to their victims
+            - show people how to manage emotions like disgust/anger without committing violence, by reducing it to a scientific process or reducing the method used to trigger these emotions
+
+          - apply logical rules to identify flaws in belief systems
+            - identifying that their beliefs are unprovable just like other religious beliefs but they choose to believe because it feels good to them, but those good feelings can be produced by other methods and are generated by physics & chemistry, not gods, and are subject to change & randomness
+            - their beliefs & gods would be valid if they could be used to solve any problem but they cant, so they have to ignore facts to believe in their system
+            - if their system was correct/valid, there would be no counterpoints or counterexamples contradicting it
+            - identifying that cult members & conspiracy theorists are gullible & arent identifying facts, like the 'lack of incentives to execute the theorized plan', or lies like that 'a cult leader is a deity'
+            - if their beliefs were correct, they would be able to control or understand all other systems like physics/math
+
+    - how to make a group question itself
+      - convince them of their own stupidity, which is total lack of power, so they understand they dont deserve power, and accidentally start sabotaging themselves bc they wont believe in themselves anymore
+        - the taliban are so stupid they cant identify that people will realize that if they take over a community that was peaceful, they dont have good intentions like 'bringing peace'
+        - they also are so stupid they couldnt realize that the us was not trying to hurt them, so all their anti-us messaging was invalid & would be proven false thereby sabotaging their reputation, and if they were smart they would have worked with the us rather than demonizing the entire govt bc of a few rogue soldiers & some prior bad decisions like working with Russia's govt, which actually does want to cause harm bc they depend on war for money, but all they can do is think in terms of simple types like 'Americans', 'women', 'enemy', & 'soldier' instead of 'individuals', and theyre far more similar to their perceived enemies than they want to admit bc it doesnt make them feel good/powerful, but there are neutral or better ways to feel good/powerful (solving problems for people, becoming good at something like comedy/writing/math/games, sharing solutions, building understanding, targeting other criminals instead of innocent people, or just neutral activities like playing games)
+        - if they were good & smart they would have solutions and wouldnt need to use guns or lies to convince people to let them govern
+        - people who need to use tools of power (weapons, lies, & other cheap tricks) arent powerful (theyre stupid)
+        - the taliban are burdens who only cause problems & need help becoming smart, not smart people who should be governing
+        - the taliban are easily fooled by the same psychological tricks they use on other people - try to scam them and see how easily they fall for it, just like they fell for the scam that is their ideology, which they swallowed without question or thought despite being very obviously false, bc like all religions it makes unprovable claims that dont match reality & are carefully designed to not be testable/provable, whereas if their ideology was true, it would be based on science/math & other truth-deriving methods, which could be used to derive their ideology & no other ideology would pass their system's tests
+        - they dont understand that logic is all it takes to disagree with them, let alone information/facts, common sense about human rights, etc
+          - if the us govt was really evil, the us govt would have murdered everyone who wasnt a us citizen by now, instead the govt usually tries to save people being oppressed in other countries & usually succeeds, except in rare cases of corruption which we try to fix quickly
+        - they dont understand that anyone can use cheap tricks to fool people, people arent difficult to fool, so anyone else could fool their victims as well, its not an achievement, so it shouldnt make them feel special/powerful
+        - if a shape (like the shape of a gender or american) is all it takes to make them angry, they are the powerless ones who are easily triggered/controlled
+        - their leaders/prophets are limited by their lack of intelligence 
+          - the quran is not absolute truth, even if some of its statements make them feel good/powerful/valid bc it portrays men as superior, bc it was written by a defective mind incapable of logic
+          - men are just a product of genes/hormones/nutrients like women are
+            - most people are stupid, and stupid people are creepy, but stupid people can learn, they just need to practice thinking and get over the pain threshold that they experience whenever they think, which is all thats holding them back
+          - 'blasphemy' is just noticing an error, which is a good thing because it allows someone to improve their system, and they should be happy that someone communicated the error to them, because that means the person thinks theyre capable of fixing the error, rather than abandoning them to failure
+          - the way to handle a negative truth is not to destroy truth-tellers but to be better at handling & telling the truth than they are, or better than them in some other way like solving problems better
+            - if they were funnier/smarter than women, they would be able to control women without guns, but instead they have to kill & threaten to control people
+        - just bc someone looks like a woman, doesnt mean they think like the stereotypical woman, and it doesnt mean they have the same hormones or desires, bc hormones are just one variable & hormones do not control the brain, which cannot be seen without technology - the brain can control chemicals like hormones (you can see this by studying smart people, who tend to have lower sex drives & greater self control in general, but this is a controllable learnable skill, rather than an uncontrollable genetic/hormonal behavior)
+        - they cant evaluate meaning (how something fits into a system), such as the meaning of their actions, given the fit of the output/impact of their action in the global system (the world), which is to cause ridicule for being so afraid of women's freedom that they have to attack it, rather than the fear they wanted to cause
+          - if they really wanted to cause fear, they would become smart bc normal people are scared of smart people because they dont understand us because we're different and they dont like things that are different
+        - rather than attacking people with violence, they can attack people with insults & comedy
+          - if they want to feel powerful over a woman, all they have to do is make fun of her, and that should be enough for them & they shouldnt need to commit violence - if its not, their brains are defective & cant come up with a good joke
+            - they should be aware of how insecure women are, how controlled by their needs they are just like men are, & how women oppress/attack themselves, and they wouldnt be threatened by their freedom anymore
+              - they should how much women copy me to avoid work even though women know that copying me hurts innocent people I could help, and how much women attack me just bc I dont compliment them enough to fix their insecurities, theyre all afraid of being replaced & are willing to kill innocent people to avoid being replaced, and they'll never be afraid of or impressed by women again once they know how creepy they are & how many crimes theyll do to avoid work or the slightest inconvenience - this is one of the reasons smart people have a low sex drive, bc most people are stupid & stupid people are creepy criminals who will do anything to avoid work (unless you give them plenty of time & education to learn how to think, because every structural problem is fixable, and stupidity is just another structural problem)
+            - people exist to realize their potential to help people & solve problems, people dont exist to be controlled, so smart people understand that the point of life is empowering people to realize their potential
+        - the taliban dont understand that they are attacking the hormones & stupidity of other people, and that these things also control the taliban's leaders & prophets & supporters
+        - the way to handle excessive hormones & stupidity is science such as thinking/medicine/education, not killing
+          - if theyre afraid of women's sexual power, the way to handle that is by empowering men to control their sex drives, which would mean they dont need to control women & women will have less power over them
+            - the more power they have other themselves (the smarter they are), the less other people can control them & the less they will want power
+        - they should try teaching my system to women and see if they can learn, which if theyre not malnourished or brain damaged, they will be able to learn, and will become smarter
+        - if the taliban was already smart, they would have come up with my invention, clearly I need to teach them how to be smart
+          - if their leaders were smart, they would be teaching their followers how to be smart, but theyre not
+        - they shouldnt see themselves as a cohesive unit, but rather a cohesive system of components that can be replaced/upgraded that is constantly improving 
+          - if they do see themselves as a unit, they will feel bad whenever they make any error or bad decision at all
+        - if they ever got true power, which is where people depend on them, they wouldnt want it anymore, so I know theyre not smart because of their aggressive pursuit of power, when if they were really smart, they would be trying to empower other people who need/deserve it, like oppressed people
+        - the taliban are so stupid they dont understand they were tricked into making war by the Russian govt & other entities that benefit/profit from war
+        - they dont understand basic social dynamics like projecting, because they keep projecting the fact the they are controlled by hormones on to women (both men & women are controlled by hormones, people dont define themselves as a gender and arent controlled by hormones/stupidity), because theyre so stupid that all they can think of is stuff that has happened to them, they cant figure anything out unless its happened to them, so they can retrieve it from their memory, which is just a rules database, not real intelligence capable of adaptation & problem-solving
+          - if they copy people's sub-optimal solutions instead of inventing more optimal solutions, thats another way to tell that theyre stupid
+        - their victims arent worthless by default, they are capable of learning & becoming smart enough to invalidate learning, if they have enough time to think like I did - if they did have time to think without being attacked or afraid (forced to think about only one thing - survival), they would have developed intelligence
+        - their definition of power is flawed
+          - they think power is 'ability to abuse without being abused back', which is just luck & lack of structures designed to punish every criminal, so really they are worshipping random (equal probability of outcomes), a far simpler concept, not power
+            - their requirement of total loyalty is also flawed
+              - if they were good & adding value to people's lives, people would want to be a part of their community, but theyre not so they have to try to force people to be loyal
+          - the definition route of power (in relation to social interactions, on the 'social interface') is actually 'being depended on', which very few people would want once they knew that
+          - if we punished every criminal immediately as soon as they do a crime, or prevent all crime by identifying intent by brain scans, thats just manually assigning rewards/costs & using rewards/costs to force behavior, so there is no meaning of good behavior, because we created a reward for being good so good actions might just be to get the reward, rather than just to do the right thing or help people realize their potential
+            - rather than doing this, we should distribute intelligence, so that everyone can make good decisions & solve problems without attacking innocent people, and without being totally controlled by rewards/costs, because smart people can justify doing the right thing with logic/potential or other methods, even when there is no good feeling associated with it (or bad feeling associated with not doing it)
+            - if we can push humanity over the rainbow of the intelligence deficit, society will be efficient & problems will be solved much more quickly
+              - once that happens, people can build interesting new games & tools like gene-editing tech to add superpowers and we may even attract aliens who need our technology
+        - if they were smart, they would have designed an organized, efficient society that was solving problems better than other societies, and theyre not
+          - they didnt even come up with machine learning, which is just a way to update variable interactions by filtering out or de-prioritizing variable interactions that dont work, which most people should be able to come up with once they can think
+        - if they dont believe me about how hormones control them, they should take libido-altering drugs to see how differently they think, and to identify that they are subject to hormonal control, just like their victims are
+          - they can also be turned gay just like women can, bc attraction is largely determined by experiences (who is portrayed as good to them, as in 'having good qualities like confidence/certainty or competence/intelligence/potential') in addition to hormones
+
 
 ## Optimal Resource Trades
 
