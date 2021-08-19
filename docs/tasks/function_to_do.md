@@ -19,6 +19,12 @@
       - math-logic structures of 'reference' ('self-reference' as 'recursion', 'identity or unit reference' as 'variable label', 'combinations of multiple reference sets' as 'nested loops', 'contradiction' as 'opposite' structures like 'booleans' or 'difference' structures in 'continuous variable values')
       - connect 'complexity' and 'reference' concepts using math structures ('self-reference' adds complexity x, 'iterate reference sets' adds complexity y)
 
+  - add to science
+    - trigger immunity by applying the abstract vaccine (vaccine for that pathogen type or general variant, or for a more demanding variant of the illness that also produces antibodies active against the original target)
+      - this can build immunity to one illness that belongs to a family of types
+    - how do you trigger the evolution of the illness inside the host, so that immunity can be built to variants of it, by triggering immunity processes after variants are allowed to develop?
+      - can environments be relatively isolated inside the body so that a pathogen can evolve in those environments, like injecting it in a tumor, and then applying immunity triggers once variants are allowed to develop, so that more general immunity is achieved
+
   - add to govt
 
     - debt repayment avoidance: 
