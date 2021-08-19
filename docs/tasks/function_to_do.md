@@ -13,6 +13,9 @@
 
   - add to ml
     - identify ability of a variable to contribute to the output by how much it can contribute once you apply conversion functions to change it (how powerful/robust its contribution is)
+      - if it doesnt change its influence even after many changes, it could be an interface variable which changes develop on, rather than a normal variable easily invalidated by changes, and more drastic changes will be required to invalidate its influence, like replacement with alternative interfaces
+      - identify how important a variable is by how many changes/combinations of other structures are required to replace it
+      - identify if changes to other variables can replace a variable, and whether those changes just produce the variable that was removed
 
   - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, they will continue
     
