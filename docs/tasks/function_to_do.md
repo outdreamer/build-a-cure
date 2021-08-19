@@ -48,6 +48,7 @@
         - their leaders/prophets are limited by their lack of intelligence 
           - the quran is not absolute truth, even if some of its statements make them feel good/powerful/valid bc it portrays men as superior, bc it was written by a defective mind incapable of logic
           - men are just a product of genes/hormones/nutrients like women are
+            - most people are stupid, and stupid people are creepy, but stupid people can learn, they just need to practice thinking and get over the pain threshold that they experience whenever they think, which is all thats holding them back
           - 'blasphemy' is just noticing an error, which is a good thing because it allows someone to improve their system, and they should be happy that someone communicated the error to them, because that means the person thinks theyre capable of fixing the error, rather than abandoning them to failure
           - the way to handle a negative truth is not to destroy truth-tellers but to be better at handling & telling the truth than they are, or better than them in some other way like solving problems better
             - if they were funnier/smarter than women, they would be able to control women without guns, but instead they have to kill & threaten to control people
@@ -75,7 +76,9 @@
           - they think power is 'ability to abuse without being abused back', which is just luck & lack of structures designed to punish every criminal, so really they are worshipping random (equal probability of outcomes), a far simpler concept, not power
           - the definition route of power (in relation to social interactions, on the 'social interface') is actually 'being depended on', which very few people would want once they knew that
           - if we punished every criminal immediately as soon as they do a crime, or prevent all crime by identifying intent by brain scans, thats just manually assigning rewards/costs & using rewards/costs to force behavior, so there is no meaning of good behavior, because we created a reward for being good so good actions might just be to get the reward, rather than to be good
-            - rather than doing this, we should distribute intelligence, so that everyone can make good decisions & solve problems without attacking innocent people, and without being totally controlled by rewards/costs, because smart people can justify doing the right thing with logic or other methods, even when there is no good feeling associated with it (or bad feeling associated with not doing it)
+            - rather than doing this, we should distribute intelligence, so that everyone can make good decisions & solve problems without attacking innocent people, and without being totally controlled by rewards/costs, because smart people can justify doing the right thing with logic/potential or other methods, even when there is no good feeling associated with it (or bad feeling associated with not doing it)
+            - if we can push humanity over the rainbow of the intelligence deficit, society will be efficient & problems will be solved much more quickly
+              - once that happens, people can build interesting new games & tools like gene-editing tech to add superpowers and we may even attract aliens who need our technology
 
     - examples of connecting/equating opposing/conflicting perspectives
 
