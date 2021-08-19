@@ -88,6 +88,14 @@
         - a function that diverges from the original function in an opposite/different direction is a 'contradiction' of the original function (though it could also be an 'error' structure if misinformed or otherwise falsely constructed)
         - an outlier of a function is another contradiction structure
         - true/false difference: an assumption that something is true, like that something is required, can be proved false by finding another way to generate the output without the requirement
+        - identifying whether an assumption or other solution component is 'relevant/meaningful' is another source of finding contradiction structures - if something is misapplied in the wrong context where it doesnt fit, the conclusions based on it are likelier to be false
+          - how to tell if an assumption doesnt fit
+            - if it contradicts a requirement
+            - if its inputs/outputs dont fit with the inputs/outputs of the functions its connected with
+            - if it interacts with other components of the system where its injected in ways that change their assumptions/requirements/inputs/outputs
+        - identifying whether you can change the system to match/contradict the assertion is another source of finding contradictions
+          - it may not be true where its applied, but can it be made true with available operations in a similar position/structure or within the same system?
+        - opposite structures of contradictions (consistencies/similarities) are another useful source of contradiction structures by definition, as well as inputs to contradiction structures like variables & maximally different objects from those in the assertion (to maximize the chance of finding a contradiction)
     - find a space where these contradiction structures are clearly identifiable and differentiable from non-contradiction (confirmation/matching/similarity) structures
       - an object node network might make the 'diverging function' structure obviously different from a converging function
       - a function that cannot generate the outlier from the inputs/components/assumptions of the function would make it obvious that the outlier is a real contradiction
