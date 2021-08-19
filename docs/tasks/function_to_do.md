@@ -11,6 +11,9 @@
     - math-logic structures of 'reference' ('self-reference' as 'recursion', 'identity or unit reference' as 'variable label', 'combinations of multiple reference sets' as 'nested loops', 'contradiction' as 'opposite' structures like 'booleans' or 'difference' structures in 'continuous variable values')
     - connect 'complexity' and 'reference' concepts using math structures ('self-reference' adds complexity x, 'iterate reference sets' adds complexity y)
 
+  - add to ml
+    - identify ability of a variable to contribute to the output by how much it can contribute once you apply conversion functions to change it (how powerful/robust its contribution is)
+
   - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, they will continue
     
   - example of structures of usefulness in a problem space, like identifying useful functions & function structures

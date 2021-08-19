@@ -20,7 +20,7 @@
 
 - lack of understanding of people is a cause of war
 
-    - people tend to think only on the structural interface, which is why structure is so important to them and they have trouble thinking of concepts that lack structure, or lack of structure/certainty in the form of complexity/questions
+    - people tend to think only on the simplest, most measurable & experience-able structural interface (the information interface, or physics interface), which is why physical structures are so important to them & control them, and why they have trouble thinking of concepts that lack structure, or lack of structure/certainty in the form of complexity/questions
       - the meaning interface is where most of their mental operations should take place, which will make their lives a lot better bc they'll be smarter, independent, & free, because they'll be more capable of managing/solving their own problems
 
     - examples of connecting/equating opposing/conflicting perspectives
