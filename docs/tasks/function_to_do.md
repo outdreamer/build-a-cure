@@ -86,6 +86,7 @@
         - if they were smart, they would have designed an organized, efficient society that was solving problems better than other societies, and theyre not
           - they didnt even come up with machine learning, which is just a way to update variable interactions by filtering out or de-prioritizing variable interactions that dont work, which most people should be able to come up with once they can think
         - if they dont believe me about how hormones control them, they should take libido-altering drugs to see how differently they think, and to identify that they are subject to hormonal control, just like their victims are
+          - they can also be turned gay just like women can, bc attraction is largely determined by experiences (who is portrayed as good to them, as in 'having good qualities like confidence/certainty or competence/intelligence/potential') in addition to hormones
 
     - examples of connecting/equating opposing/conflicting perspectives
 
@@ -167,7 +168,12 @@
 
   - add to solution automation workflows
 
-    - integrate other sources of certainty than 'an update function' with a solution, so it applies:
+    - apply reasons not to use structures as a filter of structures to use for a solution
+      - example: the reason you dont want to use just rewards/costs is because if they have errors (which theyre likely to have), the solution fails
+        - identify other structures that can cause the entire solution to fail if they have errors, which make a solution fragile
+      - if multiple structures produce the same results, you need a structure that produces different results as a backup/alternative handler of differences, in case it has a reason to change (find the reasons a prediction function would change, or 'change causes' and apply them as a reason to add a change handler to a solution)
+
+    - integrate other sources of certainty than 'an update function' with a solution, so it applies interface analysis to generate a specific solution generator for a problem, rather than the general solution-generator that is interface analysis used to automate problem-solving:
       
       - rules of optimization & certainty-development like:
         - build from understanding (meaning interface) first, rather than building to get understanding
