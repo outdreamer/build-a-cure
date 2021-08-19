@@ -125,6 +125,13 @@
 			- generate my invention
 			- self-optimize (requires human input on what is considered an error/cost)
 
+		  - 'ml & a search form apply filters too, so everyone would eventually have invented interface analysis'
+		  	- first of all, the default invention someone would come up with to 'automate problem-solving' is just a rules or solution database
+		    - secondly, someone other than these people invented ml, bc the creators of ml are dead, but luckily someone explained their invention to these people, who now pretend to be smart
+		    - thirdly, ml applies filters of neural network nodes to filter out info that doesnt change the output, which is a very specific function relying on a very specific insight that doesnt automate problem-solving bc think of a case where 'the change in output wouldnt be possible from the input data' (which is all the ml can handle) either doesnt apply or changes, my invention applies filters in both an abstract & structural way to connect various important variables like causes/intent/potential/change in a way that allows these objects to be connected to create meaning
+		    - ml cant evaluate meaning, it can only tell if one variable changes another
+		    - my invention can evaluate meaning, such as whether the output of a query is relevant to the general problem-solving intent, if it contradicts another solution, if it solves another problem, if it creates another problem, etc
+
 		- one of the reasons machine learning could not have built my invention is that you'd have to tell it the answer by feeding it my code in order for it to ever get the answer right. It would not filter trillions of objects to identify the one rare structure that would work to automate solving all problems (a filter, which is the structure of the concept of an interface), because machine learning is not a fractal invention capable of self-awareness that would spontaneously invent itself, without being given explicit instructions on how to do so (feeding it my code) and optimized for that (told to solve all problems).
 
 		- another reason my invention is better is that my invention is built on & can generate understanding & meaning, whereas machine learning can generate insights. My invention is built on core information structures like change (root cause of difference), cause (directed power), systems (integrated interacting objects), concepts (generalized objects, that can take form in many structures), which are fundamental building blocks of information relevant to humans, like understanding and meaning.

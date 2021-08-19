@@ -1,0 +1,42 @@
+  - how do you build a contradiction-identifying function:
+    - apply structures of contradictions:
+      - example: 
+        - a function that diverges from the original function in an opposite/different direction is a 'contradiction' of the original function (though it could also be an 'error' structure if misinformed or otherwise falsely constructed)
+        - an outlier of a function is another contradiction structure
+        - true/false difference: an assumption that something is true, like that something is required, can be proved false by finding another way to generate the output without the requirement
+        - identifying whether an assumption or other solution component is 'relevant/meaningful' is another source of finding contradiction structures - if something is misapplied in the wrong context where it doesnt fit, the conclusions based on it are likelier to be false
+          - how to tell if an assumption doesnt fit
+            - if it contradicts a requirement
+            - if its inputs/outputs dont fit with the inputs/outputs of the functions its connected with
+            - if it interacts with other components of the system where its injected in ways that change their assumptions/requirements/inputs/outputs
+        - identifying whether you can change the system to match/contradict the assertion is another source of finding contradictions
+          - it may not be true where its applied, but can it be made true with available operations in a similar position/structure or within the same system?
+          - there are degrees of contradiction, and an 'absolute contradiction' where an assertion is totally impossible is relatively rare compared to partially false assertions, based on provability/verifiability, bc someone is less likely to make a totally impossible claim (that could never be true in any system) than a partially false claim (that could be true with adjacent changes)
+            - structures of contradictions like partial contradictions are useful in determining the degree of contradiction
+        - opposite structures of contradictions (consistencies/similarities) are another useful source of contradiction structures by definition, as well as inputs to contradiction structures like variables & maximally different objects from those in the assertion (to maximize the chance of finding a contradiction)
+    - find a space where these contradiction structures are clearly identifiable and differentiable from non-contradiction (confirmation/matching/similarity) structures
+      - an object node network might make the 'diverging function' structure obviously different from a converging function
+      - a function that cannot generate the outlier from the inputs/components/assumptions of the function would make it obvious that the outlier is a real contradiction
+      - a function network can identify alternate routes to an output, to prove that a required input is not actually required, given the definition of a 'requirement' (an input necessary to generate the output)
+    - these methods apply interface structures like definitions, inputs/outputs, differences, & alternates to identify/exaggerate differences in the 'asserted true' & 'actual false' structures to make the asserted/actual structures obviously different
+    
+  - example of applying interface components to solve problem of 'generating arguments to make a point'
+    - change variable 'location of power':
+    - this company is welcome to build their own app store with their own phones or team up with their coalition to do so
+    - add variable 'time sequence' to 'location of power' change:
+      - if this company operates an app store someday, they will set rules to benefit themselves too, just like theyve done in the past
+    - offer an alternative to charging app store rate
+      - is there a one-click button to migrate from this company to the monopoly that could replace any difference in taxes on this company
+    - apply conceptual definition filter 'does concept of persecution (and related components of the definition like focus) apply to the behavior (does behavior have a specific target that is the focus of persecution)'
+    - are the monopoly's rules applied exclusively to this company? if not, it's not anti-competitive behavior
+    - apply intent filter
+    - is this company's mission nobler than the monopoly's
+    - apply system cost-benefit analysis
+    - what features were improved bc this company exists? are those features worth anything or required needs? did they develop those features better than competitors?
+    - if this company is just charging rent on a catalog, are they adding value to the market, so they should be allowed to dictate the market at all?
+    - what products/features would the monopoly develop if they didnt have to pay a fine, and what are those features worth, and are those features required?
+    - apply logical fallacy filters
+    - apply 'hypocrisy' filter
+      - apply 'anti-competitive' conceptual definition structures & test if these structures fit the opponent
+      - does this company plan on raising prices at some point or will they keep prices low even if the app store rate holds? are they only keeping prices low to dominate the market & plan on raising prices later? isnt that anti-competitive behavior?
+      - if they are so concerned about anti-competitive behavior, why arent they trying to compete by building their own app store? isnt there a risk that the apple app store is sub-optimal and needs to be improved with competition from this company
