@@ -57,10 +57,11 @@
         - rather than attacking people with violence, they can attack people with insults & comedy
           - if they want to feel powerful over a woman, all they have to do is make fun of her, and that should be enough for them & they shouldnt need to commit violence - if its not, their brains are defective & cant come up with a good joke
             - they should be aware of how insecure women are, how controlled by their needs they are just like men are, & how women oppress/attack themselves, and they wouldnt be threatened by their freedom anymore
-            - people exist to realize their potential to help people, people dont exist to be controlled
+            - people exist to realize their potential to help people & solve problems, people dont exist to be controlled, so smart people understand that the point of life is empowering people to realize their potential
         - the taliban dont understand that they are attacking the hormones & stupidity of other people, and that these things also control the taliban's leaders & prophets & supporters
         - the way to handle excessive hormones & stupidity is science such as thinking/medicine/education, not killing
           - if theyre afraid of women's sexual power, the way to handle that is by empowering men to control their sex drives, which would mean they dont need to control women & women will have less power over them
+            - the more power they have other themselves (the smarter they are), the less other people can control them & the less they will want power
         - they should try teaching my system to women and see if they can learn, which if theyre not malnourished or brain damaged, they will be able to learn, and will become smarter
         - if the taliban was already smart, they would have come up with my invention, clearly I need to teach them how to be smart
         - they shouldnt see themselves as a cohesive unit, but rather a cohesive system of components that can be replaced/upgraded that is constantly improving 
@@ -69,6 +70,12 @@
         - the taliban are so stupid they dont understand they were tricked into making war by the Russian govt & other entities that benefit/profit from war
         - they dont understand basic social dynamics like projecting, because they keep projecting the fact the they are controlled by hormones on to women (both men & women are controlled by hormones, people dont define themselves as a gender and arent controlled by hormones/stupidity), because theyre so stupid that all they can think of is stuff that has happened to them, they cant figure anything out unless its happened to them, so they can retrieve it from their memory, which is just a rules database, not real intelligence capable of adaptation & problem-solving
           - if they copy people's sub-optimal solutions instead of inventing more optimal solutions, thats another way to tell that theyre stupid
+        - their victims arent worthless by default, they are capable of learning & becoming smart enough to invalidate learning, if they have enough time to think like I did - if they did have time to think without being attacked or afraid (forced to think about only one thing - survival), they would have developed intelligence
+        - their definition of power is flawed
+          - they think power is 'ability to abuse without being abused back', which is just luck & lack of structures designed to punish every criminal, so really they are worshipping random (equal probability of outcomes), a far simpler concept, not power
+          - the definition route of power (in relation to social interactions, on the 'social interface') is actually 'being depended on', which very few people would want once they knew that
+          - if we punished every criminal immediately as soon as they do a crime, or prevent all crime by identifying intent by brain scans, thats just manually assigning rewards/costs & using rewards/costs to force behavior, so there is no meaning of good behavior, because we created a reward for being good so good actions might just be to get the reward, rather than to be good
+            - rather than doing this, we should distribute intelligence, so that everyone can make good decisions & solve problems without attacking innocent people, and without being totally controlled by rewards/costs, because smart people can justify doing the right thing with logic or other methods, even when there is no good feeling associated with it (or bad feeling associated with not doing it)
 
     - examples of connecting/equating opposing/conflicting perspectives
 
