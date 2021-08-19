@@ -95,6 +95,8 @@
             - if it interacts with other components of the system where its injected in ways that change their assumptions/requirements/inputs/outputs
         - identifying whether you can change the system to match/contradict the assertion is another source of finding contradictions
           - it may not be true where its applied, but can it be made true with available operations in a similar position/structure or within the same system?
+          - there are degrees of contradiction, and an 'absolute contradiction' where an assertion is totally impossible is relatively rare compared to partially false assertions, based on provability/verifiability, bc someone is less likely to make a totally impossible claim (that could never be true in any system) than a partially false claim (that could be true with adjacent changes)
+            - structures of contradictions like partial contradictions are useful in determining the degree of contradiction
         - opposite structures of contradictions (consistencies/similarities) are another useful source of contradiction structures by definition, as well as inputs to contradiction structures like variables & maximally different objects from those in the assertion (to maximize the chance of finding a contradiction)
     - find a space where these contradiction structures are clearly identifiable and differentiable from non-contradiction (confirmation/matching/similarity) structures
       - an object node network might make the 'diverging function' structure obviously different from a converging function
