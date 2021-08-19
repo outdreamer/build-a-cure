@@ -58,6 +58,7 @@
         - rather than attacking people with violence, they can attack people with insults & comedy
           - if they want to feel powerful over a woman, all they have to do is make fun of her, and that should be enough for them & they shouldnt need to commit violence - if its not, their brains are defective & cant come up with a good joke
             - they should be aware of how insecure women are, how controlled by their needs they are just like men are, & how women oppress/attack themselves, and they wouldnt be threatened by their freedom anymore
+              - they should how much women copy me to avoid work even though women know that copying me hurts innocent people I could help, and how much women attack me just bc I dont compliment them enough to fix their insecurities, theyre all afraid of being replaced & are willing to kill innocent people to avoid being replaced, and they'll never be afraid of or impressed by women again once they know how creepy they are & how many crimes theyll do to avoid work or the slightest inconvenience - this is one of the reasons smart people have a low sex drive, bc most people are stupid & stupid people are creepy criminals who will do anything to avoid work (unless you give them plenty of time & education to learn how to think, because every structural problem is fixable, and stupidity is just another structural problem)
             - people exist to realize their potential to help people & solve problems, people dont exist to be controlled, so smart people understand that the point of life is empowering people to realize their potential
         - the taliban dont understand that they are attacking the hormones & stupidity of other people, and that these things also control the taliban's leaders & prophets & supporters
         - the way to handle excessive hormones & stupidity is science such as thinking/medicine/education, not killing
@@ -65,6 +66,7 @@
             - the more power they have other themselves (the smarter they are), the less other people can control them & the less they will want power
         - they should try teaching my system to women and see if they can learn, which if theyre not malnourished or brain damaged, they will be able to learn, and will become smarter
         - if the taliban was already smart, they would have come up with my invention, clearly I need to teach them how to be smart
+          - if their leaders were smart, they would be teaching their followers how to be smart, but theyre not
         - they shouldnt see themselves as a cohesive unit, but rather a cohesive system of components that can be replaced/upgraded that is constantly improving 
           - if they do see themselves as a unit, they will feel bad whenever they make any error or bad decision at all
         - if they ever got true power, which is where people depend on them, they wouldnt want it anymore, so I know theyre not smart because of their aggressive pursuit of power, when if they were really smart, they would be trying to empower other people who need/deserve it, like oppressed people
@@ -74,11 +76,16 @@
         - their victims arent worthless by default, they are capable of learning & becoming smart enough to invalidate learning, if they have enough time to think like I did - if they did have time to think without being attacked or afraid (forced to think about only one thing - survival), they would have developed intelligence
         - their definition of power is flawed
           - they think power is 'ability to abuse without being abused back', which is just luck & lack of structures designed to punish every criminal, so really they are worshipping random (equal probability of outcomes), a far simpler concept, not power
+            - their requirement of total loyalty is also flawed
+              - if they were good & adding value to people's lives, people would want to be a part of their community, but theyre not so they have to try to force people to be loyal
           - the definition route of power (in relation to social interactions, on the 'social interface') is actually 'being depended on', which very few people would want once they knew that
-          - if we punished every criminal immediately as soon as they do a crime, or prevent all crime by identifying intent by brain scans, thats just manually assigning rewards/costs & using rewards/costs to force behavior, so there is no meaning of good behavior, because we created a reward for being good so good actions might just be to get the reward, rather than to be good
+          - if we punished every criminal immediately as soon as they do a crime, or prevent all crime by identifying intent by brain scans, thats just manually assigning rewards/costs & using rewards/costs to force behavior, so there is no meaning of good behavior, because we created a reward for being good so good actions might just be to get the reward, rather than just to do the right thing or help people realize their potential
             - rather than doing this, we should distribute intelligence, so that everyone can make good decisions & solve problems without attacking innocent people, and without being totally controlled by rewards/costs, because smart people can justify doing the right thing with logic/potential or other methods, even when there is no good feeling associated with it (or bad feeling associated with not doing it)
             - if we can push humanity over the rainbow of the intelligence deficit, society will be efficient & problems will be solved much more quickly
               - once that happens, people can build interesting new games & tools like gene-editing tech to add superpowers and we may even attract aliens who need our technology
+        - if they were smart, they would have designed an organized, efficient society that was solving problems better than other societies, and theyre not
+          - they didnt even come up with machine learning, which is just a way to update variable interactions by filtering out or de-prioritizing variable interactions that dont work, which most people should be able to come up with once they can think
+        - if they dont believe me about how hormones control them, they should take libido-altering drugs to see how differently they think, and to identify that they are subject to hormonal control, just like their victims are
 
     - examples of connecting/equating opposing/conflicting perspectives
 
