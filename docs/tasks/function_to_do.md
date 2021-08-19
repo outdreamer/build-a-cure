@@ -89,7 +89,7 @@
       - rules of optimization & certainty-development like:
         - build from understanding (meaning interface) first, rather than building to get understanding
           - new information & rules discovered should usually sync with previous information & rules & other interface structures, as there is rarely a discovery that requires a change to many/all known rules, and these discoveries follow patterns & rules as well
-        - build in learning/update functionality to allow injection of new information to correct understanding
+        - build in learning/update functionality at every point to allow injection of new information to correct understanding & understanding-derivation/generation/finding methods
         - build in functionality to assess the comparable reasons a solution/prediction/answer is right/wrong
           - this is to filter out solutions that have more reasons it could be wrong compared to other solutions or compared to reasons it could be right (like being 'possible' with known rules)
         - build in functionality to evaluate the probable error types & cost of those error types for any given solution, compared to other solutions, and rules to minimize error costs (like generalization, updating quickly with new information, identifying the reasons for contradictory/confirming information, identifying sources of bias & other error types, etc)
@@ -97,8 +97,16 @@
       
       - so that the system can do other operations than just 'make a prediction of a variable interaction function', like:
         - predicting updates to their prediction function
+          - by understanding that the differences in data sets & prediction functions follow patterns with varying success, and that ml is a pattern-identification tool, ml can be applied to predict how a particular algorithm will create a prediction function from a data set, given patterns of differences between inputs/outputs of a particular algorithm/parameters/network applied to a data set, and given how ml is applied in similar cases like with complex data sets of many variables that vary on subtle differences that humans are often unable to identify, or on understanding that humans havent built in that domain yet
+          - by understanding that the types of problems humans find difficult is likely to mimic the meaning & understanding & other interface components of other systems, ml can be applied to check for patterns of those structures first as an initial filter
         - predicting error types & costs of a solution
+          - understanding can generate error types of a prediction function like specificity, and these error types can be integrated into a solution with more certainty sources & types built in
         - predicting solution structures, variables, & optimal implementations
+          - understanding can identify: 
+            - patterns in prediction functions which make them easier to check/generate/find/derive
+            - the standard attributes of prediction functions like continuity, conditional subsets/alternates, averages, specificity, & probability distribution
+            - interface structures of prediction functions like sub-interfaces, assumptions, examples, contradictions, errors, causes, concepts, intents, logic, & probable changes
+            - solution structures like topologies of solution variables that have peaks at optimal solutions, or solution components/inputs/requirements
         - identifying whether a solution confirms/contradicts existing structures & other sources of certainty, to identify probability of being correct
 
     - apply other changes/differences (like 'opposites' or 'gaps') (or patterns/generative functions of changes/differences) of error or error-relevant (like 'sub-optimal solution' structures) to identify what is not a solution & differentiate from it to find solutions
