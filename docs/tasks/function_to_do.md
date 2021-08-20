@@ -13,6 +13,10 @@
     - n-degree connections are only useful if the n-degree connections can be an input to the required target info (like 'n + 1 degree connections') of the function intent, and are processed in a way required to create that target info, and the processing functions are adjacent/available (so creating valuable info from the info format is trivial, meaning the info format is useful)
     - subsets are only useful if their parameters include the important subset capable of producing the required info
 
+  - this is bc if a system perists at all as it grows, it means there are structures like patterns keeping it in tact
+    - calculate core structures (like node-connection color combinations) possible with each configuration & patterns in those core structures & the interactions between these possible core structures, for combination structures that are invalidating (create a 'contradiction' structure indicating that solution should be filtered out, or by applying 'reverse-engineer' from a 'contradiction' structure to the core methods/structures available to create it)
+    - https://www.quantamagazine.org/new-math-proof-raises-lower-bounds-of-graph-randomness-20201104/
+
   - this 'activator + inhibitor' is just a combination of 'a function & a limit structure' (like an assertion/argument & a contradiction/counterargument, or a set & a filter, or an option/variable & a required value), which is a fundamental structure because everything has limits
     - https://www.quantamagazine.org/physicists-spot-turing-patterns-in-a-tiny-crystal-20210810/
     - questions
