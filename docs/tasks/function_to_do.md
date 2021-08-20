@@ -33,6 +33,7 @@
     - https://www.quantamagazine.org/how-big-data-carried-graph-theory-into-new-dimensions-20210819/
 
   - add to math mapping:
+    - tensors as structures of 'meta' or 'root' or 'self-reference'
     - math structures of 'certainty' ('inevitability', 'requirement')
     - math-logic structures of 'reference' ('self-reference' as 'recursion', 'identity or unit reference' as 'variable label', 'combinations of multiple reference sets' as 'nested loops', 'contradiction' as 'opposite' structures like 'booleans' or 'difference' structures in 'continuous variable values')
     - connect 'complexity' and 'reference' concepts using math structures ('self-reference' adds complexity x, 'iterate reference sets' adds complexity y)
