@@ -1,5 +1,7 @@
   - add to solution automation workflows
 
+    - identify patterns in limits on what info a function can find/derive/generate & apply those to rule out possible solution-finding functions to filter other functions that shouldnt be applied, or apply differences to those limited functions to find functions that can find/derive/generate the info
+
     - a generalization of my invention is 'abstracting a problem/solution in a structural way', thereby connecting the 'abstract' & 'structura' interfaces, the abstract interface being useful for identifying types, concepts, patterns & meaning, and the structure interface useful for identifying connections/similarities/differences, so their link is useful for finding connections/similarities/differences between definitions, types, meaning & other abstract structures
       - other interface structures combining/integrating other interfaces to each other are useful for other problem-solving intents, but this is a particularly useful structure (specifically a 'connection' structure) of interfaces
       - the reason why interfaces are useful is bc having the attribute of 'flexibility' in the form of 'multiple alternate formats' of info (multiple ways to format the same input info) that dont lose relevant information like interactions, makes it possible to use different functions and compare them more easily to other structures that another structure may already be in, making some comparisons (or other adjacent useful core operations) more trivial than others
