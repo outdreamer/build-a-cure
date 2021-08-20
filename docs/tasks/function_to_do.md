@@ -6,6 +6,26 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
 
+  - move examples from faq/drinkme/readme to docs
+
+  - this 'activator + inhibitor' is just a combination of 'a function & a limit structure' (like an assertion/argument & a contradiction/counterargument, or a set & a filter, or an option/variable & a required value), which is a fundamental structure because everything has limits
+    - https://www.quantamagazine.org/physicists-spot-turing-patterns-in-a-tiny-crystal-20210810/
+    - questions
+      - why are quantum mechanics more measurable at smaller scales? bc in order to be measurable at larger scales, quantum effects have to align so they can compound, but theyre likelier to neutralize each other or behave chaotically than to combine/align - why is that?
+      - examine quantum entanglement as a way of creating order based on equivalencies
+
+  - this is just making the 'cost to movement' higher than the 'cost to stability' to prevent possible interactions/movements
+    - https://www.quantamagazine.org/physicists-create-a-bizarre-wigner-crystal-made-purely-of-electrons-20210812/
+    - questions: 
+      - can you lock an electron into the same position as another (relative to other electrons) without them interacting (like merging) or triggering movement (like disrupting the state of matter)
+        - what are the limits on preventing interaction/movement in this state of matter?
+
+  - analyze & organize hypergraphs based on adjacencies/similarities (or maximized differences, or other measures of relevance) to construct a query of the graphs that would be required to create a composite graph representing aligned adjacent similarities across graphs
+    - meaning 'what traversal of the graphs in what arrangement would you have to execute to only cross graphs organized by similarities'
+    - if you standardize to highly reductive structures like 'connections' or 'interaction types' or 'differences once standardized for comparison' rather than 'specific objects', hypergraphs arent necessary
+    - they can also be replaced by 'queries of queries of a network graph' (as in 'query group attributes identified by a query to create the group sub-network of the network graph')
+    - https://www.quantamagazine.org/how-big-data-carried-graph-theory-into-new-dimensions-20210819/
+
   - add to math mapping:
     - math structures of 'certainty' ('inevitability', 'requirement')
     - math-logic structures of 'reference' ('self-reference' as 'recursion', 'identity or unit reference' as 'variable label', 'combinations of multiple reference sets' as 'nested loops', 'contradiction' as 'opposite' structures like 'booleans' or 'difference' structures in 'continuous variable values')
