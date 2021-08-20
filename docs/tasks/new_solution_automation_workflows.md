@@ -1,6 +1,8 @@
   - add to solution automation workflows
 
-    - apply reasons not to use structures as a filter of structures to use for a solution
+    - apply functions that 'create/maintain info' for intents that 'require more info' (and the opposite for intents 'requiring less info') as an alternate useful structure (the standard info format of 'info changes' as opposed to 'inputs/outputs' or 'connections/equivalences/similarities/differences/opposites') to input/output differences/sequences (as in 'a sequence of functions that add info' as a solution-finding interface query, rather than a 'sequence of input-output connections/differences'), since problems are often adjacently formatted as a 'missing info' problem, so 'functions that add info' are a particularly useful solution structure
+
+    - apply reasons to use/not use structures as a filter of structures to use for a solution
       - example: the reason you dont want to use just rewards/costs is because if they have errors (which theyre likely to have), the solution fails
         - identify other structures that can cause the entire solution to fail if they have errors, which make a solution fragile
       - if multiple structures produce the same results, you need a structure that produces different results as a backup/alternative handler of differences, in case it has a reason to change (find the reasons a prediction function would change, or 'change causes' and apply them as a reason to add a change handler to a solution)
