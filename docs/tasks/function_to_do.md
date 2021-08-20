@@ -13,6 +13,18 @@
     - n-degree connections are only useful if the n-degree connections can be an input to the required target info (like 'n + 1 degree connections') of the function intent, and are processed in a way required to create that target info, and the processing functions are adjacent/available (so creating valuable info from the info format is trivial, meaning the info format is useful)
     - subsets are only useful if their parameters include the important subset capable of producing the required info
 
+  - the structure of the 'middle graphs' can be derived either from applying 'break a problem into sub-problems' workflow or 'identify components of a structure to identify how its built'
+    - the proportion allows for structural stability of the graph, while also allowing for structures that have a limit on their development while the whole graph's structure can be maintained (odd-odd sub-graphs have a limit on how much they can grow while the whole graph maintains its definition)
+    - apply useful structures like patterns of upper/lower bounds of sub-structures in graph structures to find the converging value of the minimum
+    - the differences in structure between 'the method used to find a lower bound' and the 'lower bound found' and the 'the actual lower bound' are a relevant source of patterns, bc the method used can only produce so much accuracy for structural reasons
+    - https://www.quantamagazine.org/mathematicians-answer-old-question-about-odd-graphs-20210519/
+
+  - isomorphism is a 'structural alignment' where relevant structural attributes are equal
+    - apply patterns in 'attribute-preservation across operations' to determine what attributes will be preserved when one object type is converted to another, when those types arent isomorphic (dont map to each other as defined), to predict attributes of an object type various operations & operation types away from a known type
+    - standardize the formats to make them more comparable
+      - use a standard graph that represents an average of the isomorphic graphs as the basis for determining isomorphism with other averages/standard forms of other object types
+    - https://www.quantamagazine.org/mathematicians-solve-decades-old-classification-problem-20210805/
+
   - this is bc if a system perists at all as it grows, it means there are structures like patterns keeping it in tact
     - calculate core structures (like node-connection color combinations) possible with each configuration & patterns in those core structures & the interactions between these possible core structures, for combination structures that are invalidating (create a 'contradiction' structure indicating that solution should be filtered out, or by applying 'reverse-engineer' from a 'contradiction' structure to the core methods/structures available to create it)
     - https://www.quantamagazine.org/new-math-proof-raises-lower-bounds-of-graph-randomness-20201104/
