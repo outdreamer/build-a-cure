@@ -1,5 +1,8 @@
   - add to solution automation workflows
 
+    - a generalization of my invention is 'abstracting a problem/solution in a structural way', thereby connecting the 'abstract' & 'structura' interfaces, the abstract interface being useful for identifying types, concepts, patterns & meaning, and the structure interface useful for identifying connections/similarities/differences, so their link is useful for finding connections/similarities/differences between definitions, types, meaning & other abstract structures
+      - other interface structures combining/integrating other interfaces to each other are useful for other problem-solving intents, but this is a particularly useful structure (specifically a 'connection' structure) of interfaces
+
     - generalize your method of finding a specific useful structure (like lattice multiplication uses) to find a solution to a specific problem (like the multiplication problem), rather than relying on standard useful interface structures to easily compare/connect/reduce/organize problem/solution structures
       - how would you find a specific useful structure to solve a specific problem, such as the structure used in lattice multiplication or a tensor (matrix of matrices) used to solve the problem of 'determining differences between objects'?
         - find a structure that makes the required info obvious (structural)
