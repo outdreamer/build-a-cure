@@ -8,6 +8,11 @@
 
   - move examples from faq/drinkme/readme to docs
 
+  - like other functions, ml algorithms/structures are only as useful as the potential value of the info formats they create & depend on (subsets, connections), which creates errors when used for non-compliant intents with that particular format (like intents requiring a different type/variant of the format)
+    - democracy is only useful if the groups that vote represent the population
+    - n-degree connections are only useful if the n-degree connections can be an input to the required target info (like 'n + 1 degree connections') of the function intent, and are processed in a way required to create that target info, and the processing functions are adjacent/available (so creating valuable info from the info format is trivial, meaning the info format is useful)
+    - subsets are only useful if their parameters include the important subset capable of producing the required info
+
   - this 'activator + inhibitor' is just a combination of 'a function & a limit structure' (like an assertion/argument & a contradiction/counterargument, or a set & a filter, or an option/variable & a required value), which is a fundamental structure because everything has limits
     - https://www.quantamagazine.org/physicists-spot-turing-patterns-in-a-tiny-crystal-20210810/
     - questions
@@ -21,9 +26,10 @@
         - what are the limits on preventing interaction/movement in this state of matter?
 
   - analyze & organize hypergraphs based on adjacencies/similarities (or maximized differences, or other measures of relevance) to construct a query of the graphs that would be required to create a composite graph representing aligned adjacent similarities across graphs
-    - meaning 'what traversal of the graphs in what arrangement would you have to execute to only cross graphs organized by similarities'
+    - meaning 'what traversal of the graphs in what organization would you have to execute to only cross graphs organized by similarities'
     - if you standardize to highly reductive structures like 'connections' or 'interaction types' or 'differences once standardized for comparison' rather than 'specific objects', hypergraphs arent necessary
     - they can also be replaced by 'queries of queries of a network graph' (as in 'query group attributes identified by a query to create the group sub-network of the network graph')
+    - an interesting question is 'what configuration of a graph (or organization of graphs) reduces the number of queries that need to be run to answer all questions capable of being answered by the graph'
     - https://www.quantamagazine.org/how-big-data-carried-graph-theory-into-new-dimensions-20210819/
 
   - add to math mapping:
