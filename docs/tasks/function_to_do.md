@@ -6,7 +6,7 @@
     - or they can try exercising right after eating any carbs to avoid feeding the cancer cells with sugars, but they should still be restricting carbs regardless (zero carbs is better than any carbs during their treatment)
     - they can also methods to lower blood sugar or energy usage/production in general like fasting/resting or possibly a medically induced coma if fasting is too much
     - they might also want to avoid alcohols including some vitamins that are alcohols like vitamin a, d, & e (that means avoiding sunlight too)
-    - they can try adding salicylates like oral aspirin and/or topical salcylic acid as a complementary synergistic method
+    - they can try adding salicylates like oral aspirin and/or topical salcylic acid (pure form, not with any additives that contain sugar like glycerin) as a complementary synergistic method
     - in general, they should try avoiding giving the cancer any resources, so any resources they consume or are exposed to (including topical treatments) should be used by other processes to avoid giving the resources to cancer cells
       - this means if there is excess cell division resources, those need to be used to repair other cells than cancer cells (not suggesting a self-inflicted injury, but certainly exercise can use up some cell division resources to repair muscles)
       - they should be stimulating the area that has tumors as much as possible to increase blood flow (get a massage tool to increase blood flow to that area & exercise to increase general blood flow)
@@ -16,8 +16,8 @@
     - nutrients & any other substances like salicylates should be taken in small amounts at first, very slowly increasing once there are signs of progress
     - not all cancers are fed by sugar but reducing it will help - some cancers rely on vitamins that enable core cancerous processes like cell division, and some cancers rely on an impaired immune system, or lack of oxygen, or lack of blood flow, or lack of cell communication
       - these metrics are helped with positive stressors like deep breathing, exercise, and increasing blood flow to areas with tumors - the cells on the inside of the tumor needs to be able to communicate with the outside in order for the immune system to able to do its job, so breaking up the tumor is important if possible without harming other important processes
-
     - doctors dont always know the answer so ask scientists at universities where possible
+    - this treatment protocol is very strict & unpleasant (plenty of rest, regular sleep, some aerobic exercise, minimizing calories, only eating refined oil & collagen protein & removing some vitamins, doing deep breathing & massage for a period of several weeks or months) but it could work for some cancers & is worth trying, possibly with cancer treatments for specific cancers
 
   - look up ways that pathogens or existing bio processes can use tumors for energy or other inputs, or enzymes that could process cancer cells
     - look up other vitamins that enable cell growth/division that can be restricted temporarily
