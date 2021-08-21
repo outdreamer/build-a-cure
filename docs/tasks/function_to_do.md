@@ -12,6 +12,15 @@
       - they should be stimulating the area that has tumors as much as possible to increase blood flow (get a massage tool to increase blood flow to that area & exercise to increase general blood flow)
       - if they cant guarantee that the tumor wont get resources, they shouldnt be consuming or exposing themselves to those resources at all if possible (this means avoiding sugar and reducing calories as much as possible while still supporting basic functions)
       - their sleep schedule should be as regular as possible bc that helps align their system so repair processes can function properly
+      - this diet needs to be applied consecutively with as few breaks as possible, possibly for a few weeks to a few months before it will start having potential to be helpful in severe cases, but even a few days is better than none
+    - nutrients & any other substances like salicylates should be taken in small amounts at first, very slowly increasing once there are signs of progress
+    - not all cancers are fed by sugar but reducing it will help - some cancers rely on vitamins that enable core cancerous processes like cell division, and some cancers rely on an impaired immune system, or lack of oxygen, or lack of blood flow, or lack of cell communication
+      - these metrics are helped with positive stressors like deep breathing, exercise, and increasing blood flow to areas with tumors - the cells on the inside of the tumor needs to be able to communicate with the outside in order for the immune system to able to do its job, so breaking up the tumor is important if possible without harming other important processes
+
+    - doctors dont always know the answer so ask scientists at universities where possible
+
+  - look up ways that pathogens or existing bio processes can use tumors for energy or other inputs, or enzymes that could process cancer cells
+    - look up other vitamins that enable cell growth/division that can be restricted temporarily
 
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
