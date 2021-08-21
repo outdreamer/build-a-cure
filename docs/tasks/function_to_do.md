@@ -2,6 +2,8 @@
 
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
+  - people with cancer should try restricting their diet to just fat & protein (refined oil with no vitamins and collagen protein with no sugar) and removing vitamins that help with cell division (like b vitamins) to see if their cancer type is using those vitamins & sugar as nutrients
+
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
