@@ -2,28 +2,6 @@
 
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
-  - people with cancer should try restricting their diet to just fat & protein (refined oil with no vitamins and collagen protein with no sugar) and removing vitamins that help with cell division (like b vitamins) temporarily (like for a few weeks, supervised by a doctor, and longer if possible according to their doctor) to see if their cancer type is using those vitamins & sugar as nutrients
-    - or they can try exercising right after eating any carbs to avoid feeding the cancer cells with sugars, but they should still be restricting carbs regardless (zero carbs is better than any carbs during their treatment)
-    - they can also methods to lower blood sugar or energy usage/production in general like fasting/resting or possibly a medically induced coma if fasting is too much
-    - they might also want to avoid alcohols including some vitamins that are alcohols like vitamin a, d, & e (that means avoiding sunlight too)
-    - they can try adding salicylates like oral aspirin and/or topical salcylic acid (pure form, not with any additives that contain sugar like glycerin) as a complementary synergistic method
-    - in general, they should try avoiding giving the cancer any resources, so any resources they consume or are exposed to (including topical treatments) should be used by other processes to avoid giving the resources to cancer cells
-      - this means if there is excess cell division resources, those need to be used to repair other cells than cancer cells (not suggesting a self-inflicted injury, but certainly exercise can use up some cell division resources to repair muscles)
-      - they should be stimulating the area that has tumors as much as possible to increase blood flow (get a massage tool to increase blood flow to that area & exercise to increase general blood flow)
-      - if they cant guarantee that the tumor wont get resources, they shouldnt be consuming or exposing themselves to those resources at all if possible (this means avoiding sugar and reducing calories as much as possible while still supporting basic functions)
-      - their sleep schedule should be as regular as possible bc that helps align their system so repair processes can function properly
-      - this diet needs to be applied consecutively with as few breaks as possible, possibly for a few weeks to a few months before it will start having potential to be helpful in severe cases, but even a few days is better than none
-    - nutrients & any other substances like salicylates should be taken in small amounts at first, very slowly increasing once there are signs of progress
-    - not all cancers are fed by sugar but reducing it will help - some cancers rely on vitamins that enable core cancerous processes like cell division, and some cancers rely on an impaired immune system, or lack of oxygen, or lack of blood flow, or lack of cell communication
-      - these metrics are helped with positive stressors like deep breathing, exercise, and increasing blood flow to areas with tumors - the cells on the inside of the tumor needs to be able to communicate with the outside in order for the immune system to able to do its job, so breaking up the tumor is important if possible without harming other important processes
-    - doctors dont always know the answer so ask scientists at universities where possible
-    - this treatment protocol is very strict & unpleasant (plenty of rest, regular sleep, some aerobic exercise, minimizing calories, only eating refined oil & collagen protein & removing some vitamins, doing deep breathing & massage for a period of several weeks or months) but it could work for some cancers & is worth trying, possibly with cancer treatments for specific cancers (but those should done in moderation or at alternate intervals too, to give the system space to function normally, as some treatment are brutal on the immune system)
-    - this isnt a permanent fix and may need to be done at regular intervals to prevent re-occurrence
-    - a period of no nutrients (except electrolytes to keep them in balance) but including small amounts of enzymes/salicylates may be a good place to start, then slowly add vitamins/minerals that dont feed or enable cancer processes & refined oil & protein back in
-
-  - look up ways that pathogens or existing bio processes can use tumors for energy or other inputs, or enzymes that could process cancer cells
-    - look up other vitamins that enable cell growth/division that can be restricted temporarily
-
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
