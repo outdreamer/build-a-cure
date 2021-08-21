@@ -3,6 +3,14 @@
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
   - people with cancer should try restricting their diet to just fat & protein (refined oil with no vitamins and collagen protein with no sugar) and removing vitamins that help with cell division (like b vitamins) to see if their cancer type is using those vitamins & sugar as nutrients
+    - or they can try exercising right after eating any carbs to avoid feeding the cancer cells with sugars, but they should still be restricting carbs regardless
+    - they can also methods to lower blood sugar or energy usage/production in general like fasting/resting or possibly a medically induced coma if fasting is too much
+    - they might also want to avoid alcohols including some vitamins that are alcohols like vitamin a, d, & e (that means avoiding sunlight too)
+    - they can try adding salicylates like oral aspirin and/or topical salcylic acid as a complementary synergistic method
+    - in general, they should try avoiding giving the cancer any resources, so any resources they consume or are exposed to (including topical treatments) should be used by other processes to avoid giving the resources to cancer cells
+      - this means if there is excess cell division resources, those need to be used to repair other cells than cancer cells (not suggesting a self-inflicted injury, but certainly exercise can use up some cell division resources to repair muscles)
+      - they should be stimulating the area that has tumors as much as possible to increase blood flow (get a massage tool to increase blood flow to that area & exercise to increase general blood flow)
+      - if they cant guarantee that the tumor wont get resources, they shouldnt be consuming or exposing themselves to those resources at all if possible (this means avoiding sugar and reducing calories as much as possible while still supporting basic functions)
 
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
