@@ -3,16 +3,21 @@
     - identify & apply patterns of a particular problem space's variables (like 'input context', 'solution-finding method params', 'variable interaction structures', 'problem/solution structures') as inputs to data/function optimizations
       - example:
         - apply patterns of differences between network params & interface structures like variable interactions (such as 'adjacent features') & variable types (like 'type' variables) it can identify, to generate the right network params to identify the maximum number of relevant structures & not identify irrelevant structures
-        - apply patterns of differences between worst/best/average/other case contexts to identify if a data set is a 'worst case' or 'average case' or 'best case' context, to generate the right differences to identify other cases to weight it against
+        - apply patterns of differences between worst/best/average/other/outlier/alternate/noise/error case contexts to identify if a data set is a 'worst case' or 'average case' or 'best case' context, to generate the right differences to identify other cases to weight it against
         - apply patterns of differences between an original problem & a useful system to apply rules/structures from to find relevant useful systems to apply rules/structures from to solve the original problem
 
-    - apply other specific but generalizable problem formats with known solution methods having useful structures like similar inputs/outputs or similar problem-solving intents like 'reduce' (such as 'find a prediction function', 'find a sort algorithm of a sequence to find a particular value quickly') as sources of solution formats & methods for the original problem, converting the specific problem/solution format to the original problem & applying solution methods from the specific problem to solve the original problem once converted to specific problem structures
+    - apply other specific but generalizable problem formats with known solution methods having useful connection structures to the original problem, like similar inputs/outputs or similar problem-solving intents like 'reduce' (such as 'find a prediction function', 'find a sort algorithm of a sequence to find a particular value quickly'), to apply as sources of solution formats & methods for the original problem, converting the specific problem/solution format to the original problem & applying solution methods from the specific problem to solve the original problem once converted to specific problem structures
 
       - example: 'sorting algorithms' applied to the 'find a prediction function' problem could take the form of 'starting the search in the middle' which would take the form of the 'average/regression line of the data set' or 'applying two sorts in parallel starting from different positions' which would take the form of 'alternate prediction functions from maximally different bases or standard functions' when converted back to the original problem 
 
       - these specific problems have solutions that are generalizable to other systems
         - 'sorting' structures can be used in place of 'filter/test' structures bc they have similar inputs/outputs
         - just like an 'average' structure or a 'dimension-reducing' or 'feature-selecting' method can 'reduce' the problem of 'find a prediction function'
+
+      - the generalization of this is 'find the interface structures that are relevant to solving problems', with examples like:
+        - 'specific function' ('abstract' variable as 'specificity' applied to 'function' interface structure), which is useful for solution workflows involving 'finding specific functions that all problems can be converted to'
+        - 'function cause' (or 'function inputs', like 'function requirements/assumptions/variables/triggers'), which is useful for solution workflows involving 'finding a generative function of a function'
+        - these structures are particularly useful for solving problems bc they involve inherently useful interface structures (functions) which is a format all problems can be converted to, and apply attributes to those useful objects (like 'cause' or 'abstraction') to identify other useful structures that would be useful for solving problems, given that a function is already known to be a useful structure for solving problems
 
     - identify patterns in limits on what info a function can find/derive/generate & apply those to rule out possible solution-finding functions to filter other functions that shouldnt be applied, or apply differences to those limited functions to find functions that can find/derive/generate the info
 
