@@ -183,6 +183,11 @@
 
     - different origin/inputs/data can produce a solution faster, even invalidating any update/learning process (if you have the right info, a solution may be obvious and no learning is required, as your data is optimized so no learning optimization is required)
 
+      - what info is stored in memory matters, and the learning rules used to update it or the alternatives like understanding that can be used to replace it, but the format in which info is stored also matters
+        - info stored in a non-findable way is not useful, just like repeated info is not useful
+        - this can be thought of as the corrollary (or pre-requisite to/invalidator of) of 'input data optimizations', as 'output data optimizations' before storage, so that info is stored in a way that maximizes its usefulness for future uses/intents
+        - 'data processing optimizations' is another position where optimization structures can be added to optimize other intents like learning/understanding/finding
+
       - apply data optimizations (pre-processing) to find/create optimal data to reduce learning requirements
         - prioritize rules that generate or form a basis for other rules, like physics rules, so any info that reveals physics rules is highly prioritized
         - this includes rules like 'apply change patterns & other change structures to data that typically produce solutions'
