@@ -1,6 +1,8 @@
   - add to solution automation workflows
 
-    - apply other specific but generalizable problem formats with known solution methods having useful structures like similar inputs/outputs or similar problem-solving intents like 'reduce' ('find a prediction function', 'sort a sequence to find a particular value quickly') as sources of solution formats & methods for the original problem, converting the specific problem/solution format to the original problem & applying solution methods from the specific problem to solve the original problem once converted to specific problem structures
+    - apply patterns of worst vs. best case contexts to identify if a data set is a 'worst case' or 'average case' or 'best case' context, to generate the right differences to identify other cases to weight it against
+
+    - apply other specific but generalizable problem formats with known solution methods having useful structures like similar inputs/outputs or similar problem-solving intents like 'reduce' (such as 'find a prediction function', 'find a sort algorithm of a sequence to find a particular value quickly') as sources of solution formats & methods for the original problem, converting the specific problem/solution format to the original problem & applying solution methods from the specific problem to solve the original problem once converted to specific problem structures
 
       - example: 'sorting algorithms' applied to the 'find a prediction function' problem could take the form of 'starting the search in the middle' which would take the form of the 'average/regression line of the data set' or 'applying two sorts in parallel starting from different positions' which would take the form of 'alternate prediction functions from maximally different bases or standard functions' when converted back to the original problem 
 
