@@ -1,5 +1,9 @@
   - add to solution automation workflows
 
+    - apply other specific problem formats with known solution methods ('find a prediction function', 'sort a sequence to find a particular value quickly') as sources of solution formats & methods for the original problem, converting the specific problem/solution format to the original problem & applying solution methods from the specific problem to solve the original problem once converted to specific problem structures
+    
+      - example: 'sorting algorithms' applied to the 'find a prediction function' problem could take the form of 'starting the search in the middle' which would take the form of the 'average/regression line of the data set' or 'applying two sorts in parallel starting from different positions' which would take the form of 'alternate prediction functions from maximally different bases or standard functions' when converted back to the original problem 
+
     - identify patterns in limits on what info a function can find/derive/generate & apply those to rule out possible solution-finding functions to filter other functions that shouldnt be applied, or apply differences to those limited functions to find functions that can find/derive/generate the info
 
     - a generalization of my invention is 'abstracting a problem/solution in a structural way', thereby connecting the 'abstract' & 'structura' interfaces, the abstract interface being useful for identifying types, concepts, patterns & meaning, and the structure interface useful for identifying connections/similarities/differences, so their link is useful for finding connections/similarities/differences between definitions, types, meaning & other abstract structures
