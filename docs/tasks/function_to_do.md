@@ -14,6 +14,7 @@
       - how can cancer cells be converted to an energy source (enzymes, pathogens, alerting starved cells of the position of the cancer cell or moving it to a location where energy is needed)
       - how can entry points of dependencies (like vitamin D absorped from skin rather than diet, or lack of melanin that can lower impact of uv rays) be removed so that cancer is less likely to develop in the first place
       - what deadly components of structures like the antimicrobial impact of uv rays be preserved & used to kill cancer cells (can killer wavelengths be produced by immune cells when a cancer cell that doesnt respond to other methods is encountered)
+    - time as 'alignment' or 'connectivity' between multiple useful interface structures like 'change types/patterns' & 'connectible stable states'
 
   - move examples from faq/drinkme/readme to docs
 
