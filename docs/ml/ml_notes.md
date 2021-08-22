@@ -1,3 +1,8 @@
+- like other functions, ml algorithms/structures are only as useful as the potential value of the info formats they create & depend on (subsets, connections), which creates errors when used for non-compliant intents with that particular format (like intents requiring a different type/variant of the format)
+    - democracy is only useful if the groups that vote represent the population
+    - n-degree connections are only useful if the n-degree connections can be an input to the required target info (like 'n + 1 degree connections') of the function intent, and are processed in a way required to create that target info, and the processing functions are adjacent/available (so creating valuable info from the info format is trivial, meaning the info format is useful)
+    - subsets are only useful if their parameters include the important subset capable of producing the required info
+
 - problems like volatility ('slight input changes causing volatility in output') can be fixed with some general structures of optimization, like:
 	- generalization structures (rather than assigning a specific position, assign an approximate or general position involving the original node & neighboring nodes based on similarity, as in nodes with similar outputs)
 	- approximation structures, based on the insight that 'a very specific output (in the form of a 'prediction function') created by non-specific inputs ('network params', which are not perfectly customized/specific to the data set & problem type) is unlikely to be optimal in some way (as in 'robust'), bc the level of certainty achievable with a network is not create-able with the input certainty or the certainty achievable with the learning process given the network, and certainty cant come from nowhere'
