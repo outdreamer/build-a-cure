@@ -6,6 +6,15 @@
 			- so the 'non-random error structures' can be used to reduce the search/solution space of 'random sequences to apply trial & error to'
 			- this solution requires a structure (like a function) to handle 'finding the error structures & removing them from the search/solution space'
 			- this matches the difference in the problem space (meaning "an occasional 'non-random error structure' in the sequence") with a corresponding difference in the solution (a 'function to differentiate these error structures from random sequences to reduce overall value checks'), fulfilling the solution metric of 'a solution with fewer than n operations (such as value checks), n being the size of the sequence'
+			- there are many ways to fulfill this solution metric, with:
+				- varying trade-offs of other solution metrics like accuracy, depending on the method used to fulfill the solution metric
+				- varying applicability, in terms of which methods are useful, given a particular input or problem space (like a known error in an imperfect randomness function)
+			- methods of fulfilling this metric include:
+				- finding patterns in the sequence (such as sub-sequences of length k that have a relatively even distribution of possible values) approximating/predicting answers rather than checking them, based on which sub-sequences of length k would have an even distribution of possible values
+				- applying the same method, but applying it only to a subset of values (checking some values & predicting others)
+				- finding vulnerabilities in the random function & applying error structures to reduce the solution space
+				- feeding the sequence into a function that requires a random sequence and produces some structure of certainty when it finds a non-random sequence
+				- replacing with a generated random sequence, since the problem definition only requires that values in a random sequence be identified, and if a sequence is really random, it wont matter which random sequence is used
 
 - like other functions, ml algorithms/structures are only as useful as the potential value of the info formats they create & depend on (subsets, connections), which creates errors when used for non-compliant intents with that particular format (like intents requiring a different type/variant of the format)
     - democracy is only useful if the groups that vote represent the population
