@@ -5,12 +5,14 @@
         - there are 'similarities' between these structures and structures of complexity, so 'similarities' can be used to generate outputs from an input or identify inputs of an output
       - this can be generalized to other useful structures that fulfill core interaction functions (like connect) between relevant problem/solution structures
 
-    - apply the physics/info interface to filter out possible info structures that can be used to build/derive solutions
+    - apply the physics/info interface to filter out possible info structures that can be used to find/build/derive solutions
       - only some info is possible given how physics works (specifically how energy can stabilize into structure), and only some info interactions are possible (such as how charged particles can interact like 'neutralizing each other' or 'repelling/attracting each other')
       - these physics rules can apply to info interactions, like calculating the certainties generatable with inputs/functions (determining what info can be produced with other info)
       - example: can a boolean variable with this distribution determine a type variable with this distribution, with x available functions & a limit of n function calls?
+      - this can be generalized to other interface structures like combinations/applications of interfaces that have functions useful for fulfilling connection/filtering/reducing or other interaction functions
+        - physics is a particularly powerful interface impacting all the others, and the info interface has 'certainty' structures defined on it by default, so thats why a combination of these interfaces is useful for finding functions connecting certainty structures that can be used to filter possible connections in a problem space
 
-    - find patterns/functions connecting input/connection/output structures (like certainty structures) & apply them as filters of possible connection & output solution structures for an input problem (or input structures for a given connection & output structures, etc)
+    - find patterns/functions connecting generally useful (such as 'reusable' as in 'cross-interface') input/output & core interaction function (like 'connection') structures (like 'certainty structures') & apply them as filters of possible interaction & output solution structures for an input problem (or input structures for a given interaction & output structures, etc)
       - example: some inputs & functions can only produce output certainty structures with a particular attribute (number, type), and these interactions can be used to determine which inputs/connecting functions can be used to produce a given solution output, providing a filter of possible solution-generating functions
 
     - identify attributes of a problem that indicate a particular solution automation workflow is optimal for that problem, and find base problems with different optimal solution automation workflows, and use these base problems to determine how different an original problem is from the nearest base problem, and apply differences to that base problem's solution to find a solution to the original problem quickly
