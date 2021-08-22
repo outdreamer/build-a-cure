@@ -1,5 +1,10 @@
 - add to solution automation workflows
 
+    - apply the physics/info interface to filter out possible info structures that can be used to build/derive solutions
+      - only some info is possible given how physics works (specifically how energy can stabilize into structure), and only some info interactions are possible (such as how charged particles can interact like 'neutralizing each other' or 'repelling/attracting each other')
+      - these physics rules can apply to info interactions, like calculating the certainties generatable with inputs/functions (determining what info can be produced with other info)
+      - example: can a boolean variable with this distribution determine a type variable with this distribution, with x available functions & a limit of n function calls?
+
     - find patterns/functions connecting input/connection/output structures (like certainty structures) & apply them as filters of possible connection & output solution structures for an input problem (or input structures for a given connection & output structures, etc)
       - example: some inputs & functions can only produce output certainty structures with a particular attribute (number, type), and these interactions can be used to determine which inputs/connecting functions can be used to produce a given solution output, providing a filter of possible solution-generating functions
 
