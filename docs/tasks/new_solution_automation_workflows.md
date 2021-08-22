@@ -1,5 +1,10 @@
 - add to solution automation workflows
 
+    - apply useful structures like 'similarities' to fulfill core interaction functions like 'connect' for relevant problem/solution structures like 'problem inputs & solution outputs'
+      - example: a 'complex' system has structures that can function adjacently as 'inputs' to 'complexity', like 'multiple alternatives/options', 'multiple variables/differences', 'contradictions', 'conditions', 'conflicts'
+        - there are 'similarities' between these structures and structures of complexity, so 'similarities' can be used to generate outputs from an input or identify inputs of an output
+      - this can be generalized to other useful structures that fulfill core interaction functions (like connect) between relevant problem/solution structures
+
     - apply the physics/info interface to filter out possible info structures that can be used to build/derive solutions
       - only some info is possible given how physics works (specifically how energy can stabilize into structure), and only some info interactions are possible (such as how charged particles can interact like 'neutralizing each other' or 'repelling/attracting each other')
       - these physics rules can apply to info interactions, like calculating the certainties generatable with inputs/functions (determining what info can be produced with other info)
