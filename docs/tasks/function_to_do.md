@@ -6,12 +6,16 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
 
-  - move examples from faq/drinkme/readme to docs
+  - add to science
+    - at some point, if a tumor is allowed to & forced to evolve enough, it'll develop genes & functions that are useful for removing it or removing other problem types
+      - how do you leverage the evolution potential to make it useful for a neutralizing intent?
+      - how possible/adjacent is the function to give cancer cells a structure that makes it more difficult for them to spread?
+      - how can interim organs like the interstitium or blood vessels be used to prevent barriers from forming which enable dense tumors to develop
+      - how can cancer cells be converted to an energy source (enzymes, pathogens, alerting starved cells of the position of the cancer cell or moving it to a location where energy is needed)
+      - how can entry points of dependencies (like vitamin D absorped from skin rather than diet, or lack of melanin that can lower impact of uv rays) be removed so that cancer is less likely to develop in the first place
+      - what deadly components of structures like the antimicrobial impact of uv rays be preserved & used to kill cancer cells (can killer wavelengths be produced by immune cells when a cancer cell that doesnt respond to other methods is encountered)
 
-  - like other functions, ml algorithms/structures are only as useful as the potential value of the info formats they create & depend on (subsets, connections), which creates errors when used for non-compliant intents with that particular format (like intents requiring a different type/variant of the format)
-    - democracy is only useful if the groups that vote represent the population
-    - n-degree connections are only useful if the n-degree connections can be an input to the required target info (like 'n + 1 degree connections') of the function intent, and are processed in a way required to create that target info, and the processing functions are adjacent/available (so creating valuable info from the info format is trivial, meaning the info format is useful)
-    - subsets are only useful if their parameters include the important subset capable of producing the required info
+  - move examples from faq/drinkme/readme to docs
 
   - the structure of the 'middle graphs' can be derived either from applying 'break a problem into sub-problems' workflow or 'identify components of a structure to identify how its built'
     - the proportion allows for structural stability of the graph, while also allowing for structures that have a limit on their development while the whole graph's structure can be maintained (odd-odd sub-graphs have a limit on how much they can grow while the whole graph maintains its definition)
