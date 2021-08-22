@@ -1,8 +1,10 @@
   - add to solution automation workflows
 
-    - apply patterns of network params with interface structures like variable interactions (such as 'adjacent features') & variable types (like 'type' variables) it can identify, to generate the right network params to identify the maximum number of relevant structures & not identify irrelevant structures
-
-    - apply patterns of worst vs. best case contexts to identify if a data set is a 'worst case' or 'average case' or 'best case' context, to generate the right differences to identify other cases to weight it against
+    - identify & apply patterns of a particular problem space's variables (like 'input context', 'solution-finding method params', 'variable interaction structures', 'problem/solution structures') as inputs to data/function optimizations
+      - example:
+        - apply patterns of differences between network params & interface structures like variable interactions (such as 'adjacent features') & variable types (like 'type' variables) it can identify, to generate the right network params to identify the maximum number of relevant structures & not identify irrelevant structures
+        - apply patterns of differences between worst/best/average/other case contexts to identify if a data set is a 'worst case' or 'average case' or 'best case' context, to generate the right differences to identify other cases to weight it against
+        - apply patterns of differences between an original problem & a useful system to apply rules/structures from to find relevant useful systems to apply rules/structures from to solve the original problem
 
     - apply other specific but generalizable problem formats with known solution methods having useful structures like similar inputs/outputs or similar problem-solving intents like 'reduce' (such as 'find a prediction function', 'find a sort algorithm of a sequence to find a particular value quickly') as sources of solution formats & methods for the original problem, converting the specific problem/solution format to the original problem & applying solution methods from the specific problem to solve the original problem once converted to specific problem structures
 
