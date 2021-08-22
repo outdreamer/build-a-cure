@@ -1,4 +1,29 @@
-  - add to solution automation workflows
+- add to solution automation workflows
+
+    - find patterns/functions connecting input/connection/output structures (like certainty structures) & apply them as filters of possible connection & output solution structures for an input problem (or input structures for a given connection & output structures, etc)
+      - example: some inputs & functions can only produce output certainty structures with a particular attribute (number, type), and these interactions can be used to determine which inputs/connecting functions can be used to produce a given solution output, providing a filter of possible solution-generating functions
+
+    - identify attributes of a problem that indicate a particular solution automation workflow is optimal for that problem, and find base problems with different optimal solution automation workflows, and use these base problems to determine how different an original problem is from the nearest base problem, and apply differences to that base problem's solution to find a solution to the original problem quickly
+      - the only problem space where you would need to apply 'trial & error' is where the outputs are perfectly random (so only when trying to solve the problem of 'find all the values in a perfectly random sequence') 
+      - every other problem has useful structures (such as patterns) that allow the problem to be solved more efficiently
+      - solutions can be designed by applying differences to the solutions of this problem where the solution of 'trial & error' is required, differences in solutions that match the differences in problem structures
+      - example:
+        - if a particular random function has known error structures making it non-random, those error structures can be used to reduce the sections of the sequence that are considered actually random, thus reducing the number of values that need to be checked with 'trial & error' (if an error structure in a particular random function is an occasional non-random sequence with identifiable attributes, those sequences can be checked for & their bounds can be checked, invalidating the need to check every value in the error sequence section, reducing the total number of operations)
+          - so the 'non-random error structures' can be used to reduce the search/solution space of 'random sequences to apply trial & error to'
+          - this solution requires a structure (like a function) to handle 'finding the error structures & removing them from the search/solution space'
+          - this matches the difference in the problem space (meaning "an occasional 'non-random error structure' in the sequence") with a corresponding difference in the solution (a 'function to differentiate these error structures from random sequences to reduce overall value checks'), fulfilling the solution metric of 'a solution with fewer than n operations (such as value checks), n being the size of the sequence'
+          - there are many ways to fulfill this solution metric, with:
+            - varying trade-offs of other solution metrics like accuracy, depending on the method used to fulfill the solution metric
+            - varying applicability, in terms of which methods are useful, given a particular input or problem space (like a known error in an imperfect randomness function)
+          - methods of fulfilling this metric include:
+            - finding patterns in the sequence (such as sub-sequences of length k that have a relatively even distribution of possible values) approximating/predicting answers rather than checking them, based on which sub-sequences of length k would have an even distribution of possible values
+              - identifying sub-sequences indicating randomness/non-randomness & their probability of occurring with frequency x in a random sequence, and reducing the search/solution space by identifying these sequences & applying their bounds to avoid checking every value (whats the likelihood of '111111' vs. '111151' in a random sequence with a particular random function implementation, and to what extent does each value need to be checked to assume its one sequence vs. the other)
+              - applying the same method, but applying it only to a subset of values (checking some values & predicting others)
+            - finding error structures in the random function & applying error structures to reduce the solution space
+            - feeding the sequence into a function that requires a random sequence to avoid replication of work, and which produces some structure of certainty like a processing halt or error response when it finds a non-random sequence
+            - replacing with a generated random sequence, since the problem definition only requires that values in a random sequence be identified, and if a sequence is really random, it wont matter which random sequence is used
+            - mapping common/all/probable/average random sequence patterns and once a sequence is identified as belonging to a certain type or group of random sequence patterns, apply a conversion/generative function between the sequences in that type/group to tell which sequence it is likeliest to be, without checking all the values
+              - similarly, organizing a space of random sub-sequences where adjacence is determined by probability of occurring in the sequence at all, or next/previously in the sequence, and checking endpoint values rather than every value, to see if a continuous path in the space can be traversed
 
     - identify & apply patterns of a particular problem space's variables (like 'input context', 'solution-finding method params', 'variable interaction structures', 'problem/solution structures') as inputs to data/function optimizations
       - example:
