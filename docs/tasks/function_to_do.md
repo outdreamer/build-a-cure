@@ -2,7 +2,14 @@
 
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
-  - identify structures of coexistence/consistency/stability that represent overlap structures between useful structures (like optimization structures & structures of truth), which are more useful than structures of one type of usefulness
+  - identify the minimal structures required to identify useful structures (solutions, optimizations) in every structure of structures (combination/group/mix/sequence of structures) in any system & apply as default components/inputs or other structures
+    - example: sets having just a few attributes like consistency & stability, or useful structures like 'alignments between change types', can identify optimal structures in many cases on their own
+
+  - identify different interaction structures of other structures that are particularly useful
+    - overlap of different structures of usefulness, like optimizations/cooperation/stability/certainty/consistency structures
+    - a structure that can act like many other structures (abstractions, structures of commonness/reusability, base structures)
+
+  - identify structures of cooperation/consistency/stability that represent overlap structures between useful structures (like optimization structures & structures of certainty), which are more useful than structures of one type of usefulness
     - a consistent system where different change types interact in way that allows them to coexist is likelier to survive & be stable
 
   - identify the reasons that a structure might be misidentified as an error by another structure
