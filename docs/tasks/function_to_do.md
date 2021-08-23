@@ -2,8 +2,12 @@
 
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
+  - identify default structures necessary for a solution to be adjacently optimizable, such as a contradiction structure in the form of an 'opposite solution' to identify when a solution is nearer to its opposite structure (not a solution, or an 'error')
+
   - identify the minimal structures required to identify useful structures (solutions, optimizations) in every structure of structures (combination/group/mix/sequence of structures) in any system & apply as default components/inputs or other structures
     - example: sets having just a few attributes like consistency & stability, or useful structures like 'alignments between change types', can identify optimal structures in many cases on their own
+    - an example of a way to apply this is identifying whether a solution is moving toward useful structures standardized to that system or away from them
+      - this means finding the structures of 'consistency' & other useful structures in a system and identifying whether a solution is more similar or less similar to that structure as its changed, as a way to find optimal solutions in that system 
 
   - identify different interaction structures of other structures that are particularly useful
     - overlap of different structures of usefulness, like optimizations/cooperation/stability/certainty/consistency structures
