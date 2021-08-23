@@ -2,6 +2,13 @@
 
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
+  - identify structures of coexistence/consistency/stability that represent overlap structures between useful structures (like optimization structures & structures of truth), which are more useful than structures of one type of usefulness
+    - a consistent system where different change types interact in way that allows them to coexist is likelier to survive & be stable
+
+  - identify the reasons that a structure might be misidentified as an error by another structure
+    - example: a small group might be misidentified as an error by a large group, even though all necessary changes/improvements might start at a unit size
+    - this is an example of bias (an incorrect constant rule/function) that comes from rewarding itself & its own perspective, without acknowledging the possibility of another path to success
+
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
