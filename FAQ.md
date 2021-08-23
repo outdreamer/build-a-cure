@@ -196,7 +196,7 @@
 	9. whats the difference between your conceptual math and 'conceptual math' as indicated here:
 		https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
 
-		- that type of 'conceptual math' is removing attributes of an object and checking for a matching object in a network map
+		- that type of 'conceptual math' is removing attributes of an object and checking for a matching object in a network map, which already exists in many programming tools, like an equal '==' check is a programming language
 		- my type of 'conceptual math' involves operations on the structures of a concept
 			- for example, applying or finding a concept to a system, so the concept can be detected in structures specific to the system
 				- applying 'power' to a system would impact the sources of power in that system (like functionality, function inputs, & hub nodes), adding efficiencies making each operation more powerful, alignments to maximize impact of operations, etc
