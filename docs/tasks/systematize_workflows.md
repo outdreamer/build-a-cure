@@ -24,6 +24,39 @@
 
 - variables & configuration
 
+	- fit of variables
+
+		- functions
+
+			- in between the general functions (find/generate/apply/mean) and the core interaction functions (connect, reduce, break, filter), there is an interim level of function interactions that sync with the interface query interaction level (identify, select, cause, standardize, organize, integrate)
+				
+				- general problem-solving intents for solving info problems
+					- the general functions represent general intents fulfilling the structure 'information existence' (in order for info to exist from the perspective of the program, you have to find/derive/generate it)
+				
+				- specific problem-solving intent functions
+					- functions like 'filter solution space' are interactions between structural core interaction functions and problem/solution structures
+				
+				- the interim functions connect the general & core interaction functions
+					- 'organize' is the connecting function between the general function 'mean' and the structural function 'position'
+					- 'integrate' is the connecting function between the general function 'mean' and the structural function 'merge'
+				
+				- structural interaction functions
+					- the core interaction functions fulfill common structural intents, not just common to problem/solution interactions but common in general
+				
+				- solution automation workflow functions
+					- solution automation workflows are interaction structures of specific problem-solving intent functions
+						- a workflow may fulfill the general problem-solving intent function 'filter solution space'
+				
+				- interface query functions
+					- interface queries are interaction structures of interaction structures to fulfill a function intent (interim functinos, general problem-solving intents, solution automation workflow intents, core interaction functions, etc)
+						- 'apply the "structure interface" to fulfill the "connect" core interaction function of the solution automation workflow "connect problem/solution structures"'
+						- this calls the 'build' function (to create a 'connection' structure), which is fulfilled by calling the 'apply function' on an 'interface' structure
+						- this is an 'embedded' interaction structure, where one interaction structure (apply) is embedded in another (build)
+					- interface queries are an 'interaction structure of interaction structures' because they connect solution automation workflows with structural core interaction functions 
+						- interface queries are a 'structural implementation' of a solution automation workflow
+
+			- all functions use the general functions ('find') or a sub-function of them on some interaction level, whether its an interim level between general/structure functions ('select'/'compare') or structural level ('filter')
+
 	- solution automation workflow variables
 
 		- useful structures applied to solution automation workflows
@@ -101,8 +134,6 @@
 			- interact
 
 	- core interaction functions
-
-		- in between the general functions (find/generate/apply/mean) and the structural functions (connect, reduce, break, filter), there is an interim level of function interactions that sync with the interface query interaction level (identify, select, cause, standardize, organize, integrate)
 
 		- find
 			- filter
