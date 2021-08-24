@@ -44,7 +44,7 @@
       - identify how important a variable is by how many changes/combinations of other structures are required to replace it
       - identify if changes to other variables can replace a variable, and whether those changes just produce the variable that was removed
 
-  - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, they will continue
+  - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, conflicts will continue
     
   - example of structures of usefulness in a problem space, like identifying useful functions & function structures
     - reusability: can be used as inputs to many other functions
