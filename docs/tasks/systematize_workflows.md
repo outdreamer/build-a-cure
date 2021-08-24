@@ -45,7 +45,8 @@
 		- intersections
 		- solutions/errors & other primary interface structures (causes, intents)
 		- concepts
-			- power/balance as useful concepts, indicating usefulness when translated to other interfaces
+			- power/balance/intent as useful concepts, indicating usefulness when translated to other interfaces
+			- input/equivalence/direction on structure interface
 		- inevitabilities
 		- differences/opposites/change types
 		- similarities/alignments
