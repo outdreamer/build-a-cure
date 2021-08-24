@@ -30,6 +30,19 @@
 
 			- in between the general functions (find/generate/apply/mean) and the core interaction functions (connect, reduce, break, filter), there is an interim level of function interactions that sync with the interface query interaction level (identify, select, cause, standardize, organize, integrate)
 				
+				- similarity in interaction levels indicates various connections across these hierarchies
+
+					- solution automation workflows ('filter solutions by what structures are not known errors'), having various general problem-solving intents ('filter solutions', 'differentiate solutions from errors')
+						- interim functions ('compare/select solutions')
+							- structural core interaction functions ('check if a solution is equal/similar to an error')
+
+					- interface ('system')
+						- interface structures ('conflict')
+							- interface structures on other interfaces ('intersection' or 'diverging direction' or 'resource inequality' on the structural interface)
+			
+					- hiearchy connections
+						- interim functions often use interface structures like contradictions bc interface structures represent interim structures between the abstract concept defining the interface (like cause or logic) and the structures in other systems that correspond to that interface's structures
+
 				- general problem-solving intents for solving info problems
 					- the general functions represent general intents fulfilling the structure 'information existence' (in order for info to exist from the perspective of the program, you have to find/derive/generate it)
 				
@@ -39,7 +52,10 @@
 				- the interim functions connect the general & core interaction functions
 					- 'organize' is the connecting function between the general function 'mean' and the structural function 'position'
 					- 'integrate' is the connecting function between the general function 'mean' and the structural function 'merge'
-				
+					- these interim functions can be used to design interface queries to fulfill solution automation workflow core interaction functions involving general functions, if they dont use specific structural core interaction functions
+						- example:
+							- a solution automation workflow like 'find the meaning of a structure and check if it invalidates other meanings or is consistent as a way of finding possible structures to solve a problem in that system' has an interface query involving 'organize or integrate the structure with other structures to see if a contradiction can be created'
+
 				- structural interaction functions
 					- the core interaction functions fulfill common structural intents, not just common to problem/solution interactions but common in general
 				
