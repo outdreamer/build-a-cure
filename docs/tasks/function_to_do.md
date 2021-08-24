@@ -25,8 +25,19 @@
 
   - add to ml
 
-    - identify insights like 'power/privilege causes structure' and 'genes co-occur with other genes in small groups of genes, small groups which co-occur in general types' in the problem of 'identify race from minimal structures like x-rays'
-      - a variable (like visible structures such as race) that is detectable in an interaction type (like social interactions, specifically where you can see/hear someone) would be an input to other interactions of that type (other social interactions, such as 'making easy judgments based on cheap info like visual structures to differentiate/filter their investments of resources like work into social interactions' and 'allocating resources, such as medicine') which would have an impact on structures (like bone density & other physically detectable signs of health, including visible structures like race, as a health problem can distort a physical structure, even skin color which is highly correlated with race), creating a causal loop where physical structures cause differences in interactions like resource allocations, leading to differences in health, leading to differences in physical structures
+    - identify insights like the following in the problem of 'identify race from minimal structures like x-rays':
+      
+      - 'given human brain structures, like tendencies for biases such as 'preferring easy rules to make decisions', differences in visible structures cause differences in social interactions like power/privilege which cause resource distribution differences, which cause differences in structure'
+      - 'genes co-occur with other genes in small groups of genes, small groups which co-occur in general types'
+
+      - using causal structures like:
+        - a variable (like visible structures such as race) that is detectable in an interaction type (like social interactions, specifically where you can see/hear someone) would be an input to other interactions of that type (other social interactions, such as 'making easy judgments based on cheap info like visual structures to differentiate/filter their investments of resources like work into social interactions' and 'allocating resources, such as medicine') which would have an impact on structures (like bone density & other physically detectable signs of health, including visible structures like race, as a health problem can distort a physical structure, even skin color which is highly correlated with race), creating a causal loop where physical structures cause differences in interactions like resource allocations, leading to differences in health, leading to differences in physical structures
+
+        - the important insight is that some variables are identifiable, so theyre likelier to be causative of decisions in decision-making nodes that prioritize identifiable info (as opposed to derivable/generatable info, since identification is easier), decisions that have other identifiable output structures
+          - variables that are less identifiable are likelier to cause errors in nodes without that may go unidentified
+          - a corrollary to this is that 'some variables are automatically focused on (beyond being just identifiable) so theyre likelier to be causative of decisions as well', like simpler structures
+          - structurability (identifiability, attention-capturing potential) is an attribute associated with structures of power (structures that can be identified/focused on/conceptualized are highly causative & therefore responsible/powerful)
+          - 'simpler structures, familiar structures, equal/similar/opposite structures, cooperative/consistent/reliable/common structures & other more identifiable/focusable structures or structures of power are likelier to be causative, in an absence of interfering/invalidating (more powerful) differences'
 
     - identify ability of a variable to contribute to the output by how much it can contribute once you apply conversion functions to change it (how powerful/robust its contribution is)
       - if it doesnt change its influence even after many changes, it could be an interface variable which changes develop on, rather than a normal variable easily invalidated by changes, and more drastic changes will be required to invalidate its influence, like replacement with alternative interfaces
