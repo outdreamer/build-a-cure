@@ -8,6 +8,9 @@
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
     - organize function implementations, to do list, examples, logic
 
+  - add to govt
+    - drones that can identify terrorists & lift them away from civilians but not fire weapons, so they can be targeted individually or jailed
+
   - add to science
     - at some point, if a tumor is allowed to & forced to evolve enough, it'll develop genes & functions that are useful for removing it or removing other problem types
       - how do you leverage the evolution potential to make it useful for a neutralizing intent?
@@ -21,6 +24,10 @@
   - move examples from faq/drinkme/readme to docs
 
   - add to ml
+
+    - identify insights like 'power/privilege causes structure' and 'genes co-occur with other genes in small groups of genes, small groups which co-occur in general types' in the problem of 'identify race from minimal structures like x-rays'
+      - a variable (like visible structures such as race) that is detectable in an interaction type (like social interactions, specifically where you can see/hear someone) would be an input to other interactions of that type (other social interactions, such as 'making easy judgments based on cheap info like visual structures to differentiate/filter their investments of resources like work into social interactions' and 'allocating resources, such as medicine') which would have an impact on structures (like bone density & other physically detectable signs of health, including visible structures like race, as a health problem can distort a physical structure, even skin color which is highly correlated with race), creating a causal loop where physical structures cause differences in interactions like resource allocations, leading to differences in health, leading to differences in physical structures
+
     - identify ability of a variable to contribute to the output by how much it can contribute once you apply conversion functions to change it (how powerful/robust its contribution is)
       - if it doesnt change its influence even after many changes, it could be an interface variable which changes develop on, rather than a normal variable easily invalidated by changes, and more drastic changes will be required to invalidate its influence, like replacement with alternative interfaces
       - identify how important a variable is by how many changes/combinations of other structures are required to replace it
@@ -32,10 +39,13 @@
     - reusability: can be used as inputs to many other functions
     - successful: fulfills solution metric such as 'reaches destination node'
 
+  - add to useful structures
+    - extremes/minimums/maximums
+
   - add to error-finding methods
 
     - identifying & generating known useful structures like 'symmetries', 'variables', 'subsets', 'interchangeable alternatives', 'maximally different inputs' & 'bases' & 'type/phase shift thresholds'
-      - identifying & generating combination structures of useful structures like 'maximally different inputs around bases'
+      - identifying & generating combination structures of useful structures like 'maximally different values around bases'
     - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
 
   - organize examples of logic for functions (interface query design logic)
