@@ -15,6 +15,7 @@
         - patterns/approximations of error/solution structures
       - alternate generalization: find other functions that when applied to other structures, can produce solutions
         - in general, this solution automation workflow is based on the insight that an 'error is a difference from a solution', but there are many ways to apply that insight to generate workflows involving identifying/correcting errors or generating solutions from them
+      - related workflow: a related workflow is 'apply changes to see what you can convert a structure into, bc if its adjacently convertible into an item, its similar to that other item in some way, as a method of generating an identification function ("identify" being a core problem/solution interaction function)
 
     - identify other structures like bases (such as errors, standards, differences) that a solution or other useful structure can use as a reference like a limit to define itself & apply those to generate the solution/useful structure
 
