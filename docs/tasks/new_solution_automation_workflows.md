@@ -1,22 +1,23 @@
 - add to solution automation workflows
 
-    - identify default structures necessary for a solution to be adjacently optimizable, such as a 'contradiction' structure in the form of an 'opposite solution' to identify when a solution is nearer to its opposite structure (not a solution, or an 'error')
+    - identify required structures necessary for a solution to be adjacently optimizable, such as a 'contradiction' structure in the form of an 'opposite solution' to identify when a solution is nearer to its opposite structure ('not a solution', as in an 'error'), and build those structures instead of the original problem's solution structures, then apply optimization structures once its in an adjacently optimizable state
 
-    - identify structures required to identify useful structures (solutions, optimizations) in every structure of structures (combination/group/mix/sequence of structures) in any system & apply as default components/inputs or other structures
-      - example: 
-        - sets having just a few attributes like consistency & stability, or useful structures like 'alignments between change types', can identify optimal structures in many cases on their own
-        - priority combinations that create consistency or other optimization structures in any system
+    - identify structures required to identify useful structures (solutions, optimizations) in every structure of structures (combination/group/mix/sequence of structures) in any system & apply as default/core/component/interaction/input/reference structures or other useful problem-solving structures
+      - example of structures that can identify optimal structures in many cases on their own:
+        - 'sets having just a few attributes like consistency & stability'
+        - useful structures like 'alignments between change types'
+        - 'priority combinations that create consistency or other optimization structures' in a system
       - an example of a way to apply this is identifying whether a solution is moving toward useful structures standardized to that system or away from them
         - this means finding the structures of 'consistency' & other useful structures in a system and identifying whether a solution is more similar or less similar to that structure as its changed, as a way to find optimal solutions in that system 
 
-    - identify different interaction structures of other structures that are particularly useful
-      - overlap of different structures of usefulness, like optimizations/cooperation/stability/certainty/consistency structures
+    - identify different interaction structures of structures that are particularly useful & apply them as default/core/component/interaction/input/reference structures or other useful problem-solving structures
+      - an example interaction structure is an 'overlap of different structures of usefulness', like an overlap of optimizations/cooperation/stability/certainty/consistency structures
       - a structure that can act like many other structures (abstractions, structures of commonness/reusability, base structures)
 
-    - identify structures of success (cooperation/consistency/stability) that represent overlap structures between useful structures (like optimization structures & structures of certainty), which are more useful than structures of one type of usefulness
+    - identify structures of success (cooperation/consistency/stability) & other useful structures (like overlap structures) between useful structures (like overlaps between optimization structures & structures of certainty), which are more useful than structures of any one type of usefulness on its own & apply them as default/core/component/interaction/input/reference structures or other useful problem-solving structures
       - a 'consistent system where different change types interact in way that allows them to coexist' is likelier to survive & be stable
 
-    - identify the reasons that a structure might be misidentified as an error by another structure, and apply as contradiction/opposite structures to optimize an error identification function
+    - identify the reasons that a structure might be misidentified as an error by another structure, and apply as contradiction/opposite structures to optimize an error identification function that can automate finding/generating/deriving solutions by identifying what is not an error
       - reasons like:
         - 'its not similar to previous success/solution structures, like a previously successful priority'
         - 'its not similar to our structures'
@@ -24,10 +25,13 @@
         - a small group might be misidentified as an error by a large group, even though all necessary changes/improvements might start at a unit size
       - this is an example of bias (an incorrect constant rule/function) that comes from rewarding itself & its own perspective, without acknowledging the possibility of another path to success
 
+    - apply useful structures (like solution success causes, useful structure filters, generative functions, patterns of alternate routes) to find/derive/generate useful structures, apply them to generate/find/derive useful structures, and apply those useful structures to fulfill problem-solving intents
+
     - apply useful structures like 'similarities' to fulfill core interaction functions like 'connect' for relevant problem/solution structures like 'problem inputs & solution outputs'
       - example: a 'complex' system has structures that can function adjacently as 'inputs' to 'complexity', like 'multiple alternatives/options', 'multiple variables/differences', 'contradictions', 'conditions', 'conflicts'
-        - there are 'similarities' between these structures and structures of complexity, so 'similarities' can be used to generate outputs from an input or identify inputs of an output
-      - this can be generalized to other useful structures that fulfill core interaction functions (like connect) between relevant problem/solution structures
+        - there are 'similarities' between these structures and structures of complexity, so 'similarities' can be used to fulfill common problem-solving sub-intents like 'generate outputs from an input' or 'identify inputs of an output'
+        - 'similarities' are also useful for core interaction functions of problem-solving like 'connect' bc they reduce the work required to connect different structures
+      - this can be generalized to other useful structures that adjacently fulfill core interaction functions (like connect) between relevant problem/solution structures
 
     - apply useful interface structures like the physics/info interface to filter out possible info or other interface structures that can be used to find/build/derive solutions
       - only some info is possible given how physics works (specifically how energy can stabilize into structure), and only some info interactions are possible (such as how charged particles can interact like 'neutralizing each other' or 'repelling/attracting each other')
