@@ -25,6 +25,8 @@
         - a small group might be misidentified as an error by a large group, even though all necessary changes/improvements might start at a unit size
       - this is an example of bias (an incorrect constant rule/function) that comes from rewarding itself & its own perspective, without acknowledging the possibility of another path to success
 
+    - apply error structures as components/inputs/other useful structures of solutions, either as filters of solutions, adjacent states to solutions that can be inputs to approximation structures ('partially/almost correct', as opposed to 'irrelevant'), or alternate states of solutions that are conditionally correct in a different context
+
     - apply useful structures (like solution success causes, useful structure filters, generative functions, patterns of alternate routes) to find/derive/generate useful structures, apply them to generate/find/derive useful structures, and apply those useful structures to fulfill problem-solving intents
 
     - apply useful structures like 'similarities' to fulfill core interaction functions like 'connect' for relevant problem/solution structures like 'problem inputs & solution outputs'
