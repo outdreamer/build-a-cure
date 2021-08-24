@@ -10,9 +10,13 @@
       - an example of a way to apply this is identifying whether a solution is moving toward useful structures standardized to that system or away from them
         - this means finding the structures of 'consistency' & other useful structures in a system and identifying whether a solution is more similar or less similar to that structure as its changed, as a way to find optimal solutions in that system
 
-    - identify change triggers (like rewards/punishments) and apply change functions to those change triggers (like applying 'distribute' to 'rewards') & check if a solution is produced by the changes, bc if the original problem system produced an error, a probable cause is that the rewards/punishments/other change triggers were in incorrect positions
+    - identify change causes (like benefits/costs) and apply change functions to those change causes (like applying 'distribute' to 'benefits' to 'change their position') & check if a solution is produced by the changes, bc if the original problem system produced an error, a probable cause is that the rewards/punishments/other change causes were in incorrect positions/amounts/structures
       - generalization: find other 'probable causes of error/solution structures' that can act in place of 'known error/solution causes', as well as other variations of important attributes like solution success cause such as solution/error inputs/defaults/variables/requirements, including:
         - patterns/approximations of error/solution structures
+      - alternate generalization: find other functions that when applied to other structures, can produce solutions
+        - in general, this solution automation workflow is based on the insight that an 'error is a difference from a solution', but there are many ways to apply that insight to generate workflows involving identifying/correcting errors or generating solutions from them
+
+    - identify other structures like bases (such as errors, standards, differences) that a solution or other useful structure can use as a reference like a limit to define itself & apply those to generate the solution/useful structure
 
     - identify different interaction structures of structures that are particularly useful & apply them as default/core/component/interaction/input/reference structures or other useful problem-solving structures
       - an example interaction structure is an 'overlap of different structures of usefulness', like an overlap of optimizations/cooperation/stability/certainty/consistency structures
