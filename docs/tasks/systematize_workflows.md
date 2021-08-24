@@ -10,17 +10,23 @@
 	- common functions
 		- find input/output sequence
 
-	- general info existence functions
+	- general alternate info existence functions (functions that find, derive or generate info, which can be used as alternate general problem-solving intents to resolve an info problem)
+
+		- mean
+			- integrate
+			- understand
+			- fit
 		- find
 			- filter
-				- fit
 			- identify
 		- derive
 			- connect
+			- define/structure/describe
 		- generate
 			- combine
-		- apply/create
-			- merge
+			- specify/fill (apply specificity to structural uncertainties, as in 'variable values')
+		- apply/change
+			- merge/interact
 
 	- core interaction functions
 		- connect
