@@ -36,10 +36,16 @@
 		- ambiguities
 		- requirements
 		- efficiencies
+		- intersections
+		- solutions/errors & other primary interface structures (causes, intents)
+		- concepts
+			- power/balance as useful concepts, indicating usefulness when translated to other interfaces
 		- inevitabilities
-		- differences/change types
+		- differences/opposites/change types
 		- similarities/alignments
 		- input/output sequences
+		- vertex variables
+		- definitions
 		- certainty
 			- reliability, consistency, stability
 			- patterns
@@ -47,6 +53,7 @@
 
 	- important attributes 
 		- solution success/failure cause
+		- solution/error requirements/defaults/inputs
 
 	- interaction structures
 		- functions

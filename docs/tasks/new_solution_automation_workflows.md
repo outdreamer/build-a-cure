@@ -8,7 +8,11 @@
         - useful structures like 'alignments between change types'
         - 'priority combinations that create consistency or other optimization structures' in a system
       - an example of a way to apply this is identifying whether a solution is moving toward useful structures standardized to that system or away from them
-        - this means finding the structures of 'consistency' & other useful structures in a system and identifying whether a solution is more similar or less similar to that structure as its changed, as a way to find optimal solutions in that system 
+        - this means finding the structures of 'consistency' & other useful structures in a system and identifying whether a solution is more similar or less similar to that structure as its changed, as a way to find optimal solutions in that system
+
+    - identify change triggers (like rewards/punishments) and apply change functions to those change triggers (like applying 'distribute' to 'rewards') & check if a solution is produced by the changes, bc if the original problem system produced an error, a probable cause is that the rewards/punishments/other change triggers were in incorrect positions
+      - generalization: find other 'probable causes of error/solution structures' that can act in place of 'known error/solution causes', as well as other variations of important attributes like solution success cause such as solution/error inputs/defaults/variables/requirements, including:
+        - patterns/approximations of error/solution structures
 
     - identify different interaction structures of structures that are particularly useful & apply them as default/core/component/interaction/input/reference structures or other useful problem-solving structures
       - an example interaction structure is an 'overlap of different structures of usefulness', like an overlap of optimizations/cooperation/stability/certainty/consistency structures
@@ -44,7 +48,6 @@
       - the generalization of this is 'find the interface structure of interfaces that can determine specific useful structures (like "interaction rules of certainty structures") that can be used to solve a particular problem, given the definition of these interfaces which includes their core structures & which interface structures of interfaces would make finding interactions between those structures adjacent/trivial, and apply these to fulfill core interaction functions between problem/solution structures
         - only some interface structures can adjacently determine the useful structures that can solve any problem (like certainty structures or difference structures), which is why this is different from generally applying interface analysis - this is specifically applying it to find interaction functions between these useful structures that can be plugged in as inputs to core interaction functions to fulfill problem-solving intents
         - this is a similar operatino to 'finding a different interaction layer/structure that highlights a particular interaction' (as opposed to just 'finding a space where a difference is maximized')
-        - interaction layers like 'abstraction mix' or 'attribute mix' or 'interface structure mix'
 
     - find patterns/functions connecting generally useful (such as 'reusable' as in 'cross-interface') input/output & core interaction function (like 'connection') structures (like 'certainty structures') & apply them as filters of possible interaction & output solution structures for an input problem (or input structures for a given interaction & output structures, etc)
       - example: some inputs & functions can only produce output certainty structures with a particular attribute (number, type), and these interactions can be used to determine which inputs/connecting functions can be used to produce a given solution output, providing a filter of possible solution-generating functions
