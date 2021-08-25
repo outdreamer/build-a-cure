@@ -1,27 +1,33 @@
 - to do:
 
 	- finish variable fit of how all the workflow variables fit together
+		
 		- functions
 			- core interaction functions & interaction structures ('connect', 'combination')
 			- general functions ('find', 'build', 'apply', 'derive', 'mean')
 			- interim functions ('organize', 'standardize')
+		
 		- general problem-solving intents (not all intents need to be fulfilled for a given workflow, sometimes one intent is enough to qualify as a solution automation workflow)
 			- 'filter solution space'
 			- 'apply change to standard solution'
+		
 		- general useful interface structures
 			- 'generative functions'
 			- 'alternate routes'
+		
 		- solution automation workflows
 			- 'break a problem into sub-problems & merge sub-solutions'
 			- insight paths & other relevant structures to workflows (insight paths include all workflows which 'make finding solutions easier', but insight paths generally 'make finding insights/info easier' in some way)
 				- 'apply cross-system insight patterns to other systems to predict insights'
 			- interface queries
 				- 'apply causal interface to identify cause of problem and solve alternate problem of "reducing problem cause"'
+		
 		- solution automation workflow attributes
 			- 'solution success cause'
 				- 'inputs to info like certainties/energy can be used to generate other info'
 			- 'related object (workflow) network fit'
 				- 'generalization of a workflow'
+
 		- useful structures of solution automation workflows
 			- 'generative functions' of 'solution automation workflows'
 			- 'generative functions' of 'solution success cause'
@@ -29,6 +35,7 @@
 		- fit
 
 			- general functions are used for 'info existence' intents
+
 				- before other functions can be applied, info has to exist (it has to be found, derived, generated, have structure from changes applied to other existing info, or have meaning in order to exist)
 					- these functions can be used to find/derive/generate/apply/mean info in:
 						- an interface query:
@@ -48,7 +55,7 @@
 					- generate: 'apply components of prediction functions to build a prediction function by combining/merging components of prediction functions'
 					- mean: 'define the meaning of a prediction function (absolutely or in a given context) and filter possible prediction functions based on this definition'
 			
-			- interaction functions & structures ('connect', 'combination') can be used to specify/structure the implementation of a function
+			- core interaction functions & structures ('connect', 'combination') can be used to specify/structure the implementation of a function
 
 				- using specific interaction functions/structures creates a specific structural intent to fulfill when implementing a function
 					
@@ -81,6 +88,29 @@
 								- apply function output by the query above to 'connect definition of cause with structure' to the 'specific structure' in the original problem
 									- output:
 										- 'specific cause' of 'specific structure' in original problem
+
+			- interim functions are useful for being general enough to allow variation in specific implementations of general useful intents like 'organize' or 'standardize', while still differentiating these interim functions to identify useful intents in implementing 'info existence' intents
+
+				- 'organize' helps with the general intent of 'info having meaning' (mean), but doesnt specify exactly how to organize info, allowing for variation in implementation according to which structures/functions would optimally implement it in a given usage context
+					- the variables to this function would include how to fulfill sub/related intents of 'organize' like 'merge', 'fit', 'connect'
+
+				- 'standardize' helps with the general intent of 'finding info like differences' (find), but doesnt specific exactly how to standardize info
+					- the variables to this function would include which interface to standardize to, and how to fulfill sub/related intents of 'standardize', like 'define', 'structure', 'identify', 'differentiate', 'connect'
+
+				-  given that general functions like 'find'/'apply' fulfill all ways to solve info problems (which are fundamentally 'missing info' problems in some way), and that core interaction structures/functions add value in the form of specific structures to guide function implementation, combining these can fulfill useful interim functions like 'organize'/'standardize' which have many ways to implement them, but are less abstract than general functions & less specific than core interaction structures/functions
+				
+				- these interim functions may be used in any workflow components, but are especially likely to be used in:
+
+					- solution automation workflows, as generally useful functions that add value in the info they can create
+
+					- interface queries, as more abstract functions to implement in a specific way that is useful for solving that particular problem, which aligns with the structure of an interface query
+				
+					- interface-enabling functions, so these interim functions would be part of the interface query to implement a function like 'apply/define an interface' (if they didnt rely on those functions as inputs)
+						- 'apply a standard', which fulfills interim intents like 'standardize' in a specific way ('apply an interface as a standard')
+						- 'define a standard', which fulfills interim intents like 'organize/integrate' in a specific way ('organize & integrate structures required to structure/define the specific concept creating a standard like "cause"')
+
+			- general problem-solving intents like 'filter a solution space' can be created from particularly useful general/interim/interaction structures/functions applied to problem/solution structures, useful as determined by the problem/solution structure definitions which indicate how they would optimally interact
+				- 'filter a problem space' isnt as useful as 'filter a solution space' for general problem-solving processes, bc 'filtering a solution space' has an output of a 'solution' by definition of what a 'filter' and 'solution space' are, whereas 'filtering a problem space' wouldnt necessarily have this output
 
 	- apply interaction structures (combinations, sequences, networks) & interaction functions (embed, connect, reduce) to all the workflow variables
 		- 'reduced' 'combination' of 'connections' between 'solution automation workflows' (reduced to unique values)
