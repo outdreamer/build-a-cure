@@ -26,6 +26,62 @@
 			- 'generative functions' of 'solution automation workflows'
 			- 'generative functions' of 'solution success cause'
 
+		- fit
+
+			- general functions are used for 'info existence' intents
+				- before other functions can be applied, info has to exist (it has to be found, derived, generated, have structure from changes applied to other existing info, or have meaning in order to exist)
+					- these functions can be used to find/derive/generate/apply/mean info in:
+						- an interface query:
+							- a problem type like 'find structures to solve an "info asymmetry" problem type'
+							- a specific problem like 'find a structure'
+						- a solution automation workflow:
+							- problems in general like 'find info to solve info problems'
+							- problems in a particular general format like 'find a function' or 'avoid errors' or 'find connections'
+						- any function that finds/derives/generates/defines/applies info:
+							- 'find a string matching another string'
+							- 'find a solution having this attribute'
+				- these functions are interchangeable
+					- different general functions can be applied to solve a problem, like 'find a prediction function'
+					- find: 'find a prediction function'
+					- apply: 'apply changes to prediction function interface structures like prediction function patterns or components until the target prediction function is reached'
+					- derive: 'apply interface structures like limits/requirements/errors to derive a prediction function, given what a prediction function is not'
+					- generate: 'apply components of prediction functions to build a prediction function by combining/merging components of prediction functions'
+					- mean: 'define the meaning of a prediction function (absolutely or in a given context) and filter possible prediction functions based on this definition'
+			
+			- interaction functions & structures ('connect', 'combination') can be used to specify/structure the implementation of a function
+
+				- using specific interaction functions/structures creates a specific structural intent to fulfill when implementing a function
+					
+					- 'connect a problem/solution' is more specific & structural than 'relate a problem/solution', so using 'connect' is useful to get all the useful info associated with the 'connect' function, like:
+						- the definitions of how it can interact with other objects, any related logic already defined for the function, clarity in how it can be applied
+							- the definition of 'connect' implies a sequence of conversions linking states of the input/output, so applying it to a problem/solution indicates that the problem can be connected with the solution using a sequence of conversions
+							- this provides a specific structure to look for (a 'sequence of conversion functions'), which is useful info for fulfilling the 'connect' intent & implementing the function
+						- what its useful for, what inputs it can use & what outputs it can produce
+							- 'connect' is useful for intents like 'equate', when objects should be equated bc theyre different by default (a problem is different from a solution)
+							- 'connect' has outputs like a 'sequence of conversions/states/formats' and the target output (in this case, the target output is the 'solution')
+				
+				- this is generally useful for generating any function automatically
+
+					- a requirement to generate functions may occur in an interface query, where sub-problems & corresponding sub-solution intents are identified, and a new function may need to be implemented automatically to fulfill that sub-problem-solving intent
+					
+					- example: if a component of an interface query such as the intent 'find the cause of a structure' is not an existing function, a function will need to be implemented automatically to fulfill that intent in the interface query
+						- an example of how this would be implemented is a sub-interface query implementing a solution automation workflow that would be called by this interface query if a function is not found for this intent, to solve the problem of 'missing info' in the form of a 'missing function'
+							- sub-problem: 'missing info of a function to connect cause & structure'
+								- sub-problem: 'missing info about cause'
+									- apply the 'connect problem/solution' solution automation workflow
+										- output:
+											- function to connect cause & info about cause: 
+												- 'connect' 'definition' with 'cause'
+								- sub-problem: 'missing info about the connection between cause & structure'
+									- apply the 'connect problem/solution' solution automation workflow
+										- output: 
+											- function to connect cause & structure: 
+												- 'connect' 'definition' of 'cause' with 'structure'
+							- sub-problem: 'missing info about specific cause of the original problem structure'
+								- apply function output by the query above to 'connect definition of cause with structure' to the 'specific structure' in the original problem
+									- output:
+										- 'specific cause' of 'specific structure' in original problem
+
 	- apply interaction structures (combinations, sequences, networks) & interaction functions (embed, connect, reduce) to all the workflow variables
 		- 'reduced' 'combination' of 'connections' between 'solution automation workflows' (reduced to unique values)
 		- 'reduced' 'combination' of 'patterns' between 'solution automation workflows' (reduced to unique values)
