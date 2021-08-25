@@ -2,7 +2,7 @@
 
   - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
 
-  - finish applying understanding-based analysis of workflows (organize by problem-solving intent fulfilled, core interaction function fulfilled, etc)
+  - finish applying systematization of solution automation
 
   - merge examples in implementation_examples from various patents
     - identify any examples missing from patents in docs/tasks by diffing patent spec texts
@@ -21,11 +21,11 @@
       - what deadly components of structures like the antimicrobial impact of uv rays be preserved & used to kill cancer cells (can killer wavelengths be produced by immune cells when a cancer cell that doesnt respond to other methods is encountered)
     - time as 'alignment' or 'connectivity' between multiple useful interface structures like 'change types/patterns' & 'connectible stable states'
 
-  - move examples from faq/drinkme/readme to docs
+  - move examples from faq/drinkme/readme to docs if not included
 
   - add to ml
 
-    - identify insights like the following in the problem of 'identify race from minimal structures like x-rays':
+    - example of identifying insights like the following in the problem space of 'identify race from minimal structures like x-rays':
       
       - 'given human brain structures, like tendencies for biases such as 'preferring easy rules to make decisions', differences in visible structures cause differences in social interactions like power/privilege which cause resource distribution differences, which cause differences in structure'
       - 'genes co-occur with other genes in small groups of genes, small groups which co-occur in general types'
@@ -46,16 +46,9 @@
 
   - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, conflicts will continue
     
-  - example of structures of usefulness in a problem space, like identifying useful functions & function structures
-    - reusability: can be used as inputs to many other functions
-    - successful: fulfills solution metric such as 'reaches destination node'
-
-  - add to useful structures
-    - extremes/minimums/maximums
-
   - add to error-finding methods
 
-    - identifying & generating known useful structures like 'symmetries', 'variables', 'subsets', 'interchangeable alternatives', 'maximally different inputs' & 'bases' & 'type/phase shift thresholds'
+    - identifying & generating known useful structures
       - identifying & generating combination structures of useful structures like 'maximally different values around bases'
     - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
 
