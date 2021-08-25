@@ -1,7 +1,7 @@
-# workflow systematization
+# problem-solving systematization
 
 
-## workflow variable summary
+## problem-solving variable summary
 	
 	1. problem/solution structures
 		- solution structures like solution metrics & error structures like error types are useful as components of solution automation workflows
@@ -14,10 +14,14 @@
 		- specific problem-solving interfaces like 'useful structures' or 'insights'
 		- specific attribute interfaces like 'interactivity' or 'consistency' or 'balance'
 	
-	3. general useful interface structures
-		- 'generative functions'
-		- 'alternate routes'
-	
+	3. useful structures
+		- general useful interface structures
+			- 'generative functions'
+			- 'alternate routes'
+		- useful structures of solution automation workflow variables
+			- 'generative functions' of 'solution automation workflows'
+			- 'generative functions' of 'solution success cause'
+
 	4. solution automation workflows
 		- 'break a problem into sub-problems & merge sub-solutions'
 		- insight paths & other relevant structures to workflows (insight paths include all workflows which 'make finding solutions easier', but insight paths generally 'make finding insights/info easier' in some way)
@@ -31,11 +35,7 @@
 		- 'related object (workflow) network fit'
 			- 'generalization of a workflow'
 
-	6. useful structures of solution automation workflow variables
-		- 'generative functions' of 'solution automation workflows'
-		- 'generative functions' of 'solution success cause'
-
-	7. functions
+	6. functions
 		A. general functions ('find', 'build', 'apply', 'derive', 'mean')
 		B. core interaction functions & interaction structures ('connect', 'combination')
 		C. interim functions ('organize', 'standardize')
@@ -44,7 +44,24 @@
 			- 'relate problem to other problems'
 		
 
-## variable fit of how all the workflow variables fit together
+## variable fit of how problem-solving variables fit together
+
+	- in general:
+
+		- these variables should be able to generate each other once defined
+			- 'interfaces & the structures/operations defined for them' should be able to generate 'solution automation workflows'
+			- 'functions' should be able to generate 'interfaces'
+		
+		- the variants of each variable should also be able to generate the other variants
+			- a particular solution automation workflow should be able to solve the problem of 'generating another solution automation workflow'
+			- 'problem-solving intent functions' should be able to generate 'general functions' or 'core interaction functions'
+
+		- these variables can generally interact with each other using any interaction function, with particularly useful interactions including:
+			- functions can be 'components' of solution automation workflows
+			- solution automation workflows can be 'components' of functions (indicating that a workflow should be applied to generate that component)
+			- solution automation workflows can be 'inputs' of solution automation workflows
+			- structures are 'subsets' of interfaces
+			- structures are 'alternate formats' of functions
 
 	1. problem/solution structures
 
@@ -58,10 +75,16 @@
 		- 'specific problem-solving interfaces like "useful structures" or "insights"' are useful by definition & relevance to problem-solving
 		- 'specific attribute interfaces like "interactivity"' are useful bc these offer a connection across interfaces to enable efficient interface queries, if these attributes are adjacently applied to input structures
 
-	3. general useful interface structures
-		
-		- 'generative functions' are useful bc they apply structure to a primary interface ('cause'), to create structures that are useful for other intents like 'generating a structure', 'finding a structure', 'solving a problem cause'
-		- 'alternate routes' are useful bc they apply structure to a primary interface ('change'), to create structures that are useful for other intents like 'connect'
+	3. useful structures
+
+		- general useful interface structures
+			- 'generative functions' are useful bc they apply structure to a primary interface ('cause'), to create structures that are useful for other intents like 'generating a structure', 'finding a structure', 'solving a problem cause'
+			- 'alternate routes' are useful bc they apply structure to a primary interface ('change'), to create structures that are useful for other intents like 'connect'
+
+		- useful structures of solution automation workflow variables
+			- useful structures of variables related to solution automation workflows are by definition useful for problem-solving automation intents
+				- 'generative functions' of 'solution automation workflows' are useful where a new solution automation workflow is required or other workflows can be improved for a particular problem
+				- 'generative functions' of 'solution success cause' are useful to identify causes of solution success for use as a filter of solutions or a way to generate default probably successful solution structures like requirements
 
 	4. solution automation workflows
 		
@@ -86,14 +109,7 @@
 				- functions including general functions, interim functions & core interaction functions/structures
 				- interfaces
 
-	6. useful structures of solution automation workflow variables
-
-		- useful structures of variables related to solution automation workflows are by definition useful for problem-solving automation intents
-
-			- 'generative functions' of 'solution automation workflows' are useful where a new solution automation workflow is required or other workflows can be improved for a particular problem
-			- 'generative functions' of 'solution success cause' are useful to identify causes of solution success for use as a filter of solutions or a way to generate default probably successful solution structures like requirements
-
-	7. functions
+	6. functions
 
 		- fit of functions
 
