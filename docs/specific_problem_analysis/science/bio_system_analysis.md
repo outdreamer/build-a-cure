@@ -6,7 +6,14 @@
         - can environments be relatively isolated inside the body so that a pathogen can evolve in those environments, like injecting it in a tumor, and then applying immunity triggers once variants are allowed to develop, so that more general immunity is achieved
       - what triggers of dna repair can be triggered after dna is damaged, and can a higher ratio/priority of dna repair processes prevent promotion of a pathogen that damages dna
 
-
+    - at some point, if a tumor is allowed to & forced to evolve enough, it'll develop genes & functions that are useful for removing it or removing other problem types
+      - how do you leverage the evolution potential to make it useful for a neutralizing intent?
+      - how possible/adjacent is the function to give cancer cells a structure that makes it more difficult for them to spread?
+      - how can interim organs like the interstitium or blood vessels be used to prevent barriers from forming which enable dense tumors to develop
+      - how can cancer cells be converted to an energy source (enzymes, pathogens, alerting starved cells of the position of the cancer cell or moving it to a location where energy is needed)
+      - how can entry points of dependencies (like vitamin D absorped from skin rather than diet, or lack of melanin that can lower impact of uv rays) be removed so that cancer is less likely to develop in the first place
+      - what deadly components of structures like the antimicrobial impact of uv rays be preserved & used to kill cancer cells (can killer wavelengths be produced by immune cells when a cancer cell that doesnt respond to other methods is encountered)
+      
     - bio system analysis: examine what types/positions of intentionally triggerable DNA damage can be used as a way to produce pathogen DNA sections at scale to generate immunity-producing immune response (mutation stack/factory)
       - structural (DNA/cell) damage/change triggers: mutations from toxins, exercise, animal pathogens, enzymes, competition for energy, & other types of DNA mutations
       - structural (DNA/cell) division/growth triggers: hormones, extra energy (energy imbalance based on need)

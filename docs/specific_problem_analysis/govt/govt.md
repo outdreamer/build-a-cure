@@ -27,6 +27,15 @@
     - is it optimal to solve this problem set or another problem set, or deploy resources to both?
     - solution distribution: should this solution be deployed at run time, in a specific system, should the solution be stored as its generator function, etc
 
+## Specific examples
+
+    - database polling/prompting user for update & predicting updates or searching for & receiving user-approved updates from other services, rather than being a passive receiver of input from user
+      - based on local usage/change patterns or integrated usage patterns to identify expected transactions with other services
+        - once a credit card is marked as lost in a banking service, a change of credit card numbers is expected by other services which can poll for updates to this flag
+          - user option like 'yes, allow other approved databases containing my address poll to collect this update'
+        - once a renters insurance policy is changed in an insurance service, a change of address might be expected by other services
+    - crypto as community consensus, where a decision can have value if backed by a community
+    - drones that can identify terrorists & lift them away from civilians but not fire weapons, so they can be targeted individually or jailed
 
 ## Position trades (Navigation model)
 
