@@ -1,7 +1,7 @@
-# problem-solving systematization
+# solution automation systematization
 
 
-## problem-solving variable summary
+## solution automation variable fit summary
 	
 	1. problem/solution structures
 		- solution structures like solution metrics & error structures like error types are useful as components of solution automation workflows
@@ -23,7 +23,7 @@
 			- 'generative functions' of 'solution success cause'
 
 	4. solution automation workflows
-		- 'break a problem into sub-problems & merge sub-solutions'
+		- example: 'break a problem into sub-problems & merge sub-solutions'
 		- insight paths & other relevant structures to workflows (insight paths include all workflows which 'make finding solutions easier', but insight paths generally 'make finding insights/info easier' in some way)
 			- 'apply cross-system insight patterns to other systems to predict insights'
 		- interface queries
@@ -44,13 +44,14 @@
 			- 'relate problem to other problems'
 		
 
-## variable fit of how problem-solving variables fit together
+## variable fit of how solution automation variables fit together
 
 	- in general:
 
 		- these variables should be able to generate each other once defined
 			- 'interfaces & the structures/operations defined for them' should be able to generate 'solution automation workflows'
 			- 'functions' should be able to generate 'interfaces'
+			- 'problem/solution structures' can generate 'solution automation workflows' bc applying structure to a problem/solution makes it increasingly trivial to solve in cases that can be identified by their structure (like 'connection' structures connecting problem/solution structures, leading to the 'connect problem/solution structures' workflow)
 		
 		- the variants of each variable should also be able to generate the other variants
 			- a particular solution automation workflow should be able to solve the problem of 'generating another solution automation workflow'
@@ -62,6 +63,53 @@
 			- solution automation workflows can be 'inputs' of solution automation workflows
 			- structures are 'subsets' of interfaces
 			- structures are 'alternate formats' of functions
+
+		- general fit of functions
+
+			- in between the general functions (find/generate/apply/mean) and the core interaction functions (connect, reduce, break, filter), there is an interim level of function interactions that sync with the interface query interaction level (identify, select, cause, standardize, organize, integrate)
+				
+				- similarity in interaction levels indicates various connections across these hierarchies
+
+					- solution automation workflows ('filter solutions by what structures are not known errors'), having various general problem-solving intents ('filter solutions', 'differentiate solutions from errors')
+						- interim functions ('compare/select solutions')
+							- structural core interaction functions ('check if a solution is equal/similar to an error')
+
+					- interface ('system')
+						- interface structures ('conflict')
+							- interface structures on other interfaces ('intersection' or 'diverging direction' or 'resource inequality' on the structural interface)
+			
+					- hierarchy connections
+						- interim functions often use interface structures like contradictions bc interface structures represent interim structures between the abstract concept defining the interface (like cause or logic) and the structures in other systems that correspond to that interface's structures
+
+				- general problem-solving intents for solving info problems
+					- the general functions represent general intents fulfilling the structure 'information existence' (in order for info to exist from the perspective of the program, you have to find/derive/generate it)
+				
+				- specific problem-solving intent functions
+					- functions like 'filter solution space' are interactions between structural core interaction functions and problem/solution structures
+				
+				- the interim functions connect the general & core interaction functions
+					- 'organize' is the connecting function between the general function 'mean' and the structural function 'position'
+					- 'integrate' is the connecting function between the general function 'mean' and the structural function 'merge'
+					- these interim functions can be used to design interface queries to fulfill solution automation workflow core interaction functions involving general functions, if they dont use specific structural core interaction functions
+						- example:
+							- a solution automation workflow like 'find the meaning of a structure and check if it invalidates other meanings or is consistent as a way of finding possible structures to solve a problem in that system' has an interface query involving 'organize or integrate the structure with other structures to see if a contradiction can be created'
+
+				- structural interaction functions
+					- the core interaction functions fulfill common structural intents, not just common to problem/solution interactions but common in general
+				
+				- solution automation workflow functions
+					- solution automation workflows are interaction structures of specific problem-solving intent functions
+						- a workflow may fulfill the general problem-solving intent function 'filter solution space'
+				
+				- interface query functions
+					- interface queries are interaction structures of interaction structures to fulfill a function intent (interim functinos, general problem-solving intents, solution automation workflow intents, core interaction functions, etc)
+						- 'apply the "structure interface" to fulfill the "connect" core interaction function of the solution automation workflow "connect problem/solution structures"'
+						- this calls the 'build' function (to create a 'connection' structure), which is fulfilled by calling the 'apply function' on an 'interface' structure
+						- this is an 'embedded' interaction structure, where one interaction structure (apply) is embedded in another (build)
+					- interface queries are an 'interaction structure of interaction structures' because they connect solution automation workflows with structural core interaction functions 
+						- interface queries are a 'structural implementation' of a solution automation workflow
+
+			- all functions use the general functions ('find') or a sub-function of them on some interaction level, whether its an interim level between general/structure functions ('select'/'compare') or structural level ('filter')
 
 	1. problem/solution structures
 
@@ -113,54 +161,6 @@
 				- interfaces
 
 	6. functions
-
-		- general fit of functions
-
-			- in between the general functions (find/generate/apply/mean) and the core interaction functions (connect, reduce, break, filter), there is an interim level of function interactions that sync with the interface query interaction level (identify, select, cause, standardize, organize, integrate)
-				
-				- similarity in interaction levels indicates various connections across these hierarchies
-
-					- solution automation workflows ('filter solutions by what structures are not known errors'), having various general problem-solving intents ('filter solutions', 'differentiate solutions from errors')
-						- interim functions ('compare/select solutions')
-							- structural core interaction functions ('check if a solution is equal/similar to an error')
-
-					- interface ('system')
-						- interface structures ('conflict')
-							- interface structures on other interfaces ('intersection' or 'diverging direction' or 'resource inequality' on the structural interface)
-			
-					- hierarchy connections
-						- interim functions often use interface structures like contradictions bc interface structures represent interim structures between the abstract concept defining the interface (like cause or logic) and the structures in other systems that correspond to that interface's structures
-
-				- general problem-solving intents for solving info problems
-					- the general functions represent general intents fulfilling the structure 'information existence' (in order for info to exist from the perspective of the program, you have to find/derive/generate it)
-				
-				- specific problem-solving intent functions
-					- functions like 'filter solution space' are interactions between structural core interaction functions and problem/solution structures
-				
-				- the interim functions connect the general & core interaction functions
-					- 'organize' is the connecting function between the general function 'mean' and the structural function 'position'
-					- 'integrate' is the connecting function between the general function 'mean' and the structural function 'merge'
-					- these interim functions can be used to design interface queries to fulfill solution automation workflow core interaction functions involving general functions, if they dont use specific structural core interaction functions
-						- example:
-							- a solution automation workflow like 'find the meaning of a structure and check if it invalidates other meanings or is consistent as a way of finding possible structures to solve a problem in that system' has an interface query involving 'organize or integrate the structure with other structures to see if a contradiction can be created'
-
-				- structural interaction functions
-					- the core interaction functions fulfill common structural intents, not just common to problem/solution interactions but common in general
-				
-				- solution automation workflow functions
-					- solution automation workflows are interaction structures of specific problem-solving intent functions
-						- a workflow may fulfill the general problem-solving intent function 'filter solution space'
-				
-				- interface query functions
-					- interface queries are interaction structures of interaction structures to fulfill a function intent (interim functinos, general problem-solving intents, solution automation workflow intents, core interaction functions, etc)
-						- 'apply the "structure interface" to fulfill the "connect" core interaction function of the solution automation workflow "connect problem/solution structures"'
-						- this calls the 'build' function (to create a 'connection' structure), which is fulfilled by calling the 'apply function' on an 'interface' structure
-						- this is an 'embedded' interaction structure, where one interaction structure (apply) is embedded in another (build)
-					- interface queries are an 'interaction structure of interaction structures' because they connect solution automation workflows with structural core interaction functions 
-						- interface queries are a 'structural implementation' of a solution automation workflow
-
-			- all functions use the general functions ('find') or a sub-function of them on some interaction level, whether its an interim level between general/structure functions ('select'/'compare') or structural level ('filter')
-
 
 		A. general functions are used for 'info existence' intents
 
@@ -246,6 +246,7 @@
 
 ## variable configuration
 
+
 ### functions
 
 	- problem-solving intent functions
@@ -280,9 +281,6 @@
 			- identify
 			- select
 			- merge (filters with possible solutions)
-		- derive
-			- connect (output with input)
-			- structure (apply structure to an uncertainty)
 		- generate/build
 			- deconstruct
 				- reduce
@@ -318,14 +316,20 @@
 					- position
 				- integrate
 					- merge
-
-		- derive (create an output certainty by resolving an uncertainty in a connection/other interaction, given an input certainty)
-			- find/build/generate a structure (like a function), given relevant info
-				- find/build/generate a function
-					- find/build/generate inputs from outputs
-					- find/build/generate variable interaction structures (like the 'connection between independent/dependent variables')
-				- find/build/generate a structure
-					- find/build/generate a missing structure given a partial structure
+		- derive (create a certainty by resolving an uncertainty in a connection/other interaction, given a certainty, using other info than the target output certainty & other methods than info like inference/filtering/requirements)
+			- derive a structure from its:
+				- opposites
+				- limits/requirements
+				- connections
+				- definition
+				- adjacent structures
+				- attributes/functionality
+				- inputs/outputs
+				- descriptive/generative/determining attributes/structures/functions
+			- derive missing info, using input info & alternate functions/structures than info functions, such as 'logical implications/inference'
+				- derive inputs given just info about outputs
+				- derive variable interaction structures (like the 'connection between independent/dependent variables'), given just data point info
+				- derive a missing structure given just info about the partial structure
 
 	- interface operations
 
@@ -358,8 +362,12 @@
 
 	- attributes of specific useful structures
 		- attributes of solution/problem structures
-		- attributes of vertex variables: determining/descriptive/generative
-		- attributes of useful structures: abstract-structure connections, cross-system applicability/reusability, fulfill core interaction functions between core structures
+		- attributes of vertex variables:
+			- determining/descriptive/generative
+		- attributes of useful structures: 
+			- abstract-structure connections
+			- cross-system applicability/reusability
+			- fulfill core interaction functions between core structures & interfaces
 
 	- conceptual attributes
 
@@ -400,7 +408,7 @@
 
 ### structures
 
-	- primary interface structures
+	- primary interface structures & structures defined for primary interfaces
 		- core
 			- unit
 			- object/attribute/function/type
@@ -411,17 +419,16 @@
 		- intent
 			- priorities
 		- info
-			- errors/solutions
-			- questions/answers
+			- errors/solutions/questions/answers
 		- math
 		- pattern
 		- function
 		- structure
 
 	- core interaction structures
-		- 'combination'
-		- 'network'
-		- 'sequence'
+		- combination
+		- network
+		- sequence
 
 	- useful structures
 
@@ -502,6 +509,12 @@
 			- certainty
 
 		- cause
+			- cause-structure
+				- dependencies/inputs
+			- cause-potential
+				- probabilities/certainties
+			- cause-concept
+				- power
 			- cause-function
 				- generative functions
 			- cause-info
@@ -518,7 +531,20 @@
 	- structures of structures
 
 		- structures of attributes
+
 			- usefulness
+			    - core useful interface structures 
+			    	- math value reference structures (extremes/minimums/maximums/averages/symmetries)
+			    	- change structures (variables)
+			    	- structure structures (subsets, combinations, bases)
+			    - useful attributes
+				    - reusability: can be used as inputs to many other functions
+				    - successful: fulfills solution metric such as 'reaches destination node'
+				- useful structures of interface structures
+				    - useful attribute + useful core interface structure
+				    	- interchangeable alternatives
+				    	- maximally different inputs
+				    	- type/phase change boundaries
 			- organization
 			- certainty
 			- optimization
@@ -567,7 +593,9 @@
 				- connection between interfaces: common interaction structures like general function structure of 'merge' across interfaces 'meaning' & 'structure'
 	
 		- structures of interface structures
-			- structures of cause/potential/meaning
+			- structures of cause
+			- structures of potential
+			- structures of meaning
 
 
 ### solution automation workflow variables/attributes
@@ -578,29 +606,26 @@
 		- function to generate the workflow
 		- solution success/failure cause
 
-	- vertex variables
+	- vertex variables of solution automation workflows
 		- interface queries implementing the workflow
 			- interface queries act as a 'problem-solving function' or a 'solution finding/building/deriving function'
 			- example: many queries can implement the 'trial & error' workflow, bc some implementations will try certain combinations before other implementations, even when using the same combination-generating function in the same language there may still be variation in the implementation
 		- interface structures applied
 		- core problem-solution interaction functions (reduce, connect)
 		- general functions applied (find, apply, build, derive)
-		- problem-solving intents (filter/compare solutions, solve different problem, connect problem/solution, reduce problem/problem caus)
+		- problem-solving intent functions fulfilled in the workflow (filter/compare solutions, solve different problem, connect problem/solution, reduce problem/problem caus)
 		- useful structures
+		- problem/solution structures applied in the workflow
 		- solution/error success/failure case
 		- useful structures applied to problem/solution structures
+			- structures of certainty applied to create info
+			- structures of optimization applied to improve solutions
 			- alternate problem input/solution output routes
 			
 	- alternate workflow versions
 		- generalization/abstraction
 		- simplification/compression
 
-	- problem-solving intent functions fulfilled in the workflow
-
-	- core interaction functions of the workflow
-
-	- problem/solution structures of the workflow
-		
 
 ### solution automation workflows
 
