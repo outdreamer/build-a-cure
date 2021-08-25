@@ -43,12 +43,10 @@
       - if it doesnt change its influence even after many changes, it could be an interface variable which changes develop on, rather than a normal variable easily invalidated by changes, and more drastic changes will be required to invalidate its influence, like replacement with alternative interfaces
       - identify how important a variable is by how many changes/combinations of other structures are required to replace it
       - identify if changes to other variables can replace a variable, and whether those changes just produce the variable that was removed
-
-  - give example of how to connect perspectives across conflicts in a way that doesnt invalidate either side - if you dont connect them, conflicts will continue
     
   - add to error-finding methods
 
-    - identifying & generating known useful structures
+    - identifying & generating known useful structures like 'symmetries', 'variables', 'subsets', 'interchangeable alternatives', 'maximally different inputs' & 'bases' & 'type/phase shift thresholds'
       - identifying & generating combination structures of useful structures like 'maximally different values around bases'
     - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
 
