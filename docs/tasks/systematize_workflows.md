@@ -1,13 +1,69 @@
 - to do:
 
-	- identify useful intents of structural interactions and apply:
-		
-		- optimization/usefulness structures to components (data, learning function, input/output connection)
-			- apply 'input-output sequence' structures to any structures that can or should be connected
-		
-		- interaction structures (combinations, sequences, networks) to all the variables
-			- apply interface structures to interface structures
-				- core cause structures
+	- finish variable fit of how all the workflow variables fit together
+		- functions
+			- core interaction functions & interaction structures ('connect', 'combination')
+			- general functions ('find', 'build', 'apply', 'derive', 'mean')
+			- interim functions ('organize', 'standardize')
+		- general problem-solving intents (not all intents need to be fulfilled for a given workflow, sometimes one intent is enough to qualify as a solution automation workflow)
+			- 'filter solution space'
+			- 'apply change to standard solution'
+		- general useful interface structures
+			- 'generative functions'
+			- 'alternate routes'
+		- solution automation workflows
+			- 'break a problem into sub-problems & merge sub-solutions'
+			- insight paths & other relevant structures to workflows (insight paths include all workflows which 'make finding solutions easier', but insight paths generally 'make finding insights/info easier' in some way)
+				- 'apply cross-system insight patterns to other systems to predict insights'
+			- interface queries
+				- 'apply causal interface to identify cause of problem and solve alternate problem of "reducing problem cause"'
+		- solution automation workflow attributes
+			- 'solution success cause'
+				- 'inputs to info like certainties/energy can be used to generate other info'
+			- 'related object (workflow) network fit'
+				- 'generalization of a workflow'
+		- useful structures of solution automation workflows
+			- 'generative functions' of 'solution automation workflows'
+			- 'generative functions' of 'solution success cause'
+
+	- apply interaction structures (combinations, sequences, networks) & interaction functions (embed, connect, reduce) to all the workflow variables
+		- 'reduced' 'combination' of 'connections' between 'solution automation workflows' (reduced to unique values)
+		- 'reduced' 'combination' of 'patterns' between 'solution automation workflows' (reduced to unique values)
+
+	- identify useful intents of structural interactions (connect, optimize) & interactions of workflow variables where they would be useful
+		- 'connect' useful for 'equating' which is useful for 'equating a problem/solution'
+
+	- apply interface structures to interface structures & interaction structures (embed, connect)
+		- default combination: 'core' 'cause' structures
+		- embedded interface applied to default combination: 'intent' of 'core' 'cause' structures
+		- connection between interfaces: common interaction structures like general function structure of 'merge' across interfaces 'meaning' & 'structure'
+
+	- apply structures of each type
+		- learning structures
+		- relevance structures
+		- interaction structures
+		- organization structures
+		- optimization structures
+			- apply optimization/usefulness structures to components that should be optimized (data, learning function, input/output connection)
+
+	- apply structures for each core interaction function
+		- reduce structures
+		- embed structures
+		- connect structures
+			- apply 'connection' structures to structures that require connecting
+				- apply 'input-output sequence' structures to any structures that can or should be connected
+
+	- apply specific useful interface structures to workflow variables
+		- requirements
+			- requirements of workflow variables
+		- efficiencies
+			- workflow variables that make a task trivial (commonly useful workflows/functions)
+		- ambiguities
+			- the ambiguity present in variables like core interaction functions mean that any of the functions can be selected for a given workflow/interaction
+		- related object network position (workflow fit)
+		- generative structures
+		- vertex variables
+		- alternate workflow versions
 
 	- complete basic config lists
 
@@ -26,7 +82,7 @@
 
 	- fit of variables
 
-		- functions
+		- fit of functions
 
 			- in between the general functions (find/generate/apply/mean) and the core interaction functions (connect, reduce, break, filter), there is an interim level of function interactions that sync with the interface query interaction level (identify, select, cause, standardize, organize, integrate)
 				
@@ -40,7 +96,7 @@
 						- interface structures ('conflict')
 							- interface structures on other interfaces ('intersection' or 'diverging direction' or 'resource inequality' on the structural interface)
 			
-					- hiearchy connections
+					- hierarchy connections
 						- interim functions often use interface structures like contradictions bc interface structures represent interim structures between the abstract concept defining the interface (like cause or logic) and the structures in other systems that correspond to that interface's structures
 
 				- general problem-solving intents for solving info problems
@@ -73,7 +129,7 @@
 
 			- all functions use the general functions ('find') or a sub-function of them on some interaction level, whether its an interim level between general/structure functions ('select'/'compare') or structural level ('filter')
 
-	- solution automation workflow variables
+	- solution automation workflow variables/attributes
 
 		- useful structures applied to solution automation workflows
 
