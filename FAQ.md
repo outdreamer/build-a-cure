@@ -1,134 +1,5 @@
 ## FAQ
 
-### example posts containing inventions or unique points/jokes that were copied
-
-		- first mention of insight paths on social media
-			- https://twitter.com/alienbot123/status/1137526990339170306
-		- I explained the concept of insight paths to identify insights automatically
-			- https://twitter.com/alienbot123/status/339106387219079169
-			- https://twitter.com/alienbot123/status/339106565825126400
-			- https://twitter.com/alienbot123/status/339106672620482560
-			- https://twitter.com/alienbot123/status/339106893605789696
-			- https://twitter.com/alienbot123/status/339107097155358722
-			- https://twitter.com/alienbot123/status/339107234690764800
-			- https://twitter.com/alienbot123/status/339107451452399616
-			- https://twitter.com/alienbot123/status/339107650606350336
-				- the post above also mentions the variables of a process/function (that can be used to automate problem-solving by identifying the next insight in an insight path, when applied to a particular context like a field/domain of science), which is the first mention of function attributes that are useful for problem-solving automation
-		- truth types (indicating 'alternate routes' to access the truth)
-			- https://twitter.com/alienbot123/status/636694507224989696
-		- earliest mentions of function indexing attributes on my twitter
-			- mentions indexing function by abstraction, indicating intent to create interface queries
-				- https://twitter.com/alienbot123/status/367796753371627520
-			- https://twitter.com/alienbot123/status/670087598312919040
-			- https://twitter.com/alienbot123/status/735892668287492096
-			- https://twitter.com/alienbot123/status/789953895934095360
-			- https://twitter.com/alienbot123/status/850786694974590977
-			- https://twitter.com/alienbot123/status/873001704568082433
-			- https://twitter.com/alienbot123/status/903697129058783233
-			- https://twitter.com/alienbot123/status/903693738765148160
-			- https://twitter.com/alienbot123/status/928530789112995840
-		- earliest mentions of problem-solving automation specifically on my twitter
-			- https://twitter.com/alienbot123/status/368896666847301633
-			- https://twitter.com/alienbot123/status/368896961409077248
-			- https://twitter.com/alienbot123/status/550407946749091840
-			- https://twitter.com/alienbot123/status/550408623982403584
-			- https://twitter.com/alienbot123/status/550409968525250561
-			- https://twitter.com/alienbot123/status/802885493453103108
-				- https://github.com/outdreamer/finder/tree/master/objects
-			- https://twitter.com/alienbot123/status/829197235384700928
-		- earliest mentions of interfaces (as 'perspectives' or 'lenses' as 'filters') on my twitter
-			- https://twitter.com/alienbot123/status/211271391662714880
-			- https://twitter.com/alienbot123/status/211271546478665729
-		- idea/conceptual markets
-			- https://twitter.com/alienbot123/status/208398749272248321
-			- https://twitter.com/alienbot123/status/215465108023943168
-		- applying structures like 'combine' to concepts:
-			- https://twitter.com/alienbot123/status/254062162119651328
-		- abstract network (a structure on the 'abstract interface')
-			- https://twitter.com/alienbot123/status/268223098522832896
-		- first mention of the meaning interface on twitter
-			- https://twitter.com/alienbot123/status/367801507636207616
-		- perspective-switching (interface query)
-			- https://twitter.com/alienbot123/status/367813951561547776
-			- https://twitter.com/alienbot123/status/647373077827993600
-			- https://twitter.com/alienbot123/status/647380929237925888
-			- https://twitter.com/alienbot123/status/682709026921025536
-		- graph of interface layers
-			- https://twitter.com/alienbot123/status/1016179939371085825
-		- earliest mentions of the usefulness of the 'intent' interface on twitter
-			- https://twitter.com/alienbot123/status/1334480685722046464
-			- https://twitter.com/alienbot123/status/735893657484689408
-		- earliest mentions of structures on the 'concept' interface on twitter
-			- https://twitter.com/alienbot123/status/1334480696597889026
-		- earliest mention of solution metadata like solution types
-			- https://twitter.com/alienbot123/status/550408877087666177
-		- I identified the possibility of math operations on concepts (conceptual math) & other structural math operations on other interfaces
-			- https://twitter.com/alienbot123/status/1043549108261281793
-
-	- other useful insights identified/explained
-		
-		- I identified insights like:
-			- that some functions were inherent to all processes & were interchangeable (find, build, apply, mean, derive)
-			- that some structures were interchangeable as methods of generating other useful structures (useful structures like 'input-output sequences' could be used to generate solution automation workflows)
-			- useful attributes like 'interactivity' of structures
-			- that there were multiple solution automation workflows that could solve any problem & identified their variables & core interaction functions to generate them
-			- how to automate inventing (with math examples & other examples)
-			- the core structures/functions/attributes that most systems could be broken into & used to generate them
-			- the format of mixing interface components to graph a system
-			- useful cross-interface structures like interaction layers that could deconstruct a system quickly to generate quick understanding
-			- that no one had automated any kind of system analysis like automatically identifying efficiencies in a system
-			- important alternatives interfaces on which any problem could be solved
-		
-		- I explained how to solve problems by explaining:
-			- dictators/war/human nature to governments so they wouldnt have to go to war anymore, specifically how to connect perspectives across conflicts like wars in a way that doesnt invalidate either side - because if you dont connect them, conflicts will continue
-			- how they could identify new viruses/species by applying changes to known species based on common change types/functions
-			- that people should use known methods to design drugs that are non-addictive
-				- https://phys.org/news/2021-07-addictive-opioids-chemistry.html
-			- that all problems are structural, which no one even noticed until I pointed it out
-			- that cell communication is a fundamental property that can be used to cure cancer, and so can my stressor/change supply & demand model
-			- that poverty costs more than it would take to end it
-			- how to fix biased AI algorithms
-			- why symmetries (which I convert to the term 'interfaces') are useful for automating problem-solving & then they started using them in ML algorithms
-			- that there are other useful structures that just data sets to solve a problem, like concepts/cause/intent, like how you can use facts or logic to prove a point, and both arent necessary
-
-### timeline of inventions
-		
-		- I was taught that:
-			- problems could be solved in multiple ways
-				- trial & error
-					- if there was a way to apply trial & error to some problems, why not other problems?
-				- addressing problem cause vs. problem itself (how vs. why)
-				- solving a problem using logic vs. using facts
-					- identified by how I know someone is lying bc it's obvious given how logic works and how they reveal their intentions, even though it's not provable with facts (info interface) because there arent tools to measure that specific information generated by logic & intentions without better brain activity triggering & measuring tools, to find out what info is stored in which brain structures & what activities indicate which computations on that info, but statistics offers an alternative method of approximation (clustering, prediction tools, probability analysis, similarity scores)
-			- problems could be solved using rules
-				- math problems could be solved using rules, so why not other problems?
-		
-		- I identified the following in:
-			- 2008:
-				- 'abstract network' (abstract interface) of irreducible cross-system concepts, when I began building the story/setting for my book Outdreamer, which is when I began cataloguing concepts to identify the most concise & useful set of them
-				- 'perspective' structure (interface structure) when I began to examine priorities & documented the perspective structure (a filter with priorities) and realized there were multiple perspectives that were useful for solving a problem, and that these perspectives had structure, because when I was writing the story, I had to create structures to connect abstract concepts in the abstract network, and these connections followed rules of their own which had definitions/structure on the logic interface ('jumping to conclusions')
-				- I wanted to automate basic tasks at school that took longer than they should have given how simple they were, like finding insights or good lines in a book quickly without reading the whole thing
-			- sometime in between 2008 - 2012:
-				- 'insight path' structure when I noticed patterns in innovations across systems when reading science news (& spark notes cheat sheets) when I was researching cancer & how vaccines were invented (it was made obvious by pure random accident bc the info was focused on given the inventor's perspective) & looking for ways to speed up science discoveries, and realized 'trial & error' was an example of this structure
-			- 2012:
-				- barclays libor rate 'insider information' news story is when I identified the structures of an information problem that made a solution possible to solve with information structures (information position, information barrier, information asymmetry) that were not the same as physical structures ('agents who know information') and how to connect those structures
-					- this is the first example I can remember that made it clear that:
-						- there were important & useful structures other than just functions/variables in problem-solving
-						- information had absolute structure ('lies' and 'intent' were derivable using information structures & logic structures), rather than being subjective or nebulous concepts with changeable structure only as defined by humans
-						- information problems could be solved with the information perspective using information structures (like 'distributing information' to resolve an 'information asymmetry')
-			- 2013:
-				- pitched function metadata at work (Cybernetics) in an email
-				- pitched solution machine at work (Morinteresting) in a word document
-			- between 2013 - 2015
-				- started pitching function metadata & problem-solving structures like 'shape index' (structure interface) on social media
-					- https://twitter.com/alienbot123/status/736605879093633025
-			- 2015
-				- pitched function-generation at work (NJI Media) in an email
-			- 2016
-				- pitched problem-solving tool Solvr at work (Booz Allen)
-			- 2017
-				- pitched these at work (Accenture, Capital One)
-
 ### General Q&A
 
 	1. whats the need for mapping information problems to structure (math) problems? for example, isnt an information asymmetry already structural?
@@ -295,6 +166,25 @@
 			- deriving relationships using core functions & patterns
 			- switching between various analysis methods in the absence of information
 
+		- isn't machine learning the automation of problem-solving?
+
+			- When there is a machine-learning algorithm that can predict the unpredictable side effects/errors & meaning of its own application in a given system context (such as a particular civilization, in a given scope/scale, with particular parameters & information access), and correct its own parameters/information/other inputs to avoid any side effects/errors it predicted, it will have the potential to be AGI (an agent that can solve any problem with info access) - right now it's still a prediction tool that is heavily dependent on data & human intervention (human configuration, activation, selection, application, testing, monitoring, updating, correcting, interpretation).
+
+			- The primary dependencies of my tool are a set of definitions (like what an object/attribute/function/interface/concept is), a set of functions to implement interface standards (like structure/cause) & interface operations (like identification/traversal/combination), and info access. The expected input from a human using my tool is a problem statement & a data set or internet connection.
+
+				- However, some functions in the tool can be generated with machine-learning if the function definition isnt available or needs to be generated, and if none of the other function-derivation methods are available (unlikely unless the pattern interface or an equivalent is accessible), by identifying sub-functions likely to be in a function with a particular intent, sub-function sequence likely to generate a function intent, core function combinations likely to generate the sub-functions necessary for a function with a particular intent, variables likely to be changed for a function with a particular intent, side effects likely to occur with a particular sub-function structure (sequence/tree), etc - which I pointed out several years ago with my posts about code queries to search for functionality using function metadata indexing (including metadata like intent), which was followed by big tech companies attempting to build it.
+
+				- It must be said that one of my problem-solving workflows is particularly suited to automating functions, such as by applying limits as filters (like a sculpture) until the resulting structure fulfills an intent.
+
+			- 'other people have applied physics, neuroscience, & other sciences to ml before, someone would have thought of this eventually'
+				- yes, other people can read, but that doesnt mean they would have thought of abstracting their workflow of 'look up science concepts we havent tried before and apply them manually to the ml problem space in a way that might be useful & then check if it improves anything' (which is actually just an application of 'trial & error') or that they would have come up with a consistent, useful, effective way to abstract & automate their workflow (and all other problem-solving workflows), and tried to automate themselves, bc of their enormously unjustified egos preventing them from recognizing that their work could be automated
+				- people had decades and didnt identify even one of my insights to automate problem-solving & can't come up with a new method to do so whenever they want like I can, let alone the fact that 'filters, symmetries, standards, perspectives, bases, etc' all had something in common, or noticing that there were useful structures like general functions (find/apply/build/derive/mean) that were interchangeable, or identifying all the primary interfaces on which any problem could be solved - partially because their ego prohibited them from thinking about how to automate themselves, partially because I'm the best in the world at this type of thinking
+			
+			- I struggle to believe that no one else would have thought of a 'method to update the weights of variables & their interactions & versions after checking if the previous weights were accurate' which is the core structure that machine-learning is based on, so machine-learning shouldn't be seen as an esoteric invention that is out of reach of most people's brains, but rather a default invention that most people would have thought of if they had basic math understanding/education & tried to solve the problem of automating 'finding a prediction function' in a way that didn't involve regression or other known methods & scaled to high-dimensional spaces.
+
+			- I also struggle to believe that someone would have thought of my invention, given how many hundreds of millions of people had the info necessary to come up with it but didn't, though it would be nice if I was living in a world full of other geniuses, it's just hard to believe given the information that people keep proving. If most people tried to automate problem-solving, they would come up with a solution that adjacently used existing technologies, like 'apply machine learning whenever you dont know something' or 'store solutions in a rules/solutions database', because those are easy solutions and people generally come up with easy solutions.
+
+			- To my knowledge a tool to automate problem-solving doesnt already exist, as statistics/attribute graphs/machine learning cant currently solve any problems without a severe amount of specific information, computation, configuration in the form of manual (flawed) selection of algorithms, manual & isolated analysis of attributes like intent & concepts instead of automated & integrated analysis, limitations built in the assumptions/perspective of the configurer, testing in the form of parameter tuning, strategy injection like trial & error, & other forms of human intervention - and can only solve isolated specific problems of specific types with information formatted in a specific way, without cross-system understanding or system context built-in.
 
 	7. whats the difference between this & existing system analysis:
 
@@ -356,23 +246,9 @@
 
 		- I think if you had the same experiences I've had, you would also have tried to automate problem-solving, and with the same brain as me, you would also have done it, although I'm not entirely sure you care as much as I do about the same priorities, and you might have used this invention for evil.
 
-		- This tool is not problems, concepts, attributes, language, & information - it's a way to automate deriving a solution for a problem (automating the trajectory from problem definition, to solution objects like meaning, cause, & insights), which to my knowledge doesnt exist, as statistics/attribute graphs/machine learning cant currently solve problems without a severe amount of specific information, computation, configuration in the form of manual (flawed) selection of algorithms, manual & isolated analysis of attributes like intent & concepts instead of automated & integrated analysis, limitations built in the assumptions/perspective of the configurer, testing in the form of parameter tuning, strategy injection like trial & error, & other forms of human intervention - and can only solve isolated specific problems of specific types with information formatted in a specific way, without cross-system understanding or system context built-in.
+		- This tool is not problems, concepts, attributes, language, & information - it's a way to automate deriving a solution for a problem (automating the trajectory from problem definition, to solution objects like meaning, cause, & insights).
 
 		- people had decades and didnt identify even one of my insights to automate problem-solving & can't come up with a new method to do so whenever they want like I can, let alone the fact that 'filters, symmetries, standards, perspectives, bases, etc' all had something in common, or identifying all the primary interfaces on which any problem could be solved - partially because their ego prohibited them from thinking about how to automate themselves, partially because I'm the best in the world at this type of thinking
-
-		10.a. isn't machine learning the automation of problem-solving?
-
-			- When there is a machine-learning algorithm that can predict the unpredictable side effects/errors & meaning of its own application in a given system context (such as a particular civilization, in a given scope/scale, with particular parameters & information access), and correct its own parameters/information/other inputs to avoid any side effects/errors it predicted, it will have the potential to be AGI (an agent that can solve any problem with info access) - right now it's still a prediction tool that is heavily dependent on data & human intervention (human configuration, activation, selection, application, testing, monitoring, updating, correcting, interpretation).
-
-			- The primary dependencies of my tool are a set of definitions (like what an object/attribute/function/interface/concept is), a set of functions to implement interface standards (like structure/cause) & interface operations (like identification/traversal/combination), and info access. The expected input from a human using my tool is a problem statement & a data set or internet connection.
-
-				- However, some functions in the tool can be generated with machine-learning if the function definition isnt available or needs to be generated, and if none of the other function-derivation methods are available (unlikely unless the pattern interface or an equivalent is accessible), by identifying sub-functions likely to be in a function with a particular intent, sub-function sequence likely to generate a function intent, core function combinations likely to generate the sub-functions necessary for a function with a particular intent, variables likely to be changed for a function with a particular intent, side effects likely to occur with a particular sub-function structure (sequence/tree), etc - which I pointed out several years ago with my posts about code queries to search for functionality using function metadata indexing (including metadata like intent), which was followed by big tech companies attempting to build it.
-
-				- It must be said that one of my problem-solving workflows is particularly suited to automating functions, such as by applying limits as filters (like a sculpture) until the resulting structure fulfills an intent.
-
-			- I struggle to believe that no one else would have thought of a 'method to update the weights of variables & their interactions & versions after checking if the previous weights were accurate' which is the core structure that machine-learning is based on, so machine-learning shouldn't be seen as an esoteric invention that is out of reach of most people's brains, but rather a default invention that most people would have thought of if they had basic math understanding/education & tried to solve the problem of automating 'finding a prediction function' in a way that didn't involve regression or other known methods & scaled to high-dimensional spaces.
-
-			- I also struggle to believe that someone would have thought of my invention, given how many hundreds of millions of people had the info necessary to come up with it but didn't, though it would be nice if I was living in a world full of other geniuses, it's just hard to believe given the information that people keep proving. If most people tried to automate problem-solving, they would come up with a solution that adjacently used existing technologies, like 'apply machine learning whenever you dont know something' or 'store solutions in a rules/solutions database', because those are easy solutions and people generally come up with easy solutions.
 
 		10.b. aren't you scared of all the people who are mad that you came up with this?
 
@@ -563,7 +439,7 @@
 						- this method can be generalized to a method of finding functions for an intent like 'reduce computation' or 'differentiate with a line'
 
 
-	13. what is an interface - is it the same as a software interface?
+	13. isnt an interface already defined in software (API, user interface, abstract class interface)?
 
 		- glad you asked just so I could say this fun answer which is fun bc its true & so obvious:
 			- no! 
@@ -811,7 +687,7 @@
 
 		- looking back, I think some objects were clues to this trajectory, which could be structures that you could use to generate this (mandela, detachment from the Bhagavad Gita, the psychic instrument from His Dark Materials, the signpost from the Phantom Tollbooth, the 'abstractions as islands' trope in fiction, the time-traveling trope in fiction or conflicts between the church & state alerting me to different perspectives) but I can't point to one structure that I focused on through the years except the abstract network that I used for my book, which I realized was real somewhere after thinking about how certain concepts seemed to have rules they followed, like how power seems to gather in certain places. I began to think of an abstract city where these concepts could change, in conceptual time, and thought about how they might change in their interactions if not their structure, since they didn't seem changeable in this dimension set, but instead seemed to cascade down to structural dimensions, like a form of light.
 
-		- why did I wait until this year to patent it? Partly bc I was keeping some pieces of the invention private in case I got a pitch meeting, partly bc I was busy with work/health/thinking of new ideas in specific problem spaces, and partly bc of the 1-year limit on public disclosures of inventions in the current outdated legal framework, and partly bc I decided to figure out the mechanics/implementation of pieces of it later, once I arrived at & verified the initial proof of concept (later meaning once I got a pitch meeting).
+		- why did I wait until last year to patent it? Partly bc I was keeping some pieces of the invention private in case I got a pitch meeting, partly bc I was busy with work/health/thinking of new ideas in specific problem spaces,  partly bc of the 1-year limit on public disclosures of inventions in the current outdated legal framework, partly bc of the difficulty/cost of the patent process which I thought the people who stole my inventions would inevitably interfere with, and partly bc I knew patents were public and if a large company copied it by reading my patent, I would find it difficult to bring them to justice, and partly bc I decided to figure out the mechanics/implementation of pieces of it later, once I arrived at & verified the initial proof of concept (later meaning once I got a pitch meeting).
 
 		- Not everyone has a built-in reason to automate problem-solving (like if they don't have serious problems to solve relevant to them, like the well-being of good people), but once I realized automation of problem-solving was possible, that gave me extra drive to get there, so I didn't need other reasons past that point, though luckily I had them just in case.
 
@@ -830,11 +706,6 @@
 
 		If you want to become smart, start by not allowing yourself to indulge in all of these biases towards easy rewards that you've built up (or inherited, if you come from an ancient line of crack addicts), attacking one bias at a time, until you get over the 'exercise threshold' where it stops being painful to learn things - at which point you can choose where to host your pain, and if you're really smart, you'll choose to connect your pain with the suffering of innocent or otherwise decent people.
 
-		- 'other people have applied physics, neuroscience, & other sciences to ml before, someone would have thought of this eventually', you claim, wildly looking around for signs of people nodding in agreement
-			- yes, other people can read, but that doesnt mean they would have thought of abstracting their workflow of 'look up science concepts we havent tried before and apply them manually to the ml problem space in a way that might be useful & then check if it improves anything' (which is actually just an application of 'trial & error') or that they would have come up with a consistent, useful, effective way to abstract & automate their workflow (and all other problem-solving workflows), and tried to automate themselves, bc of their enormously unjustified egos preventing them from recognizing that their work could be automated
-
-			- people had decades and didnt identify even one of my insights to automate problem-solving & can't come up with a new method to do so whenever they want like I can, let alone the fact that 'filters, symmetries, standards, perspectives, bases, etc' all had something in common, or noticing that there were useful structures like general functions (find/apply/build/derive/mean) that were interchangeable, or identifying all the primary interfaces on which any problem could be solved - partially because their ego prohibited them from thinking about how to automate themselves, partially because I'm the best in the world at this type of thinking
-		
 
 	20. is this just content generation, which already exists in various algorithms to generate content like a sentence?
 
@@ -849,7 +720,23 @@
 		- a solution/rules database is a way to 'find an existing solution, if it exists and if the search query is specific enough to identify the required solution', which not only doesnt automate the 'search query design' process itself but is also extremely fragile according to the data stored in the database
 
 
-	22. is all value created? are there any problems left to chase? what problems cant be solved with this?
+	22. whats the difference between your invention & math proof assistants?
+		- these assistants may:
+			- apply specific static coded functions to solve the problem of 'find/generate/derive a math proof', functions like:
+				- 'apply machine learning to generate probable proofs'
+				- 'apply combinations of proof inputs or components to generate possible proofs' 
+			- perform calculations related to the proof, so every calculation doesnt have to be done manually
+				- like 'calculate the ratio of nodes with this attribute in a network, for networks of size n for all n from 1 to a million'
+		- these assistants do not:
+			- evaluate a specific attribute required for proofs, like 'consistency/validity' or 'solvability given computational complexity & minimum required information', using known math interactions that fulfill the attribute 'consistency', although that would be useful and can be done with my invention
+
+
+	23. whats the differences between your invention & a 'math function solver tool', where you input a function and it tells you a specific value related to the function, like the function zeros or roots or the limit of a series?
+		- that tool is just applying known math functions to solve specific problems 
+			- if you input an unsolved problem in mathematics, it won't be able to give you the answer, it will only be able to give you an answer for problems with known solutions or solution-finding methods, which trigger specific static coded logic in their application, which supports solving those specific problem types.
+
+
+	24. is all value created? are there any problems left to chase? what problems cant be solved with this?
 
 		- once certainty-generating/finding/deriving devices are created, uncertainty-generating/finding/deriving devices will be necessary, and we can stop evaluating questions based on 'what is real' and start evaluating questions based on 'what should/could be real' by creating reality
 
