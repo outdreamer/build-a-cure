@@ -50,6 +50,14 @@
       - identifying & generating combination structures of useful structures like 'maximally different values around bases'
     - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
 
+  - check other examples of high-value use cases (other than identifying important concepts):
+    - identifying the important base to frame changes on (identifying new interfaces)
+    - identifying the right interaction level to focus on (identifying the change-maximizing layer of a system to examine a particular relationship)
+    - identifying the right perspective to filter with (like 'identifying whether the legal/scientific/progressive perspective is most useful for an intent')
+    - identifying the right context/position for an object (derive context when it's missing or fit an object to a system)
+    - identifying the most causative function set (like identifying core functions, or the most misused functionss, or the most change-causing functions)
+    - identifying important differentiating types (like function types indexed by intent & structure types, like boundary/change functions)
+              
   - organize examples of logic for functions (interface query design logic)
     - document default static config objects that are inputs to core objects (like functions & concepts)
       - core functions like 'change', with locked objects which should be generated as inputs to other functions and should not be removed bc they enable other rules & core objects
