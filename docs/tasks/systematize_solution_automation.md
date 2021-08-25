@@ -148,6 +148,7 @@
 			- solution automation workflows can be described in terms of their:
 				- relation to other workflows (how they fit with other workflows, as in how to generate them by applying conversions to other workflows)
 				- standard variations (generalization, simplification)
+				- start/end point of the workflow (which interface the workflow starts from)
 
 		- generative variables creating workflows
 			- any structures that can generate interactions that find/derive/generate info can generate solution automation workflows
@@ -155,10 +156,15 @@
 
 		- input variables determining differences across workflows
 			- workflows depend on some requirements, like:
+				- relevant structures/formats
 				- problem/solution structures
 				- general problem-solving intents
 				- functions including general functions, interim functions & core interaction functions/structures
 				- interfaces
+
+			- the core abstract function represented (is it a find method, an apply method, a combination)
+			- the models used (object model, interface query)
+			- unstructured/uncertain information
 
 	6. functions
 
@@ -243,7 +249,6 @@
 			- 'filter a problem space' isnt as useful as 'filter a solution space' for general problem-solving processes, bc 'filtering a solution space' has an output of a 'solution' by definition of what a 'filter' and 'solution space' are, whereas 'filtering a problem space' wouldnt necessarily have this output
 			- 'relate problem to other problems' is useful in case solutions to related problems are available, as a source of initial solutions to test, which is useful for some solution automation workflows
 
-
 ## variable configuration
 
 
@@ -252,18 +257,19 @@
 	- problem-solving intent functions
 
 		- solution interaction functions
-			- filter solution space
+			- reduce/filter solution space
 				- check if solution metric is fulfilled
 			- change standard solution
 			- differentiate solution from known errors
 			- compare solutions
 			- select solutions
+			- create a prediction function connecting inputs/outputs
 
 		- fulfill problem/solution interaction function
 			- calculate cost of solving problem
 			- remove problem/problem cause
 			- reduce problem/problem cause
-			- connect problem with solution
+			- connect/match problem with solution
 			- solve different problem
 
 	- general alternate info existence functions (functions that find/derive/generate info, which can be used as alternate general problem-solving intents to resolve an info problem)
@@ -611,6 +617,7 @@
 			- interface queries act as a 'problem-solving function' or a 'solution finding/building/deriving function'
 			- example: many queries can implement the 'trial & error' workflow, bc some implementations will try certain combinations before other implementations, even when using the same combination-generating function in the same language there may still be variation in the implementation
 		- interface structures applied
+		- interaction level (general abstraction layer or type of functions/structures applied)
 		- core problem-solution interaction functions (reduce, connect)
 		- general functions applied (find, apply, build, derive)
 		- problem-solving intent functions fulfilled in the workflow (filter/compare solutions, solve different problem, connect problem/solution, reduce problem/problem caus)
