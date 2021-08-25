@@ -1,33 +1,119 @@
-				- meaning can help you identify answers to questions like 'what is the important object' or 'what is the better priority', such as:
-					- question: "what concept is explanatory or prioritized in society" (specifically the question "is society about truth or teamwork?" for a person raised by wolves trying to understand society quickly to survive)
-						- how would you derive the answer "teamwork is a good default, except when the team succumbs to negative group dynamics, at which point individuals/other teams external to the group need to be in position to criticize it", given the thousands of objects that could explain the function of 'optimizing society'
-						- there are many interface traversals to gather output to derive the answer:
-							- insight: 
-								- 'over-focus on facts makes arguments & potential restrictive', 'teamwork is good for risk distribution for robust populations'
-								- 'given that information is necessarily existing in the past according to the observer, and that information doesnt exist according to an observer outside the space-time, does this apply to the information system of math - is there information forming or possible information that can be captured by future number types which are gathering, where existing math is the observer looking backward'
-							- system: 
-								- 'teamwork has built-in incentive alignment with whats best for other people'
-							- interface: 
-								- 'truth is one interface, but teamwork is applicable across many'
-							- function: 
-								- 'teamwork is an important concept by default because it is related to a core function type, which is interaction functions'
-							- concept-structure: 
-								- 'teamwork as a structurized concept is based on the core structures of checking if other team members have what they need to benefit the team & maintain the team advantage, which is based on the concept of balance'
-								- 'teamwork involves a network subset with aligned incentives'
-							- concept
-								- 'truth is related to the concept of state'
-								- 'teamwork involves the concept of a group'
-								- 'facts are ignored by many groups which find their trade loops more efficient without that information - the concept of a cult'
-							- pattern: 
-								- 'patterns of state changes are often more useful for their predictive power than state information'
-							- meaning:
-								- the information from the other interface traversals can help build the meaning of the priority ranking relationship between these two concepts:
-									- 'facts dont mean anything to a group unless they help the group'
-									- 'teams that dont assimilate the important facts quickly enough may become irrelevant enough to seem false or not real to other groups'
-									- 'if an observer sees a group problem, they can save the group, and they have an incentive to, if the group is beneficial to other groups'
-								- this is the meaning bc its the structure relevant to the initial concern, which was the question asked
-						- now the observer can quickly figure out what to prioritize, rather than waiting for someone to explain it to them
-							- vertices:
-								- determinative/generative/power: does truth determine teamwork or the other way around?
-								- differentiating: what is truth that teamwork is not and vice versa?
-							- vertices like generative/hub/differentiating variables can shorten the distance from lack of understanding to understanding, similar to the insight paths associated with the vertices
+     - joke mapping insight paths
+        - unlikely hypothetical
+          - several degrees of assumption chains to generate an unlikely hypothetical (sequence of assumptions from a starting assumption/premise, generating a background story/context)
+            - serious + petty + important: 'none of us can figure out why he tucks in his tie'
+              - implies that the problem was so serious that a discussion happened to investigate & research it to fix it
+              - implies that no one is allowed to ask him or has the courage to ask him directly, implying he's powerful in some way & cannot be questioned, which implies these are his subordinates who are not doing work in order to discuss this, which implies this could cause their work arrangement to be invalid 
+            - 'none of us ever figured out why he tucked in his tie'
+              - repeated + important: implies that the discussion was repeated bc it was such an important matter
+            - 'none of our lawyers or R&D staff ever figured out why he tucked in his tie'
+              - important: adds another level of importance in that they hired an expensive legal team to investigate the matter for liability/indemnity/litigation potential as if it made the company look so bad they had to hire a legal team
+            - "the tie-tucking survived ex-girlfriends' interventions"
+              - important: it has ruined multiple relationships with people who cared about him who tried to stop him from doing this to himself
+              - briefer than previous version & uses more evocative verb
+              - different: 
+                - add assumption: assumption that the audience is rooting for the tie-tucking to continue
+                - add concept of 'agency': attributing personhood to the tie-tucking, which is fighting for its life against cruel monsters
+            - 'even after being accused of being a double-tucker who tucks his tie but not his shirt, he persisted'
+              - important + petty + similar: fashion is a petty thing to care about this much, and a special jargon term 'double-tucker' implies a whole community or sub-culture based on or caring about this issue or related issues, which he has caused controversy in, with added importance by association from term 'double-agent', typically reserved for high-stakes situations like foreign wars, as if he's betraying someone or his heritage or group or people who rooted for him, and rhymes with a curse word
+            - 'the mysterious tie-tucker left the board of directors' 
+              - important + reduced: condensing the entire story into a brief structure like a nickname and casually referencing it despite the importance implied in a problem that generates a nickname
+        - topics
+          - conspiracy theory (a muffling device to prevent the Chinese from listening to his balls chafe for blackmail material)
+          - cults/ex's (definitely worshiping the wrong things)
+        - total opposite: 'your fatal flaw wasn't so much all the excessive drunk online shopping purchases at the police store & the corporate sabotage so much as the curtains from korea that spied on us & posted our arguments to porn sites' (it was absolutely the excessive spending at the police store)
+        - changing definitions to very different alternate definition
+          - 'tucked in his tie' or 'used unnecessary protection' or 'packed heat'
+        - resolving awkwardness
+          - 'i dont hate your dick pics (introduces the problem, 'uh oh does she hate my dick pics'), I just think theyre (foreshadowing something that seems like a difference but is actually similar) more optimal when directed at enthusiasts (or professionals), such as doctors/researchers, who might appreciate it more than I ever could (optional: from a curiousity perspective)'
+        - mixed contexts/styles
+          - talking about an unimportant matter in the same terms used for important matters
+            - 'his parents couldnt deal with the idea of confrontation so they gently let him lose touch rather than disowning him outright' 
+        - adding relevant structures of meaning like:
+          - aligning layers like double entendres
+            - calling him a 'magician' bc they have a function of 'hiding scarves' which is similar to 'tucking a tie' bc 'tucking' has a related output of 'hiding'
+        - defeating the purpose/self-defeating
+          - listing all the manipulations youre using, while using them, to the target 
+        - false dignity/over-generousity
+          - calling him a 'international man of mystery' bc its a very dignified way to portray having mysterious fashion habits that defy analysis from subject matter experts
+          - 'he must be doing it to scare away women bc theyre always chasing him'
+        - injecting stupidity/extremes
+          - he thought it would act like a talisman to protect him from rape or unwanted pregnancy
+          - he was told by a foreign holy man (has association with 'wise foreigner' stereotype) that it would protect him from fertility like a 'cosmic condom' (repetition, catchy) 
+        - removing a point/agency (its not an intent, he just had the clingiest underwear/reproductive organs known to mankind)
+        - fitting with existing systems without obvious contradictions
+          - 'using existing phrases in a new way with minimal distortions' is surprising bc its unlikely to find a new distortion of an existing component that someone hasnt tried, so the simpler the better for this type
+	    
+	    - joke types
+	      - 'annoying when they bring up human rights in a conversation'
+	        - conversation system context
+	          - functions
+	            - change topic 
+	              - change topic structure (sequence)
+	                - introduce a topic (first time topic is included in conversation)
+	            - expected interaction functions
+	              - criticism of a behavior
+	                - 'conversation with dictator' system context
+	                  - criticism of power abuse (law violation, specifically human rights violation, which are a related object to dictators)
+	                    - interpreted as right in the 'conversation with dictator' system context
+	                      - expected interaction in this context
+	                        - 'should bring up human rights to a criminal'
+	              - norms:
+	                - for low-stakes interactions & interaction errors (manners, annoyance, disrespect)
+	              - laws: 
+	                - for high-stake interactions & interaction errors (rights violations)
+	          - placing a norm (or related objects) in the place where a law (or related objects) would normally go:
+	            - 'its annoying when someone doesnt let you end the conversation'
+	              - 'its annoying when someone keeps going on & on about your previous conversations where you ordered deaths of a dissident'
+	                - 'its annoying when someone keeps going on & on about your previous conversations where you ordered deaths of a dissident for being annoying & then abruptly stops without explanation'
+	              - 'its rude when someone doesnt let you end a conversation with a laywer interrogating you for war crimes' 
+
+	- example of how to identify the killer counterpoint
+      - point: 'election fraud claims'
+        - counterpoint: you dont think the other party has members?
+          - followup points:
+            - how are they organizing? why do you even hear about them?
+            - who's benefitting from investing massive funding in creating a false illusion, if its all fake?
+            - why wouldnt they choose cheaper methods of doing so than an elaborate illusion?
+      - identify most extreme false assumption of point by identify causes of the output metric (vote count)
+        - the primary/basic false assumption of the point is that the other side doesnt have votes that are comparable in quantity
+          - possible causes (inputs) of 'not having similar vote count' include:
+            - not going to vote
+            - not being able to vote
+            - not having members to vote
+          - the most extreme false assumption is the most extreme cause of 'not having similar vote count' (that the other side doesnt even have members (input of votes) that are comparable in quantity, let alone votes (output))
+      - identify 'incentives', 'side effects of party/member/vote existence & size' as other relevant concepts to generate followup questions
+
+	- meaning can help you identify answers to questions like 'what is the important object' or 'what is the better priority', such as:
+		- question: "what concept is explanatory or prioritized in society" (specifically the question "is society about truth or teamwork?" for a person raised by wolves trying to understand society quickly to survive)
+			- how would you derive the answer "teamwork is a good default, except when the team succumbs to negative group dynamics, at which point individuals/other teams external to the group need to be in position to criticize it", given the thousands of objects that could explain the function of 'optimizing society'
+			- there are many interface traversals to gather output to derive the answer:
+				- insight: 
+					- 'over-focus on facts makes arguments & potential restrictive', 'teamwork is good for risk distribution for robust populations'
+					- 'given that information is necessarily existing in the past according to the observer, and that information doesnt exist according to an observer outside the space-time, does this apply to the information system of math - is there information forming or possible information that can be captured by future number types which are gathering, where existing math is the observer looking backward'
+				- system: 
+					- 'teamwork has built-in incentive alignment with whats best for other people'
+				- interface: 
+					- 'truth is one interface, but teamwork is applicable across many'
+				- function: 
+					- 'teamwork is an important concept by default because it is related to a core function type, which is interaction functions'
+				- concept-structure: 
+					- 'teamwork as a structurized concept is based on the core structures of checking if other team members have what they need to benefit the team & maintain the team advantage, which is based on the concept of balance'
+					- 'teamwork involves a network subset with aligned incentives'
+				- concept
+					- 'truth is related to the concept of state'
+					- 'teamwork involves the concept of a group'
+					- 'facts are ignored by many groups which find their trade loops more efficient without that information - the concept of a cult'
+				- pattern: 
+					- 'patterns of state changes are often more useful for their predictive power than state information'
+				- meaning:
+					- the information from the other interface traversals can help build the meaning of the priority ranking relationship between these two concepts:
+						- 'facts dont mean anything to a group unless they help the group'
+						- 'teams that dont assimilate the important facts quickly enough may become irrelevant enough to seem false or not real to other groups'
+						- 'if an observer sees a group problem, they can save the group, and they have an incentive to, if the group is beneficial to other groups'
+					- this is the meaning bc its the structure relevant to the initial concern, which was the question asked
+			- now the observer can quickly figure out what to prioritize, rather than waiting for someone to explain it to them
+				- vertices:
+					- determinative/generative/power: does truth determine teamwork or the other way around?
+					- differentiating: what is truth that teamwork is not and vice versa?
+				- vertices like generative/hub/differentiating variables can shorten the distance from lack of understanding to understanding, similar to the insight paths associated with the vertices

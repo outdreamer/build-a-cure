@@ -37,7 +37,7 @@
 			- using info objects like problems/incentives/sub-systems/efficiencies & definitions & concepts like probability/relevance to create defined structures like prediction functions
 			- applying structure to unstructured information
 
-	4. can this really be used to automate math insights? that requires complex thought that cant be automated.
+	4. can this really be used to automate math insights? that requires complex thought that cant be automated
 		- whoever told you that is full of
 			Lattice multiplication method automation
 				- https://github.com/outdreamer/build-a-cure/tree/master/docs/specific_problem_analysis/multiplication.md

@@ -1,5 +1,9 @@
 # physics
 
+  - document time structures (concave time explaining compounding similarities up to a point of maximum concavity, a structure that can separate from the other space-times)
+
+  - time as 'alignment' or 'connectivity' between multiple useful interface structures like 'change types/patterns' & 'connectible stable states'
+  
   - time crystals are an example of a 'certainty' structure created by 'requirements'
       - there is no other possibility allowed by the 'interactions of those structures' which create 'requirements', so the behavior of the time crystal is 'inevitable', or 'required'
     - a quantum superposition is a 'lack of information' or 'semi-information' as in a 'lack of efficient stability' (or a mismatch between a structure and the space its observed in vs. the space its clearly defined in, like how imaginary numbers are partially structural in euclidean space in their reference to 1 & square roots and negatives) so that the interaction with the 'observation' function gives the not-information or semi-information of the superposition the efficiency/energy it needs to stabilize, like a template being filled with variable values according to a query, where the template represents 'partial/semi-information' and the values injected into it crystallize it into a more certain form
