@@ -21,8 +21,6 @@
       - what deadly components of structures like the antimicrobial impact of uv rays be preserved & used to kill cancer cells (can killer wavelengths be produced by immune cells when a cancer cell that doesnt respond to other methods is encountered)
     - time as 'alignment' or 'connectivity' between multiple useful interface structures like 'change types/patterns' & 'connectible stable states'
 
-  - move examples from faq/drinkme/readme to docs if not included
-
   - add to ml
 
     - example of identifying insights like the following in the problem space of 'identify race from minimal structures like x-rays':
@@ -50,14 +48,15 @@
       - identifying & generating combination structures of useful structures like 'maximally different values around bases'
     - identifying gaps in known useful structures explaining data points (where data points arent explained by those known structures) & generating inputs in those gaps other than those data points
 
-  - check other examples of high-value use cases (other than identifying important concepts):
-    - identifying the important base to frame changes on (identifying new interfaces)
-    - identifying the right interaction level to focus on (identifying the change-maximizing layer of a system to examine a particular relationship)
-    - identifying the right perspective to filter with (like 'identifying whether the legal/scientific/progressive perspective is most useful for an intent')
-    - identifying the right context/position for an object (derive context when it's missing or fit an object to a system)
-    - identifying the most causative function set (like identifying core functions, or the most misused functionss, or the most change-causing functions)
-    - identifying important differentiating types (like function types indexed by intent & structure types, like boundary/change functions)
-              
+  - move examples from faq/drinkme/readme to docs if not included
+    - check other examples of high-value use cases (other than identifying important concepts) from faq:
+      - identifying the important base to frame changes on (identifying new interfaces)
+      - identifying the right interaction level to focus on (identifying the change-maximizing layer of a system to examine a particular relationship)
+      - identifying the right perspective to filter with (like 'identifying whether the legal/scientific/progressive perspective is most useful for an intent')
+      - identifying the right context/position for an object (derive context when it's missing or fit an object to a system)
+      - identifying the most causative function set (like identifying core functions, or the most misused functionss, or the most change-causing functions)
+      - identifying important differentiating types (like function types indexed by intent & structure types, like boundary/change functions)
+                
   - organize examples of logic for functions (interface query design logic)
     - document default static config objects that are inputs to core objects (like functions & concepts)
       - core functions like 'change', with locked objects which should be generated as inputs to other functions and should not be removed bc they enable other rules & core objects

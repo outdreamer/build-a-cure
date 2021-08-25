@@ -1,4 +1,6 @@
-### example posts containing inventions or unique points/jokes that were copied by other people
+# Invention timeline
+
+## example posts containing inventions or unique points/jokes that were copied by other people
 
 	- first mention of insight paths on social media
 		- https://twitter.com/alienbot123/status/1137526990339170306
@@ -74,7 +76,7 @@
 			- using a similar method as this example of attribute/function combination, generate all possible sets:
 			  - https://twitter.com/alienbot123/status/1245950414278627328
 
-- other useful insights identified/explained, some of which are in this repo, my finder repo, or my online emails/messages/posts/blogs
+	- other useful insights identified/explained are in this repo, my finder repo, or my online emails/messages/posts/blogs
 	
 	- I identified:
 		- that some functions were inherent to all processes & were interchangeable (find, build, apply, mean, derive)
@@ -113,7 +115,8 @@
 		- why symmetries (which I convert to the term 'interfaces') are useful for automating problem-solving & then they started using them in ML algorithms
 		- that there are other useful structures that just data sets to solve a problem, like concepts/cause/intent, like how you can use facts or logic to prove a point, and both arent necessary
 
-### summary of invention timeline
+
+## summary of invention timeline
 	
 	- I was taught that:
 		- problems could be solved in multiple ways
@@ -151,7 +154,7 @@
 		- 2017
 			- pitched these at work (Accenture, Capital One)
 
-### detailed invention timeline
+## detailed invention timeline
 
 - useful structures identified
 
