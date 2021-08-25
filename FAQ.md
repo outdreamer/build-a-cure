@@ -129,11 +129,7 @@
 							- this solution is an example implementation of the structure-intent interface combination, with a specific implementation of the 'change' interface within that interface combination
 						- this method can be generalized to a method of finding functions for an intent like 'reduce computation' or 'differentiate with a line'
 
-	5. what is a problem space
-		- its the space where youd graph all the info relevant to a problem - the context allowing a problem to exist
-		- I often use tech as a key determinant of a problem space bc which tech you have often determines which available resources like strategies you can use, but it includes all the other resources you might have access to (info, potential, energy, physical assets, etc).
-
-	6. why improve problem-solving at all?
+	5. why improve problem-solving at all?
 		- the problems with current solution methods:
 			- solutions that are slow to implement, static, not shared, not organized, not generalized, & include repeated work
 			- solutions often dont use prior knowledge (insights/patterns) to inform new solutions
@@ -155,7 +151,7 @@
 				- there should always be at least two comparable alternatives so a decision is difficult & not certain
 					- at least two systems, at least two perspectives, at least two metrics, at least two intents, etc - the ark requires differentiation to sustain potential
 
-	7. what do you mean by 'using potential as a base rather than time'
+	6. what do you mean by 'using potential as a base rather than time'
 		- time as a base for assessing change is useful in solving information problems
 		- time occurs when there are no symmetries allowing for reversibility - in order for something to be reversible, symmetries have to align to allow for efficient organization of energy flow so a system can form to be a platform for the change
 		- potential is the ability to change, time is the realization of change
@@ -175,7 +171,7 @@
 			- these metrics differ in how other types of time pass
 		- rather than asking 'is this resource needed at a given location' - we can ask questions like 'did we enable people in that location to solve a resource deficit?'
 
-	8. what is the actual workflow to use this?
+	7. what is the actual workflow to use this?
 		- a general program logic flow might include the following:
 			1. check pre-existing output of the program (pattern indexes, concept definitions, etc) to see if it can be used as an input filter for a new problem (the system filters below are some of the outputs of this program) to break the problem into solved problems
 			2. if it isn't composable with solved problems, but the problem type is still identifiable, then select a solution strategy & starting point
@@ -186,7 +182,7 @@
 			7. output either insights found, problem-solution match, or uncertainties that need to be resolved (gather more data, answer this question, etc)
 			8. store any info objects found that arent already in indexes (insights, patterns, problem-solution matches, interfaces, functions)
 
-	9. is all value created? are there any problems left to chase? what problems cant be solved with this?
+	8. is all value created? are there any problems left to chase? what problems cant be solved with this?
 		- once certainty-generating/finding/deriving devices are created, uncertainty-generating/finding/deriving devices will be necessary, and we can stop evaluating questions based on 'what is real' and start evaluating questions based on 'what should/could be real' by creating reality
 		- this system can solve problems where information is calculatable (like on the math interface) or where information is retrievable/testable (where you have data you can find & retrieve).
 			- it can identify new interfaces on which problem-solving automation is possible, as they develop or become measurable
