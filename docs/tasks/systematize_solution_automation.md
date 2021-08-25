@@ -357,12 +357,17 @@
 				- find structure of usefulness (input/output sequence, alternate route, filter to differentiate solution/error)
 			- find specific structure
 				- find interface structure (cause/intent/structure/type)
+				    - find error types
+				    - find structures of cause
+				    - find variable types & structures
 		- apply structure
 			- apply specific structure to structures
 				- apply interaction function to structures (create a network/sequence of structures, combine/filter/differentiate/change/integrate/organize/fit structures)
+				- apply a standard format (function/attribute/object) to an input
 		- build structure
 		- derive structure
-
+    		- derive definition routes on various interfaces from a definition
+    		- derive function intent stack
 
 ### attributes
 

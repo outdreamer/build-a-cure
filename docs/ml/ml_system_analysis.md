@@ -13,6 +13,8 @@
           - 'given A/B/C and G/H/I models, does D/E/F make sense'
           - 'can a reduced stable logical form of DEF be derived from ABC & GHI, and does this logical form match DEF, and to what degree'
           - 'why a variable is useful to predict another', not just 'if a variable is useful to predict another', since knowing 'why' will help the model adapt when that reason changes
+    - make list of variable structure variables measured by algorithms & why they are measured by a network algorithm
+    - apply nn to derive error types & bias incorporated into other nn data/parameters/algorithms/structures/models    
 
   - nn concepts:
       - 'games/play' as injecting low-stakes false info into other ai models/algorithms

@@ -1,5 +1,16 @@
 ## Investing markets 
 
+  - value isnt created/lost by companies in the timespan of hype/short cycles, so stock market price swings aren't reflective of reality from a macro perspective
+      - it takes years to build value, it doesn't happen overnight, excluding almost magical insights that create cascading efficiencies like my system
+      - losing value also happens slowly, excluding extreme natural disasters, like the value of a community still being relatively high despite shared losses, bc of social network effects & organization/coordination effects
+      - value can be calculated differently, using metadata like the lifetime & total possible value of a product
+        - what is the total supply of the product inputs (fossil fuels)
+        - what is the usability lifetime
+        - what are the costs
+        - what are the product intent alternatives (can intents fulfilled by the product be fulfilled by other products)
+        - what is purchased with revenue from a product (research, insights, other more valuable resellable products, etc)
+        - if this pricing method is applied to fossil fuels, oil companies would be paying people to use them
+
   - examine net effect of competition on markets
         - does allowing companies to fail have a net negative effect thats biggest on the risk (insurance/debt) industries, organization/analysis (ratings, group investing), info markets, govt industry, or is the negative effect exported to other countries or used as an input (legal precedent, example to use for future legislation) or do negative effects continue to be transferred to end-nodes of debt chains (those oppressed by stacked inequalities)
 
