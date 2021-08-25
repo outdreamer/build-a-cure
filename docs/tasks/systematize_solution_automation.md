@@ -109,7 +109,7 @@
 					- interface queries are an 'interaction structure of interaction structures' because they connect solution automation workflows with structural core interaction functions 
 						- interface queries are a 'structural implementation' of a solution automation workflow
 
-			- all functions use the general functions ('find') or a sub-function of them on some interaction level, whether its an interim level between general/structure functions ('select'/'compare') or structural level ('filter')
+			- all functions use the general functions ('find') or a sub-function of them on some interaction level, whether its an interim level between general/structure functions (organize/standardize) or structural level ('filter')
 
 	1. problem/solution structures
 

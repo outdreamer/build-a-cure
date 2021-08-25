@@ -1,5 +1,136 @@
 ## FAQ
 
+### example posts containing inventions or unique points/jokes that were copied
+
+		- first mention of insight paths on social media
+			- https://twitter.com/alienbot123/status/1137526990339170306
+		- I explained the concept of insight paths to identify insights automatically
+			- https://twitter.com/alienbot123/status/339106387219079169
+			- https://twitter.com/alienbot123/status/339106565825126400
+			- https://twitter.com/alienbot123/status/339106672620482560
+			- https://twitter.com/alienbot123/status/339106893605789696
+			- https://twitter.com/alienbot123/status/339107097155358722
+			- https://twitter.com/alienbot123/status/339107234690764800
+			- https://twitter.com/alienbot123/status/339107451452399616
+			- https://twitter.com/alienbot123/status/339107650606350336
+				- the post above also mentions the variables of a process/function (that can be used to automate problem-solving by identifying the next insight in an insight path, when applied to a particular context like a field/domain of science), which is the first mention of function attributes that are useful for problem-solving automation
+		- truth types (indicating 'alternate routes' to access the truth)
+			- https://twitter.com/alienbot123/status/636694507224989696
+		- earliest mentions of function indexing attributes on my twitter
+			- mentions indexing function by abstraction, indicating intent to create interface queries
+				- https://twitter.com/alienbot123/status/367796753371627520
+			- https://twitter.com/alienbot123/status/670087598312919040
+			- https://twitter.com/alienbot123/status/735892668287492096
+			- https://twitter.com/alienbot123/status/789953895934095360
+			- https://twitter.com/alienbot123/status/850786694974590977
+			- https://twitter.com/alienbot123/status/873001704568082433
+			- https://twitter.com/alienbot123/status/903697129058783233
+			- https://twitter.com/alienbot123/status/903693738765148160
+			- https://twitter.com/alienbot123/status/928530789112995840
+		- earliest mentions of problem-solving automation specifically on my twitter
+			- https://twitter.com/alienbot123/status/368896666847301633
+			- https://twitter.com/alienbot123/status/368896961409077248
+			- https://twitter.com/alienbot123/status/550407946749091840
+			- https://twitter.com/alienbot123/status/550408623982403584
+			- https://twitter.com/alienbot123/status/550409968525250561
+			- https://twitter.com/alienbot123/status/802885493453103108
+				- https://github.com/outdreamer/finder/tree/master/objects
+			- https://twitter.com/alienbot123/status/829197235384700928
+		- earliest mentions of interfaces (as 'perspectives' or 'lenses' as 'filters') on my twitter
+			- https://twitter.com/alienbot123/status/211271391662714880
+			- https://twitter.com/alienbot123/status/211271546478665729
+		- idea/conceptual markets
+			- https://twitter.com/alienbot123/status/208398749272248321
+			- https://twitter.com/alienbot123/status/215465108023943168
+		- applying structures like 'combine' to concepts:
+			- https://twitter.com/alienbot123/status/254062162119651328
+		- abstract network (a structure on the 'abstract interface')
+			- https://twitter.com/alienbot123/status/268223098522832896
+		- first mention of the meaning interface on twitter
+			- https://twitter.com/alienbot123/status/367801507636207616
+		- perspective-switching (interface query)
+			- https://twitter.com/alienbot123/status/367813951561547776
+			- https://twitter.com/alienbot123/status/647373077827993600
+			- https://twitter.com/alienbot123/status/647380929237925888
+			- https://twitter.com/alienbot123/status/682709026921025536
+		- graph of interface layers
+			- https://twitter.com/alienbot123/status/1016179939371085825
+		- earliest mentions of the usefulness of the 'intent' interface on twitter
+			- https://twitter.com/alienbot123/status/1334480685722046464
+			- https://twitter.com/alienbot123/status/735893657484689408
+		- earliest mentions of structures on the 'concept' interface on twitter
+			- https://twitter.com/alienbot123/status/1334480696597889026
+		- earliest mention of solution metadata like solution types
+			- https://twitter.com/alienbot123/status/550408877087666177
+		- I identified the possibility of math operations on concepts (conceptual math) & other structural math operations on other interfaces
+			- https://twitter.com/alienbot123/status/1043549108261281793
+
+	- other useful insights identified/explained
+		
+		- I identified insights like:
+			- that some functions were inherent to all processes & were interchangeable (find, build, apply, mean, derive)
+			- that some structures were interchangeable as methods of generating other useful structures (useful structures like 'input-output sequences' could be used to generate solution automation workflows)
+			- useful attributes like 'interactivity' of structures
+			- that there were multiple solution automation workflows that could solve any problem & identified their variables & core interaction functions to generate them
+			- how to automate inventing (with math examples & other examples)
+			- the core structures/functions/attributes that most systems could be broken into & used to generate them
+			- the format of mixing interface components to graph a system
+			- useful cross-interface structures like interaction layers that could deconstruct a system quickly to generate quick understanding
+			- that no one had automated any kind of system analysis like automatically identifying efficiencies in a system
+			- important alternatives interfaces on which any problem could be solved
+		
+		- I explained how to solve problems by explaining:
+			- dictators/war/human nature to governments so they wouldnt have to go to war anymore, specifically how to connect perspectives across conflicts like wars in a way that doesnt invalidate either side - because if you dont connect them, conflicts will continue
+			- how they could identify new viruses/species by applying changes to known species based on common change types/functions
+			- that people should use known methods to design drugs that are non-addictive
+				- https://phys.org/news/2021-07-addictive-opioids-chemistry.html
+			- that all problems are structural, which no one even noticed until I pointed it out
+			- that cell communication is a fundamental property that can be used to cure cancer, and so can my stressor/change supply & demand model
+			- that poverty costs more than it would take to end it
+			- how to fix biased AI algorithms
+			- why symmetries (which I convert to the term 'interfaces') are useful for automating problem-solving & then they started using them in ML algorithms
+			- that there are other useful structures that just data sets to solve a problem, like concepts/cause/intent, like how you can use facts or logic to prove a point, and both arent necessary
+
+### timeline of inventions
+		
+		- I was taught that:
+			- problems could be solved in multiple ways
+				- trial & error
+					- if there was a way to apply trial & error to some problems, why not other problems?
+				- addressing problem cause vs. problem itself (how vs. why)
+				- solving a problem using logic vs. using facts
+					- identified by how I know someone is lying bc it's obvious given how logic works and how they reveal their intentions, even though it's not provable with facts (info interface) because there arent tools to measure that specific information generated by logic & intentions without better brain activity triggering & measuring tools, to find out what info is stored in which brain structures & what activities indicate which computations on that info, but statistics offers an alternative method of approximation (clustering, prediction tools, probability analysis, similarity scores)
+			- problems could be solved using rules
+				- math problems could be solved using rules, so why not other problems?
+		
+		- I identified the following in:
+			- 2008:
+				- 'abstract network' (abstract interface) of irreducible cross-system concepts, when I began building the story/setting for my book Outdreamer, which is when I began cataloguing concepts to identify the most concise & useful set of them
+				- 'perspective' structure (interface structure) when I began to examine priorities & documented the perspective structure (a filter with priorities) and realized there were multiple perspectives that were useful for solving a problem, and that these perspectives had structure, because when I was writing the story, I had to create structures to connect abstract concepts in the abstract network, and these connections followed rules of their own which had definitions/structure on the logic interface ('jumping to conclusions')
+				- I wanted to automate basic tasks at school that took longer than they should have given how simple they were, like finding insights or good lines in a book quickly without reading the whole thing
+			- sometime in between 2008 - 2012:
+				- 'insight path' structure when I noticed patterns in innovations across systems when reading science news (& spark notes cheat sheets) when I was researching cancer & how vaccines were invented (it was made obvious by pure random accident bc the info was focused on given the inventor's perspective) & looking for ways to speed up science discoveries, and realized 'trial & error' was an example of this structure
+			- 2012:
+				- barclays libor rate 'insider information' news story is when I identified the structures of an information problem that made a solution possible to solve with information structures (information position, information barrier, information asymmetry) that were not the same as physical structures ('agents who know information') and how to connect those structures
+					- this is the first example I can remember that made it clear that:
+						- there were important & useful structures other than just functions/variables in problem-solving
+						- information had absolute structure ('lies' and 'intent' were derivable using information structures & logic structures), rather than being subjective or nebulous concepts with changeable structure only as defined by humans
+						- information problems could be solved with the information perspective using information structures (like 'distributing information' to resolve an 'information asymmetry')
+			- 2013:
+				- pitched function metadata at work (Cybernetics) in an email
+				- pitched solution machine at work (Morinteresting) in a word document
+			- between 2013 - 2015
+				- started pitching function metadata & problem-solving structures like 'shape index' (structure interface) on social media
+					- https://twitter.com/alienbot123/status/736605879093633025
+			- 2015
+				- pitched function-generation at work (NJI Media) in an email
+			- 2016
+				- pitched problem-solving tool Solvr at work (Booz Allen)
+			- 2017
+				- pitched these at work (Accenture, Capital One)
+
+### General Q&A
+
 	1. whats the need for mapping information problems to structure (math) problems? for example, isnt an information asymmetry already structural?
 
 		- yes and no. 
@@ -126,7 +257,7 @@
 			- self-optimize (requires human input on what is considered an error/cost)
 
 		  - 'ml & a search form apply filters too, so everyone would eventually have invented interface analysis'
-		  	- first of all, the default invention someone would come up with to 'automate problem-solving' is just a rules or solution database
+		  	- first of all, the default invention someone would come up with to 'automate problem-solving' is just a 'rules/solution database', or 'apply machine learning whenever you dont know something'
 		    - secondly, someone other than these people invented ml, bc the creators of ml are dead, but luckily someone explained their invention to these people, who now pretend to be smart
 		    - thirdly, ml applies filters of neural network nodes to filter out info that doesnt change the output, which is a very specific function relying on a very specific insight that doesnt automate problem-solving bc think of a case where 'the change in output wouldnt be possible from the input data' (which is all the ml can handle) either doesnt apply or changes, my invention applies filters in both an abstract & structural way to connect various important variables like causes/intent/potential/change in a way that allows these objects to be connected to create meaning
 		    - ml cant evaluate meaning, it can only tell if one variable changes another
@@ -241,7 +372,7 @@
 
 			- I struggle to believe that no one else would have thought of a 'method to update the weights of variables & their interactions & versions after checking if the previous weights were accurate' which is the core structure that machine-learning is based on, so machine-learning shouldn't be seen as an esoteric invention that is out of reach of most people's brains, but rather a default invention that most people would have thought of if they had basic math understanding/education & tried to solve the problem of automating 'finding a prediction function' in a way that didn't involve regression or other known methods & scaled to high-dimensional spaces.
 
-			- I also struggle to believe that someone would have thought of my invention, given how many hundreds of millions of people had the info necessary to come up with it but didn't, though it would be nice if I was living in a world full of other geniuses, it's just hard to believe given the information that people keep proving.
+			- I also struggle to believe that someone would have thought of my invention, given how many hundreds of millions of people had the info necessary to come up with it but didn't, though it would be nice if I was living in a world full of other geniuses, it's just hard to believe given the information that people keep proving. If most people tried to automate problem-solving, they would come up with a solution that adjacently used existing technologies, like 'apply machine learning whenever you dont know something' or 'store solutions in a rules/solutions database', because those are easy solutions and people generally come up with easy solutions.
 
 		10.b. aren't you scared of all the people who are mad that you came up with this?
 
@@ -432,15 +563,38 @@
 						- this method can be generalized to a method of finding functions for an intent like 'reduce computation' or 'differentiate with a line'
 
 
-	13. what is an interface 
+	13. what is an interface - is it the same as a software interface?
 
-		- its a standard for comparison - in my system its a standard that reduces systems so they can be compared
+		- glad you asked just so I could say this fun answer which is fun bc its true & so obvious:
+			- no! 
+				- a software interface refers to:
+					- an abstract template defining a list of functions/attributes that should be implemented in order to qualify as a member of a class
+					- a visual graphic interface allowing the user to interact with the software
+					- an application programming interface allowing software programs to exchange info that makes sense to another program
+				- in those contexts, an interface acts like a 'type', 'structure', or 'language', and is not sufficiently similar to my definition of the primary interfaces in my invention, which is:
+					- 'a standardizing filter based on an abstract concept that acts as a base supporting many change types, which can be used to solve any problem'
+					- where other non-primary interfaces act like 'high-variation change bases'.
+				- it has some structures in common in that 'a software interface applies a structure, standard, language, protocol, or optimization rules to connect things like software programs/users' but ultimately:
+					- an 'API' (application programming interface) is (rather than its lofty definition of a 'standard allowing software to talk to each other') just a list of public functions in real life
+					- a 'user interface' is not so much a 'way for users to talk to software programs in a common visual language' but a 'set of buttons & forms that change data in a database' in real life
+					- a 'class interface' is not so much a 'guiding structure for how classes relate to each other' but a 'list of functions/attributes of a software object' in real life
+				- whereas, for comparison, an 'interface' in my invention is not so much a 'list of structures related to a concept' but a 'structure that enables solving all problems' (all problems can be formatted as queries on the cause interface, the intent interface, the logic interface, etc).
+
+		- the interface (a standardizing filter) contains the following:
+			- the definition of the concept 
+				(the definition of 'cause' for the causal interface)
+			- the filter or conversion function to isolate attributes relevant to that interface 
+				(causal filter would isolate dependencies on other networks)
+			- the set of core objects, attributes, & functions that generate them on the interface, organized as a network
+				(causal core functions like 'create' or 'change', and core objects like 'causal network')
+		
+		- 'standardizing an object to the causal interface' means 'mapping how that object occupies or interacts with the network of core causal objects/attributes/functions' - this formats the object as a 'query of those core items'.
 
 
 	14. what is a problem space
 
-		- its the space where youd graph all the info relevant to a problem - I often use tech as a key determinant of a problem space bc which tech you have often determines which strategies you can use 
-		  but it includes all the other resources you might have access to (info, potential, energy, physical assets, etc)
+		- its the space where youd graph all the info relevant to a problem - the context allowing a problem to exist
+		- I often use tech as a key determinant of a problem space bc which tech you have often determines which available resources like strategies you can use, but it includes all the other resources you might have access to (info, potential, energy, physical assets, etc).
 
 
 	15. why improve problem-solving at all?
@@ -494,20 +648,7 @@
 		- rather than asking 'is this resource needed at a given location' - we can ask questions like 'did we enable people in that location to solve a resource deficit?'
 
 
-	17. what does the interface actually contain?
-
-		- the interface (a standardizing filter) is the following:
-			- the definition of the concept 
-				(the definition of 'cause' for the causal interface)
-			- the filter or conversion function to isolate attributes relevant to that interface 
-				(causal filter would isolate dependencies on other networks)
-			- the set of core objects, attributes, & functions that generate them on the interface, organized as a network
-				(causal core functions like 'create' or 'change', and core objects like 'causal network')
-
-		- standardizing an object to the causal interface means mapping how that object occupies or interacts with the network of core causal objects/attributes/functions - this means a query or traversal of those core items
-
-
-	18. what is the actual workflow to use this?
+	17. what is the actual workflow to use this?
 
 		- the general program steps include the following:
 
@@ -528,7 +669,7 @@
 			8. store any info objects found that arent already in indexes (insights, patterns, problem-solution matches, interfaces, functions)
 
 
-	19. how come youre the only person who identified that automating problem-solving was even possible, let alone the only person who came up with a method to do it in all of human history?
+	18. how come youre the only person who identified that automating problem-solving was even possible, let alone the only person who came up with a method to do it in all of human history?
 
 		- I decided to try to automate problem-solving once I saw patterns in the rules people used to solve problems, and once I found an example proof of concept, I pursued it. Alternatively, if you don't have human thoughts like that, or if you don't have human sources of joy/motivation, such as caring about protecting good people enough to try, or intellectual curiousity, or believing in yourself, you can try some caffeine.
 
@@ -675,7 +816,7 @@
 		- Not everyone has a built-in reason to automate problem-solving (like if they don't have serious problems to solve relevant to them, like the well-being of good people), but once I realized automation of problem-solving was possible, that gave me extra drive to get there, so I didn't need other reasons past that point, though luckily I had them just in case.
 
 
-	20. isn't this just data viz?
+	19. isn't this just data viz?
 
 		Oh dear! You've drastically misunderstood my diagrams! I clearly need to attach a legend of some sort, if insecure stupid people who try to defeat me are looking at them! They are not just a set of shapes like lines or just network diagrams with no meaning other than 'lines connecting similar stuff' - when I contain information or objects in a circle structure in a diagram, for example, it may mean that a function (like the apply(structure='container') or apply(structure='combination') or apply(structure='boundary') function) has been applied to whatever is inside the circle, to organize the information in a meaningful way (like examples of a type, or sub-functions building a circle function, or a representation of a processing functions applied from one end of the circle gathering inputs to produce outputs on the other end). 
 
@@ -692,9 +833,21 @@
 		- 'other people have applied physics, neuroscience, & other sciences to ml before, someone would have thought of this eventually', you claim, wildly looking around for signs of people nodding in agreement
 			- yes, other people can read, but that doesnt mean they would have thought of abstracting their workflow of 'look up science concepts we havent tried before and apply them manually to the ml problem space in a way that might be useful & then check if it improves anything' (which is actually just an application of 'trial & error') or that they would have come up with a consistent, useful, effective way to abstract & automate their workflow (and all other problem-solving workflows), and tried to automate themselves, bc of their enormously unjustified egos preventing them from recognizing that their work could be automated
 
-	21. Isn't this just content generation, which already exists in various algorithms to generate content like a sentence?
+			- people had decades and didnt identify even one of my insights to automate problem-solving & can't come up with a new method to do so whenever they want like I can, let alone the fact that 'filters, symmetries, standards, perspectives, bases, etc' all had something in common, or noticing that there were useful structures like general functions (find/apply/build/derive/mean) that were interchangeable, or identifying all the primary interfaces on which any problem could be solved - partially because their ego prohibited them from thinking about how to automate themselves, partially because I'm the best in the world at this type of thinking
+		
+
+	20. is this just content generation, which already exists in various algorithms to generate content like a sentence?
 
 		Nope! This is not a pathetic invention, such as a content generation algorithm, which can only do something like change a variable value & combine it with other variable values, in a variable template like 'first variable1, then variable2'! I'm not even sure how someone could possibly confuse my invention for anything remotely similar to that, to be honest - I think I may have gotten people's hopes up that I didn't invent anything new by occasionally using words in the English language like 'variable', and people use keyword-matching as a way to identify false similarities, which is not a smart method because the sentence "'balance' is a word" and the sentence "balance is a conceptual structure that can be applied across systems as a way to query for related concepts like 'justice' or 'equality' or other structures like 'alignment' or used in functions like 'matching' to assess attributes like 'similarity'" would return as results for a 'balance' search but there are clearly a few differences between those sentences, if you're brave enough to confront an unpleasant truth by noticing that. I'm also starting to think I need to check if you have read my definition of 'interface' because your next question is probably 'is this a search UI interface that runs a database query when you click submit' (no wtf) and 'is this a way to check similarity between things, like similar type' (also no, and also, do you have a mental challenge you can help yourself with by reading books on how to become smart or even just practicing basic mental functions like imagination?).
+
+
+	21. is this just a rules database or a solution database?
+		- this invention has some requirements, like the code of the apply(), find(), generate(), derive() functions, and the definition routes of interfaces structures like the concept of 'truth'
+		- it does not otherwise require a rule/solution database, but it can generate/use one as a source of default information about initial, standard, base, sub-optimal or specific solutions/errors or solutions/errors with other attributes
+		- it is most certainly not equal to a rule/solution database, which you could reduce all code to (any code could technically be seen as a 'function/solution/rule database/table/record')
+		- my invention is a way to automatically find/apply/derive/mean/generate solutions, using useful structures like standard formats of problems/solutions & connection functions to connect a problem format with a solution format using other useful structures like solution automation workflows
+		- a solution/rules database is a way to 'find an existing solution, if it exists and if the search query is specific enough to identify the required solution', which not only doesnt automate the 'search query design' process itself but is also extremely fragile according to the data stored in the database
+
 
 	22. is all value created? are there any problems left to chase? what problems cant be solved with this?
 
