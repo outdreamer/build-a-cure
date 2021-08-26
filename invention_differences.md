@@ -123,8 +123,8 @@
 		- correcting errors manually rather than automatically
 		- analyzing the system on the physical information interface rather than other interfaces like intent/cause
 
-8. whats the difference between your conceptual math and 'conceptual math' as indicated here:
-	https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
+8. whats the difference between your conceptual math and 'adding concepts' as indicated here:
+	- https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472 (the ‘word embedding’ section)
 	- that type of 'conceptual math' is removing attributes of an object and checking for a matching object in a network map, which already exists in many programming tools, like an equal '==' check is a programming language
 	- my type of 'conceptual math' involves operations on the structures of a concept
 		- for example, applying or finding a concept to a system, so the concept can be detected in structures specific to the system
@@ -183,14 +183,19 @@
 
 14. isnt your invention just another combination of words, like anything else
 	- words like problems, concepts, attributes, language, information, & a connection between math & language did in fact already exist by the tiem I used them to automate problem-solving
-		- I did not invent the ideas of concepts, attributes, language, or information - I also did not invent problems.
-		- you're aware of objects like intentions & problems because they're built in to social interaction & the language & theyre also important objects that you encounter frequently
-		- existing concepts & systems like 'physics' are connected to everything else, and I did not invent physics (because it's a truth that can be discovered, not an invention using truth in useful ways reflecting truths)
-		- being taught a problem-solving method like 'apply physics or biology or machine learning when you dont know the answer' is not the same as identifying even one method to solve all problems, let alone a method to generate all of the problem-solving methods that can solve all problems
-			- everyone already knows methods like 'break a problem into sub-problems to solve the problem' and everyone follows rules in a workflow to solve problems, but stating that you have been taught a problem-solving workflow based on rules everyone knows is not problem-solving automation, it is just stating the problem of problem-solving workflows not currently being automated & repeating a workflow you were taught or that everyone would identify, rather than stating a solution of how to implement a method to automate all problem-solving, given that one workflow doesn't necessarily cover all problems and none of these workflows are currently automated.
-			- other problem-solving workflows involve steps that are sometimes faster than others, such as 'find the interaction layer where the high-impact variation occurs & solve the problem there' is sometimes faster than 'break a problem into sub-problems', and more specific & structural, enabling it to be automated faster as well - as an example of why merely knowing a particular workflow to solve problems with very general or abstract steps such as 'break a problem into sub-problems' is not equivalent to 'problem-solving automation'.
-		- 'other people have applied physics, neuroscience, & other sciences to ml before, someone would have thought of this eventually'
-			- other people can read, but their apathy to other people's problems, lack of understanding (resulting from integrated analysis, as in meaning), aversion to abstraction/complexity, aversion to work like thinking or seeking problems/challenges, & egos tend to make them stupid, preventing them from ever identifying that they could be automated, so they wouldn't try to automate their work.
-			- other people had decades & strong incentives to solve their problems and didnt
-	- this tool is not equal to problems, concepts, attributes, language, & information - it's a way to automate deriving a solution for a problem (automating the trajectory from problem definition, to solution objects like meaning, cause, & insights).
-			
+		- I did not invent the ideas of concepts, attributes, language, physics, or information - I also did not invent problems.
+		- people are aware of objects like intentions & problems because they're built in to social interaction & the language & theyre also important objects that people encounter frequently
+		- existing concepts like 'cause' & systems like 'physics' are connected to everything else in a way that can be used to find useful connections without information, so these concepts are particularly useful & important, differentiating them from other words
+		- being taught a problem-solving method like 'apply rules/structures from physics or biology or machine learning when you dont know the answer' is not equal to 'identifying a method that can solve all problems', let alone a 'method to generate all of the problem-solving methods that can solve all problems'
+			- everyone knows methods like 'trial & error', 'break a problem into sub-problems to solve the problem', or 'apply one system to understand another', 'look it up in a database using a search engine'
+			- everyone follows rules in a workflow to solve problems (rules to solve problems like 'download an app to do it instead of doing it yourself', 'look it up', 'ask someone')
+			- 'repeating a problem-solving workflow based on rules everyone knows' is not equal to 'problem-solving automation' or even 'identifying the reason why a workflow works' (such as 'the reason you can use one system to understand another is bc the systems have structural similarities like similar complexity/randomness & system dynamics hold across systems')
+				- 'repeating a problem-solving workflow' merely implies the problem of 'problem-solving workflows not currently being automated'
+				- 'repeating a workflow you were taught' or 'repeating a workflow that everyone would identify like "trial & error" is not equal to 'stating a solution of how to implement a method to automate all problem-solving', given that one workflow doesn't necessarily cover all problems and none of these workflows are currently automated
+			- other problem-solving workflows involve steps that are sometimes faster than others
+				- like how 'find the interaction layer where the high-impact variation occurs & solve the problem there' is sometimes faster than 'break a problem into sub-problems & merge sub-solutions', depending on the implementation, and is more specific & structural, enabling it to be automated faster as well
+				- this is an example of why merely knowing a particular workflow to solve problems with very general steps such as 'break a problem into sub-problems' is not equivalent to 'problem-solving automation'
+		- 'other people have applied physics, neuroscience, & other sciences to ml before, someone else would have thought of this eventually'
+			- other people can read, but their apathy to other people's problems that don't impact them, lack of understanding (understanding being an output of integrated analysis, as in meaning), aversion to abstraction/complexity, aversion to work like thinking or seeking problems/challenges, & biases like the ego bias tend to prevent them from ever identifying that they could be automated, so they wouldn't even try to automate their work.
+			- other people had decades & strong incentives to solve their problems and didnt overcome these biases & emotions
+	- this tool is a way to automate deriving a solution for a problem (automating the trajectory from problem definition, to solution objects like meaning, cause, & insights).

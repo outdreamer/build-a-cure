@@ -78,7 +78,7 @@
 
       - move examples from:
         
-        - drinkme
+        - drinkme/examples_from_faq.md
           - check other examples of high-value use cases (other than identifying important concepts) from faq:
             - identifying the important base to frame changes on (identifying new interfaces)
             - identifying the right interaction level to focus on (identifying the change-maximizing layer of a system to examine a particular relationship)
@@ -123,6 +123,9 @@
 
   - add to causation variables
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
+
+  - add to govt
+    - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, derivation methods, learning methods, understanding methods, task automation methods) which can replace & compete with each other
 
   - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
