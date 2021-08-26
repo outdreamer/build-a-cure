@@ -125,7 +125,8 @@
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
   - add to govt
-    - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, derivation methods, learning methods, understanding methods, task automation methods) which can replace & compete with each other
+    - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, ino derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking, people manipulation, info falsification) which can replace & compete with each other
+      - each entity that survives will have to have a competitive implementation of all of these if they dont want to be susceptible to an attack from any of them
 
   - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
