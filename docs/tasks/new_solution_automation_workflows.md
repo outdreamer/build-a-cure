@@ -1,6 +1,6 @@
 - add to solution automation workflows
 
-    - apply the reasons for variable interactions to derive alternate probable structures of variable interactions to filter the solution space & integrate as valid alternates until any are ruled out by additional info or interface applications
+    - apply the cause of (reasons for) variable interactions to derive alternate probable structures of variable interactions to filter the solution space & integrate as valid alternates until any are ruled out by additional info or interface applications
       - example: 
         - for the 'find a prediction function' problem, there may be multiple reasons why the variables would interact in the patterns reflected in the data
           - some of these reasons would involve 'false correlations', 'missing variables', and other common variable interactions

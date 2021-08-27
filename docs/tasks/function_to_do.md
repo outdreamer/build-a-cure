@@ -127,6 +127,12 @@
   - add to govt
     - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, ino derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, info falsification) which can replace & compete with each other
       - each entity that survives will have to have a competitive implementation of all of these if they dont want to be susceptible to an attack from any of them
+      - predators arent good at solving problems bc they always use the same tactics, which work enough times on other predators to keep using in all circumstances, even when they dont work - lying, stealing, forcing, killing 
+        - bc they keep re-using the same sub-optimal solutions, their brains arent evolved and they cant compete with smart people, theyre dependent on smart people who have the only power that matters anymore, and if smart people collude to prevent them from accessing solutions, they dont get solutions bc they cant generate them on their own, even when you explain everything to them & they have all the info they need (which they already did before being educated, they just couldnt use the info they had to derive solutions bc they cant think at all), & theyll fail without smart people
+        - predators would still be struggling & failing to invent fire if it wasnt for smart people to figure it out & copy
+        - solutions to this problem
+          - if smart people collude to hide their work permanently, they would be able to destroy all the predators by depriving them of solutions
+          - smart people can take pity on predators and try to make them smart so they can grasp meaning, become independent of smart people & independent of crime, & solve problems on their own
 
   - when is it optimal to store a mixed structure of varying specificity (like a type, intent, cause & a specific example)
       - when there are potential uncertainties to resolve, like whether the example represents a new error, type, or variable, bc the example doesnt fit known structures
