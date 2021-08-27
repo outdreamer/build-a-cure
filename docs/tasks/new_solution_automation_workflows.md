@@ -1,7 +1,17 @@
 - add to solution automation workflows
 
+    - derive the info that is capable of producing the info of the solution & find that info
+      - example: 
+        - for the 'find a prediction function' problem, info that can produce the 'prediction function' includes info like 'similarities between independent/dependent variables'
+        - once you know what info is required to produce (of capable of producing) the solution, the interface query can be designed to produce that info
+          - example of an interface query subset:
+            - 'find similarities between indpendent/dependent variables'
+              - 'find methods to identify similarities between values'
+                - 'find methods to identify patterns of similarities between values'
+                - 'find methods to identify equivalents/differences between values'
+
     - find the symmetries in a problem system based on which components are interchangeaable & identify the interaction level where they exist & the symmetry theyre based on, then find a conversion function to connect those symmetries to understand a problem system quickly 
-      - understanding allows identification of the required components for the system to be optimized
+      - understanding allows identification of required components to optimize the system & alternate interaction methods between components
       - example: 
         - in the 'find a prediction function' problem, symmetries exist around an 'average' function, between 'base' functions, between prediction function requirements/limits & the prediction function, between function patterns & the prediction function, between variable interaction patterns & the prediction function, between data & the prediction function, between 'subset' functions & the 'composite' function
         - these symmetries provide alternate ways to find the prediction function, with alternate adjacent operations connecting objects formed by changes in each symmetry
