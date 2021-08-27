@@ -1,5 +1,7 @@
 - add to solution automation workflows
 
+    - find the symmetries in a problem system based on which components are interchangeaable & identify the interaction level where they exist & the symmetry theyre based on, then find a conversion function to connect those symmetries to understand a problem system quickly
+
     - identify required structures necessary for a solution to be adjacently optimizable, such as a 'contradiction' structure in the form of an 'opposite solution' to identify when a solution is nearer to its opposite structure ('not a solution', as in an 'error'), and build those structures instead of the original problem's solution structures, then apply optimization structures once its in an adjacently optimizable state
 
     - identify structures required to identify useful structures (solutions, optimizations) in every structure of structures (combination/group/mix/sequence of structures) in any system & apply as default/core/component/interaction/input/reference structures or other useful problem-solving structures
