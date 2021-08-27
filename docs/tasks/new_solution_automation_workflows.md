@@ -1,8 +1,17 @@
 - add to solution automation workflows
 
+    - apply the reasons for variable interactions to derive alternate probable structures of variable interactions to filter the solution space & integrate as valid alternates until any are ruled out by additional info or interface applications
+      - example: 
+        - for the 'find a prediction function' problem, there may be multiple reasons why the variables would interact in the patterns reflected in the data
+          - some of these reasons would involve 'false correlations', 'missing variables', and other common variable interactions
+          - alternate prediction functions based on these reasons for variable interactions can be used as conditional functions (called conditionally based on probability of those reasons being relevant for a given input)
+          - additional interface applications can be used to filter these alternate prediction functions further, like:
+            - applying the 'change' interface to find out if these alternate functions are essentially interchangeable, or if they can functions as bases of each other, or have other function interaction structures
+            - applying the 'pattern' interface to filter for more probable variable interaction structures
+
     - derive the info that is capable of producing the info of the solution & find that info
       - example: 
-        - for the 'find a prediction function' problem, info that can produce the 'prediction function' includes info like 'similarities between independent/dependent variables'
+        - for the 'find a prediction function' problem, info that can produce the 'prediction function' includes info like 'similarities between independent/dependent variables' and 'conversion functions to create similarities'
         - once you know what info is required to produce (of capable of producing) the solution, the interface query can be designed to produce that info
           - example of an interface query subset:
             - 'find similarities between indpendent/dependent variables'
