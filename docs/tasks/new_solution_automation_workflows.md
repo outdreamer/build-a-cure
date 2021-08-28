@@ -1,5 +1,19 @@
 - add to solution automation workflows
 
+    - apply structures of useful structures and derive their interaction rules to generate a solution automtion workflow to guide the interface queries that can optimally be executed on these structures
+      - example: 
+        - useful structures like cost/benefit, input-output sequence, supply/demand, power/complexity/balance are alternate structures that capture a high ratio of variation
+        - some interaction rules come with these useful structures, whether definitively/implicitly
+          - cost/benefit analysis comes with the implied rule:
+            - 'identify the cost & benefit of a move and check if the benefit is greater than the cost'
+        - the interaction of these useful structures would also have interaction rules, between the structures & their defined/implied structures
+        - for an interface query analyzing the power & cost/benefit of a structure to determine useful structures or solution solutions or solutions, the interactions of power & cost/benefit structures would need to be derived to guide the interface query design
+          - an example interaction rule would be:
+            - 'identify the structures with power in the problem system & assign them as benefits & assign responsibilities associated with power as costs, to find solutions that maximize the benefit/cost ratio'
+          - this rule applies the rules implied by the cost/benefit structure and the definition of power, in a way that connects a problem with a solution
+          - this rule is not specific to the problem, but acts as a guide for the interface query applying these structures to 'connect the problem/solution' (a problem-solving intent of various solution automation workflows)
+        - this process is applied specifically to structures that are useful for capturing a high ratio of variation, and applies solution automation workflows to integrate them with problem/solution structures to filter out less optimal interface queries implementing the workflow generated from these interaction rules
+
     - apply the cause of (reasons for) variable interactions to derive alternate probable structures of variable interactions to filter the solution space & integrate as valid alternates until any are ruled out by additional info or interface applications
       - example: 
         - for the 'find a prediction function' problem, there may be multiple reasons why the variables would interact in the patterns reflected in the data
