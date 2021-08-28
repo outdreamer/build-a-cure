@@ -4,7 +4,7 @@
       - example:
         - the 'balance of power' structures present in some government structures has a default 'error-correcting' structure built-in, to prevent any one component from becoming too powerful (avoiding the error structure of 'centralized power')
         - interaction structures (like input-output sequences) are useful on their own to reduce the solution space, and connecting them to the problem/solution is a good workflow
-        - this workflow can be improved by adding error-neutralizing (optimization) structures & other useful structures, in a way that allows them to be validly connected (such as an input-output sequence or merged/integrated structure)
+          - this workflow can be improved by adding error-neutralizing (optimization) structures & other useful structures, in a way that allows them to be validly connected (in a way such as an input-output sequence or merged/integrated structure)
 
     - apply structures of useful structures and derive their interaction rules to generate a solution automtion workflow to guide the interface queries that can optimally be executed on these structures
       - example: 
