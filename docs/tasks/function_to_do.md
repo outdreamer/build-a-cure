@@ -130,8 +130,17 @@
   - add to causation variables
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
+  - add to math
+    - how to generate the target:
+      - start at the enabling structure:
+        - find 'overlap' or 'combination' states (with sets including multiple different final operations) and find a way to connect them with standard objects (countably infinite sets with a final value determined by the final operation's direction) using allowed operations (rotation)
+      - start at the standard structure:
+        - apply adjacent transforms like rotation to the standard structure (countably infinite sets that are complete, having their final value determined)
+      - identify the highest-variation changes (like changes in final values between adjacent states - since one state has north/south/east nodes, the next state has only east nodes) as a possible source of changes for other values (a change in one value can produce a change in another value)
+      - 
+
   - add to govt
-    - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, ino derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, info falsification) which can replace & compete with each other
+    - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, ino derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, infinity computations to reduce overall computational complexity by identifying an infinite set by differences from other infinite sets, info falsification) which can replace & compete with each other
       - each entity that survives will have to have a competitive implementation of all of these if they dont want to be susceptible to an attack from any of them
       - predators arent good at solving problems bc they always use the same tactics, which work enough times on other predators to keep using in all circumstances, even when they dont work - lying, stealing, forcing, killing 
         - bc they keep re-using the same sub-optimal solutions, their brains arent evolved and they cant compete with smart people, theyre dependent on smart people who have the only power that matters anymore, and if smart people collude to prevent them from accessing solutions, they dont get solutions bc they cant generate them on their own, even when you explain everything to them & they have all the info they need (which they already did before being educated, they just couldnt use the info they had to derive solutions bc they cant think at all), & theyll fail without smart people
