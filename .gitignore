@@ -1,3 +1,6 @@
+scripts/fetch_pubmed_data/geniatagger
+scripts/fetch_pubmed_data/geniatagger-python
+scripts/fetch_pubmed_data/craft
 /tasks/ip.txt
 /tasks/install_*.sh
 *.pem
