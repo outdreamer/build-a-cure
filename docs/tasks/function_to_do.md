@@ -111,6 +111,12 @@
 
 ## examples
 
+  - add to science
+    - what alternate inputs have the outputs of useful structures that have antitumor or antimicrobial activity
+      - what can produce components (enzymes/antibodies/t-cells), functions, or attribute states that eat cancer cells ('adapting to mct oil')
+      - what combinations of structures are particular useful in general or specifically against a particular pathogen/condition
+    - what other pathogens/conditions are synergistic with other conditions (do specific fungal/bacterial infections help cancer, and which ones if its a specific set)
+
   - add to error-finding methods
     - identifying & generating known useful structures like 'symmetries', 'variables', 'subsets', 'interchangeable alternatives', 'maximally different inputs' & 'bases' & 'type/phase shift thresholds'
       - identifying & generating combination structures of useful structures like 'maximally different values around bases'
