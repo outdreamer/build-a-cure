@@ -1,5 +1,11 @@
 - add to solution automation workflows
 
+    - apply useful structures to each other (like error-neutralizing structures & interaction structures) in a useful structure (like an input-output sequence or integration structure) to generate probably successful solution structures
+      - example:
+        - the 'balance of power' structures present in some government structures has a default 'error-correcting' structure built-in, to prevent any one component from becoming too powerful (avoiding the error structure of 'centralized power')
+        - interaction structures (like input-output sequences) are useful on their own to reduce the solution space, and connecting them to the problem/solution is a good workflow
+        - this workflow can be improved by adding error-neutralizing (optimization) structures & other useful structures, in a way that allows them to be validly connected (such as an input-output sequence or merged/integrated structure)
+
     - apply structures of useful structures and derive their interaction rules to generate a solution automtion workflow to guide the interface queries that can optimally be executed on these structures
       - example: 
         - useful structures like cost/benefit, input-output sequence, supply/demand, power/complexity/balance are alternate structures that capture a high ratio of variation
@@ -10,9 +16,9 @@
         - for an interface query analyzing the power & cost/benefit of a structure to determine useful structures or solution solutions or solutions, the interactions of power & cost/benefit structures would need to be derived to guide the interface query design
           - an example interaction rule would be:
             - 'identify the structures with power in the problem system & assign them as benefits & assign responsibilities associated with power as costs, to find solutions that maximize the benefit/cost ratio'
-          - this rule applies the rules implied by the cost/benefit structure and the definition of power, in a way that connects a problem with a solution
-          - this rule is not specific to the problem, but acts as a guide for the interface query applying these structures to 'connect the problem/solution' (a problem-solving intent of various solution automation workflows)
-        - this process is applied specifically to structures that are useful for capturing a high ratio of variation, and applies solution automation workflows to integrate them with problem/solution structures to filter out less optimal interface queries implementing the workflow generated from these interaction rules
+          - this rule applies the rules implied by the cost/benefit structure and the definition of power, in a way that fulfills the 'connect a problem/solution' problem-solving intent
+          - this rule is not specific to the problem, but is a workflow acting as a guide for the interface query applying these structures to 'connect a problem/solution' (a problem-solving intent of various solution automation workflows)
+        - workflow fit: this process is applied specifically to structures that are useful for capturing a high ratio of variation, and applies solution automation workflows to integrate them with problem/solution structures to filter out less optimal interface queries implementing the workflow generated from these interaction rules
 
     - apply the cause of (reasons for) variable interactions to derive alternate probable structures of variable interactions to filter the solution space & integrate as valid alternates until any are ruled out by additional info or interface applications
       - example: 
