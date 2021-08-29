@@ -116,6 +116,12 @@
       - what can produce components (enzymes/antibodies/t-cells), functions, or attribute states that eat cancer cells ('adapting to mct oil')
       - what combinations of structures are particular useful in general or specifically against a particular pathogen/condition
     - what other pathogens/conditions are synergistic with other conditions (do specific fungal/bacterial infections help cancer, and which ones if its a specific set)
+    - what is required to make the body 'allergic' to a substance like a cell membrane attribute of specific cancer cell types 
+      - is this the same as a normal immune response
+      - is it similar at all to a 'pain' response alerting the immune system to a problem, and what can produce a 'pain' response if that response is useful
+      - what other attributes could cancer cells have that make certain compounds likelier to bind to them or surround them to cut them off from energy sources or separate the tumor into attackable pieces (surface structures, attributes in various solutions like fat/water/mucus/blood, response to enzymes/pathogens)
+      - what ratios (stress, acidity/alkalinity, enzyme ratios, energy ratios, cell distribution ratios, blood waste ratios, kidney/liver/pancreas/digestion function ratios, immune cell ratios) and other structures are associated with cancer progression/triggering
+        - what ratios do some anti-cancer foods like almonds have that other foods do not
 
   - add to error-finding methods
     - identifying & generating known useful structures like 'symmetries', 'variables', 'subsets', 'interchangeable alternatives', 'maximally different inputs' & 'bases' & 'type/phase shift thresholds'
