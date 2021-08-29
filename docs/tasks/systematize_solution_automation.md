@@ -249,6 +249,7 @@
 			- 'filter a problem space' isnt as useful as 'filter a solution space' for general problem-solving processes, bc 'filtering a solution space' has an output of a 'solution' by definition of what a 'filter' and 'solution space' are, whereas 'filtering a problem space' wouldnt necessarily have this output
 			- 'relate problem to other problems' is useful in case solutions to related problems are available, as a source of initial solutions to test, which is useful for some solution automation workflows
 
+
 ## variable configuration
 
 
@@ -641,5 +642,10 @@
 
 ### solution automation workflows
 
-	- trial & error
-	- break problem into sub-problems & merge sub-solutions
+	- basic solution automation workflows
+		- trial & error
+		- reverse engineering
+		- break problem into sub-problems & merge sub-solutions
+		- apply rules from other systems to see if they work in another system
+		- apply machine-learning
+		- use a rules/solution database & look up the answer
