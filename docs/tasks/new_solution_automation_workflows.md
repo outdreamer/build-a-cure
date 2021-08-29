@@ -1,5 +1,9 @@
 - add to solution automation workflows
 
+    - identify useful structures automatically given their common attributes & their definition & apply as inputs to other problem/solution structures
+      - example:
+        - a trade-off is useful bc any change to it can produce info about a particular error type ('which priority is sacrificed when another priority is promoted'), and error structures are by definition a useful structure relevant to problem-solving
+
     - identify structures of useful structures that are useful for specific problem-solving intents or problem/solution core interaction functions & apply those specific structures of useful structures as an initial solution set (or solution component/input set) to solve the problem of 'designing the interface query'
       - example: structures like 'sequences' of useful structures like 'requirements, alternatives, interchangeables, equivalents' are useful for core interaction functions like 'connect' or problem-solving intents like 'connect problem/solution'
 
