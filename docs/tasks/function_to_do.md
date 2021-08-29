@@ -131,13 +131,14 @@
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
 
   - add to nn
-  
+
     - weighting & position make emergent structures like functionality probable & possible in a neural network
       - identify all the emergent functionality/attributes/structures in a neural network with different input variations & parameters
       - identify how these structures could interact (coordinate, align, or neutralize each other) to create other interaction level of emergent structures
       - identify how these various interaction levels & the interaction structures defined on them as possible/probable would create possible/probable solution/error structures
+        - avoiding error structures like 'too many differences in outputs of nodes with similar input info (feature) or similar potential info (info required to identify a feature)'
       - identify how these structures can be optimized to avoid error structures or prioritize solution structures
-        - like 'prioritize applying weights to connect nodes to create a particular difference type'
+        - like 'prioritize applying weights to connect nodes to create a particular similarity/difference type'
 
   - add to math
 
