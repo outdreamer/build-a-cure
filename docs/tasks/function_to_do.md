@@ -140,6 +140,8 @@
       - identify how these structures can be optimized to avoid error structures or prioritize solution structures
         - like 'prioritize applying weights to connect nodes to create a particular similarity/difference type'
 
+    - neural nets should have a target structure (like a target 'variable interaction structure') based on understanding of variable interaction probabilities & other useful structures that their emergent structures comply with and that their structures can optimize for extracting from versions of input data, deriving the neural network structure from this target structure & filtering it based on the emergent structures that would optimize info extraction from input data versions
+
   - add to math
 
     - https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/
