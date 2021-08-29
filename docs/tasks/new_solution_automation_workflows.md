@@ -1,7 +1,7 @@
 - add to solution automation workflows
 
     - identify useful structures automatically given their common attributes & their definition & apply as inputs to other problem/solution structures
-      - example:
+      - example of attributes to identify useful structures automatically
         - produce useful info
           - a trade-off is useful bc any change to it can produce info about a particular error type ('which priority is sacrificed when another priority is promoted'), and error structures are by definition a useful structure relevant to problem-solving
         - useful as inputs that enable other structures
@@ -10,6 +10,7 @@
           - hub structures are useful bc interaction/connection structures in general are useful
         - synchronization
           - repeated/common structures (like patterns) are useful bc what generates one example of a pattern is likely to influence another example of a pattern
+        - in general useful structures will be structures of useful attributes like optimization/certainty structures, implementations of or inputs to core interaction functions, or capture & create relevant info out of high-variation info
 
     - identify structures of useful structures that are useful for specific problem-solving intents or problem/solution core interaction functions & apply those specific structures of useful structures as an initial solution set (or solution component/input set) to solve the problem of 'designing the interface query'
       - example: structures like 'sequences' of useful structures like 'requirements, alternatives, interchangeables, equivalents' are useful for core interaction functions like 'connect' or problem-solving intents like 'connect problem/solution'
