@@ -1,5 +1,8 @@
 - add to solution automation workflows
 
+    - identify structures of useful structures that are useful for specific problem-solving intents or problem/solution core interaction functions & apply those specific structures of useful structures as an initial solution set (or solution component/input set) to solve the problem of 'designing the interface query'
+      - example: structures like 'sequences' of useful structures like 'requirements, alternatives, interchangeables, equivalents' are useful for core interaction functions like 'connect' or problem-solving intents like 'connect problem/solution'
+
     - apply useful structures to each other (like error-neutralizing structures & interaction structures) in a useful structure (like an input-output sequence or integration structure) to generate probably successful solution structures
       - example:
         - the 'balance of power' structures present in some government structures has a default 'error-correcting' structure built-in, to prevent any one component from becoming too powerful (avoiding the error structure of 'centralized power')
