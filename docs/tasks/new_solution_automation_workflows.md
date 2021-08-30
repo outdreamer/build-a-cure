@@ -1,6 +1,23 @@
 - add to solution automation workflows
 
-    - create structures of error structures to identify contexts where a solution would be wrong (like with outliers), optionally selecting the contexts that would be wrong across the most possible solutions, and rule out those contexts to find solutions that are likelier to be successful
+    - create structures of error structures to identify contexts where a solution would be wrong (like 'if a data set is an outlier data set'), optionally selecting the contexts where the most possible solutions would be wrong or the most different contexts or the most costly errors to reduce the contexts to rule out, and rule out those contexts to find solutions that are likelier to be successful
+
+      - the filters of contexts where a solution could be wrong can be used in general as solution space filters, to apply as various definitions of cost 
+        - reduce any costs:
+          - most possibilities
+            - the most errors that can be handled, meaning identifying/correcting as many as possible to apply an equal priority to all errors
+            - all errors should be handled if possible, as every error is treated as something that needs to be corrected
+        - reduce most common costs:
+          - most common possibilities
+            - most similar to other error values, meaning this is a common error
+            - so it deserves higher priority bc common errors are assumed to be a problem that requires fixing for the system to work
+        - reduce most different costs
+          - most different possibilities
+            - most different from other error values, meaning 'this is a special error'
+            - so it deserves higher priority bc that implies its a source of variance & therefore future different errors
+        - most wrong possibilities
+          - most different from correct value, meaning this is an extreme error
+          - extreme errors are assumed to be the highest priority bc a huge difference in one position could create huge differences in other positions unless there's a difference-handler like a distribution function or if the position doesnt connect with many other components (like a print statement, which does interact with available memory/processing power but is unlikely to cause error structures if it fails on its own in isolation)
 
     - identify interactive structures that form useful structures that can connect to problem/solution structures
       - example: for an 'input-output sequence', interactive structures include:
