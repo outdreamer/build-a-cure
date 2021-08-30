@@ -1,5 +1,12 @@
 - add to solution automation workflows
 
+    - add useful functions as components that are alternatives to useful structures
+      - functions are classifiable as structures, but some structures are more clearly identifiable as structures by default, and functions are specific & complex enough to differentiate
+      - useful functions are often combinations of general function intents, structures, problem-solving intents, and therefore offer a useful integration structure of these problem-solving structures
+        - examples of useful functions:
+          - 'find structure of an interface structure in another structure'
+          - 'test (check, simulate) if a change is consistent in a system defined by these rules'
+          
     - identify useful structures automatically given their common attributes & their definition & apply as inputs to other problem/solution structures
       - example of attributes to identify useful structures automatically
         - produce useful info

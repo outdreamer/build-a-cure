@@ -111,6 +111,12 @@
 
 ## examples
 
+  - identify new interactions by trying structures of structures that havent been tried yet (like how new words evolve)
+
+  - simulation involves querying for related rules (like how 'gravity' rules are related to 'motion' rules so any change involving motion should have a 'gravity rule check' applied as a filter) & checking if they apply to relevant components (like how specific components are involved in 'motion', like 'energy', 'motion restrictions', 'motion functions', 'motion triggers/inputs/components')
+    - this is an important process for checking if a structure is valid/consistent in a system, which is a useful function
+
+
   - add to science
     - what alternate inputs have the outputs of useful structures that have antitumor or antimicrobial activity
       - what can produce components (enzymes/antibodies/t-cells), functions, or attribute states that eat cancer cells ('adapting to mct oil')
@@ -191,7 +197,10 @@
         - is 'infinity' the same as 'all possible values of that type'
 
   - add to govt
-    - feudalism/castes built around access to & investment in computational methods/tools (quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, ino derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, infinity computations to reduce overall computational complexity by identifying an infinite set by differences from other infinite sets, info falsification) which can replace & compete with each other
+
+    - suppliers shouldnt be supplying input resources like funds (the possibility of a solution), but solution metric/goal-based output resources like solutions (a guarantee of a solution), which can form a basis for a currency, in addition to adjacent solution inputs like insights
+
+    - feudalism/castes built around access to & investment in computational methods/tools (communication, regulation/legislation/enforcement, quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, info prediction/derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, infinity computations to reduce overall computational complexity by identifying an infinite set by differences from other infinite sets, info falsification) which can replace & compete with each other
       - each entity that survives will have to have a competitive implementation of all of these if they dont want to be susceptible to an attack from any of them
       - predators arent good at solving problems bc they always use the same tactics, which work enough times on other predators to keep using in all circumstances, even when they dont work - lying, stealing, forcing, killing 
         - bc they keep re-using the same sub-optimal solutions, their brains arent evolved and they cant compete with smart people, theyre dependent on smart people who have the only power that matters anymore, and if smart people collude to prevent them from accessing solutions, they dont get solutions bc they cant generate them on their own, even when you explain everything to them & they have all the info they need (which they already did before being educated, they just couldnt use the info they had to derive solutions bc they cant think at all), & theyll fail without smart people
