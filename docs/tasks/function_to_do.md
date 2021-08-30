@@ -111,11 +111,13 @@
 
 ## examples
 
-  - identify new interactions by trying structures of structures that havent been tried yet (like how new words evolve)
+  - add to problem/solution structures
+  
+    - identify new interactions by trying structures of structures that havent been tried yet (like how new words evolve)
 
-  - simulation involves querying for related rules (like how 'gravity' rules are related to 'motion' rules so any change involving motion should have a 'gravity rule check' applied as a filter) & checking if they apply to relevant components (like how specific components are involved in 'motion', like 'energy', 'motion restrictions', 'motion functions', 'motion triggers/inputs/components')
+    - 'testing/simulation' involves querying for related rules (like how 'gravity' rules are related to 'motion' rules so any change involving motion should have a 'gravity rule check' applied as a filter) & checking if they apply to relevant components (like how specific components are involved in 'motion', like 'energy', 'motion restrictions', 'motion functions', 'motion triggers/inputs/components')
     - this is an important process for checking if a structure is valid/consistent in a system, which is a useful function
-
+    - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
   - add to science
     - what alternate inputs have the outputs of useful structures that have antitumor or antimicrobial activity
