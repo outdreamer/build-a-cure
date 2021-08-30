@@ -19,6 +19,12 @@
           - most different from correct value, meaning this is an extreme error
           - extreme errors are assumed to be the highest priority bc a huge difference in one position could create huge differences in other positions unless there's a difference-handler like a distribution function or if the position doesnt connect with many other components (like a print statement, which does interact with available memory/processing power but is unlikely to cause error structures if it fails on its own in isolation)
 
+      - various structural definition routes of an outlier include: 'a set of extreme(s) that is not incorrect according to some group definition of correct', or 'requires a different prediction function version or different variables to predict', or 'indicates an early signal of impending/preceding group change'
+        - 'identifying a representative data set as an error (outlier) or vice versa' is wrong in some of those definitions (where its a legit member of the group), which can be 'assumptions' in the 'contexts' in this workflow
+        - to apply this workflow to the problem of 'find a representative data set', the program would:
+          - identify in which contexts a particular solution function would 'incorrectly identify an outlier data set as a representative data set', and rule out those contexts as not applicable to the problem space
+            - "in this problem space, none of those contexts apply, so the solution function to 'identify a representative data set' is probably successful"
+
     - identify interactive structures that form useful structures that can connect to problem/solution structures
       - example: for an 'input-output sequence', interactive structures include:
         - alternative structures/formats like a 'function', which connect to problem-solving intent functions, interim functions, general functions, or core problem/solution interaction functions
