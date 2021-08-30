@@ -113,6 +113,9 @@
         - if they dont believe me about how hormones control them, they should take libido-altering drugs to see how differently they think, and to identify that they are subject to hormonal control, just like their victims are
           - they can also be turned gay just like women can, bc attraction is largely determined by experiences (who is portrayed as good to them, as in 'having good qualities like confidence/certainty or competence/intelligence/potential') in addition to hormones
 
+        - some substances like music, drugs, comedy can incentivize thinking about increasingly complex structures, bc they offer a brain reward 'dopamine' or 'serotonin' or 'oxytocin' that helps motivate people to want to experience structures, and this habit of experiencing structures can offer inputs to thinking about complex structures & holding information & organizing information in complex structures
+          - the people who wrote ancient books that are worshiped don't understand the world - if they did understand the world, they would have solved all problems, but all they did is write a few rules that ended up killing a lot of innocent people, which just created a lot of problems/burdens rather than solutions
+
 
 ## Optimal Resource Trades
 
