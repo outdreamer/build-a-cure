@@ -1,12 +1,20 @@
 - add to solution automation workflows
 
-    - add useful functions as components that are alternatives to useful structures
+    - identify interactive structures that form useful structures that can connect to problem/solution structures
+      - example: for an 'input-output sequence', interactive structures include:
+        - alternative structures/formats like a 'function', which connect to problem-solving intent functions, interim functions, general functions, or core problem/solution interaction functions
+        - triggering structures like 'requirement for an input-output sequence', which connect to 'solution metric requirements'
+        - difference structures like 'output-input sequence', 'input-output set', 'logic sequences', which connect to different solution automation workflows (like how a reversal connects to a 'reverse-engineering' or other 'derivation' workflow)
+        - some of these interactions form structures like a 'complete object' ('complementary' structures like halves forming a circle), others form 'connection' structures' linking a problem/solution structure with another structure or sets of functions 
+          - these formed structures are useful for problem-solving intents & workflows
+
+    - add useful functions as components that are alternatives to useful structures as components/inputs/triggers of problem-solving structures
       - functions are classifiable as structures, but some structures are more clearly identifiable as structures by default, and functions are specific & complex enough to differentiate
       - useful functions are often combinations of general function intents, structures, problem-solving intents, and therefore offer a useful integration structure of these problem-solving structures
         - examples of useful functions:
           - 'find structure of an interface structure in another structure'
           - 'test (check, simulate) if a change is consistent in a system defined by these rules'
-          
+
     - identify useful structures automatically given their common attributes & their definition & apply as inputs to other problem/solution structures
       - example of attributes to identify useful structures automatically
         - produce useful info
