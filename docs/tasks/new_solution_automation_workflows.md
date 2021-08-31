@@ -39,6 +39,11 @@
         - examples of useful functions:
           - 'find structure of an interface structure in another structure'
           - 'test (check, simulate) if a change is consistent in a system defined by these rules'
+      - generalization: this can be generalized to other default structures of interfaces, so that the interaction layers of problem-solving structures (general functions, problem-solving intents, interface queries, core interaction functions, solution metrics, useful structures, workflows) can be integrated
+        - example: 
+          - functions/input-output sequences being a default structure of the 'function' interface
+          - differences between object states being a default structure of the 'change' interface
+          - directions being a default structure of the 'intent' interface
 
     - identify useful structures automatically given their common attributes & their definition & apply as inputs to other problem/solution structures
       - example of attributes to identify useful structures automatically
