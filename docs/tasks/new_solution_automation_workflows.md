@@ -1,21 +1,28 @@
 - add to solution automation workflows
 
-    - find the interface-associated functions (where functionality gathers) like find/apply and connect them to interface functions on other interaction layers like connect/reduce, to have default function connections to use as solution structures
+    - find the interface-associated functions where functionality gathers (like find/apply) and connect them to interface functions on other interaction layers core interaction functions (connect/reduce), interim cross-interface interaction functions ('find a structure in a structure') and problem-solving intents ('filter a solution space'), to have default function connections to use as solution structures
       - interface-associated functions include (find/apply/derive/build/mean) which correspond to various primary interface (info/change/logic/core/meaning)
         - these interface-associated functions can be the primary interface functions or specific interface functions in a specific problem space
+        - these functions are associated with functions on other interaction layers that are more adjacently connected
       - generalization: 
         - this can be generalized to other interface structures than functions
+        - rather than creating connection structures (function structure providing inherent 'connections'), you can create direction structures using the intent interface structures, or cause interface structures which also have direction but are more associated with inputs/triggers as a default structure
+          - find interface-associated 'intents' to find primary/specific 'direction' structures
+          - find interface-associated 'causes' to find primary/specific 'trigger/input' structures (like requirements, inevitabilities)
+      - workflow fit:
+        - this involves a way to generate/find/derive the important/useful structures, rather than applying a search filter or definition
 
-    - apply optimization structures to find useful functions 
-      - most reduced functions can mean:
-        - core/component functions
-        - functions covering the most functionality
-        - most general functions
-        - most interactive functions
-        - functions most adjacent to the most functionality
-
+    - apply optimization structures to find useful interface-associated functions & other useful interface-associated structures on other interfaces
+      - 'reduce' is an optimization structure for various intents like 'finding unique causes', 'isolating objects', 'determining/describing/predicting'
+        - 'most reduced' functions can mean:
+          - core/component functions
+          - functions covering the most functionality
+          - most general functions
+          - most interactive functions
+          - functions most adjacent to the most functionality
       - generalization:
         - this can be generalized to other interfaces
+      - workflow fit: this is a specific version of 'apply useful structures to find useful structures' applied to specifically find useful structures with the primary interface structures, given that theyre by default the most useful structures
 
     - create structures of error structures to identify contexts where a solution would be wrong (like 'if a data set is an outlier data set'), optionally selecting the contexts where the most possible solutions would be wrong or the most different contexts or the most costly errors to reduce the contexts to rule out, and rule out those contexts to find solutions that are likelier to be successful
 
