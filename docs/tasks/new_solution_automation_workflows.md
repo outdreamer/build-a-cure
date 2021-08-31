@@ -1,5 +1,22 @@
 - add to solution automation workflows
 
+    - find the interface-associated functions (where functionality gathers) like find/apply and connect them to interface functions on other interaction layers like connect/reduce, to have default function connections to use as solution structures
+      - interface-associated functions include (find/apply/derive/build/mean) which correspond to various primary interface (info/change/logic/core/meaning)
+        - these interface-associated functions can be the primary interface functions or specific interface functions in a specific problem space
+      - generalization: 
+        - this can be generalized to other interface structures than functions
+
+    - apply optimization structures to find useful functions 
+      - most reduced functions can mean:
+        - core/component functions
+        - functions covering the most functionality
+        - most general functions
+        - most interactive functions
+        - functions most adjacent to the most functionality
+
+      - generalization:
+        - this can be generalized to other interfaces
+
     - create structures of error structures to identify contexts where a solution would be wrong (like 'if a data set is an outlier data set'), optionally selecting the contexts where the most possible solutions would be wrong or the most different contexts or the most costly errors to reduce the contexts to rule out, and rule out those contexts to find solutions that are likelier to be successful
 
       - the filters of contexts where a solution could be wrong can be used in general as solution space filters, to apply as various definitions of cost 
