@@ -113,14 +113,14 @@
 
   - add to problem/solution structures
 
+    - formatting a 'tree' as a 'set of overlapping sequences' so functions can be formatted for different intents like in 'parallel processing'
+
     - add to input structures
       - input variable/trigger/requirement/component
 
-    - add to useful structure causes (why is something useful)
-      - adjacent/available/common/core
-      - its an input to a useful structure
-      - its powerful (like a 'vertex' variable)
-      - it increases/decreases some optimization/sub-optimization metric like 'understanding', 'simplicity', 'efficiency' ('organizes' or 'decomposes' sub-optimal structures like 'complex' or 'noisy' structures)
+    - add to output structures
+      - limits on what a structure can be used to create
+      - similarities/differences to inputs (inputs change can be preserved in outputs)
 
     - identify new interactions/structures
       - trying structures of structures that havent been tried yet (like how new words evolve as a 'combination' of other words to describe new experiences that are similar to both combined words)
