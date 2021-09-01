@@ -212,7 +212,7 @@
 		- problem-solving intents (such as 'filter the solution space')
 		- core interaction functions between problems/solutions (like 'connect' a problem/solution or 'reduce' a problem)
 		- interfaces as particularly useful objects to solve all problems on, which act like 'filters' and 'symmetries' forming a 'base for change' and 'perspectives' that come with 'priorities' making some info more clearly defined & obvious, which are specific objects that I had to filter trillions of other objects to find as particularly useful for problem-solving automation
-		- importantly interchangeable objects like general functions (find, build, apply, derive, mean) and primary interfaces (cause, intent, logic, change) and interfaces/perspectives/symmetries/filters/bases
+		- importantly interchangeable objects like general functions (find, build, apply, derive, mean) and primary interfaces (cause, intent, logic, change) and interfaces/perspectives/symmetries/filters/bases/indexes
 		- interface queries as particularly optimal methods of applying interactions to interfaces in a way that could implement a solution automation workflow automatically, since the interface query could be derived automatically
 		- useful structures for implementing solution automation workflows & interface queries (optimization structures, error structures, input-output sequences, interchangeable structures)
 		- insights of interaction rules between structures, concepts, patterns & other interface components
