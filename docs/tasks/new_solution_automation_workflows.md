@@ -1,5 +1,9 @@
 - add to solution automation workflows
 
+    - identify difference-reducing/generating structures of various successful interface queries for the same problem and identify their inputs so they can be generated
+      - workflow fit: this is similar to the 'find differences between useful structures so they can be generated' workflow but is specifically applied to interchangeable interface queries, which are interchangeable bc of their similarity in success probability
+      - generalization: this can be generalized to 'find differences between useful structures like alternates/interchangeables so they can be generated from each other, and apply this generative function where these structures are most useful (alternate interface queries are useful in generating alternative interface queries)'
+
     - identify structures like functions that lead to different useful perspectives to handle errors beyond standard solutions' error-handling capacity
       - example: 'identify opposite structures, then identify middle/interim structures between original/opposite structures'
       - this is how to get out of mental dead-ends, and is also a useful structure for generating new structures like new variables
