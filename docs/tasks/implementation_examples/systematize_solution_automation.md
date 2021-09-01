@@ -11,9 +11,13 @@ There are many variables determining solution automation & interface analysis, s
 		- problem/solution structures (like 'solution success cause' or 'error structures')
 		- interface structures (and specifically useful interface structures) (like 'optimization', 'cross-interface', or 'trade-off' structures)
 	- various interface query implementation variables (like 'origin interface that the query starts from')
-	
 
-## solution automation variable fit summary
+These variables fit together according to various rules (like 'rules describing how various function types fit together for different intents or for interaction layers').
+
+Some example solutioin automation variable configuration for various relevant functions, attributes & structures follows, followed by some example solution automation workflow variables (some of which was referenced in other applications).
+
+
+Solution automation variable fit summary
 	
 	1. problem/solution structures
 
@@ -76,7 +80,7 @@ There are many variables determining solution automation & interface analysis, s
 			- 'relate problem to other problems'
 		
 
-## variable fit of how solution automation variables fit together
+Solution automation variable fit details
 
 	- in general:
 
