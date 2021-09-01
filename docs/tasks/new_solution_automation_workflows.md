@@ -1,5 +1,15 @@
 - add to solution automation workflows
 
+    - identify cross-interface structures that are useful as inputs/starting points/components/triggers of problem/solution structures
+      - example: a particular workflow state/variable/variable value might be more useful than another
+        - this is a combination of various interface structures ('state', 'input variable', 'variable value') that differs from a standard perspective of just 'applying variables'
+        - other useful interface structures than state/variable/value may exist that are useful to apply as a default configuration of a particular problem/solution structure
+
+    - identify other workflow variables/inputs/components & applying differences & other useful structures to find alternate versions
+      - example: 
+        - identify 'emergent structures': 
+          - a combination of workflow variables/values/states might produce a structure that reveals both of the combination inputs, so the structure produced is an alternate workflow variable/value/state that can be used in place of the original
+
     - find the interface-associated functions where functionality gathers (like find/apply) and connect them to interface functions on other interaction layers core interaction functions (connect/reduce), interim cross-interface interaction functions ('find a structure in a structure') and problem-solving intents ('filter a solution space'), to have default function connections to use as solution structures
       - interface-associated functions include (find/apply/derive/build/mean) which correspond to various primary interface (info/change/logic/core/meaning)
         - these interface-associated functions can be the primary interface functions or specific interface functions in a specific problem space
