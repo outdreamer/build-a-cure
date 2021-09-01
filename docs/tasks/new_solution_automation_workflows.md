@@ -4,7 +4,7 @@
       - example: a particular workflow state/variable/variable value might be more useful than another
         - this is a combination of various interface structures ('state', 'input variable', 'variable value') that differs from a standard perspective of just 'applying variables'
         - other useful interface structures than state/variable/value may exist that are useful to apply as a default configuration of a particular problem/solution structure
-      - workflow fit: this is similar to the 'find useful cross-interface structures as useful structures such as connecting structures of interfaces or default interaction structures' workflow, but applied to problem/solution structures like workflows, rather than specific problem/solution structures like prediction functions/variables
+      - workflow fit: this is similar to the 'find useful cross-interface structures as useful structures such as connecting structures of interfaces or default interaction structures' workflow, but applied to general problem/solution structures like workflows, rather than specific problem/solution structures like prediction functions/variables
 
     - identify other workflow variables/inputs/components & applying differences & other useful structures to find useful alternate versions or alternatives that fulfill useful structures (like 'optimization' structures)
       - example: 
