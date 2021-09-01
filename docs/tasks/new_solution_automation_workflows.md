@@ -1,5 +1,21 @@
 - add to solution automation workflows
 
+    - identify functions that create differences that lead to different useful perspectives
+      - example: 'identify opposite structures, then identify middle/interim structures between original/opposite structures'
+      - this is how to get out of mental dead-ends, and is also a useful structure for generating new structures like new variables
+
+    - identify useful structure causes (why is something useful) and apply causes as generative functions
+      - example causes of usefulness:
+        - adjacent/available/common/core
+        - its an input to a useful structure
+        - its powerful (like a 'vertex' variable)
+        - it increases/decreases some optimization/sub-optimization metric like 'understanding', 'simplicity', 'efficiency' ('organizes' or 'decomposes' sub-optimal structures like 'complex' or 'noisy' structures)
+      - also apply other interfaces structures to create other useful structures that can fulfill an intent like 'generate useful structures':
+        - apply 'patterns' of useful structures to generate useful structures
+        - apply 'patterns' of 'causes' of useful structures to generate useful structures
+        - apply 'inputs' of 'patterns' of 'causes' of useful structures to generate useful structures
+      - generalization: this can be generalized to generate 'useful structures' (like 'input output sequences') of useful structures that can generate useful structures, to generate useful structures
+
     - identify cross-interface structures that are useful as useful structures (like input structures like starting points/components/triggers or output structures) of problem/solution structures
       - example: a particular workflow state/variable/variable value might be more useful than another
         - this is a combination of various interface structures ('state', 'input variable', 'variable value') that differs from a standard perspective of just 'applying variables'
