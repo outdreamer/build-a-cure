@@ -113,6 +113,14 @@
 
   - add to problem/solution structures
 
+    - basic solution automation workflows
+      - trial & error
+      - reverse engineering
+      - break problem into sub-problems & merge sub-solutions
+      - apply rules from other systems to see if they work in another system
+      - apply machine-learning
+      - use a rules/solution database & look up the answer
+
     - formatting a 'tree' as a 'set of overlapping sequences' so functions can be formatted for different intents like in 'parallel processing'
 
     - add to input structures
@@ -130,6 +138,7 @@
     - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
   - add to science
+    - autoantibodies as possible reaction to 'not having any actual pathogens to attack so they start attacking the immune system components which are just nearby or easier to attack than pathogens or have structural damage that disrupts their immune functionality' 
     - what alternate inputs have the outputs of useful structures that have antitumor or antimicrobial activity
       - what can produce components (enzymes/antibodies/t-cells), functions, or attribute states that eat cancer cells ('adapting to mct oil')
       - what combinations of structures are particular useful in general or specifically against a particular pathogen/condition
@@ -153,6 +162,20 @@
 
   - add to causation variables
     - ability to change (if a variable cant be changed, it is less causative for problem-solving intents)
+
+  - add to info problems
+    - this manipulates:
+      - audience objects:
+        - ego
+        - assumptions (about patterns, what you would notice/figure out)
+        - attention
+        - feelings 'opposite' to logic (safety, confusion)
+      - using objects like distractions, activations, distortions, core structures like combinations/sequences, complexity, patterns, input/output similarities/alternatives (complex/simple implementations), logic, patterns of logic, logic avoidance, jokes
+      - to produce:
+        - errors in expectations (in order for the audience to expect y, they have to have assumption x, as x is an input to y)
+      - these important variables can be identified by identifying the inputs to these objects
+        - what 'input' is 'required' for this expectation error to happen? (an assumption)
+      - https://www.smithsonianmag.com/arts-culture/teller-reveals-his-secrets-100744801/?all&no-ist
 
   - add to nn
 
