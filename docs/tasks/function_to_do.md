@@ -113,7 +113,17 @@
 
   - add to problem/solution structures
 
-    - identify new interactions by trying structures of structures that havent been tried yet (like how new words evolve as a 'combination' of other words to describe new experiences that are similar to both combined words)
+    - add to input structures
+      - input variable/trigger/requirement/component
+
+    - add to useful structure causes (why is something useful)
+      - adjacent/available/common/core
+      - its an input to a useful structure
+      - its powerful (like a 'vertex' variable)
+      - it increases/decreases some optimization/sub-optimization metric like 'understanding', 'simplicity', 'efficiency' ('organizes' or 'decomposes' sub-optimal structures like 'complex' or 'noisy' structures)
+
+    - identify new interactions/structures
+      - trying structures of structures that havent been tried yet (like how new words evolve as a 'combination' of other words to describe new experiences that are similar to both combined words)
 
     - 'testing/simulation' involves querying for related rules (like how 'gravity' rules are related to 'motion' rules so any change involving motion should have a 'gravity rule check' applied as a filter) & checking if they apply to relevant components (like how specific components are involved in 'motion', like 'energy', 'motion restrictions', 'motion functions', 'motion triggers/inputs/components')
     - this is an important process for checking if a structure is valid/consistent in a system, which is a useful function
