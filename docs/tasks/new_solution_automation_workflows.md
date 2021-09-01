@@ -1,10 +1,19 @@
 - add to solution automation workflows
 
-    - identify functions that create differences that lead to different useful perspectives
+    - identify structures like functions that lead to different useful perspectives to handle errors beyond standard solutions' error-handling capacity
       - example: 'identify opposite structures, then identify middle/interim structures between original/opposite structures'
       - this is how to get out of mental dead-ends, and is also a useful structure for generating new structures like new variables
-      - this is useful in cases like the 'find a prediction function' problem, where static solutions like regression or machine-learning may be just good enough that they take over as the only solution to focus on, and prevent alternate perspectives that may be useful from being considered, which would reduce error further
-      - generalization: 
+      - this is useful in cases like the 'find a prediction function' problem, where static standard solutions like regression or machine-learning may be just good enough that they take over as the only solution to focus on, and prevent alternate perspectives that may be useful from being considered, which would reduce errors further
+      
+      - generalization: 'find perspectives that produce solutions & how to generate those perspectives'
+        - example:
+          - regression: the perspective of 'the average function is the best predictor' is the perspective that made regression adjacent/trivial to identify
+          - machine-learning: the perspective of 'trying various variable combinations, updating them according to what works, & disabling what combinations dont work' is the perspective that generated machine-learning
+          - interface analysis: the perspective of 'finding differences easily' or 'reducing complexity quickly' or other related problem-solving interim intents are perspectives that could generate interface analysis
+          - solution automation: the perspective of 'finding solution outputs from problem inputs' is a perspective that can generate solution automation
+        - some of these perspectives offer more trivialization of the solution identification than others
+        - the differences between these perspectives have rules/inputs that can automate the process of finding useful perspectives to make solving a problem trivial
+
       - workflow fit: this is similar to the 'find solution automation workflow that can solve all problems' problem-solving intent, specifically for solving the problem of 'finding alternate useful perspectives to find alternate solutions that can reduce errors beyond standard solutions', which is related to solving all problems 
 
     - identify useful structure causes (why is something useful) and apply causes as generative functions
