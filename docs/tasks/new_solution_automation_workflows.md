@@ -3,6 +3,9 @@
     - identify functions that create differences that lead to different useful perspectives
       - example: 'identify opposite structures, then identify middle/interim structures between original/opposite structures'
       - this is how to get out of mental dead-ends, and is also a useful structure for generating new structures like new variables
+      - this is useful in cases like the 'find a prediction function' problem, where static solutions like regression or machine-learning may be just good enough that they take over as the only solution to focus on, and prevent alternate perspectives that may be useful from being considered, which would reduce error further
+      - generalization: 
+      - workflow fit: this is similar to the 'find solution automation workflow that can solve all problems' problem-solving intent, specifically for solving the problem of 'finding alternate useful perspectives to find alternate solutions that can reduce errors beyond standard solutions', which is related to solving all problems 
 
     - identify useful structure causes (why is something useful) and apply causes as generative functions
       - example causes of usefulness:
@@ -14,7 +17,8 @@
         - apply 'patterns' of useful structures to generate useful structures
         - apply 'patterns' of 'causes' of useful structures to generate useful structures
         - apply 'inputs' of 'patterns' of 'causes' of useful structures to generate useful structures
-      - generalization: this can be generalized to generate 'useful structures' (like 'input output sequences') of useful structures that can generate useful structures, to generate useful structures
+      - generalization: this can be generalized to generate 'useful structures' (like 'input output sequences') of useful structures that can generate useful structures, to fulfill problem-solving intents, which can be related to useful structures like 'generate useful structures'
+      - workflow fit: this is similar to the 'apply useful structures or variables of useful structures to generate useful structures' workflow, with an abstraction layer around it that can be applied to fulfill problem-solving intents in general since useful structures are an input to problem-solving intents in general
 
     - identify cross-interface structures that are useful as useful structures (like input structures like starting points/components/triggers or output structures) of problem/solution structures
       - example: a particular workflow state/variable/variable value might be more useful than another
