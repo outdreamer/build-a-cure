@@ -1,28 +1,33 @@
-# solution automation systematization
+# solution automation systematization (interface analysis applied to problem/solution structures)
 
 
 ## solution automation variable fit summary
 	
 	1. problem/solution structures
+
 		- solution structures like solution metrics & error structures like error types are useful as components of solution automation workflows
 			- 'solution metrics' are used in the 'filter a solution space' problem-solving intent of some solution automation workflows
 			- 'error types' are used in the 'avoid errors' problem-solving intent of some solution automation workflows
 
 	2. interfaces
+
 		- primary interfaces like cause/intent/change
 		- specific interfaces of a problem space (like how 'intelligence', 'incentives', 'experience', & 'decisions' are specific interfaces in an agent-based system)
 		- specific problem-solving interfaces like 'useful structures' or 'insights'
 		- specific attribute interfaces like 'interactivity' or 'consistency' or 'balance'
 	
 	3. useful structures
+
 		- general useful interface structures
 			- 'generative functions'
 			- 'alternate routes'
+			
 		- useful structures of solution automation workflow variables
 			- 'generative functions' of 'solution automation workflows'
 			- 'generative functions' of 'solution success cause'
 
 	4. solution automation workflows
+		
 		- example: 'break a problem into sub-problems & merge sub-solutions'
 		- insight paths & other relevant structures to workflows (insight paths include all workflows which 'make finding solutions easier', but insight paths generally 'make finding insights/info easier' in some way)
 			- 'apply cross-system insight patterns to other systems to predict insights'
@@ -30,16 +35,31 @@
 			- 'apply causal interface to identify cause of problem and solve alternate problem of "reducing problem cause"'
 	
 	5. solution automation workflow attributes
-		- 'solution success cause'
-			- 'inputs to info like certainties/energy can be used to generate other info'
-		- 'related object (workflow) network fit'
-			- 'generalization of a workflow'
+		
+		- inputs
+			- 'solution success cause'
+				- 'inputs to info like certainties/energy can be used to generate other info'
+		
+		- position
+			- 'related object (workflow) network fit'
+				- 'generalization of a workflow'
 
 	6. functions
-		A. general functions ('find', 'build', 'apply', 'derive', 'mean')
+
+		A. general functions ('find', 'build', 'apply', 'derive', 'mean', 'cause', 'intend')
+			
+			- these are associated with primary interfaces:
+				- find/info, build/core, apply/change, derive/logic, mean/meaning, cause/cause, intend/intent
+
 		B. core interaction functions & interaction structures ('connect', 'combination')
-		C. interim functions ('organize', 'standardize')
+
+		C. interim cross-interface functions ('organize', 'standardize')
+
+			- these connect other functions, specifically connecting general functions with interfaces & core interaction functions
+				- 'organize': '"find" interface structures "structures" that apply the core interaction function "fit" in a way that fulfills solution metric "consistency"'
+
 		D. general problem-solving intent functions (not all intents need to be fulfilled for a given workflow, sometimes fulfilling one intent is enough to qualify as a solution automation workflow if implemented in the right way)
+		
 			- 'filter solution space'
 			- 'relate problem to other problems'
 		
