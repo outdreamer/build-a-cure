@@ -200,6 +200,12 @@
 
   - add to govt
 
+    - if the taliban dont believe theyre stupid, they should try their own tricks on each other and theyll see that they work, so they can verify how similar they are to their victims
+      - they can try the simplest tricks like 'repeating things' to see that they are likelier to believe things that have been repeated a lot bc theyre stupid, which is how they got indoctrinated in the first place, and its how their prophet started to believe the ridiculous things he did, by repeating his fantasies to himself so often that they seemed true bc his brain was extremely stupid
+      - help the taliban see other business opportunities than violent govts, which may be the lowest-cost business opportunity in their neighborhood, but has high future costs in that they run out of people to oppress and they lose the potential higher profits from other opportunities, like growing different varieties of plants with drug compounds (non-addictive drugs, drugs that can treat conditions, drugs that can produce a particular brain function, etc)
+      - they can also look at who theyre helping to find out how stupid they are 
+        - their actions help Russia, virtue-signalers on social media, anyone who wants to hate their people (bc theyre attacking their own people & always have, and they dont have solutions except violence, which animals could think of too), and anyone who wants to profit off of war/poverty/disease/oppression (China, the US, Russia, other hostile foreign govts & entities)
+
     - suppliers shouldnt be supplying input resources like funds (the possibility of a solution), but solution metric/goal-based output resources like solutions (a guarantee of a solution), which can form a basis for a currency, in addition to adjacent solution inputs like insights
 
     - feudalism/castes built around access to & investment in computational methods/tools (communication, regulation/legislation/enforcement, quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, info prediction/derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, infinity computations to reduce overall computational complexity by identifying an infinite set by differences from other infinite sets, info falsification) which can replace & compete with each other
