@@ -1,5 +1,17 @@
 # solution automation systematization (interface analysis applied to problem/solution structures)
 
+There are many variables determining solution automation & interface analysis, such as:
+	- problem-solving intents (like 'filter a solution space')
+	- problem structures (like the 'problem types' or 'problem space allowing the problem to occur')
+	- solution structures (like 'solutions' or 'solution metrics or requirements')
+	- solution automation workflows (like 'trial & error')
+	- structures used in solution automation workflows, interaction structures, or interface queries
+		- functions (like 'find' or 'connect')
+		- interfaces (like 'change' or 'potential' or 'intent')
+		- problem/solution structures (like 'solution success cause' or 'error structures')
+		- interface structures (and specifically useful interface structures) (like 'optimization', 'cross-interface', or 'trade-off' structures)
+	- various interface query implementation variables (like 'origin interface that the query starts from')
+	
 
 ## solution automation variable fit summary
 	
@@ -21,7 +33,7 @@
 		- general useful interface structures
 			- 'generative functions'
 			- 'alternate routes'
-			
+
 		- useful structures of solution automation workflow variables
 			- 'generative functions' of 'solution automation workflows'
 			- 'generative functions' of 'solution success cause'
