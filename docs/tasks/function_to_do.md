@@ -199,6 +199,17 @@
     - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
   - add to science
+    - explore how much functionality can be developed by using incentives
+      - if you create rewards like dopamine when a dysfunctional cell process is triggered or replicated artificially, does the system re-build or correct or re-learn that functionality
+        - like when cholesterol prevents immune system from reacting to cell death, can you force the immune system to re-learn its original reactions, forcing it to react to cell death by associating that reaction with rewards or some other trigger like inflammation/pain that would correct its dysfunctional state?
+        - if not, can you apply a change in the opposite direction (triggers of an 'over-reaction' error type to cell death, but only enough to move it back toward its original state)
+
+    - check how much of the 'bio interactions' with a 'rules database' is available, to predict missing interactions from the rules database
+      - this could be used to predict which combinations of structures (states like genetic mutations, bio system & cancer states, attributes like acidity, components like microbes/enzymes, functions like inhibitors, inputs like energy sources) will switch off cell proliferation processes & which will have the opposite effect
+        - this should be able to identify when the immune system will hinder treatment, when oxygen deprivation will be an enabler of a disease, when pathogens will be synergistic/antagonistic, etc
+        - it should also be able to identify which states are adjacent/accessible that the system can be converted to, which would have beneficial effects like 'neutralizing negative effects as defined in a particular state' 
+          - conversions such as 'find a awy to standardize neoantigens so theyre similar to neoantigens targeted by an existing treatment' bc standardization takes the risk & the work out of applying immunotherapies & other customized medicine
+
     - autoantibodies as possible reaction to 'not having any actual pathogens to attack so they start attacking the immune system components which are just nearby or easier to attack than pathogens or have structural damage that disrupts their immune functionality' 
     - what alternate inputs have the outputs of useful structures that have antitumor or antimicrobial activity
       - what can produce components (enzymes/antibodies/t-cells), functions, or attribute states that eat cancer cells ('adapting to mct oil')
