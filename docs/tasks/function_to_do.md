@@ -125,22 +125,23 @@
       - interface: standardizing filter where any problem can be solved
 
       - perspective: 
+        
         - a filter with priorities (which may be structures, causes, abstract prioritized attributes, or other interface structures) which highlight something as particularly important
+        
         - example:
+          
           - a perspective like 'find the function that minimizes distance from as many points as possible' produces a solution that can qualify as 'regression' to the 'find a prediction function' problem
             - this perspective can be a function structure, but its still a perspective because its highlighting some objects (distance from points, average) as particularly important
             - a function like 'find the function that minimizes distance from the average line' is a lot closer to the definition of 'regression'
+          
           - differences in perspectives:
             - the first perspective highlights a specific problem-solving intent to generate a solution-finding method or solution for, which has many possible implementations
             - the second perspective highlights an adjacent inevitable solution-finding method, which has very few possible solutions/implementations, given some variance in the definition of the average
         
-        - a perspective may be formatted like a particular interface structure, like a function or interface, while still qualifying as a perspective bc it prioritizes some objects over others
-        - perspectives may be useful structures & may contain useful structures (like averages), which capture a lot of uncertainty, complexity or variation/change, providing useful info like a direction to move toward when searching for a solution, or a specific problem-solving intent to fulfill
-        - differences in perspectives can be used to generate other useful perspectives, and identify which perspectives would be most useful to guide a problem-solving workflow or interface query, given perspective attributes like implementation variation
-
         - perspective variables
           - degree of implementation variation
           - info captured/created
+            - perspectives may be useful structures & may contain useful structures (like averages), which capture a lot of uncertainty, complexity or variation/change, providing useful info like a direction to move toward when searching for a solution, or a specific problem-solving intent to fulfill
           - adjacence to solutions/solution-finding methods
           - definitions
           - priorities
@@ -148,7 +149,9 @@
           - useful structures referenced
           - problems the perspective is useful for
           - relation to other perspectives
+            - differences in perspectives can be used to generate other useful perspectives, and identify which perspectives would be most useful to guide a problem-solving workflow or interface query, given perspective attributes like implementation variation
           - perspective structure (interface, function, priority set, etc)
+            - a perspective may be formatted like a particular interface structure, like a function or interface, while still qualifying as a perspective bc it prioritizes some objects over others
           - abstraction (abstract perspective or a specific perspective)
       
     - basic solution automation workflows
@@ -216,6 +219,10 @@
       - https://www.smithsonianmag.com/arts-culture/teller-reveals-his-secrets-100744801/?all&no-ist
 
   - add to nn
+
+    - concept of 'comparative features': features that were enough to differentiate a category in the training set but not in test, bc they have too many overlaps with other category feature sets
+      - adding sub-parameters allows variation within these overlaps to be identified/differentiated, using any remaining differentiating features that are still available in inputs but dont change overall input/output connections
+        - https://www.theregister.com/2021/09/02/imaginary_numbers_help_ais_solve/
 
     - weighting & position make emergent structures like functionality probable & possible in a neural network
       - identify all the emergent functionality/attributes/structures in a neural network with different input variations & parameters
