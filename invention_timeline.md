@@ -75,6 +75,21 @@
 		- Set generation automation (or solving a related problem, like deriving conversion functions between objects in a set to identify set operations)
 			- using a similar method as this example of attribute/function combination, generate all possible sets:
 			  - https://twitter.com/alienbot123/status/1245950414278627328
+	- structures of intelligence to inject in neural networks
+		- https://twitter.com/alienbot123/status/930599778739785729
+	- applying interfaces to neural networks
+		- https://twitter.com/alienbot123/status/1151887737219248129
+		- https://twitter.com/alienbot123/status/1079497517077737472
+		- https://twitter.com/alienbot123/status/1089049032197111809
+		- https://twitter.com/alienbot123/status/1097340576146452480
+	- examples of error structures
+		- https://twitter.com/alienbot123/status/1013114035695472640
+	- good analysis type descriptions & examples
+		- https://twitter.com/alienbot123/status/1069419055382188032
+	- solution filters using structures of certainty/truth
+		- https://twitter.com/alienbot123/status/1135347531888467968
+	- example of applying an interface to another interface
+		- https://twitter.com/alienbot123/status/1156860484294852609
 
 	- other useful insights identified/explained are in the primary repo (build-a-cure), my finder repo, or my online emails/messages/posts/blogs, which I have yet to organize
 	
