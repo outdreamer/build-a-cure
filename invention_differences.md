@@ -9,6 +9,8 @@
 			- like 'calculate the ratio of nodes with this attribute in a network, for networks of size n for all n from 1 to a million'
 	- these assistants do not:
 		- evaluate a specific attribute required for proofs, like 'consistency/validity' or 'solvability given computational complexity & minimum required information', using known math interactions that fulfill the attribute 'consistency', although that would be useful and can be done with my invention
+		- check the 'meaning' attribute of their proofs
+			- example: a proof check that verifies that '1 + 1 = 2' doesnt check all the attributes of those numbers, like primes, unit position, even/odd, relationships to constants like pi & e or functions like trig functions, so it's not checking whether these two sides of the formula are absolutely/globally equivalent, its just checking if a simple 'addition' operation connects their values
 
 2. whats the differences between your invention & a 'math function solver tool', where you input a function and it tells you a specific value related to the function, like the function zeros or roots or the limit of a series
 	- that tool is just applying known math functions to solve specific problems, essentially applying a 'rules database' to calculate solutions to known problems solvable with those rules
@@ -107,6 +109,29 @@
 			- machine learning comes down to 'try various options and deactivate the ones that dont work' which is a glorified version of 'trial & error', so forgive me for saying this, but anyone who isn't totally challenged could think of at least the possibility of trying that, if not a specific functional implementation, at their first attempt at implementing it, and forgive me for also saying this, but trial & error is also what many ML researchers are doing when they copy a bio process like 'vision' or 'storing info' to integrate with a neural network structure that hasn't been tried yet.
 		- I also struggle to believe that someone would have thought of my invention, given how many hundreds of millions of people had the info necessary to come up with it but didn't, though it would be nice if I was living in a world full of other geniuses, it's just hard to believe given the information that people keep proving. If most people tried to automate problem-solving, they would come up with a solution that adjacently used existing technologies, like 'apply machine learning whenever you dont know something' or 'store solutions in a rules/solutions database', because those are easy solutions and people generally come up with easy solutions.
 		- To my knowledge a tool to automate problem-solving doesnt already exist, as statistics/attribute graphs/machine learning cant currently solve any problems without a severe amount of specific information, computation, configuration in the form of manual (flawed) selection of algorithms, manual & isolated analysis of attributes like intent & concepts instead of automated & integrated analysis, limitations built in the assumptions/perspective of the configurer, testing in the form of parameter tuning, strategy injection like trial & error, & other forms of human intervention - and can only solve isolated specific problems of specific types with information formatted in a specific way, without cross-system understanding or system context built-in.
+
+	- this isnt an implementation of 'trial & error' bc a perfect implementation of 'trial & error' would invent AI
+		- implementing a 'solution automation workflow' means 'implementing it in a way that can solve all problems', not 'combining items in a list to form another list and then trying each combination with a static test function integrated manually'
+		- https://medium.com/abacus-ai/an-overview-of-logic-in-ai-and-machine-learning-2f41ccb2a335
+
+7. whats the difference between this & inductive programming
+	- inductive programming has not solved all problems, it can only solve problems where components of the solution function are available to it
+	- if the component functions dont exist, it doesnt create them
+	- if the function is too complex to be derived from the example inputs/outputs, it fails
+
+8. whats the difference between this & logical automation tools like mentioned here ('first order' logic automation, 'propositional' logic automation)?
+	- https://medium.com/abacus-ai/an-overview-of-logic-in-ai-and-machine-learning-2f41ccb2a335
+	- my system does use logic rules, such as:
+		- the rules of cost/benefit analysis like 'check if the benefit is greater than the cost'
+		- logic of inference/derivation like 'check if there are structures of contradictions'
+		- specific rules of various systems if present in the database as functions
+	- however, these are not the invention itself, even if some of the logic rules are specific to my system
+	- the invention is the way to apply structures (such as logic rules, patterns, intents, etc) in a way to automate problem-solving, using objects like interface queries, problem-solving structures like solution automation workflows, interface structures like definitions, interfaces as defined in my system for comparison of structures, interchangeable functions/structures, function types, etc
+	- in other words, the 'logic rules' (functions) that connect these objects in a way that enables problem-solving automation are the invention
+	- my system can also derive other logical rule systems, check for consistency/validity structures, and generate solutions to problems like 'no available function to solve a problem bc of lack of missing info' (which in my system would be solved by solving the problem on another interface that doesnt require that info)
+	- for example, my system could generate the 'core' propositional logic involving connection structures (a is b) and condition structures (if, then, and, or) because those are the 'unit' structures that everything else can be composed of, by applying the definition of a 'unit'
+		- then it could generate other types of logic by applying other structures:
+			- generate 'first order' logic which adds 'function arguments' by applying core structures (like variables, which are a core structure of the 'change' interface) to the problem space and checking them for structures of relevance/usefulness, like if a particular generated structure accurately transforms inputs into outputs better than other methods (which is a default 'optimization' structure in my system that solutions can be checked for)
 
 7. whats the difference between this & existing system analysis
 	- the more accurate term for my project is interface analysis (to automate problem-solving), 
