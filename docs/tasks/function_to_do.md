@@ -113,6 +113,44 @@
 
   - add to problem/solution structures
 
+    - definitions
+
+      - workflow:
+        - a way to connect a problem with a solution automatically
+
+      - interface query: a way to automatically implement something
+        - when applied to implement a function intent, the interface query is a function-finding method
+        - when applied to implement a problem-solving intent, the interface query is a solution-finding method
+
+      - interface: standardizing filter where any problem can be solved
+
+      - perspective: 
+        - a filter with priorities (which may be structures, causes, abstract prioritized attributes, or other interface structures) which highlight something as particularly important
+        - example:
+          - a perspective like 'find the function that minimizes distance from as many points as possible' produces a solution that can qualify as 'regression' to the 'find a prediction function' problem
+            - this perspective can be a function structure, but its still a perspective because its highlighting some objects (distance from points, average) as particularly important
+            - a function like 'find the function that minimizes distance from the average line' is a lot closer to the definition of 'regression'
+          - differences in perspectives:
+            - the first perspective highlights a specific problem-solving intent to generate a solution-finding method or solution for, which has many possible implementations
+            - the second perspective highlights an adjacent inevitable solution-finding method, which has very few possible solutions/implementations, given some variance in the definition of the average
+        
+        - a perspective may be formatted like a particular interface structure, like a function or interface, while still qualifying as a perspective bc it prioritizes some objects over others
+        - perspectives may be useful structures & may contain useful structures (like averages), which capture a lot of uncertainty, complexity or variation/change, providing useful info like a direction to move toward when searching for a solution, or a specific problem-solving intent to fulfill
+        - differences in perspectives can be used to generate other useful perspectives, and identify which perspectives would be most useful to guide a problem-solving workflow or interface query, given perspective attributes like implementation variation
+
+        - perspective variables
+          - degree of implementation variation
+          - info captured/created
+          - adjacence to solutions/solution-finding methods
+          - definitions
+          - priorities
+          - filters
+          - useful structures referenced
+          - problems the perspective is useful for
+          - relation to other perspectives
+          - perspective structure (interface, function, priority set, etc)
+          - abstraction (abstract perspective or a specific perspective)
+      
     - basic solution automation workflows
       - trial & error
       - reverse engineering
@@ -238,7 +276,9 @@
       - help the taliban see other business opportunities than violent govts, which may be the lowest-cost business opportunity in their neighborhood, but has high future costs in that they run out of people to oppress and they lose the potential higher profits from other opportunities, like growing different varieties of plants with drug compounds (non-addictive drugs, drugs that can treat conditions, drugs that can produce a particular brain function, etc)
       - they can also look at who theyre helping to find out how stupid they are 
         - their actions help Russia, virtue-signalers on social media, anyone who wants to hate their people (bc theyre attacking their own people & always have, and they dont have solutions except violence, which animals could think of too), and anyone who wants to profit off of war/poverty/disease/oppression (China, the US, Russia, other hostile foreign govts & entities)
-
+      - if you want the taliban to switch to farming/engineering drugs, you have to make it easy - give them education on how to do it & other resources, so its even easier than violent govt
+      - same with other revenue changes, eventually leading to legal revenue sources
+      
     - suppliers shouldnt be supplying input resources like funds (the possibility of a solution), but solution metric/goal-based output resources like solutions (a guarantee of a solution), which can form a basis for a currency, in addition to adjacent solution inputs like insights
 
     - feudalism/castes built around access to & investment in computational methods/tools (communication, regulation/legislation/enforcement, quantum computing, optimal storage, compression algorithms, optimal data structures, powerful chips, pre-computations, storage of prioritized info, info prediction/derivation/finding/generating/learning/understanding/organizing/integrating, task automation, cryptographic blockchain-based asset-tracking/verification, security creation, error creation, hacking/theft, experimentation tools, people manipulation, infinity computations to reduce overall computational complexity by identifying an infinite set by differences from other infinite sets, info falsification) which can replace & compete with each other
