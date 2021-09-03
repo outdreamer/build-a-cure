@@ -19,6 +19,11 @@
 				- 'an example of how to format a number so its useful for other operations, such as how formatting a number as (1 + 1) is useful for proving attributes like associativity/transitivity/commutativity'
 				- 'a prime added to a prime can equal an even number'
 				- 'a number type can be formatted as a structure (combination) of units of that type'
+				- 'a proof proving that 1 + 1 = 2 doesnt mean their other properties are equal'
+				- '1 + 1 = 2 can be formatted as unit number type + unit number type = a number of that type'
+				- 'a proof proving that 1 + 1 = 2 doesnt automatically validate other proofs regarding addition of numbers of the same type, such as infinities' (which is a 'false implication' of a proof)
+			- other interface structures are also not identified by current math proving or automated logic tools:
+				- proof error types like 'false implications' & 'false assumptions' 
 
 2. whats the differences between your invention & a 'math function solver tool', where you input a function and it tells you a specific value related to the function, like the function zeros or roots or the limit of a series
 	- that tool is just applying known math functions to solve specific problems, essentially applying a 'rules database' to calculate solutions to known problems solvable with those rules
@@ -118,9 +123,14 @@
 		- I also struggle to believe that someone would have thought of my invention, given how many hundreds of millions of people had the info necessary to come up with it but didn't, though it would be nice if I was living in a world full of other geniuses, it's just hard to believe given the information that people keep proving. If most people tried to automate problem-solving, they would come up with a solution that adjacently used existing technologies, like 'apply machine learning whenever you dont know something' or 'store solutions in a rules/solutions database', because those are easy solutions and people generally come up with easy solutions.
 		- To my knowledge a tool to automate problem-solving doesnt already exist, as statistics/attribute graphs/machine learning cant currently solve any problems without a severe amount of specific information, computation, configuration in the form of manual (flawed) selection of algorithms, manual & isolated analysis of attributes like intent & concepts instead of automated & integrated analysis, limitations built in the assumptions/perspective of the configurer, testing in the form of parameter tuning, strategy injection like trial & error, & other forms of human intervention - and can only solve isolated specific problems of specific types with information formatted in a specific way, without cross-system understanding or system context built-in.
 
-	- this isnt an implementation of 'trial & error' bc a perfect implementation of 'trial & error' would invent AI
-		- implementing a 'solution automation workflow' means 'implementing it in a way that can solve all problems', not 'combining items in a list to form another list and then trying each combination with a static test function integrated manually'
+	- the sections 'automated discovery in science' and 'automation of mathematical reasoning' arent even an implementation of the simplest solution automation workflow ('trial & error'), bc an implementation of 'trial & error' to automate solving problems with that workflow would invent AI, which is 'trial & error' applied to the structure of 'neural network nodes'
+		- they are both a specific inference/test function, manually created (a human has to write the code) for a specific problem (identify possible drugs based on similar structures to other drugs)
+		- in my system, a human would just have to write the problem statement & give the program access to its inputs (definitions, coded logic, database) or the internet, or write a set of sub-problem intents which the program would interpret as individual problems to solve in isolation (like 'writing a query for code' rather than 'writing code')
+		- implementing a 'solution automation workflow' means 'implementing it in a way that can solve all problems', not 'combining items in a list to form another list and then trying each combination with a static test function to check equivalence of conjecture/proof integrated manually'
 		- https://medium.com/abacus-ai/an-overview-of-logic-in-ai-and-machine-learning-2f41ccb2a335
+
+	- I invented applying interface structures like logic rules, subsets/combinations) to a neural network
+		- https://twitter.com/alienbot123/status/1079497517077737472
 
 7. whats the difference between this & inductive programming
 	- inductive programming has not solved all problems, it can only solve problems where components of the solution function are available to it
@@ -141,6 +151,7 @@
 		- then it could generate other types of logic by applying other structures:
 			- generate 'first order' logic which adds 'function arguments' by applying core structures (like variables, which are a core structure of the 'change' interface) to the problem space and checking them for structures of relevance/usefulness, like if a particular generated structure accurately transforms inputs into outputs better than other methods (which is a default 'optimization' structure in my system that solutions can be checked for)
 		- it can also check if two structures (like a 'conjecture' or 'hypothesis' are a structure of 'equality')
+	- the logical tests in these systems are manually coded, whereas my system can also generate the test function to filter solutions by a particular metric
 
 7. whats the difference between this & existing system analysis
 	- the more accurate term for my project is interface analysis (to automate problem-solving), 
