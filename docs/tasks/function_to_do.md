@@ -155,7 +155,7 @@
           - abstraction (abstract perspective or a specific perspective)
 
         - how is a perspective different from other structures?
-          - its definition overlaps with an interface, but the interface includes an abstract concept like 'cause' that is prioritized & focused on, and all the structures relevant to it
+          - its definition overlaps with an interface, but the interface includes an abstract concept like 'cause' that is prioritized & focused on, and all the structures relevant to it, & standardizes everything to that concept's structures, whereas a perspective may just focus on a particular set of structures rather than changing structures (for instance to be formatted in terms of causal structures like dependencies on the cause interface, rather than their original format, whereas a perspective may just focus on causal relationships or filter out anything that is not causative)
           - how is a perspective like 'find a function minimizing distance from average line' different from a function?
             - a perspective can be formatted as another structure than its standard structure (a filter with priorities), because other structures can have default priorities & act like a filter
           - how is a perspective like 'find a function minimizing distance from average line' different from an interface query?
