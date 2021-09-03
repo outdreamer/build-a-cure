@@ -113,7 +113,7 @@
 
   - add to problem/solution structures
 
-    - definitions
+    - simplified definitions
 
       - workflow:
         - a way to connect a problem with a solution automatically
@@ -154,6 +154,11 @@
             - a perspective may be formatted like a particular interface structure, like a function or interface, while still qualifying as a perspective bc it prioritizes some objects over others
           - abstraction (abstract perspective or a specific perspective)
       
+    - add to solution automation workflows
+      - interface structures that are adjacent (immediately preceding/following) to a solution so as to be causative or indicative of a solution can be identified as predictors or generators or identifiers of solution structures
+        - if there's a perspective, function, change, pattern, etc that is often found around solutions, those can be used according to their position as predictors/generators/identifiers
+        - this is similar to 'applying the solution as a symmetry or interface around which changes are applied while still qualifying as a solution', but applying the solution as a base or center where other objects relevant to it are adjacent, which may or may not be solutions, as a merged interface structure involving a combination of multiple interfaces, although the surrounding structures may also qualify as solutions
+
     - basic solution automation workflows
       - trial & error
       - reverse engineering
@@ -221,7 +226,7 @@
   - add to nn
 
     - concept of 'comparative features': features that were enough to differentiate a category in the training set but not in test, bc they have too many overlaps with other category feature sets
-      - adding sub-parameters allows variation within these overlaps to be identified/differentiated, using any remaining differentiating features that are still available in inputs but dont change overall input/output connections
+      - adding sub-parameters allows variation within these overlaps to be identified/differentiated, using any remaining differentiating features that are still available in inputs but dont change overall input/output connections (change direction, average change rate, etc)
         - https://www.theregister.com/2021/09/02/imaginary_numbers_help_ais_solve/
 
     - weighting & position make emergent structures like functionality probable & possible in a neural network
