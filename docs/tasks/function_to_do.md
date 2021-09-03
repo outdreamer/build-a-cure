@@ -168,6 +168,11 @@
         - if there's a perspective, function, change, pattern, etc that is often found around solutions, those can be used according to their position as predictors/generators/identifiers
         - this is similar to 'applying the solution as a symmetry or interface around which changes are applied while still qualifying as a solution', but applying the solution as a base or center where other objects relevant to it are adjacent, which may or may not be solutions, as a merged interface structure involving a combination of multiple interfaces, although the surrounding structures may also qualify as solutions
         - adjacence can be determined by number of steps separating the structures (for example, separating a question/perspective/useful structure & a solution), number of interface structures separating them, distance determined by some similarity metric, or other definition
+      - find a structure (such as a perspective/function or network with nodes arranged by a certain distance or similarity metric) that would make solving a problem much quicker (or fulfilling another solution metric, like using available resources) and aim for that structure as the solution target to generate (so the problem becomes 'generate this useful structure' instead of 'solve the original problem')
+        - for example, when a function network is organized by similarity in impact, its easier to see which nodes are higher impact
+        - this can be extended by applying filters to find useful 'solution-adjacent' or 'adjacently solution-finding' structures that make a solution obvious or guaranteed/inevitable
+          - structures like a particular way of organizing a network by some distance metric can make solving a set of problems trivial, which makes it more useful than a network organized in a way that solves one problem, other things being equal
+          - structures that 'make solving multiple problems trivial' are useful targets for solution automation workflows, as a problem-solving intent of 'find structures that make solving the problem trivial'
 
     - basic solution automation workflows
       - trial & error
