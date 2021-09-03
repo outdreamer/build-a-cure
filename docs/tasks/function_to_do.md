@@ -153,11 +153,21 @@
           - perspective structure (interface, function, priority set, etc)
             - a perspective may be formatted like a particular interface structure, like a function or interface, while still qualifying as a perspective bc it prioritizes some objects over others
           - abstraction (abstract perspective or a specific perspective)
+
+        - how is a perspective different from other structures?
+          - its definition overlaps with an interface, but the interface includes an abstract concept like 'cause' that is prioritized & focused on, and all the structures relevant to it
+          - how is a perspective like 'find a function minimizing distance from average line' different from a function?
+            - a perspective can be formatted as another structure than its standard structure (a filter with priorities), because other structures can have default priorities & act like a filter
+          - how is a perspective like 'find a function minimizing distance from average line' different from an interface query?
+            - an interface query may also produce a step with an intent like 'find a function fulfilling x' but in the context of the interface query, the intent of this step is to fulfill another intent, like a problem-solving intent such as 'create a function to fulfill y automatically', which may involve solving the sub-problem of 'finding a function to fulfill x'
+            - this doesnt contradict the definition of the interface query or perspective, something can be both without violating either definition
+          - the reason to call something a perspective is if it highlights a priority or prioritized structure in a way that adds value by filtering out other structures, and filtering is a very useful function that is frequently used in other problem-solving processes, like the problem-solving intent 'filter the solution space' or any call to the 'find' or 'identify' functions
       
     - add to solution automation workflows
       - interface structures that are adjacent (immediately preceding/following) to a solution so as to be causative or indicative of a solution can be identified as predictors or generators or identifiers of solution structures
         - if there's a perspective, function, change, pattern, etc that is often found around solutions, those can be used according to their position as predictors/generators/identifiers
         - this is similar to 'applying the solution as a symmetry or interface around which changes are applied while still qualifying as a solution', but applying the solution as a base or center where other objects relevant to it are adjacent, which may or may not be solutions, as a merged interface structure involving a combination of multiple interfaces, although the surrounding structures may also qualify as solutions
+        - adjacence can be determined by number of steps separating the structures (for example, separating a question/perspective/useful structure & a solution), number of interface structures separating them, distance determined by some similarity metric, or other definition
 
     - basic solution automation workflows
       - trial & error
