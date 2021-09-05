@@ -111,6 +111,11 @@
 
 ## examples
 
+  - add to math mapping
+    - a set of related change types (like a sequence of fourier/taylor expansion terms providing different polynomials) provides different change types that can be combined to produce the required changes to produce a function
+    - example 'alternate connection' structure: wheels (rotations of circles) provide an alternate connection between waves & circles, in addition to trig functions
+    - fourier transform is an example of energy from change stabilizing into a pattern of a new change type - https://mathlets.org/mathlets/discrete-fourier-transform/
+
   - add to problem/solution structures
 
     - simplified definitions
@@ -123,6 +128,7 @@
         - when applied to implement a problem-solving intent, the interface query is a solution-finding method
 
       - interface: standardizing filter where any problem can be solved
+        - why an interface isnt a language - its definition overlaps with the definition of a set, which is a sub-structure found on interfaces and doesnt encapsulate the whole definition of an interface, which is a specific structure in which all problems can be solved, whereas language encompasses all concepts/structures without refinement by a filter that adds value in reducing computations
 
       - perspective: 
         
@@ -164,6 +170,13 @@
           - the reason to call something a perspective is if it highlights a priority or prioritized structure in a way that adds value by filtering out other structures, and filtering is a very useful function that is frequently used in other problem-solving processes, like the problem-solving intent 'filter the solution space' or any call to the 'find' or 'identify' functions
       
     - add to solution automation workflows
+
+      - combine a partially implemented interface query with gaps in implementation left for variation, where the sections implemented are known to be optimal for various sub-intents of the interface query
+        - the pieces that are implemented can be on different interaction levels of the interface query
+        - generalization: 
+          - this can be generalized to other interactions between problem/solution structures which have clearly optimal implementations of sections of the interaction
+          - it can be generalized further to other structures than 'partial subset', such as known optimal 'sequences' of problem/solution interactions or known optimal 'combinations' of problem/solution interactions
+
       - interface structures that are adjacent (immediately preceding/following) to a solution so as to be causative or indicative of a solution can be identified as predictors or generators or identifiers of solution structures
         - if there's a perspective, function, change, pattern, etc that is often found around solutions, those can be used according to their position as predictors/generators/identifiers
         - this is similar to 'applying the solution as a symmetry or interface around which changes are applied while still qualifying as a solution', but applying the solution as a base or center where other objects relevant to it are adjacent, which may or may not be solutions, as a merged interface structure involving a combination of multiple interfaces, although the surrounding structures may also qualify as solutions
