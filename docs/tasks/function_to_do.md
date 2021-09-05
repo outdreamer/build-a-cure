@@ -173,6 +173,8 @@
         - this can be extended by applying filters to find useful 'solution-adjacent' or 'adjacently solution-finding' structures that make a solution obvious or guaranteed/inevitable
           - structures like a particular way of organizing a network by some distance metric can make solving a set of problems trivial, which makes it more useful than a network organized in a way that solves one problem, other things being equal
           - structures that 'make solving multiple problems trivial' are useful targets for solution automation workflows, as a problem-solving intent of 'find structures that make solving the problem trivial'
+      - store the optimal interface queries associated with a particular solution automation workflow to convert the 'build interface query' task into a 'find interface query in database' task, or store functions to find the optimal interface queries if any are stored, or derive the interface query in a more efficient way than interface query design logic
+        - generalization: can be generalized to associations between any problem/solution structures
 
     - basic solution automation workflows
       - trial & error
