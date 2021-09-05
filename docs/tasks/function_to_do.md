@@ -171,21 +171,28 @@
       
     - add to solution automation workflows
 
+      - find the structures of primary default interface structures that are most useful across interface queries & workflows & apply those as default components
+        - example: change + direction, priority + potential field, variable + concept type are examples of structures of interface structures, but some in particular are more useful than others, like 'perspectives' (filter with priorities) bc they fulfill structures of usefulness like 'capturing high variation' and 'reducing complexity' and 'applying importance structures' which are useful for various interim & core functions like 'find important objects' and 'understand a system quickly' and 'find hub variables', so apply these metrics as filters of these structures of primary interface structures
+        - workflow fit: this is similar to other workflows involving finding useful structures, but specifically filters them by which are useful for fulfilling intents of interim/core functions that are commonly used in interface queries' sub-intents
+
       - combine a partially implemented interface query with gaps in implementation left for variation, where the sections implemented are known to be optimal for various sub-intents of the interface query
         - the pieces that are implemented can be on different interaction levels of the interface query
         - generalization: 
           - this can be generalized to other interactions between problem/solution structures which have clearly optimal implementations of sections of the interaction
           - it can be generalized further to other structures than 'partial subset', such as known optimal 'sequences' of problem/solution interactions or known optimal 'combinations' of problem/solution interactions
+        - simplification: this can be simplified to adding a variable, allowing variation in which subsets or other structures are implemented & which can be changed for various implementations
 
       - interface structures that are adjacent (immediately preceding/following) to a solution so as to be causative or indicative of a solution can be identified as predictors or generators or identifiers of solution structures
         - if there's a perspective, function, change, pattern, etc that is often found around solutions, those can be used according to their position as predictors/generators/identifiers
         - this is similar to 'applying the solution as a symmetry or interface around which changes are applied while still qualifying as a solution', but applying the solution as a base or center where other objects relevant to it are adjacent, which may or may not be solutions, as a merged interface structure involving a combination of multiple interfaces, although the surrounding structures may also qualify as solutions
         - adjacence can be determined by number of steps separating the structures (for example, separating a question/perspective/useful structure & a solution), number of interface structures separating them, distance determined by some similarity metric, or other definition
+      
       - find a structure (such as a perspective/function or network with nodes arranged by a certain distance or similarity metric) that would make solving a problem much quicker (or fulfilling another solution metric, like using available resources) and aim for that structure as the solution target to generate (so the problem becomes 'generate this useful structure' instead of 'solve the original problem')
         - for example, when a function network is organized by similarity in impact, its easier to see which nodes are higher impact
         - this can be extended by applying filters to find useful 'solution-adjacent' or 'adjacently solution-finding' structures that make a solution obvious or guaranteed/inevitable
           - structures like a particular way of organizing a network by some distance metric can make solving a set of problems trivial, which makes it more useful than a network organized in a way that solves one problem, other things being equal
           - structures that 'make solving multiple problems trivial' are useful targets for solution automation workflows, as a problem-solving intent of 'find structures that make solving the problem trivial'
+      
       - store the optimal interface queries associated with a particular solution automation workflow to convert the 'build interface query' task into a 'find interface query in database' task, or store generative functions to find the optimal interface queries if any are stored, or derive the interface query in a more efficient way than interface query design logic
         - generalization: can be generalized to associations between any problem/solution structures
 
