@@ -278,19 +278,28 @@
     - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
 
-    - for a data point, change in weight for various node types (normal, hidden) can be calculated based on using gradient descent for determining the weight change that would minimize the 'output node error degree'
+    - standard ml process
 
-      - finding useful structures like symmetries in correct/high-impact weight paths & average/central correct/high-impact weight values around which other correct values vacillate is a first step to connecting raw numerical data with the meaning interface
-        - other useful structures
-          - ambiguities between correct & high-impact weight values
-          - more efficient weight paths & weight values to reverse-engineer a network that would have found the answer sooner
+      - backpropagation corrects weights based on 'differences' between expected/actual values (a standard error definition structure)
+      - other error definition structures
+        - prediction accuracy should reflect ability of info to predict output (only so much accuracy can be produced from info, without using other methods) - if its more predictive than what the info can predict, theres an error in the data/network/params/functions
+      - optimizations can be applied to various functions of the network & its processing functions, using workflows that use an answer/solution once a standard solution is known
+        - more efficient networks/weight updates can be found to reverse-engineer a weight-update algorithm or a network structure/parameter that would have sped up learning or used less info or produced higher accuracy
+          - from this, a reason why its more efficient can be derived, like it includes info that was missed in the original network bc of activation threshold config, or integrates the concepts driving feature importance like adjacence depending on the data type
 
-      - output node error degree     = difference between target & predicted value
-      - all output node error        = mean least squares applied to (output node error degree)
-      - (normal) weight change       = - learning rate                                                       *        derivative of all output node error with respect to weighted input sum for output node         * previous node output
-                                     = - learning rate                                                       *        change in all output node error with respect to change in weighted input sum for output node   * previous node output
-                                     =   learning rate * output node error degree * derivative of activation                                                                                                         * previous node output
-      - (hidden) weight change       =   learning rate                            * derivative of activation * sum of derivative of all output node error with respect to weighted input sum * weight(output node k) * previous node output
+      - for a data point, change in weight for various node types (normal, hidden) can be calculated based on using gradient descent for determining the weight change that would minimize the 'output node error degree'
+
+        - finding useful structures like symmetries in correct/high-impact weight paths & average/central correct/high-impact weight values around which other correct values vacillate is a first step to connecting raw numerical data with the meaning interface
+          - other useful structures
+            - ambiguities between correct & high-impact weight values
+            - more efficient weight paths & weight values to reverse-engineer a network that would have found the answer sooner
+
+        - output node error degree     = difference between target & predicted value
+        - all output node error        = mean least squares applied to (output node error degree)
+        - (normal) weight change       = - learning rate                                                       *        derivative of all output node error with respect to weighted input sum for output node         * previous node output
+                                       = - learning rate                                                       *        change in all output node error with respect to change in weighted input sum for output node   * previous node output
+                                       =   learning rate * output node error degree * derivative of activation                                                                                                         * previous node output
+        - (hidden) weight change       =   learning rate                            * derivative of activation * sum of derivative of all output node error with respect to weighted input sum * weight(output node k) * previous node output
 
   - add to science
 
