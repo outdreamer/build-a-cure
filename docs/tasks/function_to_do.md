@@ -285,6 +285,12 @@
       - what is the relationship between entropy as 'possible' information, & 'probable' information
       - which of these possible states can be filtered out, either by probability, energy efficiency/stability, state connections, or other rules (how to add info of varying parameters to high entropy systems)
       - how to build a clock with consensus aggregated from various info sources that feed off each other in an input/output cycle
+      - isolated systems are more useful for timekeeping
+      - if the 'flow of time' is 'lack of organization', can 'organization' condense or connect or reverse time
+      - if time is potential, it is created by organizing info as a side effect in the form of entropy
+      - whereas if time is lack of potential (certainty acquired as info, and entropy generated from it), there is a finite amount of it
+      - if time is a system involving both info (lack of potential) & the entropy/potential generated from it, such as a ratio required to maintain for both to continue to exist
+      - whether the ratio points to a convergence of one superceding the other is an open question
 
     - what junk dna could be added that would enable production of the most useful types of RNA/proteins & other components for immune system functions, repair processes, & other anti-illness processes
 
