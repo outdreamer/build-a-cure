@@ -131,6 +131,7 @@
 
       - interface: standardizing filter where any problem can be solved
         - why an interface isnt a language - its definition overlaps with the definition of a set, which is a sub-structure found on interfaces and doesnt encapsulate the whole definition of an interface, which is a specific structure in which all problems can be solved, whereas language encompasses all concepts/structures without refinement by a filter that adds value in reducing computations
+        - ambiguities/overlaps as sources of info to identify interfaces (overlap of 'difference' & 'change' definitions indicates that they are related variations in a potential field of a unifying concept acting as a symmetry)
 
       - perspective: 
         
@@ -173,7 +174,12 @@
       
     - add to solution automation workflows
 
-      - identify structures of determination (where once a structure is determined, the other structures dependent on it are also determined) & apply as reductions of computation requirements in an interface query
+      - derive which interface structures are relevant to variable interactions (like combinations/subsets) using insight rules (like that 'adjacent features are likely to be dependent')
+        - example: how to derive 'combinations' of 'variable interactions' as useful structures, given the insight rule 'adjacent variables are likely to be dependent'
+          - 'adjacence' is 'similarity in position', and structures that are 'similar in position' are easier to fulfill intents like 'group', so 'combinations' are an 'adjacent' structure of this structure
+            - the 'combination' structure also fulfills intents like 'isolate' for structures like 'dependent variables', and 'isolating related objects' or 'isolating objects of a type' are a useful function for various general/problem-solving/interim/core function intents
+
+      - identify structures of determination (where once a structure is determined, the other structures dependent on it are also determined) & apply as 'reduction' structures of computation requirements in an interface query
 
       - generate maximally different perspectives to avoid over-incentivizing one perspective & its resulting error types, to apply as solution filters
         - example: in the 'find a prediction function' problem, maximally different perspectives would include:
@@ -182,8 +188,10 @@
             - if a 'variable' concept is not applicable to a particular structure, it will generate errors
               - example: 
                 - if the 'sound' variable is only measurable by 'vibrations', it might be handled incorrectly, miss all the variation within the 'sound' variable, miss the fact that the 'sound' variable can act as an interface, and be a poor predictor of 'sound' variation & metadata like inputs/outputs
-                  - the 'variable' concept refers to a 'unique change type', but it leaves out the 'related variable network' structure that all variables are nodes in & other structures relevant to that 'variable' definition, and would misidentify 'vibrations' as an input variable rather than the output of 'sound' variable inputs, bc it would miss their interaction in the 'related variable network' inherent to a complete 'variable' definition, where usually a limited structural definition of 'variable' as 'unique change type' is applied
+                  - the 'variable' concept refers to a 'unique change type', but it leaves out the 'related variable network' structure that all variables are nodes in & other structures relevant to that 'variable' definition, and would misidentify 'vibrations' as a change-determining variable rather than an attribute of the 'sound' variable, bc it would miss their interaction in the 'related variable network' inherent to a complete 'variable' definition, where usually a limited structural definition of 'variable' as 'unique change type' is applied
                 - in the 'chihuahua/muffin' class identification problem, adjacent features arent isolatable bc they determine what adjacent features are possible (the structure of a skull determines what configurations of structures surrounding it are possible), but they are treated as isolatable (the correlation between bone/organs is treated as independent), whereas other variables are isolatable but are treated as one variable (damage to one eye/ear doesnt necessarily correlate with damage to the other)
+                  - this is bc there is no 'requirement' structure requiring that any damage to one side be reflected in the other (the inherent symmetry can be distorted), but there are structures that 'can' require that (causes of organ damage)
+                    - 'requirement' structures can be checked for using attributes of adjacent structures (does the skull seem to have a firm structure or would it necessarily change if another feature was removed)
               - not all variables treated as isolatable are actually isolatable, but with missing data they might seem isolatable
 
       - find difference causes of interface structures (like concepts) and apply structures of them to create various solutions to filter as an initial solution space
