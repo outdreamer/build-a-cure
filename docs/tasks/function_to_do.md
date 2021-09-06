@@ -171,6 +171,8 @@
       
     - add to solution automation workflows
 
+      - find structures of difference between false rewards & the error structures they correct to apply as structure to fulfill the 'error-correcting' problem-solving intent
+
       - find the structures of primary default interface structures that are most useful across interface queries & workflows & apply those as default components
         - example: change + direction, priority + potential field, variable + concept type are examples of structures of interface structures, but some in particular are more useful than others, like 'perspectives' (filter with priorities) bc they fulfill structures of usefulness like 'capturing high variation' and 'reducing complexity' and 'applying importance structures' which are useful for various interim & core functions like 'find important objects' and 'understand a system quickly' and 'find hub variables', so apply these metrics as filters of these structures of primary interface structures
         - workflow fit: this is similar to other workflows involving finding useful structures, but specifically filters them by which are useful for fulfilling intents of interim/core functions that are commonly used in interface queries' sub-intents
