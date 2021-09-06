@@ -286,6 +286,10 @@
       - optimizations can be applied to various functions of the network & its processing functions, using workflows that use an answer/solution once a standard solution is known
         - more efficient networks/weight updates can be found to reverse-engineer a weight-update algorithm or a network structure/parameter that would have sped up learning or used less info or produced higher accuracy
           - from this, a reason why its more efficient can be derived, like it includes info that was missed in the original network bc of activation threshold config, or integrates the concepts driving feature importance like adjacence depending on the data type
+      - the domain of the data type can be derived by which changes produce higher accuracy
+        - if adjacence determines interactivity/relevance & combinations of adjacent features improve accuracy, the data is likely to be a graph or image of a system
+          - inferring domain allows other rules/structures to be integrated
+          - once you know its a visualization of a system, you can look for nodes/components of the system & other system objects & apply system interaction rules
 
       - for a data point, change in weight for various node types (normal, hidden) can be calculated based on using gradient descent for determining the weight change that would minimize the 'output node error degree'
 
