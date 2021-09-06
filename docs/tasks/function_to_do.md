@@ -108,6 +108,8 @@
               - https://en.wikipedia.org/wiki/Lagrange_multiplier
               - also an example of a solution space (the whole function is the solution space of possible minima/maxima) and a filter applied to it (constraint)
 
+      - give examples of how each workflow can be applied to various standard problems (find a prediction function, sorting problem, ml configuration/algorithm-design problem)
+
 
 ## examples
 
@@ -171,7 +173,16 @@
       
     - add to solution automation workflows
 
-      - find structures of difference between false rewards & the error structures they correct to apply as structure to fulfill the 'error-correcting' problem-solving intent
+      - find useful structures like ratios between reasons to change vs. not to change to justify changing a standard solution to find an optimal solution
+        - example: 
+          - the reasons to change may include reasons like that 'a data point would be better predicted if the change is applied'
+          - the reasons not to change may include reasons like that 'patterns of changes of other functions that avoided this change type performed better' or 'the data point is an outlier'
+          - structures like ratios between these change causes can be useful if each change cause contributes equivalent certainty so they can be treated like units
+
+      - find target solution structures that lead to problem-solving processes even if they dont solve the original problem, like a target position that leads to change in a direction toward the original intended solution, even if the destination isnt reached
+
+      - find structures of difference between 'false rewards' & other useful error structures of falsehood & the error structures they correct to apply as structure to fulfill the 'error-correcting' problem-solving intent
+        - usually real rewards can be found to incentivize finding/generating/deriving a solution if its correct, so this shouldnt be necessary, but it can be more efficient than identifying/using real rewards to incentivize a solution/optimization
 
       - find the structures of primary default interface structures that are most useful across interface queries & workflows & apply those as default components
         - example: change + direction, priority + potential field, variable + concept type are examples of structures of interface structures, but some in particular are more useful than others, like 'perspectives' (filter with priorities) bc they fulfill structures of usefulness like 'capturing high variation' and 'reducing complexity' and 'applying importance structures' which are useful for various interim & core functions like 'find important objects' and 'understand a system quickly' and 'find hub variables', so apply these metrics as filters of these structures of primary interface structures
