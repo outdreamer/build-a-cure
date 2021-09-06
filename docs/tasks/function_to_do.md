@@ -175,7 +175,8 @@
     - add to solution automation workflows
 
       - identify the structures with highest impact on solution success
-        - example: in the 'find a prediction function' problem, this would include standard 'contributing variables' & 'variable interactions', but also 'function structures' like 'continuity', 'change rate patterns', 'waves/peaks/inflection points'
+        - example: in the 'find a prediction function' problem, this would include standard 'contributing variables' & 'variable interactions', but also 'function structures' like 'averages', 'continuity', 'change rate patterns', 'waves/peaks/inflection points'
+          - these have high impact on solution success bc theyre 'high variation', 'represent a standard', 'reflect the output of relevant variables like exponents or patterns', are 'relevant inputs like function component structures', or are defined to be useful 'patterns are defined to represent an abstraction of a change type'
 
       - identify the complete structures in a problem space & format the problem in terms of the complete structures for solution metrics like accuracy/robustness
         - example: variables arent a complete structure until some understanding rules are injected about their interaction structures such as cause & relationship to other variables, the context in which they are variable/constant, and their associated change types
