@@ -279,6 +279,12 @@
 
   - add to science
 
+    - what is the connection between entropy (which Ive been using 'variance', 'potential', 'uncertainty' in place of at various points) and temporary information (information that is temporarily true, like electron position, rather than conditionally true, like laws of physics, or absolutely true, like rules governing quantum & standard physics interactions)
+      - are black holes related to the output of accurate natural 'clocks' that formed
+      - higher distribution of energy leads to higher entropy (possible states), but also a higher number of possible info interactions (which produce at least temporary certainties)
+      - what is the relationship between entropy as 'possible' information, & 'probable' information
+      - which of these possible states can be filtered out, either by probability, energy efficiency/stability, state connections, or other rules (how to add info of varying parameters to high entropy systems)
+      - how to build a clock with consensus aggregated from various info sources that feed off each other in an input/output cycle
 
     - what junk dna could be added that would enable production of the most useful types of RNA/proteins & other components for immune system functions, repair processes, & other anti-illness processes
 
