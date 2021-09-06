@@ -173,13 +173,17 @@
       
     - add to solution automation workflows
 
-      - generate maximally different perspectives to avoid over-incentivizing one perspective & its resulting error types
+      - identify structures of determination (where once a structure is determined, the other structures dependent on it are also determined) & apply as reductions of computation requirements in an interface query
+
+      - generate maximally different perspectives to avoid over-incentivizing one perspective & its resulting error types, to apply as solution filters
         - example: in the 'find a prediction function' problem, maximally different perspectives would include:
           - 'find the right unique isolated variable interaction to equal the output variable'
           - 'check if the definition of objects is applicable'
             - if a 'variable' concept is not applicable to a particular structure, it will generate errors
-              - example: if the 'sound' variable is only measurable by 'vibrations', it might be handled incorrectly, miss all the variation within the 'sound' variable, miss the fact that the 'sound' variable can act as an interface, and be a poor predictor of 'sound' variation & metadata like inputs/outputs
-              - the 'variable' concept refers to a 'unique change type', but it leaves out the 'related variable network' structure that all variables are nodes in & other structures relevant to that 'variable' definition, and would misidentify 'vibrations' as an input variable rather than the output of 'sound' variable inputs, bc it would miss their interaction in the 'related variable network' inherent to a complete 'variable' definition, where usually a limited structural definition of 'variable' as 'unique change type' is applied
+              - example: 
+                - if the 'sound' variable is only measurable by 'vibrations', it might be handled incorrectly, miss all the variation within the 'sound' variable, miss the fact that the 'sound' variable can act as an interface, and be a poor predictor of 'sound' variation & metadata like inputs/outputs
+                  - the 'variable' concept refers to a 'unique change type', but it leaves out the 'related variable network' structure that all variables are nodes in & other structures relevant to that 'variable' definition, and would misidentify 'vibrations' as an input variable rather than the output of 'sound' variable inputs, bc it would miss their interaction in the 'related variable network' inherent to a complete 'variable' definition, where usually a limited structural definition of 'variable' as 'unique change type' is applied
+                - in the 'chihuahua/muffin' class identification problem, adjacent features arent isolatable bc they determine what adjacent features are possible (the structure of a skull determines what configurations of structures surrounding it are possible), but they are treated as isolatable (the correlation between bone/organs is treated as independent), whereas other variables are isolatable but are treated as one variable (damage to one eye/ear doesnt necessarily correlate with damage to the other)
               - not all variables treated as isolatable are actually isolatable, but with missing data they might seem isolatable
 
       - find difference causes of interface structures (like concepts) and apply structures of them to create various solutions to filter as an initial solution space
