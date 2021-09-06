@@ -279,6 +279,9 @@
 
   - add to science
 
+
+    - what junk dna could be added that would enable production of the most useful types of RNA/proteins & other components for immune system functions, repair processes, & other anti-illness processes
+
     - https://www.quantamagazine.org/mental-phenomena-dont-map-into-the-brain-as-expected-20210824/
 
       - why memory sections might not always be necessary
