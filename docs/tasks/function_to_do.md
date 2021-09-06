@@ -287,10 +287,11 @@
       - how to build a clock with consensus aggregated from various info sources that feed off each other in an input/output cycle
       - isolated systems are more useful for timekeeping
       - if the 'flow of time' is 'lack of organization', can 'organization' condense or connect or reverse time
-      - if time is potential, it is created by organizing info as a side effect in the form of entropy
+      - if time is potential (ability to change), it is created by organizing info as a side effect in the form of entropy
       - whereas if time is lack of potential (certainty acquired as info, and entropy generated from it), there is a finite amount of it
       - if time is a system involving both info (lack of potential) & the entropy/potential generated from it, such as a ratio required to maintain for both to continue to exist
       - whether the ratio points to a convergence of one superceding the other is an open question
+      - what is the connection between related concepts: 'randomness' as 'lack of info', 'potential' as 'ability to change', 'variance' as 'change injection points', 'uncertainty' as 'lack of certainty structures (like identifying/differentiating/determining/describing variables)', 'info' as 'specific stable connections, with varying time/scale/condition/position/state of applicability', 'entropy' as 'number of possibilities', 'possibility' as 'structure that isnt ruled out by other structures', 'energy' as 'change trigger/input, which can be stored/organized/formatted as info/potential', 'accuracy' as 'correct info measurement or info prediction/generation/finding function', structures like 'similarity/efficiency' as 'info inputs (which make it likelier that something will be proven true)'
 
     - what junk dna could be added that would enable production of the most useful types of RNA/proteins & other components for immune system functions, repair processes, & other anti-illness processes
 
