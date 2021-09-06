@@ -173,11 +173,16 @@
       
     - add to solution automation workflows
 
-      - find useful structures like ratios between reasons to change vs. not to change to justify changing a standard solution to find an optimal solution
+      - find difference causes and apply structures of them to create various solutions to filter as an initial solution space
+        - example: find the reasons why data set points might differ (randomness, indicative of change in the underlying interaction, variation within expected/valid ranges) and create combinations of these reasons to explain the data set, by adjusting which points are included in the 'find a prediction function' problem input, which are excluded bc of reasons like 'random noise'
+        - this is useful bc difference causes are a powerful structure in understanding why differences occur so they can be created/predicted as needed
+
+      - find useful structures like units/ratios between change causes (reasons to change) vs. reasons not to change to justify changing a standard solution (like a linear function) to find an optimal solution (a better-fitting function)
         - example: 
           - the reasons to change may include reasons like that 'a data point would be better predicted if the change is applied'
           - the reasons not to change may include reasons like that 'patterns of changes of other functions that avoided this change type performed better' or 'the data point is an outlier'
           - structures like ratios between these change causes can be useful if each change cause contributes equivalent certainty so they can be treated like units
+          - this is useful bc change causes from a standard solution are a powerful structure to help optimize a solution - if there is a reason to change a structure, its likelier to be reflective of reality
 
       - find target solution structures that lead to problem-solving processes even if they dont solve the original problem, like a target position that leads to change in a direction toward the original intended solution, even if the destination isnt reached
 
