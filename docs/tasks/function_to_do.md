@@ -277,6 +277,21 @@
     - this is an important process for checking if a structure is valid/consistent in a system, which is a useful function
     - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
+
+    - for a data point, change in weight for various node types (normal, hidden) can be calculated based on using gradient descent for determining the weight change that would minimize the 'output node error degree'
+
+      - finding useful structures like symmetries in correct/high-impact weight paths & average/central correct/high-impact weight values around which other correct values vacillate is a first step to connecting raw numerical data with the meaning interface
+        - other useful structures
+          - ambiguities between correct & high-impact weight values
+          - more efficient weight paths & weight values to reverse-engineer a network that would have found the answer sooner
+
+      - output node error degree     = difference between target & predicted value
+      - all output node error        = mean least squares applied to (output node error degree)
+      - (normal) weight change       = - learning rate                                                       *        derivative of all output node error with respect to weighted input sum for output node         * previous node output
+                                     = - learning rate                                                       *        change in all output node error with respect to change in weighted input sum for output node   * previous node output
+                                     =   learning rate * output node error degree * derivative of activation                                                                                                         * previous node output
+      - (hidden) weight change       =   learning rate                            * derivative of activation * sum of derivative of all output node error with respect to weighted input sum * weight(output node k) * previous node output
+
   - add to science
 
     - what is the connection between entropy (which Ive been using 'variance', 'potential', 'uncertainty' in place of at various points) and temporary information (information that is temporarily true, like electron position, rather than conditionally true, like laws of physics, or absolutely true, like rules governing quantum & standard physics interactions)
