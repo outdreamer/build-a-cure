@@ -113,6 +113,10 @@
 
 ## examples
 
+  - add to predictions
+    - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
+    - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
+
   - add to math mapping
     - a set of related change types (like a sequence of fourier/taylor expansion terms providing different polynomials) provides different change types that can be combined to produce the required changes to produce a function
     - example 'alternate connection' structure: wheels (rotations of circles) provide an alternate connection between waves & circles, in addition to trig functions
@@ -256,7 +260,8 @@
       - apply machine-learning
       - use a rules/solution database & look up the answer
 
-    - formatting a 'tree' as a 'set of overlapping sequences' so functions can be formatted for different intents like in 'parallel processing'
+    - example of format/intent matching
+      - formatting a 'tree' as a 'set of overlapping sequences' so functions can be formatted for different intents like in 'parallel processing'
 
     - add to input structures
       - input variable/trigger/requirement/component
@@ -273,6 +278,27 @@
     - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
   - add to science
+
+    - https://www.quantamagazine.org/mental-phenomena-dont-map-into-the-brain-as-expected-20210824/
+
+      - why memory sections might not always be necessary
+        - bc complex memory structures might only be necessary to represent complex sensory structures like overlaps/ambiguities, or necessary to represent chromological/sequential structures
+
+      - why might functions not be mappable to isolatable brain regions
+        - bc they should be broken down or combined into other functions (general, interim, common, interchangeable, core, etc) than those on the interaction level theyre examining
+
+      - why might movement info be stored instead of sensory info:
+        - bc movement is a proxy variable of sensory info reactions
+
+      - why might metabolic regulation & memory formation be connected:
+        - relation to available energy used for forming memories (excess energy is prioritized for tasks like memory)
+        - relation to rewards for using energy a particular way such as in forming memories
+        - relation to regulatory schedule linked to sleep cycle & memory formation during sleep
+        - distortions in metabolic function are prioritized in memory formation
+
+    - "In the developing immune system, double-stranded breaks enable pieces of DNA to recombine and generate a diverse repertoire of antibodies"
+      - examine how states that trigger useful functions like stem cell production or antibody production can be triggered
+
     - explore how much functionality can be developed by using incentives
       - if you create rewards like dopamine when a dysfunctional cell process is triggered or replicated artificially, does the system re-build or correct or re-learn that functionality
         - like when cholesterol prevents immune system from reacting to cell death, can you force the immune system to re-learn its original reactions, forcing it to react to cell death by associating that reaction with rewards or some other trigger like inflammation/pain that would correct its dysfunctional state?
