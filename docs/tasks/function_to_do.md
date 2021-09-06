@@ -174,10 +174,15 @@
       
     - add to solution automation workflows
 
-      - derive which interface structures are relevant to variable interactions (like combinations/subsets) using insight rules (like that 'adjacent features are likely to be dependent')
+      - identify the complete structures in a problem space & format the problem in terms of the complete structures for solution metrics like accuracy/robustness
+        - example: variables arent a complete structure until some understanding rules are injected about their interaction structures such as cause & relationship to other variables, the context in which they are variable/constant, and their associated change types
+
+      - derive which interface structures (like combinations/subsets) are relevant to useful structures (like variable interactions) using insight rules (like that 'adjacent features are likely to be dependent') & comparing possible usefulness structures
         - example: how to derive 'combinations' of 'variable interactions' as useful structures, given the insight rule 'adjacent variables are likely to be dependent'
           - 'adjacence' is 'similarity in position', and structures that are 'similar in position' are easier to fulfill intents like 'group', so 'combinations' are an 'adjacent' structure of this structure
             - the 'combination' structure also fulfills intents like 'isolate' for structures like 'dependent variables', and 'isolating related objects' or 'isolating objects of a type' are a useful function for various general/problem-solving/interim/core function intents
+            - given that it can be adjacently used for various known useful intents, it can be considered a useful structure (after comparing it to the adjacently useful intent ratio of other possible useful structures)
+        - workflow fit: this is similar to other workflows involving deriving useful/interface structures useful for other useful/interface structures or problem-solving intents, but with a filter for evaluating probability of usefulness compared to other structures
 
       - identify structures of determination (where once a structure is determined, the other structures dependent on it are also determined) & apply as 'reduction' structures of computation requirements in an interface query
 
