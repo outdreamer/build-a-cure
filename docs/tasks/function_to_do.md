@@ -174,6 +174,9 @@
       
     - add to solution automation workflows
 
+      - identify the structures with highest impact on solution success
+        - example: in the 'find a prediction function' problem, this would include standard 'contributing variables' & 'variable interactions', but also 'function structures' like 'continuity', 'change rate patterns', 'waves/peaks/inflection points'
+
       - identify the complete structures in a problem space & format the problem in terms of the complete structures for solution metrics like accuracy/robustness
         - example: variables arent a complete structure until some understanding rules are injected about their interaction structures such as cause & relationship to other variables, the context in which they are variable/constant, and their associated change types
 
@@ -198,6 +201,7 @@
                   - this is bc there is no 'requirement' structure requiring that any damage to one side be reflected in the other (the inherent symmetry can be distorted), but there are structures that 'can' require that (causes of organ damage)
                     - 'requirement' structures can be checked for using attributes of adjacent structures (does the skull seem to have a firm structure or would it necessarily change if another feature was removed)
               - not all variables treated as isolatable are actually isolatable, but with missing data they might seem isolatable
+        - these perspective can be filtered by which would have the most impact on the solution success (solution success impact, as a variable that can limit or enable solution success)
 
       - find difference causes of interface structures (like concepts) and apply structures of them to create various solutions to filter as an initial solution space
         - example: find the reasons why data set points might differ (randomness, indicative of change in the underlying interaction, variation within expected/valid variable ranges) and create combinations of these reasons to explain the data set, by adjusting which points are included in the 'find a prediction function' problem input, which are excluded bc of reasons like 'random noise'
