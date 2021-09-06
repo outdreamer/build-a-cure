@@ -173,8 +173,17 @@
       
     - add to solution automation workflows
 
-      - find difference causes and apply structures of them to create various solutions to filter as an initial solution space
-        - example: find the reasons why data set points might differ (randomness, indicative of change in the underlying interaction, variation within expected/valid ranges) and create combinations of these reasons to explain the data set, by adjusting which points are included in the 'find a prediction function' problem input, which are excluded bc of reasons like 'random noise'
+      - generate maximally different perspectives to avoid over-incentivizing one perspective & its resulting error types
+        - example: in the 'find a prediction function' problem, maximally different perspectives would include:
+          - 'find the right unique isolated variable interaction to equal the output variable'
+          - 'check if the definition of objects is applicable'
+            - if a 'variable' concept is not applicable to a particular structure, it will generate errors
+              - example: if the 'sound' variable is only measurable by 'vibrations', it might be handled incorrectly, miss all the variation within the 'sound' variable, miss the fact that the 'sound' variable can act as an interface, and be a poor predictor of 'sound' variation & metadata like inputs/outputs
+              - the 'variable' concept refers to a 'unique change type', but it leaves out the 'related variable network' structure that all variables are nodes in & other structures relevant to that 'variable' definition, and would misidentify 'vibrations' as an input variable rather than the output of 'sound' variable inputs, bc it would miss their interaction in the 'related variable network' inherent to a complete 'variable' definition, where usually a limited structural definition of 'variable' as 'unique change type' is applied
+              - not all variables treated as isolatable are actually isolatable, but with missing data they might seem isolatable
+
+      - find difference causes of interface structures (like concepts) and apply structures of them to create various solutions to filter as an initial solution space
+        - example: find the reasons why data set points might differ (randomness, indicative of change in the underlying interaction, variation within expected/valid variable ranges) and create combinations of these reasons to explain the data set, by adjusting which points are included in the 'find a prediction function' problem input, which are excluded bc of reasons like 'random noise'
         - this is useful bc difference causes are a powerful structure in understanding why differences occur so they can be created/predicted as needed
 
       - find useful structures like units/ratios between change causes (reasons to change) vs. reasons not to change to justify changing a standard solution (like a linear function) to find an optimal solution (a better-fitting function)
