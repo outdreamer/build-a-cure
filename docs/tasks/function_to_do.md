@@ -178,11 +178,18 @@
       
     - add to solution automation workflows
 
+      - apply ml with useful structures for a problem-solving intent (like 'generate code for a general function automatically') that combines specific features into general features to combine specific structural functions ('combine', 'sort', 'reduce') to generate general functions ('filter', 'identify', 'standardize')
+        - the reason 'find a prediction function' is a standard problem format that any problem can be formatted as, is bc its adjacent to an interim function 'predict' ('find input-output sequence', 'identify causal variable', 'identify vertex variable')
+        - other standard problem formats are adjacent to other core/interim/general functions
+        - generalization: this can be generalized to 'find a solution with similar useful structures like inputs/outputs for a standard problem format like finding prediction functions that can be applied to the original problem once formatted according to the standard problem format'
+
       - apply interchangeable problem/solution & interface objects to each other, bc when there are interchangeable objects, that indicates they can be applied to each other in a useful way
         - example:
           - variables/functions are interchangeable formats, which can be applied to each other to generate useful objects ('variables of functions' like 'inputs/outputs/intents', and 'functions of variables' like 'determining/generating/causing')
           - find/build/apply can be applied to generate interim functions & common intents ('find a build method', 'apply a find method to derive a build method')
           - applying problem-solving intents to each other can direct the design of interface queries fulfilling each intent 'filter solution space' of problem of 'finding other problems to solve'
+          - applying specific problem formats which any problem can be formatted as ('find a prediction function', 'apply sorting algorithm') can be applied to each other
+          - core interaction functions can be applied to each other ('reduce connections', 'sort reductions', 'combine sorts')
         - these interchangeable objects tend to be on the same interaction level which can mean they are different useful variants of a core underlying base object, with overlapping definitions, and applying them to other objects on the same interaction level can produce more gains for an intent
 
       - identify useful structures for sub-intents of an interface query to use as default structures
