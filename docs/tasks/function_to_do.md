@@ -183,9 +183,11 @@
           - variables/functions are interchangeable formats, which can be applied to each other to generate useful objects ('variables of functions' like 'inputs/outputs/intents', and 'functions of variables' like 'determining/generating/causing')
           - find/build/apply can be applied to generate interim functions & common intents ('find a build method', 'apply a find method to derive a build method')
           - applying problem-solving intents to each other can direct the design of interface queries fulfilling each intent 'filter solution space' of problem of 'finding other problems to solve'
+        - these interchangeable objects tend to be on the same interaction level which can mean they are different useful variants of a core underlying base object, with overlapping definitions, and applying them to other objects on the same interaction level can produce more gains for an intent
 
       - identify useful structures for sub-intents of an interface query to use as default structures
-        - example: for a sub-intent of 'find an example', structures of 'specificity' are more useful bc theyre more adjacent to attributes of inputs of the sub-intent
+        - example: for a sub-intent of 'find an example', structures of 'specificity' are more useful bc theyre 'more adjacent to attributes of inputs' of the sub-intent, 'more adjacent to input attributes' being a useful filter for useful structures
+        - generalization: this can be generalized to 'find all the interface & problem/solution structures of useful structures', which would include 'useful filters' of useful structures for the 'filter solution space problem-solving intent'
 
       - identify the structures with highest impact on solution success
         - example: in the 'find a prediction function' problem, this would include standard 'contributing variables' & 'variable interactions', but also 'function structures' like 'averages', 'continuity', 'change rate patterns', 'waves/peaks/inflection points'
