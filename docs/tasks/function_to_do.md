@@ -178,6 +178,15 @@
       
     - add to solution automation workflows
 
+      - apply interchangeable problem/solution & interface objects to each other, bc when there are interchangeable objects, that indicates they can be applied to each other in a useful way
+        - example:
+          - variables/functions are interchangeable formats, which can be applied to each other to generate useful objects ('variables of functions' like 'inputs/outputs/intents', and 'functions of variables' like 'determining/generating/causing')
+          - find/build/apply can be applied to generate interim functions & common intents ('find a build method', 'apply a find method to derive a build method')
+          - applying problem-solving intents to each other can direct the design of interface queries fulfilling each intent 'filter solution space' of problem of 'finding other problems to solve'
+
+      - identify useful structures for sub-intents of an interface query to use as default structures
+        - example: for a sub-intent of 'find an example', structures of 'specificity' are more useful bc theyre more adjacent to attributes of inputs of the sub-intent
+
       - identify the structures with highest impact on solution success
         - example: in the 'find a prediction function' problem, this would include standard 'contributing variables' & 'variable interactions', but also 'function structures' like 'averages', 'continuity', 'change rate patterns', 'waves/peaks/inflection points'
           - these have high impact on solution success bc theyre 'high variation', 'represent a standard', 'reflect the output of relevant variables like exponents or patterns', are 'relevant inputs like function component structures', or are defined to be useful 'patterns are defined to represent an abstraction of a change type'
@@ -277,8 +286,14 @@
     - this is an important process for checking if a structure is valid/consistent in a system, which is a useful function
     - this is different from basic testing, which is where a function is applied and the output is checked against an expected value, bc it involves testing for validity/consistency in a system context where the change is being applied
 
+    - examine interaction space of tech stack layers (ml models, algorithms, data, apps, bugs, os, chips) as a source of new errors
+      - example: 
+        - ai applied to design chips
+        - chips with data erasure bugs that exacerbate os data erasure bugs
+        - chip designs that produce error types for various ai models/algorithms/parameters
+        - how 'gpus are known to be better at building ai models'
 
-    - standard ml process
+    - add to ml: optimizations/derivations applied to standard ml process
 
       - backpropagation corrects weights based on 'differences' between expected/actual values (a standard error definition structure)
       - other error definition structures
