@@ -178,10 +178,13 @@
       
     - add to solution automation workflows
 
+      - derive functions connecting function interaction levels (general, core, interim functions) and all the routes on the function network that are particularly useful for a specific function that solves a problem, then identify the average implementation & its parameters to define a standard function to solve that problem (fulfill the specific function)
+        - example: 'remove similarities for comparison' and 'standardize to emphasize differences' are useful connecting paths on the function network for the 'find a prediction function' problem (or the 'predict' interim function) which can also be formatted as a path on the function network
+
       - apply ml with useful structures for a problem-solving intent (like 'generate code for a general function automatically') that combines specific features into general features to combine specific structural functions ('combine', 'sort', 'reduce') to generate general functions ('filter', 'identify', 'standardize')
         - the reason 'find a prediction function' is a standard problem format that any problem can be formatted as, is bc its adjacent to an interim function 'predict' ('find input-output sequence', 'identify causal variable', 'identify vertex variable')
         - other standard problem formats are adjacent to other core/interim/general functions
-        - generalization: this can be generalized to 'find a solution with similar useful structures like inputs/outputs for a standard problem format like finding prediction functions that can be applied to the original problem once formatted according to the standard problem format'
+        - generalization: this can be generalized to 'find a solution with useful structures like 'similarities' in 'inputs/outputs' for a standard problem format like finding prediction functions that can be applied to the original problem once formatted according to the standard problem format'
 
       - apply interchangeable problem/solution & interface objects to each other, bc when there are interchangeable objects, that indicates they can be applied to each other in a useful way
         - example:
