@@ -116,6 +116,8 @@
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
+    - example of priorities leading to errors:
+      - the 'selfish' perspective prioritizes simple, structural objects, which is why 'selfish' programs can only see & act on those things rather than producing solutions that can be used for many problems, even ones they dont have
 
   - add to math mapping
     - a set of related change types (like a sequence of fourier/taylor expansion terms providing different polynomials) provides different change types that can be combined to produce the required changes to produce a function
@@ -189,6 +191,13 @@
         - core structures, for 'build' intents
 
     - add to solution automation workflows
+
+      - apply useful structures like opposite structures that are applied to interfaces to fulfill problem-solving intents
+        - example: with the 'find a prediction function' problem, the function might not be a shape, a set of subset or conditional functions, a linear function, & other solution formats
+          - this is applying the 'opposite' structure to various difference types in solution format structures to fulfill the 'filter solution space' problem-solving intent, applied to various interfaces ('opposite' applied to 'potential' interface to produce 'conditional alternative functions')
+
+      - calculate how much certainty can be determined with input info & apply that as a filter of the solution space & to the solution format
+        - example: with the 'find a prediction function' problem, the function may only be determinable within a certain range of alternative functions or within a certain parameter range, which may form a solution format of an area rather than a line/curve
 
       - find/derive/generate specific structures that are useful for specific problem-solving intents, general/core/interim function intents, or interface query intents, to implement those intents automatically
         - this involves identifying the cause of useful structures' usefulness & applying as a generative function
