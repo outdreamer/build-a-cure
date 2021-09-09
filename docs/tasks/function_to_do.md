@@ -192,12 +192,15 @@
 
     - add to solution automation workflows
 
-      - apply useful structures like opposite structures that are applied to interfaces to fulfill problem-solving intents
-        - example: with the 'find a prediction function' problem, the function might not be a shape, a set of subset or conditional functions, a linear function, & other solution formats
+      - apply useful structures (like opposite structures) once applied to interfaces to fulfill functions of relevant types (like problem-solving intents, core interaction functions, interim functions, general functions) & organize these 'useful structures for function types' to find other useful structures connecting the useful structures (like useful structure sequences, hubs, overlaps, symmetries) in the 'useful structure network'
+        - example: with the 'find a prediction function' problem, the function might be verifiable as not a shape, a set of subset or conditional functions, a linear function, & other solution formats
           - this is applying the 'opposite' structure to various difference types in solution format structures to fulfill the 'filter solution space' problem-solving intent, applied to various interfaces ('opposite' applied to 'potential' interface to produce 'conditional alternative functions')
+          - another example is how the 'reduce' function applied to 'distance' or 'difference' structures is a useful structure for the 'connect' function
+        - 'format a problem in terms of an interface query that can be fulfilled with functions on this function type network or useful structures on the useful structure network to reduce computations required' is a solution automation workflow that can use either of these networks once defined
 
-      - calculate how much certainty can be determined with input info & apply that as a filter of the solution space & to the solution format
+      - calculate how much certainty can be determined with input info & apply that as a filter of the solution space & the solution format
         - example: with the 'find a prediction function' problem, the function may only be determinable within a certain range of alternative functions or within a certain parameter range, which may form a solution format of an area rather than a line/curve
+        - knowing that only so much certainty in a solution can be derived with given inputs, the solution space can be filtered with an interface query connecting to that certainty structure instead of the original solution structure
 
       - find/derive/generate specific structures that are useful for specific problem-solving intents, general/core/interim function intents, or interface query intents, to implement those intents automatically
         - this involves identifying the cause of useful structures' usefulness & applying as a generative function
