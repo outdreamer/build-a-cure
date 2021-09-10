@@ -192,6 +192,12 @@
 
     - add to solution automation workflows
 
+      - identify causes like inputs/requirements of useful structures, & associations with useful structures like systems where useful structures are default, & system context structures that allow/incentivize useful structures to develop or dont prevent useful structures from developing like a 'lack of limits', and apply as the predecessors to finding useful structures or the generative structures of useful structures
+        - alternatively, apply the definitions of useful structures & their metadata, like that a useful structure is defined as:
+          - having a structural alignment with an intent, making it useful for that intent
+          - existing in a space with variation, allowing for the existence of non-useful structures that make it useful by comparison, like the existence of alternative sub-optimal routes
+          - developing in a system where the system's existence is only achievable by developing a better way to fulfill an intent, incentivizing development of useful structures
+
       - apply solution structures that fulfill one problem-solving intent (like 'preventing a problem' or 'solving a related problem') to another problem-solving intent (like 'fixing a problem')
         - example:
           - preventative solutions like vaccines have a solution success cause (using the immune system to prevent infection) that allows for re-use across other problem-solving intents such as fixes (like immunotherapy treatments)
