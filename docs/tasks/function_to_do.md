@@ -194,8 +194,10 @@
 
       - apply solution structures that fulfill one problem-solving intent (like 'preventing a problem' or 'solving a related problem') to another problem-solving intent (like 'fixing a problem')
         - example:
-          - preventative solutions like vaccines have a solution success cause (using the immune system to prevent infection) that allows for re-use across other problem-solving intents (like immunotherapy treatments)
+          - preventative solutions like vaccines have a solution success cause (using the immune system to prevent infection) that allows for re-use across other problem-solving intents such as fixes (like immunotherapy treatments)
           - the 'golden rule' draws attention useful 'preventative' objects like empathy, but can also be used for other problem-solving intents like 'restitution' (fixing a crime), by connecting criminals/victims in other ways than empathy thought experiments (like trading criminal/victim positions, progressively applying more punishments rather than applying the same crime, connecting criminals with other victims of the same crime rather than their victim, etc)
+          - the reason the 'preventative' solution works is its interaction with 'empathy' or the 'immune system', and this cause can be re-applied in other problem-solving intent solution structures than 'prevention'
+        - generalization: this can be generalized to re-applying any problem/solution structures across different problem/solution variables (like different problem-solving intents) that have an important structure in common (like 'success cause'), indicating there is reason to re-use one structure in another context
 
       - apply useful structures (like opposite structures) once applied to interfaces to fulfill functions of relevant types (like problem-solving intents, core interaction functions, interim functions, general functions) & organize these 'useful structures for function types' to find other useful structures connecting the useful structures (like useful structure sequences, hubs, overlaps, symmetries) in the 'useful structure network'
         - example: with the 'find a prediction function' problem, the function might be verifiable as not a shape, a set of subset or conditional functions, a linear function, & other solution formats
