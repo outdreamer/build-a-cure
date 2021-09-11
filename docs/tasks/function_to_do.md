@@ -123,6 +123,12 @@
     - a set of related change types (like a sequence of fourier/taylor expansion terms providing different polynomials) provides different change types that can be combined to produce the required changes to produce a function
     - example 'alternate connection' structure: wheels (rotations of circles) provide an alternate connection between waves & circles, in addition to trig functions
     - fourier transform is an example of energy from change stabilizing into a pattern of a new change type - https://mathlets.org/mathlets/discrete-fourier-transform/
+    - for the power of 2 sequence with the square visual
+      - why 'adjacent rotation of a half of the current area' would produce an equivalence between the 'length' of the 'emerging sides of the shape' (producing a square instead of a rectangle, as square sides as equivalent) and why it would be produced by a power of 2 (each subsequent term is half the area of the previous term)
+        - bc each adjacent rotation of half the current area produces an overlap leading to a set of three equivalent squares (1/2 and 1/4 overlap to produce three squares equal to 1/4, meaning 3 squares of 1/4 area, totaling to 3/4)
+        - so the adjacent rotation doesnt produce a difference, but rather a symmetry based on the middle square where they overlap (leading to an equivalence on both sides of the middle square, meaning there are two protrusions rather than one which is how it starts with the first term, as a rectangle of 1/2 equal to two stacked squares of 1/4 area), and if change continues in the direction linking each 'middle square' symmetry, another symmetry is produced pointing in the diagonal direction toward the corner of the square, and the limit of the sequence's potential to add more area aligns with the intersection of the emerging sides that create the corner
+        - https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
+      - in summary, the 'overlap' creating the 'symmetries', and the 'alignment' creating a 'corner' ('alignment' between 'emerging sides', their 'intersection' & the 'limit' of the 'sequence'), and the 'adjacent rotation' creating the 'overlap' and its 'symmetries' are the structures necessary to resolve/predict the interactions between these structures
 
   - add to problem/solution structures
 
@@ -190,134 +196,6 @@
         - perspectives that make solving a problem quicker with alternate priorities
         - core structures, for 'build' intents
 
-    - add to solution automation workflows
-
-      - identify causes like inputs/requirements of useful structures, & associations with useful structures like systems where useful structures are default, & system context structures that allow/incentivize useful structures to develop or dont prevent useful structures from developing like a 'lack of limits', and apply as the predecessors to finding useful structures or the generative structures of useful structures
-        - alternatively, apply the definitions of useful structures & their metadata, like that a useful structure is defined as:
-          - having a structural alignment with an intent, making it useful for that intent
-          - existing in a space with variation, allowing for the existence of non-useful structures that make it useful by comparison, like the existence of alternative sub-optimal routes
-          - developing in a system where the system's existence is only achievable by developing a better way to fulfill an intent, incentivizing development of useful structures
-
-      - apply solution structures that fulfill one problem-solving intent (like 'preventing a problem' or 'solving a related problem') to another problem-solving intent (like 'fixing a problem')
-        - example:
-          - preventative solutions like vaccines have a solution success cause (using the immune system to prevent infection) that allows for re-use across other problem-solving intents such as fixes (like immunotherapy treatments)
-          - the 'golden rule' draws attention useful 'preventative' objects like empathy, but can also be used for other problem-solving intents like 'restitution' (fixing a crime), by connecting criminals/victims in other ways than empathy thought experiments (like trading criminal/victim positions, progressively applying more punishments rather than applying the same crime, connecting criminals with other victims of the same crime rather than their victim, etc)
-          - the reason the 'preventative' solution works is its interaction with 'empathy' or the 'immune system', and this cause can be re-applied in other problem-solving intent solution structures than 'prevention'
-        - generalization: this can be generalized to re-applying any problem/solution structures across different problem/solution variables (like different problem-solving intents) that have an important structure in common (like 'success cause'), indicating there is reason to re-use one structure in another context
-
-      - apply useful structures (like opposite structures) once applied to interfaces to fulfill functions of relevant types (like problem-solving intents, core interaction functions, interim functions, general functions) & organize these 'useful structures for function types' to find other useful structures connecting the useful structures (like useful structure sequences, hubs, overlaps, symmetries) in the 'useful structure network'
-        - example: with the 'find a prediction function' problem, the function might be verifiable as not a shape, a set of subset or conditional functions, a linear function, & other solution formats
-          - this is applying the 'opposite' structure to various difference types in solution format structures to fulfill the 'filter solution space' problem-solving intent, applied to various interfaces ('opposite' applied to 'potential' interface to produce 'conditional alternative functions')
-          - another example is how the 'reduce' function applied to 'distance' or 'difference' structures is a useful structure for the 'connect' function
-        - 'format a problem in terms of an interface query that can be fulfilled with functions on this function type network or useful structures on the useful structure network to reduce computations required' is a solution automation workflow that can use either of these networks once defined
-
-      - calculate how much certainty can be determined with input info & apply that as a filter of the solution space & the solution format
-        - example: with the 'find a prediction function' problem, the function may only be determinable within a certain range of alternative functions or within a certain parameter range, which may form a solution format of an area rather than a line/curve
-        - knowing that only so much certainty in a solution can be derived with given inputs, the solution space can be filtered with an interface query connecting to that certainty structure instead of the original solution structure
-
-      - find/derive/generate specific structures that are useful for specific problem-solving intents, general/core/interim function intents, or interface query intents, to implement those intents automatically
-        - this involves identifying the cause of useful structures' usefulness & applying as a generative function
-        - example:
-          - specific structures like 'maximizing differences' and 'input-output sequences' that are useful for problem-solving intents like 'filter solution space' & 'connect problem/solution', and other function intents bc of the useful structures they generate like 'adjacence to inputs of function intent'
-            - maximized differences are more adjacent to the input of 'identify/filter' functions & may reduce the work required by those functions to reach the output
-            - input-output sequences provide default possible solution or solution component structures to reduce the work of filtering the solution space, making the input to the 'filter solution space' function more similar to its required output (a reduced set of solutions)
-            - useful structures can be found/derived/generated by which structures create differences (like a difference in the form of a 'reduction' in possible solutions) that happen to be useful for various required intents (like 'avoid errors' or 'identify difference')
-
-      - derive functions connecting function interaction levels (general, core, interim functions) and all the routes on the function network that are particularly useful for a specific function that solves a problem, then identify the average implementation & its parameters to define a standard function to solve that problem (fulfill the specific function) which can be adjusted as needed for varying intents
-        - example: 'remove similarities for comparison' and 'standardize to emphasize differences' are useful connecting paths on the function network for the 'find a prediction function' problem (or the 'predict' interim function) which can also be formatted as a path on the function network
-
-      - apply ml with useful structures for a problem-solving intent (like 'generate code for a general function automatically') that combines specific features into general features to combine specific structural functions ('combine', 'sort', 'reduce') to generate general functions ('filter', 'identify', 'standardize')
-        - the reason 'find a prediction function' is a standard problem format that any problem can be formatted as, is bc its adjacent to an interim function 'predict' ('find input-output sequence', 'identify causal variable', 'identify vertex variable')
-        - other standard problem formats are adjacent to other core/interim/general functions
-        - generalization: this can be generalized to 'find a solution with useful structures like 'similarities' in 'inputs/outputs' for a standard problem format like finding prediction functions that can be applied to the original problem once formatted according to the standard problem format'
-
-      - apply interchangeable problem/solution & interface objects to each other, bc when there are interchangeable objects, that indicates they can be applied to each other in a useful way
-        - example:
-          - variables/functions are interchangeable formats, which can be applied to each other to generate useful objects ('variables of functions' like 'inputs/outputs/intents', and 'functions of variables' like 'determining/generating/causing')
-          - find/build/apply can be applied to generate interim functions & common intents ('find a build method', 'apply a find method to derive a build method')
-          - applying problem-solving intents to each other can direct the design of interface queries fulfilling each intent 'filter solution space' of problem of 'finding other problems to solve'
-          - applying specific problem formats which any problem can be formatted as ('find a prediction function', 'apply sorting algorithm') can be applied to each other
-          - core interaction functions can be applied to each other ('reduce connections', 'sort reductions', 'combine sorts')
-        - these interchangeable objects tend to be on the same interaction level which can mean they are different useful variants of a core underlying base object, with overlapping definitions, and applying them to other objects on the same interaction level can produce more gains for an intent
-
-      - identify useful structures for sub-intents of an interface query to use as default structures
-        - example: for a sub-intent of 'find an example', structures of 'specificity' are more useful bc theyre 'more adjacent to attributes of inputs' of the sub-intent, 'more adjacent to input attributes' being a useful filter for useful structures
-        - generalization: this can be generalized to 'find all the interface & problem/solution structures of useful structures', which would include 'useful filters' of useful structures for the 'filter solution space problem-solving intent'
-
-      - identify the structures with highest impact on solution success
-        - example: in the 'find a prediction function' problem, this would include standard 'contributing variables' & 'variable interactions', but also 'function structures' like 'averages', 'continuity', 'change rate patterns', 'waves/peaks/inflection points'
-          - these have high impact on solution success bc theyre 'high variation', 'represent a standard', 'reflect the output of relevant variables like exponents or patterns', are 'relevant inputs like function component structures', or are defined to be useful 'patterns are defined to represent an abstraction of a change type'
-
-      - identify the complete structures in a problem space & format the problem in terms of the complete structures for solution metrics like accuracy/robustness
-        - example: variables arent a complete structure until some understanding rules are injected about their interaction structures such as cause & relationship to other variables, the context in which they are variable/constant, and their associated change types
-
-      - derive which interface structures (like combinations/subsets) are relevant to useful structures (like variable interactions) using insight rules (like that 'adjacent features are likely to be dependent') & comparing possible usefulness structures
-        - example: how to derive 'combinations' of 'variable interactions' as useful structures, given the insight rule 'adjacent variables are likely to be dependent'
-          - 'adjacence' is 'similarity in position', and structures that are 'similar in position' are easier to fulfill intents like 'group', so 'combinations' are an 'adjacent' structure of this structure
-            - the 'combination' structure also fulfills intents like 'isolate' for structures like 'dependent variables', and 'isolating related objects' or 'isolating objects of a type' are a useful function for various general/problem-solving/interim/core function intents
-            - given that it can be adjacently used for various known useful intents, it can be considered a useful structure (after comparing it to the adjacently useful intent ratio of other possible useful structures)
-        - workflow fit: this is similar to other workflows involving deriving useful/interface structures useful for other useful/interface structures or problem-solving intents, but with a filter for evaluating probability of usefulness compared to other structures
-
-      - identify structures of determination (where once a structure is determined, the other structures dependent on it are also determined) & apply as 'reduction' structures of computation requirements in an interface query
-
-      - generate maximally different perspectives to avoid over-incentivizing one perspective & its resulting error types, to apply as solution filters
-        - example: in the 'find a prediction function' problem, maximally different perspectives would include:
-          - 'find the right unique isolated variable interaction to equal the output variable'
-          - 'check if the definition of objects is applicable'
-            - if a 'variable' concept is not applicable to a particular structure, it will generate errors
-              - example: 
-                - if the 'sound' variable is only measurable by 'vibrations', it might be handled incorrectly, miss all the variation within the 'sound' variable, miss the fact that the 'sound' variable can act as an interface, and be a poor predictor of 'sound' variation & metadata like inputs/outputs
-                  - the 'variable' concept refers to a 'unique change type', but it leaves out the 'related variable network' structure that all variables are nodes in & other structures relevant to that 'variable' definition, and would misidentify 'vibrations' as a change-determining variable rather than an attribute of the 'sound' variable, bc it would miss their interaction in the 'related variable network' inherent to a complete 'variable' definition, where usually a limited structural definition of 'variable' as 'unique change type' is applied
-                - in the 'chihuahua/muffin' class identification problem, adjacent features arent isolatable bc they determine what adjacent features are possible (the structure of a skull determines what configurations of structures surrounding it are possible), but they are treated as isolatable (the correlation between bone/organs is treated as independent), whereas other variables are isolatable but are treated as one variable (damage to one eye/ear doesnt necessarily correlate with damage to the other)
-                  - this is bc there is no 'requirement' structure requiring that any damage to one side be reflected in the other (the inherent symmetry can be distorted), but there are structures that 'can' require that (causes of organ damage)
-                    - 'requirement' structures can be checked for using attributes of adjacent structures (does the skull seem to have a firm structure or would it necessarily change if another feature was removed)
-              - not all variables treated as isolatable are actually isolatable, but with missing data they might seem isolatable
-        - these perspective can be filtered by which would have the most impact on the solution success (solution success impact, as a variable that can limit or enable solution success)
-
-      - find difference causes of interface structures (like concepts) and apply structures of them to create various solutions to filter as an initial solution space
-        - example: find the reasons why data set points might differ (randomness, indicative of change in the underlying interaction, variation within expected/valid variable ranges) and create combinations of these reasons to explain the data set, by adjusting which points are included in the 'find a prediction function' problem input, which are excluded bc of reasons like 'random noise'
-        - this is useful bc difference causes are a powerful structure in understanding why differences occur so they can be created/predicted as needed
-
-      - find useful structures like units/ratios between change causes (reasons to change) vs. reasons not to change to justify changing a standard solution (like a linear function) to find an optimal solution (a better-fitting function)
-        - example: 
-          - the reasons to change may include reasons like that 'a data point would be better predicted if the change is applied'
-          - the reasons not to change may include reasons like that 'patterns of changes of other functions that avoided this change type performed better' or 'the data point is an outlier'
-          - structures like ratios between these change causes can be useful if each change cause contributes equivalent certainty so they can be treated like units
-          - this is useful bc change causes from a standard solution are a powerful structure to help optimize a solution - if there is a reason to change a structure, its likelier to be reflective of reality
-
-      - find target solution structures that lead to problem-solving processes even if they dont solve the original problem, like a target position that leads to change in a direction toward the original intended solution, even if the destination isnt reached
-
-      - find structures of difference between 'false rewards' & other useful error structures of falsehood & the error structures they correct to apply as structure to fulfill the 'error-correcting' problem-solving intent
-        - usually real rewards can be found to incentivize finding/generating/deriving a solution if its correct, so this shouldnt be necessary, but it can be more efficient than identifying/using real rewards to incentivize a solution/optimization
-
-      - find the structures of primary default interface structures that are most useful across interface queries & workflows & apply those as default components
-        - example: change + direction, priority + potential field, variable + concept type are examples of structures of interface structures, but some in particular are more useful than others, like 'perspectives' (filter with priorities) bc they fulfill structures of usefulness like 'capturing high variation' and 'reducing complexity' and 'applying importance structures' which are useful for various interim & core functions like 'find important objects' and 'understand a system quickly' and 'find hub variables', so apply these metrics as filters of these structures of primary interface structures
-        - workflow fit: this is similar to other workflows involving finding useful structures, but specifically filters them by which are useful for fulfilling intents of interim/core functions that are commonly used in interface queries' sub-intents
-
-      - combine a partially implemented interface query with gaps in implementation left for variation, where the sections implemented are known to be optimal for various sub-intents of the interface query
-        - the pieces that are implemented can be on different interaction levels of the interface query
-        - generalization: 
-          - this can be generalized to other interactions between problem/solution structures which have clearly optimal implementations of sections of the interaction
-          - it can be generalized further to other structures than 'partial subset', such as known optimal 'sequences' of problem/solution interactions or known optimal 'combinations' of problem/solution interactions
-        - simplification: this can be simplified to adding a variable, allowing variation in which subsets or other structures are implemented & which can be changed for various implementations
-
-      - interface structures that are adjacent (immediately preceding/following) to a solution so as to be causative or indicative of a solution can be identified as predictors or generators or identifiers of solution structures
-        - if there's a perspective, function, change, pattern, etc that is often found around solutions, those can be used according to their position as predictors/generators/identifiers
-        - this is similar to 'applying the solution as a symmetry or interface around which changes are applied while still qualifying as a solution', but applying the solution as a base or center where other objects relevant to it are adjacent, which may or may not be solutions, as a merged interface structure involving a combination of multiple interfaces, although the surrounding structures may also qualify as solutions
-        - adjacence can be determined by number of steps separating the structures (for example, separating a question/perspective/useful structure & a solution), number of interface structures separating them, distance determined by some similarity metric, or other definition
-      
-      - find a structure (such as a perspective/function or network with nodes arranged by a certain distance or similarity metric) that would make solving a problem much quicker (or fulfilling another solution metric, like using available resources) and aim for that structure as the solution target to generate (so the problem becomes 'generate this useful structure' instead of 'solve the original problem')
-        - for example, when a function network is organized by similarity in impact, its easier to see which nodes are higher impact
-        - this can be extended by applying filters to find useful 'solution-adjacent' or 'adjacently solution-finding' structures that make a solution obvious or guaranteed/inevitable
-          - structures like a particular way of organizing a network by some distance metric can make solving a set of problems trivial, which makes it more useful than a network organized in a way that solves one problem, other things being equal
-          - structures that 'make solving multiple problems trivial' are useful targets for solution automation workflows, as a problem-solving intent of 'find structures that make solving the problem trivial'
-      
-      - store the optimal interface queries associated with a particular solution automation workflow to convert the 'build interface query' task into a 'find interface query in database' task, or store generative functions to find the optimal interface queries if any are stored, or derive the interface query in a more efficient way than interface query design logic
-        - generalization: can be generalized to associations between any problem/solution structures
-
-      - identify structures of error structures & their interface structures like meaning, for use in 'predicting structures', which is an interim function, or 'predicting error/solution structures', which is a problem-solving intent
-        - example: when an extreme set of errors of a particular type usually precedes finding an interface, that can be used to predict which error structures mean that 'an interface is about to be found' 
-
     - basic solution automation workflows
       - trial & error
       - reverse engineering
@@ -352,6 +230,12 @@
 
     - add to ml: optimizations/derivations applied to standard ml process
 
+      - give examples of formatting ml in different formats (variable network, tree, sequences, etc)
+
+      - give examples of errors produced by compressing algorithmic input/output connection logic
+
+      - give an example of why to choose position of a function in data pre-processing vs. in an algorithm (lack of certainty)
+
       - backpropagation corrects weights based on 'differences' between expected/actual values (a standard error definition structure)
       - other error definition structures
         - prediction accuracy should reflect ability of info to predict output (only so much accuracy can be produced from info, without using other methods) - if its more predictive than what the info can predict, theres an error in the data/network/params/functions
@@ -378,6 +262,8 @@
         - (hidden) weight change       =   learning rate                            * derivative of activation * sum of derivative of all output node error with respect to weighted input sum * weight(output node k) * previous node output
 
   - add to science
+
+    - examine deriving 'protein' & 'gene' & 'activation state' as the location, components, input & structure of functionality
 
     - examine association of energy production, mitochondria & ribosomes, with stressors/metabolism & immune exhaustion
 
