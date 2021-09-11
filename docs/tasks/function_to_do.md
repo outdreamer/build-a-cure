@@ -129,6 +129,10 @@
         - so the adjacent rotation doesnt produce a difference, but rather a symmetry based on the middle square where they overlap (leading to an equivalence on both sides of the middle square, meaning there are two protrusions rather than one which is how it starts with the first term, as a rectangle of 1/2 equal to two stacked squares of 1/4 area), and if change continues in the direction linking each 'middle square' symmetry, another symmetry is produced pointing in the diagonal direction toward the corner of the square, and the limit of the sequence's potential to add more area aligns with the intersection of the emerging sides that create the corner
         - https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
       - in summary, the 'overlap' creating the 'symmetries', and the 'alignment' creating a 'corner' ('alignment' between 'emerging sides', their 'intersection' & the 'limit' of the 'sequence'), and the 'adjacent rotation' creating the 'overlap' and its 'symmetries' are the structures necessary to resolve/predict the interactions between these structures
+      - same for the odd sum = n^2
+    - for the area of a circle problem, the signal of the relevant basic formula for circumference being 2 * pi * r should indicate that there is a reason why the pi * r is repeated (hence the 2 as a constant), which occurs in many shapes, including sides of a rectangle
+      - formatting pi * r as the sides of a rectangle leaves one unknown, the length of the other side, and trying out 'r' is an adjacent move
+      - this fulfills known formulas & is verifiable, and provides another format for the area of a circle that is more calculatable and also adjacently connectible to the original shape & its relevant known variable interactions
 
   - add to problem/solution structures
 
