@@ -142,7 +142,17 @@
         - formatting pi * r as the sides of a rectangle leaves one unknown, the length of the other side, and trying out 'r' is an adjacent move
         
         - this fulfills known formulas & is verifiable, and provides another format for the area of a circle that is more calculatable and also adjacently connectible to the original shape & its relevant known variable interactions
-          - 'connecting the formats' a circle with a rectangle can be done with the rearrangment as shown in the diagram at the link, in which the arcs get progressively more linear as the arc lengths get shorter
+          
+          - 'connecting the formats' of a circle with a rectangle can be done with the 
+            - 'rearrangment of circle partitions created by arcs' as shown in the diagram at the link, in which the arcs get progressively more linear as the arc lengths get shorter 
+            - the 'adjacent positioning of unrolled progressively larger circles', forming a 'structural similarity' between the 'increasing third side of a triangle from 0 to the remaining endpoint', and the 'increasing lengths of the unrolled lines of progressively larger circles', the area of the triangle being easier to calculate & visualize & prove
+              - identifying 'progressively larger circles' as useful for connecting a circle with a triangle requires:
+                - applying 'adjacent transforms' to the given 'circle' shape to an 'extreme' value of zero, keeping the 'origin position' parameter the same
+                - identifying the 'adjacent transform' of circle boundaries into lines (with unrolling operation)
+                - identifying the 'structural similarity' between increasing lines and the third side of a right triangle increasing from zero to the remaining endpoint
+                - this converts a circle => vary shape to extreme value with same origin position => multiple circles of varying size => unroll => multiple lines of varying length => sort => multiple components of triangle area => triangle area
+
+          - additional methods can produce this connection between circle/rectangle formats:
 
               - apply 'default' interface to the 'change' interface
                 - another way to arrive at this format to display area of a circle in a simpler (& therefore more calculatable/verifiable) is arranging the known formula for the area in a way that doesnt have pi as a side length
@@ -172,7 +182,6 @@
                   - the line is a unit of a rectangle, so aligning the pieces of the circle created at each state of the line during its rotation using a different alignment than the common central point uniting the lines' endpoints (a vertical alignment of line endpoints) can also be used to generate the rectangle from the circle
                   - given the interaction rule of the line as a generative input to the circle, we can determine (rather than guessing as with the triangle) that the line is closely related to the circle, and 'interaction rules of lines & area' can be applied to represent the shapes that lines adjacently generate, which includes circles)
                   - interaction rules of lines & area include 'if you align lines by their endpoints, they create a shape with area'
-
 
 
   - add to problem/solution structures
