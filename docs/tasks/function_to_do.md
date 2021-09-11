@@ -130,9 +130,28 @@
         - https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
       - in summary, the 'overlap' creating the 'symmetries', and the 'alignment' creating a 'corner' ('alignment' between 'emerging sides', their 'intersection' & the 'limit' of the 'sequence'), and the 'adjacent rotation' creating the 'overlap' and its 'symmetries' are the structures necessary to resolve/predict the interactions between these structures
       - same for the odd sum = n^2
+
     - for the area of a circle problem, the signal of the relevant basic formula for circumference being 2 * pi * r should indicate that there is a reason why the pi * r is repeated (hence the 2 as a constant), which occurs in many shapes, including sides of a rectangle
       - formatting pi * r as the sides of a rectangle leaves one unknown, the length of the other side, and trying out 'r' is an adjacent move
       - this fulfills known formulas & is verifiable, and provides another format for the area of a circle that is more calculatable and also adjacently connectible to the original shape & its relevant known variable interactions
+      - another way to arrive at this format to display area of a circle in a simpler (& therefore more calculatable/verifiable) is arranging the known formula for the area in a way that doesnt have pi as a side length
+        - the 'few only options' for formatting the known area formula as a 'simpler shape' like a rectangle are pi * (r^2) or (pi * r) * r, so this visualization is one of the 'default' options if you 'assume' that the rectangle is the simplest possible 'format' for the area, which is also an 'overlap' with the 'unit' 'definition' of an area (x * y)
+          - 'connecting the formats' a circle with a rectangle can be done with the rearrangment as shown, in which the arcs get progressively more linear as the arc lengths get shorter
+            
+            - this can also be reached with an 'input-output sequence' query, which queries for functions with the 'attribute' of linearity as an 'output', and functions that take pieces or adjacent transforms of a circle as 'input'
+              - this connects the attributes of the circle (as a set of shapes produced by arcs) with a 'linear emergent border' structure that happens to be a set of horizontal/vertical lines
+                - curvature & center => completeness & alignment at origin/corner & curvature => separation/partiality & alignment at vertically straightened tops & linearity => emergence of vertical & horizontal borders (of aligned shapes forming a rectangle)
+
+            - this can also be reached with a query for combining triangles into rectangles (two triangles make a rectangle), since the pieces of the circle created with arcs resemble triangles with an extreme arc length parameter value
+              - given the 'structural similarity' of 'triangles' and the 'shapes of a circle produced with arcs with extremely short lengths', apply interaction rules of 'triangles' and 'area' (such as 'two triangles having side lengths in common, positioned adjacently with a common side, create a rectangle')
+              - this connects the structures:
+                - 'circle' => 'shape produced by arcs' => 'triangle' => 'rectangle' (simpler output format for visualizing area of a circle, starting from the circle, to prove area formula visually)
+            
+            - this can also be reached with the generative formula for a circle using a rotation of a line:
+              - the line is a unit of a rectangle, so aligning the pieces of the circle created at each state of the line during its rotation using a different alignment than the common central point uniting the lines' endpoints (a vertical alignment of line endpoints) can also be used to generate the rectangle from the circle
+                - given the interaction rule of the line as a generative input to the circle, we can determine (rather than guessing as with the triangle) that the line is closely related to the circle, and 'interaction rules of lines & area' can be applied to represent the shapes that lines adjacently generate, which includes circles)
+                - interaction rules of lines & area include 'if you align lines by their endpoints, they create a shape with area'
+                - this is also the definition of multiplication, applied at an extreme value for one of the multiplier parameters (a line having zero area)
 
   - add to problem/solution structures
 
