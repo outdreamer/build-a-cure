@@ -125,6 +125,11 @@
     - fourier transform is an example of energy from change stabilizing into a pattern of a new change type - https://mathlets.org/mathlets/discrete-fourier-transform/
     
     - examples of applying interface analysis to find/derive/generate useful math formats
+
+      - traveling salesman: 
+        - apply the useful structures of 'components', 'interactivity', & 'adjacence' structures to find interactions between points that form components that form a set (having unique components) with other components, where the component interactions also optimize for 'nearest neighbor' distance solution metric in the points connecting the components
+        - components being "sets of points that locally form components optimizing for 'nearest neighbor'" (minimizing the 'distance' solution metric)
+
       - https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
 
       - for the power of 2 sequence with the square visual
@@ -150,7 +155,8 @@
                 - applying 'adjacent transforms' to the given 'circle' shape to an 'extreme' value of zero, keeping the 'origin position' parameter the same
                 - identifying the 'adjacent transform' of circle boundaries into lines (with unrolling operation)
                 - identifying the 'structural similarity' between increasing lines and the third side of a right triangle increasing from zero to the remaining endpoint
-                - this converts a circle => vary shape to extreme value with same origin position => multiple circles of varying size => unroll => multiple lines of varying length => sort => multiple components of triangle area => triangle area
+                - this converts:
+                  - a circle => vary shape to extreme value with same origin position => multiple circles of varying size => unroll => multiple lines of varying length => sort => multiple components of triangle area => triangle area
 
           - additional methods can produce this connection between circle/rectangle formats:
 
