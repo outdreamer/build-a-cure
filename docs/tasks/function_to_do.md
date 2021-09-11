@@ -142,7 +142,8 @@
         - formatting pi * r as the sides of a rectangle leaves one unknown, the length of the other side, and trying out 'r' is an adjacent move
         
         - this fulfills known formulas & is verifiable, and provides another format for the area of a circle that is more calculatable and also adjacently connectible to the original shape & its relevant known variable interactions
-        
+          - 'connecting the formats' a circle with a rectangle can be done with the rearrangment as shown in the diagram at the link, in which the arcs get progressively more linear as the arc lengths get shorter
+
               - apply 'default' interface to the 'change' interface
                 - another way to arrive at this format to display area of a circle in a simpler (& therefore more calculatable/verifiable) is arranging the known formula for the area in a way that doesnt have pi as a side length
                 - the 'few only options' for formatting the known area formula as a 'simpler shape' like a rectangle are pi * (r^2) or (pi * r) * r, so this visualization is one of the 'default' options (if you assume or are given that the rectangle is the simplest possible 'format' for the area)
@@ -151,8 +152,6 @@
                 - the 'rectangle' is also an 'overlap' with the 'unit' 'definition' of area (x * y, or 'x columns of rows with length y') so it doesnt need to be guessed at as a relevant shape
                 - the interaction rule 'if you align lines by their endpoints, they create a shape with area' is also the 'definition' of multiplication, applied at an 'extreme' value for one of the multiplier parameters (a line having zero area)
                 - so by applying the 'definitions' of 'area' (and its relevant objects like 'multiplication' & 'rectangles'), you can derive a way to connect the circle & rectangle formats
-
-              - 'connecting the formats' a circle with a rectangle can be done with the rearrangment as shown, in which the arcs get progressively more linear as the arc lengths get shorter
               
               - 'function input-output sequence': 
                 - this can also be reached with an 'input-output sequence' query, which queries for functions with the 'attribute' of linearity as an 'output', and functions that take pieces or adjacent transforms of a circle as 'input'
@@ -164,7 +163,8 @@
                 - given the 'structural similarity' of 'triangles' and the 'shapes of a circle produced with arcs with extremely short lengths', and the 'structural similarity' between 'triangles' and 'area', apply interaction rules of 'triangles' and 'area' (such as 'two triangles having side lengths in common, positioned adjacently with a common side, create a rectangle')
                 - this connects the structures:
                   - 'circle' => 'shape produced by arcs' => 'triangle' => 'rectangle' (simpler output format for visualizing area of a circle, starting from the circle, to prove area formula visually)
-              
+                - this can also be reached using structural similarities between curvature-area interaction rules, like those determining area under a curve, specifically those determining area under a sin/cos wave function, the change patterns of areas of triangles created between a circle's origin and its boundary, the change patterns of areas when a circle is distorted according to wave patterns, etc
+
               - 'generative functions': 
                 - apply 'difference' structure of the 'change' interface
                   - the 'difference' between how a circle is generated from a line and how a rectangle is generated from a line is just a 'fixed endpoint' of the line as its shifted, so these formats can be connected by reducing/converting/removing that difference
@@ -172,6 +172,8 @@
                   - the line is a unit of a rectangle, so aligning the pieces of the circle created at each state of the line during its rotation using a different alignment than the common central point uniting the lines' endpoints (a vertical alignment of line endpoints) can also be used to generate the rectangle from the circle
                   - given the interaction rule of the line as a generative input to the circle, we can determine (rather than guessing as with the triangle) that the line is closely related to the circle, and 'interaction rules of lines & area' can be applied to represent the shapes that lines adjacently generate, which includes circles)
                   - interaction rules of lines & area include 'if you align lines by their endpoints, they create a shape with area'
+
+
 
   - add to problem/solution structures
 
