@@ -108,8 +108,6 @@
               - https://en.wikipedia.org/wiki/Lagrange_multiplier
               - also an example of a solution space (the whole function is the solution space of possible minima/maxima) and a filter applied to it (constraint)
 
-      - give examples of how each workflow can be applied to various standard problems (find a prediction function, sorting problem, ml configuration/algorithm-design problem)
-
 
 ## examples
 
@@ -129,6 +127,7 @@
       - traveling salesman: 
         - apply the useful structures of 'components', 'interactivity', & 'adjacence' structures to find interactions between points that form components that form a set (having unique components) with other components, where the component interactions also optimize for 'nearest neighbor' distance solution metric in the points connecting the components
         - components being "sets of points that locally form components optimizing for 'nearest neighbor'" (minimizing the 'distance' solution metric)
+        - this applies the 'break a problem into sub-problems and merge sub-solutions into solution' solution automation workflow
 
       - https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
 
@@ -191,6 +190,17 @@
 
 
   - add to problem/solution structures
+
+    - give examples of when an input/output sequence or other useful structure is not applicable
+      - in most cases, you can use an input/output sequence, like when you have the inputs/outputs of functions indexed, so outputs can be routed to functions with matching inputs to create a sequence connecting problem/solution, but this doesnt work without other interface structures when:
+        - when you dont have inputs/outputs indexed
+        - when you have inputs/outputs indexed, but there are no functions to connect inputs/outputs in part or all of the sequence between problem/solution, so other methods like pattern/logic interface functions are necessary to fill in the gaps in the sequence left by missing or non-indexed functions
+          - the 'derive' function can be fulfilled in various ways
+            - the logic interface can infer connections that are implied, or find another route to connect problem/solution than a route requiring a missing function
+            - the pattern interface can infer connections according to common patterns & probabilities
+          - the 'build' function can construct missing functions out of available functions/structures
+
+    - give examples of how each workflow can be applied to various standard problems (find a prediction function, sorting problem, ml configuration/algorithm-design problem), which can be used as a data source to derive implementation logic/interface queries to generate solutions
 
     - simplified definitions
 
