@@ -210,7 +210,14 @@
               - 'variable sequences/sorts/trees/networks' to create changes to a standard/base/origin structure that are useful (like creating an 'example' out of a 'type' definition)
 
         - interim interface queries can be used to connect a workflow with a solution-producing interface query
-          - 'find an input/output sequence of useful structures fulfilling this workflow' can be an interface query used to determine if a particular workflow has a useful structure input/output sequence available
+          - 'find an input/output sequence of useful structures fulfilling this workflow' can be an interface query used to determine if a particular workflow has a useful structure input/output sequence available, and if not other interface queries can be applied
+
+        - a variation of 'interim interface queries' is 'interface queries for interface queries to fulfill/implement a workflow'
+          - 'interface queries' are 'queries for structures/functions to fulfill an intent' so they can be plugged in wherever there's a lack of info (problem to solve)
+          - problems to solve can include:
+            - 'find an interface query to solve the problem of finding an interface query'
+          - where solution automation workflows are applied to solve the problem, such as:
+            - 'connect a problem (solution automation workflow requiring an interface query to implement it) with a solution (an interface query to implement it)'
 
     - give examples of how each workflow can be applied to various standard problems (find a prediction function, sorting problem, ml configuration/algorithm-design problem), which can be used as a data source to derive implementation logic/interface queries to generate solutions
 
