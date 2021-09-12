@@ -202,14 +202,28 @@
           - these alternate interfaces fulfill the 'input-output sequence' with a variable definition of 'connection' applied to 'inputs/outputs', where there is flexibility added to the degree of certainty in matching & connecting components of the sequence, resulting in a partial implementation of the input-output sequence that may be resolved into a more certain structure with more information, similar to a function with some certain/constant one-line sections and some conditional/variable multi-line sections
         - when there is a more effective workflow/query that solves the problem than the 'find input-output sequence' interface query fulfilling the 'connect problem/solution' solution automation workflow
           - finding other useful structures, like 'finding required functions', 'finding general interaction structures' (rather than specific interaction structures like input/output sequences), or 'finding useful reductive filters', may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
+            
             - other interaction structures include:
               - 'completion' or 'combination' structures, where structures fit together to form a component
               - 'integration' structures where structures are merged to create another more useful structure
               - 'variable' or 'type' structures, where one structure is a variant of another with different parameters
+            
             - so useful alternatives to input/output sequences include:
               - 'combination sequences/sorts/trees/networks' to create combinations of structures that produce useful components (like creating a 'shape' out of components such as 'defining attributes like boundary lines')
+                - rather than using input-output sequences to solve a:
+                  - 'find an optimal route' problem, combinations of interaction structures like 'route sequences' or 'difference structures of sub-optimal routes' can be used
+                  - 'find a prediction function' problem, combinations of structures like 'subset functions' or 'conditional functions' or 'base functions & conversion functions' can be used
+
               - 'integration sequences/sorts/trees/networks' to create merged structures that are useful (like creating a 'type' definition out of 'two examples')
+                - rather than using input-output sequences to solve a:
+                  - 'find an optimal route' problem, integration structures like 'integrations of route filters like differences from sub-optimal routes and definitions of benefit/cost of movement' can be used
+                  - 'find a prediction function' problem, integration structures like 'weighted averages of alternative functions found with varying regression metrics' can be used
+
               - 'variable sequences/sorts/trees/networks' to create changes to a standard/base/origin structure that are useful (like creating an 'example' out of a 'type' definition)
+                - rather than using input-output sequences to solve a:
+                  - 'find an optimal route' problem, 'change structures' can be applied to a standard sub-optimal route
+                  - 'find a prediction function' problem, 'change structures' can be applied to a standard sub-optimal prediction function
+
             - the reason there are other useful structures is bc there are other solution automation workflows than 'connect a problem/solution', with associated useful structures for the workflow, bc there are other core structures than inputs/outputs and sequences
               - 'combination' structures go with the workflow 'build a structure out of components to solve a problem'
               - 'integration' structures go with the workflow 'break a problem into sub-problems and merge sub-solutions'
