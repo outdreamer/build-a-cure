@@ -203,11 +203,18 @@
         - when there is a more effective workflow/query that solves the problem than the 'find input-output sequence' interface query fulfilling the 'connect problem/solution' solution automation workflow
           - finding other useful structures, like 'finding required functions', 'finding general interaction structures' (rather than specific interaction structures like input/output sequences), or 'finding useful reductive filters', may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
             - other interaction structures include:
-              - 'completion' structures, where structures fit together to form a component, 'integration' structures where structures are merged to create another more useful structure, 'variable' or 'type' structures, where one structure is a variant of another with different parameters
+              - 'completion' or 'combination' structures, where structures fit together to form a component
+              - 'integration' structures where structures are merged to create another more useful structure
+              - 'variable' or 'type' structures, where one structure is a variant of another with different parameters
             - so useful alternatives to input/output sequences include:
-              - 'combination sequences/sorts/trees/networks' to create combinations of structures that produce useful components (like creating a 'shape' out of 'defining attributes like boundary lines')
+              - 'combination sequences/sorts/trees/networks' to create combinations of structures that produce useful components (like creating a 'shape' out of components such as 'defining attributes like boundary lines')
               - 'integration sequences/sorts/trees/networks' to create merged structures that are useful (like creating a 'type' definition out of 'two examples')
               - 'variable sequences/sorts/trees/networks' to create changes to a standard/base/origin structure that are useful (like creating an 'example' out of a 'type' definition)
+            - the reason there are other useful structures is bc there are other solution automation workflows than 'connect a problem/solution', with associated useful structures for the workflow, bc there are other core structures than inputs/outputs and sequences
+              - 'combination' structures go with the workflow 'build a structure out of components to solve a problem'
+              - 'integration' structures go with the workflow 'break a problem into sub-problems and merge sub-solutions'
+              - 'variable' structures go with the workflow 'adjust an existing standard solution until it fits the problem, according to its differences from the standard problem, like different solution metrics'
+            - this means solution automation workflows can be derived from these core structures & interface structures applied to these core structures
 
         - interim interface queries can be used to connect a workflow with a solution-producing interface query
           - 'find an input/output sequence of useful structures fulfilling this workflow' can be an interface query used to determine if a particular workflow has a useful structure input/output sequence available, and if not other interface queries can be applied
