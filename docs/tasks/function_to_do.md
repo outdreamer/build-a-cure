@@ -199,6 +199,9 @@
             - the logic interface can infer connections that are implied, or find another route to connect problem/solution than a route requiring a missing function
             - the pattern interface can infer connections according to common patterns & probabilities
           - the 'build' function can construct missing functions out of available functions/structures
+          - these alternate interfaces fulfill the 'input-output sequence' with a variable definition of 'connection' applied to 'inputs/outputs', where there is flexibility added to the degree of certainty in matching & connecting components of the sequence, resulting in a partial implementation of the input-output sequence that may be resolved into a more certain structure with more information, similar to a function with some certain/constant one-line sections and some conditional/variable multi-line sections
+        - when there is a more effective workflow/query that solves the problem than the 'find input-output sequence' interface query fulfilling the 'connect problem/solution' solution automation workflow
+          - 'finding required functions', 'finding interaction structures', or 'finding useful reductive filters' may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
 
     - give examples of how each workflow can be applied to various standard problems (find a prediction function, sorting problem, ml configuration/algorithm-design problem), which can be used as a data source to derive implementation logic/interface queries to generate solutions
 
