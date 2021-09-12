@@ -193,13 +193,16 @@
 
     - give examples of when an input/output sequence or other useful structure is not applicable
       - in most cases, you can use an input/output sequence, like when you have the inputs/outputs of functions indexed, so outputs can be routed to functions with matching inputs to create a sequence connecting problem/solution, but this doesnt work without other interface structures when:
+        
         - when you dont have inputs/outputs indexed
+
         - when you have inputs/outputs indexed, but there are no functions to connect inputs/outputs in part or all of the sequence between problem/solution, so other methods like pattern/logic interface functions are necessary to fill in the gaps in the sequence left by missing or non-indexed functions
           - the 'derive' function can be fulfilled in various ways
             - the logic interface can infer connections that are implied, or find another route to connect problem/solution than a route requiring a missing function
             - the pattern interface can infer connections according to common patterns & probabilities
           - the 'build' function can construct missing functions out of available functions/structures
           - these alternate interfaces fulfill the 'input-output sequence' with a variable definition of 'connection' applied to 'inputs/outputs', where there is flexibility added to the degree of certainty in matching & connecting components of the sequence, resulting in a partial implementation of the input-output sequence that may be resolved into a more certain structure with more information, similar to a function with some certain/constant one-line sections and some conditional/variable multi-line sections
+
         - when there is a more effective workflow/query that solves the problem than the 'find input-output sequence' interface query fulfilling the 'connect problem/solution' solution automation workflow
           - finding other useful structures, like 'finding required functions', 'finding general interaction structures' (rather than specific interaction structures like input/output sequences), or 'finding useful reductive filters', may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
             
