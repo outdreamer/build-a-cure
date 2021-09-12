@@ -201,7 +201,16 @@
           - the 'build' function can construct missing functions out of available functions/structures
           - these alternate interfaces fulfill the 'input-output sequence' with a variable definition of 'connection' applied to 'inputs/outputs', where there is flexibility added to the degree of certainty in matching & connecting components of the sequence, resulting in a partial implementation of the input-output sequence that may be resolved into a more certain structure with more information, similar to a function with some certain/constant one-line sections and some conditional/variable multi-line sections
         - when there is a more effective workflow/query that solves the problem than the 'find input-output sequence' interface query fulfilling the 'connect problem/solution' solution automation workflow
-          - 'finding required functions', 'finding interaction structures', or 'finding useful reductive filters' may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
+          - finding other useful structures, like 'finding required functions', 'finding general interaction structures' (rather than specific interaction structures like input/output sequences), or 'finding useful reductive filters', may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
+            - other interaction structures include:
+              - 'completion' structures, where structures fit together to form a component, 'integration' structures where structures are merged to create another more useful structure, 'variable' or 'type' structures, where one structure is a variant of another with different parameters
+            - so useful alternatives to input/output sequences include:
+              - 'combination sequences/sorts/trees/networks' to create combinations of structures that produce useful components (like creating a 'shape' out of 'defining attributes like boundary lines')
+              - 'integration sequences/sorts/trees/networks' to create merged structures that are useful (like creating a 'type' definition out of 'two examples')
+              - 'variable sequences/sorts/trees/networks' to create changes to a standard/base/origin structure that are useful (like creating an 'example' out of a 'type' definition)
+
+        - interim interface queries can be used to connect a workflow with a solution-producing interface query
+          - 'find an input/output sequence of useful structures fulfilling this workflow' can be an interface query used to determine if a particular workflow has a useful structure input/output sequence available
 
     - give examples of how each workflow can be applied to various standard problems (find a prediction function, sorting problem, ml configuration/algorithm-design problem), which can be used as a data source to derive implementation logic/interface queries to generate solutions
 
