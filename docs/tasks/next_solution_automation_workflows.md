@@ -1,5 +1,11 @@
     - add to solution automation workflows
 
+      - solution automation workflows can be derived from core structures like combinations, sequences, and variables & interface structures applied to these core structures like inputs/outputs, interactions, & types
+        - example: 
+          - 'combination' structures go with the workflow 'build a solution out of components', where components are interface structures that can be combined to create a solution
+        - generalization: 
+          - this can be generalized to 'find the core structures of a system, and apply interface structures to those core structures, then fit these applications to fulfill an interaction function of problem/solution structures'
+
       - identify causes like inputs/requirements of useful structures (like a 'question that triggers a useful structure like an optimization'), & connections with useful structures (like systems where useful structures are default), & system context structures that allow/incentivize useful structures to develop or dont prevent useful structures from developing (like a 'lack of limits'), and apply those structures as the adjacents/inputs to finding useful structures or the generative structures of useful structures
         - alternatively, apply the definitions of useful structures & their metadata, like that a useful structure is defined as:
           - having a structural alignment with an intent, making it useful for that intent
