@@ -215,7 +215,16 @@
             - applying changes to an input (data point) can identify 'degree of difference' between the input and a type value range or average type value, which can be used as the 'final filter'
           - identify if possible interactions are useful for a given intent
             - applying changes to identify 'degree of difference' is useful for the 'final filter' intent ('categorize' intent)
+
+        - the interface query is generally to 'identify missing info & functions to find/derive/generate that info', but specifically implements it as:
+          - abstracted workflow: 
+            - 'identify info & interfaces structures and their functionality, and the interaction of that functionality, and the useful interactions among those functionality interactions for solving the specific problem'
+          - this can be generalized into another solution automation workflow
+            - 'identify structures & their structures & the interactions of these structures, filtering for usefulness for problem-solving intents'
         - the 'solution function' output by this query is 'apply changes & identify if the differences required to convert a data point into a clear member of a type are greater for one category than another'
+        - the workflow to generate a solution function for 'categorize' intents involves generalizing that interface-query generated solution function for varying 'categorize' problems & applying that as a solution-generating/finding function for 'cateogorize' intents
+        - the general workflow is to generalize the design of interface queries (to identify missing info & functions to find/derive/generate that info) to fulfill specific problem-solving intents, rather than solving a specific problem
+          - 'functionality' is a specifically useful & important structure, so the specific interface query can be retained, or it can be fully generalized & the 'useful structures' can be a variable rather than specifying 'functionality' as a useful structure
 
     - generate workflows based on other core interaction functions than 'connect' & 'interact' & 'filter' since many are based on those functions
       - connect: 'connect problem/solution structures', 'solve adjacently related/connected problem'
