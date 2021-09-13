@@ -196,11 +196,29 @@
     - give example of identifying meaning of emergent structures:
       - nn structures should include 'combinations of combinations of inputs' in a tree structure, in addition to weight paths & other emergent structures of the algorithm when applied to the network, and when data extremes & other important points are applied
 
-    - generate workflows based on other core interaction functions than 'connect'
-      - reduce: rather than workflows to 'connect a problem/solution', workflows to 'reduce a problem into a solution' or 'reduce a problem into a non-problem'
+    - organize workflows using useful structures as being on the meaning interface, where useful structures from other interfaces overlap & connect with the meaning interface
 
-    - identify interim & cross-interaction level functions that fulfill various workflow variations like fulfilling a specific core interaction function
-      - 'find the important variables' is a function that is particularly useful for the 'reduce a problem' problem-solving intent
+    - write interface queries to generate each workflow
+
+    - 'format sequence of the categorize problem'
+
+    - generate workflows based on other core interaction functions than 'connect' & 'interact' & 'filter' since many are based on that function
+      - connect: 'connect problem/solution structures'
+      - reduce: rather than workflows to 'connect a problem/solution', workflows to 'reduce a problem into a solution' or 'reduce a problem into a non-problem'
+      - abstract: 'abstract/specify a solution & solve for the abstract/specific/example solution instead'
+      - filter: 'filter the problem attributes to just the relevant attributes' and 'filter the problem attributes that cannot be converted into solution attributes'
+      - interact: 'determine which interface queries interact in a way that allows the problem/solution to interact in a way that fulfills a core interaction function', 'determine which function interaction levels, workflows, queries are interactive'
+      - multiple: 'determine which interface objects interact in a way that fulfills multiple core interaction functions' (given the insight that functions which generalize tend to be more useful & accurate)
+      - missing: 'determing which functions are missing & could be generated that would solve the problem more quickly than existing functions'
+
+    - identify interim & cross-interaction level functions & other interface structures that fulfill various workflow variations like fulfilling a specific core interaction function
+      - connect: 'find structures fulfilling an interaction or connection structure, like a sequence/tree/network'
+      - reduce: 'find the important variables' is a function that is particularly useful for the 'reduce a problem' problem-solving intent
+      - abstract: 'find abstraction levels that tend to be useful for resolving a particular uncertainty type', 'find'
+      - filter: 'find the most reductive filters that dont lose an info type'
+      - interact: 'find interaction structures of interaction structure (gaps, overlaps, intersections)'
+      - multiple: 'find solutions fulfilling multiple metrics'
+      - missing: 'find gaps in functionality that would be useful to fill'
 
     - give examples of when an input/output sequence or other useful structure is not applicable
       - in most cases, you can use an input/output sequence, like when you have the inputs/outputs of functions indexed, so outputs can be routed to functions with matching inputs to create a sequence connecting problem/solution, but this doesnt work without other interface structures when:
