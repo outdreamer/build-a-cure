@@ -188,6 +188,10 @@
                   - given the interaction rule of the line as a generative input to the circle, we can determine (rather than guessing as with the triangle) that the line is closely related to the circle, and 'interaction rules of lines & area' can be applied to represent the shapes that lines adjacently generate, which includes circles)
                   - interaction rules of lines & area include 'if you align lines by their endpoints, they create a shape with area'
 
+  - give examples of why other tech solutions are insufficient
+    - regression is insufficient even if its a good temporary solution if you dont have other resources than the data set, bc its conclusion/outputs (in the form of the regression function) can have the opposite meaning 'random noise' as the intended meaning 'causal relationships'
+    - statistics in general is built on the insight that 'probability is associated with certainty/truth', but it ignores other certainty structures like structures that are more useful than patterns/probability, such as definitions, concepts, meaning/understanding/integration/organization, cause, inevitability/requirement, determination/generation/description structures, functions of varying interaction levels, etc
+    - machine-learning can have the opposite functionality given extreme data values or update functionality manipulation (to train it to give the wrong answer in its online learning functionality), as well as other exploits from interactions of the algorithm, network, parameters, emergent structures, & data, and it is not built on understanding
 
   - add to problem/solution structures
 
