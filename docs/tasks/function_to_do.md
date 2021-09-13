@@ -191,6 +191,17 @@
 
   - add to problem/solution structures
 
+    - a 'find a solution' function should be able to be converted into a 'generate a solution' function, bc as the brain learns, it can generate solutions on demand once understanding develops
+
+    - give example of identifying meaning of emergent structures:
+      - nn structures should include 'combinations of combinations of inputs' in a tree structure, in addition to weight paths & other emergent structures of the algorithm when applied to the network, and when data extremes & other important points are applied
+
+    - generate workflows based on other core interaction functions than 'connect'
+      - reduce: rather than workflows to 'connect a problem/solution', workflows to 'reduce a problem into a solution' or 'reduce a problem into a non-problem'
+
+    - identify interim & cross-interaction level functions that fulfill various workflow variations like fulfilling a specific core interaction function
+      - 'find the important variables' is a function that is particularly useful for the 'reduce a problem' problem-solving intent
+
     - give examples of when an input/output sequence or other useful structure is not applicable
       - in most cases, you can use an input/output sequence, like when you have the inputs/outputs of functions indexed, so outputs can be routed to functions with matching inputs to create a sequence connecting problem/solution, but this doesnt work without other interface structures when:
         
