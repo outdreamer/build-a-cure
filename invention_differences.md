@@ -262,3 +262,9 @@
 		- useful structures for implementing solution automation workflows & interface queries (optimization structures, error structures, input-output sequences, interchangeable structures)
 		- insights of interaction rules between structures, concepts, patterns & other interface components
 		- a way to integrate these structures to implement a tool that could automatically solve any problem
+
+16. but in your examples, you sometimes mention other things like machine-learning, trial & error, 'difference-maximizing' functions, directed acyclic graphs, regression, & other methods, so how could you have invented anything?
+	- I realize it doesn't feel good to admit that I invented anything & people like pretending things that feel good are always true.
+	- I do often reference example solutions like that as examples of structures to illustrate how my invention could work, such as how it could generate those solutions.
+	- I am not claiming I invented those things - I'm claiming that my invention can use other solutions (such as those example solutions) as part of its optional processing where it uses existing solutions rather than deriving/generating new solutions or solving a different problem that doesn't require those solutions.
+	- I am claiming that I invented a way to combine existing components in a novel way (involving objects I identified as particularly useful, like solution automation workflows, insight paths, interface queries, interfaces, & useful interface structures like dependencies, core functions, function interaction levels, etc) that allows the program to automatically solve any problem, none of which those solutions can do.
