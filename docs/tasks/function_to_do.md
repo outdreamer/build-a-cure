@@ -192,6 +192,13 @@
     - regression is insufficient even if its a good temporary solution if you dont have other resources than the data set, bc its conclusion/outputs (in the form of the regression function) can have the opposite meaning 'random noise' as the intended meaning 'causal relationships'
     - statistics in general is built on the insight that 'probability is associated with certainty/truth', but it ignores other certainty structures like structures that are more useful than patterns/probability, such as definitions, concepts, meaning/understanding/integration/organization, cause, inevitability/requirement, determination/generation/description structures, functions of varying interaction levels, etc
     - machine-learning can have the opposite functionality given extreme data values or update functionality manipulation (to train it to give the wrong answer in its online learning functionality), as well as other exploits from interactions of the algorithm, network, parameters, emergent structures, & data, and it is not built on understanding
+      - 'one-degree connection structures' which are present in 'foundation models' are incapable of capturing multi-degree connection structures like sequences/chains or structures of connections like trees/networks/groups, even though other structures can be formatted as core structures like 'connections', it doesnt mean a one-degree connection network will capture them, or that a network of connections is the most optimal structure for that info given its usage
+      - machine-learning based on neuroscience leaves out other brain interfaces like psychology, chemistry, & language
+        - a psychologist might interpret a thought as 'an emotional reaction to a chemical stimulus that retrieved a memory'
+        - a neuroscientist might interpret a thought as 'a response to electrical stimulus given weighted connections between neurons that previously handled that stimulus'
+        - a linguist might interpret a thought as 'a deviation from a previous phrase that captured an experience to handle a change to that experience'
+        - a chemist might interpret a thought as 'a result of scaled electron dynamics in response to a chemical'
+        - a biologist might interpret a thought as 'a useful way to produce serotonin to offset a signal from the gut'
 
   - add to problem/solution structures
 
