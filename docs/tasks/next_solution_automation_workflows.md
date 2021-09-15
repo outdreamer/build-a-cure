@@ -1,11 +1,17 @@
     - add to solution automation workflows
 
+      - the interface query is basically 'what questions need to be answered to solve this problem' - another variant would be 'what information could allow this problem to be solved with this solution function'
+        - example: in the 'find a prediction function' problem, this would take the form of 'finding what structures of information would have enough complexity to require a machine-learning algorithm to find a prediction function'
+          - the 'find a prediction function for an image categorization problem' would require complexity in the form of structures like ambiguities, similar alternative opposites, distortions, & randomness, so images with those structures should be expected & could be derived from the problem statement
+          - a solution function that can determine the outputs from those inputs would have structures like 'variable isolation' (using 'feature engineering' functions) & 'complexity reduction' (using 'generalizing' functions) to connect those inputs/outputs
+
       - apply various alternate formats like sequences, preceding/succeeding sequences, & subsets as inputs to prediction functions, to predict the next item in an ordered structure (like a set of y-values for an x-value sequence)
         - example: rather than 'trying to predict a line', the problem can be a problem of 'trying to predict the likelihood of a value, given the preceding values' and 'trying to predict whether the y-value sequence is likely given the prediction functions that succeed at predicting the next value'
           - predicting an initial value from the following values, predicting an adjacent value from neighboring values, and predicting local from global values are examples of predictions that can be made by applying prediction functions to find a likely prediction function
 
-      - apply probability & structure interfaces so that from structures that can be verified, identify probability of other structures until theres a structural interaction that cant be verified
-        - example: for the 'find a prediction function' problem, given that there's a structure of 'many change types' in a parabola as opposed to a line (one change type, as in constant/charged change), whats the probability of a cycle structure or intersection with zero in the same function
+      - apply probability & structure interfaces so that from structures that can be verified, identify probability of other structures until theres a structural interaction that cant be verified with some degree of certainty
+        - example: for the 'find a prediction function' problem, given that there's a structure of 'many change types' in a parabola as opposed to a line (one change type, as in constant/charged change), whats the probability of a cycle structure or intersection with zero in the same function (how often do 'many change types' occurring in a parabola defined locally occur with a cycle structure defined elsewhere in the function)
+        - 
 
       - solution automation workflows can be derived from core structures like combinations, sequences, and variables & interface structures applied to these core structures like inputs/outputs, interactions, & types
         - example: 
