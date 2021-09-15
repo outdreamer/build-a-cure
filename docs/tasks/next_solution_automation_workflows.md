@@ -7,6 +7,7 @@
           - once you have this 'inner' solution, fit it to the original problem/solution by applying changes to the 'inner' solution
             - apply changes to the summarization function of the summarized independent variables until it acts as a summarization function of the original independent variables that can predict the dependent variable
           - another example would be to change the dependent variable predicted (find a prediction function that predicts z instead of y) then apply changes to that solution until it predicts y
+          - another example would be to abstract the inputs/outputs and solve for that prediction function instead, then applying specifying structures to the general solution, until it solves for the original problem that is an example of that generalization
         - workflow fit: this is a generalization of workflows that change inputs/outputs to solve a different problem, or solve a different sequence/structure of problems
 
       - identify alternate interchangeable structures that form an interchangeable solution to a problem in some condition, to cover as many conditions as possible

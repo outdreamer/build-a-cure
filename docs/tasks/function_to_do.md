@@ -417,6 +417,40 @@
 
     - add to ml: optimizations/derivations applied to standard ml process
 
+      - example of solution automation workflow applied to multi-layer perceptron example of xor
+        - https://en.wikipedia.org/wiki/File:XOR_perceptron_net.png
+        - create a function connecting the following format sequence from problem to solution
+          - problem = 'find function that outputs true/false for inputs a & b which can have value 0 or 1, with 'true' output if a/b differ)' => 
+          - solution = connect (all possible input combinations (problem space to filter) => all possible output solution metric values (solution metric space))
+          - the problem is:
+            - 'converting the problem space of all possible inputs to the solution space of all possible outputs' (formatted as a function to generate outputs from inputs)
+            - 'merging the problem space of all possible inputs with the solution space of all possible outputs' (formatted as a solution shape masking the problem space, indicating which possible input combinations are true & which are false)
+          - the problem space has two primary possibilities:
+            - the inputs a/b differ
+            - the inputs a/b are equal
+          - the solution space has two primary possibilities:
+            - true/false
+          - the interaction space between inputs/outputs has four possible states (2 ^ 2, with two inputs having two possible states each)
+            - two ways to differ (produce output true)
+              - a is 0 and b is 1
+              - a is 1 and b is 0
+            - two ways to be equal (produce output false)
+              - a is 0 and b is 0
+              - a is 1 and b is 1
+          - whats the minimum number of input/output-connecting interim nodes that can connect inputs/outputs non-linearly (not using an identity function or another linear combination of inputs)
+            - the interaction space would indicate 4 nodes to connect inputs/outputs - can this be reduced & how?
+            - the inputs a & b can have a 'combination' (sum) structure in a network as the calculation moves to the next layer
+            - in a logical function, inputs can be routed based on structural meaning (in the form of equivalence) to a designated comparison function
+            - in a network, all inputs are routed to all nodes on the next layer for summation & comparison of the sum to a threshold value
+            - why is the sum relevant? bc it can compress the info from the four possible input states and incorporate info about weights applied to inputs (although there will be overlaps with other sums created with different inputs/weights)
+            - in the example, the three-node interim layer has a node with a threshold that deactivates one weighted combination of inputs (1,1), and has two nodes that enable other weighted combinations of inputs (0,1 and 1,0)
+              - it does not handle limiting inputs (0,0), which is lower than either upper threshold
+              - if the sum of the inputs is 1, the node is enabled (the inputs differ as one is 1 and one is zero), and if its 2, the node is disabled (the inputs are both 1)
+              - the interim layer should filter out the equal state (1,1) by assigning the output of that equivalence-allowing node an extra negative weight (-2), and assigning difference-allowing nodes a positive weight
+              - the extra difference-allowing node may function as an offset of the impact of the equivalence-allowing node
+          - its useful to index nodes by functionality 
+            - an 'equivalence-allowing node' may become an 'equivalence-preventing node' with particular input combinations, surrounding weights & activation thresholds
+
       - give examples of formatting ml in different formats (variable network, tree, sequences, etc)
 
       - give examples of errors produced by compressing algorithmic input/output connection logic
