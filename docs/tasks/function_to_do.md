@@ -438,18 +438,52 @@
               - a is 0 and b is 0
               - a is 1 and b is 1
           - whats the minimum number of input/output-connecting interim nodes that can connect inputs/outputs non-linearly (not using an identity function or another linear combination of inputs)
+            - the network depicted is not fully-connected, so inputs are routed only to adjacent nodes on the next layer
             - the interaction space would indicate 4 nodes to connect inputs/outputs - can this be reduced & how?
             - the inputs a & b can have a 'combination' (sum) structure in a network as the calculation moves to the next layer
             - in a logical function, inputs can be routed based on structural meaning (in the form of equivalence) to a designated comparison function
             - in a network, all inputs are routed to all nodes on the next layer for summation & comparison of the sum to a threshold value
             - why is the sum relevant? bc it can compress the info from the four possible input states and incorporate info about weights applied to inputs (although there will be overlaps with other sums created with different inputs/weights)
             - in the example, the three-node interim layer has a node with a threshold that deactivates one weighted combination of inputs (1,1), and has two nodes that enable other weighted combinations of inputs (0,1 and 1,0)
-              - it does not handle limiting inputs (0,0), which is lower than either upper threshold
+              - it outputs zero if the threshold is not reached
+                - the middle node of the interim layer would output 1 for equal state (1,1) which is then maximized to be negative
+                - the middle node of the interim layer would output 0 for difference states (0,1) and (1,0)
+                - the outer nodes of the interim layer would output 1 for all states except (0,0)
               - if the sum of the inputs is 1, the node is enabled (the inputs differ as one is 1 and one is zero), and if its 2, the node is disabled (the inputs are both 1)
               - the interim layer should filter out the equal state (1,1) by assigning the output of that equivalence-allowing node an extra negative weight (-2), and assigning difference-allowing nodes a positive weight
               - the extra difference-allowing node may function as an offset of the impact of the equivalence-allowing node
           - its useful to index nodes by functionality 
             - an 'equivalence-allowing node' may become an 'equivalence-preventing node' with particular input combinations, surrounding weights & activation thresholds
+
+            - the activation functions of the network are assumed to 'output 0 if threshold is not reached', * indicates non-zero output value, parentheses indicates input value or threshold value
+
+            - examples with four possible input states
+
+                    x = 0             x = 0
+                  1 -2  1
+                (1) (2) (1)      
+                  1  1  1
+                  (0) (0)
+
+                    x = 1             x = 1
+                  1 -2  1
+                (1) (2) (1)*
+                  1  1  1
+                  (0) (1)*
+
+                    x = 1             x = 1
+                  1 -2  1
+                (1)* (2) (1)
+                  1  1  1
+                  (1)* (0)
+
+                    x = 1 + -2 + 1    x = 0
+                  1 -2  1
+                (1)* (2)* (1)*
+                  1  1  1
+                  (1)* (1)*
+
+            - this indicates why three nodes are required to map four possible input states to two possible output states
 
       - give examples of formatting ml in different formats (variable network, tree, sequences, etc)
 
