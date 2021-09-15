@@ -1,5 +1,14 @@
     - add to solution automation workflows
 
+      - change inputs/outputs to solve a different problem or change the sequence/structure of problems to be solved
+        - example: rather than solving the initial problem to connect the original problem with a solution, solve a problem that is one-step closer to the solution & solve for a solution that is one-step away from the original solution, then apply changes to the inputs/outputs of that solution until it fits with the original problem/solution
+          - rather than solving the problem of 'find a prediction function' for original independent variables, solve the problem of 'find a prediction function' for aggregate variables (like types that summarize the original variables), because an alternate intent of 'predict the data' is 'summarize the data', so starting from a summary as an input is a step closer to the original solution format, which is a prediction (or summarization) function
+            - independent variables of data set => summarizing variables like types or aggregates or compressions => prediction/summarization function for dependent variables
+          - once you have this 'inner' solution, fit it to the original problem/solution by applying changes to the 'inner' solution
+            - apply changes to the summarization function of the summarized independent variables until it acts as a summarization function of the original independent variables that can predict the dependent variable
+          - another example would be to change the dependent variable predicted (find a prediction function that predicts z instead of y) then apply changes to that solution until it predicts y
+        - workflow fit: this is a generalization of workflows that change inputs/outputs to solve a different problem, or solve a different sequence/structure of problems
+
       - identify alternate interchangeable structures that form an interchangeable solution to a problem in some condition, to cover as many conditions as possible
         - example: an 'explanation', 'description', 'generator/cause', 'compression', and 'summary' are alternate structures that can replace/approximate a 'prediction function' for the 'find a prediction function' problem, so if those can be solved for more quickly than a 'prediction function', they may be approximate/temporary/conditional substitutes for the 'prediction function' solution format
         - workflow fit: this is similar to the 'find an approximate solution' workflows, but involves applying the analysis to interchangeable structures in general & to as many conditions as possible to approximate/replace the original solution format
