@@ -484,6 +484,35 @@
                   (1)* (1)*
 
             - this indicates why three nodes are required to map four possible input states to two possible output states
+              - there are two ways to get to 0, and two ways to get to 1, just like in the mapping from four possible input states to two possible output states
+              - the sum for each of the four possible input states (sums being the input to the activation thresholds in the interim layer) indicates three possible sums (0, 1, and 2)
+              - assigning a weight of 1 to each of the two different-allowing sums (1 reached in two different ways, by 0 + 1 and 1 + 0) and a weight of -2 to the one non-zero equivalence-allowing sum (2 reached in one way, by 1 + 1) 
+                - where an input of (0,0) would produce an output of zero because zero is output if thresholds are not reached and zero doesnt reach any threshold
+                - allows the 1 in each (0,1) or (1,0) pair to retain its value and produce a 1 by following a single route in the network
+                - allows the -2 output by middle node applied to the (1,1) input, offsets the 1 & 1 produced by the other outputs
+
+            - this network can be derived by the following 'requirement' structures:
+
+              - basic input/output requirements
+                - possible inputs (0,1) and (1,0) must have an output of 1
+                - possible inputs (0,0) and (1,1) must have an output of 0
+
+              - basic function requirements
+                - the output must be zero for inputs (1,1) and (0,0)
+                  - output of interim nodes allowing sum of 2 from (1,1) must be offset by output of interim nodes allowing sum of (1) from (1,1) (there must be two nodes allowing the sum of 1 from the input (1,1) to offset the -2 from the node allowing sum of (1,1) to output a 1 value (which is then multiplied by the -2))
+                  - output of all interim nodes allowing sum of 0 from (0,0) must always be equal to zero
+
+                - the output must be one for inputs (0,1) and (1,0)
+                  - output of interim nodes allowing sum of 1 from (1,0) must be equal to one and there must be only zero outputs of other interim nodes
+                  - output of interim nodes allowing sum of 1 from (0,1) must be equal to one and there must be only zero outputs of other interim nodes
+
+              - from the basic input/output requirements, we've derived the requirements for the functions connecting them
+                - there are other requirements that could connect the inputs/outputs (fulfill input/output requirements), but this is a way that requires minimal nodes
+                - now we know what the outputs of the interim layer should be
+                - the other variables include options like:
+                  - how layers are connected (fully connected, or just adjacent nodes, or another way)
+                  - how many nodes are in the interim layer (how many weight combinations of activated nodes produce the outputs) & their weights to produce the correct outputs
+                  - whether other layers can be added to reduce/relocate other operations to add value for another metric
 
       - give examples of formatting ml in different formats (variable network, tree, sequences, etc)
 
