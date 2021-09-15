@@ -268,3 +268,8 @@
 	- I do often reference example solutions like that as examples of structures to illustrate how my invention could work, such as how it could generate those solutions.
 	- I am not claiming I invented those things - I'm claiming that my invention can use other solutions (such as those example solutions) as part of its optional processing where it uses existing solutions rather than deriving/generating new solutions or solving a different problem that doesn't require those solutions.
 	- I am claiming that I invented a way to combine existing components in a novel way (involving objects I identified as particularly useful, like solution automation workflows, insight paths, interface queries, interfaces, & useful interface structures like dependencies, core functions, function interaction levels, etc) that allows the program to automatically solve any problem, none of which those solutions can do.
+
+17. but don't books cover topics like your invention mentions, such as books about how the brain works or books about patterns in science discoveries?
+	- yes, there are books about patterns & information
+	- my invention is a way to connect structures like solution automation workflows, interface queries, interfaces, etc in a way that enables the automation of problem-solving
+
