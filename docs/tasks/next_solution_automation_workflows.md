@@ -1,9 +1,13 @@
     - add to solution automation workflows
 
-      - the interface query is basically 'what questions need to be answered to solve this problem' - another variant would be 'what information could allow this problem to be solved with this solution function'
+      - the interface query is basically 'what questions need to be answered to solve this problem' - another variant would be 'what information could allow this problem to be solved with this solution-finding function'
         - example: in the 'find a prediction function' problem, this would take the form of 'finding what structures of information would have enough complexity to require a machine-learning algorithm to find a prediction function'
-          - the 'find a prediction function for an image categorization problem' would require complexity in the form of structures like ambiguities, similar alternative opposites, distortions, & randomness, so images with those structures should be expected & could be derived from the problem statement
+          - the 'find a prediction function for image categorization' problem would require complexity in the form of structures like ambiguities, similar alternative opposites, distortions, & randomness, so images with those structures should be expected & could be derived from the problem statement
           - a solution function that can determine the outputs from those inputs would have structures like 'variable isolation' (using 'feature engineering' functions) & 'complexity reduction' (using 'generalizing' functions) to connect those inputs/outputs
+          - if a solution-finding function cant solve the problem given the expected inputs, changes can be applied until it can connect the expected inputs with the outputs
+          - this means 'the solution-finding method requires the referenced 'variable isolation' and 'complexity reduction' structures, to resolve the ambiguities & other complexity structures requiring the solution-finding method in common image categorization data sets'
+          - from the typical complexity & other problem-causing attributes of the problem, which would require using this solution-finding method (given the method intents like 'find a prediction function'), we can derive the structures the solution-finding method would need
+          - all that is required to use this workflow is the problem statement 'find a prediction function to categorize images' and the solution format 'categorization labels'
 
       - apply various alternate formats like sequences, preceding/succeeding sequences, & subsets as inputs to prediction functions, to predict the next item in an ordered structure (like a set of y-values for an x-value sequence)
         - example: rather than 'trying to predict a line', the problem can be a problem of 'trying to predict the likelihood of a value, given the preceding values' and 'trying to predict whether the y-value sequence is likely given the prediction functions that succeed at predicting the next value'
@@ -11,7 +15,6 @@
 
       - apply probability & structure interfaces so that from structures that can be verified, identify probability of other structures until theres a structural interaction that cant be verified with some degree of certainty
         - example: for the 'find a prediction function' problem, given that there's a structure of 'many change types' in a parabola as opposed to a line (one change type, as in constant/charged change), whats the probability of a cycle structure or intersection with zero in the same function (how often do 'many change types' occurring in a parabola defined locally occur with a cycle structure defined elsewhere in the function)
-        - 
 
       - solution automation workflows can be derived from core structures like combinations, sequences, and variables & interface structures applied to these core structures like inputs/outputs, interactions, & types
         - example: 
