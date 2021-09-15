@@ -199,6 +199,11 @@
         - a linguist might interpret a thought as 'a deviation from a previous phrase that captured an experience to handle a change to that experience'
         - a chemist might interpret a thought as 'a result of scaled electron dynamics in response to a chemical'
         - a biologist might interpret a thought as 'a useful way to produce serotonin to offset a signal from the gut'
+      - https://thegradient.pub/has-ai-found-a-new-foundation/
+
+  - give example of how structures could have been derived (symmetry, isomorphism as common important objects to derive an interface, alternative interfaces to solve a problem) from another direction
+
+  - derive logic types that would be necessary to complete the logic interface & give examples of logical object interactions
 
   - add to problem/solution structures
 
