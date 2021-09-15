@@ -1,5 +1,12 @@
     - add to solution automation workflows
 
+      - apply various alternate formats like sequences, preceding/succeeding sequences, & subsets as inputs to prediction functions, to predict the next item in an ordered structure (like a set of y-values for an x-value sequence)
+        - example: rather than 'trying to predict a line', the problem can be a problem of 'trying to predict the likelihood of a value, given the preceding values' and 'trying to predict whether the y-value sequence is likely given the prediction functions that succeed at predicting the next value'
+          - predicting an initial value from the following values, predicting an adjacent value from neighboring values, and predicting local from global values are examples of predictions that can be made by applying prediction functions to find a likely prediction function
+
+      - apply probability & structure interfaces so that from structures that can be verified, identify probability of other structures until theres a structural interaction that cant be verified
+        - example: for the 'find a prediction function' problem, given that there's a structure of 'many change types' in a parabola as opposed to a line (one change type, as in constant/charged change), whats the probability of a cycle structure or intersection with zero in the same function
+
       - solution automation workflows can be derived from core structures like combinations, sequences, and variables & interface structures applied to these core structures like inputs/outputs, interactions, & types
         - example: 
           - 'combination' structures go with the workflow 'build a solution out of components', where components are interface structures that can be combined to create a solution
