@@ -1,5 +1,9 @@
     - add to solution automation workflows
 
+      - identify alternate interchangeable structures that form an interchangeable solution to a problem in some condition, to cover as many conditions as possible
+        - example: an 'explanation', 'description', 'generator/cause', 'compression', and 'summary' are alternate structures that can replace/approximate a 'prediction function' for the 'find a prediction function' problem, so if those can be solved for more quickly than a 'prediction function', they may be approximate/temporary/conditional substitutes for the 'prediction function' solution format
+        - workflow fit: this is similar to the 'find an approximate solution' workflows, but involves applying the analysis to interchangeable structures in general & to as many conditions as possible to approximate/replace the original solution format
+
       - find/derive/generate 'counterintuition' & other 'complexity' structures that a solution-finding method should be able to handle & their associated difference structures from error & error-causing structures, using cause as a useful structure to find other relevant info that can be used to filter the solution space or differentiate between solutions/errors
         - example: distorting input so its maximally distorted but should still be identifiable as a category label in a categorization problem, and connecting it to differences from error structures (structures that would result in output of the incorrect or unknown label), or producing/expanding those differences in the input
         - 'alternate generative functions' of a species (like an agent building an artistic representation of a species) could produce 'structural similarities' resulting in an 'unknown' label error, so identifying features indicating alternate generative functions would be important to include in the solution-finding method (differences between a 'dog' and a 'drawing of a dog')
