@@ -111,13 +111,26 @@
 
 ## examples
 
+  - add to govt
+    - rather than payments from consumers, payments from central ledger based on production of supplies & proof of usage
+      - this would invalidate the need for individual ledger accounts to acquire standard supplies like food/medicine, and suppliers of standard supplies can be paid from a general central ledger to continue their enterprise based on their supplies, their usage ratio, their relative contribution compared to other suppliers, and their relative value added by solving problems of supply like pollution & optimizing minimal cost of production & environmental impact
+      - some transactions can require private accounts like for optional goods
+
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
     - example of priorities leading to errors:
       - the 'selfish' perspective prioritizes simple, structural objects, which is why 'selfish' programs can only see & act on those things rather than producing solutions that can be used for many problems, even ones they dont have
 
+  - add to science
+    - curvature implies momentum of change of a particular type rather than constant change, applying a structure of incentives toward various positions & connections
+      - is there a set of 'time crystal' space-times where change could be stuck in a 'local minima' where momentum doesnt reward movement in any direction (are space-time spaces continuous and is a method like momentum applied to determine motion in this space of space-times)
+
   - add to math mapping
+    - add to dimension definition routes:
+      - 'adding an independent sequence/state change type to other change types, containing but not changing or limiting other change types of lower dimensions'
+      - limiting a change type to two possible values requires a structure in the form of a value (line, or hyperplane) separating them
+
     - a set of related change types (like a sequence of fourier/taylor expansion terms providing different polynomials) provides different change types that can be combined to produce the required changes to produce a function
     - example 'alternate connection' structure: wheels (rotations of circles) provide an alternate connection between waves & circles, in addition to trig functions
     - fourier transform is an example of energy from change stabilizing into a pattern of a new change type - https://mathlets.org/mathlets/discrete-fourier-transform/
