@@ -125,6 +125,24 @@
   - add to science
     - curvature implies momentum of change of a particular type rather than constant change, applying a structure of incentives toward various positions & connections
       - is there a set of 'time crystal' space-times where change could be stuck in a 'local minima' where momentum doesnt reward movement in any direction (are space-time spaces continuous and is a method like momentum applied to determine motion in this space of space-times)
+      - time as a 'continuous overlap' of dimensions where change is still possible
+        - the change of 'possible change' implies a change in the restrictions on change (its boundaries), like the intersection & overlap of restrictions on change
+        - the interaction space of restrictions is a useful structure to determine possible change types (how various definition routes of dimension can interact without invalidating another definition or each other)
+        - https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/?utm_source=fark&utm_medium=website&utm_content=link&ICID=ref_fark
+
+    - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
+      - minimizing bias 
+        - intends to predict as many points as possible in a data subset
+        - outputs a specific function for a data subset
+        - has errors when applied to different data subsets
+      - minimizing variance
+        - intends to predict as many data subsets as possible with minimal error, rather than specific points
+        - outputs a general function for many different data subsets
+        - has errors for each data subset, but fewer errors across many different data subsets
+      - functions can be assigned to predict data points with attributes (like a range of standard deviation) based on the cause & patterns of their differences
+        - if the cause of a data point is likely to be randomness, it can be excluded from functions that dont include randomness as an input
+        - if the type of a data point differs from other data points predicted by a function, it should be predicted by another function that predicts that type
+      - this solution involves re-arranging data subsets so they can be better predicted by functions
 
   - add to math mapping
     - add to dimension definition routes:
