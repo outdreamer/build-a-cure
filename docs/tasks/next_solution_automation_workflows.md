@@ -1,12 +1,19 @@
     - add to solution automation workflows
 
-    - find cross-interface structures (like the 'intersection' of 'structures' and 'causes' and 'patterns' of 'variable interactions') that interact with important problem structures that are determining for the success of a solution in various error type conditions
-      - example: for the 'find a prediction function' problem,
-        - if a function has an error type of 'false similarity' (with different cause), the actual cause is different than the assumed cause allowing selection of that solution, so structures of variable interactions & causes would be useful in filtering out these solutions
-        - 'variable interactions' are an important structure for the 'find a prediction function' problem, so applying interface structures to this important structure can identify useful structures for building a robust solution to error types
-        - functions like the following would identify useful structures of variable interactions & other interface structures that would determine success under various error type conditions
-          - find multiple alternate functions that follow variable interaction patterns more adjacently than the original line or better align with variable interaction causes
-          - apply changes to data set to find adjacent data sets with clear regression lines
+      - identify the maximally different functions that fulfill a 'core interaction-interface' function (like 'reduce change types') from existing functions to begin a search for new solutions if existing solution functions produce errors
+        - combinations of core interaction functions & interface structures would be likely useful in solving problems
+          - examples: 'filter cause structures', 'connect interaction layers', 'sort useful structures'
+        - this function type connects core interaction functions with interface structures, similar to interface functions like 'find a structure in a structure', or interim functions like 'organize' or 'predict'
+        - the difference in this function type is that these functions are likelier to be useful than other function types like general functions, core interaction functions which must be combined in a structure in order to be useful, or interface functions which are likely to require their own interface query
+        - this function type is similar to problem-solving intent functions, interim functions, & interface queries, and may be able to be used as a substitute of some interface queries
+
+      - find cross-interface structures (like the 'intersection' of 'structures' and 'causes' and 'patterns' of 'variable interactions') that interact with important problem structures that are determining for the success of a solution in various error type conditions
+        - example: for the 'find a prediction function' problem,
+          - if a function has an error type of 'false similarity' (with different cause), the actual cause is different than the assumed cause allowing selection of that solution, so structures of variable interactions & causes would be useful in filtering out these solutions
+          - 'variable interactions' are an important structure for the 'find a prediction function' problem, so applying interface structures to this important structure can identify useful structures for building a robust solution to error types
+          - functions like the following would identify useful structures of variable interactions & other interface structures that would determine success under various error type conditions
+            - find multiple alternate functions that follow variable interaction patterns more adjacently than the original line or better align with variable interaction causes
+            - apply changes to data set to find adjacent data sets with clear regression lines
 
       - change inputs/outputs to solve a different problem or change the sequence/structure of problems to be solved
         - example: rather than solving the initial problem to connect the original problem with a solution, solve a problem that is one-step closer to the solution & solve for a solution that is one-step away from the original solution, then apply changes to the inputs/outputs of that solution until it fits with the original problem/solution
