@@ -1,5 +1,13 @@
     - add to solution automation workflows
 
+    - find cross-interface structures (like the 'intersection' of 'structures' and 'causes' and 'patterns' of 'variable interactions') that interact with important problem structures that are determining for the success of a solution in various error type conditions
+      - example: for the 'find a prediction function' problem,
+        - if a function has an error type of 'false similarity' (with different cause), the actual cause is different than the assumed cause allowing selection of that solution, so structures of variable interactions & causes would be useful in filtering out these solutions
+        - 'variable interactions' are an important structure for the 'find a prediction function' problem, so applying interface structures to this important structure can identify useful structures for building a robust solution to error types
+        - functions like the following would identify useful structures of variable interactions & other interface structures that would determine success under various error type conditions
+          - find multiple alternate functions that follow variable interaction patterns more adjacently than the original line or better align with variable interaction causes
+          - apply changes to data set to find adjacent data sets with clear regression lines
+
       - change inputs/outputs to solve a different problem or change the sequence/structure of problems to be solved
         - example: rather than solving the initial problem to connect the original problem with a solution, solve a problem that is one-step closer to the solution & solve for a solution that is one-step away from the original solution, then apply changes to the inputs/outputs of that solution until it fits with the original problem/solution
           - rather than solving the problem of 'find a prediction function' for original independent variables, solve the problem of 'find a prediction function' for aggregate variables (like types that summarize the original variables), because an alternate intent of 'predict the data' is 'summarize the data', so starting from a summary as an input is a step closer to the original solution format, which is a prediction (or summarization) function
