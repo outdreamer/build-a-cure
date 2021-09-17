@@ -1,7 +1,5 @@
 # to do
 
-  - yes, there's more torture, every day Im on my diet Im going to torment you with my achievements
-
   - finish processes:
       
       - finish applying systematization of solution automation
@@ -130,6 +128,7 @@
         - the interaction space of restrictions is a useful structure to determine possible change types (how various definition routes of dimension can interact without invalidating another definition or each other)
         - https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/?utm_source=fark&utm_medium=website&utm_content=link&ICID=ref_fark
 
+  - add to ml
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
       - minimizing bias 
         - intends to predict as many points as possible in a data subset
@@ -143,6 +142,7 @@
         - if the cause of a data point is likely to be randomness, it can be excluded from functions that dont include randomness as an input
         - if the type of a data point differs from other data points predicted by a function, it should be predicted by another function that predicts that type
       - this solution involves re-arranging data subsets so they can be better predicted by functions
+
 
   - add to math mapping
     - add to dimension definition routes:
