@@ -1,5 +1,24 @@
 # to do
 
+  - example of creating a logical 'requirement': 
+    - if all cats are mammals, and a particular animal is a cat, then that particular animal is required to be a mammal
+  - why is this true? bc:
+    - one of the objects has a definition:
+      - a 'cat' is 'defined' to be a 'mammal'
+    - and another object has a definition:
+      - a 'particular animal' is 'defined' to be a 'cat'
+    - using the connection function 'is', indicating some form of 'equivalence' or 'containment'
+    - and a 'connection' in the form of an 'equivalence' exists between these two defined 'equivalence' rules
+      - a 'cat' is in both of the rules
+      - the connection functions are also equivalent ('is' is used in both rules)
+      - the connection function indicates equivalence
+      - a 'particular animal' is a 'cat' is a 'mammal' is a 'combination' rule or 'overlapping rule sequence' that can be created from the two rules
+      - a 'particular animal' is a 'cat' and a 'particular animal' is a 'mammal' are another set of rules that can be created from the two rules, forming equivalences
+      - the 'interim' structure of a 'cat' can be removed, since the 'is' equivalences connect the objects, and applying the property of 'associativity'
+  - these structures can be applied to generate a 'requirement' structure, given how equivalence structures can be connected and the properties that can be applied to them
+
+  - validity/relevance as attributes associated with interfaces
+
   - finish processes:
       
       - finish applying systematization of solution automation
