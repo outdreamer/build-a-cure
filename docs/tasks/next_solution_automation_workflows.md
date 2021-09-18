@@ -1,5 +1,82 @@
-    - add to solution automation workflows
+# add to solution automation workflows
 
+      - identify 'problem-function connecting' functions on the interaction level of specific problem structures and other function types, such as 'overlap equivalent problem structures' or 'limit possible connections between problem structures' as specific useful structures in the problem space to start from, to fulfill the 'filter the solution space' problem-solving intent
+        - this connects other function types with problem structures, other than general known problem-solving intents like 'filter the solution space' or 'reduce/remove the problem or its cause' and generally useful function types like useful interface functions like 'find structures in a structure', and core interaction functions like 'reduce' and general functions like 'find' or interim functions like 'organize'
+        - useful structures produce some output that fulfills a useful intent, and functions that connect problem/solution structures with other useful structures like useful functions, either generally or specifically, would also be useful by default
+        - generalization: a generalization of this workflow would be to find a function interaction structure (like an interaction level or interaction level cross-section) that would be particular useful for solving a problem, and find/derive/generate functions on that interaction structure
+
+        - example of creating a logical 'requirement' structure by applying interface structures (like 'equivalence', 'definitions', 'connections', 'interim structures', 'overlaps', 'skips', 'new structures', and 'difference/opposites/reversals')
+
+          - 'requirement' rule structure created by two initial rules: 
+            - 'if all cats are mammals, and a particular animal is a cat, then that particular animal is required to be a mammal by definition'
+          
+          - why is this true? bc:
+            
+            - one of the objects has a definition:
+              - a 'cat' is 'defined' to be a 'mammal'
+            
+            - and another object has a definition:
+              - a 'particular animal' is 'defined' to be a 'cat'
+            
+            - using the connection function 'is', indicating some form of 'equivalence' or 'containment'
+              - the connection function 'is' indicates equivalence (a cat = a mammal) in this context
+                - theyre equal in the context of 'containment/possession', not in the context of 'identity'
+                  - 'is' here means 'is a member of the type': 'a cat is a member of the type of mammal' and 'a particular animal is a member of the type of cat'
+              
+            - and a 'connection' in the form of an 'equivalence' exists between these two defined 'equivalence' rules
+              - a 'cat' is in both of the rules, indicating an equivalent structure they have in common, thus forming a basis for connecting the rules around their common component
+              
+            - and an 'equivalence' in the form of the equal connection functions
+              - the connection functions used in both rules are also equivalent ('is' is used in both rules)
+
+            - alternatively, there is an 'overlap' structure between a 'particular animal' & a 'cat', and between a 'cat' and a 'mammal', which create another overlap structure between a 'particular animal' and a 'mammal'
+
+            - which means that:
+
+              - a 'requirement' in the form of a 'combination' rule or 'overlapping rule sequence' can be created
+                - the rule "a 'particular animal' is a 'cat' is a 'mammal'"
+              
+              - a 'requirement' in the form of a 'new connection' or a 'interim node-skipping rule' rule can be created from the equivalences in the connection function 'is'
+                - the rule "a 'particular animal' is a 'mammal'"
+
+                - the 'interim' structure of a 'cat' can be removed, since the 'is' equivalences connect the objects, and applying the corresponding version of the attribute of 'associativity' available to equivalent operations
+                
+              - a 'requirement' in the form of a 'connection rule limit', in that the following rules cannot be applied to 'connect the defined structures', only to 'limit possible connections'
+                
+                - attributes that reverse the order of the connections cannot be applied in an equivalent way
+                  - the reversed-order rules of 'a mammal is a cat' and 'a cat is a particular animal' cannot be applied to infer the rule that 'a mammal is a particular animal' (false because it implies that 'all other mammals that are not the particular animal are not mammals')
+                  - the reversed-order context-specific rules of 'a mammal is a type of cat' and 'a cat is a type of particular animal' are similarly false
+
+          - in summary, these structures can be applied to generate a 'requirement' structure, given how 'equivalence' structures can be 'connected' and the attributes associated with 'equivalence' that can be applied to them
+
+            - the primary requirement structure (the associated connection rule) can be inferred in multiple ways, from the multiple equivalences that exist in the initial two rules given
+              - it can also be inferred by the common component of the two rules, assuming that if two rules have a component in common ('cat'), they might be related and might interact
+                - if they further have other equivalences ('is') they are likelier to be related
+                - if their connections indicate equivalence itself ('is' is a form of 'equivalence') or are a definition route of equivalence or some version of equivalence, they can inherit attributes of the 'equivalence' concept definition (like associativity), and their interactions can be inferred from uncontradicted implications or requirements from those related definitions
+
+            - the second requirement structure (the limit) can be inferred using opposite structures, to check if the attributes/connections are true once negated/reversed
+              - this is applied to the attribute 'order' of the 'connection rule', rather than negating the 'connection rule' itself
+
+            - so by deriving the concepts like 'equivalence' related to a structure (like the initial set of two rules), and pulling the attributes/functions of those concepts given their definitions & applying those to the structures, other structures related to 'definitions' like 'requirements', 'limits', & 'rules' can be identified
+
+          - identifying core/interface structure (like 'combination') functions like 'limit possible connections between rules/components' and 'connect definitions by equivalences' is useful, but identifying how these can add value in this particular problem or how they can interact given their requirements/definitions & other structures is even more useful 
+
+            - apply the core/interface structure function 'identify required structures from defined equivalences & differences' to 'find a requirement/rule connecting "particular animal" and "mammal"'
+              - this applies a useful core/interface structure function to this specific problem
+
+              - why is this useful? bc:
+                - the problem is:
+                  - specifically to 'find out if particular animal and mammal are related'
+                  - generally to 'find out any other rules or other requirement structures that can be inferred'
+
+              - so identifying useful core/interface structure functions relevant to these intents is useful, and fitting them to the problem/solution structures is even more useful
+
+              - these functions fulfill functions like problem-solving intents & other functions specific to this problem, so they are inherently useful, even if not to this specific problem
+                - 'connect definitions by equivalence' fulfills a 'connect' core interaction function
+                - 'find limit structures of connection rules' fulfills a 'filter the solution space' problem-solving intent function
+
+              - once you know these specific functions would be useful, you can direct your interface query to find/derive/generate those functions, so this is another way of building an interface query, making it a solution automation workflow
+              
       - find/derive/generate problem structure that would produce a solution to a problem in another system
         - if a solution structure with a particular attribute/function is required, find/derive/generate a problem structure like a problem system that would produce that solution structure in another system & test it in the original problem system
         - find/derive/generate a system with reasons/causes to generate a structure with the attribute/function, and which uses the structure for a similar cause/intent
