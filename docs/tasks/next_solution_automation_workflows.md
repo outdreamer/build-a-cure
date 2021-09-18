@@ -1,4 +1,8 @@
-    - add to solution automation workflows      
+    - add to solution automation workflows
+
+      - apply intent interface specifically to derive specific problem-solving intents for a specific problem that would be useful in solving the problem
+        - example: deriving the intent of 'reducing variables' as a useful problem-solving intent for the 'find a prediction function' problem involves applying the definition of concepts like noise/outliers as an indication of irrelevant variables
+          - generalization: 'reducing variables' would be relevant specifically in 'reducing variables to unique change types', which is a useful structure, so applying useful functions like 'reduce' to important problem structures like 'variables' and connecting those functions with useful structures like 'unique change types' is a generalization of this workflow
 
       - apply core interaction functions (like 'reduce', 'connect') and other function types (like 'abstract') and other useful structures to all relevant structures of the problem space to find useful changes to relevant problem structures that would reduce the problem of fulfilling problem-solving intents for those structures
         - example: applying 'reduce' to a 'variable' structure in the 'find a prediction function' problem into its components/inputs/attributes/generator may make useful structures like 'structural similarities' between relevant structures like 'variables' more obvious so they can be 'reduced' into one variable like a 'type' for relevant specific problem-solving intents like 'reduce dimensions' or 'feature engineering'
