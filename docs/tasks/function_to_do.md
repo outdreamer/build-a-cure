@@ -1,9 +1,12 @@
 # to do
 
-  - go over possible alternate implementation strategies
+  - go over possible alternate implementation strategies & the path connecting different versions of the implementation
     - examples:
       - creating fundamental structure (like 'difference') space structures of varying structure ('difference') types, so interface queries can be implemented for example by selecting a 'difference network' to compare structures on (like interface structure differences, like input/output, value, definition, structure (sequence/position/path), interaction structure (like 'connection/change type') differences')
       - creating the set of useful functions of the referenced function types (general, core interaction, problem-solving intent, interim functions, interface structure functions, problem-function functions, commonly useful interface functions, function-connecting functions, etc), and adding any new functions required, to use as possible interface query steps or workflow components
+      - storing useful interface queries & other problem-solving structures that typically produce solutions in configuration & iterating through those according to similarity of problem to the problems associated with those solutions
+        - for example, using the interface query to 'apply useful structures by default as a problem-solving or solution component/input' by default, & iterating through other interface queries like those implementing "formatting problems in more solvable problem structures like 'find a prediction function' & applying known solutions" based on success probability, either for problems in general or for similar problems
+      - implementing interface queries & other problem-solving structures by applying similarities to configured interface queries & structures where they are similar, and applying variables & associated differences where they differ, rather than designing specific interface queries for each new problem with interface query design logic
 
   - validity/relevance as attributes associated with interfaces
 
