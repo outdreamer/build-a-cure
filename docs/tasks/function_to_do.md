@@ -1,21 +1,56 @@
 # to do
 
-  - example of creating a logical 'requirement': 
-    - if all cats are mammals, and a particular animal is a cat, then that particular animal is required to be a mammal
-  - why is this true? bc:
-    - one of the objects has a definition:
-      - a 'cat' is 'defined' to be a 'mammal'
-    - and another object has a definition:
-      - a 'particular animal' is 'defined' to be a 'cat'
-    - using the connection function 'is', indicating some form of 'equivalence' or 'containment'
-    - and a 'connection' in the form of an 'equivalence' exists between these two defined 'equivalence' rules
-      - a 'cat' is in both of the rules
-      - the connection functions are also equivalent ('is' is used in both rules)
-      - the connection function indicates equivalence
-      - a 'particular animal' is a 'cat' is a 'mammal' is a 'combination' rule or 'overlapping rule sequence' that can be created from the two rules
-      - a 'particular animal' is a 'cat' and a 'particular animal' is a 'mammal' are another set of rules that can be created from the two rules, forming equivalences
-      - the 'interim' structure of a 'cat' can be removed, since the 'is' equivalences connect the objects, and applying the property of 'associativity'
-  - these structures can be applied to generate a 'requirement' structure, given how equivalence structures can be connected and the properties that can be applied to them
+  - example of creating a logical 'requirement' structure by applying interface structures (like 'equivalence', 'definitions', 'connections', 'interim structures', 'overlaps', 'skips', 'new structures', and 'difference/opposites/reversals')
+
+    - 'requirement' rule structure created by two initial rules: 
+      - 'if all cats are mammals, and a particular animal is a cat, then that particular animal is required to be a mammal by definition'
+    
+    - why is this true? bc:
+      
+      - one of the objects has a definition:
+        - a 'cat' is 'defined' to be a 'mammal'
+      
+      - and another object has a definition:
+        - a 'particular animal' is 'defined' to be a 'cat'
+      
+      - using the connection function 'is', indicating some form of 'equivalence' or 'containment'
+        - the connection function 'is' indicates equivalence (a cat = a mammal) in this context
+          - theyre equal in the context of 'containment/possession', not in the context of 'identity'
+            - 'is' here means 'is a member of the type': 'a cat is a member of the type of mammal' and 'a particular animal is a member of the type of cat'
+        
+      - and a 'connection' in the form of an 'equivalence' exists between these two defined 'equivalence' rules
+        - a 'cat' is in both of the rules, indicating an equivalent structure they have in common, thus forming a basis for connecting the rules around their common component
+        
+      - and an 'equivalence' in the form of the equal connection functions
+        - the connection functions used in both rules are also equivalent ('is' is used in both rules)
+
+      - alternatively, there is an 'overlap' structure between a 'particular animal' & a 'cat', and between a 'cat' and a 'mammal', which create another overlap structure between a 'particular animal' and a 'mammal'
+
+      - which means that:
+
+        - a 'requirement' in the form of a 'combination' rule or 'overlapping rule sequence' can be created
+          - the rule "a 'particular animal' is a 'cat' is a 'mammal'"
+        
+        - a 'requirement' in the form of a 'new connection' or a 'interim node-skipping rule' rule can be created from the equivalences in the connection function 'is'
+          - the rule "a 'particular animal' is a 'mammal'"
+
+          - the 'interim' structure of a 'cat' can be removed, since the 'is' equivalences connect the objects, and applying the property of 'associativity' available to equivalent operations
+          
+        - a 'requirement' in the form of a 'connection rule limit', in that the following rules cannot be applied to 'connect the defined structures', only to 'limit possible connections'
+          
+          - attributes that reverse the order of the connections cannot be applied in an equivalent way
+            - the reversed-order rules of 'a mammal is a cat' and 'a cat is a particular animal' cannot be applied to infer the rule that 'a mammal is a particular animal' (false because it implies that 'all other mammals that are not the particular animal are not mammals')
+            - the reversed-order context-specific rules of 'a mammal is a type of cat' and 'a cat is a type of particular animal' are similarly false
+
+    - in summary, these structures can be applied to generate a 'requirement' structure, given how 'equivalence' structures can be 'connected' and the attributes associated with 'equivalence' that can be applied to them
+
+      - the primary requirement structure (the associated connection rule) can be inferred in multiple ways, from the multiple equivalences that exist in the initial two rules given
+        - it can also be inferred by the common component of the two rules, assuming that if two rules have a component in common ('cat'), they might be related and might interact
+          - if they further have other equivalences ('is') they are likelier to be related
+          - if their connections indicate equivalence itself ('is' is a form of 'equivalence') or are a definition route of equivalence or some version of equivalence, they can inherit attributes of the 'equivalence' concept definition (like associativity), and their interactions can be inferred from uncontradicted implications or requirements from those related definitions
+
+      - the second requirement structure (the limit) can be inferred using opposite structures
+
 
   - validity/relevance as attributes associated with interfaces
 
