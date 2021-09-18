@@ -7,6 +7,8 @@
       - storing useful interface queries & other problem-solving structures that typically produce solutions in configuration & iterating through those according to similarity of problem to the problems associated with those solutions
         - for example, using the interface query to 'apply useful structures by default as a problem-solving or solution component/input' by default, & iterating through other interface queries like those implementing "formatting problems in more solvable problem structures like 'find a prediction function' & applying known solutions" based on success probability, either for problems in general or for similar problems
       - implementing interface queries & other problem-solving structures by applying similarities to configured interface queries & structures where they are similar, and applying variables & associated differences where they differ, rather than designing specific interface queries for each new problem with interface query design logic
+      - a sorting function to sort structures in a problem space as either problem/solution structures & apply useful function types based on their classification
+
 
   - validity/relevance as attributes associated with interfaces
 

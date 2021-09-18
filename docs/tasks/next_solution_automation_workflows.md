@@ -1,5 +1,12 @@
 # add to solution automation workflows
 
+      - apply useful functions/structures to describe a problem space's interactions so that if structures of those useful structures dont solve the problem, any other interactions must necessarily contain the problem structures
+        - example: identify all the structures in a problem space that would be the output of the 'find' function (identify all the 'definitions' that would be found by applying the 'find definitions' function to the problem space)
+          - then do the same for the other useful functions ('organize', 'explain', 'reduce', 'connect') 
+          - once you have the problem space described by these functions/structures, if the problem isnt solvable using those structures, then the other interactions not mapped by those useful functions/structures must contain the problem
+          - this applies the 'opposite' structure to create a 'solution space filter', where possible solutions are initially the set of structures of useful structures and if not found among those structures, the solution space is the set of structures not mapped by the useful structures
+        - this mapping can be re-used for future interface queries in that problem space
+        
       - apply interface structures to the cross-interface interface structure (apply 'differences' to 'variables' which are both on a cross-interface structure connecting associated structures on the structure/change interfaces), given that the cross-interface structure forms a symmetry of related structures and applying changes to this symmetry would identify alternate combinations of structures that preserve the original meaningful connection, as a way of generating useful structures
 
       - identify 'problem-function connecting' functions on the interaction level of specific problem structures and other function types, such as 'overlap equivalent problem structures' or 'limit possible connections between problem structures' as specific useful structures in the problem space to start from, to fulfill the 'filter the solution space' problem-solving intent

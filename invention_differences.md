@@ -4,7 +4,8 @@
 	- these assistants may:
 		- apply specific static coded functions to solve the problem of 'find/generate/derive a math proof', functions like:
 			- 'apply machine learning to generate probable proofs'
-			- 'apply combinations of proof inputs or components to generate possible proofs' 
+			- 'apply combinations of proof inputs or components to generate possible proofs'
+			- 'apply rules in a rules database to valid inputs to those rules'
 		- perform calculations related to the proof, so every calculation doesnt have to be done manually
 			- like 'calculate the ratio of nodes with this attribute in a network, for networks of size n for all n from 1 to a million'
 	- these assistants do not:
