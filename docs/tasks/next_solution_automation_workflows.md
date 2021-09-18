@@ -1,5 +1,8 @@
     - add to solution automation workflows      
 
+      - apply core interaction functions (like 'reduce', 'connect') and other function types (like 'abstract') and other useful structures to all relevant structures of the problem space to find useful changes to relevant problem structures that would reduce the problem of fulfilling problem-solving intents for those structures
+        - example: applying 'reduce' to a 'variable' structure in the 'find a prediction function' problem into its components/inputs/attributes/generator may make useful structures like 'structural similarities' between relevant structures like 'variables' more obvious so they can be 'reduced' into one variable like a 'type' for relevant specific problem-solving intents like 'reduce dimensions' or 'feature engineering'
+
       - identify the maximally different functions fulfilling a 'core interaction-interface' function (like 'reduce change types') from existing functions to begin a search for new solutions if existing solution functions produce errors
         - combinations of core interaction functions & interface structures would be likely useful in solving problems
           - examples: 'filter cause structures', 'connect interaction layers', 'sort useful structures'
@@ -7,7 +10,7 @@
         - the difference in this function type is that these functions are likelier to be useful than other function types like general functions, core interaction functions which must be combined in a structure in order to be useful, or interface functions which are likely to require their own interface query
         - this function type is similar to problem-solving intent functions, interim functions, & interface queries, and may be able to be used as a substitute of some interface queries
         - generalization: 
-          - after generating the set of possible useful interface queries to solve a problem, identify the emergent functions that are the most often required to identify new or temporarily/conditionally useful function interaction levels & their metadata (why theyre useful, what is required for them to be useful, useful variants, etc)
+          - after generating the set of possible useful interface queries to solve a problem, identify the emergent functions that are the most often required in the interface queries, to identify new or temporarily/conditionally useful function interaction levels & their metadata (why theyre useful, what is required for them to be useful, useful variants, etc)
 
       - find cross-interface structures (like the 'intersection' of 'structures' and 'causes' and 'patterns' of 'variable interactions') that interact with important problem structures that are determining for the success of a solution in various error type conditions
         - example: for the 'find a prediction function' problem:
