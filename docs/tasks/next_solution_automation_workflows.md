@@ -1,5 +1,10 @@
     - add to solution automation workflows
 
+      - find/derive/generate problem structure that would produce a solution to a problem in another system
+        - if a solution structure with a particular attribute/function is required, find/derive/generate a problem structure like a problem system that would produce that solution structure in another system & test it in the original problem system
+        - find/derive/generate a system with reasons/causes to generate a structure with the attribute/function, and which uses the structure for a similar cause/intent
+        - example: for the 'find a prediction function' problem, this would involve finding a similar data set & using a successful solution function for that data set, similarity based on interface structures like cause or variable interactions or change types
+
       - apply intent interface specifically to derive specific problem-solving intents for a specific problem type that all problems can be converted to, intents that would be useful in solving the problem
         - example: deriving the intent of 'reducing variables' as a useful problem-solving intent for the 'find a prediction function' problem involves applying the definition of concepts like noise/outliers as an indication of irrelevant variables
           - 'reducing variables' could then be an intent in a default interface query connecting the problem/solution for the specific problem type of 'find a prediction function', after converting a problem to a problem of 'finding a prediction function' 
