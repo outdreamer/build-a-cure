@@ -1,5 +1,14 @@
 # to do
 
+  - derive the best explanation for a complex connection structure (like a neural network)
+    - identify an example in the form of the simplest specific solution format sequence between input/output, with structures indicating:
+      - structures representing the most unique information possible, to reduce structures required to visualize (if its a large network, this means indicating the inputs/outputs of as few node layers as is necessary to explain the functionality, cause, intent, etc)
+      - relevant differences (structures indicating different activated nodes, different functions/weights/node types)
+    - generate 'opposite/difference' structures that would not be the solution format sequence (why 2 interim nodes wouldnt work for a multi-layer perceptron)
+    - translate the structure into language terms relevant to the input/output or at least the adjacent surrounding structures (a 'node that enables output equivalence or output neutralization' as opposed to a 'node with output -2')
+    - include info about 'why' so the intent/cause is always connected to the structure
+      - example: include info about 'why it cant be some other structure' so structures of 'requirement' are included, as structures of 'cause' (requirements being causal)
+
   - go over possible alternate implementation strategies & the path connecting different versions of the implementation
     - examples:
       - creating fundamental structure (like 'difference') space structures of varying structure ('difference') types, so interface queries can be implemented for example by selecting a 'difference network' to compare structures on (like interface structure differences, like input/output, value, definition, structure (sequence/position/path), interaction structure (like 'connection/change type') differences')
@@ -8,7 +17,7 @@
         - for example, using the interface query to 'apply useful structures by default as a problem-solving or solution component/input' by default, & iterating through other interface queries like those implementing "formatting problems in more solvable problem structures like 'find a prediction function' & applying known solutions" based on success probability, either for problems in general or for similar problems
       - implementing interface queries & other problem-solving structures by applying similarities to configured interface queries & structures where they are similar, and applying variables & associated differences where they differ, rather than designing specific interface queries for each new problem with interface query design logic
       - a sorting function to sort structures in a problem space as either problem/solution structures & apply useful function types based on their classification
-
+      - apply 'useful structure map applied to a problem space' to find likely useful structures in a problem space
 
   - validity/relevance as attributes associated with interfaces
 
