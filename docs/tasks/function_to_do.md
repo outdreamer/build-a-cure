@@ -165,13 +165,15 @@
         - the interaction space of restrictions is a useful structure to determine possible change types (how various definition routes of dimension can interact without invalidating another definition or each other)
         - https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/
     - examine differences in functionality in cancer cells, like why some cell types dont have the same problems from aging/inflammation/exhaustion that other cells do - is it enabling genetic configuration or other factors?
-    - this insight applies an interface query to implement 'finding similar alternatives' to 'replace nodes' in an 'input-output sequence'
-      - examine 'inner product space' in relation to correlated universes (a 'similarity function' in the form of quantum entanglements producing an extra higher dimension)
-      - the 'infinite tree' produced in the 'bulk space' by switching in p-adic numbers as an 'alternate structure' possibly has a connection to the 'infinite particle position probability field' structures in the quantum field theory of an 'equilibrium across universes' or 'composite hologram created by the intersection of multiple universes', the 'equilibrium' mapping to some combination of parameters of spaces, dimensions, number types, aggregation functions, similarity/adjacence functions, & other components of the theory that corresponds to a corresponding useful structure on a topography of universes intersections & combinations, where gravity determines adjacence of points on the lower-dimensional space & what information survives, and where 'position probabilities' are scrambled bc theres no 'required enforcement of adjacence' once quantum entanglements form
+    - similarities between physics systems and math functions
+      - this insight applies an interface query to implement 'finding similar alternatives' to 'replace nodes' in an 'input-output sequence'
+        - examine 'inner product space' in relation to correlated universes (a 'similarity function' in the form of quantum entanglements producing an extra higher dimension)
+      - the 'infinite tree' produced in the 'bulk space' by switching in p-adic numbers as an 'alternate/interchangeable structure with a similar attribute of holography' possibly has a connection to the 'infinite particle position probability field' structures in the quantum field theory of an 'equilibrium across universes' or 'composite hologram created by the intersection of multiple universes', the 'equilibrium' mapping to some combination of parameters of spaces, dimensions, number types, aggregation functions, similarity/adjacence functions, & other components of the theory that corresponds to a corresponding useful structure on a topography of universes intersections & combinations, where gravity determines adjacence of points on the lower-dimensional space & what information survives, and where 'position probabilities' are scrambled bc theres no 'required enforcement of adjacence' once quantum entanglements form
       - examine the holographic output of 'information' as the temporary past storage of energy used to provide a maximum limit on the entropy of the universe so it cant be completely chaotic
-      - 'perfect calculatability' as a 'time-reversal' tool
+      - 'perfect calculatability', 'information generation', 'de-randomization' (creation of order) tools as 'time-reversal' tools
         - if you can calculate physics perfectly, and you know a past state, you can calculate a state in between the past and current state perfectly, and the 'information of how to get to a state' might as well be equivalent to 'traveling to that past state' bc it makes 're-creating that state' or 'following the trajectory to that state' trivial (adjacent, if not equivalent in position)
       - https://www.quantamagazine.org/one-labs-quest-to-build-space-time-out-of-quantum-particles-20210907/
+    - what differentiates a time crystal 'infinite change for no energy' from an electron, which contains energy and maintains it in a stable state, assuming no interference from interactions
 
   - add to ml
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
@@ -282,6 +284,24 @@
   - derive logic types that would be necessary to complete the logic interface & give examples of logical object interactions
 
   - add to problem/solution structures
+
+    - when understanding a system of agents, do you think in terms of the following interfaces & interface combinations
+      - physical agent system
+      - functions, like thinking or communication & other interaction functions
+      - traversals of the paths of the system & the inputs/outputs of these path traversals
+      - attributes like cost & the attribute network connecting them
+      - system structures like incentives/games
+      - a system of games
+      - a set of possible state changes for an agent, or for the system, or for functions
+      - probabilities of actions given system info
+      - probabilities of games, functions, or path traversal in the system
+
+      - these interfaces provide different structures to understand the system with, but its not immediately obvious which interface is most useful to understand a system
+      - often the problems with combination interfaces is that there are structures of recursion, self-reference, loops, & ambiguities that make a difference type unclear
+        - example: 
+          - the concept of probability may occur in a language network, and the concept may appear elsewhere in the network, such as 'probability of co-occurrence or similarity determined by position'
+          - the 'attributes' of 'attribute' may occur in a network of 'attributes', where the concept of 'attribute' appears in these structures on the network but is not explicitly defined on the network
+        - this overlap may not cause a semantic problem, but it often does, mostly in the confusion (non-explicit connection/mapping) between different interface combinations
 
     - a 'find a solution' function should be able to be converted into a 'generate a solution' function & other functions like 'test a solution' & 'apply a solution', bc as the brain learns, it can generate solutions on demand once understanding develops
 
