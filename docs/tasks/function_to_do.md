@@ -1,5 +1,21 @@
 # to do
 
+  - how to derive 'apply differences to inputs to see if they can change the output to see if the solution is true'
+
+  - add impact of methods on various network types given the differences in method/network structures & include assumptions
+
+  - how to derive the rule 'choose algorithm with low bias/high variance for large data sets'
+    - use 'random forest' bagging method to reduce high variance
+    - high variance is a problem when a sample data set is not representative of the population, producing accuracy for the training data subsets & errors for all other data subsets
+      - if a data set is relatively large in relation to the population, the 'sample data set is not representative of the population' is less likely to be a relevant problem
+      - 'variance can only be reduced by averaging over multiple observations, which inherently means using information from a larger region'
+    - high bias is a problem when sample data sets differ from the population mean by a lot, producing errors for most samples unless they happen to be represented by the general model
+      - if a data set is relatively large in relation to the population, the 'sample data sets differ from the population mean' is less likely to be a relevant problem, so the large data set can be used as a basis for the general model
+      - 'bias is reduced using local information'
+
+      - If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.
+      - If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.
+
   - derive the best explanation for a complex connection structure (like a neural network)
     - identify an example in the form of the simplest specific solution format sequence between input/output, with structures indicating:
       - structures representing the most unique information possible, to reduce structures required to visualize (if its a large network, this means indicating the inputs/outputs of as few node layers as is necessary to explain the functionality, cause, intent, etc)
