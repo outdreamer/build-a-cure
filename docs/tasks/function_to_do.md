@@ -296,6 +296,24 @@
       - probabilities of actions given system info
       - probabilities of games, functions, or path traversal in the system
 
+      - another example is in automation design - do you think in terms of:
+        - application logic
+        - existing functions & necessary changes
+        - cross-abstraction level impact
+        - how to convert everything into configuration (or code in the form of a function/script/template/document)
+        - which functional position/structure a change should occur in
+        - impact on the business
+        - technical debt & possible errors introduced by the required change
+        - whether the change is actually required, and the related priority & demand for the task
+        - whether alternatives or an existing solution exists
+        - whether the solution is testable in the timeframe allowed
+        - the opportunity cost of building it vs. building something else
+        - whether it can be re-used or abstracted
+        - whether it fits into an existing system or requires its own
+        - whether assumptions are correct or need clarification/evaluation before building
+        - whether an upcoming planned feature release of a tool will fulfill the task
+        - whether default/adjacent implementations of the task run into known vulnerabilities or limitations of the tech stack
+
       - these interfaces provide different structures to understand the system with, but its not immediately obvious which interface is most useful to understand a system
       - often the problems with combination interfaces is that there are structures of recursion, self-reference, loops, & ambiguities that make a difference type unclear
         - example: 
