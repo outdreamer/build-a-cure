@@ -165,7 +165,12 @@
         - the interaction space of restrictions is a useful structure to determine possible change types (how various definition routes of dimension can interact without invalidating another definition or each other)
         - https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/
     - examine differences in functionality in cancer cells, like why some cell types dont have the same problems from aging/inflammation/exhaustion that other cells do - is it enabling genetic configuration or other factors?
-    - examine 'inner product space' in relation to correlated universes (a 'similarity function' in the form of quantum entanglements producing an extra higher dimension)
+    - this insight applies an interface query to implement 'finding similar alternatives' to 'replace nodes' in an 'input-output sequence'
+      - examine 'inner product space' in relation to correlated universes (a 'similarity function' in the form of quantum entanglements producing an extra higher dimension)
+      - the 'infinite tree' produced in the 'bulk space' by switching in p-adic numbers as an 'alternate structure' possibly has a connection to the 'infinite particle position probability field' structures in the quantum field theory of an 'equilibrium across universes' or 'composite hologram created by the intersection of multiple universes', the 'equilibrium' mapping to some combination of parameters of spaces, dimensions, number types, aggregation functions, similarity/adjacence functions, & other components of the theory that corresponds to a corresponding useful structure on a topography of universes intersections & combinations, where gravity determines adjacence of points on the lower-dimensional space & what information survives, and where 'position probabilities' are scrambled bc theres no 'required enforcement of adjacence' once quantum entanglements form
+      - examine the holographic output of 'information' as the temporary past storage of energy used to provide a maximum limit on the entropy of the universe so it cant be completely chaotic
+      - 'perfect calculatability' as a 'time-reversal' tool
+        - if you can calculate physics perfectly, and you know a past state, you can calculate a state in between the past and current state perfectly, and the 'information of how to get to a state' might as well be equivalent to 'traveling to that past state' bc it makes 're-creating that state' or 'following the trajectory to that state' trivial (adjacent, if not equivalent in position)
       - https://www.quantamagazine.org/one-labs-quest-to-build-space-time-out-of-quantum-particles-20210907/
 
   - add to ml
