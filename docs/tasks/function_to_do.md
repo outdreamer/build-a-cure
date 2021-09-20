@@ -165,6 +165,8 @@
         - the interaction space of restrictions is a useful structure to determine possible change types (how various definition routes of dimension can interact without invalidating another definition or each other)
         - https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/
     - examine differences in functionality in cancer cells, like why some cell types dont have the same problems from aging/inflammation/exhaustion that other cells do - is it enabling genetic configuration or other factors?
+    - examine 'inner product space' in relation to correlated universes (a 'similarity function' in the form of quantum entanglements producing an extra higher dimension)
+      - https://www.quantamagazine.org/one-labs-quest-to-build-space-time-out-of-quantum-particles-20210907/
 
   - add to ml
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)

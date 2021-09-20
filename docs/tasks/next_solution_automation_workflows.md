@@ -3,6 +3,7 @@
       - find symmetries & variables/functions of them between alternative workflows having the same problem/solution structures & result, and apply these variables to generate other workflows
         - example: 'aim for adjacent state to the solution instead of the solution, then transform it to the original problem solution' and 'solve a different but similar problem' and 'solve the opposite problem, then transform it to the original problem solution using opposite structures' can both have the same resulting interface query & result
           - their common structures involve variations of the 'aim for a different problem-solving intent or destination' and 'change a base solution into the original problem solution' functions, to which changes can be applied to generate other workflows
+          - examples of 'adjacent states' or 'similar function formats' for the 'find a prediction function' problem include 'parameterizing a function based on a general function specified by the parameters' (where the function would be in the format of the 'parameter values')
 
       - apply useful functions/structures to describe a problem space's interactions so that if structures of those useful structures dont solve the problem, any other interactions must necessarily contain the problem structures
         - example: identify all the structures in a problem space that would be the output of the 'find' function (identify all the 'definitions' that would be found by applying the 'find definitions' function to the problem space)
