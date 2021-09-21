@@ -76,31 +76,192 @@
     
     - illustration of all possible iterations through the network, with four possible input states
 
-              x = 0             x = 0
+        - for inputs (0,0), the inputs, thresholds, non-zero values (indicated by asterisk), & weights looks like this:            
             1 -2  1
           (1) (2) (1)      
             1  1  1
             (0) (0)
+          
+          - final total:  y = 0 + 0 + 0      y = 0
 
-              x = 1             x = 1
+          - for these inputs (0,0), the trajectory of value sequences on each layer looks like this:
+               0   0   0
+              /    |    \
+             0   0 + 0   0
+             \    /\    /
+              0  0  0  0
+
+          - for these inputs (0,0), the trajectory of value sequences after each operation looks like this:
+                   0
+               0   0   0
+          0*1     0*-2     0*1
+   (0 if x<1)  (0 if x<2)  (0 if x<1)
+           0       0       0
+           0     0 + 0     0
+          0*1 (0*1)=(0*1) 0*1
+             \    /\    /
+              0  0  0  0
+
+          - in sequence format, where the sums of the last values equals the final total:
+
+            - layer value sequence:
+              0 -> 0 -> 0
+              0,0 -> 0 + 0 -> 0
+              0 -> 0 -> 0
+
+            - operation value sequence:
+              0   -> 0 * 1         -> 0 -> 0 * 1  -> 0
+              0,0 -> 0 * 1 + 0 * 1 -> 0 -> 0 * -2 -> 0
+              0   -> 0 * 1         -> 0 -> 0 * 1  -> 0
+
+            - linear function requirement added by this input-output map (equivalent inputs (0,0) equal an output of zero)
+              - 0 + 0 + 0 = 0
+
+
+        - for inputs (0,1), the inputs, thresholds, non-zero values (indicated by asterisk), & weights looks like this:
             1 -2  1
           (1) (2) (1)*
             1  1  1
             (0) (1)*
 
-              x = 1             x = 1
+          - final total:  y = 0 + 0 + 1      y = 1
+
+          - for these inputs (0,1), the trajectory of value sequences on each layer looks like this:
+               0   0   1
+              /    |    \
+             0   0 + 1   1
+             \    /\    /
+              0  0  1  1
+
+          - for these inputs (0,1), the trajectory of value sequences after each operation looks like this:
+
+                   1
+               0   0   1
+          0*1     0*-2     1*1
+   (0 if x<1)  (0 if x<2)  (1 if x=1)
+           0       1       1
+           0     0 + 1     1
+          0*1 (0*1)=(1*1) 1*1
+             \    /\    /
+              0  0  1  1
+
+          - in sequence format, where the sums of the last values equals the final total:
+
+            - layer value sequence
+              0 -> 0 -> 0
+              0,1 -> 0 + 1 -> 0
+              1 -> 1 -> 1
+
+            - operation value sequence:
+              0   -> 0 * 1         -> 0 -> 0 * 1  -> 0
+              0,1 -> 0 * 1 + 1 * 1 -> 1 -> 0 * -2 -> 0
+              1   -> 1 * 1         -> 1 -> 1 * 1  -> 1
+
+            - linear function requirement added by this input-output map (different inputs (0,1) equal an output of 1)
+              - 0 + 0 + 1 = 1
+
+
+        - for inputs (1,0), the inputs, thresholds, non-zero values (indicated by asterisk), & weights looks like this:
             1 -2  1
           (1)* (2) (1)
             1  1  1
             (1)* (0)
+        
+          - final total:  y = 1 + 0 + 0      y = 1
 
-              x = 1 + -2 + 1    x = 0
+          - for inputs (1,0), the trajectory of value sequences on each layer looks like this:
+
+               1   0   0
+              /    |    \
+             1   1 + 0   0
+             \    /\    /
+              1  1  0  0
+
+          - for these inputs (1,0), the trajectory of value sequences after each operation looks like this:
+
+                   1
+               1   0   0
+          1*1     0*-2     0*1
+   (1 if x=1)  (0 if x<2)  (0 if x<1)
+           1       1       0
+           1     1 + 0     0
+          1*1 (1*1)=(0*1) 0*1
+             \    /\    /
+              1  1  0  0
+
+          - in sequence format, where the sums of the last values equals the final total:
+
+            - layer value sequence:
+              1 -> 1 -> 1
+              1,0 -> 1 + 0 -> 0
+              0 -> 0 -> 0
+
+            - operation value sequence:
+              1   -> 1 * 1         -> 1 -> 1 * 1  -> 1
+              1,0 -> 1 * 1 + 0 * 1 -> 1 -> 0 * -2 -> 0
+              0   -> 0 * 1         -> 0 -> 0 * 1  -> 0
+
+            - linear function requirement added by this input-output map (different inputs (1,0) equal an output of 1)
+              - 1 + 0 + 0 = 1
+
+
+        - for inputs (1,1), the inputs, thresholds, non-zero values (indicated by asterisk), & weights looks like this:
             1 -2  1
           (1)* (2)* (1)*
             1  1  1
             (1)* (1)*
 
-      - this indicates why three nodes are required to map four possible input states to two possible output states
+          - final total:  y = 1 + -2 + 1      y = 
+
+          - for these inputs (1,1), the trajectory of value sequences on each layer looks like this:
+               1   1   1
+              /    |    \
+             1   1 + 1   1
+             \    /\    /
+              1  1  1  1
+
+          - for these inputs (1,1), the trajectory of value sequences after each operation looks like this:
+                   1
+               1  -2   1
+          1*1     1*-2     1*1
+   (1 if x=1)  (2 if x=2)  (1 if x=1)
+           1       2       1
+           1     1 + 1     1
+          1*1 (1*1)=(1*1) 1*1
+             \    /\    /
+              1  1  1  1
+
+          - in sequence format, where the sums of the last values equals the final total:
+
+            - layer value sequence:
+              1 -> 1 * 1 -> 1
+              1,1 -> 1 * 1 + 1 * 1 -> -2
+              1 -> 1 * 1 -> 1
+
+            - operation value sequence:
+              1   -> 1 * 1         -> 1 -> 1 * 1  -> 1
+              1,1 -> 1 * 1 + 1 * 1 -> 2 -> 1 * -2 -> -2   
+              1   -> 1 * 1         -> 1 -> 1 * 1  -> 1
+
+            - linear function requirement added by this input-output map (equivalent inputs (1,1) equal an output of zero)
+              - 1 + -2 + 1 = 0
+
+
+          - initially, the program converts the two inputs x1 and x2 into three values: 
+            - x1, a combination of x1 and x2, and x2
+
+          - using one sequence that isolates each input, and one sequence that combines the different inputs using a sum, & applying weights at each layer to scale/change values, we convert the initial two values into three values (the first weights applied to inputs & input combinations), then another three values (applying the threshold function), then another three values (applying the second set of weights), then sums those three values to create one value
+
+          - the system of linear equations that needs to be fulfilled according to this configuration is:
+
+            0 +  0 + 0 = 0
+            0 +  0 + 1 = 1
+            1 +  0 + 0 = 1
+            1 + -2 + 1 = 0
+
+            - these summed values are the output of a weight applied to a filtering threshold applied to a weighted combination of inputs (which might include only one input), and the value the sums equal is the required output according to the function definition
+
+      - this indicates why three nodes can be used to map four possible input states to two possible output states
         
         - there are two ways to get to 0, and two ways to get to 1, just like in the mapping from four possible input states to two possible output states
         
