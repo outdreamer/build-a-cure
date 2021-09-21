@@ -3,9 +3,9 @@
 	- to connect the default structure (one degree of difference to data points) of 'adjacent point connections' and the solution of 'regression':
 		- the default structure on a graph of data points is 'connections between adjacent points'
 			- apply core functions like 'compare'
-				- to implement 'compare', its necessary to standardize comparisons of these connecting lines between adjacent points, you would align them vertically or horizontally
-				- once they are aligned vertically, there would be a clear trend connecting the common area crossed by the lines
-				- the concept of 'average' would be derived by finding the most common points across all the adjacent-point connecting lines
+				- to implement 'compare', its necessary to standardize comparisons of these connecting lines between adjacent points, you would 'align' them vertically or horizontally
+				- once they are aligned vertically, there would be a clear trend connecting the 'common' area crossed by the lines
+				- the concept of 'average' would be derived by finding the most 'common' points across all the adjacent-point connecting lines
 		- this gives a 'standard' solution of a constant-sloped line to predict data points
 			- this standard solution is sub-optimal when the variation about the average is high, where the average represented by the regression line will be highly inaccurate for most values
 	
@@ -70,6 +70,7 @@
 										- linearly mapping operations known to be adjacent to the target prediction function to combinations of structures like layers or adjacent node/weight paths in the network
 										- applying pre-processing to the data so the network can be used to learn weights of input terms of the prediction function polynomial, bc inputs are transformed with exponents & other operations whose structures arent supported by the network
                     - starting from other 'enabling function/structure' & 'requirement' pairs (like a 'required level of accuracy' and an 'approximation function')
+                
                 - other relevant questions include:
                   - 'why can a network learn a non-linear function', which is the same reason it can learn other function types
                   - 'why apply a neural network instead of a logic function network' (a set of if/then statements, or a set of specific processing functions for each task or a query on a general function network amounting to the same)
