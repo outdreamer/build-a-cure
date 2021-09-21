@@ -311,7 +311,7 @@
                 - [0,0] -> [0] -> [0]
                 - [0,0] -> [0 + 0] -> [0] -> if 0 = 0, output 0 -> [0]
               - we know that simple functions like the XOR arent enough to represent a curved line, we need other operations to connect these data points in a curved line
-              - how would you represent these state changes for each input/output example in another way
+              - how would you represent these state changes for each input/output example in another way, given that we know existing operations arent enough to connect them?
                 - other structures include thresholds (activations) & coefficients (multiplication)
                   - a function using a threshold outputs a value with no impact on future operations (0) if the input is below/above a certain threshold value, 'deactivating' it
                   - a coefficient multiplier scales values, changing their value, but not their data type or format, and not changing them to zero (relevant to threshold functions) if coefficients are non-zero
@@ -332,22 +332,39 @@
                       - next or alternatively, the integration of the input-interim and interim-output connection functions:
                         - 'what are the coefficients & thresholds that could convert the 2 inputs of 1/0 values into 3 interim 1/0 values and 1 output 1/0 value, given how those two pairs of values (input-interim, interim-output) can be connected'
                       - the solution of two vectors of weights/coefficients & sums applied to inputs is different from the standard representation of the XOR function, which finds the difference between the two inputs and outputs 1/0 according to whether the difference is 0 or 1 (which in ml would be called 'data pre-processing', by using the 'difference between inputs' as the input, instead of the original inputs)
-              - other interface queries could have asked questions like 'what structure aligns with the non-linear prediction function structure of incremental state changes between input (constant line) and output (curved line)'
+              
+              - other interface queries could have asked questions like:
+                - 'what structure aligns with the non-linear prediction function structure of incremental state changes between input (constant regression line) and output (curved line)'
+                - 'what structure aligns with the state sequence converting a term of (constant multiplier * x) into a term of (x ^ exponent)'
+                - these queries would have produced other structures aligning with state sequences, like vector operations applied to vector sequences (used for solving for systems of linear equations)
+                  - noting how similar solutions are to the target value without removing any terms, they might come up with the 'threshold' structure by applying the structure interface to apply an 'adjacent operation' of 'removing' the terms preventing the solution from being reached, and a way to tell which values to remove (threshold function mapping deactivated values to zero), that would consistently produce accurate solutions across all inputs/outputs
+
             - in this way, we could derive the structure of a 'neural network' (or sequences of vector operations applied to create an output vector from an input vector) to solve the problem in a different way
               - with this structure, we have a way to transform inputs into higher-dimension outputs that can be mapped to outputs in another way, using sums/weights
+              - how do we apply it to get non-linearity of the prediction function, either from a vector of the original x-values, or the averages represented in the constant regression line?
+                - the impact of the network has to be that of operations including an exponent (multiplying the input by itself to some degree)
+                  - so the 'vector sequence' has to reflect a net change that equals exponential change of some degree
+                    - now we are asking the question:
+                      - 'how could sums/weights/deactivations be applied in a sequence to create exponential change applied to the input x' (resulting in y)
+                      - we can derive this sequence either:
+                        - starting from combinations of thresholds/weights/sums assigned to different positions in the network & finding combinations that map inputs to outputs
+                        - connecting adjacent states, then connecting those connections, as indicated above
+                        - deriving what operations produce exponential change (self multipliers) and mapping those structures to the network operations (what weights/sums/thresholds produce self-multiplication to the required degree)
+                        - linearly mapping operations known to be adjacent to the target prediction function to combinations of structures like layers or adjacent node/weight paths in the network
+                        - applying pre-processing to the data so the network can be used to learn weights of input terms of the prediction function polynomial, bc inputs are transformed with exponents & other operations whose structures arent supported by the network
                 - non-linearity of a function implies the 'combination of many subset functions' and the 'combination of many random variables' and requires 'exponential change types'
-                - the difference between coefficients & exponents can be thought of as 'guaranteeing a change type of a particular rate', where coefficients can be less than constant change and exponents (of integer values) reflect greater than constant change
+                - the difference between coefficient multipliers & integer exponents can be thought of as 'guaranteeing a change type of a particular rate', where coefficients can be less than constant change and exponents (of integer values) reflect greater than constant change
                 - 'combining many subset functions' or 'combining incremental state changes' to create a function aligns with the network structure of 'vector state sequences'
-                - 'finding local averages' can be reflected in the neural network architecture
+                - 'finding local averages' can be reflected in the neural network architecture of the sum/weight operation
                 - 'multiple routes between the same inputs/outputs' is a structure that is embedded in the 'neural network' structure
                   - 'multiple routes between the same input and different outputs' would be useful for predicting functions for structures like circles
-                - the corresponding neural network applied to a data set would solve the problem of 'convert this vector of x values into this vector of y values' or 'convert this x value into this y value'
+                - the corresponding neural network applied to a data set would solve the problem of 'convert this vector of x values into this vector of y values' or 'convert this x value into this y value' or 'convert this x value in this vector that is otherwise zeros into this y vector that is otherwise zeros'
                 - first it would create a vector of higher dimension than the input using sums/weights
                   - then it would apply thresholds, deactivating some of those interim values (converting them to zero)
                     - then the outputs of that deactivation would be multiplied by weights found to generate the y-value for that input x-value
                 - why would you 'deactivate' some inputs? bc theyre not relevant to generating the output using available operations (multiplication, sums)
                   - if your input is the entire vector of x-values, youd want to deactivate the other x-values that are not relevant to the output y-value for the x-value youre trying to predict (adjacent values could be considered relevant)
-                  - if your input is the interim vector produced by the thresholds to deactivate some values, youd want to deactivate the values that cant contribute to the output using coefficients & sums
+                  - if your input is the interim vector produced by the thresholds to deactivate some values, youd want to deactivate the values that cant contribute to the output y-value, using coefficients & sums
 
     - when understanding a system of agents, do you think in terms of the following interfaces & interface combinations
       - physical agent system
