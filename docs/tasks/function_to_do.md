@@ -1,10 +1,10 @@
 # to do
 
-  - how to derive 'apply differences to inputs to see if they can change the output to see if the solution is true'
+  - add example of how to derive 'apply differences to inputs to see if they can change the output to see if the solution is true'
 
-  - add impact of methods on various network types given the differences in method/network structures & include assumptions
+  - add example of impact of methods on various network types given the differences in method/network structures & include assumptions
 
-  - how to derive the rule 'choose algorithm with low bias/high variance for large data sets'
+  - add example of how to derive the rule 'choose algorithm with low bias/high variance for large data sets'
     - use 'random forest' bagging method to reduce high variance
     - high variance is a problem when a sample data set is not representative of the population, producing accuracy for the training data subsets & errors for all other data subsets
       - if a data set is relatively large in relation to the population, the 'sample data set is not representative of the population' is less likely to be a relevant problem
@@ -12,9 +12,8 @@
     - high bias is a problem when sample data sets differ from the population mean by a lot, producing errors for most samples unless they happen to be represented by the general model
       - if a data set is relatively large in relation to the population, the 'sample data sets differ from the population mean' is less likely to be a relevant problem, so the large data set can be used as a basis for the general model
       - 'bias is reduced using local information'
-
-      - If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.
-      - If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.
+      - 'If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.'
+      - 'If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.'
 
   - derive the best explanation for a complex connection structure (like a neural network)
     - identify an example in the form of the simplest specific solution format sequence between input/output, with structures indicating:
@@ -291,7 +290,9 @@
       - how do you filter these useful structures to find the most useful structures to focus on when solving problems in these systems
         - for example, how do you identify 'incentives' and 'cooperation' as particularly useful structures in agent-based systems:
           - 'incentives' are structures that simplify most other structures & 'cooperation' is a structure that simplifies the function of 'fulfilling intents' by 'distributing/sharing costs like responsibility to share inputs like information and share benefits', which is particularly useful bc benefit/cost is a core structure in agent-based games
-          - so these are useful structures by default, but they also decompose & standardize other useful structures into simpler structures that align with the core structures of the complex system, allowing efficient comparisons between alternate routes between states (like different positions or different resources) - in other words, they are a useful 'reducing structure' or 'simplifying structure', 'reduce' and 'simplify' being core interaction functions between problems/solutions, so having structures that fulfill those 'reduce' or 'simplify' functions that are useful for problem-solving is useful by definition
+          - so these are useful structures by default, but they also decompose & standardize other useful structures into simpler structures that align with the core structures of the complex system, allowing efficient comparisons between alternate routes between states (like different positions or different resources) - in other words, they are a useful 'reducing structure' or 'simplifying structure', 'reduce' and 'simplify' being core interaction functions & interim functions enabling interactions between problems/solutions, so having structures that fulfill those 'reduce' or 'simplify' functions that are useful for problem-solving is useful by definition
+        - you can filter these structures by which structures fulfill useful intents like 'reduce' or 'simplify' for other useful structures
+          - like how 'incentives' simplifies other useful structures like 'a system of games'
 
       - when understanding a system of agents, do you think in terms of the following interfaces & interface combinations
         - physical agent system
