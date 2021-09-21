@@ -286,16 +286,23 @@
 
   - add to problem/solution structures
 
-    - when understanding a system of agents, do you think in terms of the following interfaces & interface combinations
-      - physical agent system
-      - functions, like thinking or communication & other interaction functions
-      - traversals of the paths of the system & the inputs/outputs of these path traversals
-      - attributes like cost & the attribute network connecting them
-      - system structures like incentives/games
-      - a system of games
-      - a set of possible state changes for an agent, or for the system, or for functions
-      - probabilities of actions given system info
-      - probabilities of games, functions, or path traversal in the system
+    - various perspectives (like 'what future opportunities are invalidated by a decision'), interaction levels (like 'comparison to related alternative objects'), cross-interface structures (like 'state changes') & specific interface structures (attributes like 'reusability' or 'organization') offer useful info to making decisions about how to solve problems in complex systems
+      - some of this info overlaps across various structures, and some structures are more useful than others, and some structures can be combined to create the usefulness of other structures
+      - how do you filter these useful structures to find the most useful structures to focus on when solving problems in these systems
+        - for example, how do you identify 'incentives' and 'cooperation' as particularly useful structures in agent-based systems:
+          - 'incentives' are structures that simplify most other structures & 'cooperation' is a structure that simplifies the function of 'fulfilling intents' by 'distributing/sharing costs like responsibility to share inputs like information and share benefits', which is particularly useful bc benefit/cost is a core structure in agent-based games
+          - so these are useful structures by default, but they also decompose & standardize other useful structures into simpler structures that align with the core structures of the complex system, allowing efficient comparisons between alternate routes between states (like different positions or different resources) - in other words, they are a useful 'reducing structure' or 'simplifying structure', 'reduce' and 'simplify' being core interaction functions between problems/solutions, so having structures that fulfill those 'reduce' or 'simplify' functions that are useful for problem-solving is useful by definition
+
+      - when understanding a system of agents, do you think in terms of the following interfaces & interface combinations
+        - physical agent system
+        - functions, like thinking or communication & other interaction functions
+        - traversals of the paths of the system & the inputs/outputs of these path traversals
+        - attributes like cost & the attribute network connecting them
+        - system structures like incentives/games
+        - a system of games
+        - a set of possible state changes for an agent, or for the system, or for functions
+        - probabilities of actions given system info
+        - probabilities of games, functions, or path traversal in the system
 
       - another example is in automation design - do you think in terms of:
         - application logic
@@ -327,6 +334,22 @@
         - how to generalize & create variations of the function
         - how to rmeove bias in various positions (in data or in the network or in the model)
         - the limits on the relevance of the prediction function (time limits, scope/scale limits, interaction limits, topic limits, data limits)
+
+      - when governing:
+        - conflict minimization
+        - cost minimization (responsibility, cost)
+          - delegation of responsibility
+          - budget balancing/avoidance of debt
+        - power maintenance
+        - rule compliance
+        - unification & unified group size maintenance/increase
+        - representation
+        - diversity of inputs
+        - avoidance of enabling/permitting crimes
+        - organization
+        - enforceability of laws
+        - manageability of solutions/tech
+        - relative success compared to other forms of government
 
       - some of these perspectives can be combined to replace the functionality of the others
 
