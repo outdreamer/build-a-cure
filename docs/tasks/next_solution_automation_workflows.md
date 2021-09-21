@@ -1,5 +1,7 @@
 # add to solution automation workflows
   
+      - connect adjacent structures to find standard/base solutions (like 'where adjacent point-connecting functions create averages that intersect to create a regression function bc an average is by definition related to the prediction & is also relevant as a symmetry structure'), and connect aligning structures on multiple interfaces to find meaningful solutions (like 'where subset functions are reflected in an aligning neural network structure, thereby also creating an alignment between inputs/outputs to model more nuanced change types, bc the network can support customized function units representing local average functions, allowing the solution to be re-used across many function types', which aligns on the structural interface bc of the 'structural similarity' between subset function & the local averages formed in neural networks, and the system interface bc of the 'alignment' structures and the meaning interface bc its 'useful' for other queries)
+
       - find useful interaction structures (like 'matching structures', such as 'requirements' & 'functionality to fulfill requirements') as an input to problem-solving intent functions
 
       - find symmetries & variables/functions of them between alternative workflows having the same problem/solution structures & result, and apply these variables to generate other workflows

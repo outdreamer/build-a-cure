@@ -327,6 +327,8 @@
         - how to rmeove bias in various positions (in data or in the network or in the model)
         - the limits on the relevance of the prediction function (time limits, scope/scale limits, interaction limits, topic limits, data limits)
 
+      - some of these perspectives can be combined to replace the functionality of the others
+
       - these interfaces provide different structures to understand the system with, but its not immediately obvious which interface is most useful to understand a system
       - often the problems with combination interfaces is that there are structures of recursion, self-reference, loops, & ambiguities that make a difference type unclear
         - example: 
