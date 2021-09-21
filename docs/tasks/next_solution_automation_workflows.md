@@ -1,4 +1,6 @@
 # add to solution automation workflows
+  
+      - find useful interaction structures (like 'matching structures', such as 'requirements' & 'functionality to fulfill requirements') as an input to problem-solving intent functions
 
       - find symmetries & variables/functions of them between alternative workflows having the same problem/solution structures & result, and apply these variables to generate other workflows
         - example: 'aim for adjacent state to the solution instead of the solution, then transform it to the original problem solution' and 'solve a different but similar problem' and 'solve the opposite problem, then transform it to the original problem solution using opposite structures' can both have the same resulting interface query & result
