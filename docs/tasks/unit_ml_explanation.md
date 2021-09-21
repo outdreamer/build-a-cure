@@ -254,12 +254,45 @@
 
           - the system of linear equations that needs to be fulfilled according to this configuration is:
 
+          - interim-final layer (sum of threshold outputs = final output)
             0 +  0 + 0 = 0
             0 +  0 + 1 = 1
             1 +  0 + 0 = 1
             1 + -2 + 1 = 0
 
-            - these summed values are the output of a weight applied to a filtering threshold applied to a weighted combination of inputs (which might include only one input), and the value the sums equal is the required output according to the function definition
+          - interim-threshold operation (threshold applied to input weight sum = threshold output), with the successful condition
+            (0 if input 0 < 1) + (0 if input 0 < 2) + (0 if input 0 < 1) = 0
+            (0 if input 0 < 1) + (0 if input 0 < 2) + (1 if input 1 = 1) = 1
+            (1 if input 1 = 1) + (0 if input 0 < 2) + (0 if input 0 < 1) = 1
+            (1 if input 1 = 1) + (2 if input 2 = 2) + (1 if input 1 = 1) = 2
+
+          - initial-interim layer (input weight sum = input weight sum)
+            0*1 + (0*1 + 0*1) + 0*1 = 0 + (0) + 0
+            0*1 + (0*1 + 1*1) + 1*1 = 0 + (1) + 1
+            1*1 + (1*1 + 0*1) + 0*1 = 1 + (1) + 0
+            1*1 + (1*1 + 1*1) + 1*1 = 1 + (2) + 1
+
+            [0,0] -> [0*1,(0*1 + 0*1),0*1] -> [0,(0+0),0] -> [0,0,0] -> [0*1,0*-2,0*1] -> [0,0,0]  -> [0]
+            [0,1] -> [0*1,(0*1 + 1*1),1*1] -> [0,(0+1),1] -> [0,0,1] -> [0*1,0*-2,1*1] -> [0,0,1]  -> [1]
+            [1,0] -> [1*1,(1*1 + 0*1),0*1] -> [1,(1+0),0] -> [1,0,0] -> [1*1,0*-2,0*1] -> [1,0,0]  -> [1]
+            [1,1] -> [1*1,(1*1 + 1*1),1*1] -> [1,(1+1),1] -> [1,2,1] -> [1*1,1*-2,1*1] -> [1,-2,1] -> [0]
+
+          - the matrix operations need to produce the following matrix sequences:
+            [0,0] -> [0,0,0] -> [0,0,0]  -> [0]
+            [0,1] -> [0,0,1] -> [0,0,1]  -> [1]
+            [1,0] -> [1,0,0] -> [1,0,0]  -> [1]
+            [1,1] -> [1,2,1] -> [1,-2,1] -> [0]
+            
+          - so you can derive operations that would produce these sequences, once you identify this sequence of matrixes are useful for connecting inputs/outputs
+            - or you can apply weighted sum operations to combinations of inputs & thresholds to get adjacent transforms of inputs, and see if those adjacent transforms can be connected to outputs using similar or the same operations, with a particular set of weights & deactivating threshold functions you would derive
+
+          - these summed values are the output of the interim layer (a weight applied to a filtering threshold, applied to the weighted output of the first layer (a weighted combination of inputs (which might include only one input))), and the value the sums equal is the required output according to the function definition
+
+          - using matrix multiplication, we can derive various sequences of matrix transforms that would connect a 2-dimensional input like (1,1) into a 1-dimensional output like (0) for each of the input-output requirements
+
+          - these matrix sequences can then be filtered by which sequences can be created with a weighted input sum according to an input routing function (route an output to all nodes on the next layer, or just adjacent nodes, or some other routing function), & a threshold function to convert some weighted input sums to zero
+
+          - threshold functions are useful for transforming a value into another value that is required for the other parameters to be able to connect the inputs/outputs (in this case, transforming inputs into 1/0 values is useful for connecting inputs/outputs)
 
       - this indicates why three nodes can be used to map four possible input states to two possible output states
         
