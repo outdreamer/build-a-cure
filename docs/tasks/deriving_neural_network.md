@@ -69,10 +69,13 @@
 										- deriving what operations produce exponential change (self multipliers) and mapping those structures to the network operations (what weights/sums/thresholds produce self-multiplication to the required degree)
 										- linearly mapping operations known to be adjacent to the target prediction function to combinations of structures like layers or adjacent node/weight paths in the network
 										- applying pre-processing to the data so the network can be used to learn weights of input terms of the prediction function polynomial, bc inputs are transformed with exponents & other operations whose structures arent supported by the network
+                    - starting from other 'enabling function/structure' & 'requirement' pairs (like a 'required level of accuracy' and an 'approximation function')
                 - other relevant questions include:
                   - 'why can a network learn a non-linear function', which is the same reason it can learn other function types
-                  - 'why apply a neural network instead of a logic function network'
-                    - bc a neural network can learn complex functions at scale for many inputs & operation types
+                  - 'why apply a neural network instead of a logic function network' (a set of if/then statements, or a set of specific processing functions for each task or a query on a general function network amounting to the same)
+                    - the neural network implements the logic in a different format, encoding conditional operations ('if/then') with thresholds/weights, offering alternate nodes for different localized 'if/then' input-output mappings to develop, allowing for incremental change connecting local input-output mappings (local subset functions)
+                    - an 'if/then' function network can also be learned by a neural network
+                    - bc a neural network can learn complex functions at scale for many inputs & operation types once inputs are formatted correctly
                     - many operations can be represented by the combination of weight/sum/deactivation operations
                   - 'what structures in the network map to structures relevant to the input/output prediction function'
                     - input sums, adjacent network nodes, weight vectors, weight path patterns, & node/operation trees may represent function subsets, local averages, or locally relevant sums/coefficients/operations
@@ -90,3 +93,4 @@
 						- why would you 'deactivate' some inputs? bc theyre not relevant to generating the output using available operations (multiplication, sums)
 							- if your input is the entire vector of x-values, youd want to deactivate the other x-values that are not relevant to the output y-value for the x-value youre trying to predict (adjacent values could be considered relevant)
 							- if your input is the interim vector produced by the thresholds to deactivate some values, youd want to deactivate the values that cant contribute to the output y-value, using coefficients & sums
+
