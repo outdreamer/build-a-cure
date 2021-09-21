@@ -314,6 +314,19 @@
         - whether an upcoming planned feature release of a tool will fulfill the task
         - whether default/adjacent implementations of the task run into known vulnerabilities or limitations of the tech stack
 
+      - another example is in neural network design:
+        - existing algorithms & parameters & relevance based on input/output data types & value patterns
+        - whether a new network is necessary to find the prediction function or if an existing trained model will find it
+        - how to preprocess the data to reduce the work the network has to perform to connect inputs/outputs
+        - whether an adjacent optimal can be reached by changing existing algorithms/parameters
+        - whether a logic function network would be sufficient to map inputs/outputs (explicit if/then statements or functions with non-mathematical inputs/outputs)
+        - whether the network can capture the complexity of the input-output connection function
+        - whether an approximate prediction function is sufficient
+        - how to update the function
+        - how to generalize & create variations of the function
+        - how to rmeove bias in various positions (in data or in the network or in the model)
+        - the limits on the relevance of the prediction function (time limits, scope/scale limits, interaction limits, topic limits, data limits)
+
       - these interfaces provide different structures to understand the system with, but its not immediately obvious which interface is most useful to understand a system
       - often the problems with combination interfaces is that there are structures of recursion, self-reference, loops, & ambiguities that make a difference type unclear
         - example: 
