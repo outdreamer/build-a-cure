@@ -284,11 +284,19 @@
             [1,1] -> [1,2,1] -> [1,-2,1] -> [0]
             
           - so you can derive operations that would produce these sequences, once you identify this sequence of matrixes are useful for connecting inputs/outputs
-            - or you can apply weighted sum operations to combinations of inputs & thresholds to get adjacent transforms of inputs, and see if those adjacent transforms can be connected to outputs using similar or the same operations, with a particular set of weights & deactivating threshold functions you would derive
+          
+          - or you can apply weighted sum operations to combinations of inputs & thresholds to get adjacent transforms of inputs, and see if those adjacent transforms can be connected to outputs using similar or the same operations, with a particular set of weights & deactivating threshold functions you would derive
+
+            [0,0] -> weights applied to combinations of (0,0) according to a routing function -> sum of adjacent weighted inputs -> deactivating function that maps some of the weighted input sums to zero, according to some input threshold value -> weighted outputs of deactivating function -> sum of weighted outputs of deactivating function -> [0]
+            [0,1] -> weights applied to combinations of (0,1) according to a routing function -> sum of adjacent weighted inputs -> deactivating function that maps some of the weighted input sums to zero, according to some input threshold value -> weighted outputs of deactivating function -> sum of weighted outputs of deactivating function -> [1]
+            [1,0] -> weights applied to combinations of (1,0) according to a routing function -> sum of adjacent weighted inputs -> deactivating function that maps some of the weighted input sums to zero, according to some input threshold value -> weighted outputs of deactivating function -> sum of weighted outputs of deactivating function -> [1]
+            [1,1] -> weights applied to combinations of (1,1) according to a routing function -> sum of adjacent weighted inputs -> deactivating function that maps some of the weighted input sums to zero, according to some input threshold value -> weighted outputs of deactivating function -> sum of weighted outputs of deactivating function -> [0]
+            
+            where the weights, threshold values, routing function, & deactivating functions would be consistent across each of the sequences above so the same network configuration can be applied to each of them
 
           - these summed values are the output of the interim layer (a weight applied to a filtering threshold, applied to the weighted output of the first layer (a weighted combination of inputs (which might include only one input))), and the value the sums equal is the required output according to the function definition
 
-          - using matrix multiplication, we can derive various sequences of matrix transforms that would connect a 2-dimensional input like (1,1) into a 1-dimensional output like (0) for each of the input-output requirements
+          - using matrix multiplication, we can derive various sequences of matrix transforms that would connect a 2-dimensional input like (1,1) into a 1-dimensional output like [0] for each of the input-output requirements
 
           - these matrix sequences can then be filtered by which sequences can be created with a weighted input sum according to an input routing function (route an output to all nodes on the next layer, or just adjacent nodes, or some other routing function), & a threshold function to convert some weighted input sums to zero
 
