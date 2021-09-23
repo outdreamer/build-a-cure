@@ -1,26 +1,26 @@
 # add to solution automation workflows
 
-      - find layers of interaction where changes align, as a component of solutions where change input/output is known on one layer but not another
+      - find interface structures like 'interaction levels' where changes can align, as a component of solutions where change input/output is known on one level but not another & the interaction on another level is the target solution, or where the problem can be solved on the other interaction level
         - example: 
-          - layers of interaction where changes align in the machine learning (specifically the multi-layer perceptron example) structure include:
+          - levels of interaction where changes align in the machine learning (specifically the multi-layer perceptron example) structure include:
             - weights/thresholds/biases & sum/routing/activation functions
             - value changes from inputs to outputs
           - so the unknown changes can be in one set of parameters that enable another set of known parameters
             - unknown parameters (weights/thresholds) and known parameters (sum/routing/activation functions)
             - unknown parameters (weights/thresholds & sum/routing functions) and known parameters (activation functions & required value changes (labeled data))
-        - another example would be where the high-level or general intent requirement is known, but the sub-intents to fulfill that high-level or general intent are not known, on another more specific interaction layer
+        - another example would be where the high-level or general intent requirement is known, but the sub-intents to fulfill that high-level or general intent are not known, on another more specific interaction level
 
       - if existing problem/solution structures (like useful functions) dont solve a problem, derive errors in those structures (like missing functions) & solve the problem of correcting those errors
         - example: 
           - for the 'find a prediction function' problem, if a causal relationship cant be established using time-based structures like chronological sequences, check if other structures can be explanatory, like adjacence determined by similarity (of inputs or position or interaction level), which is a good approximator of cause when sequential causal structures like causal chains cant be verified
-          - if no structures are sufficient to explain a variable relationship function, then there is an error in the structure set, such as a 'missing structure'
+          - if no structures are sufficient to explain a variable relationship function, then there is an error in the structure set, such as a 'missing structure', which may be found by applying interaction functions to structures (like function types) that havent been connected yet
 
       - find the interface structures like interaction level of related/sub-problems & sequence of sub-problems (related/sub-problems of the original problem, which are solved in the interface query) where connections can most efficiently & otherwise optimally be made (using adjacent or available operations) and solve the problem there first, then design the rest of the interface query to fulfill that solution on other interface structures (like on other interaction levels)
         - example: find out if solving the 'input-output connection problem' as a sub-problem of the 'find a prediction function' problem using a function & weight network can be solved more efficiently by connecting value sequences first, or by connecting function input-output sequences first, or by deriving weights first & then other parameters like threshold values, or the reverse, etc
   
       - connect adjacent structures to find standard/base solutions (like 'where adjacent point-connecting functions create averages that intersect to create a regression function bc an average is by definition related to the prediction & is also relevant as a symmetry structure'), and connect aligning structures on multiple interfaces to find meaningful solutions (like 'where subset functions are reflected in an aligning neural network structure, thereby also creating an alignment between inputs/outputs to model more nuanced change types, bc the network can support customized function units representing local average functions, allowing the solution to be re-used across many function types', which aligns on the structural interface bc of the 'structural similarity' between subset function & the local averages formed in neural networks, and the system interface bc of the 'alignment' structures and the meaning interface bc its 'useful' for other queries) bc some structures like adjacence/alignment can more optimally find solutions of a particular solution metric like accuracy 
 
-      - find useful interaction structures (like 'matching structures', such as 'requirements' & 'functionality to fulfill requirements') as an input to problem-solving intent functions
+      - find useful interactive structures (like 'matching structures', such as 'requirements' & 'functionality to fulfill requirements') as an input to problem-solving intent functions, workflows, or interface queries
 
       - find symmetries & variables/functions of them between alternative workflows having the same problem/solution structures & result, and apply these variables to generate other workflows
         - example: 'aim for adjacent state to the solution instead of the solution, then transform it to the original problem solution' and 'solve a different but similar problem' and 'solve the opposite problem, then transform it to the original problem solution using opposite structures' can both have the same resulting interface query & result
