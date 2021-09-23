@@ -1,6 +1,9 @@
 # add to solution automation workflows
 
       - if existing problem/solution structures (like useful functions) dont solve a problem, derive errors in those structures (like missing functions) & solve the problem of correcting those errors
+        - example: 
+          - for the 'find a prediction function' problem, if a causal relationship cant be established using time-based structures like chronological sequences, check if other structures can be explanatory, like adjacence determined by similarity (of inputs or position or interaction level), which is a good approximator of cause when sequential causal structures like causal chains cant be verified
+          - if no structures are sufficient to explain a variable relationship function, then there is an error in the structure set, such as a 'missing structure'
 
       - find the interface structures like interaction level of related/sub-problems & sequence of sub-problems (related/sub-problems of the original problem, which are solved in the interface query) where connections can most efficiently & otherwise optimally be made (using adjacent or available operations) and solve the problem there first, then design the rest of the interface query to fulfill that solution on other interface structures (like on other interaction levels)
         - example: find out if solving the 'input-output connection problem' as a sub-problem of the 'find a prediction function' problem using a function & weight network can be solved more efficiently by connecting value sequences first, or by connecting function input-output sequences first, or by deriving weights first & then other parameters like threshold values, or the reverse, etc
