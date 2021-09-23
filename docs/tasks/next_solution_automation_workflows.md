@@ -1,5 +1,15 @@
 # add to solution automation workflows
 
+      - find layers of interaction where changes align, as a component of solutions where change input/output is known on one layer but not another
+        - example: 
+          - layers of interaction where changes align in the machine learning (specifically the multi-layer perceptron example) structure include:
+            - weights/thresholds/biases & sum/routing/activation functions
+            - value changes from inputs to outputs
+          - so the unknown changes can be in one set of parameters that enable another set of known parameters
+            - unknown parameters (weights/thresholds) and known parameters (sum/routing/activation functions)
+            - unknown parameters (weights/thresholds & sum/routing functions) and known parameters (activation functions & required value changes (labeled data))
+        - another example would be where the high-level or general intent requirement is known, but the sub-intents to fulfill that high-level or general intent are not known, on another more specific interaction layer
+
       - if existing problem/solution structures (like useful functions) dont solve a problem, derive errors in those structures (like missing functions) & solve the problem of correcting those errors
         - example: 
           - for the 'find a prediction function' problem, if a causal relationship cant be established using time-based structures like chronological sequences, check if other structures can be explanatory, like adjacence determined by similarity (of inputs or position or interaction level), which is a good approximator of cause when sequential causal structures like causal chains cant be verified
