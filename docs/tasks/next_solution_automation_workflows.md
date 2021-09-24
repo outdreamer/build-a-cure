@@ -1,5 +1,8 @@
 # add to solution automation workflows
 
+      - apply 'approximate' structures of 'useful structures' like 'input-output sequences' (such as 'sequences with approximate input-output matching') as a way of finding useful structures to fulfill problem-solving intents
+        - generalization: apply other problem-solving intent (like 'filter solution space') & related function type functions (like standardize, organize, approximate) to problem/solution structures such as useful structures as a way of finding adjacent & other important structures of problem/solution structures
+
       - standardize problem to a standard format & apply standard solutions for that format
         - example:
           - if problem input data has a sequence or a correlation or a variable (change type) structure, it can be identified by variable solutions like specialized machine-learning algorithms/networks
