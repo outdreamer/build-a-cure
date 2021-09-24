@@ -1,5 +1,7 @@
 # add to solution automation workflows
 
+      - identify optimal states (destinations) and work backwards to identify error states (origins) that an agent with a valid intent in the system might occupy that could be considered problem states, which are separate from the optimal states, optionally with error structures like barriers/gaps separating them, and identify routes & route patterns to connect those problem/optimal states of a problem space, as well as standardizing transforms of the problem space & corresponding state points that would reduce the problem into a more obvious solution set of connecting routes, to apply these routes & route patterns to other standardized problem spaces
+
       - apply 'approximate' structures of 'useful structures' like 'input-output sequences' (such as 'sequences with approximate input-output matching') as a way of finding useful structures to fulfill problem-solving intents
         - generalization: apply other problem-solving intent (like 'filter solution space') & related function type functions (like standardize, organize, approximate) to problem/solution structures such as useful structures as a way of finding adjacent & other important structures of problem/solution structures
 
