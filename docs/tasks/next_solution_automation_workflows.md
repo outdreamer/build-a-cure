@@ -1,6 +1,9 @@
 # add to solution automation workflows
 
-      - solve a more complex problem first & apply as a solution space or solution-finding method filter
+      - standardize solutions from other systems & convert them to the problem system, calculating any missing solution structures & determining variables & generative functions of solutions & useful structures like efficient routes to solutions from input problem starting points
+        - example: for the problem of 'finding a sorting algorithm' (like binary trees), standardize solutions so they can be applied to 'find a prediction function problems' (like bi-directional function non-linearity additions or other changes)
+
+      - solve a more complex problem first & apply as a solution space or solution-finding method filter to find simpler problem's solutions in that problem space quickly
         - example: for the 'find a prediction function' problem, solve more complex prediction problems like 'whether a solution is biased', 'the correlation between AI research & weather' (should be somewhat correlated bc extreme weather requires tech to survive) or 'the correlation of interaction patterns of an environmental system with a social interaction pattern in cities' (should be correlated bc of system similarities in complexity, structure, & other attributes) and apply as a filter to simpler problems like 'find the correlation between these adjacent variables in the same system' (which are likely to have causal relationships so their interaction should be determinable with simple statistical methods rather than requiring complex analysis), which should have simpler relationships than the corresponding complex problem, and any simple prediction problem within the same system should necessarily have less variation structures than the complex prediction function of a system it inhabits, so the complex solution should be composable with the simple solution, and other logical relationships between these solutions should also hold
 
       - apply solution improvement/optimization patterns to generate solutions & derive more efficient methods of applying these improvements
