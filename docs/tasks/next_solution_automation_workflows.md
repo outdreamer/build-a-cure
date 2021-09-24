@@ -1,5 +1,8 @@
 # add to solution automation workflows
 
+      - identify perspective that minimizes errors according to the solution requirements & apply that perspective as a solution filter
+        - example: for the 'find a prediction function' problem, the perspective of 'find the average function' (a perspective which prioritizes common general expected values & patterns rather than specific examples & therefore has the implied errors associated with that priority) has errors of 'possible high differences between actual & average value', with an opposing error of the opposite solution 'find the best-fitting function that accurately predicts every point' being 'possible high differences between one sample value and another sample value', and if the solution metric is 'accuracy', error types of a solution that maximizes 'accuracy' would be preferred over error types of other solutions
+
       - incentivize or otherwise maximize errors to create the most differences between error & solution possible, then apply opposite structures to errors which should create solutions once theyre maximally different
         - workflow fit: this is a corrollary to the 'apply differences to errors to create solutions' workflow, but errors may be closer to their maximized state than to solutions, in which case this workflow would be more optimal
 
