@@ -1,5 +1,10 @@
 # add to solution automation workflows
 
+
+      - apply solution improvement/optimization patterns to generate solutions & derive more efficient methods of applying these improvements
+        - example: for the 'find a prediction function' problem, this could take the form of applying adjacent operations like shifts & adding exponents to specify the function for the data set, & stopping specification at a certain point to avoid over-specificity, and a more efficient method of generating these improvements could be 'deriving average difference or difference patterns from function & data points & generating functions having that average difference or difference patterns'
+        - the 'more efficient method' finds a 'vertex variable' in the form of the 'difference structure' applied as a 'requirement' of the solution function, which can generally 'find & apply useful structures' or specifically 'find a reduced route between input variable values & the prediction function'
+
       - find interface structures like 'interaction levels' where changes can align, as a component of solutions where change input/output is known on one level but not another & the interaction on another level is the target solution, or where the problem can be solved on the other interaction level
         - example: 
           - levels of interaction where changes align in the machine learning (specifically the multi-layer perceptron example) structure include:
