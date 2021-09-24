@@ -1,5 +1,8 @@
 # add to solution automation workflows
 
+      - incentivize or otherwise maximize errors to create the most differences between error & solution possible, then apply opposite structures to errors which should create solutions once theyre maximally different
+        - workflow fit: this is a corrollary to the 'apply differences to errors to create solutions' workflow, but errors may be closer to their maximized state than to solutions, in which case this workflow would be more optimal
+
       - create a space where points represent states of variables that differentiate solutions & other states, where known solutions are indicated by minima or maxima, then identify useful structures like 'patterns of point sampling to find maxima quickly' and 'differences between solutions & other states' and 'differences in useful structures for solution-finding across different state spaces' and 'maximum change types between adjacent or any points (like exponential, signed change, intersection/zero/tangent-crossing change, etc)'
 
       - standardize solutions from other systems & convert them to the problem system, calculating any missing solution structures & determining variables & generative functions of solutions & useful structures like efficient routes to solutions from input problem starting points
