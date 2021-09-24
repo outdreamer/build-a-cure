@@ -1,5 +1,7 @@
 # add to solution automation workflows
 
+      - create a space where points represent states of variables that differentiate solutions & other states, where known solutions are indicated by minima or maxima, then identify useful structures like 'patterns of point sampling to find maxima quickly' and 'differences between solutions & other states' and 'differences in useful structures for solution-finding across different state spaces' and 'maximum change types between adjacent or any points (like exponential, signed change, intersection/zero/tangent-crossing change, etc)'
+
       - standardize solutions from other systems & convert them to the problem system, calculating any missing solution structures & determining variables & generative functions of solutions & useful structures like efficient routes to solutions from input problem starting points
         - example: for the problem of 'finding a sorting algorithm' (like binary trees), standardize solutions so they can be applied to 'find a prediction function problems' (like bi-directional function non-linearity additions or other changes)
 
