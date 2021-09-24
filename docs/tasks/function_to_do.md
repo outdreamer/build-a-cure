@@ -175,6 +175,9 @@
       - https://www.quantamagazine.org/one-labs-quest-to-build-space-time-out-of-quantum-particles-20210907/
     - what differentiates a time crystal 'infinite change for no energy' from an electron, which contains energy and maintains it in a stable state, assuming no interference from interactions
 
+  - add to automation tech
+    - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete dev
+
   - add to ml
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
       - minimizing bias 
@@ -189,7 +192,6 @@
         - if the cause of a data point is likely to be randomness, it can be excluded from functions that dont include randomness as an input
         - if the type of a data point differs from other data points predicted by a function, it should be predicted by another function that predicts that type
       - this solution involves re-arranging data subsets so they can be better predicted by functions
-
 
   - add to math mapping
     - add to dimension definition routes:
