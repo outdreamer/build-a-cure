@@ -1,5 +1,12 @@
 # add to solution automation workflows
 
+      - standardize problem to a standard format & apply standard solutions for that format
+        - example:
+          - if problem input data has a sequence or a correlation or a variable (change type) structure, it can be identified by variable solutions like specialized machine-learning algorithms/networks
+            - standardizing to 'change types' could invalidate the gains from specialized networks/algorithms
+            - changes in a 'sequence' can be formatted as 'adjacent change sets' to represent changes usually found together
+            - 'correlated' changes can be formatted as 'aligned change sets' to represent changes that co-occur
+            
       - identify perspective that minimizes errors according to the solution requirements & apply that perspective as a solution filter
         - example: for the 'find a prediction function' problem, the perspective of 'find the average function' (a perspective which prioritizes common general expected values & patterns rather than specific examples & therefore has the implied errors associated with that priority) has errors of 'possible high differences between actual & average value', with an opposing error of the opposite solution 'find the best-fitting function that accurately predicts every point' being 'possible high differences between one sample value and another sample value', and if the solution metric is 'accuracy', error types of a solution that maximizes 'accuracy' would be preferred over error types of other solutions
 
