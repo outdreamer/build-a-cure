@@ -153,11 +153,13 @@
 							- in this way, the network can support 'multiple alternate conditional functions' by maintaining multiple weights for each connection that can be used in different input contexts (like different positions of the same feature values), so these multiple weights can be used to handle parameterized contextual features
 
 						- examine other structures that can effectively act like other structures in the neural network space
-							- treat outputs (like errors/deactivations) as a parameter (rather than updating a weight, assume that the weight can act like a representative average value, and apply an alternate opposite version of the error to both increase/decrease the weight by that error, creating multiple possible weights to check the output of) since the network already treats these as an input if it applies backpropagation
+							- what concepts/assumptions (like averages) can take the place of neural structures like network parameters such as alternate weight sets
+								- treat outputs (like errors/deactivations) as a parameter (rather than updating a weight, assume that the weight can act like a representative average value if the error is low, and apply an alternate opposite version of the error to both increase/decrease the weight by that error, creating multiple possible weights to check the output of) since the network already treats these as an input if it applies backpropagation
 							- what neural structures can take the place of other neural structures
 								- what changes to neural structures can take the place of which neural structures
 							- what inputs can take the place of neural structures
 								- what pre-processing functions can act like a set of weights-thresholds-nodes-layers-activations-routings-errors or some combination of these
+							- what other structures (like filters, boundaries, or vectors) applied to a standard regression solution can take the place of the neural network or its output (like 'down vector of this magnitude applied here') - structures that are quicker to learn than the terms of the prediction function bc of their patterns or formats
 
 						- another way of reducing operations required by the network is by identifying overlap in functionality contributed by structures in the network such as various node-threshold-weight combination units, or node layers, or node counts
 							- this is applying the principle of 'dont repeat yourself' to guarantee uniqueness of contribution of the structures in the network
