@@ -81,6 +81,7 @@
                   - 'what structures in the network map to structures relevant to the input/output prediction function'
                     - input sums, adjacent network nodes, weight vectors, weight path patterns, & node/operation trees may represent function subsets, local averages, or locally relevant sums/coefficients/operations
                       - in this sense, the neural network may be supporting a customized prediction function for structures of inputs/outputs (like pairs of inputs/outputs), optionally with overlaps in common with other prediction functions
+						
 						- non-linearity of a function implies the 'combination of many subset functions' and the 'combination of many random variables' and requires 'exponential change types'
 						- the difference between coefficient multipliers & integer exponents can be thought of as 'guaranteeing a change type of a particular rate', where coefficients can be less than constant change and exponents (of integer values) reflect greater than constant change
 						- 'combining many subset functions' or 'combining incremental state changes' to create a function aligns with the network structure of 'vector state sequences'
@@ -95,3 +96,8 @@
 							- if your input is the entire vector of x-values, youd want to deactivate the other x-values that are not relevant to the output y-value for the x-value youre trying to predict (adjacent values could be considered relevant)
 							- if your input is the interim vector produced by the thresholds to deactivate some values, youd want to deactivate the values that cant contribute to the output y-value, using coefficients & sums
 
+						- why is non-linearity useful & how is it connected to a neural network structure
+							- it provides multiple alternate routes between inputs/outputs, in case an alternate version of an input (like a different position) should produce the same output (like a category label) but requires a different route to do that (compared to another input that should also produce that output)
+							- the fact that an exponential (polynomial) function can have incremental continuous change, where an input has very similar output to an adjacent input, is a parallel reason why non-linearity is useful, as a similar input should produce the approximately same output in those cases, where the 'approximate equivalence' of these adjacent outputs of adjacent inputs benefits from multiple routes between inputs & an output value (the opposite is true for adjacent inputs with very different outputs like on a steep part of a curve)
+							- in some non-linear curves, very different inputs will produce the same output, like for a curve shaped like a wave (which in these cases is a problem of lack of pre-processing the data, which would reduce the x variable to a term with the interval component removed)
+							- the main benefit of non-linear curves is that different change types are allowed in the same function (high change rate & low change rate, as in 'tangent slope')
