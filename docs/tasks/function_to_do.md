@@ -297,6 +297,14 @@
       - what is the value of formatting a function with a non-1/0 exponential term as an arc/tangent on a circle - are circles useful as a unit structure forming polynomials (meaning other than sin/cos functions, like hyperbolic functions, parabolas, etc) that could replace the original polynomial terms in a useful way for visualization
         - what is the meaning of a circle unit term vs. the original polynomial variable (does the circle represent some isolated or unit change type of the variable)
 
+  - ml implementations
+    - data preprocessing essentially inputs functions of variables as inputs, rather than original data set variables
+      - the progression of state sequences between original inputs & the functions of those inputs fed into the network can be mapped to the changes in optimal network parameters that take place at each step in the sequence, to find the optimal parameters likely for the network once x operations to preprocess the data have been applied
+    - other than applying functions of inputs as inputs:
+      - input function states/variants
+      - multiple alternate input processing function sequences can be fed in as alternative features produced from each original input feature
+      - generative functions of multiple alternate input processing function sequences can be fed into the network instead
+
   - give examples of why other tech solutions are insufficient
     - why ml would be inaccurate on math problems (like 'predict convergence value for an infinite series, based on training data of infinite series param input & convergence value output')
       - regularization, bias/noise changes, and other feature changes for intents like 'generalization' or 'feature selection' may add to inaccuracies
