@@ -129,3 +129,7 @@
 								- are there efficient methods of determining these 'no-fly zones' in the prediction function space, like checking for a few subset lines that would determine a no-fly zone so every subset line doesnt have to be derived
 									- example: a particular set of lines might prevent a parabola, another set might prevent a non-linear function, etc - can these sets of subset boundary lines be determined more quickly than applying the neural network, or can the neural network be applied to find these sets of determining subset lines instead, and apply those as filters of the prediction function (which should be formatted as a function range or function-determining parameter sets instead of a function)
 
+						- why would more parameters than data points be useful? 
+							- when the parameters represent components or inputs to the data points
+							- when the parameters represent variants of the data points
+							- when the parameters represent multiple different combinations or combination types of the data points
