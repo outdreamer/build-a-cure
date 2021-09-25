@@ -189,6 +189,7 @@
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete dev
 
   - add to math-interface mappings
+    - 'cellular automata' as a 'uniform function network state machine depicting interactivity (interaction space or convolution) between a function & itself'
     - a network where nodes are organized by similarity applies geometry by applying the 'distance' shape to the network to represent the concept of 'similarity'
     - a 'structure with one piecc missing' is a geometric shape of 'obviousness' or 'implication' where completing the shape is a default & trivial operation
     - a shape with corners is useful for depicting various change types producing maximally different points
@@ -297,6 +298,12 @@
         - what is the meaning of a circle unit term vs. the original polynomial variable (does the circle represent some isolated or unit change type of the variable)
 
   - give examples of why other tech solutions are insufficient
+    - why ml would be inaccurate on math problems (like 'predict convergence value for an infinite series, based on training data of infinite series & convergence values')
+      - regularization, bias/noise changes, and other feature changes for intents like 'generalization' or 'feature selection' may add to inaccuracies
+      - the structures that can be composed by various function/node/weight/threshold unit combinations may not be capable of the math operations involved in transforming one value/format into another
+      - the math problem has emergent structures that are not visible in the training data set, for example a point where the relationship function between the inputs/outputs changes (like an asymptote or a maximum)
+      - the training data may reflect patterns that are simpler for the network to compose/filter/reduce, without enough data points representing more complexity (a parabola instead of a hyperbolic function)
+
     - VAR & reservoir computing's random sample of matrixes is inadequate bc the randomness is an attempt to identify 'very different' difference types, without generalizing that into a unique set of differences that are likely to be useful (like differences distributed across pairs of variables, so many random samples dont represent difference types in the same pair)
     - regression is insufficient even if its a good temporary solution if you dont have other resources than the data set, bc its conclusion/outputs (in the form of the regression function) can have the opposite meaning 'random noise' as the intended meaning 'causal relationships'
     - statistics in general is built on the insight that 'probability is associated with certainty/truth', but it ignores other certainty structures like structures that are more useful than patterns/probability, such as definitions, concepts, meaning/understanding/integration/organization, cause, inevitability/requirement, determination/generation/description structures, functions of varying interaction levels, etc
