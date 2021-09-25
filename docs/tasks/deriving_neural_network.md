@@ -101,3 +101,19 @@
 							- the fact that an exponential (polynomial) function can have incremental continuous change, where an input has very similar output to an adjacent input, is a parallel reason why non-linearity is useful, as a similar input should produce the approximately same output in those cases, where the 'approximate equivalence' of these adjacent outputs of adjacent inputs benefits from multiple routes between inputs & an output value (the opposite is true for adjacent inputs with very different outputs like on a steep part of a curve)
 							- in some non-linear curves, very different inputs will produce the same output, like for a curve shaped like a wave (which in these cases is a problem of lack of pre-processing the data, which would reduce the x variable to a term with the interval component removed)
 							- the main benefit of non-linear curves is that different change types are allowed in the same function (high change rate & low change rate, as in 'tangent slope')
+
+						- what type of neural network could fit an infinite random sequence to an infinite random sequence (to create a 'randomizing' function)
+
+						- what type of problem would benefit from mapping an input to multiple possible outputs (like 'deriving possible inputs')
+
+						- what is the benefit of the neural network vs. deriving which change types are necessary, which function terms can produce those change types (optionally filtering for maximally different terms with 'spaces having no surprises' or 'determined spaces' connecting them), and applying multiple quick convergence/testing methods to find parameters of the function producing those change types
+							- example: for the 'find a prediction function' problem, this could take the form of change types such as:
+								- functions that intersect with or have m ratio of error for n points in the data set
+								- parabolic functions for functions with a clear complete curve having complexity in the exact parameters of the curve
+								- functions connecting a set of 'average' or otherwise 'representative' points in the data set
+								- high change rate in one input range and a low change rate in another input range
+
+						- how do the various functions in the 'find a prediction function' problem space interact:
+							- how does the 'neural network to find a prediction function' structure interact with the 'convergence' structure
+							- how does a 'convergence structure' (like sum of infinite series that converges quickly or an efficient method of gradient descent) interact with a 'test' structure (to quickly determine if a solution prediction function is successful enough to stop searching)
+							
