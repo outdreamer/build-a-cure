@@ -156,6 +156,16 @@
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
     - example of priorities leading to errors:
       - the 'selfish' perspective prioritizes simple, structural objects, which is why 'selfish' programs can only see & act on those things rather than producing solutions that can be used for many problems, even ones they dont have
+    - alternatives to 'random' selections
+      - maximally different examples
+      - unique examples
+      - type examples
+      - examples with no high-variance points in between examples
+      - representative examples
+      - examples of each 'change type' combination (change types like adjacent change, opposite change, extreme change, standard change)
+      - examples of limits on change types
+      - examples of specific difference types, like opposites or contradictions or position/direction differences
+      - examples of specific interaction types, like intersections or alignments
 
   - add to science
     - curvature implies momentum of change of a particular type rather than constant change, applying a structure of incentives toward various positions & connections
