@@ -1,5 +1,16 @@
 # add to solution automation workflows
 
+      - avoid over-simplifying a solution so it appears to have no errors (or not identifying errors in a system where errors would be expected) by applying error structures (where they are likely to be erroneously missing) to build a more robust solution that handles errors
+        - example: 
+          - for the 'find a prediction function' problem, some variables cant be used to predict some other variables, so in a prediction function of those variables, errors would be expected ('no errors' would be the error in that function)
+          - structures like 'similarities' or 'differences' are useful for a few different intents like 'compare' or 'identify' or 'filter', so if the problem requires more functionality than these functions can adjacently compose, there is a missing structure to avoid an over-reduction error
+            - over-reduction error can occur by reducing a system to just similarities/differences, without the connecting functions on other interaction layers building meaning out of those similarities/differences (such as why are they different, in what contexts are they different, what types of difference are included in that difference, and how is that difference useful to other structures)
+            - even if a problem can be solved in some case (like a best case) by over-reduced structures, its unlikely to be a robust solution that can change as needed according to input changes
+        - generalization: this can be generalized to finding 'errors in errors' (a 'lack of errors' in an open system where variance would be expected is an error (a 'lack') of an error)
+
+      - apply relevant functions (like a 'reversal') that preserve functionality in a useful way to structures with relevance matching structures (structures that have a 'sequence' like a function) to identifying alternate routes
+        - example: the function 'understanding a system is a way of generating it' can be reversed to 'generating a system is an input to understanding it' if 'understanding' is the target output
+
       - identify optimal states (destinations) and work backwards to identify error states (origins) that an agent with a valid intent in the system might occupy that could be considered problem states, which are separate from the optimal states, optionally with error structures like barriers/gaps separating them, and identify routes & route patterns to connect those problem/optimal states of a problem space, as well as standardizing transforms of the problem space & corresponding state points that would reduce the problem into a more obvious solution set of connecting routes, to apply these routes & route patterns to other standardized problem spaces
 
       - apply 'approximate' structures of 'useful structures' like 'input-output sequences' (such as 'sequences with approximate input-output matching') as a way of finding useful structures to fulfill problem-solving intents
