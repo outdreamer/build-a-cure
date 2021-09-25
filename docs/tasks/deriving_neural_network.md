@@ -148,8 +148,16 @@
 								- solving 'progressive disorder' problems (like 'correcting every genetic mutation in a host with a method that works slower than the rate of genetic mutations occur') is rarely worth the computational cost, so other solutions than 'reversing disorder' are likelier to be optimal than solutions to 'progressive disorder' problems (solutions such as 'removing sources of disorder, like variance injection points, creating a closed system'), or solutions to other problems are likelier to be more useful (problems like 'identifying & implementing adjacent change-regulating functions'), solutions which may indirectly solve 'progressive disorder' problems
 
 					- to reduce computations required by the network
-					
+
 						- apply multiple weights per connection (rather than one weight per connection) during each training iteration at positions like specific layers or activation/weight routes to produce multiple maximally different (or other useful difference type) outputs and apply gradient descent & backpropagation to the subset of output points that are more correct (have lower error) to reduce the number of gradient descent/backpropagation operations, where applying the learned information in backpropagation involves reducing the set of multiple possible weights per connection at each iteration to the more successful subset of weight sets
+							- in this way, the network can support 'multiple alternate conditional functions' by maintaining multiple weights for each connection that can be used in different input contexts (like different positions of the same feature values), so these multiple weights can be used to handle parameterized contextual features
+
+						- examine other structures that can effectively act like other structures in the neural network space
+							- treat outputs (like errors/deactivations) as a parameter (rather than updating a weight, assume that the weight can act like a representative average value, and apply an alternate opposite version of the error to both increase/decrease the weight by that error, creating multiple possible weights to check the output of) since the network already treats these as an input if it applies backpropagation
+							- what neural structures can take the place of other neural structures
+								- what changes to neural structures can take the place of which neural structures
+							- what inputs can take the place of neural structures
+								- what pre-processing functions can act like a set of weights-thresholds-nodes-layers-activations-routings-errors or some combination of these
 
 						- another way of reducing operations required by the network is by identifying overlap in functionality contributed by structures in the network such as various node-threshold-weight combination units, or node layers, or node counts
 							- this is applying the principle of 'dont repeat yourself' to guarantee uniqueness of contribution of the structures in the network
