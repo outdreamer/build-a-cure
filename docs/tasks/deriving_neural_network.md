@@ -164,3 +164,7 @@
 						- another way of reducing operations required by the network is by identifying overlap in functionality contributed by structures in the network such as various node-threshold-weight combination units, or node layers, or node counts
 							- this is applying the principle of 'dont repeat yourself' to guarantee uniqueness of contribution of the structures in the network
 							- if more flexibility is provided by the network than is needed to capture variation between input/output, the network structure doesnt match the problem of finding a mapping function for those inputs/outputs & may do more computations than necessary
+
+					- as opposed to standard gradient descent
+						- available adjacent functions & change types are a good initial method of determining the answer to 'where is the goal likely to be from a given point' (where would an agent aim from a given point)
+							- parallel gradient descent of multiple different points informing each other would be another filter (to rule out structures like waves, standard polynomials, circles, or infinities)
