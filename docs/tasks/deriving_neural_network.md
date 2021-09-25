@@ -112,8 +112,18 @@
 								- parabolic functions for functions with a clear complete curve having complexity in the exact parameters of the curve
 								- functions connecting a set of 'average' or otherwise 'representative' points in the data set
 								- high change rate in one input range and a low change rate in another input range
+							- reducing the data points to a 'function range' is trivial
+							- finding a 'representation' or 'error/cost-calculation' metric is trivial
+							- finding a standard function that fulfills the representation or error/cost calculation metric to some non-trivial degree, is trivial
+							- finding parameters that optimize a function across several metrics may be non-trivial
 
 						- how do the various functions in the 'find a prediction function' problem space interact:
 							- how does the 'neural network to find a prediction function' structure interact with the 'convergence' structure
+								- the neural network is fulfilling the same abstract intent as the convergence structure (to find optimization points), & may use the convergence structure to find points representing weights to optimize its errors
 							- how does a 'convergence structure' (like sum of infinite series that converges quickly or an efficient method of gradient descent) interact with a 'test' structure (to quickly determine if a solution prediction function is successful enough to stop searching)
-							
+								- a convergence structure can be an alternative to a test structure (to determine solution success, whether contextually or absolutely) when the convergence structure is called by a function with intent to 'find an optimization point of a function' (whether locally or globally)
+
+						- if a neural network has node-threshold-weight or node-threshold-weight path combination units that prevent certain outputs & allow certain inputs, those units may map to various structures on the same space as the function
+							- these units may be represented as subset lines acting as boundaries preventing the prediction function from moving in a particular direction as it converges (like a pinball machine has barriers preventing motion in some directions or from reaching some positions)
+								- what is the net graph produced by these subset lines corresponding to these units? does it look like a range/area or a 'tangent bundle' structure across various points
+
