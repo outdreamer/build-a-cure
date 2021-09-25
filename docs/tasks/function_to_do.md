@@ -188,6 +188,14 @@
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete dev
 
+  - add to math-interface mappings
+    - a network where nodes are organized by similarity applies geometry by applying the 'distance' shape to the network to represent the concept of 'similarity'
+    - a 'structure with one piecc missing' is a geometric shape of 'obviousness' or 'implication' where completing the shape is a default & trivial operation
+    - a shape with corners is useful for depicting various change types producing maximally different points
+      - these 'maximally different points' can represent various structures (like types, points that act like averages/symmetries, or points where stabilities are reached)
+      - a square can represent maximally different types bc the changes between corners of the square are orthogonal
+      - a hexagon can represent partially overlapping/connecting change types because changes between corners are not isolated/independent
+
   - add to ml
 
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)

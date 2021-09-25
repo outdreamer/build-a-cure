@@ -168,3 +168,5 @@
 					- as opposed to standard gradient descent
 						- available adjacent functions & change types are a good initial method of determining the answer to 'where is the goal likely to be from a given point' (where would an agent aim from a given point)
 							- parallel gradient descent of multiple different points informing each other would be another filter (to rule out structures like waves, standard polynomials, circles, or infinities)
+
+					- why would 'greedy AIs' that prioritize their own success learn to cooperate? when they find agents with similar outputs as those they want (in other words, agents like themselves, since they prioritize themselves and their targeted outputs)
