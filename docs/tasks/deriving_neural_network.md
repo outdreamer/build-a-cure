@@ -136,5 +136,8 @@
 
 						- what other 'flexibility' structures could be injected into the neural network than 'multiple alternate input-output routes' and 'optional activations' and 'routing/propagation functions'
 							- multiple possible alternate 'causes' of the input data, reflected in various alternate pre-processing
-							- splitting a node into multiple nodes when a threshold is determined to be deactivating too many inputs
+							- splitting a node into multiple nodes (when a threshold is determined to be deactivating too many inputs) or merging multiple nodes into one node (when multiple nodes can be combined in a way that doesnt impact error or improves error metric)
+							- skipping layers or adding more nodes between one layer & another for certain node connections, where more complexity is detected in the relationship between nodes' error contributions
+							- adding routing/activation functions & thresholds to the gradient descent input, in addition to weights
+							
 
