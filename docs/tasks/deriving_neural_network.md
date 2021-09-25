@@ -141,5 +141,4 @@
 							- adding routing/activation functions & thresholds to the gradient descent input, in addition to weights, to find their error contributions & update them dynamically
 							- 'successive filtering/reducing networks' where inputs are repeatedly converged/summed and input into further layers with different propagations/activations in an order that would maximize the number of features reduced to create a more general prediction function
 							- 'node set deactivation' to speed up convergence (where if one node is deactivated, nodes with adjacent outputs are deactivated to detect error contributions quicker) or applying a 'node output differentiation function' to differentiate nodes' output the most so each node is contributing something different & possibly useful in a different way, increasing the likelihood that errors are represented by nodes or node-threshold-weight units in the network
-							- identifying node sets that can determine an output & identifying/changing the contribution of those node sets rather than individual nodes
-
+							- identifying alternate node sets that can determine an output when their impact is combined & identifying/changing the contribution of those node sets rather than individual nodes
