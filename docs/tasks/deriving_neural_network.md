@@ -133,3 +133,8 @@
 							- when the parameters represent components or inputs to the data points
 							- when the parameters represent variants of the data points
 							- when the parameters represent multiple different combinations or combination types of the data points
+
+						- what other 'flexibility' structures could be injected into the neural network than 'multiple alternate input-output routes' and 'optional activations' and 'routing/propagation functions'
+							- multiple possible alternate 'causes' of the input data, reflected in various alternate pre-processing
+							- splitting a node into multiple nodes when a threshold is determined to be deactivating too many inputs
+
