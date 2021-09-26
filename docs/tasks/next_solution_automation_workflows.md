@@ -8,6 +8,7 @@
             - probabilities determined by function/variable interaction patterns
           - use a weighting/prioritizing scheme to weight these distributions to predict a point given surrounding points, input variables, variable interaction patterns or other function structures
           - remaining points can be filled in if the interval is small enough to avoid missing important unique difference types or repeated difference types between other intervals
+        - probability is an inherently important concept to 'prediction functions', and the probability of an output is an inherent statistic to functions in general, so its important that way, but is also important in that it can be used to differentiate solutions & measure their success & anything else that probability can be applied to help predict, given the complexity of differentiating between alternate prediction functions in some cases, like between those produced by slightly different neural network configurations or data sets
 
       - avoid over-simplifying a solution so it appears to have no errors (or not identifying errors in a system where errors would be expected) by applying error structures (where they are likely to be erroneously missing) to build a more robust solution that handles errors
         - example: 
