@@ -4,7 +4,21 @@
         - example: for the 'find a prediction function' problem, the meaning of a particular regression function would include various definition routes, such as:
           - 'the regression function, given the data set, pre-processing (data conversions, data filters, data standardizations/normalizations, etc), error function, & method to find the regression function'
           - 'the application of the concept of average to find a line minimizing error determined by a particular distance definition from that average, given data preprocessing, error function & regression function-finding method'
-        
+
+      - derive meaning of a problem & its associated solution meaning to detect if a context switch or meaning generalization can be a useful structure for a problem-solving intent
+        - example meanings of a 'problem' include:
+          - 'a difference that shouldnt exist, given rules about what differences should exist & the definition of a difference'
+          - 'a structure that shouldnt exist, given rules about what structures should exist & the definition of a structure'
+          - 'a change that shouldnt occur, given rules about what should change & the definition of a change'
+        - example meanings of the associated solutions include:
+          - 'a function to reduce differences that shouldnt exist, given rules about what differences should exist & the definition of a difference'
+          - 'a function to remove structures that shouldnt exist, given rules about what structures should exist & the definition of a structure'
+          - 'a function to prevent changes that shouldnt occur, given rules about what should change & the definition of a change'
+          - 'a generative function of solutions to this specific problem type'
+          - 'a solution-finding function of solutions to this specific problem'
+          - 'parameters of generative functions of solutions that would solve this specific problem'
+          - 'a function to change parameters of generative functions of solutions to solve problems in general'
+
       - identify more accessible info structures that can act like structures of truth even if theyre not & apply as structures of truth conditionally where possible
         - example: 
           - for the 'find a prediction function' problem, a 'sample data set + regression function' or a 'sample data set + regularization + neural network to find prediction function' are not explicitly structures of truth (the data may be inaccurate or contain noise, the neural network may not produce an accurate answer, the regularization may remove conditionally important info) but it has enough structures of truth (such as insights like 'remove inputs that dont change the output' and 'dont create a function that fits data samples perfectly to allow for generalization') applied that it may act as a good approximator/predictor of truth in some contexts (such as if the data has a sufficient ratio of correct points, if the neural network has enough nodes/layers to capture the complexity of the variable interactions, etc)
