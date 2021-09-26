@@ -199,7 +199,10 @@
       - a hexagon can represent partially overlapping/connecting change types because changes between corners are not isolated/independent
 
   - add to ml
-
+    - execute variant of gradient descent by checking:
+      - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
+      - for a horizontal plane's intersection count/area as its moved between low/high y-values to find spaces between intersection areas likely to have minima
+      
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
       - minimizing bias 
         - intends to predict as many points as possible in a data subset
