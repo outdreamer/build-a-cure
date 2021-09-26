@@ -25,6 +25,8 @@
 				- 'a proof proving that 1 + 1 = 2 doesnt automatically validate other proofs regarding addition of numbers of the same type, such as infinities' (which is a 'false implication' of a proof)
 			- other interface structures are also not identified by current math proving or automated logic tools:
 				- proof error types like 'false implications' & 'false assumptions' 
+	- math proof assistants like the following require manually deriving what needs to be proved & writing logic manually, whereas my invention automates deriving what problems need to be solved or what questions need to be answered in order to solve a problem (the 'interface query'), and then fulfilling each sub-problem in the interface query with further queries & functions to implement them
+		- https://mdnahas.github.io/doc/nahas_tutorial
 
 2. whats the differences between your invention & a 'math function solver tool', where you input a function and it tells you a specific value related to the function, like the function zeros or roots or the limit of a series
 	- that tool is just applying known math functions to solve specific problems, essentially applying a 'rules database' to calculate solutions to known problems solvable with those rules
