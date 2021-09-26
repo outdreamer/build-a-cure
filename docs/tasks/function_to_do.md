@@ -188,15 +188,6 @@
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete dev
 
-  - add to math-interface mappings
-    - 'cellular automata' as a 'uniform function network state machine depicting interactivity (interaction space or convolution) between a function & itself'
-    - a network where nodes are organized by similarity applies geometry by applying the 'distance' shape to the network to represent the concept of 'similarity'
-    - a 'structure with one piecc missing' is a geometric shape of 'obviousness' or 'implication' where completing the shape is a default & trivial operation
-    - a shape with corners is useful for depicting various change types producing maximally different points
-      - these 'maximally different points' can represent various structures (like types, points that act like averages/symmetries, or points where stabilities are reached)
-      - a square can represent maximally different types bc the changes between corners of the square are orthogonal
-      - a hexagon can represent partially overlapping/connecting change types because changes between corners are not isolated/independent
-
   - add to ml
     - execute variant of gradient descent by checking:
       - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
@@ -217,6 +208,28 @@
       - this solution involves re-arranging data subsets so they can be better predicted by functions
 
   - add to math mapping
+
+    - 'cellular automata' as a 'uniform function network state machine depicting interactivity (interaction space or convolution) between a function & itself'
+      - a network where nodes are organized by similarity applies geometry by applying the 'distance' shape to the network to represent the concept of 'similarity'
+      - a 'structure with one piecc missing' is a geometric shape of 'obviousness' or 'implication' where completing the shape is a default & trivial operation
+      - a shape with corners is useful for depicting various change types producing maximally different points
+        - these 'maximally different points' can represent various structures (like types, points that act like averages/symmetries, or points where stabilities are reached)
+        - a square can represent maximally different types bc the changes between corners of the square are orthogonal
+        - a hexagon can represent partially overlapping/connecting change types because changes between corners are not isolated/independent
+
+    - difference between representing info as values vs. types vs. differences vs. networks/trees/set vs. changes vs. functions
+      - values are a good origin point for starting with the most information about a structure & removing/changing it in ways to focus on other attributes
+      - differences are a good structure for quick identification/filtering
+        - networks/trees/sets/types are useful difference structures
+        - types are specifically good at encapsulating which variables a structure has, if not the exact values of those variables (a good 'representation' structure, like an 'average' is), so they are useful as representation structures to evaluate type statistics like membership count and variability within a type
+      - changes are useful at representing time-based differences & time in general, such as the time required to convert one structure into another (adjacency, computational complexity)
+        - functions are a change unit
+        - the same set of changes can be connected with different change units (functions)
+        - functions can be formatted as various structures
+          - a function of functions:
+            - a function applied to itself, a function applied to another function
+          - a structure of functions:
+            - a list of sequentially applied functions, a tree/network of functions, a set of functions (given their possible interactions, which can only produce the function), a set of nested/embedded/contained functions
 
     - structures of 'strictness' (such as 'always applying worst case scenario') as structures of 'truth'
 
