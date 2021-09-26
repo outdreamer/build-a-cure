@@ -1,5 +1,8 @@
 # to do
 
+  - add to definitions
+    - workflows are 'solution finding methods' to find 'solutions', where solutions may themselves be 'solution-finding methods' (like 'regression' is a solution-finding method, to find specific functions that are solutions to the 'find a regression function' or 'find a representative function' problems)
+
   - add example of how to derive 'apply differences to inputs to see if they can change the output to see if the solution is true'
 
   - add example of impact of methods on various network types given the differences in method/network structures & include assumptions
