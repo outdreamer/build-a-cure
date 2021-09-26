@@ -1,5 +1,5 @@
 - why is a change in weights able to update the neural network in such a way that the resulting prediction function it represents is more accurate?
-	- bc the neural network is essentially performing the corresponding operation to an 'average' operation where some inputs are weighted
+	- bc the neural network is essentially performing the corresponding 'representation' operation to an 'average' operation where some components are weighted
 	- similar to how multiple inputs of the individual networks in an ensemble network are weighted to change the impact of their contribution on the final score, the multiple components of the neural network can be weighted to produce a prediction function that is more accurate bc of the weight update
 
 	- what are these 'multiple components'?
@@ -19,6 +19,10 @@
 		- if you extend this to the final layer where outputs of a layer are pooled or otherwise aggregated/selected, further iterations are wrapped around the initial layers' outputs:
 			weight y1 * (weight x01 * activation(differently weighted inputs variant 1A propagated to previous node 1) + weight x02 * activation(differently weighted inputs variant 2A propagated to previous node 2) +  ...) + 
 			weight y2 * (weight x11 * activation(differently weighted inputs variant 1B propagated to previous node 1) + weight x12 * activation(differently weighted inputs variant 2B propagated to previous node 2) +  ... ) 
+
+
+
+- example of weight propagation 
 
 
 									operations						    description
@@ -71,16 +75,15 @@ feature
 outputs
 
 
-- another visual example with weight routing for a network like this:
+- another visual example with weight routing for a 'fully connected' network like this:
 	e f g h
 	a b c d 
 	x y z
 
-
 - would be:
 
 	e 											   f 										   g 											  h
-	|         \       \          \		/          |       \          \		/         /        |         \		/          /       /          |
+	|         \       \          \		/          |       \          \		/          /       |         \		/          /       /          |
 	a          b 	   c          d 	a          b 	   c          d 	a          b 	   c          d 	a          b 	   c          d
 	| \ \     /|\     /|\     / / |     | \ \     /|\     /|\     / / |     | \ \     /|\     /|\     / / |     | \ \     /|\     /|\     / / |
 	x  y z   x y z   x y z   x y  z 	x  y z   x y z   x y z   x y  z 	x  y z   x y z   x y z   x y  z 	x  y z   x y z   x y z   x y  z
@@ -90,7 +93,6 @@ outputs
 - so you can see how the weights differ across the combinations of weight variants, and each layer adds another layer of recursion, where it's applying another 'sum of weights' operation on 'input combination variants'
 - in the diagram above, (1x + 3y) is a weight variant, and (2x + 2y + 2z) ia a weight variant, etc
 - this is why you might call the inputs to each node a 'tree of trees'
-
 
 - so we get 'emergent weights' resulting from these iterations of a 'weighted sum of inputs' operation
 
@@ -112,9 +114,16 @@ outputs
 
 - the second node on layer 4 would reduce to a differently weighted sum of the original inputs, etc
 
-- so multiple options of 'differently weighted sums of original inputs' are being presented to the final pooling/selection layer
-- the pooling/selection layer chooses between different alternate functions produced by:
+- so multiple options of 'differently weighted sums of original inputs' are being routed to the final pooling/selection layers
+
+- the pooling/selection layers choose between different alternate functions produced by:
 	- 'different weight trees'
 	- 'recursive differently weighted input sums'
 	- 'differently weighted sums of (differently weighted sums of (differently weighted sums of original inputs))'
 
+- the pooling/selection layers assign a weight to the various different inputs routed to them
+- the 'components' being weighted could refer to structures on any layer of granularity
+- the weights associated with the error minimized in the gradient descent function represent weights between individual node pairs, indicating that a unit combination of node/threshold/activation units (combination meaning a 'pair' of these units) is directly relevant to the error minimization function
+- in terms of other structures that are prioritized/activated by the network:
+	- some 'weight path patterns' or 'weight trees' or 'weight sets' or 'tree sets' would be inactive once learning begins to deactivate nodes that dont contribute to prediction accuracy
+	- these structures may be more directly mapped to the emergent weights (like 10x + 14y + 8z) determined from each weight tree, so that the relevance of weight structures other than a 'node-pair weight' can be identified
