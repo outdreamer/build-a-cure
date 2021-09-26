@@ -1,4 +1,5 @@
 - why is a change in weights able to update the neural network in such a way that the resulting prediction function it represents is more accurate?
+
 	- bc the neural network is essentially performing the corresponding 'representation' operation to an 'average' operation where some components are weighted
 	- similar to how multiple inputs of the individual networks in an ensemble network are weighted to change the impact of their contribution on the final score, the multiple components of the neural network can be weighted to produce a prediction function that is more accurate bc of the weight update
 
@@ -127,3 +128,4 @@ outputs
 - in terms of other structures that are prioritized/activated by the network:
 	- some 'weight path patterns' or 'weight trees' or 'weight sets' or 'tree sets' would be inactive once learning begins to deactivate nodes that dont contribute to prediction accuracy
 	- these structures may be more directly mapped to the emergent weights (like 10x + 14y + 8z) determined from each weight tree, so that the relevance of weight structures other than a 'node-pair weight' can be identified
+	- for example, a particular emergent weight function that is particularly influential in producing the final prediction function mapping inputs/outputs
