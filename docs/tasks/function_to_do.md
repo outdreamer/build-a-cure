@@ -211,7 +211,7 @@
 
     - 'cellular automata' as a 'uniform function network state machine depicting interactivity (interaction space or convolution) between a function & itself'
       - a network where nodes are organized by similarity applies geometry by applying the 'distance' shape to the network to represent the concept of 'similarity'
-      - a 'structure with one piecc missing' is a geometric shape of 'obviousness' or 'implication' where completing the shape is a default & trivial operation
+      - a 'structure with one piece missing' is a geometric shape of 'obviousness' or 'implication' where completing the shape is a default & trivial operation
       - a shape with corners is useful for depicting various change types producing maximally different points
         - these 'maximally different points' can represent various structures (like types, points that act like averages/symmetries, or points where stabilities are reached)
         - a square can represent maximally different types bc the changes between corners of the square are orthogonal
@@ -226,10 +226,20 @@
         - functions are a change unit
         - the same set of changes can be connected with different change units (functions)
         - functions can be formatted as various structures
-          - a function of functions:
-            - a function applied to itself, a function applied to another function
-          - a structure of functions:
+          - the concept of 'exponent' applied to the concept of a 'function':
+            - a function of functions:
+              - a function applied to itself, a function applied to another function
+          - a 'structure' of functions:
             - a list of sequentially applied functions, a tree/network of functions, a set of functions (given their possible interactions, which can only produce the function), a set of nested/embedded/contained functions
+          - 'functions' as 'input value changes'
+            - a matrix of values representing the changes applied by the function
+          - functions as 'differences from other structures'
+            - differences from a standard/successful/base/unit/incorrect function
+            - 'not the opposite function' & 'not a similar function' (except in any equalizing contexts where they have the same inppt/output)
+            - the difference between a 'function applied to another function', and the 'function applied to itself', given the 'differences between the other function & itself'
+            - the difference in attributes (area, generative functions, tangent bundles) between a function & another function
+          - functions as combinations of standard logic operations like 'or' creating a logic tree linking values logically
+            - 'y value 1, given x is value 1 or value 2 or value 3'
 
     - structures of 'strictness' (such as 'always applying worst case scenario') as structures of 'truth'
 
