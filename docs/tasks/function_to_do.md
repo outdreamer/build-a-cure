@@ -146,7 +146,6 @@
 ## examples
 
   - add to govt
-    - convince sci-fi author Salvatore Cezar Pais & amateur coder Stephen Wolfram & other 'scientists' and 'mathematicians' to stop stealing all of my ideas without attribution
     - rather than payments from consumers, payments from central ledger based on production of supplies & proof of usage
       - this would invalidate the need for individual ledger accounts to acquire standard supplies like food/medicine, and suppliers of standard supplies can be paid from a general central ledger to continue their enterprise based on their supplies, their usage ratio, their relative contribution compared to other suppliers, and their relative value added by solving problems of supply like pollution & optimizing minimal cost of production & environmental impact
       - some transactions can require private accounts like for optional goods
@@ -202,7 +201,7 @@
     - execute variant of gradient descent by checking:
       - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
       - for a horizontal plane's intersection count/area as its moved between low/high y-values to find spaces between intersection areas likely to have minima
-      
+
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
       - minimizing bias 
         - intends to predict as many points as possible in a data subset
@@ -218,10 +217,20 @@
       - this solution involves re-arranging data subsets so they can be better predicted by functions
 
   - add to math mapping
+
+    - structures of 'strictness' (such as 'always applying worst case scenario') as structures of 'truth'
+
     - add to dimension definition routes:
       - 'adding an independent sequence/state change type to other change types, containing but not changing or limiting other change types of lower dimensions'
       - limiting a change type to two possible values requires a structure in the form of a value (line, or hyperplane) separating them
 
+    - godel incompleteness
+      - why would a proving system not be able to prove its own truth? if there are structures not generatable/provable in the system, and at least one of those structures is required to prove it
+        - what structure would be required to prove a system:
+          - guaranteed impossibility/lack of contradictory input-output connection violating the input-output connections allowed by the system
+        - what structure would not be generated in the system
+        - what structure would not be generated in the system & also be required to prove a system
+        
     - a set of related change types (like a sequence of fourier/taylor expansion terms providing different polynomials) provides different change types that can be combined to produce the required changes to produce a function
     - example 'alternate connection' structure: wheels (rotations of circles) provide an alternate connection between waves & circles, in addition to trig functions
     - fourier transform is an example of energy from change stabilizing into a pattern of a new change type - https://mathlets.org/mathlets/discrete-fourier-transform/
