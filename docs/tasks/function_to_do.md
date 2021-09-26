@@ -146,6 +146,7 @@
 ## examples
 
   - add to govt
+    - convince sci-fi author Salvatore Cezar Pais & amateur coder Stephen Wolfram & other 'scientists' and 'mathematicians' to stop stealing all of my ideas without attribution
     - rather than payments from consumers, payments from central ledger based on production of supplies & proof of usage
       - this would invalidate the need for individual ledger accounts to acquire standard supplies like food/medicine, and suppliers of standard supplies can be paid from a general central ledger to continue their enterprise based on their supplies, their usage ratio, their relative contribution compared to other suppliers, and their relative value added by solving problems of supply like pollution & optimizing minimal cost of production & environmental impact
       - some transactions can require private accounts like for optional goods
