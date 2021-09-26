@@ -1,5 +1,14 @@
 # add to solution automation workflows
 
+      - apply useful structures like 'alternative routes' to important/useful structures in a problem space (like 'probability of solution success' of an approximated or neural network-derived prediction function or composition/ensemble of multiple alternate functions or function subsets) in the form of solution metrics (like 'accuracy')
+        - for example, for the 'find a prediction function' problem, apply 'alternate routes' to 'probability' to find other solutions to find useful structures like 'probability of solution success' among relatively similar possible solutions, using aggregation/integration structures like 'averages' or selection structures like 'filters' to 'filter the solution space', by applying 'alternate routes' and 'averages' to useful relevant structures like 'probability distributions'
+          - calculate different probability distributions for each point in a set of 'important points' (like points on an input interval in the data set) with a big enough interval to connect the points in a generalized function, such as:
+            - probabilities determined by adjacent points & adjacent point sequence/set patterns (patterns scoped generally, or for this data set, or for similar input variable change types, etc)
+            - probabilities determined by stat measures like averages/modes & variance
+            - probabilities determined by function/variable interaction patterns
+          - use a weighting/prioritizing scheme to weight these distributions to predict a point given surrounding points, input variables, variable interaction patterns or other function structures
+          - remaining points can be filled in if the interval is small enough to avoid missing important unique difference types or repeated difference types between other intervals
+
       - avoid over-simplifying a solution so it appears to have no errors (or not identifying errors in a system where errors would be expected) by applying error structures (where they are likely to be erroneously missing) to build a more robust solution that handles errors
         - example: 
           - for the 'find a prediction function' problem, some variables cant be used to predict some other variables, so in a prediction function of those variables, errors would be expected ('no errors' would be the error in that function)
