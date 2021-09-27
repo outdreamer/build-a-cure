@@ -204,9 +204,12 @@
       - splitting the possible weight combinations into the most unique weight subsets that indicate a specific/unique point/range on the weight:error space, and initialize weights at those very unique subsets in various parts of the network to filter out point/range weight possibilities quickly
       - isolating the function subsets that would determine the rest of the function (points at regular intervals, subsets where change types are likely to interact/aggregate) and predict those function subsets
 
+    - 'kernel function acts like a mapping useful to calculate a difference without converting to the whole space'
+      - other examples: regularizers can act like 'activation functions', similar to how randomizers can act like 'averagers'
+
   - problem/solution structures
 
-    - example of why similarities/differences arent sufficient
+    - example of why similarities/differences are insufficient
       - many functions have the same or similar 'similarity to a data set' as determined by some error metric, but most of these functions will produce sub-optimal predictions in some important case (like with different data samples, or the first set of predictions in high-error areas of the prediction function, while the prediction function is still relevant & reflective of reality), as some predictions are more important than others given the context of the prediction like timing & data set differences
 
     - example of applying a definitely incorrect structure that is useful for some purpose
@@ -220,13 +223,17 @@
     - 'reflectiveness' of a structure as an organizing attribute (what other structures can it reveal/identify, adjacently become or build or interact with, what can it filter out or emphasize/prioritize)
 
     - recursive structures
-      - rather than a network of nodes where input-output sequences can connect nodes, a network of input-output sequences where input-output sequences can connect input-output sequences, and adjacence indicates interactivity
+      - rather than a network of nodes where input-output sequences can connect nodes, a network of input-output sequences where input-output sequences (like various traversals of a function logic tree) can connect input-output sequences, and adjacence indicates interactivity
       - the meaning of meaning structures like 'lack of understanding'
         - meaning of a prediction function, given an understanding & definition of meaning indicated by the meaning-evaluation function defined & applied at the time
+      - ml applied to predict:
+        - weight changes that will optimize the most quickly
+        - prediction functions of various algorithms/parameters/data sets/assumptions to select most useful predictions minimizing a solution metric
 
     - applying the origin problem as the average/representation structure around which change occurs or as a minima structure where a system stabilizes, given that problems generally occur on their own as a result of bad planning/lack of understanding, and energy/work is required to solve the problem
       - applying regression/line-fitting & related solution-finding/specifying methods to find lines that better fit the data set than the standard regression line, which is the problem bc of the error definition as 'mean squared difference from the regression line' or a similar definition incentivizing a solution that minimize that error
       - applying problem states as minima, and surrounding states of minima as adjacent states that are not definitely problem states, and known solutions as maxima of relative height
+        - where equivalent states created by applying changes to solutions/problems can act like neutral starting points for other solutions with less defined solution structures, and where areas between different problems are possible overlapping solutions to multiple problems
 
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
       - minimizing bias 
