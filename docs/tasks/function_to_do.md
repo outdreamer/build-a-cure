@@ -207,6 +207,35 @@
     - 'kernel function acts like a mapping useful to calculate a difference without converting to the whole space'
       - other examples: regularizers can act like 'activation functions', similar to how randomizers can act like 'averagers'
 
+    - add to useful generative questions to apply in an interface query for 'representing the xor function': 
+      - which variable values would produce input/output connections:
+        - 1 interim layer: which sum of (which weight vector applied to which (weighted input sums))
+        - 2 interim layers: which sum of (which weight vector applied to which weighted input sums of (which weight vector applied to which (weighted input sums)))
+      - which structures are capable of producing different possible output values (sum, weight application function, weight update function) & which structures are capable of filtering those values (error function)
+      - to connect inputs/outputs in a sequence, some version of the inputs (produced by applying a change to the inputs) is required to input into the next step in the sequence
+        - to avoid losing information immediately, a default operation would be to have multiple functions (nodes) in the next step in the sequence, and to forward all inputs to each of the next functions
+          - if the functions on the next step are similar & to avoid repeating calculations, change the inputs to the next step's functions
+          - if the functions on the next step are different, change the inputs to the next step's functions to compound change types
+        - in either case, changing the inputs in some way is advised - how to change the inputs in a useful way:
+          - apply priority (weight) to different inputs, to test possibilities where inputs differ in priority
+          - apply sum to weighted inputs to evaluate the weighted inputs with a function that can map one value (sum of weighted inputs) to another value
+            - these operations assume the sum/weights wont generate similarization in impact on final value of this iteration across node outputs in the same layer
+          
+      - this is a good example of how structures (input-output sequences in time connect problem/solution) can apply to a structure in a way that doesnt invalidate seemingly contradictory structures (input-output networks having loops connecting inputs/outputs applying a solution-finding method to create the solution) applied on another interaction level or to different components of the structure
+
+    - give example of a sequences & networks' interactions with time (like reducing computations over time, applying operations chronologically, interacting with prior data, adapting over time)
+
+    - apply structures of variable & error structures to neural network algorithms/params to speed up convergence without losing possible minor change contributions (that are important for edge cases or important when aggregated with other minor change contributions)
+      - randomly missing structures (weight values, node propagations)
+      - randomly embedded node sub-layers of a node or node splitting when a node is more influential
+        - randomly multiple varied similar weight outputs of a particular node to over-prioritize that node
+      - randomly de/re-activated nodes & node structures
+      - randomly apply maximizing, standardizing, or randomizing function to weights
+    - these can be applied when a node is about to be or has recently been deactivated, to check for edge cases
+      - 'would this change have been caught earlier if these nodes hadnt been deactivated'
+    - these can also be applied in structures of other structures
+      - identify convergence-speeding, skippable, neutralizing, redundancy-creating, difference-maximizing weights for a particular layer (as opposed to one weight)
+
   - problem/solution structures
 
     - example of why similarities/differences are insufficient
@@ -227,8 +256,9 @@
       - the meaning of meaning structures like 'lack of understanding'
         - meaning of a prediction function, given an understanding & definition of meaning indicated by the meaning-evaluation function defined & applied at the time
       - ml applied to predict:
+        - generative function of prediction function
         - weight changes that will optimize the most quickly
-        - prediction functions of various algorithms/parameters/data sets/assumptions to select most useful predictions minimizing a solution metric
+        - prediction functions of various algorithms/parameters/data sets/assumptions to select most useful prediction functions minimizing a solution metric
 
     - applying the origin problem as the average/representation structure around which change occurs or as a minima structure where a system stabilizes, given that problems generally occur on their own as a result of bad planning/lack of understanding, and energy/work is required to solve the problem
       - applying regression/line-fitting & related solution-finding/specifying methods to find lines that better fit the data set than the standard regression line, which is the problem bc of the error definition as 'mean squared difference from the regression line' or a similar definition incentivizing a solution that minimize that error
