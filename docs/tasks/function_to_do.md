@@ -153,6 +153,7 @@
       - this would invalidate the need for individual ledger accounts to acquire standard supplies like food/medicine, and suppliers of standard supplies can be paid from a general central ledger to continue their enterprise based on their supplies, their usage ratio, their relative contribution compared to other suppliers, and their relative value added by solving problems of supply like pollution & optimizing minimal cost of production & environmental impact
       - some transactions can require private accounts like for optional goods
     - privacy subscriptions, to pay to not be filmed/photographed/recorded or removed from any content transmitted or stored on a device
+    - labels of other costs on goods like environmental costs, alternative prices to help fund research, health costs (loss of x days of life)
 
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/

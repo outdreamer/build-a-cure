@@ -1,5 +1,8 @@
 # add to solution automation workflows
 
+      - filter structures of truth by those structures which dont require a structure of falsehood to fulfill core interaction functions like 'connect'
+        - example: for the 'find a prediction function' problem, filter out variable interactions that can only be connected using structures of falsehood (lie of omission, false equivalence, etc)
+
       - identify the meaning (context, or 'system fit') of existing solutions, & apply methods to abstract the meaning to generalize it to other contexts, switch contexts & execute other meaning operations that are useful for fulfilling problem-solving intents
         - example: for the 'find a prediction function' problem, the meaning of a particular regression function would include various definition routes, such as:
           - 'the regression function, given the data set, pre-processing (data conversions, data filters, data standardizations/normalizations, etc), error function, & method to find the regression function'
