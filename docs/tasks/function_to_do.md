@@ -154,6 +154,8 @@
       - some transactions can require private accounts like for optional goods
     - privacy subscriptions, to pay to not be filmed/photographed/recorded or removed from any content transmitted or stored on a device
     - labels of other costs on goods like environmental costs, alternative prices to help fund research, health costs (loss of x days of life)
+    - since everyone is a partial slaveowner if they buy any products built by slave labor or dont prevent others from doing so, moving away from dependence on slavery and toward dependence on automated labor (robots, AI) is in the interests of everyone
+      - paying the 'slavery cost' of a good vs. paying alternate costs, like the 'mimimum profitable cost that is not dependent on slave-labor', the 'small business-boosting cost', the 'locally made cost', the 'funding research they care about by the supplying company cost', the 'lobbying for regulations they care about by the supplying company cost' can be as simple as explicit labels on prices & transparency in supplying company spending & research/regulation metric improvement data
 
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
