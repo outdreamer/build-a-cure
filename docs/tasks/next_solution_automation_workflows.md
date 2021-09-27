@@ -1,6 +1,6 @@
 # add to solution automation workflows
 
-      - apply useful structures to replace other useful structures with known solutions to find new solutions
+      - apply useful structures to fulfill useful core interaction functions (like 'replace') applied to other useful structures with known solutions to fulfill problem-solving intents like 'find new solutions'
         - example: with the 'find a prediction function' problem that applies insights about optimal interaction rules (like 'regularize' to 'generalize') and structures (like 'alternate routes to support non-linearity'), other structures that can replace an 'alternate route set' or 'input-output sequence set' include: 
           - other structures that a neural network can support to capture useful structures like 'change types', in addition to or replacing 'alternate routes' (which can be implemented specifically as 'input-output sequences')
             - 'alternate definitions (definition of difference, relevance/significance, representation/average, cost) & functions (routing, activation) & constants (initial weights, learning rates)'

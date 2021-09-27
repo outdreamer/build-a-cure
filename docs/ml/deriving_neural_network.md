@@ -171,4 +171,19 @@
 
 					- why would 'greedy AIs' that prioritize their own success learn to cooperate? when they find agents with similar outputs as those they want (in other words, agents like themselves, since they prioritize themselves and their targeted outputs)
 
+- starting from the graph of the data inputs (a square from 0,0 to 1,1, including corners at points 0,1 and 1,0), what should the outputs look like?
 
+	- why does this structure provide non-linearity?
+
+		- which structures are non-linear:
+			- curved line: a real exponent that is not 1 or 0 would produce a curved line
+			- step functions: the selection between multiple aggregated weight functions produced by the varying network weight trees provides a step function separated by input ranges (which is considered non-linear)
+			- slope changes: any difference in outputs that indicates a slope change would indicate non-linearity
+			- multiple y's for one x
+				- is a set of alternate routes from multiple x's to the same y an inherently non-linear structure? 
+					- it could occur on a straight line so thats not the reason this adds non-linearity
+
+	- how to indicate the connection between multiple independent variables & one dependent variable on the same 2d space?
+		- find a metric that separates the two answers correctly 
+			- if you sum the inputs, you get the same answer for the 1,0 and 0,1 pair set (1), but different values for the other two, and the line generated is a constant
+			- if you subtract the inputs, you get the same answer for the pairs that should have the same answer
