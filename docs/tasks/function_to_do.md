@@ -202,6 +202,31 @@
     - apply 'predictions' to weight updates to skip more predictable weight updates (once a pattern of changes is identified in weight state changes) & advance to a later stage, by:
       - splitting the node into multiple possible values for the weight/node combination unit that are very different
       - splitting the possible weight combinations into the most unique weight subsets that indicate a specific/unique point/range on the weight:error space, and initialize weights at those very unique subsets in various parts of the network to filter out point/range weight possibilities quickly
+      - isolating the function subsets that would determine the rest of the function (points at regular intervals, subsets where change types are likely to interact/aggregate) and predict those function subsets
+
+  - problem/solution structures
+
+    - example of why similarities/differences arent sufficient
+      - many functions have the same or similar 'similarity to a data set' as determined by some error metric, but most of these functions will produce sub-optimal predictions in some important case (like with different data samples, or the first set of predictions in high-error areas of the prediction function, while the prediction function is still relevant & reflective of reality), as some predictions are more important than others given the context of the prediction like timing & data set differences
+
+    - example of applying a definitely incorrect structure that is useful for some purpose
+      - like how zft axioms are incomplete, indicating some structure of falsehood (unless the structures not covered are false), but still useful
+
+    - add to function formats
+      - formatting a function as a set of vectors applied to a standard function
+
+    - example of how a 'lack of errors' in a closed system can produce an error in system-level interactions like a cross-system merge
+
+    - 'reflectiveness' of a structure as an organizing attribute (what other structures can it reveal/identify, adjacently become or build or interact with, what can it filter out or emphasize/prioritize)
+
+    - recursive structures
+      - rather than a network of nodes where input-output sequences can connect nodes, a network of input-output sequences where input-output sequences can connect input-output sequences, and adjacence indicates interactivity
+      - the meaning of meaning structures like 'lack of understanding'
+        - meaning of a prediction function, given an understanding & definition of meaning indicated by the meaning-evaluation function defined & applied at the time
+
+    - applying the origin problem as the average/representation structure around which change occurs or as a minima structure where a system stabilizes, given that problems generally occur on their own as a result of bad planning/lack of understanding, and energy/work is required to solve the problem
+      - applying regression/line-fitting & related solution-finding/specifying methods to find lines that better fit the data set than the standard regression line, which is the problem bc of the error definition as 'mean squared difference from the regression line' or a similar definition incentivizing a solution that minimize that error
+      - applying problem states as minima, and surrounding states of minima as adjacent states that are not definitely problem states, and known solutions as maxima of relative height
 
     - how to identify that bias vs. variance can be resolved with 'conditional' or 'alternate' or 'subset' functions, assigned to data subsets based on data point attributes (like change type cause/patterns & type of a data point)
       - minimizing bias 
