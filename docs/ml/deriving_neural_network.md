@@ -170,3 +170,5 @@
 							- parallel gradient descent of multiple different points informing each other would be another filter (to rule out structures like waves, standard polynomials, circles, or infinities)
 
 					- why would 'greedy AIs' that prioritize their own success learn to cooperate? when they find agents with similar outputs as those they want (in other words, agents like themselves, since they prioritize themselves and their targeted outputs)
+
+
