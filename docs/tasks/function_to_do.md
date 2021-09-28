@@ -195,12 +195,20 @@
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete dev
 
   - add to ml
+
+    - derive input/output-connecting metrics of successful prediction functions (like the ratio of numbers of data points above/below or near/far from a successful prediction function representing those points)
+      - nn algorithms are not really 'laerning' in the sense of learning 'absolutely new info' (only locally new info about which way to move weights) so much as 'approaching an equilibrium representing a data set'
+      - the equivalence represented by the function is the balance between differences like errors & sample statistics, incentivizing the decrease/increase of a particular output value for the function, which is represented in a standard implementation using an average to represent/approximate that equivalence
+      - other structures that represent a 'balance between differences' can also act like a symmetry/equilibrium, and other representation structures can be applied to find alternate/subset/integrated prediction functions
+
+    - once the prediction function is known, derive a custom 'error metric' (similar to least squares) that could have been applied to arrive at the output prediction function faster, and derive an algorithm that could have connected inputs/outputs to the error metric, so the logical flow is 'predict useful error metric for these inputs/outputs' then 'apply error metric to find prediction function'
+
     - execute variant of gradient descent by checking:
       - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
       - for a horizontal plane's intersection count/area as its moved between low/high y-values to find spaces between intersection areas likely to have minima
 
     - apply 'predictions' to weight updates to skip more predictable weight updates (once a pattern of changes is identified in weight state changes) & advance to a later stage, by:
-      - splitting the node into multiple possible values for the weight/node combination unit that are very different
+      - splitting the node into multiple possible values for the weight/node combination unit that are very different, bc its unlikely that one variable is a high predictor in the real world, so its likely that a particularly important variable is more complex than other variables (like a type or other aggregate variable) and can be split into multiple factors or parameters
       - splitting the possible weight combinations into the most unique weight subsets that indicate a specific/unique point/range on the weight:error space, and initialize weights at those very unique subsets in various parts of the network to filter out point/range weight possibilities quickly
       - isolating the function subsets that would determine the rest of the function (points at regular intervals, subsets where change types are likely to interact/aggregate) and predict those function subsets
 
@@ -234,7 +242,9 @@
     - these can be applied when a node is about to be or has recently been deactivated, to check for edge cases
       - 'would this change have been caught earlier if these nodes hadnt been deactivated'
     - these can also be applied in structures of other structures
-      - identify convergence-speeding, skippable, neutralizing, redundancy-creating, difference-maximizing weights for a particular layer (as opposed to one weight)
+      - identify functions on different interaction layers:
+        - solution metric/cost optimizing and node/weight unit interactions functions:
+          - convergence-speeding, skippable, neutralizing, redundancy-creating, difference-maximizing weights for a particular layer (as opposed to one weight)
 
   - problem/solution structures
 
