@@ -196,13 +196,20 @@
 
   - add to ml
 
-    - derive input/output-connecting metrics of successful prediction functions (like the ratio of numbers of data points above/below or near/far from a successful prediction function representing those points)
-      - nn algorithms are not really 'laerning' in the sense of learning 'absolutely new info' (only locally new info about which way to move weights) so much as 'approaching an equilibrium representing a data set'
-      - the equivalence represented by the function is the balance between differences like errors & sample statistics, incentivizing the decrease/increase of a particular output value for the function, which is represented in a standard implementation using an average to represent/approximate that equivalence
-      - other structures that represent a 'balance between differences' can also act like a symmetry/equilibrium, and other representation structures can be applied to find alternate/subset/integrated prediction functions
-
-    - once the prediction function is known, derive a custom 'error metric' (similar to least squares) that could have been applied to arrive at the output prediction function faster, and derive an algorithm that could have connected inputs/outputs to the error metric, so the logical flow is 'predict useful error metric for these inputs/outputs' then 'apply error metric to find prediction function'
-
+    - derive error metrics (indicating an incorrect solution) that could have solved the problem faster if known in advance & apply to fulfill problem-solving intents like 'filter solution space'
+      - example: for the 'find a prediction function' problem, find neutralizing differences as a way of finding a 'balanced/representative/average' or 'approximate/general' solution that minimizes some error
+        - derive input/output-connecting metrics of successful prediction functions
+          - input/output-connecting metrics could include:
+            - the ratio of numbers of data points above/below or difference between local/absolute extremes or near/far or points on exponential/constant/subset connecting lines from a successful prediction function representing those points
+          - nn algorithms are not really 'laerning' in the sense of learning 'absolutely new info' (only locally new info about which way to move weights) so much as 'approaching an equilibrium representing a data set'
+          - the equivalence represented by the function is the balance between differences like errors & sample statistics, incentivizing the decrease/increase of a particular output value for the function, which is represented in a standard implementation using an average to represent/approximate that equivalence
+          - other structures that represent a 'balance between differences' can also act like a symmetry/equilibrium, and other representation structures can be applied to find alternate/subset/integrated prediction functions
+        - once the prediction function is known, derive a custom 'error metric' (similar to least squares) that could have been applied to arrive at the output prediction function faster, and derive an algorithm that could have connected inputs/outputs to the error metric, so the logical flow is 'predict useful error metric for these inputs/outputs' then 'apply error metric to find prediction function'
+      - alternate 'representation' structures would include:
+        - high-priority points, where x-values that map to an less important y-value are instead assigned the adjacent high-priority y-value
+        - another algorithm to select a more representative adjacent point or to select between equally adjacent & high-priority points
+        - find & apply 'adjacent averages' if the data set is adjusted in some way like with regularization or imputing missing values or applying an adjacent transform or identifying alternate population means with random subset sampling
+        
     - execute variant of gradient descent by checking:
       - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
       - for a horizontal plane's intersection count/area as its moved between low/high y-values to find spaces between intersection areas likely to have minima
