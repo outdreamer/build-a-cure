@@ -209,7 +209,8 @@
         - high-priority points, where x-values that map to an less important y-value are instead assigned the adjacent high-priority y-value
         - another algorithm to select a more representative adjacent point or to select between equally adjacent & high-priority points
         - find & apply 'adjacent averages' if the data set is adjusted in some way like with regularization or imputing missing values or applying an adjacent transform or identifying alternate population means with random subset sampling
-        
+      - generalization: this is different from other solution automation workflows in that it connects problem inputs (data points) and solution outputs (prediction/summary/representation function) using statistical metrics like averages about the input/output connection function that can be used to find the solution output faster bc the statistics are descriptive of the solution requirements & the problem/solution connection, and it applies similar inputs (like error metrics) to related solutions like regression to optimize finding the prediction function, so the problem becomes a problem of solving a related problem (regression) with a known solution or solution-finding method
+
     - execute variant of gradient descent by checking:
       - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
       - for a horizontal plane's intersection count/area as its moved between low/high y-values to find spaces between intersection areas likely to have minima
