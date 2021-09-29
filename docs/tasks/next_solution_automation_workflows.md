@@ -1,5 +1,23 @@
 # add to solution automation workflows
 
+      - apply useful structures to fulfill problem-solving intents applied to problem/solution structures, to find new solution automation workflows
+        - example: apply 'input-output sequence' to fulfill problem-solving intent of 'filter solution space' or core interaction function 'connect' applied to problem/solution structures to identify new ways problem/solution structures can interact in a useful way (as in fulfilling a 'problem-solving intent' like 'find new solutions given known solutions' or 'filter solution space')
+
+      - derive error metrics (indicating an incorrect solution) that could have solved the problem faster if known in advance & apply to fulfill problem-solving intents like 'filter solution space'
+        - example: for the 'find a prediction function' problem, find neutralizing differences as a way of finding a 'balanced/representative/average' or 'approximate/general' solution that minimizes some error
+          - derive input/output-connecting metrics of successful prediction functions
+            - input/output-connecting metrics could include:
+              - the ratio of numbers of data points above/below or difference between local/absolute extremes or near/far or points on exponential/constant/subset connecting lines from a successful prediction function representing those points
+            - nn algorithms are not really 'laerning' in the sense of learning 'absolutely new info' (only locally new info about which way to move weights) so much as 'approaching an equilibrium representing a data set'
+            - the equivalence represented by the function is the balance between differences like errors & sample statistics, incentivizing the decrease/increase of a particular output value for the function, which is represented in a standard implementation using an average to represent/approximate that equivalence
+            - other structures that represent a 'balance between differences' can also act like a symmetry/equilibrium, and other representation structures can be applied to find alternate/subset/integrated prediction functions
+          - once the prediction function is known, derive a custom 'error metric' (similar to least squares) that could have been applied to arrive at the output prediction function faster, and derive an algorithm that could have connected inputs/outputs to the error metric, so the logical flow is 'predict useful error metric for these inputs/outputs' then 'apply error metric to find prediction function'
+        - alternate 'representation' structures would include:
+          - high-priority points, where x-values that map to an less important y-value are instead assigned the adjacent high-priority y-value
+          - another algorithm to select a more representative adjacent point or to select between equally adjacent & high-priority points
+          - find & apply 'adjacent averages' if the data set is adjusted in some way like with regularization or imputing missing values or applying an adjacent transform or identifying alternate population means with random subset sampling
+        - generalization: this is different from other solution automation workflows in that it connects problem inputs (data points) and solution outputs (prediction/summary/representation function) using relevant statistical metrics like averages about the input/output connection function that can be used to find the solution output faster bc the statistics are relevant & descriptive of the solution requirements & the problem/solution connection (the 'average' is relevant to intents like prediction/generalization/representation), and it applies similar inputs (like error metrics) to related solutions like regression to optimize finding the prediction function, so the problem becomes a problem of solving a related problem (regression) with a known solution or solution-finding method
+
       - apply useful structures to fulfill useful core interaction functions (like 'replace') applied to other useful structures with known solutions to fulfill problem-solving intents like 'find new solutions'
         - example: with the 'find a prediction function' problem that applies insights about optimal interaction rules (like 'regularize' to 'generalize') and structures (like 'alternate routes to support non-linearity'), other structures that can replace an 'alternate route set' or 'input-output sequence set' include: 
           - other structures that a neural network can support to capture useful structures like 'change types', in addition to or replacing 'alternate routes' (which can be implemented specifically as 'input-output sequences')
