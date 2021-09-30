@@ -192,7 +192,11 @@
       - diffusion by interaction:
         - bc variable interactions tend to occur on the same interfaces or in the same interaction levels/space, meaning variables will likely encounter the outputs of other variables, so when one variable outputs energy, another variable will be impacted by that
       - diffusion by adjacence (in some structural definition of similarity like similarity in position):
-        - variable interactions tend to occur between adjacent structures (adjacent in some similarity, like similarity of position), meaning any energy overflows will be inputs to adjacent changes & will change those adjacent structures
+        - variable interactions tend to occur between adjacent structures (adjacent in some similarity, like similarity of position or similarity of inputs), meaning any energy outputs/overflows will be inputs to adjacent structures & will change those adjacent structures
+        - this has as a consequence 'diffusion by additivity':
+          - variables that are similar can likely be added or similarly combined and are likely to have similar inputs
+      - diffusion by requirement
+        - change in a semi-closed or closed system has to go somewhere, because very few functions can absorb change forever, so any structures that dont have enforced/protected stability will be changed by a particular change that is not handled by a change structure that diffuses the initial change in a more orderly way than a system-wide change cascade
 
     - curvature implies momentum of change of a particular type rather than constant change, applying a structure of incentives toward various positions & connections
       - is there a set of 'time crystal' space-times where change could be stuck in a 'local minima' where momentum doesnt reward movement in any direction (are space-time spaces continuous and is a method like momentum applied to determine motion in this space of space-times)
