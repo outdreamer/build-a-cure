@@ -1,5 +1,23 @@
 # add to solution automation workflows
 
+
+      - find which structures (in a specific interface) can fulfill a useful structure (like 'derive' function) of another structure (in a specific interface), as a method of finding/building/deriving/applying alternate structures to find/derive/build/apply that useful structure (which may be specified in another or a standard solution automation workflow)
+
+        - example: a structure (like a combination or sequence) of 'input/output requirements', 'core functions' or 'differences between functions', 'function sequences', 'interactive structures' or 'matching outputs-inputs' can be used to 'find', 'derive' or 'build' an 'input-output sequence' or 'connection sequence', bc these structures are particularly useful for finding/building/deriving input-output sequences
+          - their relevance is bc they are either directly connected to the inputs/outputs required or they can adjacently create direct inputs of other required structures
+        
+        - how to derive structures that would be useful to fulfill 'problem-solving intents' or other 'useful functions' (like find/derive/build/apply) of useful structures
+          - assume the input/output sequence is the 'target solution output' and:
+            - assume other structures with inputs/outputs like 'functions' are relevant to building this particular input/output sequence (to derive 'functions' as a useful structure)
+              - given that functions are useful structures:
+                - identify a function-reducing structure like 'function differences' to fulfill the 'find' intent of relevant functions 
+                - fulfill the 'build' intent of that output (to derive 'core functions' as a useful structure)
+                - identify structures (like sequences) of functions that could be useful to connect inputs/outputs (to derive 'function sequences' as useful)
+            - assume other structures having an overlap/alignment in intents (like 'connect' or 'equal') with the intents of the input 'sequence' structure would be useful (to derive connectible structures like 'interactive structures' or 'matching outputs-inputs' as useful)
+            - assume structures that must be available (like 'requirements') can be used as assumed inputs as well as filters of other structures (to derive 'requirements' as useful)
+
+          - these all apply a 'structural similarity' (between inputs/outputs and functions, or between 'connect/equal' and 'sequence') or other default/known useful structure like 'requirements' to find/derive/build other useful structures that can be used to find/derive/build/apply or substitute for a particular structure like input/output sequence
+
       - format problem structures in various default formats determined by various useful structures (like core interaction functions such as 'filter' or interfaces like 'change'), where the useful structures have associated useful structures to design structures of these useful structures that can be used to fulfill problem-solving intents
         
         - like how by default:
