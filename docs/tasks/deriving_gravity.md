@@ -84,7 +84,7 @@
       - the 'gravity' variable isnt specified in the original variables (x,y) values of the data set, but can be inferred by the slowing change rate on the upward slope
         - meaning: some 'structure' is 'interfering' with an 'increase in upward change' and 'constant upward change', which 'opposes' the 'initial change type' of 'upward change'
 
-      - why are direction of movement x and vertical movement y related at all (or specifically in this way, where a change in x applied to itself can adjacently produce a change y) bc they are:
+      - why are direction of movement x and vertical movement y related at all (or specifically in this way, where a change in x applied to itself can adjacently produce a change y)? bc they are:
         - 'interactive': 
           - they are both position variables and their interaction cant be prevented in the 'physical' system, which is by definition the 'interaction space' of positional dimensions & time
         - 'required' to interact: 
@@ -103,6 +103,7 @@
 
         - 'structural similarity with adjacent shift/inversion operations between one-peak compounding change & object speed change based on object position x (momentum)'
         - 'structural similarity between opposing interactive forces where one is stronger, forcing any change initiated by the weaker force to be neutralized (so y returns to base position of zero) & object speed change based on object position x (momentum)'
+        - 'synced reversing change in y with constant change in x'
 
         - where structures like:
           - 'one-peak' are relevant structures injected into the interface queries producing these interface structures bc of known requirements (like 'no bouncing'), meaning 'bc of the structural similarity between the requirement (no bouncing) and the structure (one-peak)'
@@ -118,8 +119,9 @@
             - a 'gravitational force' of an object around the peak, slowing motion (like a planet)
             - a 'set' of augmenting forces at various heights or along various trajectories that keep change compounding or increasing up to a limit
             - a 'set' of connecting forces ensuring objects in various positions are connected adjacently to other positions (like motion in a particular direction or with continuous speed change)
+            - a 'self-referencing structure' forced to interact with itself (x^2) & be inverted by some limit or requirement
 
       - so we have arrived at a structure ('opposing force interaction') indicating gravity, which occurs bc of the referenced requirements/limits & the resulting allowed interactions, common/adjacent/unit structures, structural similarities (like between complex inputs/outputs), interaction types, & change structures (like bases/symmetries) and change types (like compounding change) in the physical system and across systems in general
         - this allows another way to calculate the trajectory of the ball, if it was sub-optimal to use the other inputs like (x,y) values or (origin position + direction of movement + propulsion force), such as 'calculate the change that gravity applies to other interactions in the physical system and predict the output using that change pattern between inputs/outputs of functions where gravity is an input'
         - gravity acts like a 'complexity preserving/adding' function (as opposed to a 'complexity reducing' function like a derivative or regularizer) and a 'change reversing function' in this physical system, which can be applied as needed in other interactions
-        - in this way, we have derived the concept of 'gravity' without traditional numerical math
+        - in this way, we have derived the concept of 'gravity' without traditional numerical math (using structures mappable to math like opposites, similarities & concepts like complexity instead of numerical operations like add/multiply)
