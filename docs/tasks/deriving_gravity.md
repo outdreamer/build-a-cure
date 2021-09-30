@@ -107,7 +107,19 @@
         - where structures like:
           - 'one-peak' are relevant structures injected into the interface queries producing these interface structures bc of known requirements (like 'no bouncing'), meaning 'bc of the structural similarity between the requirement (no bouncing) and the structure (one-peak)'
           - 'final y position of base y position zero' is a relevant structure to symmetry structures (like those found in various compounding/exponential change structures), where change from the base is allowed to occur but it should return to the base by the end of the function trajectory
-      
+
+        - if it wasnt these structures indicating 'gravity', what other structures could have explained the interaction?
+          - 'gravity' exerts an 'opposing force' structure, which acts like a 'boundary', 'barrier', 'limit', or other 'requirement' structure, so other structures resulting in those structures could also have explained the interaction, if the physical system rules/structure were different
+            - a 'set' of vertical forces exerting an upper limit or downward force at various points on the upward slope, and a lack of propulsion forces allowing it to fall back to zero on the downward slope
+            - a force acting on the z-dimension whose outputs cascade to other dimensions
+            - a 'circular' structure indicating a return to an origin value (y = 0)
+            - a 'set of barriers' acting like a 'set of tangents' that limit the upward change rate
+            - a 'repulsive force' in the position above the peak
+            - a 'gravitational force' of an object around the peak, slowing motion (like a planet)
+            - a 'set' of augmenting forces at various heights or along various trajectories that keep change compounding or increasing up to a limit
+            - a 'set' of connecting forces ensuring objects in various positions are connected adjacently to other positions (like motion in a particular direction or with continuous speed change)
+
       - so we have arrived at a structure ('opposing force interaction') indicating gravity, which occurs bc of the referenced requirements/limits & the resulting allowed interactions, common/adjacent/unit structures, structural similarities (like between complex inputs/outputs), interaction types, & change structures (like bases/symmetries) and change types (like compounding change) in the physical system and across systems in general
         - this allows another way to calculate the trajectory of the ball, if it was sub-optimal to use the other inputs like (x,y) values or (origin position + direction of movement + propulsion force), such as 'calculate the change that gravity applies to other interactions in the physical system and predict the output using that change pattern between inputs/outputs of functions where gravity is an input'
         - gravity acts like a 'complexity preserving/adding' function (as opposed to a 'complexity reducing' function like a derivative or regularizer) and a 'change reversing function' in this physical system, which can be applied as needed in other interactions
+        - in this way, we have derived the concept of 'gravity' without traditional numerical math
