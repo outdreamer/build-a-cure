@@ -208,6 +208,9 @@
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
 
+  - find which structures (in a specific interface) can fulfill a useful structure (like 'derive' function) of another structure (in a specific interface), as a way of finding alternate methods to fulfill that useful structure
+    - example: a structure (like a combination or sequence) of 'input/output requirements', 'core functions' or 'differences between functions', 'existing function sequences', 'interactive structures' or 'matching outputs-inputs' can be used to 'find', 'derive' or 'build' an 'input-output sequence' or 'connection sequence'
+
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
 
