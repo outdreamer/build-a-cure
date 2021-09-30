@@ -188,6 +188,12 @@
       - examples of specific interaction types, like intersections or alignments
 
   - add to science
+    - why can many functions be modeled with the heat equation?
+      - diffusion by interaction:
+        - bc variable interactions tend to occur on the same interfaces or in the same interaction levels/space, meaning variables will likely encounter the outputs of other variables, so when one variable outputs energy, another variable will be impacted by that
+      - diffusion by adjacence (in some structural definition of similarity like similarity in position):
+        - variable interactions tend to occur between adjacent structures (adjacent in some similarity, like similarity of position), meaning any energy overflows will be inputs to adjacent changes & will change those adjacent structures
+
     - curvature implies momentum of change of a particular type rather than constant change, applying a structure of incentives toward various positions & connections
       - is there a set of 'time crystal' space-times where change could be stuck in a 'local minima' where momentum doesnt reward movement in any direction (are space-time spaces continuous and is a method like momentum applied to determine motion in this space of space-times)
       - time as a 'continuous overlap' of dimensions where change is still possible
@@ -207,7 +213,6 @@
 
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
-
 
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
