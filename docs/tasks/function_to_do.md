@@ -156,6 +156,20 @@
     - labels of other costs on goods like environmental costs, alternative prices to help fund research, health costs (loss of x days of life)
     - since everyone is a partial slaveowner if they buy any products built by slave labor or dont prevent others from doing so, moving away from dependence on slavery and toward dependence on automated labor (robots, AI) is in the interests of everyone
       - paying the 'slavery cost' of a good vs. paying alternate costs, like the 'mimimum profitable cost that is not dependent on slave-labor', the 'small business-boosting cost', the 'locally made cost', the 'funding research they care about by the supplying company cost', the 'lobbying for regulations they care about by the supplying company cost' can be as simple as explicit labels on prices & transparency in supplying company spending & research/regulation metric improvement data
+    - in a set of possible science-based solutions:
+      - there are filters of the solution space that can be agreed on by a majority:
+        - policies with output filters:
+          - 'policies that cause the least change', policies that cause the least change type (irreversible change, cascading change, order-invalidating change)', 'policies that cause the least harm' or 'policies that cause the least harm type (aggregate harm or vulnerable group harm)'
+        - other logical filters:
+          - filtering for policies that fulfill 'requirements' like 'not destroying the planet until there is accessible tech to allow individuals to thrive elsewhere'
+          - filtering out arguments against policies that mention the 'possibility' of a negative event without information, statistical or logical indicators of reasonable probability of that event
+        - filtering out policies with obviously negative priorities & no neutralizing benefits
+          - obviously exclusive self-interested policies at the group's expense: 'policies where the only objectors would be inefficient middlemen, rent-seekers, or monopolies who dont have a net positive contribution to society who profit from not applying the policy'
+        - these are less political and more logical so they are likely to reach consensus of a majority, the challenge is applying these rigorously & consistently rather than sporadically
+      - if a population tends to gravitate toward a particular position/argument as intelligence/information/education in a population increases, then the problem is lack of education/information/intelligence, and the solution is correcting that imbalance, rather than making a specific argument
+        - example: if people tend to always choose a false/error-prone explanation if its presented a certain way, whereas with the true explanation, it can be presented in any way and still convince someone, or if the number of distortions that need to be applied to the true explanation is higher to make it seem false vs. the number required to make the false explanation seem true has a pattern, those can be indicators of falsehood
+        - other methods can involve reminders of information about their interactions with the truth
+          - example: 'how many people do you know who have had the vaccine who have died since then' vs. 'how many people do you know who havent had the vaccine who have died' which are the right info structures to compare for an audience that only believes what they see or hear directly from other people, just like 'allowing people to see the needle sanitized' or 'tools to inject/test the vaccine themselves' are the right info structures for an audience thats afraid of needles, contamination, or doctors
 
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
@@ -194,7 +208,58 @@
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
 
+  - why does a ball thrown in the air have the shape of a parabola with varying height/width, with respect to distance from original position (x-axis)?
+    - specifically, why would the function of x have a x^2 term?
+      - what is the meaning of the parabola?
+    - if the ball isnt thrown vertically, it will have another dimension of change in the form of a 'direction of movement', represented by x
+    - if the ball fulfills the following conditions, it will drop to the ground again once after the initial throw:
+      - isnt caught but allowed to reach its highest vertical position given the force it was thrown with
+      - doesnt encounter other forces keeping it above the ground
+      - doesnt bounce
+    - the x^2 component just happens to represent the trajectory of an object that is thrown semi-vertically, the trajectory having a peak height and returning to its original height as momentum of the original force is reduced, excluding other influences that could have changed its motion, like wind or someone catching the object, where momentum has an impact of exponentially changing slope (change rates) as its impacted is reduced by interaction with gravity
+    - so the parabola isnt meaningful outside of the similarities in its shape to the connection between variables 'direction of movement' x & 'height' y on its own, but it does imply the following structures in the physics system:
+      - the existence of a propulsion force incentivizing change in the upward direction
+      - the interaction between the propulsion force & gravity
+      - the reduction of this force as it interacts with another force (which happens to be gravity)
+      - the limit on this force, which is reduced to zero at a particular height, at which point momentum begins to incentivize motion in the opposite direction in response to gravity
+      - the upper limit on its possible vertical position y
+      - the lack of interfering variables that could have changed the parabola's shape (to another polynomial, a shifted/scaled version of the function because of influences other than initial force & direction of motion & gravity, or to a function with a linear component or a minimum value other than zero, etc)
+    - how would you derive the parabolic structure, given these initial known variables (throwing force, direction, gravity) and the other relevant structures of the system?
+      - these structures represent requirements of the connecting function (the parabola):
+        - the limiting & reducing effects on:
+          - the throwing force when opposed by gravity, which incentivizes downward motion in general, leading specifically to:
+            - increasing momentum on the downward slope
+            - reduction of its upward motion to zero
+          - the maximum & minimum possible height
+            - the minimum being zero assuming no interfering structure
+            - the maximum being determined by the propulsion/gravity force interaction
+        - and given that we know the info (or assume as a proxy of info):
+          - the number of bounces (1)
+          - the origin position (height of propulsion initiator)
+          - the lack of interfering structures
+          - the non-vertical motion (the direction of movement) resulting in a dimension that changes with time x
+        - given that we know the maximum, minimum & general shape as determined by the limits/reductions, and the given input info variables, we know we need a function that:
+          - has one peak
+          - has decreasing change rate at first that reaches zero, then has increasing change rate until it reaches height y = 0
+          - has similar or equal decreasing/increasing change rate change rates (the parabola is roughly or exactly symmetric)
+        - so we can infer that x^2 is an adjacent operation of x that can be used as a standard structure to adjust with adjacent operations (like shifts/scaling/inversion) and known required variables like propulsion force (ignoring interference structures)
+        - the 'meaning' of the parabola is that:
+          - an initial change type ('propulsion force' & 'direction of movement') changes at a decreasing change rate until its change rate is zero (peak), then changes at an increasing change rate until its output variable ('height') is zero, creating a 'symmetry' at its peak
+          - the initial change type component (the 'propulsion force') has limited power in response to its interaction with another change type ('gravity') that is stronger, because when the propulsion force distorts a component of an object's state (height), gravity can force it back into one component of its original state (height), in a system with a lack of interference structures
+          - the constant multiplier of x^2 and x^2 represent the relative strength of the opposing force of the initial force
+            - the constant multiplier represents the ratio of relative strength (degree of relative strength)
+            - the x^2 term represents the fact that no matter how hard the ball is thrown (the parameters of the propulsion force), gravity can overpower it every time (higher absolute relative strength)
+          - other meanings include other variables like:
+            - substitute variables of gravity (the input 'mass of host object' leading to the output of the 'gravitational force' leading to the observed change rates applied to the thrown object's position in relation to the host object (planet))
+            - the system where these variables can interact in this way ('standard physics model')
+            
+
+  - add to stats
+    - give example of visualizing the stats object connections in a stat insight rule
+
   - add to ml
+
+    - encoding of 'simplifying variables' results in selecting 'high info-capturing simple variables' (like type variables) more frequently, given that agent decisions are often shaped by 'simplifying variables' as well, so 'simplifying variables' act like a highly interactive interface where many changes occur around the variables as a base for those changes, and standardizing to the interfaces represented by those variables captures a high amount of info
 
     - execute variant of gradient descent by checking:
       - if a hyperplane intersects with a peak in lower dimensional space that reduces common points to one point (the set of x combinations that result in the same y, where the set of x combinations would be one point)
