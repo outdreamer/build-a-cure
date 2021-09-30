@@ -210,6 +210,8 @@
 
   - why does a ball thrown in the air have the shape of a parabola with varying height/width, with respect to distance from original position (x-axis)?
     
+    - how to derive the function of the trajectory of a thrown object, given just a limited subset of (x,y) values, or just (original position, direction of movement, & propulsion force)
+
     - specifically, why would the function of x have a x^2 term?
       - what is the meaning of the parabola?
     
@@ -287,9 +289,9 @@
                   - the overlap of these symmetry & peak structures aligns with the 'two opposing interactive forces having different power' and the standard x^2 change type, where y increases exponentially (with 'componding' change) in a way that reflects the physical process of momentum creating compounding change (the change type of 'change creating an increase in change')
                   - squaring a number produces a change type progression (increasing increasing change in y => high increasing change in y) that has a structural similarity to 'interactive opposing forces without other interference/neutralizing structures'
                     - where the 'change type progression' is: 'constant positive change in x' => 'high increasing change in y => decreasing increasing change in y => increasing decreasing change in y => high decreasing change in y'
-            - this is ignoring spin & other variables which would add movement in dimension z
+            - this is ignoring spin & other variables which may add movement in dimension z
 
-      - the 'gravity' variable isnt specified in the original variables (x,y values) of the data set, but can be inferred by the slowing change rate on the upward slope
+      - the 'gravity' variable isnt specified in the original variables (x,y) values of the data set, but can be inferred by the slowing change rate on the upward slope
         - meaning: some 'structure' is 'interfering' with an 'increase in upward change' and 'constant upward change', which 'opposes' the 'initial change type' of 'upward change'
 
       - why are direction of movement x and vertical movement y related at all (or specifically in this way, where a change in x applied to itself can adjacently produce a change y) bc they are:
@@ -302,7 +304,20 @@
         - 'structurally similar':
           - exponential (squared change) in x maps adjacently to change in y
         - 'systematically compliant':
-          - 'the interaction of opposing forces where one (the change-inhibiting force) is absolutely stronger to a non-absolute degree (not enough to prevent all functionality of the change-initiating force) and where there are no neutralizing structures, resulting in a compounding change structure (like that created by momentum)' matches the 'inverse of the shape (parabola) created by the unit compounding change structure (x^2)'
+          - the general system structure of 'an interaction of opposing forces where one (the change-inhibiting force) is absolutely stronger to a non-absolute degree (not enough to prevent all functionality of the change-initiating force) and where there are no neutralizing structures, resulting in a compounding change structure (like that created by momentum)' matches the physical system structure 'gravity & propulsion force interaction, connecting a change in both direction & height' & also matches the 'inverse of the shape (parabola) created by the adjacent unit compounding change structure (x^2)'
+          - they represent a common interaction function across systems
+          - change of one type (change in 'width' position component) impacts changes in related/similar/equal types (change in 'height' position component) on the same interface ('position') when 'required' to 'interact' bc these changes are not just interactive bc of the requirement, but they are also adjacent:
+            - 'if change in one position component is prevented, change can accrue to another position component to create a minor/adjacent state change, without requiring impossible, unlikely, or extreme state changes, given change type interaction requirements like continuity' (change in dimension set or extreme position change like non-continuous position change)
+
+      - so the question 'why would the position trajectory of a thrown object have an x^2 term' is answered by structures like:
+
+        - 'structural similarity with adjacent shift/inversion operations between one-peak compounding change & object speed change based on object position x (momentum)'
+        - 'structural similarity between opposing interactive forces where one is stronger, forcing any change initiated by the weaker force to be neutralized (so y returns to base position of zero) & object speed change based on object position x (momentum)'
+
+        - where structures like:
+          - 'one-peak' are relevant structures injected into the interface queries producing these interface structures bc of known requirements (like 'no bouncing'), meaning 'bc of the structural similarity between the requirement (no bouncing) and the structure (one-peak)'
+          - 'final y position of base y position zero' is a relevant structure to symmetry structures, where change from the base is allowed to occur but it should return to the base by the end of the function trajectory
+      
 
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
