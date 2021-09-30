@@ -227,10 +227,10 @@
       - the upper limit on its possible vertical position y
       - the lack of interfering variables that could have changed the parabola's shape (to another polynomial, a shifted/scaled version of the function because of influences other than initial force & direction of motion & gravity, or to a function with a linear component or a minimum value other than zero, etc)
     
-    - how would you derive the parabolic structure, given these initial known variables (throwing force, direction, gravity) and the other relevant structures of the system?
+    - how would you derive the parabolic structure, given these initial known variables (x,y) values, or (propulsion force, direction, gravity) and the other relevant structures of the system?
       - these structures represent requirements of the connecting function (the parabola):
         - the limiting & reducing effects on:
-          - the throwing force when opposed by gravity, which incentivizes downward motion in general, leading specifically to:
+          - the propulsion force when opposed by gravity, which incentivizes downward motion in general, leading specifically to:
             - increasing momentum on the downward slope
             - reduction of its upward motion to zero
           - the maximum & minimum possible height
@@ -292,6 +292,17 @@
       - the 'gravity' variable isnt specified in the original variables (x,y values) of the data set, but can be inferred by the slowing change rate on the upward slope
         - meaning: some 'structure' is 'interfering' with an 'increase in upward change' and 'constant upward change', which 'opposes' the 'initial change type' of 'upward change'
 
+      - why are direction of movement x and vertical movement y related at all (or specifically in this way, where a change in x applied to itself can adjacently produce a change y) bc they are:
+        - 'interactive': 
+          - they are both position variables and their interaction cant be prevented in the 'physical' system, which is by definition the 'interaction space' of positional dimensions & time
+        - 'required' to interact: 
+          - this is bc 'its required that if an object's x-value changes or if it has a value at all, it must also have a y & z value (they are required to interact)'
+        - 'probable' to interact: 
+          - any change in x is also likely to produce associated changes in y & z (rather than y & z being constant while x changes), given how constant change is difficult to create bc its a simple structure & maintaining simplicity in a complex system is a high-cost operation
+        - 'structurally similar':
+          - exponential (squared change) in x maps adjacently to change in y
+        - 'systematically compliant':
+          - 'the interaction of opposing forces where one (the change-inhibiting force) is absolutely stronger to a non-absolute degree (not enough to prevent all functionality of the change-initiating force) and where there are no neutralizing structures, resulting in a compounding change structure (like that created by momentum)' matches the 'inverse of the shape (parabola) created by the unit compounding change structure (x^2)'
 
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
