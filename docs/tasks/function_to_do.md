@@ -258,15 +258,40 @@
         - this is a common standard interaction structure partly bc it can be generated with adjacent transforms of the input x, and adjacent operations are more common
         - given that its a common structure, the system where this structure occurs must have two opposing interaction forces
         - constant change is less common than exponential change, because most of the time, constant change requires a very simple closed system, and that is a very rare condition in the 'physical' system (physical reality, created by the lack of structures preventing a system where interfaces are allowed to interact as is useful for other interface structure interactions), and conditions enabling other possible generators of constant change are even rarer)
-          - given the complexity of systems (with many variables, many possible neutralizing/interference & opposing structures, many limits & requirements, many structures that can store energy, many possible interactions given lack of limits enforcing non-interaction, etc), more complex change types are more probable
+          - given the complexity of systems (with many variables, many possible neutralizing/interference & opposing structures, many limits & requirements, many structures that can store energy, many possible interactions given lack of limits enforcing non-interaction, etc), this means 'more complex change types are more probable'
+          - this is a very useful rule to understand systems, that can be used to infer & connect with other useful rules like:
+            - if inputs are complex, outputs are likely to be complex, as the internal connecting structures of inputs/outputs are unlikely to be capable of storing/reducing complexity unless specifically designed to do so, which is uncommon
+          - deriving the rules 'more complex change types are more probable' and 'inputs are likely to be similar to outputs in some conceptual system attribute like complexity' from the initial set of (x,y) values can be done with interface queries:
+            - applying the change interface to identify change types like 'unit change type', 'constant change type', 'increasing/decreasing change type', 'opposing change type', 'componding change type' at which point the 'complexity' attribute will become clear in the 'difference' between the 'increasing/decreasing change type' and the 'constant change type'
+            - applying the common useful function 'connect inputs-outputs' to connect input interface structures (concepts like 'complexity') with output interface structures (concepts like 'complexity')
+              - identifying the 'structural similarity' useful interface structure between the inputs/outputs:
+              - applying the concept interface's useful function 'abstracting' to derive the rule 'inputs are likely to be similar to outputs in some conceptual system attribute like complexity'
+            - applying the probability-concept interface to check for the 'commonness' of various conceptual attributes like 'simplicity' (or 'complexity') across known systems to identify their 'probability'
+            - applying the system-structure-probability interface to check for 'requirements' or 'limits' enforcing a 'simple' or 'complex' system, and the 'probability' of those structures across known systems
 
       - contextual meanings can include other change types when applied to the contextual host system (the 'physical' system), including variables like:
         - substitute variables of gravity (the input 'mass of host object' leading to the output of the 'gravitational force' leading to the observed change rates applied to the thrown object's position in relation to the host object (planet))
         - the system where these variables can interact in this way ('standard physics model where change occurs over time')
         - the change type interactions & components indicated in the parabola are unlikely to retain their simplicity in a physical system where assumptions like 'lack of interference structures' are not enforced, but it can be used as a standard/base solution to start applying transforms to in order to fit actual data & detect relevant interference structures in place
+        - why is x (change in horizontal position) multiplied by itself useful for determining vertical position:
+          - its only useful in that it describes a general shape of motion in systems like the 'physical' system where there are two interactive opposing forces (propulsion & gravity forces), one of which is stronger, where there is a change in 'direction of movement' that can be mapped to the x-axis
+          - so another meaning is that:
+            - 'in a system with two interactive opposing forces (where their relative power means one consistently overwhelms the other, but does not prevent all functionality of the other), where a direction of movement applies to the force (propulsion force) initiating change from a stable state (original position), the direction of movement applied to itself may be a useful general structure to identify change in other positional components (height) of the object acted on by the forces'
+            - the 'change in area x^2' created by 'direction of movement x applied to itself' is relevant to determining how change in direction of movement determines change in another position dimension y where movement is not prevented or is incentivized/initiated by a force
+              - change in movement x is not the only relevant variable to determine y - the previous position y also matters to determine the change in y that a particular change in x will create
+              - 'how square area changes when direction of movement x is the side length of the square' determines the general shape of the interactive forces and other positional dimension of change y
+                - 'some energy is invested in changing x and some energy is invested in changing y, where change in y follows a "squared area" change pattern applied to x'
+                - why is a square a relevant structure? bc:
+                  - squaring a number produces a symmetry
+                  - squaring a number produces a one-peak structure
+                  - the overlap of these symmetry & peak structures aligns with the 'two opposing interactive forces having different power' and the standard x^2 change type, where y increases exponentially (with 'componding' change) in a way that reflects the physical process of momentum creating compounding change (the change type of 'change creating an increase in change')
+                  - squaring a number produces a change type progression (increasing increasing change in y => high increasing change in y) that has a structural similarity to 'interactive opposing forces without other interference/neutralizing structures'
+                    - where the 'change type progression' is: 'constant positive change in x' => 'high increasing change in y => decreasing increasing change in y => increasing decreasing change in y => high decreasing change in y'
+            - this is ignoring spin & other variables which would add movement in dimension z
 
       - the 'gravity' variable isnt specified in the original variables (x,y values) of the data set, but can be inferred by the slowing change rate on the upward slope
         - meaning: some 'structure' is 'interfering' with an 'increase in upward change' and 'constant upward change', which 'opposes' the 'initial change type' of 'upward change'
+
 
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
