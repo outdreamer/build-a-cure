@@ -316,7 +316,9 @@
 
         - where structures like:
           - 'one-peak' are relevant structures injected into the interface queries producing these interface structures bc of known requirements (like 'no bouncing'), meaning 'bc of the structural similarity between the requirement (no bouncing) and the structure (one-peak)'
-          - 'final y position of base y position zero' is a relevant structure to symmetry structures, where change from the base is allowed to occur but it should return to the base by the end of the function trajectory
+          - 'final y position of base y position zero' is a relevant structure to symmetry structures (like those found in various compounding/exponential change structures), where change from the base is allowed to occur but it should return to the base by the end of the function trajectory
+
+        - 
       
 
   - add to stats
