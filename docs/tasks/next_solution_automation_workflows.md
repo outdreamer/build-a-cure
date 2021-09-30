@@ -1,5 +1,26 @@
 # add to solution automation workflows
 
+      - format problem structures in various default formats determined by various useful structures (like core interaction functions such as 'filter' or interfaces like 'change'), where the useful structures have associated useful structures to design structures of these useful structures that can be used to fulfill problem-solving intents
+        
+        - like how by default:
+          - 'strictness' is relevant to 'filter' intents
+          - 'change types' and 'change units' and default operations like 'combine' are relevant to 'change'
+
+        - change
+          - identify relevant unit structures ('change' unit structures)
+          - generate structures of 'completeness' of relevant unit structures ('all possible combinations' of change unit structures that can be used to create other changes)
+          - find contribution of each change structure, prioritizing solution metric of 'fewest possible change structures'
+          - solve for changes (v,w,x,y) applied to all possible types of relevant unit structures (change unit structures, like variable, variable transformation, & variable interaction units) to generate output z
+            - v * core change unit + w * synced change unit + x * compounding change unit + y * constant change unit = z
+
+        - filter
+          - strictness: apply filters of varying strictness as needed
+            - required
+              - probable
+                - possible
+
+        - these structures have associated useful structures by default bc of their definitions, and they can be used to represent/solve all problems/solutions
+
       - apply useful structures to fulfill problem-solving intents applied to problem/solution structures, to find new solution automation workflows
         - example: apply 'input-output sequence' to fulfill problem-solving intent of 'filter solution space' or core interaction function 'connect' applied to problem/solution structures to identify new ways problem/solution structures can interact in a useful way (as in fulfilling a 'problem-solving intent' like 'find new solutions given known solutions' or 'filter solution space')
 
