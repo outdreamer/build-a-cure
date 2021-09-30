@@ -209,8 +209,10 @@
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
 
   - why does a ball thrown in the air have the shape of a parabola with varying height/width, with respect to distance from original position (x-axis)?
+    
     - specifically, why would the function of x have a x^2 term?
       - what is the meaning of the parabola?
+    
     - if the ball isnt thrown vertically, it will have another dimension of change in the form of a 'direction of movement', represented by x
     - if the ball fulfills the following conditions, it will drop to the ground again once after the initial throw:
       - isnt caught but allowed to reach its highest vertical position given the force it was thrown with
@@ -224,6 +226,7 @@
       - the limit on this force, which is reduced to zero at a particular height, at which point momentum begins to incentivize motion in the opposite direction in response to gravity
       - the upper limit on its possible vertical position y
       - the lack of interfering variables that could have changed the parabola's shape (to another polynomial, a shifted/scaled version of the function because of influences other than initial force & direction of motion & gravity, or to a function with a linear component or a minimum value other than zero, etc)
+    
     - how would you derive the parabolic structure, given these initial known variables (throwing force, direction, gravity) and the other relevant structures of the system?
       - these structures represent requirements of the connecting function (the parabola):
         - the limiting & reducing effects on:
@@ -243,16 +246,27 @@
           - has decreasing change rate at first that reaches zero, then has increasing change rate until it reaches height y = 0
           - has similar or equal decreasing/increasing change rate change rates (the parabola is roughly or exactly symmetric)
         - so we can infer that x^2 is an adjacent operation of x that can be used as a standard structure to adjust with adjacent operations (like shifts/scaling/inversion) and known required variables like propulsion force (ignoring interference structures)
-        - the 'meaning' of the parabola is that:
-          - an initial change type ('propulsion force' & 'direction of movement') changes at a decreasing change rate until its change rate is zero (peak), then changes at an increasing change rate until its output variable ('height') is zero, creating a 'symmetry' at its peak
-          - the initial change type component (the 'propulsion force') has limited power in response to its interaction with another change type ('gravity') that is stronger, because when the propulsion force distorts a component of an object's state (height), gravity can force it back into one component of its original state (height), in a system with a lack of interference structures
-          - the constant multiplier of x^2 and x^2 represent the relative strength of the opposing force of the initial force
-            - the constant multiplier represents the ratio of relative strength (degree of relative strength)
-            - the x^2 term represents the fact that no matter how hard the ball is thrown (the parameters of the propulsion force), gravity can overpower it every time (higher absolute relative strength)
-          - other meanings include other variables like:
-            - substitute variables of gravity (the input 'mass of host object' leading to the output of the 'gravitational force' leading to the observed change rates applied to the thrown object's position in relation to the host object (planet))
-            - the system where these variables can interact in this way ('standard physics model')
-            
+        
+    - the 'meaning' of the parabola does not have 'physical' system definitions, but it has interface definitions (such as 'structural' or 'change' interactions) in that:
+    
+      - an initial change type ('propulsion force' & 'direction of movement') changes at a decreasing change rate until its change rate is zero (peak), then changes at an increasing change rate until its output variable ('height') is zero, creating a 'symmetry' at its peak
+        - the initial change type component (the 'propulsion force') has limited power in response to its interaction with another change type ('gravity') that is stronger, because when the propulsion force distorts a component of an object's state (height), gravity can force it back into one component of its original state (height), in a system with a lack of interference structures
+        - the constant multiplier of x^2 and x^2 represent the relative strength of the opposing force of the initial force
+          - the constant multiplier represents the ratio of relative strength (degree of relative strength)
+          - the x^2 term represents the fact that no matter how hard the ball is thrown (the parameters of the propulsion force), gravity can overpower it every time (higher absolute relative strength)
+        - there are no limits or other structures preventing these change types, the coordination of these change type components, or their interactions in the system
+        - this is a common standard interaction structure partly bc it can be generated with adjacent transforms of the input x, and adjacent operations are more common
+        - given that its a common structure, the system where this structure occurs must have two opposing interaction forces
+        - constant change is less common than exponential change, because most of the time, constant change requires a very simple closed system, and that is a very rare condition in the 'physical' system (physical reality, created by the lack of structures preventing a system where interfaces are allowed to interact as is useful for other interface structure interactions), and conditions enabling other possible generators of constant change are even rarer)
+          - given the complexity of systems (with many variables, many possible neutralizing/interference & opposing structures, many limits & requirements, many structures that can store energy, many possible interactions given lack of limits enforcing non-interaction, etc), more complex change types are more probable
+
+      - contextual meanings can include other change types when applied to the contextual host system (the 'physical' system), including variables like:
+        - substitute variables of gravity (the input 'mass of host object' leading to the output of the 'gravitational force' leading to the observed change rates applied to the thrown object's position in relation to the host object (planet))
+        - the system where these variables can interact in this way ('standard physics model where change occurs over time')
+        - the change type interactions & components indicated in the parabola are unlikely to retain their simplicity in a physical system where assumptions like 'lack of interference structures' are not enforced, but it can be used as a standard/base solution to start applying transforms to in order to fit actual data & detect relevant interference structures in place
+
+      - the 'gravity' variable isnt specified in the original variables (x,y values) of the data set, but can be inferred by the slowing change rate on the upward slope
+        - meaning: some 'structure' is 'interfering' with an 'increase in upward change' and 'constant upward change', which 'opposes' the 'initial change type' of 'upward change'
 
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
