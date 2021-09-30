@@ -18,6 +18,8 @@
 
           - these all apply a 'structural similarity' (between inputs/outputs and functions, or between 'connect/equal' and 'sequence') or other default/known useful structure like 'requirements' to find/derive/build other useful structures that can be used to find/derive/build/apply or substitute for a particular structure like input/output sequence
 
+        - workflow fit: this is related to workflows involving useful structures but involves applying useful structures to fulfill find/derive/generate intents of useful structures to find alternative useful structures
+
       - format problem structures in various default formats determined by various useful structures (like core interaction functions such as 'filter' or interfaces like 'change'), where the useful structures have associated useful structures to design structures of these useful structures that can be used to fulfill problem-solving intents
         
         - like how by default:
@@ -38,6 +40,8 @@
                 - possible
 
         - these structures have associated useful structures by default bc of their definitions, and they can be used to represent/solve all problems/solutions
+
+        - workflow fit: this is related to workflows involving useful structures but involves deriving default useful structures associated with another useful structure & applying that default useful structure to format a problem in a useful structure where its more solvable
 
       - apply useful structures to fulfill problem-solving intents applied to problem/solution structures, to find new solution automation workflows
         - example: apply 'input-output sequence' to fulfill problem-solving intent of 'filter solution space' or core interaction function 'connect' applied to problem/solution structures to identify new ways problem/solution structures can interact in a useful way (as in fulfilling a 'problem-solving intent' like 'find new solutions given known solutions' or 'filter solution space')
