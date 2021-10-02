@@ -187,3 +187,21 @@
 		- find a metric that separates the two answers correctly 
 			- if you sum the inputs, you get the same answer for the 1,0 and 0,1 pair set (1), but different values for the other two, and the line generated is a constant
 			- if you subtract the inputs, you get the same answer for the pairs that should have the same answer
+
+	- what is another way to derive the usefulness of linear algebra in this context of mapping a 'set of inputs' to an 'output value'
+		- many operations & formats can connect the 'set of x inputs' and the 'y value output' 
+			- matrix operations are just one of them
+			- other operations to produce one value from a set are 'average', 'sum', 'type', 'compression'
+				- among these, the 'average' operation combines many values to find a representative value that fairly (with equal weights) represents them all as best as possible
+					- the adjacent derivation of 'matrix multiplication' aligns with this structure:
+						- matrix multiplication (sum of sets of pair-wise multiplications) can be derived adjacently by applying a scalar to a set of terms, then adding another scalar in another position with the same connection function (sum) as the other terms, then combining them in the same operation as the original scalar
+					- matrix multiplication multiplies a set of values by a set of values in a one-to-one-mapping
+					- an average multiplies a set of values by a weight, which may be the same for each value
+					- both are a sequence of a sum of multiplied terms
+						- given this structural similarity, the relevance of 'average' operations to 'matrix multiplication' can be derived
+					- this gives a function (matrix multiplication) to conduct an 'average' or other weighting operations - we need a requirement to match/call the function
+			- matrix multiplication can also be used to convert a set of values into another - like converting a set of x value inputs into a y value output, as with the weighting function that produced a sum of weighted inputs
+			- common problem formats include 'find a prediction function for y given x', to which adjacent transforms can be applied to generate the multi-variate counterpart, which generates a requirement to call the matrix multiplication function in various positions:
+				- 'weighted sum'
+				- 'connecting a set of values with another set'
+					- this can be applied to relevant inputs of the 'find a prediction function' problem, like with the input structure of 'sample data points' to create a prediction function for
