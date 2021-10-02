@@ -193,8 +193,8 @@
         - bc variable interactions tend to occur on the same interfaces or in the same interaction levels/space, meaning variables will likely encounter the outputs of other variables, so when one variable outputs energy, another variable will be impacted by that
       - diffusion by adjacence (in some structural definition of similarity like similarity in position):
         - variable interactions tend to occur between adjacent structures (adjacent in some similarity, like similarity of position or similarity of inputs), meaning any energy outputs/overflows will be inputs to adjacent structures & will change those adjacent structures
-        - this has as a consequence 'diffusion by additivity':
-          - variables that are similar can likely be added or similarly combined and are likely to have similar inputs
+      - interaction & adjacence have as a consequence 'diffusion by additivity':
+        - variables that are similar can likely be added or similarly combined and are likely to have similar inputs, so they are interactive with the initial change in this way as well
       - diffusion by requirement
         - change in a semi-closed or closed system has to go somewhere, because very few functions can absorb change forever, so any structures that dont have enforced/protected stability will be changed by a particular change that is not handled by a change structure that diffuses the initial change in a more orderly way than a system-wide change cascade
 
@@ -217,11 +217,17 @@
 
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
+    - organized code by 'core component' (function input/output variables, input/output differences, patterns, core function-calling function (high-level functions, so building core functions is the source of changes in functionality of high-level functions), uses, logical derivation connections (equivalence, requirements, dependencies) as logic trees, logically directed graphs, changes/states, function, reference, relative position of thread/process/function, limits/requirements, dependencies, data, prior operations (cache), differentiating attributes, context, mix/iteration/cycles/sequence, type, example, value)
 
   - add to stats
     - give example of visualizing the stats object connections in a stat insight rule
 
   - add to ml
+
+
+    - examine 'wave' and 'symmetry' structures in weight paths/trees where 'adjacence' of features is preserved or magnified to some degree (leading to incremental change in adjacent node outputs)
+      - concept of 'cost-sharing' among various contributing weight paths/trees to avoid over-specificity
+      - https://spectrum.ieee.org/what-is-deep-learning/particle-17
 
     - encoding of 'simplifying variables' results in selecting 'high info-capturing simple variables' (like type variables) more frequently, given that agent decisions are often shaped by 'simplifying variables' as well, so 'simplifying variables' act like a highly interactive interface where many changes occur around the variables as a base for those changes, and standardizing to the interfaces represented by those variables captures a high amount of info
 
