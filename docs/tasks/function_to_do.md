@@ -148,7 +148,7 @@
 
 ## examples
 
-  - how the common system structure of 'isolated components that are connected by functions to form a network' can be replaced by other structures like:
+  - how the common system structure of 'isolated components that are connected by functions to form a network' can be replaced by other structures using associated useful functions like:
     - describe/determine/differentiate: a structure with attributes (or a structure of attributes) that allow interactions of continuous/overlapping components inside the structure or produced by the structure to develop the same input/output sequences as the component/function network
       - this can take the form of 'attribute intersections', 'lack of structure', 'overlapping/continuous structures vs. discrete structures', 'incentivized but not explicit structure' or 'abstract structures' allowing this similarity to the component function network
     - identify/determine/limit: sequences/sets of component/function routes (formatted as pairs, patterns, positions, differences, sequences, interval/degree-based versions of both, non-ordered set versions of both) on the network
@@ -158,6 +158,7 @@
     - determine/limit: a set of inputs/outputs that can be used to uniquely determine the network
 
   - add to govt
+    - companies as a minter/regulator/govt, as a way to avoid currnecy regulations & responsibility
     - example of neutralizing the priority by over-prioritization 
       - over-prioritization of capitalism on one layer prevents it from occuring on other layers
       - by not distributing the concept of 'capitalism' to all layers & structures where it's relevant (like capitalism in selecting leaders), other structures of capitalism allow structures that neutralize capitalism (like competitive moats, where the impact of a leader's mistakes are muted & they are not replaced when they should be)
