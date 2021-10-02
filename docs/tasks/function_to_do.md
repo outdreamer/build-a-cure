@@ -148,7 +148,19 @@
 
 ## examples
 
+  - how the common system structure of 'isolated components that are connected by functions to form a network' can be replaced by other structures like:
+    - describe/determine/differentiate: a structure with attributes (or a structure of attributes) that allow interactions of continuous/overlapping components inside the structure or produced by the structure to develop the same input/output sequences as the component/function network
+      - this can take the form of 'attribute intersections', 'lack of structure', 'overlapping/continuous structures vs. discrete structures', 'incentivized but not explicit structure' or 'abstract structures' allowing this similarity to the component function network
+    - identify/determine/limit: sequences/sets of component/function routes (formatted as pairs, patterns, positions, differences, sequences, interval/degree-based versions of both, non-ordered set versions of both) on the network
+    - derive/generate/limit: filters/functions that generate the component/function network
+    - standardize: a simplified/compressed/parameterized form of the component/function network
+    - change: an adjacent version of the network (like its opposite) that can be converted to the network with minimal transforms
+    - determine/limit: a set of inputs/outputs that can be used to uniquely determine the network
+
   - add to govt
+    - example of neutralizing the priority by over-prioritization 
+      - over-prioritization of capitalism on one layer prevents it from occuring on other layers
+      - by not distributing the concept of 'capitalism' to all layers & structures where it's relevant (like capitalism in selecting leaders), other structures of capitalism allow structures that neutralize capitalism (like competitive moats, where the impact of a leader's mistakes are muted & they are not replaced when they should be)
     - rather than payments from consumers, payments from central ledger based on production of supplies & proof of usage
       - this would invalidate the need for individual ledger accounts to acquire standard supplies like food/medicine, and suppliers of standard supplies can be paid from a general central ledger to continue their enterprise based on their supplies, their usage ratio, their relative contribution compared to other suppliers, and their relative value added by solving problems of supply like pollution & optimizing minimal cost of production & environmental impact
       - some transactions can require private accounts like for optional goods
@@ -223,7 +235,6 @@
     - give example of visualizing the stats object connections in a stat insight rule
 
   - add to ml
-
 
     - examine 'wave' and 'symmetry' structures in weight paths/trees where 'adjacence' of features is preserved or magnified to some degree (leading to incremental change in adjacent node outputs)
       - concept of 'cost-sharing' among various contributing weight paths/trees to avoid over-specificity
