@@ -109,12 +109,19 @@
 
 ## examples
 
+  - add to problem/solution structures
+    - definitions & other truth structures as symmetries
+
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
   - add to science
-    - 'sets of n particles' that act in aligned ways like 'components of a temporary local field/lattice having n points'
+    - 'sets of n particles' that act in aligned ways like:
+      - 'components of a temporary local field/lattice having n points'
+      - 'a connection created from equivalence structures' based on:
+        - a 'homotopy equivalence between points'
+        - a 'set of rotations/arrangements transforming points into a set of equivalent duplicates by definition-compliance, like the infinite cloning paradox solution'
     - 'ozone hole' was a specific structure that gave people one achievable goal to aim for so they could organize resources around achieving that goal
     - what ratio of gene copies is required to offset cancerous processes/responses without interfering with non-cancerous process
       - can junk dna be altered to fix sub-optimal ratios?
