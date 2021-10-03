@@ -8,6 +8,7 @@
 			- 'apply rules in a rules database to valid inputs to those rules'
 		- perform calculations related to the proof, so every calculation doesnt have to be done manually
 			- like 'calculate the ratio of nodes with this attribute in a network, for networks of size n for all n from 1 to a million'
+		- conduct known logical analysis of a very specific & limited type that is hard-coded and can only assess the logical validity of claims within a very limited range of structures (like whether a set contains another set, whether an object is an example of a type, whether a very simple & structural mathematical attribute like 'associativity' can be applied to very structural linguistic statements like "'A is B' and 'B is C' so 'A is C'", which are simple enough to be clearly mapped to math structure like mapping 'is' to 'equals', which can obviously be checked with mathematical functions or their logical corrollaries, whereas my invention can derive new logical structures & assess conceptual logical structures like 'requirements' which it can apply as 'filters' to fulfill problem-solving intents like 'filter a solution space')
 	- these assistants do not:
 		- evaluate a specific attribute required for proofs, like 'consistency/validity' or 'solvability given computational complexity & minimum required information', using known math interactions that fulfill the attribute 'consistency', although that would be useful and can be done with my invention
 		- check the 'meaning' attribute of their proofs

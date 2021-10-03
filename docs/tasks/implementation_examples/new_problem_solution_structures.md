@@ -1,0 +1,235 @@
+- definitions
+  - workflows: a way to solve a problem automatically
+    - they are 'solution finding methods' to find 'solutions', where solutions may themselves be 'solution-finding methods' (like 'regression' is a solution-finding method, to find specific functions that are solutions to the 'find a regression function' or 'find a representative function' problems), meaning that any solution-finding method for a particularly standard/useful problem format may be a solution automation workflow (or a component of one, after applying other functions like 'convert problem to standard problem format', where that solution-finding method can be applied)
+  - interface query: a way to automatically implement a function (connect inputs/outputs), such as a solution-finding method like a solution automation workflow
+    - when applied to implement a function intent, the interface query is a function-finding method
+    - when applied to implement a problem-solving intent, the interface query is a solution-finding method
+  - interface: standardizing filter where any problem can be solved
+    - why an interface isnt a language: its definition overlaps with the definition of a set, which is a sub-structure found on interfaces and doesnt encapsulate the whole definition of an interface, which is a specific structure in which all problems can be solved, whereas language encompasses all concepts/structures without refinement by a filter that adds value in reducing computations
+    - why an interface isnt a symmetry: a symmetry is a relevant structure to interfaces (both of which act like a base where certain change types can be applied without losing info), but the definition of a symmetry does not specify how a symmetry interacts with all other structures, including other symmetries, and does not specify how a symmetry can be used to solve all problems, let alone the subset of problems which have been formatted to relevant structures to symmetries, such as 'change types'
+      - example of why similarities/differences are insufficient to solve all problems
+        - many functions have the same or similar 'similarity to a data set' as determined by some error metric, but most of these functions will produce sub-optimal predictions in some important case (like with different data samples, or the first set of predictions in high-error areas of the prediction function, while the prediction function is still relevant & reflective of reality), as some predictions are more important than others given the context of the prediction like timing & data set differences
+      - structures like ambiguities/overlaps are sources of info to identify interfaces
+        - the overlap of 'difference' & 'change' definitions indicates that they are related variations in a potential field of a unifying concept acting as a symmetry around which changes occur, where the concept may act like a symmetry, but the implications of the relevance of that concept indicate other structures are required to understand & apply the concept, such as how it interacts with other symmetries, whether the symmetry is illusory or real, whether the symmetry has a limit on its lifespan, whether the symmetry is the output of another symmetry
+  - perspective: a filter with priorities (which may be structures, causes, abstract prioritized attributes, or other interface structures) which highlight a structure as particularly important
+    - example:
+      - a perspective like 'find the function that minimizes distance from as many points as possible' produces a solution that can qualify as 'regression' to the 'find a prediction function' problem
+        - this perspective can be a function structure, but its still a perspective because its highlighting some objects (distance from points, average) as particularly important
+        - a function like 'find the function that minimizes distance from the average line' is a lot closer to the definition of 'regression'
+        - differences in perspectives:
+          - the first perspective highlights a specific problem-solving intent to generate a solution-finding method or solution for, which has many possible implementations
+          - the second perspective highlights an adjacent inevitable solution-finding method, which has very few possible solutions/implementations, given some variance in the definition of the average
+    - perspective variables
+      - degree of implementation variation
+      - info captured/created
+        - perspectives may be useful structures & may contain useful structures (like averages), which capture a lot of uncertainty, complexity or variation/change, providing useful info like a direction to move toward when searching for a solution, or a specific problem-solving intent to fulfill
+      - adjacence to solutions/solution-finding methods
+      - definitions
+      - priorities
+      - filters
+      - useful structures referenced
+      - problems the perspective is useful for
+      - relation to other perspectives
+        - differences in perspectives can be used to generate other useful perspectives, and identify which perspectives would be most useful to guide a problem-solving workflow or interface query, given perspective attributes like implementation variation
+      - perspective structure (interface, function, priority set, etc)
+        - a perspective may be formatted like a particular interface structure, like a function or interface, while still qualifying as a perspective bc it prioritizes some objects over others
+      - abstraction (abstract perspective or a specific perspective)
+    - how is a perspective different from other structures?
+      - its definition overlaps with an interface, but the interface includes an abstract concept like 'cause' that is prioritized & focused on, and all the structures relevant to it, & standardizes everything to that concept's structures, whereas a perspective may just focus on a particular set of structures rather than changing structures (for instance to be formatted in terms of causal structures like dependencies on the cause interface, rather than their original format, whereas a perspective may just focus on causal relationships or filter out anything that is not causative)
+      - how is a perspective like 'find a function minimizing distance from average line' different from a function?
+        - a perspective can be formatted as another structure than its standard structure (a filter with priorities), because other structures can have default priorities & act like a filter
+      - how is a perspective like 'find a function minimizing distance from average line' different from an interface query?
+        - an interface query may also produce a step with an intent like 'find a function fulfilling x' but in the context of the interface query, the intent of this step is to fulfill another intent, like a problem-solving intent such as 'create a function to fulfill y automatically', which may involve solving the sub-problem of 'finding a function to fulfill x'
+        - this doesnt contradict the definition of the interface query or perspective, something can be both without violating either definition
+      - the reason to call something a perspective is if it highlights a priority or prioritized structure in a way that adds value by filtering out other structures, and filtering is a very useful function that is frequently used in other problem-solving processes, like the problem-solving intent 'filter the solution space' or any call to the 'find' or 'identify' functions
+- useful structures & usage intents
+    - mixed abstract/specific structures, for 'apply' and 'connect' intents
+    - specific standard problem formats ('find a prediction function', 'sorting algorithm') that any problem can be converted into
+    - position relative to other objects of the same type
+    - function interaction levels & function types
+    - interchangeable structures that can be used to generate each other
+    - problem/solution structures (problem-solving intents, solution components, solution metrics, solution workflows)
+    - solution-determining/adjacent structures (making the solution trivial)
+    - causes of interface structures (intents, changes, differences), for 'predict' intents
+    - perspectives that make solving a problem quicker with alternate priorities
+    - core structures, for 'build' intents
+    - additional alternatives to 'random' selections (useful for 'filtering the solution space')
+      - maximally different examples
+      - unique examples
+      - type examples
+      - examples with no high-variance points in between examples
+      - representative examples
+      - examples of each 'change type' combination (change types like adjacent change, opposite change, extreme change, standard change)
+      - examples of limits on change types
+      - examples of specific difference types, like opposites or contradictions or position/direction differences
+      - examples of specific interaction types, like intersections or alignments
+    - recursive structures
+      - rather than a network of nodes where input-output sequences can connect nodes, a network of input-output sequences where input-output sequences (like various traversals of a function logic tree) can connect input-output sequences, and adjacence indicates interactivity
+      - the meaning of meaning structures like 'lack of understanding'
+        - meaning of a prediction function, given an understanding & definition of meaning indicated by the meaning-evaluation function defined & applied at the time
+      - ml applied to predict:
+        - generative function of prediction function
+        - weight changes that will optimize the most quickly
+        - prediction functions of various algorithms/parameters/data sets/assumptions to select most useful prediction functions minimizing a solution metric
+    - definitely incorrect structures can be useful for some purpose bc the inputs/outputs are similar or the similarities are relevant enough for the usage intent
+      - example:
+        - approximation functions are by definition incorrect but are still useful when an approximate solution fulfills solution metrics
+    - additional structure formats
+      - formatting a specific/different structure as a set of vectors applied to a standard structure
+    - 'reflectiveness' of a structure as an organizing attribute (what other structures can it reveal/identify, adjacently become or build or interact with, what can it filter out or emphasize/prioritize)
+    - function types
+      - existing function types referenced in other patents include: 
+        - general functions ('find', 'build', 'derive', 'apply'), core interaction functions ('connect', 'reduce', 'filter'), problem-solving intent functions ('filter solution space', 'solve related problem'), interim cross-interface interaction functions ('find a structure in a structure'), interim interaction level functions ('organize', 'standardize'), functions implementing useful structures like 'trade-offs', & interface operation functions like 'combine interfaces'
+      - additional function types include:
+        - interaction functions of useful structures (like 'convert between various useful problem/solution formats' such as converting between problem formats like 'reduce input variables' and 'find prediction function for input variables', or converting between solution formats like 'function to find y-value given x-value or adjacent y-values', or 'prediction function-finding function')
+        - problem-solving intent adjacent functions
+- possible alternate implementation strategies & paths connecting different versions of the implementation
+  - implementation variables
+    - what structures are positioned as which automation structures (constants/variables, input/origin & output/target structures, code/data/configuration/docs/examples, context, components, functions, systems & usages)
+    - which formats are applied (vectors, functions, networks, function/variable/component networks, mixed structures, etc)
+    - which functionality is hard-coded and which attributes differentiate this functionality:
+      - abstraction level, variation in input/outputs, structures like changes/differences, filters, or trees/networks/sequences fulfilled, interface structures found/derived/generated/applied, fit/relation to other functions, composability, uniqueness, intent, solution metrics, lifespan, position in function structures like usage stacks/sequences
+    - update strategy (whether functions can be changed/parameterized automatically or not)
+    - perspective: which structures to prioritize and which structures to start automating, where the perspective answers questions such as:
+      - whether to prioritize automating the most generative structures first (like the interface-query design logic) or most composable structures first (like general functions such as find/build/derive functions or highly structural core functions like connect/reduce/filter, whether to automate useful structures first, whether to create constant configuration first, like definition routes of important concepts & interfaces, whether to start by automating application of the logic to a unit example or with a set of known example inputs/outputs
+  - implementation examples:
+    - creating core structure (like 'difference') space structures of varying structure ('difference') types, so interface queries can be implemented for example by selecting a 'difference network' to compare structures on (like interface structure differences, like input/output, value, definition, structure (sequence/position/path), interaction structure (like 'connection/change type') differences')
+    - creating the set of useful functions of the referenced function types (general, core interaction, problem-solving intent, interim functions, interface structure functions, problem-function functions, commonly useful interface functions, function-connecting functions, etc), and adding any new functions required, to use as possible interface query steps or workflow components
+    - storing useful interface queries & other problem-solving structures that typically produce solutions in configuration & iterating through those according to similarity of problem to the problems associated with those solutions
+      - for example, using the interface query to 'apply useful structures by default as a problem-solving or solution component/input' by default, & iterating through other interface queries like those implementing "formatting problems in more solvable problem structures like 'find a prediction function' & applying known solutions" based on success probability, either for problems in general or for similar problems
+    - implementing interface queries & other problem-solving structures by applying similarities to configured interface queries & structures where they are similar, and applying variables & associated differences where they differ, rather than designing specific interface queries for each new problem with interface query design logic
+    - a sorting function to sort structures in a problem space as either problem/solution structures & apply useful function types based on their classification
+    - apply 'useful structure map applied to a problem space' to find likely useful structures in a problem space
+- example of how various perspectives (like 'what future opportunities are invalidated by a decision'), interaction levels (like 'comparison to related alternative objects'), cross-interface structures (like 'state changes') & specific interface structures (attributes like 'reusability' or 'organization') offer useful info to making decisions about how to solve problems in complex systems
+  - some of this info overlaps across various structures, and some structures are more useful than others, and some structures can be combined to create the usefulness of other structures
+  - some of these perspectives can be combined to replace the functionality of the others
+  - these interfaces provide different structures to understand the system with, but its not immediately obvious which interface is most useful to understand a system
+  - often the problems with combination interfaces is that there are structures of recursion, self-reference, loops, & ambiguities that make a difference type unclear
+    - example: 
+      - the concept of probability may occur in a language network, and the concept may appear elsewhere in the network, such as 'probability of co-occurrence or similarity determined by position'
+      - the 'attributes' of 'attribute' may occur in a network of 'attributes', where the concept of 'attribute' appears in these structures on the network but is not explicitly defined on the network
+    - this overlap may not cause a semantic problem, but it often does, mostly in the confusion (non-explicit connection/mapping) between different interface combinations
+  - how do you filter these useful structures to find the most useful structures to focus on when solving problems in these systems
+    - for example, how do you identify 'incentives' and 'cooperation' as particularly useful structures in agent-based systems:
+      - 'incentives' are structures that simplify most other structures & 'cooperation' is a structure that simplifies the function of 'fulfilling intents' by 'distributing/sharing costs like responsibility to share inputs like information and share benefits', which is particularly useful bc benefit/cost is a core structure in agent-based games
+      - so these are useful structures by default, but they also decompose & standardize other useful structures into simpler structures that align with the core structures of the complex system, allowing efficient comparisons between alternate routes between states (like different positions or different resources) - in other words, they are a useful 'reducing structure' or 'simplifying structure', 'reduce' and 'simplify' being core interaction functions & interim functions enabling interactions between problems/solutions, so having structures that fulfill those 'reduce' or 'simplify' functions that are useful for problem-solving is useful by definition
+    - you can filter these structures by which structures fulfill useful intents like 'reduce' or 'simplify' for other useful structures
+      - like how 'incentives' simplifies other useful structures like 'a system of games'
+  - when understanding a system of agents, do you think in terms of the following interfaces & interface combinations
+    - physical agent system
+    - functions, like thinking or communication & other interaction functions
+    - traversals of the paths of the system & the inputs/outputs of these path traversals
+    - attributes like cost & the attribute network connecting them
+    - system structures like incentives/games
+    - a system of games
+    - a set of possible state changes for an agent, or for the system, or for functions
+    - probabilities of actions given system info
+    - probabilities of games, functions, or path traversal in the system
+  - another example is in automation design - do you think in terms of:
+    - application logic
+    - existing functions & necessary changes
+    - cross-abstraction level impact
+    - how to convert everything into configuration (or code in the form of a function/script/template/document)
+    - which functional position/structure a change should occur in
+    - impact on the business
+    - technical debt & possible errors introduced by the required change
+    - whether the change is actually required, and the related priority & demand for the task
+    - whether alternatives or an existing solution exists
+    - whether the solution is testable in the timeframe allowed
+    - the opportunity cost of building it vs. building something else
+    - whether it can be re-used or abstracted
+    - whether it fits into an existing system or requires its own
+    - whether assumptions are correct or need clarification/evaluation before building
+    - whether an upcoming planned feature release of a tool will fulfill the task
+    - whether default/adjacent implementations of the task run into known vulnerabilities or limitations of the tech stack
+  - another example is in neural network design:
+    - existing algorithms & parameters & relevance based on input/output data types & value patterns
+    - whether a new network is necessary to find the prediction function or if an existing trained model will find it
+    - how to preprocess the data to reduce the work the network has to perform to connect inputs/outputs
+    - whether an adjacent optimal can be reached by changing existing algorithms/parameters
+    - whether a logic function network would be sufficient to map inputs/outputs (explicit if/then statements or functions with non-mathematical inputs/outputs)
+    - whether the network can capture the complexity of the input-output connection function
+    - whether an approximate prediction function is sufficient
+    - how to update the function
+    - how to generalize & create variations of the function
+    - how to rmeove bias in various positions (in data or in the network or in the model)
+    - the limits on the relevance of the prediction function (time limits, scope/scale limits, interaction limits, topic limits, data limits)
+  - when governing:
+    - conflict minimization
+    - cost minimization (responsibility, cost)
+      - delegation of responsibility
+      - budget balancing/avoidance of debt
+    - power maintenance
+    - rule compliance
+    - unification & unified group size maintenance/increase
+    - representation
+    - diversity of inputs
+    - avoidance of enabling/permitting crimes
+    - organization
+    - enforceability of laws
+    - manageability of solutions/tech
+    - relative success compared to other forms of government
+- applying the origin problem as the stability structure (such as an average/representation structure around which change occurs, or as a minima structure where a system stabilizes), given that problems generally occur on their own as a result of bad planning/lack of understanding, and differences (in the form of energy/work) are required to solve the problem
+  - applying regression/line-fitting & related solution-finding/specifying methods to find lines that better fit the data set than the standard regression line, which is the problem bc of the error definition as 'mean squared difference from the regression line' or a similar definition incentivizing a solution that minimize that error
+  - applying problem states as minima, and surrounding states of minima as adjacent states that are not definitely problem states, and known solutions as maxima of relative height
+    - where equivalent states created by applying changes to solutions/problems can act like neutral starting points for other solutions with less defined solution structures, and where areas between different problems are possible overlapping solutions to multiple problems
+- how to identify that the 'bias vs. variance trade-off' can be resolved with 'conditional' or 'alternate' or 'subset' structures, assigned to data 'subsets' based on data point attributes (like change type cause/patterns & type of a data point)
+  - minimizing variance 
+    - intends to predict as many points as possible in a data subset
+    - outputs a specific function for a data subset
+    - has errors when applied to different data subsets
+  - minimizing bias
+    - intends to predict as many data subsets as possible with minimal error, rather than specific points
+    - outputs a general function for many different data subsets
+    - has errors for each data subset, but fewer errors across many different data subsets
+  - functions can be assigned to predict data points with attributes (like a range of standard deviation) based on the cause & patterns of their differences
+    - if the cause of a data point is likely to be randomness, it can be excluded from functions that dont include randomness as an input
+    - if the type of a data point differs from other data points predicted by a function, it should be predicted by another function that predicts that type
+  - this solution involves re-arranging data subsets so they can be better predicted by functions
+- examples of when a generally useful structure like an 'input/output sequence' is not useful for a specific problem
+  - in most cases, you can use an input/output sequence, like when you have the inputs/outputs of functions indexed, so outputs can be routed to functions with matching inputs to create a sequence connecting problem/solution, but this doesnt work without other interface structures when:
+    - when you dont have inputs/outputs indexed
+    - when you have inputs/outputs indexed, but there are no functions to connect inputs/outputs in part or all of the sequence between problem/solution, so other methods like pattern/logic interface functions are necessary to fill in the gaps in the sequence left by missing or non-indexed functions
+      - the 'derive' function can be fulfilled in various ways
+        - the logic interface can infer connections that are implied, or find another route to connect problem/solution than a route requiring a missing function
+        - the pattern interface can infer connections according to common patterns & probabilities
+      - the 'build' function can construct missing functions out of available functions/structures
+      - these alternate interfaces fulfill the 'input-output sequence' with a variable definition of 'connection' applied to 'inputs/outputs', where there is flexibility added to the degree of certainty in matching & connecting components of the sequence, resulting in a partial implementation of the input-output sequence that may be resolved into a more certain structure with more information, similar to a function with some certain/constant one-line sections and some conditional/variable multi-line sections
+    - when there is a more effective/adjacent/useful workflow/query that solves the problem than the 'find input-output sequence' interface query fulfilling the 'connect problem/solution' solution automation workflow
+      - finding other useful structures, like 'finding required functions', 'finding general interaction structures' (rather than specific interaction structures like input/output sequences), or 'finding useful reductive filters', may be a more effective or efficient query than 'find an input-output sequence', depending on available & adjacent info
+        - other interaction structures include:
+          - 'completion' or 'combination' structures, where structures fit together to form a component
+          - 'integration' structures where structures are merged to create another more useful structure
+          - 'variable' or 'type' structures, where one structure is a variant of another with different parameters
+        - so useful alternatives to input/output sequences include:
+          - 'combination sequences/sorts/trees/networks' to create combinations of structures that produce useful components (like creating a 'shape' out of components such as 'defining attributes like boundary lines')
+            - rather than using input-output sequences to solve a:
+              - 'find an optimal route' problem, combinations of interaction structures like 'route sequences' or 'difference structures of sub-optimal routes' can be used
+              - 'find a prediction function' problem, combinations of structures like 'subset functions' or 'conditional functions' or 'base functions & conversion functions' can be used
+          - 'integration sequences/sorts/trees/networks' to create merged structures that are useful (like creating a 'type' definition out of 'two examples')
+            - rather than using input-output sequences to solve a:
+              - 'find an optimal route' problem, integration structures like 'integrations of route filters like differences from sub-optimal routes and definitions of benefit/cost of movement' can be used
+              - 'find a prediction function' problem, integration structures like 'weighted averages of alternative functions found with varying regression metrics' can be used
+          - 'variable sequences/sorts/trees/networks' to create changes to a standard/base/origin structure that are useful (like creating an 'example' out of a 'type' definition)
+            - rather than using input-output sequences to solve a:
+              - 'find an optimal route' problem, 'change structures' can be applied to a standard sub-optimal route
+              - 'find a prediction function' problem, 'change structures' can be applied to a standard sub-optimal prediction function
+        - the reason there are other useful structures is bc there are other solution automation workflows than 'connect a problem/solution', with associated useful structures for the workflow, bc there are other core structures than inputs/outputs and sequences
+          - 'combination' structures go with the workflow 'build a structure out of components to solve a problem'
+          - 'integration' structures go with the workflow 'break a problem into sub-problems and merge sub-solutions'
+          - 'variable' structures go with the workflow 'adjust an existing standard solution until it fits the problem, according to its differences from the standard problem, like different solution metrics'
+        - this means solution automation workflows can be derived from these core structures & interface structures applied to these core structures
+    - interim interface queries can be used to connect a workflow with a solution-producing interface query
+      - 'find an input/output sequence of useful structures fulfilling this workflow' can be an interface query used to determine if a particular workflow has a useful structure input/output sequence available, and if not other interface queries can be applied
+    - a variation of 'interim interface queries' is 'interface queries for interface queries to fulfill/implement a workflow'
+      - 'interface queries' are 'queries for structures/functions to fulfill an intent' so they can be plugged in wherever there's a lack of info (problem to solve)
+      - problems to solve can include:
+        - 'find an interface query to solve the problem of finding an interface query'
+      - where solution automation workflows are applied to solve the problem, such as:
+        - 'connect a problem (solution automation workflow requiring an interface query to implement it) with a solution (an interface query to implement it)'
+- example of applying an interface query like:
+  - 'apply the definition structure from the core interface to find requirements of the solution, then find structures fulfilling requirements of the solution when merged'
+    - apply relevant components of the 'randomness' concept definition like 'probability' to generate a function to identify 'randomness'
+      - lack of structure/patterns: as 'adjacent number sets' continue to follow a pattern (like a 'repetition of the same number'), a sequence has increasingly lower probability of being random, which can be used as an 'approximation' structure of 'randomness'
+      - relative usefulness for intents associated with the structure: another example structure that can approximate randomness is whether a particular sequence acts like a good random number generator if numbers are selected with a certain hard-coded pattern (no matter what pattern/structure is applied in selecting numbers from the sequence, they should still have a random distribution, where all possible outcomes approach equality in probability)
+      - adjacence to opposite (non-random) structure: another example structure that can identify randomness, is the number of conversions that need to be applied to a sequence to change it into a less random structure (how many substitutions/multiplications or other operations need to be applied at what scale/interval or other structure, to make the sequence definitively non-random - a random sequence will have a higher number of required operations than a non-random sequence)
