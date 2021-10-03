@@ -39,6 +39,22 @@
       - question
         - how is 'infinity' related to 'all possible values of that type or other structure'
 
+      - other relevant insights
+        - infinity - 1 = infinity
+          - applying adjacent operations like adding/subtracting values to infinity wont change it into a non-infinity object
+          - this means adjacent operations are allowed within the definition while maintaining the definition
+          - since 'countably infinite sets' are the structure involving infinity, apply this operation to the 'countably infinite sets'
+          - what is produced by removing the defining items of a set (like start point, end point)
+            - removing the start point changes the set into another set having the new start point
+            - removing the end point by undoing the last rotation includes all sets with the second-to-last point as their endpoint
+              - for a set with final rotation of 'east', this second-to-last set couldnt include the set with a final 'west rotation', bc a 'west rotation' immediately preceding a final 'east rotation' is disallowed by the rules where a rotation cant be immediately reversed by the following operation
+            - the restriction of 'not undoing a rotation immediately after the rotation' is required to create a unique infinite set, but doesnt have to be applied across all operations (undoing a rotation is allowed after the set creation)
+          - now we know that an adjacent state of the set with a final 'east rotation' includes at least three other sets (or have a implication of this to check with other definitions, requirements & operations)
+        - we reached this insight by applying the insight path (which is also an interface query)
+          - apply 'adjacent operations' (add/sum) to relevant objects in the problem definition ('infinite countable sets') to create 'interim structures' ('sets having a unique final rotation or point type')
+          - apply 'rules defined in the problem space' ('no immediate reversals of rotations') to 'interim structures'
+          - identify 'structural similarities' to the 'interim structures' or 'outputs of those adjacent operations' ('if a second-to-last set contains other relevant sets')
+
     - 'cellular automata' as a 'uniform function network state machine depicting interactivity (interaction space or convolution) between a function & itself'
 
     - structures of 'strictness' (such as 'always applying worst case scenario') as structures of 'truth' and 'relevance'
