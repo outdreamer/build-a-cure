@@ -1,5 +1,97 @@
 # physics
 
+    - examine deriving 'protein' & 'gene' & 'activation state' as the location, components, input & structure of functionality
+
+    - examine association of energy production, mitochondria & ribosomes, with stressors/metabolism & immune exhaustion
+
+    - what is the connection between entropy (which Ive been using 'variance', 'potential', 'uncertainty' in place of at various points) and temporary information (information that is temporarily true, like electron position, rather than conditionally true, like laws of physics which apply in universe contexts and at certain scales, or absolutely true, like rules governing quantum & standard physics interactions)
+      - are black holes related to the output of accurate natural 'clocks' that formed
+      - higher distribution of energy leads to higher entropy (possible states), but also a higher number of possible info interactions (which produce at least temporary certainties)
+      - what is the relationship between entropy as 'possible' information, & 'probable' information
+      - which of these possible states can be filtered out, either by probability, energy efficiency/stability, state connections, or other rules (how to add info of varying parameters to high entropy systems)
+      - how to build a clock with consensus aggregated from various info sources that feed off each other in an input/output cycle
+      - isolated systems are more useful for timekeeping
+      - if the 'flow of time' is 'lack of organization', can 'organization' condense or connect or reverse time
+      - if time is potential (ability to change), it is created by organizing info as a side effect in the form of entropy
+      - whereas if time is lack of potential (certainty acquired as info, and entropy generated from it), there is a finite amount of it
+      - if time is a system involving both info (lack of potential) & the entropy/potential generated from it, such as a ratio required to maintain for both to continue to exist
+      - whether the ratio points to a convergence of one superceding the other is an open question
+      - what is the connection between related concepts: 'randomness' as 'lack of info', 'potential' as 'ability to change', 'variance' as 'change injection points', 'uncertainty' as 'lack of certainty structures (like identifying/differentiating/determining/describing variables)', 'info' as 'specific stable connections, with varying time/scale/condition/position/state of applicability', 'entropy' as 'number of possibilities', 'possibility' as 'structure that isnt ruled out by other structures', 'energy' as 'change trigger/input, which can be stored/organized/formatted as info/potential', 'accuracy' as 'correct info measurement or info prediction/generation/finding function', structures like 'similarity/efficiency' as 'info inputs (which make it likelier that something will be proven true)'
+
+    - what junk dna could be added that would enable production of the most useful types of RNA/proteins & other components for immune system functions, repair processes, & other anti-illness processes
+
+    - https://www.quantamagazine.org/mental-phenomena-dont-map-into-the-brain-as-expected-20210824/
+
+      - why memory sections might not always be necessary
+        - bc complex memory structures might only be necessary to represent complex sensory structures like overlaps/ambiguities, or necessary to represent chromological/sequential structures
+
+      - why might functions not be mappable to isolatable brain regions
+        - bc they should be broken down or combined into other functions (general, interim, common, interchangeable, core, etc) than those on the interaction level theyre examining
+
+      - why might movement info be stored instead of sensory info:
+        - bc movement is a proxy variable of sensory info reactions
+
+      - why might metabolic regulation & memory formation be connected:
+        - relation to available energy used for forming memories (excess energy is prioritized for tasks like memory)
+        - relation to rewards for using energy a particular way such as in forming memories
+        - relation to regulatory schedule linked to sleep cycle & memory formation during sleep
+        - distortions in metabolic function are prioritized in memory formation
+
+    - "In the developing immune system, double-stranded breaks enable pieces of DNA to recombine and generate a diverse repertoire of antibodies"
+      - examine how states that trigger useful functions like stem cell production or antibody production can be triggered
+
+    - explore how much functionality can be developed by using incentives
+      - if you create rewards like dopamine when a dysfunctional cell process is triggered or replicated artificially, does the system re-build or correct or re-learn that functionality
+        - like when cholesterol prevents immune system from reacting to cell death, can you force the immune system to re-learn its original reactions, forcing it to react to cell death by associating that reaction with rewards or some other trigger like inflammation/pain that would correct its dysfunctional state?
+        - if not, can you apply a change in the opposite direction (triggers of an 'over-reaction' error type to cell death, but only enough to move it back toward its original state)
+
+    - check how much of the 'bio interactions' with a 'rules database' is available, to predict missing interactions from the rules database
+      - this could be used to predict which combinations of structures (states like genetic mutations, bio system & cancer states, attributes like acidity, components like microbes/enzymes, functions like inhibitors, inputs like energy sources) will switch off cell proliferation processes & which will have the opposite effect
+        - this should be able to identify when the immune system will hinder treatment, when oxygen deprivation will be an enabler of a disease, when pathogens will be synergistic/antagonistic, etc
+        - it should also be able to identify which states are adjacent/accessible that the system can be converted to, which would have beneficial effects like 'neutralizing negative effects as defined in a particular state' 
+          - conversions such as 'find a awy to standardize neoantigens so theyre similar to neoantigens targeted by an existing treatment' or 'find a way to standardize tumors/immune cells by giving them inputs that will trigger a state sequence that produces a more standard or more treatable tumor' or 'find a way to make tumors seem more like pathogens already defended in memory cells' or 'engineer microbes that feed off cancer cells and then travel to the gut or eat each other or are eaten by other microbes/enzymes' or 'find neurons that map to nerves around the tumor and stimulate those neurons' bc standardization takes the risk & the work out of applying immunotherapies & other customized medicine
+          - standardizing immune cells could help reduce variation in immune responses to treatments: https://medicalxpress.com/news/2021-09-vaccine.html
+
+    - autoantibodies as possible reaction to 'not having any actual pathogens to attack so they start attacking the immune system components which are just nearby or easier to attack than pathogens or have structural damage that disrupts their immune functionality' 
+    - what alternate inputs have the outputs of useful structures that have antitumor or antimicrobial activity
+      - what can produce components (enzymes/antibodies/t-cells), functions, or attribute states that eat cancer cells ('adapting to mct oil')
+      - what combinations of structures are particular useful in general or specifically against a particular pathogen/condition
+    - what other pathogens/conditions are synergistic with other conditions (do specific fungal/bacterial infections help cancer, and which ones if its a specific set)
+    - what is required to make the body 'allergic' to a substance like a cell membrane attribute of specific cancer cell types 
+      - is this the same as a normal immune response
+      - is it similar at all to a 'pain' response alerting the immune system to a problem, and what can produce a 'pain' response if that response is useful
+      - what other attributes could cancer cells have that make certain compounds likelier to bind to them or surround them to cut them off from energy sources or separate the tumor into attackable pieces (surface structures, attributes in various solutions like fat/water/mucus/blood, response to enzymes/pathogens)
+      - what ratios (stress, acidity/alkalinity, enzyme ratios, energy ratios, cell distribution ratios, blood waste ratios, kidney/liver/pancreas/digestion function ratios, immune cell ratios) and other structures are associated with cancer progression/triggering
+        - what ratios do some anti-cancer foods like almonds have that other foods do not
+
+    - why can many functions be modeled with the heat equation?
+      - diffusion by interaction:
+        - bc variable interactions tend to occur on the same interfaces or in the same interaction levels/space, meaning variables will likely encounter the outputs of other variables, so when one variable outputs energy, another variable will be impacted by that
+      - diffusion by adjacence (in some structural definition of similarity like similarity in position):
+        - variable interactions tend to occur between adjacent structures (adjacent in some similarity, like similarity of position or similarity of inputs), meaning any energy outputs/overflows will be inputs to adjacent structures & will change those adjacent structures
+        - functions having variables with similar standard inputs/outputs (like a common currency such as 'heat' or 'energy' or 'difference types') will be triggerable by those common inputs if they are also outputs of other functions, and functions frequently use common inputs bc repetition is a commonly useful structure
+      - interaction & adjacence have as a consequence 'diffusion by additivity':
+        - variables that are similar can likely be added or similarly combined and are likely to have similar inputs, so they are interactive with the initial change in this way as well
+      - diffusion by requirement
+        - change in a semi-closed or closed system has to go somewhere, because very few functions can absorb change forever, so any structures that dont have enforced/protected stability will be changed by a particular change that is not handled by a change structure that diffuses the initial change in a more orderly way than a system-wide change cascade
+
+    - curvature implies momentum of change of a particular type rather than constant change, applying a structure of incentives toward various positions & connections
+      - is there a set of 'time crystal' space-times where change could be stuck in a 'local minima' where momentum doesnt reward movement in any direction (are space-time spaces continuous and is a method like momentum applied to determine motion in this space of space-times)
+      - time as a 'continuous overlap' of dimensions where change is still possible
+        - the change of 'possible change' implies a change in the restrictions on change (its boundaries), like the intersection & overlap of restrictions on change
+        - the interaction space of restrictions is a useful structure to determine possible change types (how various definition routes of dimension can interact without invalidating another definition or each other)
+        - https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/
+    - examine differences in functionality in cancer cells, like why some cell types dont have the same problems from aging/inflammation/exhaustion that other cells do - is it enabling genetic configuration or other factors?
+    - similarities between physics systems and math functions
+      - this insight applies an interface query to implement 'finding similar alternatives' to 'replace nodes' in an 'input-output sequence'
+        - examine 'inner product space' in relation to correlated universes (a 'similarity function' in the form of quantum entanglements producing an extra higher dimension)
+      - the 'infinite tree' produced in the 'bulk space' by switching in p-adic numbers as an 'alternate/interchangeable structure with a similar attribute of holography' possibly has a connection to the 'infinite particle position probability field' structures in the quantum field theory of an 'equilibrium across universes' or 'composite hologram created by the intersection of multiple universes', the 'equilibrium' mapping to some combination of parameters of spaces, dimensions, number types, aggregation functions, similarity/adjacence functions, & other components of the theory that corresponds to a corresponding useful structure on a topography of universes intersections & combinations, where gravity determines adjacence of points on the lower-dimensional space & what information survives, and where 'position probabilities' are scrambled bc theres no 'required enforcement of adjacence' once quantum entanglements form
+      - examine the holographic output of 'information' as the temporary past storage of energy used to provide a maximum limit on the entropy of the universe so it cant be completely chaotic
+      - 'perfect calculatability', 'information generation', 'de-randomization' (creation of order) tools as 'time-reversal' tools
+        - if you can calculate physics perfectly, and you know a past state, you can calculate a state in between the past and current state perfectly, and the 'information of how to get to a state' might as well be equivalent to 'traveling to that past state' bc it makes 're-creating that state' or 'following the trajectory to that state' trivial (adjacent, if not equivalent in position)
+      - https://www.quantamagazine.org/one-labs-quest-to-build-space-time-out-of-quantum-particles-20210907/
+    - what differentiates a time crystal 'infinite change for no energy' from an electron, which contains energy and maintains it in a stable state, assuming no interference from interactions
+
   - document time structures (concave time explaining compounding similarities up to a point of maximum concavity, a structure that can separate from the other space-times)
 
   - time as 'alignment' or 'connectivity' between multiple useful interface structures like 'change types/patterns' & 'connectible stable states'
