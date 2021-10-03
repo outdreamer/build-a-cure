@@ -1,0 +1,206 @@
+- to do list
+
+	- add printed name and add applicant's file reference number to the ro/101 form for 71087 when they clarify what that means
+	- upload patent application contents to the other applications 16887411 to 17016403
+	- check if you need to make changes to any applications or if the changes were not accepted bc of some formatting issue & you need to re-do them
+		- Kurtz said changes were unnecessary
+	- implement Sheree's suggestions to claims/spec
+		- include functions like 'find a causal structure' in the steps of claim 1
+	- ask about fixing dependent claims of applications & other changes in:
+		- national phase, re-issue or chapter 2 phase
+		- save changes for preliminary amendment process in national stage
+			- decide if you want to go into pct national stage (november 2022 for 46705)
+
+
+- notes
+
+	- classification lookup:
+		- https://www.uspto.gov/web/patents/classification/
+
+	- international (PCT) applications can be found on wipo site as well
+
+	- contact numbers
+		- PCT help desk 571-272-4300
+		- general contacts:
+			- Jon Kurtz
+			- Stephen Douglas
+		- examiners:
+			- Sheree Brown: sheree.brown@uspto.gov (571) 272-4229
+			- Lee Young
+			- Harry Chong Hyun Kim
+			- Kari Kristen Rodrigues
+
+
+Solution Automation
+	- app number: 16887411
+	- efs id:
+	- filing date: 05/29/2020
+	- status: Application Dispatched from Preexam, Not Yet Docketed - 09/30/2020
+	- inventor city: San Ramon
+	- examiner: 
+	- confirmation: 3519
+	- group art unit: 2122
+	- class: 706/012.000
+	- errors:
+		- last updated 09/30/2020
+
+Solution Automation (intl)
+	- app number: PCT/US20/46705
+	- efs id: 40308061
+	- filing date: 08/17/2020
+	- status: PCT - International Search Report Mailed to IB - 04/23/2021
+	- inventor city: Danville
+	- examiner: Lee W Young
+	- confirmation: 7528
+	- group art unit: OPIM
+	- class: 001/PCT.001
+	- errors:
+		- has incorrect correspondence address (Carmenere Rd)
+
+Interface Analysis 
+	- app number: 17016403
+	- efs id: 40513876
+	- filing date: 09/10/2020
+	- status: Docketed New Case - Ready for Examination - 10/02/2020
+		- first action: Estimated time to first action is 7 months
+	- inventor city: Livermore
+	- examiner: Sheree N Brown
+	- confirmation: 3443
+	- group art unit: 3649
+	- class: 707/602.000
+	- errors:
+		- last updated 10/02/2020
+
+Interface Analysis (intl)
+	- app number: PCT/US20/50591
+	- efs id: 40540130
+	- filing date: 09/12/2020
+	- status: PCT - International Search Report Mailed to IB - 01/05/2021
+	- inventor city: Livermore
+	- examiner: Lee W Young
+	- confirmation: 7632
+	- group art unit: OPIM
+	- class: 001/PCT.005
+	- errors:
+		- has incorrect correspondence address (Carmenere Rd)
+
+Solution Automation & Interface Analysis Implementations
+	- app number: 17301942
+	- efs id: 
+	- filing date: 04/20/2021
+	- status: Application Dispatched from Preexam, Not Yet Docketed - 04/28/2021
+	- inventor city: Danville
+	- examiner: 
+	- confirmation: 9174
+	- group art unit: 2122
+	- class: 706/012.000
+	- errors:
+
+Solution Automation & Interface Analysis Implementations (intl)
+	- app number: PCT/US21/70425
+	- efs id: 60179499
+	- filing date: 04/20/2021
+	- status: PCT - Docketed Chapter 1 Case
+	- inventor city: 
+	- examiner: Harry Chong Hyun Kim
+	- confirmation: 2434
+	- group art unit: 3901
+	- class: 001/PCT.004
+	- errors:
+		- has incorrect correspondence address (Carmenere Rd)
+
+Additional Solution Automation & Interface Analysis Implementations
+	- app number: 17304552
+	- efs id: 60222825
+	- filing date: 06/23/2021
+	- status: Application Undergoing Preexam Processing
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 6741
+	- group art unit: 2851
+	- class: 716/123.000
+	- errors:
+
+Additional Solution Automation & Interface Analysis Implementations (intl)
+	- app number: PCT/US21/70750
+	- efs id: 60222832
+	- filing date: 06/23/2021
+	- status: PCT - Dispatch to TC Chapter I case - 07/16/2021
+	- inventor city: Fremont
+	- examiner: RODRIQUEZ, KARI KRISTIN
+	- confirmation: 7164
+	- group art unit: 2851 => 3902
+	- class: 716/123.000 => 001/PCT004
+	- errors:
+
+Other Solution Automation & Interface Analysis Implementations
+	- app number: 17444286
+	- efs id: 60269467
+	- filing date: 08/03/2021
+	- status:
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 7308
+	- group art unit: 
+	- class:
+	- errors:
+
+Other Solution Automation & Interface Analysis Implementations (intl)
+	- app number: PCT/US21/71087
+	- efs id: 
+	- filing date: 08/03/2021
+	- status:
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 3436
+	- group art unit: 
+	- class:
+	- errors:
+
+Other Explanations & Implementations of Solution Automation & Interface Analysis
+	- app number: 17446677
+	- efs id: 
+	- filing date: 09/01/21
+	- status:
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 8616
+	- group art unit: 
+	- class:
+	- errors:
+
+Other Explanations & Implementations of Solution Automation & Interface Analysis (intl)
+	- app number: PCT/US21/71338
+	- efs id: 
+	- filing date: 09/01/21
+	- status:
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 7433
+	- group art unit: 
+	- class:
+	- errors:
+
+Variables & Implementations of Solution Automation & Interface Analysis:
+	- app number: 17449810
+	- efs id: 60338412
+	- filing date: 10/03/21
+	- status:
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 9973
+	- group art unit: 
+	- class:
+	- errors:
+
+Variables & Implementations of Solution Automation & Interface Analysis (intl):
+	- app number: PCT/US21/71690
+	- efs id: 60338413
+	- filing date: 10/03/21
+	- status:
+	- inventor city: Fremont
+	- examiner: 
+	- confirmation: 3885
+	- group art unit: 
+	- class:
+	- errors:

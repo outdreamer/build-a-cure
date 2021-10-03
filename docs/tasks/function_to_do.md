@@ -114,6 +114,8 @@
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
   - add to science
+    - 'sets of n particles' that act in aligned ways like 'components of a temporary local field/lattice having n points'
+    - 'ozone hole' was a specific structure that gave people one achievable goal to aim for so they could organize resources around achieving that goal
     - what ratio of gene copies is required to offset cancerous processes/responses without interfering with non-cancerous process
       - can junk dna be altered to fix sub-optimal ratios?
       - are some dna copies acting as 'placeholders' that prevent other copies from being made or prevent certain illnesses
@@ -124,6 +126,8 @@
       - how to account for probability of a known possible error (like mutations compared against a mutated rather than healthy reference genome) and adjust data accordingly
       - if a structure continues to develop, that means it represents a 'stability point' that is incentivized - which incentives of extra-chromosomal can be altered without harming other systems?
       - if a package of growth/maximizing genes continues to develop bc of 'survival bias' (the genes that are useful for survival are protected & maintained & replicated), can incentives for dna repair/defense genes be created/increased to compete with these cancerous extra-chromosomal gene structures - why is the 'survival bias' of cancerous cells & cancerous mutations stronger than other cells/genes/mutations' bias - just bc theyre more useful for cancerous intents like 'unrestricted growth' or bc of some other cause like 'genetic adjacence' or 'genetic functionality like jumping/coordination', or bc of the fact that growth factors promote themselves by the definition of their own functionality, or bc these gene/mutation types like enhancement/growth have aligning intents like 'promotion' so theyre often found together?
+      - can antibodies against high-growth/maximizing extra-chromosomal gene structures be developed or can vaccines be developed to produce antibodies against them?
+        - https://cen.acs.org/pharmaceuticals/oncology/curious-DNA-circles-make-treating/98/i40
 
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
