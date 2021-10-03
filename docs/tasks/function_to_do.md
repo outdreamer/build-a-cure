@@ -113,10 +113,22 @@
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
+  - add to science
+    - what ratio of gene copies is required to offset cancerous processes/responses without interfering with non-cancerous process
+      - can junk dna be altered to fix sub-optimal ratios?
+      - are some dna copies acting as 'placeholders' that prevent other copies from being made or prevent certain illnesses
+      - how to 'create dependency' of cancer cells on a particular process/structure so when removed it can create cell death
+      - drugs that response to 'high quantities of a signal' leave room for an error of 'missing low quantities' - an error where the signal is assigned a boolean and should be a continuous spectrum with a threshold that can re-create the original problem
+      - how to target useful cells with growth-enhancing mechanisms like extra-chromosomal dna
+      - are there genetic sequences that can offer protection against extra-chromosomal dna interactions temporarily while cancer cells are being targeted (like if a protective sequence is spaced at intervals that disincentivize interactions with extra-chromosomal dna, such as when extra-chromosomal dna merges with a chromosome)
+      - how to account for probability of a known possible error (like mutations compared against a mutated rather than healthy reference genome) and adjust data accordingly
+      - if a structure continues to develop, that means it represents a 'stability point' that is incentivized - which incentives of extra-chromosomal can be altered without harming other systems?
+      - if a package of growth/maximizing genes continues to develop bc of 'survival bias' (the genes that are useful for survival are protected & maintained & replicated), can incentives for dna repair/defense genes be created/increased to compete with these cancerous extra-chromosomal gene structures - why is the 'survival bias' of cancerous cells & cancerous mutations stronger than other cells/genes/mutations' bias - just bc theyre more useful for cancerous intents like 'unrestricted growth' or bc of some other cause like 'genetic adjacence' or 'genetic functionality like jumping/coordination', or bc of the fact that growth factors promote themselves by the definition of their own functionality, or bc these gene/mutation types like enhancement/growth have aligning intents like 'promotion' so theyre often found together?
+
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
     - organized & structured code by 'core component' (function input/output variables, input/output differences, patterns, core function-calling function (high-level functions, so building core functions is the source of changes in functionality of high-level functions), uses, logical derivation connections (equivalence, requirements, dependencies) as logic trees, logically directed graphs, changes/states, function, reference, relative position of thread/process/function, limits/requirements, dependencies, data, prior operations (cache), differentiating attributes, context, mix/iteration/cycles/sequence, type, example, value)
-    - 'infinite compression' as a combination of infinite sequences & numerical references to those sequences as parameters (similar to rainbow tables), where infinite random sequence subsets can be recursively compressed into hashes
+    - 'infinite compression' as a combination of infinite sequences & numerical references to those sequences as parameters (similar to rainbow tables), where infinite random sequence subsets can be recursively compressed into hashes, where infinite sequences can be represented as a sum of sequences (infinite random adjacent base sequence + an infinite geometric sequence to generate it), or a sequence & a set of vectors indicating changes to generate the sequence from an infinite random adjacent base sequence
 
   - additional attributes (metadata) of interfaces include attributes like validity & relevance, which vary absolutely across other interfaces, and contextually across interface queries/solution automation workflows & problems being solved with them
 
