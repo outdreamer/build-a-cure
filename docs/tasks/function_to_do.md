@@ -109,6 +109,11 @@
 
 ## examples
 
+  - add to solution automation workflows
+    - convert solutions from another format for an adjacent solution-finding method into a useful format for the original problem when applying another solution-finding method
+      - example: for the 'find a prediction function' problem, apply solutions associated with 'classification' to solution-finding methods like 'regression'
+        - meaning, for a given subset of the data set, use 'classification' to predict a value out of several discrete possible values, as calculated by various different averages of that subset of the data set, rather than finding the prediction function using standard regression methods for the entire data set
+
   - add to problem/solution structures
     - definitions & other truth structures as symmetries
 
