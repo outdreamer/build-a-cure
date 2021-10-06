@@ -110,9 +110,15 @@
 ## examples
 
   - add to solution automation workflows
+
+    - generating example solution-finding methods of varying specificity & results by applying various alternate solution automation workflows, then abstracting & parameterizing differences between examples and imputing missing differences that could generate new solution-finding methods without changing output of known examples
+
     - convert solutions from another format for an adjacent solution-finding method into a useful format for the original problem when applying another solution-finding method
       - example: for the 'find a prediction function' problem, apply solutions associated with 'classification' to solution-finding methods like 'regression'
         - meaning, for a given subset of the data set, use 'classification' to predict a value out of several discrete possible values, as calculated by various different averages of that subset of the data set, rather than finding the prediction function using standard regression methods for the entire data set
+      - workflow fit: this is applying 'alternate routes' useful structure to the 'solution-finding method' solution structure, rather than the normal position of applying it to the 'problem/solution connecting functions' to find 'alternate problem/solution connecting functions'
+      - the interface query for this workflow involves 'finding 'approximation structures' or 'generative structures' or 'prediction structures' of solutions' ('solution-finding methods'), rather than 'finding solutions', where the 'alternate' structure is applied to 'type' of 'solution-finding method' as well alternating the 'solution-finding method of solution-finding methods' (like 'a method to find regression-calculation functions') from the standard 'solution-finding method' (like a 'specific regression function to find the prediction function')
+      - generalization: in general this method finds/derives/generates variables of the problem space (like 'method of finding y from x' or 'method of finding all ys from all xs' or 'method of finding a subset of ys from a subset of xs' or 'method of finding ys from adjacent ys' and injects relevant useful structures (like how 'alternates' are useful for 'variables', as they both have a common structure of 'change')
 
   - add to problem/solution structures
     - definitions & other truth structures as symmetries
