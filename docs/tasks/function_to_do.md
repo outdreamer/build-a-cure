@@ -109,16 +109,32 @@
 
 ## examples
 
+  - add to useful structures
+      - functions whose outputs can be their inputs, like iteratable functions, where the inputs/outputs are relevant to or are useful structures
+        - where problem-solving structures or methods can be iterated, apply them iteratively where complexity isnt reduced by prior iterations
+          - 'find solution-finding methods of solution-finding methods of solution-finding methods'
+          - 'find structures in structures in structures'
+          - 'approximate apaproximations of approximations'
+          - 'predict prediction function of prediction function inputs'
+          - 'alternate alternatives of alternatives'
+
   - add to solution automation workflows
 
     - generating example solution-finding methods of varying specificity & results by applying various alternate solution automation workflows, then abstracting & parameterizing differences between examples and imputing missing differences that could generate new solution-finding methods without changing output of known examples
+      - example: 
+        - the difference between 'regression methods' lies in the 'error calculation metric & associated function'
+        - the difference between 'regression' & 'finding prediction functions of subsets & merging their outputs by some weight assignment function' includes differences in the different percent of data input to each function, the difference in outputs of subset prediction functions, the difference-resolution/merging method of subset functions
+        - these differences can be added as abstract variables like 'alternate input-output routes' & 'alternate inputs/outputs' or as specific variables like 'alternate data subset routes' & 'alternate data subsets'
+        - these differences can be increased through combination with other interface structures than 'abstraction'
+        - these identified variables can be used to calculate other methods not already identified in the variable interaction space
+      - workflow fit: this workflow is similar to other workflows that apply 'alternate routes' to structures to find/derive/build a solution, with a specific focus on 'solution-finding methods' which can function as 'standalone interface queries' if they fit into a workflow that uses a 'standardization' step so standard solution-finding methods can be applied, or if the solution-finding methods are found/derived/generated in a specific problem space, so theyre already in a format that is relevant to the original problem
 
     - convert solutions from another format for an adjacent solution-finding method into a useful format for the original problem when applying another solution-finding method
       - example: for the 'find a prediction function' problem, apply solutions associated with 'classification' to solution-finding methods like 'regression'
         - meaning, for a given subset of the data set, use 'classification' to predict a value out of several discrete possible values, as calculated by various different averages of that subset of the data set, rather than finding the prediction function using standard regression methods for the entire data set
       - workflow fit: this is applying 'alternate routes' useful structure to the 'solution-finding method' solution structure, rather than the normal position of applying it to the 'problem/solution connecting functions' to find 'alternate problem/solution connecting functions'
-      - the interface query for this workflow involves 'finding 'approximation structures' or 'generative structures' or 'prediction structures' of solutions' ('solution-finding methods'), rather than 'finding solutions', where the 'alternate' structure is applied to 'type' of 'solution-finding method' as well alternating the 'solution-finding method of solution-finding methods' (like 'a method to find regression-calculation functions') from the standard 'solution-finding method' (like a 'specific regression function to find the prediction function')
-      - generalization: in general this method finds/derives/generates variables of the problem space (like 'method of finding y from x' or 'method of finding all ys from all xs' or 'method of finding a subset of ys from a subset of xs' or 'method of finding ys from adjacent ys' and injects relevant useful structures (like how 'alternates' are useful for 'variables', as they both have a common structure of 'change')
+      - interface query: the interface query for this workflow involves 'finding 'approximation structures' or 'generative structures' or 'prediction structures' of solutions' ('solution-finding methods'), rather than 'finding solutions', where the 'alternate' structure is applied to 'type' of 'solution-finding method' as well alternating the 'solution-finding method of solution-finding methods' (like 'a method to find regression-calculation functions') from the standard 'solution-finding method' (like a 'specific regression function to find the prediction function')
+      - generalization: in general this method finds/derives/generates variables of the problem space (like 'alternate routes between inputs/outputs' such as: 'method of finding y from x' or 'method of finding all ys from all xs' or 'method of finding a subset of ys from a subset of xs' or 'method of finding ys from adjacent ys' and injects relevant useful structures (like how 'alternates' are useful for 'variables', as they both have a common structure of 'change')
 
   - add to problem/solution structures
     - definitions & other truth structures as symmetries
