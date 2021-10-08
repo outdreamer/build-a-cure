@@ -120,6 +120,10 @@
 
   - add to solution automation workflows
 
+    - apply useful structures (such as 'mix') to connect various solutions or solution-finding methods in a solution space, to useful structures (like 'components') to generate new solutions or solution-finding methods
+      - example: for a problem with multiple generated/derived/found solutions or solution-finding methods like 'find a prediction function', apply the combination useful structure 'mix components' to switch various components of the solutions or solution-finding methods with alternate variants
+      - workflow fit: this is similar to the workflow of 'generating different solutions' or 'identifying variables of different solutions & generating solution variants with these variables', but is another way of achieving similar or equal intents using structures of useful structures
+
     - generating example solution-finding methods of varying specificity & results by applying various alternate solution automation workflows, then abstracting & parameterizing differences between examples and imputing missing differences that could generate new solution-finding methods without changing output of known examples
       - example: 
         - the difference between 'regression methods' lies in the 'error calculation metric & associated function'
