@@ -109,6 +109,10 @@
 
 ## examples
 
+  - add to definitions
+    - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
+      - if the problem is (or can be) to 'find a solution-finding method', these will also be called 'solutions' to that problem
+
   - add to useful structures
       - functions whose outputs can be their inputs, like iteratable functions, where the inputs/outputs are relevant to or are useful structures
         - where problem-solving structures or methods can be iterated, apply them iteratively where complexity isnt reduced by prior iterations
