@@ -124,6 +124,9 @@
 
   - add to solution automation workflows
 
+    - apply other useful structures than 'connections', 'sequences', or 'interactive components' applied to components of problem/solutions
+      - example: rather than finding 'input-output sequences' to connect problem/solution formats/states or components available in the problem space, or finding 'interactive components' that can be chained together (starting from the 'core component' structure), apply other core structures to fulfill core interaction functions between problem/solution
+
     - apply useful structures (such as 'mix') to connect various solutions or solution-finding methods in a solution space, to useful structures (like 'components') to generate new solutions or solution-finding methods
       - example: for a problem with multiple generated/derived/found solutions or solution-finding methods like 'find a prediction function', apply the combination useful structure 'mix components' to switch various components of the solutions or solution-finding methods with alternate variants
       - workflow fit: this is similar to the workflow of 'generating different solutions' or 'identifying variables of different solutions & generating solution variants with these variables', but is another way of achieving similar or equal intents using structures of useful structures
