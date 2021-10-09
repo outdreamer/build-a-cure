@@ -129,6 +129,7 @@
 
     - apply other useful structures than 'connections', 'sequences', or 'interactive components' applied to components of problem/solutions
       - example: rather than finding 'input-output sequences' to connect problem/solution formats/states or components available in the problem space, or finding 'interactive components' that can be chained together (starting from the 'core component' structure), apply other core structures to fulfill core interaction functions between problem/solution
+        - finding structures that are by definition related to the 'connect' function, such as 'input-output sequences', are a useful structure by default in fulfilling/implementing that function, but other structures like 'sets' or 'combinations' can be usedul as well, indicating objects that are frequently or by definition found together, indicating an 'implicit' connection by adjacence/approximation rather than 'explicit' connection by match/equivalence in definition
 
     - apply useful structures (such as 'mix') to connect various solutions or solution-finding methods in a solution space, to useful structures (like 'components') to generate new solutions or solution-finding methods
       - example: for a problem with multiple generated/derived/found solutions or solution-finding methods like 'find a prediction function', apply the combination useful structure 'mix components' to switch various components of the solutions or solution-finding methods with alternate variants
