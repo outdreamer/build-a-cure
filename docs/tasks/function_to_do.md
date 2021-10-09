@@ -124,11 +124,15 @@
 
   - add to solution automation workflows
 
+    - apply solutions that are known to be exactly incorrect/sub-optimal as a way of finding/deriving/generating errors to generate useful information to find correct/optimal solutions
+      - example: if you applied a regression algorithm to a classification problem, you would identify a difference in the output regarding data type, alerting you to the fact that the data type is where the error is and is related to or is the component of the solution that needs to be changed
+
     - apply other useful structures than 'connections', 'sequences', or 'interactive components' applied to components of problem/solutions
       - example: rather than finding 'input-output sequences' to connect problem/solution formats/states or components available in the problem space, or finding 'interactive components' that can be chained together (starting from the 'core component' structure), apply other core structures to fulfill core interaction functions between problem/solution
 
     - apply useful structures (such as 'mix') to connect various solutions or solution-finding methods in a solution space, to useful structures (like 'components') to generate new solutions or solution-finding methods
       - example: for a problem with multiple generated/derived/found solutions or solution-finding methods like 'find a prediction function', apply the combination useful structure 'mix components' to switch various components of the solutions or solution-finding methods with alternate variants
+        - for the 'find a prediction function' problem, this could take the form of switching error calculation methods or solution metrics
       - workflow fit: this is similar to the workflow of 'generating different solutions' or 'identifying variables of different solutions & generating solution variants with these variables', but is another way of achieving similar or equal intents using structures of useful structures
 
     - generating example solution-finding methods of varying specificity & results by applying various alternate solution automation workflows, then abstracting & parameterizing differences between examples and imputing missing differences that could generate new solution-finding methods without changing output of known examples
