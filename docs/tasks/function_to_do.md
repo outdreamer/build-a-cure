@@ -124,10 +124,18 @@
 
   - add to solution automation workflows
 
+    - apply interface structures like concepts to a problem system and find useful structures like interaction structures of those applied interface structures as a way of finding structures that can be used to determine probability of solution success to apply as a filter of solutions
+      - example: in the 'find a prediction function' problem, apply concept interface to find concepts like 'average', 'correlation' and 'causation', and apply useful structures to these applied interface structures to find structures of possible relevance as a solution filter like 'functions of data subsets that could represent correlations' and 'correlation functions that when averaged could produce the prediction function' and 'functions that would indicate causation vs. functions that would indicate correlation and filters of these function types', that can be used as 'prediction function' solution filters, given the possible meaning of these structures
+
+    - apply structures of absolute certainty (like variables that can absolutely vary in all cases and requirements such as required variable limits or interactions) to use as starting point to reach structures of approximate or probable certainties
+      - example: 
+      - in the 'find a prediction function' problem, absolute certainties include 'some points may be due to randomness', 'some points may indicate change in the underlying variable interaction', etc, which indicate the absolute truth of a variable of the data set (randomness, change in interaction function) that may vary
+      - from these absolute truths, approximate/probable truths connecting absolute truths that are otherwise unconnectible with absolute truths can be identified as more probable than other approximate/probable truths, having filtered out 'impossible truths' and 'improbable truths' implied or required by the 'absolute truths'
+
     - apply solutions that are known to be exactly incorrect/sub-optimal as a way of finding/deriving/generating errors to generate useful information to find correct/optimal solutions
       - example: if you applied a regression algorithm to a classification problem, you would identify a difference in the output regarding data type, alerting you to the fact that the data type is where the error is and is related to or is the component of the solution that needs to be changed
 
-    - apply other useful structures than 'connections', 'sequences', or 'interactive components' applied to components of problem/solutions
+    - apply other useful structures than 'connections', 'sequences', or 'interactive components' applied to components of problem/solutions in fulfilling problem-solving intent functions, problem/solution core interaction functions, or other functions related to problem/solutions
       - example: rather than finding 'input-output sequences' to connect problem/solution formats/states or components available in the problem space, or finding 'interactive components' that can be chained together (starting from the 'core component' structure), apply other core structures to fulfill core interaction functions between problem/solution
         - finding structures that are by definition related to the 'connect' function, such as 'input-output sequences', are a useful structure by default in fulfilling/implementing that function, but other structures like 'sets' or 'combinations' can be usedul as well, indicating objects that are frequently or by definition found together, indicating an 'implicit' connection by adjacence/approximation rather than 'explicit' connection by match/equivalence in definition
 
