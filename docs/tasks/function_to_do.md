@@ -133,13 +133,14 @@
     - identify & fulfill other problem-solving intents such as 'solve for relevant structures to solving the original problem' instead of 'solving the original problem'
       - standard problem formats (such as 'find a prediction function' or 'sort a sequence') where all problems can be solved with known methods once formatted to these standard problem formats are generally found with standard interface structures, such as how the 'prediction function' involves a standard function interface structure of a 'variable relationship' and how the 'sort a sequence' problem format involves a standard structural interface structure of a 'sequence', where these structures are 'relevant structures' to solving these problems
       - 'solving for relevant structures to solving a problem' is another problem-solving intent
+      - other problem-solving intents can be identified by variables of problem-solving intents, such as which problem/solution structures & functions are involved, which interface structures are applied or fulfilled in the problem/solution structure interactions such as an input/output sequence between problem/solution structures that applies across various problem-solving intents, which problem/solution structures & formats are required by a problem-solving intent (such as a 'set of solutions'), and the degree to which & method in which the problem is solved by that intent
 
     - apply interface structures like concepts to a problem system and find useful structures like interaction structures of those applied interface structures as a way of finding structures that can be used to determine probability of solution success to apply as a filter of solutions
       - example: in the 'find a prediction function' problem, apply concept interface to find concepts like 'average', 'correlation' and 'causation', and apply useful structures to these applied interface structures to find structures of possible relevance as a solution filter like 'functions of data subsets that could represent correlations' and 'correlation functions that when averaged could produce the prediction function' and 'functions that would indicate causation vs. functions that would indicate correlation and filters of these function types', that can be used as 'prediction function' solution filters, given the possible meaning of these structures
 
     - apply structures of absolute certainty (like variables that can absolutely vary in all cases and requirements such as required variable limits or interactions) to use as starting point to reach structures of approximate or probable certainties
       - example: 
-      - in the 'find a prediction function' problem, absolute certainties include 'some points may be due to randomness', 'some points may indicate change in the underlying variable interaction', etc, which indicate the absolute truth of a variable of the data set (randomness, change in interaction function) that may vary
+        - in the 'find a prediction function' problem, absolute certainties include 'some points may be due to randomness', 'some points may indicate change in the underlying variable interaction', etc, which indicate the absolute truth of a variable of the data set (randomness, change in interaction function) that may vary
       - from these absolute truths, approximate/probable truths connecting absolute truths that are otherwise unconnectible with absolute truths can be identified as more probable than other approximate/probable truths, having filtered out 'impossible truths' and 'improbable truths' implied or required by the 'absolute truths'
 
     - apply solutions that are known to be exactly incorrect/sub-optimal as a way of finding/deriving/generating errors to generate useful information to find correct/optimal solutions
@@ -172,6 +173,9 @@
 
   - add to problem/solution structures
     - definitions & other truth structures as symmetries
+
+  - add to problem-solving intents
+    - solve for relevant structures to solve a problem 
 
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
