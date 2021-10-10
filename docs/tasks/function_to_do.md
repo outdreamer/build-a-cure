@@ -124,6 +124,12 @@
 
   - add to solution automation workflows
 
+    - apply interface structures to problem space to determine other problem structures than those directly relevant to the original problem that can be used to infer solutions to the original problem
+      - example: in the 'find a prediction function' problem, apply interface structures such as 'alternates' and 'adjacence' to problem space structures such as 'input variables', to infer adjacent variables of a data set, such as direct inputs & outputs of the original inputs, to find a set of connecting variables that can be further connected to the original outputs to predict, or to find out if the original inputs can be corrected in some way given these adjacent variables, or if adjacent variables to the original inputs can more easily be used to predict original outputs
+
+    - apply interface structures to determine what structures could produce a variable relationship and whether those structures have structures of truth (such as whether they are interactive, exist, or are probable)
+      - example: in the 'find a prediction function' problem, identify which structures could produce a 'exponential to integer or boolean' variable relationship, including such information as what degree of structures applied could connect the variable structures, and identify whether these structures are possible in a standard or specific system given how structures interact, such as a 'continuous input variable' being used as an 'activation signal' or 'type variable' in a standard system
+
     - apply interface structures like concepts to a problem system and find useful structures like interaction structures of those applied interface structures as a way of finding structures that can be used to determine probability of solution success to apply as a filter of solutions
       - example: in the 'find a prediction function' problem, apply concept interface to find concepts like 'average', 'correlation' and 'causation', and apply useful structures to these applied interface structures to find structures of possible relevance as a solution filter like 'functions of data subsets that could represent correlations' and 'correlation functions that when averaged could produce the prediction function' and 'functions that would indicate causation vs. functions that would indicate correlation and filters of these function types', that can be used as 'prediction function' solution filters, given the possible meaning of these structures
 
