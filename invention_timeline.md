@@ -27,6 +27,8 @@
 		- https://twitter.com/alienbot123/status/903697129058783233
 		- https://twitter.com/alienbot123/status/903693738765148160
 		- https://twitter.com/alienbot123/status/928530789112995840
+	- automated info organization (identifying info objects like strategies, insights, questions automatically)
+		- https://twitter.com/alienbot123/status/780948660901249028
 	- earliest mentions of problem-solving automation specifically on my twitter
 		- https://twitter.com/alienbot123/status/368896666847301633
 		- https://twitter.com/alienbot123/status/368896961409077248
@@ -51,7 +53,6 @@
 	- perspective-switching (interface query)
 		- https://twitter.com/alienbot123/status/367813951561547776
 		- https://twitter.com/alienbot123/status/647373077827993600
-		- https://twitter.com/alienbot123/status/647380929237925888
 		- https://twitter.com/alienbot123/status/682709026921025536
 	- graph of interface layers
 		- https://twitter.com/alienbot123/status/1016179939371085825
@@ -91,7 +92,24 @@
 		- https://twitter.com/alienbot123/status/1135347531888467968
 	- example of applying an interface to another interface
 		- https://twitter.com/alienbot123/status/1156860484294852609
-
+	- shape of abstract idea: 
+		- https://twitter.com/alienbot123/status/368896088855420928
+	- definition of a problem: 
+		- https://twitter.com/alienbot123/status/368897141512482816
+	- resource problem: 
+		- https://twitter.com/alienbot123/status/368889889716043776
+	- how to generate creativity:
+		- https://twitter.com/alienbot123/status/367814167316549635
+	- structural problem types
+		- https://twitter.com/alienbot123/status/196520523973410816
+	- power dynamics
+		- https://twitter.com/alienbot123/status/196520210579202048
+	- causal shape
+		- https://twitter.com/alienbot123/status/647380929237925888
+	- idea market
+		- https://twitter.com/alienbot123/status/215463952308637696
+		- https://twitter.com/alienbot123/status/743224678320316420
+		
 	- other useful insights identified/explained are in the primary repo (build-a-cure), my finder repo, or my online emails/messages/posts/blogs, which I have yet to organize
 	
 	- I identified:
