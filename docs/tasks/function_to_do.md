@@ -124,6 +124,10 @@
 
   - add to solution automation workflows
 
+    - predict other variables from various sets of other variables in the variable set & apply interface analysis to determine probabilities of dependence structures
+
+    - apply solutions to a more complex problem than the problem like how predicting a value in an infinite sequence (or determining differences between infinite sequences or their functions) is more complex than predicting a dependent variable value in a polynomial function, so filtering a set of many (possibly infinitely many) different prediction functions can be solved with methods from a related but more complex problem
+
     - identify information that is an output of a solution that can be used to derive/find/generate the solution, rather than identifying info about the solution or solution inputs, to use as a different target when solving a problem
       - example: for the 'find a prediction function' problem, this would take the form of identifying solution output metrics such as proxy metrics to a prediction function (including area under curve, number of peaks, probability distribution of local averages, etc) that can be used to identify/determine/approximate the prediction function, and change the problem to predicting those function metrics instead of function parameters like constants/multipliers/exponents applied to variables
 
