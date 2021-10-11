@@ -125,7 +125,7 @@
   - add to solution automation workflows
 
     - apply useful structures like system layer graphs as a general structure that is useful for problem-solving, integrating new problem & information learned from them into the same structure, adding as few structures as possible in the form of new objects, connections, and levels, which are default structures with which most other structures can be framed, similar to a network graph
-      - new structures like problems/systems may take new structures to accurately represent on a graph like the system layer graph, and while that is being identified, the system layer graph has an 'uncertainty structure' to capture the extra possible complexity
+      - new structures like problems/systems may take new structures to accurately represent on a graph like the system layer graph, and while that is being identified, vacillating between an 'exploratory' state (to consider the possibility of new structures encountered in a problem/system) and a 'learning fitting' state (to integrate new learned info into the system), the system layer graph has an 'uncertainty structure' to capture the extra possible complexity (in the form of an interface structure network or system layer graph, containing more useful interface structures nearer to the origin)
       - derive useful structures by which structures reduce the most variation (as in 'capture the most complexity')
         - other useful structures for problem solving would include networks/trees, interfaces (and more specific input-output sequences & core components) as different structures to standardize representations of information in a way that is likely to be useful for problem-solving in general
 
