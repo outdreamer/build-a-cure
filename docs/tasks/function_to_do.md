@@ -124,6 +124,9 @@
 
   - add to solution automation workflows
 
+    - find/derive/generate solutions having specific error structures (such as an incorrect assumption that the 'average of a data set is the correct average but is incorrect') as a way to quickly identify what is not the solution by applying these incorrect solutions as an initial non-solution space to use as a filter to find the correct solution
+      - workflow fit: this is similar to finding the set of 'maximally different' solutions as an initial solution space to filter, with the exception that known error types are injected in these initial solutions, which are likelier to be not solutions but by definition non-solutions that have a known probable error, as a way to determine the actual solution by its difference from these known error non-solutions
+
     - apply useful structures like system layer graphs as a general structure that is useful for problem-solving, integrating new problem & information learned from them into the same structure, adding as few structures as possible in the form of new objects, connections, and levels, which are default structures with which most other structures can be framed, similar to a network graph
       - new structures like problems/systems may take new structures to accurately represent on a graph like the system layer graph, and while that is being identified, vacillating between an 'exploratory' state (to consider the possibility of new structures encountered in a problem/system) and a 'learning fitting' state (to integrate new learned info into the system), the system layer graph has an 'uncertainty structure' to capture the extra possible complexity (in the form of an interface structure network or system layer graph, containing more useful interface structures nearer to the origin)
       - derive useful structures by which structures reduce the most variation (as in 'capture the most complexity')
