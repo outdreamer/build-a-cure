@@ -109,6 +109,9 @@
 
 ## examples
 
+  - add to science
+    - metformin and a low carb diet reduces serum vitamin b which can be used as inputs to cancerous growth
+
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
       - if the problem is (or can be) to 'find a solution-finding method', these will also be called 'solutions' to that problem
@@ -123,6 +126,12 @@
           - 'alternate alternatives of alternatives'
 
   - add to solution automation workflows
+
+    - identify connections to generate different solution formats and how to find the format most adjacent and useful for a particular problem
+      - example: with the 'find a prediction function' problem, the prediction function can take multiple formats - a set of function parameters like coefficients, a set of neural network parameters that could find the prediction function parameters, an infinite sequence, a set of minimal points that could derive the rest of the function (like how a parabola can be derived from 3 - 5 points depending on their positions & other requirements like positive values, where these points can be found with 'subset function' averages & other representations, or in finding the core structures like angles or change types like fast/slow curved/linear change of the function and determining points that determine those core structures), and some of these formats are more amenable to being used with particular solution-finding methods
+
+    - identify multiple solution-finding methods and apply components of one to the other in a way that is likely to be useful
+      - example: applying the method used to 'generate different variants' of the function coefficients in neural networks is likely to be useful in an altered method of regression, which doesnt inherently find alternate variants of a function and merge them in a weighting method, bc regression uses the concept of the 'average' already and incorporating another version of the concept of 'average' is likely to be useful
 
     - find/derive/generate solutions having specific error structures (such as an incorrect assumption that the 'average of a data set is the correct average but is incorrect') as a way to quickly identify what is not the solution by applying these incorrect solutions as an initial non-solution space to use as a filter to find the correct solution
       - workflow fit: this is similar to finding the set of 'maximally different' solutions as an initial solution space to filter, with the exception that known error types are injected in these initial solutions, which are likelier to be not solutions but by definition non-solutions that have a known probable error, as a way to determine the actual solution by its difference from these known error non-solutions
