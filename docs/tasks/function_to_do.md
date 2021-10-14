@@ -111,6 +111,7 @@
 
   - add to science
     - metformin and a low carb diet reduces serum vitamin b which can be used as inputs to cancerous growth
+    - check how folding relates to growth patterns like exponential growth, learning & information storage, and related structures like waves
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
@@ -126,6 +127,9 @@
           - 'alternate alternatives of alternatives'
 
   - add to solution automation workflows
+
+    - once useful structures are found/derived/generated/applied, apply other useful structures like change structures that are likely to create differences that could make useful structures like patterns in problem structures like values more obvious
+      - example: for the 'find a prediction function' problem, a useful value structure would be a matrix of alternate parameters of the function if one exists (if there are parameter sets with equal number of parameters), so that other changes could be applied to this structure, to create other value structures to examine for connections (such as representing this matrix as a grid of scalar vectors mapping to each value in the parameter matrix)
 
     - find possible errors in the problem statement such as assumptions that could change the other problem/solution structures, such as solution formats
       - example: for the 'find a prediction function' problem:
