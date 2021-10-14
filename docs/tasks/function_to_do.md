@@ -127,6 +127,9 @@
 
   - add to solution automation workflows
 
+    - find errors in the problem statement such as assumptions that could change the other problem/solution structures, such as solution formats
+      - example: for the 'find a prediction function' problem, find different parameterized lines (such as lines converted into a set of segments with different formatting) where the parameters overlap across different parameter sets that can generate the line, or find a function for an area/shape rather than a line to represent different averages and probabilities that each average definition or type should be used as the output's predictor, both of which have a different solution output format that is a variable when the assumption that the output should be a line and nothing else is removed, or that one definition of a component should be used
+
     - find a space where the prediction function's parameters will be more clearly identifiable (such as by extreme values like minima, or by converging values, or by values that signal a change in change types like inflection points or changes in change rate), like how adding a dimension to a 2-d prediction function might allow identifying a minimum point in the 3-d space where the change types stabilize, which reveals where the peaks & other features of the function are located, so that the task becomes finding the original feature-differentiating minima or other structures in the 3-d space
 
     - identify connections to generate different solution formats and how to find the format most adjacent and useful for a particular problem
