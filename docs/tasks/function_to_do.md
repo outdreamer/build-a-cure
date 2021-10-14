@@ -127,8 +127,14 @@
 
   - add to solution automation workflows
 
-    - find errors in the problem statement such as assumptions that could change the other problem/solution structures, such as solution formats
-      - example: for the 'find a prediction function' problem, find different parameterized lines (such as lines converted into a set of segments with different formatting) where the parameters overlap across different parameter sets that can generate the line, or find a function for an area/shape rather than a line to represent different averages and probabilities that each average definition or type should be used as the output's predictor, both of which have a different solution output format that is a variable when the assumption that the output should be a line and nothing else is removed, or that one definition of a component should be used
+    - find possible errors in the problem statement such as assumptions that could change the other problem/solution structures, such as solution formats
+      - example: for the 'find a prediction function' problem:
+        - find different parameterized lines (such as lines converted into a set of segments with different formatting, where the parameters have relevance structures like complimentary variance handling or an overlap structure across different parameter sets) that can generate the line
+        - find parameters of a matrix representing different parameter sets of a function (generative neural network parameters, wave function parameters, regression parameters, etc) & how they relate to actual function parameters (coefficients, powers)
+        - or find a function for an area/shape rather than a line to represent different possible averages and probabilities that each average definition or type should be used as the output's predictor where the area indicates probability of an output occurring between the various lines
+        - or find a function that emphasizes/prioritizes data points likely to be near to the actual prediction function or standardizes points in a way that makes them closer to the actual prediction function or removes points that are not closer, to give a shape of an implied function by a data set with a more obvious pattern
+        - all of which have a different solution output format that is a variable when the assumption that the output should be a line and nothing else is removed, or that one definition of a component should be used
+      - workflow fit: this is similar to other workflows that change the source/destination but applies error structures to find possible variables to apply to problem/solution structures like the solution output format
 
     - find a space where the prediction function's parameters will be more clearly identifiable (such as by extreme values like minima, or by converging values, or by values that signal a change in change types like inflection points or changes in change rate), like how adding a dimension to a 2-d prediction function might allow identifying a minimum point in the 3-d space where the change types stabilize, which reveals where the peaks & other features of the function are located, so that the task becomes finding the original feature-differentiating minima or other structures in the 3-d space
 
