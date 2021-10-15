@@ -109,9 +109,19 @@
 
 ## examples
 
+  - why problems will always have new variables determining how solution automation workflows can be generated
+    - problems are a 'lack of available structures that can fix the problematic structures', requiring new structures to be found, built, or derived to solve those problems
+    - by definition, problems will always change from previous problems
+    - therefore problems are a structural source of new change types
+    - new change types map to new variables describing those change types
+    - new variables may not be adjacently buildable, derivable, or findable with existing structures, leading to a requirement to find/build/derive new structures to structure those new problem variables
+    - this may lead to new values of existing variables like new problem-solving intents or new problem/solution core interaction functions, or other new structures that may be representable as new variables, bc they exist on another interface where problems & solutions interact, such as new variables regarding a new function type that can be used for problem/solution interactions
+    - even if a problem is static, there will always be new ways to solve it because of the inherent variation captured in the concept of 'problem', and these solution-finding methods will always have new interfaces or other structures which can be used to frame them
+
   - add to science
     - metformin and a low carb diet reduces serum vitamin b which can be used as inputs to cancerous growth
     - check how folding relates to growth patterns like exponential growth, learning & information storage, and related structures like waves
+    - prioritize 'scouting nanobots' to clean out chemicals as a prevention measure
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
@@ -128,7 +138,12 @@
 
   - add to solution automation workflows
 
-    - identify the change types required to find/derive/generate a useful structure for a particular problem format given its definition and apply those change types to find useful structures for a particular problem
+    - identify gaps in variable handling coverage created by available structures of the problem & known solutions, structures such as filters, where available filters represent what can be or is measured, so anything not covered by them is a source of possible error structures, as a way of identifying/finding/deriving new error structures, fulfilling the problem-solving intent of 'avoid errors'
+      - example: for the 'find a prediction function' problem, filters include requirements and assumptions built-in to the solution-finding method such as the definition of the concept of average that is used, or the method applied to tune the function such as generalization, smoothing, simplifying, regularizing, normalizing, standardizing, or curving methods, and given these filters, other change types may not be applied to the function, such as an outlier not handled by the function that is nevertheless valid, or a break in continuity that is valid, because the assumptions inherent to applying a 'smoothing' or 'generalizing' method will ignore these points in the data set and prioritize creating a continuous function to represent or connect certain subsets of the data set, so the 'gap' in the available filters including a particular definition or a solution-finding method contains the alternate structures not creatable with that definition or method, as a discrete point such as a valid outlier is not creatable with a method that produces a continuous function that 'represents' the data set, unless it coincidentally intersects with that structure, which is relying on randomness rather than a reliable method of preventing those errors
+      - the 'variable handling coverage' refers to structures that can be built/derived/found with a set of structures in the problem space or known solution set
+      - 'variable handling coverage' is a useful structure in determining what is adjacently & non-adjacently possible with a set of structures, such as a set of known solutions
+
+    - identify interface structures such as the change types required to find/derive/generate a useful structure for a particular problem format given its definition and apply those change types to find useful structures for a particular problem
       - example: for the 'find a prediction function' problem, useful structures include the function's parameters, its determining points & requirements, and generative functions of the function
         - to convert 'find a prediction function' into these useful structures, various change types are applied which can be applied in other problems to find useful structures
           - changing its format to include other components (exponent terms), converting it to a set of 'constants' applied to these standardized exponent terms
@@ -144,12 +159,12 @@
         - 'find "adjacence" structures (like adjacent y-values) and apply adjacent change structures found'
 
     - once useful structures are found/derived/generated/applied for a particular problem, apply other useful structures like change structures that are likely to create differences that could make useful structures like patterns in problem structures like values more obvious
-      - example: for the 'find a prediction function' problem, a useful value structure would be a matrix of alternate parameters of the function if one exists (if there are parameter sets with equal number of parameters), so that other changes could be applied to this structure, to create other value structures to examine for connections (such as representing this matrix as a grid of scalar vectors mapping to each value in the parameter matrix)
+      - example: for the 'find a prediction function' problem, a useful value structure would be a matrix of alternate parameters of the function if one exists (if there are parameter sets with equal number of parameters across different generative function types), so that other changes could be applied to this structure, to create other value structures to examine for connections (such as representing this matrix as a grid of scalar vectors mapping to each value in the parameter matrix)
 
     - find possible errors in the problem statement such as assumptions that could change the other problem/solution structures, such as solution formats
       - example: for the 'find a prediction function' problem:
         - find different parameterized lines (such as lines converted into a set of segments with different formatting, where the parameters have relevance structures like complimentary variance handling or an overlap structure across different parameter sets) that can generate the line
-        - find parameters of a matrix representing different parameter sets of a function (generative neural network parameters, wave function parameters, regression parameters, etc) & how they relate to actual function parameters (coefficients, powers)
+        - find parameters of a matrix representing different parameter sets of a function (descriptive parameters, compression parameters, generative neural network parameters, wave function parameters, regression parameters, etc) & how they relate to actual function parameters (coefficients, powers)
         - or find a function for an area/shape rather than a line to represent different possible averages and probabilities that each average definition or type should be used as the output's predictor where the area indicates probability of an output occurring between the various lines
         - or find a function that emphasizes/prioritizes data points likely to be near to the actual prediction function or standardizes points in a way that makes them closer to the actual prediction function or removes points that are not closer, to give a shape of an implied function by a data set with a more obvious pattern
         - all of which have a different solution output format that is a variable when the assumption that the output should be a line and nothing else is removed, or that one definition of a component should be used
