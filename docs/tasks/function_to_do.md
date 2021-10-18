@@ -142,7 +142,7 @@
       - apply sources of ambiguity as possible interfaces and variables
         - if an ambiguity is maintained, the measurement/metrics of the ambiguous alternatives are wrong, or the assumption that they were similar alternatives is wrong, or the assumption that a selection should be made is wrong, or the assumption that either is correct (as opposed to neither) is wrong, or the question being asked about their similarities/differences in metrics is wrong, or the optimal alternative is a combination of alternatives or different option from either alternative, or its a structure of randomness or equivalence, or change types are involved which are not measurable or which dont have a measurable impact in that system/interface, or it can support enough change types of a unique conceptual foundation that it qualifies as an interface
         - if it doesnt resolve, it can be a set of interchangeables forming an interaction layer, which can act as an interface, like how 'variables' & 'state' are both structures of change that would seem like ambiguous alternatives under the wrong measurements
-      - some functions like 'learn (as in update/improve on a metric)' are more useful than others, bc of their alignment with & relevance to problem-solving intents like 'improve an existing solution'
+      - some specific functions like 'learn (as in update/improve on a metric)' as opposed to general function (like 'change') are more useful than others, bc of their alignment with & relevance to problem-solving intents like 'improve an existing solution'
         - existing solutions always exist or can be adjacently derived, such as 'try every combination or possibility', and these can be used as a standard or base solution to apply improvements to
         - 'updating to improve a metric' can take the form of 'moving/changing a structure toward a solution position/structure' having a 'state sequence'
         - there may be multiple solutions in the space in which case determining the most adjacent solution, ambiguous alternative solutions, solutions for different optimization metrics, and the most optimal solution for the original metric are relevant sub-queries, and only framing it in terms of 'connecting two states' is not useful as it will miss the other possibly optimal states to aim for
@@ -154,6 +154,15 @@
             - a 'apply solution structures to the problem structure' implementation, where it would start by identifying solution structures such as a data set point that should intersect with the prediction function or a solution metric to fulfill like a level of accuracy to aim above, and then applying those to the problem structure, which might be a standard sub-optimal solution or the data set
             - a 'apply filters to the solution space' implementation, where it would start with the solution space, which might be a set of functions that intersect with or represent at least some subset of the data set, and iteratively filter out solutions based on a solution metric
           - these various implementations would allow the solution to be found in various situations like different available inputs
+      - solution (prediction function) metadata should include attributes like:
+        - which data points from the original data set are prioritized by the solution given their better represented in the function, and if other points are prioritized, how much does the solution change, and why are those points prioritized
+        - which data points will fail with this solution and by how much
+        - which representative examples of the original data set will succeed/fail 
+        - why this solution was constructed this way (to use a standard representation metric, to generalize across other data sets, to retain a percentage of original data set information, to account for other latent variables)
+        - how much randomness and how much variation in how many alternate data sets this solution will handle
+        - in what thresholds in what cases this solution will become clearly sub-optimal
+        - how likely it is that there is an alternate solution that is interchangeable in terms of robustness across some variation in different data sets, similar fulfillment of solution metrics, or similar function metadata like a similar generative/descriptive function
+        - how much & what quality of the original data set information is retained (quality of information like its average)
 
   - add to solution automation workflows
 
