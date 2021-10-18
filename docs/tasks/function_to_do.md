@@ -131,6 +131,18 @@
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
       - if the problem is (or can be) to 'find a solution-finding method', these will also be called 'solutions' to that problem
 
+  - add to examples
+      - example interface query of successive formats, metrics, variables & filters applied to tetris problem/solution structures:
+        - select solution format as 'set of states (moves & rotations) of a block', 'set of final positions of a block', 'set of possible value of other solutions not used (options invalidated or opportunities closed by a solution)', 'set of possible positions of all blocks once games is over'
+        - for the 'set of final positions of a block' solution format, the solution space is:
+          - 'set of available final positions that a block can be fit to (in general rather than for a specific block)'
+          - apply filter by 'specifying values of variables' (such as which block is referred to, in which position) to the above solution space
+            - 'set of available final positions that a specific block (currently selected block, in its current motion trajectory & rotation) can be fit to'
+            - optionally apply variables (moves and rotations) to expand or filter the solution space depending on what filters were previously applied
+              - 'set of available final positions that the currently selected block can be fit to, once all possible changes (rotations and moves) are applied'
+            - optionally apply filters in the form of solution metrics of other solution formats (impact on other future block positions rather than just the position of the current block)
+              - 'set of available final positions that the currently selected block can be fit to, once all possible changes (rotations) are applied, and once impact on solution spaces of next incoming blocks is identified & optimized'
+
   - add to useful structures
       - functions whose outputs can be their inputs, like iteratable functions, where the inputs/outputs are relevant to or are useful structures
         - where problem-solving structures or methods can be iterated, apply them iteratively where complexity isnt reduced by prior iterations
