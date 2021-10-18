@@ -158,11 +158,15 @@
         - which data points from the original data set are prioritized by the solution given their better represented in the function, and if other points are prioritized, how much does the solution change, and why are those points prioritized
         - which data points will fail with this solution and by how much
         - which representative examples of the original data set will succeed/fail 
-        - why this solution was constructed this way (to use a standard representation metric, to generalize across other data sets, to retain a percentage of original data set information, to account for other latent variables)
+        - why this solution was constructed this way, given the infinite equally accurate functions available (to use a standard representation metric, to generalize across other data sets, to retain a percentage of original data set information, to account for other latent variables)
         - how much randomness and how much variation in how many alternate data sets this solution will handle
-        - in what thresholds in what cases this solution will become clearly sub-optimal
+        - in what thresholds in what cases this solution will become clearly sub-optimal, and which solutions will be optimal after those thresholds are reached (format of a 'network of alternate conditional functions')
         - how likely it is that there is an alternate solution that is interchangeable in terms of robustness across some variation in different data sets, similar fulfillment of solution metrics, or similar function metadata like a similar generative/descriptive function
         - how much & what quality of the original data set information is retained (quality of information like its average)
+        - why variable interactions are justified & used in the solution
+          - example: if two variables are usually around 1.67 times the other (like an animal's height & width), why would that be the case:
+            - useful functions for the animal like 'speed and balance when moving' could be inferred from that data set if variable label information is retained and has access to a scientific/language dictionary
+            - structural concepts like 'optimal ratios' would be noticed across various problems with different data sets once it was repeated enough, which could be identified through a repeated pattern or derived through filtering out alternatives like 1:1 or 1:2 ratios, which are less common because it's uncommon to find integer relationships in nature, it's less likely that one change unit of each variable type is likely to be optimal, and it's less likely that an excess of one is optimal for a unit of the other, given how related variables in a type or interface have some similarity given their common or related causes such as genes & functions, or derived through useful structures like 'comparable but not equal quantities' often found in 'related variables with a trade-off structure while an uncertainty in the form of an optimal ratio is being resolved'
 
   - add to solution automation workflows
 
