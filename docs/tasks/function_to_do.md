@@ -117,12 +117,13 @@
     - new variables may not be adjacently buildable, derivable, or findable with existing structures, leading to a requirement to find/build/derive new structures to structure those new problem variables
     - this may lead to new values of existing variables like new problem-solving intents or new problem/solution core interaction functions, or other new structures that may be representable as new variables, bc they exist on another interface where problems & solutions interact, such as new variables regarding a new function type that can be used for problem/solution interactions
     - even if a problem is static, there will always be new ways to solve it because of the inherent variation captured in the concept of 'problem', and these solution-finding methods will always have new interfaces or other structures which can be used to frame them
+    - there will always be new structures that are adjacent to available tools to fulfill interaction functions (like 'connect') between given new change types generating new interaction functions, and new interaction levels to reduce a system to in terms of finding core components of the system, new structures of errors from new change types, and possibly new primary interfaces created by new interactive change types and new useful structures to connect other new structures
 
   - add to tech
     - 'download/generate & delete app' process for each use as a preventative measure against malware that checks for an app thats installed before exploiting a vuln in the app
 
   - add to science
-    - metformin and a low carb diet reduces serum vitamin b which can be used as inputs to cancerous growth
+    - metformin and a low carb diet reduce serum vitamin b which can be used as inputs to cancerous growth
     - check how folding relates to growth patterns like exponential growth, learning & information storage, and related structures like waves
     - prioritize 'scouting nanobots' to clean out chemicals as a prevention measure
     - structures of invalidity like 'hiding health data avoids the solution to the health problem, which would invalidate the reason to hide the health data' and 'funding a prevention measure rather than a cure, which would invalidate the reason to fund prevention measures'
@@ -135,6 +136,13 @@
         - what ratio of these scenarios are likely, possible, and involve risks or guarantees?
       - how time in one universe interacts with time in another - whether constants created by gravity and variables created by lack of it can interact with other constants/variables in adjacent, aggregate/net, reflective, or otherwise interactive universes
       - whether the similarities acting as inputs to standard gravity have corrollaries in the similarities acting as inputs to quantum gravity
+      - what gravitational impact on time exists on the quantum scale - the farther away from standard scales a particle or other structure is, gravity applies less and time moves faster?
+      - does matter (order) act like an opposite structure of time (disorder) so destroying matter can create time in a particular position
+      - can you navigate to other space times by increasing entropy to the entropy levels adjacently surrounding the target space-time (after which any matter navigating there reduces entropy to the target space-time)
+      - does that mean you have to destroy matter (order) in order to power time-travel - would that invalidate motion in certain time-directions, as increasing entropy tends to cascade and create irreversibilities
+      - is there a possible energy configuration that can increase entropy with enough precision that it can reach the target level
+      - are constants like irreversibilities more similar to the definition of order or is the initial lowest-entropy state of matter closer to the definition of order
+      - how do different structures that can create order (time crystals, black holes, other semi-closed or independent systems) interact - are they interchangeable in any way
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
