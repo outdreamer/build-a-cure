@@ -173,7 +173,7 @@
 		- analyzes the system on the physical information interface rather than other interfaces like intent/cause
 
 8. whats the difference between your conceptual math and 'adding concepts' as indicated here:
-	- https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472 (the ‘word embedding’ section)
+	- https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472 (the ‘word embedding’ section) - referenced here https://arxiv.org/abs/1301.3781
 	- that type of 'conceptual math' is removing attributes of an object and checking for a matching object in a network map, which already exists in many programming tools, like an equal '==' check is a programming language
 	- my type of 'conceptual math' involves operations on the structures of a concept
 		- for example, applying or finding a concept to a system, so the concept can be detected in structures specific to the system
