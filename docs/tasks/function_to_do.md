@@ -119,11 +119,18 @@
     - even if a problem is static, there will always be new ways to solve it because of the inherent variation captured in the concept of 'problem', and these solution-finding methods will always have new interfaces or other structures which can be used to frame them
     - there will always be new structures that are adjacent to available tools to fulfill interaction functions (like 'connect') between given new change types generating new interaction functions, and new interaction levels to reduce a system to in terms of finding core components of the system, new structures of errors from new change types, and possibly new primary interfaces created by new interactive change types and new useful structures to connect other new structures
 
+  - why understanding is usually a better option than guessing methods like prediction function-finding functions
+    - understanding can be used more effectively to derive a 'guessing method' than the opposite
+    - understanding is more generally applicable & can fulfill more functions than finding/deriving/generating a particular 'guessing method'
+    - understanding is less dependent on data such as context data
+    - understanding has compounding value, where guessing methods usually offer temporary & otherwise conditional value while & where the original prediction function is accurate
+    - understanding can find/derive/generate error structures of a particular guessing method
+
   - add to tech
     - 'download/generate & delete app' process for each use as a preventative measure against malware that checks for an app thats installed before exploiting a vuln in the app
 
   - add to science
-    - metformin and a low carb diet reduce serum vitamin b which can be used as inputs to cancerous growth
+    - 'metformin and a low carb diet' reduce 'serum vitamin b' which can be used as inputs to 'cancerous growth'
     - check how folding relates to growth patterns like exponential growth, learning & information storage, and related structures like waves
     - prioritize 'scouting nanobots' to clean out chemicals as a prevention measure
     - structures of invalidity like 'hiding health data avoids the solution to the health problem, which would invalidate the reason to hide the health data' and 'funding a prevention measure rather than a cure, which would invalidate the reason to fund prevention measures'
@@ -147,8 +154,13 @@
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
       - if the problem is (or can be) to 'find a solution-finding method', these will also be called 'solutions' to that problem
+    - pattern: similarity created by repetition
 
   - add to examples
+
+      - whether a solution or solution-finding method like an interface query is formatted as a set of requirements/sub-queries/sub-problems, change/function sequences, state sequences, input/output sequences, filter/limit/boundary sequences, format sequences, added structures, variable/function networks, parameterized graph traversals, other interface structure sequences like pattern or causal sequences, or other structures depends on adjacent structures and the requirements of the solution automation workflow & interface query applied
+        - similarly, whether a solution automation workflow is applied to various problem/solution structures - such as to connect the problem-space and the problem ('differentiate a problem space so that the problem is easily solved by generating adjacent required functions') or the problem & a solution ('convert the origin problem state into the target solution state') or a standard solution & an improved solution ('apply changes to an existing solution until its improved') - depends on the problem/solution structures required by that workflow
+
       - example interface query of formats, requirements, metrics, variables & filters applied to tetris problem/solution structures:
         - select solution format as 'set of states (moves & rotations) of a block', 'set of final positions of a block', 'set of possible value of other solutions not used (options invalidated or opportunities closed by a solution)', 'set of possible positions of all blocks once games is over'
         - for the 'set of final positions of a block' solution format, the solution space is:
@@ -187,11 +199,14 @@
           - find most explanatory features of as many variables as there are variables available & integrate them into a prediction function
             - 'co-occurrence' or 'adjacence' of variables like 'high urgency user location adjacent to another high urgency user' indicating a higher wait time for users after them
             - integrate with derived user routing information such as 'user prioritization' to determine what changes to location/audio/visit purpose will impact user prioritization (and position in wait list)
-          - other various implementations using different inputs
-            - 'given existing wait list & purpose visit data of other users, predict user wait time'
-            - 'given location patterns of other users before current user, predict current user wait time'
-            - 'given arrival & exit patterns of users in general, predict current user wait time'
-            - 'given values of high-variation variables like purpose visit complexity & staff skill set & staff fatigue, predict user wait time'
+          - other various implementations using different inputs/outputs (predict original solution requirement variable from available data or data derived from available data)
+            - use existing solution-finding method (regression, machine learning, etc) and apply "different input/output variables" to prediction function
+              - 'given existing wait list & purpose visit data of other users, predict user wait time'
+              - 'given location patterns of other users before current user, predict current user wait time'
+              - 'given arrival & exit patterns of users in general, predict current user wait time'
+              - 'given values of high-variation variables like purpose visit complexity & staff skill set & staff fatigue, predict user wait time'
+            - use existing solutions and apply "different prediction function inputs/outputs" (predict changes to standard prediction function borrowed from other existing solution code base or model, based on differences in problem definitions & requirements & data)
+              - 'identify problem type (queues, timing/duration predictions), generalize & apply generalized functions from existing solutions for that problem type to available data'
           - the above implementations require different functions to be found/derived/generated & applied in various interface queries (the above workflow requires a function to derive 'purpose visit complexity' from 'purpose visit', possibly using prior purpose visit & appointment time data)
 
   - add to useful structures
