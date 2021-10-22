@@ -160,6 +160,40 @@
             - optionally apply filters in the form of solution metrics of other solution formats (impact on other future block positions rather than just the position of the current block)
               - 'set of available final positions that the currently selected block can be fit to, once all possible changes (rotations) are applied, and once impact on solution spaces of next incoming blocks is identified & optimized'
 
+      - example of various implementations with 'user-submitted visit purpose' data and 'cellphone location' data, and requirement to "create an app to predict a user's wait time"
+        - identify relevant intents to problem-solving intent to fulfill the solution requirement using the specific available input data
+          - intents such as 'predict user wait times', 'import data', 'identify relevant data', 'predict end time of appointment', 'predict conditional average time taken by appointment', etc
+        - apply function to find relevant data (out of existing available data, such as user location and user visit purpose) for intents relevant to the solution requirement 
+          - 'location' data is relevant for importing 'actual appointment start/end times', 'user arrival times', as well as determining the 'order & number of people in the wait list' data, and may also be used for predicting 'appointment end time nearer to the end of the visit' data
+          - 'visit purpose' data is relevant for finding 'static average appointment times' for a 'visit purpose type' or 'conditional average appointment times' data for various conditions like 'business' and 'hour of the day' which may be variables that change 'average appointment times'
+          - 'audio' data could predict 'real-time updates to appointment end times'
+          - these have differing accuracy for various intents: 'location' data is a proxy for wait list & appointment time data, whereas audio data could be a more exact representation, and location can exactly determine variables like arrival time
+        - identify relevant structures to the solution requirement ('predict wait time') & determine variables of relevant structures
+          - appointment times (predicted time before the appointment end, and actual time once known)
+          - wait list
+          - alternate relevant structures could include:
+            - 'appointment complexity or urgency' which would mean the assigned staff should be considered unavailable for x period of time or even closing the office and routing users elsewhere
+          - determine variables of the relevant structures to the solution requirement, like how 'business', 'hour of the day', 'scheduled appointments', 'urgent purpose visit', 'canceled appointments' may be relevant to the wait list as well as appointment times
+          - apply variables of the wait list & appointment times to generate a set of possible/probable cases, and filter by whether available data can detect those cases (detect a chatty patient or a higher ratio of urgent cases)
+        - determine variables of the solution requirement structures (user's wait time) (how many people in wait list, available staff, predicted wait times of preceding appointments, probability of more urgent cases arriving)
+        - determine differences between variables of relevant structures of solution requirement (wait list, appointment times) and the solution requirement structure itself (user wait time)
+          - which 'wait list' variables ('business', 'hour of the day', 'scheduled appointments', 'urgent purpose visit', 'canceled appointments') and 'appointment time' ('purpose visit', 'business', 'hour of the day') variables can change or connect to 'user wait time' variables (such as 'position in wait list', 'urgency of purpose visit', 'arrival time')
+        - different implementation methods
+          - predict any relevant interim variables like 'appointment durations' and 'wait list changes' as a way of finding inputs to predicting the original variable 'user wait time'
+            - predict using conditional/average predictions of appointment times or sequential-data neural networks trained on location or wait list change data, based on prior data patterns
+          - calculate exact wait list, arrival, start & end times of appointments and predict the biggest uncertainty (probable appointment duration) as inputs to a user's wait time
+          - predict highest variation variables like 'purpose visit complexity' as an input to relevant interim structures like 'appointment duration' and plug into a standard calculation of wait time based on arrival/start times & wait list attributes
+          - select one variable like 'audio' or 'location' data and apply sequential-data neural networks
+          - find most explanatory features of as many variables as there are variables available & integrate them into a prediction function
+            - 'co-occurrence' or 'adjacence' of variables like 'high urgency user location adjacent to another high urgency user' indicating a higher wait time for users after them
+            - integrate with derived user routing information such as 'user prioritization' to determine what changes to location/audio/visit purpose will impact user prioritization (and position in wait list)
+          - other various implementations using different inputs
+            - 'given existing wait list & purpose visit data of other users, predict user wait time'
+            - 'given location patterns of other users before current user, predict current user wait time'
+            - 'given arrival & exit patterns of users in general, predict current user wait time'
+            - 'given values of high-variation variables like purpose visit complexity & staff skill set & staff fatigue, predict user wait time'
+          - the above implementations require different functions to be found/derived/generated & applied in various interface queries (the above workflow requires a function to derive 'purpose visit complexity' from 'purpose visit', possibly using prior purpose visit & appointment time data)
+
   - add to useful structures
       - functions whose outputs can be their inputs, like iteratable functions, where the inputs/outputs are relevant to or are useful structures
         - where problem-solving structures or methods can be iterated, apply them iteratively where complexity isnt reduced by prior iterations
@@ -206,7 +240,7 @@
 
   - add to solution automation workflows
 
-    - find/derive/generate requirements of various required functions of the solution-finding process like calculating solution success (in the form of determining calculation possibilities such as whether one solution is more optimal than another), requirements such as 'being able to calculate & compare optimality of solutions', to identify useful structures that would invalidate these processes or make them easier/more difficult to execute
+    - find/derive/generate requirements of various required functions of the solution-finding process like calculating solution success (in the form of determining calculation possibilities such as whether one solution is more optimal than another), requirements such as 'being able to calculate & compare optimality of solutions', to identify useful structures that would invalidate these processes or make them easier/more difficult to execute (such as 'areas of error or solution ambiguity' on a graph, which if you can calculate can make reducing the solution space or finding an acceptable solution easier)
       - example: for a 'find a prediction function' problem, this would take the form of finding/deriving/generating the sections where it would & would not be possible to derive if a solution was better than another (structures of optimization and structures of ambiguity), deriving which of these sections of ambiguity is more optimal than others (a 'solution ambiguity' rather than a 'error ambiguity'), and aiming for a function that intersects with those solution sections (there may be areas or other structures like function bundles or adjacent parameterized function points on a graph where it is clear that a function is sub-optimal, clear that a function is successful, ambiguous whether a function is a solution or error, areas where it is clear that a function is a solution but ambiguously successful when compared to similar solution functions, etc)
 
     - apply changes to the attributes like position of a useful structure applied in a solution-finding method to implement the intent of the useful structure in its original position in a different way
