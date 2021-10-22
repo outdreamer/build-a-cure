@@ -164,16 +164,6 @@
 
   - add to examples
 
-      - find the relevant structures (like the 'representative' structures such as averages, representative examples like important data points, important variables, counterexamples like outliers, etc) for a particular problem given alternate definitions of that problem ('find a prediction function' as a 'find a representative function' problem)
-        - these relevant structures give a different format to aim for when solving the problem, such as finding 'representative examples' as inputs to a 'find a prediction function' problem rather than the original input of the entire data set, 'representative examples of the data set' being relevant because the problem is to find a 'representative function of the data set'
-        - workflow fit: this applies 'alternate' structures to the 'problem format' to find 'alternate problem formats'
-        - generalization: this can be generalized to apply 'alternate' structures to other problem/solution structures to find 'alternate routes' to fulfill a problem-solving intent or solution automation workflow
-
-      - derive useful structures that can act like alternatives to interfaces, such as structures including objects of a particular interface structure type (like functions, variables, vectors, data sets, or positions)
-        - where problems are standardized to 'find a set of transforms to convert one vector/matrix into another', given interaction rules of the problem space system (such as available operations & interaction levels), a useful structure would be the format of a space where a vector is transformed into another vector, where points represent operations applied to an adjacent vector as specified by the interaction rules, so that solution automation workflows can be applied, such as 'finding alternate solution vectors similar to the original solution vector to aim for instead'
-          - this space can function like a 'base network' similar to how a language map is used as a base network for solving nlp problems
-          - these 'base structures' can act like sub-interfaces and can be useful as alternate structures to interface structures or other useful structures which can be used as 'standardized problem spaces' to convert a problem to, as opposed to converting a problem to an interface
-
       - solution automation workflow metadata, like for trial & error:
         - assume the problem space is equal to the solution space (rather than a normal workflow, which might filter the problem space of all possibilities to identify the solution space containing possible/probable solutions)
         - required functions: identity possible solutions, iterate through possible solutions, test possible solution
@@ -275,6 +265,24 @@
           - example: in various 'pooling' functions, one option may be selected at random (for no reason other than to generalize) when there could be a reason to select one option above another (it fulfills an intent like 'increasing solution accuracy' or 'reduces mismatch error between intended and actual functions') 
 
   - add to solution automation workflows
+
+    - find the relevant structures (like the 'representative' structures such as averages, representative examples like important data points, important variables, counterexamples like outliers, etc) for a particular problem given alternate definitions of that problem ('find a prediction function' as a 'find a representative function' problem)
+        - these relevant structures give a different format to aim for when solving the problem, such as finding 'representative examples' as inputs to a 'find a prediction function' problem rather than the original input of the entire data set, 'representative examples of the data set' being relevant because the problem is to find a 'representative function of the data set'
+        - workflow fit: this applies 'alternate' structures to the 'problem format' to find 'alternate problem formats'
+        - generalization: this can be generalized to apply 'alternate' structures to other problem/solution structures to find 'alternate routes' to fulfill a problem-solving intent or solution automation workflow
+
+    - derive useful structures that can act like alternatives to interfaces, such as structures including objects of a particular interface structure type (like functions, variables, vectors, data sets, or positions)
+        - where problems are standardized to 'find a set of transforms to convert one vector/matrix into another', given interaction rules of the problem space system (such as available operations & interaction levels), a useful structure would be the format of a space where a vector is transformed into another vector, where points represent operations applied to an adjacent vector as specified by the interaction rules, so that solution automation workflows can be applied, such as 'finding alternate solution vectors similar to the original solution vector to aim for instead'
+          - this space can function like a 'base network' similar to how a language map is used as a base network for solving nlp problems
+          - these 'base structures' can act like sub-interfaces and can be useful as alternate structures to interface structures or other useful structures which can be used as 'standardized problem spaces' to convert a problem to, as opposed to converting a problem to an interface
+          - the 'base structures' dont need to be comprehensive to be useful - examples of the problem system interactions to specify a vector at a point relative to another vector may be sufficient for solving some problems
+
+    - find structures where functions can be applied to adjacently create the solution, such as 'solutions fulfilling opposing filters' where a 'connect' or 'average' function can be applied to 'solutions fulfilling opposing filters' to find a more optimal solution between these opposites, where opposites represent error structures of varying extremes (extremely general/specific)
+        - example: for the 'find a prediction function' problem, solution space filters such as solutions fulfilling the filters 'most intersections with actual data points (most specific function)' and 'most general function or generally representative function' allow those solutions to act like opposing filters, where the optimal solution is between these filter structures implemented as solution structures (a specific function and a general function)
+        - the opposite structures represent an 'extreme' error structure, fulfilled by the abstraction attribute ('general/specific')
+        - 'finding an average between values (such as extremes)' is a relatively simple function
+        - other alternate functions would be 'finding a function that reduces extreme metric 1 (number of data point intersections) and extreme metric 2 (linearity) while still representing the data set to some degree'
+        - this workflow finds a structure representing an error structure of the solution (such as opposite extremes of a solution attribute, such as abstraction) then finds structures (solution space filters like 'most intersections with data points') that could create those structures (solution functions having opposing extremes of abstraction) then applies problem-solving functions (connect) or other functions (average) to correct those errors, finding the solution from those sub-optimal solution structures that are adjacent to the solution
 
     - parameterizing the impact of solution automation workflows on problem/solution structures like the solution space can offset the need to apply the workflow itself, rather than applying its average or otherwise representative output (like its impact on the solution space or the changes applied to the problem origin state)
       - differences in reductions of the solution space created by various solution automation workflows can fulfill various problem-solving intents and help solve various problems more optimally than others
