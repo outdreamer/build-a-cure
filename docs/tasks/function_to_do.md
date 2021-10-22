@@ -125,6 +125,8 @@
     - understanding is less dependent on data such as context data
     - understanding has compounding value, where guessing methods usually offer temporary & otherwise conditional value while & where the original prediction function is accurate
     - understanding can find/derive/generate error structures of a particular guessing method
+    - understanding is better at guessing than most guessing methods in most cases (except where a guessing method handles new contradictory information, a new problem type, a new change type, etc better than existing understanding)
+    - understanding, learning, simulation, organization, prediction, testing are interchangeable functions with varying advantages but generally can replace each other
 
   - add to tech
     - 'download/generate & delete app' process for each use as a preventative measure against malware that checks for an app thats installed before exploiting a vuln in the app
@@ -153,13 +155,32 @@
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
-      - if the problem is (or can be) to 'find a solution-finding method', these will also be called 'solutions' to that problem
+      - if the problem is (or can be) to 'find a solution-finding method', and can be applied to solve the original problem, these will also be called 'solutions' to that problem
     - pattern: similarity created by repetition
+    - a 'problem' could be defined in various formats including:
+      - difference between the initial problematic sub-optimal state and the target more optimal solution state
+      - lack of functions preventing the problem or its causes, or lack of error-correcting or error-containing/isolating functions, or lack of variable-handling functions
+    - where a 'solution' would be a structure that fulfills the solution/problem-solving requirements, and a 'solution-finding method' would be the structure that found/derived/generated the solution, optionally using the problem or problem attributes like problem type as an input (or using another solution, or the problem space as an input)
 
   - add to examples
 
+      - find the relevant structures (like the 'representative' structures such as averages, representative examples like important data points, important variables, counterexamples like outliers, etc) for a particular problem given alternate definitions of that problem ('find a prediction function' as a 'find a representative function' problem)
+        - these relevant structures give a different format to aim for when solving the problem, such as finding 'representative examples' as inputs to a 'find a prediction function' problem rather than the original input of the entire data set, 'representative examples of the data set' being relevant because the problem is to find a 'representative function of the data set'
+        - workflow fit: this applies 'alternate' structures to the 'problem format' to find 'alternate problem formats'
+        - generalization: this can be generalized to apply 'alternate' structures to other problem/solution structures to find 'alternate routes' to fulfill a problem-solving intent or solution automation workflow
+
+      - derive useful structures that can act like alternatives to interfaces, such as structures including objects of a particular interface structure type (like functions, variables, vectors, data sets, or positions)
+        - where problems are standardized to 'find a set of transforms to convert one vector/matrix into another', given interaction rules of the problem space system (such as available operations & interaction levels), a useful structure would be the format of a space where a vector is transformed into another vector, where points represent operations applied to an adjacent vector as specified by the interaction rules, so that solution automation workflows can be applied, such as 'finding alternate solution vectors similar to the original solution vector to aim for instead'
+          - this space can function like a 'base network' similar to how a language map is used as a base network for solving nlp problems
+          - these 'base structures' can act like sub-interfaces and can be useful as alternate structures to interface structures or other useful structures which can be used as 'standardized problem spaces' to convert a problem to, as opposed to converting a problem to an interface
+
+      - solution automation workflow metadata, like for trial & error:
+        - assume the problem space is equal to the solution space (rather than a normal workflow, which might filter the problem space of all possibilities to identify the solution space containing possible/probable solutions)
+        - required functions: identity possible solutions, iterate through possible solutions, test possible solution
+        - involves fewest changes to the problem space or problem structure
+
       - whether a solution or solution-finding method like an interface query is formatted as a set of requirements/sub-queries/sub-problems, change/function sequences, state sequences, input/output sequences, filter/limit/boundary sequences, format sequences, added structures, variable/function networks, parameterized graph traversals, other interface structure sequences like pattern or causal sequences, or other structures depends on adjacent structures and the requirements of the solution automation workflow & interface query applied
-        - similarly, whether a solution automation workflow is applied to various problem/solution structures - such as to connect the problem-space and the problem ('differentiate a problem space so that the problem is easily solved by generating adjacent required functions') or the problem & a solution ('convert the origin problem state into the target solution state') or a standard solution & an improved solution ('apply changes to an existing solution until its improved') - depends on the problem/solution structures required by that workflow
+        - similarly, whether a solution automation workflow is applied to various problem/solution structures - such as to connect the problem-space and the problem ('differentiate a problem space so that the problem is easily solved by generating adjacent required functions') or the problem & a solution ('convert the origin problem state into the target solution state') or a standard solution & an improved solution ('apply changes to an existing solution until its improved') or a general solution intent ('find a line connecting subset averages of this data set') and a specific solution implementing it (code implementing a particular definition of 'subset averages') - depends on the problem/solution structures required by that workflow
 
       - example interface query of formats, requirements, metrics, variables & filters applied to tetris problem/solution structures:
         - select solution format as 'set of states (moves & rotations) of a block', 'set of final positions of a block', 'set of possible value of other solutions not used (options invalidated or opportunities closed by a solution)', 'set of possible positions of all blocks once games is over'
@@ -254,6 +275,13 @@
           - example: in various 'pooling' functions, one option may be selected at random (for no reason other than to generalize) when there could be a reason to select one option above another (it fulfills an intent like 'increasing solution accuracy' or 'reduces mismatch error between intended and actual functions') 
 
   - add to solution automation workflows
+
+    - parameterizing the impact of solution automation workflows on problem/solution structures like the solution space can offset the need to apply the workflow itself, rather than applying its average or otherwise representative output (like its impact on the solution space or the changes applied to the problem origin state)
+      - differences in reductions of the solution space created by various solution automation workflows can fulfill various problem-solving intents and help solve various problems more optimally than others
+      - a 'trial & error' workflow doesnt reduce the solution space at all, whereas other solution automation workflows like 'derive possible/probable solutions or solution structures like solution limits/boundaries based on solution requirements' would likely reduce the solution space
+      - the difference between these workflows' impact on the solution space encodes information about what assumptions are made which can reflect whether a solution space reduction is useful for a particular problem or problem-solving intent
+      - example: for the 'find a prediction function' problem, a workflow might derive solution space-reducing filters such as 'a prediction function has to come this close to the data set average for each data subset of size n' or 'a prediction function has to be this similar to these data subset-connecting functions'
+        - the resulting reducing impact on the solution space is different from the unfiltered solution space by some parameter set
 
     - find/derive/generate requirements of various required functions of the solution-finding process like calculating solution success (in the form of determining calculation possibilities such as whether one solution is more optimal than another), requirements such as 'being able to calculate & compare optimality of solutions', to identify useful structures that would invalidate these processes or make them easier/more difficult to execute (such as 'areas of error or solution ambiguity' on a graph, which if you can calculate can make reducing the solution space or finding an acceptable solution easier)
       - example: for a 'find a prediction function' problem, this would take the form of finding/deriving/generating the sections where it would & would not be possible to derive if a solution was better than another (structures of optimization and structures of ambiguity), deriving which of these sections of ambiguity is more optimal than others (a 'solution ambiguity' rather than a 'error ambiguity'), and aiming for a function that intersects with those solution sections (there may be areas or other structures like function bundles or adjacent parameterized function points on a graph where it is clear that a function is sub-optimal, clear that a function is successful, ambiguous whether a function is a solution or error, areas where it is clear that a function is a solution but ambiguously successful when compared to similar solution functions, etc)
