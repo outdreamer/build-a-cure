@@ -130,6 +130,7 @@
 
   - add to tech
     - 'download/generate & delete app' process for each use as a preventative measure against malware that checks for an app thats installed before exploiting a vuln in the app
+    - add concept of 'overflow to adjacent nodes' and 'local feedback' to nn
 
   - add to science
     - 'metformin and a low carb diet' reduce 'serum vitamin b' which can be used as inputs to 'cancerous growth'
@@ -152,6 +153,10 @@
       - is there a possible energy configuration that can increase entropy with enough precision that it can reach the target level
       - are constants like irreversibilities more similar to the definition of order or is the initial lowest-entropy state of matter closer to the definition of order
       - how do different structures that can create order (time crystals, black holes, other semi-closed or independent systems) interact - are they interchangeable in any way
+    - uninhibited cell division
+      - a process of applying regular damage of cell types successfully handled by immune system, rotating between locations & systems, to make sure the immune system is being sent to these components on a regular basis
+      - alternate methods of increasing blood flow/circulation to every cell & distributing energy in the form of heat through exercise/sweat by increased connectivity/circulation
+      - alternate methods of increasing cell replacement rate to prevent proliferation of dna mutations
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
@@ -163,6 +168,8 @@
     - where a 'solution' would be a structure that fulfills the solution/problem-solving requirements, and a 'solution-finding method' would be the structure that found/derived/generated the solution, optionally using the problem or problem attributes like problem type as an input (or using another solution, or the problem space as an input)
 
   - add to examples
+
+      - write example implementations of trial & error (various sorting methods, identifying solution requirements, testing function, identify solution variables like position/state that generate additional solutions, identifying solution space given solution variables, various solution automation workflows & interface queries applied), as an example of translating solution automation workflow into code that can be applied to example problem definitions
 
       - solution automation workflow metadata, like for trial & error:
         - assume the problem space is equal to the solution space (rather than a normal workflow, which might filter the problem space of all possibilities to identify the solution space containing possible/probable solutions)
@@ -265,6 +272,9 @@
           - example: in various 'pooling' functions, one option may be selected at random (for no reason other than to generalize) when there could be a reason to select one option above another (it fulfills an intent like 'increasing solution accuracy' or 'reduces mismatch error between intended and actual functions') 
 
   - add to solution automation workflows
+
+    - find structures such as 'representative' structures that are useful for the problem-solving intent of 'finding a solution balancing various solution variables once multiple probable solutions are found' (solution variables like optimization, determined by solution metric fulfillment)
+      - example: for the 'find a prediction function' problem, this would take the form of finding an 'average function' or 'base function' of probable functions that can be solutions, to represent the probable alternate solutions based on a weighting schema, or to represent the 'probable versions' of a function once some parameter change is applied to the 'solution base function'
 
     - find the relevant structures (like the 'representative' structures such as averages, representative examples like important data points, important variables, counterexamples like outliers, etc) for a particular problem given alternate definitions of that problem ('find a prediction function' as a 'find a representative function' problem)
         - these relevant structures give a different format to aim for when solving the problem, such as finding 'representative examples' as inputs to a 'find a prediction function' problem rather than the original input of the entire data set, 'representative examples of the data set' being relevant because the problem is to find a 'representative function of the data set'
