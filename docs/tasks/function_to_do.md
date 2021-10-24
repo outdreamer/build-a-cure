@@ -130,7 +130,13 @@
 
   - add to tech
     - 'download/generate & delete app' process for each use as a preventative measure against malware that checks for an app thats installed before exploiting a vuln in the app
-    - add concept of 'overflow to adjacent nodes' and 'local feedback' to nn
+    - add concept of 'value overflow to adjacent nodes', 'local conditional deactivation', and 'local feedback' to nn
+    - depending on propagation/routing function, a neural network node can contribute multiple features or influences on the final set of generated coefficients for each iteration during training
+    - examine other weight update functions, like those having an oscillating sequence that converges around a value rather than those having incremental updates in one direction
+    - related problem: as weight updates occur, predict the remaining weight updates (what is the likelihood that weight updates follow one pattern over another or end at one value over another) so that some weight updates can be skipped
+      - applying 'find prediction function' to various inputs/outputs in a particular solution-finding method like neural networks for the general 'find prediction function' problem format can be useful in some positions
+    - add example of a 'generate variants' or 'generate possibilities' function by applying variables to a particular structure, to generate variations of functions including workflows, queries, or problem-solving functions like 'find structure in a structure'
+      - 'structure x' can be replaced by 'alternative structures' like 'find generative functions of x' or 'find alternate routes to x or its outputs' or 'find generative functions of requirements & other inputs of x' or 'find variables of x and alternate variants of x' or 'find interchangeables of x' or 'find invalidating structures of x' with varying degrees of success according to various solution metrics
 
   - add to science
     - 'metformin and a low carb diet' reduce 'serum vitamin b' which can be used as inputs to 'cancerous growth'
@@ -170,6 +176,7 @@
   - add to examples
 
       - write example implementations of trial & error (various sorting methods, identifying solution requirements, testing function, identify solution variables like position/state that generate additional solutions, identifying solution space given solution variables, various solution automation workflows & interface queries applied), as an example of translating solution automation workflow into code that can be applied to example problem definitions
+        - include example of creating all possible variable values, variable combinations & other structures, and other interface variables such as assumptions/context
 
       - solution automation workflow metadata, like for trial & error:
         - assume the problem space is equal to the solution space (rather than a normal workflow, which might filter the problem space of all possibilities to identify the solution space containing possible/probable solutions)
@@ -272,6 +279,11 @@
           - example: in various 'pooling' functions, one option may be selected at random (for no reason other than to generalize) when there could be a reason to select one option above another (it fulfills an intent like 'increasing solution accuracy' or 'reduces mismatch error between intended and actual functions') 
 
   - add to solution automation workflows
+
+    - apply alternative structures (like differences from variables, randomness, opposites) to change problem/solution structures (like a specific solution-finding method for a specific problem format) in a way that optimizes a general solution metric (like 'reducing number of required steps/functions' or 'adding information') 
+      - example: for the 'find a prediction function' problem, this would take the form of finding 'probability of a data point in this determining area of a function' or 'probability of a data point within range of determining point x of a function' instead of 'determining points of a function', applying interface structures like 'probability' and 'surrounding area of a point' and 'generative functions' rather than the structure of an 'exact point', as a more optimal structure for determining whether an area is 'representative' of a 'determining point of a function', applying 'find generative function of x' as an alternative to 'find x' to optimize a solution metric like 'number of steps required' to generate a different workflow than 'find determining points of a function', therefore 'finding inputs, alternatives, or approximations of determining points rather than the determining points themselves'
+        - apply 'mix' interface structure to other solution-finding methods to find structures that add different information, such as 'function coefficients' and 'determining points':
+          - generated different workflow: 'find determining points of a function and predict a subset or all of those from the data set, instead of or in coordination with predicting the function coefficients', 
 
     - find structures such as 'representative' structures that are useful for the problem-solving intent of 'finding a solution balancing various solution variables once multiple probable solutions are found' (solution variables like optimization, determined by solution metric fulfillment)
       - example: for the 'find a prediction function' problem, this would take the form of finding an 'average function' or 'base function' of probable functions that can be solutions, to represent the probable alternate solutions based on a weighting schema, or to represent the 'probable versions' of a function once some parameter change is applied to the 'solution base function'
