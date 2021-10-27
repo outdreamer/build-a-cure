@@ -293,16 +293,28 @@
 
   - add to solution automation workflows
 
-    - map interface structures to structure of the problem space system to apply useful structures like patterns of interface structures to the problem space system structures
+    - identify general interface structures or specific problem space system structures that would be useful (a solution-finding method parameter update function) for various problem-solving intents as the target solution structure, and apply interface structures to structures of the problem space system to apply useful structures like patterns of interface structures to the problem space system structures to implement these optimal useful structures
       - example: for the 'find a prediction function' problem, this would take the form of identifying the impact of a particular change type in the system of variables that are inputs to the prediction function, thereby mapping interface structures like a change type to structures in the problem space system such as 'coefficient value changes', so that useful structures like patterns of that change type can be applied to calculate coefficient value changes, as opposed to a method like 'create a set of sets of independent variables, representing functions of input variables, (like a set of layers of neural net nodes) and test if their impact on a prediction function is useful'
 
       - other useful mappings from interface structures to problem space system structures include:
         - identifying if a particular probable interface structure (like a 'processing function' that is hypothesized to be applied to the inputs at some point in the problem space system) would produce a particular change associated with a function or function network applied to some function of input variables of a data set, to derive which functions should be present in the neural network to implement or filter out that interface structure
         - this connects the solution-finding method with interface structures of the problem space system, so a theory of which functions of interface structures determine the problem/solution are probable can be tested by changing a solution-finding method's structure to test that theory
 
-        - identifying where effects of nodes' functions have effects like 'neutralization' to identify relevant structures to the solution-finding method's changes (the network's parameter (weight) changes), like 'deactivation probability of a node' given that structures of 'neutralization' would by definition not change the outputs of a network, and would therefore be relevant for processes like 'node deactivation', so 'neutralization' structures are relevant to the solution-finding method's changes so 'neutralization' structures can be considered an input to a function that changes (improves) a solution-finding method's parameters
+        - multiple workflows can be derived from a structure (like a sequence) of useful structures, by adding/removing items at either side of the sequence or applying another change function relevant to the structure
+          - this interface query identifies specific problem space system structures associated with useful structures: 'neutralization'
+            - identify problem space structures (network node functions having neutralizing effects) implementing useful structures (neutralization) of useful structures (parameter changes) of useful structures (solution-finding method) 
+              - to identify problem space system structures implementing useful structures of neutralization
+                - to use in a function improving the solution-finding method
+                  - to fulfill the problem-solving intent 'improve existing solution'
+          - this interface query identifies an input-output sequence having a useful structure in the form of a useful function (an update function of solution-finding method parameters) as its output 
+            - identify useful structures (inputs) of useful structures (update function) of useful structures (solution-finding method parameters)
+            - to identify neutralization structures as useful structures
+              - to use in a function improving the solution-finding method
+                - to fulfill the problem-solving intent 'improve existing solution'
+          - for example, identifying where effects of nodes' functions have effects like 'neutralization' to identify relevant structures to the solution-finding method's changes (the network's parameter (weight) changes), like 'deactivation probability of a node' given that structures of 'neutralization' would by definition not change the outputs of a network, and would therefore be relevant for processes relevant to the solution-finding method like 'node deactivation', so 'neutralization' structures are relevant to the solution-finding method's changes so 'neutralization' structures can be considered an input to a function that changes (improves) a solution-finding method's parameters
 
-        - identifying structures like 'weight update functions' that enable or create other useful structures like 'skipping training iterations'
+        - identify useful structures (like 'inputs') of useful structures in the problem space system to identify structures that can create useful structures
+          - identifying structures like 'weight update functions' that enable or create other useful structures such as requirement-invalidating structures like 'unnecessary training iterations' to identify where iterations can be skipped
 
         - identifying which combination of optimal standard functions would be useful to start filtering the solution space & derive the neural network for that function combination as the initial first iteration output of the final dense layers (which structures of functions of inputs such as 'functions of functions of inputs' would produce the changes to inputs necessary to create those optimal standard functions)
 
