@@ -296,6 +296,12 @@
 
   - add to solution automation workflows
 
+    - index useful structures by useful structures such as 'input requirements' or 'input causes' of a useful structure or 'usage intents the useful structure is most useful for' (like a 'variation-causing sequence of useful structures') as a way of finding useful structures of useful structures quickly for a particular problem-solving intent or interface query intent
+
+    - identify useful structures by which structures would implement a function relevant to problem-solving (such as a 'function to fulfill a particular problem-solving intent' like a 'solution-finding function') across multiple problem types/formats, which by definition means they are useful for problem-solving, as a way of deriving useful structures
+      - an example of this is "identify useful structures (like 'core components') by which structures fulfill generally useful functions (like 'build') which are generally useful and therefore useful to problem-solving as well"
+      - workflow fit: this identifies useful structures in a new way, by deriving them from changes, inputs, requirements, & other useful structures applied to problem/solution structures
+
     - identify general interface structures or specific problem space system structures that would be useful (a solution-finding method parameter update function) for various problem-solving intents as the target solution structure, and apply interface structures to structures of the problem space system to apply useful structures like patterns of interface structures to the problem space system structures to implement these optimal useful structures
       - example: for the 'find a prediction function' problem, this would take the form of identifying the impact of a particular change type in the system of variables that are inputs to the prediction function, thereby mapping interface structures like a change type to structures in the problem space system such as 'coefficient value changes', so that useful structures like patterns of that change type can be applied to calculate coefficient value changes, as opposed to a method like 'create a set of sets of independent variables, representing functions of input variables, (like a set of layers of neural net nodes) and test if their impact on a prediction function is useful'
       - other useful mappings from interface structures to problem space system structures include:
