@@ -293,6 +293,9 @@
 
   - add to solution automation workflows
 
+    - map interface structures to structure of the problem space system to apply useful structures like patterns of interface structures to the problem space system structures
+      - example: for the 'find a prediction function' problem, this would take the form of identifying the impact of a particular change type in the system of variables that are inputs to the prediction function, thereby mapping interface structures like a change type to structures in the problem space system such as 'coefficient value changes', so that useful structures like patterns of that change type can be applied to calculate coefficient value changes, as opposed to a method like 'create a set of sets of independent variables (like a set of layers of neural net nodes) and test if their impact on a prediction function is useful'
+
     - find/derive/generate specific structural structures (like structural sequences) that can be used to solve a problem and apply them as inputs to an alternate solution-weighting function or as parallel processes to find a solution function first or as inputs to another problem-solving intent like 'generating probable standard solutions'
       - example: for the 'find a prediction function' problem, specific structural sequences include the following, which are input-output sequences of structures that can generate a prediction function
         - non-adjacent subset connection functions + function weighting scheme = prediction function
