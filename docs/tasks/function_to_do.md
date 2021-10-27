@@ -250,6 +250,12 @@
               - 'identify problem type (queues, timing/duration predictions), generalize & apply generalized functions from existing solutions for that problem type to available data'
           - the above implementations require different functions to be found/derived/generated & applied in various interface queries (the above workflow requires a function to derive 'purpose visit complexity' from 'purpose visit', possibly using prior purpose visit & appointment time data)
 
+    - example of deriving the neural network structure by applying useful insights relevant for problem-solving intents like 'generate the solution' (as opposed to finding it) - insights such as that 'a structure (like a function) can usually be generated from structures similar to itself (a function) or structures of the same type (a function) or structures on its interaction layer (other functions, variables)' an insight which is derivable from math structures such as 'requirements involving the output data type of a particular operation like addition' - to derive the solution structure of a 'directed function network' as a useful structure to use as input to fulfill the intent of "creating a function to solve the 'find a prediction function' problem", given that functions can be formatted as 'sequences and combinations of other functions' and a 'directed/tree function combination network' could 'apply multiple combinations of functions' or 'apply functions in multiple sequences', which can 'build a function' so are useful for 'building a prediction function'
+      - find a prediction function
+        - build a prediction function
+          - build a 'directed function network' to build 'function combinations' and 'function sequences' that could 'build the prediction function'
+            - identify change structures (such as weight update or routing functions) of function combinations/sequences that would allow maximal or otherwise useful differentiation/reduction of function combinations/sequences
+
   - add to useful structures
       - functions whose outputs can be their inputs, like iteratable functions, where the inputs/outputs are relevant to or are useful structures
         - where problem-solving structures or methods can be iterated, apply them iteratively where complexity isnt reduced by prior iterations
@@ -294,13 +300,15 @@
         - 'removing structures added with no or mismatched intent alignment for structures in error having no associated intent'
           - example: in various 'pooling' functions, one option may be selected at random (for no reason other than to generalize) when there could be a reason to select one option above another (it fulfills an intent like 'increasing solution accuracy' or 'reduces mismatch error between intended and actual functions')
 
+    - add to other useful functions on the interim interaction layer which include 'invalidate' & 'enable'
+
   - add to solution automation workflows
 
     - index useful structures by useful structures such as 'input requirements' or 'input causes' of a useful structure or 'usage intents the useful structure is most useful for' (like a 'variation-causing sequence of useful structures') as a way of finding useful structures of useful structures quickly for a particular problem-solving intent or interface query intent
 
-    - identify useful structures by which structures would implement a function relevant to problem-solving (such as a 'function to fulfill a particular problem-solving intent' like a 'solution-finding function') across multiple problem types/formats, which by definition means they are useful for problem-solving, as a way of deriving useful structures
+    - identify useful structures by which structures would implement a useful structure like a function relevant to problem-solving (such as a 'function to fulfill a particular problem-solving intent' like a 'solution-finding function') across multiple problem types/formats, which by definition means they are useful for problem-solving, as a way of deriving useful structures
       - an example of this is "identify useful structures (like 'core components') by which structures fulfill generally useful functions (like 'build') which are generally useful and therefore useful to problem-solving as well"
-      - workflow fit: this identifies useful structures in a new way, by deriving them from changes, inputs, requirements, & other useful structures applied to problem/solution structures
+      - workflow fit: this identifies useful structures in a new way, by deriving them from changes, inputs, requirements, & other useful structures applied to problem/solution structures as the structures determining usefulness so they should be used as inputs to a function determining usefulness of a structure
 
     - identify general interface structures or specific problem space system structures that would be useful (a solution-finding method parameter update function) for various problem-solving intents as the target solution structure, and apply interface structures to structures of the problem space system to apply useful structures like patterns of interface structures to the problem space system structures to implement these optimal useful structures
       - example: for the 'find a prediction function' problem, this would take the form of identifying the impact of a particular change type in the system of variables that are inputs to the prediction function, thereby mapping interface structures like a change type to structures in the problem space system such as 'coefficient value changes', so that useful structures like patterns of that change type can be applied to calculate coefficient value changes, as opposed to a method like 'create a set of sets of independent variables, representing functions of input variables, (like a set of layers of neural net nodes) and test if their impact on a prediction function is useful'
