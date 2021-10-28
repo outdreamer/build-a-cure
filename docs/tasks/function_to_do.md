@@ -179,6 +179,7 @@
       - activating genes or proteins inhibiting s-phase or death phase of cell cycle once the cell is malignantly transformed (is missing a 'protogen' as opposed to having an 'antigen', an 'opposite' vaccine target)
       - preventing degradation of pain or other immune signals by repeated exposure to triggers like heat
       - decreasing cell cycle timing in susceptible or vulnerable cells to reduce chance of mutation persistence after cell division
+      - injecting any cancerous regions found with pro-health mutations or immune cell formation to offset ratio of healthy or immune cells & malignant cells produced by cancerous processes
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
@@ -303,6 +304,14 @@
     - add to other useful functions on the interim interaction layer which include 'invalidate' & 'enable'
 
   - add to solution automation workflows
+
+    - apply useful structures like 'maximally different' structures to generate relevant structures like 'change structures' applied to 'solution automation workflows' as a way of fulfilling relevant problem-solving intents like 'generating new solution automation workflows'
+      - example: apply 'trial & error' to 'break a problem into sub-problems', which involve very different functions, outputs & structures, to generate workflows applying the concepts of one workflow
+        - like applying the concept of 'every combination' or 'all instances of a type' from 'trial & error' to the other workflow to generate:
+          - 'try breaking every or other problem into sub-problems' which is useful for problem-solving intents like 'finding common problem attributes like causes or types' that is useful for 'improving an existing solution'
+          - 'try every problem-breaking method' which is useful when a particular problem-breaking method generates more solvable sub-problems
+          - 'try every combination of problems or sub-problems as a way to generate more obvious or solvable errors or solution structures to other problems'
+        - these workflows are different enough for their application to each other to be a useful source of new structures of change to use as variables (in this case applying the concept of 'every' to fulfill the problem-solving intent of 'alternating the structures' of the workflow having the 'trial & error' workflow applied to it to generate new workflows)
 
     - index useful structures by useful structures such as 'input requirements' or 'input causes' of a useful structure or 'usage intents the useful structure is most useful for' (like a 'variation-causing sequence of useful structures') as a way of finding useful structures of useful structures quickly for a particular problem-solving intent or interface query intent
 
