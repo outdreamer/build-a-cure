@@ -305,7 +305,7 @@
 
   - add to solution automation workflows
 
-    - 
+    - find alternate structures of structures (like combinations) of useful structures (like how 'requirements' & 'resources' are more useful when applied together) that can be used as default interface queries to execute first or to run other interface queries on to improve them
 
     - apply useful structures like 'maximally different' structures to generate relevant structures like 'change structures' applied to 'solution automation workflows' as a way of fulfilling relevant problem-solving intents like 'generating new solution automation workflows'
       - example: apply 'trial & error' to 'break a problem into sub-problems', which involve very different functions, outputs & structures, to generate workflows applying the concepts of one workflow
