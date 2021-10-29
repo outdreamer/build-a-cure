@@ -305,6 +305,7 @@
 
     - add to error structures
       - structures of volatility where 'small input changes can drastically change outputs' are useful for 'differentiation' and 'comparison' intents but not 'connecting' or 'equalizing' intents, as an opposite structure of 'ambiguity'
+      - structures of invalidity such as where 'an area produces a level of error in a prediction function that invalidates fulfillment of a required solution metric' for the 'find a prediction function' problem
 
     - variable interaction rules
       - standardizing variables of a data set to the same interface increases the power of those interface structures so that only one interface needs to be applied
@@ -317,7 +318,7 @@
         - possible structures to use as 'function' structures in the 'neural network' problem space system
           - explicit structures
             - node-weight units
-            - feature organizing functions (position or other similarity of features as a structure of relevance), weight initializing/update functions, input routing/combination functions, etc
+            - feature organizing functions (position or other similarity of features as a structure of relevance), weight initializing/update functions, input routing/combination functions, weight application functions, etc
           - adjacently implied structures
             - node-weight structures such as node-weight sequences (paths)
             - overlapping weight sequences (trees)
@@ -340,11 +341,14 @@
         - 'incremental changes' are derivable as useful to building an accurate prediction function that involves improving a standard or base solution which is already near its optimal value
     - add to nn error structures
       - backpropagation cant identify error structures such as 'previously barely deactivated nodes' that would have contributed with slightly different inputs (ability to recall prior deactivation values & decide whether to re-activate a node, possibly reverting to a previous training state with less information but excluding fewer useful nodes)
+        - if a change to inputs required to avoid deactivation or optimize weights according to some optimization structure (like creating weights that 'maximize differences in outputs') doesnt contradict the output of other weight paths, deactivating a particular node can be avoided or weights can be optimized if its barely under the threshold (which moves the error to a new threshold, the threshold value to determine whether to apply the original threshold value)
+        - examine effects of 'weight-swapping' across structures of relevance like 'adjacent nodes' if node position indicates initial or emergent similarity in weight path or 'adjacent weight values in a node layer' to test if similar but not equal weight updates apply to the possibly similar weighted feature sets that created those similar weights or are otherwise useful in generating errors (such as how values relevant by a similarity such as adjacence should be or remain similar)
 
   - add to solution automation workflows
 
     - find interchangeable alternate structures of structures (like combinations) of useful structures (like how 'requirements', 'changes', 'sequences', & 'inputs' or 'solution', 'error' & 'change' are useful by default but are more useful when applied together for known problem-solving intents like 'change problem structure until its a solution structure given solution requirements') that can be used as default interface queries to execute first or to run other interface queries on to improve them, given that they are relevant for known relevant problem-solving intents or related functions
       - example: some error structures are useful when applied together, in that they are sufficiently causative of enough errors that a solution avoiding those error structures can be considered to be a 'better than standard' or otherwise optimal solution
+      - sets of interchangeable structures are themselves interchangeables, occupying the same interaction layer and not invalidating the other interactive components, as interchangeable structures such as the set ('solutions', 'errors', 'changes') and the set ('requirements', 'inputs', 'outputs', 'changes') and the set ('irreducible function network') and the set ('useful structures') and the set ('core interaction functions' and 'problem-solving intents') and the set ('interface queries and solution automation workflows') and the set ('changes' and 'known or standard solutions') and the set ('structural interface' and 'interface application function') can be substituted in for each other and can interact with each other, such as applying one set to another, without invalidating the other sets (as they can coexist in the same system)
 
     - apply useful structures like 'maximally different' structures to generate relevant structures like 'change structures' applied to 'solution automation workflows' as a way of fulfilling relevant problem-solving intents like 'generating new solution automation workflows'
       - example: apply 'trial & error' to 'break a problem into sub-problems', which involve very different functions, outputs & structures, to generate workflows applying the concepts of one workflow
