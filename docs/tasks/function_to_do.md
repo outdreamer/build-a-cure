@@ -314,31 +314,37 @@
       - allowing some errors to avoid over-reducing a function inputs, when solutions may have a false similarity with error structures, so that reducing/preventing known errors also prevents useful signals from being handled, such as other errors or solution structures that resemble errors, as an optimal 'approximation' (fuzzy) solution that can be changed within a certain range to cover possible alternates
       - why is a 'variable network' less optimal than a '"change combination" function network' where many 'scalars' (weights) as functions are applied to many 'change combinations' (node inputs & input sums) as functions
         - the variable network could represent different change types/combinations as queries/routes of the variable network, but this wouldnt allow clear description of inputs/outputs of various routes as separate from other queries using the same variables in a slightly different route (change combinations are created by flows through or uses of the network where 'change combinations' are represented by 'variable node sequences linked by change-generating functions'), as opposed to a structure supporting separation of change combinations (creating different nodes & layers to temporarily store 'change combination state' applied to possibly useful change combinations represented by sequences of weight paths overlapping at the end node to create multiple different trees creating different coefficient functions, so different change types/combinations are represented in a way that allows them to be structurally separable from & comparable to other change types/combinations in a standardized way (comparing relative trees of inputs moving in the same direction, as opposed to comparing unrestricted or randomly assigned network routes))
-
         - possible structures to use as 'function' structures in the 'neural network' problem space system
           - explicit structures
             - node-weight units
             - feature organizing functions (position or other similarity of features as a structure of relevance), weight initializing/update functions, input routing/combination functions, etc
           - adjacently implied structures
-            - node-weight sequences (paths)
+            - node-weight structures such as node-weight sequences (paths)
             - overlapping weight sequences (trees)
           - interim inferrable structures
+            - node-weight structure neutralization/magnification structures
             - weight deactivation, near-deactivation, & activation node-weight unit sub-networks
             - node-weight weighting/prioritization functions (structures allowing repeated node-weight unit values increasing the priority of that node-weight unit value)
-          
-        - possible structures to use as 'variables'
+            - error structures like ambiguities, volatilities, improbabilities
+        - possible structures to use as 'variables' structures
           - explicit structures
-            - 'weight change & output values produced by active nodes' are the default variable structures specified by the network
+            - 'weights, weight change, & node output values' are the default variable structures specified by the network
           - implicit structures
             - the 'net impact of weight sequences' is an implied variable
-        - 'run-time deactivation' functionality can be built by integrating other information from prior predictions/feedback (integrating 'adjacent output values' as a filter of which nodes should be deactivated if they are producing values that will produce extreme differences between adjacent output values and the output value currently being calculated by the iteration, given weights available in the next layers that could change an extremely different value)
+        - 'run-time deactivation' functionality can be built by:
+          - integrating other information from prior predictions/feedback (integrating 'adjacent output values' as a filter of which nodes should be deactivated if they are producing values that will produce extreme differences between adjacent output values and the output value currently being calculated by the iteration, given weights available in the next layers that could change an extremely different value)
+          - integrating requirement info, like which 'sums of change combinations' are required to generate the differences that are useful in selecting a solution
         - whichever change structures can be guaranteed to be produced by variables like weight paths can identify the error structures that those structures miss
           - if a network parameter set can produce change structures 'having a certain degree of difference', it has an error structure of 'missing the possible solutions between those different values'
           - if a network parameter set can produce change structures of 'extreme change', it has an error structure of 'producing values that may not be adjacently convertible into target outputs' such as where 'a particular node output is not convertible to the accurate output value, given the following available weights/nodes'
+        - 'incremental changes' are derivable as useful to building an accurate prediction function that involves improving a standard or base solution which is already near its optimal value
+    - add to nn error structures
+      - backpropagation cant identify error structures such as 'previously barely deactivated nodes' that would have contributed with slightly different inputs (ability to recall prior deactivation values & decide whether to re-activate a node, possibly reverting to a previous training state with less information but excluding fewer useful nodes)
 
   - add to solution automation workflows
 
-    - find interchangeable alternate structures of structures (like combinations) of useful structures (like how 'requirements', 'changes', 'sequences', & 'inputs' are useful by default but are more useful when applied together for known problem-solving intents like 'change problem structure until its a solution structure given solution requirements') that can be used as default interface queries to execute first or to run other interface queries on to improve them, given that they are relevant for known relevant problem-solving intents or related functions
+    - find interchangeable alternate structures of structures (like combinations) of useful structures (like how 'requirements', 'changes', 'sequences', & 'inputs' or 'solution', 'error' & 'change' are useful by default but are more useful when applied together for known problem-solving intents like 'change problem structure until its a solution structure given solution requirements') that can be used as default interface queries to execute first or to run other interface queries on to improve them, given that they are relevant for known relevant problem-solving intents or related functions
+      - example: some error structures are useful when applied together, in that they are sufficiently causative of enough errors that a solution avoiding those error structures can be considered to be a 'better than standard' or otherwise optimal solution
 
     - apply useful structures like 'maximally different' structures to generate relevant structures like 'change structures' applied to 'solution automation workflows' as a way of fulfilling relevant problem-solving intents like 'generating new solution automation workflows'
       - example: apply 'trial & error' to 'break a problem into sub-problems', which involve very different functions, outputs & structures, to generate workflows applying the concepts of one workflow
