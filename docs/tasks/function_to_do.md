@@ -341,6 +341,7 @@
           - if a network parameter set can produce change structures 'having a certain degree of difference', it has an error structure of 'missing the possible solutions between those different values'
           - if a network parameter set can produce change structures of 'extreme change', it has an error structure of 'producing values that may not be adjacently convertible into target outputs' such as where 'a particular node output is not convertible to the accurate output value, given the following available weights/nodes'
         - 'incremental changes' are derivable as useful to building an accurate prediction function that involves improving a standard or base solution which is already near its optimal value
+
     - add to nn error structures
       - backpropagation cant identify error structures such as 'previously barely deactivated nodes' that would have contributed with slightly different inputs (ability to recall prior deactivation values & decide whether to re-activate a node, possibly reverting to a previous training state with less information but excluding fewer useful nodes)
         - if a change to inputs required to avoid deactivation or optimize weights according to some optimization structure (like creating weights that 'maximize differences in outputs') doesnt contradict the output of other weight paths, deactivating a particular node can be avoided or weights can be optimized if its barely under the threshold (which moves the error to a new threshold, the threshold value to determine whether to apply the original threshold value)
@@ -388,6 +389,19 @@
 
   - add to solution automation workflows
 
+    - apply differences to useful/core/default structures like 'function networks' to find their associated useful structures like 'interaction rules with other structures' that could help find/derive/generate useful structures to fulfill problem-solving intents
+      - example:
+        - asking the question "why is a 'function network' inadequate/incomplete for some intents" generates the following insight path which reveals a new solution automation workflow to find useful structures
+          - differences between 'function network' and 'optimal function network'
+            - a function network can only represent 'functions using the function network' as 'queries of the function network', rather than representing the 'functions using the network' as 'nodes on the function network'
+            - so if an agent calls a function 'go to specific point A', that cant be represented as a function on a function network that only contains functions like 'go' and 'go to destination' and 'convert destination to point', rather than 'go to specific point A', only as a call to functions on that network, so a function network cant contain the functions calling it as nodes but rather 'structures (like sequences/trees/networks) of nodes'
+          - 'requirements' of 'function network'
+            - inevitably in order to be useful, a function network will require that other structures/functions be converted to functions on that network so it will necessarily be incomplete
+          - 'differences' in 'function networks' relating to 'problem-solving'
+            - some function networks are more adjacent to solving problems just by framing problems in terms of functions defined on that network, so some function networks are more generally optimal or specifically optimal for solving some problems than other function networks, while producing errors for other problems
+            - this implies the usefulness of 'finding a function network that would make problems in general easier to solve', and 'finding a function network that is optimal for solving known different problem types/formats', and 'finding the differences in specifying a more optimal function network for a given problem than the generally optimal function network, as a generative method of more optimal function networks'
+              - abstracting these useful structures ('finding differences' and 'finding difference-causing variables' for problem-solving intents mentioned above) leads to this workflow
+    
     - identify variables & patterns of successful/optimal interface queries, apply abstraction to remove any unnecessary constants specified, & frame them in terms of the 'problem' interface to connect them to new solution automation workflows
       - example: an interface query like 'find alternate input-output sequences to find other ways to connect problem inputs and solution outputs' can be abstracted to the solution automation workflow 'find useful structures to fulfill problem-solving intents having structural similarities to the useful structures' (such as how 'connect' is structurally similar to 'input-output sequences' and 'other ways' is structurally similar to 'alternate input-output sequences' as 'alternate routes'), given that:
         - 'connecting problem inputs and solution outputs' maps directly to the problem-solving intent of 'connect problem/solution', as every solution automation workflow needs an associated problem-solving intent that it fulfills, either explicitly or implicitly
