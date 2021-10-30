@@ -398,9 +398,28 @@
     - identify variables of useful structures (like 'feature-changing functions') in an existing solution-finding method (like 'neural networks') for the problem (like 'find a prediction function' problem) & useful structures like 'connections of useful structures & other useful structures' (like 'feature-changing functions of a neural network' and 'usage intents of a neural network' or 'problems solved by a neural network' such as 'find high variance-capturing variables using input features'), to find out what interface queries a useful structure can fulfill and generate alternate useful structures for particular problem-solving intents related to usage intents of the solution-finding method
       - a network that allows repetition or reuse of a structure in other variables/functions will be flexible enough to store both a function and the component functions it calls, as well as a variable and the structures creating/using/changing that variable
       - a network that allows 'combinations of changes' in building features from combinations of other features will be able to identify 'change combination features' like a 'feature of multiple versions of another feature or feature combination'
-      - other structures can generate features than 'change combinations' to build 'general or high variance-capturing features from many input features, which are the default feature-changing structure & input-output structure of a standard neural network, and other causes for these feature-generating structures (such as 'identify high variance-capturing feature like type from many input features like image subsets') can be identified
+      - variables
+        - other structures can generate features than 'change combinations' to build 'general or high variance-capturing features from many input features, which are the default feature-changing structure & input-output structure of a standard neural network, and other causes for these feature-generating structures (such as 'identify high variance-capturing feature like type from many input features like image subsets') can be identified
+        - other feature-generating functions exist than 'change combinations'
+          - 'change combinations of change combinations'
+          - 'concepts'
+          - 'combinations, once standardized to the change interface (comparing combinations rather than combinations of changes)'
+          - 'input-output sequences, connections, or maps'
+          - 'functions' and 'patterns'
+          - 'filters' and 'requirements'
+        - other usage intents exist than 'find features that are inputs to high variance-capturing features & predict high variance-capturing feature values'
+          - 'find variables that can cause inputs'
+          - 'find variables that can create approximations'
+          - 'find interface where other variables are high-variance'
+          - 'find high variance-capturing functions to identify probable input-output sequences that should be used in a solution-finding method'
       - a useful structure involving this useful structure would be a "connecting function to find the associated 'usage cause' (like 'find high variance-capturing feature like type') of a 'feature-generating structure' (like 'change combinations')", as a function that is particularly useful in the neural network problem space to find/derive/generate other neural network algorithms that would fulfill a particular usage cause/intent
-
+    
+    - merge alternate found/derived/generated solution-finding methods for the sub-problems theyre optimal/useful for in solving a problem, applying 'break a problem into sub-problems' and applying different known solution-finding methods to those sub-problems, once the optimal sub-problem for a solution-finding method is found
+      - applying interface structure solution-finding method to find 'useful intents' that a neural network could implement in order to 'find a prediction function [connecting variable sets]', given probable variable interaction functions
+      - applying the neural network solution-finding method to find 'high variance-capturing variables & their input variables' which are likely to be usable with & connectible to 'useful intents' like 'find high variance-capturing features' which are probable to be identified as a particularly useful intent that a neural network should fulfill
+      - these two methods connect in the interim structures connecting the 'feature-generating methods' with the target 'useful intents of a neural network' solution structure, as an interim step to the final step
+      - the final step involves using the integrated output of the previous step (in applying the 'useful usage intents of a network' and 'feature-generating methods' of a neural network) for the intent of 'finding optimal feature-generating methods or useful usage intents of a network when either is required' (such as in changing a known solution-finding method to solve different problems)
+        
     - apply differences to useful/core/default structures like 'function networks' to find their associated useful structures like 'interaction rules with other structures' that could help find/derive/generate useful structures to fulfill problem-solving intents
       - example:
         - asking the question such as 'what is the cause/context of the suboptimality of a useful/core structure' such as "why is a 'function network' inadequate/incomplete for some intents" generates the following insight path which reveals a new solution automation workflow to find useful structures
