@@ -264,6 +264,7 @@
             - then identify structures that could produce these change structures
 
   - add to useful structures
+
       - functions representing core operations of generally useful functions
         - example: 
           - for the 'find' function, useful functions include 'check if structures are equal/similar' 
@@ -429,6 +430,29 @@
             - given these priorities, examples, experiences, concepts & other components, this neural network can produce errors when applied to language data that is highly structured for a particular purpose, simply applying any equalizing method it can, without evaluating whether all variables of the problem/solution should be equalized to connect the problem/solution state or if a subset of variables are useful for doing so
 
   - add to solution automation workflows
+
+    - identify finding/deriving/generative functions of equivalent interchangeable interface queries that can identify a solution or solution-finding method
+        - example: 
+          - 'the possibility of a one-possibility decision' is equivalent to a 'requirement' but uses different structures in its definition, just like a 'possible solution filter' acts like a 'required solution metric application'
+          - neural network examples of sets of 'useful structures' that can be used to adjacently derive the 'neural network' idea (in addition to core structures like 'inputs/outputs' and 'sum/multiply operations')
+            - 'change structures like change combinations', 'input-output sequences'
+            - 'solution requirements', 'problem assumptions', 'adjacent structures'
+            - 'multiple alternatives', 'large outputs built by small inputs', 'difference-maximization'
+            - 'variable network', 'change-application functions'
+            - 'change variables of existing solutions' (change coefficients of default prediction function, which is unit coefficients, biased/specific coefficients, or average coefficients among likely alternative probable coefficient sets)
+            - these structures are all useful for building the 'neural network' structures bc they align with other useful structures on some interface:
+              - a 'requirement' is similar to an 'assumption' so it can be used in place of an assumption in some contexts where their inputs/outputs align in a way that wont produce errors in that context
+              - connecting an 'initial' input with a 'target' output is similar to 'connecting problem/solution' or 'connecting suboptimal solution with a more optimal solution' so it can be used in place of a 'problem/solution sequence', like where the 'problem-solution sequence' is a known 'requirement' but only 'input-output sequences' are available to fulfill it, because of the 'alignment' on different interfaces between problem/solution and input/output structures which are aligned by some definition making them similar (like a 'state/format/change/filter/function sequence')
+              - so applying the 'change' interface highlights the similarity between problem/solution and input/output sequences and identifies 'input/output sequences' as a useful structures that can be used to convert a problem into a solution, if available functions as 'change units' are known, which are a 'requirement' of the aligning structure of the 'input/output sequence'
+          - examples of structures that can be used to adjacently derive any of neural network, interface analysis, or other prediction function-finding methods
+            - 'input-output sequences' (like 'data set' => 'prediction function') applied to 'interface structures' (like 'combinations') of 'highest change-reducing/finding structures' (like 'interface analysis' or 'neural network' functions or 'statistical prediction function-finding methods' or 'function decomposition methods (into other functions)') create functions that support core important functions ('find', 'reduce') applied to 'changes', a primary interface structure
+        - these examples have similar inputs/outputs but are more optimal in different edge cases, so applying a useful structure like an 'input-output sequences' isnt always enough to find robust solutions, edge cases such as where a variable looks like an independent variable in one data set but is clearly correlated with another variable in another data set
+          - finding structures that are 'adequate' for a particular prediction task but not robust to other inputs takes more structures to accurately describe than just 'one structural similarity between inputs/outputs'
+          - these solutions dont find these counterintuitive structures that are non-adjacently created from known functions/attributes/structures by default, so they are necessarily incomplete or otherwise suboptimal solution-finding methods without interface analysis injected at some point
+      - generalization: this workflow finds 'useful structures' (like 'alignments across interfaces') that can be used for the intent of 'building interchangeable alternate optimal structures' for a given problem-solving intent like 'find a solution or solution-finding method'
+
+    - index functions by whether they fulfill problem-related metrics like 'functions that are called the most frequently' (which by definition of 'usefulness' is relevant to most or all 'intents' which is inherently relevant to 'problem-solving')
+      - this applies the definition of 'useful structures' to 'useful structures' in a way that allows 'adjacent structures of useful structures' to be identified, applying the 'input-output sequence' structure to known useful structures to identify the inputs/outputs of useful structures, such as 'useful ways to index functions that injects the definition of usefulness so the most useful functions are found first, reducing the solution space of possible functions' which fulfills the problem-solving intent of 'finding useful structures'
 
     - identify variables of useful structures (like 'feature-changing functions') in an existing solution-finding method (like 'neural networks') for the problem (like 'find a prediction function' problem) & useful structures like 'connections of useful structures & other useful structures' (like 'feature-changing functions of a neural network' and 'usage intents of a neural network' or 'problems solved by a neural network' such as 'find high variance-capturing variables using input features'), to find out what interface queries a useful structure can fulfill and generate alternate useful structures for particular problem-solving intents related to usage intents of the solution-finding method
       - a network that allows repetition or reuse of a structure in other variables/functions will be flexible enough to store both a function and the component functions it calls, as well as a variable and the structures creating/using/changing that variable
