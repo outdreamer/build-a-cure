@@ -234,7 +234,8 @@ def apply_interface(structure, interface):
 
 def standardize_problem_to_interface(problem_definition, interface):
 	'''
-
+	standardizing the problem to an interface will make it more obvious which structures are involved in the problem & which structures can solve it
+	example: '"finding the inputs of a structure" will make the problem of "finding the structure" easier to solve when applying the "break problem into sub-problems" workflow'	
 	'''
 	standardized_problem_definition = apply_interface(problem_definition, interface)
 	standardized_problem_definition = 'find (gap-less overlap-less endpoint-connected lines of count greater than two) with three (two endpoint-connected lines with different angles)'
@@ -302,12 +303,24 @@ def filter_solution_space(problem_definition, problem_space, problem, solution_s
 	solutions = ['triangular blocks in solution space', 'square blocks in solution space']
 	return solutions
 
+// apply these functions to fulfill workflows involving the problem-solving intent of 'filter the solution space'
+
+// apply the 'core' interface to the 'problem', to implement the 'break problem into sub-problems' workflow (since finding core structures like 'inputs/components' of a structure makes finding the structure easier to solve)
 standardized_problem_definition = standardize_problem_to_interface(problem_definition, 'core')
+
+// apply standard problem/solution information-finding functions inherent to most or all workflows
 problem = identify_problem_attributes_functions(standardized_problem_definition)
 problem_space = identify_problem_space(standardized_problem_definition, problem)
 solution_space = identify_solution_space(standardized_problem_definition, problem_space, problem)
 solution_space_filters = identify_solution_space_filters(standardized_problem_definition, problem_space, problem)
 solution_metrics = identify_solution_metrics(standardized_problem_definition, problem_space, problem)
+
+// given that we have the 'problem' object with the problem attributes like 'type' and problem functions, we can apply functions to fulfill problem-solving intents like 'find existing solutions for the problem type' or 'find causal problems to solve instead of the original problem'
+
+// fulfill the problem-solving intent of 'filter the solution space', given that we have identified the solution space filters & solution metric required to call this function
+// filtering the solution space involves applying the 'core' structures found as a solution metric tests to each possible solution
+// by applying the 'core' interface & then filtering solutions, we are now filtering solutions to 'find combinations of subset components like three corners and closed shapes' instead of 'find blocks with three corners'
+// this essentially applies a 'merge sub-solutions' operation of the 'break a problem into sub-problems & merge sub-solutions' workflow, finding the 'merged components' (combinations of three corners & closed shapes) that are required to find 'solutions to the original problem'
 solutions = filter_solution_space(problem_definition, problem_space, problem, solution_space, solution_space_filters, solution_metrics)
 
 '''
