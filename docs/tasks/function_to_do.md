@@ -190,6 +190,7 @@
       - decreasing cell cycle timing in susceptible or vulnerable cells to reduce chance of mutation persistence after cell division
       - injecting any cancerous regions found with pro-health mutations or immune cell formation to offset ratio of healthy or immune cells & malignant cells produced by cancerous processes
       - moving cells with useful functions like 'destroying aggregates' to other positions where that function would be useful in 'preventing unrestricted cell division'
+      - fixing 'illnesses that modify genes' is a problem of 'fixing genetic mutations', as genetic mutations can occur that mimic the effects of illnesses that modify genes, so prevention is not the most powerful problem-solving intent
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
