@@ -46,35 +46,35 @@ solution_automation_workflows = {
 			'test if a problem is solved by solving one of the causal problems in its input causal sequence',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify sub-problems forming the original problem': [
-			'identify 'connection' problem required to convert problem into solution (equalize the problem with the solution)',
+		'identify 'equalizing' sub-problems building the original problem': [
+			'identify 'connection' structures required to convert problem into solution (equalize the problem with the solution)',
 			'identify equalizing functions that would connect the problem & solution (functions that would convert one state into a state similar to another state)',
 			'apply equalizing functions to connect the problem/solution',
 			'test if the equalizing functions solves the problem (connects the problem & solution)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify sub-problems forming the original problem': [
+		'identify 'connection' sub-problems building the original problem': [
 			'identify 'connection' structures required to convert problem into solution (equalize the problem with the solution)',
 			'identify connection functions that would connect the problem & solution (functions that would find 'connection' structures like 'input-output sequences')',
 			'apply connection functions to connect the problem/solution',
 			'test if the connection functions solves the problem (connects the problem & solution)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify sub-problems forming the original problem': [
-			'identify 'interaction' structures required to convert problem into solution (equalize the problem with the solution)',
+		'identify 'interaction' sub-problems building the original problem': [
+			'identify 'connection' structures required to convert problem into solution (equalize the problem with the solution)',
 			'identify interaction functions that would connect the problem & solution (functions that would find 'interactive' structures like 'input-output sequences')',
 			'apply interaction functions to connect the problem/solution',
 			'test if the interaction functions solves the problem (connects the problem & solution)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify sub-problems forming the original problem': [
+		'identify 'difference' sub-problems building the original problem': [
 			'identify 'difference' problem structure between problem & solution',
 			'identify functions that remove or reduce the difference between problem & solution',
 			'apply functions to remove/reduce differences to the difference between problem & solution',
 			'test if reducing/removing the difference solves the problem (fulfills the solution metrics)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify sub-problems forming the original problem': [
+		'identify 'missing information' sub-problems building the original problem': [
 			'identify 'missing information' problem structure preventing the solution',
 			'identify functions that can find information',
 			'apply functions that can find information to find the missing information',
@@ -322,6 +322,9 @@ solution_metrics = identify_solution_metrics(standardized_problem_definition, pr
 // by applying the 'core' interface & then filtering solutions, we are now filtering solutions to 'find combinations of subset components like three corners and closed shapes' instead of 'find blocks with three corners'
 // this essentially applies a 'merge sub-solutions' operation of the 'break a problem into sub-problems & merge sub-solutions' workflow, finding the 'merged components' (combinations of three corners & closed shapes) that are required to find 'solutions to the original problem'
 solutions = filter_solution_space(problem_definition, problem_space, problem, solution_space, solution_space_filters, solution_metrics)
+
+// the application of these problem/solution functions should equate to the steps of the workflow, in terms of functionality (input/output similarities)
+// alternatively, specific functions to implement the specific steps of the workflow can be generated with an interface query, rather than using general problem/solution functions like functions for a particular problem-solving intent
 
 '''
 - additional processing can be done to optimize the process followed to:
