@@ -1,3 +1,16 @@
+'''
+- to do list
+	- add functions & definitions to do the following:
+		- find('attributes') # as a way of finding attributes to describe a structure
+		- find('differences') # as a way of finding attributes that vary between structures
+			- find('similarities') # as a way of finding attributes that vary minimally between structures
+		- find('connections') # as a way of finding a route between structures
+		- apply('change', 'difference.type') # as a way of creating a difference in a structure in one of its attributes/functions
+	- add an example of creating the 'interface definitions' from a normal definition
+	- add an example of implementing a solution automation workflow (like 'apply changes to see what works') in a 'neural network' solution format (to the problem of 'find a solution-finding method for the "find a prediction function" problem')
+	- add an example of structuring a default set of interface structures as a network as a grpah database to run queries on
+'''
+
 problem_definition = 'find a block in the set of blocks that has "three corners"'
 
 ''' 
