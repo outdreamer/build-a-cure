@@ -470,7 +470,7 @@
         - problem type 'sub-optimal separation of information'
         - solution type 'combination of information'
         - solution format 'editable web asset to show function outputs like info formats such as 'graphs', in addition to info formats that can already be stored in existing solution format (code files) like 'text in comments"'
-        - problem-solution connection:
+        - problem-solution connection query
           - identify problem type & corresponding solution type
             - identify requirements of solution type
               - has to store useful info of all types (code, variable attributes like 'variable state' or 'variable state sequence', and function attributes like 'function outputs' like graphs) in one location (like a 'file' or 'web page' or 'editor app widget view')
