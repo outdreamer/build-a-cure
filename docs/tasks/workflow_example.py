@@ -386,35 +386,34 @@ solutions = filter_solution_space(problem_definition, problem_space, problem, so
 	- to compare this workflow's solution(s) with solution(s) produced by other workflows 
 '''
 
+def generate_default_useful_structures(structure_type, generative_method, generate_count, max_structure_count):
+	useful_structure_set = set()
+	if structure_type == 'sequence' and generative_method == 'core':
+		for i in range(0, generate_count):
+			new_sequence = ''
+			for i in range(0, max_structure_count):
+				random_index = random.randint(0, len(interaction_functions_and_useful_structures) - 1)
+				current = interaction_functions_and_useful_structures[random_index]
+				if i == 0:
+					new_sequence = current
+				else:
+					previous = new_sequence.split(' ')[-1]
+					unit_connection_function = 'of' if (previous in useful_structures or 'ing' in previous or 'tion' in previous) else 'to'					
+					if (previous in interaction_functions and current in interaction_functions) or (previous in useful_structures and current in interaction_functions):
+						current = current + 'ing' if current in ['build', 'find'] else 'derivation' if current == 'derive' else 'application'
+					current = ' '.join([new_sequence, unit_connection_function, current])
+					new_sequence = ' '.join(current.split(' ')[0:-2]) if (current.split(' ')[-1] in interaction_functions or 'ing' in current.split(' ')[-1] or 'tion' in current.split(' ')[-1]) else current
+			useful_structure_set.add(new_sequence)
+	for s in useful_structure_set:
+		print('useful structure', s)
+	open('useful_structure_set.json', 'w').write('\n'.join(list(useful_structure_set)))
+
 if __name__ == '__main__':
 	interaction_functions = ['find', 'build', 'apply', 'derive']
 	useful_structures = ['optimizations', 'alternate routes', 'combinations', 'input-output sequences']
 	unit_function_interaction_functions = 'to'
 	unit_structure_interaction_functions = 'of'
 	interaction_functions_and_useful_structures = interaction_functions + useful_structures # objects
-	count_sequences_to_generate = 10
-	count_max_structures_per_sequence = 10
-	useful_structure_sequences = set()
-	for i in range(0, count_sequences_to_generate):
-		new_sequence = ''
-		for i in range(0, count_max_structures_per_sequence):
-			random_index = random.randint(0, len(interaction_functions_and_useful_structures) - 1)
-			current = interaction_functions_and_useful_structures[random_index]
-			print('i', i, current)
-			if i == 0:
-				new_sequence = current
-			else:
-				previous = new_sequence.split(' ')[-1]
-				print('new_sequence', new_sequence)
-				unit_connection_function = 'of' if (previous in useful_structures or 'ing' in previous or 'tion' in previous) else 'to'					
-				if (previous in interaction_functions and current in interaction_functions) or (previous in useful_structures and current in interaction_functions):
-					current = current + 'ing' if current in ['build', 'find'] else 'derivation' if current == 'derive' else 'application'
-				current = ' '.join([new_sequence, unit_connection_function, current])
-				print('current', current)
-				new_sequence = ' '.join(current.split(' ')[0:-2]) if (current.split(' ')[-1] in interaction_functions or 'ing' in current.split(' ')[-1] or 'tion' in current.split(' ')[-1]) else current
-				print('new_sequence', new_sequence)
-		useful_structure_sequences.add(new_sequence)
-	print('useful_structure_sequences', len(useful_structure_sequences))
-	for s in useful_structure_sequences:
-		print('useful structure', s)
-	open('useful_structure_sequences.json', 'w').write('\n'.join(list(useful_structure_sequences)))
+	generate_count = 10
+	max_structure_count = 10
+	useful_structures = generate_default_useful_structures('sequence', 'core', generate_count, max_structure_count)
