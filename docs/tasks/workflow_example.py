@@ -386,34 +386,41 @@ solutions = filter_solution_space(problem_definition, problem_space, problem, so
 	- to compare this workflow's solution(s) with solution(s) produced by other workflows 
 '''
 
-def generate_default_useful_structures(structure_type, generative_method, generate_count, max_structure_count):
-	useful_structure_set = set()
+def generate_structures_of_functions_and_structures(structure_type, structure_data_type, generative_method, generate_count, max_structure_count, structures, functions):
+	functions_and_structures = functions + structures
+	solution_component_structure_types = ['function to structure', 'function of function of structure', 'structure of structure', 'apply structure to structure'] # injects a solution component requirement
+	structure_set = set()
 	if structure_type == 'sequence' and generative_method == 'core':
 		for i in range(0, generate_count):
 			new_sequence = ''
 			for i in range(0, max_structure_count):
-				random_index = random.randint(0, len(interaction_functions_and_useful_structures) - 1)
-				current = interaction_functions_and_useful_structures[random_index]
+				random_index = random.randint(0, len(functions_and_structures) - 1)
+				current = functions_and_structures[random_index]
 				if i == 0:
 					new_sequence = current
 				else:
 					previous = new_sequence.split(' ')[-1]
-					unit_connection_function = 'of' if (previous in useful_structures or 'ing' in previous or 'tion' in previous) else 'to'					
-					if (previous in interaction_functions and current in interaction_functions) or (previous in useful_structures and current in interaction_functions):
+					previous_previous = new_sequence.split(' ')[-2] if new_sequence.count(' ') > 0 else ''
+					if previous_previous in functions and previous in structures:
+						unit_connection_function = 'to' # apply structure to
+					else:
+						unit_connection_function = 'of' if (previous in structures or 'ing' in previous or 'tion' in previous) else ''			
+					if (previous in functions and current in functions) or (previous in structures and current in functions):
 						current = current + 'ing' if current in ['build', 'find'] else 'derivation' if current == 'derive' else 'application'
 					current = ' '.join([new_sequence, unit_connection_function, current])
-					new_sequence = ' '.join(current.split(' ')[0:-2]) if (current.split(' ')[-1] in interaction_functions or 'ing' in current.split(' ')[-1] or 'tion' in current.split(' ')[-1]) else current
-			useful_structure_set.add(new_sequence)
-	for s in useful_structure_set:
-		print('useful structure', s)
-	open('useful_structure_set.json', 'w').write('\n'.join(list(useful_structure_set)))
+					new_sequence = ' '.join(current.split(' ')[0:-2]) if (current.split(' ')[-1] in functions or 'ing' in current.split(' ')[-1] or 'tion' in current.split(' ')[-1]) else current
+			structure_set.add(new_sequence.replace('  ', ' '))
+	for s in structure_set:
+		print(structure_data_type, 'structure', s)
+	open(structure_data_type + '_structure_set.json', 'w').write('\n'.join(list(structure_set)))
 
 if __name__ == '__main__':
 	interaction_functions = ['find', 'build', 'apply', 'derive']
+	interface_structures = ['cause', 'intent', 'priority', 'change', 'function', 'object', 'structure', 'input', 'output', 'attribute', 'concept', 'possibility', 'probability']
 	useful_structures = ['optimizations', 'alternate routes', 'combinations', 'input-output sequences']
-	unit_function_interaction_functions = 'to'
-	unit_structure_interaction_functions = 'of'
-	interaction_functions_and_useful_structures = interaction_functions + useful_structures # objects
+	mixed_structures = interface_structures + useful_structures
 	generate_count = 10
 	max_structure_count = 10
-	useful_structures = generate_default_useful_structures('sequence', 'core', generate_count, max_structure_count)
+	sequences_of_useful_structures = generate_structures_of_functions_and_structures('sequence', 'useful', 'core', generate_count, max_structure_count, interface_structures, interaction_functions)
+	sequences_of_interface_structures = generate_structures_of_functions_and_structures('sequence', 'interface', 'core', generate_count, max_structure_count, interface_structures, interaction_functions)
+	sequences_of_mixed_structures = generate_structures_of_functions_and_structures('sequence', 'mixed', 'core', generate_count, max_structure_count, mixed_structures, interaction_functions)
