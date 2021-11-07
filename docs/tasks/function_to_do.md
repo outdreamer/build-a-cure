@@ -465,6 +465,13 @@
 
   - add to solution automation workflows
 
+    - derive other useful structures like 'inputs' or 'alternate routes' to a known useful structure (like 'core components') by applying useful structures like 'definitions' ('core components' being 'simpler' than other components, so there is a 'structural similarity' between 'core components' and the 'easy' attribute) to find useful structures like attributes of the structure (like 'easy') which can be used as solution formats of sub-queries to find relevant structures ('adjacent structures' such as 'inputs/outputs' or 'alternate routes') to the original known useful structure
+
+    - find structures of useful structures that are useful for optimizing useful structures & apply them to optimize useful structures
+      - this is a generalization of the below workflow which found a useful structure to optimize (the 'interface query', specifically the 'sequence of queries in the interface query')
+        - 'find' useful structures 'of' useful structures to 'apply' useful structures (such as problem-solving intents) by 'applying' useful structures to useful structures to 'find' useful structures 'in' useful structures
+        - the query "'find' x 'of' x to 'apply' x by 'applying' x to x to 'find' x 'in' x" may be a useful pattern to apply to useful structures in general
+
     - find useful structures (generative functions like 'filter for rarer attributes') of useful structures (like 'more reductive filters') to fulfill problem-solving intents (like 'filter solution space') by applying useful structures (like 'opposite of an input-output sequence') to useful structures (like 'standardized problem definitions or sub-problems' like components of an interface query like 'what is the easiest solution') to find useful structures (like 'efficiencies' or 'optimizations') in useful structures (like 'interface queries')
       - to find a useful structure like 'core components', an interface query would ask the question:
         - 'what would be the easiest (as in simplest, default, etc) structure to create' or 'what structures are easy (available or otherwise adjacent/trivial to find/derive/generate)'
