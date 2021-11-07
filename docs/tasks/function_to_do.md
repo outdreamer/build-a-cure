@@ -465,6 +465,24 @@
 
   - add to solution automation workflows
 
+    - find alternate formats of problem/solution structures by applying useful structures to find alternate structures with the same input/output sequence to optimize problem/solution structures for different input/output formats
+      - how to create a 'notebook' solution to the problem of 'having to print variable state and function output in order to see if a function is correct or applied correctly':
+        - problem type 'sub-optimal separation of information'
+        - solution type 'combination of information'
+        - solution format 'editable web asset to show function outputs like info formats such as 'graphs', in addition to info formats that can already be stored in existing solution format (code files) like 'text in comments"'
+        - problem-solution connection:
+          - identify problem type & corresponding solution type
+            - identify requirements of solution type
+              - has to store useful info of all types (code, variable attributes like 'variable state' or 'variable state sequence', and function attributes like 'function outputs' like graphs) in one location (like a 'file' or 'web page' or 'editor app widget view')
+                - these requirements fulfill the requirement of 'all useful info types' being 'visible at or approximately at the same time (in the same window/screen)'
+          - identify solution format that would support the solution type's requirements
+            - identify any difference that contradicts a particular solution format, in order to filter the solution space of possible solution formats
+              - an example is the difference between a graph info format and a code info format, which contradict/filter the 'code file' format as a possible solution structure in its current implementation
+                - identify similarity of 'code files' and 'html files' in having a possible function of 'storing code', given that 'storing code' is a requirement of the solution
+                - identify difference of 'code files' and 'html files' in having a possible function of 'storing graphs', given that 'storing alternate info formats like graphs' is a requirement of the solution
+                - given that the 'html files' info format fulfills both solution requirements, it fulfills an optimization metric of 'fulfilling more solution requirements'
+      - apply 'alternates' structure to problem/solution structures like 'interface queries' to find alternate formats of the query, such as a 'set of questions', a 'set of function calls to answer questions', a 'set of requirements such as info or structures', which have varying usefulness for different input formats, like if input is formatted in terms of 'structures' in which case 'requirements' for optimal structures may be a better format bc requirements can be structures, not just a 'missing information' structure like questions
+
     - derive other useful structures like 'inputs' or 'alternate routes' of a known useful structure (like 'core components') by applying useful structures like 'definitions' ('core components' being 'simpler' than other components, so there is a 'structural similarity' between 'core components' and the 'easy' attribute) to find useful structures like attributes of the structure (like 'easy') which can be used as solution formats of sub-queries to find relevant structures ('adjacent structures' such as 'inputs/outputs' or 'alternate routes') to the original known useful structure
       - this would find 'what question would adjacently find useful structures', with results like:
         - 'what structure would be the most optimal solution' (with different definitions of 'optimality' including attributes like 'easy' including definitions like 'default' or 'adjacent' or 'known')
