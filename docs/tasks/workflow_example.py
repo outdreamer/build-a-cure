@@ -1,3 +1,4 @@
+import json, random
 '''
 - to do list
 	- add functions & definitions to do the following:
@@ -9,7 +10,13 @@
 	- add an example of creating the 'interface definitions' from a normal definition
 	- add an example of implementing a solution automation workflow (like 'apply changes to see what works') in a 'neural network' solution format (to the problem of 'find a solution-finding method for the "find a prediction function" problem')
 	- add an example of structuring a default set of interface structures as a network as a grpah database to run queries on
+	- add default implementations of 'interchangeable interaction functions' applied to 'interchangeable objects' on an 'interaction layer'
+
 '''
+
+definitions = {}
+with open('definitions.json', 'r') as f:
+	definitions = json.load(f)
 
 problem_definition = 'find a block in the set of blocks that has "three corners"'
 
@@ -49,46 +56,46 @@ solution_automation_workflows = {
 			'stop when all solutions have been tested',
 			'return the best solution'
 		]
-	}
+	},
 	'break_problem_into_sub_problems_and_merge_sub_solutions': {
 		'identify sequence of problems leading to the original problem': [
 			'identify problem causes (the input causal sequence of a problem)',
 			'identify problem cause sequence',
-			'solve problem cause (a 'problem cause' is also a 'problem')',
+			'solve problem cause (a "problem cause" is also a "problem")',
 			'update impact of a solution on other problems and problem causes',
 			'test if a problem is solved by solving one of the causal problems in its input causal sequence',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify 'equalizing' sub-problems building the original problem': [
-			'identify 'connection' structures required to convert problem into solution (equalize the problem with the solution)',
+		'identify "equalizing" sub-problems building the original problem': [
+			'identify "connection" structures required to convert problem into solution (equalize the problem with the solution)',
 			'identify equalizing functions that would connect the problem & solution (functions that would convert one state into a state similar to another state)',
 			'apply equalizing functions to connect the problem/solution',
 			'test if the equalizing functions solves the problem (connects the problem & solution)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify 'connection' sub-problems building the original problem': [
-			'identify 'connection' structures required to convert problem into solution (equalize the problem with the solution)',
-			'identify connection functions that would connect the problem & solution (functions that would find 'connection' structures like 'input-output sequences')',
+		'identify "connection" sub-problems building the original problem': [
+			'identify "connection" structures required to convert problem into solution (equalize the problem with the solution)',
+			'identify connection functions that would connect the problem & solution (functions that would find "connection" structures like "input-output sequences")',
 			'apply connection functions to connect the problem/solution',
 			'test if the connection functions solves the problem (connects the problem & solution)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify 'interaction' sub-problems building the original problem': [
-			'identify 'connection' structures required to convert problem into solution (equalize the problem with the solution)',
-			'identify interaction functions that would connect the problem & solution (functions that would find 'interactive' structures like 'input-output sequences')',
+		'identify "interaction" sub-problems building the original problem': [
+			'identify "connection" structures required to convert problem into solution (equalize the problem with the solution)',
+			'identify interaction functions that would connect the problem & solution (functions that would find "interactive" structures like "input-output sequences")',
 			'apply interaction functions to connect the problem/solution',
 			'test if the interaction functions solves the problem (connects the problem & solution)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify 'difference' sub-problems building the original problem': [
-			'identify 'difference' problem structure between problem & solution',
+		'identify "difference" sub-problems building the original problem': [
+			'identify "difference" problem structure between problem & solution',
 			'identify functions that remove or reduce the difference between problem & solution',
 			'apply functions to remove/reduce differences to the difference between problem & solution',
 			'test if reducing/removing the difference solves the problem (fulfills the solution metrics)',
 			'if the problem is solved by a solution (the solution metrics are fulfilled, possibly determined by whether the problem/solution are connected, which is a problem-solving intent), return that solution'
 		],
-		'identify 'missing information' sub-problems building the original problem': [
-			'identify 'missing information' problem structure preventing the solution',
+		'identify "missing information" sub-problems building the original problem': [
+			'identify "missing information" problem structure preventing the solution',
 			'identify functions that can find information',
 			'apply functions that can find information to find the missing information',
 			'test if the missing information solves the problem (fulfills the solution metrics)',
@@ -144,6 +151,24 @@ def find_entities(structure):
 	entities = ['two endpoint-connected lines with different angles']
 	return entities
 
+def apply_definition_to_sentence(definitions, sentence):
+	if definitions:
+		for key, val in definitions.items():
+			if key in sentence:
+				val = val if type(val) == list else [val]
+				if len(val) > 0:
+					sentence.replace(key, val[0])
+	return sentence
+
+def apply_definition_to_structure(definitions, structure):
+	return structure
+
+def identify_functions(structure):
+	return structure
+
+def apply(function, map, params):
+	return params
+
 def find(substructure, structure):
 	''' 
 		- given a structure like 'structures that can build a block with three corners', find the substructure in that structure, such as 'structures' 
@@ -161,8 +186,8 @@ def find(substructure, structure):
 			'output': ['combinations of structures']
 		}
 	}
-	// given that the definition of 'build' we retrieved involves 'combining structures', we can inject an interim subfunction connecting inputs/outputs of the specific function
-	updated_functions = apply_definition(definitions, identified_functions)
+	# given that the definition of 'build' we retrieved involves 'combining structures', we can inject an interim subfunction connecting inputs/outputs of the specific function
+	updated_functions = apply_definition_to_structure(definitions, identified_functions)
 	updated_functions = {
 		'build': {
 			'input': 'structure',
@@ -170,16 +195,16 @@ def find(substructure, structure):
 			'output': 'block with three corners'
 		}
 	}
-	// given that we have the output ('solution metric fulfilling solution'), 
-	// and we want the input (structures that can create the 'solution metric fulfilling solution'), 
-	// and the reverse of the subfunction is 'subsets of structures', 
-	// we can apply the subfunction in reverse to the output, to identify the input (structures that, when combined, build the output)
+	# given that we have the output ('solution metric fulfilling solution'), 
+	# and we want the input (structures that can create the 'solution metric fulfilling solution'), 
+	# and the reverse of the subfunction is 'subsets of structures', 
+	# we can apply the subfunction in reverse to the output, to identify the input (structures that, when combined, build the output)
 
-	// in the apply() function, the map parameter connects the function with the params
+	# in the apply() function, the map parameter connects the function with the params
 	apply_reverse_subfunction = apply(function='reverse', map={'reverse': 'input-output sequence'}, params=['combinations of structures'])
 	apply_reverse_subfunction = 'subsets of structures'
 	interim_input = apply(function=apply_reverse_subfunction, map={'structures': 'block with three corners'}, params=['block with three corners']) 
-	// apply the 'reverse subfunction' ('subsets of structures') to the 'output' ('block with three corners'), where the 'structures' in the 'subsets of structures' refers to the 'block with three corners'
+	# apply the 'reverse subfunction' ('subsets of structures') to the 'output' ('block with three corners'), where the 'structures' in the 'subsets of structures' refers to the 'block with three corners'
 	interim_input = 'subsets of "block with three corners"'
 	updated_applied_functions = {
 		'build': {
@@ -198,7 +223,7 @@ def find(substructure, structure):
 	'''
 	specific_subsets = apply(function='define', map={}, params=['subsets of "block with three corners"']) 
 	specific_subsets = {
-		'block with three corners': [
+		'structures that can build block with three corners': [
 			'closed shape with three corners', 
 			# apply 'closed shape' definition to substitute specific structures of ' gap-less overlap-less endpoint-connected lines of count greater than two'
 			'gap-less overlap-less endpoint-connected lines of count greater than two and with three corners', 
@@ -219,6 +244,20 @@ def find(substructure, structure):
 	'''
 	return find_entities(specific_subsets[structure][-1])
 
+def separate_structure_by_function(structure):
+	separated_structure = {
+		'function': 'find',
+		'input': '',
+		'output': 'block with three corners'
+	}
+	return separated_structure
+
+def get_definition(term):
+	print('getting definition for term', term)
+	if definitions:
+		if term in definitions:
+			return definitions[term]
+
 def apply_interface(structure, interface):
 	'''
 	- applying the 'core' interface to the problem_definition 'find blocks with three corners in a set of blocks' would result in the 'core interface' standardized_problem_definition:
@@ -228,20 +267,22 @@ def apply_interface(structure, interface):
 	interfaces = ['core', 'structure', 'intent', 'cause']
 	if interface in interfaces:
 		separated_structure = separate_structure_by_function(structure)
-		function = 'find' // separated_structure['function']
-		original_input = '' // separated_structure['input']
+		function = separated_structure['function']
+		original_input = separated_structure['input']
 		standardized_input = ''
-		original_output = 'block with three corners' // separated_structure['output']
+		original_output = separated_structure['output']
 		standardized_output = ''
 		interface_concept_definition = get_definition(interface)
-		interface_concept_definition = 'structures that can build a structure' 
-		// definition of the 'core' interface concept includes 'components', as in 'structures that can build a structure'
+		# definition of the 'core' interface concept includes 'components', as in 'structures that can build a structure'
 		component_structures = find('structures', 'structures that can build ' + original_output) 
-		// find the specific 'structures' in 'structures that can build "block with three corners"' given definitions
+		# find the specific 'structures' in 'structures that can build "block with three corners"' given definitions
 		component_structures = ['gap-less overlap-less endpoint-connected lines of count greater than two', 'two endpoint-connected lines with different angles']
 		standardized_output = component_structures
+		print('structure', structure)
 		standardized_structure = structure.replace(original_input, standardized_input) if standardized_input != '' else structure
-		standardized_structure = standardized_structure.replace(original_output, standardized_output) if standardized_output != '' else standardized_structure
+		print('standardized_output', standardized_output)
+		for so in standardized_output:
+			standardized_structure = standardized_structure.replace(original_output, so) if so != '' else standardized_structure
 		return standardized_structure
 	return False
 
@@ -300,15 +341,15 @@ def apply_solution_metric(solution):
 	return False
 
 def apply_solution_space_filter(solution_space, solution_space_filter):
-	return filtered_solution_space
+	return solution_space
 
 def filter_solution_space(problem_definition, problem_space, problem, solution_space, solution_space_filters, solution_metrics):
 	solutions = []
 	filtered_solution_space = solution_space
-	// filter the solution space if possible
+	# filter the solution space if possible
 	for solution_space_filter in solution_space_filters:
 		filtered_solution_space = apply_solution_space_filter(solution_space, solution_space_filter)
-	// apply test to each possible solution in the filtered (or original) solution space
+	# apply test to each possible solution in the filtered (or original) solution space
 	for possible_solution in filtered_solution_space:
 		solution = apply_solution_metric(possible_solution)
 		if solution:
@@ -316,31 +357,64 @@ def filter_solution_space(problem_definition, problem_space, problem, solution_s
 	solutions = ['triangular blocks in solution space', 'square blocks in solution space']
 	return solutions
 
-// apply these functions to fulfill workflows involving the problem-solving intent of 'filter the solution space'
+# apply these functions to fulfill workflows involving the problem-solving intent of 'filter the solution space'
 
-// apply the 'core' interface to the 'problem', to implement the 'break problem into sub-problems' workflow (since finding core structures like 'inputs/components' of a structure makes finding the structure easier to solve)
+# apply the 'core' interface to the 'problem', to implement the 'break problem into sub-problems' workflow (since finding core structures like 'inputs/components' of a structure makes finding the structure easier to solve)
 standardized_problem_definition = standardize_problem_to_interface(problem_definition, 'core')
 
-// apply standard problem/solution information-finding functions inherent to most or all workflows
+# apply standard problem/solution information-finding functions inherent to most or all workflows
 problem = identify_problem_attributes_functions(standardized_problem_definition)
 problem_space = identify_problem_space(standardized_problem_definition, problem)
 solution_space = identify_solution_space(standardized_problem_definition, problem_space, problem)
 solution_space_filters = identify_solution_space_filters(standardized_problem_definition, problem_space, problem)
 solution_metrics = identify_solution_metrics(standardized_problem_definition, problem_space, problem)
 
-// given that we have the 'problem' object with the problem attributes like 'type' and problem functions, we can apply functions to fulfill problem-solving intents like 'find existing solutions for the problem type' or 'find causal problems to solve instead of the original problem'
+# given that we have the 'problem' object with the problem attributes like 'type' and problem functions, we can apply functions to fulfill problem-solving intents like 'find existing solutions for the problem type' or 'find causal problems to solve instead of the original problem'
 
-// fulfill the problem-solving intent of 'filter the solution space', given that we have identified the solution space filters & solution metric required to call this function
-// filtering the solution space involves applying the 'core' structures found as a solution metric tests to each possible solution
-// by applying the 'core' interface & then filtering solutions, we are now filtering solutions to 'find combinations of subset components like three corners and closed shapes' instead of 'find blocks with three corners'
-// this essentially applies a 'merge sub-solutions' operation of the 'break a problem into sub-problems & merge sub-solutions' workflow, finding the 'merged components' (combinations of three corners & closed shapes) that are required to find 'solutions to the original problem'
+# fulfill the problem-solving intent of 'filter the solution space', given that we have identified the solution space filters & solution metric required to call this function
+# filtering the solution space involves applying the 'core' structures found as a solution metric tests to each possible solution
+# by applying the 'core' interface & then filtering solutions, we are now filtering solutions to 'find combinations of subset components like three corners and closed shapes' instead of 'find blocks with three corners'
+# this essentially applies a 'merge sub-solutions' operation of the 'break a problem into sub-problems & merge sub-solutions' workflow, finding the 'merged components' (combinations of three corners & closed shapes) that are required to find 'solutions to the original problem'
 solutions = filter_solution_space(problem_definition, problem_space, problem, solution_space, solution_space_filters, solution_metrics)
 
-// the application of these problem/solution functions should equate to the steps of the workflow, in terms of functionality (input/output similarities)
-// alternatively, specific functions to implement the specific steps of the workflow can be generated with an interface query, rather than using general problem/solution functions like functions for a particular problem-solving intent
+# the application of these problem/solution functions should equate to the steps of the workflow, in terms of functionality (input/output similarities)
+# alternatively, specific functions to implement the specific steps of the workflow can be generated with an interface query, rather than using general problem/solution functions like functions for a particular problem-solving intent
 
 '''
 - additional processing can be done to optimize the process followed to:
 	- optimize generating the solution (the set of queries & functions applied) once the process (or associated structures like the 'specific state sequence') to generate it using this workflow is known
 	- to compare this workflow's solution(s) with solution(s) produced by other workflows 
 '''
+
+if __name__ == '__main__':
+	interaction_functions = ['find', 'build', 'apply', 'derive']
+	useful_structures = ['optimizations', 'alternate routes', 'combinations', 'input-output sequences']
+	unit_function_interaction_functions = 'to'
+	unit_structure_interaction_functions = 'of'
+	interaction_functions_and_useful_structures = interaction_functions + useful_structures # objects
+	count_sequences_to_generate = 10
+	count_max_structures_per_sequence = 10
+	useful_structure_sequences = set()
+	for i in range(0, count_sequences_to_generate):
+		new_sequence = ''
+		for i in range(0, count_max_structures_per_sequence):
+			random_index = random.randint(0, len(interaction_functions_and_useful_structures) - 1)
+			current = interaction_functions_and_useful_structures[random_index]
+			print('i', i, current)
+			if i == 0:
+				new_sequence = current
+			else:
+				previous = new_sequence.split(' ')[-1]
+				print('new_sequence', new_sequence)
+				unit_connection_function = 'of' if (previous in useful_structures or 'ing' in previous or 'tion' in previous) else 'to'					
+				if (previous in interaction_functions and current in interaction_functions) or (previous in useful_structures and current in interaction_functions):
+					current = current + 'ing' if current in ['build', 'find'] else 'derivation' if current == 'derive' else 'application'
+				current = ' '.join([new_sequence, unit_connection_function, current])
+				print('current', current)
+				new_sequence = ' '.join(current.split(' ')[0:-2]) if (current.split(' ')[-1] in interaction_functions or 'ing' in current.split(' ')[-1] or 'tion' in current.split(' ')[-1]) else current
+				print('new_sequence', new_sequence)
+		useful_structure_sequences.add(new_sequence)
+	print('useful_structure_sequences', len(useful_structure_sequences))
+	for s in useful_structure_sequences:
+		print('useful structure', s)
+	open('useful_structure_sequences.json', 'w').write('\n'.join(list(useful_structure_sequences)))
