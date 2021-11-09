@@ -468,12 +468,16 @@
             - never having encountered the 'experience' of negative feedback for errors in its error-correction method
             - given these priorities, examples, experiences, concepts & other components, this neural network can produce errors when applied to language data that is highly structured for a particular purpose, simply applying any equalizing method it can, without evaluating whether all variables of the problem/solution should be equalized to connect the problem/solution state or if a subset of variables are useful for doing so
 
-  - add to solution filters
-    - is it a 'possible' structure:
-      - are its inputs possible
-      - is a system that could sustain it possible
+    - add to solution filters
+      - is it a 'possible' structure:
+        - are its inputs possible
+        - is a system that could sustain it possible
 
   - add to solution automation workflows
+
+    - apply useful structures like 'abstractions' to useful structures like 'input-output sequences' to create useful structures like 'alternates' of useful structures to apply in solving other problems
+      - example: abstracting the 'input-output sequence' that leads to a solution for a problem type leads to a general 'input-output sequence' that can have specification structures like constants applied to it to convert the abstract version into a specific solution
+      - generalization: this can be generalized to 'apply structures that are useful for general problem-solving intents like "creating alternates of useful structures" that are useful fro specific problem-solving intents like "specifying a specific instance of an abstraction like a type" which is a function useful for problem-solving intents like "apply changes to a standard solution (the abstract type structure) to generate specific/improved/new solutions"'
 
     - identify changes that create optimizations when applied to various different standard solutions, to find change structures that indicate the location of the solution
       - example: for the 'find a prediction function' problem, this would take the form of applying changes to various standard solution functions, identifying which changes improve the optimality of the standard solution, and identify the location of the solution given the combination of the directions of optimization indicated by those changes
@@ -481,7 +485,7 @@
 
     - apply the solution format as a starting point for the 'problem/solution-connection' problem-solving intent bc its more limited (in that it has more requirements than the inputs ,which is why solutions are a subset of possible states)
       - example: when building a chatbot, there are a few valid solution outputs (different extensions) of the chat session, so those should be used as the starting point of the problem/solution-connecting method, which can include 'regex for the keywords of a particular solution' (such as how the 'speaking to a team member' extension is selected if no other 'extension-matching patterns' are found, like selecting the 'appointment scheduling' extension when 'appointment' is mentioned)
-        - starting from the outputs (the 'set of valid optimal solution outputs', such as the supported extensions) reduces the level of detail/complexity required, so the problem isnt to 'handle all possible inputs' but to 'filter inputs into valid solution outputs where possible'
+        - starting from the outputs (the 'set of valid optimal solution outputs', such as the supported extensions) reduces the level of detail/complexity required, so the problem isnt to 'handle all possible inputs' but to 'filter inputs into valid solution outputs where possible', which may require 'approximate-matching' functions to separate inputs into the limited set of valid optimal solution outputs
       - generalization: this workflow can be generalized to 'find an optimal problem/solution variable change to fulfill a problem-solving intent more optimally, such as how changing the starting point can fulfill the 'problem/solution-connection intent' or the 'filter solution space' intent more optimally bc valid optimal solutions are more limited so there are fewer options to search'
 
     - identify changes that would break a solution (such as by 'changing the solution format', which are 'inputs to errors'), and changes that would not break a solution (which are 'possible variables' of the solution) and differences between them to identify directions to apply changes in
