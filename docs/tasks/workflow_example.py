@@ -413,6 +413,7 @@ def generate_structures_of_functions_and_structures(structure_type, structure_da
 	for s in structure_set:
 		print(structure_data_type, 'structure', s)
 	open(structure_data_type + '_structure_set.json', 'w').write('\n'.join(list(structure_set)))
+	return structure_set
 
 if __name__ == '__main__':
 	interaction_functions = ['find', 'build', 'apply', 'derive']
