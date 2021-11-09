@@ -129,7 +129,9 @@
     - understanding, learning, simulation, organization, prediction, testing are interchangeable functions with varying advantages but generally can replace each other
 
   - add to govt
-    - democracy errors include alternate illegitimate routes to power like buying info goods like opinions, usage & user bases & user compliance/dependence, & artificially manipulating prices with information market manipulation, voter free time, job market info
+    - democracy errors include:
+      - alternate illegitimate routes to power like buying info goods like opinions, usage & user bases & user compliance/dependence, & artificially manipulating prices with information market manipulation, voter free time, job market info
+      - lack of education or its interchangeables, which results in other errors like 'not identifying interchangeable inputs to requirements (basic goods)' (such as how 'independence', 'power', 'love', 'happiness', 'understanding', 'intelligence', 'information', 'solutions', 'potential' are interchangeable alternates as theyre different formats of the same structure)
     - companies exist to solve customers' problems, so if there's a problem people can & are willing to pay to solve, companies will solve it, so all thats required is to tell them what consumers want at what prices and what costs are preventing govt budget from being optimized for solving unprofitable problems, & the products will be built & tech will be built to reduce those costs, rather than taxing to create govt agencies to slowly & inadequately prevent the same group or corporate loophole-exploitations that can be identified by algorithms, exploitations which are symptoms of an inefficient system that hasnt invested in reducing its primary costs like 'health care' or 'form processing' yet, rather than unique exploitations that requires budget to solve inadequately when reducing primary costs would invalidate the need for these exploitations by group or corporate entities
       - example: 'tracking assets' is only necessary if assets are scarce & unique, and 'regulating the health insurance industry' is only necessary if health care costs are unpredictable, extremely variable, & subject to randomness, which they dont have to be if costs are reduced 
     - 'actively preventing their money from ending poverty' (with tax avoidance, not trying to end poverty, not trying to be sufficiently different from people who failed to end poverty, etc) is a sub-optimal (inefficient) use of money, proving that people who could end poverty (either individually or as a small group) without negatively impacting their own lives and dont do so, are people who cant use their own money in an optimal way, indicating that their success was almost a complete accident plus a little hard work such as 'filling out forms' or 'making a pitch to investors' or 'hiring people'
@@ -339,8 +341,7 @@
         - 'using only internal components of the structure in error to generate a solution to that error' for an error that occurs in one position
         - 'removing structures added with no or mismatched intent alignment for structures in error having no associated intent'
           - example: in various 'pooling' functions, one option may be selected at random (for no reason other than to generalize) when there could be a reason to select one option above another (it fulfills an intent like 'increasing solution accuracy' or 'reduces mismatch error between intended and actual functions')
-
-    - add to other useful functions on the interim interaction layer which include 'invalidate' & 'enable'
+      - add to other useful functions on the interim interaction layer which include 'invalidate' & 'enable'
 
     - add to error structures
       - structures of volatility where 'small input changes can drastically change outputs' are useful for 'differentiation' and 'comparison' intents but not 'connecting' or 'equalizing' intents, as an opposite structure of 'ambiguity'
@@ -467,7 +468,17 @@
             - never having encountered the 'experience' of negative feedback for errors in its error-correction method
             - given these priorities, examples, experiences, concepts & other components, this neural network can produce errors when applied to language data that is highly structured for a particular purpose, simply applying any equalizing method it can, without evaluating whether all variables of the problem/solution should be equalized to connect the problem/solution state or if a subset of variables are useful for doing so
 
+  - add to solution filters
+    - is it a 'possible' structure:
+      - are its inputs possible
+      - is a system that could sustain it possible
+
   - add to solution automation workflows
+
+    - apply the solution format as a starting point for the 'problem/solution-connection' problem-solving intent bc its more limited (in that it has more requirements than the inputs ,which is why solutions are a subset of possible states)
+      - example: when building a chatbot, there are a few valid solution outputs (different extensions) of the chat session, so those should be used as the starting point of the problem/solution-connecting method, which can include 'regex for the keywords of a particular solution' (such as how the 'speaking to a team member' extension is selected if no other 'extension-matching patterns' are found, like selecting the 'appointment scheduling' extension when 'appointment' is mentioned)
+        - starting from the outputs (the 'set of valid optimal solution outputs', such as the supported extensions) reduces the level of detail/complexity required, so the problem isnt to 'handle all possible inputs' but to 'filter inputs into valid solution outputs where possible'
+      - generalization: this workflow can be generalized to 'find an optimal problem/solution variable change to fulfill a problem-solving intent more optimally, such as how changing the starting point can fulfill the 'problem/solution-connection intent' or the 'filter solution space' intent more optimally bc valid optimal solutions are more limited so there are fewer options to search'
 
     - identify changes that would break a solution (such as by 'changing the solution format', which are 'inputs to errors'), and changes that would not break a solution (which are 'possible variables' of the solution) and differences between them to identify directions to apply changes in
         - example: some changes applied to nn inputs would invalidate a solution format of 'prediction function coefficient vector values' (like a 'matrix multiplication operation' that creates multiple coefficient output vectors or a matrix of dimension higher than one) and other changes (like 'sums of weighted inputs') would not invalidate the solution format
@@ -475,6 +486,7 @@
           - the pattern/structure/other interface structures of this 'difference type' are indicators of error structures like a 'change to the solution format', which can direct an interface query that finds 'changes to inputs that would not invalidate the solution format' (which are 'possible variables' of the solution), which would produce changes like 'changing how node layer outputs are combined' or 'changing which node layer outputs are combined'
           - knowing more possible variables of the solution allows valid variants of the solution to be generated/applied/derived for various problem-solving intents like 'improving an existing solution' or specific problem format intents like 'prioritizing different input structures (like subsets or adjacent features)'
         - related workflows: a related workflow of this workflow involves deriving intents of the problem/solution/solution-finding method formats (like 'find a prediction function' problem, 'neural network' solution-finding method, 'prediction function coefficient vector' solution format), such as 'prioritize different input structures like feature subsets such as adjacent features according to usefulness of those structures & coverage of input-output feature sequences' which is a useful intent for the 'find a prediction function' problem when the solution-finding method is 'neural networks'
+        - workflow fit: this is a specific version of a combination of the 'avoid error structures (such as 'error inputs') & move toward solution structures (like 'solution variables')' & 'change solutions to improve them' workflows
         
     - find alternate formats of problem/solution structures by applying useful structures to find alternate structures with the same input/output sequence to optimize problem/solution structures for different input/output formats
       - how to create a 'notebook' solution to the problem of 'having to print variable state and function output in order to see if a function is correct or applied correctly':
