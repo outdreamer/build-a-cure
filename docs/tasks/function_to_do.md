@@ -478,6 +478,11 @@
 
   - add to solution automation workflows
 
+    - apply useful structures (like 'opposite' structures of 'negative' structures like 'possible error structures') as a way of improving the 'accuracy' of a problem/solution structure (like a problem 'input' such as a data set)
+      - example: for the 'find a prediction function' problem, this would take the form of applying common error structures like 'misidentifying random coincidence as the variable interaction being examined' or 'measurement errors' or 'formatting/processing errors' to the data set to generate alternate versions of inputs that would potentially reflect the actual correct data set
+        - a variant of this is applying errors to a standard solution like a regression function found for a data set
+        - this attempts to correct 'possible error structures' given error structure possibilities & probabilities when actual error structures cant be definitively derived using requirements/definitions/data
+
     - identify variables in specific applications of workflows & interface queries to specific problem formats to generate alternate solution-finding methods
       - example: for the 'find a prediction function' problem, given the set of all possible prediction functions created by connecting subsets of non/adjacent points, and given the set of all possible 'merge' functions of sets of those subset-connection functions, apply these 'interim structures for a specific problem format' as variables of problem-solving intents like 'connect problem/solution' and when applying aligning structures to those problem-solving intents like 'input-output sequences'
         - 'merge functions applied to the sets of subset-connecting functions' is an interim structure when solving the problem by connecting 'subset-connection functions' with the 'prediction function', after applying 'find subset-connecting functions' to 'data points'
