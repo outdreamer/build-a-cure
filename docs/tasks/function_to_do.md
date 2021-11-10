@@ -474,9 +474,14 @@
         - is a system that could sustain it possible
 
     - common useful differences to create a solution
-      - varying the 'count'
+      - apply change to the 'count' of a variable value
+      - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
 
   - add to solution automation workflows
+
+    - apply useful structures like 'alignments' between problem/solution structures to find alternate solution-finding methods to apply
+      - example: for the 'find a prediction function' problem, this would take the form of 'aligning input variable values in the same order to create multiple aligned input vectors, where the output variable is the next item in the sequence, then apply sequential prediction functions to predict the next item in the sequence (the output variable)'
+        - this creates an 'alignment' structure between the variable value positions in the vector, allowing them to be used to predict the next value (in this case the value that needs to be predicted is the output variable), making use of alternate solution-finding methods like sequential pattern-prediction functions that apply useful structures like 'sequential patterns' to create predictions
 
     - apply useful structures (like 'opposite' structures of 'negative' structures like 'possible error structures') as a way of improving the 'accuracy' of a problem/solution structure (like a problem 'input' such as a data set)
       - example: for the 'find a prediction function' problem, this would take the form of applying common error structures like 'misidentifying random coincidence as the variable interaction being examined' or 'measurement errors' or 'formatting/processing errors' to the data set to generate alternate versions of inputs that would potentially reflect the actual correct data set
