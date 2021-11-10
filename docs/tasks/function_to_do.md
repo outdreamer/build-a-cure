@@ -475,6 +475,9 @@
 
   - add to solution automation workflows
 
+    - apply specific useful structures for a particular problem/solution structure like a problem format to useful structures like inputs/outputs 
+      - example: for the 'find a prediction function' problem, this would take the form of applying specific useful structures like 'average' or 'minimum' which are useful for the problem format of 'find a prediction function', to structures like 'subsets' of useful structures like 'inputs/outputs' like specific data points, to test if each data point can act like a useful structure (either locally for a subset or globally for the whole prediction function) to reduce computation time of determining the remaining structures and/or to filter the solution space once a representative or otherwise useful data point is found
+
     - apply useful structures like 'abstractions' to useful structures like 'input-output sequences' to create useful structures like 'alternates' of useful structures to apply in solving other problems
       - example: abstracting the 'input-output sequence' that leads to a solution for a problem type leads to a general 'input-output sequence' that can have specification structures like constants applied to it to convert the abstract version into a specific solution
       - generalization: this can be generalized to 'apply structures that are useful for general problem-solving intents like "creating alternates of useful structures" that are useful fro specific problem-solving intents like "specifying a specific instance of an abstraction like a type" which is a function useful for problem-solving intents like "apply changes to a standard solution (the abstract type structure) to generate specific/improved/new solutions"'
