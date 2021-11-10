@@ -8,6 +8,7 @@
       
       - finish config
         - add useful structures & questions from index.md to systematize_solution_automation.md
+        - for each workflow involving useful structures, indicate an actual interface query example connecting the workflow with the example
         - useful structures
             - identify filters for useful structures like definition routes
             - the system structure format where the maximum number of interface queries can be executed structurally, with minimal conversions required? is it a merged format of variable/function/concept/cause network graphs, or system state networks, or a set of variable subset graphs, or differences visualized as vectors, or input-output sequence visualizations, or a network with all identifiable interface components visualized
@@ -131,6 +132,13 @@
   - add to govt
     - democracy errors include:
       - alternate illegitimate routes to power like buying info goods like opinions, usage & user bases & user compliance/dependence, & artificially manipulating prices with information market manipulation, voter free time, job market info
+    - free market errors include:
+      - making people fight to survive (without extreme advantages like 'information' or its proxies like 'education to derive information' or 'internet access to find information') so they frequently see crime as the best option likeliest to help them survive
+        - solution: creating 'organization' to make basic goods affordable, or 'artificially creating jobs' instead of organizing
+        - example of an 'organization' structure:
+          - if a supply chain is optimized (where 'optimal states' include such states as 'local supplies are distributed locally (such as by 3d printers that use cheap resources like sun/air/dirt as input'), basic goods will be cheaper
+          - this is a case where 'labor & other resources' are 'organized' into an optimal 'supply chain' structure
+        - other examples of 'organization' structures include 'communities', 'databases/apps', 'internet access/search', 'cell phones', all of which can increase the probability of other organization structures occurring, like 'markets' and 'coordination' and 'companies'
       - lack of education or its interchangeables, which results in other errors like 'not identifying interchangeable inputs to requirements (basic goods)' (such as how 'independence', 'power', 'love', 'happiness', 'understanding', 'intelligence', 'information', 'solutions', 'potential' are interchangeable alternates as theyre different formats of the same structure)
     - companies exist to solve customers' problems, so if there's a problem people can & are willing to pay to solve, companies will solve it, so all thats required is to tell them what consumers want at what prices and what costs are preventing govt budget from being optimized for solving unprofitable problems, & the products will be built & tech will be built to reduce those costs, rather than taxing to create govt agencies to slowly & inadequately prevent the same group or corporate loophole-exploitations that can be identified by algorithms, exploitations which are symptoms of an inefficient system that hasnt invested in reducing its primary costs like 'health care' or 'form processing' yet, rather than unique exploitations that requires budget to solve inadequately when reducing primary costs would invalidate the need for these exploitations by group or corporate entities
       - example: 'tracking assets' is only necessary if assets are scarce & unique, and 'regulating the health insurance industry' is only necessary if health care costs are unpredictable, extremely variable, & subject to randomness, which they dont have to be if costs are reduced 
