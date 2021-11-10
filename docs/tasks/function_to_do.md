@@ -473,9 +473,17 @@
         - are its inputs possible
         - is a system that could sustain it possible
 
+    - common useful differences to create a solution
+      - varying the 'count'
+
   - add to solution automation workflows
 
-    - apply specific useful structures for a particular problem/solution structure like a problem format to useful structures like inputs/outputs 
+    - identify variables in specific applications of workflows & interface queries to specific problem formats to generate alternate solution-finding methods
+      - example: for the 'find a prediction function' problem, given the set of all possible prediction functions created by connecting subsets of non/adjacent points, and given the set of all possible 'merge' functions of sets of those subset-connection functions, apply these 'interim structures for a specific problem format' as variables of problem-solving intents like 'connect problem/solution' and when applying aligning structures to those problem-solving intents like 'input-output sequences'
+        - 'merge functions applied to the sets of subset-connecting functions' is an interim structure when solving the problem by connecting 'subset-connection functions' with the 'prediction function', after applying 'find subset-connecting functions' to 'data points'
+        - these interim structures can be useful as variables to generate other possible solution-finding methods for a problem format like 'find a prediction function'
+
+    - apply specific useful structures for a particular problem/solution structure like a problem format to structures of useful structures like inputs/outputs to find specific structures for a problem format that can fulfill problem-solving intents like 'reduce difference between problem/solution' or 'filter the solution space'
       - example: for the 'find a prediction function' problem, this would take the form of applying specific useful structures like 'average' or 'minimum' which are useful for the problem format of 'find a prediction function', to structures like 'subsets' of useful structures like 'inputs/outputs' like specific data points, to test if each data point can act like a useful structure (either locally for a subset or globally for the whole prediction function) to reduce computation time of determining the remaining structures and/or to filter the solution space once a representative or otherwise useful data point is found
 
     - apply useful structures like 'abstractions' to useful structures like 'input-output sequences' to create useful structures like 'alternates' of useful structures to apply in solving other problems
