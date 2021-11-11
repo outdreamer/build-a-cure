@@ -499,11 +499,17 @@
 
   - add to solution automation workflows
 
+    - identify other required/possible inputs to the solution by applying other inputs, as any of the inputs can be connected to the solution with different paths, so whichever structures an input is connectible to (solution structures) are required outputs of other inputs as well, so deriving the solution from some inputs can derive other inputs
+      - input1 -> solution-finding method -> solution
+      - input2 -> solution-finding method -> solution
+      - once the input1 -> solution path is known, the solution -> input2 path can be derived
+      - knowing 'other inputs' and the 'paths to connect one input with the solution' are useful structures for the problem-solving intent of 'identifying missing inputs to a solution'
+
     - apply specific structures for a problem format that are inputs to deriving other solution automation workflows to generate/find/derive other workflows
       - example: identify the specific structuers of a problem format (like 'find a prediction function' problem format) that can be used to derive other workflows/queries (a small or unit data set can be used to derive different solution-finding methods of prediction functions since all thats required in a minimal degree of variation in the data set to accurately represent the complexity & variation of the problem format leading to multiple alternative solution-finding methods and solutions)
 
-    - apply definitions to identify structures like requirements (required inputs like 'core functions' to an intent like 'build a structure') that can be used to identify useful structures
-      - example: for the 'find a prediction function' problem this would take the form of identifying 'core functions' as structures 'required' to be useful since anything is necessarily constructed from the only available core functions, so identifying core functions is useful for intents like identifying components/subsets of a structure or building a structure
+    - apply explicit structures like 'definitions' to identify structures like 'requirements' (required inputs like 'core functions' to an intent like 'build a structure') that can be useful structures for problem-solving intents like 'identify useful structures'
+      - example: for the 'find a prediction function' problem this would take the form of identifying 'core functions' as structures 'required' to be useful for some intents, since any structure is necessarily constructed from the only available core functions, so identifying core functions is useful for intents like 'identifying components/subsets of a structure' or 'building a structure'
 
     - apply interface structures that are useful in identifying useful structures like 'individual variable causative potential (impact)' to identify structures useful for multiple intents like 'preserving info' and 'adding info'
       - example: for the 'find a prediction function' problem, this would take the form of a 'variable network that isolates variables, where each data point is represented as a horizontal sequence of the variable network, where differences in a variable value are depicted by vertical differences', allowing the change structures such as 'change patterns' of each variable value to be represented separately from other variables, so the interface structures like patterns of each variable can be more clearly identified, as a 'variable' is a change structure, so isolating the change structures (like 'patterns' and 'causative potential') of each 'variable' change structure is a useful application of the 'change' interface (resulting in the 'individual variable change patterns') to the 'change' interface application (resulting in the 'variable network')
