@@ -132,14 +132,22 @@
   - add to govt
     - democracy errors include:
       - alternate illegitimate routes to power like buying info goods like opinions, usage & user bases & user compliance/dependence, & artificially manipulating prices with information market manipulation, voter free time, job market info
-    - free market errors include:
+    - 'excess regulation' errors include:
+      - punishing successful solution-finders (by de-funding through taxes on profits)
+      - regulations that 'take away or invalidate property or otherwise violate property rights' prevent people from benefitting from their labor
+    - 'lack of regulation' errors include:
+      - rewards those who are best at 'finding loopholes to exploit' rather than best at 'solving problems'
+      - exploitation without accountability
+        - companies that exploit customers can liquidate their remaining assets to build solutions for those customers
+          - example: colleges that charge exploitative fees can liquidate assets to build useful AI models for banks that gave student loans
       - making people fight to survive (without extreme advantages like 'information' or its proxies like 'education to derive information' or 'internet access to find information') so they frequently see crime as the best option likeliest to help them survive
         - solution: creating 'organization' to make basic goods affordable, or 'artificially creating jobs' instead of organizing
         - example of an 'organization' structure:
           - if a supply chain is optimized (where 'optimal states' include such states as 'local supplies are distributed locally (such as by 3d printers that use cheap resources like sun/air/dirt as input'), basic goods will be cheaper
           - this is a case where 'labor & other resources' are 'organized' into an optimal 'supply chain' structure
-        - other examples of 'organization' structures include 'communities', 'databases/apps', 'internet access/search', 'cell phones', all of which can increase the probability of other organization structures occurring, like 'markets' and 'coordination' and 'companies'
-      - lack of education or its interchangeables, which results in other errors like 'not identifying interchangeable inputs to requirements (basic goods)' (such as how 'independence', 'power', 'love', 'happiness', 'understanding', 'intelligence', 'information', 'solutions', 'potential' are interchangeable alternates as theyre different formats of the same structure)
+        - other examples of 'organization' structures include 'location', 'language', 'communities', 'info tech' (specifically 'databases/apps', 'internet access/search', 'cell phones'), all of which can increase the probability of other organization structures occurring, like 'markets' and 'coordination' and 'companies'
+        - these can be created by creating structures of 'interactivity' that enable organization structures (having a 'language in common' or 'good translation tools' allows 'interactivity' to enable 'markets')
+      - lack of education or its interchangeables, which results in other errors like 'not identifying interchangeable inputs to requirements (basic goods)' (such as how 'independence', 'power', 'love', 'happiness', 'understanding', 'intelligence', 'information', 'solutions', 'potential' can be interchangeable alternates as they can be different formats of the same structure which is 'freedom' as in 'ability to adapt, as in self-correct')
     - companies exist to solve customers' problems, so if there's a problem people can & are willing to pay to solve, companies will solve it, so all thats required is to tell them what consumers want at what prices and what costs are preventing govt budget from being optimized for solving unprofitable problems, & the products will be built & tech will be built to reduce those costs, rather than taxing to create govt agencies to slowly & inadequately prevent the same group or corporate loophole-exploitations that can be identified by algorithms, exploitations which are symptoms of an inefficient system that hasnt invested in reducing its primary costs like 'health care' or 'form processing' yet, rather than unique exploitations that requires budget to solve inadequately when reducing primary costs would invalidate the need for these exploitations by group or corporate entities
       - example: 'tracking assets' is only necessary if assets are scarce & unique, and 'regulating the health insurance industry' is only necessary if health care costs are unpredictable, extremely variable, & subject to randomness, which they dont have to be if costs are reduced 
     - 'actively preventing their money from ending poverty' (with tax avoidance, not trying to end poverty, not trying to be sufficiently different from people who failed to end poverty, etc) is a sub-optimal (inefficient) use of money, proving that people who could end poverty (either individually or as a small group) without negatively impacting their own lives and dont do so, are people who cant use their own money in an optimal way, indicating that their success was almost a complete accident plus a little hard work such as 'filling out forms' or 'making a pitch to investors' or 'hiring people'
@@ -210,6 +218,9 @@
       - injecting any cancerous regions found with pro-health mutations or immune cell formation to offset ratio of healthy or immune cells & malignant cells produced by cancerous processes
       - moving cells with useful functions like 'destroying aggregates' to other positions where that function would be useful in 'preventing unrestricted cell division'
       - fixing 'illnesses that modify genes' is a problem of 'fixing genetic mutations', as genetic mutations can occur that mimic the effects of illnesses that modify genes, so prevention is not the most powerful problem-solving intent
+      - fasting to direct energy toward 'replacing (killing & growing) cells' instead of just 'growing cells'
+      - processes that increase metabolism (like exercise) as a way of fighting cancer, since metabolism is a regulator of the cell life cycle, and cell life cycle disregulation is a promoter of cancerous growth (more cells created than dying when cell division isnt necessary or otherwise useful)
+        - look for other cell life cycle disrupters
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
