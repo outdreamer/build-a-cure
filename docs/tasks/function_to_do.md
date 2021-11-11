@@ -220,7 +220,8 @@
       - fixing 'illnesses that modify genes' is a problem of 'fixing genetic mutations', as genetic mutations can occur that mimic the effects of illnesses that modify genes, so prevention is not the most powerful problem-solving intent
       - fasting to direct energy toward 'replacing (killing & growing) cells' instead of just 'growing cells'
       - processes that increase metabolism (like exercise) as a way of fighting cancer, since metabolism is a regulator of the cell life cycle, and cell life cycle disregulation is a promoter of cancerous growth (more cells created than dying when cell division isnt necessary or otherwise useful)
-        - look for other cell life cycle disrupters
+        - look for other cell life cycle disrupters (triggers of cell division like chemicals causing specific mutations) & regulators (triggers of cell death like 'plant immune proteins')
+        - look for 'immune states (including specific immune responses) that change metabolism temporarily' that could be used as anti-cancer tools, triggered by brain processes (memory) or other inputs to immune state changes (pathogen exposure, exercise) - 'addressing the systemic issue using other systems bc theyre on the same interaction level'
 
   - add to definitions
     - solution-finding method can mean a solution-finding method on any interaction level, such as a domain-specific problem space (like how 'regression' is a solution-finding method in the 'find a prediction function' problem space), or a problem-solution interaction level (like how a solution automation workflow or interface query is a solution-finding method), or interim interaction levels (like how a 'find connecting input/output sequence' is a solution-finding method on the function interface)
@@ -497,6 +498,9 @@
       - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
 
   - add to solution automation workflows
+
+    - apply definitions to identify structures like requirements (required inputs like 'core functions' to an intent like 'build a structure') that can be used to identify useful structures
+      - example: for the 'find a prediction function' problem this would take the form of identifying 'core functions' as structures 'required' to be useful since anything is necessarily constructed from the only available core functions, so identifying core functions is useful for intents like identifying components/subsets of a structure or building a structure
 
     - apply interface structures that are useful in identifying useful structures like 'individual variable causative potential (impact)' to identify structures useful for multiple intents like 'preserving info' and 'adding info'
       - example: for the 'find a prediction function' problem, this would take the form of a 'variable network that isolates variables, where each data point is represented as a horizontal sequence of the variable network, where differences in a variable value are depicted by vertical differences', allowing the change structures such as 'change patterns' of each variable value to be represented separately from other variables, so the interface structures like patterns of each variable can be more clearly identified, as a 'variable' is a change structure, so isolating the change structures (like 'patterns' and 'causative potential') of each 'variable' change structure is a useful application of the 'change' interface (resulting in the 'individual variable change patterns') to the 'change' interface application (resulting in the 'variable network')
