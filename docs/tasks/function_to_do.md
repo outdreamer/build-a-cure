@@ -507,11 +507,15 @@
     - common useful differences to create a solution
       - apply change to the 'count' of a variable value
       - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
-      - differences in optimality of solutions & converting one to the other by 'optimization potential'
+      - differences in optimality of solutions & converting one to the other by 'optimization potential' of one solution
       - common attributes & other structures of successful solutions and successful solution structures such as 'successful solution types', like 'solutions that optimize for multiple metrics'
       - paths to connect different solutions & inputs to workflows/queries that create 'common solutions (solutions to multiple problems)'
 
   - add to solution automation workflows
+
+    - identify the probability of solution automation workflows to identify different/similar solutions & prioritize structures of solutions like 'successful solution attributes'
+      - example: 'trial & error', 'break a problem into sub-problems', and 'apply useful structures to find interactive structures to connect problem/solution' may produce similar/different solutions
+      - a variant of this is 'finding solutions that are commonly produced by solution automation workflows for a particular problem format and applying those as a pre-filtered solution space to initialize the search for the more optimal solutions' (reversing the logical direction of the workflow, or applying workflows from both directions (optimizing/finding solutions first given solution patterns, or optimizing/finding solutions first then applying standard problem/solution connection functions))
 
     - identify structures that are likelier to be useful in a particular solution-finding method (like 'neural network configuration') in a particular problem format (like 'find a prediction function') as a way of 'finding useful/error/solution structures' for problems in general
       - example: for the 'configure neural network as a solution-finding method' problem applied to the 'find prediction function' problem format, how to introduce variation in the 'prioritized structures' of a neural network (like 'combinations' and 'subsets') to cover testing of more possible useful change structures in the network, without reducing the variation in weights applied to other structures (like 'combinations')
