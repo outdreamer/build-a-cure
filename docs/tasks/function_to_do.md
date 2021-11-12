@@ -502,15 +502,18 @@
       - is it a 'possible' structure:
         - are its inputs possible
         - is a system that could sustain it possible
+      - most solutions are better when multiple interfaces are applied, to avoid errors like 'missing a variable bc the current system hadnt made the variable isolatable from randomness yet, but the causal interface indicated a variable would soon emerge', so applying the 'function/system/cause' interfaces would be better than just applying the 'function' interface, as interfaces can fill in the gaps in information if they exist on one interface (such as where 'not all functions are found/generated/derived')
 
     - common useful differences to create a solution
       - apply change to the 'count' of a variable value
       - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
-
+      - differences in optimality of solutions & converting one to the other by 'optimization potential'
+      - common attributes & other structures of successful solutions and successful solution structures such as 'successful solution types', like 'solutions that optimize for multiple metrics'
+      - paths to connect different solutions & inputs to workflows/queries that create 'common solutions (solutions to multiple problems)'
 
   - add to solution automation workflows
 
-    - identify structures that are likelier to be useful in a particular solution-finding method in a particular problem format as a way of 'finding useful/error/solution structures' for problems in general
+    - identify structures that are likelier to be useful in a particular solution-finding method (like 'neural network configuration') in a particular problem format (like 'find a prediction function') as a way of 'finding useful/error/solution structures' for problems in general
       - example: for the 'configure neural network as a solution-finding method' problem applied to the 'find prediction function' problem format, how to introduce variation in the 'prioritized structures' of a neural network (like 'combinations' and 'subsets') to cover testing of more possible useful change structures in the network, without reducing the variation in weights applied to other structures (like 'combinations')
         - problem:
           - if you add 'subset' structures to a standard dense network that applies 'combinations' by default, you get sequences like this, which reduces the number of different possible weights applied to the 'combination' structure
@@ -531,15 +534,18 @@
           - this is a useful variable type to identify, bc it has that ambiguity built-in and can determine the success of the solution-finding method, even when other parameters are optimized for success
           - it is a 'cross-interface' variable in that it can act like a pro-change (expansion) or anti-change (filter) structure, regardless of other change structures, making it very powerful
         - these functions applied to layer outputs (which can be formatted as 'weight changes that maximize difference/coverage' rather than 'functions applied to outputs to create priority structures determined to be probably useful like subsets') can influence the output without regard for other cross-interface structures like 'meaning' (as in the impact of the change structures, such as whether they can identify error/solution/useful structures)
-        - alternate functions may optimize for finding 'maximally different/useful/covering changes' better than another function (like 'change combinations', like 'function combinations (as opposed to variable combinations)')
+        - alternate functions may optimize for finding 'maximally different/useful/covering changes' better than another function (like 'change (variable) combinations', such as 'function combinations')
 
     - identify other required/possible inputs to the solution by applying other inputs, as any of the inputs can be connected to the solution with different paths, so whichever structures an input is connectible to (solution structures) are required outputs of other inputs as well, so deriving the solution from some inputs can derive other inputs
       - input1 -> solution-finding method -> solution
       - input2 -> solution-finding method -> solution
-      - once the input1 -> solution path is known, the solution -> input2 path can be derived if the inputs are high-variation causative inputs
+      - once the 'input1 -> solution' path is known, the 'solution -> input2' path can be derived if the inputs are high-variation causative or cross-interface inputs
       - 'other inputs' and the 'paths to connect one input with the solution' are useful structures for the problem-solving intent of 'identifying missing inputs to a solution (like other components or changes)'
+      - solution success cause: this works bc everything can be connected
+        - all variables all connectible with the right functions & information
+        - just like one particular insight like 'structural problems are automatable problems' can be used to derive all other insights (by applying interface structures like cause/function/concept, etc)
 
-      - this interface query is an example of how to find important structures (like 'cell cycle regulators') causing an error structure (like 'cancer')
+      - this interface query is an example of how to find important structures (like 'cell cycle limits') causing an error structure (like 'cancer')
         - find attributes ('systemic') of the error structure ('cancer')
           - apply relevant interfaces ('system') of those attributes ('systemic')
             - apply the 'system' interface (to find systems related to 'systemic' error structure, standardizing the data type for 'comparison & connection of inputs/outputs' to fulfill 'connect problem/solution')
@@ -548,7 +554,6 @@
                 - 'find related structure (cell cycle regulation) of an input (cell division) to the error structure'
                 - apply the 'structure' interface (including 'opposites')
                   - 'find opposite structures of cell cycle regulation (like cell cycle disrupters and the inputs like triggers/requiring structures of both processes)'
-
         - this query is more complicated than a standard useful structure like 'input-output sequence' but is more specific & useful and is adjacent to that useful structure, requiring only a few conversions to create it
 
     - apply specific structures for a problem format that are inputs to deriving other solution automation workflows to generate/find/derive other workflows
