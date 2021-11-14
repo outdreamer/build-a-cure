@@ -508,21 +508,23 @@
 
   - add to solution automation workflows
 
-    - identify useful structure like 'sequences' of useful structures like 'change types' that would find a solution optimally in some solution metric
+    - identify useful structure like 'sequences' of useful structures like 'change types' that would find a solution optimally in some solution metric when applied in some position of a particular problem/solution structure (like a 'solution-finding method') in a particular problem/solution format
       - example:
         - useful change types include the following:
           - applying a set of changes in opposing directions & then checking for improvement in the solution metric (like 'difference from the optimal position of a miminized error') 
           - applying big changes initially to differentiate solutions and then small changes after the initial change to check for adjacent solutions to initially differentiated solutions
         - a 'sequence of these change types' applied to a useful structure for the 'neural network' solution-finding method format in the position of 'weight updates' might be more useful than applying them in randomly selected variables
+        - 'applying big changes initially, then small changes' would also be useful for identifying highly causative or predictive variables quickly in a neural network (as in how some variables explain more change than other variables) and by delaying the application of 'small change-contributing variables' until later, we can avoid randomly or generally applicable functions to tune the function of 'big-change contributing variables'
+          - first identify a standard solution composed of 'big-change contributing variables', then adjust the standard solution using 'small-change contributing variables', which is a specific implementation of a solution automation workflow involving 'applying changes to a standard solution' applied to the 'solution-finding method format' of a 'neural network'
         - configuring a neural network or another solution-finding method to enable testing these structures of change structures is trivial, just like configuring a network to support 'combination' change types is trivial, or configuring a network to support various weight-update types/degrees is trivial, and configuring a network to support all possible input subsets & n maximally different coefficient sets is trivial
           - testing every possible useful neural network that uses the structures referenced in solution automation workflows is another adjacent solution
 
-    - apply common useful differences to create a solution
-      - apply changes to core variables like the 'count' of a variable value
-      - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
-      - differences in optimality of solutions & converting one to the other by 'optimization potential' of one solution
-      - common attributes & other structures of successful solutions and successful solution structures such as 'successful solution types', like 'solutions that optimize for multiple metrics'
-      - paths to connect different solutions & inputs to workflows/queries that create 'common solutions (solutions to multiple problems)'
+      - a variant of this is to apply 'common' useful change types to create a solution
+        - apply changes to core variables like the 'count' of a variable value
+        - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
+        - differences in optimality of solutions & converting one to the other by 'optimization potential' of one solution
+        - common attributes & other structures of successful solutions and successful solution structures such as 'successful solution types', like 'solutions that optimize for multiple metrics'
+        - paths to connect different solutions & inputs to workflows/queries that create 'common solutions (solutions to multiple problems)'
 
     - apply 'interim structures' of a particular solution automation workflow, optionally in a particular problem format, and/or using a particular core interaction function associated with the workflow to 'problem/solution structures' to find structures linking the workflow with filtered interface queries such as for 'related useful structures' more directly, as the 'interim structures' are inputs or adjacent structures to the useful structures & other query objects, which can be derived once the 'interim structures' are found/derived/generated
       - 'connecting attributes of a problem structure with attributes of a solution structure' is how to fulfill the 'connect problem/solution' problem-solving intent using a 'connection sequence' structure in or created by a workflow/query
