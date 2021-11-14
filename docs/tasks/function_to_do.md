@@ -508,19 +508,23 @@
 
   - add to solution automation workflows
 
-    - identify useful structure like 'sequences' of useful structures like 'change types' that would find a solution optimally in some solution metric when applied in some position of a particular problem/solution structure (like a 'solution-finding method') in a particular problem/solution format
+    - find the variables of change that would determine a solution using a particular solution-finding method in some optimal way & apply those to the solution-finding method
+      - there are two values of the 'direction' variable in which a straight line (standard solution) can vary (if the accurate solution prediction function is a parabola with one peak) in order to test whether the positive/negative change is the right direction of change, but there are multiple values of the 'position' variable in which the straight line can vary
+      - it is trivial to configure a neural network to support testing these changes
+
+    - identify useful structures like 'sequences' of useful structures like 'change types' that would find a solution optimally in some solution metric when applied in some position of a particular problem/solution structure (like a 'solution-finding method') in a particular problem/solution format
       - example:
         - useful change types include the following:
           - applying a set of changes in opposing directions & then checking for improvement in the solution metric (like 'difference from the optimal position of a miminized error') 
           - applying big changes initially to differentiate solutions and then small changes after the initial change to check for adjacent solutions to initially differentiated solutions
         - a 'sequence of these change types' applied to a useful structure for the 'neural network' solution-finding method format in the position of 'weight updates' might be more useful than applying them in randomly selected variables
-        - 'applying big changes initially, then small changes' would also be useful for identifying highly causative or predictive variables quickly in a neural network (as in how some variables explain more change than other variables) and by delaying the application of 'small change-contributing variables' until later, we can avoid randomly or generally applicable functions to tune the function of 'big-change contributing variables'
+        - 'applying big changes initially, then small changes' would also be useful for identifying highly causative or predictive variables quickly in a neural network (as in how some variables explain more change than other variables) and by delaying the application of 'small change-contributing variables' until later, we can avoid randomly or generally applicable functions to adjust the function of 'big-change contributing variables'
           - first identify a standard solution composed of 'big-change contributing variables', then adjust the standard solution using 'small-change contributing variables', which is a specific implementation of a solution automation workflow involving 'applying changes to a standard solution' applied to the 'solution-finding method format' of a 'neural network'
-        - configuring a neural network or another solution-finding method to enable testing these structures of change structures is trivial, just like configuring a network to support 'combination' change types is trivial, or configuring a network to support various weight-update types/degrees is trivial, and configuring a network to support all possible input subsets & n maximally different coefficient sets is trivial
+        - configuring a neural network or another solution-finding method to enable testing these structures of change structures is trivial, just like configuring a network to support 'combination' change types is trivial, or configuring a network to support various weight-update types/degrees is trivial, and configuring a network to support all possible input subsets & n maximally different coefficient sets is trivial (like with a 'difference-maximizing weight initialization function')
           - testing every possible useful neural network that uses the structures referenced in solution automation workflows is another adjacent solution
-
       - a variant of this is to apply 'common' useful change types to create a solution
         - apply changes to core variables like the 'count' of a variable value
+        - apply a 'position' change type to the input variables of a neural network to represent variables emergently (as an additional variable to apply to the 'neural network' solution-finding method) when they can be constructed by other variables
         - apply the 'opposite' of or 'differences' to the 'negative' structure (error structures, sub-optimal solutions, neutral structures)
         - differences in optimality of solutions & converting one to the other by 'optimization potential' of one solution
         - common attributes & other structures of successful solutions and successful solution structures such as 'successful solution types', like 'solutions that optimize for multiple metrics'
