@@ -520,10 +520,31 @@
             - 'fulfill problem-solving intents like "connect problem input data points & solution output prediction function" for relevant inputs'
           - this 'connection function' can be applied to generate other more optimal solutions from a standard solution
           - a 'generative function' of a solution would include:
-             - 'generate a standard solution by applying a standard solution automation workflow'
+             - 'generate a standard solution by applying standard interface structures or a standard solution automation workflow'
              - 'merge solution automation workflows to reduce the work of applying multiple workflows (such as where steps executed during iterations of solutions are executed simultaneously to reduce iterations)'
           - this can be used to generate solutions having particular solution metric values, like 'higher accuracy' to reliably generate standard solutions & improvements to a particular solution
           - these 'solution-generating' and 'solution-connecting' functions can be applied to fulfill problem-solving intents like 'connect input-output sequences' applied to solution structures, applied specifically to 'connect solutions of varying optimality'
+        - this workflow involves pre-calculating some structures (like 'solution-connecting functions of solutions produced by solution automation workflows') to reduce future required computations ('a full interface query', as opposed to a 'solution interface query involving only pre-calculated structures'), by finding the structures that would be most valuable to pre-calculate, out of all the structures that follow rules & can be calculated, like 'connections between standard & optimal solutions' or 'connections between optimal solutions'
+
+    - apply useful structures like 'structural similarities on interaction levels' to problem/solution structures like 'interface queries' to fulfill problem-solving intents like 'find/derive/generate more optimal solutions from standard solutions'
+      - example: 
+        - for the problem of 'find equivalence between structures', interface queries to solve the problem would include:
+          - 'define equivalence as similarity of determining structures like interchangeable usage contexts or input-output sequences'
+            - 'check different inputs/outputs of structures to compare, and assess their difference by differences between input-output sequences'
+          - 'define equivalence as zero work required to equalize structures'
+            - 'create the target solution structure (a difference) or an adjacent transform of it (equivalence), and apply the 'differences required to create it' as an identifying attribute of their difference'
+              - 'create an equivalence & assess differences required to create it'
+                - 'reduce differences between input structures to compare, then compare the input structures once differences have been reduced, assessing similarity by how many & what type of differences needed to be changed in order to create an equivalence'
+          - 'define equivalence as similarity of values of differentiating attributes'
+            - 'check each attribute of input structures to compare, and apply the comparison function to check for similarities/differences in each attribute'
+        - interface structures like 'connections' between various interface structures such as 'interaction levels' of these interface queries follow rules which can be automated
+          - for example, the differences in the 'top' or 'initial' interaction levels of the queries of each interface query (the lines including 'define') can be connected by applying different definitions of 'equivalence' or other variables (like 'direction') to the problem
+          - the differences in the 'secondary' interaction levels of the queries are connectible in their usage of specific problem space structures (like inputs/outputs or differences of structures to compare) implementing those definition/direction variables
+          - different interface queries can connect these interface queries on different interface structures like interaction levels using similarities, like how a function to 'find differentiating attributes of inputs' is similar to a function to 'compare inputs'
+          - these interface query interactions such as 'connections' can fulfill problem-solving intents like 'switch to another interface query that is more optimal (as in likelier or known to produce a more optimal solution)' or 'test multiple interface queries'
+        - general interface queries to connect interface queries include:
+          - 'apply interface queries that can fulfill a solution metric like "preserve complexity of inputs in outputs" to avoid error structures of a standard solution like "loss of relevant input info"'
+          - 'merge interface queries requiring the same functions or inputs to maximize probability of a query finding an optimal solution'
 
     - find the variables of change that would determine a solution using a particular solution-finding method in some optimal way & apply those to the solution-finding method
       - there are two values of the 'direction' variable in which a straight line (standard solution) can vary (if the accurate solution prediction function is a parabola with one peak) in order to test whether the positive/negative change is the right direction of change, but there are multiple values of the 'position' variable in which the straight line can vary
