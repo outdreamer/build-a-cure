@@ -504,9 +504,16 @@
         - is a system that could sustain it possible
       - most solutions are better when multiple interfaces are applied, to avoid errors like 'missing a variable bc the current system hadnt made the variable isolatable from randomness yet, but the causal interface indicated a variable would soon emerge', so applying the 'function/system/cause' interfaces would be better than just applying the 'function' interface, as interfaces can fill in the gaps in information if they exist on one interface (such as where 'not all functions are found/generated/derived')
 
+    - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
+
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
   - add to solution automation workflows
+
+    - apply interface structures like 'attributes' of problem/solution structures like 'solution automation workflows' to fulfill problem-solving intents like 'connect' applied to other problem/solution structures like 'specific solution-finding methods like "regression" for a particular problem format like "find a prediction function"'
+      - example: for the 'find a prediction function' problem, this would take the form of finding interface structures like 'interim solutions' between other solution states created by applying different solution automation workflows, solution-finding methods, interface queries, and other problem/solution structures, then finding 'connections' between those solution structures
+        - for example, finding the connection between a standard constant regression line, a set of connected subset lines produced by tangents of input vertexes (important data set points determining or representing the data set), and a solution produced by applying a different error-minimizing metric, different 'average' representation definition, or a function-adjusting method like a generalization or regularization method
+        - each of these solutions would be produced by different solution automation workflows, interface queries or other problem/solution structures, and each of these solutions is connectible to the other, and the connections between solutions reflect the parameters of the variables of the problem/solution structures applied to generate them, indicating a 'solution-connection path' that is findable & applicable to find solutions from other solutions, to find a particular solution having specific attributes of the problem/solution structures applied and possibly also specific attributes of the solution itself such as solution success probability or a particular solution metric value      
 
     - find the variables of change that would determine a solution using a particular solution-finding method in some optimal way & apply those to the solution-finding method
       - there are two values of the 'direction' variable in which a straight line (standard solution) can vary (if the accurate solution prediction function is a parabola with one peak) in order to test whether the positive/negative change is the right direction of change, but there are multiple values of the 'position' variable in which the straight line can vary
