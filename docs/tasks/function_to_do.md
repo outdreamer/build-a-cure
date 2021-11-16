@@ -510,6 +510,12 @@
 
   - add to solution automation workflows
 
+    - find interface structures that are useful for problem-solving intents like 'reduce computations required to solve a problem' such as 'interaction levels' by applying 'solution filters' (like 'attributes of interaction levels') to the solution space of 'all possible useful interface structures', in order to find useful interface structures like 'interface queries that solve multiple problems' 
+      - attributes of interaction levels include 'a level of specificity/abstraction that doesnt reduce the supported complexity'
+        - attributes of useful interaction levels include 'having a reduced set of structures to reduce the required structures to represent other structures'
+      - applying solution automation workflows to solve the problem of 'finding optimal interaction levels to run interface queries on, given their definitions or attributes of useful interaction levels' would also solve the problem of 'filtering the solution space' and 'reduce computations required to solve a problem'
+      - these queries are 'interchangeable alternates' generating another 'useful interaction level' of 'interface queries that solve multiple problems' which are likelier to be useful than other interface queries
+
     - apply interface structures like 'attributes' of problem/solution structures like 'solution automation workflows' to fulfill problem-solving intents like 'connect' applied to other problem/solution structures like 'specific solution-finding methods like "regression" for a particular problem format like "find a prediction function"'
       - example: for the 'find a prediction function' problem, this would take the form of finding interface structures like 'interim solutions' between other solution states created by applying different solution automation workflows, solution-finding methods, interface queries, and other problem/solution structures, then finding 'connections' between those solution structures
         - for example, finding the connection between a standard constant regression line, a set of connected subset lines produced by tangents of input vertexes (important data set points determining or representing the data set), and a solution produced by applying a different error-minimizing metric, different 'average' representation definition, or a function-adjusting method like a generalization or regularization method
