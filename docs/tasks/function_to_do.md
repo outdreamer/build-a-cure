@@ -508,14 +508,18 @@
 
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
-    - give example of brain model
+  - add to solution automation workflows
+
+    - useful structures like 'rule set' interactions can be used to find/derive/build problem/solution structures like problem/solution components/variables/examples/filters, problem space systems for simulating solutions, & solution automation workflows
       - various systems as 'isolatable/closed rule sets' act like interfaces in the brain
         - sub/unconscious
           - 'learned rules' like memory associations
           - 'inherent rules' like requirements
           - 'emergent rules'
+            - lack of contradictory structures (if a system survives, its likely to optimize on some metric involving the avoidance of destructive contradictory structures)
+              - there is no inherent 'rule set'-controlling rule that corrects the whole set of rule sets, except for an emergent rule set in the form of structural survival (energy rules & other physics rules) 
             - interaction levels that emerge between rule sets
-            - emergent limits on functionality like 'picturing higher-dimensional spaces' (these limits being created by the interactions of other rules)
+            - emergent limits on functionality like 'picturing higher-dimensional spaces' (these limits being created by the interactions of other rules) or 'thinking of unknowns that can or cant be known' or 'evaluating uncalculatable uncertainties'
             - emergent priorities like 'simplicity' given input priorities like 'minimize cost', leading to emergent rules like 'biased rules'
           - these would include the 'default structures', like 'core structures'
         - consciousness (rules enabling/describing the control of other rules)
@@ -523,6 +527,7 @@
           - 'rule-testing rules'
           - 'rule-storage/retrieval/deletion rules'
           - 'rule-activating rules'
+          - 'variable-handling rules'
           - 'abstraction rules to enable additional layers of rule-controlling rules'
           - 'logic rules', 'filter rules', 'change rules', 'info rules', 'derivation rules', and other interface structure rules 
           - these include 'adaptive structures', like structures to improve a default/standard solution
@@ -547,13 +552,15 @@
           - organization rules of rules
           - interaction rules of rules
         - some of these systems are likely to develop, to develop in parallel, to replace other systems, and/or likely to develop similar/equivalent functionality as other systems
-          - there is no inherent 'rule set'-controlling rule that corrects the whole set of rule sets, except for an emergent rule set in the form of structural survival (energy rules & other physics rules) 
-      - placing filters between rule sets enables the injection of rules to apply these rule sets, which allows the development of structures like alternatives & abstraction layers around rule sets
+      - placing filters between rule sets enables the injection of rules to apply these rule sets, which allows the development of structures like non-linearity, potential, flexibility, alternatives & abstraction layers around rule sets
         - 'apply this rule set when this condition is met (the condition rule is applied as a filter, so the rule set acts like an option), rather than by default in all cases (the rule set acts like a requirement)'
         - these structures emerge as 'freedom' or 'consciousness', allowing 'variables' to be represented in which rule sets are applied
-        - the 'line' representing a 'difference' between un/sub/conscious may be a line on a spectrum of consciousness, or a line separating separable systems of rule sets, but an emergent structure that can take multiple alternate/combined forms
-
-  - add to solution automation workflows
+        - the 'line' representing a 'difference' between un/sub/conscious may be a line on a spectrum of consciousness, or a line separating separable systems of rule sets, or an emergent structure that can take multiple alternate/combined forms, where its variation (reflected in its 'energy' or 'information') can be distributed across alternates or centralized in one alternate
+          - a structure allowing a 'requirement' to be converted into an 'optional alternate' (applying a variable) is useful in adding attributes of consciousness, if that variable can be handled given the other rules existing, as in if there are limits on this structure to add variables, so variation can be handled at a survivable pace
+      - these structures can be used to derive solution automation workflows, solutions, or other problem/solution structures (such as 'adding a variable' to a workflow, 'adding a filter to create a variable' of a workflow, 'applying rule-update rules' to improve a workflow, 'applying abstraction rules' to abstract a workflow, 'adding rule set state storage' to allow deriving examples/intent/common attributes/errors/variables of other possible rule set systems, 'adding extra resources for simulating/testing structures' to allow storing a mock system as a sub-system for testing solutions before applying them, etc)
+    - simplication: this workflow applies 'rule sets' (systems, functions) as useful structures like components/inputs of a solution can be done automatically, to find rule sets/functions that can relevantly simulate a problem space system in which a solution can be found adjacently
+      - a 'complex' rule set may have enough complexity to identify complex variable interactions in an input problem
+      - a rule set with 'minimal error structures' may be adjacent enough to the input problem state that it can adjacently be converted/fit into the rule set
 
     - apply structures like 'randomness' which have a connected useful attribute like 'complexity' ('randomness' having the output of adding attributes/functions like 'adding complexity', 'adding generality' and 'offsetting an imbalance in randomness') to create useful differences in problem/solution structures that are likelier to solve problems in 'problem space systems' having those attributes (more complex systems)
       - this workflow applies useful structures (like cross-interface 'structure-concept' connections) to optimize interaction functions specifically between problem/solution structures, so they are likelier to reflect true connection functions (insights)
