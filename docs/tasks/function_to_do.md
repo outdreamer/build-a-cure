@@ -509,6 +509,49 @@
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
     - give example of brain model
+      - various systems as 'isolatable/closed rule sets' act like interfaces in the brain
+        - sub/unconscious
+          - 'learned rules' like memory associations
+          - 'inherent rules' like requirements
+          - 'emergent rules'
+            - interaction levels that emerge between rule sets
+            - emergent limits on functionality like 'picturing higher-dimensional spaces' (these limits being created by the interactions of other rules)
+            - emergent priorities like 'simplicity' given input priorities like 'minimize cost', leading to emergent rules like 'biased rules'
+          - these would include the 'default structures', like 'core structures'
+        - consciousness (rules enabling/describing the control of other rules)
+          - 'rule-update/learning rules'
+          - 'rule-testing rules'
+          - 'rule-storage/retrieval/deletion rules'
+          - 'rule-activating rules'
+          - 'abstraction rules to enable additional layers of rule-controlling rules'
+          - 'logic rules', 'filter rules', 'change rules', 'info rules', 'derivation rules', and other interface structure rules 
+          - these include 'adaptive structures', like structures to improve a default/standard solution
+      - other interfaces (also formattable as rule sets or systems) emerge bc of these 'rule set' interactions
+        - error structures
+          - imbalances in rule attributes like 'rule importance' and 'rule functions'
+            - a 'rule-deletion rule' can destroy useful rules, even if its primary function & usage of that function is to remove useless rules
+          - lack of consciousness/ability (limit structure)
+            - these rules may interact to have blind spots and other error structures, where one rule (prioritize positive thinking) may invalidate updating another specific rule type (self-evaluation rules)
+          - a consciousness that depends on a rule may not be able to evaluate that rule objectively
+          - some rule types can disable conscious/adaptive rules
+            - 'emergent rules' like 'error (bias) rules' can disable conscious rules from being applied
+        - structure interface
+          - formatting other structures like attributes & systems as rules to standardize input so rules can be organized
+          - structures (like combinations, filters, gaps) of rule sets
+            - learned & inherent & emergent rules might all seem like alternate rule sets or one combined rule set building or representing sub/consciousness depending on how much consciousness is enabled
+        - usage interface
+          - conscious/adaptive rule interactions are limited by the degree/type of consciousness applied
+        - system interface
+          - a system providing/prioritizing access to some rules can have a scalable effect like an activation effect on other rules (like useful questions to speed up learning)
+        - meaning interface
+          - organization rules of rules
+          - interaction rules of rules
+        - some of these systems are likely to develop, to develop in parallel, to replace other systems, and/or likely to develop similar/equivalent functionality as other systems
+          - there is no inherent 'rule set'-controlling rule that corrects the whole set of rule sets, except for an emergent rule set in the form of structural survival (energy rules & other physics rules) 
+      - placing filters between rule sets enables the injection of rules to apply these rule sets, which allows the development of structures like alternatives & abstraction layers around rule sets
+        - 'apply this rule set when this condition is met (the condition rule is applied as a filter, so the rule set acts like an option), rather than by default in all cases (the rule set acts like a requirement)'
+        - these structures emerge as 'freedom' or 'consciousness', allowing 'variables' to be represented in which rule sets are applied
+        - the 'line' representing a 'difference' between un/sub/conscious may be a line on a spectrum of consciousness, or a line separating separable systems of rule sets, but an emergent structure that can take multiple alternate/combined forms
 
   - add to solution automation workflows
 
