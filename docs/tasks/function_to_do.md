@@ -508,7 +508,14 @@
 
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
+    - give example of brain model
+
   - add to solution automation workflows
+
+    - apply structures like 'randomness' which have a connected useful attribute like 'complexity' ('randomness' having the output of adding attributes/functions like 'adding complexity', 'adding generality' and 'offsetting an imbalance in randomness') to create useful differences in problem/solution structures that are likelier to solve problems in 'problem space systems' having those attributes (more complex systems)
+      - this workflow applies useful structures (like cross-interface 'structure-concept' connections) to optimize interaction functions specifically between problem/solution structures, so they are likelier to reflect true connection functions (insights)
+        - the more similar a problem space system or solution is to reality, the better it can be used to solve real problems
+        - randomness is a 'shortcut' to complexity, not equivalent to complexity, but it is easier to add than a set of insights about the system
 
     - find interface structures that are useful for problem-solving intents like 'reduce computations required to solve a problem' such as 'interaction levels' by applying 'solution filters' (like 'attributes of interaction levels') to the solution space of 'all possible useful interface structures', in order to find useful interface structures like 'interface queries that solve multiple problems' 
       - attributes of interaction levels include 'a level of specificity/abstraction that doesnt reduce the supported complexity'
@@ -553,7 +560,7 @@
           - 'merge interface queries requiring the same functions or inputs to maximize probability of a query finding an optimal solution'
       - solution success cause: this works bc connecting two high-variation 'problem-solving' interfaces like the 'interface query' interface and the 'solution' interface or the 'solution-finding method' interface creates a new interaction level where these structures can be found/derived/generated from each other since theyre connected/comparable & otherwise operable on that interaction level
       - generalization: fulfilling problem-solving intents like 'connect problem/solution' or core interaction functions of problem/solution structures like 'connect' applied to problem/solution structures is likely to generate useful structures, like 'interface queries to find optimal interface queries to solve a problem, given a standard solution & the derived interface queries used to create it'
-        - implicitly, the workflow 'derive interface queries that can be used to find/derive/generate a known solution, find structures to optimize these interface queries to find more optimal variants, and apply differences to these optimized interface queries to find more optimal solutions' is referenced in this workflow
+        - implicitly, the workflow 'derive interface queries that can be used to find/derive/generate a known solution, find structures to optimize these interface queries to find more optimal variants, and apply differences to these optimized interface queries to find more optimal solutions, and apply differences like abstractions/specifications to these interface queries to find variants of them like solution automation workflows derivable from the queries' is referenced in this workflow
 
     - find the variables of change that would determine a solution using a particular solution-finding method in some optimal way & apply those to the solution-finding method
       - there are two values of the 'direction' variable in which a straight line (standard solution) can vary (if the accurate solution prediction function is a parabola with one peak) in order to test whether the positive/negative change is the right direction of change, but there are multiple values of the 'position' variable in which the straight line can vary
