@@ -514,14 +514,29 @@
 
   - add to solution automation workflows
 
+    - apply useful structures like 'changes' to derive interaction rules of meaningful structures like definitions which are meaningful in providing structures like limits/requirements/foundations to apply changes to, to fulfill problem-solving intents like 'apply changes to a standard solution to improve the solution'
+      - example: apply 'randomness' to generate functions that are random (rather than meaningful) as a way of generating 'not solution' structures, given that 'randomness' is an opposite structure of 'meaning'
+        - similarly 'organization' structures (like 'sequences' which by definition have inherent order) can be a structure useful for generating solutions, given that solutions are by definition not random
+          - a solution to the 'find a prediction function' problem cant be a random function of inputs, so it will inevitably be different from 'random functions of inputs'
+          - in the case where the 'random function of inputs' has an overlap with the 'actual prediction function', it is bc random structures can by definition create every possible structure (possible solution), not bc it magically found the solution, as a random function has no way of differentiating significant variables/coefficients and predicting whether it is likely to have found a good solution before testing it
+        - applying random structures to 'interim structures' like sub-optimal solutions, solution components/requirements, & available/adjacent functions is likelier to produce a solution than applying randomness to the original inputs bc these structures are by definition nearer to the solution than the original inputs and 'random changes' are likelier to be useful in randomly generating the solution itself
+        - this means a solution structure should be composed primarily of structures for a particular reason (like that they are core structures or structures which are likely to interact) rather than for no reason (like randomness)
+        - randomness can be applied to sub-optimal solutions once the primary meaning structures have been applied, as a way to temper error structures like 'lack of information' or 'incorrect input information'
+      - this workflow involves applying definitions to find the correct position to apply a structure in (apply randomness to adjust a standard solution to handle error structures, after applying organization structures to create a standard solution)
+        - it also applies the 'differences in variable structures' that can create a 'difference in solution/error structures' (structures of volatility in crossing the threshold between the definitions, structures of robustness in finding interchangeable alternate variable subsets maintaining a state, etc)
+      - simplification: this workflow identifies differences in useful structures like definitions (specifically interface structure definitions, like the definition of meaning) that can be used to infer structures from other structures
+      - generalization: this uses the variables/functions of definitions to infer rules that can be applied to fulfill problem-solving intents related to definitions, like 'finding the correct position to apply a structure like a definition', using insights about definitions like that their structure provides 'organization' structures which can be used as a foundation/limit to apply changes to, similar to how a standard solution structure can be used to apply differences to in order to improve the solution
+
     - apply the structure of the 'inject' function as a way to find/build/derive a solution, as a core (explicit structural) interaction function (like 'connect', 'reduce', 'combine', 'change' or 'filter')
       - example: 
         - a 'neural network' structure is a 'sequence of changes applied to (a sequence of changes applied to inputs to connect inputs/output vars) to connect input standard solution to output improved solution'
-          - where 'sequences' are a standard structure used to create 'connections', so 'sequences' are by definition relevant for solving a 'connect' problem
+          - where 'sequences' are a standard structure used to create 'connections', so 'sequences' are by definition relevant for solving a 'connect' problem (like 'connect inputs/outputs' or 'connect states')
+            - where 'sequences of changes' are used to create 'connections' between specifically 'different' structures
         - injecting iterative structures of 'random mappings' is a way to add 'randomness' to a structure
         - injecting a 'query for a solution' in place of a 'solution' is a way to add 'variation' to a solution structure (like an interface query with sub-queries to 'find info' or 'find a sub-solution to a sub-problem')
         - injecting 'variation' in structures like functions/inputs adds 'generalization' to an output structure
       - this 'inject' function works bc 'injecting' a useful structure like a 'variable' adds a structure that can handle more complexity, making a solution more robust
+      - generalization: the general version of this is to find/build/derive functions that can connect various formats (like 'injected sequences') to fulfill core interaction functions (like 'connect') in problem-solving intents (like 'connect problem-solution') of a solution-finding method (like a 'neural network') for a problem format (like 'find a prediction function'), and use those functions as alternative problem-solving functions
 
     - apply useful structures like 'solution automation workflows' or interface structures like 'variables' having outputs in common to create interchangeable useful structures like 'new/different solution automation workflows' or 'changes to solution automation workflows' to fulfill the problem-solving intent of 'improving an existing solution structure'
 
