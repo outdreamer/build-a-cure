@@ -516,7 +516,7 @@
 
       - examples of solution automation workflows that may have similar output solutions:
 
-        - changing the definition of a solution as a 'structure without certain error structures' 
+        - changing the definition of a solution as a 'structure without certain/definitive error structures' 
           - example: a function that does not produce outputs in the 'known error ranges/areas'
 
         - applying complementary structures like errors/solutions to create requirements of what is not a solution
@@ -536,12 +536,32 @@
       - the 'different-output' solution automation workflows have differences in standard structures like different functions/inputs/outputs
       - the 'similar-output' solution automation workflows have similarities in functions/inputs/outputs
       - if a solution is sub-optimal like a standard solution may be, applying differences to the functions/inputs/outputs of the solution automation workflow may create a more optimal solution automation workflow to apply, once the set & interface of solution automation workflows that can generate the standard solution is derived/found/built so changes can be applied to it
-
+        - related requirements filter which similarities/differences are meaningful
+          - requirements like 'identify in what position a definition should be applied'
+            - when a difference is an 'error structure' or a 'sub-optimality structure', given that a difference can be either (errors dont have to be in very different positions, they can be adjacent to solutions), as a 'difference' isnt equal to an 'error' by definition, so it can only conditionally be applied to generate/find/derive errors
+      
       - different workflows can produce the same solution if they are similar in their error structures or solution metrics like accuracy, even with very different workflow functions/inputs/outputs
         - applying workflows to workflows, like the following is a way to derive more optimal workflows:
           - 'starting from the solution metric of a workflow like accuracy & reverse-engineering the workflow applied to create that output'
           - 'applying variables to sub-optimal workflows to create more optimal workflows'
-      
+
+        - this is bc there are 'ranges/areas of optimality' in the solution 'workflows' to the problem of 'find an optimal solution automation workflow' just like there are very different solution 'prediction functions' having the same 'solution metric value' of the same 'level of error' for the problem of 'find a prediction function'
+          - there are workflows that are similar in some variables (functions) and different in others (inputs/outputs), where the similarities may be meaningful (related in cause) or meaningless (random coincidence or common/required structure)
+          - these similarities/differences can identify 'volatility' or 'threshold' points where the outputs start to vary disproportionately relative to the outputs of adjacent inputs
+          - at what point does a 'cause' become a structure of meaning (direct, unique, functional, unambiguous, variability, limited alternatives, intent, usage) or a structure of randomness (core, common, required, constant, ambiguous, or complex as in 'not understood')
+            - what structures can change one or more of these variables across a threshold (solution structures), to overcome alternative structures of those variables (other structures that keep it a solution as opposed to crossing a threshold)
+            - this is a question of the meaning of a 'definition' of complementary opposing structures (like solutions/errors)
+              - structural distance: what differences in components/shapes/connections/inputs/outputs do the solution/errors have
+              - change distance ('conversion potential'): how many variables of a solution need to be changed to change it to an error & to what degree
+              - solution definition variables: how flexible is the solution metric, allowing what variables to be changed while still qualifying as a solution
+              - interchangeable alternates: what variable subsets can replace other variable subsets (how robust is a solution to being changed into an error)
+              - determining capacity (identification requirements): what ratio of variable values is required to determine if a structure is a solution/error (required identifying attributes)
+                - ambiguities: are there overlaps or unresolvable structures of neutrality in solution/error structures
+              - generative capacity: can a variable subset find/derive/generate the other variables, and what variable subsets can be either solutions/errors
+                - cause: 
+                  - what similarities in cause do the solutions/errors have, given that they exist in the same system
+                  - what differences can by definition cause a solution/error even in isolation of a ratio/type/degree of other differences (powerful/robust solution/error causes)
+
         - the structures inherent to these workflows (the 'solution structure' and the 'change structure', respectively) indicate structures that can be applied which can have the same impact on the output
           - a 'change' structure can have the same impact as applying a 'solution automation workflow' to a 'solution automation workflow', bc a solution automation workflow is a powerful source of change as well as a change-resolver (difference-reducer)
 
