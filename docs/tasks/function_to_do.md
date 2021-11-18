@@ -191,12 +191,15 @@
       - how to manage risk of 'matter-forming cascades' using technologies to form matter that can restrict time in some positions from gravitational effects
       - what changes occur if you decrease gravity of black holes like by positioning other black holes so they can exert gravity on the other
       - re-define time as 'change potential' so its clearer whether an increase in time means 'slower change, meaning more space-times or more opportunities for change' or whether an increase in time means 'faster change bc time is moving faster' or 'faster change of change types as in new change types' or 'relative change rate/types' or as 'unresolved uncertainties' or 'calculatabilities' as a measure of what hasnt been calculated or isnt calculatable in a space time given its relative change rate compared to other space times that will solve it faster and prevent change in other space times
+        - time as 'structure', as in structures that are allowed to be 'efficient/interactive/powerful/organized/accumulated/irreversible/robust/derivable/measurable/inevitable/required/defined/sequential/maintainable'
+        - observers have 'potential' in the form of functions like 'applying changes to matter', adding a variable to the 'position' attribute, obeying possible rules like:
+          - connected structures (like observer/particle) exchange structures until they are equal (energy transfer of change potential between observer and particle)
       - whether 'time' has an ending, or a high probability of an ending, as determined by the configuration of space-time distortions in this universe, indicating theres no way to ultimately guarantee the preservation of time, as defined in the form of gravitational variations that ensure a space-time can slow down enough to be measured or distorted by high-potential or high-change sources like humans, or whether the current configuration guarantees that black holes will continue sucking up time until there's none left, or whether the current configuration has a high probability that change types allowed by lower-gravity areas will inevitably intersect in a way that creates a change type that will invalidate conditions necessary for space & time
         - what ratio of these scenarios are likely, possible, and involve risks or guarantees?
       - how time in one universe interacts with time in another - whether constants created by gravity and variables created by lack of it can interact with other constants/variables in adjacent, aggregate/net, reflective, or otherwise interactive universes
       - whether the similarities acting as inputs to standard gravity have corrollaries in the similarities acting as inputs to quantum gravity
       - what gravitational impact on time exists on the quantum scale - the farther away from standard scales a particle or other structure is, gravity applies less and time moves faster?
-      - does matter (order) act like an opposite structure of time (disorder) so destroying matter can create time in a particular position
+      - does structure/matter (order) act like an opposite structure of time (disorder) so destroying matter can create time in a particular position
       - can you navigate to other space times by increasing entropy to the entropy levels adjacently surrounding the target space-time (after which any matter navigating there reduces entropy to the target space-time)
       - does that mean you have to destroy matter (order) in order to power time-travel - would that invalidate motion in certain time-directions, as increasing entropy tends to cascade and create irreversibilities
       - is there a possible energy configuration that can increase entropy with enough precision that it can reach the target level
@@ -222,6 +225,7 @@
       - processes that increase metabolism (like exercise) as a way of fighting cancer, since metabolism is a regulator of the cell life cycle, and cell life cycle disregulation is a promoter of cancerous growth (more cells created than dying when cell division isnt necessary or otherwise useful)
         - look for other cell life cycle disrupters (triggers of cell division like chemicals causing specific mutations) & regulators (triggers of cell death like 'plant immune proteins')
         - look for 'immune states (including specific immune responses) that change metabolism temporarily' that could be used as anti-cancer tools, triggered by brain processes (memory) or other inputs to immune state changes (pathogen exposure, exercise) - 'addressing the systemic issue using other systems bc theyre on the same interaction level'
+        - serotonin & other feedback mechanisms that act as signals to processes like cell life cycle regulators
       - useful questions
         - what is the difference between structures having problematic differences (pathogens for which immune response is always/adjacently constructed & those that are not) & what can resolve these differences (what changes can be applied to convert one into the other)
 
@@ -514,7 +518,7 @@
 
   - add to solution automation workflows
 
-    - apply useful structures like 'changes' to derive interaction rules of meaningful structures like definitions which are meaningful in providing structures like limits/requirements/foundations to apply changes to, to fulfill problem-solving intents like 'apply changes to a standard solution to improve the solution'
+    - apply useful structures like 'changes' to find/build/derive useful structures like 'interaction rules' of meaningful structures like 'definitions' which are meaningful in providing structures like 'limits/requirements/interfaces' to apply changes to, to fulfill problem-solving intents like 'apply changes to a standard solution to improve the solution'
       - example: apply 'randomness' to generate functions that are random (rather than meaningful) as a way of generating 'not solution' structures, given that 'randomness' is an opposite structure of 'meaning'
         - similarly 'organization' structures (like 'sequences' which by definition have inherent order) can be a structure useful for generating solutions, given that solutions are by definition not random
           - a solution to the 'find a prediction function' problem cant be a random function of inputs, so it will inevitably be different from 'random functions of inputs'
