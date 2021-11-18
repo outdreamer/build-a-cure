@@ -508,7 +508,45 @@
 
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
+
   - add to solution automation workflows
+
+
+    - apply useful structures like 'solution automation workflows' or interface structures like 'variables' having outputs in common to create interchangeable useful structures like 'new/different solution automation workflows' or 'changes to solution automation workflows'
+
+      - examples of solution automation workflows that may have similar output solutions:
+
+        - changing the definition of a solution as a 'structure without certain error structures' 
+          - example: a function that does not produce outputs in the 'known error ranges/areas'
+
+        - applying complementary structures like errors/solutions to create requirements of what is not a solution
+          - example: known error structures can be used to determine what is not a solution and what is possibly a solution
+
+      - examples of solution automation workflows with high probability of different output solutions:
+
+        - applying contextual structures like 'an error, in the case where the function has this many other errors'
+          - example: some functions would only count as sub-optimal if they produce errors above a certain threshold, so an individual error is only an error if other errors also exist
+
+        - applying solution structures to filter solution space 
+          - example: 'incremental changes' are part of the definition of a standard prediction function for a data set, so a solution should have 'incremental changes' (ruling out step functions, hyperbolic functions, etc)
+
+        - applying differences to structures that can be used to derive solution structures like solutions or solution automation workflows
+          - example: if a subset of the data set can be used to derive the prediction function, apply differences to the subset to find out the limits of what other subsets can be used to adjacently derive the prediction function (like a certain level of difference & pattern-compliance across subsets that can be used to derive it)
+
+      - the 'different-output' solution automation workflows have differences in standard structures like different functions/inputs/outputs
+      - the 'similar-output' solution automation workflows have similarities in functions/inputs/outputs
+      - if a solution is sub-optimal like a standard solution may be, applying differences to the functions/inputs/outputs of the solution automation workflow may create a more optimal solution automation workflow to apply, once the set & interface of solution automation workflows that can generate the standard solution is derived/found/built so changes can be applied to it
+
+      - different workflows can produce the same solution if they are similar in their error structures or solution metrics like accuracy, even with very different workflow functions/inputs/outputs
+        - applying workflows to workflows, like the following is a way to derive more optimal workflows:
+          - 'starting from the solution metric of a workflow like accuracy & reverse-engineering the workflow applied to create that output'
+          - 'applying variables to sub-optimal workflows to create more optimal workflows'
+      
+        - the structures inherent to these workflows (the 'solution structure' and the 'change structure', respectively) indicate structures that can be applied which can have the same impact on the output
+          - a 'change' structure can have the same impact as applying a 'solution automation workflow' to a 'solution automation workflow', bc a solution automation workflow is a powerful source of change as well as a change-resolver (difference-reducer)
+
+      - simplification: this workflow involves finding useful problem-solving structures with similar impact/outputs and applying those as alternative structures to generate new solution automation workflows, for the problem-solving intent of 'improving an existing solution structure like a solution automation workflow'
+
 
     - useful structures like 'rule set' interactions can be used to find/derive/build problem/solution structures like problem/solution components/variables/examples/filters, problem space systems for simulating solutions, & solution automation workflows
       - various systems as 'isolatable/closed rule sets' act like interfaces in the brain
@@ -558,9 +596,14 @@
         - the 'line' representing a 'difference' between un/sub/conscious may be a line on a spectrum of consciousness, or a line separating separable systems of rule sets, or an emergent structure that can take multiple alternate/combined forms, where its variation (reflected in its 'energy' or 'information') can be distributed across alternates or centralized in one alternate
           - a structure allowing a 'requirement' to be converted into an 'optional alternate' (applying a variable) is useful in adding attributes of consciousness, if that variable can be handled given the other rules existing, as in if there are limits on this structure to add variables, so variation can be handled at a survivable pace
       - these structures can be used to derive solution automation workflows, solutions, or other problem/solution structures (such as 'adding a variable' to a workflow, 'adding a filter to create a variable' of a workflow, 'applying rule-update rules' to improve a workflow, 'applying abstraction rules' to abstract a workflow, 'adding rule set state storage' to allow deriving examples/intent/common attributes/errors/variables of other possible rule set systems, 'adding extra resources for simulating/testing structures' to allow storing a mock system as a sub-system for testing solutions before applying them, etc)
-    - simplication: this workflow applies 'rule sets' (systems, functions) as useful structures like components/inputs of a solution can be done automatically, to find rule sets/functions that can relevantly simulate a problem space system in which a solution can be found adjacently
-      - a 'complex' rule set may have enough complexity to identify complex variable interactions in an input problem
-      - a rule set with 'minimal error structures' may be adjacent enough to the input problem state that it can adjacently be converted/fit into the rule set
+      - simplication: this workflow finds/builds/derives/applies useful formats like 'rule sets' (systems, functions) as useful structures like components/inputs of a solution automatically, to find specific rule sets/functions that can relevantly simulate a problem space system in which a solution can be found adjacently
+        - a 'complex' rule set (like a 'neural network structure' as a 'complexity-reduction' or 'complexity-handling' structure) may handle enough complexity to identify 'complex variable interactions' in an input problem like 'find a prediction function'
+        - a rule set with 'minimal error structures' like a 'general error-correcting method' or a 'general solution-finding method' may be adjacent enough to the input problem state that it can adjacently be converted/fit into the rule set
+        - converting interface structures from other interfaces (change, cause) to a standard format like 'functions' is useful for identifying other useful structures in a problem space including the 'find a prediction function' problem and the 'neural network' solution-finding method, useful structures like:
+          - overlaps of functions that can generate an example input like a data point
+          - functions that can map a set of input/output example vectors to a general (connecting) coefficient vector
+        - this is useful bc primary interfaces (like 'system', as in a 'rule set', or 'change', as in an 'input/output difference') can be represented on other primary interfaces (a 'function set' or 'function having an input-output connection')
+      - workflow fit: this is related to workflows where an interface is found/built/derived that would make solving the problem trivial, but specifically uses 'interchangeable alternate' formats like functions which can reflect high variation in interactions and specifically applies them to problem/solution structures by applying useful cross-interface structures like 'attribute-system connections' or 'attribute-structure connections'
 
     - apply structures like 'randomness' which have a connected useful attribute like 'complexity' ('randomness' having the output of adding attributes/functions like 'adding complexity', 'adding generality' and 'offsetting an imbalance in randomness') to create useful differences in problem/solution structures that are likelier to solve problems in 'problem space systems' having those attributes (more complex systems)
       - this workflow applies useful structures (like cross-interface 'structure-concept' connections) to optimize interaction functions specifically between problem/solution structures, so they are likelier to reflect true connection functions (insights)
