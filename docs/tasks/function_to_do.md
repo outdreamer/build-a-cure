@@ -508,11 +508,22 @@
 
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
+    - standardize primary functions in terms of common functions
+        - 'derive' mapping to 'find cause', 'build' mapping to 'find combination', apply mapping to 'find changes', and 'find' mapping to 'find filters'
+
 
   - add to solution automation workflows
 
+    - apply the structure of the 'inject' function as a way to find/build/derive a solution, as a core (explicit structural) interaction function (like 'connect', 'reduce', 'combine', 'change' or 'filter')
+      - example: 
+        - a 'neural network' structure is a 'sequence of changes applied to (a sequence of changes applied to inputs to connect inputs/output vars) to connect input standard solution to output improved solution'
+          - where 'sequences' are a standard structure used to create 'connections', so 'sequences' are by definition relevant for solving a 'connect' problem
+        - injecting iterative structures of 'random mappings' is a way to add 'randomness' to a structure
+        - injecting a 'query for a solution' in place of a 'solution' is a way to add 'variation' to a solution structure (like an interface query with sub-queries to 'find info' or 'find a sub-solution to a sub-problem')
+        - injecting 'variation' in structures like functions/inputs adds 'generalization' to an output structure
+      - this 'inject' function works bc 'injecting' a useful structure like a 'variable' adds a structure that can handle more complexity, making a solution more robust
 
-    - apply useful structures like 'solution automation workflows' or interface structures like 'variables' having outputs in common to create interchangeable useful structures like 'new/different solution automation workflows' or 'changes to solution automation workflows'
+    - apply useful structures like 'solution automation workflows' or interface structures like 'variables' having outputs in common to create interchangeable useful structures like 'new/different solution automation workflows' or 'changes to solution automation workflows' to fulfill the problem-solving intent of 'improving an existing solution structure'
 
       - examples of solution automation workflows that may have similar output solutions:
 
