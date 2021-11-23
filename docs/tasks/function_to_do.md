@@ -241,6 +241,13 @@
 
   - add to examples
 
+      - example of logical fallacies like the rarity of simple rules, as everything is a simple transformation away from something else
+        - such simple rules often reflect other simple rules like 'a simple rule is representable with more complex structures (like an infinite sequence)'
+        - 'simple rules using core structures that can be replaced with other simple rules' is a rare structure
+        - some simple rules are required to exist (everything cant be complicated or there would be no adjacent transforms possible)
+        - in the iteration of all possible rules with incremental changes applied to generate new possible rules, inevitably the iteration will encounter simple rules that involve units at various points in the iteration
+        - https://mapehe.github.io/math-problem/index.html
+
       - examples of simple interface queries that can find/derive/generate useful info
         - apply 'multiple' to constant structures like 'threshold counts'
         - examine lower-dimensional structures like boundaries as structures of 'simplification'
@@ -513,8 +520,11 @@
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
     - standardize primary functions in terms of common functions
-        - 'derive' mapping to 'find cause', 'build' mapping to 'find combination', apply mapping to 'find changes', and 'find' mapping to 'find filters'
+      - 'derive' mapping to 'find cause', 'build' mapping to 'find combination', apply mapping to 'find changes', and 'find' mapping to 'find filters'
 
+  - index particularly useful structures by their interface attributes like 'cause' to find the interface structures associated with particularly useful structures to apply by default when selecting useful structures to apply in a workflow
+    - the 'minimal set' of 'maximally different' structures is more useful than the set of 'maximally different' structures on its own
+      - find the 'cause' of why some structures of useful structures (like the 'combination' of 'injected' useful structures such as a 'minimal set' of 'maximally different' structures) are more useful than others (like a 'sequence' of 'maximally different' structures) - the minimal set of maximally different structures creates another useful structure like 'archetypes' or 'core structures' or 'interchangeable alternates' bc of the way that 'minimal set' and 'maximally different' are interactive
 
   - add to solution automation workflows
 
