@@ -522,11 +522,20 @@
     - standardize primary functions in terms of common functions
       - 'derive' mapping to 'find cause', 'build' mapping to 'find combination', apply mapping to 'find changes', and 'find' mapping to 'find filters'
 
+    - example of possible usefulness of a structure
+      - an example structure like '1/2' can be useful for the following structural intents
+        - equivalence of two values (two halves), equivalence being a structure of randomness, which when applied to 'interactivity of values' can produce other structures of randomness like 'complex systems with many variables/structures having high interactivity'
+        - a default structure of a 'comparison' and 'a randomizing division (1/2 slope line) of an interaction space (like the area created by multiplying x & y)' between a default unit structure '1' and a default unit interactivity structure '2' when applied to dimensions (as an exponent)
+
   - index particularly useful structures by their interface attributes like 'cause' to find the interface structures associated with particularly useful structures to apply by default when selecting useful structures to apply in a workflow
     - the 'minimal set' of 'maximally different' structures is more useful than the set of 'maximally different' structures on its own
       - find the 'cause' of why some structures of useful structures (like the 'combination' of 'injected' useful structures such as a 'minimal set' of 'maximally different' structures) are more useful than others (like a 'sequence' of 'maximally different' structures) - the minimal set of maximally different structures creates another useful structure like 'archetypes' or 'core structures' or 'interchangeable alternates' bc of the way that 'minimal set' and 'maximally different' are interactive
+      - 'minimal' & 'core' and 'maximally different' & 'unique' are components/users/alternates/attributes of each other's definitions
 
   - add to solution automation workflows
+
+    - apply requirements to solution-finding methods (including interface queries, solution automation workflows, specific solution-finding methods, etc) by finding/deriving/building structures of the solution-finding methods
+      - example: for a problem that can be identified as having a high probability of a complex solution given the simple solutions filtered out (by another workflow/query or by existing failed solution data), apply solution-finding methods that are complex and/or capable of storing/creating complex structures which are likelier to be relevant to the actual structures of the solution
 
     - apply useful structures like 'changes' to find/build/derive useful structures like 'interaction rules' of meaningful structures like 'definitions' which are meaningful in providing structures like 'limits/requirements/interfaces' to apply changes to, to fulfill problem-solving intents like 'apply changes to a standard solution to improve the solution'
       - example: apply 'randomness' to generate functions that are random (rather than meaningful) as a way of generating 'not solution' structures, given that 'randomness' is an opposite structure of 'meaning'
