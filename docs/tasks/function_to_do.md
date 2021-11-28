@@ -534,6 +534,10 @@
 
   - add to solution automation workflows
 
+    - identify any differences that could be errors (such as ambiguities or missing information) that can be resolved without violating a solution metric & apply difference-resolution methods to resolve those differences, merging these methods & their results as needed to fulfill such optimization as 'preserve the original system, avoiding excessive changes where possible'  and/or fulfilling problem-solving intents like 'avoid violating a solution metric'
+      - example: often an ambiguity may be resolved by applying filters or functions that leave one possibility, creating a requirement in that one possibility, and invaliding further application of functions to resolve the ambiguity as the requirement of the one possibility has been determined already
+      - this applies a general workflow of 'identifying structures that any problem can be formatted as, such as differences which are a core error structure' and specifically applies the value of structures likely to already exist or be adjacently derivable in relation to those structures such as difference-resolution methods like 'connecting a problem state with a solution state'
+
     - apply requirements to solution-finding methods (including interface queries, solution automation workflows, specific solution-finding methods, etc) by finding/deriving/building structures of the solution-finding methods
       - example: for a problem that can be identified as having a high probability of a complex solution given the simple solutions filtered out (by another workflow/query or by existing failed solution data), apply solution-finding methods that are complex and/or capable of storing/creating complex structures which are likelier to be relevant to the actual structures of the solution
 
@@ -1341,6 +1345,7 @@
       - if a package of growth/maximizing genes continues to develop bc of 'survival bias' (the genes that are useful for survival are protected & maintained & replicated), can incentives for dna repair/defense genes be created/increased to compete with these cancerous extra-chromosomal gene structures - why is the 'survival bias' of cancerous cells & cancerous mutations stronger than other cells/genes/mutations' bias - just bc theyre more useful for cancerous intents like 'unrestricted growth' or bc of some other cause like 'genetic adjacence' or 'genetic functionality like jumping/coordination', or bc of the fact that growth factors promote themselves by the definition of their own functionality, or bc these gene/mutation types like enhancement/growth have aligning intents like 'promotion' so theyre often found together?
       - can antibodies against high-growth/maximizing extra-chromosomal gene structures be developed or can vaccines be developed to produce antibodies against them?
         - https://cen.acs.org/pharmaceuticals/oncology/curious-DNA-circles-make-treating/98/i40
+    - a generally useful 'quantum algorithm' is optimally implemented as a network where any node is equally accessible regardless of steps separating them or other definition of 'distance' (each node pair can be entangled on demand to get calculations/output from that node to reduce overall repeated function calls of the network)
 
   - add to automation tech
     - more devs converting to 'task description writers' creating standardized task descriptions & identifying repeated work, automation opportunities & other high-level semantic tasks is a better career once programming turns into a 'task bidding freelance market' where AI coders frequently outcompete devs
