@@ -180,6 +180,8 @@
       - using 'inputs/outputs' to represent everything is more likely to avoid losing information, but does represent everything as a sequence structure, where sometimes sequences arent implicitly described, such as in a set, which would require a description in the form of a 'generative sequence' or an artifical order imposed on the sequence
 
   - add to science
+    - roots to provide a core structure of alternatives as opposed to a requirement through one option
+      - https://www.livescience.com/imaginary-numbers-needed-to-describe-reality
     - 'metformin and a low carb diet' reduce 'serum vitamin b' which can be used as inputs to 'cancerous growth'
     - check how folding relates to growth patterns like exponential growth, learning & information storage, and related structures like waves
     - the compromise structure is a network structure of 'multiple solutions' rather than one: require anti-vaxxers to self-isolate from people until the vaccine is distributed
@@ -519,6 +521,8 @@
 
     - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
+    - examine 'locally same, globally different' as a structure of 'interchangeable alternates' on 'interaction levels'
+    
     - standardize primary functions in terms of common functions
       - 'derive' mapping to 'find cause', 'build' mapping to 'find combination', apply mapping to 'find changes', and 'find' mapping to 'find filters'
 
@@ -533,6 +537,15 @@
       - 'minimal' & 'core' and 'maximally different' & 'unique' are components/users/alternates/attributes of each other's definitions
 
   - add to solution automation workflows
+
+    - identify useful structures like 'sequences' of 'information adjacencies' based on structures like 'limits' & 'filters' and concepts like 'completeness' which produce useful structures like 'requirements' and use to derive information required for a solution
+      - adjacencies include:
+        - useful structures like a combination of an information structures (like insights) + randomness to account for possible changes to that known structure, where the insight is the adjacent information needed to calculate the target information of the actual version of the insight in a particular system, since another insight is that 'few insights are absolute and they often have variants depending on context'
+        - a limit that creates a requirement for the complementary/remaining structures (like one-hot encoding or the last remaining piece of an almost complete puzzle), where the complementary structure is the adjacent information needed to calculate the target information
+          - structures like a complete set can be used to infer or guess the remaining items in a set, similar to how sequential patterns can be used to guess missing items in the sequence
+        - an object that differs is likely to be a source of variables, and a set of variables are likely to be a source of solutions in a system, so identifying objects that differ is the adjacent information needed to calculate the variables, which are the adjacent information needed to calculate the solutions in a system
+        - structures that create adjacencies include interfaces, so identifying the interfaces in a system makes other calculations more adjacent, so the interface acts like an information adjacency, where a sequence of interfaces can act like a sequential information adjacency leading to the target information
+      - solution success cause: this works bc it applies the insight that 'all information is connected', so iteratively calculating sequences of adjacent information can lead to the target information or at least the requirements of the target information that can define it further than its original description in the problem statement, similar to calculating functions earlier/later in a sequence to determine the missing function in the sequence
 
     - identify any differences that could be errors (such as ambiguities or missing information) that can be resolved without violating a solution metric & apply difference-resolution methods to resolve those differences, merging these methods & their results as needed to fulfill such optimization as 'preserve the original system, avoiding excessive changes where possible'  and/or fulfilling problem-solving intents like 'avoid violating a solution metric'
       - example: often an ambiguity may be resolved by applying filters or functions that leave one possibility, creating a requirement in that one possibility, and invaliding further application of functions to resolve the ambiguity as the requirement of the one possibility has been determined already
