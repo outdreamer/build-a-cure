@@ -18,7 +18,7 @@
 ## Rights
 
 You have rights with regard to this tool, specifically:
-	- the right to come up with my work independently, in a logical way with the cognitive distance associated with human epiphanies (but not after reading how I did it, which is 'reading the answer'), and not a clearly false explanations of how you came up with it using my definition of cognitive distance as a guide to forming that explanation.
+	- the right to come up with my work independently, in a logical way with the cognitive distance associated with human epiphanies (but not after reading how I did it, which is 'reading the answer'), and not a clearly false explanation of how you came up with it using my definition of cognitive distance as a guide to forming that explanation.
 	- the right to try and predict what I'll invent next, either with your presumably defective human brain or a defective artificial brain
 	- the right to tell other people I came up with my own inventions
 	- the right to admit my superiority
