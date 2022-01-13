@@ -536,11 +536,17 @@
       - find the 'cause' of why some structures of useful structures (like the 'combination' of 'injected' useful structures such as a 'minimal set' of 'maximally different' structures) are more useful than others (like a 'sequence' of 'maximally different' structures) - the minimal set of maximally different structures creates another useful structure like 'archetypes' or 'core structures' or 'interchangeable alternates' bc of the way that 'minimal set' and 'maximally different' are interactive
       - 'minimal' & 'core' and 'maximally different' & 'unique' are components/users/alternates/attributes of each other's definitions
 
+  - add to useful structures
+    - core math structures (point, line, path, network, factors) and their counterparts when applied to other interfaces (object, connection, function, system, components) as a way of finding important (as in 'core') structures in another interface
+
   - add to solution automation workflows
+
+    - identify useful structures like 'information adjacencies' in solution automation workflows ('sequences of steps') that can capture variation that is unlikely to be captured in a standard solution workflow or 'step sequence' given available info which may be handled by alternate functions better than the original workflow function
+      - example: 'predict pieces of the solution' and then 'predict the solution from those pieces' instead of 'predict the solution' bc the inputs are unlikely to contain all of the info required to generate the exact solution, but either input of the two sub-functions is likely to be able to be used to generate/predict the output of that function, compared to the input/output information difference of the original function
 
     - identify useful structures like 'sequences' of 'information adjacencies' based on structures like 'limits' & 'filters' and concepts like 'completeness' which produce useful structures like 'requirements' and use to derive information required for a solution
       - adjacencies include:
-        - useful structures like a combination of an information structures (like insights) + randomness to account for possible changes to that known structure, where the insight is the adjacent information needed to calculate the target information of the actual version of the insight in a particular system, since another insight is that 'few insights are absolute and they often have variants depending on context'
+        - useful structures like a "combination of an information structures (like insights) + randomness" to account for possible changes to that known structure, where the insight is the adjacent information needed to calculate the target information of the actual version of the insight in a particular system, since another insight is that 'few insights are absolute and they often have variants depending on context'
         - a limit that creates a requirement for the complementary/remaining structures (like one-hot encoding or the last remaining piece of an almost complete puzzle), where the complementary structure is the adjacent information needed to calculate the target information
           - structures like a complete set can be used to infer or guess the remaining items in a set, similar to how sequential patterns can be used to guess missing items in the sequence
         - an object that differs is likely to be a source of variables, and a set of variables are likely to be a source of solutions in a system, so identifying objects that differ is the adjacent information needed to calculate the variables, which are the adjacent information needed to calculate the solutions in a system
