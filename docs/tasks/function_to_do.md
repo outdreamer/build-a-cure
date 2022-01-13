@@ -541,6 +541,9 @@
 
   - add to solution automation workflows
 
+    - identify relevant structures of a structure to fulfill useful common intents like identifying whether a structure is complete or identifying structures that change another structure
+      - example: a network has relevant structures like nodes/functions, network states, nodes represented as functions, structures like combinations of nodes or common structures, and queries on the network as well as the associated input/output pairs & input/output differences associated with those queries, without which its definition is incomplete, not having the 'intent' or 'meaning' interface fully applied to its core structure of the network
+
     - map interface structures to other interface structures which can be mapped to error structures as a filter to find changes to apply to a suboptimal solution
       - example: derive alternate complexity structures (like a term with a zero coefficient in some cases and a non-zero coefficient in others, which could be created by structures like neutralizing/antagonistic structures) to explain errors associated with those structures (like mismatch errors)
 
