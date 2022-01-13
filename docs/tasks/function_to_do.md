@@ -541,6 +541,12 @@
 
   - add to solution automation workflows
 
+    - map interface structures to other interface structures which can be mapped to error structures as a filter to find changes to apply to a suboptimal solution
+      - example: derive alternate complexity structures (like a term with a zero coefficient in some cases and a non-zero coefficient in others, which could be created by structures like neutralizing/antagonistic structures) to explain errors associated with those structures (like mismatch errors)
+
+    - identify change structures like change potentials and change interaction potentials to filter set of solution components like functions/variables, to filter inputs by rules like 'whether the components are capable of producing the change types necessary to generate the outputs in a way that fulfills known common/probable system dynamics/intents like how more stable systems tend to be simpler with robust randomness handlers'
+      - example: derive the possible changes ('increase', 'weight', 'reverse', 'rotate') that a possible structure (a possible/probable input function/variable, like pixels or pixel groups or pixel difference groups) can create across various systems (like 'changes in similarity to adjacent pixels'), and whether those systems or changes are reflected in other structures (could other variables be explained by that increase/weight/rotation/reversal, are there anti-structures invalidating its changes), to determine the probability of a particular possible structure (function/variable) as a component of the solution, weighted by the likelihood of the systems/components that allow it to be a component of the solution
+
     - apply useful structures like interface structures ('cause') of useful structures ('difference') for problem-solving intents that are fulfilled by those useful structures ('apply differences to generate alternate inputs' to 'get more input data')
       - example: apply 'causes of difference' to generate alternate inputs that are probable to use as additional inputs (such as 'how a particular size of a component may produce a more smooth surface as it may interact with more components bc there are more components at that size it is likely to encounter' which applies the 'cause of difference' of an 'interaction level')
       - this is similar to the 'apply error distortions to generate alternate inputs' workflow, but rather than applying differences according to error types, apply differences according to probable causes of differences to generate alternate inputs
