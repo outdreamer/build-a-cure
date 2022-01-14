@@ -545,6 +545,10 @@
 
   - add to solution automation workflows
 
+    - identify useful structures (like connection between structures) to fulfill intents like 'find missing information about a full structure' which combine problem-solving intents like 'find missing information' and specific problem contexts 'the solution structure is the remaining structure to find the full structure' in a combination ('find missing information about a full structure') to use these useful structures to fulfill those mixed & combined intents
+      - example: identify sub-structures (an arc) that can imply another structure (a circle) as a way of connecting structures that are particularly useful to connect, for cases where info about the full structure is missing, to fulfill problem-solving intents like 'find missing information' if the problem is formatted as a 'missing information' problem format, specifically for the format where the 'missing information' is the remaining structure of the full structure
+      - a generalization of this is to find these structural connections that are particularly useful, and find the versions of them in different formats (like when finding 'information about a full structure', in which case information about connections between partial/full structures is particularly useful)
+
     - identify structures that can be used as filters of solution structures like solution components, based on insights connecting relevant structures like solutions/errors ('solutions should be as different as possible from errors')
       - example: an 'optimal/good' solution function range can be built with a set of functions/variables, but if one of those functions/variables can convert a solution in that range to a bad solution with minimal effort (as in a probable change or adjacent/linear combination), those functions/variables are less likely to be the correct set, bc a system that is observable (such as the system described by the variables) is usually more stable & therefore consistent over time & robust to change
 
