@@ -547,14 +547,14 @@
 
     - given that a network learns one representation of a prediction function, it cant learn multiple representations unless it retains 'alternate conditional' neural network nodes/layers/paths that allow other structures to be considered in case a hidden pattern emerges in another data set (like what appears to be a parabola can be produced by multiple polynomial structures) - restricting ml networks to the 'most efficient compression' of a network to represent the found prediction function would remove its learning potential for these possible alternate structures
       - these 'functional similarities' can be encoded in the network if it evaluates which decisions are the result of possible emergent functions in the network that could have 'alternate conditional functions' also explaining that decision, and retains multiple alternate weight sets
-      - other types of operations include interface operations
+      - other types of operations a network can support include interface operations
         - example: 
           - can a network discover the right variable interface level at which most of the variation occurs (variables like position/angles for facial recognition) & retain that variation
           - does it support interface operations like merging the high-variation variable interface with the interface containing the specific functions creating that variation or the standard functions of the network (aggregation, pooling)
-          - can it support finding operations like the 'removal of attributes' to identify concepts like 'type'
+          - can it support finding operations like the 'attribute removal' and 'attribute generalization' to identify concepts like 'type'
           - can it support finding common distortion functions of features like 'corruption'
-          - can it support other variable operations than aggregation (of small features into big features) such as 'selecting' (between alternates) or 'changing' (creating alternates)
-          - can it support finding contexts where applying structures like 'opposite' (by negating a sign of a network structure) is useful for quick or accurate convergence, for finding maximally different functions, for finding alternate conditional functions, or other intents relevant to 'finding a prediction function' that could be fulfilled by neural networks if informed by interface structures
+          - can it support other variable operations than aggregation (of small features into big features) such as 'selecting' (between alternates) or 'changing' (creating alternates), or 'breaking the original output into components' (reverse direction of aggregation) or 'generating all feature structures like combinations and filtering them' or 'switching & mixing abstraction & interaction levels'
+          - can it support finding contexts where applying structures like 'opposite' (such as by negating a sign of a network structure or executing a filter instead of a combination operation) is useful for quick or accurate convergence, for finding maximally different functions, for finding alternate conditional functions, for handling errors of 'falsehood' where the trend in a particular direction is an error to correct by negating it, or other intents relevant to 'finding a prediction function' that could be fulfilled by neural networks if informed by interface structures
 
   - add to solution automation workflows
 
