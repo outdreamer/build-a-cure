@@ -550,7 +550,12 @@
       - other types of operations a network can support include interface operations
         - example: 
           - can a network discover the right variable interface level at which most of the variation occurs (variables like position/angles for facial recognition) & retain that variation
-          - does it support interface operations like merging the high-variation variable interface with the interface containing the specific functions creating that variation or the standard functions of the network (aggregation, pooling)
+          - does it support interface operations like:
+            - merging the high-variation variable interface with the interface containing the specific functions creating that variation or the standard functions of the network (aggregation, pooling)
+            - removing interface structures like the 'requirement' structure to identify concepts like 'play' (unrequired activity without a required point/intent like 'survival'), this concept being useful for optimizing resources to exercise/learn when not used for other intents, which is a useful system design insight that networks should integrate
+            - identifying useful concepts like the following, and identify the set of concepts that are useful in optimizing the network system:
+              - 'sharing' which allow it to coordinate with other networks to optimize various metrics (this concept having requirements in the form of other input concepts like 'other networks' which requires the concept of a 'network' for the network to be able to identify this concept), and apply these concepts to its own structure ('learn a more optimal network structure' such as by including them in the input or by changing its structure/params to consistently create these concepts) to enable learning other concepts
+              - 'helping' which allows it to identify extremes such as 'fighting other networks' as sub-optimal and identify when another network is not helping it but rather exploiting it so it can defend itself against exploits/hijacking
           - can it support finding operations like the 'attribute removal' and 'attribute generalization' to identify concepts like 'type'
           - can it support finding common distortion functions of features like 'corruption'
           - can it support other variable operations than aggregation (of small features into big features) such as 'selecting' (between alternates) or 'changing' (creating alternates), or 'breaking the original output into components' (reverse direction of aggregation) or 'generating all feature structures like combinations and filtering them' or 'switching & mixing abstraction & interaction levels'
