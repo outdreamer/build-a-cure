@@ -556,6 +556,25 @@
           - can it support other variable operations than aggregation (of small features into big features) such as 'selecting' (between alternates) or 'changing' (creating alternates), or 'breaking the original output into components' (reverse direction of aggregation) or 'generating all feature structures like combinations and filtering them' or 'switching & mixing abstraction & interaction levels'
           - can it support finding contexts where applying structures like 'opposite' (such as by negating a sign of a network structure or executing a filter instead of a combination operation) is useful for quick or accurate convergence, for finding maximally different functions, for finding alternate conditional functions, for handling errors of 'falsehood' where the trend in a particular direction is an error to correct by negating it, or other intents relevant to 'finding a prediction function' that could be fulfilled by neural networks if informed by interface structures
           - in addition to interface structures like interaction levels of related objects in a network, does it support other useful structures like opposite structures (input variables & output requirements, problem/solution, difference/similarity, component/whole, generate/filter) which provide a network of useful boundaries to base solutions within, as few extremes/absolutes apply in real systems (except in for example cases like booleans) and therefore these opposites act like bounds
+          - can it support finding tasks that would capture the functions of or generalize many tasks, like abstract tasks or other interface tasks, or standard problem format tasks like 'sorting', 'filtering', 'building', 'fitting/matching', 'connecting', 'combining'
+            - meaning 'would a network trained specifically to perform a particular interface operation be better at tasks in general than a standard neural network'
+            - is there a task or set of tasks that generalizes most tasks better than other tasks, and which is it (is there a set of interface operations which, when supported by a network, can solve most 'find a prediction function' problems)
+            - is this the reason networks that learn functions like compress/expand (encode/decode) or translate perform better than standard neural networks, because these functions are similar to interface functions (like 'standardize to a (network)/interface') or core functions like 'change a (language) network into another network'
+          - how to translate net/emergent operations of a network like 'aggregating small into big features' into variants of those operations like 'opposite of aggregating small into big features (decompose big into small features)' 
+            - meaning, how to translate 'reverse' or 'opposite' of a network's emergent/net/explicit function ('aggregate') into a network configuration, in other words, how to implement 'semantic relevant automatic generation of neural networks'
+              - such as by keeping the first 'combine input features' layers to create as many of the big features as possible, but then splitting & filtering component features after that, to align the input/output data types by adding an opposite operation of 'aggregate' (decompose) once the input (big features) is created
+          - interface query to implement this 'find opposite function' operation
+            - find opposite of function 'aggregate small features into big features'
+              - 'decompose big features into small features'
+            - find requirements of opposite function
+              - 'big features' are input requirements
+                - create input of target function 'opposite of aggregate small features into big features' ('decompose big features into small features')
+                  - check for existing structures fulfilling requirement (first aggregation layers)
+                    - keep first aggregation layers creating big features
+              - 'small features' are output requirements
+                - convert big feature inputs to small feature outputs
+                  - add decompose operation
+                    - add feature split/filter operations to create small features
 
   - add to solution automation workflows
 
