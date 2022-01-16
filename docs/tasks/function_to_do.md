@@ -563,6 +563,9 @@
             - a 'combination into one output' -> 'tree' + 'overlap' -> 'network' + 'select/summarize/filter' -> 'neural network' connection structure for intents like 'find structure to integrate multiple outputs of trees'
           - can it support finding common distortion functions of features like 'corruption around a symmetry'
           - can it support identifying useful structures as particularly powerful structures applicable across neural networks/intents/problems, and finding alternative optimal paths to generate these useful structures like the following paths, if these concepts/structures like 'useful structures' and 'insights' are injected as inputs or built in to the network structure emergently by creating a network that priorities creating/finding/applying useful structures or by other function sets amounting to the same
+            - specify inputs & outputs
+              - specify solution outputs to restrict possible outputs: specify a range/area of functions for a network to find a prediction function within, which has a particular error rate across data subsets, without varying on any function subsets that are more certain/calculatable
+                - if the outputs are more restricted in this way, the network can identify optimizations for those specific outputs like 'calculate the impact of a de/activation decision and if it contributes significantly to violating the specific solution function error range with other decisions being made in this iteration or likely to be made in future iterations at that point, prevent it'
             - identify alternate function sets
               - identify alternate functions (like a set of useful testing functions, a change function, and a selection function as an alternative function set to the functions of a neural net) to fulfill a problem-solving function like 'connect the problem inputs & the solution output'
             - apply insights from other systems 
