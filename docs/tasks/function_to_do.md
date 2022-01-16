@@ -563,6 +563,12 @@
             - a 'combination into one output' -> 'tree' + 'overlap' -> 'network' + 'select/summarize/filter' -> 'neural network' connection structure for intents like 'find structure to integrate multiple outputs of trees'
           - can it support finding common distortion functions of features like 'corruption around a symmetry'
           - can it support identifying useful structures as particularly powerful structures applicable across neural networks/intents/problems, and finding alternative optimal paths to generate these useful structures like the following paths, if these concepts/structures like 'useful structures' and 'insights' are injected as inputs or built in to the network structure emergently by creating a network that priorities creating/finding/applying useful structures or by other function sets amounting to the same
+            - identify useful structures for core standard intents like 'identification' (such as 'identifying whether something has changed') or core specific neural network required intents like 'evaluate change'
+              - identify the concept of a 'derivative' by identifying:
+                - the useful structure of the combination of a 'change' and a 'comparison' to derive a 'change rate' concept by identifying the relative low value of change information when not compared to another type of change ('the meaning of a change, compared to what')
+                - the requirement to evaluate change to test if a weight update improved the solution ('meaning of a change, compared to the previous solution success')
+            - apply general solution metrics as filters of possible solution components & further inputs to derive problem structures
+              - apply general solution metrics like accuracy (with possible input solution components like 'specific equivalence' with possible inputs like 'equivalent structures')
             - identify rules & inject those rules as prior knowledge: 
               - identify insights & applying insight operations like 'variables usually vary more than a particular subset of the data set' + 'real systems typically have many variables leading to noise' = 'variables should be corrupted to generate a more realistic data set'
             - change problem-solving intent (like 'find structures to prevent errors' rather than 'find solutions')
