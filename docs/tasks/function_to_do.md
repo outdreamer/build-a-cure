@@ -563,10 +563,14 @@
             - a 'combination into one output' -> 'tree' + 'overlap' -> 'network' + 'select/summarize/filter' -> 'neural network' connection structure for intents like 'find structure to integrate multiple outputs of trees'
           - can it support finding common distortion functions of features like 'corruption around a symmetry'
           - can it support identifying useful structures as particularly powerful structures applicable across neural networks/intents/problems, and finding alternative optimal paths to generate these useful structures like the following paths, if these concepts/structures like 'useful structures' and 'insights' are injected as inputs or built in to the network structure emergently by creating a network that priorities creating/finding/applying useful structures or by other function sets amounting to the same
-            - identify useful structures for core standard intents like 'identification' (such as 'identifying whether something has changed') or core specific neural network required intents like 'evaluate change'
-              - identify the concept of a 'derivative' by identifying:
+            - identify alternate function sets
+              - identify alternate functions (like a set of useful testing functions, a change function, and a selection function as an alternative function set to the functions of a neural net) to fulfill a problem-solving function like 'connect the problem inputs & the solution output'
+            - apply insights from other systems 
+              - identify alternate systems (like physics) with the complexity to delegate functions like 'generating new change types' to that system, or alternatively identify a system that is the source of problems solved by neural networks, or alternatively generate a system that could be the source of problems solved by neural networks, in order to use that system info to optimize neural networks & derive intent/meaning/usage of neural networks, derive other networks & coordinate with other networks, and develop self-awareness in that system
+            - identify useful structures for core standard intents like 'identification' (such as 'identifying whether something has changed') or core specific neural network required intents like 'identify change' or 'identify change contributed by a unit (node)'
+              - identify the concept of a 'derivative' by identifying the following, and identifying variables to compare it to (previous success, time, other input variables)
                 - the useful structure of the combination of a 'change' and a 'comparison' to derive a 'change rate' concept by identifying the relative low value of change information when not compared to another type of change ('the meaning of a change, compared to what')
-                - the requirement to evaluate change to test if a weight update improved the solution ('meaning of a change, compared to the previous solution success')
+                - the requirement to identify change to test if a weight update improved the solution ('meaning of a change, compared to the previous solution success')
             - apply general solution metrics as filters of possible solution components & further inputs to derive problem structures
               - apply general solution metrics like accuracy (with possible input solution components like 'specific equivalence' with possible inputs like 'equivalent structures')
             - identify rules & inject those rules as prior knowledge: 
