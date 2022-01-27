@@ -644,6 +644,18 @@
 
   - add to solution automation workflows
 
+    - identify common structures of problem-solving structures (like solutions or solution automation workflows) that can be found/derived/generated first given their probable usefulness for other problem-solving structures
+      - example: the following workflows to solve a problem like 'find a prediction function' would have some structures in common, such as a 'function that is changed until its the solution function', 'solution components', and 'variables'
+        - identify variables of problem space and change until solution function is found
+        - identify previous solutions to similar problems and change previous solutions until original problem is solved
+        - identify requirements of solution and identify structures that can fulfill those requirements as possible solution components, combining them until a solution is found
+        - identify structures that can be combined like interactive, connected, & probable structures and apply them in combinations as solution components until a solution is found
+        - identify variables that solve subsets of the problem or sub-problems and combine those variables in the way that those subsets or sub-problems interact
+      - solving for the common structures (the relevant variables or a filtered list of variables to test, the solution components, and a base function that can be adjacently changed to create the solution function are useful structures to find/derive/build first, after which other workflows can be applied to filter those structures
+      - related workflows:
+        - these workflows can be applied simultaneously and can inform the other workflows (when a 'trial & error' workflow identifies a sub-optimal solution, that can be filtered out in other workflows being applied simultaneously)
+        - this set of coordinating workflows can be derived, as workflows that are probably capable of producing information that would assist the other workflows in the set in deriving information
+
     - identify structures that can support variation (like solution automation workflows & their implementations) without degrading their structure as initial prioritized targets for variation (like workflow implementation variables) to apply when generating new problem-solving structures from a base/origin problem-solving structure (like solution automation workflows & their implementations), as indicated in the next solution automation workflow
       - identify that solution automation workflows can support high variation without violating their definition, so applying changes to these workflows is likely to produce other valid workflows
       - example: 'break a problem into sub-problems & merge sub-solutions' is a workflow that can act like an interface bc it can be implemented in many different ways without violating its definition
