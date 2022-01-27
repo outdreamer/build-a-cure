@@ -570,7 +570,8 @@
             - a 'combination into one output' -> 'tree' + 'overlap' -> 'network' + 'select/summarize/filter' -> 'neural network' connection structure for intents like 'find structure to integrate multiple outputs of trees'
           - can it support finding common distortion functions of features like 'corruption around a symmetry'
           - can it support identifying useful structures as particularly powerful structures applicable across neural networks/intents/problems, and finding alternative optimal paths to generate these useful structures like the following paths (which are solution automation workflows), if these concepts/structures like 'useful structures' and 'insights' are injected as inputs or built in to the network structure emergently by creating a network that priorities creating/finding/applying useful structures or by other function sets amounting to the same
-            - find structures like 'similar' that implement/enable core problem-solving intent functions like 'connect', such as finding structures with similarities that may be relevant/useful in 'connecting the problem/solution'
+            - apply useful structures like input/output sequences to problem-solving structures like problem-solving intent functions
+              - find structures like 'similar' that implement/enable or are inputs to core problem-solving intent functions like 'connect', such as finding structures with similarities that may be relevant/useful in 'connecting the problem/solution'
             - find alternate structures of 'usefulness', like structures of 'obviousness', such as structures which make clusters linearly separable or highlight differences by maximizing them, & developing functions to find these structures
             - start by solving a unit case & generalize
               - start by solving for a function to find functions to connect input/output pairs that are connectible with adjacent/simple transforms, and find a function to generalize unit cases (generalize by 'removing specific problem attribute values such as inputs or requirements, like the number of inputs') and apply this function to the first function
@@ -639,7 +640,18 @@
                   - add decompose operation
                     - add feature split/filter operations to create small features
 
+    - write example of code as a set of parallel sequences
+
   - add to solution automation workflows
+
+    - identify structures that can support variation (like solution automation workflows) without degrading their structure as initial prioritized targets for variation to apply when generating new problem-solving structures like solution automation workflows, as in the next solution automation workflow
+
+    - identify structures of problem/solutions (like a sub-problem) that can be used in place of other structures (like all sub-problems) if enough variation is applied to make it similarly useful for a particular solution automation workflow using the original structure (like 'break problem into sub-problems') to generate other solution automation workflows (like 'identify & solve a particularly important sub-problem to make the other sub-problems trivial/solved/irrelevant')
+      - examples of functions/variables to apply to the sub-problem to make it similarly useful as all sub-problems:
+        - abstracting the sub-problem
+        - identifying the most important sub-problem, such as an input sub-problem required to solve other sub-problems
+        - identifying the sub-problem type to identify the types that other sub-problems are less likely to be, as if theyre different from the other sub-problem, theyre likelier to differ in attributes like problem type as well
+      - generative function of this workflow: apply 'change' structures to the original solution automation workflow ('break a problem into subproblems & merge sub-solutions')
 
     - identify variables of structures of state changes between problem/solution which form solution automation workflows that are useful such as a 'linear connection' (find interim states to connect problem input & solution output) and 'angular connection' (find alternate system to convert to & back from) and 'parallel connection' (convert both problem/solution to different alternate system and solve problem there) and 'extended linear connection' (find cause of problem inputs or cause of solution outputs) and 'connective lines' (find solution components or find interactive components) or 'filtering solutions by reducing items in a set to a single output' (joining sequences with a fixed endpoint & traversing/reducing items, like a tree) or 'injecting different/additional inputs/outputs or variables' (increasing/reducing the problem/solution dimensions) and apply these variables to generate new solution automation workflows
 
