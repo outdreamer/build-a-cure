@@ -644,13 +644,18 @@
 
   - add to solution automation workflows
 
-    - identify structures that can support variation (like solution automation workflows) without degrading their structure as initial prioritized targets for variation to apply when generating new problem-solving structures from a base/origin problem-solving structure (like solution automation workflows), as indicated in the next solution automation workflow
+    - identify structures that can support variation (like solution automation workflows & their implementations) without degrading their structure as initial prioritized targets for variation (like workflow implementation variables) to apply when generating new problem-solving structures from a base/origin problem-solving structure (like solution automation workflows & their implementations), as indicated in the next solution automation workflow
       - identify that solution automation workflows can support high variation without violating their definition, so applying changes to these workflows is likely to produce other valid workflows
       - example: 'break a problem into sub-problems & merge sub-solutions' is a workflow that can act like an interface bc it can be implemented in many different ways without violating its definition
         - variables of this workflow's implementation include:
           - the sequence of sub-problems, the sub-problems themselves, the breaking/merging functions, the sub-problem solving functions
         - identifying variables of a workflow's implementation are a useful step in filtering the implementations as solutions to the 'select a workflow implementation' problem-solving intent which is solved by the interface query
         - this workflow includes the step of 'identifying & applying variables of a workflow's implementation to generate solutions to the "select a workflow implementation" problem-solving intent & then filtering those implementations to design the interface query that implements the implementation of the workflow'
+        - given these variables, the workflow itself can be adjusted, not just its implementation
+          - because some sub-problems may be more important to solve than others, it's possible that 'selecting one sub-problem to start when solving sub-problems' or 'selecting one sub-problem to solve to solve the original problem' are alternate workflows, if enough variation is applied to make these steps similarly useful as the original step
+        - to make these steps similarly useful as the original step, applied functions/structures need to have a reason why theyre applied (a reason why applying them would be useful, such as a reason why it would make the step similar to the original step)
+        - example: 'abstracting the sub-problem' would make the sub-problem more useful bc a general solution is more potentially useful for 'solving other/related problems' and for 'deriving abstract insights', both of which are useful problem-solving intents that may be fulfilled by 'abstracting the sub-problem'
+        - applying such functions as 'abstracting the sub-problem' might make the new step 'solve a particularly important sub-problem' similarly useful as the original step 'solve all sub-problems'
 
     - identify structures of problem/solutions (like a sub-problem) that can be used in place of other structures (like all sub-problems) if enough variation is applied to make it similarly useful for a particular solution automation workflow using the original structure (like 'break problem into sub-problems') to generate other solution automation workflows (like 'identify & solve a particularly important sub-problem to make the other sub-problems trivial/solved/irrelevant')
       - examples of functions/variables to apply to the sub-problem to make it similarly useful as all sub-problems:
