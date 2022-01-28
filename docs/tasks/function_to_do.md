@@ -644,8 +644,11 @@
 
   - add to solution automation workflows
 
-    - identify common structures of problem-solving structures (like solutions or solution automation workflows) that can be found/derived/generated first given their probable usefulness for other problem-solving structures
-      - example: the following workflows to solve a problem like 'find a prediction function' would have some structures in common, such as a 'function that is changed until its the solution function', 'solution components', and 'variables'
+    - find/derive/apply requirements of problem/solution structures as a filter of structures that can fulfill problem-solving intents (like 'connect problem/solution')
+      - example: find useful structures like core functions that can fulfill common problem-solving intents (like 'connect', 'reduce', 'break' applied to problem/solution structures) as initial/core components of solutions to filter the set of possible components that can be used in solutions, as functions that can be combined to fulfill these common problem-solving intents are likelier to be legitimate/probable/realistic than other functions, as these intents are known to be fulfillable with any problem, so a solution is likely to adjacently use functions that can be combined to fulfill these common problem-solving intents
+
+    - identify probably useful structures (like common structures) of problem-solving structures (like solutions or solution automation workflows) that can be found/derived/generated first given their probable usefulness for other problem-solving structures
+      - example: the following workflows to solve a problem like 'find a prediction function' would have some structures in common, such as a 'function that is changed until its the solution function', 'solution components', and 'variables', and the same can be said of other problem-solving structures like solutions or workflow implementations
         - identify variables of problem space and change until solution function is found
         - identify previous solutions to similar problems and change previous solutions until original problem is solved
         - identify requirements of solution and identify structures that can fulfill those requirements as possible solution components, combining them until a solution is found
