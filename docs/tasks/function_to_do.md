@@ -644,12 +644,12 @@
 
   - add to solution automation workflows
 
-    - identify identifying/determining/generative variables of useful structures (like opposites, spectrums, networks) of useful structures that are found to be common across problem-solving structures 
+    - identify identifying/determining/generative variables of useful structures (like opposites, spectrums, networks) of useful structures that are found to be common across problem-solving structures to 'find/derive/generate new solution automation workflows' 
       - example: 
         - dichotomies/opposites like the dichotomy between 'variables/requirements' and 'generative/limiting functions' are particularly useful in problem-solving
         - networks like 'equivalent alternate interchangeable functions' or 'functions forming interaction layers' are particularly useful in problem-solving
         - interfaces like 'structures that can support high variation' are particularly useful in problem-solving
-      - the variables of these structures are:
+      - the interface variables of these structures are:
         - corresponding math structures of each structure (an 'opposite' structure might have a corresponding math structure of a 'decision tree fork' if they are mutually exclusive or a 'spectrum' if its a continuum)
         - structural variables
           - an 'opposite' structure can vary in terms of its exclusivity, continuity & other variables
@@ -658,10 +658,14 @@
         - what interface structures can be used to construct them (a 'network' is a 'set of connection pairs', an 'interface' is a 'change-supporting structure')
         - what intents theyre adjacently useful for (an interface is adjacently useful for 'compare intents', a 'network' is useful for 'finding connecting paths' and 'finding similarities/differences between network nodes')
         - what structures they can adjacently be converted into (an interface can be adjacently converted into a 'network of networks')
+      - this workflow finds interface structures ('variables') fulfilling useful intents ('identify', 'generate') of interface structures (useful structural interface structures like 'opposites') applied to problem/solution structures ('variables/requirements') in order to fulfill problem-solving intents like 'find/derive/generate new solution automation workflows', and applies optimized variable values as filters (such as favoring core structures) to find probably useful structures
 
-    - find/derive/apply requirements of problem/solution structures as a filter of structures that can fulfill problem-solving intents (like 'connect problem/solution')
+    - find/derive/apply limiting structures like 'requirements of problem/solution structures' as a filter of structures that can fulfill problem-solving intents (like 'connect problem/solution')
       - example: find useful structures like core functions that can fulfill common problem-solving intents (like 'connect', 'reduce', 'break' applied to problem/solution structures) as initial/core components of solutions in the problem system to filter the set of possible components that can be used in solutions, as functions that can be combined to fulfill these common problem-solving intents are likelier to be legitimate/probable/realistic than other functions, as these intents are known to be fulfillable with any problem, so a solution is likely to adjacently use functions that can be combined to fulfill these common problem-solving intents
       - meaning: any solution whose core functions cant be used to build a solution using another solution automation workflow is unlikely to be an optimal solution bc its unrealistic to find a system where one workflow can be applied and another cant
+      - this is related to applying interface structures to other interfaces, applying the requirement that if a structure is actually compliant with the definition of an interface, it will have a corresponding structure as that found on other interfaces
+        - the difference is that the requirement is being applied to interchangeables like functions that can fulfill problem-solving intents, rather than interchangeables like interfaces
+      - this uses useful functions like 'applying similar structures' ('limiting structures' to fulfill similar intents as limiting such as 'filtering', given the structural similarity between limits/filters)
 
     - identify probably useful structures (like common structures) of problem-solving structures (like solutions or solution automation workflows) that can be found/derived/generated first given their probable usefulness for other problem-solving structures
       - example: the following workflows to solve a problem like 'find a prediction function' would have some structures in common, such as a 'function that is changed until its the solution function', 'solution components', and 'variables', and the same can be said of other problem-solving structures like solutions or workflow implementations
