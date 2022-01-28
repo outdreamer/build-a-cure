@@ -644,8 +644,24 @@
 
   - add to solution automation workflows
 
+    - identify identifying/determining/generative variables of useful structures (like opposites, spectrums, networks) of useful structures that are found to be common across problem-solving structures 
+      - example: 
+        - dichotomies/opposites like the dichotomy between 'variables/requirements' and 'generative/limiting functions' are particularly useful in problem-solving
+        - networks like 'equivalent alternate interchangeable functions' or 'functions forming interaction layers' are particularly useful in problem-solving
+        - interfaces like 'structures that can support high variation' are particularly useful in problem-solving
+      - the variables of these structures are:
+        - corresponding math structures of each structure (an 'opposite' structure might have a corresponding math structure of a 'decision tree fork' if they are mutually exclusive or a 'spectrum' if its a continuum)
+        - structural variables
+          - an 'opposite' structure can vary in terms of its exclusivity, continuity & other variables
+        - other interface variables
+          - a structure can vary in terms of its usefulness (composability, coordination with other structures, uniqueness, commonness of usage intents for which the structure is optimal)
+        - what interface structures can be used to construct them (a 'network' is a 'set of connection pairs', an 'interface' is a 'change-supporting structure')
+        - what intents theyre adjacently useful for (an interface is adjacently useful for 'compare intents', a 'network' is useful for 'finding connecting paths' and 'finding similarities/differences between network nodes')
+        - what structures they can adjacently be converted into (an interface can be adjacently converted into a 'network of networks')
+
     - find/derive/apply requirements of problem/solution structures as a filter of structures that can fulfill problem-solving intents (like 'connect problem/solution')
-      - example: find useful structures like core functions that can fulfill common problem-solving intents (like 'connect', 'reduce', 'break' applied to problem/solution structures) as initial/core components of solutions to filter the set of possible components that can be used in solutions, as functions that can be combined to fulfill these common problem-solving intents are likelier to be legitimate/probable/realistic than other functions, as these intents are known to be fulfillable with any problem, so a solution is likely to adjacently use functions that can be combined to fulfill these common problem-solving intents
+      - example: find useful structures like core functions that can fulfill common problem-solving intents (like 'connect', 'reduce', 'break' applied to problem/solution structures) as initial/core components of solutions in the problem system to filter the set of possible components that can be used in solutions, as functions that can be combined to fulfill these common problem-solving intents are likelier to be legitimate/probable/realistic than other functions, as these intents are known to be fulfillable with any problem, so a solution is likely to adjacently use functions that can be combined to fulfill these common problem-solving intents
+      - meaning: any solution whose core functions cant be used to build a solution using another solution automation workflow is unlikely to be an optimal solution bc its unrealistic to find a system where one workflow can be applied and another cant
 
     - identify probably useful structures (like common structures) of problem-solving structures (like solutions or solution automation workflows) that can be found/derived/generated first given their probable usefulness for other problem-solving structures
       - example: the following workflows to solve a problem like 'find a prediction function' would have some structures in common, such as a 'function that is changed until its the solution function', 'solution components', and 'variables', and the same can be said of other problem-solving structures like solutions or workflow implementations
