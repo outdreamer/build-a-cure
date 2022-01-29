@@ -1575,6 +1575,15 @@
   - add to problem-solving intents
     - solve for relevant structures to solve a problem 
 
+  - add to implementation methods
+    - to automatically find a structure like 'intent' in a set of functions:
+      - test usefulness of functions for known intents
+        - workflow: apply the original problem output ('intents') as input, 'testing' as a solution filter to find functions for each intent, reversing the problem direction
+      - index functions known to be useful for common/core intents and index other functions by similarity to these
+        - workflow: identify common/core problems to solve or common/core solutions to solve for, and apply an assumption of 'solution similarity' of other solutions to generate other solutions once those common/core solutions are solved for
+      - index function intents as the function requirements (resources like computation) and function outputs (use requirements, use requirements to generate outputs, etc)
+        - workflow: apply related/similar structures instead of the original structure
+
   - add to predictions
     - where you say that 'activity interacting with a neuron is relevant in its functionality': https://www.quantamagazine.org/how-computationally-complex-is-a-single-neuron-20210902/
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
