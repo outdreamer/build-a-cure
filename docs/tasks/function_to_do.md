@@ -644,6 +644,13 @@
 
   - add to solution automation workflows
 
+    - identify problem/solution attributes like 'difficulty' that are especially useful in determining probable related structures like 'solution structures' of solutions related to that problem
+      - example: identify common structures of 'hard problems', like where structures of understanding (structures like 'interfaces', 'interaction levels', 'important concepts', or 'sub-systems') are missing, making it falsely appear difficult
+        - for example, the p=np problem seems difficult because people arent working with the concepts or interaction levels that would make the problem trivial to solve (for example, the classification of problems is incomplete, meaning the interaction level of problem types relevant to that problem is incomplete, and the mapping between problem type & absolute computation complexity (meaning calculated across all equivalently optimal computation methods) is similarly incomplete or a method to infer these mappings logically is not available
+
+    - identify useful structures like 'states adjacent to solutions which include info that makes calculating the remaining info trivial' that are useful alternative problem/solution structures like 'proxy solution targets' to replace those problem/solution structures in other problem/solution structures like solution automation workflows/interface queries in order to fulfill the problem-solving intent of 'generate new solution automation workflows' or 'generate new solutinos'
+      - example: proximity to solved problems or states which are adjacent to solutions (states like 'remaining information is adjacently determinable from existing information')
+
     - identify identifying/determining/generative variables of useful structures (like opposites, spectrums, networks) of useful structures that are found to be common across problem-solving structures to fulfill problem-solving intents like 'find/derive/generate new solution automation workflows' and 'finding useful structures to adjacently fulfill problem-solving intents'
       - example: 
         - dichotomies/opposites like the dichotomy between 'variables/requirements' and 'generative/limiting functions' are particularly useful in problem-solving
