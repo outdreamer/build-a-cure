@@ -651,6 +651,17 @@
         - if its not true that the structures of understanding we have are inadequate to solve this problem, then all possible combinations of these known structures of understanding have not been applied, and solution automation workflows can be applied to these known structures to test each combination or filter all combinations for the more probably successful combinations using some workflow that filters solutions or some other workflow more efficient & effective than trial & error
         - for example, concepts like 'recursion', 'self-reference', 'completeness', 'closed system', 'ratio of required computation to computability', and other concepts relevant to this problems may be inadequate to understand the problem
           - other concepts can be generated to combine with these known concepts in new ways
+          - given the definition routes of these concepts:
+            - recursion: function self-reference
+            - self-reference: function to differentiate internal from external structures (identify a boundary between internal/external structures)
+            - completeness: fulfillment of a set definition
+            - closed system: system that does not interact with other systems
+            - ratio of required computation to computability: physical resource limitations
+          - they can be combined or combined with other concepts to generate new concepts:
+            - an existing combination is the combination of 'infinite' with the concept of 'recursion' to create an 'infinite recursion' error
+            - a combination of these known concepts would be an 'incomplete closed system' which eventually degrades into chaos as it cannot sustain its independence from other systems
+            - a new conceptual combination might be a 'universe' combined with a 'ratio of required computation to computability' to create the concepts of 'computing a plausible universe where this computation is not required', or a 'universe-simulation machine to compute this required computation' or 'high variation or highly chaotic systems (like black holes and quantum particles) where this computation is likelier to be computable' or the 'limits of entropy reduction in creating a machine capable of such organization as that which would be able to compute the computation, applying "structures of organization" as an alternative metric to complexity when evaluating computability of a computation' (can a machine be created that is capable of such organization that the computation is more computable)
+
       - differentiation: this workflow finds attributes that are particularly useful for the intent of 'differentiation of usefulness of structures' which is useful for problem-solving intents like 'finding useful structures'
 
     - identify useful structures like 'states adjacent to solutions which include info that makes calculating the remaining info trivial' that are useful alternative problem/solution structures like 'proxy solution targets' to replace those problem/solution structures in other problem/solution structures like solution automation workflows/interface queries in order to fulfill the problem-solving intent of 'generate new solution automation workflows' or 'generate new solutinos'
