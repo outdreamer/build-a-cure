@@ -640,14 +640,15 @@
                   - add decompose operation
                     - add feature split/filter operations to create small features
 
-    - write example of code as a set of parallel sequences
+    - write example of code as a set of parallel sequences on different abstraction/interaction/intent levels and in different formats (app/function, task-oriented/core, requirement/implementation, change type/variable map, uniqueness/usefulness, network/tree/sequence) 
 
   - add to solution automation workflows
 
     - apply intent as a filter of possible solutions to fulfill the problem-solving intent of 'filter possible solutions'
       - if there is no reason to compute a particular solution to a problem (no agents have incentives to compute that), it is unlikely to be a component of a solution or a solution itself
       - example: if the value obtained by solving a problem (like 'count all the particles in the universe with this property') is minimal (like a value unit of 1) and the cost of computing the solution is infinite, it is unlikely that this problem would ever be solved, so its solution is unlikely to be a component of another solution (like 'predicting what materials will exist on a particular planet') 
-        - the solution is filtered out by applying 'intent' - there will always be more useful problems to solve ('predict material ratios in the universe') as a component of a solution to the original problem ('predicting materials on a planet'), so the problem 'count all the particles in the universe with this property' is unlikely to ever be solved bc it will always be less useful than solving other problems, so that problem can be filtered out of possible sub-problems to solve, and its solution can be filtered out as a component of solutions to other problems
+        - the solution is filtered out by applying 'intent' - there will always be more useful problems to solve ('predict material ratios in the universe') as a component of a solution to the original problem ('predicting materials on a planet'), so the problem 'count all the particles in the universe with this property' is unlikely to ever be solved bc it will always be less useful than solving other problems, so that problem can be filtered out of possible sub-problems to solve in order to solve another problem, and its solution can be filtered out as a component of solutions to other problems
+      - differentiation: this workflow identifies intent as a useful filter to identify possible useful sub-problems & solution components, to fulfill the problem-solving intent of 'finding useful structures to fulfill problem-solving intents'
 
     - identify problem/solution attributes like 'difficulty' that are especially useful in determining probable related structures like 'solution structures' of solutions related to that problem as these attributes are particularly useful through being particularly differentiating of relevant structures, such as structures of understanding
       - example: identify common structures of 'hard problems', like where structures of understanding (structures like 'interfaces', 'interaction levels', 'important concepts', or 'sub-systems') are missing, making it falsely appear difficult
@@ -1579,6 +1580,14 @@
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
   - add to science
+    - 'ratio of evolution' - rather than trying to address each bio-system vuln as it is discovered to be used by a particular pathogen or otherwise beneficial to a particular condition, the ratio of the bio-system's evolution to pathogens' evolution and conditions' benefit should be optimized so that the bio-system can evolve faster than pathogens
+      - this means limiting the mechanism of evolution/learning of pathogens (modifying themselves in ways that kill hosts) at various points of attack
+        - the success of a pathogen in killing any particular host can be prevented so the pathogen doesnt learn how to kill hosts
+          - this would require advanced technologies like creating blood to replace existing blood, customized treatments per patient, etc
+        - the pathogen can alternatively be tricked into deciding its been successful at killing the host, as a way of preventing it from learning how to kill hosts (produce false success signals for its intent that dont harm the host)
+        - the pathogen can alternatively be tricked into deciding a different strategy which doesnt harm the host is more successful at its intents (obtaining energy, growing, etc)
+        - the pathogen can alternatively be limited in its learning functionality by removing genes in pathogens that allow this learning, such as limiting pathogens to learn self-destruct functions, or limiting pathogens to only learn by testing rather than by using/borrowing other DNA external to itself, so its learning rate must necessarily be slower than the host cells' learning
+
     - 'sets of n particles' that act in aligned ways like:
       - 'components of a temporary local field/lattice having n points'
       - 'a connection created from equivalence structures' based on:
