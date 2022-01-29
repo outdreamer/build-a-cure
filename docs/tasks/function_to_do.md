@@ -644,6 +644,17 @@
 
   - add to solution automation workflows
 
+    - identify structures that would be useful for implementing a particular set of structures (like the 'build' and 'test' functions) implementing a solution automation workflow, as a base implementation to apply changes to when finding more optimal implementations of the workflow
+      - example: if a workflow uses the 'build' and 'test' dichotomy, identifying which particular tests would be useful for which particular metrics is a useful structure to implement that workflow
+        - for example, a test function that can tell 'how incorrect' (the degree of incorrectness) a particular possible solution is would be useful for workflows where the workflow involves incremental changes to a base solution, or a workflow where the test feedback is applied to generate differences from an input solution
+
+    - identify structures where substitutions can be made to fulfill problem-solving intents like 'generate new solution automation workflows using those structures'
+      - example: a useful dichotomy is the 'build' and 'test' dichotomy, where a structure is created and a test is used to determine if that structure is useful for some intent/metric (similar to the 'build' and 'limit' dichotomy)
+        - identifying that the 'test' component of that dichotomy (which is useful for various solution automation workflows involving 'filtering generated solutions') can be injected at multiple positions in the workflow is useful for generating other workflows
+        - for example, the test can be done after the possible solution is generated
+        - the test can also be done during the building of the possible solution
+        - additionally, the test can be used to derive a limiting structure indicating a requirement used to reverse-engineer the possible solutions that start with that test-derived requirement as an input, rather than a function applied to the output
+
     - apply intent as a filter of possible solutions to fulfill the problem-solving intent of 'filter possible solutions'
       - if there is no reason to compute a particular solution to a problem (no agents have incentives to compute that), it is unlikely to be a component of a solution or a solution itself
       - example: if the value obtained by solving a problem (like 'count all the particles in the universe with this property') is minimal (like a value unit of 1) and the cost of computing the solution is infinite, it is unlikely that this problem would ever be solved, so its solution is unlikely to be a component of another solution (like 'predicting what materials will exist on a particular planet') 
