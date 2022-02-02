@@ -647,6 +647,28 @@
 
   - add to solution automation workflows
 
+    - identify alternatives to useful structures (like adjacencies) such as structures that contradict those structures in their metric of usefulness
+      - example: adjacencies are useful bc they are 'low-effort' solutions to create another useful structure (requiring minimal effort such as minimal conversion functions)
+        - the reason they are useful is that they require minimal resources
+        - an opposing structure would be a structure that requires non-minimal resources
+        - how would such a structure be useful?
+          - if it creates other useful structures before/while/after those non-minimal resources are being found/derived/built or used
+          - for example, if learning how to solve a particular problem pays dividends that using an existing solution does not, this is a more effective & possibly more useful structure than the existing solution, even though its adjacent
+      - deriving other alternatives to other useful structures can similarly apply opposing structures to their solution metrics (the reason why theyre useful, or the metrics they fulfill)
+
+    - identify alternate paths (in the form of interface queries) to useful structures and variables of these alternate paths to generate useful structures to fulfill various problem-solving intents
+      - example: an alternate path to derive the structure of an 'interface' is:
+        - applying core structures (like a line) and applying core changes (like vacillation in another dimension, meaning 'perpendicular' to that line or 'embedded' in the changes of the line like 'changes in change rates of the line') to those core structures by applying useful structures like similarities (vacillation with an average aligning with the line) to the core change types, to generate the concept of a symmetry as a base for other change types
+        - this alternate path uses the core interface (core structures), the change interface (changes to core structures), the meaning interface (applying useful structures to core change types), then formats the output on the change interface (base for other change types), all on the structure interface
+        - its also derivable as:
+          - the 'unit change applied to the unit one-dimensional structure'
+          - the 'alternate structure (vertical line vs. horizontal line) used to create a unit two-dimensional closed shape using right angles'
+        - alternate paths to derive 'recursion' or 'self-reference' as a useful structure is:
+          - deriving the structure of 'fractals' by applying the core function 'embed' to the structure of an interface (apply a 'change' to a 'change' to get the 'change rate of a change')
+        - these two structures are useful opposing structures which can act as an alternative to other opposing structures (like solutions vs requirements, or changes vs limits, or locals/unit/specific/one vs. absolutes/extreme/abstract/all)
+        - variables of these useful structures can include:
+          - adjacent interface structures that can create useful structures like core structures, as core structures are particularly useful given that theyre a primary interface
+
     - identify variables of problem-solving intents to quickly find a set of problem-solving intents that are more efficiently fulfillable with an interface query than other sets of intents
       - example: problem-solving intents like 'changing an existing solution to improve a solution metric value (optimizing/improving a solution)' can be more efficient than 'filtering the set of possible solutions' in cases where the existing solutions is already close to optimal
       - variables of these intents include the interface structures used in the intent, the adjacent functions fulfilling the intent, the general/core/other function types used in the intent, the workflows which the intent can be effectively used in, the problem/solution structures used in the intent, the other problem-solving intents helped or fulfilled by the intent, the variability of implementations of the intent, the efficiency of most implementations implementing the intent
