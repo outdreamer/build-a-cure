@@ -645,6 +645,30 @@
 
     - write example of code as a set of parallel sequences on different abstraction/interaction/intent levels and in different formats (app/function, task-oriented/core, requirement/implementation, change type/variable map, uniqueness/usefulness, network/tree/sequence) 
 
+    - write definitions of interfaces in terms of other interfaces
+      - example:
+        - the math interface is useful bc it involves absolute structural facts regarding how structures organize, interact, & stabilize ('math' means 'specific standardized referential structural stability/measurability'), where useful structures on the math interface are other interface structures like similarities (alignments, commonalities, core components, 'lack of structure' like zero and randomness, 'symmetry structures' like zero and averages, intersections, overlaps), etc
+          - for example, the overlaps through 'aligning intersections' with numbers like (-1, 0, 1, 2, 3, 5, 6) identify unit or unit-adjacent ('first-in-a-sequence' or 'first-of-type') numbers that appear often in core formulas
+          - given that there have to be some constants that are useful for these formulas, a number has to exist that is particularly useful for these formulas, it doesnt necessarily mean anything beyond this requirement
+          - however its likelier to mean that the number is useful in another way (its a core or unit number, it has useful unique attributes like its factors, it has a particular relationship with another number that is useful like being the opposite of another number or the first number of a type/sequence or adjacent to or different from another number, etc)
+          - for example, the 'meaning' of the 'reason' why 4 is an 'integer factor of 20' is that:
+            - its different from non-factors like 3 and different from factors that cant be repeated to make 4 a factor (like 5) and it has an 'integer' attribute which makes it possible to multiply by another integer to create 20
+          - the 'meaning' of the 'reason' why 4/5 are integer co-factors of 20 is that other adjacent integer co-factors (10, 2), (20, 1) can be changed in a way that makes it required for them to be integer co-factors as well and also these changes follow a pattern (graph of (20,1), (10, 2), (5, 4), etc) that strongly imply (but dont require) 4/5 to be integer co-factors
+        - the limit of the math interface is determined by its definition 
+          - wherever a numerical reference cant be applied to specifically & accurately derive/describe a structure (like structures in a black hole, structures of uncertainty like structures of incomputability or structures of immeasurability or structures of instability, or predicting a number in a perfectly random sequence with perfect accuracy)
+        - the math interface can be written in terms of these other interface structures (overlaps, limits, requirements, etc) which help explain its meaning/usefulness to other interfaces & interface operations
+      - the structure interface means 'useful abstractions of structures such as ambiguities, efficiencies, optimizations, alternatives allow interfaces to interact in a standardized way using these cross-interface structures'
+      - the concept interface means 'concepts are a useful structure to compress other structures like functions to fulfill intents like finding/building/deriving a structure'
+      - the pattern interface means 'frequently occurring structures tend to be more useful in finding/building/deriving other structures'
+      - the potential interface means 'the certainty/uncertainty of a structure can be estimated/approximated/predicted using structures like proxies & approximations when minimal information is not reached to measure it'
+      - the info interface means 'specific examples of structures are useful for finding/building/deriving other structures'
+      - the cause interface means 'interface structures like time, adjacence, uniqueness, energy, complexity, & structure are useful in determining causal structures like sequence of operations & possible alternatives/ambiguities'
+      - the intent interface means 'the intent of a structure (like a function) is a useful way to compress a structure to fulfill intents like finding/building/deriving that structure'
+      - the logic interface means 'structures follow absolute rules (like how when only one solution hasnt been tried and all others have failed, the remaining solution is correct)'
+      - the function interface means 'logical units (functions) applied to change structures (variables) are useful for many intents (like find/build/derive variable interactions using input/output sequences)'
+      - the change interface means 'useful structures like structural references (connections, comparisons) can be usefully formatted in terms of changes applied to another structure, as changes (differences) are a core useful structure capturing high variation and every structure can be adjacently converted into every other structure when formatted in terms of their similarities/differences to other structures'
+      - the meaning interface means 'interface structures like structure logic, math, cause, intent, and change follow absolute rules fulfilling various useful intents like organization/interaction'
+
   - add to solution automation workflows
 
     - identify alternatives to useful structures (like adjacencies) such as structures that contradict those structures in their metric of usefulness
