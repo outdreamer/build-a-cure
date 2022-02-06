@@ -713,11 +713,22 @@
       - each interface is contextually useful
         - for example, the 'cause' interface is useful while/where there is time (meaning a lack of possibility of multiple timelines, lack of possibility of switching between states in a non-sequential manner, like in a network structure or all states at once or an approximation of 'all states at once' like the possibility of traversing any state in any order/structure/amount)
 
+    - add to why a language network is insufficient
+      - doesnt describe new concepts not already embedded in the language
+      - doesnt have a reason for not standardizing terms to a common core set or a set of generative functions
+      - doesnt reflect multiple difference types like usage, meaning state changes, evolution of terms, which require different structures to represent
+
   - add to solution automation workflows
+
+    - identify alternate structures to identify variables that can be used to fulfill problem-solving intents like 'generate alternate solutions'
+      - example: 'find a prediction function' can be applied to derive the useful structure of a problem-solving intent like 'find a prediction function for solution-finding methods (interface queries)' by:
+        - connecting it to problem/solution structures to make it a problem-solving intent ('solution-finding methods')
+        - aligning the outputs ('solution finding methods') of the new derived intent with the outputs of functions ('prediction functions') applied to those structures ('predicted structure') so that the 'prediction function outputs' are 'solution finding methods'
+        - connecting it to inputs that would be useful for fulfilling the intent such as 'known solution-finding methods', 'known solution-finding method components', 'known problem-solution differences' etc, which can be derived as the inputs to the output 'solution-finding methods' since any cause or generative function or component or descriptor of a solution-finding method could be used as an input to generate solution-finding methods
 
     - identify useful structures of interface or problem/solution structures like 'degree of deviation from previous known insights' as a useful structure for intents like 'filtering solutions'
       - example: most new insights comply with known insights to some degree and extreme legitimate deviations/contradictions are rare, so any solution or solution component has to use mostly legitimate and probable structures and have minimal deviation from known structures
-        - exceptions to this exist in cases where a new interface is about to be discovered or an unknown threshold is about to be crossed triggering a phase shift, which would indicate a legitimate reason for an extreme legitimate deviation
+        - exceptions to this exist in cases where a new interface is about to be discovered or an unknown threshold is about to be crossed triggering a phase shift that could explain extreme deviations, which would indicate a legitimate reason for an extreme legitimate deviation
         - this degree of deviation/difference can be used to filter out less probable solutions which dont have a reason to justify considering them, such as indications of a hidden interface/threshold or other exception structures
         - the 'state changes of insight sets' is a useful problem/solution structure to predict the next insights discovered
           - applying the core structure of 'set' and 'state' to the core interface structure of 'insight' is one way to derive this useful structure
