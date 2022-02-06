@@ -715,10 +715,13 @@
 
   - add to solution automation workflows
 
-    - identify useful structures like 'degree of deviation from previous known insights' as a useful structure for intents like 'filtering solutions'
+    - identify useful structures of interface or problem/solution structures like 'degree of deviation from previous known insights' as a useful structure for intents like 'filtering solutions'
       - example: most new insights comply with known insights to some degree and extreme legitimate deviations/contradictions are rare, so any solution or solution component has to use mostly legitimate and probable structures and have minimal deviation from known structures
         - exceptions to this exist in cases where a new interface is about to be discovered or an unknown threshold is about to be crossed triggering a phase shift, which would indicate a legitimate reason for an extreme legitimate deviation
-        - this degree of deviation/difference can be used to filter out less probable solutions which dont have a reason to justify considering them such as a hidden interface/threshold or other exception structures
+        - this degree of deviation/difference can be used to filter out less probable solutions which dont have a reason to justify considering them, such as indications of a hidden interface/threshold or other exception structures
+        - the 'state changes of insight sets' is a useful problem/solution structure to predict the next insights discovered
+          - applying the core structure of 'set' and 'state' to the core interface structure of 'insight' is one way to derive this useful structure
+          - another way to derive it is identifying the usefulness of a 'prediction function for the next insight' and applying that useful structure as a way of fulfilling problem-solving intents like 'find new insights to use in solving problems' implemented with common prediction structures like 'applying patterns in existing sequential data to predict the next value in the pattern', substituting 'insight state changes' as the data
 
     - identify useful structures like similarities between alternate solution formats (like 'generative functions' and 'prediction functions') that can be useful for problem-solving intents like 'filter solutions' or 'find probable solution components to build a solution' or 'generate solutions' or 'change the solution-finding method to an alternate substitute'
       - example: identify the potential of any given generative function of a dataset to be converted into the actual solution prediction function and the variables in common of the generative functions that are useful as prediction function substitutes/alternates, as a way of determining alternates to the original solution format, or as a way of filtering probable solutions (solutions are likelier to overlap with generative functions to some degree or otherwise be similar enough to make conversion trivial)
