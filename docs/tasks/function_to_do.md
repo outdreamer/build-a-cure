@@ -714,11 +714,23 @@
         - for example, the 'cause' interface is useful while/where there is time (meaning a lack of possibility of multiple timelines, lack of possibility of switching between states in a non-sequential manner, like in a network structure or all states at once or an approximation of 'all states at once' like the possibility of traversing any state in any order/structure/amount)
 
     - add to why a language network is insufficient
-      - doesnt describe new concepts not already embedded in the language
-      - doesnt have a reason for not standardizing terms to a common core set or a set of generative functions
+      - doesnt describe new concepts not already adjacently embedded in the language
+      - doesnt have a reason for not standardizing terms to a common core set or a set of generative functions, as opposed to including all or most terms in the language
+      - doesnt have a reason for positions other than similarity on one metric, which is inadequate to determine absolute position across all differentiating metrics
       - doesnt reflect multiple difference types like usage, meaning state changes, evolution of terms, which require different structures to represent
+      - alternate formats could include: sub-networks to depict common usage queries of a term & state changes of the usage queries as well as alternate meanings of the term in those alternate usage contexts & synonyms of the term
 
   - add to solution automation workflows
+
+    - identify useful structures (like 'variable value ranges' and 'common variable values') that can be used to fulfill problem-solving intents like 'filter solutions' given the useful structures fulfilled by those structures ('probabilities' determined by 'variable value ranges' and 'common variable values') which are useful for those problem-solving intents
+      - example: identify the range of variation that intents tend to exhibit in a particular system to determine useful structures like probabilities of a particular new intent that differs from the existing intents
+      - differentiation: this workflow applies 'degrees of change' (x fulfills y fulfills problem-solving intent), 'input-output sequences' (x is an input to y is an input to problem-solving intent) or 'specifications' ('filter solutions by probability' is a specification/implementation of problem-solving intent 'filter solutions') of problem-solving intents to find structures that are useful for those intents, 'change degrees', 'input-output sequences', and 'probabilities' being useful interface structures, interface structures being variables that can be altered to create alternate 'structures (like sequences/combinations) of useful structures' to fulfill problem-solving intents
+
+    - identify structures that can determine useful structures (like structures of certainty such as 'probabilities') to fulfill problem-solving intents like 'create a base/template or limiting structure of a solution to fill in using requirements of the solution'
+      - example: identify robust/invariant structures that wont change even when incentivized to do so (even when a variable interaction is incentivized, it still is unlikely to occur in a particular system) as an adjacent structure of truth as 'requirements' (structures that are required to be true given their importance for a particular intent)
+      - generalization: identify alternate proxies of certainty structures with variable degrees of certainty, like the variable certainty of 'certainty structures like requirement structures' to 'certainty-adjacent structures like invariant structures' 'probable structures like common structures and other useful structures', as alternative structures of certainty to apply in solution automation workflows for various problem-solving intents
+        - example: if a structure cant be found by composing certainty structures but can be found by composing certainty-adjacent structures like probable structures, those structures can be used in place of certainty structures while certainty structures are being derived
+        - a further generalization is to find useful structures (like 'networks' or 'spectrums') of useful variables like 'certainty', variables which are a good approximation or alternate of less adjacent variables like 'usefulness' or 'meaning', as these structures of useful structures are themselves useful for intents like 'finding an alternate/adjacent version of a variable value on the field of possible variable values, given that one variable value isnt computable/usable/determinable'
 
     - identify alternate structures to identify variables that can be used to fulfill problem-solving intents like 'generate alternate solutions'
       - example: 'find a prediction function' can be applied to derive the useful structure of a problem-solving intent like 'find a prediction function for solution-finding methods (interface queries)' by:
