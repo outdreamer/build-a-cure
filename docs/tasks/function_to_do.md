@@ -756,6 +756,20 @@
         - there will always be new alternate methods to derive something, given that everything is connected, and derivation methods will always change and be optimized in new ways
         - there will always be problems, and problems are suboptimal differences, so solutions will be new ways of resolving new differences or resolving known differences in new ways
 
+    - alternate solution structures enable alternate problem-solving workflows: 
+      - known optimal state (solution state) and deriving functions to get to that optimal state, or reverse-engineering from that solution state, or identifying interim structures between problem/solution states
+      - known functions (like functions that reduce a structure like a problem) to improve problem state toward improved/solution state which can be applied in various structures like sequences to get to the improved/solution state
+      - derive optimal states and derive the states surrounding them to build interaction structures (state sets that can fill the field of possible states)
+      - derive optimal states and other states (like core states) and derive the changes of other states that would produce the optimal states
+      - identify 'directions of improving changes' and make changes in those directions until a state is found that fulfills the solution metric value (the core function behind gradient descent)
+      - identify 'maximal change' state-changing functions to make changes quickly to quickly identify if a change in a direction is useful
+      - identify 'optimization patterns' (like whether a solution state is frequently surrounded by error states or what variables of differences produce optimal states/improvements) and apply to fill a field of possible states with these state patterns
+      - optimal positions (states), changes (functions, differences), patterns (abstract functions) are core structures, and when applied to useful structures like optimization can be used to derive related (alternate/input) optimization structures
+      - a function network to apply changes to the problem/solution can be more useful than a function sequence to connect problem/solution bc the function network can make changes in parallel, which may identify an alternate version of an optimal state, an alternate problem that is easier to solve, an alternate solution metric, or another problem/solution structure that may be more useful than a function sequence would have found, even if the value of the function sequence was more obvious in adequately fulfilling a solution automation workflow
+      - out of all the equivalent alternate solution automation workflows (equivalent for their ability to solve problems with variables like available info, problem-solving intents fulfilled, core interaction functions, solution success cause, success metrics of the workflow against various problem types, etc), identify endpoints and changes applied to these endpoints that filter the workflows to find the optimal workflows
+      - identify how to adapt a workflow when one requirement of the workflow is missing
+      - use alternate structures to find solutions (identify input/output structures of a solution to find a solution, identify reason for a solution to exist and a system having that reason, etc)
+
   - add to solution automation workflows
 
     - identify useful structures (like questions particularly useful for identifying errors as in 'filtering information for errors') that can be applied to optimize any solution-finding method or solution
