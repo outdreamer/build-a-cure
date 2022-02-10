@@ -625,6 +625,10 @@
           - whether the network can identify insights about its own structure like 'a network is insufficient to describe its own interactions with other networks'
             - 'inputs' like injecting interface structures like concepts like 'networks' into a neural net along with the data set input features might produce this functionality
             - 'network structures' like 'giving every node the ability to connect with every other node', 'conducting regular global communications', 'abstracting features', 'allowing the network to generate other networks' could also amount to the same functionality
+          - whether the network can identify problems like 'over-weighting common data as if its more important bc of that commonness, given statistics of the data set and given that default neural networks treat commonness as equivalent to importance' and correct them with solution structures like 'over-weighting less common but equally valid data that hurts the accuracy of the network in cases where accuracy is required (the model cant be generalized so much that it ignores these outliers if the solution metrics are to be achieved)' and convert those target solution structures into neural network structures like 'guaranteed protected or isolated weight paths that allow the outliers to be correctly labeled, once a weight path/tree is identified as being able to correctly identify an outlier or other example type in a way that doesnt contradict the rest of the model or can coexist with the rest of the model as it uses the same variables in a significantly different combination that would be generalized out if the network didnt have protection structures in place, to avoid updating certain paths in the network where those paths are useful for some intent that would be invalidated by allowing them to be updated' or an 'enforced/required layer of all possible outcome variants (distorted members of a class) before the final pooling/selection layers so that all possible outcomes in the data set are always given some probability at which point this probability can be changed to account for prioritization (prioritizing structures like patterns of extreme low probabilities that still indicate valid members of a class), after calculating all possible outcomes including the outliers, this layer acting like a solution metric requirement embedded in the neural network, where all required outcomes to predict can be predicted by the network, even if theyre over/under-weighted by their data set statistics
+            - this applies a process used in solution automation workflows that derive structures that are derivable from solution metrics to specific more structures than those directly derivable from the problem, using those solution metrics as requirements of the solution to specify more of the solution's structure
+            - rather than being a random or standard network applied to inputs, the solution metrics are then embedded in the final layers of the network to require the output to fulfill solution requirements
+            - this injects the certainty of the solution metric requirements into the network in different positions - the protected weight structures, or the conditional weight structures that allow the normal data and the outlier data to be accurately predicted, or the enforced output variant layer requiring the earlier layers to produce some probability for each variant at some point, or the network has to reverse its weight state trajectories and try other combinations of weights once its determined that some output variant is being generalized out
 
       - how to translate net/emergent operations of a network like 'aggregating small into big features' into variants of those operations like 'opposite of aggregating small into big features (decompose big into small features)' 
           - meaning, how to translate 'reverse' or 'opposite' of a network's emergent/net/explicit function ('aggregate') into a network configuration, in other words, how to implement 'semantic relevant automatic generation of neural networks'
@@ -713,6 +717,9 @@
       - each interface is contextually useful
         - for example, the 'cause' interface is useful while/where there is time (meaning a lack of possibility of multiple timelines, lack of possibility of switching between states in a non-sequential manner, like in a network structure or all states at once or an approximation of 'all states at once' like the possibility of traversing any state in any order/structure/amount)
 
+    - add to ml
+      - 
+
     - add to why a language network is insufficient
       - doesnt describe new concepts not already adjacently embedded in the language
       - doesnt have a reason for not standardizing terms to a common core set or a set of generative functions, as opposed to including all or most terms in the language
@@ -725,6 +732,7 @@
         - related structures like optimization methods, requirements, solution metrics, etc will always change
         - solutions like available tech like storage/computation/derivation tech will always change which solutions are more optimal for a given problem
         - there will always be new alternate methods to derive something, given that everything is connected, and derivation methods will always change and be optimized in new ways
+        - there will always be problems, and problems are suboptimal differences, so solutions will be new ways of resolving new differences or resolving known differences in new ways
 
   - add to solution automation workflows
 
