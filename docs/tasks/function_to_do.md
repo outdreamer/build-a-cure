@@ -783,6 +783,27 @@
         - 'adjacent subset average connections' are similarly useful bc averages encode info about surrounding data points in the subset
           - these structures can be made more useful by filtering which subsets are used, using isolatable subsets that are particularly likely to have an accurate average (given that the reason for the isolation is robust if the isolation is extreme and likely to replicate across data sets) or just to be isolatable from other subset averages (given that the isolatability is likely to have a reason for the difference)
         - other structures that encode data about other points, like 'intersecting lines with maximal data point counts in data set subsets' can similarly be useful for determining the prediction function without applying standard methods like regression
+      - these structures can be derived by identifying which structures (like averages, data subsets filters, density, and adjacent changes) encode info about other useful structures that are likelier to be given structures of the problem space (data sets), these encodings reducing the steps to the solution structure (prediction function)
+      - differentiation: this workflow is similar to other workflows that involve identifying useful structures of a particular problem format useful for solving all problems, but involves specifically prioritizing the structures that 'encode info' to fulfill problem-solving intents like 'reduce the steps required', using interface structures ('cause') of these problem space structures to determine which interface structures ('density', 'average') would be particularly useful, rather than searching all structures of the problem space
+        - this means applying 'cause' as a filter of useful structures, to find structures that have a reason to be useful for intents like 'encoding information', structures that 'reduce many inputs to one output' (like an average or an intersection line's slope) having a reason why they would be useful for 'encoding information', if the output reflects the inputs to some useful degree rather than removing most information about the inputs, such information as a 'probable value (average) of a data set' or a 'probable change rate of points in a data subset (intersection line slope, intersecting with a maximal number of points)'
+        - so the interface query could start like this:
+          - find a default workflow to find a prediction function from a data set (should point to standard methods like regression, applying incremental changes to a base function, taking averages of maximally different equivalently accurate functions, or other methods)
+          - apply changes to this workflow to reduce some steps of the computation
+            - find structures that would encode information
+              - find structures of encoding information
+                - condensing info about many inputs into one output
+                  - example: a representative metric of the inputs, where info about the inputs (set of values) can be derived from the fewer outputs (min/max, average, etc)
+                  - apply filter for relevance to problem space
+                    - is a 'condensing' structure that produces representation metrics useful for this problem? (is it adjacent to or between any structures that are useful)
+                      - a 'value set' is present in all the variables of the data set
+                      - is a 'representation metric' of a 'value set' useful for this problem ('find a prediction function')
+                        - a 'representation metric' (average) of a 'value set' (variable) would be useful for intents like 'reducing steps to evaluate all variable values' (like checking each variable value for compliance with a metric, as is done in other workflows)
+              - find structures that would be useful in determining relevant structures in the problem space
+                - find structures that would be useful in determining relevantly adjacent structures in the problem space
+                  - 'probable value of a data subset' (average)
+                - find structures that would be useful in determining relevantly connecting/interim structures in the problem space
+                  - 'average points of data subsets' would be a useful connecting structure between an input data set and an output prediction function, as connecting these structures is more efficient than connecting all data points to a prediction function
+            - apply structures that encode information to fulfill steps to connect problem inputs with solution outputs that can be fulfilled with encoded information
 
     - find structures that are useful as alternatives to structures, where other structures cant be applied, given structures like differences connecting the structures without violating the intent of the original structure
       - example: apply 'definitions' as 'requirement' structures, where structures that cant be determined by 'requirements' derived from definitions are required to use different terms than defined terms ('requiring new terms')
