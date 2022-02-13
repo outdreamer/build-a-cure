@@ -739,9 +739,6 @@
       - each interface is contextually useful
         - for example, the 'cause' interface is useful while/where there is time (meaning a lack of possibility of multiple timelines, lack of possibility of switching between states in a non-sequential manner, like in a network structure or all states at once or an approximation of 'all states at once' like the possibility of traversing any state in any order/structure/amount)
 
-    - add to ml
-      - 
-
     - add to why a language network is insufficient
       - doesnt describe new concepts not already adjacently embedded in the language
       - doesnt have a reason for not standardizing terms to a common core set or a set of generative functions, as opposed to including all or most terms in the language
@@ -776,6 +773,13 @@
 
   - add to solution automation workflows
 
+    - identify useful structures that reduce some problem structure (like a difference) to fulfill problem-solving intents like 'reducing steps required to solve a problem'
+      - example: 'checking every item in a filtered set' or 'checking every item in a set until a solution is found' involve applying useful structures ('filter', 'iteration exit condition') that reduce the steps required to implement a base workflow like 'try every possible solution', since these useful structures reduce the steps required 
+        - 'filter' reduces the number of solutions to iterate, the difference between the 'number of solutions to check' and the 'optimal solutions' being a useful problematic difference to reduce
+        - 'iteration exit condition' reduces the number of solutions to iterate, the difference between the 'last solution tested' and the 'last solution in the set' being a useful problematic difference to reduce, given that a threshold to determine the optimality of a solution is available (to determine that an optimal or sufficient solution has been found and no more solutions should be tried to improve on the threshold value)
+        - deriving a 'filter' or a 'iteration exit condition' is trivial once these differences are identified as useful differences to reduce, given that these differences present a problem in the form of requiring more resources than is absolutely necessary
+      - differentiation: this workflow involves identifying the differences as 'problematic but not required', and identifying/applying the structures which can reduce those differences to fulfill the problem-solving intent of 'reducing the problem'
+
     - identify useful structures specific to a specific problem format in which all problems can be formatted (like 'find a prediction function') and apply as components/inputs to a solution automation workflow (like 'identify adjacent/probable solution components and apply them to build a solution')
       - example: 'change rate connection', 'adjacent subset average connection', and less relevant objects like 'line-data set intersection connection' patterns are useful structures to determine a prediction function, given the different information they use and contribute to determining the error-reducing function
         - 'change rate connections' between adjacent change rates are useful bc they encode info about adjacent probable changes, which is useful for filtering possible functions
@@ -784,26 +788,30 @@
           - these structures can be made more useful by filtering which subsets are used, using isolatable subsets that are particularly likely to have an accurate average (given that the reason for the isolation is robust if the isolation is extreme and likely to replicate across data sets) or just to be isolatable from other subset averages (given that the isolatability is likely to have a reason for the difference)
         - other structures that encode data about other points, like 'intersecting lines with maximal data point counts in data set subsets' can similarly be useful for determining the prediction function without applying standard methods like regression
       - these structures can be derived by identifying which structures (like averages, data subsets filters, density, and adjacent changes) encode info about other useful structures that are likelier to be given structures of the problem space (data sets), these encodings reducing the steps to the solution structure (prediction function)
-      - differentiation: this workflow is similar to other workflows that involve identifying useful structures of a particular problem format useful for solving all problems, but involves specifically prioritizing the structures that 'encode info' to fulfill problem-solving intents like 'reduce the steps required', using interface structures ('cause') of these problem space structures to determine which interface structures ('density', 'average') would be particularly useful, rather than searching all structures of the problem space
+      - differentiation: this workflow is similar to other workflows that involve identifying useful structures of a particular problem format useful for solving all problems, but involves specifically prioritizing the structures ('encoding structures') that are known to be useful for problem-solving intents like 'reduce the steps required', using interface structures ('cause') of these problem space structures to determine which interface structures ('density', 'average') would be particularly useful, rather than searching all structures of the problem space
         - this means applying 'cause' as a filter of useful structures, to find structures that have a reason to be useful for intents like 'encoding information', structures that 'reduce many inputs to one output' (like an average or an intersection line's slope) having a reason why they would be useful for 'encoding information', if the output reflects the inputs to some useful degree rather than removing most information about the inputs, such information as a 'probable value (average) of a data set' or a 'probable change rate of points in a data subset (intersection line slope, intersecting with a maximal number of points)'
         - so the interface query could start like this:
           - find a default workflow to find a prediction function from a data set (should point to standard methods like regression, applying incremental changes to a base function, taking averages of maximally different equivalently accurate functions, or other methods)
           - apply changes to this workflow to reduce some steps of the computation
-            - find structures that would encode information
-              - find structures of encoding information
-                - condensing info about many inputs into one output
-                  - example: a representative metric of the inputs, where info about the inputs (set of values) can be derived from the fewer outputs (min/max, average, etc)
-                  - apply filter for relevance to problem space
-                    - is a 'condensing' structure that produces representation metrics useful for this problem? (is it adjacent to or between any structures that are useful)
-                      - a 'value set' is present in all the variables of the data set
-                      - is a 'representation metric' of a 'value set' useful for this problem ('find a prediction function')
-                        - a 'representation metric' (average) of a 'value set' (variable) would be useful for intents like 'reducing steps to evaluate all variable values' (like checking each variable value for compliance with a metric, as is done in other workflows)
-              - find structures that would be useful in determining relevant structures in the problem space
-                - find structures that would be useful in determining relevantly adjacent structures in the problem space
-                  - 'probable value of a data subset' (average)
-                - find structures that would be useful in determining relevantly connecting/interim structures in the problem space
-                  - 'average points of data subsets' would be a useful connecting structure between an input data set and an output prediction function, as connecting these structures is more efficient than connecting all data points to a prediction function
-            - apply structures that encode information to fulfill steps to connect problem inputs with solution outputs that can be fulfilled with encoded information
+            - apply cause interface to find structures with a 'reason' to be useful for some problem-solving intent
+              - find structures that have a reason to be useful for some problem-solving intent
+                - find structures that have a reason to be useful for the 'reduce steps required' problem-solving intent
+                  - find structures that 'reduce steps required'
+                    - find structures that would encode information
+                      - find structures of encoding information
+                        - condensing info about many inputs into one output
+                          - example: a representative metric of the inputs, where info about the inputs (set of values) can be derived from the fewer outputs (min/max, average, etc)
+                          - apply filter for relevance to problem space
+                            - is a 'condensing' structure that produces representation metrics useful for this problem? (is it adjacent to or between any structures that are useful)
+                              - a 'value set' is present in all the variables of the data set
+                              - is a 'representation metric' of a 'value set' useful for this problem ('find a prediction function')
+                                - a 'representation metric' (average) of a 'value set' (variable) would be useful for intents like 'reducing steps to check all variable values' (like checking each variable value for compliance with a metric, as is done in other workflows), which aligns with the original interface query intent of 'find useful structures for some problem-solving intent', as 'check all variable values' is useful for many functions implementing problem-solving intents that improve on 'trial and error' or involve iteration like 'checking every item in a filtered set' or 'checking every item in a set until a solution is found'
+                      - find structures that would be useful in determining relevant structures in the problem space
+                        - find structures that would be useful in determining relevantly adjacent structures in the problem space
+                          - 'probable value of a data subset' (average)
+                        - find structures that would be useful in determining relevantly connecting/interim structures in the problem space
+                          - 'average points of data subsets' would be a useful connecting structure between an input data set and an output prediction function, as connecting these structures is more efficient than connecting all data points to a prediction function
+                    - apply structures that encode information to fulfill steps to connect problem inputs with solution outputs that can be fulfilled with encoded information
 
     - find structures that are useful as alternatives to structures, where other structures cant be applied, given structures like differences connecting the structures without violating the intent of the original structure
       - example: apply 'definitions' as 'requirement' structures, where structures that cant be determined by 'requirements' derived from definitions are required to use different terms than defined terms ('requiring new terms')
