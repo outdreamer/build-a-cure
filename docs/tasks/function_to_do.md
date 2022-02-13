@@ -771,6 +771,14 @@
 
     - apply patterns of sub-optimality to reduce errors (solutions are where states are 'sub-optimal error states', as in 'not an optimal error but a suboptimal error, as in a solution')
 
+    - conceptual errors of ml can be avoided with conceptual corrections
+      - the error of assuming a sequence will always have a 'high probability of ending or proceeding in a particular way', even when data suggests that the pattern of this sequence is changing, results from the assumption of 'commonness' of a 'current state' indicating 'commonness' of a 'future state'
+      - if the occurrence of different states than the common state is increasing/differentiating (both being indicators of further changes), statistically that would not indicate the common state will continue to be common
+      - current ml models convert the 'assumption of the correctness and absoluteness of the priority of commonness' into other assumptions that lead to incorrect differences (errors)
+      - ml can be built to consider structures that fulfill alternate priorities if there are reasons to consider other priorities (reasons such as 'previous patterns indicate a change in a variable's average is probable') until those reasons are invalid, or built to integrate priorities into one structure, or build to apply conditional priorities as needed (storing conditional weights)
+      - these structures can correct a 'scope' error structure (assuming the priority of commonness is always correct) and the 'degree' error structure (assuming the priority of commonness is not an error or suboptimal state but a solution)
+      - there are other structures of importance than 'commonness' which cant be directly integrated into 'commonness' bc they contradict it ('initial signals of a change cascade' contradict 'common signals'), which could be integrated as 'initial states' of a 'commonness structure', which would require the ml model to have a concept of 'state' applied to its processes, to keep track of its weight state changes to derive structures of change like 'initial signals of change' that it detected during learning processes, like when moving in a different direction, or diversifying its weights to integrate handling a new difference, to remember that many or every major change it made started as seemingly insignificant initial signals of change, which would prioritize 'future importance' or 'possible importance' rather than 'current importance' or 'known importance'
+
   - add to solution automation workflows
 
     - identify useful structures that reduce some problem structure (like a difference) to fulfill problem-solving intents like 'reducing steps required to solve a problem'
