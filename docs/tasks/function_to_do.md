@@ -776,6 +776,14 @@
 
   - add to solution automation workflows
 
+    - identify useful structures specific to a specific problem format in which all problems can be formatted (like 'find a prediction function') and apply as components/inputs to a solution automation workflow (like 'identify adjacent/probable solution components and apply them to build a solution')
+      - example: 'change rate connection', 'adjacent subset average connection', and less relevant objects like 'line-data set intersection connection' patterns are useful structures to determine a prediction function, given the different information they use and contribute to determining the error-reducing function
+        - 'change rate connections' between adjacent change rates are useful bc they encode info about adjacent probable changes, which is useful for filtering possible functions
+          - this can be made more useful by finding the 'change rates in high density areas' which are likelier to be 'accurate change rates' or 'influential change rates' present in the output prediction function, given the contributory influence of density as a structure of usefulness in determining the output bc of its 'probable proportion of truth' and as a result, 'influence on truth'
+        - 'adjacent subset average connections' are similarly useful bc averages encode info about surrounding data points in the subset
+          - these structures can be made more useful by filtering which subsets are used, using isolatable subsets that are particularly likely to have an accurate average (given that the reason for the isolation is robust if the isolation is extreme and likely to replicate across data sets) or just to be isolatable from other subset averages (given that the isolatability is likely to have a reason for the difference)
+        - other structures that encode data about other points, like 'intersecting lines with maximal data point counts in data set subsets' can similarly be useful for determining the prediction function without applying standard methods like regression
+
     - find structures that are useful as alternatives to structures, where other structures cant be applied, given structures like differences connecting the structures without violating the intent of the original structure
       - example: apply 'definitions' as 'requirement' structures, where structures that cant be determined by 'requirements' derived from definitions are required to use different terms than defined terms ('requiring new terms')
       - apply useful structures like 'differences' to useful structures like 'requirements' to fulfill intents like 'identify when alternate structures of meaning than definitions (new definitions, position, implications, similarities, connections, system fit) should be derived/applied in place of more certain structures of meaning'
