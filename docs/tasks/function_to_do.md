@@ -804,12 +804,34 @@
 
   - add to solution automation workflows
 
-    - find variables to identify alternate interchangeable interface queries to implement solution automation workflows optimally
-      - example: the interface queries like those in the below workflow can be derived with variables like:
+    - identify useful structures like 'adjacent interaction levels' such as how 'prepare', 'respond', 'fix' are adjacent functions on the same interaction level, a level that is adjacent to other function interaction levels having functions like 'handle' which are more abstract, as these functions are components of the 'handle' function which is why theyre adjacent and useful ('building the handle function' is simpler when you have a 'prepare' function to prepare for an error/input)
+      - another example is concepts on an interaction level adjacent to a solution, such as 'concepts directly composing a solution concept', like how 'infinite series' are a useful concept for 'integration' problems and 'derivatives' are a useful concept adjacent to solving 'find change rate' problems
+      - this workflow involves applying 'cause of solution success' to identify interaction levels that are useful bc theyre adjacent in some way like being 'direct components/inputs of a solution structure like a solution requirement or interface structure that is required in an optimal solution implementation'
+
+    - determine useful structures like impossible structures, given intents that are useful but difficult, as impossible structures are useful for determining limits, and difficult structures are likelier to be adjacent to these limits
+      - other structures of difficulty exist, such as 'complexity', errors like 'missing information', 'solving a problem without being given an interaction level of concepts that are adjacent to the concepts required to quickly solve the problem' - impossible structures are another example of a structure of difficulty
+
+    - identify structures that dont contradict each other, as possible useful structures like interaction/coordination structures, given that difficulty structures arent necessarily false/truth structures or un/certainty structures, just like simplicity structures arent, given that the definition of neither concept contradicts the other
+      - this applies a 'requirement' structure to find structures that are required to fulfill some intent like 'having a specific structure'
+      - this workflow applies variables to suboptimal workflows to improve them, applying variables to suboptimal workflows like 'the simplest solution is the best solution' to change them in a more optimal way that better reflects truth
+      - alternatively, this workflow applies variables to structures like 'contradictions' which are useful for intents like 'finding opposing implications/outputs (structures that make another structure impossible given the requirements/implications/outputs/etc)', given that variants of a useful structure are also likely to be useful
+    
+    - identify useful structures like error structures such as 'hidden barriers that limit functionality', such as when a function is the same as another function but doesnt have the same functionality, given error structures like hidden barriers in place preventing its functionality
+      - these error structures are useful in that they connect interface structures such as errors with specific interface structures like functions and conditions for identifying the error, which is more useful than just storing error structures
+      - a structure that 'would' fulfill a function, but 'does not' fulfill that function, is an example of a structure that could have a 'hidden barrier' error structure
+    - identify useful structures like adjacent structures with similar outputs/intents as other useful structures like 'possibility filters'
+      - example: if a structure is suddenly 'invisible', possibilities like that it 'disappeared' can be ruled out as impossible, given that physical laws prohibit such a possibility
+        - however, other structures like the 'invisible' attribute are possible given the possibility of fulfilling a 'visibility change function' such as an 'obscuring function', given that visibility is a variable and can therefore be changed like all other variables
+        - structures that could fulfill such a 'visibility changing function' include 'hidden mappings' which map info or info components to other hidden positions than their original positions, or obscuring structures such as structures bigger than the structure to obscure positioned in between the observer and the structure being obscured
+      - a 'hidden' (possible) structure and a 'disappeared' (impossible) structure both have similar outputs ('the structure is not visible'), and useful for similar intents, so finding structures with similar intents/outputs of impossible structures can reveal their possible counterparts which are useful for some intent
+
+    - find variables to identify useful structures like 'alternate interchangeable interface queries' to fulfill problem-solving intents like 'implement solution automation workflows optimally'
+      - example: the optimized interface queries like those in the below workflow can be derived with commonly useful interface structures as variables, like:
         - input/output similarity
         - logic similarity ('find an example of relevant structures like inputs/outputs or solutions and find a pattern/structure/change fulfilling common intents applied to those structures, intents like 'connecting' them')
         - finding interface structures of known problem/solution examples
         - applying alternative interface structures ('patterns' being an alternative to the 'useful' interface bc patterns are a useful structure, as indicated by the fact that theyre a primary interface) as variables to generate other interface queries likely to be interchangeable alternates
+      - differentiation: this workflow focuses on identifying useful structures like 'alternate interchangeable interface queries' that are useful for workflows like those that 'find optimal interface queries implementing a particular solution automation workflow', given that 'interface queries' are an input to those workflows
 
     - identify structures that can be applied to implement solution automation workflows optimally
       - example: the solution automation workflow 'apply changes to a base solution to find an improved solution' can be implemented in many ways, many of them suboptimal, involving such methods as applying any change, which creates a large solution space to search
