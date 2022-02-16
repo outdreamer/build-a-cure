@@ -804,11 +804,18 @@
 
   - add to solution automation workflows
 
+    - identify useful structures like 'alternate verification methods' for intents like 'finding certainty structures (like proofs, insights, facts)' which are useful for problem-solving intents like 'connect a problem/solution with known structures'
+      - example: one verification method is to check all possible inputs to test if the outputs are expected by the hypothesis function that connects inputs/outputs
+        - another verification method is to check a representative sample of possible inputs
+        - another verification method is to identify possible causes of why the hypothesis function might be correct/incorrect, such as 'requirements' already verified that require it to be correct, and connect these causes with the hypothesis function using logical structures like assumptions/requirements/possibilities/causes, and filter these causes instead of filtering possibly true hyptohesis functions
+      - these alternate methods of identifying certainty structures are useful for intents like 'find certainty structures to base a solution on' or 'identify if certainty structures can connect a problem/solution (rather than deriving missing uncertain structures)'
+      - these alternate methods apply solution automation workflows to solve the problem of 'find certainty structures', which is useful for other problem-solving intents
+
     - identify useful structures like 'adjacent interaction levels' such as how 'prepare', 'respond', 'fix' are adjacent functions on the same interaction level, a level that is adjacent to other function interaction levels having functions like 'handle' which are more abstract, as these functions are components of the 'handle' function which is why theyre adjacent and useful ('building the handle function' is simpler when you have a 'prepare' function to prepare for an error/input)
       - another example is concepts on an interaction level adjacent to a solution, such as 'concepts directly composing a solution concept', like how 'infinite series' are a useful concept for 'integration' problems and 'derivatives' are a useful concept adjacent to solving 'find change rate' problems
       - this workflow involves applying 'cause of solution success' to identify interaction levels that are useful bc theyre adjacent in some way like being 'direct components/inputs of a solution structure like a solution requirement or interface structure that is required in an optimal solution implementation'
 
-    - determine useful structures like impossible structures, given intents that are useful but difficult, as impossible structures are useful for determining limits, and difficult structures are likelier to be adjacent to these limits
+    - identify useful structures like impossible structures, given intents that are useful but difficult, as impossible structures are useful for determining limits, and difficult structures are likelier to be adjacent to these limits
       - other structures of difficulty exist, such as 'complexity', errors like 'missing information', 'solving a problem without being given an interaction level of concepts that are adjacent to the concepts required to quickly solve the problem' - impossible structures are another example of a structure of difficulty
 
     - identify structures that dont contradict each other, as possible useful structures like interaction/coordination structures, given that difficulty structures arent necessarily false/truth structures or un/certainty structures, just like simplicity structures arent, given that the definition of neither concept contradicts the other
