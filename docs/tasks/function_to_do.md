@@ -854,7 +854,15 @@
       - similarly, 'finding useful structures like components/requirements of successful solution-finding methods' is a more reduced search space
       - these structures can be identified as useful by applying interface structures like 'input/cause' to change the problem into a more solvable problem, given the input concept of 'solution automation workflows' or the set of 'interface structures' to identify the relatively lower cost of 'searching generative functions' than 'solving the original function', (requiring interface structures like 'generative functions' as input to identify this)
 
-    - identifying variables of alternate useful structures 
+    - identify useful structures that can be adjacently connected to other useful structures like problem/solution structures in fulfilling intents like 'generating new solution automation workflows'
+      - example: a 'combination of variables and constants' is useful for resolving the variations based on those constants, as its the problem-solving intent to find the constant structures of these variables which are useful for a related problem-solving intent like 'connecting variable sets'
+        - for example, a 'find a prediction function' solution-finding method may inject constants/certainties like 'limiting the possible functions to a function range' while allowing variables within that range to vary, which allocates variables where uncertainties are and allocates constants where certainties are, given that certainties like 'limits (which act like filters) of possible functions' are useful for the problem-solving intent of 'filtering the solution space'
+        - these 'certainty structures' can be applied to determine where variables can/cant be applied
+      - determining that a 'combination of variables and constants' and 'allocating constants to certainty structures like "solution space filters"' are useful independently but also when combined
+      - identifying these structures which are particular useful when interacting in a structure like a combination is useful for problem-solving intents like 'finding useful structures'
+      - these structures can adjacently produce other useful structures like identifying 'variable combinations once limits/constants are applied', so that once identified, it can be adjacently connected to problem/solution structures as a 'search space of possible functions'
+
+    - identify variables of alternate useful structures 
       - example: the 'starting point', the 'tree structure', the 'local change function', and the 'boundaries' of a brain can be used to predict the structure of a brain, as the brain connections follow the same interface/symmetry pattern of 'applying local changes to a more stable global change' which can be used to derive the connections once the starting point of the base structure (the 'tree of symmetries') is known, and applying this pattern until the known limits (boundaries of the brain) are reached
         - similarly, the 'local interaction functions' of neurons can also be used to determine the connections of a brain, once a subset of data points are known
         - how to determine these two structure sets are capable of deriving the full set of brain neuron connection info
