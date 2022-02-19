@@ -807,7 +807,68 @@
 
     - add to useful cross-interface structure mappings: 'possible usages' as a 'tangent bundle' or 'convolution' structure
 
+    - add to error structures
+      - errors come from complexity added by priorities like:
+        - adding more variables/features to everything just bc its possible so that 'every format (like urls) can do everything' when not necessary (executing commands)
+          - a counterstructure is 'isolation of functionality' rather than 'replication of all functionality in every tool', which is the default bc once a tool is built, its easier to apply changes to it (treating it like an interface) than to write new ones
+        - trying to make tools easier to use ('pre-configuration')
+          - non-standard process, differentiated from the standard with an opinion like 'it should be easy to setup'
+          - the fatal flaw of this perspective is that 'tools that are easy to use may also be easier to exploit', in edge cases where there is an overlap, as this easiness of an authorized process also makes other processes easier like hijacking sessions
+        - implementing custom auth/security processes that deviate from protocols/standards, rather than applying the standard/recommended/required protocol implementation
+          - leaving these implementations as variables for devs to choose allows them to inject their misunderstandings, instead of the constants these implementations should be (there doesnt need to be a custom install process for every app, its possible to choose just one that doesnt expose vulns and re-use it)
+        - lack of tools to identify deviations from standard/recommended/required protocol or process implementations
+        - trying to integrate/connect everything with everything (over-interoperability)
+          - not every app needs to talk to every other
+        - the addition of a feature usually allows more actions than it restricts bc of the extra variables/complexity and therefore is also likely to allow more exploits than it fixes, so there should be as few features as possible
+        - the integration of 'high-vuln components' (like web UIs, as not every app needs a website, and where unnecessary they just increase the attack surface)
+        - lack of prevention of actions by intent (only very important info should be able to bypass security or run high-impact processes that could cause other issues like 'logging in as root', which can by filtered in checks by other components before being sent/allowed to access these actions)
+          - allowing these actions is sometimes not necessary at all, and only is useful for malicious users as it adds a variable increasing the attack surface
+
+    - example of using info as the standard interface to use as a base
+      - a 'reason' is the 'information' about a reward/cost that can be used to determine if a change has the possibility of being optimal for some intent ('finding the reward/avoiding the cost'), meaning the reason is the cause of the change
+
   - add to solution automation workflows
+
+    - identify structures like 'variable subset combinations' that can be used as a filter to rule out or identify other impossible/unlikely/probable/required/certain structures, given that 'filtering possible variable subset combinations' fulfills the problem-solving intent of 'searching a filtered solution space' as it involves searching fewer combinations bc the combinations are bigger and fewer possible functions can be built from them, which applies 'requirements' to the structure of the problem-solving intent 'filtering the solution space'
+      - apply 'reverse' to 'requirement' structures to find 'inputs' of a 'solution space filter'
+        - what is required to filter the solution space - a structure that reduces the number of functions in the space
+          - what is required to reduce the number of functions in the space
+            - reducing variables of the functions
+              - what is required to reduce the variables of the functions
+                - increasing the size of components of possible solution functions
+
+    - identify structures like 'change types' and 'change direction' as required to be applied in structures like 'combinations' to maximize their usefulness for solving problem
+      - example: 
+        - a change has to be adjacent in a 'continuous' function which is a solution requirement
+        - a change has to move the problem state toward the solution state rather than away from it
+        - however, not every change has to, just all the changes when aggregated
+        - so 'combining adjacent changes' or 'finding net changes' of a set of related changes is more useful than calculating whether every change improves progress toward the solution
+        - this is bc changes that lead away from the solution can be more optimal if they find structures that make conversion to the solution from that other point more trivial than the combination of the extra step away and the conversion
+      
+    - applying variables like a structure of cause such as a 'degree of cause' to identify alternate structures that are useful for solution automation workflows to generate new workflows that dont violate the requirements of the workflow definition
+      - multiple ways to identify that a 'causal problem' would be useful for solving the original problem
+        - identify that 'adjacencies' are useful as 'similarities' and 'similarities' are unlikely to invalidate a connection (like the connection between the problem/solution), apply 'adjacencies' to create a 'different but similar problem', and check if 'connecting the different problem to the solution' can still be fulfilled, which is a requirement of the original workflow which 'connects problem/solution', or check if other workflows can be fulfilled with the 'adjacency' applied to the causal structure formed by the 'dependence' and 'degree' causal variables
+        - identify that 'input-output sequences' are a useful structure and determine the inputs of the problem and whether theyre more solvable than the problem
+
+    - identify that 'solution-finding methods' are a lower-variable space (involving interface structures in a problem space system), and identify that solving the problem of 'finding a solution-finding method' or 'applying changes to a suboptimal solution-finding method' is more trivial to calculate (fulfilling the intent of 'filtering a solution space'), than solving the problem using a suboptimal solution-finding method
+      - similarly, 'finding useful structures like components/requirements of successful solution-finding methods' is a more reduced search space
+      - these structures can be identified as useful by applying interface structures like 'input/cause' to change the problem into a more solvable problem, given the input concept of 'solution automation workflows' or the set of 'interface structures' to identify the relatively lower cost of 'searching generative functions' than 'solving the original function', (requiring interface structures like 'generative functions' as input to identify this)
+
+    - identifying variables of alternate useful structures 
+      - example: the 'starting point', the 'tree structure', the 'local change function', and the 'boundaries' of a brain can be used to predict the structure of a brain, as the brain connections follow the same interface/symmetry pattern of 'applying local changes to a more stable global change' which can be used to derive the connections once the starting point of the base structure (the 'tree of symmetries') is known, and applying this pattern until the known limits (boundaries of the brain) are reached
+        - similarly, the 'local interaction functions' of neurons can also be used to determine the connections of a brain, once a subset of data points are known
+        - how to determine these two structure sets are capable of deriving the full set of brain neuron connection info
+      - these change structures can be applied to neural networks to create new network configs/algorithms
+        - train a neural network to predict 'weight changes' after a 'info threshold' is reached (info about differentiated weights from random or other initialized weights)
+        - train a neural network to predict the 'weights of a neuron/layer' from 'adjacent layers/neurons'
+        - train a neural network to predict 'emergent filters' applied by the final neural network model, such as 'general boundary lines of an optimal function range', which can be used as a way to filter the solution space
+
+    - identify filters of useful info formats to determine more optimal info representations that are likelier to make other intents trivial to fulfill
+      - trees/networks/tensors are useful bc they are simple, reflect real structures and real interaction functions, composable, and more optimal at fulfilling more common intents than other structures
+      - identify whether changing the sequence of connected vectors indicating variable changes can be a useful format for representing information in the same structure
+        - storing a high-dimensional data set as a set of connected vectors in a low-dimensional space, where variables are represented as changes in direction, and connected to apply the insight of the 'integration' of these variables in the original problem space system, as well as the 'connectedness' of these variables in the original problem space system, and reflects the 'differentiation' of variable values captured by the 'unlimitedness' of the 'direction' variable, even if chaining them in a sequence doesnt reflect meaning beyond those similarities
+        - this format would have problems like whether an overlap/intersection with itself has meaning, as these structures would necessarily develop with some data sets and variable connection sequences
+        - it could be filtered by causal dependencies detected in the data, such as co-changing variable subsets being more adjacent in the connection sequence
 
     - identify useful structures to inject differences in, identify variables of those structures, and vary those structures to create useful differences to fulfill the problem-solving intent of 'resolving differences (creating a difference in a problematic difference, as in a solution)'
       - example of identifying useful structures like 'workflow implementation functions', 'error structures', etc and applying variables to these useful structures, given their high-variation:
@@ -2328,6 +2389,14 @@
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
   - add to science
+
+    - solutions to water supply problem
+      - multiple solutions including solutions like reverse osmosis and solution formats like using reverse osmosis to create a reusable water supply that is more filterable, requiring one use per user with access to the tool in urban centers
+      - using processes like applying heat to evaporate water to create clouds/condensation which can be separated from minerals
+      - solving a different problem - optimizing production of new or known elements/organisms that bind with chloride more strongly than sodium, convert sodium chloride molecules into more filterable molecules, replace the sodium in a bonded molecule of sodium chloride, or break the bond of the bonded molecule
+
+    - calorie expenditure as a budgeting structure, where high energy usage optimizes usage (like routing energy to essential processes like creating new stem/immune cells, replacing damaged cells), so low energy usage (low exercise) doesnt develop these optimizations to energy usage, so theres more energy available to nonessential processes (like creating cells randomly or in other suboptimal ways) bc of the lack of routing or other optimization functions
+
     - quantum structures are structures that can be combined or otherwise interact (such as by neutralizing each other, or reducing change types, or interacting to form a stable structure) to form stability structures (measurable across adjacent time sequences) on which further changes can be based (creating further time structures/expanding time by increasing the number of possibilities), as quantum structures are 'information-adjacent' in that they are relatively unstable and difficult to measure but adjacently form information (measurable, stable structures)
       - 'connectible stable time sequences' and 'local structures' and 'change structures' and ('overlapping time sequences' or 'coordinating/interactive time sequences' or 'non-contradicting/non-interactive time sequences') as structures that form space-time, definable as 'structures that support certain change types which are executable within a given time, and if surrounded by other structures'
 
