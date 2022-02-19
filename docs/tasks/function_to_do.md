@@ -829,6 +829,13 @@
 
   - add to solution automation workflows
 
+    - identify structures that can fulfill problem-solving intents like 'identify error structures' to apply in other problem-solving intents like 'filter solution automation workflows'
+      - example: 'trial and error' should be applied when the 'search space is small', a 'solution-checking function is available', when an 'error is high-cost/unacceptable', or other structures of error structures like 'high cost/reward ratio' that would be avoided with this workflow
+      - identifying the 'high cost/reward ratio' as a useful structure is trivial, given an example of the limiting factors that filter the solution space of workflows so much that it creates a requirement to use 'trial and error'
+        - identifying 'requirements to select a particular workflow' would adjacently derive this 'high cost/reward ratio' structure (an 'attribute value' of a 'combination of variable attribute values')
+          - 'identifying requirements to select the trial & error workflow' is also trivial given an example simple/unit workflow like 'trial and error'
+            - 'identifying adjacent inputs of requirements to select the trial & error workflow' is similarly trivial, especially given the low dimensional search space of basic interface structures like 'embeddings' of 'combinations of attribute values' and 'attribute values' (creating the basic structure of a 'attribute value of (a combination of attribute values)') which would identify the 'high cost/reward ratio' as a potentially useful example of that structure, and therefore adjacently identify that as a useful structure in 'finding inputs of requirements to select a workflow'
+
     - identify structures like 'variable subset combinations' that can be used as a filter to rule out or identify other impossible/unlikely/probable/required/certain structures, given that 'filtering possible variable subset combinations' fulfills the problem-solving intent of 'searching a filtered solution space' as it involves searching fewer combinations bc the combinations are bigger and fewer possible functions can be built from them, which applies 'requirements' to the structure of the problem-solving intent 'filtering the solution space'
       - apply 'reverse' to 'requirement' structures to find 'inputs' of a 'solution space filter'
         - what is required to filter the solution space - a structure that reduces the number of functions in the space
@@ -837,7 +844,7 @@
               - what is required to reduce the variables of the functions
                 - increasing the size of components of possible solution functions
 
-    - identify structures like 'change types' and 'change direction' as required to be applied in structures like 'combinations' to maximize their usefulness for solving problem
+    - identify structures of interface structures (like 'change types' and 'change direction') as other useful structures like 'requirements' to be applied in structures like 'combinations' to fulfill intents like 'maximizing their usefulness for solving problems'
       - example: 
         - a change has to be adjacent in a 'continuous' function which is a solution requirement
         - a change has to move the problem state toward the solution state rather than away from it
