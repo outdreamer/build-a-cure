@@ -833,16 +833,29 @@
       - these tools are over-simplified for limited gains in utility value, but are probably useful for solving highly formatted specific problem types like 'checking formulas for equivalence'
       - also of note: a program that 'checks every possible formula' is also a 'solution automation tool', but hardly anyone would find that useful, and almost anyone could write that, even if it is pleasant to imagine that as being a useful alternative to my inventions
       - https://github.com/jrh13/hol-light/blob/master/tactics.ml
+
   - add response to critique of 'being runnable in human brain' 
     - differentiate it from human brain structures & from automatic/default problem-solving as well as which people can execute the processes in the invention & at what scale/speed/accuracy which differ from the way the invention works and whether other people identified any variables and whether they can apply them in the same way as an interface query which I havent given a full example of yet, rather filtering the query for the structures that are probable or are found to be useful
 
+  - add to implementation formats
+    - conditions as 'direction changes' or 'integrations/splits'
+    - 'differences created in inputs, when amortized across inputs' as the 'degree of direction change' in the next vector in the sequence of function vectors
+
   - add to solution automation workflows
+
+    - identify structures that are useful for multiple causes (have multiple 'causes of solution success') as an improved structure of usefulness for problem-solving intents like 'find useful structures'
+      - example: an 'overlap' structure is useful for determining function sets to fulfill an intent
+        - the 'find', 'store', 'copy' & 'apply' functions are useful as a set of functions when existing functions are sufficient for all intents, which is almost impossible to find in reality, as 'change' functions are almost always required to adapt existing solutions to a new context or problem
+        - another useful function set is 'format', 'identify changes/differences', 'merge', and 'reduce', which are useful for intents like 'fit into an existing system', applied for intents such as 'creating a function index'
+        - these functions have interface structures like 'overlaps' in their fulfilled intents & other benefits, their requirements & other costs, as well as other interface structures like the 'contexts' in which they are useful (as these function sets can act as interchangeable function sets in many contexts)
+        - 'overlaps' are useful for identifying common intents, similarities, and other useful interface structures connecting two sets of interface structures like function sets
+          - they are also useful bc of their similarity to known useful interface structures like 'interchangeable function sets' which are useful for known intents like 'find alternate structures'
 
     - identify structures useful for intents like 'connect interface structures' given the relative usefulness of that intent compared to other problem-solving intents
       - example: priorities are a useful structure for intents like 'resolving ambiguities' (which is relevant to intents like 'filtering the solution space') such as resolving the ambiguity between two alternate descriptions of a system with a function network, where one network fulfills a priority better, bc of the core attribute of primary interface structures like priorities which leads to their importance, causative potential, and therefore the probability of their contribution to other structure's attributes/functions
         - identifying useful structures like 'importance', 'causative potential', and 'probability of relevance' are ways to connect uncertainty structures like the 'ambiguity' error to resolve and the certainty structures like the 'probability of the relevance of one structure as likelier to be a solution (an accurate description in this case)'
         - these structures can connect other interface structures effectively, accurately, & adjacently and are therefore useful for determining what structures to apply, in the absence of a more directed interface query than 'find related structures'
-        - the 'priority' of the system, like 'efficiency', can help filter which structures are likelier to be true ('if one system network is more efficient than another, its likelier to be an accurate description'), so this priority is a useful connecting structure between an 'ambiguity between alternate solutions' and a 'filtered solution sapce'
+        - the 'priority' of the system, like 'efficiency', can help filter which structures are likelier to be true ('if one system network is more efficient than another, its likelier to be an accurate description'), so this 'priority' is a useful connecting structure between an 'ambiguity between alternate solutions' and a 'filtered solution sapce' or 'connect interface structures'
 
     - identify alternate structures to fulfill problem-solving intents like 'find an alternate implementation or variant of another solution automation workflow'
       - example: apply 'feedback/response' structures as an opposite structure to 'recursive/self-reference request' structures representing the 'limit' on those structures, as a way of fulfilling intents like 'determining if changes to existing resources are necessary'
