@@ -843,12 +843,14 @@
 
   - add to solution automation workflows
 
-    - identify useful structures of interface structures like 'negative problem states' and 'pre-problem sequences' as useful for problem-solving intents that require more resources like 'predicting & preventing problems' but are worth the extra possible cost
-      - example: identify that 'imagination' is useful for intents like 'predicting problems' and 'preventing problems before they become important, harmful, or impossible to solve (negative problem states)'
+    - identify useful structures of interface structures like 'negative problem states' and 'pre-problem sequences of interface structure (like state, priorities, or errors)' as useful for problem-solving intents that require more resources like 'predicting & preventing problems' but are worth the extra possible cost
+      - example: identify that 'imagination' is useful for intents like 'predicting problems' and 'preventing problems before they become important, harmful, or impossible to solve (negative problem states)' and interface structures that can fulfill these useful structures like 'imagination' (like functions fulfilling the predict/prevent intents)
         - identifying the 'inputs of a problem' as being useful to know before the problem-solving query is possible when resources are available to identify problem-solving sequences, identify pre-problem sequences, and other useful structures is required to identify that functions other than 'copy' are useful for fulfilling solution metrics like 'robustness' and 'adaptability' of a solution
 
-    - identify useful formats that fulfill solution metrics like 'accuracy' of useful structures like 'descriptions of a function on a particular interface (like the structural interface)'
-      - example: identify that 'adjacent areas of a function input/output connection possibility space' are a useful structure to implement a graphical function representation
+    - identify useful formats that fulfill solution metrics like 'accuracy' of useful structures like 'descriptions of useful interface structures like state changes created by a function on a particular interface (like the structural interface)'
+      - example: identify that 'adjacent areas of a function input/output connection possibility space' are a useful structure to implement a graphical function representation, to indicate to what degree the function step can fulfill the 'filter the solution space' intent, where steps that dont reduce the solution space like 'iteration' structures are represented in graphical formats (the whole area filled, a set of adjacent areas representing each item in the input) or the repetition of the input structure (the same function state representation as the previous state)
+        - this structure doesnt describe inputs but rather describes the 'possible impact on inputs', which is a useful intent for intents like 'connecting adjacent function states'
+        - the problem-solving impact of each function step can be formatted in other ways than 'reducing an "area" structure' to represent 'filtering the solution space', such as the 'filters or other structures applied'
 
     - identify structures that are useful for multiple causes (have multiple 'overlapping intent-fulfilling structures' or multiple 'causes of solution success' or multiple 'causes of structure usefulness') as an improved structure of usefulness for problem-solving intents like 'find useful structures'
       - example: an 'overlap' structure is useful for determining function sets to fulfill an intent
