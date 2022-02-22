@@ -843,13 +843,20 @@
 
   - add to solution automation workflows
 
-    - identify structures that are useful for multiple causes (have multiple 'causes of solution success') as an improved structure of usefulness for problem-solving intents like 'find useful structures'
+    - identify useful structures of interface structures like 'negative problem states' and 'pre-problem sequences' as useful for problem-solving intents that require more resources like 'predicting & preventing problems' but are worth the extra possible cost
+      - example: identify that 'imagination' is useful for intents like 'predicting problems' and 'preventing problems before they become important, harmful, or impossible to solve (negative problem states)'
+        - identifying the 'inputs of a problem' as being useful to know before the problem-solving query is possible when resources are available to identify problem-solving sequences, identify pre-problem sequences, and other useful structures is required to identify that functions other than 'copy' are useful for fulfilling solution metrics like 'robustness' and 'adaptability' of a solution
+
+    - identify useful formats that fulfill solution metrics like 'accuracy' of useful structures like 'descriptions of a function on a particular interface (like the structural interface)'
+      - example: identify that 'adjacent areas of a function input/output connection possibility space' are a useful structure to implement a graphical function representation
+
+    - identify structures that are useful for multiple causes (have multiple 'overlapping intent-fulfilling structures' or multiple 'causes of solution success' or multiple 'causes of structure usefulness') as an improved structure of usefulness for problem-solving intents like 'find useful structures'
       - example: an 'overlap' structure is useful for determining function sets to fulfill an intent
         - the 'find', 'store', 'copy' & 'apply' functions are useful as a set of functions when existing functions are sufficient for all intents, which is almost impossible to find in reality, as 'change' functions are almost always required to adapt existing solutions to a new context or problem
         - another useful function set is 'format', 'identify changes/differences', 'merge', and 'reduce', which are useful for intents like 'fit into an existing system', applied for intents such as 'creating a function index'
         - these functions have interface structures like 'overlaps' in their fulfilled intents & other benefits, their requirements & other costs, as well as other interface structures like the 'contexts' in which they are useful (as these function sets can act as interchangeable function sets in many contexts)
         - 'overlaps' are useful for identifying common intents, similarities, and other useful interface structures connecting two sets of interface structures like function sets
-          - they are also useful bc of their similarity to known useful interface structures like 'interchangeable function sets' which are useful for known intents like 'find alternate structures'
+          - they are also useful bc of their similarity/adjacence to known useful interface structures like 'interchangeable function sets' which are useful for known intents like 'find alternate structures'
 
     - identify structures useful for intents like 'connect interface structures' given the relative usefulness of that intent compared to other problem-solving intents
       - example: priorities are a useful structure for intents like 'resolving ambiguities' (which is relevant to intents like 'filtering the solution space') such as resolving the ambiguity between two alternate descriptions of a system with a function network, where one network fulfills a priority better, bc of the core attribute of primary interface structures like priorities which leads to their importance, causative potential, and therefore the probability of their contribution to other structure's attributes/functions
