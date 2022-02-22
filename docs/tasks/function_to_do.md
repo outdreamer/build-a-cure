@@ -838,6 +838,18 @@
 
   - add to solution automation workflows
 
+    - identify structures useful for intents like 'connect interface structures' given the relative usefulness of that intent compared to other problem-solving intents
+      - example: priorities are a useful structure for intents like 'resolving ambiguities' (which is relevant to intents like 'filtering the solution space') such as resolving the ambiguity between two alternate descriptions of a system with a function network, where one network fulfills a priority better, bc of the core attribute of primary interface structures like priorities which leads to their importance, causative potential, and therefore the probability of their contribution to other structure's attributes/functions
+        - identifying useful structures like 'importance', 'causative potential', and 'probability of relevance' are ways to connect uncertainty structures like the 'ambiguity' error to resolve and the certainty structures like the 'probability of the relevance of one structure as likelier to be a solution (an accurate description in this case)'
+        - these structures can connect other interface structures effectively, accurately, & adjacently and are therefore useful for determining what structures to apply, in the absence of a more directed interface query than 'find related structures'
+        - the 'priority' of the system, like 'efficiency', can help filter which structures are likelier to be true ('if one system network is more efficient than another, its likelier to be an accurate description'), so this priority is a useful connecting structure between an 'ambiguity between alternate solutions' and a 'filtered solution sapce'
+
+    - identify alternate structures to fulfill problem-solving intents like 'find an alternate implementation or variant of another solution automation workflow'
+      - example: apply 'feedback/response' structures as an opposite structure to 'recursive/self-reference request' structures representing the 'limit' on those structures, as a way of fulfilling intents like 'determining if changes to existing resources are necessary'
+        - this structure can be an alternative in solution automation workflows that use 'opposite' structures to determine other useful structures like 'limits of change of variables of a system' to make inferences and estimates of other structures like 'changes within probable limits'
+        - finding alternate versions of a workflow by applying change structures to its components in a way that doesnt violate or fundamentally change the workflow is a useful problem-solving intent
+        - these structures are examples of 'opposite' structures in the 'function' interface that would be useful for known useful intents such as core intents like 'find change limits' or 'find self-reference limits' such as when an existing resource is insufficient to fulfill an intent adjacently
+
     - identify useful structures that have a reason to be useful and apply other structures that increase the reasons of that structure to be useful or integrate them with other valid structures that have a reason to be useful
       - example: applying a 'randomized' filter of a solution space that reduces the solution space to n solutions, applied x number of times, increase the chance of finding a semi-optimal solution function with far less required computation, given the usefulness of random selections and the usefulness of extremely reductive filters, and given the probability of a random selection to output a function within a 'function within a semi-optimal or optimal accuracy range'
       - the 'reason to be useful' is the probable reward/cost ratio of the outputs/impact of each structure applied, both in isolation and when combined in an integration structure
@@ -907,7 +919,7 @@
       - identifying these structures which are particular useful when interacting in a structure like a combination is useful for problem-solving intents like 'finding useful structures'
       - these structures can adjacently produce other useful structures like identifying 'variable combinations once limits/constants are applied', so that once identified, it can be adjacently connected to problem/solution structures as a 'search space of possible functions'
 
-    - identify variables of alternate useful structures 
+    - identify variables of alternate useful structures and check these structures for usefulness in a known problem format like 'find a prediction function' using a known solution format like 'apply neural networks to find a prediction function'
       - example: the 'starting point', the 'tree structure', the 'local change function', and the 'boundaries' of a brain can be used to predict the structure of a brain, as the brain connections follow the same interface/symmetry pattern of 'applying local changes to a more stable global change' which can be used to derive the connections once the starting point of the base structure (the 'tree of symmetries') is known, and applying this pattern until the known limits (boundaries of the brain) are reached
         - similarly, the 'local interaction functions' of neurons can also be used to determine the connections of a brain, once a subset of data points are known
         - how to determine these two structure sets are capable of deriving the full set of brain neuron connection info
