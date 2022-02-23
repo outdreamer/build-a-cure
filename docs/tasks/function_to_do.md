@@ -507,6 +507,18 @@
       - if a package of growth/maximizing genes continues to develop bc of 'survival bias' (the genes that are useful for survival are protected & maintained & replicated), can incentives for dna repair/defense genes be created/increased to compete with these cancerous extra-chromosomal gene structures - why is the 'survival bias' of cancerous cells & cancerous mutations stronger than other cells/genes/mutations' bias - just bc theyre more useful for cancerous intents like 'unrestricted growth' or bc of some other cause like 'genetic adjacence' or 'genetic functionality like jumping/coordination', or bc of the fact that growth factors promote themselves by the definition of their own functionality, or bc these gene/mutation types like enhancement/growth have aligning intents like 'promotion' so theyre often found together?
       - can antibodies against high-growth/maximizing extra-chromosomal gene structures be developed or can vaccines be developed to produce antibodies against them?
         - https://cen.acs.org/pharmaceuticals/oncology/curious-DNA-circles-make-treating/98/i40
+    - apply 'solve problem cause' by 'changing' the 'input-output sequence' of that 'problem cause' at a particular position
+      - https://medicalxpress.com/news/2022-02-cancer-cells-tunnels.html
+      - other workflows would be:
+        - minimize problem
+          - close most cells' tunnels to let a smaller number of pain signals reach immune system, while making pain signals more powerful 
+        - apply solution as a prevention measure without using 'missing variables' (cell identity/health) that cant be identified, applying the solution at a 'smaller scale' (to increase chances of hitting a cancer cell above zero, while not causing extreme harm when hitting a healthy cell, and not applied to many cells)
+          - apply structures to function applications where input identity cant be verified so it may as well be disregarded ('randomly' apply) the solution output (reducing motility) to correct the problematic output (the deadly effect of motility)
+        - use problem to solve another problem
+          - apply 'mobility mutations' and 'destruction signals' to move cancer cells to specific locations where theyre less likely to survive
+        - solve problem cause at another position in the causal input-output sequence
+          - change sequences of genes to make cancer that searches a genome less likely to find useful genetic mutations immediately, wherever genes with carcinogenic mutations are switchable
+
     - a generally useful 'quantum algorithm' is optimally implemented as a network where any node is equally accessible regardless of steps separating them or other definition of 'distance' (each node pair can be entangled on demand to get calculations/output from that node to reduce overall repeated function calls of the network)
 
   - add to automation tech
