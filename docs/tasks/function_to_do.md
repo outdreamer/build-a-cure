@@ -400,7 +400,14 @@
 
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
-    - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
+    - add to ml 
+    
+      - error structures
+        - bias toward 'constants' (using variable values' co-occurrence as a constant, leading to bias errors based on those constants)
+        - bias toward 'irrelevant variables distantly connected to relevant variables', where relevaant variables should be targeted for acting like a 'interface structure' ('interface variables' on which other variable changes are based) and 'distance from interface structures' ('variables based on interface variables')
+          - bias toward excluding 'constants' or 'low-variation variables' which are 'change-invariant variables' (which may in fact change but act like an interface in the original data set and are therefore useful to include rather than over-prioritizing just the variables that are high-variation)
+
+      - add to ml definition of a 'solution-finding method' as it finds the solution 'neural network configuration' (prediction function) by a 'sequence of weight changes'
 
     - examine 'locally same, globally different' as a structure of 'interchangeable alternates' on 'interaction levels'
     
