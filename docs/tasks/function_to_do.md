@@ -401,8 +401,14 @@
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
     - add to ml 
-    
+
       - error structures
+        - the standard ml structure of 'building bigger features from smaller features' doesnt allow more complex variable interactions like:
+          - deriving an abstract variable from some of its attribute variables, as some of its attributes may not be simply aggregated but may be conditionally relevant variables in determining that abstract variable
+          - identifying interface variables
+          - identifying connections between non-adjacent variables or other structures contradicting the similarity structure embedded in the network algorithm/config
+        - ml networks tuned to prevent all bias cant use any structures of bias 'hard-coded rules' to fulfill other intents, like approximate solutions or 'temporary interim solutions' while other solutions are being developed, as there are reasons why these hard-coded rules develop in brains, such as over-simplifications, life or death situations requiring fast thinking, and group dynamics leading to biased rules like 'dont trust dissimilar agents' which lead to evolved defaults like these hard-coded rules, and these reasons are less valid in the current problem space where these situations occur infrequently, but the rules are default or otherwise hard-coded and therefore are applied when not useful (such as in any stressful situation rather than in life or death situations)
+          - any network that develops a hard-coded rule like a 'false maximum variable value limit' that emerges bc of a network configuration is applying the same learning process in any case where such a rule can 'develop for no reason' or where the network can 'apply the rule for no reason', so these networks are by default some degree of incorrect bc of that structure that develops
         - bias toward 'constants' (using variable values' co-occurrence as a constant, leading to bias errors based on those constants)
         - bias toward 'irrelevant variables distantly connected to relevant variables', where relevaant variables should be targeted for acting like a 'interface structure' ('interface variables' on which other variable changes are based) and 'distance from interface structures' ('variables based on interface variables')
           - bias toward excluding 'constants' or 'low-variation variables' which are 'change-invariant variables' (which may in fact change but act like an interface in the original data set and are therefore useful to include rather than over-prioritizing just the variables that are high-variation)
