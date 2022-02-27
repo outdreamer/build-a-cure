@@ -153,9 +153,36 @@ def meaning():
 	'''
 	return interactions
 
+def optimize(structure, metric):
+	''' this function improves the input structure on some metric '''
 
 ''' to do: 
 
 	- identify the network of these functions where apply/find/build/derive are function hubs to reduce function requirements
 
 '''
+
+def find_document_matches(input_keywords):
+	''' the solution to 'optimize' this problem should:
+		1. identify optimization structures like 'reduce steps of the function'
+		3. move the find_synonyms() function to outside the loop '''
+	possible_documents = get_possible_documents()
+	possible_matches = []
+	for document in possible_documents:
+		synonyms = find_synonyms()
+		input_keywords = input_keywords + synonyms
+		count = [key for key in input_keywords if key in document]
+		if count > 0:
+			possible_matches.append(document)
+	return possible_matches
+	
+def solve_problem(problem_statement):
+	verb = get_verb(problem_statement)
+	if verb in available_functions:
+		apply(apply_structure=verb, to_structure=problem_statement)
+	else:
+		# iterate through workflows, generate new workflows, apply workflows, etc
+
+available_resources = get_resources() # fetches available definitions, available functions, etc
+test_problem = 'optimize the function find_document_matches()'
+solve_problem(test_problem)
