@@ -400,6 +400,24 @@
 
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
+
+    - add to solution automation workflows
+
+      - identify & store the interface structures associated with interaction levels that make those structures more useful for useful structures like 'dichotomies' (like by fulfilling 'required' or 'otherwise useful' intents) in fulfilling a problem-solving intent like 'fulfilling as many problem-solving intents as possible'
+        - example: the 'attribute interaction level' would have identifying differences like the 'solution metric value (such as the accuracy) of a particular solution function'
+          - the 'adjacent structure interaction level' would have identifying differences like 'similarity of sub-function or function component sets with solution functions'
+          - these interaction levels are optimal in both different & overlapping contexts, for both different & overlapping intents
+          - different operations can be fulfilled more adjacently on different interaction levels, like:
+            - how components on 'adjacent structure interaction levels' (such as 'function components' or 'incomplete functions' or 'sub-functions' or 'input functions') can be more adjacently converted to a solution function with fewer steps than other formats
+            - how components on 'attribute interaction levels' can be more adjacently abstracted, as they already depend on a particular attribute, so abstracting the attribute or removing components of the attribute's interaction with specific structures or specific problem/solution structures (removing the 'solution function' specification to allow connecting the attribute to other functions like 'solution-finding functions') is an adjacent operation on that interaction level
+          - 'finding a solution function with an accuracy level' may be more useful than 'finding a solution function composed of known incomplete solution functions', given the associated interface structures of these interaction levels (the contexts, intents, & functions more easily fulfilled with those structures) and the 'info requirements', 'change requirements', 'success probability', 'general usefulness across common problem-solving intents' and other useful metrics of these interface structures & interaction levels
+          - this applies the 'functionality/resources vs requirements' dichotomy to find useful structures for problem-solving intents like 'fulfill solution requirements', like 'functions fulfilled by applying an interaction level' (a mix of interaction levels & other interface structures)
+          - this identifies a new useful function structure as 'incomplete functions' (useful for having a common error type built-in to a solution-finding function, that is resolvable with derivation methods like 'applying patterns', to fulfill useful problem-solving intents like 'apply solution to real information which is likely to have common error types, to "connect erroneous inputs to solution outputs" as well as "connecting correct inputs to solution outputs"', applying the insight that 'errors are probable in inputs' to fulfill the problem-solving intent of 'find a solution-finding function that handles common or otherwise predictable error types')
+          - this identifies another new useful structure of 'different and overlapping structures (like functions/attributes)' as useful for finding commonalities, similarities & differences
+        - differentiation: this workflow applies an abstraction ('dichotomy') to the core problem structure of 'differences' and finds interface structures that can find/build/derive problem-solving structures to resolve that problem structure, to fulfill the problem-solving intent of 'resolve problematic differences' (a variant of 'connect problem/solution'), as 'different and overlapping functionality' is a useful structure for fulfilling 'difference resolution structures' to fulfill 'requirements of a solution', thereby connecting the 'dichotomy of functionality/requirements' with 'interface structures that can adjacently fulfill its opposite structures (to resolve the difference between functionality & requirements)'
+          - this workflow connects interface structures on multiple interaction levels (the problem/solution interface, the structure interface, the difference interface), thereby making it likelier to be useful by default
+          - a variant of this workflow would 'find structures that can also connect structures on these interfaces' as inherently useful structures to fulfill problem-solving intents
+
     - add to ml 
 
       - error structures
