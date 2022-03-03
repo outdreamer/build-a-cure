@@ -402,6 +402,10 @@
 
     - add to solution automation workflows
 
+      - find structures that are useful in other problem-solving intents like 'finding other useful structures'
+        - example: find 'new examples' of a structure like a 'type', since new examples are likely to enable adjacently identifying other useful structures like the 'route to find the useful structure', such as by connecting the 'system context' to the 'new example', which is likely to be a 'new route to useful structures' (like the example structure) if the example is genuinely new
+        - finding a new example of a useful structure is likely to enable adjacentlying identifying a new reason for the structure being useful, which is useful to apply to 'find new useful structures' or 'find alternate useful structures'
+
       - find structures that are useful for problem-solving intents like 'filter solution space' as useful structures like 'filters' applied to fulfill the problem-solving intent of 'find useful structures'
         - example: the 'reason for the irrelevance' of a 'structural similarity' is particularly useful to fulfill core interaction functions like 'filter' or 'differentiate' between relevant & irrelevant structural similarities, which are difficult but useful to identify/filter/differentiate, as 'structural similarities' are very useful structures when relevant
           - the 'reason for the relevance/irrelevance' of a 'structural similarity' may just be that the structure found to be similar to another structure is just a 'common structure' or a 'core structure', rather than its similarity to the other structure being similar for a relevant reason, like a similarity in the reasons why the structure was caused (like to 'apply it for the same intents')
@@ -517,6 +521,8 @@
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
   - add to science
+
+    - finding space time trajectories that use as much information as possible to avoid 'reversal of direction' errors
 
     - solutions to water supply problem
       - multiple solutions including solutions like reverse osmosis and solution formats like using reverse osmosis to create a reusable water supply that is more filterable, requiring one use per user with access to the tool in urban centers
