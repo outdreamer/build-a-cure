@@ -400,8 +400,16 @@
 
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
-
     - add to solution automation workflows
+
+      - find structures that are useful for problem-solving intents like 'filter solution space' as useful structures like 'filters' applied to fulfill the problem-solving intent of 'find useful structures'
+        - example: the 'reason for the irrelevance' of a 'structural similarity' is particularly useful to fulfill core interaction functions like 'filter' or 'differentiate' between relevant & irrelevant structural similarities, which are difficult but useful to identify/filter/differentiate, as 'structural similarities' are very useful structures when relevant
+          - the 'reason for the relevance/irrelevance' of a 'structural similarity' may just be that the structure found to be similar to another structure is just a 'common structure' or a 'core structure', rather than its similarity to the other structure being similar for a relevant reason, like a similarity in the reasons why the structure was caused (like to 'apply it for the same intents')
+          - the 'similarities in cause (reason) of the structure' and the 'similarities in intent of the structure' are therefore better structures to check for filtering structures that are relevant, as opposed to just applying 'structural similarities' on their own
+          - the reason why 'causal similarities' and 'intent similarities' are useful to find relevant structures that are similar (as opposed to irrelevant structures that are similar) is that the cause/intent structures are likelier to be aligning with the reason for identifying/finding that structure in the first place (structural similarities arent typically sought to 'find common structures', theyre typically sought to 'find alternate structures to fulfill a particular purpose' or 'find all the examples of a structure'), therefore there is a (useful) 'structural similarity' between intent/cause of 'structural similarities' and the intent/cause of 'finding structural similarities' (which include intents like 'find all the examples of a structure')
+          - in the reverse direction of derivation, 'structural similarities' can be a useful structure to fulfill intents like 'find common structures' or 'find core structures', as common structures are likely to be in a set of similar structures, and common structures are likely to be core structures
+            - this fulfills the useful intent of 'find the context where a structure would be useful' to enable fulfilling other intents like 'check for that context to find useful structures to apply in an input context'
+          - 'cause/intent' are therefore useful as a filter of 'structural similarities'
 
       - identify & store the interface structures associated with interaction levels that make those structures more useful for useful structures like 'dichotomies' (like by fulfilling 'required' or 'otherwise useful' intents) in fulfilling a problem-solving intent like 'fulfilling as many problem-solving intents as possible'
         - example: the 'attribute interaction level' would have identifying differences like the 'solution metric value (such as the accuracy) of a particular solution function'
