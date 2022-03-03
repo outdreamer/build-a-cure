@@ -402,6 +402,13 @@
 
     - add to solution automation workflows
 
+      - find useful structures like functions to apply to useful structures to find other useful structures
+        - example: an abstract variant of a 'dichotomy' (with the requirement of a 'count' attribute value to be a constant value) is an 'exclusivity', which is useful for intents like 'find structures that dont co-occur' (like an 'impossibility' and a 'possibility' being connected as 'equivalents' of the same structure, these connections not occurring in any system that follows rules (a logical system, a real system, etc)
+          - 'find structures that dont co-occur' is useful for other useful intents like 'selecting between alternates' and 'find opposite/different structures' which are useful for intents like 'differentiate/connect structures' and 'filter structures'
+        - 'mutual exclusivities' are a 'core structure' related to other core structures like 'differences'
+        - a 'falsehood' combined with the 'exclusivity' (a 'false dichotomy') is a useful structure in that it applies a core error structure 'false' to a core structure 'exclusivity' of core problem structures like 'difference', identifying a 'specific example of the error structure' from applying this combination function (thereby applying a 'false' filter to the set of abstract exclusivity structures to identify the specific structures that are 'error structures')
+        - 'abstraction to find alternate examples' and 'combination with other useful structures like error structures to find specific error structures' are the useful functions to apply to the useful structure of a 'dichotomy' to find other useful structures to fulfill other useful intents
+
       - find structures that are useful in other problem-solving intents like 'finding other useful structures'
         - example: find 'new examples' of a structure like a 'type', since new examples are likely to enable adjacently identifying other useful structures like the 'route to find the useful structure', such as by connecting the 'system context' to the 'new example', which is likely to be a 'new route to useful structures' (like the example structure) if the example is genuinely new
         - finding a new example of a useful structure is likely to enable adjacentlying identifying a new reason for the structure being useful, which is useful to apply to 'find new useful structures' or 'find alternate useful structures'
