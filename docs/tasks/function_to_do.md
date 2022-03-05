@@ -422,6 +422,11 @@
 
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
+    - example of problem-solving intent definitions
+      - 'filter the solution space' has a defined value of 'identifying structures (combinations, ranges, positions, alternate sets) of solution variables (components/inputs) that violate a solution requirement'
+      - however 'filter the solution space' is a general intent and can be implemented in many ways, varying on this structure of its defined value
+      - for example, a solution-finding function that filters the solution space could identify the threshold values of solution prediction function coefficients beyond which the solution isnt possible if the solution is to fulfill a solution requirement like 'accuracy' (in summarizing/representing a data set)
+
     - add to solution automation workflows
 
       - identify useful structures like connections between problems and structures connected to solutions (like functions, each function being a solution to a problem)
