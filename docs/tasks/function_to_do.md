@@ -422,6 +422,9 @@
 
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
+    - add to explanations
+      - my system implements concepts like probability, logic, requirements, functions, variables, structure, intent, and cause in an integrated manner that generates meaning relevant to user requests
+
     - example of problem-solving intent definitions
       - 'filter the solution space' has a defined value of 'identifying structures (combinations, ranges, positions, alternate sets) of solution variables (components/inputs) that violate a solution requirement'
       - however 'filter the solution space' is a general intent and can be implemented in many ways, varying on this structure of its defined value
