@@ -31,9 +31,9 @@ def find(substructure, structure, find_type, output_filters={'output_count'=1}):
 def filter(substructure, structure, output_filters):
 	''' this should reduce the matches of substructure that fulfill the output_filters found in the structure
 	- filter()
-		1. finds the possibilities
+		1. finds the possibilities in structure that could be substructure
 		2. iterates through the possibilities
-		3. applies default similarity tests or other solution metric tests to reduce the possibilities
+		3. applies default similarity tests or other solution metric tests specified in output_filters to reduce the possibilities
 	'''
 	return possibilities
 
@@ -182,9 +182,15 @@ def solve_problem(problem_statement):
 		apply(apply_structure=verb, to_structure=problem_statement)
 	else:
 		# iterate through workflows, generate new workflows, apply workflows, etc
+		interface_query = design_interface_query(problem_statement)
+
+def design_interface_query(problem_statement, solution_automation_workflow):
+	''' this function generates output like the example query below for the sorting algorithm test_problem,
+		where the query implements the specified workflow '''
+
 
 available_resources = get_resources() # fetches available definitions, available functions, etc
-test_problem = 'optimize the function find_document_matches()'
+test_problem = 'optimize the function find_document_matches() on metric of "function steps required"'
 solve_problem(test_problem)
 
 test_problem = 'find a more generalizable "sorting algorithm" than existing "sorting algorithms"'
@@ -193,9 +199,9 @@ solution_automation_workflow = 'apply differences to certainty structures to ful
 problem_solving_intent = 'connect problem/solution'
 default_problem_solving_intent = 'filter and test solutions'
 
-interface query:
+# interface query:
 
-	fulfill problem_solving_intent ('connect problem/solution') by applying method specified ('apply differences to certainty structures') in solution automation workflow to problem statement test_problem
+	# fulfill problem_solving_intent ('connect problem/solution') by applying method specified ('apply differences to certainty structures') in solution automation workflow to problem statement test_problem
 		
 		# analyze problem and solution from problem_statement (test_problem)
 		problem = describe(problem=test_problem)
@@ -227,7 +233,7 @@ interface query:
 			formatted_test_problem = 'apply differences to certainty structures like known solutions (sorting algorithms)' to connect the known solutions with the solution requirement of a 'more generalizable sorting algorithm'
 				# find structures of certainty of problem (current/input/existing) state, to apply as input to solution automation workflow
 					# find known structures, including 'existing solutions' (sorting_algorithm examples), known interface structures like 'variables' of those 'solutions' and known definitions of problem/solution structures like 'sorting algorithms'
-					
+
 						known_structures = {}
 						# apply definition interface
 							known_structures['definitions'] = [find('definition', 'sorting_algorithm')]
@@ -243,7 +249,9 @@ interface query:
 									# apply 'variable' structure from change interface
 										variables_known_structures = find('variables', known_structures['examples'])
 								
-								# find new differences from known structures
+							# apply difference types to known structures to convert them into possible solution structures
+
+								# find new differences from known structures to apply difference_type = 'unique maximal differences from known structures'
 									# apply change structures to find new differences from known structures
 										# apply variables to (variables of known structures)
 										different_from_known_structures = apply('change', attributes='maximally different unique', variables_known_structures)
@@ -255,7 +263,7 @@ interface query:
 												solutions_filtered_different_from_known_structures, 
 												condition='higher generalizability score than that of known_structures["examples"]')
 								
-								# find patterns in known structures
+								# find patterns in known structures to apply difference_type = 'differences in patterns of known structures'
 									patterns_in_known_structures = apply('pattern', known_structures)
 									# apply changes to patterns without violating the pattern's core attributes
 									different_from_patterns_in_known_structures = apply('change', attributes='non-violating change', patterns_in_known_structures)
@@ -266,7 +274,7 @@ interface query:
 											solution_filtered_different_from_patterns_in_known_structures, 
 											condition='higher generalizability score than that of known_structures["examples"]')
 								
-								# find unused differences in known structures
+								# find unused differences in known structures to apply difference_type = 'unused known difference of known structures'
 									# apply combinations of variable values of known structures
 										combinations = apply('combine', variables_known_structures.values)
 										# filter out combinations which are in known structures
