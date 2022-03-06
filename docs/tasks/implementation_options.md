@@ -186,3 +186,94 @@ def solve_problem(problem_statement):
 available_resources = get_resources() # fetches available definitions, available functions, etc
 test_problem = 'optimize the function find_document_matches()'
 solve_problem(test_problem)
+
+test_problem = 'find a more generalizable "sorting algorithm" than existing "sorting algorithms"'
+default_interface_query = 'analyze problem/solution and format problem/solution to fulfill requirements of solution_automation_workflow and implement solution_automation_workflow'
+solution_automation_workflow = 'apply differences to certainty structures to fulfill the "connect problem/solution" problem-solving intent, using the "filter and test solutions" problem-solving intent wherever multiple solutions are identified'
+problem_solving_intent = 'connect problem/solution'
+default_problem_solving_intent = 'filter and test solutions'
+
+interface query:
+
+	fulfill problem_solving_intent ('connect problem/solution') by applying method specified ('apply differences to certainty structures') in solution automation workflow to problem statement test_problem
+		
+		# analyze problem and solution from problem_statement (test_problem)
+		problem = describe(problem=test_problem)
+		problem = {
+			'format': 'sorting_algorithm'
+		}
+		solution = describe(solution=test_problem)
+		solution = {
+			'format': 'sorting_algorithm',
+			'requirements': [
+				'solution generalizability is higher than average existing solution generalizability'
+			],
+			'definitions': {
+				'generalizability': 'successfully applicable to multiple very different sorting problem examples, "generalizability" increasing with the number of very different sorting problem examples'
+			}
+		}
+
+		# fulfill requirements of solution_automation_workflow
+
+			# get required inputs of solution_automation_workflow
+			inputs = find('inputs', solution_automation_workflow)
+			inputs = [requirement('required_problem_format == "connect the difference between problem and solution state"')]
+		
+			# format problem in the format of a 'connect the difference between problem and solution state'
+			problem_state = 'existing sorting_algorithms are suboptimal in generalizability'
+			solution_state = 'new sorting_algorithms are more optimal in generalizability than (are different from) existing sorting_algorithms'
+			required_problem format = 'change "existing sorting_algorithms" into "new sorting_algorithms that are more optimal in generalizability"'
+
+			formatted_test_problem = 'apply differences to certainty structures like known solutions (sorting algorithms)' to connect the known solutions with the solution requirement of a 'more generalizable sorting algorithm'
+				# find structures of certainty of problem (current/input/existing) state, to apply as input to solution automation workflow
+					# find known structures, including 'existing solutions' (sorting_algorithm examples), known interface structures like 'variables' of those 'solutions' and known definitions of problem/solution structures like 'sorting algorithms'
+					
+						known_structures = {}
+						# apply definition interface
+							known_structures['definitions'] = [find('definition', 'sorting_algorithm')]
+							known_structures['definitions'] = ['function that changes the "order" attribute of a set']
+						# apply 'example' structure from information interface 
+							known_structures['examples'] = find('examples', 'sorting_algorithm')
+						# apply problem_solving_intent to find any known solution structures
+							
+							known_structures['solutions'] = find('difference', known_structures)
+								
+							# find known differences in known structures
+								# find change structures of certainty structures
+									# apply 'variable' structure from change interface
+										variables_known_structures = find('variables', known_structures['examples'])
+								
+								# find new differences from known structures
+									# apply change structures to find new differences from known structures
+										# apply variables to (variables of known structures)
+										different_from_known_structures = apply('change', attributes='maximally different unique', variables_known_structures)
+										# with this set of possible solutions, apply default_problem_solving_intent
+											# filter by solution format definition (sorting_algorithm definition of 'function that changes the "order" attribute of a set')
+											filtered_different_from_known_structures = apply('filter', )
+											# test if filtered_different_from_known_structures are optimally different from known structures
+											solutions_filtered_different_from_known_structures = apply('filter', 
+												solutions_filtered_different_from_known_structures, 
+												condition='higher generalizability score than that of known_structures["examples"]')
+								
+								# find patterns in known structures
+									patterns_in_known_structures = apply('pattern', known_structures)
+									# apply changes to patterns without violating the pattern's core attributes
+									different_from_patterns_in_known_structures = apply('change', attributes='non-violating change', patterns_in_known_structures)
+									# with this set of possible solutions, apply default_problem_solving_intent
+										# filter by solution format definition (sorting_algorithm definition of 'function that changes the "order" attribute of a set')
+										# test if filtered_different_from_patterns_in_known_structures are optimally different from known structures
+										solution_filtered_different_from_patterns_in_known_structures = apply('filter', 
+											solution_filtered_different_from_patterns_in_known_structures, 
+											condition='higher generalizability score than that of known_structures["examples"]')
+								
+								# find unused differences in known structures
+									# apply combinations of variable values of known structures
+										combinations = apply('combine', variables_known_structures.values)
+										# filter out combinations which are in known structures
+											unused_combinations = filter(combinations, condition="in known_structures['examples']")
+											# with this set of possible solutions, apply default_problem_solving_intent
+												# filter by solution format definition (sorting_algorithm definition of 'function that changes the "order" attribute of a set')
+												# test if filtered_unused_combinations are optimally different from known structures
+												solution_unused_combinations = apply('filter', 
+													filtered_unused_combinations, 
+													condition='higher generalizability score than that of known_structures["examples"]')
