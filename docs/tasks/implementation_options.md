@@ -285,3 +285,138 @@ default_problem_solving_intent = 'filter and test solutions'
 												solution_unused_combinations = apply('filter', 
 													filtered_unused_combinations, 
 													condition='higher generalizability score than that of known_structures["examples"]')
+
+
+
+def filter(structure, solution_metric_filter):
+	'''
+		- example attributes of solution ('test function') structures:
+			solution_metric_filter = 'is a sorting algorithm' = 'is a function that changes order of a set'
+			solution_metric_filter = 'is more generalizable than an existing sorting_algorithm'
+	'''
+	if 'solution_metric_filter' not in globals():
+		solution_metric_filter = derive(structure='function', None, attribute=solution_metric_filter)
+
+def derive(structure_type, example_structure_with_attribute, attribute):
+	''' 
+		this function derives a structure of the specified type like a 'function' that can be applied to the input_structure (like a "change sequence") and has the specified attribute, like a 'determines generalizability of a "change sequence"'
+		- for example, derive a 'test function' that 'tests if a structure like the example input_structure example_structure_with_attribute (like a "change sequence") has the attribute "changes the order attribute of a set"'
+		- example structure_type
+			- structure_type = 'test function'
+		- example example_structure_with_attribute, which can be None or can include an example of an input to the structure_type, like follows
+			- sequence of sorting algorithm function steps like:
+				[
+					'reverse', 'sort_alphabetical', 'sort_numerical', 'sort_descending', 
+					'determine attribute value to sort by', 'determine position to sort at', 
+					'determine position assigning logic once attribute value is found', 
+					'determine iteration logic to apply, given a starting position'
+				]
+		- example attributes of solution ('test function') structures:
+			solution_metric_filter = 'is a sorting algorithm' = 'is a function that changes order of a set'
+			solution_metric_filter = 'is more generalizable than an existing sorting_algorithm'
+		- this function finds a route to 'connect' the example_structure_with_attribute ('change sequence') with the attribute 'determines generalizability of the change sequence' in the form of the structure_type ('function')
+	'''
+	derived = apply('test', structure, attribute)
+	return derived
+
+def apply(structure, input_structure, output_filter, definitions):
+	''' 
+		structure = 'test'
+		input_structure = 'example_sorting_algorithm' # an example sorting_algorithm, as a list, tree, etc of function steps
+		output_filter = 'is more generalizable than an existing sorting_algorithm'
+
+		apply('test', 'sorting_algorithm', 'is more generalizable than an existing sorting_algorithm')
+	'''
+
+	for keyword, value in definitions:
+		output_filter = output_filter.replace(keyword, value)
+	objects = get_primary_nouns(output_filter)
+	objects = ['function']
+	verb = get_primary_verb(output_filter)
+	verb = 'is'
+	operator = get_operator_for_verb(verb) # 'is' becomes '=='
+
+	# this is a test
+	if structure == 'test':
+
+		# this is an equivalence test (check identity or equivalence/similarity/difference of object/attribute/function)
+		if verb == 'is':
+
+			attribute_test = output_filter[output_filter.index(verb):]
+
+			has_sub_conditions = find('conditions', attribute_test)
+			if has_sub_conditions:
+
+				# if attribute_test is complicated, has many sub-conditions of the test, or is not translated to a particular interface
+				# simplify it or translate it to a useful interface like the structure interface, and apply these sub-tests iteratively
+
+				object_definitions = find('definition', objects) # find 'function' definition
+				object_definitions = {'function': 'structure (like a "network", "tree", "set", or "sequence") of isolated logical structures (like "changes") to change units (like "inputs/variables")'}
+
+				iterated_conditions = find(structure='sequential_combinations of conditions', attribute_test)
+				iterated_conditions = [
+					'function', 
+					'function that changes order',
+					'function that changes order of a set'
+				]
+				iterated_variable_conditions = apply('variables', iterated_conditions)
+				iterated_variable_conditions = [
+					'function', 
+					'function that changes order',
+					'function that changes order of (a) set',
+					'function that changes order of (different) sets',
+					'function that changes order of (any) set'
+				]
+				for statement in iterated_variable_conditions:
+					
+					# check if structure is equal to the structure specified in the attribute
+					structure_passed = apply(structure=operator, input_structure=input_structure, output_filter=statement, definitions=object_definitions) 
+					
+					# apply('is', 'example_sorting_algorithm', 'function that changes order')
+
+					if not structure_passed:
+						print('test failed', statement)
+
+			else:
+				structure_passed = apply(structure=operator, input_structure=input_structure, output_filter=attribute_test)
+
+
+def is(attribute, base_structure, alternate_structure):
+	''' 
+		attribute = 'similar'
+		base_structure = 'example_sorting_algorithm' (formatted as a sequence of changes)
+		alternate_structure = 'sorting_algorithm definition'
+	'''
+
+	if attribute == 'similar':
+
+		comparison = {
+			'structure_type': {}, 
+			'structure_definition': {}, 
+			'example_structures': {}, 
+			'example_structure_variables': {}, 'structure_variables': {}, 
+			'example_inputs_outputs': {}, 'example_input_output_differences': {}
+		}
+
+		# apply various differences to the structures to get more metrics to compare them
+		for structure in [base_structure, alternate_structure]:
+
+			comparison['structure_type'][structure].append(find('type', base_structure)) # 'function')
+			comparison['structure_definition'][structure].append(find('definition', base_structure)) # definition of 'sorting_algorithm'
+			
+			comparison['example_structures'][structure].append(find('examples', base_structure)) # [reverse(), sort_alphabetically(), divide_and_conquer()]
+			
+			# variables of sorting algorithms like 'reverse()', 'sort_alphabetically()', etc, like 'starting position', 'position change logic', the 'descending' definition that is applicable to numbers/letters, etc
+			comparison['example_structure_variables'][structure].append(find('variables', comparison['example_structures'])) 
+			comparison['structure_variables'][structure].append(find('variables', base_structure)) # variables of the input sorting_algorithms
+			
+			comparison['example_inputs_outputs'][structure].append(find(['inputs', 'outputs'], base_structure)) # ('acb', 'abc')
+			comparison['example_input_output_differences'][structure].append(find('changes', params=[base_structure['inputs'], base_structure['outputs']])) # ['order']
+
+		# apply comparison of the differences to determine similarity on each metric, like:
+
+		# 'does the base function respond to the alternate function's example inputs/outputs the same way, to produce the same input/output differences'
+		# 'does the base function 'change the order of the input set', as specified in the alternate_structure of the 'sorting algorithm definition'
+
+
+
