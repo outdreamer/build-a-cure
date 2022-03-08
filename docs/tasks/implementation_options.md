@@ -184,22 +184,80 @@ def solve_problem(problem_statement):
 		# iterate through workflows, generate new workflows, apply workflows, etc
 		interface_query = design_interface_query(problem_statement)
 
-def design_interface_query(problem_statement, solution_automation_workflow):
-	''' this function generates output like the example query below for the sorting algorithm test_problem,
-		where the query implements the specified workflow '''
+def break(structure_to_break, output_filters):
+	'''
+		standard function name: 'get components'
+		similar to filter, break reduces the inputs, but into components, rather than subsets, 
+		where output_filters specifies some component type 
+		- notes
+			- these structural functions like break/filter/reduce are basically a definition of the structure of these verbs, 
+			so they can be called in the 'apply' function as a function structure to apply, 
+			or the 'find' function as a function substructure to search for in another function structure
+	'''
+
+
+def define(structure):
+	'''
+	- some structures cant be reduced to another definition, for example, like 'input', 
+		which if it's reduced to another structure like 'triggers' or 'requirements' or 'assumptions', 
+		changes its definition so it cant be used to cover the other structures it refers to
+	'''
+	# defs are default core structure definitions
+	defs = {
+		'fulfill': 'equate inputs/outputs', # an interface query that implements/fulfills a workflow is equal to that workflow in its specified inputs/outputs (problem/solution)
+		'core': 'find complete set of components that combine to form input',
+		'break': 'find components of input',
+		'reduce': 'find fewer variables of input',
+		'expand': 'find more variables of input',
+		'filter': 'find subset of input set',
+		'find': 'find output_filter substructure in input structure',
+		'cause': 'build output fulfilling output_filter',
+		'apply': 'build change',
+		'build': 'find combinations of structures until input exists',
+		'exist':  'find identifier of input',
+		'connect': 'find input-output structures', # like (sequence, network, etc of functions, changes, requirements, filters, or input/output mappings)'
+	}
+	return defs[structure] if structure in defs else None
+
+
+def design_interface_query(problem_statement, solution_automation_workflow, intent):
+	''' 
+	- this function generates output like the example query below for the sorting algorithm test_problem,
+		where the query implements the specified workflow
+
+	1. break the given intent (or the intent of the workflow or problem statement) into sub-intents
+
+	2. then find/build/derive functions that can fulfill each sub-intent
+		- if functions are already indexed by intent, this can be a simple 'find' query to find structures of existing functions that fulfill the specified intent
+			- for example, 'find functions that when a structure (like a input-output sequence) is applied to the functions, the functions fulfill the intent in a relevant (like "adjacent") way, (like "connect the inputs/outputs of the intent")'
+			- an 'input-output sequence' is useful for intents like 'connect inputs/outputs' ('connect inputs (problem or independent variables) with outputs (solution or dependent variable)')
+
+	- notes
+		each function should have a solution using 'find', 'build', 'derive', and 'apply' as interchangeable alternate implementation verbs
+	'''
+
+	if intent:
+		intent_sub_intents = apply('break', intent, output_filters='clauses')
+	else:
+		problem_sub_intents = apply('break', problem_statement, output_filters='clauses')
+		workflow_sub_intents = apply('break', solution_automation_workflow, output_filters='clauses')
+
+	break_function_applied = find('difference', input_structure=[break_input, break_output])
+	merge_function = apply(structure='opposite', input_structure=break_function_applied)
+	merged_solution_of_sub_intents = apply('merge', structure=merge_function, structure_inputs=sub_intent_solutions)
 
 
 available_resources = get_resources() # fetches available definitions, available functions, etc
 test_problem = 'optimize the function find_document_matches() on metric of "function steps required"'
 solve_problem(test_problem)
 
-test_problem = 'find a more generalizable "sorting algorithm" than existing "sorting algorithms"'
+test_problem = 'find a more generalizable "sorting algorithm" than existing "sorting algorithms"' # 'search algorithms'
 default_interface_query = 'analyze problem/solution and format problem/solution to fulfill requirements of solution_automation_workflow and implement solution_automation_workflow'
 solution_automation_workflow = 'apply differences to certainty structures to fulfill the "connect problem/solution" problem-solving intent, using the "filter and test solutions" problem-solving intent wherever multiple solutions are identified'
 problem_solving_intent = 'connect problem/solution'
 default_problem_solving_intent = 'filter and test solutions'
 
-# interface query:
+# example interface query:
 
 	# fulfill problem_solving_intent ('connect problem/solution') by applying method specified ('apply differences to certainty structures') in solution automation workflow to problem statement test_problem
 		
