@@ -432,6 +432,13 @@
 
     - add to solution automation workflows
 
+      - identify useful structures such as 'solution component filters' that are useful for common intents like 'filter' to apply in workflows that use those intents like 'filter the solution space'
+        - example: a function necessarily changes some inputs, so anything that doesnt change an input can be ruled out as a possible solution function to the 'find a prediction function' problem, and any 'combination of changes' can be included in the set of possible solutions to the 'find functions' problem
+        - this workflow involves identifying useful structures by applying common core intnets like 'filter' to common problem/solution structures like 'solution components'
+
+      - identify useful structures like 'contradiction example input/output mappings' that fulfill useful intents like 'find useful structures like "change filters"' which are useful to many problem-solving intents, like 'improve a solution by applying changes to a function'
+        - example: storing a 'input/output mapping' of 'contradiction examples' as metadata to store with a 'function definition' is a useful structure to store with a function bc it provides a target for improvements to the function which is useful for filtering future changes to the function (based on a solution metric of whether they improve handling of those contradiction examples), as well as taking the place of logic that would be required to handle those specific counterexamples
+
       - identify useful structures like connections between problems and structures connected to solutions (like functions, each function being a solution to a problem)
         - example: solving 'which problems create which functions' (which problem maintains the need for a function or leads to the creation of that function) as a way of determining alternate implementation methods of functions (applying problems as a function-generating structure, if the problem is adjacent enough to the function with existing resources that it can be converted into the function by default or otherwise adjacently)
         - this workflow involves applying the 'inputs' of solutions (including 'problems') as an 'input' to solve problems like 'find a function' which may be applied in interface queries, answering the question 'what problem would develop the function required to solve a problem like "find/build/derive a function"'
@@ -532,6 +539,9 @@
           - a variant of this workflow would 'find structures that can also connect structures on these interfaces' as inherently useful structures to fulfill problem-solving intents
 
     - add to ml 
+
+      - if the variables exist in the input data set and the only structure required is additions and exponents/multipliers of those variables, and if the input variables' true interaction functions follow a function that fulfills the assumptions of the model (continuous, etc), and if the function doesnt have to include inferrable but not included information, like cause, implications, requirements, etc
+        - http://neuralnetworksanddeeplearning.com/chap4.html
 
       - error structures
         - the standard ml structure of 'building bigger features from smaller features' doesnt allow more complex variable interactions like:
