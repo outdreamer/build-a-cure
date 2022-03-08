@@ -315,6 +315,8 @@ def derive(structure_type, example_structure_with_attribute, attribute):
 			solution_metric_filter = 'is a sorting algorithm' = 'is a function that changes order of a set'
 			solution_metric_filter = 'is more generalizable than an existing sorting_algorithm'
 		- this function finds a route to 'connect' the example_structure_with_attribute ('change sequence') with the attribute 'determines generalizability of the change sequence' in the form of the structure_type ('function')
+		- the 'derive' function applies 'changes' to 'certainty structures' to derive connections between the 'structures to connect'
+		- for example, 'deriving' a prediction function applies 'changes' to the 'certainty structures' (input variables, output variables) to derive connections ('coefficients', 'exponents', 'operators') between the 'structures to connect' (input and output variables of the prediction function), having incomplete information about those connections (as the certainty structure of the 'data set' is, by definition of the 'prediction function' problem, necessarily 'incomplete', otherwise a prediction function wouldnt be necessary to find and the original data set could act like a mapping table rather than requiring a function)
 	'''
 	derived = apply('test', structure, attribute)
 	return derived
@@ -328,7 +330,7 @@ def apply(structure, input_structure, output_filter, definitions):
 		apply('test', 'sorting_algorithm', 'is more generalizable than an existing sorting_algorithm')
 	'''
 
-	for keyword, value in definitions:
+	for keyword, value in definitions.items():
 		output_filter = output_filter.replace(keyword, value)
 	objects = get_primary_nouns(output_filter)
 	objects = ['function']
@@ -338,6 +340,9 @@ def apply(structure, input_structure, output_filter, definitions):
 
 	# this is a test
 	if structure == 'test':
+
+		# get the default definition of the structure 'test', which is 'check if x is y'
+		# derive & apply logic implementing the definition of the structure
 
 		# this is an equivalence test (check identity or equivalence/similarity/difference of object/attribute/function)
 		if verb == 'is':
@@ -380,43 +385,47 @@ def apply(structure, input_structure, output_filter, definitions):
 			else:
 				structure_passed = apply(structure=operator, input_structure=input_structure, output_filter=attribute_test)
 
-
 def is(attribute, base_structure, alternate_structure):
 	''' 
-		attribute = 'similar'
+		attribute = 'similar', out of options ['equal', 'different', 'opposite', 'similar']
 		base_structure = 'example_sorting_algorithm' (formatted as a sequence of changes)
-		alternate_structure = 'sorting_algorithm definition'
+		alternate_structure = 'function that changes order' # 'sorting_algorithm definition'
 	'''
 
-	if attribute == 'similar':
+	# to do: order by those which are most filterable first
 
-		comparison = {
-			'structure_type': {}, 
-			'structure_definition': {}, 
-			'example_structures': {}, 
-			'example_structure_variables': {}, 'structure_variables': {}, 
-			'example_inputs_outputs': {}, 'example_input_output_differences': {}
-		}
+	comparison = {
+		'structure_type': {}, 
+		'structure_definition': {}, 
+		'example_structures': {}, 
+		'example_structure_variables': {}, 'structure_variables': {}, 
+		'example_inputs_outputs': {}, 'example_input_output_differences': {}
+	}
 
-		# apply various differences to the structures to get more metrics to compare them
-		for structure in [base_structure, alternate_structure]:
+	# apply various differences to the structures to get more metrics to compare them
+	for structure in [base_structure, alternate_structure]:
 
-			comparison['structure_type'][structure].append(find('type', base_structure)) # 'function')
-			comparison['structure_definition'][structure].append(find('definition', base_structure)) # definition of 'sorting_algorithm'
+		comparison['structure_type'][structure].append(find('type', base_structure)) # 'function')
+		comparison['structure_definition'][structure].append(find('definition', base_structure)) # definition of 'sorting_algorithm'
 			
-			comparison['example_structures'][structure].append(find('examples', base_structure)) # [reverse(), sort_alphabetically(), divide_and_conquer()]
+		comparison['example_structures'][structure].append(find('examples', base_structure)) # [reverse(), sort_alphabetically(), divide_and_conquer()]
 			
-			# variables of sorting algorithms like 'reverse()', 'sort_alphabetically()', etc, like 'starting position', 'position change logic', the 'descending' definition that is applicable to numbers/letters, etc
-			comparison['example_structure_variables'][structure].append(find('variables', comparison['example_structures'])) 
-			comparison['structure_variables'][structure].append(find('variables', base_structure)) # variables of the input sorting_algorithms
+		# variables of sorting algorithms like 'reverse()', 'sort_alphabetically()', etc, like 'starting position', 'position change logic', the 'descending' definition that is applicable to numbers/letters, etc
+		comparison['example_structure_variables'][structure].append(find('variables', comparison['example_structures'])) 
+		comparison['structure_variables'][structure].append(find('variables', base_structure)) # variables of the input sorting_algorithms
 			
-			comparison['example_inputs_outputs'][structure].append(find(['inputs', 'outputs'], base_structure)) # ('acb', 'abc')
-			comparison['example_input_output_differences'][structure].append(find('changes', params=[base_structure['inputs'], base_structure['outputs']])) # ['order']
+		comparison['example_inputs_outputs'][structure].append(find(['inputs', 'outputs'], base_structure)) # ('acb', 'abc')
+		comparison['example_input_output_differences'][structure].append(find('changes', params=[base_structure['inputs'], base_structure['outputs']])) # ['order']
+
+	if attribute == 'equal':
+
+	elif attribute == 'difference': 
+
+	elif attribute == 'opposite':
+
+	elif attribute == 'similar':
 
 		# apply comparison of the differences to determine similarity on each metric, like:
 
 		# 'does the base function respond to the alternate function's example inputs/outputs the same way, to produce the same input/output differences'
 		# 'does the base function 'change the order of the input set', as specified in the alternate_structure of the 'sorting algorithm definition'
-
-
-
