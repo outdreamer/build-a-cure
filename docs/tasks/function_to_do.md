@@ -432,6 +432,10 @@
 
     - add to solution automation workflows
 
+      - identify the reason ('equivalence' in inputs/outputs) for the usefulness of a structure (like commonly useful structures such as 'simple' and 'complex' structures) and apply it to find useful structures like 'simple/complex set that have equal inputs/outputs', given that 'equivalences' are generally useful for problem-solving intents like 'connect problem/solution' or 'find a function implementing an intent'
+        - example: identify that structures like sets of 'simple and complex structures with the same inputs/outputs' can fulfill useful intents like 'find implementation/fulfillment structures of an intent', as a simpler structure like an 'intent' is likely to be fulfilled by a more complex structure like a 'function fulfilling that intent' if the inputs/outputs of the two structures are equivalent, which makes one structure useful to the other for various intents ('find a simplified representation of the function (such as the intent)', and 'find a function that fulfills the intent')
+        - these structures are useful for other intents, like 'find the variables to apply that convert a simple structure (like the intent) into an equivalent complex structure (like the implementing function)' which is useful for problem-solving intents like 'find a function that implements an intent'
+
       - identify useful structures such as 'solution component filters' that are useful for common intents like 'filter' to apply in workflows that use those intents like 'filter the solution space'
         - example: a function necessarily changes some inputs, so anything that doesnt change an input can be ruled out as a possible solution function to the 'find a prediction function' problem, and any 'combination of changes' can be included in the set of possible solutions to the 'find functions' problem
         - this workflow involves identifying useful structures by applying common core intnets like 'filter' to common problem/solution structures like 'solution components'
