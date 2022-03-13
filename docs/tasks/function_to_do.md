@@ -435,6 +435,16 @@
 
     - add to solution automation workflows
 
+      - identify useful structures like 'sufficient similarity' to find structures which can be used to fulfill common intents like 'find alternates of a structure' which are useful for problem-solving intents like 'find alternate solutions'
+        - example: applying code validation rules like the following can be used to correct logic, given the general or common applicability of such rules
+          - 'if an input variable is tested for and not found to be initialized, and is assigned a value if this condition applies, apply the output of that assignment as a filter of the input value, if the input is initialized'
+          - example of this code validation rule:
+            - if the 'interfaces' input variable has a value, apply the primary interfaces found with the find('list', 'interface') function call which returns all defined interfaces, as a filter of valid values of the interfaces input variable
+        - this code validation rule is not always true, but is generally or commonly useful
+        - finding 'invariant structures' such as 'rules which are always true, in all possible cases or case types' which can be used to derive definitions, as structures of certainty such as structures which dont change
+          - similarly 'rules which are generally or commonly true' can be used to find 'probable structures of certainty'
+        - given that 'structures which dont change' can be used to find structures like 'definitions' given their common relation to 'certainty' structures, structures which are sufficiently similar can be used to identify/derive/substitute each other
+
       - identify the structures that can fix the causes of a problem, applying insights about problem causes such as that 'problems or problem causes are usually useful in some way to some entity if they exist enough to be noticed, or they wouldnt exist'
         - example: if a problem exists, its either beneficial to some entity with the ability to use the problem to its advantage or create the problem, or its not a big enough problem for enough entities to trigger the structures (like "priority increase to highest priority") that would be necessary to fix it
         - so finding structures like 'functions that find alternative ways to benefit those entities than the problem' would be useful in addressing the 'causes' of the problem (the 'benefit to some entity', the 'problematic attributes of that entity like "parasitic/predatorial strategies to benefit from causing problems"', or the 'lack of solution-triggering structures')
