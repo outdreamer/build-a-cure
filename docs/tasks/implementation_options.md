@@ -220,16 +220,6 @@ def define(structure):
 	return defs[structure] if structure in defs else None
 
 def apply_interface(structure, interfaces):
-	''' to do: apply code validation rules like:
-		- if an input variable is tested for and not found to be initialized, 
-			and is assigned a value if this condition applies, 
-			apply the output of that assignment as a filter of the input value, 
-			if the input is initialized
-		- example: 
-			- if the 'interfaces' variable has a value, 
-				apply the primary interfaces found with the find('list', 'interface') function call as a filter of valid values of the interfaces input variable
-
-	'''
 	if not interfaces or len(interfaces) == 0:
 		interfaces = find('list', 'interface')
 		interfaces = ['cause', 'change']
