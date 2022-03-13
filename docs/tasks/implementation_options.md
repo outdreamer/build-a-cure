@@ -254,6 +254,14 @@ def change(structure, changes):
 	'''
 		1. first apply similar logic as find('difference') if changes is not populated
 		2. then apply each found difference type to the input structure
+
+		- notes 
+			- build, find, change, derive should all have multiple strategies applied
+				- for example, build should apply multiple 'build' strategies, such as:
+					-  multiple 'merge', 'combine', 'connect', and 'integrate' variants
+				- similarly, 'change' should apply multiple 'change' strategies, such as:
+					- 'multiple combinations of changes', 'multiple sequences of changes', 'multiple combinations of sequences of changes'
+				- 'find' should apply multiple 'find' strategies, like 'find substructure based on a matching threshold ratio'
 	'''
 	changed_structures = []
 	if not changes:
