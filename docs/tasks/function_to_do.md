@@ -210,6 +210,8 @@
       - using 'inputs/outputs' to represent everything is more likely to avoid losing information, but does represent everything as a sequence structure, where sometimes sequences arent implicitly described, such as in a set, which would require a description in the form of a 'generative sequence' or an artifical order imposed on the sequence
 
   - add to science
+    - only some interface structures like certainties need to be preserved in order to proceed to the next space-time, not all structures (not everything thats true needs to always be true), so as not to destroy the stability of the interacting structures that allows a space-time to occur at all
+      - adjacent changes dont always need to connect adjacent space-times, if the change is significant but doesnt destroy the stability of the interacting structures
     - roots to provide a core structure of alternatives as opposed to a requirement through one option
       - https://www.livescience.com/imaginary-numbers-needed-to-describe-reality
     - 'metformin and a low carb diet' reduce 'serum vitamin b' which can be used as inputs to 'cancerous growth'
