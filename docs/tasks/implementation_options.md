@@ -219,6 +219,66 @@ def define(structure):
 	}
 	return defs[structure] if structure in defs else None
 
+def apply_interface(structure, interfaces):
+	if not interfaces or len(interfaces) == 0:
+		interfaces = find('list', 'interface')
+		interfaces = ['cause', 'change']
+	interface_structures = {}
+	for interface in interfaces:
+		interface_structures[interface] = {}
+		definition_routes = find('definition_routes', interface)
+		# for example, 'cause' definition is 'triggers of a structure', triggers such as inputs, intents, contexts or other structures requiring that structure, etc
+		definition_routes = ['input of structure', 'systems requiring structure', 'intents that use structure']
+		for definition_route in definition_routes:
+			definition_route = 'input of structure'
+			interface_structures[interface][definition_route] = {}
+			definition_structures = find('structure', definition_route)
+			definition_structures = ['input', 'structure']
+			for definition_structure in definition_structures:
+				definition_structure = 'input'
+				if definition_structure != 'structure':
+					# if 'input' != 'structure':
+					this_interface_route_structures_in_structure = find(definition_structure, structure) # find 'input' of 'structure'
+					# this should match all structures related to structure that match the 'input' definition, such as 'a variable used as input to a function'
+					this_interface_route_structures_in_structure = ['structure_input_variables']
+					interface_structures[interface][definition_route][definition_structure] = this_interface_route_structures_in_structure
+					# this stores the 'definition structure' and the 'matching structure of that definition structure in structure' as a dict
+					# similar to storing a 'network' as a set of 'connected node pairs'
+					# so that these structures of structure which match this 'definition route' can be related in a 'network' form
+	return interface_structures
+
+def find(substructure, structure):
+	similarity_threshold_ratio = 0.5
+	# ratio of matching attributes/functions to total attributes/functions used to find sufficiently similar substructures
+	# get all possible substructures in the structure as the solution space to filter
+	substructures = find('substructure', structure)
+	# apply interface structures to substructures to get adjacent distortions and related structures of substructures
+	for interface in interfaces:
+		interface_substructures = apply_interface(interface, substructures)
+		substructures.extend(interface_substructures)
+	scores = {}
+	max_substructure_score = {}
+	# iterate through substructures, comparing to substructure by each combination of attributes/functions
+	for possible_substructure in substructures:
+		# get all combinations of attributes/functions
+		combination_possible_substructure = find('combination', possible_substructure['attributes'] + possible_substructure['functions'])
+		combination_substructure = find('combination', substructure['attributes'] + substructure['functions'])
+		common_combinations = find('duplicate', combination_possible_substructure + combination_substructure)
+		this_threshold_ratio = len(common_combinations) / len(combination_substructure)
+		if this_threshold_ratio >= similarity_threshold_ratio:
+			scores[possible_substructure] = common_combinations
+			if max_substructure_score:
+				if len(common_combinations) > [val for val in max_substructure_score.values()][0]:
+					max_substructure_score[possible_substructure] = len(common_combinations)
+			else:
+				max_substructure_score[possible_substructure] = len(common_combinations)
+	print('all matches found')
+	for struct, score in scores.items():
+		print('structure', struct, 'score', score)
+	if max_substructure_score:
+		print('substructure with most matches found', max_substructure_score)
+		return [key for key in max_substructure_score.keys()][0]
+	return False
 
 def design_interface_query(problem_statement, solution_automation_workflow, intent):
 	''' 
