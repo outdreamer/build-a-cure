@@ -201,6 +201,9 @@ def define(structure):
 	- some structures cant be reduced to another definition, for example, like 'input', 
 		which if it's reduced to another structure like 'triggers' or 'requirements' or 'assumptions', 
 		changes its definition so it cant be used to cover the other structures it refers to
+	- to do: 
+		- add fetching of definition_routes as well as the primary definition to this function
+			or the find() implementation when pulling a definition, given the usefulness of definition_routes for find()
 	'''
 	# defs are default core structure definitions
 	defs = {
@@ -246,6 +249,39 @@ def apply_interface(structure, interfaces):
 					# similar to storing a 'network' as a set of 'connected node pairs'
 					# so that these structures of structure which match this 'definition route' can be related in a 'network' form
 	return interface_structures
+
+def change(structure, changes):
+	'''
+		1. first apply similar logic as find('difference') if changes is not populated
+		2. then apply each found difference type to the input structure
+	'''
+	changed_structures = []
+	if not changes:
+		definition = find('definition', 'change')
+		definition_routes = find('definition_routes', 'change')
+		definition_routes = ['differences output by applying variables', 'differences output by applying functions']
+		for definition_route in definition_routes:
+			definition_structures = find('structures', definition_route)
+			definition_structures = ['variables', 'output', 'apply', 'differences']
+			for definition_structure in definition_structures:
+				possible_structures = find(definition_structure)
+				possible_structures = ['possible unique structures (as anything unique can create a new difference type)', 'variables of unique structures', 'function inputs', 'function outputs'] # examples of 'variable' structures
+				if len(possible_structures) > 0:
+					changes.extend(possible_structures)
+	if len(changes) > 0:
+		for change in changes:
+			changed_structure = apply('change', structure)
+			if changed_structure != structure:
+				changed_structures.append(changed_structure)
+			# applying a change amounts to retrieving the change definition, finding change structures, then iterating through each change
+			# on each iteration, finding the attributes/functions of the structure which can be changed by the change
+			# for example, if the structure is a network, applying a change like a 'position' variable could mean:
+			# 'changing position of nodes' or 'changing position of functions' or 'changing position of the network'
+			# because the 'nodes', 'functions', and 'network' are structures that have a position attribute, so their position can be changed
+			# as another example, changing the 'power' of the structure could mean:
+			# 'changing the inputs', 'changing the outputs', 'changing the functionality', 'changing the controlling hub nodes', 'changing the determining variables of the network'
+			# since the 'inputs/outputs', 'functionality', 'hub nodes', and 'determining variables' are all structures of power (that control other structures)
+	return changed_structures
 
 def find(substructure, structure):
 	similarity_threshold_ratio = 0.5
