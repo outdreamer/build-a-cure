@@ -167,19 +167,22 @@
       - 'finding interim "state-connecting" solutions' that solve problems 'temporarily' or 'emergently when applied at scale or under other conditions', such as how covering/reducing 'transportation costs to high job-density areas or cell phones costs or basic good (medicine, clean water) costs or "valuable idea"-inventing costs (computers, machine-learning, encryption, dictionary/encyclopedia, solution/rules database, quantum computing, batteries, solar power, math, clean energy, search engine, sorting algorithm, bitcoin, interface analysis)' is an interim solution to 'ending economic opportunity inequality' that when applied at scale might temporarily end economic inequality, & once other solutions are found to improve job distribution in general, it might complete the task if the previous state is the 'state after applying the interim solution', rather than applying it starting from the 'worst case scenario'
 
   - add to tech
-    - carmichael function
+    - tech companies can distribute approved info to people directly by email or notification rather than waiting for them to hear about news or read the news, so they can see how many notifications corroborate each other
+      - tool to identify 'common' opinions on a matter, 'changing' opinions, 'trending', 'trolling/triggering', 'extreme' opinions, 'corroborated' opinions matching various science studies or other info sources, opinions 'matching patterns of conspiracy thinking or patterns of emotional reactions eventually tempered with facts', etc
+      - https://www.washingtonpost.com/technology/2022/03/11/tik-tok-ukraine-white-house/
+    - carmichael function and rsa encryption
       - adds multiple outputs for an input (multiple y's for an x value) and multiple ways to get the same output (multiple x values to get the same y), and the output A(n) obscures the input n to some degree with increasing obscurity with increasing n
       - '2 ensures a 'vector position of 8' for all coprimes of 8' (totient function of n = 8 is m = 2)
       - a^m = (some multiple of n) + 1, for each a 
       - 'find the smallest integer power the coprimes should be raised to in order to get a position of n'
       - the modulo function is useful for finding 'distance from a value (like products of 8)' which is useful for 'finding primes'
-    - can any other attributes of q & p be derived other than:
-      - the lower limit represented by e, which the totient of p * q must be higher than
-      - the difference in magnitude/length required for security
-    - searching for prime pairs p & q that could create n should be filterable by removing ranges that dont contain a prime that could produce an approximate value, like filtering out the ranges between integer pairs that could produce 100, as numbers in these ranges cant pair up with another integer in a way that could create 100 by just using one multiplication operation
-      - multiples of 2/50, 5/20, 10/10 can create 100, given that its even (factorible to 2), produced by a multiplier of 10, and given that its produced by a multiplier of 10 can also be divisible by 5
-        - so values around 50, 20, and 10 can be 'possible solutions' given that 2, 5, and 10 are known possible factors, until the multiplication is calculated to filter the solution space
-      - this would be useful for filtering primes that dont have a paired prime that could create n (or a value near n)
+      - can any other attributes of q & p be derived other than:
+        - the lower limit represented by e, which the totient of p * q must be higher than
+        - the difference in magnitude/length required for security
+      - searching for prime pairs p & q that could create n should be filterable by removing ranges that dont contain a prime that could produce an approximate value, like filtering out the ranges between integer pairs that could produce 100, as numbers in these ranges cant pair up with another integer in a way that could create 100 by just using one multiplication operation
+        - multiples of 2/50, 5/20, 10/10 can create 100, given that its even (factorible to 2), produced by a multiplier of 10, and given that its produced by a multiplier of 10 can also be divisible by 5
+          - so values around 50, 20, and 10 can be 'possible solutions' given that 2, 5, and 10 are known possible factors, until the multiplication is calculated to filter the solution space
+        - this would be useful for filtering primes that dont have a paired prime that could create n (or a value near n)
     - identify useful questions to avoid researching/testing pointless possible solutions (solutions that will always be high-cost, solutions that have a built-in flaw that invalidates them) 
       - is there an 'encryption algorithm' that allows identification of each attribute of the original document (like homomorphic encryption) that is required to build sufficient 'attribute combinations' to filter the space of possible original documents at all
       - is there any way to hide information in a way that cant be easily found except with info about a shortcut to find it (the decryption key) or will information-obfuscation operations (and any info interaction function) always create other info (side effects like computation/usage/access effects, outputs/inputs), meaning 'is it possible to isolate info operations perfectly so that these operations dont create these measurable side effects'
@@ -650,6 +653,10 @@
   - add to science
 
     - finding space time trajectories that use as much information as possible to avoid 'reversal of direction' errors
+
+    - bc it uses hormones, diverts resources to building the embryo, and creates stem cells that can become any other cell
+      - of those that are common, they are associated with reproductive organs and related systems
+      - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6396773/
 
     - solutions to water supply problem
       - multiple solutions including solutions like reverse osmosis and solution formats like using reverse osmosis to create a reusable water supply that is more filterable, requiring one use per user with access to the tool in urban centers
