@@ -329,7 +329,7 @@ def design_interface_query(problem_statement, solution_automation_workflow, inte
 	- this function generates output like the example query below for the sorting algorithm test_problem,
 		where the query implements the specified workflow
 
-	1. break the given intent (or the intent of the workflow or problem statement) into sub-intents
+	1. break the given intent (or the intent of the workflow or problem statement) into sub-intents, matched to 'info required to solve the problem'
 
 	2. then find/build/derive functions that can fulfill each sub-intent
 		- if functions are already indexed by intent, this can be a simple 'find' query to find structures of existing functions that fulfill the specified intent
@@ -345,6 +345,7 @@ def design_interface_query(problem_statement, solution_automation_workflow, inte
 	else:
 		problem_sub_intents = apply('break', problem_statement, output_filters='clauses')
 		workflow_sub_intents = apply('break', solution_automation_workflow, output_filters='clauses')
+	# the sub intents should correspond to 'info required to solve the problem'
 
 	break_function_applied = find('difference', input_structure=[break_input, break_output])
 	merge_function = apply(structure='opposite', input_structure=break_function_applied)
