@@ -171,6 +171,8 @@
       - tool to identify 'common' opinions on a matter, 'changing' opinions, 'trending', 'trolling/triggering', 'extreme' opinions, 'corroborated' opinions matching various science studies or other info sources, opinions 'matching patterns of conspiracy thinking or patterns of emotional reactions eventually tempered with facts', etc
       - https://www.washingtonpost.com/technology/2022/03/11/tik-tok-ukraine-white-house/
     - carmichael function and rsa encryption
+      - example of why a 'structural similarity' isnt all thats required to determine useful structures
+        - https://arstechnica.com/information-technology/2022/03/researcher-uses-600-year-old-algorithm-to-crack-crypto-keys-found-in-the-wild/
       - adds multiple outputs for an input (multiple y's for an x value) and multiple ways to get the same output (multiple x values to get the same y), and the output A(n) obscures the input n to some degree with increasing obscurity with increasing n
       - '2 ensures a 'vector position of 8' for all coprimes of 8' (totient function of n = 8 is m = 2)
       - a^m = (some multiple of n) + 1, for each a 
@@ -436,6 +438,13 @@
       - for example, a solution-finding function that filters the solution space could identify the threshold values of solution prediction function coefficients beyond which the solution isnt possible if the solution is to fulfill a solution requirement like 'accuracy' (in summarizing/representing a data set)
 
     - add to solution automation workflows
+
+      - identify structures of relevance to find relevant structures for functions commonly used in solution automation workflows like primary functions like find/build/derive/apply to reduce the computations run by these functions, and therefore reduce steps to implement workflows
+        - example: the 'apply' function applies changes in the form of a structure to another structure, in which the 'structure being applied' has to match the inputs of the 'structure its applied to', otherwise the structure being applied is not relevant to the structure being applied to, for example, applying a 'collision function' to 'blocks' is only relevant if there are 'multiple structures like "blocks" which can be collided' and if the 'blocks dont have an overriding function which prevents collisions like magnetic forces', meaning 'does the collision function have its inputs (blocks to collide, no collision-prevention structures) fulfilled'
+          - so checking for 'inputs' which can make a structure useful to apply is a filter of 'structures which can be applied to other structures'
+          - similarly, with the 'find' function, only 'structures which can be found (structures which are measurable, structural, stable, stored, unique/determinable/identifiable compared to other structures)' can be found, so only these structures are relevant to the 'find' function
+          - similarly, 'structures that can be connected' are relevant to the 'derive' function, and 'structures which can be combined' are relevant to the build function (as well as any structures which can make other structures findable, derivable, buildable, and applicable, making these structures relevant to these functions)
+        - this workflow applies a definition of relevance to find structures that are useful (in the sense of being usable and therefore relevant) to the primary interaction functions, to filter out structures which are irrelevant when using these functions
 
       - identify useful structures like 'sufficient similarity' to find structures which can be used to fulfill common intents like 'find alternates of a structure' which are useful for problem-solving intents like 'find alternate solutions'
         - example: applying code validation rules like the following can be used to correct logic, given the general or common applicability of such rules
