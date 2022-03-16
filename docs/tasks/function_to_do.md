@@ -439,6 +439,9 @@
 
     - add to solution automation workflows
 
+      - identify interface structures based on 'interface structures (like change types, cause, etc) of interface structures', to fulfill useful intents like 'find interface structures that are probably found adjacent to each other' to fulfill intents like 'connect interface structures'
+        - example: the structures nearest to an interface are likely to be composed of 'core structures' of that interface, are likely to be in the shape of 'overlapping pyramids' (describing multiple 'combinations of core structures' (bases) with different outputs (peaks)) than other shapes like a 'set of circles returning to the interface' or a 'tree with outputs pointing at the interface', where 'similar changes across these pyramids' are likely to represent 'phase shifts' and 'interaction levels', and the changes farthest from the interface are likely to be 'outputs' of the other changes rather than 'adjacent changes resulting from core combinations of core structures', given how changes on an interface usually interact, such as in 'fractal patterns'
+
       - identify useful structures that fulfill required intents like 'preserving an interface' which is required for a system to exist, interfaces being a core structure of systems, representing stable states of the system
         - example: a 'limiting structure' and a 'changing structure' are required 'opposite' structures, which are required to fulfill required 'preservation' intents like 'make sure change doesnt get out of control' in a system which would destroy the system, which is necessary if the system is to exist or be useful, and necessary while the system is still more useful/beneficial than costly
           - similarly, a 'change that is possible on an interface' (like a 'base line') is a 'change that doesnt destroy or destabilize the interface' (like a 'smaller line than the base line, applied in a direction other than that of the base line')
