@@ -440,7 +440,7 @@
     - add to solution automation workflows
 
       - identify useful structures that fulfill required intents like 'preserving an interface' which is required for a system to exist, interfaces being a core structure of systems, representing stable states of the system
-        - example: a 'limiting structure' and a 'changing structure' are required 'opposite' structures, which are required to fulfill 'preservation' intents like 'make sure change doesnt get out of control' in a system which would destroy the system, which is necessary if the system is to exist or be useful
+        - example: a 'limiting structure' and a 'changing structure' are required 'opposite' structures, which are required to fulfill required 'preservation' intents like 'make sure change doesnt get out of control' in a system which would destroy the system, which is necessary if the system is to exist or be useful, and necessary while the system is still more useful/beneficial than costly
           - similarly, a 'change that is possible on an interface' (like a 'base line') is a 'change that doesnt destroy or destabilize the interface' (like a 'smaller line than the base line, applied in a direction other than that of the base line')
 
       - identify useful structures determining relevance, such as 'similar differences that make variables relevant' to supplement, replace, or implement known useful structures like 'interaction levels' to fulfill problem-solving intents like 'find relevant variables'
@@ -688,6 +688,12 @@
     - relevance of intelligence (successful learning/thinking) & disease (unsuccessful learning/thinking/stressor-handling): https://www.quantamagazine.org/brain-cells-break-their-dna-to-learn-more-quickly-20210830/
 
   - add to science
+
+    - gravity batteries
+      - stations that start at tops of hills to initialize routes with energy already stored, and uphill trajectories back to these stations which are similar in shape to a 'diagonal wave function' to power each section of uphill ascent with the energy from the downhill dip
+      - particles drawn from air which, when electricity or other reaction is applied, form heavier particles which create energy when falling
+      - magnets that repel an object to a height which is useful for energy generation when falling
+      - structures that, when dropped from a high point like the iss, cliffs, sides of buildings, or mountains (carrying the object horizontally with wires to a position where it can fall in a useful way) where theyre constructed, dissolve by the time they reach the ground to avoid crashes, or when 'automatically moved' in another way, like with ocean tides directed by fields/rotation of the earth (digging holes in the ocean floor where the tides would direct water in a predictable way that could be harvested)
 
     - finding space time trajectories that use as much information as possible to avoid 'reversal of direction' errors
 
