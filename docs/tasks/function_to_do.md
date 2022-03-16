@@ -445,7 +445,10 @@
           - 'reasons to use a structure (such as the required or probable outputs of using the structure) like a "specific" or "abstract" structure' can also identify when to use a specific structure vs. an abstract structure 
         - these structures ('reasons to use a structure', 'expected outputs of the structure', 'known intents fulfilled by a structure') are alternate structures which can be useful in intents like 'filtering what structures to use'
           - storing the 'reasons to use a structure' vs. storing the 'expected outputs of the structure' (a specific example of the 'reasons to use a structure') vs. storing 'known intents fulfilled by the structure' can provide optimization opportunities, if some of these structures are used more frequently across interface queries, functions, or solution automation workflows
-          - other structures with similar functionality as these structures include 'requirements including the structure or its outputs', 'known contexts/systems where the structure is useful or required'
+          - other structures with similar functionality as these structures include:
+            - 'requirements including the structure or its outputs'
+            - 'known contexts/systems where the structure is useful or required'
+            - 'structures that are useful for determining the probable output of a structure (like a function), when applied in a system where it hasnt been tested' (such as by finding any structures in the system that could neutralize or alter the steps or requirements of the function, which are capable of interacting with the function or its requirements in that way)
         - other relevant structures, like 'phase shifts where one structure stops being more useful than an alternate structure', are similarly useful for this workflow
 
       - identify interface structures based on 'interface structures (like change types, cause, etc) of interface structures', to fulfill useful intents like 'find interface structures that are probably found adjacent to each other' to fulfill intents like 'connect interface structures'
