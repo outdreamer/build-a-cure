@@ -439,6 +439,9 @@
 
     - add to solution automation workflows
 
+      - identify structures which store info such as 'representative data (data set shape) of other info (data set)', where the stored info can be used as a proxy or substitute for the other info to fulfill intents like 'reduce computations'
+        - example: knowing the 'general shape' of the data set is useful information to assess whether a directional change or parameter of a prediction function is likely to produce a correct prediction function, and may be more useful in some cases than the actual data point, as the 'general change types like change patterns and change rates and variable interactions' are included in the 'general shape' of the data set but are not included in individual data points, which are used as the input to most 'find a prediction function' solution-finding methods
+
       - identify structures that are useful for specific intents in a problem space like 'find a prediction function' that could fulfill solution metrics like accuracy
         - example: if predicting whether a particularly high output (target y-value) exists (or is likely to exist) in a data set (for intents like 'augmenting data' and 'inferring new data' and 'imputing data (filling in missing data)')
           - first find the x-range of lowest/highest x-values, then select random subsets of the data set and find a function that describes each random subset
