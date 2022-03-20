@@ -167,6 +167,8 @@
       - 'finding interim "state-connecting" solutions' that solve problems 'temporarily' or 'emergently when applied at scale or under other conditions', such as how covering/reducing 'transportation costs to high job-density areas or cell phones costs or basic good (medicine, clean water) costs or "valuable idea"-inventing costs (computers, machine-learning, encryption, dictionary/encyclopedia, solution/rules database, quantum computing, batteries, solar power, math, clean energy, search engine, sorting algorithm, bitcoin, interface analysis)' is an interim solution to 'ending economic opportunity inequality' that when applied at scale might temporarily end economic inequality, & once other solutions are found to improve job distribution in general, it might complete the task if the previous state is the 'state after applying the interim solution', rather than applying it starting from the 'worst case scenario'
 
   - add to tech
+    - since most people have access to water but its not clean enough to avoid getting sick from it, mobile phone with uv light functionality built-in that can kill bacteria in water since people were going to want a mobile phone anyway and theyre at the target price point of other solutions (5% of income, or $4), the remaining task is removing chemicals from water, which some tools like condensation tools and plants that dont absorb pollutants could help with (rubber, cattail, water mint) 
+      - long-term strategies can involve digging strategically placed canals or wells in high areas that will flow to other areas with automatic digging devices, relocating people, efficient air harvesting devices, harvesting energy from bacteria (EET), brains, thermoelectric energy harvesting through exercise or overheating (wearing enough clothes to produce sweat but harvesting the heat as its released instead), plants, making salt water less salty over time (slowly adding other electrolytes in a timeframe that animals can adapt to, or adding salt-binders or salt-breaking enzymes/bacteria), etc
     - tech companies can distribute approved info to people directly by email or notification rather than waiting for them to hear about news or read the news, so they can see how many notifications corroborate each other
       - tool to identify 'common' opinions on a matter, 'changing' opinions, 'trending', 'trolling/triggering', 'extreme' opinions, 'corroborated' opinions matching various science studies or other info sources, opinions 'matching patterns of conspiracy thinking or patterns of emotional reactions eventually tempered with facts', etc
       - https://www.washingtonpost.com/technology/2022/03/11/tik-tok-ukraine-white-house/
@@ -437,13 +439,27 @@
       - however 'filter the solution space' is a general intent and can be implemented in many ways, varying on this structure of its defined value
       - for example, a solution-finding function that filters the solution space could identify the threshold values of solution prediction function coefficients beyond which the solution isnt possible if the solution is to fulfill a solution requirement like 'accuracy' (in summarizing/representing a data set)
 
+
     - add to solution automation workflows
+
+      - identify useful structures like 'alternate structures' that can be combined to create solution automation workflows which are not default components of solution automation workflows (solutions, problem-solving intents, etc)
+        - example: the 'iteration' structure of a 'for loop' is the corresponding structure of 'try every possible solution, score each one, and compare scores' or 'try every possible solution & score each one, until one score is above the solution score threshold', as 'for loops' are often used to 'build a reduced list out of another list'
+        - similarly, the 'function parameters' (inputs, values being changed) & 'function return values or value changes' (outputs) are corresponding structures of the 'find input-output sequences that connect problem/solution' workflow
+        - given that core logic structures are corresponding structures of core workflows, combining core logic structures as components of other workflows is a way to generate workflows
+
+      - identify inputs of solution automation workflows and identify methods to convert structures into those requirements, to select which workflow to apply when one is more optimal than other
+        - example: the 'break problem into sub-problems' workflow has a requirement of 'isolatable change types', given the structural impact of the workflow which is 'isolating change types'
+          - these change types can be sub-problems (reductions of the problem), which can take the form of:
+            - 'solving the original problem, for a subset of the original problem variables'
+            - 'solving the original problem, broken into a sequence/tree/network of sub-problems'
+            - 'solving the problems causing the original problem which are "components" of the problem in that they are "inputs" of the problem'
+          - similarly, the 'filter a solution space' workflow has a requirement of 'existing solutions to try' or 'existing possible combinations/changes (in the problem space) to try (which may or may not be solutions but are possibilities)'
 
       - identify useful structures which store info such as 'representative data (data set shape) of other info (data set)', where the stored info can be used as a proxy or substitute for the other info to fulfill problem-solving intents like 'reduce required computations'
         - example: knowing the 'general shape' of the data set is useful information to assess whether a directional change or parameter of a prediction function is likely to produce a correct prediction function, and may be more useful in some cases than the actual data point, as the 'general change types like change patterns and change rates and variable interactions' are included in the 'general shape' of the data set but are not included in individual data points, which are used as the input to most 'find a prediction function' solution-finding methods
           - the 'representative data' is also useful for other intents like 'generalizing a function', as 'specific data points' are likelier to be corrupted, mistaken, or influenced by other irrelevant factors than the 'general shape of the data set'
 
-      - identify useful structures for specific intents in a problem space like 'find a prediction function' that could fulfill solution metrics like 'accuracy'
+      - identify useful structures (like 'additional inputs', as in 'additional input data derived/inferred/imputed' or 'probable additional input data') for specific intents in a problem space like 'find a prediction function' that could fulfill solution metrics like 'accuracy'
         - example: if predicting whether a particularly high output (target y-value) exists (or is likely to exist) in a data set (for intents like 'augmenting data' and 'inferring new data' and 'imputing data (filling in missing data)')
           - first find the x-range of lowest/highest x-values, then select random subsets of the data set and find a function that describes each random subset
           - then find the maximum y-value of this function over the x-range, using a method such as 'find out if there are adjacent points to the target y-value in a pattern that would make it possible for the y-value to exist in the function (like "are there two points surrounding the peak of a curve, where the peak is the y-value" or "are there two points surrounding the y-value in opposite directions, at a change rate that is plausible for the function as it exists elsewhere in the function")' or "is it adjacent to known points in the function within an accuracy range"
@@ -818,6 +834,8 @@
           - 'bias is reduced using local information'
           - 'If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.'
           - 'If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.'
+
+  - give example of 'different meaning interaction levels'
 
   - give examples of why other tech solutions are insufficient
     - why ml would be inaccurate on math problems (like 'predict convergence value for an infinite series, based on training data of infinite series param input & convergence value output')
