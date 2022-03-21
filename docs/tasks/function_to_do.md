@@ -432,6 +432,7 @@
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
     - add to explanations
+
       - my system implements concepts like probability, logic, requirements, functions, variables, structure, intent, and cause in an integrated manner that generates meaning relevant to user requests
 
     - example of problem-solving intent definitions
@@ -442,12 +443,20 @@
 
     - add to solution automation workflows
 
+      - apply interface structures to problems to generate new solution automation workflows that involve a reduction of some solution metric (problem variable set, distance from solution, number of un/solved sub-problems as a ratio of total sub-problems, etc)
+        - all of the solution automation workflows in problem_solution_diagrams.svg involve changes to the variables of a problem 
+          - change problem until its a solution (changes the problem state)
+          - solve different problem (change problem identity)
+          - break problem into sub-problems (change problem scope/complexity)
+          - connect problem/solution (change problem/solution position)
+          - reduce problem (change problem variable set to a subset)
+
       - identify useful structures like 'alternate structures' that can be combined to create solution automation workflows which are not default components of solution automation workflows (solutions, problem-solving intents, etc)
         - example: the 'iteration' structure of a 'for loop' is the corresponding structure of 'try every possible solution, score each one, and compare scores' or 'try every possible solution & score each one, until one score is above the solution score threshold', as 'for loops' are often used to 'build a reduced list out of another list'
         - similarly, the 'function parameters' (inputs, values being changed) & 'function return values or value changes' (outputs) are corresponding structures of the 'find input-output sequences that connect problem/solution' workflow
         - given that core logic structures are corresponding structures of core workflows, combining core logic structures as components of other workflows is a way to generate workflows
 
-      - identify inputs of solution automation workflows and identify methods to convert structures into those requirements, to select which workflow to apply when one is more optimal than other
+      - identify useful structures (like 'inputs') of solution automation workflows and identify methods to convert structures into those requirements, to select which workflow to apply when one is more optimal than other
         - example: the 'break problem into sub-problems' workflow has a requirement of 'isolatable change types', given the structural impact of the workflow which is 'isolating change types'
           - these change types can be sub-problems (reductions of the problem), which can take the form of:
             - 'solving the original problem, for a subset of the original problem variables'
