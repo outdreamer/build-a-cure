@@ -446,18 +446,18 @@
       - apply interface structures to problems to generate new solution automation workflows that involve a reduction of some solution metric (problem variable set, distance from solution, number of un/solved sub-problems as a ratio of total sub-problems, etc)
         - all of the solution automation workflows in problem_solution_diagrams.svg involve changes to the variables of problem/solution structures
           - change problem until its a solution (changes the problem state until its useful in some way)
-          - solve different problem (change problem identity)
+          - solve different problem (change problem identity, like to the 'causal problem')
           - break problem into sub-problems (change problem scope/complexity)
           - connect problem/solution (change problem/solution position)
           - reduce problem (change problem variable set to a subset)
           - filter solutions (change problem space possibilities to a subset)
           - change existing solution until its more optimal (change suboptimal solution)
-        - the interface structures (changes) applied to the variables of problem/solution structures need to fulfill definitions ('make sense')
+        - the interface structures (changes) applied to the variables of problem/solution structures need to fulfill definitions ('make sense, having no relevant contradictions')
           - for example: 'changing a suboptimal solution' is only useful when the change fulfills solution metrics more optimally than the previous state
           - so the 'change' applied would only qualify as an implementation of a solution automation workflow if it 'improves the suboptimal solution' (fulfills the definition of 'solving a problem')
         - sub-intents of each workflow, like 'find input info of the workflow', are components of the workflow implementation (interface query)
           - workflow: connect problem/solution (change problem/solution position)
-            - sub-intents (alternative, overlapping, sequential)
+            - sub-intents (alternative, overlapping, sequential sub-problems)
               - 'find input info of the workflow' sub-intent: find connective/interactive structures to use in connections
               - 'find structures to input to the connect function' sub-intent: find structures required to be connected
           - various workflows can be used to implement these sub-intents:
@@ -469,10 +469,12 @@
               - the output of the previous sub-intent can be used as input to this workflow
               - the 'adjacent inputs of the solution (derived from solution requirements)' can be input to the 'connect' function
                 - meaning the 'problem structures' should be connected to the 'solution-adjacent inputs'
+        - these sub-intents of each workflow are each problem-solving intents, bc they all add useful information to use a solution automation workflow, even if the current workflow cant be completed (just the sub-intent is completed)
 
       - identify useful structures like 'alternate structures' that can be combined to create solution automation workflows which are not default components of solution automation workflows (solutions, problem-solving intents, etc)
         - example: the 'iteration' structure of a 'for loop' is the corresponding structure of 'try every possible solution, score each one, and compare scores' or 'try every possible solution & score each one, until one score is above the solution score threshold', as 'for loops' are often used to 'build a reduced list out of another list'
         - similarly, the 'function parameters' (inputs, values being changed) & 'function return values or value changes' (outputs) are corresponding structures of the 'find input-output sequences that connect problem/solution' workflow
+        - the 'filter the solution space' workflow also corresponds to the 'iteration to reduce a set' structure represented by a for loop with a filter applied to a list
         - given that core logic structures are corresponding structures of core workflows, combining core logic structures as components of other workflows is a way to generate workflows
 
       - identify useful structures (like 'inputs') of solution automation workflows and identify methods to convert structures into those requirements, to select which workflow to apply when one is more optimal than other
