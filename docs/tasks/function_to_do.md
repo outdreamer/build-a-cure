@@ -780,6 +780,8 @@
     - check if similar strategies as vaccines are functional - can the immune system learn 'associations' like the following:
       - associating a new pathogen with a known pathogen already recognized by the immune system using a chemical bond, so the immune system learns to attack the new pathogen
       - associating an interior part of a pathogen with an exterior part of the pathogen, so the immune system learns that a pathogen it already recognizes is inside a cell having the exterior attribute
+      - associating 'immune system outputs' like coughing or heat with an immune response, either local or global, so the immune system learns to trigger itself whenever a cough or painful stimulus or another output of the immune system is intentionally triggered by force
+      - giving a known pathogen partial attributes of a new pathogen so the immune system learns to attack the new pathogen without being exposed to it
 
     - gravity batteries
       - stations that start at tops of hills to initialize routes with energy already stored, and uphill trajectories back to these stations which are similar in shape to a 'diagonal wave function' to power each section of uphill ascent with the energy from the downhill dip
