@@ -1,10 +1,10 @@
-      - apply workflows until 'minimum info required to check if it has at least one successful example' is reached
+      - apply workflows until 'minimum info required to check if it has at least one successful example' is reached, as a way of fulfilling the problem-solving intent 'select useful solution automation workflows to solve a problem'
         - example: finding out whether a workflow or solution-finding method has at least one successful example is trivial, and finding out which workflows can reach this example is trivial in the set of core workflows, and once a succesful example is achieved, changes can be applied to the original core workflow to improve the next application of the workflow variant
 
-      - apply interface structures to identify new variables
+      - apply interface structures to identify new variables to identify new changes to problem/solution structures to fulfill intents like 'apply changes to existing solutions until its optimized'
         - example: to identify a new variable of a structure like a 'song' with core structures like 'notes', apply interface structures (like 'subset') to other interface structures (like 'time' in the 'physical information' interface of the 'information' interface), to generate 'intervals of notes'
 
-      - apply interface structures to filter structures as being more probably true or false
+      - apply interface structures to filter structures as being more probably true or false to fulfill the problem-solving intent 'find certainty/probability structures'
         - example: if there is no 'reason to support a theory', it doesnt have to automatically be considered true and is a candidate for a falsehood, like when someone's actions dont match their words, as 'words' are the far more easily controlled variable than 'actions', so 'words' are more easily faked than 'actions' and can therefore be subjected to more scrutiny (as opposed to trust)
           - the 'reason compounding the certainty of that possibility' is the interface structure associated with the insight 'more easily controlled variables (by agents with incentives to lie) being more subject to noise and other forms of falsehood' to generate other structures like 'a set of falsehoods where the truths are so rare they might as well be a random error' to identify a data set as part of a 'liar' or 'error/falsehood' cluster
           - deriving the 'reason compounding a certainty (the reason a statement could be true)' from the insight 'more easily controlled variables (by agents with incentives to lie) are likelier to contain falsehoods (where falsehoods are more efficient and accomplish the same or a similar goal)':
