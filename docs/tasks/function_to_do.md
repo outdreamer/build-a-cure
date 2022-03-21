@@ -777,6 +777,10 @@
 
   - add to science
 
+    - check if similar strategies as vaccines are functional - can the immune system learn 'associations' like the following:
+      - associating a new pathogen with a known pathogen already recognized by the immune system using a chemical bond, so the immune system learns to attack the new pathogen
+      - associating an interior part of a pathogen with an exterior part of the pathogen, so the immune system learns that a pathogen it already recognizes is inside a cell having the exterior attribute
+
     - gravity batteries
       - stations that start at tops of hills to initialize routes with energy already stored, and uphill trajectories back to these stations which are similar in shape to a 'diagonal wave function' to power each section of uphill ascent with the energy from the downhill dip
       - particles drawn from air which, when electricity or other reaction is applied, form heavier particles which create energy when falling
