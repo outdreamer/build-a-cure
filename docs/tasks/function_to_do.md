@@ -444,12 +444,31 @@
     - add to solution automation workflows
 
       - apply interface structures to problems to generate new solution automation workflows that involve a reduction of some solution metric (problem variable set, distance from solution, number of un/solved sub-problems as a ratio of total sub-problems, etc)
-        - all of the solution automation workflows in problem_solution_diagrams.svg involve changes to the variables of a problem 
-          - change problem until its a solution (changes the problem state)
+        - all of the solution automation workflows in problem_solution_diagrams.svg involve changes to the variables of problem/solution structures
+          - change problem until its a solution (changes the problem state until its useful in some way)
           - solve different problem (change problem identity)
           - break problem into sub-problems (change problem scope/complexity)
           - connect problem/solution (change problem/solution position)
           - reduce problem (change problem variable set to a subset)
+          - filter solutions (change problem space possibilities to a subset)
+          - change existing solution until its more optimal (change suboptimal solution)
+        - the interface structures (changes) applied to the variables of problem/solution structures need to fulfill definitions ('make sense')
+          - for example: 'changing a suboptimal solution' is only useful when the change fulfills solution metrics more optimally than the previous state
+          - so the 'change' applied would only qualify as an implementation of a solution automation workflow if it 'improves the suboptimal solution' (fulfills the definition of 'solving a problem')
+        - sub-intents of each workflow, like 'find input info of the workflow', are components of the workflow implementation (interface query)
+          - workflow: connect problem/solution (change problem/solution position)
+            - sub-intents (alternative, overlapping, sequential)
+              - 'find input info of the workflow' sub-intent: find connective/interactive structures to use in connections
+              - 'find structures to input to the connect function' sub-intent: find structures required to be connected
+          - various workflows can be used to implement these sub-intents:
+            - 'find input info of the workflow' sub-intent: find connective/interactive structures to use in connections
+              - 'derive the structures that are adjacent inputs to the solution by applying solution requirements like solution metrics'
+                - this implements the workflow 'derive structures in between problem/solution using input-output sequence'
+            - 'find structures to input to the connect function' sub-intent: find structures required to be connected
+              - this implements the workflow 'apply requirements to derive certain structures that can be connected with uncertainties (variables)', where the uncertainties here are the 'structures or methods to connect those structures which need to be connected'
+              - the output of the previous sub-intent can be used as input to this workflow
+              - the 'adjacent inputs of the solution (derived from solution requirements)' can be input to the 'connect' function
+                - meaning the 'problem structures' should be connected to the 'solution-adjacent inputs'
 
       - identify useful structures like 'alternate structures' that can be combined to create solution automation workflows which are not default components of solution automation workflows (solutions, problem-solving intents, etc)
         - example: the 'iteration' structure of a 'for loop' is the corresponding structure of 'try every possible solution, score each one, and compare scores' or 'try every possible solution & score each one, until one score is above the solution score threshold', as 'for loops' are often used to 'build a reduced list out of another list'
