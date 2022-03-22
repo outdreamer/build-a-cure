@@ -1,8 +1,21 @@
-      - apply workflows until 'minimum info required to check if it has at least one successful example' is reached, as a way of fulfilling the problem-solving intent 'select useful solution automation workflows to solve a problem'
+  
+      - identify useful structures (like 'trivial differences that are relevant') that are inputs to identifying other useful structures (like error types, such as 'trivial errors which are incorrectly ignored') to fulfill problem-solving intents like 'identify error types & apply differences to them to generate solutions'
+        - example: similar to how a neural network has a possible error type of 'over-prioritizing the more common or more represented class in a data set' bc of the 'structural similarity' between the 'under-represented or less frequent class' and 'random noise' or 'trivial errors which can be ignored', given that 'trivial differences' can be under-identified as relevant in a neural network bc of its requirement to generalize across multiple data set input points, rather than designing a function specifically adhering to every input example data point
+        - identifying that 'trivial differences' are ignored/discarded by a neural network involves applying interface structures like 'unit' or 'minimum' to other interface structures like 'difference' and checking for data that can produce an error such as 'ignoring a trivial difference that is actually relevant (has a reason to be included, such as an outlier that indicates a pattern change)'
+
+      - identify the 'causes' of usefulness of a structure (what problem does it solve, what does it reduce), which align with the 'usage intents' of that structure (the 'reasons to use it'), to fulfill problem-solving intents like 'identify/filter useful structures'
+        - example: some structures are more useful than others, like how 'filters of relevant info' are more useful bc they reduce the 'amount of info to focus on (process) to solve a problem'
+        - this expands the definition of useful structures to include other specific useful structures that are generally useful
+        - 'specific structures which apply across systems in general' are useful structures for adding focus (from certain structures) or reducing processing requirements to problem-solving processes
+        - 'adding focus' and 'reducing processing requirements' are 'aligning intents' which can be used as 'interchangeable alternates'
+        - 'inputs to certainty structures' such as 'tests' (which identify the certainty of a structure like an equivalence) are similarly useful, in that they can generate useful structures like certainty structures
+
+      - apply workflows until a useful workflow-filtering structure like 'minimum info required to check if it has at least one successful example' is reached, as a way of fulfilling the problem-solving intent 'select useful solution automation workflows to solve a problem'
         - example: finding out whether a workflow or solution-finding method has at least one successful example is trivial, and finding out which workflows can reach this example is trivial in the set of core workflows, and once a succesful example is achieved, changes can be applied to the original core workflow to improve the next application of the workflow variant
 
       - apply interface structures to identify new variables to identify new changes to problem/solution structures to fulfill intents like 'apply changes to existing solutions until its optimized'
         - example: to identify a new variable of a structure like a 'song' with core structures like 'notes', apply interface structures (like 'subset') to other interface structures (like 'time' in the 'physical information' interface of the 'information' interface), to generate 'intervals of notes'
+          - this is a variable which can be varied in its structural metadata, such as the 'length of the interval', given that a variable is an 'interface unit' structure (supports variation in a range that does not break the structure like the definition of the variable)
 
       - apply interface structures to filter structures as being more probably true or false to fulfill the problem-solving intent 'find certainty/probability structures'
         - example: if there is no 'reason to support a theory', it doesnt have to automatically be considered true and is a candidate for a falsehood, like when someone's actions dont match their words, as 'words' are the far more easily controlled variable than 'actions', so 'words' are more easily faked than 'actions' and can therefore be subjected to more scrutiny (as opposed to trust)
@@ -22,6 +35,7 @@
           - reduce problem (change problem variable set to a subset)
           - filter solutions (change problem space possibilities to a subset)
           - change existing solution until its more optimal (change suboptimal solution)
+          - organize problem/solution structures (like sub-problems) until the original problem is trivial to solve (such as where solving one problem is useful as an input to solving the next problem, once organized such as being 'sorted' in the right 'sequence' structure)
         - the interface structures (changes) applied to the variables of problem/solution structures need to fulfill definitions ('make sense, having no relevant contradictions')
           - for example: 'changing a suboptimal solution' is only useful when the change fulfills solution metrics more optimally than the previous state
           - so the 'change' applied would only qualify as an implementation of a solution automation workflow if it 'improves the suboptimal solution' (fulfills the definition of 'solving a problem')
