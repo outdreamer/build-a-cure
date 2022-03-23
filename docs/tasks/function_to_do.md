@@ -529,7 +529,7 @@
     - example of a system layer diagram
       - http://mkweb.bcgsc.ca/pi/art/
 
-    - pi/e/i conceptual connections
+    - pi/e/i conceptual connections, reasons, and meanings in various connecting formulas (formula for a circle using e, euler's identity)
       - pi as a unit structure of conversion between constant change (line, unit square) into a structure with no constant change (circle), or add interactivity (through containment of sequences, creation of randomness, conversion to real numbers) to a self-similar structure (unit square, i squared)
       - e as a unit structure of relative change (change relative to a base)
       - omega/x as a unit structure of infinity (a structure representing concepts like 'maximum' or 'extreme' or 'unlimited/unbound' or 'all'), representing all possible angles in radii of a circle
@@ -547,6 +547,17 @@
             - meaning the change rate must be a constant (fixed) value between adjacent points, but the change rate between two non-adjacent given points cant be equal (according to definition of circle)
             - change on rotation of the radius is limited by the length of the radius (rather than spinning off into a tangent line of the circle or diverging in an outer direction)
           - so relative to constant change represented by the 'unit square', the next type of change up (change x change, or change rate) can be produced by applying 'all' values of the 'angle' attribute of the 'fixed base structure' of the 'line with a fixed endpoint', creating a 'limit' that prevents the change from being 'constant' (as in linear) or 'variable' (as in a wave or hyperbolic function), creating a 'change type' that is 'a mix of constant/variable', having adjacent constant/linear change and global exponential/curved change, and equal locally global change (unit change rate from one point to another in equidistant pairs is constant throughout the perimeter), in the curved perimeter
+        - pi can be interpreted as a 'unit' structure of 'curvature', or to 'create curvature boundable by a change unit (such as the unit square of '1 applied to itself', applied to a 'dimension-crossing' multiplier of 4, which converts an area into a surface area for a circle)'
+        - other structures that can create useful numbers like pi (such as multiple change types like multiple wave functions aligning and diverging at various points in a pattern that has converging or compounding effects), reflecting the usefulness of interface structures such as 'cross-interface alignment'
+          - https://abakcus.com/video/beauty-in-numbers-pi-3-14/
+        - 'Gravity = 8 x π x Energy & Momentum' as in:
+          - gravity = 8 * (unit curvature factor) * change potential * previous energy output
+          - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential * previous energy output (free energy from compounding change effects)
+          - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential * previous energy output (free energy from compounding change effects)
+          - this describes how 'structural differences' are allowed to develop in space-time, meaning how structures such as 'object positions in time' can be 'adjacently connected', given that it uses the object's change history (expressed in its momentum) as an input
+          - quantum equations may describe non-adjacent change types (cascades of patterns in otherwise random, non-adjacent structures or generating random structures, or aligned patterns in non-adjacent structures)
+      - https://ali.medium.com/22-fascinating-facts-about-pi-%CF%80-that-will-make-you-amazed-4831ed694264
+      - https://en.wikipedia.org/wiki/Euler%27s_formula
 
     - why are antifungal compounds often yellow/orange
       - probably coincidental, resulting from common evolutionary output indicating survival of various problem types (scare away predators, destroy fungus)
