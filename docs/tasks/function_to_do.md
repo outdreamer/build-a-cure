@@ -531,7 +531,20 @@
 
     - pi as a unit structure of conversion between constant change (line, unit square) into a structure with no constant change (circle), or add interactivity (through containment of sequences, creation of randomness, conversion to real numbers) to a self-similar structure (unit square, i squared)
       - e as a unit structure of relative change (change relative to a base)
-      - omega as a unit structure of infinity, representing all possible angles in radii of a circle
+      - omega as a unit structure of infinity (a structure representing concepts like 'maximum' or 'extreme' or 'unlimited/unbound' or 'all'), representing all possible angles in radii of a circle
+      - i is the 'root' of 'opposite' of 'unit' structure of 'completeness' (integers)
+      - the 'center' (average) of the circle provides a constant 'base' point to apply changes to (standard interface structure combining a constant value with changes applied to it that dont lose the original constant value info)
+      - the 'radius' is a unit structure of 'connection'
+      - why are these structures (constant/non-constant change, relative change, unlimited/all, 'root of opposite of unit of completeness', 'fixed base (center point or radius)', connection) related
+        - exponential change produces curvature, as a 'relative change' of an increasing change rate, relative to the previous/adjacent change rate
+        - the structure of a unit square (unit of completeness applied to itself) is directly related to:
+          - i (root of opposite of unit of completeness)
+          - pi, through the difference from the unit square that pi represents (4 * unit square with constant curvature linking endpoints at cardinal directions)
+        - 'all' (represented by infinity, as the set of possible angles) changes to the 'angle' (representing the 'change applied to the fixed base constant center point') taken together, produce a 'relative change' of an 'exponential change' compared to the change types ('constant change') of the unit square produced by the fixed constant point/radius, which produces an upper bound ('limit') on the change types allowed in the perimeter
+          - 'all' (infinite angle) changes applied to the unit 'connection' structure (line) having a fixed point (center) represents continuous change while the center is fixed
+            - meaning the change rate must be a constant (fixed) value between adjacent points, but the change rate between two non-adjacent given points cant be equal (according to definition of circle)
+            - change on rotation of the radius is limited by the length of the radius (rather than spinning off into a tangent line of the circle or diverging in an outer direction)
+          - so relative to constant change, the next type of change up (change x change, or change rate) can be produced by applying 'all' values of the 'angle' attribute of the 'fixed base structure' of the 'line with a fixed endpoint', creating a 'limit' that prevents the change from being 'constant' or 'variable' (creating a change type that is in between, having adjacent constant change and global exponential change, in the curved perimeter)
 
     - why are antifungal compounds often yellow/orange
       - probably coincidental, resulting from common evolutionary output indicating survival of various problem types (scare away predators, destroy fungus)
