@@ -529,28 +529,30 @@
     - example of a system layer diagram
       - http://mkweb.bcgsc.ca/pi/art/
 
-    - pi as a unit structure of conversion between constant change (line, unit square) into a structure with no constant change (circle), or add interactivity (through containment of sequences, creation of randomness, conversion to real numbers) to a self-similar structure (unit square, i squared)
+    - pi/e/i conceptual connections
+      - pi as a unit structure of conversion between constant change (line, unit square) into a structure with no constant change (circle), or add interactivity (through containment of sequences, creation of randomness, conversion to real numbers) to a self-similar structure (unit square, i squared)
       - e as a unit structure of relative change (change relative to a base)
-      - omega as a unit structure of infinity (a structure representing concepts like 'maximum' or 'extreme' or 'unlimited/unbound' or 'all'), representing all possible angles in radii of a circle
+      - omega/x as a unit structure of infinity (a structure representing concepts like 'maximum' or 'extreme' or 'unlimited/unbound' or 'all'), representing all possible angles in radii of a circle
       - i is the 'root' of 'opposite' of 'unit' structure of 'completeness' (integers)
+        - the 'equal factor component' (applied to itself once) of the 'opposite of the unit of completeness' (unit of incompleteness), as in 'unable to completely fill a constant-sided shape like a square' (such as how a circle with radius 1 cant fill 4 * the unit square with side length 1)
       - the 'center' (average) of the circle provides a constant 'base' point to apply changes to (standard interface structure combining a constant value with changes applied to it that dont lose the original constant value info)
       - the 'radius' is a unit structure of 'connection'
       - why are these structures (constant/non-constant change, relative change, unlimited/all, 'root of opposite of unit of completeness', 'fixed base (center point or radius)', connection) related
         - exponential change produces curvature, as a 'relative change' of an increasing change rate, relative to the previous/adjacent change rate
         - the structure of a unit square (unit of completeness applied to itself) is directly related to:
           - i (root of opposite of unit of completeness)
-          - pi, through the difference from the unit square that pi represents (4 * unit square with constant curvature linking endpoints at cardinal directions)
+          - pi, through the difference from the unit square that pi represents (4 * unit square with constant curvature linking endpoints at cardinal directions, representing 'four useful change types of two dimensions' that can create 'all changes in those dimensions')
         - 'all' (represented by infinity, as the set of possible angles) changes to the 'angle' (representing the 'change applied to the fixed base constant center point') taken together, produce a 'relative change' of an 'exponential change' compared to the change types ('constant change') of the unit square produced by the fixed constant point/radius, which produces an upper bound ('limit') on the change types allowed in the perimeter
           - 'all' (infinite angle) changes applied to the unit 'connection' structure (line) having a fixed point (center) represents continuous change while the center is fixed
             - meaning the change rate must be a constant (fixed) value between adjacent points, but the change rate between two non-adjacent given points cant be equal (according to definition of circle)
             - change on rotation of the radius is limited by the length of the radius (rather than spinning off into a tangent line of the circle or diverging in an outer direction)
-          - so relative to constant change, the next type of change up (change x change, or change rate) can be produced by applying 'all' values of the 'angle' attribute of the 'fixed base structure' of the 'line with a fixed endpoint', creating a 'limit' that prevents the change from being 'constant' or 'variable' (creating a change type that is in between, having adjacent constant change and global exponential change, in the curved perimeter)
+          - so relative to constant change represented by the 'unit square', the next type of change up (change x change, or change rate) can be produced by applying 'all' values of the 'angle' attribute of the 'fixed base structure' of the 'line with a fixed endpoint', creating a 'limit' that prevents the change from being 'constant' (as in linear) or 'variable' (as in a wave or hyperbolic function), creating a 'change type' that is 'a mix of constant/variable', having adjacent constant/linear change and global exponential/curved change, and equal locally global change (unit change rate from one point to another in equidistant pairs is constant throughout the perimeter), in the curved perimeter
 
     - why are antifungal compounds often yellow/orange
       - probably coincidental, resulting from common evolutionary output indicating survival of various problem types (scare away predators, destroy fungus)
       - could also be related to orange/yellow tree plants' requirement to defeat more predators/pathogens by being exposed to them more often, likelier to encounter more of these by exposure to air
       - also yellow is likelier to attract insects looking for flowers, and must be resistant to pathogens carried by them, so a brightly colored plant that survives is likely to have these defenses built in
-      - could also be resulting from a common cause of developing carotene, as a plant that survives probably produces a greater variety of defensive/useful compounds such as carotene
+      - could also be incidentally resulting from a common cause of developing carotene, as a plant that survives probably produces a greater variety of defensive/useful compounds such as carotene
 
     - check if similar strategies as vaccines are functional - can the immune system learn 'associations' like the following:
       - associating a new pathogen with a known pathogen already recognized by the immune system using a chemical bond, so the immune system learns to attack the new pathogen
