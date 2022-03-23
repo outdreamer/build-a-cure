@@ -526,6 +526,19 @@
 
   - add to science
 
+    - example of a system layer diagram
+      - http://mkweb.bcgsc.ca/pi/art/
+
+    - pi as a unit structure of conversion between constant change (line, unit square) into a structure with no constant change (circle), or add interactivity (through containment of sequences, creation of randomness, conversion to real numbers) to a self-similar structure (unit square, i squared)
+      - e as a unit structure of relative change (change relative to a base)
+      - omega as a unit structure of infinity, representing all possible angles in radii of a circle
+
+    - why are antifungal compounds often yellow/orange
+      - probably coincidental, resulting from common evolutionary output indicating survival of various problem types (scare away predators, destroy fungus)
+      - could also be related to orange/yellow tree plants' requirement to defeat more predators/pathogens by being exposed to them more often, likelier to encounter more of these by exposure to air
+      - also yellow is likelier to attract insects looking for flowers, and must be resistant to pathogens carried by them, so a brightly colored plant that survives is likely to have these defenses built in
+      - could also be resulting from a common cause of developing carotene, as a plant that survives probably produces a greater variety of defensive/useful compounds such as carotene
+
     - check if similar strategies as vaccines are functional - can the immune system learn 'associations' like the following:
       - associating a new pathogen with a known pathogen already recognized by the immune system using a chemical bond, so the immune system learns to attack the new pathogen
       - associating an interior part of a pathogen with an exterior part of the pathogen, so the immune system learns that a pathogen it already recognizes is inside a cell having the exterior attribute
