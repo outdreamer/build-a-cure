@@ -1,3 +1,16 @@
+- identify interface structures describing problem-solving structures like 'problem-solving state sequences' in solving a specific problem, then identify the interface queries that could generate those interface structures or identify the 'differentiating factors' to filter out interface queries that could not adjacently generate those structures
+  - example: the 'connections' between related numbers like pi/i/e can be described by interface structures like 'cross-interface alignments' (a 'combination' of an 'alignment' of 'multiple wave functions'), a structure which can be identified by structures like 'common' interface structures between the numbers (such as 'change types' like 'relative changes', 'adjacent changes', 'aligning changes', 'change rates')
+    - this useful interface structure solves the specific problem of 'finding ways to generate pi'
+    - identifying this useful interface structure while solving this specific problem is trivial once the structure of 'multiple waves' or 'multiple sequences' is found/generated/derived
+  - the 'filter' here is 'find interface structures in "common" between different structures like "different change types"'
+  - identifying this 'filter' of useful interface structures from the original useful interface structure ('cross-interface alignments') is trivial by finding structures that can fulfill the intent of 'generating the useful interface structure used to solve the specific problem'
+    - 'create a "cross-interface alignment" using connection structures (like equal/similar structures in common among different structures)'
+  - this applies the workflow:
+    - 'solve the specific problem'
+      - 'identify useful interface structures of the problem-solving process'
+        - 'identify input interface structures that can build the useful interface structures'
+          - 'apply these input interface structures to filter useful interface structures' (find structures in common across change types (aligning valleys/peaks/inflection points in wave functions), to find cross-interface alignments (aligning wave patterns combining to useful components of a sequence to generate pi) which can be used to combine change types (sequences) to create another related change type (sequence converging to pi))
+
 - identify useful structures which are useful for fulfilling requirements (like 'preserving info') of problem-solving intents
   - example: structures which preserve info when applied in either direction are useful for problem-solving intents like 'convert to a format where the problem is more solvable, then convert back once solved in that format', since the solution in the other format can be converted back into the original format, therefore these structures are candidates for fulfilling this problem-solving intent
 
