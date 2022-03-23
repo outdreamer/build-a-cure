@@ -90,6 +90,9 @@ def apply(apply_structure, apply_params, to_structure, apply_output_filters):
 			- then applying the input to those relevant attributes/functions
 		2. apply apply_structure to relevant attributes/functions of to_structure
 	- apply can be used to implement a 'change' function (apply a function that changes another structure, like a variable)
+	- 'apply' compared to 'combine'
+		- if structures are additive (combinable), it means they can interact by coordinating their changes (their changes are isolatable and compounding, not creating other value types by default but resulting in the same value type)
+	    - if structures are multiplicative (applicable), it means they can interact by applying one change as an input to the other's attributes (multiply x by y means to apply x, y number of times, or in other words, create x with attribute 'count' value of y)
 	'''
 	return altered_structure
 
