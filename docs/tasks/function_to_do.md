@@ -551,9 +551,9 @@
         - other structures that can create useful numbers like pi (such as multiple change types like multiple wave functions aligning and diverging at various points in a pattern that has converging or compounding effects), reflecting the usefulness of interface structures such as 'cross-interface alignment'
           - https://abakcus.com/video/beauty-in-numbers-pi-3-14/
         - 'Gravity = 8 x π x Energy & Momentum' as in:
-          - gravity = 8 * (unit curvature factor) * change potential * previous energy output
-          - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential * previous energy output (free energy from compounding change effects)
-          - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential * previous energy output (free energy from compounding change effects)
+          - gravity = 8 * (unit curvature factor) * change potential + previous energy output
+          - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential + previous energy output (free energy from compounding change effects)
+          - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential + previous energy output (free energy from compounding change effects)
           - this describes how 'structural differences' are allowed to develop in space-time, meaning how structures such as 'object positions in time' can be 'adjacently connected', given that it uses the object's change history (expressed in its momentum) as an input
           - quantum equations may describe non-adjacent change types (cascades of patterns in otherwise random, non-adjacent structures or generating random structures, or aligned patterns in non-adjacent structures)
       - https://ali.medium.com/22-fascinating-facts-about-pi-%CF%80-that-will-make-you-amazed-4831ed694264
