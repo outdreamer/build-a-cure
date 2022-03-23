@@ -1,3 +1,6 @@
+- identify useful structures like 'connection' structures of structures that are commonly required to connect (like incomplete/complete structures) in various problem-solving intents like 'derive missing information'
+  - example: a way to identify a 'complete' structure from an 'incomplete' structure is to identify the 'limits on core change types' of the incomplete structure (four cardinal direction points of perimeter of a circle) and find an alternate way to connect those 'limits on core change types' of the incomplete structure (such as a square, connecting the four points with right angles in the midpoints between these four endpoints)
+
 - identify useful structures by which structures are useful for usefully (like 'adjacently') fulfilling core functions (like 'connect') of other useful structures (like 'common/core structures')
   - example: identify that e is useful by its adjacent connectivity when applied to pi and i, which are core structures
 
