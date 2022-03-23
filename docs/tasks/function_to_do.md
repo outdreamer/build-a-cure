@@ -556,6 +556,11 @@
           - change limit around a fixed point (high mass object) = 2 * (dimension-crossing multiplier between area/surface area of a circle) * change potential + previous energy output (free energy from compounding change effects)
           - this describes how 'structural differences' are allowed to develop in space-time, meaning how structures such as 'object positions in time' can be 'adjacently connected', given that it uses the object's change history (expressed in its momentum) as an input
           - quantum equations may describe non-adjacent change types (cascades of patterns in otherwise random, non-adjacent structures or generating random structures, or aligned patterns in non-adjacent structures)
+        - why are circular structures useful? 
+          - bc of their symmetry (which is why other symmetrical objects can produce circles as well, bc of their fixed change point in their center, leading to equal area distribution on center-intersecting lines), symmetries being a corresponding structure on the 'physical information' interface as the 'interface' structure on the 'interface' (meaning) interface, this symmetry being a useful structure for other structures like 'randomness'
+          - why are elliptic curves useful?
+            - bc of their 'mix of change types' such as the combination of changes like 'curvature' and 'differences in length of orthogonal change types' which produces a useful structure such as an 'ambiguity', with enough 'certainty' in the ambiguity to identify a distinct subset of factors (as opposed to the set of 'all' factors, or 'common' sets of factors, such as how factors generating a circle are equal bc of its symmetry, and how some changes in circles like 'equidistant points on the perimeter' are equal, resulting in almost complete 'indistinguishability', which is useful for 'obscurity' but not 'factor set filtering')
+            - this repeats the common useful structure of a 'constant + a variable' represented in an 'interface' structure ('changes applied to a constant base structure')
       - https://ali.medium.com/22-fascinating-facts-about-pi-%CF%80-that-will-make-you-amazed-4831ed694264
       - https://en.wikipedia.org/wiki/Euler%27s_formula
 
