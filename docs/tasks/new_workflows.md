@@ -10,7 +10,7 @@
       - 'identify useful interface structures of the problem-solving process'
         - 'identify input interface structures that can build the useful interface structures'
           - 'apply these input interface structures to filter useful interface structures' (find structures in common across change types (aligning valleys/peaks/inflection points in wave functions), to find cross-interface alignments (aligning wave patterns combining to useful components of a sequence to generate pi) which can be used to combine change types (sequences) to create another related change type (sequence converging to pi))
-            - 'input interface structures of useful interface structures' are the useful 'differentiating factor' that can fulfill problem-solving intents like 'filter useful interface queries', if the inputs can be found for a particular problem
+            - 'input interface structures of useful interface structures' are the useful 'differentiating variable' that can fulfill problem-solving intents like 'find useful structures' and 'filter useful interface queries', if the inputs can be found for a particular problem, these 'differentiating variables' being useful to 'filter' other structures
 
 - identify useful structures which are useful for fulfilling requirements (like 'preserving info') of problem-solving intents
   - example: structures which preserve info when applied in either direction are useful for problem-solving intents like 'convert to a format where the problem is more solvable, then convert back once solved in that format', since the solution in the other format can be converted back into the original format, therefore these structures are candidates for fulfilling this problem-solving intent
