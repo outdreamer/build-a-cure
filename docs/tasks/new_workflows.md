@@ -1,3 +1,21 @@
+  - example: to 'derive' a value (predict or approximate it using uncertainties applied to certainties) rather than 'calculate' it exactly, like solving the problem of 'deriving a number that is the product of two factors' as 'being between a known lower/upper limit of the value' ('limits' of the 'solution' value which can be applied as 'solution requirements'):
+    - interface query to 'derive' a value (instead of calculating it exactly by multiplying the factors)
+      - apply the 'change' interface ('change types') and the 'structure' ('input/output', 'similarity') interface to the 'function' interface (apply changes like 'adjacent changes' to inputs/outputs to identify 'similarities' between 'outputs' when some 'change types' are applied)
+      - identify that the 'functions allowed/specified' in the 'problem statement' or to 'solve this problem' ('multiply') have:
+        - a similar output of 'increasing the output value' with an 'increase in one input factor with the other input held constant' or an 'increase in both input factors'
+        - a proportional output to the input change ('multiply' being directly related to 'ratios' which are the core structure of its 'opposite' function, 'division')
+      - apply the 'meaning' interface to identify 'useful/relevant' structures of this function
+        - identify that applying this function can therefore create an output of an 'approximate value', by 'applying a value near to the actual input factor'
+          - apply the 'meaning' interface to identify 'useful/relevant' structures of this output
+            - identify that this 'approximate' output is useful when some calculations are:
+              - simpler than other calculations
+              - already executed and the inputs/outputs are stored
+              - when the actual calculation is not required to be accurate
+              - where a range of the solution is acceptable in place of an exact unique solution
+      - identify that the solution can be a 'range in between a set of minimum/maximum limits'
+        - apply the 'multiply' function to two sets of factors, one lower than the original set and one higher than the original set (given that 'multiply' function has a 'change type' of 'proportional net sign-associated change to inputs'), these two sets being more calculatable than the original set
+        - alternatively, apply a 'filter solution space' workflow to select the most useful/relevant factor sets (such as those nearest the original factor set, rather than any factor set above/below the original), then apply this 'multiply' function to get a 'solution' in the format of a 'value range'
+
 - identify interface structures describing problem-solving structures like 'problem-solving state sequences' in solving a specific problem, then identify the interface queries that could generate those interface structures or identify the 'differentiating factors' to filter out interface queries that could not adjacently generate those structures
   - example: the 'connections' between related numbers like pi/i/e can be described by interface structures like 'cross-interface alignments' (a 'combination' of an 'alignment' of 'multiple wave functions'), a structure which can be identified by structures like 'common' interface structures between the numbers (such as 'change types' like 'relative changes', 'adjacent changes', 'aligning changes', 'change rates')
     - this useful interface structure solves the specific problem of 'finding ways to generate pi'
