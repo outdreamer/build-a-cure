@@ -1,3 +1,184 @@
+'''
+- ideally the program would pull definitions of these verbs, which use a common core function set, and the common core function set would be explicitly defined
+- the common core function set would be irreducible functions like find/build/derive/apply
+	- whose definitions involve core code operations like 'iterate', 'assign', 'test'
+	- which are so fundamental that all other functions can be built from them
+- all functions that can be defined as functions of the common core function set would not have explicit function definitions
+	- they would just be the result of an apply(definition=function_verb), which would return the function implementation of that verb, using functions of the common core function set
+'''
+
+definition = {
+	'set': 'multiple items of the same type',
+	'subset': 'set of positions in a field of all possible attribute combinations of attributes of structure, not equal to the position of the structure in the field',
+	'prediction function': 'combine coefficients, exponents and variables to create output variables', # math definition route
+	'function': 'apply a set of change sequences/networks/trees to inputs', # 'changes' applied in a 'function' can be assignments, copies, conversions, additions/reductions, changes in position (return a value), etc
+	'find': 'list all subsets of structure that are equal to or similar to substructure'
+}
+
+def get(item_type, identifier):
+	if item_type in globals():
+		# its been loaded from configuration json
+		if identifier in item_type:
+			return item_type[identifier]
+	return None
+
+def general_function_template(function_verb, function_params, function_params_verb):
+
+	# find words in the structure which are 'structures'
+	function_verb = 'find'
+	function_params = ['substructure', 'structure']
+	function_params_verb = 'in'
+	function_string = function_verb + function_params_verb.join(function_params)
+
+	# currently this function is configured to convert to the 'structure' interface, then to the 'function' interface
+
+	# 1. the 'structure' interface is used to fulfill the workflow step 'break problem into sub-problems'
+	# this is to find 'component' structures like 'term interactions', once standardized to the 'structure' interface
+	# the results of applying the 'structure' interface are used to identify structures of components of the function (like term definitions)
+
+	# 2. the 'function' interface is used to fulfill the workflow step:
+	# 'merge sub-problem solutions (structural term definitions as function components) into the solution (function)'
+
+	# then the 'function' interface is applied, to merge these structures of components into a function
+
+	# bc its designed to generate code fulfilling the input function indicated by function_verb, function_params, and function_params_verb
+	# this code should use common core structures to implement the function, so the structure interface is applied first
+
+	for interface in ['structure', 'function']:
+
+		if interface == 'structure':
+
+			# define unknown terms
+			terms = {}
+
+			for item in function_params:
+				unknown_terms = find('words', params=item, output_filters=['structure']) # get words which are 'structures' like 'functions' or 'objects'
+				for unknown_term in unknown_terms:
+					terms[unknown_term] = get('definition', unknown_term, output_filters=[interface]) # get the 'structure' interface definition route
+			
+			# for 'find', terms would have keys: ['list', 'subset', 'structure', 'all', 'equal', 'similar', 'substructure']
+
+			# get core component 'clause' of the input function_string
+			core_component = get('core component', function_string)
+			core_component = 'clause'
+
+			# get term interactions
+			term_interactions = {}
+			for term, definition in terms.items():
+				definition_clauses = get(core_component, definition) # get the clauses in the definition
+				for definition_clause in definition_clauses:
+					words = definition_clause.split(' ')
+					term_position = words.index(term)
+					adjacent_term_positions = [term_position - 1, term_position + 1]
+					words_in_definition = [w for w in get('word', definition) if w != term]
+					# words in definition are either functions or objects
+					objects_in_definition = [w for w in words_in_definition if type(w) == 'object']
+					functions_in_definition = [w for w in words_in_definition if type(w) == 'function']
+					interaction_function = [f for f in functions_in_definition if words.index(f) in adjacent_term_positions]
+					interaction_function_position = words.index(interaction_function)
+					term_interactions[term] = {interaction_function: [w for w in words if words.index(w) not in [term_position, interaction_function_position]]}
+			
+			# for 'find', term_interactions would be:
+			term_interactions = {
+				'structure': ['subsets of structure', 'all subsets of structure', 'list all subsets of structure'],
+				'subset': ['subsets of structure', 'all subsets of structure', 'list all subsets of structure', 'subsets equal to substructure', 'subsets similar to substructure', 'subsets equal or similar to substructure'],
+				'list': ['list all subsets of structure', 'list all subsets of structure equal or similar to substructure'],
+				'all': ['all subsets of structure', 'list all subsets of structure'],
+				'equal': ['subsets equal to substructure', 'subsets equal or similar to substructure'],
+				'similar': ['subsets similar to substructure', 'subsets equal or similar to substructure'],
+				'substructure': ['subsets equal to substructure', 'subsets similar to substructure', 'subsets equal or similar to substructure']
+			}
+
+			# apply terms once defined
+
+			# for example, to apply the 'list' definition to the term_interactions, use the term_interactions of 'list' to fulfill the 'list' definition
+			# if list is defined as 'combine x until a set containing these structures exists', apply that definition to the relevant term_interaction 'list all subsets of structure'
+			# combine 'all subsets of structure' until a set containing these structures exists, as 'all subsets of structure' are the inputs (x value) of the 'list' function
+			# applying the other relevant term interaction results in 'combine "all subsets of structure equal or similar to substructure" until a set containing these structures exists'
+
+			structured_component_interactions = {k: v for k, v in term_interactions.items()}
+			for term, interaction in term_interactions.items():
+				term = 'list'
+				term_definition = terms[term]
+				term_definition = 'combine x until a set containing these structures exists'
+				for k, v in structured_component_interactions.items():
+					if term in v:
+						v = 'list all subsets of structure'
+						val_without_term = v.replace(term, '')
+						val_without_term = 'all subsets of structure' # 'list' is removed from this interaction				
+						new_val = term_definition.replace('x', val_without_term)
+						new_val = 'combine "all subsets of structure" until a set containing these structures exists'
+						structured_component_interactions[k] = new_val
+
+			# once applied, the interactions in structured_component_interactions should be using none of the key terms of term_interactions
+			# but rather should be using the more specific structures theyve been replaced with
+
+			# this version of the input in structured_component_interactions is far more similar to the actual runnable code version 
+			# than the original input, which is 'find substructure in structure'
+
+			# this process can be repeated iteratively, applying layers of definition routes
+			# above we applied a 'structure' definition route of the definition of each term in the input
+			# additional iterations of this process could apply a 'logic' or 'math' definition route to further similarize the input state to runnable code
+
+		if interface == 'function':
+
+			# standardize the structured_component_interactions until its in a function format
+
+			# once the state only uses functions which are already defined in a programming language (split, reverse, for)
+			# this function can return that version of the input, which is the function code of the input
+
+			# merge structured_component_interactions to convert the original input to use the structures in structured_component_interactions
+
+			function_string = 'find substructure in structure'
+			# function_string = merge(structured_component_interactions, function_string)
+			function_string = function_string
+			for word in function_string.split(' '):
+				if word in structured_component_interactions:
+					function_string.replace(word, structured_component_interactions[word])
+
+	return function_string
+
+def merge(inputs, original_structure):
+	''' this function applies a merge strategy, like:
+		- combines and replaces inputs according to the original structure 
+			(like merging structured_component_interactions according to the input 'find substructure in structure')
+	'''
+
+def find(substructure, structure):
+	'''
+	- what this function does is convert the above definition for 'find' into specific code structures like iterations/conditions
+		- the below code 'infers' some of the required operations to fulfill the above definition of 'find'
+		- for example, the generated code 'infers' that in order to fulfill explicit defined intents like:
+			'check substructure for equivalence/similarity with a subset of structure'
+		- this 'inference' is built in to the program
+			- as 'retrieving a definition for any unknown terms' is a default behavior when encountering unknown terms
+		- the definition of 'substructure' is required
+		- a subset-identifying function is required to find possible subsets to check
+	'''
+	# substructure could be an item in a set (like a 'function' in a 'set of functions'), where structure is a set
+	# substructure's definition provides the test to filter out non-matching structures
+
+	general_function_template(function_verb='find', function_params=['substructure', 'structure'], function_params_verb='in')
+
+	# the definition of a function is a 'set of change sequences/networks/trees applied to inputs'
+	subsets_of_structure = get('combinations of core components of x', x=structure)
+	# subsets could be a piece/component of the structure that is an identifiable object
+	# such as a function in a set of functions
+	equal_matches = []
+	approximate_matches = []
+	non_matches = []
+	for subset in subsets_of_structure:
+		if subset == substructure:
+			# found a matching structure
+			return subset
+		else:
+			# test for various definitions of either structure for approximate matching
+
+
+def build(structure, available_substructures):
+	# structure could be a 'function', where available_substructures could be a set of components/inputs/functions capable of building the 'function'
+
+
 # these are core functions that should be using the fewest functions possible in their implementation strategy
 # for example, formatting all functions in terms of the 'similarity/difference' interface 
 # to use as many existing functions that identify, find, apply, build similarities/differences as possible
