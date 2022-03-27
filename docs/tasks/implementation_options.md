@@ -70,6 +70,16 @@ def general_function_template(function_verb, function_params, function_params_ve
 		# apply 'function' interface
 		'merge': ['connected changed input core', 'function'] # 'input is connected to output, then changed to output'
 	}
+
+	# this workflow uses a structure like '\__/' to connect the problem/solution interface (the input 'function intent statement' and the output 'function') on a more useful level (the 'core component interface')
+	# this means any function initially applied (like 'convert to core components') needs to be reversed to create the solution (the 'opposite' of the function initially applied, as in 'merge core components')
+	# it also means there are possible 'connecting' and 'change' functions applied in between those two functions (like 'change objects into corresponding structures on the structural interface')
+
+	# given the workflow's core structure, the verbs applied to these inputs/outputs that fulfill the structure can be derived
+
+	# initial & final functions which have 'opposite' effects are allowed
+	# allowed interim changes include changes that can use the input and that dont change the output so much that it cant be an input to the final 'merge' function to create the solution
+
 	# applying this apply_interfaces_dict would involve applying the interfaces in interfaces_to_apply
 	# then applying the functions of the keys of the dict 'find', 'connect', 'change', 'merge' to the outputs of each previous 'dict key function' application
 
