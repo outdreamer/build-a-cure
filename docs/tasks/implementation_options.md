@@ -58,13 +58,28 @@ def general_function_template(function_verb, function_params, function_params_ve
 	# applies 'merge' to combine/replace combinations/connections of 'core components' of the input to create the output 'function'
 
 	interfaces_to_apply = ['core', 'structure', 'function']
+
+	default_workflow = 'break problem into sub-problems, combine sub-solutions into solution'
+	apply_interfaces_dict = generate_interface_query(workflow=default_workflow)
+	apply_interfaces_dict = {
+		# apply 'core' interface
+		'find': ['input core', 'output core'],
+		'connect': ['input core', 'output core'],
+		# apply 'structure' interface
+		'change': ['input core', 'output core'],
+		# apply 'function' interface
+		'merge': ['connected changed input core', 'function'] # 'input is connected to output, then changed to output'
+	}
+	# applying this apply_interfaces_dict would involve applying the interfaces in interfaces_to_apply
+	# then applying the functions of the keys of the dict 'find', 'connect', 'change', 'merge' to the outputs of each previous 'dict key function' application
+
 	for interface in interfaces_to_apply:
 
 		# logic to generate this function:
 
 		# get 'core' components of input 'function intent statement' and output 'function'
 		# connect core components by converting 'terms' into 'term interactions' given that the 'core interaction function' of inputs/outputs is 'connect'
-		# then convert these term_interactions into 'function'-adjacent structures (code) by applying the 'structure' interface
+		# then change these term_interactions into 'function'-adjacent structures (code) by applying the 'structure' interface
 		# then format it as a 'function' by merging term_interactions into a cohesive unit
 
 		items_to_connect = ['input', 'output']
@@ -83,10 +98,10 @@ def general_function_template(function_verb, function_params, function_params_ve
 
 		# either use the interface configured in the interfaces_to_apply list
 		# or derive the interface which can fulfill a required step and apply that interface
-		# the 'core' interface can identify 'core components', so that would provide the structure needed to find the useful structure,
+		# the 'core' interface can find 'core components', so that would provide the structure needed to find the useful structure,
 		# which can then be connected with the 'merge' function
 
-		# identify 'input' core components and 'output' core components
+		# find 'input' core components and 'output' core components
 		# connect 'input' core components and 'output' core components
 
 		if interface == 'core':
@@ -151,7 +166,7 @@ def general_function_template(function_verb, function_params, function_params_ve
 					}
 
 		# apply the 'connection' between 'input' core components and 'output' core components, once this connection is found, to get output core components
-		# convert all 'input' core components into 'output' core components, once connected
+		# change all 'input' core components into 'output' core components, once connected
 
 		if interface == 'structure':
 
@@ -189,7 +204,7 @@ def general_function_template(function_verb, function_params, function_params_ve
 			# above we applied a 'structure' definition route of the definition of each term in the input
 			# additional iterations of this process could apply a 'logic' or 'math' definition route to further similarize the input state to runnable code
 
-		# apply a 'combination' structure to convert 'output core components' into an output 'function'
+		# apply a 'combination' structure to change 'output core components' into an output 'function'
 		# combine the "connected 'input' and 'output' core components" into the output 'function' structure
 		# thereby 'connecting' the 'output' components with the output 'function' structure
 
@@ -203,7 +218,7 @@ def general_function_template(function_verb, function_params, function_params_ve
 			# once the state only uses functions which are already defined in a programming language (split, reverse, for)
 			# this function can return that version of the input, which is the function code of the input
 
-			# merge structured_component_interactions to convert the original input to use the structures in structured_component_interactions
+			# merge structured_component_interactions to change the original input to use the structures in structured_component_interactions
 
 			function_string = 'find substructure in structure'
 			# function_string = merge(structured_component_interactions, function_string)
