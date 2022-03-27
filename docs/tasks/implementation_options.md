@@ -57,14 +57,48 @@ def general_function_template(function_verb, function_params, function_params_ve
 	# applies the 'structure' interface to these 'interim' components (which are combinations/connections of 'core components' of the input)
 	# applies 'merge' to combine/replace combinations/connections of 'core components' of the input to create the output 'function'
 
+	interfaces_to_apply = ['core', 'structure', 'function']
+	for interface in interfaces_to_apply:
 
-	for interface in ['core', 'structure', 'function']:
+		# logic to generate this function:
+
+		# get 'core' components of input 'function intent statement' and output 'function'
+		# connect core components by converting 'terms' into 'term interactions' given that the 'core interaction function' of inputs/outputs is 'connect'
+		# then convert these term_interactions into 'function'-adjacent structures (code) by applying the 'structure' interface
+		# then format it as a 'function' by merging term_interactions into a cohesive unit
+
+		items_to_connect = ['input', 'output']
+
+		core_interaction_function = get('function', params=['input', 'output'])
+		core_interaction_function = 'connect' # 'connect input/output'
+
+		# to fulfill the 'connect input/output' general problem-solving intent
+		# fulfill the 'break problem into sub-problems and combine sub-solutions into solution' workflow 
+		# find 'components' of input/output, and connect them to each other, then connect them with the output in a 'combination'
+
+		more_useful_structure = get('structure', output_filters['input of "combine" function'])
+		# get structures which are useful as an input for the 'combine' function 
+		# in the 'break a problem into sub-problems and combine them into solution' being applied in this function
+		more_useful_structure = 'core components'
+
+		# either use the interface configured in the interfaces_to_apply list
+		# or derive the interface which can fulfill a required step and apply that interface
+		# the 'core' interface can identify 'core components', so that would provide the structure needed to find the useful structure,
+		# which can then be connected with the 'merge' function
+
+		# identify 'input' core components and 'output' core components
+		# connect 'input' core components and 'output' core components
 
 		if interface == 'core':
 
 			# identify core components of 'input' and 'output' to be connected
 
-			for function_variable_type in ['input', 'output']:
+			# then connect input components ('definitions' found in function_string) with components of the output 'function' 
+			# components of the output 'function' being "interactions (like 'combinations') of terms found in the definition of the 'find' function from the function_string"
+
+			# the term_interactions dict connects the input components with the output components
+
+			for function_variable_type in items_to_connect:
 
 				if function_variable_type == 'input':
 
@@ -116,11 +150,15 @@ def general_function_template(function_verb, function_params, function_params_ve
 						'substructure': ['subsets equal to substructure', 'subsets similar to substructure', 'subsets equal or similar to substructure']
 					}
 
-		# fulfill the 'connect' function between the core components of the input and the core components of the output
+		# apply the 'connection' between 'input' core components and 'output' core components, once this connection is found, to get output core components
+		# convert all 'input' core components into 'output' core components, once connected
 
 		if interface == 'structure':
 
 			# apply terms once defined to the original function_string, to apply the 'structure' interface to the original function_string
+
+			# apply 'structure' to the output components found in the term_interactions dict, which connects the input components with the output components
+			# so that none of the output components use input components (converting all input components into output components)
 
 			# for example, to apply the 'list' definition to the term_interactions, use the term_interactions of 'list' to fulfill the 'list' definition
 			# if list is defined as 'combine x until a set containing these structures exists', apply that definition to the relevant term_interaction 'list all subsets of structure'
@@ -151,7 +189,14 @@ def general_function_template(function_verb, function_params, function_params_ve
 			# above we applied a 'structure' definition route of the definition of each term in the input
 			# additional iterations of this process could apply a 'logic' or 'math' definition route to further similarize the input state to runnable code
 
+		# apply a 'combination' structure to convert 'output core components' into an output 'function'
+		# combine the "connected 'input' and 'output' core components" into the output 'function' structure
+		# thereby 'connecting' the 'output' components with the output 'function' structure
+
 		if interface == 'function':
+
+			# if available variables (structured_component_interactions) include components of a function
+			# then to apply the 'function' interface to create a 'function', we need to 'combine' those components
 
 			# standardize the structured_component_interactions until its in a function format 
 
