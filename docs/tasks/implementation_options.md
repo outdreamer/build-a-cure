@@ -250,6 +250,11 @@ def general_function_template(function_verb, function_params, function_params_ve
 			# at this point, implementing this function is trivial, and can be done with code queries of available code bases 
 			# to find available functions fulfilling these functions (functions like 'combine' or 'find all attribute combinations')
 
+			# by iteratively applying useful structures to the input function string (first 'core' components, then 'definitions', then 'structures'), 
+			# we are 'iteratively changing the input (a "function intent") into the output (a "function")',
+			# thereby 'connecting the input/output' which is a general problem-solving intent fulfillable with the default workflow,
+			# given that these structures are useful to fulfill the default workflow, when applied in the sequence corresponding to the workflow
+
 	return function_string
 
 def merge(inputs, original_structure):
