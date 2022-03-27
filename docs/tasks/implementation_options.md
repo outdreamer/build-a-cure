@@ -1,10 +1,16 @@
 '''
 - ideally the program would pull definitions of these verbs, which use a common core function set, and the common core function set would be explicitly defined
+
 - the common core function set would be irreducible functions like find/build/derive/apply
 	- whose definitions involve core code operations like 'iterate', 'assign', 'test'
 	- which are so fundamental that all other functions can be built from them
+
 - all functions that can be defined as functions of the common core function set would not have explicit function definitions
 	- they would just be the result of an apply(definition=function_verb), which would return the function implementation of that verb, using functions of the common core function set
+
+- most functions should be a call to 'general_function_template', which generates code fulfilling the input intent ('implements a function for a purpose') by:
+	- generating interface queries to implement a workflow, then finding corresponding code fulfilling those interface queries, then applying that code to fulfill the input intent
+
 '''
 
 definition = {
@@ -201,7 +207,7 @@ def general_function_template(function_verb, function_params, function_params_ve
 						val_without_term = v.replace(term, '')
 						val_without_term = 'all subsets of structure' # 'list' is removed from this interaction				
 						new_val = term_definition.replace('x', val_without_term)
-						new_val = 'combine "all subsets of structure" until a set containing these structures exists'
+						new_val = 'combine "all subsets of structure", until a set containing these structures exists'
 						structured_component_interactions[k] = new_val
 
 			# once applied, the interactions in structured_component_interactions should be using none of the key terms of term_interactions
@@ -237,6 +243,13 @@ def general_function_template(function_verb, function_params, function_params_ve
 				if word in structured_component_interactions:
 					function_string.replace(word, structured_component_interactions[word])
 
+			# this should produce a function_string that has structures in it corresponding to actual code functions
+			function_string = 'combine "all subsets (attribute combinations) of the structure that are equal to (are) or are similar to (are near) the substructure", until a list (set containing these structures) exists'
+			function_string = 'combine all attribute combinations of the structure which are the substructure or are near the substructure in a field, until a set containing these structures exists'
+
+			# at this point, implementing this function is trivial, and can be done with code queries of available code bases 
+			# to find available functions fulfilling these functions (functions like 'combine' or 'find all attribute combinations')
+
 	return function_string
 
 def merge(inputs, original_structure):
@@ -259,7 +272,7 @@ def find(substructure, structure):
 	# substructure could be an item in a set (like a 'function' in a 'set of functions'), where structure is a set
 	# substructure's definition provides the test to filter out non-matching structures
 
-	general_function_template(function_verb='find', function_params=['substructure', 'structure'], function_params_verb='in')
+	find_function = general_function_template(function_verb='find', function_params=['substructure', 'structure'], function_params_verb='in')
 
 	# the definition of a function is a 'set of change sequences/networks/trees applied to inputs'
 	subsets_of_structure = get('combinations of core components of x', x=structure)
@@ -278,7 +291,6 @@ def find(substructure, structure):
 
 def build(structure, available_substructures):
 	# structure could be a 'function', where available_substructures could be a set of components/inputs/functions capable of building the 'function'
-
 
 # these are core functions that should be using the fewest functions possible in their implementation strategy
 # for example, formatting all functions in terms of the 'similarity/difference' interface 
