@@ -130,6 +130,8 @@
     - understanding, learning, simulation, organization, prediction, testing are interchangeable functions with varying advantages but generally can replace each other
 
   - add to govt
+    - if 'expectation' is the problem with 'govt provided resources like bailouts' (the expectation is that they can make any decision and not go out of business) is an 'enforced limit' on the 'resource', such as limiting bailouts to 'one-time only bailouts' and applying 'enforced limits' on obvious foreseeable loophole-exploitation such as 'forming different companies after the first bailout to circumvent the limit of one bailout per company', thereby removing the problem created by 'expectation of bailout' (lack of learning that could possibly lead to success) by restricting its application so it cant be expected to happen again as it only occurs once
+      - if the 'usage' of the bailout is another problem, that can be applied as a filter of the 'one-time bailout' structure, such as a 'set of allowed uses of the bailout which would probably make one bailout successful'
     - ai to guide leadership decisionns to avoid takeover/war/anti-democracy conditions given info like 'trust structures'
     - democracy errors include:
       - alternate illegitimate routes to power like buying info goods like opinions, usage & user bases & user compliance/dependence, & artificially manipulating prices with information market manipulation, voter free time, job market info
