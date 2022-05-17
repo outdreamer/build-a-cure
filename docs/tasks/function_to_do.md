@@ -461,6 +461,8 @@
 
     - add to explanations
 
+      - an interface query of structures/functions like 'combine two workflows such as "trial and error" and "break a problem into sub-problems and merge sub-solutions'' would parse to a set of resulting interface queries including queries such as 'try every possible division of sub-problems in the workflow "break a problem into sub-problems and merge sub-solutions"' to apply a filter of generated interface queries for usefulness (applying 'trial and error' is only useful in some positions, like the 'rule for dividing a problem into sub-problems', otherwise it might make the other workflow less efficient/useful if combined randomly)
+
       - my system implements concepts like probability, logic, requirements, functions, variables, structure, intent, and cause in an integrated manner that generates meaning relevant to user requests
 
     - example of problem-solving intent definitions
