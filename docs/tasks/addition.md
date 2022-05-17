@@ -23,7 +23,7 @@
 		- test if the likely result of an addition will probably be higher than 9
 
 	- insights that a network could identify which are basic & required to create the accurate/complete operation of addition
-		- variables like 'sequence', 'position', and 'adjacent position values' are relevant variables to addition
+		- variables like 'sequence', 'position', 'combine (add, as in combine without overlap or dimension change)', and 'adjacent position values' are relevant variables to addition
 		- functions like 'add extra value of previous operation to next left digit, in addition to existing values in that digit position' are also required for addition
 
 	- insights that a network could identify which are useful to create the accurate/complete operation of addition
@@ -37,6 +37,15 @@
 		- learning that 'higher digits have more impact on more non-adjacent digits' is another insight that a network can use to adjacently derive addition
 		- 'having another variable to store side effects' (like extra values above 9) is another useful structure a network can use to adjacently derive addition
 		- identifying that the 'extra value should subtract the resulting rightmost digit (whatever value is stored in the original digit should be left there) rather than carrying the whole value to the next digit' is another required structure to use in adjacently deriving addition
+		- a network would likely be confused by adding numbers that cancel each other out, like negative and positive numbers with equal value, unless it had already identified the required operations/variables for addition
+		- these confusing examples are likely to produce incorrect learned patterns unless theyre introduced after the less confusing examples when the requirements are likely to be already learned, as the core operation of addition is simple but being able to learn subtraction (adding a negative number to a positive number)
+			- this is the operation of 'finding the input to addition with the opposite of the negative number that could create the original inputs', as in '-1 + 4' is equal to 'find x that could be added to 1, the opposite of the negative number (-1), that could create 4', which both have '3' as an answer, thereby converting the operation of '-1 + 4' into an addition operation of 'x + 1 = 4' which is likelier to be possibly answered by the network, if its trained with random regularization leaving out some inputs in some examples
+			- finding the connection between '-1 + 4 = x' (or '4 - 1' = x) (formatted as an addition of differently signed values, requiring learning subtraction) and 'x + 1 = 4' (formatted as an addition of positive values, requiring learning addition) is useful in cases where the operation can be converted into an addition operation of positive values and where inputs have been regularized to handle the problem of 'input inference', as opposed to learning what the '-' symbol means, which is an alternative option for the network to learn
+			- learning this requires applying an adjacent change to switch the position of 4 from an input (number being added) to be an output (result of addition), since the value of -1 can be interpreted as 'distance from the other number being added (4)', as the answer is 'one integer (unit) away in the negative direction' (3)
+			- learning that values being added represent 'distances on a number line' where positive/negative signs represent 'direction of distance' is another useful structure for the network to learn, even if it doesnt help with learning addition operations in other number spaces
+
+	- rather than asking a network to learn every possible input/output difference or difference type in addition (which would just be a list of all numbers that can be added), using interface structures such as 'sequences', 'side effects', and 'adjacencies' to connect input/output values is more useful
+		- an interesting question for a network to try to solve is 'what numbers cant be added' and see if it can generate other number types that cant be added by identifying and removing properties of numbers that can be added
 
 	- what operations cant be handled by a network?
 		- circular loops (embedded input/output feedback loops within a network iteration)
