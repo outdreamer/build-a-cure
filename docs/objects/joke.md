@@ -295,7 +295,7 @@ VI. safety
 						- boredom
 						- their insecurity needing to rely on a roast to get your attention on tinder
 						- trying to have a relationship of a certain time period (short relationship if the roast is really mean)
-						- trying to have insult battles (if the roast if really mean)
+						- trying to have  /hate sex (if the roast if really mean)
 						- trying to get out of their parent's basement by finding a mate
 						- trying to distract you/get attention
 						- trying to break your heart to establish a kill count/reputation
