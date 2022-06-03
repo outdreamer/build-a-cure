@@ -120,6 +120,9 @@
     - even if a problem is static, there will always be new ways to solve it because of the inherent variation captured in the concept of 'problem', and these solution-finding methods will always have new interfaces or other structures which can be used to frame them
     - there will always be new structures that are adjacent to available tools to fulfill interaction functions (like 'connect') between given new change types generating new interaction functions, and new interaction levels to reduce a system to in terms of finding core components of the system, new structures of errors from new change types, and possibly new primary interfaces created by new interactive change types and new useful structures to connect other new structures
 
+  - example of AI being inefficient
+    - ai is used to predict agents (having neural networks), which is a recursion (self-reference) problem
+
   - core example of interface structures as useful for filtering possibilities
     - for the core problem of specificity/filtering, as in:
       - 'why would general structures (like differences as in change types or similarities as in structural similarities) be useful for filtering a solution space, when the set of possible changes is infinite? that sounds like it increases the solution space unnecessarily'
