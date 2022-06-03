@@ -603,7 +603,7 @@ If theyre religious you can do the friendly fire humor again:
 
 #### Basic Income
 
-- 'imagine the sex robot industry innovations if Trump had had basic income'
+- 'imagine the robot industry innovations if Trump had had basic income'
 - 'Trumps painting of himself as a ripped superhero would be real if he had had basic income'
 - 'we would be able to hire a 24/7 security team to chase Trump off the golf course if there was basic income bc people would volunteer for that if they didnt have to worry about the basics'
 
