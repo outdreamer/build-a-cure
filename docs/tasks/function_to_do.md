@@ -222,6 +222,10 @@
     - understanding, learning, simulation, organization, prediction, testing are interchangeable functions with varying advantages but generally can replace each other
 
   - add to govt
+    - time and space (and related objects like distractions, opportunities, alternatives, new causes/reasons, reasonable standard of living to create incentives as in 'stakes/resources to lose', etc) are required for criminal cycles to break, in the absence of intelligence
+      - without these, criminal cycles will continue unless extreme emotional management (or other intelligence related to self-control like planning/prediction, to think through after/side effects) is taught or drugs are universally available
+      - emotions cannot be sustained over time without cause (re-traumatization), as they take resources to sustain when the original reason for them is removed or reduced
+      - actions cannot be executed without adjacence and/or access acting like adjacence
     - if 'expectation' is the problem with 'govt provided resources like bailouts' (the expectation is that they can make any decision and not go out of business) is an 'enforced limit' on the 'resource', such as limiting bailouts to 'one-time only bailouts' and applying 'enforced limits' on obvious foreseeable loophole-exploitation such as 'forming different companies after the first bailout to circumvent the limit of one bailout per company', thereby removing the problem created by 'expectation of bailout' (lack of learning that could possibly lead to success) by restricting its application so it cant be expected to happen again as it only occurs once
       - if the 'usage' of the bailout is another problem, that can be applied as a filter of the 'one-time bailout' structure, such as a 'set of allowed uses of the bailout which would probably make one bailout successful'
     - ai to guide leadership decisionns to avoid takeover/war/anti-democracy conditions given info like 'trust structures'
@@ -336,6 +340,15 @@
 
   - add to math
 
+    - add example of applying topology, homomorphism, orbits, & fields definitions to determine interface rules/requirements/limits
+    - identifying a maximally different shape (the 'most differences that can still be connected', as opposed to an interface which is a 'common base of similarities with adjacent/trivial differences applied that dont change the base')
+      - similar to how a square is a unit 'maximally different shape' by connecting orthogonalities, what other maximally different shapes can be assembled, such as 'embedded variables' (like changing the continuity & direction & position of a change type like a line to increase the number of differences from another line, thereby embedding variables in a set of changes in the additional dimension)
+        - a related question is 'what change types can be embedded in a particular dimension'
+        - this maximally different structure will have more complex structures on other interaction levels like holes, intersections, discontinuities, etc (these being interactions of core structures like points and lines, forming another interaction level), which will form other interaction levels containing other structures like inevitabilities, irreducibilities, arbitrarihoods, ambiguities, which is the interaction level where the primary useful differences will begin to emerge
+        - at later emerging interaction levels, connecting the generative/descriptive functions of the shape with these useful structures like inevitabilities will be useful for creating adjacent connections between these structures that can be used to skip computations
+      - the most useful maximally different shape might have equivalencies such as a repeated structure (like how a universe is full of differences like position/life despite having few core structures like elements), but it would also minimize equivalencies, while still being connectible, thereby representing the most possible useful differences (such as 'exception and unit differences' or 'the set of inputs that can change a functions output the most' or the 'opposite of a requirement in a cross-interaction level interaction')
+        - this structure would be the most useful for representing useful problem-solving structures in one structure
+      - 'definition routes' are a useful approximation and difference-finding structure, where the standard definition acts like an interface in its position as a base for changes, each concept representing an isolatable difference type that can be used to 'connect different structures' and 'add differences'
     - ways of coming up with orthogonal axes as a useful structure:
       - given a default representative structure of parallel x & y axes, expand the set of structures that represent 'connections of changes in x,y' from the structures possible by connecting changes on the set of parallel x,y lines (such as parallelograms connecting changes on those axes)
       - standardize structures that can be built by connecting x/y changes, by straightening them out to have right-angles, so that a change in one direction has the same impact when applied to the other axes, rather than having a ratio of difference
