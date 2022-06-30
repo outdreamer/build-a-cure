@@ -340,12 +340,19 @@
 
   - add to math
 
+    - the intersections of filter sets and limits ('limits' meaning 'sides of shapes that are filtered by a filter set') is a useful structure to identify as some filter sets are more useful at filtering a particular shape than others, like how a filter that isolates small sub-shapes is useful for identifying small structures on the surface of or embedded in other shapes, so these filter/limit pairs are useful to identify since they provide complementary effects in intents like identifying information
     - add example of applying topology, homomorphism, orbits, & fields definitions to determine interface rules/requirements/limits
     - identifying a maximally different shape (the 'most differences that can still be connected', as opposed to an interface which is a 'common base of similarities with adjacent/trivial differences applied that dont change the base')
       - why do this at all? bc 'maximally different but connectible shapes' are a good structure to find as a basis for a 'problem type network', problems being differences
       - how do structures like 'repetition' become useful in creating these useful differences?
         - given that 'repetition' of inputs is the difference between core operations like addition/multiplication, and multiplication adds a dimension where addition increases a value within the same dimension, how can repetition be used to add dimensions within a dimension (embed a dimension of change in an existing dimension, without contradicting it)
           - similar to how units like squares/cubes are useful in building other structures given their uniformity and simplicity (so theyre highly interactive with each other), and how cellular automata are useful in finding patterns emerging from repetition, repeating some variable values is all it takes to add new dimensions, like how 'repeating' a variable like a power source (so that everyone has a power source) can solve a self-contradiction of 'power', embedding 'power' in more 'positions' without contradicting the 'power', so that it can be used again to store more information
+        - repeating a square can build non-squares (change the position of the square), repeating a square vertically can build cubes (change the layer of the square), repeating a square by rotating to its cardinal directions can create a circle
+        - what other operations are useful in creating other difference types? 
+          - isolating differences is useful as an opposing function of repeating differences, bc isolated differences can be used as core components
+        - why is repetition useful?
+          - 'structural similarities' and 'coordination' emerge from repetition, from which other useful structures can be derived, such as 'input/output sequences' (derived from 'coordinating' structures) and 'similar alternatives based on a common base' (derived from 'structural similarities')
+          - some structures' interactivity allows some interactions without requirements preventing specific structures from emerging (stacking squares is not required to create another square), the lack of requirement embedded in this interactivity being useful for variability of structures its capable of building in isolation of other differences
       - what changes are more useful than others in determining this network (which will look a lot like the interface network Ive already specified)
         - embedded variables are more useful in creating 'maximally different structures' bc they allow compounding changes to occur, when a particular variable is strong enough to support these embedded changes
           - for example, a variable or variable set that can hold 'infinite sequences of infinite sequences' (like a graph of isolatable infinities and isolatable sequences using the parameters of these objects) is capable of holding more information bc of the embedded differences
