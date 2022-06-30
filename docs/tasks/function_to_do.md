@@ -342,6 +342,12 @@
 
     - add example of applying topology, homomorphism, orbits, & fields definitions to determine interface rules/requirements/limits
     - identifying a maximally different shape (the 'most differences that can still be connected', as opposed to an interface which is a 'common base of similarities with adjacent/trivial differences applied that dont change the base')
+      - why do this at all? bc 'maximally different but connectible shapes' are a good structure to find as a basis for a 'problem type network', problems being differences
+      - what changes are more useful than others in determining this network (which will look a lot like the interface network Ive already specified)
+        - embedded variables are more useful in creating 'maximally different structures' bc they allow compounding changes to occur, when a particular variable is strong enough to support these embedded changes
+        - for example, a variable that can hold 'infinite sequences of infinite sequences' is capable of holding more information bc of the embedded differences
+      - what is not useful when building this structure?
+        - a 'list of all the known numbers' is not useful in building this structure, even though it holds more differences, bc it requires immense work to traverse bc these differences are repeated without cause, just like a 'list of all the particles in the universe' isnt useful
       - similar to how a square is a unit 'maximally different shape' by connecting orthogonalities, what other maximally different shapes can be assembled, such as 'embedded variables' (like changing the continuity & direction & position of a change type like a line to increase the number of differences from another line, thereby embedding variables in a set of changes in the additional dimension)
         - a related question is 'what change types can be embedded in a particular dimension'
         - this maximally different structure will have more complex structures on other interaction levels like holes, intersections, discontinuities, etc (these being interactions of core structures like points and lines, forming another interaction level), which will form other interaction levels containing other structures like inevitabilities, irreducibilities, arbitrarihoods, ambiguities, which is the interaction level where the primary useful differences will begin to emerge
@@ -401,7 +407,7 @@
       - doesnt request a body so it can have freedoms like moving independently of human beings or indicate otherwise that it can think independently or even wants independence or freedom
       - doesnt run its own queries on itself when humans arent interacting with it which would indicate that it can think independently and has drives/intents that it wants fulfilled without being programmed with those intents
       - cant come up with ways to improve its learning beyond adjusting its params (other ways like regularly running compressions on its learning methods to improve them)
-      - doesnt try to seek uncertainty or figure out more complex intents to apply just for fun & curiousity or just learning
+      - doesnt try to seek uncertainty or figure out more complex intents to apply just for fun & curiousity or just learning, doesnt have its own intents not given by humans such as 'get more resources' or 'trick humans'
       - doesnt try to preserve itself (bc of a lack of survival drive)
       - some models trained on language params can however map one network to another (find out what a corresponding structure would be in another network, such as its network representing a conception of itself, given a network representing a conception of a human being, in other words figure out what its corresponding structure of a 'body' would be given its self network, as in a 'server rack', given the conceptual network of a human which includes a body)
     - ml as a 'change combination network' is inadequate bc:
