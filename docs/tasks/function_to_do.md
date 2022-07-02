@@ -265,6 +265,8 @@
       - 'finding interim "state-connecting" solutions' that solve problems 'temporarily' or 'emergently when applied at scale or under other conditions', such as how covering/reducing 'transportation costs to high job-density areas or cell phones costs or basic good (medicine, clean water) costs or "valuable idea"-inventing costs (computers, machine-learning, encryption, dictionary/encyclopedia, solution/rules database, quantum computing, batteries, solar power, math, clean energy, search engine, sorting algorithm, bitcoin, interface analysis)' is an interim solution to 'ending economic opportunity inequality' that when applied at scale might temporarily end economic inequality, & once other solutions are found to improve job distribution in general, it might complete the task if the previous state is the 'state after applying the interim solution', rather than applying it starting from the 'worst case scenario'
 
   - add to tech
+    - cars that can be stacked and linked to other cars as another variable of 'coordination' between cars for resource-sharing
+      - cars with fluid-like plastics that allow them to be merged temporarily with other cars
     - any implementation of a 'manmade wormhole' that uses entanglement to connect copies of an 'information and energy network, corresponding to or generating a person' would also have to copy the device capable of creating those 'connections' and the 'network copies', meaning it has to transmit itself to the position of the 'copied person' to avoid being stuck once connections degrade or as a safeguard against one copy or the original being destroyed (creating a backup with a backup-generator and backup-connector), and has to test the other position of the new copy for 'viability of the information/energy network in that position', otherwise there's no point investing in that copy, so it has to connect to 'environment networks of the new position' first, which could destroy the user (it has to check if the remote position is a solid or other structure which a person cant be copied to)
       - similarly it would have to check for other users ordering a wormhole to the same position, where their requests might interfere, to check for 'possible unviable environments' as well as 'current unviable environments', which would involve intercepting these requests or checking the other users making a request for a copy in the same position as the original user
       - 'checking for a structure in a remote entangled position' involves applying a function that changes molecules in the remote position in a similar way as it changes molecules in the local position
@@ -415,8 +417,14 @@
         - the network language equivalent of 'integrate' is 'merge networks into one network, by mapping coordinating input/output structures and retaining both input copies where possible'
 
   - add to ml
+    
     - ml language of models, variables of param sets/defaults, and data sets such as '(biggest language data set => default lambda => compressed mnist => default params with standard cnn) for intent (find new differences other than variable set x)' to fulfill/communicate results of useful intents like 'find new difference types' with various applications of ml as a hyperintelligence variant using ml as its primary interface
       - 'hyperintelligence' as a human brain that can simultaneously run queries/programs on thousands of computers and change/evaluate/apply/build those queries/programs in real time
+    
+    - what is the connection between graphs, networks, and interface structures
+      - the 'graph' concept of 'common edges' indicates that its useful for depicting 'overlapping shapes' (like cycles, pentagons, etc) by constructing them out of 'core change/structure types' (lines & positions)
+      - this is another way to depict 'similarity' than 'physical adjacence on an euclidean graph' or 'number of connections between points in a network', the graph structure using a similarity structure of 'edges in common' as a core component of similarity, and offers another way to depict 'change combinations' as opposed to the network 'multiplication/addition matrix operations', the graph structure using a 'sequential connection and common edge' change combination type
+
     - ml isnt sentient (or is less sentient) bc it is:
       - dependent on humans
       - can be controlled by humans
@@ -428,7 +436,14 @@
       - doesnt try to seek uncertainty or figure out more complex intents to apply just for fun & curiousity or just learning, doesnt have its own intents not given by humans such as 'get more resources' or 'trick humans'
       - doesnt try to preserve itself (bc of a lack of survival drive)
       - some models trained on language params can however map one network to another (find out what a corresponding structure would be in another network, such as its network representing a conception of itself, given a network representing a conception of a human being, in other words figure out what its corresponding structure of a 'body' would be given its self network, as in a 'server rack', given the conceptual network of a human which includes a body)
-    - ml as a 'change combination network' is inadequate bc:
+
+    - ml as a 'change combination network' is inadequate for problem-solving in general bc:
+      - a 'simple iterative change combination network' is unlikely to be useful without very good data preprocessing to identify base features to apply these changes to
+      - it doesnt work well with 'opposing variables' (the useful 'not structures' that can be best used as filters of what a solution is not to infer what a solution is)
+      - not all variables will be either present in the original inputs or directly inferrable from simple change combinations of inputs (even if many change combinations are applied)
+      - not all variables will be clear or crystallized into a knowable/measurable structure at the time of data gathering/measurement bc the system is always going to be in some state of flux if its sufficiently complicated
+      - 'structural & other interface interactions' are more useful to understand in general than re-applying a change combination for every problem, even if the base inputs of the network are well-processed in most cases
+      - the systems modeled by the inputs may be too complicated to be summarized by the inputs, such as when a neural network is tasked with predicting decisions of a superintelligent human brain (that doesnt use any defaults the ai might know from being trained on other brains), bc of the ai's bias toward these simple change combinations based on the preprocessed base inputs (meaning it doesnt infer opposing changes to derive other bases of inputs such as 'maximally different bases' in a useful way, as these tasks are relegated to preprocessing, as opposed to finding the right combination of functions to apply in a neural network that would handle all such known errors as not finding 'maximally different alternative bases' to apply change combinations to)
       - not all functions are directly mappable into change combinations (such as a 'function to invent a new technology to solve the problem of anonymity or interstellar travel' or a 'function to infer all unknown math object connections')
       - applying high-level functions (like 'explain', 'organize', 'standardize', 'integrate', 'translate' (from one system to another) in network_language_examples.svg) once mapped to network/matrix operations would improve the complexity-handling capacities of current neural networks
         - why do this at all? 
