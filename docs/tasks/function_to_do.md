@@ -426,6 +426,10 @@
       - this is another way to depict 'similarity' than 'physical adjacence on an euclidean graph' or 'number of connections between points in a network', the graph structure using a similarity structure of 'edges in common' as a core component of similarity, and offers another way to depict 'change combinations' as opposed to the network 'multiplication/addition matrix operations', the graph structure using a 'sequential connection and common edge' change combination type
       - the graph retains meaning of the 'angles' of the edges (it means something if a structure has four or five sides in the graph, it means it takes four or five common sides or steps to create a shape), where the network doesnt ascribe meaning to that info (angles of connections are just for display purposes)
       
+    - add to structures
+      - the concept of a 'surface' is useful for determining structures of limits that determine its interactions with other structures
+      - any 'prediction function' is incomplete without a good structure of its causes, such as 'why its likely to be true' (such as the 'reasons' for the 'decreasing parabola' shape of a 'bouncing ball trajectory' including the 'instability of momentum', the 'lack of alternate reasons skewing each parabola in a direction, the continuity of the ball's position', the 'incremental changes required to connect the exponential change types made possible by the input speed and the change types of local maxima with zero slope tangents as it approaches the final position of zero motion') and limits (such as 'gravity' and the structure of any barriers it might encounter on its up trajectories)
+      - identifying useful subsets of a function to predict, such as the 'up' trajectories of a function, that can make deriving the rest of the function trivial
 
     - ml isnt sentient (or is less sentient) bc it is:
       - dependent on humans
@@ -446,7 +450,7 @@
         - knowing which functions are used and are useful in which network contexts ('when these inputs occur at this layer') for which network intents ('create a change of this magnitude/direction') is useful when those intents' and contexts' inputs appear or they occur directly, so that the network can be queried as a semantic map rather than a seemingly random change combination set that wouldnt be useful to a human once trained
         - finding the common operations of these functions which can be done more efficiently can only be done when the function logic is retained/known
         - so rather than randomly (or otherwise poorly guessing at) generating these change values, applying specific functions that can be retained in the network and applying meta-analysis on these functions with their interface structures (including context/intent/cause but also identifying opposites to determine which functions havent been applied yet) can optimize the network and make it likelier than any training of such a network would quickly arrive at a useful more efficient version of itself during training
-        
+
       - it doesnt work well with structures that can infer variables values such as the concept of 'opposing/limiting/filtering variables' (the useful 'not structures' that can be best used as filters of what a solution is not to infer what a solution is, such as the 'example structures common to a different function shape that should be checked for to rule out that possible shape')
       - not all variables will be either present in the original inputs or directly inferrable from simple change combinations of inputs (even if many change combinations are applied)
       - not all variables will be clear or crystallized into a knowable/measurable structure at the time of data gathering/measurement bc the system is always going to be in some state of flux if its sufficiently complicated
