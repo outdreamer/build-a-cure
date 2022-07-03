@@ -589,6 +589,8 @@
       - find other useful structures that are useful in isolation like 'intents that when fulfilled cause some problems to be solved by default, which are useful to prioritize absolutely rather than contextually', like 'care', which when fulfilled, results in solving other problems
 
   - add to science
+    - an 'objective reality' is a 'common stable system' where other realities (as in 'perspectives' such as 'prioritized filters or areas of focus') can be tested/simulated and found to be more or less stable/efficient than the base reality
+      - the reality perspective that allows testing the maximum alternate realities is the objective reality acting as the interface around which the others orbit, as in the 'most consistent system that allows the maximum differences without contradiction'
     - a 'life form' as a 'topology of overlapping cycles' is a useful system visual as opposed to a 'set of variables' or a 'set of systems'
     - only some interface structures like certainties need to be preserved in order to proceed to the next space-time, not all structures (not everything thats true needs to always be true), so as not to destroy the stability of the interacting structures that allows a space-time to occur at all
       - adjacent changes dont always need to connect adjacent space-times, if the change is significant but doesnt destroy the stability of the interacting structures
@@ -807,6 +809,11 @@
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
     - add to explanations
+
+      - useful inventions like encryption, computers, internet, semantic search, interface queries, machine-learning are like a million steps away from the default thinking ('try everything', 'ask someone else', 'wait for someone else to solve it'), and few steps away from the 'intent' of the invention (to find information, to solve problems, to automate, scale, & standardize processing, to hide information in a retrievable way using maps, etc)
+        - deriving the implementation of the invention from the useful 'intents' fulfilled by the invention is a more efficient way to find these useful implementations in reverse, as opposed to defaults like 'trying every possible combination of available resources'
+
+      - an interface query is similar to the concept of 'pseudo-code' in that its trivially possible to convert it into actual code, similar to how an interface query is trivially possible to convert into an actual solution or solution-finding method, once some core functions like 'find' or 'apply' are defined and some definitions of concepts like 'structure' are available
 
       - an interface query of structures/functions like 'combine two workflows such as "trial and error" and "break a problem into sub-problems and merge sub-solutions'' would parse to a set of resulting interface queries including queries such as 'try every possible division of sub-problems in the workflow "break a problem into sub-problems and merge sub-solutions"' to apply a filter of generated interface queries for usefulness (applying 'trial and error' is only useful in some positions, like the 'rule for dividing a problem into sub-problems', otherwise it might make the other workflow less efficient/useful if combined randomly)
 
