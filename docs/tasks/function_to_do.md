@@ -566,6 +566,7 @@
       - find other useful structures that are useful in isolation like 'intents that when fulfilled cause some problems to be solved by default, which are useful to prioritize absolutely rather than contextually', like 'care', which when fulfilled, results in solving other problems
 
   - add to science
+    - a 'life form' as a 'topology of overlapping cycles' is a useful system visual as opposed to a 'set of variables' or a 'set of systems'
     - only some interface structures like certainties need to be preserved in order to proceed to the next space-time, not all structures (not everything thats true needs to always be true), so as not to destroy the stability of the interacting structures that allows a space-time to occur at all
       - adjacent changes dont always need to connect adjacent space-times, if the change is significant but doesnt destroy the stability of the interacting structures
     - roots to provide a core structure of alternatives as opposed to a requirement through one option
@@ -794,6 +795,12 @@
       - for example, a solution-finding function that filters the solution space could identify the threshold values of solution prediction function coefficients beyond which the solution isnt possible if the solution is to fulfill a solution requirement like 'accuracy' (in summarizing/representing a data set)
 
     - add to ml 
+
+      - requirements + alternatives to requirements (possibilities) are more useful than just requirements or possibilities, similar to how other structures are more useful with alternatives or with complementary structures, even though requirements and possibilities can be used as alternatives
+        - example: if a variable is a good indicator of system health, it could be identified as a good approximator of health and used instead of evaluating health, but if its not required to exist or not required to indicate all health signals, (meaning theres no required connection between the variable and health in all possible states), it will inevitably have errors
+        - connecting information with only requirements is rarely possible in absolute isolation of other information, but the connections remaining to be connected after applying known requirements can be reduced with requirements just like solution spaces can usually be filtered just by applying structural requirements like data types of inputs
+        - another example is how some data is required to be continuous (a cat needs to have a continuous biological form in order to exist, it cant be missing interim connecting slices of itself), whereas a 'photo or cartoon of a cat' or a 'summary or definition of a cat' doesnt need to be continuous, as photos can be corrupted by interactions with other objects, while still existing
+          - if an ml model has a 'concept' or 'definition' of a cat, it might miss this subtle difference between a cat and a photo of a cat, it would also need to have a definition of a 'photo' or 'cartoon' in order to understand why some differences like 'photo corruption' can exist while other differences cant (useful for preprocessing or augmenting data)
 
       - if the variables exist in the input data set and the only structure required is additions and exponents/multipliers of those variables, and if the input variables' true interaction functions follow a function that fulfills the assumptions of the model (continuous, etc), and if the function doesnt have to include inferrable but not included information, like cause, implications, requirements, etc
         - http://neuralnetworksanddeeplearning.com/chap4.html
