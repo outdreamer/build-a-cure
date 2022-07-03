@@ -451,6 +451,13 @@
 
     - add to structures
 
+      - given that the 'zoom' function is a version of an implementation of the 'reduce' function, generating the other implementation functions is trivial by altering a variable of the problem inputs in a way that fulfills 'reduce' of some variable (like position of observer ordistance from the structure, or the 'subsets remaining after the reduction' or 'possible alternate solution functions remaining after the reduction'), these other variable implementations of 'reduce' such as 'filter'
+        - 'zoom' reduces variables like the size of the data set (the amount of information visible in the original data set provides a good summary/representation of it, as some points will merge into others, given the representation restriction applied by the zoom out)
+        - 'filter' reduces variables like the possible solution functions, the possible data set points, the possible derived points to connect such as local subset averages, etc
+        - 'summarize' is another implementation function of 'reduce', as a 'summary' is a reduced version of a more expanded variable set which focuses on the point (such as local connected subset averages) rather than the details (data points)
+        - applying these functions to each other is another way to derive other problem-solving functions, such as applying 'rotate' to the 'zoom' function, to zoom from a different observation angle to make other structures more reduced/summarized or expanded/detailed given what info is focused or more visible or invisible (filtered out) in the perspective resulting from the rotation
+        - similarly 'connect' applied to 'filters' provides useful structures like 'connected filters' which can point to specific structures like 'structures of a certain size'
+
       - identify 'testable differences' (to tell if some value is a solution yet or not) as being a useful set of solution metrics to filter and connect with inputs & problem-solving methods, as any solution will have to be tested, so if the original solution metric isnt as testable as a proxy metric, the proxy metric can often be derived and used instead, and possibly connected with inputs more easily than the original metric
 
       - a useful structure of a 'technicality' is useful to apply to filter out alternative 'certainty' structures, to avoid structures that are 'technically' (irrelevantly, structurally, literally) true, such as 'syntactically correct, and therefore consistent with language rules, and therefore more true in a language system' but should not be used instead of another function which is less true but more useful (a 'syntactically incorrect statement that is semantically correct')
@@ -591,6 +598,8 @@
   - add to science
     - an 'objective reality' is a 'common stable system' where other realities (as in 'perspectives' such as 'prioritized filters or areas of focus') can be tested/simulated and found to be more or less stable/efficient than the base reality
       - the reality perspective that allows testing the maximum alternate realities is the objective reality acting as the interface around which the others orbit, as in the 'most consistent system that allows the maximum differences without contradiction'
+      - https://www.popularmechanics.com/science/a40460495/objective-reality-may-not-exist/
+      - 'complementary' structures like requirements/intents/possibilities can connect constant/variable structures but if there is a limit on computation, its bc the uncertainty has to be maintained somewhere in some position, otherwise there would be no potential in the universe, meaning these 'complementary' structures are more like 'interchangeable alternates' which are connected bc they offer adjacent states for this uncertainty to inhabit
     - a 'life form' as a 'topology of overlapping cycles' is a useful system visual as opposed to a 'set of variables' or a 'set of systems'
     - only some interface structures like certainties need to be preserved in order to proceed to the next space-time, not all structures (not everything thats true needs to always be true), so as not to destroy the stability of the interacting structures that allows a space-time to occur at all
       - adjacent changes dont always need to connect adjacent space-times, if the change is significant but doesnt destroy the stability of the interacting structures
