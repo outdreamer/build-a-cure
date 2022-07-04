@@ -451,6 +451,10 @@
 
     - add to structures
 
+      - methods of finding 'prediction function' in a more efficient way than regression
+        - finding angles where 'shining light to create shadows or overlaps or other structures of light' would quickly identify a 'probable function range' or 'average function'
+        - finding 'subsets that probably include all possible change types of the function', so that adjacent transforms like 'rotations/reflections' of the subset is likely to be able to generate the rest of the function
+
       - given that the 'zoom' function is a version of an implementation of the 'reduce' function, generating the other implementation functions is trivial by altering a variable of the problem inputs in a way that fulfills 'reduce' of some variable (like position of observer ordistance from the structure, or the 'subsets remaining after the reduction' or 'possible alternate solution functions remaining after the reduction'), these other variable implementations of 'reduce' such as 'filter'
         - 'zoom' reduces variables like the size of the data set (the amount of information visible in the original data set provides a good summary/representation of it, as some points will merge into others, given the representation restriction applied by the zoom out)
         - 'filter' reduces variables like the possible solution functions, the possible data set points, the possible derived points to connect such as local subset averages, etc
