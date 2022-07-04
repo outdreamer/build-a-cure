@@ -451,8 +451,14 @@
 
     - add to structures
 
+      - what functions arent adjacent to the existing functions in the logic? (beyond biological agent functions like 'trade')
+
+      - useful variable structures
+        - a variable might have a cursory correlation with another bc its a 'side effect variable' rather than a 'cause variable', as in an output of a sequence which is more influenceable may coincidentally correlate with other variables and may be more measurable but the causal variable would reflect the actual correlation
+          - this is useful in cases where a variable varies across alternate data sets, indicating its less likely to be a causal (and less interactive) variable (like genes) and more likely to be an output/side effect variable which is more interactive with other variables (like skin tone)
+        - categorical variables (like a material name) are more useful when mapped into the numerical variables associated with them (like electron or carbon count or chromosome type/count) bc the categorical variables almost always hide information and the only reason to use them is convenience for human interpretation
       - methods of finding 'prediction function' in a more efficient way than regression
-        - finding 'data set structures of logic' such as how 'separate clusters' can indicate a 'set of mutually exclusive alternatives, where one must be selected', and the interactions of these 'logical data set structures', to find possible/probable logic sequences such as 'combining variable subsets in similar ways, then applying attributes of a type variable to separate them into clusters'
+        - finding 'data set structures of logic' such as how 'separate clusters' can indicate a 'set of mutually exclusive alternatives, where one must be selected', and the interactions of these 'logical data set structures', to find possible/probable logic sequences such as 'combining variable subsets in similar ways, then applying attributes of a type variable to separate them into clusters '
         - finding angles where 'shining light to create shadows or overlaps or other structures of light' would quickly identify a 'probable function range' or 'average function'
           - this & other applications of 'light' is related to finding 'lines of least/greatest intersection with the data set'
           - this is possible bc some angles make the average/maximally different/prediction functions clear, and finding these angles can be more trivial than finding the prediction function
@@ -517,6 +523,8 @@
         - this is bc these structures represent the associated changes of the remaining ('down') trajectories, this association being impossible to disconnect from the 'up' trajectories (or lack thereof), as connecting these 'up' subsets will produce the 'down' subsets (similarly any 'neutral change subsets' with zero slope can be derived from knowing the 'up/down subsets')
         - similarly a 'rotation' of some subset is a common structure, in functions where knowing half of the function makes the remaining subset trivial to derive (applying a rotation of the known half)
       
+      - identifying simple (as in simpler than reality) shapes in a data set and identifying their average cross-sections may be more efficient than regression in some cases, as these shapes can act as 'subset summarizing structures'
+
       - summarizing a function by its 'input/output ratios' or other useful summarizing/compressing metrics can be useful in some cases, where the function hasnt collapsed into its most simple version for a trivial reason, meaning it will at some point, so its useful to summarize it in terms of its more simple structures like addition/multiplication operations like ratios
         - a 'filter' function might be summarized as a set of ratios such as a 'ratio of the ordered set where an item is frequently selected for a particular change application' and a 'ratio of the change applied to those selected items' and the 'ratio of the set repreesenting the selected vs. non-selected items', or a 'ratio of the difference in the input set and the filtered output' or a 'ratio of difference between the changes created by the constant map applied to seleted items, and the structure of the constant map, if a constant map is applied as a filter, as is often the case'
           - these are alternative summarizing ratios, as opposed to the exact ratios between each state sequence in the state tree/network of a function
