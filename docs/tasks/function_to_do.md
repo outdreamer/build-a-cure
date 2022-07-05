@@ -451,7 +451,7 @@
 
     - add to structures
 
-      - what functions arent adjacent to the existing functions in the logic? (beyond biological agent functions like 'trade')
+      - what functions arent adjacent to the existing functions in the logic? (beyond biological agent functions like 'trade', 'fool', 'dream', 'teach')
 
       - useful variable structures
         - useful variables are 'position' and 'count' bc most variables can be standardized to these variables to identify significant differences, then re-apply differences to get to a useful interaction level and re-apply position/count in that more useful interaction level
@@ -464,6 +464,10 @@
           - interactive variables are likelier to vary for irrelevant reasons and can be excluded from data sets more as theyll reflect randomness in their highly connected interactions with other variables
         - categorical variables (like a material name) are more useful when mapped into the numerical variables associated with them (like electron or carbon count or chromosome type/count) bc the categorical variables almost always hide information and the only reason to use them is convenience for human interpretation
       - methods of finding 'prediction function' in a more efficient way than regression
+        - applying the equivalent of a 'net' (more like a 'point sequence that is allowed to fall down through a data set') that is likely to identify dense point clusters wherever it is applied in any data set (where the 'stopping point' of each trajectory of each point in the point sequence indicates a dense point cluster, especially if the 'falling' is allowed to 'vacillate in a wave that is likelier to encounter adjacent data points')
+          - this works bc 'knowing where dense clusters exist' is a proxy for 'knowing the general shape of the data set' and 'allowing a point to fall until it hits a point' is likelier than a random method to find 'dense point clusters', if these points are applied at regular intervals rather than to most/all points
+        - applying shapes like 'opaque shapes' instead of 'dense points clusters' as a way of determining if the replacement with the 'opaque shape' changes the 'summary of a data set' is another good way to determine where the 'dense point clusters' are
+          - if an 'opaque circle' summarizes a data set/subset similarly well as the original 'data set cluster', it can be assumed that there is a 'dense point cluster' in that position, and knowing the position of these structures is valuable as a proxy of identifying the general shape of the data set
         - finding 'data set structures of logic' such as how 'separate clusters' can indicate a 'set of mutually exclusive alternatives, where one must be selected', and the interactions of these 'logical data set structures', to find possible/probable logic sequences such as 'combining variable subsets in similar ways, then applying attributes of a type variable to separate them into clusters '
         - finding angles where 'shining light to create shadows or overlaps or other structures of light' would quickly identify a 'probable function range' or 'average function'
           - this & other applications of 'light' is related to finding 'lines of least/greatest intersection with the data set'
