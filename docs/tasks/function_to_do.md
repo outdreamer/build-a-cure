@@ -450,14 +450,16 @@
         - 'twice' being mapped to the 'multiplication by 2' operation or the 'multiply' and '2' concepts or the 'multiply' and 'number' concepts with a '2' specification
       - alternatively, identifying useful functions to apply across problems like 'map one system to another' as a common structure that can be used to solve many problems, these 'connections between functions' being useful building blocks for 'connections of problem/solution differences'
       - useful structures for solving a problem like 'find x: x/4 = 2/8' include a structure like '|--|' where the two sides represent the two connected variables (the values being divided) and the connection between them (the ratios should be equal)
-        x   2
-        |---|
-        4   8
-      - this is like an interface (which is a core structure of 'compare/connect/differentiate/equalize') where the 'equal' connection between x/4 and 2/8 is the connecting horizontal line and the two ratios are the sub-interfaces based on that interface that connects them
-      - more complex structures can indicate the logic to solve other problems (problems being 'differences to connect/equate') such as more embedded variables (like a variable connection in the ratio, such as '-|--|-', like if one side had a power in its ratio)
-      - these interface structures are useful for guiding logic to find what values should be equated, and if variables cant be connected with such interface structures, they are unlikely to be relevant, accurate, or otherwise useful
+          x   2
+          |---|
+          4   8
+        - this is like an interface (which is a core structure of 'compare/connect/differentiate/equalize') where the 'equal' connection between x/4 and 2/8 is the connecting horizontal line and the two ratios are the sub-interfaces based on that interface that connects them
+        - more complex structures can indicate the logic to solve other problems (problems being 'differences to connect/equate') such as more embedded variables (like a variable connection in the ratio, such as '-|--|-', like if one side had a power in its ratio)
+        - these interface structures are useful for guiding logic to find what values should be equated, and if variables cant be connected with such interface structures, they are unlikely to be relevant, accurate, or otherwise useful
+        - this structure is useful to determine what connections in a network should be collapsed into a layer/level/hub structure to indicate 'embedded variables on an interface variable'
 
     - add to structures
+      - 'adjacencies of limits (limits like boundaries)' such as 'surfaces' and 'adjacencies of surfaces (like receptors)' like 'interactive structures with the surface (like binders)' are important bc they have an embedded sequence that makes some of them more important/causative than other variables, as if a surface is interacted with first, it may become more important than the limit, because of this 'sequence of interactivity' that leads to 'causativity'
       - 'limits on a network output' (like a 'decision to move forward' or a particular type label) can be embedded in a network as 'weight path-limiting/stopping' structures to stop a particular input from giving the positive answer
         - what a variable is (its variables) and is not (its limits) should be reflected in the network weight structures, meaning these weight structures can be partiallly derived from knowing its limits
         - this is useful when a limit is likely to be an example of a type of limit, so embedding it in the network weight structures, rather than in preprocessing, might act like a more effective abstract filter
