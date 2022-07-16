@@ -459,6 +459,43 @@
         - this structure is useful to determine what connections in a network should be collapsed into a layer/level/hub structure to indicate 'embedded variables on an interface variable'
 
     - add to structures
+      - the important implementation structures of machine learning include a function network, sequences of change combinations, propagation functions between nodes in the sequence, partial differential equations, & functions with thresholds (the s-curve) to model a filter to stop changes from propagating - without all of these structures, the ml invention wouldnt be effective
+        - deriving PDE's
+           - when changing a cube of side 1 (with volume 1) to a cube of side 2 (with volume 8), to find the contribution of each variable change (2 - 1 = 1) to the output change (8 - 1 = 7)
+            - 1 + 2 + 4 = (4 + 4 + 4) - (1 + 1 + 1) - (2)
+            - because a change in x of 1 happened, when a change in y of 1 also happened, a change in area of 2 happened instead of 1 (the completing third extra area in the opposing corner compared to the original), (2 - 1 = 1)
+            - because a change in x of 1 happened, when a change in z of 1 also happened, a change in area of 2 happened instead of 1 (the completing third extra area in the opposing corner compared to the original), (2 - 1 = 1)
+            - because a change in x of 1 happened, when a change in volume of 2 1/3 (7/3) happened, because x contributed to the extra area of increase in y (2 - 1) and the extra area of increase in z (2 - 1) and the third (1 cube / 3-dimensions) of the opposing corner cube
+          - when changing a cube of side 2 (with volume 8) to a cube of side 3 (with volume 27), to find the contribution of each variable change (3 - 2 = 1) to the output change (27 - 8 = 19)
+            - 4 + 6 + 9 = (9 + 9 + 9) - (2 + 2 + 2) - (2)
+            - the first difference by increasing one side from 2 to 3 is adding an area of 4
+            - the second difference by increasing a second side from 2 to 3 is adding an area of 6
+            - the third difference by increasing a third side from 2 to 3 is adding an area of 9
+            - the difference in area in each dimension is a square of area 9
+            - each dimension is responsible for 6 1/3 (19/3) increase in volume (x square of 2 x 2 + 2 in the third dimension z, y square of 2 x 2 + 2 in the third dimension z, 2 + 2 + 2 of the 2-dimensional overlap sections, final opposing corner / 3 given the three dimensions of overlap)
+            - an increase of one dimension to 4 instead of 3 would result in another 3 x 3 square added to the total area, 2 x 2 being attributable exclusively to the increase from 3 to 4, 2 being attributable to another dimension and 2 being attributable to the third dimension, the corner of overlap being attributable to all three dimension increases
+            - the overlaps in two dimensions (which dont coincide with another overlap, as in the opposite corner from the original cube in the area of growth) are the top side of total length 3 - triple-overlapped cube of area 1 = 2 value to remove
+              - this 2-dimension overlap occurs 3 times (-(2 + 2 + 2)) which should each be removed once (2-dimensions of overlap - 1) so that each overlap is only counted once
+            - the triple-overlapped cube of area 1 should be removed twice (3-dimensions of overlap - 1) (-(2 * 1)) so that its only counted once
+            - the overlaps are removed to avoid counting a value multiple times
+            - these differences are 'structures of incompleteness' to 'complete a shape (like a square)' to avoid a structure with a concavity (a cube missing a corner)
+            - partial credit should be assigned to relevant dimensions in the overlaps, and all other increases in a direction (in volume) can be attributed exclusively to the change in that direction
+          - why is there a connection between the 'structure with base changes applied (like a tensor of squares joined at the original area)' and the 'final volume of a cube' (achieved by rotating the tensor of square)
+            - this also has an 'overlap removal' error in most cases except by coincidence, but is useful to depicting the volume positioned at the opposing corner as a base (the determining point of the cube) to make these overlaps and the differences between the two sub-cubes of the final cube more clear
+          - its important to connect the 'variable value changes' with the 'change in determining points'
+            - its nice to know the area/volume of the resulting object once the changes are applied using some combination of addition/subtraction as shown above, but how does this relate to the determining point (the new point farthest away from the origin indicating the new opposite corner of the cube, which determines its volume)
+              - the determining point such as (2,2,2) or (3,3,3) representing the opopsing corner of the new volume is useful for multiplication (3 x 3 x 3 - 2 x 2 x 2) rather than the analysis above
+          - removing the scale of each change to reduce each change to a unit is useful for identifying credit units of a particular variable (how much would a unit change in this variable contribute to a volume) which can be scaled once found
+          - its useful to depict multi-dimensional changes like 'volume changes' as lower-dimensional changes like 'slope' using alternate structures like 'stack/fold' change types in 2-d, rather than always depicting them in their original dimensions (3-d volume for a 3-dimensional change)
+            - so that 2 ^ 3 would be depicted as 'two stacked squares of 2 x 2' and 3 ^ 3 would be depicted as 'three stacked squares of 3 x 3'
+            - this would make it clear how the change in volume is exponential rather than constant
+          - first deriving the 'slope' formula would be the most useful as a first step (a ratio of changes in variables) to identify the 'unit case'
+            - identifying that the 'slope' is important bc its a unit of a ratio, as in one change compared to another (how much one variable changed bc of a change in another)
+            - identifying that the 'slope' of a function like 2x is 2 is trivial with adjacent inputs/outputs
+            - identifying that the derivative is a multiplier of the power and a one-unit of decrease in the power is less trivial but is adjacently possible with enough examples to rule out other functions
+              - given that this formula involves 'reducing the power' and the goal is to describe the lower-dimensional slope of a lower-dimensional function (a tangent), this isnt extremely difficult or complicated to derive
+              - reducing the power by one and applying the original power as a multiplier is less trivial but still adjacently possible with a few cases adjacent to the unit case
+      - the structure of self-reference (recursion) is useful to portray with the 'system layer diagram' of 'concentric circles representing different interaction levels' bc this allows for outer levels to receive and integrate feedback and also store the core structure of a circle (representing a different interaction level or interface) at each layer
       - 'adjacencies of limits (limits like boundaries)' such as 'surfaces' and 'adjacencies of surfaces (like receptors)' like 'interactive structures with the surface (like binders)' are important bc they have an embedded sequence that makes some of them more important/causative than other variables, as if a surface is interacted with first, it may become more important than the limit, because of this 'sequence of interactivity' that leads to 'causativity'
       - 'limits on a network output' (like a 'decision to move forward' or a particular type label) can be embedded in a network as 'weight path-limiting/stopping' structures to stop a particular input from giving the positive answer
         - what a variable is (its variables) and is not (its limits) should be reflected in the network weight structures, meaning these weight structures can be partiallly derived from knowing its limits
@@ -771,6 +808,7 @@
 
   - add to science
     - in terms of 'time travel', 'preparing for another possible future' may act like a force on that future's probability, as the preparation for it makes that future more efficient and that may be a guiding principle as to how energy organizes itself, this preparation (a corrollary to intelligence and functions of it) being a type of time travel that may be more possible than other types, since it doesnt threaten stability as much as other suggested types, which are impossible or improbable bc of the instability they introduce
+      - structures like information make some realities likelier than others, acting like a magnetic or similar force attracting those realities (this means it matters what structures are built, what structures are stored, what info deriving structures and info erasing structures there are, as a useful prediction tool of the future possible adjacent realities)
     - an 'objective reality' is a 'common stable system' where other realities (as in 'perspectives' such as 'prioritized filters or areas of focus') can be tested/simulated and found to be more or less stable/efficient than the base reality
       - the reality perspective that allows testing the maximum alternate realities is the objective reality acting as the interface around which the others orbit, as in the 'most consistent system that allows the maximum differences without contradiction'
       - https://www.popularmechanics.com/science/a40460495/objective-reality-may-not-exist/
