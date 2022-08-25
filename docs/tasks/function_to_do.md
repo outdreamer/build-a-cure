@@ -226,7 +226,7 @@
     - how to correct over-prioritization errors
       - apply the error of the over-prioritized priority to itself (reduce the over-reduction, as all things can be reduced since its a core interaction function, including the reducer, to restore balance)
       - add enough variables that the error will necessarily also change at some point (expand the reducer to an extreme degree)
-      - view the priority filter from outside perspectives or from another perspective
+      - view the priority filter from outside perspectives or from another perspective (reduce the system that generates or requires the reducer without incentives of an agent in the system)
 
   - add to govt
     - new financial instruments to avoid situations like insurance (fee to get group benefits), taxes (fee to get group benefits), slavery (zero-cost labor), abusive corporations (products with negative side effects), charities (zero-cost, zero-stake investment) which are proven to be suboptimal bc of their structure
@@ -289,6 +289,8 @@
       - 'finding interim "state-connecting" solutions' that solve problems 'temporarily' or 'emergently when applied at scale or under other conditions', such as how covering/reducing 'transportation costs to high job-density areas or cell phones costs or basic good (medicine, clean water) costs or "valuable idea"-inventing costs (computers, machine-learning, encryption, dictionary/encyclopedia, solution/rules database, quantum computing, batteries, solar power, math, clean energy, search engine, sorting algorithm, bitcoin, interface analysis)' is an interim solution to 'ending economic opportunity inequality' that when applied at scale might temporarily end economic inequality, & once other solutions are found to improve job distribution in general, it might complete the task if the previous state is the 'state after applying the interim solution', rather than applying it starting from the 'worst case scenario'
 
   - add to tech
+    - 'structural simulation' tech at a midpoint between 3-d printers and visual info simulations on a computer, where a structure is real conditionally (such as temporarily or partly), like creating a scaffold of a requested structure that can bond for a few seconds before dissolving
+      - weaponized versions of this involve sending structures to other positions to disrupt plans and interfere with resources elsewhere
     - self-driving cars can use proxy variables like 'limits (like a curb) of change types (such as forward motion)' and 'behavioral patterns of other cars/drivers' in the absence of 'direct signals (like signs)' and structures like 'probable error types like probable driver misunderstandings of signs' as well as useful/adjacent/probable structures (like 'roundabouts') which can be used to predict structures it will encounter before encountering them, as probable models of structures it may encounter to use to understand new different info than what it has already encountered
     - an optimal truth-derivation structure is useful as a 'time-traveling device' bc an optimal truth-derivation structure can also derive the truth at any previous/future time
       - similarly, an 'impossibly optimal' truth-derivation structure that is 'more efficient than reality at preserving information ("better than reality" meaning "better at preserving information than a reality with time is, as a reality with time loses information and re-generates that information on-demand", such as a 'neural network ai model' that perfectly predicts a 'human mind with more neurons than the network')' is useful as a 'time-building device' bc time will flow in the direction of greatest stability/efficiency, and a 'time-basing device' bc its more efficient to base changes on the standard of the more efficient/stable reality (as an 'alternative history with a different starting point, breaking time-direction symmetry by creating a different adjacency as the original starting point that has a stronger bond')
@@ -445,6 +447,8 @@
 
   - add to ml
     
+    - ml networks are often biased in more obvious ways than other sources of decisions like laws/humans, so these errors may be more useful for their obviousness and ability to correct them
+
     - ml language of models, variables of param sets/defaults, and data sets such as '(biggest language data set => default lambda => compressed mnist => default params with standard cnn) for intent (find new differences other than variable set x)' to fulfill/communicate results of useful intents like 'find new difference types' with various applications of ml as a hyperintelligence variant using ml as its primary interface
       - 'hyperintelligence' as a human brain that can simultaneously run queries/programs on thousands of computers and change/evaluate/apply/build those queries/programs in real time
     
@@ -1446,6 +1450,9 @@
       - example of how a 'lack of errors' in a closed system can produce an error in system-level interactions, like a cross-system merge
 
   - add to stats
+
+    - example of generating bell curve with multiple simpler change types such as rectangles with variable side lengths overlapping at their centers, connected by the defining points of their limits as an example of 'alternate formats that reveal different possible inputs' (as well as the commonness of adjacent changes)
+
     - give example of visualizing the stats object connections in a stat insight rule
       - add example of how to derive the rule 'choose algorithm with low bias/high variance for large data sets'
         - use 'random forest' bagging method to reduce high variance
@@ -1458,6 +1465,12 @@
           - 'If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.'
           - 'If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.'
 
+  - neural networks would need an accurate network of reality embedded/emergent in them to perfectly predict everything, and most problems dont have enough differences in between input/output variables to capture an approximation of reality
+
+  - give example of how a structure (like a neural net) complements its associated supplemental functionality (like iterating over the network to update weights in a 'network state sequence'), as a useful difference structure to create functionality like 'learning', since the functionality cant be stored in the structure of the neural network and has to be applied to it, or other examples of structures that leave out some structure (such as a 'network state sequence') and have it applied as functionality
+
+  - give example of network/graph math, etc
+  
   - give example of 'different meaning interaction levels'
 
   - examples of 'interactive' structures which can be inputs to the 'apply' function
