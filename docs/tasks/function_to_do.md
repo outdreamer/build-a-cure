@@ -680,7 +680,13 @@
         - increasing the variable of the 'intersecting/connecting line/side count until a structure (like point on a border) starts to be repeated/similar' and the application of 'increasing the difference in distance from the center' are changes that increase the differences represented by the 'intersecting lines with equal angles'
           - knowing the number of points that would create the maximum differences in the outputs (points on a shape border) and knowing other useful variables to apply like distance from center (line length) is useful as a generative structure of these 'maximum differences', as these variables can be relatively independent in a structure like 'lines extended from a center' and can therefore add more differences
           - similarly info about what variables can be embedded is useful to maximize the differences within foundational variables
+
       - methods of finding 'prediction function' in a more efficient way than regression at intents like 'representing/approximating the function', when applied to a subset of the data set
+        - finding a subset of points, applying connections between these points, and finding interim points in those connections functions and applying those as 'guesses' to correct by checking the actual data set at those points, then tuning the function with the corrections, optionally generalizing the corrections across prior/future guesses
+        - finding a subset of points, applying trivial differences to those points (applying the insight that there will be some error in the data set) and using connections between all of these as possible prediction functions to filter
+        - finding a subset of 'areas with no points' as a way of guiding generation of specific structures of possible prediction functions in between those areas, such as 'triangles of no points' being useful for predicting where 'polynomial peaks might be'
+        - calculating angles of data set at relevant points (like start/middle/end points) to filter interim structures (where an 'angle that captures most data points' is useful to filter out other possible interim structures in a 1-1 function using its definition as 'not being a range/area' and 'not having multiple y-values for one x')
+          - this 'angle capturing most points' at the 'start point nearest zero' for example being useful to identify where other points are unlikely/likely to be adjacent to that subset
         - calculating shapes with pre-determined or more easily computed metrics like averages/centers is often trivial, like how a parabola can be easily approximated with a triangle, where the triangle's center is more easily computed once its known that its a triangle
         - determining if 'two structures are equal' is easier when you already have a near/exact equivalence of structures or extremely different structures, so generating extremely similar structures is useful to determine the solution in a game of 'guess the center/summarizing line more efficiently than regression', by applying the definition of 'center' through its interactions with other relevant structures (the 'data set') to generate useful structures to determine like the 'equal areas' which cover the data set and which indicate a center (average)
         - shifting a data set to center it at zero & finding the 'zeros of the data set' by 'finding densities intersecting with y = 0 as well as directions of change' (or just finding densities intersecting with or adjacent to an average general base function as a way of improving that function), rather than determining all points of the function, is more trivial than other methods
@@ -1216,6 +1222,11 @@
     - representing extra dimensions as 'queries of interfaces' or 'queries on a network' where nodes are endpoints (that can be connected to other points with queries)
 
     - add to explanations
+
+      - 'interface' explanations
+        - phrases like the 'biology-physics interface' use 'interface' as 'system' or 'variable'
+        - phrases like the 'user interface' use 'interface' as 'communication medium' or 'language/translator' or 'map'
+        - 'interfaces' are not just regular variables like 'networks/systems' are, they are highly explanatory of extreme variation and also explain many interactions like 'injected variables on a foundation variable' as well as 'cross-interface interactions' like 'common structures across interfaces'
 
       - useful inventions like encryption, computers, internet, semantic search, interface queries, machine-learning are like a million steps away from the default thinking ('try everything', 'ask someone else', 'wait for someone else to solve it'), and few steps away from the 'intent' of the invention (to find information, to solve problems, to automate, scale, & standardize processing, to hide information in a retrievable way using maps, etc)
         - deriving the implementation of the invention from the useful 'intents' fulfilled by the invention is a more efficient way to find these useful implementations in reverse, as opposed to defaults like 'trying every possible combination of available resources'
