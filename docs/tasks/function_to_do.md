@@ -960,7 +960,7 @@
       - find other useful structures that are useful in isolation like 'intents that when fulfilled cause some problems to be solved by default, which are useful to prioritize absolutely rather than contextually', like 'care', which when fulfilled, results in solving other problems, and can be used to derive other useful functions like 'invest in differences having relevant similarities, like similarity in cause/intent'
 
   - add to science
-    - black holes as 'hyper-connected networks where the connections are quantum entanglements that attract other quantum connections', provoking questions like 'which quantum entanglements occur naturally' and 'how do these natural quantum entanglements influence standard gravity', and 'do black holes reflect interface analysis network structures or do they reflect dense neural networks more in their info preservation & decomposition or some equivalent alternate, making them possibly useful as a problem-solving computer' and 'can black holes take on multiple equivalent alternate formats allowing their properties to fulfill different priorities and model different types of time such sa "different synchronized conceptual events acting as conceptual time"'
+    - black holes as 'hyper-connected networks where the connections are quantum entanglements that attract other quantum connections', provoking questions like 'which quantum entanglements occur naturally' and 'how do these natural quantum entanglements influence standard gravity', and 'do black holes reflect interface analysis network structures or do they reflect dense neural networks more in their info preservation & decomposition or some equivalent alternate, making them possibly useful as a problem-solving computer' and 'can black holes take on multiple equivalent alternate formats approached from different angles/perspectives of analysis where some solution structure is sought and prioritized, creating a foundation for the quantum entanglement to develop based on that 'caring', allowing their properties to fulfill different priorities and model different types of time such sa "different synchronized conceptual events acting as conceptual time"'
       - https://phys.org/news/2022-10-uncovering-massive-quantum-mysteries-black.html
       - https://www.vice.com/en/article/dy7kyv/scientists-invent-quantum-watch-a-mind-bending-new-way-to-measure-time
       - is quantum physics a result of rules like 'everything can be connected' which is required to be true, in order for other rules to be true
@@ -1079,6 +1079,22 @@
 
 
   - add to examples
+
+      - basic example of interface query filters:
+        - to come up with the idea of a 'encryption' algorithm, you could follow the path: 'security' -> 'obscurity' -> 'randomness' -> 'maps with many variables' by applying the interface query 'what is relevant to (input)?'
+        - this query would identify other things as well, such as 'anonymity' as a solution to the question 'what is relevant to (security)'
+        - how would you filter out these alternate possible solutions, so that your interface query results in a reduced set of solutions to traverse?
+        - 'finding high-variation variables' (like obscurity and anonymity) is a filter that is already applied
+        - what other filters can be used?
+          - 'interactivity' filters can identify structures that are 'interactive' ('randomness' and 'interactions of many variables' are 'interactive' in the sense of being 'causally adjacent', as one can produce the other, similarly 'maps' and 'many variables' are interactive bc one can be used as an input to the other)
+          - 'useful intent' filters can identify structures that are likely or defined to fulfill an intent (intents such as 'create randomness' which structures like 'many variables' are adjacently useful for, given the structural similarity between these indicated in the central limit theorem
+          - 'cross-interface' filters with 'similarity' filters can identify other useful structures like 'structural similarities' between & across interfaces, like how concepts are related, some concepts are 'equivalent alternates' to each other (like 'anonymity and obscurity' and 'randomness and complexity'), and how there are structures such as 'maps' and 'many variables' that have a similarity to structures on other interfaces like the concept of 'randomness'
+        - these filters represent useful structures (structures that are generally useful to solve problems, optionally in some specific format), so identifying all useful structures will give you the set of useful interface query filters
+          - other filters include 'commonness' and 'adjacency' and 'resistance to known limitations/rules' and 'high variation representation' as filters of possible solutions, as these are both useful structures that decompose high degrees of variation (complex variation in some complex problematic difference)
+
+      - how to come up with a possible structure of the universe such as a 'donut' shape to test a new theory
+        - the 'concentric circles' of the 'system layer diagram' combined with the 'basic manifold shape example' and the 'reason why this might occur such as the evolution of interaction levels that matter' are cross-interface structures, that when combined form a possible new theory to connect the limitations of the universe with legitimate possible shapes
+        - connecting other possible shapes with reasons why it could be useful (or another structure of truth) and other interface structures like system interface structures (like 'system context') is a useful way to come up with alternate shapes (like 'universe shapes that are the most interactive and stable with other universe shapes')
 
       - example of logical fallacies like the rarity of simple rules, as everything is a simple transformation away from something else
         - such simple rules often reflect other simple rules like 'a simple rule is representable with more complex structures (like an infinite sequence)'
