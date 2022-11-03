@@ -965,6 +965,7 @@
       - https://phys.org/news/2022-10-uncovering-massive-quantum-mysteries-black.html
       - https://www.vice.com/en/article/dy7kyv/scientists-invent-quantum-watch-a-mind-bending-new-way-to-measure-time
       - is quantum physics a result of rules like 'everything can be connected' which is 'required to be true in order for other rules to be true'
+      - are quantum connections possible between all types of similarities, such as similarities in structure and similarities between a structure and an agent intent making the structure cared about by the agent
       - https://phys.org/news/2022-10-bell-theorem-quantum-genuinely-tripartite.html
     - 'circles of interaction layers' forming a manifold like a 'donut' (like in a concentric system layer diagram) as a useful structure to describe universes that evolve to use new interaction layers, leaving the central layers to dissolve as they fall out of use and become irrelevant, and similarly describe topologies as a useful structure to capture the interaction of universes
     - the concept of a prism that is useful for decomposing high variation light into the same components, as a useful structure to apply when identifying maximal differentiating variables of light, where problem inputs would be translated into light beams reflecting the variable patterns, as an alternative computational device for space travel, where this prism would reflect all possible states in the universe and is a structure of truth representing the universe accurately (possibly applying useful structures like the 'perspective network' to decompose maximal variation), a prism that can connect spacetimes, like connecting past/future truths which are connectible in the same spacetime trajectory
@@ -1081,7 +1082,12 @@
 
   - add to examples
 
-      - 'priorities -> intents -> functions' and 'concept -> structure'
+      - 'priorities -> intents -> functions' and 'abstract concept -> specific structure' are examples of common useful directions of interface queries
+
+      - an example of work required to use various filters
+        - to use the 'interactive' filter, you need input/output info, and you need the different inputs/outputs to actually be different, so that not every function can be an input predecessor to all other functions, otherwise the search space is not reduced but the set of all possible combinations
+        - to use the 'complexity' or 'maximal difference' filter, you need information about how structures develop complexity (such as containing maximal differences like mixed perspectives and counterintuitive rules in the same structure)
+          - an example of using this filter to solve regression would identify how maximally different structures like 'function ranges', 'function subsets', 'function inputs', 'function limits' can interact as maximally different structures to reduce the solution space of possible functions in a useful way
 
       - basic example of interface query filters:
         - to come up with the idea of a 'encryption' algorithm, you could follow the path: 'security' -> 'obscurity' -> 'randomness' -> 'maps with many variables' by applying the interface query 'what more specific structures are relevant to (input)?'
