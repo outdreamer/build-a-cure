@@ -1,7 +1,9 @@
 - The important point is to make sure the recipients can make money for themselves (find a job) once they receive whatever you're giving them, which I would argue should be a cell phone with enough free data (or default data, already installed) so they can learn valuable skills.
 
+
 - what the problem is not:
     - It's not a mystery where the poor people are living, most of the time we have that information. We know a lot of the world's poor live in slums outside cities, in refugee camps, etc.
+
 
 - what the problem is:
     - They are lacking information such as "who is willing to pay them to do a, b, and c jobs in their area".
@@ -10,13 +12,16 @@
     - Some people don't have a way to communicate what they need & find jobs (cell phone) or a way to store & send/receive money to participate in the economy with people who already have that ability (bank account).
     - Hidden inefficiencies (such as transactions costs like fees/time to send/receive money, that prohibit a socially upward move out of their previous economic class).
 
+
 - possible solutions:
     - I would spend it buying them cell phones/data/internet so they can find jobs they're willing & able to do in their area from that point forward, maybe with some starter money in their accounts. The most important thing is to make them independent.
     - As far as the problem of finding the bank accounts, iterating through possible phones/account numbers isn't a bad place to start, but you don't have information about who you're sending it to, if you could filter out the known bad numbers, that might be an effective option. If you guess an incorrect account/phone number that no one uses, the money won't ever leave your account, until someone starts using that number, if the offer doesn't expire.
     - New bank accounts can be created and associated with the cell phones being distributed, so it's not a mystery where the recipient is a criminal or rich or not, it'll definitely be the poor person receiving the cell phone.
 
+
 - less feasible solutions:
     - I would want to spend it hacking accounts so the rich people never notice that most of their money is being transferred to these poor people (as their quality of life would likely remain the same and they'd never notice the difference), but I'm not sure that's feasible.
+
 
 - variables that can change the other variables:
 
@@ -56,7 +61,17 @@
 
     - Love/happiness is another factor. Most people don't have love in their lives and therefore can't see the meaning in the world, as they were not happy enough to feel that this world is real and meaningful, which leads them to crime. Happiness can be framed as a ratio between 'problems you can solve' and 'problems you have' - the more of your problems you can solve, the happier you are. Once you're happy, you start pursuing problems that other people have and start solving other people's problems for them. Happiness is therefore related to intelligence (smart people are happier, because they can solve problems better). Somewhat smart people see the solvability of problems and get depressed because they don't have mental functions that would grant meaning to solving problems. Giving people these mental functions is possible with education. TV is one way to educate people in a slightly subtler way, it doesn't have to be 'directly communicating formulas' to be education. If they have love, they will also have another source of meaning than intelligence would give them on its own, and will want to share their love by solving problems to make the world better. Teaching people meditation such as 'loving kindness' meditation or skills like 'how to dignify people' so they can practice it and eventually become able to love people is a useful skill set that will solve the 'motivation/meaninglessness problem' that is so endemic in so many cultures.
 
-    - Comedy is another factor. Being able to 'reduce problems' is a useful mental skill that can solve the problem of 'filtering problems', as the problem which are less efficient to solve can be reduced using tools like comedy, to allow focus on more solvable problems. Comedy can also be useful for education in terms of distributing knowledge quickly & permanently, similar to TV. If it's embedded in a joke, people are likelier to remember it, than they are to remember a fact stated in a book.
+    - Comedy is another factor. Being able to 'reduce problems' is a useful mental skill that can solve the problem of 'filtering problems', as the problem which are less efficient to solve can be reduced using tools like comedy, to allow focus on more solvable problems. Comedy can also be useful for education in terms of distributing knowledge quickly & permanently, similar to TV. If it's embedded in a joke, people are likelier to remember it, than they are to remember a fact stated in a book. Comedy can also decrease the meaning of everything and can motivate people to avoid solving problems, so it's not a first line of defense but is a good backup measure. Comedy is the art of 'getting things wrong' so jokes are a useful database of what is wrong (and also what is comforting) which can be used as a filter to determine what is right (especially uncomfortable truths).
+
+    - Understanding is another factor, related to intelligence, just like happiness and comedy.
+        - understanding is a better way to influence people than advertisements or misinformation or emotional manipulations
+        - for example, understanding that when people in poor countries fight, it benefits people like Putin and Jingping rather than benefitting themselves
+        - understanding that 'groups tend to make bad decisions' and 'people tend to make bad decisions without accountability' is another example of insights that generate high value
+        - understanding is reflected in actions, whereas information can be read but not understood to the point of acting on it (like how people know war is bad but still participate)
+        - understanding that most thoughts aren't actual thoughts but urges (default or adjacent thoughts), and real thoughts are 'whatever is difficult to think of'
+
+    - Hope is another factor, also related to intelligence. If people have hope for the future, they'll be likelier to think about the future. This means creating science/philosophical fiction or otherwise inspiring writers so that more people are imagining and thinking about the future and how it could go well and badly and for which groups. People with imaginations are likelier to have hope for the future because they can imagine a better world and the clear paths available to get there. The 'hope deficit' kills people by removing the meaning in any attempt to succeed.
+
 
 - summary
 
@@ -68,3 +83,21 @@
 
     - before taking any action, I would think through a few options you've identified, research them a bit, and pick one that you think is the highest impact that you yourself can do without impacting your happiness negatively. If you want to do more, there are always new alternatives, like organizing with other people. I would check that the option you want to do hasn't already been tried before and failed for relevant reasons (like that it's doomed to fail) as opposed to irrelevant reasons (like that it was poorly implemented/funded/advertised). If you're going to send money directly, there are some charity indexes that help people find less corrupt & more effective charities, like Kiva/Give Directly. If you're looking for a way to choose which method to try, I would lean towards more generally effective methods that are lower cost, more permanent, and make people independent, like the methods I've mentioned above in the summary.
 
+
+- other points
+    
+    - there are some methods that are more effective than others, for example:
+        - align stakeholders with their incentives, meaning 'give the ability to solve specific problems to the people with the biggest incentives to solve them (the people who have those problems)'
+            - this can take the form of giving criminals education so they can come up with the best-designed society where everyone can coexist, bc they understand crime
+            - or guaranteeing jobs for people with medical problems so they can spend their time researching solutions to their own medical problems
+    
+    - there are some structures that adjacently solve every problem (interface analysis), such as:
+        - 'differences between interfaces, networks, maps, filters, sets, and other structures' which are the most useful variables to focus on when problem-solving, which are useful to apply when solving problems like 'how to organize/represent/describe structures'
+        - equivalent alternate approaches to problem-solving, such as 'understanding the problem', 'describing the problem', 'comparing the problem to other problems', 'reducing the problem', 'avoiding solving the problem by prioritizing other problems', 'storing solutions', 'changing known solutions', 'generating obvious solutions', 'mixing solutions', 'connecting the problem & solution', 'filtering solutions', etc, are useful to know about, just like knowing alternate solution workflows like 'trial and error' and 'divide and conquer' are useful to know about.
+
+    - there are other sets of extremely valuable information that can create high value if you can identify that information, as a way to make money
+        - having information about price data (what people are willing to pay for inventions) would be useful for creating jobs (as a guaranteed return on investment for investors so they would be likelier to invest in that invention)
+        - giving some people valuable information (like interface analysis) allows them to charge other people money for communicating that information, which incentivizes them to distribute that information
+        - identifying the biggest value-destroyers and the biggest value-creators in society is another set of useful information with extremely high value, as it could change decisions of large groups like governments
+
+    - other structures can alter the solutions mentioned above, such as currency (stored value), government (fairness distributor), and laws (interaction limits to maximize coexistence potential), but those are likelier to be controlled by too many entities to interfere with, because they're already known & understood by most people.
