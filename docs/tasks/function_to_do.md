@@ -964,6 +964,8 @@
       - find other useful structures that are useful in isolation like 'intents that when fulfilled cause some problems to be solved by default, which are useful to prioritize absolutely rather than contextually', like 'care', which when fulfilled, results in solving other problems, and can be used to derive other useful functions like 'invest in differences having relevant similarities, like similarity in cause/intent'
 
   - add to science
+    - if cancer cells discover more efficient organization methods than the original bio-system theyre likelier to provide a base that becomes the default foundation for life, pathogens are currently better than AI at finding efficiencies in the bio-system
+      - https://medicalxpress.com/news/2022-11-lethal-cancer-cells-buddy-survive.html
     - quantum entanglement will rely on more efficient connections between types of numbers, as alternate formats of reality to compress to for costless cross-distance travel (meaning numbers and formats that are more adjacently connectible such as numbers adjacent in a certain base, roots of unity, quaternions will describe connections between quantum particles)
       - similar to how agents with similar positions of understanding tend to communicate and coordinate their actions better and more adjacently than other agents, so that the agents may as well be nearby regardless of their actual position, this connection forming a building block for other connections to develop on and use
     - post-quantum cryptography will fall to interface analysis if it relies on structures like asymmetries
