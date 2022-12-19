@@ -1,0 +1,19 @@
+- examples of other implementation methods than documented methods (like the 'apply/find/build/derive' function set)
+
+- how to implement the interface analysis framework as a set of simple functions for an initial version, involving default constant simple structures to combine, such as:
+    - symmetry structures applied as a default variable structure, rather than 'incremental change combinations', so that by default, symmetry combinations are sought, rather than incremental change combinations
+    - combinations of useful intents that are relevant/realistic as a default interface, finding the functions to fulfill them at query time, as implementation variables
+    - structures of relevant cross-interface structures as a default structure to apply changes to
+        - for example, 'patterns of causal structures of structures of structures' (like the patterns of cause of 'a sequence of structures that develops from another structure')
+	- functions that act like useful filters of relevant information, such as:
+	    - a function that can determine an attribute like 'change type' that reveals similarity/difference of a relevant structure like 'output change type'
+	- applying specific interface structures as a default constant set
+		- applying information rules of reality such as 'truths become false when over-depended on, beyond their appropriate context or meaning'
+		- applying interim connecting structures of useful structures representing the truth like 'rules databases', 'attribute networks', etc, such as 'common structures to both systems' such as 'constant attribute rules' (variable interaction rules)
+		- applying useful reality representation structures such as 'metaphors (similar/relevant but different/inaccurate structures to format something differently in a useful way to achieve understanding)'
+		- applying physics rules such as the 'fuzziness of physical reality' as a way to find other true structures ('symmetries', 'alternative definitions', 'patterns')
+	- applying more adjacently determinable structures as an input
+	    - attribute networks as an input and function networks as an output implementing those attribute networks
+	- finding an 'input-output sequence' that would be useful and would probably be adjacently constructible in that sequence
+	    - like a sequence of first building an 'attribute network' to describe all variables and then a 'function generator network' to generate that attribute network
+	- applying default interface structures as the core functions of a machine learning network so that errors like 'not understanding abstract concepts' can be avoided by injecting abstract concepts as a default input or function or related structure, so that 'combinations of abstract concepts' required to 'solve a problem of understanding some conceptual combination' are adjacent

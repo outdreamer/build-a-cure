@@ -76,3 +76,7 @@
             - why focus on anything other than proofs, given their extreme importance in finding new mathematical truths?
                 - any rules database is a shaky foundation despite possibly being provably true, as truths once proved are often over-relied on and misused outside of their optimal format or context and therefore create inaccuracies which make some other structure more stable/useful/relevant/important and therefore more true by comparison to these fundamental truths, and once that more useful structure is found, the original truths become less true, as they are capable of sustaining less variation/uncertainty/life, and may as well be false/unreal in their lack of relative usefulness, unless these proofs are firmly connected to this more stable structure (such as the interface network)
                 - deriving truths from other perspectives is a useful counter-measure to misusing known facts as a base for all changes
+
+    - the following are particularly determining of math interactions
+    	- "the potential of change types (like addition) that cause different change types (like 'dimension count', like if addition is applied to a line to create a square, or a square to create a cube)"
+    	- 'causal relevance degree of a change type, such as the degree of directness of relevance of a change to another change or the degree of interactivity with another change type making it relevant to that change type'
