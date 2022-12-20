@@ -8,7 +8,14 @@
 	- functions that act like useful filters of relevant information, such as:
 	    - a function that can determine an attribute like 'change type' that reveals similarity/difference of a relevant structure like 'output change type'
 	- applying specific interface structures as a default constant set
-		- applying information rules of reality such as 'truths become false when over-depended on, beyond their appropriate context or meaning'
+		- applying 'information' interface interaction rules of the 'physical reality' interface such as:
+			- 'truths can become false when over-depended on, beyond their appropriate context or meaning, or beyond their potential to illuminate or support other truths, or in an incorrect structure like a foundation for other truths'
+			- 'truths can be so irrelevant to an intent as to be equivalent to false (example: citing the heat death as a reason not to try to do anything)'
+			- 'truths can be so rarely/improbably true as to be equivalent to false (example: an error state that is so rare you basically dont have to plan for it, like where neutrinos would flip all the bits on a server at once)'
+			- 'truths can be so unstable (difficult to maintain) as to be equivalent to false (example: a rare atomic state that degrades into another more stable state more frequently)'
+			- 'truths can be so difficult to verify/calculate as to be equivalent to false (example: number of atoms in the universe)'
+			- 'truths can be so non-adjacent to other probable/known truths as to be equivalent to false (example: future truth of a reality that is non-adjacent to current reality)'
+			- 'truths can be so lacking in reasons as to be equivalent to false (example: there is no reason for a rare anomaly except random coincidence so it may as well be ignorable)'
 		- applying interim connecting structures of useful structures representing the truth like 'rules databases', 'attribute networks', etc, such as 'common structures to both systems' such as 'constant attribute rules' (variable interaction rules)
 		- applying useful reality representation structures such as 'metaphors (similar/relevant but different/inaccurate structures to format something differently in a useful way to achieve understanding)'
 		- applying physics rules such as the 'fuzziness of physical reality' as a way to find other true structures ('symmetries', 'alternative definitions', 'patterns')
