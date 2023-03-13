@@ -361,6 +361,43 @@
         		- other symmetries (which are highly explanatory of changes in the data set) include higher powers, as the higher powers of a function are good at forming a base function to apply specific changes to in order to find the specific customization of that base which applies to a greater ratio of the data set
         		- finding the opposite of these symmetries (lower powers) is possible to do efficiently if done locally, to find change rates that could be adjacently produced with lower powers, but finding the higher powers is still required and these cant be used to skip a high degree of computations
         		- checking 'exponents of identified local change types' is useful to find possible simpler/alternate adjacent functions (once x^3 is found to be true locally, x^4 and x^5 should be checked as well in adjacent or maximally different subsets)
+        		- as another example, the following equivalent alternate sets of insights make interface analysis trivial to identify:
+        		    - insight about multiple interfaces and automatability
+	        		    - 'concepts have structure'
+	        		    - 'information has structure'
+	        		    - 'problems have structure'
+	        		    - 'rules/functions have structure, and are therefore automatable'
+	        		    - 'objects with structure are automatable'
+	        		- insight about the interface concept itself:
+	        		    - 'problems are a matter of identifying similarities/differences'
+	        		    - 'most problems are resolvable with standards that make comparison tasks trivial'
+	        		- insight about the usefulness of each primary interface:
+	        		    - 'concepts can independently be used to solve a problem, without logic, information, or other primary interfaces, and without functions like "test" which would normally be involved in problem-solving'
+	        		    - 'primary interfaces like concepts/logic/information are equivalent alternates in that they can be used to solve a problem independently of each other in best cases'
+	        		- insight about the conceptual relevance of default/core structures
+	        		    - 'direction corresponds to the intent interface'
+	        		    - 'distance corresponds to the change interface and the similarity/difference interface'
+	        		    - 'surrounding structures correspond to the system context interface'
+	        		    - 'alternate possible structures correspond to the potential interface'
+	        		    - 'angles correspond to the perspective interface'
+	        		    - 'chainable functions correspond to the logic and function interface'
+	        		- insight about how cross-interface structures are more useful
+	        		    - 'concepts are only clear when you have an example (such as the variant of the concept in physical reality or in a particular problem) if you dont know the whole definition'
+	        		    - 'concept-structure structures are more powerful than either on their own'
+	        		- insight about multiple perspectives and simlarities/differences being related to formats (which are like interfaces)
+	        		    - 'different formats make different intents trivial'
+	        		    - 'everything can be differentiated by changing perspective'
+	        		    - 'a perspective is like a filter/standard/format'
+	        		    - 'everything is similar to everything else'
+	        		    - 'variables/functions are related to interfaces as they change within a defined limit'
+	        		    - 'similarities in differences make problems trivial (similar to the comparison insight above)'
+	        		    - 'standardizing to the same format makes some problems trivial to solve, as it highlights meaningful differences'
+	        		    - 'some standards/formats (logic/concepts) are useful structures (interfaces)'
+	        		- insight about useful graph structures
+	        		    - 'some graph structures are more powerful than others, such as networks, maps, trees, sequences, etc'
+	        		    - 'the differences between these useful structures involve objects (variables/functions) in the graphs, connection functions (like similarity or interaction function), and the structure variables like direction (in causal networks, for example)'
+	        		    - 'a graph of graphs (like the interface interface, or the meaning interface) is a useful structure to organize these variables'
+
             - identifying interface structures like 'efficiencies' that align with regression problem space structures such as 'symmetries' or 'densities' by relevant structures like 'causes' ('this point is a hub' meaning 'a lot of inputs created this output bc it was particularly efficient for something') and identifying functions to connect those interface structures with causes that can be mapped to other variable sets (other efficiencies can be generated and checked for, once the reason of 'efficiency' is known as a cause of some 'variable interaction structure'), meaning other relevant useful 'low-cost, high-reward uses of inputs' for known intents can be hypothesized and checked for in the data set to determine the prediction function, as well as 'other causes of efficiency such as energy limits, which could cause other structures related to energy like power imbalances, power concentrations/compoundings, power takeovers, power dispersions, power vacillations, etc'
                 - this is useful bc structures like 'efficiencies' are related to 'symmetries' and other specific useful structures in the regression problem space like 'densities' in their usefulness for predicting/explaining/limiting change
             - identifying useful structures like 'questions to answer (like "where does change change") to solve different sub-problems of the problem (like "how to divide the data set into subsets which are likely to contain different change types/rates/degrees/etc")' which make the rest of the problem trivial (makes solving the other sub-problems like "find the most different subsets (which could possibly contradict a function for another subset)" trivial) and identify the sub-problems they make trivial, and filter these by which subsets of sub-problems can replace other subsets or the whole set for some metric like 'finding an approximation of the solution'
