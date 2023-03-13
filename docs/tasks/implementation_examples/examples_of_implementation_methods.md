@@ -368,7 +368,7 @@
 	        		    - 'problems have structure'
 	        		    - 'rules/functions have structure, and are therefore automatable'
 	        		    - 'objects with structure are automatable'
-	        		- insight about the interface concept itself:
+	        		- insight about the interface concept itself
 	        		    - 'problems are a matter of identifying similarities/differences'
 	        		    - 'most problems are resolvable with standards that make comparison tasks trivial'
 	        		- insight about the usefulness of each primary interface:
@@ -384,6 +384,17 @@
 	        		- insight about how cross-interface structures are more useful
 	        		    - 'concepts are only clear when you have an example (such as the variant of the concept in physical reality or in a particular problem) if you dont know the whole definition'
 	        		    - 'concept-structure structures are more powerful than either on their own'
+	        		- insight about how some variables are more powerful at more useful tasks (like explaining/describing/generating/determining) than others
+	        		    - 'there are variables that are more powerful than others, like the general variable of cause, which is highly explanatory'
+	        		    - 'there are equivalent alternates that are useful to know (explaining/describing/generating/determining intents, or find/build/derive intents)'
+	        		    - 'cause is also good at these equivalent alternate intents'
+	        		    - 'cause has an equivalent alternate in that logic can replace its value in these intents'
+	        		- insight about how some structures are more generally useful across problems
+	        		    - 'structures like rotations, similarities, and limits keep re-occurring across problem-solving methods'
+	        		    - 'these structures are different types of objects like math objects, standard objects, and system objects'
+	        		- insight about finding the 'most reduced set of useful/important structures'
+	        		    - 'if you try to reduce language to the most useful structures, youll find structures like inconsistencies, perspectives, requirements, etc'
+	        		    - 'the most variation-capturing variables of these useful structures are the bases where the others can exist, like differences/errors, structures, or functions'
 	        		- insight about multiple perspectives and simlarities/differences being related to formats (which are like interfaces)
 	        		    - 'different formats make different intents trivial'
 	        		    - 'everything can be differentiated by changing perspective'
@@ -397,6 +408,7 @@
 	        		    - 'some graph structures are more powerful than others, such as networks, maps, trees, sequences, etc'
 	        		    - 'the differences between these useful structures involve objects (variables/functions) in the graphs, connection functions (like similarity or interaction function), and the structure variables like direction (in causal networks, for example)'
 	        		    - 'a graph of graphs (like the interface interface, or the meaning interface) is a useful structure to organize these variables'
+                - most of these have common variables, such as including 'known common useful structures', applying common useful intents like 'reduce/connect/compare', identifying structures that are relevant to 'problems', etc
 
             - identifying interface structures like 'efficiencies' that align with regression problem space structures such as 'symmetries' or 'densities' by relevant structures like 'causes' ('this point is a hub' meaning 'a lot of inputs created this output bc it was particularly efficient for something') and identifying functions to connect those interface structures with causes that can be mapped to other variable sets (other efficiencies can be generated and checked for, once the reason of 'efficiency' is known as a cause of some 'variable interaction structure'), meaning other relevant useful 'low-cost, high-reward uses of inputs' for known intents can be hypothesized and checked for in the data set to determine the prediction function, as well as 'other causes of efficiency such as energy limits, which could cause other structures related to energy like power imbalances, power concentrations/compoundings, power takeovers, power dispersions, power vacillations, etc'
                 - this is useful bc structures like 'efficiencies' are related to 'symmetries' and other specific useful structures in the regression problem space like 'densities' in their usefulness for predicting/explaining/limiting change
