@@ -5,7 +5,8 @@
     - combinations of useful intents (such as those that are relevant/realistic) as a default interface to base changes on, finding the functions to fulfill them at query time, as implementation variables
     - structures of relevant cross-interface structures as a default structure to apply changes to
         - for example, 'patterns of causal structures of structures of structures' (like the patterns of cause of 'a sequence of structures that develops from another structure')
-	- functions that act like useful filters of relevant information, such as:
+	
+	- functions that act like useful/powerful filters of relevant information, such as:
 	    - a function that can determine an attribute like 'input change type' that reveals similarity/difference of a relevant structure, like 'output change type (integer)'
 	    - more generally, a function that can determine attributes that reveal 'information about a lot of other information'
 	    	- such as how an 'average data point' reveals 'a lot of information about other data points (in that most of them will be near the average)' and an 'extreme/limit of a range of data points' reveals 'a lot of information about other data points (in that most of them will be within that range)'
@@ -17,7 +18,8 @@
 	            - these structures are extremely useful/relevant to many useful intents like 'determine truthhood of a statement (test if a solution is correct)', 'filter out sub-optimal/error statements/solutions', 'classify a statement as true/false or another information type'
 	            - these structures occur on different interfaces and have the 'certainty' attribute in common, making them corresponding 'certainty' structures on different interfaces
 	        - similarly, other structures can be framed as 'high information embedding structures' such as 'function subsets that act as implementation methods of interface analysis', 'the set of efficient compressions of reality', 'the maximally different variable structure where any problem difference is easily connectible with a query on the structure', the 'optimal set of interface queries that solve most problems adjacently or otherwise optimally'
-	        
+            - similarly, concepts & other primary interface variables can be framed as 'high information-storing/embedding' structures which are powerful through these functions and similarly offer high ratios of information (knowing the concepts related to a structure gives a high ratio of information compared to non-primary interface metrics)
+
 	- a function set to determine the meaning of an interface query is useful as a 'reverse-engineering' implementation method
 	    - for example, the requirements would be a function to generate all possible/legitimate interface queries and a function to determine the meaning of each query
 	    - where the meaning of a query is described as the impact of the query on other relevant structures like problems and the connections like similarities/differences to other queries like on metrics like cross-problem solvabiility
@@ -470,6 +472,19 @@
 	        		    - 'some graph structures are more powerful than others, such as networks, maps, trees, sequences, etc'
 	        		    - 'the differences between these useful structures involve objects (variables/functions) in the graphs, connection functions (like similarity or interaction function), and the structure variables like direction (in causal networks, for example)'
 	        		    - 'a graph of graphs (like the interface interface, or the meaning interface) is a useful structure to organize these variables'
+                    - insight about how primary concepts are powerful 
+                        - 'simplicity/complexity' corresponds to a primary 'difference-resolution or connection' function, so it corresponds to a primary 'problem-solving' function, as problems' default format is a 'difference to resolve', bc a problem can be solved by making it simpler or finding functions that in general simplify other variable interaction functions
+                        - other attributes which can describe any structure also correspond to primary difference-resolution and problem-solving functions (like 'work', 'intent', 'potential', 'change', etc)
+                        - for example, 'changing an existing solution to a similar problem' is a default problem-solving and difference-resolution function
+                        - what other primary abstract concepts can be used to resolve differences (solve problems)?
+                            - 'balance' can be used as a primary problem-solving function in the form of 'balancing extremes, as extremes often lead to errors like over-prioritization errors or scaled errors', which translates to a problem-solving function like 'balance the maximum differences in a problem to find a more general/stable format of the inputs which is likelier to be correct (a solution)' or 'find functions that are adjacent/interim to a high ratio of information'
+                            - 'power' can be used as a primary problem-solving function in the form of 'finding functions that can reduce the work of all other functions, making these functions more powerful' or 'find functions that store high ratios of information'
+                            - 'potential' can be used as a primary problem-solving function in the form of 'finding functions that can interact with the highest ratio of other functions, making these functions higher potential in the higher variability of their interactions' or 'find functions that have a high ratio of usage functions (can find/build/derive a high ratio of information)'
+                            - 'intent' can be used as a primary problem-solving function in the form of 'finding functions that determine what other functions are used for (intents) and what theyre useful for (adjacently/optimally fulfilled intents)' or 'find functions that are more useful for a high ratio of information-related intents (like information storage)'
+                            - 'cause' can be used as a primary problem-solving function in the form of 'finding functions that identify input/output (causal) sequences of connected variables (such as why a function is useful, as in the reasons the optimally fulfilled function intents develop to be common, such as the efficiency of using the functions and the commonness of the requirement of their outputs)' or 'find functions that cause a high ratio of information'
+                            - 'abstraction' can be used as a primary problem-solving function in the form of 'finding functions that can store/embed most variables adjacently' or 'find functions that can support a high ratio of information'
+                        - given how these concepts interact with information (can store a high ratio of information or otherwise are useful for information-related intents), the structure of an interface emerges
+                        - the primary abstract concepts (power, balance, complexity, stability) offer good candidates for interfaces bc of the fact that they are high information/variation-storing and every structure has these attributes in some way, so they are a way to access different fields of connections (differences/similarities) to other structures
 
                 - most of these have common variables, such as including 'known common useful structures', applying common useful intents like 'reduce/connect/compare', identifying structures that are relevant to 'problems', applying interface structures as a useful compression/explanation/other intent fulfillment structure, etc
                     - they differ in their method structure variables, such as how 'identifying the type of object that a useful structure is' differs from other insight sets in that it applies a bottom-up direction (generalize from specific examples) from a 'specific' starting point
