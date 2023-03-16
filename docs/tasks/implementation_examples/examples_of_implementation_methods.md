@@ -218,10 +218,12 @@
 
         - implementation methods
             - finding the 'healthy gene sets required for a normal healthy bio-system in most people' and making sure dna edits dont change those required gene sets for health
-                - finding mutations that help optimize existing systems, like 'gene sets that make antibodies more trivial to create and more optimal/effective to help the immune system'
+                - similarly, finding mutations that help optimize existing systems, like 'gene sets that make antibodies more trivial to create and more optimal/effective to help the immune system'
             - finding mutations that mimic or match patterns of or are otherwise similar to 'natural healthy evolution dna edits (like those that improve stress-handling response or immune function)' as opposed to 'illness-causing dna edits' and restricting changes within the found range of dna edits on some graph where these regions of evolutionary or otherwise healthy mutations are adjacent
+                - similarly, formatting genetic information on a useful high variation-capturing interface like the stress interface, so that some illness-causing mutation is adjacent to others bc of the bio-system stress they cause or the stress which is required for them to become a problem
             - some genetic changes can be 'tested' in the sense that side effects are probable/known to be 'increasing from zero' and 'initially non-fatal' to a degree that there is enough time to reverse them with an opposing or de-scaling mutation virus after if side effects indicate a negative health state change, or altered to an interim state that is less strong in the metric that caused the state change, to allow for a tuning process of changes during testing
-            
+            - finding stressors that reverse dna mutations (on the assumption that there is a stressor that can reverse any mutation) and find a sequence of stressors that is survivable in most patients for the illness-reversing mutations these stressor produce
+
 	- finding a function set that 'converts/connects interface structures to/with other interface structures' is a function set that can generate all other useful interface structures bc the primary interfaces already identify the primary directions of change (similar to cardinal directions) and functions that can generate one from the other can identify the full set as well as identifying the differentiating variables embedded on those interfaces
 	    - interfaces can be defined alternately as 'structures which can cover/support/capture the information of reality like a continuous field/fabric'
 	- for the intent of 'finding useful spaces'
