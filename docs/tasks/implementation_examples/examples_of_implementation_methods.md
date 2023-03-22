@@ -471,6 +471,10 @@
                 - apply standardization, to identify highly differentiating variables on highly similarizing variables to determine/visualize the differences from how these 'differences in similarities' differ from other known structures of 'differences in similarities')
                 - identify some subset/variable of it that probably retains/stores a high degree of variation and determining/visualizing that instead
 
+        - identifying specific maps to connect known useful interface structures
+            - for example, knowing which variables (like an extreme difference in outputs of adjacent input) produce which attributes (descriptive attributes like volatility) is useful for mapping these structures/intents
+            - similarly, knowing functions which oppose/offset this attribute (like a function to make a graph un-volatile) can be checked for in the data set to predict that attribute in the output
+
         - similarly, the rules of brain structure interactions, which reflect interface structures such as truths (like 'differences in similarities' as 'random electrical activity in hyper-connected component brain regions')
         	- https://science.slashdot.org/story/23/03/21/2219254/psychedelic-brew-ayahuascas-profound-impact-revealed-in-brain-scans
         - similarly, the related concepts of 'independence/orthogonality/non-intersectiveness' in math is analogous to useful interface structures like 'maximal differences' (such as differences in 'maximal difference-uniting symmetries' like cross-interface structures like 'cross-system similarities')
