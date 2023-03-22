@@ -133,6 +133,10 @@
 
 		- identify structures that always describe some variable interaction when in different formats, which can be applied as default variable interaction structures to check for
 		    - for example, there is always a 'self-similar unit effect (like a domino effect) on some interaction level where that structure is a unit, that when repeated up to a threshold, explains some other variable', so checking for 'domino effects' is a structure to generate from inputs & look for in outputs, just like there is a 'halting effect' placing limits on repetitions, and there is always an 'interface interaction structure' that can be checked for, even if these patterns/outputs arent always fully-developed/detectable at every point
+		    - relatedly, generating the structures between these known required/probable structure is useful to identify interim states
+
+		- identify/generate structures that can act as default/core/component structures of useful structures like 'filters' to apply as default useful structures
+		    - for example, a 'filter' might take the form of a 'barrier with openings that allow some subset of possible inputs to pass all the way through', or a 'set of cage-like structures that can trap excluded structures rather than being specifically designed to only allow inputs of some shape' or a 'sequence of tests that remove functionality/attributes of excluded structures so they cant move/change further or so they dissolve' or 'some structure that moves different structures to different positions', which are default structures to look for when fulfilling intents like 'identify filters', as they fulfill sub-intents of filters in various ways
 
 		- applying useful reality representation structures such as 'metaphors (similar/relevant but different/inaccurate structures to format something differently in a useful way to achieve understanding)'
 		
