@@ -26,6 +26,9 @@
         - the 'map structure' connecting a 'multi-task function' to an 'undifferentiated structure adjacent to specialized structures' is useful in that it can connect other useful intents with specific implementation structures
         - finding a 'specialized structure that is optimal for some specific task, which is also useful for tasks in general or multiple other tasks' is rare bc few tasks require enough functions that the inputs to the functions also cover many other function inputs and usually involves interface structures and/or high degrees/amounts of computation/data
            - finding structures which 'adjacently generate the highest ratio of function inputs' is similarly a useful specific intent to fulfill, as a specific implementation of the 'multi-task function' structure
+           - relatedly, as mentioned previously, finding structures which are 'sufficiently similar to every useful structure that they can adjacently generate it' is another useful specific intent to fulfill
+           - relatedly, finding 'overlapping functions having some functionality in common (as the metric of function similarity)' is another specific intent to fulfill which can derive the 'multi-task function' on its own
+           - relatedly, finding the 'maximally different structure' is likely to be able to be useful for multiple intents, which is another way to find multi-task structures
         - the 'map structure' connecting a 'find useful structures' intent with a 'multi-task function' is similarly useful
         - this is a specific example of a 'function-intent map' structure which is highly useful across problems
 
