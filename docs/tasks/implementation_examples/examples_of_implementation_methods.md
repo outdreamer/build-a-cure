@@ -20,6 +20,15 @@
 	        - similarly, other structures can be framed as 'high information embedding structures' such as 'function subsets that act as implementation methods of interface analysis', 'the set of efficient compressions of reality', 'the maximally different variable structure where any problem difference is easily connectible with a query on the structure', the 'optimal set of interface queries that solve most problems adjacently or otherwise optimally'
             - similarly, concepts & other primary interface variables can be framed as 'high information-storing/embedding' structures which are powerful through these functions and similarly offer high ratios of information (knowing the concepts related to a structure gives a high ratio of information compared to non-primary interface metrics)
 
+    - identifying the map of 'structures that are optimally useful in some metric' and the 'specific structures which can implement them adjacently or with high probability of success or some other solution metric'
+        - for example, the 'multi-task' structure is useful, where some function fulfills multiple very different intents optimally
+        - specific structures which can implement this functional attribute adjacently include 'undifferentiated structures' (similar to how stem cells are useful through being 'sufficiently similar/adjacent to multiple specialized structures that they can easily become those structures' (occupying some position in between other structures which are optimized for some specific intent, as opposed to being generally useful but suboptimal)
+        - the 'map structure' connecting a 'multi-task function' to an 'undifferentiated structure adjacent to specialized structures' is useful in that it can connect other useful intents with specific implementation structures
+        - finding a 'specialized structure that is optimal for some specific task, which is also useful for tasks in general or multiple other tasks' is rare bc few tasks require enough functions that the inputs to the functions also cover many other function inputs and usually involves interface structures and/or high degrees/amounts of computation/data
+           - finding structures which 'adjacently generate the highest ratio of function inputs' is similarly a useful specific intent to fulfill, as a specific implementation of the 'multi-task function' structure
+        - the 'map structure' connecting a 'find useful structures' intent with a 'multi-task function' is similarly useful
+        - this is a specific example of a 'function-intent map' structure which is highly useful across problems
+
 	- a function set to determine the meaning of an interface query is useful as a 'reverse-engineering' implementation method
 	    - for example, the requirements would be a function to generate all possible/legitimate interface queries and a function to determine the meaning of each query
 	    - where the meaning of a query is described as the impact of the query on other relevant structures like problems and the connections like similarities/differences to other queries like on metrics like cross-problem solvabiility
