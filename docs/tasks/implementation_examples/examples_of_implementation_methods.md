@@ -29,8 +29,12 @@
            - relatedly, as mentioned previously, finding structures which are 'sufficiently similar to every useful structure that they can adjacently generate it' is another useful specific intent to fulfill
            - relatedly, finding 'overlapping functions having some functionality in common (as the metric of function similarity)' is another specific intent to fulfill which can derive the 'multi-task function' on its own
            - relatedly, finding the 'maximally different structure' is likely to be able to be useful for multiple intents, which is another way to find multi-task structures
+           - relatedly, finding the structures which are useful across problems, like 'formats which standardize other structures, so that one function can be re-used and useful across different inputs once formatted' are similarly likely to be useful in finding 'multi-task' structures, as 'standardizing formats' compound the usefulness of functions that are useful in the output format
+        - identifying the concept of a 'adjacent structure to other useful structures which can be parameterized and these parameters changed to produce other useful structures' is adjacent to the structures of 're-using an existing solution' and 'approximate solutions which are adjacent to optimal solutions'
         - the 'map structure' connecting a 'find useful structures' intent with a 'multi-task function' is similarly useful
         - this is a specific example of a 'function-intent map' structure which is highly useful across problems
+        - similarly, identifying the map of 'error structures' and 'specific structures implementing that error' is similarly useful
+            - for example, the 'invisible information' structure is useful as an example of a 'missing information' error, in comparison to other 'error structure implementation examples' like 'unmeasurable information', 'corrupted information', etc
 
 	- a function set to determine the meaning of an interface query is useful as a 'reverse-engineering' implementation method
 	    - for example, the requirements would be a function to generate all possible/legitimate interface queries and a function to determine the meaning of each query
