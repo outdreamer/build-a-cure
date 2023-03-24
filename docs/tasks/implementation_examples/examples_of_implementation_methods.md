@@ -19,6 +19,7 @@
 	            - these structures occur on different interfaces and have the 'certainty' attribute in common, making them corresponding 'certainty' structures on different interfaces
 	        - similarly, other structures can be framed as 'high information embedding structures' such as 'function subsets that act as implementation methods of interface analysis', 'the set of efficient compressions of reality', 'the maximally different variable structure where any problem difference is easily connectible with a query on the structure', the 'optimal set of interface queries that solve most problems adjacently or otherwise optimally'
             - similarly, concepts & other primary interface variables can be framed as 'high information-storing/embedding' structures which are powerful through these functions and similarly offer high ratios of information (knowing the concepts related to a structure gives a high ratio of information compared to non-primary interface metrics)
+            - similarly, some structures are 'sufficiently different to some specific structures (as in different from simple structures enough to be capable of handling stress/complexity/embedded variables)' and 'sufficiently similar to other structures (like input information, as they preserve info)' that they are more probable, and likelier to be legitimate/real/truth structures than other structures
 
     - identifying the map of 'structures that are optimally useful in some metric' and the 'specific structures which can implement them adjacently or with high probability of success or some other solution metric'
         - for example, the 'multi-task' structure is useful, where some function fulfills multiple very different intents optimally
@@ -34,7 +35,7 @@
         - the 'map structure' connecting a 'find useful structures' intent with a 'multi-task function' is similarly useful
         - this is a specific example of a 'function-intent map' structure which is highly useful across problems
         - similarly, identifying the map of 'error structures' and 'specific structures implementing that error' is similarly useful
-            - for example, the 'invisible information' structure is useful as an example of a 'missing information' error, in comparison to other 'error structure implementation examples' like 'unmeasurable information', 'corrupted information', etc
+            - for example, the 'invisible information' structure is useful as an example of a 'missing information' error, in comparison to other 'error structure implementation examples' like 'unmeasurable information', 'corrupted information', etc, which are related but different concepts and are useful to differentiate
 
 	- a function set to determine the meaning of an interface query is useful as a 'reverse-engineering' implementation method
 	    - for example, the requirements would be a function to generate all possible/legitimate interface queries and a function to determine the meaning of each query
@@ -190,6 +191,7 @@
 		    	- you can see how these 'interface structural similarities' (like an 'exponentially increasing subset') provide a useful constant base to apply changes to, to determine other possible structures and identify filters of those possible structures
 		    	- this is an embedded application of the 'interface' concept, which is clear in the usefulness of this 'similarity to base changes on'
 		    - similarly, using 'lifetime data with associated errors across a lifetime' to put a statement into perspective, or having 'civilization lifetime/trajectory' data as opposed to phrase/sentence/paragraph/story data, is likelier to connect information to more relevant structures (to answer questions like 'what problems were solved by a mind that regularly produced this thought')
+		    - similarly, including 'historical/prediction data of past/future truths' with answers such as 'additionally, next year, this will probably change x% and previously this was y%' to give context and only provide info that is immediately outdated but is likely to still be true the next time they run the query
 		- apply interaction levels ('adjacently connectible structures that interact/connect') as 'input information' or an 'information format' to neural networks (which fulfill the task of 'finding adjacent combinations to connect variables')
 	- applying a function to find interaction levels where the problem is solvable with adjacent combinations and the function to find those adjacent combinations once transformed to that interaction level
 	- iterating through filtered interface structure combinations and checking test cases of input/output pairs
@@ -564,6 +566,11 @@
         		- finding the opposite of these symmetries (lower powers) is possible to do efficiently if done locally, to find change rates that could be adjacently produced with lower powers, but finding the higher powers is still required and these cant be used to skip a high degree of computations
         		- checking 'exponents of identified local change types' is useful to find possible simpler/alternate adjacent functions (once x^3 is found to be true locally, x^4 and x^5 should be checked as well in adjacent or maximally different subsets)
         		- as another example, the following equivalent alternate sets of insights make interface analysis trivial to identify:
+        			- insight about variables of problem-solving
+        				- 'there are solution automation workflows (like trial and error)'
+        				- 'there are multiple workflows (there are others, like break a problem into sub-problems)'
+        				- 'this means there are variables of solution automation workflows'
+        				- 'these workflows interact with some objects like problems and have variables in common, like information requirements/interaction types/errors'
         		    - insight about multiple interfaces and automatability
 	        		    - 'concepts have structure'
 	        		    - 'information has structure'
