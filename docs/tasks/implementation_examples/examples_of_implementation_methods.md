@@ -46,6 +46,13 @@
 	    - for example, the requirements would be a function to generate all possible/legitimate interface queries and a function to determine the meaning of each query
 	    - where the meaning of a query is described as the impact of the query on other relevant structures like problems and the connections like similarities/differences to other queries like on metrics like cross-problem solvabiility
 
+    - identifying alternate formats that problems can be converted to, such as specific problems like 'finding ways information can be preserved/stored (problems formatted as a info storage problem)', 'finding all connections between useful structures (problems formatted as a problem of identifying useful structures and deriving them from each other)', 'finding all the ways information can be hidden (problems formatted as missing information)', is useful as an input to a change workflow to derive other useful structures related to these problem formats
+        - these alternate formats highlight different useful structures
+            - the problem of 'finding ways information can be preserved' highlights other useful structures like:
+                - the fact that info 'requires structure and also specific structures like connections to other information and limits on info storage'
+                - function attributes like consistency/predictability (since some functions vary on how predictable/consistent their outputs are)
+        - applying adjacent changes to useful structures such as 'applying them to each other' or 'applying them to known problems' adjacently identifies these other useful structures
+
 	- applying specific interface structures as a default constant set
 		- applying 'information' interface interaction rules of the 'physical reality' interface such as:
 			- 'truths can become false when over-depended on, beyond their appropriate context or meaning, or beyond their potential to illuminate or support other truths, or in an incorrect structure like a foundation for other truths'
@@ -54,6 +61,7 @@
 			- 'truths can be so unstable (difficult to maintain) as to be equivalent to false (example: a rare atomic state that degrades into another more stable state more frequently), as truths generally take less energy to maintain or make true, as lower energy-requiring structures are likelier to exist, and similarly scalable truths (which can be repeated or otherwise scaled without or with fewer contradictions) are more true than other truths'
 				- 'relatedly, truths, if prevented or destroyed, will re-occur if true, as its unlikely for a truth to occur in absolute isolation, only once, and simlarly can support more embedded variables if true than a falsehood can'
 			- 'truths are less likely to be extremely surprising/different, based on a comparison to an input set of sufficiently variable mixed facts'
+			- 'truths are less likely to be on either extreme of various spectrums like specificity (an extremely specific fact like a "specific behavior of how to be good" is less likely to be or remain true than a general fact like a generally useful priority like "being good")'
 			- 'truths are likelier to have truth-associated structures like costs, whereas a lie is likelier to have fewer of these structures (a lie about zero cost)'
 			- 'the ratio of truths to falsehoods is likely to be stable to some degree, because when a truth is measured and sustained enough to be measured, some other true structure might decay, although entropy is a powerful process that might act as a counterpoint to this, decreasing the number of truths (stable structures) over time'
 			- 'truths can be so difficult to measure/verify/calculate/derive as to be equivalent to false (example: number of atoms in the universe, or some phenomenon that occurs below the synchronized directed information frequency that constitutes 'time' that it cant be measured in isolation and can only be inferred by its emergent effects)'
