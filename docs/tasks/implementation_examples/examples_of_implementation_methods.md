@@ -569,6 +569,7 @@
         - other useful structure examples to apply as defaults given their higher probability for various reasons (adjacency to requirement, commonness, etc)
             - identifying non-useful structures to filter the set of useful structures
                 - for example, identifying what slopes are unlikely to describe a function (making extremely distant points falsely adjacent and vice versa, to determine the slopes that are unlikely to describe the function change rates)
+                - 'connections between a sparse subset of maximally different points (in their original positions)' is also a useful structure for intents like 'determining general maxima/minima of a function'
             - identifying points in between extreme errors/suboptimalities as the interim point that is more useful for more general intents while being generally sub-optimal as it doesnt specialize in optimization metrics
                 - for example, identifying algorithms with variables that allow 'complementary' best-case input scenarios that are optimized by various algorithms to maximize coverage of input cases in the combined algorithm using these algorithms as components/alternates given some input range
                 - for example, gradient descent is optimal in cases where local minima are good approximation of absolute minima and where the whole function is infeasible or inefficient to check
