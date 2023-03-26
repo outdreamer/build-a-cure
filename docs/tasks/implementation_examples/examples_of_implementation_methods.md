@@ -16,6 +16,10 @@
         - finding a 'reasonable' solution connection/function that has multiple reasons why it could be real/true (as it connects to multiple reasonable structures like relevant/useful/usage structures) is useful as a general problem-solving intent
         - this is particularly useful when information about possible/true structures is missing
 
+    - functions that can adjacently derive the concept of an 'interface' (given its usefulness) or other useful structures are useful for their proximity to useful structures
+        - for example, formatting the 'division' problem as a problem of finding a function that 'finds similarities (like a unit base) in the differences between the divided number and its divisor (like a similarity of the divided number or the divisor to some base like 10) that make the problem trivial to solve' applies the concepts of similarities/differences in a way that is proximal to the concept of other useful structures (like an interface)
+        - identifying functions that generate adjacent useful structures of useful structures is similarly useful as finding the direct functions of those useful structures, even though the variant isnt the exact definition of an interface or another useful structure, as they will approximate the usefulness of the useful structure if applied in that position
+
 	- functions that act like useful/powerful filters of relevant information, such as:
 	    - a function that can determine an attribute like 'input change type' that reveals similarity/difference of a relevant structure, like 'output change type (integer)'
 	    - more generally, a function that can determine attributes that reveal 'information about a lot of other information'
