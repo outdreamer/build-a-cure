@@ -25,6 +25,7 @@
         - the interface query of this sequence ('what is it used in', 'what is an interface of that', 'what is a relevant variant of that') is relatively simple and captures a high ratio of information about the variable connection
         - this isnt just a useful sequence for solving one problem, but it also connects structures to other structures in way that makes them reasonably connectible ('reasonable' connections involve 'intents', 'usages', 'foundations like interfaces', and 'relevant structures such as adjacent change structures', which are reasonable to use as defaults in determining reasonable/probable and therefore realistic connections)
         - finding a 'reasonable' solution connection/function that has multiple reasons why it could be real/true (as it connects to multiple reasonable structures like relevant/useful/usage structures) is useful as a general problem-solving intent
+        - finding interface structures like 'patterns' of interface queries that are reasonable (or otherwise 'make sense', 'sense' being 'similarity/equivalence to the truth/validity/other structures of truth') is similarly useful
         - this is particularly useful when information about possible/true structures is missing
 
     - functions that can adjacently derive the concept of an 'interface' (given its usefulness) or other useful structures are useful for their proximity to useful structures
@@ -94,6 +95,7 @@
 			- 'truths can be so rarely/improbably true as to be equivalent to false (example: an error state that is so rare you basically dont have to plan for it, like where neutrinos would coincidentally flip all the bits on a server at once)'
 			- 'truths can be so unstable (difficult to maintain) as to be equivalent to false (example: a rare atomic state that degrades into another more stable state more frequently), as truths generally take less energy to maintain or make true, as lower energy-requiring structures are likelier to exist, and similarly scalable truths (which can be repeated or otherwise scaled without or with fewer contradictions) are more true than other truths'
 				- 'relatedly, truths, if prevented or destroyed, will re-occur if true, as its unlikely for a truth to occur in absolute isolation, only once, and simlarly can support more embedded variables if true than a falsehood can'
+				- 'relatedly, truths must have some structures or they are unlikely to be true, such as how requirements (costs, responsibilities) are required or the structure is unlikely to be true'
 			- 'truths are less likely to be extremely surprising/different, based on a comparison to an input set of sufficiently variable mixed facts'
 			- 'truths are less likely to be on either extreme of various spectrums like specificity (an extremely specific fact like a "specific behavior of how to be good" is less likely to be or remain true than a general fact like a generally useful priority like "being good")'
 			- 'truths are likelier to have truth-associated structures like costs, whereas a lie is likelier to have fewer of these structures (a lie about zero cost)'
