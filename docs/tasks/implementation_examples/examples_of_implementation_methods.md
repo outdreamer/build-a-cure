@@ -6,6 +6,10 @@
     - structures of relevant cross-interface structures as a default structure to apply changes to
         - for example, 'patterns of causal structures of structures of structures' (like the patterns of cause of 'a sequence of structures that develops from another structure')
 
+    - formatting 'neural networks' (or 'regression') as a 'matching' problem, as in 'finding a subset of the network to start applying changes to inputs at, as some sub-structure of the network seems to fit inputs/outputs of the original data set adjacently, then injecting/removing nodes within or around that sub-structure as needed, or adding connectivity to other sub-sections/sequences of the network that seem adjacently useful'
+        - relatedly, deriving the 'probable change types (like some exponential change or directional change) or other interface structures' required to connect inputs/outputs of the original data set, finding a sub-structure of the network with those change types, and applying that sub-section as default initial changes, adding more or connecting more as needed to connect inputs/outputs approximately/completely
+        - similarly, finding 'optimizations' (such as 'approximations') of the 'regression' problem space (such as 'only finding the subsets with negative slope' or 'only finding subset filters and approximate local averages of those subsets and connections between those local averages') that can be applied to reduce the computations required
+
     - identifying patterns of 'reasonabilizing functions' that connect some structures in a way that makes sense (a 'common sense' function implementation)
         - for example, to connect the words 'sky' and 'encryption', you can use an interface query like:
             - 'what is encryption used in' (communication)
