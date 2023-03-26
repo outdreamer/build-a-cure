@@ -5,7 +5,17 @@
     - combinations of useful intents (such as those that are relevant/realistic) as a default interface to base changes on, finding the functions to fulfill them at query time, as implementation variables
     - structures of relevant cross-interface structures as a default structure to apply changes to
         - for example, 'patterns of causal structures of structures of structures' (like the patterns of cause of 'a sequence of structures that develops from another structure')
-	
+
+    - identifying patterns of 'reasonabilizing functions' that connect some structures in a way that makes sense (a 'common sense' function implementation)
+        - for example, to connect the words 'sky' and 'encryption', you can use an interface query like:
+            - 'what is encryption used in' (communication)
+                - 'what supports/enables communication (what is an interface on which communication can develop)' (network)
+                    - 'what is a variant of that interface which enables communication that is relevant to the target (sky)' (satellite network)
+        - the interface query of this sequence ('what is it used in', 'what is an interface of that', 'what is a relevant variant of that') is relatively simple and captures a high ratio of information about the variable connection
+        - this isnt just a useful sequence for solving one problem, but it also connects structures to other structures in way that makes them reasonably connectible ('reasonable' connections involve 'intents', 'usages', 'foundations like interfaces', and 'relevant structures such as adjacent change structures', which are reasonable to use as defaults in determining reasonable/probable and therefore realistic connections)
+        - finding a 'reasonable' solution connection/function that has multiple reasons why it could be real/true (as it connects to multiple reasonable structures like relevant/useful/usage structures) is useful as a general problem-solving intent
+        - this is particularly useful when information about possible/true structures is missing
+
 	- functions that act like useful/powerful filters of relevant information, such as:
 	    - a function that can determine an attribute like 'input change type' that reveals similarity/difference of a relevant structure, like 'output change type (integer)'
 	    - more generally, a function that can determine attributes that reveal 'information about a lot of other information'
