@@ -1,0 +1,173 @@
+- logarithm/exponential: both directions of unitary relations of values by multiplication
+- map: function connecting elements of one set to elements in another
+- commutativity: order-invariance
+- associativity: rearranging the parentheses in an expression will not change the result
+- distributivity: x(y + z) = xy + xz
+- transitivity: whenever R relates a to b and b to c, then R also relates a to c
+- reflexivity: a set that relates every element of X to itself is reflexive
+- antisymmetric: there is no pair of distinct elements of X each of which is related by R to the other
+- degenerativity: being a limiting case of a subset of objects which appears to be qualitatively different from/simpler than the rest of the class
+- isotropic: uniformity in all orientations
+- converse relation (transpose) of a binary relation: the relation that occurs when the order of the elements is switched in the relation
+- matrix: linear maps
+- linear map: a mapping between two vector spaces that preserves the operations of vector addition and scalar multiplication
+- confusion matrix: table of error types between actual/predicted values to identify performance of a prediction algorithm
+- topological space: the most general space which allows for the definition of limits, continuity, and connectedness
+	- examples are Euclidean spaces, metric spaces and manifolds
+    - geometrical space in which closeness is defined but cannot necessarily be measured by a numeric distance
+    - a set of points, with a topology, which can be defined as a set of neighbourhoods for each point that satisfy some rules regarding the concept of closeness
+- convex hull/closure of a shape: the smallest convex set that contains it
+- closure: a subset of points in a topology and the set of its limit/boundary points
+- norm: a function that measures the length of vectors
+- metric space: a set with a notion of distance between its elements, usually called points
+	- every metric space is also a topological space
+	- in a metric space, an open set is a set that, with every point P, contains all points that are sufficiently near to P
+- inner product: definition of a function so that a norm is defined, as well as other concepts like angle and orthogonality, having some attributes like order-symmetry (conjugate), linear first arguments, defined in positive values
+	- every finite-dimensional inner product space is also a Hilbert space
+    - for example, the euclidean vector space inner product (dot product): sum of sequential products of two sets (as an inner product, the product of Euclidean magnitudes of two vectors and the cosine of the angle between them)
+- cartesian product: set of all ordered pairs of two sets
+- homogeneity of a space (related to Lie groups, algebraic groups and topological groups): a homogeneous space for a group G is a non-empty manifold or topological space X on which G acts transitively such as the special case when the group G in question is the automorphism group (isometry group, diffeomorphism group, or homeomorphism group) of the space X, so that X is homogeneous bc it looks locally the same at each point, either in the sense of isometry (rigid geometry), diffeomorphism (differential geometry), or homeomorphism (topology)
+- configuration space (related to state/phase spaces)
+	- alternate definitions:
+		- in physics, these are used to describe the state of a whole system as a single point in a high-dimensional space
+		- in mathematics, they are used to describe assignments of a collection of points to positions in a topological space
+	- connections
+		- specifically, configuration spaces in mathematics are particular examples of configuration spaces in physics in the particular case of several non-colliding particles
+- singularity: point at which a given mathematical object is not defined, or a point where the mathematical object ceases to be predictable by its definition, such as by lacking differentiability or analyticity
+	- alternate definitions
+		- variant of a manifold (a structure without singularities) as points disrupting properties of manifolds
+- multiplicity: number of times an element is repeated in a multiset 
+- involution: function that is its own inverse
+- convolution: product (or other interaction function) between all possible combinations of attributes of two structures
+- lagrangian: system potential
+- hamiltonian: system energy
+- hilbert space:
+	- used for generalizing finite-space vector space operations to infinite-dimensional spaces
+- laplacian: sum of second partial derivatives of the function with respect to each independent variable
+- jacobian (jacobian matrix of function): a matrix all its first-order partial derivatives
+- Hessian matrix: a square matrix of second-order partial derivatives of a scalar-valued function, or scalar field
+	- describes the local curvature of a function of many variables
+- gauge: a selection of a change-reflecting sub-section of some principal bundle
+- kernel of a linear map: the set of input vector elements that map to zero in the output vector space given the linear map
+- module: generalization of a vector space, where the field of scalars is replaced by a ring
+	- alternate definitions: 
+		- a module generalizes also the notion of abelian group, since the abelian groups are exactly the modules over the ring of integers
+		- like a vector space, a module is an additive abelian group, and scalar multiplication is distributive over the operation of addition between elements of the ring or module and is compatible with the ring multiplication
+	- connections
+	    - modules are very closely related to the representation theory of groups
+- moduli space of possible solutions found by applying limiting filters
+- scheme: an expansion of algebraic variety by allowing for multiplicities (the equations x = 0 and x^2 = 0 define the same algebraic variety, but different schemes) and allowing "varieties" defined over any commutative ring (for example, Fermat curves are defined over the integers)
+	- alternate definitions:
+		- scheme: a topological space together with commutative rings for all of its open sets, which arises from gluing together spectra (spaces of prime ideals) of commutative rings along their open subsets
+		- scheme: a ringed space which is locally a spectrum of a commutative ring
+- sheaf (of sets, rings)
+	- usage: 
+		- a differentiable manifold or a scheme can be expressed in terms of a sheaf of rings on the space, where vector bundles or divisors are naturally specified in terms of sheaves
+		- sheaf cohomology provides a powerful link between topological and geometric properties of spaces
+		- sheaves provide the basis for d-modules (a module over a ring D of differential operators)
+- projection: extension of a Euclidean space (or generally an affine space with points at infinity) so there is one point at infinity of each direction of parallel lines
+	- derivation: visual effect of perspective, where parallel lines seem to meet at infinity
+- homography: isomorphism of projective spaces, induced by an isomorphism of the vector spaces from which the projective spaces derive
+	- alternate definitions: a bijection that maps lines to lines, and thus a collineation
+- bundle: generalization of a fiber bundle without requiring a local product structure, which requires that the bundle has a topology, unlike fiber bundles where the fibers must all be isomorphic (in the case of vector bundles) and homeomorphic
+- preimage or inverse image of a set: the subset (of inputs) corresponding to a subset (of a 'singleton' output), these input-outputs related by a map on the set
+	- example: for the function f(x) = x^2, the inverse image of {4} is {-2, 2}
+- singleton: a set with exactly one element
+- fiber (fiber of 'the element y in the set Y', under a map f: X -> Y) is the inverse image of the singleton {y} under f
+- category: collection of "objects" that are linked by "arrows", with the ability to compose the arrows associatively and the existence of an identity arrow for each object
+	- for example, the category of sets, whose objects are sets and whose arrows are functions
+- algebraic variety as a set of solutions to a system of equations
+- genus: number of "holes" of a surface
+	- example:  A sphere has genus 0, while a torus has genus 1
+- torus: surface of revolution, generated by revolving a circle in 3-d space about an axis that is coplanar with the circle
+- sieve: a way of choosing arrows (in a category) with a common codomain (output range)
+	- alternate definitions: a categorical analogue of a collection of open subsets of a fixed open set in topology
+- site: category with a choice of Grothendieck topology
+- Grothendieck topology: a structure on a category C that makes the objects of C act like the open sets of a topological space
+- lower set: a subset S of X where any element x of X where x <= (some element of S) is necessarily also an element of S
+- directed set: nonempty set A together with a reflexive and transitive binary relation (a preorder <=, called a direction), where every pair of elements also has an upper bound
+- ideal: a particular lower, non-empty, directed subset of a partially ordered set 
+- preorder: binary relation that is reflexive and transitive
+	- connections
+		- preorders are the generalization of equivalence relations and (non-strict) partial orders
+	- examples:
+		- an antisymmetric preorder is a partial order
+		- a symmetric preorder is an equivalence relation
+- filter: particular subset of a partially ordered set (poset)
+	- usage: used in order and lattice theory and topology
+	- connections:
+		- dual notion of a filter: order ideal
+		- concept obtained by reversing all ≤ and exchanging ∨ and ∧
+- net: generalization of a sequence that unites the various notions of limit used in analysis
+	- directed sets are used to define nets
+- lattices: a partially ordered set in which every pair of elements has a unique supremum (also called a least upper bound or join) and a unique infimum (also called a greatest lower bound or meet) 
+	- alternate definitions:
+		- directed sets that both upward and downward directed
+	- examples:
+	    - power set of a set, partially ordered by inclusion, for which the supremum is the union and the infimum is the intersection
+	    - natural numbers, partially ordered by divisibility, for which the supremum is the least common multiple and the infimum is the greatest common divisor
+- quanta: minimum physical quantities involved in an interaction
+- quantization: connecting a classical physics theory to quantum physics
+- polytope: geometric object with flat sides
+- simplex: simplest possible polytope in any given dimension (generalization of a triangle)
+- simplicial complex: set composed of points, line segments, triangles, and their n-dimensional counterparts
+- spectrum: condition or value that is not limited to a specific set of values but can vary infinitely within a continuum
+- Hodge structure (of integer weight n): abelian group and a decomposition of its complexification into a direct sum of complex subspaces H(p,q), where p + q = n, where the complex conjugate of these subspaces is H(q,p).
+- cover of a set X: family of subsets of X whose union is all of X
+-  indexed family: mathematical function together with its domain I and image X (indexed families and mathematical functions are technically identical, just point of views are different), where I is not required to be countable
+	- alternate definitions
+		- collection of objects, each associated with an index from some index set
+		- collections of indexed elements instead of functions
+	- examples
+		- a family of real numbers, indexed by the set of integers, is a collection of real numbers, where a given function selects one real number for each integer (possibly the same) for indexing
+		- sequences are one type of families indexed by natural numbers
+		- an uncountable family of subsets of the natural numbers indexed by the real numbers
+- topology: any distance/metric that allows defining continuous deformations of subspaces (deformations such as homeomorphisms and homotopies)
+- topological property: property that is invariant under such deformations allowed by a topology
+	- examples
+		- dimension, which allows distinguishing between a line and a surface
+		- compactness, which allows distinguishing between a line and a circle
+		- connectedness, which allows distinguishing a circle from two non-intersecting circles
+- topological space: set with a topology (which allows defining continuous deformation of subspaces, and generally all kinds of continuity)
+	- examples
+		- Euclidean spaces and metric spaces are examples of a topological space, as any distance or metric defines a topology
+- manifold:  topological space that locally resembles Euclidean space near each point
+    - specification: an n-dimensional manifold is a topological space, where each point has a neighborhood that is homeomorphic to an open subset of n-dimensional Euclidean space.
+    - examples: one-dimensional manifolds include lines and circles, but not lemniscates. Two-dimensional manifolds are also called surfaces. Examples include the plane, the sphere, and the torus, and also the Klein bottle and real projective plane.
+    - alternate definitions
+    	- a structure without singularities
+    - usage: manifolds allow complicated structures to be described in terms of topological properties of simpler spaces
+    - equivalences: 'solution sets of systems of equations' and 'graphs of functions' can also be defined as manifolds
+    - variants: manifolds can be equipped with additional structure
+        - variant examples: 
+        - differentiable manifolds; their differentiable structure allows calculus to be done
+        - Riemannian metric on a manifold allows distances and angles to be measured
+        - symplectic manifolds serve as the phase spaces in the Hamiltonian formalism of classical mechanics
+        - 4-d Lorentzian manifolds model spacetime in general relativity, where tangent vectors can be classified as timelike, null, and spacelike, as a differentiable manifold with a metric tensor that is everywhere nondegenerate (a generalization of a Riemannian manifold without requiring positive-definiteness)
+            - example connection: every tangent space of a pseudo-Riemannian manifold is a pseudo-Euclidean vector space.
+- homotopy: the continuous deformation of one continuous function from a topological space into another continuous function from the topological space
+- morphism: a default/natural or exclusive definition mapping
+- isomorphism: inverse-reversible, structure-preserving mapping between two structures of a type
+- isometry: isomorphism of metric spaces
+- automorphism: isomorphism from a structure to itself
+- homeomorphism: isomorphism of topological spaces
+- diffeomorphism: isomorphism of spaces having a differential structure (typically differentiable manifolds)
+- symplectomorphism: isomorphism of symplectic manifolds
+- permutation: automorphism of a set
+- affinity: parallel-preserving map that doesnt necessarily preserve angles/distances
+- geodesic: generalization of a line, as a shortest distance between points
+- group: automorphisms of an algebraic structure form a group
+	- non-empty set and an operation that combines any two elements of the set to produce a third element of the set, in such a way that the operation is associative, an identity element exists and every element has an inverse
+    - lie group: group that is also a differentiable manifold
+- field: set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and real numbers do
+	- example: field of rational numbers, the field of real numbers, the field of complex numbers, fields of rational functions, algebraic function fields, algebraic number fields, and p-adic fields 
+	- usage: any field may be used as the scalars for a vector space
+- field of sets: a pair consisting of a set X, and a family of subsets of X called an 'algebra over X' that contains the empty set as an element, and is closed under the operations of taking complements in X, finite unions, and finite intersections
+- physics field: a physical quantity, represented by a scalar, vector, or tensor, that has a value for each point in space and time
+- ring: a set with multiplication/addition defined, with similar properties to those operations defined for the integers
+- prime ideals of the integer ring: the set of multiples of a prime (when over the ring of the integers)
+- open sets: similarity in relation to some threshold with inclusivity of the boundary set
+
+- non-canonical definitions of other concepts
+	- redundant parameters: parameters reducible with some symmetry
+	- sets: a tile depending on closedness
