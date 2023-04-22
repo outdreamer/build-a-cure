@@ -4,6 +4,16 @@
 
     - a default implementation method is to use existing workflows in this repo as configuration and writing a function to apply a workflow to an 'input problem space'
 
+    - identifying useful structure sets and connections between them, such as how alternative structures can often be combined with an additive usefulness
+        - identifying connections of interface structures like 'causes/inputs of a problem' with structures like 'adjacent/existing resources as invalidating/opposing inputs of those problematic causes/inputs' is useful as a common interface structure set that appears in problem-solving processes in a useful way
+        - example: moving co2/methane so they cant create the greenhouse effect is a more adjacent target than pushing them farther away so they disperse in outer space or compressing them and storing them in the ocean, so tech like lasers can be used to move/separate the gases so they dont have that side effect, as the 'compression/adjacency' of these gases/molecules is the problem creating the side effect of 'trapping heat'
+        - specifying this set of interface structures to make it more useful can be done by applying filters (like 'are functions available, or likely to be available given other interface structures like common interaction functions, that can move/separate molecules/clouds of these elements')
+        - connecting 'adjacent resources' with 'one of the causes of the problem' is useful as a structure to start from, to specify with filters
+        - alternate structures are useful to identify such as 'find functions that are more possible (moving horizontally into non-heat trapping structures), if other functions are known to be less possible (moving outward toward outer space)'
+        - similarly, other alternate structures like 'core structures with opposite functions of the problematic functions' ('different configurations of molecules that dont trap heat') are useful to identify as alternatives and optimizations of this workflow
+        - 'more adjacent/possible functions (moving in a different direction)', 'opposite-function core structures (molecular/relevant/core differences)' (useful differences), 'connections between problem causes and adjacent resources', 'connections between adjacent structures like available resources and non-adjacent functions', and 'specifying filters' are useful to identify and apply in the same workflow
+        - multi-function structures, as in structures that are useful alternatives which are also useful optimizations to apply in a combination as well, are by definition more useful, so its useful to identify alternatives for the problem-solving intent 'identify useful optimizations resulting from combinations of alternates'
+
     - apply variation to useful structures (like problem-solving intents) to find specific structures fulfilling those structures
 
         - for example, for the 'find highly similar (in a known way, which can be applied as a constant, reduced and ignored) but relevantly different (in an unknown way, which should be expanded and focused on) functions' intent, applying differences to that intent to connect it with problem-solving structures identifies useful structures like useful intents to fulfill
