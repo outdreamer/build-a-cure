@@ -10,6 +10,8 @@
 
         - identifying maximal differences in a data set that can be mapped to one function in a set of maximally different functions, as a range of different shapes of a data set that could be described by some solution function that is a function in a set of maximally different functions, as a way of finding the maximally different data sets associated with a solution function that is maximally different, to 'identify possible solution functions to use as a base' and 'identify whether the data set matches any of the maximally different data sets associated with each of the possible maximally different solution functions as being within an error range of some metric'
 
+        - identifying 'implications of symmetries in a possible solution function' as useful for intents like 'determining the remainder/some of the function from a subset of the function', as 'symmetries' can be formatted as a 'core prediction structure' that can be applied to 'predict some subsets of the function, once an "implication of a symmetry (like a similar slope sequence)" is found'
+
     - identifying useful interface structure interactions in a problem space and applying those based on their interactions (like their interactions with requirements)
         - for example, a general and specific function are often different but there are cases where they are the same, so framing their connection as 'more probably different but not definitely different' is useful for determining differences probable/required in different solution functions
         - a 'general' change type is less likely to occur with a high degree of variation, and similarly a 'specific' change type is likelier to occur with a high degree of variation, but these are also not required
