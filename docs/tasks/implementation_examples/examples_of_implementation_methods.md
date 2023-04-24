@@ -4,6 +4,15 @@
 
     - a default implementation method is to use existing workflows in this repo as configuration and writing a function to apply a workflow to an 'input problem space'
 
+    - identify structures which are highly explanatory using default/core structures
+        - for example, functions like 'pretend' and 'lie' can be iterated as a repetition of a core structure of 'falsehood', as 'pretending to (pretending to (lie))' is an iteration of a common structure of falsehood ('lie') which can explain more complex system dynamics when functions (like 'lie') are not invalidated ('still allowed') but simpler variants of them become less useful over time, as other agents change at similar rates
+        - the 'lie' structure is useful in systems as a 'cheap/efficient structure' where 'false signals of value' are more efficient than 'true signals', but become less useful as other agents change, and iteration of these structures becomes more optimal while still being cheap/efficient, as the 'lie' structure is still allowed in a given system
+        - identifying the points where 'efficient structures' (falsehood) intersect with 'inefficient structures' (truth) is useful for predicting future behaviors (it can become more efficient to tell the truth at some point, so much so that it is useful as a default strategy, as signals of true value are useful to other agents in a way that signals of false value are not, as truth structures pay dividends when applied as defaults)
+        - the 'iteration' structure is useful to identify as a powerful explanatory variable when applied with core variables to generate/describe complex system interactions in a simple way (as an iteration of the same core structures)
+        - 'pretending to (lie)' is a cheap way to falsely signal true value ('obviously pretending to self-deprecate, when the deprecation is actually true' to signal 'true value' in a false/cheap way) when 'lies' are applied as a default structure that can be identified by other agents
+        - 'iteration' structures are a useful way to identify 'embedded/symmetry' variables
+        - similarly, 'iteration and other symmetry-hiding variables' are a way to identify 'false complexity', where 'true complexity' is an interim structure between 'random' and 'symmetrical or otherwise simple' functions
+
     - identify different useful interactions between data set subsets, complete data sets, solution functions, solution function ranges
 
         - identifying networks of 'data set subsets that could be a subset associated with many highly different complete data sets or solution functions' which can be used to navigate between data set subsets, starting with each of the subsets that could be the most alternate complete data sets or solution functions (having the most in common with the most other subsets) and testing for difference types to navigate to more specific ranges of possible complete data sets/solution functions, up to a point of accuracy on some metric
