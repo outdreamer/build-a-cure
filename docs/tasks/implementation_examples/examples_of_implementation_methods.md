@@ -5,6 +5,12 @@
     - a default implementation method is to use existing workflows in this repo as configuration and writing a function to apply a workflow to an 'input problem space'
         - remaining questions are variables like 'which combinations of which variables of reality can be optimally applied as equivalent alternate defaults forming a core interaction level (used to adjacently derive the other interaction levels)', which is semi-defined but still unresolved (as not completely specified) by other workflows/implementation methods
 
+    - identifying useful structures like insights such as 'similarities can be used as filters' by applying useful structures like differences and checking for similarities in those differences, to find useful intents like 'find function similarities (and similarity types)' and specific structures to implement these intents
+        - for example, a function can be mapped to a set of its identifying structures (x^2 has an identifying structure of a parabola), bc these structures and the functions have a similarity in common (the set of possible functions can be filtered by knowing a set of structures that are associated with a function)
+        - this similarity can be applied as a map (a set of structures to a set of functions having those structures)
+        - this similarity between function structures and functions can also be applied as a network of term types (or 'significant example (such as defining example or differentiating example)' terms or term 'units') and their neutralizing/magnifying terms (the set of functions you would need to apply to x^2 to erode its identifying structures, even in functions with an x^2 term, such as offsetting 'fraction coefficients', 'inverses', and 'higher powers')
+        - other similarities exist between function sets, such as the mapping that adds non-linearity to a function, which can be used to 'connect function sets', which is a useful if indirect problem-solving intent in the 'regression' problem space
+
     - identifying useful attributes like 'intersectivity' can be used to adjacently identify other useful structures
         - identifying that 'systems of linear equations' can help identify 'intersectivity' is useful to identify 'systems of linear equations' as a useful input to finding similarities (such as intersections) between functions
         - identifying structures that fulfill the intent of 'connecting subsets of a function' is a way to identify 'intersectivity' as a useful structure
