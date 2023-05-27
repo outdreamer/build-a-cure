@@ -8,6 +8,8 @@
 
     - find similarities in workflows with similar solutions found so different workflows can be found and checked for different probability of finding diifferent minima
     
+    - identifying slowdowns and constants as proxies for minima in the error function
+    
     - identifying useful structures like connections like that cross-interface structures can be equivalent alternates or symmetries used to build maps and similarities or build complementary info usable to build full sets of differences, to connect very similar or different info usable to solve a problem, which is why cross-interface structures occur in solution workflows, as these cross-interface connections are highly similarizing/differentiating, the corre differentiating structures
           - for example function/intent and position-speed are useful differences to connect
         - also like connecting elocal error minumums with generally useful functions' and connecting useful differences in definitions like how 'fumction network' is an inadequare bur simple description of ai that is more useful when grouoed eith intents to solve for like connect many changes to one change smd connect complete changes to composing changes to identify which changes are most useful im a succeessful change
