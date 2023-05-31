@@ -123,6 +123,7 @@
     - identify useful structures like when useful structures (like 'high-variation variables') are not useful/relevant which can occur in cases like 'complex systems where many sub-systems can operate semi-independently of each other and therefore irrelevantly'
 
     - identify useful functions like 'invest' which have related adjacent useful concepts like 'payoff expectation by some threshold' which are useful for finding useful applications/specifications of analysis functions like 'cost/benefit' analysis
+        - similarly, a useful 'investing function' is to 'invest in cases with a high ratio of equity', which is like 'investing in cases with a high information content like a useful prediction model or rule database that is already acquired which can be used as an input' (investing in higher-certainty structures), which is an example of how the rules of investing can be used to solve navigation/filtering problems, as investing involves similar information problems
 
     - identify useful structures like cases where error structures are not errors
         - such as when irreversibility is not an error but a useful intent to some agent, like an irreversibility (in maintaining some useful structure or another useful state change that applies some absolute truth to avoid applying that truth as an uncertainty by making sure its sustained)
