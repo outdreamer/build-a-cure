@@ -13,6 +13,7 @@
         - similarly, identifying 'compounds that dont have extreme requirements' (such as 'compounds that require 100% organ function' or 'compounds that require ketosis or create ketosis') is useful as another filter
         - similarly, identifying 'compounds that are not deactivated by common inputs' is similarly useful
         - 'deactivating one alternate, to require using other alternates, when there is a set of alternates of non-trivial size' and 'not requiring extremes' and 'not deactivated by common inputs' are structures that can construct 'optimality' or apply changes that stay within a 'range of optimality'
+        - similarly, there are 'conditional filters' (as opposed to the mostly 'absolutely useful' filters above), such as variables with an imbalance often/generally favoring one variable value, like how 'compounds that can be processed by the bio-system' are generally preferred, but its possible that a 'compound which cant be processed would have useful impacts (such as various forms of sugar)'
 
     - identify problems with sufficient interface structures (like 'variable/limit sets') that solutions to those problems can be altered with other interface structures (like 'scale') to solve most problems
         - for example, the system associated with some problems (like the packing problem or the traveling salesman problem) can be isolated, re-applied, scaled, and trivially varied in such a way that it reflects more real systems
