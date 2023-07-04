@@ -11,6 +11,8 @@
     - identifying useful structures like 'filters which apply changes within a known range of optimality' (like changes that 'maintain functionality of a system')
         - for example, when finding medicines for a particular condition, 'compounds that deactivate a function with an interchangeable alternate function (acting like a backup)' is possible to use as a filter with changes 'within a range of acceptable changes in the system that likely or definitely wouldnt destroy the system (safety range)'
         - similarly, identifying 'compounds that dont have extreme requirements' (such as 'compounds that require 100% organ function' or 'compounds that require ketosis or create ketosis') is useful as another filter
+        - similarly, identifying 'compounds that are not deactivated by common inputs' is similarly useful
+        - 'deactivating one alternate, to require using other alternates, when there is a set of alternates of non-trivial size' and 'not requiring extremes' and 'not deactivated by common inputs' are structures that can construct 'optimality' or apply changes that stay within a 'range of optimality'
 
     - identify problems with sufficient interface structures (like 'variable/limit sets') that solutions to those problems can be altered with other interface structures (like 'scale') to solve most problems
         - for example, the system associated with some problems (like the packing problem or the traveling salesman problem) can be isolated, re-applied, scaled, and trivially varied in such a way that it reflects more real systems
