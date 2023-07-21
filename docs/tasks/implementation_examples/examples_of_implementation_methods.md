@@ -14,6 +14,8 @@
     - identifying useful structures like reasons for usefulness of a structure in fulfilling some useful intent like 'finding errors' (such as by connecting structures like 'scale' with possible errors like 'over-prioritization')
         - for example, applying useful structures like 'differences in a similarity' across interfaces is useful, such as how finding the 'contradictions in a system' (the 'differences in a similarity (the same system/context)') is always possible (such as how 'capitalism' involves 'socialism, for some but not all' in a position), and is useful for identifying possible initial errors that could invalidate the system if allowed to repeat
             - relatedly, finding structures that invalidate a system when applied as 'scaled units' (scaled initial errors) is useful to identify important error structures to prioritize handling with solution functions
+            - 'contradictions in a system' are also useful in that theyre a 'unit complexity/embedding structure' that is useful to identify
+            - also structures which can be defined with many different definitions are often more useful in that they will fulfill more intents and interact with more structures
         - scaling/iteration is one of many functions that is useful for finding errors bc it often creates 'interactions', 'known errors like imbalances like over-prioritizations', and 'more obvious structures' through the iterations applied, which is why its useful to iterate some structures
             - applying 'similarities/differences' and 'simplifications/complexities' and other reality-covering spectrum/conceptual variables are similarly useful for finding errors
 
