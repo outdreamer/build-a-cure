@@ -3,6 +3,8 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:
 
+    - applying problem-solving intents on each interface to precompute useful structures like maximal differences that can be used in interface queries such as certain uncertainties and specific abstractions
+  
     - identifying useful structures like 'problems to solve, which when solved, can be applied to trivially create other solutions to other problems' which is possible bc core/complex problems can be used in combinations/changes to solve other problems
         - for example, resolving core/simple/composable ambiguities like 'differences between similar concepts' is useful to resolve all ambiguities, as the solvable unsolved ambiguities will often changes/combinations of the solved ambiguities which are combinable to create other ambiguities
         - similarly, solutions to complex problems like 'resolving differences between similar concepts' can often be varied trivially to solve other complex problems
