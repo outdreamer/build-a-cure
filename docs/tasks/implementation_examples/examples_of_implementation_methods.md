@@ -1612,6 +1612,7 @@
 	- applying specific interface structures as a default constant set
 		- applying 'information' interface interaction rules of the 'physical reality' interface such as:
 		    - 'structures that break definitions of some concept can be structures of falsehood, unless the structure is more stable/relevant/otherwise true than the definition, in which case it can be a structure of truth, as change patterns/structures of truth arent false by default but rather can be more true than their inputs'
+            - 'true' structures will interact with 'true' structures differently than 'false' structures, as the 'true' structure will use the 'true' structure repeatedly across functions, more so than it would use a 'false' structure, which it would likely filter out and stop using, similarly, 'false' structures are likely to use 'false' structures for the same reason and in the same way (as an input), as 'false' structures are useful for creating other 'false' structures
 			- 'truths can become false when over-depended on, beyond their appropriate context or meaning, or beyond their potential to illuminate or support other truths, or in an incorrect structure like a foundation for other truths'
 			- 'truths can be so irrelevant to an intent as to be equivalent to false (example: citing the heat death as a reason not to try to do anything)'
 			    - 'relatedly, truths are meaningful statements, where meaninglessness makes some statement so different from relevant/useful/integrated/meaningful structures as to be false'
