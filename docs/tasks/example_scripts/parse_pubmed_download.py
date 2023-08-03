@@ -17,6 +17,14 @@ NOTE ON WHAT TO CHANGE:
 - changing the 'condition' variable to match your search is useful to exclude that term from the possible treatment list created by the keywords and nouns in the summary
 - also update "terms_to_exclude" with a list of any other terms like ['biology', 'exclude-this'] you want to remove from the list of nouns that could be possible treatments studied
 - this will also retrieve plenty of irrelevant nouns as well like names of places where data was gathered, so maybe add 'treatment' to your search to only focus on treatment articles
+- a good way to think of this tool is, as a 'way to find all the variables associated with a condition (including related conditions, symptoms/complications, related bio-system components like cell types involved, possible causes), 
+  where some of the variables are possible treatments which have been recently studied'
+- you can filter your Pubmed search by recent results to make sure youre only finding the most recent treatments
+
+EXAMPLE OUTPUT:
+- for 'cancer treatment' Pubmed search results, this script included 'lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+- for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'choline' which are active against that condition.
+- on the other side, there were thousands of nouns to sift through, so this tool could use some filtering.
 
 INSTALLATION: run "pip3 install packagename" of the package that is not installed, when you run the python3 parse_pubmed_download.py command and it says you didnt install some package.
 
@@ -24,14 +32,14 @@ OUTPUT:
 - this script will store the found nouns in a file called "possible_treatment_nouns_{condition}".txt in the same directory that the script is in.
 '''
 
-import spacy
+import spacy, en_core_web_sm
 
 nlp = spacy.load('en_core_web_sm')
 
 keywords_found_in_treatment_articles = set()
 compounds_pathogens_found_in_treatments = set()
 
-condition = 'cancer treatment'
+condition = 'cytomegalovirus treatment'
 filename = ''.join([c for c in condition if c in 'abcdefghijklmnopqrstuvwxyz'])[0:10]
 terms_to_exclude = condition.split(' ') if condition is not None and condition != '' else []
 saved_pubmed_download = f"pubmed-{filename}-set.txt"
