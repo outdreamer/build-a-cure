@@ -1,4 +1,5 @@
 docs/tasks/example_scripts/*.txt
+docs/tasks/example_scripts/corpus
 scripts/fetch_pubmed_data/geniatagger
 scripts/fetch_pubmed_data/geniatagger-python
 scripts/fetch_pubmed_data/craft
