@@ -1,6 +1,24 @@
-# note: changing the condition to match your search is useful to exclude that term from the possible treatment list created by the keywords and nouns in the summary
-# also update "terms_to_exclude" with a list of terms like ['biology', 'exclude-this'] if you need to remove any other text from the list of possible treatments
-# this will also retrieve plenty of irrelevant nouns as well, so maybe add 'treatment' to your search to only focus on treatment articles
+'''
+
+PURPOSE: this script helps find possible treatments for a condition, 
+by compiling a list of nouns mentioned in research studies for a given search like 'meningitis treatment', 
+as these nouns could be possible treatments studied recently
+
+1. run a search on pubmed for the condition (like 'meningitis treatment') so you're at a url with your search terms in it 
+    - example: https://pubmed.ncbi.nlm.nih.gov/?term=meningitis%20treatment
+2. then click the Save button, select 'All results' and 'Pubmed format'
+3. move the downloaded file to the same directory as the script
+4. run the script: python3 parse_pubmed_download.py
+
+NOTE: I think Pubmed includes Ayurvedic and Chinese medicine substances in a lot of the studies published there so I think it's a good general reference, 
+although it is incomplete, as there are studies hosted on other sites that I haven't found on Pubmed
+
+NOTE ON WHAT TO CHANGE:
+- changing the 'condition' variable to match your search is useful to exclude that term from the possible treatment list created by the keywords and nouns in the summary
+- also update "terms_to_exclude" with a list of any other terms like ['biology', 'exclude-this'] you want to remove from the list of nouns that could be possible treatments studied
+- this will also retrieve plenty of irrelevant nouns as well like names of places where data was gathered, so maybe add 'treatment' to your search to only focus on treatment articles
+
+'''
 
 import spacy
 
@@ -11,7 +29,7 @@ compounds_pathogens_found_in_treatments = set()
 
 condition = 'multiple sclerosis'
 filename = ''.join([c for c in condition if c in 'abcdefghijklmnopqrstuvwxyz'])[0:10]
-terms_to_exclude = []
+terms_to_exclude = [condition.split(' ')]
 saved_pubmed_download = f"pubmed-{filename}-set.txt"
 print('using file', saved_pubmed_download)
 found_abstract = False
