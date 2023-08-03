@@ -18,6 +18,10 @@ NOTE ON WHAT TO CHANGE:
 - also update "terms_to_exclude" with a list of any other terms like ['biology', 'exclude-this'] you want to remove from the list of nouns that could be possible treatments studied
 - this will also retrieve plenty of irrelevant nouns as well like names of places where data was gathered, so maybe add 'treatment' to your search to only focus on treatment articles
 
+INSTALLATION: run "pip3 install packagename" of the package that is not installed, when you run the python3 parse_pubmed_download.py command and it says you didnt install some package.
+
+OUTPUT:
+- this script will store the found nouns in a file called "possible_treatment_nouns_{condition}".txt in the same directory that the script is in.
 '''
 
 import spacy
@@ -27,9 +31,9 @@ nlp = spacy.load('en_core_web_sm')
 keywords_found_in_treatment_articles = set()
 compounds_pathogens_found_in_treatments = set()
 
-condition = 'multiple sclerosis'
+condition = 'cancer treatment'
 filename = ''.join([c for c in condition if c in 'abcdefghijklmnopqrstuvwxyz'])[0:10]
-terms_to_exclude = [condition.split(' ')]
+terms_to_exclude = condition.split(' ') if condition is not None and condition != '' else []
 saved_pubmed_download = f"pubmed-{filename}-set.txt"
 print('using file', saved_pubmed_download)
 found_abstract = False
@@ -64,3 +68,5 @@ for abstract in abstracts:
 
 print('nouns_from_abstracts', nouns_from_abstracts)
 print('keywords_found_in_treatment_articles', keywords_found_in_treatment_articles)
+
+open(f"possible_treatment_nouns_{filename}.txt", 'w').write('\n'.join([item for item in keywords_found_in_treatment_articles]))
