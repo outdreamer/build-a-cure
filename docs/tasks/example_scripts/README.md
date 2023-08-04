@@ -10,18 +10,21 @@ as these nouns could be possible treatments studied recently
 	- example: https://pubmed.ncbi.nlm.nih.gov/?term=meningitis%20treatment
 2. then click the Save button, select 'All results' and 'Pubmed format'
 3. move the downloaded file to the same directory as the script
-4. change the variables 'condition' and 'known_treatments' to values that you want to check for
+4. change the variables 'condition' and 'known_treatments' and 'terms_to_exclude' to values that you want to check for or exclude from possible_treatments
     - changing 'condition' to reflect the search you used will exclude it from the list of possible treatments found
     - changing 'known_treatments' to reflect substances that you want to find similar substances to can sometimes find similar treatments based on sentence context (usage of the word).
     - changing 'terms_to_exclude' to remove any words from list of treatments found, otherwise it will use the condition words to remove the condition from treatments found.
         terms_to_exclude = ['biology', 'exclude-this'] 
-5. run the script: python3 parse_pubmed_download.py
-
+5. run the script:
+# example like 'python3 parse_pubmed_download.py condition known_treatments terms_to_exclude'
+```
+python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, choline, eugenol' -t 'biology'
+```
 
 INSTALLATION: 
 
 - install primary libraries
-	pip3 install nltk scispacy spacy 
+	pip3 install nltk scispacy spacy PyDictionary
 - install the scispacy entity recognition model (which can identify a compound/organism/antibody/etc)
 	pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.0/en_core_sci_sm-0.2.0.tar.gz
 - use spacy validate to check for updates & update en_core_web_sm accordingly
@@ -53,9 +56,9 @@ EXAMPLE OUTPUT AND ERRORS
 OUTPUT FILES:
 - keywords will be stored in (search_term)_output/keywords_(search_term).txt
 - abstracts will be stored in (search_term)_corpus/abstracts_(search_term).txt
-- similar treatments (based on known_treatments) will be stored in (search_term)_output/similar_treatments_to_known_treatments_(search_term).txt
-- Unused entities (like entities with an existing word root already added) will be stored in (search_term)_output/unused_entities_(search_term).txt
-- Used entities will be stored in (search_term)_output/used_entities_(search_term).txt
+- similar treatments (based on either known_treatments or possible_treatments) will be stored in (search_term)_output/similar_treatments_to_known/possible_treatments_(search_term).txt
+- Not possible treatments (like entities with an existing word root already added) will be stored in (search_term)_output/not_possible_treatments_(search_term).txt
+- Possible entities will be stored in (search_term)_output/possible_treatments_(search_term).txt
 
 
 TO DO LIST:
