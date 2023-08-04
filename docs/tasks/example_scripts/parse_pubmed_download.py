@@ -365,9 +365,18 @@ open(f"{output_dir}/similar_treatments_to_{treatments_to_compare_name}_{filename
 print('\nscript time', str((time.time() - script_start_time)/ 7) + ' minutes')
 
 '''
-identifying the 'adjacent sequences of structures', 'position of common sub-structures' and 'common equivalent alternates of substructures', 
-and 'the common adjacent sequences of substructures' and 'common equivalent variants of substructures and substructure sequences'
-seems to be the highest-value set of variables in determining similarity of words with the fewest variables, 
+- identifying the 'adjacent sequences of structures', 'size/separators of common substructures (like vowel ratios/positions)', 'position of common sub-structures' and 'common equivalent alternates of substructures', 
+	and 'the common adjacent sequences of substructures' and 'common equivalent variants of substructures and substructure sequences'
+	seems to be the highest-value set of variables in determining similarity of words with the fewest variables, 
+- similarly, identifying 'uncommon sequences', 'substructures/structures that change/dont change the meaning of the structure/structure sequence', 
+	'structures that are dissimilar in substructure but similar in meaning (and the opposite)' are similarly useful to identify
+- similarly, identifying 'nonadjacent relevance structures like a prefacing clause indicating truthhood of the following clause' 
+	(clause sequence -> truthhood of adjacent clauses -> 'meaning change' of structure, 
+	so the first clause is relevant to identifying the meaning and therefore similarity of the word, 
+	as the meaning of a word here is 'its interaction with other structures'),
+	and identifying 'differences from this structure, given its importance to identify' (adjacent changes of truthhood) are similarly a useful variable set.
+- these are 'similarly high variation variable sets that offer complementary info, as opposed to redundant info'
+
 bc 'common', 'equivalent alternate', 'subset', 'position', 'sequence', 'adjacent' seem to be enough to cover more relevance in language, 
 although there are relevant terms without these attributes, they just require more work and may not always have a reason why the work is justified, so are less common
 alternate structure (synonyms)
