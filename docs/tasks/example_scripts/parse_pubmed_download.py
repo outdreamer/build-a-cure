@@ -1,68 +1,4 @@
-'''
-
-
-PURPOSE: this script helps find possible treatments for a condition, 
-by compiling a list of nouns mentioned in research studies for a given search like 'meningitis treatment', 
-as these nouns could be possible treatments studied recently
-
-1. run a search on pubmed for the condition (like 'meningitis treatment') so you're at a url with your search terms in it 
-	- example: https://pubmed.ncbi.nlm.nih.gov/?term=meningitis%20treatment
-2. then click the Save button, select 'All results' and 'Pubmed format'
-3. move the downloaded file to the same directory as the script
-4. run the script: python3 parse_pubmed_download.py
-
-
-NOTE ON WHAT TO CHANGE:
-- changing the 'condition' variable to match your search is useful to exclude that term from the possible treatment list created by the keywords and nouns in the summary
-- also update "terms_to_exclude" with a list of any other terms like ['biology', 'exclude-this'] you want to remove from the list of nouns that could be possible treatments studied
-- this will also retrieve plenty of irrelevant nouns as well like names of places where data was gathered, so maybe add 'treatment' to your search to only focus on treatment articles
-- a good way to think of this tool is, as a 'way to find all the variables associated with a condition (including related conditions, symptoms/complications, related bio-system components like cell types involved, possible causes), 
-  where some of the variables are possible treatments which have been recently studied'
-- you can filter your Pubmed search by recent results to make sure youre only finding the most recent treatments
-
-
-INSTALLATION: 
-
-- install primary libraries
-	pip3 install nltk scispacy spacy 
-- install the scispacy entity recognition model (which can identify a compound/organism/antibody/etc)
-	pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.0/en_core_sci_sm-0.2.0.tar.gz
-- use spacy validate to check for updates & update en_core_web_sm accordingly
-	- python3 -m spacy validate
-	- python -m spacy download en_core_sci_sm
-
-- install errors like 'package not found' 
-	- run "pip3 install packagename" of the package that is not installed, when you run the python3 parse_pubmed_download.py command and it says you didnt install some package.
-
-
-NOTES:
-- the script can take up to half an hour to run on 10,000 search results
-
-
-EXAMPLE OUTPUT:
-- for 'cancer treatment' Pubmed search results, this script included 'lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
-- for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'choline' which are active against that condition.
-- on the other side, there were thousands of nouns to sift through, so this tool could use some filtering.
-- also, harmful substances were included in the search results (amphotericin is very harmful and can be deadly in the amounts required to fight a fungal infection)
-- also, ineffective substances were included in the search results (miltefosine is ineffective for some people with fungal infections).
-- similarly, some treatments will be missing, as only 10,000 results can be downloaded at a time - for example, the search results for 'fungal cryptococcus' did not include sitosterol or Undecylenic acid, both being known treatments.
-- I think Pubmed includes Ayurvedic and Chinese medicine substances in a lot of the studies published there so I think it's a good general reference, although it is incomplete, as there are studies hosted on other sites that I haven't found on Pubmed
-
-
-OUTPUT:
-- this script will store the found nouns in a file called "possible_treatment_nouns_{condition}".txt in the same directory that the script is in.
-
-
-TO DO LIST:
-- add 'integrated deduplicated search results' so that results that occur in multiple searches can be de-duplicated (to find generally useful compounds that can help multiple conditions, for those managing multiple conditions)
-- add filters to remove irrelvant nouns like places and filter out anything that isnt a treatment (compound, process, pathogen)
-- lemmatize common words
-- use context checking for a similarity metric from nltk - https://www.nltk.org/book/ch05.html
-- filter out variants of the same word
-- add generation of similar searches, such as a general type search as in 'fungal treatment' or a similar but more common fungal species like 'candida treatment' instead of 'cryptococcus treatment' or pathogens that bind to cryptococcus like 'staphylococcus aureus'
-
-'''
-
+import time
 import io
 from contextlib import redirect_stdout
 import os
@@ -70,15 +6,16 @@ import spacy, en_core_web_sm
 import nltk
 from nltk.corpus import stopwords
 from nltk.corpus.reader.plaintext import PlaintextCorpusReader
-
+from nltk.stem import WordNetLemmatizer
 import scispacy
 import spacy
 from spacy import displacy
 from scispacy.abbreviation import AbbreviationDetector
 from scispacy.umls_linking import UmlsEntityLinker
 
-#sci_nlp = spacy.load('en_core_web_sm')
-#sci_nlp = en_core_sci_sm.load()
+
+
+# download corpuses
 
 #nltk.download('punkt')
 #nltk.download('averaged_perceptron_tagger')
@@ -87,134 +24,240 @@ from scispacy.umls_linking import UmlsEntityLinker
 #nltk.download("vader_lexicon")
 #nltk.download('stopwords')
 
-stop_words = set(stopwords.words('english'))
 
+# load tools 
+
+#stop_words = set(stopwords.words('english'))
+lemmatizer = WordNetLemmatizer()
 nlp = spacy.load('en_core_web_sm')
 
-all_abstract_words_and_keywords = []
-keywords_found_in_treatment_articles = set()
-compounds_pathogens_found_in_treatments = set()
+
+
+
+# ************************************ PROCESSING FUNCTIONS ***************************************** #
+
+def has_important_words(sentence, nontrivial_parts_of_speech):
+	tokens = nlp(line)
+	for token in tokens:
+		if token.pos_ in nontrivial_parts_of_speech:
+			return token.text
+	return False
+
+
+def lemmatize_word(word):
+	lemmatized = lemmatizer.lemmatize(word)
+	# lemmatizer.lemmatize("better", pos ="a")) # adjective synonym search, resulting in 'good'
+	lemmatized = lemmatized.replace('  ', ' ').replace('\t', ' ')
+	lemmatized_without_letters = [c for c in lemmatized if c not in 'abcdefghijklmnopqrstuvwxyz']
+	if len(lemmatized_without_letters) < len(lemmatized):
+		return lemmatized
+	return 'xxxxxx' # not likely to be found in entities where this function is used
+
+# *************************************************************************************************** #
+
+
+
+
+# ************************************ SIMILARITY FUNCTIONS ***************************************** #
+
+''' - to do: optimize these
+def check_sentiment(sentence):
+	positive = ['increase', 'upregulate', 'enable', 'intensif']
+	neutral = ['modulate', 'change']
+	negative = ['decrease', 'reduce', 'downregulate', 'disrupt', 'inhibit', 'prevents', 'limits']
+	analyzer = SentimentIntensityAnalyzer()
+	sentiment = analyzer.polarity_scores(sentence)
+	if sentiment['compound'] > 0.5:
+		return 'positive'
+	elif sentiment['compound'] < -0.5:
+		return 'negative'
+	return 'neutral'
+
+def check_similarity(string1, string2):
+	similarity_nlp = spacy_universal_sentence_encoder.load_model('en_use_lg')
+	string1_nlp = similarity_nlp(string1)
+	string2_nlp = similarity_nlp(string2)
+	similarity = string1_nlp.similarity(string2_nlp)
+	if similarity > 0.9:
+		return 'similar'
+	return 'different'
+'''
+
+def find_similar_words_using_custom_abstract_corpus(corpus_dir, abstracts, known_treatments, nontrivial_parts_of_speech):
+	# identify similar words by context (such as identifying 'voraconazole' from 'fluconazole') using custom corpus of abstracts
+	new_corpus = PlaintextCorpusReader(corpus_dir, r'.*\.txt')
+	#print('new corpus words', new_corpus.words())
+	all_text = nltk.Text(new_corpus.words())
+	# find substances with similar contexts (used in similar ways in the sentence) as 'eugenol', a known treatment
+	all_similar_treatments = []
+	for known_treatment in known_treatments:
+		f = io.StringIO()
+		with redirect_stdout(f):
+			similar_treatments = all_text.similar(known_treatment)
+		out = f.getvalue()
+		if similar_treatments:
+			print('similar_treatments', similar_treatments) #.text
+		if out is not None:
+			alt_treatments = set()
+			for sentence in out.split('\n'):
+				for item in sentence.split(' '):
+					tokens = nlp(item)
+					for token in tokens:
+						print('alt treatment token part of speech', token.pos_, token.text)
+						if token.pos_ in nontrivial_parts_of_speech and token.pos_ not in ['ADJ', 'ADV']: # exclude adjectives like 'complete', 'clinical', 'major', etc and adverbs like 'only'
+							lemmatized_alt_treatment = lemmatize_word(token.text)
+							print('lemmatized_alt_treatment', lemmatized_alt_treatment)
+							if lemmatized_alt_treatment not in ''.join(terms_to_exclude) and lemmatized_alt_treatment not in ''.join(known_treatments):
+								alt_treatments.add(token.text)
+			if len(alt_treatments) > 0:
+				print('known_treatment', known_treatment, 'alt_treatments', alt_treatments)
+				all_similar_treatments.append(known_treatment + ' ~ ' + ','.join([item for item in alt_treatments]))
+	return all_similar_treatments
+
+# *************************************************************************************************** #
+
+
+
+
+# ********************************************* GET DATA ********************************************* # 
+
+def get_right_term_for_wiki(word):
+	# to do: add check for similar articles by using synonym search from custom corpus
+	# also add check for more common word from lemmatizer for disambiguation
+	medical_terms_to_check = ['pathogen', 'microb', 'chemical', 'compound', 'medic', 'disease', 'bio', 'treatment', 'health', 'therap']
+	# results = wikipedia.search(word) # search doesnt disambiguate
+	try:
+		summary = wikipedia.summary(word)
+		all_categories = ','.join(wikipedia.page(word).categories)
+		print('categories', word, all_categories)	
+		if len([item for item in medical_terms_to_check if item in all_categories or summary]) > 0:
+			return word
+	except wikipedia.DisambiguationError as e:
+		print('e options', e.options)
+		for suggestion in e.options:
+			suggested_term_found = get_right_term_for_wiki(suggestion)
+			print('suggested_term_found', suggested_term_found, suggestion)
+			if suggested_term_found:
+				return suggested_term_found			
+	return False
+
+def get_abstracts_from_pubmed_api(search_text, result_limit, email):
+	pubmed = PubMed(tool="Finding possible treatments for a condition", email=email)
+	results = pubmed.query(search_text, max_results=result_limit)
+	abstracts = [result.abstract for result in results]
+	keywords = [result.keywords for result in results]
+	abstracts = [[' '.join(abstract[0].lower().split('\n')), ''] for abstract in abstracts] # add a blank line for the corpus reader
+	return abstracts, keywords
+
+def get_abstracts_from_pubmed_download(saved_pubmed_download):
+	found_abstract = False
+	abstracts = []
+	keywords = set()
+	with open(saved_pubmed_download, 'r') as f:
+		for line in f.readlines():
+			if 'OT  - ' in line:
+				line = line.replace('OT  - ', '')
+				for word in condition.split(' '):
+					if word not in line:
+						if len([item for item in terms_to_exclude if item in line]) == 0:
+							keywords.add(line.strip())
+			elif 'AB  - ' in line:
+				abstract = [line.replace('AB  - ', '').strip()]
+				found_abstract = True
+			elif found_abstract:
+				if ' - ' in line[0:8]:
+					abstracts.append('\n'.join(abstract))
+					found_abstract = False
+					abstract = []
+				else:
+					abstract.append(line)
+	abstracts = [[' '.join(abstract.lower().split('\n')), ''] for abstract in abstracts if abstract != []] # add a blank line for the corpus reader
+	return abstracts, keywords
+
+# **************************************************************************************************** # 
+
+
+
+
+# **************************************** GET ENTITIES ********************************************** #
+
+def extract_entities_from_abstract(abstracts):
+	lemmatized_entities = set()
+	used_entities = set()
+	unused_entities = set()
+	for abstract in abstracts:
+		# filter abstract using scispacy entity detector, to create the most filtered list using entity recognition
+		if abstract != []:
+			doc = nlp(abstract[0].lower().strip()) # sentences = list(doc.sents)
+			for entity in doc.ents:
+				entity_text = entity.text.replace('  ', ' ').replace('\t', ' ')
+				just_nonletters = ''.join([c for c in entity_text if c not in 'abcdefghijklmnopqrstuvwxyz'])
+				if len(just_nonletters) < len(entity_text): # this isnt just numbers/punctuation, it has letters
+					# make sure its a noun (verbs can be nouns in the spacy lib)
+					lemmatized_entity = lemmatize_word(entity_text)
+					if lemmatized_entity not in lemmatized_entities:
+						# this is a new word, so add it to entities
+						lemmatized_entities.add(lemmatized_entity)
+						for token in nlp(entity_text):
+							if token.pos_ in ['NOUN', 'PROPN', 'VERB']: # spacy tags some nouns as verbs
+								# make sure it doesnt have any terms_to_exclude
+								if len([term for term in terms_to_exclude if lemmatize_word(term) in token.text]) == 0:
+									used_entities.add(entity_text)
+							else:
+								unused_entities.add(entity_text)
+					else:
+						unused_entities.add(f"lemmatized: {entity_text}")
+	print('used_entities', used_entities)
+	print('unused_entities', unused_entities)
+	return used_entities, unused_entities
+
+# **************************************************************************************************** #
+
+
+
+
+# ************************************ VARIABLES ***************************************** #
 
 known_treatments = ['eugenol', 'sitosterol', 'choline', 'fluconazole']
 condition = 'fungal cryptococcus'
+terms_to_exclude = condition.split(' ') if condition is not None and condition != '' else ['fung']
 
+# **************************************************************************************** #
+
+
+
+trivial_parts_of_speech = ['AUX', 'DET', 'ADP', 'PART', 'PUNCT', 'CCONJ', 'PRON'] # AUX = is, DET = the, ADP = of, PART = to, CCONJ = both, ADJ = clinical, only, major, new, PRON = the, which 
+nontrivial_parts_of_speech = ['PROPN', 'NOUN', 'VERB', 'ADV', 'ADJ'] # PROPN = 'Citicoline', NOUN = CDP, choline, VERB = phosphatidylcholine, interacting, increase, is, ADV = especially, ADJ = generic, endogenous, able, central, nervous, cellular, especially
+
+script_start_time = time.time()
+
+# create filename from variables and create directories
 filename = ''.join([c for c in condition if c in 'abcdefghijklmnopqrstuvwxyz'])[0:10]
-terms_to_exclude = condition.split(' ') if condition is not None and condition != '' else []
 saved_pubmed_download = f"pubmed-{filename}-set.txt"
-print('using file', saved_pubmed_download)
-found_abstract = False
-abstracts = []
-all_text = None
+print('\nusing file', saved_pubmed_download)
+output_dir = f"{filename}_output"
+corpus_dir = os.getcwd() + f"/{filename}_corpus"
+for new_dir in [output_dir, corpus_dir]:
+	if not os.path.exists(new_dir):
+		os.mkdir(new_dir)
 
-with open(saved_pubmed_download, 'r') as f:
-	for line in f.readlines():
-		if 'OT  - ' in line:
-			line = line.replace('OT  - ', '')
-			for word in condition.split(' '):
-				if word not in line:
-					if len([item for item in terms_to_exclude if item in line]) == 0:
-						keywords_found_in_treatment_articles.add(line.strip())
-		elif 'AB  - ' in line:
-			abstract = [line.replace('AB  - ', '').strip()]
-			found_abstract = True
-		elif found_abstract:
-			if ' - ' in line[0:8]:
-				abstracts.append('\n'.join(abstract))
-				found_abstract = False
-				abstract = []
-			else:
-				abstract.append(line)
+# to do: consolidate keywords and used_entities as possible_treatments and add a check of wikipedia to identify pathogens, compounds, processes
+print('\nformatting & storing abstract and keyword lists, to identify possible treatments in keywords')
+# format abstracts/keywords as a list from the downloaded pubmed file or the pubmed api
+#abstracts, keywords = get_abstracts_from_pubmed_api(condition, 500, 'jonijezewski@outlook.com')
+abstracts, keywords = get_abstracts_from_pubmed_download(saved_pubmed_download)
+open(f"{output_dir}/keywords_{filename}.txt", 'w').write('\n'.join([item for item in keywords]))
+open(f"{corpus_dir}/abstracts_{filename}.txt", 'w').write('\n'.join([abstract[0] for abstract in abstracts]))
 
-excluded_types = ['PERSON', 'ORGANIZATION']
-all_entities = set()
-unused_entities = set()
-for abstract in abstracts:
+print('\nfinding similar treatments based on sentence structure and word usage')
+# find similar treatments based on similar sentence structure and word usages
+all_similar_treatments = find_similar_words_using_custom_abstract_corpus(corpus_dir, abstracts, known_treatments, nontrivial_parts_of_speech)
+open(f"{output_dir}/similar_treatments_to_known_treatments_{filename}.txt", 'w').write('\n'.join(all_similar_treatments))
 
-	# filter abstract using scispacy entity detector, to create the most filtered list using entity recognition
-	doc = nlp(abstract.lower().strip())
-	sentences = list(doc.sents)
-	entities = doc.ents
-	for entity in entities:
-		# make sure its a noun
-		tokens = nlp(entity.text)
-		for token in tokens:
-			if token.pos_ in ['NOUN', 'PROPN', 'VERB']: # spacy tags some nouns as verbs
-				# then make sure it doesnt have any terms_to_exclude
-				if len([item for item in terms_to_exclude if item in token.text]) == 0:
-					all_entities.add(entity)
-			else:
-				unused_entities.add(entity)
+print('\nextracting medical entities from abstracts to identify possible treatments')
+# get entities (included and excluded from treatment list based on terms_to_exclude) and abstracts
+used_entities, unused_entities = extract_entities_from_abstract(abstracts)
+open(f"{output_dir}/unused_entities_{filename}.txt", 'w').write('\n'.join([item for item in unused_entities]))
+open(f"{output_dir}/used_entities_{filename}.txt", 'w').write('\n'.join([item for item in used_entities]))
 
-	# remove places, people, organizations and other non-treatment words
-	''' # an attempt to use nltk to filter out useless entities
-	filtered_abstract_sentences = []
-	for sentence in abstract.lower().split('\n'):
-		# make sure its not a stopword
-		#if word not in stop_words:
-		# make sure its a noun
-		tokens = nlp(sentence)
-		filtered_abstract_sentence = []
-		for token in tokens:
-			if token.pos_ in ['NOUN', 'PROPN', 'VERB']: # spacy tags some nouns as verbs
-				# then make sure it doesnt have any terms_to_exclude
-				if len([item for item in terms_to_exclude if item in token.text]) == 0:
-					print('recognizing entities with nltk')
-					tokenized = nltk.word_tokenize(sentence)
-					pos_tagged = nltk.pos_tag(tokenized)
-					chunks = nltk.ne_chunk(pos_tagged)
-					for chunk in chunks:
-						if hasattr(chunk, 'label'):
-							print('chunk', chunk)
-							print(chunk[0], chunk[1])
-							# then make sure its not a person, organization, or other term types in excluded_types
-							if chunk[0] not in excluded_types:
-								filtered_abstract_sentence.append(chunk[1].split('/'))
-
-					print('recognizing entities with spacy')
-					spacy_token = nlp(sentence)
-					for entity in spacy_token.ents:
-						print('entity', entity.text, entity.label_)
-						if entity.label_ not in excluded_types:
-							filtered_abstract_sentence.append(entity.text)
-		filtered_abstract_sentences.append(' '.join(filtered_abstract_sentence))
-	'''
-	all_abstract_words_and_keywords.extend([' '.join(abstract.lower().split('\n')), '']) # add a blank line for the corpus reader
-
-print('keywords_found_in_treatment_articles', keywords_found_in_treatment_articles)
-open(f"possible_treatment_nouns_{filename}.txt", 'w').write('\n'.join([item for item in keywords_found_in_treatment_articles]))
-
-# attempt to create a custom corpus and identity similar words by context (such as identifying 'voraconazole' from 'fluconazole')
-# create nltk corpus from all_abstract_words_and_keywords
-corpus_dir = os.getcwd() + '/corpus/'
-if not os.path.exists(corpus_dir):
-	os.mkdir(corpus_dir)
-corpus_filename = f"all_abstract_words_and_keywords_{filename}.txt"
-with open(f"{corpus_dir}{corpus_filename}", 'w') as f:
-	f.write('\n'.join(all_abstract_words_and_keywords))
-new_corpus = PlaintextCorpusReader(corpus_dir, r'.*\.txt')
-print('new corpus words', new_corpus.words())
-all_text = nltk.Text(new_corpus.words())
-
-# find substances with similar contexts (used in similar ways in the sentence) as 'eugenol', a known treatment
-all_similar_treatments = []
-for known_treatment in known_treatments:
-	f = io.StringIO()
-	with redirect_stdout(f):
-		similar_treatments = all_text.similar(known_treatment)
-	out = f.getvalue()
-	print('similar_treatments', similar_treatments)
-	print('out', out)
-	print('similar_treatments', known_treatment, out)
-	similar_treatments_text = similar_treatments.text
-	if similar_treatments_text is not None and len(similar_treatments_text) > 0:
-		new_item = known_treatment + '_is_similar_to_' + ','.join([item for item in out.split('\n')])
-		if len(all_similar_treatments) == 0:
-			all_similar_treatments = [new_item]
-		else:
-			all_similar_treatments.append(new_item)
-open(f"similar_treatments_{filename}.txt", 'w').write('\n'.join(all_similar_treatments))
-
-print('all_entities', all_entities)
-open(f"all_entities_{filename}.txt", 'w').write('\n'.join([item for item in all_entities]))
-
-print('unused_entities', unused_entities)
+print('\nscript time', time.time() - script_start_time)
