@@ -342,6 +342,8 @@ print('\nformatting & storing abstract and keyword lists, to identify possible t
 # format abstracts/keywords as a list from the downloaded pubmed file or the pubmed api
 #abstracts, keywords = get_abstracts_from_pubmed_api(condition, 500, 'jonijezewski@outlook.com')
 abstracts, keywords = get_abstracts_from_pubmed_download(saved_pubmed_download)
+# to do: remove
+abstracts[0] = abstracts[0][0:10]
 open(f"{output_dir}/keywords_{filename}.txt", 'w').write('\n'.join([item for item in keywords]))
 open(f"{corpus_dir}/abstracts_{filename}.txt", 'w').write('\n'.join([abstract[0] for abstract in abstracts]))
 
@@ -349,8 +351,8 @@ print('\nextracting medical entities from abstracts to identify possible treatme
 # get entities (included and excluded from treatment list based on terms_to_exclude) and abstracts
 possible_treatments, not_possible_treatments = extract_entities_from_abstract_and_keywords(abstracts, keywords)
 # add not_possible_treatments['not_medical_term'] to possible_treatments as terms not in dictionary are often medical terms
-possible_treatments.update([item for item in not_possible_treatments['not_medical_term']])
-open(f"{output_dir}/not_possible_treatments_{filename}.txt", 'w').write('\n'.join([item for item in not_possible_treatments]))
+#possible_treatments.update([item for item in not_possible_treatments['not_medical_term']])
+open(f"{output_dir}/not_possible_treatments_{filename}.txt", 'w').write('\n'.join([key + '_' + ','.join(values) for key, values in not_possible_treatments.items()]))
 open(f"{output_dir}/possible_treatments_{filename}.txt", 'w').write('\n'.join([item for item in possible_treatments]))
 
 # find similar treatments based on similar sentence structure and word usages
