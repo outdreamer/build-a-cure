@@ -3,6 +3,29 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:
 
+
+    - identify useful structures like 'useful queries that lead to useful thoughts like identifying other useful structures'
+        - for example, thinking about the following is more often useful than not:
+            - previous/recent/useful workflows/other structures identified
+            - problems with variation that seems to not be or is definitively not completely described yet
+            - new connections between high variation structures like concepts, where the new connection might also have a new way to find the new connection (new workflow), and where the new connection might have the highest value given the variation of the structures being connected
+            - vertex structures like 'common variables' of useful structures
+            - identifying the limits of usefulness and its causes like where useful structures arent useful, to identify usefulness areas/ranges
+            - random/extreme/scaled structures/variables and how they interact and how to connect/format them in new ways, given the high variation often required to connect them
+            - new formats/graphs of problems which often have new solution methods in those formats/graphs
+            - identifying structures that are not easily or relevantly described with change/component combinations (like a network of recursive/overlapping paths rather than a two-dimensional network), or finding the components/units that can be combined to identify structures not easily/relevant described with change/component combinations (units having some value in all of the available dimensions of the network)
+            - identifying abstractions of other structures and how theyre connectible to the structures in a useful way (like overlapping types connecting to examples)
+            - thinking about useful specific interface structures like 'similar but different' to identify useful structures like 'equivalent alternates'
+            - newly identified core functions or other function types and how to apply them in a new way, which might be a new variable or workflow
+            - new differences from identified useful structures which could lead to other useful structures (like differences from useful structures like common variables that would be useful to identify equivalent alternates of useful structures)
+            - new structures/variables like 'variables that capture more complexity or some other metric/concept'
+        - these structures focus on connecting useful structures, identifying new sources of variation and the interface structures surrounding variation, given its usefulness for determining new structures like new workflows, and other problem-solving intents, applied to specific structures like 'understood problems/concepts', 'recent solutions/structures identified', and other useful structures that are useful for their specificity and recent usage/storage in memory, meaning navigating them is more trivial
+
+    - identify useful structures like the 'meaning of a similarity/standard/useful structure' to pre-compute the meaning of that structure rather than calculating it later when integrated into the meaning/interface interface
+        - for example, the 'best' in a field could be identified by many standards (the best in the past century for 'technological access' similarity, the best alive for 'testability/provability', the best at using AI/other technologies to fulfill their intents, the best at fulfilling intents without AI/other technologies, the best at explaining/automating/understanding their field, the best given the variation they identified/added to the field, the best given the degree to which they made other tasks in the field trivial)
+        - these various standards of 'best' have different meanings, which is useful to identify before selecting/applying them, such as how the 'best in the past century' is high variation and doesnt account for differences in decisions to use technologies they had access to, and the 'best alive' have a meaning of 'functionality like testing them on other problems'
+        - pre-computing the meaning of structures like similarities/standards is useful to identify so that the ultimate meaning/relevance/impact (at scale in its interactions with other structures) is more probably predicted, which simplifies selecting structures
+
     - identify useful structures like 'non-1-to-1 mappings' that are useful to combine with '1-to-1 mappings' (or approximate mappings like extremes/limits) to identify structures that offer a mix of certainty/uncertainty and similarity/difference to fulfill a useful ratio of those opposing structures to cover high-variation differences common in problems
         - rather than asking what is associated, what is not associated (what variables dont seem to be particularly associated with other structures)
             - for example, just thinking about numerical values is often too isolated from other structures to be useful (theyre only useful when integrated with other structures like causal sequences of values, position of values, etc)
