@@ -342,8 +342,20 @@ print('\nformatting & storing abstract and keyword lists, to identify possible t
 # format abstracts/keywords as a list from the downloaded pubmed file or the pubmed api
 #abstracts, keywords = get_abstracts_from_pubmed_api(condition, 500, 'jonijezewski@outlook.com')
 abstracts, keywords = get_abstracts_from_pubmed_download(saved_pubmed_download)
+
+
 # to do: remove
-abstracts[0] = abstracts[0][0:10]
+new_abstracts = []
+for i, abstract in enumerate(abstracts):
+	if i < 10:
+		new_abstracts.append(abstract[0])
+	elif i == 10:
+		break
+abstracts = [abstract for abstract in new_abstracts]
+print('abstracts', abstracts)
+
+
+
 open(f"{output_dir}/keywords_{filename}.txt", 'w').write('\n'.join([item for item in keywords]))
 open(f"{corpus_dir}/abstracts_{filename}.txt", 'w').write('\n'.join([abstract[0] for abstract in abstracts]))
 
@@ -378,6 +390,7 @@ print('\nscript time', str((time.time() - script_start_time)/ 7) + ' minutes')
 	as the meaning of a word here is 'its interaction with other structures'),
 	and identifying 'differences from this structure, given its importance to identify' (adjacent changes of truthhood) are similarly a useful variable set.
 - these are 'similarly high variation variable sets that offer complementary info, as opposed to redundant info'
+- finding these alternate 'variable sets' from the others is a matter of identifying important similarities to maintain and differences that can vary, then maintaining/varying those accordingly
 
 bc 'common', 'equivalent alternate', 'subset', 'position', 'sequence', 'adjacent' seem to be enough to cover more relevance in language, 
 although there are relevant terms without these attributes, they just require more work and may not always have a reason why the work is justified, so are less common
