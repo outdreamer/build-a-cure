@@ -123,7 +123,7 @@ def find_similar_words_using_custom_abstract_corpus(corpus_dir, abstracts, treat
 					if item is not None:
 						medical_term = search_wiki_references_for_medical_term(item)
 						if medical_term:
-							similar_alt_treatments.add(medical_term)
+							similar_alt_treatments.add(item)
 						else:
 							not_used_alt_treatments.add('not a medical term: ' + item)
 				all_similar_alt_treatments.add(known_treatment + ' ~ ' + ','.join([item for item in similar_alt_treatments]))
@@ -154,9 +154,13 @@ def search_wiki_references_for_medical_term(phrase):
 		if len([source for source in medical_sources if source in references]) > 0:
 			return True
 	except wikipedia.DisambiguationError as e:
-		print('e options', e.options)
+		pass
+		#print('e options', e.options)
+		# to do: add check for options
 	except Exception as e:
 		print('search exception', phrase, e)
+		# assume its a medical term if there is no entry for it
+		return phrase
 	return False
 
 def check_if_medical_term(phrase, search_source):
