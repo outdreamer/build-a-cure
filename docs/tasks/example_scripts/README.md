@@ -36,7 +36,7 @@ INSTALLATION:
 
 
 NOTES:
-- the script can take up to half an hour to run on 10,000 search results
+- the script can take up to seveeral hours to run on 10,000 search results bc of all the processing I added recently.
 
 
 EXAMPLE OUTPUT AND ERRORS
@@ -68,3 +68,5 @@ TO DO LIST:
 - use context checking for a similarity metric from nltk - https://www.nltk.org/book/ch05.html
 - filter out variants of the same word
 - add generation of similar searches, such as a general type search as in 'fungal treatment' or a similar but more common fungal species like 'candida treatment' instead of 'cryptococcus treatment' or pathogens that bind to cryptococcus like 'staphylococcus aureus'
+- fix errors, such as medical terms excluded from current possible_treatments file
+- reduce time of script
