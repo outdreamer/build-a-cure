@@ -15,11 +15,24 @@ as these nouns could be possible treatments studied recently
     - changing 'known_treatments' to reflect substances that you want to find similar substances to can sometimes find similar treatments based on sentence context (usage of the word).
     - changing 'terms_to_exclude' to remove any words from list of treatments found, otherwise it will use the condition words to remove the condition from treatments found.
         terms_to_exclude = ['biology', 'exclude-this'] 
-5. run the script:
+
+
+5.a run the script:
+
 # example like 'python3 parse_pubmed_download.py condition known_treatments terms_to_exclude'
 ```
 python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, choline, eugenol' -t 'biology'
 ```
+I recommend not including a 'term to exclude' at all until youve viewed the output and know what you want to exclude, otherwise you could easily end up excluding treatments.
+
+
+5.b run the script like this if you want to store the errors and other messages it creates in a file rather than just showing them in the terminal window:
+
+```
+python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, choline, eugenol' -t 'biology' > output.txt
+```
+You'll have to change the name of the output.txt file each time to save the output from different scripts.
+
 
 INSTALLATION: 
 

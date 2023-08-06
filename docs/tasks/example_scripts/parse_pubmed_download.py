@@ -158,7 +158,8 @@ def search_wiki_references_for_medical_term(phrase):
 		#print('e options', e.options)
 		# to do: add check for options
 	except Exception as e:
-		print('search exception', phrase, e)
+		pass
+		#print('search exception', phrase, e)
 		# assume its a medical term if there is no entry for it
 		return phrase
 	return False
