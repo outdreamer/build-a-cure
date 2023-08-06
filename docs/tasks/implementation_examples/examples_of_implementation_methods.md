@@ -3,6 +3,11 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:
 
+    - identify useful functions that create useful structures like workflows from other useful structures (like an info structure + a system/logic structure)
+        - identify structures that, when adjacently changed such as adjacently combined, create other useful structures, such as how the system/logic structure of a 'requirement (of a problem to solve)' and the info structure of a 'lack of information' creates the workflow 'trial and error' adjacently, as in 'when info is lacking, all possibilities need to be tried' (more specifically, until an acceptable solution (solution metric threshold as a halting condition) or all solutions are found (no halting condition))
+        - this is derivable using the following changes (applying similarities with trivial differences to generate similar structures as the previous input in the sequence applied to 'one of the structures', then integrating it with the other structure 'lack of info' in the next sequence)
+        - 'problem to solve' -> 'requirement (of a problem to solve)' -> 'general solution metrics' -> 'possible solutions'
+            - 'lack of info to filter possible solutions' -> 'try all solutions' ('trial and error')
 
     - identify useful structures like 'useful queries that lead to useful thoughts like identifying other useful structures'
         - for example, thinking about the following is more often useful than not:
