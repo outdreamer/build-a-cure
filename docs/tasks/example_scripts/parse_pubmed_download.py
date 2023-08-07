@@ -183,9 +183,8 @@ def check_if_medical_term(phrase, search_source):
 							#print('result', phrase, definitions)
 							if part_of_speech == 'NOUN':
 								if len(definitions) > 0:
-									all_definitions = ','.join(definitions)
 									for medical_term in medical_terms_to_check:
-										if medical_term in all_definitions:
+										if medical_term in ','.join(definitions):
 											return phrase
 					else:
 						# assume if there is no dictionary term found, that it is a medical term for now
@@ -269,7 +268,8 @@ def extract_entities_from_abstract_and_keywords(abstracts, keywords):
 	# make a list of deduplicated abstract entities which are not just numbers/punctuation like 25% and which were not already lemmatized in full
 	deduplicated_abstract_entities = set()
 	for abstract in abstracts:
-		for entity in nlp(abstract[0].lower().strip()).ents:
+		abstract_formatted = abstract[0].lower().strip().replace('    ', ' ').replace('   ', ' ').replace('  ', ' ')
+		for entity in nlp(abstract_formatted).ents:
 			entity_text = entity.text.lower().strip()
 			# this isnt just numbers/punctuation, it has letters
 			just_nonletters = ''.join([c for c in entity_text.lower() if c not in 'abcdefghijklmnopqrstuvwxyz'])
@@ -303,6 +303,7 @@ def extract_entities_from_abstract_and_keywords(abstracts, keywords):
 				possible_treatments.add(abstract_entity)
 			else:
 				not_possible_treatments['not_medical_term'].add(abstract_entity) 
+	print('possible_treatments', len(possible_treatments), 'not_possible_treatments', len(not_possible_treatments))
 	print('possible_treatments', possible_treatments, 'not_possible_treatments', not_possible_treatments)
 	return possible_treatments, not_possible_treatments
 
