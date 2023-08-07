@@ -1,6 +1,8 @@
 docs/tasks/example_scripts/*.txt
 docs/tasks/example_scripts/*corpus*
 docs/tasks/example_scripts/*output*
+*.drawio.svg.dtmp
+*.svg.bkp
 scripts/fetch_pubmed_data/geniatagger
 scripts/fetch_pubmed_data/geniatagger-python
 scripts/fetch_pubmed_data/craft
