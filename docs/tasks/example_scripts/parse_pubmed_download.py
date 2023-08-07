@@ -260,35 +260,66 @@ def extract_entities_from_abstract_and_keywords(abstracts, keywords):
 	# filter abstract using scispacy entity detector, to create the most filtered list using entity recognition
 	lemmatized_entities = set()
 	possible_treatments = set()
+	# to do: remove dates
+	number_strings = [
+		'year', 'annual', 'month', 'week', 'decade', 'century', 'day', 'daily', 'hour', 'minute', 'second', 'january', 
+		'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 
+		'two', 'three', 'four', 'five', 'six', 'seven', '%', 'percent', 'first', 'second', 'third', 'fifth', 'tenth', 
+		'billion', 'trillion', 'million', 'thousand', 'hundred', 'more', '='
+	]
+	irrelevant_strings = ['university', 'center', 'institute', 'association', 'foundation', 'hospital', 'college']
+	exact_number_words = ['age', 'less', 'one']
+	# to do: fix misclassified terms: dystussia/langerhans as not a medical term, alphasynuclein/thioflavin/monocarboxylate/corticosteroid as already lemmatized, '81 to 100' as not just nonletters
 	not_possible_treatments = {'not_medical_term': set(), 'already_lemmatized': set(), 'just_nonletters': set()}
 	# deduplicate entities by creating one list of entities from a document composed of all abstracts and keywords
 	abstracts.append(' '.join(set(keywords)))
 
 	print('deduplicating abstract entities')
-	# make a list of deduplicated abstract entities which are not just numbers/punctuation like 25% and which were not already lemmatized in full
+	# make a list of deduplicated abstract entities which are not just numbers/punctuation like '25%' or 'between 70 and 80' or 'one day' and which were not already lemmatized in full
 	deduplicated_abstract_entities = set()
+	
 	for abstract in abstracts:
+		
 		abstract_formatted = abstract[0].lower().strip().replace('    ', ' ').replace('   ', ' ').replace('  ', ' ')
+		
 		for entity in nlp(abstract_formatted).ents:
+			# identify proteins like P53, but also exclude strings like like '25%' or 'between 70 and 80' or 'one day' and which were not already lemmatized in full
+			
 			entity_text = entity.text.lower().strip()
-			# this isnt just numbers/punctuation, it has letters
-			just_nonletters = ''.join([c for c in entity_text.lower() if c not in 'abcdefghijklmnopqrstuvwxyz'])
-			if len(just_nonletters) < len(entity_text): 
-				already_lemmatized_count = []
-				entity_words = entity_text.split(' ')
-				for entity_word in entity_words:
-					lemmatized_entity_word = lemmatize_word(entity_word)
-					# this is a new word, so add it to entities already lemmatized
-					if lemmatized_entity_word not in lemmatized_entities:
-						lemmatized_entities.add(lemmatized_entity_word)
-						already_lemmatized_count.append(lemmatized_entity_word)
-				# make sure the whole phrase wasnt already lemmatized completely, 
-				if len(already_lemmatized_count) < len(entity_words): 
-					deduplicated_abstract_entities.add(entity_text)
-				else:
-					not_possible_treatments['already_lemmatized'].add(entity_text)
+
+			# has an irrelevant string
+			if len([c for c in irrelevant_strings if c in entity_text]) > 0:
+				not_possible_treatments['irrelevant_strings'].add(entity_text)
 			else:
-				not_possible_treatments['just_nonletters'].add(entity_text)
+				
+				# create list of words that are nouns/verbs and dont have any number strings in them and arent just numbers
+				current_lemmatized_count = len(lemmatized_entities)
+				entity_text_words = entity_text.split(' ')
+				new_entity_text_words = []
+				for word in entity_text_words:
+					items_to_remove_found_in_word = []
+					for list_to_remove in [exact_number_words, number_strings]:
+						for c in list_to_remove:
+							if c in word:
+								items_to_remove_found_in_word.append(c)
+					if len(items_to_remove_found_in_word) == 0:
+						just_nonletters = [c for c in word if c not in 'abcdefghijklmnopqrstuvwxyz']
+						if len([token for token in nlp(word) if token.pos_ in ['PROPN', 'NOUN', 'VERB']]) > 0 and len(just_nonletters) < len(word):
+							new_entity_text_words.append(word)
+							if lemmatize_word(word) not in lemmatized_entities:
+								lemmatized_entities.add(word)
+				new_lemmatized_count = len(lemmatized_entities)
+
+				# still have interesting/new words in this entity
+				if len(new_entity_text_words) > 0:
+					# make sure the whole phrase wasnt already lemmatized completely, meaning the newly lemmatized words were less than the original entity words
+					if (new_lemmatized_count - current_lemmatized_count) < len(entity_text_words): 
+						deduplicated_abstract_entities.add(entity_text)
+					else:
+						not_possible_treatments['already_lemmatized'].add(entity_text)
+				else:
+					not_possible_treatments['just_nonletters'].add(entity_text)
+					
 	print('all deduplicated abstract entities count', len(deduplicated_abstract_entities))
 
 	print('searching entities from abstracts/keywords for medical terms')
