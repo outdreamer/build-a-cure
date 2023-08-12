@@ -366,6 +366,7 @@ script_start_time = time.time()
 
 already_looked_up = set() # track words that have already been looked up
 no_dictionary_term_found = set()
+# to do: add 'chemicals likely to bind with' and other treatment mechanisms of action like inhibiting pathways using the target to reduce the target's impacts or inhibiting pathways that produce the target or its inputs to find new treatments
 # to do: get common categories from wiki of terms in pubmed articles
 # to do: also check for 'letter-number' mixes as those are likely to be medical terms
 medical_terms_to_check = [
