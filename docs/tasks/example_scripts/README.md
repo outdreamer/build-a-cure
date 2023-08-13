@@ -2,7 +2,9 @@
 NAME: Possible Treatment Finder
 
 
-PURPOSE: this script helps find possible treatments for a condition, 
+PURPOSE: 
+
+This script helps find possible treatments for a condition, 
 by compiling a list of nouns mentioned in research studies for a given search like 'meningitis treatment', 
 as these nouns could be possible treatments studied recently
 
@@ -21,7 +23,7 @@ as these nouns could be possible treatments studied recently
 
 # example like 'python3 parse_pubmed_download.py condition known_treatments terms_to_exclude'
 ```
-python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, choline, eugenol' -t 'biology'
+python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, citicoline, eugenol' -t 'biology'
 ```
 I recommend not including a 'term to exclude' at all until youve viewed the output and know what you want to exclude, otherwise you could easily end up excluding treatments.
 
@@ -29,7 +31,7 @@ I recommend not including a 'term to exclude' at all until youve viewed the outp
 5.b run the script like this if you want to store the errors and other messages it creates in a file rather than just showing them in the terminal window:
 
 ```
-python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, choline, eugenol' -t 'biology' > output.txt
+python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, citicoline, eugenol' -t 'biology' > output.txt
 ```
 You'll have to change the name of the output.txt file each time to save the output from different scripts.
 
@@ -53,8 +55,8 @@ NOTES:
 
 
 EXAMPLE OUTPUT AND ERRORS
-- for 'cancer treatment' Pubmed search results, this script included 'lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
-- for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'choline' which are active against that condition.
+- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'fucose', lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+- for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'citicoline' which are active against that condition.
 - on the other side, there were thousands of nouns to sift through, so this tool could use some filtering.
 - also, harmful substances were included in the search results (amphotericin is very harmful and can be deadly in the amounts required to fight a fungal infection)
 - also, ineffective substances were included in the search results (miltefosine is ineffective for some people with fungal infections).
