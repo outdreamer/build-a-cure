@@ -55,7 +55,7 @@ NOTES:
 
 
 EXAMPLE OUTPUT AND ERRORS
-- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'fucose', lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'linalool', 'fucose', 'lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
 - for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'citicoline' which are active against that condition.
 - on the other side, there were thousands of nouns to sift through, so this tool could use some filtering.
 - also, harmful substances were included in the search results (amphotericin is very harmful and can be deadly in the amounts required to fight a fungal infection)
