@@ -17,22 +17,13 @@ as these nouns could be possible treatments studied recently
     - changing 'known_treatments' to reflect substances that you want to find similar substances to can sometimes find similar treatments based on sentence context (usage of the word).
     - changing 'terms_to_exclude' to remove any words from list of treatments found, otherwise it will use the condition words to remove the condition from treatments found.
         terms_to_exclude = ['biology', 'exclude-this'] 
-
-
-5.a run the script:
-
-# example like 'python3 parse_pubmed_download.py condition known_treatments terms_to_exclude'
-```
-python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, citicoline, eugenol' -t 'biology'
-```
+5. A. run the script:
+Example run like 'python3 parse_pubmed_download.py condition known_treatments terms_to_exclude'
+``` python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, citicoline, eugenol' -t 'biology' ```
 I recommend not including a 'term to exclude' at all until youve viewed the output and know what you want to exclude, otherwise you could easily end up excluding treatments.
 
-
-5.b run the script like this if you want to store the errors and other messages it creates in a file rather than just showing them in the terminal window:
-
-```
-python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, citicoline, eugenol' -t 'biology' > output.txt
-```
+5. B. run the script like this if you want to store the errors and other messages it creates in a file rather than just showing them in the terminal window:
+``` python3 parse_pubmed_download.py -c 'fungal treatment' -k 'sitosterol, fluconazole, citicoline, eugenol' -t 'biology' > output.txt ```
 You'll have to change the name of the output.txt file each time to save the output from different scripts.
 
 
@@ -51,12 +42,14 @@ INSTALLATION:
 
 
 NOTES:
+
 - the script can take up to seveeral hours to run on 10,000 search results bc of all the processing I added recently.
 
 
 EXAMPLE OUTPUT AND ERRORS
-- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'linalool', 'fucose', 'lysine', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
-- for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'citicoline' which are active against that condition.
+
+- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'linalool', 'fucose', 'lysine', 'withaferin', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+- for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'atorvastatin' and 'citicoline' and 'ginseng' which are active against that condition (but left out 'withaferin' which is an antifungal and is similar to 'ginsenoside').
 - on the other side, there were thousands of nouns to sift through, so this tool could use some filtering.
 - also, harmful substances were included in the search results (amphotericin is very harmful and can be deadly in the amounts required to fight a fungal infection)
 - also, ineffective substances were included in the search results (miltefosine is ineffective for some people with fungal infections).
@@ -69,6 +62,7 @@ EXAMPLE OUTPUT AND ERRORS
 
 
 OUTPUT FILES:
+
 - keywords will be stored in (search_term)_output/keywords_(search_term).txt
 - abstracts will be stored in (search_term)_corpus/abstracts_(search_term).txt
 - similar treatments (based on either known_treatments or possible_treatments) will be stored in (search_term)_output/similar_treatments_to_known/possible_treatments_(search_term).txt
@@ -77,6 +71,7 @@ OUTPUT FILES:
 
 
 TO DO LIST:
+
 - add 'integrated deduplicated search results' so that results that occur in multiple searches can be de-duplicated (to find generally useful compounds that can help multiple conditions, for those managing multiple conditions)
 - add filters to remove irrelvant nouns like places and filter out anything that isnt a treatment (compound, process, pathogen)
 - lemmatize common words
