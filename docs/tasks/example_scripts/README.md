@@ -49,6 +49,21 @@ NOTES:
 EXAMPLE OUTPUT AND ERRORS
 
 - for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'linalool', 'fucose', 'lysine', 'withaferin', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+
+	- other anti-tumor substances identified in research (having various mechanisms of action like inhibiting vimentin, inducing apoptosis, suppressing growth factors, suppressing pro-inflammatory interleukins, upregulating interleukin-12, lowering inflammation, lowering LDL cholesterol, etc)
+	    - dendritic cell vaccines, checkpoint inhibitors, VSV (an oncolytic virus), linalool, fcose, lysine, ashwagandha/Withaferin or ginsenosides (a similar compound), atorvastatin, citicoline, melatonin, cilantro, ginger, coffee, green tea, lactobacillus, bacillus subtilis, milk thistle, chicory, turmeric, astragalus, pterostilbene, boswellia, selenium, ahcc (shiitake mushroom), mushrooms (reishi, maitake, turkey tail), mangosteen, quercetin, broccoli (indole-3-carbinol, sulfuraphane), beta-glucan, flaxseed, chamomile, guggulsterone, propolis
+
+	- as a side note, after testing various substances, the following substances were useful at reducing brain pressure/pain (not sure which ones worked):
+	    - low carb, low protein, mostly vegan diet (vegetables like avocados/artichokes/broccoli, nuts like walnuts, berries like blueberries, olive oil, mushrooms like reishi, shiitake, maitake, turkey tail), ashwagandha, atorvastatin, citicoline, melatonin, cilantro, ginger, coffee, green tea, lactobacillus (various strains), bacillus subtilis, milk thistle, selenium, omega-3 (fish oil)
+
+	- also avoid the following when treating cancer: 
+		- pesticides, methylfolate/nicotinamide supplements, sugar/processed foods, amino acids that tumors like such as arginine (also avoid sitosterol, NAC/glutathione, aluminium hydroxide, aluminium phosphate, and calcium phosphate which inhibit anti-tumor interleukins like interleukin-12), sun burn, ozone/pollution (I would use a Sundstrom silica dust respirator mask to filter out pollution while driving and while walking outside)
+
+    - tyrosine might also be implicated, which is a precursor to T3, which can influence cancer - given that T3 analogues like T2AA can inhibit PCNA's activity, tyrosine could be useful, but it might have the opposite effect, so Id avoid supplementing with that just in case
+
+    - substances not tried: 
+    	- I didnt try substances like various algaes which might be useful in treating cancer, or other anti-cancer substances not listed here
+
 - for 'fungal treatment' Pubmed search results, this script included 'eugenol' and 'atorvastatin' and 'citicoline' and 'ginseng' which are active against that condition (but left out 'withaferin' which is an antifungal and is similar to 'ginsenoside').
 - on the other side, there were thousands of nouns to sift through, so this tool could use some filtering.
 - also, harmful substances were included in the search results (amphotericin is very harmful and can be deadly in the amounts required to fight a fungal infection)
