@@ -1,30 +1,102 @@
 - various mechanisms of action of inhibiting cancer (and associated anti-tumor substances)
 
-    - the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
-	    - this includes processes such as:
-    		- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination
+	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
+		- this includes processes such as:
+			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination, acetylation, inflammation
+		- cancer variables
+			- cholesterol
+			- nitric oxide
+			- tumor necrosis factor alpha
+			- p53 and other relevant proteins
+			- pro/anti-inflammatory interleukins
+			- antioxidants to block reactive oxygen species
+			- white blood cells
+			- B/T cells
+			- NK cells
+			- growth factors
+			- oncogenes and anti-cancer genes
 
-    - antioxidants (to reduce negative impact of Reactive Oxygen Species)
-    	- vitamin C powder
-    	- alpha lipoic acid
+	- remove/reduce heavy metals like lead/cadmium
+		- chlorella
+		- cilantro 
+		- avoid foods that can have higher levels of lead/cadmium than other foods (unless the manufacturer explicitly removes them)
+			- basil, oregano, thyme, rice, fruit juice, coffee, chocolate
+		- these foods were more often found to have safer levels of lead/cadmium
+			- black pepper, coriander/cilantro, curry powder, garlic powder, saffron, sesame seeds
+
+	- specific compounds for reducing factors in specific cancers
+		- a formulation of boswellic acid, betaine, and myo-inositol helped reduce mammary density, a risk factor for breast cancer
+		- coumarins
+			- Citrus fruits are high in secondary metabolites, including flavonoids, limonoids, and coumarins, which are associated with a reduced risk of cancer
+			- however citrus juices were also associated with higher risk of non-melanoma skin cancer https://pubmed.ncbi.nlm.nih.gov/33946526/
+		- avoid animal protein during cancer treatment
+			- a low protein diet with vegetable protein delayed tumor growth
+
+	- reduce inflammation
+		- Bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae, fucoidan, magnesium, arginine, glucosamine, coq10, grape seed, fenugreek, taurine, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol, turmeric, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, glutamine, olive leaf, nettle, vitamin c, resveratrol, ginkgo, Ashwagandha
+
+	- antioxidants (to reduce negative impact of Reactive Oxygen Species)
+		- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
+		- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
+		- an antioxidant that helps protect your cells against the effects of free radicals
+		- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
+		- Free radicals might play a role in heart disease, cancer and other diseases
+		- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
+			- The foods you eat supply other antioxidants, such as vitamins C and E. 
+			- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
+			- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
+
+	- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
+		- https://return2health.com.au/articles/vitamin-mineral-antagonists
+		- avoid when correcting vitamin deficiencies:
+			- anti-convulsants (Barbituates, Phenytoin, Carbamazepine, Primidone, Valproic Acid, Zonisamide), birth control/estrogen, aminopterin, antibiotics, some anti-inflammatory agents, blood pressure medications/diuretics, metformin, alcohol, chlorogenic acid, caffeine/coffee/tea, raw fish, aspirin
+		- calcium binders/antagonists: avoid excess oxalic acid, which is present in too-large amounts in spinach, rhubarb, beets and beet greens, Swiss chard and chocolate
+		- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, Blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
+		- vitamin k antagonists (antibiotics, dicumarol and hydrocoumarol, which are used by medical people to relieve thrombosis (abnormal formation of blood clots in the blood vessels)
+		- vitamin c antagonists (cigarette smoke, ammonium chloride, stribesterol, thiouracil, atropine, barbituates, antihistamines, alcohol, stressors such as surgery or extreme temperatures)
+		- thiamine antagonists (ortho/para-hydroxyphenols, caffeic acid, chlorogenic acid, tannic acid, quercetin and rutin)
+		- b vitamin antagonists:
+			- alcohol
+			- folate deficiency
+			- Cortisone
+			- chloroalanine, acetylenic compounds (e.g. propargylglycine) and vinylic compounds (e.g. vinylglycine), α-methyl and amino-oxy substrate analogs (e.g. α-methylglutamate)
+			- Levothyroxine (pyridoxal-5-phosphate)
+			- The inactive form pyridoxine competitively inhibits the active pyridoxal-5'-phosphate (symptoms of vitamin B6 supplementation in the pyridoxine form can mimic those of vitamin B6 deficiency, an effect which can be avoided by supplementing with P5P instead)
+			- AlaP (alanine phosphonate) inhibits alanine racemases, but its lack of specificity has prompted further designs of ALR inhibitors
+			- Gabaculine and Vigabatrin inhibit GABA aminotransferase
+			- Canaline and 5-fluoromethylornithine inhibit ornithine aminotransferase
+			- Amino-oxy SAM inhibits ACC synthase
+			- egg whites (avidin)
+			- antifolate dihydrofolate reductase inhibitors (antimicrobial trimethoprim, the antiprotozoal pyrimethamine and the chemotherapy drug methotrexate, and the sulfonamides (competitive inhibitors of 4-aminobenzoic acid in the reactions of dihydropteroate synthetase))
+			- Valproic acid/valproate, amoxicillin, erythromycin, methotrexate and pyrimethamine, proton pump inhibitors, h2 inhibitors, metformin, colchicine, extended-release potassium products, and antibiotics such as gentamicin, neomycin and tobramycin, Anti-seizure medications (phenobarbital, pregabalin, primidone and topiramate)
 
 	- inhibit bacteria/fungi/viruses that cause cancer (EBV, HPV, Herpes, Hepatitis)
 		- fungi
 			- wherever fungi can cause cancer, they can often be inhibited by antifungal compounds such as:
 				- holy basil (has eugenol, which disrupts fungal cell wall) and citicoline
+					- Holy basil might lower thyroxine levels. In theory, this could worsen hypothyroidism (this might also interfere with inhibiting PCNA)
 				- other substances commonly found in antifungal supplements:
-					- oregano (thymol, carvacrol), undecylenic acid, pau d'arco, black walnut, garlic, olive leaf, elderberry, grape seed, danshen, chinese skullcap (baicalen), caprylic acid, turmeric, ginger, sitosterol, neem, jatoba, beta-glucanase, hemicellulase, fulvic acid, licorice, star anise, cordyceps, reishi, ashwagandha, quercetin, lactic acid-producing bacteria, bacillus subtilis, wormwood, artemisin, apigenin, lactoferrin
+					- oregano (thymol, carvacrol), undecylenic acid, pau d'arco (lapachol), black walnut, garlic, olive leaf, elderberry, grape seed, danshen, chinese skullcap (baicalen), caprylic acid, turmeric, ginger, sitosterol, neem, jatoba, beta-glucanase, hemicellulase, fulvic acid, licorice, star anise, cordyceps, reishi, ashwagandha, quercetin, lactic acid-producing bacteria, bacillus subtilis, wormwood, artemisin, apigenin, lactoferrin, horopito (polgodial)
 		- bacteria
 			- Helicobacter pylori
 				- the following are commonly found in Helicobacter pylori supplements, but the activity of these is unclear
 					- uncaria tomentosa (cat's claw), lactobacillus reuteri, green tea, licorice, berberine, bismuth citrate, mastic gum, broccoli sprouts, zinc
 					- Lactobacillus Reuteri Pylopass, Lactobacillus Acidophilus, Lactobacillus Plantarum, Lactobacillus Salivarius Lactobacillus Casei, Lactobacillus Rhamnosus Lactobacillus Bulgaricus, Lactococcus Lactis, Bifidobacterium Longum, Bifidobacterium Bifidum, Bifidobacterium Breve
+					- probiotics/wine/beer, pepto bismol, sodium butyrate, saccharomyces boulardii
 		- viruses
 			- Hepatitis B/C
 				- the following are commonly found in liver supplements, but the activity of these is unclear
 					- reishi, cordyceps, milk thistle, NAC, schisandra, irish sea moss, black cumin seed oil, burdock, bladderwrack, black pepper, turmeric, beet root, artichoke leaf, chanca piedra, dandelion, choline, chicory, yarrow, jujube, celery, ginger, alfalfa, caper bush, arjuna, tamarisk, black nightshade, cassia occidentalis, zinc, L-methionine, feverfew, grape seed, yellow dock root, raspberry, berberine HCL, l-cysteine HCL, rutin, amla 
 					- nattokinase/serrapeptase are also found in liver supplements, but have some cardiac/blood pressure side effects
 					- enzymes like papain/bromelain are also found in liver supplements, possibly to reduce the work of the liver
+				- alpha lipoic acid: regenerates liver tissue, reverse the complications of diabetes mellitus, slow or stop the growth of cancer cells, and chelate heavy metals
+				- Licorice root contains an active compound called glycyrrhizic acid, which may help reduce inflammation in the liver and regenerate damaged liver cells
+					- licorice impacts the heart and blood potassium negatively so avoid licorice where possible
+				- supplements associated with liver cirrhosis treatment:
+					- spironolactone, thiamine, caffeine/coffee, NAC, fish oil, glutathione, sea buckthorn, cocoa, danshen, astragalus, selenium, taurine, l-carnitine, Bacillus Coagulans, L-Ornithine-L-Aspartate, Casein Protein, choline, peony, branched-chain amino acids
+				- avoid
+					- a damaged liver is stressed by excess iron, niacin, and vitamin A (the retinol type)
+
 			- HPV
 				- factors
 					- oncoproteins E6/E7 are involved in HPV carcinogenic activity
@@ -69,6 +141,7 @@
 			- detoxifies aryl hydrocarbons, which are known carcinogens, in the gut
 
 	- avoiding known carcinogens
+		- TCE (Trichloroethylene) - https://en.wikipedia.org/wiki/Trichloroethylene
 		- https://en.wikipedia.org/wiki/Carcinogen
 			- Benzo[a]pyrene 
 			- 1,3-Butadiene 
@@ -88,8 +161,21 @@
 				- https://en.wikipedia.org/wiki/Acetaldehyde
 			- avoid alkylating agents 
 				- https://en.wikipedia.org/wiki/Alkylating_antineoplastic_agent (when not using temozolomide for treatment)
+		- other compounds can trigger cancer in large amounts or when other errors have occurred
+			- nicotinamide
+			- folate
+			- bpc-157
 	
 	- induce apoptosis
+		- calestrol from thunder god vine
+        	- https://pubmed.ncbi.nlm.nih.gov/37196541/
+        	- inhibiting tumor cell proliferation, migration and invasion, inducing cell apoptosis, suppressing autophagy, hindering angiogenesis and inhibiting tumor metastasis
+        	- PI3K/Akt/mTOR, Bcl-2/Bax-caspase 9/3, EGFR, ROS/JNK, NF-κB, STAT3, JNK/Nrf2/HO-1, VEGF, AR/miR-101, HSF1-LKB1-AMPKα-YAP, Wnt/β-catenin and CIP2A/c-MYC signaling pathways are considered as important molecular targets for the anticancer effects of celastrol
+        	- however, celastrol has some adverse effects, low oral bioavailability and a narrow therapeutic window
+	    - betulinic acid from rosemary
+        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2658785/
+        	- triggers the mitochondrial pathway of apoptosis
+        	- In contrast to the cytotoxicity of betulinic acid against a variety of cancer types, normal cells and tissue are relatively resistant to betulinic acid, pointing to a therapeutic window.
  		- propolis 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9499605/
 			- Anticancer activity of propolis and its compounds relies on various mechanisms: 
@@ -139,6 +225,7 @@
 			- statins like atorvastatin exert anticancer activity via inhibiting the mevalonate pathway
 
 	- induce/activate/promote DNA repair (associated substances that help with DNA repair)
+		- avoid excess bile acids, which can damage DNA
 		- Uncaria tomentosa
 			- 80% lower levels of growth and increased apoptosis compared to vehicle controls. Treatment with ethanolic extracts of Uncaria tomentosa were much more effective than treatment with aqueous extracts. U. tomentosa was also shown to inhibit B16-BL6 cell growth in C57/bl mice in vivo. Mice injected with both the ethanolic and aqueous extracts of U. tomentosa showed a 59 ± 13% decrease in B16-BL6 tumour weight and a 40 ± 9% decrease in tumour size. Histochemical analysis of the B16-BL6 tumours showed a strong reduction in the Ki-67 cell proliferation marker in U. tomentosa-treated mice and a small, but insignificant increase in terminal transferase dUTP nick labelling (TUNEL) staining. Furthermore, U. tomentosa extracts reduced angiogenic markers and reduced the infiltration of T cells into the tumours
 			- black garlic rich in S-allylcystein, polyphenols from cat's claw (Uncaria tomentosa), devil's claw (Harpagophytum procumbens), camu-camu (Myrciaria dubia), and blackcurrant (Ribes nigrum), and citrus fruit extracts rich in hesperidin, have similar or greater effects than other, more extensively studied extracts such as tea and cocoa
@@ -171,13 +258,42 @@
 			- rapamycin as immunosuppressive agent enabled us to understand its mechanism of action. It inhibits T-cell proliferation and proliferative responses induced by several cytokines, including interleukin 1 (IL-1), IL-2, IL-3, IL-4, IL-6, IGF, PDGF, and colony-stimulating factors (CSFs), inhibiting angiogenesis and therefore tumor growth
 		- silymarin (milk thistle)
 			- https://pubmed.ncbi.nlm.nih.gov/34611448/
-
+			- Silibinin also has a number of potential mechanisms that could benefit the skin. These include chemoprotective effects from environmental toxins, anti-inflammatory effects, protection from UV induced photocarcinogenesis, protection from sunburn, protection from UVB-induced epidermal hyperplasia, and DNA repair for UV induced DNA damage (double strand breaks)
 
 	- increase interleukins which suppress tumors, avoid interleukins which promote tumors
-  		- increase IL-25
+		- https://www.nature.com/articles/s41568-021-00363-z
+		- suppresses tummors
+			- IL 2, 3, 7, 12, 15, 21, 25, 27
+				- curcumin reduced 6, 23
+				- ginger reduced 1
+				- garlic reduced 10
+				- cardamom reduced 6
+				- pepper reduced 1, 6
+				- anthocyanin (purple potatoes) reduced 6
+				- fucoidan reduced 1, 6, 8, 13
+				- cordyceps increased 4, 13, 25
+				- chicory reduced 1, 6
+				- hibiscus reduced 1
+				- boswellia reduced 1
+					- Beta-boswellic acid, keto-beta-boswellic acid, and acetyl-keto-beta-boswellic acid (AKBA) have been indicated in apoptosis of cancer cells, in particular brain tumors and cells affected by leukemia or colon cancer
+		- helps tumors
+			- IL 1, 4, 6, 8, 10, 11, 13, 17, 20, 22, 23, 27, 33, 35
+				- white ginseng increased 1, 2, 4, 5, 6, 10, 12, 23
+				- red ginseng increased 1, 2, 4, 5, 6, 10
+				- a blazei increased 1, 4, 6
+				- g lucidum - reishi increased 1, 2, 6 
+				- g frondosa - maitake increased 1, 12
+				- b subtilis increased 1, 6, 10, 12, 23
+				- chlorella vulgaris increased 1 and reduced 2, 12
+				- lactobacillus plantarum increased 4, 5, 6, 12, 17
+				- glutamine increases 2
+				- alanine increases 6
+				- DHA increases 1, 2
+  		- increase IL-25 (tumor suppressor)
 	  		- avoid IL-25 inhibitors
 	 			- sitosterol inhibits IL-25
-		- increase IL-12
+	 			- https://pubmed.ncbi.nlm.nih.gov/34128588/#:~:text=It%20has%20been%20confirmed%20that%20IL-25%20exerts%20a,the%20tumor%20microenvironment%20and%20activating%20the%20apoptotic%20pathways.
+		- increase IL-12 (tumor suppressor)
 			- use IL-12 activators
 				- ahcc
 					- AHCC is thought to modulate tumor immune surveillance by regulating innate and adaptive immune system responses. The compound may act as a biological response modifier by enhancing natural killer cell activity, interleukin 12 (IL-12) and tumor immunity production, and spleen cell proliferation and cytokine production
@@ -191,22 +307,24 @@
 				- aluminium hydroxide, aluminium phosphate, and calcium phosphate adjuvants inhibit the secretion of the Th1 polarizing cytokine, IL-12
 				- vitamin d decreases IL-12
 
-   		- inhibits tumor markers that can be causes of cancer (vimentin/PCNA)
-   			- inhibit vimentin
-   				- withaferin A (ashwagandha)
-			- inhibit PCNA
-				- inhibit bacterial/eukaryal DNA clamps
-					- Inhibitors of bacterial (β-clamp) and eukaryal DNA clamps can also inhibit proliferating cell nuclear antigen (PCNA) (B clamps and PCNA are structurally similar)
-					- https://www.frontiersin.org/articles/10.3389/fmolb.2018.00087/full#:~:text=Inhibitors%20of%20bacterial%20%28β-clamp%29%20and%20eukaryal%20DNA%20clamps%2C,inhibitors%2C%20natural%20products%2C%20and%20modified%20non-steroidal%20anti-inflammatory%20drugs.
-				- increase T2AA to inhibit PCNA
-					- T2AA is a small molecule analog of triiodothyronine (T3) that inhibits translesion DNA synthesis (Punchihewa et al., 2012). 
-					- T2AA was found to inhibit PCNA interaction with p21 and Polδ by binding in the PIP site
-				- modified peptides and small molecule inhibitors
-				- natural products (Griselimycin or cyclohexyl-Griselimycin)
-				- modified non-steroidal anti-inflammatory drugs (modified NSAIDs)
-					- carprofen, bromfenac, and vedaprofen bound to subsite 1 on β-clamp. 
-					- These molecules bury a hydrophobic group into subsite 1 and an aromatic group into an adjacent region. 
-					- The lack of interaction with subsite 2 is likely the reason for the relatively weak interaction with β-clamp (minimal inhibitory concentration, MIC > 1,250 μM) and relatively weak inhibition as compared to antibiotics such as ampicillin (MIC = 125 μM) and Chloramphenicol
+   	- inhibits tumor markers that can be causes of cancer (vimentin/PCNA)
+   		- inhibit vimentin
+   			- withaferin A (ashwagandha)
+		- inhibit PCNA
+			- inhibit bacterial/eukaryal DNA clamps
+				- Inhibitors of bacterial (β-clamp) and eukaryal DNA clamps can also inhibit proliferating cell nuclear antigen (PCNA) (B clamps and PCNA are structurally similar)
+				- https://www.frontiersin.org/articles/10.3389/fmolb.2018.00087/full#:~:text=Inhibitors%20of%20bacterial%20%28β-clamp%29%20and%20eukaryal%20DNA%20clamps%2C,inhibitors%2C%20natural%20products%2C%20and%20modified%20non-steroidal%20anti-inflammatory%20drugs.
+			- increase T2AA to inhibit PCNA
+				- T2AA is a small molecule analog of triiodothyronine (T3) that inhibits translesion DNA synthesis (Punchihewa et al., 2012). 
+				- T2AA was found to inhibit PCNA interaction with p21 and Polδ by binding in the PIP site
+				- thyroid hormone 3,3′,5-triiodothyronine (T3) is a potent inhibitor of the PCNA–PIP peptide interaction
+					- https://www.sciencedirect.com/science/article/abs/pii/S0165614714000303
+			- modified peptides and small molecule inhibitors
+			- natural products (Griselimycin or cyclohexyl-Griselimycin)
+			- modified non-steroidal anti-inflammatory drugs (modified NSAIDs)
+				- carprofen, bromfenac, and vedaprofen bound to subsite 1 on β-clamp. 
+				- These molecules bury a hydrophobic group into subsite 1 and an aromatic group into an adjacent region. 
+				- The lack of interaction with subsite 2 is likely the reason for the relatively weak interaction with β-clamp (minimal inhibitory concentration, MIC > 1,250 μM) and relatively weak inhibition as compared to antibiotics such as ampicillin (MIC = 125 μM) and Chloramphenicol
 
 	- reduce DNA prenylation
 		- atorvastatin
@@ -219,6 +337,22 @@
 	- non-invasive surgical methods
 		- thermal ablation induces cell death above 60 celsius
 		- https://en.wikipedia.org/wiki/Radiosurgery#Gamma_Knife
+		- ultrasound oncotripsy
+			- ultrasound applied at a frequency of 0.5–0.67 MHz and a pulse duration of >20 ms causes selective disruption of a panel of breast, colon, and leukemia cancer cell models in suspension without significantly damaging healthy immune or red blood cells - https://authors.library.caltech.edu/99007/
+			
+	- anti-cancer antibodies
+		- monoclonal antibodies
+			- Bevacizumab is a monoclonal antibody that binds to a protein called vascular endothelial growth factor (VEGF) and may prevent the growth of new blood vessels that tumors need to grow
+	
+	- other experimental treatments
+		- inhaled Perillyl Alcohol
+		- Anti-neoplastons
+		- Hydrazine Sulfate
+		- acetylate lysine (Alternatively, acetyl-CoA can acetylate lysine)
+
+	- inhibit tumor growth
+		- cbd with thc 
+			- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells.
 
 	- activate DNA repair enzymes (except when using temozolomide)
 		- MGMT
@@ -267,7 +401,7 @@
 		- https://en.wikipedia.org/wiki/Tumor_suppressor_gene
 			Gene		Original Function														Two-Hit?			Associated Carcinomas
 			Rb			DNA Replication, cell division and death								Yes					Retinoblastoma	
-			p53			Apoptosis																No			   	    Half of all known malignancies	
+			p53			Apoptosis																No			   		Half of all known malignancies	
 			VHL			Cell division, death, and differentiation								Yes					Kidney Cancer	
 			APC			DNA damage, cell division, migration, adhesion, death					Yes					Colorectal Cancer	
 			BRCA2		Cell division and death, and repair of double-stranded DNA breaks		Yes					Breast/Ovarian Cancer	
@@ -335,3 +469,191 @@
 							- Notch signaling plays a significant role in the development of colon cancer
 							- inhibition of Notch-mediated prosurvival by withaferin A facilitates c-Jun-NH2-kinase-mediated apoptosis in colon cancer cell lines
 						- inhibits cell motility and invasion capacity of cancer cells through MMP-2 by induction of Par-4
+
+
+- treating other conditions to avoid stressing the system
+
+	- heart failure 
+		- treatments
+			- resveratrol, taurine, creatine, arginine, carnitine, carnosine, iodine, fish oil, b vitamins, coq10, green tea, garlic, antioxidants like vitamins C and E and beta-carotene, avoiding deficiency of selenium/calcium/thiamine 
+			- Vitamins B6, B12 and folate all tend to reduce levels of homocysteine, which is associated with increased oxidative stress
+			- Carnitine, co-enzyme Q10 and creatine supplementation have resulted in improved exercise capacity in patients with HF in some studies
+			- avoid:
+				- excess salt/water, choline, arginine, ginseng, gingko, garlic, saw palmetto (with other heart drugs), calcium, niacin
+				- L-arginine may make blood pressure dip too low if you're already taking medications to treat the condition. 
+
+	- multiple sclerosis
+		- causes
+			- Among inflammatory components, ILs are a large group of cytokines secreted by cells and bind to specific receptors (18). 
+			- ILs play a pivotal role in triggering and modulating the immune responses in MS (19). 
+			- GWAS data sets have identified one or more single nucleotide polymorphisms (SNPs) for other widely-reported circulating ILs in MS, such as IL-1 receptor antagonist (IL-1Ra), IL-2Rα, IL-6, IL-16, IL-17, and IL-18
+		- treatments/prevention
+			- oral antihistamine clemastine has myelin-repairing qualities
+			- Lipoic acid, an antioxidant, may help block nerve fiber damage
+			- lithium orotate can also increase your brain’s growth hormone (BDNF
+			- Hyperbaric oxygen therapy (HBOT) 
+			- Researchers have found that LLLT can increase myelination and increase the total number of myelinated axons (79-81). 
+			- Researchers have also concluded that phosphatidylserine is required for healthy nerve cell membranes and myelin in the brain
+			- Pregnenolone and other steroid hormones regulate, repair, rebuild, and increase the production of myelin 
+			- Uridine is a nucleotide base found in beer, which has been proven to help treat “myelin sheath lesion” in several experimental and clinical studies 
+			- Withanoside IV is one of the main therapeutic compounds in ashwagandha and research shows that it can increase myelin levels in the nervous system
+			- Ginkgo Biloba is another common herb, which is taken for cognitive enhancement or to alleviate cognitive decline.
+				- It’s beneficial effects of cognition may be because it significantly increases the number of myelinated axons 
+			- Inositol is a small molecule structurally similar to glucose that is involved in cellular signalling. 
+				- Research shows that animals treated with inositol have significantly fewer demyelinating lesions
+			- lion’s mane increases the rate of myelination production, and the process of myelination begins earlier in the presence of the mushroom
+			- luteolin, quercetin and fisetin significantly decrease myelin phagocytosis and may be able to limit the demyelination process during multiple sclerosis
+			- Running has also been shown to increase myelination and delay the progression of demyelination, and therefore delays the progression of Alzheimer’s disease
+				- exercise increases mitochondrial activity, which then increases myelination in the brain 
+			- Vitamin D receptor boosts the regeneration of myelin
+			- vitamin k2 has also been shown to support myelin
+			- choline - causes clots
+			- vitamin b12, folate, S-adenosylmethionine, biotin, vitamin b5
+			- Rhodiola has radioprotective effects
+			- keto diet
+				- several studies show that when you increase the production of ketones, you improve myelination and increase myelin production (3-6). 
+				- ketones can also increase your brain’s growth hormone, help you overcome brain fog, support your brain’s mitochondria, and slow down cognitive decline. 
+			- monolaurin
+				- Monolaurin also has antiviral properties which are effective in fighting off multiple types of infections common in patients with MS. 
+				- Viral infections usually trigger inflammation and over production of T-cells, which can cause the myelin sheath to break down.
+			- vitamin d
+			- keto diet
+			- copper
+				- The myelin sheath regenerates using lipids, which can only be created using a copper-dependent enzyme. Without this assistance, other nutrients cannot do their job. Copper is found in lentils, almonds, pumpkin seeds, sesame seeds
+			- green tea
+
+	- silicosis treatments/prevention (silica can cause cancer)
+		- Other potential drugs have been reported to inhibit silica-induced pulmonary inflammation and fibrosis in silicotic models such as:
+			- anticytokines (anakinra, anti-IL-17 antibody, and anti-IL-9 antibody)
+			- antioxidants (N-acetylcysteine, corticosteroids, and dexamethasone)
+			- agents influencing the autophagic-lysosome system (imipramine, dioscin, and rapamycin)
+			- agents increasing cAMP levels
+			- microRNAs
+			- Mesenchymal stromal cells (MSCs) and MSC-derived extracellular vesicles (EVs) possess immunoregulatory and reparative abilities, which modulate innate and adaptive immunity and have shown great therapeutic potential in silicosis
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8884393/
+				- Salvia miltiorrhiza - Sodium tanshinone IIA sulfonate
+				- broccoli, berries, vegetables in general - Kaempferol
+				- Astragalus membranaceus - Astragaloside IV
+				- Dioscin - steroidal saponin present in a variety of vegetables and herbs, particularly in the species of Dioscoreaceae, Liliacae and Solanacae
+				- olive oil, holy basil - Oleanolic acid
+				- citrus fruits - Hesperetin
+				- buckthorn, knotweed - Reynoutria japonica Houtt, and Rheum officinale Baill - Emodin
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8616670/
+				- chinese skullcap - 黄芩 (Scutellaria baicalensis Georgi)
+
+	- acidosis
+		- causes
+			- sepsis, hypoxia, kidney/heart/liver/lung/brain damage, cirrhosis, inflammation, dysbiosis/SIBO, diabetes, high-fat diet, high carb diet, low fiber diet, insulin resistance low oxygen/hypoxia, COVID, COPD, bacterial/viral/fungal infection, hyperammonemia/hyperuricemia/uremia which causes high gastrin and high stomach acid production, vitamin deficiencies (especially vitamin b12 deficiency), cancer
+			- elevated levels of D‐dimer, C‐reactive protein and interleukin‐6, decreased levels of lymphocytes and albumin
+			- even though patients with acute liver failure show significantly elevated lactate levels, often, no overt acid-base disorder can be found because of the offsetting hypoalbuminaemic alkalosis
+				- Hypoalbuminaemic alkalosis is counteracted by hyperchloraemic and dilutional acidosis, resulting in a normal overall base excess
+			- lactic acidosis can be produced by excess lactate or b1/b9/b12 deficiencies
+			- excess amino acids like glutamine/arginine can cause acidosis
+			- high anion gap metabolic acidosis produced by glycolic acid, propylene glycol, salicylates, uric/hydrochloric acid, acidic foods
+			- medications can cause acidosis: 
+				- estrogen, niacin, spironolactone, aspirin, propylene glycol, glycolic acid, lactic acid, immune-suppressing drugs (corticosteroids)
+		- treatments
+			- sodium bicarbonate: 1 - 2g per day - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6677263/ - kidney failure patients should avoid excess sodium
+			- zinc
+			- gaviscon (sodium alginate)
+			- antioxidants
+				- vitamin c powder
+				- bromelain helps with vitamin c absorption
+				- ALA was effective for lactic acidosis (with creatine and coq10) - https://ods.od.nih.gov/factsheets/PrimaryMitochondrialDisorders-HealthProfessional/
+			- supplements for cytokine storm to reduce inflammatory response which can cause acidosis
+				- https://onedaymd.aestheticsadvisor.com/2020/04/immune-nutrients-to-calm-cytokine-storm.html
+				- Vitamin D3, Quercetin, Zinc, Curcumin (Turmeric), Nigella Sativa (Black Seed Oil) , Melatonin, Vitamin C, NAC and Glutathione, Vitamin A, Omega 3 (Fish Oil), Selenium, B Vitamins, Molecular Hydrogen, Lactoferrin, Probiotics, Green Tea (EGCG), Astaxanthin, Resveratrol
+			- lactoferrin binds with excess iron to reduce ferritin levels
+			- walnuts
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058555/
+			- Nicotinamide/magnesium
+				- https://en.wikipedia.org/wiki/Cytokine_storm
+			- anti-inflammatory compounds in: spirulina, ginger, green tea, bromelain, lactoferrin, thiamine, astaxanthin, olive oil, glutathione, branched-chain amino acids, NAC
+			- oxygen therapy
+			- molecular hydrogen
+			- alkaline water
+		   	- reducing/avoiding acidosis triggers
+		   	    - deficiencies like zinc deficiency (zinc deficiency can lower levels of alcohol dehydrogenase)
+		    	- nsaids/alcohol
+		    	- supplements metabolized by the liver
+		    	- avoid high salt/fat/carb diet
+			    	- Bile acids, at high levels in the colons of humans eating a high fat diet, also cause DNA damage and contribute to colon cancer
+		    - treat insulin resistance
+		    - avoid cirrhosis triggers
+		    	- estrogen and saw palmetto contribute to cirrhosis
+		    - treat cirrhosis
+		    	- Coffee has antioxidant and antifibrotic effects. Caffeine may not be the important component; polyphenols may be more important. Drinking two or more cups of coffee a day is associated with improvements in the liver enzymes ALT, AST, and GGT. Even in those with liver disease, coffee consumption can lower fibrosis and cirrhosis
+		    	- thiamine/NAC
+	    	- treat gallstones/gallbladder dysfunction
+	    		- causes: low-fiber diet, low intake of the nutrients folate, magnesium, calcium, and vitamin C, low fluid consumption, a high intake of carbohydrate, a high glycemic load, and high glycemic index diet
+	    		- possible treatments
+	    			- melatonin: A lack of melatonin could significantly contribute to gallbladder stones, as melatonin inhibits cholesterol secretion from the gallbladder, enhances the conversion of cholesterol to bile, and is an antioxidant, which is able to reduce oxidative stress to the gallbladder
+	    			- Wine and whole-grained bread may decrease the risk of gallstones
+	    			- Chenodeoxycholic/ursodeoxycholic acid
+
+    - COPD
+    	- possible treatments
+    		- vitamin C, vitamin E, zinc and selenium
+    		- bronchodilators
+    		- corticosteroids
+
+	- kidney failure
+		- avoid the following where possible, if you have kidney disease:
+			- Chromium picolinate, Germanium, L-lysine, Larrea tridentate, Pausinystalia yohimbe, Thunder god vine, Cat’s claw, Ephedra, Cranberry, Licorice, Astragalus, Barberry, Apium Graveolens, Creatine, Goldenrod, Horsetail, Huperzinea, Java Tea Leaf, Licorice Root, Nettle, Stinging Nettle, Oregon Grape Root, Parsley Root, Pennyroyal, Ruta Graveolens, Uva Ursi, Yohimbe, bucha leaves, juniper berries, Salix daphnoides (Willow Bark)
+			- Many herbal supplements can interact with prescription drugs. A few examples are St. Johns Wort, echinacea, ginkgo, garlic, ginseng, ginger, and blue cohosh
+	        - Multiple episodes of oxalosis from vitamin C supplementation have been reported
+		- possible ayurvedic kidney treatments
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3361922/
+				- Gokshura Guggulu Triphala Trikatu Musta: 1 g three times a day
+				- Gokshura Amalaki Guduchi: 3 g two times a day
+				- Varuna tvak Bilva moola Apamarga Chitrak moola Arani Shigru Bruhati Kirattikta Karanja Shatavari: 10 g two times/day
+				- Niruha basti of Punarnavadi kvatha: daily
+			- punarnava (boerhavia diffusa): remove toxins
+			- gokshur (tribulus terrestris): remove kidney stones, urine flow
+			- shuddha guguul (commiphora mukul): support immune system
+			- bhumi amla (phyllanthus niruri): diuretic
+			- amla (emblica oficinalis): remove toxins, diuretic
+			- haritaki (terminalis chebula): remove toxins, diuretic
+			- shirish (albezzia lebbok): anti-inflammatory, removes toxins
+			- palaash (butea monosperma): boosts liver, control blood sugar
+			- varuna (crateva nurvela): reduce inflammation/urea/creatinine, remove kidney stones
+			- kaasni (chicorium intybus): kidney strength, increase red blood cell count
+			- shigru (morienga oleifera): reduce inflammation, improve circulation in kidneys, boosts immune system
+			- apamarg (achranthyus aspera): anti-inflammatory, removes toxins
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7048188/
+				- Rheum emodi Wall Ex Meissn (Polygonaceae)
+				- Nelumbo nucifera Gaertn (Nelumbonaceae) 
+			- turmeric, resveratrol, quercetin, cordycepin, coreopsis tinctoria, phyllanthus niruri, garlic, ursolic acid (rosemary, thyme), green tea, short chain fatty acids (acetic acid, butyric acid, propionic acid and saturated fats)
+				- Ursolic acid may increase bile excretion and decrease bilirubin level [174]; high total bilirubin level may be correlated with mortality among CKD patients undergoing long-term hemodialysis
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981831/
+			- vitamin c can cause kidney stones in high doses
+			- thiamine, phosphate, magnesium, antioxidants
+		- possible herbal treatments for kidney injury - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9152371/
+			- antioxidants, chamomile, acai, caffeic/ferulic/oleanolic acid, garlic juice, black pepper, grape seed, quercetin/rutin, silymarin (milk thistle), sesame, resveratrol, rosemary, ginger, ginkgo biloba, stevia, cbd, curcumin, tribulus terrestris, salvia miltiorrhiza, crateva nurvela
+
+    - cholestasis
+    	- drug-induced triggers: ketoconazole, estrogen
+    	- possible treatments: milk thistle, arginine, Ursodeoxycholic acid (ursodiol)
+
+    - atherosclerosis
+    	- possible treatments: grape seed, royal jelly, berberine, magnesium, kombucha, carnitine, vitamin c, arginine, pomegranate, taurine, coq10, nattokinase, quercetin, lutein
+
+    - cardiovascular health
+    	- possible treatments: carnitine, resveratrol, coq10, magnesium, berberine, soy, chia, taurine, green tea, arginine, reishi, ginkgo, pomegranate, royal jelly, cannabis, ginseng, bromelain, grape seed, olive leaf, vitamin c, ALA, fenugreek, inositol, melatonin, nattokinase, wheat germ, flaxseed, chitosan, cinnamon, milk thistle, astragalus
+    
+    - sepsis
+    	- omega-3 fatty acids are not recommended as immune supplements for a person with sepsis or septic shock
+		- hydrocortisone, vitamin C, and thiamine as a treatment for preventing sepsis
+
+	- gout
+		- try low purine diet to see if it helps more than alkaline diet
+		- Milk. Some early research suggests that drinking skim milk may help reduce uric acid and gout flare-ups. It speeds up the excretion of uric acid in your urine and also reduces your bodys inflammatory response to uric acid crystals in your joints.
+		- Cherries. Scientists are currently researching the benefits of cherries and cherry juice for managing gout symptoms, and early results are promising. Cherries have known anti-inflammatory properties, and they may also help reduce uric acid in your body.
+		- Coffee. You may have heard that coffee is acidic, but the type of acid in coffee is very different from uric acid. In fact, drinking coffee daily can reduce your uric acid levels by several means. It slows the breakdown of purine into uric acid and speeds the rate of excretion.
+		- Water. People who drink five to eight glasses of water a day are less likely to experience gout symptoms. This makes sense since your kidneys use water to excrete uric acid in your urine. Water is also good for kidney health. Impaired kidney function is one factor that can contribute to gout.
+		- Peanuts, brown bread, and fruit also appear protective
+
+	- hypercholesterolemia
+		- can be caused by kidney damage and hypothyroidism, glucocorticoids, retinoids
+		- possible treatments: statins, fibrates, nicotinic acid, and cholestyramine
+		    - use niacin in the short-term, otherwise it can cause liver failure
