@@ -1,8 +1,9 @@
 - various mechanisms of action of inhibiting cancer (and associated anti-tumor substances)
 
+
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
-			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination, acetylation, inflammation
+			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination, acetylation, inflammation, ubiquitinization (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein)
 		- cancer variables
 			- cholesterol
 			- nitric oxide
@@ -16,61 +17,180 @@
 			- growth factors
 			- oncogenes and anti-cancer genes
 
-	- remove/reduce heavy metals like lead/cadmium
-		- chlorella
-		- cilantro 
-		- avoid foods that can have higher levels of lead/cadmium than other foods (unless the manufacturer explicitly removes them)
-			- basil, oregano, thyme, rice, fruit juice, coffee, chocolate
-		- these foods were more often found to have safer levels of lead/cadmium
-			- black pepper, coriander/cilantro, curry powder, garlic powder, saffron, sesame seeds
 
-	- specific compounds for reducing factors in specific cancers
-		- a formulation of boswellic acid, betaine, and myo-inositol helped reduce mammary density, a risk factor for breast cancer
-		- coumarins
-			- Citrus fruits are high in secondary metabolites, including flavonoids, limonoids, and coumarins, which are associated with a reduced risk of cancer
-			- however citrus juices were also associated with higher risk of non-melanoma skin cancer https://pubmed.ncbi.nlm.nih.gov/33946526/
-		- avoid animal protein during cancer treatment
-			- a low protein diet with vegetable protein delayed tumor growth
+	- general treatment strategies
 
-	- reduce inflammation
-		- Bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae, fucoidan, magnesium, arginine, glucosamine, coq10, grape seed, fenugreek, taurine, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol, turmeric, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, glutamine, olive leaf, nettle, vitamin c, resveratrol, ginkgo, Ashwagandha
+		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
 
-	- antioxidants (to reduce negative impact of Reactive Oxygen Species)
-		- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
-		- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
-		- an antioxidant that helps protect your cells against the effects of free radicals
-		- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
-		- Free radicals might play a role in heart disease, cancer and other diseases
-		- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
-			- The foods you eat supply other antioxidants, such as vitamins C and E. 
-			- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
-			- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
+		- reduce inflammation
+			- anti-inflammatory substances
+				- bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae, fucoidan, magnesium, arginine, glucosamine, coq10, grape seed, fenugreek, taurine, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol, turmeric, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, glutamine, olive leaf, nettle, vitamin c, resveratrol, ginkgo, Ashwagandha
+			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
+				- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
+				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
+				- an antioxidant that helps protect your cells against the effects of free radicals
+				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
+				- Free radicals might play a role in heart disease, cancer and other diseases
+				- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
+					- The foods you eat supply other antioxidants, such as vitamins C and E. 
+					- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
+					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
 
-	- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
-		- https://return2health.com.au/articles/vitamin-mineral-antagonists
-		- avoid when correcting vitamin deficiencies:
-			- anti-convulsants (Barbituates, Phenytoin, Carbamazepine, Primidone, Valproic Acid, Zonisamide), birth control/estrogen, aminopterin, antibiotics, some anti-inflammatory agents, blood pressure medications/diuretics, metformin, alcohol, chlorogenic acid, caffeine/coffee/tea, raw fish, aspirin
-		- calcium binders/antagonists: avoid excess oxalic acid, which is present in too-large amounts in spinach, rhubarb, beets and beet greens, Swiss chard and chocolate
-		- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, Blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
-		- vitamin k antagonists (antibiotics, dicumarol and hydrocoumarol, which are used by medical people to relieve thrombosis (abnormal formation of blood clots in the blood vessels)
-		- vitamin c antagonists (cigarette smoke, ammonium chloride, stribesterol, thiouracil, atropine, barbituates, antihistamines, alcohol, stressors such as surgery or extreme temperatures)
-		- thiamine antagonists (ortho/para-hydroxyphenols, caffeic acid, chlorogenic acid, tannic acid, quercetin and rutin)
-		- b vitamin antagonists:
-			- alcohol
-			- folate deficiency
-			- Cortisone
-			- chloroalanine, acetylenic compounds (e.g. propargylglycine) and vinylic compounds (e.g. vinylglycine), α-methyl and amino-oxy substrate analogs (e.g. α-methylglutamate)
-			- Levothyroxine (pyridoxal-5-phosphate)
-			- The inactive form pyridoxine competitively inhibits the active pyridoxal-5'-phosphate (symptoms of vitamin B6 supplementation in the pyridoxine form can mimic those of vitamin B6 deficiency, an effect which can be avoided by supplementing with P5P instead)
-			- AlaP (alanine phosphonate) inhibits alanine racemases, but its lack of specificity has prompted further designs of ALR inhibitors
-			- Gabaculine and Vigabatrin inhibit GABA aminotransferase
-			- Canaline and 5-fluoromethylornithine inhibit ornithine aminotransferase
-			- Amino-oxy SAM inhibits ACC synthase
-			- egg whites (avidin)
-			- antifolate dihydrofolate reductase inhibitors (antimicrobial trimethoprim, the antiprotozoal pyrimethamine and the chemotherapy drug methotrexate, and the sulfonamides (competitive inhibitors of 4-aminobenzoic acid in the reactions of dihydropteroate synthetase))
-			- Valproic acid/valproate, amoxicillin, erythromycin, methotrexate and pyrimethamine, proton pump inhibitors, h2 inhibitors, metformin, colchicine, extended-release potassium products, and antibiotics such as gentamicin, neomycin and tobramycin, Anti-seizure medications (phenobarbital, pregabalin, primidone and topiramate)
+		- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
+			- https://return2health.com.au/articles/vitamin-mineral-antagonists
+			- avoid when correcting vitamin deficiencies:
+				- anti-convulsants (Barbituates, Phenytoin, Carbamazepine, Primidone, Valproic Acid, Zonisamide), birth control/estrogen, aminopterin, antibiotics, some anti-inflammatory agents, blood pressure medications/diuretics, metformin, alcohol, chlorogenic acid, caffeine/coffee/tea, raw fish, aspirin
+			- calcium binders/antagonists: avoid excess oxalic acid, which is present in too-large amounts in spinach, rhubarb, beets and beet greens, Swiss chard and chocolate
+			- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, Blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
+			- vitamin k antagonists (antibiotics, dicumarol and hydrocoumarol, which are used by medical people to relieve thrombosis (abnormal formation of blood clots in the blood vessels)
+			- vitamin c antagonists (cigarette smoke, ammonium chloride, stribesterol, thiouracil, atropine, barbituates, antihistamines, alcohol, stressors such as surgery or extreme temperatures)
+			- thiamine antagonists (ortho/para-hydroxyphenols, caffeic acid, chlorogenic acid, tannic acid, quercetin and rutin)
+			- b vitamin antagonists:
+				- alcohol
+				- folate deficiency
+				- Cortisone
+				- chloroalanine, acetylenic compounds (e.g. propargylglycine) and vinylic compounds (e.g. vinylglycine), α-methyl and amino-oxy substrate analogs (e.g. α-methylglutamate)
+				- Levothyroxine (pyridoxal-5-phosphate)
+				- The inactive form pyridoxine competitively inhibits the active pyridoxal-5'-phosphate (symptoms of vitamin B6 supplementation in the pyridoxine form can mimic those of vitamin B6 deficiency, an effect which can be avoided by supplementing with P5P instead)
+				- AlaP (alanine phosphonate) inhibits alanine racemases, but its lack of specificity has prompted further designs of ALR inhibitors
+				- Gabaculine and Vigabatrin inhibit GABA aminotransferase
+				- Canaline and 5-fluoromethylornithine inhibit ornithine aminotransferase
+				- Amino-oxy SAM inhibits ACC synthase
+				- egg whites (avidin)
+				- antifolate dihydrofolate reductase inhibitors (antimicrobial trimethoprim, the antiprotozoal pyrimethamine and the chemotherapy drug methotrexate, and the sulfonamides (competitive inhibitors of 4-aminobenzoic acid in the reactions of dihydropteroate synthetase))
+				- Valproic acid/valproate, amoxicillin, erythromycin, methotrexate and pyrimethamine, proton pump inhibitors, h2 inhibitors, metformin, colchicine, extended-release potassium products, and antibiotics such as gentamicin, neomycin and tobramycin, Anti-seizure medications (phenobarbital, pregabalin, primidone and topiramate)
 
-	- inhibit bacteria/fungi/viruses that cause cancer (EBV, HPV, Herpes, Hepatitis)
+
+- relevant structures to cancer
+
+	- oncometabolites
+		- these compounds can trigger cancer when their metabolism is dysregulated and when they are produced/available in that dysregulated state
+		- Cancer cells rely on aerobic glycolysis, which is reached through defects in enzymes involved in normal cell metabolism, this allows the cancer cells to meet their energy needs and divert acetyl-CoA from the TCA cycle to build essential biomolecules such as amino acids and lipids
+		- https://en.wikipedia.org/wiki/Oncometabolism
+			Oncometabolite			Role														Oncogenes							Enzyme affected								Associated malignancies
+			D-2-hydroxyglutarate	Inhibits ATP synthase and mTOR signalling					IDH1 IDH2 							Isocitrate dehydrogenase					Brain cancer, Leukemia
+			Succinate				Inhibits 2-oxoglutarate-dependent oxygenase					SDHA,SDHB,SDHC,SDHD,SDHAF1,SDHAF2	succinate dehydrogenase						Renal and Thyroid tumors
+			Fumarate				Inhibits 2-oxoglutarate-dependent oxygenase					FH									Fumarate hydratase							Leiomyomata, Renal cysts
+			Sarcosine				Activates mTOR signalling pathway							GNMT								Glycine-N-methyltransferase					Pancreatic cancer, Hepatocellular carcinoma
+			Asparagine				Anti-apoptotic agent										ASNS								Asparagine synthetase						Acute Lymphoblastic Leukemia
+			Choline					Methyl donor for DNA methylation which disrupts DNA repair	PCYT1A								phosphate cytidylyltransferase 1 choline-α	Breast, Brain and Prostate cancer
+			Lactate					Induces local immunosuppression								LDHA								Lactate dehydrogenase A						Various types of cancer
+			Glutamine*				Primary carbon-source for the biosynthesis of the oncometabolite 2-hydroxyglutarate
+		- oncometabolites include: 
+			- 2‐hydroxyglutarate, glucose, fumarate, succinate, sarcosine, glutamine, asparagine, choline, and lactate
+			- these are suggested as biomarkers in glioma, prostate, gastrointestinal, breast, and endocrine cancers
+		- for example, 2‐hydroxyglutarate (the D‐2‐hydroxyglutarate (D2HG) form of the TCA cycle intermediate, α‐ketoglutarate) is in limited quantity in normal tissues but is at a higher concentrations in cancer cells
+			- This oncometabolite is the result of isocitrate dehydrogenase 1 or 2 (IDH1 or IDH2) gene mutation commonly occurring in gliomas and acute myelogenousleukemias (AMLs)
+			- Increasing D2HG can change dioxygenase function requiring α‐ketoglutarate, change the epigenome of the cell (like prolylhydroxylation of 5‐methyl cytosine in DNA), and inhibit histone lysine demethylase
+	
+	- oncogenes
+		- for example, inhibiting epidermal growth factor receptor is a possible treatment target, bc EGFR is an oncogene
+		- https://en.wikipedia.org/wiki/Oncogene
+		- oncogenes, grouped by type
+			- Growth factors, or mitogens
+				- such as c-Sis													
+				- induces cell proliferation
+			- Receptor tyrosine kinases
+				- such as epidermal growth factor receptor (EGFR), platelet-derived growth factor receptor (PDGFR), vascular endothelial growth factor receptor (VEGFR), HER2/neu
+				- transduce signals for cell growth and differentiation
+			- Cytoplasmic tyrosine kinases
+				- such as Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML - Philadelphia chromosome
+				- mediate the responses to, and the activation receptors of cell proliferation, migration, differentiation, and survival
+			- Cytoplasmic Serine/threonine kinases & their regulatory subunits
+				- such as Raf kinase, and cyclin-dependent kinases through overexpression
+				- involved in organism development, cell cycle regulation, cell proliferation, differentiation, cells survival, and apoptosis															
+			- Regulatory GTPases
+				- such as Ras protein
+				- involved in signalling a major pathway leading to cell proliferation
+			- Transcription factors
+				- such as myc gene
+				- regulate transcription of genes that induce cell proliferation
+			- Transcriptional coactivators
+				- such as YAP, WWTR1 genes
+				- interact with transcription factor partners to regulate transcription of genes that induce cell proliferation
+
+	- anti-cancer genes
+		- https://en.wikipedia.org/wiki/Anticancer_gene
+			Anti-cancer gene	Functional p53 required	Blocked by Bcl-2	Caspases involved	Activated by phosphorylation	Engaging cell death pathway		Subcellular localization in cancer cells	Type of cell death
+			Apoptin				No						No					Yes					Yes								Intrinsic						Nucleus										Apoptosis
+			Brevinin-2R			Undetermined			Yes					No					Undetermined					Intrinsic						Cytoplasm									Autophagy
+			E4orf4				No						No					No					Yes								Intrinsic						Nucleus, cytoplasm							Mitotic catastrophe
+			HAMLET				No						No					Yes					No								Intrinsic						Nucleus, ER, mitochondria					Apoptosis, autophagy
+			MDA-7				No						Yes					Yes					No								Intrinsic						Receptor-binding, ER						Apoptosis
+			Noxa				No						Yes					Yes					Undetermined					Intrinsic						Mitochondria								Apoptosis
+			NS1					No						No					No					Yes								Intrinsic						Cytoplasm									Apoptosis
+			ORCTL3				Undetermined			Undetermined		Yes					Undetermined					Intrinsic						Plasma membrane, ER, golgi					Apoptosis
+			PAR-4				No						No					Yes					Yes								Extrinsic, Intrinsic			Nucleus, ER, plasma membrane				Apoptosis
+			TRAIL				No						Yes					Yes					No								Extrinsic						Receptor-binding							Apoptosis
+		- https://en.wikipedia.org/wiki/Tumor_suppressor_gene
+			Gene		Original Function														Two-Hit?			Associated Carcinomas
+			Rb			DNA Replication, cell division and death								Yes					Retinoblastoma	
+			p53			Apoptosis																No			   		Half of all known malignancies	
+			VHL			Cell division, death, and differentiation								Yes					Kidney Cancer	
+			APC			DNA damage, cell division, migration, adhesion, death					Yes					Colorectal Cancer	
+			BRCA2		Cell division and death, and repair of double-stranded DNA breaks		Yes					Breast/Ovarian Cancer	
+			NF1			Cell differentiation, division, development, RAS signal transduction	No					Nerve tumors, Neuroblastoma	
+			PTCH		Hedgehog signaling														No 					Medulloblastoma, Basal Cell Carcinoma	
+
+
+
+- inhibit/avoid/reduce carcinogenic structures
+
+	- compounds with multiple functions, including induction of apoptosis
+		- caveolin
+			- angiogenesis, tumor suppression/progression, binds with tyrosine kinases
+		- calestrol from thunder god vine
+			- https://pubmed.ncbi.nlm.nih.gov/37196541/
+			- inhibiting tumor cell proliferation, migration and invasion, inducing cell apoptosis, suppressing autophagy, hindering angiogenesis and inhibiting tumor metastasis
+			- PI3K/Akt/mTOR, Bcl-2/Bax-caspase 9/3, EGFR, ROS/JNK, NF-κB, STAT3, JNK/Nrf2/HO-1, VEGF, AR/miR-101, HSF1-LKB1-AMPKα-YAP, Wnt/β-catenin and CIP2A/c-MYC signaling pathways are considered as important molecular targets for the anticancer effects of celastrol
+			- however, celastrol has some adverse effects, low oral bioavailability and a narrow therapeutic window
+		- betulinic acid from rosemary
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2658785/
+			- triggers the mitochondrial pathway of apoptosis
+			- In contrast to the cytotoxicity of betulinic acid against a variety of cancer types, normal cells and tissue are relatively resistant to betulinic acid, pointing to a therapeutic window
+	 	- propolis 
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9499605/
+			- Anticancer activity of propolis and its compounds
+				- cell-cycle arrest
+				- inhibit cancer cells proliferation
+				- reduction in the number of cancer stem cells
+				- induction of apoptosis
+				- modulation of oncogene signaling pathways
+				- inhibition of matrix metalloproteinases
+				- prevention of metastasis
+				- anti-angiogenesis
+				- anti-inflammatory effects accompanied by the modulation of the tumor microenvironment (by modifying macrophage activation and polarization)
+				- epigenetic regulation
+				- antiviral and bactericidal activities
+				- modulation of gut microbiota
+				- attenuation of chemotherapy-induced deleterious side effects. 
+				- sensitize cancer cells to chemotherapeutic agents
+					- blocking the activation of the transcription factor nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
+		- chicory 
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
+			- A first group of nine Diet-induced gene expression profiles, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
+		- Uncaria tomentosa
+			- reduce tumor growth
+			- increased apoptosis
+			- Treatment with ethanolic extracts of Uncaria tomentosa were much more effective than treatment with aqueous extracts
+			- U. tomentosa was also shown to inhibit B16-BL6 cell growth in C57/bl mice in vivo
+				- Histochemical analysis of the B16-BL6 tumours showed a strong reduction in the Ki-67 cell proliferation marker in U. tomentosa-treated mice and a small, but insignificant increase in terminal transferase dUTP nick labelling (TUNEL) staining
+		    - reduced angiogenesis
+		    - reduced infiltration of T cells into the tumours
+			- Phytochemicals in Uncaria tomentosa root bark include:
+				- oxindole and indole alkaloids, glycosides, organic acids, proanthocyanidins, sterols, triterpenes, tannins, polyphenols, catechins, rhynchophylline, and beta-sitosterol
+		- fisetin
+			- Fisetin has roughly twice the senolytic potency as quercetin
+			- anti-proliferative agent, interfering with the cell cycle in several ways
+			- inhibits the activity of several pro-inflammatory cytokines, including tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB)
+				- The anti-inflammatory action is due to deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
+			- upregulate glutathione, an endogenous antioxidant
+				- It has direct activity as a reducing agent, chemically reacting with reactive oxygen species to neutralize them. Studies suggest that it lodges in cell membranes and prevents oxidative damage to lipids in the cell membrane
+
+
+	- inhibit mutations/bacteria/fungi/viruses that cause cancer (Li-Fraumeni syndrome, EBV, HPV, Herpes, Hepatitis)
+		- inherited mutations
+			- Abnormalities of the p53 gene can be inherited in Li-Fraumeni syndrome (LFS), which increases the risk of developing various types of cancers
 		- fungi
 			- wherever fungi can cause cancer, they can often be inhibited by antifungal compounds such as:
 				- holy basil (has eugenol, which disrupts fungal cell wall) and citicoline
@@ -96,7 +216,6 @@
 					- spironolactone, thiamine, caffeine/coffee, NAC, fish oil, glutathione, sea buckthorn, cocoa, danshen, astragalus, selenium, taurine, l-carnitine, Bacillus Coagulans, L-Ornithine-L-Aspartate, Casein Protein, choline, peony, branched-chain amino acids
 				- avoid
 					- a damaged liver is stressed by excess iron, niacin, and vitamin A (the retinol type)
-
 			- HPV
 				- factors
 					- oncoproteins E6/E7 are involved in HPV carcinogenic activity
@@ -104,6 +223,8 @@
 					- when mRNA genes UBE2L3 and CYP1A1 are over-expressed or activated, HPV activity is suppressed
 					- when IFN-β is suppressed, HPV activity is suppressed
 				- suppressors
+					- withaferin A
+						- suppresses oncoproteins E6/E7
 					- AHCC
 						- suppression of the IFN-β level to less than 20 pg/ml correlated with clearance of HPV infections
 						- https://pubmed.ncbi.nlm.nih.gov/35814366/
@@ -119,10 +240,10 @@
 				- green tea suppresses EBV
 					- EGCG, a polyphenol in green tea, has shown in a study to inhibit EBV spontaneous lytic infection at the DNA, gene transcription, and protein levels in a time- and dose-dependent manner; the expression of EBV lytic genes Zta, Rta, and early antigen complex EA-D (induced by Rta), however, the highly stable EBNA-1 gene found across all stages of EBV infection is unaffected
 				- https://en.wikipedia.org/wiki/Epstein–Barr_virus
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7868022/
 				- EBV causes Multiple Sclerosis, and can also cause cancer by mutating certain genes
-					- EBV-associated cancers are mainly lymphomas derived from B cells and T cells (Hodgkin lymphoma, Burkitt lymphoma, NK/T-cell lymphoma, and posttransplant lymphoproliferative disorder (PTLD)) and carcinomas derived from epithelial cells (nasopharyngeal carcinoma and gastric carcinoma). EBV can induce oncogenesis in its host cell by activating various signaling pathways, such as nuclear factor-κB (NF-κB), phosphoinositide-3-kinase/protein kinase B (PI3K/AKT), Janus kinase/signal transducer and transcription activator (JAK/STAT), mitogen-activated protein kinase (MAPK), transforming growth factor-β (TGF-β), and Wnt/β-catenin, which are regulated by EBV-encoded proteins and noncoding RNA
-					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7868022/
-					- EBV infected B-cells have been shown to reside within the brain lesions of multiple sclerosis patients
+					- EBV-associated cancers are mainly lymphomas derived from B cells and T cells and carcinomas derived from epithelial cells
+					- EBV can induce oncogenesis in its host cell by activating various signaling pathways, such as nuclear factor-κB (NF-κB), phosphoinositide-3-kinase/protein kinase B (PI3K/AKT), Janus kinase/signal transducer and transcription activator (JAK/STAT), mitogen-activated protein kinase (MAPK), transforming growth factor-β (TGF-β), and Wnt/β-catenin, which are regulated by EBV-encoded proteins and noncoding RNA
 					- It has been found that EBNA1 may induce chromosomal breakage in the 11th chromosome, specifically in the 11q23 region between the FAM55D gene and FAM55B, which EBNA-1 appears to have a high affinity for due to its DNA-binding domain having an interest in a specific palindromic repeat in this section of the genome. While the cause and exact mechanism for this is unknown, the byproduct results in errors and breakage of the chromosomal structure as cells stemming from the line of the tainted genome undergo mitosis. Since genes in this area have been implicated in leukemia and is home to a tumor suppressor gene (such as tumor suppressors p53, CHK2, BRCA1, NBS1 and H2AX activated by ATM serine/threonine kinase) that is modified or not present in most tumor gene expression, it's been hypothesized that breakage in this area is the main culprit behind the cancers that EBV increases the chance of.
 					- ATM (Ataxia-telangiectasia mutated)
 						- a defect in ATM has severe consequences in repairing certain types of damage to DNA, and cancer may result from improper repair
@@ -134,73 +255,313 @@
 					Fedratinib, AZD1480 and LY294002	JAK2, PI3K and mTOR		Inhibit the expression of PD-L1 and restore immune surveillance					Gastric cancer						
 					IMD-0354							NF-κB					Inhibit proliferation and increase apoptosis									NK/T cell lymphoma					
 					AT13387								Hsp90					Inhibits AKT/p-AKT expression/cancer cell proliferation/restores p27 function 	Nasopharyngeal carcinoma
+					- Inhibitors of USP7 (ubiquitin-specific processing protease 7)
+						- Stabilization by USP7 is important for the tumor suppressor function of p53
+						- Compromising the function of p53 by sequestering USP7 is one way EBNA1 can contribute to the oncogenic potential of EBV	
 
-	- activate AHR
-		- aryl hydrocarbon receptor (AHR) 
-			- reduces tumor growth
-			- detoxifies aryl hydrocarbons, which are known carcinogens, in the gut
+	- inhibit oncometabolites (useful when metabolism of relevant structures are dysregulated)
+		- 'repairing/inhibiting oncometabolite dysregulation (or their production, when already dysregulated)' is a treatment target for avoiding states where these metabolites become carcinogenic
+			- inhibit glycolysis/lactate production
+				- inhibit glycolysis/lactate, by inhibiting hexokinase 2
+					- 2HG, suggested as an identifier oncometabolite of brain cancer and leukemia patients is a potential target of drugs that targets their coding gene IDH1
+					- hexokinase 2 is a major contributor to high glycolysis and lactate production, hence targeting hexokinase 2 in the rabbit VX2 tumor model for liver cancer was suggested
+				- inhibit glycolysis
+					- The small molecule 3‐bromopyruvate (3BP), a glycolysis inhibitor, has a potent anticancer activity and has the capacity to eradicate cancers in different animal models 
+				- inhibit phosphofructokinase to regulate glucose/lactate
+					- Another gluco‐regulatory kinase is phosphofructokinase (PFK) correlated with the growth rate of Morris hepatomas transplanted in rats and also correlated with lactate production
+			- inhibit glutamine/Glutaminolysis
+				- Some amino acids like glutamine are of hexosamines, nucleotides, and nonessential amino acids essential for cell growth
+				- Glutaminolysis in many cancers is the prominent target in cancer therapy
+					- some compounds showed cytotoxic effects against several malignant tumors types like leukemia and colorectal cancers
+						- 6‐diazo‐5‐oxo‐l‐norleucine (DON) and acivicin
+
+
+	- reduce factors in specific cancers
+		- reduce mammary density (a risk factor for breast cancer)
+			- boswellic acid, betaine, and myo-inositol
+		- Piperlongumine
+			- an amide alkaloid used to neutralize glioblastoma cancer cells
+
 
 	- avoiding known carcinogens
+		- regulations currently allow many poisonous substances in products and on shelves, so buy as few unnecessary products as possible
+		- toxicities
+			- avoid toxicities such as overdoses of lipid-soluble vitamins like vitamin A which is involved in T-cells/immunity/cancer (avoid over-using supplements or retinol or other substances that you dont know all the effects of)
+			- remove/reduce toxic heavy metals like lead/cadmium which can be carcinogenic (heavy metal exposure can trigger double strand breaks, the most serious types of DNA damage, and inhibit subsequent repair)
+				- chlorella
+				- cilantro 
+				- avoid foods that can have higher levels of lead/cadmium than other foods (unless the manufacturer explicitly removes them)
+					- basil, oregano, thyme, rice, fruit juice, coffee, chocolate
+				- these foods were more often found to have safer levels of lead/cadmium
+					- black pepper, coriander/cilantro, curry powder, garlic powder, saffron, sesame seeds
+			- agglutinins
+				- various agglutinins have immune system effects (peanut agglutinins have a positive assocation with cancer, wheat germs have an unclear association, whereas abrus agglutinins may be helpful in reducing cancer)
+			- coumarins
+				- Citrus fruits are high in secondary metabolites, including flavonoids, limonoids, and coumarins, which are associated with a reduced risk of cancer
+				- however citrus 'juices' were also associated with higher risk of non-melanoma skin cancer https://pubmed.ncbi.nlm.nih.gov/33946526/
+			- avoid animal protein during cancer treatment (which is high in methionine/cysteine compared to most vegetable protein)
+				- a low protein diet with vegetable protein delayed tumor growth
+		- plastics (PFAS, BPA)
+			- that means washing clothes twice before wearing, using non-toxic laundry detergent and soap and anything else that touches your skin, not buying plastic anything such as shower curtains, not trying on new clothes without washing them first, looking for ways to clean PFAS from your water, avoiding food that binds to PFAS such as kale, avoiding soda cans made with BPA (avoiding canned food at all, similarly avoiding ceramic containers that may contain lead, instead using wood/pyrex where possible), etc
+			- these can cause organ failure which can make it more difficult to fight cancer and can also cause cancer directly
+			- plastics in products often accompany other harmful substances like formaldehyde which is a carcinogen
+		- artificial sweeteners
+			- monk fruit and stevia and possibly xylitol might be the only safe artificial sweeteners other than natural sugars like honey
 		- TCE (Trichloroethylene) - https://en.wikipedia.org/wiki/Trichloroethylene
+			- may still be used to separate some substances in food, like separating caffeine from coffee, also may be found in potato chips, processed meat, and other highly processed foods which may have had a reason to use a separating agent (such as separating grease from the food)
 		- https://en.wikipedia.org/wiki/Carcinogen
+			- alcohol
+				- when alcohol is metabolized, it forms toxic compounds that harm DNA and can lead to cell death and cancer
 			- Benzo[a]pyrene 
 			- 1,3-Butadiene 
 			- Diethylstilbestrol
 			- Arsenic/Asbestos
 			- Ionizing radiation/Ultraviolet light/Infrared light
 			- air pollutants	
-				- wear a Sundstrom mask wherever possible, especially under chemtrails, around airports, in high ozone/pollution areas, when not in a room with good air filters
+				- wear a Sundstrom mask (or use an activated carbon filter in your own mask) wherever possible, especially under chemtrails, around airports, in high ozone/pollution areas, when not in a room with good air filters
 				- use air scrubbers to filter your air or air filters which filter most pollutants out
 			- silica/VOCs like formaldehyde
-				- avoid fragrances and especially paint, which has carcinogens like silica and VOCs like formaldehyde in it
+				- avoid fragrances, and other substances where its difficult to determine the ingredients, and especially paint, which has carcinogens like silica and VOCs like formaldehyde in it
 			- tobacco smoke
 				- most important tumorigenic compounds in tobacco smoke were, in order of importance, acrolein, formaldehyde, acrylonitrile, 1,3-butadiene, cadmium, acetaldehyde, ethylene oxide, and isoprene
+				- smoke also triggers free radicals, antagonizes vitamin C, and exposes people to lead
 				- Most of these compounds cause DNA damage by forming DNA adducts or by inducing other alterations in DNA
 			- acetaldehyde
 				- in a lot of foods naturally, but also in a lot of pollutants
 				- https://en.wikipedia.org/wiki/Acetaldehyde
 			- avoid alkylating agents 
 				- https://en.wikipedia.org/wiki/Alkylating_antineoplastic_agent (when not using temozolomide for treatment)
-		- other compounds can trigger cancer in large amounts or when other errors have occurred
+		- other compounds can trigger cancer when used in large amounts or when other errors have occurred
 			- nicotinamide
 			- folate
 			- bpc-157
 	
-	- induce apoptosis
-		- calestrol from thunder god vine
-        	- https://pubmed.ncbi.nlm.nih.gov/37196541/
-        	- inhibiting tumor cell proliferation, migration and invasion, inducing cell apoptosis, suppressing autophagy, hindering angiogenesis and inhibiting tumor metastasis
-        	- PI3K/Akt/mTOR, Bcl-2/Bax-caspase 9/3, EGFR, ROS/JNK, NF-κB, STAT3, JNK/Nrf2/HO-1, VEGF, AR/miR-101, HSF1-LKB1-AMPKα-YAP, Wnt/β-catenin and CIP2A/c-MYC signaling pathways are considered as important molecular targets for the anticancer effects of celastrol
-        	- however, celastrol has some adverse effects, low oral bioavailability and a narrow therapeutic window
-	    - betulinic acid from rosemary
-        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2658785/
-        	- triggers the mitochondrial pathway of apoptosis
-        	- In contrast to the cytotoxicity of betulinic acid against a variety of cancer types, normal cells and tissue are relatively resistant to betulinic acid, pointing to a therapeutic window.
- 		- propolis 
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9499605/
-			- Anticancer activity of propolis and its compounds relies on various mechanisms: 
-				- cell-cycle arrest and attenuation of cancer cells proliferation, reduction in the number of cancer stem cells, induction of apoptosis, modulation of oncogene signaling pathways, inhibition of matrix metalloproteinases, prevention of metastasis, anti-angiogenesis, anti-inflammatory effects accompanied by the modulation of the tumor microenvironment (by modifying macrophage activation and polarization), epigenetic regulation, antiviral and bactericidal activities, modulation of gut microbiota, and attenuation of chemotherapy-induced deleterious side effects. 
-				- Ingredients from propolis also ”sensitize“ cancer cells to chemotherapeutic agents, likely by blocking the activation of the transcription factor nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB).
-		- chicory 
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
-			- Diet-induced gene expression profiles were analyzed in the liver, ileum enterocytes and caecum of mice after 30 days of daily ingestion of aqueous extracts of Chic, Fru, CGA or STL solutions. 
-			- A total of 57 profiles were found differentially expressed during the chicory diet in these different tissues
-			- A first group of nine DEGs, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
-		- Uncaria tomentosa
-		- chamomile
+	
+	- trigger cell-cycle arrest
+		- propolis
+
+
+	- reduce number of cancer stem cells
+		- propolis
+
+
+	- inhibit matrix metalloproteinases
+		- propolis
+
+
+	- prevent metastasis
+		- propolis
+
+
+	- prevent inflammation
+		- disrupt tumor microenvironment
+			- modifying macrophage activation and polarization
+				- propolis
+
+
+	- regulate epigenetic changes
+		- propolis
+
+
+	- antimicrobial activity (antiviral, bactericidal, probiotic)
+		- propolis
+
+
+	- reduce chemotherapy side effects
+		- propolis
+
+
+	- sensitize cancer cells to chemotherapy (synergistic with chemotherapy)
+		- blocking the activation of the transcription factor nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
+			- propolis
+
+
+	- reduce/stop cell growth
+		- Diet-induced gene expression profiles involved in cell proliferation and apoptosis
+			- chicory
+
+
+	- eliminate senescent cells
+		- senomorphics (Apigenin, Rapamycin/Everolimus) modulate properties of senescent cells without eliminating them, suppressing phenotypes of senescence, including the SASP
+		- through SASP, senescent cells contribute to cancer development and metastasis, so senolytics could act as anti-cancer compounds
+		- senolytics:
+			- FOXO4-related peptides, BCL-2 inhibitors, Src inhibitors, USP7 inhibitors, Dasatinib and Quercetin (D+Q), Fisetin, Navitoclax, Piperlongumine, Azithromycin/roxithromycin, SSK1, BIRC5 knockout, GLS1 inhibitors, Anti-GPNMB vaccine, Cardiac glycosides, 25-hydroxycholesterol (25HC), Procyanidin C1, EF-24, HSP90 inhibitors
+
+
+	- chemotherapeutic compounds (and their pro-drugs which metabolize into them)
+		- gemcitabine
+			- acts against neoplastic growth
+			- upregulation of interferon signaling
+				- inhibits the replication of Orthohepevirus A, the causative agent of Hepatitis E
+			- SSK1 (Senescence-specific killing compound 1)
+				- metabolized into gemcitabine, and is activated by lysosomal β-galactosidase (a common senescence marker)
+
+
+	- inhibit proteins associated with cancers
+		- inhibit Glycoprotein nonmetastatic melanoma protein B (GPNMB)
+			- Anti-GPNMB vaccine
+
+
+	- destabilize proteins required for tumor growth											
+		- HSP90 inhibitors
+			- HSP90 assists other proteins to fold properly, stabilizes proteins against heat stress, and aids in protein degradation
+			- HSP90 stabilizes a number of proteins required for tumor growth, so inhibiting it can be useful
+
+
+	- bind misfolded proteins
+		- prevent protein aggregation				
+			- CRYAB (in the small heat shock protein family, encodes Alpha-crystallin B chain protein)
+				- defects in this gene are associated with cancer
+				- CRYAB inhibits apoptosis and contribute to intracellular architecture
+				- inhibitors: 25-hydroxycholesterol (25HC) targets CRYAB	
+
+
+	- detoxify carcinogens
+		- detoxifies aryl hydrocarbons, which are known carcinogens, in the gut
+			- activate aryl hydrocarbon receptor (AHR) 
+
+
+	- inhibit B16-BL6 cell growth
+		- uncaria tomentosa
+			- also reduces Ki-67 cell proliferation marker, increase terminal transferase dUTP nick labelling
+
+
+	- inhibit infiltration of T-cells into tumors
+		- uncaria tomentosa
+
+
+	- inhibits pro-inflammatory cytokines
+		- pro-inflammatory cytokines include tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB)
+		- induce deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
+			- fisetin
+
+
+	- increase antioxidants 
+		- upregulate glutathione (an endogenous antioxidant)
+			- reacts with reactive oxygen species to neutralize/reduce them
+				- fisetin
+			- lodges in cell membranes and prevents oxidative damage to lipids in the cell membrane
+				- fisetin
+
+
+	- inhibit cell proliferation
+		- calestrol
+		- propolis
+		- chicory
+		- uncaria tomentosa
 		- fisetin
-		- guggulsterone (GS)
-			- a steroid by nature recently has attracted the attention of cancer researchers and investigators for its anticancer potentials. 
-			- GS has been shown to induce efficient apoptotic cell death in a variety of cancer cells. Interestingly, no apoptotic death was seen in healthy cells
-		- activate p53 or equivalent inhibit COX-2
-			- Astaxanthin/H. pluvialis
-			- Ginger/Zerumbone 
-			- Increasing NQO1 expression/activity (such as mitosenes, indolequinones, aziridinylbenzoquinones and β-lapachone)
-			- Pterostilbene
-			- Resveratrol
-			- BH3 mimetics 
-			- Capsaicin (decreases mutant p53 gene expression)
-			- withaferin A
+		- inhibit oncogenic genes which proliferate cells
+			- Growth factors, or mitogens (such as c-Sis)
+			- Cytoplasmic tyrosine kinases (such as Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML - Philadelphia chromosome)
+				- bind with tyrosine kinase to inhibit them
+					- caveolin
+				- src tyrosine kinase inhibitors
+					- dasatinib
+			- Cytoplasmic Serine/threonine kinases and their regulatory subunits (such as Raf kinase, and cyclin-dependent kinases (through overexpression))
+			- Regulatory GTPases (such as Ras protein)
+			- Transcription factors (such as myc gene)
+			- Transcriptional coactivators (such as YAP, WWTR1 genes)
+
+
+	- inhibit cell growth/differentiation
+		- inhibit oncogenic genes which induce cell growth/differentiation
+			- Receptor tyrosine kinases (such as epidermal growth factor receptor (EGFR), platelet-derived growth factor receptor (PDGFR), and vascular endothelial growth factor receptor (VEGFR), HER2/neu)
+			- Cytoplasmic tyrosine kinases (such as Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML - Philadelphia chromosome)
+			- Cytoplasmic Serine/threonine kinases and their regulatory subunits (such as Raf kinase, and cyclin-dependent kinases (through overexpression))
+		- activate aryl hydrocarbon receptor (AHR) 
+		- cbd with thc 
+			- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells.
+		- down-regulates the expression of ERα (inhibition of cancer cell migration and growth)
+			- Withaferin A 
+		- inhibits tumor growth through ATP-independent inhibition of heat shock protein 90 HSP90
+			- Withaferin A 
+
+
+	- induce apoptosis
+		- induce apoptosis, grouped by inhibitory/activation function :: associated compounds with that function
+			- EF-24 
+				- synthetic analogue of curcumin that is more bioavailable
+				- induces apoptosis in cancer cells via a redox-dependent mechanism
+			- Procyanidin C1 (PCC1)
+				- a B type proanthocyanidin and an epicatechin (type of antioxidant) trimer found in grape seed, unripe apples, and cinnamon
+				- causes DNA damage, cell cycle arrest and induces apoptosis
+			- increase Survivin
+				- CRISPR knockout of BIRC5 (gene which encodes survivin protein)
+				- Survivin is a member of the inhibitor of apoptosis (IAP) family
+				- inhibit caspase activation, thereby leading to negative regulation of apoptosis	
+				- survivin is linked to the p53 protein
+				- survivin is a direct target gene of the Wnt pathway
+				- survivin is upregulated by beta-catenin
+			- induce apoptosis of senescent cells
+				- Senescent stroma within the TME (and its expression of the senescence-associated secretory phenotype) induce chronic inflammation that encourages tumor development and disease progression
+				- Senescent environments also regulate the function of immune cells in ways that are decidedly protumorigenic
+				- inhibit enzyme kidney-type glutaminase 1 (GLS1)			
+					- senescent cells have a low pH (due to high lysosomal content and leaking lysosomal membranes)
+					- to increase ph, senescent cells produce high levels of GLS1
+					- inhibiting GLS1 leads to an unsurvivably severe internal acidity
+					- glutaminase inhibitors such as JHU-083
+			- bind with FOXO4
+				- FOXO4 binding to p53 protein retains p53 in the nucleus promote cellular senescence, preventing p53 from interacting with mitochondria in the cytosol where p53 would activate caspases, leading to apoptosis
+					- a peptide that binds with FOXO4 would trigger apoptosis
+			- inhibit protein kinase C to induce apoptosis
+				- withaferin A, tamoxifen
+			- increases Mcl-1 expression levels inducing apoptosis
+				- Withaferin A 
+			- inhibit Bcl family proteins which inhibit apoptosis (inhibiting Bcl triggers apoptosis)
+				- inhibit Bcl-xL
+					- fisetin/quercetin
+			- alters the expression levels of apoptotic markers (Bcl2, Bax and caspase3)
+				- withaferin A
+			- increases expression of Notch 2 and Notch 4 (related to colon cancer)
+				- inhibits Notch-mediated prosurvival to induce c-Jun-NH2-kinase-mediated apoptosis
+					- Withaferin A 
+			- inhibit oncogenic genes which prevent apoptosis
+				- inhibit Cytoplasmic Serine/threonine kinases and their regulatory subunits (such as Raf kinase, and cyclin-dependent kinases (through overexpression))
+			- inhibit nuclear factor-κB (NF-κB)
+				- IMD-0354 inhibits proliferation and increases apoptosis
+				- inhibited by celastrol
+				- triggered by EBV to trigger cancer
+			- mitochondrial pathway of apoptosis
+				- betulinic acid from rosemary uses this pathway to induce apoptosis
+			- inhibit the PI3K/AKT/mTOR pathway to cause apoptosis
+				- fisetin blocks this pathway, which is overactive in many cancers, this overactivity reducing apoptosis and allowing proliferation
+			- activate apoptotic pathways
+				- IL-25
+			- activate p53
+				- Astaxanthin/H. pluvialis
+				- Ginger/Zerumbone 
+				- Increasing NQO1 expression/activity (such as mitosenes, indolequinones, aziridinylbenzoquinones and β-lapachone)
+				- Pterostilbene
+				- Resveratrol
+				- BH3 mimetics 
+				- Capsaicin (decreases mutant p53 gene expression)
+				- withaferin A/Ashwagandha or similarly ginsenosides
+			- avoid substances which decrease p53
+				- Chaga Mushroom
+				- Gankyrin
+				- Olive Leaf Extract
+				- Curcumin (in colon cancer cells)
+				- Shilajit
+				- inhibit COX-2 (and/or inhibit its metabolites, in order to block HDM2 phosphorylation, to enable p53, thereby causing apoptosis)
+					- inhibit prostaglandin A1/2 (metabolites of COX-2, which bind to and disable p53)
+					- caveolin (angiogenesis, tumor suppression/progression, binds with tyrosine kinases)
+					- Paracetamol/acetaminophen (almost exclusively active within the brain)
+					- aspirin may reduce glioma
+						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991947/
+						- short-term aspirin use in therapeutic doses might precipitate reversible acute kidney injury when the patient was ill with glomerulonephritis or cirrhosis
+					- M. chamomilla essential oils showed selective inhibition on the COX-2 enzyme and apoptosis against the selected cancer cell lines
+			- aggregates vimentin with F-actin to induce apoptosis
+				- withaferin A
+			- guggulsterone (GS)
+				- a steroid which induces efficient apoptotic cell death in a variety of cancer cells (no apoptotic death was seen in healthy cells)
+
+
+    - activate tumor suppression
+    	- activate tumor suppressors 
+    		- p53, CHK2, BRCA1, NBS1 and H2AX activated by ATM serine/threonine kinase
+    	- substances that suppress tumors
+    		- caveolin
+
 
 	- inhibit angiogenesis
 		- https://en.wikipedia.org/wiki/Angiogenesis_inhibitor (angiogenesis is formation of new blood vessels which can feed tumors)
@@ -217,48 +578,65 @@
 			- Trametes versicolor mushrooms (Polysaccharide-K. .  
 			- Phellinus linteus mushroom. (via active substance Interfungins A inhibition of glycation)	
 			- Agaricus subrufescens mushrooms (contain the inhibitors sodium pyroglutamate and ergosterol.	
-			- Withaferin A 
+		- inhibiting chymotrypsin to inhibit angiogenesis
+			- withaferin A 
 
-	- inhibition of various cancer-progressing pathways
-		- inhibit mevalonate pathway, inhibit Ras prenylation, decrease activation of Ras and downstream signaling pathways (Erk, rS6 and eIF4E), effectively targeting the MEK and other signaling pathways
-			- Atorvastatin alone dose-dependently inhibits growth and survival of multiple glioblastoma cell lines
-			- statins like atorvastatin exert anticancer activity via inhibiting the mevalonate pathway
 
 	- induce/activate/promote DNA repair (associated substances that help with DNA repair)
 		- avoid excess bile acids, which can damage DNA
 		- Uncaria tomentosa
-			- 80% lower levels of growth and increased apoptosis compared to vehicle controls. Treatment with ethanolic extracts of Uncaria tomentosa were much more effective than treatment with aqueous extracts. U. tomentosa was also shown to inhibit B16-BL6 cell growth in C57/bl mice in vivo. Mice injected with both the ethanolic and aqueous extracts of U. tomentosa showed a 59 ± 13% decrease in B16-BL6 tumour weight and a 40 ± 9% decrease in tumour size. Histochemical analysis of the B16-BL6 tumours showed a strong reduction in the Ki-67 cell proliferation marker in U. tomentosa-treated mice and a small, but insignificant increase in terminal transferase dUTP nick labelling (TUNEL) staining. Furthermore, U. tomentosa extracts reduced angiogenic markers and reduced the infiltration of T cells into the tumours
 			- black garlic rich in S-allylcystein, polyphenols from cat's claw (Uncaria tomentosa), devil's claw (Harpagophytum procumbens), camu-camu (Myrciaria dubia), and blackcurrant (Ribes nigrum), and citrus fruit extracts rich in hesperidin, have similar or greater effects than other, more extensively studied extracts such as tea and cocoa
 				- https://pubmed.ncbi.nlm.nih.gov/30012980/
-			- Phytochemicals in Uncaria tomentosa root bark include oxindole and indole alkaloids, glycosides, organic acids, proanthocyanidins, sterols, triterpenes, tannins, polyphenols, catechins, rhynchophylline, and beta-sitosterol
 		- grapeseed
-			- Rich in polyphenols, especially oligomeric proanthocyanidins (OPCs), grapeseed extract contains powerful phytochemicals whose antioxidant power is 20 times greater than vitamin E and 50 times greater than vitamin C. They play a role in several cancer-associated genes, and research links OPCs with a reduced risk of colorectal and other cancers. Grapeseed extract also protects against the accumulation of age-related DNA damage in the central nervous system and various brain regions–critical in lowering the likelihood of neurodegenerative disorders like Alzheimer’s. These potent antioxidants are found mainly in red and black grapes, blueberries, strawberries and cranberries
+			- contains polyphenols
+				- oligomeric proanthocyanidins (OPCs)
+				- powerful antioxidants
+			- impact several cancer-associated genes, linked with a reduced risk of colorectal and other cancers
+			- protects against the accumulation of age-related DNA damage
+			- mainly in red and black grapes, blueberries, strawberries and cranberries
 		- alpha-lipoic acid 
-			- reduced DNA damage from chemicals, especially hexavalent chromium, a cancer-causing industrial toxin. In other research, alpha-lipoic acid significantly decreased DNA damage from alcohol–when alcohol is metabolized, it forms toxic compounds that harm DNA and, over time, can lead to cell death and cancer. Red meat and organ meats are the highest sources
+			- reduced DNA damage from chemicals (hexavalent chromium, a cancer-causing industrial toxin, and alcohol)
+			- Red meat and organ meats are the highest sources
 		- CoQ10 
-			- enhances recovery from DNA damage to lymphocytes—white blood cells critical for healthy immune function. CoQ10 can also mitigate DNA damage involved in the development of cardiovascular disease, and research suggests people with heart disease have significantly lower levels of CoQ10. Organ meats, beef, chicken and fatty fish are the richest sources
+			- enhances recovery from DNA damage to lymphocytes (white blood cells critical for healthy immune function)
+			- reduces DNA damage involved in the development of cardiovascular disease
+			- Organ meats, beef, chicken and fatty fish are the richest sources
 		- sulforaphane
-			- triggering a specific family of enzymes involved in the replication of DNA, and a high intake of sulforaphane is linked with greater protection against DNA strand breaks and lower rates of cancer
+			- triggering a specific family of enzymes involved in the replication of DNA
+			- linked with greater protection against DNA strand breaks and lower rates of cancer
 		- selenium
-			- prevents oxidative damage to DNA and boosts the activity of enzymes and pathways involved in DNA repair; some research suggests it may also benefit people who carry the BRCA1 and BRAC2 carriers–genetic mutations that increase the risk of breast, prostate, ovarian and pancreatic cancers. Meat, seafood, eggs and some nuts—especially Brazil nuts—are the richest sources
+			- prevents oxidative damage to DNA
+			- boosts the activity of enzymes and pathways involved in DNA repair
+			- may also benefit people who carry the BRCA1 and BRAC2 carriers–genetic mutations that increase the risk of breast, prostate, ovarian and pancreatic cancers
+			- Meat, seafood, eggs and some nuts (Brazil nuts) are the richest sources
 		- carotenoids
-			- carotenoids - lycopene, lutein, astaxanthin and zeaxanthin - have consistently been shown to lessen oxidative stress, significantly reduce DNA damage and enhance DNA repair
-				- Lutein, astaxanthin and zeaxanthin are especially protective against harmful UV radiation (including sunlight), minimizing DNA damage and prompting repair. 
-				- Tomatoes, leafy greens, egg yolks and dark orange fruits and vegetables are high in lycopene, lutein and zeaxanthin; astaxanthin—found mainly in salmon, shrimp
+			- carotenoids (lycopene, lutein, astaxanthin and zeaxanthin) 
+				- lessen oxidative stress
+				- significantly reduce DNA damage
+				- enhance DNA repair
+			- Lutein, astaxanthin and zeaxanthin are especially protective against harmful UV radiation (including sunlight), minimizing DNA damage and prompting repair
+			- Tomatoes, leafy greens, egg yolks and dark orange fruits and vegetables are high in lycopene, lutein and zeaxanthin, astaxanthin is found mainly in salmon, shrimp
 		- N-acetylcysteine 
-			- is necessary for the production of glutathione — the body’s “master antioxidant” that fights free radical damage and protects DNA. NAC may mitigate genetic changes involved in the development of cancer, and many studies suggest it significantly lessens the risk of various kinds of cancer. It’s also protective against lead and other heavy metals—important, since heavy metal exposure can trigger double strand breaks (the most serious types of DNA damage) and hamper subsequent repair. NAC occurs as cysteine in chicken, turkey, eggs, cheese and other high protein foods
+			- is necessary for the production of glutathione (fights free radical damage and protects DNA)
+			- NAC may mitigate genetic changes involved in the development of cancer
+			- significantly lessens the risk of various kinds of cancer
+			- protective against lead and other heavy metals
+			- NAC occurs as cysteine in chicken, turkey, eggs, cheese and other high protein foods
 		- fisetin (apples, strawberries)
-			- increase apoptosis by blocking the PI3K/AKT/mTOR pathway
-				- In many cancers, this pathway is overactive, thus reducing apoptosis and allowing proliferation
-			- Fisetin has roughly twice the senolytic potency as quercetin
-			- anti-proliferative agent, interfering with the cell cycle in several ways. Like some other flavonoids, it has been found in lab studies to be a topoisomerase inhibitor, which may turn out to be a carcinogenic activity or an anti-cancer activity
-			- inhibits the activity of several pro-inflammatory cytokines, including tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB). The anti-inflammatory action is due to deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
-			- upregulate glutathione, an endogenous antioxidant.	 It has direct activity as a reducing agent, chemically reacting with reactive oxygen species to neutralize them. Studies suggest that it lodges in cell membranes and prevents oxidative damage to lipids in the cell membrane	
 		- rapamycin
 			- rapamycin as immunosuppressive agent enabled us to understand its mechanism of action. It inhibits T-cell proliferation and proliferative responses induced by several cytokines, including interleukin 1 (IL-1), IL-2, IL-3, IL-4, IL-6, IGF, PDGF, and colony-stimulating factors (CSFs), inhibiting angiogenesis and therefore tumor growth
 		- silymarin (milk thistle)
 			- https://pubmed.ncbi.nlm.nih.gov/34611448/
 			- Silibinin also has a number of potential mechanisms that could benefit the skin. These include chemoprotective effects from environmental toxins, anti-inflammatory effects, protection from UV induced photocarcinogenesis, protection from sunburn, protection from UVB-induced epidermal hyperplasia, and DNA repair for UV induced DNA damage (double strand breaks)
+		- MGMT
+			- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents. 
+			- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
+
+
+    - inhibit topoisomerase	
+    	- inhibiting topoisomerase may turn out to be a carcinogenic activity or an anti-cancer activity
+    		- Like some other flavonoids, fisetin inhibits topoisomerase
+
 
 	- increase interleukins which suppress tumors, avoid interleukins which promote tumors
 		- https://www.nature.com/articles/s41568-021-00363-z
@@ -293,6 +671,7 @@
 	  		- avoid IL-25 inhibitors
 	 			- sitosterol inhibits IL-25
 	 			- https://pubmed.ncbi.nlm.nih.gov/34128588/#:~:text=It%20has%20been%20confirmed%20that%20IL-25%20exerts%20a,the%20tumor%20microenvironment%20and%20activating%20the%20apoptotic%20pathways.
+	 			- IL-25 exerts a tumor-suppressive role through inducing infiltration of eosinophils and B cells into the tumor microenvironment and activating the apoptotic pathways
 		- increase IL-12 (tumor suppressor)
 			- use IL-12 activators
 				- ahcc
@@ -307,9 +686,23 @@
 				- aluminium hydroxide, aluminium phosphate, and calcium phosphate adjuvants inhibit the secretion of the Th1 polarizing cytokine, IL-12
 				- vitamin d decreases IL-12
 
+
    	- inhibits tumor markers that can be causes of cancer (vimentin/PCNA)
+   		- inhibit oncometabolites
+   			- 2‐hydroxyglutarate, glucose, fumarate, succinate, sarcosine, glutamine, asparagine, choline, and lactate
    		- inhibit vimentin
-   			- withaferin A (ashwagandha)
+   			- withaferin A (ashwagandha) inhibits vimentin
+				- binds to/inhibits vimentin
+					- binds to/inhibits intermediate filament protein, vimentin, by covalently modifying its highly conserved cysteine residue in alpha-helical coiled 2B domain
+				- aggregates vimentin with F-actin to cause apoptosis
+					- Withaferin A causes aggregation of vimentin to colocalize with F-actin, leading to apoptosis
+					- Actin is required for various cellular processes including oriented growth, adhesion and migration
+					- Withaferin A can alter cytoskeleton architecture by covalently binding to multifunctional adaptor protein annexin II and by stimulating the basal F-actin cross linking activity
+				- downregulates vimentin expression
+					- Withaferin A downregulates vimentin expression, leading to structural perturbation of intermediary filaments
+					- Cancer cells express enhanced vimentin expression and correlates with the induction of epithelial to mesenchymal transition (EMT), metastasis, poor prognosis and decreased survival rate
+				- degrades vimentin
+					- caspase-dependent degradation of vimentin by withaferin A was observed
 		- inhibit PCNA
 			- inhibit bacterial/eukaryal DNA clamps
 				- Inhibitors of bacterial (β-clamp) and eukaryal DNA clamps can also inhibit proliferating cell nuclear antigen (PCNA) (B clamps and PCNA are structurally similar)
@@ -325,335 +718,232 @@
 				- carprofen, bromfenac, and vedaprofen bound to subsite 1 on β-clamp. 
 				- These molecules bury a hydrophobic group into subsite 1 and an aromatic group into an adjacent region. 
 				- The lack of interaction with subsite 2 is likely the reason for the relatively weak interaction with β-clamp (minimal inhibitory concentration, MIC > 1,250 μM) and relatively weak inhibition as compared to antibiotics such as ampicillin (MIC = 125 μM) and Chloramphenicol
+		
 
-	- reduce DNA prenylation
-		- atorvastatin
+	- induce G2/M cell cycle arrest
+		- withaferin A 
 
-	- reduce DNA methylation of tumor suppressor genes and increase methylation of oncogenes (DNA methyltransferases, DNMT)
-		- Global hypomethylation has also been implicated in the development and progression of cancer through different mechanisms
-		- Typically, there is hypermethylation of tumor suppressor genes and hypomethylation of oncogenes.
-		- temozolomide (a common cancer treatment) methylates DNA
 
-	- non-invasive surgical methods
-		- thermal ablation induces cell death above 60 celsius
-		- https://en.wikipedia.org/wiki/Radiosurgery#Gamma_Knife
-		- ultrasound oncotripsy
-			- ultrasound applied at a frequency of 0.5–0.67 MHz and a pulse duration of >20 ms causes selective disruption of a panel of breast, colon, and leukemia cancer cell models in suspension without significantly damaging healthy immune or red blood cells - https://authors.library.caltech.edu/99007/
-			
-	- anti-cancer antibodies
-		- monoclonal antibodies
-			- Bevacizumab is a monoclonal antibody that binds to a protein called vascular endothelial growth factor (VEGF) and may prevent the growth of new blood vessels that tumors need to grow
-	
-	- other experimental treatments
-		- inhaled Perillyl Alcohol
-		- Anti-neoplastons
-		- Hydrazine Sulfate
-		- acetylate lysine (Alternatively, acetyl-CoA can acetylate lysine)
+	- inhibits B/T cells
+		- immunosuppressive effects on mouse thymocytes as well as human B and T lymphocytes
+			- withaferin A and a related steroid lactone withanolide E
+		- specific action on antigen recognition and proliferative capacity of both B and T lymphocytes
+			- Withaferin A 
+		- inhibits the E rosette and EAC rosette formation by normal B and T lymphocytes
+			- Withaferin A 
+		- inhibits Zap70 kinase activity, which is critical for T-cell function in health and disease
+			- Withaferin A 
 
-	- inhibit tumor growth
-		- cbd with thc 
-			- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells.
 
-	- activate DNA repair enzymes (except when using temozolomide)
-		- MGMT
-			- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents. 
-			- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
+	- inhibit cell motility/invasion
+		- inhibits cell motility and invasion capacity of cancer cells through MMP-2
+			- induce Par-4
+				- Withaferin A 
 
-	- inhibit phosphorylation
-		- tyrosine kinase inhibitors
-			- Tyrosine kinases are enzymes responsible for the activation of many proteins by signal transduction cascades. 
-			- The proteins are activated by adding a phosphate group to the protein (phosphorylation), a step that TKIs inhibit
 
-	- inhibit mutations to oncogenes or activation of oncogenes
-		- for example, inhibit epidermal growth factor receptor (EGFR is an oncogene)
-						
-		- https://en.wikipedia.org/wiki/Oncogene
-			Category						Examples	Cancers																										Gene functions
-			Growth factors, or mitogens		c-Sis		glioblastomas, fibrosarcomas, osteosarcomas, breast carcinomas, and melanomas								induces cell proliferation.
-			Receptor tyrosine kinases		epidermal growth factor receptor (EGFR), platelet-derived growth factor receptor (PDGFR), 								transduce signals for cell growth and differentiation.
-											and vascular endothelial growth factor receptor (VEGFR), HER2/neu	
-														Breast cancer, gastrointestinal stromal tumours, non-small-cell lung cancer and pancreatic cancer			
-			Cytoplasmic tyrosine kinases	Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML - Philadelphia chromosome		mediate the responses to, and the activation receptors of cell proliferation,
-														colorectal and breast cancers, melanomas, ovarian cancers, gastric cancers, head and neck cancers.	  		migration, differentiation, and survival	
-														pancreatic cancer, lung cancer, brain cancers, and blood cancers							 
-			Cytoplasmic Serine/threonine kinases and their regulatory subunits																						involved in organism development, cell cycle regulation, cell proliferation,
-											Raf kinase, and cyclin-dependent kinases (through overexpression).														differentiation, cells survival, and apoptosis	
-														malignant melanoma, papillary thyroid cancer, colorectal cancer, and ovarian cancer	
-			Regulatory GTPases				Ras protein	adenocarcinomas of the pancreas and colon, thyroid tumors, and myeloid leukemia								involved in signalling a major pathway leading to cell proliferation.	
-			Transcription factors			myc gene	malignant T-cell lymphomas and acute myeloid leukemias, breast cancer, pancreatic cancer, retinoblastoma,   regulate transcription of genes that induce cell proliferation.
-														and small cell lung cancer																					
-			Transcriptional coactivators	YAP, WWTR1 genes	glioma, melanoma, lung cancer, breast cancers, and more												interact with transcription factor partners to regulate transcription of 
-																																									genes that induce cell proliferation.
+	- prenylation
+		- reduce DNA prenylation
+			- atorvastatin
 
-	- activate anti-cancer genes
-		- https://en.wikipedia.org/wiki/Anticancer_gene
-			Anti-cancer gene	Functional p53 required	Blocked by Bcl-2	Caspases involved	Activated by phosphorylation	Engaging cell death pathway		Subcellular localization in cancer cells	Type of cell death
-			Apoptin				No						No					Yes					Yes								Intrinsic						Nucleus										Apoptosis
-			Brevinin-2R			Undetermined			Yes					No					Undetermined					Intrinsic						Cytoplasm									Autophagy
-			E4orf4				No						No					No					Yes								Intrinsic						Nucleus, cytoplasm							Mitotic catastrophe
-			HAMLET				No						No					Yes					No								Intrinsic						Nucleus, ER, mitochondria					Apoptosis, autophagy
-			MDA-7				No						Yes					Yes					No								Intrinsic						Receptor-binding, ER						Apoptosis
-			Noxa				No						Yes					Yes					Undetermined					Intrinsic						Mitochondria								Apoptosis
-			NS1					No						No					No					Yes								Intrinsic						Cytoplasm									Apoptosis
-			ORCTL3				Undetermined			Undetermined		Yes					Undetermined					Intrinsic						Plasma membrane, ER, golgi					Apoptosis
-			PAR-4				No						No					Yes					Yes								Extrinsic, Intrinsic			Nucleus, ER, plasma membrane				Apoptosis
-			TRAIL				No						Yes					Yes					No								Extrinsic						Receptor-binding							Apoptosis
-		- https://en.wikipedia.org/wiki/Tumor_suppressor_gene
-			Gene		Original Function														Two-Hit?			Associated Carcinomas
-			Rb			DNA Replication, cell division and death								Yes					Retinoblastoma	
-			p53			Apoptosis																No			   		Half of all known malignancies	
-			VHL			Cell division, death, and differentiation								Yes					Kidney Cancer	
-			APC			DNA damage, cell division, migration, adhesion, death					Yes					Colorectal Cancer	
-			BRCA2		Cell division and death, and repair of double-stranded DNA breaks		Yes					Breast/Ovarian Cancer	
-			NF1			Cell differentiation, division, development, RAS signal transduction	No					Nerve tumors, Neuroblastoma	
-			PTCH		Hedgehog signaling														No 					Medulloblastoma, Basal Cell Carcinoma	
+
+	- methylation
+		- reduce DNA methylation of tumor suppressor genes
+		- increase methylation of oncogenes (DNA methyltransferases, DNMT)
+			- Global hypomethylation has also been implicated in the development and progression of cancer through different mechanisms
+			- Typically, there is hypermethylation of tumor suppressor genes and hypomethylation of oncogenes.
+			- temozolomide (a common cancer treatment) methylates DNA
+
+
+	- phosphorylation
+		- inhibit phosphorylation
+			- kinases are enzymes that phosphorylate proteins, so theyre involved in cancer
+			- tyrosine kinase inhibitors
+				- Tyrosine kinases are enzymes responsible for the activation of many proteins by signal transduction cascades. 
+				- The proteins are activated by adding a phosphate group to the protein (phosphorylation), a step that TKIs inhibit
+		- increases the phosphorylation of JNK, ERK and MAPK 
+			- Withaferin A 
+
+
+	- inhibit oncoproteins
+		- E6/E7
+			- suppressed by withaferin A and indole-3-carbinol
+		- EWSR1-FLI1 fusion oncoprotein
+
+
+	- inhibit oncoenzymes
+		- UBE2L3 (ubiquitin-conjugating enzyme 2L3)
+			- the gene for this enzyme is related to cancer in that UBE2L3 can ubiquitinate oncoproteins E6 and E7
+
+
+	- inhibit oncogenes
+		- EWSR1-FLI1 fusion protein and RING1B gene
+			- EWSR1-FLI1 cannot activate its target genes and transform a cell from healthy to cancerous state without RING1B, as shown by impaired tumor growth when RING1B is reduced
+			- EWSR1-FLI1 fusion protein is directed to the different parts of the genome by RING1B, allowing EWSR1-FLI1 to hijack the transcriptional program of the cells, turning them into cancerous cells.
+		- IDH1/IDH2 (codes 2HG (D-2-hydroxyglutarate), an oncometabolite)
+		- SDHA,SDHB,SDHC,SDHD,SDHAF1,SDHAF2 (Succinate)
+		- FH (Fumarate)
+		- GNMT (Sarcosine)
+		- ASNS (Asparagine)
+		- PCYT1A (Choline)
+		- LDHA (Lactate)
+		- receptor tyrosine kinases
+			- epidermal growth factor receptor (EGFR)
+			- VEGF
+		- growth factors
+			- c-Sis
+			- transforming growth factor-β (TGF-β)
+		- Cytoplasmic tyrosine kinases
+			- Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML
+		- Cytoplasmic Serine/threonine kinases and their regulatory subunits	
+			- Raf kinase, and cyclin-dependent kinases
+		- Regulatory GTPases
+			- Ras protein
+				- inhibit Ras prenylation
+				- decrease activation of Ras
+				- decrease activation of downstream signaling pathways (Erk, rS6 and eIF4E)
+		- Transcription factors
+			- myc gene
+		- Transcriptional coactivators
+			- YAP gene
+			- WWTR1 genes
+
+		
+	- inhibit pathway components
+		- ROS
+		- JNK
+		- Janus kinase
+		- AR
+		- miR-101
+		- HSF1
+		- LKB1
+		- AMPKα
+		- YAP
+		- CIP2A
+		- c-MYC
+		- Nrf2
+		- HO-1
+		- Wnt
+		- β-catenin
+		- PI3K (phosphoinositide-3-kinase/protein kinase B)
+		- AKT
+		- mTOR
+
+	- inhibit pathways
+		- EGFR
+			- inhibited by celastrol
+		- Wnt/β-catenin
+			- inhibited by celastrol
+			- triggered by EBV to trigger cancer
+		- Bcl-2/Bax-caspase 9/3
+			- bcl family proteins are inhibited by celastrol, withaferin, fisetin, quercetin, Navitoclax
+		- ROS/JNK
+			- inhibited by celastrol
+		- signal transducer and transcription activator (STAT)
+			- STAT3
+				- inhibited by celastrol
+		- JNK/Nrf2/HO-1
+			- inhibited by celastrol
+		- VEGF
+			- inhibited by celastrol
+		- Janus kinase/signal transducer and transcription activator (JAK/STAT)
+			- triggered by EBV to trigger cancer
+		- mitogen-activated protein kinase (MAPK)
+			- triggered by EBV to trigger cancer
+		- AR/miR-101
+			- inhibited by celastrol
+		- HSF1-LKB1-AMPKα-YAP
+			- inhibited by celastrol
+		- CIP2A/c-MYC signaling pathways
+			- inhibited by celastrol
+		- PI3K/AKT pathways
+			- triggered by EBV to trigger cancer
+			- inhibit PI3K/AKT/mTOR pathway (increase apoptosis by blocking the PI3K/AKT/mTOR pathway)
+				- In many cancers, this pathway is overactive, thus reducing apoptosis and allowing proliferation
+					- inhibited by fisetin
+					- inhibited by celastrol
+		- mitochondrial pathway of apoptosis
+			- betulinic acid from rosemary uses this mitochondrial pathway to induce apoptosis
+		- apoptotic pathways
+			- IL-25 triggers apoptotic pathways
+		- transforming growth factor-β (TGF-β)
+			- triggered by EBV to trigger cancer
+		- oncogene signaling pathways
+			- inhibited by propolis
+		- signaling pathways
+			- Erk
+			- rS6
+			- eIF4E
+		- cell proliferation pathways
+			- inhibit mevalonate pathway
+				- statins (atorvastatin)
+			- inhibit Ras prenylation
+			- decrease activation of Ras pathway
+			- MEK pathway
+		- induce DNA repair pathways				
+			- boosts the activity of enzymes and pathways involved in DNA repair
+				- selenium
+		- prevents oxidative damage to DNA
+			- selenium
+
+
+	- activate anti-cancer genes/proteins
+		- Apoptin
+		- Brevinin-2R
+		- E4orf4
+		- HAMLET
+		- MDA-7
+		- Noxa
+		- NS1
+		- ORCTL3
+		- PAR-4
+		- TRAIL
+		- VHL
+		- APC
+		- BRCA2
+		- NF1
+		- PTCH
+		- KLF4
+			- Overexpression of KLF4 acts as a tumor suppressor in acute promyelocytic leukemia
+		- UBE2L3
+			- when mRNA genes UBE2L3 and CYP1A1 are over-expressed or activated, HPV activity is suppressed
+		- CYP1A1
+			- when mRNA genes UBE2L3 and CYP1A1 are over-expressed or activated, HPV activity is suppressed
+		- Rb/pRb (Retinoblastoma protein)
+			- pRb was the first tumor-suppressor protein discovered in human retinoblastoma
+			- however, recent evidence has also implicated pRb as a tumor-survival factor
+			- blocks cell proliferation, regulates cell division and cell death
+				- prevents the cell cycle progression from G1 phase into the S phase by binding to E2F and repressing the necessary gene transcription (prevents the cell from replicating its DNA if there is damage)
+		- BCL2 (family of proteins)
+			- can induce or inhibit apoptosis
+			- maintain composition of the mitochondria membrane
+			- prevent cytochrome c release into the cytosol (When cytochrome c is released from the mitochondria, it starts a signaling cascade to begin apoptosis)
+		- SWI/SNF (chromatin remodeling complex, encoded by 20 genes, which when mutated lead to misfolding and disrupt the complex's function)
+			- SWI/SNF has the ability move nucleosomes, which condenses DNA, allowing for transcription or block transcription from occurring for certain genes
+			- Mutating this ability could cause genes to be turned on or off at the wrong times
+		- p53 (TP53 gene encode protein p53)
+			- involved in DNA repair, inducing apoptosis, transcription, and regulating the cell cycle
+
+
+	- other treatment types
+
+		- non-invasive surgical methods
+			- thermal ablation induces cell death above 60 celsius
+			- https://en.wikipedia.org/wiki/Radiosurgery#Gamma_Knife
+			- proton beam radiation
+			- carbon ion therapy
+			- ultrasound oncotripsy
+				- ultrasound applied at a frequency of 0.5–0.67 MHz and a pulse duration of >20 ms causes selective disruption of a panel of breast, colon, and leukemia cancer cell models in suspension without significantly damaging healthy immune or red blood cells - https://authors.library.caltech.edu/99007/
 				
-			- Retinoblastoma protein (pRb). pRb was the first tumor-suppressor protein discovered in human retinoblastoma; however, recent evidence has also implicated pRb as a tumor-survival factor. RB1 gene is a gatekeeper gene that blocks cell proliferation, regulates cell division and cell death. Specifically pRb prevents the cell cycle progression from G1 phase into the S phase by binding to E2F and repressing the necessary gene transcription. This prevents the cell from replicating its DNA if there is damage.
-			
-			- p53. TP53, a caretaker gene, encodes the protein p53, which is nicknamed "the guardian of the genome". p53 has many different functions in the cell including DNA repair, inducing apoptosis, transcription, and regulating the cell cycle. Mutated p53 is involved in many human cancers, of the 6.5 million cancer diagnoses each year about 37% are connected to p53 mutations. This makes it a popular target for new cancer therapies. Homozygous loss of p53 is found in 65% of colon cancers, 30–50% of breast cancers, and 50% of lung cancers. Mutated p53 is also involved in the pathophysiology of leukemias, lymphomas, sarcomas, and neurogenic tumors. Abnormalities of the p53 gene can be inherited in Li-Fraumeni syndrome (LFS), which increases the risk of developing various types of cancers.
-			
-			- BCL2. BCL2 is a family of proteins that are involved in either inducing or inhibiting apoptosis. The main function is involved in maintaining the composition of the mitochondria membrane, and preventing cytochrome c release into the cytosol. When cytochrome c is released from the mitochondria it starts a signaling cascade to begin apoptosis.	
-			
-			- SWI/SNF. SWI/SNF is a chromatin remodeling complex, which is lost in about 20% of tumors. The complex consists of 10-15 subunits encoded by 20 different genes. Mutations in the individual complexes can lead to misfolding, which compromises the ability of the complex to work together as a whole. SWI/SNF has the ability move nucleosomes, which condenses DNA, allowing for transcription or block transcription from occurring for certain genes. Mutating this ability could cause genes to be turned on or off at the wrong times.
+		- other experimental treatments (some of which are known to be less useful or useless)
+			- inhaled Perillyl Alcohol
+			- Anti-neoplastons
+			- Hydrazine Sulfate
+			- acetylate lysine (Alternatively, acetyl-CoA can acetylate lysine)
 
-			- increase expression/activation of anticancer genes like p53 
-				- avoid substances which decrease p53
-					- Chaga Mushroom (decreases expression of p53)
-					- Gankyrin
-					- Olive Leaf Extract
-					- Curcumin (in colon cancer cells)
-					- Shilajit
-					- inhibit COX2, which inhibits p53
-						- COX-2 inhibitors block HDM2 phosphorylation which enables p53
-						- prostaglandin A1/2 are metabolites of COX-2, which bind to and disable p53
-						- caveolin (angiogenesis, tumor suppression/progression, binds with tyrosine kinases)
-						- Paracetamol (acetaminophen) is also a COX-2 inhibitor almost exclusively within the brain
-						- aspirin may reduce glioma
-							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991947/
-							- short-term aspirin use in therapeutic doses might precipitate reversible acute kidney injury when the patient was ill with glomerulonephritis or cirrhosis
-						- M. chamomilla essential oils showed selective inhibition on the COX-2 enzyme and apoptosis against the selected cancer cell lines
+		- cancer-specific vaccines
+			- specific cancer vaccines (bladder cancer, melanoma, prostate cancer)
+			- custom mRNA vaccines
 
-				- use substances which activate p53
-					- Astaxanthin/H. pluvialis
-					- Ginger/Zerumbone 
-					- Increasing NQO1 expression/activity (such as mitosenes, indolequinones, aziridinylbenzoquinones and β-lapachone)
-					- Pterostilbene
-					- Resveratrol
-					- BH3 mimetics 
-					- Capsaicin (decreases mutant p53 gene expression)
-					- withaferin A (Withania somnifera also called 'Bharatiya Ashwagandha', or similar compounds like ginsenosides)
-						- is a steroidal lactone that is found to down regulate expression of E6 and E7 oncoproteins, induce accumulation of p53, causes G2/M cell cycle arrest, alters the expression levels of apoptotic markers Bcl2, Bax and caspase3, and tumor volume
-						- Anti-angiogenic and anti-tumor activity of withaferin A is due to the inhibition of chymotrypsin
-						- induction of apoptosis is due to the inhibition of protein kinase C (also done by tamoxifen)
-						- inhibits B/T cells
-							- immunosuppressive effects on mouse thymocytes as well as human B and T lymphocytes by withaferin A and a related steroid lactone withanolide E
-								- At very low concentrations, these molecules inhibit the E rosette and EAC rosette formation by normal B and T lymphocytes
-								- Withaferin A has a specific action on antigen recognition and proliferative capacity of both B and T lymphocytes
-							- A recent study had elaborated the role of Withaferin in inhibition of Zap70 kinase activity, which is critical for T-cell function in health and disease
-						- inhibits tumor growth through ATP-independent inhibition of heat shock protein 90 HSP90
-						- increases Mcl-1 expression levels inducing apoptosis
-						- inhibit vimentin
-							- binds to/inhibits vimentin
-								- binds to/inhibits intermediate filament protein, vimentin, by covalently modifying its highly conserved cysteine residue in alpha-helical coiled 2B domain
-							- aggregates vimentin with F-actin to cause apoptosis
-								- Withaferin A causes aggregation of vimentin to colocalize with F-actin, leading to apoptosis
-								- Actin is required for various cellular processes including oriented growth, adhesion and migration
-								- Withaferin A can alter cytoskeleton architecture by covalently binding to multifunctional adaptor protein annexin II and by stimulating the basal F-actin cross linking activity
-							- downregulates vimentin expression
-								- Withaferin A downregulates vimentin expression, leading to structural perturbation of intermediary filaments
-								- Cancer cells express enhanced vimentin expression and correlates with the induction of epithelial to mesenchymal transition (EMT), metastasis, poor prognosis and decreased survival rate
-							- degrades vimentin
-								- caspase-dependent degradation of vimentin by withaferin A was observed
-						- increases the phosphorylation of JNK, ERK and MAPK 
-						- increases the expression of tumor suppressor p53, Notch 2 and Notch 4, down-regulates the expression of ERα, resulting in the inhibition of cancer cell migration and growth
-							- Notch signaling plays a significant role in the development of colon cancer
-							- inhibition of Notch-mediated prosurvival by withaferin A facilitates c-Jun-NH2-kinase-mediated apoptosis in colon cancer cell lines
-						- inhibits cell motility and invasion capacity of cancer cells through MMP-2 by induction of Par-4
-
-
-- treating other conditions to avoid stressing the system
-
-	- heart failure 
-		- treatments
-			- resveratrol, taurine, creatine, arginine, carnitine, carnosine, iodine, fish oil, b vitamins, coq10, green tea, garlic, antioxidants like vitamins C and E and beta-carotene, avoiding deficiency of selenium/calcium/thiamine 
-			- Vitamins B6, B12 and folate all tend to reduce levels of homocysteine, which is associated with increased oxidative stress
-			- Carnitine, co-enzyme Q10 and creatine supplementation have resulted in improved exercise capacity in patients with HF in some studies
-			- avoid:
-				- excess salt/water, choline, arginine, ginseng, gingko, garlic, saw palmetto (with other heart drugs), calcium, niacin
-				- L-arginine may make blood pressure dip too low if you're already taking medications to treat the condition. 
-
-	- multiple sclerosis
-		- causes
-			- Among inflammatory components, ILs are a large group of cytokines secreted by cells and bind to specific receptors (18). 
-			- ILs play a pivotal role in triggering and modulating the immune responses in MS (19). 
-			- GWAS data sets have identified one or more single nucleotide polymorphisms (SNPs) for other widely-reported circulating ILs in MS, such as IL-1 receptor antagonist (IL-1Ra), IL-2Rα, IL-6, IL-16, IL-17, and IL-18
-		- treatments/prevention
-			- oral antihistamine clemastine has myelin-repairing qualities
-			- Lipoic acid, an antioxidant, may help block nerve fiber damage
-			- lithium orotate can also increase your brain’s growth hormone (BDNF
-			- Hyperbaric oxygen therapy (HBOT) 
-			- Researchers have found that LLLT can increase myelination and increase the total number of myelinated axons (79-81). 
-			- Researchers have also concluded that phosphatidylserine is required for healthy nerve cell membranes and myelin in the brain
-			- Pregnenolone and other steroid hormones regulate, repair, rebuild, and increase the production of myelin 
-			- Uridine is a nucleotide base found in beer, which has been proven to help treat “myelin sheath lesion” in several experimental and clinical studies 
-			- Withanoside IV is one of the main therapeutic compounds in ashwagandha and research shows that it can increase myelin levels in the nervous system
-			- Ginkgo Biloba is another common herb, which is taken for cognitive enhancement or to alleviate cognitive decline.
-				- It’s beneficial effects of cognition may be because it significantly increases the number of myelinated axons 
-			- Inositol is a small molecule structurally similar to glucose that is involved in cellular signalling. 
-				- Research shows that animals treated with inositol have significantly fewer demyelinating lesions
-			- lion’s mane increases the rate of myelination production, and the process of myelination begins earlier in the presence of the mushroom
-			- luteolin, quercetin and fisetin significantly decrease myelin phagocytosis and may be able to limit the demyelination process during multiple sclerosis
-			- Running has also been shown to increase myelination and delay the progression of demyelination, and therefore delays the progression of Alzheimer’s disease
-				- exercise increases mitochondrial activity, which then increases myelination in the brain 
-			- Vitamin D receptor boosts the regeneration of myelin
-			- vitamin k2 has also been shown to support myelin
-			- choline - causes clots
-			- vitamin b12, folate, S-adenosylmethionine, biotin, vitamin b5
-			- Rhodiola has radioprotective effects
-			- keto diet
-				- several studies show that when you increase the production of ketones, you improve myelination and increase myelin production (3-6). 
-				- ketones can also increase your brain’s growth hormone, help you overcome brain fog, support your brain’s mitochondria, and slow down cognitive decline. 
-			- monolaurin
-				- Monolaurin also has antiviral properties which are effective in fighting off multiple types of infections common in patients with MS. 
-				- Viral infections usually trigger inflammation and over production of T-cells, which can cause the myelin sheath to break down.
-			- vitamin d
-			- keto diet
-			- copper
-				- The myelin sheath regenerates using lipids, which can only be created using a copper-dependent enzyme. Without this assistance, other nutrients cannot do their job. Copper is found in lentils, almonds, pumpkin seeds, sesame seeds
-			- green tea
-
-	- silicosis treatments/prevention (silica can cause cancer)
-		- Other potential drugs have been reported to inhibit silica-induced pulmonary inflammation and fibrosis in silicotic models such as:
-			- anticytokines (anakinra, anti-IL-17 antibody, and anti-IL-9 antibody)
-			- antioxidants (N-acetylcysteine, corticosteroids, and dexamethasone)
-			- agents influencing the autophagic-lysosome system (imipramine, dioscin, and rapamycin)
-			- agents increasing cAMP levels
-			- microRNAs
-			- Mesenchymal stromal cells (MSCs) and MSC-derived extracellular vesicles (EVs) possess immunoregulatory and reparative abilities, which modulate innate and adaptive immunity and have shown great therapeutic potential in silicosis
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8884393/
-				- Salvia miltiorrhiza - Sodium tanshinone IIA sulfonate
-				- broccoli, berries, vegetables in general - Kaempferol
-				- Astragalus membranaceus - Astragaloside IV
-				- Dioscin - steroidal saponin present in a variety of vegetables and herbs, particularly in the species of Dioscoreaceae, Liliacae and Solanacae
-				- olive oil, holy basil - Oleanolic acid
-				- citrus fruits - Hesperetin
-				- buckthorn, knotweed - Reynoutria japonica Houtt, and Rheum officinale Baill - Emodin
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8616670/
-				- chinese skullcap - 黄芩 (Scutellaria baicalensis Georgi)
-
-	- acidosis
-		- causes
-			- sepsis, hypoxia, kidney/heart/liver/lung/brain damage, cirrhosis, inflammation, dysbiosis/SIBO, diabetes, high-fat diet, high carb diet, low fiber diet, insulin resistance low oxygen/hypoxia, COVID, COPD, bacterial/viral/fungal infection, hyperammonemia/hyperuricemia/uremia which causes high gastrin and high stomach acid production, vitamin deficiencies (especially vitamin b12 deficiency), cancer
-			- elevated levels of D‐dimer, C‐reactive protein and interleukin‐6, decreased levels of lymphocytes and albumin
-			- even though patients with acute liver failure show significantly elevated lactate levels, often, no overt acid-base disorder can be found because of the offsetting hypoalbuminaemic alkalosis
-				- Hypoalbuminaemic alkalosis is counteracted by hyperchloraemic and dilutional acidosis, resulting in a normal overall base excess
-			- lactic acidosis can be produced by excess lactate or b1/b9/b12 deficiencies
-			- excess amino acids like glutamine/arginine can cause acidosis
-			- high anion gap metabolic acidosis produced by glycolic acid, propylene glycol, salicylates, uric/hydrochloric acid, acidic foods
-			- medications can cause acidosis: 
-				- estrogen, niacin, spironolactone, aspirin, propylene glycol, glycolic acid, lactic acid, immune-suppressing drugs (corticosteroids)
-		- treatments
-			- sodium bicarbonate: 1 - 2g per day - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6677263/ - kidney failure patients should avoid excess sodium
-			- zinc
-			- gaviscon (sodium alginate)
-			- antioxidants
-				- vitamin c powder
-				- bromelain helps with vitamin c absorption
-				- ALA was effective for lactic acidosis (with creatine and coq10) - https://ods.od.nih.gov/factsheets/PrimaryMitochondrialDisorders-HealthProfessional/
-			- supplements for cytokine storm to reduce inflammatory response which can cause acidosis
-				- https://onedaymd.aestheticsadvisor.com/2020/04/immune-nutrients-to-calm-cytokine-storm.html
-				- Vitamin D3, Quercetin, Zinc, Curcumin (Turmeric), Nigella Sativa (Black Seed Oil) , Melatonin, Vitamin C, NAC and Glutathione, Vitamin A, Omega 3 (Fish Oil), Selenium, B Vitamins, Molecular Hydrogen, Lactoferrin, Probiotics, Green Tea (EGCG), Astaxanthin, Resveratrol
-			- lactoferrin binds with excess iron to reduce ferritin levels
-			- walnuts
-				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058555/
-			- Nicotinamide/magnesium
-				- https://en.wikipedia.org/wiki/Cytokine_storm
-			- anti-inflammatory compounds in: spirulina, ginger, green tea, bromelain, lactoferrin, thiamine, astaxanthin, olive oil, glutathione, branched-chain amino acids, NAC
-			- oxygen therapy
-			- molecular hydrogen
-			- alkaline water
-		   	- reducing/avoiding acidosis triggers
-		   	    - deficiencies like zinc deficiency (zinc deficiency can lower levels of alcohol dehydrogenase)
-		    	- nsaids/alcohol
-		    	- supplements metabolized by the liver
-		    	- avoid high salt/fat/carb diet
-			    	- Bile acids, at high levels in the colons of humans eating a high fat diet, also cause DNA damage and contribute to colon cancer
-		    - treat insulin resistance
-		    - avoid cirrhosis triggers
-		    	- estrogen and saw palmetto contribute to cirrhosis
-		    - treat cirrhosis
-		    	- Coffee has antioxidant and antifibrotic effects. Caffeine may not be the important component; polyphenols may be more important. Drinking two or more cups of coffee a day is associated with improvements in the liver enzymes ALT, AST, and GGT. Even in those with liver disease, coffee consumption can lower fibrosis and cirrhosis
-		    	- thiamine/NAC
-	    	- treat gallstones/gallbladder dysfunction
-	    		- causes: low-fiber diet, low intake of the nutrients folate, magnesium, calcium, and vitamin C, low fluid consumption, a high intake of carbohydrate, a high glycemic load, and high glycemic index diet
-	    		- possible treatments
-	    			- melatonin: A lack of melatonin could significantly contribute to gallbladder stones, as melatonin inhibits cholesterol secretion from the gallbladder, enhances the conversion of cholesterol to bile, and is an antioxidant, which is able to reduce oxidative stress to the gallbladder
-	    			- Wine and whole-grained bread may decrease the risk of gallstones
-	    			- Chenodeoxycholic/ursodeoxycholic acid
-
-    - COPD
-    	- possible treatments
-    		- vitamin C, vitamin E, zinc and selenium
-    		- bronchodilators
-    		- corticosteroids
-
-	- kidney failure
-		- avoid the following where possible, if you have kidney disease:
-			- Chromium picolinate, Germanium, L-lysine, Larrea tridentate, Pausinystalia yohimbe, Thunder god vine, Cat’s claw, Ephedra, Cranberry, Licorice, Astragalus, Barberry, Apium Graveolens, Creatine, Goldenrod, Horsetail, Huperzinea, Java Tea Leaf, Licorice Root, Nettle, Stinging Nettle, Oregon Grape Root, Parsley Root, Pennyroyal, Ruta Graveolens, Uva Ursi, Yohimbe, bucha leaves, juniper berries, Salix daphnoides (Willow Bark)
-			- Many herbal supplements can interact with prescription drugs. A few examples are St. Johns Wort, echinacea, ginkgo, garlic, ginseng, ginger, and blue cohosh
-	        - Multiple episodes of oxalosis from vitamin C supplementation have been reported
-		- possible ayurvedic kidney treatments
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3361922/
-				- Gokshura Guggulu Triphala Trikatu Musta: 1 g three times a day
-				- Gokshura Amalaki Guduchi: 3 g two times a day
-				- Varuna tvak Bilva moola Apamarga Chitrak moola Arani Shigru Bruhati Kirattikta Karanja Shatavari: 10 g two times/day
-				- Niruha basti of Punarnavadi kvatha: daily
-			- punarnava (boerhavia diffusa): remove toxins
-			- gokshur (tribulus terrestris): remove kidney stones, urine flow
-			- shuddha guguul (commiphora mukul): support immune system
-			- bhumi amla (phyllanthus niruri): diuretic
-			- amla (emblica oficinalis): remove toxins, diuretic
-			- haritaki (terminalis chebula): remove toxins, diuretic
-			- shirish (albezzia lebbok): anti-inflammatory, removes toxins
-			- palaash (butea monosperma): boosts liver, control blood sugar
-			- varuna (crateva nurvela): reduce inflammation/urea/creatinine, remove kidney stones
-			- kaasni (chicorium intybus): kidney strength, increase red blood cell count
-			- shigru (morienga oleifera): reduce inflammation, improve circulation in kidneys, boosts immune system
-			- apamarg (achranthyus aspera): anti-inflammatory, removes toxins
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7048188/
-				- Rheum emodi Wall Ex Meissn (Polygonaceae)
-				- Nelumbo nucifera Gaertn (Nelumbonaceae) 
-			- turmeric, resveratrol, quercetin, cordycepin, coreopsis tinctoria, phyllanthus niruri, garlic, ursolic acid (rosemary, thyme), green tea, short chain fatty acids (acetic acid, butyric acid, propionic acid and saturated fats)
-				- Ursolic acid may increase bile excretion and decrease bilirubin level [174]; high total bilirubin level may be correlated with mortality among CKD patients undergoing long-term hemodialysis
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981831/
-			- vitamin c can cause kidney stones in high doses
-			- thiamine, phosphate, magnesium, antioxidants
-		- possible herbal treatments for kidney injury - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9152371/
-			- antioxidants, chamomile, acai, caffeic/ferulic/oleanolic acid, garlic juice, black pepper, grape seed, quercetin/rutin, silymarin (milk thistle), sesame, resveratrol, rosemary, ginger, ginkgo biloba, stevia, cbd, curcumin, tribulus terrestris, salvia miltiorrhiza, crateva nurvela
-
-    - cholestasis
-    	- drug-induced triggers: ketoconazole, estrogen
-    	- possible treatments: milk thistle, arginine, Ursodeoxycholic acid (ursodiol)
-
-    - atherosclerosis
-    	- possible treatments: grape seed, royal jelly, berberine, magnesium, kombucha, carnitine, vitamin c, arginine, pomegranate, taurine, coq10, nattokinase, quercetin, lutein
-
-    - cardiovascular health
-    	- possible treatments: carnitine, resveratrol, coq10, magnesium, berberine, soy, chia, taurine, green tea, arginine, reishi, ginkgo, pomegranate, royal jelly, cannabis, ginseng, bromelain, grape seed, olive leaf, vitamin c, ALA, fenugreek, inositol, melatonin, nattokinase, wheat germ, flaxseed, chitosan, cinnamon, milk thistle, astragalus
-    
-    - sepsis
-    	- omega-3 fatty acids are not recommended as immune supplements for a person with sepsis or septic shock
-		- hydrocortisone, vitamin C, and thiamine as a treatment for preventing sepsis
-
-	- gout
-		- try low purine diet to see if it helps more than alkaline diet
-		- Milk. Some early research suggests that drinking skim milk may help reduce uric acid and gout flare-ups. It speeds up the excretion of uric acid in your urine and also reduces your bodys inflammatory response to uric acid crystals in your joints.
-		- Cherries. Scientists are currently researching the benefits of cherries and cherry juice for managing gout symptoms, and early results are promising. Cherries have known anti-inflammatory properties, and they may also help reduce uric acid in your body.
-		- Coffee. You may have heard that coffee is acidic, but the type of acid in coffee is very different from uric acid. In fact, drinking coffee daily can reduce your uric acid levels by several means. It slows the breakdown of purine into uric acid and speeds the rate of excretion.
-		- Water. People who drink five to eight glasses of water a day are less likely to experience gout symptoms. This makes sense since your kidneys use water to excrete uric acid in your urine. Water is also good for kidney health. Impaired kidney function is one factor that can contribute to gout.
-		- Peanuts, brown bread, and fruit also appear protective
-
-	- hypercholesterolemia
-		- can be caused by kidney damage and hypothyroidism, glucocorticoids, retinoids
-		- possible treatments: statins, fibrates, nicotinic acid, and cholestyramine
-		    - use niacin in the short-term, otherwise it can cause liver failure
+		- anti-cancer antibodies
+			- monoclonal antibodies
+				- Bevacizumab is a monoclonal antibody that binds to a protein called vascular endothelial growth factor (VEGF) and may prevent the growth of new blood vessels that tumors need to grow
