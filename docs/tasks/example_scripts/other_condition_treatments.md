@@ -1,0 +1,186 @@
+- treating other conditions to avoid stressing the system
+
+	- heart failure 
+		- treatments
+			- resveratrol, taurine, creatine, arginine, carnitine, carnosine, iodine, fish oil, b vitamins, coq10, green tea, garlic, antioxidants like vitamins C and E and beta-carotene, avoiding deficiency of selenium/calcium/thiamine 
+			- Vitamins B6, B12 and folate all tend to reduce levels of homocysteine, which is associated with increased oxidative stress
+			- Carnitine, co-enzyme Q10 and creatine supplementation have resulted in improved exercise capacity in patients with HF in some studies
+			- avoid:
+				- excess salt/water, choline, arginine, ginseng, gingko, garlic, saw palmetto (with other heart drugs), calcium, niacin
+				- L-arginine may make blood pressure dip too low if you're already taking medications to treat the condition. 
+
+	- multiple sclerosis
+		- causes
+			- Among inflammatory components, ILs are a large group of cytokines secreted by cells and bind to specific receptors (18). 
+			- ILs play a pivotal role in triggering and modulating the immune responses in MS (19). 
+			- GWAS data sets have identified one or more single nucleotide polymorphisms (SNPs) for other widely-reported circulating ILs in MS, such as IL-1 receptor antagonist (IL-1Ra), IL-2Rα, IL-6, IL-16, IL-17, and IL-18
+		- treatments/prevention
+			- oral antihistamine clemastine has myelin-repairing qualities
+			- Lipoic acid, an antioxidant, may help block nerve fiber damage
+			- lithium orotate can also increase your brain’s growth hormone (BDNF
+			- Hyperbaric oxygen therapy (HBOT) 
+			- Researchers have found that LLLT can increase myelination and increase the total number of myelinated axons (79-81). 
+			- Researchers have also concluded that phosphatidylserine is required for healthy nerve cell membranes and myelin in the brain
+			- Pregnenolone and other steroid hormones regulate, repair, rebuild, and increase the production of myelin 
+			- Uridine is a nucleotide base found in beer, which has been proven to help treat “myelin sheath lesion” in several experimental and clinical studies 
+			- Withanoside IV is one of the main therapeutic compounds in ashwagandha and research shows that it can increase myelin levels in the nervous system
+			- Ginkgo Biloba is another common herb, which is taken for cognitive enhancement or to alleviate cognitive decline.
+				- It’s beneficial effects of cognition may be because it significantly increases the number of myelinated axons 
+			- Inositol is a small molecule structurally similar to glucose that is involved in cellular signalling. 
+				- Research shows that animals treated with inositol have significantly fewer demyelinating lesions
+			- lion’s mane increases the rate of myelination production, and the process of myelination begins earlier in the presence of the mushroom
+			- luteolin, quercetin and fisetin significantly decrease myelin phagocytosis and may be able to limit the demyelination process during multiple sclerosis
+			- Running has also been shown to increase myelination and delay the progression of demyelination, and therefore delays the progression of Alzheimer’s disease
+				- exercise increases mitochondrial activity, which then increases myelination in the brain 
+			- Vitamin D receptor boosts the regeneration of myelin
+			- vitamin k2 has also been shown to support myelin
+			- choline - causes clots
+			- vitamin b12, folate, S-adenosylmethionine, biotin, vitamin b5
+			- Rhodiola has radioprotective effects
+			- keto diet
+				- several studies show that when you increase the production of ketones, you improve myelination and increase myelin production (3-6). 
+				- ketones can also increase your brain’s growth hormone, help you overcome brain fog, support your brain’s mitochondria, and slow down cognitive decline. 
+			- monolaurin
+				- Monolaurin also has antiviral properties which are effective in fighting off multiple types of infections common in patients with MS. 
+				- Viral infections usually trigger inflammation and over production of T-cells, which can cause the myelin sheath to break down.
+			- vitamin d
+			- keto diet
+			- copper
+				- The myelin sheath regenerates using lipids, which can only be created using a copper-dependent enzyme. Without this assistance, other nutrients cannot do their job. Copper is found in lentils, almonds, pumpkin seeds, sesame seeds
+			- green tea
+
+	- silicosis treatments/prevention (silica can cause cancer)
+		- Other potential drugs have been reported to inhibit silica-induced pulmonary inflammation and fibrosis in silicotic models such as:
+			- anticytokines (anakinra, anti-IL-17 antibody, and anti-IL-9 antibody)
+			- antioxidants (N-acetylcysteine, corticosteroids, and dexamethasone)
+			- agents influencing the autophagic-lysosome system (imipramine, dioscin, and rapamycin)
+			- agents increasing cAMP levels
+			- microRNAs
+			- Mesenchymal stromal cells (MSCs) and MSC-derived extracellular vesicles (EVs) possess immunoregulatory and reparative abilities, which modulate innate and adaptive immunity and have shown great therapeutic potential in silicosis
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8884393/
+				- Salvia miltiorrhiza - Sodium tanshinone IIA sulfonate
+				- broccoli, berries, vegetables in general - Kaempferol
+				- Astragalus membranaceus - Astragaloside IV
+				- Dioscin - steroidal saponin present in a variety of vegetables and herbs, particularly in the species of Dioscoreaceae, Liliacae and Solanacae
+				- olive oil, holy basil - Oleanolic acid
+				- citrus fruits - Hesperetin
+				- buckthorn, knotweed - Reynoutria japonica Houtt, and Rheum officinale Baill - Emodin
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8616670/
+				- chinese skullcap - 黄芩 (Scutellaria baicalensis Georgi)
+
+	- acidosis
+		- causes
+			- sepsis, hypoxia, kidney/heart/liver/lung/brain damage, cirrhosis, inflammation, dysbiosis/SIBO, diabetes, high-fat diet, high carb diet, low fiber diet, insulin resistance low oxygen/hypoxia, COVID, COPD, bacterial/viral/fungal infection, hyperammonemia/hyperuricemia/uremia which causes high gastrin and high stomach acid production, vitamin deficiencies (especially vitamin b12 deficiency), cancer
+			- elevated levels of D‐dimer, C‐reactive protein and interleukin‐6, decreased levels of lymphocytes and albumin
+			- even though patients with acute liver failure show significantly elevated lactate levels, often, no overt acid-base disorder can be found because of the offsetting hypoalbuminaemic alkalosis
+				- Hypoalbuminaemic alkalosis is counteracted by hyperchloraemic and dilutional acidosis, resulting in a normal overall base excess
+			- lactic acidosis can be produced by excess lactate or b1/b9/b12 deficiencies
+			- excess amino acids like glutamine/arginine can cause acidosis
+			- high anion gap metabolic acidosis produced by glycolic acid, propylene glycol, salicylates, uric/hydrochloric acid, acidic foods
+			- medications can cause acidosis: 
+				- estrogen, niacin, spironolactone, aspirin, propylene glycol, glycolic acid, lactic acid, immune-suppressing drugs (corticosteroids)
+		- treatments
+			- sodium bicarbonate: 1 - 2g per day - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6677263/ - kidney failure patients should avoid excess sodium
+			- zinc
+			- gaviscon (sodium alginate)
+			- antioxidants
+				- vitamin c powder
+				- bromelain helps with vitamin c absorption
+				- ALA was effective for lactic acidosis (with creatine and coq10) - https://ods.od.nih.gov/factsheets/PrimaryMitochondrialDisorders-HealthProfessional/
+			- supplements for cytokine storm to reduce inflammatory response which can cause acidosis
+				- https://onedaymd.aestheticsadvisor.com/2020/04/immune-nutrients-to-calm-cytokine-storm.html
+				- Vitamin D3, Quercetin, Zinc, Curcumin (Turmeric), Nigella Sativa (Black Seed Oil) , Melatonin, Vitamin C, NAC and Glutathione, Vitamin A, Omega 3 (Fish Oil), Selenium, B Vitamins, Molecular Hydrogen, Lactoferrin, Probiotics, Green Tea (EGCG), Astaxanthin, Resveratrol
+			- lactoferrin binds with excess iron to reduce ferritin levels
+			- walnuts
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058555/
+			- Nicotinamide/magnesium
+				- https://en.wikipedia.org/wiki/Cytokine_storm
+			- anti-inflammatory compounds in: spirulina, ginger, green tea, bromelain, lactoferrin, thiamine, astaxanthin, olive oil, glutathione, branched-chain amino acids, NAC
+			- oxygen therapy
+			- molecular hydrogen
+			- alkaline water
+		   	- reducing/avoiding acidosis triggers
+		   	    - deficiencies like zinc deficiency (zinc deficiency can lower levels of alcohol dehydrogenase)
+		    	- nsaids/alcohol
+		    	- supplements metabolized by the liver
+		    	- avoid high salt/fat/carb diet
+			    	- Bile acids, at high levels in the colons of humans eating a high fat diet, also cause DNA damage and contribute to colon cancer
+		    - treat insulin resistance
+		    - avoid cirrhosis triggers
+		    	- estrogen and saw palmetto contribute to cirrhosis
+		    - treat cirrhosis
+		    	- Coffee has antioxidant and antifibrotic effects. Caffeine may not be the important component; polyphenols may be more important. Drinking two or more cups of coffee a day is associated with improvements in the liver enzymes ALT, AST, and GGT. Even in those with liver disease, coffee consumption can lower fibrosis and cirrhosis
+		    	- thiamine/NAC
+	    	- treat gallstones/gallbladder dysfunction
+	    		- causes: low-fiber diet, low intake of the nutrients folate, magnesium, calcium, and vitamin C, low fluid consumption, a high intake of carbohydrate, a high glycemic load, and high glycemic index diet
+	    		- possible treatments
+	    			- melatonin: A lack of melatonin could significantly contribute to gallbladder stones, as melatonin inhibits cholesterol secretion from the gallbladder, enhances the conversion of cholesterol to bile, and is an antioxidant, which is able to reduce oxidative stress to the gallbladder
+	    			- Wine and whole-grained bread may decrease the risk of gallstones
+	    			- Chenodeoxycholic/ursodeoxycholic acid
+
+    - COPD
+    	- possible treatments
+    		- vitamin C, vitamin E, zinc and selenium
+    		- bronchodilators
+    		- corticosteroids
+
+	- kidney failure
+		- avoid the following where possible, if you have kidney disease:
+			- Chromium picolinate, Germanium, L-lysine, Larrea tridentate, Pausinystalia yohimbe, Thunder god vine, Cat’s claw, Ephedra, Cranberry, Licorice, Astragalus, Barberry, Apium Graveolens, Creatine, Goldenrod, Horsetail, Huperzinea, Java Tea Leaf, Licorice Root, Nettle, Stinging Nettle, Oregon Grape Root, Parsley Root, Pennyroyal, Ruta Graveolens, Uva Ursi, Yohimbe, bucha leaves, juniper berries, Salix daphnoides (Willow Bark)
+			- Many herbal supplements can interact with prescription drugs. A few examples are St. Johns Wort, echinacea, ginkgo, garlic, ginseng, ginger, and blue cohosh
+	        - Multiple episodes of oxalosis from vitamin C supplementation have been reported
+		- possible ayurvedic kidney treatments
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3361922/
+				- Gokshura Guggulu Triphala Trikatu Musta: 1 g three times a day
+				- Gokshura Amalaki Guduchi: 3 g two times a day
+				- Varuna tvak Bilva moola Apamarga Chitrak moola Arani Shigru Bruhati Kirattikta Karanja Shatavari: 10 g two times/day
+				- Niruha basti of Punarnavadi kvatha: daily
+			- punarnava (boerhavia diffusa): remove toxins
+			- gokshur (tribulus terrestris): remove kidney stones, urine flow
+			- shuddha guguul (commiphora mukul): support immune system
+			- bhumi amla (phyllanthus niruri): diuretic
+			- amla (emblica oficinalis): remove toxins, diuretic
+			- haritaki (terminalis chebula): remove toxins, diuretic
+			- shirish (albezzia lebbok): anti-inflammatory, removes toxins
+			- palaash (butea monosperma): boosts liver, control blood sugar
+			- varuna (crateva nurvela): reduce inflammation/urea/creatinine, remove kidney stones
+			- kaasni (chicorium intybus): kidney strength, increase red blood cell count
+			- shigru (morienga oleifera): reduce inflammation, improve circulation in kidneys, boosts immune system
+			- apamarg (achranthyus aspera): anti-inflammatory, removes toxins
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7048188/
+				- Rheum emodi Wall Ex Meissn (Polygonaceae)
+				- Nelumbo nucifera Gaertn (Nelumbonaceae) 
+			- turmeric, resveratrol, quercetin, cordycepin, coreopsis tinctoria, phyllanthus niruri, garlic, ursolic acid (rosemary, thyme), green tea, short chain fatty acids (acetic acid, butyric acid, propionic acid and saturated fats)
+				- Ursolic acid may increase bile excretion and decrease bilirubin level [174]; high total bilirubin level may be correlated with mortality among CKD patients undergoing long-term hemodialysis
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981831/
+			- vitamin c can cause kidney stones in high doses
+			- thiamine, phosphate, magnesium, antioxidants
+		- possible herbal treatments for kidney injury - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9152371/
+			- antioxidants, chamomile, acai, caffeic/ferulic/oleanolic acid, garlic juice, black pepper, grape seed, quercetin/rutin, silymarin (milk thistle), sesame, resveratrol, rosemary, ginger, ginkgo biloba, stevia, cbd, curcumin, tribulus terrestris, salvia miltiorrhiza, crateva nurvela
+
+    - cholestasis
+    	- drug-induced triggers: ketoconazole, estrogen
+    	- possible treatments: milk thistle, arginine, Ursodeoxycholic acid (ursodiol)
+
+    - atherosclerosis
+    	- possible treatments: grape seed, royal jelly, berberine, magnesium, kombucha, carnitine, vitamin c, arginine, pomegranate, taurine, coq10, nattokinase, quercetin, lutein
+
+    - cardiovascular health
+    	- possible treatments: carnitine, resveratrol, coq10, magnesium, berberine, soy, chia, taurine, green tea, arginine, reishi, ginkgo, pomegranate, royal jelly, cannabis, ginseng, bromelain, grape seed, olive leaf, vitamin c, ALA, fenugreek, inositol, melatonin, nattokinase, wheat germ, flaxseed, chitosan, cinnamon, milk thistle, astragalus
+    
+    - sepsis
+    	- omega-3 fatty acids are not recommended as immune supplements for a person with sepsis or septic shock
+		- hydrocortisone, vitamin C, and thiamine as a treatment for preventing sepsis
+
+	- gout
+		- try low purine diet to see if it helps more than alkaline diet
+		- Milk. Some early research suggests that drinking skim milk may help reduce uric acid and gout flare-ups. It speeds up the excretion of uric acid in your urine and also reduces your bodys inflammatory response to uric acid crystals in your joints.
+		- Cherries. Scientists are currently researching the benefits of cherries and cherry juice for managing gout symptoms, and early results are promising. Cherries have known anti-inflammatory properties, and they may also help reduce uric acid in your body.
+		- Coffee. You may have heard that coffee is acidic, but the type of acid in coffee is very different from uric acid. In fact, drinking coffee daily can reduce your uric acid levels by several means. It slows the breakdown of purine into uric acid and speeds the rate of excretion.
+		- Water. People who drink five to eight glasses of water a day are less likely to experience gout symptoms. This makes sense since your kidneys use water to excrete uric acid in your urine. Water is also good for kidney health. Impaired kidney function is one factor that can contribute to gout.
+		- Peanuts, brown bread, and fruit also appear protective
+
+	- hypercholesterolemia
+		- can be caused by kidney damage and hypothyroidism, glucocorticoids, retinoids
+		- possible treatments: statins, fibrates, nicotinic acid, and cholestyramine
+		    - use niacin in the short-term, otherwise it can cause liver failure
