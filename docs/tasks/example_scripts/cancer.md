@@ -6,6 +6,7 @@
 			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination, acetylation, inflammation, ubiquitinization (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein)
 		- cancer variables
 			- cholesterol
+			- diabetes/insulin
 			- nitric oxide
 			- tumor necrosis factor alpha
 			- p53 and other relevant proteins
@@ -16,6 +17,7 @@
 			- NK cells
 			- growth factors
 			- oncogenes and anti-cancer genes
+			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
 
 
 	- general treatment strategies
@@ -191,6 +193,7 @@
 	- inhibit mutations/bacteria/fungi/viruses that cause cancer (Li-Fraumeni syndrome, EBV, HPV, Herpes, Hepatitis)
 		- inherited mutations
 			- Abnormalities of the p53 gene can be inherited in Li-Fraumeni syndrome (LFS), which increases the risk of developing various types of cancers
+			- Von Hippel–Lindau syndrome
 		- fungi
 			- wherever fungi can cause cancer, they can often be inhibited by antifungal compounds such as:
 				- holy basil (has eugenol, which disrupts fungal cell wall) and citicoline
@@ -359,6 +362,10 @@
 				- propolis
 
 
+	- prevents oxidative damage to DNA
+		- selenium
+
+
 	- regulate epigenetic changes
 		- propolis
 
@@ -478,7 +485,16 @@
 
 
 	- induce apoptosis
+		- activates Bax
+			- JNK activates p53 and p53 activates Bax which initiates apoptosis
 		- induce apoptosis, grouped by inhibitory/activation function :: associated compounds with that function
+			- activate caspases, which trigger apoptosis
+				- Caspases have other identified roles in programmed cell death such as pyroptosis, necroptosis and PANoptosis
+				- Caspases also have a role in inflammation, whereby it directly processes pro-inflammatory cytokines such as pro-IL1β
+				- These are signalling molecules that allow recruitment of immune cells to an infected cell or tissue. 
+				- There are other identified roles of caspases such as cell proliferation, tumour suppression, cell differentiation, neural development and axon guidance and ageing
+			- activate anti-cancer genes which have apoptotic activity
+				- Apoptin, HAMLET, MDA-7, Noxa, NS1, ORCTL3, PAR-4, TRAIL
 			- EF-24 
 				- synthetic analogue of curcumin that is more bioavailable
 				- induces apoptosis in cancer cells via a redox-dependent mechanism
@@ -808,27 +824,167 @@
 			- WWTR1 genes
 
 		
-	- inhibit pathway components
-		- ROS
-		- JNK
-		- Janus kinase
-		- AR
-		- miR-101
+	- inhibit/trigger pathway components
+
+		- ROS (reactive oxygen species)
+			- Radiotherapy relies on ROS toxicity to eradicate tumor cells
+				- Radiotherapy uses X-rays, γ-rays as well as heavy particle radiation such as protons and neutrons to induce ROS-mediated cell death and mitotic failure
+			- After growth factor stimulation of RTKs, ROS can trigger activation of signaling pathways involved in cell migration and invasion 
+				- such as members of the mitogen activated protein kinase (MAPK) family – extracellular regulated kinase (ERK), c-jun NH-2 terminal kinase (JNK) and p38 MAPK
+			- ROS can also promote migration by augmenting phosphorylation of the focal adhesion kinase (FAK) p130Cas and paxilin
+			- ROS have been shown to induce transcription factors and modulate signaling molecules involved in angiogenesis (MMP, VEGF) and metastasis (upregulation of AP-1, CXCR4, AKT and downregulation of PTEN)
+			- ROS induces chronic inflammation by the induction of COX-2, inflammatory cytokines (TNFα, interleukin 1 (IL-1), IL-6), chemokines (IL-8, CXCR4) and pro-inflammatory transcription factors (NF-κB)
+				- These chemokines and chemokine receptors, in turn, promote invasion and metastasis of various tumor types
+			- ROS-elevation as a anti-cancer treatment
+				- ROS-elevating drugs further increase cellular ROS stress level, either:
+					- by direct ROS-generation (e.g. motexafin gadolinium, elesclomol)
+					- by agents that abrogate the inherent antioxidant system such as SOD inhibitor (e.g. ATN-224, 2-methoxyestradiol) and GSH inhibitor (e.g. PEITC, buthionine sulfoximine (BSO))
+					- The result is an overall increase in endogenous ROS, which when above a cellular tolerability threshold, may induce cell death
+					- On the other hand, normal cells appear to have, under lower basal stress and reserve, a higher capacity to cope with additional ROS-generating insults than cancer cells do
+					- Therefore, the elevation of ROS in all cells can be used to achieve the selective killing of cancer cells.
+				- Due to the dual role of ROS, both prooxidant and antioxidant-based anticancer agents have been developed. 
+					- However, modulation of ROS signaling alone seems not to be an ideal approach due to adaptation of cancer cells to ROS stress, redundant pathways for supporting cancer growth and toxicity from ROS-generating anticancer drugs
+					- Combinations of ROS-generating drugs with pharmaceuticals that can break the redox adaptation could be a better strategy for enhancing cancer cell cytotoxicity
+				- physical exercise to induce ROS spikes to form tumor suppressor proteins
+					- lack of intracellular ROS due to a lack of physical exercise may contribute to the malignant progression of cancer, because spikes of ROS are needed to correctly fold proteins in the endoplasmatic reticulum and low ROS levels may thus aspecifically hamper the formation of tumor suppressor proteins
+					- Since physical exercise induces temporary spikes of ROS, this may explain why physical exercise is beneficial for cancer patient prognosis
+				- Moreover, high inducers of ROS such as 2-deoxy-D-glucose and carbohydrate-based inducers of cellular stress induce cancer cell death more potently
+					- this is because they exploit the cancer cell's high avidity for sugars
+		- enzyme 5' adenosine monophosphate-activated protein kinase (AMPKα) 
+			- pro-cancer and anti-cancer activity
+				- AMPK may have a role in tumor suppression
+					- AMPK may exert the tumor suppressing properties of liver kinase B1
+					- AMPK activator metformin was correlated with a reduced risk of cancer
+					- without AMPK expression, greater risk of developing lymphomas was seen
+				- AMPK has a role as a tumor promoter by protecting cancer cells from stress
+					- AMPK may swap from protecting against cancer to protecting the cancer itself
+					- tumor cells with AMPK knockout are more susceptible to death by:
+						- glucose starvation
+						- extracellular matrix detachment
+			- involved in cellular energy homeostasis
+				- to activate glucose and fatty acid uptake and oxidation when cellular energy is low
+				- in response to binding AMP and ADP, the net effect of AMPK activation is
+					- stimulation of hepatic fatty acid oxidation, ketogenesis, stimulation of skeletal muscle fatty acid oxidation and glucose uptake, inhibition of cholesterol synthesis, lipogenesis, and triglyceride synthesis, inhibition of adipocyte lipogenesis, inhibition of adipocyte lipolysis, and modulation of insulin secretion by pancreatic β-cells
+		- increase c-Jun N-terminal kinases (JNKs) which are part of the MAPK (mitogen-activated protein kinase) family, to increase p53, to induce apoptosis/DNA repair
+			- increase JNK activators
+				- Activation is carried out by two MAP kinase kinases, MKK4 and MKK7
+				- neurotrophin binding to p75NTR activates a JNK signaling pathway that induces apoptosis of developing neurons
+				- Inflammatory signals, changes in levels of reactive oxygen species, ultraviolet radiation, protein synthesis inhibitors, and a variety of stress stimuli can activate JNK
+			- decrease JNK deactivators
+				- JNK can be inactivated by Ser/Thr and Tyr protein phosphatases
+				- TrkA can prevent p75NTR-mediated JNK pathway apoptosis
+			- c-Jun, ATF2, ELK1, SMAD4, p53 and HSF1 are activated by JNK
+				- JNK, through a series of intermediates, activates p53 and p53 activates Bax which initiates apoptosis
+				- JNK can directly phosphorylate Bim-EL, a splicing isoform of Bcl-2 interacting mediator of cell death (Bim), which activates Bim-EL apoptotic activity
+			- NFAT4, NFATC1 and STAT3 are inhibited by JNK
+			- JNK is involved in:
+				- bind and phosphorylate c-Jun on Ser-63 and Ser-73, within its transcriptional activation domain, regulating Jun protein turnover
+				- are responsive to stress stimuli (such as cytokines, ultraviolet irradiation, heat shock, and osmotic shock)
+				- JNK phosphorylates SIRT6 on serine 10 in response to double-strand breaks (DSBs) or other DNA damage, which is required for efficient repair of DSBs
+				- Removal of UV-induced DNA photoproducts depends on JNK phosphorylation of DGCR8 on serine 153
+				- apoptosis, neurodegeneration, T cell differentiation and cell proliferation, inflammatory conditions and cytokine production mediated by AP-1 activation protein 1 (such as RANTES, IL-8 and GM-CSF)
+				- activates the ubiquitin ligase Itch
+		- miR-101 microRNA precursor
+			- small non-coding RNA that regulates gene expression
+			- hsa-miR-101 is associated with survival in multiple breast cancer datasets
+		- YAP1 (yes-associated protein 1, also known as YAP or YAP65)
+			- Dysregulation of YAP/TAZ-mediated transcriptional activity is implicated in the development of abnormal cell growth and hyperactivation of YAP and TAZ has been observed amongst many cancers
+			- however, while YAP has been identified as a proto-oncogene, it can also act as a tumor suppressor depending on cellular context
+			- a protein that acts as a transcription coregulator that promotes transcription of genes involved in cellular proliferation and suppressing apoptotic genes
+			- component in the hippo signaling pathway which regulates organ size, regeneration, and tumorigenesis. 
+			- identified by its ability to associate with the SH3 domain of Yes and Src protein tyrosine kinases
+			- a potent oncogene, which is amplified in various human cancers, driven by its association with the TEAD family of transcription factors, which up-regulate genes that promote cell growth and inhibit apoptosis
+			- several genes are regulated by YAP1, including Birc2, Birc5, connective tissue growth factor (CTGF), amphiregulin (AREG), Cyr61, Hoxa1 and Hoxc13
+			- acts as a stiffness sensor
+			- other functional partners of YAP1 were identified, including RUNX, SMADs, p73, ErbB4, TP53BP2, LATS1/2, PTPN14, AMOTs, and ZO1/2
+			- YAP1 and its close paralog, TAZ (WWTR1), are the main effectors of the Hippo tumor suppressor pathway
+		- CIP2A (cancerous inhibitor of PP2A, a protein encoded by the KIAA1524 gene)
+			- CIP2A is over-expressed in cancer
+			- PP2A complexes can dephosphorylate a vast majority of all cellular serine/threonine phosphorylated proteins including large number of phosphoproteins involved in cancer maintenance and progression
+			- The functional role of PP2A as a human tumor suppressor was demonstrated where normal human cells immortalized by overexpression of TERT and inhibition of p53 and Rb, could not be transformed by oncogenic forms of H-Ras without simultaneous inhibition of PP2A activity
+				- increased activity of oncogenic kinases is not sufficient to drive human cell transformation if PP2A activity is not simultaneously inhibited
+			- In striking contrast to the tumor suppressor p53, which in human tumors is mainly inactivated by mutations, PP2A complex proteins are mutated at low frequency and rather seem to be inhibited by overexpression of PP2A inhibitor proteins such as CIP2A, PME-1 and SET
+			- CIP2A inhibits PP2A tumor suppressor activity
+				- More specifically, CIP2A was demonstrated to inhibit PP2A activity towards oncogenic transcription factor c-Myc, and thereby prevent c-Myc proteolytic degradation
+				- CIP2A is required for the malignant cellular growth and for in vivo tumor formation
+				- overexpression of CIP2A promotes Ras-elicited cell growth and transforms immortalized human cells (HEK-TERVs)
+				- CIP2A regulates phosphorylation and activity of many other oncoproteins and to drive malignant cell growth and tumorigenesis
+		- Myc (oncogene) is a family of regulator genes and proto-oncogenes that code for transcription factors
+			- c-MYC
+				- In cancer, c-myc is often upregulated and constitutively (persistently) expressed
+					- This leads to the increased expression of many genes, some of which are involved in cell proliferation, contributing to the formation of cancer
+				- any anti-cancer drugs for Myc dysregulation will require acting on the protein indirectly, such as by targeting the mRNA for the protein rather than a small molecule that targets the protein itself
+				- regulate expression of 15% of all genes
+				- role in cell competition
+				- activate expression of many pro-proliferative genes through:
+					- binding on enhancer box sequences (E-boxes)
+					- recruiting histone acetyltransferases (HATs), allowing it to regulate global chromatin structure via histone acetylation
+				- pregulating transcript elongation of actively transcribed genes through the recruitment of transcriptional elongation factors
+				- It can also act as a transcriptional repressor
+					- By binding Miz-1 transcription factor and displacing the p300 co-activator, it inhibits expression of Miz-1 target genes
+				- In addition, myc has a direct role in the control of DNA replication
+					- This activity could contribute to DNA amplification in cancer cells
+			- myc activation
+				- Myc is activated upon various mitogenic signals such as serum stimulation or by Wnt, Shh and EGF (via the MAPK/ERK pathway)
+			- myc activation effects
+				- By modifying the expression of its target genes, Myc activation results in numerous biological effects
+					- drive cell proliferation (upregulates cyclins, downregulates p21)
+					- regulating cell growth (upregulates ribosomal RNA and proteins), apoptosis (downregulates Bcl-2), differentiation, and stem cell self-renewal
+					- upregulates nucleotide metabolism genes, which are necessary for Myc induced proliferation or cell growth
+				- B cell proliferation, and gain of MYC has been associated with B cell malignancies and their increased aggressiveness, including histological transformation.
+				- In B cells, Myc regulates a number of pro-proliferative and anti-apoptotic pathways, including tuning of BCR signaling and CD40 signaling in regulation of microRNAs (miR-29, miR-150, miR-17-92)
+				- c-Myc induces MTDH(AEG-1) gene expression and in turn itself requires AEG-1 oncogene for its expression
+		- Wnt (proto-oncogene)/β-catenin pathway
+			- Wnt signaling pathways are a group of signal transduction pathways which begin with proteins that pass signals into a cell through cell surface receptors
+				- use either nearby cell-cell communication (paracrine) or same-cell communication (autocrine)
+				- Three Wnt signaling pathways have been characterized, all of which are activated by the binding Wnt-protein ligand to a Frizzled family receptor, which passes the biological signal to the Dishevelled protein inside the cell
+					- The canonical Wnt pathway leads to regulation of gene transcription, and is thought to be negatively regulated in part by the SPATS1 gene
+						- canonical pathway involves the protein beta-catenin (β-catenin) 
+					- The noncanonical planar cell polarity pathway regulates the cytoskeleton that is responsible for the shape of the cell
+					- The noncanonical Wnt/calcium pathway regulates calcium inside the cell
+				- genetic mutations in Wnt pathway proteins influenced cancer development
+				- Wnt signaling also controls tissue regeneration in adult bone marrow, skin and intestine
+			- involved in embryonic development, which often calls for rapid cell division and migration. Misregulation of these processes can lead to tumor development via excess cell proliferation
+			- Canonical Wnt pathway activity is involved in the development of benign and malignant breast tumors
+				- Its presence is revealed by elevated levels of β-catenin in the nucleus and/or cytoplasm
+				- Increased β-catenin expression is correlated with poor prognosis in breast cancer patients
+				- This accumulation may be due to factors such as mutations in β-catenin, deficiencies in the β-catenin destruction complex, most frequently by mutations in structurally disordered regions of APC, overexpression of Wnt ligands, loss of inhibitors and/or decreased activity of regulatory pathways (such as the Wnt/calcium pathway)
+				- Wnt involvement in EMT can lead to metastasis
+					- repression of Wnt/β-catenin signaling can prevent EMT, which can inhibit metastasis
+				- Changes in CTNNB1 expression (the gene that encodes β-catenin) can be measured in cancers
+				- Increased expression of Wnt ligand-proteins such as Wnt1, Wnt2 and Wnt7A were observed in the development of cancer
+				- Other proteins that cause multiple cancer types in the absence of proper functioning include ROR1, ROR2, SFRP4, Wnt5A, WIF1 and those of the TCF/LEF family
+				- Wnt is down-regulated during the dormancy stage by autocrine DKK1 to avoid immune surveillance, as well as during the dissemination stages by intracellular Dact1.
+				- Meanwhile Wnt is activated during the early outgrowth phase by E-selectin
+				- The link between PGE2 and Wnt suggests that a chronic inflammation-related increase of PGE2 may lead to activation of the Wnt pathway in different tissues, resulting in carcinogenesis
 		- HSF1
-		- LKB1
-		- AMPKα
-		- YAP
-		- CIP2A
-		- c-MYC
-		- Nrf2
-		- HO-1
-		- Wnt
-		- β-catenin
+			- cancer cells use HSF1, so inhibiting HSF1 can be useful
 		- PI3K (phosphoinositide-3-kinase/protein kinase B)
 		- AKT
 		- mTOR
+		- LKB1		
+		- AR
+		- Nrf2
+		- HO-1
+
 
 	- inhibit pathways
+
+		- signaling pathways
+			- Erk
+			- rS6
+			- eIF4E
+		- inhibit oncogene signaling pathways
+			- inhibited by propolis
+		- inhibit cell proliferation pathways
+			- inhibit mevalonate pathway
+				- statins (atorvastatin)
+			- inhibit Ras prenylation
+			- decrease activation of Ras pathway
+			- MEK pathway
+		- induce DNA repair pathways				
+			- boosts the activity of enzymes and pathways involved in DNA repair
+				- selenium
 		- EGFR
 			- inhibited by celastrol
 		- Wnt/β-catenin
@@ -844,9 +1000,16 @@
 		- JNK/Nrf2/HO-1
 			- inhibited by celastrol
 		- VEGF
+			- VEGF/PDGF are angiogenic
 			- inhibited by celastrol
 		- Janus kinase/signal transducer and transcription activator (JAK/STAT)
 			- triggered by EBV to trigger cancer
+			- JAK (Janus kinase, a family of intracellular non-receptor tyrosine kinases)
+				- transduce cytokine-mediated signals via the JAK-STAT pathway
+			- aberrant activation of the JAK-STAT pathway has been implicated in tumor formation
+				- constitutive activation of JAK2 kinase or the enforced expression of STAT5 induces leukemia
+					- Janus kinase TYK2 serves an opposite function
+			- JAK-STAT pathway regulates cell proliferation, differentiation, and survival in hematopoietic cells 
 		- mitogen-activated protein kinase (MAPK)
 			- triggered by EBV to trigger cancer
 		- AR/miR-101
@@ -867,41 +1030,73 @@
 			- IL-25 triggers apoptotic pathways
 		- transforming growth factor-β (TGF-β)
 			- triggered by EBV to trigger cancer
-		- oncogene signaling pathways
-			- inhibited by propolis
-		- signaling pathways
-			- Erk
-			- rS6
-			- eIF4E
-		- cell proliferation pathways
-			- inhibit mevalonate pathway
-				- statins (atorvastatin)
-			- inhibit Ras prenylation
-			- decrease activation of Ras pathway
-			- MEK pathway
-		- induce DNA repair pathways				
-			- boosts the activity of enzymes and pathways involved in DNA repair
-				- selenium
-		- prevents oxidative damage to DNA
-			- selenium
 
 
 	- activate anti-cancer genes/proteins
+		- activate anti-cancer genes by inhibiting Bcl-2 (Bcl-2 blocks these genes)
+			- Brevinin-2R, MDA-7, Noxa, TRAIL
+		- activate anti-cancer genes by phosphorylation
+			- Apoptin, E4orf4, NS1, PAR-4
 		- Apoptin
-		- Brevinin-2R
-		- E4orf4
+			- apoptin can detect early oncogenic change. Apoptin seems to detect signals of survival in cancer cells, which it can reroute into impulses for cell death
+			- causes p53-deficient tumor-specific apoptosis
+			- Apoptin is mostly nuclear and phosphorylated in tumor cells, whereas it is cytoplasmic and unphosphorylated in normal cells, where it is easily neutralized
+			- attacks transforming cells while leaving untransformed cells unharmed
+			- independent of p53, induces apoptosis through an intrinsic, mitochondrial pathway
+			- unlike other PCD pathways, the pathway of Apoptin is independent of death receptors
+			- In normal functioning cells, this 13.6-kDa protein resides in the cytoplasm, yet in cancerous cells, it travels to the nucleus via phosphorylation at the Thr-108 position via the mitogenic cyclin dependent kinase (CDK2)
+			- Several Apoptin-interacting molecules are needed in order for Apoptin to be fully functional (DNA, clyclinA-CDK2, and fas-associated death domain protein (FADD))
+		- Brevinin-2R 
+			- antimicrobial non-hemolytic defensin (in contrast to the majority of peptides within the Brevinine family)
+			- semi-selective towards cancer cells and leaves non-cancerous cells largely unharmed
+			- arrests the cell cycle at the G2/M phase, resulting in an induction of apoptosis
+			- Brevinin-2R works to trigger cell death by reducing the mitochondrial membrane potential resulting in lower cellular ATP levels while simultaneously increasing the concentration of reactive oxygen species
+			- Brevinins have been shown to promote insulin release
+			- increases the rate of tissue regeneration
+		- Early region 4 open-reading-frame 4 (E4orf4)
+			- an adenovirus protein of 14kDa which regulates growth in all stages of the adenovirus (Ad) infection
+			- partners mainly with protein phosphatase 2A (PP2A) and Src kinases to induce cell death
+			- induces apoptosis in a p53 and caspase-independent manner
 		- HAMLET
-		- MDA-7
-		- Noxa
+			- anticancer protein complex found in breast milk
+			- Apoptosis occurs through activation of three different pathways:
+				- intrinsic, extrinsic, or tumor necrosis factor (TNF)
+				- HAMLET proceeds by both a multifaceted intrinsic pathway and the caspase cascade, a subsection of the TNF pathway
+					- First, after uptake by the cell, HAMLET proceeds to the mitochondria and depolarize the membranes at cytochrome c
+						- Consequently, mitochondria dependent apoptosis factors are released as well as the caspase cascade is activated
+					- Second, proteasomes are targeted by HAMLET through a mechanism that is less understood
+						- HAMLET directly binds to the proteasome leading to its inhibition
+					- Third, HAMLET has been found to target the nucleus, specifically histones
+						- HAMLET irreversibly binds to histones leading to the inactivation of transcription and chromatin condensation, which inevitably causes apoptosis
+					- Lastly, studies show that cells treated by HAMLET exhibit behaviors common to macroautophagy
+						- This includes presence of cytoplasmic vacuoles, double-membrane vesicles, and a dose-dependent decrease in ATP levels
+		- Melanoma differentiation associated gene-7 (mda-7), and also known as IL-24, classified in the interleukin IL-10
+			- increasing mda-7 expression in tumor cells results in growth arrest and cell death in many different cell lines
+				- When mda-7 is over-expressed in normal cells, no change in growth or cell viability is detected
+			- mda-7 is also considered a radio-sensitizing cytokine because it generates a reactive oxygen species and causes stress in endoplasmic reticulum
+			- mda-7 has been used in several clinical trials because of its ability to induce apoptosis, prevent tumor angiogenesis, cause immune-regulation, and increase radiation lethality.
+		- Noxa (member of the Bcl-2 family)
+			- regulates cell death through a variety of intracellular stress signals
+			- on receiving intrinsic death signals, the gene NOXA encodes for the protein Noxa, which binds to anti-apoptotic proteins resulting in these proteins' inhibition
+			- As a p53 inducible gene, NOXA is transcribed and translated to Noxa in response to DNA damage and hypoxia induced apoptosis
+			- initiates apoptosis through Bax-mediated mitochondrial-dysfunction, through the inhibition of the Bcl2 family's antiapoptotic members
+			- involved in the maintenance of memory CD4+ T Th1/Th2 cell homeostasis 
 		- NS1
-		- ORCTL3
-		- PAR-4
-		- TRAIL
-		- VHL
-		- APC
-		- BRCA2
-		- NF1
-		- PTCH
+			- small regulatory protein with different functions that inevitably lead to apoptosis and cell death
+			- NS1 activates cell death through two different pathways, apoptosis/lysosomal-like programmed cell death and necrosis/cytolysis
+			- causes release of many reactive oxygen species, causing DNA damage, at which point a DNA damage response occurs, which in this case results in cell death
+		- Organic Cation Transporter Like-3 (ORCTL3) 
+			- transporter for urate
+			- ORCTL3 transfection into numerous tumorigenic cells induced apoptosis, while normal and primary cells remained healthy
+		- Prostate apoptosis response-4 (Par-4)
+			- tumor suppressor protein with a pro-apoptotic function
+		- Tumor necrosis factor-related apoptosis-inducing ligand (TRAIL)
+			- homotrimer of TRAIL binds three molecules of either TRAIL-receptor 1 or 2, which are transmembrane proteins that contain a cytoplasmic death domain
+				- Once TRAIL is bound, Fas, caspase-8, and caspase-10 associate with the death domain forming death-inducing signaling complex (DISC) that proceeds through two different mechanisms depending on the cell type
+					- In one cell type, DISC can directly activate the effector caspase leading to apoptosis
+					- in the other the complex activates a bcl-2-mediated pathway in a similar fashion as HAMLET that results in the release of cytochrome c from the mitochondria, which then causes the activation of effector caspase.
+				- the latter mechanism is the focus of many oncogenic therapies because p53, the tumor suppressor gene, activates the same pathway
+					- Since cancer is commonly caused by the inactivation of p53, TRAIL could mediate this effect by still activating the apoptotic pathway
 		- KLF4
 			- Overexpression of KLF4 acts as a tumor suppressor in acute promyelocytic leukemia
 		- UBE2L3
@@ -922,6 +1117,50 @@
 			- Mutating this ability could cause genes to be turned on or off at the wrong times
 		- p53 (TP53 gene encode protein p53)
 			- involved in DNA repair, inducing apoptosis, transcription, and regulating the cell cycle
+			- tumor-suppressing transcription factor (TF), which can recognize when there is an alteration in a cell's DNA caused by factors including chemical toxins, radiation, ultraviolet (UV) rays, and other damaging agents
+			- Crucially, p53 plays a role in determining whether the damaged genetic material in the cell can be repaired, or if the cell should be destroyed through apoptosis
+		- Von Hippel–Lindau tumor suppressor (also known as pVHL, is encoded by VHL gene)
+			- involved in ubiquitination/degradation of hypoxia-inducible factors (HIFs)
+				- HIFs are transcription factors that play a central role regulating gene expression in response to changing oxygen levels
+				- Under normal oxygen levels, HIF1α binds pVHL through 2 hydroxylated proline residues and is polyubiquitinated by pVHL
+					- this leads to its degradation via the proteasome
+				- During hypoxia, the proline residues are not hydroxylated and pVHL cannot bind
+					- HIF1α causes the transcription of genes that contain the hypoxia response element
+			- main action of the VHL protein is thought to be its E3 ubiquitin ligase activity that results in specific target proteins being 'marked' for degradation.
+				- hypoxia inducible factor 1a (HIF1a), a transcription factor that induces the expression of a number of angiogenesis related factors
+					- HIFs are necessary for tumor growth because most cancers demand high metabolic activity and are only supplied by structurally or functionally inadequate vasculature
+					- Activation of HIFs allow for enhanced angiogenesis, which in turn allow for increased glucose uptake
+			- Suggested targets for VHL-related cancers include targets of the HIF pathway, such as VEGF
+				- Inhibitors of VEGF receptor sorafenib, sunitinib, pazopanib, and recently axitinib have been approved by the FDA
+				- The mTOR inhibitor rapamycin analogs everolimus and temsirolimus or VEGF monoclonal antibody bevacizumab may also be an option
+				- iron, 2-oxoglutarate and oxygen are necessary for the inactivation of HIF
+					- it has been theorized that a lack of these cofactors could reduce the ability of hydroxylases in inactivating HIF
+					- cells with a high activation of HIF (even in oxygenated environments) was reversed by supplying the cells with ascorbate
+					- Thus, Vitamin C may be a potential treatment for HIF induced tumors
+		- APC/C activator protein CDH1
+			- Cdh1 functions as a tumour suppressor
+				- Cdh1-deficient cells can proliferate but accumulate mitotic errors and have difficulties with cytokinesis
+				- It has been shown that APCCdh1-mediated degradation of PIk1 plays an important role in preventing mitosis in cells that have DNA-damage
+				- In healthy cells Cdh1 stays inactive from late G1 to early mitosis
+				- It stays inactive in early mitosis and only becomes active in the transition from late mitosis to G1
+				- A cell that suffers from DNA-damage shows an active Cdh1 already in late G1 and therefore blocks the mitotic entry
+				- One substrate of APCCdh1 is the transcription factor Ets2, which is activated by the Ras-Raf-MAPK signalling pathway and induces the expression of cyclin D1
+					- This pathway stimulates cell proliferation
+					- It was shown that an increased expression of Ets2 can be associated with various cancer types
+		- BRCA2
+			- tumor suppressor gene
+			- its protein, also called by the synonym breast cancer type 2 susceptibility protein, is responsible for repairing DNA or destroy cells if DNA cannot be repaired
+			- repair of chromosomal damage with an important role in the error-free repair of DNA double strand breaks
+			- If BRCA1 or BRCA2 itself is damaged by a BRCA mutation, damaged DNA is not repaired properly, and this increases the risk for breast cancer
+		- NF1
+			- neurofibromatosis 1 (NF1) is a gene that codes for neurofibromin, a GTPase-activating protein
+				- neurofibromin negatively regulates RAS/MAPK pathway activity by accelerating the hydrolysis of Ras-bound GTP
+				- NF1 has a high mutation rate and mutations in NF1 can alter cellular growth control, and neural development, resulting in neurofibromatosis type 1 and tumors
+		- Protein patched homolog 1 protein (PTCH, member of the patched family, encoded by the PTCH1 gene)
+			- the tumor suppressor gene PTCH1 is the receptor for sonic hedgehog, a secreted molecule implicated in the formation of embryonic structures and in tumorigenesis
+			- the PTCH1 gene product is a transmembrane protein that suppresses the release of the 'smoothened' protein
+				- when sonic hedgehog binds PTCH1, smoothened is released and signals cell proliferation
+			- Mutations of this gene have been associated with cancer
 
 
 	- other treatment types
