@@ -5,24 +5,93 @@
 		- this includes processes such as:
 			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination, acetylation, inflammation, ubiquitinization (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein)
 		- cancer variables
+			- cell senescence
 			- cholesterol
+				- high/low cholesterol is associated with increased risk of cancer
 			- diabetes/insulin
-			- nitric oxide
-			- tumor necrosis factor alpha
-			- p53 and other relevant proteins
-			- pro/anti-inflammatory interleukins
-			- antioxidants to block reactive oxygen species
-			- white blood cells
-			- B/T cells
-			- NK cells
+				- PI3Ks relate to the sensitivity of cancer tumors to insulin and IGF1, and in calorie restriction
+			- nitric oxide/hydrogen sulfide
+				- Hydrogen sulfide and nitric oxide are mutually dependent in the regulation of angiogenesis and endothelium-dependent vasorelaxation
+				- hydrogen sulfide, produced by cystathionine-β-synthase, stimulates bioenergetics, cell proliferation, and angiogenesis in colon cancer
+			- hormones
+				- hormone-dependent cancer is a type of cancer that is dependent on a hormone for growth and/or survival
+					- Examples include breast cancer, which is dependent on estrogens like estradiol, and prostate cancer, which is dependent on androgens like testosterone
+					- If a tumor is hormone-sensitive, it means that there are special proteins called receptors on cells surface
+					- when the hormone bind the matched receptor, it results in growth and spread of cancer cells
+					- Both endogenous and exogenous hormones, by driving cell proliferation, increased the number of cell divisions and the opportunity for random genetic errors to lead to cancer
+					- compounds in soy like daidzein can reduce risk of hormone-dependent cancer
+			- polyphenols/flavonoids
+			- pro-inflammatory cytokines (tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB))
+				- Cytokines include chemokines, interferons, interleukins, lymphokines, and tumour necrosis factors, but generally not hormones or growth factors 
+				- produced by a broad range of cells, including immune cells like macrophages, B lymphocytes, T lymphocytes and mast cells, as well as endothelial cells, fibroblasts, and various stromal cells; a given cytokine may be produced by more than one type of cell
+				- act through cell surface receptors and are especially important in the immune system
+				- cytokines modulate the balance between humoral and cell-based immune responses, and regulate the maturation, growth, and responsiveness of particular cell populations
+				- Some cytokines enhance or inhibit the action of other cytokines in complex ways
+				- They are different from hormones, which are also important cell signaling molecules
+				- Hormones circulate in higher concentrations, and tend to be made by specific kinds of cells
+				- pro/anti-inflammatory interleukins (interleukins are a type of cytokine)
+			- antioxidants
+				- block reactive oxygen species (ROS)
+		    - inhibitory immune processes
+				- anergy
+					- a lack of reaction by the body's defense mechanisms to foreign substances, and consists of a direct induction of peripheral lymphocyte tolerance
+				- clonal deletion
+				- immunoregulation
+			- white blood cells (leukocytes)
+				- lymphocytes
+					- B/T cells
+						- related to cell proliferation
+						- B cells
+							- memory B cells
+							- function in the humoral immunity component of the adaptive immune system
+							- B cells produce antibody molecules which may be either secreted or inserted into the plasma membrane where they serve as a part of B-cell receptors
+							- When a naïve or memory B cell is activated by an antigen, it proliferates and differentiates into an antibody-secreting effector cell, known as a plasmablast or plasma cell
+							- B cells present antigens (antigen-presenting cells, APCs)
+							- b cells also secrete cytokines
+							- B cells, unlike the other two classes of lymphocytes, T cells and natural killer cells, express B cell receptors (BCRs) on their cell membrane
+								- BCRs allow the B cell to bind to a foreign antigen, against which it will initiate an antibody response
+								- B cell receptors are extremely specific, with all BCRs on a B cell recognizing the same epitope
+						- T cells
+							- hostile tumor microenvironment suppresses T cell activity
+							- chimeric antigen receptors (CARs)
+								- receptor proteins that have been engineered to give T cells the new ability to target a specific antigen
+								- The receptors are chimeric in that they combine both antigen-binding and T cell activating functions into a single receptor
+								- CAR T cell therapy modifies T cells to recognize cancer cells in order to more effectively target and destroy them
+							- T cell exhaustion plays a role in tumor protection
+							- Memory T cells
+							- T cells with CD8 or CD4 Cell Surface Proteins
+								- CD8+ "killer" (cytotoxic)
+								- CD4+ "helper" T cells
+								- Regulatory CD4+ T cells
+							- Natural killer T cell
+							- Innate-like T cells (NKT cells, MAIT cells, and gammadelta T cells)
+							- Mucosal associated invariant T cells
+							- Gamma delta T cells
+					- innate lymphoid cells
+						- NK cells
+							- NK cells release cytotoxic molecules, which lyse tumor cells
+			- actin
+			- enzymes (like kinases) which have activity against proteins associated with processes that can be dysregulated in cancer			
 			- growth factors
 			- oncogenes and anti-cancer genes
+				- p53 and other relevant proteins
 			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
 
 
 	- general treatment strategies
 
+		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
+			- fisetin/quercetin, propolis, chicory, uncaria tomentosa, curcumin, ashwagandha/withaferin or ginseng/ginsenosides, EGCG/green tea, selenium, vitamin C, celastrol
+
 		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
+
+		- diet high in polyphenols which can be active against cancer
+			- Flavonoids include flavones, flavonols, flavanols, flavanones, isoflavones, proanthocyanidins, and anthocyanins
+				- Particularly abundant flavanoids in foods are catechin (tea, fruits), hesperetin (citrus fruits), cyanidin (red fruits and berries), daidzein (soybean), proanthocyanidins (apple, grape, cocoa), and quercetin (onion, tea, apples)
+				- intake of soy and soy isoflavones is associated with a lower risk of mortality from gastric, colorectal, breast and lung cancers
+				- increase in isoflavone consumption by 10 mg per day was associated with a 7% decrease in risk from all cancers
+			- Phenolic acid include caffeic acid
+			- Lignans are polyphenols derived from phenylalanine found in flax seed and other cereals
 
 		- reduce inflammation
 			- anti-inflammatory substances
@@ -39,11 +108,15 @@
 					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
 
 		- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
+			- taking some substances at the same time may decrease absorption of one or both of them (or decrease removal of one of them, leading to an overly high ratio in blood)
+				- there are a lot of these interactions, its time-consuming to look up every possible interaction without writing a script
+				- here are some of them
+					- https://www.health.com/mind-body/mixing-supplements
 			- https://return2health.com.au/articles/vitamin-mineral-antagonists
 			- avoid when correcting vitamin deficiencies:
 				- anti-convulsants (Barbituates, Phenytoin, Carbamazepine, Primidone, Valproic Acid, Zonisamide), birth control/estrogen, aminopterin, antibiotics, some anti-inflammatory agents, blood pressure medications/diuretics, metformin, alcohol, chlorogenic acid, caffeine/coffee/tea, raw fish, aspirin
 			- calcium binders/antagonists: avoid excess oxalic acid, which is present in too-large amounts in spinach, rhubarb, beets and beet greens, Swiss chard and chocolate
-			- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, Blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
+			- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
 			- vitamin k antagonists (antibiotics, dicumarol and hydrocoumarol, which are used by medical people to relieve thrombosis (abnormal formation of blood clots in the blood vessels)
 			- vitamin c antagonists (cigarette smoke, ammonium chloride, stribesterol, thiouracil, atropine, barbituates, antihistamines, alcohol, stressors such as surgery or extreme temperatures)
 			- thiamine antagonists (ortho/para-hydroxyphenols, caffeic acid, chlorogenic acid, tannic acid, quercetin and rutin)
@@ -141,6 +214,8 @@
 	- compounds with multiple functions, including induction of apoptosis
 		- caveolin
 			- angiogenesis, tumor suppression/progression, binds with tyrosine kinases
+		- EGCG from green tea
+			- inhibits tumor growth and angiogenesis of estrogen receptor positive (ER+) breast cancer without affecting normal tissue growth1.
 		- calestrol from thunder god vine
 			- https://pubmed.ncbi.nlm.nih.gov/37196541/
 			- inhibiting tumor cell proliferation, migration and invasion, inducing cell apoptosis, suppressing autophagy, hindering angiogenesis and inhibiting tumor metastasis
@@ -354,6 +429,9 @@
 
 	- prevent metastasis
 		- propolis
+		- decrease scatter
+			- metalloprotease production leads to scatter (cell dissociation), which often leads to metastasis
+				- inhibit MET oncogene to reduce scatter
 
 
 	- prevent inflammation
@@ -570,6 +648,7 @@
 				- withaferin A
 			- guggulsterone (GS)
 				- a steroid which induces efficient apoptotic cell death in a variety of cancer cells (no apoptotic death was seen in healthy cells)
+				- antagonist of Androgen receptor (which is expressed in cancers)
 
 
     - activate tumor suppression
@@ -740,8 +819,12 @@
 		- withaferin A 
 
 
+	- reducing cancer resources
+		- Decreasing caloric intake by 20-30%, while fulfilling nutrient requirements, has been found to remedy diseases of aging, including cancer, cardiovascular disease, dementia, and diabetes
+
+
 	- inhibits B/T cells
-		- immunosuppressive effects on mouse thymocytes as well as human B and T lymphocytes
+		- immunosuppressive effects on human B and T lymphocytes
 			- withaferin A and a related steroid lactone withanolide E
 		- specific action on antigen recognition and proliferative capacity of both B and T lymphocytes
 			- Withaferin A 
@@ -757,12 +840,12 @@
 				- Withaferin A 
 
 
-	- prenylation
-		- reduce DNA prenylation
+	- reduce prenylation
+		- reduce DNA prenylation of useful genes
 			- atorvastatin
 
 
-	- methylation
+	- increase/decrease methylation depending on the gene
 		- reduce DNA methylation of tumor suppressor genes
 		- increase methylation of oncogenes (DNA methyltransferases, DNMT)
 			- Global hypomethylation has also been implicated in the development and progression of cancer through different mechanisms
@@ -770,44 +853,93 @@
 			- temozolomide (a common cancer treatment) methylates DNA
 
 
-	- phosphorylation
+	- increase/decrease phosphorylation
 		- inhibit phosphorylation
 			- kinases are enzymes that phosphorylate proteins, so theyre involved in cancer
 			- tyrosine kinase inhibitors
 				- Tyrosine kinases are enzymes responsible for the activation of many proteins by signal transduction cascades. 
 				- The proteins are activated by adding a phosphate group to the protein (phosphorylation), a step that TKIs inhibit
-		- increases the phosphorylation of JNK, ERK and MAPK 
-			- Withaferin A 
+		- increase phosphorylation
+			- increases the phosphorylation of JNK, ERK and MAPK 
+				- Withaferin A 
 
 
-	- inhibit oncoproteins
+	- inhibit oncogenes/oncoproteins
+		- MET (oncogene)
+			- Hepatocyte growth factor receptor (HGF receptor) is a protein that in humans is encoded by the MET gene
+			- The protein possesses tyrosine kinase activity
+			- MET is crucial for gastrulation, angiogenesis, myoblast migration, bone remodeling, and nerve sprouting among others
+			- MET activates key oncogenic pathways (RAS, PI3K, STAT3, beta-catenin)
+			- MET increases scatter (cells dissociation due to metalloprotease production), which often leads to metastasis
+			- there is a correlation between inactivation of VHL tumor suppressor gene and increased MET signaling in renal cell carcinoma
+			- treatments
+				- MET kinase inhibitors
+					- prevent ATP binding to MET, thus inhibiting receptor transphosphorylation and recruitment of the downstream effectors
+					- may also inhibit HGF-induced motility and invasion of epithelial and carcinoma cells
+					- may also repress both HGF-dependent and constitutive MET phosphorylation
+					- may also inhibit c-KIT, MET, PDGFR, Flt3, and AXL
+					- may also target multiple receptor tyrosine kinases (RTKs) with growth-promoting and angiogenic properties (MET, VEGFR2, and KDR)
+					- K252a, SU11274 (SUGEN), PHA-665752, ARQ197 (ArQule), Foretinib (XL880, Exelixis), SGX523 (SGX Pharmaceuticals), MP470 (SuperGen)
+				- HGF inhibitors (only blocks MET, if MET depends on HGF)
+					- Since HGF is the only known ligand of MET, blocking the formation of a HGF:MET complex blocks MET biological activity
+					- truncated HGF, anti-HGF neutralizing antibodies, and an uncleavable form of HGF have been utilized so far
+					- NK4 (anti-angiogenic)
+						- NK4 competes with HGF as it binds MET without inducing receptor activation, thus behaving as a full antagonist
+						- NK4 is a molecule bearing the N-terminal hairpin and the four kringle domains of HGF
+					- Neutralizing anti-HGF antibodies (AV299 (AVEO), and the fully human AMG102 (Amgen))
+						- at least three antibodies, acting on different HGF epitopes, are necessary to prevent MET tyrosine kinase activation
+					- Uncleavable HGF inhibits tumor growth and prevents metastasis
+						- an engineered form of pro-HGF carrying a single amino-acid substitution, which prevents the maturation of the molecule
+						- Uncleavable HGF is capable of blocking MET-induced biological responses by binding MET with high affinity and displacing mature HGF
+						- Moreover, uncleavable HGF competes with the wild-type endogenous pro-HGF for the catalytic domain of proteases that cleave HGF precursors
+						- Local and systemic expression of uncleavable HGF inhibits tumor growth and prevents metastasis
+				- Decoy MET
+					- a soluble truncated MET receptor (CGEN241 (Compugen)) that inhibits tumor growth and prevents metastasis
+						- inhibit MET activation mediated by both HGF-dependent and independent mechanisms, as decoys prevent both the ligand binding and the MET receptor homodimerization
+				- Immunotherapy targeting MET
+					- enhance the immunologic response to MET-expressing tumor cells, or stimulate immune cells and altering differentiation/growth of tumor cells
+					- Passive immunotherapy
+						- Administering monoclonal antibodies (mAbs) is a form of passive immunotherapy
+						- MAbs facilitate destruction of tumor cells by complement-dependent cytotoxicity (CDC) and cell-mediated cytotoxicity (ADCC)
+							- In CDC, mAbs bind to specific antigen, leading to activation of the complement cascade, which in turn leads to formation of pores in tumor cells
+							- In ADCC, the Fab domain of a mAb binds to a tumor antigen, and Fc domain binds to Fc receptors present on effector cells (phagocytes and NK cells), thus forming a bridge between an effector and a target cells
+								- This induces the effector cell activation, leading to phagocytosis of the tumor cell by neutrophils and macrophages
+						- DN30 is monoclonal anti-MET antibody that recognizes the extracellular portion of MET
+							- DN30 induces both shedding of the MET ectodomain as well as cleavage of the intracellular domain, which is successively degraded by proteasome machinery
+								- As a consequence, on one side MET is inactivated, and on the other side the shed portion of extracellular MET hampers activation of other MET receptors, acting as a decoy
+								- DN30 inhibits tumour growth and prevents metastasis
+						- OA-5D5 is one-armed monoclonal anti-MET antibody that was demonstrated to inhibit tumor growth 
+							- OA-5D5 is produced as a recombinant protein in Escherichia coli
+							- It is composed of murine variable domains for the heavy and light chains with human IgG1 constant domains
+							- The antibody blocks HGF binding to MET in a competitive fashion
+					- Active immunotherapy
+						- Active immunotherapy to MET-expressing tumors can be achieved by administering cytokines, such as interferons (IFNs) and interleukins (IL-2), which triggers non-specific stimulation of numerous immune cells
+							- IFNs have been tested as therapies for many types of cancers and have demonstrated therapeutic benefits
+							- IL-2 has been approved for the treatment of renal cell carcinoma and metastatic melanoma, which often have deregulated MET activity
 		- E6/E7
 			- suppressed by withaferin A and indole-3-carbinol
-		- EWSR1-FLI1 fusion oncoprotein
-
-
-	- inhibit oncoenzymes
 		- UBE2L3 (ubiquitin-conjugating enzyme 2L3)
 			- the gene for this enzyme is related to cancer in that UBE2L3 can ubiquitinate oncoproteins E6 and E7
-
-
-	- inhibit oncogenes
-		- EWSR1-FLI1 fusion protein and RING1B gene
+		- EWSR1-FLI1 fusion oncoprotein and RING1B gene
 			- EWSR1-FLI1 cannot activate its target genes and transform a cell from healthy to cancerous state without RING1B, as shown by impaired tumor growth when RING1B is reduced
 			- EWSR1-FLI1 fusion protein is directed to the different parts of the genome by RING1B, allowing EWSR1-FLI1 to hijack the transcriptional program of the cells, turning them into cancerous cells.
-		- IDH1/IDH2 (codes 2HG (D-2-hydroxyglutarate), an oncometabolite)
-		- SDHA,SDHB,SDHC,SDHD,SDHAF1,SDHAF2 (Succinate)
-		- FH (Fumarate)
-		- GNMT (Sarcosine)
-		- ASNS (Asparagine)
-		- PCYT1A (Choline)
-		- LDHA (Lactate)
-		- receptor tyrosine kinases
-			- epidermal growth factor receptor (EGFR)
-			- VEGF
-		- growth factors
-			- c-Sis
+		- inhibit genes that code oncometabolites
+			- IDH1/IDH2 (codes 2HG (D-2-hydroxyglutarate), an oncometabolite)
+			- SDHA,SDHB,SDHC,SDHD,SDHAF1,SDHAF2 (Succinate)
+			- FH (Fumarate)
+			- GNMT (Sarcosine)
+			- ASNS (Asparagine)
+			- PCYT1A (Choline)
+			- LDHA (Lactate)
+		- receptor tyrosine kinases (VEGF, epidermal growth factor receptor (EGFR))
+		- growth factors (c-Sis)
 			- transforming growth factor-β (TGF-β)
+			- Platelet-derived growth factor (PDGF)
+				- one among numerous growth factors that regulate cell growth and division, and is involved in blood vessel formation
+				- Platelet-derived growth factors (PDGFs) and PDGF receptors (PDGFRs) are expressed in a variety of tumors
+				- Activation of the PDGF/PDGFR signaling pathway is associated with cancer proliferation, metastasis, invasion, and angiogenesis through modulating multiple downstream pathways, including:
+					- phosphatidylinositol 3 kinase/protein kinase B pathway
+					- mitogen-activated protein kinase/extracellular signal-regulated kinase pathway
 		- Cytoplasmic tyrosine kinases
 			- Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML
 		- Cytoplasmic Serine/threonine kinases and their regulatory subunits	
@@ -817,11 +949,8 @@
 				- inhibit Ras prenylation
 				- decrease activation of Ras
 				- decrease activation of downstream signaling pathways (Erk, rS6 and eIF4E)
-		- Transcription factors
-			- myc gene
-		- Transcriptional coactivators
-			- YAP gene
-			- WWTR1 genes
+		- Transcription factors (myc gene)
+		- Transcriptional coactivators (YAP gene, WWTR1 genes)
 
 		
 	- inhibit/trigger pathway components
@@ -959,21 +1088,87 @@
 				- The link between PGE2 and Wnt suggests that a chronic inflammation-related increase of PGE2 may lead to activation of the Wnt pathway in different tissues, resulting in carcinogenesis
 		- HSF1
 			- cancer cells use HSF1, so inhibiting HSF1 can be useful
-		- PI3K (phosphoinositide-3-kinase/protein kinase B)
-		- AKT
-		- mTOR
-		- LKB1		
-		- AR
-		- Nrf2
-		- HO-1
-
+		- PI3K (phosphoinositide-3-kinase
+			- Phosphoinositide 3-kinases (PI3Ks) are a family of enzymes involved in cellular functions such as cell growth, proliferation, differentiation, motility, survival and intracellular trafficking, which in turn are involved in cancer
+			- PI3Ks are intracellular signal transducer enzymes that can phosphorylate the 3 position hydroxyl group of the inositol ring of phosphatidylinositol (PtdIns)
+				- The pathway, with oncogene PIK3CA and tumor suppressor gene PTEN, is implicated in the sensitivity of cancer tumors to insulin and IGF1, and in calorie restriction
+			- Many of these functions relate to the ability of class I PI3Ks to activate protein kinase B (PKB, aka Akt) as in the PI3K/AKT/mTOR pathway
+			- The p110δ and p110γ isoforms regulate different aspects of immune responses
+			- PI3Ks are also a key component of the insulin signaling pathway
+			- PI3K is also involved in interleukin signalling (IL4)
+		- Protein kinase B (PKB), also known as Akt (oncogene)
+			- set of three serine/threonine-specific protein kinases that are involved in multiple cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, cell migration, angiogenesis
+			- Akt is regulated by Ubiquitination/phosphorylation
+			- Akt inhibitors may treat cancers such as neuroblastoma
+		- mTOR (mammalian target of rapamycin)
+			- a kinase that in humans is encoded by the MTOR gene
+			- mTOR is a member of the phosphatidylinositol 3-kinase-related kinase family of protein kinases
+			- mTOR links with other proteins and serves as a core component of two distinct protein complexes, mTOR complex 1 and mTOR complex 2, which regulate different cellular processes
+				- In particular, as a core component of both complexes, mTOR functions as a serine/threonine protein kinase that regulates cell growth, cell proliferation, cell motility, cell survival, protein synthesis, autophagy, and transcription
+				- As a core component of mTORC2, mTOR also functions as a tyrosine protein kinase that promotes the activation of insulin receptors and insulin-like growth factor 1 receptors
+				- mTORC2 has also been implicated in the control and maintenance of the actin cytoskeleton
+		- Serine/threonine kinase 11 (STK11) also known as liver kinase B1 (LKB1) or renal carcinoma antigen NY-REN-19
+			- a protein kinase encoded by the STK11 gene that functions as a tumour suppressor
+			- LKB1 exerts its growth suppressing effects by activating a group of 14 other kinases, comprising AMPK and AMPK-related kinases
+			- Activation of AMPK by LKB1 suppresses growth and proliferation when energy and nutrient levels are scarce	
+		- Androgen receptor (AR)
+			- expressed in cancers
+		- Nuclear factor erythroid 2-related factor 2 (NRF2)
+			- a transcription factor that in humans is encoded by the NFE2L2 gene
+			- NRF2 is a basic leucine zipper (bZIP) protein
+			- NRF2 may regulate the expression of antioxidant proteins that protect against oxidative damage triggered by injury and inflammation
+			- NRF2 binds to antioxidant response elements (AREs) in the promoter regions of genes encoding cytoprotective proteins
+			- NRF2 induces the expression of heme oxygenase 1, leading to an increase in phase II enzymes
+			- NRF2 also inhibits the NLRP3 inflammasome
+			- NRF2 appears to participate in a complex regulatory network and performs a pleiotropic role in the regulation of metabolism, inflammation, autophagy, proteostasis, mitochondrial physiology, and immune responses
+		- HMOX1 (heme oxygenase 1 gene) encodes the enzyme heme oxygenase 1
+			- HO-1 deficiency in normal cells enhances DNA damage and carcinogenesis. Nevertheless, HO-1 overexpression in cancer cells promotes proliferation and survival
 
 	- inhibit pathways
 
 		- signaling pathways
-			- Erk
-			- rS6
-			- eIF4E
+			- MAPK/ERK pathway (also known as the Ras-Raf-MEK-ERK pathway)	
+				- a chain of proteins in the cell that communicates a signal from a receptor on the surface of the cell to the DNA in the nucleus of the cell
+					- 1. start the MAPK/ERK pathway by 'binding of extracellular mitogen to a cell surface receptor', which allows a Ras protein (a Small GTPase) to swap a GDP molecule for a GTP molecule, flipping the "on/off switch" of the pathway
+						- Ras activation
+							- Receptor-linked tyrosine kinases (such as cell surface receptors like EGFR, Trk A/B, Fibroblast growth factor receptor (FGFR) or PDGFR), are activated by extracellular ligands (such as the epidermal growth factor EGF)
+								- Binding of EGF to the EGFR activates the tyrosine kinase activity of the cytoplasmic domain of the receptor
+									- The EGFR becomes phosphorylated on tyrosine residues
+										- Docking proteins such as GRB2 contain an SH2 domain that binds to the phosphotyrosine residues of the activated receptor
+											- GRB2 binds to the guanine nucleotide exchange factor SOS by way of the two SH3 domains of GRB2
+												- When the GRB2-SOS complex docks to phosphorylated EGFR, SOS becomes activated
+													- Activated SOS then promotes the removal of GDP from a member of the Ras subfamily (most notably H-Ras or K-Ras)
+														- The Ras protein can then bind GTP and become active
+					- 2. The Ras protein can then activate MAP3K (such as Raf), which activates MAP2K, which activates MAPK
+						- protein kinase cascade (activated Ras can activates MAP3K, which activates MAP2K, which activates MAPK)
+							- Activated Ras activates the protein kinase activity of a RAF kinase
+								- RAF kinase then phosphorylates and activates a MAPK/ERK Kinase (MEK1 or MEK2)
+									- MEK then phosphorylates and activates a mitogen-activated protein kinase (MAPK)
+							- RAF and MAPK/ERK are both serine/threonine-specific protein kinases, where MEK is a serine/tyrosine/threonine kinase
+							- targeting this cascade can target feedback regulation and signal amplification
+					- 3. Regulation of translation and transcription (MAPK activates a transcription factor, such as Myc)
+						- One effect of MAPK activation is to alter the translation of mRNA to proteins
+						- MAPK phosphorylates the 40S ribosomal protein S6 kinase (RSK)
+							- This activates RSK, which, in turn, phosphorylates ribosomal protein S6
+						- MAPK regulates the activities of several transcription factors
+							- MAPK can phosphorylate C-myc
+							- MAPK phosphorylates and activates MNK, which, in turn, phosphorylates CREB (a cellular transcription factor)
+							- MAPK also regulates the transcription of the C-Fos gene (a proto-oncogene)
+							- By altering the levels and activities of transcription factors, MAPK leads to altered transcription of genes that are important for the cell cycle
+				- When one of the proteins in the pathway is mutated, it can become stuck in the "on" or "off" position, a necessary step in the development of many cancers
+					- treatments switch one of these steps on/off
+						- Raf kinase inhibitors (sorafenib, SB590885, PLX4720, XL281, RAF265, encorafenib, dabrafenib, vemurafenib)
+						- MEK inhibitors: cobimetinib, CI-1040, PD0325901, Binimetinib (MEK162), selumetinib, Trametinib(GSK1120212)
+			- rS6 (ribosomal protein S6)
+				- a component of the 40S ribosomal subunit and is therefore involved in translation
+				- phosphorylation of eS6 is involved in the regulation of cell size, cell proliferation, and glucose homeostasis
+				- p70 ribosomal protein S6 kinases (S6K1 and S6K2) and p90 ribosomal protein S6 kinases (RSK) both phosphorylate eS6 and that S6K1 and S6K2 predominate this function
+				- Pathways leading to the induction of human eS6 phosphorylation have been found to enhance IL-8 protein synthesis
+			- Eukaryotic translation initiation factor 4E (eIF4E)
+				- a protein encoded by the EIF4E gene
+				- over-expressing eIF4E causes tumorigenic transformation of fibroblasts
+				- treatments
+					- ribavirin was used as a m7G cap competitor which had substantial activity in cancer cell lines
 		- inhibit oncogene signaling pathways
 			- inhibited by propolis
 		- inhibit cell proliferation pathways
@@ -987,6 +1182,10 @@
 				- selenium
 		- EGFR
 			- inhibited by celastrol
+			- other inhibitors
+				- gefitinib, erlotinib, afatinib, brigatinib and icotinib for lung cancer, and cetuximab for colon cancer
+				- Osimertinib, a third generation tyrosine kinase inhibitor
+			- CimaVax-EGF, an active vaccine targeting EGF as the major ligand of EGF, uses a different approach, raising antibodies against EGF itself, thereby denying EGFR-dependent cancers of a proliferative stimulus
 		- Wnt/β-catenin
 			- inhibited by celastrol
 			- triggered by EBV to trigger cancer
@@ -1161,7 +1360,10 @@
 			- the PTCH1 gene product is a transmembrane protein that suppresses the release of the 'smoothened' protein
 				- when sonic hedgehog binds PTCH1, smoothened is released and signals cell proliferation
 			- Mutations of this gene have been associated with cancer
-
+		- PTEN (phosphatase and tensin homolog) 
+			- a tumor suppressor gene encoding a protein PTEN, which possesses lipid and protein phosphatase-dependent as well as phosphatase-independent activities
+			- PTEN protein phosphatase is able to interfere with MET signaling by dephosphorylating either PIP3 generated by PI3K, or the p52 isoform of SHC
+			- SHC dephosphorylation inhibits recruitment of the GRB2 adapter to activated MET
 
 	- other treatment types
 
