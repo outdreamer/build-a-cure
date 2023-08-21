@@ -163,7 +163,8 @@
     	- possible treatments: milk thistle, arginine, Ursodeoxycholic acid (ursodiol)
 
     - atherosclerosis
-    	- possible treatments: grape seed, royal jelly, berberine, magnesium, kombucha, carnitine, vitamin c, arginine, pomegranate, taurine, coq10, nattokinase, quercetin, lutein
+    	- possible treatments: grape seed, royal jelly, berberine, magnesium, kombucha, carnitine, vitamin c, arginine, pomegranate, taurine, coq10, nattokinase/serrapeptase (or natto), quercetin, lutein, garlic (aged garlic extract with COQ10), omega 3s/fish oil, artichoke, niacin, policosanol (sugar cane and yams), hawthorn, red yeast rice (similar to statins), alpha lipoic acid, guggulsterone (lowers cholesterol)
+    	- lowering cholesterol can help reduce plaque size
 
     - cardiovascular health
     	- possible treatments: carnitine, resveratrol, coq10, magnesium, berberine, soy, chia, taurine, green tea, arginine, reishi, ginkgo, pomegranate, royal jelly, cannabis, ginseng, bromelain, grape seed, olive leaf, vitamin c, ALA, fenugreek, inositol, melatonin, nattokinase, wheat germ, flaxseed, chitosan, cinnamon, milk thistle, astragalus
