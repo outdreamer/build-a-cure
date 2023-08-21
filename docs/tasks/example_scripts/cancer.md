@@ -81,7 +81,7 @@
 	- general treatment strategies
 
 		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
-			- Resveratrol, ginger, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
+			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
 			- celastrol is also highly/broadly active against some cancerous processes, but has some nontrivial negative side effects
 			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
 
@@ -246,6 +246,14 @@
 				- attenuation of chemotherapy-induced deleterious side effects. 
 				- sensitize cancer cells to chemotherapeutic agents
 					- blocking the activation of the transcription factor nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
+		- saffron/crocins
+			- TE significantly (P < 0.05) 
+			- inhibited the proliferation of cancer cells, with lower toxic effects against normal cells
+			- inhibited the colony formation of cancer cells
+			- stimulated apoptosis in cancer cells
+			- upregulated Bax and suppressed Bcl-2
+			- migration of the cancer cells was suppressed
+			- https://pubmed.ncbi.nlm.nih.gov/35722462/
 		- chicory 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
 			- A first group of nine Diet-induced gene expression profiles, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
@@ -609,6 +617,7 @@
 					- fisetin/quercetin
 			- alters the expression levels of apoptotic markers (Bcl2, Bax and caspase3)
 				- withaferin A
+				- saffron/crocins
 			- increases expression of Notch 2 and Notch 4 (related to colon cancer)
 				- inhibits Notch-mediated prosurvival to induce c-Jun-NH2-kinase-mediated apoptosis
 					- Withaferin A 
