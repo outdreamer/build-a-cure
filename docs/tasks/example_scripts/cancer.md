@@ -84,6 +84,9 @@
 			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
 			- celastrol is also highly/broadly active against some cancerous processes, but has some nontrivial negative side effects
 			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
+			- intake of vitamin C and β-carotene and α-tocopherol can reduce the risk of brain tumors
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372437/
+			- avoiding methionine/cysteine/glutathione/folate/niacin during tumor reduction is similarly important, as they have multiple mechanisms of helping cancer grow
 
 		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
 
@@ -258,6 +261,11 @@
 			- curcumol
 				- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
 				- https://www.researchgate.net/publication/340629926_Therapeutic_Effects_of_Curcumol_in_Several_Diseases_An_Overview
+		- sugiol (relatively untested in humans, not available for purchase)
+			- Sugiol has been shown to inhibit the oncogenic protein STAT3
+			- inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
+				- Reactive oxygen species are highly reactive, and can damage cellular mechanisms by oxidizing critical molecules
+			- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6
 		- chicory 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
 			- A first group of nine Diet-induced gene expression profiles, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
@@ -369,7 +377,39 @@
 						- 6‐diazo‐5‐oxo‐l‐norleucine (DON) and acivicin
 
 
-	- reduce factors in specific cancers
+	- target variables of cancerous cell lines (cell groups with a mutation that causes cancer)
+		- target enzymes/proteins/sugars/genes/other structures of these mutated cells
+
+
+    - target highly expressed/associated structures which are likely to be involved in carcinogenicity
+    	- target highly expressed proteins like EZH2 in some cancers
+
+    - inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
+    	- sugiol
+
+
+    - reduce required resources for cancers
+        - reduce carbon sources
+        	- reduce cysteine/glutathione/methionine (methionine helps create cysteine/glutathione)
+        		- Cancer cells undergo a metabolic rewiring in order to fulfill the energy and biomass requirements. 
+        		- Cysteine contributes for cancer metabolic remodeling at three different levels: (1) in redox control, free or as a component of glutathione; (2) in ATP production, via hydrogen sulfide (H2S) production, serving as a donor to electron transport chain (ETC), and (3) as a carbon source for biomass and energy production, in which cysteine benefits the metabolic fitness/survival of cancer cells
+        		- https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.00947/full#:~:text=Cysteine%20plays%20a%20pivotal%20role%20in%20cancer%3A%20it,a%20donor%20of%20electrons%20%28e%20%E2%88%92%29%20to%20ETC.
+        		- this means reducing NAC as well, except in specific cases where its known to reduce ROS
+        		- https://pubmed.ncbi.nlm.nih.gov/33498875/
+    	- reduce methionine/folate
+    		- Methionine dependency is a common feature of most cancer cells, which have an inability to grow without methionine even in the presence of its precursor homocysteine
+	    	- the methionine dependency of tumor growth may contribute to the aggressivity of cancers
+	    		- Cytosolic folate cycle is required for methionine synthesis
+	    		- Its dysregulation may influence cell reprogramming towards pluripotency 
+	    		- exogenous methionine is required for tumor formation but not for monolayer cell proliferation
+	    		- low activity cytosolic folate cycle is observed in some cancers
+		    		- repressed cytosolic folate cycle underlies the methionine dependency of cancer
+		    			- 5-methyltetrahydrofolate is a key metabolic switch for cancer formation
+			    			- Folic Acid and 5-methyltetrahydrofolate promote the growth of some cancers
+			- https://www.nature.com/articles/s41419-019-1836-2
+
+
+	- reduce factors in specific cancers for further research
 		- reduce mammary density (a risk factor for breast cancer)
 			- boswellic acid, betaine, and myo-inositol
 		- Piperlongumine
@@ -474,6 +514,11 @@
 	- sensitize cancer cells to chemotherapy (synergistic with chemotherapy)
 		- blocking the activation of the transcription factor nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
 			- propolis
+		- stimulates histone acetylation, leading to an unfolding of the chromatin structure that leaves DNA more susceptible to the effects of chemotherapy and radiation therapy
+			- sodium valproate
+		- prevent seizures
+			- tumor growth stimulates seizures, and seizures activate tumor growth
+				- sodium valproate
 
 
 	- reduce/stop cell growth
@@ -541,6 +586,8 @@
 
 
 	- increase antioxidants 
+		- vitamin C
+		- alpha lipoic acid
 		- upregulate glutathione (an endogenous antioxidant)
 			- reacts with reactive oxygen species to neutralize/reduce them
 				- fisetin
@@ -679,8 +726,13 @@
     		- caveolin
 
 
+    - inhibit methylation inputs/requirements
+    	- methionine, the methyl group donor in DNA methylation, is related to cancer growth in a number of studies
+
+
 	- inhibit angiogenesis
 		- https://en.wikipedia.org/wiki/Angiogenesis_inhibitor (angiogenesis is formation of new blood vessels which can feed tumors)
+		- methionine is required for angiogenesis
 		- Some common components of human diets also act as mild angiogenesis inhibitors and have therefore been proposed for angioprevention, the prevention of metastasis through the inhibition of angiogenesis. In particular, the following foods contain significant inhibitors and have been suggested as part of a healthy diet for this and other benefits:
 			- Black raspberry (Rubus occidentalis) extract	
 			- Liquorice (glycyrrhizic acid)	
@@ -976,7 +1028,7 @@
 		
 	- inhibit/trigger pathway components
 
-		- ROS (reactive oxygen species)
+		- inhibit/reduce ROS (reactive oxygen species)
 			- Radiotherapy relies on ROS toxicity to eradicate tumor cells
 				- Radiotherapy uses X-rays, γ-rays as well as heavy particle radiation such as protons and neutrons to induce ROS-mediated cell death and mitotic failure
 			- After growth factor stimulation of RTKs, ROS can trigger activation of signaling pathways involved in cell migration and invasion 
@@ -1144,9 +1196,10 @@
 			- NRF2 appears to participate in a complex regulatory network and performs a pleiotropic role in the regulation of metabolism, inflammation, autophagy, proteostasis, mitochondrial physiology, and immune responses
 		- HMOX1 (heme oxygenase 1 gene) encodes the enzyme heme oxygenase 1
 			- HO-1 deficiency in normal cells enhances DNA damage and carcinogenesis. Nevertheless, HO-1 overexpression in cancer cells promotes proliferation and survival
+		- inhibit inflammatory genes/cytokines (NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6)
 
 	- inhibit pathways
-
+        - inhibit inflammatory pathways
 		- signaling pathways
 			- MAPK/ERK pathway (also known as the Ras-Raf-MEK-ERK pathway)	
 				- a chain of proteins in the cell that communicates a signal from a receptor on the surface of the cell to the DNA in the nucleus of the cell
