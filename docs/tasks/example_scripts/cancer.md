@@ -254,6 +254,10 @@
 			- upregulated Bax and suppressed Bcl-2
 			- migration of the cancer cells was suppressed
 			- https://pubmed.ncbi.nlm.nih.gov/35722462/
+		- turmeric
+			- curcumol
+				- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
+				- https://www.researchgate.net/publication/340629926_Therapeutic_Effects_of_Curcumol_in_Several_Diseases_An_Overview
 		- chicory 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
 			- A first group of nine Diet-induced gene expression profiles, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
@@ -526,6 +530,10 @@
 		- uncaria tomentosa
 
 
+	- inhibit signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) which are associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
+		- turmeric
+
+
 	- inhibits pro-inflammatory cytokines
 		- pro-inflammatory cytokines include tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB)
 		- induce deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
@@ -546,6 +554,7 @@
 		- chicory
 		- uncaria tomentosa
 		- fisetin
+		- turmeric
 		- inhibit oncogenic genes which proliferate cells
 			- Growth factors, or mitogens (such as c-Sis)
 			- Cytoplasmic tyrosine kinases (such as Src-family, Syk-ZAP-70 family, and BTK family of tyrosine kinases, the Abl gene in CML - Philadelphia chromosome)
