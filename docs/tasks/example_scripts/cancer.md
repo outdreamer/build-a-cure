@@ -3,7 +3,7 @@
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
-			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination, acetylation, inflammation, ubiquitinization (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein)
+			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
 		- cancer variables
 			- cell senescence
 			- cholesterol

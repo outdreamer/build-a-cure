@@ -48,7 +48,7 @@ NOTES:
 
 EXAMPLE OUTPUT AND ERRORS
 
-- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'linalool', 'fucose', 'lysine', 'withaferin', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'saffron', 'linalool', 'fucose', 'lysine', 'withaferin', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
 
 	- other anti-tumor substances identified in research (having various mechanisms of action like inhibiting vimentin, inducing apoptosis, suppressing growth factors, suppressing pro-inflammatory interleukins, upregulating interleukin-12, lowering inflammation, lowering LDL cholesterol, etc)
 	    - dendritic cell vaccines, checkpoint inhibitors, VSV (an oncolytic virus), linalool, fucose, lysine, ashwagandha/Withaferin or ginsenosides (a similar compound), atorvastatin, citicoline, melatonin, cilantro, ginger, coffee, green tea, lactobacillus, bacillus subtilis, milk thistle, chicory, turmeric, astragalus, pterostilbene/resveratrol, boswellia, selenium, ahcc (shiitake mushroom), mushrooms (reishi, maitake, turkey tail), mangosteen, quercetin, broccoli (indole-3-carbinol, sulfuraphane, DIM), beta-glucans (oat, mushrooms, seaweed), flaxseed, chamomile, guggulsterone, propolis/bee pollen
