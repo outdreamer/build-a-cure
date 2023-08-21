@@ -81,7 +81,9 @@
 	- general treatment strategies
 
 		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
-			- fisetin/quercetin, propolis, chicory, uncaria tomentosa, curcumin, ashwagandha/withaferin or ginseng/ginsenosides, EGCG/green tea, selenium, vitamin C, celastrol
+			- Resveratrol, ginger, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
+			- celastrol is also highly/broadly active against some cancerous processes, but has some nontrivial negative side effects
+			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
 
 		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
 
@@ -95,7 +97,8 @@
 
 		- reduce inflammation
 			- anti-inflammatory substances
-				- bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae, fucoidan, magnesium, arginine, glucosamine, coq10, grape seed, fenugreek, taurine, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol, turmeric, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, glutamine, olive leaf, nettle, vitamin c, resveratrol, ginkgo, Ashwagandha
+				- bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, olive leaf, nettle, vitamin c, resveratrol, ginkgo, ashwagandha
+				- taurine has anti-tumor activity
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
 				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
@@ -215,7 +218,7 @@
 		- caveolin
 			- angiogenesis, tumor suppression/progression, binds with tyrosine kinases
 		- EGCG from green tea
-			- inhibits tumor growth and angiogenesis of estrogen receptor positive (ER+) breast cancer without affecting normal tissue growth1.
+			- inhibits tumor growth and angiogenesis of estrogen receptor positive (ER+) breast cancer without affecting normal tissue growth
 		- calestrol from thunder god vine
 			- https://pubmed.ncbi.nlm.nih.gov/37196541/
 			- inhibiting tumor cell proliferation, migration and invasion, inducing cell apoptosis, suppressing autophagy, hindering angiogenesis and inhibiting tumor metastasis
@@ -274,7 +277,7 @@
 				- holy basil (has eugenol, which disrupts fungal cell wall) and citicoline
 					- Holy basil might lower thyroxine levels. In theory, this could worsen hypothyroidism (this might also interfere with inhibiting PCNA)
 				- other substances commonly found in antifungal supplements:
-					- oregano (thymol, carvacrol), undecylenic acid, pau d'arco (lapachol), black walnut, garlic, olive leaf, elderberry, grape seed, danshen, chinese skullcap (baicalen), caprylic acid, turmeric, ginger, sitosterol, neem, jatoba, beta-glucanase, hemicellulase, fulvic acid, licorice, star anise, cordyceps, reishi, ashwagandha, quercetin, lactic acid-producing bacteria, bacillus subtilis, wormwood, artemisin, apigenin, lactoferrin, horopito (polgodial)
+					- oregano (thymol, carvacrol), undecylenic acid, pau d'arco (lapachol), black walnut, garlic, olive leaf, elderberry, grape seed, danshen, chinese skullcap (baicalen), caprylic acid, curcumin, ginger, sitosterol, neem, jatoba, beta-glucanase, hemicellulase, fulvic acid, licorice, star anise, cordyceps, reishi, ashwagandha, quercetin, lactic acid-producing bacteria, bacillus subtilis, wormwood, artemisin, apigenin, lactoferrin, horopito (polgodial)
 		- bacteria
 			- Helicobacter pylori
 				- the following are commonly found in Helicobacter pylori supplements, but the activity of these is unclear
@@ -284,7 +287,7 @@
 		- viruses
 			- Hepatitis B/C
 				- the following are commonly found in liver supplements, but the activity of these is unclear
-					- reishi, cordyceps, milk thistle, NAC, schisandra, irish sea moss, black cumin seed oil, burdock, bladderwrack, black pepper, turmeric, beet root, artichoke leaf, chanca piedra, dandelion, choline, chicory, yarrow, jujube, celery, ginger, alfalfa, caper bush, arjuna, tamarisk, black nightshade, cassia occidentalis, zinc, L-methionine, feverfew, grape seed, yellow dock root, raspberry, berberine HCL, l-cysteine HCL, rutin, amla 
+					- reishi, cordyceps, milk thistle, NAC, schisandra, irish sea moss, black cumin seed oil, burdock, bladderwrack, black pepper, curcumin, beet root, artichoke leaf, chanca piedra, dandelion, choline, chicory, yarrow, jujube, celery, ginger, alfalfa, caper bush, arjuna, tamarisk, black nightshade, cassia occidentalis, zinc, L-methionine, feverfew, grape seed, yellow dock root, raspberry, berberine HCL, l-cysteine HCL, rutin, amla 
 					- nattokinase/serrapeptase are also found in liver supplements, but have some cardiac/blood pressure side effects
 					- enzymes like papain/bromelain are also found in liver supplements, possibly to reduce the work of the liver
 				- alpha lipoic acid: regenerates liver tissue, reverse the complications of diabetes mellitus, slow or stop the growth of cancer cells, and chelate heavy metals
