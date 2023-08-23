@@ -86,6 +86,8 @@
 			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
 			- intake of vitamin C and β-carotene and α-tocopherol can reduce the risk of brain tumors
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372437/
+			- higher intake of magnesium/vitamin b12/b6/phosphorus/iron are associated with higher rates of specific cancers, folate/Vitamin A/C/E are associated with lower rates of specific cancers
+				- https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-03018-y#Fig2
 			- avoiding methionine/cysteine/glutathione/folate/niacin during tumor reduction is similarly important, as they have multiple mechanisms of helping cancer grow
 
 		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
@@ -111,7 +113,8 @@
 				- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
 					- The foods you eat supply other antioxidants, such as vitamins C and E. 
 					- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
-					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
+					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. 
+					- Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
 
 		- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
 			- taking some substances at the same time may decrease absorption of one or both of them (or decrease removal of one of them, leading to an overly high ratio in blood)
@@ -468,7 +471,12 @@
 			- nicotinamide
 			- folate
 			- bpc-157
-	
+		- estrogen can be carcinogenic, so taking anti-estrogens can be effective in some cancers that are not estrogen-sensitive
+			- about 75% of breast cancers are estrogen-sensitive: they express the hormone receptor estrogen receptor α (ERα)
+			- estrogen promotes tumor growth in ERα-negative cancers, such as triple-negative breast cancer (TNBC)
+			- estrogen directly affects cancer cells to promote cell survival and proliferation,
+			- estrogen suppresses the immune response and protects tumors
+
 	
 	- trigger cell-cycle arrest
 		- propolis
@@ -743,9 +751,9 @@
 			- Soy products such as tofu and tempeh, (which contain the inhibitor "genistein")	
 			- Maitake mushrooms (via inhibition of VEGF)	
 			- Lingzhi mushrooms (via inhibition of VEGF and TGF-beta)	
-			- Trametes versicolor mushrooms (Polysaccharide-K. .  
-			- Phellinus linteus mushroom. (via active substance Interfungins A inhibition of glycation)	
-			- Agaricus subrufescens mushrooms (contain the inhibitors sodium pyroglutamate and ergosterol.	
+			- Trametes versicolor mushrooms (Polysaccharide-K)
+			- Phellinus linteus mushroom (via active substance Interfungins A inhibition of glycation)	
+			- Agaricus subrufescens mushrooms (contain the inhibitors sodium pyroglutamate and ergosterol).	
 		- inhibiting chymotrypsin to inhibit angiogenesis
 			- withaferin A 
 
