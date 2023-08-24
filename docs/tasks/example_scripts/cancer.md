@@ -3,9 +3,10 @@
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
-			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
+			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
 		- cancer variables
 			- surface proteins/sugars
+			- sirtuins
 			- cell senescence
 			- cholesterol
 				- high/low cholesterol is associated with increased risk of cancer
@@ -22,6 +23,8 @@
 					- Both endogenous and exogenous hormones, by driving cell proliferation, increased the number of cell divisions and the opportunity for random genetic errors to lead to cancer
 					- compounds in soy like daidzein can reduce risk of hormone-dependent cancer
 			- polyphenols/flavonoids
+			- tumor markers as alternate treatment targets
+			- side effects of cancer drugs as alternate treatment targets
 			- pro-inflammatory cytokines (tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB))
 				- Cytokines include chemokines, interferons, interleukins, lymphokines, and tumour necrosis factors, but generally not hormones or growth factors 
 				- produced by a broad range of cells, including immune cells like macrophages, B lymphocytes, T lymphocytes and mast cells, as well as endothelial cells, fibroblasts, and various stromal cells; a given cytokine may be produced by more than one type of cell
@@ -78,9 +81,11 @@
 				- p53 and other relevant proteins
 			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
 			- sequences/sets/networks of optimal functions to treat cancer
-				- if there is an optimal 'sequence' like a possible sequence of coordinating sets like 'apoptosis-induction, angiogenesis inhibitor, metastasis inhibitors, and glucose/protein/input starvation, then senolytics/DNA repair once the tumor is definitely gone' which is optimal in order to avoid known errors (such as for example 'taking DNA repair compounds first, which might help cancer cells repair the most, so they survive more', which Im citing as a possible example of a possible interaction, rather than referencing known interactions), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
+				- if there is an optimal 'sequence' like a possible sequence of coordinating sets like 'apoptosis-induction, angiogenesis inhibitor, metastasis inhibitors, and glucose/protein/input starvation, then senolytics/DNA repair once the tumor is definitely gone' which is optimal in order to avoid known errors (such as for example 'substances that deactivate/kill existing negative structres first, then substances that inhibit new bonds/receptors' or 'avoiding taking DNA repair compounds first, which might help cancer cells repair the most, so they survive more', which Im citing as a possible example of a possible interaction, rather than referencing known interactions), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
 				- there likely is an optimal sequence/set/network of compounds/processes for treating most cancer types/states in general (unless very different cancer types/states are relevant)
 				- a 'network' is useful for cases where a treatment is preferred but is a dead-end, as it cant be followed by more of it or additional/coordinating steps in the same direction (as its only usable up to a point such as bc resistance develops if its not effective after that point), after which other treatments should be tried (as in 'multiple overlapping sequences' and 'multiple directions such as reversing direction toward a dead-end')
+				- this is in contrast to an option like 'trying/cycling all medicines randomly' which can have contrary effects and could help cancer instead of host cells
+
 
 	- general treatment strategies
 
@@ -397,8 +402,28 @@
     - target highly expressed/associated structures which are likely to be involved in carcinogenicity
     	- target highly expressed proteins like EZH2 in some cancers
 
+
     - inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
     	- sugiol
+
+
+    - inhibit glycolysis/glutaminolysis/angiogenesis/DNA repair
+    	- inhibiting/activating sirtuins
+			- Sirtuins (SIRTs), class III histone deacetylases, are differentially expressed in several cancers, where they display both oncogenic and tumor-suppressive properties, depending on cellular context
+			- SIRT1 represses p53-mediated tumour suppression
+			- SIRT3 regulates levels of reactive oxygen species (ROS). Loss of SIRT3 results in increased levels of ROS, with subsequent activation of hypoxia-inducible factor 1α (HIF1α) and increased expression of HIF1 target genes, including glycolysis and angiogenesis genes, which favour tumour growth
+			- SIRT4 regulates glutamine metabolism by inhibiting glutamate dehydrogenase (GDH), the rate-limiting enzyme in glutaminolysis. Loss of SIRT4 leads to increased glutamine catabolism, a pathway that promotes tumour growth
+			- SIRT6 regulates cancer metabolism and inflammation by acting as a co-repressor for HIF1α, MYC and nuclear factor-κB (NF-κB). Loss of SIRT6 results in increased expression of glycolysis, glutaminolysis and ribosomal genes, all of which favour proliferation and tumorigenesis
+			- sirtuins SIRT1, SIRT6 and SIRT7 proteins are involved in DNA repair
+			- SIRT1 and SIRT6 promote genomic stability by regulating both single/double-strand DNA break-repair pathways
+			- sirtuins are a group of enzymes that use NAD+ to remove acetyl groups from proteins
+			- sirtuins are a family of signaling proteins involved in metabolic regulation
+			- sirtuin activators include natural compounds in food such as: 
+				- proanthocyanidins, Quercetin/rutin, Luteolin, Catechin/Epicatechins, Fisetin, Phenolic acids, Fucoidan, Curcumin, Myricetin, Delphinidin, apigenin, Ferulic acid, Berberine, Pterostilbene, tyrosol
+			- histone deacetylases (including sirtuins 1 - 7)
+				- histone deacetylases are a class of enzymes that remove acetyl groups (O=C-CH3) from an ε-N-acetyl lysine amino acid on both histone and non-histone proteins
+				- HDACs allow histones to wrap the DNA more tightly
+				- Histone deacetylase inhibitors as anti-neoplastic agents
 
 
     - reduce required resources for cancers
@@ -525,6 +550,10 @@
 
 	- reduce chemotherapy side effects
 		- propolis
+
+
+	- prevent apoptosis resistance
+		- fisetin
 
 
 	- sensitize cancer cells to chemotherapy (synergistic with chemotherapy)
@@ -1224,7 +1253,7 @@
 				- The link between PGE2 and Wnt suggests that a chronic inflammation-related increase of PGE2 may lead to activation of the Wnt pathway in different tissues, resulting in carcinogenesis
 		- HSF1
 			- cancer cells use HSF1, so inhibiting HSF1 can be useful
-		- PI3K (phosphoinositide-3-kinase
+		- PI3K (phosphoinositide-3-kinase)
 			- Phosphoinositide 3-kinases (PI3Ks) are a family of enzymes involved in cellular functions such as cell growth, proliferation, differentiation, motility, survival and intracellular trafficking, which in turn are involved in cancer
 			- PI3Ks are intracellular signal transducer enzymes that can phosphorylate the 3 position hydroxyl group of the inositol ring of phosphatidylinositol (PtdIns)
 				- The pathway, with oncogene PIK3CA and tumor suppressor gene PTEN, is implicated in the sensitivity of cancer tumors to insulin and IGF1, and in calorie restriction
