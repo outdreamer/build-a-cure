@@ -5,6 +5,7 @@
 		- this includes processes such as:
 			- angiogenesis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
 		- cancer variables
+			- surface proteins/sugars
 			- cell senescence
 			- cholesterol
 				- high/low cholesterol is associated with increased risk of cancer
@@ -269,6 +270,11 @@
 			- inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
 				- Reactive oxygen species are highly reactive, and can damage cellular mechanisms by oxidizing critical molecules
 			- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6
+		- Piperlongumine (from Indian Long Pepper plant, Piper longum)
+			- binds to and hinders the activity of a protein called TRPV2, which is overexpressed in glioblastoma in a way that appears to drive cancer progression
+			- piperlongumine treatment radically shrank glioblastoma tumors and extended life and also selectively destroyed glioblastoma cells
+			- piperlongumine acts as an inhibitor (channel closer) of a type of TRP ion channel called TRPV2
+			- https://pubs.acs.org/doi/10.1021/acscentsci.1c00070
 		- chicory 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
 			- A first group of nine Diet-induced gene expression profiles, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
@@ -350,6 +356,7 @@
 					- EBV can induce oncogenesis in its host cell by activating various signaling pathways, such as nuclear factor-κB (NF-κB), phosphoinositide-3-kinase/protein kinase B (PI3K/AKT), Janus kinase/signal transducer and transcription activator (JAK/STAT), mitogen-activated protein kinase (MAPK), transforming growth factor-β (TGF-β), and Wnt/β-catenin, which are regulated by EBV-encoded proteins and noncoding RNA
 					- It has been found that EBNA1 may induce chromosomal breakage in the 11th chromosome, specifically in the 11q23 region between the FAM55D gene and FAM55B, which EBNA-1 appears to have a high affinity for due to its DNA-binding domain having an interest in a specific palindromic repeat in this section of the genome. While the cause and exact mechanism for this is unknown, the byproduct results in errors and breakage of the chromosomal structure as cells stemming from the line of the tainted genome undergo mitosis. Since genes in this area have been implicated in leukemia and is home to a tumor suppressor gene (such as tumor suppressors p53, CHK2, BRCA1, NBS1 and H2AX activated by ATM serine/threonine kinase) that is modified or not present in most tumor gene expression, it's been hypothesized that breakage in this area is the main culprit behind the cancers that EBV increases the chance of.
 					- ATM (Ataxia-telangiectasia mutated)
+						- ATM is thought to be a master controller of cell cycle checkpoint signalling pathways that are required for cellular responses to DNA damage such as double-strand breaks
 						- a defect in ATM has severe consequences in repairing certain types of damage to DNA, and cancer may result from improper repair
 				- Therapy/drug							Target					Function																		Cancer/disease				
 					CTL									LMP1/LMP2				Stimulates LMP-specific T cell expansion										NK/T cell lymphoma				
@@ -415,8 +422,6 @@
 	- reduce factors in specific cancers for further research
 		- reduce mammary density (a risk factor for breast cancer)
 			- boswellic acid, betaine, and myo-inositol
-		- Piperlongumine
-			- an amide alkaloid used to neutralize glioblastoma cancer cells
 
 
 	- avoiding known carcinogens
@@ -550,23 +555,56 @@
 				- metabolized into gemcitabine, and is activated by lysosomal β-galactosidase (a common senescence marker)
 
 
-	- inhibit proteins associated with cancers
+	- block cancer protective compounds
+		- block the action of CXCR12
+			- CXCR12 is a cytokine released by the glioma cells that builds up a shield around the immune system, preventing it from firing up against the invading tumor
+				- AMD3100/Plerixafor (has trouble entering brain without artifical structures)
+				- https://pubs.acs.org/doi/10.1021/acsnano.1c07492
+
+
+	- inhibit/deactivate/destabilize cancer-associated proteins/sugars
 		- inhibit Glycoprotein nonmetastatic melanoma protein B (GPNMB)
 			- Anti-GPNMB vaccine
-
-
-	- destabilize proteins required for tumor growth											
-		- HSP90 inhibitors
-			- HSP90 assists other proteins to fold properly, stabilizes proteins against heat stress, and aids in protein degradation
-			- HSP90 stabilizes a number of proteins required for tumor growth, so inhibiting it can be useful
-
-
-	- bind misfolded proteins
-		- prevent protein aggregation				
-			- CRYAB (in the small heat shock protein family, encodes Alpha-crystallin B chain protein)
-				- defects in this gene are associated with cancer
-				- CRYAB inhibits apoptosis and contribute to intracellular architecture
-				- inhibitors: 25-hydroxycholesterol (25HC) targets CRYAB	
+		- inhibit TRPV2 protein (impacting a type of TRP ion channel)
+			- piperlongumine binds to TRPV2 to inhibit its activity
+		- bind to cancer surface protein/sugars in a way that disrupts them or causes cell death
+			- lactoferrin
+				- Through its antioxidant properties, lactoferrin can prevent DNA damage, thereby preventing tumor formation in the central nervous system
+				- lactoferrin specifically activates the p53 tumor suppressor gene
+				- binds to polysialic acid, a tumor surface sugar
+					- https://www.pnas.org/doi/full/10.1073/pnas.1716900115
+				- anticancer activity of bovine lactoferrin (bLF) has demonstrated anticancer effects, possibly by suppression of phase I enzymes, such as cytochrome P450 1A2 (CYP1A2)
+				- in another experiment done on hamsters, bovine lactoferrin decreased the incidence of oral cancer by 50%
+				- has multiple mechanisms including: cell membrane disruption, apoptosis induction, cell cycle arrest, and cell immunoreaction
+				- also has high bioavailability after oral administration, high selectivity toward cancer cells, and a wide range of molecular targets controlling tumor proliferation, survival, migration, invasion, and metastasization
+				- it is able to promote or inhibit cell proliferation and migration depending on whether it acts upon normal or cancerous cells, respectively
+				- it can prevent development or inhibit cancer growth by boosting adaptive immune response
+				- https://pubmed.ncbi.nlm.nih.gov/32183434/
+				- https://pubmed.ncbi.nlm.nih.gov/25406879/
+		- inhibit BRAT1 cancer protein
+			- Curcusones are compounds that come from a shrub named Jatropha curcas
+				- curcusone D is extremely effective at shutting down cancer cells
+				- BRAT1 protein regulates DNA damage response and DNA repair in cancer cells
+				- BRAT1 encodes BRCA1-associated ATM activator 1 protein, thought to play a role in the DNA damage pathway regulated by BRCA1 and ATM
+				- curcusone D damages cancer cells' DNA and keeps them from repairing it, thereby stopping cancer cells from growing and stopping their migration and therefore also metastasis
+				- http://dx.doi.org/10.1021/jacs.1c00557
+		- inhibit carbonic anhydrase IX (CA IX) cancer protein 
+			- saccharin and acesulfame potassium
+				- ACE K is more selective than saccharin
+				- ACE K completely fills the CA IX binding site and binds directly to a catalytic zinc ion
+				- these are still not quite selective enough to target only cancer proteins, so analogues of ACE K may be better
+				- CA IX is a zinc protein that is overexpressed in cancer tissues and contributes to the growth and spread of malignant cells in lung, brain and breast cancers
+				- https://pubs.acs.org/doi/10.1021/acs.jmedchem.7b01470
+		- destabilize proteins required for tumor growth											
+			- HSP90 inhibitors
+				- HSP90 assists other proteins to fold properly, stabilizes proteins against heat stress, and aids in protein degradation
+				- HSP90 stabilizes a number of proteins required for tumor growth, so inhibiting it can be useful
+		- bind misfolded proteins
+			- prevent protein aggregation				
+				- CRYAB (in the small heat shock protein family, encodes Alpha-crystallin B chain protein)
+					- defects in this gene are associated with cancer
+					- CRYAB inhibits apoptosis and contribute to intracellular architecture
+					- inhibitors: 25-hydroxycholesterol (25HC) targets CRYAB	
 
 
 	- detoxify carcinogens
@@ -587,6 +625,19 @@
 		- turmeric
 
 
+    - inhibit STING pathway, associated with a negative immune response
+    	- STING1 gene makes a protein called STING that activates an inflammatory response when it detects foreign DNA molecules in the cytoplasm
+   		- STING pathway triggers a strong inflammatory response that protects the body from foreign and unhealthy cells. But prolonged activation of the same pathway leads to a desensitization and ultimately to a "rewiring" of cellular signaling, which aids and abets cancer's spread, the researchers found.
+		- long-term activation of the STING pathway leads to changes in cellular signaling that attracts cells that suppress the immune response to the area in and around the tumor
+		- chromosomal instability is an important driver of cancer's ability to spread
+		- cooperation between cancer cells with chromosomal instability and immune cells is driven by STING
+		- treating a fibroblast with a STING agonist creates a strong initial immune response, after which the cells become desensitized to this pro-inflammatory pathway very quickly, and started to signal stress response pathways that dampened the immune response, thus having the opposite effect
+		- low chromosomal instability or where STING had been depleted from cancer cells, they trigger a different response - a strong immune response that attacked the cancer cells
+		- activating STING in these patients isn't very effective because most patients' cells are already desensitized to it, due to the persistent activation of the pathway from chromosomal instability, so these patients may actually benefit from STING inhibition
+		- the subset of patients whose tumors can still mount a strong response to STING activation could be better candidates for STING agonists
+		- Treatment of study mice with STING inhibitors reduced chromosomal instability-driven metastasis in melanoma, breast, and colorectal cancer models
+
+
 	- inhibits pro-inflammatory cytokines
 		- pro-inflammatory cytokines include tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB)
 		- induce deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
@@ -601,6 +652,7 @@
 				- fisetin
 			- lodges in cell membranes and prevents oxidative damage to lipids in the cell membrane
 				- fisetin
+			- however, glutathione is created from methionine, which drives tumor growth
 
 
 	- inhibit cell proliferation
