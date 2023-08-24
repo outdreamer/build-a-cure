@@ -77,6 +77,9 @@
 			- oncogenes and anti-cancer genes
 				- p53 and other relevant proteins
 			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
+			- sequences/sets/networks of optimal functions to treat cancer
+				- if there is an optimal 'sequence' like 'apoptosis-induction and glucose/protein/input starvation, then metastasis inhibitors, then senolytics, then DNA repair' which is optimal in order to avoid known errors (such as for example 'taking DNA repair compounds first, which might help cancer cells the most so they survive more', which Im guessing rather than referencing), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
+				- there likely is an optimal sequence/set/network of compounds/processes for treating most cancer types/states in general (unless very different cancer types/states are relevant)
 
 
 	- general treatment strategies
