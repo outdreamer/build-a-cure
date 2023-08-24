@@ -78,9 +78,9 @@
 				- p53 and other relevant proteins
 			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
 			- sequences/sets/networks of optimal functions to treat cancer
-				- if there is an optimal 'sequence' like 'apoptosis-induction and glucose/protein/input starvation, then metastasis inhibitors, then senolytics, then DNA repair' which is optimal in order to avoid known errors (such as for example 'taking DNA repair compounds first, which might help cancer cells the most so they survive more', which Im guessing rather than referencing), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
+				- if there is an optimal 'sequence' like a possible sequence of coordinating sets like 'apoptosis-induction, angiogenesis inhibitor, metastasis inhibitors, and glucose/protein/input starvation, then senolytics/DNA repair once the tumor is definitely gone' which is optimal in order to avoid known errors (such as for example 'taking DNA repair compounds first, which might help cancer cells repair the most, so they survive more', which Im citing as a possible example of a possible interaction, rather than referencing known interactions), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
 				- there likely is an optimal sequence/set/network of compounds/processes for treating most cancer types/states in general (unless very different cancer types/states are relevant)
-
+				- a 'network' is useful for cases where a treatment is preferred but is a dead-end, as it cant be followed by more of it or additional/coordinating steps in the same direction (as its only usable up to a point such as bc resistance develops if its not effective after that point), after which other treatments should be tried (as in 'multiple overlapping sequences' and 'multiple directions such as reversing direction toward a dead-end')
 
 	- general treatment strategies
 
