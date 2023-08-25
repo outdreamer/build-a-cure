@@ -64,6 +64,10 @@ EXAMPLE OUTPUT AND ERRORS
 
     - tyrosine might also be implicated, which is a precursor to T3, which can influence cancer - given that T3 analogues like T2AA can inhibit PCNA's activity, tyrosine could be useful, but it might have the opposite effect, so Id avoid supplementing with that just in case
 
+    - how else could these substances have been found? the following pages had some of these substances (neuroprotective drugs, triggers of positive neural processes, articles about anxiolytic substances, citations/usages of an article about a key inflammatory variable):
+    	- https://www.science.gov/topicpages/a/acid-induced+microglial+activation
+    	- https://www.science.gov/topicpages/p/potential+neuroprotective+drugs.html
+    	- https://www.jci.org/articles/view/11830/citations
     - substances not tried: 
     	- I didnt try substances like various algaes which might be useful in treating cancer, or other anti-cancer substances not listed here
 
