@@ -476,6 +476,9 @@
 			- plastics in products often accompany other harmful substances like formaldehyde which is a carcinogen
 		- artificial sweeteners
 			- monk fruit and stevia and possibly xylitol might be the only safe artificial sweeteners other than natural sugars like honey
+		- emulsifiers 
+			- carboxymethylcellulose and polysorbate-80 are linked to colon cancer
+		- talc
 		- TCE (Trichloroethylene) - https://en.wikipedia.org/wiki/Trichloroethylene
 			- may still be used to separate some substances in food, like separating caffeine from coffee, also may be found in potato chips, processed meat, and other highly processed foods which may have had a reason to use a separating agent (such as separating grease from the food)
 		- https://en.wikipedia.org/wiki/Carcinogen
@@ -521,6 +524,36 @@
 
 	- inhibit matrix metalloproteinases
 		- propolis
+
+
+	- inhibit proteins that increase RAS signaling
+		- AURKA inhibitors
+			- AURKA is an effector protein downstream of KRAS that amplifies RAS signaling and greater KRAS-driven oncogenesis and is also involved in regulating cell division
+
+
+    - inhibition of cell cycle checkpoint proteins
+    	- WEE1 inhibitors
+    		- inhibit WEE1 to synergize with AURKA inhibition and induce cell death
+	    - PD1/PD-L1 inhibitors (immune checkpoint proteins)
+	    	- the interaction of PD-L1 on the tumor cells with PD-1 on a T-cell reduces T-cell function signals to prevent the immune system from attacking the tumor cells.[9] Use of an inhibitor that blocks the interaction of PD-L1 with the PD-1 receptor can prevent the cancer from evading the immune system in this way
+
+
+    - inhibit inhibitors of Fas protein (to activate Fas, which destroys cancer cells)
+    	- inhibit KRAS which inhibits Fas protein
+    		- KRAS G12D/G12C-mutations cause pancreatic/lung cancer
+    			- KRAS is one of the most frequently activated oncogenes in human cancers
+    			- mutant KRAS activates the expression of CD47, an antiphagocytic signal in cancer cells, leading to decreased phagocytosis of cancer cells by macrophages
+    			- Mechanistically, mutant KRAS activates PI3K-STAT3 signaling, which restrains miR-34a expression and relieves the post-transcriptional repression of miR-34a on CD47
+	    		- Genetic suppression of KRAS activated the Fas pathway, which is required for cancer cell death, and resulted in a greater number of T cells and fewer myeloid cells in the tumors
+    			- KRAS G12D inhibition induced expression of the Fas pathway, reversed early tumor growth, increased CD8+ T cell infiltration, decreased myeloid infiltration and reprogrammed the tumor microenvironment in both early- and late-stage tumors
+    			- However, while initially successful, the tumors eventually grew back
+				- elimination of established tumors was dependent upon the activation of CD8+ T cells
+				- If CD8+ T cells were suppressed, the tumors progressed despite treatment with MRTX1133
+				- Following this, the researchers found that combining various immune checkpoint inhibitors with MRTX1133 led to sustained tumor regression, enhanced cancer cell clearance and improved survival outcomes
+				- KRAS inhibition works, but monotherapy delivers only a transient response, especially when dealing with late-stage tumors
+			- treatments
+				- combination therapy using KRAS inhibitors and anti-CD47 antibodies (combining the KRAS(G12C) inhibitors AMG510/MRTX849 and PD1/PD-L1 inhibitors) are ongoing
+				- combining an investigational Aurora Kinase A (AURKA) inhibitor with a KRAS inhibitor or a WEE1 inhibitor showed efficacy against lung cancer cells with intrinsic or acquired resistance to KRAS inhibition
 
 
 	- prevent metastasis
@@ -677,8 +710,8 @@
 
 
 	- inhibit PAK1 and promote MMP7 expression
-		- inhibit DAAM2
-			- DAAM2 (Disheveled-associated activator of morphogenesis 2) promotes invasion of colorectal cancer by activating PAK1 and promoting MMP7 expression so inhibiting DAAM2 could be useful, which is also useful for fixing related processes like demyelination
+		- phosphorylating DAAM2 with CK2α kinase to inhibit DAAM2's activity to inhibit myelination
+			- DAAM2 (Disheveled-associated activator of morphogenesis 2) promotes invasion of colorectal cancer by activating PAK1 and promoting MMP7 expression so inhibiting DAAM2/PAK1/MMP7 could be useful targets
 				- https://medicalxpress.com/news/2023-08-pathway-regenerate-myelin.html
 
 
