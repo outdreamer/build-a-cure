@@ -676,6 +676,12 @@
 			- fisetin
 
 
+	- inhibit PAK1 and promote MMP7 expression
+		- inhibit DAAM2
+			- DAAM2 (Disheveled-associated activator of morphogenesis 2) promotes invasion of colorectal cancer by activating PAK1 and promoting MMP7 expression so inhibiting DAAM2 could be useful, which is also useful for fixing related processes like demyelination
+				- https://medicalxpress.com/news/2023-08-pathway-regenerate-myelin.html
+
+
 	- increase antioxidants 
 		- vitamin C
 		- alpha lipoic acid
