@@ -3,7 +3,7 @@
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
-			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
+			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, polyglutamylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
 		- cancer variables
 			- surface proteins/sugars
 			- sirtuins
@@ -282,6 +282,8 @@
 			- binds to and hinders the activity of a protein called TRPV2, which is overexpressed in glioblastoma in a way that appears to drive cancer progression
 			- piperlongumine treatment radically shrank glioblastoma tumors and extended life and also selectively destroyed glioblastoma cells
 			- piperlongumine acts as an inhibitor (channel closer) of a type of TRP ion channel called TRPV2
+			- attenuates high calcium/phosphate-induced vascular calcification by upregulating P53/PTEN signaling in vascular smooth muscle cells
+			- piperlongumine has strong antioxidant activity which helps counter the free radical damage that’s responsible for aging-related diseases
 			- https://pubs.acs.org/doi/10.1021/acscentsci.1c00070
 		- chicory 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
@@ -479,6 +481,8 @@
 		- emulsifiers 
 			- carboxymethylcellulose and polysorbate-80 are linked to colon cancer
 		- talc
+		- aflatoxins
+			- aflatoxins are a toxin found in moldy peanuts or grains, which are associated with higher rates of liver cancer
 		- TCE (Trichloroethylene) - https://en.wikipedia.org/wiki/Trichloroethylene
 			- may still be used to separate some substances in food, like separating caffeine from coffee, also may be found in potato chips, processed meat, and other highly processed foods which may have had a reason to use a separating agent (such as separating grease from the food)
 		- https://en.wikipedia.org/wiki/Carcinogen
@@ -514,6 +518,16 @@
 			- estrogen suppresses the immune response and protects tumors
 
 	
+	- improve organ function
+		- improve liver function
+			- increase microRNA MiR-22
+				- miR-22 acts like a brake, stopping the production of certain proteins, including cyclin A, protein deacetylases and hypoxia-inducible factor, that can fuel liver cancer growth
+				- metabolites produced by the gut microbiome (retinoic acid, short-chain fatty acids, bile acids and vitamin D3) help create miR-22 and have anti-cancer benefits
+				- MiR-22 and lenvatinib reduced serum alanine transaminase (ALT), aspartate aminotransferase (AST), and cholesterol levels, indicating improved liver function
+				- miR-22 therapy could provide better survival outcomes, enhance anti-tumor immunity, improve metabolism and reduce inflammation in liver cancer
+				- https://medicalxpress.com/news/2023-08-gene-therapy-potential-treatment-liver.html
+
+
 	- trigger cell-cycle arrest
 		- propolis
 
@@ -554,6 +568,7 @@
 			- treatments
 				- combination therapy using KRAS inhibitors and anti-CD47 antibodies (combining the KRAS(G12C) inhibitors AMG510/MRTX849 and PD1/PD-L1 inhibitors) are ongoing
 				- combining an investigational Aurora Kinase A (AURKA) inhibitor with a KRAS inhibitor or a WEE1 inhibitor showed efficacy against lung cancer cells with intrinsic or acquired resistance to KRAS inhibition
+			- https://medicalxpress.com/news/2021-10-inhibition-aurora-kinase-protein-lung.html
 
 
 	- prevent metastasis
@@ -690,11 +705,32 @@
 		- turmeric
 
 
+	- inhibit aneuploidy
+		- when cell division goes wrong, it can lead to the creation of new cells with an abnormal number of chromosomes, a phenomenon known as aneuploidy, which is found in some tumors
+
+
+	- increase enzymes that regulate cell division
+		- increase TTLL11
+			- tubulin tyrosine ligase like 11 (TTLL11) is an enzyme that specifically modifies the spindle microtubules by adding glutamate chains to the surface of the microtubule (polyglutamylation), which defines the dynamism and stability of the spindle microtubules, which in turn protects against chromosome segregation errors (chromosomal instability)
+			- without TTLL11, cells were much more likely to undergo chromosome segregation errors
+			- Microtubules need to establish stable connections with the chromosomes to align them and pull them apart, but these connections also need to be flexible enough to be corrected on time to avoid any errors during segregation. 
+			- Microtubules in cancer cells have low levels of TTLL11, making them too stable, thereby favoring the segregation of chromosomes in the presence of attachment errors that will result in aneuploid cells
+			- https://phys.org/news/2022-11-cell-division-enzyme-earmarked-potential.html
+
+
+	- prevent mutations that can cause cancer in higher amounts
+		- hematopoietic stem cells that reside in the bone marrow and give rise to all of the body's different blood cells gradually acquire mutations in their DNA
+		- Most of these mutations have no effect, but some can enhance a particular stem cell's ability to survive and proliferate, resulting in large numbers of blood cells that carry the same mutation
+		- prevent aging-related mutations with substances like senolytics
+		- prevent specific mutations like Dnmt3a mutations which can cause clonal hematopoiesis (repeated mutation in blood cells leading to cancer)
+		- https://medicalxpress.com/news/2023-08-scientists-mutations-blood-stem-cells.html
+
+
     - inhibit STING pathway, associated with a negative immune response
     	- STING1 gene makes a protein called STING that activates an inflammatory response when it detects foreign DNA molecules in the cytoplasm
    		- STING pathway triggers a strong inflammatory response that protects the body from foreign and unhealthy cells. But prolonged activation of the same pathway leads to a desensitization and ultimately to a "rewiring" of cellular signaling, which aids and abets cancer's spread, the researchers found.
 		- long-term activation of the STING pathway leads to changes in cellular signaling that attracts cells that suppress the immune response to the area in and around the tumor
-		- chromosomal instability is an important driver of cancer's ability to spread
+		- chromosomal instability (frequency at which chromosome segregation errors occur) is an important driver of cancer's ability to spread
 		- cooperation between cancer cells with chromosomal instability and immune cells is driven by STING
 		- treating a fibroblast with a STING agonist creates a strong initial immune response, after which the cells become desensitized to this pro-inflammatory pathway very quickly, and started to signal stress response pathways that dampened the immune response, thus having the opposite effect
 		- low chromosomal instability or where STING had been depleted from cancer cells, they trigger a different response - a strong immune response that attacked the cancer cells
