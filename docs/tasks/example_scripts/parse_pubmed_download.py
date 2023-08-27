@@ -446,6 +446,8 @@ open(f"{output_dir}/similar_alt_treatments_to_{treatments_to_compare_name}_{file
 open(f"{output_dir}/not_used_similar_alt_treatments_to_{treatments_to_compare_name}_{filename}.txt", 'w').write('\n'.join([item for item in not_used_alt_treatments]))
 
 
+# to do: find common words like interleukins, kinase, resistance, stress, caspase, assay, substrate, etc and create counts of common words that are ir/relevant
+# also find common strings like 'meth' which are related to important processes like 'methylation', similarly 'nib/mab' related to a class of drugs, 'oma' related to types of cancer
 print('\nscript time', str((time.time() - script_start_time)/ 7) + ' minutes')
 
 

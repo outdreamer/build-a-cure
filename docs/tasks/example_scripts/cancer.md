@@ -492,6 +492,8 @@
 			- 1,3-Butadiene 
 			- Diethylstilbestrol
 			- Arsenic/Asbestos
+				- Rice contains arsenic in varying amounts
+					- http://www.wired.com/wiredscience/2013/09/fda-arsenic-and-rice/
 			- Ionizing radiation/Ultraviolet light/Infrared light
 			- air pollutants	
 				- wear a Sundstrom mask (or use an activated carbon filter in your own mask) wherever possible, especially under chemtrails, around airports, in high ozone/pollution areas, when not in a room with good air filters
@@ -1039,6 +1041,27 @@
 				- degrades vimentin
 					- caspase-dependent degradation of vimentin by withaferin A was observed
 		- inhibit PCNA
+			- oleanolic acid (olive oil, holy basil)
+				- inhibited prostate cell proliferation by downregulating the expression of proliferating cell nuclear antigen (PCNA) and cell cycle markers
+				- https://pubmed.ncbi.nlm.nih.gov/32191471/
+			- GTSE1, CDC20, PCNA, and MCM6 Synergistically Affect Regulations in Cell Cycle
+				- https://pubmed.ncbi.nlm.nih.gov/32082966/
+			- Exogenous glutathione protects against gentamicin-induced acute kidney injury by inhibiting NF-κB pathway, oxidative stress, and apoptosis and regulating PCNA
+				- https://pubmed.ncbi.nlm.nih.gov/35266424/
+				- downregulating Bax and caspase-3 and upregulating Bcl2
+				- decreased GM-induced inflammatory response as reflected by a remarkable decrease in the protein expressions of NF-κB-p65, IL-6, TNF-α, and iNOS and a considerable diminish in myeloperoxidase activity
+			- Methyl jasmonate treatment 
+				- significantly decreased both protein and RNA levels of EZH2, β-catenin, COL1A1, FN, CCND1, PCNA, WISP1, and PITX2
+				- increased the protein levels of p21, BAX, cytochrome, c and cleaved caspase 3 compared with untreated HuLM
+				- Methyl jasmonate-treated cells exhibited down-regulation in the RNA expression of 36 genes, including CTNNB1, CCND1, Wnt5A, Wnt5B, and Wnt9A, and up-regulation in the expression of 34 genes, including Wnt antagonist genes WIF1, PRICKlE1, and DKK1
+				- https://pubmed.ncbi.nlm.nih.gov/37182601/
+			- Phosphorylation of proliferating cell nuclear antigen promotes cancer progression by activating the ATM/Akt/GSK3β/Snail signaling pathway
+				- https://pubmed.ncbi.nlm.nih.gov/30858175/
+			- inhibit FBXO43 gene which interacts with PCNA
+				- Downregulation of the FBXO43 gene inhibits tumor growth in human breast cancer by limiting its interaction with PCNA
+				- https://pubmed.ncbi.nlm.nih.gov/34645483/
+			- solanine (a poisonous compound found in some potatoes) downregulates PCNA
+				- https://pubmed.ncbi.nlm.nih.gov/33805658/
 			- inhibit bacterial/eukaryal DNA clamps
 				- Inhibitors of bacterial (β-clamp) and eukaryal DNA clamps can also inhibit proliferating cell nuclear antigen (PCNA) (B clamps and PCNA are structurally similar)
 				- https://www.frontiersin.org/articles/10.3389/fmolb.2018.00087/full#:~:text=Inhibitors%20of%20bacterial%20%28β-clamp%29%20and%20eukaryal%20DNA%20clamps%2C,inhibitors%2C%20natural%20products%2C%20and%20modified%20non-steroidal%20anti-inflammatory%20drugs.
