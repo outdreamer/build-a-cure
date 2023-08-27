@@ -85,6 +85,8 @@
 				- there likely is an optimal sequence/set/network of compounds/processes for treating most cancer types/states in general (unless very different cancer types/states are relevant)
 				- a 'network' is useful for cases where a treatment is preferred but is a dead-end, as it cant be followed by more of it or additional/coordinating steps in the same direction (as its only usable up to a point such as bc resistance develops if its not effective after that point), after which other treatments should be tried (as in 'multiple overlapping sequences' and 'multiple directions such as reversing direction toward a dead-end')
 				- this is in contrast to an option like 'trying/cycling all medicines randomly' which can have contrary effects and could help cancer instead of host cells
+				- as another example, 'adding a PCNA inhibitor/downregulator' might be a good general rule to apply (except in contraindicated cases)
+					- examples include olive oil, ashwagandha, short chain fatty acids, green tea, holy basil, thyme, d-limonene, atorvastatin/simvastatin
 
 
 	- general treatment strategies
@@ -343,8 +345,11 @@
 					- when mRNA genes UBE2L3 and CYP1A1 are over-expressed or activated, HPV activity is suppressed
 					- when IFN-β is suppressed, HPV activity is suppressed
 				- suppressors
+					- curcumin
+						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9319031/
 					- withaferin A
 						- suppresses oncoproteins E6/E7
+						- Withaferin A also reduces NF-κB pathways, p-glycoprotein and expression of HPV oncoproteins thereby mediating p53 and pRb associated apoptosis
 					- AHCC
 						- suppression of the IFN-β level to less than 20 pg/ml correlated with clearance of HPV infections
 						- https://pubmed.ncbi.nlm.nih.gov/35814366/
@@ -455,6 +460,10 @@
 
 
 	- avoiding known carcinogens
+		- some anti-cancer substances can cause cancer in some cases
+			- turmeric - 'Cancer Induction'
+				- curcumin might act as a prooxidant to induce tumor progression in the hyperoxia environment
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9319031/
 		- regulations currently allow many poisonous substances in products and on shelves, so buy as few unnecessary products as possible
 		- toxicities
 			- avoid toxicities such as overdoses of lipid-soluble vitamins like vitamin A which is involved in T-cells/immunity/cancer (avoid over-using supplements or retinol or other substances that you dont know all the effects of)
@@ -815,6 +824,9 @@
 			- Procyanidin C1 (PCC1)
 				- a B type proanthocyanidin and an epicatechin (type of antioxidant) trimer found in grape seed, unripe apples, and cinnamon
 				- causes DNA damage, cell cycle arrest and induces apoptosis
+			- inhibit/increase other factors in apoptosis and proliferation
+				- p21
+				- cyclin D1
 			- increase Survivin
 				- CRISPR knockout of BIRC5 (gene which encodes survivin protein)
 				- Survivin is a member of the inhibitor of apoptosis (IAP) family
@@ -1041,6 +1053,37 @@
 				- degrades vimentin
 					- caspase-dependent degradation of vimentin by withaferin A was observed
 		- inhibit PCNA
+			- d-limonene
+				- D-lim suppressed mitochondrial apoptosis by considerably downregulating Bax and caspase-3 (Casp-3) mRNA and protein expressions and markedly enhancing Bcl2 mRNA and protein expressions
+				- D-lim significantly decreases GM-induced inflammatory response through downregulation of NF-κB, IL-6, and TNF-α mRNA and/or protein expressions and decrease in renal myeloperoxidase activity
+				- D-lim remarkably downregulated PCNA protein expression
+				- https://pubmed.ncbi.nlm.nih.gov/33510839/
+			- simvastatin/atorvastatin
+				- Simvastatin and atorvastatin downregulate the expression of PCNA
+				- https://pubmed.ncbi.nlm.nih.gov/12045173/
+				- https://pubmed.ncbi.nlm.nih.gov/23941653/
+			- EGCG (green tea)
+				- epigallocatechin-3-gallate (EGCG) normalizes the PCNA level
+				- EGCG induces p21
+				- PCNA's activity can be regulated by the cyclin-dependent kinase inhibitor p21, which is also important for epithelial cell differentiation. In turn, expression of p21 and PCNA are partially regulated by Rb phosphorylation levels. EGCG was found to modulate p21 expression in epithelial cells, suggesting that EGCG-induced p21 could be associated with down-regulation of PCNA
+			- thymol (thyme) inhibits PCNA expression
+				- https://pubmed.ncbi.nlm.nih.gov/37417222/
+			- puerarin (kudzu, Pueraria lobata, Japanese/Chinese arrowroot)
+				- inhibited VSMCs proliferation induced by ox-LDL and phosphorylation of ERK 1/2. Furthermore, puerarin also blocked the ox-LDL-induced cell-cycle progression at G1/S-interphase and down-regulated the expression of PCNA of VSMCs, which suggests that puerarin inhibits ox-LDL-induced proliferation of VSMCs by suppressing ERK 1/2 phosphorylation and PCNA expression
+				- contraindicated when used in combination with tamoxifen and in hormone-sensitive cancer
+				- https://pubmed.ncbi.nlm.nih.gov/27004373/
+			- withaferin A (ashwaganda)
+				- Inhibits PCNA and CD31, enhances apoptosis
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8705790/
+			- SCFAs downregulate PCNA, cyclin D3, CDK1 and CDK2, and stimulate p21 expression via GPR43-dependent mechanisms
+				- Short-chain fatty acids (SCFAs) are fermented from dietary fibres by the gut microbiota
+				- The three most common SCFAs are acetate (C2), propionate (C3), and butyrate (C4)
+				- https://www.nature.com/articles/s41416-022-01980-7
+			- Ginsenoside Rg3 Combined with Oxaliplatin Inhibits the Proliferation and Promotes Apoptosis of Hepatocellular Carcinoma Cells via Downregulating PCNA and Cyclin D1
+				- https://pubmed.ncbi.nlm.nih.gov/30930425/
+			- nanomicelle curcumin
+				- NMCM significantly (P<0.05) diminished the Bcl-2, p53 and PCNA and enhanced the Bax and caspase-3 mRNA levels
+				- https://pubmed.ncbi.nlm.nih.gov/28385400/
 			- oleanolic acid (olive oil, holy basil)
 				- inhibited prostate cell proliferation by downregulating the expression of proliferating cell nuclear antigen (PCNA) and cell cycle markers
 				- https://pubmed.ncbi.nlm.nih.gov/32191471/
@@ -1050,7 +1093,7 @@
 				- https://pubmed.ncbi.nlm.nih.gov/35266424/
 				- downregulating Bax and caspase-3 and upregulating Bcl2
 				- decreased GM-induced inflammatory response as reflected by a remarkable decrease in the protein expressions of NF-κB-p65, IL-6, TNF-α, and iNOS and a considerable diminish in myeloperoxidase activity
-			- Methyl jasmonate treatment 
+			- Methyl jasmonate 
 				- significantly decreased both protein and RNA levels of EZH2, β-catenin, COL1A1, FN, CCND1, PCNA, WISP1, and PITX2
 				- increased the protein levels of p21, BAX, cytochrome, c and cleaved caspase 3 compared with untreated HuLM
 				- Methyl jasmonate-treated cells exhibited down-regulation in the RNA expression of 36 genes, including CTNNB1, CCND1, Wnt5A, Wnt5B, and Wnt9A, and up-regulation in the expression of 34 genes, including Wnt antagonist genes WIF1, PRICKlE1, and DKK1
