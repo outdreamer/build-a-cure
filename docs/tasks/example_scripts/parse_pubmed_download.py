@@ -270,7 +270,7 @@ def extract_entities_from_abstract_and_keywords(abstracts, keywords):
 	irrelevant_strings = ['university', 'center', 'institute', 'association', 'foundation', 'hospital', 'college']
 	exact_number_words = ['age', 'less', 'one']
 	# to do: fix misclassified terms: dystussia/langerhans as not a medical term, alphasynuclein/thioflavin/monocarboxylate/corticosteroid as already lemmatized, '81 to 100' as not just nonletters
-	not_possible_treatments = {'not_medical_term': set(), 'already_lemmatized': set(), 'just_nonletters': set()}
+	not_possible_treatments = {'not_medical_term': set(), 'already_lemmatized': set(), 'just_nonletters': set(), 'irrelevant_strings': set()}
 	# deduplicate entities by creating one list of entities from a document composed of all abstracts and keywords
 	abstracts.append(' '.join(set(keywords)))
 
@@ -354,8 +354,8 @@ parser.add_argument('-t', '--terms_to_exclude', required=False, help="(Optional)
 args = parser.parse_args()
 print('\ncondition:', args.condition, 'known_treatments:', args.known_treatments, 'terms_to_exclude:', args.terms_to_exclude)
 condition = args.condition
-known_treatments = [item.strip() for item in args.known_treatments.split(',')] if args.known_treatments.strip() != '' else []
-terms_to_exclude = condition.split(' ') if condition is not None and condition != '' else [item.strip() for item in args.terms_to_exclude] if args.terms_to_exclude.strip() != '' else []
+known_treatments = [item.strip() for item in args.known_treatments.split(',')] if args.known_treatments and args.known_treatments.strip() != '' else []
+terms_to_exclude = condition.split(' ') if condition is not None and condition != '' else [item.strip() for item in args.terms_to_exclude] if args.terms_to_exclude and args.terms_to_exclude.strip() != '' else []
 
 # **************************************************************************************** #
 
