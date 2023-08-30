@@ -1151,6 +1151,16 @@
 			- atorvastatin
 
 
+	- suppress factors that are upregulated in cancer
+		- suppress expression of mitochondrial transcription factor A (TFAM)
+			- kencur (Kaempferia galanga)
+				- main component of KGE is ethyl p-methoxycinnamate (EMC)
+				- EMC suppressed cancer cell proliferation by inducing downregulation of cyclin D1 and upregulation of p21
+				- EMC decreased the expression of mitochondrial transcription factor A (TFAM) but did not significantly change mitochondrial DNA copy number and membrane potential
+				- Phosphorylation at Ser62 of c-Myc, a transcription factor of TFAM, was decreased by EMC treatment, which might be due to the suppression of H-ras expression
+				- https://www.omu.ac.jp/en/info/research-news/entry-34125.html
+
+
 	- increase/decrease methylation depending on the gene
 		- reduce DNA methylation of tumor suppressor genes
 		- increase methylation of oncogenes (DNA methyltransferases, DNMT)
@@ -1171,6 +1181,8 @@
 
 
 	- inhibit oncogenes/oncoproteins
+		- MCM8 or MCM9 
+			- MCM8/MCM9 mutations can cause cancer
 		- MET (oncogene)
 			- Hepatocyte growth factor receptor (HGF receptor) is a protein that in humans is encoded by the MET gene
 			- The protein possesses tyrosine kinase activity
