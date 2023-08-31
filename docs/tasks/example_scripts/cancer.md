@@ -507,6 +507,24 @@
 			- air pollutants	
 				- wear a Sundstrom mask (or use an activated carbon filter in your own mask) wherever possible, especially under chemtrails, around airports, in high ozone/pollution areas, when not in a room with good air filters
 				- use air scrubbers to filter your air or air filters which filter most pollutants out
+				- specific mechanisms of carcinogenic air pollution particles
+		    		- carcinogenic compounds in air pollution include: carbon black, ozone, iron-rich nanoparticles (such as iron oxide), magnetite, maghemite, aluminium and titanium
+		    		- 'Ventricular oxidative stress, as indicated by PrPC and GRP78 up-regulation'
+		    			- https://www.sciencedirect.com/science/article/pii/S0013935120307118
+		    		- Proposed mechanisms by which PM2.5 may lead to cancer mortality are similar to those that induce or promote the original cancer, including genotoxic and epigenetic alterations, inflammation, xenogeneic effects or hormone dysregulation, or by reducing the immune system’s ability to fight the cancer
+		    			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8170704/
+		    			- polycyclic aromatic hydrocarbons (PAH), a common air pollutant and a mammary carcinogen, have been shown to cause DNA damage and to contribute to the high incidence and poor prognosis of cancer patient
+		    			- air pollutants may contain an environmental oxidative stressor, which could trigger redox-sensitive pathways to induce cell death and other biological processes, such as inflammation
+		    			- increases in the concentration of reactive oxygen species
+		    			- PM demonstrate both estrogenic and anti-estrogenic effects in vitro, which is in line with the biological characteristics of xenoestrogens
+		    			- PM2.5 can induce oxidative stress, inflammation, genotoxicity, and accelerate liver inflammation and steatosis
+		    			- increased levels of lipid peroxidation in various organs including heart, liver, lungs, and testicles indicating that airborne PM2.5 acts as a systemic toxin
+		    			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4112066/
+		    				- carbon black (CB) nanoparticle instillation caused pulmonary inflammation and genotoxicity in liver and lungs
+		    				- diesel exhaust particles DEP induced tissue damage through oxidative stress including the generation of reactive oxygen species by a non-enzymatic process or by cytochrome P-450 catabolic enzymatic reactions
+		    			- AHCC can bind to TLR4 to activate it, turmeric/sulforaphane can downregulate TLR4
+			    			- PM exposure induced interleukin-6 (IL-6) secretion from isolated Kupffer cells in a concentration-dependent manner and this effect was reduced if Toll-like receptor 4 (TLR4) was absent, indicating that PM acts like a TLR4 ligand
+			    			- CB nanoparticle exposure activated caspase 1, increased interleukin-1β (IL-1β) production, and induced pyroptosis, an inflammasome-dependent form of cell death through TLR4 stimulation
 			- silica/VOCs like formaldehyde
 				- avoid fragrances, and other substances where its difficult to determine the ingredients, and especially paint, which has carcinogens like silica and VOCs like formaldehyde in it
 			- tobacco smoke
@@ -1034,6 +1052,14 @@
 				- NAC/glutathione - Thiol antioxidants inhibit the formation of the interleukin-12
 				- aluminium hydroxide, aluminium phosphate, and calcium phosphate adjuvants inhibit the secretion of the Th1 polarizing cytokine, IL-12
 				- vitamin d decreases IL-12
+
+
+    - inhibit TLR4 (a receptor in an inflammatory signaling pathway)
+    	- sulforaphane
+    		- https://pubmed.ncbi.nlm.nih.gov/19949083/
+    	    - relatedly, NAC reversed these effects of sulforaphane
+    	- curcumin
+    		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7177421/
 
 
    	- inhibits tumor markers that can be causes of cancer (vimentin/PCNA)
