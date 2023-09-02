@@ -91,10 +91,15 @@
 
 	- general treatment strategies
 
+		- ketogenic diet
+			- Foods that are beneficial for glioblastoma patients include ketogenic foods such as coconut oil, cheese
+    			- Plenty of vegetables such as broccoli, asparagus, cucumber should also be consumed
+    			- Processed foods and drinks high in sugar such as sodas should be avoided
+
 		- for patients with organ damage, a subset and sequence of strategies are useful
-			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, emodin, baicalin, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
-			- using less damaging anti-cancer substances in small doses (citicoline, luteolin, astragalus, short-chain fatty acids from resistant starch/inulin/pectin/Fructooligosaccharides, lactoferrin, sulforaphane, fisetin, quercetin, etc) during initial reduction phase
-			- glucose and methionine/cysteine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
+			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, quercetin, emodin, caveolin, parsley, baicalin, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
+			- using less damaging anti-cancer substances in small doses (citicoline, luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
+			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
 			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
 
 		- for people with hormone-sensitive cancers, some substances are contraindicated
@@ -241,7 +246,7 @@
 
 
 	- anti-cancer substances relating to protein kinase targets
-		- impact of substances like honokiol, luteolin, EGCG, curcumin, apigenin, balanol, wedelolactone, berberine, resveratrol, chrysoeriol, ellalgic acid, brevilin, amorfruitin, cantharidin, cyanidin, parthenolide, silibinin, coumestrol, pedalitin, nakijiquinone, hematoxylin on proteins relating to cancer
+		- impact of substances like honokiol, luteolin, EGCG, curcumin, apigenin, balanol, wedelolactone, berberine, resveratrol, chrysoeriol, ellagic acid, brevilin, amorfruitin, cantharidin, cyanidin, parthenolide, silibinin, coumestrol, pedalitin, nakijiquinone, hematoxylin on proteins relating to cancer
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/figure/biomolecules-10-01546-f001/
 
 
