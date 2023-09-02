@@ -93,9 +93,15 @@
 
 		- for patients with organ damage, a subset and sequence of strategies are useful
 			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, emodin, baicalin, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
-			- using less damaging anti-cancer substances in small doses (citicoline, luteolin, short-chain fatty acids from resistant starch/inulin/pectin/Fructooligosaccharides, lactoferrin, sulforaphane, fisetin, quercetin, etc) during initial reduction phase
-			- glucose and methionine/cysteine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil or a water fast for calories to reduce tumors in initial reduction phase)
+			- using less damaging anti-cancer substances in small doses (citicoline, luteolin, astragalus, short-chain fatty acids from resistant starch/inulin/pectin/Fructooligosaccharides, lactoferrin, sulforaphane, fisetin, quercetin, etc) during initial reduction phase
+			- glucose and methionine/cysteine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
 			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
+
+		- for people with hormone-sensitive cancers, some substances are contraindicated
+			- ginseng, soy
+
+		- for people with autoimmune disease, some substances are contraindicated
+			- astragalus
 
 		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
 			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
@@ -1302,6 +1308,17 @@
 			- PCYT1A (Choline)
 			- LDHA (Lactate)
 		- receptor tyrosine kinases (VEGF, epidermal growth factor receptor (EGFR))
+			- EGFR inhibitors
+				- resveratrol
+				- honokiol
+				- astragaloside
+				- gallic acid (tea)
+				- ginsenoside
+				- oridonin (Isodon rubescens)
+				- curcumin
+				- oximatrine (Sophora flavescens)
+				- tetrandine (Stephania tetrandra)
+				- quercetin
 		- growth factors (c-Sis)
 			- transforming growth factor-β (TGF-β)
 			- Platelet-derived growth factor (PDGF)
