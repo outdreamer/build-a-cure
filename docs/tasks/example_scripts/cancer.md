@@ -3,7 +3,7 @@
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
-			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, mutation, activation, oxidation, polyglutamylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation
+			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, activation, oxidation, polyglutamylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation, gene activation/mutations/amplifications/overexpressions/loss of heterozygosity
 		- cancer variables
 			- surface proteins/sugars
 			- sirtuins
@@ -91,13 +91,19 @@
 
 	- general treatment strategies
 
+		- for patients with organ damage, a subset and sequence of strategies are useful
+			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, emodin, baicalin, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
+			- using less damaging anti-cancer substances in small doses (citicoline, luteolin, short-chain fatty acids from resistant starch/inulin/pectin/Fructooligosaccharides, lactoferrin, sulforaphane, fisetin, quercetin, etc) during initial reduction phase
+			- glucose and methionine/cysteine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil or a water fast for calories to reduce tumors in initial reduction phase)
+			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
+
 		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
 			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
 			- celastrol is also highly/broadly active against some cancerous processes, but has some nontrivial negative side effects
 			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
-			- intake of vitamin C and β-carotene and α-tocopherol can reduce the risk of brain tumors
+			- intake of vitamin C and β-carotene and α-tocopherol can reduce the risk of brain tumors, but can also help cancer cells grow in some cases
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372437/
-			- higher intake of magnesium/vitamin b12/b6/phosphorus/iron are associated with higher rates of specific cancers, folate/Vitamin A/C/E are associated with lower rates of specific cancers
+			- higher intake of magnesium/vitamin b12/b6/phosphorus/iron are associated with higher rates of specific cancers, folate/Vitamin A/C/E are associated with lower rates of specific cancers, but can also help cancer cells grow in some cases
 				- https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-03018-y#Fig2
 			- avoiding methionine/cysteine/glutathione/folate/niacin during tumor reduction is similarly important, as they have multiple mechanisms of helping cancer grow
 
@@ -228,10 +234,18 @@
 			PTCH		Hedgehog signaling														No 					Medulloblastoma, Basal Cell Carcinoma	
 
 
+	- anti-cancer substances relating to protein kinase targets
+		- impact of substances like honokiol, luteolin, EGCG, curcumin, apigenin, balanol, wedelolactone, berberine, resveratrol, chrysoeriol, ellalgic acid, brevilin, amorfruitin, cantharidin, cyanidin, parthenolide, silibinin, coumestrol, pedalitin, nakijiquinone, hematoxylin on proteins relating to cancer
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/figure/biomolecules-10-01546-f001/
+
 
 - inhibit/avoid/reduce carcinogenic structures
 
 	- compounds with multiple functions, including induction of apoptosis
+		- luteolin
+			- found in celery, broccoli, artichoke, green pepper, parsley, thyme, dandelion, perilla, chamomile tea, carrots, olive oil, peppermint, rosemary, navel oranges, and oregano
+			- kills various cancer cell types
+			- activates of the AMPK/mTOR autophagy pathway
 		- caveolin
 			- angiogenesis, tumor suppression/progression, binds with tyrosine kinases
 		- EGCG from green tea
@@ -826,6 +840,16 @@
 
 
 	- induce apoptosis
+		- herb/food compounds which induce apoptosis
+			- emodin (buckthorn, Japanese knotweed)
+			- honokiol (magnolia)
+			- Quercetin (most fruits)
+			- Isorhamnetin (yellow or red onions, pears, olive oil, wine and tomato sauce)
+				- inhibited various pro-inflammatory cytokines to suppress cancer-inducing inflammation. Additionally, it regulated Akt and MAPKs to suppress Nrf2 signaling. Isorhamnetin activated PPAR-γ and autophagy while suppressing cell cycle progression
+			- Baicalin (Chinese skullcap)
+			- EGCG (green tea)
+			- Genistein (soy)
+			- Resveratrol (grapes)
 		- activates Bax
 			- JNK activates p53 and p53 activates Bax which initiates apoptosis
 		- induce apoptosis, grouped by inhibitory/activation function :: associated compounds with that function
@@ -947,6 +971,9 @@
 			- Agaricus subrufescens mushrooms (contain the inhibitors sodium pyroglutamate and ergosterol).	
 		- inhibiting chymotrypsin to inhibit angiogenesis
 			- withaferin A 
+		- other herb/food compounds that inhibit angiogenesis
+			- Auriculasin
+			- EGCG
 
 
 	- induce/activate/promote DNA repair (associated substances that help with DNA repair)
@@ -995,10 +1022,7 @@
 		- silymarin (milk thistle)
 			- https://pubmed.ncbi.nlm.nih.gov/34611448/
 			- Silibinin also has a number of potential mechanisms that could benefit the skin. These include chemoprotective effects from environmental toxins, anti-inflammatory effects, protection from UV induced photocarcinogenesis, protection from sunburn, protection from UVB-induced epidermal hyperplasia, and DNA repair for UV induced DNA damage (double strand breaks)
-		- MGMT
-			- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents. 
-			- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
-			- Pharmacological or genetic inhibition of Wnt activity downregulates MGMT expression and restores chemosensitivity of DNA-alkylating drugs
+
 
     - inhibit topoisomerase	
     	- inhibiting topoisomerase may turn out to be a carcinogenic activity or an anti-cancer activity
@@ -1104,7 +1128,9 @@
 			- SCFAs downregulate PCNA, cyclin D3, CDK1 and CDK2, and stimulate p21 expression via GPR43-dependent mechanisms
 				- Short-chain fatty acids (SCFAs) are fermented from dietary fibres by the gut microbiota
 				- The three most common SCFAs are acetate (C2), propionate (C3), and butyrate (C4)
+				- SCFA function epigenetically by inhibiting selected histone acetyltransferases that alter the expression of multiple genes and the activity of many signaling pathways (e.g., Wnt, Hedgehog, Hippo, and Notch) that contribute to the pathogenesis of cancer. SCFAs block cancer stem cell proliferation, thereby potentially delaying or inhibiting cancer development or relapse by targeting genes and pathways that are mutated in tumors (e.g., epidermal growth factor receptor, hepatocyte growth factor, and MET) and by promoting the expression of tumor suppressors (e.g., by up-regulating PTEN and p53)
 				- https://www.nature.com/articles/s41416-022-01980-7
+				- https://link.springer.com/article/10.1007/s10555-023-10117-y
 			- Ginsenoside Rg3 Combined with Oxaliplatin Inhibits the Proliferation and Promotes Apoptosis of Hepatocellular Carcinoma Cells via Downregulating PCNA and Cyclin D1
 				- https://pubmed.ncbi.nlm.nih.gov/30930425/
 			- nanomicelle curcumin
@@ -1470,6 +1496,8 @@
 		- inhibit inflammatory genes/cytokines (NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6)
 
 	- inhibit pathways
+		- graph of some relevant pathways
+			- https://en.wikipedia.org/wiki/Adenomatous_polyposis_coli#/media/File:Signal_transduction_pathways.svg
         - inhibit inflammatory pathways
 		- signaling pathways
 			- MAPK/ERK pathway (also known as the Ras-Raf-MEK-ERK pathway)	
@@ -1536,7 +1564,17 @@
 			- Wnt inhibitors and temozolomide (TMZ), tested as inhibitors of MGMT
 				- TMZ:Celecoxib, TMZ:G007-LK, TMZ:LGK974, TMZ:Wnt-C59, TMZ:Salinomycin and TMZ:XAV-939
 				- https://www.nature.com/articles/ncomms9904
+				- non-specific Wnt signalling inhibitor celecoxib
+				- the Porcupine inhibitors Wnt-C59 and LGK974
+				- salinomycin, which inhibits signalling by blocking phosphorylation of the Wnt co-receptor lipoprotein receptor-related protein 6
+				- Except for tankyrase/Axin 1 inhibitors (XAV-939 and G007-LK), all Wnt inhibitors augmented the cytotoxic effects of temozolomide
+				- Celecoxib was the most profound compound inducing either an additive or synergistic effect on cell cytotoxicity in combination with temozolomide
+			- upregulating APC can downregulate B-catenin
 			- triggered by EBV to trigger cancer
+		- MGMT
+			- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents
+			- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
+			- Pharmacological or genetic inhibition of Wnt activity downregulates MGMT expression and restores chemosensitivity of DNA-alkylating drugs
 		- Bcl-2/Bax-caspase 9/3
 			- bcl family proteins are inhibited by celastrol, withaferin, fisetin, quercetin, Navitoclax
 		- ROS/JNK
@@ -1544,6 +1582,17 @@
 		- signal transducer and transcription activator (STAT)
 			- STAT3
 				- inhibited by celastrol
+		- TEM8 inhibition
+			- Tumor cells require nutrients to survive, and without them, they would normally die. However, tumor support cells use TEM8 to consume and break down collagen into glutamine to feed nearby tumor cells, allowing them to thrive even without a secure supply of nutrients
+			- Tumor endothelial marker 8 (TEM8), also known as anthrax toxin receptor 1 (ANTXR1), is a highly conserved cell-surface protein overexpressed on tumor-infiltrating vasculature
+			- antibodies developed against the TEM8 extracellular domain blocked anthrax intoxication, inhibited tumor-induced angiogenesis, displayed broad antitumor activity, and augmented the activity of clinically approved anticancer agents without added toxicity
+		- akt inhibition
+			- The activity of Akt is negatively regulated by PTEN, SHIP and CTMP, so upregulating those could be useful as inhibitors of akt
+		- PKB/Akt inhibition
+			- High expression of PKB/Akt was found to be associated with tolerance for nutrient starvation
+			- troglitazone, an insulin sensitizer, as well as LY294002, a phosphatidylinositol 3-kinase inhibitor, were found to kill PANC-1 cells only under nutrient starvation conditions
+				- https://pubmed.ncbi.nlm.nih.gov/11085546/
+			- Troglitazone use was associated with a decrease of nuclear factor kappa-B (NF-κB) and a concomitant increase in its inhibitor (IκB)
 		- JNK/Nrf2/HO-1
 			- inhibited by celastrol
 		- VEGF
