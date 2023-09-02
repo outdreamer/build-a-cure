@@ -998,7 +998,7 @@
 		- MGMT
 			- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents. 
 			- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
-
+			- Pharmacological or genetic inhibition of Wnt activity downregulates MGMT expression and restores chemosensitivity of DNA-alkylating drugs
 
     - inhibit topoisomerase	
     	- inhibiting topoisomerase may turn out to be a carcinogenic activity or an anti-cancer activity
@@ -1533,6 +1533,9 @@
 			- CimaVax-EGF, an active vaccine targeting EGF as the major ligand of EGF, uses a different approach, raising antibodies against EGF itself, thereby denying EGFR-dependent cancers of a proliferative stimulus
 		- Wnt/β-catenin
 			- inhibited by celastrol
+			- Wnt inhibitors and temozolomide (TMZ), tested as inhibitors of MGMT
+				- TMZ:Celecoxib, TMZ:G007-LK, TMZ:LGK974, TMZ:Wnt-C59, TMZ:Salinomycin and TMZ:XAV-939
+				- https://www.nature.com/articles/ncomms9904
 			- triggered by EBV to trigger cancer
 		- Bcl-2/Bax-caspase 9/3
 			- bcl family proteins are inhibited by celastrol, withaferin, fisetin, quercetin, Navitoclax
