@@ -498,6 +498,7 @@
 
 
 	- avoiding known carcinogens
+		- ATP activates mTOR so ATP supplements should be avoided during cancer treatment
 		- some anti-cancer substances can cause cancer in some cases
 			- turmeric - 'Cancer Induction'
 				- curcumin might act as a prooxidant to induce tumor progression in the hyperoxia environment
