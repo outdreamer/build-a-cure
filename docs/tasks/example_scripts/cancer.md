@@ -97,16 +97,19 @@
     			- Processed foods and drinks high in sugar such as sodas should be avoided
 
 		- for patients with organ damage, a subset and sequence of strategies are useful
-			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, quercetin, emodin, caveolin, parsley, baicalin, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
-			- using less damaging anti-cancer substances in small doses (citicoline, luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
+			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, quercetin, emodin, caveolin, parsley, baicalin, limonene, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
+			- using less damaging anti-cancer substances in small doses (luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
 			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
 			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
 
-		- for people with hormone-sensitive cancers, some substances are contraindicated
-			- ginseng, soy
+		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
+			- Chamomile is contraindicated
 
-		- for people with autoimmune disease, some substances are contraindicated
-			- astragalus
+		- hormone-sensitive cancers
+			- ginseng, soy are contraindicated
+
+		- autoimmune disease
+			- astragalus is contraindicated
 
 		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
 			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
@@ -332,8 +335,18 @@
 				- The anti-inflammatory action is due to deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
 			- upregulate glutathione, an endogenous antioxidant
 				- It has direct activity as a reducing agent, chemically reacting with reactive oxygen species to neutralize them. Studies suggest that it lodges in cell membranes and prevents oxidative damage to lipids in the cell membrane
-
-
+		- citicoline
+			- choline variants are involved in helping some cancers 
+			- increases the levels of reduced glutathione (GSH), a major antioxidant agent
+			- citicoline affects the staurosporine-induced apoptosis cell-signalling pathway by interacting with the glutathione system and by inhibiting caspase-3
+			- Once acetylcholine moves across the synapse, it can bind to two types of receptors: nicotinic receptors and muscarinic receptors
+			- ability to produce Acetylcholine is dependent upon IL-21 signalling to the T cells
+			- during infection this immune-derived acetylcholine is necessary for the T cells to migrate into infected tissues
+			- acetylcholinesterase (AChE) is a serine hydrolase whose primary function is to degrade acetylcholine and terminate neurotransmission, and is involved in cellular growth, apoptosis, drug resistance pathways, response to stress signals and inflammation
+			- however, citicoline is an antifungal that can help reduce fungal load where fungal infections have caused or otherwise help cancer cells grow
+			- Supplements that stop the breakdown of acetylcholine include Bacopa monnieri, Ginkgo biloba and huperzine A
+			- Acetylcholine (ACh) is an important neurotransmitter that plays a role in brain functions, such as memory, and body functions, such as muscle contractions to move your muscles. Low levels of acetylcholine are associated with memory issues and muscle disorders
+			
 	- inhibit mutations/bacteria/fungi/viruses that cause cancer (Li-Fraumeni syndrome, EBV, HPV, Herpes, Hepatitis)
 		- inherited mutations
 			- Abnormalities of the p53 gene can be inherited in Li-Fraumeni syndrome (LFS), which increases the risk of developing various types of cancers

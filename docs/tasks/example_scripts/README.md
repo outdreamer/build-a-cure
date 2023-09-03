@@ -48,14 +48,14 @@ NOTES:
 
 EXAMPLE OUTPUT AND ERRORS
 
-- for 'cancer treatment' Pubmed search results, this script included 'citicoline', 'selenium', 'saffron', 'linalool', 'fucose', 'lysine', 'withaferin', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
+- for 'cancer treatment' Pubmed search results, this script included 'selenium', 'limonene', 'saffron', 'linalool', 'astragalus', 'lactoferrin', 'fucose', 'lysine', 'withaferin', 'dendritic cell vaccines', 'checkpoint inhibitors', 'VSV (an oncolytic virus)' in its results, their interaction with cancer being useful to know about
 
 	- other anti-tumor substances identified in research (having various mechanisms of action like inhibiting vimentin, inducing apoptosis, suppressing growth factors, suppressing pro-inflammatory interleukins, upregulating interleukin-12, lowering inflammation, lowering LDL cholesterol, etc)
-	    - dendritic cell vaccines, checkpoint inhibitors, VSV (an oncolytic virus), linalool, fucose, lysine, ashwagandha/Withaferin or ginsenosides (a similar compound), atorvastatin, citicoline, melatonin, cilantro, ginger, coffee, green tea, lactobacillus, bacillus subtilis, milk thistle, chicory, turmeric, astragalus, pterostilbene/resveratrol, boswellia, selenium, ahcc (shiitake mushroom), mushrooms (reishi, maitake, turkey tail), mangosteen, quercetin, broccoli (indole-3-carbinol, sulfuraphane, DIM), beta-glucans (oat, mushrooms, seaweed), flaxseed, chamomile, guggulsterone, propolis/bee pollen
+	    - dendritic cell vaccines, checkpoint inhibitors, VSV (an oncolytic virus), linalool, fucose, lysine, ashwagandha/Withaferin or ginsenosides (a similar compound), atorvastatin, melatonin, cilantro, ginger, coffee, green tea, lactobacillus, bacillus subtilis, milk thistle, chicory, turmeric, astragalus, pterostilbene/resveratrol, boswellia, selenium, ahcc (shiitake mushroom), mushrooms (reishi, maitake, turkey tail), mangosteen, quercetin, broccoli (indole-3-carbinol, sulfuraphane, DIM), beta-glucans (oat, mushrooms, seaweed), flaxseed, chamomile, guggulsterone, propolis/bee pollen
 
 	- as a side note, after testing various substances, the following substances were useful at reducing brain pressure/pain (not sure which ones worked):
 	    - low carb, low protein, mostly vegan diet (vegetables like avocados/artichokes/broccoli, nuts like walnuts, berries like blueberries (avoid sugar at first if youre going to try glucose starvation), olive oil, mushrooms like reishi, shiitake, maitake, turkey tail), ashwagandha, atorvastatin, citicoline, melatonin, cilantro, ginger, coffee, green tea, lactobacillus (various strains), bacillus subtilis, milk thistle, selenium, omega-3 (fish oil), antioxidants (like vitamin C powder)
-	    - various agglutinins have immune system effects (peanut/wheat germ agglutinins have an unclear assocation, abrus agglutinins may be helpful in reducing cancer)
+	    - various agglutinins have immune system effects (peanut/wheat germ agglutinins have an unclear association, abrus agglutinins may be helpful in reducing cancer)
 	    - similarly, other substances that apparently help with DNA repair (other than milk thistle) include the following: Uncaria tomentosa, alpha-lipoic acid, coq10, sulforaphane, selenium, carotenoids, fisetin, grapeseed
 
 	- also avoid the following when treating cancer: 
