@@ -1,5 +1,69 @@
 - treating other conditions to avoid stressing the system
 
+	- mitochondrial diseases
+		- treatments for various mitochondrial diseases or boosting energy found on amazon (some of these may trigger other conditions in supplement form, such as ATP/b-vitamins which can exacerbate cancer)
+			- Supplements for mitochondria repair are made of things the cell naturally needs, such as carnitine, creatine, coenzyme Q10, alpha-lipoic acid, arginine, B vitamins, D-ribose, and resveratrol
+			- These supplements can help people feel better, increase ATP production, reverse age-related declines, and support cellular health
+			- list of supplements for mitochondrial diseases
+				- https://ods.od.nih.gov/factsheets/primarymitochondrialdisorders-healthprofessional/
+				- citrulline
+				- vitamin k
+				- folinic acid
+			- mitochondrial supplements
+				- Coenzyme Q10
+				- b6 (pyridoxal 5-phosphate)
+				- other b-vitamins (b1, b2, b3, b12)
+				- carnosine/l-carnitine
+				- citrulline
+				- creatine
+				- d-ribose
+				- l-taurine
+				- benfotiamine
+				- r-lipoic acid/alpha lipoic acid
+				- alpha ketoglutaric acid
+				- l-arginine
+				- grape seed extract
+				- NADH (nicotinamide adenine dinucleotide) or beta-nicotinamide mononucleotide
+				- vitamin c/e
+				- N-acetyl-cysteine (NAC)
+				- l-glutathione
+				- superoxide dismutase
+				- quercetin
+				- magnesium
+				- 'ancient peat and apple extracts and Cucumis melo subsp. melo var. cantalupo'
+				- shilajit (asphaltum)
+				- pyrroloquinoline quinone (PQQ)
+				- malic acid
+				- succinic acid
+				- resveratrol
+				- turmeric
+				- pantethine
+				- medium chain triglycerides
+			- oocyte rescue as a treatment target
+				- 'the quality of germ cells can also be probably improved by the use of compounds that enhance mitochondrial activity (e.g., coenzyme Q10, resveratrol, melatonin)'
+					- https://pubmed.ncbi.nlm.nih.gov/33712995/
+			- DNA repair supplements
+				- sulforaphane from broccoli
+				- wasabi
+				- larch
+				- curcumin from turmeric
+				- various species of vaccinium
+				- zinc pidolate
+				- SOD-gliadins from melon
+				- triticum vulgare
+				- sodium copper salt of chlorophyll
+				- b12
+				- quatrefolic acid
+			- supplements to prevent DNA damage
+				- selenium, zinc, vitamin C, and vitamin E
+			- energy boosting supplements
+				- adenosine triphosphate (ATP)
+					- atp activates mtor so is contraindicated for cancer patients
+				- fulvic acid
+			- muscle building supplements
+				- nitric oxide boosters
+			- senolytics may help get rid of damaged cells including possibly cells with damaged mitochondrial dna
+
 	- heart failure 
 		- treatments
 			- resveratrol, taurine, creatine, arginine, carnitine, carnosine, iodine, fish oil, b vitamins, coq10, green tea, garlic, antioxidants like vitamins C and E and beta-carotene, avoiding deficiency of selenium/calcium/thiamine 
