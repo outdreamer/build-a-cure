@@ -3,7 +3,7 @@
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
-			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, activation, oxidation, polyglutamylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation, gene activation/mutations/amplifications/overexpressions/loss of heterozygosity
+			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, activation, oxidation, polyglutamylation, sumoylation and glutathionylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation, gene activation/mutations/amplifications/overexpressions/loss of heterozygosity
 		- cancer variables
 			- surface proteins/sugars
 			- sirtuins
@@ -87,6 +87,7 @@
 				- this is in contrast to an option like 'trying/cycling all medicines randomly' which can have contrary effects and could help cancer instead of host cells
 				- as another example, 'adding a PCNA inhibitor/downregulator' might be a good general rule to apply (except in contraindicated cases)
 					- examples include olive oil, ashwagandha, short chain fatty acids, green tea, holy basil, thyme, d-limonene, atorvastatin/simvastatin
+				- for example, a MGMT inhibitor (disulfiram, resveratrol + temozolomide) and a EGFR inhibitor (astragalus) and a generally useful anti-cancer compound (ashwagandha) are probably useful for treating brain cancer (assuming no liver damage which would contraindicate disulfiram and small doses of ashwagandha to avoid damaging other organs)
 
 
 	- general treatment strategies
@@ -256,6 +257,9 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- compounds with multiple functions, including induction of apoptosis
+		- trichostatin A (a histone deacetylase inhibitor)
+			- TSA promotes the expression of apoptosis-related genes, leading to cancerous cells surviving at lower rates, thus slowing the progression of cancer
+			- Other mechanisms may include the activity of HDIs to induce cell differentiation, thus acting to "mature" some of the de-differentiated cells found in tumors
 		- luteolin
 			- found in celery, broccoli, artichoke, green pepper, parsley, thyme, dandelion, perilla, chamomile tea, carrots, olive oil, peppermint, rosemary, navel oranges, and oregano
 			- kills various cancer cell types
@@ -299,6 +303,9 @@
 			- upregulated Bax and suppressed Bcl-2
 			- migration of the cancer cells was suppressed
 			- https://pubmed.ncbi.nlm.nih.gov/35722462/
+		- resveratrol
+			- resveratrol inhibited STAT3 signaling through modulation of PIAS3, SHP1, SHP2, and SOCS3, thereby attenuating tumor growth and increasing sensitivity to TMZ
+			- https://pubmed.ncbi.nlm.nih.gov/37298405/
 		- turmeric
 			- curcumol
 				- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
@@ -866,6 +873,9 @@
 
 	- induce apoptosis
 		- herb/food compounds which induce apoptosis
+			- juglone
+				- exhibits cytotoxic, anti-proliferative, and anti-invasive effects on various cells, could be a promising agent for GBM therapy
+				- juglone induces strong oxidative stress, as identified by a high increase in the amount of 8-oxo-eoxyguanosine and decreases 5-methylcytosine in the DNA of cancer cells
 			- emodin (buckthorn, Japanese knotweed)
 			- honokiol (magnolia)
 			- Quercetin (most fruits)
@@ -1246,6 +1256,14 @@
 				- https://www.omu.ac.jp/en/info/research-news/entry-34125.html
 
 
+	- inhibit glycogen phosphorylase
+		- Glycogen phosphorylase (GP) is the rate-determining enzyme in the glycogenolysis pathway
+		- baicalein is a GP/glycogenolysis inhibitor
+		- baicalein demonstrated anti-cancer potential through concentration- and time-dependent decrease in cell viability for three glioblastoma cell-lines (U-251 MG, U-87 MG, T98-G)
+		- Its effectiveness against T98-G suggests potential against GBM with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
+		- https://pubmed.ncbi.nlm.nih.gov/37277066/
+
+
 	- increase/decrease methylation depending on the gene
 		- reduce DNA methylation of tumor suppressor genes
 		- increase methylation of oncogenes (DNA methyltransferases, DNMT)
@@ -1539,6 +1557,7 @@
 			- HO-1 deficiency in normal cells enhances DNA damage and carcinogenesis. Nevertheless, HO-1 overexpression in cancer cells promotes proliferation and survival
 		- inhibit inflammatory genes/cytokines (NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6)
 
+
 	- inhibit pathways
 		- graph of some relevant pathways
 			- https://en.wikipedia.org/wiki/Adenomatous_polyposis_coli#/media/File:Signal_transduction_pathways.svg
@@ -1615,10 +1634,59 @@
 				- Celecoxib was the most profound compound inducing either an additive or synergistic effect on cell cytotoxicity in combination with temozolomide
 			- upregulating APC can downregulate B-catenin
 			- triggered by EBV to trigger cancer
-		- MGMT
+		- histone methyltransferase G9a
+			- by methylating H3K9, P53 protein and L1G1, histone methyltransferase G9a plays an important role in many biological processes
+			- Euchromatic histone-lysine N-methyltransferase 2 (EHMT2), also known as G9a, is a histone methyltransferase enzyme that in humans is encoded by the EHMT2 gene
+			- Epigenetic abnormalities can lead to serious diseases such as cancer in organisms
+			- Histone methylation is one of the several manifestations of epigenetics, and requires specific enzymes to catalyze, for example, G9a, which is a histone methyl transferase
+			- G9a catalyzes the methylation of histone 3 lysine 9 (H3K9) and histone 3 lysine 27 (H3K27)
+			- G9a also plays an essential role in DNA replication, damage and repair, and gene expression by regulating DNA methylation
+			- G9a has been found to be overexpressed in many tumor cells and is associated with the occurrence and development of tumors
+			- inhibit histone methyltransferase G9a, which is known to be involved in cancerogenesis
+				- https://pubmed.ncbi.nlm.nih.gov/30450051/
+			- other inhibitors
+				- https://www.nature.com/articles/s41416-023-02274-2
+				- https://www.nature.com/articles/s41467-022-35404-0
+			- Current G9a inhibitors can be broadly divided into three groups based on their binding modes
+				- 1) substrate (peptide) competitive inhibitors
+				- 2) the SAM (S-adenosyl-methionine) cofactor competitive inhibitors; 
+				- https://pubmed.ncbi.nlm.nih.gov/31276898/
+			- G9a and GLP inhibitors such as BIX-01294, UNC0642, A-366 and DCG066 were developed to combat various cancers
+				- however, there is a need for more effective and less toxic compounds, including ninhydrin, naphthoquinone (such as juglone), cysteamine, and disulfide cysteamine as candidate G9a and GLP inhibitors
+				- https://europepmc.org/article/MED/33283949
+		- decrease EZH2
+			- enhancer of zeste homolog 2 (EZH2) has emerged as a novel anticancer target
+			- GSK343 directly inhibits EZH2 enzyme activity through an S-adenosyl-l-methionine-competitive pathway
+			- GSK343 induced autophagic cell death of cancer cells
+			- GSK343 enhanced the anticancer activity of a multikinase inhibitor, sorafenib
+			- GSK343 acts as an autophagy induce
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4276571/
+		- decrease AP-2α to deactivate EZH2
+			- AP-2α facilitates melanoma metastasis through transcriptional activation of genes within the E2F pathway including EZH2
+		- inhibit miR-26a to increase AP-2α to decrease MGMT
+			- miR-26a decreased AP-2α expression by binding to the 3' untranslated region (UTR) of AP-2α and reversed the tumor suppressive role of AP-2α in glioma
+		- increase AP-2α expression to decrease MGMT
+			- AP-2α indirectly downregulated Nanog expression by inhibiting the interleukin 6/janus kinase 2/signal transducer and activator of transcription 3 (IL6/JAK2/STAT3) signaling pathway, consequently decreasing O6-methylguanine methyltransferase (MGMT) and programmed death-ligand 1 (PD-L1) expression
+		- decrease MGMT
 			- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents
 			- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
 			- Pharmacological or genetic inhibition of Wnt activity downregulates MGMT expression and restores chemosensitivity of DNA-alkylating drugs
+			- O(6)-Methylguanine-DNA-methyltransferase (MGMT) is an antimutagenic DNA repair protein highly expressed in human brain tumors. Because MGMT repairs the mutagenic, carcinogenic and cytotoxic O(6)-alkylguanine adducts, including those generated by the clinically used anticancer alkylating agents, it has emerged as a central and rational target for overcoming tumor resistance to alkylating agents
+				- MGMT posttranslational regulation by ubiquitination, sumoylation and glutathionylation and reveals how the reactivity of the active site Cys145 can be exploited for potent inhibition and depletion of MGMT by thiol-reacting drugs
+				- thiol-reacting drugs include disulfiram and various dithiocarbamate derivatives
+				- https://pubmed.ncbi.nlm.nih.gov/26202203/
+			- O(6)-benzylguanine (BG)
+				- inhibits MGMT but is too toxic for use with agents that form O(6)-alkylguanine DNA adducts, such as carmustine (BCNU), temozolomide, streptozotocin, and dacarbazine
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4465052/
+			- miR-198 reduces cellular methylguanine DNA methyltransferase (MGMT) levels
+				- Transforming growth factor beta 1 (TGF-β1) switches off miR-198 expression
+				- inhibiting Transforming growth factor beta 1 could be useful for inhibiting MGMT
+				- https://pubmed.ncbi.nlm.nih.gov/32813021/
+			- epic-0412
+				- EPIC-0412 physically interrupts the binding of HOTAIR and EZH2, leading to the upregulation of CDKN1A and BBC3, causing cell cycle arrest and apoptosis in GBM cells. EPIC-0412 inhibits DNA damage response in GBM cells through the p21-E2F1 DNA damage repair axis. EPIC-0412 epigenetically silences MGMT through its interaction with the ATF3-p-p65-HADC1 axis at the MGMT promoter region
+				- https://pubmed.ncbi.nlm.nih.gov/36272139/
+			- resveratrol
+				- https://pubmed.ncbi.nlm.nih.gov/37298405/
 		- Bcl-2/Bax-caspase 9/3
 			- bcl family proteins are inhibited by celastrol, withaferin, fisetin, quercetin, Navitoclax
 		- ROS/JNK
