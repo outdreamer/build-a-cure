@@ -1047,7 +1047,15 @@
 		- silymarin (milk thistle)
 			- https://pubmed.ncbi.nlm.nih.gov/34611448/
 			- Silibinin also has a number of potential mechanisms that could benefit the skin. These include chemoprotective effects from environmental toxins, anti-inflammatory effects, protection from UV induced photocarcinogenesis, protection from sunburn, protection from UVB-induced epidermal hyperplasia, and DNA repair for UV induced DNA damage (double strand breaks)
-
+		- wasabi
+		- larch
+		- curcumin from turmeric
+		- various species of vaccinium
+		- zinc pidolate
+		- SOD-gliadins from melon
+		- triticum vulgare
+		- sodium copper salt of chlorophyll
+		
 
     - inhibit topoisomerase	
     	- inhibiting topoisomerase may turn out to be a carcinogenic activity or an anti-cancer activity

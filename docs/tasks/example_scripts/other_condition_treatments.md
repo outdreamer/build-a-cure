@@ -1,5 +1,13 @@
 - treating other conditions to avoid stressing the system
 
+	- low energy
+		- treatments
+			- astragalus
+			- fisetin
+			- quercetin
+			- sulforaphane
+
+
 	- mitochondrial diseases
 		- treatments for various mitochondrial diseases or boosting energy found on amazon (some of these may trigger other conditions in supplement form, such as ATP/b-vitamins which can exacerbate cancer)
 			- Supplements for mitochondria repair are made of things the cell naturally needs, such as carnitine, creatine, coenzyme Q10, alpha-lipoic acid, arginine, B vitamins, D-ribose, and resveratrol
@@ -39,6 +47,9 @@
 				- turmeric
 				- pantethine
 				- medium chain triglycerides
+			- alternate therapies for MMDS specifically
+				- including levocarnitine and idibenone and rapamycin
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234938/
 			- oocyte rescue as a treatment target
 				- 'the quality of germ cells can also be probably improved by the use of compounds that enhance mitochondrial activity (e.g., coenzyme Q10, resveratrol, melatonin)'
 					- https://pubmed.ncbi.nlm.nih.gov/33712995/
@@ -64,6 +75,7 @@
 				- nitric oxide boosters
 			- senolytics may help get rid of damaged cells including possibly cells with damaged mitochondrial dna
 
+
 	- heart failure 
 		- treatments
 			- resveratrol, taurine, creatine, arginine, carnitine, carnosine, iodine, fish oil, b vitamins, coq10, green tea, garlic, antioxidants like vitamins C and E and beta-carotene, avoiding deficiency of selenium/calcium/thiamine 
@@ -72,6 +84,7 @@
 			- avoid:
 				- excess salt/water, choline, arginine, ginseng, gingko, garlic, saw palmetto (with other heart drugs), calcium, niacin
 				- L-arginine may make blood pressure dip too low if you're already taking medications to treat the condition. 
+
 
 	- multiple sclerosis
 		- causes
@@ -113,6 +126,7 @@
 				- The myelin sheath regenerates using lipids, which can only be created using a copper-dependent enzyme. Without this assistance, other nutrients cannot do their job. Copper is found in lentils, almonds, pumpkin seeds, sesame seeds
 			- green tea
 
+
 	- silicosis treatments/prevention (silica can cause cancer)
 		- Other potential drugs have been reported to inhibit silica-induced pulmonary inflammation and fibrosis in silicotic models such as:
 			- anticytokines (anakinra, anti-IL-17 antibody, and anti-IL-9 antibody)
@@ -131,6 +145,7 @@
 				- buckthorn, knotweed - Reynoutria japonica Houtt, and Rheum officinale Baill - Emodin
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8616670/
 				- chinese skullcap - 黄芩 (Scutellaria baicalensis Georgi)
+
 
 	- acidosis
 		- causes
@@ -182,11 +197,13 @@
 	    			- Wine and whole-grained bread may decrease the risk of gallstones
 	    			- Chenodeoxycholic/ursodeoxycholic acid
 
+
     - COPD
     	- possible treatments
     		- vitamin C, vitamin E, zinc and selenium
     		- bronchodilators
     		- corticosteroids
+
 
 	- kidney failure
 		- avoid the following where possible, if you have kidney disease:
@@ -222,20 +239,25 @@
 		- possible herbal treatments for kidney injury - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9152371/
 			- antioxidants, chamomile, acai, caffeic/ferulic/oleanolic acid, garlic juice, black pepper, grape seed, quercetin/rutin, silymarin (milk thistle), sesame, resveratrol, rosemary, ginger, ginkgo biloba, stevia, cbd, curcumin, tribulus terrestris, salvia miltiorrhiza, crateva nurvela
 
+
     - cholestasis
     	- drug-induced triggers: ketoconazole, estrogen
     	- possible treatments: milk thistle, arginine, Ursodeoxycholic acid (ursodiol)
+
 
     - atherosclerosis
     	- possible treatments: grape seed, royal jelly, berberine, magnesium, kombucha, carnitine, vitamin c, arginine, pomegranate, taurine, coq10, nattokinase/serrapeptase (or natto), quercetin, lutein, garlic (aged garlic extract with COQ10), omega 3s/fish oil, artichoke, niacin, policosanol (sugar cane and yams), hawthorn, red yeast rice (similar to statins), alpha lipoic acid, guggulsterone (lowers cholesterol)
     	- lowering cholesterol can help reduce plaque size
 
+
     - cardiovascular health
     	- possible treatments: carnitine, resveratrol, coq10, magnesium, berberine, soy, chia, taurine, green tea, arginine, reishi, ginkgo, pomegranate, royal jelly, cannabis, ginseng, bromelain, grape seed, olive leaf, vitamin c, ALA, fenugreek, inositol, melatonin, nattokinase, wheat germ, flaxseed, chitosan, cinnamon, milk thistle, astragalus
     
+
     - sepsis
     	- omega-3 fatty acids are not recommended as immune supplements for a person with sepsis or septic shock
 		- hydrocortisone, vitamin C, and thiamine as a treatment for preventing sepsis
+
 
 	- gout
 		- try low purine diet to see if it helps more than alkaline diet
@@ -244,6 +266,7 @@
 		- Coffee. You may have heard that coffee is acidic, but the type of acid in coffee is very different from uric acid. In fact, drinking coffee daily can reduce your uric acid levels by several means. It slows the breakdown of purine into uric acid and speeds the rate of excretion.
 		- Water. People who drink five to eight glasses of water a day are less likely to experience gout symptoms. This makes sense since your kidneys use water to excrete uric acid in your urine. Water is also good for kidney health. Impaired kidney function is one factor that can contribute to gout.
 		- Peanuts, brown bread, and fruit also appear protective
+
 
 	- hypercholesterolemia
 		- can be caused by kidney damage and hypothyroidism, glucocorticoids, retinoids
