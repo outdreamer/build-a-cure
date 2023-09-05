@@ -3,6 +3,11 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:
     
+    - identifying useful structures like truth interactions is useful for intents like 'filtering truth structures'
+        - for example, given that specific/local facts about variable interactions are not true until they connect to other facts without every possible contradiction being true or more true (preventing a fact from ever being true), how many facts do they need to be connected to and what other metadata needs to be fulfilled before a fact is clearly true (its still true or becomes true, even when some barriers to it are placed in positions to prevent the fact, bc the falsehoods are irrelevant in some way, such as they occur in a different irrelevant system or they only remove one input to the fact which is replaceable or not required)
+        - for example, a statement is only true, if the structures in that statement are 'possible/defined', which identifies at least one other required fact before the fact can be true
+        - similarly, 'detecting lying' by surrounding it with barriers to lying and clearly differentiating it from truth structures and otherwise removing opportunities for lying is possible, which would be applied in an algorithm like 'placing barriers between variables so that the lie has to create truth on its own or using other lies, which it cant create (itll be usable to create other facts if its a fact)'
+
     - identifying useful structures like 'function sequences' to identify other useful structures (like components and orthogonal variables) is useful
         - for example, 'squinting' is useful at identifying light dynamics bc it increases interactivity of light and reflective surfaces and bc of the reflectivity of eyelashes which allow the components of light to be identified (it first filters the light into a smaller input range, and then reflects light off a high-variation variable like a shiny surface)
         - identifying this sequence is useful for 'identifying components of variation' by applying a filter and a reflection across a high variation variable

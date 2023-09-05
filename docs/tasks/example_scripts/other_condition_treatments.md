@@ -238,7 +238,7 @@
 			- thiamine, phosphate, magnesium, antioxidants
 		- possible herbal treatments for kidney injury - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9152371/
 			- antioxidants, chamomile, acai, caffeic/ferulic/oleanolic acid, garlic juice, black pepper, grape seed, quercetin/rutin, silymarin (milk thistle), sesame, resveratrol, rosemary, ginger, ginkgo biloba, stevia, cbd, curcumin, tribulus terrestris, salvia miltiorrhiza, crateva nurvela
-
+			- astaxanthin - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7696511/
 
     - cholestasis
     	- drug-induced triggers: ketoconazole, estrogen
