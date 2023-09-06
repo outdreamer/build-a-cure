@@ -87,7 +87,9 @@
 				- this is in contrast to an option like 'trying/cycling all medicines randomly' which can have contrary effects and could help cancer instead of host cells
 				- as another example, 'adding a PCNA inhibitor/downregulator' might be a good general rule to apply (except in contraindicated cases)
 					- examples include olive oil, ashwagandha, short chain fatty acids, green tea, holy basil, thyme, d-limonene, atorvastatin/simvastatin
-				- for example, a MGMT inhibitor (disulfiram, resveratrol + temozolomide) and a EGFR inhibitor (astragalus) and a generally useful anti-cancer compound (ashwagandha) are probably useful for treating brain cancer (assuming no liver damage which would contraindicate disulfiram and small doses of ashwagandha to avoid damaging other organs)
+				- for example, a substance to downregulate PCNA, a MGMT inhibitor (disulfiram, resveratrol + temozolomide), a p53 activator (astaxanthin), a EGFR inhibitor (astragalus), a generally useful anti-cancer compound (ashwagandha), and avoiding carcinogenic substances once cancer is active (like the b-vitamins/amino acids listed below as well as avoiding carbs and avoiding p53 inhibitors) are probably useful for treating brain cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, and ashwagandha)
+				    - also baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
+			    - as an example of why you need to look up everything youre consuming, olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements', bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
 
 
 	- general treatment strategies
@@ -1256,7 +1258,7 @@
 				- https://www.omu.ac.jp/en/info/research-news/entry-34125.html
 
 
-	- inhibit glycogen phosphorylase
+	- inhibit glycogen phosphorylase/glycogenolysis
 		- Glycogen phosphorylase (GP) is the rate-determining enzyme in the glycogenolysis pathway
 		- baicalein is a GP/glycogenolysis inhibitor
 		- baicalein demonstrated anti-cancer potential through concentration- and time-dependent decrease in cell viability for three glioblastoma cell-lines (U-251 MG, U-87 MG, T98-G)
