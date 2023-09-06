@@ -112,6 +112,12 @@
 			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
 			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+			- Coriolus versicolor (krestin polysaccharide), Maitake fraction D, long-chain polysaccharides (beta-glucans from maitake, reishi, and shiitake mushrooms)
+    		- sodium R lipoate plus hydroxycitrate
+    		- berberine
+    		- boswellia
+    		- cannabis
+    		- https://www.glioblastomamultiforme.it/en/over-the-counter-drugs-and-supplements-to-fight-glioblastoma-part-one/#:~:text=Over-the-Counter%20Drugs%20and%20Supplements%20to%20Fight%20Glioblastoma%20%28Part,Herbs%206%20Berberine%207%20Boswellic%20acids%208%20Cannabis
 
 		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
 			- Chamomile is contraindicated
