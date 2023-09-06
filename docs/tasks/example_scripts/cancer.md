@@ -105,6 +105,14 @@
 			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
 			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
 
+		- brain cancer-specific substances
+			- resveratrol, icariin, quercetin, propolisis, salvia menthaefolia roots, ficus carica latex, berberine, withaferin A, curcumin, angelica sinensis root, ardipusilloside 1, berberine, eckol, MSC500, AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine), thymoquinone, cucurbitacins, betulinic acid from betula pubescens, diosquinone from diospyros tricolor
+			- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
+			- toosendanin from melia toosendan increased the p53 expression
+			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
+			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+
 		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
 			- Chamomile is contraindicated
 
@@ -875,6 +883,8 @@
 
 	- induce apoptosis
 		- herb/food compounds which induce apoptosis
+			- Resveratrol, Withaferin A, methanolic extract of Salvia menthaefolia roots, berberine, Ficus carica latex, propolis, AMT, thymoquinone, cucurbitacins, betulinic acid from Betula pubescens, quercetin, diosquinone from Diospyros tricolor, Angelica sinensis root
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
 			- juglone
 				- exhibits cytotoxic, anti-proliferative, and anti-invasive effects on various cells, could be a promising agent for GBM therapy
 				- juglone induces strong oxidative stress, as identified by a high increase in the amount of 8-oxo-eoxyguanosine and decreases 5-methylcytosine in the DNA of cancer cells
