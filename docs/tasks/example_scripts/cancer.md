@@ -1,6 +1,25 @@
 - various mechanisms of action of inhibiting cancer (and associated anti-tumor substances)
 
 
+	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
+		- a substance to downregulate PCNA (d-limonene, EGCG, withaferin)
+		- a MGMT inhibitor (disulfiram, resveratrol + temozolomide)
+		- a Wnt pathway inhibitor (celastrol)
+		- a p53 activator (astaxanthin, ginger, resveratrol, withaferin)
+		- a EGFR inhibitor (astragalus, celastrol), a generally useful anti-cancer compound (withaferin, celastrol)
+		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein and fats like linoleic acid as well as carbs, and the amino acids like methionine listed below, and avoiding p53 inhibitors like olive oil)
+		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
+		    - also baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
+		
+		- I used a fast + celastrol/withaferin to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
+			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
+
+
+	- as an example of why you need to look up everything youre consuming:
+		- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients', bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
+
+
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
 			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, activation, oxidation, polyglutamylation, sumoylation and glutathionylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation, gene activation/mutations/amplifications/overexpressions/loss of heterozygosity
@@ -80,17 +99,15 @@
 			- oncogenes and anti-cancer genes
 				- p53 and other relevant proteins
 			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
+
 			- sequences/sets/networks of optimal functions to treat cancer
-				- if there is an optimal 'sequence' like a possible sequence of coordinating sets like 'apoptosis-induction, angiogenesis inhibitor, metastasis inhibitors, and glucose/protein/input starvation, then senolytics/DNA repair once the tumor is definitely gone' which is optimal in order to avoid known errors (such as for example 'substances that deactivate/kill existing negative structres first, then substances that inhibit new bonds/receptors' or 'avoiding taking DNA repair compounds first, which might help cancer cells repair the most, so they survive more', which Im citing as a possible example of a possible interaction, rather than referencing known interactions), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
+				- if there is an optimal 'sequence' like a possible sequence of coordinating sets like 'apoptosis-induction, angiogenesis inhibitor, metastasis inhibitors, and glucose/protein/input starvation, then DNA repair once the tumor is definitely gone' which is optimal in order to avoid known errors (such as for example 'substances that deactivate/kill existing negative structres first, then substances that inhibit new bonds/receptors' or 'avoiding taking DNA repair compounds first, which might help cancer cells repair the most, so they survive more', which Im citing as a possible example of a possible interaction, rather than referencing known interactions), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
 				- there likely is an optimal sequence/set/network of compounds/processes for treating most cancer types/states in general (unless very different cancer types/states are relevant)
 				- a 'network' is useful for cases where a treatment is preferred but is a dead-end, as it cant be followed by more of it or additional/coordinating steps in the same direction (as its only usable up to a point such as bc resistance develops if its not effective after that point), after which other treatments should be tried (as in 'multiple overlapping sequences' and 'multiple directions such as reversing direction toward a dead-end')
 				- this is in contrast to an option like 'trying/cycling all medicines randomly' which can have contrary effects and could help cancer instead of host cells
 				- as another example, 'adding a PCNA inhibitor/downregulator' might be a good general rule to apply (except in contraindicated cases)
 					- examples include olive oil, ashwagandha, short chain fatty acids, green tea, holy basil, thyme, d-limonene, atorvastatin/simvastatin
-				- for example, a substance to downregulate PCNA, a MGMT inhibitor (disulfiram, resveratrol + temozolomide), a p53 activator (astaxanthin), a EGFR inhibitor (astragalus), a generally useful anti-cancer compound (ashwagandha), and avoiding carcinogenic substances once cancer is active (like the b-vitamins/amino acids listed below as well as avoiding carbs and avoiding p53 inhibitors) are probably useful for treating brain cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, and ashwagandha)
-				    - also baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
-			    - as an example of why you need to look up everything youre consuming, olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements', bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
-
+			
 
 	- general treatment strategies
 
@@ -289,6 +306,7 @@
 			- inhibiting tumor cell proliferation, migration and invasion, inducing cell apoptosis, suppressing autophagy, hindering angiogenesis and inhibiting tumor metastasis
 			- PI3K/Akt/mTOR, Bcl-2/Bax-caspase 9/3, EGFR, ROS/JNK, NF-κB, STAT3, JNK/Nrf2/HO-1, VEGF, AR/miR-101, HSF1-LKB1-AMPKα-YAP, Wnt/β-catenin and CIP2A/c-MYC signaling pathways are considered as important molecular targets for the anticancer effects of celastrol
 			- however, celastrol has some adverse effects, low oral bioavailability and a narrow therapeutic window
+			- https://www.sciencedirect.com/science/article/abs/pii/S0378874123008176
 		- betulinic acid from rosemary
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2658785/
 			- triggers the mitochondrial pathway of apoptosis
@@ -354,6 +372,7 @@
 		- fisetin
 			- Fisetin has roughly twice the senolytic potency as quercetin
 			- anti-proliferative agent, interfering with the cell cycle in several ways
+			- fisetin can inhibit p53 and therefore inhibit tumor suppression bc sirt1 inhibits p53
 			- inhibits the activity of several pro-inflammatory cytokines, including tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB)
 				- The anti-inflammatory action is due to deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
 			- upregulate glutathione, an endogenous antioxidant
@@ -712,7 +731,7 @@
 
 	- eliminate senescent cells
 		- senomorphics (Apigenin, Rapamycin/Everolimus) modulate properties of senescent cells without eliminating them, suppressing phenotypes of senescence, including the SASP
-		- through SASP, senescent cells contribute to cancer development and metastasis, so senolytics could act as anti-cancer compounds
+		- through SASP, senescent cells contribute to cancer development and metastasis, so senolytics could act as anti-cancer compounds but fisetin specifically inhibits p53 so some can help cancer
 		- senolytics:
 			- FOXO4-related peptides, BCL-2 inhibitors, Src inhibitors, USP7 inhibitors, Dasatinib and Quercetin (D+Q), Fisetin, Navitoclax, Piperlongumine, Azithromycin/roxithromycin, SSK1, BIRC5 knockout, GLS1 inhibitors, Anti-GPNMB vaccine, Cardiac glycosides, 25-hydroxycholesterol (25HC), Procyanidin C1, EF-24, HSP90 inhibitors
 
@@ -1163,7 +1182,7 @@
 					- Cancer cells express enhanced vimentin expression and correlates with the induction of epithelial to mesenchymal transition (EMT), metastasis, poor prognosis and decreased survival rate
 				- degrades vimentin
 					- caspase-dependent degradation of vimentin by withaferin A was observed
-		- inhibit PCNA
+		- inhibit PCNA 
 			- d-limonene
 				- D-lim suppressed mitochondrial apoptosis by considerably downregulating Bax and caspase-3 (Casp-3) mRNA and protein expressions and markedly enhancing Bcl2 mRNA and protein expressions
 				- D-lim significantly decreases GM-induced inflammatory response through downregulation of NF-κB, IL-6, and TNF-α mRNA and/or protein expressions and decrease in renal myeloperoxidase activity
