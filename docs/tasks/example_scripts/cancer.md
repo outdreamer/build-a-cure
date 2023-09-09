@@ -2,18 +2,24 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
-		- a substance to downregulate PCNA (d-limonene, EGCG, withaferin)
-		- a MGMT inhibitor (disulfiram, resveratrol + temozolomide)
+		- a substance to downregulate PCNA (d-limonene, EGCG, withaferin, berberine, tetrandrine)
+		- a MGMT inhibitor (disulfiram, resveratrol/withaferin + temozolomide)
+		- an angiogenesis inhibitor (withaferin, EGCG, calestrol, uncaria tomentosa)
 		- a Wnt pathway inhibitor (celastrol)
-		- a p53 activator (astaxanthin, ginger, resveratrol, withaferin)
-		- a EGFR inhibitor (astragalus, celastrol), a generally useful anti-cancer compound (withaferin, celastrol)
+		- a TRPV2 inhibitor (piperlongumine)
+		- substances that suppress STAT3 (turmeric, resveratrol)
+		- substances that suppress NK-κB, NF-jB, MAPK, cyclin D1, PI-3K/AKT, EGFR, GSK-3b (turmeric)
+		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
+		- a p53 activator (astaxanthin, ginger, resveratrol, withaferin, berberine)
+		- a EGFR inhibitor (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
+
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein and fats like linoleic acid as well as carbs, and the amino acids like methionine listed below, and avoiding p53 inhibitors like olive oil)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
-		    - also baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
 		
 		- I used a fast + celastrol/withaferin to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
+			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
 
 
 	- as an example of why you need to look up everything youre consuming:
@@ -55,6 +61,14 @@
 				- pro/anti-inflammatory interleukins (interleukins are a type of cytokine)
 			- antioxidants
 				- block reactive oxygen species (ROS)
+			- ghrelin
+				- ghrelin's function in regulating several processes related to cancer progression, especially in metastasis and proliferation
+				- Ghrelin regulates processes associated with cancer, including cell proliferation, apoptosis, cell migration, cell invasion, inflammation, and angiogenesis
+				- Ghrelin has predominantly antiinflammatory effects and may play a role in protecting against cancer-related inflammation
+				- the In1-ghrelin variant, the enzyme GOAT, and the GHSR-1b receptor appear to play key roles in tumor proliferation and cancer aggressiveness
+				- The role of native ghrelin in cancer is not fully understood, but studies suggest that effects are dependent on cell type and levels of this hormone; native ghrelin likely has proliferative effects at low doses through the activation of the PI3K/Akt pathway
+				- ghrelin and GHS-R mRNA are highly expressed in metastatic forms of cancers
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9032665/
 		    - inhibitory immune processes
 				- anergy
 					- a lack of reaction by the body's defense mechanisms to foreign substances, and consists of a direct induction of peripheral lymphocyte tolerance
@@ -99,7 +113,6 @@
 			- oncogenes and anti-cancer genes
 				- p53 and other relevant proteins
 			- specific proteins like serine/threonine, tyrosine, glutamine, ubiquitin, survivin
-
 			- sequences/sets/networks of optimal functions to treat cancer
 				- if there is an optimal 'sequence' like a possible sequence of coordinating sets like 'apoptosis-induction, angiogenesis inhibitor, metastasis inhibitors, and glucose/protein/input starvation, then DNA repair once the tumor is definitely gone' which is optimal in order to avoid known errors (such as for example 'substances that deactivate/kill existing negative structres first, then substances that inhibit new bonds/receptors' or 'avoiding taking DNA repair compounds first, which might help cancer cells repair the most, so they survive more', which Im citing as a possible example of a possible interaction, rather than referencing known interactions), or an optimal set like 'compounds targeting all major pathways of cancer, or many different proteins involved in cancer, including BRCA/ATM, until the cancer type is diagnosed', Im not aware of research for that intent
 				- there likely is an optimal sequence/set/network of compounds/processes for treating most cancer types/states in general (unless very different cancer types/states are relevant)
@@ -134,6 +147,7 @@
     		- berberine
     		- boswellia
     		- cannabis
+    		- bitter ginger (zerumbone)
     		- https://www.glioblastomamultiforme.it/en/over-the-counter-drugs-and-supplements-to-fight-glioblastoma-part-one/#:~:text=Over-the-Counter%20Drugs%20and%20Supplements%20to%20Fight%20Glioblastoma%20%28Part,Herbs%206%20Berberine%207%20Boswellic%20acids%208%20Cannabis
 
 		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
@@ -290,6 +304,141 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- compounds with multiple functions, including induction of apoptosis
+		- genistein
+			- genistein reduced cell damage caused by oxidative stress in the A549 cell line
+			- it reduced ROS and the antioxidant component glutathione
+			- genistein has an effect on the methylation status of DNA
+				- methylation inhibition in the Promoter1 region of Keap1 implied an increase in the gene transcription rate
+				- the result was nuclear factor erythroid 2-related factor 2 (Nrf2), which is an antioxidant factor and the oxidative deregulation of the system, an experiment which improved apoptotic activity
+			- genistein changes angiogenesis, metastasis, caspases as well as the NF-κB, extracellular signal-regulated kinase 1/2 (ERK 1/2), mitogen-activated protein kinase (MAPK), and the Wingless and Integration 1/-catenin signaling pathway as well as phosphoinositide 3-kinase/Akt (PI3K/Akt)
+			- genistein-induced stress and its downstream targets have also been found to trigger apoptosis in cancer cells, together with transcription factors 
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8512367/#B170-molecules-26-05997
+		- holy basil
+			- inhibits COX-2 which stimulates an inflammatory response in the body and triggers cancerous activities
+			- some of its phytochemicals like eugenol, rosmarinic acid, apigenin, myretenal, luteolin, β-sitosterol and carnosic acid:
+				- prevent chemical-induced skin, liver, oral and lung cancers and mediate these effects by increasing antioxidant activity, altering gene expression, inducing apoptosis and inhibiting angiogenesis and metastasis
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9919305/
+				- https://pubmed.ncbi.nlm.nih.gov/34331753/
+			- eugenol
+				- eugenol is tulsi’s primary anti-inflammatory catalyst. It is the primary factor that helps keep blood sugar levels stable. It increases insulin secretion by stimulating pancreatic beta cells
+				- eugenol’s anticancer properties are achieved in a number of ways, including triggering cell death, cell cycle arrest, inhibiting migration, metastasis, and angiogenesis on number of cancers
+				- blocked nuclear tumour necrosis factor (TNF)-induced factor-B (NF-κB) activation, suppressed leukotriene C4 and 5-lipoxygenase (5-LOX), and stopped LPS-stimulated cyclooxygenase (COX-2) activity macrophages
+				- the expression of COX-2 is induced by growth factors, LPS and cytokines 
+				- eugenol displayed a decrease in inflammation of reducing TNF-α and neutrophil infiltration
+				- eugenol reduced ovalbumin-specific IgE levels, as well as interleukin-4 and -5 (IL-4 and-5), the primary cytokines in various types of allergic reactions, preventing the emergence of a Th2-type immune response
+				- Eugenol reduced TNF-α and NF-κB expression, reduced myeloperoxidase (MPO) activity, reduced inflammation, altered an oxidative marker, decreased malondialdehyde (MDA), and raised GSH levels
+				- Chemopreventive
+					- Reduces MMP-2 and phosphate-Akt expression in a human lung cancer cell line
+					- EEOS’ potential use as a chemopreventive for lung cancer
+					- Chemopreventive effects of eugenol on stomach cancer caused by N-methyl-N′-nitro-N-nitrosoguanidine (MNNG)
+				- Anticancer activity	
+					- Inhibits the COX-2 gene in human colon HT-29 cell lines
+					- Apoptosis in MCF-7 human breast cancer cells and gastric cancer AGS cells
+					- Diminished oxidation of DNA
+					- Inhibits the action of matrix metalloproteinase (MMP-9)
+					- Prevents the synthesis of prostaglandin-E2
+					- Triggers cell apoptosis
+					- Target surviving/E2F1 pathways
+					- Inhibits ERK pathways/proteins
+				- Anti-inflammatory
+					- Suppression of chemotaxis of neutrophils and macrophages
+					- Prevents the expression of inflammatory cytokines
+					- Inhibitory impact on prostaglandin production
+					- Negatively regulates TNF-α
+					- Inhibits COX-2 activity
+					- Inhibits NF-kappa B pathways
+				- Antioxidant activity	
+					- Suppressive effect on lipid peroxidation
+					- Hinders ROS and RNS production
+					- Suppressive effects on hexanal oxidation
+					- Inhibitory effects on copper-dependent LDL oxidation
+					- Negatively regulates iron-mediated lipid peroxidation
+					- Inhibits nonenzymatic peroxidation in liver mitochondria
+					- Prevents the emergence of illnesses caused by oxidative stress
+				- Eugenol was observed to be hepatotoxic in glutathione-depleted mice; therefore, caution is recommended for concomitant use of holy basil with acetaminophen
+			- ursolic acid (rosemary and holy basil)
+				- decreased the level of Bcl-2 to trigger apoptosis
+				- decreased cells and compact/broken nuclides, caspase-3 amplification, cleaved PARP and DNA
+				- Cell viability was reduced, Apoptotic waterfall Activation and an elevated amount of ROS were also observed
+				- down regulation of Bcl-2, Survivin
+				- modulating the signaling pathways for Forkhead box protein O1 (FoxO1) and PI3K/Akt 
+				- suppressed cancer cell invasion, migration, and proliferation, as well as the formation of cell colonies. Moreover, UrsA has been shown to significantly reduce the expression of u-PA and MMP-2 while simultaneously increasing the expression of PAI-1 and TIMP-2
+				- stimulated the Fas receptor, which was then followed by caspase-8 and PARP activation
+				- raises the level of expression of Bax, causes the release of cytochrome C, lowers the level of Bcl-2, and activates capsases-9
+				- decrease phosphorylation of Akt and the PI3K/Akt/mTOR signalling pathways
+				- induces apoptosis, arresting the WA4 cell cycle in the G1 phase by increasing levels of cleaved caspase 3
+			- rosmarinic acid
+				- rosmarinic acid inhibits the invasion potential of cancer cells
+				- demonstrated antiproliferative activities against cancer cells
+				- Anti-inflammatory targets of RA for cancer therapy include cyclooxygenase-2 (COX-2) and nuclear factor-kB (NF-kB)
+				- RA was found to inhibit COX-2 activity and negatively regulate ERK1/2, resulting in anti-inflammatory effects 
+				- RA controlled EMT-related protein expression and reduced tumour cell invasion
+				- RA promoted EMT by upregulating E-cadherin, inhibiting N-cadherin, and concomitantly inhibiting matrix metalloproteinases (MMPs), so cancer had a reduced ability to invade
+				- RA was able to inhibit EMT, increase chemosensitivity, and suppress the expression of zinc finger E-box binding homeobox 1, snail1, and twist1
+			- apigenin
+				- This flavonoid appears to exhibit anticancer activities by regulating multiple cellular signalling pathways, some of which may involve angiogenesis, apoptosis, the cell cycle, and other genetic pathways
+				- Apigenin strongly suppressed colorectal cancer cell growth, proliferation, migration, invasion, and organoid development by inhibiting the Wnt/-catenin signalling pathway
+				- suppressed the expression of MMP-2, MMP-9, and vascular endothelial growth factor (VEGF), all of which play roles in cell migration and invasion, through the signal transducer and activator of the transcription (STAT-3) pathway
+				- suppressed STAT3 transcriptional activity, decreased STAT3 nuclear localization, and inhibited STAT3 phosphorylation 
+				- suppressed STAT3 transcriptional activity, STAT3 phosphorylation, and STAT3 nuclear localization
+				- suppressed ERK1/2 and P90RSK phosphorylation while activating AKT and S6 phosphorylation
+				- inhibit two kinases, AKT and ERK
+				- decreased the expression of pro-survival regulators AKT, Mcl-1, and ERK which boosted the antitumour activity of ABT-263 in cancer cells
+				- increases p53 accumulation, through increased Bax
+				- modulates the nuclear factor-kappaB signalling pathway
+				- inhibits the production of the chemokines interleukin-6 and interleukin-1, which are released in response to tumour necrosis factor alpha
+				- increases thymidylate synthase expression, which makes cancer cells more vulnerable to apoptosis induced by 5-fluorouracil
+				- induces TRAIL-induced anti-tumour activity in cancer cells by blocking the pro-survival regulators ERK, nuclear factor kappaB (NFkB), and AKT
+				- Apigenin, in contrast to an IKK inhibitor, directly binds with IKK, inhibits IKK kinase activity, and dampens NFkB/p65 activation in cancer cells 
+				- inhibited the growth of cancer by blocking FoxO/PI3K/Akt signalling
+				- apigenin blocks the PI3K/Akt/mTOR pathway which is involved in the induction of apoptosis and autophagy
+				- During the G2-to M transition, apigenin inhibited the expression of cyclin B, cyclin A, and cyclin-dependent kinase-1, all of which are involved in controlling the cell cycle
+				- When apigenin is applied to cancer cells, DNA damage, apoptosis, and cell cycle arrest in the G2/M phase are induced, which ultimately leads to a reduction in cancer cell proliferation 
+				- apigenin inhibits the mRNA expression of vascular endothelial growth factor in response to hyperoxia
+				- inhibits angiogenesis by decreasing HIF-1alpha and vascular endothelial growth factor expression 
+				- apoptosis was induced by apigenin treatment, linked to an elevated Bax/Bcl-2 ratio, which indicates a shift favouring apoptosis
+				- When exposed to apigenin, Bcl-xL and Bcl-2 levels were found to decrease, while Bax protein levels were found to rise
+			- carvacrol
+				- Inhibition of the viability and proliferation of cancer cells and induction of early apoptotic characteristics
+				- Tyrosine kinase receptor (AXL) expression was suppressed and malondialdehyde (MDA) and 8-hydroxy-2′-deoxyguanosine (8-OHdG) levels were raised
+				- Carvacrol exhibited anticancer effects, inducing cell death and antiproliferative effects
+				- The mitochondria-mediated pathway was responsible for the downregulation of cell proliferation and the induction of apoptosis, which was accompanied by the activation of caspase-3 and the downregulation of Bcl-2
+				- Apoptosis may also be triggered by the mitogen-activated protein kinases (p38) and extracellular signal-regulated kinases (ERK) protein
+				- slowed cell cycle/mitosis and induced cell death, with an accumulation of cells in the G1 phase and a reduction in cells in the S phase
+				- decreased cell viability and significantly increased the number of early apoptotic cells 
+				- Cell cycle arrest at the G2/M phase was another effect of carvacrol, which also decreased Bcl-2, metalloproteinases 2 and 9 (MMP-2 and MMP-9), phosphorylated extracellular signal-regulated kinases (p-ERK, p-Akt), and cyclin B1 and increased phosphorylated jun N-terminal kinase (p-JNK), and Bax
+				- When compared to thymol, thujone, 4-terpineol, 1,8-cineol, bornyl acetate, and camphor, the cytotoxic effects of carvacrol were found to be significantly stronger
+				- increase in the levels of the protein Bax, as well as the cleavage of the enzyme poly [ADP-ribose] polymerase 1 (PARP-1) and caspase-3, which are all indicators of an apoptotic effect
+				- induced apoptosis characterized by elevated levels of Bax, decreased mitochondrial membrane potential, cytochrome C release, caspase activation, PARP cleavage, an increase in the sub-phase G0/G1 of the cell cycle, and a decrease in the number of cells in the S phase
+				- Reduced expressions of cyclin D, cyclin E, phosphoinositide-3-kinase (PI3K), phosphoinositide-3-kinase (p-AKT), retinoblastoma protein (pRB), and phosphoinositide-3-kinase (p-AKT) led to an increase in cells in the G0/G1 phase and a decrease in cells in the S and G2 phases 
+		- bitter ginger (zerumbone)
+    		- treatment with Zerumbone suppressed FOXO1 and Akt phosphorylation due to inactivation of IκB kinase α (IKKα) while activating caspase-3 protein and Poly (ADP-ribose) polymerase (PARP), which resulted in decreased cell viability, and induction of apoptosis
+    			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8512367/#B170-molecules-26-05997
+		- berberine
+			- inhibited the release of IFN-γ, TNF-α, interleukin (IL)-6, and IL-1 from LPS-stimulated lymphocytes by acting as a dopamine D1- and D2-like receptor antagonist
+			- reduced TNF-α and IL-1 levels and inhibited CD4+ T cell proliferation, which helped to alleviate autoimmune neuropathy
+			- blocked STAT1 phosphorylation, resulting in IFN-γ induced IDO1 expression suppression
+			- down-regulation of RAD51
+			- reduced the expression of the proliferating cell nuclear antigen (PCNA) protein and cyclin D1
+			- reduced cell migration ability, provoked inhibition of phosphorylation, decreased overexpression of the tumor necrosis factor α (TNF-α) and Interleukin 6 (IL-6), and induced suppression of the nuclear factor kappa light chain enhancer of activated β cells (NF-Κβ)
+			- blocked the accumulation of the LC3II protein, which is associated with autophagy, leading to accumulation of the signaling adaptor p62 protein, decreasing cell proliferation
+			- inhibits autophagy by modulating the PTEN/Akt/mTOR signaling pathway. It also regulates the mitogen-activated protein kinase and the Wingless/Integrated (Wnt)/β-catenin signaling pathways
+			- reduces cell viability, inhibits colony formation, cell migration, and decreases the secretion of proinflammatory cytokines (IL-1α, IL-6, TNF-α, IL-1β)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8658774/
+			- Induction of autophagy, apoptosis
+			- Inhibition of DNA synthesis, cell migration, cell proliferation, cell viability, formation of autophagosomes, glutamine uptake, Phosphorylation
+			- Damage of the mitochondria of cancer cells
+			- Mediation of caspase-independent cell death, Enhancement of caspase-3 and -7 activities, Inhibition of inflammatory cytokine caspase-1 activation and the caspase-1/IL-1 inflammatory signaling axis
+			- Cell cycle arrest at G1 phase and induction of G1 and -G2/M phase cell cycle arrest
+			- Modulation of the miR-203/Bcl-w apoptotic axis	
+			- Inhibition of colony formation, cell migration, and decrease of the secretion of the proinflammatory cytokines (IL-1α, IL-6, TNF-α, IL-1β)	
+			- Upregulation of LncRNA CASC2 and RARβ and RARγ expressions
+			- Downregulation of the expression of Bcl-xL and cyclin-D1 proteins
+			- Inhibition of Bcl-2 gene, MMP-1/2/9/13, uPA, Ras, PARP, Rad51, survivin, STAT3, VEGF and HIF-1α expression, Attenuation of tumor invasion via the down-regulation of C-myc, cyclin-D1, and MMP-3 expressions, Inhibition of PI3K/AKT/mTOR signaling through down-regulation of p-PI3K, p-AKT expressions
+			- Downregulation of NANOG, POU5F1, and SOX2	
+			- Modulation of MAPK-signaling pathways
+			- Inhibition of SLC1A5
+			- Decrease of cellular testosterone synthesis in a dose-dependent manner and Suppression of androgen receptor signaling
 		- trichostatin A (a histone deacetylase inhibitor)
 			- TSA promotes the expression of apoptosis-related genes, leading to cancerous cells surviving at lower rates, thus slowing the progression of cancer
 			- Other mechanisms may include the activity of HDIs to induce cell differentiation, thus acting to "mature" some of the de-differentiated cells found in tumors
@@ -326,11 +475,10 @@
 				- epigenetic regulation
 				- antiviral and bactericidal activities
 				- modulation of gut microbiota
-				- attenuation of chemotherapy-induced deleterious side effects. 
+				- attenuation of chemotherapy-induced deleterious side effects
 				- sensitize cancer cells to chemotherapeutic agents
 					- blocking the activation of the transcription factor nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
 		- saffron/crocins
-			- TE significantly (P < 0.05) 
 			- inhibited the proliferation of cancer cells, with lower toxic effects against normal cells
 			- inhibited the colony formation of cancer cells
 			- stimulated apoptosis in cancer cells
@@ -340,16 +488,18 @@
 		- resveratrol
 			- resveratrol inhibited STAT3 signaling through modulation of PIAS3, SHP1, SHP2, and SOCS3, thereby attenuating tumor growth and increasing sensitivity to TMZ
 			- https://pubmed.ncbi.nlm.nih.gov/37298405/
-		- turmeric
-			- curcumol
-				- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
-				- https://www.researchgate.net/publication/340629926_Therapeutic_Effects_of_Curcumol_in_Several_Diseases_An_Overview
+		- turmeric/curcumin/curcumol
+			- suppresses the signal transducer and activator of transcription 3 (STAT3) and nuclear factor kappa B (NF-κB) signaling pathways
+			- promote apoptosis and cause down-regulation of epidermal growth factor receptor (EGFR), protein kinase B (Akt), and cMET cyclin D1 
+			- inhibits cell proliferation, cell cycle arrest, and stimulate apoptosis by modulating other transcription factors like activator protein 1 (AP-1), early growth response protein 1 (Erg-1), p53, -catenin, Notch-1, hypoxia-inducible factor 1 (HIF-1), and peroxisome proliferator-activated receptor alpha (PPAR-α) 
+			- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
+			- https://www.researchgate.net/publication/340629926_Therapeutic_Effects_of_Curcumol_in_Several_Diseases_An_Overview
 		- sugiol (relatively untested in humans, not available for purchase)
 			- Sugiol has been shown to inhibit the oncogenic protein STAT3
 			- inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
 				- Reactive oxygen species are highly reactive, and can damage cellular mechanisms by oxidizing critical molecules
 			- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6
-		- Piperlongumine (from Indian Long Pepper plant, Piper longum)
+		- piperlongumine (from Indian Long Pepper plant, Piper longum)
 			- binds to and hinders the activity of a protein called TRPV2, which is overexpressed in glioblastoma in a way that appears to drive cancer progression
 			- piperlongumine treatment radically shrank glioblastoma tumors and extended life and also selectively destroyed glioblastoma cells
 			- piperlongumine acts as an inhibitor (channel closer) of a type of TRP ion channel called TRPV2
@@ -359,7 +509,7 @@
 		- chicory 
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912540/
 			- A first group of nine Diet-induced gene expression profiles, modified by the chicory diet, is involved in cell proliferation and apoptosis, and their deregulation suggests a cell growth arrest and a putative anti-cancer effect
-		- Uncaria tomentosa
+		- uncaria tomentosa
 			- reduce tumor growth
 			- increased apoptosis
 			- Treatment with ethanolic extracts of Uncaria tomentosa were much more effective than treatment with aqueous extracts
@@ -862,7 +1012,7 @@
 
 
 	- increase antioxidants 
-		- vitamin C
+		- vitamin C, except where cancers use it and other vitamins
 		- alpha lipoic acid
 		- upregulate glutathione (an endogenous antioxidant)
 			- reacts with reactive oxygen species to neutralize/reduce them
@@ -906,19 +1056,59 @@
 			- Withaferin A 
 
 
+	- induce senescence of cancer cells
+	- decrease migration/invasion/proliferation of cancer cells
+	- decrease Hsp27
+	- increase ROS generation in cancer cells
+	- increase AMPK activation
+	- decrease mTOR signaling
+	- decrease Nf-ƘB signaling
+	- increase tumor suppressor let-7miRNA
+	- increase G0/G1 cell cycle arrest
+	- decrease radiation induced ERK signaling
+	- decrease EGFR-RAF-MEK-ERK signaling
+	- decrease Bcl-2/Bax ratio
+	- activate caspase-9/caspase-3
+	- decrease VEGF-A
+
 	- induce apoptosis
+
+		- increased apoptosis in both p53 independent and dependent pathways
+			- Angelica sinensis
+
+		- decrease antiapoptotic proteins XIAP, Bcl-2, and survivin
+			- Resveratrol
+
 		- herb/food compounds which induce apoptosis
-			- Resveratrol, Withaferin A, methanolic extract of Salvia menthaefolia roots, berberine, Ficus carica latex, propolis, AMT, thymoquinone, cucurbitacins, betulinic acid from Betula pubescens, quercetin, diosquinone from Diospyros tricolor, Angelica sinensis root
-				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+				- Resveratrol, Withaferin A, methanolic extract of Salvia menthaefolia roots, berberine, Ficus carica latex, propolis, AMT, thymoquinone, cucurbitacins, betulinic acid from Betula pubescens, quercetin, diosquinone from Diospyros tricolor, Angelica sinensis root
+				- Allium cepa/Quercetin: decreased Hsp27 and increased TMZ sensitivity in U87 and U251 GBM cell lines
+				- Vitis vinifera/Resveratrol: decreased MGMT expression, decreased Nf-ƘB signaling and decreased antiapoptotic proteins XIAP and survivin and increased TMZ sensitivity in T98G GBM cells, increased ROS generation, increased AMPK activation, decreased mTOR signaling, decreased antiapoptotic protein Bcl-2 and increased TMZ sensitivity in SHG44 GBM cells; decreased orthotopic GBM xenograft with TMZ
+				- Herba Epimedi/Icariin: decreased proliferation of U87 GBM cells; decreased Nf-ƘB signaling, decreased migration, decreased invasion and increased TMZ sensitivity in U87 GBM cells
+				- Ficus carica/Latex: decreased proliferation of U87, U138MG and T98G GBM cell lines; increased tumor suppressor let-7miRNA, decreased invasion and increased TMZ sensitivity
+				- Apis mellifera/Propolisis: Ethanolic extract of Propolisis, decreased Nf-ƘB signaling and increased TMZ sensitivity in U87 GBM cells, decreased cell proliferation in U343 and U251 GBM cell lines, increased chemosensitivity to TMZ
+				- Zataria multiflora: increased radiosensitivity of A172 GBM cells
+				- Stephania tetrandra S. Moore/Tetrandrine: increased G0/G1 cell cycle arrest; decreased radiation induced ERK signaling and proliferation associated genes PCNA and CCND1; increased radiosensitivity of U87 and U251 cell lines
+				- Withania somnifera/Withaferin A: decreased cell proliferation of U87, U251 and TMZ resistant GBM cell lines U87 TMZ, U251 TMZ, T98G and U138 in a concentration dependent manner, increased TMZ sensitivity by decreased MGMT expression, decreased tumor volume in rat orthotopic glioma allograft model, increased median survival of orthotopic xenograft mouse model by 40%
+				- Curcuma longa: increased sensitivity to TMZ in U87 GBM cells, decreased intracranial tumor growth of U87 GBM xenografts and increased the overall survival of mice
+				- Angelica sinensis: increased apoptosis in both p53 independent and dependent pathways, decreased tumor growth in a rat GBM model & human GBM orthotopic model
+				- Ardisia pusilla/Ardipusilloside 1 (ADS-1) polymer microspheres: able to retain ADS-1 release for 36 days in in vitro Higuchi model of kinetics; inhibited tumor growth in vivo C6 intracranial tumor model and increased overall survival of the animal
+				- Berberis aristata/Berberine: elicited more cytotoxicity than TMZ in U87, U251 and U118 GBM cell lines, decreased EGFR-RAF-MEK-ERK signaling and induced senescence; decreased tumor growth in GBM xenografts
+				- Anemone taipaiensis/Saponin 1: decreased expression of survivin, XIAP, Bcl-2/Bax ratio, activating caspase-9, caspase-3 and apoptosis in U251 and U87 GBM cell lines; decreased tumor growth in U251 and U87 GBM xenografts in mice
+				- Panax ginseng/Ginsenoside RG3: increased TMZ sensitivity, decreased VEGF-A and BCl-2 in HUVEC and rat glioma cell lines, RG3 and TMZ combinational treatment significantly decreased angiogenesis
+				- Iris versicolor/Iridin: decreased intracranial growth of U87 and G144 GBM xenografts in mice
 			- juglone
 				- exhibits cytotoxic, anti-proliferative, and anti-invasive effects on various cells, could be a promising agent for GBM therapy
 				- juglone induces strong oxidative stress, as identified by a high increase in the amount of 8-oxo-eoxyguanosine and decreases 5-methylcytosine in the DNA of cancer cells
 			- emodin (buckthorn, Japanese knotweed)
+				- by activating a ROS-activated ATM-p53-Bax signaling pathway, Emodin promoted mitochondria-dependent apoptotic cell death
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8512367/#B170-molecules-26-05997
 			- honokiol (magnolia)
 			- Quercetin (most fruits)
 			- Isorhamnetin (yellow or red onions, pears, olive oil, wine and tomato sauce)
 				- inhibited various pro-inflammatory cytokines to suppress cancer-inducing inflammation. Additionally, it regulated Akt and MAPKs to suppress Nrf2 signaling. Isorhamnetin activated PPAR-γ and autophagy while suppressing cell cycle progression
 			- Baicalin (Chinese skullcap)
+				- baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
 			- EGCG (green tea)
 			- Genistein (soy)
 			- Resveratrol (grapes)
@@ -1071,6 +1261,7 @@
 			- triggering a specific family of enzymes involved in the replication of DNA
 			- linked with greater protection against DNA strand breaks and lower rates of cancer
 		- selenium
+			- improved development of ROS, mitochondrial ROS fragments and multiple DNA damage marker levels, while also reducing expressiveness of VEGF and VEGF2 
 			- prevents oxidative damage to DNA
 			- boosts the activity of enzymes and pathways involved in DNA repair
 			- may also benefit people who carry the BRCA1 and BRAC2 carriers–genetic mutations that increase the risk of breast, prostate, ovarian and pancreatic cancers
@@ -1182,7 +1373,12 @@
 					- Cancer cells express enhanced vimentin expression and correlates with the induction of epithelial to mesenchymal transition (EMT), metastasis, poor prognosis and decreased survival rate
 				- degrades vimentin
 					- caspase-dependent degradation of vimentin by withaferin A was observed
-		- inhibit PCNA 
+		- inhibit CCND1 (a proliferation associated gene)
+			- Stephania tetrandra S. Moore/Tetrandrine
+			- methyl jasmonate
+		- inhibit PCNA (a proliferation associated gene)
+			- Stephania tetrandra S. Moore/Tetrandrine
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
 			- d-limonene
 				- D-lim suppressed mitochondrial apoptosis by considerably downregulating Bax and caspase-3 (Casp-3) mRNA and protein expressions and markedly enhancing Bcl2 mRNA and protein expressions
 				- D-lim significantly decreases GM-induced inflammatory response through downregulation of NF-κB, IL-6, and TNF-α mRNA and/or protein expressions and decrease in renal myeloperoxidase activity
