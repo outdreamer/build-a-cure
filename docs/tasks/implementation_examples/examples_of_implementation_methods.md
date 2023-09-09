@@ -3,6 +3,11 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:
     
+    - identify useful structures like 'known connections' that can be applied as 'default components' of interface queries to fulfill conceptual metrics like 'reducing uncertainty' in selecting queries
+        - for example, the reason that 'similarities' can be used to detect 'differences' is that the connection between them is known (opposite) and this can be applied to find one from the other (once similarities are identified, differences are more identifiable/obvious), so the interface query is 'find similarities', then 'find opposites of similarities (differences)'
+        - other structures with known connections (like known function sequences such as 'find a structure, then find its opposite, in order to find different structures from the original structure') can be similarly connected to apply these known connections (such as 'opposites' are a known connection between similarities/differences) as default components of interface queries
+        - this is useful for specific metrics like 'reducing uncertainty' in interface queries (which shouldnt be uncertain so much as similar to a workflow and similar to the problem-solving intents)
+
     - identifying useful structures like useful networks of functions/structures which have useful connections like 'connections that avoid the errors of a network'
         - for example, 'reducing to a negative' is an application of a core interaction function and a core structure on various interfaces (like charge, value, etc) but has an error in that it doesnt cover reality as there are structures which cant be reduced to a negative (structures formed by differences like opposites allowed in the negative network, which can create structures like positives, and more relevantly, irreducible positives)
         - similarly, 'connecting to an interface' is usually possible and useful but allows opposing structures like 'limits' or opposing variants of symmetries (like a 'difference in a difference')
