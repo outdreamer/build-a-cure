@@ -13,7 +13,7 @@
 		- a p53 activator (astaxanthin, ginger, resveratrol, withaferin, berberine)
 		- a EGFR inhibitor (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
 
-		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein and fats like linoleic acid as well as carbs, and the amino acids like methionine listed below, and avoiding p53 inhibitors like olive oil)
+		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
 		
 		- I used a fast + celastrol/withaferin to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
