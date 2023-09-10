@@ -33,9 +33,23 @@
 			- surface proteins/sugars
 			- sirtuins
 			- cell senescence
-			- cholesterol
+			- lower purines
+				- impaired purine metabolism is associated with the progression of cancer
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6077182/
+			- lower oxalates
+				- chronic exposure of cells to oxalate promotes the transformation of cells from normal to tumor cells, inducing the expression of a proto-oncogen as c-fos
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4618885/
+			- increase MAO-A
+				- MAO-A produces an amine oxidase, which is a class of enzyme known to affect carcinogenesis
+				- Clorgyline, an MAO-A enzyme inhibitor, prevents apoptosis in melanoma cells
+				- Cholangiocarcinoma suppresses MAO-A expression, and those patients with higher MAO-A expression had less adjacent organ invasion and better prognosis and survival
+				- Monoamine oxidase A (MAO A) and heat shock protein 90 (HSP90) inhibitors have been shown to decrease the progression of glioblastoma (GBM) and other cancers
+				- https://pubmed.ncbi.nlm.nih.gov/37172473/
+			- avoiding unnecessary medications (treat conditions like acidosis that lead to gout and lower purines in diet, rather than using allopurinol)
+				- allopurinol also blocks the hydroxylation of hypoxanthine, xanthine (released from dead cancer cells) leading to their accumulation in the body
+			- lower cholesterol
 				- high/low cholesterol is associated with increased risk of cancer
-			- diabetes/insulin
+			- increase insulin sensitivity/treat diabetes
 				- PI3Ks relate to the sensitivity of cancer tumors to insulin and IGF1, and in calorie restriction
 			- nitric oxide/hydrogen sulfide
 				- Hydrogen sulfide and nitric oxide are mutually dependent in the regulation of angiogenesis and endothelium-dependent vasorelaxation
