@@ -318,6 +318,23 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- compounds with multiple functions, including induction of apoptosis
+		- silymarin (milk thistle)
+			- Silymarin protected against induction of ornithine decarboxylase by TPA. Ornithine decarboxylase inhibition protects against tumor promotion
+			- Silymarin and its components also inhibit beta-glucuronidase
+			- silymarin showed inhibition of Erb1 (eukaryotic ribosome biogenesis protein 1) signaling and G1 arrest, where G1 arrest was found due to increased p21 and decreased CDKs activity
+			- silymarin decreased ligand binding to Erb1 135 and NF-kB expression was strongly inhibited by silymarin
+			- low doses of silymarin inhibited ERK1 and ERK2 Map kinases and at higher doses activated MAPK/JNK1, which means that at lower doses the effect was antiproliferative and at higher doses proapoptotic
+			- levels of PSA were significantly decreased and cell growth was inhibited through decreased CDK activity and induction of Cip1/p21 and Kip1/p27
+			- anti-COX2 and anti-IL-1α activity, 140 antiangiogenic effects through inhibition of VEGF secretion, upregulation of Insulin like Growth Factor Binding Protein 3 (IGFBP3), 141 and inhibition of androgen receptors
+			- silymarin inhibited proliferation and induced differentiation into monocytes
+			- another important effect of silymarin in cancer is the downregulation of the STAT3 pathway
+			- Telomerase activity is another important factor in promoting carcinogenesis and evading senescense, thus inducing cancer cell immortality; silymarin has the ability to decrease telomerase activity
+			- The apoptotic mechanism silymarin employs on cancer cells is generally p53 dependent, and follows the usual steps: increased proapoptotic proteins; decreased antiapoptotic proteins; mitochondrial cytochrome C release-caspase activation. Caspase inhibitors terminate silymarin apoptotic activity. Malignant p53 negative cells show only minimal apoptosis when treated with silymarin. Therefore, one conclusion is that silymarin may be useful in tumors with conserved p53
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8814827/
+		- saw palmetto
+			- inhibits Cox-2 expression in cancer cells
+			- inhibits STAT3 pathway
+			- inhibits PI3K/Akt pathway
 		- genistein
 			- genistein reduced cell damage caused by oxidative stress in the A549 cell line
 			- it reduced ROS and the antioxidant component glutathione
@@ -1229,7 +1246,26 @@
     	- methionine, the methyl group donor in DNA methylation, is related to cancer growth in a number of studies
 
 
+    - inhibit Cancer Cell Migration
+		- inhibit histone deacetylase activity
+		- increase histone acetyltransferase activity
+		- reduce expression of the transcription factor ZEB1
+		- increase expression of E-cadherin
+		- increase expression of miR-203
+		- reduce activation of sodium hydrogen isoform 1 exchanger (NHE1)
+		- target β catenin and reduce the levels of MMP2 and MMP9
+		- reduce activation of prostaglandin E2
+		- suppress vimentin expression
+		- inhibit Wnt signaling
+		- modulate β1 integrin signaling
+
+
 	- inhibit angiogenesis
+		- mechanisms
+			- Decreased migration of endothelial cells
+			- Flt1 (VEGFR1) upregulation
+				- (VEGFR1 upregulation may act as a negative regulator of VEGFA that is upheld by this receptor with low protein kinase activity and therefore VGEFA is unable to bind to KDR [VEGFR2] with much higher kinase activity). 158
+			- VEGF downregulation
 		- https://en.wikipedia.org/wiki/Angiogenesis_inhibitor (angiogenesis is formation of new blood vessels which can feed tumors)
 		- methionine is required for angiogenesis
 		- Some common components of human diets also act as mild angiogenesis inhibitors and have therefore been proposed for angioprevention, the prevention of metastasis through the inhibition of angiogenesis. In particular, the following foods contain significant inhibitors and have been suggested as part of a healthy diet for this and other benefits:
