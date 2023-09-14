@@ -317,7 +317,7 @@
 
 - inhibit/avoid/reduce carcinogenic structures
 
-	- compounds with multiple functions, including induction of apoptosis
+	- use anti-cancer compounds with multiple functions, including induction of apoptosis
 		- silymarin (milk thistle)
 			- Silymarin protected against induction of ornithine decarboxylase by TPA. Ornithine decarboxylase inhibition protects against tumor promotion
 			- Silymarin and its components also inhibit beta-glucuronidase
@@ -634,14 +634,14 @@
 					- ATM (Ataxia-telangiectasia mutated)
 						- ATM is thought to be a master controller of cell cycle checkpoint signalling pathways that are required for cellular responses to DNA damage such as double-strand breaks
 						- a defect in ATM has severe consequences in repairing certain types of damage to DNA, and cancer may result from improper repair
-				- Therapy/drug							Target					Function																		Cancer/disease				
-					CTL									LMP1/LMP2				Stimulates LMP-specific T cell expansion										NK/T cell lymphoma				
-					TCR									EBNA1/LMP1/LMP2A		Stimulate and expand EBV-specific CD8 + T cells in patients						Progressive multiple sclerosis		
-					Recombinant vaccinia virus			ENBA1/LMP2				Promote the production of EBNA1/LMP2 antibodies									Nasopharyngeal carcinoma			
-					DNAzyme								LMP1					Targeted degradation of LMP1 mRNA												Nasopharyngeal carcinoma			
-					Fedratinib, AZD1480 and LY294002	JAK2, PI3K and mTOR		Inhibit the expression of PD-L1 and restore immune surveillance					Gastric cancer						
-					IMD-0354							NF-κB					Inhibit proliferation and increase apoptosis									NK/T cell lymphoma					
-					AT13387								Hsp90					Inhibits AKT/p-AKT expression/cancer cell proliferation/restores p27 function 	Nasopharyngeal carcinoma
+				- Therapy/drug								Target					Function																		Cancer/disease				
+					- CTL									LMP1/LMP2				Stimulates LMP-specific T cell expansion										NK/T cell lymphoma				
+					- TCR									EBNA1/LMP1/LMP2A		Stimulate and expand EBV-specific CD8 + T cells in patients						Progressive multiple sclerosis		
+					- Recombinant vaccinia virus			ENBA1/LMP2				Promote the production of EBNA1/LMP2 antibodies									Nasopharyngeal carcinoma			
+					- DNAzyme								LMP1					Targeted degradation of LMP1 mRNA												Nasopharyngeal carcinoma			
+					- Fedratinib, AZD1480 and LY294002		JAK2, PI3K and mTOR		Inhibit the expression of PD-L1 and restore immune surveillance					Gastric cancer						
+					- IMD-0354								NF-κB					Inhibit proliferation and increase apoptosis									NK/T cell lymphoma					
+					- AT13387								Hsp90					Inhibits AKT/p-AKT expression/cancer cell proliferation/restores p27 function 	Nasopharyngeal carcinoma
 					- Inhibitors of USP7 (ubiquitin-specific processing protease 7)
 						- Stabilization by USP7 is important for the tumor suppressor function of p53
 						- Compromising the function of p53 by sequestering USP7 is one way EBNA1 can contribute to the oncogenic potential of EBV	
