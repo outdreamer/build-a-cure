@@ -7,6 +7,8 @@
 		- an angiogenesis inhibitor (withaferin, EGCG, calestrol, uncaria tomentosa)
 		- a Wnt pathway inhibitor (celastrol)
 		- a TRPV2 inhibitor (piperlongumine)
+		- an IDH1 inhibitor (turmeric, milk thistle)
+			- inhibit glutamate processing (using GLUD-inhibitor EGCG) to reduce D-2-HG production, but also decrease NAD(P)H and α-KG synthesis, and decrease proliferation rates of IDH1
 		- substances that suppress STAT3 (turmeric, resveratrol)
 		- substances that suppress NK-κB, NF-jB, MAPK, cyclin D1, PI-3K/AKT, EGFR, GSK-3b (turmeric)
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
@@ -31,6 +33,7 @@
 			- angiogenesis, glycolysis, glutaminolysis, prenylation, phosphorylation, methylation, activation, oxidation, polyglutamylation, sumoylation and glutathionylation, protein ubiquitination (adding a ubiquitous regulatory protein called 'ubiquitin' to another protein), acetylation, inflammation, gene activation/mutations/amplifications/overexpressions/loss of heterozygosity
 		- cancer variables
 			- surface proteins/sugars
+			- mutation sequences
 			- sirtuins
 			- cell senescence
 			- lower purines
@@ -318,6 +321,34 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
+		- Moringa oleifera
+			- anti-proliferation, liver protection, anti-inflammation, anti-atherosclerosis, oxidative DNA damage protection, anti-peroxidation, and heart protection
+			- inhibit cell proliferation, growth, and migration by affecting different signaling pathways in cells
+			- has a great potential to inhibit tumor progression without affecting the normal physiology and function of the body
+			- apoptosis
+				- Similar to selenium, Moringa is able to promote cancer apoptosis through mitochondria, as it has significant anti-cancer effects on cancer cells involving mitochondria-mediated caspase enzyme-dependent and caspase enzyme-independent apoptotic pathways 
+				- induce mitochondrial reactive oxygen species (ROS) production in cancer cells, promoting apoptosis through the activation of caspase 3
+				- up-regulate cysteine, downregulate the anti-apoptotic factors, and induce apoptosis of cancer cells
+				- increased lipid peroxidation, DNA damage, and γH2AX levels, while causing significant increases in caspase 9, caspase 3/7, Bax, Smac/diablo, and cleaved PARP-1, inducing apoptosis
+				- inhibited p-JAK2 and p-STAT3 and has dose-dependent effects, these results suggest that the M. oleifera leaf extract works by inhibiting the JAK2/STAT3 signaling pathway, it is closely related to the proliferation, angiogenesis, invasion, and migration of cancer cells
+				- decrease in protein expression of B-cell lymphoma 2 (BCL2) and sirtuin-1, and reduced mitochondrial membrane potential, which are involved in the apoptosis process
+				- Reducing the proliferation of cancer cells is a way to control cancer cell amplification, and M. oleifera leaf extract significantly reduces the levels of c-myc, p-Bcl2, and Hsp70 to induce cell cycle stagnation
+			- components
+				- ITCs
+					- Isothiocyanates (ITCs), sulfur-containing bioactive compounds resulting from enzymatic hydrolysis of GLs, appear in many Brassicaceae vegetables with a variety of biological functions, including antibacterial, antioxidant, anti-inflammation, anti-cancer, and other properties
+					- ITCs bind some important biomolecules, such as cytoskeletal proteins, transcription factors, as well as heat shock proteins, while they also inhibit histone deacetylases, affecting the epigenetic regulation of gene expression
+				- MIC-1
+					- Lipopolysaccharide (LPS) is a powerful inducer of inflammation, endotoxemia, and sepsis in cells and animals
+						- MIC-1 reduced the expression of inflammatory markers, and activates Nrf2 and inhibits NF-κB signaling, reducing ROS in the cytosol, enabling reduced mitochondrial peroxide content and restoration of mitochondrial membrane potential
+						- NO is an important inflammatory mediator produced by nitric oxide synthase, and MIC-1 treatment reduces NO production
+					- MIC-1 complexed with α-cyclodextrin can downregulate the levels of p-PI3K, p-Akt, and p-mTOR associated with this signaling pathway, thereby downregulating the signaling pathway 
+					- inhibits the mitogen-activated protein kinase (MAPK) pathway, triggered by PI3K/Akt/mTOR signaling, which plays a key role in regulating many cellular functions, including survival, proliferation, and apoptosis in different cell types
+					- upregulates p53 and p21 expression and promote caspase 3 cleavage, thus promoting apoptosis 
+					- alters the normal progression of cells during the cell cycle, increase the number of cells in the G2 and S phases, reduce the number of cells in the G1 phase, and inhibit the nuclear translocation of NF-κB
+					- preserves the membrane and internal structural integrity of differentiated neurons, suggesting its ability to protect neurons from oxidative stress degeneration
+					- During chronic inflammation, activated macrophages are thought to cause continuously deteriorating inflammation through sustained and excessive production of inflammatory mediators such as cytokines, chemokines, lysozymes, proteases, growth factors, and eicosanes
+					- MIC-1 can cause the inability of activation of several transcription factors to inhibit the occurrence and development of inflammation
+			- https://europepmc.org/article/MED/34946594
 		- silymarin (milk thistle)
 			- Silymarin protected against induction of ornithine decarboxylase by TPA. Ornithine decarboxylase inhibition protects against tumor promotion
 			- Silymarin and its components also inhibit beta-glucuronidase
