@@ -14,6 +14,7 @@
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
 		- a p53 activator (astaxanthin, ginger, resveratrol, withaferin, berberine)
 		- a EGFR inhibitor (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
+		- prevent fibrosis (ashwagandha)
 
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
@@ -556,11 +557,6 @@
 			- inhibits cell proliferation, cell cycle arrest, and stimulate apoptosis by modulating other transcription factors like activator protein 1 (AP-1), early growth response protein 1 (Erg-1), p53, -catenin, Notch-1, hypoxia-inducible factor 1 (HIF-1), and peroxisome proliferator-activated receptor alpha (PPAR-α) 
 			- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
 			- https://www.researchgate.net/publication/340629926_Therapeutic_Effects_of_Curcumol_in_Several_Diseases_An_Overview
-		- sugiol (relatively untested in humans, not available for purchase)
-			- Sugiol has been shown to inhibit the oncogenic protein STAT3
-			- inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
-				- Reactive oxygen species are highly reactive, and can damage cellular mechanisms by oxidizing critical molecules
-			- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6
 		- piperlongumine (from Indian Long Pepper plant, Piper longum)
 			- binds to and hinders the activity of a protein called TRPV2, which is overexpressed in glioblastoma in a way that appears to drive cancer progression
 			- piperlongumine treatment radically shrank glioblastoma tumors and extended life and also selectively destroyed glioblastoma cells
@@ -589,18 +585,27 @@
 				- The anti-inflammatory action is due to deacylation of the pro-inflammatory transcription factor NF-κB by sirtuin 1
 			- upregulate glutathione, an endogenous antioxidant
 				- It has direct activity as a reducing agent, chemically reacting with reactive oxygen species to neutralize them. Studies suggest that it lodges in cell membranes and prevents oxidative damage to lipids in the cell membrane
-		- citicoline
-			- choline variants are involved in helping some cancers 
-			- increases the levels of reduced glutathione (GSH), a major antioxidant agent
-			- citicoline affects the staurosporine-induced apoptosis cell-signalling pathway by interacting with the glutathione system and by inhibiting caspase-3
-			- Once acetylcholine moves across the synapse, it can bind to two types of receptors: nicotinic receptors and muscarinic receptors
-			- ability to produce Acetylcholine is dependent upon IL-21 signalling to the T cells
-			- during infection this immune-derived acetylcholine is necessary for the T cells to migrate into infected tissues
-			- acetylcholinesterase (AChE) is a serine hydrolase whose primary function is to degrade acetylcholine and terminate neurotransmission, and is involved in cellular growth, apoptosis, drug resistance pathways, response to stress signals and inflammation
-			- however, citicoline is an antifungal that can help reduce fungal load where fungal infections have caused or otherwise help cancer cells grow
-			- Supplements that stop the breakdown of acetylcholine include Bacopa monnieri, Ginkgo biloba and huperzine A
-			- Acetylcholine (ACh) is an important neurotransmitter that plays a role in brain functions, such as memory, and body functions, such as muscle contractions to move your muscles. Low levels of acetylcholine are associated with memory issues and muscle disorders
-			
+		- other more toxic compounds
+			- cardenolides
+			- sugiol (relatively untested in humans, not available for purchase)
+				- Sugiol has been shown to inhibit the oncogenic protein STAT3
+				- inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
+					- Reactive oxygen species are highly reactive, and can damage cellular mechanisms by oxidizing critical molecules
+				- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6
+		- other related compounds
+			- antifungals
+				- citicoline
+					- choline variants are involved in helping some cancers 
+					- increases the levels of reduced glutathione (GSH), a major antioxidant agent
+					- citicoline affects the staurosporine-induced apoptosis cell-signalling pathway by interacting with the glutathione system and by inhibiting caspase-3
+					- Once acetylcholine moves across the synapse, it can bind to two types of receptors: nicotinic receptors and muscarinic receptors
+					- ability to produce Acetylcholine is dependent upon IL-21 signalling to the T cells
+					- during infection this immune-derived acetylcholine is necessary for the T cells to migrate into infected tissues
+					- acetylcholinesterase (AChE) is a serine hydrolase whose primary function is to degrade acetylcholine and terminate neurotransmission, and is involved in cellular growth, apoptosis, drug resistance pathways, response to stress signals and inflammation
+					- however, citicoline is an antifungal that can help reduce fungal load where fungal infections have caused or otherwise help cancer cells grow
+					- Supplements that stop the breakdown of acetylcholine include Bacopa monnieri, Ginkgo biloba and huperzine A
+					- Acetylcholine (ACh) is an important neurotransmitter that plays a role in brain functions, such as memory, and body functions, such as muscle contractions to move your muscles. Low levels of acetylcholine are associated with memory issues and muscle disorders
+
 	- inhibit mutations/bacteria/fungi/viruses that cause cancer (Li-Fraumeni syndrome, EBV, HPV, Herpes, Hepatitis)
 		- inherited mutations
 			- Abnormalities of the p53 gene can be inherited in Li-Fraumeni syndrome (LFS), which increases the risk of developing various types of cancers
@@ -704,6 +709,11 @@
 
     - inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
     	- sugiol
+
+
+    - prevent fibrosis
+		- https://medicalxpress.com/news/2023-09-barrier-solid-tumors-path-cells.html
+		- ashwagandha
 
 
     - inhibit glycolysis/glutaminolysis/angiogenesis/DNA repair
