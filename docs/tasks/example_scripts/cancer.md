@@ -2,9 +2,9 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
-		- a substance to downregulate PCNA (d-limonene, EGCG, withaferin, berberine, tetrandrine)
-		- a MGMT inhibitor (disulfiram, resveratrol/withaferin + temozolomide)
-		- an angiogenesis inhibitor (withaferin, EGCG, calestrol, uncaria tomentosa)
+		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine)
+		- a MGMT inhibitor (disulfiram, resveratrol/ashwagandha + temozolomide)
+		- an angiogenesis inhibitor (ashwagandha, EGCG, calestrol, uncaria tomentosa)
 		- a Wnt pathway inhibitor (celastrol)
 		- a TRPV2 inhibitor (piperlongumine)
 		- an IDH1 inhibitor (turmeric, milk thistle)
@@ -12,17 +12,45 @@
 		- substances that suppress STAT3 (turmeric, resveratrol)
 		- substances that suppress NK-κB, NF-jB, MAPK, cyclin D1, PI-3K/AKT, EGFR, GSK-3b (turmeric)
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
-		- a p53 activator (astaxanthin, ginger, resveratrol, withaferin, berberine)
+		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
 		- a EGFR inhibitor (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
 		- fibrosis inhibitors (ashwagandha)
 		- tyrosine kinase inhibitors
+		- Myc inhibitors
+			- inhibit Nucleotide Metabolism
+				- 6-Benzylthioinosine (depletes ATP)
+				- mycophenolic acid 
+					- can cause cancer, but can also induce apoptosis through guanine nucleotide depletion
+					- also inhibits mTORC1, induces caspase 3-dependent apoptosis, reduces p70S6K and 4EBP1 phosphorylation, and mediates decreases in MYC and cyclin D protein translation, due to depletion of GTP
+			- inhibit Glutamine Metabolism
+				- Glutamine, typically a non-essential amino acid, has been shown to be an important source of energy for cancer cells
+				- p32 has been shown to be a direct target of MYC, and is important for MYC control of glutamine metabolism
+				- Mitochondrial protein SIRT4 represses the effects of MYC on glutamine metabolism, and can synergize with glycolytic inhibitors and induce cell death
+				- Lactate levels themselves can serve to modulate the degree of glycolysis versus glutaminolysis within cells via HIF-1α and MYC activation
+				- Within liver tumors, inhibitor of differentiation 1 (ID1), and within colorectal cancer cells, N-Myc downstream regulated gene 2 (NDRG2), function as suppressors of MYC function that further impact cellular metabolism
+				- In prostate cancer, prostate cancer gene expression marker 1 (PCGEM1) is a long coding RNA that can interact with MYC directly and enhance its activity
+				- Among the 14-3-3 proteins, 14-3-3σ is capable of enhancing ubiquitination and degradation of MYC, and functions as a key regulator of cell metabolism in breast cancer cells 
+			- inhibit Fatty Acid Metabolism
+				- SPHK2 inhibitor reduced MYC protein expression
+			- inhibit glucose metabolism to indirectly inhibit myc
+				- fasentin (GLUT-1 Inhibitor)
+				- 3-Bromopyruvate, 2-Deoxyglucose (Hexokinase Inhibitors)
+				- Metformin
+				- Galloflavin, Gossypol, Oxamate (LDH Inhibitors)
+				- Dichloroacetate (Pyruvate Dehydrogenase Kinase 1 (PDK1) inhibitor)
+				- mTOR inhibitors (Rapamycin, Temsirolimus, Icariside)
+				- Diclofenac (a non-steroidal anti-inflammatory drug) inhibits GLUT-1, LDH-A, and MCT1 expression in cancer cell lines, along with decreased MYC activity, resulting in reduced cell proliferation and tumor growth
+			- moringa, trichostatin: inhibition of this enzyme histone deacetylase 6 leads to a significant decrease in Myc concentration
 		- potassium ion channel inhibitors (tetrandrine, Berberine, Matrine/Sophora flavescent/Euchresta japonica, Salvia miltiorrhiza/tanshinone, Artemisinin)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8964196/
+		- inhibit TERT activators Ras/ERK signaling, ERK, GABPA, and Sp1 (milk thistle inhibits ERK, ashwagandha inhibits SP1)
+			- GABPA can be pro-cancer in glioblastoma or anti-cancer in other cancers (depending on the cancer, mutation, and other variables)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822828/
 
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
 		
-		- I used a fast + celastrol/withaferin to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+		- I used a fast/keto diet + substance combinations like 'celastrol/ashwagandha' or 'ashwagandha/milk thistle/moringa' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
