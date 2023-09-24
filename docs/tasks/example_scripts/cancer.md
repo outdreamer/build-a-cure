@@ -18,6 +18,7 @@
 				- https://pubmed.ncbi.nlm.nih.gov/33608308/
 		- substances that interfere with cancer metabolism
 			- Red Yeast Rice Interferes with Cancer Metabolism of Fats
+			- Bergamot May Block Cancer Metabolism Of Glucose and Fats
 			- berberine/gymnema sylvestre may reduce blood glucose
 			- treat diabetes
 				- Insulin also has direct tumor-promoting effects on cancer cells
