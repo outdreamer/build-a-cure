@@ -2,7 +2,7 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
-		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine)
+		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine, red yeast rice, simvastatin/atorvastatin)
 		- a MGMT inhibitor (disulfiram, resveratrol/ashwagandha + temozolomide)
 		- an angiogenesis inhibitor (ashwagandha, EGCG, calestrol, uncaria tomentosa)
 		- a Wnt pathway inhibitor (celastrol)
@@ -12,16 +12,23 @@
 		- an IDH1 inhibitor (turmeric, milk thistle)
 			- inhibit glutamate processing (using GLUD-inhibitor EGCG) to reduce D-2-HG production, but also decrease NAD(P)H and α-KG synthesis, and decrease proliferation rates of IDH1
 		- substances that suppress STAT3 (turmeric, resveratrol)
+		- avoid methionine/glutamine
+			- S-adenosylmethionine can downregulate cancer-promoting genes
+			- however, an inhibitor of SAM synthesis (cycloleucine) inhibited the methionine-methylation pathway
+				- https://pubmed.ncbi.nlm.nih.gov/33608308/
+		- substances that interfere with cancer metabolism
+			- Red Yeast Rice Interferes with Cancer Metabolism of Fats
+			- berberine/gymnema sylvestre may reduce blood glucose
+			- treat diabetes
+				- Insulin also has direct tumor-promoting effects on cancer cells
 		- substances that suppress NK-κB, NF-jB, MAPK, cyclin D1, PI-3K/AKT, EGFR, GSK-3b (turmeric)
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
 		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
 		- a EGFR inhibitor (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
 		- fibrosis inhibitors (ashwagandha)
 		- tyrosine kinase inhibitors
-		- treat diabetes
-			- Insulin also has direct tumor-promoting effects on cancer cells
-		- Myc inhibitors (PDK1 inhibitors like dichloroacetate, histone deactylase inhibitors like moringa/trichostatin)
-		- potassium ion channel inhibitors (tetrandrine, Berberine, Matrine/Sophora flavescent/Euchresta japonica, Salvia miltiorrhiza/tanshinone, Artemisinin)
+		- Myc inhibitors (through PDK1 inhibitors like dichloroacetate, or histone deactylase inhibitors like moringa/trichostatin)
+		- potassium ion channel inhibitors (tetrandrine, Berberine, Matrine/Sophora flavescens/Euchresta japonica, Salvia miltiorrhiza/tanshinone, Artemisinin)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8964196/
 		- inhibit TERT activators Ras/ERK signaling, ERK, GABPA, and Sp1 (milk thistle inhibits ERK, ashwagandha inhibits SP1)
 			- GABPA can be pro-cancer in glioblastoma or anti-cancer in other cancers (depending on the cancer, mutation, and other variables)
@@ -36,10 +43,11 @@
 		- other herb info
 			- https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search
 
-		- I used a fast/keto diet + substance combinations like 'celastrol/ashwagandha' or 'holy basil/ashwagandha/milk thistle/moringa' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha' or 'holy basil/ashwagandha/milk thistle/moringa' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
+			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, Berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
 
 
 	- as an example of why you need to look up everything youre consuming:
@@ -340,6 +348,32 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
+		- ashwagandha
+		    - down-regulates the expression of ERα
+		    - inhibition of heat shock protein 90
+		    - inhibit protein kinase C to induce apoptosis
+			- increases Mcl-1 expression levels inducing apoptosis
+			- alters the expression levels of apoptotic markers (Bcl2, Bax and caspase3)
+			- increases expression of Notch 2 and Notch 4 (related to colon cancer)
+				- inhibits Notch-mediated prosurvival to induce c-Jun-NH2-kinase-mediated apoptosis
+			- activates p53
+			- aggregates vimentin with F-actin to induce apoptosis
+		    - inhibiting chymotrypsin to inhibit angiogenesis
+		    - Inhibits PCNA and CD31
+		    - induce G2/M cell cycle arrest
+		    - immunosuppressive effects on human B and T lymphocytes
+			- specific action on antigen recognition and proliferative capacity of both B and T lymphocytes
+			- inhibits the E rosette and EAC rosette formation by normal B and T lymphocytes
+			- inhibits Zap70 kinase activity, which is critical for T-cell function in health and disease
+			- inhibits cell motility and invasion capacity of cancer cells through MMP-2
+			- induce Par-4
+		    - increases the phosphorylation of JNK, ERK and MAPK
+			- suppresses E6/E7
+		- S-adenosylmethionine (SAM) 
+			- leads to promoter remethylation and the downregulation of proto-oncogene expression in cancer cells
+			- Treatment with SAM caused the downregulation of proliferation, migration, and invasion of prostate cancer (PC-3) cells, and genome-wide downregulation of genes involved in proliferation, migration, invasion, and angiogenesis. 
+			- https://www.sciencedirect.com/science/article/abs/pii/S0378111916307703?via%3Dihub
+			- inhibiting the SAM pathway led to methionine depletion and inhibition of cancer growth
 		- Moringa oleifera
 			- anti-proliferation, liver protection, anti-inflammation, anti-atherosclerosis, oxidative DNA damage protection, anti-peroxidation, and heart protection
 			- inhibit cell proliferation, growth, and migration by affecting different signaling pathways in cells
@@ -1161,7 +1195,18 @@
 	- activate caspase-9/caspase-3
 	- decrease VEGF-A
 
+	- decrease cancer-promoting hormone IGF-1 
+		- avoid animal protein
+			- https://nutritionfacts.org/blog/a-low-methionine-diet-may-help-starve-cancer-cells/
+
+
 	- induce apoptosis
+
+		- depolarising abnormal mitochondria 
+			- sodium dichloroacetate
+				- depolarising abnormal mitochondria allows the mitochondria to induce apoptosis (cell death) of the malignant cells
+				- triggers a metabolic switch from glycolysis (the Warburg effect) to mitochondrial OXPHOS and increase reactive oxygen stress affecting tumor cells, which was not observed in non-tumor cells
+					- sodium dichloroacetate can cause neuropathy and demyelination
 
 		- increased apoptosis in both p53 independent and dependent pathways
 			- Angelica sinensis
@@ -1273,6 +1318,7 @@
 				- BH3 mimetics 
 				- Capsaicin (decreases mutant p53 gene expression)
 				- withaferin A/Ashwagandha or similarly ginsenosides
+				- dichloroacetate
 			- avoid substances which decrease p53
 				- Chaga Mushroom
 				- Gankyrin
@@ -1978,7 +2024,7 @@
 			- inhibit mevalonate pathway
 				- statins (atorvastatin)
 			- inhibit Ras prenylation
-			- decrease activation of Ras pathway
+				- decrease activation of Ras pathway
 			- MEK pathway
 		- induce DNA repair pathways				
 			- boosts the activity of enzymes and pathways involved in DNA repair
