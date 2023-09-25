@@ -8,6 +8,7 @@
 		- a Wnt pathway inhibitor (celastrol)
 		- a TRPV2 inhibitor (piperlongumine)
 		- block HMG-CoA reductase (red yeast rice, simvastatin/atorvastatin)
+		- inhibit mevalonate pathway (red yeast rice, simvastatin/atorvastatin)
 		- block ATP citrate lyase (garcinia cambogia)
 		- an IDH1 inhibitor (turmeric, milk thistle)
 			- inhibit glutamate processing (using GLUD-inhibitor EGCG) to reduce D-2-HG production, but also decrease NAD(P)H and α-KG synthesis, and decrease proliferation rates of IDH1
@@ -44,7 +45,7 @@
 		- other herb info
 			- https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search
 
-		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha' or 'holy basil/ashwagandha/milk thistle/moringa' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
@@ -52,7 +53,7 @@
 
 
 	- as an example of why you need to look up everything youre consuming:
-		- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients', bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
+		- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
 
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
