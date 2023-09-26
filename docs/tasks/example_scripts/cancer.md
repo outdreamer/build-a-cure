@@ -2,6 +2,7 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
+		- increase let-7 (Ficus carica latex, PDE inhibitors)
 		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine, red yeast rice, simvastatin/atorvastatin)
 		- a MGMT inhibitor (disulfiram, resveratrol/ashwagandha + temozolomide)
 		- an angiogenesis inhibitor (ashwagandha, EGCG, calestrol, uncaria tomentosa)
@@ -54,6 +55,7 @@
 
 	- as an example of why you need to look up everything youre consuming:
 		- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
+		- similarly, a script to identify what functions a patient needs (rather than just which condition they have, as there are many different states requiring different treatments with complex conditions) and which substances have those functions, and a script to identify functions of a compound, are also useful
 
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
@@ -350,6 +352,10 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
+		- emodin
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8291210/#B1
+		- latex (from aloe vera or ficus carica)
+			- a member of the mulberry family, it significantly inhibited the proliferation of U87, U138MG and T98G cells by upregulating let-7 expression
 		- ashwagandha
 		    - down-regulates the expression of ERα
 		    - inhibition of heat shock protein 90
@@ -768,6 +774,37 @@
     - prevent fibrosis
 		- https://medicalxpress.com/news/2023-09-barrier-solid-tumors-path-cells.html
 		- ashwagandha
+
+
+    - increase let-7
+    	- let-7 is under-expressed in some cancers with p53, RAS, HMGA2 and MYC mutations
+    		- inhibits oncogenes: RAS and high mobility group A2 (HMGA2)
+    		- Cell cycle, proliferation, and apoptosis regulators
+			- many genes regulating cell cycle and cell proliferation that are responsive to alteration of let-7 levels, including cyclin A2, CDC34, Aurora A and B kinases (STK6 and STK12), E2F5, CDC25A, CDK6, and CDK8, among others
+			- Let-7 also inhibits several components of DNA replication machinery, transcription factors, even some tumor suppressor genes and checkpoint regulators
+			- Apoptosis is regulated by let-7 as well, through Casp3, Bcl2, Map3k1 and Cdk5 modulation
+			- represses immune-modulatory cytokines IL-6 and IL-10
+			- down-regulates of TLR4
+			- regulate the production of cytokine IL-13 by T lymphocytes
+			- expression levels of let-7 are frequently low and the chromosomal clusters of let-7 are often deleted in many cancers
+			    - however Let-7 is expressed at higher levels in more differentiated tumors, which also have lower levels of activated oncogenes such as RAS and HMGA2
+			- increasing let-7 can prevent tumorigenesis and angiogenesis, in cancers that underexpress let-7
+			- oncogenic mutations including p53, RAS and MYC, some of which may directly correlate with the reduced expression of let-7, and may be repressed by introduction of let-7
+			- let-7 inhibits cell proliferation
+			- let-7 inhibits Bcl-xl expression
+			- https://en.wikipedia.org/wiki/Let-7_microRNA_precursor
+			- miRNA let-7 expression is regulated by glucose and TNF-α
+				- https://pubmed.ncbi.nlm.nih.gov/26378151/
+				- limonene, holy basil, and berberine all decrease TNF-α
+				- berberine lowers blood glucose
+    	- treatments
+    		- latex
+	    		- latex from ficus carica, a member of the mulberry family, significantly inhibited the proliferation of cancer cells by upregulating let-7 expression
+	    		- https://pubmed.ncbi.nlm.nih.gov/25212824/
+	    	- metformin
+	    		- https://www.pnas.org/doi/10.1073/pnas.2122217119
+	    	- pde inhibitors
+	    		- https://www.nature.com/articles/s41598-017-16258-9
 
 
     - inhibit glycolysis/glutaminolysis/angiogenesis/DNA repair
@@ -1237,9 +1274,81 @@
 			- juglone
 				- exhibits cytotoxic, anti-proliferative, and anti-invasive effects on various cells, could be a promising agent for GBM therapy
 				- juglone induces strong oxidative stress, as identified by a high increase in the amount of 8-oxo-eoxyguanosine and decreases 5-methylcytosine in the DNA of cancer cells
-			- emodin (buckthorn, Japanese knotweed)
+			- emodin (buckthorn, Japanese knotweed, aloe vera latex)
 				- by activating a ROS-activated ATM-p53-Bax signaling pathway, Emodin promoted mitochondria-dependent apoptotic cell death
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8512367/#B170-molecules-26-05997
+			    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8291210/#B1
+				- Inhibition of cell migration/angiogenesis	
+					Down-regulating of Matrix Metalloproteinase (MMP-2/9), RhoB and VEGF by reducing DNA binding activity of NF-kB
+				- Induction of cell cycle arrest in G2/M phase 	
+				    Activation of Caspase-6
+				    Caspase-8-mediated activation of the mitochondrial death pathway
+					Activation of p53, p21, Fas/APO-1, Bax and caspase-3
+					Inhibition of the expressions of protein kinase C and c-myc
+				- Induction of cell cycle arrest in G1 phase   	
+					Induction of p53 and p21 expression
+				- Antineoplastic (cell proliferation was blocked in G1 phase)	
+					Reactive oxygen species (ROS) generated and up-regulation of Caspase-3
+				- Induction of cell death through S-phase arrest	
+					Promotion of p53, p21 and p27, Promotion of the release of apoptosis-inducing factor, endonuclease G, pro-caspase-9 and cytochrome c
+					Promotion of the loss of mitochondrial membrane potential
+				- Induction of apoptosis
+					Inhibition of casein kinase II activity, The release of apoptosis-inducing factor and cytochrome c
+					Release the apoptosis-inducing factor and cytochrome c from mitochondria
+					Mitotic catastrophe, reduction of viability
+					Cleavage of Caspase-3, poly (ADP-ribose), polymerase (PARP), Caspase-8 and Caspase-9, enhanced reactive oxygen species (ROS) production
+					Delaying S phase progression, reduction of poly (ADP-ribose) polymerase and protein kinase C, cleavage of caspase 7
+					Decreasing Cyclic adenosine monophosphate (cAMP)-dependent protein kinase, protein kinase C, Bcl-2, caspase-3 and p38
+					Mitogen-activated protein kinase (MAPK) and phosphoinositide 3-kinase (PI3K)/AKT signalling pathways, and the Akt [Protein kinase B (PKB)] signal pathway
+					Inhibition of the PI3K/Akt signalling pathway by activation of caspase cascades
+					Reduction of the level of Bcl-2 and increased levels of cleaved/activated caspase-3, PARP, p53 and Bax
+					ROS is a trigger of emodin inducing apoptosis and p53 expression increases under oxidative stress, leading to Bax-mediated mitochondrial apoptosis
+					Induction of cell death by Bax death pathway and Fas pathway
+					Decreasing the secretion of matrix mettalloproteinase-9
+					Production of generation of reactive oxygen species and decrease in the mRNA of DNA repair enzymes
+					Induction of DNA damage and inhibition of DNA repair gene expression
+					Inhibition of extra cellular signal-regulated kinases 1 and 2 (ERK1/2) independent induction
+					Reactive oxygen species-dependent mitochondrial signaling apoptosis pathway through cell cycle arrest and ROS generation (initiation of ROS-dependent mitochondria-induced and ROS-independent endoplasmic reticulum stress-induced apoptosis)
+					TRIB 3/NF-KB pathway
+					Induction of autophagy, during which ROS generation is of the essence
+					Mechanism involving both reactive oxygen species and nitric oxide
+					Intrinsic mitochondrial and extrinsic death receptor pathways
+					Blocking activation of STAT3 (Signal transducer and activator of transcription 3)
+					Inhibition of interleukin-6-induced JAK2/STAT3 pathway
+					Declining the mitochondrial membrane potential
+					Androgen receptor and and p53-p21 pathways and the mitochondrial pathway
+					Inhibition of phosphorylation of P210 protein, down-regulation of P210 protein expression and activation of caspase-3
+					Enhancement of generation of ROS, DeltaPsim disruption and caspase activation
+				- Suppression of cell viability, induction of apoptosis, endoplasmic reticulum stress	
+					Activation of factor C/EBP homologous protein and caspase-12
+				- Tumour growth inhibition	
+					Inhibition of epithelial mesenchymal transition by raising increasing the content of miR-1271
+					Increase in the UHRF1D-NMT3 A-TAp73/ANp73 pathways
+					Binding with mTORC2 and inhibit its kinase activity
+					Reduction pAKT phosphorylation, block of cell cycle in S and G2/M phase
+					Inhibition of the capabilities of invasion and migration of cells probably
+			- aloe vera
+				- Anti-angiogenesis, anticancer & apoptosis	
+					- Increase P53 and decrease Bcl-2 genes expressions
+				- Suppression cell proliferation	
+					- Probably by suppressing CCND2 transcript levels
+				- Induction of apoptosis	
+					- ATP depletion-related impairment of mitochondria, which is caspase-independent
+				- Emodin
+					- hydroxyanthraquinones (HA) (including danthron, aloe-emodin, and emodin) may have tumor-promoting activity
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6349368/
+				- Aloin/Barbaloin
+					Antiproliferative, cell cycle arrest in the S phase, apoptosis, through changes in the activity of almost all anti-oxidant enzyme
+					Inhibit of tumour angio-genesis growth, through suppression of activation of VEGF receptor (VEGFR) 2 and STAT3 phosphorylation in endothelial cells
+					Reduction of gastric cancer cell viability & induction of apoptosis, through induction of autophagy and ROS generation
+					Antineoplastic & antimetastatic, through induction of cancer cell differentiation
+				- Acemannan
+					Anticancer, through macrophage activation and release of tumour necrosis factor, interleukin-1 and interferon
+					Infiltration of tumour by immune system cells, became necrotic & regressed, through stimulation of synthesis of monokines resulted in the initiation of immune attack, necrosis, and regression of tumour
+				- Dichloromethane	
+					Cells growth inhibition, through decrease of cells in the S and G2/M phase of the cell cycle; inhibition of DNA synthesis
+				- Aloesin	
+				    Induction of apoptosis, inhibition of tumour growth, migration and invasion, through inhibition of the mitogen activated protein kinase (MAPK) signaling pathway
 			- honokiol (magnolia)
 			- Quercetin (most fruits)
 			- Isorhamnetin (yellow or red onions, pears, olive oil, wine and tomato sauce)
