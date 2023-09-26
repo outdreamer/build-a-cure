@@ -2,7 +2,20 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
-		- increase let-7 (Ficus carica latex, PDE inhibitors)
+		- increase let-7 (latex from ficus carica/aloe vera, PDE inhibitors)
+			- also inhibit IGF2BP2/IMP2/VICKZ2/p62, (a let-2 inhibitor) as well while increasing let-2, so that let-2 can increase
+				- Insulin-like growth factor 2 mRNA-binding protein 2 is a protein that in humans is encoded by the IGF2BP2 gene
+					- This gene encodes a member of the IGF-II mRNA-binding protein (IMP) family
+				- growth hormone increases IMP2, so increasing the growth hormone inhibitor somatostatin is useful to decrease IMP2
+				- somatostatin increasers: turmeric/curcumin, omega-3 fatty acids, magnesium, and vitamin D elevate somatostatin levels
+				- https://pubmed.ncbi.nlm.nih.gov/35023719/
+		- inhibit growth factors
+			- inhibit GH (turmeric increases somatostatin, which decreases GH)
+			- inhibit EGFR (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
+			- inhibit VEGF (celastrol)
+			- inhibit IGF-1R 
+		    	- IGF-1R exerts an enormous function in developing bone tumors, breast carcinoma, and colorectal cancer
+		    	- Several common IGF blocking methods, such as antisense RNA probe, monoclonal antibody, dominant IGF-1R negative gene mutation, and tyrosine kinase inhibitor, has good therapeutic potential in disease treatment
 		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine, red yeast rice, simvastatin/atorvastatin)
 		- a MGMT inhibitor (disulfiram, resveratrol/ashwagandha + temozolomide)
 		- an angiogenesis inhibitor (ashwagandha, EGCG, calestrol, uncaria tomentosa)
@@ -27,7 +40,6 @@
 		- substances that suppress NK-κB, NF-jB, MAPK, cyclin D1, PI-3K/AKT, EGFR, GSK-3b (turmeric)
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
 		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
-		- a EGFR inhibitor (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
 		- fibrosis inhibitors (ashwagandha)
 		- tyrosine kinase inhibitors
 		- Myc inhibitors (through PDK1 inhibitors like dichloroacetate, or histone deactylase inhibitors like moringa/trichostatin)
@@ -352,10 +364,6 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
-		- emodin
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8291210/#B1
-		- latex (from aloe vera or ficus carica)
-			- a member of the mulberry family, it significantly inhibited the proliferation of U87, U138MG and T98G cells by upregulating let-7 expression
 		- ashwagandha
 		    - down-regulates the expression of ERα
 		    - inhibition of heat shock protein 90
@@ -1330,11 +1338,14 @@
 			- aloe vera
 				- Anti-angiogenesis, anticancer & apoptosis	
 					- Increase P53 and decrease Bcl-2 genes expressions
+					https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8291210/#B1
 				- Suppression cell proliferation	
 					- Probably by suppressing CCND2 transcript levels
 				- Induction of apoptosis	
 					- ATP depletion-related impairment of mitochondria, which is caspase-independent
-				- Emodin
+				- latex (from aloe vera or ficus carica)
+					- a member of the mulberry family, it significantly inhibited the proliferation of U87, U138MG and T98G cells by upregulating let-7 expression
+				- emodin
 					- hydroxyanthraquinones (HA) (including danthron, aloe-emodin, and emodin) may have tumor-promoting activity
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6349368/
 				- Aloin/Barbaloin
