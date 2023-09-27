@@ -283,3 +283,153 @@
 	Yunnan Baiyao
 	Zeolite
 	Zyflamend (Holy basil, turmeric, ginger, green tea, rosemary, hu zhang, Chinese goldthread, barberry, oregano, and skullcap)	
+
+
+- webmd cancer supplements
+
+	- Possibly Effective
+		Vitamin D
+		Vitamin C (Ascorbic Acid)
+		Turkey Tail Mushroom
+		Melatonin
+	- Insufficient Evidence
+		Tribulus
+		Sweet Almond
+		Zizyphus
+		Papain
+		Black Psyllium
+		Gossypol
+		Motherwort
+		Hibiscus Sabdariffa
+		Poria Mushroom
+		Jiaogulan
+		Asparagus
+		Comfrey
+		Apple
+		Quercetin
+		Resveratrol
+		Fennel
+		Indian Long Pepper
+		Sarsaparilla
+		Cat's Claw
+		Choline
+		Germanium
+		Perilla
+		Papaya
+		Pangamic Acid
+		Omega-6 Fatty Acids
+		Laminaria
+		Maitake Mushroom
+		Myrrh
+		Mastic
+		Aloe
+		Chlorophyllin
+		Codonopsis
+		Condurango
+		Pau D'arco
+		Bupleurum
+		Greater Celandine
+		Eucalyptus
+		Vanadium
+		Noni
+		Sea Buckthorn
+		Alpha-Lipoic Acid
+		Colloidal Silver
+		Calcium
+		Indian Gooseberry
+		Oleander
+		Glucosamine
+		Thunder God Vine
+		Yogurt
+		Whey Protein
+		Rose Hip
+		Saffron
+		Sitostanol
+		Wheat Bran
+		Lactobacillus Acidophilus
+		Bifidobacterium Animalis Subsp. Lactis
+		Bromelain
+		Black Seed
+		Baikal Skullcap
+		Reishi Mushroom
+		European Mistletoe
+		Blue-Green Algae
+		Niacin And Niacinamide (Vitamin B3)
+		Red Yeast Rice
+		Danshen
+		Pyridoxine (Vitamin B6)
+		Beta-Sitosterol
+		Capsicum
+		Shark Liver Oil
+		Cranberry
+		Rue
+		Slippery Elm
+		Coffee
+		Vitamin K
+		Wine
+		Fish Oil
+		Panax Ginseng
+		Selenium
+		Kava
+		Goji
+		Chelation Therapy Products
+		Alpha-Linolenic Acid (Ala)
+		Beta-Glucans
+		Theanine
+		Graviola
+		Lithium
+		Sulforaphane
+		Genistein Combined Polysaccharide
+		Limonene
+		Active Hexose Correlated Compound (Ahcc)
+		Nattokinase
+		Blueberry
+		Cesium
+		Bitter Orange
+		Polypodium Leucotomos
+		Tinospora Cordifolia
+		Coenzyme Q10
+		Agaricus Mushroom
+		Cissus Quadrangularis
+		Asparagus Racemosus
+		Krill Oil
+		Bacillus Coagulans
+		Ecklonia Cava
+		Eurycoma Longifolia
+		Agave
+		Sodium Bicarbonate
+		Fermented Milk
+		Tangerine
+		Syrian Rue
+		Lion's Mane Mushroom
+		Plant Sterols
+		Chokeberry
+		Ketogenic Diet
+		Algal Oil
+		Banana
+		Lacticaseibacillus Paracasei
+		Bifidobacterium Bifidum
+		Limosilactobacillus Reuteri
+		Lacticaseibacillus Rhamnosus
+		Bifidobacterium Longum
+		Lacticaseibacillus Casei
+		Lactiplantibacillus Plantarum
+		Olive Oil
+		L-Cysteine
+		Beta-Cryptoxanthin
+		Docosahexaenoic Acid (Dha)
+		Branched-Chain Amino Acids (Bcaa)
+
+	- Possibly Ineffective
+		Vitamin B12
+		Vitamin E
+		Beer
+		Hydrazine Sulfate
+		Potato
+		Apricot Kernel
+		Antioxidants
+
+	- Likely Ineffective
+		Dimethylsulfoxide (Dmso)
+		Beta-Carotene
+		Shark Cartilage
