@@ -1,4 +1,5 @@
 docs/tasks/example_scripts/*.txt
+docs/tasks/example_scripts/*/*.txt
 docs/tasks/example_scripts/*corpus*
 docs/tasks/example_scripts/*output*
 *.drawio.svg.dtmp
