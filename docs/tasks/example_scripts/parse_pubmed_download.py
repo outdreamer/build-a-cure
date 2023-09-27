@@ -452,6 +452,9 @@ print('\nscript time', str((time.time() - script_start_time)/ 7) + ' minutes')
 
 
 '''
+- to do: 
+    - find substances with 'functions/types in common with useful substances' like how 'quercetin' has functions/types in common with tamoxifen, which is 'changing the solution', 
+    to check if adjacent substances are also solutions to the same problem, through having similar/overlapping functionality
 - identifying the 'adjacent sequences of structures', 'size/separators of common substructures (like vowel ratios/positions)', 'position of common sub-structures' and 'common equivalent alternates of substructures', 
 	and 'the common adjacent sequences of substructures' and 'common equivalent variants of substructures and substructure sequences'
 	seems to be the highest-value set of variables in determining similarity of words with the fewest variables, 

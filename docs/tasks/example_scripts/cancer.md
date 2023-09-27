@@ -2,6 +2,14 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
+		- inhibit HMGB1
+			- High mobility group B1 (HMGB1) has been recognized as a proinflammatory cytokine and more recently, as a proangiogenic factor
+			- HMGB1 itself may signal through the receptor for advanced glycation end products (RAGE), and via toll-like receptors, TLR2 and TLR4
+			- Activation of these receptors results in the activation of NFkappaB, which induces the upregulation of leukocyte adhesion molecules and the production of proinflammatory cytokines and angiogenic factors and inflammation
+			- https://pubmed.ncbi.nlm.nih.gov/18264787/
+			- high-mobility-group box 1 (HMGB1), an alarmin protein released from dying tumor cells, acts as an endogenous ligand for Toll-like receptor 2 (TLR2) signaling
+			- inhibiting HMGB1 may reduce cancer progression
+			- https://pubmed.ncbi.nlm.nih.gov/24220159/
 		- increase let-7 (latex from ficus carica/aloe vera, PDE inhibitors)
 			- also inhibit IGF2BP2/IMP2/VICKZ2/p62, (a let-2 inhibitor) as well while increasing let-2, so that let-2 can increase
 				- Insulin-like growth factor 2 mRNA-binding protein 2 is a protein that in humans is encoded by the IGF2BP2 gene
@@ -9,11 +17,24 @@
 				- growth hormone increases IMP2, so increasing the growth hormone inhibitor somatostatin is useful to decrease IMP2
 				- somatostatin increasers: turmeric/curcumin, omega-3 fatty acids, magnesium, and vitamin D elevate somatostatin levels
 				- https://pubmed.ncbi.nlm.nih.gov/35023719/
+		- resolvins to prevent cancer reoccurrence
+			- omega-3 fatty acids + (atorvastatin or aspirin) produce resolvins, which reduce tumor reoccurrence caused by dead cancer cells from previous treatments
+			- https://www.medicalnewstoday.com/articles/320227
+			- The cancer cells that survive treatment, combined with an inflammatory setting induced by "cancer cell debris", may result in cancer progression
+			- "Dead cancer cell debris-induced growth" is naturally a part of the tissue regeneration cycle
+			- debris is interpreted by the tissue as injury signal and stimulates wound healing and regeneration
+			- Overcoming the dilemma of "dead cancer cell debris-induced tumor growth" is required to prevent tumor recurrence of treatment-resistant tumors — the major reason for the failure of cancer therapy
+			- resolvins stopped the debris-induced tumor growth and blocked the cancer cells from spreading
+			- https://pubmed.ncbi.nlm.nih.gov/12391014/
+			- COX-2 converted DHA to 13-hydroxy-DHA that switched with aspirin to endogenous 17R-hydroxydocosahexaenoic acid, then transformed COX-2-ASA-derived 17R-hydroxy-DHA into resolvins
+			- compounds inhibited microglial cell cytokine expression and in vivo dermal inflammation and peritonitis, reducing 40-80% leukocytic exudates
+			- exudates, vascular, leukocytes and neural cells treated with aspirin convert DHA to novel 17R-hydroxy series of docosanoids that are potent regulators
+			- These biosynthetic pathways utilize omega-3 DHA and EPA during multicellular events in resolution to produce a family of protective compounds, resolvins
 		- inhibit growth factors
 			- inhibit GH (turmeric increases somatostatin, which decreases GH)
 			- inhibit EGFR (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
 			- inhibit VEGF (celastrol)
-			- inhibit IGF-1R 
+			- inhibit IGF-1R (quercetin)
 		    	- IGF-1R exerts an enormous function in developing bone tumors, breast carcinoma, and colorectal cancer
 		    	- Several common IGF blocking methods, such as antisense RNA probe, monoclonal antibody, dominant IGF-1R negative gene mutation, and tyrosine kinase inhibitor, has good therapeutic potential in disease treatment
 		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine, red yeast rice, simvastatin/atorvastatin)
@@ -28,7 +49,12 @@
 			- inhibit glutamate processing (using GLUD-inhibitor EGCG) to reduce D-2-HG production, but also decrease NAD(P)H and α-KG synthesis, and decrease proliferation rates of IDH1
 		- substances that suppress STAT3 (turmeric, resveratrol)
 		- avoid methionine/glutamine
-			- S-adenosylmethionine can downregulate cancer-promoting genes
+			- As the precursor of other non-essential amino acids such as cysteine and taurine, versatile compounds such as SAM-e, and the important antioxidant glutathione, methionine plays a critical role in metabolism
+			- Methionine is also involved in angiogenesis and various processes related to DNA transcription, epigenetic expression, and gene regulation
+			- inhibit oncogenes like c-myc, H-ras (S-Adenosylmethionine (SAM))
+				- https://pubmed.ncbi.nlm.nih.gov/21152119/
+			- avoiding methionine facilitates antitumour immunity by altering m6A methylation of immune checkpoint transcripts 
+				- https://gut.bmj.com/content/72/3/501
 			- however, an inhibitor of SAM synthesis (cycloleucine) inhibited the methionine-methylation pathway
 				- https://pubmed.ncbi.nlm.nih.gov/33608308/
 		- substances that interfere with cancer metabolism
@@ -41,7 +67,7 @@
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
 		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
 		- fibrosis inhibitors (ashwagandha)
-		- tyrosine kinase inhibitors
+		- tyrosine kinase inhibitors (quercetin)
 		- Myc inhibitors (through PDK1 inhibitors like dichloroacetate, or histone deactylase inhibitors like moringa/trichostatin)
 		- potassium ion channel inhibitors (tetrandrine, Berberine, Matrine/Sophora flavescens/Euchresta japonica, Salvia miltiorrhiza/tanshinone, Artemisinin)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8964196/
@@ -53,9 +79,10 @@
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
 		
 		- avoid these with hormone-sensitive cancer
+			- quercetin, soy
 			- https://anticancer360.com/do-you-have-hormone-sensitive-cancer-use-these-supplements-with-caution/
 
-		- other herb info
+		- other relevant herb info from a cancer center (mskcc)
 			- https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search
 
 		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
@@ -364,6 +391,12 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
+		- quercetin
+			- Its antioxidant effects are due its phenolic group, which reacts with free radicals to form the more stable phenoxy radicals
+			- Quercetin also exerts anti-inflammatory and chemopreventive properties
+			- has membrane-stabilizing capabilities
+			- inhibits aldose reductase and low-density lipoprotein oxidation
+			- down regulation of mutant p53 proteins, G1 phase arrest, tyrosine kinase inhibition, and down regulation of cell survival, proliferative and anti-apoptotic proteins
 		- ashwagandha
 		    - down-regulates the expression of ERα
 		    - inhibition of heat shock protein 90
