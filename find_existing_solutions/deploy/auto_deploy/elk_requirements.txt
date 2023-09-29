@@ -8,7 +8,7 @@ docutils==0.15.2
 elasticsearch==7.8.0
 iso8601==0.1.12
 jmespath==0.10.0
-joblib==0.16.0
+joblib==1.2.0
 kiwisolver==1.2.0
 Pillow==7.2.0
 pyasn1==0.4.8
