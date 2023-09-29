@@ -39,7 +39,7 @@ def lemmatize_word(word):
         return lemmatized
     return False # not likely to be found in entities where this function is used
 
-def is_medical_term(phrase, option_call):
+def is_medical_term(phrase, original_call):
     try:
         if phrase in already_identified_medical_terms:
             return True
@@ -54,9 +54,9 @@ def is_medical_term(phrase, option_call):
         return chemical_found
     except wikipedia.DisambiguationError as e:
         print('e options', e.options)
-        if option_call is False:
+        if original_call is True:
             for option in e.options:
-                chemical_found = is_medical_term(option, True)
+                chemical_found = is_medical_term(option, False)
                 if chemical_found is True:
                     return True
     except Exception as e:
@@ -65,11 +65,10 @@ def is_medical_term(phrase, option_call):
         return True
     return False
 
-def get_wiki_info(phrase, option_call):
+def get_wiki_info(phrase, original_call, include_links):
     print('get_wiki_info searching phrase in wiki', phrase)
     try:
         related_substances_variants = set([item for item in wikipedia.search(phrase)]) # search doesnt disambiguate
-        print('related_substances_variants', related_substances_variants)
         summary = wikipedia.summary(phrase)
         page = wikipedia.page(phrase)
         categories = [item.lower() for item in page.categories]
@@ -80,26 +79,26 @@ def get_wiki_info(phrase, option_call):
         print('possible_functions_from_categories', possible_functions_from_categories)
         print('summary', summary)
         # to do: handle false negatives like AC-186, KN-04, MRL-37, NF-110, RO-3, mrs-1754, Uridine and false positives like Standard state True
-        for link in page.links:
-            link = link.lower()
-            if len([item for item in links_medical_terms if item in link]) > 0:
-                medical_term = True
-            elif len([term for term in links_not_medical_terms if term in link]) == 0:
-                link_without_parenthesis = link.split('(')[0].strip()
-                medical_term = is_medical_term(link, False)
-                print('is_medical_term searching phrase in wiki', link, medical_term)
-            if medical_term is True:
-                already_identified_medical_terms.add(link)
-            else:
-                already_identified_not_medical_terms.add(link)
-            if medical_term is True:
-                #to do: filter functional nouns like 'apoptosis' from links 
-                #verb_noun = [token for token in nlp(link) if token.pos_ in ['PROPN', 'NOUN']]
-                related_substances_variants.add(link)
+        if include_links is True:
+            for link in page.links:
+                link = link.lower()
+                if len([item for item in links_medical_terms if item in link]) > 0:
+                    medical_term = True
+                elif len([term for term in links_not_medical_terms if term in link]) == 0:
+                    link_without_parenthesis = link.split('(')[0].strip()
+                    medical_term = is_medical_term(link, False)
+                    print('is_medical_term searching phrase in wiki', link, medical_term)
+                if medical_term is True:
+                    already_identified_medical_terms.add(link)
+                else:
+                    already_identified_not_medical_terms.add(link)
+                if medical_term is True:
+                    #to do: filter functional nouns like 'apoptosis' from links 
+                    #verb_noun = [token for token in nlp(link) if token.pos_ in ['PROPN', 'NOUN']]
+                    related_substances_variants.add(link)
         chemical_found = True if len([item for item in categories if 'chemical' in item]) > 0 else False
         if len([source for source in medical_sources if source in references]) > 0:
             chemical_found = True
-        print('related_substances_variants', related_substances_variants)
         return related_substances_variants, possible_functions_from_categories, chemical_found
         '''possible_functions_from_categories ['aromatase inhibitors', 'cyp2c8 inhibitors', 'cyp3a4 inhibitors', 'experimental medical treatments', 
         'flavonoid antioxidants', 'gper agonists', 'phytoestrogens', 'quercetin', 'selective erβ agonists', 'xanthine oxidase inhibitors']
@@ -120,9 +119,9 @@ def get_wiki_info(phrase, option_call):
     except wikipedia.DisambiguationError as e:
         #pass
         print('e options', e.options)
-        if option_call is False:
+        if original_call is True:
             for option in e.options:
-                variants, functions, chemical_found = get_wiki_info(option, True)
+                variants, functions, chemical_found = get_wiki_info(phrase=option, original_call=False, include_links=include_links)
                 if chemical_found is True:
                     return variants, functions, chemical_found
     except Exception as e:
@@ -197,11 +196,28 @@ def find_related_substances(entity, substance, sentence):
     return related_substances_variants_in_sentence
 
 
+substance = 'quercetin'
+filtering_condition = 'cancer'
 medical_sources = ['nih.gov', 'cdc.gov', 'who.int', 'nhs.uk', 'doi.org'] # pubmed contains nih.gov
+medical_terms = ['disease', 'bio', 'species', 'mechanism', 'treatment', 'health', 'target', 'therap', 'bac', 'fung', 'vir', 'escher', 'pathogen', 'microb', 'chemical', 'compound', 'medic', 'substance', 'some', 'organism', 'organ', 'plas', 'immun', 'vitam', 'nutrient', 'inflamm']
+medical_terms_to_check = [
+    'sis', 'sus', 'oid', 'ose', 'ceph', 'aly', 'leu', 'ate', 'delt', 'yl', 'ster', 'amphi', 'dend',
+    'meth', 'oxy', 'kary', 'cere', 'sia', 'eri', 'sept', 'ima', 'ora', 'benz', 'ase', 'ii', 'il', 'rin', 'amin', 'tion', 'ae', 'ius', 'cus', 'ia', 'mab', 'ica', 'lic', 
+    'lis', 'ila', 'lin', 'lus', 'ean', 'cyt', 'arth', 'derm', 'trich', 'staph', 'ete', 'iso', 'ana', 'spor', 'gen', 'zym', 'san', 'era', 'rus', 'tum', 'eum', 'osa', 
+    'geno', 'pheno', 'tis', 'ans', 'zol', 'nis', 'cia', 'alde', 'cin', 'sin', 'iva', 'ola', 'sil', 'ane', 'vin', 'ese', 'phy', 'gin', 'mis', 'iol', 'one', 'chol', 'ion',
+    'ens', 'occ', 'glu', 'tol', 'nol', 'rol', 'element', 'vor', 'zol', 'cin', 'prot', 'bet', 'alph', 'ium', 'ella', 'ala', 'dia', 'itis', 'myc', 'ryp', 'fol', 'anth', 
+    'aqu', 'tissue', 'lymph', 'trans', 'globul', 'trid', 'chy', 'aden', 'xyl', 'thy', 'ein', 'tin', 'ide', 'ine', 'methyl', 'lysis', 'acetyl', 'oxid',  'strain', 'avi', 
+    'gamma', 'morph', 'syl', 'terp', 'oma', 'pyr', 'epi', 'phe', 'ris', 'glyc', 'ite', 'ize', 'flav', 'plat', 'aca', 'guan', 'xan', 'cyn', 'ima', 'ida', 'sys', 'ken', 
+    'gene', 'cell', 'prot', 'enzyme', 'acid', 'base', 'non', 'mono', 'bi', 'tri', 'quat', 'pent', 'dna', 'rna', 'prop', 'eryth', 'euk', 'proto', 'eus', 'sum', 
+    'sugar', 'alcohol', 'energy', 'metab', 'carbo', 'hydr', 'lipid', 'anti', 'anti', 'ria', 'fluro', 'chia', 'acti', 'eal', 'din', 'pha', 'poly', 'mer', 'chlo', 
+    'um', 'oxi', 'kin', 'mico', 'aly', 'spl', 'rsi', 'nic', 'mos', 'neut', 'tox', 'oxo', 'idi', 'oe', 'mic', 'eu',
+]
+target_words = ['target', 'therap', 'treatment']
+remove_words = ['mgkg', 'dose', 'assay', 'test', 'µ', '±', '=', '+', '%', '\\x']
 component_words = ['metabolite', 'component', 'section', 'subset', 'piece', 'part', 'input', 'output', 'exudate', 'product']
+function_words = ['suppress', 'exhibit', 'show', 'capacity', 'promot', 'diminish', 'exacerb', 'magnif', 'affect', 'reveal', 'seen', 'includ', 'protect', 'promising', 'action', 'mechanism', 'used', 'dys', 'ability', 'effect', 'activ', 'anti', 'pro', 'reduc', 'induc', 'express', 'inhibit', 'trigger', 'agoni', 'change', 'modif', 'modul', 'initia', 'stress', 'increas', 'decreas', 'upreg', 'downreg', 'regulat', 'control', 'enhanc', 'target', 'mechan', 'act', 'propert', 'attribute', 'function']
 already_identified_medical_terms = set()
 already_identified_not_medical_terms = set()
-substance = 'quercetin'
 if not os.path.exists(substance):
     os.mkdir(substance)
 filename = ''.join([c for c in substance.lower() if c in 'abcdefghijklmnopqrstuvwxyz'])[0:10]
@@ -211,18 +227,21 @@ print('\nusing file', saved_pubmed_download)
 # to do: create a list of aliases/alternate names of a substance as well as its components and variants, which can be treated like equivalent to the substance in finding the functions of a substance
 
 # get info about substance from wiki
-functions_found_for_substance = {substance: set()}
-related_substances_variants, functions_found, chemical_found = get_wiki_info(substance, False)
-print('related_substances_variants', related_substances_variants)
-functions_found_for_substance[substance] = functions_found
-
+related_substances_variants, functions_found, chemical_found = get_wiki_info(phrase=substance, original_call=True, include_links=False)
+functions_found_for_substance = functions_found
+no_substance_found_sentences = []
+not_included_sentences = []
+related_sentences = []
+substances_found = []
+targets_found = []
 # get abstracts/keywords from download
 articles, keywords = get_abstracts_from_pubmed_download(saved_pubmed_download)
 open(f"{substance}/keywords.txt", 'w').write('\n'.join([item for item in keywords]))
+article_count = len(articles) # 100
 
 # add keywords to related substance
-for keyword in keywords:
-    related_substances_variants.update(keyword)
+#for keyword in keywords:
+#    related_substances_variants.add(keyword)
 
 '''
 # find related substances in article sentences 
@@ -236,28 +255,98 @@ for article_list in articles:
             for entity in entities_in_sentence:
                 related_substances_variants_in_sentence = find_related_substances(entity, substance, sentence)
                 related_substances_variants.update(related_substances_variants_in_sentence)
-
-# use related terms to identify sentences that include the substance or a related term which can be filtered further to identify functionality of the substance or its related substances
-for article_list in articles:
-    print('article', article_list)
-    for article in article_list:
-        for sentence in article.split('. '):
-            sentence = sentence.lower()
-            if substance in sentence:
-                functions_found_for_substance[substance].add(sentence)
-            for entity in related_substances_variants:
-                if entity in sentence:
-                    if entity not in functions_found_for_substance:
-                        functions_found_for_substance[entity] = set()
-                    functions_found_for_substance[entity].add(sentence)
 '''
 
+# use related terms to identify sentences that include the substance or a related term which can be filtered further to identify functionality of the substance or its related substances
+for article_list in articles[0:article_count]:
+    #print('article', article_list)
+    for article in article_list:
+        if filtering_condition in article:
+            for sentence in article.split('. '):
+                if len(sentence) > 3: # occasionally a sentence will be a letter with punctuation bc of scientific names
+
+                    sentence = ' '.join([word for word in sentence.lower().replace('(', '').replace(')', '').split(' ') if len(word) > 1])
+                    # to do: identify lists of functions
+                    # identify lists of nouns as substances/targets
+                    non_numerical_sentence = ''.join([c for c in sentence if c in 'abcdefghijklmnopqrstuvwxyz, -/'])
+
+                    # treat noun_lists like possible functions, treatments, targets, symptoms/conditions
+                    and_sentence = non_numerical_sentence.replace(' and ', ' ').replace(' or ', ' ')
+                    lists = []
+                    new_list = []
+                    for i, word in enumerate(and_sentence.split(' ')):
+                        noun = [token for token in nlp(word) if token.pos_ in ['PROPN', 'NOUN']]
+                        if len(noun) > 0:
+                            new_list.append(word)
+                        else:
+                            if len(new_list) > 0:
+                                lists.append(new_list)
+                                new_list = []
+                    if len(new_list) > 0:
+                        lists.append(new_list)
+                    noun_lists = []
+                    for list_item in lists:
+                        phrase = ' '.join(list_item).strip()
+                        if phrase.count(',') > 1 and len(list_item) > 2:
+                            noun_lists.append(' '.join(list_item).replace(', ', ' '))
+                    if len(noun_lists) > 0:
+                        print('noun_lists', noun_lists)
+                        for list_items_phrase in noun_lists:
+                            if len([f for f in function_words if f in list_items_phrase]) > 0:
+                                functions_found_for_substance.append(list_items_phrase)
+                            elif len([t for t in target_words if t in list_items_phrase]) > 0:
+                                targets_found.append(list_items_phrase)
+                            else:
+                                substance_found = False
+                                for item in medical_terms_to_check:
+                                    if item in sentence:
+                                        substance_found = True
+                                        break
+                                if substance_found is True:
+                                    substances_found.append(list_items_phrase)
+                                else:
+                                    no_substance_found_sentences.append(list_items_phrase)
+                                substances_found.append(list_items_phrase)
+                        
+                    # treat clauses like individual sentences
+                    replaced_sentence = non_numerical_sentence
+                    clause_delimiters = ['but', 'while', 'which', 'instead', 'so', 'even', 'still', 'however', 'yet', 'because', 'since', 'as']
+                    for clause_delimiter in clause_delimiters:
+                        if ', ' + clause_delimiter in sentence:
+                            replaced_sentence = sentence.replace(clause_delimiter, 'xxx')
+                    clauses = replaced_sentence.split('xxx')
+                    for clause in clauses:
+                        if len([f for f in function_words if f in sentence]) > 0:
+                            functions_found_for_substance.append(sentence)
+                        elif len([t for t in target_words if t in sentence]) > 0:
+                            targets_found.append(sentence)
+                        elif len([w for w in remove_words if w in sentence]) > 0: # remove sentences about dosing and tests
+                            not_included_sentences.append(sentence)
+                        elif len([i for i in related_substances_variants if i in sentence]) > 0: # or substance in sentence:
+                            related_sentences.append(sentence)
+                        else:
+                            substance_found = False
+                            for item in medical_terms_to_check:
+                                if item in sentence:
+                                    substance_found = True
+                                    break
+                            if substance_found is True:
+                                functions_found_for_substance.append(sentence)
+                            else:
+                                no_substance_found_sentences.append(sentence)
+
 # print and save
-for key, vals in functions_found_for_substance.items():
-    print('functions_found_for_substance', len(functions_found_for_substance[key]), functions_found_for_substance[key][0:10])
-
-with open(f"{substance}/functions_found.txt", 'w') as f:
-    json.dump(functions_found_for_substance, f)
-
-print('related_substances_variants', len(related_substances_variants), related_substances_variants[0:10])
-open(f"{substance}/related_substances_variants_found.txt", 'w').write('\n'.join([a for a in related_substances_variants]))
+print('substances_found', len(substances_found), [i for i in substances_found][0:10])
+open(f"{substance}/substances_found.txt", 'w').write('\n'.join(list(set([i for i in substances_found]))))
+print('targets_found', len(targets_found), [i for i in targets_found][0:10])
+open(f"{substance}/targets_found.txt", 'w').write('\n'.join(list(set([i for i in targets_found]))))
+print('functions_found_for_substance', len(functions_found_for_substance), [i for i in functions_found_for_substance][0:10])
+open(f"{substance}/functions_found.txt", 'w').write('\n'.join(list(set([i for i in functions_found_for_substance]))))
+print('related_sentences', len(related_sentences), [i for i in related_sentences][0:10])
+open(f"{substance}/related_sentences.txt", 'w').write('\n'.join(list(set([i for i in related_sentences]))))
+print('not_included_sentences', len(not_included_sentences), [i for i in not_included_sentences][0:10])
+open(f"{substance}/not_included_sentences.txt", 'w').write('\n'.join(list(set([i for i in not_included_sentences]))))
+print('related_substances_variants', len(related_substances_variants), [i for i in related_substances_variants][0:10])
+open(f"{substance}/related_substances_variants_found.txt", 'w').write('\n'.join([i for i in related_substances_variants]))
+print('no_substance_found_sentences', len(no_substance_found_sentences), [i for i in no_substance_found_sentences][0:10])
+open(f"{substance}/no_substance_found_sentences.txt", 'w').write('\n'.join([i for i in no_substance_found_sentences]))

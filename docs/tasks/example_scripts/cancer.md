@@ -1,4 +1,4 @@
-- various mechanisms of action of inhibiting cancer (and associated anti-tumor substances)
+- various sub-intents for general intent of inhibiting cancer (and associated anti-tumor substances with sub-intents)
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
@@ -32,7 +32,7 @@
 			- These biosynthetic pathways utilize omega-3 DHA and EPA during multicellular events in resolution to produce a family of protective compounds, resolvins
 		- inhibit growth factors
 			- inhibit GH (turmeric increases somatostatin, which decreases GH)
-			- inhibit EGFR (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, tetrandine, quercetin)
+			- inhibit EGFR (celastrol, turmeric, resveratrol, astragalus, gallic acid, ginsenoside, berberine, tetrandine, quercetin)
 			- inhibit VEGF (celastrol)
 			- inhibit IGF-1R (quercetin)
 		    	- IGF-1R exerts an enormous function in developing bone tumors, breast carcinoma, and colorectal cancer
@@ -57,6 +57,7 @@
 				- https://gut.bmj.com/content/72/3/501
 			- however, an inhibitor of SAM synthesis (cycloleucine) inhibited the methionine-methylation pathway
 				- https://pubmed.ncbi.nlm.nih.gov/33608308/
+			- decrease fatty acid oxidation (FAO protects cancer cells from apoptosis)
 		- substances that interfere with cancer metabolism
 			- Red Yeast Rice Interferes with Cancer Metabolism of Fats
 			- Bergamot May Block Cancer Metabolism Of Glucose and Fats
@@ -75,7 +76,7 @@
 			- GABPA can be pro-cancer in glioblastoma or anti-cancer in other cancers (depending on the cancer, mutation, and other variables)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822828/
 
-		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like b6/12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
+		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
 		
 		- avoid these with hormone-sensitive cancer
@@ -91,10 +92,12 @@
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
 			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, Berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
 
+		- other effects of substances in food
+			- https://www.mdpi.com/2072-6643/13/3/728#:~:text=There%20is%20evidence%20that%20dietary%20polyphenols%20can%20influence,T%20helper%20%28Th1%29%2C%20Th2%2C%20Th17%20and%20Th9%20cells.
 
-	- as an example of why you need to look up everything youre consuming:
-		- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
-		- similarly, a script to identify what functions a patient needs (rather than just which condition they have, as there are many different states requiring different treatments with complex conditions) and which substances have those functions, and a script to identify functions of a compound, are also useful
+		- as an example of why you need to look up everything youre consuming:
+			- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
+			- similarly, a script to identify what functions a patient needs (rather than just which condition they have, as there are many different states requiring different treatments with complex conditions) and which substances have those functions, and a script to identify functions of a compound, are also useful
 
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
@@ -134,7 +137,7 @@
 					- Both endogenous and exogenous hormones, by driving cell proliferation, increased the number of cell divisions and the opportunity for random genetic errors to lead to cancer
 					- compounds in soy like daidzein can reduce risk of hormone-dependent cancer
 			- polyphenols/flavonoids
-			- tumor markers as alternate treatment targets
+			- tumor markers as alternate treatment targets (vimentin, PCNA)
 			- side effects of cancer drugs as alternate treatment targets
 			- pro-inflammatory cytokines (tumor necrosis factor alpha, interleukin 6, and nuclear factor kappa B (NF-κB))
 				- Cytokines include chemokines, interferons, interleukins, lymphokines, and tumour necrosis factors, but generally not hormones or growth factors 
@@ -206,7 +209,43 @@
 				- this is in contrast to an option like 'trying/cycling all medicines randomly' which can have contrary effects and could help cancer instead of host cells
 				- as another example, 'adding a PCNA inhibitor/downregulator' might be a good general rule to apply (except in contraindicated cases)
 					- examples include olive oil, ashwagandha, short chain fatty acids, green tea, holy basil, thyme, d-limonene, atorvastatin/simvastatin
-			
+				- strategy for Aurora-A inhibitors in RB1, ARID1A and MYC gene mutation tumors, and potential synergistic strategy for mTOR, PAK1, MDM2, MEK inhibitors or PD-L1 antibodies combined with targeting Aurora-A kinase
+					- https://pubmed.ncbi.nlm.nih.gov/37521867/
+					- Aurora kinase A (Aurora-A), a serine/threonine kinase, plays a pivotal role in various cellular processes, including mitotic entry, centrosome maturation and spindle formation. 
+					- Overexpression or gene-amplification/mutation of Aurora-A kinase occurs in different types of cancer, including lung cancer, colorectal cancer, and breast cancer. 
+					- Alteration of Aurora-A impacts multiple cancer hallmarks, especially, immortalization, energy metabolism, immune escape and cell death resistance which are involved in cancer progression and resistance
+					- Specifically, the mechanisms of Aurora-A kinase promote acquired resistance through modulating DNA damage repair, feedback activation bypass pathways, resistance to apoptosis, necroptosis and autophagy, metastasis, and stemness
+
+
+	- specific treatment strategies
+
+		- brain cancer-specific substances
+			- resveratrol, icariin, quercetin, propolisis, salvia menthaefolia roots, ficus carica latex, berberine, withaferin A, curcumin, angelica sinensis root, ardipusilloside 1, eckol, MSC500, AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine), thymoquinone, cucurbitacins, betulinic acid from betula pubescens, diosquinone from diospyros tricolor
+			- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
+			- toosendanin from melia toosendan increased the p53 expression
+			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
+			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+			- Coriolus versicolor (krestin polysaccharide), Maitake fraction D, long-chain polysaccharides (beta-glucans from maitake, reishi, and shiitake mushrooms)
+    		- sodium R lipoate plus hydroxycitrate
+    			- hydroxycitrate from garcinia cambogia may block metabolism of sugar/fat in cancer cells, by blocking an enzyme known as ATP citrate lyase. ATP citrate lyase (ACLY) is an enzyme linked to both sugar and fat metabolism, which is produced more in cancer cells, and therefore reduces the production of cellular energy, known as ATP
+    		- boswellia
+    		- cbd with thc 
+				- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells
+    		- bitter ginger (zerumbone)
+    		- https://www.glioblastomamultiforme.it/en/over-the-counter-drugs-and-supplements-to-fight-glioblastoma-part-one/#:~:text=Over-the-Counter%20Drugs%20and%20Supplements%20to%20Fight%20Glioblastoma%20%28Part,Herbs%206%20Berberine%207%20Boswellic%20acids%208%20Cannabis
+
+    	- brain cancer-specific mutations
+    		- loss of the chromosome arm 10q
+    		- alterations in genes/pathways
+    			- TP53
+    			- RB
+    			- NF1
+    			- PTEN
+    			- MDM2 
+    			- alterations in RTK/Ras/PI3K signaling pathways (moringa, celastrol, holy basil, aloe emodin inhibit this pathway)
+    		- amplifications of EGFR and PDGFR
+
 
 	- general treatment strategies
 
@@ -220,22 +259,6 @@
 			- using less damaging anti-cancer substances in small doses (luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
 			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
 			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
-
-		- brain cancer-specific substances
-			- resveratrol, icariin, quercetin, propolisis, salvia menthaefolia roots, ficus carica latex, berberine, withaferin A, curcumin, angelica sinensis root, ardipusilloside 1, berberine, eckol, MSC500, AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine), thymoquinone, cucurbitacins, betulinic acid from betula pubescens, diosquinone from diospyros tricolor
-			- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
-			- toosendanin from melia toosendan increased the p53 expression
-			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
-			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
-			- Coriolus versicolor (krestin polysaccharide), Maitake fraction D, long-chain polysaccharides (beta-glucans from maitake, reishi, and shiitake mushrooms)
-    		- sodium R lipoate plus hydroxycitrate
-    			- hydroxycitrate from garcinia cambogia may block metabolism of sugar/fat in cancer cells, by blocking an enzyme known as ATP citrate lyase. ATP citrate lyase (ACLY) is an enzyme linked to both sugar and fat metabolism, which is produced more in cancer cells, and therefore reduces the production of cellular energy, known as ATP
-    		- berberine
-    		- boswellia
-    		- cannabis
-    		- bitter ginger (zerumbone)
-    		- https://www.glioblastomamultiforme.it/en/over-the-counter-drugs-and-supplements-to-fight-glioblastoma-part-one/#:~:text=Over-the-Counter%20Drugs%20and%20Supplements%20to%20Fight%20Glioblastoma%20%28Part,Herbs%206%20Berberine%207%20Boswellic%20acids%208%20Cannabis
 
 		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
 			- Chamomile is contraindicated
@@ -391,6 +414,12 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
+		- garlic
+			- garlic might lower cholesterol levels by acting as an HMG-CoA reductase inhibitor 
+			- it also reduces oxidative stress and LDL oxidation, has antithrombotic effects, and reduces blood pressure by causing smooth muscle relaxation and vasodilation
+			- Garlic may stimulate both humoral and cellular immunity, causing T-cell proliferation, restoring suppressed antibody responses, and stimulating macrophage cytotoxicity on tumor cells
+			- It may increase selenium absorption with possible protection against tumorigenesis 
+			- garlic may protect against certain cancers by halting cell cycle progression and inducing apoptosis of cancer cells as well as by decreasing angiogenesis and influencing carcinogen metabolism
 		- quercetin
 			- Its antioxidant effects are due its phenolic group, which reacts with free radicals to form the more stable phenoxy radicals
 			- Quercetin also exerts anti-inflammatory and chemopreventive properties
@@ -1253,7 +1282,7 @@
 			- Cytoplasmic Serine/threonine kinases and their regulatory subunits (such as Raf kinase, and cyclin-dependent kinases (through overexpression))
 		- activate aryl hydrocarbon receptor (AHR) 
 		- cbd with thc 
-			- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells.
+			- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells
 		- down-regulates the expression of ERα (inhibition of cancer cell migration and growth)
 			- Withaferin A 
 		- inhibits tumor growth through ATP-independent inhibition of heat shock protein 90 HSP90
@@ -1261,19 +1290,58 @@
 
 
 	- induce senescence of cancer cells
+	    - berberine
+
+
 	- decrease migration/invasion/proliferation of cancer cells
+		- moringa, carvacrol from holy basil, saffron, latex from aloe
+
+
 	- decrease Hsp27
+	    - quercetin
+
+
 	- increase ROS generation in cancer cells
+	    - resveratrol
+
+
 	- increase AMPK activation
+	    - resveratrol
+
+
 	- decrease mTOR signaling
+	    - resveratrol
+
+
 	- decrease Nf-ƘB signaling
-	- increase tumor suppressor let-7miRNA
+		- resveratrol
+
+
 	- increase G0/G1 cell cycle arrest
-	- decrease radiation induced ERK signaling
+	    - Tetrandrine
+	    - berberine
+
+
+	- decrease ERK signaling
+		- tetrandrine
+
+
 	- decrease EGFR-RAF-MEK-ERK signaling
+		- berberine
+
+
 	- decrease Bcl-2/Bax ratio
+		- saponin, celastrol, withaferin, fisetin, quercetin
+
+
 	- activate caspase-9/caspase-3
+		- saponin, emodin, moringa increase caspase-9
+		- bcl family proteins are inhibited by celastrol, withaferin, fisetin, quercetin
+
+
 	- decrease VEGF-A
+		- ginseng
+
 
 	- decrease cancer-promoting hormone IGF-1 
 		- avoid animal protein
@@ -1524,8 +1592,7 @@
 		- mechanisms
 			- Decreased migration of endothelial cells
 			- Flt1 (VEGFR1) upregulation
-				- (VEGFR1 upregulation may act as a negative regulator of VEGFA that is upheld by this receptor with low protein kinase activity and therefore VGEFA is unable to bind to KDR [VEGFR2] with much higher kinase activity). 158
-			- VEGF downregulation
+				- (VEGFR1 upregulation may act as a negative regulator of VEGFA that is upheld by this receptor with low protein kinase activity and therefore VGEFA is unable to bind to KDR [VEGFR2] with much higher kinase activity)
 		- https://en.wikipedia.org/wiki/Angiogenesis_inhibitor (angiogenesis is formation of new blood vessels which can feed tumors)
 		- methionine is required for angiogenesis
 		- Some common components of human diets also act as mild angiogenesis inhibitors and have therefore been proposed for angioprevention, the prevention of metastasis through the inhibition of angiogenesis. In particular, the following foods contain significant inhibitors and have been suggested as part of a healthy diet for this and other benefits:
@@ -1657,6 +1724,10 @@
 				- NAC/glutathione - Thiol antioxidants inhibit the formation of the interleukin-12
 				- aluminium hydroxide, aluminium phosphate, and calcium phosphate adjuvants inhibit the secretion of the Th1 polarizing cytokine, IL-12
 				- vitamin d decreases IL-12
+
+
+	- increase TH1
+		- berberine, broccoli, ginger, chinese skullcap
 
 
     - inhibit TLR4 (a receptor in an inflammatory signaling pathway)
@@ -1904,6 +1975,7 @@
 				- ginsenoside
 				- oridonin (Isodon rubescens)
 				- curcumin
+				- berberine
 				- oximatrine (Sophora flavescens)
 				- tetrandine (Stephania tetrandra)
 				- quercetin
@@ -2255,6 +2327,7 @@
 				- https://pubmed.ncbi.nlm.nih.gov/36272139/
 			- resveratrol
 				- https://pubmed.ncbi.nlm.nih.gov/37298405/
+			- withaferin
 		- Bcl-2/Bax-caspase 9/3
 			- bcl family proteins are inhibited by celastrol, withaferin, fisetin, quercetin, Navitoclax
 		- ROS/JNK
