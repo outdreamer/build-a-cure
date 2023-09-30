@@ -2,7 +2,7 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
-		- inhibit HMGB1
+		- inhibit HMGB1 (glycyrrhizin)
 			- High mobility group B1 (HMGB1) has been recognized as a proinflammatory cytokine and more recently, as a proangiogenic factor
 			- HMGB1 itself may signal through the receptor for advanced glycation end products (RAGE), and via toll-like receptors, TLR2 and TLR4
 			- Activation of these receptors results in the activation of NFkappaB, which induces the upregulation of leukocyte adhesion molecules and the production of proinflammatory cytokines and angiogenic factors and inflammation
@@ -17,7 +17,7 @@
 				- growth hormone increases IMP2, so increasing the growth hormone inhibitor somatostatin is useful to decrease IMP2
 				- somatostatin increasers: turmeric/curcumin, omega-3 fatty acids, magnesium, and vitamin D elevate somatostatin levels
 				- https://pubmed.ncbi.nlm.nih.gov/35023719/
-		- resolvins to prevent cancer reoccurrence
+		- increase 'resolvins' to prevent cancer reoccurrence (omega-3 fatty acids + (atorvastatin or aspirin))
 			- omega-3 fatty acids + (atorvastatin or aspirin) produce resolvins, which reduce tumor reoccurrence caused by dead cancer cells from previous treatments
 			- https://www.medicalnewstoday.com/articles/320227
 			- The cancer cells that survive treatment, combined with an inflammatory setting induced by "cancer cell debris", may result in cancer progression
