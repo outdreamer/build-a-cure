@@ -2,6 +2,8 @@
 
 
 	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
+		- induce apoptosis (modified citrus pectin, quercetin chalcone)
+			- https://pubmed.ncbi.nlm.nih.gov/11134977/
 		- inhibit HMGB1 (glycyrrhizin)
 			- High mobility group B1 (HMGB1) has been recognized as a proinflammatory cytokine and more recently, as a proangiogenic factor
 			- HMGB1 itself may signal through the receptor for advanced glycation end products (RAGE), and via toll-like receptors, TLR2 and TLR4
@@ -68,7 +70,7 @@
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
 		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
 		- fibrosis inhibitors (ashwagandha)
-		- tyrosine kinase inhibitors (quercetin)
+		- tyrosine kinase inhibitors (quercetin, genistein)
 		- Myc inhibitors (through PDK1 inhibitors like dichloroacetate, or histone deactylase inhibitors like moringa/trichostatin)
 		- potassium ion channel inhibitors (tetrandrine, Berberine, Matrine/Sophora flavescens/Euchresta japonica, Salvia miltiorrhiza/tanshinone, Artemisinin)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8964196/
