@@ -71,6 +71,7 @@
 		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
 		- fibrosis inhibitors (ashwagandha)
 		- tyrosine kinase inhibitors (quercetin, genistein)
+		- inhibit TCF4 or β-catenin/TCF signaling (quercetin)
 		- Myc inhibitors (through PDK1 inhibitors like dichloroacetate, or histone deactylase inhibitors like moringa/trichostatin)
 		- potassium ion channel inhibitors (tetrandrine, Berberine, Matrine/Sophora flavescens/Euchresta japonica, Salvia miltiorrhiza/tanshinone, Artemisinin)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8964196/
