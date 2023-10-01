@@ -85,216 +85,215 @@
 				- for example, substances like quercetin listed for pancreatic cancer are also useful for other cancers like brain cancer
 
 				Substance/component - mechanisms
-				Fascaplysinopsis Bergquist/Fascaplysin - ↓CDK-4, ↑ROS, ↓mTOR, ↓4EBP1, ↓p70S6K1
-				Chelidonium majus/Chelidonine - ↓cyclin B1, ↑p21, ↓MMP, ↑ROS/AMPK, ↓p-p70S6K, ↓EGFR, G2/M phase arrest
-				Cephaelis Ipecacuanha/Emetine - ↓MMP-2/-9, ↓ERK1/2, and ↑p38
-				Citrus limon/D-limonene - ↑Ba, x↓Bcl-2, ↑cleaved PARP, ↑Atg5
-				Artemisia annua/Sesquiterpene (AMDT) - ↑caspase 3- 9, G1/S phase arrest
-				Artemisinin/C15H22O5 - ↓VEGF-C, ↓p38 MAPK
-				Artemether/C16H26O5 - ↓Bcl-2, ↓cIAP1, ↓cIAP2, ↓CDK1, ↓CDK2, ↓CDK6, ↓cyclin A2, ↓cyclin B1, ↓cyclin D1, ↑p16
-				Betula platyphylla/Betulin - ↑caspase 3- 9 and 8, ↑ Ba, x↑Cyto- C, ↑Bak, ↓PARP
-				Betulinic Acid/C30H48O3 - ↓cyclin A2, ↓Sp1, G2/M phase arrest
-				Garcinia/Gambogic acid - ↑Caspase-3, ↓Bcl2, ↓pI3K, ↓DLL1, ↓DLL3, ↓ DLL4, ↓Jagged1, ↓Jagged2
-				Laminaria japonica/Fucoxanthin - ↑p21, ↑p53, ↑puma, ↑Fas, ↓Bcl-2, G0/G1 phase arrest
-				Chinese trichosanthes/Trichosanthin - ↑Caspase-3 and 9, ↑E-cadherin, ↓N-cadherin, ↓Bcl-2, ↑ Ba, x↑DR4, ↑DR5
-				Hedyotis/Ursolic acid - ↓MMP2, ↓MMP 9, ↑E-cadherin, ↓N-cadherin
-				Oleanolic acid/C30H48O3 - ↑ROS, ↑Ca2+, ↓Akt, ↓JACk2, ↓STAT3
-				Scutellaria barbata/Wogonin - ↑caspase-3, 8 and 9, ↑ROS
-				Luteolin/C15H10O6 - ↑miR-34a-5p, ↑p21, ↑p53, ↓MDM4, ↑caspase-3 and 9
-				Polygonum cuspidatum/Polydatin - ↓NLRP3, ↓ASC, ↓p-NF-κβ p65
-				Rheum officinale/Emodin - ↑PPARγ, ↑IGFBP1, ↓Sp1
-				Rhizoma zedoariae/β-elemene - ↑caspase-3, ↑ROS, ↑Cyto- C, ↑Bad, ↓Bcl-2
-				Chansu/Bufalin - ↑caspase-3, ↓Akt, ↓ ERK ½, ↓VEGF, ↓cMyc, ↓NF-κβ, ↓p38 MAPK, G1/S phase arrest
-				Platycodon grandiflorum/Platycodin-D - ↑Atg-3, ↑Atg-7, ↑Beclin-1, ↑LC3-II, ↓ p-Akt, ↓p-p70S6K, ↓p-4EBP1, ↓ ERK ½
-				Salvia miltiorrhiza/Tanshinone IIA (TSIIA) - ↑Cyto- C, ↓ Ba, x↓MMP, ↑caspase-3 and 9
-				Tripterygium wilfordii Hook/Celastrol - ↓Bcl-2, ↑ Ba, x↓Akt, ↑Cyto- C, ↓PARP, ↑Fas, ↑FasL
-				Curcuma longa/Curcumin - ↑ROS, ↓ΔΨm, ↓SOD1, ↑caspase-3 and 9, ↑ Ba, xG2/M phase arrest
-				Cinnamomum cassia/Cinnamaldehyde - ↑caspase-3, ↑PARP, ↓Bcl-2,↑Bax,↓Bcl-xL, ↓HIF-1α, ↓β-catenin, ↓MMPs, ↑E-cadherin
-				Coix lacryma-jobi L./CP-1 polysaccharide - ↑caspase-3 and 9, ↓ΔΨm, S phase arrest
-				Ophiopogon japonicus/Ophiopogonin B - ↑E-cadherin, ↓N-cadherin, ↓linc00668, ↑miR-432-5p
-				Tetrastigma hemsleyanum/Radix Tetrastigma Hemsleyani Flavone - ↓MMP 2 and 9, ↓TIMP-1, ↑TIMP-2
-				Panax notoginseng/Trilinolein - ↓Bcl-2, ↑ Ba, x↑ROS, ↓PARP, ↓Akt, ↑caspase-3, ↑Cyto- C
-				Fucus vesiculosus/Fucoidan - ↑ROS, ↑ATF4, ↑CHOP, ↑TLR4
-				Rabdosia rubescens/Oridonin - ↓Jagged2, ↓Notch1-4
-				Panax notoginseng/Panaxadiol saponins - ↓NLR, ↓MPO, ↓G-CSF, ↓PU.1, ↓C/EBPα, ↓EP1, ↓GATA 1 and 2
-				Ganoderma lucidum/Ganodermanontriol - ↓u-PA, ↓CDC20, ↓survivin
-				Polysaccharides/n.d. - ↑SOD, ↑CAT, ↑GP, x↓IL-1β, ↓IL-6, ↓TNF-α
-				Maclura pomifera/Pomiferin - ↑CAN, x↑BCAP31, ↑Mn-SOD,↑ACOX1,↓BMP-7 ↓ID 2 and 3
-				Chansu/Bufadienolides - ↓STAT3/Mcl-1, ↓Bcl-xL, ↓PARP, ↑caspase-3
-				Cimicifuga foetida/Actein - ↓VEGF, ↓pERK, ↓pJNK, ↓CD34, ↓CXCR4
-				Astragalus membranaceus/Formononetin - ↓MMP 2, ↓MMP9, ↓PI3K, ↓Akt, ↑TIMP-1 and 2
-				Astragulus Polysaccharides/n.d. - ↓Bcl-2, ↑ Ba, x↑NO, ↑TNF-α, G1/S phase arrest
-				Narcissus L. bulb/Narciclasine - ↑AMPK-ULK1, ↓PRAS40
-				Cimicifuga racemosa/KHF16 - ↓XIAP, Mcl-1, ↓Survivin, ↓Cyclin B1/D1, ↓NF-kβ
-				Pueraria lobata/Puerarin - ↓NFκβ, ↑AMPK, ↑ACC, ↑GSK-3β, ↓CREB
-				Gardenia jasminoides Ellis/Genipin - ↓Bcl-2, ↑ Ba, x↑caspase-3, ↑JNK, ↑p38 MAPK
-				Tetradium ruticarpum/Evodiamine - ↓u-PA, ↓MMP 9, Bcl-2, ↑ Ba, x↓CD1, ↓CDK6, G0/G1 arrest
-				Euphorbia prolifera Buch-Ham/Myrsinol diterpene
-				(J196-10-1)/n.d. - ↓MDR, ↓Pgp efflu, x↑ATP hydrolysis
-				Solanum nigrum L./α-Solanine - ↑Ba, x↓Bcl-2, ↓Ψm
-				Melonidus suaveolens/Melosuavine I - ↑caspase 3, ↓Bcl-2, ↑p53
-				Cnidium monnieri (L.) Cusson./Osthole - ↑caspase 9 and 3, ↓PARP, ↑p53 and p23, ↓Cdk2 and CD1
-				Ophiopogon japonicus/Ophiopogonin D - ↑Caspase 9 and 8, ↓cyclin B1 and G2/M arrest
-				Panax ginseng C. A. Mey./Ginsenoside Rg5 - ↑p53, p21 and p15, ↓CD1, CE2 and Cdk4, ↑caspase 6,7,8 and 9, ↓PARP
-				Epimedium brevicornum/Icariside II - ↑Cl-Caspase-9,8,7,3, ↑ Cl-PARP, ↑ Ba, x↑Bcl-xL, ↑BimL, ↑Fas, ↓ FasL, ↑FADD, ↓MMP, ↑Cyto- C, ↑AIF
-				Tripterygium wilfordii Hook/Triptolide - ↓ MMP7 and MMP19, ↑Ecadherin
-				Panax ginseng/Ginsenoside 20(S)-Rg3 - ↑ Caspase-3 and 9, ↓ PI3K/Akt and IAP
-				Syzygium aromaticum/Kumatakenin - ↑ Caspase-3,8 and 9, ↓MCP-1, ↓RANTES, ↓IL-10, ↓VEGF, ↓MMP 2 and 9
-				Pueraria mirifica/Daidzein - ↑Bcl-2, ↑cym-c, ↑cleaved caspase-3/9, G2/M cell arrest, ↓pCdc25c, ↓pCdc2, ↓cyclin B1, ↓MMP-2/9
-				Thelypteris torresiana (Gaud)/Protoapigenone - ↓p-Cdk2, ↓Cdk2, ↓p-Cyclin B1, ↓Cyclin B1, ↑p-Cdc25C, ↓Bcl-xL, ↓Bcl-2, ↑caspase-3
-				Epimedium brevicornum/Icariin - ↑Caspase-3, ↓miR-21, ↑PTEN and RECK, ↓Bcl-2
-				Icaritin/C21H20O6 - ↑caspase 3- 9, ↑p53 and ↓Akt/mTOR pathway
-				Gundelia tournefortii/Stigmasterol - ↑ROS, ↑caspase 3 and 9, Ba, x↑BAk, ↑cym-c, ↓VEGFA, ↓MMP 2,9 and 14
-				Vitex Agnus-castus L./Casticin - ↑FOXO3a, ↓FoxM1, ↓survivin, ↓PLK1, p27KLP1
-				Carya cathayensis Sarg/Juglone - ↑ROS, ↑p21, ↑Ba, x↑Bad, ↑Cyto c, ↓CDK2, cdc25A, CHK1, and cyclin A, ↓Bcl-2 and Bcl-xL, ↓Cyclin A, S-phase cell cycle arrest
-				Scutellaria baicalensis Georgi/Baicalin and Baicalein - ↓VEGF, HIF-1α, cMyc, and NFκB
-				Potamogeton crispus L./Luteolin-3’-O-β-D-glucopyranoside - ↓MMP-2, ↓MMP-9, G1/S phase arrest
-				Artemisia annua/artesunate - ↑ROS, ↑p21, ↓CDKs, ↓Rb, ↓E2F-1, ↓CDC25C, G2/M cell cycle arrest
-				Arctium lappa/Arctigenin - ↓STAT3, ↓survivin, ↓iNOS, ↑caspase3
-				Asparagus officinalis L./Asparanin A - ↓Bak/Bcl-xl, ↑ROS, ↑Cyto c, ↓Δψm, ↑caspases, G0/G1 cell cycle arrest, ↓PI3K/Akt/mTOR
-				Salvia miltiorrhiza/Cryptotanshinone - ↑caspase3 and 9, ↑Bax/Bcl-2, ↓MMP 2 and 9
-				Asiatic Moonseed/Dauricine - ↓cyclin D1, ↓COX2, ↓cMyc, ↓survivin, ↓Bcl-2, ↓IAP1, ↓MMP 9, ↓ICAM1, ↓VEGF, ↓NFκβ
-				Withania somnifera/Withaferin A - ↑ROS, ↓ Bcl-2/Ba, x↑caspase3 and 9, ↓ΔΨm
-				Piper nigrum/Piperine - ↓wnt/β-catenin pathway
-				Crocus sativus/Crocetin - ↑p53, ↑PIDD, ↑Ba, x↑FAS, ↑caspase-3, -8 and -9
-				Cynanchum paniculatum/Antofine - ↓proliferation, ↑cytotoxicity, G2/M cycle arrest
-				Zingiber zerumbet/Zerumbone - ↑ROS, ↓ Bcl-2/Ba, x↑caspase-3/-8/-9, ↓ΔΨm, G2/M cycle arrest
-				Hymenocallis littoralis/Pancratistatin - ↑LC3II, ↑beclin-1, ↑Ba, x↓cyclin B1, ↓cdc25c, G2/M cycle arrest
-				Saussurea lappa/Costunolide - ↓Survivin, ↓β-catenin, ↓galectin-3, ↓cyclin D1, G2/M cycle arrest
-				Rehmannia glutinosa/Catalpol - ↓VEGF, ↓EGFR2, ↓HIF-1α, ↓IL-1β, ↓IL-6 and 8, ↓iNOS
-				Laminaria japonica/LJGP - ↓CDK2, ↓PCNA, ↓E2F-1, ↓cyclin E, ↓cyclin D1, ↓PARP, ↑p27, ↑caspase 9, ↓Bcl-2, G1 phase arrest
-				Rosmarinus officinalis/Rosmarinic acid - ↑E-cadherin, ↓N-cadherin, ↓twist, ↓vimentin, ↓MMP 2 and 9, ↓ICAM-1, ↓ITGβ1
-				Coptis chinensis/Berberine - ↑p21, ↓PARP, ↑caspase 8, ↓VEGF, ↓COX2, ↓Bcl-2, G2/M phase arrest
-				Sanguinaria canadensis/Sanguinarine - ↑ROS, ↓MMP, ↑caspase-3, 8 and 9, ↓Bcl-2, ↓XIAP, ↑Egr-1
-				Nauclea orientalis/Naucleaoral A and B - ↑cytotoxicity
-				Glycyrrhiza uralensis/Licoricidin - ↑caspase-3, 8 and 9, ↓CDK1, ↑AMPK, ↓Akt/mTOR, G1/S phase arrest
-				Carpobrotus edulis/Rutin - ↑caspase 3, G0/G1 phase arrest
-				Scutellaria baicalensis/Baicalin and Baicalein - ↓hTERT, ↓MAPK, ↓ERK, ↑p38
-				Nicotiana glauca/Scopoletin - ↓ERK1, ↓VEGF-A, ↓FGF-2
-				Morus australis/Morusin - ↓ PI3K/Akt, ↓PDK1, ↓XIAP, ↓cMyc, ↓NFκβ, ↑caspase-3, 8 and 9, G1 phase arrest
-				Allium sativum/Diallyl disulphide - ↓GSK3β, ↓NFκβ
-				Nandina domestica/Protopine - ↑p53, ↑p21, ↑Ba, x↑caspase-3 and 7, ↑LC3-II
-				Nigella sativa/Thymoquinone - ↑LC3-II, ↑p62, ↓MMP 2 and 9, ↓FAC, ↓Nf-kβ, ↓ERK, ↓Akt, ↓mTOR
-				Radix Angelica sinensis/Z-ligustilide - ↓RhoA, ↓Cdc42, ↓Rac1
-				Panax ginseng C. A. Mey/Ginsenoside Rh2 - ↑miR128, ↑E2F3a, ↑caspase-3
-				Bolbostemma paniculatum/Tubeimoside-1 - ↓Bcl-2, ↑ Ba, x↑caspase-3, ↑Cyto- C, ↑ROS
-				Thuja occidentalis/α-/β-Thujone - ↓VEGF, ↓Ang-4, ↓CD31
-				Rubia cordifolia L./Mollugin - ↓ Akt, ↓ P70S6K, ↓ mTOR, ↓ ERK ½, ↑JNK, ↑p38
-				Garcinia brasiliensis/7-epiclusianone - ↓cyclin A, ↑caspase-3, S and G2/M phase arrest
-				Escherichia coli/Selenocysteine - ↑ROS, ↑p21waf1/cip1, ↑p53, ↓Akt, ↑p38MAPK, ↑JNK, ↑ERK, S phase cycle arrest
-				Anula helenium/Alantolactone - ↑ROS, ↓GSH, ↓Bcl-2, ↑ Ba, x↑p53, ↑Cyto- C, ↑caspase-3/-9, ↓ΔΨm, ↓Nf-kβ
-				Carpesium nepalense/Nepalolide A - ↓IkB-α, ↓IkB-β, ↓iNOS, ↓NF-kβ
-				Buxus microphylla/Cyclovirobuxine D - ↑ Ba, x↓Bcl-2, ↑caspase-3, S and G0/G1 phase arrest
-				Euscaphis japonica/Pomolic acid - ↑caspase-3 and 9, ↑ROS, ↓MRP1
-				Danshen/Salvianolic Acid B - ↑ROS, ↑p53, ↑p38 MAPK
-				Glycine max/Soyasapogenol B - ↓STAT3, ↓M2 polarization, ↑M1, ↑IL-12
-				Rosmarinus officinalis/Carnosol - ↑p53, ↓twist, ↓Zeb1, ↓slug, ↑miR-200c
-				Tillandsia recurvata/HLBT-100 - ↑caspase-3, and 7, G1 cell cycle arrest, ↓angiogenesis
-				Ligusticum chuanxiong hort/Tetramethylpyrazine - ↓CXCR4
-				Garcinia hanburyi Hook. f/Gambogenic acid - ↓cyclin E, ↓cyclin D1, ↓EGFR, ↓Akt, ↓GSK3β, Go/G1 phase arrest
-				Vitis vinifera/Resveratrol - ↓Akt, ↑p53
-				Curcuma aromatica Salisb./Germacrone - ↑p53, ↑ Ba, x↓Bcl-2, ↑p21, ↓CD1, ↓CDK2, G1 phase arrest
-				Acori Graminei Rhizoma/Volatile Oil (VOA) - ↑caspase-3, 8 and 9, ↑ Bax/Bcl-2, ↑LC3-II/I, ↑atg5, ↑beclin1, ↓p62
-				Trichosanthes kirilowii Maxim./Trichosanthin - ↓LGR5, ↓β-catenin, ↓pGSK-3βSer9, ↓cMyc, ↓CD1
-				Streptomyces staurosporeus/Staurosporine - ↑caspase-3, ↓TDP-43
-				Dysosma versipellis/Deoxypodophyllotoxin - ↓Cdc2, ↓CB1, ↓Cdc25C, ↑caspase-8 and 9, ↓Bcl-2, ↓Bcl-xL, G2/M phase arrest
-				Anemone taipaiensis/Saponin B - ↑Fas-l, ↑caspase-3, ↓Bcl-2, G1/S phase arrest
-				Strychnos nux-vomica Linn/Brucine - ↓HIF-1, ↓MMP-2, ↓FN, ↓LO, x↓CD
-				Azadirachta indica/Nimbolide - ↑caspase-3,7 and 9, ↑ Ba, x↓Bcl-2, ↓Mcl-1, ↓XIAP, ↓ c-IAP1, ↓c-IAP2, G2/M phase arrest
-				Gardenia jasminoides ellis/Geniposide - ↓miR-224, ↓wnt/βcatenin, ↓Akt
-				Solanum nigrum L./Solamargine - ↓pcna, ↓Ki67↓Bcl-2, ↑ Ba, x↑caspase-3 and 9, G2/M phase arrest
-				Matricaria recutita/α- bisabolol - ↑caspase-3,-8 and -9, ↑Fas, ↓Bcl-2, ↑p53, ↑Nf-kβ,
-				Ganoderma lucidum/Ganoderic acid A - ↓cyclin D1, ↑p21, ↑cleaved caspase 3, G0/G1 phase arrest
-				Thalictrum glandulosissimum/Hernandezine - ↑AMPK, ↑Atg-7
-				Angelica gigas Nakai/Decursin - ↑LATS1, ↑βTRCP, ↑p-YAP, ↑cleaved caspase 3, ↑cleaved PARP, G1 phase cell cycle arrest
-				Lavandula officinalis/Linalool - ↓cyclin A, ↓CDK4, ↑p21, ↑p27, ↑ROS, ↑caspase-3, ↓Ras, ↓Akt, ↓mTOR, G0/G1 phase arrest
-				Tylophora indica/Tylophorine - ↓cyclin A2, G1 phase cell cycle arrest
-				Patrinia scabra Bunge/Lariciresinol - ↓ΔΨm, ↑Cyto- C, ↑caspase-3 and 9, ↑PARP, ↓Bcl-2/Bax
-				Oroxylum indicum/Oroxin B - ↑PTEN, ↓COX-2, ↓VEGF, ↓p-Akt, ↓PI3K
-				Stephania tetrandra/Tetrandrine - ↓wnt/β-catenin, ↓MTA1, ↑E-cadherin, ↑occludin, ↓Vimentin
-				Scutellaria lateriflora/Scutellarein - ↓HIF-1α, ↓Flt-1, ↓VEGFA, ↓MMP 2 and 9, ↑caspase-3
-				Toddalia asiatica Lam/Chelerythrine - ↓MMP 2 and 9, ↓p-FAK ↓PI3K, ↓Akt, ↓mTOR, ↓c-JNK, ↓ERK
-				Astragalus complanatus R.Br./(FAC) flavonoids - ↑caspase-3 and 8, ↑ Ba, x↑p21, ↑p27, ↓CDK1, CDK4, ↓cyclin B1, ↓cyclin D1, G0/G1 and S phase arrest
-				Quercus Iberica/Quercetin - ↑E-cadherin, ↓MMP9, ↑LC3, ↓Vimentin, ↓Jak2, ↓STAT3,
-				Trichosanthis Radix/Cucurbitacin B - ↓cdc2, ↓cyclin D1, ↓c-Raf, S phase arrest
-				Colchium speciosum/Colchicine - ↑AKAP12, ↑TGFB2, ↑MX1, ↓APOH, ↑GDF15, ↑IL32
-				Wilkstroemia elliptica Merr./Umbelliferone - ↑ROS, ↓MMP, G0/G1 cycle arrest
-				Dioscorea nipponica/Dioscin - ↑p53, ↓Cyclin A, ↓CDK2, ↓p-ERK, ↓Bcl-2, ↑p-JNK, ↑p-p38, ↑Ba, x↑cleaved caspase-3/-9
-				Maclura pomifera/Osajin - ↑Ba, x↓Bcl-2, ↑Fasl, ↑cym-c, ↓GRP78, ↑caspase-3,4,8 and -9
-				Cichorium intybus/Esculetin - ↓pJAK1/2, ↑ROS, ↓STAT3, G1/S cycle arrest
-				Serratia marcescens/Prodigiosin - ↓Cyclin D1, ↑beclin-1, ↓mTOR, ↓PI3K/Akt, G0/G1 phase arrest
-				Albatrellus confluens/Neoalbaconol - ↓PDK1, ↓PI3K/AKT HK-2, ↑RIP1, ↑RIP3
-				Haematococcus pluvilis/Astaxanthin - ↓PI3k/Akt, ↓STAT3, ↓Nf-kβ, ↓miR-21, ↓HOTAIR
-				Geranium thunbergii/Geraniin - ↓MMP2, ↓Fak, ↓Src, ↓ERK ½
-				Forsythia suspensa/Phillygenin - ↑Caspase-3/-9, ↑Ba, x↑ROS, ↓Bcl-2, G2/M phase arrest, ↓Nf-kβ
-				Enicosanthellum phalcrum/Liriodenine - ↑Ba, x↑Caspase-3, ↓Bcl-2, G2/M phase arrest
-				Halichondria sp./Ilimaquinone - ↑ROS, ↑LC3B-II, ↑Atg5, ↓p-pAkt, ↓p-p38, ↓HIF-1α, ↓Mcl-1, ↓Bcl-2
-				Tabernaemontana catharinensis/Coronaridine - ↑apoptosis, ↑cytotoxicity
-				Chelidonium majus/Ukrain - ↓EGFR, ↓AKT2, ↓STAT3, JAK1, ↓β-catenin, ↑CYP1A1, ↑CYP1B1
-				Cruciferae/Indole-3-carbinol - ↓CDK6, ↑Ba, x↓Bcl-2, ↑p21, ↑p27, G1 phase arrest
-				Genista tinctoria/Genistein - ↓HOTAIR, miR-34a↓NFκβ, ↓Akt
-				Punica granatum/Ellagic acid - ↑IL-6, ↓STAT3, ↓Akt, ↓ERK
-				Stephania tetrandra/Fangchinoline - ↓NR4A1, ↓survivin, ↑ROS, ↑caspase 3 and 8
-				Melodinus khasianus/Khasuanine A - ↑Caspase-3, ↑p53, ↓Bcl-2
-				Camptotheca acuminate/Camptothecin - ↑ROS, ↑c-Myc, ↑sp1, ↑PI3k/Akt, ↑hTERT, G2/M cycle arrest
-				Andrographis paniculata/Andrographolide - ↓MMP11, ↑γH2A, x↑ Caspase-3, and 7, G2/M phase arrest
-				Dioscorea nipponica/Diosgenin - ↓Bcl-2, ↓beclin-1, ↑caspase-9, ↓ PI3K, ↓Akt, ↓mTOR,
-				Murraya koenigii/Mahanine - ↓DNMT1, ↓DNMT3B, ↓PDK1, ↓Akt, ↑RASSF1A
-				Quercus petraea/Procyanidin - ↓ΔΨm, ↑ apoptosis, and necrosis
-				Santalum album/α-santalol - ↓Survivin, ↓p-Akt, ↑ Caspase-3, ↑cleaved PARP
-				Goniothalamus spp./Altholactone - ↓p65, ↓NF-kβ, ↓STAT3, ↓survivin, ↓Bcl-2, ↑Ba, xS phase arrest
-				Nauclea subdita/Subditine - ↑ROS, ↓MMP, ↑cym-c, ↑caspase-3,7 and 9, ↓Bcl-2
-				Isodon eriocalyx/Eriocalyxin B - ↑cleaved caspase 3 and 8, ↑cleaved PARP, ↑LC3B-II, ↓Akt/mTOR
-				Garcinia indica/Garcinol - ↑ Bax/Bcl2, ↑caspase-3 and 9, ↓PARP, ↑PI3K, ↑Akt, ↑mTOR
-				Allium atroviolaceum/Tricin - ↓MiR-21
-				Sinomenium acutum/Sinomenine - ↓miR-23a, ↓CD1, ↓CDk4, ↓Bcl-2, ↓MMP-2 and 9, ↓PI3K/Akt, ↓JAK/STAT
-				Artemisia annua/Dihydroartemisinin - ↓VEGF, ↓ERK1/2
-				Artemisia absinthum/Cardamonin - ↑ROS, ↑Ca2+, ↑ Caspase-3, -8 and-9, ↓Bcl-2, ↑Ba, x↑ cyto-c, ↑AIF, ↑GRP78, ↑FasL, ↑DAP,
-				Myristica fragrans/Myristicin - ↑Caspase-3, ↑Cyto- C, ↓PARP, ↓ERCC1, ↓RAD50, 51, ↓ATM
-				Ganggui luhui wan/Meisoindigo - ↑Caspase-3,8 and 9, ↑Ba, x↑Cyto- C, ↑PARP, ↓Bcl-2,
-				Cananga odorata/Sampangine - ↑ROS, ↓ΔΨm, ↑Caspase-3, G1 phase arrest
-				Ambrosia maritoma/Damsin - ↓c-Src, ↓AKT, STAT5, ↓NFkβ
-				Forsythia suspensa/Pinoresinol - ↑p21 WAF1/Cip1, G0/G1 phase arrest
-				Danggui longhui wan/Indirubins - ↓c-Src, ↓Abl kinase, ↓Gsk3β
-				Arnica chamissonis/Helenalin - ↓NFkβ, ↑ROS
+				Fascaplysinopsis Bergquist/Fascaplysin - decrease CDK-4, increase ROS, decrease mTOR, decrease 4EBP1, decrease p70S6K1
+				Chelidonium majus/Chelidonine - decrease cyclin B1, increase p21, decrease MMP, increase ROS/AMPK, decrease p-p70S6K, decrease EGFR, G2/M phase arrest
+				Cephaelis Ipecacuanha/Emetine - decrease MMP-2/-9, decrease ERK1/2, and increase p38
+				Citrus limon/D-limonene - increase Bax, decrease Bcl-2, increase cleaved PARP, increase Atg5
+				Artemisia annua/Sesquiterpene (AMDT) - increase caspase 3- 9, G1/S phase arrest
+				Artemisinin/C15H22O5 - decrease VEGF-C, decrease p38 MAPK
+				Artemether/C16H26O5 - decrease Bcl-2, decrease cIAP1, decrease cIAP2, decrease CDK1, decrease CDK2, decrease CDK6, decrease cyclin A2, decrease cyclin B1, decrease cyclin D1, increase p16
+				Betula platyphylla/Betulin - increase caspase 3- 9 and 8, increase Bax, increase Cyto-C, increase Bak, decrease PARP
+				Betulinic Acid/C30H48O3 - decrease cyclin A2, decrease Sp1, G2/M phase arrest
+				Garcinia/Gambogic acid - increase Caspase-3, decrease Bcl2, decrease pI3K, decrease DLL1, decrease DLL3, decrease DLL4, decrease Jagged1, decrease Jagged2
+				Laminaria japonica/Fucoxanthin - increase p21, increase p53, increase puma, increase Fas, decrease Bcl-2, G0/G1 phase arrest
+				Chinese trichosanthes/Trichosanthin - increase Caspase-3 and 9, increase E-cadherin, decrease N-cadherin, decrease Bcl-2, increase Bax, increase DR4, increase DR5
+				Hedyotis/Ursolic acid - decrease MMP2, decrease MMP 9, increase E-cadherin, decrease N-cadherin
+				Oleanolic acid/C30H48O3 - increase ROS, increase Ca2+, decrease Akt, decrease JACk2, decrease STAT3
+				Scutellaria barbata/Wogonin - increase caspase-3, 8 and 9, increase ROS
+				Luteolin/C15H10O6 - increase miR-34a-5p, increase p21, increase p53, decrease MDM4, increase caspase-3 and 9
+				Polygonum cuspidatum/Polydatin - decrease NLRP3, decrease ASC, decrease p-NF-κβ p65
+				Rheum officinale/Emodin - increase PPARγ, increase IGFBP1, decrease Sp1
+				Rhizoma zedoariae/β-elemene - increase caspase-3, increase ROS, increase Cyto-C, increase Bad, decrease Bcl-2
+				Chansu/Bufalin - increase caspase-3, decrease Akt, decrease ERK ½, decrease VEGF, decrease cMyc, decrease NF-κβ, decrease p38 MAPK, G1/S phase arrest
+				Platycodon grandiflorum/Platycodin-D - increase Atg-3, increase Atg-7, increase Beclin-1, increase LC3-II, decrease p-Akt, decrease p-p70S6K, decrease p-4EBP1, decrease ERK ½
+				Salvia miltiorrhiza/Tanshinone IIA (TSIIA) - increase Cyto-C, decrease Bax, decrease MMP, increase caspase-3 and 9
+				Tripterygium wilfordii Hook/Celastrol - decrease Bcl-2, increase Bax, decrease Akt, increase Cyto-C, decrease PARP, increase Fas, increase FasL
+				Curcuma longa/Curcumin - increase ROS, decrease Δ Ψm, decrease SOD1, increase caspase-3 and 9, increase Bax, G2/M phase arrest
+				Cinnamomum cassia/Cinnamaldehyde - increase caspase-3, increase PARP, decrease Bcl-2,increase Bax,decrease Bcl-xL, decrease HIF-1α, decrease β-catenin, decrease MMPs, increase E-cadherin
+				Coix lacryma-jobi L./CP-1 polysaccharide - increase caspase-3 and 9, decrease Δ Ψm, S phase arrest
+				Ophiopogon japonicus/Ophiopogonin B - increase E-cadherin, decrease N-cadherin, decrease linc00668, increase miR-432-5p
+				Tetrastigma hemsleyanum/Radix Tetrastigma Hemsleyani Flavone - decrease MMP 2 and 9, decrease TIMP-1, increase TIMP-2
+				Panax notoginseng/Trilinolein - decrease Bcl-2, increase Bax, increase ROS, decrease PARP, decrease Akt, increase caspase-3, increase Cyto-C
+				Fucus vesiculosus/Fucoidan - increase ROS, increase ATF4, increase CHOP, increase TLR4
+				Rabdosia rubescens/Oridonin - decrease Jagged2, decrease Notch1-4
+				Panax notoginseng/Panaxadiol saponins - decrease NLR, decrease MPO, decrease G-CSF, decrease PU.1, decrease C/EBPα, decrease EP1, decrease GATA 1 and 2
+				Ganoderma lucidum/Ganodermanontriol - decrease u-PA, decrease CDC20, decrease survivin
+				Polysaccharides/n.d. - increase SOD, increase CAT, increase GPx, decrease IL-1β, decrease IL-6, decrease TNF-α
+				Maclura pomifera/Pomiferin - increase CANx, increase BCAP31, increase Mn-SOD,increase ACOX1,decrease BMP-7 decrease ID 2 and 3
+				Chansu/Bufadienolides - decrease STAT3/Mcl-1, decrease Bcl-xL, decrease PARP, increase caspase-3
+				Cimicifuga foetida/Actein - decrease VEGF, decrease pERK, decrease pJNK, decrease CD34, decrease CXCR4
+				Astragalus membranaceus/Formononetin - decrease MMP 2, decrease MMP9, decrease PI3K, decrease Akt, increase TIMP-1 and 2
+				Astragulus Polysaccharides/n.d. - decrease Bcl-2, increase Bax, increase NO, increase TNF-α, G1/S phase arrest
+				Narcissus L. bulb/Narciclasine - increase AMPK-ULK1, decrease PRAS40
+				Cimicifuga racemosa/KHF16 - decrease XIAP, Mcl-1, decrease Survivin, decrease Cyclin B1/D1, decrease NF-kβ
+				Pueraria lobata/Puerarin - decrease NFκβ, increase AMPK, increase ACC, increase GSK-3β, decrease CREB
+				Gardenia jasminoides Ellis/Genipin - decrease Bcl-2, increase Bax, increase caspase-3, increase JNK, increase p38 MAPK
+				Tetradium ruticarpum/Evodiamine - decrease u-PA, decrease MMP 9, Bcl-2, increase Bax, decrease CD1, decrease CDK6, G0/G1 arrest
+				Euphorbia prolifera Buch-Ham/Myrsinol diterpene decrease MDR, decrease Pgp efflux, increase ATP hydrolysis
+				Solanum nigrum L./α-Solanine - increase Bax, decrease Bcl-2, decrease Ψm
+				Melonidus suaveolens/Melosuavine I - increase caspase 3, decrease Bcl-2, increase p53
+				Cnidium monnieri (L.) Cusson./Osthole - increase caspase 9 and 3, decrease PARP, increase p53 and p23, decrease Cdk2 and CD1
+				Ophiopogon japonicus/Ophiopogonin D - increase Caspase 9 and 8, decrease cyclin B1 and G2/M arrest
+				Panax ginseng C. A. Mey./Ginsenoside Rg5 - increase p53, p21 and p15, decrease CD1, CE2 and Cdk4, increase caspase 6,7,8 and 9, decrease PARP
+				Epimedium brevicornum/Icariside II - increase Cl-Caspase-9,8,7,3, increase Cl-PARP, increase Bax, increase Bcl-xL, increase BimL, increase Fas, decrease FasL, increase FADD, decrease MMP, increase Cyto-C, increase AIF
+				Tripterygium wilfordii Hook/Triptolide - decrease MMP7 and MMP19, increase Ecadherin
+				Panax ginseng/Ginsenoside 20(S)-Rg3 - increase Caspase-3 and 9, decrease PI3K/Akt and IAP
+				Syzygium aromaticum/Kumatakenin - increase Caspase-3,8 and 9, decrease MCP-1, decrease RANTES, decrease IL-10, decrease VEGF, decrease MMP 2 and 9
+				Pueraria mirifica/Daidzein - increase Bcl-2, increase cym-c, increase cleaved caspase-3/9, G2/M cell arrest, decrease pCdc25c, decrease pCdc2, decrease cyclin B1, decrease MMP-2/9
+				Thelypteris torresiana (Gaud)/Protoapigenone - decrease p-Cdk2, decrease Cdk2, decrease p-Cyclin B1, decrease Cyclin B1, increase p-Cdc25C, decrease Bcl-xL, decrease Bcl-2, increase caspase-3
+				Epimedium brevicornum/Icariin - increase Caspase-3, decrease miR-21, increase PTEN and RECK, decrease Bcl-2
+				Icaritin/C21H20O6 - increase caspase 3- 9, increase p53 and decrease Akt/mTOR pathway
+				Gundelia tournefortii/Stigmasterol - increase ROS, increase caspase 3 and 9, Bax, increase BAk, increase cym-c, decrease VEGFA, decrease MMP 2,9 and 14
+				Vitex Agnus-castus L./Casticin - increase FOXO3a, decrease FoxM1, decrease survivin, decrease PLK1, p27KLP1
+				Carya cathayensis Sarg/Juglone - increase ROS, increase p21, increase Bax, increase Bad, increase Cyto c, decrease CDK2, cdc25A, CHK1, and cyclin A, decrease Bcl-2 and Bcl-xL, decrease Cyclin A, S-phase cell cycle arrest
+				Scutellaria baicalensis Georgi/Baicalin and Baicalein - decrease VEGF, HIF-1α, cMyc, and NFκB
+				Potamogeton crispus L./Luteolin-3’-O-β-D-glucopyranoside - decrease MMP-2, decrease MMP-9, G1/S phase arrest
+				Artemisia annua/artesunate - increase ROS, increase p21, decrease CDKs, decrease Rb, decrease E2F-1, decrease CDC25C, G2/M cell cycle arrest
+				Arctium lappa/Arctigenin - decrease STAT3, decrease survivin, decrease iNOS, increase caspase3
+				Asparagus officinalis L./Asparanin A - decrease Bak/Bcl-xl, increase ROS, increase Cyto c, decrease Δ ψm, increase caspases, G0/G1 cell cycle arrest, decrease PI3K/Akt/mTOR
+				Salvia miltiorrhiza/Cryptotanshinone - increase caspase3 and 9, increase Bax/Bcl-2, decrease MMP 2 and 9
+				Asiatic Moonseed/Dauricine - decrease cyclin D1, decrease COX2, decrease cMyc, decrease survivin, decrease Bcl-2, decrease IAP1, decrease MMP 9, decrease ICAM1, decrease VEGF, decrease NFκβ
+				Withania somnifera/Withaferin A - increase ROS, decrease Bcl-2/Bax, increase caspase3 and 9, decrease Δ Ψm
+				Piper nigrum/Piperine - decrease wnt/β-catenin pathway
+				Crocus sativus/Crocetin - increase p53, increase PIDD, increase Bax, increase FAS, increase caspase-3, -8 and -9
+				Cynanchum paniculatum/Antofine - decrease proliferation, increase cytotoxicity, G2/M cycle arrest
+				Zingiber zerumbet/Zerumbone - increase ROS, decrease Bcl-2/Bax, increase caspase-3/-8/-9, decrease Δ Ψm, G2/M cycle arrest
+				Hymenocallis littoralis/Pancratistatin - increase LC3II, increase beclin-1, increase Bax, decrease cyclin B1, decrease cdc25c, G2/M cycle arrest
+				Saussurea lappa/Costunolide - decrease Survivin, decrease β-catenin, decrease galectin-3, decrease cyclin D1, G2/M cycle arrest
+				Rehmannia glutinosa/Catalpol - decrease VEGF, decrease EGFR2, decrease HIF-1α, decrease IL-1β, decrease IL-6 and 8, decrease iNOS
+				Laminaria japonica/LJGP - decrease CDK2, decrease PCNA, decrease E2F-1, decrease cyclin E, decrease cyclin D1, decrease PARP, increase p27, increase caspase 9, decrease Bcl-2, G1 phase arrest
+				Rosmarinus officinalis/Rosmarinic acid - increase E-cadherin, decrease N-cadherin, decrease twist, decrease vimentin, decrease MMP 2 and 9, decrease ICAM-1, decrease ITGβ1
+				Coptis chinensis/Berberine - increase p21, decrease PARP, increase caspase 8, decrease VEGF, decrease COX2, decrease Bcl-2, G2/M phase arrest
+				Sanguinaria canadensis/Sanguinarine - increase ROS, decrease MMP, increase caspase-3, 8 and 9, decrease Bcl-2, decrease XIAP, increase Egr-1
+				Nauclea orientalis/Naucleaoral A and B - increase cytotoxicity
+				Glycyrrhiza uralensis/Licoricidin - increase caspase-3, 8 and 9, decrease CDK1, increase AMPK, decrease Akt/mTOR, G1/S phase arrest
+				Carpobrotus edulis/Rutin - increase caspase 3, G0/G1 phase arrest
+				Scutellaria baicalensis/Baicalin and Baicalein - decrease hTERT, decrease MAPK, decrease ERK, increase p38
+				Nicotiana glauca/Scopoletin - decrease ERK1, decrease VEGF-A, decrease FGF-2
+				Morus australis/Morusin - decrease PI3K/Akt, decrease PDK1, decrease XIAP, decrease cMyc, decrease NFκβ, increase caspase-3, 8 and 9, G1 phase arrest
+				Allium sativum/Diallyl disulphide - decrease GSK3β, decrease NFκβ
+				Nandina domestica/Protopine - increase p53, increase p21, increase Bax, increase caspase-3 and 7, increase LC3-II
+				Nigella sativa/Thymoquinone - increase LC3-II, increase p62, decrease MMP 2 and 9, decrease FAC, decrease Nf-kβ, decrease ERK, decrease Akt, decrease mTOR
+				Radix Angelica sinensis/Z-ligustilide - decrease RhoA, decrease Cdc42, decrease Rac1
+				Panax ginseng C. A. Mey/Ginsenoside Rh2 - increase miR128, increase E2F3a, increase caspase-3
+				Bolbostemma paniculatum/Tubeimoside-1 - decrease Bcl-2, increase Bax, increase caspase-3, increase Cyto-C, increase ROS
+				Thuja occidentalis/α-/β-Thujone - decrease VEGF, decrease Ang-4, decrease CD31
+				Rubia cordifolia L./Mollugin - decrease Akt, decrease P70S6K, decrease mTOR, decrease ERK ½, increase JNK, increase p38
+				Garcinia brasiliensis/7-epiclusianone - decrease cyclin A, increase caspase-3, S and G2/M phase arrest
+				Escherichia coli/Selenocysteine - increase ROS, increase p21waf1/cip1, increase p53, decrease Akt, increase p38MAPK, increase JNK, increase ERK, S phase cycle arrest
+				Anula helenium/Alantolactone - increase ROS, decrease GSH, decrease Bcl-2, increase Bax, increase p53, increase Cyto-C, increase caspase-3/-9, decrease Δ Ψm, decrease Nf-kβ
+				Carpesium nepalense/Nepalolide A - decrease IkB-α, decrease IkB-β, decrease iNOS, decrease NF-kβ
+				Buxus microphylla/Cyclovirobuxine D - increase Bax, decrease Bcl-2, increase caspase-3, S and G0/G1 phase arrest
+				Euscaphis japonica/Pomolic acid - increase caspase-3 and 9, increase ROS, decrease MRP1
+				Danshen/Salvianolic Acid B - increase ROS, increase p53, increase p38 MAPK
+				Glycine max/Soyasapogenol B - decrease STAT3, decrease M2 polarization, increase M1, increase IL-12
+				Rosmarinus officinalis/Carnosol - increase p53, decrease twist, decrease Zeb1, decrease slug, increase miR-200c
+				Tillandsia recurvata/HLBT-100 - increase caspase-3, and 7, G1 cell cycle arrest, decrease angiogenesis
+				Ligusticum chuanxiong hort/Tetramethylpyrazine - decrease CXCR4
+				Garcinia hanburyi Hook. f/Gambogenic acid - decrease cyclin E, decrease cyclin D1, decrease EGFR, decrease Akt, decrease GSK3β, Go/G1 phase arrest
+				Vitis vinifera/Resveratrol - decrease Akt, increase p53
+				Curcuma aromatica Salisb./Germacrone - increase p53, increase Bax, decrease Bcl-2, increase p21, decrease CD1, decrease CDK2, G1 phase arrest
+				Acori Graminei Rhizoma/Volatile Oil (VOA) - increase caspase-3, 8 and 9, increase Bax/Bcl-2, increase LC3-II/I, increase atg5, increase beclin1, decrease p62
+				Trichosanthes kirilowii Maxim./Trichosanthin - decrease LGR5, decrease β-catenin, decrease pGSK-3βSer9, decrease cMyc, decrease CD1
+				Streptomyces staurosporeus/Staurosporine - increase caspase-3, decrease TDP-43
+				Dysosma versipellis/Deoxypodophyllotoxin - decrease Cdc2, decrease CB1, decrease Cdc25C, increase caspase-8 and 9, decrease Bcl-2, decrease Bcl-xL, G2/M phase arrest
+				Anemone taipaiensis/Saponin B - increase Fas-l, increase caspase-3, decrease Bcl-2, G1/S phase arrest
+				Strychnos nux-vomica Linn/Brucine - decrease HIF-1, decrease MMP-2, decrease FN, decrease LOx, decrease CD
+				Azadirachta indica/Nimbolide - increase caspase-3,7 and 9, increase Bax, decrease Bcl-2, decrease Mcl-1, decrease XIAP, decrease c-IAP1, decrease c-IAP2, G2/M phase arrest
+				Gardenia jasminoides ellis/Geniposide - decrease miR-224, decrease wnt/βcatenin, decrease Akt
+				Solanum nigrum L./Solamargine - decrease pcna, decrease Ki67decrease Bcl-2, increase Bax, increase caspase-3 and 9, G2/M phase arrest
+				Matricaria recutita/α- bisabolol - increase caspase-3,-8 and -9, increase Fas, decrease Bcl-2, increase p53, increase Nf-kβ,
+				Ganoderma lucidum/Ganoderic acid A - decrease cyclin D1, increase p21, increase cleaved caspase 3, G0/G1 phase arrest
+				Thalictrum glandulosissimum/Hernandezine - increase AMPK, increase Atg-7
+				Angelica gigas Nakai/Decursin - increase LATS1, increase βTRCP, increase p-YAP, increase cleaved caspase 3, increase cleaved PARP, G1 phase cell cycle arrest
+				Lavandula officinalis/Linalool - decrease cyclin A, decrease CDK4, increase p21, increase p27, increase ROS, increase caspase-3, decrease Ras, decrease Akt, decrease mTOR, G0/G1 phase arrest
+				Tylophora indica/Tylophorine - decrease cyclin A2, G1 phase cell cycle arrest
+				Patrinia scabra Bunge/Lariciresinol - decrease Δ Ψm, increase Cyto-C, increase caspase-3 and 9, increase PARP, decrease Bcl-2/Bax
+				Oroxylum indicum/Oroxin B - increase PTEN, decrease COX-2, decrease VEGF, decrease p-Akt, decrease PI3K
+				Stephania tetrandra/Tetrandrine - decrease wnt/β-catenin, decrease MTA1, increase E-cadherin, increase occludin, decrease Vimentin
+				Scutellaria lateriflora/Scutellarein - decrease HIF-1α, decrease Flt-1, decrease VEGFA, decrease MMP 2 and 9, increase caspase-3
+				Toddalia asiatica Lam/Chelerythrine - decrease MMP 2 and 9, decrease p-FAK decrease PI3K, decrease Akt, decrease mTOR, decrease c-JNK, decrease ERK
+				Astragalus complanatus R.Br./(FAC) flavonoids - increase caspase-3 and 8, increase Bax, increase p21, increase p27, decrease CDK1, CDK4, decrease cyclin B1, decrease cyclin D1, G0/G1 and S phase arrest
+				Quercus Iberica/Quercetin - increase E-cadherin, decrease MMP9, increase LC3, decrease Vimentin, decrease Jak2, decrease STAT3,
+				Trichosanthis Radix/Cucurbitacin B - decrease cdc2, decrease cyclin D1, decrease c-Raf, S phase arrest
+				Colchium speciosum/Colchicine - increase AKAP12, increase TGFB2, increase MX1, decrease APOH, increase GDF15, increase IL32
+				Wilkstroemia elliptica Merr./Umbelliferone - increase ROS, decrease MMP, G0/G1 cycle arrest
+				Dioscorea nipponica/Dioscin - increase p53, decrease Cyclin A, decrease CDK2, decrease p-ERK, decrease Bcl-2, increase p-JNK, increase p-p38, increase Bax, increase cleaved caspase-3/-9
+				Maclura pomifera/Osajin - increase Bax, decrease Bcl-2, increase Fasl, increase cym-c, decrease GRP78, increase caspase-3,4,8 and -9
+				Cichorium intybus/Esculetin - decrease pJAK1/2, increase ROS, decrease STAT3, G1/S cycle arrest
+				Serratia marcescens/Prodigiosin - decrease Cyclin D1, increase beclin-1, decrease mTOR, decrease PI3K/Akt, G0/G1 phase arrest
+				Albatrellus confluens/Neoalbaconol - decrease PDK1, decrease PI3K/AKT HK-2, increase RIP1, increase RIP3
+				Haematococcus pluvilis/Astaxanthin - decrease PI3k/Akt, decrease STAT3, decrease Nf-kβ, decrease miR-21, decrease HOTAIR
+				Geranium thunbergii/Geraniin - decrease MMP2, decrease Fak, decrease Src, decrease ERK ½
+				Forsythia suspensa/Phillygenin - increase Caspase-3/-9, increase Bax, increase ROS, decrease Bcl-2, G2/M phase arrest, decrease Nf-kβ
+				Enicosanthellum phalcrum/Liriodenine - increase Bax, increase Caspase-3, decrease Bcl-2, G2/M phase arrest
+				Halichondria sp./Ilimaquinone - increase ROS, increase LC3B-II, increase Atg5, decrease p-pAkt, decrease p-p38, decrease HIF-1α, decrease Mcl-1, decrease Bcl-2
+				Tabernaemontana catharinensis/Coronaridine - increase apoptosis, increase cytotoxicity
+				Chelidonium majus/Ukrain - decrease EGFR, decrease AKT2, decrease STAT3, JAK1, decrease β-catenin, increase CYP1A1, increase CYP1B1
+				Cruciferae/Indole-3-carbinol - decrease CDK6, increase Bax, decrease Bcl-2, increase p21, increase p27, G1 phase arrest
+				Genista tinctoria/Genistein - decrease HOTAIR, miR-34adecrease NFκβ, decrease Akt
+				Punica granatum/Ellagic acid - increase IL-6, decrease STAT3, decrease Akt, decrease ERK
+				Stephania tetrandra/Fangchinoline - decrease NR4A1, decrease survivin, increase ROS, increase caspase 3 and 8
+				Melodinus khasianus/Khasuanine A - increase Caspase-3, increase p53, decrease Bcl-2
+				Camptotheca acuminate/Camptothecin - increase ROS, increase c-Myc, increase sp1, increase PI3k/Akt, increase hTERT, G2/M cycle arrest
+				Andrographis paniculata/Andrographolide - decrease MMP11, increase γH2Ax, increase Caspase-3, and 7, G2/M phase arrest
+				Dioscorea nipponica/Diosgenin - decrease Bcl-2, decrease beclin-1, increase caspase-9, decrease PI3K, decrease Akt, decrease mTOR,
+				Murraya koenigii/Mahanine - decrease DNMT1, decrease DNMT3B, decrease PDK1, decrease Akt, increase RASSF1A
+				Quercus petraea/Procyanidin - decrease Δ Ψm, increase apoptosis, and necrosis
+				Santalum album/α-santalol - decrease Survivin, decrease p-Akt, increase Caspase-3, increase cleaved PARP
+				Goniothalamus spp./Altholactone - decrease p65, decrease NF-kβ, decrease STAT3, decrease survivin, decrease Bcl-2, increase Bax, S phase arrest
+				Nauclea subdita/Subditine - increase ROS, decrease MMP, increase cym-c, increase caspase-3,7 and 9, decrease Bcl-2
+				Isodon eriocalyx/Eriocalyxin B - increase cleaved caspase 3 and 8, increase cleaved PARP, increase LC3B-II, decrease Akt/mTOR
+				Garcinia indica/Garcinol - increase Bax/Bcl2, increase caspase-3 and 9, decrease PARP, increase PI3K, increase Akt, increase mTOR
+				Allium atroviolaceum/Tricin - decrease MiR-21
+				Sinomenium acutum/Sinomenine - decrease miR-23a, decrease CD1, decrease CDk4, decrease Bcl-2, decrease MMP-2 and 9, decrease PI3K/Akt, decrease JAK/STAT
+				Artemisia annua/Dihydroartemisinin - decrease VEGF, decrease ERK1/2
+				Artemisia absinthum/Cardamonin - increase ROS, increase Ca2+, increase Caspase-3, -8 and-9, decrease Bcl-2, increase Bax, increase cyto-c, increase AIF, increase GRP78, increase FasL, increase DAP,
+				Myristica fragrans/Myristicin - increase Caspase-3, increase Cyto-C, decrease PARP, decrease ERCC1, decrease RAD50, 51, decrease ATM
+				Ganggui luhui wan/Meisoindigo - increase Caspase-3,8 and 9, increase Bax, increase Cyto-C, increase PARP, decrease Bcl-2,
+				Cananga odorata/Sampangine - increase ROS, decrease Δ Ψm, increase Caspase-3, G1 phase arrest
+				Ambrosia maritoma/Damsin - decrease c-Src, decrease AKT, STAT5, decrease NFkβ
+				Forsythia suspensa/Pinoresinol - increase p21 WAF1/Cip1, G0/G1 phase arrest
+				Danggui longhui wan/Indirubins - decrease c-Src, decrease Abl kinase, decrease Gsk3β
+				Arnica chamissonis/Helenalin - decrease NFkβ, increase ROS
 				Cinnamosma fragrans/Capsicodendrin - DNA damage and proapoptotic
-				Cephalotaxus fortunei/Homoharringtonine - ↓SP1/TET1/5hmC/FLT3/MYC
-				Papaver somniferum/Noscapine - ↓Bcl-2, ↓XIAP, ↓Mcl-1, ↓Bcl-xl, ↑Ba, x↓TRAF1, ↓IKK, ↓NFkβ,
-				Streptomyces cinnamonensis/Monensin - ↓MyB, ↓MyB-NFIB
-				Brucea antidysenteriea/Bruceantin - ↑NOTCH1, ↑HES1, G1 phase arrest
-				Aglaia foveolata/Silvestrol - ↓FLT3, ↓miR155, ↓ p65
-				Cynanchum otophyllum/Paeoniflorin - ↑HTRA3, ↑Bax
-				Periploca sepium bunge/Baohuoside-I - ↓β-catenin, ↓survivin, ↓cyclin D1
-				Ochrosia elliptica/Ellipticine - ↑AIF, ↑Cyto- C, ↑ROS, ↑caspase-3, 7 and 9, ↑ERK, ↑JNK, G2/M cycle arrest
-				Ilex hainanensis/Ilexgenin A - ↓IL-6, ↑TNF-αG0/G1 cycle arrest
-				Dysoxylum binectariferum/Flavopiridol - ↑caspase-3, 8 and 9, ↓Mcl-1 ↑cyclin-B1, G2/M cycle arrest
-				Crinum asiaticum/Crinamine - ↓Snail1, ↓vimentin, ↓VEGF-A, ↓CDK4, ↓RHOA, ↓PLK1, ↓BCL2L1, ↓Akt1
-				Alpinia katsumadai/Alpinetin - ↓Bcl-2, ↓Bcl-xL, ↑ Ba, x↑Cyto- C, ↑XIAP, ↑caspase-3, 8 and 9
-				Combretum caffrum/Combretastatin A4 - ↓N-cadherin, ↓Vimentin, ↓slug, ↓snail1, ↓zeb1, ↓p-PI3K, ↓p-Akt
-				Heliotropium Indicum Linn/Indicine N-oxide - ↑p53, cleave PARP, cleave DNA
-				Arnebia euchroma/Alkannin - ↑ROS, ↓ΔΨm, ↑p38 MAPK, ↑JNK
-				Artemisia princeps/Jaceosidin - ↑pCdc25C, ↑p21, ↑ROS, ↓ERk ½, ↑ATM-Chk1/2, G2/M phase arrest
-				Coccinia grandis/Kaempferol - ↑LC3-II, ↓p62, ↓G9a, ↑IRE1-JNK-CHOP
-				Daphne odora/Daphnetin - ↓RhoA, ↓Cdc42
-				Cerbera odollam/Cerberin - ↓cMyc, ↑Caspase 3 and 7, ↑ROS ↓Bcl-2, ↓Mcl-1, ↓STAT-3, ↓PLK-1, G2/M phase arrest
-				Asiatic toad/Cinobufagin - ↓Bcl-2, ↓CB1, ↑p21, ↓CDC2, ↑puma, ↑caspase 3, G2/M phase arrest
-				Astragalus membranaceus/Swainsonine - ↑E-cadherin,↓N-cadherin, ↓Vimentin, ↓slug, ↓snail1, ↓zeb1, ↓p-PI3K, ↓p-Akt, ↓Twist1
-				Magnolia officinalis/Honokiol - ↓cyclin D1, ↓CDK2 and 4, ↓Akt/mTOR, ↓p38, ↓ERK, G0/G1 phase arrest
-				Polymethoxyflavone/Tangeritin - ↓ MMP, ↑ Caspase-3, -8 and -9, ↑ Ba, x↑ Bid, ↑ tBid, ↑ p53, ↑ p21/cip1, ↑ Fas and ↑ FasL
-				Amoora rohituka/Aphanin - ↓K-Ras, ↓p-AKT, ↓cMyc, ↓cyclin D1, ↓STAT3, G0/G1 cycle arrest
-				Eucalyptus globulus/Caffeic acid - ↑ Caspase-1, 3, and 8, G0/G1 cycle arrest
-				Zingiber officinale/6-gingerol - ↑ROS, ↑Bax/Bcl-2, ↑Caspase-3, 9, ↑cym-c, G2/M phase arrest
-				Humulus lupulus/Xanthohumol - ↑caspase-3, 8 and 9, ↑PARP, ↑p53, ↑AIF, ↓Bcl2, ↓XIAP, S phase cycle arrest
-				Trollius chinensis/Orientin and Vitexin - ↑p53, and ↓Bcl2
-				Rhodiola rosea/Salidroside - ↓p-MAPK, ↓p-ERK, ↓p-PI3K, ↓p-AKT, ↓miR99a, ↑p21, ↓Bcl-2
-				Syzgium aromaticum/Eugenol - ↑ROS, ↑Ba, x↓PCNA, ↓ΔΨm, G2/M cycle arrest
-				Uapaca togoensis/Arborinine - ↓MMP, ↑ROS, G0/G1 and S phase arrest
-				Peganum harmala/Harmine - ↑beclin-1, ↑LC3-II, ↓Bcl-2, ↑Ba, x↓Akt/mTOR, ↓p70S6k
-				Artemisia vestita/Hispidulin - ↓VEGFR2, ↓Akt, ↓mTOR, ↓S6 kinase, ↓PI3K, ↓Bcl-2
-				Didemnum cuculiferum/Vitilevuamide - ↓tubulin polymerization, G2/M phase arrest
-				Piper longum/Piperlongumine - ↑p-elF2α, ↓ΔΨm, ↑ATF4, ↑CHOP, ↓TrxR1
-				Chrysanthemum parthenium/Parthenolide - ↓NFκβ, ↓VEGF, ↓c-jun, ↓c-Fos
-				Solanum nigrum L./Degalactotigonin - ↓Hedgehog Gli1, ↓GSK3β
+				Cephalotaxus fortunei/Homoharringtonine - decrease SP1/TET1/5hmC/FLT3/MYC
+				Papaver somniferum/Noscapine - decrease Bcl-2, decrease XIAP, decrease Mcl-1, decrease Bcl-xl, increase Bax, decrease TRAF1, decrease IKK, decrease NFkβ,
+				Streptomyces cinnamonensis/Monensin - decrease MyB, decrease MyB-NFIB
+				Brucea antidysenteriea/Bruceantin - increase NOTCH1, increase HES1, G1 phase arrest
+				Aglaia foveolata/Silvestrol - decrease FLT3, decrease miR155, decrease p65
+				Cynanchum otophyllum/Paeoniflorin - increase HTRA3, increase Bax
+				Periploca sepium bunge/Baohuoside-I - decrease β-catenin, decrease survivin, decrease cyclin D1
+				Ochrosia elliptica/Ellipticine - increase AIF, increase Cyto-C, increase ROS, increase caspase-3, 7 and 9, increase ERK, increase JNK, G2/M cycle arrest
+				Ilex hainanensis/Ilexgenin A - decrease IL-6, increase TNF-αG0/G1 cycle arrest
+				Dysoxylum binectariferum/Flavopiridol - increase caspase-3, 8 and 9, decrease Mcl-1 increase cyclin-B1, G2/M cycle arrest
+				Crinum asiaticum/Crinamine - decrease Snail1, decrease vimentin, decrease VEGF-A, decrease CDK4, decrease RHOA, decrease PLK1, decrease BCL2L1, decrease Akt1
+				Alpinia katsumadai/Alpinetin - decrease Bcl-2, decrease Bcl-xL, increase Bax, increase Cyto-C, increase XIAP, increase caspase-3, 8 and 9
+				Combretum caffrum/Combretastatin A4 - decrease N-cadherin, decrease Vimentin, decrease slug, decrease snail1, decrease zeb1, decrease p-PI3K, decrease p-Akt
+				Heliotropium Indicum Linn/Indicine N-oxide - increase p53, cleave PARP, cleave DNA
+				Arnebia euchroma/Alkannin - increase ROS, decrease Δ Ψm, increase p38 MAPK, increase JNK
+				Artemisia princeps/Jaceosidin - increase pCdc25C, increase p21, increase ROS, decrease ERk ½, increase ATM-Chk1/2, G2/M phase arrest
+				Coccinia grandis/Kaempferol - increase LC3-II, decrease p62, decrease G9a, increase IRE1-JNK-CHOP
+				Daphne odora/Daphnetin - decrease RhoA, decrease Cdc42
+				Cerbera odollam/Cerberin - decrease cMyc, increase Caspase 3 and 7, increase ROS decrease Bcl-2, decrease Mcl-1, decrease STAT-3, decrease PLK-1, G2/M phase arrest
+				Asiatic toad/Cinobufagin - decrease Bcl-2, decrease CB1, increase p21, decrease CDC2, increase puma, increase caspase 3, G2/M phase arrest
+				Astragalus membranaceus/Swainsonine - increase E-cadherin,decrease N-cadherin, decrease Vimentin, decrease slug, decrease snail1, decrease zeb1, decrease p-PI3K, decrease p-Akt, decrease Twist1
+				Magnolia officinalis/Honokiol - decrease cyclin D1, decrease CDK2 and 4, decrease Akt/mTOR, decrease p38, decrease ERK, G0/G1 phase arrest
+				Polymethoxyflavone/Tangeritin - decrease MMP, increase Caspase-3, -8 and -9, increase Bax, increase Bid, increase tBid, increase p53, increase p21/cip1, increase Fas and increase FasL
+				Amoora rohituka/Aphanin - decrease K-Ras, decrease p-AKT, decrease cMyc, decrease cyclin D1, decrease STAT3, G0/G1 cycle arrest
+				Eucalyptus globulus/Caffeic acid - increase Caspase-1, 3, and 8, G0/G1 cycle arrest
+				Zingiber officinale/6-gingerol - increase ROS, increase Bax/Bcl-2, increase Caspase-3, 9, increase cym-c, G2/M phase arrest
+				Humulus lupulus/Xanthohumol - increase caspase-3, 8 and 9, increase PARP, increase p53, increase AIF, decrease Bcl2, decrease XIAP, S phase cycle arrest
+				Trollius chinensis/Orientin and Vitexin - increase p53, and decrease Bcl2
+				Rhodiola rosea/Salidroside - decrease p-MAPK, decrease p-ERK, decrease p-PI3K, decrease p-AKT, decrease miR99a, increase p21, decrease Bcl-2
+				Syzgium aromaticum/Eugenol - increase ROS, increase Bax, decrease PCNA, decrease Δ Ψm, G2/M cycle arrest
+				Uapaca togoensis/Arborinine - decrease MMP, increase ROS, G0/G1 and S phase arrest
+				Peganum harmala/Harmine - increase beclin-1, increase LC3-II, decrease Bcl-2, increase Bax, decrease Akt/mTOR, decrease p70S6k
+				Artemisia vestita/Hispidulin - decrease VEGFR2, decrease Akt, decrease mTOR, decrease S6 kinase, decrease PI3K, decrease Bcl-2
+				Didemnum cuculiferum/Vitilevuamide - decrease tubulin polymerization, G2/M phase arrest
+				Piper longum/Piperlongumine - increase p-elF2α, decrease Δ Ψm, increase ATF4, increase CHOP, decrease TrxR1
+				Chrysanthemum parthenium/Parthenolide - decrease NFκβ, decrease VEGF, decrease c-jun, decrease c-Fos
+				Solanum nigrum L./Degalactotigonin - decrease Hedgehog Gli1, decrease GSK3β
 
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
@@ -669,7 +668,7 @@
 			- suppresses E6/E7
 		- S-adenosylmethionine (SAM) 
 			- leads to promoter remethylation and the downregulation of proto-oncogene expression in cancer cells
-			- Treatment with SAM caused the downregulation of proliferation, migration, and invasion of prostate cancer (PC-3) cells, and genome-wide downregulation of genes involved in proliferation, migration, invasion, and angiogenesis. 
+			- Treatment with SAM caused the downregulation of proliferation, migration, and invasion of prostate cancer (PC-3) cells, and genome-wide downregulation of genes involved in proliferation, migration, invasion, and angiogenesis
 			- https://www.sciencedirect.com/science/article/abs/pii/S0378111916307703?via%3Dihub
 			- inhibiting the SAM pathway led to methionine depletion and inhibition of cancer growth
 		- Moringa oleifera
@@ -2039,7 +2038,7 @@
 				- https://www.frontiersin.org/articles/10.3389/fmolb.2018.00087/full#:~:text=Inhibitors%20of%20bacterial%20%28β-clamp%29%20and%20eukaryal%20DNA%20clamps%2C,inhibitors%2C%20natural%20products%2C%20and%20modified%20non-steroidal%20anti-inflammatory%20drugs.
 			- increase T2AA to inhibit PCNA
 				- T2AA is a small molecule analog of triiodothyronine (T3) that inhibits translesion DNA synthesis (Punchihewa et al., 2012). 
-				- T2AA was found to inhibit PCNA interaction with p21 and Polδ by binding in the PIP site
+				- T2AA was found to inhibit PCNA interaction with p21 and PolΔ  by binding in the PIP site
 				- thyroid hormone 3,3′,5-triiodothyronine (T3) is a potent inhibitor of the PCNA–PIP peptide interaction
 					- https://www.sciencedirect.com/science/article/abs/pii/S0165614714000303
 			- modified peptides and small molecule inhibitors
@@ -2385,7 +2384,7 @@
 			- PI3Ks are intracellular signal transducer enzymes that can phosphorylate the 3 position hydroxyl group of the inositol ring of phosphatidylinositol (PtdIns)
 				- The pathway, with oncogene PIK3CA and tumor suppressor gene PTEN, is implicated in the sensitivity of cancer tumors to insulin and IGF1, and in calorie restriction
 			- Many of these functions relate to the ability of class I PI3Ks to activate protein kinase B (PKB, aka Akt) as in the PI3K/AKT/mTOR pathway
-			- The p110δ and p110γ isoforms regulate different aspects of immune responses
+			- The p110Δ  and p110γ isoforms regulate different aspects of immune responses
 			- PI3Ks are also a key component of the insulin signaling pathway
 			- PI3K is also involved in interleukin signalling (IL4)
 		- Protein kinase B (PKB), also known as Akt (oncogene)
