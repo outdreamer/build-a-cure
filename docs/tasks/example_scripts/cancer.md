@@ -79,6 +79,223 @@
 			- GABPA can be pro-cancer in glioblastoma or anti-cancer in other cancers (depending on the cancer, mutation, and other variables)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822828/
 
+		- these substances have been determined to be useful for various mechanisms in specific cancers
+
+			- I would read through table 1 and use this as a resource for finding more substances to test on your cancer type if none have worked yet or worked completely, even though this list is incomplete
+				- for example, substances like quercetin listed for pancreatic cancer are also useful for other cancers like brain cancer
+
+				Substance/component - mechanisms
+				Fascaplysinopsis Bergquist/Fascaplysin - ↓CDK-4, ↑ROS, ↓mTOR, ↓4EBP1, ↓p70S6K1
+				Chelidonium majus/Chelidonine - ↓cyclin B1, ↑p21, ↓MMP, ↑ROS/AMPK, ↓p-p70S6K, ↓EGFR, G2/M phase arrest
+				Cephaelis Ipecacuanha/Emetine - ↓MMP-2/-9, ↓ERK1/2, and ↑p38
+				Citrus limon/D-limonene - ↑Ba, x↓Bcl-2, ↑cleaved PARP, ↑Atg5
+				Artemisia annua/Sesquiterpene (AMDT) - ↑caspase 3- 9, G1/S phase arrest
+				Artemisinin/C15H22O5 - ↓VEGF-C, ↓p38 MAPK
+				Artemether/C16H26O5 - ↓Bcl-2, ↓cIAP1, ↓cIAP2, ↓CDK1, ↓CDK2, ↓CDK6, ↓cyclin A2, ↓cyclin B1, ↓cyclin D1, ↑p16
+				Betula platyphylla/Betulin - ↑caspase 3- 9 and 8, ↑ Ba, x↑Cyto- C, ↑Bak, ↓PARP
+				Betulinic Acid/C30H48O3 - ↓cyclin A2, ↓Sp1, G2/M phase arrest
+				Garcinia/Gambogic acid - ↑Caspase-3, ↓Bcl2, ↓pI3K, ↓DLL1, ↓DLL3, ↓ DLL4, ↓Jagged1, ↓Jagged2
+				Laminaria japonica/Fucoxanthin - ↑p21, ↑p53, ↑puma, ↑Fas, ↓Bcl-2, G0/G1 phase arrest
+				Chinese trichosanthes/Trichosanthin - ↑Caspase-3 and 9, ↑E-cadherin, ↓N-cadherin, ↓Bcl-2, ↑ Ba, x↑DR4, ↑DR5
+				Hedyotis/Ursolic acid - ↓MMP2, ↓MMP 9, ↑E-cadherin, ↓N-cadherin
+				Oleanolic acid/C30H48O3 - ↑ROS, ↑Ca2+, ↓Akt, ↓JACk2, ↓STAT3
+				Scutellaria barbata/Wogonin - ↑caspase-3, 8 and 9, ↑ROS
+				Luteolin/C15H10O6 - ↑miR-34a-5p, ↑p21, ↑p53, ↓MDM4, ↑caspase-3 and 9
+				Polygonum cuspidatum/Polydatin - ↓NLRP3, ↓ASC, ↓p-NF-κβ p65
+				Rheum officinale/Emodin - ↑PPARγ, ↑IGFBP1, ↓Sp1
+				Rhizoma zedoariae/β-elemene - ↑caspase-3, ↑ROS, ↑Cyto- C, ↑Bad, ↓Bcl-2
+				Chansu/Bufalin - ↑caspase-3, ↓Akt, ↓ ERK ½, ↓VEGF, ↓cMyc, ↓NF-κβ, ↓p38 MAPK, G1/S phase arrest
+				Platycodon grandiflorum/Platycodin-D - ↑Atg-3, ↑Atg-7, ↑Beclin-1, ↑LC3-II, ↓ p-Akt, ↓p-p70S6K, ↓p-4EBP1, ↓ ERK ½
+				Salvia miltiorrhiza/Tanshinone IIA (TSIIA) - ↑Cyto- C, ↓ Ba, x↓MMP, ↑caspase-3 and 9
+				Tripterygium wilfordii Hook/Celastrol - ↓Bcl-2, ↑ Ba, x↓Akt, ↑Cyto- C, ↓PARP, ↑Fas, ↑FasL
+				Curcuma longa/Curcumin - ↑ROS, ↓ΔΨm, ↓SOD1, ↑caspase-3 and 9, ↑ Ba, xG2/M phase arrest
+				Cinnamomum cassia/Cinnamaldehyde - ↑caspase-3, ↑PARP, ↓Bcl-2,↑Bax,↓Bcl-xL, ↓HIF-1α, ↓β-catenin, ↓MMPs, ↑E-cadherin
+				Coix lacryma-jobi L./CP-1 polysaccharide - ↑caspase-3 and 9, ↓ΔΨm, S phase arrest
+				Ophiopogon japonicus/Ophiopogonin B - ↑E-cadherin, ↓N-cadherin, ↓linc00668, ↑miR-432-5p
+				Tetrastigma hemsleyanum/Radix Tetrastigma Hemsleyani Flavone - ↓MMP 2 and 9, ↓TIMP-1, ↑TIMP-2
+				Panax notoginseng/Trilinolein - ↓Bcl-2, ↑ Ba, x↑ROS, ↓PARP, ↓Akt, ↑caspase-3, ↑Cyto- C
+				Fucus vesiculosus/Fucoidan - ↑ROS, ↑ATF4, ↑CHOP, ↑TLR4
+				Rabdosia rubescens/Oridonin - ↓Jagged2, ↓Notch1-4
+				Panax notoginseng/Panaxadiol saponins - ↓NLR, ↓MPO, ↓G-CSF, ↓PU.1, ↓C/EBPα, ↓EP1, ↓GATA 1 and 2
+				Ganoderma lucidum/Ganodermanontriol - ↓u-PA, ↓CDC20, ↓survivin
+				Polysaccharides/n.d. - ↑SOD, ↑CAT, ↑GP, x↓IL-1β, ↓IL-6, ↓TNF-α
+				Maclura pomifera/Pomiferin - ↑CAN, x↑BCAP31, ↑Mn-SOD,↑ACOX1,↓BMP-7 ↓ID 2 and 3
+				Chansu/Bufadienolides - ↓STAT3/Mcl-1, ↓Bcl-xL, ↓PARP, ↑caspase-3
+				Cimicifuga foetida/Actein - ↓VEGF, ↓pERK, ↓pJNK, ↓CD34, ↓CXCR4
+				Astragalus membranaceus/Formononetin - ↓MMP 2, ↓MMP9, ↓PI3K, ↓Akt, ↑TIMP-1 and 2
+				Astragulus Polysaccharides/n.d. - ↓Bcl-2, ↑ Ba, x↑NO, ↑TNF-α, G1/S phase arrest
+				Narcissus L. bulb/Narciclasine - ↑AMPK-ULK1, ↓PRAS40
+				Cimicifuga racemosa/KHF16 - ↓XIAP, Mcl-1, ↓Survivin, ↓Cyclin B1/D1, ↓NF-kβ
+				Pueraria lobata/Puerarin - ↓NFκβ, ↑AMPK, ↑ACC, ↑GSK-3β, ↓CREB
+				Gardenia jasminoides Ellis/Genipin - ↓Bcl-2, ↑ Ba, x↑caspase-3, ↑JNK, ↑p38 MAPK
+				Tetradium ruticarpum/Evodiamine - ↓u-PA, ↓MMP 9, Bcl-2, ↑ Ba, x↓CD1, ↓CDK6, G0/G1 arrest
+				Euphorbia prolifera Buch-Ham/Myrsinol diterpene
+				(J196-10-1)/n.d. - ↓MDR, ↓Pgp efflu, x↑ATP hydrolysis
+				Solanum nigrum L./α-Solanine - ↑Ba, x↓Bcl-2, ↓Ψm
+				Melonidus suaveolens/Melosuavine I - ↑caspase 3, ↓Bcl-2, ↑p53
+				Cnidium monnieri (L.) Cusson./Osthole - ↑caspase 9 and 3, ↓PARP, ↑p53 and p23, ↓Cdk2 and CD1
+				Ophiopogon japonicus/Ophiopogonin D - ↑Caspase 9 and 8, ↓cyclin B1 and G2/M arrest
+				Panax ginseng C. A. Mey./Ginsenoside Rg5 - ↑p53, p21 and p15, ↓CD1, CE2 and Cdk4, ↑caspase 6,7,8 and 9, ↓PARP
+				Epimedium brevicornum/Icariside II - ↑Cl-Caspase-9,8,7,3, ↑ Cl-PARP, ↑ Ba, x↑Bcl-xL, ↑BimL, ↑Fas, ↓ FasL, ↑FADD, ↓MMP, ↑Cyto- C, ↑AIF
+				Tripterygium wilfordii Hook/Triptolide - ↓ MMP7 and MMP19, ↑Ecadherin
+				Panax ginseng/Ginsenoside 20(S)-Rg3 - ↑ Caspase-3 and 9, ↓ PI3K/Akt and IAP
+				Syzygium aromaticum/Kumatakenin - ↑ Caspase-3,8 and 9, ↓MCP-1, ↓RANTES, ↓IL-10, ↓VEGF, ↓MMP 2 and 9
+				Pueraria mirifica/Daidzein - ↑Bcl-2, ↑cym-c, ↑cleaved caspase-3/9, G2/M cell arrest, ↓pCdc25c, ↓pCdc2, ↓cyclin B1, ↓MMP-2/9
+				Thelypteris torresiana (Gaud)/Protoapigenone - ↓p-Cdk2, ↓Cdk2, ↓p-Cyclin B1, ↓Cyclin B1, ↑p-Cdc25C, ↓Bcl-xL, ↓Bcl-2, ↑caspase-3
+				Epimedium brevicornum/Icariin - ↑Caspase-3, ↓miR-21, ↑PTEN and RECK, ↓Bcl-2
+				Icaritin/C21H20O6 - ↑caspase 3- 9, ↑p53 and ↓Akt/mTOR pathway
+				Gundelia tournefortii/Stigmasterol - ↑ROS, ↑caspase 3 and 9, Ba, x↑BAk, ↑cym-c, ↓VEGFA, ↓MMP 2,9 and 14
+				Vitex Agnus-castus L./Casticin - ↑FOXO3a, ↓FoxM1, ↓survivin, ↓PLK1, p27KLP1
+				Carya cathayensis Sarg/Juglone - ↑ROS, ↑p21, ↑Ba, x↑Bad, ↑Cyto c, ↓CDK2, cdc25A, CHK1, and cyclin A, ↓Bcl-2 and Bcl-xL, ↓Cyclin A, S-phase cell cycle arrest
+				Scutellaria baicalensis Georgi/Baicalin and Baicalein - ↓VEGF, HIF-1α, cMyc, and NFκB
+				Potamogeton crispus L./Luteolin-3’-O-β-D-glucopyranoside - ↓MMP-2, ↓MMP-9, G1/S phase arrest
+				Artemisia annua/artesunate - ↑ROS, ↑p21, ↓CDKs, ↓Rb, ↓E2F-1, ↓CDC25C, G2/M cell cycle arrest
+				Arctium lappa/Arctigenin - ↓STAT3, ↓survivin, ↓iNOS, ↑caspase3
+				Asparagus officinalis L./Asparanin A - ↓Bak/Bcl-xl, ↑ROS, ↑Cyto c, ↓Δψm, ↑caspases, G0/G1 cell cycle arrest, ↓PI3K/Akt/mTOR
+				Salvia miltiorrhiza/Cryptotanshinone - ↑caspase3 and 9, ↑Bax/Bcl-2, ↓MMP 2 and 9
+				Asiatic Moonseed/Dauricine - ↓cyclin D1, ↓COX2, ↓cMyc, ↓survivin, ↓Bcl-2, ↓IAP1, ↓MMP 9, ↓ICAM1, ↓VEGF, ↓NFκβ
+				Withania somnifera/Withaferin A - ↑ROS, ↓ Bcl-2/Ba, x↑caspase3 and 9, ↓ΔΨm
+				Piper nigrum/Piperine - ↓wnt/β-catenin pathway
+				Crocus sativus/Crocetin - ↑p53, ↑PIDD, ↑Ba, x↑FAS, ↑caspase-3, -8 and -9
+				Cynanchum paniculatum/Antofine - ↓proliferation, ↑cytotoxicity, G2/M cycle arrest
+				Zingiber zerumbet/Zerumbone - ↑ROS, ↓ Bcl-2/Ba, x↑caspase-3/-8/-9, ↓ΔΨm, G2/M cycle arrest
+				Hymenocallis littoralis/Pancratistatin - ↑LC3II, ↑beclin-1, ↑Ba, x↓cyclin B1, ↓cdc25c, G2/M cycle arrest
+				Saussurea lappa/Costunolide - ↓Survivin, ↓β-catenin, ↓galectin-3, ↓cyclin D1, G2/M cycle arrest
+				Rehmannia glutinosa/Catalpol - ↓VEGF, ↓EGFR2, ↓HIF-1α, ↓IL-1β, ↓IL-6 and 8, ↓iNOS
+				Laminaria japonica/LJGP - ↓CDK2, ↓PCNA, ↓E2F-1, ↓cyclin E, ↓cyclin D1, ↓PARP, ↑p27, ↑caspase 9, ↓Bcl-2, G1 phase arrest
+				Rosmarinus officinalis/Rosmarinic acid - ↑E-cadherin, ↓N-cadherin, ↓twist, ↓vimentin, ↓MMP 2 and 9, ↓ICAM-1, ↓ITGβ1
+				Coptis chinensis/Berberine - ↑p21, ↓PARP, ↑caspase 8, ↓VEGF, ↓COX2, ↓Bcl-2, G2/M phase arrest
+				Sanguinaria canadensis/Sanguinarine - ↑ROS, ↓MMP, ↑caspase-3, 8 and 9, ↓Bcl-2, ↓XIAP, ↑Egr-1
+				Nauclea orientalis/Naucleaoral A and B - ↑cytotoxicity
+				Glycyrrhiza uralensis/Licoricidin - ↑caspase-3, 8 and 9, ↓CDK1, ↑AMPK, ↓Akt/mTOR, G1/S phase arrest
+				Carpobrotus edulis/Rutin - ↑caspase 3, G0/G1 phase arrest
+				Scutellaria baicalensis/Baicalin and Baicalein - ↓hTERT, ↓MAPK, ↓ERK, ↑p38
+				Nicotiana glauca/Scopoletin - ↓ERK1, ↓VEGF-A, ↓FGF-2
+				Morus australis/Morusin - ↓ PI3K/Akt, ↓PDK1, ↓XIAP, ↓cMyc, ↓NFκβ, ↑caspase-3, 8 and 9, G1 phase arrest
+				Allium sativum/Diallyl disulphide - ↓GSK3β, ↓NFκβ
+				Nandina domestica/Protopine - ↑p53, ↑p21, ↑Ba, x↑caspase-3 and 7, ↑LC3-II
+				Nigella sativa/Thymoquinone - ↑LC3-II, ↑p62, ↓MMP 2 and 9, ↓FAC, ↓Nf-kβ, ↓ERK, ↓Akt, ↓mTOR
+				Radix Angelica sinensis/Z-ligustilide - ↓RhoA, ↓Cdc42, ↓Rac1
+				Panax ginseng C. A. Mey/Ginsenoside Rh2 - ↑miR128, ↑E2F3a, ↑caspase-3
+				Bolbostemma paniculatum/Tubeimoside-1 - ↓Bcl-2, ↑ Ba, x↑caspase-3, ↑Cyto- C, ↑ROS
+				Thuja occidentalis/α-/β-Thujone - ↓VEGF, ↓Ang-4, ↓CD31
+				Rubia cordifolia L./Mollugin - ↓ Akt, ↓ P70S6K, ↓ mTOR, ↓ ERK ½, ↑JNK, ↑p38
+				Garcinia brasiliensis/7-epiclusianone - ↓cyclin A, ↑caspase-3, S and G2/M phase arrest
+				Escherichia coli/Selenocysteine - ↑ROS, ↑p21waf1/cip1, ↑p53, ↓Akt, ↑p38MAPK, ↑JNK, ↑ERK, S phase cycle arrest
+				Anula helenium/Alantolactone - ↑ROS, ↓GSH, ↓Bcl-2, ↑ Ba, x↑p53, ↑Cyto- C, ↑caspase-3/-9, ↓ΔΨm, ↓Nf-kβ
+				Carpesium nepalense/Nepalolide A - ↓IkB-α, ↓IkB-β, ↓iNOS, ↓NF-kβ
+				Buxus microphylla/Cyclovirobuxine D - ↑ Ba, x↓Bcl-2, ↑caspase-3, S and G0/G1 phase arrest
+				Euscaphis japonica/Pomolic acid - ↑caspase-3 and 9, ↑ROS, ↓MRP1
+				Danshen/Salvianolic Acid B - ↑ROS, ↑p53, ↑p38 MAPK
+				Glycine max/Soyasapogenol B - ↓STAT3, ↓M2 polarization, ↑M1, ↑IL-12
+				Rosmarinus officinalis/Carnosol - ↑p53, ↓twist, ↓Zeb1, ↓slug, ↑miR-200c
+				Tillandsia recurvata/HLBT-100 - ↑caspase-3, and 7, G1 cell cycle arrest, ↓angiogenesis
+				Ligusticum chuanxiong hort/Tetramethylpyrazine - ↓CXCR4
+				Garcinia hanburyi Hook. f/Gambogenic acid - ↓cyclin E, ↓cyclin D1, ↓EGFR, ↓Akt, ↓GSK3β, Go/G1 phase arrest
+				Vitis vinifera/Resveratrol - ↓Akt, ↑p53
+				Curcuma aromatica Salisb./Germacrone - ↑p53, ↑ Ba, x↓Bcl-2, ↑p21, ↓CD1, ↓CDK2, G1 phase arrest
+				Acori Graminei Rhizoma/Volatile Oil (VOA) - ↑caspase-3, 8 and 9, ↑ Bax/Bcl-2, ↑LC3-II/I, ↑atg5, ↑beclin1, ↓p62
+				Trichosanthes kirilowii Maxim./Trichosanthin - ↓LGR5, ↓β-catenin, ↓pGSK-3βSer9, ↓cMyc, ↓CD1
+				Streptomyces staurosporeus/Staurosporine - ↑caspase-3, ↓TDP-43
+				Dysosma versipellis/Deoxypodophyllotoxin - ↓Cdc2, ↓CB1, ↓Cdc25C, ↑caspase-8 and 9, ↓Bcl-2, ↓Bcl-xL, G2/M phase arrest
+				Anemone taipaiensis/Saponin B - ↑Fas-l, ↑caspase-3, ↓Bcl-2, G1/S phase arrest
+				Strychnos nux-vomica Linn/Brucine - ↓HIF-1, ↓MMP-2, ↓FN, ↓LO, x↓CD
+				Azadirachta indica/Nimbolide - ↑caspase-3,7 and 9, ↑ Ba, x↓Bcl-2, ↓Mcl-1, ↓XIAP, ↓ c-IAP1, ↓c-IAP2, G2/M phase arrest
+				Gardenia jasminoides ellis/Geniposide - ↓miR-224, ↓wnt/βcatenin, ↓Akt
+				Solanum nigrum L./Solamargine - ↓pcna, ↓Ki67↓Bcl-2, ↑ Ba, x↑caspase-3 and 9, G2/M phase arrest
+				Matricaria recutita/α- bisabolol - ↑caspase-3,-8 and -9, ↑Fas, ↓Bcl-2, ↑p53, ↑Nf-kβ,
+				Ganoderma lucidum/Ganoderic acid A - ↓cyclin D1, ↑p21, ↑cleaved caspase 3, G0/G1 phase arrest
+				Thalictrum glandulosissimum/Hernandezine - ↑AMPK, ↑Atg-7
+				Angelica gigas Nakai/Decursin - ↑LATS1, ↑βTRCP, ↑p-YAP, ↑cleaved caspase 3, ↑cleaved PARP, G1 phase cell cycle arrest
+				Lavandula officinalis/Linalool - ↓cyclin A, ↓CDK4, ↑p21, ↑p27, ↑ROS, ↑caspase-3, ↓Ras, ↓Akt, ↓mTOR, G0/G1 phase arrest
+				Tylophora indica/Tylophorine - ↓cyclin A2, G1 phase cell cycle arrest
+				Patrinia scabra Bunge/Lariciresinol - ↓ΔΨm, ↑Cyto- C, ↑caspase-3 and 9, ↑PARP, ↓Bcl-2/Bax
+				Oroxylum indicum/Oroxin B - ↑PTEN, ↓COX-2, ↓VEGF, ↓p-Akt, ↓PI3K
+				Stephania tetrandra/Tetrandrine - ↓wnt/β-catenin, ↓MTA1, ↑E-cadherin, ↑occludin, ↓Vimentin
+				Scutellaria lateriflora/Scutellarein - ↓HIF-1α, ↓Flt-1, ↓VEGFA, ↓MMP 2 and 9, ↑caspase-3
+				Toddalia asiatica Lam/Chelerythrine - ↓MMP 2 and 9, ↓p-FAK ↓PI3K, ↓Akt, ↓mTOR, ↓c-JNK, ↓ERK
+				Astragalus complanatus R.Br./(FAC) flavonoids - ↑caspase-3 and 8, ↑ Ba, x↑p21, ↑p27, ↓CDK1, CDK4, ↓cyclin B1, ↓cyclin D1, G0/G1 and S phase arrest
+				Quercus Iberica/Quercetin - ↑E-cadherin, ↓MMP9, ↑LC3, ↓Vimentin, ↓Jak2, ↓STAT3,
+				Trichosanthis Radix/Cucurbitacin B - ↓cdc2, ↓cyclin D1, ↓c-Raf, S phase arrest
+				Colchium speciosum/Colchicine - ↑AKAP12, ↑TGFB2, ↑MX1, ↓APOH, ↑GDF15, ↑IL32
+				Wilkstroemia elliptica Merr./Umbelliferone - ↑ROS, ↓MMP, G0/G1 cycle arrest
+				Dioscorea nipponica/Dioscin - ↑p53, ↓Cyclin A, ↓CDK2, ↓p-ERK, ↓Bcl-2, ↑p-JNK, ↑p-p38, ↑Ba, x↑cleaved caspase-3/-9
+				Maclura pomifera/Osajin - ↑Ba, x↓Bcl-2, ↑Fasl, ↑cym-c, ↓GRP78, ↑caspase-3,4,8 and -9
+				Cichorium intybus/Esculetin - ↓pJAK1/2, ↑ROS, ↓STAT3, G1/S cycle arrest
+				Serratia marcescens/Prodigiosin - ↓Cyclin D1, ↑beclin-1, ↓mTOR, ↓PI3K/Akt, G0/G1 phase arrest
+				Albatrellus confluens/Neoalbaconol - ↓PDK1, ↓PI3K/AKT HK-2, ↑RIP1, ↑RIP3
+				Haematococcus pluvilis/Astaxanthin - ↓PI3k/Akt, ↓STAT3, ↓Nf-kβ, ↓miR-21, ↓HOTAIR
+				Geranium thunbergii/Geraniin - ↓MMP2, ↓Fak, ↓Src, ↓ERK ½
+				Forsythia suspensa/Phillygenin - ↑Caspase-3/-9, ↑Ba, x↑ROS, ↓Bcl-2, G2/M phase arrest, ↓Nf-kβ
+				Enicosanthellum phalcrum/Liriodenine - ↑Ba, x↑Caspase-3, ↓Bcl-2, G2/M phase arrest
+				Halichondria sp./Ilimaquinone - ↑ROS, ↑LC3B-II, ↑Atg5, ↓p-pAkt, ↓p-p38, ↓HIF-1α, ↓Mcl-1, ↓Bcl-2
+				Tabernaemontana catharinensis/Coronaridine - ↑apoptosis, ↑cytotoxicity
+				Chelidonium majus/Ukrain - ↓EGFR, ↓AKT2, ↓STAT3, JAK1, ↓β-catenin, ↑CYP1A1, ↑CYP1B1
+				Cruciferae/Indole-3-carbinol - ↓CDK6, ↑Ba, x↓Bcl-2, ↑p21, ↑p27, G1 phase arrest
+				Genista tinctoria/Genistein - ↓HOTAIR, miR-34a↓NFκβ, ↓Akt
+				Punica granatum/Ellagic acid - ↑IL-6, ↓STAT3, ↓Akt, ↓ERK
+				Stephania tetrandra/Fangchinoline - ↓NR4A1, ↓survivin, ↑ROS, ↑caspase 3 and 8
+				Melodinus khasianus/Khasuanine A - ↑Caspase-3, ↑p53, ↓Bcl-2
+				Camptotheca acuminate/Camptothecin - ↑ROS, ↑c-Myc, ↑sp1, ↑PI3k/Akt, ↑hTERT, G2/M cycle arrest
+				Andrographis paniculata/Andrographolide - ↓MMP11, ↑γH2A, x↑ Caspase-3, and 7, G2/M phase arrest
+				Dioscorea nipponica/Diosgenin - ↓Bcl-2, ↓beclin-1, ↑caspase-9, ↓ PI3K, ↓Akt, ↓mTOR,
+				Murraya koenigii/Mahanine - ↓DNMT1, ↓DNMT3B, ↓PDK1, ↓Akt, ↑RASSF1A
+				Quercus petraea/Procyanidin - ↓ΔΨm, ↑ apoptosis, and necrosis
+				Santalum album/α-santalol - ↓Survivin, ↓p-Akt, ↑ Caspase-3, ↑cleaved PARP
+				Goniothalamus spp./Altholactone - ↓p65, ↓NF-kβ, ↓STAT3, ↓survivin, ↓Bcl-2, ↑Ba, xS phase arrest
+				Nauclea subdita/Subditine - ↑ROS, ↓MMP, ↑cym-c, ↑caspase-3,7 and 9, ↓Bcl-2
+				Isodon eriocalyx/Eriocalyxin B - ↑cleaved caspase 3 and 8, ↑cleaved PARP, ↑LC3B-II, ↓Akt/mTOR
+				Garcinia indica/Garcinol - ↑ Bax/Bcl2, ↑caspase-3 and 9, ↓PARP, ↑PI3K, ↑Akt, ↑mTOR
+				Allium atroviolaceum/Tricin - ↓MiR-21
+				Sinomenium acutum/Sinomenine - ↓miR-23a, ↓CD1, ↓CDk4, ↓Bcl-2, ↓MMP-2 and 9, ↓PI3K/Akt, ↓JAK/STAT
+				Artemisia annua/Dihydroartemisinin - ↓VEGF, ↓ERK1/2
+				Artemisia absinthum/Cardamonin - ↑ROS, ↑Ca2+, ↑ Caspase-3, -8 and-9, ↓Bcl-2, ↑Ba, x↑ cyto-c, ↑AIF, ↑GRP78, ↑FasL, ↑DAP,
+				Myristica fragrans/Myristicin - ↑Caspase-3, ↑Cyto- C, ↓PARP, ↓ERCC1, ↓RAD50, 51, ↓ATM
+				Ganggui luhui wan/Meisoindigo - ↑Caspase-3,8 and 9, ↑Ba, x↑Cyto- C, ↑PARP, ↓Bcl-2,
+				Cananga odorata/Sampangine - ↑ROS, ↓ΔΨm, ↑Caspase-3, G1 phase arrest
+				Ambrosia maritoma/Damsin - ↓c-Src, ↓AKT, STAT5, ↓NFkβ
+				Forsythia suspensa/Pinoresinol - ↑p21 WAF1/Cip1, G0/G1 phase arrest
+				Danggui longhui wan/Indirubins - ↓c-Src, ↓Abl kinase, ↓Gsk3β
+				Arnica chamissonis/Helenalin - ↓NFkβ, ↑ROS
+				Cinnamosma fragrans/Capsicodendrin - DNA damage and proapoptotic
+				Cephalotaxus fortunei/Homoharringtonine - ↓SP1/TET1/5hmC/FLT3/MYC
+				Papaver somniferum/Noscapine - ↓Bcl-2, ↓XIAP, ↓Mcl-1, ↓Bcl-xl, ↑Ba, x↓TRAF1, ↓IKK, ↓NFkβ,
+				Streptomyces cinnamonensis/Monensin - ↓MyB, ↓MyB-NFIB
+				Brucea antidysenteriea/Bruceantin - ↑NOTCH1, ↑HES1, G1 phase arrest
+				Aglaia foveolata/Silvestrol - ↓FLT3, ↓miR155, ↓ p65
+				Cynanchum otophyllum/Paeoniflorin - ↑HTRA3, ↑Bax
+				Periploca sepium bunge/Baohuoside-I - ↓β-catenin, ↓survivin, ↓cyclin D1
+				Ochrosia elliptica/Ellipticine - ↑AIF, ↑Cyto- C, ↑ROS, ↑caspase-3, 7 and 9, ↑ERK, ↑JNK, G2/M cycle arrest
+				Ilex hainanensis/Ilexgenin A - ↓IL-6, ↑TNF-αG0/G1 cycle arrest
+				Dysoxylum binectariferum/Flavopiridol - ↑caspase-3, 8 and 9, ↓Mcl-1 ↑cyclin-B1, G2/M cycle arrest
+				Crinum asiaticum/Crinamine - ↓Snail1, ↓vimentin, ↓VEGF-A, ↓CDK4, ↓RHOA, ↓PLK1, ↓BCL2L1, ↓Akt1
+				Alpinia katsumadai/Alpinetin - ↓Bcl-2, ↓Bcl-xL, ↑ Ba, x↑Cyto- C, ↑XIAP, ↑caspase-3, 8 and 9
+				Combretum caffrum/Combretastatin A4 - ↓N-cadherin, ↓Vimentin, ↓slug, ↓snail1, ↓zeb1, ↓p-PI3K, ↓p-Akt
+				Heliotropium Indicum Linn/Indicine N-oxide - ↑p53, cleave PARP, cleave DNA
+				Arnebia euchroma/Alkannin - ↑ROS, ↓ΔΨm, ↑p38 MAPK, ↑JNK
+				Artemisia princeps/Jaceosidin - ↑pCdc25C, ↑p21, ↑ROS, ↓ERk ½, ↑ATM-Chk1/2, G2/M phase arrest
+				Coccinia grandis/Kaempferol - ↑LC3-II, ↓p62, ↓G9a, ↑IRE1-JNK-CHOP
+				Daphne odora/Daphnetin - ↓RhoA, ↓Cdc42
+				Cerbera odollam/Cerberin - ↓cMyc, ↑Caspase 3 and 7, ↑ROS ↓Bcl-2, ↓Mcl-1, ↓STAT-3, ↓PLK-1, G2/M phase arrest
+				Asiatic toad/Cinobufagin - ↓Bcl-2, ↓CB1, ↑p21, ↓CDC2, ↑puma, ↑caspase 3, G2/M phase arrest
+				Astragalus membranaceus/Swainsonine - ↑E-cadherin,↓N-cadherin, ↓Vimentin, ↓slug, ↓snail1, ↓zeb1, ↓p-PI3K, ↓p-Akt, ↓Twist1
+				Magnolia officinalis/Honokiol - ↓cyclin D1, ↓CDK2 and 4, ↓Akt/mTOR, ↓p38, ↓ERK, G0/G1 phase arrest
+				Polymethoxyflavone/Tangeritin - ↓ MMP, ↑ Caspase-3, -8 and -9, ↑ Ba, x↑ Bid, ↑ tBid, ↑ p53, ↑ p21/cip1, ↑ Fas and ↑ FasL
+				Amoora rohituka/Aphanin - ↓K-Ras, ↓p-AKT, ↓cMyc, ↓cyclin D1, ↓STAT3, G0/G1 cycle arrest
+				Eucalyptus globulus/Caffeic acid - ↑ Caspase-1, 3, and 8, G0/G1 cycle arrest
+				Zingiber officinale/6-gingerol - ↑ROS, ↑Bax/Bcl-2, ↑Caspase-3, 9, ↑cym-c, G2/M phase arrest
+				Humulus lupulus/Xanthohumol - ↑caspase-3, 8 and 9, ↑PARP, ↑p53, ↑AIF, ↓Bcl2, ↓XIAP, S phase cycle arrest
+				Trollius chinensis/Orientin and Vitexin - ↑p53, and ↓Bcl2
+				Rhodiola rosea/Salidroside - ↓p-MAPK, ↓p-ERK, ↓p-PI3K, ↓p-AKT, ↓miR99a, ↑p21, ↓Bcl-2
+				Syzgium aromaticum/Eugenol - ↑ROS, ↑Ba, x↓PCNA, ↓ΔΨm, G2/M cycle arrest
+				Uapaca togoensis/Arborinine - ↓MMP, ↑ROS, G0/G1 and S phase arrest
+				Peganum harmala/Harmine - ↑beclin-1, ↑LC3-II, ↓Bcl-2, ↑Ba, x↓Akt/mTOR, ↓p70S6k
+				Artemisia vestita/Hispidulin - ↓VEGFR2, ↓Akt, ↓mTOR, ↓S6 kinase, ↓PI3K, ↓Bcl-2
+				Didemnum cuculiferum/Vitilevuamide - ↓tubulin polymerization, G2/M phase arrest
+				Piper longum/Piperlongumine - ↑p-elF2α, ↓ΔΨm, ↑ATF4, ↑CHOP, ↓TrxR1
+				Chrysanthemum parthenium/Parthenolide - ↓NFκβ, ↓VEGF, ↓c-jun, ↓c-Fos
+				Solanum nigrum L./Degalactotigonin - ↓Hedgehog Gli1, ↓GSK3β
+
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
 		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
 		
