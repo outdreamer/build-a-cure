@@ -305,11 +305,11 @@
 		- other relevant herb info from a cancer center (mskcc)
 			- https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search
 
-		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' to useful effect with brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' or 'atorvastatin/omega 3s/quercetin/ashwagandha/coconut oil' or 'atorvastatin/omega 3s/aged garlic extract/ashwagandha/coconut oil' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
-			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, Berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
+			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
 
 		- other effects of substances in food
 			- https://www.mdpi.com/2072-6643/13/3/728#:~:text=There%20is%20evidence%20that%20dietary%20polyphenols%20can%20influence,T%20helper%20%28Th1%29%2C%20Th2%2C%20Th17%20and%20Th9%20cells.
