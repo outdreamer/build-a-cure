@@ -1,7 +1,16 @@
 - various sub-intents for general intent of inhibiting cancer (and associated anti-tumor substances with sub-intents)
 
 
-	- for an example of a treatment strategy, the following are probably useful intents across different cancers:
+- useful sub-intents with associated substances
+
+	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha)
+	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- increase tumor suppressor proteins p21WAF1/CIP1 and p27KIP1 (zeolite clinoptilolite)
+			- micronized zeolite clinoptilolite inhibits protein kinase B (c-Akt), induces expression of p21WAF1/CIP1 and p27KIP1 tumor suppressor proteins, and blocks cell growth
+			- https://pubmed.ncbi.nlm.nih.gov/11434724/
+		- decrease MMPs (celastrol, holy basil, quercetin, Chinese skullcap, salvia, black seed oil)
+		- bind to galectin-3
+			- binding of MCP to galectin-3 inhibited tumor growth, angiogenesis, and metastasis
 		- induce apoptosis (modified citrus pectin, quercetin chalcone)
 			- https://pubmed.ncbi.nlm.nih.gov/11134977/
 		- inhibit HMGB1 (glycyrrhizin)
@@ -43,7 +52,8 @@
 		- a MGMT inhibitor (disulfiram, resveratrol/ashwagandha + temozolomide)
 		- an angiogenesis inhibitor (ashwagandha, EGCG, calestrol, uncaria tomentosa)
 		- a Wnt pathway inhibitor (celastrol)
-		- a TRPV2 inhibitor (piperlongumine)
+		- a TRPV2 inhibitor (piperlongumine) or TRPV4 inhibitor (carvacrol)
+			- https://pubmed.ncbi.nlm.nih.gov/34989943/
 		- block HMG-CoA reductase (red yeast rice, simvastatin/atorvastatin)
 		- inhibit mevalonate pathway (red yeast rice, simvastatin/atorvastatin)
 		- block ATP citrate lyase (garcinia cambogia)
@@ -68,7 +78,9 @@
 				- Insulin also has direct tumor-promoting effects on cancer cells
 		- substances that suppress NK-κB, NF-jB, MAPK, cyclin D1, PI-3K/AKT, EGFR, GSK-3b (turmeric)
 		- substances that upregulate Bax and suppress Bcl-2 (saffron/crocin)
-		- a p53 activator (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
+		- increase tumor suppressors
+			- increase p53 levels (astaxanthin, ginger, resveratrol, ashwagandha, berberine)
+		- increase PARP-1 inhibitors, as PARP1 repairs DNA 
 		- fibrosis inhibitors (ashwagandha)
 		- tyrosine kinase inhibitors (quercetin, genistein)
 		- inhibit TCF4 or β-catenin/TCF signaling (quercetin)
@@ -79,9 +91,38 @@
 			- GABPA can be pro-cancer in glioblastoma or anti-cancer in other cancers (depending on the cancer, mutation, and other variables)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822828/
 
-		- these substances have been determined to be useful for various mechanisms in specific cancers
+		- avoid these with hormone-sensitive cancer
+			- quercetin, soy
+			- https://anticancer360.com/do-you-have-hormone-sensitive-cancer-use-these-supplements-with-caution/
 
-			- I would read through table 1 and use this as a resource for finding more substances to test on your cancer type if none have worked yet or worked completely, even though this list is incomplete
+		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
+
+		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' or 'atorvastatin/omega 3s/quercetin/ashwagandha/coconut oil' or 'atorvastatin/omega 3s/aged garlic extract/ashwagandha/coconut oil' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
+			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
+			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
+			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
+
+		- as an example of why you need to look up everything youre consuming:
+			- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
+			- similarly, a script to identify what functions a patient needs (rather than just which condition they have, as there are many different states requiring different treatments with complex conditions) and which substances have those functions, and a script to identify functions of a compound, are also useful
+
+
+		- other useful substances
+
+			- other relevant herb info from a medical center (mskcc, webmd)
+				- https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search
+				- https://www.webmd.com/vitamins/condition-1058/cancer
+			
+			- other effects of substances in food
+				- https://www.mdpi.com/2072-6643/13/3/728#:~:text=There%20is%20evidence%20that%20dietary%20polyphenols%20can%20influence,T%20helper%20%28Th1%29%2C%20Th2%2C%20Th17%20and%20Th9%20cells.
+
+			- other supplements
+				- https://www.cancerfightingstrategies.com/immune-system-and-cancer.html#GlioX
+
+			- these substances have been determined to be useful for various mechanisms in specific cancers
+
+				- I would read through table 1 and use this as a resource for finding more substances to test on your cancer type if none have worked yet or worked completely, even though this list is incomplete
 				- for example, substances like quercetin listed for pancreatic cancer are also useful for other cancers like brain cancer
 
 				Substance/component - mechanisms
@@ -295,29 +336,9 @@
 				Chrysanthemum parthenium/Parthenolide - decrease NFκβ, decrease VEGF, decrease c-jun, decrease c-Fos
 				Solanum nigrum L./Degalactotigonin - decrease Hedgehog Gli1, decrease GSK3β
 
-		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
-		- these are probably useful substances for treating cancer (assuming no liver/kidney damage which would contraindicate temozolomide, disulfiram, baicelein, celastrol, and ashwagandha)
-		
-		- avoid these with hormone-sensitive cancer
-			- quercetin, soy
-			- https://anticancer360.com/do-you-have-hormone-sensitive-cancer-use-these-supplements-with-caution/
 
-		- other relevant herb info from a cancer center (mskcc)
-			- https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search
 
-		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' or 'atorvastatin/omega 3s/quercetin/ashwagandha/coconut oil' or 'atorvastatin/omega 3s/aged garlic extract/ashwagandha/coconut oil' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
-			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
-			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
-			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
-			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
-
-		- other effects of substances in food
-			- https://www.mdpi.com/2072-6643/13/3/728#:~:text=There%20is%20evidence%20that%20dietary%20polyphenols%20can%20influence,T%20helper%20%28Th1%29%2C%20Th2%2C%20Th17%20and%20Th9%20cells.
-
-		- as an example of why you need to look up everything youre consuming:
-			- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
-			- similarly, a script to identify what functions a patient needs (rather than just which condition they have, as there are many different states requiring different treatments with complex conditions) and which substances have those functions, and a script to identify functions of a compound, are also useful
-
+- cancer variables
 
 	- the point of these lists is to group substances with functions/effects/structures that either inhibit specific processes that favor cancer, or activate specific processes that suppress/reduce cancer in specific cells/genes/pathways
 		- this includes processes such as:
@@ -436,123 +457,6 @@
 					- Specifically, the mechanisms of Aurora-A kinase promote acquired resistance through modulating DNA damage repair, feedback activation bypass pathways, resistance to apoptosis, necroptosis and autophagy, metastasis, and stemness
 
 
-	- specific treatment strategies
-
-		- brain cancer-specific substances
-			- resveratrol, icariin, quercetin, propolisis, salvia menthaefolia roots, ficus carica latex, berberine, withaferin A, curcumin, angelica sinensis root, ardipusilloside 1, eckol, MSC500, AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine), thymoquinone, cucurbitacins, betulinic acid from betula pubescens, diosquinone from diospyros tricolor
-			- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
-			- toosendanin from melia toosendan increased the p53 expression
-			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
-			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
-			- Coriolus versicolor (krestin polysaccharide), Maitake fraction D, long-chain polysaccharides (beta-glucans from maitake, reishi, and shiitake mushrooms)
-    		- sodium R lipoate plus hydroxycitrate
-    			- hydroxycitrate from garcinia cambogia may block metabolism of sugar/fat in cancer cells, by blocking an enzyme known as ATP citrate lyase. ATP citrate lyase (ACLY) is an enzyme linked to both sugar and fat metabolism, which is produced more in cancer cells, and therefore reduces the production of cellular energy, known as ATP
-    		- boswellia
-    		- cbd with thc 
-				- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells
-    		- bitter ginger (zerumbone)
-    		- https://www.glioblastomamultiforme.it/en/over-the-counter-drugs-and-supplements-to-fight-glioblastoma-part-one/#:~:text=Over-the-Counter%20Drugs%20and%20Supplements%20to%20Fight%20Glioblastoma%20%28Part,Herbs%206%20Berberine%207%20Boswellic%20acids%208%20Cannabis
-
-    	- brain cancer-specific mutations
-    		- loss of the chromosome arm 10q
-    		- alterations in genes/pathways
-    			- TP53
-    			- RB
-    			- NF1
-    			- PTEN
-    			- MDM2 
-    			- alterations in RTK/Ras/PI3K signaling pathways (moringa, celastrol, holy basil, aloe emodin inhibit this pathway)
-    		- amplifications of EGFR and PDGFR
-
-
-	- general treatment strategies
-
-		- ketogenic diet
-			- Foods that are beneficial for glioblastoma patients include ketogenic foods such as coconut oil, cheese
-    			- Plenty of vegetables such as broccoli, asparagus, cucumber should also be consumed
-    			- Processed foods and drinks high in sugar such as sodas should be avoided
-
-		- for patients with organ damage, a subset and sequence of strategies are useful
-			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, quercetin, emodin, caveolin, parsley, baicalin, limonene, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
-			- using less damaging anti-cancer substances in small doses (luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
-			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
-			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
-
-		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
-			- Chamomile is contraindicated
-
-		- hormone-sensitive cancers
-			- ginseng, soy are contraindicated
-
-		- autoimmune disease
-			- astragalus is contraindicated
-
-		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
-			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
-			- celastrol is also highly/broadly active against some cancerous processes, but has some nontrivial negative side effects
-			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
-			- intake of vitamin C and β-carotene and α-tocopherol can reduce the risk of brain tumors, but can also help cancer cells grow in some cases
-				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372437/
-			- higher intake of magnesium/vitamin b12/b6/phosphorus/iron are associated with higher rates of specific cancers, folate/Vitamin A/C/E are associated with lower rates of specific cancers, but can also help cancer cells grow in some cases
-				- https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-03018-y#Fig2
-			- avoiding methionine/cysteine/glutathione/folate/niacin during tumor reduction is similarly important, as they have multiple mechanisms of helping cancer grow
-
-		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
-
-		- diet high in polyphenols which can be active against cancer
-			- Flavonoids include flavones, flavonols, flavanols, flavanones, isoflavones, proanthocyanidins, and anthocyanins
-				- Particularly abundant flavanoids in foods are catechin (tea, fruits), hesperetin (citrus fruits), cyanidin (red fruits and berries), daidzein (soybean), proanthocyanidins (apple, grape, cocoa), and quercetin (onion, tea, apples)
-				- intake of soy and soy isoflavones is associated with a lower risk of mortality from gastric, colorectal, breast and lung cancers
-				- increase in isoflavone consumption by 10 mg per day was associated with a 7% decrease in risk from all cancers
-			- Phenolic acid include caffeic acid
-			- Lignans are polyphenols derived from phenylalanine found in flax seed and other cereals
-
-		- reduce inflammation
-			- anti-inflammatory substances
-				- bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, olive leaf, nettle, vitamin c, resveratrol, ginkgo, ashwagandha
-				- taurine has anti-tumor activity
-			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
-				- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
-				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
-				- an antioxidant that helps protect your cells against the effects of free radicals
-				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
-				- Free radicals might play a role in heart disease, cancer and other diseases
-				- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
-					- The foods you eat supply other antioxidants, such as vitamins C and E. 
-					- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
-					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. 
-					- Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
-
-		- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
-			- taking some substances at the same time may decrease absorption of one or both of them (or decrease removal of one of them, leading to an overly high ratio in blood)
-				- there are a lot of these interactions, its time-consuming to look up every possible interaction without writing a script
-				- here are some of them
-					- https://www.health.com/mind-body/mixing-supplements
-			- https://return2health.com.au/articles/vitamin-mineral-antagonists
-			- avoid when correcting vitamin deficiencies:
-				- anti-convulsants (Barbituates, Phenytoin, Carbamazepine, Primidone, Valproic Acid, Zonisamide), birth control/estrogen, aminopterin, antibiotics, some anti-inflammatory agents, blood pressure medications/diuretics, metformin, alcohol, chlorogenic acid, caffeine/coffee/tea, raw fish, aspirin
-			- calcium binders/antagonists: avoid excess oxalic acid, which is present in too-large amounts in spinach, rhubarb, beets and beet greens, Swiss chard and chocolate
-			- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
-			- vitamin k antagonists (antibiotics, dicumarol and hydrocoumarol, which are used by medical people to relieve thrombosis (abnormal formation of blood clots in the blood vessels)
-			- vitamin c antagonists (cigarette smoke, ammonium chloride, stribesterol, thiouracil, atropine, barbituates, antihistamines, alcohol, stressors such as surgery or extreme temperatures)
-			- thiamine antagonists (ortho/para-hydroxyphenols, caffeic acid, chlorogenic acid, tannic acid, quercetin and rutin)
-			- b vitamin antagonists:
-				- alcohol
-				- folate deficiency
-				- Cortisone
-				- chloroalanine, acetylenic compounds (e.g. propargylglycine) and vinylic compounds (e.g. vinylglycine), α-methyl and amino-oxy substrate analogs (e.g. α-methylglutamate)
-				- Levothyroxine (pyridoxal-5-phosphate)
-				- The inactive form pyridoxine competitively inhibits the active pyridoxal-5'-phosphate (symptoms of vitamin B6 supplementation in the pyridoxine form can mimic those of vitamin B6 deficiency, an effect which can be avoided by supplementing with P5P instead)
-				- AlaP (alanine phosphonate) inhibits alanine racemases, but its lack of specificity has prompted further designs of ALR inhibitors
-				- Gabaculine and Vigabatrin inhibit GABA aminotransferase
-				- Canaline and 5-fluoromethylornithine inhibit ornithine aminotransferase
-				- Amino-oxy SAM inhibits ACC synthase
-				- egg whites (avidin)
-				- antifolate dihydrofolate reductase inhibitors (antimicrobial trimethoprim, the antiprotozoal pyrimethamine and the chemotherapy drug methotrexate, and the sulfonamides (competitive inhibitors of 4-aminobenzoic acid in the reactions of dihydropteroate synthetase))
-				- Valproic acid/valproate, amoxicillin, erythromycin, methotrexate and pyrimethamine, proton pump inhibitors, h2 inhibitors, metformin, colchicine, extended-release potassium products, and antibiotics such as gentamicin, neomycin and tobramycin, Anti-seizure medications (phenobarbital, pregabalin, primidone and topiramate)
-
-
 - relevant structures to cancer
 
 	- oncometabolites
@@ -628,6 +532,125 @@
 	- anti-cancer substances relating to protein kinase targets
 		- impact of substances like honokiol, luteolin, EGCG, curcumin, apigenin, balanol, wedelolactone, berberine, resveratrol, chrysoeriol, ellagic acid, brevilin, amorfruitin, cantharidin, cyanidin, parthenolide, silibinin, coumestrol, pedalitin, nakijiquinone, hematoxylin on proteins relating to cancer
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/figure/biomolecules-10-01546-f001/
+
+
+- treatment strategies
+
+	- specific treatment strategies
+
+		- brain cancer-specific substances
+			- resveratrol, icariin, quercetin, propolisis, salvia menthaefolia roots, ficus carica latex, berberine, withaferin A, curcumin, angelica sinensis root, ardipusilloside 1, eckol, MSC500, AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine), thymoquinone, cucurbitacins, betulinic acid from betula pubescens, diosquinone from diospyros tricolor
+			- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
+			- toosendanin from melia toosendan increased the p53 expression
+			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
+			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+			- Coriolus versicolor (krestin polysaccharide), Maitake fraction D, long-chain polysaccharides (beta-glucans from maitake, reishi, and shiitake mushrooms)
+    		- sodium R lipoate plus hydroxycitrate
+    			- hydroxycitrate from garcinia cambogia may block metabolism of sugar/fat in cancer cells, by blocking an enzyme known as ATP citrate lyase. ATP citrate lyase (ACLY) is an enzyme linked to both sugar and fat metabolism, which is produced more in cancer cells, and therefore reduces the production of cellular energy, known as ATP
+    		- boswellia
+    		- cbd with thc 
+				- Preliminary studies from the lab suggest that cannabinoid chemicals THC and CBD can stop glioblastoma (GBM) cells from growing, causing them to die and disrupting the blood supply to the tumour cells
+    		- bitter ginger (zerumbone)
+    		- https://www.glioblastomamultiforme.it/en/over-the-counter-drugs-and-supplements-to-fight-glioblastoma-part-one/#:~:text=Over-the-Counter%20Drugs%20and%20Supplements%20to%20Fight%20Glioblastoma%20%28Part,Herbs%206%20Berberine%207%20Boswellic%20acids%208%20Cannabis
+
+    	- brain cancer-specific mutations
+    		- loss of the chromosome arm 10q
+    		- alterations in genes/pathways
+    			- TP53
+    			- RB
+    			- NF1
+    			- PTEN
+    			- MDM2 
+    			- alterations in RTK/Ras/PI3K signaling pathways (moringa, celastrol, holy basil, aloe emodin inhibit this pathway)
+    		- amplifications of EGFR and PDGFR
+
+
+	- general treatment strategies
+
+		- ketogenic diet
+			- Foods that are beneficial for glioblastoma patients include ketogenic foods such as coconut oil, cheese
+    			- Plenty of vegetables such as broccoli, asparagus, cucumber should also be consumed
+    			- Processed foods and drinks high in sugar such as sodas should be avoided
+
+		- for patients with organ damage, a subset and sequence of strategies are useful
+			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, quercetin, emodin, caveolin, parsley, baicalin, limonene, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
+			- using less damaging anti-cancer substances in small doses (modified citrus pectin, luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
+			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
+			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
+
+		- cancers of the breast/ovary/uterus, endometriosis, or uterine fibroids
+			- Chamomile is contraindicated
+
+		- hormone-sensitive cancers
+			- ginseng, soy are contraindicated
+
+		- autoimmune disease
+			- astragalus is contraindicated
+
+		- use a few substances with a high range of functionality rather than targeting one pathway (if the mechanism of the specific cancer or cancer type is not known)
+			- Resveratrol, ginger, saffron, fisetin, quercetin, propolis, chicory, uncaria tomentosa, curcumin, withaferin from ashwagandha or similar compounds like ginsenoside from ginseng, EGCG from green tea, selenium, vitamin C
+			- celastrol is also highly/broadly active against some cancerous processes, but has some nontrivial negative side effects
+			- these can cause liver/kidney damage in excess amounts, so its important to stay under the max dose for you
+			- intake of vitamin C and β-carotene and α-tocopherol can reduce the risk of brain tumors, but can also help cancer cells grow in some cases
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372437/
+			- higher intake of magnesium/vitamin b12/b6/phosphorus/iron are associated with higher rates of specific cancers, folate/Vitamin A/C/E are associated with lower rates of specific cancers, but can also help cancer cells grow in some cases
+				- https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-03018-y#Fig2
+			- avoiding methionine/cysteine/glutathione/folate/niacin during tumor reduction is similarly important, as they have multiple mechanisms of helping cancer grow
+
+		- treat other systemic conditions with treatment such as those mentioned in other_condition_treatments.md so the system has extra resources to fight cancer
+
+		- diet high in polyphenols which can be active against cancer
+			- Flavonoids include flavones, flavonols, flavanols, flavanones, isoflavones, proanthocyanidins, and anthocyanins
+				- Particularly abundant flavanoids in foods are catechin (tea, fruits), hesperetin (citrus fruits), cyanidin (red fruits and berries), daidzein (soybean), proanthocyanidins (apple, grape, cocoa), and quercetin (onion, tea, apples)
+				- intake of soy and soy isoflavones is associated with a lower risk of mortality from gastric, colorectal, breast and lung cancers
+				- increase in isoflavone consumption by 10 mg per day was associated with a 7% decrease in risk from all cancers
+			- Phenolic acid include caffeic acid
+			- Lignans are polyphenols derived from phenylalanine found in flax seed and other cereals
+
+		- reduce inflammation
+			- anti-inflammatory substances
+				- bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, olive leaf, nettle, vitamin c, resveratrol, ginkgo, ashwagandha
+				- taurine has anti-tumor activity
+			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
+				- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
+				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
+				- an antioxidant that helps protect your cells against the effects of free radicals
+				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
+				- Free radicals might play a role in heart disease, cancer and other diseases
+				- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
+					- The foods you eat supply other antioxidants, such as vitamins C and E. 
+					- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
+					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. 
+					- Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
+
+		- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
+			- taking some substances at the same time may decrease absorption of one or both of them (or decrease removal of one of them, leading to an overly high ratio in blood)
+				- there are a lot of these interactions, its time-consuming to look up every possible interaction without writing a script
+				- here are some of them
+					- https://www.health.com/mind-body/mixing-supplements
+			- https://return2health.com.au/articles/vitamin-mineral-antagonists
+			- avoid when correcting vitamin deficiencies:
+				- anti-convulsants (Barbituates, Phenytoin, Carbamazepine, Primidone, Valproic Acid, Zonisamide), birth control/estrogen, aminopterin, antibiotics, some anti-inflammatory agents, blood pressure medications/diuretics, metformin, alcohol, chlorogenic acid, caffeine/coffee/tea, raw fish, aspirin
+			- calcium binders/antagonists: avoid excess oxalic acid, which is present in too-large amounts in spinach, rhubarb, beets and beet greens, Swiss chard and chocolate
+			- vitamin a antagonists (nitrosamines, air pollutants, mineral oil, blood-thinning medications and other drugs, including aspirin, phenobarbitol, arsenicals and dicumarol)
+			- vitamin k antagonists (antibiotics, dicumarol and hydrocoumarol, which are used by medical people to relieve thrombosis (abnormal formation of blood clots in the blood vessels)
+			- vitamin c antagonists (cigarette smoke, ammonium chloride, stribesterol, thiouracil, atropine, barbituates, antihistamines, alcohol, stressors such as surgery or extreme temperatures)
+			- thiamine antagonists (ortho/para-hydroxyphenols, caffeic acid, chlorogenic acid, tannic acid, quercetin and rutin)
+			- b vitamin antagonists:
+				- alcohol
+				- folate deficiency
+				- Cortisone
+				- chloroalanine, acetylenic compounds (e.g. propargylglycine) and vinylic compounds (e.g. vinylglycine), α-methyl and amino-oxy substrate analogs (e.g. α-methylglutamate)
+				- Levothyroxine (pyridoxal-5-phosphate)
+				- The inactive form pyridoxine competitively inhibits the active pyridoxal-5'-phosphate (symptoms of vitamin B6 supplementation in the pyridoxine form can mimic those of vitamin B6 deficiency, an effect which can be avoided by supplementing with P5P instead)
+				- AlaP (alanine phosphonate) inhibits alanine racemases, but its lack of specificity has prompted further designs of ALR inhibitors
+				- Gabaculine and Vigabatrin inhibit GABA aminotransferase
+				- Canaline and 5-fluoromethylornithine inhibit ornithine aminotransferase
+				- Amino-oxy SAM inhibits ACC synthase
+				- egg whites (avidin)
+				- antifolate dihydrofolate reductase inhibitors (antimicrobial trimethoprim, the antiprotozoal pyrimethamine and the chemotherapy drug methotrexate, and the sulfonamides (competitive inhibitors of 4-aminobenzoic acid in the reactions of dihydropteroate synthetase))
+				- Valproic acid/valproate, amoxicillin, erythromycin, methotrexate and pyrimethamine, proton pump inhibitors, h2 inhibitors, metformin, colchicine, extended-release potassium products, and antibiotics such as gentamicin, neomycin and tobramycin, Anti-seizure medications (phenobarbital, pregabalin, primidone and topiramate)
 
 
 - inhibit/avoid/reduce carcinogenic structures
@@ -811,6 +834,8 @@
 				- apoptosis was induced by apigenin treatment, linked to an elevated Bax/Bcl-2 ratio, which indicates a shift favouring apoptosis
 				- When exposed to apigenin, Bcl-xL and Bcl-2 levels were found to decrease, while Bax protein levels were found to rise
 			- carvacrol
+				- deactivate TRPV4/TRPM2, leading to an increase of cROS, mROS, lipid peroxidation, apoptosis, cell death, cCa2+ concentration, caspase -3, and caspase -9 levels were restored via upregulation of glutathione and glutathione peroxidase
+				- https://pubmed.ncbi.nlm.nih.gov/34989943/
 				- Inhibition of the viability and proliferation of cancer cells and induction of early apoptotic characteristics
 				- Tyrosine kinase receptor (AXL) expression was suppressed and malondialdehyde (MDA) and 8-hydroxy-2′-deoxyguanosine (8-OHdG) levels were raised
 				- Carvacrol exhibited anticancer effects, inducing cell death and antiproliferative effects
@@ -2733,6 +2758,7 @@
 			- a tumor suppressor gene encoding a protein PTEN, which possesses lipid and protein phosphatase-dependent as well as phosphatase-independent activities
 			- PTEN protein phosphatase is able to interfere with MET signaling by dephosphorylating either PIP3 generated by PI3K, or the p52 isoform of SHC
 			- SHC dephosphorylation inhibits recruitment of the GRB2 adapter to activated MET
+
 
 	- other treatment types
 
