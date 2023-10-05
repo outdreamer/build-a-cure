@@ -5,6 +5,15 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha)
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- increase Reactive Oxygen Species (neem)
+			- https://www.sciencedirect.com/science/article/pii/S2405844023008915
+		- inhibit brain-derived neurotrophic factor by increasing microRNA-210
+			- curcumin downregulates mir-210, so avoid turmeric
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9319031/
+		- glutamine antagonist (6-diazo-5-oxo-L-norleucine)
+			- https://www.nature.com/articles/s42003-019-0455-x
+			- EGCG (green tea) inhibits an enzyme, glutamate dehydrogenase, that helps cancer cells use glutamine
+			- L-asparaginase (ashwaghanda, seeds of peppers inhibits digestion of glutamine
 		- increase tumor suppressor proteins p21WAF1/CIP1 and p27KIP1 (zeolite clinoptilolite)
 			- micronized zeolite clinoptilolite inhibits protein kinase B (c-Akt), induces expression of p21WAF1/CIP1 and p27KIP1 tumor suppressor proteins, and blocks cell growth
 			- https://pubmed.ncbi.nlm.nih.gov/11434724/
