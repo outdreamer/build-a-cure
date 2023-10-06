@@ -111,6 +111,14 @@
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
 			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
+			- also when I got Covid-19, my brain tumor was reduced without any medicine during the active infection immune response, possibly bc of Covid proteins' binding activity or other interactions with ACE2, "reduction-oxidation (redox) pathways related to cytochrome c", EGFR/VEGFR, HGFR/c-MET, adenine nucleotide translocator (ANT), "damage-associated molecular pattern (DAMP) that alarms the immune system of any potential danger in all cell types to help them mount an appropriate immune defense via activation of pattern recognition receptors (PRRs)", or upregulating these factors in the default covid immune response:
+				- 'increased interleukin (IL)-2, IL-7, interferon-inducible protein 10, granulocyte-colony stimulating factor, macrophage inflammatory protein 1-, monocyte chemoattractant protein 1, and tumor necrosis factor- (TNF-)' or IgG/IgM antibodies
+				- upregulation of cyt c, increased oxidative phosphorylation and ATP production, increase in amide I concentration in mitochondrial membrane potential and increase in ANT
+					- this is bc the mRNA-based COVID-19 vaccine altered mitochondria by: 
+						- 'downregulation of cyt c, resulting in lowered oxidative phosphorylation and adenosine triphosphate (ATP) production, leading to the lowering of the immune response. A decrease of amide I concentration in mitochondrial membrane potential suggested functional deterioration of the ANT'
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7359800/
+				- https://pubmed.ncbi.nlm.nih.gov/32758869/
+				- https://www.news-medical.net/news/20220308/Effect-of-COVID-19-mRNA-vaccine-on-in-vitro-glial-cells-of-the-brain-studied-by-Raman-spectroscopy-and-imaging.aspx
 
 		- as an example of why you need to look up everything youre consuming:
 			- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
@@ -1742,13 +1750,14 @@
 			- inhibit/increase other factors in apoptosis and proliferation
 				- p21
 				- cyclin D1
-			- increase Survivin
+			- decrease Survivin
 				- CRISPR knockout of BIRC5 (gene which encodes survivin protein)
 				- Survivin is a member of the inhibitor of apoptosis (IAP) family
 				- inhibit caspase activation, thereby leading to negative regulation of apoptosis	
 				- survivin is linked to the p53 protein
 				- survivin is a direct target gene of the Wnt pathway
 				- survivin is upregulated by beta-catenin
+				- survivin is decreased by resveratrol, holy basil, and berberine
 			- induce apoptosis of senescent cells
 				- Senescent stroma within the TME (and its expression of the senescence-associated secretory phenotype) induce chronic inflammation that encourages tumor development and disease progression
 				- Senescent environments also regulate the function of immune cells in ways that are decidedly protumorigenic
