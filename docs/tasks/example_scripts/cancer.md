@@ -5,6 +5,54 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha)
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+
+		- increase parts of the covid immune response, which extremely reduced my brain tumor during the active immune response
+			- I would try reducing and increasing interferon-gamma and TNF-α bc they can both attack and help cancer (as part of the covid immune reponse, they attacked cancer for me), so its useful to find out which function your cancer responds to, by testing both sets of substances
+				- such as groups like 'astragalus/milk thistle/quercetin' vs. 'turmeric/boswellia/green tea/resveratrol/holy basil/limonene/berberine' and then a known useful mix like 'quercetin/holy basil' as they are both powerful in my experience
+		    - increase TNF-α (astragalus)
+		    	- limonene, holy basil, and berberine all decrease TNF-α
+		    	- astragalus increases TNF-α
+			- increase IL-2 (ginseng, reishi, DHA)
+				- IL-2 is one of the factors increased by the covid immune response, which reduced my brain tumor
+			    - ginseng, reishi, DHA increase IL-2, chlorella decreased IL-2
+			- increase IL-7 (Glutathione)
+				- Glutathione increases IL-7
+			- increase interferons like interferon-gamma
+				- substances that change interferon response
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7130854/
+				- substances that may increase interferon-gamma
+					- Astragalus: a Chinese herb that enhances the antibody reaction to foreign invaders of all types including cancer
+					- Boneset: a native American Indian herb with antiseptic, anti-viral properties used for the treatment of colds and flus, coughs, fevers, indigestion and pain
+					- Chlorophyll: a plant pigment which can be found in a long list of green leafy vegetables and algae like spirulina, chlorella and barley green
+					- Coenzyme Q10: an antioxidant involved in the electron transport chain needed for all energy dependent processes in the body. CoQ10 increases helper T-cells and reduces infection risk
+					- Echinacea: the most popular herb in North America used as a treatment for toothaches, bites or stings and all types of infections
+					- Ginkgo: a potent central nervous system antioxidant for the treatment of circulation disorders, memory problems, high blood pressure, depression, tinnitus and immune system disorders
+					- Licorice: an anti-inflammatory and anti-allergic herb used to boost energy, treat respiratory tract infections as well as female disorders, ulcers, adrenal insufficiency and congestion
+					- Melatonin: a hormone produced by the pineal gland with strong antioxidant and immune system boosting properties
+					- Milk Thistle (Silymarin): a herb most commonly recommended as a liver cleanser and complementary medical treatment for hepatitis
+					- Medicinal Mushrooms: Reishi, Maitake, Shiitake, Kombucha and others stimulate many aspects of the immune system including the production of interferon
+					- Siberian Ginseng: stimulates T-cell and B-cell activity, energy, libido, body fat burning and many stress-related conditions
+					- Vitamin C and bioflavonoids, especially proanthocyanidins (pycnogenols) like grape seed extract, pine bark extract and bilberry, quercetin, hesperidin and catechin are powerful antioxidants
+					- http://www.hepcprimer.com/nutri/immune3.html#:~:text=Some%20better%20known%20natural%20interferon%20boosters%20are%3A%20•,colds%20and%20flus%2C%20coughs%2C%20fevers%2C%20indigestion%20and%20pain.
+				- substances that may lower interferon-gamma
+					- Fish oil
+					- Curcumin
+					- Olive leaf extract
+					- Andrographis
+					- Boswellia
+					- Lithium
+					- Theanine
+					- Glucosamine
+					- Ginkgo
+					- American ginseng
+					- Theaflavins
+					- Nettle leaf
+					- EGCG
+					- Aloe
+					- Resveratrol
+					- https://labs.selfdecode.com/blog/interferon-gamma-how-to-increase-decrease-high-low-levels/
+			- other supplements that fight covid may also be anticancer substances
+				- https://www.healthline.com/nutrition/immune-boosting-supplements#615.-Other-supplements-with-immune-boosting-potential
 		- increase Reactive Oxygen Species (neem)
 			- https://www.sciencedirect.com/science/article/pii/S2405844023008915
 		- inhibit brain-derived neurotrophic factor by increasing microRNA-210
@@ -119,6 +167,8 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7359800/
 				- https://pubmed.ncbi.nlm.nih.gov/32758869/
 				- https://www.news-medical.net/news/20220308/Effect-of-COVID-19-mRNA-vaccine-on-in-vitro-glial-cells-of-the-brain-studied-by-Raman-spectroscopy-and-imaging.aspx
+				- 'increases in multifunctional T helper 17 and 1-type CD4+ T cells characterized by the production of interleukin-2, interferon-gamma, and tumor necrosis factor-alpha'
+					- https://medicalxpress.com/news/2023-10-infant-immune-unique-effective-responses.html
 
 		- as an example of why you need to look up everything youre consuming:
 			- olive oil and turmeric can downregulate p53 so you may want to avoid those during your initial cancer treatment, despite their other anti-cancer effects, as there is currently no tool to compute 'net effects of a set of supplements/nutrients' (let alone a tool to identify all the known effects of a substance), bc a script to do that wouldnt benefit drug companies and doctors, it would make them obsolete, and they obey incentives at all times it seems
@@ -136,6 +186,21 @@
 
 			- other supplements
 				- https://www.cancerfightingstrategies.com/immune-system-and-cancer.html#GlioX
+
+			- other substances useful for specific cancers
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6536969/table/cam42108-tbl-0001/?report=objectonly
+				Substance: Genes (oncogene and tumor suppressor gene), Epigenetics (DNA and histone modification), and Microenvironment variables changed
+				Curcumin: P53 increase, PTEN increase, c‐Myc decrease, k‐Ras decrease, Bcl‐2 decrease, EGFR decrease DNMT1 decrease, DNMT1, A and B decrease, pan‐HDAC inhibitor Angiogenesis decrease, Cancer‐associated fibroblasts decrease, Cytotoxic effect of NK cells increase, CD8(+) T cells increase, Tregs decrease 
+				Resveratrol: p53 phosphorylation increase, mutant p53 decrease, PTEN increase, c‐Myc decrease, Bcl‐2 decrease, k‐Ras decrease, EGFR phosphorylation decrease DNMT1, DNMT3A, DNMT3B decrease, HDAC1, HDAC2 decrease CD8(+) T cells increase, Angiogenesis decrease, Cancer‐associated fibroblasts decrease
+				Berberine: P53 increase, PTEN increase, c‐Myc decrease, Bcl‐2 decrease, EGFR decrease DNMT1, DNMT3B decrease, CREBBP, EP300, SIRT3, KDM6A, SETD7 increase, HDAC8, H3K4me3, H3K27me3, H3K36me3 decrease, pan‐HDAC inhibitor Angiogenesis decrease, Cancer‐associated fibroblasts decrease 
+				Dioscin: p53 increase, Bcl‐2 decrease, VEGF‐A decrease TET1 decrease, TET2 increase, TET3 increase, DNMT3A increase Macrophage sensitivity increase 
+				Baicalein: Bcl‐2 decrease, p53 increase, VEGF‐A decrease, EGFR decrease, PTEN increase, c‐Myc decrease Tumor‐associated macrophages polarization decrease, Inflammatory microenvironment decrease
+				Wogonin: p53 increase, VEGF‐A decrease, Bcl‐2 decrease, c‐Myc decrease HDAC1, HDAC2 decrease Inflammatory microenvironment decrease
+				Silibinin: p53 acetylation increase, PTEN increase, c‐Myc decrease, Bcl‐2 decrease, VEGF, EGFR decrease DNMT1 decrease, H3K27me3 increase, SIRT1 decrease, acH3, acH4 increase, HDAC1‐3 decrease Cancer‐associated fibroblasts decrease, Tumor‐associated myeloid‐derived suppressor cells decrease 
+				Quercetin: p53, p53 phosphorylation increase, PTEN increase, c‐Myc decrease, k‐Ras decrease, Bcl‐2 decrease,, VEGF, EGFR decrease DNMT1 decrease, DNMT3a decrease, HDAC1 decrease, acH3 increase, acH4 increase, HAT activity increase, HDAC activity decrease Acidity of tumor microenvironment decrease, Cancer‐associated fibroblasts decrease, Inflammatory microenvironment decrease 
+				Tanshinone: IIA p53 increase, PTEN decrease, c‐Myc decrease, Bcl‐2 decrease, VEGF decrease, EGFR decrease Angiogenesis decrease, Inflammatory microenvironment decrease 
+				Celastrol: p53 phosphorylation increase, c‐Myc decrease, Bcl‐2 increase, VEGF increase, VEGF decrease, EGFR decrease Remodeling fibrotic and immunosuppressive tumor microenvironment,139 Inflammatory microenvironment decrease 
+				Pterostilbene: p53 increase, PTEN increase, c‐Myc decrease, VEGF decrease demethylation of MAML2 enhancer, acH3 increase, HDAC1 decrease, HDAC5 phosphorylation increase Tumor‐associated macrophages decrease
 
 			- these substances have been determined to be useful for various mechanisms in specific cancers
 
@@ -323,7 +388,7 @@
 				Cynanchum otophyllum/Paeoniflorin - increase HTRA3, increase Bax
 				Periploca sepium bunge/Baohuoside-I - decrease β-catenin, decrease survivin, decrease cyclin D1
 				Ochrosia elliptica/Ellipticine - increase AIF, increase Cyto-C, increase ROS, increase caspase-3, 7 and 9, increase ERK, increase JNK, G2/M cycle arrest
-				Ilex hainanensis/Ilexgenin A - decrease IL-6, increase TNF-αG0/G1 cycle arrest
+				Ilex hainanensis/Ilexgenin A - decrease IL-6, increase TNF-α G0/G1 cycle arrest
 				Dysoxylum binectariferum/Flavopiridol - increase caspase-3, 8 and 9, decrease Mcl-1 increase cyclin-B1, G2/M cycle arrest
 				Crinum asiaticum/Crinamine - decrease Snail1, decrease vimentin, decrease VEGF-A, decrease CDK4, decrease RHOA, decrease PLK1, decrease BCL2L1, decrease Akt1
 				Alpinia katsumadai/Alpinetin - decrease Bcl-2, decrease Bcl-xL, increase Bax, increase Cyto-C, increase XIAP, increase caspase-3, 8 and 9
@@ -1303,7 +1368,7 @@
     	- WEE1 inhibitors
     		- inhibit WEE1 to synergize with AURKA inhibition and induce cell death
 	    - PD1/PD-L1 inhibitors (immune checkpoint proteins)
-	    	- the interaction of PD-L1 on the tumor cells with PD-1 on a T-cell reduces T-cell function signals to prevent the immune system from attacking the tumor cells.[9] Use of an inhibitor that blocks the interaction of PD-L1 with the PD-1 receptor can prevent the cancer from evading the immune system in this way
+	    	- the interaction of PD-L1 on the tumor cells with PD-1 on a T-cell reduces T-cell function signals to prevent the immune system from attacking the tumor cells. Use of an inhibitor that blocks the interaction of PD-L1 with the PD-1 receptor can prevent the cancer from evading the immune system in this way
 
 
     - inhibit inhibitors of Fas protein (to activate Fas, which destroys cancer cells)
