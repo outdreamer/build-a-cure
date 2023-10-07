@@ -7,12 +7,17 @@
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 
 		- increase parts of the covid immune response, which extremely reduced my brain tumor during the active immune response
+			- iodine
+				- The antimicrobial action of iodine is quick and works at low concentrations, and thus it is used in operating theatres. Its specific mode of action is unknown. It penetrates into microorganisms and attacks particular amino acids (such as cysteine and methionine), nucleotides, and fatty acids, ultimately resulting in cell death
 			- I would try reducing and increasing interferon-gamma and TNF-α bc they can both attack and help cancer (as part of the covid immune reponse, they attacked cancer for me), so its useful to find out which function your cancer responds to, by testing both sets of substances
 				- such as groups like 'astragalus/milk thistle/quercetin' vs. 'turmeric/boswellia/green tea/resveratrol/holy basil/limonene/berberine' and then a known useful mix like 'quercetin/holy basil' as they are both powerful in my experience
+			- increase CD4+ T cells (astragalus, lauric acid/coconut oil) 
+				- Regulatory T helper 17 cells are generated from CD4+ T cells
+				- https://en.wikipedia.org/wiki/CD4%2B_T_cells_and_antitumor_immunity
 		    - increase TNF-α (astragalus)
-		    	- limonene, holy basil, and berberine all decrease TNF-α
+		    	- limonene, holy basil, echinacea, and berberine all decrease TNF-α
 		    	- astragalus increases TNF-α
-			- increase IL-2 (ginseng, reishi, DHA)
+			- increase IL-2 (ginseng, reishi, DHA, echinacea, lauric acid/coconut oil)
 				- IL-2 is one of the factors increased by the covid immune response, which reduced my brain tumor
 			    - ginseng, reishi, DHA increase IL-2, chlorella decreased IL-2
 			- increase IL-7 (Glutathione)
@@ -738,6 +743,50 @@
 - inhibit/avoid/reduce carcinogenic structures
 
 	- use anti-cancer compounds with multiple functions, including induction of apoptosis
+
+		- Fatty acid-Immune Cell Type Effects
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6950146/
+			- epa
+				EPA-Epithelium effects: decrease Membrane permeability, increase TEER and restored TJ distribution in IECs, decrease IL-6 and/or IL-8 production mediated by PPARγ in IECs, increase GPR120-dependent calcium accumulation, increase MAPK-ERK1/2 pathways and decrease IL-1β-induced NF-κB activation in IECs
+				EPA-Macrophages effects: decrease TLR4-dependent and LPS-mediated COX-2 activation and subsequent prostaglandin release
+				EPA-Dendritic cells effects: decrease Activated CD1a+ DC frequency and decrease GPR120 receptor expression, decrease MHC class II (HLA-DR) and decrease costimulatory molecule CD40, CD80, CD83, CD86 expression, decrease Expression of IL-12p40 and TNF-α, decrease T cell activation and decrease IL-2 and IFN-γ production by DC-EPA-stimulated T cells, decrease Responses to LPS, independent from NF-κB and eicosanoid system, decrease Capacity to stimulate T cell proliferation, decrease TNF-α and IL-10 production in DCs, decrease IFN-γ and increase IL-13 secretion in mixed DC-lymphocyte reaction
+				EPA-Neutrophils effects: increase ROS production and TNF-α production, decrease Adhesion due to increase oxidized-EPA-dependent activation of PPARα
+				EPA-T cells effects: decrease IL-2, IL-2R, TNF-α, IL-4, and IL-10 expression, decrease JAK1 and JAK3 phosphorylation with the subsequent inhibition of STAT5 phosphorylation, decrease Akt and ERK1/2 phosphorylation induced by IL-2, increase ROS-dependent cell death
+				EPA-B cells effects: decrease IL-10, TNF-α and INF-γ production
+			- dha
+				DHA-Epithelium effects: decrease Membrane permeability, increase TEER and restored TJ distribution in IECs, increase Barrier functions in the presence of inflammatory conditions (IL-1β, TNF-α, IFN-γ and LPS) in IECs, decrease IL-6 and/or IL-8 production mediated by PPARγ in IECs, increase GPR120-dependent calcium accumulation, increase MAPK-ERK1/2 pathways and decrease IL-1β-induced NF-κB activation in IECs, decrease IL-6 and IP-10 secretion after rhinovirus infection (AECs), increase Permeability and mucus production and decrease TEER in AECs, increase Healing capacity after dust extract stimulation in AECs
+				DHA-Macrophages effects: increase M-2 polarization regulated by p38 MAPK and mediated via PPARγ, increase GPR120-mediated M2-like polarization, increase phagocytic activity and increase IL-10 secretion, increase GRP120-dependent activation of cPLA2, increase release of AA, COX-2 activation and PGE2 release and increase anti-inflammatory PGE2-mediated signaling on EP4, decrease TLR4-dependent and LPS-mediated COX-2 activation and subsequent prostaglandin release
+				DHA-Dendritic cells effects: decrease Activated CD1a+ DC frequency and decrease GPR120 receptor expression, decrease MHC class II (HLA-DR) and decrease costimulatory molecule CD40, CD80, CD83, CD86 expression, decrease Maturation, expression of IL-12p70, IL-6, IL-23 production, TLR2, 3, 4 and 9-dependent decrease of IL-12p70, IL-23 and IL-27 expression mediated by PPARγ activation and decreaseNF-κBp65, increase CD36, HLA-DR, CD83, CD86 and decrease CD1a expression, decrease IL-12p70 and IL-6, decrease IL-10 expression dependent of PPARγ:RXR heterodimer, decreaseTNF-α and IL-10 production in DCs, decrease IFN-γ and increase IL-13 secretion in mixed DC-lymphocyte reaction, decrease Capacity to stimulate proliferation of antigen-specific T cells and their Th1/Th17 differentiation, increase Expression of p27Kip1, and decrease T-bet, GATA3, and RORγT in DC-DHA activated T cells, increase TGF-β and FoxP3 expression in DC-DHA activated T cells
+				DHA-Neutrophils effects: increase ROS production, increase IL-1β, and TNF-α production and increase phagocytosis and antifungal responses
+				DHA-T cells effects: decrease IL-2, IL-2R, TNF-α, IL-4, and IL-10 expression, decrease JAK1 and JAK3 phosphorylation with the subsequent decrease of STAT5 phosphorylation, decrease Akt and ERK1/2 phosphorylation induced by IL-2, decrease T-cell proliferation in DCs and T cell co-culture by increase FoxP3+ T cell population, Modulation of calcium concentration, recruiting calcium from the intracellular pool and opening calcium release-activated calcium channels
+				DHA-B cells effects: decrease TLR4 expression, probably due to altering the membrane FA composition and the formation of the lipid rafts, decrease IL-10, TNF-α, INF-γ and IL-6 expression
+			- α-Linolenic acid
+				α-Linolenic acid-Epithelium effects: decrease IL-6 and/or IL-8 secretion (IECs)
+				α-Linolenic acid-Dendritic cells effects: decrease Activated CD1a+ DC frequency and decrease GPR120 receptor expression
+			- Linoleic acid
+				Linoleic acid-Epithelium effects: increase Permeability and mucus production and decrease TEER in AECs
+				Linoleic acid-Dendritic cells effects: increase IL-10, IL-10R and decrease IL-12 expression, increase activation of ERK and NF-κB
+				Linoleic acid-Neutrophils effects: decrease LPS-induced IL-1β secretion, mediated by decrease TLR2, TLR4, NFKBIA, P2RX7, NLRP3, CASP-1 expression and increase activation of PPAR-γ after A1AT-LA stimulation, increase ROS production dependent from calcium signaling
+				Linoleic acid-T cells effects: increase ROS-induced apoptosis
+			- Other n-6 polyunsaturated fatty acids
+				Other n-6 polyunsaturated fatty acids-Epithelium effects: increase Intestinal barrier integrity after IL-4-induced inflammation (DGLA, AA) in IECs, decrease IL-6 and/or IL-8 production mediated by PPARγ in IECs, increase GPR120-dependent calcium accumulation, increase MAPK-ERK1/2 pathways and decrease IL-1β-induced NF-κB activation (AA) in IECs, increase Permeability and mucus production, decrease TEER (AA, GLA) in AECs, increase Cytotoxicity and increase IL-6 secretion (AA) in AECs, increase IL-6 and IL-8 expression dependent on JNK and p38 MAPK signaling after AA stimulation combined with rhinovirus infection in AECs
+				Other n-6 polyunsaturated fatty acids Dendritic cells effects: decrease Expression of IL-12p40 and TNF-α (AA), decrease T cell activation and decrease IL-2 and IFN-γ production by EPA-DC stimulated T cells (AA), decrease Responses to LPS, independent from NF-κB and eicosanoid system
+				Other n-6 polyunsaturated fatty acids Neutrophils effects: increase TNFR1 and TNFR2 receptor expression mediated via PKC, ERK1/2 and cPLA2 (AA), decrease ATP production and increase LDH release, increase Mitochondria depolarization and lipid accumulation, increase ROS production dependent from calcium signaling (AA)
+				Other n-6 polyunsaturated fatty acids-T cells effects: decrease T-cell proliferation in DCs and T cell co-culture by increase FoxP3+ T cell population (AA)
+			- Oleic Acid
+				Oleic Acid-Neutrophils effects: increase ROS production, phagocytosis and killing capacities, increase VEGF, CXCL3 and IL-1β production, increase NETosis
+				Oleic Acid-T cells effects: increase Apoptosis via caspase-3 pathway (high doses)
+			- Palmitic Acid
+				Palmitic Acid-Macrophages effects: increase Activation of TLR4 and NF-κB pathway, increase IL-18 and TNF-α secretion, increase Activation of TLR2 and NLRP3 inflammasome and increase of IL-1β-secretion
+				Palmitic Acid-Dendritic cells effects: increase TLR4 endocytosis, increase CD86, and CD83 expression and increase TLR4-dependent secretion of IL-1β via NF-κB canonical pathway
+				Palmitic Acid-Dendritic cells effects: increase ROS production, increase Maturation and increase activation
+				Palmitic Acid-Neutrophils effects: increase NETosis
+				Palmitic Acid-T cells effects: increase Activation of PI3K/Akt signaling, increase SLAM3 expression dependent from JAK/STAT5, increase of TNF-α, IL-1β, IL-6, IFN-γ, IL17A and IL-2 expression, increase CD69 and decrease CCR7 and L-selectin expression
+				Palmitic Acid-B cells effects: decrease B-cell activation (through lipoapoptosis)
+			- Lauric acid
+				Lauric acid-Dendritic cells	effects: increase CD40, CD80, CD86 and MHC class II expression, increase IL-12p70 and IL-6 secretion, increase TLR4 activity and T cell activation capacity
+				Lauric acid-T cells	effects: increase IL-2, IL-17 and GM-CS production, increase Th17 differentiation, decrease Th2 differentiation
+				Lauric acid-B cells effects: increase TLR4 dimerization and increase recruitment to lipid rafts on the plasma membrane
 		- garlic
 			- garlic might lower cholesterol levels by acting as an HMG-CoA reductase inhibitor 
 			- it also reduces oxidative stress and LDL oxidation, has antithrombotic effects, and reduces blood pressure by causing smooth muscle relaxation and vasodilation
