@@ -123,6 +123,7 @@
 			- inhibit glutamate processing (using GLUD-inhibitor EGCG) to reduce D-2-HG production, but also decrease NAD(P)H and α-KG synthesis, and decrease proliferation rates of IDH1
 		- substances that suppress STAT3 (turmeric, resveratrol)
 		- avoid methionine/glutamine
+			- avoid foods that are naturally high in glutamine like gluten, dairy products and soy
 			- As the precursor of other non-essential amino acids such as cysteine and taurine, versatile compounds such as SAM-e, and the important antioxidant glutathione, methionine plays a critical role in metabolism
 			- Methionine is also involved in angiogenesis and various processes related to DNA transcription, epigenetic expression, and gene regulation
 			- inhibit oncogenes like c-myc, H-ras (S-Adenosylmethionine (SAM))
