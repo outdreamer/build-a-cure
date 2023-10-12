@@ -5,7 +5,35 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha)
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
-
+		- energy metabolism in cancer 
+			- Adenosine Triphosphate (ATP), methionine (MET), Methylthioadenosine (MTA), and S-adenosylmethionine (SAMe), methylthioadenosine phosphorylase (MTAP)
+				- these have a complex relationship in cancer, where these substances can help or inhibit cancer in various states
+				- many cancers only can occur bc of lost MTAP (resulting from 9p21 gene loss/deactivation), where increasing MTAP reduces cancer
+				- cancer feeds off of methionine
+				- SAMe can either help or inhibit cancer growth, depending on the cancer type/state
+				- MTA can also either help or inhibit cancer growth
+					- In healthy cells, the molecule MTA is believed to have tumor suppressing properties and regulate cell proliferation
+					- However, when MTA levels were recorded above optimal working conditions, these MTA molecules appeared to have an inverse relation, promoting tumor growth and significantly increasing the proliferation of tumor cells
+		- increase MTAP by activating 9p21-related genes (p14ARF, p15INK4b and CDKN2A)
+			- interactive substances
+				- tumor suppressor gene CDKN2A (downregulated by resveratrol)
+				- curcumin inhibits MTAP, so avoid curcumin (depending on the cancer type/state, curcumin may be helpful for some cancers and harmful for others)
+				    - p14ARF is downregulated by p53, so substances that decrease p53 like curcumin may be useful, for increasing p14ARF
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7705812/
+			- these genes interact with p53 (by inhibiting mdm2 which promotes p53)
+				- Dysregulation of p53 pathway in GBM is mostly due to TP53 mutation, amplification of MDM2, or loss of expression of CDKN2A-p14ARF
+				- Both p16INK4a and p14ARF are involved in cell cycle regulation. p14ARF inhibits mdm2, thus promoting p53, which promotes p21 activation, which then binds and inactivates certain cyclin-CDK complexes, which would otherwise promote transcription of genes that would carry the cell through the G1/S checkpoint of the cell cycle
+				- Loss of p14ARF by a homozygous mutation in the CDKN2A (INK4A) gene will lead to elevated levels in mdm2 and, therefore, loss of p53 function and cell cycle control
+		    - Situated at 9p21 gene cluster region, p14ARF and p15INK4b anti-oncogenes have essential actions in controlling cell growth
+			- MTAP loss increases MTA levels and immune checkpoint inhibitor failure in melanoma and urothelial tumors
+			- Excess MTA in the TME impairs CD4+ and CD8+ T cells via ADO agonism and PRMT5 inhibition
+			- PEG-MTAP delivery to MTAP−/− tumors controls tumor growth dependent of CD8+ T cells
+			- MTAP and IO combination therapy is proposed for the treatment of MTAP-deficient cancers
+			- Chromosomal region 9p21 containing tumor suppressors CDKN2A/B and methylthioadenosine phosphorylase (MTAP) is one of the most frequent genetic deletions in cancer
+				- 9p21 loss is correlated with reduced tumor-infiltrating lymphocytes (TILs) and resistance to immune checkpoint inhibitor (ICI) therapy
+				- it is loss of MTAP that leads to reduced TIL density
+				- MTAP loss causes accumulation of methylthioadenosine (MTA) both intracellularly and extracellularly and profoundly impairs T cell function via the inhibition of protein arginine methyltransferase 5 (PRMT5) and by adenosine receptor agonism
+				- Administration of MTA-depleting enzymes reverses this immunosuppressive effect, increasing TILs and drastically impairing tumor growth
 		- increase parts of the covid immune response, which extremely reduced my brain tumor during the active immune response
 			- iodine
 				- The antimicrobial action of iodine is quick and works at low concentrations, and thus it is used in operating theatres. Its specific mode of action is unknown. It penetrates into microorganisms and attacks particular amino acids (such as cysteine and methionine), nucleotides, and fatty acids, ultimately resulting in cell death
