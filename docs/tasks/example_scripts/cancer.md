@@ -5,6 +5,9 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha)
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+	    - vitamin d 
+	    	- taking this throughout the day is useful for preventing some cancer activity, which needs continuous suppression to be fully treated, otherwise it'll keep coming back when your morning vitamin d supplement wears off
+	    	- eating mushrooms will help with multiple other intents (see below with shiitake/maitake/other medicinal mushrooms), but also will help bc they have vitamin d
 		- energy metabolism in cancer 
 			- Adenosine Triphosphate (ATP), methionine (MET), Methylthioadenosine (MTA), and S-adenosylmethionine (SAMe), methylthioadenosine phosphorylase (MTAP)
 				- these have a complex relationship in cancer, where these substances can help or inhibit cancer in various states
@@ -2928,7 +2931,7 @@
 			- https://en.wikipedia.org/wiki/Radiosurgery#Gamma_Knife
 			- proton beam radiation
 			- carbon ion therapy
-			- ultrasound oncotripsy
+			- ultrasound oncotripsy/histotripsy/lithotripsy
 				- ultrasound applied at a frequency of 0.5–0.67 MHz and a pulse duration of >20 ms causes selective disruption of a panel of breast, colon, and leukemia cancer cell models in suspension without significantly damaging healthy immune or red blood cells - https://authors.library.caltech.edu/99007/
 				
 		- other experimental treatments (some of which are known to be less useful or useless)
