@@ -8,6 +8,11 @@
 	    - vitamin d 
 	    	- taking this throughout the day is useful for preventing some cancer activity, which needs continuous suppression to be fully treated, otherwise it'll keep coming back when your morning vitamin d supplement wears off
 	    	- eating mushrooms will help with multiple other intents (see below with shiitake/maitake/other medicinal mushrooms), but also will help bc they have vitamin d
+	    	- vitamin d is also one of the few anticancer substances that doesnt inhibit EGFR which is an advantage for preventing hair loss, which might occur with many powerful anticancer substances
+	    	- supplements containing resveratrol, saw palmetto, maca, curcumin, tocotrienols, ashwagandha, horsetail, astaxanthin, kelp, capsicum, Annurca apple fruits, safflower and ginseng can have beneficial effects on hair growth, without adverse effects on breast cancer patients
+	    	    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698784/
+	    	- more than 4000 IU of vitamin D can kill you, so use a low-dose supplement if youre going to try taking it continuously all day and stay well below that limit
+	    	- Atorvastatin is contraindicated with vitamin D, which changes absorption of Atorvastatin
 		- energy metabolism in cancer 
 			- Adenosine Triphosphate (ATP), methionine (MET), Methylthioadenosine (MTA), and S-adenosylmethionine (SAMe), methylthioadenosine phosphorylase (MTAP)
 				- these have a complex relationship in cancer, where these substances can help or inhibit cancer in various states
