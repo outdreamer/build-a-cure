@@ -11,7 +11,7 @@
 	    	- vitamin d is also one of the few anticancer substances that doesnt inhibit EGFR which is an advantage for preventing hair loss, which might occur with many powerful anticancer substances
 	    	- supplements containing resveratrol, saw palmetto, maca, curcumin, tocotrienols, ashwagandha, horsetail, astaxanthin, kelp, capsicum, Annurca apple fruits, safflower and ginseng can have beneficial effects on hair growth, without adverse effects on breast cancer patients
 	    	    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698784/
-	    	- more than 4000 IU of vitamin D can kill you, so use a low-dose supplement if youre going to try taking it continuously all day and stay well below that limit
+	    	- more than 4000 IU of vitamin D daily can kill you, so use a low-dose supplement if youre going to try taking it continuously all day and stay well below that limit
 	    	- Atorvastatin is contraindicated with vitamin D, which changes absorption of Atorvastatin
 		- energy metabolism in cancer 
 			- Adenosine Triphosphate (ATP), methionine (MET), Methylthioadenosine (MTA), and S-adenosylmethionine (SAMe), methylthioadenosine phosphorylase (MTAP)
