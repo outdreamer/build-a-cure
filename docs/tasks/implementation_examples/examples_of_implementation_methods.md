@@ -3,6 +3,15 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identifying useful structures like intents such as 'new structures to apply new variation between (to resolve their connections)' as specific variants of generally useful intents like 'find new variables' is useful to identify other useful implementation structures like 'different uncertainty spaces' (where new variation is likely to occur)
+        - for example, 'identifying new structures to apply new variation between' is a useful problem-solving intent, like identifying how similarities/differences have 'areas of uncertainty' like neutral areas where a structure could be either a similarity or a difference (so its a neutral structure rather than a similarity/difference), which is a source of 'ambiguities'
+            - this space between 'extreme similarities/differences' is an alternative uncertainty space than a standard uncertainty space like in the 'regression (polynomials)' problem space
+            - identifying all the uncertainty spaces is a way to identify overlaps of these spaces, mappings between them, and each individual space is likely to make some connection more clear than other spaces like layered spaces as occur in the regression problem space, which doesnt isolate different variables of uncertainty but rather includes them all
+            - applying variation in these spaces is useful to 'identify new variables', a generally useful problem-solving intent
+            - identifying structures like 'opposing limits' is a simpler example of finding 'structures to apply variation between' and relatedly, identifying structures like 'directions where a limit hasnt been identified yet' are useful as 'directions to apply variation in'
+        - relatedly, identifying symmetries as 'dependence' structures (and as 'having reversible changes') is useful to identify, which adjacently identifies 'causing independence' as a way to 'break symmetries' and similarly identifying other structures that fulfill interface structures of symmetries are useful to identify
+        - relatedly, identifying 'equivalences that create maximal differences (that dont violate the equivalences used to create them)' (like the Banach-Tarski paradox) is useful to identify as adjacent structures to 'symmetry-breaking' structures, as identifying the positions of these structures also identifies possible variation in between them, just like its useful to identify 'randomness' as adjacent to 'independence' and 'irreversibility'
+
     - identifying useful structures by applying interface structures to identified useful structures to generate new problem-solving intents to filter for useful uncertainty
         - for example, identifying the following questions is useful to direct variation applications:
             - what 'info can a similarity identify', if applied as a standard/base (what variation is supported, and what variation is obvious, once standardized using that similarity)
