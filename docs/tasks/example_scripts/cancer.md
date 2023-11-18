@@ -5,9 +5,11 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info')
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- inhibit oxidative DNA damage with chlorophyll (wheat grass)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5534514/
 		- cell division (CDK4/6) inhibitors (ginseng, astragalus, linalool, honokiol, Indole-3-Carbinol, Fascaplysinopsis Bergquist, Sinomenium acutum, Crinum asiaticum) and cell growth (mTOR) inhibitors (EGCG, caffeine, curcumin, berberine, quercetin, resveratrol and pterostilbene) to induce cancer cell senescence, then also take a senolytic like fisetin to clear senescent cells
 			- https://phys.org/news/2023-11-growth-weakness-cancer-cells.html
-		- prevent fatty acid oxidation as a way of reducing CD47 activation with polyphenols (catechin, chlorogenic acid, coumaric acid, gallic acid, quercetin, resveratrol, rutin)
+		- prevent fatty acid oxidation as a way of reducing CD47 activation with antioxidants/polyphenols (vitamin C, vitamin E, catechin, chlorogenic acid, coumaric acid, gallic acid, quercetin, resveratrol, rutin)
 			- fatty acid oxidation-derived acetyl-CoA upregulates CD47 transcription via NF-κB/RelA acetylation
 			- Blocking fatty acid oxidation impairs tumor growth and reduces CD47 anti-phagocytosis
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8938495/
