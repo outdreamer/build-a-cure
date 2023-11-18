@@ -5,6 +5,8 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info')
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- cell division (CDK4/6) inhibitors (ginseng, astragalus, linalool, honokiol, Indole-3-Carbinol, Fascaplysinopsis Bergquist, Sinomenium acutum, Crinum asiaticum) and cell growth (mTOR) inhibitors (EGCG, caffeine, curcumin, berberine, quercetin, resveratrol and pterostilbene) to induce cancer cell senescence
+			- https://phys.org/news/2023-11-growth-weakness-cancer-cells.html
 	    - vitamin d 
 	    	- taking this throughout the day is useful for preventing some cancer activity, which needs continuous suppression to be fully treated, otherwise it'll keep coming back when your morning vitamin d supplement wears off
 	    	- eating mushrooms will help with multiple other intents (see below with shiitake/maitake/other medicinal mushrooms), but also will help bc they have vitamin d
