@@ -354,7 +354,7 @@
 				Thuja occidentalis/α-/β-Thujone - decrease VEGF, decrease Ang-4, decrease CD31
 				Rubia cordifolia L./Mollugin - decrease Akt, decrease P70S6K, decrease mTOR, decrease ERK ½, increase JNK, increase p38
 				Garcinia brasiliensis/7-epiclusianone - decrease cyclin A, increase caspase-3, S and G2/M phase arrest
-				Escherichia coli/Selenocysteine - increase ROS, increase p21waf1/cip1, increase p53, decrease Akt, increase p38MAPK, increase JNK, increase ERK, S phase cycle arrest
+				Escherichia coli/Selenocysteine - increase ROS, increase p21waf1/cip1, increase p53, decrease Akt, increase p38/MAPK, increase JNK, increase ERK, S phase cycle arrest
 				Anula helenium/Alantolactone - increase ROS, decrease GSH, decrease Bcl-2, increase Bax, increase p53, increase Cyto-C, increase caspase-3/-9, decrease Δ Ψm, decrease Nf-kβ
 				Carpesium nepalense/Nepalolide A - decrease IkB-α, decrease IkB-β, decrease iNOS, decrease NF-kβ
 				Buxus microphylla/Cyclovirobuxine D - increase Bax, decrease Bcl-2, increase caspase-3, S and G0/G1 phase arrest
