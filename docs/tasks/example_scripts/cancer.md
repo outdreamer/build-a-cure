@@ -5,6 +5,14 @@
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info')
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- activate T2R (lidocaine)
+		- increase cortisol at night using caffeine (or glucocorticoids if youre otherwise healthy and can tolerate them), bc night is when these hormones naturally decrease and stop suppressing cancer cell growth (lower cortisol at night is why cancer grows more at night)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5546099/#:~:text=Table%201.1%20%20%20%20Tumor%20type%20,%5B%2069%2C%2070%5D%20%202%20more%20rows%20
+			- glucocorticoids are contraindicated for some cancers and in some doses/usages
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3109638/
+			- fasting increases ghrelin which increases cortisol so that could be an alternative strategy if done right
+			- avoid taking cortisol-lowering substances at night and only use them in the morning if possible (turmeric, chocolate, olive oil, bananas/tryptophan, mushrooms/oats/barley/beta-glucans, garlic, flaxseed/alpha-linolenic acid, ginger, onions/quercetin, asparagus/rutin/glutathione, cannabis/cbd, citrus, ginseng, ashwagandha, rhodiola, lemon balm, chamomile, GABA, melatonin, vitamin D, theanine, magnolia/honokiol, phosphatidylserine, schisandra, omega-3s, green tea/EGCG, vitamin C, magnesium)
+		- improves the ability of CD8+ T cells to infiltrate tumors and kill cancer cells (Trans-vaccenic acid, a long-chain fatty acid found in cow meat/dairy)
 		- inhibit oxidative DNA damage with chlorophyll (wheat grass)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5534514/
 		- cell division (CDK4/6) inhibitors (ginseng, astragalus, linalool, honokiol, Indole-3-Carbinol, Fascaplysinopsis Bergquist, Sinomenium acutum, Crinum asiaticum) and cell growth (mTOR) inhibitors (EGCG, caffeine, curcumin, berberine, quercetin, resveratrol and pterostilbene) to induce cancer cell senescence, then also take a senolytic like fisetin to clear senescent cells
