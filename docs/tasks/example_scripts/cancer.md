@@ -6,6 +6,90 @@
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info')
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- activate T2R (lidocaine)
+		- inhibit cancer stem cells (chloroquine, apigenin, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, astaxanthin, icariin, tricin)
+			- inhibit glioblastoma cancer stem cell markers: 
+				- CD133, CD44 and ABC transporters
+				- KLRC3 gene coding for NKG2E, a protein expressed in natural killer cells
+				- Transcription factors such as sox2, oct4, Bmi1, and nanog are also known to contribute to the stemness properties of CSCs
+				- a hypoxic microenvironment could induce cell death in normal conditions, it is also well known to help CSCs
+				- inhibit autophagy 
+					- inhibit autophagy to reduce the CSCs that can survive with autophagy (chloroquine or its analog hydroxychloroquine, apigenin, berberine, calestrol, emodin)
+				- inhibit genes like EZH2/Bmi1 that cause histone modification
+					- EZH2 silencing of the BMP pathway in CSCs inhibits their ability to differentiate. Moreover, inhibition of EZH2 or forced expression of methylated-promoter-repressed BMP pathway restores normal differentiation capacity of CSCs. This reduces proliferation and induces terminal differentiation of CSCs, causing loss of self-renewal and a decrease in tumorigenicity of CSCs
+					- Bmi1, a key component of the polycomb repressive complex 1 (PRC1), is upregulated in GBM and significantly enriched in the CSC population, but it is not expressed in normal astrocytes. Moreover, its suppression in human CSCs inhibits their growth
+						- inhibit BMI1 by inhibiting c-MYC (celastrol, berberine, moringa, emodin)
+						- inhibit BMI1 side effects
+							- inhibit NF-κB (celastrol, moringa, fisetin, limonene, withaferin)
+							- Bmi-1 promoted the self-renewal of NSCs by inhibiting INK4a/ARF1
+								- increase INK4a/ARF1
+						- decrease PROS1 to inhibit BMI-1
+							- Protein S (PROS1) can affect the self-renewal of adult hippocampal NSPC by down-regulating Bmi-1
+						- inhibit Hedgehog signaling pathway 
+							- Hedgehog signaling pathway promotes self-renewal in mammary stem cells and BCSCs by up-regulating Bmi-1
+				- inhibit Emt (withaferin, rosmarinic acid)
+				- inhibit BMI-1 by increasing microRNAs that inhibit BMI-1 for various cancers
+					- decrease microRNAs that enhance glioblastoma or other cancer oncogenes
+						- miR-26 
+							- miR-26 enhances glioblastoma cancer development in vitro and in vivo by attempting to target numerous tumor suppressor genes, including RB Transcriptional Co-repressor 1 (RB1) and Phosphatase and tensin homolog (PTEN)
+						- miR-21	6	Breast, colon, lung, pancreas, prostate, stomach, glioblastoma (astaxanthin, Epimedium brevicornum/Icariin, Allium atroviolaceum/Tricin)
+						- miR-17-5p	5	Breast, colon, lung, pancreas, prostate
+						- miR-191	5	Colon, lung, pancreas, prostate, stomach
+						- miR-29b-2	4	Breast, colon, pancreas, prostate
+						- miR-223	4	Colon, pancreas, prostate, stomach
+						- miR-128b	3	Colon, lung, pancreas
+						- miR-199a-1	3	Lung, pancreas, prostate
+						- miR-24-1	3	Colon, pancreas, stomach
+						- miR-24-2	3	Colon, pancreas, stomach
+						- miR-146	3	Breast, pancreas, prostate
+						- miR-155	3	Breast, colon, lung
+						- miR-181b-1	3	Breast, pancreas, prostate
+						- miR-20a	3	Colon, pancreas, prostate
+						- miR-107	3	Colon, pancreas, stomach
+						- miR-32	3	Colon, pancreas, prostate
+						- miR-92-2	3	Pancreas, prostate, stomach
+						- miR-214	3	Pancreas, prostate, stomach
+						- miR-30c	3	Colon, pancreas, prostate
+						- miR-25	3	Pancreas, prostate, stomach
+						- miR-221	3	Colon, pancreas, stomach
+						- miR-106a	3	Colon, pancreas, prostate
+						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1413718/
+					- microRNAs that inhibit BMI-1
+						- MicroRNAs that inhibit Bmi-1 in tumors
+							- miRNAs	Efficacy for Cancer	Cancer Type	References
+							- miR-34a, miR-15a, miR-218, miR-183, miR-498, miR-128	Inhibits proliferation; inhibits metastasis; decreases chemoresistance	Gastric cancer	
+							- miR-218, miR-200c, miR-485-5p	Inhibits proliferation; inhibits migration; increases apoptosis	Colorectal cancer	
+							- miR-15a, miR-183	Inhibits proliferation and EMT	Pancreatic ductal adenocarcinoma	
+							- miR-203	Inhibits self-renewal	Esophageal cancer	
+							- miR-203	Promotes apoptosis	Oral cancer	
+							- miR-218, miR-203	Inhibits proliferation and invasion; introduces apoptosis; decreases radiosensitivity and chemosensitivity	Hepatocellular carcinoma	
+							- miR-218	Increases chemosensitivity	Liver cancer	
+							- miR-320a	Inhibits proliferation and migration	Nosopharyngeal carcinoma	
+							- miR-132, miR-498	Increases radiosensitivity; inhibits proliferation and invasion	Cervical cancer	
+							- miR-128, miR-200b, miR-221, miR-30d, miR-15a, miR-330-3p, miR-212	Inhibits proliferation and migration; increases chemosensitivity	Prostate cancer	
+							- miR-200c, miR-194	Inhibits proliferation; inhibits EMT	Endometrial carcinoma	
+							- miR-128, miR-495	Inhibits proliferation; introduces apoptosis; increases chemosensitivity and DNA damage	Breast cancer	
+							- miR-132, miR-15a, miR-16, miR-128	Inhibits metastasis; increases chemosensitivity	Ovarian cancer	
+							- miR-361-5p, miR-218, miR-128	Inhibits proliferation; inhibits EMT	Glioma	
+							- miR-128, miR-16, miR-128a	Inhibits proliferation and angiogenesis; introduces radiosensitivity	Glioblastoma	
+							- miR-128a	Inhibits ROS	Medulloblastoma	
+							- miR-218	Inhibits proliferation, inhibits migration, inhibits apoptosis	Osteosarcoma	
+							- miR-200c, miR-139-5p, miR-218, miR-15	Inhibits proliferation; inhibits metastasis; inhibits apoptosis; inhibits autophagy	Bladder cancer	
+							- miR-218	Inhibits proliferation	Acute Promyelocytic Leukemia	
+							- miR-218	Inhibits proliferation and metastasis	Lung adenocarcinoma	
+							- miR-203	Inhibits proliferation	Myeloma	
+							- miR-200C	Inhibits proliferation and metastasis	Renal cancer	
+							- miR-154	Inhibits proliferation and migration	Non-small cell lung cancer	
+							- miR-200c	Inhibits proliferation and migration; increases chemosensitivity	Melanoma	
+						- brain cancer-specific microRNAs that inhibit BMI-1
+							- miR-218
+							- miR-128/miR-128a 
+								- Upregulation of miR-128 reduces cell proliferation by targeting the transcription factor E2F 3a (E2F3a) and Bmi-1 while blocking the Reel and Doublecortin (DCX) promoters reduce neuroblastoma cell migration and metastatic spread
+								- Therapeutic approaches include miR-128 enhancers (miR-128 overexpression) or anti-miRNA oligonucleotides (AMOs) to reduce LNAs (locked nucleic acids)
+							- miR-16
+							- miR-361-5p directly targets SND1 to degradation and then reduces MMP-2 gene transcription, thus inhibiting glioma migration and invasion, making miR-361-5p an important tumor suppressor
+								- inhibit SND1 (Thymidine 3',5'-disphosphate, Deoxythymidine 3′,5′-diphosphate, pdTp)
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9367737/
+
 		- if youre used to using a nightlight and/or your cancer grows more at night, try increasing your cortisol at night using high intensity exercise/stressful noises like alarms/blue light from devices/other artificial light, or substances that increase cortisol like grapefruit/citrus/caffeine/resveratrol/licorice (or steroid hormones like pregnenolone/hydrocortisone/other glucocorticoids/corticosteroids if youre otherwise healthy and can tolerate them)
 			- night is when these hormones naturally decrease and when they decrease, they stop suppressing cancer cell growth (lower cortisol at night is why cancer grows more at night)
 			- it should be fine to lower your cortisol in the morning with supplements/food, since your cortisol will likely increase then anyway, regardless of what else you do in the morning
@@ -24,7 +108,7 @@
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5534514/
 		- cell division (CDK4/6) inhibitors (ginseng, astragalus, linalool, honokiol, Indole-3-Carbinol, Fascaplysinopsis Bergquist, Sinomenium acutum, Crinum asiaticum) and cell growth (mTOR) inhibitors (EGCG, caffeine, curcumin, berberine, quercetin, resveratrol and pterostilbene) to induce cancer cell senescence, then also take a senolytic like fisetin to clear senescent cells
 			- https://phys.org/news/2023-11-growth-weakness-cancer-cells.html
-		- prevent fatty acid oxidation as a way of reducing CD47 activation with antioxidants/polyphenols (vitamin C, vitamin E, catechin, chlorogenic acid, coumaric acid, gallic acid, quercetin, resveratrol, rutin)
+		- prevent fatty acid oxidation as a way of reducing CD47 activation with antioxidants/polyphenols (astaxanthin, vitamin C, vitamin E, catechin, chlorogenic acid, coumaric acid, gallic acid, quercetin, resveratrol, rutin)
 			- fatty acid oxidation-derived acetyl-CoA upregulates CD47 transcription via NF-κB/RelA acetylation
 			- Blocking fatty acid oxidation impairs tumor growth and reduces CD47 anti-phagocytosis
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8938495/
@@ -420,7 +504,7 @@
 				Tabernaemontana catharinensis/Coronaridine - increase apoptosis, increase cytotoxicity
 				Chelidonium majus/Ukrain - decrease EGFR, decrease AKT2, decrease STAT3, JAK1, decrease β-catenin, increase CYP1A1, increase CYP1B1
 				Cruciferae/Indole-3-carbinol - decrease CDK6, increase Bax, decrease Bcl-2, increase p21, increase p27, G1 phase arrest
-				Genista tinctoria/Genistein - decrease HOTAIR, miR-34adecrease NFκβ, decrease Akt
+				Genista tinctoria/Genistein - decrease HOTAIR, miR-34a, decrease NFκβ, decrease Akt
 				Punica granatum/Ellagic acid - increase IL-6, decrease STAT3, decrease Akt, decrease ERK
 				Stephania tetrandra/Fangchinoline - decrease NR4A1, decrease survivin, increase ROS, increase caspase 3 and 8
 				Melodinus khasianus/Khasuanine A - increase Caspase-3, increase p53, decrease Bcl-2
@@ -2188,7 +2272,7 @@
 					- Withaferin A can alter cytoskeleton architecture by covalently binding to multifunctional adaptor protein annexin II and by stimulating the basal F-actin cross linking activity
 				- downregulates vimentin expression
 					- Withaferin A downregulates vimentin expression, leading to structural perturbation of intermediary filaments
-					- Cancer cells express enhanced vimentin expression and correlates with the induction of epithelial to mesenchymal transition (EMT), metastasis, poor prognosis and decreased survival rate
+					- Cancer cells with enhanced vimentin expression correlate with the induction of epithelial to mesenchymal transition (EMT), metastasis, poor prognosis and decreased survival rate
 				- degrades vimentin
 					- caspase-dependent degradation of vimentin by withaferin A was observed
 		- inhibit CCND1 (a proliferation associated gene)
@@ -2736,7 +2820,7 @@
 			- GSK343 directly inhibits EZH2 enzyme activity through an S-adenosyl-l-methionine-competitive pathway
 			- GSK343 induced autophagic cell death of cancer cells
 			- GSK343 enhanced the anticancer activity of a multikinase inhibitor, sorafenib
-			- GSK343 acts as an autophagy induce
+			- GSK343 acts as an autophagy inducer
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4276571/
 		- decrease AP-2α to deactivate EZH2
 			- AP-2α facilitates melanoma metastasis through transcriptional activation of genes within the E2F pathway including EZH2
