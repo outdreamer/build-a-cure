@@ -6,11 +6,18 @@
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info')
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- activate T2R (lidocaine)
-		- inhibit cancer stem cells (chloroquine, apigenin, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, astaxanthin, icariin, tricin)
-			- inhibit glioblastoma cancer stem cell markers: 
-				- CD133, CD44 and ABC transporters
+		- avoid lysine
+			- https://www.nature.com/articles/s41392-023-01616-z?utm_campaign=sig-trans-individual-campaign
+		- glioblastoma drug types and targets
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546059/figure/GAD324301GIMF5/
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495393/
+		- inhibit cancer stem cells (chloroquine, apigenin, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+			- inhibit glioblastoma cancer stem cell markers (including CD133, CD44 and ABC transporters): 
+				- block interaction between β-catenin and the transcription factor TCF4 required for signal transduction (quercetin)
+					- https://pubmed.ncbi.nlm.nih.gov/26645562/
+				- common pathways activated in CSCs include Notch, BMP, NF-κB, and Wnt signaling 
 				- KLRC3 gene coding for NKG2E, a protein expressed in natural killer cells
-				- Transcription factors such as sox2, oct4, Bmi1, and nanog are also known to contribute to the stemness properties of CSCs
+				- transcription factors such as sox2, oct4, Bmi1, and nanog are also known to contribute to the stemness properties of CSCs
 				- a hypoxic microenvironment could induce cell death in normal conditions, it is also well known to help CSCs
 				- inhibit autophagy 
 					- inhibit autophagy to reduce the CSCs that can survive with autophagy (chloroquine or its analog hydroxychloroquine, apigenin, berberine, calestrol, emodin)
@@ -79,7 +86,9 @@
 							- miR-203	Inhibits proliferation	Myeloma	
 							- miR-200C	Inhibits proliferation and metastasis	Renal cancer	
 							- miR-154	Inhibits proliferation and migration	Non-small cell lung cancer	
-							- miR-200c	Inhibits proliferation and migration; increases chemosensitivity	Melanoma	
+							- miR-200c	Inhibits proliferation and migration; increases chemosensitivity	Melanoma
+							- miR-449b-5p inhibits human glioblastoma cell proliferation by inactivating WNT2B/Wnt/β-catenin signaling pathway	
+								- https://www.europeanreview.org/article/13142
 						- brain cancer-specific microRNAs that inhibit BMI-1
 							- miR-218
 							- miR-128/miR-128a 
