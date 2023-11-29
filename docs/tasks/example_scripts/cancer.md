@@ -11,7 +11,19 @@
 		- glioblastoma drug types and targets
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546059/figure/GAD324301GIMF5/
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495393/
-		- inhibit cancer stem cells (chloroquine, apigenin, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+		- inhibit cancer stem cells (doxycycline, vitamin C, milk thistle, chloroquine, apigenin, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+			- Ajoene/garlic was shown to restrain the growth of some cancer stem cells and cancer cells
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102457/
+			- inhibit CDK5
+				- bis-indole indirubin is an active ingredient of indigo naturalis used in Danggui Longhui Wan
+				- https://www.medicalnewstoday.com/articles/321809#CDK5-inhibitor-stops-tumor-growth
+			- inhibition of matrix-metalloproteinases/MMPs (doxycycline)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4467100/
+				- the antibiotic induces “metabolic flexibility” by inhibiting the cells’ ability to switch fuel sources as a means of survival, leaving the cells are with just glucose as a source of energy, which when paired with an inhibitor of glycolysis like vitamin C, removes glucose from CSCs – starving the cells to death
+			- substances that increase the effectiveness of doxycycline at inhibiting CSCs include:
+				- (stiripentol), natural products (caffeic acid phenyl ester (CAPE) derived from honey-bee propolis, ascorbic acid, silibinin) and experimental pharmaceuticals (actinonin, FK866, 2-DG)
+				- Vitamin C was ∼10 times more potent than 2-DG for the targeting of CSCs and stiripentol was between 50 to 100 times more potent than 2-DG
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400535/
 			- inhibit glioblastoma cancer stem cell markers (including CD133, CD44 and ABC transporters): 
 				- block interaction between β-catenin and the transcription factor TCF4 required for signal transduction (quercetin)
 					- https://pubmed.ncbi.nlm.nih.gov/26645562/
@@ -536,7 +548,7 @@
 				Cananga odorata/Sampangine - increase ROS, decrease Δ Ψm, increase Caspase-3, G1 phase arrest
 				Ambrosia maritoma/Damsin - decrease c-Src, decrease AKT, STAT5, decrease NFkβ
 				Forsythia suspensa/Pinoresinol - increase p21 WAF1/Cip1, G0/G1 phase arrest
-				Danggui longhui wan/Indirubins - decrease c-Src, decrease Abl kinase, decrease Gsk3β
+				Danggui longhui wan/Indirubins - decrease c-Src, decrease Abl kinase, decrease Gsk3β, decrease CDK5
 				Arnica chamissonis/Helenalin - decrease NFkβ, increase ROS
 				Cinnamosma fragrans/Capsicodendrin - DNA damage and proapoptotic
 				Cephalotaxus fortunei/Homoharringtonine - decrease SP1/TET1/5hmC/FLT3/MYC
