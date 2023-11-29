@@ -3,7 +3,9 @@
 
 - useful sub-intents with associated substances
 
-	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info')
+	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info') although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
+		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth
+		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- activate T2R (lidocaine)
 		- avoid lysine
