@@ -4,7 +4,7 @@
 - useful sub-intents with associated substances
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info') although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
-		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth
+		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- activate T2R (lidocaine)
@@ -19,7 +19,30 @@
 			- Perillyl Alcohol (metabolite of limonene)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321279/
 		- inhibit cancer stem cells (doxycycline, vitamin C, milk thistle, chloroquine, apigenin, turmeric, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+			- change chromatin packing density to reduce CSCs (Celecoxib and Digoxin)
+				- https://www.medicalnewstoday.com/articles/320003#Targeting-chromatin-to-kill-cancer
 			- berberine needs to be taken in larger doses (1-2g/day) to trigger anti-cancer effects
+			- curcumin targets some cancer stem cells
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7255361/
+			- sulforaphane was shown to suppress tumor angiogenesis by reducing cell viability, migration and tube formation in HUVEC-epithelial cell lines possibly through inhibition of signalling between STAT3/HIF-1α/VEGF 118 and reduce YAP1 signaling leading to a reduction in cancer stem cell survival and tumor formation
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7255361/
+			- curcumin and epigallocatechin gallate inhibit the cancer stem cell phenotype via down-regulation of STAT3-NFκB signaling
+				- https://pubmed.ncbi.nlm.nih.gov/25550533
+			- ellagic acid
+				- https://pubmed.ncbi.nlm.nih.gov/30103002/
+			- herbal compounds to inhibit CSCs
+				- mangosteen, tetrandrine/Stephania tetrandra, camptothecin/Camptotheca acuminata, piperlongumine/long pepper, wedelolactone/Eclipta alba/false daisy, ginsenoside, anthothecol/Khaya anthotheca
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9482958/
+				- curcumin, resveratrol, EGCG (epigallocatechin-3-gallate), crocetinic acid, sulforaphane, genistein, indole-3-carbinol, vitamin E δ-tocotrienol, plumbagin, quercetin, triptolide/thunder god vine, licofelene and quinomycin
+					- https://pubmed.ncbi.nlm.nih.gov/28137215/
+				- lycopene
+					- https://pubmed.ncbi.nlm.nih.gov/26853447/
+				- piperine/pepper and vitamin D(3)
+					- https://pubmed.ncbi.nlm.nih.gov/21295962/
+				- 3, 3'-di-indolylmethane (DIM), retinoic acid, parthenolide/feverfew, 6-shogaol/ginger, pterostilbene, isoliquiritigenin/licorice, celastrol/thunder god vine, and koenimbin/Murraya koenigii
+					- https://pubmed.ncbi.nlm.nih.gov/27609747/
+				- β-carotene
+					- https://pubmed.ncbi.nlm.nih.gov/26184171/
 			- Ardisia pusilla
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300708/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664208/
@@ -70,7 +93,7 @@
 					- decrease microRNAs that enhance glioblastoma or other cancer oncogenes
 						- miR-26 
 							- miR-26 enhances glioblastoma cancer development in vitro and in vivo by attempting to target numerous tumor suppressor genes, including RB Transcriptional Co-repressor 1 (RB1) and Phosphatase and tensin homolog (PTEN)
-						- miR-21	6	Breast, colon, lung, pancreas, prostate, stomach, glioblastoma (astaxanthin, Epimedium brevicornum/Icariin, Allium atroviolaceum/Tricin)
+						- miR-21	6	Breast, colon, lung, pancreas, prostate, stomach, glioblastoma (Pterostilbene–isothiocyanate, astaxanthin, Epimedium brevicornum/Icariin, Allium atroviolaceum/Tricin)
 						- miR-17-5p	5	Breast, colon, lung, pancreas, prostate
 						- miR-191	5	Colon, lung, pancreas, prostate, stomach
 						- miR-29b-2	4	Breast, colon, pancreas, prostate
