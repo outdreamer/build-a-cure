@@ -13,7 +13,24 @@
 		- glioblastoma drug types and targets
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546059/figure/GAD324301GIMF5/
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495393/
-		- inhibit cancer stem cells (doxycycline, vitamin C, milk thistle, chloroquine, apigenin, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664208/
+			- inositol hexaphosphate
+				- https://pubmed.ncbi.nlm.nih.gov/17616815/
+			- Perillyl Alcohol (metabolite of limonene)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321279/
+		- inhibit cancer stem cells (doxycycline, vitamin C, milk thistle, chloroquine, apigenin, turmeric, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+			- berberine needs to be taken in larger doses (1-2g/day) to trigger anti-cancer effects
+			- Ardisia pusilla
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300708/
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664208/
+			- induce autophagy with herbs
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5535904/
+			- Zeng Sheng Ping
+				- Sophora tonkinensis, Polygonum bistorta, Prunella vulgaris, Sonchus brachyotus, Dictamnus dasycarpus, and Dioscorea bulbifera
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5757296/
+				- https://pubmed.ncbi.nlm.nih.gov/22753727/
+			- Antrodia camphorate, berberine, resveratrol, and curcumin have been shown to regress CSCs, in terms of reversing drug resistance, inducing cell death and inhibiting cell proliferation as well as metastasis. Furthermore, one of the active compounds in coptis, berberine may inhibit tumor progression by modulating microRNAs to regulate CSCs
+				- https://pubmed.ncbi.nlm.nih.gov/27338343/
 			- Ajoene/garlic was shown to restrain the growth of some cancer stem cells and cancer cells
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102457/
 			- inhibit CDK5
@@ -26,7 +43,8 @@
 				- (stiripentol), natural products (caffeic acid phenyl ester (CAPE) derived from honey-bee propolis, ascorbic acid, silibinin) and experimental pharmaceuticals (actinonin, FK866, 2-DG)
 				- Vitamin C was ∼10 times more potent than 2-DG for the targeting of CSCs and stiripentol was between 50 to 100 times more potent than 2-DG
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5400535/
-			- inhibit glioblastoma cancer stem cell markers (including CD133, CD44 and ABC transporters): 
+			- inhibit glioblastoma cancer stem cell markers (including CD133, CD44, SOX2, OCT4, NANOG, and ABCG2 transporters):
+				- intents related to suppressing CSCs: https://www.ncbi.nlm.nih.gov/books/NBK469997/
 				- block interaction between β-catenin and the transcription factor TCF4 required for signal transduction (quercetin)
 					- https://pubmed.ncbi.nlm.nih.gov/26645562/
 				- common pathways activated in CSCs include Notch, BMP, NF-κB, and Wnt signaling 
@@ -75,6 +93,8 @@
 						- miR-106a	3	Colon, pancreas, prostate
 						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1413718/
 					- microRNAs that inhibit BMI-1
+						- olive oil increases miR-153, miR-145, and miR-137
+							- https://pubmed.ncbi.nlm.nih.gov/25232498/
 						- MicroRNAs that inhibit Bmi-1 in tumors
 							- miRNAs	Efficacy for Cancer	Cancer Type	References
 							- miR-34a, miR-15a, miR-218, miR-183, miR-498, miR-128	Inhibits proliferation; inhibits metastasis; decreases chemoresistance	Gastric cancer	
@@ -228,7 +248,7 @@
 		- increase Reactive Oxygen Species (neem)
 			- https://www.sciencedirect.com/science/article/pii/S2405844023008915
 		- inhibit brain-derived neurotrophic factor by increasing microRNA-210
-			- curcumin downregulates mir-210, so avoid turmeric
+			- curcumin downregulates mir-210, so avoid turmeric unless it helps decrease cancer stem cells, which is possible in some cancers
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9319031/
 		- glutamine antagonist (6-diazo-5-oxo-L-norleucine)
 			- https://www.nature.com/articles/s42003-019-0455-x
@@ -1158,7 +1178,8 @@
 			- reduced the expression of the proliferating cell nuclear antigen (PCNA) protein and cyclin D1
 			- reduced cell migration ability, provoked inhibition of phosphorylation, decreased overexpression of the tumor necrosis factor α (TNF-α) and Interleukin 6 (IL-6), and induced suppression of the nuclear factor kappa light chain enhancer of activated β cells (NF-Κβ)
 			- blocked the accumulation of the LC3II protein, which is associated with autophagy, leading to accumulation of the signaling adaptor p62 protein, decreasing cell proliferation
-			- inhibits autophagy by modulating the PTEN/Akt/mTOR signaling pathway. It also regulates the mitogen-activated protein kinase and the Wingless/Integrated (Wnt)/β-catenin signaling pathways
+			- inhibits autophagy by modulating the PTEN/Akt/mTOR signaling pathway
+			- it also regulates the mitogen-activated protein kinase and the Wingless/Integrated (Wnt)/β-catenin signaling pathways
 			- reduces cell viability, inhibits colony formation, cell migration, and decreases the secretion of proinflammatory cytokines (IL-1α, IL-6, TNF-α, IL-1β)
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8658774/
 			- Induction of autophagy, apoptosis
@@ -1170,7 +1191,9 @@
 			- Inhibition of colony formation, cell migration, and decrease of the secretion of the proinflammatory cytokines (IL-1α, IL-6, TNF-α, IL-1β)	
 			- Upregulation of LncRNA CASC2 and RARβ and RARγ expressions
 			- Downregulation of the expression of Bcl-xL and cyclin-D1 proteins
-			- Inhibition of Bcl-2 gene, MMP-1/2/9/13, uPA, Ras, PARP, Rad51, survivin, STAT3, VEGF and HIF-1α expression, Attenuation of tumor invasion via the down-regulation of C-myc, cyclin-D1, and MMP-3 expressions, Inhibition of PI3K/AKT/mTOR signaling through down-regulation of p-PI3K, p-AKT expressions
+			- Inhibition of Bcl-2 gene, MMP-1/2/9/13, uPA, Ras, PARP, Rad51, survivin, STAT3, VEGF and HIF-1α expression
+			- Attenuation of tumor invasion via the down-regulation of C-myc, cyclin-D1, and MMP-3 expressions
+			- Inhibition of PI3K/AKT/mTOR signaling through down-regulation of p-PI3K, p-AKT expressions
 			- Downregulation of NANOG, POU5F1, and SOX2	
 			- Modulation of MAPK-signaling pathways
 			- Inhibition of SLC1A5
@@ -2329,7 +2352,8 @@
 			- SCFAs downregulate PCNA, cyclin D3, CDK1 and CDK2, and stimulate p21 expression via GPR43-dependent mechanisms
 				- Short-chain fatty acids (SCFAs) are fermented from dietary fibres by the gut microbiota
 				- The three most common SCFAs are acetate (C2), propionate (C3), and butyrate (C4)
-				- SCFA function epigenetically by inhibiting selected histone acetyltransferases that alter the expression of multiple genes and the activity of many signaling pathways (e.g., Wnt, Hedgehog, Hippo, and Notch) that contribute to the pathogenesis of cancer. SCFAs block cancer stem cell proliferation, thereby potentially delaying or inhibiting cancer development or relapse by targeting genes and pathways that are mutated in tumors (e.g., epidermal growth factor receptor, hepatocyte growth factor, and MET) and by promoting the expression of tumor suppressors (e.g., by up-regulating PTEN and p53)
+				- SCFA function epigenetically by inhibiting selected histone acetyltransferases that alter the expression of multiple genes and the activity of many signaling pathways (e.g., Wnt, Hedgehog, Hippo, and Notch) that contribute to the pathogenesis of cancer
+				- SCFAs block cancer stem cell proliferation, thereby potentially delaying or inhibiting cancer development or relapse by targeting genes and pathways that are mutated in tumors (e.g., epidermal growth factor receptor, hepatocyte growth factor, and MET) and by promoting the expression of tumor suppressors (e.g., by up-regulating PTEN and p53)
 				- https://www.nature.com/articles/s41416-022-01980-7
 				- https://link.springer.com/article/10.1007/s10555-023-10117-y
 			- Ginsenoside Rg3 Combined with Oxaliplatin Inhibits the Proliferation and Promotes Apoptosis of Hepatocellular Carcinoma Cells via Downregulating PCNA and Cyclin D1
