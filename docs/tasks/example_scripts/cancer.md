@@ -10,7 +10,7 @@
 		- activate T2R (lidocaine)
 		- avoid lysine
 			- https://www.nature.com/articles/s41392-023-01616-z?utm_campaign=sig-trans-individual-campaign
-		- glioblastoma drug types and targets
+		- mix glioblastoma drug types and targets
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546059/figure/GAD324301GIMF5/
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495393/
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664208/
@@ -18,9 +18,24 @@
 				- https://pubmed.ncbi.nlm.nih.gov/17616815/
 			- Perillyl Alcohol (metabolite of limonene)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321279/
+			- antibiotics with anti-cancer effects (Salinomycin kills CSCs)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7378927/
+			- herbs that induce useful epigenetic changes (HDAC, HAT and DNMT changes)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3092901/
 		- inhibit cancer stem cells (doxycycline, vitamin C, milk thistle, chloroquine, apigenin, turmeric, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+			- histone deacetylase inhibitory activity (valproic acid) and lowering cholesterol (simvastatin) target CSCs by inhibiting YAP (similar to sulforaphane)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7545949/
 			- change chromatin packing density to reduce CSCs (Celecoxib and Digoxin)
 				- https://www.medicalnewstoday.com/articles/320003#Targeting-chromatin-to-kill-cancer
+				- inhibit lipid exposure (including linoleic acid and octanoic acid) that changes chromatin packing density in ways that cause cancer
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9068822/
+					- linoleic acid increases the expression of Notch pathway genes and specific genes involved in fatty acid oxidation in vitro
+				- salt concentrations correlating to different packing densities
+					- https://pubmed.ncbi.nlm.nih.gov/21792745/
+				- sodium butyrate changed packing density of chromatin
+					- https://pubmed.ncbi.nlm.nih.gov/2922469/
+				- curcumin, epigallocatechin gallate (EGCG), resveratrol, and butyrate have been shown to alter epigenetic mechanisms, which may lead to increased sensitivity of cancer cells to conventional agents and thus inhibition of tumor growth, through their effects on histone acetylation/deacetylation, which impacts chromatin
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3092901/
 			- berberine needs to be taken in larger doses (1-2g/day) to trigger anti-cancer effects
 			- curcumin targets some cancer stem cells
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7255361/
