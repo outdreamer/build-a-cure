@@ -9,6 +9,8 @@
             - relatedly, identifying the functions that optimize (by 'maximizing') the 'equivalent/similar function area' are functions that can be changed and still be similarly accurate
             - relatedly, identifying the differences that connect 'approximations/completions' are likely to be useful as 'identifiers/filters of approximations'
             - relatedly, filtering interface queries can be applied by applying filters like high cost queries which are unlikely to be useful and identifying different query costs is useful for filtering these queries based on cost
+        - identifying usefulness of concept sets like 'abstract/specific' (abstract concepts like 'power' having potentially more variability than required in the uncertainty space in linear regression) to identify where those concepts will help explain the most variation
+        - identifying what is balanced (independent variables and opposing variables and other differences where one is not optimal absolutely)
 
     - identifying useful structures like solution structures such as 'starting solution formats' (like a line/subset for the regression problem) that are useful for various intents like 'combinations that adjacently create new structures that havent been used to solve a problem which are likely to be useful through similarity to other useful structures)
         - relatedly, identifying useful structures like the overlap between 'info and intent' is useful (when info constitutes intent and when function is structure and when structure is potential)
