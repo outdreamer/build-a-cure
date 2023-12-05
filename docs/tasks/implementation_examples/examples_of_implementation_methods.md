@@ -3,6 +3,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identify useful structures like alignments in validity that fulfill problem-solving intents like 'filter interface queries'
+        - for example, high variation connections exist within the 'interface' definition (which has alternates like formats/filters/standards/perspectives) which are connected by these definitions and also contain high variation so theyre automatically useful connections, which are a default set of connections to apply in order to fulfill validity requirements in other positions, like in sequential interface queries (connecting filters/standards is likely to be useful to solve a problem bc its an existing valid connection)
+
     - identifying unconnected structures like 'similarity to relevant functions like maximally different functions' and 'concepts like sensitivity' in useful positions like 'uncertainty spaces'
         - identifying conceptual validity structures, like 'conceptual errors that make some function difference acceptable within some solution metric' such as how a 'sensitivity error' can be irrelevant in determining the correctness of a generally accurate function
             - similarly, identifying the 'networks that can connect these alternate error ranges' is useful, such as the network of 'functions with a high error ratio if wrong (as in extreme functions near limits of ranges)' and 'functions with a low error rate and high adjacency area (like averages)', and identifying the costs of these functions and a network to optimize navigation between these costs/functions
