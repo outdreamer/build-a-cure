@@ -2329,7 +2329,11 @@
 				- NAC/glutathione - Thiol antioxidants inhibit the formation of the interleukin-12
 				- aluminium hydroxide, aluminium phosphate, and calcium phosphate adjuvants inhibit the secretion of the Th1 polarizing cytokine, IL-12
 				- vitamin d decreases IL-12
-
+				- curcumin decreases IL-12 
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5349589/
+				- vitamin e decreases IL-12
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8942682/
+					
 
 	- increase TH1
 		- berberine, broccoli, ginger, chinese skullcap
