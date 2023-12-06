@@ -3,7 +3,10 @@
 
 - useful sub-intents with associated substances
 
-	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions (some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info') although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
+	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
+		- some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info', although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
+		- similarly, 'identifying which substances in which structures like 'combination/sequence' that inhibit/activate the structures that would reduce all relevant cancerous processes in specific cancer states/types/co-occurrence with other conditions' is an intent that, if fulfilled, would likely constitute a cancer-curing script, since the problem of cancer is largely a problem of 'not yet knowing all the impacts of each substance and the net impact of that substance when applied with other substances and in specific states of health and for specific cancer types', so identifying the 'net impact of a diet and set of supplements on these anti-cancer intents' is likely sufficient to cure cancer in many cases, except where the impact is not fully known
+			- for example, for a 'brain cancer patient, with kidney failure', this might be a protocol such as 'avoid outdoor air to avoid pollution, avoid chemicals like cleaners, exercise indoors, eat coconut oil and some anti-cancer herbs like shiitake mushrooms as well as baking soda, low doses of vitamin d or cortisol at night, modified citrus pectin, and inositol, for a period such as several weeks, in order to avoid cancerous inputs', but there is no tool to identify implementations of intents or the intents themselves for specific patients, and if there was, that might constitute a cancer cure
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
@@ -2321,19 +2324,22 @@
 				- ahcc
 					- AHCC is thought to modulate tumor immune surveillance by regulating innate and adaptive immune system responses. The compound may act as a biological response modifier by enhancing natural killer cell activity, interleukin 12 (IL-12) and tumor immunity production, and spleen cell proliferation and cytokine production
 					- release of small bioactive molecules that act as nontoxic agonists for toll-like receptors (TLRs), specifically TLR-4, initiating a systemic anti-inflammatory response. AHCC is believed to bind to TLR-2 and TLR-4, and act as an immune modulator. as Immune cells such as CD4+ and CD8+ T cells and natural killer (NK) cells will produce cytokines by either cytokine stimulation by dendritic cells or ligand binding to TLRs.	
+				- beta glucans increase IL-12
+					- https://pubmed.ncbi.nlm.nih.gov/25081694/
 				- Lactobacillus casei strain Shirota
 					- https://pubmed.ncbi.nlm.nih.gov/29397183/
 				- Lactobacillus casei group (L. casei, Lactobacillus rhamnosus, and Lactobacillus zeae) or to Lactobacillus fermentum
 					- https://www.sciencedirect.com/science/article/pii/S0022030206723670
 			- avoid IL-12 inhibitors
 				- NAC/glutathione - Thiol antioxidants inhibit the formation of the interleukin-12
+				- corticosteroids inhibit IL-12
+					- https://pubmed.ncbi.nlm.nih.gov/11080718/
 				- aluminium hydroxide, aluminium phosphate, and calcium phosphate adjuvants inhibit the secretion of the Th1 polarizing cytokine, IL-12
 				- vitamin d decreases IL-12
 				- curcumin decreases IL-12 
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5349589/
 				- vitamin e decreases IL-12
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8942682/
-					
 
 	- increase TH1
 		- berberine, broccoli, ginger, chinese skullcap
