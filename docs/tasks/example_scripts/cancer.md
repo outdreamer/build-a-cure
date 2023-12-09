@@ -10,6 +10,26 @@
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- inhibit REST, by inhibiting TRF binding to REST, to inhibit Cancer Stem Cell proliferation
+			- https://pubmed.ncbi.nlm.nih.gov/19748686/
+		- inhibit TERF2
+			- TERF2 phosphorylation by extracellular signal-regulated kinase (ERK1/2) is a controlling factor in the major pro-oncogenic signaling pathways (RAS/RAF/MEK/ERK) that affect telomeric stability.[23] Additionally, when TERF2 was non-phosphorylated in melanoma cells, there was a cell induced DNA damage response, arresting growth and causing tumor reversion
+			- https://en.wikipedia.org/wiki/Telomeric_repeat-binding_factor_2
+			- https://www.cell.com/cell-chemical-biology/fulltext/S2451-9456(23)00423-3
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6559326/
+			- in ALT cells, Withaferin caused severe damage to telomere by downregulation of shelterin proteins (TRF2 and POT1)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7762146/
+			- Gemcitabine
+				- https://pubmed.ncbi.nlm.nih.gov/22704123/
+			- porphyrins
+				- Cationic porphyrins
+					- https://pubmed.ncbi.nlm.nih.gov/10625928/
+				- oxo-vanadium (IV) tetra (4-methoxy-phenyl) porphyrin salicylates
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6661832/
+			- change other telomere regulators (EGCG, quercetin, carvedilol)
+				- https://pubmed.ncbi.nlm.nih.gov/22000973/
+			- Curcusone C (Jatropha curcas)
+				- https://www.sciencedirect.com/science/article/abs/pii/S157096391730208X?via%3Dihub
 		- activate T2R (lidocaine)
 		- avoid lysine
 			- https://www.nature.com/articles/s41392-023-01616-z?utm_campaign=sig-trans-individual-campaign
