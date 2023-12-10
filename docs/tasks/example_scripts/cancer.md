@@ -9,8 +9,11 @@
 			- for example, for a 'brain cancer patient, with kidney failure', this might be a protocol such as 'avoid outdoor air to avoid pollution, avoid chemicals like cleaners, exercise indoors, eat coconut oil and some anti-cancer herbs like shiitake mushrooms as well as baking soda, low doses of vitamin d or cortisol at night, modified citrus pectin, and inositol, for a period such as several weeks, in order to avoid cancerous inputs', but there is no tool to identify implementations of intents or the intents themselves for specific patients, and if there was, that might constitute a cancer cure
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
+		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
-		- inhibit REST, by inhibiting TRF binding to REST, to inhibit Cancer Stem Cell proliferation
+		- cancer stem cell targets for glioblastoma
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8000844/
+		- inhibit RE-1 silencing transcription factor (REST), by inhibiting TRF binding to REST, or overexpressing SCFβ-TrCP, to inhibit Cancer Stem Cell proliferation
 			- https://pubmed.ncbi.nlm.nih.gov/19748686/
 		- inhibit TERF2
 			- TERF2 phosphorylation by extracellular signal-regulated kinase (ERK1/2) is a controlling factor in the major pro-oncogenic signaling pathways (RAS/RAF/MEK/ERK) that affect telomeric stability.[23] Additionally, when TERF2 was non-phosphorylated in melanoma cells, there was a cell induced DNA damage response, arresting growth and causing tumor reversion
@@ -26,8 +29,13 @@
 					- https://pubmed.ncbi.nlm.nih.gov/10625928/
 				- oxo-vanadium (IV) tetra (4-methoxy-phenyl) porphyrin salicylates
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6661832/
-			- change other telomere regulators (EGCG, quercetin, carvedilol)
+			- change other telomere regulators (EGCG, quercetin, carvedilol, vitamins/minerals, curcumin, omega-3s)
 				- https://pubmed.ncbi.nlm.nih.gov/22000973/
+				- micronutrients like vitamin A, D, C, E, B12, folate, and nicotinamide are positively associated with telomere length
+					- Minerals like magnesium, zinc, and iron, and other dietary components, such as omega-3 fatty acid, polyphenols, and curcumin, are additional modulators of telomere length
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8533433/
+				- curcumin shortens telomeres
+					- https://pubmed.ncbi.nlm.nih.gov/23192708/
 			- Curcusone C (Jatropha curcas)
 				- https://www.sciencedirect.com/science/article/abs/pii/S157096391730208X?via%3Dihub
 		- activate T2R (lidocaine)
