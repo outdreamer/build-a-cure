@@ -10,6 +10,8 @@
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
+	- avoid the following for patients with organ failure:
+		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- cancer stem cell targets for glioblastoma
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8000844/
