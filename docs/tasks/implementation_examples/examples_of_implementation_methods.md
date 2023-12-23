@@ -8,6 +8,7 @@
             - similarly, some abstractions cant connect more specific differences bc the abstraction covers too much variation than the specific differences have
         - relatedly, 'infinity' is an interface that emerges on the 'math' interface bc its so 'extreme' that it 'covers reality' (although it differs from other interfaces in that its not exactly an abstract info structure except when its definition component of 'immeasurability' is considered)
             - identifying other 'immeasurable/irreducible/unconnectible' structures is likely to contain new interfaces
+        - relatedly, identifying 'similarity indexes of interfaces' and 'iterations of interface structures like similarity indexes that create errors' are similarly useful structures
 
     - identify useful structures like 'variants of a definition' that allow new variation such as 'similarity to a rule set' as being similar to 'similar to a similarity index' but different in the 'interface structure combination' equated
         - for example, 'valid' structures (sufficiently similar to a rule set so as to be definitely within the variation allowed by that rule set's definition) and 'equivalent alternate' structures ('similar alternatives' as in 'similar differences') are also 'similarities/symmetries', like many other interface structures, which are useful to identify variants of to identify every type of similarity and its variables to generate all the similarities required to connect differences
