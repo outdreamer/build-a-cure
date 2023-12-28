@@ -13,6 +13,12 @@
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- increasing klotho with senolytics/exercise/Caloric Restriction/supplements (arginine + glutamine + lysine + glycine, sulforaphane, chokeberries, cordyceps, green tea, omega 3s, activated charcoal, dong quai and chuan xiong (ligustilide), gentian root, holy basil, resveratrol, rhubarb, solomon's seal, vitamin D, vitamin E, zinc)
+			- Klotho is an antagonist of the Wnt signaling pathway, and chronic Wnt stimulation can lead to stem cell depletion and aging
+			- Klotho inhibition of Wnt signaling can inhibit cancer
+			- The anti-aging effects of klotho are also a consequence of increased resistance to inflammation and oxidative stress
+			- The presence of senescent cells decreases α-klotho levels. Senolytic drugs reduce the level of these cells, allowing α-klotho levels to increase
+			- https://mybiohack.com/blog/longevity-intelligence-klotho-genetics-fat-vitamin
 		- cancer stem cell targets for glioblastoma
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8000844/
 		- inhibit RE-1 silencing transcription factor (REST), by inhibiting TRF binding to REST, or overexpressing SCFβ-TrCP, to inhibit Cancer Stem Cell proliferation
