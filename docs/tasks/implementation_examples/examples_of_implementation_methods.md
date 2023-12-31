@@ -3,6 +3,10 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'similarly valid graphs of the same variables that differ in some meaning metric like position' and 'standards that can vary on some subset while still reflecting relevant differences' which are useful for general problem-solving intents
+        - identifying 'graphs built with valid connections that position volatility/complexity/related variables differently in each graph are useful to identify to enable resolving their actual connections more efficiently
+        - relatedly, 'standards that can vary on some metric like starting position but still reflect relevant differences' are useful to identify since they require fewer constants (like the 'meaning of absolute position or starting position') to be held constant (only requiring that 'change direction/degree' have the same meaning rather than also requiring 'absolute/starting position' retain its meaning)
+
     - identify useful structures like "connections that are 'at least partially computible or computible for a relevant subset' and 'useful to connect to describe high variation interactions' and otherwise useful to compute" is a general problem-solving intent
         - identifying interface structures (memory, reduction/compression, failing, simulating, etc) that fulfill 'change (as in improve/learn/optimize)' functions is useful to apply as 'variants of error functions' such as 'ways memory structures like indexes can fail and what error functions will look like with this error'
         - relatedly, identifying 'iterated interface contradictions' like 'indirect obvious connections' and 'direct non-obvious connections' (rather than 'expected similarities/differences') is useful to describe the uncertainty space between definitely true/false or simple/random functions and identify other iterated descriptions that cross the space
