@@ -13,7 +13,7 @@
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
-		- avoiding air pollution by wearing a mask that filters benzene/other air pollution as often as you can
+		- avoiding air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask)
 			- https://www.amazon.com/dp/B0BQ2XV5W1?psc=1&ref=ppx_yo2ov_dt_b_product_details
 		- increasing klotho with senolytics/exercise/Caloric Restriction/supplements (arginine + glutamine + lysine + glycine, sulforaphane, chokeberries, cordyceps, green tea, omega 3s, activated charcoal, dong quai and chuan xiong (ligustilide), gentian root, holy basil, resveratrol, rhubarb, solomon's seal, vitamin D, vitamin E, zinc)
 			- Klotho is an antagonist of the Wnt signaling pathway, and chronic Wnt stimulation can lead to stem cell depletion and aging
