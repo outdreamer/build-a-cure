@@ -13,8 +13,19 @@
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
-		- avoiding air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask)
+		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask)
 			- https://www.amazon.com/dp/B0BQ2XV5W1?psc=1&ref=ppx_yo2ov_dt_b_product_details
+		- make sure your cortisol is not too low (if your cancer grows at night, it could be bc vitamin D or cortisol is lower at night)
+            - causes of low cortisol:
+            	- adrenal insufficiency, excess coffee/tea/caffeine, excess vitamin D, low cholesterol, adrenal/pituitary/hypothalamus tumor, estrogen replacement therapy/estrogen dominance, fish oil/omega 3s, ashwagandha, green tea/theanine, holy basil, low corticotropin-releasing hormone, HPA axis suppression, betaine, L-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (Malaysian ginseng), choline, b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol
+	            - estrogen dominance can also be the trigger of adrenal fatigue because hormone imbalance can be a huge stressor on the body
+	            - adrenal fatigue side effects: fatigue, chemical sensitivities
+	        - treatment of low cortisol:
+            	- hydrocortisone, DHEA, keto diet, caloric restriction, resveratrol
+            		- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen
+                	- first dose of hydrocortisone should be taken in the morning at awakening and the last dose 4 to 6 hours before going to sleep
+                - treat estrogen dominance:
+                	- magnesium, b6, avoiding coffee/gluten/sugar, antioxidants such as vitamins A/C/E, fish oil, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, silymarin, taurine, methionine, pregnenolone/DHEA supplements (precursors of progesterone and cortisol)
 		- increasing klotho with senolytics/exercise/Caloric Restriction/supplements (arginine + glutamine + lysine + glycine, sulforaphane, chokeberries, cordyceps, green tea, omega 3s, activated charcoal, dong quai and chuan xiong (ligustilide), gentian root, holy basil, resveratrol, rhubarb, solomon's seal, vitamin D, vitamin E, zinc)
 			- Klotho is an antagonist of the Wnt signaling pathway, and chronic Wnt stimulation can lead to stem cell depletion and aging
 			- Klotho inhibition of Wnt signaling can inhibit cancer
