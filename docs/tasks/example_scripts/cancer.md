@@ -17,7 +17,7 @@
 		- fungal infections: holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut
 		- viral infections: ashwagandha, green tea, medicinal mushrooms
 		- bacterial infections: avoiding carbs, probiotic kefir/kombucha, antimicrobials like holy basil
-		- acidosis: 1g vitamin C powder/day, avoid high acid foods like coffee/kombucha or foods that require high acid to digest
+		- acidosis: 1g vitamin C powder/day at meals, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage
 		- kidney damage: fasting, b vitamins in smaller doses, activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood, digestive enzymes, amino acids instead of protein intake
 			- use glutamine, tyrosine, GABA, arginine, lysine to increase the amount of human growth hormone to recover
 			- avoid high oxalate foods without calcium, avoid protein/refined carbs and high acid foods like coffee, avoid caffeine which can make kidney/heart/adrenal damage worse
@@ -25,7 +25,7 @@
 		    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
 		    - increase klotho: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, astaxanthin, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise can increase klotho to help recover from kidney damage
 		- estrogen toxicity: progesterone, cortisol, indole-3-carbinol
-		- heart failure: coq10, omega 3s, arginine, beets for nitric oxide, avoid caffeine
+		- heart failure: coq10, omega 3s, arginine, beets for nitric oxide, nattokinase, avoid caffeine
 		- liver damage: fasting, artichoke, milk thistle, digestive enzymes
 		- vitamin deficiency: avoid diuretics, coffee, phytic acid, and other substances that deplete vitamins
 		- high cortisol: ashwagandha, holy basil, schisandra, b vitamins
