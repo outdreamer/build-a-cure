@@ -17,17 +17,18 @@
 		- fungal infections: holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut
 		- viral infections: ashwagandha, green tea, medicinal mushrooms
 		- bacterial infections: avoiding carbs, probiotic kefir/kombucha, antimicrobials like holy basil
-		- acidosis: 1g vitamin C powder/day at meals, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage
+		- acidosis: 1g vitamin C powder/day at meals, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage or vitamin deficiencies
 		- kidney damage: fasting, b vitamins in smaller doses, activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood, digestive enzymes, amino acids instead of protein intake
 			- use glutamine, tyrosine, GABA, arginine, lysine to increase the amount of human growth hormone to recover
 			- avoid high oxalate foods without calcium, avoid protein/refined carbs and high acid foods like coffee, avoid caffeine which can make kidney/heart/adrenal damage worse
 			- avoid supplements that can make kidney damage worse in normal doses (inositol, vitamin d, quercetin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 		    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
 		    - increase klotho: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, astaxanthin, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise can increase klotho to help recover from kidney damage
+		    - avoid bpc-157 which can cause cancer
 		- estrogen toxicity: progesterone, cortisol, indole-3-carbinol
+		- vitamin deficiency: treat causes of vitamin deficiency like anti-vitamins, medications, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency
 		- heart failure: coq10, omega 3s, arginine, beets for nitric oxide, nattokinase, avoid caffeine
-		- liver damage: fasting, artichoke, milk thistle, digestive enzymes
-		- vitamin deficiency: avoid diuretics, coffee, phytic acid, and other substances that deplete vitamins
+		- liver damage: fasting, artichoke, milk thistle, digestive enzymes, treat hormone imbalances like estrogen toxicity
 		- high cortisol: ashwagandha, holy basil, schisandra, b vitamins
 		- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet
 			- avoid causes of low cortisol (low cholesterol, excess coffee/caffeine, vitamin d, estrogen replacement therapy, fish oil, ashwagandha, green tea/theanine, holy basil, betaine, l-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (malaysian ginseng), choline, vitamin b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol)
@@ -36,7 +37,8 @@
 		- chemical sensitivities: treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
 		- inflammation: bromelain/pineapple, omega 3, vitamin c
 		- autoimmune conditions: immune suppressors like cortisol, cbd, avoid immune stimulants (like excess zinc, medicinal mushrooms such as cordyceps) and avoid other unnatural immune modulators like sucralose/aspartame, balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity), treat other conditions, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution until you know what triggers it
-		- hair loss: treat adrenal/thyroid/kidney/liver problems first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, pumpkin seed oil
+		- hair loss: treat adrenal/thyroid/kidney/liver problems, hormone imbalances and fungal infections first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
+		- multiple sclerosis: avoid silica (found in supplements and products like paint)
         - colitis: wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum
         - gallstones: milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
         - pancreatitis: fasting, avoid high acid foods like lemon juice, avoid high fat intake
