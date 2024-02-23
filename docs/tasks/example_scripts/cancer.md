@@ -18,13 +18,13 @@
 		- viral infections: ashwagandha, green tea, medicinal mushrooms
 		- bacterial infections: avoiding carbs, probiotic kefir/kombucha, antimicrobials like holy basil
 		- acidosis: 1g vitamin C powder/day at meals, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage or vitamin deficiencies
-		- kidney damage: fasting, b vitamins in smaller doses, activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood, digestive enzymes, amino acids instead of protein intake
+		- kidney damage: fasting, b vitamins in smaller doses, activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood, corn silk, digestive enzymes, amino acids instead of protein intake
 			- use glutamine, tyrosine, GABA, arginine, lysine to increase the amount of human growth hormone to recover
 			- avoid high oxalate foods without calcium, avoid protein/refined carbs and high acid foods like coffee, avoid caffeine which can make kidney/heart/adrenal damage worse
 			- avoid supplements that can make kidney damage worse in normal doses (inositol, vitamin d, quercetin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 		    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
 		    - increase klotho: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, astaxanthin, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise can increase klotho to help recover from kidney damage
-		    - avoid bpc-157 which can cause cancer
+		    - avoid bpc-157 which can cause cancer 
 		- estrogen toxicity: progesterone, cortisol, indole-3-carbinol
 		- vitamin deficiency: treat causes of vitamin deficiency like anti-vitamins, medications, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency
 		- heart failure: coq10, omega 3s, arginine, beets for nitric oxide, nattokinase, avoid caffeine
