@@ -15,7 +15,7 @@
 
 	- fix your other medical problems so you can fight cancer better
 		- fungal infections: holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut
-		- viral infections: ashwagandha, green tea, medicinal mushrooms
+		- viral infections: ashwagandha, green tea, medicinal mushrooms including cordyceps, aloe vera
 		- bacterial infections: avoiding carbs, probiotic kefir/kombucha, antimicrobials like holy basil
 		- acidosis: 1g vitamin C powder/day at meals, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage or vitamin deficiencies
 		- kidney damage: fasting, b vitamins in smaller doses, activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood, corn silk, digestive enzymes, amino acids instead of protein intake
@@ -37,7 +37,7 @@
 		- chemical sensitivities: treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
 		- inflammation: bromelain/pineapple, omega 3, vitamin c
 		- autoimmune conditions: immune suppressors like cortisol, cbd, avoid immune stimulants (like excess zinc, medicinal mushrooms such as cordyceps) and avoid other unnatural immune modulators like sucralose/aspartame, balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity), treat other conditions, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution until you know what triggers it
-		- hair loss: treat adrenal/thyroid/kidney/liver problems, hormone imbalances and fungal infections first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
+		- hair loss: treat adrenal/thyroid/kidney/liver problems, hormone imbalances and fungal/bacterial infections first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
 		- multiple sclerosis: avoid silica (found in supplements and products like paint)
         - colitis: wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum
         - gallstones: milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
