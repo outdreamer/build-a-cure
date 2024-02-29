@@ -25,12 +25,13 @@
 		    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
 		    - increase klotho: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, astaxanthin, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise can increase klotho to help recover from kidney damage
 		    - avoid bpc-157 which can cause cancer 
+		- hormonal imbalances: correct hormonal imbalances, which can cause many health problems including cancer, such as how low dhea levels can cause cancer
 		- estrogen toxicity: progesterone, cortisol, indole-3-carbinol
 		- vitamin deficiency: treat causes of vitamin deficiency like anti-vitamins, medications, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency
 		- heart failure: coq10, omega 3s, arginine, beets for nitric oxide, nattokinase, avoid caffeine
 		- liver damage: fasting, artichoke, milk thistle, digestive enzymes, treat hormone imbalances like estrogen toxicity
 		- high cortisol: ashwagandha, holy basil, schisandra, b vitamins
-		- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet
+		- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, dhea (low dhea can cause cancer)
 			- avoid causes of low cortisol (low cholesterol, excess coffee/caffeine, vitamin d, estrogen replacement therapy, fish oil, ashwagandha, green tea/theanine, holy basil, betaine, l-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (malaysian ginseng), choline, vitamin b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol)
 		    - related conditions to adrenal problems include pituitary/hypothalamus imbalance: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
 		- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine
