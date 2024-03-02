@@ -10,40 +10,110 @@
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
+		- similarly, a script to identify what 'symptoms/reactions from a specific supplement/diet mean' (like if corticosteroids hurt you, that means you probably had heart damage) would be useful to diagnose conditions without labwork or without reliable tests/known markers which is a lot of conditions
 	
 	- get an air pollution mask, an air purifier that filters out air pollution, and a reverse osmosis water purifier, these arent optional for cancer treatment
 
 	- fix your other medical problems so you can fight cancer better
-		- fungal infections: holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut
-		- viral infections: ashwagandha, green tea, medicinal mushrooms including cordyceps, aloe vera
-		- bacterial infections: avoiding carbs, probiotic kefir/kombucha, antimicrobials like holy basil
-		- acidosis: 1g vitamin C powder/day at meals, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage or vitamin deficiencies
-		- kidney damage: fasting, b vitamins in smaller doses, activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood, corn silk, digestive enzymes, amino acids instead of protein intake
-			- use glutamine, tyrosine, GABA, arginine, lysine to increase the amount of human growth hormone to recover
-			- avoid high oxalate foods without calcium, avoid protein/refined carbs and high acid foods like coffee, avoid caffeine which can make kidney/heart/adrenal damage worse
-			- avoid supplements that can make kidney damage worse in normal doses (inositol, vitamin d, quercetin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
-		    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
-		    - increase klotho: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, astaxanthin, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise can increase klotho to help recover from kidney damage
-		    - avoid bpc-157 which can cause cancer 
-		- hormonal imbalances: correct hormonal imbalances, which can cause many health problems including cancer, such as how low dhea levels can cause cancer
-		- estrogen toxicity: progesterone, cortisol, indole-3-carbinol
-		- vitamin deficiency: treat causes of vitamin deficiency like anti-vitamins, medications, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency
-		- heart failure: coq10, omega 3s, arginine, beets for nitric oxide, nattokinase, avoid caffeine
-		- liver damage: fasting, artichoke, milk thistle, digestive enzymes, treat hormone imbalances like estrogen toxicity
-		- high cortisol: ashwagandha, holy basil, schisandra, b vitamins
-		- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, dhea (low dhea can cause cancer)
-			- avoid causes of low cortisol (low cholesterol, excess coffee/caffeine, vitamin d, estrogen replacement therapy, fish oil, ashwagandha, green tea/theanine, holy basil, betaine, l-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (malaysian ginseng), choline, vitamin b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol)
-		    - related conditions to adrenal problems include pituitary/hypothalamus imbalance: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
-		- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine
-		- chemical sensitivities: treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
-		- inflammation: bromelain/pineapple, omega 3, vitamin c
-		- autoimmune conditions: immune suppressors like cortisol, cbd, avoid immune stimulants (like excess zinc, medicinal mushrooms such as cordyceps) and avoid other unnatural immune modulators like sucralose/aspartame, balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity), treat other conditions, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution until you know what triggers it
-		- hair loss: treat adrenal/thyroid/kidney/liver problems, hormone imbalances and fungal/bacterial infections first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
-		- multiple sclerosis: avoid silica (found in supplements and products like paint)
-        - colitis: wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum
-        - gallstones: milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
-        - pancreatitis: fasting, avoid high acid foods like lemon juice, avoid high fat intake
-        - gout: avoid high purine/saturated fat intake, use fiber, treat kidney damage and other causes of gout
+		- fungal infections:
+			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut
+		- viral infections: 
+			- ashwagandha, green tea, medicinal mushrooms including shiitake/cordyceps, aloe vera
+		- bacterial infections: 
+			- keto diet, probiotic kefir/kombucha, antimicrobials like holy basil/black seed oil or immune boosters like cordyceps
+			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
+		- thyroid problems: 
+			- treat thyroid problems, which can make cancer worse
+			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine
+		- acidosis: 
+			- 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies
+		- hormonal imbalances: 
+			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
+			- estrogen toxicity: 
+				- progesterone, cortisol, pregnenolone/DHEA supplements (precursors of progesterone and cortisol), indole-3-carbinol, magnesium, vitamin b6, antioxidants such as vitamins A/C/E, omega 3s, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, silymarin, taurine, methionine
+				- avoid dairy, coffee, gluten, sugar, carbs, pumpkin seeds, flax seeds to lower estrogen
+		- vitamin deficiency: 
+			- treat causes of vitamin deficiency like anti-vitamins, medications, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency
+		- repair organ damage
+		    - avoid bpc-157 which can cause cancer
+			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
+			- kidney damage: fasting, b vitamins in smaller doses, corn silk, digestive enzymes, amino acids instead of protein intake
+				- activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood
+				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
+				- avoid excess vitamin c/zinc for kidney stones
+				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
+			    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
+			    - increase klotho to recover from kidney damage: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, astaxanthin, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
+			- heart failure: 
+				- use coq10, omega 3s, arginine, beets for nitric oxide, nattokinase for atherosclerosis, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- avoid caffeine, peppermint, licorice, minoxidil, corticosteroids, and other substances that can cause heart failure in normal doses
+			- liver damage: fasting, artichoke, milk thistle, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
+		- adrenal problems
+			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
+			- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, DHEA (low DHEA can cause heart damage and cancer)
+				- fludrocortisone for symptoms of low aldosterone like salt cravings
+				- avoid causes of low cortisol: low cholesterol, excess coffee/caffeine, vitamin d, estrogen replacement therapy, fish oil, ashwagandha, green tea/theanine, holy basil, betaine, l-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (malaysian ginseng), choline, vitamin b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol
+		    	- related conditions to adrenal problems include pituitary/hypothalamus imbalance: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
+		    	- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen
+                - first dose of hydrocortisone should be taken in the morning at awakening and the last dose 4 to 6 hours before going to sleep
+			- high cortisol: ashwagandha, holy basil, schisandra, b vitamins, other substances that cause low cortisol
+			- treat thyroid problems which can cause adrenal problems
+        - urinary problems like frequent urination
+            - pumpkin seeds, ganoderma lucidum/lingzhi mushroom, corn silk, capsaicin, kohki tea, vitamin c, probiotics, saw palmetto, Gosha-jinki-gan (Rehmania glutinosa (flowering broomrape), Achyranthes fauriei (Achyranthes root), Cornus officinalis (Japanese cornelian cherry), Paeonia moutan (Moutan peony), Alisma plantago-aquatica (European water-plantain), Dioscorea japonica (Japanese mountain yam), Dioscorea opposita (Chinese yam), Plantago asiatica (plaintain weed), Poria cocos mushrooms, Aconitum carmichaeli (Chinese wolfsbane), Cinnamomum cassia (Chinese cinnamon)
+            - avoid chocolate, citrus fruits, coffee, soda, spicy foods, tea, tomatoes, milk
+		- chemical sensitivities: 
+			- treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
+		- inflammation: 
+			- bromelain/pineapple, omega 3, antioxidants including vitamin a/c/e, anti-inflammatory herbs like boswellia, ginger, cayenne pepper, cloves, garlic, cinnamon, and turmeric
+			- avoid animal products, sugar, gluten
+		- autoimmune conditions: 
+			- use anti-inflammatory substances and immune suppressors like cortisol, coconut, cbd
+			- be aware of dose-dependent effects like immune-stimulant effects of boswellia at high doses
+			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
+			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps)
+			- avoid other unnatural immune modulators like sucralose/aspartame
+			- balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity)
+			- treat other conditions like thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis
+			- avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution until you know what triggers the autoimmunity
+			- multiple sclerosis:
+				- avoid silica (found in supplements and products like paint) and immune stimulants
+				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola
+				- repair myelin
+					- rest/melatonin, iodine, vitamin C, zinc, iron, cholesterol, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, vitamin d/k2, choline/citicoline, b vitamins, probiotics/prebiotics
+					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, niacin, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin
+				- reduce inflammation with anti-inflammatory substances
+		- hair loss: 
+			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
+		- metabolic problems
+			- obesity:
+				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, vitamin deficiencies, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
+			- diabetes
+				- use fasting, keto diet, omega 3s, vitamin d, berberine/alpha-lipoic acid/bitter melon/resveratrol/magnesium to lower glucose/manage insulin sensitivity, use antioxidants in green tea like epigallocatechin gallate (EGCG), treat vitamin deficiencies like chromium/b-vitamins, avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), treat pancreatitis
+		- PCOS
+			- inositol, vitamin d, keto diet, treat related conditions like diabetes
+		- heavy metal toxicity
+			- calcium glucarate, calcium EDTA, milk thistle, gingko biloba, triphala, chitosan, zeolite, fiber, cilantro, selenium, magnesium, b-vitamins, zinc, iron, glutathione (sulphurous substances like garlic/broccoli, taurine, methionine, alpha lipoic acid, N-acetyl-cysteine, vitamin C/E, for effects on glutathione), modified citrus pectin with alginate, chlorella to bind to heavy metals
+			- avoid substances like cinnamon/turmeric/chocolate which bind to heavy metals and/or which frequently contain them and any supplements not clearly tested with standards
+		- brain disorders
+			- stroke: vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen, avoid triggers like erythritol
+			- alzheimers: 40hz waves, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels
+			- parkinsons: b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs
+		- skin problems:
+			- inflammation: saw palmetto, zinc, vitamin c, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin
+			- elasticity: collagen, hormones like estrogen/progesterone, hyaluronic acid
+			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like levothyroxine)
+			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
+        - colitis: 
+        	- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum
+        - gallstones: 
+        	- milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
+        - pancreatitis:
+        	- fasting, avoid high acid foods like lemon juice, avoid high fat intake, balance hormones
+        - gout: 
+        	- avoid high purine/saturated fat intake, use low-fat dairy products, decaf coffee, vitamin C, fiber, peanuts, fruit to prevent gout, treat insulin problems like insulin resistance, treat lead exposure, treat kidney damage and other causes of gout
+        - stress
+        	- avoid stress which can damage hypothalamus/pituitary/adrenal glands and other organs and which can cause hormonal imbalances which can cause other conditions
+
 
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
@@ -52,17 +122,7 @@
 		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask or using the IQ Air multi-gas air purifier)
 			- https://www.amazon.com/dp/B0BQ2XV5W1?psc=1&ref=ppx_yo2ov_dt_b_product_details
 		- make sure your cortisol is not too low (if your cancer grows at night, it could be bc vitamin D or cortisol is lower at night)
-            - causes of low cortisol:
-            	- adrenal insufficiency, excess coffee/tea/caffeine, excess vitamin D, low cholesterol, adrenal/pituitary/hypothalamus tumor, estrogen replacement therapy/estrogen dominance, fish oil/omega 3s, ashwagandha, green tea/theanine, holy basil, low corticotropin-releasing hormone, HPA axis suppression, betaine, L-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (Malaysian ginseng), choline, b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol
-	            - estrogen dominance can also be the trigger of adrenal fatigue because hormone imbalance can be a huge stressor on the body
-	            - adrenal fatigue side effects: fatigue, chemical sensitivities
-	        - treatment of low cortisol:
-            	- hydrocortisone, DHEA, keto diet, caloric restriction, resveratrol
-            		- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen
-                	- first dose of hydrocortisone should be taken in the morning at awakening and the last dose 4 to 6 hours before going to sleep
-                - treat estrogen dominance:
-                	- magnesium, b6, avoiding coffee/gluten/sugar, antioxidants such as vitamins A/C/E, fish oil, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, silymarin, taurine, methionine, pregnenolone/DHEA supplements (precursors of progesterone and cortisol)
-		- increasing klotho with senolytics/exercise/Caloric Restriction/supplements (arginine + glutamine + lysine + glycine, sulforaphane, chokeberries, cordyceps, green tea, omega 3s, activated charcoal, dong quai and chuan xiong (ligustilide), gentian root, holy basil, resveratrol, rhubarb, solomon's seal, vitamin D, vitamin E, zinc)
+		- increasing klotho with senolytics/exercise/fasting/supplements
 			- Klotho is an antagonist of the Wnt signaling pathway, and chronic Wnt stimulation can lead to stem cell depletion and aging
 			- Klotho inhibition of Wnt signaling can inhibit cancer
 			- The anti-aging effects of klotho are also a consequence of increased resistance to inflammation and oxidative stress
@@ -110,7 +170,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7378927/
 			- herbs that induce useful epigenetic changes (HDAC, HAT and DNMT changes)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3092901/
-		- inhibit cancer stem cells (doxycycline, vitamin C, milk thistle, chloroquine, apigenin, turmeric, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
+		- inhibit cancer stem cells (vitamin C, milk thistle, chloroquine, apigenin, turmeric, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
 			- histone deacetylase inhibitory activity (valproic acid) and lowering cholesterol (simvastatin) target CSCs by inhibiting YAP (similar to sulforaphane)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7545949/
 			- change chromatin packing density to reduce CSCs (Celecoxib and Digoxin)
