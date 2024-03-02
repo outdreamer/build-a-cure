@@ -9,7 +9,7 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
-    - identify useful structures like 'unresolved differences between bases' as useful as a 'core problem format'
+    - identify useful structures like 'unresolved differences between bases (like truth/validity/interaction networks)' as useful as a 'core problem format'
         - given a connection like 'organ damage' -> 'low hormones (low dhea)' -> 'over-active immunity' -> 'other conditions like multiple sclerosis', if you only knew the 'low dhea' -> 'multiple sclerosis' connection, how might you identify the selection of, position of, and connection to high variation variables like 'organ damage' and 'immunity'?
             - 'organ damage' can be positioned at the start by default with low information, given its 'common position as a cause of conditions'
             - 'immunity' can be assumed to be relevant in some way, similar to how hormones can be assumed to be relevant to most conditions
