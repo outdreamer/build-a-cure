@@ -26,19 +26,21 @@
 			- treat thyroid problems, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine
 		- trouble breathing:
-			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions
+			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma
 		- fatigue:
 			- treat autoimmune conditions, infections, organ damage, heavy metal toxicities, electrolyte imbalances, overuse of stimulants, vitamin deficiencies/malabsorptions/neutralizations and other causes of fatigue
+			- fix mitochondria dysregulation/dysfunction: 
+				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
 		- acidosis: 
 			- 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
 			- estrogen toxicity: 
-				- progesterone, cortisol, pregnenolone/DHEA supplements (precursors of progesterone and cortisol), indole-3-carbinol, magnesium, vitamin b6, antioxidants such as vitamins A/C/E, omega 3s, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, silymarin, taurine, methionine
-				- avoid dairy, coffee, gluten, sugar, carbs, pumpkin seeds, flax seeds to lower estrogen
+				- progesterone, cortisol, pregnenolone/DHEA supplements (precursors of progesterone and cortisol), indole-3-carbinol, magnesium, vitamin b6, antioxidants such as vitamins A/C/E, omega 3s, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, milk thistle, taurine, methionine
+				- avoid dairy, coffee, gluten, sugar, carbs, pumpkin seeds, and flax seeds to lower estrogen
 		- vitamin deficiency: 
-			- treat causes of vitamin deficiency like anti-vitamins, medications, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
-			- also treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
+			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
+			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 		- repair organ damage
 		    - avoid bpc-157 which can cause cancer
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
