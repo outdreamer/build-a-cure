@@ -16,7 +16,7 @@
 
 	- fix your other medical problems so you can fight cancer better
 		- fungal infections:
-			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut
+			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it supresses a tumor suppressor IL-25)
 		- viral infections: 
 			- ashwagandha, green tea, medicinal mushrooms including shiitake/cordyceps, aloe vera
 		- bacterial infections: 
@@ -72,7 +72,7 @@
 			- bromelain/pineapple, omega 3, antioxidants including vitamin a/c/e, anti-inflammatory herbs like boswellia, ginger, cayenne pepper, cloves, garlic, cinnamon, and turmeric
 			- avoid animal products, sugar, gluten
 		- autoimmune conditions: 
-			- use anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, cascara sagrada, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine
+			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, cascara sagrada, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
 			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
 			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps)
