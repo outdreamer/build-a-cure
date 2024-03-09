@@ -1294,7 +1294,7 @@
 					- Inhibits the action of matrix metalloproteinase (MMP-9)
 					- Prevents the synthesis of prostaglandin-E2
 					- Triggers cell apoptosis
-					- Target surviving/E2F1 pathways
+					- Target survivin/E2F1 pathways
 					- Inhibits ERK pathways/proteins
 				- Anti-inflammatory
 					- Suppression of chemotaxis of neutrophils and macrophages
@@ -1333,12 +1333,10 @@
 				- RA was able to inhibit EMT, increase chemosensitivity, and suppress the expression of zinc finger E-box binding homeobox 1, snail1, and twist1
 			- apigenin
 				- This flavonoid appears to exhibit anticancer activities by regulating multiple cellular signalling pathways, some of which may involve angiogenesis, apoptosis, the cell cycle, and other genetic pathways
-				- Apigenin strongly suppressed colorectal cancer cell growth, proliferation, migration, invasion, and organoid development by inhibiting the Wnt/-catenin signalling pathway
+				- Apigenin strongly suppressed colorectal cancer cell growth, proliferation, migration, invasion, and organoid development by inhibiting the Wnt/b-catenin signalling pathway
 				- suppressed the expression of MMP-2, MMP-9, and vascular endothelial growth factor (VEGF), all of which play roles in cell migration and invasion, through the signal transducer and activator of the transcription (STAT-3) pathway
 				- suppressed STAT3 transcriptional activity, decreased STAT3 nuclear localization, and inhibited STAT3 phosphorylation 
-				- suppressed STAT3 transcriptional activity, STAT3 phosphorylation, and STAT3 nuclear localization
 				- suppressed ERK1/2 and P90RSK phosphorylation while activating AKT and S6 phosphorylation
-				- inhibit two kinases, AKT and ERK
 				- decreased the expression of pro-survival regulators AKT, Mcl-1, and ERK which boosted the antitumour activity of ABT-263 in cancer cells
 				- increases p53 accumulation, through increased Bax
 				- modulates the nuclear factor-kappaB signalling pathway
@@ -2457,7 +2455,7 @@
 				- pepper reduced 1, 6
 				- anthocyanin (purple potatoes) reduced 6
 				- fucoidan reduced 1, 6, 8, 13
-				- cordyceps increased 4, 13, 25
+				- cordyceps decreased 4, 5, 13
 				- chicory reduced 1, 6
 				- hibiscus reduced 1
 				- boswellia reduced 1
@@ -2475,6 +2473,7 @@
 				- glutamine increases 2
 				- alanine increases 6
 				- DHA increases 1, 2
+				- cordyceps increased (IL)-1β, IL-2, IL-6, IL-8, IL-10, IL-12
   		- increase IL-25 (tumor suppressor)
 	  		- avoid IL-25 inhibitors
 	 			- sitosterol inhibits IL-25
