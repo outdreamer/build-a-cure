@@ -24,7 +24,7 @@
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse
-			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine
+			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (soy, broccoli, cabbage, brussel sprouts, millet)
 		- trouble breathing:
 			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma
 		- fatigue:
@@ -72,7 +72,7 @@
 			- bromelain/pineapple, omega 3, antioxidants including vitamin a/c/e, anti-inflammatory herbs like boswellia, ginger, cayenne pepper, cloves, garlic, cinnamon, and turmeric
 			- avoid animal products, sugar, gluten
 		- autoimmune conditions: 
-			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, cascara sagrada, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
+			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein/nightshade, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, cascara sagrada, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
 			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
 			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps)
@@ -86,6 +86,7 @@
 				- repair myelin
 					- rest/melatonin, iodine, vitamin C, zinc, iron, cholesterol, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, vitamin d/k2, choline/citicoline, b vitamins, probiotics/prebiotics
 					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, niacin, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin
+					- treat other conditions that can decrease myelin like thyroid problems
 				- reduce inflammation with anti-inflammatory substances
 		- hair loss: 
 			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
@@ -112,7 +113,7 @@
 			- alzheimers: 40hz waves, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 			- parkinsons: b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs
 		- skin problems:
-			- inflammation: saw palmetto, zinc, vitamin c, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin
+			- inflammation: saw palmetto, zinc, vitamin c, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
 			- elasticity: collagen, hormones like estrogen/progesterone, hyaluronic acid, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like levothyroxine)
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
