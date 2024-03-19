@@ -39,12 +39,15 @@
 			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
+			- avoid plastic and other chemicals which can disrupt hormones
 			- estrogen toxicity: 
 				- progesterone, cortisol, pregnenolone/DHEA supplements (precursors of progesterone and cortisol), indole-3-carbinol, magnesium, vitamin b6, antioxidants such as vitamins A/C/E, omega 3s, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, milk thistle, taurine, methionine
 				- avoid dairy, coffee, gluten, sugar, carbs, pumpkin seeds, flax seeds, soda/green tea to lower estrogen
 		- vitamin deficiency: 
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
+		- high cholesterol
+			- mineral water
 		- repair organ damage
 		    - avoid bpc-157 which can cause cancer
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
