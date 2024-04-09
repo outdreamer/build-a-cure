@@ -18,16 +18,15 @@
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
 		- viral infections: 
-			- ashwagandha, green tea, medicinal mushrooms including shiitake/cordyceps, aloe vera
+			- ashwagandha, green tea, medicinal mushrooms including shiitake/cordyceps, aloe vera, avoid CBD and other immunosuppressants
 		- bacterial infections: 
 			- keto diet, probiotic kefir/kombucha, antimicrobials like holy basil/black seed oil/CBD or immune stimulants like cordyceps
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
 		- thyroid problems: 
-			- treat thyroid problems, which can make cancer worse
+			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (soy, broccoli, cabbage, brussel sprouts, millet)
-			- avoid using thyroid gland, which can make cancer worse
 		- trouble breathing:
-			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma
+			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
 			- treat autoimmune conditions, infections, organ damage, heavy metal toxicities, electrolyte imbalances, overuse of stimulants, vitamin deficiencies/malabsorptions/neutralizations and other causes of fatigue
 			- fix mitochondria dysregulation/dysfunction: 
@@ -51,17 +50,19 @@
 		- repair organ damage
 		    - avoid bpc-157 which can cause cancer
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
-			- kidney damage: fasting, b vitamins in smaller doses, corn silk, digestive enzymes, amino acids instead of protein intake
+			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
 				- activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 				- avoid excess vitamin c/zinc for kidney stones, use bicarbonate (in Flow spring water)
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
-			    - cancer treatment with kidney damage will involve smaller amounts of gentler substances like cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
-			    - use these in small amounts to increase klotho to recover from kidney damage: small amounts of vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
+			    - cancer treatment with kidney damage will involve smaller amounts of gentler substances:
+			    	- cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
+			    - use these in small amounts to increase klotho to recover from kidney damage:
+			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
 				- use coq10, omega 3s, arginine, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
-				- avoid pollution, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
-			- liver damage: fasting, artichoke, milk thistle, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
+				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
+			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
 			- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, DHEA (low DHEA can cause heart damage and cancer)
@@ -79,16 +80,17 @@
 			- bromelain/pineapple, broccoli sprouts, omega 3, antioxidants including vitamin a/c/e, anti-inflammatory herbs like boswellia, ginger, cayenne pepper, cloves, garlic, cinnamon, and turmeric
 			- avoid animal products, sugar, gluten
 		- autoimmune conditions: 
-			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein/nightshade, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, cascara sagrada, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
+			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein/nightshade, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
 			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
 			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps)
 			- avoid other unnatural immune modulators like sucralose/aspartame
 			- balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity)
-			- treat other conditions like thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis
-			- avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution until you know what triggers the autoimmunity
+			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
+			- avoid chemicals including BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
 				- avoid silica (found in supplements and products like paint) and immune stimulants
+				- use charcoal, baking soda, vinegar, water to absorb paint fumes
 				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
 				- repair myelin
 					- rest/melatonin, iodine, vitamin C, zinc, iron, cholesterol, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, vitamin d/k2, choline/citicoline, b vitamins, probiotics/prebiotics
@@ -110,9 +112,11 @@
 			- avoid plants/products that absorb PFAS (kale, fruit juice, paper used to store butter) and other chemicals like chlormequat (oats)
 			- purify water with filters like reverse osmosis filters or boiling water and then filtering it, and purify air with filters that can filter out benzene
 			- avoid processed foods which can cause systemic damage
+			- use NAC to detoxify compounds like dihalogenated nitrophenols in drinking water
 			- avoid foods packaged in plastic that have been in the container for a long time (cereal, frozen bread) or are highly absorptive (kale) or are cooked in plastic containers
 			- use charcoal, baking soda, vinegar, water to absorb some paint/chemical fumes
-			- use small amounts of diatomaceous earth (avoid if you need to avoid silica), baking soda, vinegar, bleach, and essential oils instead of toxic pesticides, store food waste in the fridge until it needs to be thrown out, etc
+			- avoid household appliances, furniture, personal-care products and disinfectants that use chemicals like organophosphate flame retardants and quaternary ammonium compounds
+			- use small amounts of diatomaceous earth (avoid if you need to avoid silica), baking soda, vinegar, bleach, and essential oils instead of toxic pesticides (such as organophosphates, carbamates, fumigants, pyrethroids, and the organochlorine pesticides), store food waste in the fridge until it needs to be thrown out, etc
 		- heavy metal toxicity
 			- calcium glucarate, calcium EDTA, milk thistle, gingko biloba, triphala, chitosan, zeolite, fiber, cilantro, selenium, magnesium, b-vitamins, zinc, iron, glutathione (or sulphurous substances like garlic/broccoli, taurine, methionine, alpha lipoic acid, N-acetyl-cysteine, vitamin C/E, for effects on glutathione), modified citrus pectin with alginate, chlorella to bind to heavy metals
 			- avoid substances like processed cinnamon/turmeric/chocolate which bind to heavy metals and/or which frequently contain them and any supplements not clearly tested with standards
@@ -120,7 +124,7 @@
 			- broccoli sprouts help get rid of benzene and acrolein
 		- brain disorders
 			- stroke: vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen, avoid triggers like erythritol
-			- alzheimers: 40hz waves, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
+			- alzheimers: 40hz waves, hibiscus, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 			- parkinsons: b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs
 		- skin problems:
 			- inflammation: saw palmetto, zinc, vitamin c, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
@@ -141,15 +145,22 @@
         - stress
         	- avoid stress which can damage hypothalamus/pituitary/adrenal glands and other organs and which can cause hormonal imbalances which can cause other conditions
         	- use adaptogenic herbs like ashwagandha
-        - substances to avoid with cancer
-        	- avoid sitosterol, thyroid gland
-        	- avoid carcinogens in food, including:
-        		- hydrazine in mushrooms
-        		- acrylamide in fried/roasted foods
-        		- fermented/preserved foods which are associated with stomach cancer
+        - cancer
+        	- substances to avoid with cancer
+	        	- avoid sitosterol, thyroid gland, b-vitamin supplements, sugar, amino acids like methionine, pollution
+	        	- avoid carcinogens in food, including:
+	        		- hydrazine in mushrooms
+	        		- acrylamide in fried/roasted foods
+	        		- fermented/preserved foods which are associated with stomach cancer
+	        		- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
+        	- substances to use with cancer
+        		- small amounts of iodine, choline, DHEA, turmeric, ginger, resveratrol, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, cordyceps/shiitake mushrooms, activated charcoal, omega 3, CBD, hibiscus, beets, probiotic kefir/kombucha
+        		- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw)
+        		- other strategies especially for brain cancer include using pollution-filtering air purifiers/masks, reverse osmosis water purifiers, sitting up at an angle rather than lying down flat for patients with brain cancer (who also have other conditions like acidosis that might exacerbate brain cancer when lying down), devices like magnetic oscillators or electric field devices, etc
 
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
+		- https://en.wikipedia.org/wiki/List_of_herbs_with_known_adverse_effects
 
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask or using the IQ Air multi-gas air purifier)
@@ -2166,7 +2177,7 @@
 			- juglone
 				- exhibits cytotoxic, anti-proliferative, and anti-invasive effects on various cells, could be a promising agent for GBM therapy
 				- juglone induces strong oxidative stress, as identified by a high increase in the amount of 8-oxo-eoxyguanosine and decreases 5-methylcytosine in the DNA of cancer cells
-			- emodin (buckthorn, Japanese knotweed, aloe vera latex)
+			- emodin (Japanese knotweed, aloe vera latex)
 				- by activating a ROS-activated ATM-p53-Bax signaling pathway, Emodin promoted mitochondria-dependent apoptotic cell death
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8512367/#B170-molecules-26-05997
 			    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8291210/#B1
