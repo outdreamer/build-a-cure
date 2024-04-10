@@ -55,8 +55,8 @@
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 				- avoid excess vitamin c/zinc for kidney stones, use bicarbonate (in Flow spring water)
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
-			    - cancer treatment with kidney damage will involve smaller amounts of gentler substances:
-			    	- cortisol, macadamia nuts, wheat grass, brussel sprouts, broccoli, coconut, modified citrus pectin, and ashwagandha
+			    - ************* cancer treatment with kidney damage will involve smaller amounts of gentler but powerful anti-cancer substances *************:
+			    	- wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms, coconut, modified citrus pectin, and ashwagandha
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
