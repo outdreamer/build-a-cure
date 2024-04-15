@@ -13,6 +13,11 @@
 		- similarly, a script to identify what 'symptoms/reactions from a specific supplement/diet mean' (like if corticosteroids hurt you, that means you probably had heart damage) would be useful to diagnose conditions without labwork or without reliable tests/known markers which is a lot of conditions
 	
 	- get an air pollution mask, an air purifier that filters out air pollution such as benzene, and a reverse osmosis water purifier, these arent optional for cancer treatment
+		- These are the solutions to avoid chemicals that I've been using:
+			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink Flow water instead of bottled water
+			- an air pollution mask like this one which can attach filtering cartridges that filter out airplane/car fuel pollution: https://www.amazon.com/dp/B07Y2S71T1/
+			- a reverse osmosis purifier like this one to get chemicals out of the water before I used Flow water: https://www.amazon.com/Bluevua-RO100ROPOT-LITE-Countertop-Reverse-Purification/dp/B0BGK3YLTN/
+			- an indoor air purifier that filters out airplane/car fuel pollution: https://www.iqair.com/us/products/air-purifiers/gc-multigas
 
 	- fix your other medical problems so you can fight cancer better
 		- fungal infections:
@@ -100,10 +105,12 @@
 		- hair loss: 
 			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
 		- metabolic problems
+			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
 				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, vitamin deficiencies, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
 			- diabetes
 				- use fasting, keto diet, omega 3s, vitamin d, berberine/alpha-lipoic acid/bitter melon/resveratrol/magnesium to lower glucose/manage insulin sensitivity, use antioxidants in green tea like epigallocatechin gallate (EGCG), treat vitamin deficiencies like chromium/b-vitamins, avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), treat pancreatitis
+				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 		- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- chemical sensitivities: 
@@ -115,7 +122,26 @@
 			- use NAC to detoxify compounds like dihalogenated nitrophenols in drinking water
 			- avoid foods packaged in plastic that have been in the container for a long time (cereal, frozen bread) or are highly absorptive (kale) or are cooked in plastic containers
 			- use charcoal, baking soda, vinegar, water to absorb some paint/chemical fumes
-			- avoid household appliances, furniture, personal-care products and disinfectants that use chemicals like organophosphate flame retardants and quaternary ammonium compounds
+			- avoid household appliances, furniture, personal-care products and disinfectants that use chemicals like organophosphate flame retardants and quaternary ammonium compounds, shop at Whole Foods or another place with a policy against PFAS
+				- https://time.com/6281242/pfas-forever-chemicals-home-beauty-body-products/
+			1. Solution to PFAS in food/water/juice/other beverages: 
+				- reverse osmosis water filter
+				- avoid kale/other foods with higher PFAS levels or foods stored in plastic for a long time like frozen foods/cereal
+				- avoid personal care products like soap/toilet paper unless theyre labeled as free of PFAS or if theyre sold at Whole Foods
+				- buy clothes/products from these stores: 
+					- https://pfascentral.org/pfas-free-products/
+			2. Solution to BPA in cans:
+				- avoid drinking from any cans whatsoever (only glass bottles or water thats been boiled/filtered/purified after being stored in something else)
+			3. Solution to plastic in containers/bottles:
+				- avoid eating anything stored in plastic for a long time, including bottled water, frozen foods, cereal, etc
+				- drink Flow water to avoid chemicals from plastic bottles
+				- order water with a subscription service that uses glass bottles
+				- boil your water to get plastic out of it
+				- https://www.sciencealert.com/theres-a-surprisingly-simple-way-to-remove-microplastics-from-your-drinking-water
+			4. Solution to air pollution:
+				- use a car air purifier that filters out fuel gas particles
+				- use a home air purifier that filters out fuel gas particles
+				- use a mask that filters out fuel gas particles
 			- use small amounts of diatomaceous earth (avoid if you need to avoid silica), baking soda, vinegar, bleach, and essential oils instead of toxic pesticides (such as organophosphates, carbamates, fumigants, pyrethroids, and the organochlorine pesticides), store food waste in the fridge until it needs to be thrown out, etc
 		- heavy metal toxicity
 			- calcium glucarate, calcium EDTA, milk thistle, gingko biloba, triphala, chitosan, zeolite, fiber, cilantro, selenium, magnesium, b-vitamins, zinc, iron, glutathione (or sulphurous substances like garlic/broccoli, taurine, methionine, alpha lipoic acid, N-acetyl-cysteine, vitamin C/E, for effects on glutathione), modified citrus pectin with alginate, chlorella to bind to heavy metals
@@ -125,9 +151,17 @@
 			- use these to get rid of BPA: coq10, probiotics (Bifidobacterium breve and Lactobacillus casei), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
-			- stroke: vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen, avoid triggers like erythritol
-			- alzheimers: 40hz waves, hibiscus, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
-			- parkinsons: b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs
+			- stroke: 
+				- vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen
+				- avoid triggers like erythritol
+			- dementia: 
+				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury—and air pollution
+			- alzheimers: 
+				- 40hz waves, hibiscus, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol
+				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
+			- parkinsons: 
+				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA
+				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
 		- skin problems:
 			- inflammation: saw palmetto, zinc, vitamin c, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
 			- elasticity: collagen, hormones like estrogen/progesterone, hyaluronic acid, avoid dairy
@@ -149,6 +183,7 @@
         	- use adaptogenic herbs like ashwagandha
         - cancer
         	- substances to avoid with cancer
+        		- avoid methylglyoxal (a chemical linked to diabetes, obesity, and poor diet which can increase cancer risk) with phenols/flavonoids (phenols in peanut/apple, anthocyanins in elderberry, EGCG in green tea, genistein in soy)
 	        	- avoid sitosterol, thyroid gland, b-vitamin supplements, sugar, amino acids like methionine, pollution
 	        	- avoid carcinogens in food, including:
 	        		- hydrazine in mushrooms
