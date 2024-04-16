@@ -23,9 +23,18 @@
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
 		- viral infections: 
-			- ashwagandha, green tea, medicinal mushrooms including shiitake/cordyceps, aloe vera, avoid CBD and other immunosuppressants
+			- general: zinc, vitamin c, elderberry, astragalus, turmeric, echinacea, propolis, sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, maitake), sweet/holy basil
+			- ebv: cordyceps, schisandra chinensis, calendula officinalis, green tea
+			- herpes: ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice
+			- hpv: garlic, curcumin, indole-3-carbinol, zinc, ashwagandha, green tea, medicinal mushrooms including shiitake/turkey tail/reishi
+			- hiv: oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis, actein (black cohosh), holy basil
+			- covid: coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus
+			- flu: sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng
+			- dengue: dandelion, neem, uncaria tomentosa (cat's claw)
+			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera
+			- avoid: CBD and other immunosuppressants
 		- bacterial infections: 
-			- keto diet, probiotic kefir/kombucha, antimicrobials like holy basil/black seed oil/CBD or immune stimulants like cordyceps
+			- keto diet, probiotic kefir/kombucha (broad-spectrum probiotics like Garden of Life with multiple strains), antimicrobials like holy basil/black seed oil/CBD or immune stimulants like cordyceps
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
@@ -117,12 +126,12 @@
 			- treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
 		- PFAS/pollution/pesticide exposure
 			- avoid plants/products that absorb PFAS (kale, fruit juice, paper used to store butter) and other chemicals like chlormequat (oats)
+				- avoid foods packaged in plastic that have been in the container for a long time (cereal, frozen bread) or are highly absorptive (kale) or are cooked in plastic containers
 			- purify water with filters like reverse osmosis filters or boiling water and then filtering it, and purify air with filters that can filter out benzene
 			- avoid processed foods which can cause systemic damage
 			- use NAC to detoxify compounds like dihalogenated nitrophenols in drinking water
-			- avoid foods packaged in plastic that have been in the container for a long time (cereal, frozen bread) or are highly absorptive (kale) or are cooked in plastic containers
 			- use charcoal, baking soda, vinegar, water to absorb some paint/chemical fumes
-			- avoid household appliances, furniture, personal-care products and disinfectants that use chemicals like organophosphate flame retardants and quaternary ammonium compounds, shop at Whole Foods or another place with a policy against PFAS
+			- avoid buying new household appliances/furniture, or personal-care products and disinfectants that use chemicals like organophosphate flame retardants and quaternary ammonium compounds, shop at Whole Foods or another place with a policy against PFAS
 				- https://time.com/6281242/pfas-forever-chemicals-home-beauty-body-products/
 			1. Solution to PFAS in food/water/juice/other beverages: 
 				- reverse osmosis water filter
@@ -132,6 +141,7 @@
 					- https://pfascentral.org/pfas-free-products/
 			2. Solution to BPA in cans:
 				- avoid drinking from any cans whatsoever (only glass bottles or water thats been boiled/filtered/purified after being stored in something else)
+				- use probiotics with many strains (like Garden of Life) to help IBS after BPA/similar exposure
 			3. Solution to plastic in containers/bottles:
 				- avoid eating anything stored in plastic for a long time, including bottled water, frozen foods, cereal, etc
 				- drink Flow water to avoid chemicals from plastic bottles
@@ -148,7 +158,7 @@
 			- avoid substances like processed cinnamon/turmeric/chocolate which bind to heavy metals and/or which frequently contain them and any supplements not clearly tested with standards
 			- avoid highly processed foods (turmeric as a supplement might contain more lead than the plant itself)
 			- broccoli sprouts help get rid of benzene and acrolein
-			- use these to get rid of BPA: coq10, probiotics (Bifidobacterium breve and Lactobacillus casei), black tea, quercetin, exercise
+			- use these to get rid of BPA (or side effects): coq10, probiotics (Bifidobacterium breve and Lactobacillus casei, Garden of Life probiotics with many strains), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
 			- stroke: 
