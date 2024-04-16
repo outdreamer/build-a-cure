@@ -19,6 +19,10 @@
 			- a reverse osmosis purifier like this one to get chemicals out of the water before I used Flow water: https://www.amazon.com/Bluevua-RO100ROPOT-LITE-Countertop-Reverse-Purification/dp/B0BGK3YLTN/
 			- an indoor air purifier that filters out airplane/car fuel pollution: https://www.iqair.com/us/products/air-purifiers/gc-multigas
 
+	- cancer treatment with organ damage
+		- this will involve smaller amounts of gentler but powerful anti-cancer substances
+			- pomegranate/berries, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), coconut, modified citrus pectin, rosemary, sage, and ashwagandha
+
 	- fix your other medical problems so you can fight cancer better
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
@@ -69,8 +73,6 @@
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 				- avoid excess vitamin c/zinc for kidney stones, use bicarbonate (in Flow spring water)
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
-			    - ************* cancer treatment with kidney damage will involve smaller amounts of gentler but powerful anti-cancer substances *************:
-			    	- wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms, coconut, modified citrus pectin, and ashwagandha
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
