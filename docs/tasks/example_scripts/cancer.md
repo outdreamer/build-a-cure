@@ -27,18 +27,18 @@
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
 		- viral infections: 
-			- general antivirals: catechins/theaflavins (green/black tea), zinc, vitamin c, elderberry, astragalus, turmeric, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
+			- general antivirals: NAC, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, turmeric, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
 			- polio: doum palm, guazuma ulmifolia (west indian elm)
 			- murine cytomegalovirus (mcmv): nigella sativa (black seed oil)
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
 			- hbv: abutilon figarianum (texas indian-mallow), polygonum cuspidatum (knotweed)
 			- rsv: peppermint, echinacea, licorice, ginseng
-			- avian influenza virus (aiv): lemon balm
+			- avian influenza virus (aiv): lemon balm, selenium, vitamin E, NAC/glutathione, resveratrol, quercetin, astragalus
 			- adenovirus: caesalpinia pulcherrima (peacock flower), basil, plantago major (bartang)
 			- viral pneumonia: garlic
 			- rhinovirus: garlic, ginger
 			- infectious bursal disease virus (ibdv): ashwagandha
-			- newcastle disease virus (ndv): neem, iresine herbstii (blood leaf), lemon balm, Glycyrrhiza glabra
+			- newcastle disease virus (ndv): neem, iresine herbstii (blood leaf), lemon balm, glycyrrhiza glabra
 			- ebv: moringa oleifera, cordyceps, schisandra chinensis, calendula officinalis, green tea
 			- herpes: lysine, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7894602/
@@ -50,7 +50,7 @@
 				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983620/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249135/
-			- covid: CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551890/ - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
+			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551890/ - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
 			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort
 			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
 			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort
@@ -68,7 +68,7 @@
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
 			- tuberculosis: barberry/garlic/black seed oil/basil/red sage to directly kill bacteria (vitamin d, horsetail (silica), ginseng, propolis, pineapple, licorice, orange, probiotics (acidophilus), vitamin A/B6, copper, zinc, magnesium, calcium to support recovery) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8448615/ (Medicinal plants and natural products showing in vitro anti-TB activity)
 			- leprosy: zinc, vitamin A/D, omega 3s, CBD, Bacillus Calmette-Guérin (BCG) vaccination
-			- mrsa: alysicarpus monilifer (necklace-pod alyce clover)
+			- mrsa: alysicarpus monilifer (necklace-pod alyce clover), colloidal silver, tea tree, green tea, cocoa, asian ginseng, garlic, cranberry with aloe vera
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (soy, broccoli, cabbage, brussel sprouts, millet)
