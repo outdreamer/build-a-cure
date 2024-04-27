@@ -59,9 +59,10 @@
 		- other antimicrobials:
 			- isatis tinctoria (dyer's woad, or glastum), ajuga bracteosa (bugleweed)
 		- parasitic infections:
-			- example antileishmanials: caffeic acid, berberine, capsaicin, piperine, EGCG, gallic acid, apigenin, ursolic acid, boswellia, tamarind, fagonia indica (dhamasa), withania coagulans (paneer dodi), turmeric, black pepper, moringa stenopetala, aloe vera, ashwagandha, barberry, grape leaf, asparagus racemosus (shatavari), croton pullei glabrior, lippia sidoides (alecrim pimenta), valeriana wallichii, cymbopogon citratus and citral, galipea longiﬂora, calophyllum brasiliense, vanillosmopsis arborea and α-bisabolol, strychnos pseudoquina, physalis angulata, aloe secundiflora, annona muricata acetogenins, annonacinone and corossolone, and platymiscium ﬂoribundum coumarin scoparone, senna spectabilis, thymus capitellatus, chenopodium ambrosioides, arrabidaea chica, bixa orellana, tanacetum parthenium, tridax procumbens (with garlic), baccharis uncinella, mangifera indica, artemisia annua (artemisinin), trichosanthes dioica Roxb. (pointed gourd), croton cajucara (red sacaca), eryngium foetidum, pleumeria pudica, fumaria parviflora, millettia species, tinospora cordifolia with cisplatin, olive leaf, winter cherry - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4789233/
+			- example antileishmanials: caffeic acid, berberine, capsaicin, piperine, EGCG, gallic acid, apigenin, ursolic acid, boswellia, tamarind, fagonia indica (dhamasa), withania coagulans (paneer dodi), turmeric, black pepper, moringa stenopetala, aloe vera, ashwagandha, barberry, grape leaf, asparagus racemosus (shatavari), croton pullei glabrior, lippia sidoides (alecrim pimenta), valeriana wallichii, cymbopogon citratus and citral, galipea longiﬂora, calophyllum brasiliense, vanillosmopsis arborea and α-bisabolol, strychnos pseudoquina, physalis angulata, aloe secundiflora, annona muricata acetogenins, annonacinone and corossolone, and platymiscium ﬂoribundum coumarin scoparone, senna spectabilis, thymus capitellatus, chenopodium ambrosioides, arrabidaea chica, bixa orellana, tanacetum parthenium, tridax procumbens (with garlic), baccharis uncinella, mangifera indica, artemisia annua (artemisinin), trichosanthes dioica Roxb. (pointed gourd), croton cajucara (red sacaca), eryngium foetidum, pleumeria pudica, fumaria parviflora, millettia species, tinospora cordifolia with cisplatin, olive leaf, winter cherry 
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4789233/
 				- comprehensive list of antileishmanial compounds: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36364404/
-			- malaria: coronopus didymus (jangli halon; bitter cress)
+			- malaria: coronopus didymus (jangli halon; bitter cress), cryptolepis sanguinolenta (Ghanaian quinine), neem
 		- bacterial infections: 
 			- keto diet, probiotic kefir/kombucha (broad-spectrum probiotics like Garden of Life with multiple strains)
 			- general antimicrobials: ginger, clove, holy basil, black seed oil, garlic, honey, echinacea, goldenseal, oregano, CBD, banyan
@@ -70,6 +71,8 @@
 			- tuberculosis: barberry/garlic/black seed oil/basil/red sage to directly kill bacteria (vitamin d, horsetail (silica), ginseng, propolis, pineapple, licorice, orange, probiotics (acidophilus), vitamin A/B6, copper, zinc, magnesium, calcium to support recovery) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8448615/ (Medicinal plants and natural products showing in vitro anti-TB activity)
 			- leprosy: zinc, vitamin A/D, omega 3s, CBD, Bacillus Calmette-Guérin (BCG) vaccination
 			- mrsa: alysicarpus monilifer (necklace-pod alyce clover), colloidal silver, tea tree, green tea, cocoa, asian ginseng, garlic, cranberry with aloe vera
+			- lyme disease: especially cryptolepis sanguinolenta (Ghanaian quinine)
+				- also juglans nigra (black walnut), polygonum cuspidatum (japanese knotweed), artemisia annua (sweet wormwood), uncaria tomentosa (cat’s claw), istus incanus, scutellaria baicalensis (chinese skullcap), cinnamon bark, clove bud, citronella, wintergreen, oregano, garlic, stevia
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (soy, broccoli, cabbage, brussel sprouts, millet)
