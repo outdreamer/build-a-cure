@@ -21,13 +21,14 @@
 
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
-			- pomegranate/berries, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), coconut, modified citrus pectin, rosemary, sage, and ashwagandha
+			- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), coconut, modified citrus pectin, rosemary, sage, and ashwagandha
 
 	- fix your other medical problems so you can fight cancer better
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
 		- viral infections: 
-			- general antivirals: NAC, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, turmeric, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
+			- general antivirals: NAC, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, turmeric, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
 			- polio: doum palm, guazuma ulmifolia (west indian elm), neem
 			- murine cytomegalovirus (mcmv): nigella sativa (black seed oil)
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
