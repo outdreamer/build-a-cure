@@ -202,7 +202,7 @@
 				- vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen
 				- avoid triggers like erythritol
 			- dementia: 
-				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury—and air pollution
+				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
 			- alzheimers: 
 				- 40hz waves, hibiscus, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
@@ -216,7 +216,7 @@
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
         - gastrointestinal problems:
         	- ibd: 
-        		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods
+        		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
 	        - colitis: 
 	        	- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum
         - gallstones:
