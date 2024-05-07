@@ -22,6 +22,16 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), coconut, modified citrus pectin, rosemary, sage, and ashwagandha
+			- chlorogenic acid is a safe alternative to temozolomide for people with organ damage
+				- https://pubmed.ncbi.nlm.nih.gov/31660066/
+			- curcumin can be optimized for delivery to the brain, so buy it in this form rather than normal turmeric
+				- https://www.sciencedirect.com/science/article/abs/pii/S0378517320304609
+			- avoid vitamin E supplements or in oil
+			- some supplements can either help or hurt cancer, such as CBD/quercetin
+		- some combinations of herbs have been tried successfully for brain cancer for a period of 2 - 4 years (with TMZ, radiation, surgery, and dexamethasone)
+			- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, common hop, st john's wort, evergreen creeper, catnip, Artemisia absinthium (common wormwood), Artemisia vulgaris (common mugwort), greater celandine, Erythrea centaurium, Calendula officinas (marigold), Capsella bursa-pastoris (shepherd's purse), Betula pendula Roth (common birch), basil, Althaea officinas (marshmallow)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
+				- note the dosing of wormwood twice a day for higher intensity requirements
 
 	- fix your other medical problems so you can fight cancer better
 		- fungal infections:
@@ -245,6 +255,143 @@
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
 		- https://en.wikipedia.org/wiki/List_of_herbs_with_known_adverse_effects
+
+
+	- useful general cancer targets
+
+		- induce cancer cell differentiation
+			- chlorogenic acid
+				- https://pubmed.ncbi.nlm.nih.gov/31660066/
+
+		- cancer target-related mechanisms of anticancer treatments
+
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/31223280/
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9657392/
+
+			- increased by anticancer treatments (such as modified citrus pectin, holy basil, thunder god vine, turmeric, ashwagandha, resveratrol)
+				- Bax, Par-4, thymidylate synthase, E-cadherin, P53/PTEN signaling, Notch 2/4, c-Jun-NH2-kinase-mediated apoptosis, p53, vimentin, GSH, PAI-1, TIMP-2, Fas/PARP/caspase-3/8/9, glutathione/peroxidase, jun N-terminal kinase (p-JNK), antioxidant/anti-inflamatory/apoptotic activity
+				- p38, forkhead box O1 (FOXO1), PTEN, Foxo3a, Raf/MAPK kinase (MEK)/ERK1/2, stress-activated protein kinase (SAPK)/JNK MAPK, CDK inhibitors p21/p27, p53, apoptosis signal-regulating kinase 1 (ASK1), JNK activator, mitogen-activated protein kinase kinase 4 (MKK4, Cyto-c, caspase-3/8/9, PARP, p21, apoptotic protease activating factor-1 (Apaf-1), sirtuin 1 (SIRT1), Bax, Bcl-2-associated death promoter (Bad), TFEB/lysosome pathway, AMPK
+			
+			- decreased by anticancer treatments (such as modified citrus pectin, holy basil, thunder god vine, turmeric, ashwagandha, resveratrol)
+				- TRP ion channel called TRPV2/4, TRPM2, IKK kinase, EMT, N-cadherin, MMP-1/2/7/9, FoxO, PI3K, Akt, pRB, mTOR, E6/E7, Zap70 kinase, heat shock protein 90, Bcl-2/B-cell lymphoma-extra large (Bcl-xL), ERα, protein kinase C, chymotrypsin, PCNA, CD31, B/T lymphocytes (E/EAC rosette formation by B/T lymphocytes), p65, ROS, RNS, MAPK, aldose reductase, tyrosine kinase, LPS-stimulated cyclooxygenase (COX-2) macrophages, nuclear tumour necrosis factor (TNF)-induced factor-B (NF-κB), leukotriene C4 and 5-lipoxygenase (5-LOX), TNF-α, neutrophil, inflammatory cytokines, ovalbumin-specific IgE levels, interleukin-1/4/5/6, Th2-type immune response, myeloperoxidase (MPO), dna oxidation, prostaglandin-E2, iron-mediated lipid peroxidation, hexanal oxidation, copper-dependent LDL oxidation, survivin, WA4 cell cycle in the G1 phase, STAT3, VEGF, Wnt/b-catenin, zinc finger E-box binding homeobox 1/snail1/twist1, cyclin A/B/D/E, and cyclin-dependent kinase-1, HIF-1 alpha, tyrosine kinase receptor (AXL), GSK-3b, JAK, Notch-1, NF-jB, EGFR/VEGF, hairy and enhancer of split-1 (HES-1), octamer-binding transcription factor 4 (Oct4), intercellular adhesion molecular-1 (ICAM-1), cyclin-dependent kinase (CDK) 2/6, c-myc, androgen receptor (AR), anti-apoptotic myeloid cell leukemia-1 (Mcl-1), Yes-associated protein (YAP), miR-7641, miR-130a, miR-21, miR-125a-5p
+
+		- decrease inflammation and survival biomarkers
+			- decrease TNFR2, TRAF2, MEKK, JNK, AP-1, IKK, NIK, RIP
+			- decrease MMP-1/2/7/9, COX-2, TNF-a, MAPK, NF-kB
+				- turmeric
+
+		- decrease proinflammatory cytokines
+			- decrease TNF-a, IL-6, IL-1β
+				- berberine
+
+		- induce autophagy
+			- increase LC3
+				- black seed oil, quercetin, kaempferol
+
+		- inhibit EMT
+			- increase E-cadherin
+				- rosemary, cinnamon, quercetin
+			- decrease vimentin
+				- rosemary, ashwagandha
+			- decrease snail/slug
+				- rosemary
+			- decrease TGF-β induced EMT activation
+				- tannic acid (Syzygium guineense, Gall nuts)
+			- reversal of the EMT (epithelial-mesenchymal transition) process
+				- proanthocyanidins (grape seeds)
+
+		- inhibit angiogenesis
+			- decrease VEGF, MMP
+				- turmeric
+			- decrease HIF-1a
+				- sulforaphane
+
+		- inhibit pro-survival signaling pathways
+			- decrease Notch-1, EGFR, NF-kB, PI3K/Akt/mTOR, Wnt/B-catenin, ERK/MAPK, COX-2
+				- turmeric
+			- decrease PGE-2
+				- holy basil
+
+		- decrease cell growth and proliferation, growth factors and receptors
+			- decrease RAS, RAF, MEK, RSK, TSC1/2, GDP, RHEB, GTP, PRAS40, MLST8, Deptor, Raptor
+			- decrease ERK
+				- chinese skullcap, black seed oil, ellagic acid, wormwood/artemisinin, magnolia/honokiol
+			- decrease PI3K, AKT, AR, VEGF, ERR-a, TNF-a, mTOR
+				- turmeric
+			- increase FAS-L
+				- turmeric
+
+		- arrest cell cycle
+			- decrease CDK 1/4
+				- ginseng
+			- decrease cyclin A
+				- linalool
+			- decrease cyclin E
+				- holy basil, lycopene
+			- decrease CDK 2/6, CDC2/25, Cyclin B/D
+				- turmeric
+			- increase p53, p21, p27
+				- turmeric
+			- increase G0/G1/G2/M/S cell cycle phase arrest
+
+		- induce apoptosis
+			- increase caspase 4/6/10
+			- increase caspase 7
+				- ginseng
+			- increase caspase 3/8/9, Cytochrome C, APAF-1, PARP, PUMA, BAD, BAX
+				- turmeric
+			- decrease BCL-2/xl, MCL-1, survivin, XIAP
+				- turmeric
+			- increase TRAIL-induced extrinsic apoptosis
+				- tannic acid
+
+		- change protein kinases
+			- decrease JAK-1/2, AKT, PI3K, PGK1, GSK-3b
+				- turmeric
+			- increase AMPK, JNK, ASK1, ERK, MKK, p38
+				- turmeric
+
+		- change transcription factors
+			- decrease p65, Wnt/B-catenin, Notch-1, Oct-4, c-REL, mTOR, STAT-1/3, NF-KB
+				- turmeric
+			- increase FOX01, TFEB
+				- turmeric
+
+		- decrease oncoproteins and onco-mirs
+			- decrease c-myc, mir-130a, mir-183, DNp73, mir-7641, mir-96, mir-214, mir-21, mir-182, mir-125a-5p
+				- turmeric
+
+		- increase tumor suppressors
+			- increase TAp73, mir-30c, PTEN, mir-344a-3p, mir-491, mir-124, mir-145, mir-143, mir-138, mir-98, mir-215, mir-200c, mir-33b, mir-330-5p, mir-7, mir-192-5p, mir-125a
+				- turmeric
+
+		- decrease CSC markers 
+			- decrease DCLK1
+				- honokiol
+			- decrease CD44
+				- honokiol, genistein, resveratrol
+
+		- decrease Gli-1
+			- turmeric
+			- decrease Hedgehog-Gli signaling
+				- genistein
+
+
+		- other unique effects of anticancer substances
+
+			- Honokiol (Magnolia officinalis)
+				- increase Jagged-1 and Hes-1
+			- Epigallocatechin gallate (EGCG)
+				- decrease PKD1 activation
+			- Methyl antcinate A (Antrodia camphorate)
+				- decrease heat shock protein 27, increase of IkBα
+			- Resveratrol (Grapes)
+				- decrease ALDH1
+			- Guggulsterone (Commiphora mukul)
+				- decrease cIAP1/2, increase of truncated Bid
+			- Paclitaxel (Pacific yew tree)
+				- increase MEK-independent signaling pathway
+
 
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
 		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask or using the IQ Air multi-gas air purifier)
@@ -576,6 +723,10 @@
 			- binding of MCP to galectin-3 inhibited tumor growth, angiogenesis, and metastasis
 		- induce apoptosis (modified citrus pectin, quercetin chalcone)
 			- https://pubmed.ncbi.nlm.nih.gov/11134977/
+			- Campomanesia xanthocarpa pectin
+				- https://pubmed.ncbi.nlm.nih.gov/31472853/
+			- fractionated pectin powder
+				- https://pubmed.ncbi.nlm.nih.gov/17513886/
 		- inhibit HMGB1 (glycyrrhizin)
 			- High mobility group B1 (HMGB1) has been recognized as a proinflammatory cytokine and more recently, as a proangiogenic factor
 			- HMGB1 itself may signal through the receptor for advanced glycation end products (RAGE), and via toll-like receptors, TLR2 and TLR4
@@ -775,7 +926,7 @@
 				Icaritin/C21H20O6 - increase caspase 3- 9, increase p53 and decrease Akt/mTOR pathway
 				Gundelia tournefortii/Stigmasterol - increase ROS, increase caspase 3 and 9, Bax, increase BAk, increase cym-c, decrease VEGFA, decrease MMP 2,9 and 14
 				Vitex Agnus-castus L./Casticin - increase FOXO3a, decrease FoxM1, decrease survivin, decrease PLK1, p27KLP1
-				Carya cathayensis Sarg/Juglone - increase ROS, increase p21, increase Bax, increase Bad, increase Cyto c, decrease CDK2, cdc25A, CHK1, and cyclin A, decrease Bcl-2 and Bcl-xL, decrease Cyclin A, S-phase cell cycle arrest
+				Carya cathayensis Sarg/Juglone - increase ROS, increase p21, increase Bax, increase Bad, increase Cyto c, decrease CDK2, cdc25A, CHK1, and cyclin A, decrease Bcl-2 and Bcl-xL, S-phase cell cycle arrest
 				Scutellaria baicalensis Georgi/Baicalin and Baicalein - decrease VEGF, HIF-1α, cMyc, and NFκB
 				Potamogeton crispus L./Luteolin-3’-O-β-D-glucopyranoside - decrease MMP-2, decrease MMP-9, G1/S phase arrest
 				Artemisia annua/artesunate - increase ROS, increase p21, decrease CDKs, decrease Rb, decrease E2F-1, decrease CDC25C, G2/M cell cycle arrest
@@ -800,7 +951,7 @@
 				Carpobrotus edulis/Rutin - increase caspase 3, G0/G1 phase arrest
 				Scutellaria baicalensis/Baicalin and Baicalein - decrease hTERT, decrease MAPK, decrease ERK, increase p38
 				Nicotiana glauca/Scopoletin - decrease ERK1, decrease VEGF-A, decrease FGF-2
-				Morus australis/Morusin - decrease PI3K/Akt, decrease PDK1, decrease XIAP, decrease cMyc, decrease NFκβ, increase caspase-3, 8 and 9, G1 phase arrest
+				Morus australis/Morusin - decrease PI3K/Akt, decrease PDK1, decrease XIAP, decrease cMyc, decrease NF-κβ, increase caspase-3, 8 and 9, G1 phase arrest
 				Allium sativum/Diallyl disulphide - decrease GSK3β, decrease NFκβ
 				Nandina domestica/Protopine - increase p53, increase p21, increase Bax, increase caspase-3 and 7, increase LC3-II
 				Nigella sativa/Thymoquinone - increase LC3-II, increase p62, decrease MMP 2 and 9, decrease FAC, decrease Nf-kβ, decrease ERK, decrease Akt, decrease mTOR
@@ -924,8 +1075,9 @@
 				Piper longum/Piperlongumine - increase p-elF2α, decrease Δ Ψm, increase ATF4, increase CHOP, decrease TrxR1
 				Chrysanthemum parthenium/Parthenolide - decrease NFκβ, decrease VEGF, decrease c-jun, decrease c-Fos
 				Solanum nigrum L./Degalactotigonin - decrease Hedgehog Gli1, decrease GSK3β
+				Ethoxy Mansonone G (Mansonia gagei) - decrease estrogen‐induced cell proliferation
 
-
+		- https://www.sciencedirect.com/science/article/pii/S0753332222004437
 
 - cancer variables
 
@@ -1157,9 +1309,12 @@
 
 	- general treatment strategies
 
+		- galactose to bind to gal-3
+			- Galactose is found in dairy products, avocados, sugar beets, and modified citrus pectin
+
 		- ketogenic diet
 			- Foods that are beneficial for glioblastoma patients include ketogenic foods such as coconut oil, cheese
-    			- Plenty of vegetables such as broccoli, asparagus, cucumber should also be consumed
+    			- Plenty of vegetables such as broccoli, asparagus, mushrooms, cucumber should also be consumed
     			- Processed foods and drinks high in sugar such as sodas should be avoided
 
 		- for patients with organ damage, a subset and sequence of strategies are useful
@@ -1373,6 +1528,7 @@
 			- inhibits STAT3 pathway
 			- inhibits PI3K/Akt pathway
 		- genistein
+			- decrease Hedgehog-Gli signaling, p53 stabilization through APE1 pathway
 			- genistein reduced cell damage caused by oxidative stress in the A549 cell line
 			- it reduced ROS and the antioxidant component glutathione
 			- genistein has an effect on the methylation status of DNA
@@ -1451,6 +1607,7 @@
 				- suppressed ERK1/2 and P90RSK phosphorylation while activating AKT and S6 phosphorylation
 				- decreased the expression of pro-survival regulators AKT, Mcl-1, and ERK which boosted the antitumour activity of ABT-263 in cancer cells
 				- increases p53 accumulation, through increased Bax
+				- alteration of Raf-1 kinase mediating apoptosis
 				- modulates the nuclear factor-kappaB signalling pathway
 				- inhibits the production of the chemokines interleukin-6 and interleukin-1, which are released in response to tumour necrosis factor alpha
 				- increases thymidylate synthase expression, which makes cancer cells more vulnerable to apoptosis induced by 5-fluorouracil
@@ -1465,7 +1622,7 @@
 				- apoptosis was induced by apigenin treatment, linked to an elevated Bax/Bcl-2 ratio, which indicates a shift favouring apoptosis
 				- When exposed to apigenin, Bcl-xL and Bcl-2 levels were found to decrease, while Bax protein levels were found to rise
 			- carvacrol
-				- deactivate TRPV4/TRPM2, leading to an increase of cROS, mROS, lipid peroxidation, apoptosis, cell death, cCa2+ concentration, caspase -3, and caspase -9 levels were restored via upregulation of glutathione and glutathione peroxidase
+				- deactivate TRPV4/TRPM2, leading to an increase of cROS, mROS, lipid peroxidation, apoptosis, cell death, cCa2+ concentration, caspase-3, and caspase-9 levels were restored via upregulation of glutathione and glutathione peroxidase
 				- https://pubmed.ncbi.nlm.nih.gov/34989943/
 				- Inhibition of the viability and proliferation of cancer cells and induction of early apoptotic characteristics
 				- Tyrosine kinase receptor (AXL) expression was suppressed and malondialdehyde (MDA) and 8-hydroxy-2′-deoxyguanosine (8-OHdG) levels were raised
@@ -1562,8 +1719,8 @@
 		- turmeric/curcumin/curcumol
 			- suppresses the signal transducer and activator of transcription 3 (STAT3) and nuclear factor kappa B (NF-κB) signaling pathways
 			- promote apoptosis and cause down-regulation of epidermal growth factor receptor (EGFR), protein kinase B (Akt), and cMET cyclin D1 
-			- inhibits cell proliferation, cell cycle arrest, and stimulate apoptosis by modulating other transcription factors like activator protein 1 (AP-1), early growth response protein 1 (Erg-1), p53, -catenin, Notch-1, hypoxia-inducible factor 1 (HIF-1), and peroxisome proliferator-activated receptor alpha (PPAR-α) 
-			- signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
+			- inhibits cell proliferation, cell cycle arrest, and stimulate apoptosis by modulating other transcription factors like activator protein 1 (AP-1), early growth response protein 1 (Erg-1), p53, B-catenin, Notch-1, hypoxia-inducible factor 1 (HIF-1), and peroxisome proliferator-activated receptor alpha (PPAR-α) 
+			- inhibition of signaling pathways (NF-jB, MAPK, PI-3K/AKT, and GSK-3b) associated with cell proliferation, survival, anti-apoptosis, invasion and metastasis
 			- https://www.researchgate.net/publication/340629926_Therapeutic_Effects_of_Curcumol_in_Several_Diseases_An_Overview
 		- piperlongumine (from Indian Long Pepper plant, Piper longum)
 			- binds to and hinders the activity of a protein called TRPV2, which is overexpressed in glioblastoma in a way that appears to drive cancer progression
@@ -1599,7 +1756,7 @@
 				- Sugiol has been shown to inhibit the oncogenic protein STAT3
 				- inhibits the enzyme transketolase, leading to a build up of reactive oxygen species (ROS) and stress-induced cell death
 					- Reactive oxygen species are highly reactive, and can damage cellular mechanisms by oxidizing critical molecules
-				- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6
+				- downregulates inflammatory genes such as NF-κB, COX-2, TNF-alpha, IL-1β, and IL-6
 		- other related compounds
 			- antifungals
 				- citicoline
@@ -1847,7 +2004,7 @@
 					- http://www.wired.com/wiredscience/2013/09/fda-arsenic-and-rice/
 			- Ionizing radiation/Ultraviolet light/Infrared light
 			- air pollutants	
-				- wear a Sundstrom mask (or use an activated carbon filter in your own mask) wherever possible, especially under chemtrails, around airports, in high ozone/pollution areas, when not in a room with good air filters
+				- wear a benzene mask (or use an activated carbon filter in your own mask) wherever possible, especially under chemtrails, around airports, in high ozone/pollution areas, when not in a room with good air filters
 				- use air scrubbers to filter your air or air filters which filter most pollutants out
 				- specific mechanisms of carcinogenic air pollution particles
 		    		- carcinogenic compounds in air pollution include: carbon black, ozone, iron-rich nanoparticles (such as iron oxide), magnetite, maghemite, aluminium and titanium
@@ -3083,7 +3240,7 @@
 			- NRF2 appears to participate in a complex regulatory network and performs a pleiotropic role in the regulation of metabolism, inflammation, autophagy, proteostasis, mitochondrial physiology, and immune responses
 		- HMOX1 (heme oxygenase 1 gene) encodes the enzyme heme oxygenase 1
 			- HO-1 deficiency in normal cells enhances DNA damage and carcinogenesis. Nevertheless, HO-1 overexpression in cancer cells promotes proliferation and survival
-		- inhibit inflammatory genes/cytokines (NF-κB, COX-2, TNF-alpha, IL-1beta, and IL-6)
+		- inhibit inflammatory genes/cytokines (NF-κB, COX-2, TNF-alpha, IL-1β, and IL-6)
 
 
 	- inhibit pathways
