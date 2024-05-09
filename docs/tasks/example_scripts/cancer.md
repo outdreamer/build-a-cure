@@ -1328,6 +1328,7 @@
 
 		- hormone-sensitive cancers
 			- ginseng, soy are contraindicated
+			- puerarin is contraindicated when used in combination with tamoxifen and in hormone-sensitive cancer
 
 		- autoimmune disease
 			- astragalus is contraindicated
@@ -2862,7 +2863,7 @@
 			- inhibit bacterial/eukaryal DNA clamps
 				- Inhibitors of bacterial (β-clamp) and eukaryal DNA clamps can also inhibit proliferating cell nuclear antigen (PCNA) (B clamps and PCNA are structurally similar)
 				- https://www.frontiersin.org/articles/10.3389/fmolb.2018.00087/full#:~:text=Inhibitors%20of%20bacterial%20%28β-clamp%29%20and%20eukaryal%20DNA%20clamps%2C,inhibitors%2C%20natural%20products%2C%20and%20modified%20non-steroidal%20anti-inflammatory%20drugs.
-			- increase T2AA to inhibit PCNA
+			- decrease T2AA to increase PCNA
 				- T2AA is a small molecule analog of triiodothyronine (T3) that inhibits translesion DNA synthesis (Punchihewa et al., 2012). 
 				- T2AA was found to inhibit PCNA interaction with p21 and PolΔ  by binding in the PIP site
 				- thyroid hormone 3,3′,5-triiodothyronine (T3) is a potent inhibitor of the PCNA–PIP peptide interaction
