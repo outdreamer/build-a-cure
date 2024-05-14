@@ -29,6 +29,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identifying structures like iterations/spectrums/levels of interface structures that intersect with relevance in predictable/identifiable positions/ways is useful to identify useful/relevant structures and apply them as default interface query components
+        - for example, an iterated interface structure like 'simple rules of simple rules of simple rules' has a point in its iterations where it becomes 'relevant' (simple rules on their own are generally irrelevant, but 'simple rules of simple rules' like 'simple rules are generally wrong' are generally more relevant), as the levels of iteration cross relevance at some points, so identifying these structures like 'iterated interface structures with a spectrum/level' which cross relevance at some positions and identifying those positions is useful to identify useful base structures of interface queries
+
     - identifying useful structures like 'unused variants of graphs like "interface structures in systems" which embed useful variables like relevance (determining interface variables)' as well as useful interface structures of interface structures like interactions between workflows like 'change a base solution' and 'generate/filter'
         - for example, the reverse like 'filter/generate' abstraction like 'generate/filter' of a workflow like 'generate solutions/filter solutions' is also useful and can be integrated with problem/solution structures in a way that implements another workflow like 'change a base solution'
             - 'reversible sequences' like 'filter/generate' (break a solution into variables and re-combine them to create other solutions) and 'generate/filter' are useful interface structures of interface structures
