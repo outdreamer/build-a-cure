@@ -68,7 +68,7 @@
 				- ultrasound
 					- ultrasound devices can be used for surgery by a professional
 				- infrared
-					- all infrared devices should be avoided
+					- all infrared devices should be avoided, they can cause cancer
 			    - electromagnetic
 			        - OMI (can cause cancer)
 			            - 210 microtesla or 2 Gauss
