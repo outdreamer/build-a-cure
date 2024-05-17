@@ -41,6 +41,21 @@
 
 - targets
 
+	- combinations of different inhibitor types that were synergistic
+		- WEE1 and PLK1 inhibitors + TOP1 inhibitor
+		- CHEK1 inhibitor + TOP1 inhibitor
+		- https://www.nature.com/articles/s41586-022-04437-2?fromPaywallRec=true
+		- HDAC1 inhibitors, 5-HT receptor inhibitors, autocrine growth factor inhibitors, anti-angiogenics, Nrf2 inhibitors, and CAIs (carbonic anhydrase inhibitors) with sulforaphane/curcumin specifically as combination therapies for cancer 
+			- combination therapy regimen that includes the targeting of VEGF/NRP interaction, while simultaneously displaying anti-PI3K-AKT activity
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5514969/
+		- combinations used in specific cancer types:
+			- combination of steroids (cortisone, prednisone or dexamethasone), antimetabolites (antifolates as in 'folic acid antagonists', aminopterin, amethopterin or 6-mercaptopurine) and alkylating agents (melamine or nitrogen mustard)
+			- combination of a proteasome inhibitor, a JAK inhibitor and a PI3K/mTOR inhibitor 
+			- Many tumors overexpress one or more cell-surface markers like integrins, hormone receptors such as EGFRs, GPCRs, and immunoregulatory proteins
+			- other inhibitors used in combination with an anti-cancer drug to increase effects of the drug: phosphoglycerate dehydrogenase (PHGDH) inhibitors, MEK inhibitors, PARP inhibitors
+			- inhibit GATA2-controlled NF-κB and RHO/ROCK signaling pathways when undruggable targets like KRAS are mutated
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7915944/
+
 	- activate Schlafen11 (SLFN11)
 		- EZH2 downregulates Schlafen11, so EZH2 inhibitors can upregulate it
 			- inhibit EZH2:
@@ -48,7 +63,7 @@
 		- upregulation of SLFN11 by the brain-penetrant histone deacetylase-inhibitor RG2833
 			- https://pubmed.ncbi.nlm.nih.gov/36273330/
 		- brain-penetrating HDAC inhibitors include curcumin/berberine
-		
+
 	- MDR genes, such as MDR1 and MDR2, are highly responsible for anticancer resistance, since they increase epigenetic gene expression, EMT, and anti-apoptotic factors and significantly decrease P53 tumor antigens
 		- the most common drug resistance mechanism is the efflux of hydrophobic drugs, mediated by ATP-dependent ABC transporters, such as P-gp, an integral membrane protein that is overexpressed in various malignancies
 		- the broad substrate specificity and abundance of ABC transporter proteins represent significant challenges to circumventing ABC-mediated MDR in vivo. However, several new drugs, small molecules, and monoclonal antibodies have been identified that directly target oncogenic factors. 
