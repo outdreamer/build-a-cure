@@ -41,6 +41,14 @@
 
 - targets
 
+	- activate Schlafen11 (SLFN11)
+		- EZH2 downregulates Schlafen11, so EZH2 inhibitors can upregulate it
+			- inhibit EZH2:
+				- methyl jasmonate, tanshindiols/danshen, curcumin, EGCG
+		- upregulation of SLFN11 by the brain-penetrant histone deacetylase-inhibitor RG2833
+			- https://pubmed.ncbi.nlm.nih.gov/36273330/
+		- brain-penetrating HDAC inhibitors include curcumin/berberine
+		
 	- MDR genes, such as MDR1 and MDR2, are highly responsible for anticancer resistance, since they increase epigenetic gene expression, EMT, and anti-apoptotic factors and significantly decrease P53 tumor antigens
 		- the most common drug resistance mechanism is the efflux of hydrophobic drugs, mediated by ATP-dependent ABC transporters, such as P-gp, an integral membrane protein that is overexpressed in various malignancies
 		- the broad substrate specificity and abundance of ABC transporter proteins represent significant challenges to circumventing ABC-mediated MDR in vivo. However, several new drugs, small molecules, and monoclonal antibodies have been identified that directly target oncogenic factors. 

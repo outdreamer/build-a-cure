@@ -3399,11 +3399,21 @@
 				- https://europepmc.org/article/MED/33283949
 		- decrease EZH2
 			- enhancer of zeste homolog 2 (EZH2) has emerged as a novel anticancer target
+			- EZH2 inhibits genes responsible for suppressing tumor development, and blocking EZH2 activity may slow tumor growth
+			- EZH2 has been targeted for inhibition because it is upregulated in multiple cancers
 			- GSK343 directly inhibits EZH2 enzyme activity through an S-adenosyl-l-methionine-competitive pathway
-			- GSK343 induced autophagic cell death of cancer cells
-			- GSK343 enhanced the anticancer activity of a multikinase inhibitor, sorafenib
-			- GSK343 acts as an autophagy inducer
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4276571/
+				- GSK343 induced autophagic cell death of cancer cells
+				- GSK343 enhanced the anticancer activity of a multikinase inhibitor, sorafenib
+				- GSK343 acts as an autophagy inducer
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4276571/
+			- C-myc leads to PTEN upregulation inhibiting the PI3K/AKT signaling pathway resulting a decreased inhibition of EZH2
+				- EZH2 inhibition leads to upregulation of Schlafen11 which is a powerful chemotherapy sensitizer
+				- so PTEN upregulation (which increases EZH2) may not always be helpful and patients may need to either avoid it, alternate it with EZH2 inhibition, or keep PTEN upregulation beneath a specific threshold to avoid over-increasing EZH2 and thereby over-decreasing Schlafen11
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8323716/
+			- A major class of small-molecule inhibitors of EZH2 is the SAM-competitive inhibitors, such as EPZ005687, EI1, GSK126, UNC1999, GSK503, and EPZ-6438
+			- methyl jasmonate, tanshindiols/danshen, curcumin, EGCG inhibit EZH2
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7697020/
+				- https://www.sciencedirect.com/science/article/pii/S2666335X23000319
 		- decrease AP-2α to deactivate EZH2
 			- AP-2α facilitates melanoma metastasis through transcriptional activation of genes within the E2F pathway including EZH2
 		- inhibit miR-26a to increase AP-2α to decrease MGMT
