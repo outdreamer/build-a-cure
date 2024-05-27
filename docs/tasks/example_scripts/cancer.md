@@ -325,6 +325,15 @@
 
 	- useful general cancer targets
 
+		- inhibit YB-1, an activator of mTOR/MDR1, activated by MAPK/ERK
+			- curcumin
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5964053/
+			- Luteolin, a flavone, suppresses Notch4 signaling (by preventing activation of YB-1 pathway)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7705812/
+			- Grape Seed Procyanidin Reversal of P-glycoprotein Associated Multi-Drug Resistance via Down-regulation of NF-κB and MAPK/ERK Mediated YB-1 Activity
+				- GSP suppresses MDR1 and p-gp by inhibiting YB-1 activation via MAPK/ERK pathway inhibition, and also down-regulated NF-κB
+					- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071071
+
 		- induce cancer cell differentiation
 			- chlorogenic acid
 				- https://pubmed.ncbi.nlm.nih.gov/31660066/

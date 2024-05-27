@@ -36,7 +36,9 @@
 					- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents
 					- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
 
-
+				- Grape Seed Procyanidin Reversal of P-glycoprotein Associated Multi-Drug Resistance via Down-regulation of NF-κB and MAPK/ERK Mediated YB-1 Activity
+					- GSP suppresses MDR1 and p-gp by inhibiting YB-1 activation via MAPK/ERK pathway inhibition, and also down-regulated NF-κB
+						- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071071
 
 
 - targets
