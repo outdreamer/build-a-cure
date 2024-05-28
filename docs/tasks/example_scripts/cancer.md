@@ -21,13 +21,14 @@
 
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
-			- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), coconut, modified citrus pectin, rosemary, sage, and ashwagandha
-			- chlorogenic acid is a safe alternative to temozolomide for people with organ damage
+			- 'cancer treatment with organ damage' diet:
+				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts, macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
+			- chlorogenic acid is a safer alternative to temozolomide for people with organ damage
 				- https://pubmed.ncbi.nlm.nih.gov/31660066/
-			- curcumin can be optimized for delivery to the brain, so buy it in this form rather than normal turmeric
+			- curcumin can be optimized for delivery to the brain, so either eat turmeric with black pepper or alternately, buy it in this form rather than normal turmeric
 				- https://www.sciencedirect.com/science/article/abs/pii/S0378517320304609
 			- avoid vitamin E supplements or in oil
-			- some supplements can either help or hurt cancer, such as CBD/quercetin
+			- some supplements can either help or hurt cancer, such as CBD/quercetin, depending on the cancer state/type
 		- some combinations of herbs have been tried successfully for brain cancer for a period of 2 - 4 years (with TMZ, radiation, surgery, and dexamethasone)
 			- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
@@ -94,6 +95,8 @@
 		- viral infections: 
 			- general antivirals: NAC, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, turmeric, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
+				- additional herbs used for respiratory viruses: 
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384428/
 			- polio: doum palm, guazuma ulmifolia (west indian elm), neem
 			- murine cytomegalovirus (mcmv): nigella sativa (black seed oil)
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
@@ -116,9 +119,12 @@
 				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983620/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249135/
-			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551890/ - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
+			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) 
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551890/
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
 			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort
-			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
+			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw) 
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
 			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort
 			- smallpox: neem
 			- avoid: CBD and other immunosuppressants
