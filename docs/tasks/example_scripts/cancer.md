@@ -22,7 +22,10 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts, macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
+				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts, macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
+				- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care):
+					- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
+					- if your microbiome is messed up, you wont be able to fight cancer optimally
 			- chlorogenic acid is a safer alternative to temozolomide for people with organ damage
 				- https://pubmed.ncbi.nlm.nih.gov/31660066/
 			- curcumin can be optimized for delivery to the brain, so either eat turmeric with black pepper or alternately, buy it in this form rather than normal turmeric
