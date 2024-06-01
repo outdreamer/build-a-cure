@@ -10,8 +10,19 @@
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
+		- another way is identifying markers of injuries that stop cancer growth temporarily (like kidney damage) and checking if they are safe to take or increase and if they are effective at signaling to cancer cells to stop growing, or if its more of a 'energy diversion' reason
+			- Uromodulin (UMOD), also known as Tamm-Horsfall protein, is an 85-kDa glycoprotein exclusively produced by cells of the thick ascending limb of Henle
+				- implicated in regulation of salt homeostasis and conferring immunologic renal protection, including preventing infections and inhibiting nephrolithiasis
+				- biomarker for tubular mass and function 
+				- inversely associated with many kidney disease states
+				- direct marker of the amount of intact tubular cells of the ascending limb of the loop of Henle, so may represent a marker for the number of remaining functional tubules
+			- YKL-40, also known as chitinase 3-Dlike protein 1 (CHI3L1), is a 40-kDa inflammatory glycoprotein produced in a wide range of inflammatory cell types involved in modulating favorable responses to cellular damage (65). It has been hypothesized that this protein may signal the adaptive repair response following inflammation
+			- Biomarkers of tubular injury that are depicted include KIM-1 and NGAL, which are produced by proximal tubular cells early after kidney injury
+			- Biomarkers of tubular function that are depicted include L-FABP, CysC, and α1M, which are proteins that build up in the urine due to tubular dysfunction
+			- Biomarkers of inflammation that are depicted include IL-6 (increase with ginseng, reishi, bacillus subtilis, lactobacillus plantarum, alanine, cordyceps), IL-10 (increase with ginseng, bacillus subtilis, linoleic acid in most seeds/nuts, cordyceps), IL-18 (increase with palmitic acid in coconut oil, avoid DHA which decreases it), and MCP-1/CCL2, which are produced as part of the inflammatory response to injury
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7879424/
 		- similarly, a script to identify what 'symptoms/reactions from a specific supplement/diet mean' (like if corticosteroids hurt you, that means you probably had heart damage) would be useful to diagnose conditions without labwork or without reliable tests/known markers which is a lot of conditions
-	
+
 	- get an air pollution mask, an air purifier that filters out air pollution such as benzene, and a reverse osmosis water purifier, these arent optional for cancer treatment
 		- These are the solutions to avoid chemicals that I've been using:
 			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink Flow water instead of bottled water
@@ -2552,7 +2563,7 @@
 				- Suppression of cell viability, induction of apoptosis, endoplasmic reticulum stress	
 					Activation of factor C/EBP homologous protein and caspase-12
 				- Tumour growth inhibition	
-					Inhibition of epithelial mesenchymal transition by raising increasing the content of miR-1271
+					Inhibition of epithelial mesenchymal transition by increasing the content of miR-1271
 					Increase in the UHRF1D-NMT3 A-TAp73/ANp73 pathways
 					Binding with mTORC2 and inhibit its kinase activity
 					Reduction pAKT phosphorylation, block of cell cycle in S and G2/M phase

@@ -1,47 +1,80 @@
-			- treatments
-				- melatonin is associated with the downregulation of ABC transporter expression and function
-				- eicosapentaenoic acid/docosahexaenoic acid, BPTES, 968 (Bromo-di-benzophenanthridine), ticlopidine, clopidogrel, LMP- 20, statins, pantethine, and cystamine, have also been found to lower MP levels and have been used for the immunoprevention of multi-drug resistance in cancer 
-					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9262248/
-				- oestrogen receptor (ER) and androgen receptor (AR) antagonists, as well as BCR-ABL, HER2 and EGFR inhibitors
-					- https://www.nature.com/articles/s41586-019-1730-1
+- Epigenetic anticancer strategies (as opposed to genetic strategies, as epigenetic changes can also cause cancer on their own)
+	
+	- https://medicalxpress.com/news/2024-05-cancer-reversible-molecular.html
 
-				- Antrodia camphorate, berberine, resveratrol, and curcumin have been shown to regress CSCs, in terms of reversing drug resistance, inducing cell death and inhibiting cell proliferation as well as metastasis. Furthermore, one of the active compounds in coptis, berberine may inhibit tumor progression by modulating microRNAs to regulate CSCs
-					- https://pubmed.ncbi.nlm.nih.gov/27338343/
+	- Different cells in tumor tissues exhibit variable epigenetic modification patterns throughout the genome or at individual genes; this suggests that there is epigenetic heterogeneity at the cellular level [67]. The reversibility of abnormal DNA methylation and acetylation patterns is a common target of cancer treatment. Many small-molecule inhibitors targeting chromatin- and histone-modifying enzymes to reverse epigenetic alterations in tumors and restore the normal epigenetic state are successful as cancer therapeutics in clinical trials (Table 1). The therapeutic effect is variable in solid tumors owing to the lack of biomarker-driven targeted therapies, which leads to a highly heterogeneous response. The clinical benefits of epigenetic monotherapy remain unknown; however, our understanding of tumor epigenetic regulation has expanded, leading to progress in the analysis of epigenetic therapies in clinical trials.
 
-				- omega-3 fatty acids + (atorvastatin or aspirin) produce resolvins, which reduce tumor reoccurrence caused by dead cancer cells from previous treatments
-					- https://www.medicalnewstoday.com/articles/320227
+	- EZH2 Inhibitors
+		- https://jhoonline.biomedcentral.com/articles/10.1186/s13045-020-00937-8
 
-				- strategy for Aurora-A inhibitors in RB1, ARID1A and MYC gene mutation tumors, and potential synergistic strategy for mTOR, PAK1, MDM2, MEK inhibitors or PD-L1 antibodies combined with targeting Aurora-A kinase
-						- https://pubmed.ncbi.nlm.nih.gov/37521867/
-						- Aurora kinase A (Aurora-A), a serine/threonine kinase, plays a pivotal role in various cellular processes, including mitotic entry, centrosome maturation and spindle formation. 
-						- Overexpression or gene-amplification/mutation of Aurora-A kinase occurs in different types of cancer, including lung cancer, colorectal cancer, and breast cancer. 
-						- Alteration of Aurora-A impacts multiple cancer hallmarks, especially, immortalization, energy metabolism, immune escape and cell death resistance which are involved in cancer progression and resistance
-						- Specifically, the mechanisms of Aurora-A kinase promote acquired resistance through modulating DNA damage repair, feedback activation bypass pathways, resistance to apoptosis, necroptosis and autophagy, metastasis, and stemness
+	- other inhibitors
+		- https://www.nature.com/articles/s41420-024-01803-z?error=cookies_not_supported&code=f22b283d-caf7-45ce-ba07-892a59e4c554
 
-				- citicoline
-					- acetylcholinesterase (AChE) is a serine hydrolase whose primary function is to degrade acetylcholine and terminate neurotransmission, and is involved in cellular growth, apoptosis, drug resistance pathways, response to stress signals and inflammation
-					- combining an investigational Aurora Kinase A (AURKA) inhibitor with a KRAS inhibitor or a WEE1 inhibitor showed efficacy against lung cancer cells with intrinsic or acquired resistance to KRAS inhibition
-						- https://medicalxpress.com/news/2021-10-inhibition-aurora-kinase-protein-lung.html
+		- DNMT Inhibitors
+			Aberrant inherited DNA methylation and gene silencing accumulates in cancer cells. Pharmacological inhibitors of DNA methylation were developed to reverse epigenetic changes via DNMT inhibition. Azacitidine (AZA) and decitabine (DAC) are the first clinically used DNMT inhibitors (DNMTis) that have been approved by the FDA to treat myelodysplastic syndromes (MDS) [68, 69]. These two azanucleosides contain a nitrogen at the C-5 position of their pyrimidine ring that blocks the catalytic activity of DNMTs, resulting in DNMT1 degradation and genome-wide DNA hypomethylation, and facilitating the re-expression of tumor previously silenced by DNA methylation [70]. These inhibitors lead to the preferential upregulation of genes with promoter DNA methylation and exhibit high targeting selectivity in cancer cells.
 
-				- prevent apoptosis resistance
-					- fisetin
+			AZA is a safe and effective treatment option for patients with therapy-related myeloid neoplasms [71]. Meanwhile, DAC performs well in first-line and salvage therapy for patients with acute myeloid leukemia (AML) that have a poor prognosis and are not candidates for intensive chemotherapy [72]. Additionally, CP-4200 and SGI-110 are respective analogs of AZA and DAC that exhibit potential DNMT inhibitory activity in AML [73, 74]. MG98 is a promising human DNMT1 antisense inhibitor that does not require incorporation into DNA since it downregulates DNMT1 expression and cancer cell proliferation by reducing the cellular mRNA concentration in a dose-dependent manner in renal cell carcinoma [75]. Moreover, nanaomycin A has a selective inhibitory effect on DNMT3B and antiproliferative effects in hepatocellular carcinoma [76]. The antitumor efficacy and characteristics of these inhibitors define DNMT drivers and potential targets in cancer.
 
-				- Withania somnifera/Withaferin A
-					- decreased cell proliferation of U87, U251 and TMZ resistant GBM cell lines U87 TMZ, U251 TMZ, T98G and U138 in a concentration dependent manner, increased TMZ sensitivity by decreased MGMT expression, decreased tumor volume in rat orthotopic glioma allograft model, increased median survival of orthotopic xenograft mouse model by 40%
+		- HDAC inhibitors
+			Cancer often exhibits abnormal acetylation modifications that can lead to the silencing of key tumor suppressor genes [77]. HDAC inhibitors (HDACis) can block HDAC deacetylase activity. This restores cellular acetylation homeostasis and results in unrestricted HAT activity. This leads to increased gene transcription and ultimately triggers a series of biological responses to hinder tumor cell growth or survival, including chromatin remodeling, tumor suppressor gene transcription, growth inhibition, and apoptosis. In particular, the main mechanism of HDACis is the activation of intrinsic apoptosis pathways [78]. HDACis selectively target tumor cells in preclinical studies. This results in the approval of several drugs to treat certain hematologic malignancies.
 
-				- Baicalin (Chinese skullcap)
-					- baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
+			HDACis highlight treatment stratification in solid tumors. For example, non-YAP1-driven small cell lung cancer (SCLC) and brain tumors with IDH1/2 mutations represent cancer subsets that are suitable for HDAC-targeted therapy [79]. HDACis are divided into selective and nonselective inhibitors according to target selection. The most widely studied and commonly used are non-selective HDACis. Vorinostat (SAHA) and romidepsin (depsipeptide) have been approved by the FDA for the treatment of cutaneous T-cell lymphoma (CTCL) [80, 81], whereas belinostat (Beleodaq/PXD101) and panobinostat (LBH-589) have been approved for the treatment of peripheral T-cell lymphoma and multiple myeloma (MM), respectively [82, 83]. The emergence of selective HDACis provides a reliable tool to resolve the function of HDAC subtypes, and a safer and more effective option than broad-spectrum HDACis. Trichostatin A (TSA) is an inhibitor of class I and II HDACs with noncompetitive effects and potent dose-dependent antitumor activity against breast cancer [84]. Notably, tubacin is a specific selective HDACi of class IIb that can increase the extracellular release of CD133+ extracellular vesicles (a cancer stem cell marker) in human FEMX-I metastatic melanoma and Caco-2 colorectal carcinoma cells [85]. MC1568 and MC1575 are derivatives of arylyl-pyrrole-hydroxyamide that are selective for class IIa HDAC and HDAC6, respectively, and exhibit antiproliferative effects in estrogen receptor-positive breast cancer cells [86] and human melanoma cells [87]. Moreover, the HDAC6-selective inhibitor ricolinostat (ACY-1215) significantly inhibits GBM cell growth [88]. Meanwhile, newly developed HDACis shows promising prospects for tumor diagnosis and treatment. For example, IN-2001 exhibits potential antitumor activity in human breast cancer cells [89], whereas AR-42 demonstrates potential in the diagnosis and treatment of meningiomas. Moreover, givinostat (ITF2357) exerts antitumor activity and selectively kills cancer cells in B-cell precursor acute lymphoblastic leukemia [90, 91]. Collectively, HDACis show considerable value in the diagnosis and treatment of various cancers.
 
-				- decrease MGMT
-					- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents
-					- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
+		- BET family inhibitors
+			Bromodomain and extraterminal domain (BET) proteins, including BRD2, BRD3, BRD4, and BRDT can recognize lysine acetylation that is closely associated with DNA replication, DNA damage repair, chromosomal remodeling, and oncogene transcription. Each BET family member contains two tandem N-terminal bromodomains (BD1 and BD2) and an extra C-terminal domain that functions as a key epigenetic reader of oncogenic networks in various cancers [92]. BRD4 is considered a universal transcriptional regulator with enrichment on super-enhancers that drive the expression of cancer-specific genes [93]. Meanwhile, BET inhibitors are a new generation of selective anticancer drug that interfere with transcriptional initiation and elongation by blocking BET functions. BET inhibitors displace BRD4 from the regulatory region to inhibit gene expression, and the antitumor efficacy of BET family inhibitors is particularly promising for cancers with increased expression of oncogenic transcription factors, such as c-Myc.
 
-				- Grape Seed Procyanidin Reversal of P-glycoprotein Associated Multi-Drug Resistance via Down-regulation of NF-κB and MAPK/ERK Mediated YB-1 Activity
-					- GSP suppresses MDR1 and p-gp by inhibiting YB-1 activation via MAPK/ERK pathway inhibition, and also down-regulated NF-κB
-						- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071071
+			BRD4 contributes to the maintenance of c-Myc expression to promote the abnormal self-renewal of AML cells [94]. Meanwhile, JQ1 is a prototype BRD4 inhibitor with proven therapeutic benefits in MM [94], AML [95], diffuse large B-cell lymphoma (DLBCL) [96], prostate cancer [97], and breast cancer [98]. OTX015 (MK-8628) is a first-in-class BRD2/3/4 inhibitor that inhibits cell proliferation in hematological malignancies and neuroblastoma, and downregulates the expression of c-Myc, MYCN, and other oncogenes associated with super-enhancers [99, 100]. Furthermore, MS645 is a bivalent BRD4 inhibitor that suppresses the proliferation of triple-negative breast cancer cells by blocking the binding of BRD4 to MED1 and YY1 transcription factors [101]. ABBV-075 is a novel BET inhibitor that triggers apoptosis in AML cells, non-Hodgkin lymphoma, and MM cells [102], whereas ABBV-744 selectively targets the BD2 domain, displaces BRD4 from androgen receptor (AR)-containing super-enhancers, and inhibits AR-dependent transcription. This shows better antitumor activity than ABBV-075 in a mouse xenograft model using human prostate cancer cells [103]. CC-90010 is another next-generation BET inhibitor with encouraging antitumor activity in patients with advanced solid tumors [104]. The abundances of BRD2 and BRD4 are significantly increased in GBM. Therefore, treatment with BET protein inhibitor (I-BET151) inhibits GBM cell proliferation [105]. Moreover, OTX015 exhibits a higher antiproliferative effect than its analog (JQ1) in GBM cell lines [106]. Meanwhile, JQ1 and I-BET 762 effectively interfere with multiple pathways associated with cell growth in pancreatic cancer [107]. Overall, the traditional small-molecule BRD4 inhibitor JQ1 and the newly developed BET inhibitors show promising results in various human cancers.
+
+		- KMT & KDM inhibitors
+			The past decade has seen tremendous progress in the characterization of the regulation of methyl modifications by KMTs and KDMs. Inhibitors of these two enzymes have also attracted much attention in the treatment of cancer. For instance, the effect of a LSD1/KDM1A selective inhibitor (ORY-1001) was evaluated in patients with blood disorders [104, 108]. BIX-01294 is a small-molecule inhibitor of EHMT2 that inhibits cell proliferation and induces apoptosis of cancer cells in DLBCL [109] and human neuroblastoma [110]. Similarly, UNC0638 is a EHMT2 inhibitor that substantially reduces cell growth and induces apoptosis in non-SCLC cells [111]. The involvement of DOT1L in multiple cancer processes provides compelling support for its inhibition as a basis for targeted therapeutics against cancers. Pinometostat (EPZ-5676) is a first-in-class small-molecule DOT1L inhibitor, for the treatment of adult acute leukemia [112]. EPZ004777 is another potent selective DOT1L inhibitor that selectively kills cells carrying MLL-associated gene translocation and prolongs survival in vitro [113]. Treatment with GSK126 (an EZH2 inhibitor) inhibits the growth of immune-deficient tumor cells [114]. In addition, small-molecule EZH2 inhibitors eliminate tumor cell growth in diffuse intrinsic pontine glioma through a mechanism induced by the tumor suppressor protein, p16INK4A [115]. These studies and clinical trials suggest that KDMs and KMTs inhibitors are prospective for cancer clinical diagnosis and treatment.
 
 
-- targets
+			- herbs that induce useful epigenetic changes (HDAC, HAT and DNMT changes)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3092901/
+
+- cancer drug resistance treatments
+
+	- Esomeprazole (a proton pump inhibitor) can induce apoptosis of cancer cells
+		- https://phys.org/news/2024-05-common-heartburn-medications-cancer-immune.html
+		- https://www.sciencedirect.com/science/article/abs/pii/S0165242722001593?via%3Dihub
+		- PPIs may increase the risk of gastric cancer, pancreatic cancer, colorectal cancer, and liver cancer
+		- Omeprazole is also a competitive inhibitor of p-glycoprotein (p-gp), as are other PPIs
+		- PPIs such as pantoprazole, lansoprazole, omeprazole, and esomeprazole have demonstrated anticancer and chemosensitizing activity
+		- PPI use in people who have received attempted H. pylori eradication may also be associated with an increased risk of gastric cancer
+
+	- melatonin is associated with the downregulation of ABC transporter expression and function
+	- eicosapentaenoic acid/docosahexaenoic acid, BPTES, 968 (Bromo-di-benzophenanthridine), ticlopidine, clopidogrel, LMP- 20, statins, pantethine, and cystamine, have also been found to lower MP levels and have been used for the immunoprevention of multi-drug resistance in cancer 
+		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9262248/
+	- oestrogen receptor (ER) and androgen receptor (AR) antagonists, as well as BCR-ABL, HER2 and EGFR inhibitors
+		- https://www.nature.com/articles/s41586-019-1730-1
+	- Antrodia camphorate, berberine, resveratrol, and curcumin have been shown to regress CSCs, in terms of reversing drug resistance, inducing cell death and inhibiting cell proliferation as well as metastasis. Furthermore, one of the active compounds in coptis, berberine may inhibit tumor progression by modulating microRNAs to regulate CSCs
+		- https://pubmed.ncbi.nlm.nih.gov/27338343/
+	- omega-3 fatty acids + (atorvastatin or aspirin) produce resolvins, which reduce tumor reoccurrence caused by dead cancer cells from previous treatments
+		- https://www.medicalnewstoday.com/articles/320227
+	- strategy for Aurora-A inhibitors in RB1, ARID1A and MYC gene mutation tumors, and potential synergistic strategy for mTOR, PAK1, MDM2, MEK inhibitors or PD-L1 antibodies combined with targeting Aurora-A kinase
+		- https://pubmed.ncbi.nlm.nih.gov/37521867/
+		- Aurora kinase A (Aurora-A), a serine/threonine kinase, plays a pivotal role in various cellular processes, including mitotic entry, centrosome maturation and spindle formation. 
+		- Overexpression or gene-amplification/mutation of Aurora-A kinase occurs in different types of cancer, including lung cancer, colorectal cancer, and breast cancer. 
+		- Alteration of Aurora-A impacts multiple cancer hallmarks, especially, immortalization, energy metabolism, immune escape and cell death resistance which are involved in cancer progression and resistance
+		- Specifically, the mechanisms of Aurora-A kinase promote acquired resistance through modulating DNA damage repair, feedback activation bypass pathways, resistance to apoptosis, necroptosis and autophagy, metastasis, and stemness
+	- citicoline
+		- acetylcholinesterase (AChE) is a serine hydrolase whose primary function is to degrade acetylcholine and terminate neurotransmission, and is involved in cellular growth, apoptosis, drug resistance pathways, response to stress signals and inflammation
+		- combining an investigational Aurora Kinase A (AURKA) inhibitor with a KRAS inhibitor or a WEE1 inhibitor showed efficacy against lung cancer cells with intrinsic or acquired resistance to KRAS inhibition
+		- https://medicalxpress.com/news/2021-10-inhibition-aurora-kinase-protein-lung.html
+	- prevent apoptosis resistance
+		- fisetin
+	- Withania somnifera/Withaferin A
+		- decreased cell proliferation of U87, U251 and TMZ resistant GBM cell lines U87 TMZ, U251 TMZ, T98G and U138 in a concentration dependent manner, increased TMZ sensitivity by decreased MGMT expression, decreased tumor volume in rat orthotopic glioma allograft model, increased median survival of orthotopic xenograft mouse model by 40%
+	- Baicalin (Chinese skullcap)
+		- baicalein, a glycogen phosphorylase/glycogenolysis inhibitor, can have activity against cancers with resistance to temozolomide due to a positive O6-methylguanine-DNA methyltransferase (MGMT) status
+	- decrease MGMT
+		- DNA repair protein, O6-methylguanine DNA methyltransferase (MGMT), can confer resistance to guanine O6-alkylating agents
+		- Therefore, inhibition of resistant MGMT protein is a practical approach to increase the anticancer effects of such alkylating agents
+	- Grape Seed Procyanidin Reversal of P-glycoprotein Associated Multi-Drug Resistance via Down-regulation of NF-κB and MAPK/ERK Mediated YB-1 Activity
+		- GSP suppresses MDR1 and p-gp by inhibiting YB-1 activation via MAPK/ERK pathway inhibition, and also down-regulated NF-κB
+		- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071071
+
+- cancer drug resistance targets
 
 	- combinations of different inhibitor types that were synergistic
 		- WEE1 and PLK1 inhibitors + TOP1 inhibitor
