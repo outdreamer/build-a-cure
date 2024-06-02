@@ -33,10 +33,16 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts, macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
+				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
 				- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care):
 					- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
 					- if your microbiome is messed up, you wont be able to fight cancer optimally
+					- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work, I put them in some hibiscus tea with sugar and let them grow and drink a little bit all day
+				- also make sure you take an antacid (I use baking soda and these) - unless you have alkalosis or another medical condition like that
+					- https://www.amazon.com/Wonderbelly-Natural-Antacid-Tablets-Chewable/dp/B0BCX8P7LL/
+				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
+				- also make sure you get enough vitamin D every morning
+				- also make sure your posture isnt impacting cancer growth, if I lay on my side or lie down totally flat, it seems to make the cancer grow more than if Im elevated and lying on my back
 			- chlorogenic acid is a safer alternative to temozolomide for people with organ damage
 				- https://pubmed.ncbi.nlm.nih.gov/31660066/
 			- curcumin can be optimized for delivery to the brain, so either eat turmeric with black pepper or alternately, buy it in this form rather than normal turmeric
@@ -48,6 +54,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
 				- note the dosing of wormwood twice a day for higher intensity requirements
 				- active ingredients in these substances: diosmin, thujone, thymol, xanthohumol 
+				- be careful where you buy supplements from, its often better to grow them yourself using seeds than to order non-organic supplements online from other countries, supplements can be contaminated with viruses like those that cause hepatitis
 			- Diosmin is the active compound in Germander (Teucrium gnaphalodes) and is very powerful against brain cancer cells
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150927/
 		- if you cant take herbs, some devices like pulsed electric fields (PEFs), pulsed electromagnetic fields (PEMFs), and cold atmospheric plasma (CAP) devices may help
