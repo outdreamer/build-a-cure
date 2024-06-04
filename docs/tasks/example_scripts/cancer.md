@@ -4,6 +4,16 @@
 - useful sub-intents with associated substances
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
+		
+		- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
+			- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
+			- if your microbiome is messed up, you wont be able to fight cancer optimally
+			- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work, I put them in some soup, sauerkraut, or tea with sugar or wheat flour and let them grow and drink a little bit all day
+				- https://www.sciencedaily.com/releases/2024/05/240517164108.htm
+			- the reason this works is probably that the dose is really high, Im drinking a broth that contains 20 pills or so every day of a very powerful high quality probiotic
+			- article about other probiotics for cancer treatment
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6586914/
+
 		- some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info', although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
 		- similarly, 'identifying which substances in which structures like 'combination/sequence' that inhibit/activate the structures that would reduce all relevant cancerous processes in specific cancer states/types/co-occurrence with other conditions' is an intent that, if fulfilled, would likely constitute a cancer-curing script, since the problem of cancer is largely a problem of 'not yet knowing all the impacts of each substance and the net impact of that substance when applied with other substances and in specific states of health and for specific cancer types', so identifying the 'net impact of a diet and set of supplements on these anti-cancer intents' is likely sufficient to cure cancer in many cases, except where the impact is not fully known
 			- for example, for a 'brain cancer patient, with kidney failure', this might be a protocol such as 'avoid unfiltered outdoor air to avoid pollution, avoid noise pollution like traffic noise, avoid chemicals like cleaners/pesticides/PFAS, exercise indoors, eat coconut oil and some anti-cancer herbs like shiitake mushrooms as well as baking soda, treat low doses of vitamin d or cortisol at night by taking anti-cancer substances before bed, take modified citrus pectin, and inositol and use a low-carb, low-methionine diet, for a period such as several weeks, in order to avoid cancerous inputs', but there is no tool to identify implementations of intents or the intents themselves for specific patients, and if there was, that might constitute a cancer cure
@@ -34,10 +44,6 @@
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
 				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
-				- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care):
-					- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
-					- if your microbiome is messed up, you wont be able to fight cancer optimally
-					- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work, I put them in some hibiscus tea with sugar and let them grow and drink a little bit all day
 				- also make sure you take an antacid (I use baking soda and these) - unless you have alkalosis or another medical condition like that
 					- https://www.amazon.com/Wonderbelly-Natural-Antacid-Tablets-Chewable/dp/B0BCX8P7LL/
 				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
