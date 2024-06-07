@@ -7,11 +7,14 @@
 		
 		- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
 			- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
-			- if your microbiome is messed up, you wont be able to fight cancer optimally
-			- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work, I put them in some soup, sauerkraut, or tea with sugar or wheat flour and let them grow and drink a little bit all day
+			- if your microbiome is messed up, you wont be able to fight cancer optimally, probiotics are a powerful immune booster
+			- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work
+				- I put them in some soup, sauerkraut, or tea with sugar or wheat flour and let them grow and drink a little bit all day (1 - 2 bottles' worth every day is good for reducing tumor size, not sure what the upper limit is on the dose, lactic acid from the bacteria is probably the dose-limiting factor)
 				- https://www.sciencedaily.com/releases/2024/05/240517164108.htm
-			- the reason this works is probably that the dose is really high, Im drinking a broth that contains 20 pills or so every day of a very powerful high quality probiotic
-			- article about other probiotics for cancer treatment
+				- the reason this works is probably that the dose is really high, Im drinking a broth that contains 20  - 100 pills or so every day of a very powerful high quality probiotic
+				- I also found this bc I decided to look for a 'magic treatment' like sitosterol almost was for fungal infections (except that it suppressed a tumor suppressor), and bc I try variable dose sizes bc I know that dose is important, and bc I didnt take the easy way out of asking someone to figure out cancer for me
+				- I got cancer bc I took BPC-157, thinking that it was unlikely to produce brain cancer like it warned on the label and if it did, I would probably be able to figure it out once I had the free information of the symptoms' response to treatments, which is how I identified the best treatments for fungal meningitis
+			- another article about other probiotics for cancer treatment
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6586914/
 
 		- some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info', although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
