@@ -48,7 +48,7 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
+				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
 				- also make sure you take an antacid (I use baking soda and these) - unless you have alkalosis or another medical condition like that
 					- https://www.amazon.com/Wonderbelly-Natural-Antacid-Tablets-Chewable/dp/B0BCX8P7LL/
 				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
@@ -362,6 +362,12 @@
 
 
 	- useful general cancer targets
+
+		- inhibit GSTT1, by increasing p38
+			- p38 MAPK-MK2 pathway is essential for age-associated upregulation of GSTT1
+				- increase p38: turmeric, emetine, Genipin, baicalin, Mollugin, Selenocysteine, Danshen, Dioscin, Alkannin, avoid artemisinin/bufalin/Ilimaquinone/Honokiol which decrease p38
+				- GSTT1 activation increases metastasis, so inhibiting GSTT1 by increasing p38 can decrease metastasis
+					- https://www.massgeneral.org/news/press-release/gene-helps-cancer-cells-spread-through-body
 
 		- inhibit YB-1, an activator of mTOR/MDR1, activated by MAPK/ERK
 			- curcumin
