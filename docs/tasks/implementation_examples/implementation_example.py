@@ -52,6 +52,7 @@ for intent in useful_intents:
 				# that means we identified a new generated useful structure that fulfills this intent (to some degree
 				# depending on the interface variables of their connection)
 
+
 '''
 - another algorithm would be;
 	'apply interface structures to useful intents to generate new intents, 
@@ -60,7 +61,10 @@ for intent in useful_intents:
 
 - this fulfills the general problem-solving intent 'identify new variation' 
 	with new specific intents (identify new useful intents, identify new useful structures) 
-	using specific useful structures like 'abstract similarities' (like 'intent/structure')
+	using specific useful structures like 'abstract similarities' 
+	(like 'intent/structure', so identify and apply 'relevant variations' of this 'abstract similarity' like:
+		'apply new structures to fulfill new intents' or 'apply new structures to optimize fulfilling new intents' or 'apply new structures and then identify new intents that match these structures'
+	)
 	to match required variation (new directions) in structures that can provide it (new intents)
 
 '''
