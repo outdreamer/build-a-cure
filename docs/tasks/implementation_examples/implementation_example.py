@@ -3,6 +3,7 @@ import itertools
 
 '''
 
+- this is a script to automate tasks like 'identifying new useful structures like workflows'
 - to do
 
 	- add properties to objects (graph.connect, structure1.interface_variable)
