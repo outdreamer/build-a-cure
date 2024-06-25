@@ -318,7 +318,7 @@
 			- dementia: 
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
 			- alzheimers: 
-				- 40hz waves, hibiscus, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol
+				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 			- parkinsons: 
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA
