@@ -22,6 +22,8 @@
 		- some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info', although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
 		- similarly, 'identifying which substances in which structures like 'combination/sequence' that inhibit/activate the structures that would reduce all relevant cancerous processes in specific cancer states/types/co-occurrence with other conditions' is an intent that, if fulfilled, would likely constitute a cancer-curing script, since the problem of cancer is largely a problem of 'not yet knowing all the impacts of each substance and the net impact of that substance when applied with other substances and in specific states of health and for specific cancer types', so identifying the 'net impact of a diet and set of supplements on these anti-cancer intents' is likely sufficient to cure cancer in many cases, except where the impact is not fully known
 			- for example, for a 'brain cancer patient, with kidney failure', this might be a protocol such as 'avoid unfiltered outdoor air to avoid pollution, avoid noise pollution like traffic noise, avoid chemicals like cleaners/pesticides/PFAS, exercise indoors, eat coconut oil and some anti-cancer herbs like shiitake mushrooms as well as baking soda, treat low doses of vitamin d or cortisol at night by taking anti-cancer substances before bed, take modified citrus pectin, and inositol and use a low-carb, low-methionine diet, for a period such as several weeks, in order to avoid cancerous inputs', but there is no tool to identify implementations of intents or the intents themselves for specific patients, and if there was, that might constitute a cancer cure
+			- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
+				- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
@@ -362,6 +364,9 @@
 
 
 	- useful general cancer targets
+
+		- inhibt CYR61 (CCN1, an inducer of angiogenesis)
+			- artemisinin
 
 		- inhibit GSTT1, by increasing p38
 			- p38 MAPK-MK2 pathway is essential for age-associated upregulation of GSTT1
