@@ -273,7 +273,7 @@
 	Vinpocetine
 	Vitamin A
 	Vitamin B12
-	Vitamin B6, B6, Pyridoxine
+	Vitamin B6, Pyridoxine
 	Vitamin C
 	Vitamin D
 	Vitamin E
