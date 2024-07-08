@@ -50,9 +50,8 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, rosemary, sage, turmeric, and ashwagandha
-				- also make sure you take an antacid (I use baking soda and these) - unless you have alkalosis or another medical condition like that
-					- https://www.amazon.com/Wonderbelly-Natural-Antacid-Tablets-Chewable/dp/B0BCX8P7LL/
+				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, turmeric, and ashwagandha
+				- also make sure you take an antacid (I use baking soda or calcium carbonate) - unless you have alkalosis or another medical condition like that
 				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
 				- also make sure you get enough vitamin D every morning
 				- also make sure your posture isnt impacting cancer growth, if I lay on my side or lie down totally flat, it seems to make the cancer grow more than if Im elevated and lying on my back
