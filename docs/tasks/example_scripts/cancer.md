@@ -55,6 +55,11 @@
 				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
 				- also make sure you get enough vitamin D every morning
 				- also make sure your posture isnt impacting cancer growth, if I lay on my side or lie down totally flat, it seems to make the cancer grow more than if Im elevated and lying on my back
+				- a low-fat diet can improve cancer outcomes
+					- https://cancerandmetabolism.biomedcentral.com/articles/10.1186/s40170-018-0189-0
+					- https://pubmed.ncbi.nlm.nih.gov/1616815/
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7312362/
+					- https://medicalxpress.com/news/2022-12-low-fat-diet-key-cancer-growth.html - low fat diet improves outcomes in cancer with IDH1 mutation
 			- chlorogenic acid is a safer alternative to temozolomide for people with organ damage
 				- https://pubmed.ncbi.nlm.nih.gov/31660066/
 			- curcumin can be optimized for delivery to the brain, so either eat turmeric with black pepper or alternately, buy it in this form rather than normal turmeric
