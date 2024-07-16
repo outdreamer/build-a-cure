@@ -197,7 +197,7 @@
 			- 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis
 			- Flow water also helped with acidosis/high blood pressure/stomach pain
 		- high blood pressure
-			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water
+			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water, ashwagandha can lower cortisol thereby lowering blood pressure
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
@@ -330,15 +330,19 @@
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
 				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
 		- skin problems:
-			- inflammation: saw palmetto, zinc, vitamin c, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
+			- inflammation: saw palmetto, zinc, vitamin c, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
 			- elasticity: collagen, hormones like estrogen/progesterone, hyaluronic acid, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
         - gastrointestinal problems:
+        	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
+        		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
         	- ibd: 
         		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
 	        - colitis: 
-	        	- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum
+	        	- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum, Matricaria chamomilla (chamomile), and omega-3 fatty acids
+	        - Crohn's disease: Boswellia serrata (frankincense or shallaki), Artemesia species (wormwood), Tripterygium wilfordii (léi gōng téng), and omega-3 fatty acids
+	        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5588418/
         - gallstones:
         	- milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
         - pancreatitis:
@@ -354,7 +358,7 @@
 	        	- avoid sitosterol, thyroid gland, b-vitamin supplements, sugar, amino acids like methionine and glutamate products like MSG, pollution
 	        	- avoid carcinogens in food, including:
 	        		- excessive hydrazine in mushrooms
-	        		- acrylamide in fried/roasted foods
+	        		- acrylamide in fried/roasted foods like potato chips
 	        		- fermented/preserved foods which are associated with stomach cancer
 	        		- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
         	- substances to use with cancer
@@ -368,6 +372,27 @@
 
 
 	- useful general cancer targets
+
+		- inhibit EGFR-vIII and wild-type EGFR and related targets for glioblastoma
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4310282/
+			- Thymoquinone (black seed oil) inhibits EGFRvIII
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+
+		- increase HNF4-alpha
+			- some cancers (pancreatic/liver) triggered a process known as DNA methylation, causing molecules in the normally beneficial HNF4A gene to switch off, allowing tumours to grow extremely quickly
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8817108/
+			- some bacteria inhibit HNF4-alpha
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
+			- turmeric decreases HNF4-alpha
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8216158/
+			- HNF4-alpha upregulates hepatitis HBV activity
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10613150/
+			- HNF4-alpha may connect carcinogenic effects and the EMT pathway
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10067433/
+			- inhibit NF-κB which was found to inhibit HNF4α
+				- https://www.nature.com/articles/s12276-020-00551-1
+			- IL-1β, TNF-α and IL-6 reduced the expression of HNF4-α-dependent APR genes
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886012/
 
 		- inhibt CYR61 (CCN1, an inducer of angiogenesis)
 			- artemisinin
@@ -1409,12 +1434,24 @@
 	- specific treatment strategies
 
 		- brain cancer-specific substances
-			- resveratrol, icariin, quercetin, propolisis, salvia menthaefolia roots, ficus carica latex, berberine, withaferin A, curcumin, angelica sinensis root, ardipusilloside 1, eckol, MSC500, AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine), thymoquinone, cucurbitacins, betulinic acid from betula pubescens, diosquinone from diospyros tricolor
-			- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
+			- Apis mellifera (propolisis), Quercetin, Stephania tetrandra (Tetrandrine), Resveratrol, Icariin (Herba Epimedi), Latex (Ficus carica, mulberry) and resins (Propolis resin), Bittersweet (Celastrus orbiculatus), Andrographolide (Andrographis paniculata, Kalamegha), Plumbagin (Droseraceae, Plumbaginaceae and Ebenceae), Guduchi (Tinospora cordifolia), Zataria multiflora (Avishan-e-Shirazi), Zingiber officinale, Rhazya stricta, Oridonin (Rabdosia rubescens), Osthole (osthol, cnidium), Cucurbitacin I, E, B, D and Q (Cucurbitaceae), Chokeberry (Aronia melanocarpa), Jaceosidin (Artemisia argyi, silvery wormwood), Trichosanthin (Trichosanthes kirilowii, Chinese snake gourd and Chinese cucumber), γ-Mangostin (xanthone from Garcinia mangostana, mangosteen), Thymoquinone (black seed oil), Brazilin (Caesalpinia sappan), Betulinic acid (birch trees (Betula pubescens) and selfheal (Prunella vulgaris)), Deoxypodophyllotoxin (Dysosma versipellis), Nardostachys jatamansi (spikenard, nardin, nard or muskroot), Variolin B and Meridianins (Ascidian Aplidium meridianum), Xanthones (Cudraxanthone-I xanthone extracted from Milicia excelsa) and Lactones (Vernonia cinerea, little ironweed or ash fleabane), Salidroside (rhodioloside, Rhodiola crenulata), Rutin (Dimorphandra mollis, faveira), Protolichesterinic acid, lobaric acid, usnic acid, olivetoric acid, psoromic acid, and vulpinic acid (lichens Cladonia rangiformis and Cladonia convolute), Cactus (Opuntia humifusa, devil’s tongue), Diosquinone (Diospyros mespiliformis and Ebenaceae Diospyros tricolor), tagitinin C (Tithonia diversifolia, Mexican/Japanese sunflower), Zeng sheng ping (Polygonum bistorta, Sonchus brachyotus, Dioscorea bulbifera, Sophora tonkinensis, Prunella vulgaris and Dictamnus dasycarpus), Tanacin (Tanacetum huronense, Lake Huron tansy), Procyanidins (grape seeds, grape skin, apples, cinnamon, cocoa beans), Quercus petraea, Ochnaflavone (Ochna kibbiensis, Ochna schweinfurthiana), Salvia menthaefolia, Ficus bubu, Ashwagandha, turmeric, Angelica sinensis (dong quai or “female ginseng”), Ardipusilloside (Ardisia pusilla), Toosendanin (Melia toosendan), saponin-1 and saponin-B from the Anemone taipaiensis, eckol, MSC500 (Gastrodia elata, Phellinus linteus, and Mulberry leaves), AMT (chamomile and additives including human insulin, vitamins, calcium and the antihistamine chlorpheniramine)
+				- Iridin, triacetyl-resveratrol (TAR) and tigogenin–which specifically target the perivascular niche (PVN)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
+			- intents related to glioblastoma
+				- inhibit EGFRvIII and wild-type EGFR, ATP dependent multidrug resistance (MDR) pathway proteins P-glycoprotein (P-gp)
+				- change pathways related to DNA repair and apoptosis like receptor tyrosine kinase (RTK), phosphoinositide 3-kinase (PI3K) signaling, and mitogen activated protein kinase (MAPK) signaling
+				- fix p53 suppression, MGMT methylation (ie MGMT inactivation)
+				- modify the BBTB microenvironment through modulating the function of endocytosis, P-gp and secretion of MMPs
+			- change the BBB
+				- Shikonin (Lithospermum erythrorhizon) significantly suppressed MMP-9 expression while it increased claudin-5 and BBB permeability and decreased the expression of MMP-2 and MMP-9, conceivably through the inhibition of PI3K/Akt signaling
+				- resveratrol protects the integrity of the BBB by regulating expression and activities of MMP-9 and TIMP-1
+				- procyanidine (Pinus massoniana) also modulated microvessel endothelial cell permeability perhaps by modulating P-gp proteins
+				- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
+				- during hypoxia and glucose deprivation, curcumin maintains the BBB integrity by regulating ZO-1 and occludin expression
+			- increase radiosensitivity
+				- zataria multiflora and tetandrine also significantly increased the radiosensitivity of the A172 and the U87 and U251 GBM cell lines, respectively 
 			- toosendanin from melia toosendan increased the p53 expression
-			- procyanidine inhibited P-gp and increased the therapeutic efficacy of adriamycin by allowing it to permeate the BBB 
 			- galactoside-specific lectin from mistletoe (patupilone - epothilone B)
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
 			- Coriolus versicolor (krestin polysaccharide), Maitake fraction D, long-chain polysaccharides (beta-glucans from maitake, reishi, and shiitake mushrooms)
     		- sodium R lipoate plus hydroxycitrate
     			- hydroxycitrate from garcinia cambogia may block metabolism of sugar/fat in cancer cells, by blocking an enzyme known as ATP citrate lyase. ATP citrate lyase (ACLY) is an enzyme linked to both sugar and fat metabolism, which is produced more in cancer cells, and therefore reduces the production of cellular energy, known as ATP
