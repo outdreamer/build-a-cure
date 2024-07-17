@@ -919,6 +919,8 @@
 			- inhibit VEGF (celastrol)
 			- inhibit IGF-1R (quercetin)
 		    	- IGF-1R exerts an enormous function in developing bone tumors, breast carcinoma, and colorectal cancer
+		    	- there is a link between certain disruptive BAP1 variants and higher levels of IGF-1, a hormone and growth factor
+		    		- https://medicalxpress.com/news/2024-07-scientists-thousands-high-cancer-gene.html
 		    	- Several common IGF blocking methods, such as antisense RNA probe, monoclonal antibody, dominant IGF-1R negative gene mutation, and tyrosine kinase inhibitor, has good therapeutic potential in disease treatment
 		- a substance to downregulate PCNA (d-limonene, EGCG, ashwagandha, berberine, tetrandrine, red yeast rice, simvastatin/atorvastatin)
 		- a MGMT inhibitor (disulfiram, resveratrol/ashwagandha + temozolomide)
