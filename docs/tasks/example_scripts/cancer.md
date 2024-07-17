@@ -24,6 +24,7 @@
 			- for example, for a 'brain cancer patient, with kidney failure', this might be a protocol such as 'avoid unfiltered outdoor air to avoid pollution, avoid noise pollution like traffic noise, avoid chemicals like cleaners/pesticides/PFAS, exercise indoors, eat coconut oil and some anti-cancer herbs like shiitake mushrooms as well as baking soda, treat low doses of vitamin d or cortisol at night by taking anti-cancer substances before bed, take modified citrus pectin, and inositol and use a low-carb, low-methionine diet, for a period such as several weeks, in order to avoid cancerous inputs', but there is no tool to identify implementations of intents or the intents themselves for specific patients, and if there was, that might constitute a cancer cure
 			- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
 				- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
+
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
@@ -38,7 +39,10 @@
 			- Biomarkers of tubular function that are depicted include L-FABP, CysC, and α1M, which are proteins that build up in the urine due to tubular dysfunction
 			- Biomarkers of inflammation that are depicted include IL-6 (increase with ginseng, reishi, bacillus subtilis, lactobacillus plantarum, alanine, cordyceps), IL-10 (increase with ginseng, bacillus subtilis, linoleic acid in most seeds/nuts, cordyceps), IL-18 (increase with palmitic acid in coconut oil, avoid DHA which decreases it), and MCP-1/CCL2, which are produced as part of the inflammatory response to injury
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7879424/
+
 		- similarly, a script to identify what 'symptoms/reactions from a specific supplement/diet mean' (like if corticosteroids hurt you, that means you probably had heart damage) would be useful to diagnose conditions without labwork or without reliable tests/known markers which is a lot of conditions
+
+		- similarly, a script to identify useful possible experiments given possibilities like 'gain of function mutations' would be useful, by identifying which substances might help useful probiotics gain useful functions by growing probiotics in those substances, given how the probiotics interact (if some probiotic produces some useful compound where the substance it was grown in is attached to that compound, which delivers the substance in a useful way, or if probiotics grown in patient's saliva/blood/cancer cell sample gain different functions)
 
 	- get an air pollution mask, an air purifier that filters out air pollution such as benzene, and a reverse osmosis water purifier, these arent optional for cancer treatment
 		- These are the solutions to avoid chemicals that I've been using:
