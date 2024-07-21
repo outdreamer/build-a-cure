@@ -26,6 +26,9 @@
 				- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
 			- omega 3s to repair kidney damage by inhibiting IL-11
 			    - https://www.nature.com/articles/s41467-022-35306-1
+			- avoiding dietary purines to reduce cancer growth
+				- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
+
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
 		- another way to solve this problem is letting cancer patients try these drugs for a few hours or days to see if they work without risking the patients' life (a 'low-dose' strategy)
@@ -379,6 +382,12 @@
 
 
 	- useful general cancer targets
+
+		- increase APC/C levels to regulate cell division
+			- https://medicalxpress.com/news/2024-07-cancer-cells-treatment.html
+
+		- inhibit Syx-RhoA-Dia1 signaling axis (regulates DNA damage and increases therapy resistance)
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10669378/
 
 		- inhibit EGFR-vIII and wild-type EGFR and related targets for glioblastoma
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4310282/
