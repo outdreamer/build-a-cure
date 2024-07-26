@@ -28,6 +28,8 @@
 			    - https://www.nature.com/articles/s41467-022-35306-1
 			- avoiding dietary purines to reduce cancer growth
 				- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
+			- supplements which increase VEGF to induce angiogenesis (should be avoided for cancer): copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974125/
 
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
@@ -151,6 +153,10 @@
 			- avian influenza virus (aiv/H5N1): lemon balm, selenium, vitamin E, NAC/glutathione, resveratrol, quercetin, astragalus
 			- adenovirus: caesalpinia pulcherrima (peacock flower), basil, plantago major (bartang)
 			- viral pneumonia: garlic
+			- niv (nipah): griffithsin (red algae Griffithsia), 6-gingerol, 4-hyroxypanduratin A, and Luteolin, Serpentinine
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8483238/
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9993391/
+			- ebola: griffithsin (red algae Griffithsia)
 			- rhinovirus: garlic, ginger
 			- infectious bursal disease virus (ibdv): ashwagandha
 			- newcastle disease virus (ndv): neem, iresine herbstii (blood leaf), lemon balm, glycyrrhiza glabra
@@ -162,7 +168,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10301284/
 			- hpv: garlic, curcumin, indole-3-carbinol, zinc, ashwagandha, green tea, medicinal mushrooms including shiitake/turkey tail/reishi
 			- hiv: especially artemisia annua (wormwood), garcinia edulis, justicia gendarussa, phyllanthus pulcher, rhus chinensis, smilax corbularia, terminalia paniculata, and tuberaria lignosa
-				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem
+				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983620/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249135/
 			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) 
@@ -171,7 +177,7 @@
 			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort
 			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw) 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
-			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort
+			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort, phyllanthus niruri
 			- smallpox: neem
 			- avoid: CBD and other immunosuppressants
 		- other antimicrobials:
@@ -199,6 +205,7 @@
 			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
 			- treat autoimmune conditions, infections, organ damage, heavy metal toxicities, electrolyte imbalances, overuse of stimulants, vitamin deficiencies/malabsorptions/neutralizations and other causes of fatigue
+			- other supplements for fatigue: D-ribose, arginine, creatine, DHEA, ginseng, glutamine, iron, quercetin, pyrroloquinoline quinone
 			- fix mitochondria dysregulation/dysfunction: 
 				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
 		- acidosis: 
@@ -240,7 +247,7 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use coq10, omega 3s, arginine, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use coq10, omega 3s, arginine, iron, polyunsaturated fatty acids (PUFAs), beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
@@ -278,7 +285,7 @@
 					- treat other conditions that can decrease myelin like thyroid problems
 				- reduce inflammation with anti-inflammatory substances
 		- hair loss: 
-			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil
+			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
@@ -472,6 +479,8 @@
 		- inhibit angiogenesis
 			- decrease VEGF, MMP
 				- turmeric
+				- avoid supplements which increase VEGF: copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9119779/
 			- decrease HIF-1a
 				- sulforaphane
 
@@ -1503,7 +1512,7 @@
 
 		- for patients with organ damage, a subset and sequence of strategies are useful
 			- avoiding substances that damage organs (thunder god vine, magnolia/honokiol, fenistein, quercetin, emodin, caveolin, parsley, baicalin, limonene, resveratrol, coffee, apigenin, turmeric, holy basil, ginger, propolis, berberine, chicory, uncaria tomentosa, withaferin, saffron, green tea, etc, are all damaging to kidneys in normal doses, despite being useful against cancer)
-			- using less damaging anti-cancer substances in small doses (modified citrus pectin, luteolin, astragalus, chamomile, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, fisetin, etc) during initial reduction phase
+			- using less damaging anti-cancer substances in small doses (modified citrus pectin, astragalus, chamomile, milk thistle, short-chain fatty acids from resistant starch/inulin/pectin/fructooligosaccharides, lactoferrin, sulforaphane, etc) during initial reduction phase
 			- glucose and methionine/cysteine/glutamine/amino acid/collagen starvation (eating mostly just a low-nutrient oil like refined almond oil and resistant starch for calories (or a water fast) with other less harmful anti-cancer substances to reduce tumors in initial reduction phase)
 			- once kidney function is back to normal, smaller doses of the harmful substances can be tried, after the initial reduction phase for prevention of reoccurrence
 
