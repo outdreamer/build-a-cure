@@ -29,6 +29,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identifying useful structures like 'networks of structures to identify graphs' like 'alignments between specific spectrums' being a useful network to identify a 'general relevance graph spectrum'
+        - for example, implementing a 'relevance spectrum of graphs' is possible by identifying 'alignments of specific relevance spectrums' (specific relevance spectrums like 'number of problem-solving intents a graph is useful for' which can be identified by finding overlaps between useful graphs across intents)
+
     - identifying useful structures like 'graphs of structures like limits/ranges of relevance structures for a problem (with variables like implicitness such as whether relevance is specified or implemented in the graph)' to identify 'similarity indexes of relevance structures across problems'
         - for example, identifying relevance graphs is useful, such as how its useful to identify a graph that implements a 'spectrum of relevance' and related structures like 'useful points/ranges on a spectrum of relevance' by identifying 'more/less relevant structures related to a problem' and the 'similarities (like patterns of these structures) on some connecting variable that aligns with relevance', which identifies a problem-solving intent like 'identify more/less relevant structures and identify a graph where they have different directions'
             - for example, 'optimizing for a metric like interactivity' can be done by identifying 'graphs that implement multiple optimization metrics' and identifying 'directions of graphs that implement more optimization metrics' which will likely 'intersect with a graph that optimizes for interactivity' by default at some point
