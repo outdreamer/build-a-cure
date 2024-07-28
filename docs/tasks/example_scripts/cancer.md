@@ -208,6 +208,7 @@
 			- other supplements for fatigue: D-ribose, arginine, creatine, DHEA, ginseng, glutamine, iron, quercetin, pyrroloquinoline quinone
 			- fix mitochondria dysregulation/dysfunction: 
 				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
+			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
 		- acidosis: 
 			- 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis
 			- Flow water also helped with acidosis/high blood pressure/stomach pain
@@ -247,7 +248,7 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use coq10, omega 3s, arginine, iron, polyunsaturated fatty acids (PUFAs), beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use coq10, omega 3s, arginine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
