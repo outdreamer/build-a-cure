@@ -1509,6 +1509,19 @@
 
 	- general treatment strategies
 
+		- treat microbe imbalances
+			- fusobacterium can cause or treat some cancers
+			- h. pylori is associated with stomach cancer
+
+		- inhibit CSF1R 
+			- BLZ945
+				- https://www.sciencedirect.com/science/article/pii/S1043661822005126
+			- inhibit CSF-1 or IL-34 to inhibit CSF1R
+				- inhibit IL-34 triggers
+					- pro-inflammatory cytokines tumor necrosis factor-alpha (TNF-α) and IL-1β promote IL-34 expression through the NF-κB and JNK pathway
+					- Cytokines such as IL-6, IL-10, IL-17A and IFN-γ can also stimulate the secretion and expression of IL-34 
+					- 1α,25(OH)2D3 induces the expression of IL-34
+
 		- galactose to bind to gal-3
 			- Galactose is found in dairy products, avocados, sugar beets, and modified citrus pectin
 
@@ -3788,6 +3801,7 @@
 			- Anti-neoplastons
 			- Hydrazine Sulfate
 			- acetylate lysine (Alternatively, acetyl-CoA can acetylate lysine)
+			- treating brain cancer with anti-cancer substances during surgery
 
 		- cancer-specific vaccines
 			- specific cancer vaccines (bladder cancer, melanoma, prostate cancer)
