@@ -153,7 +153,7 @@
 			- avian influenza virus (aiv/H5N1): lemon balm, selenium, vitamin E, NAC/glutathione, resveratrol, quercetin, astragalus
 			- adenovirus: caesalpinia pulcherrima (peacock flower), basil, plantago major (bartang)
 			- viral pneumonia: garlic
-			- niv (nipah): griffithsin (red algae Griffithsia), 6-gingerol, 4-hyroxypanduratin A, and Luteolin, Serpentinine
+			- niv (nipah): griffithsin (red algae Griffithsia), 6-gingerol (ginger), 4-hydroxypanduratin A (fingerroot), and luteolin (celery, broccoli, artichoke, parsley, thyme, dandelion, perilla, chamomile, carrots, olive oil, peppermint, rosemary, oregano), Serpentinine
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8483238/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9993391/
 			- ebola: griffithsin (red algae Griffithsia)
@@ -167,8 +167,14 @@
 				- https://pubmed.ncbi.nlm.nih.gov/34372592/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10301284/
 			- hpv: garlic, curcumin, indole-3-carbinol, zinc, ashwagandha, green tea, medicinal mushrooms including shiitake/turkey tail/reishi
+			- Tacaiuma virus (TCMV) and Guama virus (GMAV): mycophenolic acid
+			- mayaro: pyridine
+			- oropouche: acridones, Wedelolactone (false daisy), hops
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11090880/
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10792649/
+				- https://pubmed.ncbi.nlm.nih.gov/38140109/
 			- hiv: especially artemisia annua (wormwood), garcinia edulis, justicia gendarussa, phyllanthus pulcher, rhus chinensis, smilax corbularia, terminalia paniculata, and tuberaria lignosa
-				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia)
+				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia), BLZ945
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983620/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249135/
 			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) 
