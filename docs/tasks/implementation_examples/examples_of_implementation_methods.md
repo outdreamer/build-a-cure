@@ -29,6 +29,10 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identifying useful structures like 'input/indicators of similarities in cross-interface structures like intent/structure similarities' which are useful for intents like 'identifying relevant graphs'
+        - for example, identifying useful graph changes like 'opposites' that maintain some useful structures like the 'specific hub-abstract leaf graph' as opposed to the 'abstract hub-specific leaf graph' and identifying similarities in changes that are still useful for an intent like how the 'opposite graph may be useful for the opposite intent' (similarity in the 'graph/intent change')
+        - relatedly, other intents like 'filtering a range' exist which can identify useful graph structures like 'identifying maximally different graphs as base solutions' (for 'filter/base' workflows)
+
     - identifying useful structures like 'graph sets of multiple solution/interface metrics' which fulfill intents like 'identifying upper/lower ranges of relevant graphs in the set'
         - for example, identifying graph sets like 'sets of graphs with similarities based on multiple solution metrics or interface variables' which are useful for intents like 'identifying a relevant graph to make comparisons with' bc this set of graphs will be useful for identifying 'upper/lower ranges' on various spectrum variables to identify the 'area/range of the probably relevant graph' for most problems, which applies subsets of this set of graphs as different bases to apply changes to (to identify the upper/lower range to differentiate from)
         - relatedly, 'graph sequences/directions/positions that fulfill "create/require/connect/other functions" of similarities' are useful to identify, since 'similarity-applying graphs that identify useful differences/similarities' are useful to identify and the inputs to 'relevant similarities' are known and can be used to generate increasingly relevant similarity/difference-based graphs from a base graph
