@@ -30,7 +30,9 @@
 				- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
 			- supplements which increase VEGF to induce angiogenesis (should be avoided for cancer): copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974125/
-			- d-ribose to bind with phosphate for hyperphosphatemia
+			- d-ribose to bind with phosphate for hyperphosphatemia, as well as greens powder (to bind with waste not filtered by the kidneys and to prevent acidosis)
+				- https://www.amazon.com/Garden-Life-Organic-Perfect-Superfood/dp/B002HI1LSI
+			- ginger, soy, garlic, fiber and flax seed to reduce cholesterol which can be elevated with kidney damage
 
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
@@ -217,7 +219,7 @@
 				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
 			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
 		- acidosis: 
-			- 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis
+			- greens powder, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis
 			- Flow water also helped with acidosis/high blood pressure/stomach pain
 		- high blood pressure
 			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water, ashwagandha can lower cortisol thereby lowering blood pressure
@@ -233,7 +235,7 @@
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 		- high cholesterol
-			- mineral water
+			- mineral water, ginger, soy, garlic, fiber and flax seed
 		- repair organ damage
 		    - avoid bpc-157 which can cause cancer
 			- avoid with kidney damage
