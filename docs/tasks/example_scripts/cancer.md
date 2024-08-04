@@ -219,8 +219,10 @@
 				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
 			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
 		- acidosis: 
-			- greens powder, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis
+			- greens powder, thiamin, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
 			- Flow water also helped with acidosis/high blood pressure/stomach pain
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
+				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
 			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water, ashwagandha can lower cortisol thereby lowering blood pressure
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
