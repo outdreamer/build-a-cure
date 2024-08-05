@@ -28,7 +28,11 @@
         - analyzing both fields will enable identifying useful math for quantum computing/physics which seems lacking, and which also seems useful for mining/creating new variation/interfaces to integrate into interface analysis
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
-    
+
+    - identifying useful structures like 'relevant problem-solving intents of graphs' like 'identifying position/type/structure of an emergent similarity in a graph' or 'predicting graph similarities/patterns given interface structures of graphs (similar graphs, overlapping graphs, aligning graphs, configurations, queries etc)'
+        - for example, rules like 'identify that there are enough bases (like concepts) that "similarities (like specifications) around bases" are trivial to identify patterns/structures in' for generating useful graphs like the 'abstract-specific graph' are useful rules to identify (patterns can be identified in any size of data, but there are clear lower limits that could be relevant given the number of concepts graphed which might be similar to that lower limit)
+        - relatedly, 'identifying where the useful emergent pattern/similarity' is in a graph (and its inputs, configurations/variants, similarities to other graphs, queries/usages, optimizations, etc) is a useful problem-solving intent, similar to how 'predicting what the similarity is, given a graph description (like its inputs instead of the whole graph)' is a problem-solving intent
+
     - identifying useful structures like 'graphs that can identify useful structures connecting solutions/errors' like 'various graphs of interface variables connected to solutions/errors'
         - for example, the graph of 'solution/error spectrums/sets connected with similarities' or the graph of 'patterns/structures of solutions/errors in aligned spectrum variables' or the graph of 'solutions/errors as a set of clusters to connect' or the graph of 'extremes of interface variables as errors in a network around center points like intents/concepts/structures/other interface structures' are useful graphs that could identify solution/error structures like patterns
         - relatedly, its useful to identify error structures of implementation errors of interface analysis like 'basing a similarity at a slightly incorrect position' and identifying what structure that takes and what indicators of that structure are useful as 'error signals'
