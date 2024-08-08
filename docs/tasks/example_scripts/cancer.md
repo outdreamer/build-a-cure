@@ -241,6 +241,18 @@
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 		- high cholesterol
 			- mineral water, ginger, soy, garlic, fiber and flax seed
+		- reduce ER stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
+			- 5-fluorouracil (5-FU) and melatonin decrease PRP(C)
+				- https://pubmed.ncbi.nlm.nih.gov/30091203/
+			- Endoplasmic reticulum stress induces PRNP prion protein gene expression (misfolded PRNP leads to neurodegenerative diseases)
+			- ER stress leads to metabolic disease, neurodegenerative disease, and cancer
+			- PRNP expression has antiviral effects (Adenovirus 5, Coxsackievirus B3, HIV-1, Murine leukemia virus, Poliovirus type 1)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/30480243/
+			- however PRNP expression is associated with some cancers
+				- https://pubmed.ncbi.nlm.nih.gov/22147650/
+			- PRNP expression is increased by copper, where copper chelators can delay progression of diseases caused by PRNP
+				- https://journals.physiology.org/doi/full/10.1152/ajpcell.00160.2005
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6721516/
 		- repair organ damage
 		    - avoid bpc-157 which can cause cancer
 			- avoid with kidney damage
@@ -405,6 +417,15 @@
 
 
 	- useful general cancer targets
+
+		- reduce ER (endoplasmic reticulum) stress by inhibiting UPR pathways which increase tumor growth 
+			- https://molmed.biomedcentral.com/articles/10.1186/s10020-024-00808-9 - 'Endoplasmic reticulum stress and therapeutic strategies in metabolic, neurodegenerative diseases and cancer' (ursodeoxycholic acid (UDCA))
+				- Bip inhibitors
+				- IRE1α inhibitors
+				- PERK inhibitors
+			- antioxidants reduce ER stress by inhibiting UPR pathways (Butylated hydroxyanisole (BHA), to a lesser extent N-acetylcysteine or Vitamin C)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/19011102/
+				- https://pubmed.ncbi.nlm.nih.gov/37127924/ - Butylated hydroxyanisole (BHA) has some toxic effects including carcinogenesis
 
 		- increase APC/C levels to regulate cell division
 			- https://medicalxpress.com/news/2024-07-cancer-cells-treatment.html
