@@ -141,6 +141,7 @@
 			            	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10630398/
 
 	- fix your other medical problems so you can fight cancer better
+		- some of these substances kill pathogens, some inhibit/suppress pathogen activity indirectly/directly, some boost the immune system, and some help only with specific symptoms rather than the causal pathogen
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
 		- viral infections: 
@@ -220,6 +221,8 @@
 			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
 		- acidosis: 
 			- greens powder, thiamin, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
+			- fludrocortisone can help with acidosis if acidosis is caused by hypoaldosteronism
+			- kidney damage substances like omega-3s can help if acidosis is caused by kidney damage
 			- Flow water also helped with acidosis/high blood pressure/stomach pain
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
@@ -310,7 +313,7 @@
 		- chemical sensitivities: 
 			- treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
 		- PFAS/pollution/pesticide exposure
-			- avoid plants/products that absorb PFAS (kale, fruit juice, paper used to store butter) and other chemicals like chlormequat (oats)
+			- avoid plants/products that absorb PFAS (kale, fruit juice, paper used to store butter) and other chemicals like chlormequat (oats) and perchlorate (in food/plastic/bleach, interferes with thyroid function)
 				- avoid foods packaged in plastic that have been in the container for a long time (cereal, frozen bread) or are highly absorptive (kale) or are cooked in plastic containers
 			- purify water with filters like reverse osmosis filters or boiling water and then filtering it, and purify air with filters that can filter out benzene
 			- avoid processed foods which can cause systemic damage
@@ -394,6 +397,7 @@
         		- small amounts of iodine, choline, DHEA, turmeric, ginger, resveratrol, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, white button/cordyceps/shiitake mushrooms, activated charcoal, omega 3, CBD, hibiscus, beets, probiotic kefir/kombucha
         		- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw can damage kidneys so be careful with the dose)
         		- other strategies especially for brain cancer include using pollution-filtering air purifiers/masks, avoiding noise pollution, reverse osmosis water purifiers, sitting up at an angle rather than lying down flat for patients with brain cancer (who also have other conditions like acidosis that might exacerbate brain cancer when lying down), devices like magnetic oscillators or electric field devices, etc
+        		- correct hormone imbalances to help your immune system fight cancer, since hormonal imbalances like 'cortisol/DHEA/aldosterone deficiencies' can cause or increase cancer growth
 
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
