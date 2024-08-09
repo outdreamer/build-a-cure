@@ -145,7 +145,7 @@
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
 		- viral infections: 
-			- general antivirals: NAC, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, turmeric, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
+			- general antivirals: NAC, curcumin, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
 				- additional herbs used for respiratory viruses: 
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384428/
@@ -165,7 +165,7 @@
 			- infectious bursal disease virus (ibdv): ashwagandha
 			- newcastle disease virus (ndv): neem, iresine herbstii (blood leaf), lemon balm, glycyrrhiza glabra
 			- ebv: moringa oleifera, cordyceps, schisandra chinensis, calendula officinalis, green tea
-			- herpes: lysine, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai)
+			- herpes: lysine, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai), curcumin
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7894602/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7728158/
 				- https://pubmed.ncbi.nlm.nih.gov/34372592/
@@ -178,22 +178,23 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10792649/
 				- https://pubmed.ncbi.nlm.nih.gov/38140109/
 			- hiv: especially artemisia annua (wormwood), garcinia edulis, justicia gendarussa, phyllanthus pulcher, rhus chinensis, smilax corbularia, terminalia paniculata, and tuberaria lignosa
-				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, turmeric, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia), BLZ945
+				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, curcumin, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia), BLZ945
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983620/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249135/
-			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily) 
+			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily), curcumin
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551890/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
-			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort
-			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw) 
+			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort, curcumin
+			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw), curcumin
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
 			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort, phyllanthus niruri
-			- smallpox: neem
+			- smallpox: neem, curcumin derivatives
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/37033493/
 			- avoid: CBD and other immunosuppressants
 		- other antimicrobials:
 			- isatis tinctoria (dyer's woad, or glastum), ajuga bracteosa (bugleweed)
 		- parasitic infections:
-			- example antileishmanials: caffeic acid, berberine, capsaicin, piperine, EGCG, gallic acid, apigenin, ursolic acid, boswellia, tamarind, fagonia indica (dhamasa), withania coagulans (paneer dodi), turmeric, black pepper, moringa stenopetala, aloe vera, ashwagandha, barberry, grape leaf, asparagus racemosus (shatavari), croton pullei glabrior, lippia sidoides (alecrim pimenta), valeriana wallichii, cymbopogon citratus and citral, galipea longiﬂora, calophyllum brasiliense, vanillosmopsis arborea and α-bisabolol, strychnos pseudoquina, physalis angulata, aloe secundiflora, annona muricata acetogenins, annonacinone and corossolone, and platymiscium ﬂoribundum coumarin scoparone, senna spectabilis, thymus capitellatus, chenopodium ambrosioides, arrabidaea chica, bixa orellana, tanacetum parthenium, tridax procumbens (with garlic), baccharis uncinella, mangifera indica, artemisia annua (artemisinin), trichosanthes dioica Roxb. (pointed gourd), croton cajucara (red sacaca), eryngium foetidum, pleumeria pudica, fumaria parviflora, millettia species, tinospora cordifolia with cisplatin, olive leaf, winter cherry 
+			- example antileishmanials: caffeic acid, berberine, capsaicin, piperine, EGCG, gallic acid, apigenin, ursolic acid, boswellia, tamarind, fagonia indica (dhamasa), withania coagulans (paneer dodi), curcumin, black pepper, moringa stenopetala, aloe vera, ashwagandha, barberry, grape leaf, asparagus racemosus (shatavari), croton pullei glabrior, lippia sidoides (alecrim pimenta), valeriana wallichii, cymbopogon citratus and citral, galipea longiﬂora, calophyllum brasiliense, vanillosmopsis arborea and α-bisabolol, strychnos pseudoquina, physalis angulata, aloe secundiflora, annona muricata acetogenins, annonacinone and corossolone, and platymiscium ﬂoribundum coumarin scoparone, senna spectabilis, thymus capitellatus, chenopodium ambrosioides, arrabidaea chica, bixa orellana, tanacetum parthenium, tridax procumbens (with garlic), baccharis uncinella, mangifera indica, artemisia annua (artemisinin), trichosanthes dioica Roxb. (pointed gourd), croton cajucara (red sacaca), eryngium foetidum, pleumeria pudica, fumaria parviflora, millettia species, tinospora cordifolia with cisplatin, olive leaf, winter cherry 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4789233/
 				- comprehensive list of antileishmanial compounds: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36364404/
 			- malaria: coronopus didymus (jangli halon; bitter cress), cryptolepis sanguinolenta (Ghanaian quinine), neem
@@ -207,7 +208,12 @@
 			- leprosy: zinc, vitamin A/D, omega 3s, CBD, Bacillus Calmette-Guérin (BCG) vaccination
 			- mrsa: alysicarpus monilifer (necklace-pod alyce clover), colloidal silver, tea tree, green tea, cocoa, asian ginseng, garlic, cranberry with aloe vera
 			- lyme disease: especially cryptolepis sanguinolenta (Ghanaian quinine)
-				- also juglans nigra (black walnut), polygonum cuspidatum (japanese knotweed), artemisia annua (sweet wormwood), uncaria tomentosa (cat’s claw), istus incanus, scutellaria baicalensis (chinese skullcap), cinnamon bark, clove bud, citronella, wintergreen, oregano, garlic, stevia
+				- also juglans nigra (black walnut), polygonum cuspidatum (japanese knotweed), artemisia annua (sweet wormwood), uncaria tomentosa (cat’s claw), istus incanus, scutellaria baicalensis (chinese skullcap), cinnamon bark, clove bud, citronella, wintergreen, oregano, garlic, stevia, thyme
+			- Helicobacter pylori
+				- the following are commonly found in Helicobacter pylori supplements, but the activity of these is unclear
+					- uncaria tomentosa (cat's claw), lactobacillus reuteri, green tea, licorice, berberine, bismuth citrate, mastic gum, broccoli sprouts, zinc
+					- Lactobacillus Reuteri Pylopass, Lactobacillus Acidophilus, Lactobacillus Plantarum, Lactobacillus Salivarius Lactobacillus Casei, Lactobacillus Rhamnosus Lactobacillus Bulgaricus, Lactococcus Lactis, Bifidobacterium Longum, Bifidobacterium Bifidum, Bifidobacterium Breve
+					- probiotics/wine/beer, pepto bismol, sodium butyrate, saccharomyces boulardii
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (pomegranate, soy, broccoli, cabbage, brussel sprouts, millet) and shepherd's purse which suppress thyroid function
@@ -274,7 +280,8 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use coq10, omega 3s, arginine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
@@ -368,7 +375,8 @@
 			- dementia: 
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
 			- alzheimers: 
-				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol
+				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, DDL-920
+					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 			- parkinsons: 
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
@@ -2025,12 +2033,6 @@
 					- Holy basil might lower thyroxine levels. In theory, this could worsen hypothyroidism (this might also interfere with inhibiting PCNA)
 				- other substances commonly found in antifungal supplements:
 					- oregano (thymol, carvacrol), undecylenic acid, pau d'arco (lapachol), black walnut, garlic, olive leaf, elderberry, grape seed, danshen, chinese skullcap (baicalen), caprylic acid, curcumin, ginger, sitosterol, neem, jatoba, beta-glucanase, hemicellulase, fulvic acid, licorice, star anise, cordyceps, reishi, ashwagandha, quercetin, lactic acid-producing bacteria, bacillus subtilis, wormwood, artemisin, apigenin, lactoferrin, horopito (polgodial)
-		- bacteria
-			- Helicobacter pylori
-				- the following are commonly found in Helicobacter pylori supplements, but the activity of these is unclear
-					- uncaria tomentosa (cat's claw), lactobacillus reuteri, green tea, licorice, berberine, bismuth citrate, mastic gum, broccoli sprouts, zinc
-					- Lactobacillus Reuteri Pylopass, Lactobacillus Acidophilus, Lactobacillus Plantarum, Lactobacillus Salivarius Lactobacillus Casei, Lactobacillus Rhamnosus Lactobacillus Bulgaricus, Lactococcus Lactis, Bifidobacterium Longum, Bifidobacterium Bifidum, Bifidobacterium Breve
-					- probiotics/wine/beer, pepto bismol, sodium butyrate, saccharomyces boulardii
 		- viruses
 			- Hepatitis B/C
 				- the following are commonly found in liver supplements, but the activity of these is unclear
