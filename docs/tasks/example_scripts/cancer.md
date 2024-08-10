@@ -147,16 +147,20 @@
 		- viral infections: 
 			- general antivirals: NAC, curcumin, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
-				- additional herbs used for respiratory viruses: 
+				- additional herbs used to inactivate viruses: 
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384428/
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/24872930/
 			- polio: doum palm, guazuma ulmifolia (west indian elm), neem
 			- murine cytomegalovirus (mcmv): nigella sativa (black seed oil)
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
 			- hbv: abutilon figarianum (texas indian-mallow), polygonum cuspidatum (knotweed)
-			- rsv: peppermint, echinacea, licorice, ginseng
+			- rsv: peppermint, echinacea, licorice, ginseng, Uncinoside A and B, (Selaginella uncinata), genkwanol B/C, and stelleranol (Radix Wikstroemiae), flavone 6-C-monoglycosides (Lophatherum gracile leaves), Sheng-Ma-Ge-Gen-Tang (Cimicifuga foetida L, cimicifugin), chebulagic acid and punicalagin, Resveratrol (prevents airway inflammation during RSV infection)
 			- avian influenza virus (aiv/H5N1): lemon balm, selenium, vitamin E, NAC/glutathione, resveratrol, quercetin, astragalus
 			- adenovirus: caesalpinia pulcherrima (peacock flower), basil, plantago major (bartang)
 			- viral pneumonia: garlic
+			- coxsackievirus (CVA/CVB): linalool, apigenin, and ursolic acid (Ocimum basilicum - sweet basil), Raoulic acid (Raoulia australis), the medicinal prescription Xiao-Chai-Hu-Tang and its major component herb Bupleurum kaoi
+			- enterovirus: Ocimum basilicum (sweet basil), raoulic acid, Gallic acid (Woodfordia fruticosa flowers), EGCG (green tea)
+			- measles: Sheng-Ma-Ge-Gen-Tang, spicebush, biflavonoids (Rhus succedanea and Garcinia multiflora), calcium spirulan (Spirulina platensis), Crotalus durissus terrificus snake venom, Olinia rochetiana (Olkirenyi) and Warburgia ugandensis (Osokonoi), Cajanus cajan, chebulagic acid and punicalagin	
 			- niv (nipah): griffithsin (red algae Griffithsia), 6-gingerol (ginger), 4-hydroxypanduratin A (fingerroot), and luteolin (celery, broccoli, artichoke, parsley, thyme, dandelion, perilla, chamomile, carrots, olive oil, peppermint, rosemary, oregano), Serpentinine
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8483238/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9993391/
@@ -165,7 +169,8 @@
 			- infectious bursal disease virus (ibdv): ashwagandha
 			- newcastle disease virus (ndv): neem, iresine herbstii (blood leaf), lemon balm, glycyrrhiza glabra
 			- ebv: moringa oleifera, cordyceps, schisandra chinensis, calendula officinalis, green tea
-			- herpes: lysine, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai), curcumin
+			- herpes: lysine, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai), curcumin, ent-epiafzelechin-(4α→8)-epiafzelechin (Cassia javanica), Long-Dan-Xie-Gan-Tan and Yin-Chen-Hao-Tang, hippomanin A, geraniin, 1,3,4,6-tetra-O-galloyl-beta-d-glucose, and excoecarianin (Phyllanthus urinaria), chebulagic acid and punicalagin, Meliacine (Melia azedarach), Houttuynoids A-E (Houttuynia cordata), Rhododendron ferrugineum L, and proanthocyanidins (Myrothamnus flabellifolia Welw), glucoevatromonoside (Digitalis lanata), and many algae and sponges have been observed to contain active metabolites with anti-HSV activity
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4032839/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7894602/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7728158/
 				- https://pubmed.ncbi.nlm.nih.gov/34372592/
@@ -177,17 +182,19 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11090880/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10792649/
 				- https://pubmed.ncbi.nlm.nih.gov/38140109/
-			- hiv: especially artemisia annua (wormwood), garcinia edulis, justicia gendarussa, phyllanthus pulcher, rhus chinensis, smilax corbularia, terminalia paniculata, and tuberaria lignosa
-				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, curcumin, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia), BLZ945
+			- hiv: especially artemisia annua (wormwood), Artemisia afra, garcinia edulis, justicia gendarussa, phyllanthus pulcher, rhus chinensis, smilax corbularia, terminalia paniculata, and tuberaria lignosa
+				- also propolis, EGCG (green tea), chrysin, indole-3-carbinol, moringa, horse mint, corn mint, american wild mint, brussel sprout, ambrosia artemisiifolia (ragweed), black seed oil, aloe vera, grape leaf, ashwagandha, magnolia, mint, ginkgo biloba, mango, gymnema sylvestre, panax ginseng, asparagus racemosus (shatavari), chinese asparagus, long pepper, ellagic/ferulic/vanillic acid, berberine, apigenin, stephania tetrandra, cannabis sativa, tripterygium wilfordii (thunder god vine), astragalus, elderberry, oregano, coconut, zinc, licorice, schisandra chinensis, reishi, calanolides (calophyllum lanigerum, calophyllum cordato-oblongum, lomatium suksdorfii), tricyclic coumarin (Calophyllum brasiliense bark), betulinic acid (rosemary, white birch, prunella vulgaris, pseudocydonia sinensis), baicalin (chinese skullcap), papaverine (star gooseberry), lithospermic acid (salvia miltiorrhiza as in red sage), rosemary, curcumin, thunder god vine, lemon balm, dandelion, toddalia asiatica, garlic, olive leaf, calendula officinalis (daisy), actein (black cohosh), holy basil, phyllanthus amarus (black catnip), amla, polygonum cuspidatum (knotweed), st john's wort, neem, griffithsin (red algae Griffithsia), BLZ945, melittin (bee venom)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983620/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249135/
-			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, saikosaponins, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily), curcumin
+			- covid: NAC, nicotinamide, CBD/myrcene, quercetin, rutin, chinese skullcap, tetrandrine, kaempferol, luteolin, coconut, licorice, zinc, vitamin c, elderberry, cordyceps, astragalus, artemisia annua (annual wormwood), lycoris radiate (red spider lily), curcumin, saikosaponins A, B2, C, and D (Bupleurum, Heteromorpha, and Scrophularia scorodonia), Pyrrosia lingua, and Lindera aggregata, myricetin, and phenolic compounds from Isatis indigotica and Torreya nucifera, Houttuynia cordata 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551890/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
-			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, elderberry, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort, curcumin
-			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw), curcumin
+			- flu: astilbe rivularis (river astilbe), bergenia ciliate, hyoscyamus niger (stinking nightshade), justicia adhatoda (bansa), sitosterol, selenium, andrographis, dandelion, ginger, astragalus, rosemary, lemon balm, fennel, aloe vera, zinc, garlic, licorice, olive leaf, chaga, holy basil, echinacea, ginseng, St John's wort, curcumin, elderberry, Pelargonium sidoides, Spirooliganone B (Illicium oligandrum root), chalcones (Glycyrrhiza inflata), xanthones (Polygala karensium), and homoisoflavonoids (Caesalpinia sappan)
+			- dengue: dandelion, papaya, basil, lemon, neem, uncaria tomentosa (cat's claw), curcumin, baicalein, quercetin, narasin, marine seaweed, chebulagic acid and punicalagin (Terminalia chebula)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
 			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort, phyllanthus niruri
+				- hepatitis B: isochlorogenic acid A (Laggera alata), amide alkaloid (piper longum), and dehydrocheilanthifoline (Corydalis saxicola), Xiao-Chai-Hu-Tang, saikosaponins from Bupleurum, Polygonum cuspidatum sieb. et zucc, curcumin
+				- hepatitis C: Milk Thistle, Curcumin, EGCG, griffithsin, ladanein, and tellimagrandin I, chebulagic acid and punicalagin
 			- smallpox: neem, curcumin derivatives
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/37033493/
 			- avoid: CBD and other immunosuppressants
@@ -217,6 +224,8 @@
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (pomegranate, soy, broccoli, cabbage, brussel sprouts, millet) and shepherd's purse which suppress thyroid function
+			- selenium, l-carnitine, myo-inositol, melatonin, and resveratrol all impact thyroid function
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6770945/
 		- trouble breathing:
 			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
