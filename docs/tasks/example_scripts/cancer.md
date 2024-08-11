@@ -230,15 +230,15 @@
 			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
 			- treat autoimmune conditions, infections, organ damage, heavy metal toxicities, electrolyte imbalances, overuse of stimulants, vitamin deficiencies/malabsorptions/neutralizations and other causes of fatigue
-			- other supplements for fatigue: D-ribose, arginine, creatine, DHEA, ginseng, glutamine, iron, quercetin, pyrroloquinoline quinone
+			- other supplements for fatigue: D-ribose, arginine, creatine, DHEA, ginseng, glutathione, glutamine, iron, quercetin, pyrroloquinoline quinone
 			- fix mitochondria dysregulation/dysfunction: 
 				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
 			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
 		- acidosis: 
-			- greens powder, thiamin, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
+			- greens powder, chlorella/algae/chlorophyll, thiamine, glutathione, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
 			- fludrocortisone can help with acidosis if acidosis is caused by hypoaldosteronism
-			- kidney damage substances like omega-3s can help if acidosis is caused by kidney damage
-			- Flow water also helped with acidosis/high blood pressure/stomach pain
+			- kidney damage treatments like omega-3s can help if acidosis is caused by kidney damage
+			- Flow water also helped with acidosis/high blood pressure/stomach pain, alkaline water can also damage kidney function
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
