@@ -255,7 +255,7 @@
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 		- high cholesterol
-			- mineral water, ginger, soy, garlic, fiber and flax seed
+			- mineral water, ginger, soy, garlic, fiber and flax seed, bromelain
 		- reduce ER stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
 			- 5-fluorouracil (5-FU) and melatonin decrease PRP(C)
 				- https://pubmed.ncbi.nlm.nih.gov/30091203/
@@ -270,6 +270,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6721516/
 		- repair organ damage
 		    - avoid bpc-157 which can cause cancer
+		    - avoid eating food high in AGEs which can harm heart/kidney health
 			- avoid with kidney damage
 			    - may help improve kidney damage: Alpha lipoic acid (ALA)/omega 3s to inhibit IL-11, Andrographis paniculata, moringa, NAC, probiotics, prebiotics (resistant starch), resveratrol
 			    	- omega 3s to repair kidney damage by inhibiting IL-11
@@ -307,8 +308,21 @@
             - pumpkin seeds, ganoderma lucidum/lingzhi mushroom, corn silk, capsaicin, kohki tea, vitamin c, probiotics, saw palmetto, Gosha-jinki-gan (Rehmania glutinosa, Achyranthes fauriei (Achyranthes root), Cornus officinalis (Japanese cornelian cherry), Paeonia moutan (Mountain peony), Alisma plantago-aquatica (European water-plantain), Dioscorea japonica (Japanese mountain yam), Dioscorea opposita (Chinese yam), Plantago asiatica (plaintain weed), Poria cocos mushrooms, Aconitum carmichaeli (Chinese wolfsbane), Cinnamomum cassia (Chinese cinnamon)
             - avoid chocolate, citrus fruits, coffee, soda, spicy foods, tea, tomatoes, dairy
 		- inflammation: 
-			- bromelain/pineapple, broccoli sprouts, omega 3, antioxidants including vitamin a/c/e, anti-inflammatory substances like vitamin d, boswellia, ginger, cayenne pepper, cloves, garlic, cinnamon, and turmeric
 			- avoid animal products, sugar, gluten
+			- anti-inflammatory substances
+				- bromelain, cinnamon, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha
+				- taurine has anti-tumor activity
+			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
+				- medicines: N-acetylcysteine (NAC), corticosteroids, and dexamethasone
+				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
+				- an antioxidant that helps protect your cells against the effects of free radicals
+				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
+				- Free radicals might play a role in heart disease, cancer and other diseases
+				- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione
+					- The foods you eat supply other antioxidants, such as vitamins C and E
+					- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well
+					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form
+					- Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
 		- autoimmune conditions: 
 			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein/nightshade, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
@@ -336,6 +350,7 @@
 			- diabetes
 				- use fasting, keto diet, omega 3s, vitamin d, berberine/alpha-lipoic acid/bitter melon/resveratrol/magnesium to lower glucose/manage insulin sensitivity, use antioxidants in green tea like epigallocatechin gallate (EGCG), treat vitamin deficiencies like chromium/b-vitamins, avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), treat pancreatitis
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
+				- avoid eating food high in AGEs
 		- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- chemical sensitivities: 
@@ -383,6 +398,7 @@
 				- avoid triggers like erythritol
 			- dementia: 
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
+				- also avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
 			- alzheimers: 
 				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, DDL-920
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
@@ -1614,22 +1630,6 @@
 				- increase in isoflavone consumption by 10 mg per day was associated with a 7% decrease in risk from all cancers
 			- Phenolic acid include caffeic acid
 			- Lignans are polyphenols derived from phenylalanine found in flax seed and other cereals
-
-		- reduce inflammation
-			- anti-inflammatory substances
-				- bromelain, cinnamon, berberine, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, ALA, NAC, pomegranate, chamomile, ginseng, zinc, aloe, dandelion, olive leaf, nettle, vitamin c, resveratrol, ginkgo, ashwagandha
-				- taurine has anti-tumor activity
-			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
-				- medicines: N-acetylcysteine, corticosteroids, and dexamethasone
-				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
-				- an antioxidant that helps protect your cells against the effects of free radicals
-				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
-				- Free radicals might play a role in heart disease, cancer and other diseases
-				- Your body's cells naturally produce some powerful antioxidants, such as alpha lipoic acid and glutathione. 
-					- The foods you eat supply other antioxidants, such as vitamins C and E. 
-					- Plants are full of compounds known as phytochemicals—literally, "plant chemicals"—many of which seem to have antioxidant properties as well. 
-					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form. 
-					- Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
 
 		- avoid vitamin deficiencies/overdoses, and avoid vitamin antagonists which can cause deficiencies
 			- taking some substances at the same time may decrease absorption of one or both of them (or decrease removal of one of them, leading to an overly high ratio in blood)
