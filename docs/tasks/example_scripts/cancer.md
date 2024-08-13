@@ -289,6 +289,7 @@
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
+			    - kidney stones: water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS)
 			- heart failure: 
 				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
@@ -307,6 +308,7 @@
         - urinary problems like frequent urination
             - pumpkin seeds, ganoderma lucidum/lingzhi mushroom, corn silk, capsaicin, kohki tea, vitamin c, probiotics, saw palmetto, Gosha-jinki-gan (Rehmania glutinosa, Achyranthes fauriei (Achyranthes root), Cornus officinalis (Japanese cornelian cherry), Paeonia moutan (Mountain peony), Alisma plantago-aquatica (European water-plantain), Dioscorea japonica (Japanese mountain yam), Dioscorea opposita (Chinese yam), Plantago asiatica (plaintain weed), Poria cocos mushrooms, Aconitum carmichaeli (Chinese wolfsbane), Cinnamomum cassia (Chinese cinnamon)
             - avoid chocolate, citrus fruits, coffee, soda, spicy foods, tea, tomatoes, dairy
+            - uti: d-mannose with cranberry
 		- inflammation: 
 			- avoid animal products, sugar, gluten
 			- anti-inflammatory substances
