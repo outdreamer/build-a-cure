@@ -55,7 +55,7 @@
 
 	- get an air pollution mask, an air purifier that filters out air pollution such as benzene, and a reverse osmosis water purifier, these arent optional for cancer treatment
 		- These are the solutions to avoid chemicals that I've been using:
-			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink Flow water instead of bottled water
+			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink Flow water and spring water instead of bottled water (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
 			- an air pollution mask like this one which can attach filtering cartridges that filter out airplane/car fuel pollution: https://www.amazon.com/dp/B07Y2S71T1/
 			- a reverse osmosis purifier like this one to get chemicals out of the water before I used Flow water: https://www.amazon.com/Bluevua-RO100ROPOT-LITE-Countertop-Reverse-Purification/dp/B0BGK3YLTN/
 			- an indoor air purifier that filters out airplane/car fuel pollution: https://www.iqair.com/us/products/air-purifiers/gc-multigas
@@ -238,11 +238,11 @@
 			- greens powder, chlorella/algae/chlorophyll, thiamine, glutathione, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
 			- fludrocortisone can help with acidosis if acidosis is caused by hypoaldosteronism
 			- kidney damage treatments like omega-3s can help if acidosis is caused by kidney damage
-			- Flow water also helped with acidosis/high blood pressure/stomach pain, alkaline water can also damage kidney function
+			- Flow water and spring water also helped with acidosis/high blood pressure/stomach pain (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water, ashwagandha can lower cortisol thereby lowering blood pressure
+			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
@@ -291,7 +291,7 @@
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			    - kidney stones: water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS)
 			- heart failure: 
-				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water and spring water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
@@ -350,9 +350,11 @@
 			- obesity:
 				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, vitamin deficiencies, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
 			- diabetes
-				- use fasting, keto diet, omega 3s, vitamin d, berberine/alpha-lipoic acid/bitter melon/resveratrol/magnesium to lower glucose/manage insulin sensitivity, use antioxidants in green tea like epigallocatechin gallate (EGCG), treat vitamin deficiencies like chromium/b-vitamins, avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), treat pancreatitis
+				- lower glucose/manage insulin sensitivity: fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, and rosemary
+				- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
+				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
+				- avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
-				- avoid eating food high in AGEs
 		- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- chemical sensitivities: 
@@ -377,7 +379,7 @@
 				- use probiotics with many strains (like Garden of Life) to help IBS after BPA/similar exposure
 			3. Solution to plastic in containers/bottles:
 				- avoid eating anything stored in plastic for a long time, including bottled water, frozen foods, cereal, etc
-				- drink Flow water to avoid chemicals from plastic bottles
+				- drink Flow water and spring water to avoid chemicals from plastic bottles
 				- order water with a subscription service that uses glass bottles
 				- boil your water to get plastic out of it
 				- https://www.sciencealert.com/theres-a-surprisingly-simple-way-to-remove-microplastics-from-your-drinking-water
@@ -400,7 +402,7 @@
 				- avoid triggers like erythritol
 			- dementia: 
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
-				- also avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
+				- also use an anti-inflammatory diet and avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
 			- alzheimers: 
 				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, DDL-920
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
