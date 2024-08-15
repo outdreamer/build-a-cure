@@ -1,9 +1,10 @@
 - various sub-intents for general intent of inhibiting cancer (and associated anti-tumor substances with sub-intents)
 
+	- an example of a graph that would be useful include a graph of relevant gene connections (like genes involved in metabolic pathways) where clicking on a substance from a list of possible treatments highlights the sections of the gene connections that are usefully modified by that substance for a condition (with for example, neutralizing opposing forces of various substances creating no changes in the graph) or a list of 'sets of highly covering treatments' is included to click on
 
 - useful sub-intents with associated substances
 
-	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, quercetin, and ashwagandha), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
+	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, and quercetin), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
 		
 		- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
 			- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
@@ -269,9 +270,11 @@
 				- https://journals.physiology.org/doi/full/10.1152/ajpcell.00160.2005
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6721516/
 		- repair organ damage
-		    - avoid bpc-157 which can cause cancer
+		    - avoid bpc-157 to repair damage bc it can cause cancer
 		    - avoid eating food high in AGEs which can harm heart/kidney health
-			- avoid with kidney damage
+			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
+			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
+				- avoid excess alkaline/flow water with kidney damage
 			    - may help improve kidney damage: Alpha lipoic acid (ALA)/omega 3s to inhibit IL-11, Andrographis paniculata, moringa, NAC, probiotics, prebiotics (resistant starch), resveratrol
 			    	- omega 3s to repair kidney damage by inhibiting IL-11
 			    		- https://www.nature.com/articles/s41467-022-35306-1
@@ -279,19 +282,16 @@
 			            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541433/
 			    - avoid vitamins A, D, E, and K supplements which can easily build up
 			    - avoid NSAIDs, ground ivy, peppermint, Aristolochic Acid, Chromium Picolinate, Germanium, L-Lysine, Larrea tridentate (Chaparral), Pausinystalia yohimbe (Yohimbe), Salix daphnoides (Willow Bark), Tripterygium wilfordii hook F (Thunder God Vine), Uncaria tomentosa (Cat's Claw), Hedeoma pulegioides (Pennyroyal), Hydrazine Sulfate, Thevetia peruviana (Yellow Oleander), Huperzinea, Astragalus, Barberry, Goldenrod, Horsetail, Java Tea Leaf, Stinging Nettle, Oregon Grape Root, Parsley Root, Uva Ursi
-			    - avoid as they may cause kidney stones: zinc, oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
+			    - kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS)
+			    	- avoid as they may cause kidney stones: zinc, oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
 			    - avoid as they may cause rhabdomyolysis: Artemisia absinthium (Wormwood Oil), Creatine Monohydrate, Glycyrrhiza glabra (Licorice)
-			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
-			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
 				- activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
-				- avoid excess vitamin c/zinc for kidney stones, use bicarbonate (in Flow spring water)
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
-			    - kidney stones: water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS)
 			- heart failure: 
-				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, Flow water and spring water for electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
