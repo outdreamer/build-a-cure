@@ -397,6 +397,11 @@
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
+			- prevent lymph system aging to improve brain waste protein clearance to avoid alzheimer's/parkinson's (prostaglandin F2α)
+				- https://medicalxpress.com/news/2024-08-aging-brain-scientists.html
+				- excess prostaglandin F2α is associated with endometriosis, inflammation, and some cancer types
+				- where prostaglandin levels are low, arachidonic acid is a useful precursor (linoleic acid is a precursor to arachidonic acid)
+				- prostaglandin F2α and oxytocin levels are positively correlated, and are negatively correlated with progesterone
 			- stroke: 
 				- vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen
 				- avoid triggers like erythritol and inflammatory foods
