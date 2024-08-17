@@ -228,9 +228,16 @@
 			- selenium, l-carnitine, myo-inositol, melatonin, and resveratrol all impact thyroid function
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6770945/
 		- neuropathy/nerve damage:
-			- nerve growth factor/nerve regeneration supplements: acetyl-L-carnitine, citruline, taurine, beta-alanine, alpha-lipoic acid, ubiquinol (form of coq10), gamma-linolenic acid, saffron, turmeric, active forms of b vitamins, magnesium, antioxidants, omega 3’s, electrical stimulation, infrared light therapy, hydrotherapy and massage, pyrroloquinoline quinone disodium salt (PQQ)
+			- nerve growth factor (NGF)/nerve regeneration supplements: acetyl-L-carnitine, citruline, taurine, beta-alanine, antioxidants like alpha-lipoic acid, ubiquinol (form of coq10), gamma-linolenic acid, saffron, turmeric, active forms of b vitamins, vitamin d, magnesium, green tea with vitamin c, zinc, medicinal mushrooms (lion's mane), resveratrol, cinnamon, omega 3’s, electrical stimulation, infrared light therapy (LLLT), hydrotherapy, acupuncture, deep breathing, fasting, cold showers, massage, pyrroloquinoline quinone disodium salt (PQQ), reduce stress/inflammation with anti-inflammatory substances, increase BDNF (brain-derived neurotrophic factor) to increase NGF, transcranial magnetic stimulation, ginkgo biloba, phosphatidylserine, gotu kola, bacopa monnieri (brahmi), ashwagandha, rhodiola rosea, probiotics (kefir, bifidobacterium longum, lactobacillus plantarum)
 				- https://pubmed.ncbi.nlm.nih.gov/32379676/
 				- https://pubmed.ncbi.nlm.nih.gov/28441605/
+			- avoid medications that deplete b vitamins
+				- https://www.verywellhealth.com/supplements-for-neuropathy-8550168
+			- some substances may decrease/increase useful signaling processes (capsaicin/CBD decrease pain through decreasing inflammation or decrease pain signals directly)
+			- increase phosphoinositide 3-kinase (PI3K) enzyme levels to regenerate nerves
+				- https://www.forbes.com/sites/roberthart/2023/05/24/scientists-discover-chemical-that-could-help-heal-nerve-damage-a-potential-breakthrough-for-nerve-injuries/
+			- inject fibers made of peptides that transmit signals to promote nerve regeneration
+				- https://news.northwestern.edu/stories/2021/11/dancing-molecules-successfully-repair-severe-spinal-cord-injuries/
 		- trouble breathing:
 			- mullein to clear lungs, treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
