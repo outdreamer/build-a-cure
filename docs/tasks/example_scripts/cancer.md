@@ -227,8 +227,12 @@
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (pomegranate, soy, broccoli, cabbage, brussel sprouts, millet) and shepherd's purse which suppress thyroid function
 			- selenium, l-carnitine, myo-inositol, melatonin, and resveratrol all impact thyroid function
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6770945/
+		- neuropathy/nerve damage:
+			- nerve growth factor/nerve regeneration supplements: acetyl-L-carnitine, citruline, taurine, beta-alanine, alpha-lipoic acid, ubiquinol (form of coq10), gamma-linolenic acid, saffron, turmeric, active forms of b vitamins, magnesium, antioxidants, omega 3’s, electrical stimulation, infrared light therapy, hydrotherapy and massage, pyrroloquinoline quinone disodium salt (PQQ)
+				- https://pubmed.ncbi.nlm.nih.gov/32379676/
+				- https://pubmed.ncbi.nlm.nih.gov/28441605/
 		- trouble breathing:
-			- treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
+			- mullein to clear lungs, treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
 			- treat autoimmune conditions, infections, organ damage, heavy metal toxicities, electrolyte imbalances, overuse of stimulants, vitamin deficiencies/malabsorptions/neutralizations and other causes of fatigue
 			- other supplements for fatigue: D-ribose, arginine, creatine, DHEA, ginseng, glutathione, glutamine, iron, quercetin, pyrroloquinoline quinone
