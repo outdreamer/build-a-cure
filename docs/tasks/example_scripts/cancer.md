@@ -238,6 +238,7 @@
 				- https://www.forbes.com/sites/roberthart/2023/05/24/scientists-discover-chemical-that-could-help-heal-nerve-damage-a-potential-breakthrough-for-nerve-injuries/
 			- inject fibers made of peptides that transmit signals to promote nerve regeneration
 				- https://news.northwestern.edu/stories/2021/11/dancing-molecules-successfully-repair-severe-spinal-cord-injuries/
+			- avoid pesticides/silica and other substances that can cause nerve problems like multiple sclerosis
 		- trouble breathing:
 			- mullein to clear lungs, treat acidosis, organ damage, allergic reactions, and other conditions that can cause breathing difficulty like autoimmune conditions, exercise indoors if outdoor air causes asthma, get an air purifier that filters out air pollution
 		- fatigue:
@@ -361,7 +362,8 @@
 			- obesity:
 				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, vitamin deficiencies, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
 			- diabetes
-				- lower glucose/manage insulin sensitivity: fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, and rosemary
+				- lower glucose/manage insulin sensitivity: allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, and rosemary
+					- https://pubmed.ncbi.nlm.nih.gov/38931176/
 				- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
 				- avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs
@@ -424,6 +426,8 @@
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation (use an anti-inflammatory diet) and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 				- treat high blood pressure which is a risk factor for alzheimer's
+				- treat metabolic problems to reduce risk of dementia/alzheimer's (liraglutide)
+					- https://www.smithsonianmag.com/smart-news/weight-loss-and-diabetes-drug-could-slow-alzheimers-progression-preliminary-study-suggests-180984808/
 			- parkinsons: 
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
 				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
