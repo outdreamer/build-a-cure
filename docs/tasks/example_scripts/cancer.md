@@ -428,6 +428,8 @@
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation (use an anti-inflammatory diet) and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 				- treat high blood pressure which is a risk factor for alzheimer's
+				- reelin association with resistance to alzheimer's
+					- https://www.npr.org/sections/shots-health-news/2024/07/29/g-s1-13519/alzheimers-protein-reelin-brain-aging-amyloid-tau-memory
 				- treat metabolic problems to reduce risk of dementia/alzheimer's (liraglutide)
 					- https://www.smithsonianmag.com/smart-news/weight-loss-and-diabetes-drug-could-slow-alzheimers-progression-preliminary-study-suggests-180984808/
 			- parkinsons: 
@@ -459,7 +461,7 @@
         - cancer
         	- substances to avoid with cancer
         		- avoid methylglyoxal (a chemical linked to diabetes, obesity, and poor diet which can increase cancer risk) with phenols/flavonoids (phenols in peanut/apple, anthocyanins in elderberry, EGCG in green tea, genistein in soy)
-	        	- avoid sitosterol, thyroid gland, b-vitamin supplements, sugar, amino acids like methionine and glutamate products like MSG, pollution
+	        	- avoid sitosterol, thyroid gland, b-vitamin supplements (vitamin c, iron, zinc supplements can also help cancer growth), sugar, amino acids like methionine and glutamate products like MSG, pollution
 	        	- avoid carcinogens in food, including:
 	        		- excessive hydrazine in mushrooms
 	        		- acrylamide in fried/roasted foods like potato chips
@@ -472,6 +474,8 @@
         		- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw can damage kidneys so be careful with the dose)
         		- other strategies especially for brain cancer include using pollution-filtering air purifiers/masks, avoiding noise pollution, reverse osmosis water purifiers, sitting up at an angle rather than lying down flat for patients with brain cancer (who also have other conditions like acidosis that might exacerbate brain cancer when lying down), devices like magnetic oscillators or electric field devices, etc
         		- correct hormone imbalances to help your immune system fight cancer, since hormonal imbalances like 'cortisol/DHEA/aldosterone deficiencies' can cause or increase cancer growth
+        		- keto diet with P-eIF4E inhibitors to prevent cancer from using ketones for energy
+        			- https://www.nature.com/articles/s41586-024-07781-7
 
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
