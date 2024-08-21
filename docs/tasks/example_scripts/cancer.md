@@ -445,6 +445,8 @@
         		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
         	- ibd: 
         		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
+        		- inhibit ETS2 by inhibiting MEK, upregulate IL-10
+        			- https://www.scientificamerican.com/article/solving-inflammatory-bowel-diseases-mysteries-may-lead-to-new-therapies/
 	        - colitis: 
 	        	- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum, Matricaria chamomilla (chamomile), and omega-3 fatty acids
 	        - Crohn's disease: Boswellia serrata (frankincense or shallaki), Artemesia species (wormwood), Tripterygium wilfordii (léi gōng téng), and omega-3 fatty acids
@@ -483,6 +485,23 @@
 
 
 	- useful general cancer targets
+
+		- inhibit MDM2 inhibitor
+			- curcumin, genistein
+
+		- inhibit ETS1/2 or related targets
+			- block mTOR or PI3K to decrease ETS2/MDM2
+				- inhibition of mTOR by rapamycin decreased cellular levels of ETS2 and MDM2
+				- blocking the activity of PI3K by wortmannin resulted in decreases in ETS2 and MDM2
+				- MDM2 is transactivated by p53 and regulates p53
+				- https://aacrjournals.org/cancerres/article/67/5/1988/534039/Curcumin-a-Dietary-Component-Has-Anticancer
+			- MDM2 inhibitor to inhibit ETS2: curcumin, genistein
+			- RAS/MAPK inhibitor: inhibit RAS/MAPK signaling pathway, which activates ETS1/ETS2
+				- MAPK inhibitors: moringa, turmeric, chinese skullcap, artemisinin, rhodiola rosea
+				- k-RAS inhibitor: resveratrol, quercetin, linalool, aphanin
+			- MEK inhibitor: inhibition of ERK1/2 by a MEK inhibitor disrupts the interface with p300/CBP, decreasing transcriptional activity of ETS1/ETS2
+				- MEK inhibitor: berberine
+			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5418169/
 
 		- reduce ER (endoplasmic reticulum) stress by inhibiting UPR pathways which increase tumor growth 
 			- https://molmed.biomedcentral.com/articles/10.1186/s10020-024-00808-9 - 'Endoplasmic reticulum stress and therapeutic strategies in metabolic, neurodegenerative diseases and cancer' (ursodeoxycholic acid (UDCA))
@@ -1598,7 +1617,7 @@
     			- RB
     			- NF1
     			- PTEN
-    			- MDM2 
+    			- MDM2 (inhibit MDM2 with curcumin)
     			- alterations in RTK/Ras/PI3K signaling pathways (moringa, celastrol, holy basil, aloe emodin inhibit this pathway)
     		- amplifications of EGFR and PDGFR
 
