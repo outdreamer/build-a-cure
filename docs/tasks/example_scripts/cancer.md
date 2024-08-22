@@ -282,6 +282,9 @@
 				- https://journals.physiology.org/doi/full/10.1152/ajpcell.00160.2005
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6721516/
 		- repair organ damage
+			- fasting to increase polyamines (or increase dietary intake of polyamines) which can help regenerate organs
+				- mTOR activation in these stem cells also led to production of large quantities of polyamines — small molecules that help cells to grow and divide
+				- https://www.eurekalert.org/news-releases/1054876
 		    - avoid bpc-157 to repair damage bc it can cause cancer
 		    - avoid eating food high in AGEs which can harm heart/kidney health
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
