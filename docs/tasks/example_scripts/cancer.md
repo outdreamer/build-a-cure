@@ -414,6 +414,7 @@
 			- use these to get rid of BPA (or side effects): coq10, probiotics (Bifidobacterium breve and Lactobacillus casei, Garden of Life probiotics with many strains), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
+			- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- prevent lymph system aging to improve brain waste protein clearance to avoid alzheimer's/parkinson's (prostaglandin F2α)
 				- https://medicalxpress.com/news/2024-08-aging-brain-scientists.html
@@ -469,6 +470,7 @@
 	        	- avoid sitosterol, thyroid gland, b-vitamin supplements (vitamin c, iron, zinc supplements can also help cancer growth), sugar, amino acids like methionine and glutamate products like MSG, pollution
 	        	- avoid carcinogens in food, including:
 	        		- excessive hydrazine in mushrooms
+	        		- agglutinin (from peanuts/wheat) which can make some cancers grow
 	        		- acrylamide in fried/roasted foods like potato chips
 	        		- fermented/preserved foods which are associated with stomach cancer
 	        		- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
