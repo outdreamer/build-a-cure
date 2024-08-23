@@ -330,7 +330,7 @@
 				- bromelain, cinnamon, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha
 				- taurine has anti-tumor activity
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
-				- medicines: N-acetylcysteine (NAC), corticosteroids, and dexamethasone
+				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
 				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
 				- an antioxidant that helps protect your cells against the effects of free radicals
 				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
