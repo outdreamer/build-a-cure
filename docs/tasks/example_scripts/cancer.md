@@ -208,7 +208,7 @@
 			- malaria: coronopus didymus (jangli halon; bitter cress), cryptolepis sanguinolenta (Ghanaian quinine), neem
 		- bacterial infections: 
 			- keto diet, probiotic kefir/kombucha (broad-spectrum probiotics like Garden of Life with multiple strains)
-			- general antimicrobials: ginger, clove, holy basil, black seed oil, garlic, honey, echinacea, goldenseal, oregano, CBD, banyan
+			- general antimicrobials: ginger, clove, holy basil, black seed oil, garlic, honey, echinacea, goldenseal, oregano, CBD, banyan, turmeric
 			- immune stimulants: cordyceps/other medicinal mushrooms
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
 			- tuberculosis: barberry/garlic/black seed oil/basil/red sage to directly kill bacteria (vitamin d, horsetail (silica), ginseng, propolis, pineapple, licorice, orange, probiotics (acidophilus), vitamin A/B6, copper, zinc, magnesium, calcium to support recovery), artemisinin/wormwood, ashwagandha
