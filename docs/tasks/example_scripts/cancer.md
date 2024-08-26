@@ -341,7 +341,7 @@
 					- For example, after vitamin C has "quenched" a free radical by donating electrons to it, a phytochemical called hesperetin (found in oranges and other citrus fruits) restores the vitamin C to its active antioxidant form
 					- Carotenoids (such as lycopene in tomatoes and lutein in kale) and flavonoids (such as flavanols in cocoa, anthocyanins in blueberries, quercetin in apples and onions, and catechins in green tea) are also antioxidants
 		- autoimmune conditions: 
-			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein/nightshade, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine until you know what triggers it and what counteracts the triggers
+			- use diets (low fodmap/purine/oxalate/glycemic/salt/protein/nightshade, dairy-free, allergen-free, raw/dash/anti-inflammatory/acid/carb/stimulants/pro-immunity diet), anti-inflammatory substances/foods like seeds/nuts/vegetables/fruit and immune suppressors/sedatives/anxiolytics/anti-inflammatories like cortisol, glucosamine, red yeast rice, curcumin, luteolin, piperine, resveratrol, salvia miltiorrhiza, feverfew, thunder god vine, CBD, ginger, spirulina, bromelain, green tea, vitamin d, melatonin, chamomile, theanine, GABA/kava until you know what triggers it and what counteracts the triggers
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
 			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
 			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps)
@@ -421,6 +421,17 @@
 				- excess prostaglandin F2α is associated with endometriosis, inflammation, and some cancer types
 				- where prostaglandin levels are low, arachidonic acid is a useful precursor (linoleic acid is a precursor to arachidonic acid)
 				- prostaglandin F2α and oxytocin levels are positively correlated, and are negatively correlated with progesterone
+			- anxiety:
+				- GABA/kava
+				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
+					Geranium thunbergii/Geraniin
+					Ambrosia maritoma/Damsin
+					Danggui longhui wan/Indirubins
+					Auriculasin VEGFR2↓ Inhibition of angiogenesis by modulating VEGFR2-related signaling pathways. Inhibition of VEGFR2 activation, as well as phosphorylation of intracellular downstream protein kinases AKT, mTOR, PI3K, p38, ERK, and Src. 
+					Emodin Src↓, PTK2↓ Inhibition activity of v-Src led to a reduction of Src-Tyr phosphorylation, decreased Src-mediated Shc phosphorylation, ERK activation, and cell proliferation in v-Src transformed cells. JAK2↓ Inhibition of IL-6-induced JAK2/Stat3 pathway induced apoptosis. Her2/neu↓ Suppression of Her2/neu PTK activity and proliferation; repression of transformation and metastasis, CK2↓ CK2 inhibition cancer cells to Fas and TRAIL ligand-induced apoptosis. CK2 inhibition enhanced the cytotoxicity of natural killer cells HepG2 and Hep3B in vivo. 
+					Lymphostin Lck↓ Inhibition of Src family kinase Lck activity in Jurkat T cells
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7352436/
 			- stroke: 
 				- vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen
 				- avoid triggers like erythritol and inflammatory foods
@@ -490,6 +501,34 @@
 
 
 	- useful general cancer targets
+
+		- inhibit eukaryotic protein kinases related to cancer (inhibiting EGFR which is an apoptosis inhibitor for example)
+			Akt/PKB: Glucose storage regulation in the form of glycogen by phosphorylation of GSK3, Regulation of cell survival via phosphorylation of ASK1, Regulation of many processes, including metabolism, proliferation, cell survival, growth, and angiogenesis
+			AMPK: Control of food intake, Key role in carbohydrate and lipid metabolism in skeletal muscle, Promotion of catabolic pathways to generate ATP production and inhibition of anabolic pathways, Negative regulation of mTOR signaling
+			ASK1: Positive regulation of vascular smooth muscle proliferation, Crucial role in the apoptosis signal transduction pathway through mitochondria-dependent caspase activation required for sustained activations of JNK/p38 MAP kinases and apoptosis
+			CDKs: Regulation of cell cycle and cell division, Modulation of transcription in response to several extra- and intracellular cues
+			CK2, CK2α: Positive regulation of cell growth and proliferation, Stimulation of Wnt signaling pathway, Regulation of signal transduction by p53 mediator, Repression of cysteine-type endopeptidases involved in apoptosis, Negative regulation of ubiquitin-dependent protein degradation
+			EGFR: Regulation of angiogenesis, cell motility, differentiation, proliferation, and survival, Inhibition of apoptosis, Positive regulation of NFκB signaling, Activation of major downstream signaling cascades, including the RAS-RAF-MEK-ERK, PI3K-Akt, PLCγ-PKC, and STATs modules
+			ERK1/2: Positive regulation of gene expression and translation, Regulation of proliferation, differentiation, and survival, Regulation of apoptosis and stress response
+			FAK1: Positive regulation of PI3K and Akt/PKB signaling, Positive regulation of cell population proliferation and cell migration, Regulation of cell adhesion mediated by integrin
+			FGFR: Cell proliferation, differentiation, maturation, and migration, Selective apoptosis during embriogenesis, Stimulation of MAPK, PI3K, and Akt/PKB signaling pathways
+			GSK3β: A negative regulator in the hormonal control of glucose homeostasis, Wnt signaling, and the regulation of transcription factors and microtubules by inactivation of glycogen synthase, eIF2B, β-catenin, APC, JUN, and others, Negatively regulates extrinsic apoptotic signaling pathway via death domain receptors
+			IGF1-R: Regulation of cell growth and survival, suppression of apoptosis, Inactivation of MAPKK activity, Stimulation of MAPK, PI3K, and Akt/PKB signaling pathways, Positive regulation of cell population and migration, Regulation of JNK cascade
+			IKKα: Essential for activation of members of the NF-κB family of transcription factors, which play a fundamental role in lymphocyte immunoregulation, Positive regulation of transcription by RNA pol II
+			JAK1-3: Regulation of receptor signaling pathway via JAK-Stat, Mediates interleukin-7-induced activation of PI3K
+			JNK: JNK phosphorylates heats shock transcription factor-1 (HSF-1) and suppresses its transcriptional activity, Stimulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway
+			Lck: Activation of cysteine-type endopeptidase activity involved in apoptosis, Stimulation of Akt/PKB signaling, Lymphocyte activation and stimulation of leukocyte cell adhesion, Regulation of cell proliferation
+			mTOR: mTORC1 complex functions as a nutrient/energy/redox sensor and controls protein synthesis, mTORC2 complex regulates actin cytoskeleton and Akt/PKB activity, thus affecting metabolism and survival, Promotion of activation of IGF-IR and InsR
+			PDK1: Phosphorylation of activation loops and activation of protein kinases, Akt/PKB, RSKs (p70 and p90S6K), SGK, PKC, p21-activated kinase (PAK), and polo-like kinase 1, Regulation of PI3k/Akt/mTOR, Ras/MAPK, and c-Myc signaling pathways
+			PKA: Regulation of metabolic pathways, cell cycle, proliferation, and differentiation, Regulation of translation on the elongation step
+			PKC: Signal transduction in mediating the effects of many extracellular stimuli, including growth factors, hormones, and drugs
+			PKG: Regulation of apoptosis and survival in neural cells, Regulation of platelet activation and adhesion, smooth muscle contraction, blood pressure, cardiac function, gene expression, feedback of the NO-signaling pathway, and hippocampal and cerebellar learning
+			Src: Control of many functions, including cell adhesion, growth, movement, and differentiation, Regulation of embryonic development and cell growth, Suppression of cysteine-type endopeptidase activity involved in the apoptotic process, Activation of Akt/PKB activity
+			VEGFR1/3: Plays an essential role in the regulation of angiogenesis, vascular development, vascular permeability, and embryonic hematopoiesis, Promotes proliferation, survival, migration, and differentiation of endothelial cells, Promotes reorganization of the actin cytoskeleton
+
+			- anti-cancer substances relating to protein kinase targets
+				- impact of substances like honokiol, luteolin, EGCG, curcumin, apigenin, balanol, wedelolactone, berberine, resveratrol, chrysoeriol, ellagic acid, brevilin, amorfruitin, cantharidin, cyanidin, parthenolide, silibinin, coumestrol, pedalitin, nakijiquinone, hematoxylin on proteins relating to cancer
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/figure/biomolecules-10-01546-f001/
 
 		- inhibit MDM2 inhibitor
 			- curcumin, genistein
@@ -1578,10 +1617,6 @@
 			PTCH		Hedgehog signaling														No 					Medulloblastoma, Basal Cell Carcinoma	
 
 
-	- anti-cancer substances relating to protein kinase targets
-		- impact of substances like honokiol, luteolin, EGCG, curcumin, apigenin, balanol, wedelolactone, berberine, resveratrol, chrysoeriol, ellagic acid, brevilin, amorfruitin, cantharidin, cyanidin, parthenolide, silibinin, coumestrol, pedalitin, nakijiquinone, hematoxylin on proteins relating to cancer
-			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/figure/biomolecules-10-01546-f001/
-
 
 - treatment strategies
 
@@ -1596,6 +1631,8 @@
 				- change pathways related to DNA repair and apoptosis like receptor tyrosine kinase (RTK), phosphoinositide 3-kinase (PI3K) signaling, and mitogen activated protein kinase (MAPK) signaling
 				- fix p53 suppression, MGMT methylation (ie MGMT inactivation)
 				- modify the BBTB microenvironment through modulating the function of endocytosis, P-gp and secretion of MMPs
+				- inhibit β-arrestin by inhibiting activators/binders like ERK/EGFR/MAPK/TNFα/IL1β
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7352436/
 			- change the BBB
 				- Shikonin (Lithospermum erythrorhizon) significantly suppressed MMP-9 expression while it increased claudin-5 and BBB permeability and decreased the expression of MMP-2 and MMP-9, conceivably through the inhibition of PI3K/Akt signaling
 				- resveratrol protects the integrity of the BBB by regulating expression and activities of MMP-9 and TIMP-1
