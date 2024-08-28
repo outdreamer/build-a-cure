@@ -332,6 +332,8 @@
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
 				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
+				- foods rich in polyamines such as wheat germ, soybean, mushroom, or citrus fruits have been associated with a high antioxidant activity
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/31355206/
 				- an antioxidant that helps protect your cells against the effects of free radicals
 				- free radicals are molecules produced when your body breaks down food or is exposed to tobacco smoke and radiation from the sun, X-rays or other sources
 				- Free radicals might play a role in heart disease, cancer and other diseases
