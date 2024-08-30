@@ -283,7 +283,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6721516/
 		- repair organ damage
 			- fasting to increase polyamines (or increase dietary intake of polyamines) which can help regenerate organs
-				- mTOR activation in these stem cells also led to production of large quantities of polyamines — small molecules that help cells to grow and divide
+				- mTOR activation in these stem cells by fasting also led to production of large quantities of polyamines (small molecules that help cells to grow and divide)
 				- https://www.eurekalert.org/news-releases/1054876
 		    - avoid bpc-157 to repair damage bc it can cause cancer
 		    - avoid eating food high in AGEs which can harm heart/kidney health
@@ -367,7 +367,7 @@
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
-				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, vitamin deficiencies, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
+				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, correct vitamin deficiencies like zinc, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
 			- diabetes
 				- lower glucose/manage insulin sensitivity: allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, and rosemary
 					- https://pubmed.ncbi.nlm.nih.gov/38931176/
@@ -453,7 +453,7 @@
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
 				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
 		- skin problems:
-			- inflammation: saw palmetto, zinc, vitamin c, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins, avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
+			- inflammation: saw palmetto, zinc, vitamin c, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
 			- elasticity: collagen, hormones like estrogen/progesterone, hyaluronic acid, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
@@ -496,6 +496,8 @@
         		- correct hormone imbalances to help your immune system fight cancer, since hormonal imbalances like 'cortisol/DHEA/aldosterone deficiencies' can cause or increase cancer growth
         		- keto diet with P-eIF4E inhibitors to prevent cancer from using ketones for energy
         			- https://www.nature.com/articles/s41586-024-07781-7
+        		- weight loss drugs can reduce risk of gallbladder/meningioma/myeloma/pancreatic/ovarian/colorectal/esophageal/endometrial/kidney/liver cancers
+        			- https://www.healthline.com/health-news/glp-1-drugs-like-ozempic-may-reduce-risk-of-these-10-cancers#Reduced-risk-of-10-obesity-linked-cancers
 
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
