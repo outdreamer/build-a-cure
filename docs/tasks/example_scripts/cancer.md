@@ -255,7 +255,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure
+			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
@@ -327,11 +327,11 @@
 		- inflammation: 
 			- avoid animal products, sugar, gluten
 			- anti-inflammatory substances
-				- bromelain, cinnamon, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha
+				- bromelain, cinnamon, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha, GABA
 				- taurine has anti-tumor activity
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
-				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes)
+				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes), taurine
 				- foods rich in polyamines such as wheat germ, soybean, mushroom, or citrus fruits have been associated with a high antioxidant activity
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/31355206/
 				- an antioxidant that helps protect your cells against the effects of free radicals
@@ -424,7 +424,7 @@
 				- where prostaglandin levels are low, arachidonic acid is a useful precursor (linoleic acid is a precursor to arachidonic acid)
 				- prostaglandin F2α and oxytocin levels are positively correlated, and are negatively correlated with progesterone
 			- anxiety:
-				- GABA/kava
+				- increase GABA (hops, chamomile, taurine, lemon balm, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine)
 				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
 					Geranium thunbergii/Geraniin
 					Ambrosia maritoma/Damsin
