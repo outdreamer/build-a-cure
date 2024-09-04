@@ -427,6 +427,9 @@
 				- excess prostaglandin F2α is associated with endometriosis, inflammation, and some cancer types
 				- where prostaglandin levels are low, arachidonic acid is a useful precursor (linoleic acid is a precursor to arachidonic acid)
 				- prostaglandin F2α and oxytocin levels are positively correlated, and are negatively correlated with progesterone
+			- addiction
+				- rosemary for cocaine addiction
+					- https://www.futurity.org/rosemary-extract-compound-cocaine-sensitivity-3245642/
 			- anxiety:
 				- increase GABA (hops, chamomile, taurine, lemon balm, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine)
 				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
