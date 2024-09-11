@@ -749,6 +749,12 @@
 
 
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+		- nucleic acids (guanosine in coffee, adenosine)
+			- increase adenoside triphosphate levels: copper, coq10, l-carnitine, d-ribose, omega 3's, and l-methionine
+			- https://phys.org/news/2024-08-compounds-nucleic-acids-food-anticancer.html
+		- Enhancement of P53 protein expression, reducing the expression of proteins P27, P21, NFκB expression and induction of apoptosis, inhibition of the PI3K/Akt pathway, and reduction of the level of acid phosphatase and lipid peroxidation using herbs
+			- alkaloids, phenol compounds, monoterpenes, vinblastine, vincristine, curcumin, Taxol, boswellic acid, and umbelliprenin and compounds such as quercetin, catechin, cucurbitacin, kaempferol, thymol, carvacrol, 1 and 1,8-cineole, α-pinene, myrecene, and β-sitosterol
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871268/
 		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask or using the IQ Air multi-gas air purifier)
 			- https://www.amazon.com/dp/B0BQ2XV5W1?psc=1&ref=ppx_yo2ov_dt_b_product_details
 		- make sure your cortisol is not too low (if your cancer grows at night, it could be bc vitamin D or cortisol is lower at night)
