@@ -356,8 +356,8 @@
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
-				- avoid silica (found in supplements and products like paint) and immune stimulants
-				- use charcoal, baking soda, vinegar, water to absorb paint fumes
+				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants
+				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
 				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
 				- repair myelin
 					- clemastine to block M1R and regenerate myelin
