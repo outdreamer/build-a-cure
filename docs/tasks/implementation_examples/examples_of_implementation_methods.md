@@ -29,6 +29,10 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identifying useful structures like 'connections between general solution metrics and structural reasons for those metrics' which is useful for problem-solving intents like 'identifying relevant graphs'
+        - for example, identifying the "ratios that cause solution metrics like 'meaning' to be useful", such as the 'relatively high ratio of distribution of randomness vs. organization, compared to a more balanced ratio that aligns with uncertainty structures like uncertainty areas', which is relevant for problem-solving intents like 'identifying relevant graphs to solve a problem'
+            - similarly, 'abstraction' is useful bc of the 'lack of info about patterns/similarities' and over-specific info ('excess info about specific connections')
+
     - identifying useful structures like 'different formats of useful structures' that are useful for different intents like 'identifying new similarities/patterns in queries to filter queries'
         - for example, separating graphs/queries is useful to identify 'query fields/other shapes' that likely have different patterns/similarities than the graphs those queries are run on where different useful graphs can be created from the query sequences (once standardized into a combinable format), so optimizations like 'group frequently used nodes in similar positions' can be applied to 'query fields of query sequences' in addition to the graph itself, which can be used to integrate these optimizations to create new graphs with new associated optimized query fields, which are graphs that may enable functions like 'combining graphs/queries'
             - this involves identifying query shapes like vacillations like 'low-high-medium' and possible uses of these queries like 'identifying an average', which can be applied to identify relevantly similar graphs to apply like 'adjacent graphs within some relevant variation range'
