@@ -31,6 +31,7 @@
 
     - identifying useful structures like 'different formats of useful structures' that are useful for different intents like 'identifying new similarities/patterns in queries to filter queries'
         - for example, separating graphs/queries is useful to identify 'query fields/other shapes' that likely have different patterns/similarities than the graphs those queries are run on where different useful graphs can be created from the query sequences (once standardized into a combinable format), so optimizations like 'group frequently used nodes in similar positions' can be applied to 'query fields of query sequences' in addition to the graph itself, which can be used to integrate these optimizations to create new graphs with new associated optimized query fields, which are graphs that may enable functions like 'combining graphs/queries'
+            - this involves identifying query shapes like vacillations like 'low-high-medium' and possible uses of these queries like 'identifying an average', which can be applied to identify relevantly similar graphs to apply like 'adjacent graphs within some relevant variation range'
         - relatedly, identifying graph base structures like 'different sets of graphs to apply as bases for queries' (like 'queries should vacillate between these base graph sets') is useful to identify useful 'graph configurations on graphs of graphs'
 
     - identifying useful structures like 'graph query integrations that generate/identify relevance/meaning structures' is useful for intents like 'identify/filter interface queries'
