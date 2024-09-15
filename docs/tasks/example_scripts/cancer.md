@@ -65,7 +65,9 @@
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
 				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, turmeric, and ashwagandha
-				- also make sure you take an antacid (I use baking soda or calcium carbonate) - unless you have alkalosis or another medical condition like that
+				- turmeric isnt always good for every cancer type, so brain cancer patients will want to be careful with that, same with melatonin, it may help or hurt different cancer types
+				- coffee/green tea are useful for reducing brain cancer, so even if you have organ damage, small amounts of these may be worth it if your system can handle it
+				- also make sure you take an antacid (I use baking soda/potassium bicarbonate and calcium carbonate/citrate) - unless you have alkalosis or another medical condition like that
 				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
 				- also make sure you get enough vitamin D every morning
 				- also make sure your posture isnt impacting cancer growth, if I lay on my side or lie down totally flat, it seems to make the cancer grow more than if Im elevated and lying on my back
@@ -86,9 +88,10 @@
 				- note the dosing of wormwood twice a day for higher intensity requirements
 				- active ingredients in these substances: diosmin, thujone, thymol, xanthohumol 
 				- be careful where you buy supplements from, its often better to grow them yourself using seeds than to order non-organic supplements online from other countries, supplements can be contaminated with viruses like those that cause hepatitis
+				- I have taken some of these herbs with success while skipping the herbs I couldnt find online, not all of them are necessary to reduce brain cancer
 			- Diosmin is the active compound in Germander (Teucrium gnaphalodes) and is very powerful against brain cancer cells
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150927/
-		- if you cant take herbs, some devices like pulsed electric fields (PEFs), pulsed electromagnetic fields (PEMFs), and cold atmospheric plasma (CAP) devices may help
+		- if you cant take herbs, some devices like pulsed electric fields (PEFs), pulsed electromagnetic fields (PEMFs), and cold atmospheric plasma (CAP) devices may help if you can access the right devices
 			- https://onlinelibrary.wiley.com/doi/full/10.1002/VIW.20220029
 			- active hz ranges for PEMF devices against glioblastoma
 				- https://pubmed.ncbi.nlm.nih.gov/27874284/
