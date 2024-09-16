@@ -29,6 +29,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identifying useful structures like 'workflow-optimized graphs' (that have a workflow built-in or otherwise integrated to the graph like where the graph is optimized for the workflow) is useful for problem-solving intents like 'identify relevant graphs to solve a problem'
+        - for example, identifying the 'graph that optimizes for a specific workflow like "trial and error" for a problem structure (like a problem type)' is useful, such as a 'graph with similar possible solutions pre-filtered with variables like by type' that makes the workflow faster to implement and other optimizations like 'graphs that optimize for multiple workflows or multiple problem types'
+
     - identifying useful structures like 'connections between general solution metrics and structural reasons for those metrics' which is useful for problem-solving intents like 'identifying relevant graphs'
         - for example, identifying the "ratios that cause solution metrics like 'meaning' to be useful", such as the 'relatively high ratio of distribution of randomness vs. organization, compared to a more balanced ratio that aligns with uncertainty structures like uncertainty areas', which is relevant for problem-solving intents like 'identifying relevant graphs to solve a problem'
             - similarly, 'abstraction' is useful bc of the 'lack of info about patterns/similarities' and over-specific info ('excess info about specific connections'), which identifies a 'limit to the usefulness of abstraction' (when useful balances are identified between abstract/specific structures for all problem-solving intents, new solution metrics will be useful than abstraction, and the same applies to 'meaning')
