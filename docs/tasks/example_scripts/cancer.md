@@ -439,7 +439,22 @@
 				- rosemary for cocaine addiction
 					- https://www.futurity.org/rosemary-extract-compound-cocaine-sensitivity-3245642/
 			- anxiety:
-				- increase GABA (hops, chamomile, taurine, lemon balm, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine)
+				- increase GABA
+					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
+				- change HPA axis
+				    - increase IL-1/6/10/tnf-a to activate the HPA axis to handle stress/anxiety
+				        - increase tnf-α (coconut, astragalus)
+				        - increase il-10 (coconut, ginseng)
+				        - avoid excess turmeric, berberine, holy basil, ginger, garlic, milk thistle, d-limonene, pepper, seaweed, hibiscus, boswellia, and chicory, which decrease il-1/6/10 or tnf-a
+				    - if the HPA axis is overactive, suppress its triggers
+					    - infrared light therapy 
+					        - low-level infrared light application decreased the TNF-α, IL-6, and IFN-γ, but had no impact on TGF-β1
+			    - balance hormones
+			    	- estrogen, testosterone, ADH/vasopressin, and cortisol impact anxiety
+				    - change ADH/vasopressin levels
+				        - use beans/glycine, bitter gourd, carrots, forskolin/rhodiola/berberine to increase ADH
+				        - avoid alcohol which decreases vasopressin, avoid caffeine/salt
+				        - avoid omega 3s, turmeric, magnesium which increase somatostatin which inhibits vasopressin/ADH
 				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
 					Geranium thunbergii/Geraniin
 					Ambrosia maritoma/Damsin
