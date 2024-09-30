@@ -67,7 +67,7 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, turmeric, and ashwagandha
+				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics/kefir, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, turmeric, and ashwagandha
 				- turmeric isnt always good for every cancer type, so brain cancer patients will want to be careful with that, same with melatonin, it may help or hurt different cancer types
 				- coffee/green tea are useful for reducing brain cancer, so even if you have organ damage, small amounts of these may be worth it if your system can handle it
 				- also make sure you take an antacid (I use baking soda/potassium bicarbonate and calcium carbonate/citrate) - unless you have alkalosis or another medical condition like that
@@ -316,7 +316,7 @@
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
 			    - use these in small amounts to increase klotho to recover from kidney damage:
-			    	- vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, omega 3, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
+			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
 				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
@@ -491,11 +491,11 @@
         	- avoid high purine/saturated fat intake, use low-fat dairy products, decaf coffee, vitamin C, fiber, peanuts, fruit to prevent gout, treat insulin problems like insulin resistance, treat lead exposure, treat kidney damage and other causes of gout
         - stress
         	- avoid stress which can damage hypothalamus/pituitary/adrenal glands and other organs and which can cause hormonal imbalances which can cause other conditions
-        	- use adaptogenic herbs like ashwagandha
+        	- use adaptogenic herbs like ashwagandha/rhodiola/holy basil
         - cancer
         	- substances to avoid with cancer
         		- avoid methylglyoxal (a chemical linked to diabetes, obesity, and poor diet which can increase cancer risk) with phenols/flavonoids (phenols in peanut/apple, anthocyanins in elderberry, EGCG in green tea, genistein in soy)
-	        	- avoid sitosterol, thyroid gland, b-vitamin supplements (vitamin c, iron, zinc supplements can also help cancer growth), sugar, amino acids like methionine and glutamate products like MSG, pollution
+	        	- avoid sitosterol supplements which suppress a tumor suppressor, thyroid gland, b-vitamin supplements (vitamin c, iron, zinc supplements can also help cancer growth), sugar, amino acids like methionine and glutamate products like MSG, pollution
 	        	- avoid carcinogens in food, including:
 	        		- excessive hydrazine in mushrooms
 	        		- agglutinin (from peanuts/wheat) which can make some cancers grow
@@ -630,8 +630,8 @@
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9657392/
 
 			- increased by anticancer treatments (such as modified citrus pectin, holy basil, thunder god vine, turmeric, ashwagandha, resveratrol)
-				- Bax, Par-4, thymidylate synthase, E-cadherin, P53/PTEN signaling, Notch 2/4, c-Jun-NH2-kinase-mediated apoptosis, p53, vimentin, GSH, PAI-1, TIMP-2, Fas/PARP/caspase-3/8/9, glutathione/peroxidase, jun N-terminal kinase (p-JNK), antioxidant/anti-inflamatory/apoptotic activity
-				- p38, forkhead box O1 (FOXO1), PTEN, Foxo3a, Raf/MAPK kinase (MEK)/ERK1/2, stress-activated protein kinase (SAPK)/JNK MAPK, CDK inhibitors p21/p27, p53, apoptosis signal-regulating kinase 1 (ASK1), JNK activator, mitogen-activated protein kinase kinase 4 (MKK4, Cyto-c, caspase-3/8/9, PARP, p21, apoptotic protease activating factor-1 (Apaf-1), sirtuin 1 (SIRT1), Bax, Bcl-2-associated death promoter (Bad), TFEB/lysosome pathway, AMPK
+				- Bax, Par-4, thymidylate synthase, E-cadherin, P53/PTEN signaling, Notch 2/4, c-Jun-NH2-kinase-mediated apoptosis, vimentin, GSH, PAI-1, TIMP-2, Fas/PARP/caspase-3/8/9, glutathione/peroxidase, jun N-terminal kinase (p-JNK) activator, antioxidant/anti-inflamatory/apoptotic activity
+				- p38, forkhead box O1 (FOXO1), Foxo3a, Raf/MAPK kinase (MEK)/ERK1/2, stress-activated protein kinase (SAPK)/JNK MAPK, CDK inhibitors p21/p27, apoptosis signal-regulating kinase 1 (ASK1), mitogen-activated protein kinase kinase 4 (MKK4), Cyto-c, p21, apoptotic protease activating factor-1 (Apaf-1), sirtuin 1 (SIRT1), Bax, Bcl-2-associated death promoter (Bad), TFEB/lysosome pathway, AMPK
 			
 			- decreased by anticancer treatments (such as modified citrus pectin, holy basil, thunder god vine, turmeric, ashwagandha, resveratrol)
 				- TRP ion channel called TRPV2/4, TRPM2, IKK kinase, EMT, N-cadherin, MMP-1/2/7/9, FoxO, PI3K, Akt, pRB, mTOR, E6/E7, Zap70 kinase, heat shock protein 90, Bcl-2/B-cell lymphoma-extra large (Bcl-xL), ERα, protein kinase C, chymotrypsin, PCNA, CD31, B/T lymphocytes (E/EAC rosette formation by B/T lymphocytes), p65, ROS, RNS, MAPK, aldose reductase, tyrosine kinase, LPS-stimulated cyclooxygenase (COX-2) macrophages, nuclear tumour necrosis factor (TNF)-induced factor-B (NF-κB), leukotriene C4 and 5-lipoxygenase (5-LOX), TNF-α, neutrophil, inflammatory cytokines, ovalbumin-specific IgE levels, interleukin-1/4/5/6, Th2-type immune response, myeloperoxidase (MPO), dna oxidation, prostaglandin-E2, iron-mediated lipid peroxidation, hexanal oxidation, copper-dependent LDL oxidation, survivin, WA4 cell cycle in the G1 phase, STAT3, VEGF, Wnt/b-catenin, zinc finger E-box binding homeobox 1/snail1/twist1, cyclin A/B/D/E, and cyclin-dependent kinase-1, HIF-1 alpha, tyrosine kinase receptor (AXL), GSK-3b, JAK, Notch-1, NF-jB, EGFR/VEGF, hairy and enhancer of split-1 (HES-1), octamer-binding transcription factor 4 (Oct4), intercellular adhesion molecular-1 (ICAM-1), cyclin-dependent kinase (CDK) 2/6, c-myc, androgen receptor (AR), anti-apoptotic myeloid cell leukemia-1 (Mcl-1), Yes-associated protein (YAP), miR-7641, miR-130a, miR-21, miR-125a-5p
@@ -757,6 +757,9 @@
 
 
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+
+		- decrease pro-inflammatory genes/cytokines
+			- inhibit NF-κB, COX-2, TNF-alpha, IL-1β, IL-6, and interferon-gamma INF-gamma
 		- nucleic acids (guanosine in coffee, adenosine)
 			- increase adenoside triphosphate levels: copper, coq10, l-carnitine, d-ribose, omega 3's, and l-methionine
 			- https://phys.org/news/2024-08-compounds-nucleic-acids-food-anticancer.html
@@ -988,7 +991,7 @@
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8938495/
 			- https://www.sciencedirect.com/science/article/pii/S2666833520300022#:~:text=Dietary%20polyphenols%20have%20been%20linked%20with%20suppression%20of,fatty%20acid%20oxidation%20and%20inhibited%20adipogenesis%20and%20apoptosis.
 	    - vitamin d 
-	    	- taking this throughout the day is useful for preventing some cancer activity, which needs continuous suppression to be fully treated, otherwise it'll keep coming back when your morning vitamin d supplement wears off
+	    	- taking this throughout the day is useful for preventing some cancer activity, which needs continuous suppression to be fully treated, otherwise it'll keep coming back when your morning vitamin d supplement wears off, alternately taking vitamin d in the morning and other anti-cancer treatments at night is probably better for your circadian rhythm which impacts immunity
 	    	- eating mushrooms will help with multiple other intents (see below with shiitake/maitake/other medicinal mushrooms), but also will help bc they have vitamin d
 	    	- vitamin d is also one of the few anticancer substances that doesnt inhibit EGFR which is an advantage for preventing hair loss, which might occur with many powerful anticancer substances
 	    	- supplements containing resveratrol, saw palmetto, maca, curcumin, tocotrienols, ashwagandha, horsetail, astaxanthin, kelp, capsicum, Annurca apple fruits, safflower and ginseng can have beneficial effects on hair growth, without adverse effects on breast cancer patients
@@ -1184,7 +1187,7 @@
 
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
 
-		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice/coconut oil' or 'holy basil/ashwagandha/milk thistle/moringa/red yeast rice/coconut oil' or 'atorvastatin/omega 3s/quercetin/ashwagandha/coconut oil' or 'atorvastatin/omega 3s/aged garlic extract/ashwagandha/coconut oil' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/turmeric/ginger, but I avoided them to avoid excess organ damage from multiple supplements)
+		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice' or 'holy basil/ashwagandha/milk thistle/moringa' or 'omega 3s/quercetin/aged garlic extract/ashwagandha' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/cats claw/thunder god vine/quercetin, but I avoided them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
@@ -2037,7 +2040,6 @@
 			- Mediation of caspase-independent cell death, Enhancement of caspase-3 and -7 activities, Inhibition of inflammatory cytokine caspase-1 activation and the caspase-1/IL-1 inflammatory signaling axis
 			- Cell cycle arrest at G1 phase and induction of G1 and -G2/M phase cell cycle arrest
 			- Modulation of the miR-203/Bcl-w apoptotic axis	
-			- Inhibition of colony formation, cell migration, and decrease of the secretion of the proinflammatory cytokines (IL-1α, IL-6, TNF-α, IL-1β)	
 			- Upregulation of LncRNA CASC2 and RARβ and RARγ expressions
 			- Downregulation of the expression of Bcl-xL and cyclin-D1 proteins
 			- Inhibition of Bcl-2 gene, MMP-1/2/9/13, uPA, Ras, PARP, Rad51, survivin, STAT3, VEGF and HIF-1α expression
@@ -3615,7 +3617,6 @@
 			- NRF2 appears to participate in a complex regulatory network and performs a pleiotropic role in the regulation of metabolism, inflammation, autophagy, proteostasis, mitochondrial physiology, and immune responses
 		- HMOX1 (heme oxygenase 1 gene) encodes the enzyme heme oxygenase 1
 			- HO-1 deficiency in normal cells enhances DNA damage and carcinogenesis. Nevertheless, HO-1 overexpression in cancer cells promotes proliferation and survival
-		- inhibit inflammatory genes/cytokines (NF-κB, COX-2, TNF-alpha, IL-1β, and IL-6)
 
 
 	- inhibit pathways
