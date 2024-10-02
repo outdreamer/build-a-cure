@@ -327,8 +327,8 @@
 			- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, DHEA (low DHEA can cause heart damage and cancer)
 				- fludrocortisone for symptoms of low aldosterone like salt cravings
 				- avoid causes of low cortisol: low cholesterol, excess coffee/caffeine, vitamin d, estrogen replacement therapy, fish oil, ashwagandha, green tea/theanine, holy basil, betaine, l-ornithine, golden root (rhodiola rosea), eurycoma longifolia root (malaysian ginseng), choline, vitamin b5, astragalus, ginkgo, turmeric, zinc, magnesium, chamomile, vitamin c, maca, passionflower, whey protein, st johns wort, bacopa, phosphatidylserine, inositol
-		    	- related conditions to adrenal problems include pituitary/hypothalamus imbalance: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
-		    	- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen
+		    	- related conditions to adrenal problems include pituitary/hypothalamus imbalance, which can be corrected with: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
+		    	- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen/vasopressin
                 - first dose of hydrocortisone should be taken in the morning at awakening and the last dose 4 to 6 hours before going to sleep
 			- high cortisol: adaptogens like ashwagandha, holy basil, schisandra, as well as b vitamins, other substances that cause low cortisol
 			- treat thyroid problems/hormonal imbalances and organ damage which can cause adrenal problems
@@ -452,9 +452,11 @@
 			    - balance hormones
 			    	- estrogen, testosterone, ADH/vasopressin, and cortisol impact anxiety
 				    - change ADH/vasopressin levels
-				        - use beans/glycine, bitter gourd, carrots, forskolin/rhodiola/berberine to increase ADH
+				        - use glycine (beans, collagen), bitter gourd, carrots, forskolin/rhodiola/berberine to increase ADH
 				        - avoid alcohol which decreases vasopressin, avoid caffeine/salt
 				        - avoid omega 3s, turmeric, magnesium which increase somatostatin which inhibits vasopressin/ADH
+				        - the main stimuli that trigger ADH release include hyperosmolality, hypovolemia, hypotension, hypoxia, hypoglycemia, strenuous exercise, and angiotensin II
+				        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8637824/
 				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
 					Geranium thunbergii/Geraniin
 					Ambrosia maritoma/Damsin
