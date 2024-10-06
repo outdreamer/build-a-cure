@@ -439,6 +439,7 @@
 				- rosemary for cocaine addiction
 					- https://www.futurity.org/rosemary-extract-compound-cocaine-sensitivity-3245642/
 			- anxiety:
+				- stimulate the vagus nerve: choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- increase GABA
 					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
 				- change HPA axis
@@ -458,12 +459,10 @@
 				        - the main stimuli that trigger ADH release include hyperosmolality, hypovolemia, hypotension, hypoxia, hypoglycemia, strenuous exercise, and angiotensin II
 				        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8637824/
 				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
-					Geranium thunbergii/Geraniin
-					Ambrosia maritoma/Damsin
-					Danggui longhui wan/Indirubins
-					Auriculasin VEGFR2↓ Inhibition of angiogenesis by modulating VEGFR2-related signaling pathways. Inhibition of VEGFR2 activation, as well as phosphorylation of intracellular downstream protein kinases AKT, mTOR, PI3K, p38, ERK, and Src. 
-					Emodin Src↓, PTK2↓ Inhibition activity of v-Src led to a reduction of Src-Tyr phosphorylation, decreased Src-mediated Shc phosphorylation, ERK activation, and cell proliferation in v-Src transformed cells. JAK2↓ Inhibition of IL-6-induced JAK2/Stat3 pathway induced apoptosis. Her2/neu↓ Suppression of Her2/neu PTK activity and proliferation; repression of transformation and metastasis, CK2↓ CK2 inhibition cancer cells to Fas and TRAIL ligand-induced apoptosis. CK2 inhibition enhanced the cytotoxicity of natural killer cells HepG2 and Hep3B in vivo. 
-					Lymphostin Lck↓ Inhibition of Src family kinase Lck activity in Jurkat T cells
+					- Geranium thunbergii/Geraniin, Ambrosia maritoma/Damsin, Danggui longhui wan/Indirubins 
+					- Auriculasin: VEGFR2↓ Inhibition of angiogenesis by modulating VEGFR2-related signaling pathways. Inhibition of VEGFR2 activation, as well as phosphorylation of intracellular downstream protein kinases AKT, mTOR, PI3K, p38, ERK, and Src
+					- Emodin: Src↓, PTK2↓ Inhibition activity of v-Src led to a reduction of Src-Tyr phosphorylation, decreased Src-mediated Shc phosphorylation, ERK activation, and cell proliferation in v-Src transformed cells. JAK2↓ Inhibition of IL-6-induced JAK2/Stat3 pathway induced apoptosis. Her2/neu↓ Suppression of Her2/neu PTK activity and proliferation; repression of transformation and metastasis, CK2↓ CK2 inhibition cancer cells to Fas and TRAIL ligand-induced apoptosis. CK2 inhibition enhanced the cytotoxicity of natural killer cells HepG2 and Hep3B in vivo
+					- Lymphostin Lck↓ Inhibition of Src family kinase Lck activity in Jurkat T cells
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7352436/
 			- stroke: 
