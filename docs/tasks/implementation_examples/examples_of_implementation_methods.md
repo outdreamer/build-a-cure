@@ -32,6 +32,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identifying useful structures like 'algorithm structures like vertexes with enough info to filter relevant graphs'
+        - for example, when applying 'algorithms as a vertex' (like 'only apply an optimistic algorithm in a case with low info rewards when there is an algorithm to create relevance or return to relevance from any position'), the possibility of these algorithms is variable (its possible to decrease info so much like with filters/abstraction that its not possible to generate relevance from that info), which is a 'graph to apply in combination with this algorithm vertex' (check if the position of info content in that graph indicates that info content is sufficient that the algorithm vertex is still relevant/useful), which is useful to identify as a source of information to 'filter relevant graphs' based on sequences/combinations/vertexes/structures of algorithms, which identifies a graph of 'relevant algorithm structures, based on interface variables like info content' as a relevant graph for 'continuing/changing algorithms'
+
     - identifying useful structures like 'graph function endpoints' which are useful for 'filtering useful graphs'
         - for example, graph similarities/iterations/extensions can be applied until some structure is identified, like 'excess intersections/overlaps occur' or 'another relevant graph is generated' or an 'error boundary/area/pattern is identified', which can be applied as a stopping point for the similarity/iteration/extension to fulfill some completeness metric or stop for additional iterations of analysis
         - relatedly, a 'graph where adjacent/similar graphs in any/different direction are relevant bases' is a useful graph to identify
