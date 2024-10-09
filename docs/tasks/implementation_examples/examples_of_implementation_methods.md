@@ -33,7 +33,7 @@
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
     - identifying useful structures like 'connections between similarity sequence types on graphs and problem/solution structures solvable with those graphs'
-        - for example, a similarity embedding sequence like 'patterns in queries on graphs' might be similar to requirements, which connects the sequence to relevant structures like problem/solution structures
+        - for example, a similarity network query like a 'similarity embedding sequence' like 'patterns in queries on graphs' might be similar to requirements/reasons, which connects the sequence to relevant structures like problem/solution structures, which is a way to apply queries from a network like a 'similarity network' to another graph
         - relatedly, identifying possible relevance of structures of queries like the 'maximum distance-covering (longest) queries' and 'queries covering a ratio of a graph' and 'queries connecting all nodes' is useful to identify connections between queries that form alternate useful graphs ('graphs of useful queries on a graph' or 'graphs of patterns of queries on a graph')
 
     - identifying useful structures like 'alignments in optimal point sequences on a graph and intents like "filter relevant graphs" using "graph connection layers"'
