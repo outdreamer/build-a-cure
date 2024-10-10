@@ -374,8 +374,12 @@
 					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, niacin, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin
 					- treat other conditions that can decrease myelin like thyroid problems
 				- reduce inflammation with anti-inflammatory substances
+		- repair nerves
+			- NAC, omega 3s, olive oil, evening primrose oil, alpha lipoic acid, ginkgo biloba, selenium/zinc/iron and vitamin a/c/d/e/k from diet, b-vitamins, acetyl-l-carnitine, magnesium, glutathione, glutamine, fasting, polyamines, copper, small amounts of caffeine to repair blood vessels
+				- https://scitechdaily.com/coffee-for-your-heart-the-regenerative-power-of-caffeine-on-vascular-health/
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8303934/
 		- hair loss: 
-			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid
+			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, deoxyribose
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
