@@ -267,7 +267,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- beet, ginger, coq10, garlic, fish oil, magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA
+			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
