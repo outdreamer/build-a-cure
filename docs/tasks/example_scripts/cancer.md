@@ -273,6 +273,8 @@
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
 			- avoid plastic and other chemicals which can disrupt hormones
+			- low oxytocin: vitamin c/d, taurine, caffeine, Lactobacillus reuteri, chamomile, oleoylethanolamide, melatonin, fenugreek, jasmine, Salvia sclarea, Anise Seed, magnesium, omega 3's
+				- https://www.optimallivingdynamics.com/blog/25-effective-ways-to-increase-oxytocin-levels-in-the-brain
 			- estrogen toxicity: 
 				- progesterone, cortisol, pregnenolone/DHEA supplements (precursors of progesterone and cortisol), indole-3-carbinol, magnesium, vitamin b6, antioxidants such as vitamins A/C/E, omega 3s, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, milk thistle, taurine, methionine
 				- avoid dairy, coffee, gluten, sugar, carbs, pumpkin seeds, flax seeds, soda/green tea to lower estrogen
