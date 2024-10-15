@@ -236,6 +236,10 @@
 			- selenium, l-carnitine, myo-inositol, melatonin, and resveratrol all impact thyroid function
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6770945/
 		- neuropathy/nerve damage:
+			- arginine/citrulline/vitamin C together and other amino acids help repair nerves by lowering blood pressure and/or growing new neurons
+				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
+				- IKVAV (isoleucine–lysine–valine–alanine–valine), RGD (arginine–glycine–aspartic acid), YIGSR (tyrosine–isoleucine–glycine–serine–arginine), and RADA16 (arginine–alanine–aspartic acid–alanine)
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8544532/
 			- nerve growth factor (NGF)/nerve regeneration supplements: acetyl-L-carnitine, citruline, taurine, beta-alanine, antioxidants like alpha-lipoic acid, ubiquinol (form of coq10), gamma-linolenic acid, saffron, turmeric, active forms of b vitamins, vitamin d, magnesium, green tea with vitamin c, zinc, medicinal mushrooms (lion's mane), resveratrol, cinnamon, omega 3’s, electrical stimulation, infrared light therapy (LLLT), hydrotherapy, acupuncture, deep breathing, fasting, cold showers, massage, pyrroloquinoline quinone disodium salt (PQQ), reduce stress/inflammation with anti-inflammatory substances, increase BDNF (brain-derived neurotrophic factor) to increase NGF, transcranial magnetic stimulation, ginkgo biloba, phosphatidylserine, gotu kola, bacopa monnieri (brahmi), ashwagandha, rhodiola rosea, probiotics (kefir, bifidobacterium longum, lactobacillus plantarum)
 				- https://pubmed.ncbi.nlm.nih.gov/32379676/
 				- https://pubmed.ncbi.nlm.nih.gov/28441605/
@@ -268,6 +272,8 @@
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
 			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA
+			- arginine/citrulline/vitamin C together help manage blood pressure
+				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
@@ -369,7 +375,7 @@
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
 				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
-				- repair myelin
+				- repair myelin and take nerve repair/regeneration supplements
 					- clemastine to block M1R and regenerate myelin
 						- https://medicalxpress.com/news/2024-08-drug-clock-multiple-sclerosis.html
 					- rest/melatonin, iodine, vitamin C, zinc, iron, cholesterol, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, vitamin d/k2, choline/citicoline, b vitamins, probiotics/prebiotics
