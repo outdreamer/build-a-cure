@@ -271,7 +271,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA
+			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, cat’s claw, Lycium, stinging nettle, theanine
 			- arginine/citrulline/vitamin C together help manage blood pressure
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
@@ -393,7 +393,7 @@
 			- obesity:
 				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, correct vitamin deficiencies like zinc, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
 			- diabetes
-				- lower glucose/manage insulin sensitivity: allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, and rosemary
+				- lower glucose/manage insulin sensitivity: allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, and guar gum
 					- https://pubmed.ncbi.nlm.nih.gov/38931176/
 				- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
