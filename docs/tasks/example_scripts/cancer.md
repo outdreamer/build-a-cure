@@ -271,10 +271,11 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, cat’s claw, Lycium, stinging nettle, theanine
+			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green/oolong tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, lycium, stinging nettle, theanine, lycopene, diuretics for blood pressure caused by water retention, whey protein, citrus/hesperidin, watermelon/citrulline, oats/beta-glucans, greens with high nitrates, pomegranate, cinnamon, berries, bananas, nuts, apple cider vinegar
+			- other vegetables/herbs that can lower blood pressure: black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), celery juice (Apium graveolens), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides)
 			- arginine/citrulline/vitamin C together help manage blood pressure
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
-			- avoid excess cortisol/hydrocortisone, caffeine, and supplements that change electrolyte balances
+			- avoid excess salt, sugar/refined carbs, cortisol/hydrocortisone, caffeine, alcohol, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
