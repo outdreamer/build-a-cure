@@ -32,6 +32,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identifying useful structures like 'graph errors/optimizations (like over-optimization for simplistic solution structures like one solution metric) that are identifiable with other graphs (like the uncertainty/over-prioritization graph) by identifying graph ranges on some graph variable (like linearity of a problem/solution connection)'
+        - for example, identifying that a 'graph with a linear/simple connection (as opposed to a complex connection) between some "problem/solution type/similarity set" on that graph' probably has an over-prioritization error in that it likely optimizes for one metric which is that set and isnt generally useful is a way to apply the 'uncertainty/relevance intersecting spectrum graph' to optimize other graphs like identifying 'relevant graph ranges of linearity of the connection between some problem/solution set', and its also possible to optimize graphs for multiple problem/solution types/similarities and its also improbable/unrealistic for a simple/linear connection to be correct/relevant
+
     - identifying useful structures like 'graph variants (like different error states or different concept bases) applied as similarities/differences'
         - for example, identifying graph variants is useful, like variants of the 'uncertainty/relevance intersecting spectrum graph' like to indicate 'different error states', like where 'every error occurs at once' like where extremes values of spectrums occur in the same position, and integrating different bases like how the original graph has a center which represents a base to assess 'difference from uncertainty/relevance' by 'distance from the central intersection'
 
