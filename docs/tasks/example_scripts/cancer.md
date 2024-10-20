@@ -26,17 +26,6 @@
 		- some of the scripts and questions are my inventions, as in 'new useful unique thoughts, using my other inventions to analyze info', although a 'cancer-curing protocol for most cancers (such as rotating through subsets of supplements or combinations of supplemments that cover a high ratio of functionality or finding a gene that can be changed to cure most cancers while avoiding other health problems)' would be an invention (its valuable and not trivial to identify)
 		- similarly, 'identifying which substances in which structures like 'combination/sequence' that inhibit/activate the structures that would reduce all relevant cancerous processes in specific cancer states/types/co-occurrence with other conditions' is an intent that, if fulfilled, would likely constitute a cancer-curing script, since the problem of cancer is largely a problem of 'not yet knowing all the impacts of each substance and the net impact of that substance when applied with other substances and in specific states of health and for specific cancer types', so identifying the 'net impact of a diet and set of supplements on these anti-cancer intents' is likely sufficient to cure cancer in many cases, except where the impact is not fully known
 			- for example, for a 'brain cancer patient, with kidney failure', this might be a protocol such as 'avoid unfiltered outdoor air to avoid pollution, avoid noise pollution like traffic noise, avoid chemicals like cleaners/pesticides/PFAS, exercise indoors, eat coconut oil, omega 3s to repair kidneys, and some anti-cancer herbs like ashwagandha and foods like berries/shiitake mushrooms, as well as baking soda if tolerable, treat "low doses of vitamin d or cortisol at night" by taking anti-cancer substances before bed, take modified citrus pectin, and use a low-carb or low-fat or low-methionine diet, for a period such as several weeks, in order to avoid cancerous inputs', but there is no tool to identify implementations of intents or the intents themselves for specific patients, and if there was, that might constitute a cancer cure
-			- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
-				- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
-			- omega 3s to repair kidney damage by inhibiting IL-11
-			    - https://www.nature.com/articles/s41467-022-35306-1
-			- avoiding dietary purines to reduce cancer growth
-				- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
-			- supplements which increase VEGF to induce angiogenesis (should be avoided for cancer): copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
-				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974125/
-			- d-ribose to bind with phosphate for hyperphosphatemia, as well as greens powder (to bind with waste not filtered by the kidneys and to prevent acidosis)
-				- https://www.amazon.com/Garden-Life-Organic-Perfect-Superfood/dp/B002HI1LSI
-			- ginger, soy, garlic, fiber and flax seed to reduce cholesterol which can be elevated with kidney damage
 
 		- this means 'iterating through genes (and then structures of genes like components/combinations) to find unnecessary ones' might be useful to determine if there is one that can be switched off without causing health problems and if it could also usefully alter cancer growth (like disabling growth factors and replacing them with less mutable alternatives)
 		- this also means 'identifying coordinating as well as complementary intents' (inhibit CSC and inhibit autophagy) is useful to identify possible supplement sets fulfilling these intents that is generally useful at reducing cancer growth and identifying usefulness of 'structures of intents like rotating between intents (to keep cancer cells from adapting too successfully)' is similarly useful
@@ -271,11 +260,11 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- beet, ginger, coq10, garlic, ginkgo, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins, vitamin c/d, melatonin, green/oolong tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, lycium, stinging nettle, theanine, lycopene, diuretics for blood pressure caused by water retention, whey protein, citrus/hesperidin, watermelon/citrulline, oats/beta-glucans, greens with high nitrates, pomegranate, cinnamon, berries, bananas, nuts, apple cider vinegar
+			- vasodilators (arginine, niacin, garlic, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin), nitric oxide precursors (celery, beets, spinach and lettuce), ginger, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins/niacin, vitamin c/d, melatonin, green/oolong tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, lycium, stinging nettle, theanine, lycopene, diuretics for blood pressure caused by water retention, whey protein, citrus/hesperidin, oats/beta-glucans, greens with high nitrates, pomegranate, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric
 			- other vegetables/herbs that can lower blood pressure: black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), celery juice (Apium graveolens), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides)
 			- arginine/citrulline/vitamin C together help manage blood pressure
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
-			- avoid excess salt, sugar/refined carbs, cortisol/hydrocortisone, caffeine, alcohol, and supplements that change electrolyte balances
+			- avoid excess salt, licorice, sugar/refined carbs, cortisol/hydrocortisone, vasoconstrictors (caffeine), alcohol, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
@@ -289,7 +278,7 @@
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 		- high cholesterol
-			- mineral water, ginger, soy, garlic, fiber and flax seed, bromelain
+			- mineral water, ginger, soy, garlic, fiber and flax seed, bromelain, lycopene, pycnogenol, berberine
 		- reduce ER stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
 			- 5-fluorouracil (5-FU) and melatonin decrease PRP(C)
 				- https://pubmed.ncbi.nlm.nih.gov/30091203/
@@ -311,12 +300,28 @@
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
 			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
 				- avoid excess alkaline/flow water with kidney damage
+				- treat high cholesterol and high blood pressure to avoid making kidney damage worse
+				- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
+					- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
+				- omega 3s to repair kidney damage by inhibiting IL-11
+				    - https://www.nature.com/articles/s41467-022-35306-1
+				- avoiding dietary purines to reduce cancer growth
+					- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
+				- supplements which increase VEGF to induce angiogenesis (should be avoided for cancer): copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974125/
+				- d-ribose to bind with phosphate for hyperphosphatemia, as well as greens powder (to bind with waste not filtered by the kidneys and to prevent acidosis)
+					- https://www.amazon.com/Garden-Life-Organic-Perfect-Superfood/dp/B002HI1LSI
+				- flavonoids including pycnogenol, quercetin, rutin, morin, red wine polyphenols, genistein, epicatechin, and grape seed proanthocyanidins can improve kidney damage/hypertension in some patients
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5928447/
+				- lycopene (in tomato, papaya, grapefruit, watermelon, apricot, guava) and other carotenoids (in carrots) are associated with greater kidney functionality, so may be protective against and preventative of kidney damage
+					- https://www.nature.com/articles/s41598-019-53674-5
 			    - may help improve kidney damage: Alpha lipoic acid (ALA)/omega 3s to inhibit IL-11, Andrographis paniculata, moringa, NAC, probiotics, prebiotics (resistant starch), resveratrol
 			    	- omega 3s to repair kidney damage by inhibiting IL-11
 			    		- https://www.nature.com/articles/s41467-022-35306-1
 			        - plants to use for kidney stone prevention and fixing kidney damage
 			            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541433/
-			    - avoid vitamins A, D, E, and K supplements which can easily build up
+			    - berberine may be renoprotective
+			    - avoid vitamins A, D, E, and K supplements which can easily build up in the blood in toxic levels with kidney damage
 			    - avoid NSAIDs, ground ivy, peppermint, Aristolochic Acid, Chromium Picolinate, Germanium, L-Lysine, Larrea tridentate (Chaparral), Pausinystalia yohimbe (Yohimbe), Salix daphnoides (Willow Bark), Tripterygium wilfordii hook F (Thunder God Vine), Uncaria tomentosa (Cat's Claw), Hedeoma pulegioides (Pennyroyal), Hydrazine Sulfate, Thevetia peruviana (Yellow Oleander), Huperzinea, Astragalus, Barberry, Goldenrod, Horsetail, Java Tea Leaf, Stinging Nettle, Oregon Grape Root, Parsley Root, Uva Ursi
 			    - kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS)
 			    	- avoid as they may cause kidney stones: zinc, oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
@@ -327,7 +332,7 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use pycnogenol, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
@@ -348,11 +353,11 @@
 		- inflammation: 
 			- avoid animal products, sugar, gluten
 			- anti-inflammatory substances
-				- bromelain, cinnamon, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha, GABA
+				- bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha, GABA
 				- taurine has anti-tumor activity
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
-				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes), taurine
+				- antioxidants: vitamin A, vitamin C powder, vitamin E, copper, zinc, selenium, glutathione, alpha lipoic acid (spinach, broccoli, tomatoes), taurine, lycopene
 				- foods rich in polyamines such as wheat germ, soybean, mushroom, or citrus fruits have been associated with a high antioxidant activity
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/31355206/
 				- an antioxidant that helps protect your cells against the effects of free radicals
@@ -373,7 +378,7 @@
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
-				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants
+				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
 				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
 				- repair myelin and take nerve repair/regeneration supplements
@@ -410,6 +415,7 @@
 			- purify water with filters like reverse osmosis filters or boiling water and then filtering it, and purify air with filters that can filter out benzene
 			- avoid processed foods which can cause systemic damage
 			- use NAC to detoxify compounds like dihalogenated nitrophenols in drinking water
+			- use antioxidants like lycopene to protect against damage from exposure to pesticides
 			- use charcoal, baking soda, vinegar, water to absorb some paint/chemical fumes
 			- avoid buying new household appliances/furniture, or personal-care products and disinfectants that use chemicals like organophosphate flame retardants and quaternary ammonium compounds, shop at Whole Foods or another place with a policy against PFAS
 				- https://time.com/6281242/pfas-forever-chemicals-home-beauty-body-products/
@@ -443,6 +449,8 @@
 		- brain disorders
 			- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
+			- adhd
+				- pycnogenol
 			- prevent lymph system aging to improve brain waste protein clearance to avoid alzheimer's/parkinson's (prostaglandin F2α)
 				- https://medicalxpress.com/news/2024-08-aging-brain-scientists.html
 				- excess prostaglandin F2α is associated with endometriosis, inflammation, and some cancer types
@@ -485,7 +493,7 @@
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
 				- also use an anti-inflammatory diet and avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
 			- alzheimers: 
-				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like beta-carotene, and resveratrol, DDL-920
+				- 40hz waves, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like lycopene/beta-carotene, resveratrol, DDL-920
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation (use an anti-inflammatory diet) and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 				- treat high blood pressure which is a risk factor for alzheimer's
@@ -502,6 +510,7 @@
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
         - gastrointestinal problems:
+        	- kill bad gut bacteria: berberine
         	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
         		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
         	- ibd: 
