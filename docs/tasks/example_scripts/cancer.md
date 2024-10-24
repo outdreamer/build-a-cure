@@ -208,6 +208,9 @@
 			- general antimicrobials: ginger, clove, holy basil, black seed oil, garlic, honey, echinacea, goldenseal, oregano, CBD, banyan, turmeric
 			- immune stimulants: cordyceps/other medicinal mushrooms
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
+			- vibrio vulnificus: holy basil, oregano, sage, stinging nettle, echinacea, tea tree, lemon grass, ceylon cinnamon, thyme
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC9573401/
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC8509446/
 			- tuberculosis: barberry/garlic/black seed oil/basil/red sage to directly kill bacteria (vitamin d, horsetail (silica), ginseng, propolis, pineapple, licorice, orange, probiotics (acidophilus), vitamin A/B6, copper, zinc, magnesium, calcium to support recovery), artemisinin/wormwood, ashwagandha
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8448615/ (Medicinal plants and natural products showing in vitro anti-TB activity)
 			- leprosy: zinc, vitamin A/D, omega 3s, CBD, Bacillus Calmette-Guérin (BCG) vaccination
