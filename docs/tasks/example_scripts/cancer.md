@@ -269,6 +269,7 @@
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 			- avoid excess salt, licorice, sugar/refined carbs, cortisol/hydrocortisone, vasoconstrictors (caffeine), alcohol, and supplements that change electrolyte balances
 			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
+			- use exercise like aerobic exercise, weights, and wall squats to decrease blood pressure
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
 			- avoid plastic and other chemicals which can disrupt hormones
