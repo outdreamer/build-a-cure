@@ -265,7 +265,7 @@
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
 			- luteolin (artichokes), vasodilators (arginine, niacin, garlic, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin), nitric oxide precursors (celery, beets, spinach and lettuce), ginger, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins/niacin, vitamin c/d, melatonin, green/oolong tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, lycium, stinging nettle, theanine, lycopene, diuretics for blood pressure caused by water retention, whey protein, citrus/hesperidin, oats/beta-glucans, greens with high nitrates, pomegranate, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric
-			- other vegetables/herbs that can lower blood pressure: black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), celery juice (Apium graveolens), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides)
+			- other vegetables/herbs that can lower blood pressure: black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), celery juice (Apium graveolens), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
 			- arginine/citrulline/vitamin C together help manage blood pressure
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 			- avoid excess salt, licorice, sugar/refined carbs, cortisol/hydrocortisone, vasoconstrictors (caffeine), alcohol, and supplements that change electrolyte balances
@@ -305,6 +305,7 @@
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
 			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
 				- avoid excess alkaline/flow water with kidney damage
+				- ozempic can reduce kidney inflammation which can help repair kidney damage, fish with omega 3's can have the same effect
 				- treat high cholesterol and high blood pressure to avoid making kidney damage worse
 				- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
 					- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
@@ -386,6 +387,8 @@
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
 				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
+				- sulfuretin
+					- https://phys.org/news/2024-10-natural-compound-blocks-enzyme-involved.html
 				- repair myelin and take nerve repair/regeneration supplements
 					- clemastine to block M1R and regenerate myelin
 						- https://medicalxpress.com/news/2024-08-drug-clock-multiple-sclerosis.html
