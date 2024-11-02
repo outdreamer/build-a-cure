@@ -6,12 +6,25 @@
 - useful sub-intents with associated substances
 
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, and quercetin), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
+
+		- 'cancer cause' diagnostic sequence
+			- you will probably want to rule out causes/enhancers of your cancer in specific sequences
+			    - if you dont care about identifying the cause and want to skip to treatment or prevention, you can start with the anti-cancer herbs/fruits/vegetables and an air pollution air purifier (a mask for outside time, and home/car purifiers)
+				- first you can test if your cancer is caused by air pollution quickly by using an air pollution mask and an air pollution air purifier (and a reverse osmosis water purifier to check if your water is making you sick) for a few days and checking if it helps reduce cancer growth (if your cancer is slow growing, this might take longer and you should start with an anti-inflammatory diet and herbs while also using an air pollution air purifier, rather than letting your cancer get slowly worse for long periods of time just to check if its the air pollution)
+				- then you can check if acidity/inflammation causes your cancer by taking vitamin c powder (take this in doses of 1 - 2 g/day with zinc to help prevent kidney stones, assuming youre otherwise healthy and can handle large doses of vitamin c), calcium carbonate, and/or potassium bicarbonate to see if they help reduce cancer growth
+					- also check if other vitamin deficiencies are the cause of your cancer, such as by taking anti-cancer vitamins/minerals like iodine and vitamin d (not a huge dose, bc vitamin d can hurt your kidneys in large doses) to see if that fixes the cancer growth, or taking a multivitamin or eating a nutritionally complete diet (getting nutrients from diet rather than supplements will avoid the problem of 'feeding cancer directly by eating vitamins/minerals in supplement form, which puts it directly in the bloodstream')
+				- then if none of those fixes your cancer growth, you can try gentler anti-cancer herbs/fruits/vegetables (like ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) to see if those help reduce cancer growth
+				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
+					- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
+				- if those specific protocols dont work, then you can try substances that are more harsh on your organs (like thunder god vine, cat's claw, quercetin, chlorogenic acid, etc), but otherwise avoid these if you can
+				- if these dont work, youll want to keep looking for other pollutants/chemicals you might be exposed to that could cause cancer (like pesticides, toxic cleaning chemicals, processed food, supplements like beta-sitosterol that can suppress tumor-fighting defenses, arginine/b vitamins/vitamin c/vitamin e/iron/zinc which can feed cancer if taken in supplement form, etc)
 		
 		- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
 			- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
 			- if your microbiome is messed up, you wont be able to fight cancer optimally, probiotics are a powerful immune booster
 			- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work
-				- I put them in some soup, sauerkraut, or tea with sugar or wheat flour and let them grow and drink a little bit all day (1 - 2 bottles' worth every day is good for reducing tumor size, although lower doses are recommended for some people like thyroid patients, not sure what the upper limit is on the dose, lactic acid from the bacteria and SCFA/bile acid production which impact the thyroid are probably the dose-limiting factors)
+				- I put them in some soup, sauerkraut, or tea with sugar or wheat flour and let them grow and drink a little bit all day (1 - 2 bottles' worth every day is good for reducing tumor size quickly, although lower doses are recommended for some people like thyroid patients, not sure what the upper limit is on the dose, lactic acid from the bacteria and SCFA/bile acid production which impact the thyroid are probably the dose-limiting factors)
 				- https://www.sciencedaily.com/releases/2024/05/240517164108.htm
 				- the reason this works is probably that the dose is really high, Im drinking a broth that contains 20  - 100 pills or so every day of a very powerful high quality probiotic
 				- I also found this bc I decided to look for a 'magic treatment' like sitosterol almost was for fungal infections (except that it suppressed a tumor suppressor), and bc I try variable dose sizes bc I know that dose is important, and bc I didnt take the easy way out of asking someone to figure out cancer for me
@@ -205,7 +218,7 @@
 				- comprehensive list of antileishmanial compounds: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36364404/
 			- malaria: coronopus didymus (jangli halon; bitter cress), cryptolepis sanguinolenta (Ghanaian quinine), neem
 		- bacterial infections: 
-			- keto diet, probiotic kefir/kombucha (broad-spectrum probiotics like Garden of Life with multiple strains)
+			- infrared light, keto diet, probiotic kefir/kombucha (broad-spectrum probiotics like Garden of Life with multiple strains)
 			- general antimicrobials: ginger, clove, holy basil, black seed oil, garlic, honey, echinacea, goldenseal, oregano, CBD, banyan, turmeric
 			- immune stimulants: cordyceps/other medicinal mushrooms
 			- bacterial imbalances: treat bacterial imbalances like from antibiotics such as doxycycline with prebiotics/probiotics/antiinflammatories/antimicrobials (also avoid high acid foods which can cause acidosis which can cause microbe overgrowths)
