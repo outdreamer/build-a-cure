@@ -70,7 +70,7 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics/kefir, wheat grass, brussel sprouts, broccoli sprouts, broccoli, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, turmeric, and ashwagandha
+				- carrots/turmeric/grapes/broccoli/chamomile to inhibit PD-L1, pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics/kefir, wheat grass, brussel sprouts, broccoli sprouts, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, and ashwagandha
 				- turmeric isnt always good for every cancer type, so brain cancer patients will want to be careful with that, same with melatonin, it may help or hurt different cancer types
 				- coffee/green tea are useful for reducing brain cancer, so even if you have organ damage, small amounts of these may be worth it if your system can handle it
 				- also make sure you take an antacid (I use baking soda/potassium bicarbonate and calcium carbonate/citrate) - unless you have alkalosis or another medical condition like that
@@ -397,6 +397,15 @@
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
+				- increase interferon-alpha/beta (which increase Mx proteins)
+					- https://pubmed.ncbi.nlm.nih.gov/31648992/ - 'Interferon-β corrects massive gene dysregulation in multiple sclerosis'
+					- substances that increase interferon-beta: 
+						- ferulic acid, lipoic acid, sulforaphane, spirulina, NAC, selenium, glucosamine
+							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7130854/
+						- vitamin d
+							- https://www.neurology.org/doi/10.1212/WNL.86.16_supplement.P3.103
+						- pumpkin seeds, purple turmeric, pearl barley, corn pistil, and cinnamon
+							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8809074/
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
 				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
@@ -816,6 +825,22 @@
 
 
 	- for an example of a treatment strategy, combining the following sub-intents is probably useful across different cancers:
+
+		- decrease programmed cell death protein 1 (PD-1) and programmed death-ligand 1 PD-L1 (more effective to inhibit PD-L1 while also increasing type 1 interferons)
+			- Podocarpus elongatus, Podocarpus falcatus, Podocarpus henkelii and Podocarpus latifolius, curcumin, baicalin (chinese skullcap), saponin, platycodin D, betulin (white birch), cordyceps militaris, salvia plebeia, carrot, morus alba (white mulberry), ginsenoside Rk1 (ginseng), kaempferol (kale, spinach, broccoli, beans, tea), green tea catechins, apigenin (chamomile, parsley, celery, celeriac), triptolide (thunder god vine), resveratrol (grapes)
+			- https://www.sciencedirect.com/science/article/abs/pii/S0378874110004812
+			- https://www.sciencedirect.com/science/article/pii/S1882761620300065
+			- https://www.sciencedirect.com/science/article/abs/pii/S0924224408001805
+			- https://pubmed.ncbi.nlm.nih.gov/38974523/
+			- https://pubs.rsc.org/en/content/articlelanding/2020/fo/c9fo02166c
+			- https://www.mdpi.com/1422-0067/21/9/3239
+			- https://www.mdpi.com/1420-3049/23/8/2071
+			- https://www.aging-us.com/article/102646/text
+			- https://jeccr.biomedcentral.com/articles/10.1186/s13046-018-0929-6
+			- https://link.springer.com/article/10.1007/s11060-019-03193-0
+			- https://link.springer.com/article/10.1007/s12272-021-01355-1
+			- https://www.sciencedirect.com/science/article/abs/pii/S0378874121005997
+		- decrease mTORC1/mTORC2
 
 		- decrease pro-inflammatory genes/cytokines
 			- inhibit NF-κB, COX-2, TNF-alpha, IL-1β, IL-6, and interferon-gamma INF-gamma
