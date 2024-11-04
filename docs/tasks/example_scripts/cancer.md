@@ -841,7 +841,18 @@
 			- https://link.springer.com/article/10.1007/s12272-021-01355-1
 			- https://www.sciencedirect.com/science/article/abs/pii/S0378874121005997
 		- decrease mTORC1/mTORC2
-
+		- inhibit TET2-mutant cells (useful in leukemia) or upregulate TET1/2 (useful in breast, gastric, liver, and lung cancer), depending on the cancer type
+			- https://www.sciencedaily.com/releases/2024/10/241002122918.htm
+			- increase TET1
+				- turmeric
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7910847/
+			- increase TET2
+				- Luteolin (Celery, parsley, broccoli, onion leaves, carrots, peppers, cabbages, apples) and Tanshinone (Salvia miltiorrhiza)
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC10420661/
+				- vitamin C
+			- decrease TET2
+				- Dioxygenase inhibitors
+					- https://ashpublications.org/blood/article/132/Supplement%201/4345/275754/Lessons-from-Nature-A-Novel-Class-of-TET
 		- decrease pro-inflammatory genes/cytokines
 			- inhibit NF-κB, COX-2, TNF-alpha, IL-1β, IL-6, and interferon-gamma INF-gamma
 		- nucleic acids (guanosine in coffee, adenosine)
@@ -901,6 +912,8 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7378927/
 			- herbs that induce useful epigenetic changes (HDAC, HAT and DNMT changes)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3092901/
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC7056469/
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC9967112/
 		- inhibit cancer stem cells (vitamin C, milk thistle, chloroquine, apigenin, turmeric, berberine, calestrol, emodin, moringa, fisetin, limonene, withaferin, rosmarinic acid, quercetin, astaxanthin, icariin, tricin)
 			- histone deacetylase inhibitory activity (valproic acid) and lowering cholesterol (simvastatin) target CSCs by inhibiting YAP (similar to sulforaphane)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7545949/
