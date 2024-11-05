@@ -43,7 +43,7 @@ Useful graphs
 
     - graph of possible utopias/futures/worlds/societies so people can think about those more and so these are likelier to be optimized/achieved
 
-
+    - graph of 'base truths' to prove or re-iterate important truths that shouldnt be debated to fight misinformation (health facts shouldnt be debated so a graph to connect health facts with reason/cause to help prove them is useful to avoid dangerous health misinformation, whereas other facts are debatable/uncertain/unimportant/irrelevant so they shouldnt be included in 'indisputable important fact graphs')
 
 
 Useful websites/databases
@@ -55,6 +55,7 @@ Useful websites/databases
     - website for problems/solution indexing/listing, matching and sharing (for example, the list of health problems/solution herbs in cancer.md, which is useful in a text editor program with highlighting so they can see how many conditions turmeric helps prevent, or a similar spreadsheet/website with similarly useful functionality)
         - website to submit specific problems or requests for solutions (like a request for a specific graph that would help them solve problems)
         - website to have contests with prize money to solve problems (like 'find a policy/consensus algorithm that represents groups democratically')
+            - relatedly to consensus generation, https://changingminds.org/techniques/general/overall/marwell_schmitt_strategies.htm - "Marwell and Schmitt's Compliance-Gaining Strategies"
 
     - website to identify and kill predators with cameras/drones, as a predator-hunting game for a volunteer/community-based gaming police force, with tips on how to identify predators or integrated police databaase data to help track their locations in real time
 
