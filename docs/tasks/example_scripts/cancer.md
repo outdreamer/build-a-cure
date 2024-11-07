@@ -71,7 +71,7 @@
 	- cancer treatment with organ damage
 		- this will involve smaller amounts of gentler but powerful anti-cancer substances
 			- 'cancer treatment with organ damage' diet:
-				- carrots/turmeric/grapes/broccoli/chamomile to inhibit PD-L1, pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics/kefir, wheat grass, brussel sprouts, broccoli sprouts, mushrooms (medicinal mushrooms and also white button mushrooms), walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, and ashwagandha
+				- carrots/turmeric/grapes/broccoli/chamomile to inhibit PD-L1, pomegranate/berries/grapes/apples/tomatoes/onions/citrus fruit for the quercetin which inhibits IGF-1, mangos, as well as probiotics/kefir, wheat grass, brussel sprouts, broccoli sprouts, mushrooms (medicinal mushrooms and also white button mushrooms), wasabi/garlic/ginger, walnuts/almonds/macadamia nuts, flax seeds, coconut, modified citrus pectin, hibiscus, and ashwagandha
 				- turmeric isnt always good for every cancer type, so brain cancer patients will want to be careful with that, same with melatonin, it may help or hurt different cancer types
 				- coffee/green tea are useful for reducing brain cancer, so even if you have organ damage, small amounts of these may be worth it if your system can handle it
 				- also make sure you take an antacid (I use baking soda/potassium bicarbonate and calcium carbonate/citrate) - unless you have alkalosis or another medical condition like that
@@ -236,7 +236,7 @@
 				- the following are commonly found in Helicobacter pylori supplements, but the activity of these is unclear
 					- uncaria tomentosa (cat's claw), lactobacillus reuteri, green tea, licorice, berberine, bismuth citrate, mastic gum, broccoli sprouts, zinc
 					- Lactobacillus Reuteri Pylopass, Lactobacillus Acidophilus, Lactobacillus Plantarum, Lactobacillus Salivarius Lactobacillus Casei, Lactobacillus Rhamnosus Lactobacillus Bulgaricus, Lactococcus Lactis, Bifidobacterium Longum, Bifidobacterium Bifidum, Bifidobacterium Breve
-					- probiotics/wine/beer, pepto bismol, sodium butyrate, saccharomyces boulardii
+					- probiotics/wine/beer, pepto bismol, sodium butyrate, saccharomyces boulardii, wasabi
 		- thyroid problems: 
 			- treat thyroid problems, which can make cancer worse, and avoid using thyroid gland, which can make cancer worse
 			- hypothyroidism: zinc, copper, iodine, tyrosine, ashwagandha, levothyroxine, avoid goitrogens (pomegranate, soy, broccoli, cabbage, brussel sprouts, millet) and shepherd's purse which suppress thyroid function
@@ -373,7 +373,7 @@
 		- inflammation: 
 			- avoid animal products, sugar, gluten
 			- anti-inflammatory substances
-				- bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, anti-inflammatory substances like vitamin d, resveratrol, ginkgo, ashwagandha, GABA
+				- wasabi, bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, vitamin d, resveratrol, ginkgo, ashwagandha, GABA
 				- taurine has anti-tumor activity
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
@@ -1654,7 +1654,9 @@
 					- innate lymphoid cells
 						- NK cells
 							- NK cells release cytotoxic molecules, which lyse tumor cells
-			- actin
+			- filamentous actin
+				- high F-actin levels are associated with general bad health and aging, which is reduced by rapamycin and dietary caloric restriction
+					- https://www.nature.com/articles/s41467-024-53389-w
 			- enzymes (like kinases) which have activity against proteins associated with processes that can be dysregulated in cancer			
 			- growth factors
 			- oncogenes and anti-cancer genes
@@ -3222,6 +3224,17 @@
 				- alanine increases 6
 				- DHA increases 1, 2
 				- cordyceps increased (IL)-1β, IL-2, IL-6, IL-8, IL-10, IL-12
+		- increase/decrease IL-21
+			- IL-21 helps fight glioblastoma, but may have a pro-cancer effect in other cancer types
+				- https://medicalxpress.com/news/2024-08-natural-killer-cells-interleukin-antitumor.html
+			- increase IL-21
+				- Bifidobacterium breve, Lactobacillus plantarum NCU116
+					- https://pubmed.ncbi.nlm.nih.gov/22693446/
+					- https://pubmed.ncbi.nlm.nih.gov/26822718/
+			- decrease IL-21
+				- alfacalcidol, berberine, Ganoderma lucidum (Lingzhi, reishi mushroom) and San-Miao-San (Rhizoma Atractylodis/Cang Zhu, Cortex Phellodendri/Huang Bo, and Achyranthis Bidentatae/Niu Xi)
+					- https://pubmed.ncbi.nlm.nih.gov/34511168/
+					- https://pubmed.ncbi.nlm.nih.gov/27134645/
   		- increase IL-25 (tumor suppressor)
 	  		- avoid IL-25 inhibitors
 	 			- sitosterol inhibits IL-25

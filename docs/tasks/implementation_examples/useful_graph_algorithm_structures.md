@@ -72,7 +72,8 @@ Useful algorithms
         - https://www.wired.com/story/plaintext-you-can-now-see-the-code-that-ended-apartheid/
         - https://cmte.ieee.org/futuredirections/tech-policy-ethics/may-2020/indiana-how-we-figured-out-the-optimal-approach/
         - https://www.science.org/doi/10.1126/science.adh4764 - 'Megastudy testing 25 treatments to reduce antidemocratic attitudes and animosity'
-    
+        - for example, an algorithm/graph to identify the technologies that can make an ideology work for everyone (like how an 'algorithm-first strategy/govt' and a 'libido inhibitor' could make a hedonistic/selfish system like 'capitalism (profits above all)' work for everyone, 'working for everyone' as in 'without causing mass innocent suffering')
+
     - AI models for:
     
         - core interface functions:
