@@ -154,7 +154,7 @@
 	- fix your other medical problems so you can fight cancer better
 		- some of these substances kill pathogens, some inhibit/suppress pathogen activity indirectly/directly, some boost the immune system, and some help only with specific symptoms rather than the causal pathogen
 		- fungal infections:
-			- keto diet, holy basil, sitosterol, kombucha/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25)
+			- keto diet, holy basil, sitosterol, kombucha/kefir/probiotics/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25), capsaicin
 		- viral infections: 
 			- general antivirals: NAC, curcumin, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
