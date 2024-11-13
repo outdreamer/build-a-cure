@@ -164,6 +164,15 @@
 				- additional herbs used to inactivate viruses: 
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384428/
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/24872930/
+				- PAPR inhibitors may help prevent flu, bc PARP1 helps spread the flu virus
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7081902/
+				- some PARP antiviral activities actually inhibit flu/other viruses
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC8066025/
+					- https://onlinelibrary.wiley.com/doi/10.1155/2019/8512363
+				- inhibiting PARP to prevent flu complications like pneumonia
+					- https://pubmed.ncbi.nlm.nih.gov/32865668/
+				- natural PARP inhibitors
+					- berberine, turmeric, honokiol, resveratrol and EGCG
 			- polio: doum palm, guazuma ulmifolia (west indian elm), neem
 			- murine cytomegalovirus (mcmv): nigella sativa (black seed oil)
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
@@ -321,6 +330,8 @@
 				- https://www.eurekalert.org/news-releases/1054876
 		    - avoid bpc-157 to repair damage bc it can cause cancer
 		    - avoid eating food high in AGEs which can harm heart/kidney health
+		    - PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
+		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
 			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
 				- avoid excess alkaline/flow water with kidney damage
@@ -328,7 +339,7 @@
 				- treat high cholesterol and high blood pressure to avoid making kidney damage worse
 				- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
 					- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
-				- omega 3s to repair kidney damage by inhibiting IL-11
+				- omega 3s to repair kidney damage by inhibiting IL-11 (eat a small amount of salmon every day to help kidneys recover faster)
 				    - https://www.nature.com/articles/s41467-022-35306-1
 				- avoiding dietary purines to reduce cancer growth
 					- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
