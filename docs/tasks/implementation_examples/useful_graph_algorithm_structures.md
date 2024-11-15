@@ -63,6 +63,9 @@ Useful websites/databases
 
 Useful algorithms
 
+    - algorithm to select algorithms for problems, like this post references
+        - https://machinelearningmastery.com/practical-guide-choosing-right-algorithm-your-problem/ - 'A Practical Guide to Choosing the Right Algorithm for Your Problem'
+
     - algorithm that implements 'optimal transport' (or similar algorithm types/intents) to identify what resources there are and how those resources can be distributed fairly to fulfill common intents (like 'basic human needs' and 'universal human rights'), given resources like 'info/laws/religions/taxes/groups/investments/debts/predictions/markets/incentives/demand/probabilities/certainties/oil/privacy/police force/organization/interest rates/etc'
         - algorithm/graph to predict supply/demand decades in advance as well as optimization opportunities and technologies to improve future supply/demand
             - https://www.theguardian.com/environment/2024/oct/16/global-water-crisis-food-production-at-risk
