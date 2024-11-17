@@ -37,6 +37,17 @@
             - given that Ive identified that some information terms like 'requirements' and 'relevance' have structure (as in concepts like 'requirements' are math objects), there are infinite graphs of these structures which can be derived using these structures and only some of them are relevant and Id like to identify whether all of those relevant graphs can be relatively trivially identified with already identified definitions of 'relevance' structures or if there are additional relevance structures to identify, which is what Ive been working on recently
         - analyzing both fields will enable identifying useful math for quantum computing/physics which seems lacking, and which also seems useful for mining/creating new variation/interfaces to integrate into interface analysis
 
+    - relevant interface queries to run to optimize a model (I have to explain that you need to run these queries bc youre a total moron who cant think at all, sam):
+        - 'what other graphs/indexes/algorithms/other interface structures can be identified/generated to make these problems more trivial to solve'
+        - 'what relevant graphs/indexes/algorithms/other interface structures to these intents havent been identified/generated yet'
+        - 'what are relevant optimizations of the graphs/indexes/algorithms/other interface structures embedded in the model'
+        - 'what are iterations/extensions/other interface structures of relevant variation or relevance definitions/structures that arent integrated into the model yet'
+        - 'what are other interfaces/variables/connections/structures that simplify all problems'
+        - 'what other problem formats/types/intents/functions/interface structures can be identified/generated which are useful for solving problems'
+        - 'what other intents are generally useful other than "identifying relevant variation" and "filtering interface queries/useful graphs/other interface structures" and "optimizing graphs"'
+        - 'what other problem/solution metrics are generally useful which can be identified/generated'
+        - 'what other problem/solution graphs can be identified/generated'
+
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
     - identifying useful structures like 'limiting graphs of relevant variation' that can be identified with structures like 'alignments with other relevance graphs like spectrums, or other relevant variation structures'
