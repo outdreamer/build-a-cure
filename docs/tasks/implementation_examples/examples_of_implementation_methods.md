@@ -47,6 +47,9 @@
         - 'what other intents are generally useful other than "identifying relevant variation" and "filtering interface queries/useful graphs/other interface structures" and "optimizing graphs"'
         - 'what other problem/solution metrics are generally useful which can be identified/generated'
         - 'what other problem/solution graphs can be identified/generated'
+        - 'what are the interface structures of this model? apply interface queries/workflows to optimize them'
+        - 'what other iterated interface structures, like interface structures (like specifications) of interface structures (like graphs), can be identified/generated which are useful for some intent'
+            - 'what other iterations like "graphs of graphs" of interface structures can be identified/generated which are useful for some intent or some ratio of queries or some solution metric'
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
