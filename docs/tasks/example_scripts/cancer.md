@@ -441,6 +441,8 @@
 			- NAC, omega 3s, olive oil, evening primrose oil, alpha lipoic acid, ginkgo biloba, selenium/zinc/iron and vitamin a/c/d/e/k from diet, b-vitamins, acetyl-l-carnitine, magnesium, glutathione, glutamine, fasting, polyamines, copper, small amounts of caffeine to repair blood vessels
 				- https://scitechdaily.com/coffee-for-your-heart-the-regenerative-power-of-caffeine-on-vascular-health/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8303934/
+			- blessed thistle (cnicin) 
+				- https://scitechdaily.com/completely-new-use-discovered-this-traditional-herb-has-remarkable-nerve-regenerative-properties/
 		- hair loss: 
 			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, deoxyribose
 		- metabolic problems
