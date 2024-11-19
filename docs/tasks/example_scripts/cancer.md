@@ -14,9 +14,20 @@
 				- then you can check if acidity/inflammation causes your cancer by taking calcium carbonate and/or potassium bicarbonate to see if they help reduce cancer growth
 					- vitamin c powder (take this in doses of 1 - 2 g/day with zinc to help prevent kidney stones, assuming youre otherwise healthy and can handle large doses of vitamin c) is another anti-inflammation substance to try, but it can make some cancers grow
 					- also check if other vitamin deficiencies are the cause of your cancer, such as by taking anti-cancer vitamins/minerals like iodine and vitamin d (not a huge dose, bc vitamin d can hurt your kidneys in large doses) to see if that fixes the cancer growth, or taking a multivitamin or eating a nutritionally complete diet (getting nutrients from diet rather than supplements will avoid the problem of 'feeding cancer directly by eating vitamins/minerals in supplement form, which puts it directly in the bloodstream')
-				- then check if 'low immunity' causes your cancer to grow, by stimulating immunity/klotho (klotho being a tumor suppressor) such as with a keto diet or high intensity interval training (half an hour of sprinting/resting cycles creates a strong immune response), or wasabi (which has an impact of about 5 - 10x more than would be created by a teaspoon of modified citrus pectin)
-					- this brand is a good quality wasabi - https://www.amazon.com/Prepared-Wasabi-Family-Bamboo-Chopstick/dp/B07BTPGXN5
-				- then if none of those fixes your cancer growth, you can try gentler anti-cancer herbs/fruits/vegetables (like ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) to see if those help reduce cancer growth
+				- then check if 'low immunity' causes your cancer to grow, by stimulating immunity/klotho (klotho being a tumor suppressor) such as with a keto diet or high intensity interval training (half an hour of sprinting/resting cycles creates a strong immune response)
+				- try the strongest anti-cancer substances first, like:
+					- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
+					- blue agave syrup (the Wholesome brand)
+					- artemisinin
+					- ashwagandha (the Gaia Herbs brand)
+					- milk thistle
+					- coffee (chameleon coffee is the best brand Ive tried, or chlorogenic acid is similarly powerful as coffee)
+					- wasabi (the s and b brand)
+					- green tea (Tejava Organic Hojicha Green Tea)
+					- pomegranate
+					- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
+					- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
+				- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
 				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
 					- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
