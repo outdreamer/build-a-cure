@@ -336,6 +336,34 @@
 		- vitamin deficiency: 
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
+			- treat food cravings:
+				- craving: deficient nutrient
+					- sugar craving: chromium, phosphorus, sulfur, tryptophan
+					- sugary/salty/junk food craving: zinc deficiency, calcium deficiency
+					- chocolate/acidic food cravings: magnesium
+					- coffee or tea craving: iron, phosphorus, sulfur, salt
+					- soda craving: calcium
+					- alcohol craving: protein, calcium, glutamine, potassium
+					- tobacco craving: silicon, tyrosine
+					- bread craving: nitrogen
+					- meat craving: iron
+					- cravings for leafy greens, rice, fortified cereals, seafood, eggs, bananas, poultry, dairy, and potatoes: B-vitamins
+					- pica (craving non-food items): B12, folate, or iron deficiency
+					- cravings for fish, eggs, cheese: omega 3 deficiency
+				- healthy food sources of the above nutrients
+					Omega 3: fish, algae, eggs
+					Iron: fish, meat, beans and legumes, nuts, seeds, and dried fruits (eat plant-based iron foods with vitamin C for absorption)
+					Nitrogen: fish, meat
+					Chromium: sweet potatoes, corn, tomatoes, beets, grains, meat and fish
+					Phosphorus: grains, cottage cheese, peanut butter, chicken, sunflower seeds, and nuts
+					Sulfur: cruciferous vegetables (broccoli, cauliflower), meat, fish, eggs, garlic, and onions
+					Tryptophan: cheese, yogurt, meat, poultry, beans/grains/nuts/seeds
+					Magnesium: raw pumpkin seeds, dark leafy greens (spinach, Swiss chard), fish, and beans
+					Calcium: milk, cheese, yogurt, sardines, dark leafy greens, beans, broccoli, okra, and sesame seeds
+					Glutamine: glutamine supplements
+					Potassium: winter squash, sweet potatoes, white potatoes, white beans, yogurt, halibut, and orange juice
+					Silicon: grains, asparagus, cucumbers, cabbage, dandelion greens, onions, corn, and beets
+					Tyrosine: lean meats and poultry, white cheeses, eggs, soy, seaweed, spinach, grains, nuts, and seeds
 		- high cholesterol
 			- mineral water, ginger, soy, garlic, fiber and flax seed, bromelain, lycopene, pycnogenol, berberine, cynarin (artichokes)
 		- reduce endoplasmic reticulum (ER) stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
