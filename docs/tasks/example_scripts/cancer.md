@@ -292,12 +292,30 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- high blood pressure
-			- luteolin (artichokes), vasodilators (arginine, niacin, garlic, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin), nitric oxide precursors (celery, beets, spinach and lettuce), ginger, fish/omega 3's, nattokinase/serrapeptase (can improve blood pressure caused by atherosclerosis), magnesium, b vitamins/niacin, vitamin c/d, melatonin, green/oolong tea, probiotics, Flow water and spring water, ashwagandha can lower cortisol thereby lowering blood pressure, GABA, lycium, stinging nettle, theanine, lycopene, diuretics for blood pressure caused by water retention, whey protein, citrus/hesperidin, oats/beta-glucans, greens with high nitrates, pomegranate, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric
-			- other vegetables/herbs that can lower blood pressure: black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), celery juice (Apium graveolens), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
+			- omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
+			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
+			- types of substances, by cause/intent:
+				- diuretics for high blood pressure caused by water retention: taurine, celery, gamma-linolenic acid, vitamin b6/c/E, potassium, high gamma/delta tocopherols and tocotrienols, magnesium, calcium, protein, fiber, coq10, l-carnitine, hawthorne
+				- calcium-channel blockers: ala, magnesium, vitamin b6/c/E, NAC, hawthorne, celery, omega-3's, calcium, garlic, taurine
+				- beta blockers: Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants
+				- angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): garlic, seaweed (wakame, etc), tuna, sardine, hawthorne, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate
+				    - mechanism: ACE inhibitors cause relaxation of blood vessels as well as a decrease in blood volume, which leads to lower blood pressure and decreased oxygen demand from the heart. ACE inhibitors inhibit the activity of angiotensin-converting enzyme (an important component of the renin–angiotensin system which converts angiotensin I to angiotensin II), and hydrolyses bradykinin, thereby decreasing the formation of angiotensin II, a vasoconstrictor, and increasing the level of bradykinin, a peptide vasodilator
+				- central alpha agonists (reduced sympathetic nervous system activity): taurine, potassium, zinc, sodium restriction, protein, fiber, vitamin c/b6, coq10, celery, gamma-linolenic acid/dihomo-gamma-linolenic acid, garlic
+				- angiotensin-receptor blockers (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
+				    - mechanism: ARBs selectively block the activation of the AT1 receptor, preventing the binding of angiotensin II compared to ACE inhibitors, binding to and inhibiting the angiotensin II receptor type 1 (AT1) and thereby blocking the arteriolar contraction and sodium retention effects of renin–angiotensin system. Angiotensin II, through AT1 receptor stimulation, is a major stress hormone and, because (ARBs) block these receptors, in addition to their eliciting anti-hypertensive effects, may be considered for the treatment of stress-related problems like anxiety
+				- direct vasodilators: omega-3's, monounsaturated fatty acids (omega-9 fatty acids), potassium, magnesium, calcium, soy, fiber, garlic, flavonoids, vitamin c/E, coq10, l-arginine, taurine, celery, ala
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC3989080/
+			- other intents/causes related to or causes of high blood pressure:
+				- lower high blood pressure caused by atherosclerosis: pomegranate, nattokinase/serrapeptase
+				- nitric oxide precursors: celery, beets, spinach, lettuce, other greens with high nitrates
+				- vasodilators: arginine, niacin, garlic, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin
+				- lowering cortisol: ashwagandha can lower cortisol thereby lowering blood pressure
+			- other substances
+				- luteolin (artichokes), ginger, fish/omega 3's, magnesium, b vitamins, vitamin d, melatonin, green/oolong tea, probiotics, alkaline Flow water, GABA, lycium, stinging nettle, theanine, lycopene, citrus/hesperidin, oats/beta-glucans, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric, black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
 			- arginine/citrulline/vitamin C together help manage blood pressure
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 			- avoid excess salt, licorice, sugar/refined carbs, cortisol/hydrocortisone, vasoconstrictors (caffeine), alcohol, and supplements that change electrolyte balances
-			- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
+				- avoid as they may affect your blood pressure or heart: Apium Graveolens, Ruta Graveolens, yohimbe
 			- use exercise like aerobic exercise, weights, and wall squats to decrease blood pressure
 		- hormonal imbalances: 
 			- correct your hormonal imbalances, which can cause many health problems, including cancer, adrenal insufficiency and other organ damage, such as how low DHEA/low thyroid hormone/high estrogen can cause cancer and heart damage
@@ -312,7 +330,7 @@
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 		- high cholesterol
 			- mineral water, ginger, soy, garlic, fiber and flax seed, bromelain, lycopene, pycnogenol, berberine, cynarin (artichokes)
-		- reduce ER stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
+		- reduce endoplasmic reticulum (ER) stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
 			- 5-fluorouracil (5-FU) and melatonin decrease PRP(C)
 				- https://pubmed.ncbi.nlm.nih.gov/30091203/
 			- Endoplasmic reticulum stress induces PRNP prion protein gene expression (misfolded PRNP leads to neurodegenerative diseases)
@@ -370,7 +388,7 @@
 			- heart failure: 
 				- use pycnogenol, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
-				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
+				- treat high blood pressure and kidney damage, avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
@@ -512,6 +530,9 @@
 					- https://www.futurity.org/rosemary-extract-compound-cocaine-sensitivity-3245642/
 			- anxiety:
 				- stimulate the vagus nerve: choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
+				- lower side effects of anxiety, like high blood pressure, with beta blockers: Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants
+				- improve kidney/cardiovascular health, which results in hormone dysregulation (vasopressin, angiotensin II, adrenaline, cortisol, estrogen), which are hormones that can cause anxiety
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC3312460/ - 'The link between angiotensin II-mediated anxiety and mood disorders with NADPH oxidase-induced oxidative stress'
 				- increase GABA
 					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
 				- change HPA axis
