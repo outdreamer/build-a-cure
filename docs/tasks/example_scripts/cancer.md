@@ -2,6 +2,7 @@
 
 	- an example of a graph that would be useful include a graph of relevant gene connections (like genes involved in metabolic pathways) where clicking on a substance from a list of possible treatments highlights the sections of the gene connections that are usefully modified by that substance for a condition (with for example, neutralizing opposing forces of various substances creating no changes in the graph) or a list of 'sets of highly covering treatments' is included to click on
 	- another health care graph is a 'diagnostic graph' (as in 'use this substance in this dose, if it has these effects, it was this condition and this subtype/variant of the condition')
+	- relatedly, finding a way to suppress kidney/liver damage temporarily so that patients can use more powerful substances (like graviola, thunder god vine, cat's claw, quercetin, etc) in large enough doses to get rid of cancer cells, without hurting their organs, would basically constitute a cancer cure (like by switching to a machine kidney/liver temporarily and blocking input to the kidneys/liver, or by injecting the anticancer components of those substances in forms or with resulting substances like metabolites that are easier for the organs to process)
 
 - useful sub-intents with associated substances
 
@@ -15,19 +16,19 @@
 					- vitamin c powder (take this in doses of 1 - 2 g/day with zinc to help prevent kidney stones, assuming youre otherwise healthy and can handle large doses of vitamin c) is another anti-inflammation substance to try, but it can make some cancers grow
 					- also check if other vitamin deficiencies are the cause of your cancer, such as by taking anti-cancer vitamins/minerals like iodine and vitamin d (not a huge dose, bc vitamin d can hurt your kidneys in large doses) to see if that fixes the cancer growth, or taking a multivitamin or eating a nutritionally complete diet (getting nutrients from diet rather than supplements will avoid the problem of 'feeding cancer directly by eating vitamins/minerals in supplement form, which puts it directly in the bloodstream')
 				- then check if 'low immunity' causes your cancer to grow, by stimulating immunity/klotho (klotho being a tumor suppressor) such as with a keto diet or high intensity interval training (half an hour of sprinting/resting cycles creates a strong immune response)
-				- try the strongest anti-cancer substances first, like:
-					- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
-					- blue agave syrup (the Wholesome brand)
-					- artemisinin
-					- ashwagandha (the Gaia Herbs brand)
-					- milk thistle
-					- coffee (chameleon coffee is the best brand Ive tried, or chlorogenic acid is similarly powerful as coffee)
-					- wasabi (the s and b brand)
-					- green tea (Tejava Organic Hojicha Green Tea)
-					- pomegranate
-					- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
-					- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
 				- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
+					- try the strongest anti-cancer substances that are gentle on your organs first, like:
+						- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
+						- blue agave syrup (the Wholesome brand)
+						- artemisinin
+						- ashwagandha (the Gaia Herbs brand)
+						- milk thistle
+						- coffee (Chameleon coffee is the best brand Ive tried, or chlorogenic acid is similarly powerful as coffee)
+						- wasabi (the S and B brand)
+						- green tea (Tejava Hojicha organic green tea)
+						- pomegranate/mangoes/mushrooms/cabbage
+						- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
+						- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
 				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
 					- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
@@ -344,13 +345,14 @@
 			- estrogen toxicity: 
 				- progesterone, cortisol, pregnenolone/DHEA supplements (precursors of progesterone and cortisol), indole-3-carbinol, magnesium, vitamin b6, antioxidants such as vitamins A/C/E, omega 3s, grape seed extract, n-acetyl-cysteine, quercetin, lipoic acid, calcium d-glucarate, milk thistle, taurine, methionine
 				- avoid dairy, coffee, gluten, sugar, carbs, pumpkin seeds, flax seeds, soda/green tea to lower estrogen
+				- treat high blood pressure, adrenal insufficiency, hypothyroidism, and kidney/heart failure, all of which can occur as complications of estrogen toxicity
 		- vitamin deficiency: 
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
 			- treat food cravings:
-				- craving: deficient nutrient
+				- craving: deficient nutrient causing that deficiency
 					- sugar craving: chromium, phosphorus, sulfur, tryptophan
-					- sugary/salty/junk food craving: zinc deficiency, calcium deficiency
+					- sugary/salty/junk food craving: zinc, calcium
 					- chocolate/acidic food cravings: magnesium
 					- coffee or tea craving: iron, phosphorus, sulfur, salt
 					- soda craving: calcium
@@ -359,24 +361,26 @@
 					- bread craving: nitrogen
 					- meat craving: iron
 					- cravings for leafy greens, rice, fortified cereals, seafood, eggs, bananas, poultry, dairy, and potatoes: B-vitamins
-					- pica (craving non-food items): B12, folate, or iron deficiency
-					- cravings for fish, eggs, cheese: omega 3 deficiency
+					- pica (craving non-food items): B12, folate, or iron
+					- cravings for fish, eggs, cheese: omega 3
 				- healthy food sources of the above nutrients
-					Omega 3: fish, algae, eggs
-					Iron: fish, meat, beans and legumes, nuts, seeds, and dried fruits (eat plant-based iron foods with vitamin C for absorption)
-					Nitrogen: fish, meat
-					Chromium: sweet potatoes, corn, tomatoes, beets, grains, meat and fish
-					Phosphorus: grains, cottage cheese, peanut butter, chicken, sunflower seeds, and nuts
-					Sulfur: cruciferous vegetables (broccoli, cauliflower), meat, fish, eggs, garlic, and onions
-					Tryptophan: cheese, yogurt, meat, poultry, beans/grains/nuts/seeds
-					Magnesium: raw pumpkin seeds, dark leafy greens (spinach, Swiss chard), fish, and beans
-					Calcium: milk, cheese, yogurt, sardines, dark leafy greens, beans, broccoli, okra, and sesame seeds
-					Glutamine: glutamine supplements
-					Potassium: winter squash, sweet potatoes, white potatoes, white beans, yogurt, halibut, and orange juice
-					Silicon: grains, asparagus, cucumbers, cabbage, dandelion greens, onions, corn, and beets
-					Tyrosine: lean meats and poultry, white cheeses, eggs, soy, seaweed, spinach, grains, nuts, and seeds
+					- Omega 3: fish, algae, eggs
+					- Iron: fish, meat, beans and legumes, nuts, seeds, and dried fruits (eat plant-based iron foods with vitamin C for absorption)
+					- Nitrogen: fish, meat
+					- Chromium: sweet potatoes, corn, tomatoes, beets, grains, meat and fish
+					- Phosphorus: grains, cottage cheese, peanut butter, chicken, sunflower seeds, and nuts
+					- Sulfur: cruciferous vegetables (broccoli, cauliflower), meat, fish, eggs, garlic, and onions
+					- Tryptophan: cheese, yogurt, meat, poultry, beans/grains/nuts/seeds
+					- Magnesium: raw pumpkin seeds, dark leafy greens (spinach, Swiss chard), fish, and beans
+					- Calcium: milk, cheese, yogurt, sardines, dark leafy greens, beans, broccoli, okra, and sesame seeds
+					- Glutamine: glutamine supplements
+					- Potassium: winter squash, sweet potatoes, white potatoes, white beans, yogurt, halibut, and orange juice
+					- Silicon: grains, asparagus, cucumbers, cabbage, dandelion greens, onions, corn, and beets
+					- Tyrosine: lean meats and poultry, white cheeses, eggs, soy, seaweed, spinach, grains, nuts, and seeds
 		- high cholesterol
-			- mineral water, ginger, soy, garlic, fiber and flax seed, bromelain, lycopene, pycnogenol, berberine, cynarin (artichokes)
+			- mineral water, ginger, soy, garlic, inulin/fiber and flax seed, bromelain, lycopene, pycnogenol, berberine, cynarin (artichokes)
+			- food with saponins (blue agave syrup, legumes, sunflower seeds, spinach, and tea) can also help lower high cholesterol
+			- avoid excess fructose (fruit, blue agave syrup, etc)
 		- reduce endoplasmic reticulum (ER) stress by inhibiting UPR pathways (Ursodeoxycholic acid, Vitamin C)
 			- 5-fluorouracil (5-FU) and melatonin decrease PRP(C)
 				- https://pubmed.ncbi.nlm.nih.gov/30091203/
@@ -424,8 +428,8 @@
 			    - berberine may be renoprotective
 			    - avoid vitamins A, D, E, and K supplements which can easily build up in the blood in toxic levels with kidney damage
 			    - avoid NSAIDs, ground ivy, peppermint, Aristolochic Acid, Chromium Picolinate, Germanium, L-Lysine, Larrea tridentate (Chaparral), Pausinystalia yohimbe (Yohimbe), Salix daphnoides (Willow Bark), Tripterygium wilfordii hook F (Thunder God Vine), Uncaria tomentosa (Cat's Claw), Hedeoma pulegioides (Pennyroyal), Hydrazine Sulfate, Thevetia peruviana (Yellow Oleander), Huperzinea, Astragalus, Barberry, Goldenrod, Horsetail, Java Tea Leaf, Stinging Nettle, Oregon Grape Root, Parsley Root, Uva Ursi
-			    - kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS)
-			    	- avoid as they may cause kidney stones: zinc, oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
+			    - kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS), zinc, food with saponins (blue agave syrup, legumes, sunflower seeds, spinach, and tea) can also help prevent kidney stones
+			    	- avoid as they may cause kidney stones: oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
 			    - avoid as they may cause rhabdomyolysis: Artemisia absinthium (Wormwood Oil), Creatine Monohydrate, Glycyrrhiza glabra (Licorice)
 				- activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
@@ -575,6 +579,8 @@
 			- addiction
 				- rosemary for cocaine addiction
 					- https://www.futurity.org/rosemary-extract-compound-cocaine-sensitivity-3245642/
+			- depression
+				- vitamin K, omega 3s, folate, tyrosine
 			- anxiety:
 				- stimulate the vagus nerve: choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- lower side effects of anxiety, like high blood pressure, with beta blockers: Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants
