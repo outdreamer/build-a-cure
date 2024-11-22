@@ -427,8 +427,10 @@
 			        - plants to use for kidney stone prevention and fixing kidney damage
 			            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541433/
 			    - berberine may be renoprotective
+			    	- 'Berberine ameliorates chronic kidney disease through inhibiting the production of gut-derived uremic toxins in the gut microbiota'
+			    		- https://www.sciencedirect.com/science/article/pii/S2211383522005184
 			    - Renal fibrosis is a product of multiple mechanisms including renal hemodynamic changes, glucose metabolism abnormalities associated with oxidative stress as well as inflammatory processes and an overactive renin-angiotensin-aldosterone system (RAAS)
-			    	- this means cardiovascular risk reduction (like with red yeast rice), managing blood glucose (like with a keto diet), managing high blood pressure (like with garlic), and inhibiting the RAA system (like with natural ACE inhibitors and ARBs, etc) is a way to suppress renal fibrosis and avoid making kidney damage worse
+			    	- this means cardiovascular risk reduction (like with red yeast rice), managing blood glucose (like with a keto diet), managing high blood pressure (like with garlic), and inhibiting the RAA system (like with natural ACE inhibitors and ARBs, etc) is a way to suppress renal fibrosis and avoid making kidney damage or diabetic nephropathy worse
 			    - avoid vitamins A, D, E, and K supplements which can easily build up in the blood in toxic levels with kidney damage
 			    - avoid NSAIDs, ground ivy, peppermint, Aristolochic Acid, Chromium Picolinate, Germanium, L-Lysine, Larrea tridentate (Chaparral), Pausinystalia yohimbe (Yohimbe), Salix daphnoides (Willow Bark), Tripterygium wilfordii hook F (Thunder God Vine), Uncaria tomentosa (Cat's Claw), Hedeoma pulegioides (Pennyroyal), Hydrazine Sulfate, Thevetia peruviana (Yellow Oleander), Huperzinea, Astragalus, Barberry, Goldenrod, Horsetail, Java Tea Leaf, Stinging Nettle, Oregon Grape Root, Parsley Root, Uva Ursi
 			    - kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS), zinc, food with saponins (blue agave syrup, legumes, sunflower seeds, spinach, and tea) can also help prevent kidney stones
@@ -3635,6 +3637,12 @@
 
 		
 	- inhibit/trigger pathway components
+		- inhibit inosine monophosphate dehydrogenase 2 (IMPDH2)
+			- berberine
+				- Gliocidin inhibits glioblastoma by inhibiting IMPDH2
+				- https://pubmed.ncbi.nlm.nih.gov/39567689/
+				- Berberrubine (found in berberine) also inhibits IMPDH2
+				- https://www.sciencedirect.com/science/article/abs/pii/S0006295223004598
 
 		- inhibit/reduce ROS (reactive oxygen species)
 			- Radiotherapy relies on ROS toxicity to eradicate tumor cells
