@@ -107,7 +107,7 @@
 
     - I will continue feeling like weeping with horror and nausea the rest of my life, if after all this hard work and all the suffering of violation online, if I then have to go 'study up to take a test to try to work at Amazon (or any other company) for low pay with the pedophiles who raped me in the toilet', as my 'reward' for all the hard work and suffering of violation online (which is similarly horrifying and nauseating as when turdgay tried to offer me his tiny turd of a dick since 2018 instead of the money I worked so hard to earn from my inventions).
 
-    - Just give me my money, so I can finally stop pedophiles from trying to 'see what Im doing lately without my consent' (its 'trying to get away from pedophiles', at all times, thats 'what Im doing lately') or trying to 'lie about Joni to violate Joni again' or trying to 'bang/touch Joni' or trying to 'beat/one-up/own/bad-touch Joni again', and I will try to organize/optimize the govt remotely when I feel healthy and up to it again, if that ever happens.
+    - rather than letting turdgay start world war three bc of his tiny dick, just stop him from stalking/drugging me and give me my money, so I can finally get out of the 'eyeball coffin' by stopping pedophiles from trying to 'see what Im doing lately without my consent' (its 'trying to get away from pedophiles', at all times, thats 'what Im doing lately') or trying to 'lie about Joni to violate Joni again' or trying to 'bang/touch Joni' or trying to 'beat/one-up/own/bad-touch Joni again', and I will try to organize/optimize the govt remotely when I feel healthy and up to it again, if that ever happens.
 
 
 
