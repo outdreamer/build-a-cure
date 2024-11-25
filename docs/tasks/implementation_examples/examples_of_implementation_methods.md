@@ -97,6 +97,8 @@
 
     - still waiting on that inventing job offer email saying 'heres your job determining AI policies/running the government/AI inventing', and that cash transfer email saying 'heres the money for your inventions', or that email saying 'we caught the bad guys/girls, youre safe now, youre not being violated in the toilet now' so I can finally feel like Im not being sexually violated for the first time in almost ten years (remember the 'eyeball coffin' feeling I referenced earlier? that hasnt stopped yet, bc I havent received any communication yet)
 
+    - I realize its 'tempting' to 'avoid helping a beautiful genius' ('helping' as in 'making sure she gets the AI inventing job she wants and gets money for her inventions and is not raped at all ever'), but good lord, I hope nobody ever tempts you to rape a kid, bc you always cave to temptation and comfort yourselves that its fine to go ahead and do the tempting thing (the easy cruel thing) again like always, 'ladies'
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
