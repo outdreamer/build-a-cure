@@ -3,6 +3,8 @@
 	- an example of a graph that would be useful include a graph of relevant gene connections (like genes involved in metabolic pathways) where clicking on a substance from a list of possible treatments highlights the sections of the gene connections that are usefully modified by that substance for a condition (with for example, neutralizing opposing forces of various substances creating no changes in the graph) or a list of 'sets of highly covering treatments' is included to click on
 	- another health care graph is a 'diagnostic graph' (as in 'use this substance in this dose, if it has these effects, it was this condition and this subtype/variant of the condition')
 	- relatedly, finding a way to suppress kidney/liver damage temporarily so that patients can use more powerful substances (like graviola, thunder god vine, cat's claw, quercetin, etc) in large enough doses to get rid of cancer cells, without hurting their organs, would basically constitute a cancer cure (like by switching to a machine kidney/liver temporarily and blocking input to the kidneys/liver, or by injecting the anticancer components of those substances in forms or with resulting substances like metabolites that are easier for the organs to process)
+	- a 'ranked list of the most powerful anti-cancer substances that hurt organs the least' is another useful list for cancer patients or people looking to prevent cancer
+	- similarly, a list of the useful effects and dangerous side effects of all edible plants or other edible substances including medicines would be useful so people can ctrl-f to find relevant plants/substances for a symptom/condition in one document
 
 - useful sub-intents with associated substances
 
@@ -26,7 +28,11 @@
 						- coffee (Chameleon coffee is the best brand Ive tried, or chlorogenic acid is similarly powerful as coffee)
 						- wasabi (the S and B brand)
 						- green tea (Tejava Hojicha organic green tea)
-						- pomegranate/mangoes/mushrooms/cabbage
+						- saw palmetto
+						- pomegranate/mangoes/mushrooms/cabbage/berries
+							- golden berries/Physalis peruviana are powerful against cancer but make sure to avoid high doses to avoid cardiac/cardiovascular damage and avoid unripe golden berries
+							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3863561/
+							- https://pmc.ncbi.nlm.nih.gov/articles/PMC9408722/
 						- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
 						- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
 				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
@@ -523,6 +529,7 @@
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
 				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, correct vitamin deficiencies like zinc, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
+				- use carnitine/taurine to increase muscle growth, plants with high nitrite content like beets/spinach for improving exercise performance, supplements like d-ribose and b-vitamins for energy to exercise, etc
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications - https://en.wikipedia.org/wiki/Diabetic_nephropathy
@@ -637,8 +644,8 @@
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
 				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
 		- skin problems:
-			- inflammation: saw palmetto, zinc, vitamin c, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
-			- elasticity: collagen, hormones like estrogen/progesterone, hyaluronic acid, avoid dairy
+			- inflammation: infrared light therapy, saw palmetto, zinc, vitamin c, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
+			- elasticity: infrared light therapy, collagen, hormones like estrogen/progesterone, hyaluronic acid, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
         - gastrointestinal problems:
