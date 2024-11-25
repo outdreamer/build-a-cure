@@ -69,6 +69,15 @@
 
     - if only chatgpt had already existed back in 2018 when I created a comic ridiculing turdgay and uploaded it to gmail, at which point he decided to start spying on me, stalking me, drugging me with estrogen, and lurking outside my house which he hasnt stopped doing yet as of 11/25/2024, bc chatgpt would have advised him to instead 'pay Joni for her inventions and hire her as an inventor' rather than that, bc its very horrifying and insulting to offer what must be one tiny turd of a dick instead of money for your inventions, so I know jealous hags/fags/pedophiles/incels were behind that decision, rather than people.
 
+    - if youre looking for something to be mad about, I kindly pitched my inventions at the following companies where I previously worked, and in response they did pedophilia crimes like 'toilet rape' and 'stalking' and 'poisoning', instead of giving me time to work on my inventions at work or hiring me as an inventor:
+        - NJI Media
+        - ICF International
+        - Booz Allen
+        - Accenture
+        - Capital One
+        - I also pitched these companies my ideas in emails and on Twitter and on Github, as they are too pedophilic to invite me to a pitch meeting
+            - YCombinator, Sequoia Capital, A16Z, Alphabet/Google, Amazon, Meta, Twitter, OpenAI, Apple, Microsoft
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
