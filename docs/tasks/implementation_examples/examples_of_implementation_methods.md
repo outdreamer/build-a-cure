@@ -56,6 +56,12 @@
         - I dont want a trophy, I want money, so I can believe I saved a human species that would be decent to me, rather than a pedophile species that would ask me to sacrifice myself to 'cut costs'
         - I dont see the 'job offer of a ten million a year AI inventor job with backpay for all the years I was enslaved by pedophiles' that I earned with all of my inventions, 'ladies', I see pedophile pigs at Quanta Magazine, YCombinator, MIT, UCLA, Stanford, Sequoia Capital, A16Z, Alphabet/Google, Amazon, Meta, Twitter, OpenAI, Apple, Microsoft, etc trying to seem like theyre the REAL genius, not Joni Jezewski, all by copying my inventions without attribution for many years of their nauseating pedophilia, all to avoid the pain of 'referring me for a job as an inventor', to avoid the 'moment of self-control' required to send that email at the right time when it mattered most
 
+    - how to apply my inventions for relevant problem-solving intents (like "poop on turdgay's face"):
+        - 'chatgpt, what is a graph that identifies a new poop to crap on turdgays face in any straight line'
+        - 'chatgpt, what is a set that can be combined in any order, to create a new poop to crap on turdgays face, greater than m and less than n number of items in the combination (such as poop nose or bird toilet) as a way to describe turdgays face'
+        - 'chatgpt, what is a way to identify poops (like thefts of my inventions) to poop the poop (like the theft) on turdgays face, similar to how toilet paper with turdgays face on it can be used to defile turdgay, but involving a defiling object that can be crapped on to turdgays face, where the defiling object is related to the theft of the invention, to create poetic justice for turdgay (such as eating a list of the thefts of my inventions and pooping it out on turdgays face), turdgay being the person who thought he would get away with it all if he just lied enough, bc he assumed everyone was too fat/old/ugly/short/stupid to like Joni, his intended torture victim, so he assumed there would be no consequences for robbing/violating/torturing her to death'
+
+
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
     - identify useful structures like 'graph variables to connect different graphs (like solution/error integration graphs) like "similarity networks generating different error/solution integration graphs"'
