@@ -124,6 +124,8 @@
     - how about the pedophiles/haggots/incels at google/amazon/meta/apple/etc who stole my work, or violated me, or enabled turdgay to poison me? they charge like $200K and up for work that Ive automated, theyre the very exact worst people who can afford to end poverty, why not make exactly those horrific people end poverty?
         - https://www.wired.com/story/developing-countries-and-activists-rail-against-the-cop29-agreement/ - 'COP29 Agreement Says Someone Should Pay to Help Developing Countries, But Not Who'
 
+    - its not a myth turdgay, people have seen you lurking outside my house and viewing a feed of my private life in my apartment with your invisible flying spy cameras, the jig is up, poop, we know youre lonely, you got caught stalking someone (me) to try to force them to bang you, you old ugly tiny-dicked unwanted unloved pig, just die already, how horrible for you to exist
+        - https://asteriskmag.com/issues/08/the-myth-of-the-loneliness-epidemic
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
