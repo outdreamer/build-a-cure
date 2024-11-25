@@ -61,6 +61,12 @@
         - 'chatgpt, what is a set that can be combined in any order, to create a new poop to crap on turdgays face, greater than m and less than n number of items in the combination (such as poop nose or bird toilet) as a way to describe turdgays face'
         - 'chatgpt, what is a way to identify poops (like thefts of my inventions) to poop the poop (like the theft) on turdgays face, similar to how toilet paper with turdgays face on it can be used to defile turdgay, but involving a defiling object that can be crapped on to turdgays face, where the defiling object is related to the theft of the invention, to create poetic justice for turdgay (such as eating a list of the thefts of my inventions and pooping it out on turdgays face), turdgay being the person who thought he would get away with it all if he just lied enough, bc he assumed everyone was too fat/old/ugly/short/stupid to like Joni, his intended torture victim, so he assumed there would be no consequences for robbing/violating/torturing her to death'
 
+    - another fun way to use my inventions, which are part of chatgpt and a thousand other AI models at this point: compare and contrast chatgpt and pedophile responses to problems (the pedophile will choose the easy cruel way, that causes a million other problems for everyone, meanwhile the AI model will solve problems for everyone)
+        - query: 'chatgpt, what is the best way to respond to Joni correctly calling you a pedophile for stealing her inventions'
+            - response: "pay Joni for Joni's inventions, so Joni can keep inventing more inventions, given how important and useful Joni's inventions are, thereby solving problems for everyone"
+        - query: 'tinydick turdgay, what is the best way to respond to Joni correctly calling you a pedophile for stealing her inventions'
+            - response: "poison Joni with estrogen until Joni bangs my tiny dick or dies, so that Joni figures out that 'only a total creep would do this to Joni' and calls me and 'everyone who is letting me poison Joni' a pedophile, and 'everyone who is letting me poison Joni' starts doing pedophilia crimes, so that everyone is punished bc of my tiny dick'
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
