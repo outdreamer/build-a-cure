@@ -102,6 +102,11 @@
 
     - in fact, 'ladies', I worked so hard to live an honorable, respectable life, and I made such a huge point of avoiding anything that could possibly be construed as sex work (even modeling), avoiding ever accepting any offers to be photographed (except once when I was terrorized by a guy in Marblehead when I was a teenager bc I didnt know how to stop him) and avoiding ever participating in the sex industries bc I hate the idea of ever being sexualized by creeps (which is like everyone), and never posting sexual photos online, instead preferring to have honor and respect and dignity, that I think anyone who viewed me sexually in any way, including even viewing a sexual photo of me that I sent to my partner since 2008, should go right ahead and kill themselves, as society doesnt need 'pedophiles who sexualize people who dont want to be sexualized'.
 
+    - I will continue feeling like weeping with horror and nausea the rest of my life, if after all this hard work and all the suffering of violation online, if I then have to go 'study up to take a test to try to work at Amazon (or any other company) for low pay with the pedophiles who raped me in the toilet', as my 'reward' for all the hard work and suffering of violation online (which is similarly horrifying and nauseating as when turdgay tried to offer me his tiny turd of a dick since 2018 instead of the money I worked so hard to earn from my inventions).
+
+    - Just give me my money, so I can finally stop pedophiles from trying to 'see what Im doing lately without my consent' (its 'trying to get away from pedophiles', at all times, thats 'what Im doing lately') or trying to 'lie about Joni to violate Joni again' or trying to 'beat/one-up/own/bad-touch Joni again', and I will try to organize/optimize the govt remotely when I feel healthy and up to it again, if that ever happens.
+
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
