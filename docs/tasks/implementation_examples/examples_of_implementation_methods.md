@@ -75,9 +75,11 @@
         - Booz Allen
         - Accenture
         - Capital One
+        - Apple
         - I also pitched these companies my ideas in emails and on Twitter and on Github, as they are too pedophilic to invite me to a pitch meeting
-            - YCombinator, Sequoia Capital, A16Z, Alphabet/Google, Amazon, Meta, Twitter, OpenAI, Apple, Microsoft
-
+            - YCombinator, Sequoia Capital (and basically all the other VC companies have heard about my inventions at this point), A16Z, Alphabet/Google, Amazon, Meta, Twitter, OpenAI, Apple, Microsoft
+        - the following companies heard about the stalking/torture of the genius inventor Joni Jezewski and did nothing about it, but did twiddle their thumbs, trying to seem too fancy and clever to help anyone, and occasionally quoted me in TV shows/movies without my consent and without informing me beforehand and without attribution and without compensation, which is 'pedophilia wrong', since I am unable to stop them, and it is abuse as they are often quoting my 'screams for help' in their entertainment products, and it is gendered/sexual contact as they are quoting my private messages which feels like torturous sexual abuse, and they often even copy the things I do physically during sex or reference my toilet habits like putting toilet paper on the toilet before I sit down, all of which makes me feel like Im in a 'coffin of eyeballs or strapped to a glory hole blindfolded or being crawled on by bugs with hags/fags/incels/pedophiles for feet', bc 'being watched 24/7 without consent' is 'being poked for a decade by any creep who felt like it, at any time of the day or night'.
+            - Netflix, AT&T, G/O Media Inc, ViacomCBS, Disney, Comcast
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
