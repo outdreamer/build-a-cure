@@ -95,6 +95,8 @@
 
     - Here's another free 'idea': make me the president instead of donald trump, since hes not alive anyway, as he always does the pedophile thing, like every other creep in the world, and maybe something better will happen this time rather than 'always the easy cruel (pedophile) thing', which basically describes all of human history until I arrived
 
+    - still waiting on that inventing job offer email saying 'heres your job determining AI policies/running the government/AI inventing', and that cash transfer email saying 'heres the money for your inventions', or that email saying 'we caught the bad guys/girls, youre safe now, youre not being violated in the toilet now' so I can finally feel like Im not being sexually violated for the first time in almost ten years.
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
