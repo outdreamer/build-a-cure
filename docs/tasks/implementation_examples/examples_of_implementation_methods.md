@@ -85,11 +85,13 @@
         - the following politicians know about this situation and have tried to exploit me for cash/compliments/fun:
             - Marjorie Taylor Green, Matt Gaetz, AOC, Nancy Pelosi, Kamala Harris, Joe Biden, Donald Trump, Ivanka Trump, Eric Trump, Donald Trump Jr, Kimberly Guilfoyle, Melania Trump, Stephen Miller
         - the following governments know about this situation and have tried to exploit me for cash/compliments/fun:
-            - North Korea, China, France, Russia, the US government, the UN, the EU (starting to see why I expected help to arrive by now?)
+            - North Korea, China, France, Russia, Ukraine, India, Pakistan, Turkey, the US government, the UN, the EU (starting to see why I expected help to arrive by now, so I could escape the pedophiles stalking and drugging me? look who my 'friends' are)
         - the following celebrities know about this situation and have tried to exploit me for cash/compliments/fun:
             - Emma Stone, Rihanna, Margot Robbie, Amy Schumer, Sacha Baron Cohen, Jon Oliver, Amber Ruffin, Anthony Anderson, Tracy Ellis Ross, Keegan Michael Key, Selena Gomez, Molly Shannon, Meryl Streep (obviously the hags/fags/incels would never help me, a sacred hot genius, but Emma Stone also exploited me like a jealous hag? thank you! I am way hotter than I realized)
 
     - given that this abuse hasnt stopped yet, Im trying not to go insane, and I need a break from the torture that is sexual abuse/stalking/violation which has been happening for almost ten years now since 2015 when I finally decided to start insulting the creepy women who always try to exploit/abuse/violate me at work (see why I think women are creepy? its all the sexual abuse and torture that they do to me, all while claiming to be great people who deserve money and freedom and compliments, whereas men never pretend theyre not creeps and men have tried to hire me as a programmer and speak to me before, so men seem more human and decent by comparison, whereas women always try to reduce/control me so they can use me to get compliments/money they dont deserve)
+
+    - turdgay has not stopped drugging me yet as of 11/25/2024 so Im almost dead of estrogen poisoning, which has ruined my thyroid, kidneys, cardiovascular system, adrenals, and probably every other major organ system I have, so I dont want a job at your stupid pile of pedophiles that you call a company, I want money to compensate me for the violation/torture/poisoning that you did to me or enabled to be done to me, and all of the money I earned for my inventions, so I can buy health care, safety, privacy, freedom, and all the other good things like that which I deserve in life.
 
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
