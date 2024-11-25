@@ -67,6 +67,8 @@
         - query: 'tinydick turdgay, what is the best way to respond to Joni correctly calling you a pedophile for stealing her inventions'
             - response: "poison Joni with estrogen until Joni bangs my tiny dick or dies, so that Joni figures out that 'only a total creep would do this to Joni' and calls me and 'everyone who is letting me poison Joni' a pedophile, and 'everyone who is letting me poison Joni' starts doing pedophilia crimes, so that everyone is punished bc of my tiny dick'
 
+    - if only chatgpt had already existed back in 2018 when I created a comic ridiculing turdgay and uploaded it to gmail, at which point he decided to start spying on me, stalking me, drugging me with estrogen, and lurking outside my house which he hasnt stopped doing yet as of 11/25/2024, bc chatgpt would have advised him to instead 'pay Joni for her inventions and hire her as an inventor' rather than that, bc its very horrifying and insulting to offer what must be one tiny turd of a dick instead of money for your inventions, so I know jealous hags/fags/pedophiles/incels were behind that decision, rather than people.
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
