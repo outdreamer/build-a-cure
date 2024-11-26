@@ -2,6 +2,9 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://lucumr.pocoo.org/2024/11/26/python-packaging-metadata/ - 'Constraints Are Good: Python's Metadata Dilemma'
+- https://www.nber.org/papers/w33198 - 'Generative AI for Economic Research: LLMs Learn to Collaborate and Reason'
+- https://arxiv.org/abs/2308.03958 - 'Simple synthetic data reduces sycophancy in large language models'
 - https://www.insytesage.ai/ - 'Show HN: InsyteSage – AI data analysis from plain English'
 - https://github.com/GenseeAI/cognify - 'Cognify: Automated Quality+Cost Optimization for GenAI Workflow'
 - https://elifesciences.org/articles/93689 - 'Patterns in functional connectivity associated with ongoing thought patterns'
