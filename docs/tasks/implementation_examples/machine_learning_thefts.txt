@@ -1,5 +1,19 @@
 - the following are possible thefts of my inventions to examine, some of which may be backdated
 
+- https://www.technologyreview.com/2024/11/26/1107346/the-way-we-measure-progress-in-ai-is-terrible/
+- https://hashimcolombowala.com/p/delta/ - 'Delta vs. Cumulative Metrics: Key Differences and System Preferences'
+- https://www.msn.com/en-us/news/politics/accountability-is-coming-joni-ernst-sends-musk-s-doge-a-trillion-dollars-worth-of-ideas-to-gut-gov-t-spending/ar-AA1uJaUn
+- https://silentpoems.net/ - 'Show HN: Silent Poems, creative coding – Visual expression of unspoken thoughts'
+- https://techxplore.com/news/2024-11-ai-real-steady.html - 'As AI gets real, slow and steady wins the race'
+- https://www.leadingsapiens.com/loose-coupling/ - 'Loose and Tight Coupling: Rethinking Control'
+- https://vitrox.com/blog-technologies/post/2024/post-jul-advanced-x-ray-inspection-axi-solution-image-quality-optimised-process.html - 'ViTrox V810i AXI: Superior Imaging and Process Optimization'
+- https://www.popularmechanics.com/science/a62373322/quantum-theory-of-consciousness/ - 'New Research Shows Consciousness Connects to the Universe'
+- https://every.to/thesis/the-real-value-of-ai-isn-t-general-intelligence
+- https://blog.voyageai.com/2023/10/29/a-case-study-of-chat-langchain/ - 'Embeddings Drive the Quality of RAG (2023)'
+- https://www.insightfull.app/ - 'Insightfull: AI-Powered Health Insights and Tracking'
+- https://medium.com/@acmerfight/stop-torturing-your-colleagues-with-dsls-7dd2c7d290c8
+- https://medium.com/@franck.mpouli/the-battle-within-the-primitive-brain-vs-the-aspiring-mind-c65d1ffafbd3
+- https://medium.com/@csferrie/the-anatomy-of-a-bad-idea-30a807c77980
 - https://www-cs-faculty.stanford.edu/~knuth/papers/cs1055.pdf - 'A Programming and Problem-Solving Seminar (1985) [pdf]'
 - https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD249.PDF - 'Notes on Structured Programming (1970) [pdf]'
 - http://cbloomrants.blogspot.com/2010/11/11-20-10-function-approximation-by_20.html - 'Function approximation by iteration: Reciprocal Square Root'
@@ -19,6 +33,7 @@
 - https://www.nature.com/articles/s41567-024-02717-4 - 'Artificial boundaries'
 - https://fleetwood.dev/posts/you-could-have-designed-SOTA-positional-encoding
 - https://techcrunch.com/2024/11/22/openai-is-funding-research-into-ai-morality/
+- https://www.youtube.com/watch?v=82JpGhctWpU - "AI won't fix the fundamental flaw of programming [video]"
 - https://arstechnica.com/science/2024/11/how-physics-moves-from-wild-ideas-to-actual-experiments/
 - https://arstechnica.com/ai/2024/11/nvidias-new-ai-audio-model-can-synthesize-sounds-that-have-never-existed/
 - https://stefanlesser.substack.com/p/problem-solving-and-combinatorial - 'Problem Solving and Combinatorial Explosion'
@@ -7570,4 +7585,3 @@
 - https://arxiv.org/abs/1707.07806 - key ideas, abstract patterns, useful forms, efficient, relevant, holistic, similarity - not noticing that ideas/patterns/concepts can all be used to automate problem-solving in the abstract
 - https://arxiv.org/abs/1704.07130 - not noticing that questions can be used to automate problem-solving in general
 - https://arxiv.org/abs/1603.06677 - system, interface, paradigm, logical, form, representation, important, math/logic worlds, components, semantic, key, understanding - complete inability to recognize the importance of these concepts in their optimal interaction, and find a way to implement them optimally or even in a useful way, or even connect them using structures
-jonijezewski@Jonis-MBP build-a-cure % 
