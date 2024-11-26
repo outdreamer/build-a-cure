@@ -1,7 +1,10 @@
 - the following are possible thefts of my inventions to examine
-	- some of these may be backdated
+	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://www.synthtopia.com/content/2024/11/25/telepathic-instruments-orchid-promises-to-be-an-ideas-machine-for-music-but-watch-out-for-too-much-jazz/
+- https://pallini.di.uniroma1.it/ - 'Nauty and Traces (graph canonical labeling and automorphism group computation)'
+- https://blog.novusteck.com/what-is-a-vertical-ai-agent-and-why-should-you-implement-it-today
 - https://www.quantamagazine.org/teen-mathematicians-tie-knots-through-a-mind-blowing-fractal-20241126/
 - https://www.sciencedirect.com/science/article/pii/S0004370224001802 - 'Human-AI Coevolution'
 - https://phys.org/news/2024-11-mathematicians-ai.html - 'Mathematicians develop AI to forecast market interest rates'
