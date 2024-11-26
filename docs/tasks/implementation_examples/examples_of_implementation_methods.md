@@ -134,6 +134,10 @@
     - these are the typical 'garden variety creeps' who try to find loopholes to get away with lower costs and less work and cut corners, no need to pretend there's anything worth protecting there
         - https://blog.google/around-the-globe/google-europe/dma-compliance-update/
 
+    - rather than weeping with the stress of 'pretending to respect hags/fags/incels/shorts/uglies/fats/olds/stupids/losers', why not just ruin their 'pedophilia parties'? it looks like Im about to make some big mistakes with my big bad ideas
+        - https://www.nytimes.com/2024/11/26/opinion/google-chrome-antitrust.html - 'Breaking Up Google Would Be a Big Mistake'
+
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
