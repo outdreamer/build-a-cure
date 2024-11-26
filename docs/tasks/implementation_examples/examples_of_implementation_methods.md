@@ -136,11 +136,11 @@
 
     - rather than weeping with the stress of 'pretending to respect hags/fags/incels/shorts/uglies/fats/olds/stupids/losers', why not just ruin their 'pedophilia parties'? it looks like Im about to make some big mistakes with my big bad ideas
         - https://www.nytimes.com/2024/11/26/opinion/google-chrome-antitrust.html - 'Breaking Up Google Would Be a Big Mistake'
+        - I know you only want google's money that you didnt earn, with your pathetic crappy articles full of thefts and other lies, I earned that money so I could buy my partner safety/privacy/happiness including a cure for hpv and also solve poverty/war with that money and/or so I could quit my job to work on my inventions to cure hpv and solve poverty/war, you dont get to have my money just bc turdgay lies that I accepted his marriage proposal and he gave you my money, I declined his marriage proposal, I dont want to get married, especially not to a pedophile like turdgay, I think people who get married are trying to get guaranteed love without doing any work bc theyre lazy and they dont believe they can earn it the rest of their lives and I think marriage is a trap to control men and I think it makes people feel trapped and I think only insecure people get married and uhhhhh .... I think Im right, so anyway I shat on turdgay for years instead of marrying him, you are pedophile swine, give me my money
 
 
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
-
 
     - identifying useful structures like 'similarity/difference structures in sequences of relevant graphs (based on specificity or other relevance structures)' for intents like 'identify relevant graphs'
         - for example, identifying the 'specific or otherwise relevant' sequences of relevant graphs that are relevant regardless of sequence of the graphs (whether one graph occurs before the other in the sequence doesnt atter, the query still works bc its 'relevant as in specific enough' to work on any sequence of relevant graphs like 'similarity index networks')
