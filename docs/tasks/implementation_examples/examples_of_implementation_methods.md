@@ -143,6 +143,10 @@
         - https://www.theregister.com/2024/11/25/doj_google_collateral_damage_opinion/ - "US Dept of Justice's cure for Google could inflict collateral damage"
         - this is exactly the analysis that my inventions automate, btw, rather than just floating around, never knowing anything, you can now know that youre a total creep for avoiding thinking by making a totally wrong argument as in 'an argument that is irrelevant on every interface', like by 'referencing variables that are irrelevant, like whether a rock that google pedophiles touched was once on the moon' which is 'not relevant to relevant variables like whether google pedophiles are pedophiles', sorry!
 
+    - Ill never believe youre not jealous pedophile swine until you rape bill gates (you said you were a brilliant/intelligent/curious person for violating a genius, so why arent you violating other smart people in the toilet, I wonder, if your obvious lies are true) and 4chan incels (you said you were outraged at my insults to the groups that were violating me, then I wonder, why arent you violating 4chan incels in the toilet, who Im sure will also insult your group just by default), rather than the 'beautiful white female genius' (yeah ... no ... youre jealous pedophile swine)
+        - so the point is, circling back to the relevant bit, rather than 'dying to save jealous pedophile swine' (no thank you), Im going to punish jealous pedophile swine until theyre all dead, you choose how you die, you can die by suicide (its naughty, dont do it), or by being the undeserving recipient of excessive humbling mercy
+
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
