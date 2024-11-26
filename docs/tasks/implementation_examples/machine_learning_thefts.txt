@@ -1,5 +1,20 @@
-- the following are possible thefts of my inventions to examine, some of which may be backdated
+- the following are possible thefts of my inventions to examine
+	- some of these may be backdated
+	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://www.quantamagazine.org/teen-mathematicians-tie-knots-through-a-mind-blowing-fractal-20241126/
+- https://www.sciencedirect.com/science/article/pii/S0004370224001802 - 'Human-AI Coevolution'
+- https://phys.org/news/2024-11-mathematicians-ai.html - 'Mathematicians develop AI to forecast market interest rates'
+- https://theventurecrew.substack.com/p/how-to-find-problem-solution-fit-169 - 'How to Find Problem-Solution Fit? (A Framework)'
+- https://news.ycombinator.com/item?id=42243651 - 'Improve inference time on all LLMs based on transformers up to 10x'
+- https://www.modular.com/blog/understanding-simd-infinite-complexity-of-trivial-problems
+- https://www.baldurbjarnason.com/2022/theory-building/ - 'Theory-building and why employee churn is lethal to software companies (2022)'
+- https://developer.apple.com/library/archive/documentation/Performance/Conceptual/power_efficiency_guidelines_osx/PrioritizeWorkAtTheTaskLevel.html - 'Prioritize Work at the Task Level'
+- https://memgraph.com/blog/memgraph-skip-lists-indexes-unique-constraints - 'Memgraph Uses Skip Lists for Fast Indexes and Unique Constraints'
+- https://norikitech.com/posts/functional-affirmations/ - 'Functional Programming Self-Affirmations'
+- https://arxiv.org/abs/2411.04330 - 'Scaling Laws for Precision'
+- https://github.com/shobrook/saplings - 'Show HN: A library of tree search algorithms for AI agents'
+- https://www.knostic.ai/blog/introducing-a-new-class-of-ai-attacks-flowbreaking
 - https://www.technologyreview.com/2024/11/26/1107346/the-way-we-measure-progress-in-ai-is-terrible/
 - https://hashimcolombowala.com/p/delta/ - 'Delta vs. Cumulative Metrics: Key Differences and System Preferences'
 - https://www.msn.com/en-us/news/politics/accountability-is-coming-joni-ernst-sends-musk-s-doge-a-trillion-dollars-worth-of-ideas-to-gut-gov-t-spending/ar-AA1uJaUn

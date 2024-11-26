@@ -131,8 +131,16 @@
     - ha ha, you thought I couldnt do anything to you, you thought you would easily beat a vulnerable female inventor acting alone, wrong turdgay, this is just the beginning of your misery, get ready for infinite sadness next, then other types of pain and misery and nausea and horror, like you tried to inflict on me for years
         - https://www.nytimes.com/2024/11/25/technology/google-advertising-monopoly.html
 
+    - these are the typical 'garden variety creeps' who try to find loopholes to get away with lower costs and less work and cut corners, no need to pretend there's anything worth protecting there
+        - https://blog.google/around-the-globe/google-europe/dma-compliance-update/
+
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
+
+
+    - identifying useful structures like 'similarity/difference structures in sequences of relevant graphs (based on specificity or other relevance structures)' for intents like 'identify relevant graphs'
+        - for example, identifying the 'specific or otherwise relevant' sequences of relevant graphs that are relevant regardless of sequence of the graphs (whether one graph occurs before the other in the sequence doesnt atter, the query still works bc its 'relevant as in specific enough' to work on any sequence of relevant graphs like 'similarity index networks')
+        - relatedly, identifying different similarities that connect 'problem types/problem-solving intents' (as in 'different graphs connecting maximal differences') is a way to 'connect/solve problems', so 'identifying the similarities between these graphs that are useful for queries' is a related useful intent
 
     - identify useful structures like 'different relevant graph integrations like how "optimal relevant network sequences" can help optimize a graph of network-connecting networks (like a set of problem-solving intent/type networks)' by being optimal components of the other graph which can be similarized/connected (so the optimal graph sequence is a problem-solving sequence on the problem-solving network)
         - for example, identifying the 'maximally different relevant usages (as in interface queries, like connections/integrations) of all possible sequences of different relevant networks (like sequences of a similarity network, a definition network, a relevant variation network)' can identify the most useful 'sequences of these networks' and most useful 'connections using those sequences' which can identify 'optimal organization methods' of a 'set of "maximally different, difference-connecting networks" (which aligns with "problem-solving intent/type networks") of maximal differences (networks connecting maximal differences in maximally different network configurations, as in "networks connecting relevant networks")'
