@@ -2,6 +2,14 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://www.ruliad.co/news/introducing-deepthought8b - 'DeepThought-8B: A small, capable reasoning model'
+- https://speakerdeck.com/gpeyre/the-many-faces-of-ai-and-the-role-of-mathematics
+- https://condor.depaul.edu/~mfiddler/hyphen/humunivers.htm - "Donald Brown's List of Human Universals (2002)"
+- https://www.mindprison.cc/p/the-catastrophe-of-shiny-objects-boredom-attention-creativity
+- https://github.com/Coder-World04/Complete-System-Design - 'Complete System Design with Implemented Case Studies and Code'
+- https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition/issues/509 - 'Quality of code is too high'
+- https://quark-3d.github.io/ - 'Quark: Real-Time, High-Resolution, and General Neural View Synthesis'
+- https://github.com/yangchris11/samurai - 'Samurai: SAM for Zero-Shot Visual Tracking with Motion-Aware Memory'
 - https://lucumr.pocoo.org/2024/11/26/python-packaging-metadata/ - 'Constraints Are Good: Python's Metadata Dilemma'
 - https://www.nber.org/papers/w33198 - 'Generative AI for Economic Research: LLMs Learn to Collaborate and Reason'
 - https://arxiv.org/abs/2308.03958 - 'Simple synthetic data reduces sycophancy in large language models'
