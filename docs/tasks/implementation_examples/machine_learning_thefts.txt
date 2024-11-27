@@ -2,6 +2,13 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://medium.com/towards-data-science/trapped-in-the-net-where-is-a-foundation-model-for-graphs-6154bd688d4c
+- https://medium.com/managing-digital-products/forget-about-ideas-and-fall-in-love-with-problems-build-better-roadmaps-435d024e26bc
+- https://rworks.dev/posts/meta-analysis/ - 'Examining Meta-Analysis'
+- https://blog.tryreva.com/posts/ai-product-development-lifecycle/ - 'AI Product Development Lifecycle: tackling uncertainty'
+- https://www.economist.com/the-world-ahead/2024/11/20/sally-paine-outlines-how-america-should-deal-with-the-quartet-of-chaos
+- https://arxiv.org/abs/2411.04324 - 'Gradient Boosting Trees and LLMs for Tabular Data Few-Shot Learning'
+- https://arxiv.org/abs/2411.17501 - 'Inference Scaling FLaws: The Limits of LLM Resampling with Imperfect Verifiers'
 - https://arxiv.org/abs/2411.03333 - 'Bipartite Networks in Anime: Textual Analysis, Topic Clustering, and Modeling'
 - https://www.ruliad.co/news/introducing-deepthought8b - 'DeepThought-8B: A small, capable reasoning model'
 - https://speakerdeck.com/gpeyre/the-many-faces-of-ai-and-the-role-of-mathematics

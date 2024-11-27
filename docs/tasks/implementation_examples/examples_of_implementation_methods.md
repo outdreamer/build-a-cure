@@ -148,6 +148,9 @@
     - ugly old tinydick turdgay tries to touch everything bc hes so small and it makes him feel big
         - https://www.theverge.com/2024/11/25/24305922/google-app-ios-inserting-search-links-websites
 
+    - 'the microsoft pedophiles do it too' werent it, were it? neither were 'it will hobble our pedophile innovation'
+        - https://arstechnica.com/tech-policy/2024/11/google-drags-ai-rivals-into-search-trial-as-judge-entertains-ai-remedies/
+
     - youre still a pedophile if you go to london, turdgay, just like its not 'suddenly not pedophilia' if it happens 'on a boat while spritzing wine cooler at the blue moon', specificity wont help you here, the general point holds, youre still ugly pedophiles who tried to portray me as 'turdgays loving wife' while in reality 'I shat on you in private documents that you spied on for spying on me, drugging me to death, and stealing my inventions, and I carefully avoided ever speaking to you or meeting you' so it would be more difficult for you to 'pretend I would ever be in a relationship with you'
         - https://blog.google/around-the-globe/google-europe/united-kingdom/google-launches-ai-campus-london/
 
@@ -167,6 +170,9 @@
 
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
+
+    - identifying useful structures like 'relevant variants of problem-solving/connecting graphs (like different problem format/difference/position variants of the standard problem-solving graph and integrations of these variants)' as a way to 'identify relevant graphs'
+        - for example, identifying the different problem-solving graphs, like how 'different variable sequences' represent different 'difference-connection networks' so they can be applied as different problem-solving networks, similar to how a 'network starting with central problem types connected to layers of increasingly specific solution structures or general solution metrics' connects the 'maximally different differences' that are different 'problem types' first, where 'connecting different difference types in different sequences' is useful, like how a network connecting a sequence of 'maximal differences that peak at the center' or 'maximal differences connected with opposing differences like difference-reductions' or 'connecting different types of difference (like problem concepts or examples rather than problem types)' is useful as 'variants of a problem-solving graph', and similarly 'connecting these different variable sequences (like different maximal difference-connecting sequences/functions) in the same network' is another relevant variant of a problem-solving graph
 
     - identifying useful structures like 'similarity/difference structures in sequences of relevant graphs (based on specificity or other relevance structures)' for intents like 'identify relevant graphs'
         - for example, identifying the 'specific or otherwise relevant' sequences of relevant graphs that are relevant regardless of sequence of the graphs (whether one graph occurs before the other in the sequence doesnt atter, the query still works bc its 'relevant as in specific enough' to work on any sequence of relevant graphs like 'similarity index networks')
