@@ -2,6 +2,7 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://arxiv.org/abs/2411.03333 - 'Bipartite Networks in Anime: Textual Analysis, Topic Clustering, and Modeling'
 - https://www.ruliad.co/news/introducing-deepthought8b - 'DeepThought-8B: A small, capable reasoning model'
 - https://speakerdeck.com/gpeyre/the-many-faces-of-ai-and-the-role-of-mathematics
 - https://condor.depaul.edu/~mfiddler/hyphen/humunivers.htm - "Donald Brown's List of Human Universals (2002)"
