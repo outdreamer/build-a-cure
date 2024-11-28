@@ -151,6 +151,9 @@
     - 'the microsoft pedophiles do it too' werent it, were it? neither were 'it will hobble our pedophile innovation'
         - https://arstechnica.com/tech-policy/2024/11/google-drags-ai-rivals-into-search-trial-as-judge-entertains-ai-remedies/
 
+    - theyre still real, theyve gotten leg implants to seem taller, and theyre after my lucky charms
+        - https://www.youtube.com/watch?v=ZJ5Bn2j2oBo - 'Hobbits Were Real. Why Were They So Small?'
+
     - you should probably shut down google/microsoft/meta/apple/amazon, theyre full of pedophiles who pretend to be my victim and commit massive amounts of horrible crimes all the time, Im sure they pretend its 'required for their job' or something like that
         - https://www.reuters.com/technology/microsoft-faces-wide-ranging-us-antitrust-probe-2024-11-27/
 
