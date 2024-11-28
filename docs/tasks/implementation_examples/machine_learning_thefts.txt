@@ -2,6 +2,8 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://developers.google.com/machine-learning/guides/rules-of-ml - 'Google Rules of Machine Learning (2018)'
+- https://arxiv.org/abs/2411.07191 - 'Pruning a single weight in an LLM can destroy its output'
 - https://arxiv.org/abs/2411.04319 - 'Towards Optimizing SQL Generation via LLM Routing'
 - https://arxiv.org/abs/1712.00409 - 'Deep Learning Scaling Is Predictable, Empirically'
 - https://brainteaser.top/knot/index.html - 'Neumorphic Knot'
