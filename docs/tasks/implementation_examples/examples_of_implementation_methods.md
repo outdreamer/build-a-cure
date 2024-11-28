@@ -151,6 +151,9 @@
     - 'the microsoft pedophiles do it too' werent it, were it? neither were 'it will hobble our pedophile innovation'
         - https://arstechnica.com/tech-policy/2024/11/google-drags-ai-rivals-into-search-trial-as-judge-entertains-ai-remedies/
 
+    - did these people refuse to bang you as well? who else have you had murdered for refusing to bang you? should we be checking the land you own for freshly turned earth? youre supposed to laugh off all the insults, not kill people, turdgay, you look emotional, hope this isnt bothering you
+        - https://economictimes.indiatimes.com/news/india/google-maps-leads-three-men-to-death-as-car-plunges-from-incomplete-bridge-into-river-in-bareilly-up/articleshow/115651260.cms?from=mdr
+
     - youre still a pedophile if you go to london, turdgay, just like its not 'suddenly not pedophilia' if it happens 'on a boat while spritzing wine cooler at the blue moon', specificity wont help you here, the general point holds, youre still ugly pedophiles who tried to portray me as 'turdgays loving wife' while in reality 'I shat on you for years in private documents that you spied on (for spying on me, drugging me to death, and stealing my inventions), and I carefully avoided ever speaking to you or meeting you' so it would be more difficult for you to 'pretend I would ever be in a relationship with you'
         - https://blog.google/around-the-globe/google-europe/united-kingdom/google-launches-ai-campus-london/
         - similarly, youre still a pedophile if you do a little dance at the time of the pedophilia or even before or after the pedophilia, or if you wear a funny hat while doing the pedophilia, or if you change your name before doing the pedophilia or deny doing the pedophilia while or before or after doing the pedophilia or change the laws temporarily to do the pedophilia, its still pedophilia and I still dont love you

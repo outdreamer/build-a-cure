@@ -2,6 +2,10 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://brainteaser.top/knot/index.html - 'Neumorphic Knot'
+- https://www.bigideasdb.com/ - 'Database full of 1000+ validated problems that can be turned into applications'
+- https://sive.rs/kidspc - 'A computer that would require kids to be creative to use it'
+- https://huggingface.co/spaces/VIDraft/Mouse-Hackathon - "Show HN: AI Hackathon_ Prize 20K USD '1-Min Creative Innovation with AI'"
 - https://medium.com/towards-data-science/trapped-in-the-net-where-is-a-foundation-model-for-graphs-6154bd688d4c
 - https://medium.com/managing-digital-products/forget-about-ideas-and-fall-in-love-with-problems-build-better-roadmaps-435d024e26bc
 - https://rworks.dev/posts/meta-analysis/ - 'Examining Meta-Analysis'
