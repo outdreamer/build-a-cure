@@ -303,7 +303,8 @@
 			- treat autoimmune conditions, infections, organ damage, heavy metal toxicities, electrolyte imbalances, overuse of stimulants, vitamin deficiencies/malabsorptions/neutralizations and other causes of fatigue
 			- other supplements for fatigue: D-ribose, arginine, creatine, DHEA, ginseng, glutathione, glutamine, iron, quercetin, pyrroloquinoline quinone
 			- fix mitochondria dysregulation/dysfunction: 
-				- magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
+				- infrared light, magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC7738953/
 			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
 		- acidosis: 
 			- greens powder, chlorella/algae/chlorophyll, thiamine, glutathione, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
