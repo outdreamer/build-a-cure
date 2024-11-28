@@ -151,8 +151,12 @@
     - 'the microsoft pedophiles do it too' werent it, were it? neither were 'it will hobble our pedophile innovation'
         - https://arstechnica.com/tech-policy/2024/11/google-drags-ai-rivals-into-search-trial-as-judge-entertains-ai-remedies/
 
+    - you should probably shut down google/microsoft/meta/apple/amazon, theyre full of pedophiles who pretend to be my victim and commit massive amounts of horrible crimes all the time, Im sure they pretend its 'required for their job' or something like that
+        - https://www.reuters.com/technology/microsoft-faces-wide-ranging-us-antitrust-probe-2024-11-27/
+
     - did these people refuse to bang you as well? who else have you had murdered for refusing to bang you? should we be checking the land you own for freshly turned earth? youre supposed to laugh off all the insults, not kill people, turdgay, you look emotional, hope this isnt bothering you
         - https://economictimes.indiatimes.com/news/india/google-maps-leads-three-men-to-death-as-car-plunges-from-incomplete-bridge-into-river-in-bareilly-up/articleshow/115651260.cms?from=mdr
+        - folks, turdgay is still drugging me and my partner, he wont pay me for my inventions, I have to buy new food regularly to replace the old food that has been poisoned while I was at the gym, turdgay cant take a hint, cant you get turdgay a sex doll or something, I realize it seems easier to "let pedophilia sprees ruin the world" than to "find a girl who actually loves sergey brin" but thats what prostitutes are for, I feel like you know that, stop trying to force a genius to pretend to love him, and start trying to trick turdgay into thinking there is a 'magical world where women like short guys that can only be accessed by swallowing a cyanide capsule'
 
     - youre still a pedophile if you go to london, turdgay, just like its not 'suddenly not pedophilia' if it happens 'on a boat while spritzing wine cooler at the blue moon', specificity wont help you here, the general point holds, youre still ugly pedophiles who tried to portray me as 'turdgays loving wife' while in reality 'I shat on you for years in private documents that you spied on (for spying on me, drugging me to death, and stealing my inventions), and I carefully avoided ever speaking to you or meeting you' so it would be more difficult for you to 'pretend I would ever be in a relationship with you'
         - https://blog.google/around-the-globe/google-europe/united-kingdom/google-launches-ai-campus-london/
