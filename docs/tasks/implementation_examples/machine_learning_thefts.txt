@@ -2,6 +2,13 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://www.notion.so/templates/startup-idea-canvas - 'Show HN: Startup Idea Canvas: From Problem-Solution Fit to Product-Market Fit'
+- https://arxiv.org/abs/2411.18541 - "The Rise and Fall of Ideas' Popularity [pdf]"
+- https://novelvisionai.art/ - 'Show HN: NovelVision AI – A Free AI-Powered Writing Assistant for Storytellers'
+- https://www.archetypeai.io/ - 'Archetype AI is building a Large Behavior Model Physical AI model of the world'
+- https://arxiv.org/abs/2411.03493 - 'Laser: Attention with Exponential Transformation'
+- https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html - 'An Intuitive Explanation of Sparse Autoencoders for LLM Interpretability'
+- https://arxiv.org/abs/2410.21272 - 'Arithmetic Without Algorithms: LLMs Solve Math with a Bag of Heuristics'
 - https://www.fool.com/investing/2024/11/27/nvidia-ceo-jensen-huang-says-this-is-the-next-wave/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=43377cac-5348-4e65-8d4c-980864559e67
 - https://www.aimodels.fyi/papers/arxiv/large-model-strategic-thinking-small-model-efficiency - 'Transferring Theory of Mind in Large Language Models'
 - https://github.com/voyage-ai/embedding_bench - 'Head-to-head benchmarking tool for embedding models'
