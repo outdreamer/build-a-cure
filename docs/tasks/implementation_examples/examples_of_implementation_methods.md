@@ -194,6 +194,9 @@
         - looks like kids dont need you either turdgay
             - https://www.wsj.com/tech/googling-is-for-old-people-thats-a-problem-for-google-5188a6ed
 
+    - I dont exist so that you, turdgay swine, the fakest of all the swine faking virtues online for money, the most jealous bitter unloved denier of all the pedophile swine, can have an 'interesting fun learning experience spent violating and drugging and robbing me', I exist to kill as many predators as I can, so that sweet angels like my partner can be happy and safe, not so turdgay swine can have a fun learning experience, this is going to be the most painful learning experience of all of human history that will end with your murder, rather than you 'growing as a person', you dont get the privilege of 'growing as a person', you get to die of torture wounds for ruining the world by violating me
+        - https://medium.com/@erikpmvermeulen/she-showed-me-that-the-world-was-fake-and-how-to-live-a-more-adventurous-life-82407de6ee98
+
     - hot tip: psst, 'ladies', pass it on, its a 'valuable secret' bc you could never figure this out: "value pedophile's property at a low rate so they dont get a lot of money when you buy it, or just completely stop respecting their property rights (instead of the property rights of a genius) and commandeer pedophiles' property (instead of the genius' property), 'ladies', rather than "always helping pedophiles rob the genius blind and torture the genius to death", 'ladies'"
         - https://finance.yahoo.com/news/doj-push-google-sell-chrome-222920497.html - "Google's Chrome Worth Up to $20B If Judge Orders Sale"
 
