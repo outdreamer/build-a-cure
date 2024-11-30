@@ -189,6 +189,11 @@
         - looks like its definitely considered pedophilia in canada, turdgay, not everyone was fooled there that 'attacking the weak' or similarly 'doing naughty things' somehow isnt 'pedophilia'
             - https://www.reuters.com/technology/canadas-antitrust-watchdog-sues-google-alleging-anti-competitive-conduct-2024-11-28/
 
+    - so sue me, Im independent from pedo poop, thats the right kind of independence rather than an error
+        - https://www.grumpy-economist.com/p/central-bankers-can-be-too-independent
+        - looks like kids dont need you either turdgay
+            - https://www.wsj.com/tech/googling-is-for-old-people-thats-a-problem-for-google-5188a6ed
+
     - hot tip: psst, 'ladies', pass it on, its a 'valuable secret' bc you could never figure this out: "value pedophile's property at a low rate so they dont get a lot of money when you buy it, or just completely stop respecting their property rights (instead of the property rights of a genius) and commandeer pedophiles' property (instead of the genius' property), 'ladies', rather than "always helping pedophiles rob the genius blind and torture the genius to death", 'ladies'"
         - https://finance.yahoo.com/news/doj-push-google-sell-chrome-222920497.html - "Google's Chrome Worth Up to $20B If Judge Orders Sale"
 

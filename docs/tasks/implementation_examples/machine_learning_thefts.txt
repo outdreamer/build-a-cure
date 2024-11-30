@@ -2,6 +2,13 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://x.com/elonmusk/status/1862363270931255356 - 'This simple algorithm that I came up with to help me make fewer dumb mistakes in the future is incredibly powerful'
+- https://www.sprind.org/en/impulses/challenges/composite-learning - 'Composite Learning Challenge: EUR 12M for Decentralized Learning Innovations'
+- https://arxiv.org/abs/2411.18464 - 'Approximating Mathematical Constants Using Minecraft'
+- https://arxiv.org/abs/2411.03171 - 'Navigating Extremes: Dynamic Sparsity in Large Output Space'
+- https://arxiv.org/abs/2211.08064 - 'Physics-Informed Machine Learning: A Survey'
+- https://www.datologyai.com/post/technical-deep-dive-curating-our-way-to-a-state-of-the-art-text-dataset - 'Models are what they eat: automatic data curation for LLMs'
+- https://openctx.org/ - 'OpenCtx: See contextual info about code from your dev tools'
 - https://arxiv.org/abs/2411.00873 - 'CleaR: Robust and Generalized Parameter-Efficient Fine-Tuning for Noisy Labels'
 - https://arxiv.org/abs/2410.10773 - 'Enhancing JEPAs with Spatial Conditioning: Efficient Representation Learning'
 - https://arxiv.org/abs/2411.17106 - 'Super-Resolution with Low-Bit Quantization'
