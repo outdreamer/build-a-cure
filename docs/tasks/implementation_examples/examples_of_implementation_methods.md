@@ -189,6 +189,9 @@
         - looks like its definitely considered pedophilia in canada, turdgay, not everyone was fooled there that 'attacking the weak' or similarly 'doing naughty things' somehow isnt 'pedophilia'
             - https://www.reuters.com/technology/canadas-antitrust-watchdog-sues-google-alleging-anti-competitive-conduct-2024-11-28/
 
+    - hot tip: psst, 'ladies', pass it on, its a 'valuable secret' bc you could never figure this out: "value pedophile's property at a low rate so they dont get a lot of money when you buy it, or just completely stop respecting their property rights (instead of the property rights of a genius) and commandeer pedophiles' property (instead of the genius' property), 'ladies', rather than "always helping pedophiles rob the genius blind and torture the genius to death", 'ladies'"
+        - https://finance.yahoo.com/news/doj-push-google-sell-chrome-222920497.html - "Google's Chrome Worth Up to $20B If Judge Orders Sale"
+
     - Ill never believe youre not jealous pedophile swine until you rape bill gates (you said you were a brilliant/intelligent/curious person for violating a genius, so why arent you violating other smart people in the toilet, I wonder, if your obvious lies are true) and 4chan incels (you said you were outraged at my insults to the groups that were violating me, then I wonder, why arent you violating 4chan incels in the toilet, who Im sure will also insult your group just by default) in the toilet, rather than the 'beautiful white female genius' (yeah ... no ... youre jealous pedophile swine)
         - so the point is, circling back to the relevant bit, rather than 'dying to save jealous pedophile swine' (no thank you), Im going to punish jealous pedophile swine until theyre all dead, you choose how you die, you can die by suicide (its naughty, dont do it), or by being the undeserving recipient of excessive humbling mercy
 
