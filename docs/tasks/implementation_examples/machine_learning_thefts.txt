@@ -2,6 +2,7 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://arxiv.org/abs/2411.00873 - 'CleaR: Robust and Generalized Parameter-Efficient Fine-Tuning for Noisy Labels'
 - https://arxiv.org/abs/2410.10773 - 'Enhancing JEPAs with Spatial Conditioning: Efficient Representation Learning'
 - https://arxiv.org/abs/2411.17106 - 'Super-Resolution with Low-Bit Quantization'
 - https://freenet.org/news/small-world-networks/ - 'Show HN: Understanding small world networks with interactive simulations'
