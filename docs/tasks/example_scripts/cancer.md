@@ -32,7 +32,7 @@
 						- wasabi (the S and B brand)
 						- green tea (Tejava Hojicha organic green tea)
 						- saw palmetto
-						- pomegranate/mangoes/mushrooms/cabbage/berries
+						- berries (for the vitamin K, antioxidants, anti-inflaatory effect), pomegranats, mangoes, mushrooms, cabbage
 							- golden berries/Physalis peruviana are powerful against cancer but make sure to avoid high doses to avoid cardiac/cardiovascular damage and avoid unripe golden berries
 							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3863561/
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC9408722/
