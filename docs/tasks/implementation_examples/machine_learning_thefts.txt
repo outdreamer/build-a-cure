@@ -2,6 +2,16 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://datatracker.ietf.org/doc/html/draft-thomson-postel-was-wrong-03 - 'The Harmful Consequences of the Robustness Principle'
+- https://mathstodon.xyz/@tao/113568284621180843 - 'QwQ-32B significantly better at competition problems than previous open models'
+- https://www.currentaffairs.org/news/2023/12/on-the-material-foundations-of-intellectual-production
+- https://github.com/tsenart/kth - 'Kth: High-Performance Selection Algorithms for Go'
+- https://bitbee.medium.com/kadanes-algorithm-the-journey-to-maximum-efficiency-e74b45784c2b
+- https://map-projections.net/compare.php?p1=cahill-conformal-butterfly-20w&p2=waterman - 'Compare Map Projections'
+- https://www.learntosolveit.com/
+- https://www.scientificamerican.com/article/math-and-physics-cant-prove-all-truths/
+- https://medium.com/philosophytoday/is-progress-possible-in-philosophy-1066295c505a
+- https://medium.com/swlh/forget-chatgpt-claude-here-are-6-new-free-ai-tools-that-will-blow-your-mind-c94dbf1af702
 - https://x.com/elonmusk/status/1862363270931255356 - 'This simple algorithm that I came up with to help me make fewer dumb mistakes in the future is incredibly powerful'
 - https://www.sprind.org/en/impulses/challenges/composite-learning - 'Composite Learning Challenge: EUR 12M for Decentralized Learning Innovations'
 - https://arxiv.org/abs/2411.18464 - 'Approximating Mathematical Constants Using Minecraft'
