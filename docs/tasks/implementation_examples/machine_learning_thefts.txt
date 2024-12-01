@@ -2,6 +2,9 @@
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 
+- https://www.kapa.ai/blog/ai-hallucination - 'Why Large Language Models Make Things Up (and How to Fix It)'
+- https://www.canva.dev/blog/engineering/how-to-improve-search-without-looking-at-queries-or-results/
+- https://arxiv.org/abs/2411.01747 - 'DynaSaur: Large Language Agents Beyond Predefined Actions'
 - https://datatracker.ietf.org/doc/html/draft-thomson-postel-was-wrong-03 - 'The Harmful Consequences of the Robustness Principle'
 - https://mathstodon.xyz/@tao/113568284621180843 - 'QwQ-32B significantly better at competition problems than previous open models'
 - https://www.currentaffairs.org/news/2023/12/on-the-material-foundations-of-intellectual-production
