@@ -1,7 +1,10 @@
 - the following are possible thefts of my inventions to examine
 	- some of these may be artificially backdated to make it look published a long time before I was born, theyre probably adding my inventions to Harry Potter to make it look like I didnt invent anything
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
+	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
+	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://niujinshuchong.github.io/gaussian-opacity-fields/ - 'Gaussian Opacity Fields Efficient Adaptive Surface Reconstruction'
 - https://github.com/andrewrk/poop - 'Poop: a performance optimizer observation platform'
 - https://media.ccc.de/v/emf2024-377-how-to-move-an-industry-through-influence
 - https://arxiv.org/abs/2411.12580 - 'Procedural Knowledge in Pretraining Drives Reasoning in Large Language Models'
