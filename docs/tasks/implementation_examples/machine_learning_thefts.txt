@@ -4,6 +4,16 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://arxiv.org/abs/2308.06927 - 'Foundations of Algorithmic Thermodynamics (2023)'
+- https://uxdesign.cc/creativity-is-the-only-thing-498a05142c9c
+- https://gist.github.com/mrmps/c6b5524d84297c81cb6982020eb6ef2e - "Late Chunking vs. Contextual Retrieval: The Math Behind RAG's Context Problem"
+- https://www.leadinginproduct.com/p/success-through-simple-principles - 'Success Through Simple Principles and Clear Goals'
+- https://phys.org/news/2024-12-cancer-relevant-protein-reveals-opportunities.html - 'New understanding of a cancer-relevant protein reveals opportunities for drug discovery'
+- https://phys.org/news/2024-12-experimental-evidence-high-harmonic-generation.html - 'Study provides experimental evidence of high harmonic generation producing quantum light'
+- https://phys.org/news/2024-12-higher-fractional-discrete-crystals-floquet.html - 'Observing higher-order and fractional discrete time crystals in Floquet-driven Rydberg atomic gases'
+- https://phys.org/news/2024-12-climate-combines-generative-ai-physics.html - 'Climate model combines generative AI and physics data to predict patterns 25 times faster than current methods'
+- https://www.wired.com/story/embrace-uncertainty-forecasting-prediction-skills/ - 'An Uncertain Future Requires Uncertain Prediction Skills'
+- https://sakana.ai/cycleqd/ - 'Population-Based Model Merging via Quality Diversity'
 - https://news.ycombinator.com/item?id=42299475 - 'Show HN: Knowing 0.2 – Structured AI Collaboration in Hierarchical Contexts'
 - https://research.google/blog/unlocking-the-power-of-time-series-data-with-multimodal-models/
 - https://xbow.com/blog/xbow-eddi-path/ - 'XBOW AI autonomously discovers path traversal in EDDI (CVE-2024-53844)'

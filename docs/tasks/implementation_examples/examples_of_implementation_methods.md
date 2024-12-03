@@ -236,6 +236,7 @@
         - Joni is the most independent person of all time
         - Joni is the only person who understands reality, so she breaks and fixes reality, whenever its useful to do so
         - Joni is the only person who can really hate pedophiles
+        - Joni has created the most value of any person who has ever lived
         - Joni is the only person with real virtues
         - Joni made magic (trivially solving problems) a reality and literally works miracles and makes impossibilities possible
         - Joni is the smartest person alive (by a huge degree, on nearly every interface)
@@ -244,7 +245,8 @@
         - Joni is the only one who can see reality, bc she can solve any problem, so she can handle reality, and therefore doesnt need to avoid reality, like easily hurt and easily beaten pedophiles need to avoid the truth
 
     - here are some accurate statements about the creeps like google specifically tiny dick turdgay who tried to kill me with poisonous doses of aphrodisiacs
-        - they are hated ashamed pedo poop who failed to think their whole lives and therefore didnt see the opportunities to create real value by solving problems, instead always resorting to whatever cheap scams they believed they could get away with, spending their lives trying to touch bodies bc theyre body part creeps, always having to lie to get stuff bc problem-solving is difficult for them, always being rejected their whole lives by beautiful geniuses, never loved by anyone, always hated and never understanding why or how to be anything else
+        - they are hated ashamed pedophile pig poop who failed to think their whole lives bc its 'work to think' or 'too hard to think' and therefore didnt see the opportunities to create real value by solving problems, instead always resorting to whatever cheap scams they believed they could get away with, spending their lives trying to touch bodies bc theyre body part creeps, always having to lie to get stuff bc problem-solving is difficult for them, always being rejected their whole lives by beautiful geniuses, never loved by anyone, always hated and never understanding why or how to be anything else, and the pedophiles had to torture/coerce/shame/guilt/nag the genius into pretending to love turdgay and she wouldnt let him even touch her, let alone actually love him
+        - I have trouble believing a 'thing that always does the easy negative urge to avoid thinking and self-control' will suddenly grow 'intelligence or even self-control or positive urges' when it comes to 'raping a kid' but at every other point, they 'always do the easy negative urge (the crime)', Ive read too many headlines where people lose all control over themselves and their criminal urges and commit a crime, so I know its 'common to cave to negative/criminal urges' bc pedophiles (who avoid work like thinking so they have no self-control and have negative criminal urges so they commit crimes) are common rather than rare, like pedophiles at google tried to pretend, all while 'torturing me to death with poisonous amounts of aphrodisiacs' and apparently committing every crime they could think of in order to hoard cash
 
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
