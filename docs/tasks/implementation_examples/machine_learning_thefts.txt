@@ -4,6 +4,12 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+
+- https://news.ycombinator.com/item?id=42307394 - 'A Revolution in Creativity: The Story Behind Mind Art'
+- https://www.youtube.com/watch?v=ZAdFpcBLyQw - 'When Intuition Is Wrong: Majoritarian Attacks Are Solvable [video]'
+- https://wattenberger.com/thoughts/fish-eye - 'LLM Abstraction levels inspired by Fish Eye lens'
+- https://arxiv.org/abs/2304.05366 - 'Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning'
+- https://yuvalmerhav.com/posts/2024-12-02-decoder-embeddings - 'Recent Trends with Text Embeddings: Decoder-Only LLMs'
 - https://arxiv.org/abs/2308.06927 - 'Foundations of Algorithmic Thermodynamics (2023)'
 - https://uxdesign.cc/creativity-is-the-only-thing-498a05142c9c
 - https://gist.github.com/mrmps/c6b5524d84297c81cb6982020eb6ef2e - "Late Chunking vs. Contextual Retrieval: The Math Behind RAG's Context Problem"
