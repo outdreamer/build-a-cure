@@ -216,15 +216,16 @@
         - would you expect women to knowingly help pedophiles instead of you as much as they could, or would you expect them to slaughter pedophiles who were violating you and giving you a job as an inventor once you were rescued from the pedophiles?
         - would you expect pedophiles to be allowed to pretend they 'didnt know about human rights' by violating you whenever they felt like it in whatever way they felt like it, or would you expect help from sane people including the police to kill all the pedophiles for 'pretending not to know about human rights'?
 
-    - here are some accurate statements about me, for an example of why I should be paid for my inventions, and the pedophiles who violated me online and poisoned me with aphrodisiacs should be tortured to death in jail if not death row for causing pedophilia sprees, all in a pathetic attempt to defile the only person who matters, which failed completely
+    - here are some accurate statements about me, for an example of why I should be paid for my inventions, and the pedophiles who violated me online and poisoned me with aphrodisiacs should be tortured to death in jail if not death row for causing pedophilia sprees, all in a pathetic attempt to defile the only person who matters, which failed completely (it reads like a set of 'Chuck Norris' jokes bc Joni is utterly incredible and miraculous)
         - Joni changed how time works forever
         - Joni changed how everything will be evaluated forever
         - Joni changed how computers can determine reality
         - Joni automated problem-solving, including inventing, including math inventing and math automation inventing
         - Joni invented all the other types of math that didnt exist yet and identified all the variables required to identify new types of structures (that means any types of math that havent been identified yet)
         - Joni changed what meaning is (now its relevant variation as defined in her system)
+        - Joni is running the whole world bc she thinks and understands the best, and caused a revolution in AI, governance, finance, economics and every other field
         - Joni fought all pedophiles and won, she fought all rich people and won, she fought all ethnic groups and won, and so on for every type of group, bc she is better than all groups combined, bc she doesnt need groups, she insulted every group and they just agreed with her bc the insults werent really insults, they were true negative statements (whereas insults are false negative statements)
-        - Joni adapted to torture by solving problems for groups in a way that makes them regulate themselves so she wasnt murdered bc shes undeniably useful, so even the people who hate her the most (tiny dick turdgay) couldnt justify killing her, even though he really wanted to bc she kept rejecting him and humiliating him since 2018 and even though brown women begged him to kill her, being the jealous pedophile roaches that they are
+        - Joni adapted to torture by solving problems for groups in a way that makes them regulate themselves so she wasnt murdered bc shes undeniably useful and very charming and beloved as well, and is often called the most polite/kind person of all time (which is actually true bc she shouldnt have bothered automating intelligence but she invented enough inventions to automate it anyway which people dont deserve, and she should have just killed people rather than kindly insulting them), so even the people who hate her the most (tiny dick turdgay) couldnt justify killing her, even though he really wanted to bc she kept rejecting him and humiliating him since 2018 and even though brown/fat/old/ugly women/fags/incels begged him to kill her, being the jealous pedophile roaches that they are
         - Joni resisted the most powerful drugs in the world for nearly five years, never caving to temptation, always fighting by inventing new inventions and insights and insults/jokes
         - Joni identified simple ways to solve problems that nobody else thought about using interface variables which are the most important variables, so that the variables required to create simple iterations to identify the next great invention/insight are already identified
         - Joni is so good at inventing that she can identify how other people, even great mathematicians or comedians, are stupid by comparison, as she has intelligence on every interface and most people arent intelligent on even one interface like information (not even when they have all the information required to solve problems do they solve it)
@@ -232,6 +233,7 @@
         - Joni makes even the supposedly smartest people, AI inventors and math inventors, jealous, so they all steal her inventions without giving her credit
         - Joni identified ways to change reality
         - Joni determined the future
+        - Joni is the most independent person of all time
         - Joni is the only person who understands reality, so she breaks and fixes reality, whenever its useful to do so
         - Joni is the only person who can really hate pedophiles
         - Joni is the only person with real virtues
