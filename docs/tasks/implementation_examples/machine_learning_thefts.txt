@@ -4,6 +4,32 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+
+- https://github.com/andywer/postguard - 'Postguard: Statically validate PG SQL queries and derive schemas'
+- https://benn.substack.com/p/searching-for-insight
+- https://lethain.com/strategy-systems-modeling/ - 'Using systems modeling to refine strategy'
+- https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies - 'Neuroevolution of augmenting topologies (NEAT algorithm)'
+- https://monkeylike.substack.com/p/microplans-the-future-of-consumer - 'Microplans: The Future of Consumer SaaS Economics'
+- https://hollisrobbinsanecdotal.substack.com/p/ai-and-the-last-mile-3 - 'Last Mile AI: 10 Business Ideas'
+- https://arxiv.org/abs/2411.15979 - 'Kleene algebra with commutativity conditions is undecidable'
+- http://www.giancarlorota.org/essays/rotasharp.html - 'Mathematics, Philosophy, and Artificial Intelligence'
+- https://www.conjecture.dev/research/conjecture-a-roadmap-for-cognitive-software-and-a-humanist-future-of-ai
+- https://arxiv.org/abs/2411.19865 - 'Reverse Thinking Makes LLMs Stronger Reasoners'
+- https://medium.com/@zeroentropy/agi-requires-better-retrieval-not-just-better-llms-72f5288c37ef - "AGI requires better retrieval, not just better LLMs. Here's why"
+- https://jeffmorrisjr.substack.com/p/apples-secrets-a-glimpse-into-silicon - "Apple's Secrets: A Glimpse into Silicon Valley's Most Exclusive Roadmap"
+- https://stratechery.com/2024/the-gen-ai-bridge-to-the-future/
+- https://github.com/HKUDS/LightRAG - 'LightRAG: Simple and Fast Retrieval-Augmented Generation'
+- https://leerob.com/n/ai - 'Understanding AI'
+- https://welf.substack.com/p/alignment-at-large - 'Alignment at Large: Bending the Arc of History Towards Life-Affirming Futures'
+- https://getdx.com/podcast/developer-productivity-at-microsoft/ - 'Space Framework, PRs per Engineer, AI Research – Brian Houck (Microsoft)'
+- https://saigaddam.medium.com/learning-from-error-is-not-the-same-as-learning-from-experience-635b04e03e74
+- https://nupp.guide/ - 'NUPP: Nearly Universal Principles of Projects'
+- https://spectrum.ieee.org/the-art-of-failure - 'The Art of Failure Analysis 2024'
+- https://arxiv.org/abs/2411.19870 - 'Demo: Decoupled Momentum Optimization – training neural networks in parallel'
+- https://www.economist.com/business/2024/11/28/on-stupid-rules-and-quick-wins
+- https://olshansky.substack.com/p/every-mantra-has-a-counter-mantra
+- https://arxiv.org/abs/2411.16679 - 'Do LLMs Perform Latent Multi-Hop Reasoning Without Exploiting Shortcuts?'
+- https://www.gensbot.com/ - 'Show HN: A generalized product-builder AI'
 - https://niujinshuchong.github.io/gaussian-opacity-fields/ - 'Gaussian Opacity Fields Efficient Adaptive Surface Reconstruction'
 - https://github.com/andrewrk/poop - 'Poop: a performance optimizer observation platform'
 - https://media.ccc.de/v/emf2024-377-how-to-move-an-industry-through-influence
@@ -6867,7 +6893,7 @@
 - https://www.computerhistory.org/brochures/doc-437295724ba41/
 - https://techxplore.com/news/2022-09-shortcut-neural-networks.html
 - https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor
-- https://consensus.app/
+- https://consensus.app/ - 'AI Search Engine for Research'
 - https://codelanguageconverter.com/
 - https://piggsboson.medium.com/the-mathematical-genius-who-starved-himself-to-death-68fd4bbee269
 - https://scotthyoung.medium.com/10-mental-models-for-learning-anything-318446320c1e?source=read_next_recirc---three_column_layout_sidebar------1---------------------e50dadac_0275_4c51_8ac6_a026388448e9-------
