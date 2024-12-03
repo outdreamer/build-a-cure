@@ -237,8 +237,9 @@
         - Joni is the only person with real virtues
         - Joni made magic (trivially solving problems) a reality
         - Joni is the smartest person alive (by a huge degree, on nearly every interface)
-        - Joni is preferred to children by pedophiles, and all rich guys want Joni and she wont bang or date them, and Joni is better than a kid bc she is a genius which is like being a genie who does real magic
-        - Joni continued inventing incredible new inventions basically every day, despite being given illnesses like fungal meningitis and drugs like aphrodisiacs that caused brain damage and organ failure, identifying all the supplements required to survive those conditions easily bc everything is easy for Joni
+        - Joni is preferred to children by pedophiles, and all rich guys want Joni and she wont bang or date them, and Joni is better than a kid bc she is a genius which is like being a genie who does real magic, and pedophiles try to pretend that Joni is dating them (shes only dating her partner since 2008, the same person since 2008)
+        - Joni continued inventing incredible new inventions basically every day, despite being given illnesses like fungal meningitis and drugs like aphrodisiacs that caused brain damage and organ failure, identifying all the supplements required to survive those conditions easily, bc everything is easy for Joni
+        - Joni is the only one who can see reality, bc she can solve any problem, so she can handle reality, and therefore doesnt need to avoid reality, like easily hurt and easily beaten pedophiles need to avoid the truth
 
     - here are some accurate statements about the creeps like google specifically tiny dick turdgay who tried to kill me with poisonous doses of aphrodisiacs
         - they are hated ashamed pedo poop who failed to think their whole lives and therefore didnt see the opportunities to create real value by solving problems, instead always resorting to whatever cheap scams they believed they could get away with, spending their lives trying to touch bodies bc theyre body part creeps, always having to lie to get stuff bc problem-solving is difficult for them, always being rejected their whole lives by beautiful geniuses, never loved by anyone, always hated and never understanding why or how to be anything else
