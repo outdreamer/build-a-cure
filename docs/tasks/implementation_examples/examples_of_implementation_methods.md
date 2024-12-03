@@ -135,7 +135,7 @@
     - these are the typical 'garden variety creeps' who try to find loopholes to get away with lower costs and less work and cut corners, no need to pretend there's anything worth protecting there
         - https://blog.google/around-the-globe/google-europe/dma-compliance-update/
 
-    - I notice turdgay couldnt learn that Ill never love him, so they clearly cant learn or think good and always try to touch little pig bodies, the only things willing to stoop to turdgay, the most hated crap of all time, who caused pedophilia sprees in his nauseating attempts to touch me, which turdgay knows very well, as he always has to give the pigs food to get them to touch him
+    - I notice turdgay couldnt learn that Ill never love him, so they clearly cant learn or think good and always try to touch little pig bodies, the only things willing to stoop to turdgay, the most hated crap of all time, who caused pedophilia sprees in his nauseating attempts to touch me, which turdgay knows very well, as he always has to give the pigs food to get them to touch him, so turdgay also knows that anyone else can also touch his pedophile pigs by buying them food
         - https://www.wired.com/story/website-google-ai-photos-ente/ - 'New website shows you how much Google AI can learn from your photos'
 
     - rather than weeping with the stress of 'pretending to respect hags/fags/incels/shorts/uglies/fats/olds/stupids/losers', why not just ruin their 'pedophilia parties'? it looks like Im about to make some big mistakes with my big bad ideas
