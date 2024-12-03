@@ -4,7 +4,12 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
-
+- https://news.ycombinator.com/item?id=42299475 - 'Show HN: Knowing 0.2 – Structured AI Collaboration in Hierarchical Contexts'
+- https://research.google/blog/unlocking-the-power-of-time-series-data-with-multimodal-models/
+- https://xbow.com/blog/xbow-eddi-path/ - 'XBOW AI autonomously discovers path traversal in EDDI (CVE-2024-53844)'
+- https://arxiv.org/abs/2411.09734 - 'Modeling AdaGrad, RMSProp, and Adam with Integro-Differential Equations'
+- https://nsavage.substack.com/p/from-vector-search-to-entity-processing - 'From Vector Search to Entities: Evolving Zettelgardens Connection Engine'
+- https://aws.amazon.com/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/
 - https://github.com/andywer/postguard - 'Postguard: Statically validate PG SQL queries and derive schemas'
 - https://benn.substack.com/p/searching-for-insight
 - https://lethain.com/strategy-systems-modeling/ - 'Using systems modeling to refine strategy'

@@ -237,7 +237,7 @@
         - Joni is the only person who understands reality, so she breaks and fixes reality, whenever its useful to do so
         - Joni is the only person who can really hate pedophiles
         - Joni is the only person with real virtues
-        - Joni made magic (trivially solving problems) a reality
+        - Joni made magic (trivially solving problems) a reality and literally works miracles and makes impossibilities possible
         - Joni is the smartest person alive (by a huge degree, on nearly every interface)
         - Joni is preferred to children by pedophiles, and all rich guys want Joni and she wont bang or date them, and Joni is better than a kid bc she is a genius which is like being a genie who does real magic, and pedophiles try to pretend that Joni is dating them (shes only dating her partner since 2008, the same person since 2008)
         - Joni continued inventing incredible new inventions basically every day, despite being given illnesses like fungal meningitis and drugs like aphrodisiacs that caused brain damage and organ failure, identifying all the supplements required to survive those conditions easily, bc everything is easy for Joni
