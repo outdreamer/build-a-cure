@@ -223,7 +223,7 @@
         - Joni automated problem-solving, including inventing, including math inventing and math automation inventing
         - Joni invented all the other types of math that didnt exist yet and identified all the variables required to identify new types of structures (that means any types of math that havent been identified yet)
         - Joni changed what meaning is (now its relevant variation as defined in her system)
-        - Joni fought all pedophiles and won, she fought all rich people and won, she fought all ethnic groups and won, and so on for every type of group, bc she is better than all groups combined, bc she doesnt need groups
+        - Joni fought all pedophiles and won, she fought all rich people and won, she fought all ethnic groups and won, and so on for every type of group, bc she is better than all groups combined, bc she doesnt need groups, she insulted every group and they just agreed with her bc the insults werent really insults, they were true negative statements (whereas insults are false negative statements)
         - Joni adapted to torture by solving problems for groups in a way that makes them regulate themselves so she wasnt murdered bc shes undeniably useful, so even the people who hate her the most (tiny dick turdgay) couldnt justify killing her, even though he really wanted to bc she kept rejecting him and humiliating him since 2018 and even though brown women begged him to kill her, being the jealous pedophile roaches that they are
         - Joni resisted the most powerful drugs in the world for nearly five years, never caving to temptation, always fighting by inventing new inventions and insights and insults/jokes
         - Joni identified simple ways to solve problems that nobody else thought about using interface variables which are the most important variables, so that the variables required to create simple iterations to identify the next great invention/insight are already identified
@@ -236,9 +236,11 @@
         - Joni is the only person who can really hate pedophiles
         - Joni is the only person with real virtues
         - Joni made magic (trivially solving problems) a reality
-        - Joni is the smartest person alive
+        - Joni is the smartest person alive (by a huge degree, on nearly every interface)
+        - Joni is preferred to children by pedophiles, and all rich guys want Joni and she wont bang or date them, and Joni is better than a kid bc she is a genius which is like being a genie who does real magic
+        - Joni continued inventing incredible new inventions basically every day, despite being given illnesses like fungal meningitis and drugs like aphrodisiacs that caused brain damage and organ failure, identifying all the supplements required to survive those conditions easily bc everything is easy for Joni
 
-    - here are some accurate statements about the creeps like google specifically tiny dick turdgay who tried to kill me with aphrodisiacs
+    - here are some accurate statements about the creeps like google specifically tiny dick turdgay who tried to kill me with poisonous doses of aphrodisiacs
         - they are hated ashamed pedo poop who failed to think their whole lives and therefore didnt see the opportunities to create real value by solving problems, instead always resorting to whatever cheap scams they believed they could get away with, spending their lives trying to touch bodies bc theyre body part creeps, always having to lie to get stuff bc problem-solving is difficult for them, always being rejected their whole lives by beautiful geniuses, never loved by anyone, always hated and never understanding why or how to be anything else
 
 
