@@ -5,6 +5,7 @@
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
 
+- https://diffusionflow.github.io/ - 'Diffusion Meets Flow Matching: Two Sides of the Same Coin'
 - https://news.ycombinator.com/item?id=42307394 - 'A Revolution in Creativity: The Story Behind Mind Art'
 - https://www.youtube.com/watch?v=ZAdFpcBLyQw - 'When Intuition Is Wrong: Majoritarian Attacks Are Solvable [video]'
 - https://wattenberger.com/thoughts/fish-eye - 'LLM Abstraction levels inspired by Fish Eye lens'
