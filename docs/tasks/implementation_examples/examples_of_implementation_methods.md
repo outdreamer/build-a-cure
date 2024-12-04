@@ -203,6 +203,9 @@
         - looks like kids dont need you either turdgay
             - https://www.wsj.com/tech/googling-is-for-old-people-thats-a-problem-for-google-5188a6ed
 
+    - people who are right are 'capable of saving innocent lives', 'people who arent right' arent capable of anything except 'crimes', people who are right can also 'fix everything bc theyre right about errors as well as everything else like how to fix errors'
+        - https://databased.pedramnavid.com/p/its-not-enough-to-be-right
+
     - I dont exist so that you, turdgay swine, the fakest of all the swine faking virtues online for money, the most jealous bitter unloved denier of all the pedophile swine, can 'experience me', in other words have an 'interesting fun learning experience spent forcing me to interact with a crappy old pedophile, by violating and drugging and robbing me', I exist to kill as many predators as I can, so that sweet angels like my partner can be happy and safe, not so turdgay swine can have a fun learning experience, this is going to be the most painful learning experience of all of human history that will end with your murder, rather than you 'growing as a person', you dont get the privilege of 'growing as a person', you get to die of torture wounds for ruining the world by violating me, privileges are for people, turdgay, youre pedophile swine, you get to be an example to other pedophile swine of what not to do
         - https://medium.com/@erikpmvermeulen/she-showed-me-that-the-world-was-fake-and-how-to-live-a-more-adventurous-life-82407de6ee98
 
