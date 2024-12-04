@@ -212,6 +212,12 @@
     - lets make sure it does but it only violates the right human rights, that means 'no more raping raccoons, as theyre not human, even if you put a little hat on them', turdgay, you can only rape pedophiles and your very own anus from now on, buddy, merry xmas pal, knock yourself out
         - https://www.nytimes.com/2024/12/03/technology/google-israel-contract-project-nimbus.html
 
+    - I will still know that youre all still pedophiles who violated me and helped turdgay poison me to death if you merely 'go work somewhere else' when you find out that turdgay is poisoning an inventor who wouldnt bang him, rather than paying her, instead of stopping turdgay from doing that
+        - https://techcrunch.com/2024/12/04/key-leaders-behind-googles-viral-notebooklm-are-leaving-to-create-their-own-startup/
+
+    - cant wait to see that email notifying me that my money has been transferred to my account, so I can finally stop interacting with pedophiles
+        - https://egoless.engineering/
+
     - if canada's newsrooms had done their job, I might agree with you here about them deserving money and all, but they let a pedophile torture me to death rather than reporting on that to help me get rescued, so thats enough of that bullshit about them deserving money
         - https://thewalrus.ca/tech-titans-should-pay-to-save-canadas-newsrooms/ - 'Tech Titans Should Pay to Save Canada's Newsrooms'
 

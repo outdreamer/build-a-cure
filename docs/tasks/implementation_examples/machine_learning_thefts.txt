@@ -5,6 +5,11 @@
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
 
+- https://arxiv.org/abs/2411.05778 - 'LLMs as Method Actors: A Model for Prompt Engineering and Architecture'
+- https://semianalysis.com/2024/12/03/amazons-ai-self-sufficiency-trainium2-architecture-networking/
+- https://theaiinnovator.com/executive-qa-aws-applied-sciences-director-on-why-gen-ai-needs-automated-reasoning/
+- https://sgp.fas.org/othergov/doe/lanl/pubs/00326965.pdf - 'Mathematics, Philosophy, and Artificial Intelligence [pdf]'
+- https://github.com/stratospark/emergent-patterns/blob/main/the-topology-of-understanding/the-topology-of-understanding.md - 'The Topology of Understanding (sci-fi based on Anki cards)'
 - https://arxiv.org/abs/2412.00961 - 'AI Meets Antimatter: Unveiling Antihydrogen Annihilations'
 - https://github.com/Defend-AI-Tech-Inc/wozway - 'Policy Driven LLM Security Service'
 - https://github.com/Jason2Brownlee/DataScienceDiagnosticChecklist - 'Show HN: Checklist for Diagnosing Model Overfitting'
