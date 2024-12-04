@@ -203,6 +203,9 @@
         - looks like kids dont need you either turdgay
             - https://www.wsj.com/tech/googling-is-for-old-people-thats-a-problem-for-google-5188a6ed
 
+    - sounds like someone earned righteous hatred, turdgay's next, he's been warned not to poison me and continued for nearly five years, he must want to die, next time he comes to my house or I see him in public, he dies
+        - https://apnews.com/article/manhattan-shooting-death-daa1e8c8c05606197a5bd2e0242f1683 - "UnitedHealthcare CEO is fatally shot in a 'targeted attack' in New York"
+
     - people who are right are 'capable of saving innocent lives', 'people who arent right' arent capable of anything except 'crimes', people who are right can also 'fix everything bc theyre right about errors as well as everything else like how to fix errors'
         - https://databased.pedramnavid.com/p/its-not-enough-to-be-right
         - its not enough to be 'nice' or 'loving', pedophiles are 'nice' to pedophiles, thats not good, violation/rape is a 'type of love', its 'forced love', thats not good either
