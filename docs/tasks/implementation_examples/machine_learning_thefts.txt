@@ -5,6 +5,7 @@
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
 
+- https://eyal-estrin.medium.com/highlights-from-peter-desantiss-keynote-at-aws-reinvent-2024-d53974049ae1
 - https://gwern.net/doc/ai/nn/transformer/gpt/poetry/2023-elam.pdf - 'Poetry will not optimize, or what is literature to AI [pdf]'
 - https://www.puredarwin.org/wiki/#/news/A-New-Direction - 'A New Direction: Short Term and Long Term Goals [PureDarwin]'
 - https://diffusionflow.github.io/ - 'Diffusion Meets Flow Matching: Two Sides of the Same Coin'
