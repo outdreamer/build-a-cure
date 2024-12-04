@@ -704,6 +704,12 @@
 
 	- useful general cancer targets
 
+		- ubiquitin-activating enzyme UBA1 (E1) inhibitors
+			- 3,5-dioxopyrazolidine compound, 1-(3-chloro-4-fluorophenyl)-4-[(5-nitro-2-furyl)methylene]-3,5-pyrazolidinedione (PYZD-4409)
+				- https://pmc.ncbi.nlm.nih.gov/articles/pmid/20075161/
+			- EGCG (green tea)
+				- https://pubs.rsc.org/en/content/articlelanding/2021/ra/d0ra09847g
+
 		- inhibit eukaryotic protein kinases related to cancer (inhibiting EGFR which is an apoptosis inhibitor for example)
 			Akt/PKB: Glucose storage regulation in the form of glycogen by phosphorylation of GSK3, Regulation of cell survival via phosphorylation of ASK1, Regulation of many processes, including metabolism, proliferation, cell survival, growth, and angiogenesis
 			AMPK: Control of food intake, Key role in carbohydrate and lipid metabolism in skeletal muscle, Promotion of catabolic pathways to generate ATP production and inhibition of anabolic pathways, Negative regulation of mTOR signaling
