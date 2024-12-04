@@ -8,7 +8,7 @@
 		- similarly, there may be light/radiation types that disincentivize tumor growth or otherwise handle neutralizing other inputs of cancer than incentives, so some light/radiation types can probably move cancers to more treatable locations, even if not the more optimal intent of killing cancer cells selectively
 	- a 'ranked list of the most powerful anti-cancer substances that hurt organs the least' is another useful list for cancer patients or people looking to prevent cancer, as well as the 'ranked list of combinations of synergistic/completing treatments with high ratios of intent coverage/completion (either across cancer types in general, or within specific cancer types)'
 	- similarly, a list of the useful effects and dangerous side effects of all edible plants or other edible substances including medicines would be useful so people can ctrl-f to find relevant plants/substances for a symptom/condition in one document
-	- relatedly, 'identifying solutions to causes of cancer like viruses (as a preventative tool of cancer) similar to how gene therapies can be alternate solution formats to viruses' is possible by 'identifying intents to direct research' (intents like 'activate viral reservoirs with infrared or other activation tools')
+	- relatedly, 'identifying solutions to causes of cancer like viruses (as a preventative tool of cancer) similar to how gene therapies can be alternate solution formats to viruses' is possible by 'identifying intents to direct research' (intents like 'activate viral reservoirs with infrared or other activation tools and pair with immune stimulants to handle the newly activated virs' and 'identify substances similar to senolytics for latent viral reservoir cells')
 
 
 - useful sub-intents with associated substances
