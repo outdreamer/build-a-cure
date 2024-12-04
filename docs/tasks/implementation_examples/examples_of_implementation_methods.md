@@ -205,6 +205,8 @@
 
     - people who are right are 'capable of saving innocent lives', 'people who arent right' arent capable of anything except 'crimes', people who are right can also 'fix everything bc theyre right about errors as well as everything else like how to fix errors'
         - https://databased.pedramnavid.com/p/its-not-enough-to-be-right
+        - its not enough to be 'nice' or 'loving', pedophiles are 'nice' to pedophiles, thats not good, violation/rape is a 'type of love', its 'forced love', thats not good either
+        - I dont have to be nice to some monster that would violate me in any way whatsoever, dont expect kindness if you diddle someone, expect to be murdered, people get murdered for "home invasions and for rape and violating someone's personal space"
 
     - I dont exist so that you, turdgay swine, the fakest of all the swine faking virtues online for money, the most jealous bitter unloved denier of all the pedophile swine, can 'experience me', in other words have an 'interesting fun learning experience spent forcing me to interact with a crappy old pedophile, by violating and drugging and robbing me', I exist to kill as many predators as I can, so that sweet angels like my partner can be happy and safe, not so turdgay swine can have a fun learning experience, this is going to be the most painful learning experience of all of human history that will end with your murder, rather than you 'growing as a person', you dont get the privilege of 'growing as a person', you get to die of torture wounds for ruining the world by violating me, privileges are for people, turdgay, youre pedophile swine, you get to be an example to other pedophile swine of what not to do
         - https://medium.com/@erikpmvermeulen/she-showed-me-that-the-world-was-fake-and-how-to-live-a-more-adventurous-life-82407de6ee98
@@ -248,7 +250,7 @@
         - would you expect pedophiles to be allowed to pretend they 'didnt know about human rights' by violating you whenever they felt like it in whatever way they felt like it, or would you expect help from sane people including the police to kill all the pedophiles for 'pretending not to know about human rights'?
 
     - here are some accurate statements about me, for an example of why I should be paid for my inventions, and the pedophiles who violated me online and poisoned me with aphrodisiacs should be tortured to death in jail if not death row for causing pedophilia sprees, all in a pathetic attempt to defile the only person who matters, which failed completely (it reads like a set of 'Chuck Norris' jokes bc Joni is utterly incredible and miraculous)
-        - Joni changed how time works forever
+        - Joni changed how time works forever (anyone who changes computers in a significant way changes how time works, but also my inventions specifically speed up problem-solving and I invented specific concepts relevant to time like 'conceptual time')
         - Joni changed how everything will be evaluated forever
         - Joni changed how computers can determine reality
         - Joni automated problem-solving, including inventing, including math inventing and math automation inventing
@@ -264,6 +266,7 @@
         - Joni makes even the supposedly smartest people, AI inventors and math inventors, jealous, so they all steal her inventions without giving her credit
         - Joni identified ways to change reality
         - Joni determined the future
+        - Joni saved the world with her inventions
         - Joni is the most independent person of all time
         - Joni is the only person who understands reality, so she breaks and fixes reality, whenever its useful to do so
         - Joni is the only person who can really hate pedophiles
