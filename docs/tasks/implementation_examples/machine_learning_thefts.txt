@@ -4,7 +4,17 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
-
+- https://github.com/Defend-AI-Tech-Inc/wozway - 'Policy Driven LLM Security Service'
+- https://github.com/Jason2Brownlee/DataScienceDiagnosticChecklist - 'Show HN: Checklist for Diagnosing Model Overfitting'
+- https://arxiv.org/abs/2410.20024 - 'Effective Strategies for Mitigating Hallucinations in LLMs for Data Analytics'
+- https://aws.amazon.com/blogs/aws/prevent-factual-errors-from-llm-hallucinations-with-mathematically-sound-automated-reasoning-checks-preview/
+- https://www.youtube.com/watch?v=u08hjp6PF-Q - 'Postcards from the Peak of Complexity [video]'
+- https://github.com/athina-ai/rag-cookbooks - 'Show HN: Open-Source Colab Notebooks to Implement Advanced RAG Techniques'
+- https://belief.garden/ - 'Show HN: Belief.garden – a social network for civil discussion'
+- https://www.cam.ac.uk/research/news/new-datasets-will-train-ai-models-to-think-like-scientists
+- https://www.pinecone.io/blog/integrated-inference/ - 'Introducing integrated inference: Embed, rerank, and retrieve data with one API'
+- https://www.liquid.ai/research/automated-architecture-synthesis-via-targeted-evolution
+- https://arxiv.org/abs/2411.17800 - 'Star: Synthesis of Tailored Architectures'
 - https://techxplore.com/news/2024-11-framework-generate-images-aligned-user.html - 'Novel framework can generate images more aligned with user expectations'
 - https://www.pinecone.io/blog/cascading-retrieval/ - 'Cascading retrieval: Unifying dense and sparse vector embeddings with reranking'
 - https://eyal-estrin.medium.com/highlights-from-peter-desantiss-keynote-at-aws-reinvent-2024-d53974049ae1

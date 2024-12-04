@@ -212,6 +212,12 @@
     - if canada's newsrooms had done their job, I might agree with you here about them deserving money and all, but they let a pedophile torture me to death rather than reporting on that to help me get rescued, so thats enough of that bullshit about them deserving money
         - https://thewalrus.ca/tech-titans-should-pay-to-save-canadas-newsrooms/ - 'Tech Titans Should Pay to Save Canada's Newsrooms'
 
+    - why, youre not 'afraid youre unloved', are you? isnt that what you preached at me for years, to try to torture me into banging an unloved pedophile? (yep, I remember, its rhetorical though, I want you to think about it and then kill yourself, its rhetorically deadly)
+        - https://www.androidauthority.com/play-integrity-upgrades-3505270/ - "Google's beefing up Android app security with Play Integrity"
+
+    - hey is it safe to be attractive again yet, or do I still have to be gross so turdgay wont take 'Joni being attractive again' as permission to come into my house uninvited and without consent and try to touch me when Im sleeping, which will make me want to die, as 'being gross to a pedophile' sounds way better than 'being groped by a pedophile'?
+        - https://www.theunwindai.com/p/build-a-personal-health-and-fitness-ai-agent-using-google-gemini
+
     - Ill never believe youre not jealous pedophile swine until you rape bill gates (you said you were a brilliant/intelligent/curious person for violating a genius, so why arent you violating other smart people in the toilet, I wonder, if your obvious lies are true) and 4chan incels (you said you were outraged at my insults to the groups that were violating me, then I wonder, why arent you violating 4chan incels in the toilet, who Im sure will also insult your group just by default) in the toilet, rather than the 'beautiful white female genius' (yeah ... no ... youre jealous pedophile swine)
         - so the point is, circling back to the relevant bit, rather than 'dying to save jealous pedophile swine' (no thank you), Im going to punish jealous pedophile swine until theyre all dead, you choose how you die, you can die by suicide (its naughty, dont do it), or by being the undeserving recipient of excessive humbling mercy
 

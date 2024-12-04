@@ -292,6 +292,8 @@
 				- https://www.forbes.com/sites/roberthart/2023/05/24/scientists-discover-chemical-that-could-help-heal-nerve-damage-a-potential-breakthrough-for-nerve-injuries/
 			- inject fibers made of peptides that transmit signals to promote nerve regeneration
 				- https://news.northwestern.edu/stories/2021/11/dancing-molecules-successfully-repair-severe-spinal-cord-injuries/
+			- deep brain stimulation (DBS) to the lateral hypothalamus (LH) can restore walking in partially paralyzed patients
+				- https://medicalxpress.com/news/2024-12-hypothalamus-paralyzed-patients.html
 			- avoid pesticides/silica and other substances that can cause nerve problems like multiple sclerosis
 			- I had a severe temporary 'brain inflammation' reaction to diatomaceous earth (amorphous silica dust) that might be worth exploring for a research direction, like 'check if there is a substance that can calcify tumor exteriors' if that would be useful for killing tumors
 		- bone damage:
