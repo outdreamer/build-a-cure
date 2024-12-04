@@ -4,6 +4,8 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+
+- https://arxiv.org/abs/2412.00961 - 'AI Meets Antimatter: Unveiling Antihydrogen Annihilations'
 - https://github.com/Defend-AI-Tech-Inc/wozway - 'Policy Driven LLM Security Service'
 - https://github.com/Jason2Brownlee/DataScienceDiagnosticChecklist - 'Show HN: Checklist for Diagnosing Model Overfitting'
 - https://arxiv.org/abs/2410.20024 - 'Effective Strategies for Mitigating Hallucinations in LLMs for Data Analytics'

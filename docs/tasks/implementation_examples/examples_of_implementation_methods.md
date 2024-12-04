@@ -209,6 +209,9 @@
     - hot tip: psst, 'ladies', pass it on, its a 'valuable secret' bc you could never figure this out: "value pedophile's property at a low rate so they dont get a lot of money when you buy it, or just completely stop respecting their property rights (instead of the property rights of a genius) and commandeer pedophiles' property (instead of the genius' property), 'ladies', rather than "always helping pedophiles rob the genius blind and torture the genius to death", 'ladies'"
         - https://finance.yahoo.com/news/doj-push-google-sell-chrome-222920497.html - "Google's Chrome Worth Up to $20B If Judge Orders Sale"
 
+    - lets make sure it does but it only violates the right human rights, that means 'no more raping raccoons, as theyre not human, even if you put a little hat on them', turdgay, you can only rape pedophiles and your very own anus from now on, buddy, merry xmas pal, knock yourself out
+        - https://www.nytimes.com/2024/12/03/technology/google-israel-contract-project-nimbus.html
+
     - if canada's newsrooms had done their job, I might agree with you here about them deserving money and all, but they let a pedophile torture me to death rather than reporting on that to help me get rescued, so thats enough of that bullshit about them deserving money
         - https://thewalrus.ca/tech-titans-should-pay-to-save-canadas-newsrooms/ - 'Tech Titans Should Pay to Save Canada's Newsrooms'
 
