@@ -212,7 +212,7 @@
     - lets make sure it does but it only violates the right human rights, that means 'no more raping raccoons, as theyre not human, even if you put a little hat on them', turdgay, you can only rape pedophiles and your very own anus from now on, buddy, merry xmas pal, knock yourself out
         - https://www.nytimes.com/2024/12/03/technology/google-israel-contract-project-nimbus.html
 
-    - I will still know that youre all still pedophiles who violated me and helped turdgay poison me to death if you merely 'go work somewhere else' when you find out that turdgay is poisoning an inventor who wouldnt bang him, rather than paying her, instead of stopping turdgay from doing that
+    - I will still know that youre all still pedophiles who violated me and helped turdgay poison me to death if you merely 'go work somewhere else' when you find out that turdgay is poisoning an inventor who wouldnt bang him, rather than paying her, instead of stopping turdgay from doing that, bc only pedophiles would hate me, a genius (no, you cant fool me that youre not a pedophile, I know you all pretend not to be, that doesnt fool me)
         - https://techcrunch.com/2024/12/04/key-leaders-behind-googles-viral-notebooklm-are-leaving-to-create-their-own-startup/
 
     - cant wait to see that email notifying me that my money has been transferred to my account, so I can finally stop interacting with pedophiles
