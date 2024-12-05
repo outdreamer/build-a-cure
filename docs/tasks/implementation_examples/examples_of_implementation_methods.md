@@ -255,6 +255,9 @@
     - how many kids, pigs, and dogs did google gang-rape to create google jigsaw though, I wonder, and how does that compare to amazon's count, did amazon need to rape fewer kids, pigs, and dogs in order to create a similarly good product?
         - https://jigsaw.google.com/ - 'Google Jigsaw – A safer internet means a safer world'
 
+    - ta da! google has the soul of a pedophile, you always do the worst easiest thing, including literal child rape now! also, run kids, run!
+        - https://destinymatrix.cc/ - 'Destiny Matrix – Free Life Path Calculator and Analysis'
+
     - justice benefits mental health, nothing else does though
         - https://www.ucl.ac.uk/news/2024/dec/minimal-proof-increased-surveillance-technology-benefits-mental-health-wards
 
