@@ -249,7 +249,7 @@
     - turdgay's next grand accomplishent: an algorithm to find the most relevant possible soltions to the problem of 'where did his anus go, he cant even feel it, let alone reach it' from his crowded jail cell, using only his google pixel, ta da!
         - https://www.nytimes.com/2024/12/03/technology/google-search-antitrust-judge.html - "What’s Next for Google’s Search Monopoly"
 
-    - tragically, and predictably bc of how small it was, the tiny-dicked turdgay was 'jealous of everything, including (but not limited to) all the larger animals, who he frequently totally creeped out by watching them making love, wishing it was him'
+    - tragically, and predictably bc of how small it was, the tiny-dicked turdgay was 'jealous of everything, including (but not limited to) all the larger animals, who he frequently totally creeped out by watching them making love, wishing it was him', yet all was right in the end, bc eventually the tiny-dicked turdgay died out, never having received love, only reluctant tolerance by jealous pedophile children who tolerated it in return for food when they were made desperate with deprivation
         - https://www.sciencenews.org/article/dietary-clovis-hunters-mammoth-killers - "Dietary evidence bolsters Clovis hunters’ reputation as mammoth killers"
 
     - I can predict the weather too, I have a funny feeling theres going to be a tsunami of shit that lands on google in the near future, I should disclose I have a bit of an advantage at predicting the weather, as I often happen to be the perpetrator causing the weather
