@@ -249,6 +249,9 @@
     - 'ads' are how pedophiles trick people into 'giving them money they dont deserve'
         - https://www.youtube.com/watch?v=sdjMHnSvVgE - 'The End of Ads with Ryan Hudson [video]'
 
+    - 'fucking pigs' probably wasnt really good training for 'configuring dns', huh? its not 'always dns', sometimes it was all the pig-fucking pedophiles at google that were the problem, werent it?
+        - https://news.ycombinator.com/item?id=42326593 - 'All of Google Offline?'
+
     - how many kids, pigs, and dogs did google gang-rape to create google jigsaw though, I wonder, and how does that compare to amazon's count, did amazon need to rape fewer kids, pigs, and dogs in order to create a similarly good product?
         - https://jigsaw.google.com/ - 'Google Jigsaw – A safer internet means a safer world'
 
