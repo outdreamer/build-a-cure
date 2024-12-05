@@ -246,6 +246,9 @@
         - btw how are you going to fool my partner that you didnt 'ruin his freedom and happiness by taking my money for my inventions that I would have given to him' once he realizes 'how valuable my inventions are' and that 'hes looking at my corpse at my funeral' and that 'brown/fat/old/ugly women are on their trillionth jealous rampage against pretty blonde smart white women again at my funeral while they try to defile my corpse once I cant fight back bc Im dead' and then 'puts two and two together' and 'does the math on that one' and realizes brown/fat/old/ugly women (the biggest group of women that would hate me and would coordinate to destroy me) have indeed ruined it all for him
         - https://www.theguardian.com/technology/2024/dec/02/elon-musk-tesla-pay-package
 
+    - I can predict the weather too, I have a funny feeling theres going to be a tsunami of shit that lands on google in the near future, I should disclose I have a bit of an advantage at predicting the weather, as I often happen to be the perpetrator causing the weather
+        - https://www.technologyreview.com/2024/12/04/1107892/google-deepminds-new-ai-model-is-the-best-yet-at-weather-forecasting/
+
     - 'ads' are how pedophiles trick people into 'giving them money they dont deserve'
         - https://www.youtube.com/watch?v=sdjMHnSvVgE - 'The End of Ads with Ryan Hudson [video]'
 
