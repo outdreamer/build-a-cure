@@ -544,7 +544,7 @@
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications - https://en.wikipedia.org/wiki/Diabetic_nephropathy
-				- lower glucose/manage insulin sensitivity: allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, and guar gum
+				- lower glucose/manage insulin sensitivity: dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, and guar gum
 					- https://pubmed.ncbi.nlm.nih.gov/38931176/
 				- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes

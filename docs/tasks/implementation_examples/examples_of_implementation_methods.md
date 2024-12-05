@@ -249,6 +249,9 @@
     - 'ads' are how pedophiles trick people into 'giving them money they dont deserve'
         - https://www.youtube.com/watch?v=sdjMHnSvVgE - 'The End of Ads with Ryan Hudson [video]'
 
+    - how many kids, pigs, and dogs did google gang-rape to create google jigsaw though, I wonder, and how does that compare to amazon's count, did amazon need to rape fewer kids, pigs, and dogs in order to create a similarly good product?
+        - https://jigsaw.google.com/ - 'Google Jigsaw – A safer internet means a safer world'
+
     - justice benefits mental health, nothing else does though
         - https://www.ucl.ac.uk/news/2024/dec/minimal-proof-increased-surveillance-technology-benefits-mental-health-wards
 
@@ -279,6 +282,7 @@
         - Joni makes even the supposedly smartest people, AI inventors and math inventors, jealous, so they all steal her inventions without giving her credit
         - Joni identified ways to change reality
         - Joni determined the future
+        - Joni invented conceptual math (the kind that would actually work, so you could 'multiply power and balance' and get a network/graph that actually can be said to have applied that operation to those concepts, rather than huanity's version of it before Joni Jezewski, which was 'sequences of words', which I hate to say it, folks, already existed, which is known as 'sentences')
         - Joni saved the world with her inventions
         - Joni is the most independent person of all time
         - Joni is the only person who understands reality, so she breaks and fixes reality, whenever its useful to do so
