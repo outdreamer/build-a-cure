@@ -246,8 +246,21 @@
         - btw how are you going to fool my partner that you didnt 'ruin his freedom and happiness by taking my money for my inventions that I would have given to him' once he realizes 'how valuable my inventions are' and that 'hes looking at my corpse at my funeral' and that 'brown/fat/old/ugly women are on their trillionth jealous rampage against pretty blonde smart white women again at my funeral while they try to defile my corpse once I cant fight back bc Im dead' and then 'puts two and two together' and 'does the math on that one' and realizes brown/fat/old/ugly women (the biggest group of women that would hate me and would coordinate to destroy me) have indeed ruined it all for him
         - https://www.theguardian.com/technology/2024/dec/02/elon-musk-tesla-pay-package
 
+    - turdgay's next grand accomplishent: an algorithm to find the most relevant possible soltions to the problem of 'where did his anus go, he cant even feel it, let alone reach it' from his crowded jail cell, using only his google pixel, ta da!
+        - https://www.nytimes.com/2024/12/03/technology/google-search-antitrust-judge.html - "What’s Next for Google’s Search Monopoly"
+
+    - tragically, and predictably bc of how small it was, the tiny-dicked turdgay was 'jealous of everything, including (but not limited to) all the larger animals, who he frequently totally creeped out by watching them making love, wishing it was him'
+        - https://www.sciencenews.org/article/dietary-clovis-hunters-mammoth-killers - "Dietary evidence bolsters Clovis hunters’ reputation as mammoth killers"
+
     - I can predict the weather too, I have a funny feeling theres going to be a tsunami of shit that lands on google in the near future, I should disclose I have a bit of an advantage at predicting the weather, as I often happen to be the perpetrator causing the weather
         - https://www.technologyreview.com/2024/12/04/1107892/google-deepminds-new-ai-model-is-the-best-yet-at-weather-forecasting/
+
+    - theyre mostly optimistic about the fact that trump cant afford to judge anyone for pedophilia, as he doesnt have any superiority with which to power that judgement
+        - http://www.techmeme.com/241205/p8#a241205p8 - "At the DealBook Summit, Sundar Pichai said he would love to do a side-by-side comparison of Google and Microsoft's AI models, and expressed optimism about Trump (Nico Grant/New York Times)"
+        - https://www.theverge.com/2024/12/4/24313549/bezos-trump-optimistic-dealbook-summit-doge - "Jeff Bezos says he’s ‘very optimistic this time around’ about Trump"
+
+    - turdgay had that created so he could stop kids from running away from him when their temperature gets hot enough that they become really fast, using only his google pixel
+        - https://www.makeuseof.com/google-pixel-internal-temperature/ - "Your Pixel Phone Can Now Tell You Exactly How Hot It's Getting"
 
     - 'ads' are how pedophiles trick people into 'giving them money they dont deserve'
         - https://www.youtube.com/watch?v=sdjMHnSvVgE - 'The End of Ads with Ryan Hudson [video]'
