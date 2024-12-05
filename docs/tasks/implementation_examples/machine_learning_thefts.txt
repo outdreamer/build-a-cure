@@ -4,6 +4,14 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://medium.com/@ignacio.de.gregorio.noblejas/using-beethoven-to-accelerate-scientific-discovery-bd502962f34b
+- https://arxiv.org/abs/2410.22071 - 'Distinguishing Ignorance from Error in LLM Hallucinations'
+- https://arxiv.org/abs/2410.21990 - 'Understanding Code Understandability Improvements in Code Reviews'
+- https://charoori.notion.site/experimentation-ml?pvs=4 - 'MicroExperiments: Get Better at ML'
+- https://cli.wellcode.ai/ - 'Show HN: Engineering Metrics Powered by AI'
+- https://www.youtube.com/watch?v=ASABxNenD_U - 'Vertical AI Agents Could Be 10x Bigger Than SaaS [video]'
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3655263 - 'Does Finance Benefit Society? A Language Embedding Approach'
+- https://scitechdaily.com/from-cybersyn-to-social-synthesis-designing-a-revolution/
 - https://www.nature.com/articles/d41586-024-03906-0 - "Science could solve some of the biggest problems. Why aren't governments"
 - https://a16z.com/big-ideas-in-tech-2025/ - 'A16Z: Big ideas that will spur innovation in 2025'
 - https://www.newyorker.com/magazine/2014/10/13/planning-machine - 'The Planning Machine (2014)'

@@ -215,7 +215,7 @@
 			- infectious bursal disease virus (ibdv): ashwagandha
 			- newcastle disease virus (ndv): neem, iresine herbstii (blood leaf), lemon balm, glycyrrhiza glabra
 			- ebv: moringa oleifera, cordyceps, schisandra chinensis, calendula officinalis, green tea
-			- herpes: lysine, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai), curcumin, ent-epiafzelechin-(4α→8)-epiafzelechin (Cassia javanica), Long-Dan-Xie-Gan-Tan and Yin-Chen-Hao-Tang, hippomanin A, geraniin, 1,3,4,6-tetra-O-galloyl-beta-d-glucose, and excoecarianin (Phyllanthus urinaria), chebulagic acid and punicalagin, Meliacine (Melia azedarach), Houttuynoids A-E (Houttuynia cordata), Rhododendron ferrugineum L, and proanthocyanidins (Myrothamnus flabellifolia Welw), glucoevatromonoside (Digitalis lanata), and many algae and sponges have been observed to contain active metabolites with anti-HSV activity
+			- herpes: lysine, prunella vulgaris, CBD, elderberry, ginseng, rosemary, fennel, sweet basil, holy basil, zinc, oregano, lemon balm, garlic, chaga, olive leaf, echinacea, astragalus, licorice, phyllanthus urinaria (shatterstone), phyllanthus amarus (black catnip), white mulberry, ashwagandha, caesalpinia pulcherrima (peacock flower), justicia adhatoda (bansa), plantago major (bartang), astilbe rivularis (river astilbe), bergenia ciliate, st john's wort, indian gooseberry, cat's claw, thyme, turkey tail, reishi, blackcurrant, blackberry, castor oil, chinese rhubarb, sophora flavescens, feverfew, angelica sinensis (dong quai), curcumin, ent-epiafzelechin-(4α→8)-epiafzelechin (Cassia javanica), Long-Dan-Xie-Gan-Tan and Yin-Chen-Hao-Tang, hippomanin A, geraniin, 1,3,4,6-tetra-O-galloyl-beta-d-glucose, and excoecarianin (Phyllanthus urinaria), chebulagic acid and punicalagin, Meliacine (Melia azedarach), Houttuynoids A-E (Houttuynia cordata), Rhododendron ferrugineum L, and proanthocyanidins (Myrothamnus flabellifolia Welw), glucoevatromonoside (Digitalis lanata), and many algae and sponges have been observed to contain active metabolites with anti-HSV activity
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4032839/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7894602/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7728158/
@@ -317,6 +317,9 @@
 			- Flow water and spring water also helped with acidosis/high blood pressure/stomach pain (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
+		- atherosclerosis: 
+			- nattokinase, omega-3s, moringa
+			- atherosclerosis cased by diabetes: prunella vulgaris
 		- high blood pressure
 			- omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
@@ -417,7 +420,7 @@
 		    - PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
 		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine, maca to increase the amount of human growth hormone to recover
-			- kidney damage: fasting, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, and amino acids instead of protein intake
+			- kidney damage: fasting, omega 3s, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris, and amino acids instead of protein intake
 				- avoid excess alkaline/flow water with kidney damage
 				- ozempic can reduce kidney inflammation which can help repair kidney damage, fish with omega 3's can have the same effect
 				- treat high cholesterol and high blood pressure to avoid making kidney damage worse
@@ -456,7 +459,7 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use pycnogenol, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use pycnogenol, prunella vulgaris, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- treat high blood pressure and kidney damage, avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
@@ -477,7 +480,7 @@
 		- inflammation: 
 			- avoid animal products, sugar, gluten
 			- anti-inflammatory substances
-				- wasabi, bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, vitamin d, resveratrol, ginkgo, ashwagandha, GABA
+				- prunella vulgaris, wasabi, bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, turmeric, dandelion, olive leaf, nettle, vitamin d, resveratrol, ginkgo, ashwagandha, GABA
 				- taurine has anti-tumor activity
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
@@ -583,6 +586,8 @@
 			- use small amounts of diatomaceous earth (avoid if you need to avoid silica), baking soda, vinegar, bleach, and essential oils instead of toxic pesticides (such as organophosphates, carbamates, fumigants, pyrethroids, and the organochlorine pesticides), store food waste in the fridge until it needs to be thrown out, etc
 		- heavy metal toxicity
 			- calcium glucarate, calcium EDTA, milk thistle, gingko biloba, triphala, chitosan, zeolite, fiber, cilantro, selenium, magnesium, b-vitamins, zinc, iron, glutathione (or sulphurous substances like garlic/broccoli, taurine, methionine, alpha lipoic acid, N-acetyl-cysteine, vitamin C/E, for effects on glutathione), modified citrus pectin with alginate, chlorella to bind to heavy metals
+			- cadmium/lead toxicity: meso-2,3-dimercaptosuccinic acid (DMSA), self-heal (prunella vulgaris), tomatoes, garlic, onions, grapes, berries, methionine, turmeric, cysteine, glutathione, carotenes, pectin, melatonin, vitamin C, iron, calcium, zinc, b vitamins, royal jelly, algae/spirulina/chlorella, probiotics, green tea, ginger, soy, murraya koenigii, naringenin (orange, grapefruit and tomato), puerarin
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC4303853/
 			- avoid substances like processed cinnamon/turmeric/chocolate which bind to heavy metals and/or which frequently contain them and any supplements not clearly tested with standards
 			- avoid highly processed foods (turmeric as a supplement might contain more lead than the plant itself)
 			- broccoli sprouts help get rid of benzene and acrolein
