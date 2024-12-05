@@ -246,6 +246,12 @@
         - btw how are you going to fool my partner that you didnt 'ruin his freedom and happiness by taking my money for my inventions that I would have given to him' once he realizes 'how valuable my inventions are' and that 'hes looking at my corpse at my funeral' and that 'brown/fat/old/ugly women are on their trillionth jealous rampage against pretty blonde smart white women again at my funeral while they try to defile my corpse once I cant fight back bc Im dead' and then 'puts two and two together' and 'does the math on that one' and realizes brown/fat/old/ugly women (the biggest group of women that would hate me and would coordinate to destroy me) have indeed ruined it all for him
         - https://www.theguardian.com/technology/2024/dec/02/elon-musk-tesla-pay-package
 
+    - 'ads' are how pedophiles trick people into 'giving them money they dont deserve'
+        - https://www.youtube.com/watch?v=sdjMHnSvVgE - 'The End of Ads with Ryan Hudson [video]'
+
+    - justice benefits mental health, nothing else does though
+        - https://www.ucl.ac.uk/news/2024/dec/minimal-proof-increased-surveillance-technology-benefits-mental-health-wards
+
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
         - would you expect pedophiles to be allowed by the police to try to touch you by eye-fucking your body in private 24/7 whenever they felt like it (which is rape/torture) for years, or would you expect the police to arrest the tiny-dicked pedophile trying to touch you the moment they find out about that happening, the very moment you scream at the pedophile to get away from you the very first time you scream that, and arrested and put in jail for life and tortured to death in prison?
