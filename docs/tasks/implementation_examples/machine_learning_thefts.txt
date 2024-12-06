@@ -4,6 +4,7 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://www.animalz.co/blog/blockbuster-blogs/ - 'Blockbuster Blogs: How Breakthrough Ideas Are Born'
 - https://medium.com/@ignacio.de.gregorio.noblejas/using-beethoven-to-accelerate-scientific-discovery-bd502962f34b
 - https://www.youtube.com/watch?v=u5kx3kocmgA - 'Neural Automata [video]'
 - https://github.com/r-kataria/MercifulStalinSort - 'MercifulStalinSort: Experimental sorting algorithm inspired by Stalin Sort'
