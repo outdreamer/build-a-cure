@@ -4,6 +4,47 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://www.youtube.com/watch?v=o-879Tbn5Ww - "Stephen Wolfram's New Theory of Time [video]"
+- https://github.com/rajukaji/Project-Data/blob/main/05%20US%20dollar%20and%20Euro%20Exchange%20rate/Exchange_rates_euro_vs_us_dollar.ipynb - 'Data Visualization Techniques'
+- https://arxiv.org/abs/2412.03317 - 'FlashAttention on a Napkin:A Diagrammatic Approach to Deep Learning IO-Awareness'
+- https://www.youtube.com/watch?v=vYCT7cw0ycw - 'Akshay Venkatesh: (Re)imagining mathematics in a world of reasoning machines [video]'
+- https://memgraph.com/blog/simplify-data-retrieval-memgraph-vector-search - 'Why Combine Vector Search with Graph Databases'
+- https://matthewbieda.github.io/GraphVis/ - 'Show HN: GraphVis – Interactive Graph Algorithm Visualisations'
+- https://blog.promaton.com/the-power-of-a-single-week-dedicated-to-innovation-585c2721de17
+- https://pedrorambo.com/posts/key-insights-on-distributed-databases/
+- https://deepmind.google/research/publications/139455/ - 'Mastering Board Games by External and Internal Planning with Language Models'
+- https://arxiv.org/abs/2412.04245 - 'Intriguing Properties of Robust Classification'
+- https://www.allthingsdistributed.com/2024/12/tech-predictions-for-2025-and-beyond.html
+- https://medium.com/ultraviolet-blog/integrating-large-language-models-in-trusted-execution-environments-with-supermq-and-ollama-b70307d327ad
+- https://blog.godfreyai.com/p/ai-a-vibe-check
+- https://www.platformer.news/ai-skeptics-gary-marcus-curve-conference/ - 'The phony comforts of AI skepticism'
+- https://newsletter.weskao.com/p/how-to-write-your-own-job-description - 'How to write your own job description (and invent your role)'
+- https://successfulsoftware.net/2024/12/06/the-heat-death-of-the-internet/
+- https://www.quantamagazine.org/the-ai-pioneer-with-provocative-plans-for-humanity-20241204/
+- https://taylor.town/build-god - 'How to build god and get away with it'
+- https://cycle.eu.com/en/blog/introducing-vega/ - "What's Next for LLMs? Vega: The Proactive AI That Elevates Your Skills"
+- https://security.googleblog.com/2024/12/announcing-launch-of-vanir-open-source.html - 'Vanir: Open-Source Security Search and Patch Validation Tool'
+- https://neilmadden.blog/2024/12/03/the-square-roots-of-all-evil/
+- https://openai.com/form/rft-research-program/ - 'OpenAI Reinforcement Fine-Tuning Research Program'
+- https://dspy.ai/ - 'DSPy – Programming–not prompting–LMs'
+- https://www.youtube.com/watch?v=IpuvQUVB8Cg - 'Implementing Linear / Non-Destructible Types in Vale and Mojo'
+- https://pollsensei.ai/register - 'Show HN: AI-Powered data and insight generator'
+- https://erictopol.substack.com/p/learning-the-language-of-life-with - 'Learning the Language of Life with AI'
+- https://kind.ai/ - 'Kind AI / You Decide'
+- https://techcrunch.com/2024/12/06/meta-unveils-a-new-more-efficient-llama-model/
+- https://ide.mit.edu/insights/is-philosophy-the-next-llm-training-frontier/
+- https://github.com/braintrustdata/autoevals
+- https://livebench.ai/ - "Google's latest Gemini-exp-1206 seems to be great, near the top of livebench"
+- https://arxiv.org/abs/2402.02331 - 'General Relativistic Hydrodynamics in Discrete Spacetime'
+- https://www.apolloresearch.ai/research/scheming-reasoning-evaluations - "An evaluation of frontier AI models: OpenAI's o1 was capable of scheming"
+- https://writings.stephenwolfram.com/2024/12/foundations-of-biological-evolution-more-results-more-surprises/
+- https://github.com/Wings-of-discovery/Tsubasa-resonant-self/blob/main/Resonant_AI_shortpaper - 'A New Framework for Ethical Evolution and Human-AI Collaboration'
+- https://freddiedeboer.substack.com/p/fighting-discrimination-does-not - 'Fighting Discrimination Does Not Entail Defending Shitty Social Behavior'
+- https://sdan.io/blog/intelligence-arbitrage
+- http://arcturus-labs.com/blog/2024/11/21/roaming-rag--make-_the-model_-find-the-answers/
+- https://polytranslator.com/ - 'Better than Google: LLMs solve translation for every language & dialect'
+- https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/6751eb240ed3821a0161b45b/1733421863119/in_context_scheming_reasoning_paper.pdf - 'Frontier Models are Capable of In-context Scheming [pdf]'
+- https://aclanthology.org/2023.findings-emnlp.966/ - 'A Confederacy of Models: A Comprehensive Evaluation of LLMs on Creative Writing'
 - https://www.animalz.co/blog/blockbuster-blogs/ - 'Blockbuster Blogs: How Breakthrough Ideas Are Born'
 - https://medium.com/@ignacio.de.gregorio.noblejas/using-beethoven-to-accelerate-scientific-discovery-bd502962f34b
 - https://www.youtube.com/watch?v=u5kx3kocmgA - 'Neural Automata [video]'

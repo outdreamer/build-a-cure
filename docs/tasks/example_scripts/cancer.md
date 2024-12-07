@@ -639,8 +639,12 @@
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698043/
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7352436/
 			- stroke: 
-				- vitamin c/d/e, b-vitamins, magnesium, omega 3s, green tea, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen
-				- avoid triggers like erythritol and inflammatory foods
+				- lower levels of the amino acid homocysteine
+					- betaine, vitamin c/d/e, b-vitamins, magnesium, omega 3s
+				- other substances: probiotics, vitamin e, potassium, green tea, citrus, walnuts, green vegetables, ashwagandha, bilberry, garlic, ginseng, gotu kola, turmeric, pomegranate, danshen, fiber, grape seed
+				- treat high blood pressure, high cholesterol, obesity and type 2 diabetes to help prevent stroke
+				- anticoagulant drugs to reduce your stroke risk from atrial fibrillation if you have that
+				- avoid triggers like erythritol, saturated fat, salt, alcohol, smoking, and inflammatory foods
 			- dementia: 
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
 				- also use an anti-inflammatory diet and avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
