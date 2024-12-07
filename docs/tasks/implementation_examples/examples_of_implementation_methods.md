@@ -280,6 +280,9 @@
     - "getting arrested for pedophilia" is "whats next for you"
         - https://www.youtube.com/watch?v=OsxwBmp3iFU - "NYT: Sundar Pichai on A.Ι., Regulation and What's Next for Google"
 
+    - I dont think you can sue the 'Consumer Financial Protection Bureau' for your pedophilia, turdgay
+        - https://www.cnn.com/2024/12/06/business/google-pay-lawsuit-cfpb/index.html - 'Google sues Consumer Financial Protection Bureau'
+
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
         - would you expect pedophiles to be allowed by the police to try to touch you by eye-fucking your body in private 24/7 whenever they felt like it (which is rape/torture) for years, or would you expect the police to arrest the tiny-dicked pedophile trying to touch you the moment they find out about that happening, the very moment you scream at the pedophile to get away from you the very first time you scream that, and arrested and put in jail for life and tortured to death in prison?

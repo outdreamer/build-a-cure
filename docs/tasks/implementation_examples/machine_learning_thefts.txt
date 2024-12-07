@@ -4,6 +4,13 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://ar5iv.labs.arxiv.org/html/1110.5408 - 'Linked and Knotted Beams of Light'
+- https://jonathanpolitzki.substack.com/p/structure-people-and-chaos
+- https://phys.org/news/2024-12-stochastic-captures-microbiome-interactions-precisely.html - 'Stochastic model captures microbiome interactions more precisely'
+- https://medicalxpress.com/news/2024-12-brain-technique-reveals-insights-higher.html - "Brain mapping technique reveals insights into brain's higher functions"
+- https://arstechnica.com/ai/2024/12/googles-genie-2-world-model-reveal-leaves-more-questions-than-answers/
+- https://github.com/ictnlp/Auto-RAG
+- https://jacobian.org/2024/dec/4/risk-introduction/ - 'An introduction to thinking about risk – Jacob Kaplan-Moss'
 - https://www.youtube.com/watch?v=o-879Tbn5Ww - "Stephen Wolfram's New Theory of Time [video]"
 - https://github.com/rajukaji/Project-Data/blob/main/05%20US%20dollar%20and%20Euro%20Exchange%20rate/Exchange_rates_euro_vs_us_dollar.ipynb - 'Data Visualization Techniques'
 - https://arxiv.org/abs/2412.03317 - 'FlashAttention on a Napkin:A Diagrammatic Approach to Deep Learning IO-Awareness'
