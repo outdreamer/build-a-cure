@@ -4,6 +4,8 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://aantron.github.io/dream/ - 'Dream: Tidy Web Framework for OCaml and ReasonML'
+- https://arxiv.org/abs/2412.04110 - 'Enhancing Mathematical Reasoning in LLMs with Background Operators'
 - https://ar5iv.labs.arxiv.org/html/1110.5408 - 'Linked and Knotted Beams of Light'
 - https://jonathanpolitzki.substack.com/p/structure-people-and-chaos
 - https://phys.org/news/2024-12-stochastic-captures-microbiome-interactions-precisely.html - 'Stochastic model captures microbiome interactions more precisely'
