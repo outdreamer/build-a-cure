@@ -282,7 +282,7 @@
 
     - I dont think you can sue the 'Consumer Financial Protection Bureau' for your pedophilia, turdgay
         - https://www.cnn.com/2024/12/06/business/google-pay-lawsuit-cfpb/index.html - 'Google sues Consumer Financial Protection Bureau'
-        - I dont think you can sue them for 'being tricked into banging the ugly old pig, taylor swift', either
+        - I dont think you can sue them for 'being tricked into banging the ugly old pig, taylor swift', either, though I would be mad too in your position if I was such a fool, I do feel pity for 'something that has to touch ugly old browns and ugly old pigs like taylor swift' (theyre all old bc theyre all pedophile pigs, which is ancient), but not enough pity that Im willing to die for them, Id just put them out of their misery by killing the hated miserable crap, then I wouldnt have to feel disgust at their existence ever again once theyre dead
 
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
