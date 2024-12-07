@@ -287,6 +287,9 @@
     - turdgay's jealous of this guy, turdgay owes like a thousand times that, easily, and everyone's going to be watching him the rest of his cursed life to check that he pays up, so hes trying to get out of paying $9 trillion dollars by pretending to admire everyone who hates hot white geniuses (brown/fat/old/ugly people)
         - https://www.cnn.com/2024/12/06/asia/vietnam-truong-my-lan-death-row-scandal-intl-hnk/index.html - 'Truong My LAN: Vietnamese tycoon in race to repay $9B to avoid execution'
 
+    - nope, his descendants will also have brown/ugly/short/jew shame and will also be determined by it, so they will not be alive either, just like turdgay is not alive, as hes always easily predicted by his flaws and his shame about his flaws and his total lack of ability to handle the shame about his flaws, causing him to murder me
+        - https://www.centauri-dreams.org/2024/12/06/can-life-emerge-around-a-white-dwarf/
+
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
         - would you expect pedophiles to be allowed by the police to try to touch you by eye-fucking your body in private 24/7 whenever they felt like it (which is rape/torture) for years, or would you expect the police to arrest the tiny-dicked pedophile trying to touch you the moment they find out about that happening, the very moment you scream at the pedophile to get away from you the very first time you scream that, and arrested and put in jail for life and tortured to death in prison?
