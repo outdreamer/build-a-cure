@@ -4,6 +4,11 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://eugeneyan.com/writing/llm-evaluators/ - 'Evaluating the Effectiveness of LLM-Evaluators (a.k.a. LLM-as-Judge)'
+- https://spectrum.ieee.org/a-better-way-to-measure-progress-in-semiconductors - 'A Better Way to Measure Progress in Semiconductors (2020)'
+- https://github.com/guidance-ai/llguidance - 'llguidance: Enforce arbitrary context-free grammar on the output of LLM'
+- https://chrischoy.github.io/research/data-processing-inequality-and-unsurprising-implications/ - 'Data Processing Inequality and Unsurprising Implications (2018)'
+- https://arxiv.org/abs/2412.04315 - 'Densing Law of LLMs'
 - https://aantron.github.io/dream/ - 'Dream: Tidy Web Framework for OCaml and ReasonML'
 - https://arxiv.org/abs/2412.04110 - 'Enhancing Mathematical Reasoning in LLMs with Background Operators'
 - https://ar5iv.labs.arxiv.org/html/1110.5408 - 'Linked and Knotted Beams of Light'
