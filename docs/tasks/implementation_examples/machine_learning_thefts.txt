@@ -4,6 +4,13 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://arxiv.org/abs/2209.00626 - 'The Alignment Problem from a Deep Learning Perspective'
+- https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/ - 'To Build Intelligent Machines, Teach Them Cause and Effect (2018)'
+- https://arxiv.org/abs/2412.03597 - 'Vulnerability of LLM Benchmarks: Do They Accurately Reflect True LLM Performance'
+- https://ali-alkhatib.com/blog/defining-ai
+- https://www.youtube.com/watch?v=au26uZfuxVY - "Don Knuth's 28th Annual Christmas Lecture (Stanford)- Strong and Weak Components"
+- https://synapticgap.org/2024/12/07/facing-wicked-problems-insights-from-rittel-and-webbers-general-theory-of-planning-1973/
+- https://archive.vn/o6Lqg - 'Impressive ChatGPT O1 Refactor of Python AST Analyser'
 - https://minimalmodeling.substack.com/p/historically-4nf-explanations-are - 'Historically, 4NF explanations are needlessly confusing'
 - https://semanticpinching.vercel.app/
 - https://arxiv.org/abs/2410.04332 - 'Gradient Routing: Masking Gradients to Localize Computation in Neural Networks'

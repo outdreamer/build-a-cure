@@ -320,11 +320,14 @@
         - https://theconversation.com/japanese-scientists-were-pioneers-of-ai-yet-theyre-being-written-out-of-its-history-243762
         - see, there are 'pedophile inventions', like 'copying Joni Jezewski very poorly' and 'saying simple things like "simple combinations of words" (too simple to be correct or otherwise useful)', and then there are 'real/genius inventions', like 'interface analysis' (which reflect a grasp of meaning/relevance/complexity/similarity/all other interface variables)
 
-    - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby)
+    - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
     - wrong, itll still be pedophilia, pedophiles dont change, they think they get better at lying though for some reason, I dont see who theyre fooling
         - https://www.theverge.com/2024/12/5/24314245/sundar-pichai-google-search-change-profoundly-2025 - "Sundar Pichai says Google Search will 'change profoundly' in 2025"
+
+    - I think they dont even need to monitor you 'like a bank' to see the transactions where you paid for food to get a pig to suck your dick and anus, turdgay, I think they can just ask your bank for that transaction info, or even just look at you to figure out that you did that, or they can look up the lawsuit where the pig got angry that it had to touch you and got a legal team and tried to sue you for paying it with food to get it to suck your dick and anus, turdgay, Im pretty sure that lawsuit data is public, if I recall how websites work
+        - https://www.theverge.com/2024/12/7/24315557/google-payment-federal-supervision-cfpb-lawsuit
 
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
