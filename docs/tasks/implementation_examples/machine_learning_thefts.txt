@@ -4,6 +4,10 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://link.springer.com/article/10.1007/s11229-022-03720-z - 'The punctuated equilibrium of scientific change: a Bayesian network model (2022)'
+- https://superorganizers.substack.com/p/how-to-build-a-learning-machine - 'How to Make Yourself into a Learning Machine'
+- https://www.anduril.com/article/anduril-and-palantir-to-accelerate-ai-capabilities-for-national-security/
+- https://arxiv.org/abs/2412.02730 - "Shaping AI's Impact on Billions of Lives"
 - https://eugeneyan.com/writing/llm-evaluators/ - 'Evaluating the Effectiveness of LLM-Evaluators (a.k.a. LLM-as-Judge)'
 - https://spectrum.ieee.org/a-better-way-to-measure-progress-in-semiconductors - 'A Better Way to Measure Progress in Semiconductors (2020)'
 - https://github.com/guidance-ai/llguidance - 'llguidance: Enforce arbitrary context-free grammar on the output of LLM'
