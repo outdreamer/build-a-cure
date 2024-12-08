@@ -312,6 +312,9 @@
         - 'uhhhhh, why do all the people with accomplishents have all the money before the accomplishents? bc they bought the false information falsely claiming they had accomplishents, which was easier than having any accomplishents, and people who hoard things like money cant think or they would be generous and confident they could make it all back, so we know rich people are stupid, and therefore they must have taken the easy way again like always and bought the fake information falsely claiming they had accomplishents rather than having the real accomplishents' - another thought that people will probably have about all of your false claims, as theyre already having that thought about other pedophile pigs' false claims
             - or the shorter version, which is 'rich people are pigs' and 'rich people are stupid' and 'rich people want power' and 'intelligence is power' and 'accomplishents reflect intelligence' and 'rich people want the easily bought/faked signal of intelligence (accomplishents), the thing they lack'
 
+    - I think people are wondering why you raped all those animals and kids if youre so smart, tinydick turdgay, and 'whether it was really necessary to build gemini (or even gemini two to be honest), given that most people could build that without raping anything/anyone', but rather just by 'using transformers and some training data and some compute', and 'whether we even needed gemini at all, actually', I actually think they might be close to figuring out why you raped all those animals and kids, tinydick turdgay, just like I figured it out pretty quick there, just by looking at your online photos
+        - https://arstechnica.com/ai/2024/12/googles-genie-2-world-model-reveal-leaves-more-questions-than-answers/
+
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
