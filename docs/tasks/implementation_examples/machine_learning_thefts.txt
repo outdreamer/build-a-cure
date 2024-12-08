@@ -4,7 +4,8 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
-- https://semanticpinching.vercel.app/ - 'Semantic Pinching'
+- https://minimalmodeling.substack.com/p/historically-4nf-explanations-are - 'Historically, 4NF explanations are needlessly confusing'
+- https://semanticpinching.vercel.app/
 - https://arxiv.org/abs/2410.04332 - 'Gradient Routing: Masking Gradients to Localize Computation in Neural Networks'
 - https://news.ycombinator.com/item?id=42352057 - 'Tell HN: Morphological determinism: how self-assembly creates the shape of life'
 - https://www.jesande.com/2024/11/towards-llm-enhanced-software.html - 'Towards an LLM-Enhanced Software Development Process: LLMs and Requirements'

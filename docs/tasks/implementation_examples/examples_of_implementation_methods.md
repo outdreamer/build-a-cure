@@ -318,10 +318,13 @@
 
     - ah ok, pedophiles actually invented AI (not Joni Jezewski at all), and its 'powerful groups of pedophiles' coincidentally, the exact things that would try to take credit for AI inventions without really earning that, like google and apan, I see, and thats why the world still sucks, bc pedophiles invented AI (not Joni Jezewski) and bc pedophiles invented AI (not Joni Jezewski), AI was invented very poorly and didnt actually solve problems (until Joni Jezewski came along to fix that)
         - https://theconversation.com/japanese-scientists-were-pioneers-of-ai-yet-theyre-being-written-out-of-its-history-243762
-        - see, there are 'pedophile inventions', like 'copying Joni Jezewski very poorly' and 'saying simple things like "simple combinations of words" (too simple to be correct or otherwise useful)', and then there are real inventions, like 'interface analysis' (which reflect a grasp of meaning/relevance/complexity/similarity/all other interface variables)
+        - see, there are 'pedophile inventions', like 'copying Joni Jezewski very poorly' and 'saying simple things like "simple combinations of words" (too simple to be correct or otherwise useful)', and then there are 'real/genius inventions', like 'interface analysis' (which reflect a grasp of meaning/relevance/complexity/similarity/all other interface variables)
 
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
+
+    - wrong, itll still be pedophilia, pedophiles dont change, they think they get better at lying though for some reason, I dont see who theyre fooling
+        - https://www.theverge.com/2024/12/5/24314245/sundar-pichai-google-search-change-profoundly-2025 - "Sundar Pichai says Google Search will 'change profoundly' in 2025"
 
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
