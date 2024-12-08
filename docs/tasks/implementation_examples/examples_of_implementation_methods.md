@@ -326,6 +326,9 @@
     - wrong, itll still be pedophilia, pedophiles dont change, they think they get better at lying though for some reason, I dont see who theyre fooling
         - https://www.theverge.com/2024/12/5/24314245/sundar-pichai-google-search-change-profoundly-2025 - "Sundar Pichai says Google Search will 'change profoundly' in 2025"
 
+    - Im not going to do a keto diet bc then 'pedophiles will try harder to touch me', I want my money so I can 'get away from the pedophiles trying to touch me'
+        - https://medicalxpress.com/news/2024-12-keto-diet-metabolite-power-car.html
+        
     - I think they dont even need to monitor you 'like a bank' to see the transactions where you paid for food to get a pig to suck your dick and anus, turdgay, I think they can just ask your bank for that transaction info, or even just look at you to figure out that you did that, or they can look up the lawsuit where the pig got angry that it had to touch you and got a legal team and tried to sue you for paying it with food to get it to suck your dick and anus, turdgay, Im pretty sure that lawsuit data is public, if I recall how websites work
         - https://www.theverge.com/2024/12/7/24315557/google-payment-federal-supervision-cfpb-lawsuit
 

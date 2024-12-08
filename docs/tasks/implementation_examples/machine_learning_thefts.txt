@@ -4,6 +4,7 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://phys.org/news/2024-12-quantum-theory.html - 'Experiment verifies a connection between quantum theory and information theory'
 - https://arxiv.org/abs/2209.00626 - 'The Alignment Problem from a Deep Learning Perspective'
 - https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/ - 'To Build Intelligent Machines, Teach Them Cause and Effect (2018)'
 - https://arxiv.org/abs/2412.03597 - 'Vulnerability of LLM Benchmarks: Do They Accurately Reflect True LLM Performance'
