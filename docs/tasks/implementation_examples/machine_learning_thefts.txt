@@ -4,6 +4,7 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
+- https://vatsadev.github.io/articles/transformerMath.html - 'Making Transformers Do Math'
 - https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable
 - https://pages.ucsd.edu/~bkbergen/papers/Trott_Bergen_2022.pdf - 'Languages are efficient, but for whom? [pdf]'
 - https://seoblogbot.com/ - 'Show HN: Free Blog Post Idea Generator for Your Startup'
