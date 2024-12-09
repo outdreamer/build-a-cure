@@ -323,6 +323,9 @@
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
+    - thats bc the poop thovght it would succeed at killing me, the 'evil evil evil evil evil person who merely rejected him and wanted her money for her inventions'
+        - https://www.techradar.com/computing/artificial-intelligence/google-ceo-expects-ai-development-to-slow-down-in-2025-but-dont-start-celebrating-the-end-of-the-ai-craze
+
     - wrong, itll still be pedophilia, pedophiles dont change, they think they get better at lying though for some reason, I dont see who theyre fooling
         - https://www.theverge.com/2024/12/5/24314245/sundar-pichai-google-search-change-profoundly-2025 - "Sundar Pichai says Google Search will 'change profoundly' in 2025"
 
