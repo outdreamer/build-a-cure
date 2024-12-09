@@ -322,6 +322,8 @@
 
     - people who believe that "all similarities including when a genius pretends to love them as a hilarious joke and a way to get them arrested by the fbi and when a genius pretends theyre communicating with their super similar minds ('huh cool the genius is saying we have similar vinds, wow how flattering, so that means Im a genius too! cool! why is she saying that, its definitely not bc Im poisoning her with toxic doses of estrogen that are squeezing her organs to death, it must be quantum')" are 'quantum entanglements' arent capable of 'Quantum Computing Breakthroughs'
         - https://www.nytimes.com/2024/12/09/technology/google-quantum-computing.html - 'Google Makes New Quantum Computing Breakthrough'
+        - google thinks everyone is too stupid to realize how stupid google employees are and will believe every press release that google publishes to take credit for other people's work
+        - if its "published by google", its "an attempt to take credit for someone else's work"
 
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
