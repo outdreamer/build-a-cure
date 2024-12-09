@@ -329,6 +329,9 @@
     - Im not going to do a keto diet bc then 'pedophiles will try harder to touch me', I want my money so I can 'get away from the pedophiles trying to touch me'
         - https://medicalxpress.com/news/2024-12-keto-diet-metabolite-power-car.html
 
+    - turdgay gets insecure every time hes sued for raping people online and probably in person as well, I wovldnt know, bc I fart on him verbally as much as humanly possible to make sure he never actually touches me in person, although theres not much I can do to stop the turd from spying on me bc nobody has the good sense to kill the turd, and so he wants to seem like the cool people who complain about his impositions on their rights and he wants to be the one 'suing people for imposition/overreach for once', just like he always gets rejected and so he wants to be the one who seems like the 'one doing the rejecting' for once, dont let him seem like that though, poop on that pedophile
+        - https://www.androidpolice.com/google-suing-us-government-overreach/ - 'Google is suing the US government for overreach'
+
     - nope, its only pedophiles like you
         - https://news.ycombinator.com/item?id=42354875 - "Ask HN: Anyone else loving the new Google Chat?"
 

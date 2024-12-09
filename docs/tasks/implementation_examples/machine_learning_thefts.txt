@@ -3,7 +3,12 @@
 	- some may be useful only as examples of how stupid people are bc they didnt think it all the way through or realize the important thing to realize about the structure, as in how its relevant, or didnt sense variation
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
+	- maybe/definitely dont have a strategy of 'copying the genius', 'every pedophile in the world', bc guess what is easy to identify once you copy my inventions? who, what, and where you are, 'every pedophile in the world'
 
+- https://camilochs.github.io/visgraphvar-website/ - 'Can Large Vision-Language Models (LVLMs) Understand Graphs?'
+- https://www.prionow.com/wp-login.php?redirect_to=https%3A%2F%2Fwww.prionow.com%2Fwp-admin%2Fpost.php%3Fpost%3D3742%26action%3Dedit&reauth=1 - 'Show HN: Free Search Intent Analysis Tool'
+- https://www.theverge.com/24314821/microsoft-ai-ceo-mustafa-suleyman-google-deepmind-openai-inflection-agi-decoder-podcast - "Microsoft's Mustafa Suleyman on what the industry is getting wrong about AGI"
+- https://arxiv.org/abs/2412.04703 - 'Transformers Struggle to Learn to Search'
 - https://vatsadev.github.io/articles/transformerMath.html - 'Making Transformers Do Math'
 - https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable
 - https://pages.ucsd.edu/~bkbergen/papers/Trott_Bergen_2022.pdf - 'Languages are efficient, but for whom? [pdf]'
