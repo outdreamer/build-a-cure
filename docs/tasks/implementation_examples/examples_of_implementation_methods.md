@@ -320,6 +320,9 @@
         - https://theconversation.com/japanese-scientists-were-pioneers-of-ai-yet-theyre-being-written-out-of-its-history-243762
         - see, there are 'pedophile inventions', like 'copying Joni Jezewski very poorly' and 'saying simple things like "simple combinations of words" (too simple to be correct or otherwise useful)', and then there are 'real/genius inventions', like 'interface analysis' (which reflect a grasp of meaning/relevance/complexity/similarity/all other interface variables)
 
+    - people who believe that "all similarities including when a genius pretends to love them as a hilarious joke and a way to get them arrested by the fbi and when a genius pretends theyre communicating with their super similar minds ('huh cool the genius is saying we have similar vinds, wow how flattering, so that means Im a genius too! cool! why is she saying that, its definitely not bc Im poisoning her with toxic doses of estrogen that are squeezing her organs to death, it must be quantum')" are 'quantum entanglements' arent capable of 'Quantum Computing Breakthroughs'
+        - https://www.nytimes.com/2024/12/09/technology/google-quantum-computing.html - 'Google Makes New Quantum Computing Breakthrough'
+
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
