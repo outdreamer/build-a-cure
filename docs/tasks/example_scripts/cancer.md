@@ -539,7 +539,7 @@
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
-				- avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD, treat hormonal imbalances, inflammation, correct vitamin deficiencies like zinc, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause metabolic changes
+				- cold therapy for metabolic health, avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD for appetite control (in small doses to avoid cardiac complications of CBD), treat hormonal imbalances, inflammation, correct vitamin deficiencies like zinc, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause negative metabolic changes
 				- use carnitine/taurine to increase muscle growth, plants with high nitrite content like beets/spinach for improving exercise performance, supplements like d-ribose and b-vitamins for energy to exercise, etc
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
