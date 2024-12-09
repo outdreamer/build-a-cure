@@ -4,7 +4,19 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 
-
+- https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable
+- https://pages.ucsd.edu/~bkbergen/papers/Trott_Bergen_2022.pdf - 'Languages are efficient, but for whom? [pdf]'
+- https://seoblogbot.com/ - 'Show HN: Free Blog Post Idea Generator for Your Startup'
+- https://gpavanb1.github.io/llamarch-docs/ - 'Show HN: LLaMArch – Minimal, Building Blocks for Large Language Models'
+- https://arxiv.org/abs/2410.06213 - "RL, But Don't Do Anything I Wouldn't Do"
+- https://www.arliai.com/ - 'Arli AI: Unlimited Generations and Zero-Log LLM Inference API Platform'
+- https://monica.im/en/tools/ai-mind-map-maker - 'AI Mind Map Maker – Generate and Organize Ideas in 3s'
+- https://www.justinmath.com/the-necessity-of-grinding-through-concrete-examples-before-jumping-up-a-level-of-abstraction/
+- https://billmei.net/blog/daydreams-destiny - 'Daydreams Decide Your Destiny'
+- https://jimmyhmiller.github.io/advent-of-papers/2024/dec-7-interpretation - 'Implementation Is Semantic Interpretation'
+- https://hazyresearch.stanford.edu/blog/2023-12-11-conv-tutorial - 'Long Convolutions via Polynomial Multiplication'
+- https://www.differentiated.io/blog/decoding-methods-for-llms - 'A verbose explanation of LLM decoding parameters'
+- https://www.therulesofprogramming.com/ - 'The Rules of Programming (2023)'
 - https://medium.com/@UFOlogist_Journal/are-angels-actually-aliens-bb43c01de6a1
 - https://medium.com/@avi-loeb/traveling-through-the-cosmic-landscape-of-thoughts-9200f143ae3c
 - https://blog.voyageai.com/2024/12/04/voyage-code-3/ - 'Code embedding model with Matryoshka learning and quantization-aware training'
