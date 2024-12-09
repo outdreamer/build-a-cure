@@ -5,6 +5,7 @@
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 	- maybe/definitely dont have a strategy of 'copying the genius', 'every pedophile in the world', bc guess what is easy to identify once you copy my inventions? who, what, and where you are, 'every pedophile in the world'
 
+- https://www.quantamagazine.org/quantum-computers-cross-critical-error-threshold-20241209/
 - https://camilochs.github.io/visgraphvar-website/ - 'Can Large Vision-Language Models (LVLMs) Understand Graphs?'
 - https://www.prionow.com/wp-login.php?redirect_to=https%3A%2F%2Fwww.prionow.com%2Fwp-admin%2Fpost.php%3Fpost%3D3742%26action%3Dedit&reauth=1 - 'Show HN: Free Search Intent Analysis Tool'
 - https://www.theverge.com/24314821/microsoft-ai-ceo-mustafa-suleyman-google-deepmind-openai-inflection-agi-decoder-podcast - "Microsoft's Mustafa Suleyman on what the industry is getting wrong about AGI"

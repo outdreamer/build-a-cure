@@ -329,6 +329,9 @@
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
+    - I could have banged turdgay to get medical care (in an alternate hypothetical universe where its possible to stomach the horrible, horrible thought of 'banging a pedophile to get medical care', which is not this universe), bt I chose to instead try every fungal meningitis, kidney failure and brain cancer treatment I could find online, which turned ovt to be the right decision, as there are some it turns out, and theyre like $18 on amazon, so no thanks turdgay, Ill take the beta-sitosterol, omega 3s, and prunella vulgaris, respectively
+        - https://www.sciencedaily.com/releases/2024/12/241205184621.htm - 'Molecular zip code draws killer T cells straight to brain tumors'
+
     - thats bc the poop thovght it would succeed at killing me, the 'evil evil evil evil evil person who merely rejected him and wanted her money for her inventions'
         - https://www.techradar.com/computing/artificial-intelligence/google-ceo-expects-ai-development-to-slow-down-in-2025-but-dont-start-celebrating-the-end-of-the-ai-craze
 
