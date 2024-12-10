@@ -5,6 +5,7 @@
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 	- maybe/definitely dont have a strategy of 'copying the genius', 'every pedophile in the world', bc guess what is easy to identify once you copy my inventions? who, what, and where you are, 'every pedophile in the world'
 
+- https://thelastwave.substack.com/p/vibrations-across-substrates - 'Vibrations Across Substrates: On Systemic Resonance'
 - https://eugeneyan.com/writing/evals/ - "Task-Specific LLM Evals That Do and Don't Work"
 - https://www.quantamagazine.org/quantum-computers-cross-critical-error-threshold-20241209/
 - https://camilochs.github.io/visgraphvar-website/ - 'Can Large Vision-Language Models (LVLMs) Understand Graphs?'
