@@ -341,11 +341,14 @@
     - Im not going to do a keto diet bc then 'pedophiles will try harder to touch me', I want my money so I can 'get away from the pedophiles trying to touch me'
         - https://medicalxpress.com/news/2024-12-keto-diet-metabolite-power-car.html
 
-    - turdgay gets insecure every time hes sued for raping people online and probably in person as well, I wovldnt know, bc I fart on him verbally as much as humanly possible to make sure he never actually touches me in person, although theres not much I can do to stop the turd from spying on me bc nobody has the good sense to kill the turd, and so he wants to seem like the cool people who complain about his impositions on their rights and he wants to be the one 'suing people for imposition/overreach for once', just like he always gets rejected and so he wants to be the one who seems like the 'one doing the rejecting' for once, dont let him seem like that though, poop on that pedophile
+    - turdgay gets insecure every time hes sued for raping people online and probably in person as well, I wouldnt know, bc I fart on him verbally as much as humanly possible to make sure he never actually touches me in person, although theres not much I can do to stop the turd from spying on me bc nobody has the good sense to kill the turd, and so he wants to seem like the cool people who complain about his impositions on their rights and he wants to be the one 'suing people for imposition/overreach for once', just like he always gets rejected and so he wants to be the one who seems like the 'one doing the rejecting' for once, dont let him seem like that though, poop on that pedophile
         - https://www.androidpolice.com/google-suing-us-government-overreach/ - 'Google is suing the US government for overreach'
 
     - nope, its only pedophiles like you
         - https://news.ycombinator.com/item?id=42354875 - "Ask HN: Anyone else loving the new Google Chat?"
+
+    - google is fine with "literally (and as cruelly as possible) torturing a white female genius to death for years for refusing to bang turdgay swine", but 'this one instance of "persection of mcdonalds" will not stand'? I realize that probably is good for 'pedophile/brown/fat/ugly/old/fag/hag/incel business', but the world doesnt need pedophiles, turdgay, kill yourself, turdgay, make my day
+        - https://www.hindustantimes.com/world-news/google-steps-in-after-mcdonalds-get-review-bombed-over-arrest-in-unitedhealth-ceos-murder-101733809168783.html
 
     - I think they dont even need to monitor you 'like a bank' to see the transactions where you paid for food to get a pig to suck your dick and anus, turdgay, I think they can just ask your bank for that transaction info, or even just look at you to figure out that you did that, or they can look up the lawsuit where the pig got angry that it had to touch you and got a legal team and tried to sue you for paying it with food to get it to suck your dick and anus, turdgay, Im pretty sure that lawsuit data is public, if I recall how websites work
         - https://www.theverge.com/2024/12/7/24315557/google-payment-federal-supervision-cfpb-lawsuit
