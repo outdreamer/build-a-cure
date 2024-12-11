@@ -15,6 +15,9 @@
 	- https://semianalysis.com/2024/12/09/intel-on-the-brink-of-death/
 	- https://www.wheresyoured.at/godot-isnt-making-it/
 
+- https://www.theregister.com/2024/12/09/palantir_anduril_alliance/ - 'Tech companies Palantir and Anduril form fellowship for AI adventures'
+- https://www.getpointer.ai/google-docs-ai - 'Show HN: Pointer – AI agent for Google Docs (like an intern working for you)'
+- https://www.youtube.com/watch?v=2jKVx2vyZOY - '12 Days of OpenAI: Day 3 [video]'
 - https://github.com/supercollider/supercollider - 'SuperCollider: A synthesis and algorithmic composition platform'
 - https://onepercentrule.substack.com/p/the-limits-of-perception-vinge-and - 'The Limits of Perception: Vinge and the Singularity'
 - https://news.ycombinator.com/item?id=42369029 - 'Show HN: Pruna AI – Inference Optimization Engine'

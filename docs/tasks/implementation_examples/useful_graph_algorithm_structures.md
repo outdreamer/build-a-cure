@@ -136,3 +136,32 @@ Useful algorithms
                             - solving for 'reducing/changing/removing/creating emotions', as an unnecessary process in a logical mind that can detect status changes and change behavior/thinking in useful ways without help from emotions
                             - 'reducing/changing/removing/creating wants/needs' or 'improving/optimizing brain/body communication to avoid the input for urge thoughts at all' so that urge thoughts like 'go get this food' arent necessary anymore bc the body solves problems in a different way than asking your conscious mind for a specific food (the bio-system becomes better at problem-solving, to get food from other sources like air nutrients, for example)
                             - next up is solving for removing 'default reaction thoughts' which are 'normal thoughts to have in response to something, given other previous experiences/thoughts/feelings'
+
+
+
+- specific problem-solving processes in govt
+
+    - I want you to start applying methods to fix pedophiles, like: 
+    1. reducing their sex drives
+    2. teaching them how to think (once they can think, they can manage stressful situations without committing crimes like 'pretend the problem doesnt exist')
+    3. giving them variables/complexity to think about (same for trauma victims)
+    4. separate them from abusers
+    5. helping them connect w/ healthier people
+    6. learn how to identify who wont/cant change and kill them with drones
+
+    - This is the type of 'solution metric set' that you can now feed into chatgpt to identify 'solution implementation algorithms' that are pretty good at 'solving the input problem', after first inputting a problem like 'identify the intents or solution metric sets to solve a problem like pedophilia, to implement with specific solutions' which should return the above intents which can be applied as solution metrics or component intents to solve for.
+
+    - So apply the following chatgpt queries to solve a problem:
+    1. identify solution metrics (like component intent sets) to solve a problem 
+    2. identify specific solution implementations of those 'solution metrics or solution component  intent sets' (where the implementations can fulfill multiple integrated intents)
+    3. other queries can follow like 'identify all the problems I will encounter when applying this implementation of this intent and how to solve those problems'
+
+    - Your DOGE department needs:
+        - analysis teams to identify these 'solution metric sets for problems', feed them into chatgpt, and analyze the solutions
+        - implementation teams to apply/implement these solutions 
+        - integration teams to connect other teams and integrate their work (to avoid re-solving the same problems, etc)
+        - there can be teams for specific solution metrics like 'efficiency' but that shouldnt be the only metric (like I mentioned before, 'cutting costs' isnt the right solution metric in general)
+
+    - Similar to the AI models I identified as the models to build and coordinate, teams also need to reflect those models' functions, so an optimization team, an organization team, an understanding team, etc for all the primary functions that you or OpenAI are building models for, Im sure there will be overlap but there also needs to be teams specialized for these functions. 
+
+    - If you dont have dedicated teams, at least make sure your teams are using the tools of OpenAI designed for these intents
