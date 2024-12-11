@@ -15,6 +15,8 @@
 	- https://semianalysis.com/2024/12/09/intel-on-the-brink-of-death/
 	- https://www.wheresyoured.at/godot-isnt-making-it/
 
+- https://www.nature.com/articles/d41586-024-04018-5 - 'Publishers are selling papers to train AIs – and making millions of dollars'
+- https://causvid.github.io/ - 'From Slow Bidirectional to Fast Causal Video Generators'
 - https://jampauchoa.substack.com/p/what-kitchen-screws-can-teach-us - 'What kitchen screws teaches us about code comments'
 - https://www.theregister.com/2024/12/09/palantir_anduril_alliance/ - 'Tech companies Palantir and Anduril form fellowship for AI adventures'
 - https://www.getpointer.ai/google-docs-ai - 'Show HN: Pointer – AI agent for Google Docs (like an intern working for you)'
