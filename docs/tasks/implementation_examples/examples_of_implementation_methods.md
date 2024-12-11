@@ -329,6 +329,9 @@
         - if its "published by google", its "an attempt to take credit for someone else's work"
         - turdgay cant get smart people to work for him, he cant achieve things, he can occasionally trick some poor turds into paying him for 'google cloud services', but he cant get any actual smart people to work for him, or he would have 'solved search quickly a long time ago', instead of 'still struggling to solve search after several decades of trying and failing'
 
+    - 'pedophilia' isnt a 'breakthrough', turdgay, also why does it take you craps decades to make progress on a problem? is it possibly beCAUSE of your pedophilia, 'pedophilia' basically being 'stupidity' (inability to solve problems)?
+        - https://www.nytimes.com/2024/12/09/technology/google-quantum-computing.html - 'Quantum Computing Inches Closer to Reality After Another Google Breakthrough'
+
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
