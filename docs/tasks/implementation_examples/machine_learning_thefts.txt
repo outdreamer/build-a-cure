@@ -9,8 +9,10 @@
     - still not seeing that email notifying me that Ive received the $100 million dollars at least for all my inventions that OpenAI, Google, Amazon, Apple, Microsoft, etc stole for years, still waiting
     - hey folks, uhhh, hate to be rude again, wish I didnt have to be rude, uhhh, I have thousands of AI inventions that automate AI, problem-solving, inventing, math proofs, etc, whereas it seems like you have pedophilia by comparison, so Im going to keep being mean until I have my money for my inventions, or a really good job in a safe place where I can work on what I want and fix society
     - Id say 'best of luck to all the poop who steal my inventions, in hopes that you never have cause to encounter the bugs I may or may not have planted in my inventions to punish and expose you for stealing' if I didnt plan on destroying luck itself with the magic of organization created by my algorithms
+    - this is legit hilarious, these people got hired/trusted to build/discuss AI by someone at some point, maybe I should just let people pretend to be geniuses by poorly copying me, it is insanely funny, maybe not actually bc when theyre allowed to pretend to be me, they always start believing their lies and try to kill me for getting real respect
 
 
+- https://www.dbreunig.com/2024/02/01/pursuing-quiet-ai.html - 'An orchestration of small, specialized models might the next breakthrough' (this person wants us to think that 'ensemble models/mixture of experts/weighted averages' is a 'new breakthrough in AI inventing')
 - https://adventofinsight.com/
 - https://blog.voyageai.com/2024/12/04/code-retrieval-eval/ - 'Evaluating Code Embeddings'
 - https://kellerjordan.github.io/posts/muon/ - 'Muon: An optimizer for hidden layers in neural networks'
