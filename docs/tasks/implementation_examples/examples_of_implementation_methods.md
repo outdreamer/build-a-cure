@@ -320,6 +320,9 @@
         - https://theconversation.com/japanese-scientists-were-pioneers-of-ai-yet-theyre-being-written-out-of-its-history-243762
         - see, there are 'pedophile inventions', like 'copying Joni Jezewski very poorly' and 'saying simple things like "simple combinations of words" (too simple to be correct or otherwise useful)', and then there are 'real/genius inventions', like 'interface analysis' (which reflect a grasp of meaning/relevance/complexity/similarity/all other interface variables)
 
+    - and yet, mysteriously, for 'some mysterious reason', whenever a model on the chip that is fed an image of turdgay is asked to spit out an answer to the question of 'is he a pedophile', it always returns 'a shrug emoji that is saying "Huh? whos turdgay? what is google? huh? I didnt know, ohhhhh, dont ask me, whos that over there, stop thief, guards apprehend them!" and then it somehow runs away even though its an AI model and the quantum chip it exists on was built to prevent exactly this sort of thing from happening'
+        - https://www.nature.com/articles/d41586-024-04028-3
+
     - people who believe that "all similarities including when a genius pretends to love them as a hilarious joke and a way to get them arrested by the fbi and when a genius pretends theyre communicating with their super similar minds ('huh cool the genius is saying we have similar vinds, wow how flattering, so that means Im a genius too! cool! why is she saying that, its definitely not bc Im poisoning her with toxic doses of estrogen that are squeezing her organs to death, it must be quantum')" are 'quantum entanglements' arent capable of 'Quantum Computing Breakthroughs'
         - https://www.nytimes.com/2024/12/09/technology/google-quantum-computing.html - 'Google Makes New Quantum Computing Breakthrough'
         - google thinks everyone is too stupid to realize how stupid google employees are and will believe every press release that google publishes to take credit for other people's work
@@ -378,8 +381,8 @@
         - would you expect pedophiles to be allowed to pretend they 'didnt know about human rights' by violating you whenever they felt like it in whatever way they felt like it, or would you expect help from sane people including the police to kill all the pedophiles for 'pretending not to know about human rights'?
 
     - here are some accurate statements about me, for an example of why I should be paid for my inventions, and the pedophiles who violated me online and poisoned me with aphrodisiacs should be tortured to death in jail if not death row for causing pedophilia sprees, all in a pathetic attempt to defile the only person who matters, which failed completely (it reads like a set of 'Chuck Norris' jokes bc Joni is utterly incredible and miraculous)
-        - Joni changed how time works forever (anyone who changes computers in a significant way changes how time works, but also my inventions specifically speed up problem-solving and I invented specific concepts relevant to time like 'conceptual time')
-        - Joni changed how everything will be evaluated forever
+        - Joni changed how time works forever (anyone who changes computers in a significant way changes how time works, but also my inventions specifically speed up problem-solving and I invented specific concepts relevant to time like 'conceptual time' and also I changed how time works in the sense of 'ending time, by determining the rest of reality and the future')
+        - Joni changed how everything will be generated/evaluated forever
         - Joni changed how computers can determine reality
         - Joni automated problem-solving, including inventing, including math inventing and math automation inventing
         - Joni invented all the other types of math that didnt exist yet and identified all the variables required to identify new types of structures (that means any types of math that havent been identified yet)
