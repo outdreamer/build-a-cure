@@ -6,6 +6,8 @@
 	- maybe/definitely dont have a strategy of 'copying the genius', 'every pedophile in the world', bc guess what is easy to identify once you copy my inventions? who, what, and where you are, 'every pedophile in the world'
 	- I wish you all were stealing my inventions in an impressive way for once, rather than creating this horrific 'poorly copying' bullshit
 
+- https://sakana.ai/namm/ - 'Neural Attention Memory Model: An Evolved Universal Transformer Memory'
+- https://www.youtube.com/watch?v=KfCZDgxzdHQ - 'LiteVAE: Lightweight and Efficient VAE for Latent Diffusion Models [video]'
 - https://aeon.co/essays/when-ai-summaries-replace-hyperlinks-thought-itself-is-flattened
 - https://medicalxpress.com/news/2024-12-ambiguity-brain-context-decision.html - 'Resolving ambiguity: How the brain uses context in decision-making and learning'
 - https://medicalxpress.com/news/2024-12-brain-meaningful-spaces.html - 'Study suggests how brain, with sleep, learns meaningful maps of spaces'
