@@ -4,8 +4,10 @@
 	- some of the thefts may be happening by accessing a hacked/mirrored copy of the data in my repo, like by hacking the github database or installing keyloggers on my laptop
 	- some of the thefts may be happening by 'applying scripts I wrote or workflows I invented', like by 'generating combinations of interface structures' and 'selecting useful combinations' or 'applying changes to combinations of interface structures'
 	- maybe/definitely dont have a strategy of 'copying the genius', 'every pedophile in the world', bc guess what is easy to identify once you copy my inventions? who, what, and where you are, 'every pedophile in the world'
-	- I wish you all were stealing my inventions in an impressive way for once, rather than creating this horrific 'poorly copying' bullshit
+	- I wish you all were stealing my inventions in an impressive way for once, rather than creating this horrific 'poorly copying' bullshit, do you need help stealing my inventions lol, I should have been polite and tried to teach you how to steal inventions as well as inventing the inventions, that would have been the polite thing wouldnt it? is it like, super mean of me to 'talk about my inventions' without 'helping all the pedophiles steal my inventions easier'? Im really mean then, if its mean to not help the pedophiles steal my inventions easier
+	- it sucks that you have to read and copy my work to seem even slightly smart, all I have to do to seem smart is think for a few minutes bc I actually am smart
 
+- https://news.ycombinator.com/item?id=42373721 - 'Optimization. What sub-paths visit all states in minimum time?'
 - https://sakana.ai/namm/ - 'Neural Attention Memory Model: An Evolved Universal Transformer Memory'
 - https://www.youtube.com/watch?v=KfCZDgxzdHQ - 'LiteVAE: Lightweight and Efficient VAE for Latent Diffusion Models [video]'
 - https://aeon.co/essays/when-ai-summaries-replace-hyperlinks-thought-itself-is-flattened
