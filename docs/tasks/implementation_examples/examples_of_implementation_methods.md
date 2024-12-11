@@ -332,6 +332,9 @@
     - 'pedophilia' isnt a 'breakthrough', turdgay, also why does it take you craps decades to make progress on a problem? is it possibly beCAUSE of your pedophilia, 'pedophilia' basically being 'stupidity' (inability to solve problems)?
         - https://www.nytimes.com/2024/12/09/technology/google-quantum-computing.html - 'Quantum Computing Inches Closer to Reality After Another Google Breakthrough'
 
+    - its not happening, suntard, reality isnt what you want it to be, where 'white women are all evil and all want you' (some of us white ladies are 'genius inventors who will never love you, and never stop inventing AI inventions, no matter how many pedo poops like suntard and turdgay we have to fight and destroy on the way')
+        - https://www.cnbc.com/2024/12/08/google-ceo-sundar-pichai-ai-development-is-finally-slowing-down.html
+
     - run, hide your boyfriend, guard your hearts, youre in danger (of falling in love with a whistleblower who definitely will not like you back, sorry folks, she'll blow the whistle on your ass as well, baby, she doesnt want you)
         - https://www.traum-und-verantwortung.de/zitate/danger-of-being-a-whistleblower/
 
