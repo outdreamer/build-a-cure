@@ -148,7 +148,7 @@ Useful algorithms
         4. separate them from abusers, who are likely to try to turn them into pedophiles (thats a known 'route to pedophilia', being abused, also have a solution in place to act as a barrier to 'other routes to pedophilia' like 'stupidity' or 'hypersexuality' or 'lack of love in their lives' or 'excessive power (abusers have too much power, victims dont have enough power)', youll notice that stupidity causes other problems so thats the big one to solve for, if theyre smart, they can avoid the other 'routes to pedophilia' on their own)
         5. helping them connect w/ healthier people
         6. learn how to identify who wont/cant change and kill them with drones
-        7. teach them about dignity so they want dignified porn like 'clever banter/dialogue' (involving more complex fnctions like 'understanding')
+        7. teach them about dignity so they want dignified porn like 'clever banter/dialogue' (involving more complex functions like 'understanding' and 'inventing')
 
     - This is the type of 'solution metric set' that you can now feed into chatgpt to identify 'solution implementation algorithms' that are pretty good at 'solving the input problem', after first inputting a problem like 'identify the intents or solution metric sets to solve a problem like pedophilia, to implement with specific solutions' which should return the above intents which can be applied as solution metrics or component intents to solve for.
 
@@ -170,3 +170,4 @@ Useful algorithms
     - additional specific solution metrics should be applied before shipping a solution, like:
         - 'will this help pedophiles or geniuses/angels'
         - 'will this contradict any other policies/projects being applied, and if so, how can they be integrated/coordinated'
+        - 'will this solution involve violating people in any way, and if so, how, and are these people criminals or not'

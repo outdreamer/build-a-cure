@@ -15,6 +15,7 @@
 	- https://semianalysis.com/2024/12/09/intel-on-the-brink-of-death/
 	- https://www.wheresyoured.at/godot-isnt-making-it/
 
+- https://jampauchoa.substack.com/p/what-kitchen-screws-can-teach-us - 'What kitchen screws teaches us about code comments'
 - https://www.theregister.com/2024/12/09/palantir_anduril_alliance/ - 'Tech companies Palantir and Anduril form fellowship for AI adventures'
 - https://www.getpointer.ai/google-docs-ai - 'Show HN: Pointer – AI agent for Google Docs (like an intern working for you)'
 - https://www.youtube.com/watch?v=2jKVx2vyZOY - '12 Days of OpenAI: Day 3 [video]'
