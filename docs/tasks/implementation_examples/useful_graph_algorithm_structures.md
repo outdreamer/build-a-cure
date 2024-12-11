@@ -171,3 +171,5 @@ Useful algorithms
         - 'will this help pedophiles or geniuses/angels'
         - 'will this contradict any other policies/projects being applied, and if so, how can they be integrated/coordinated'
         - 'will this solution involve violating people in any way, and if so, how, and are these people criminals or not'
+
+    - I can solve a harder problem than pedophilia (turning a straight woman into a bisexual woman, in a 'real' way, not by 'cheap false methods' like 'giving them alcohol', but by 'being a cool woman who is manlier than any man like better at problem-solving'), so I know I can solve pedophilia, and Ive already made decent progress at finishing that goal, so dont let turdgay ruin it all by killing me, distract him with whores who are really good at pretending to love someone if you cant kill him for some odd reason (it would be really weird if it was impossible to kill a hated pedophile guys, Im pretty sure it'll be possible, even trivial to do that, and he wont stop trying to kill me bc hes so pathetic and obsessed with me)
