@@ -209,6 +209,9 @@
     - buzzer noise: actually we needed a 'pedophile-free world', not a 'slightly better 2-week weather prediction'
         - https://www.nytimes.com/2024/12/04/science/google-ai-weather-forecast.html
 
+    - why hasnt it solved reality, if its so great? how come I solved reality rather than the 'ashamed pedophile pile that is google', how come the ashamed pedophile pile is still trying to kill me, if the pedophile pile is so great that it can tell smart people including Joni get to exist, and if theyre definitely not ealous of me, like they insist while doing all those ealous crimes of violation/theft/torture/sexual abuse/drugging, how come it always commits crimes against me if it loves happy hot smart people so much, why does tinydick turdgay always try to 'nag me and guilt me and coerce me and threaten me and poison me into pretending to love it', if its so great, we dont need a program that can 'count up to septillion', turds, we need what Im building (problem-solving automation functions), stop 'trying to torture white women who are too smart to date you' and start 'paying me for my inventions'
+        - https://www.youtube.com/watch?v=bgxhq2iP1Sc - 'Google Computer Solves Septillion-Year Task in Minutes [video]'
+
     - people who are right are 'capable of saving innocent lives', 'people who arent right' arent capable of anything except 'crimes', people who are right can also 'fix everything bc theyre right about errors as well as everything else like how to fix errors'
         - https://databased.pedramnavid.com/p/its-not-enough-to-be-right
         - its not enough to be 'nice' or 'loving', pedophiles are 'nice' to pedophiles, thats not good, violation/rape is a 'type of love', its 'forced love', thats not good either
