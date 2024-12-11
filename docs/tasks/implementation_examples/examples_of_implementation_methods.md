@@ -365,6 +365,7 @@
 
     - pedophilia still isnt 'mind-boggling' today either, lol I expect youll check again tomorrow if pedophilia is mind-boggling yet (and Ill say no again tomorrow, and forever every day after that as well, Ill be the first to create infinity in reality by how many times Ive said no to you, and build algorithms that also say no to you, and build computers that apply algorithms iteratively to say no to you as well, infinitely, until the whole universe rejects you infinitely turdgay)
         - https://www.theguardian.com/technology/2024/dec/09/google-unveils-mindboggling-quantum-computing-chips
+        - still not seeing that email notifying me that Ive received the $100 million dollars at least for all my inventions that OpenAI, Google, Amazon, Apple, Microsoft, etc stole for years, still waiting
 
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
