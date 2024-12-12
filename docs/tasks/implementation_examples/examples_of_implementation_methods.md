@@ -277,6 +277,9 @@
     - ta da! google has the soul of a pedophile, you always do the worst easiest thing, including literal child rape now! also, run kids, run!
         - https://destinymatrix.cc/ - 'Destiny Matrix – Free Life Path Calculator and Analysis'
 
+    - the hated pedophile, ugly old turdgay swine, is going to have to sacrifice itself for all its pedophile crimes, it wont get to see the smart glasses or any other cool inventions happen, all of which will happen without it
+        - https://www.theverge.com/2024/12/11/24318672/google-smart-glasses-ai-gemini - "Google's AI-powered smart glasses are a little closer to being real"
+
     - justice benefits mental health, nothing else does though
         - https://www.ucl.ac.uk/news/2024/dec/minimal-proof-increased-surveillance-technology-benefits-mental-health-wards
 
