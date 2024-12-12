@@ -323,7 +323,7 @@
 			- nattokinase, omega-3s, moringa
 			- atherosclerosis cased by diabetes: prunella vulgaris
 		- high blood pressure
-			- omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
+			- tyrosine, omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
 			- types of substances, by cause/intent:
 				- for high blood pressure caused by diabetic nephropathy: ACE inhibitors or ARBs, which dilate the arteriole exiting the glomerulus, thus reducing the blood pressure within the glomerular capillaries, may slow progression of the disease. Three classes of diabetes medications (GLP-1 agonists, DPP-4 inhibitors, and SGLT2 inhibitors) are also thought to slow the progression of diabetic nephropathy
@@ -461,7 +461,7 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use pycnogenol, prunella vulgaris, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use tyrosine, pycnogenol, prunella vulgaris, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- treat high blood pressure and kidney damage, avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
