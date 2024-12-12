@@ -403,6 +403,9 @@
         - https://www.theguardian.com/technology/2024/dec/09/google-unveils-mindboggling-quantum-computing-chips
         - still not seeing that email notifying me that Ive received the $100 million dollars at least for all my inventions that OpenAI, Google, Amazon, Apple, Microsoft, etc stole for years, still waiting
 
+    - I dont have to 'suffer pedophile dick' in order to get a 'startup to make money to save the world', if thats a 'rule in silicon valley bc of all the incels there', then 'silicon valley' goes away
+        - https://web.stanford.edu/class/e145/2007_fall/materials/Characteristics.html - 'Characteristics of the Entrepreneur: Social Creatures, Not Solo Heroes'
+
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
         - would you expect pedophiles to be allowed by the police to try to touch you by eye-fucking your body in private 24/7 whenever they felt like it (which is rape/torture) for years, or would you expect the police to arrest the tiny-dicked pedophile trying to touch you the moment they find out about that happening, the very moment you scream at the pedophile to get away from you the very first time you scream that, and arrested and put in jail for life and tortured to death in prison?
