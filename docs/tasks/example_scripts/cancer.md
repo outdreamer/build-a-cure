@@ -465,7 +465,7 @@
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- isoprenaline can increase CBIN1, which can help heal heart failure
 					- https://pubmed.ncbi.nlm.nih.gov/32614937/
-					- 'can tyrosine increase CBIN1' is a related question (its been helping with high blood pressure, so possibly)
+					- 'can tyrosine increase CBIN1, given that tyrosine is a precursor to catecholamines (which might include synthetic catecholamines like isoprenaline)' is a related question (its been helping with high blood pressure, so possibly)
 				- treat high blood pressure and kidney damage, avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
