@@ -16,7 +16,11 @@
 	- https://www.wheresyoured.at/godot-isnt-making-it/
 	- these people keep threatening me (the person brave enough to talk about and think about how to solve pedophilia which is stupidity until she succeeds) with a 'downfall' or a 'fall from grace' for 'hating violation', what could possibly be any clearer in terms of 'who to get rid of' (its the people who hate that brave smart happy hot person who loves solving problems)
 		- https://cacm.acm.org/opinion/intels-fall-from-grace/
+	- https://sourcegraph.com/blog/the-death-of-the-stubborn-developer
 
+- https://www.freethink.com/society/techno-humanist-manifesto-chapter-4-section-2 - 'How to reclaim meaning in a changing world'
+- https://www.besidescode.com/p/the-hidden-value-in-slow-progress
+- https://www.koyeb.com/blog/scale-to-zero-optimize-gpu-and-cpu-workloads
 - https://9to5google.com/2024/12/11/gemini-advanced-deep-research/ - "Gemini Advanced rolling out first agentic feature: 'Deep Research'"
 - https://arxiv.org/abs/2405.14838 - 'From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step'
 - http://memosisland.blogspot.com/2024/05/llm-analysis-fallacy.html - 'AutoML: On the fallacy of many-shot in-context learning'
