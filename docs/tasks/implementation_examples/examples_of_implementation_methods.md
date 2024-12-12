@@ -280,6 +280,9 @@
     - justice benefits mental health, nothing else does though
         - https://www.ucl.ac.uk/news/2024/dec/minimal-proof-increased-surveillance-technology-benefits-mental-health-wards
 
+    - ha ha, google pedophiles are being murdered by openAI bc openAI used my inventions while google pedophiles were spying on me in the toilet, looks like you were the '"people" murdered by my inventions', not me, the lesson would have been 'dont be the competition against a genius bc it will not be a competition, let alone a fair fight, yall pedo poop will lose, bc yall pedo poop are already dead' if you could grasp anything other than dogs/kids
+        - https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/
+
     - "getting arrested for pedophilia" is "whats next for you"
         - https://www.youtube.com/watch?v=OsxwBmp3iFU - "NYT: Sundar Pichai on A.Ι., Regulation and What's Next for Google"
 
