@@ -283,8 +283,14 @@
     - justice benefits mental health, nothing else does though
         - https://www.ucl.ac.uk/news/2024/dec/minimal-proof-increased-surveillance-technology-benefits-mental-health-wards
 
+    - 'pedophilia' isnt 'for the common god', tinydick turdgay, thats 'too helpful to pedophiles'
+        - https://www.noemamag.com/trespassing-for-the-common-good/
+
     - 'toilet rape' isnt 'support', its 'pedophilia', like everything else you do and are, totally determined by your ugly face and body bc you are a pedophile so you dont have a mind, so you were always dead, like every other flaw feces
         - https://developers.google.com/custom-search/v1/site_restricted_api
+
+    - there is actually no universe where turdgay isnt a pedophile, bc he has so many flaws that cause pedophilia that if you change the universe it exists in, its still a pedophile and it still rapes pigs/kids/anything, so it doesnt matter if anyone 'discovers the multiverse' which google certainly did not do, as they merely 'invented pedophilia again like always', turdgay will still always infinitely be a pedophile and nothing better
+        - https://techcrunch.com/2024/12/10/google-says-its-new-quantum-chip-indicates-that-multiple-universes-exist/
 
     - ha ha, google pedophiles are being murdered by openAI bc openAI used my inventions while google pedophiles were spying on me in the toilet, looks like you were the '"people" murdered by my inventions', not me, the lesson would have been 'dont be the competition against a genius bc it will not be a competition, let alone a fair fight, yall pedo poop will lose, bc yall pedo poop are already dead' if you could grasp anything other than dogs/kids
         - https://arstechnica.com/tech-policy/2024/12/report-microsofts-exclusive-deal-with-openai-harms-competition-google-told-ftc/

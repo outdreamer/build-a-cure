@@ -17,6 +17,10 @@
 	- these people keep threatening me (the person brave enough to talk about and think about how to solve pedophilia which is stupidity until she succeeds) with a 'downfall' or a 'fall from grace' for 'hating violation', what could possibly be any clearer in terms of 'who to get rid of' (its the people who hate that brave smart happy hot person who loves solving problems)
 		- https://cacm.acm.org/opinion/intels-fall-from-grace/
 
+- https://9to5google.com/2024/12/11/gemini-advanced-deep-research/ - "Gemini Advanced rolling out first agentic feature: 'Deep Research'"
+- https://arxiv.org/abs/2405.14838 - 'From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step'
+- http://memosisland.blogspot.com/2024/05/llm-analysis-fallacy.html - 'AutoML: On the fallacy of many-shot in-context learning'
+- https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjae032/7821262?login=true - 'Overinference from Weak Signals and Underinference from Strong Signals'
 - https://www.aiengineerpack.com/ - 'AI Engineer Starter Pack'
 - https://news.ycombinator.com/item?id=42391235 - '"Enhanced Civic Answers" Now Being Default in Google Gemini'
 - https://gambol.dev/ - 'Gambol – an interesting new programming language'
