@@ -18,6 +18,7 @@
 		- https://cacm.acm.org/opinion/intels-fall-from-grace/
 	- https://sourcegraph.com/blog/the-death-of-the-stubborn-developer
 
+- https://spectrum.ieee.org/transformer-shortage - 'Transformer Shortage Crisis: Can New Engineering Solve It?'
 - https://www.freethink.com/society/techno-humanist-manifesto-chapter-4-section-2 - 'How to reclaim meaning in a changing world'
 - https://www.besidescode.com/p/the-hidden-value-in-slow-progress
 - https://www.koyeb.com/blog/scale-to-zero-optimize-gpu-and-cpu-workloads
