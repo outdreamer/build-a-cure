@@ -405,6 +405,7 @@
 
     - I dont have to 'suffer pedophile dick' in order to get a 'startup to make money to save the world', if thats a 'rule in silicon valley bc of all the incels there', then 'silicon valley' goes away
         - https://web.stanford.edu/class/e145/2007_fall/materials/Characteristics.html - 'Characteristics of the Entrepreneur: Social Creatures, Not Solo Heroes'
+        - I wasnt 'given an alternative option', I was told 'tiny ugly pedophile dick, or death' by tinydick turdgay swine, so I chose option C, 'surviving the poisonous aphrodisiacs on my own somehow' instead
 
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
