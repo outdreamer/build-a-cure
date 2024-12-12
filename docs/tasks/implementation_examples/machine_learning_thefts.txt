@@ -22,6 +22,7 @@
 	- https://leebriggs.co.uk/blog/2024/12/10/the-death-of-devrel - 'The Death of Developer Relations'
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 
+- https://www.wsj.com/tech/ai/ai-safety-testing-red-team-anthropic-1b31b21b - 'The AI Researchers Pushing Computers to Launch Nightmare Scenarios'
 - https://medium.com/gitconnected/from-solution-to-problem-the-reverse-path-to-smarter-ai-80a69d17c28b
 - https://www.livescience.com/physics-mathematics/mathematics/infamous-sofa-problem-that-boggled-mathematicians-for-decades-may-finally-have-a-solution
 - https://eriktorenberg.substack.com/p/david-sacks-intellectual-journey

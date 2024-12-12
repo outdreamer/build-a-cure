@@ -550,6 +550,8 @@
 			- obesity:
 				- cold therapy for metabolic health, avoid appetite stimulants like omega 3s/sugar/corticosteroids/steroids, use sedatives like melatonin/theanine/CBD for appetite control (in small doses to avoid cardiac complications of CBD), treat hormonal imbalances, inflammation, correct vitamin deficiencies like zinc, imbalances like acidosis, organ damage like adrenal/thyroid damage, and microbial/parasitic infections which can increase appetite, avoid excess carbs/meat which can cause negative metabolic changes
 				- use carnitine/taurine to increase muscle growth, plants with high nitrite content like beets/spinach for improving exercise performance, supplements like d-ribose and b-vitamins for energy to exercise, etc
+				- activate NK2R to decrease body weight, blood glucose, triglycerides and cholesterol, and increase insulin resistance
+					- https://www.nature.com/articles/s41586-024-08207-0?error=cookies_not_supported&code=f00cbe60-f805-41fa-9273-f3bce0d8ee4d
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications - https://en.wikipedia.org/wiki/Diabetic_nephropathy
