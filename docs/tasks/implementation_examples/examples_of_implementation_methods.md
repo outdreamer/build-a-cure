@@ -283,6 +283,9 @@
     - "getting arrested for pedophilia" is "whats next for you"
         - https://www.youtube.com/watch?v=OsxwBmp3iFU - "NYT: Sundar Pichai on A.Ι., Regulation and What's Next for Google"
 
+    - hey ugly/brown/fat/old ladies, turdgay is available, like always! I notice absolutely nobody is excited and all the whores are 'trying to talk themselves into being grateful for his money, at least' and 'trying to believe it will somehow at least hurt his torture victim, Joni (the only person who matters, the real treasure) in some way'
+        - https://blog.google/products/gemini/google-gemini-deep-research/
+
     - I dont think you can sue the 'Consumer Financial Protection Bureau' for your pedophilia, turdgay
         - https://www.cnn.com/2024/12/06/business/google-pay-lawsuit-cfpb/index.html - 'Google sues Consumer Financial Protection Bureau'
         - I dont think you can sue them for 'being tricked into banging the ugly old pig, taylor swift', either, though I would be mad too in your position if I was such a fool, I do feel pity for 'something that has to touch ugly old browns and ugly old pigs like taylor swift' (theyre all old bc theyre all pedophile pigs, which is ancient), but not enough pity that Im willing to die for them, Id just put them out of their misery by killing the hated miserable crap, then I wouldnt have to feel disgust at their existence ever again once theyre dead

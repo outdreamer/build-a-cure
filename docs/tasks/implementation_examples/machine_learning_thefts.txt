@@ -17,6 +17,8 @@
 	- these people keep threatening me (the person brave enough to talk about and think about how to solve pedophilia which is stupidity until she succeeds) with a 'downfall' or a 'fall from grace' for 'hating violation', what could possibly be any clearer in terms of 'who to get rid of' (its the people who hate that brave smart happy hot person who loves solving problems)
 		- https://cacm.acm.org/opinion/intels-fall-from-grace/
 
+- https://arxiv.org/abs/2411.13676 - 'Hymba: A Hybrid-Head Architecture for Small Language Models'
+- https://arxiv.org/abs/2405.18614 - 'Creating embedded interactive physics simulations from static textbook diagrams'
 - https://www.nature.com/articles/s41598-024-78530-z - 'Untrained neural nets demonstrate memorization-independent abstract reasoning'
 - https://technologyreview.com/2024/12/02/1107534/what-the-departing-white-house-chief-tech-advisor-has-to-say-on-ai/ - 'while making sure that we continue to protect critical assets like our intellectual property'
 - https://www.quantamagazine.org/exotic-new-superconductors-delight-and-confound-20241206/
