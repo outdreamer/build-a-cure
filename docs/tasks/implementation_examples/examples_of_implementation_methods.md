@@ -283,7 +283,7 @@
     - "getting arrested for pedophilia" is "whats next for you"
         - https://www.youtube.com/watch?v=OsxwBmp3iFU - "NYT: Sundar Pichai on A.Ι., Regulation and What's Next for Google"
 
-    - hey ugly/brown/fat/old ladies, turdgay is available, like always! I notice absolutely nobody is excited and all the whores are 'trying to talk themselves into being grateful for his money, at least' and 'trying to believe it will somehow at least hurt his torture victim, Joni (the only person who matters, the real treasure) in some way'
+    - hey ugly/brown/fat/old ladies, turdgay is available, like always! I notice absolutely nobody is excited and all the whores are 'trying to talk themselves into being grateful for his money, at least' and 'trying to believe it will somehow at least hurt his torture victim, Joni (the only person who matters, the real treasure) in some way', thats pretty weird, short pedophiles kept insisting that 'tiny dicks are fancy' and that 'short guys are kings' somehow, I didnt check the math proof on that one, but I dont have to, bc where are all the hot bitches then? how come all the supermodels are 'carefully avoiding turdgay'?
         - https://blog.google/products/gemini/google-gemini-deep-research/
 
     - I dont think you can sue the 'Consumer Financial Protection Bureau' for your pedophilia, turdgay
