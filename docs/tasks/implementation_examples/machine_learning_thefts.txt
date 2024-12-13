@@ -23,6 +23,7 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://medisearch.io/announcements/pro_release - 'Show HN: MediSearch Pro–most accurate medical question-answering system'
 - https://blog.tryreva.com/posts/evals-in-perspective/ - 'Rethinking Testing for AI Products: Evals in Perspective'
 - https://arxiv.org/abs/2412.07961 - 'Forking Paths in Neural Text Generation'
 - https://news.rice.edu/news/2024/researchers-uncover-strong-light-matter-interactions-quantum-spin-liquids
