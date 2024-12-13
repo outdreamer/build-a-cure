@@ -362,6 +362,9 @@
     - 'pedophilia' still isnt a 'breakthrough', check again tomorrow lol!
         - https://haveanidea.substack.com/p/googles-willow-breakthrough
 
+    - no more 'pedo poop' from the 'pedo poop factory', no thank you, this isnt candy, this is poop folks, the candy was "Joni Jezewski's inventions" and you ruined the candy
+        - https://www.theverge.com/2024/12/12/24319879/google-willow-cant-break-rsa-cryptography
+
     - its not happening, suntard, reality isnt what you want it to be, where 'white women are all evil and all want you' (some of us white ladies are 'genius inventors who will never love you, and never stop inventing AI inventions, no matter how many pedo poops like suntard and turdgay we have to fight and destroy on the way')
         - https://www.cnbc.com/2024/12/08/google-ceo-sundar-pichai-ai-development-is-finally-slowing-down.html
 

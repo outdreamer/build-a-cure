@@ -23,6 +23,36 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- http://spyced.blogspot.com/2024/12/the-missing-piece-in-ai-coding.html - 'The Missing Piece in AI Coding: Automated Context Discovery'
+- https://www.together.ai/blog/codesandbox-acquisition-together-code-interpreter - 'Together AI acquires CodeSandbox to launch code interpreter for generative AI'
+- https://www.souzatharsis.com/tamingLLMs/markdown/toc.html - 'Taming LLMs – A Practical Guide to LLM Pitfalls with Open Source Software'
+- https://cohesiontech.io/ - 'Show HN: Cohesion – Evidence-Based Idea Prioritization for Teams and Individuals'
+- https://www.anthropic.com/research/clio - 'Clio: A system for privacy-preserving insights into real-world AI use'
+- https://worrydream.com/KillMath/
+- https://publish.obsidian.md/andrew-vault/Layer/Blogs/LLM+Extensibility-+Race+for+an+Ecosystem
+- https://institutionaldatainitiative.org/hello-world.html - 'Knowledge Institutions Can Build a Promethean Moment'
+- https://venturebeat.com/ai/microsofts-smaller-ai-model-beats-the-big-guys-meet-phi-4-the-efficiency-king/
+- https://every.to/thesis/how-to-build-a-truly-useful-ai-product
+- https://www.mdpi.com/2075-4434/12/6/78 - 'A Ground-Based Detector for Low-Frequency Gravity Gradient Measurement'
+- https://neurips.cc/virtual/2024/poster/96105 - 'Grokking of Implicit Reasoning in Transformers'
+- https://github.com/mmiscool/aiCoder - 'New AI code development tool that uses ASTs for merging snippets'
+- https://www.jollamind2.com/ - 'Jolla Mind2 Privacy-First AI Computer'
+- https://github.com/lltfm/openness/blob/main/works/saltem_hoc/README.md - 'Openness GPT: transmuting "hallucination" faux pas into imaginative gold'
+- https://www.enterprisebot.ai/blog/back-to-basics-a-generative-ai-benchmark-for-enterprise
+- https://gfrison.com/2024/12/01/rhetoric-llms-argumentation - 'Rhetorical Devices for Argumentation with LLMs'
+- https://gfrison.com/2024/12/01/defeasible-logic-automatic-argumentation - 'Defeasible Logic for Automatic Argumentation'
+- https://github.com/yoheinakajima/babyagi-2o - 'Babyagi-2o: the simplest self-building autonomous agent'
+- https://www.dakshineshwari.net/post/data-modernization-for-ai-4-stages-of-data-engineering-1 - 'Data Modernization for Gen-AI – 4 Stages of a Data Engineering Re-Think' (yeah think again)
+- https://cacm.acm.org/opinion/on-program-synthesis-and-large-language-models/
+- https://www.vincentschmalbach.com/the-reality-of-innovation/
+- https://arxiv.org/abs/2412.04537 - 'Understanding Hidden Computations in Chain-of-Thought Reasoning'
+- https://synapticgap.org/2024/12/11/the-six-mechanisms-of-algorithmic-control-insights-from-algorithms-at-work/
+- https://eleo.ai/ - 'Genius AI Assistant'
+- https://www.wsj.com/articles/get-ready-for-long-thinking-ais-next-leap-forward-2024e63c
+- https://xtdb.com/blog/the-missing-sql-subqueries
+- https://twitter.com/MaximGorbachev_/status/1867210159635763232 - 'He dares to dream: open letter to Elon Musk proposes a new path for humanity'
+- https://marginalrevolution.com/marginalrevolution/2024/12/tetlock-on-testing-grand-theories-with-ai.html
+- https://codewithcory.com/programming-paradigms-presented-plainly
 - https://scitechdaily.com/a-physics-discovery-so-strange-its-changing-quantum-theory/
 - https://medisearch.io/announcements/pro_release - 'Show HN: MediSearch Pro–most accurate medical question-answering system'
 - https://blog.tryreva.com/posts/evals-in-perspective/ - 'Rethinking Testing for AI Products: Evals in Perspective'
@@ -3163,7 +3193,6 @@
 - https://arxiv.org/abs/2411.08874 - 'A Decidable Case of Query Determinacy: Project-Select Views'
 - https://github.com/google/emboss - 'Emboss, a tool for generating code that reads and writes binary data structures'
 - https://dylanhuang.com/blog/llm-pmf/ - 'Not All Problems Are Great Fits for LLMs'
-- https://github.com/evidentlyai/evidently - 'Evidently: Open-source ML observability platform'
 - https://fireworks.ai/blog/fireworks-compound-ai-system-f1 - 'Fireworks F1: A Breakthrough in Complex Reasoning with Compound AI'
 - https://arxiv.org/abs/2411.10406 - 'How to Build a Quantum Supercomputer: Scaling Challenges and Opportunities'
 - https://codefaster.substack.com/p/how-to-code-for-the-future
