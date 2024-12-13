@@ -552,6 +552,8 @@
 				- use carnitine/taurine to increase muscle growth, plants with high nitrite content like beets/spinach for improving exercise performance, supplements like d-ribose and b-vitamins for energy to exercise, etc
 				- activate NK2R to decrease body weight, blood glucose, triglycerides and cholesterol, and increase insulin resistance
 					- https://www.nature.com/articles/s41586-024-08207-0?error=cookies_not_supported&code=f00cbe60-f805-41fa-9273-f3bce0d8ee4d
+				- natoral alternatives to ozempic to boost GLP-1 (berberine, tea, curcumin, cinnamon, wheat, soy, resveratrol, and gardenia) and related compounds (PPAR-α agonist fenofibrate, dipeptidyl peptidase-4 inhibitors, Momordica charantia, green-plant membranes, exendin-4, Geniposide, Mate tea (Ilex paraguariensis), quercetin, ginger, Artemisia dracunculus, Smallanthus sonchifolius (yacon), Monounsaturated fatty acids, Glutamine, Blueberries)
+					- https://pubmed.ncbi.nlm.nih.gov/34981502/
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications - https://en.wikipedia.org/wiki/Diabetic_nephropathy
