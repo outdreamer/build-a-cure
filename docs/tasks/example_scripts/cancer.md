@@ -184,6 +184,9 @@
 		- fungal infections:
 			- keto diet, holy basil, sitosterol, kombucha/kefir/probiotics/lactic acid bacteria, beets, coconut (dont take sitosterol if you have cancer, it suppresses a tumor suppressor IL-25), capsaicin
 		- viral infections: 
+			- prevent cytokine storm
+				- Modified citrus pectin: May bind galectin-3, a protein involved in hyperinflammatory responses
+				- Vitamin D3, Quercetin, Zinc, Curcumin, Nigella Sativa, Melatonin, Vitamin C, NAC and Glutathione, Vitamin A, Omega 3s, Selenium, B Vitamins, Molecular Hydrogen, Lactoferrin, Probiotics, Green Tea, Astaxanthin, Resveratrol
 			- general antivirals: NAC, curcumin, catechins/theaflavins (green/black tea), zinc, vitamin c, licorice, elderberry, astragalus, echinacea, propolis, red sage/sage, garlic, mushrooms (cordyceps, shiitake, turkey tail, reishi, chaga, maitake), ginger, prunella vulgaris, sweet/holy basil, chlorella, caesalpinia pulcherrima (peacock flower), and hypericum connatum (st john's wort), oregano, pulicaria, rosemary, myrrh, nicotinamide 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7831775/
 				- additional herbs used to inactivate viruses: 
@@ -1272,7 +1275,7 @@
 				- it is loss of MTAP that leads to reduced TIL density
 				- MTAP loss causes accumulation of methylthioadenosine (MTA) both intracellularly and extracellularly and profoundly impairs T cell function via the inhibition of protein arginine methyltransferase 5 (PRMT5) and by adenosine receptor agonism
 				- Administration of MTA-depleting enzymes reverses this immunosuppressive effect, increasing TILs and drastically impairing tumor growth
-		- increase parts of the covid immune response, which extremely reduced my brain tumor during the active immune response
+		- increase parts of the covid/flu immune response, which extremely reduced my brain tumor during the active immune response
 			- iodine
 				- The antimicrobial action of iodine is quick and works at low concentrations, and thus it is used in operating theatres. Its specific mode of action is unknown. It penetrates into microorganisms and attacks particular amino acids (such as cysteine and methionine), nucleotides, and fatty acids, ultimately resulting in cell death
 			- I would try reducing and increasing interferon-gamma and TNF-α bc they can both attack and help cancer (as part of the covid immune reponse, they attacked cancer for me), so its useful to find out which function your cancer responds to, by testing both sets of substances
