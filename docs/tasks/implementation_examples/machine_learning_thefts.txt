@@ -23,6 +23,10 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://arstechnica.com/ai/2024/12/are-llms-capable-of-non-verbal-reasoning/
+- https://medium.com/@thetactilemuse/one-way-solutions-one-sided-burden-b12d40a1a914
+- https://medium.com/@ignacio.de.gregorio.noblejas/why-amazons-ai-strategy-is-finally-legit-91a7d570af11
+- https://medium.com/code-like-a-girl/fail-better-why-risk-taking-fuels-workplace-innovation-b0d1c808929e
 - http://spyced.blogspot.com/2024/12/the-missing-piece-in-ai-coding.html - 'The Missing Piece in AI Coding: Automated Context Discovery'
 - https://www.together.ai/blog/codesandbox-acquisition-together-code-interpreter - 'Together AI acquires CodeSandbox to launch code interpreter for generative AI'
 - https://www.souzatharsis.com/tamingLLMs/markdown/toc.html - 'Taming LLMs – A Practical Guide to LLM Pitfalls with Open Source Software'
