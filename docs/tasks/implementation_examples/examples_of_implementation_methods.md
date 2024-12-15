@@ -409,7 +409,7 @@
         - https://www.theguardian.com/technology/2024/dec/09/google-unveils-mindboggling-quantum-computing-chips
         - still not seeing that email notifying me that Ive received the $100 million dollars at least for all my inventions that OpenAI, Google, Amazon, Apple, Microsoft, etc stole for years, still waiting
 
-    - next time you want to brag about something, especially about how intelligent you are, google pedophiles, remember that you couldnt tell 'dont rape whites' let alone 'dont rape geniuses' or even 'dont rape inventors' or even just 'dont rape women', so we know youre not smart, see that? I bet you hate that we can just figure things out about you by thinking
+    - next time you want to brag about something, especially about how intelligent you are, google pedophiles, remember that you couldnt tell 'dont rape whites' let alone 'dont rape geniuses' or even 'dont rape inventors' or even just 'dont rape women', so we know that 'dont rape white female genius inventor heroes' is way out of your league in terms of what will ever be within your reach, and youll also get 'dont rape' wrong as well, so we know youre not smart, see that? I bet you hate that we can just figure things out about you by thinking
         - https://medium.com/@ignacio.de.gregorio.noblejas/google-evolves-the-ai-genie-and-its-impressive-a4642b547c9a
 
     - I dont have to 'suffer pedophile dick' in order to get a 'startup to make money to save the world', if thats a 'rule in silicon valley bc of all the incels there', then 'silicon valley' goes away
