@@ -27,7 +27,23 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
-
+- https://www.wired.com/story/artificial-intelligence-work-organizational-strategy/ - 'AI Will Evolve Into an Organizational Strategy for All'
+- https://www.psypost.org/scientists-sheds-light-on-how-our-brains-create-mental-chapters-with-new-event-segmentation-study/ - 'Our brains create mental "chapters" with new event segmentation study'
+- https://www.cell.com/current-biology/abstract/S0960-9822(24)01224-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982224012247%3Fshowall%3Dtrue - 'Top-down attention shifts behavioral/neural event boundaries in narratives'
+- https://wyounas.github.io/concurrency/2024/12/12/visualizing-concurrent-programs/
+- https://thetransitguy.substack.com/p/10-principles-for-a-new-democratic - 'Principles for a New Democratic Urban Agenda Amid the Big Blue Reckoning'
+- https://journal.hexmos.com/super-convenient-software/ - 'Super-Convenient Software, or the End of Workflows as We Know Them'
+- https://www.justinmath.com/at-some-point-doing-the-hard-thing-becomes-easier-than-making-the-hard-thing-easier/
+- https://www.justinmath.com/the-magic-youre-looking-for-is-in-the-full-assed-effort-youre-avoiding/
+- https://math.andrej.com/2021/06/24/the-dawn-of-formalized-mathematics/
+- https://arendjr.nl/blog/2024/06/post-architecture/ - 'Post-Architecture: An Open Approach to Software Engineering'
+- https://killerstorm.github.io/2024/12/15/meaning.html - 'Can LLMs represent meaning? / Getting over the impenetrable wall'
+- https://arxiv.org/abs/2411.09944 - 'SlimLM: An Efficient Small Language Model for On-Device Document Assistance'
+- https://news.ycombinator.com/item?id=42419454 - 'Show HN: AI that deeply understands you codebase'
+- https://arxiv.org/abs/2411.14458 - 'Improving training time and GPU utilization in geo-distributed LLM training'
+- https://nodetool.ai/ - 'Show HN: NodeTool – Open-Source Visual Builder for AI Workflows'
+- https://www2.math.upenn.edu/~wilf/AeqB.html - '"A=B", a book about computer methods of discovery and proof of hypergeometric id'
+- https://arxiv.org/abs/2410.13065 - 'LLMs as Semiotic Machines: Reconceptualizing AI Language in Theories of Language'
 - https://github.com/alexminnaar/Diagify - 'Show HN: Diagify – CLI to convert natural language into technical diagrams'
 - https://zju3dv.github.io/longvolcap/ - 'Representing Long Volumetric Video with Temporal Gaussian Hierarchy'
 - https://aalokbhattacharya.substack.com/p/men-machines-and-horses - 'The Clever Hans Effect, Iterative LLM Prompting, and Socrates' Meno'
