@@ -27,6 +27,13 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://medium.com/gitconnected/fourier-analysis-networks-fans-are-here-to-break-barriers-in-ai-1c521c6656bc
+- https://arxiv.org/abs/2412.09624 - 'GenEx: Generating an Explorable World'
+- https://www.nature.com/articles/d41586-024-04096-5 - 'Does Probability Exist?'
+- https://paul.blasuc.ci/posts/fault-report.html - 'Fault an Theoretical Alternative to Result'
+- https://jeremymorrell.dev/blog/opentelemetry-and-the-value-of-standards/
+- https://thelastwave.substack.com/p/artificial-intelligence-never-dies - 'Growing an Alien Visual Culture'
+- https://www.socratify.com/ - 'Show HN: Socratify: Learn by Debating – critical thinking coach'
 - https://adactio.com/journal/21606 - 'Progressively Enhancing Maps'
 - https://www.alida.com/the-alida-journal/key-takeaways-from-innovation-day-to-shape-your-2025-research-plan
 - https://www.trymechai.com/ - 'MechAI: AI Copilot for CAD'
