@@ -27,6 +27,12 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://arxiv.org/abs/2406.14657 - 'Competitive debate evidence dataset for LLM persuasion'
+- https://www.newcartographies.com/p/the-arc-of-innovation-bends-toward - 'The Arc of Innovation Bends Toward Decadence'
+- https://arxiv.org/abs/2411.16905 - 'Boundless Socratic Learning with Language Games'
+- https://engineeringprompts.substack.com/p/sorry-human-youre-wrong - 'AI models pushing back: A cautionary tale of the artificial confidence of o1 pro'
+- https://www.youtube.com/watch?v=xoVJKj8lcNQ - 'The A.I. Dilemma (2023) [video]'
+- https://freakonometrics.hypotheses.org/77927 - 'Insurance analytics: prediction, explainability and fairness'
 - https://www.wired.com/story/artificial-intelligence-work-organizational-strategy/ - 'AI Will Evolve Into an Organizational Strategy for All'
 - https://www.psypost.org/scientists-sheds-light-on-how-our-brains-create-mental-chapters-with-new-event-segmentation-study/ - 'Our brains create mental "chapters" with new event segmentation study'
 - https://www.cell.com/current-biology/abstract/S0960-9822(24)01224-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982224012247%3Fshowall%3Dtrue - 'Top-down attention shifts behavioral/neural event boundaries in narratives'
