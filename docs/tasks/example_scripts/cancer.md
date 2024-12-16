@@ -469,6 +469,16 @@
 				- isoprenaline can increase CBIN1, which can help heal heart failure
 					- https://pubmed.ncbi.nlm.nih.gov/32614937/
 					- 'can tyrosine increase CBIN1, given that tyrosine is a precursor to catecholamines (which might include synthetic catecholamines like isoprenaline)' is a related question (its been helping with high blood pressure, so possibly)
+				- inhibit GDF-15 to prevent progression of heart failure with vitamin D
+					- https://academic.oup.com/cardiovascres/advance-article/doi/10.1093/cvr/cvae214/7766065#
+					- vitamin D (calcitriol) upregulates miR-627, which downregulates the expression of KDM3A (which encodes a histone demethylase), increases methylation of histone H3K9, and thereby suppresses expression of proliferative factors such as GDF15
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC4890569/
+					- resveratrol, EGCG, berberine and other bitter compounds increase either or both GDF15 and GLP-1
+						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11380393/
+					- GDF-15 is increased among metformin users, and empagliflozin was associated with an increase in GDF-15 levels
+						- https://pubmed.ncbi.nlm.nih.gov/37964408/
+					- increasing GDF-15 may be useful for treating diabetes
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8885880/
 				- treat high blood pressure and kidney damage, avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems

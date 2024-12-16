@@ -416,6 +416,9 @@
         - https://web.stanford.edu/class/e145/2007_fall/materials/Characteristics.html - 'Characteristics of the Entrepreneur: Social Creatures, Not Solo Heroes'
         - I wasnt 'given an alternative option', I was told 'tiny ugly pedophile dick, or death' by tinydick turdgay swine, so I chose option C, 'surviving the poisonous aphrodisiacs on my own somehow' instead
 
+    - take the goddamn hint, tinydick turdgay, youre unwanted, I dont want you, I wanted a job as an inventor and money for my inventions, I have been waiting for nearly ten years for my money now and Im done waiting, now Im taking down tech copanies that stole my inventions, this isnt 'confusing', youre just a turd
+        - https://www.youtube.com/watch?v=tVz_hf4Jbe0 - "How to Become a 37 Year Old Broke Loser [video]"
+
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?
         - would you expect pedophiles to be allowed by the police to try to touch you by eye-fucking your body in private 24/7 whenever they felt like it (which is rape/torture) for years, or would you expect the police to arrest the tiny-dicked pedophile trying to touch you the moment they find out about that happening, the very moment you scream at the pedophile to get away from you the very first time you scream that, and arrested and put in jail for life and tortured to death in prison?

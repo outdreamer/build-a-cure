@@ -27,6 +27,17 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://adactio.com/journal/21606 - 'Progressively Enhancing Maps'
+- https://www.alida.com/the-alida-journal/key-takeaways-from-innovation-day-to-shape-your-2025-research-plan
+- https://www.trymechai.com/ - 'MechAI: AI Copilot for CAD'
+- https://www.meta.com/blog/quest/boz-2024-look-back-2025-look-ahead/ - 'Accelerating the Future'
+- https://arxiv.org/abs/2403.01292 - 'Autonomous Intelligent Systems: From Illusion of Control to Inescapable Delusion'
+- https://github.com/PySpur-Dev/PySpur - 'Show HN: Graph-Based Editor for LLM Workflows'
+- https://philpapers.org/archive/DIEEOT-2.pdf - 'Equivalence of the Frame and Halting Problems (2020) [pdf]'
+- https://openai.com/12-days/?day=8 - '12 Days of OpenAI: Day 8'
+- https://lucidmach.com/blog/llms-wont-take-your-jobs/ - 'How to build less stupid AI'
+- https://brantondemoss.com/research/grokking/ - 'The Complexity Dynamics of Grokking'
+- https://durmonski.com/book-summaries/super-thinking/ - 'Super Thinking: The Big Book of Mental Models by Gabriel Weinberg'
 - https://arxiv.org/abs/2406.14657 - 'Competitive debate evidence dataset for LLM persuasion'
 - https://www.newcartographies.com/p/the-arc-of-innovation-bends-toward - 'The Arc of Innovation Bends Toward Decadence'
 - https://arxiv.org/abs/2411.16905 - 'Boundless Socratic Learning with Language Games'
