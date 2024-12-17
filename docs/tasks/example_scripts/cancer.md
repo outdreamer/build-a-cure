@@ -24,6 +24,7 @@
 					- vitamin c powder (take this in doses of 1 - 2 g/day with zinc to help prevent kidney stones, assuming youre otherwise healthy and can handle large doses of vitamin c) is another anti-inflammation substance to try, but it can make some cancers grow
 					- also check if other vitamin deficiencies are the cause of your cancer, such as by taking anti-cancer vitamins/minerals like iodine and vitamin d (not a huge dose, bc vitamin d can hurt your kidneys in large doses) to see if that fixes the cancer growth, or taking a multivitamin or eating a nutritionally complete diet (getting nutrients from diet rather than supplements will avoid the problem of 'feeding cancer directly by eating vitamins/minerals in supplement form, which puts it directly in the bloodstream')
 				- then check if 'low immunity' causes your cancer to grow, by stimulating immunity/klotho (klotho being a tumor suppressor) such as with a keto diet or high intensity interval training (half an hour of sprinting/resting cycles creates a strong immune response)
+					- another way to stimulate your immune response is to apply the flu/bird flu immune response (like by eating milk/eggs), which extremely reduced my brain tumor during the active immune response
 				- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like prunella vulgaris, ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
 					- try the strongest anti-cancer substances that are gentle on your organs first, like:
 						- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrs pectin)
@@ -1286,7 +1287,7 @@
 				- it is loss of MTAP that leads to reduced TIL density
 				- MTAP loss causes accumulation of methylthioadenosine (MTA) both intracellularly and extracellularly and profoundly impairs T cell function via the inhibition of protein arginine methyltransferase 5 (PRMT5) and by adenosine receptor agonism
 				- Administration of MTA-depleting enzymes reverses this immunosuppressive effect, increasing TILs and drastically impairing tumor growth
-		- increase parts of the covid/flu immune response, which extremely reduced my brain tumor during the active immune response
+		- increase parts of the covid/flu/bird flu immune response, which extremely reduced my brain tumor during the active immune response
 			- iodine
 				- The antimicrobial action of iodine is quick and works at low concentrations, and thus it is used in operating theatres. Its specific mode of action is unknown. It penetrates into microorganisms and attacks particular amino acids (such as cysteine and methionine), nucleotides, and fatty acids, ultimately resulting in cell death
 			- I would try reducing and increasing interferon-gamma and TNF-α bc they can both attack and help cancer (as part of the covid immune reponse, they attacked cancer for me), so its useful to find out which function your cancer responds to, by testing both sets of substances

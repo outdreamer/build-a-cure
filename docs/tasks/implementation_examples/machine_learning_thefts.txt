@@ -27,7 +27,8 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
-
+- http://www.drpaulwong.com/a-two-factor-model-of-search-for-meaning/ - 'A Two-Factor Model of Search for Meaning (2019)'
+- https://www.optimallyirrational.com/p/the-focusing-illusion
 - https://old.reddit.com/r/ChatGPT/comments/1hflb3y/i_asked_chatgpt_with_its_large_pool_of_knowledge/ - "I asked ChatGPT what strong correlations humans haven't discovered"
 - https://commentscope.co/ - 'Find hidden insights and valuable content and product ideas with COMMENTSCOPE'
 - https://www.quantamagazine.org/the-year-in-math-20241216/
