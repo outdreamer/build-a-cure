@@ -27,9 +27,15 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+
+- https://old.reddit.com/r/ChatGPT/comments/1hflb3y/i_asked_chatgpt_with_its_large_pool_of_knowledge/ - "I asked ChatGPT what strong correlations humans haven't discovered"
+- https://commentscope.co/ - 'Find hidden insights and valuable content and product ideas with COMMENTSCOPE'
+- https://www.quantamagazine.org/the-year-in-math-20241216/
+- https://github.com/mufeedvh/code2prompt
+- https://sakana.ai/namm/ - 'An Evolved Universal Transformer Memory (Sakana.ai)'
 - https://medium.com/gitconnected/fourier-analysis-networks-fans-are-here-to-break-barriers-in-ai-1c521c6656bc
 - https://arxiv.org/abs/2412.09624 - 'GenEx: Generating an Explorable World'
-- https://www.nature.com/articles/d41586-024-04096-5 - 'Does Probability Exist?'
+- https://www.nature.com/articles/d41586-024-04096-5 - "Does Probability Exist? Why probability probably doesn't exist (but it is useful to act like it does)"
 - https://paul.blasuc.ci/posts/fault-report.html - 'Fault an Theoretical Alternative to Result'
 - https://jeremymorrell.dev/blog/opentelemetry-and-the-value-of-standards/
 - https://thelastwave.substack.com/p/artificial-intelligence-never-dies - 'Growing an Alien Visual Culture'
