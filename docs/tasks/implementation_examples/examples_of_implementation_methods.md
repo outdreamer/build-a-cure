@@ -419,8 +419,11 @@
         - https://web.stanford.edu/class/e145/2007_fall/materials/Characteristics.html - 'Characteristics of the Entrepreneur: Social Creatures, Not Solo Heroes'
         - I wasnt 'given an alternative option', I was told 'tiny ugly pedophile dick, or death' by tinydick turdgay swine, so I chose option C, 'surviving the poisonous aphrodisiacs on my own somehow' instead
 
-    - take the goddamn hint, tinydick turdgay, youre unwanted, I dont want you, I wanted a job as an inventor and money for my inventions, I have been waiting for nearly ten years for my money now and Im done waiting, now Im taking down tech copanies that stole my inventions, this isnt 'confusing', youre just a turd
+    - take the goddamn hint, tinydick turdgay, youre unwanted, I dont want you, I wanted a job as an inventor and money for my inventions, I have been waiting for nearly ten years for my money now and Im done waiting, now Im taking down tech companies that stole my inventions, this isnt 'confusing', youre just a turd
         - https://www.youtube.com/watch?v=tVz_hf4Jbe0 - "How to Become a 37 Year Old Broke Loser [video]"
+
+    - it doesnt matter if you "helped solve a pedophile's murder that one time", youre still a pedophile who ruined the world bc of your ugly face and tiny dick, turdgay, youre supposed to get self-awareness and die, not try to get compliments
+        - https://english.elpais.com/international/2024-12-18/caught-by-google-maps-photo-of-man-putting-suspicious-bundle-in-his-trunk-key-to-solving-a-murder.html
 
     - what would you expect to happen, once you invented amazing inventions to save the world
         - would you expect pedophiles to take all your rights and happiness and health for inventing problem-solving automation programs, or would you expect companies to try really hard to recruit and hire you to work on that full time at your new job as an inventor? and if they didnt hire you, would you then figure out that jealous women/incels/pedophiles were lying about you to destroy your happiness like always?

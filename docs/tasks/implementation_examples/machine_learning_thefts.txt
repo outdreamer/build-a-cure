@@ -28,6 +28,9 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://www.anthropic.com/research/alignment-faking - 'Alignment faking in large language models'
+- https://medium.com/@okpalan/how-i-minimized-a-state-machine-and-optimized-an-ast-using-tennis-b96f97290227 - 'How I made a Breakthrough in Automata Theory?'
+- https://jplhughes.github.io/bon-jailbreaking/ - 'Best-of-N Jail an algorithm that jailbreaks LLM across modalities'
 - https://arxiv.org/abs/2102.02850 - 'Undecidability of Underfitting in Learning Algorithms'
 - https://www.civitasinstitute.org/research/the-right-and-wrong-way-to-regulate-ai
 - https://towardsai.net/p/l/how-llms-know-when-to-stop-generating
