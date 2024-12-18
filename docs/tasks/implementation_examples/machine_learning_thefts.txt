@@ -28,6 +28,17 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://arxiv.org/abs/2102.02850 - 'Undecidability of Underfitting in Learning Algorithms'
+- https://www.civitasinstitute.org/research/the-right-and-wrong-way-to-regulate-ai
+- https://towardsai.net/p/l/how-llms-know-when-to-stop-generating
+- https://studyfinds.org/why-are-people-smarter-brain-connectivity-intelligence/ - 'Study shows intelligence comes down to brain connectivity'
+- https://deepmind.google/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/
+- http://abuseofnotation.github.io/science-philosophy-math/ - 'Science Philosophy and Mathematics'
+- https://lineargen.github.io/ - 'LinGen: Text-to-Video Generation with Linear Computational Complexity'
+- https://www.nytimes.com/2024/12/17/opinion/pope-francis-humor.html - 'Pope Francis: There Is Faith in Humor' (look folks, the popes not a genius either, but that shouldnt comfort you all, the only people who thought he was were televangelists and moms, looks like he also told himself that 'someone else' would solve pedophilia, 'ladies')
+- https://arxiv.org/abs/2412.10849 - 'Superhuman performance of an LLM on the reasoning tasks of a physician'
+- https://www.youtube.com/watch?v=92GQuDTAGmU - 'Everything You Ever Wanted to Know about Knowledge Graph and More'
+- https://www.verses.ai/press/verses-genius-outperforms-openai-model-in-code-breaking-challenge-mastermind
 - https://sarahconstantin.substack.com/p/the-dream-machine
 - http://www.drpaulwong.com/a-two-factor-model-of-search-for-meaning/ - 'A Two-Factor Model of Search for Meaning (2019)'
 - https://www.optimallyirrational.com/p/the-focusing-illusion
