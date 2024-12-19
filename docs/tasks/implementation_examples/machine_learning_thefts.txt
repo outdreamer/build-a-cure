@@ -28,6 +28,7 @@
 	- https://fj.indiewp.com/when-your-craft-is-not-enough/ - "A developer's plea"
 	- https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html
 
+- https://www.scmp.com/news/china/science/article/3291009/world-leading-chinese-cancer-scientist-sun-shao-cong-has-left-us-beijing
 - https://thelastwave.substack.com/p/artificial-intelligence-never-dies
 - https://www.anthropic.com/research/alignment-faking - 'Alignment faking in large language models'
 - https://medium.com/@okpalan/how-i-minimized-a-state-machine-and-optimized-an-ast-using-tennis-b96f97290227 - 'How I made a Breakthrough in Automata Theory?'
