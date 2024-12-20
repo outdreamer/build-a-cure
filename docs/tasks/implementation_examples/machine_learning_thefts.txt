@@ -17,6 +17,26 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://jimmyhmiller.github.io/pdfs/structure-and-legal-interpretation.pdf - 'The Structure and Legal Interpretation of Computer Programs [pdf]'
+- https://www.nature.com/articles/s41567-024-02718-3 - 'Into the islands of inversion'
+- https://www.nature.com/articles/s41567-024-02696-6 - 'Nishimori transition across the error threshold for constant-depth quantum circuits'
+- https://www.nature.com/articles/s41567-024-02697-5 - 'Controlling interactions between high-frequency phonons and single quantum systems using phononic crystals'
+- https://www.nature.com/articles/s41567-024-02711-w - 'Evidence for fractional matter coupled to an emergent gauge field in a quantum spin ice'
+- https://physicsworld.com/a/quantum-uncertainty-and-wave-particle-duality-are-equivalent-experiment-shows/
+- https://physics.stackexchange.com/questions/837421/field-and-equipotential-lines-of-a-negative-ring-around-a-postive-disc
+- https://arxiv.org/abs/2411.18634 - "Semantic, Orthographic, and Morphological Biases in Humans' Wordle Gameplay"
+- https://arxiv.org/abs/2412.13398 - 'Pattern Matching in AI Compilers and Its Formalization (Extended Version)'
+- https://alperenkeles.com/posts/the-lies-about-abstraction/
+- https://codeforamerica.org/news/five-questions-to-ask-before-adopting-ai-in-government/
+- https://arxiv.org/abs/2412.06849 - 'Rethinking the Combination of Graph Neural Network and Large Language Model'
+- https://www.16elt.com/2024/09/25/first-book-of-byte-sized-tech/ - 'Ideas from "A Philosophy of Software Design"'
+- https://arxiv.org/abs/2401.05375 - 'Self-sorting arrays reveal unexpected competencies in minimal intelligence'
+- https://www.youtube.com/watch?v=b2Hp0Jk9d4I - 'Solving Problems in AI: LLM Explainability, Hallucinations and More [video]'
+- https://genesis-embodied-ai.github.io/ - 'Genesis: A Generative and Universal Physics Engine for Robotics and Beyond'
+- https://arxiv.org/abs/2412.00608 - 'Leveraging LLM for Automated Ontology Extraction and Knowledge Graph Generation'
+- https://terrytao.wordpress.com/2024/12/17/on-the-distribution-of-eigenvalues-of-gue-and-its-minors-at-fixed-index/
+- https://unfooling.com/problems-to-keep-in-your-head/ - 'Problems in Your Head, Problems in My Head'
+- https://www.testingcatalog.com/google-develops-gemini-creative-partner-tools-for-image-editing-and-animation/
 - https://theendsdontjustifythemeans.substack.com/p/why-you-should-be-talking-with-gpt - 'You should be talking with GPT about philosophy'
 - https://financialnoob.substack.com/p/statistical-arbitrage-with-graph - 'Statistical arbitrage with graph clustering algorithms'
 - https://www.taskade.com/blog/agentic-workflows-towards-agi/ - 'Agentic Workflows: Paving the Path Towards AGI'
@@ -65,6 +85,8 @@
 - https://medium.com/gitconnected/fourier-analysis-networks-fans-are-here-to-break-barriers-in-ai-1c521c6656bc
 - https://arxiv.org/abs/2412.09624 - 'GenEx: Generating an Explorable World'
 - https://www.nature.com/articles/d41586-024-04096-5 - "Does Probability Exist? Why probability probably doesn't exist (but it is useful to act like it does)"
+	- https://www.nature.com/articles/d41586-024-04096-5#ref-CR4 - "Why Probability Doesn't Exist (but it's useful to pretend)"
+	- sorry, we already knew probability was useful, youre not worth it
 - https://paul.blasuc.ci/posts/fault-report.html - 'Fault an Theoretical Alternative to Result'
 - https://jeremymorrell.dev/blog/opentelemetry-and-the-value-of-standards/
 - https://thelastwave.substack.com/p/artificial-intelligence-never-dies - 'Growing an Alien Visual Culture'
