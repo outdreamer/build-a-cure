@@ -323,9 +323,12 @@
 			- Flow water and spring water also helped with acidosis/high blood pressure/stomach pain (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
+		- air pollution exposure:
+			- iodine, selenium, vitamin c/d/e, chlorella, gentian, schizandra, milk thistle, omega 3's
 		- atherosclerosis: 
 			- nattokinase, elastin F, omega-3s, moringa, policosanol
 			- atherosclerosis caused by diabetes: prunella vulgaris
+			- atherosclerosis caused by air pollution: air purifier
 			- statins (red yeast rice) and PCSK9 inhibitors (berberine)
 				- https://www.heart.org/en/news/2018/10/04/researchers-suggest-way-to-possibly-eliminate-artery-clogging-condition
 				- https://pmc.ncbi.nlm.nih.gov/articles/PMC9650693/

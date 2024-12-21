@@ -17,6 +17,61 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://guive.substack.com/p/updating-on-bad-arguments
+- https://news.ycombinator.com/item?id=42477514 - 'What Types of Issues Do Devs Handle on On-Call? Would Workflow Automation Work?'
+- https://minds.md/zakirullin/cognitive - 'Cognitive load is what matters [Programming]'
+- https://arxiv.org/abs/1911.01547 - 'On the Measure of Intelligence'
+- https://www.wsj.com/tech/ai/openai-gpt5-orion-delays-639e7693 - 'The Next Great Leap in AI Is Behind Schedule and Crazy Expensive'
+- https://spin.atomicobject.com/diagrams-mermaid-excalidraw/ - 'Effortlessly Create Diagrams Using ChatGPT, Mermaid, and Excalidraw'
+- https://the-agent-company.com/ - 'Benchmarking LLM Agents on Consequential Real World Tasks'
+- https://arxiv.org/abs/2412.13435 - 'Lightweight Safety Classification Using Pruned Language Models'
+- https://roelsworld.eu/blog-music/music-geometry-intervals-scales/
+- https://www.poopback.com/ - "Poopback – feedback that doesn't stink"
+- https://invariantlabs.ai/blog/explorer - 'Releasing Explorer and Testing: Visualize and Understand AI Agents'
+- https://www.notdiamond.ai/blog/1-5-million-human-preference-arena-rankings-on-llm-responses
+- https://mayhul.com/posts/type-driven-design/ - 'How types make hard problems easy'
+- https://plato.stanford.edu/entries/computational-mind/ - 'The Computational Theory of Mind (2015)'
+- http://web.archive.org/web/20170216082931/http://www.perl.com/doc/FMTEYEWTK/sort.html - "Far More Than Everything You've Ever Wanted to Know About Sorting (1995)"
+- https://arxiv.org/abs/1907.03382 - 'Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale'
+- https://twitter.com/NoamShazeer/status/1869789881637200228 - 'Gemini 2.0 Flash Thinking'
+- https://andrewhart.me/path-to-agi/ - 'Linear, Static Models Are Not the Path to AGI'
+- https://airesearch.js.org/ - 'Search vectorize and outline a knowledge graph on any topic'
+- https://www.quantamagazine.org/how-will-we-know-were-not-alone-20241219/
+- https://www.rnz.co.nz/news/top/537236/profound-consequences-canterbury-university-scientists-make-dark-energy-breakthrough
+- https://kmad0.github.io/Measuring-LLM-Confidence - 'Measuring LLM Confidence with Structured Outputs'
+- http://www.flowgorithm.org/index.html - 'Flowgorithm – Flow Chart-Based Programming'
+- https://www.mdpi.com/2079-9292/13/23/4828 - 'Computing-in-Memory (CIM) Design for Binary and Ternary Deep Neural Networks'
+- https://firstlight.bearblog.dev/on-freedom/
+- https://theconversation.com/noise-in-the-brain-enables-us-to-make-extraordinary-leaps-of-imagination-it-could-transform-the-power-of-computers-too-192367
+- https://gamma.app/docs/-qte1mfalhsbw628 - 'How Can Open-Source Superintelligent AI Sustain Ethical Standards?'
+- https://netboxlabs.com/blog/network-automation-zero-to-hero-training/
+- https://devideas.42web.io/?i=1 - 'An app idea sharing platform'
+- https://tsb0601.github.io/metamorph/ - 'MetaMorph – Language Models Are Closer to Being Universal Models Than We Thought'
+- https://aidea-app.framer.website/ - 'Show HN: AIdea – AI researches and brainstorms your startup idea'
+- https://techcrunch.com/2024/12/19/google-releases-its-own-reasoning-ai-model/
+- https://github.com/Anilturaga/aiide - 'Aiide: An alternative to defining tools for LLMs'
+- https://www.anthropic.com/research/building-effective-agents
+- https://www.youtube.com/watch?v=ScSLbV5MrjU - 'Converting Between Any Base in Rust–AI-Assisted Code Breakthrough in 60 Seconds'
+- https://engineering.fb.com/2024/12/19/developer-tools/glean-open-source-code-indexing/ - 'Indexing Code at Scale with Glean'
+- https://cleveralgorithms.com/nature-inspired/ - 'Clever Algorithms: Nature-Inspired Programming Recipes'
+- https://arxiv.org/abs/2412.06795 - 'SpikeFI: A Fault Injection Framework for Spiking Neural Networks'
+- https://research.google/blog/google-research-2024-breakthroughs-for-impact-at-every-scale/
+- https://www.tensorops.ai/post/emerging-architectures-of-llm-applications-2025-update
+- https://tomasp.net/blog/2015/library-frameworks/ - 'Dichotomy Between Frameworks and Libraries'
+- https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6
+- https://www.zdnet.com/article/ibms-new-enterprise-ai-models-are-more-powerful-than-anything-from-openai-or-google/
+- https://www.honest-broker.com/p/mainstream-is-now-fringe-and-fringe - 'Mainstream Is Now Fringe, and Fringe Is Mainstream'
+- https://arxiv.org/abs/2412.14362 - 'Efficient Solution of Stiff Ordinary Differential Equations at Low Tolerances'
+- https://www.daytona.io/dotfiles/building-better-ai-agents-the-ai-enablement-stack
+- https://www.youtube.com/watch?v=SKBG1sqdyIU - '12 Days of OpenAI: Day 12 [video]'
+- https://openai.com/index/deliberative-alignment/ - 'Deliberative alignment: reasoning enables safer language models'
+- https://params.com/@jeremy-berman/arc-agi - 'How to improve LLMs results in the ARC-AGI-PUB'
+- https://github.com/joseprupi/valyq - 'Show HN: Model Validation Using LLMs'
+- https://medium.com/@ElizAyer/the-red-line-reflection-drawing-a-line-on-acceptable-consequences-94bbb79bc1f7
+- https://aalokbhattacharya.substack.com/p/ai-alignment-an-engineering-problem - 'Why LLM Alignment Is an Engineering Problem, Not an Existential Crisis'
+- https://lotus-data.github.io/ - 'Lotus: query engine for processing structured and unstructured data with LLMs'
+- https://www.harvardlds.org/wp-content/uploads/2017/01/SpelkeKinzler07-1.pdf - 'Core Knowledge (2007) [pdf]'
+- https://www.noemamag.com/all-that-is-solid-melts-into-information/
 - http://conal.net/papers/compiling-to-categories/compiling-to-categories.pdf - 'Compiling to Categories [pdf] (2017)'
 - https://varietyengine.substack.com/p/beyond-collaboration - 'Beyond Collaboration:Reimagining Organizational Structures in View of Strong AI'
 - https://arxiv.org/abs/2412.13286 - 'Posterior Mean Matching: Generative Modeling Through Online Bayesian Inference'
