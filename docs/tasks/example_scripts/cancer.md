@@ -324,8 +324,11 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- atherosclerosis: 
-			- nattokinase, omega-3s, moringa
-			- atherosclerosis cased by diabetes: prunella vulgaris
+			- nattokinase, elastin F, omega-3s, moringa, policosanol
+			- atherosclerosis caused by diabetes: prunella vulgaris
+			- statins (red yeast rice) and PCSK9 inhibitors (berberine)
+				- https://www.heart.org/en/news/2018/10/04/researchers-suggest-way-to-possibly-eliminate-artery-clogging-condition
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC9650693/
 		- high blood pressure
 			- tyrosine, omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways

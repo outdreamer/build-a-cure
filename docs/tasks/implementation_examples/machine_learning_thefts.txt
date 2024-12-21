@@ -17,6 +17,13 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- http://conal.net/papers/compiling-to-categories/compiling-to-categories.pdf - 'Compiling to Categories [pdf] (2017)'
+- https://varietyengine.substack.com/p/beyond-collaboration - 'Beyond Collaboration:Reimagining Organizational Structures in View of Strong AI'
+- https://arxiv.org/abs/2412.13286 - 'Posterior Mean Matching: Generative Modeling Through Online Bayesian Inference'
+- https://github.com/RamboRogers/mis - 'AI Language to Command Interface'
+- https://gizmodo.com/ai-chatbots-can-be-jailbroken-to-answer-any-question-using-very-simple-loopholes-2000541157
+- https://blog.voyageai.com/2024/12/04/voyage-code-3/ - 'Code embedding model with Matryoshka learning and quantization-aware training'
+- https://petrocjv.sites.wfu.edu/wp-content/uploads/2018/09/Petrocelli-et-al.-2007.pdf - 'Unpacking Attitude Certainty: Attitude Clarity and Attitude Correctness [pdf]'
 - https://interestingengineering.com/science/implant-information-directly-into-brain - "Scientists learning to 'write' skills to human brain noninvasively, like Matrix"
 - https://jimmyhmiller.github.io/pdfs/structure-and-legal-interpretation.pdf - 'The Structure and Legal Interpretation of Computer Programs [pdf]'
 - https://www.nature.com/articles/s41567-024-02718-3 - 'Into the islands of inversion'
