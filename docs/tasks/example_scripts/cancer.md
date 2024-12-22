@@ -324,7 +324,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- air pollution exposure:
-			- iodine, selenium, vitamin c/d/e, chlorella, gentian, schizandra, milk thistle, omega 3's
+			- iodine, selenium, vitamin b/c/d/e, chlorella, gentian, schizandra, milk thistle, omega 3's
 		- atherosclerosis: 
 			- nattokinase, elastin F, omega-3s, moringa, policosanol
 			- atherosclerosis caused by diabetes: prunella vulgaris

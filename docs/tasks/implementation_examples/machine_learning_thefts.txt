@@ -17,6 +17,15 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://www.matematicasvisuales.com/english/index.html - 'MatematicasVisuales – visual expositions of mathematical concepts'
+- https://staysaasy.com/engineering/2024/12/17/problem-driven-development.html
+- https://onepercentrule.substack.com/p/agi-and-the-beginning-of-infinity
+- https://arxiv.org/abs/1806.01261 - 'Relational inductive biases, deep learning, and graph networks'
+- https://www.ardentai.io/ - 'Show HN: Ardent – An AI Data Engineer'
+- https://research.google/blog/understanding-transformer-reasoning-capabilities-via-graph-algorithms/
+- https://www.nature.com/articles/s41467-024-54612-4 - 'Collective Dynamics Behind Success'
+- https://pubmed.ncbi.nlm.nih.gov/39550055/ - "Heschl's gyrus and the temporal pole: The cortical lateralization of language"
+- https://www.wired.com/story/generative-ai-will-need-to-prove-its-usefulness/
 - https://guive.substack.com/p/updating-on-bad-arguments
 - https://news.ycombinator.com/item?id=42477514 - 'What Types of Issues Do Devs Handle on On-Call? Would Workflow Automation Work?'
 - https://minds.md/zakirullin/cognitive - 'Cognitive load is what matters [Programming]'
