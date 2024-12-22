@@ -17,6 +17,7 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://manifund.org/projects/raspberry-open-source-cot-reasoning-dataset-for-finetuning-llms - 'Open-Source Cot Reasoning Dataset for Finetuning LLMs'
 - https://www.matematicasvisuales.com/english/index.html - 'MatematicasVisuales – visual expositions of mathematical concepts'
 - https://staysaasy.com/engineering/2024/12/17/problem-driven-development.html
 - https://onepercentrule.substack.com/p/agi-and-the-beginning-of-infinity
