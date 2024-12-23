@@ -476,6 +476,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'optimal graphs to format other graphs so that solution/error structures are identifiable/structural' to 'filter relevant graphs'
+        - for example, identifying a 'set of graphs that can solve a problem (like simplicity/stupidity)' involves identifying interface graphs (like definition graphs, concept graphs, concept set graphs, concept interaction graphs, concept spectrum graphs, implementation graphs, specification graphs, interaction/integration graphs of the other graphs, and optimization graphs of the interaction/integration graph) and identifying the optimal graph of this set of graphs, like a graph where the position of each graph covers an area to avoid allowing an error structure like a 'vector that avoids the covered areas' (as in 'preventing a vector that enables simplicity/stupidity' by 'covering all possible paths that could connect layers of the graph, thereby avoiding some sequence of interface graphs' for example, which identifies a graph where the concept of simplicity is completely and accurately structured to identify its solution structures)
+
     - identify useful structures like 'optimal variants of workflows and the structures to generate/optimize those variants'
         - for example, identifying a 'medium level abstraction sequence' is an optimal variant of a connection structure like an 'abstraction sequence' bc the interim level of abstractions between high-level abstractions and specifications are more trivial to filter, so identifying a medium level abstraction sequence is a more optimal way to connect problem/solution metrics
 
