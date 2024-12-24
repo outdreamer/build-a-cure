@@ -17,6 +17,50 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://nonint.com/2024/12/22/beating-arc-the-hard-way/
+- https://arxiv.org/abs/2411.11568 - 'Large Cardinals, Structural Reflection, and the Hod Conjecture'
+- https://yoric.github.io/post/thinkerbell-postmortem/ - 'Thinkerbell Postmortem/Brain Dump'
+- https://arxiv.org/abs/2412.16145 - 'Offline Reinforcement Learning for LLM Multi-Step Reasoning'
+- https://xenaproject.wordpress.com/2024/12/22/can-ai-do-maths-yet-thoughts-from-a-mathematician/
+- https://phys.org/news/2024-12-physicists-quantum-geometry.html - 'Physicists measure quantum geometry for first time'
+- https://arxiv.org/abs/2211.00241 - 'Adversarial Policies Beat Superhuman Go AIs'
+- https://snats.xyz/pages/articles/pruningg.html - 'Lobotomizing Some Models'
+- https://arxiv.org/abs/2106.04364 - 'CountBF: High accuracy and space efficient Counting Bloom Filter'
+- https://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf - 'The need for biases in learning generalization (1980) [pdf]'
+- https://template0.com/blog/in-the-ai-era-templates-are-more-important
+- https://plato.stanford.edu/entries/consciousness-unity/ - 'The Unity of Consciousness (2017)'
+- https://github.com/anti-work/shortest - 'Show HN: Shortest, a natural language AI-powered testing framework'
+- https://arxiv.org/abs/2412.15143 - 'Supernovae Evidence for Foundational Change to Cosmological Models'
+- https://www.universetoday.com/170116/quantum-correlations-could-solve-the-black-hole-information-paradox/
+- https://surfingcomplexity.blog/2024/12/01/mttr-when-sample-means-and-power-laws-combine-trouble-follows/
+- https://arxiv.org/abs/2412.15814 - 'Unveiling the Mechanisms of DAI: A Logic-Based Approach to Stablecoin Analysis'
+- https://dropbox.tech/machine-learning/selecting-model-semantic-search-dropbox-ai - 'Selecting a model for semantic search at Dropbox scale'
+- https://arxiv.org/abs/2412.15803 - 'A High-Performance In-Browser LLM Inference Engine'
+- https://embracethered.com/blog/posts/2024/security-probllms-in-xai-grok/ - "Security ProbLLMs in XAI's Grok: A Deep Dive"
+- https://bits.logic.inc/p/all-i-want-for-christmas-is-a-random - 'Using LLMs to Make Truly Random Decisions'
+- https://news.ycombinator.com/item?id=42497178 - 'Theories and research on the limit to the complexity of societal inventions?'
+- https://sankalp.bearblog.dev/evolution-of-ai-assisted-coding-features-and-developer-interaction-patterns/
+- https://news.ycombinator.com/item?id=42481664 - 'I think I just discovered supernormalcy'
+- https://news.mit.edu/2024/need-research-hypothesis-ask-ai-1219 - 'Need a research hypothesis? Ask AI'
+- https://www.qmul.ac.uk/media/news/2024/se/colliding-top-quarks-reveal-hidden-quantum-magic.html
+- https://arxiv.org/abs/2412.14234 - 'Syzygy: Dual Code-Test C to Rust Translation Using LLMs and Dynamic Analysis'
+- https://jessylin.com/2024/11/12/co-adapting-human-interfaces/ - 'Co-Adapting Human Interfaces and LMs'
+- https://arxiv.org/abs/2412.06821 - 'Automating Graphical Overlays for Financial Visualizations with LLMs'
+- https://arxiv.org/abs/2412.09775 - 'WaveOrder: Generalist framework for label-agnostic computational microscopy'
+- https://github.com/attentionmech/TILDNN/blob/main/articles/2024-12-22/A00002.md - 'Experiment with LLMs and Random Walk on a Grid'
+- https://arxiv.org/abs/2412.04590 - 'Specification-Driven Code Translation Powered by LLMs: How Far Are We?'
+- https://berthub.eu/articles/posts/on-long-term-software-development/
+- https://garymarcus.substack.com/p/c39 - 'O3 "Arc AGI" Postmortem'
+- https://thelastwave.substack.com/p/artificial-intelligence-never-dies
+- https://old.reddit.com/r/ollama/comments/1hiqs9r/comparison_llama_32_vs_gemma_2_vs_mistral/
+- https://blog.dileeplearning.com/p/how-to-get-a-million-bucks-quick - 'Thoughts on cognitive programs and the ARC challenge'
+- https://event-driven.io/en/generic_does_not_mean_simple/
+- https://arxiv.org/abs/2412.03587 - 'Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models'
+- https://ideai.dev/ - 'Search Engine for Dreamers – Ideai.dev'
+- https://www.infoq.com/articles/architecture-experimentation/ - 'Software Architecture and the Art of Experimentation'
+- https://arxiv.org/abs/2402.03363 - 'Exploring Prime Number Classification with Machine Learning'
+- https://medium.com/@YourneedsMet/philosophy-is-the-backbone-of-ai-2dd112a2c7d9 - 'Philosophy Is the Background of AI'
+- https://github.com/mrconter1/human-level-agi-definition - 'When AI Beats Us in Every Test We Can Do: A Simple Definition for Human-Lvl AGI'
 - https://recursiveadaptation.com/p/an-innovation-agenda-for-addiction
 - https://manifund.org/projects/raspberry-open-source-cot-reasoning-dataset-for-finetuning-llms - 'Open-Source Cot Reasoning Dataset for Finetuning LLMs'
 - https://www.matematicasvisuales.com/english/index.html - 'MatematicasVisuales – visual expositions of mathematical concepts'

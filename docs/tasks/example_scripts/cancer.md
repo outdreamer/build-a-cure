@@ -471,7 +471,11 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure: 
-				- use tyrosine, pycnogenol, prunella vulgaris, coq10, omega 3s, arginine, l-carnitine, thiamine, and amino acids including taurine, iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- far infrared light saunas can reduce strain on the heart
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC4935255/
+				- 'provide cardiac muscle with periods of reduced workload by assisting with blood pumping, potentially creating conditions that enable regeneration'
+					- https://studyfinds.org/heart-muscle-regeneration-cold-war-tests/
+				- use pycnogenol (if you dont have kidney failure), policosanol, prunella vulgaris, coq10, omega 3s, thiamine, and amino acids (including taurine, arginine, l-carnitine, tyrosine), iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- isoprenaline can increase CBIN1, which can help heal heart failure
 					- https://pubmed.ncbi.nlm.nih.gov/32614937/
@@ -486,7 +490,8 @@
 						- https://pubmed.ncbi.nlm.nih.gov/37964408/
 					- increasing GDF-15 may be useful for treating diabetes
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8885880/
-				- treat high blood pressure and kidney damage, avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
+				- treat high blood pressure and kidney damage
+				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, excess choline, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
