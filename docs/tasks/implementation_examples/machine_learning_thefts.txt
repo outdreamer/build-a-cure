@@ -17,6 +17,13 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+
+- https://mill-build.org/blog/3-selective-testing.html - 'Understanding Selective Testing'
+- https://arxiv.org/abs/2410.10912 - 'AlphaPruning: Using Heavy-Tailed Self Regularization for Improved LLM Pruning'
+- https://research.nvidia.com/publication/2023-09_verilogeval-evaluating-large-language-models-verilog-code-generation
+- https://journals.aps.org/prl/accepted/32073Yd2G141638436cb80158f81e5982dab8b73f - 'Relativistic quantum fields are universal entanglement embezzlers'
+- https://ai.meta.com/research/publications/large-concept-models-language-modeling-in-a-sentence-representation-space/?_fb_noscript=1
+- https://github.com/btahir/open-deep-research - 'Show HN: An Open Source Alternative to Gemini Deep Research'
 - https://concerningquality.com/prophecy-variables/ - 'Controlling Nondeterminism in Model-Based Tests with Prophecy Variables'
 - https://www.thecompendium.ai/intelligence
 - https://nonint.com/2024/12/22/beating-arc-the-hard-way/
