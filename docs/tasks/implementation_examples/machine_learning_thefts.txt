@@ -17,7 +17,18 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
-
+- https://papermatch.mitanshu.tech/ - 'Show HN: I made a website to semantically search ArXiv papers'
+- https://ashwiniag.com/interfaces-in-go-simplified-with-a-silly-analogy/
+- https://jimmyhmiller.github.io/advent-of-papers/2024/dec-24-against-types - 'Against a Universal Definition of 'Type''
+- https://www.youtube.com/watch?v=eaAonE58sLU - 'Power of Planning in AI by Noam Brown [video]'
+- https://eccc.weizmann.ac.il/report/2024/175/ - 'Optimality of Frequency Moment Estimation'
+- https://hika.fyi/ - 'Show HN: Hika – A AI search engine that explores knowledge from multiple angles'
+- https://mathoverflow.net/questions/484349/are-most-prime-numbers-symmetric
+- https://plato.stanford.edu/entries/rigid-designators/ - 'Rigid Designators (2022)'
+- https://fred.glass/realising-relevance-ranking/
+- https://www.newyorker.com/magazine/2021/06/21/when-graphs-are-a-matter-of-life-and-death
+- https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/ - 'The patience diff algorithm (2017)'
+- https://www.amightygirl.com/blog?p=12223 - 'Sisters in Innovation: 20 Women Inventors You Should Know'
 - https://mill-build.org/blog/3-selective-testing.html - 'Understanding Selective Testing'
 - https://arxiv.org/abs/2410.10912 - 'AlphaPruning: Using Heavy-Tailed Self Regularization for Improved LLM Pruning'
 - https://research.nvidia.com/publication/2023-09_verilogeval-evaluating-large-language-models-verilog-code-generation
