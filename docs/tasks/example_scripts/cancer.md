@@ -444,8 +444,10 @@
 					- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
 				- supplements which increase VEGF to induce angiogenesis (should be avoided for cancer): copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974125/
-				- d-ribose to bind with phosphate for hyperphosphatemia, as well as greens powder (to bind with waste not filtered by the kidneys and to prevent acidosis)
+				- small amounts of d-ribose to bind with phosphate for hyperphosphatemia, as well as greens powder (to bind with waste not filtered by the kidneys and to prevent acidosis)
 					- https://www.amazon.com/Garden-Life-Organic-Perfect-Superfood/dp/B002HI1LSI
+					- d-ribose can also cause kidney damage
+						- https://pubmed.ncbi.nlm.nih.gov/37659699/
 				- flavonoids including pycnogenol, quercetin, rutin, morin, red wine polyphenols, genistein, epicatechin, and grape seed proanthocyanidins can improve kidney damage/hypertension in some patients
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5928447/
 				- lycopene (in tomato, papaya, grapefruit, watermelon, apricot, guava) and other carotenoids (in carrots) are associated with greater kidney functionality, so may be protective against and preventative of kidney damage
@@ -470,7 +472,13 @@
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
-			- heart failure: 
+			- heart failure:
+				- Angiogenesis/revascularization
+					- increase endothelial progenitor cells
+						- berries, onions, green tea, nitrate-rich vegetables (beets and greens)
+				- vitamin c, indirubin, resveratrol, icariin, bergamot, lupinine, ursinoic acid (angelica ursina), ginseng, and curcumin are useful in cardiac protection and/or stem cell specification, possibly through paracrine signaling regulation
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7833367/
+				- Calcium channel blockers decrease the heart's workload
 				- far infrared light saunas can reduce strain on the heart
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC4935255/
 				- 'provide cardiac muscle with periods of reduced workload by assisting with blood pumping, potentially creating conditions that enable regeneration'
@@ -514,7 +522,7 @@
 				- taurine has anti-tumor activity
 				- boswellic acid can prevent the formation of leukotrienes (molecules that cause inflammation)
 				- These plant compounds (alkaloids) blocked the formation of leukotrienes and prostaglandins, or blocked 5-lipoxygenase (5-LOX, the enzyme that initiates the leukotriene pathway), or blocked LTC4S (the enzyme that makes cysteinyl leukotrienes)
-					- Berbamine (barberries), Tetrandrine (Stephania tetrandra), Velutin (pink banana), Galangin (honey and the herb lesser galangal), Chrysin (honey, propolis, honeycomb, passion flowers, and Oroxylum indicum), Aloe vera (alprogen), Artonin E (Artocarpus elasticus), Boswellia (frankincense), Butterbur compounds (isopetasin and oxopetasan esters), Caffeic acid phenyl ester (propolis), capsaicin (peppers), Curcumin, double palm (dammarane triterpenoid 1), Dystaenia takeshimana coumarins (Psoralen, Xanthotoxin, Scopoletin, Umbelliferone, Marmesin) and flavonoids (Apigenin, Luteolin, Cynaroside), citrus (goshuyuamide), Garcinol (Garcinia indica), Ginger, Green and black tea (Theaflavins, EGCG), American witch hazel (Hamamelitannin, Galloylated proanthocyanidins, Huang-Lian-Jie-Du-Tang (HLJDT, which contains chinese skullcap (baicalein), Coptis Root (Rhizoma coptidis)), lycopene (tomatoes, guava, watermelon, sweet red peppers, grapefruit asparagus, and purple cabbage), methyl jasmonate, oleanolic acid, ursolic acid, Helichrysum picardii, Pygeum africanum, Quercetin (capers, red onion, radicchio, kale, buckwheat, dill, and cilantro), Kaempferol (apples, grapes, tomatoes, green tea, potatoes, onion, and broccoli), Morin (Osage orange, old fustic, and common guava), Myricetin (Japanese raisin tree and vine tea extracts, parsley, cranberries, broad beans, and blueberries), Resveratrol (grapes, blueberries, raspberries, and mulberries), Stemona species’ alkaloids block leukotriene formation (Pinosylvin, Dihydropinosylvin, Stilbostemin, Stemofuran, Stemanthrene), Thymoquinone (black cumin seed), Triptolide (thunder god vine)
+					- Berbamine (barberries), Tetrandrine (Stephania tetrandra), Velutin (pink banana), Galangin (honey and the herb lesser galangal), Chrysin (honey, propolis, honeycomb, passion flowers, and Oroxylum indicum), Aloe vera (alprogen), Artonin E (Artocarpus elasticus), Boswellia (frankincense), Butterbur compounds (isopetasin and oxopetasan esters), Caffeic acid phenyl ester (propolis), capsaicin (peppers), Curcumin, double palm (dammarane triterpenoid 1), Dystaenia takeshimana coumarins (Psoralen, Xanthotoxin, Scopoletin, Umbelliferone, Marmesin) and flavonoids (Apigenin, Luteolin, Cynaroside), citrus (goshuyuamide), Garcinol (Garcinia indica), Ginger, Green and black tea (Theaflavins, EGCG), American witch hazel (Hamamelitannin, Galloylated proanthocyanidins, Huang-Lian-Jie-Du-Tang (HLJDT, which contains chinese skullcap (baicalein), Coptis Root (Rhizoma coptidis)), lycopene (tomatoes, guava, watermelon, sweet red peppers, grapefruit asparagus, and purple cabbage), methyl jasmonate, oleanolic acid, ursolic acid, Helichrysum picardii, Pygeum africanum, Quercetin (capers, red onion, radicchio, kale, buckwheat, dill, and cilantro), Kaempferol (apples, grapes, tomatoes, green tea, potatoes, onion, and broccoli), Morin (Osage orange, old fustic, and common guava), Myricetin (Japanese raisin tree and vine tea extracts, parsley, cranberries, broad beans, and blueberries), Resveratrol (grapes, blueberries, raspberries, and mulberries), Stemona species alkaloids (Pinosylvin, Dihydropinosylvin, Stilbostemin, Stemofuran, Stemanthrene), Thymoquinone (black cumin seed), Triptolide (thunder god vine)
 					- https://selfhacked.com/blog/leukotrienes-inhibitors/
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
