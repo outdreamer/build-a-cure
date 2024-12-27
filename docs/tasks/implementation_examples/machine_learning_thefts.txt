@@ -17,6 +17,10 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://techxplore.com/news/2024-12-ai-human-general-intelligence.html - "An AI system has reached human level on a test for 'general intelligence'—here's what that means"
+- https://techxplore.com/news/2024-12-language-ais-size-guardrails-ai.html - 'Language AIs in 2024: Size, guardrails and steps toward AI agents'
+- https://github.com/Budibase/budibase - 'Budibase: Create business apps, automate workflows in minutes'
+- https://github.com/harishsg993010/HawkinsDB - 'Show HN: I made an Neuroscience-Inspired Memory Layer for LLM Applications'
 - https://news.ycombinator.com/item?id=42513750 - 'Ask HN: Program ideas to write in Assembly – to feel like a Wizard?'
 - https://dl.acm.org/doi/10.1145/3428279 - 'Finding bugs in database systems via query partitioning (2020)'
 - https://buckle.dev/blog/how-we-came-up-with-database-visualizer-idea - if you use my work, youre stealing my work
