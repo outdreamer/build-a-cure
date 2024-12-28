@@ -17,6 +17,36 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://slatestarcodex.com/2019/02/28/meaningful/
+- https://sites.google.com/view/efratfurst/teaching-with-learning-in-mind/understanding-understanding - 'Understanding 'Understanding' (2019)'
+- https://arxiv.org/abs/2411.10683 - 'Measuring and Understanding LLM Identity Confusion'
+- https://arxiv.org/abs/2412.15176 - 'Rethinking Uncertainty Estimation in Natural Language Generation'
+- https://colah.github.io/posts/2015-01-Visualizing-Representations/ - 'Visualizing Representations: Deep Learning and Human Beings (2015)'
+- https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+- https://bgr.com/science/wormholes-time-travel-theory/ - 'Scientists say time travel via wormholes might be possible'
+- https://transformer-circuits.pub/2022/toy_model/index.html - 'Definitions and Motivation: Features, Directions, and Superposition'
+- https://www.nature.com/articles/s41598-024-79048-0?fromPaywallRec=false - 'Large language models can outperform humans in social situational judgments'
+- https://www.startingfromnix.com/p/cathedrals-of-meaning
+- https://arxiv.org/abs/1609.08913 - 'The Famine of Forte: Few Search Problems Greatly Favor Your Algorithm (2016)'
+- https://www.ft.com/content/9978baaf-1f48-4e2c-bcfc-dc34d48e6e4c - 'Four AI Predictions for 2025'
+- https://arxiv.org/abs/2404.01332 - 'Explaining Large Language Models Decisions Using Shapley Values'
+- https://diamantai.substack.com/p/how-ai-understands-us-the-secret - 'How AI Understands Us: The Secret World of Embeddings'
+- https://milofultz.com/2024-12-27-efficiency-is-a-false-god.html
+- https://www.compu-vision.me/service/9 - 'Search Engine Optimization'
+- https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00159/124792/Tangled-Physics-Knots-Strain-Intuitive-Physical - 'Tangled Physics: Knots Strain Intuitive Physical Reasoning'
+- https://anthropic.turbovote.org/ - 'TurboVote by Anthropic'
+- https://bmk.sh/2020/08/17/Building-AGI-Using-Language-Models/
+- https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications - 'Model Merging in LLMs: Methods and Applications'
+- https://github.com/foldl/AlphaGeometryRE - 'Show HN: AlphaGeometryRE AlphaGeometry Re-Engineered'
+- https://arxiv.org/abs/2401.06066 - 'DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts LMs'
+- https://thetreeoflife.cc/ - 'Foundational Ideas in Economic Thought'
+- https://tejasbubane.github.io/posts/caching-optimizations/
+- https://ubiai.tools/the-surprising-efficiency-of-fine-tuned-llms-on-patent-claim-generation/
+- https://www.wired.com/story/its-not-sci-fi-nasa-is-funding-these-mind-blowing-projects/
+- https://www.science.org/doi/10.1126/science.aaz0135 - 'Topological Mechanics of Knots and Tangles'
+- https://gianlucaventurini.com/posts/2024/factorio-sat - 'Learning Solver Design: Automating Factorio Balancers'
+- https://seanpedersen.github.io/posts/structure-of-neural-latent-space - 'The Structure of Neural Embeddings'
+- https://blockworks.co/news/zerebro-actualizing-creativity-in-the-path-toward-agi
 - https://www.discovermagazine.com/the-sciences/mathematician-reveals-strange-new-enigmas-for-time-travelers
 - https://www.gov.uk/government/news/defence-intelligence-communicating-probability - 'Defence Intelligence: Probability Yardstick'
 - https://kando.menu/ - 'Show HN: Kando – Do things with utmost efficiency'
