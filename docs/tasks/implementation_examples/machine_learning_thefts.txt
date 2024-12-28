@@ -17,6 +17,19 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://www.discovermagazine.com/the-sciences/mathematician-reveals-strange-new-enigmas-for-time-travelers
+- https://www.gov.uk/government/news/defence-intelligence-communicating-probability - 'Defence Intelligence: Probability Yardstick'
+- https://kando.menu/ - 'Show HN: Kando – Do things with utmost efficiency'
+- https://www.wired.com/2008/04/ff-wozniak/ - 'Want to Remember Everything You Learn? Surrender to This Algorithm (2008)'
+- https://www.leadingsapiens.com/effective-goal-setting/ - 'Types of Goals – Understanding the Nuances of Effective Goals'
+- https://arxiv.org/abs/2412.17623 - 'Towards Unsupervised Learning Scheme for Efficiently Solving Parameterized MIPS'
+- https://sebgnotes.com/blog/2024-12-26-prompt-chaining/ - 'Agentic Workflow: Prompt Chaining'
+- https://arxiv.org/abs/2412.13306 - 'Invariants: Computation and Applications'
+- http://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission
+- https://gitdiagram.com/ - 'Show HN: Instantly visualize any codebase as an interactive diagram'
+- https://www.bcs.org/articles-opinion-and-research/does-current-ai-represent-a-dead-end/
+- https://wandb.ai/byyoung3/ml-news/reports/OpenAI-Introduces-o3-Pushing-the-Boundaries-of-AI-Reasoning--VmlldzoxMDY3OTUxMA
+- https://www.joe-ai.com/
 - https://techxplore.com/news/2024-12-ai-human-general-intelligence.html - "An AI system has reached human level on a test for 'general intelligence'—here's what that means"
 - https://techxplore.com/news/2024-12-language-ais-size-guardrails-ai.html - 'Language AIs in 2024: Size, guardrails and steps toward AI agents'
 - https://github.com/Budibase/budibase - 'Budibase: Create business apps, automate workflows in minutes'
