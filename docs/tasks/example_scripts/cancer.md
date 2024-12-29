@@ -334,6 +334,7 @@
 				- https://pmc.ncbi.nlm.nih.gov/articles/PMC9650693/
 		- high blood pressure
 			- tyrosine, omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
+			- treat infections like flu/covid which can raise blood pressure
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
 			- types of substances, by cause/intent:
 				- for high blood pressure caused by diabetic nephropathy: ACE inhibitors or ARBs, which dilate the arteriole exiting the glomerulus, thus reducing the blood pressure within the glomerular capillaries, may slow progression of the disease. Three classes of diabetes medications (GLP-1 agonists, DPP-4 inhibitors, and SGLT2 inhibitors) are also thought to slow the progression of diabetic nephropathy

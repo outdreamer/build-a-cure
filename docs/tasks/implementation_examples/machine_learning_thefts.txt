@@ -17,6 +17,26 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
 
+- https://john-berg.medium.com/i-solved-p-np-voynich-the-stock-market-consciousness-ricky-mccormick-cipher-b4dce0d69252 - 'I Solved the Stock Market'
+- https://bits.logic.inc/p/the-perfect-holiday-cookie - 'The role of embeddings and rerankers in semantic retrieval'
+- https://www.economist.com/interactive/christmas-specials/2024/12/21/the-chart-of-everything
+- https://davidwees.com/content/difference-between-instrumental-and-relational-understanding/ - 'The Difference Between Instrumental and Relational Understanding (2012)'
+- https://arxiv.org/abs/2412.15240 - 'ChainStream: An LLM-Based Framework for Unified Synthetic Sensing'
+- https://arxiv.org/abs/2210.03629 - 'ReAct: Synergizing Reasoning and Acting in Language Models'
+- https://arxiv.org/abs/2412.18375 - 'A Many Objective Problem Where Crossover Is Provably Indispensable'
+- https://llvm.org/docs/CommandGuide/llvm-mca.html - 'LLVM-Mca – LLVM Machine Code Analyzer'
+- https://btiffin.users.sourceforge.net/up/unicon.html - 'The Unicon Programming Language'
+- https://arxiv.org/abs/2406.18181 - "Empirical Study of Test Generation with LLM's"
+- https://www.youtube.com/watch?v=oEWm3yPUosg - "Physicist Says We're Using Maths Wrong"
+- https://www.youtube.com/watch?v=97e0PCg3VYU - "Queens Univ. John Bell Day Lecture 2024 Intuitionist Math Prof. Nicolas Gisin"
+- https://www.youtube.com/watch?v=jxe3Helh2Ks - "New Physics Paper: Schrödinger's Cat Solved Using Multiverses"
+- https://physics.aps.org/articles/v17/155 - 'Can Classical Worlds Emerge from Parallel Quantum Universes?'
+- https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.041027 - 'First Principles Numerical Demonstration of Emergent Decoherent Histories'
+- https://colab.research.google.com/drive/1VhUZGCPPNThtwF4doDUb2ag8YzWGN4CB?usp=sharing - 'Finetune and merge and quantize open source models with this Colab notebook'
+- https://jirevwe.github.io/exploring-alternatives-to-uuidv4-enter-ulids.html - 'Exploring Alternatives to UUIDv4; Enter ULIDs'
+- https://imatix-legacy.github.io/libero/index.htm - "Libero – A Programmer's Tool and Code Generator"
+- https://github.com/iterative/vscode-dvc - 'Using VS Code to track and visualize ML experiments'
+- https://www.sciencedirect.com/science/article/pii/S1877050920305585 - 'Intro to Residuality Theory: Software Design Heuristics for Complex Systems'
 - https://slatestarcodex.com/2019/02/28/meaningful/
 - https://sites.google.com/view/efratfurst/teaching-with-learning-in-mind/understanding-understanding - 'Understanding 'Understanding' (2019)'
 - https://arxiv.org/abs/2411.10683 - 'Measuring and Understanding LLM Identity Confusion'
