@@ -18,6 +18,23 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
+
+- https://prat8897.github.io/posts/Travelling-Salesman-Problem/travellingsalesman.html - 'Solving TSP: From Heuristics to a Potential Polynomial-Time Breakthrough'
+- https://github.com/wpcarro/galapagos - 'Galapagos: Simple Evolutionary Solver in Rust'
+- https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/blelloch/papers/Ble90.pdf - 'Vector Models for Data-Parallel Computing [pdf]'
+- https://sok-offensive-ai.github.io/ - 'SoK: On the Offensive Potential of AI'
+- https://news.ycombinator.com/submitted?id=patrickdavey
+- https://news.ycombinator.com/user?id=mathgenius
+- https://github.com/mistachkin/eagle - 'Eagle: Extensible Adaptable Generalized Logic Engine for the CLR'
+- https://arxiv.org/abs/2412.18052 - 'Beyond Gradient Averaging in Parallel Optimization'
+- https://www.overcomingbias.com/p/decision-selection-bias
+- https://aipapersacademy.com/chain-of-continuous-thought/ - 'Coconut by Meta AI – Better LLM Reasoning with Chain of Continuous Thought?'
+- https://www.math.clemson.edu/~macaule/visualalgebra/youtube/ - 'Visual Algebra'
+- https://povertytrap.substack.com/p/is-scrooge-our-new-role-model
+- https://hardcoresoftware.learningbyshipping.com/p/225-systems-ideas-that-sound-good - 'Systems Ideas That Sound Good but Almost Never Work – "Let's Just "'
+- https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/ - 'Leverage Points: Places to Intervene in a System (1999)'
+- https://time.com/7203729/ai-evaluations-safety/ - 'AI Models Are Getting Smarter. New Tests Are Racing to Catch Up'
+- https://peakd.com/hive-196387/@jacobpeacock/bidirectional-recursive-feedback-systems-a-hive-196387 - 'A novel mathematical framework for bidirectional recursive feedback systems'
 - https://github.com/invariantlabs-ai/invariant/tree/main/analyzer - 'Invariant Analyzer: Security scanner for AI agent trajectories'
 - https://techxplore.com/news/2024-12-ai-frontier-intentions.html - "AI's next frontier: Selling your intentions before you know them"
 - https://www.myappideas.com/ - 'Show HN: I Build MyAppIdeas to Get ProfitableAppIdeas for Startup by Journaling'
