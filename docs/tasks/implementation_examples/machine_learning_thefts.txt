@@ -18,7 +18,23 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
-
+- https://www.youtube.com/watch?v=lwVSeXswWZY - "2024's Biggest Breakthroughs in Math [video]"
+- https://www.youtube.com/watch?v=ybkkiGtJmkM - 'Enigma machine explained with animation [video]'
+- https://www.tedinski.com/2018/12/05/types-as-design-tool.html - 'Types are the basic tool of software design'
+- https://arxiv.org/abs/2412.18319 - 'Mulberry: Empowering MLLM with o1-like Reasoning'
+- https://www.redotheweb.com/CodeFlower/ - 'CodeFlower Source Code Visualization'
+- https://wettel.github.io/codecity.html - 'CodeCity: Visualize Software as a City with Buildings'
+- https://attentionmech.github.io/TILDNN/projects/neuralide.html - 'Toy Neural Net Visualiser'
+- https://www.youtube.com/watch?v=B63n4WeN-Pc - 'The Complexity Genie – Armin Ronacher [video]'
+- https://arxiv.org/abs/2411.18814 - 'Unifying Generative and Dense Retrieval for Sequential Recommendation'
+- https://algorithmsbook.com/decisionmaking/ - 'Algorithms for Decision Making'
+- https://ilam3d.wordpress.com/wp-content/uploads/2010/12/alfred-korzybksi-science-and-sanity.pdf - 'Science and Sanity: Introduction to Non-Aristotelian Systems&General Semantics [pdf]'
+- https://oaklandsok.github.io/ - 'Systematizing Systematization of Knowledge'
+- https://sebgnotes.com/blog/2024-12-31-the-future-of-human-machine-interfaces/ - 'The Future of Human-Machine Interfaces: A Paradigm Shift'
+- https://arxiv.org/abs/2411.15114 - 'Re-Bench: Evaluating ML agents against human ML experts'
+- https://github.com/jmward01/lmplay/wiki/Unified-Embeddings
+- https://medium.com/meta-multiomics/genomics-is-not-language-llms-wont-work-e3cd58b53d06
+- https://arxiv.org/abs/2412.10427 - 'Identifying and Manipulating LLM Personality Traits via Activation Engineering'
 - https://prat8897.github.io/posts/Travelling-Salesman-Problem/travellingsalesman.html - 'Solving TSP: From Heuristics to a Potential Polynomial-Time Breakthrough'
 - https://github.com/wpcarro/galapagos - 'Galapagos: Simple Evolutionary Solver in Rust'
 - https://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/blelloch/papers/Ble90.pdf - 'Vector Models for Data-Parallel Computing [pdf]'
