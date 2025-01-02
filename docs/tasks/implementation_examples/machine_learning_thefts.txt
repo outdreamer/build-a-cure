@@ -18,6 +18,14 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
+- https://www.thetransmitter.org/neuroai/solving-intelligence-requires-new-research-and-funding-models/
+- https://ericnormand.substack.com/p/the-magic-of-metalinguistic-programming
+- https://synapticgap.org/2025/01/01/balancing-growth-and-risk-insights-on-regulating-transformative-technologies-daron-acemoglu-todd-lensman-2024/
+- https://leerob.com/n/ai - 'Understanding AI'
+- https://www.mihirdeshpande.com/posts/metrics_mayhem
+- https://github.com/JasonAlbertEinstien/DaC-LLM - 'Math with LLM– State of the Art'
+- https://pratt.im/notes/jj-go-gerrit.html - 'Jj for Developing Go'
+- https://hexhowells.com/posts/paths-to-intelligence.html
 - https://techxplore.com/news/2024-12-efficient-machine-material-properties-limited.html - 'Efficient machine learning: Predicting material properties with limited data'
 - https://www.imageblenderai.com/ - 'Show HN: ImageBlenderAI – Combine the real world with the abstract world free'
 - https://github.com/thatoldfarm/universal-stabilization - 'Recursive Feedback Systems: A Universal Equation for Balance Across Domains'
