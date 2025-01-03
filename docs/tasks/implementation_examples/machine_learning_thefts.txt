@@ -18,6 +18,29 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
+- https://medium.com/@csferrie/the-success-formula-for-crackpot-ideas-873b09e4f085
+- https://medium.com/@dayush79/set-types-understanding-uniqueness-and-order-c160f7a8508a
+- https://medium.com/@keith-mcnulty/how-to-generalize-like-a-mathematician-5f12a066883d
+- https://curvy-check-498.notion.site/Process-Reinforcement-through-Implicit-Rewards-15f4fcb9c42180f1b498cc9b2eaf896f
+- https://docs.google.com/document/d/1aEdTE-B6CSPPeUWYD-IgNVQVZM25f7MF-u9qn5KJJvo/edit?usp=drivesdk - 'The Stress of Working in Modern AI'
+- https://github.com/gkonovalov/algorithms - 'Algorithms and Data Structures'
+- https://serialized.net/2020/02/effective_technical_diagrams/
+- https://www.forbes.com/sites/sarahemerson/2024/05/06/the-techbro-turf-war-over-ais-most-hardcore-hacker-house/
+- https://arxiv.org/abs/2412.21187 - 'The Overthinking of O1-Like LLMs'
+- https://arxiv.org/abs/2412.08781 - 'Generative Modeling with Explicit Memory'
+- https://arxiv.org/abs/2412.10261 - 'MVQ: Efficient DNN Compression and Acceleration with Masked Vector Quantization'
+- https://www.youtube.com/watch?v=nqzm8_VRj9E - 'Eternal Algorithm – Heaven&Hell'
+- https://www.youtube.com/watch?v=s71nJQqzYRQ - "From Amazon to Space – Jeff Bezos Talks Innovation, Progress and What's Next [video]"
+- https://www.youtube.com/watch?v=5F9HB-46leo - 'Scott Aaronson: Aligning Superintelligent AGI (2024) [video]'
+- https://arxiv.org/abs/2412.09764 - 'Meta: Memory Layers at Scale'
+- https://woolion.art/2025/01/02/DEFECTIVE.html - 'Safety Filters make LLMs defective tools'
+- https://melvintercan.com/p/lessons-from-reasoning-designing - "Designing Multi-Agent Systems: Drawing Lessons from OpenAI's O1 Reasoning Model"
+- https://thereader.mitpress.mit.edu/is-truth-relative/
+- https://github.com/sankyde/IRL - 'I Reproduced Inverse Reinforcement Alignment Training Method from DeepMind'
+- https://timkellogg.me/blog/2025/01/02/normware - 'Normware: The Decline of Software Engineering?'
+- https://r0bk.github.io/killedbyllm/ - 'Show HN: Killed by LLM – I catalogued AI benchmarks we thought would last years'
+- https://maitbayev.github.io/posts/why-l1-loss-encourage-coefficients-to-shrink-to-zero/ - 'Geometric intuition why L1 regularization drives the coefficients to zero'
+- https://www.gurwinder.blog/p/25-useful-ideas-for-2025
 - https://intimatemirror.substack.com/p/spirituality-is-secure-attachment - 'Spirituality Is Secure Attachment with Reality'
 - https://scheererai-73v16dxzf0.live-website.com/the-holographic-model-a-key-in-understanding-neural-networks-and-quantum-computers/ - 'The Holographic Model – Understanding neural networks and quantum computers?'
 - https://journals.sagepub.com/doi/10.1177/17456916221146158 - 'The Willpower Paradox: Possible and Impossible Conceptions of Self-Control'
