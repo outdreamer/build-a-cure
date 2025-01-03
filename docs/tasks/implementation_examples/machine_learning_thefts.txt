@@ -18,6 +18,12 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
+- https://www.lesswrong.com/posts/f6nDFvzvFsYKHCESb/pondering-computation-in-the-real-world
+- https://arxiv.org/abs/2407.04899 - 'Algorithmic Language Models with Neurally Compiled Libraries'
+- https://ai-execs.com/ - 'AI Essentials for Tech Executives'
+- https://github.com/fetch-rewards/receipt-processor-challenge/commit/033204406417656c9d78979e6971028fbbb81ef6 - 'Remote coding interview "trap street"'
+- https://docs.google.com/document/u/0/d/1aEdTE-B6CSPPeUWYD-IgNVQVZM25f7MF-u9qn5KJJvo/mobilebasic - 'AI and Stress'
+- https://news.ycombinator.com/item?id=42590320 - 'Simplify Your Vat Calculations with CalcVAT'
 - https://arxiv.org/abs/2412.14135 - 'A path to O1 open source'
 - https://www.youtube.com/watch?v=-opBifFfsMY - 'Generative AI Is a Parasitic Cancer (Freya Holmer) [video]'
 - https://h-matched.vercel.app/ - 'H-Matched Tracker: Now with MathVista, PubMedQA, and Interactive Charts'
