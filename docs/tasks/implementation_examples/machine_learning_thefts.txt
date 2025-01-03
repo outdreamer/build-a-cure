@@ -18,6 +18,17 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
+- https://arxiv.org/abs/2412.14135 - 'A path to O1 open source'
+- https://www.youtube.com/watch?v=-opBifFfsMY - 'Generative AI Is a Parasitic Cancer (Freya Holmer) [video]'
+- https://h-matched.vercel.app/ - 'H-Matched Tracker: Now with MathVista, PubMedQA, and Interactive Charts'
+- https://docs.google.com/document/d/1aEdTE-B6CSPPeUWYD-IgNVQVZM25f7MF-u9qn5KJJvo/mobilebasic - '200Bn Weights of Responsibility - Felix Hill'
+- https://virtuallytd.com/posts/the-missing-mirror/
+- https://jzhao.xyz/posts/aesthetics-and-taste - 'Taste is a guide for what is worthwhile'
+- https://www.nist.gov/blogs/taking-measure/everyday-time-and-atomic-time-part-1 - 'Judah Levine on everyday time and atomic time (2021)'
+- https://www.agner.org/optimize/ - "Agner Fog's Software Optimization Resources"
+- https://pirate.baby/posts/generative_driven_design/
+- https://techleader.pro/a/674-Social-media-is-a-flywheel-for-bad-ideas
+- https://notes.penpusher.app/Misc/Google+Gemini+101+-+Object+Detection+with+Vision+and+Structured+Outputs
 - https://patterns.architexturez.net/doc/az-cf-173046 - 'Systems Generating Systems'
 - https://arxiv.org/abs/2412.05127 - 'The Prompt Canvas: A Literature-Based Guide for Effective Prompts in LLMs'
 - https://scheererai-73v16dxzf0.live-website.com/hnn-holographic-neural-networks/
