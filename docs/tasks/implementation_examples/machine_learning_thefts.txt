@@ -18,6 +18,28 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
 
+- https://pages.cs.wisc.edu/~remzi/Naur.pdf - 'Programming as Theory Building [pdf]'
+- https://boston.conman.org/2024/12/31.1 - 'A preference for deterministic tools over probabilistic tools'
+- https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view?usp=sharing - "Google's white paper on AI Agents"
+- https://pieces.app/blog/large-action-models-the-future-of-llms - 'The next big LLM trends in 2025 to watch'
+- https://www.youtube.com/watch?v=z-TeST6LnOk - 'Dalton and Michael: How to Focus on the Right Problems [video]'
+- https://arxiv.org/abs/2412.15605 - 'Cache-Augmented Generation (CAG)'
+- https://medium.com/luminasticity/the-wolf-an-analysis-of-optimal-criminal-problem-solving-f3842bf97bbd
+- https://www.youtube.com/watch?v=oJgbqcF4sBY - "OpenAI's O1 just hacked the system [video]"
+- https://substack.com/sign-in - 'LLMs Are Power Tools for Software Builders'
+- https://playground.tetraresearch.io/p/output-token-order-is-a-hidden-variable - 'Output Token Order Is a Hidden Variable in LLM Response Quality and Accuracy'
+- https://blogs.microsoft.com/on-the-issues/2025/01/03/the-golden-opportunity-for-american-ai/
+- https://github.com/NoteDance/optimizers - 'Show HN: I wrote optimizers for TensorFlow and Keras'
+- https://ieeexplore.ieee.org/document/10818476 - 'LLMs as Pattern-Matching Enhancers for Metaheuristics?'
+- https://arxiv.org/abs/2409.17270 - 'Proof of Thought: Neurosymbolic Program Synthesis for Interpretable Reasoning'
+- https://github.com/wwsmiff/aura - 'A framework for prototyping and working with different kinds of automata'
+- https://sebgnotes.com/blog/2025-01-03-tree-of-thoughts-using-simple-search-algorithms-with-your-ai-agents/
+- https://arxiv.org/abs/2412.15254 - 'Unlocking the Potential of Large Language Models in Data-Scarce Contexts'
+- https://arxiv.org/abs/1903.03129 - 'In Defense of Smart Algorithms over Hardware Acceleration for Large-Scale AI'
+- https://github.com/diffbot/diffbot-llm-inference - 'Diffbot GraphRAG LLM'
+- https://www.calishat.com/2025/01/01/five-ways-google-could-improve-search-in-2025-that-have-nothing-to-do-with-ai/
+- https://sparkrapp.io/ - 'Show HN: I made an app to help you generate creative ideas with AI'
+- https://plus.maths.org/content/information-surprise - 'Information Is Surprise' ('information' is not 'surprise', 'relevant variation' is surprising, youre 100% pedophilia/wrong still, all the time, forever)
 - https://www.lesswrong.com/posts/f6nDFvzvFsYKHCESb/pondering-computation-in-the-real-world
 - https://arxiv.org/abs/2407.04899 - 'Algorithmic Language Models with Neurally Compiled Libraries'
 - https://ai-execs.com/ - 'AI Essentials for Tech Executives'
