@@ -19,6 +19,7 @@
     - some of this may be malware to hack my computer so theres your warning not to click the links
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
+- https://blog.demofox.org/2025/01/05/dice-deconvolution-and-generating-functions/
 - https://github.com/BelieveDiffusion/tutorials/tree/main/consistent_character_embedding - 'Create Consistent Character as Textual Inversion Embedding with Stable Diffusion'
 - https://github.com/a-b-street/abstreet - 'Abstreet: Transportation planning and traffic simulation in Rust'
 - https://arxiv.org/abs/2411.06559 - 'Is Your LLM a World Model of the Internet? Planning for Web Agents'
