@@ -86,6 +86,10 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'different graph types which are useful to connect' to 'filter relevant graphs'
+        - for example, identifying connections between maximally different graphs and maximal similarity graphs (like 'spectrums of graph connections from the most different to the most similar' or 'connecting similarity sequences and difference sequences' or 'connecting relevant variation interactions (using relevant variation connections, like independent variable connections)') are useful to identify new graphs
+        - relatedly, 'similarities in similarity ratios across different graphs' can identify a 'set of base truth graphs' to apply as a 'default/constant'
+
     - identify useful structures like 'alternate relevance (like local/component relevance) of graphs like units of relevance in the graph connecting maximal differences to represent new relevant workflows' to 'filter relevant workflows'
         - for example, identifying the local relevance of graph configurations like where "maximally difference connections (like connecting maximally different similarities like 'connecting reduced sets to general similarities like every similarity, like how to make a reduced set relevant to every problem/similarity so that sequences of reduced sets can be applied to solve any problem') are adjacent" to fulfill intents like 'identify limits quickly' (maximal differences in a sequence can identify limits quickly)
         - relatedly, identifying the relevance of query structures like 'similarity resolutions (filtering reduced sets like "generate/filter")' followed by 'difference resolutions (like selecting a maximally different concept like a constant or variation concept like "requirements or alternatives")'

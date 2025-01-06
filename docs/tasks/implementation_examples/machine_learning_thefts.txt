@@ -17,7 +17,43 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
+    - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
+- https://github.com/BelieveDiffusion/tutorials/tree/main/consistent_character_embedding - 'Create Consistent Character as Textual Inversion Embedding with Stable Diffusion'
+- https://github.com/a-b-street/abstreet - 'Abstreet: Transportation planning and traffic simulation in Rust'
+- https://arxiv.org/abs/2411.06559 - 'Is Your LLM a World Model of the Internet? Planning for Web Agents'
+- https://github.com/yousef-rafat/Magna - 'Magna: Embedding similarity search tool for searching within large documents'
+- https://github.com/ImanRHT/QECO - 'QECO: A QoE-Oriented Computation Offloading Algorithm Based on DRL for MEC'
+- https://venturebeat.com/ai/why-context-aware-ai-agents-will-give-us-superpowers-in-2025/
+- https://www.nature.com/articles/s41598-024-82512-6 - 'Dynamic analysis, optimal control of competitive information dissemination model'
+- https://arxiv.org/abs/2412.12486 - 'Boosting Long-Context Management via Query-Guided Activation Refilling'
+- https://www.nytimes.com/2025/01/05/arts/design/brooklyn-academy-of-music-onassis-onyx-ai-computer.html - 'Emerging AI at Brooklyn Academy of Music'
+- https://www.aptus-slt.com/post/autism-lying - 'Lying, Theory of Mind and Autism'
+- https://surfingcomplexity.blog/2024/12/01/mttr-when-sample-means-and-power-laws-combine-trouble-follows/
+- https://lifeiscomputation.com/breaking-free-from-neural-networks-and-dynamical-systems/ - 'Breaking Free from Neural Networks and Dynamical Systems (2021)'
+- https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00169/125549/Going-Round-in-Circles-A-Cognitive-Bias-in - 'Going Round in Circles: A Cognitive Bias in Geometric Reasoning'
+- https://newsletter.pragmaticengineer.com/p/how-ai-will-change-software-engineering - 'AI-assisted coding will change software engineering: hard truths'
+- https://github.com/theElandor/Nodes - 'A Python framework for Distributed Algorithm research'
+- https://longform.asmartbear.com/explore-execute/ - 'Explore vs. Execute'
+- https://www.scworld.com/news/new-llm-jailbreak-uses-models-evaluation-skills-against-them - "New LLM jailbreak uses models' evaluation skills against them"
+- https://ocramz.github.io/posts/2023-12-21-assignment-riemann-opt.html - 'Minimum bipartite matching via Riemann optimization'
+- https://github.com/dataclr/dataclr - 'Dataclr – New feature selection algorithm for ML achieving SOTA results'
+- https://www.bbc.com/worklife/article/20230103-how-to-strengthen-willpower - 'The mindset that brings unlimited willpower'
+- https://protovision.github.io/#!/documents/blog/linear-logic.html - 'A Practical Interpretation of Linear Logic'
+- https://justine.lol/sizetricks/ - 'Size Optimization Tricks (2022)'
+- https://maharshi.bearblog.dev/optimizing-softmax-cuda/ - 'Learning CUDA by Optimizing Softmax'
+- https://andrewpaxson.substack.com/p/the-dichotomy-of-engineering-for - 'The Dichotomy of Engineering for Creativity'
+- https://thechipletter.substack.com/p/the-engine - "The Engine: Jonathan Swift's satire on Language Models"
+- https://arxiv.org/abs/2412.20540 - 'A Strong Correspondance Between Bayesian Networks and Linear Logic Proof-Nets'
+- https://arxiv.org/abs/2501.00021 - 'Did we miss P In CAP? Partial Progress Conjecture under Asynchrony'
+- https://joseprupi.github.io/misc/2024/11/01/llms-model-validation.html - 'LLMs Simplify and Improve Model Validation in Banking'
+- https://processoveroutcome.substack.com/p/the-phase-diagram-of-reality
+- https://sebgnotes.com/blog/2025-01-04-llm-rag-query-expansion-for-better-prompting-results/
+- https://github.com/sunildkumar/model_indistinguishability - 'Finding inputs where deep learning models fail'
+- https://articles.hyperknot.com/area_lights_in_shaders/
+- https://maitbayev.github.io/posts/jensens-inequality/ - "Geometric Intuition for Jensen's Inequality"
+- https://www.nature.com/articles/s41467-024-55022-2 - 'Soft Metalens for Broadband Ultrasonic Focusing Through Aberration Layers'
+- https://caseymuratori.com/blog_0015 - 'Semantic Compression (2014)'
 - https://pages.cs.wisc.edu/~remzi/Naur.pdf - 'Programming as Theory Building [pdf]'
 - https://boston.conman.org/2024/12/31.1 - 'A preference for deterministic tools over probabilistic tools'
 - https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view?usp=sharing - "Google's white paper on AI Agents"
