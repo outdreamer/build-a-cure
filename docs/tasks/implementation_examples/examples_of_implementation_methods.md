@@ -86,6 +86,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'new/relevant graph metrics that can be applied to filter relevant graphs'
+        - for example, identifying the base structure to compare a graph or other structure to that will identify a relevant metric like the 'count of interface structures like "new solutions to this standard problem" or "new variables to fit into a similarity network" that this graph can be applied for/contain/identify/generate' is useful to identify, like a base graph/problem that can trivially identify the 'relevance/meaning of new variation', which identifies 'useful graph metrics that arent solved for yet' which can be solved by identifying new standards/similarities (like a 'new component or generative variable of a new relevant variation graph')
+
     - identify useful structures like 'different graph types which are useful to connect' to 'filter relevant graphs'
         - for example, identifying connections between maximally different graphs and maximal similarity graphs (like 'spectrums of graph connections from the most different to the most similar' or 'connecting similarity sequences and difference sequences' or 'connecting relevant variation interactions (using relevant variation connections, like independent variable connections)') are useful to identify new graphs
         - relatedly, 'similarities in similarity ratios across different graphs' can identify a 'set of base truth graphs' to apply as a 'default/constant'
