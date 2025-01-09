@@ -19,6 +19,27 @@
     - some of this may be malware to hack my computer so theres your warning not to click the links
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
+- https://www.quantamagazine.org/the-year-in-math-20241216/
+- https://arxiv.org/abs/2412.12276 - 'Concept Encoding and Decoding Mechanism for In-Context Learning in Transformers'
+- https://www.quantamagazine.org/how-many-numbers-exist-infinity-proof-moves-math-closer-to-an-answer-20210715/
+- https://www.chipstrat.com/p/the-power-of-nvidias-systems-thinking - "The Power of Nvidia's Systems Thinking Approach"
+- https://sonus.ai/blog/sonus-1 - 'Sonus-1: New LLM Family with Reasoning Capabilities'
+- https://www.interconnects.ai/p/the-ai-agent-spectrum
+- https://www.timescale.com/blog/general-purpose-vs-domain-specific-embedding-models
+- https://medium.com/inspiredbrilliance/intrinsic-dimension-part-1-why-large-models-can-be-fine-tuned-with-fewer-parameters-d15702d2943e
+- https://www.sgnt.ai/p/street-fighting-rag-chain-of-thought - 'Street-fighting RAG: chain-of-thought prompting'
+- https://www.query-fast.com/ - 'Show HN: Query Fast - Lightweight data analytics with AI'
+- https://www.theregister.com/2025/01/07/interview_with_aws_byron_cook/ - 'Can AWS Fix AI Hallucination? We Talk to Head of Automated Reasoning Byron Cook'
+- https://www.science.org/doi/10.1126/sciadv.1602589 - 'Experimental verification of an indefinite causal order'
+- https://blog.codinghorror.com/the-great-filter-comes-for-us-all/
+- https://arxiv.org/abs/2412.09709 - 'Scalable, Energy-Efficient Systolic Array for Matrix Multiplication Acceleration'
+- https://github.com/agokrani/distillKitPlus - 'DistilkitPlus: Efficient Knowledge Distillation for LLMs'
+- https://arxiv.org/abs/2412.16746 - 'Political Bias in Large Language Models: Insights Across Topic Polarization'
+- https://jamiebillingham.com/three-types-of-problems-puzzles-dilemmas-and-wicked-problems/
+- https://v5.chriskrycho.com/notes/big-picture-planning-makes-little-picture-planning-easier/
+- https://www.technologyreview.com/2025/01/06/1108679/ai-generative-search-internet-breakthroughs/ - "AI means the end of internet search as we've known it"
+- https://www.tostring.ai/p/neural-networks-observability-and - 'Neural Networks Observability and Monitoring'
+- https://arxiv.org/abs/2501.00655 - 'Finding Missed Code Size Optimizations in Compilers Using LLMs'
 - https://slashdot.org/story/25/01/06/1430215/openai-now-knows-how-to-build-agi-says-altman?utm_source=rss1.0mainlinkanon&utm_medium=feed
 - https://world.hey.com/dhh/delusional-dreams-of-excess-freedom-e7507662
 - https://github.com/lechmazur/writing - 'Show HN: LLM Creative Story-Writing Benchmark'
