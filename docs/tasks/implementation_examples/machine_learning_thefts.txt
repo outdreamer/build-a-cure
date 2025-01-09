@@ -19,6 +19,8 @@
     - some of this may be malware to hack my computer so theres your warning not to click the links
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
+- https://itnext.io/boosting-performance-in-a-diagramming-app-with-quadtrees-and-binary-search-on-path-4412285a78ae - 'Boosting performance in diagramming app with Quadtrees and binary search on path'
+- https://www.nature.com/articles/s43588-024-00732-2 - 'Scalable framework for learning geometry-dependent solution operators of PDEs'
 - https://www.quantamagazine.org/the-year-in-math-20241216/
 - https://arxiv.org/abs/2412.12276 - 'Concept Encoding and Decoding Mechanism for In-Context Learning in Transformers'
 - https://www.quantamagazine.org/how-many-numbers-exist-infinity-proof-moves-math-closer-to-an-answer-20210715/
