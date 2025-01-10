@@ -19,6 +19,56 @@
     - some of this may be malware to hack my computer so theres your warning not to click the links
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
+- https://jakobgreenfeld.com/insight-porn - 'No More Insight Porn'
+- https://community.openstreetmap.org/t/new-examples-of-topological-queries-in-qlever/124051
+- https://diposit.ub.edu/dspace/bitstream/2445/208621/2/tfg_baldillou_salse_pau.pdf - 'An Introduction to Neural Ordinary Differential Equations [pdf]'
+- https://hal.science/hal-04850283 - 'Lyapunov Conjecture for Chain of Thought'
+- https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction - 'Next Token Prediction Towards Multimodal Intelligence'
+- https://arxiv.org/abs/2412.20268 - 'Evaluation of Bfloat16, Posit, and Takum Arithmetics in Sparse Linear Solvers'
+- https://agentlaboratory.github.io/ - 'Agent Laboratory: Using LLM Agents as Research Assistants'
+- https://arxiv.org/abs/2501.04682 - 'Towards System 2 Reasoning in LLMs: Learning How to Think Meta Chain-of-Thought'
+- https://www.arecadata.com/welcome-to-the-data-engineering-dream-factory/
+- https://arxiv.org/abs/2411.08706 - 'Searching Latent Program Spaces'
+- https://asktheuxer.com/2025/01/07/the-two-rules-of-software-creation-from-which-every-problem-derives/
+- https://arxiv.org/abs/2501.04519 - 'rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking'
+- https://www.nextplatform.com/2025/01/07/the-future-is-the-one-we-generate/
+- https://blog.google/technology/ai/google-ai-news-recap-2024/ - "Google's biggest AI announcements in 2024"
+- https://www.apa.org/pubs/journals/features/xge-xge0000177.pdf - 'On the Difficulty of Mending Metacognitive Illusions [pdf]'
+- https://pursuingreality.substack.com/p/the-second-bitter-lesson - 'The second bitter lesson – the fundamental problem with building aligned AI'
+- https://gbragafibra.github.io/2025/01/08/collatz_ant2.html - "Collatz's Ant and similarity of Collatz sequences"
+- https://cirl.etoncollege.com/psychological-obstacles-to-metacognition/
+- https://modelcontextprotocol.io/introduction - 'Model Context Protocol'
+- https://www.youtube.com/watch?v=UgZsTEIjeGs - 'Improvised engineering:Linear bearings in rotarybearings-smooth fractal creation'
+- https://arxiv.org/abs/2501.03151 - 'LLMs for AGI'
+- https://nmn.gl/blog/on-structured-outputs - 'LLM "Structured Outputs" Are Missing the Point'
+- https://arxiv.org/abs/2501.03491 - 'Can LLMs generate good questions?'
+- https://cameronrwolfe.substack.com/p/llm-scaling-laws - 'Scaling Laws for LLMs: From GPT-3 to o3'
+- https://nsavage.substack.com/p/the-scenic-route-to-software-code - 'The Scenic Route to Software: Code Generation for Non-Traditional Developers'
+- https://www.edgeimpulse.com/blog/ai-explainability-with-grad-cam-visualizing-neural-network-decisions/
+- https://en.wikipedia.org/wiki/Zone_of_proximal_development
+- https://www.youtube.com/watch?v=IPmt8b-qLgk - 'How difficult is AI alignment? [video]'
+- https://github.com/d4v3y0rk/llm_catcher - 'LLM Catcher – Automated Python Debugging Using LLMs'
+- https://arxiv.org/abs/2412.15254 - 'Unlocking the Potential of Large Language Models in Data-Scarce Contexts'
+- https://blog.voyageai.com/2025/01/07/voyage-3-large/ - 'Voyage-3-large: the new general-purpose embedding model'
+- https://sagipolaczek.github.io/NeuralSVG/ - 'NeuralSVG: An Implicit Representation for Text-to-Vector Generation'
+- https://tailscale.com/blog/living-in-the-future - 'Living in the Future, by the Numbers'
+- https://arstechnica.com/information-technology/2025/01/sam-altman-says-we-are-now-confident-we-know-how-to-build-agi/
+- https://2472241684911.gumroad.com/l/whathow - 'Show HN: 300 Pages of AI-Driven Insights on Growth and Learning'
+- https://jerf.org/iri/post/2025/programming_language_ideas/ - 'Some programming language ideas'
+- https://github.com/Ericson2314/baccumulation/blob/main/math/multiplicative-infinitesimals.md
+- https://www.lesswrong.com/posts/gYfpPbww3wQRaxAFD/activation-space-interpretability-may-be-doomed - 'Activation space interpretability may be doomed'
+- https://www.nature.com/articles/s41586-024-08328-6 - 'TabPFN: Accurate predictions on small data with a tabular foundation model'
+- https://blog.muni.town/selling-dreams/ - 'Weird v0.3 – Dreams for Sale'
+- https://www.puppygraph.com/blog/graph-search-algorithms - 'Graph Search Algorithms: A Practical Overview'
+- https://phys.org/news/2025-01-domain-oscillations-distant-semiconductor-qubits.html - 'Time-domain oscillations between two distant semiconductor spin qubits'
+- https://arxiv.org/abs/2107.13433 - 'Functorial String Diagrams for Reverse-Mode Automatic Differentiation (2021)'
+- https://unherd.com/2024/12/the-torture-of-an-unphilosophical-life/
+- https://akstuhl.net/blog/2025-01-08-meta-influencers.html - 'Meta-Influencers and Automation as Wedge'
+- https://app.athina.ai/flows/templates - 'Show HN: Flows – Google Colab meets Notion, designed for AI workflows'
+- https://mixmag.net/feature/spectrogram-art-music-aphex-twin - 'Spectrogram Art: musicians hiding visuals in their tracks (2022)'
+- http://muratbuffalo.blogspot.com/2025/01/i-cant-believe-its-not-causal-scalable.html - 'Scalable Causal Consistency with No Slowdown Cascades'
+- https://www.quantamagazine.org/rational-or-not-this-basic-math-question-took-decades-to-answer-20250108/
+- https://explaining.software/archive/structuralism/
 - https://developers.googleblog.com/en/build-the-future-of-home-with-google-home-apis/
 - https://bigthink.com/the-future/predicting-the-digital-superpowers-we-could-have-by-2030/ - 'AI Glasses will give us Digital Superpowers'
 - https://www.shoshinworks.com/podcast-episodes/beyond-conventional-physics-extended-electrodynamics-lattice-confinement-fusion-zero-point-energy-advanced-propulsion
