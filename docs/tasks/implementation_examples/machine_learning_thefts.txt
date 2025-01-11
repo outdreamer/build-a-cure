@@ -20,6 +20,15 @@
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
 
+- https://www.experimental-history.com/p/two-stupid-facts-that-rule-the-world
+- https://blog.codeyam.com/p/software-development-with-ai-isolation - 'Software Development with AI: Isolation and Abstraction'
+- https://www.datastax.com/blog/best-embedding-models-information-retrieval-2025
+- https://maharshi.bearblog.dev/contemplative-llms-prompt/ - 'Contemplative LLMs: Anxiety is all you need?' (nope, relevance is all you need)
+- https://theahura.substack.com/p/ilyas-30-papers-to-carmack-graph - 'A Review of Graph Neural Networks'
+- https://www.dbreunig.com/2025/01/08/evaluating-llms-as-knowledge-banks.html - 'Your Eval Is More Important Than the Model: Building an Example Eval'
+- https://arxiv.org/abs/2501.04330 - 'Neural Parameter Estimation with Incomplete Data'
+- https://frontierai.substack.com/p/predictions-for-ai-in-2025
+- https://www.nature.com/articles/s41598-024-77399-2 - 'Full-waveform inversion reveals origins of lower mantle wave anomalies (2024)'
 - https://ianarawjo.medium.com/what-ai-engineers-can-learn-from-qualitative-research-methods-in-hci-5b29b9b7465a
 - https://alexzhang13.github.io/blog/2024/efficient-dl/ - "A Meticulous Guide to Advances in Deep Learning Efficiency over the Years"
 - https://jakobgreenfeld.com/insight-porn - 'No More Insight Porn'
