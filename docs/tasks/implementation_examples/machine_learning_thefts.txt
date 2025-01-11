@@ -20,6 +20,19 @@
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
 
+- https://archive.is/o/ApXuK/https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html
+- https://aswathdamodaran.blogspot.com/2025/01/data-update-1-for-2025-draw-and-danger.html - 'The Draw (and Danger) of Data'
+- https://medium.com/weeklyperformancescience/visualize-how-it-could-have-been-worse-visualize-how-it-will-be-better-d6d8a3d56084
+- https://lucasb.eyer.be/snips/residuals.html - 'History of Residuals and a Word of Caution'
+- https://sebgnotes.com/blog/2025-01-10-evaluator-optimizer-llm-workflow-a-pattern-for-self-improving-ai-systems/ - ''
+- https://arxiv.org/abs/2409.19379 - 'Automated Conjecturing in Mathematics with TxGraffiti'
+- https://simonwillison.net/2025/Jan/10/ai-predictions/ - 'My AI/LLM predictions for the next 1, 3 and 6 years'
+- https://github.com/attentionmech/transformer-scope - 'transformer-scope: script for visualizing activations'
+- https://www.whitman.edu/mathematics/higher_math_online/ - 'Introduction to Higher Mathematics'
+- https://physicsworld.com/a/higher-order-brain-function-revealed-by-new-analysis-of-fmri-data/
+- https://github.com/FellouAI/eko - 'Eko – Build Production-Ready Agentic Workflow with Natural Language'
+- https://twitter.com/arithmoquine/status/1877811452624437457 - 'Dimensional Reduction and Topological Recovery from Neuronal Spike Data'
+- https://publications.rwth-aachen.de/record/466561/files/466561.pdf?subformat=pdfa&version=1 - 'Partitioned convolution algorithms for real-time auralization'
 - https://arxiv.org/abs/2501.04227 - 'Agent Laboratory: Using LLM Agents as Research Assistants'
 - https://blog.christianperone.com/2025/01/notes-on-gilbert-simondons-on-the-mode-of-existence-of-technical-objects-and-artificial-intelligence/ - "Notes on Gilbert Simondon's 'On the Mode of Existence of Technical Objects'"
 - https://www.nfx.com/post/stackable-business-models - 'Stackable Business Models in the Age of AI'
