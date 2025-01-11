@@ -20,6 +20,8 @@
     - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
 
+- https://blog.dagworks.io/p/lean-data-automation-a-principal - 'Lean Data Automation: a principal components approach'
+- https://utkusen.substack.com/p/making-small-mistakes-prevents-bigger - 'Making Small Mistakes Prevents Bigger Ones'
 - https://www.experimental-history.com/p/two-stupid-facts-that-rule-the-world
 - https://blog.codeyam.com/p/software-development-with-ai-isolation - 'Software Development with AI: Isolation and Abstraction'
 - https://www.datastax.com/blog/best-embedding-models-information-retrieval-2025
