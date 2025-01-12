@@ -327,7 +327,7 @@
 		- air pollution exposure:
 			- iodine, selenium, vitamin b/c/d/e, chlorella, gentian, schizandra, milk thistle, omega 3's
 		- atherosclerosis: 
-			- nattokinase, elastin F, omega-3s, moringa, policosanol
+			- nattokinase, elastin F, omega-3s, moringa, policosanol, glycine
 			- atherosclerosis caused by diabetes: prunella vulgaris
 			- atherosclerosis caused by air pollution: air purifier
 			- statins (red yeast rice) and PCSK9 inhibitors (berberine)
