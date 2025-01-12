@@ -17,9 +17,42 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
-    - it doesnt matter if other people knew about 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
+    - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
 
+- https://techxplore.com/news/2025-01-microsoft-rstar-math-slm-problem.html - 'Microsoft introduces rStar-Math, an SLM for math reasoning and problem solving'
+- https://archive.org/details/SchreiderEqualityResemblanceOrderMir1975 - 'Equality, Resemblance, and Order (1975)'
+- https://near.tl/developer-forever/forum/announcement/the-nature-of-intelligence-is-meta.anc-cacde03a-0806-4d27-87e3-eea5f1c39262.html
+- https://rcor.me/papers/typed-graph-theory.pdf - 'Typed Graph Theory Extending graphs with type systems [pdf]'
+- https://www.bbc.com/news/articles/cz6lg44jwwno - 'How AI uncovers new ways to tackle difficult diseases'
+- https://3dify.space/ - 'AI-Powered 2D to 3D Model Generator'
+- https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/
+- https://sebgnotes.com/blog/2025-01-09-ai-agents-saas-margins-and-owning-the-full-problem/
+- https://quantumfrontiers.com/2023/09/10/can-thermodynamics-resolve-the-measurement-problem/
+- https://github.com/pulzeai-oss/evals - 'Pulze AI Evals'
+- https://blog.pulze.ai/introducing-pulze-ai-spaces-your-gateway-to-all-ai-technologies/
+- https://www.haskellforall.com/2022/05/the-golden-rule-of-software.html - 'The golden rule of software distributions (2022)'
+- https://blog.anj.ai/2025/01/llm-token-generation-probabilities.html - 'How outdated information hides in LLM token generation probabilities'
+- https://arxiv.org/abs/2501.04040 - 'A Survey on LLMs with Some Insights on Their Capabilities and Limitations'
+- https://writings.stephenwolfram.com/2025/01/who-can-understand-the-proof-a-window-on-formalized-mathematics/
+- https://arxiv.org/abs/2501.04682 - 'Learning how to think with Meta Chain-of-Thought'
+- https://blogs.nvidia.com/blog/nemotron-model-families/ - 'Nvidia Announces Nemotron Model Families to Advance Agentic AI'
+- https://www.wilfred.me.uk/blog/2019/03/24/the-siren-song-of-little-languages/
+- https://danielwirtz.com/blog/spot-the-difference-superpower - "I've acquired a new superpower"
+- https://arxiv.org/abs/2501.05366 - 'Search-O1: Agentic Search-Enhanced Large Reasoning Models'
+- https://www.youtube.com/watch?v=RAzkr21R_Bo - 'Sosci – a super-realistic software oscilloscope [video]'
+- https://loadbearingtomato.com/p/troubleshooting-101-possibility-spaces - 'Engineering Troubleshooting 101: Possibility Spaces and Proxies'
+- https://www.youtube.com/watch?v=FwD0wqwUjAI - 'How to Build the Future: Parker Conrad [video]'
+- https://gwern.net/doc/math/1979-demillo.pdf - 'Social Processes and Proofs of Theorems and Programs [pdf]'
+- https://duckdb.org/2025/01/10/union-by-name.html - 'Vertical Stacking as the Relational Model Intended: Union All by Name'
+- https://mathwithbaddrawings.com/2017/04/26/lemony-snickets-a-series-of-unfortunate-series/ - 'A Series of Unfortunate Series'
+- https://arxiv.org/abs/2207.08799 - 'Progress in Deep Learning: SGD Learns Parities Near the Computational Limit'
+- https://www.microsoft.com/en-us/research/publication/extensible-query-optimizers-in-practice/
+- https://modelcontextprotocol.io/introduction - 'MCP, open protocol on how applications provide context to LLMs'
+- https://pez.github.io/languages-visualizations/ - 'A Languages Visualization Experiment'
+- https://mathoverflow.net/questions/42512/awfully-sophisticated-proof-for-simple-facts
+- https://dl.acm.org/doi/10.1145/3704882 - 'The Best of Abstract Interpretations'
+- https://techcrunch.com/2025/01/06/google-is-forming-a-new-team-to-build-ai-that-can-simulate-the-physical-world/
 - https://archive.is/o/ApXuK/https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html
 - https://aswathdamodaran.blogspot.com/2025/01/data-update-1-for-2025-draw-and-danger.html - 'The Draw (and Danger) of Data'
 - https://medium.com/weeklyperformancescience/visualize-how-it-could-have-been-worse-visualize-how-it-will-be-better-d6d8a3d56084
