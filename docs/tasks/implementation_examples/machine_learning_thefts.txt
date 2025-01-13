@@ -20,6 +20,47 @@
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
 
 
+
+
+- https://docs.anthropic.com/en/docs/build-with-claude/embeddings - 'Anthropic Embeddings'
+- https://sebgnotes.com/blog/2025-01-12-ai-tinkerers-the-modern-homebrew-computer-club-for-ai/
+- https://www.numenta.com/resources/research-publications/papers/a-framework-for-intelligence-and-cortical-function-based-on-grid-cells-in-the-neocortex/
+- https://journals.sagepub.com/doi/10.1177/1745691617702718 - 'From "Human Inference" to "Geography of Thought" (2017)'
+- https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/
+- https://arxiv.org/abs/2501.05811 - 'Mlkaps: Machine Learning and Adaptive Sampling for HPC Kernel Auto-Tuning'
+- https://mikulskibartosz.name/ai-workflow-design-patterns - 'AI Workflow Patterns with PydanticAI (based on Anthropic agents guide)'
+- https://arxiv.org/abs/2412.16260 - 'Inference Scaling vs. Reasoning: Analysis of Compute-Optimal LLM Problem-Solving'
+- https://time.com/7205596/sam-altman-superintelligence-agi/ - "How OpenAI’s Sam Altman Is Thinking About AGI and Superintelligence in 2025"
+- https://blog.thrivepointgroup.com/p/approaching-the-event-horizon - 'Approaching the Event Horizon: On the eve of super intelligence'
+- https://frguthmann.github.io/posts/compute_shaders/ - 'Exploring ways to optimize compute shaders'
+- https://www.theguardian.com/books/2025/jan/03/the-shape-of-things-unseen-by-adam-zeman-review-the-science-of-imagination
+- https://www.dhaval-shah.com/parallel-processing-virtual-threads-reactor-vs-jdk/ - 'Parallel processing with Virtual Threads – A comparative analysis'
+- https://arxiv.org/abs/2412.15239 - 'Modeling Story Expectations to Understand Engagement: A Framework Using LLMs'
+- https://en.wikipedia.org/wiki/Relational_frame_theory
+- https://www.youtube.com/watch?v=TTo2kjrAuTo&list=PL05umP7R6ij2YE8rRJSb-olDNbntAQ_Bx - 'Probabilistic ML (2023) [video]'
+- https://www.youtube.com/watch?v=6VJFMCkkoHU - 'AI as a Force Multiplier [video]'
+- https://about.bnef.com/blog/liebreich-generative-ai-the-power-and-the-glory/
+- https://arctortect.substack.com/p/laziness-impatience-hubris-and-ai
+- https://medium.com/luminasticity/the-limits-of-possible-multiverses-349e2aa3effa
+- https://github.com/quantalogic/quantalogic - 'QuantaLogic: A ReAct Framework for Building Advanced AI Agents'
+- https://imaginespaces.ai/
+- https://arxiv.org/abs/2412.14359 - 'Dynamic semantic VSLAM with known and unknown objects'
+- https://www.vox.com/future-perfect/394336/artificial-intelligence-openai-o3-benchmarks-agi - "It's getting harder to measure just how good AI is getting"
+- https://bcghendersoninstitute.com/the-art-of-innovation-a-conversation-with-steve-blank/
+- https://meaningness.com/cofounders-in-relationship - 'Meta-Systematicity in Organizations'
+- https://medium.com/write-a-catalyst/the-beauty-of-embracing-uncertainty-74d616c65d31
+- https://github.com/LinearBoost/linearboost-classifier - 'LinearBoost: Faster and more accurate than XGBoost and LightGBM on 7 famous data'
+- https://www.psychologytoday.com/intl/blog/the-digital-self/202408/llms-as-a-step-forward-in-cognitive-fitness
+- https://www.nature.com/articles/s41598-024-63380-6 - 'On-device query intent prediction with lightweight LLMs to support conversations'
+- https://arxiv.org/abs/2310.02557 - 'Diffusion Models Generalize via Geometry-Adaptive Harmonic Representations'
+- https://arxiv.org/abs/2405.19592 - 'Why Larger Language Models Do In-Context Learning Differently?'
+- https://zed.dev/blog/mcp - 'The Context Outside the Code'
+- https://www.informatik.tu-darmstadt.de/ukp/ukp_home/ukp_news_details_305408.en.jsp - 'LLMs: Independent, complex thinking not (yet) possible after all'
+- https://arize.com/blog-course/explainability-techniques-shap/ - 'Explainability in Machine Learning: Top Techniques'
+- https://quuxplusone.github.io/blog/2025/01/10/trivially-destructible-after-move/ - '"Trivially relocatable" versus "trivially destructible after move"'
+- https://nabeelqu.substack.com/p/principles
+- https://news.mit.edu/2025/designing-tiny-filters-solving-big-problems-zachary-smith-0112 - 'Designing tiny filters to solve big problems'
+- https://blog.computationalcomplexity.org/2025/01/random-thought-on-ai-from-someone-in.html - "Random Thought on AI from Someone in the Real World"
 - https://techxplore.com/news/2025-01-microsoft-rstar-math-slm-problem.html - 'Microsoft introduces rStar-Math, an SLM for math reasoning and problem solving'
 - https://archive.org/details/SchreiderEqualityResemblanceOrderMir1975 - 'Equality, Resemblance, and Order (1975)'
 - https://near.tl/developer-forever/forum/announcement/the-nature-of-intelligence-is-meta.anc-cacde03a-0806-4d27-87e3-eea5f1c39262.html

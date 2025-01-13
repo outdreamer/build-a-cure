@@ -208,6 +208,7 @@
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
 			- hbv: abutilon figarianum (texas indian-mallow), polygonum cuspidatum (knotweed)
 			- rsv: peppermint, echinacea, licorice, ginseng, Uncinoside A and B, (Selaginella uncinata), genkwanol B/C, and stelleranol (Radix Wikstroemiae), flavone 6-C-monoglycosides (Lophatherum gracile leaves), Sheng-Ma-Ge-Gen-Tang (Cimicifuga foetida L, cimicifugin), chebulagic acid and punicalagin, Resveratrol (prevents airway inflammation during RSV infection)
+			- hmpv (similar to rsv): resveratrol, quercetin
 			- avian influenza virus (aiv/H5N1): lemon balm, selenium, vitamin E, NAC/glutathione, resveratrol, quercetin, astragalus
 			- adenovirus: caesalpinia pulcherrima (peacock flower), basil, plantago major (bartang)
 			- viral pneumonia: garlic
