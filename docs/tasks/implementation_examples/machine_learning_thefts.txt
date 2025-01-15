@@ -17,11 +17,52 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
-    - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality)
+    - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems)
 
 
 
-
+- https://dashbit.co/blog/data-evolution-with-set-theoretic-types
+- https://en.wikipedia.org/wiki/Variability_hypothesis
+- https://news.ycombinator.com/item?id=42695730 - "I'm 18, Deleted My Social Media, and Built an App to Make Time Online Meaningful"
+- https://archive.org/details/atthecrossroadsofinfinites - 'At the Crossroads of Infinites (1971)'
+- https://www.techradar.com/computing/artificial-intelligence/sam-altman-predicts-artificial-superintelligence-agi-will-happen-this-year
+- https://shermanonsoftware.com/2025/01/13/the-anna-karenina-principle-of-scaling-software-systems/
+- https://allthingsopen.org/articles/hercules-building-multiagent-systems-test-automation - 'Building multiagent systems for intelligent test automation'
+- https://arxiv.org/abs/1909.11291 - 'Question Answering is a Format; When is it Useful?'
+- https://eprint.iacr.org/2024/1714 - 'Approaches to Solving SVP in Lattice Cryptography with Quantum Gravity'
+- https://www.nextplatform.com/2025/01/10/a-novel-way-to-compact-data-for-more-efficient-storage-and-transmission/
+- https://www.mdpi.com/2075-4698/15/1/6 - 'AI Tools: Impacts on Cognitive Offloading and the Future of Critical Thinking'
+- https://arxiv.org/abs/2412.18544 - 'LLM forecasters rapidly approaching human-level performance'
+- https://openai.com/global-affairs/openais-economic-blueprint
+- https://ates.dev/posts/2025-01-12-accurate-benchmarking/
+- https://twitter.com/CamelAIOrg/status/1878492129711817009 - 'Open-source agentic o1 thinking data generation and model fine-tuning'
+- https://dwheeler.com/essays/debugging-agans.html - 'Debugging: Indispensable rules for finding even the most elusive problems (2004)'
+- https://github.com/topoteretes/cognee - 'Cognee: Reliable LLM Memory for AI Applications and AI Agents'
+- https://onlinelibrary.wiley.com/doi/full/10.1111/j.1756-8765.2010.01089.x - 'Cognitive Ecology (2010)'
+- https://www.nationalacademies.org/news/2022/02/augmenting-our-thinking-through-the-nexus-of-engineering-science-technology-and-art
+- https://www.quantamagazine.org/how-the-brain-distinguishes-memories-from-perceptions-20221214/
+- https://hardcoresoftware.learningbyshipping.com/p/227-ces-2025-an-abundance-of-ai-experimentation
+- https://flarefront.com/articles/tdd-as-ground-truth-anchoring-ai-development/
+- https://thenewstack.io/evil-models-and-exploits-when-ai-becomes-the-attacker/
+- https://arxiv.org/abs/2501.05542 - 'Infecting Generative AI with Viruses'
+- https://arxiv.org/abs/2501.05928 - 'Towards Backdoor Stealthiness in Model Parameter Space'
+- https://www.youtube.com/watch?v=GwfifRwNjYE - 'No data prep, no feature engineering: Predictive modeling in 2025 [video]'
+- https://contact-rajeshvinayagam.medium.com/from-chaos-to-simplicity-a-tale-of-software-scripts-and-the-testrigor-revolution-f03275e23b17
+- https://statmodeling.stat.columbia.edu/2025/01/13/the-theory-crisis-in-physics-compared-to-the-replication-crisis-in-social-science-two-different-opinion-field-inversions-that-differ-in-some-important-ways/
+- https://blog.vital.ai/2025/01/13/agents-and-ensemble-reasoning/ - 'Agents and Ensemble Reasoning with open source LLMs'
+- https://scitechdaily.com/quantum-physics-just-got-even-stranger-meet-the-mysterious-paraparticles/
+- https://www.ufried.com/blog/road_to_resilience_7/ - 'The long way towards resilience – Part 7'
+- https://arxiv.org/abs/2412.15241 - 'Quantifying Positional Biases in Text Embedding Models'
+- https://www.ssp.sh/brain/data-engineering-concepts/ - 'Data Engineering Concepts (Digital Garden)'
+- https://spectrum.ieee.org/ai-mistakes-schneier - 'AI Mistakes Are Way Weirder Than Human Mistakes'
+- https://www.shaped.ai/blog/cosine-similarity-not-the-silver-bullet-we-thought-it-was
+- https://arxiv.org/abs/2408.02946 - 'Data Poisoning in LLMs: Jailbreak-Tuning and Scaling Laws'
+- https://www.quantamagazine.org/can-ai-models-show-us-how-people-learn-impossible-languages-point-a-way-20250113/
+- https://dl.acm.org/doi/10.1145/3711824 - 'A Novel Multi-Hop Query Answering System Based on a Large Knowledge Graph'
+- https://www.chrismaresca.dev/articles/applied-artificial-intelligence-&-its-role-in-an-agi-world
+- https://arxiv.org/abs/2501.05678 - 'Black String in the Standard Model – High Energy Physics – Theory'
+- https://michaelrbock.com/hypothesis/ - 'Hypothesis Sheets: how to navigate and exit the idea maze with a startup idea'
+- https://domofutu.substack.com/p/entropy-integration-and-mind
 - https://docs.anthropic.com/en/docs/build-with-claude/embeddings - 'Anthropic Embeddings'
 - https://sebgnotes.com/blog/2025-01-12-ai-tinkerers-the-modern-homebrew-computer-club-for-ai/
 - https://www.numenta.com/resources/research-publications/papers/a-framework-for-intelligence-and-cortical-function-based-on-grid-cells-in-the-neocortex/
