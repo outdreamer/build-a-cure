@@ -21,6 +21,54 @@
 
 
 
+- https://arxiv.org/abs/2501.00625 - 'Self Adaptive LLMs'
+- https://arxiv.org/abs/2405.14831 - 'HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models'
+- https://github.com/MiniMax-AI - 'Scaling Foundation Models with Lightning Attention'
+- https://arxiv.org/abs/2501.05867 - 'Neural Network Verification Is a Programming Language Challenge'
+- https://www.nextplatform.com/2025/01/13/artificial-intelligence-meets-military-intelligence-unstable-diffusion/
+- https://alediaferia.com/2025/01/14/product-surface-liability/ - 'Thoughts on the Liability of the Product Surface'
+- https://prompteval.co/ - 'Show HN: Better prompt'
+- https://scira.app/ - 'Scira is a minimalistic AI-powered search engine'
+- https://wyounas.github.io/concurrency/2025/01/13/when-a-simple-concurrent-program-goes-against-all-intuition/
+- https://blogs.microsoft.com/blog/2025/01/13/introducing-core-ai-platform-and-tools/
+- https://www.latent.space/p/o1-skill-issue - 'Give o1 ten times more context to get value from it'
+- https://zju3dv.github.io/MatchAnything/ - 'MatchAnything: Universal Cross-Modality Image Matching'
+- https://github.com/OuteniquaStudios/aqea - 'Show HN: AQEA – AI-Powered Test Case Generation Tool'
+- https://arxiv.org/abs/2501.05498 - 'Generative Flow Networks: Theory and Applications to Structure Learning'
+- https://blog.startifact.com/posts/empowering-languages/ - 'Empowering Programming Languages'
+- https://aeon.co/essays/is-life-a-complex-computational-process - 'Problem-Solving Matter'
+- https://blog.ag-grid.com/optimizing-large-data-set-visualisations-with-the-m4-algorithm/
+- https://konsumogklima.no/index.html - 'Filling the Solution Void'
+- https://www.collegidea.com/ - 'Discover Ideas That Inspire'
+- https://aiagentstore.ai/agentic-ai/ai-agent-development-platforms
+- https://www.playcolorflood.com/ - 'Show HN: Color Flood, Try and Beat BFS and Greedy Algorithms'
+- https://novice.media/p/imagine-a-ai-that-discovers-things - 'Imagine a AI That Discovers Things on Its Own'
+- https://www.nature.com/articles/s41598-024-72528-3 - 'The Two Word Test as a semantic benchmark for large language models'
+- https://www.fullstory.com/blog/rethinking-security/ - 'Why ML and AI demand a new approach to threat modeling'
+- https://github.com/IINemo/lm-polygraph - 'LM-Polygraph: Uncertainty Estimation for LLMs'
+- https://www.twosigma.com/articles/why-human-intuition-is-essential-in-machine-learning/
+- https://dl.acm.org/doi/10.1016/j.tcs.2006.10.010 - 'Can Newtonian systems, bounded in space, time, mass and energy compute all f(x)?'
+- https://hao-ai-lab.github.io/blogs/vllm-ltr/ - 'Efficient LLM Scheduling by Learning to Rank'
+- https://www.simplex.sh/playground - 'Show HN: Simplex: Automate browser workflows using code and natural language'
+- https://www.nytimes.com/2025/01/14/business/dealbook/anysphere-cursor-25-billion-valuation.html - 'Anysphere, a Maker of A.I. Coding Software, Raises $105M'
+- https://arxiv.org/abs/2408.15247 - 'AutoGen Studio: A No-Code Developer Tool for Building Multi-Agent Systems'
+- https://cloud.google.com/blog/products/ai-machine-learning/bringing-ai-agents-to-enterprises-with-google-agentspace - 'Google Agentspace: Bringing AI agents and AI-powered search to enterprises'
+- https://david-ferris.medium.com/6-ai-realist-predictions-for-the-future-b6fb081a4b29
+- https://github.com/moonstripe/promptify - 'Promptify: A CLI tool for generating useful prompts from plaintext directories'
+- https://supermemo.guru/wiki/How_to_solve_any_problem%3F - 'How to solve hard, creative problems'
+- https://arxiv.org/abs/2501.06252 - 'Transformer-squared: Self-adaptive LLMs'
+- https://pattern-pathfinder.vercel.app/?fixtureId=%7B%22path%22%3A%22site%2Fexamples%2F_intro.fixture.tsx%22%7D - 'Show HN: Recursively apply patterns for pathfinding (algorithm)'
+- https://arxiv.org/abs/2412.04984 - 'Frontier Models are Capable of In-context Scheming'
+- https://www.uni-bonn.de/en/news/008-2025 - 'New Training Technique for Highly Efficient AI Methods'
+- https://sourcegraph.com/blog/cheating-is-all-you-need - wrong, exploiting innocent people gets you killed, its emergently inefficient, 'finding an equal optimal' is efficient
+- https://www.nature.com/articles/d41586-025-00110-6 - "How should we test AI for human-level intelligence? OpenAI's o3 quest"
+- https://github.com/Panopticon-AI-team/panopticon - 'Show HN: Panopticon AI – Open-source platform for military AI research'
+- https://link.springer.com/article/10.1007/s11831-023-09928-7 - 'A Systematic Review of the Whale Optimization Algorithm'
+- https://phys.org/news/2025-01-mathematical-technique-black-ai-decision.html - "Mathematical technique 'opens the black box' of AI decision-making"
+- https://arxiv.org/abs/2501.05707 - 'Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains'
+- https://ludic.mataroa.blog/blog/brainwash-an-executive-today/
+- https://salykova.github.io/sgemm-gpu - 'Beating cuBLAS in Single-Precision General Matrix Multiplication'
+- https://public-inspection.federalregister.gov/2025-00636.pdf - 'Framework for Artificial Intelligence Diffusion [pdf]'
 - https://dashbit.co/blog/data-evolution-with-set-theoretic-types
 - https://en.wikipedia.org/wiki/Variability_hypothesis
 - https://news.ycombinator.com/item?id=42695730 - "I'm 18, Deleted My Social Media, and Built an App to Make Time Online Meaningful"

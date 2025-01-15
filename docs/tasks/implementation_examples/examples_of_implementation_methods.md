@@ -86,6 +86,10 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'emergent standardizations/similarities of solutions (like common interface causes of problems that are identifiable after problem-solving processes are applied)' to 'filter relevant graphs (based on these similarities)'
+        - for example, identifying 'common interface causes of problems' is a useful structure to identify/graph, like how 'when requirements change frequently' or 'when requirements are re-defined chaotically' can cause problems, so solving problems can involve interface queries that solve/remove these common interface causes first
+            - similarly, identifying causal graphs like 'interface variable combination causal sequences to apply in graphs (like as core layer graphs or graphs with embedded sequences)' is useful to 'identify relevant graphs'
+
     - identify useful structures like 'sequences of maximal differences in function structures' is useful as an 'alternate connection set' to 'filter relevant connections'
         - for example, identifying a 'network of connections between maximally different functions in a function type, and maximally different functions across types/interfaces, and maximally different functions connecting specific interface variables' is a useful network to identify, given that this network is likely to contain the connections between most possible differences, so it will contain the solutions to most problems and can also be filtered in different ways like by 'function type or endpoints connected by functions' (specific interface variables connected by function types), where 'sequences of maximal differences across this networks' and 'adjacent layers of this network' are useful to identify
         - relatedly, identifying variants of solution metric structures like solution metric combinations and identifying whether a problem can exist/occur/be defined in this set of variants is a problem-solving workflow
