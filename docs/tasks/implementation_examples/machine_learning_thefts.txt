@@ -21,6 +21,26 @@
 
 
 
+
+
+- https://thenextweb.com/news/synthesia-uks-most-valuable-genai-startup - "Synthesia becomes UK’s biggest GenAI company with $2.1B valuation"
+- https://www.ox.ac.uk/news/2024-12-23-genetics-childhood-aspirations-and-family-background-work-together-shape-status - 'Genetics/childhood aspirations/family work to shape status/career/health'
+- https://ndea.com/ - 'NDEA: A new intelligence science lab founded by François Chollet and Mike Knoop'
+- https://github.com/rust-lang/rust/pull/124032 - 'Rust's New Sort Algorithms'
+- https://arxiv.org/abs/2501.07542 - 'Imagine While Reasoning in Space: Multimodal Visualization-of-Thought'
+- https://promptql.hasura.io/docs/notes/rag-hundred-percent-accuracy - 'Approaching 100% accuracy on RAG with planning'
+- https://www.newsminimalist.com/ - 'Show HN: News Minimalist – All news ranked by significance'
+- https://ai.pydantic.dev/graph/ - 'PydanticAI now has graph support'
+- https://wtheck.substack.com/p/a-new-way-to-guide-llm-reasoning
+- https://cerebras.ai/blog/100x-defect-tolerance-how-cerebras-solved-the-yield-problem
+- https://twitter.com/ContextualAI/status/1879563242013618282 - 'Specialized RAG Agents'
+- https://github.com/codyogden/killedbygoogle/issues/1572 - 'Google Graveyard Being Sunset'
+- https://blog.google/outreach-initiatives/google-org/google-org-generative-ai-accelerator-2025/
+- https://arxiv.org/abs/2501.00663 - 'Titans: Learning to Memorize at Test Time'
+- https://ieeexplore.ieee.org/document/10597920 - 'Generative and Contrastive Paradigms Improves Graph Self-Supervised Learning'
+- https://github.com/LeetArxiv/Finite-Field-Assembly - 'The Finite Field Assembly Programming Language'
+- https://www.quantamagazine.org/mathematicians-discover-new-way-for-spheres-to-kiss-20250115/
+- https://blog.sbensu.com/posts/incentives-as-selection-effects/
 - https://arxiv.org/abs/2501.00625 - 'Self Adaptive LLMs'
 - https://arxiv.org/abs/2405.14831 - 'HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models'
 - https://github.com/MiniMax-AI - 'Scaling Foundation Models with Lightning Attention'

@@ -480,6 +480,11 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure:
+				- SGLT inhibitors
+					- https://www.sciencedirect.com/science/article/pii/S2667031322000112
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC10831928/
+				- cranberry reduces cardiovascular disease risk
+					- https://pubmed.ncbi.nlm.nih.gov/25904733/
 				- beta-sitosterol reduced the myocardial infarcted size and apoptosis by the inhibition of PPARγ, protecting against cardiomyocyte/myocardial injury
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7142345/
 				- Angiogenesis/revascularization
@@ -507,7 +512,7 @@
 						- https://pubmed.ncbi.nlm.nih.gov/37964408/
 					- increasing GDF-15 may be useful for treating diabetes
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8885880/
-				- treat high blood pressure and kidney damage
+				- treat high blood pressure and kidney damage and hypothyroidism, which can make heart failure worse
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, excess choline, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
@@ -626,6 +631,7 @@
 				- reverse osmosis water filter
 				- avoid kale/other foods with higher PFAS levels or foods stored in plastic for a long time like frozen foods/cereal
 				- avoid personal care products like soap/toilet paper unless theyre labeled as free of PFAS or if theyre sold at Whole Foods
+				- bloodletting and cholestyramine can reduce pfas in blood
 				- buy clothes/products from these stores: 
 					- https://pfascentral.org/pfas-free-products/
 			2. Solution to BPA in cans:
@@ -965,6 +971,10 @@
 				- turmeric
 			- increase TRAIL-induced extrinsic apoptosis
 				- tannic acid
+
+		- activate DR5
+			- curcumin significantly increases the expression of death receptor 5 (DR5)
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC10281727/
 
 		- change protein kinases
 			- decrease JAK-1/2, AKT, PI3K, PGK1, GSK-3b
@@ -2654,6 +2664,7 @@
 			- that means washing clothes twice before wearing, using non-toxic laundry detergent and soap and anything else that touches your skin, not buying plastic anything such as shower curtains, not trying on new clothes without washing them first, looking for ways to clean PFAS from your water, avoiding food that binds to PFAS such as kale, avoiding soda cans made with BPA (avoiding canned food at all, similarly avoiding ceramic containers that may contain lead, instead using wood/pyrex where possible), etc
 			- these can cause organ failure which can make it more difficult to fight cancer and can also cause cancer directly
 			- plastics in products often accompany other harmful substances like formaldehyde which is a carcinogen
+			- bloodletting and cholestyramine can reduce pfas in blood
 		- artificial sweeteners
 			- monk fruit and stevia and possibly xylitol might be the only safe artificial sweeteners other than natural sugars like honey
 		- emulsifiers 

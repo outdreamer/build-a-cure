@@ -86,6 +86,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'sets of graphs useful for organizing other graphs' to 'filter relevant graphs'
+        - for example, identifying the relevant variation in an interface structure like requirements involves identifying graphs like 'interface interaction graphs (like requimreents of requirements and causes of requirements and maximally relevant requirements and their interactions)' and graphs like 'problem-solving graphs (connecting requirements to their opposite structure like variation)' and 'relevance graphs' (like 'graphs identifying the most relevant applications of requirements like applying requirements as filters of other structures given their uniqueness definition'), graphs which can be integrated to identify other relevant graphs like 'graphs generating relevant variation in requirements'
+
     - identify useful structures like 'emergent standardizations/similarities of solutions (like common interface causes of problems that are identifiable after problem-solving processes are applied)' to 'filter relevant graphs (based on these similarities)'
         - for example, identifying 'common interface causes of problems' is a useful structure to identify/graph, like how 'when requirements change frequently' or 'when requirements are re-defined chaotically' can cause problems, so solving problems can involve interface queries that solve/remove these common interface causes first
             - similarly, identifying causal graphs like 'interface variable combination causal sequences to apply in graphs (like as core layer graphs or graphs with embedded sequences)' is useful to 'identify relevant graphs'
