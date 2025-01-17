@@ -20,9 +20,42 @@
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems)
 
 
-
-
-
+- https://index.html.zone/ai/scira - 'Scira – Minimalistic AI-Powered Search Engine'
+- https://www.nicebread.de/grades-of-evidence-a-cheat-sheet/
+- https://gorur.dev/posts/path-to-llms.html
+- https://docs.google.com/document/d/1ItRqrpgQHJ05rQx0zc26t1_NgpUcw3znwTWpXxqH8uI/edit?tab=t.0#heading=h.qslpqdtnxw1r - 'Suchir Balaji: In the long run, only the fundamentals matter'
+- https://stratechery.com/2025/ais-uneven-arrival/
+- https://global-geosystems.com/alquiler-equipo-topografico/ - 'Alquiler de Equipos de Topopografia'
+- https://arxiv.org/abs/2501.09732 - 'Inference-Time Scaling for Diffusion Models Beyond Scaling Denoising Steps'
+- https://www.method-mindset.com/ - "Streamline Concept Learning with AI-Powered Visuals"
+- https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html - 'Common pitfalls when building generative AI applications'
+- https://arxiv.org/abs/2501.07927 - 'Gandalf the Red: Adaptive Security for LLMs'
+- https://github.com/SakanaAI/self-adaptive-llms - 'Transformer²: dynamic weight adaptation in LLMs'
+- https://arxiv.org/abs/2501.03038 - 'Piano Transcription by Hierarchical Language Modeling with Roll-Based Encoders'
+- https://www.scientificamerican.com/article/quantum-theorys-measurement-problem-may-be-a-poison-pill-for-objective-reality/
+- https://phys.org/news/2025-01-simplicity-scalability-economical-compact-lenses.html - 'Simplicity and scalability: A new economical way to create compact lenses'
+- https://github.com/measure-sh/measure - 'Measure–an open-source, self-hosted tool to find patterns and pinpoint cause'
+- https://featherless.ai/blog/zero-to-ai-deploying-language-models-without-the-infrastructure-headache
+- https://qdrant.tech/blog/static-embeddings/ - 'Static Embeddings: should you pay attention? Looks like the speedup is worth it'
+- https://www.brendangregg.com/Specials/psss_chart.html - 'Psss: Process Star Alignment'
+- https://www.gilesthomas.com/2025/01/philosophical-language-llm - 'Do reasoning LLMs need their own Philosophical Language?'
+- https://techxplore.com/news/2025-01-mathematical-insight-neuron-readout-significant.html - 'Mathematical insight into neuron readout drives significant improvements in neural net prediction accuracy'
+- https://www.karkari.org/library/wandering-to-god-from-the-soul-s-confinement-to-god-s-expanse
+- http://charleshughsmith.blogspot.com/2025/01/what-if-tech-market-and-state-are-no.html - 'What If Tech, the Market and the State Are No Longer Solutions?'
+- https://github.com/jaredkrinke/100-languages - 'Solving the first 100 Project Euler problems using 100 languages'
+- https://www.youtube.com/watch?v=pmtuMJDjh5A - 'AI Risks No One Is Talking About [video]'
+- https://15799.courses.cs.cmu.edu/spring2025/ - 'CMU 15-799: Special Topics in Databases: Query Optimization (Spring 2025)'
+- https://www.quantamagazine.org/heat-destroys-all-order-except-for-in-this-one-special-case-20250116/
+- https://ktheory.com/task-relevant-maturity-a-lens-for-effective-management/
+- https://newsletter.dancohen.org/archive/the-unresolved-tension-between-ai-and-learning/
+- https://www.tus.ac.jp/en/mediarelations/archive/20250116_6281.html - 'Synchronization in Neural Nets: Mathematical Insight into Neuron Readout'
+- https://kieranhealy.org/files/papers/fuck-nuance.pdf - 'Nuance inhibits abstractions and is not a virtue of good sociological theory [pdf]'
+- https://www.leadingsapiens.com/stupidity-of-smart-goals/ - 'The Stupidity of My Smart Goals – Mistakes and Learnings'
+- https://arxiv.org/abs/2501.07930 - 'Adaptive Orthogonal Convolution Scheme for Efficient, Flexible CNN Architectures'
+- https://www.cisa.gov/resources-tools/resources/closing-software-understanding-gap
+- https://www.thealgorithmicbridge.com/p/this-rumor-about-gpt-5-changes-everything
+- https://github.com/mufeedvh/code2prompt - 'Mufeedvh/code2prompt:A CLI tool to convert your codebase in a single LLM prompt'
+- https://antiantihuman.com/mismatch
 - https://thenextweb.com/news/synthesia-uks-most-valuable-genai-startup - "Synthesia becomes UK’s biggest GenAI company with $2.1B valuation"
 - https://www.ox.ac.uk/news/2024-12-23-genetics-childhood-aspirations-and-family-background-work-together-shape-status - 'Genetics/childhood aspirations/family work to shape status/career/health'
 - https://ndea.com/ - 'NDEA: A new intelligence science lab founded by François Chollet and Mike Knoop'
