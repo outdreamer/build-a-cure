@@ -17,9 +17,39 @@
     - also just assume that if I 'post a new insight that simplifies problem-solving', you dont need to 'try to use that insight try to feel smarter than me', bc chatgpt will probably be able to build a better tool using that insight than you could at this point, so you dont need to build yet another tool based on yet another simple obvious usage of that insight like every other creep did to try to feel smarter than me, we have plenty of very poor 'language to diagram' tools that are much worse than what chatgpt would build at this point, no thank you
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
-    - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems)
+    - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems), these people didnt identify how to automatically structure these concepts so it would be easy to solve problems automatically, I did, also its important to remember why they didnt (they dont care about solving problems, as theyre creeps)
 
 
+
+
+- https://www.bnl.gov/newsroom/news.php?a=122257 - 'Artificial Imagination'
+- https://github.com/netbox-community/netbox - 'Netbox – Network Infrastructure Resource Modeling for Automation'
+- https://en.wikipedia.org/wiki/Metasyntactic_variable - 'Metasyntactic variable beyond foo, bar, baz: quux, quux, corge, grault, garply'
+- https://nitter.poast.org/neuralink/status/1880050812854104235#m - 'Building the Brain Simulator at Neuralink'
+- https://arxiv.org/abs/2412.19814 - 'Predicting Human Brain States with Transformer'
+- https://www.math.toronto.edu/mccann/199/thurston.pdf - 'Proof and progress in mathematics (1994) [pdf]'
+- https://buttondown.com/themeaninggap/archive/meaning-making-through-the-lenses-of-the-free/ - 'Meaning making through the lenses of the Free Energy Principle'
+- https://arxiv.org/abs/2412.04318 - 'The Hyperfitting Phenomenon'
+- https://golem.ph.utexas.edu/category/2025/01/the_dual_concept_of_injection.html
+- https://physics.stackexchange.com/questions/839537/why-are-there-no-purple-stars
+- https://arxiv.org/abs/2412.12169 - 'Regulation of LLMs with Interpretability Will Likely Result in Performance Loss'
+- https://v0.dev/chat/decisionator-hswxNG2q5Ae
+- https://arxiv.org/abs/2501.09729 - 'Generating particle physics Lagrangians with transformers'
+- https://sebgnotes.com/blog/2025-01-17-llm-evaluation-moving-beyond-manual-testing/
+- https://jc.tt/your-ai-coding-assistant-is-gaslighting-you-2/ - 'AI Coding Assistant Is Gaslighting You – The Hidden Cost of Uncertainty'
+- https://arxiv.org/abs/2501.04835 - 'Do Code LLMs Understand Design Patterns?'
+- https://endler.dev/2017/the-essence-of-information/
+- https://www.llamaindex.ai/blog/building-knowledge-graph-agents-with-llamaindex-workflows
+- https://arxiv.org/abs/2110.01111 - 'Is this the simplest (and most surprising) sorting algorithm?'
+- https://arxiv.org/abs/2412.08137 - 'Enhancing CGRA Efficiency Through Aligned Compute and Communication Provisioning'
+- https://simplicitytheory.telecom-paris.fr/ - 'Simplicity, Complexity, Unexpectedness, Cognition, Probability, Info (2008)'
+- https://arxiv.org/abs/2311.17301 - 'Language Models: A Guide for the Perplexed (2023)'
+- https://arxiv.org/abs/2501.07238 - 'Lessons from Red Teaming 100 Generative AI Products'
+- https://www.vldb.org/cidrdb/papers/2025/p15-deshpande.pdf - 'Beyond Relations: A Case for Elevating to the Entity-Relationship Abstraction [pdf]'
+- https://arxiv.org/abs/2501.09223 - 'Foundations of Large Language Models'
+- https://adamantus.substack.com/p/art-and-the-stubborn-reality-of-subjective
+- https://rethinkingsoftware.substack.com/p/navigating-the-shadows
+- https://arxiv.org/abs/2501.09580 - 'Black Hole Lurking in a Galactic Halo Caught Alive During Outburst'
 - https://index.html.zone/ai/scira - 'Scira – Minimalistic AI-Powered Search Engine'
 - https://www.nicebread.de/grades-of-evidence-a-cheat-sheet/
 - https://gorur.dev/posts/path-to-llms.html

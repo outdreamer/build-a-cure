@@ -27,6 +27,7 @@
 					- another way to stimulate your immune response is to apply the flu/bird flu immune response (like by eating milk/eggs), which extremely reduced my brain tumor during the active immune response
 				- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like prunella vulgaris, ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
 					- try the strongest anti-cancer substances that are gentle on your organs first, like:
+						- green banana resistant starch
 						- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrs pectin)
 						- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
 						- blue agave syrup (the Wholesome brand)
