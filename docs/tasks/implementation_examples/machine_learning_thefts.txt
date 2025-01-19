@@ -21,6 +21,12 @@
 
 
 
+
+- https://github.com/dmgcodevil/ContextLens - 'ContextLens: A Context-Aware Graph-Based Algorithm for Merging Entities (Rows)'
+- https://develintel.blogspot.com/2006/12/theory-of-mind-working-memory-and.html - 'Theory of Mind, Working Memory and Inhibition'
+- https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2020.525731/full - 'The Quantitative Comparison Between the Neuronal Network and the Cosmic Web'
+- https://www.nature.com/articles/s41598-024-83384-6 - 'Humor as a window into generative AI bias'
+- https://thoughtforms.life/learning-to-be-how-learning-strengthens-the-emergent-nature-of-collective-intelligence-in-a-minimal-agent/
 - https://nilscrm.github.io/ipu.html - 'Interaction Processing Units'
 - https://phys.org/news/2025-01-skill-purpose.html - 'Self-management skill and sense of purpose go hand-in-hand, study suggests'
 - https://medicalxpress.com/news/2025-01-mind-framework-links-brainwaves-individual.html - 'Mapping the mind: New framework links brainwaves to individual cognitive states'
