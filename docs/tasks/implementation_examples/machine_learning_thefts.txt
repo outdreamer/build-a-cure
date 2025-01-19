@@ -21,7 +21,13 @@
 
 
 
-
+- https://nilscrm.github.io/ipu.html - 'Interaction Processing Units'
+- https://phys.org/news/2025-01-skill-purpose.html - 'Self-management skill and sense of purpose go hand-in-hand, study suggests'
+- https://medicalxpress.com/news/2025-01-mind-framework-links-brainwaves-individual.html - 'Mapping the mind: New framework links brainwaves to individual cognitive states'
+- https://super-memory.com/articles/20rules.htm - 'Rules of Formulating Knowledge'
+- https://x.com/fchollet
+- https://www.youtube.com/watch?v=5Xl230o_Bhg - "Mathematics doesn't make any sense [video]"
+- https://www.nature.com/articles/s41598-024-82871-0 - 'Multidimensional semantic pseudo-relevance feedback framework for info retrieval'
 - https://www.bnl.gov/newsroom/news.php?a=122257 - 'Artificial Imagination'
 - https://github.com/netbox-community/netbox - 'Netbox – Network Infrastructure Resource Modeling for Automation'
 - https://en.wikipedia.org/wiki/Metasyntactic_variable - 'Metasyntactic variable beyond foo, bar, baz: quux, quux, corge, grault, garply'
