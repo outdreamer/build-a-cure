@@ -21,7 +21,14 @@
 
 
 
-
+- https://sloanreview.mit.edu/article/philosophy-eats-ai/
+- https://www.infoworld.com/article/3801640/the-journey-towards-a-knowledge-graph-for-generative-ai.html
+- https://www.nature.com/articles/s41467-024-55115-y - 'The dynamics of higher-order novelties'
+- https://www.tindie.com/products/arduinoenigma/picoenigma-a-universal-enigma-machine-simulator/
+- https://news.ycombinator.com/item?id=42760852 - 'Rethinking Software Delivery: LLMs as Dynamic Computational Environments'
+- https://scitechdaily.com/scientists-discover-ais-hidden-occams-razor-for-simplified-solutions/
+- https://lethain.com/bridging-eng-strategy-theory-and-practice/
+- https://interplayoflight.wordpress.com/2025/01/19/the-hidden-cost-of-shader-instructions/
 - https://github.com/dmgcodevil/ContextLens - 'ContextLens: A Context-Aware Graph-Based Algorithm for Merging Entities (Rows)'
 - https://develintel.blogspot.com/2006/12/theory-of-mind-working-memory-and.html - 'Theory of Mind, Working Memory and Inhibition'
 - https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2020.525731/full - 'The Quantitative Comparison Between the Neuronal Network and the Cosmic Web'
