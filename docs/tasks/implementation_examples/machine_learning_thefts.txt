@@ -21,6 +21,11 @@
 
 
 
+
+- https://standoutdev.com/visualize/algorithms - 'Show HN: Visualize Algorithms Step-by-Step'
+- https://abstract1.narfnilk.com/ - 'Show HN: Abstractionary'
+- https://cva.design/ - 'CVA – Component Variants Automator'
+- https://gist.github.com/ibehnam/94433087f254d449222d4a7e4a36370d - 'DeepSeek R1 Overthinking a Simple Problem'
 - https://mertkavi.com/how-to-solve-computational-science-problems-with-ai-physics-informed-neural-networks-pinns/
 - https://news.mit.edu/2025/new-computational-chemistry-techniques-accelerate-prediction-molecules-materials-0114
 - https://www.seangoedecke.com/thinking-clearly/ - 'Thinking Clearly about Software'
