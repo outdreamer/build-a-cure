@@ -20,8 +20,8 @@
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems), these people didnt identify how to automatically structure these concepts so it would be easy to solve problems automatically, I did, also its important to remember why they didnt (they dont care about solving problems, as theyre creeps)
 
 
-
-
+- https://www.quantamagazine.org/concept-cells-help-your-brain-abstract-information-and-build-memories-20250121/
+- https://www.generalism.blog/p/the-generalist-edge
 - https://standoutdev.com/visualize/algorithms - 'Show HN: Visualize Algorithms Step-by-Step'
 - https://abstract1.narfnilk.com/ - 'Show HN: Abstractionary'
 - https://cva.design/ - 'CVA – Component Variants Automator'

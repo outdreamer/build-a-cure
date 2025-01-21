@@ -46,6 +46,7 @@
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC9408722/
 						- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
 						- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
+						- the substances that wear off after a while can be cycled on and off to increase the immune response - I waited 2 months in between wasabi doses and it had the same strong immune response again after 2 months
 				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
 					- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
