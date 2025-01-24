@@ -86,6 +86,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'new connections between new graphs of new problem types' to 'filter relevant graphs'
+        - for example, identifying a graph of problem types organized in some way, like how 'complexity/volatility problems (like interaction problems, connection problems, reduction problems, etc)' can be organized by 'intersecting similarities of these problems', and identifying connections between similar graphs of other cross-interface variable problems and connections/interactions between these graphs, is useful to 'organize problem types in a different way'
+
     - identify useful structures like 'additive problem graphs which can be connected to relevant structures like identified graphs or relevant graph intents' to 'filter relevant graphs'
         - for example, identifying a graph where problems are additive/combinable to generate other problems and its opposite graph where problems are additive/combinable to create solutions are a useful set of graphs to connect, like where 'sequences of problem input vectors create problem positions' or 'opposites (like limits) of problem structures (like variables) create solutions'
 
