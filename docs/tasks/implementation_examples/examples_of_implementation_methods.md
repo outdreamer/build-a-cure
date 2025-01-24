@@ -86,6 +86,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'additive problem graphs which can be connected to relevant structures like identified graphs or relevant graph intents' to 'filter relevant graphs'
+        - for example, identifying a graph where problems are additive/combinable to generate other problems and its opposite graph where problems are additive/combinable to create solutions are a useful set of graphs to connect, like where 'sequences of problem input vectors create problem positions' or 'opposites (like limits) of problem structures (like variables) create solutions'
+
     - identify useful structures like 'cross-interface graph connection types like how to connect structural/specific and relevant spectrums' to 'filter relevant graphs'
         - for example, identifying how a normal value spectrum like 'more/less quantity' can be connected to relevant/meaning spectrums like 'concepts/functions/interface structures reflecting qantity' like how 'filter/generate' reflects quantitative changes is useful to identify sequences of spectrums that can 'connect these specific/structural and general/relevant spectrums across interfaces'
         - relatedly, identifying functions to generate graphs like how once a similarity is identified, 'abstraction structures like variant structures' of that similarity can be applied or 'abstraction scaling' can be applied to identify 'similarity ratios on variable abstraction levels' which can be used to generate a graph (like by applying 'abstraction structures like variant structures' in 'maximally different directions/positions'), which can be applied with interface structures like limits to identify limits on abstraction like 'simplicity' or 'interactivity like "coverage" of interface variables'

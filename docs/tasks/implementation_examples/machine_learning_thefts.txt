@@ -18,9 +18,56 @@
     - also most of these are pedophiles trying to get a job or trying to feel like a wizard apparently or trying to get compliments (the easy way, at my expense, without ever actually being lovable or even just respectable) and you know what that means (theyre pedophiles)
     - some of this may be malware to hack my computer so theres your warning not to click the links
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems), these people didnt identify how to automatically structure these concepts so it would be easy to solve problems automatically, I did, also its important to remember why they didnt (they dont care about solving problems, as theyre creeps), Im sure youre embarrassed that you didnt think about 'graphing problems' if youre in this document legitimately bc yore trying to take credit for that and I know I invented it, but thats not my fault, youre supposed to learn to manage your emotions and think independently
+    - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important abot how to implement that list for problem-solving and how to use the structures during implementations, etc
 
 
 
+
+
+
+- https://medicalxpress.com/news/2025-01-secret-effective-ways.html - 'The secret of effective learning: Retrieving information in different ways'
+- https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/
+- https://www.quantamagazine.org/the-jagged-monstrous-function-that-broke-calculus-20250123/
+- https://patents.google.com/patent/US4555775A/en - 'Dynamic generation and overlaying of graphic windows (1982)'
+- https://www.404media.co/developer-creates-infinite-maze-to-trap-ai-crawlers-in/ - 'Developer Creates Infinite Maze That Traps AI Training Bots'
+- https://openai.com/index/computer-using-agent/ - 'OpenAI Computer-Using Agent'
+- https://devclass.com/2025/01/23/how-should-development-environments-be-standardized-coder-report-highlights-wide-variations/
+- http://polyhedral.info/ - 'Polyhedral Compilation'
+- https://claude.site/artifacts/f0c7dd6f-d268-418c-b3a9-c9988f24ea53 - 'Systematically Improve Your RAG Applications'
+- https://ferd.ca/notes/the-roots-of-work-as-done-and-work-as-imagined.html
+- https://rohan.ga/blog/llm_cot/ - 'Ideas for Cot Models: A Geometric Perspective on Latent Space Reasoning'
+- https://newsroom.paypal-corp.com/2025-01-23-Solving-the-Convenience-and-Security-Equation
+- https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/
+- https://elizaos.github.io/eliza/ - 'Eliza is a simple, fast, and lightweight AI agent framework'
+- https://aerospike.com/blog/vector-database-ai-search/ - "Making sense of vectors: Why they're the key to smarter AI searches"
+- https://sebastianraschka.com/blog/2025/llm-research-2024.html - 'Noteworthy LLM Research Papers of 2024 Megapost'
+- https://arxiv.org/abs/2501.12414 - 'A Faster Quantum Fourier Transform'
+- https://lnalborczyk.github.io/blog/2025-01-07-commonality/index.html - 'Making Sense of Commonality Analysis'
+- https://huggingface.co/blog/tomaarsen/attention-sinks - 'Attention Sinks in LLMs for endless fluency'
+- https://twitter.com/ctjlewis/status/1786948443472339247 - 'Universal computation by attention: Simulating automata on Claude 3 Opus'
+- https://spectrum.ieee.org/sentient-ai - 'Sentient AI: The Risks and Ethical Implications'
+- https://numeric.substack.com/p/creativity-vs-toil
+- https://news.ycombinator.com/item?id=42808626 - 'Ask HN: Reality show where contestants are trapped until they invent something?'
+- https://old.reddit.com/r/MachineLearning/comments/1i83mhj/lm_arena_public_voting_is_not_objective_for_llm/ - 'LM arena public voting is not objective for LLM evaluation'
+- https://news.ycombinator.com/item?id=42809097 - 'Feedback AI Agent to Tell You Your Purpose in Life'
+- https://www.corememory.com/p/science-corp-aims-to-plant-ideas - 'Science Corp. Aims to Plant Ideas in Brains with New Implant'
+- https://davidrozado.substack.com/p/political-preferences-in-ai-integrative - 'Measuring Political Preferences/Biases in LLMs'
+- https://substack.com/inbox/post/153974145 - 'Information Cascading – Herd mentality meets game theory'
+- https://www.jasonhanley.com/blog/2025/01/how-quickly-will-ai-improve/
+- https://www.teamblind.com/post/Meta-genai-org-in-panic-mode-KccnF41n
+- https://arxiv.org/abs/2405.14159 - 'Super Tiny Language Models (pdf)'
+- https://dedale.dev/ - 'I made a tool to visually explain codebases'
+- https://arxiv.org/abs/2501.05487 - 'The Future of AI: Exploring the Potential of Large Concept Models'
+- http://dicioccio.fr/on-dualities.html - 'Dualities in Functional Programming'
+- https://thetechenabler.substack.com/p/the-future-of-programming-languages - 'Programming Languages After LLMs'
+- https://silurian.ai/blog/clear-skies-ahead - 'General Forecasting Transformer: Precipitation and Cloud Evals'
+- https://www.jmilinovich.com/writing/the-great-acceleration/
+- https://dynomight.substack.com/p/ranking - 'Algorithmic ranking is unfairly maligned'
+- https://scale.com/blog/humanitys-last-exam-results - "Scale AI Unveil Results of Humanity's Last Exam, a Groundbreaking New Benchmark"
+- https://tylerhogge.com/2024/01/29/a-few-thoughts-on-intensity/
+- https://interconnected.org/home/2023/03/16/singularity - 'The surprising ease and effectiveness of AI in a loop'
+- https://www.ilograph.com/blog/posts/diagram-mistakes/ - 'Common Mistakes in Architecture Diagrams (2020)'
+- https://www.jetbrains.com/junie/ - 'Junie, Your Coding Agent by JetBrains'
 - https://www.jofreeman.com/joreen/tyranny.htm - 'The Tyranny of Structurelessness (1970)'
 - https://align.io/
 - https://github.com/voytas75/GPTprompts - 'Chain-of-Thought (CoT) Prompting'
