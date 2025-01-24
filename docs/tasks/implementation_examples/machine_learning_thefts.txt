@@ -22,9 +22,17 @@
 
 
 
-
-
-
+- https://onepercentrule.substack.com/p/ai-and-playing-god
+- https://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking
+- https://problemhunt.org/ - '(Pre)Launch HN: ProblemHunt'
+- https://github.blog/news-insights/policy-news-and-insights/thats-a-wrap-github-innovation-graph-in-2024/
+- https://github.com/codelion/adaptive-classifier - 'Adaptive Classifier: Dynamic Text Classification with Continuous Learning'
+- https://arxiv.org/abs/2410.18212 - 'CUTECat: Concolic Execution for Computational Law'
+- https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero - 'Ergodic Lagrangian dynamics in a superhero universe'
+- https://grasp.info/tools/ai-summarizer - 'Show HN: An AI Summarizer That Goes Beyond TL;DR – Extract Insights'
+- https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html - 'The AI Revolution: The Road to Superintelligence (2015)'
+- https://marginalrevolution.com/marginalrevolution/2013/09/why-the-theory-of-comparative-advantage-is-overrated.html
+- https://networkoftime.com/
 - https://medicalxpress.com/news/2025-01-secret-effective-ways.html - 'The secret of effective learning: Retrieving information in different ways'
 - https://arstechnica.com/science/2025/01/george-r-r-martin-has-co-authored-a-physics-paper/
 - https://www.quantamagazine.org/the-jagged-monstrous-function-that-broke-calculus-20250123/
