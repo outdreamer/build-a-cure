@@ -22,6 +22,31 @@
 
 
 
+
+- https://twitter.com/deryatr_/status/1870570750945673343 - "Today, I'm sharing another insanely good o1-Pro scientific insight"
+- https://arxiv.org/abs/2501.00073 - 'Position Information Emerges in Causal Transformers Without Positional Encoding'
+- https://arxiv.org/abs/2412.12140 - 'Frontier AI systems have surpassed the self-replicating red line'
+- https://gab-menezes.github.io/2025/01/13/using-the-most-unhinged-avx-512-instruction-to-make-the-fastest-phrase-search-algo.html
+- https://arxiv.org/abs/2501.13824 - 'Hallucinations Can Improve Large Language Models in Drug Discovery'
+- https://arxiv.org/abs/2501.00004 - 'NewsHomepages: Homepage Layouts Capture Information Prioritization Decisions'
+- https://www.spicyweb.dev/surviving-the-ai-pocalypse/ - 'Creative Strategies for Surviving the AI-Pocalypse'
+- https://www.youtube.com/watch?v=yr0GiSgUvPU - "DeepMind's Demis Hassabis: Path to AGI, Deceptive AIs, Building a Virtual Cell [video]"
+- https://hellooperator.substack.com/p/clarity-as-strategy
+- https://www.nature.com/articles/s42256-024-00964-x - 'Causal chambers as a real-world physical testbed for AI methodology'
+- https://www.legalyze.ai/ - 'Legalyze.ai: Review Medical Records with AI'
+- https://github.com/larrydiamond/AICodeReviewer - 'AI Code Reviewer alpha release'
+- https://www.researchgate.net/publication/3228283_The_new_dynamics_of_strategy_Sense-making_in_a_complex_and_complicated_world
+- https://embed.truisms.space/?word=apples&word=oranges&word=bananas&word=grapefruit&word=blueberry&word=blackberry&word=raspberry&word= - 'Surprising Embeddings'
+- https://github.com/m-a-n-i-f-e-s-t/power-attention - 'Power Attention: Efficient CUDA Kernels for Symmetric Power Transformers'
+- https://bigthink.com/business/investing-in-the-next-generation-of-ai/
+- https://www.quantamagazine.org/new-book-sorting-algorithm-almost-reaches-perfection-20250124/
+- https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/
+- https://arxiv.org/abs/2311.01460 - 'Implicit Chain of Thought Reasoning via Knowledge Distillation'
+- https://www.semafor.com/article/01/24/2025/google-deepmind-ceo-on-the-ai-tricks-up-the-companys-sleeve
+- https://www.sciencedirect.com/science/article/abs/pii/S0065245808604180 - 'Speculations Concerning the First Ultraintelligent Machine (1965)'
+- https://www.ams.org/journals/notices/202502/noti3114/noti3114.html - 'Anatomy of a Formal Proof'
+- https://arstechnica.com/science/2025/01/complexity-physics-finds-crucial-tipping-points-in-chess-games/
+- https://www.technologyreview.com/2025/01/24/1110526/china-deepseek-top-ai-despite-sanctions/ - 'DeepSeek managed to turn restrictions into innovation'
 - https://onepercentrule.substack.com/p/ai-and-playing-god
 - https://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking
 - https://problemhunt.org/ - '(Pre)Launch HN: ProblemHunt'

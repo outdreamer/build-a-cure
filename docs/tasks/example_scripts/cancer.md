@@ -665,7 +665,11 @@
 			- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- adhd
-				- pycnogenol
+				- passionflower, saffron crocus, almond, valerian, lemon balm, pycnogenol, ginseng, ginkgo, vitamin d/b6, magnesium, zinc, iron, omega 3s, melatonin, ashwagandha
+					- https://pubmed.ncbi.nlm.nih.gov/36062480/
+					- https://pubmed.ncbi.nlm.nih.gov/37663386/
+			- autism 
+				- methylated/active vitamin b12/b6/d/a/c, iron, zinc, folate, magnesium, omega 3s, calcium, sulforaphane, enzymes, melatonin, probiotics
 			- prevent lymph system aging to improve brain waste protein clearance to avoid alzheimer's/parkinson's (prostaglandin F2α)
 				- https://medicalxpress.com/news/2024-08-aging-brain-scientists.html
 				- excess prostaglandin F2α is associated with endometriosis, inflammation, and some cancer types
