@@ -664,6 +664,12 @@
 		- brain disorders
 			- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
+			- nootropics 
+				- focus/memory: coffee fruit, DMAE, huperzine A, ginkgo, ginseng, oats, rhodiola rosea, bacopa monnieri, theanine, caffeine, creatine, citicoline or alpha GPC, ashwagandha, agmatine, theobromine, kanna (sceletium tortusosum), lion's mane & other medicinal mushrooms, tyrosine, threonine, phosphatidylserine, b vitamins, saffron
+				- neural antioxidants: coq10, pqq, resveratrol
+				- neural immunity: glutathione, curcumin, propolis
+				- neural fuel: leucine, pterostilbene
+				- brain cleaning: coffee, walnuts/flax seeds/omega 3s, substances that clean your liver like coffee/artichoke/milk thistle, and substances that clean your blood like air pollution purifiers and heavy metal chelators like spirulina/chlorella could also help clean the brain
 			- adhd
 				- passionflower, saffron crocus, almond, valerian, lemon balm, pycnogenol, ginseng, ginkgo, vitamin d/b6, magnesium, zinc, iron, omega 3s, melatonin, ashwagandha
 					- https://pubmed.ncbi.nlm.nih.gov/36062480/
@@ -779,6 +785,16 @@
         			- https://www.nature.com/articles/s41586-024-07781-7
         		- weight loss drugs can reduce risk of gallbladder/meningioma/myeloma/pancreatic/ovarian/colorectal/esophageal/endometrial/kidney/liver cancers
         			- https://www.healthline.com/health-news/glp-1-drugs-like-ozempic-may-reduce-risk-of-these-10-cancers#Reduced-risk-of-10-obesity-linked-cancers
+
+			- specific treatments for cancer types
+				- gastric cancer (has some overlap with gallbladder/liver/pancreatic cancer)
+					- avoid: vitamin b3/b9 supplements
+						- https://pubmed.ncbi.nlm.nih.gov/30873873/
+					- use: vitamin b12, ginkgo, oats, barley, green tea (theanine), olive oil, cabbage, carrots, tomatoes, broccoli, astragalus, sesame, garlic, onion, shiitake, zeaxanthin (bell peppers/goji/papaya), papaya (lycopene, zeaxanthin, and lutein), beta-cryptoxanthin (peppers, papaya, oranges, peaches)
+					- other gastric cancer supplements: chrysanthemum, astragalus, chanca piedra
+				- pancreatic cancer supplements: branched-chain amino acids, pancreatic enzymes, quercetin	
+				- liver cancer substances: milk thistle, bupleurum, red yeast rice
+
 
 	- avoid the following for patients with organ failure:
 		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/

@@ -23,6 +23,13 @@
 
 
 
+
+- https://www.mdpi.com/2079-9292/14/2/234 - 'Joint Event Detection with Dynamic Adaptation and Semantic Relevance'
+- https://independentpoliticalreport.com/2013/06/greg-morin-ideas-are-not-property-on-dismantling-ip/ - 'Ideas are not property'
+- https://github.com/cp-algorithms/cp-algorithms - 'Algorithms for Competitive Programming'
+- https://potetm.com/devtalk/bifurcate-the-problem.html - 'Bifurcate the Problem Space'
+- https://everything.intellectronica.net/p/gongzilla - 'Gongzilla: The collapsing cost of dumb ideas'
+- https://techxplore.com/news/2025-01-llm-dynamically-adjusts-weights-tasks.html - 'Self-adaptive LLM dynamically adjusts its weights to learn new tasks'
 - https://twitter.com/deryatr_/status/1870570750945673343 - "Today, I'm sharing another insanely good o1-Pro scientific insight"
 - https://arxiv.org/abs/2501.00073 - 'Position Information Emerges in Causal Transformers Without Positional Encoding'
 - https://arxiv.org/abs/2412.12140 - 'Frontier AI systems have surpassed the self-replicating red line'
