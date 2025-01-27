@@ -22,7 +22,18 @@
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
 
 
-
+- https://www.youtube.com/watch?v=KPoeNZZ6H4s - 'Giving Personality to Procedural Animations Using Math [video]'
+- https://cutlefish.substack.com/p/tbm-333-lean-graph-theory
+- https://vivekkalyan.com/writing/scaling-rag/ - 'Scaling Compute for RAG'
+- https://opensource.getren.xyz/ittm/ - 'A New AI Paradigm Beyond Deep Learning: ITTMs and the Universal State Machine'
+- https://stateofthefuture.substack.com/p/ai-for-nuclear-fusion-feat-martin - 'AI for Nuclear Fusion (Feat. Martin Riedmiller, Lead, Controls at DeepMind)'
+- https://whatsaastobuild.vercel.app/ - 'Show HN: I made an AI app to give Startup ideas using HackerNews posts/comments'
+- https://robert-mcdermott.medium.com/from-likes-to-language-models-e7c83dcee379 - 'From Likes to Language Models: Culture in the Age of Algorithmic Civilization'
+- https://huggingface.co/deepseek-ai/Janus-Pro-7B - 'Janus-Pro: Autoregressive framework unifying multimodal understanding&generation'
+- https://github.com/JigsawStack/omiai - 'Show HN: OmiAI – A highly opinionated AI SDK with auto-model selection'
+- https://bits.logic.inc/p/the-ai-programming-paradox
+- https://xyzlabs.substack.com/p/berkeley-researchers-replicate-deepseek - "Berkeley Researchers Replicate DeepSeek R1's Core Tech for Just $30"
+- https://x.com/DrJimFan
 - https://www.nature.com/articles/d41586-025-00218-9 - 'How a boy from the Bronx unearthed the workings of the Universe'
 - https://www.sciencedirect.com/science/article/pii/S0004370221000862 - 'AI: Reward Is Enough'
 - https://arxiv.org/abs/2501.13074 - 'Autonomy-of-Experts Models (ArXiv)'
