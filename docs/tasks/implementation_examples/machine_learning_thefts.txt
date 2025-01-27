@@ -23,7 +23,7 @@
 
 
 
-
+- https://www.micahlerner.com/2025/01/03/resiliency-at-scale-managing-googles-tpuv4-machine-learning-supercomputer.html
 - https://app.tivateonline.com/studyguide/ - 'Show HN: AI-powered tool that breaks down complex topics into bite-sized outline'
 - https://www.newcartographies.com/p/truth-doesnt-scale
 - https://twitter.com/novasarc01/status/1883204996596130154 - 'GRPO (Group Relative Policy Optimization) – Explained'
