@@ -23,6 +23,14 @@
 
 
 
+- https://www.nature.com/articles/d41586-025-00218-9 - 'How a boy from the Bronx unearthed the workings of the Universe'
+- https://www.sciencedirect.com/science/article/pii/S0004370221000862 - 'AI: Reward Is Enough'
+- https://arxiv.org/abs/2501.13074 - 'Autonomy-of-Experts Models (ArXiv)'
+- https://www.guidegecko.ai/ - 'Show HN: Guide Gecko – AI-Powered Codebase Understanding (macOS)'
+- https://www.llm-sec.dev/ - "A new platform for learning LLM's risks"
+- https://www.anup.io/p/from-ml-to-ai-engineering-transforming - 'From ML to AI Engineering: Transforming How We Build AI Applications'
+- https://pypi.org/project/capablanca - 'Capablanca: Minimum Vertex Cover Solver'
+- https://www.thenewatlantis.com/publications/why-we-need-amistics-for-ai
 - https://www.micahlerner.com/2025/01/03/resiliency-at-scale-managing-googles-tpuv4-machine-learning-supercomputer.html
 - https://app.tivateonline.com/studyguide/ - 'Show HN: AI-powered tool that breaks down complex topics into bite-sized outline'
 - https://www.newcartographies.com/p/truth-doesnt-scale
