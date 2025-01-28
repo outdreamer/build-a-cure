@@ -22,6 +22,21 @@
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
 
 
+- https://github.com/Pravko-Solutions/FlashLearn - 'Show HN: Never train another ML model again'
+- https://seanpedersen.github.io/posts/semantic-complexity-gap - 'Semantic Complexity Gap in CLIP Text Encoders'
+- https://mathstodon.xyz/@tao/113901838076679636 - 'Terence Tao about the balance between quantitative and qualitative thinking'
+- https://mburaksayici.com/blog/2025/01/27/GPT1-Implemented-NumPy-only.html - 'GPT1 Implemented with NumPy: Generate Jokes'
+- https://forge-fm.org/ - 'Forge: A Tool and Language for Teaching Formal Methods'
+- https://www.newcartographies.com/p/the-mechanization-of-meaning - 'The Mechanization of Meaning: Claude Shannon and Generative AI'
+- https://blog.veladan.org/2024/10/08/ten-axiums-choice-theory.html - 'The Ten Axioms of Choice Theory by William Glasser'
+- https://static1.squarespace.com/static/675b297ac72dc30d9fe9325c/t/6796b8668c00ed5feba4c1d0/1737930861791/rasor_retrieval_augmented_semiotic_recursion_for_adaptive_time_series_forecasting.pdf
+- https://arxiv.org/abs/2501.14176 - 'RL and Transformer = a General-Purpose Problem Solver'
+- https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1
+- https://ankitg.me/blog/2025/01/27/eve-of-superintelligence.html
+- https://github.com/stacklok/codegate - 'CodeGate: AI CodeGen Privacy and Security'
+- https://www.quantamagazine.org/cosmologists-try-a-new-way-to-measure-the-shape-of-the-universe-20250127/
+- https://www.pingcap.com/blog/scalable-system-design-future-proof-architecture/ - 'Defining a Scalable System: What It Means to Be "Future Proof"'
+- https://sebgnotes.com/blog/2025-01-27-reag-moving-beyond-traditional-rag-through-direct-reasoning/ - 'ReAG: Moving Beyond Traditional RAG Through Direct Reasoning'
 - https://www.youtube.com/watch?v=KPoeNZZ6H4s - 'Giving Personality to Procedural Animations Using Math [video]'
 - https://cutlefish.substack.com/p/tbm-333-lean-graph-theory
 - https://vivekkalyan.com/writing/scaling-rag/ - 'Scaling Compute for RAG'
