@@ -22,6 +22,14 @@
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
 
 
+
+
+
+- https://arxiv.org/abs/2501.14749 - 'Why a Race to Artificial Superintelligence Is Self-Defeating [pdf]'
+- https://wundergraph.com/blog/normalization_query_planning_graphql_federation
+- https://stratechery.com/2025/the-openai-critique-comparative-advantage-and-infrastructure-aggregation-theory-and-cheap-ai/
+- https://cameronrwolfe.substack.com/p/moe-llms - 'Mixture-of-Experts (Moe) LLMs'
+- https://www.thelittlelearner.com/ - 'The Little Learner A straight line to deep learning'
 - https://github.com/Pravko-Solutions/FlashLearn - 'Show HN: Never train another ML model again'
 - https://seanpedersen.github.io/posts/semantic-complexity-gap - 'Semantic Complexity Gap in CLIP Text Encoders'
 - https://mathstodon.xyz/@tao/113901838076679636 - 'Terence Tao about the balance between quantitative and qualitative thinking'
@@ -63,7 +71,7 @@
 - https://twitter.com/novasarc01/status/1883204996596130154 - 'GRPO (Group Relative Policy Optimization) – Explained'
 - https://jdsemrau.substack.com/p/cognitive-reasoning-agents-and-the - 'Cognitive Reasoning Agents and the Extended Information Filter'
 - https://neonomos.substack.com/p/yes-non-existent-entities-exist-part - 'Yes, Non-Existent Entities Exist (Part 1: The Nature of Abstract Objects)'
-- https://arxiv.org/abs/2402.03300 - 'DeepSeekMath'
+- https://arxiv.org/abs/2402.03300 - 'DeepSeekMath: Pushing Limits of Mathematical Reasoning in Open Language Models'
 - https://wyounas.github.io/cs/2024/10/29/gentzen-system/ - 'Simplicity of the Gentzen System'
 - https://thinks.lol/2025/01/memory-makes-computation-universal/ - 'Memory makes computation universal, remember?'
 - https://aider.chat/2025/01/24/r1-sonnet.html - "R1+Sonnet set SOTA on aider's polyglot benchmark"

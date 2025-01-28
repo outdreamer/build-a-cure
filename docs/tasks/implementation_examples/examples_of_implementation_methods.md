@@ -84,6 +84,9 @@
         - Joni continued inventing incredible new inventions basically every day, despite being given illnesses like fungal meningitis and drugs like aphrodisiacs that caused brain damage and organ failure, identifying all the supplements required to survive those conditions easily, bc everything is easy for Joni
         - Joni is the only one who can see reality, bc she can solve any problem, so she can handle reality, and therefore doesnt need to avoid reality, like easily hurt and easily beaten pedophiles need to avoid the truth
 
+    - chatgpt should be used to find its own optimal queries, like instead of queries like 'tell me a story', queries like 'do we have enough info to understand reality' and 'what light interactions could invalidate reality' and 'what queries should we be running that you can answer optimally' and 'what variables should be connected or are optimal to connect (what problems should be solved)'
+
+
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
     - identify useful structures like the "limits of identifiers' potential for changing other variables" which can 'filter/generate relevant graphs' like 'graphs to solve for complexity'
