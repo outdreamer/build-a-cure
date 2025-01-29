@@ -21,10 +21,26 @@
     - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important about how to implement that list for problem-solving and how to use the structures during implementations, etc
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
 
-
-
-
-
+- https://github.com/dioptre/web-embeddings - 'Show HN: Semantic search using LLM context embeddings in web worker/JS/browser'
+- https://substack.com/home/post/p-155978287 - 'The scale vs. intelligence trade-off in RAG'
+- https://arxiv.org/abs/2501.16673 - 'Auto-Differentiating Any LLM Workflow: A Farewell to Manual Prompting'
+- https://www.anup.io/p/building-breaking-and-rebuilding - 'Building, Breaking, and Rebuilding: My Journey to a Smarter RAG Application'
+- https://arxiv.org/abs/2412.12140 - 'Self-Replicating AI (lab experiments)'
+- https://www.vincentschmalbach.com/pick-your-fights-a-pragmatic-approach-to-coding-with-ai/
+- https://arxiv.org/abs/2501.14787 - 'Matrix Calculus (For Machine Learning and Beyond)'
+- https://www.reuters.com/technology/artificial-intelligence/alibaba-releases-ai-model-it-claims-surpasses-deepseek-v3-2025-01-29/
+- https://baz.co/resources/ai-code-review-baz-is-now-available-backed-by-8million-seed-round
+- https://meyerperin.org/posts/2021-10-05-optimization-algorithms-for-your-career.html
+- https://arxiv.org/abs/2501.16496 - 'Open Problems in Mechanistic Interpretability'
+- https://news.mit.edu/2025/new-training-approach-could-help-ai-perform-better-0129 - 'New training approach could help AI perform better in uncertain conditions'
+- https://arxiv.org/abs/2501.09686 - 'Towards Large Reasoning Models: A Survey of Reinforced Reasoning with LLMs'
+- https://manidoraisamy.com/developer-forever/post/analytical-intelligence-is-coming.anc-ac83b8cf-a25c-4e12-9ee5-ad160b802fd4.html - 'Creative Vs Analytical AI'
+- https://acornprover.org/ - 'Show HN: Acorn, a theorem prover with built-in AI'
+- https://psycnet.apa.org/fulltext/2025-38773-001.html - 'The Big Problem Paradox: High prevalence makes problems seem less dangerous'
+- https://web.archive.org/web/20070705182636/http://people.ucsc.edu/~krawlins/clsbib/ - 'Computational Semantics Information (2003)'
+- https://twitter.com/markchen90/status/1884303237186216272 - 'OpenAI: DeepSeek "found some of the core ideas that we did on our way to o1"'
+- https://arxiv.org/abs/2501.13075 - 'Evolution and the Knightian Blindspot of Machine Learning'
+- https://www.interconnects.ai/p/why-reasoning-models-will-generalize
 - https://arxiv.org/abs/2501.14749 - 'Why a Race to Artificial Superintelligence Is Self-Defeating [pdf]'
 - https://wundergraph.com/blog/normalization_query_planning_graphql_federation
 - https://stratechery.com/2025/the-openai-critique-comparative-advantage-and-infrastructure-aggregation-theory-and-cheap-ai/

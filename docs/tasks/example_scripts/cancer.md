@@ -440,12 +440,15 @@
 		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine (not for kidney/liver damage), maca to increase the amount of human growth hormone to recover
 			- kidney damage: fasting, omega 3s, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris
+				- resistant starch (increases GLP-1, so it helps with kidney disease like ozempic does)
+					- 'RS reduced the serum IS, serum phosphorus, IL-6, and uric acid levels significantly in dialysis patients, while hs-CRP, serum creatinine, BUN, serum paracresol sulfate, and blood lipid showed no significant changes.'
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9314005/
+					- ozempic can reduce kidney inflammation which can help repair kidney damage, fish with omega 3's can have the same effect
 				- take amino acids to replace some protein (glycine, L-aspartic acid, L-glutamic acid, L-glutamine, L-histidine and L-arginine), avoid lysine
 					- https://pubmed.ncbi.nlm.nih.gov/15787344/
 				- periodic low-salt fasting-mimicking diet (FMD) for 5 days/month for 3 months restored normal proteinuria and nephron structure and function, promoted renoprotection, including reduction of proteinuria and improved endothelial function, promote the reprogramming of multiple renal cell types and lead to glomerular damage reversal
 					- https://pubmed.ncbi.nlm.nih.gov/39475573/
 				- avoid excess alkaline/flow water with kidney damage
-				- ozempic can reduce kidney inflammation which can help repair kidney damage, fish with omega 3's can have the same effect
 				- treat high cholesterol and high blood pressure to avoid making kidney damage worse
 				- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
 					- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
