@@ -20,8 +20,16 @@
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems), these people didnt identify how to automatically structure these concepts so it would be easy to solve problems automatically, I did, also its important to remember why they didnt (they dont care about solving problems, as theyre creeps), Im sure youre embarrassed that you didnt think about 'graphing problems' if youre in this document legitimately bc yore trying to take credit for that and I know I invented it, but thats not my fault, youre supposed to learn to manage your emotions and think independently
     - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important about how to implement that list for problem-solving and how to use the structures during implementations, etc
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
+    - I see that we've known about miracles for a while now, my inventions are like 'miracle automation'
 
 
+
+
+- https://github.com/KarthikDevalla/Maximum-218M - 'Small LLM with Large Power'
+- https://web.archive.org/web/20130124073814/http://www.digitaldickens.com/content.php?id=100 - "The 'Pure' Finders (1851)"
+- https://arxiv.org/abs/2501.17433 - 'Virus: Harmful Fine-Tuning Attack for LLMs Bypassing Guardrail Moderation'
+- https://gradual-disempowerment.ai/ - 'Systemic Existential Risks from Incremental AI Development'
+- https://security.googleblog.com/2025/01/how-we-estimate-risk-from-prompt.html - 'The risk from prompt injection attacks on AI systems'
 - https://arxiv.org/abs/2501.15915 - 'Parametric Retrieval Augmented Generation'
 - https://arxiv.org/abs/2501.15463 - 'Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?'
 - https://venturebeat.com/ai/ex-google-apple-engineers-launch-unconditionally-open-source-oumi-ai-platform-that-could-help-to-build-the-next-deepseek/
