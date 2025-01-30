@@ -21,6 +21,33 @@
     - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important about how to implement that list for problem-solving and how to use the structures during implementations, etc
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
 
+
+- https://arxiv.org/abs/2501.15915 - 'Parametric Retrieval Augmented Generation'
+- https://arxiv.org/abs/2501.15463 - 'Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?'
+- https://venturebeat.com/ai/ex-google-apple-engineers-launch-unconditionally-open-source-oumi-ai-platform-that-could-help-to-build-the-next-deepseek/
+- https://github.com/openai/openai-realtime-solar-system
+- https://phys.org/news/2025-01-quantum-theory-thermodynamics-contradiction-entropy.html - 'Quantum theory and thermodynamics: No contradiction with new entropy definition'
+- https://joecarlsmith.com/2025/01/28/fake-thinking-and-real-thinking/
+- https://www.zdnet.com/article/apple-researchers-reveal-the-secret-sauce-behind-deepseek-ai/
+- https://arxiv.org/abs/2501.04952 - 'Open Problems in Machine Unlearning for AI Safety'
+- https://nautil.us/the-problem-with-problem-sharks-1186682/
+- https://medium.com/gitconnected/what-if-hallucination-is-a-spark-of-creativity-harnessing-llm-flaws-for-drug-discovery-eb98be47b2ee
+- https://jarbus.net/blog/the-penultimate-wave-of-ai/
+- https://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html - "Google's advise to use abstraction to improve function"
+- https://nextchurch.ai/post/nextreligion/ - 'A Call for a New Path: Why the World Needs a New Religion in the Age of AI'
+- https://arxiv.org/abs/2412.19869 - 'Hardware Implemented Accelerator Design in ReRAM Analog Computing Without ADCs'
+- https://news.ycombinator.com/item?id=42870790 - 'Ask HN: Why do so many AI researchers care about philosophy?'
+- https://www.vectorsofmind.com/p/the-snake-cult-of-consciousness-two - 'The Snake Cult of Consciousness Two Years Later'
+- https://www.comet.com/site/blog/g-eval-for-llm-evaluation/
+- https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/
+- https://medium.com/mapai/ai-and-the-new-theocracies-9b573eb9ab1b - 'AI and New Theocracies (2024)'
+- https://arxiv.org/abs/2501.05502 - 'Shrink the longest: improving latent space isotropy with symplicial geometry'
+- https://martinfowler.com/articles/gen-ai-patterns/ - 'Emerging Patterns in Building GenAI Products'
+- https://sebgnotes.com/blog/2025-01-29-ax-the-next-evolution-in-ai-agent-software-design/
+- https://arxiv.org/abs/2501.17161 - 'Supervised Fine-Tuning Memorizes, RL Generalizes'
+- https://arxiv.org/abs/2501.17116 - 'Large Language Model Training Using FP4 Quantization'
+- http://web.archive.org/web/20140701225948/http://www.ai-blog.net/archives/000152.html - 'Fixing Pathfinding Once and for All'
+- https://arxiv.org/abs/2501.04070 - 'Enhancing In-Context Learning with Differentiated and Reweighting Objectives'
 - https://github.com/dioptre/web-embeddings - 'Show HN: Semantic search using LLM context embeddings in web worker/JS/browser'
 - https://substack.com/home/post/p-155978287 - 'The scale vs. intelligence trade-off in RAG'
 - https://arxiv.org/abs/2501.16673 - 'Auto-Differentiating Any LLM Workflow: A Farewell to Manual Prompting'
