@@ -23,8 +23,25 @@
     - I see that we've known about miracles for a while now, my inventions are like 'miracle automation'
 
 
-
-
+- https://arxiv.org/abs/2501.18009 - 'Large Language Models Think Too Fast to Explore Effectively'
+- https://arxiv.org/abs/2401.09718 - '"AI and the Opportunity for Shared Prosperity" by Jeff Dean, Hal Varian, et al.'
+- https://arxiv.org/abs/2501.04052 - 'The Power of Negative Zero: Datatype Customization for Quantized LLMs'
+- https://techcrunch.com/2025/01/30/ai2-says-its-new-ai-model-beats-one-of-deepseeks-best/
+- https://erikaker.com/posts/ba331206-1741-4b03-88b6-2d2baa33cf2d - 'Are Second Systems Inevitable'
+- https://corywalker.me/2025/01/30/changing-the-language-of-an-llm-response-with-a-single-vector.html - 'Changing the language of an LLM response with a vector addition'
+- https://news.ycombinator.com/item?id=42886254 - 'Structuring AI cognition around game-like principles'
+- https://matthewsinclair.com/blog/0174-chatgpt-claude-deepseek-vs-creativity-part-3
+- https://arxiv.org/abs/2501.18099 - 'Learning to Plan and Reason for Evaluation with Thinking-LLM-as-a-Judge'
+- https://backofmind.substack.com/p/overfitting-and-excuses
+- https://teacherlearnstocode.com/2015/03/31/what-to-do-with-disequilibrium/ - 'Disequilibrium: Learning Theory and Personal Practice (2015)'
+- https://www.andysparks.co/hoo-boy/issue-3-fact-vs-meaning - 'The Stories in Our Heads (Fact vs. Meaning)'
+- https://arxiv.org/abs/2501.18585 - 'Thoughts Are All over the Place: On the Underthinking of O1-Like LLMs'
+- https://www.nature.com/articles/s41467-024-49528-y - 'Simple autonomous agents can enhance creative semantic discovery by human groups'
+- https://arxiv.org/abs/2411.15124 - 'Tulu 3: Pushing Frontiers in Open Language Model Post-Training'
+- https://gist.github.com/balloob/ba8285ca8114bd66dc96d9a72e7c5667 - 'Can someone create an LLM standard?'
+- https://github.com/MillenniumDB/MillenniumDB - 'MillenniumDB: A graph database engine using domain graphs'
+- https://www.nature.com/articles/s44260-024-00025-9?fromPaywallRec=false - 'Network connectivity, functional diversity mix and human collective ideation'
+- https://www.tonymarston.co.uk/php-mysql/abstraction.txt - 'Abstraction, Encapsulation, and Information Hiding'
 - https://github.com/KarthikDevalla/Maximum-218M - 'Small LLM with Large Power'
 - https://web.archive.org/web/20130124073814/http://www.digitaldickens.com/content.php?id=100 - "The 'Pure' Finders (1851)"
 - https://arxiv.org/abs/2501.17433 - 'Virus: Harmful Fine-Tuning Attack for LLMs Bypassing Guardrail Moderation'
