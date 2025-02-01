@@ -89,6 +89,10 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+
+    - identify useful structures like 'graph variable connections' to 'filter relevant graphs'
+        - for example, identifying that a solution graph with a complete solution structure at each point can reduce the steps required to solve the problem to the 'max distance on that graph' is useful to identify other relevant graph variable connections
+
     - identify useful structures like 'graph/workflow/query/optimization interaction types and relevant usages' to 'filter relevant graphs'
         - for example, identifying optimal 'workflow queries' like 'trial and error (applying every possible direction of the next node in a sequence)' (given how workflows are commonly defined as the method to identify solutions like 'sequences of nodes in a graph' and queries are commonly defined as the solution structure of a 'specific node sequence in a graph') and their meanings (like 'this workflow query is useful when the network includes variable length connections and alternate paths between all pairs of nodes, given that variable length connections have variable relevance, rather than "adjacent/distant connections always indicating independence or simplifications"') is useful to identify/optimize for relevant graphs
             - relatedly, identifying 'visualizations that isolate/differentiate optimal queries on a graph' are useful to identify like 'standardizing/isolating visualizations'
