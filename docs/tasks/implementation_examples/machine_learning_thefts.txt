@@ -23,6 +23,41 @@
     - I see that we've known about miracles for a while now, my inventions are like 'miracle automation'
 
 
+
+
+
+
+- https://arxiv.org/abs/2412.20302 - 'EXAdam: The Power of Adaptive Cross-Moments'
+- https://www.d-matrix.ai/impact-of-the-deepseek-moment-on-inference-compute/
+- https://github.com/oumi-ai/oumi - 'Oumi: Everything you need to build foundation models'
+- https://www.qodo.ai/blog/qodo-merge-solving-key-challenges-in-ai-assisted-code-reviews/
+- https://arxiv.org/abs/2412.02975 - 'Theoretical limitations of multi-layer Transformer'
+- https://thespblog.net/Blog/Why+Neural+Code+Retrieval+is+Overrated
+- https://sebgnotes.com/blog/2025-02-02-multi-agent-design-applying-human-organization-principles-to-ai-systems/
+- https://plus.maths.org/content/bekenstein - 'The limits of information – Bekenstein bound (2014)'
+- https://arxiv.org/abs/2501.18087 - 'Coverage Semantics for Dependent Pattern Matching'
+- https://github.com/sam-paech/antislop-sampler - 'AntiSlop Sampler for LLM Inference'
+- https://arxiv.org/abs/2501.17725 - 'Using Code Generation to Solve Open Instances of Combinatorial Design Problems'
+- https://arxiv.org/abs/2501.15740 - 'Propositional Interpretability in Artificial Intelligence'
+- https://github.com/tsotchke/quantum_geometric_tensor - 'Quantum Geometric Learning (Pre-Release)'
+- https://akkartik.name/debugUIs.html - 'Practicing graphical debugging using visualizations of the Hilbert curve'
+- https://frugalgpu.substack.com/p/soft-prompt-tuning-modern-llms-442
+- https://lichess.org/@/theScot/blog/50-shades-of-blunders/84VpVCDn
+- https://www.youtube.com/watch?v=1vJsWKg2o1w - 'Ranking Paradoxes, from Least to Most Paradoxical [video]'
+- https://medium.com/@snoels/deepseeks-refusals-how-do-the-guardrails-of-language-models-compare-%EF%B8%8F-97aafbece58b
+- https://www.talknotes.tech/ - 'Show HN: TalkNotes – A site that turns your ideas into tasks'
+- https://onlinelibrary.wiley.com/doi/10.1111/jsr.14419 - 'An afternoon nap facilitates analogical transfer in creative problem solving'
+- https://4th.is/ - "The Thinking Code: A Black Innovator's Vision for Inclusive AI"
+- https://arxiv.org/abs/2310.08373 - 'Chrono: A Peer-to-Peer Network with Verifiable Causality'
+- https://arxiv.org/abs/2405.13349 - 'Building a Verifiable Logical Clock for P2P Networks'
+- https://dskgenerator.com/ - 'Show HN: DeepSeek Generator – Explore DeepSeek AI for Fun'
+- https://mml-book.github.io/ - 'Mathematics for Machine Learning'
+- https://arxiv.org/abs/2312.04556 - 'Large Language Models for Mathematicians'
+- https://defector.com/the-future-is-too-easy
+- https://phys.org/news/2025-01-rethinking-carnot-scientists-traditional-power.html - 'Rethinking Carnot: Scientists overcome traditional power-efficiency trade-off'
+- https://arxiv.org/abs/2411.02432 - 'Can LLMs make trade-offs involving stipulated pain and pleasure states?'
+- https://www.phoronix.com/ - 'Yandex Open-Sources Perforator: Find Code Inefficiencies and Save Billions'
+- https://www.quantamagazine.org/chatbot-software-begins-to-face-fundamental-limitations-20250131/ - 'Recent results show that LLMs struggle with compositional tasks'
 - https://arxiv.org/abs/2501.18009 - 'Large Language Models Think Too Fast to Explore Effectively'
 - https://arxiv.org/abs/2401.09718 - '"AI and the Opportunity for Shared Prosperity" by Jeff Dean, Hal Varian, et al.'
 - https://arxiv.org/abs/2501.04052 - 'The Power of Negative Zero: Datatype Customization for Quantized LLMs'
