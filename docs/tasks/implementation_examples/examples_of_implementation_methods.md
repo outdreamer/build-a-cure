@@ -89,9 +89,12 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identify useful structures like 'graph variables to identify interface structures (like limits) of relevance/irrelevance connections' to 'filter relevant graphs'
+        - for example, identifying the maximum possible relevance of maximally irrelevant connections like 'prime factors' is useful to connect to the irrelevance as a 'set of connections/interactions to base workflows on' (the 'connections' like 'ratios' of "irrelevance of a structure vs. how relevant it can possibly be like for 'obscurity' intents"), where connections below that level of irrelevance is possibly more relevant given the maximums/limits of relevance identified, where interface structures like 'limits/thresholds/ratios/intent similarities' indicate different structures like 'areas' of relevance
+
     - identify useful structures like 'spectrums/metrics to identify/connect maximally different/relevant graphs' to 'filter relevant graphs'
         - for example, identifying 'similarities in points on the spectrums of 'graph state for each relevant graph' on the graph state spectrum from 'graph generator' to 'last graph optimization to a point' is useful (what structures like 'combinations' of 'graph states for these relevant graphs' are useful in that structure, and what similarities connect these structures)
-        - relatedly, 'maximal difference maximizing graphs' involve creating 'maximally different seqences' in every structure (like every direction, position, sequence, etc) which will look random at various points/angles but will seem like a 'similarity locally'
+        - relatedly, 'maximal difference maximizing graphs' involve creating 'maximally different seqences' in every structure (like maximal differences from every endpoint/position, direction, sequence, etc) which will look random at various points/angles but will seem like a 'similarity locally'
         - relatedly, identifying optimal points on the graph of 'steps to find a solution' and 'steps to use the solution' (which isnt a tradeoff for every set of each step type) is a useful graph to generate/optimize
 
     - identify useful structures like 'solution structures of solution graphs for problem-solving intents' like 'filter relevant graphs (by interface variables like optimal sequences to solve interface differences in that graph)'

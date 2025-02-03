@@ -20,13 +20,27 @@
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems), these people didnt identify how to automatically structure these concepts so it would be easy to solve problems automatically, I did, also its important to remember why they didnt (they dont care about solving problems, as theyre creeps), Im sure youre embarrassed that you didnt think about 'graphing problems' if youre in this document legitimately bc yore trying to take credit for that and I know I invented it, but thats not my fault, youre supposed to learn to manage your emotions and think independently
     - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important about how to implement that list for problem-solving and how to use the structures during implementations, etc
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
-    - I see that we've known about miracles for a while now, my inventions are like 'miracle automation'
+    - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation'
 
 
 
 
-
-
+- https://abnormalreturns.com/2025/01/26/critical-ignoring-and-value-creation/
+- https://arxiv.org/abs/2402.04249 - 'HarmBench: A Standardized Evaluation Framework for Robust Refusal'
+- https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.010309 - 'Emergence of a Second Law of Thermodynamics in Isolated Quantum Systems'
+- https://samkriss.substack.com/p/a-universal-absolute-and-infinite - 'A universal, absolute, and infinite theory of vibes' (this person wants us to say that 'saying feelings' is an 'incredible insight', but that makes people want to puke, so we're not saying it)
+- https://news.ycombinator.com/item?id=42912928 - "Ask HN: PhDs/students, how do you come up with viable problems/solutions?"
+- https://malinadabrowska.substack.com/p/reimagining-our-built-world - 'Reimagining our built world: Using futures thinking'
+- https://www.youtube.com/watch?v=_YjNEfZ0VqU - 'The Helicone Numberscope: Mathematical Superpowers Hidden in a Simple Toy'
+- https://terrytao.wordpress.com/2025/01/28/new-exponent-pairs-zero-density-estimates-and-zero-additive-energy-estimates-a-systematic-approach/
+- https://www.johndcook.com/blog/2025/01/23/balanced-ternary-rounding/ - 'A magical land where rounding equals truncation'
+- https://www.johndcook.com/blog/2025/01/28/matrix-representation/ - 'Matrix representations of number systems'
+- https://rootly.com/blog/google-sres-are-changing-the-game-again-a-breakdown-of-their-new-approach
+- http://creatingminds.org/tools/tools_defining.htm - 'Tools for Defining Creative Problems'
+- https://joeferris.me/blog/ruby-and-isp - 'Ruby and the Interface Segregation Principle'
+- https://citrana-beta.netlify.app/ - 'Show HN: Citrana AI: Your AI Co-Founder for Market Research and Idea Validation'
+- https://www.drmindle.com/the-three-worlds-of-ai-ml/
+- https://arxiv.org/abs/2501.18596 - 'New LLM compression method lets you compress models upto 60% of original size'
 - https://arxiv.org/abs/2412.20302 - 'EXAdam: The Power of Adaptive Cross-Moments'
 - https://www.d-matrix.ai/impact-of-the-deepseek-moment-on-inference-compute/
 - https://github.com/oumi-ai/oumi - 'Oumi: Everything you need to build foundation models'

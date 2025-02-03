@@ -31,6 +31,7 @@
 					- try the strongest anti-cancer substances that are gentle on your organs first, like:
 						- green banana resistant starch
 						- oats (beta-glucans)
+							- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/
 						- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrus pectin)
 						- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
 						- blue agave syrup (the Wholesome brand)
