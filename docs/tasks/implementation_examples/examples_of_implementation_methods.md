@@ -91,6 +91,7 @@
 
     - identify useful structures like 'graph variables to identify interface structures (like limits) of relevance/irrelevance connections' to 'filter relevant graphs'
         - for example, identifying the maximum possible relevance of maximally irrelevant connections like 'prime factors' is useful to connect to the irrelevance as a 'set of connections/interactions to base workflows on' (the 'connections' like 'ratios' of "irrelevance of a structure vs. how relevant it can possibly be like for 'obscurity' intents"), where connections below that level of irrelevance is possibly more relevant given the maximums/limits of relevance identified, where interface structures like 'limits/thresholds/ratios/intent similarities' indicate different structures like 'areas' of relevance
+            - this structure of 'connections of interface structures of irrelevant/relevant connections' is an example of 'relevant variation generators' which can be changed to 'create relevant variation' by connecting it with other 'relevant variation generators'
 
     - identify useful structures like 'spectrums/metrics to identify/connect maximally different/relevant graphs' to 'filter relevant graphs'
         - for example, identifying 'similarities in points on the spectrums of 'graph state for each relevant graph' on the graph state spectrum from 'graph generator' to 'last graph optimization to a point' is useful (what structures like 'combinations' of 'graph states for these relevant graphs' are useful in that structure, and what similarities connect these structures)
