@@ -24,6 +24,30 @@
 
 
 
+- https://arxiv.org/abs/2502.00873 - 'Language Models Use Trigonometry to Do Addition'
+- https://arxiv.org/abs/2502.01142 - 'DeepRAG: Thinking to Retrieval Step by Step for Large Language Models'
+- https://spectrum.ieee.org/mems-time - 'Better AI Is a Matter of Timing'
+- https://www.sciencedirect.com/science/article/abs/pii/S0925231224020435 - "Language Models Can Solve Engineering Optimization Problems"
+- https://abeljansma.nl/2025/01/28/mereoPhysics.html - 'Complex Systems and Möbius Inversion'
+- https://hbr.org/2020/06/to-solve-big-problems-look-for-small-wins
+- https://scottmillett.medium.com/to-change-the-system-of-work-we-must-first-change-leaders-mental-models-1784632cb045
+- https://www.ft.com/content/7b2c8c25-0453-4334-a4d9-c569dc4c8393 - 'The problem of fairness in an automated world'
+- https://www.cell.com/current-biology/fulltext/S0960-9822(05)00960-7 - 'Paper: Theory of Mind (2005)'
+- https://garymarcus.substack.com/p/deep-research-deep-bullshit-and-the - 'Deep Research, Deep Bullshit, and the potential (model) collapse of science'
+- https://writings.stephenwolfram.com/2025/02/towards-a-computational-formalization-for-foundations-of-medicine/
+- https://github.com/rerun-io/prompt-da - 'Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation'
+- https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.251601 - 'Bootstrap Principle for the Spectrum and Scattering of Strings (2024)'
+- https://twitter.com/CamelAIOrg/status/1886512172349481444 - 'Distill High-Quality Reasoning Data with DeepSeek R1'
+- https://arxiv.org/abs/2501.01457 - 'Reinforcing Thinking Through Reasoning-Enhanced Reward Models'
+- https://psyche.co/ideas/what-makes-a-map-good-on-the-ethics-of-cartography
+- https://ninetyten.substack.com/p/how-to-find-a-startup-idea-that-actually - 'How to Find a Startup Idea That Solves a Problem'
+- https://vevesta.substack.com/p/introducing-model-soups-how-to-increase-accuracy-finetuned-llm
+- https://xyzlabs.substack.com/p/the-achilles-heel-of-ai-why-deepseek - 'Why DeepSeek and Other Advanced Models Struggle with Overthinking'
+- https://arxiv.org/abs/2501.19399 - 'Scalable-Softmax Is Superior for Attention'
+- https://www.thercfgroup.com/files/resources/an_introduction_to_the_competing_values_framework_white_paper-pdf-28512.pdf - 'The Competing Values Framework [pdf]'
+- https://arxiv.org/abs/2502.01612 - 'Self-Improving Transformers Overcome Easy-to-Hard and Length Generalization'
+- https://www.brettmacfarlane.com/blog/2025/innovation-leadership-manifesto - 'Innovation Leadership, a Manifesto'
+- https://www.youtube.com/watch?v=IzSs_gJDVzI - 'Quanta Magazine: Complexity of the VASS Reachability Problem [video]'
 - https://openreview.net/forum?id=SHMj84U5SH#discussion - 'Compression Represents Intelligence Linearly (2024)'
 - https://github.com/klara-research/klarity - 'Show HN: Klarity – Open-source tool to analyze uncertainty/entropy in LLM output'
 - https://lifeitself.org/blog/2017/09/10/four-types-of-problem
