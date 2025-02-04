@@ -32,6 +32,8 @@
 						- green banana resistant starch
 						- oats (beta-glucans)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/
+						- kumquats
+							- kumquats fight stress and boost natural killer (NK) cells (which get rid of cancer cells and other cells infected by viruses)
 						- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrus pectin)
 						- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
 						- blue agave syrup (the Wholesome brand)
@@ -592,7 +594,7 @@
 					- clemastine to block M1R and regenerate myelin
 						- https://medicalxpress.com/news/2024-08-drug-clock-multiple-sclerosis.html
 					- rest/melatonin, iodine, vitamin C, zinc, iron, cholesterol, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, vitamin d/k2, choline/citicoline, b vitamins, probiotics/prebiotics
-					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, niacin, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin
+					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, niacin, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin, lycopene
 					- treat other conditions that can decrease myelin like thyroid problems
 				- reduce inflammation with anti-inflammatory substances
 		- repair nerves

@@ -20,11 +20,34 @@
     - it doesnt matter if other people knew about 'metaphors' or 'variables' or 'multiple concepts' or 'requirements' or 'filters', folks, they still didnt realize how to use it to solve all problems, I realized that (by structuring those concepts which are abstract similarities of reality, such as 'identifying a structural definition of requirements as "unique points in causal sequences" which allows the abstract concept of "requirements" to be identified automatically with a causal graph' and all the other structural definitions that make it possible to find these relevant concepts or their relevant interactions like their similarities automatically, which is why I call this the 'abstraction of math', bc these are abstract similarities (interfaces) that cover everything including math and so math problems can be solved with these 'structural definitions of requirements' bc 'requirements' can be used to solve problems including math problems), these people didnt identify how to automatically structure these concepts so it would be easy to solve problems automatically, I did, also its important to remember why they didnt (they dont care about solving problems, as theyre creeps), Im sure youre embarrassed that you didnt think about 'graphing problems' if youre in this document legitimately bc yore trying to take credit for that and I know I invented it, but thats not my fault, youre supposed to learn to manage your emotions and think independently
     - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important about how to implement that list for problem-solving and how to use the structures during implementations, etc
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
-    - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation'
+    - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation', so please arrest anyone who steals this
 
 
 
-
+- https://openreview.net/forum?id=SHMj84U5SH#discussion - 'Compression Represents Intelligence Linearly (2024)'
+- https://github.com/klara-research/klarity - 'Show HN: Klarity – Open-source tool to analyze uncertainty/entropy in LLM output'
+- https://lifeitself.org/blog/2017/09/10/four-types-of-problem
+- https://answerengineoptimization.com/ - 'Answer Engine Optimization (AEO) – The Next Evolution of SEO?'
+- https://noelwelsh.com/posts/operational-denotational-understanding/ - 'Operational and Denotational Strategies for Understanding Code'
+- https://en.wikipedia.org/wiki/Organizational_information_theory
+- https://dowhatmatters.medium.com/the-inefficiency-of-greed-how-deepseek-exposed-silicon-valleys-tech-bros-0147bc64bce9
+- https://arxiv.org/abs/2501.19201 - 'Efficient Reasoning with Hidden Thinking'
+- https://www.oneusefulthing.org/p/the-end-of-search-the-beginning-of - 'The End of Search, the Beginning of Research'
+- https://www.theguardian.com/science/2025/feb/03/ai-to-revolutionise-fundamental-physics-and-could-show-how-universe-will-end
+- https://jhpratt.dev/blog/optimizing-with-novel-calendrical-algorithms/
+- https://twitter.com/0xmmo/status/1886296693995646989 - 'Tool-Augmented Reasoning'
+- https://nicolo.dev/en/blog/disassembling-binary-linear-recursive/ - 'Disassembling a binary: linear sweep and recursive traversal'
+- https://www.anthropic.com/research/constitutional-classifiers - 'Constitutional Classifiers: Defending against universal jailbreaks'
+- https://arxiv.org/abs/2501.18639 - 'A Comprehensive Survey of the Lean 4 Theorem Prover'
+- https://www.quantamagazine.org/new-proofs-probe-the-limits-of-mathematical-truth-20250203/
+- https://arxiv.org/abs/2501.18377 - 'Using Read Promotion and Mixed Isolation Levels for Serializable Execution'
+- https://www.holm.dog/2025/02/keep-em-not-separated-detecting.html - "Keep 'em (not) separated: detecting discontinuities in grid graphs"
+- https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291099-0526%28199609/10%292%3A1%3C7%3A%3AAID-CPLX3%3E3.0.CO%3B2-C - 'The Great Ashby: Complexity, Variety, and Information (1996)'
+- https://readthisandregretit.blogspot.com/2025/02/test.html - 'Worry is the Real Apocalypse (the x-risk basilisk)'
+- https://github.com/lechmazur/step_game - 'Step-Game: Assessing LLM Collaboration and Deception Under Pressure'
+- https://aeon.co/essays/rilke-and-the-art-of-listening-as-a-way-to-shape-the-cosmos
+- https://gbragafibra.github.io/2025/01/08/collatz_ant2.html - "Collatz's Ant and similarity of Collatz sequences"
+- https://www.superagent.sh/blog/reag-reasoning-augmented-generation
 - https://abnormalreturns.com/2025/01/26/critical-ignoring-and-value-creation/
 - https://arxiv.org/abs/2402.04249 - 'HarmBench: A Standardized Evaluation Framework for Robust Refusal'
 - https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.010309 - 'Emergence of a Second Law of Thermodynamics in Isolated Quantum Systems'
