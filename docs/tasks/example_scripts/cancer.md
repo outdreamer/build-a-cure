@@ -32,8 +32,6 @@
 						- green banana resistant starch
 						- oats (beta-glucans)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/
-						- kumquats
-							- kumquats fight stress and boost natural killer (NK) cells (which get rid of cancer cells and other cells infected by viruses)
 						- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrus pectin)
 						- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
 						- blue agave syrup (the Wholesome brand)
@@ -54,7 +52,9 @@
 				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
 					- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
-				- if those specific protocols dont work, then you can try substances that are more harsh on your organs (like thunder god vine, cat's claw, quercetin, chlorogenic acid, artemisinin, etc), but otherwise avoid these unless you need them and start with fractions of a dose if you need them
+				- if those specific protocols dont work, then you can try substances that are more harsh on your organs (like thunder god vine, cat's claw, kumquats, quercetin, chlorogenic acid, artemisinin, etc), but otherwise avoid these unless you need them and start with fractions of a dose if you need them 
+					- kumquats fight stress and boost natural killer (NK) cells (which get rid of cancer cells and other cells infected by viruses)
+						- kumquats have cyanide in the seeds, like apricots/apples
 				- if these dont work, youll want to keep looking for other pollutants/chemicals you might be exposed to that could cause cancer (like alcohol, excessive sunlight, pesticides, toxic cleaning chemicals, processed food, peanuts/wheat which have agglutinin that can make some cancers worse, potato chips which have acrylamide which can make cancer worse, supplements like beta-sitosterol that can suppress tumor-fighting defenses, arginine/b vitamins/vitamin c/vitamin e/iron/zinc which can feed cancer if taken in supplement or other processed form, etc)
 					- also check if your lifestyle variables like circadian rhythm dysregulation are a cause (if the cancer grows more at night, or days when you dont get sunlight, or in different sleeping postures, or when using a nightlight)
 
@@ -813,6 +813,13 @@
 
 
 	- useful general cancer targets
+
+		- inhibit RhoGAP class-IX myosins to suppresses the metastatic features of cancer cells
+			- Adhibin - https://www.nature.com/articles/s41467-024-54181-6
+			- downstream inhibitors:
+				- MRCK/ROCK1/ROCK2 inhibitors: https://aacrjournals.org/cancerres/article/78/8/2096/633817/Discovery-of-Potent-and-Selective-MRCK-Inhibitors
+					- β-Elemene (wild hops, cannabis), Ibuprofen
+						- https://en.wikipedia.org/wiki/Rho_kinase_inhibitor
 
 		- ubiquitin-activating enzyme UBA1 (E1) inhibitors
 			- 3,5-dioxopyrazolidine compound, 1-(3-chloro-4-fluorophenyl)-4-[(5-nitro-2-furyl)methylene]-3,5-pyrazolidinedione (PYZD-4409)

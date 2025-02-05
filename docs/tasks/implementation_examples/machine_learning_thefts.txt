@@ -22,6 +22,10 @@
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
     - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation', so please arrest anyone who steals this
 
+
+
+
+- https://traditionsofconflict.substack.com/p/traditional-methods-of-black-magic
 - https://jjanes.ca/llm-tree/ - 'Show HN: LLM Family Tree – A Map of AI Research from 2017-2025'
 - https://treegpt.app/ - 'TreeGPT: A tree-based LLM interface'
 - https://dspace.mit.edu/handle/1721.1/155068 - 'Randomized Data Structures: New Perspectives and Hidden Surprises'
