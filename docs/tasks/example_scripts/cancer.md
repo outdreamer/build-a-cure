@@ -342,6 +342,10 @@
 			- statins (red yeast rice) and PCSK9 inhibitors (berberine)
 				- https://www.heart.org/en/news/2018/10/04/researchers-suggest-way-to-possibly-eliminate-artery-clogging-condition
 				- https://pmc.ncbi.nlm.nih.gov/articles/PMC9650693/
+		- preventing heart attack from blood clots using blood thinners
+			- gentle substances: garlic, cranberry, ginger, feverfew, omega 3s, ginkgo, turmeric, chamomile, fenugreek, evening primrose oil, cinnamon, grape seed, melatonin, NAC, bromelain
+			- harsher substances: aloe, meadowsweet, willow, red clover, dong quai, vitamin E (as an antagonist of vitamin k which clots the blood), cayenne
+			- ginseng has variable effects on clotting and should be avoided for blood thinning and when using warfarin
 		- high blood pressure
 			- tyrosine, omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
 			- treat infections like flu/covid which can raise blood pressure
