@@ -24,6 +24,28 @@
 
 
 
+
+- https://uxdesign.cc/collected-consciousness-ai-product-design-for-empowering-human-creativity-dcc62100a7a4
+- https://abeljansma.nl/2025/01/28/mereoPhysics.html - 'Complex Systems and Quantitative Mereology'
+- https://sebastianraschka.com/blog/2025/understanding-reasoning-llms.html
+- https://radanskoric.com/articles/how-to-avoid-problem-with-turbo-morphing
+- https://pypi.org/project/varela/ - 'A New Breakthrough Algorithm Solves the Unsolvable: A Giant Leap Towards P = NP'
+- https://arxiv.org/abs/2502.01628 - 'Harmonic Loss Trains Interpretable AI Models'
+- https://agilescientific.com/blog/2020/2/25/visual-explanations-of-mathematics
+- https://techcommunity.microsoft.com/blog/azuredevcommunityblog/how-reasoning-models-are-transforming-logical-ai-thinking/4373194
+- https://www.guernicamag.com/inventing-the-commons-on-alternative-technologies/
+- https://thirdi.ai/ - 'Show HN: Built an AI-powered insights engine for optimizing growth campaigns'
+- https://clarownia.com/ - 'Show HN: clarownia.com – AI tool for better thinking and decision-making'
+- https://blog.cryptographyengineering.com/2025/02/04/how-to-prove-false-statements-part-1/
+- https://www.forbes.com/sites/barrycollins/2025/01/30/deepseeks-thinking-exposes-the-ais-ethical-boundaries/
+- https://github.com/doganarif/llmdog-intellij-plugin - "Show HN: LLMDog – Format your codebase for LLM interactions (JetBrains Plugin)"
+- https://ai.google/responsibility/principles/ - 'Google AI – Our Principles'
+- https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/
+- https://iopscience.iop.org/article/10.3847/2041-8213/ada6ae - 'Quantum Bayesian Inference with Renormalization for Gravitational Waves'
+- https://ben.terhech.de/posts/2025-01-31-llms-vs-programming-languages.html - 'LLM-Powered Programming: A Language Matrix Revealed'
+- https://www.experimental-history.com/p/repost-science-is-a-strong-link-problem 
+- https://github.com/Ericson2314/baccumulation/blob/main/database/uniqueness-combinatorial-topology.md - 'Database Uniqueness and Combinatorial Topology'
+- https://iamevan.me/blog/the-theory-behind-understanding-failure/
 - https://arxiv.org/abs/2502.00873 - 'Language Models Use Trigonometry to Do Addition'
 - https://arxiv.org/abs/2502.01142 - 'DeepRAG: Thinking to Retrieval Step by Step for Large Language Models'
 - https://spectrum.ieee.org/mems-time - 'Better AI Is a Matter of Timing'
