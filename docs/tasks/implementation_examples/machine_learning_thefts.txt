@@ -22,7 +22,7 @@
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
     - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation', so please arrest anyone who steals this
     - if youre telling yourself that you are the 'real inventor' or that you/anyone 'could have thought of this', recall how you used to solve problems:
-    	- 'look up the answer online', 'ask someone else', 'copy someone else without asking', 'copy physics/biology to figure it out for you', 'look up how other people solved it', 'check if the ancient greeks did it first', 'trial and error', etc and every other type of 'avoiding thinking'
+    	- 'look up the answer online', 'ask someone else', 'copy someone else without asking', 'copy physics/biology to figure it out for you', 'look up how other people solved it', 'check if the ancient greeks did it first', 'trial and error', 'how to reuse the same simple rules that other people pointed out like "first principles thinking" and "dont repeat yourself"', and every other type of 'avoiding thinking'
     - before I made problem-solving simple with insights like:
     	-'identify relevance structures by comparing a problem to every interface variable (like requirements/intents/similarities/validity) to check for interactivity (like cross-interface interactions, like alignments across interfaces, or common/simple/multi-functional structures), and connect interactive structures, using workflows like "define/format/standardize/connect problem/solution using interface similarities or relevant graphs (like the constant/variation concept cluster graph or interface variable intersection graph)'
     	- 'identify problem metric networks and solution metric networks and apply interfaces like structure until these networks are connected'
@@ -32,9 +32,18 @@
     	- 'identify new "bases for comparison" that simplify problem-solving like new graphs/networks that encode bigger similarities than interface variables (like relevant variation graphs)'
     	- 'generate all possible relevant workflows by combining high variation functions like "identify/filter/compare/connect/reduce/change/generate/apply/format/standardize/organize/optimize/implement/require/cause" and filter with optimal ratios of interface variables like validity/volatility'
     	- 'match variation of problem requirement and available solution structures (like matching problem requirement variation with unsolved problem variation)'
+    	- 'how to graph problems so that theyre easily solved (connected to solutions and to other problems)'
 
 
 
+
+
+- https://www.nature.com/articles/s41586-024-08514-6 - 'Emergence of collective oscillations in massive human crowds'
+- https://www.vice.com/en/article/ok-wtf-are-wordcels-and-shape-rotators/
+- https://mapify.so/ - 'AI Mind Map Summarizer'
+- https://arxiv.org/abs/2502.02737 - 'SmolLM2: When Smol Goes Big – Data-Centric Training of a Small Language Model'
+- https://www.ruder.io/the-evolving-landscape-of-llm-evaluation/
+- https://syntaqx.com/posts/the-evolution-of-software-engineering-in-the-age-of-ai/
 - https://news.ycombinator.com/item?id=42960434 - 'Codes – A New Framework for Structured Intelligence and Emergent Systems'
 - https://arxiv.org/abs/2406.03445 - 'Pre-Trained Large Language Models Use Fourier Features to Compute Addition'
 - https://github.com/Wang-ML-Lab/llm-continual-learning-survey - 'Continual Learning of Large Language Models: A Comprehensive Survey'
