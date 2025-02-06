@@ -21,10 +21,24 @@
     - the fact that one set of structures can generate all these and other inventions is incredible and you should have paid me for identifying that and all my other insights, bc I didnt just identify the list of interfaces that could be combined to solve all problems trivially, I identified everything else that was important about how to implement that list for problem-solving and how to use the structures during implementations, etc
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
     - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation', so please arrest anyone who steals this
+    - if youre telling yourself that you are the 'real inventor' or that you/anyone 'could have thought of this', recall how you used to solve problems:
+    	- 'look up the answer online', 'ask someone else', 'copy someone else without asking', 'copy physics/biology to figure it out for you', 'look up how other people solved it', 'check if the ancient greeks did it first', 'trial and error', etc and every other type of 'avoiding thinking'
+    - before I made problem-solving simple with insights like:
+    	-'identify relevance structures by comparing a problem to every interface variable (like requirements/intents/similarities/validity) to check for interactivity (like cross-interface interactions, like alignments across interfaces, or common/simple/multi-functional structures), and connect interactive structures, using workflows like "define/format/standardize/connect problem/solution using interface similarities or relevant graphs (like the constant/variation concept cluster graph or interface variable intersection graph)'
+    	- 'identify problem metric networks and solution metric networks and apply interfaces like structure until these networks are connected'
+    	- 'identify cross-interface filters connected with "solution metrics" and "function structures like types" to filter solutions'
+    	- 'identify graphs that apply certainties as filters in all possible similarity structures to allow all differences to be connected in these graphs'
+    	- 'compare the biggest differences (maximal different variables like interface variables) first and identify all their interactions, at which point other trivial comparisons will be solved'
+    	- 'identify new "bases for comparison" that simplify problem-solving like new graphs/networks that encode bigger similarities than interface variables (like relevant variation graphs)'
+    	- 'generate all possible relevant workflows by combining high variation functions like "identify/filter/compare/connect/reduce/change/generate/apply/format/standardize/organize/optimize/implement/require/cause" and filter with optimal ratios of interface variables like validity/volatility'
+    	- 'match variation of problem requirement and available solution structures (like matching problem requirement variation with unsolved problem variation)'
 
 
 
-
+- https://news.ycombinator.com/item?id=42960434 - 'Codes – A New Framework for Structured Intelligence and Emergent Systems'
+- https://arxiv.org/abs/2406.03445 - 'Pre-Trained Large Language Models Use Fourier Features to Compute Addition'
+- https://github.com/Wang-ML-Lab/llm-continual-learning-survey - 'Continual Learning of Large Language Models: A Comprehensive Survey'
+- https://en.wikipedia.org/wiki/Problem_structuring_methods
 - https://traditionsofconflict.substack.com/p/traditional-methods-of-black-magic
 - https://jjanes.ca/llm-tree/ - 'Show HN: LLM Family Tree – A Map of AI Research from 2017-2025'
 - https://treegpt.app/ - 'TreeGPT: A tree-based LLM interface'
