@@ -37,6 +37,31 @@
     	- all the other insights I posted in my private documents/patent applications/social media posts/github repo commits
     - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking
 
+
+
+
+
+- https://techcrunch.com/2025/02/06/openai-now-reveals-more-of-its-o3-mini-models-thought-process/
+- https://github.com/ai-christianson/RA.Aid - 'RA.Aid: Develop Software Autonomously'
+- https://www.city-journal.org/multimedia/the-ai-arms-race
+- https://www.neglectedbooks.com/Straight_and_Crooked_Thinking.pdf
+- https://developers.googleblog.com/en/imagen-3-arrives-in-the-gemini-api/
+- https://docs.codegen.com/tutorials/training-data - 'Mining LLM Pre-Training Data from Codebases'
+- https://arxiv.org/abs/2502.03275 - "Meta AI's latest research: improved LLM reasoning with Latent Tokens"
+- https://solomonkurz.netlify.app/blog/2025-02-02-matching-missing-data-a-quasi-experiment-and-causal-inference-oh-my/
+- https://arxiv.org/abs/2501.18005 - 'Fault Localization via Fine-Tuning LLMs with Mutation Generated Stack traces'
+- https://vdraw.ai/ai-flowchart-generator - 'Show HN: I made AI Flowchart Generator that can make hand-drawn style flowcharts'
+- https://github.com/apsquared/lg-agents - 'Show HN: LangGraph and CrewAI in One Framework of Frameworks'
+- https://www.junaideffendi.com/p/six-effective-ways-to-reduce-compute - 'Six Effective Ways to Reduce Compute Costs'
+- https://serce.me/posts/2025-02-07-the-llm-curve-of-impact-on-software-engineers
+- https://www.skyzh.dev/blog/2025-02-06-optimizer-lesson-01/ - 'Plan Representation: #1 Lesson Learned from Building an Optimizer'
+- https://www.microsoft.com/en-us/security/blog/2025/01/13/3-takeaways-from-red-teaming-100-generative-ai-products/
+- https://arxiv.org/abs/2502.03544 - 'Gold-Medalist Performance in Solving Olympiad Geometry with AlphaGeometry2'
+- https://domofutu.substack.com/p/the-path-to-freedom
+- https://www.ox.ac.uk/news/2025-02-06-first-distributed-quantum-algorithm-brings-quantum-supercomputers-closer
+- https://arxiv.org/abs/2406.02123 - 'Altermagnetism: Exploring New Frontiers in Magnetism and Spintronics'
+- https://arxiv.org/abs/2502.04290 - 'Global Optimization of Black-Box Functions with Unknown Lipschitz Constants'
+- https://neptune.ai/blog/the-best-tools-for-machine-learning-model-visualization
 - https://github.com/inferablehq/inferable - 'Show HN: Inferable – Build Reliable AI Agents with Durable Execution'
 - https://arxiv.org/abs/2502.03373 - 'Demystifying Long Chain-of-Thought Reasoning in LLMs'
 - https://arxiv.org/abs/2301.10841 - 'Free Join: unifying worst-case optimal and traditional joins (2023)'
