@@ -40,7 +40,7 @@
 
 
 
-
+- https://phys.org/news/2025-02-international-collaboration-relationship-quantum-theory.html - 'International collaboration sheds new light on the relationship between quantum theory and thermodynamics'
 - https://techcrunch.com/2025/02/06/openai-now-reveals-more-of-its-o3-mini-models-thought-process/
 - https://github.com/ai-christianson/RA.Aid - 'RA.Aid: Develop Software Autonomously'
 - https://www.city-journal.org/multimedia/the-ai-arms-race

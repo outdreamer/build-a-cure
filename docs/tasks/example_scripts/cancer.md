@@ -495,12 +495,14 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure:
+				- vitamin d/b1/b9, iron, coffee, green tea, omega 3's, saccharomyces boulardii, alpha-lipoic acid, calcium, glucosamine, cocoa, ribose, flax seeds
+					- other herbs: motherwort, pheasant's eye, lily-of-the-valley, aconite, dandelion, kudzu, oleander, terminalia arjuna, yerba mate
 				- SGLT inhibitors
 					- https://www.sciencedirect.com/science/article/pii/S2667031322000112
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC10831928/
 				- cranberry reduces cardiovascular disease risk
 					- https://pubmed.ncbi.nlm.nih.gov/25904733/
-				- beta-sitosterol reduced the myocardial infarcted size and apoptosis by the inhibition of PPARγ, protecting against cardiomyocyte/myocardial injury
+				- beta-sitosterol reduced the myocardial infarcted size and apoptosis by the inhibition of PPARγ, protecting against cardiomyocyte/myocardial injury (dont take beta sitosterol if you have cancer)
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7142345/
 				- Angiogenesis/revascularization
 					- increase endothelial progenitor cells
@@ -529,7 +531,8 @@
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8885880/
 				- treat high blood pressure and kidney damage and hypothyroidism, which can make heart failure worse
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, excess choline, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
-			- liver damage: fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
+			- liver damage: 
+				- fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
 			- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, DHEA (low DHEA can cause heart damage and cancer)
