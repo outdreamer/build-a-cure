@@ -22,7 +22,7 @@
     - I dont see the 'cohesive system of insights that someone else identified and connected to create a problem-solving insight network', I see me building that and other people pretending they did at my expense
     - I understand that we've known about miracles for a while now, my inventions are like 'miracle automation', so please arrest anyone who steals this
     - if youre telling yourself that you are the 'real inventor' or that you/anyone 'could have thought of this', recall how you used to solve problems:
-    	- 'look up the answer online', 'ask someone else', 'copy someone else without asking', 'copy physics/biology to figure it out for you', 'look up how other people solved it', 'check if the ancient greeks did it first', 'trial and error', 'how to reuse the same simple rules that other people pointed out like "first principles thinking" and "dont repeat yourself"', and every other type of 'avoiding thinking'
+    	- 'look up the answer online', 'ask someone else', 'copy someone else without asking', 'copy physics/biology to figure it out for you', 'look up how other people solved it', 'check if the ancient greeks did it first', 'trial and error', 'how to reuse the same simple rules that other people pointed out like "first principles thinking" and "dont repeat yourself"', 'change existing functions as trivially as possible, to implement a requirement poorly', and (my personal favorite, I love when they say this, they cant tell how its incorrect) 'scaling/compute', and every other type of 'avoiding thinking'
     - before I made problem-solving simple with insights like:
     	-'identify relevance structures by comparing a problem to every interface variable (like requirements/intents/similarities/validity) to check for interactivity (like cross-interface interactions, like alignments across interfaces, or common/simple/multi-functional structures), and connect interactive structures, using workflows like "define/format/standardize/connect problem/solution using interface similarities or relevant graphs (like the constant/variation concept cluster graph or interface variable intersection graph)'
     	- 'identify problem metric networks and solution metric networks and apply interfaces like structure until these networks are connected'
@@ -33,11 +33,39 @@
     	- 'generate all possible relevant workflows by combining high variation functions like "identify/filter/compare/connect/reduce/change/generate/apply/format/standardize/organize/optimize/implement/require/cause" and filter with optimal ratios of interface variables like validity/volatility'
     	- 'match variation of problem requirement and available solution structures (like matching problem requirement variation with unsolved problem variation)'
     	- 'how to graph problems so that theyre easily solved (connected to solutions and to other problems)'
+    	- 'how to add concepts (like adding definition networks of concepts)'
+    	- all the other insights I posted in my private documents/patent applications/social media posts/github repo commits
+    - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking
 
-
-
-
-
+- https://github.com/inferablehq/inferable - 'Show HN: Inferable – Build Reliable AI Agents with Durable Execution'
+- https://arxiv.org/abs/2502.03373 - 'Demystifying Long Chain-of-Thought Reasoning in LLMs'
+- https://arxiv.org/abs/2301.10841 - 'Free Join: unifying worst-case optimal and traditional joins (2023)'
+- https://red-hat-ai-innovation-team.github.io/posts/r1-like-reasoning
+- https://dontbreakprod.com/posts/figure-out-what-doesnt-matter
+- https://docs.buildwithlayer.com/ - 'LLM Extensibility 101'
+- https://kumo.ai/research/relational-deep-learning-rdl/ - 'Relational Deep Learning (RDL): Predictive modeling without feature engineering'
+- https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.011002 - 'Scaling Law for Intrinsic Fracture Energy of Diverse Stretchable Networks'
+- https://news.ycombinator.com/item?id=42965279 - "Ask HN: Why Isn't Anyone Building a Global Brain for LLMs?"
+- https://arxiv.org/abs/2501.17273 - 'Optimizing LLM Persuasion with Personalization and Fabricated Statistics'
+- https://theconversation.com/ai-datasets-have-human-values-blind-spots-new-research-246479
+- https://magazine.sebastianraschka.com/p/understanding-reasoning-llms
+- https://www.decisionsanddragons.com/ - 'Decisions and Dragons: A guide to the perilous world of reinforcement learning'
+- https://www.quantamagazine.org/the-ai-pioneer-with-provocative-plans-for-humanity-20241204/
+- https://arxiv.org/abs/2502.00948 - 'Paradoxical Behavior in Collatz Sequences'
+- https://knowen-production.s3.amazonaws.com/uploads/attachment/file/2005/DESIGNING%2BORGANIZATIONS%2Bfor%2BInformation-Rich%2Bworld%2B--%2BSImon.pdf - 'Designing Organizations for an Information-Rich World (1971) [pdf]'
+- https://techxplore.com/news/2025-02-brain-ai-technology-boosts-efficiency.html - 'A brain-inspired AI technology boosts efficiency and reduces energy consumption'
+- https://neuralink.com/blog/a-year-of-telepathy/ - neither 'simplicity' nor 'similarity' is 'telepathy'
+- https://marcusblankenship.com/a-tool-for-adjusting-your-mental-models/
+- https://kumo.ai/company/news/2025-launch/ - 'AI Models for Relational Data'
+- https://www.quantamagazine.org/the-poetry-fan-who-taught-an-llm-to-read-and-write-dna-20250205/
+- http://loki3.com/flex/explore/ - 'Explorable Flexagons: Learn to create and flex flexagons'
+- https://www.jamesdamore.com/articles/the-sad-math-of-ads - 'The Sad Math of Ads: messages of inadequacy and salvation through consumption'
+- https://cacm.acm.org/opinion/it-is-time-to-standardize-principles-and-practices-for-software-memory-safety/
+- https://arxiv.org/abs/2412.04318 - 'The Hyperfitting Phenomenon: Sharpening and Stabilizing LLMs'
+- https://zenodo.org/records/14799070 - 'I Applied Wavelet Transforms to AI and Found Hidden Structure'
+- https://joshuagans.substack.com/p/what-will-ai-do-to-presearch
+- https://fchollet.substack.com/p/the-loop-of-progress
+- https://sebgnotes.com/blog/2025-02-05-llms-as-vector-program-databases-a-new-mental-model/
 - https://www.nature.com/articles/s41586-024-08514-6 - 'Emergence of collective oscillations in massive human crowds'
 - https://www.vice.com/en/article/ok-wtf-are-wordcels-and-shape-rotators/
 - https://mapify.so/ - 'AI Mind Map Summarizer'
