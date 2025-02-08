@@ -40,6 +40,39 @@
 
 
 
+- https://sam.gov/opp/4def3c13ca3947069b1779e7ff697c6a/view - 'DARPA announces a program entitled "Exponentiating Mathematics"'
+- https://www.thealgorithmicbridge.com/p/perhaps-you-shouldnt-read-this
+- https://model-similarity.github.io/ - 'Great Minds Think Alike and This Undermines AI Oversight'
+- https://www.nature.com/articles/s41598-024-69032-z - 'Strategic behavior of large language models in game-theoretic settings (2024)'
+- https://arxiv.org/abs/2501.16456 - 'CoCoNUT: Structural Code Understanding does not fall out of a tree'
+- https://aihabitat.org/partnr/ - 'Partnr: A Benchmark for Planning and Reasoning in Embodied Multi-Agent Tasks'
+- https://arxiv.org/abs/2502.04327 - 'Value-Based Deep RL Scales Predictably'
+- https://arxiv.org/abs/2502.03860 - 'Bolt: Bootstrap long chain-of-thought in LLMs without distillation [pdf]'
+- https://www.think-in-sync.com/ - 'Show HN: Predict LLM Predictions'
+- https://www.pnas.org/doi/10.1073/pnas.2026818118 - 'Constructing Turing complete Euler flows in dimension 3'
+- https://www.youtube.com/watch?v=tAK2D71ut84 - 'Dreamy: The Algo [video]'
+- https://www.nirvanic.ai/faqs - 'Nirvanic Consciousness Technologies FAQ'
+- https://diffuse.one/p/d1-007 - 'AI for science with reasoning models'
+- https://oo.ai/ - 'Introducing: the Search Engine That Will ∞ Your Possibilities'
+- https://redpenguin101.github.io/html/posts/2025_01_21_voronoi.html - "Generating Voronoi Diagrams Using Fortune's Algorithm (With Odin)"
+- https://arstechnica.com/science/2025/02/quantum-teleportation-used-to-distribute-a-calculation/
+- https://spectrum.ieee.org/quantum-simulation - "Google's Quantum Simulator Reveals New Facet of Magnetism"
+- https://github.com/Storyyeller/polysubml-demo - 'Polysubml-demo: A simple ML-like language with subtyping, polymorphism, higher'
+- https://storyofsearch.com/
+- https://mathoverflow.net/questions/487093/non-existence-of-continuous-function-with-infinite-derivative
+- https://mathoverflow.net/questions/486938/which-cardinals-are-definable-in-the-category-of-sets
+- https://mathoverflow.net/questions/486730/a-bijection-between-pairs-of-partitions
+- https://medium.com/@seanamcclure/intelligence-is-meta-a2ab26cd7520
+- https://medium.com/towards-artificial-intelligence/ai-isnt-hitting-a-wall-here-is-why-e75fe86e47f1
+- https://medium.com/gitconnected/follow-the-ants-they-know-the-path-enhancing-llm-reasoning-with-aco-tot-7974c4928658
+- https://techcrunch.com/2025/02/07/promptlayer-is-building-tools-to-put-non-techies-in-the-drivers-seat-of-ai-app-development/
+- https://inria.hal.science/hal-04930405v1/document#page=2 - 'Code Beyond Fair'
+- https://www.independent.co.uk/news/science/quantum-teleportation-computing-supercomputer-oxford-b2693889.html - 'Oxford scientists achieve teleportation with quantum supercomputer'
+- https://arxiv.org/abs/2501.13111 - 'IServe: An Intent-Based Serving System for LLMs'
+- https://foundationcapital.com/the-paradox-of-self-building-agents-teaching-ai-to-teach-itself/
+- https://www.businessinsider.com/cohere-aidan-gomez-deepseek-ai-r1-businesses-2025-2 - "Aidan Gomez helped spark the generative AI boom at Google. He doesn't think DeepSeek will fix your business's problems."
+- https://ferd.ca/complexity-has-to-live-somewhere.html
+- https://crookedtimber.org/2025/01/31/will-big-data-lift-the-veil-of-ignorance/
 - https://phys.org/news/2025-02-international-collaboration-relationship-quantum-theory.html - 'International collaboration sheds new light on the relationship between quantum theory and thermodynamics'
 - https://techcrunch.com/2025/02/06/openai-now-reveals-more-of-its-o3-mini-models-thought-process/
 - https://github.com/ai-christianson/RA.Aid - 'RA.Aid: Develop Software Autonomously'
