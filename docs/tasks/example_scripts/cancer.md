@@ -447,7 +447,7 @@
 		    - PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
 		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine (not for kidney/liver damage), maca to increase the amount of human growth hormone to recover
-			- kidney damage: fasting, omega 3s, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris
+			- kidney damage: fasting, omega 3s, melatonin, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris
 				- resistant starch (increases GLP-1, so it helps with kidney disease like ozempic does)
 					- 'RS reduced the serum IS, serum phosphorus, IL-6, and uric acid levels significantly in dialysis patients, while hs-CRP, serum creatinine, BUN, serum paracresol sulfate, and blood lipid showed no significant changes.'
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9314005/

@@ -40,6 +40,27 @@
 
 
 
+
+- https://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap
+- https://www.youtube.com/watch?v=Zu2oET6Xjow - 'The Future of Math with O1 Reasoning with Terence Tao'
+- https://thebullshitmachines.com/ - 'Modern-Day Oracles or Bullshit Machines'
+- https://marktomforde.com/academic/miscellaneous/images/atiyah20thcentury.pdf - "Mathematics in the 20th century, by Michael Atiyah [pdf] (2002)"
+- https://github.com/klara-research/klarity/releases/tag/v0.1 - 'Show HN: Klarity – OS tool to debug LLM reasoning patterns with entropy analysis'
+- https://news.ycombinator.com/user?id=mrzool
+- https://tomalcorn.substack.com/p/the-unfinished-symphony - 'The Unfinished Symphony: On the limits of AI in software engineering'
+- https://qckfx.com/blog/10-developer-workflows-that-are-ripe-for-ai-automation
+- https://metastable.org/change/ - "What Won't Change: Powerful AI won't change everything"
+- https://realkm.com/2023/11/21/knowledge-retention-5-clusters-of-knowledge-loss-and-5-interventions/
+- https://datagubbe.se/endofciv/ - 'Is Software Abstraction Killing Civilization? (2021)'
+- https://openai.com/index/deep-double-descent/ - 'Deep Double Descent: Where Bigger Models and More Data Hurt'
+- https://www.nature.com/articles/s41534-024-00922-w - 'Universal validity of the second law of information thermodynamics'
+- https://arxiv.org/abs/2502.00212 - 'STP: Self-Play LLM Theorem Provers with Iterative Conjecturing and Proving'
+- https://3blue1brown.substack.com/p/the-cosmic-distance-ladder-with-terence - 'The Cosmic Distance Ladder with Terence Tao, Part 1'
+- https://www.youtube.com/watch?v=lp0RgZ6kQF8 - 'The equivalence between geometrical structures and entropy [video]'
+- https://queue.acm.org/detail.cfm?id=3712057 - 'Systems Correctness Practices at AWS: Leveraging Formal and Semi-Formal Methods'
+- https://arxiv.org/abs/2501.17799 - 'Leveraging Multimodal LLM for Inspirational User Interface Search'
+- https://github.com/eaxis/levenshtein - 'An early-exit Levenshtein implementation'
+- https://www.quantamagazine.org/computing-expert-says-programmers-need-more-math-20220517/
 - https://sam.gov/opp/4def3c13ca3947069b1779e7ff697c6a/view - 'DARPA announces a program entitled "Exponentiating Mathematics"'
 - https://www.thealgorithmicbridge.com/p/perhaps-you-shouldnt-read-this
 - https://model-similarity.github.io/ - 'Great Minds Think Alike and This Undermines AI Oversight'

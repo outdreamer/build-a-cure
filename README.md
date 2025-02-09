@@ -4,6 +4,20 @@
 
 	This is a tool to automate problem-solving, specifically to translate problem tasks, such as 'optimize a system', 'create a robust system', 'create a way to execute transactions without trust', 'find a compound to treat this condition' or 'find a variable relationship' into solutions, insights, and other relevant information, automatically.
 
+## Relevant Links
+
+Here's a list of substances to prevent various health conditions:
+https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/example_scripts/cancer.md?plain=1#L192
+
+Here's a set of diagrams that should help explain my inventions more clearly:
+https://github.com/outdreamer/build-a-cure/tree/master/docs/objects
+
+Here's my latest work on my inventions:
+https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
+
+Here's a list of possible thefts of my inventions:
+https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation_examples/machine_learning_thefts.txt
+
 ## Invention Relationship
 
 	- Solution automation is:
