@@ -40,7 +40,12 @@
 
 
 
-
+- https://www.ilograph.com/blog/posts/diagram-mistakes/ - 'Common Mistakes in Architecture Diagrams (2020)'
+- https://blog.aqnichol.com/2024/11/29/honeycrisp-a-deep-learning-framework/ - 'Honeycrisp: An Apple-First Deep Learning Framework'
+- https://www.latent.space/p/gateway - 'LLM Gateway: The One Decision That Removes 100 AI Engineering Decisions'
+- https://openrefine.org/ - 'OpenRefine: For working with, cleaning, transforming messy data'
+- https://arxiv.org/abs/2502.03387 - 'LIMO: Less Is More for Reasoning'
+- https://www.kaggle.com/whitepaper-prompt-engineering - 'Prompt Engineering whitepaper'
 - https://refusinggenai.wordpress.com/evaluating-arguments/ - 'Evaluating Arguments About GenAI'
 - https://www.hobartpulp.com/web_features/mathematics-and-metaphor-a-conversation-with-barry-mazur
 - https://github.com/allengotstuff/Kalman-Filter-in-Kotlin - 'Kalman Filter in Kotlin with Interactive Calibration Support And Visualization'
