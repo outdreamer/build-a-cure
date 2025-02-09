@@ -41,6 +41,13 @@
 
 
 
+- https://refusinggenai.wordpress.com/evaluating-arguments/ - 'Evaluating Arguments About GenAI'
+- https://www.hobartpulp.com/web_features/mathematics-and-metaphor-a-conversation-with-barry-mazur
+- https://github.com/allengotstuff/Kalman-Filter-in-Kotlin - 'Kalman Filter in Kotlin with Interactive Calibration Support And Visualization'
+- https://github.com/tower120/hi_sparse_vector - 'Experimental sparse vector with dot product acceleration structure'
+- https://news.ycombinator.com/item?id=42987923 - 'Show HN: KnowLang – An open-source tool for understanding complex codebases'
+- https://www.noemamag.com/what-ai-can-tell-us-about-intelligence/
+- https://arxiv.org/abs/2502.03038 - 'The Cake That Is Intelligence and Who Gets to Bake It'
 - https://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap
 - https://www.youtube.com/watch?v=Zu2oET6Xjow - 'The Future of Math with O1 Reasoning with Terence Tao'
 - https://thebullshitmachines.com/ - 'Modern-Day Oracles or Bullshit Machines'

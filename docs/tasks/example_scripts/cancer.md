@@ -28,7 +28,7 @@
 				- then check if neurotransmitter imbalance contributes to cancer (this is likelier to impact brain cancers) or hormonal imbalance (like how estrogen/DHEA imbalances can contribute to cancer)
 					- for example, dopamine imbalance can change the immune response, so make sure your dopamine levels are normal (exercise, tyrosine, theanine, green tea, vitamin D/B5/B6, omega 3s, magnesium all increase dopamine, try all of them if you can to check if a maximum level of dopamine is useful against your cancer, its not just the dopamine but the way it changes the immune response that is useful)
 				- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like prunella vulgaris, ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
-					- try the strongest anti-cancer substances that are gentle on your organs first, like:
+					- try the strongest anti-cancer substances that are gentle on your organs first (try eating these once every few hours during the day, if treating your own cancer, bc some of their effects only last a few hours), like:
 						- green banana resistant starch
 						- oats (beta-glucans)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/

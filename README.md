@@ -18,6 +18,27 @@ https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation
 Here's a list of possible thefts of my inventions:
 https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation_examples/machine_learning_thefts.txt
 
+<<< secret mathematician note that only mathematicians can read >>>
+
+Mathematicians should be working on this:
+- optimizing ml models
+- identifying optimal queries of ml models to solve reality
+- integrating insights into a cohesive system
+- absolutely nothing else
+
+I'll work on:
+- identifying new "understanding-generating rules/graphs" like always, if you want to help me, you have to read the docs here first (read at least every 100th entry in that document to understand what it is and why its important): 
+
+https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
+
+Also look at at least 10 - 20 of the most recent of the graphs in the 'objects' folder, like these:
+
+https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/problem_solving_graph.drawio.svg
+
+https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/relevant_variation_sources.drawio.svg
+
+<<< end of secret mathematician note that only mathematicians can read >>>
+
 ## Invention Relationship
 
 	- Solution automation is:
