@@ -40,6 +40,23 @@
 
 
 
+
+
+- https://loeber.substack.com/p/25-nobodys-thinking-enough-about - "Nobody's Thinking Enough About AI"
+- https://arxiv.org/abs/2412.20545 - 'The Impact of Prompt Programming on Function-Level Code Generation'
+- https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/
+- https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/
+- https://www.scattered-thoughts.net/writing/unexplanations-relational-algebra-is-math/
+- https://www.indiehackers.com/post/freeing-data-scientists-from-heavy-coding-a-new-era-of-automation-2c2bbe9280
+- https://www.youtube.com/watch?v=KDxm7FjOg_A - 'AI Innovation at Davos 2025: The Dawn of Artificial General Intelligence? [video]'
+- https://kellerjordan.github.io/posts/muon/ - 'Muon: An optimizer for hidden layers in neural networks'
+- https://openai.com/global-affairs/introducing-the-intelligence-age
+- https://www.sciencedirect.com/science/article/abs/pii/S073231230200130X - 'Understanding Metacognitive Failure'
+- https://vivekhaldar.com/articles/spec-driven-vibe-coding/
+- https://en.wikipedia.org/wiki/U-shaped_development
+- https://hbr.org/1977/09/double-loop-learning-in-organizations
+- https://arxiv.org/abs/2502.01237 - 'The Differences Between Direct Alignment Algorithms Are a Blur'
+- https://majesticlabs.dev/blog/202502/exploring-agentic-workflow-patterns/ - 'A visual guide to Agentic Workflow Patterns'
 - https://www.ilograph.com/blog/posts/diagram-mistakes/ - 'Common Mistakes in Architecture Diagrams (2020)'
 - https://blog.aqnichol.com/2024/11/29/honeycrisp-a-deep-learning-framework/ - 'Honeycrisp: An Apple-First Deep Learning Framework'
 - https://www.latent.space/p/gateway - 'LLM Gateway: The One Decision That Removes 100 AI Engineering Decisions'
