@@ -41,6 +41,12 @@
 
 
 
+
+
+
+- https://arxiv.org/abs/2502.04381 - 'LLM Failure Modes in Medical QA Arising from Inflexible Reasoning'
+- https://arxiv.org/abs/2502.04403 - 'Google DeepMind: Agency Is Frame-Dependent'
+- https://atalaykutlay.com/writing-a-milp-solver-reading-mps.html
 - https://arxiv.org/abs/2502.04514 - 'Flip Graphs with Symmetry and New Matrix Multiplication Schemes'
 - https://synaptiks.ai/p/from-base-models-to-reasoning-models
 - https://github.com/RiceBobb/ClueHunter-Perplexity - 'ClueHunter Perplexity: A Chrome Extension for Quickly Finding Evidence'
