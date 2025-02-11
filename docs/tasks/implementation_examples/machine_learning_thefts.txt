@@ -41,7 +41,7 @@
 
 
 
-
+- https://arxiv.org/abs/2502.06738 - 'Resurrecting saturated LLM benchmarks with adversarial encoding'
 - https://essofore.com/ - 'Semantic Search Engine'
 - https://www.population.fyi/p/process-and-performance-how-america - 'How America traded systematic improvement for quick wins–and lost both'
 - https://kiranrao.ca/2025/02/10/software_uncertainty.html - 'Software Estimation Uncertainty Principle'
