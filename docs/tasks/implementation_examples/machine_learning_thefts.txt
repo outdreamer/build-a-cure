@@ -42,8 +42,30 @@
 
 
 
-
-
+- https://essofore.com/ - 'Semantic Search Engine'
+- https://www.population.fyi/p/process-and-performance-how-america - 'How America traded systematic improvement for quick wins–and lost both'
+- https://kiranrao.ca/2025/02/10/software_uncertainty.html - 'Software Estimation Uncertainty Principle'
+- https://www.branchbyabstraction.com/ - 'Branch By Abstraction – UML sequence diagrams'
+- https://stratechery.com/2025/deep-research-and-knowledge-value/
+- http://bryukh.com/posts/text-to-video-ai-for-memory/ - 'AI, Absurdity, and Learning Faster'
+- https://arxiv.org/abs/2402.15555 - 'Deep Networks Always Grok and Here Is Why'
+- https://www.quantamagazine.org/undergraduate-upends-a-40-year-old-data-science-conjecture-20250210/
+- https://time.com/7212510/anima-anandkumar-ai-hard-scientific-challenges/ - "Anima Anandkumar Highlights AI’s Potential to Solve ‘Hard Scientific Challenges’"
+- https://time.com/7212509/refik-anadol-artistic-possibilities-in-data/ - "Refik Anadol Sees Artistic Possibilities in Data"
+- https://medium.com/towards-data-science/estimating-the-performance-of-an-ml-model-in-the-absence-of-ground-truth-cc87dbf6e57
+- https://thezvi.substack.com/p/levels-of-friction
+- https://gebob19.github.io/normalizing-flows/ - 'Going with the Flow: An Introduction to Normalizing Flows'
+- https://github.com/haizelabs/Awesome-LLM-Judges
+- https://github.com/shaidar/ion-cannon - 'Ion Cannon - content collection and analysis system that uses multiple LLMs'
+- https://metastable.org/five-things/ - "What Won't Change with Powerful AI"
+- http://funcall.blogspot.com/2025/02/rusty-list-fu.html - 'Abstract Heresies: Rusty List-Fu'
+- https://engineeringblog.yelp.com/2025/02/search-query-understanding-with-LLMs.html - 'Search Query Understanding with LLMs: From Ideation to Production'
+- https://tidyfirst.substack.com/p/anatomy-of-oscillation
+- https://www.core77.com/posts/135375/Architecture-Student-Invents-Brilliant-Formwork-that-Reduces-Concrete-n-Steel-Usage
+- https://robleclerc.substack.com/p/super-intelligence-hyper-intelligence - 'Super Intelligence ≠ Hyper Intelligence'
+- https://www.artinext.be/ - 'Create. Automate. Elevate'
+- https://www.answer.ai/posts/2025-02-10-modernbert-instruct.html - 'TIL: Masked Language Models Are Surprisingly Capable Zero-Shot Learners'
+- https://arxiv.org/abs/2412.12140 - 'Frontier AI systems have surpassed the self-replicating red line'
 - https://arxiv.org/abs/2502.04381 - 'LLM Failure Modes in Medical QA Arising from Inflexible Reasoning'
 - https://arxiv.org/abs/2502.04403 - 'Google DeepMind: Agency Is Frame-Dependent'
 - https://atalaykutlay.com/writing-a-milp-solver-reading-mps.html
