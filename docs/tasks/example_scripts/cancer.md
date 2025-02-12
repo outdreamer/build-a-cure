@@ -336,7 +336,7 @@
 		- air pollution exposure:
 			- iodine, selenium, vitamin b/c/d/e, chlorella, gentian, schizandra, milk thistle, omega 3's
 		- atherosclerosis: 
-			- nattokinase, elastin F, omega-3s, moringa, policosanol, glycine, carob pods
+			- melatonin, nattokinase, elastin F, omega-3s, moringa, policosanol, glycine, carob pods
 			- atherosclerosis caused by diabetes: prunella vulgaris
 			- atherosclerosis caused by air pollution: air purifier
 			- statins (red yeast rice) and PCSK9 inhibitors (berberine)
@@ -495,8 +495,9 @@
 			    - use these in small amounts to increase klotho to recover from kidney damage:
 			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure:
-				- vitamin d/b1/b9, iron, coffee, green tea, omega 3's, saccharomyces boulardii, alpha-lipoic acid, calcium, glucosamine, cocoa, ribose, flax seeds
+				- melatonin, vitamin d/b1/b9, iron, coffee, green tea, omega 3's, saccharomyces boulardii, alpha-lipoic acid, calcium, glucosamine, cocoa, ribose, flax seeds
 					- other herbs: motherwort, pheasant's eye, lily-of-the-valley, aconite, dandelion, kudzu, oleander, terminalia arjuna, yerba mate
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC10047594/
 				- SGLT inhibitors
 					- https://www.sciencedirect.com/science/article/pii/S2667031322000112
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC10831928/

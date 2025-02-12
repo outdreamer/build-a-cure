@@ -35,12 +35,52 @@
     	- 'how to graph problems so that theyre easily solved (connected to solutions and to other problems)'
     	- 'how to add concepts (like adding definition networks of concepts)'
     	- all the other insights I posted in my private documents/patent applications/social media posts/github repo commits
-    - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking
+    - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking, also merely mentioning common words like 'meaning/semantics' isnt equal to understanding it well enough to structure it and automate it, let alone anything else based on it like other insights
 
 
 
 
 
+
+
+- https://phys.org/news/2025-02-mathematical-solutions-2d-interaction-photonic.html - 'Researchers provide mathematical solutions to study 2D light interaction in photonic crystal lasers'
+- https://techxplore.com/news/2025-02-algorithm-ai-independently-uncover-patterns.html - 'New algorithm improves how AI can independently learn and uncover patterns in data'
+- https://world-editor-tutorials.thehelper.net/formula.php - 'Formula Finder (2005)'
+- https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e
+- https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
+- https://arxiv.org/abs/2410.13732 - 'Reducing the Transformer Architecture to a Minimum [pdf]'
+- https://arxiv.org/abs/2502.06807 - 'Competitive Programming with Large Reasoning Models'
+- https://arxiv.org/abs/2501.04040 - 'A Survey on Large Language Models (2025)'
+- https://www.quickchat.ai/post/generative-search-optimization - 'Generative Search Optimization: How to Rank Higher in ChatGPT?'
+- https://www.lesswrong.com/posts/KFJ2LFogYqzfGB3uX/how-ai-takeover-might-happen-in-2-years
+- https://www.nature.com/articles/s41598-024-74126-9?fromPaywallRec=false - 'Hierarchical graph network for propaganda detection in social media news text'
+- https://blog.usetusk.ai/blog/systematic-pessimism-scaling-quality-engineering - 'Systematic Pessimism: Scaling Quality Engineering W Automated Failure Discovery'
+- https://github.com/EliasPereirah/SearchAugmentedLLM - 'OS – Enhance LLM Responses with Real-Time Web Data Using SearchAugmentedLLM'
+- https://escholarship.mcgill.ca/concern/theses/j3860882j - 'Efficient program analysis using DJ graphs'
+- https://guptadeepak.com/deepseek-revolutionizing-ai-with-efficiency-innovation-and-affordability/
+- https://github.com/Oliveriver/5d-diplomacy-with-multiverse-time-travel
+- https://generalrobots.substack.com/p/correct-vs-good
+- https://www.beginroot.com/blog/advertising-and-the-three-levels-of-hell
+- https://www.newyorker.com/culture/culture-desk/what-is-mathematics - 'What Is Mathematics? (2021)'
+- https://drive.google.com/file/d/1QAzSj24Fp0O6GfkskmnULmI1Hmx7k_EJ/view - 'Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs'
+- https://www.noemamag.com/applying-ancient-chinese-philosophy-to-artificial-intelligence/
+- https://arxiv.org/abs/2502.05795 - 'The Curse of Depth in Large Language Models [pdf]'
+- https://www.aimon.ai/posts/aimon-rre-1-retrieval-eval-reranker-model - 'Customizable Retrieval Evaluator and Re-ranker model'
+- https://andymasley.substack.com/p/guiding-ideas-i-use-to-think-about - 'Ideas I use to think about AI – Part 1: Philosophy'
+- https://lmgame.org/#/blog/ai_space_escape - 'AI Space Escape: Playing Games While Evaluting LLM Reasonsing'
+- https://thezvi.substack.com/p/on-deliberative-alignment
+- https://www.thenerdreich.com/silicon-valleys-playbook-and-the-ai-coup/
+- https://www.lesswrong.com/posts/csHstEPagqs8wChhh/examples-of-highly-counterfactual-discoveries - 'Examples of Highly Counterfactual Discoveries (2024)'
+- https://queue.acm.org/detail.cfm?id=3711679 - 'The Price of Intelligence: Three Risks Inherent in LLMs'
+- https://techxplore.com/news/2025-02-algorithm-ai-independently-uncover-patterns.html - 'New algorithm improves how AI can independently learn and uncover patterns in data'
+- https://medicalxpress.com/news/2025-02-brain-neural-networks-reveal-insights.html - 'Brain-inspired neural networks reveal insights into biological basis of relational learning'
+- https://arxiv.org/abs/2502.05253 - 'LLMs Can Teach Themselves to Better Predict the Future'
+- https://glaive-research.org/2025/02/11/Generalized-Transformers-from-Applicative-Functors.html
+- https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html - 'Structure and Interpretation of Computer Programs (1984)'
+- https://www.elementsofprogramming.com/ - 'Elements of Programming (2009)'
+- https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(25)00047-5 - 'Snap inflatable modular metastructure for multipath, multimode morphing machines'
+- https://arxiv.org/abs/2407.01082 - 'Turning Up the Heat: Min-P Sampling for Creative and Coherent LLM Outputs'
+- https://www.thariq.io/blog/sorting/ - 'LLM-Powered Sorting with TrueSkill'
 - https://arxiv.org/abs/2502.06738 - 'Resurrecting saturated LLM benchmarks with adversarial encoding'
 - https://essofore.com/ - 'Semantic Search Engine'
 - https://www.population.fyi/p/process-and-performance-how-america - 'How America traded systematic improvement for quick wins–and lost both'
