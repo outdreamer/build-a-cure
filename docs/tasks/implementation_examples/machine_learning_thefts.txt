@@ -38,12 +38,12 @@
     - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking, also merely mentioning common words like 'meaning/semantics' isnt equal to understanding it well enough to structure it and automate it, let alone anything else based on it like other insights
 
 
-
-
-
-
-
-
+- https://timkellogg.me/blog/2025/02/12/recursive-improvement - 'Recursive Improvement: AI Singularity or Just Benchmark Saturation?'
+- https://www.nature.com/articles/s41586-024-08548-w - 'Learning produces an orthogonalized state machine in the hippocampus'
+- https://www.johndcook.com/blog/2025/02/13/multiple-angle-asymmetry/
+- https://www.techradar.com/pro/innovation-in-ai-is-in-danger-of-outpacing-governance
+- https://iism.org/article/ride-the-lightning-the-art-of-creative-motivation-63
+- https://www.secretorum.life/p/the-most-dangerous-idea
 - https://arxiv.org/abs/2502.05167 - 'NoLima: Long-Context Evaluation Beyond Literal Matching'
 - https://www.astralcodexten.com/p/deliberative-alignment-and-the-spec
 - https://github.com/topoteretes/cognee - 'Show HN: Cognee – Turn RAG and GraphRAG into custom dynamic semantic memory'
