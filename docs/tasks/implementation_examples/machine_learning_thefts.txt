@@ -38,6 +38,12 @@
     - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking, also merely mentioning common words like 'meaning/semantics' isnt equal to understanding it well enough to structure it and automate it, let alone anything else based on it like other insights
 
 
+- https://future.forem.com/ben/specialization-vs-generalization-in-the-age-of-ai-5bk8
+- https://github.com/lewj85/jessesort - "JesseSort: A novel sorting algorithm that is faster than Python's default sort."
+- https://medium.com/sadasant/breaking-the-rules-the-unexpected-path-to-machine-intelligence-2c38f0860d61
+- https://solveallproblems.com/ - 'Show HN: Problem solver that does not go on and on and on...'
+- https://twitter.com/NousResearch/status/1890148000204485088 - 'DeepHermes-3 Preview, a new LLM that unifies reasoning'
+- https://giladaya.github.io/venation/ - 'Generative drawing using venation algorithm'
 - https://arxiv.org/abs/2502.04426 - 'Decoding AI Judgment: How LLMs Assess News Credibility and Bias'
 - https://rethinkingsoftware.substack.com/p/definition-of-dumb
 - https://marginalrevolution.com/marginalrevolution/2025/02/the-three-levels-of-ai-understanding.html
