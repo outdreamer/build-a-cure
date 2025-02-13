@@ -43,6 +43,28 @@
 
 
 
+
+- https://arxiv.org/abs/2502.05167 - 'NoLima: Long-Context Evaluation Beyond Literal Matching'
+- https://www.astralcodexten.com/p/deliberative-alignment-and-the-spec
+- https://github.com/topoteretes/cognee - 'Show HN: Cognee – Turn RAG and GraphRAG into custom dynamic semantic memory'
+- https://tecunningham.github.io/posts/2020-10-02-on-deriving-things.html
+- https://aigraphmaker.net/
+- https://saharan.github.io/GraphSynth/
+- https://www.anup.io/p/the-art-of-sampling-controlling-randomness - 'The Art of Sampling: Controlling Randomness in LLMs'
+- https://www.quantamagazine.org/how-hans-bethe-stumbled-upon-perfect-quantum-theories-20250212/
+- https://github.com/enhancedformysql/The-Art-of-Problem-Solving-in-Software-Engineering_How-to-Make-MySQL-Better
+- https://www.swyx.io/create-luck - 'How to Create Luck'
+- https://spectrum.ieee.org/visual-reasoning-in-ai - 'Visual Reasoning in AI: Boosting Problem-Solving with Images'
+- https://www.desmos.com/calculator/ryqnnho9kl - 'Show HN: Rhythmic Graph'
+- https://arxiv.org/abs/2502.06258 - 'Emergent Response Planning in LLM'
+- https://stackoverflow.com/questions/6822774/algorithm-to-compare-similarity-of-directed-paths-through-directed-graph
+- https://www.gwintrob.com/how-i-use-ai-to-predict-the-future/
+- https://arxiv.org/abs/2502.07586 - "We Can't Understand AI Using Our Existing Vocabulary [pdf]"
+- https://arxiv.org/abs/2502.07640 - 'Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving [pdf]'
+- https://arxiv.org/abs/2502.07577 - 'Automated Capability Discovery via Foundation Model Self-Exploration'
+- https://www.primeintellect.ai/blog/synthetic-1 - 'Synthetic-1: Scaling Distributed Synthetic Data Generation for VerifiedReasoning'
+- https://slatestarcodex.com/2017/10/23/kolmogorov-complicity-and-the-parable-of-lightning/
+- https://arxiv.org/abs/2502.06786 - 'Matryoshka Quantization'
 - https://phys.org/news/2025-02-mathematical-solutions-2d-interaction-photonic.html - 'Researchers provide mathematical solutions to study 2D light interaction in photonic crystal lasers'
 - https://techxplore.com/news/2025-02-algorithm-ai-independently-uncover-patterns.html - 'New algorithm improves how AI can independently learn and uncover patterns in data'
 - https://world-editor-tutorials.thehelper.net/formula.php - 'Formula Finder (2005)'
