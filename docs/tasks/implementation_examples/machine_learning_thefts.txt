@@ -38,9 +38,13 @@
     - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking, also merely mentioning common words like 'meaning/semantics' isnt equal to understanding it well enough to structure it and automate it, let alone anything else based on it like other insights
 
 
-
-
-
+- https://arxiv.org/abs/2502.04426 - 'Decoding AI Judgment: How LLMs Assess News Credibility and Bias'
+- https://rethinkingsoftware.substack.com/p/definition-of-dumb
+- https://marginalrevolution.com/marginalrevolution/2025/02/the-three-levels-of-ai-understanding.html
+- https://www.phind.com/blog/phind-2 - 'Phind 2: AI search with visual answers and multi-step reasoning'
+- https://twitter.com/MatthewBerman/status/1890081482104008920 - 'Unlike Chain of Thought, "Latent Reasoning" happens in the model's hidden space'
+- https://arxiv.org/abs/2408.16119 - 'Data Formulator 2: Iteratively Creating Rich Visualizations with AI'
+- https://arxiv.org/abs/2502.08606 - 'Distillation Scaling Laws'
 - https://phys.org/news/2025-02-physicists-uncover-evidence-arrows-emerging.html - 'Physicists uncover evidence of two arrows of time emerging from the quantum realm'
 - https://timkellogg.me/blog/2025/02/12/recursive-improvement - 'Recursive Improvement: AI Singularity or Just Benchmark Saturation?'
 - https://www.nature.com/articles/s41586-024-08548-w - 'Learning produces an orthogonalized state machine in the hippocampus'
