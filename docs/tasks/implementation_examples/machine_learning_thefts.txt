@@ -38,6 +38,24 @@
     - everyone does basic (as in 'incorrect') concept math like 'similar good, different bad', thats not impressive, 'automating it with understanding' is the important task that I did which you did not, bc you dont care about saving innocent weak people, so you let them suffer your whole life, so you could be comfortable and avoid thinking, also merely mentioning common words like 'meaning/semantics' isnt equal to understanding it well enough to structure it and automate it, let alone anything else based on it like other insights
 
 
+
+
+
+
+
+
+- https://substack.com/home/post/p-156807036 - "The Deterministic Brain: Why You Can't Predict Your Own Decisions"
+- https://arxiv.org/abs/2502.00081 - 'How to Make a Universe'
+- https://www.bazi-ai.com/ - 'Show HN: BaziAI – Traditional Chinese Astrology Meets Modern AI (DeepSeek R1)'
+- https://www.youtube.com/watch?v=_UcqmOuLLHM - 'Graph Transformers and Relational Deep Learning at Reddit [video]'
+- https://platform.openai.com/docs/guides/reasoning-best-practices
+- https://www.alexkesin.com/2025/02/narrow-leverage.html - 'Narrow Leverage: How Small Strengths Create Big Power'
+- https://pubmed.ncbi.nlm.nih.gov/19577519/ - 'Turing Completeness of Reaction-Diffusion Models: Cardiac Arrhythmia and Halting'
+- https://github.com/iliazintchenko/ising-solvers/blob/master/ising_solvers/pfa_plain.py - 'The fastest NP-hard solver is 50 lines of code'
+- https://www.lesswrong.com/posts/isRho2wXB7Cwd8cQv/murder-plots-are-infohazards
+- https://www.cold-takes.com/does-x-cause-y-an-in-depth-evidence-review/
+- https://gridwhale.medium.com/software-simplicity-0379f946f07c
+- https://mathstodon.xyz/@johncarlosbaez/114000054766059217 - '"Homotopical macrocosms for higher category theory" identified as woke DEI grant' (thats what you get for stealing, please label these papers as fraud/stolen)
 - https://future.forem.com/ben/specialization-vs-generalization-in-the-age-of-ai-5bk8
 - https://github.com/lewj85/jessesort - "JesseSort: A novel sorting algorithm that is faster than Python's default sort."
 - https://medium.com/sadasant/breaking-the-rules-the-unexpected-path-to-machine-intelligence-2c38f0860d61

@@ -17,46 +17,57 @@
 	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, and quercetin), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
 
 		- 'cancer cause' diagnostic sequence
+
 			- you will probably want to rule out causes/enhancers of your cancer in specific sequences
-			    - if you dont care about identifying the cause and want to skip to treatment or prevention, you can start with the anti-cancer herbs/fruits/vegetables and an air pollution air purifier (a mask for outside time, and home/car purifiers) and high intensity interval training
-				- first you can test if your cancer is caused by air pollution quickly by using an air pollution mask and an air pollution air purifier (and a reverse osmosis water purifier to check if your water is making you sick) for a few days and checking if it helps reduce cancer growth (if your cancer is slow growing, this might take longer and you should start with an anti-inflammatory diet and herbs while also using an air pollution air purifier, rather than letting your cancer get slowly worse for long periods of time just to check if its the air pollution)
-				- then you can check if acidity/inflammation causes your cancer by taking calcium carbonate and/or potassium bicarbonate to see if they help reduce cancer growth
-					- vitamin c powder (take this in doses of 1 - 2 g/day with zinc to help prevent kidney stones, assuming youre otherwise healthy and can handle large doses of vitamin c) is another anti-inflammation substance to try, but it can make some cancers grow
-					- also check if other vitamin deficiencies are the cause of your cancer, such as by taking anti-cancer vitamins/minerals like iodine and vitamin d (not a huge dose, bc vitamin d can hurt your kidneys in large doses) to see if that fixes the cancer growth, or taking a multivitamin or eating a nutritionally complete diet (getting nutrients from diet rather than supplements will avoid the problem of 'feeding cancer directly by eating vitamins/minerals in supplement form, which puts it directly in the bloodstream')
-				- then check if 'low immunity' causes your cancer to grow, by stimulating immunity/klotho (klotho being a tumor suppressor) such as with a keto diet or high intensity interval training (half an hour of sprinting/resting cycles creates a strong immune response)
-					- another way to stimulate your immune response is to apply the flu/bird flu immune response (like by eating milk/eggs), which extremely reduced my brain tumor during the active immune response
-				- then check if neurotransmitter imbalance contributes to cancer (this is likelier to impact brain cancers) or hormonal imbalance (like how estrogen/DHEA imbalances can contribute to cancer)
-					- for example, dopamine imbalance can change the immune response, so make sure your dopamine levels are normal (exercise, tyrosine, theanine, green tea, vitamin D/B5/B6, omega 3s, magnesium all increase dopamine, try all of them if you can to check if a maximum level of dopamine is useful against your cancer, its not just the dopamine but the way it changes the immune response that is useful)
-				- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like prunella vulgaris, ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
-					- try the strongest anti-cancer substances that are gentle on your organs first (try eating these once every few hours during the day, if treating your own cancer, bc some of their effects only last a few hours), like:
-						- green banana resistant starch
-						- oats (beta-glucans)
-							- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/
-						- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrus pectin)
-						- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
-						- blue agave syrup (the Wholesome brand)
-						- artemisinin
-						- ashwagandha (the Gaia Herbs brand)
-						- milk thistle
-						- coffee (Chameleon coffee is the best brand Ive tried, or chlorogenic acid is similarly powerful as coffee)
-						- wasabi (the S and B brand)
-						- green tea (Tejava Hojicha organic green tea)
-						- saw palmetto
-						- berries (for the vitamin K, antioxidants, anti-inflaatory effect), pomegranats, mangoes, mushrooms, cabbage
-							- golden berries/Physalis peruviana are powerful against cancer but make sure to avoid high doses to avoid cardiac/cardiovascular damage and avoid unripe golden berries
-							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3863561/
-							- https://pmc.ncbi.nlm.nih.gov/articles/PMC9408722/
-						- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
-						- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
-						- the substances that wear off after a while can be cycled on and off to increase the immune response - I waited 2 months in between wasabi doses and it had the same strong immune response again after 2 months
-				- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
-					- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
-					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
-				- if those specific protocols dont work, then you can try substances that are more harsh on your organs (like thunder god vine, cat's claw, kumquats, quercetin, chlorogenic acid, artemisinin, etc), but otherwise avoid these unless you need them and start with fractions of a dose if you need them 
-					- kumquats fight stress and boost natural killer (NK) cells (which get rid of cancer cells and other cells infected by viruses)
-						- kumquats have cyanide in the seeds, like apricots/apples
-				- if these dont work, youll want to keep looking for other pollutants/chemicals you might be exposed to that could cause cancer (like alcohol, excessive sunlight, pesticides, toxic cleaning chemicals, processed food, peanuts/wheat which have agglutinin that can make some cancers worse, potato chips which have acrylamide which can make cancer worse, supplements like beta-sitosterol that can suppress tumor-fighting defenses, arginine/b vitamins/vitamin c/vitamin e/iron/zinc which can feed cancer if taken in supplement or other processed form, etc)
-					- also check if your lifestyle variables like circadian rhythm dysregulation are a cause (if the cancer grows more at night, or days when you dont get sunlight, or in different sleeping postures, or when using a nightlight)
+
+			    - if you dont care about identifying the cause and want to skip to treatment or prevention, you can start with:
+			    	- the anti-cancer herbs/fruits/vegetables/vitamins referenced below (especially berries, mango, coconut, citrus, mushrooms, broccoli, ginger, garlic, turmeric, ashwagandha, iodine, small amounts like 1 oz of green tea/coffee)
+			    	- a common base of gentle supplements to be used daily (like probiotics/kefir, modified citrus pectin, oatmeal, bromelain, resistant starch)
+			    	- substances to reduce acidosis/inflammation (vitamin C/D, calcium, avoid large amounts of vitamin d if you have organ failure, only get it from sunlight or fish/algae rather than supplements if you have kidney damage)
+			    	- an air pollution mask for outside/travel time and an air purifier for indoor time and a reverse osmosis water purifier for toxins in water (whole foods 365 italian mineral water in glass bottles is the cleanest water)
+			    	- cycling off strong immune response substances every 30 - 60 days to maximize immune response (using one of the 30 - 60 strong substances like wasabi, blue agave syrup each day to maximize the immune response which wears off and comes back after a period of cycling off of it for several weeks)
+			    	- occasionally if youre healthy (without organ damage), you can also supplement with harsher substances like artemisinin, large amounts of coffee/green tea like 4 - 8 oz, thunder god vine, cat's claw, and honokiol (which are effective but are hard on your organs and not for people with organ damage), but these should be avoided unless other treatments arent working
+			    	- high intensity interval training, dopamine cycling, etc
+			    	- avoid dietary carcinogens that can make some cancers worse (potato chips, agglutinin from peanuts/wheat, folic acid/niacin supplements)
+
+				- otherwise, if you want to identify the cause
+					- first you can test if your cancer is caused by air pollution quickly by using an air pollution mask and an air pollution air purifier (and a reverse osmosis water purifier to check if your water is making you sick) for a few days and checking if it helps reduce cancer growth (if your cancer is slow growing, this might take longer and you should start with an anti-inflammatory diet and herbs while also using an air pollution air purifier, rather than letting your cancer get slowly worse for long periods of time just to check if its the air pollution)
+					- then you can check if acidity/inflammation causes your cancer by taking calcium carbonate and/or potassium bicarbonate to see if they help reduce cancer growth
+						- vitamin c powder (take this in doses of 1 - 2 g/day with zinc to help prevent kidney stones, assuming youre otherwise healthy and can handle large doses of vitamin c) is another anti-inflammation substance to try, but it can make some cancers grow
+						- also check if other vitamin deficiencies are the cause of your cancer, such as by taking anti-cancer vitamins/minerals like iodine and vitamin d (not a huge dose, bc vitamin d can hurt your kidneys in large doses) to see if that fixes the cancer growth, or taking a multivitamin or eating a nutritionally complete diet (getting nutrients from diet rather than supplements will avoid the problem of 'feeding cancer directly by eating vitamins/minerals in supplement form, which puts it directly in the bloodstream')
+					- then check if 'low immunity' causes your cancer to grow, by stimulating immunity/klotho (klotho being a tumor suppressor) such as with a keto diet or high intensity interval training (half an hour of sprinting/resting cycles creates a strong immune response)
+						- another way to stimulate your immune response is to apply the flu/bird flu immune response (like by eating milk/eggs), which extremely reduced my brain tumor during the active immune response
+					- then check if neurotransmitter imbalance contributes to cancer (this is likelier to impact brain cancers) or hormonal imbalance (like how estrogen/DHEA imbalances can contribute to cancer)
+						- for example, dopamine imbalance can change the immune response, so make sure your dopamine levels are normal (exercise, tyrosine, theanine, green tea, vitamin D/B5/B6, omega 3s, magnesium all increase dopamine, try all of them if you can to check if a maximum level of dopamine is useful against your cancer, its not just the dopamine but the way it changes the immune response that is useful)
+					- then if none of those fixes your cancer growth, you can try other anti-cancer herbs/fruits/vegetables (like prunella vulgaris, ashwagandha, modified citrus pectin, probiotics/kefir, turmeric, hibiscus, fruits/vegetables, small amounts of coffee and green tea) which are gentler on your organs than other substances, to see if those help reduce cancer growth
+						- try the strongest anti-cancer substances that are gentle on your organs first (try eating these once every few hours during the day, if treating your own cancer, bc some of their effects only last a few hours), like:
+							- green banana resistant starch
+							- oats (beta-glucans)
+								- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/
+							- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrus pectin)
+							- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
+							- blue agave syrup (the Wholesome brand)
+							- artemisinin
+							- ashwagandha (the Gaia Herbs brand)
+							- milk thistle
+							- coffee (Chameleon coffee is the best brand Ive tried, or chlorogenic acid is similarly powerful as coffee)
+							- wasabi (the S and B brand)
+							- green tea (Tejava Hojicha organic green tea)
+							- berries (for the vitamin K, antioxidants, anti-inflaatory effect), pomegranats, mangoes, mushrooms, cabbage
+								- golden berries/Physalis peruviana are powerful against cancer but make sure to avoid high doses to avoid cardiac/cardiovascular damage and avoid unripe golden berries
+								- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3863561/
+								- https://pmc.ncbi.nlm.nih.gov/articles/PMC9408722/
+							- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
+							- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
+							- the substances that wear off after a while can be cycled on and off to increase the immune response - I waited 2 months in between wasabi doses and it had the same strong immune response again after 2 months
+					- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
+						- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
+						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
+					- if those specific protocols dont work, then you can try substances that are more harsh on your organs (like thunder god vine, cat's claw, kumquats, quercetin, chlorogenic acid, artemisinin, etc), but otherwise avoid these unless you need them and start with fractions of a dose if you need them 
+						- kumquats fight stress and boost natural killer (NK) cells (which get rid of cancer cells and other cells infected by viruses)
+							- kumquats have cyanide in the seeds, like apricots/apples
+					- if these dont work, youll want to keep looking for other pollutants/chemicals you might be exposed to that could cause cancer (like alcohol, excessive sunlight, pesticides, toxic cleaning chemicals, processed food, peanuts/wheat which have agglutinin that can make some cancers worse, potato chips which have acrylamide which can make cancer worse, supplements like beta-sitosterol that can suppress tumor-fighting defenses, arginine/b vitamins/vitamin c/vitamin e/iron/zinc which can feed cancer if taken in supplement or other processed form, etc)
+						- also check if your lifestyle variables like circadian rhythm dysregulation are a cause (if the cancer grows more at night, or days when you dont get sunlight, or in different sleeping postures, or when using a nightlight)
 
 		- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
 			- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
@@ -237,7 +248,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7728158/
 				- https://pubmed.ncbi.nlm.nih.gov/34372592/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10301284/
-			- hpv: garlic, curcumin, indole-3-carbinol, zinc, ashwagandha, green tea, medicinal mushrooms including shiitake/turkey tail/reishi
+			- hpv: garlic, curcumin, indole-3-carbinol, DIM (decreases risk of estrogen-related cancers), zinc, ashwagandha, green tea, medicinal mushrooms including shiitake/turkey tail/reishi, d-mannose, aloe vera (dont use aloe with kidney damage)
 			- Tacaiuma virus (TCMV) and Guama virus (GMAV): mycophenolic acid
 			- mayaro: pyridine
 			- oropouche: acridones, Wedelolactone (false daisy), hops
@@ -262,6 +273,7 @@
 			- smallpox: neem, curcumin derivatives
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/37033493/
 			- avoid: CBD and other immunosuppressants
+			- zika: garlic, ginger, turmeric, vitamin C
 		- other antimicrobials:
 			- isatis tinctoria (dyer's woad, or glastum), ajuga bracteosa (bugleweed)
 		- parasitic infections:
@@ -326,10 +338,10 @@
 				- infrared light, magnesium, glutathione, alpha-lipoic acid, l-carnitine, omega 3s, d-ribose, resveratrol, b vitamins
 				- https://pmc.ncbi.nlm.nih.gov/articles/PMC7738953/
 			- take d-ribose with a NF-κB inhibitor like ashwagandha to avoid NF-κB upregulation by d-ribose, and eat polysaccharides to decrease IL-1beta which can increase with d-ribose
-		- acidosis: 
-			- greens powder, chlorella/algae/chlorophyll, thiamine, glutathione, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
-			- fludrocortisone can help with acidosis if acidosis is caused by hypoaldosteronism
-			- kidney damage treatments like omega-3s can help if acidosis is caused by kidney damage
+		- acidosis or GERD: 
+			- melatonin, greens powder, chlorella/algae/chlorophyll, thiamine, glutathione, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
+			- acidosis caused by hypoaldosteronism: fludrocortisone can help with acidosis if acidosis is caused by hypoaldosteronism
+			- acidosis caused by kidney damage: kidney damage treatments like omega-3s can help if acidosis is caused by kidney damage
 			- Flow water and spring water also helped with acidosis/high blood pressure/stomach pain (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
@@ -444,6 +456,8 @@
 				- https://www.eurekalert.org/news-releases/1054876
 		    - avoid bpc-157 to repair damage bc it can cause cancer
 		    - avoid eating food high in AGEs which can harm heart/kidney health
+		    - ketones/keto diet:
+		    	- a keto diet can help repair organ daage if it is low in salt/other electrolytes/protein (only eat protein from vegetables and some fish, supplemented with repairing amino acids like glutamate, NAC, tyrosine, taurine, glycine, aspartic acid, histidine and carnitine) bc ketones are protective of the kidneys and are easily used by the heart, though ketones can also increase blood pressure so be careful with ketone supplements
 		    - PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
 		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine (not for kidney/liver damage), maca to increase the amount of human growth hormone to recover

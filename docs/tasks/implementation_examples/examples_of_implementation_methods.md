@@ -87,7 +87,6 @@
     - chatgpt should be used to find its own optimal queries, like instead of queries like 'tell me a story', queries like 'do we have enough info to understand reality' and 'what light interactions could invalidate reality' and 'what queries should we be running that you can answer optimally' and 'what do you need to fulfill even more optimal queries' and 'what differences havent been trivially connected yet' and 'what variables should be connected or are optimal to connect (what problems should be solved)'
         - 'what functions are similar' is another good query, go ahead and go to town with that query folks, keep running with that one, thats a good un
 
-
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
     - identify useful structures like 'interactions between solutions to maximal problems' to 'filter relevant graphs'
