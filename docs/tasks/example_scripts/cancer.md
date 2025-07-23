@@ -44,6 +44,7 @@
 							- green banana resistant starch
 							- oats (beta-glucans)
 								- https://pmc.ncbi.nlm.nih.gov/articles/PMC8625765/
+							- syzygium cumini (or similarly clove)
 							- prunella vulgaris (self-heal, which was 100 - 1000x more powerful than a typical brain cancer treatment like modified citrus pectin)
 							- kefir/probiotics (Green Valley and Lifeway brands are good, and Garden of Life probiotics are as well)
 							- blue agave syrup (the Wholesome brand)
@@ -635,16 +636,15 @@
 				- activate NK2R to decrease body weight, blood glucose, triglycerides and cholesterol, and increase insulin resistance
 					- https://www.nature.com/articles/s41586-024-08207-0?error=cookies_not_supported&code=f00cbe60-f805-41fa-9273-f3bce0d8ee4d
 				- natural alternatives to ozempic to boost GLP-1
-					- berberine, tea, curcumin, cinnamon, wheat, soy, resveratrol, and gardenia) and related compounds (PPAR-α agonist fenofibrate, dipeptidyl peptidase-4 inhibitors, Momordica charantia, chlorophyll containing green-plants (like Asparagus, Bell peppers, Broccoli, Brussel sprouts, Green cabbage, Celery, Collard greens, Green beans, Green peas, Kale, Leeks, Green olives, Parsley, Romaine lettuce, Sea vegetables, Spinach, Swiss-chard, Turnip greens, Wheatgrass, Chlorella, Spirulina, Moringa, Mustard greens, Alfalfa, Dill, Broccoli, Kale), exendin-4, Geniposide, Mate tea (Ilex paraguariensis), quercetin, ginger, Artemisia dracunculus, Smallanthus sonchifolius (yacon), Monounsaturated fatty acids, Glutamine, Blueberries
 					- https://pubmed.ncbi.nlm.nih.gov/34981502/
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications - https://en.wikipedia.org/wiki/Diabetic_nephropathy
-				- lower glucose/manage insulin sensitivity: dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, and guar gum
+				- lower glucose/manage insulin sensitivity: broccoli, dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, and guar gum
 					- https://pubmed.ncbi.nlm.nih.gov/38931176/
 				- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
-				- avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs
+				- avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 		- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
@@ -716,12 +716,19 @@
 			- depression
 				- vitamin K, omega 3s, folate, tyrosine
 			- anxiety:
+				- Increased HDAC2 expression decreases the expression of genes important for the maintenance of dendritic spine density such as BDNF, Arc, and NPY, leading to increased anxiety and alcohol-seeking behavior
+					- Nucleus accumbens deep brain stimulation decreases ratings of depression and anxiety in treatment-resistant depression
+					https://pubmed.ncbi.nlm.nih.gov/19914605/
+					- HDAC inhibitors also inhibit the function of accumbal ΔFosB by inducing G9a expression in the nucleus accumbens after prolonged use
+					- HDAC inhibitors include sulforaphane, curcumin, genistein, and cinnamon
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC3092901/
 				- stimulate the vagus nerve: choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- lower side effects of anxiety, like high blood pressure, with beta blockers: Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants
 				- improve kidney/cardiovascular health, which results in hormone dysregulation (vasopressin, angiotensin II, adrenaline, cortisol, estrogen), which are hormones that can cause anxiety
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC3312460/ - 'The link between angiotensin II-mediated anxiety and mood disorders with NADPH oxidase-induced oxidative stress'
 				- increase GABA
 					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC9500625/
 				- change HPA axis
 				    - increase IL-1/6/10/tnf-a to activate the HPA axis to handle stress/anxiety
 				        - increase tnf-α (coconut, astragalus)
@@ -768,7 +775,7 @@
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
 				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
 		- skin problems:
-			- inflammation: infrared light therapy, saw palmetto, zinc, vitamin c, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
+			- inflammation: infrared light therapy, saw palmetto, zinc, vitamin c, copper, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
 			- elasticity: infrared light/heat therapy, collagen, hormones like estrogen/progesterone, hyaluronic acid, senolytics, antioxidants, anti-fibrotics, anti-inflammatory substances, berries, salmon/omega 3s, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
 			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
