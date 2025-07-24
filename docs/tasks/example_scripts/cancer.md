@@ -761,9 +761,9 @@
 				- avoid triggers like erythritol, saturated fat, salt, alcohol, smoking, and inflammatory foods
 			- dementia: 
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
-				- also use an anti-inflammatory diet and avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
+				- also use an anti-inflammatory diet including eggs/choline and avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
 			- alzheimers: 
-				- 40hz waves, blarcamesine, hibiscus, policosanol, uridine, choline, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like lycopene/beta-carotene, resveratrol, DDL-920
+				- 40hz waves, a diet including eggs/choline, blarcamesine, hibiscus, policosanol, uridine, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like lycopene/beta-carotene, resveratrol, DDL-920
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation (use an anti-inflammatory diet) and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 				- treat high blood pressure which is a risk factor for alzheimer's
@@ -815,6 +815,9 @@
         		- proteolytic enzymes such as bromelain, trypsin, chymotrypsin, and papain may be useful to prevent metastasis
         			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8067380/
         		- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw can damage kidneys so be careful with the dose)
+        		- aripiprazole is highly active against breast, colorectal, lung, and brain cancers in multiple ways
+        			- it modulates key pathways like PI3K/AKT/mTOR and Wnt/β‐catenin, induces apoptosis through mitochondrial dysfunction and ER stress, and overcomes drug resistance by inhibiting P‐glycoprotein activity and expression
+        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11821285/
         		- other strategies especially for brain cancer include using pollution-filtering air purifiers/masks, avoiding noise pollution, reverse osmosis water purifiers, sitting up at an angle rather than lying down flat for patients with brain cancer (who also have other conditions like acidosis that might exacerbate brain cancer when lying down), devices like magnetic oscillators or electric field devices, etc
         		- correct hormone imbalances to help your immune system fight cancer, since hormonal imbalances like 'cortisol/DHEA/aldosterone deficiencies' can cause or increase cancer growth
         		- keto diet with P-eIF4E inhibitors to prevent cancer from using ketones for energy
