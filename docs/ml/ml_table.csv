@@ -1,13 +1,19 @@
 Algorithm,Type,Math Function,Parameters,Explanation or Solution,Advantages,Disadvantages,Accuracy,Generalizability,Robustness,Computational Efficiency,Interpretability,Complexity,Data Requirements,Ethical Considerations,Supervised or Unsupervised,Requirements (scaling, standardization),Loss Function
 
-Linear Regression,Regression,J(θ) = (1/2m) * Σ(h(xᵢ) - yᵢ)²,Objective is to minimize mean squared error,Simple and interpretable,Assumes linearity and low multicollinearity between features and independence and normal distribution of errors and few outliers,Medium,High,Medium,High,High,Low,Medium,Low,Supervised,,Mean Squared Error
+Linear Regression,Regression,y = ax + b,,Objective is to minimize mean squared error,Simple and interpretable,Assumes linearity and low multicollinearity between features and independence and normal distribution of errors and few outliers,Medium,High,Medium,High,High,Low,Medium,Low,Supervised,,Mean Squared Error: J(θ) = (1/2m) * Σ(hypothesis(xᵢ) - yᵢ)²
+Logistic Regression,Classification,p(y = 1|X) = 1/(1 + e^-(B0 + B1*x + other coefficients of logistic regression model)),,,Probabilistic output,Struggles with non-linear data,Medium,High,Medium,High,High,Low,Medium,Low,Supervised,,Binary Cross Entropy Loss or Log/Logistic Loss
+Polynomial Regression,Regression,y = a0 + a1x + a2x2 + … + anxn + ϵ,ϵ is the error term representing deviations between predicted and actual values,used when the input/output relationship is nonlinear and can be approximated by a polynomial
 
-Logistic Regression,Classification,J(θ) = -(1/m) * Σ[yᵢ log(h(xᵢ)) + (1 - yᵢ) log(1 - h(xᵢ))],,Probabilistic output,Struggles with non-linear data,Binary cross-entropy loss,,,Medium,High,Medium,High,High,Low,Medium,Low,Supervised,,Cross Entropy Loss
-Polynomial Regression,Regression,,,used when the input/output relationship is nonlinear and can be approximated by a polynomial
-Support Vector Machine,Classification,J(w, b) = (1/2)||w||² + C Σ max(0, 1 - yᵢ(w·xᵢ + b)),Hinge loss + regularization,Works in high-dimensions,Hard to tune and less scalable,,,High,High,High,Medium,Medium,Medium,High,Medium,Supervised,,Hinge Loss
-Support Vector Regression (SVR),Regression,,,Uses margin-based optimization like SVM
-SVM Kernel,Algorithm Sub-function
+Hard-margin Support Vector Machine,Classification,minimize (1/2)||w||² subject to yᵢ(w·xᵢ + b),normal vector w,Hinge loss + regularization,Works in high-dimensions and particularly good for binary classification,Hard to tune and less scalable,,,High,High,High,Medium,Medium,Medium,High,Medium,Supervised,,Hinge Loss
+Soft-margin Support Vector Machine,Classification,J(w, b) = λ * ||w||² + C * 1/n * Σ max(0, 1 - yᵢ(w·xᵢ + b)),normal vector w,where choosing a sufficiently small value for λ yields the hard-margin classifier for linearly classifiable input data and the soft-margin SVM behaves similar to hard-margin SVM for large values of C,Hinge loss + regularization,Works in high-dimensions and particularly good for binary classification and useful when data is not linearly separable,Hard to tune and less scalable,,,High,High,High,Medium,Medium,Medium,High,Medium,Supervised,,Hinge Loss
+Support Vector Regression (SVR),Regression,minimize (1/2)||w||² subject to |yᵢ - inner_product(w·xᵢ) - intercept b) <= ϵ,,Uses margin-based optimization like SVM
+SVM Kernel,Function Type,,,feature mapping function
+Gaussian Radial Basis Function Kernel,,k(xi,xj) = exp(-γ||xi - xj||^2)
+Polynomial Kernel,,k(xi,xj) = (xi * xj) ^ d
+Sigmoid function kernel (hyperbolic tangent),,k(xi,xj) = tanh(κ * xi * xj + c)
+
 Naive Bayes,Classification,P(y|x) ∝ P(y) * Π P(xᵢ|y),Bayes’ Theorem with conditional independence,Fast and works well with text,Assumes Independence,Low,Low,Low,High,High,Low,Low,Low,Supervised,,No loss (probability-based)
+Hinge Loss,Classification,max(0, 1 - yᵢ(w·xᵢ + b))
 
 Embedded Method,Feature Selection Method,,,Embedded methods perform feature selection during the model training process and combine the benefits of both filter and wrapper methods, where feature selection is integrated into the model training allowing the model to select the most relevant features based on the training process dynamically,More efficient than wrapper methods because the feature selection process is embedded within model training and is often more scalable than wrapper methods and Wrapper and embedded methods are better for capturing complex feature interactions,Works with a specific learning algorithm so the feature selection might not work well with other models
 L1 (Lasso) Regression,Feature Selection Embedded Method and Regression and Regularization,,,A regularized variant of regression that adds a penalty to the loss function to prevent overfitting thereby applying L1 regularization to encourage sparsity in the model where features with non-zero coefficients are considered important and where methods like Lasso are more suitable for certain models like linear models and where lasso can shrink coefficients to zero
@@ -17,16 +23,19 @@ Decision Tree Classifier,Classification and Feature Selection Embedded Method,Gi
 Decision Tree Regressor,Regression,,,,,,,,,,,,,,Supervised,,Mean Squared Error
 Random Forest Classifier,Classification and Feature Selection Embedded Method that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees,,,Robust and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain,Slower and less interpretable,High,High,High,Medium-High,Low,High,Low-Medium,Low,Supervised,,Gini Impurity or Information Gain
 Random Forest Regressor,Regression,,,,,,,,,,,,,,Supervised,,Mean Squared Error
-K-Nearest Neighbors,Classification and Regression,d(x, xᵢ) = √Σ(xⱼ - xᵢⱼ)² (Euclidean),Distance metric for neighbor selection,No training phase,Slow at prediction time,Medium,Medium,Medium,High,Low,High,Medium,Low,Supervised,,No loss
+K-Nearest Neighbors,Classification and Regression,d(xᵢ, xⱼ) = √Σ(xⱼ - xⱼ)² (Euclidean distance between xᵢ and xⱼ),Distance metric for neighbor selection,No training phase,Slow at prediction time,Medium,Medium,Medium,High,Low,High,Medium,Low,Supervised,,No loss
 
-K-Means,Clustering,Σ||xᵢ - μ_k||² (for each cluster k),Minimize within-cluster variance,Simple and scalable,Needs K specified and spherical classes and is sensitive to noise,Low,Low,Low,High,Low,High,Low,Low,Unsupervised,,Sum of squared errors
+Euclidean distance,K-nearest neighbors function,,,
+
+K-Means,Clustering,Σk in K, Σx in Sk ||xᵢ - μ_k||² (for each cluster k),where Sk is the set of points in cluster k, and μ_k is the centroid of cluster k,Minimize within-cluster variance,Simple and scalable,Needs K specified and spherical classes and is sensitive to noise,Low,Low,Low,High,Low,High,Low,Low,Unsupervised,,Sum of squared errors
 DBSCAN,Clustering,ε-neighborhood, density ≥ minPts,Cluster defined by density regions,Handles noise and arbitrary shapes,Struggles with different densities
 Hierarchical Clustering,Clustering,d(A,B) = min/max/avg ||a - b||,Agglomerative clustering based on distance linkage,Dendogram visualization and no need to specify k,Computationally expensive,Low,Low,Low,Low,Low,High,Low,Low,Unsupervised,,Distance-metric based
+Within-Cluster Sum of Squares - WCSS,K-means clustering objective function,Σk Σx ||xᵢ - μ_k||²,where Sk is the set of points in cluster k, and μ_k is the centroid of cluster k
 
 Neural Networks,Classification,J(θ) = (1/m) Σ Loss(yᵢ, ŷᵢ),Backpropagation minimizes loss via gradient descent,,,,,,,,,,,,Cross entropy loss
 Neural Networks,Regression,J(θ) = (1/m) Σ Loss(yᵢ, ŷᵢ),Backpropagation minimizes loss via gradient descent,,,,,,,,,,,,Mean squared error
 Gradient Descent,Algorithm Sub-function
-Backpropagation,Algorithm Sub-function,
+Backpropagation,Neural network algorithm sub-function,,,applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
 Reinforcement Learning,,Q(s, a) ← Q(s, a) + α[r + γ max Q(s’, a’) - Q(s, a)],Bellman equation update
 Recurrent Neural Networks (RNNs),,,handle sequential data by maintaining a memory of previous inputs and used for Sequence Modeling and Time Series Prediction and Natural Language Processing,,Struggle with long-term dependencies and have vanishing gradients (solved by LSTM and Gated Recurrent Unit),High,Medium-High,Medium-High,Low-Medium,Low,High,High,Low
 Q-Learning,Reinforcement Learning,,,,,,Medium,Medium,Medium,Medium,Medium,High,High,Medium
@@ -56,6 +65,8 @@ Statistical independence,Concept,,,refers to the idea that two random variables:
 Isomap,Dimensionality Reduction,,,Preserves geodesic distances to capture non-linear structures in data
 Locally Linear Embedding (LLE),Dimensionality Reduction,,,Preserves local relationships by reconstructing data points from their neighbors
 Latent Semantic Analysis (LSA),Dimensionality Reduction,,,Reduces the dimensionality of text data to reveal hidden patterns
+Covariance Matrix,matrix used in PCA,,,summarizes relationships between different variables
+Eigenvectors/eigenvalues,matrix attributes used in PCA,,,the principal components are the eigenvectors of the covariance matrix and the eigenvalues represent the variance explained by each component where the objective is to find the eigenvectors of the largest eigenvalues
 
 Scaling
 z-score,Evaluation Metric,z = (x - mean)/standard deviation,,Standardizes x value
@@ -81,24 +92,28 @@ Silhouette Score,Clustering Evaluation Metric
 Learning Curve,Function Type,,,Compares how well increasingly large training sets perform on the same test set to evaluate if the model would benefit from more data where if the validation accuracy increases with training set size it indicates underfitting and that more data would be useful and where a gap in training and test set accuracy indicates overfitting and where additional data can decrease both underfitting and overfitting
 
 Loss/error functions,Function Type,,,Quantifies how well one prediction of the machine learning algorithm compares to the actual target value during training thereby providing the signal for the model's learning algorithm to update weights and parameters
-Log Loss
+Log Loss,Regression Evaluation Metric,-ln(pk) if yk = 1 and -ln(1 - pk) if yk = 0
 R-squared loss,Regression Evaluation Metric
 Mean Absolute Error,Regression Evaluation Metric
 Mean Squared Error,Regression Evaluation Metric
 Mean Absolute Percentage Error,Regression Evaluation Metric,,,Used to express the error in terms of percentage, where the smaller the percentage the better the model performance
 Root Mean Squared Error,Regression Evaluation Metric,,,Indicates how much the data points are spread around the best line and is the standard deviation of the MSE, where lower value means that the data point lies closer to the best fit line.
 Root Log Mean Squared Error,Regression Evaluation Metric
+
+Entropy,Algorithm Sub-function,Entropy = -Σ(pᵢ log₂ pᵢ),pᵢ is the proportion of the dataset belonging to class i,entropy encodes the number of info bits required to represent information
 Cross entropy,Function Type,CE(y,p)=−1/n * ∑y(i)×log(p(i)),class label y and predicted probability p,Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
+Gini Impurity,Algorithm Sub-function,Gini = 1 - Σ(pᵢ)²,
+Information Gain,Feature Selection Filter Method,,,Measures how well an attribute reduces uncertainty where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty) in a set S which is calculated using the difference in entropy before and after the split
+Gain Ratio,Algorithm Sub-function,,,Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values,
+Cross Entropy Loss,,J(θ) = -(1/m) * Σ[yᵢ log(h(xᵢ)) + (1 - yᵢ) log(1 - h(xᵢ))]
 Binary Cross Entropy Loss
 Multinomial Cross Entropy Loss
-Shannon Cross Entropy Loss
+Shannon Entropy,,information(x) = -log(p(x)),log is the base 2 log or natural log and p(x) is the probability of event x
 Renyi Cross Entropy Loss (generalization of Shannon)
-Kullback-Leibler Divergence,Regression Evaluation Metric,,,Evaluates difference between two probability distributions
+Kullback-Leibler Divergence (Relative Entropy),Regression Evaluation Metric,,,Evaluates difference between two probability distributions
 
-Entropy,Algorithm Sub-function,Entropy = -Σ(pᵢ log₂ pᵢ),
-Gini Impurity,Algorithm Sub-function,Gini = 1 - Σ(pᵢ)²,
-Information Gain,Feature Selection Filter Method,,,Measures how well an attribute reduces uncertainty so an algorithm would split data based on which attribute maximizes information gain (reduces uncertainty) in a set S which is calculated using the difference in entropy before and after the split
-Gain Ratio,Algorithm Sub-function,,,Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values,
+Hyperparameters,Variable Type
+Learning Rate,Hyperparameter,,,Learning rate determines the jump interval for gradient descent
 Chi-square test,Feature Selection Filter Method,,,It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
 Fisher’s Score,Feature Selection Filter Method,,,Fisher's selects each feature independently according to their scores under Fisher criterion leading to an optimal set of features so a larger the Fisher’s score indicates a better selected feature
 Pearson’s Correlation Coefficient,Feature Selection Filter Method,,,pearon's coefficient is a measure of quantifying the association between the two continuous variables and the direction of the relationship with its values ranging from -1 to 1
@@ -129,6 +144,7 @@ LIME,Model Interpretability
 Feature importance plots,Model Interpretability
 
 Activation functions,Function Type,,,Specifies whether a neural network node should be activated thereby allowing that set of weights to contribute to the model
+Step,Activation function,1 if ∑n wi * xi + b > 0, 0 otherwise
 ReLU,Activation function,
 Softmax,Activation function,
 Tanh,Activation function,
@@ -204,3 +220,4 @@ Sources
 https://medium.com/coders-camp/40-machine-learning-algorithms-with-python-3defd764b961
 https://sebastianraschka.com/books/ml-q-and-ai/#table-of-contents
 https://github.com/Tanu-N-Prabhu/Python/tree/master/Machine%20Learning%20Interview%20Prep%20Questions
+https://machinelearningmastery.com/
