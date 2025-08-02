@@ -1,4 +1,4 @@
-Algorithm	Type	Math Function	Parameters	Explanation or Solution	Advantages	Disadvantages	Supervised or Unsupervised	Requirements	Loss Function
+Algorithm	Type	Math Function	Parameters	Explanation	Advantages	Disadvantages	Supervised or Unsupervised	Requirements	Loss Function
 
 Linear Regression	Regression	y = ax + b		Objective is to minimize mean squared error	Simple and interpretable	Assumes linearity and low multicollinearity between features and independence and normal distribution of errors and few outliers	Supervised		Mean Squared Error
 Logistic Regression	Classification	p(y = 1|X) = 1/(1 + e^-(B0 + B1*x + other coefficients of logistic regression model))			Probabilistic output	Struggles with non-linear data	Supervised		Binary Cross Entropy Loss or Log/Logistic Loss
@@ -36,12 +36,26 @@ Lasso Regression	Regression	A regression model that uses Lasso regularization to
 L2 (Ridge) Regularization	Feature Selection Embedded Method and Regression and Regularization	loss = 1/n * Σ(actual yi - predicted yi)^2 for all n examples + lambda * Σ wi^2 for all m features	A regularized variant of regression that adds a squared w coefficient penalty to the loss function to prevent overfitting and handles multicollinearity by shrinking coefficients of correlated features instead of eliminating them
 Elastic Net Regression	Regression	Elastic Net Regression combines L1 and L2 regularization in adding the absolute norm of the weights and the squared measure of the weights with a mixing parameter alpha where 1 is lasso, 0 is ridge and other values are both lasso and ridge: Loss = 1/n Σ(actual yi - predicted yi)^2 + lambda * ((1 - alpha) * Σ|wi| for all m features + alpha * Σ wi^2 for all m features)
 
-Decision Tree Classifier	Classification and Feature Selection Embedded Method	Gini = 1 - Σ(pᵢ)² or Entropy = -Σ(pᵢ log₂ pᵢ)	Impurity functions to choose best splits	Easy to interpret and fast and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain	Prone to overfitting	Supervised		Gini Impurity or Information Gain
+Decision Tree Classifier	Classification and Feature Selection Embedded Method	Gini = 1 - Σ(pᵢ)² or Entropy = -Σ(pᵢ log₂ pᵢ)	Uses an entropy/impurity function to choose best splits	Easy to interpret and fast and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain 	Doesn't require scaling or normalizing the data and handles non-linear relationships and missing data	Prone to overfitting if too deep and are often inaccurate and instable/volatile and cant capture complex interactions and information gain is biased towards features with many categories and computationally expensive	Supervised		Entropy, Gini Impurity or Information Gain
 Decision Tree Regressor	Regression		Supervised		Mean Squared Error
-Random Forest Classifier	Classification and Feature Selection Embedded Method that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees			Robust and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain	Slower and less interpretable	Supervised		Gini Impurity or Information Gain
+Random Forest Classifier	Classification and Feature Selection Embedded Method that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees			Robust to outliers and handles missing data by binning and doesnt require scaling or normalization and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain	Slower and less interpretable and sensitive to imbalanced data and random forests also do not generally perform well when given sparse data with little variability	Supervised		Entropy, Gini Impurity or Information Gain
 Random Forest Regressor	Regression		Supervised		Mean Squared Error
-K-Nearest Neighbors	Classification and Regression	d(xᵢ	 xⱼ) = √Σ(xⱼ - xⱼ)² (Euclidean distance between xᵢ and xⱼ)	Distance metric for neighbor selection	No training phase	Slow at prediction time	Supervised		No loss
-Euclidean distance	Distance metric			
+Bagging	Algorithm type 	The bootstrapping procedure (repeatedly selecting a random sample with replacement of the training set and fitting a model to these samples then averaging for regression or selecting the majority vote for classification) leads to better model performance because it decreases the variance of the model, without increasing the bias 	Bagging leads to improvements for unstable procedures which include artificial neural networks, classification and regression trees, and subset selection in linear regression	Bagging can mildly degrade the performance of stable methods such as k-nearest neighbors
+Binning	Bagging/Random Forest function 	Binning involves grouping values together to avoid values that are far apart
+K-Nearest Neighbors	Classification and Regression	Uses euclidean distance metric for continuous neighbor selection, uses overlap distance for discrete data or uses pearson's correlation coefficient	and the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms such as Large Margin Nearest Neighbor or Neighbourhood components analysis	No training phase	Slow at prediction time	Supervised		No loss
+Euclidean distance between two points	Continuous distance metric		in two dimensions, the distance d(p,q) = √((p1 - q1)^2 + (p2 - q2)^2)	A commonly used distance metric for continuous variables is Euclidean distance
+Hamming distance (overlap metric)	Discrete distance metric
+Entropy	Information uncertainty function	Entropy = -Σ(pᵢ log₂ pᵢ) where pᵢ is the proportion of the dataset belonging to class i	entropy encodes the number of info bits required to represent information and a decision tree tries to reduce the entropy by splitting the data on features that provide the most information about the target variable
+Cross Entropy Loss	Function Type	J(θ) = -(1/m) * Σ[yᵢ log(h(xᵢ)) + (1 - yᵢ) log(1 - h(xᵢ))]	class label y and predicted probability p	Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
+Binary Cross Entropy Loss
+Multinomial Cross Entropy Loss
+Shannon Entropy		information(x) = -log(p(x))	log is the base 2 log or natural log and p(x) is the probability of event x
+Renyi Cross Entropy Loss (generalization of Shannon)
+Kullback-Leibler Divergence (Relative Entropy)	Regression Evaluation Metric			Evaluates difference between two probability distributions
+Gini Impurity	Information impurity function	Gini = 1 - Σ(pᵢ)²	 The lower the Gini Impurity the better the feature splits the data into distinct categories
+Information Gain	Feature Selection Filter Method	information gain = entropy of a node of the decision tree minus the entropy of a candidate split at node t of a decision tree	Measures how well an attribute reduces uncertainty/entropy where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty/entropy) in a set S which is calculated using the difference in entropy before and after the split	it tends to choose the most impactful features close to the root of the tree and is a good measure for deciding the relevance of some features	One major drawback of information gain is that the feature that is chosen as the next node in the tree tends to have more unique values
+Phi function 	Decision tree split function 	phi = 2 * PL * PR * Q(s|t) 	the phi function decides relevance based on goodness of a split at a node and the phi function is maximized when the chosen feature splits the samples in a way that produces homogenous splits and have around the same number of samples in each split
+Gain Ratio	Algorithm Sub-function			Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values
 
 K-Means	Clustering	Σk in K	 Σx in Sk ||xᵢ - μ_k||² (for each cluster k)	where Sk is the set of points in cluster k	 and μ_k is the centroid of cluster k	Minimize within-cluster variance	Simple and scalable	Needs K specified and spherical classes and is sensitive to noise	Unsupervised		Sum of squared errors
 DBSCAN	Clustering	ε-neighborhood	 density ≥ minPts	Cluster defined by density regions	Handles noise and arbitrary shapes	Struggles with different densities
@@ -115,17 +129,6 @@ Mean Absolute Percentage Error	Regression Evaluation Metric			Used to express th
 Root Mean Squared Error	Regression Evaluation Metric			Indicates how much the data points are spread around the best line and is the standard deviation of the MSE	 where lower value means that the data point lies closer to the best fit line.
 Root Log Mean Squared Error	Regression Evaluation Metric
 
-Entropy	Algorithm Sub-function	Entropy = -Σ(pᵢ log₂ pᵢ)	pᵢ is the proportion of the dataset belonging to class i	entropy encodes the number of info bits required to represent information
-Cross Entropy Loss	Function Type	J(θ) = -(1/m) * Σ[yᵢ log(h(xᵢ)) + (1 - yᵢ) log(1 - h(xᵢ))]	class label y and predicted probability p	Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
-Binary Cross Entropy Loss
-Multinomial Cross Entropy Loss
-Shannon Entropy		information(x) = -log(p(x))	log is the base 2 log or natural log and p(x) is the probability of event x
-Renyi Cross Entropy Loss (generalization of Shannon)
-Kullback-Leibler Divergence (Relative Entropy)	Regression Evaluation Metric			Evaluates difference between two probability distributions
-Gini Impurity	Algorithm Sub-function	Gini = 1 - Σ(pᵢ)²	
-Information Gain	Feature Selection Filter Method			Measures how well an attribute reduces uncertainty where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty) in a set S which is calculated using the difference in entropy before and after the split
-Gain Ratio	Algorithm Sub-function			Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values	
-
 Hyperparameters	Variable Type
 Learning Rate	Hyperparameter			Learning rate determines the jump interval for gradient descent
 Chi-square test	Feature Selection Filter Method			It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
@@ -197,7 +200,7 @@ Look-ahead optimizers	Reducing overfitting with model modifications
 Stochastic weight averaging	Reducing overfitting with model modifications
 Multitask learning	Reducing overfitting with model modifications
 Snapshot ensemble	Reducing overfitting with model modifications
-Bagging	Algorithm Type	
+
 Boosting	Algorithm Type	
 Gradient Boosting Regressor	Regression and Feature Selection Embedded Method	L = ΣL(yᵢ	 F(xᵢ))	Sequentially minimize loss (e.g.	 MSE	 Log Loss) where like random forests gradient boosting models select important features while building trees by prioritizing features that reduce error the most			Supervised		Mean Squared Error
 Gradient Boosting Classification	Classification and Feature Selection Embedded MethodSupervised		Cross Entropy Loss
@@ -240,3 +243,4 @@ https://sebastianraschka.com/books/ml-q-and-ai/#table-of-contents
 https://github.com/Tanu-N-Prabhu/Python/tree/master/Machine%20Learning%20Interview%20Prep%20Questions
 https://machinelearningmastery.com/
 https://www.cs.jhu.edu/~ayuille/courses/Stat161-261-Spring14/RevisedLectureNotes2.pdf#:~:text=Hence%20the%20form%20of%20the%20decision%20rule%20%28i.e.	is%20at%20xML%20%3D%201%3D2%28%201%20%2B%201%29.
+https://www.geeksforgeeks.org/machine-learning/decision-tree/
