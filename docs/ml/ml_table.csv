@@ -1,53 +1,52 @@
-Algorithm,Type,Math Function,Parameters,Explanation or Solution,Advantages,Disadvantages,Accuracy,Generalizability,Robustness,Computational Efficiency,Interpretability,Complexity,Data Requirements,Ethical Considerations,Supervised or Unsupervised,Requirements (scaling, standardization),Loss Function
+Algorithm,Type,Math Function,Parameters,Explanation or Solution,Advantages,Disadvantages,Supervised or Unsupervised,Requirements,Loss Function
 
-Linear Regression,Regression,y = ax + b,,Objective is to minimize mean squared error,Simple and interpretable,Assumes linearity and low multicollinearity between features and independence and normal distribution of errors and few outliers,Medium,High,Medium,High,High,Low,Medium,Low,Supervised,,Mean Squared Error: J(θ) = (1/2m) * Σ(hypothesis(xᵢ) - yᵢ)²
-Logistic Regression,Classification,p(y = 1|X) = 1/(1 + e^-(B0 + B1*x + other coefficients of logistic regression model)),,,Probabilistic output,Struggles with non-linear data,Medium,High,Medium,High,High,Low,Medium,Low,Supervised,,Binary Cross Entropy Loss or Log/Logistic Loss
+Linear Regression,Regression,y = ax + b,,Objective is to minimize mean squared error,Simple and interpretable,Assumes linearity and low multicollinearity between features and independence and normal distribution of errors and few outliers,Supervised,,Mean Squared Error
+Logistic Regression,Classification,p(y = 1|X) = 1/(1 + e^-(B0 + B1*x + other coefficients of logistic regression model)),,,Probabilistic output,Struggles with non-linear data,Supervised,,Binary Cross Entropy Loss or Log/Logistic Loss
 Polynomial Regression,Regression,y = a0 + a1x + a2x2 + … + anxn + ϵ,ϵ is the error term representing deviations between predicted and actual values,used when the input/output relationship is nonlinear and can be approximated by a polynomial
 
-Hard-margin Support Vector Machine,Classification,minimize (1/2)||w||² subject to yᵢ(w·xᵢ + b),normal vector w,Hinge loss + regularization,Works in high-dimensions and particularly good for binary classification,Hard to tune and less scalable,,,High,High,High,Medium,Medium,Medium,High,Medium,Supervised,,Hinge Loss
-Soft-margin Support Vector Machine,Classification,J(w, b) = λ * ||w||² + C * 1/n * Σ max(0, 1 - yᵢ(w·xᵢ + b)),normal vector w,where choosing a sufficiently small value for λ yields the hard-margin classifier for linearly classifiable input data and the soft-margin SVM behaves similar to hard-margin SVM for large values of C,Hinge loss + regularization,Works in high-dimensions and particularly good for binary classification and useful when data is not linearly separable,Hard to tune and less scalable,,,High,High,High,Medium,Medium,Medium,High,Medium,Supervised,,Hinge Loss
+Hard-margin Support Vector Machine,Classification,minimize (1/2)||w||² subject to yᵢ(w·xᵢ + b),normal vector w,Hinge loss + regularization,Works in high-dimensions and particularly good for binary classification,Hard to tune and less scalable,,,Supervised,,Hinge Loss
+Soft-margin Support Vector Machine,Classification,minimize J(w, b) = λ * ||w||² + C * 1/n * Σ max(0, 1 - yᵢ(w·xᵢ - b)),normal vector w,where choosing a sufficiently small value for λ yields the hard-margin classifier for linearly classifiable input data and the soft-margin SVM behaves similar to hard-margin SVM for large values of C,Hinge loss + regularization,Works in high-dimensions and particularly good for binary classification and useful when data is not linearly separable,Hard to tune and less scalable,Supervised,,Hinge Loss
 Support Vector Regression (SVR),Regression,minimize (1/2)||w||² subject to |yᵢ - inner_product(w·xᵢ) - intercept b) <= ϵ,,Uses margin-based optimization like SVM
-SVM Kernel,Function Type,,,feature mapping function
+Kernel Trick,Function Type,,,feature mapping function that represents data through a set of pairwise similarity comparisons between original data points with a kernel function, which transforms them into coordinates in a higher-dimensional feature space with linearly separable features
 Gaussian Radial Basis Function Kernel,,k(xi,xj) = exp(-γ||xi - xj||^2)
 Polynomial Kernel,,k(xi,xj) = (xi * xj) ^ d
-Sigmoid function kernel (hyperbolic tangent),,k(xi,xj) = tanh(κ * xi * xj + c)
+Sigmoid kernel (hyperbolic tangent),,k(xi,xj) = tanh(κ * xi * xj + c)
 
-Naive Bayes,Classification,P(y|x) ∝ P(y) * Π P(xᵢ|y),Bayes’ Theorem with conditional independence,Fast and works well with text,Assumes Independence,Low,Low,Low,High,High,Low,Low,Low,Supervised,,No loss (probability-based)
+Naive Bayes,Classification,P(y|x) ∝ P(y) * Π P(xᵢ|y),Bayes’ Theorem with conditional independence,Fast and works well with text,assumes information about the target class provided by each variable is unrelated to the information from the others variables with no information shared between the predictors,Supervised,,No loss (probability-based)
 Hinge Loss,Classification,max(0, 1 - yᵢ(w·xᵢ + b))
 
+Data and parameter preprocessing,Algorithm Type,standardize data with scaling then graph data then create relevant features then identify importance/relevance of features then filter features by importance/relevance then select model then select model hyperparameters then select training parameters
+Data postprocessing,Algorithm Type,analyze scores related to model then analyze for errors in model preprocessing or training then analyze for input/concept/output/domain drift
 Embedded Method,Feature Selection Method,,,Embedded methods perform feature selection during the model training process and combine the benefits of both filter and wrapper methods, where feature selection is integrated into the model training allowing the model to select the most relevant features based on the training process dynamically,More efficient than wrapper methods because the feature selection process is embedded within model training and is often more scalable than wrapper methods and Wrapper and embedded methods are better for capturing complex feature interactions,Works with a specific learning algorithm so the feature selection might not work well with other models
 L1 (Lasso) Regression,Feature Selection Embedded Method and Regression and Regularization,,,A regularized variant of regression that adds a penalty to the loss function to prevent overfitting thereby applying L1 regularization to encourage sparsity in the model where features with non-zero coefficients are considered important and where methods like Lasso are more suitable for certain models like linear models and where lasso can shrink coefficients to zero
 L2 (Ridge) Regularization,Feature Selection Embedded Method and Regression and Regularization,,,A regularized variant of regression that adds a penalty to the loss function to prevent overfitting
 
-Decision Tree Classifier,Classification and Feature Selection Embedded Method,Gini = 1 - Σ(pᵢ)² or Entropy = -Σ(pᵢ log₂ pᵢ),Impurity functions to choose best splits,Easy to interpret and fast and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain,Prone to overfitting,High,Medium,Low,Medium,Medium,Medium,Low-Medium,Low,Supervised,,Gini Impurity or Information Gain
-Decision Tree Regressor,Regression,,,,,,,,,,,,,,Supervised,,Mean Squared Error
-Random Forest Classifier,Classification and Feature Selection Embedded Method that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees,,,Robust and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain,Slower and less interpretable,High,High,High,Medium-High,Low,High,Low-Medium,Low,Supervised,,Gini Impurity or Information Gain
-Random Forest Regressor,Regression,,,,,,,,,,,,,,Supervised,,Mean Squared Error
-K-Nearest Neighbors,Classification and Regression,d(xᵢ, xⱼ) = √Σ(xⱼ - xⱼ)² (Euclidean distance between xᵢ and xⱼ),Distance metric for neighbor selection,No training phase,Slow at prediction time,Medium,Medium,Medium,High,Low,High,Medium,Low,Supervised,,No loss
-
+Decision Tree Classifier,Classification and Feature Selection Embedded Method,Gini = 1 - Σ(pᵢ)² or Entropy = -Σ(pᵢ log₂ pᵢ),Impurity functions to choose best splits,Easy to interpret and fast and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain,Prone to overfitting,Supervised,,Gini Impurity or Information Gain
+Decision Tree Regressor,RegressionSupervised,,Mean Squared Error
+Random Forest Classifier,Classification and Feature Selection Embedded Method that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees,,,Robust and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain,Slower and less interpretable,Supervised,,Gini Impurity or Information Gain
+Random Forest Regressor,RegressionSupervised,,Mean Squared Error
+K-Nearest Neighbors,Classification and Regression,d(xᵢ, xⱼ) = √Σ(xⱼ - xⱼ)² (Euclidean distance between xᵢ and xⱼ),Distance metric for neighbor selection,No training phase,Slow at prediction time,Supervised,,No loss
 Euclidean distance,K-nearest neighbors function,,,
 
-K-Means,Clustering,Σk in K, Σx in Sk ||xᵢ - μ_k||² (for each cluster k),where Sk is the set of points in cluster k, and μ_k is the centroid of cluster k,Minimize within-cluster variance,Simple and scalable,Needs K specified and spherical classes and is sensitive to noise,Low,Low,Low,High,Low,High,Low,Low,Unsupervised,,Sum of squared errors
+K-Means,Clustering,Σk in K, Σx in Sk ||xᵢ - μ_k||² (for each cluster k),where Sk is the set of points in cluster k, and μ_k is the centroid of cluster k,Minimize within-cluster variance,Simple and scalable,Needs K specified and spherical classes and is sensitive to noise,Unsupervised,,Sum of squared errors
 DBSCAN,Clustering,ε-neighborhood, density ≥ minPts,Cluster defined by density regions,Handles noise and arbitrary shapes,Struggles with different densities
-Hierarchical Clustering,Clustering,d(A,B) = min/max/avg ||a - b||,Agglomerative clustering based on distance linkage,Dendogram visualization and no need to specify k,Computationally expensive,Low,Low,Low,Low,Low,High,Low,Low,Unsupervised,,Distance-metric based
+Hierarchical Clustering,Clustering,d(A,B) = min/max/avg ||a - b||,Agglomerative clustering based on distance linkage,Dendogram visualization and no need to specify k,Computationally expensive,Unsupervised,,Distance-metric based
 Within-Cluster Sum of Squares - WCSS,K-means clustering objective function,Σk Σx ||xᵢ - μ_k||²,where Sk is the set of points in cluster k, and μ_k is the centroid of cluster k
 
-Neural Networks,Classification,J(θ) = (1/m) Σ Loss(yᵢ, ŷᵢ),Backpropagation minimizes loss via gradient descent,,,,,,,,,,,,Cross entropy loss
-Neural Networks,Regression,J(θ) = (1/m) Σ Loss(yᵢ, ŷᵢ),Backpropagation minimizes loss via gradient descent,,,,,,,,,,,,Mean squared error
-Gradient Descent,Algorithm Sub-function
-Backpropagation,Neural network algorithm sub-function,,,applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
+Neural Networks,Classification,J(θ) = (1/m) Σ Loss(yᵢ, ŷᵢ),Backpropagation minimizes loss via gradient descent,,,,Cross entropy loss
+Neural Networks,Regression,J(θ) = (1/m) Σ Loss(yᵢ, ŷᵢ),Backpropagation minimizes loss via gradient descent,,,,Mean squared error
+Gradient Descent,Optimization function,the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
+Backpropagation,Neural network weight update function,,,applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
 Reinforcement Learning,,Q(s, a) ← Q(s, a) + α[r + γ max Q(s’, a’) - Q(s, a)],Bellman equation update
-Recurrent Neural Networks (RNNs),,,handle sequential data by maintaining a memory of previous inputs and used for Sequence Modeling and Time Series Prediction and Natural Language Processing,,Struggle with long-term dependencies and have vanishing gradients (solved by LSTM and Gated Recurrent Unit),High,Medium-High,Medium-High,Low-Medium,Low,High,High,Low
-Q-Learning,Reinforcement Learning,,,,,,Medium,Medium,Medium,Medium,Medium,High,High,Medium
-Deep Q-Network (DQN),Reinforcement Learning,,,,,,High,High,High,Medium,Low,High,High,Medium
-Convolutional Neural Networks (CNNs),Neural Networks,,,Image Classification and Object Detection and Image Segmentation,,,High,Medium-High,Medium-High,Low-Medium,Low,High,High,Low
-Generative Adversarial Networks (GANs),Neural Networks,,,,,,Medium,Medium,Medium,Low,Low,High,High,High
-Long Short-Term Memory (LSTM) networks,Recurrent Neural Network,,,,,,High,High,High,Medium,Low,High,High,Medium
-
+Recurrent Neural Networks (RNNs),,,handle sequential data by maintaining a memory of previous inputs and used for Sequence Modeling and Time Series Prediction and Natural Language Processing,,Struggle with long-term dependencies and have vanishing gradients (solved by LSTM and Gated Recurrent Unit),
+Q-Learning,Reinforcement Learning
+Deep Q-Network (DQN),Reinforcement Learning
+Convolutional Neural Networks (CNNs),Neural Networks,,,Image Classification and Object Detection and Image Segmentation,,,
+Generative Adversarial Networks (GANs),Neural Networks
+Long Short-Term Memory (LSTM) networks,Recurrent Neural Network
 Max Pooling,Neural Network layer type,,,Downsamples feature maps, reduces computation
 Flatten,Neural Network layer type,,,Converts 2D to 1D
-Dense (Fully Connected),Neural Network layer type,,,All nodes are connected to all nodes
-
+Dense (Fully Connected),Neural Network layer type,,,All nodes in the layer are connected to all nodes in the next layer
 
 TF-IDF,Vectorization,,,optimizes memory usage by creating a sparse matrix by multiplying importance weight (as in how often a word appears in a document) by how unique a word is (to reduce importance of common words) across the entire collection of documents so words appearing in many documents get a lower IDF score and rare words get a higher score and in the process converts text to vectors handling a large vocabulary in the process
 Word2vec,Vectorization,,,uses a two-layer neural network to encode words into embedding vectors for semantic and syntactic similarity using either continuous bag of words or skip gram to infer a word from context or vice versa,skip gram is more effective for infrequent words and CBOW is faster to train
@@ -55,11 +54,11 @@ One-Hot Encoding,Vectorization,,,converts a word into a vector with a bit corres
 Bag of Words,Vectorization,,,represents text data as a vector of word counts
 
 Dimensionality reduction,Function Type,,,used to simplify datasets by reducing the number of features while retaining the most important information.
-Principal Component Analysis (PCA),Signal Processing and Dimensionality Reduction,maximize var(Z) s.t. Z = Xw and ||w||=1,Find eigenvectors of covariance matrix and thereby transforms data into a new set of orthogonal features (principal components) that capture the maximum variance,Reduces overfitting and fast and improves visualization,Components may be hard to interpret and disregards independence of components and misses non-linear patterns,High,High,High,Low,High,Low-Medium,Low,Unsupervised,,Minimizes variance loss
+Principal Component Analysis (PCA),Signal Processing and Dimensionality Reduction,maximize var(Z) s.t. Z = Xw and ||w||=1,Find eigenvectors of covariance matrix and thereby transforms data into a new set of orthogonal features (principal components) that capture the maximum variance,Reduces overfitting and fast and improves visualization,Components may be hard to interpret and disregards independence of components and misses non-linear patterns,Unsupervised,,Minimizes variance loss
 Independent Component Analysis (ICA),Signal Processing and Dimensionality Reduction,,,separates mixed signals into their independent non-Gaussian components thereby finding a linear transformation of data that maximizes statistical independence among the components which is used in signal analysis to isolate distinct sources from mixed signals,doesnt require labeled data and is non-parametric so it doesnt require assumptions about the data probability distribution and can be used for feature extraction to identify important features,assumes decomposed source features are non-gaussian and are independent and are mixed linearly and ICA can be computationally expensive,Unsupervised
 Linear Discriminant Analysis (LDA),Dimensionality Reduction,J(w) = |wᵗ S_B w| / |wᵗ S_W w|,Maximize class separation
-Autoencoders,Dimensionality Reduction and Anomaly Detection,L = ||x - x'||²,Neural network that compresses and reconstructs data to minimize reconstruction loss,useful for dimensionality reduction and feature learning and anomaly detection,,,,,,Medium,Medium,Medium,Medium
-t-Distributed Stochastic Neighbor Embedding (t-SNE),Dimensionality Reduction,Pᵢⱼ ∝ exp(-||xᵢ - xⱼ||²/2σ²),Minimize Kullback-Leibler divergence between distributions and thereby reduces dimensions for visualizing high-dimensional data and preserving local relationships,Captures complex structure unlike PCA,slower and non-deterministic,Low,Low,Low,High,Low,High,Low,Low,Unsupervised,,Minimizes pairwise differences
+Autoencoders,Dimensionality Reduction and Anomaly Detection,L = ||x - x'||²,Neural network that compresses and reconstructs data to minimize reconstruction loss,useful for dimensionality reduction and feature learning and anomaly detection
+t-Distributed Stochastic Neighbor Embedding (t-SNE),Dimensionality Reduction,Pᵢⱼ ∝ exp(-||xᵢ - xⱼ||²/2σ²),Minimize Kullback-Leibler divergence between distributions and thereby reduces dimensions for visualizing high-dimensional data and preserving local relationships,Captures complex structure unlike PCA,slower and non-deterministic,Unsupervised,,Minimizes pairwise differences
 Non-negative Matrix Factorization (NMF),Dimensionality Reduction,,,Factorizes data into non-negative components,useful for sparse data like text or images
 Statistical independence,Concept,,,refers to the idea that two random variables: X and Y are independent if knowing one does not affect the probability of the other so the joint probability of X and Y is equal to the product of their individual probabilities
 Isomap,Dimensionality Reduction,,,Preserves geodesic distances to capture non-linear structures in data
@@ -67,6 +66,7 @@ Locally Linear Embedding (LLE),Dimensionality Reduction,,,Preserves local relati
 Latent Semantic Analysis (LSA),Dimensionality Reduction,,,Reduces the dimensionality of text data to reveal hidden patterns
 Covariance Matrix,matrix used in PCA,,,summarizes relationships between different variables
 Eigenvectors/eigenvalues,matrix attributes used in PCA,,,the principal components are the eigenvectors of the covariance matrix and the eigenvalues represent the variance explained by each component where the objective is to find the eigenvectors of the largest eigenvalues
+Singular Value Decomposition
 
 Scaling
 z-score,Evaluation Metric,z = (x - mean)/standard deviation,,Standardizes x value
@@ -95,22 +95,21 @@ Loss/error functions,Function Type,,,Quantifies how well one prediction of the m
 Log Loss,Regression Evaluation Metric,-ln(pk) if yk = 1 and -ln(1 - pk) if yk = 0
 R-squared loss,Regression Evaluation Metric
 Mean Absolute Error,Regression Evaluation Metric
-Mean Squared Error,Regression Evaluation Metric
+Mean Squared Error,Regression Evaluation Metric,J(θ) = (1/m) * Σ(hypothesis(xᵢ) - yᵢ)²,,penalizes larger errors heavily
 Mean Absolute Percentage Error,Regression Evaluation Metric,,,Used to express the error in terms of percentage, where the smaller the percentage the better the model performance
 Root Mean Squared Error,Regression Evaluation Metric,,,Indicates how much the data points are spread around the best line and is the standard deviation of the MSE, where lower value means that the data point lies closer to the best fit line.
 Root Log Mean Squared Error,Regression Evaluation Metric
 
 Entropy,Algorithm Sub-function,Entropy = -Σ(pᵢ log₂ pᵢ),pᵢ is the proportion of the dataset belonging to class i,entropy encodes the number of info bits required to represent information
-Cross entropy,Function Type,CE(y,p)=−1/n * ∑y(i)×log(p(i)),class label y and predicted probability p,Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
-Gini Impurity,Algorithm Sub-function,Gini = 1 - Σ(pᵢ)²,
-Information Gain,Feature Selection Filter Method,,,Measures how well an attribute reduces uncertainty where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty) in a set S which is calculated using the difference in entropy before and after the split
-Gain Ratio,Algorithm Sub-function,,,Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values,
-Cross Entropy Loss,,J(θ) = -(1/m) * Σ[yᵢ log(h(xᵢ)) + (1 - yᵢ) log(1 - h(xᵢ))]
+Cross Entropy Loss,Function Type,J(θ) = -(1/m) * Σ[yᵢ log(h(xᵢ)) + (1 - yᵢ) log(1 - h(xᵢ))],class label y and predicted probability p,Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
 Binary Cross Entropy Loss
 Multinomial Cross Entropy Loss
 Shannon Entropy,,information(x) = -log(p(x)),log is the base 2 log or natural log and p(x) is the probability of event x
 Renyi Cross Entropy Loss (generalization of Shannon)
 Kullback-Leibler Divergence (Relative Entropy),Regression Evaluation Metric,,,Evaluates difference between two probability distributions
+Gini Impurity,Algorithm Sub-function,Gini = 1 - Σ(pᵢ)²,
+Information Gain,Feature Selection Filter Method,,,Measures how well an attribute reduces uncertainty where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty) in a set S which is calculated using the difference in entropy before and after the split
+Gain Ratio,Algorithm Sub-function,,,Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values,
 
 Hyperparameters,Variable Type
 Learning Rate,Hyperparameter,,,Learning rate determines the jump interval for gradient descent
@@ -145,7 +144,7 @@ Feature importance plots,Model Interpretability
 
 Activation functions,Function Type,,,Specifies whether a neural network node should be activated thereby allowing that set of weights to contribute to the model
 Step,Activation function,1 if ∑n wi * xi + b > 0, 0 otherwise
-ReLU,Activation function,
+ReLU,Activation function,f(x) = max(0,x)
 Softmax,Activation function,
 Tanh,Activation function,
 
@@ -162,9 +161,9 @@ Domain/Joint shift,Problem Type,,,p(x) and p(y|x) both change so its a combinati
 Overfitting,Problem Type,,,occurs when the model fits the training data too closely indicating high variance (as opposed to high bias) and learns noise and outliers rather than the pattern so performs well on training data but not on new or test data and is fixed by data augmentation like Mixup/Cutout/CutMix and collecting more data after plotting a learning curve to detect if more data is beneficial and use self-supervised learning to pretrain on large unlabeled datasets to reduce overfitting on small datasets and use transfer learning from highly relevant large labeled datasets and use few-shot learning if additiona labeled data is not feasible and use feature engineering and normalization and include adversarial examples and label/feature noise and label smoothing and smaller batch sizes and regularization techniques like dropout and weight decay and decreasing model size and capacity and building ensemble models
 Label smoothing
 Regularization,Function Type,,,penalizes complexity by adding a penalty term representing the weights size to the optimizer or the loss function that is minimized during training
-L2 Regulation,Regularization and Generalization,RegularizedLoss = Loss + λ/n * ∑ w2,λ is a hyperparameter that controls the regularization strength,penalizes complexity by adding a penalty term of the squared sum of the weights to the loss function that is minimized during training where the optimizer minimizes the modified loss during backpropagation now with the additional penalty term which leads to smaller model weights 
+L2 Regularization,Regularization and Generalization,RegularizedLoss = Loss + λ/n * ∑ w2,λ is a hyperparameter that controls the regularization strength,penalizes complexity by adding a penalty term of the squared sum of the weights to the loss function that is minimized during training where the optimizer minimizes the modified loss during backpropagation now with the additional penalty term which leads to smaller model weights 
 Dropout,Reducing overfitting,,,reduces overfitting by randomly setting some activations of hidden units to zero during training so those neurons cant be relied on and more neurons are used to create multiple independent representations of the same data
-Weight Decay,Reducing overfitting ,,,similar to L2 regularization but is applied to the optimizer directly rather than modifying the loss function which has the same effect as L2 regularization
+Weight Decay,Reducing overfitting,,,similar to L2 regularization but is applied to the optimizer directly rather than modifying the loss function which has the same effect as L2 regularization
 Early Stopping,Reducing overfitting,,,monitor performance on a validation set during training and stop training when performance on the validation set starts to decline (when the validation and training set performance are the most similar which is the point with the least overfitting and which is a good point for early stopping of training iterations)
 Smaller models,Reducing overfitting,,,because the smaller the number of model parameters the smaller its capacity to overfit to noise choosing smaller models with reducing layer count/width and pruning and knowledge distillation is good for reducing overfitting,,however double descent and grokking indicate that larger overparameterized models have good generalization if they are trained beyond the point of overfitting
 Pruning,Reducing overfitting with smaller models,,,iterative pruning trains a large model and then iteratively removes parameters of the model and retraining it so that it maintains the original performance,improves generalization of the training process as it involves more extended training periods and a replay of learning rate schedules
@@ -183,10 +182,10 @@ Multitask learning,Reducing overfitting with model modifications
 Snapshot ensemble,Reducing overfitting with model modifications
 Bagging,Algorithm Type,
 Boosting,Algorithm Type,
-Gradient Boosting Regressor,Regression and Feature Selection Embedded Method,L = ΣL(yᵢ, F(xᵢ)),Sequentially minimize loss (e.g., MSE, Log Loss) where like random forests gradient boosting models select important features while building trees by prioritizing features that reduce error the most,,,High,High,High,Medium,Low,High,High,Medium,Supervised,,Mean Squared Error
-Gradient Boosting Classification,Classification and Feature Selection Embedded Method,,,,,,High,High,High,Medium,Low,High,High,Medium,Supervised,,Cross Entropy Loss
-XGBoost,Classification and Regression,L = Σ l(yᵢ, ŷᵢ) + ΣΩ(fₖ),Loss plus regularization on tree complexity,,,High,High,High,Medium,Low,High,Medium,Medium
-AdaBoost,,,,,,,,,,,,,,Exponential Loss
+Gradient Boosting Regressor,Regression and Feature Selection Embedded Method,L = ΣL(yᵢ, F(xᵢ)),Sequentially minimize loss (e.g., MSE, Log Loss) where like random forests gradient boosting models select important features while building trees by prioritizing features that reduce error the most,,,Supervised,,Mean Squared Error
+Gradient Boosting Classification,Classification and Feature Selection Embedded MethodSupervised,,Cross Entropy Loss
+XGBoost,Classification and Regression,L = Σ l(yᵢ, ŷᵢ) + ΣΩ(fₖ),Loss plus regularization on tree complexity,,,
+AdaBoostExponential Loss
 
 Batch normalization (BatchNorm),Reducing overfitting and normalization and regularization and layer input normalization technique,,,stabilize training and regularize and generalize
 Layer normalization (LayerNorm),Reducing overfitting and normalization and regularization and layer input normalization technique,,,stabilize training and regularize and generalize
@@ -201,6 +200,7 @@ Geometric distribution,,,to determine the probability that a specified number of
 Curse of dimensionality,Problem Type,
 Vanishing Gradient problem,Problem Type,
 Bias vs. variance,Problem Type
+Data leakage,Problem Type,,,happens when a model has access to info during training that it wont have access to when making predictions
 
 SMOTE
 Hypothesis Testing,,,,commonly used in Outlier Detection
