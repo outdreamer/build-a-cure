@@ -11,12 +11,19 @@ Kernel Trick,Function Type,,,feature mapping function that represents data throu
 Gaussian Radial Basis Function Kernel,,k(xi,xj) = exp(-γ||xi - xj||^2)
 Polynomial Kernel,,k(xi,xj) = (xi * xj) ^ d
 Sigmoid kernel (hyperbolic tangent),,k(xi,xj) = tanh(κ * xi * xj + c)
-
-Naive Bayes,Classification,P(y|x) ∝ P(y) * Π P(xᵢ|y),Bayes’ Theorem with conditional independence,Fast and works well with text,assumes information about the target class provided by each variable is unrelated to the information from the others variables with no information shared between the predictors,Supervised,,No loss (probability-based)
 Hinge Loss,Classification,max(0, 1 - yᵢ(w·xᵢ + b))
 
+Naive Bayes,Classification,the naive Bayes classifier y, = argmax p(Ck) Π p(xi | Ck) combines the probability model with a decision rule where the naive bayes conditional probability model is P(y|x) ∝ P(y) * P(xᵢ|y)/ P(x) where the decision boundary indicates,Fast and works well with text and only requires a small amount of training data to estimate the parameters necessary for classification and good at scaling,but assumes information about the target class provided by each variable is unrelated to the information from the others variables with no information shared between the predictors and bad at quantifying uncertainty compared to logistic regression and is outperformed by other approaches like boosted trees or random forests,Supervised,,No loss function (probability-based)
+Gaussian Naive Bayes,Classification,P(x = v|Class k Ck) = 1/√(2 * pi * std dev for k squared) * e ^ -(v - mean) squared/2 * (std dev for k squared)
+Class Prior,Probability function,the expected frequency or prior for a given class = number of samples in that class / total number of samples or the class prior can be 1/k if classes are equally probable
+Posterior,Probability function,posterior = prior * likelihood/evidence or probability (Class k | x) = P(Class k) * P(x|Class k)/P(x) or p(b|a) = P(b) * P(a|b)/P(a)
+Likelihood function,Probability function,P(x|Y),,for example comparing the likelihoods P(x|y = 0) and P(x|y = 1) can help evaluate a naive bayes model to identify the decision boundary separating negative and positive predictions between these two distributions https://en.wikipedia.org/wiki/Naive_Bayes_classifier#/media/File:ROC_curves.svg
+Maximum Likelihood Estimator,Probability function,y(x) = argmax P(x|y)
+Argmax,Distribution function,the argmax is the input point that maximizes the output point
+
 Data and parameter preprocessing,Algorithm Type,standardize data with scaling then graph data then create relevant features then identify importance/relevance of features then filter features by importance/relevance then select model then select model hyperparameters then select training parameters
-Data postprocessing,Algorithm Type,analyze scores related to model then analyze for errors in model preprocessing or training then analyze for input/concept/output/domain drift
+Data postprocessing,Algorithm Type,analyze scores related to model then create a decision surface,then analyze for errors in model preprocessing or training then analyze for input/concept/output/domain drift
+
 Embedded Method,Feature Selection Method,,,Embedded methods perform feature selection during the model training process and combine the benefits of both filter and wrapper methods, where feature selection is integrated into the model training allowing the model to select the most relevant features based on the training process dynamically,More efficient than wrapper methods because the feature selection process is embedded within model training and is often more scalable than wrapper methods and Wrapper and embedded methods are better for capturing complex feature interactions,Works with a specific learning algorithm so the feature selection might not work well with other models
 L1 (Lasso) Regression,Feature Selection Embedded Method and Regression and Regularization,,,A regularized variant of regression that adds a penalty to the loss function to prevent overfitting thereby applying L1 regularization to encourage sparsity in the model where features with non-zero coefficients are considered important and where methods like Lasso are more suitable for certain models like linear models and where lasso can shrink coefficients to zero
 L2 (Ridge) Regularization,Feature Selection Embedded Method and Regression and Regularization,,,A regularized variant of regression that adds a penalty to the loss function to prevent overfitting
