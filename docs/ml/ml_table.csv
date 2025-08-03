@@ -3,19 +3,32 @@ Algorithm	Type	Math Function	Parameters	Explanation	Advantages	Disadvantages	Sup
 Linear Regression	Regression	y = ax + b		Objective is to minimize mean squared error to minimize the difference between predicted and actual values, fits a straight line or hyperplane in higher dimensions to the data	Simple and interpretable and good for predicting continuous values and data with linear relationships	Assumes linearity and low multicollinearity between features and independence and normal distribution of errors and few outliers	Supervised		Mean Squared Error
 Logistic Regression	Classification	p(y = 1|X) = 1/(1 + e^-(B0 + B1*x + other coefficients of logistic regression model))	uses a sigmoid function to output values between 0 and 1 by identifying a classification boundary where the output is interpreted as a probability of a class	Best for binary classification and problems where probabilities are required as it has probabilistic output	Struggles with non-linear data	Supervised		Binary Cross Entropy Loss or Log/Logistic Loss
 Polynomial Regression	Regression	y = a0 + a1x + a2x2 + … + anxn + ϵ	ϵ is the error term representing deviations between predicted and actual values	used when the input/output relationship is nonlinear and can be approximated by a polynomial
+Ordinary Least Squares Regression (OLSR) 	Regression
+Stepwise Regression	Regression
+Multivariate Adaptive Regression Splines (MARS)	Regression
+Locally Estimated Scatterplot Smoothing (LOESS)	Regression
 
-Hard-margin Support Vector Machine	Classification	minimize (1/2)||w||² subject to yᵢ(w·xᵢ + b)	Normal vector w	Maximizes the margin between classes with a linear decision boundary, finding the hyperplane that best separates classes with the maximum margin, using kernels to handle non-linear data and using support vectors to define the hyperplane	Robust against overfitting, works in high-dimensions and with complex patterns where clear margins of separation exist and particularly good for binary classification	Hard to tune and less scalable			Supervised		Hinge Loss
-Soft-margin Support Vector Machine	Classification	minimize J(w	 b) = λ * ||w||² + C * 1/n * Σ max(0	 1 - yᵢ(w·xᵢ - b))	normal vector w	where choosing a sufficiently small value for λ yields the hard-margin classifier for linearly classifiable input data and the soft-margin SVM behaves similar to hard-margin SVM for large values of C	Hinge loss + regularization	Works in high-dimensions and particularly good for binary classification and useful when data is not linearly separable	Hard to tune and less scalable	Supervised		Hinge Loss
-Support Vector Regression (SVR)	Regression	minimize (1/2)||w||² subject to |yᵢ - inner_product(w·xᵢ) - intercept b) <= ϵ		Uses margin-based optimization like SVM
+Hard-margin Support Vector Machine	Classification and Instance-based Algorithm	Minimize (1/2)||w||² subject to yᵢ(w·xᵢ + b)	Normal vector w	Maximizes the margin between classes with a linear decision boundary, finding the hyperplane that best separates classes with the maximum margin, using kernels to handle non-linear data and using support vectors to define the hyperplane	Robust against overfitting, works in high-dimensions and with complex patterns where clear margins of separation exist and particularly good for binary classification	Hard to tune and less scalable			Supervised		Hinge Loss
+Soft-margin Support Vector Machine	Classification and Instance-based Algorithm	Minimize J(w	 b) = λ * ||w||² + C * 1/n * Σ max(0	 1 - yᵢ(w·xᵢ - b))	normal vector w	where choosing a sufficiently small value for λ yields the hard-margin classifier for linearly classifiable input data and the soft-margin SVM behaves similar to hard-margin SVM for large values of C	Hinge loss + regularization	Works in high-dimensions and particularly good for binary classification and useful when data is not linearly separable	Hard to tune and less scalable	Supervised		Hinge Loss
+Support Vector Regression (SVR)	Regression and Instance-based Algorithm	Minimize (1/2)||w||² subject to |yᵢ - inner_product(w·xᵢ) - intercept b) <= ϵ		Uses margin-based optimization like SVM
 Kernel Trick	Function Type			feature mapping function that represents data through a set of pairwise similarity comparisons between original data points with a kernel function	 which transforms them into coordinates in a higher-dimensional feature space with linearly separable features
 Gaussian Radial Basis Function Kernel		k(xi	xj) = exp(-γ||xi - xj||^2)
 Polynomial Kernel		k(xi	xj) = (xi * xj) ^ d
 Sigmoid kernel (hyperbolic tangent)		k(xi	xj) = tanh(κ * xi * xj + c)
 Hinge Loss	Classification	max(0	 1 - yᵢ(w·xᵢ + b))
+K-Nearest Neighbors	Classification and Regression and Instance-based Algorithm	Uses euclidean distance metric for continuous neighbor selection, uses overlap distance for discrete data or pearson's correlation coefficient where the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms such as Large Margin Nearest Neighbor or Neighbourhood components analysis where it classifies based on nearby neighbors with voronoi-like regions formed by voting among nearest points, classifying new points based on the majority class of the k closest data points using distance metrics to nearest neighbors (majority vote from k nearest neighbors for classification, average value of k nearest neighbors for regression)	No training phase and non-parametric and effective for well-separated clusters	Slow at prediction time	Supervised		No loss
+Learning Vector Quantization 	Instance-based Algorithm 
+Self-Organizing Map (SOM) 	Instance-based Algorithm
+Locally Weighted Learning (LWL) 	Instance-based Algorithm
 
+Naive Bayes	Classification and Bayesian Algorithm	The naive Bayes classifier y = argmax p(Ck) Π p(xi | Ck) combines the probability model with a decision rule where the naive bayes conditional probability model is P(y|x) ∝ P(y) * P(xᵢ|y)/P(x) where the decision boundary indicatesthe different likelihoods P(x|y = 0) and P(x|y = 1) where it uses probabilistic regions based on feature likelihoods, applying Bayes rule for class probabilities	Fast and works well with independent features and works well for text classification and high-dimensional input and only requires a small amount of training data to estimate the parameters necessary for classification and good at scaling	Assumes feature independence and information about the target class provided by each variable is unrelated to the information from the others variables with no information shared between the predictors and bad at quantifying uncertainty compared to logistic regression and is outperformed by other approaches like boosted trees or random forests	Supervised		No loss function (probability-based)
+Gaussian Naive Bayes	Classification and Bayesian Algorithm	P(x = v|Class k Ck) = 1/√(2 * pi * std dev for k squared) * e ^ -(v - mean) squared/2 * (std dev for k squared)
+Multinomial Naive Bayes 	Classification and Bayesian Algorithm
+Averaged One-Dependence Estimators (AODE) 	Bayesian Algorithm 
+Bayesian Belief Network 	Bayesian Network Type
+Bayesian Algor Network (BBN) Bayesian Network Type
+Bayesian Network (BN) 	Bayesian Network Type
 
-Naive Bayes	Classification	The naive Bayes classifier y = argmax p(Ck) Π p(xi | Ck) combines the probability model with a decision rule where the naive bayes conditional probability model is P(y|x) ∝ P(y) * P(xᵢ|y)/P(x) where the decision boundary indicatesthe different likelihoods P(x|y = 0) and P(x|y = 1) where it uses probabilistic regions based on feature likelihoods, applying Bayes rule for class probabilities	Fast and works well with independent features and works well for text classification and high-dimensional input and only requires a small amount of training data to estimate the parameters necessary for classification and good at scaling	Assumes feature independence and information about the target class provided by each variable is unrelated to the information from the others variables with no information shared between the predictors and bad at quantifying uncertainty compared to logistic regression and is outperformed by other approaches like boosted trees or random forests	Supervised		No loss function (probability-based)
-Gaussian Naive Bayes	Classification	P(x = v|Class k Ck) = 1/√(2 * pi * std dev for k squared) * e ^ -(v - mean) squared/2 * (std dev for k squared)
 Class Prior	Probability function	the expected frequency or prior for a given class = number of samples in that class / total number of samples or the class prior can be 1/k if classes are equally probable where prior means before observation so without the influence of other variables (independent probability) where the posterior is with the influence of other variables (conditional probability on some other variable)
 Posterior	Probability function	posterior = prior * likelihood/evidence or probability (Class k | x) = P(Class k) * P(x|Class k)/P(x) or P(b|a) = P(b) * P(a|b)/P(a)
 Likelihood function	Probability function	P(x|Y)		
@@ -31,32 +44,40 @@ Log-likelihood ratio	Probability function	for binary classification, the decisio
 Data and parameter preprocessing	Algorithm Type	standardize data with scaling then graph data then create relevant features then identify importance/relevance of features then filter features by importance/relevance then select model then select model hyperparameters then select training parameters
 Data postprocessing	Algorithm Type	analyze scores related to model then create a decision surface	then analyze for errors in model preprocessing or training then analyze for input/concept/output/domain drift
 
-Embedded Method	Feature Selection Method			Embedded methods perform feature selection during the model training process and combine the benefits of both filter and wrapper methods	 where feature selection is integrated into the model training allowing the model to select the most relevant features based on the training process dynamically	More efficient than wrapper methods because the feature selection process is embedded within model training and is often more scalable than wrapper methods and Wrapper and embedded methods are better for capturing complex feature interactions	Works with a specific learning algorithm so the feature selection might not work well with other models
-L1 (Lasso) Regularization	Feature Selection Embedded Method and Regularization	loss = 1/n * Σ (actual yi - predicted yi)^2 for all n examples + lambda * Σ|wi| for all m features		A regularized variant of regression that adds an absolute value of the w coefficient penalty to the loss function to prevent overfitting thereby applying L1 regularization to encourage sparsity in the model where features with non-zero coefficients are considered important and where methods like Lasso are more suitable for certain models like linear models and where lasso can shrink coefficients to zero
+L1 Least Absolute Shrinkage and Selection Operator (Lasso) Regularization	Feature Selection Embedded Method and Regularization	loss = 1/n * Σ (actual yi - predicted yi)^2 for all n examples + lambda * Σ|wi| for all m features		A regularized variant of regression that adds an absolute value of the w coefficient penalty to the loss function to prevent overfitting thereby applying L1 regularization to encourage sparsity in the model where features with non-zero coefficients are considered important and where methods like Lasso are more suitable for certain models like linear models and where lasso can shrink coefficients to zero
 Lasso Regression	Regression	A regression model that uses Lasso regularization to select important features
 L2 (Ridge) Regularization	Feature Selection Embedded Method and Regression and Regularization	loss = 1/n * Σ(actual yi - predicted yi)^2 for all n examples + lambda * Σ wi^2 for all m features	A regularized variant of regression that adds a squared w coefficient penalty to the loss function to prevent overfitting and handles multicollinearity by shrinking coefficients of correlated features instead of eliminating them
 Elastic Net Regression	Regression	Elastic Net Regression combines L1 and L2 regularization in adding the absolute norm of the weights and the squared measure of the weights with a mixing parameter alpha where 1 is lasso, 0 is ridge and other values are both lasso and ridge: Loss = 1/n Σ(actual yi - predicted yi)^2 + lambda * ((1 - alpha) * Σ|wi| for all m features + alpha * Σ wi^2 for all m features)
+Least-Angle Regression (LARS)
 
-Decision Tree Classifier	Classification and Feature Selection Embedded Method	Gini = 1 - Σ(pᵢ)² or Entropy = -Σ(pᵢ log₂ pᵢ)	Uses an entropy/impurity function to choose best splits based on maximization of information gain like Gini Impurity or entropy, where each leaf in the tree is a decision or prediction and each decision node represents a feature where end leaf nodes provide the final prediction	Best with categorical/numerical data and easy to interpret and fast and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain 	Doesn't require scaling or normalizing the data and handles non-linear relationships and missing data	Prone to overfitting if too deep and are often inaccurate and instable/volatile and cant capture complex interactions and information gain is biased towards features with many categories and computationally expensive	Supervised		Entropy, Gini Impurity or Information Gain
+Decision Tree Classifier	Classification and Feature Selection Embedded Method	Gini = 1 - Σ(pᵢ)² or Entropy = -Σ(pᵢ log₂ pᵢ)	Uses an entropy/impurity function to choose best splits based on maximization of information gain like Gini Impurity or entropy, where each leaf in the tree is a decision or prediction and each decision node represents a feature where end leaf nodes provide the final prediction, constructing a model of decisions made based on actual values of attributes in the data	Best with categorical/numerical data and easy to interpret and fast and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain 	Doesn't require scaling or normalizing the data and handles non-linear relationships and missing data	Prone to overfitting if too deep and are often inaccurate and instable/volatile and cant capture complex interactions and information gain is biased towards features with many categories and computationally expensive	Supervised		Entropy, Gini Impurity or Information Gain
 Decision Tree Regressor	Regression		Supervised		Mean Squared Error
-Random Forest Classifier	Classification and Feature Selection Embedded Method that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees with more stable boundaries and aggregated decision regions from multiple trees that trains multiple decision trees on different parts of the data with random sampling and feature selection for diversity among trees, then aggregates their predictions (majority vote for classification, average for regression)			High accuracy and reduces overfitting and robust to outliers and handles large datasets with high dimensionality and handles missing data by binning and handles complex data and noise doesnt require scaling or normalization and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain	Slower and less interpretable and sensitive to imbalanced data and random forests also do not generally perform well when given sparse data with little variability	Supervised		Entropy, Gini Impurity or Information Gain
-Random Forest Regressor	Regression		Supervised		Mean Squared Error
-Bagging	Algorithm type 	Bagging  (bootstrapped aggregation) trains multiple similar models and averages their predictions to reduce errors where the bootstrapping procedure (repeatedly selecting a random sample with replacement of the training set and fitting a model to these samples then averaging for regression or selecting the majority vote for classification) leads to better model performance because it decreases the variance of the model, without increasing the bias 	Bagging leads to improvements for unstable procedures which include artificial neural networks, classification and regression trees, and subset selection in linear regression	Bagging can mildly degrade the performance of stable methods such as k-nearest neighbors
-Binning	Bagging/Random Forest function 	Binning involves grouping values together to avoid values that are far apart
-Stacking Ensemble learning algorithm			An ensemble learning algorithm where the final stacked model combines predictions from multiple base models 	Stacking has better accuracy and can combine different models like decision trees, logistic regression, and SVM and reduces overfitting when implemented with cross-validation by balancing out weaknesses of each model and learns from mistakes of base models and is customizable	Stacking is complex, slow, not interpretable, and has a risk of overfitting if the meta-model is too complex or if there's data leakage and requires more data
+Classification and Regression Tree (CART) 	Decision Tree Algorithm Type
+Iterative Dichotomizer (ID3) 	Decision Tree Algorithm Type
+C4.5 and C5.0 	Decision Tree Algorithm Type
+Chi-squared Automatic Interaction Detection (CHAID) 	Decision Tree Algorithm Type
+Decision Stump 	Decision Tree Algorithm Type
+M5 	Decision Tree Algorithm Type
+Conditional Decision Trees 	Decision Tree Algorithm Type
 
+Blending (Weighted average) 	Ensemble algorithm
+Bagging (bootstrapped aggregation)	Ensemble algorithm 			Trains multiple similar models and averages their predictions to reduce errors where the bootstrapping procedure (repeatedly selecting a random sample with replacement of the training set and fitting a model to these samples then averaging for regression or selecting the majority vote for classification) leads to better model performance because it decreases the variance of the model, without increasing the bias 	Bagging leads to improvements for unstable procedures which include artificial neural networks, classification and regression trees, and subset selection in linear regression	Bagging can mildly degrade the performance of stable methods such as k-nearest neighbors
+Binning	Bagging/Random Forest function 	Binning involves grouping values together to avoid values that are far apart
+Stacking (Stacked Generalization) Ensemble learning algorithm			An ensemble learning algorithm where the final stacked model combines predictions from multiple base models 	Stacking has better accuracy and can combine different models like decision trees, logistic regression, and SVM and reduces overfitting when implemented with cross-validation by balancing out weaknesses of each model and learns from mistakes of base models and is customizable	Stacking is complex, slow, not interpretable, and has a risk of overfitting if the meta-model is too complex or if there's data leakage and requires more data
 Boosting	Ensemble algorithm 		Boosting creates a series of models that correct errors made by previous models
 Gradient Boosting Classification (e.g., XGBoost, LightGBM, CatBoost)	Ensemble and classification and Feature Selection Embedded Method			Best for structured/tabular data, high performance models where it refines weak learners sequentially with boosted decision boundaries improving error step by step by building an ensemble of weak learners (usually decision trees) sequentially so each new model corrects errors by previous models 	Reduces overfitting	Supervised		Cross Entropy Loss
 Gradient Boosting Regressor	Ensemble and regression and Feature Selection Embedded Method	L = ΣL(yᵢ, F(xᵢ))	Sequentially minimize loss (e.g. MSE, Log Loss) where like random forests, gradient boosting models select important features while building trees by prioritizing features that reduce error the most			Supervised		Mean Squared Error
 XGBoost	Ensemble classification and Regression	L = Σ l(yᵢ	 ŷᵢ) + ΣΩ(fₖ)	Loss plus regularization on tree complexity		advanced version of gradient boosting that includes regularization to prevent overfitting	faster than gradient boosting for large datasets
-LightGBM	Ensemble classification			Uses a histogram-based approach for faster computation and supports categorical features natively
-CatBoost	Ensemble classification			Designed for categorical data with built-in encoding, using symmetric trees for faster training and better generalization	
-AdaBoost	Exponential Loss
+LightGBM	Ensemble algorithm for classification			Uses a histogram-based approach for faster computation and supports categorical features natively
+CatBoost	Ensemble algorithm for classification			Designed for categorical data with built-in encoding, using symmetric trees for faster training and better generalization	
+AdaBoost	Ensemble algorithm 					Exponential Loss
+Gradient Boosting Machine (GBM) 	Ensemble algorithm
+Gradient Boosted Regression Trees (GBRT)	Ensemble algorithm
+Random Forest Classifier	Classification and Feature Selection Embedded Method and Ensemble algorithm that is the same as Decision Tree + Bootstrap Aggregation (Bagging) that is an ensemble of decision trees with more stable boundaries and aggregated decision regions from multiple trees that trains multiple decision trees on different parts of the data with random sampling and feature selection for diversity among trees, then aggregates their predictions (majority vote for classification, average for regression)			High accuracy and reduces overfitting and robust to outliers and handles large datasets with high dimensionality and handles missing data by binning and handles complex data and noise doesnt require scaling or normalization and handles non-linearity and performs feature selection by selecting the most important features for splitting nodes based on criteria like Gini impurity or information gain	Slower and less interpretable and sensitive to imbalanced data and random forests also do not generally perform well when given sparse data with little variability	Supervised		Entropy, Gini Impurity or Information Gain
+Random Forest Regressor	Regression and Feature Selection Embedded Method and Ensemble algorithm		Supervised		Mean Squared Error
 
 Few-shot learning 			Using a very small example-to-class ratio for small training sets, for example in a 5-way 1-shot problem there are five classes with one example each, uses a support set to sample training tasks that mimic the use-case scenario during prediction, where each training task has a query image to be classified and the model is trained on several training tasks from the support set in an "episode", where the classes in the support and query sets differ from the support and query sets encountered during training, where one few-shot strategy is to learn a model that produces embeddings so we can find the target class with a nearest-neighbor search among the images in the support set, where the model learns how to produce good embeddings from the support set to classify the query image based on finding the most similar embedding vector		Supervised
 Meta-learning (few shot)	Few shot learning type 		Training updates the model's parameters so it can adapt well to a new task 			Supervised
-
-K-Nearest Neighbors	Classification and Regression	Uses euclidean distance metric for continuous neighbor selection, uses overlap distance for discrete data or pearson's correlation coefficient where the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms such as Large Margin Nearest Neighbor or Neighbourhood components analysis where it classifies based on nearby neighbors with voronoi-like regions formed by voting among nearest points, classifying new points based on the majority class of the k closest data points using distance metrics to nearest neighbors (majority vote from k nearest neighbors for classification, average value of k nearest neighbors for regression)	No training phase and non-parametric and effective for well-separated clusters	Slow at prediction time	Supervised		No loss
 
 Euclidean distance between two points	Continuous distance metric		in two dimensions, the distance d(p,q) = √((p1 - q1)^2 + (p2 - q2)^2)	A commonly used distance metric for continuous variables is Euclidean distance
 Hamming distance (overlap metric)	Discrete distance metric
@@ -74,6 +95,7 @@ Gain Ratio	Algorithm Sub-function			Improves on information gain by considering 
 
 Centroid-based Clustering Method Clustering Method Type			Represent clusters using central points like centroids or medoids
 K-Means	Centroid-based Clustering Method	The objective is to find argmin Σi in K Σx in Si ||xᵢ - μ_k||² = argmin Σi in K |Si| Var Si (for each cluster k) where Si is the size of the set of points in cluster k and μ_k is the centroid of cluster k where each observation is a d-dimensional vector, aiming to partition the n observations into k <= n sets so as to minimize the within-cluster sum of squares WCSS (variance) and which is equivalent to minimizing the pair-wise squared deviations of points in the same cluster, picking k centers, assigning each point to the closest center and then updating centers based on the average of assigned points, repeating until assignments stabilize	Minimizes within-cluster variance by grouping data by proximity with the cluster centroids discovered from unlabeled data	Simple and fast and works well with spherical clusters with similar sizes and scalable	Needs K specified and spherical classes and is sensitive to noise	Unsupervised		Sum of squared errors
+k-median clustering 	Clustering Method
 K-means++ clustering Centroid-based Clustering Method
 K-mode clustering Centroid-based Clustering Method
 Fuzzy C-means (FCM) Clustering Centroid-based Clustering Method
@@ -98,87 +120,52 @@ Norm Vector Concept A norm is a function from a real or complex vector space to 
 Seminorm	Vector concept	Satisfies the first two properties of a norm but can be zero for vectors other than the origin
 A normed vector space Vector concept		A vector space with a specified norm
 
-Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ	 ŷᵢ)	Backpropagation minimizes loss via gradient descent				Cross entropy loss
-Neural Networks	Regression	J(θ) = (1/m) Σ Loss(yᵢ	 ŷᵢ)	Backpropagation minimizes loss via gradient descent				Mean squared error
+Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ,ŷᵢ)	Backpropagation minimizes loss via gradient descent using layers of neurons that apply weighted transformations followed by non-linear functions, learning by backpropagating error and updating weights by gradient descent	Captures complex patterns and non-linear relationships			Cross entropy loss
+Neural Networks	Regression							Mean squared error
 Gradient Descent	Optimization function	the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
+Stochastic Gradient Descent 	Optimization function
 Backpropagation	Neural network weight update function			applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
-Reinforcement Learning		Q(s	 a) ← Q(s	 a) + α[r + γ max Q(s’	 a’) - Q(s	 a)]	Bellman equation update
-Recurrent Neural Networks (RNNs)			handle sequential data by maintaining a memory of previous inputs and used for Sequence Modeling and Time Series Prediction and Natural Language Processing		Struggle with long-term dependencies and have vanishing gradients (solved by LSTM and Gated Recurrent Unit)	
-Q-Learning	Reinforcement Learning
-Deep Q-Network (DQN)	Reinforcement Learning
-Convolutional Neural Networks (CNNs)	Neural Networks			Image Classification and Object Detection and Image Segmentation			
-Generative Adversarial Networks (GANs)	Neural Networks
-Long Short-Term Memory (LSTM) networks	Recurrent Neural Network
+Multilayer Perception 	Neural Network Type for Classification and Regression 		Neural network with multiple layers of nodes
+Deep learning 	Learning Type		Uses neural networks with many layers 	useful for tasks involving large datasets and high-dimensinoal data
+Feedforward Neural Networks (FNN) Deep Learning Network Type used for classification and regression 	Basic neural network model 	Easy to train and is useful for simple tasks
+Convolutional Neural Networks (CNN)	Deep Learning Network Type 			Good for handling grid-like data and learns spatial hierachies of features
+Generative Adversarial Networks (GANs)	Deep Learning Network Type 			Useful for generating synthetic data closely resembling real data
+Transformer Networks 	Deep Learning Network Type 			Used in sequence-to-sequence tasks 	Efficiently handles long-range dependencies and parallelizes training
+
+Hopfield Network 	Neural Network Type
+Radial Basis Function Network (RBFN) 	Neural Network Type
+Deep Boltzmann Machine (DBM) Neural Network Type
+Deep Belief Networks (DBN) Neural Network Type
+
+Reinforcement Learning 	Learning Type		Q(s,a) ← Q(s,a) + α[r + γ max Q(s’,a’) - Q(s,a)] uses a Bellman equation update 		The model learns by making a sequence of decisions interacting with an environment and receiving rewards/penalties, with a goal of maximizing cumulative reward, categorized into model-based and model-free methods
+Model-based Reinforcement Learning 	Reinforcement Learning Type 		Uses an environment model to predict outcomes and help the agent plan actions by simulating potential results
+Markov Decision Processes (MDPs)	Reinforcement Model-based Learning Type 	
+Bellman equation	Reinforcement Model-based Learning Type 	
+Value iteration algorithm 	Reinforcement Model-based Learning Type 	
+Monte Carlo Tree Search 	Reinforcement Model-based Learning Type 	
+Model-free Reinforcement Learning 	Reinforcement Learning Type 		Model-free methods dont depend on an environment model but instead learn directly from experience by interacting with the environment and adjusting actions based on feedback, which have value-based and policy-based methods
+Value-based Model-free Reinforcement Learning 	Reinforcement Learning Model-free Type 		Value-based methods learn the value of different states or actions where the agent estimates the expected return from each action and selects the one with the highest value
+Q-Learning 	Value-based Model-free Reinforcement Learning Type 			Used for decision-making in sequential tasks	Can learn optimal policies even with limited environment knowledge
+Deep Q-Networks (DQN) 	Reinforcement Learning Network Type 		Handles more complex reinforcement learning with deep learning, combining q-learning with deep neural networks, allowing it to handle large state spaces
+SARSA 	Value-based Model-free Reinforcement Learning Type
+Monte Carlo Methods 	Value-based Model-free Reinforcement Learning Type
+Policy-based Model-free Reinforcement Learning 	Reinforcement Learning Model-free Type 		Policy-based methods directly learn a policy (a mapping from states to actions) without estimating values where the agent continuously adjusts its policy to maximize rewards
+REINFORCE algorithm 	Policy-based Model-free Reinforcement Learning Type
+Actor-Critic algorithm 	Policy-based Model-free Reinforcement Learning Type
+Asynchronous Advantage Actor-Critic (A3C) 	Policy-based Model-free Reinforcement Learning Type
+Policy Gradient Methods	Reinforcement Learning Type 		Learns policies directly for reinforcement learning tasks	Useful for tasks with continuous action spaces or complex environments
+Proximal Policy Optimization (PPO) 	Reinforcement Learning Type 		PPO is reinforcement learning with stable and efficient updates 	Useful for large-scale problems with complex environments
+
+Recurrent Neural Networks (RNNs)	Network Type		handles sequential data by maintaining a memory of previous inputs and used for Sequence Modeling and Time Series Prediction and Natural Language Processing		Struggle with long-term dependencies and have vanishing gradients (solved by LSTM and Gated Recurrent Unit)	
+Long Short-Term Memory (LSTM) networks	Recurrent Neural Network Type	Models sequences with long-range dependencies	Addresses the vanishing gradient problem in RNNs
+
 Semi-supervised learning 	Learning type 	A hybrid between supervised and unsupervised learning that uses both labeled and unlabeled data for training 	Often used with large datasets when labeling data is expensive or time-consuming
 Self-supervised learning 	Learning Type 	Self-supervised learning is a subset of unsupervised learning where the model learns to predict parts of the data from other parts of the data without explicit labels	Is useful when labeling data is not possible
 
-
-	5. Neural Networks (including Deep Learning)
-		Best for: Images, speech, and text, Complex patterns and non-linear relationships
-		How it works: Consists of layers of neurons that apply weighted transformations followed by non-linear functions. Learns by backpropagating error and updating weights via gradient descent. 
-			- Multilayer Perceptron (MLP): Neural network with multiple layers of nodes. Used for both classification and regression
-			- Deep Learning
-				Deep learning is a subset of machine learning that uses neural networks with many layers. It is particularly useful for tasks involving large datasets and high-dimensional data (like images, audio, and text).
-				Feedforward Neural Networks (FNN):
-					Use Case: Classification, regression.
-					Why Use: Basic neural network model, easy to train, and can be used for simple tasks.
-					Examples: Predicting house prices, binary classification tasks.
-				Convolutional Neural Networks (CNN):
-					Use Case: Image classification, object detection, and computer vision tasks.
-					Why Use: Great for handling grid-like data (images), learns spatial hierarchies of features.
-					Examples: Image recognition, facial recognition, autonomous vehicles.
-				Recurrent Neural Networks (RNN):
-					Use Case: Sequential data (e.g., time-series, text).
-					Why Use: Can process sequences of data by maintaining hidden states, useful for tasks where context over time is important.
-					Examples: Speech recognition, language modeling, machine translation.
-				Long Short-Term Memory (LSTM):
-					Use Case: Sequence modeling with long-range dependencies.
-					Why Use: Addresses the vanishing gradient problem in RNNs, ideal for long-term dependencies.
-					Examples: Time-series forecasting, text generation.
-				Generative Adversarial Networks (GANs):
-					Use Case: Image generation, style transfer, anomaly detection.
-					Why Use: Powerful for generating synthetic data that closely resembles real data.
-					Examples: Deepfake generation, art generation, synthetic data creation.
-				Transformer Networks:
-					Use Case: Sequence-to-sequence tasks (especially in NLP).
-					Why Use: Efficiently handles long-range dependencies, parallelizes training, and achieves state-of-the-art results in many NLP tasks.
-					Examples: Machine translation (e.g., Google Translate), text summarization (e.g., GPT models).
-			- Reinforcement learning 
-				- In reinforcement learning (RL), the model learns by making a sequence of decisions to interact with an environment and receiving rewards or penalties. The goal is to maximize cumulative reward.
-				- Broadly categorized into Model-Based and Model-Free methods, these approaches differ in how they interact with the environment.
-				- Model-Based Methods
-					These methods use a model of the environment to predict outcomes and help the agent plan actions by simulating potential results.
-						Markov decision processes (MDPs)
-						Bellman equation
-						Value iteration algorithm
-						Monte Carlo Tree Search
-				- Model-Free Methods
-					These methods do not build or rely on an explicit model of the environment. Instead, the agent learns directly from experience by interacting with the environment and adjusting its actions based on feedback. Model-Free methods can be further divided into Value-Based and Policy-Based methods:
-					Value-Based Methods: Focus on learning the value of different states or actions, where the agent estimates the expected return from each action and selects the one with the highest value.
-						Q-Learning
-						SARSA
-						Monte Carlo Methods
-					Policy-based Methods: Directly learn a policy (a mapping from states to actions) without estimating values where the agent continuously adjusts its policy to maximize rewards.
-						REINFORCE Algorithm
-						Actor-Critic Algorithm
-						Asynchronous Advantage Actor-Critic (A3C)
-				- Q-Learning:
-					Use Case: Decision-making in sequential tasks.
-					Why Use: Can learn optimal policies even with limited knowledge of the environment.
-					Examples: Game AI (e.g., chess, Go), robotic control.
-				- Deep Q-Networks (DQN):
-					Use Case: More complex reinforcement learning tasks using deep learning.
-					Why Use: Combines Q-learning with deep neural networks, enabling it to handle large state spaces (e.g., pixels in a video game).
-					Examples: Atari game AI, autonomous vehicles.
-				- Policy Gradient Methods:
-					Use Case: Reinforcement learning tasks where policies are learned directly.
-					Why Use: Suitable for tasks with continuous action spaces or complex environments.
-					Examples: Robotics, continuous control tasks.
-				- Proximal Policy Optimization (PPO):
-					Use Case: Reinforcement learning with stable and efficient updates.
-					Why Use: Works well for large-scale problems with complex environments and has been used extensively in reinforcement learning.
-					Examples: Robotics, video games (e.g., OpenAI’s Dota 2 bot)
-
+Association rules algorithms 	Algorithm Type 	association rules algorithms find patterns between items in large datasets based on the frequency of item occurrences and co-occurrences
+Apriori algorithm 	Association Rule Algorithm Type 		Finds frequent itemsets by iterating through data and pruning non-frequent item combinations
+FP-Growth (Frequent Pattern-Growth)	Association Rule Algorithm Type 		Efficiently mines frequent itemsets using a compressed FP-tree structure without candidate generation
+ECLAT (Equivalence Class Clustering and bottom-up Lattice Traversal)	Association Rule Algorithm Type 		Uses vertical data format for faster frequent pattern discovery through efficient intersection of itemsets
 
 Max Pooling	Neural Network layer type			Downsamples feature maps	 reduces computation
 Flatten	Neural Network layer type			Converts 2D to 1D
@@ -191,9 +178,14 @@ Bag of Words	Vectorization			represents text data as a vector of word counts
 
 Dimensionality reduction	Function Type			used to simplify datasets by reducing the number of features while retaining the most important information.
 Principal Component Analysis (PCA)	Signal Processing and Dimensionality Reduction to 2d	maximize var(Z) s.t. Z = Xw and ||w||=1	Find eigenvectors of covariance matrix and thereby transforms data into a new set of axes or orthogonal features (principal components) that capture the maximum variance, keeping the most important components	Reduces overfitting and reduces the number of features while retaining the variance and fast and improves visualization	Components may be hard to interpret and disregards independence of components and misses non-linear patterns	Unsupervised		Minimizes variance loss
+Principal Component Regression (PCR) 	Dimensionality Reduction Type
 Independent Component Analysis (ICA)	Signal Processing and Dimensionality Reduction			separates mixed signals into their independent non-Gaussian components thereby finding a linear transformation of data that maximizes statistical independence among the components which is used in signal analysis to isolate distinct sources from mixed signals	doesnt require labeled data and is non-parametric so it doesnt require assumptions about the data probability distribution and can be used for feature extraction to identify important features	assumes decomposed source features are non-gaussian and are independent and are mixed linearly and ICA can be computationally expensive	Unsupervised
 Linear Discriminant Analysis (LDA)	Dimensionality Reduction	J(w) = |wᵗ S_B w| / |wᵗ S_W w|	Maximize class separation
+Mixture Discriminant Analysis (MDA)
+Quadratic Discriminant Analysis (QDA)
+Flexible Discriminant Analysis (FDA)
 Autoencoders	Dimensionality Reduction and Anomaly Detection	L = ||x - x'||²	Neural network that compresses and reconstructs data to minimize reconstruction loss, learning efficient representations of data	Useful for dimensionality reduction and feature learning and anomaly detection, works well with high-dimensional data
+Stacked Auto-Encoders 	Neural Network Type
 t-Distributed Stochastic Neighbor Embedding (t-SNE)	Dimensionality Reduction	Pᵢⱼ ∝ exp(-||xᵢ - xⱼ||²/2σ²)	Minimize Kullback-Leibler divergence between distributions and thereby reduces dimensions for visualizing high-dimensional data and preserving local relationships	Captures complex structure unlike PCA and is effective at reducing the dimensionality of complex data	Slower and non-deterministic	Unsupervised		Minimizes pairwise differences
 Non-negative Matrix Factorization (NMF)	Dimensionality Reduction			Factorizes data into non-negative components	useful for sparse data like text or images
 Statistical independence	Concept			refers to the idea that two random variables: X and Y are independent if knowing one does not affect the probability of the other so the joint probability of X and Y is equal to the product of their individual probabilities
@@ -202,9 +194,12 @@ Locally Linear Embedding (LLE)	Dimensionality Reduction			Preserves local relati
 Latent Semantic Analysis (LSA)	Dimensionality Reduction			Reduces the dimensionality of text data to reveal hidden patterns
 Covariance Matrix	matrix used in PCA			summarizes relationships between different variables
 Eigenvectors/eigenvalues	matrix attributes used in PCA			the principal components are the eigenvectors of the covariance matrix and the eigenvalues represent the variance explained by each component where the objective is to find the eigenvectors of the largest eigenvalues
-Singular Value Decomposition
-
-Scaling
+Partial Least Squares Regression (PLSR) 	Dimensionality Reduction Type
+Sammon Mapping	Dimensionality Reduction Type
+Multidimensional Scaling (MDS)	Dimensionality Reduction Type
+Projection Pursuit	Dimensionality Reduction Type
+Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP)	Dimensionality Reduction Type
+Singular Value Decomposition	Dimensionality Reduction Type
 
 z-score	Evaluation Metric	z = (x - mean)/standard deviation		Standardizes x value
 t-score	Evaluation Metric			Uses the student's t-distribution
@@ -243,17 +238,21 @@ Root Log Mean Squared Error	Regression Evaluation Metric
 
 Hyperparameters	Variable Type
 Learning Rate	Hyperparameter			Learning rate determines the jump interval for gradient descent
+
+Filter Methods	Feature Selection Method			Evaluate each feature independently with target variable where features with high correlation with target variable are selected as it means this feature has some relation and can help make predictions where these methods are used in the preprocessing phase to remove irrelevant or redundant features based on statistical tests (correlation) or other criteria	Quickly evaluate features without training the model and good for removing redundant or correlated features and Filter methods are often preferred for very large datasets due to their speed	These methods don't consider feature interactions so they may miss feature combinations that improve model performance
 Chi-square test	Feature Selection Filter Method			It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
 Fisher’s Score	Feature Selection Filter Method			Fisher's selects each feature independently according to their scores under Fisher criterion leading to an optimal set of features so a larger the Fisher’s score indicates a better selected feature
 Pearson’s Correlation Coefficient	Feature Selection Filter Method			pearon's coefficient is a measure of quantifying the association between the two continuous variables and the direction of the relationship with its values ranging from -1 to 1
 Variance Threshold	Feature Selection Filter Method			variance threshold is an approach where all features are removed whose variance doesn’t meet the specific threshold and by default this method removes features having zero variance and the assumption made using this method is higher variance features are likely to contain more information
 Mean Absolute Difference	Feature Selection Filter Method			Mean absolute difference is a method is similar to variance threshold method but the difference is there is no square in this method
 Dispersion ratio	Feature Selection Filter Method			It is defined as the ratio of the Arithmetic mean (AM) to that of Geometric mean (GM) for a given feature whose value ranges from +1 to infinity as AM ≥ GM for a given feature where a higher dispersion ratio implies a more relevant feature
-Filter Methods	Feature Selection Method			Evaluate each feature independently with target variable where features with high correlation with target variable are selected as it means this feature has some relation and can help make predictions where these methods are used in the preprocessing phase to remove irrelevant or redundant features based on statistical tests (correlation) or other criteria	Quickly evaluate features without training the model and good for removing redundant or correlated features and Filter methods are often preferred for very large datasets due to their speed	These methods don't consider feature interactions so they may miss feature combinations that improve model performance
+
 Wrapper Method	Feature Selection Method			Greedy algorithms that train algorithms using different combinations of features and computing relations between these subset features and the target variable and add/remove features with stopping criteria being potentially whenever the model performance decreases or a specific number of features is achieved	Can lead to better model performance since they evaluate feature subsets in the context of the model and can capture feature dependencies and interactions	But are computationally more expensive than filter methods especially for large datasets
 Forward selection	Feature Selection Wrapper Method			Forward selection is an iterative approach where we initially start with an empty set of features and keep adding a feature which best improves our model after each iteration where the stopping criterion is where the addition of a new variable does not improve the performance of the model
 Backward elimination	Feature Selection Wrapper Method			Backward elimination is a method that is also an iterative approach where we initially start with all features and after each iteration we remove the least significant feature where the stopping criterion is where no improvement in the performance of the model is observed after the feature is removed
 Recursive elimination	Feature Selection Wrapper Method			Recursive elimination is a greedy method that selects features by recursively removing the least important ones where it trains a model and ranks features based on importance and eliminates them one by one until the desired number of features is reached
+
+Embedded Method	Feature Selection Method			Embedded methods perform feature selection during the model training process and combine the benefits of both filter and wrapper methods and include Lasso regularization, decision trees, random forests, and gradient boosting which all select important features	 where feature selection is integrated into the model training allowing the model to select the most relevant features based on the training process dynamically	More efficient than wrapper methods because the feature selection process is embedded within model training and is often more scalable than wrapper methods and Wrapper and embedded methods are better for capturing complex feature interactions	Works with a specific learning algorithm so the feature selection might not work well with other models
 
 Loss function	Function Type			the loss function L(a(x),y) defines the cost of making decision a(x) when the true state is y
 Cost/objective function	Function Type			An average of the loss function of an entire training set containing several training examples thereby quantifying the model's performance on the whole training dataset
@@ -276,7 +275,7 @@ Feature importance plots	Model Interpretability
 
 Activation functions	Function Type			Specifies whether a neural network node should be activated thereby allowing that set of weights to contribute to the model
 Step	Activation function	1 if ∑n wi * xi + b > 0	 0 otherwise
-ReLU	Activation function	f(x) = max(0	x)
+ReLU	Activation function	f(x) = max(0,x)
 Softmax	Activation function	
 Tanh	Activation function	
 
