@@ -72,10 +72,31 @@ Information Gain	Feature Selection Filter Method	information gain = entropy of a
 Phi function 	Decision tree split function 	phi = 2 * PL * PR * Q(s|t) 	the phi function decides relevance based on goodness of a split at a node and the phi function is maximized when the chosen feature splits the samples in a way that produces homogenous splits and have around the same number of samples in each split
 Gain Ratio	Algorithm Sub-function			Improves on information gain by considering the worth of attributes with a wide range of possible values thereby handling the bias of information gain to favor attributes with more pronounced values
 
-K-Means	Clustering	Σk in K	 Σx in Sk ||xᵢ - μ_k||² (for each cluster k)	where Sk is the set of points in cluster k	 and μ_k is the centroid of cluster k	Minimize within-cluster variance	Simple and scalable	Needs K specified and spherical classes and is sensitive to noise	Unsupervised		Sum of squared errors
-DBSCAN	Clustering	ε-neighborhood	 density ≥ minPts	Cluster defined by density regions	Handles noise and arbitrary shapes	Struggles with different densities
-Hierarchical Clustering	Clustering	d(A	B) = min/max/avg ||a - b||	Agglomerative clustering based on distance linkage	Dendogram visualization and no need to specify k	Computationally expensive	Unsupervised		Distance-metric based
-Within-Cluster Sum of Squares - WCSS	K-means clustering objective function	Σk Σx ||xᵢ - μ_k||²	where Sk is the set of points in cluster k	 and μ_k is the centroid of cluster k
+Centroid-based Clustering Method Clustering Method Type			Represent clusters using central points like centroids or medoids
+K-Means	Centroid-based Clustering Method	The objective is to find argmin Σi in K Σx in Si ||xᵢ - μ_k||² = argmin Σi in K |Si| Var Si (for each cluster k) where Si is the size of the set of points in cluster k and μ_k is the centroid of cluster k where each observation is a d-dimensional vector, aiming to partition the n observations into k <= n sets so as to minimize the within-cluster sum of squares WCSS (variance) and which is equivalent to minimizing the pair-wise squared deviations of points in the same cluster, picking k centers, assigning each point to the closest center and then updating centers based on the average of assigned points, repeating until assignments stabilize	Minimizes within-cluster variance by grouping data by proximity with the cluster centroids discovered from unlabeled data	Simple and fast and works well with spherical clusters with similar sizes and scalable	Needs K specified and spherical classes and is sensitive to noise	Unsupervised		Sum of squared errors
+K-means++ clustering Centroid-based Clustering Method
+K-mode clustering Centroid-based Clustering Method
+Fuzzy C-means (FCM) Clustering Centroid-based Clustering Method
+
+Distribution-based Clustering	Clustering Method Type
+Gaussian Mixture Models (GMMs)	Distribution-based Clustering Method 			Models clusters as overlapping Gaussian distributions, assigning probabilities for data points' cluster membership
+Expectation-Maximization Algorithms Distribution-based Clustering Method
+Dirichlet Process Mixture Models (DPMMs)	Distribution-based Clustering Method
+
+Connectivity-based Clustering method 	Clustering Method Type
+Hierarchical Clustering	Connectivity-based Clustering	d(A	B) = min/max/avg ||a - b||	Agglomerative clustering based on distance linkage, building a tree-like structure by merging or splitting clusters	Dendogram visualization and no need to specify k	Computationally expensive	Unsupervised		Distance-metric based
+Within-Cluster Sum of Squares - WCSS	K-means clustering objective function Σk in K Σx in Sk ||xᵢ - μ_k||² for all Sk where Sk is the set of points in cluster k and μ_k is the centroid of cluster k
+Agglomerative Clustering	Connectivity-based Clustering
+Divisive Clustering	Connectivity-based Clustering
+Affinity Propagation 	Connectivity-based Clustering
+
+Density-based Clustering Method 	Clustering Method Type
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise)	Density-based Clustering	ε-neighborhood with density ≥ minimum points	Forms clusters defined by density regions	Handles noise and outliers and arbitrary shapes	Struggles with different densities	Unsupervised
+OPTICS (Ordering Points to Identify the Clustering Structure)	Density-based Clustering
+
+Norm Vector Concept A norm is a function from a real or complex vector space to the non-negative real numbers that behaves in certain ways like the distance from the origin: it commutes with scaling, obeys a form of the triangle inequality, and zero is only at the origin. In particular, the Euclidean distance in a Euclidean space is defined by a norm on the associated Euclidean vector space, called the Euclidean norm, the 2-norm, or the magnitude or length of the vector. This norm can be defined as the "square root of the inner product of a vector with itself"
+Seminorm	Vector concept	Satisfies the first two properties of a norm but can be zero for vectors other than the origin
+A normed vector space Vector concept		A vector space with a specified norm
 
 Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ	 ŷᵢ)	Backpropagation minimizes loss via gradient descent				Cross entropy loss
 Neural Networks	Regression	J(θ) = (1/m) Σ Loss(yᵢ	 ŷᵢ)	Backpropagation minimizes loss via gradient descent				Mean squared error
@@ -98,11 +119,11 @@ One-Hot Encoding	Vectorization			converts a word into a vector with a bit corres
 Bag of Words	Vectorization			represents text data as a vector of word counts
 
 Dimensionality reduction	Function Type			used to simplify datasets by reducing the number of features while retaining the most important information.
-Principal Component Analysis (PCA)	Signal Processing and Dimensionality Reduction	maximize var(Z) s.t. Z = Xw and ||w||=1	Find eigenvectors of covariance matrix and thereby transforms data into a new set of orthogonal features (principal components) that capture the maximum variance	Reduces overfitting and fast and improves visualization	Components may be hard to interpret and disregards independence of components and misses non-linear patterns	Unsupervised		Minimizes variance loss
+Principal Component Analysis (PCA)	Signal Processing and Dimensionality Reduction to 2d	maximize var(Z) s.t. Z = Xw and ||w||=1	Find eigenvectors of covariance matrix and thereby transforms data into a new set of axes or orthogonal features (principal components) that capture the maximum variance, keeping the most important components	Reduces overfitting and reduces the number of features while retaining the variance and fast and improves visualization	Components may be hard to interpret and disregards independence of components and misses non-linear patterns	Unsupervised		Minimizes variance loss
 Independent Component Analysis (ICA)	Signal Processing and Dimensionality Reduction			separates mixed signals into their independent non-Gaussian components thereby finding a linear transformation of data that maximizes statistical independence among the components which is used in signal analysis to isolate distinct sources from mixed signals	doesnt require labeled data and is non-parametric so it doesnt require assumptions about the data probability distribution and can be used for feature extraction to identify important features	assumes decomposed source features are non-gaussian and are independent and are mixed linearly and ICA can be computationally expensive	Unsupervised
 Linear Discriminant Analysis (LDA)	Dimensionality Reduction	J(w) = |wᵗ S_B w| / |wᵗ S_W w|	Maximize class separation
-Autoencoders	Dimensionality Reduction and Anomaly Detection	L = ||x - x'||²	Neural network that compresses and reconstructs data to minimize reconstruction loss	useful for dimensionality reduction and feature learning and anomaly detection
-t-Distributed Stochastic Neighbor Embedding (t-SNE)	Dimensionality Reduction	Pᵢⱼ ∝ exp(-||xᵢ - xⱼ||²/2σ²)	Minimize Kullback-Leibler divergence between distributions and thereby reduces dimensions for visualizing high-dimensional data and preserving local relationships	Captures complex structure unlike PCA	slower and non-deterministic	Unsupervised		Minimizes pairwise differences
+Autoencoders	Dimensionality Reduction and Anomaly Detection	L = ||x - x'||²	Neural network that compresses and reconstructs data to minimize reconstruction loss, learning efficient representations of data	Useful for dimensionality reduction and feature learning and anomaly detection, works well with high-dimensional data
+t-Distributed Stochastic Neighbor Embedding (t-SNE)	Dimensionality Reduction	Pᵢⱼ ∝ exp(-||xᵢ - xⱼ||²/2σ²)	Minimize Kullback-Leibler divergence between distributions and thereby reduces dimensions for visualizing high-dimensional data and preserving local relationships	Captures complex structure unlike PCA and is effective at reducing the dimensionality of complex data	Slower and non-deterministic	Unsupervised		Minimizes pairwise differences
 Non-negative Matrix Factorization (NMF)	Dimensionality Reduction			Factorizes data into non-negative components	useful for sparse data like text or images
 Statistical independence	Concept			refers to the idea that two random variables: X and Y are independent if knowing one does not affect the probability of the other so the joint probability of X and Y is equal to the product of their individual probabilities
 Isomap	Dimensionality Reduction			Preserves geodesic distances to capture non-linear structures in data
@@ -113,6 +134,7 @@ Eigenvectors/eigenvalues	matrix attributes used in PCA			the principal component
 Singular Value Decomposition
 
 Scaling
+
 z-score	Evaluation Metric	z = (x - mean)/standard deviation		Standardizes x value
 t-score	Evaluation Metric			Uses the student's t-distribution
 Variance	Evaluation Metric	variance = (sum of (x - mean) squared)/n		
