@@ -109,6 +109,77 @@ Deep Q-Network (DQN)	Reinforcement Learning
 Convolutional Neural Networks (CNNs)	Neural Networks			Image Classification and Object Detection and Image Segmentation			
 Generative Adversarial Networks (GANs)	Neural Networks
 Long Short-Term Memory (LSTM) networks	Recurrent Neural Network
+Semi-supervised learning 	Learning type 	A hybrid between supervised and unsupervised learning that uses both labeled and unlabeled data for training 	Often used with large datasets when labeling data is expensive or time-consuming
+Self-supervised learning 	Learning Type 	Self-supervised learning is a subset of unsupervised learning where the model learns to predict parts of the data from other parts of the data without explicit labels	Is useful when labeling data is not possible
+
+
+	5. Neural Networks (including Deep Learning)
+		Best for: Images, speech, and text, Complex patterns and non-linear relationships
+		How it works: Consists of layers of neurons that apply weighted transformations followed by non-linear functions. Learns by backpropagating error and updating weights via gradient descent. 
+			- Multilayer Perceptron (MLP): Neural network with multiple layers of nodes. Used for both classification and regression
+			- Deep Learning
+				Deep learning is a subset of machine learning that uses neural networks with many layers. It is particularly useful for tasks involving large datasets and high-dimensional data (like images, audio, and text).
+				Feedforward Neural Networks (FNN):
+					Use Case: Classification, regression.
+					Why Use: Basic neural network model, easy to train, and can be used for simple tasks.
+					Examples: Predicting house prices, binary classification tasks.
+				Convolutional Neural Networks (CNN):
+					Use Case: Image classification, object detection, and computer vision tasks.
+					Why Use: Great for handling grid-like data (images), learns spatial hierarchies of features.
+					Examples: Image recognition, facial recognition, autonomous vehicles.
+				Recurrent Neural Networks (RNN):
+					Use Case: Sequential data (e.g., time-series, text).
+					Why Use: Can process sequences of data by maintaining hidden states, useful for tasks where context over time is important.
+					Examples: Speech recognition, language modeling, machine translation.
+				Long Short-Term Memory (LSTM):
+					Use Case: Sequence modeling with long-range dependencies.
+					Why Use: Addresses the vanishing gradient problem in RNNs, ideal for long-term dependencies.
+					Examples: Time-series forecasting, text generation.
+				Generative Adversarial Networks (GANs):
+					Use Case: Image generation, style transfer, anomaly detection.
+					Why Use: Powerful for generating synthetic data that closely resembles real data.
+					Examples: Deepfake generation, art generation, synthetic data creation.
+				Transformer Networks:
+					Use Case: Sequence-to-sequence tasks (especially in NLP).
+					Why Use: Efficiently handles long-range dependencies, parallelizes training, and achieves state-of-the-art results in many NLP tasks.
+					Examples: Machine translation (e.g., Google Translate), text summarization (e.g., GPT models).
+			- Reinforcement learning 
+				- In reinforcement learning (RL), the model learns by making a sequence of decisions to interact with an environment and receiving rewards or penalties. The goal is to maximize cumulative reward.
+				- Broadly categorized into Model-Based and Model-Free methods, these approaches differ in how they interact with the environment.
+				- Model-Based Methods
+					These methods use a model of the environment to predict outcomes and help the agent plan actions by simulating potential results.
+						Markov decision processes (MDPs)
+						Bellman equation
+						Value iteration algorithm
+						Monte Carlo Tree Search
+				- Model-Free Methods
+					These methods do not build or rely on an explicit model of the environment. Instead, the agent learns directly from experience by interacting with the environment and adjusting its actions based on feedback. Model-Free methods can be further divided into Value-Based and Policy-Based methods:
+					Value-Based Methods: Focus on learning the value of different states or actions, where the agent estimates the expected return from each action and selects the one with the highest value.
+						Q-Learning
+						SARSA
+						Monte Carlo Methods
+					Policy-based Methods: Directly learn a policy (a mapping from states to actions) without estimating values where the agent continuously adjusts its policy to maximize rewards.
+						REINFORCE Algorithm
+						Actor-Critic Algorithm
+						Asynchronous Advantage Actor-Critic (A3C)
+				- Q-Learning:
+					Use Case: Decision-making in sequential tasks.
+					Why Use: Can learn optimal policies even with limited knowledge of the environment.
+					Examples: Game AI (e.g., chess, Go), robotic control.
+				- Deep Q-Networks (DQN):
+					Use Case: More complex reinforcement learning tasks using deep learning.
+					Why Use: Combines Q-learning with deep neural networks, enabling it to handle large state spaces (e.g., pixels in a video game).
+					Examples: Atari game AI, autonomous vehicles.
+				- Policy Gradient Methods:
+					Use Case: Reinforcement learning tasks where policies are learned directly.
+					Why Use: Suitable for tasks with continuous action spaces or complex environments.
+					Examples: Robotics, continuous control tasks.
+				- Proximal Policy Optimization (PPO):
+					Use Case: Reinforcement learning with stable and efficient updates.
+					Why Use: Works well for large-scale problems with complex environments and has been used extensively in reinforcement learning.
+					Examples: Robotics, video games (e.g., OpenAI’s Dota 2 bot)
+
+
 Max Pooling	Neural Network layer type			Downsamples feature maps	 reduces computation
 Flatten	Neural Network layer type			Converts 2D to 1D
 Dense (Fully Connected)	Neural Network layer type			All nodes in the layer are connected to all nodes in the next layer
@@ -143,9 +214,13 @@ Standard error	Evaluation Metric	standard error = standard deviation / √n
 Kurtosis	Distribution Metric			a statistical measure that describes the shape of a distribution particularly the "peakedness" or "tailedness" of the data
 Skewness	Distribution Metric			
 
-Accuracy	Classification Evaluation Metric	TP/TP + FP + FP + FN	
-Precision	Classification Evaluation Metric	TP/TP + FP		Weights false positive predictions as important thereby analyzing the positive predictions	Does not consider True Negatives and False Negatives
-Recall	Classification Evaluation Metric	TP/TP + FN		Weights false negative predictions as important thereby analyzing the correct positive examples	Unfortunately it often emphasizes a higher false positive rate
+Accuracy	Classification Evaluation Metric	TP + TN/TP + TN + FP + FN	
+Precision (Positive Predictive Value)	Classification Evaluation Metric	TP/TP + FP		Weights false positive predictions as important thereby analyzing the positive predictions	Does not consider True Negatives and False Negatives
+Recall/sensitivity (True positive rate)	Classification Evaluation Metric	TP/TP + FN		Weights false negative predictions as important thereby analyzing the correct positive examples	Unfortunately it often emphasizes a higher false positive rate
+Specificity (True negative rate)	Classification Evaluation Metric 	TN/TN + FP
+Miss rate (False negative rate)	Classification Evaluation Metric 	FN/FN + TP
+False Discovery Rate 	Classification Evaluation Metric 	FP/FP + TP
+False Omission Rate 	Classification Evaluation Metric 	FN/FN + TN
 F1 score	Classification Evaluation Metric	2*(Precision * Recall)/(Precision + Recall)		if we increase the precision the recall decreases and vice versa so the harmonic mean of precision and recall combines these two metrics to offset that trade-off	best for uneven classes
 Cross-validated F1-score	Classification Evaluation Metric			helps avoid overfitting
 Mean F1 score	Classification Evaluation Metric
