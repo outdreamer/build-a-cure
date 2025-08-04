@@ -6,6 +6,9 @@
 
 ## Relevant Links
 
+Here's a data science study guide for learning purposes:
+https://github.com/outdreamer/build-a-cure/blob/master/docs/ml/ml_table.csv
+
 Here's a list of substances to prevent various health conditions that I like to work on whenever I read science news.
 https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/example_scripts/cancer.md?plain=1#L192
 
