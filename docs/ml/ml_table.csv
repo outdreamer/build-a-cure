@@ -83,6 +83,7 @@ Entropy	Information uncertainty function	Entropy H(S) = -Σ for all k (pᵢ log�
 Cross Entropy Loss	Function Type	(1/n) * Σ for all n [yᵢ * log(predicted yi + (1 - yᵢ) * log(1 - predicted yi]	class label y and predicted probability p	Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
 Binary Cross Entropy Loss 	Loss function 	-1/n * Σ for all n [actual yi * log (predicted yi) + (1 - actual yi) * log(1 - predicted yi) 	Used in binomial logistic regression
 Categorical Cross Entropy Loss 	Loss function - Σ for all n actual yi * log(predicted yi)
+Sparse Categorical Cross Entropy Loss 	Loss function
 Log Loss	Regression Evaluation Metric	-1/n * Σ for all points n Σ for all classes m yij * log(pij)	Used in multinomial logistic regression and neural networks
 R-squared loss	Regression Evaluation Metric 	Ratio of the sum of squares residual (SSR the total variation of predicted values from the mean) and the sum of squares total (SST the total variation of actual values from the mean) = 1 - Σ for all n (actual yi - predicted yi)^2 / Σ for all n (actual y - y mean)^2 = 1 - Mean squared error/Var(y)	The coefficient of determination R2 measures the proportion of the variation in the dependent variable that can be explained by independent variables	Less sensitive to outliers
 Hinge Loss	Classification	max(0, 1 - yᵢ(w·xᵢ + b))
@@ -91,6 +92,7 @@ Huber Loss
 Shannon Entropy		information(x) = -log(p(x))	log is the base 2 log or natural log and p(x) is the probability of event x
 Renyi Cross Entropy Loss (generalization of Shannon)
 Kullback-Leibler Divergence (Relative Entropy)	Regression Evaluation Metric			Evaluates difference between two probability distributions
+
 Gini Impurity	Information impurity function	Gini G(S) = 1 - Σ for all k (pᵢ)²	 The lower the Gini Impurity the better the feature splits the data into distinct categories
 Information Gain	Feature Selection Filter Method	IG = entropy H(S) - entropy H(S|a) = entropy H(S) - Σ for all values v in attribute A |Sv|/|S| * H(Sv) information gain = entropy of a node of the decision tree minus the entropy of a candidate split at node t of a decision tree	Measures how well an attribute reduces uncertainty/entropy where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty/entropy) in a set S which is calculated using the difference in entropy before and after the split	it tends to choose the most impactful features close to the root of the tree and is a good measure for deciding the relevance of some features	One major drawback of information gain is that the feature that is chosen as the next node in the tree tends to have more unique values
 Phi function 	Decision tree split function 	phi = 2 * PL * PR * Q(s|t) 	the phi function decides relevance based on goodness of a split at a node and the phi function is maximized when the chosen feature splits the samples in a way that produces homogenous splits and have around the same number of samples in each split
@@ -183,8 +185,8 @@ Bag of Words	Vectorization			represents text data as a vector of word counts
 
 Dimensionality reduction	Function Type			used to simplify datasets by reducing the number of features while retaining the most important information.
 Principal Component Analysis (PCA)	Signal Processing and Dimensionality Reduction to 2d	maximize var(Z) s.t. Z = Xw and ||w||=1	Find eigenvectors of covariance matrix and thereby transforms data into a new set of axes or orthogonal features (principal components) that capture the maximum variance, keeping the most important components	Reduces overfitting and reduces the number of features while retaining the variance and fast and improves visualization	Components may be hard to interpret and disregards independence of components and misses non-linear patterns	Unsupervised		Minimizes variance loss
-Principal Component Regression (PCR) 	Dimensionality Reduction Type
-Independent Component Analysis (ICA)	Signal Processing and Dimensionality Reduction			separates mixed signals into their independent non-Gaussian components thereby finding a linear transformation of data that maximizes statistical independence among the components which is used in signal analysis to isolate distinct sources from mixed signals	doesnt require labeled data and is non-parametric so it doesnt require assumptions about the data probability distribution and can be used for feature extraction to identify important features	assumes decomposed source features are non-gaussian and are independent and are mixed linearly and ICA can be computationally expensive	Unsupervised
+Principal Component Regression (PCR) 	Dimensionality Reduction
+Independent Component Analysis (ICA)	Signal Processing and Dimensionality Reduction			separates mixed signals into their independent non-Gaussian components thereby finding a linear transformation of data that maximizes statistical independence among the components which is used in signal analysis to isolate distinct sources from mixed signals	Doesnt require labeled data and is non-parametric so it doesnt require assumptions about the data probability distribution and can be used for feature extraction to identify important features	Assumes decomposed source features are non-gaussian and are independent and are mixed linearly and ICA can be computationally expensive	Unsupervised
 Linear Discriminant Analysis (LDA)	Dimensionality Reduction	J(w) = |wᵗ S_B w| / |wᵗ S_W w|	Maximize class separation
 Mixture Discriminant Analysis (MDA)
 Quadratic Discriminant Analysis (QDA)
@@ -193,12 +195,9 @@ Autoencoders	Dimensionality Reduction and Anomaly Detection	L = ||x - x'||²	Neu
 Stacked Auto-Encoders 	Neural Network Type
 t-Distributed Stochastic Neighbor Embedding (t-SNE)	Dimensionality Reduction	Pᵢⱼ ∝ exp(-||xᵢ - xⱼ||²/2σ²)	Minimize Kullback-Leibler divergence between distributions and thereby reduces dimensions for visualizing high-dimensional data and preserving local relationships	Captures complex structure unlike PCA and is effective at reducing the dimensionality of complex data	Slower and non-deterministic	Unsupervised		Minimizes pairwise differences
 Non-negative Matrix Factorization (NMF)	Dimensionality Reduction			Factorizes data into non-negative components	useful for sparse data like text or images
-Statistical independence	Concept			refers to the idea that two random variables: X and Y are independent if knowing one does not affect the probability of the other so the joint probability of X and Y is equal to the product of their individual probabilities
 Isomap	Dimensionality Reduction			Preserves geodesic distances to capture non-linear structures in data
 Locally Linear Embedding (LLE)	Dimensionality Reduction			Preserves local relationships by reconstructing data points from their neighbors
 Latent Semantic Analysis (LSA)	Dimensionality Reduction			Reduces the dimensionality of text data to reveal hidden patterns
-Covariance Matrix	matrix used in PCA			summarizes relationships between different variables
-Eigenvectors/eigenvalues	matrix attributes used in PCA			the principal components are the eigenvectors of the covariance matrix and the eigenvalues represent the variance explained by each component where the objective is to find the eigenvectors of the largest eigenvalues
 Partial Least Squares Regression (PLSR) 	Dimensionality Reduction Type
 Sammon Mapping	Dimensionality Reduction Type
 Multidimensional Scaling (MDS)	Dimensionality Reduction Type
@@ -206,17 +205,26 @@ Projection Pursuit	Dimensionality Reduction Type
 Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP)	Dimensionality Reduction Type
 Singular Value Decomposition	Dimensionality Reduction Type
 
+Statistical independence	Concept			refers to the idea that two random variables: X and Y are independent if knowing one does not affect the probability of the other so the joint probability of X and Y is equal to the product of their individual probabilities
+Covariance Matrix	matrix used in PCA			summarizes relationships between different variables
+Eigenvectors/eigenvalues in PCA	matrix attributes used in PCA			the principal components are the eigenvectors of the covariance matrix and the eigenvalues represent the variance explained by each component where the objective is to find the eigenvectors of the largest eigenvalues
+Eigenvector 	Matrix attribute 	Aftering finding eigenvalues, find the eigenvector (a nonzero vector that changes scale by an eigenvalue when multiplied by a matrix A) associated with eigenvalue_i: (matrix A - eigenvalue_i * identity matrix I) * eigenvector v = 0, where if multiplying A by v scales v by a factor of the scaler lambda then v is an eigenvector of A and lambda is the corresponding eigenvalue https://en.wikipedia.org/wiki/File:Eigenvalue_equation.svg
+Eigenvalue 	Matrix attribute 	Find eigenvalues (scalers that scale an eigenvector) by solving for the roots of the equation resulting from the determinant = 0: det(matrix A - eigenvalues λ * identity matrix I) = 0, then find eigenvectors for each eigenvalue
+Determinant of a matrix	Matrix attribute 	The 2x2 determinant is ad - bc and the 3x3 determinant is aei + bfg + cdh - ceg - bdi - afh, or can be expressed as the sum of n! signed products of matrix entries, or a linear combination of determinants of sub-matrixes, or can be expressed with gaussian elimination using the row echelon form
+
 z-score	Evaluation Metric	z = (x - mean)/standard deviation		Standardizes x value
-t-score	Evaluation Metric	estimated value - assumed value / standard error	Uses the student's t-distribution
-Variance	Evaluation Metric	variance = expected value of (x - mean)^2 or for a discrete variable the variance is (Σ for all n pi(xi - mean)^2) and for a continuous variable the integral of (x - mean)^2 * probability density function f(x) * dx, where the variance is defined as the expected value of the squared deviation from the mean of a random variable
-Standard deviation	Evaluation Metric	standard deviation = square root of the variance		
+t-score	Evaluation Metric	estimated value - assumed value / standard error	Uses the student's t-distribution to calculate the number of standard deviations from the mean
+Variance	Evaluation Metric	variance = expected value of (x - mean)^2 or for a discrete variable the variance is (Σ for all n pi(xi - mean)^2) and for a continuous variable the integral of (x - mean)^2 * probability density function f(x) * dx, where the variance is defined as the expected value of the squared deviation from the mean of a random variable, where the variance formula differs for specific probability distributions
+Standard deviation	Evaluation Metric	standard deviation = square root of the variance
 Standard error	Evaluation Metric	standard error = standard deviation / √n		
-Kurtosis	Distribution Metric			a statistical measure that describes the shape of a distribution particularly the "peakedness" or "tailedness" of the data
-Skewness	Distribution Metric			
+Confidence Interval 	Evaluation Metric 	A range of values used to estimate a population parameter like the mean, where a 95% confidence interval indicates that 95 of 100 repeated samples with the same sampling method overlap with the actual population value of the parameter, where the confidence interval reflects the reliability of the sampling method used to generate the intervals
+Kurtosis	Distribution Metric			Kurtosis is a statistical measure that describes the shape of a distribution particularly the "peakedness" or "tailedness" of the data
+Skewness	Distribution Metric		Skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean
 
 Accuracy	Classification Evaluation Metric	TP + TN/TP + TN + FP + FN	
 Precision (Positive Predictive Value)	Classification Evaluation Metric	TP/TP + FP		Weights false positive predictions as important thereby analyzing the positive predictions	Does not consider True Negatives and False Negatives
 Recall/sensitivity (True positive rate)	Classification Evaluation Metric	TP/TP + FN		Weights false negative predictions as important thereby analyzing the correct positive examples	Unfortunately it often emphasizes a higher false positive rate
+False positive rate 	Classification Evaluation Metric 	FP/FP + TN
 Specificity (True negative rate)	Classification Evaluation Metric 	TN/TN + FP
 Miss rate (False negative rate)	Classification Evaluation Metric 	FN/FN + TP
 False Discovery Rate 	Classification Evaluation Metric 	FP/FP + TP
@@ -226,7 +234,7 @@ Cross-validated F1-score	Classification Evaluation Metric			helps avoid overfitt
 Mean F1 score	Classification Evaluation Metric
 Confusion Matrix	Classification Evaluation Metric			Compares counts of actual vs. predicted outputs for each of N target classes to compare predictions (true/false positives and true/false negatives)
 AUC curve	Classification Evaluation Metric			Evaluates how well the model can separate the classes by analyzing the classification model at different threshold values where a score close to 1 is ideal	good for binary classification
-Receiver Operating Characteristic ROC curve	Classification Evaluation Metric			Compares true positive rate (recall/sensitivity) and the false positive rate (FP/FP + TN) and determines the model's capacity to distinguish between different classes	good for binary classification
+Receiver Operating Characteristic ROC curve	Classification Evaluation Metric			Compares true positive rate (recall/sensitivity) and the false positive rate and determines the model's capacity to distinguish between different classes	good for binary classification
 Precision-Recall Curve	Classification Evaluation Metric			good when the positive class is rare
 Silhouette Score	Clustering Evaluation Metric 	
 
@@ -238,9 +246,6 @@ Mean Squared Error	Regression Evaluation Metric	1/n * Σ for all n of (actual y�
 Mean Absolute Percentage Error	Regression Evaluation Metric			Used to express the error in terms of percentage	 where the smaller the percentage the better the model performance
 Root Mean Squared Error	Regression Evaluation Metric	√(Σ for all n (actual yi - predicted yi)^2) / N		Indicates how much the data points are spread around the best line and is the standard deviation of the MSE	 where lower value means that the data point lies closer to the best fit line.
 Root Mean Squared Log Error	Regression Evaluation Metric 	√ (Σ for all n (log(actual yi + 1) - log(predicted yi + 1))^2 / N)
-
-Hyperparameters	Variable Type
-Learning Rate	Hyperparameter			Learning rate determines the jump interval for gradient descent
 
 Filter Methods	Feature Selection Method			Evaluate each feature independently with target variable where features with high correlation with target variable are selected as it means this feature has some relation and can help make predictions where these methods are used in the preprocessing phase to remove irrelevant or redundant features based on statistical tests (correlation) or other criteria	Quickly evaluate features without training the model and good for removing redundant or correlated features and Filter methods are often preferred for very large datasets due to their speed	These methods don't consider feature interactions so they may miss feature combinations that improve model performance
 Chi-square test	Feature Selection Filter Method			It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
@@ -261,20 +266,39 @@ Loss function	Function Type			the loss function L(a(x),y) defines the cost of ma
 Cost/objective function	Function Type			An average of the loss function of an entire training set containing several training examples thereby quantifying the model's performance on the whole training dataset
 Risk function	Function Type			the risk function combines the loss function and the decision rule and the probabilities where the risk of a decision rule a(x) is the sum for x,y of the (expected loss(a(x),y) * probability P(x,y)) where the decision rule that minimizes the risk is selected
 
-Cross validation	Function Type			Some part of the dataset is reserved for testing the model. There are many types of Cross-Validation out of which K Fold Cross Validation is mostly used
-k-fold cross validation	Cross Validation and Generalization Method			The original dataset is divided into k subsets (folds) and this is repeated k times where 1 fold is used for testing purposes and the rest k-1 folds are used for training the model which eneralizes the model well and reduces the error rate.
+Cross validation	Function Type		Some part of the dataset is reserved for testing the model. There are many types of Cross-Validation out of which K Fold Cross Validation is mostly used
+K-fold cross validation	Cross Validation and Generalization Method			The original dataset is divided into k subsets (folds) and this is repeated k times where 1 fold is used for testing purposes and the rest k-1 folds are used for training the model which generalizes the model well and reduces the error rate, where the performance on each fold is averaged once all folds are trained 	More cross validation folds reduces the chance of overfitting
 Holdout is a simpler approach	Cross Validation and Generalization Method			the dataset is divided into ratios like 80:20 of train and test datasets and is used in neural networks and many classifiers
 Adversarial Validation	Validation Type	
 
-Data Augmentation	Function Type			Helps generalize and generates new data records/features based on existing data and makes it harder to memorize irrelevant information like over-specific information or noise via training examples or features
-Mixup	Data Augmentation and Generalization Method	
-Cutout	Data Augmentation and Generalization Method	
-CutMix	Data Augmentation and Generalization Method	
+Hyperparameters	Variable Type
+Learning Rate	Hyperparameter			Learning rate determines the jump interval for gradient descent
+Batch size 	Hyperparameter
+N estimators 	Random forest hyperparameter 		Number of trees in a random forest
+Max depth 	Decision tree hyperparameter 		Maximum number of levels in a decision tree
+Minimum samples split 	Decision tree hyperparameter 		Minimum number of data points in a node before the node is split
+Minimum samples leaf 	Decision tree hyperparameter 		Minimum number of data points allowed in a leaf node
+Max features 	Decision Tree hyperparameter 		Maximum number of features considered in a decision tree when splitting nodes
+Bootstrap  	Decision Tree hyperparameter 		Method for sampling data point with or without replacement
+
+Hyperparameter Tuning	Function Type			Process of optimizing model parameters other than data parameters (like learning rate	 number of trees).
+Grid search	Hyperparameter Tuning 	Grid search checks every combination of hyperparameters  	Grid search is exhaustive, checking every value within specified ranges	However, grid search only checks within the specified hyperparameter ranges and is computationally expensive and can only check discrete values
+Random Search	Hyperparameter Tuning 	Random search checks a random subset of combinations of hyperparameters, either sampling with or without replacement 	Random search can increase hyperparameter ranges without increasing the number of checks tested	Random search like grid search only checks within the specified hyperparameter ranges and can only check discrete values
+Bayesian Optimization	Hyperparameter Tuning 	Applies informed changes to hyperparameters checked, based on information from previous checks 	Can reach the optimal configurations quicker than grid or random search 	Mostly only useful for large models since smaller models can be checked quickly with grid search
+K-fold cross validation with hyperparameter tuning 	Hyperparameter Tuning 	Its useful to combine k-fold cross validation with hyperparameter search methods, performing k-fold cross validation with each hyperparameter configuration for can example with grid search
+
+Data Augmentation	Function Type 		Can involve scaling, cropping, flipping, or rotating image data or applying changes like random noise or dropping random values to data in general 	Helps generalize and generates new data records/features based on existing data and makes it harder to memorize irrelevant information like over-specific information or noise via training examples or features
+Mixup	Data Augmentation and Generalization and Regularization Method 	Randomly mixes data like by overlapping images 	Mixup increases data diversity 	However Mixup also can create blurred images 
+Cutout	Data Augmentation and Generalization and Regularization Method 	Randomly removes square sections of images during training 	Cutout can remove noise, making models more robust 	However cutout can also remove important features especially in sparse images	
+CutMix	Data Augmentation and Generalization and Regularization Method 	Randomly mixes a subset of input images and mixes labels according to the proportion of the image subsets 	Cutmix increases data diversity 	However cutmix also can create unrealistic images and can remove important features especially in sparse images
 
 Model Interpretability & Explainability	Function Type			Understanding how a model makes decisions
-SHAP	Model Interpretability
-LIME	Model Interpretability
+SHAP (shapley additive explanations)	Model Interpretability	The shapley value for feature i is: φᵢ = Σ [|S|!(M-|S|-1)!/M!] × [f(S ∪ {i}) – f(S)] where S represents all possible subsets of features excluding feature i, and f represents the model’s prediction function 	SHAP calculates feature importance by considering all possible combinations of features and measuring how much each feature contributes to the difference between the current and average prediction, ensuring that the sum of all SHAP values equals the difference between the individual and average prediction, where features that contribute equally have equal SHAP values, positively/negatively contributing features have positive/negative values, and features that dont contribute have zero SHAP values and SHAP values can be computed by summing values from individual components 	SHAP is rigorous, has consistent explanations, integrates global and local info, is efficient by optimizing for model types, enables rich visualizations and is additive and is better for complex models 	However SHAP is computationally complex, has errors from approximations, is sensitive to the choice of baseline value, doesnt handle correlated features well, and requires careful selection of datasets
+LIME (local interpretable model-agnostic explanations)	Model Interpretability 	Lime explains individual predictions by learning an interpretable model locally around the prediction by perturbing relevant input features around a specific instance and observing how predictions change, first perturbing data, then collecting predictions, then assigning higher weights to closer samples, then training a local model using algorithms like linear regression, then generates explanations based on coefficients of the local model 		LIME is useful bc of its model agnosticism, instance-specific explanations, intuitive output, flexible data type handling, and local fidelity, accurately approximating model behavior in the local neighborhood of the explained instance 	However LIME is unstable/volatile/inconsistent with small input changes leading to very different explanations due to random sampling and is dependent on sampling strategy used for perturbations, uses and reflects limited global info, is computationally expensive and is sensitive to hyperparameters and is better for simpler models
 Feature importance plots	Model Interpretability
+DeepLIFT	Deep learning interpretability method
+Grad-CAM	Deep learning interpretability method
+Integrated Gradients	Deep learning interpretability method
 
 Activation functions	Function Type			Specifies whether a neural network node should be activated thereby allowing that set of weights to contribute to the model
 Step	Activation function	1 if ∑n wi * xi + b > 0	 0 otherwise
@@ -282,10 +306,9 @@ ReLU	Activation function	f(x) = max(0,x)
 Softmax	Activation function	
 Tanh	Activation function	
 
-Hyperparameter Tuning	Function Type			Process of optimizing model parameters other than data parameters (like learning rate	 number of trees).
-Grid search	Hyperparameter Tuning
-Random Search	Hyperparameter Tuning
-Bayesian Optimization	Hyperparameter Tuning
+Batch normalization (BatchNorm)	Reducing overfitting and regularization and layer input normalization technique			stabilize training and regularize and generalize
+Layer normalization (LayerNorm)	Reducing overfitting and regularization and layer input normalization technique			stabilize training and regularize and generalize
+Weight normalization	Reducing overfitting and normalization			normalizes the model weights instead of layer inputs	generalizes and regularizes indirectly
 
 Data/Covariate shift	Problem Type			Distribution of x input data changes so detect covariate shift with adversarial validation and fix covariate shift with importance weighting (assign different weights to training examples to emphasize certain examples during training to increase the weight of examples likely to be in the test distribution)
 Label/Prior probability shift	Problem Type			y class label distribution changes so update the model by adjusting the weights of the weighted loss function according to the new distribution if the new distribution of labels is known which is a type of importance weighting that incentivizes prioritizing certain classes that have become more or less common in the new data
@@ -315,9 +338,12 @@ Stochastic weight averaging	Reducing overfitting with model modifications
 Multitask learning	Reducing overfitting with model modifications
 Snapshot ensemble	Reducing overfitting with model modifications
 
-Batch normalization (BatchNorm)	Reducing overfitting and normalization and regularization and layer input normalization technique			stabilize training and regularize and generalize
-Layer normalization (LayerNorm)	Reducing overfitting and normalization and regularization and layer input normalization technique			stabilize training and regularize and generalize
-Weight normalization	Reducing overfitting and normalization			normalizes the model weights instead of layer inputs	generalizes and regularizes indirectly
+Curse of dimensionality	Problem Type 		Phenomena that occur in high dimensional spaces related to increases in sparsity with increases in dimension, resulting in increased data requirements and where high dimensional spaces make all data seem different resulting in difficulty identifying similarities to organize it
+Vanishing Gradient problem	Problem Type		Phenomenon where early layers have smaller weights than later layers due to increased numbers of multiplications during backpropagation, which can introduce instability in training or slow/halt training, occurring mostly in deep networks and specifically recurrent neural networks which use many layers	A solution for RNNs could be a LSTM network, gradient clipping to restrict the gradients within a radius, batch normalization, a multi-level hierarchy of networks pre-trained one level at a time, deep belief networks, residual connections, the ReLU activation function, or weight initialization where distribution of initial weights vary according to activation function used
+Bias vs. variance trade-off	Problem type 		In supervised learning, bias error occurs when the learning algorithm has incorrect assumptions causing it to miss general patterns in data by underfitting, where variance error results from sensitivity to small changes in inputs which can model the noise rather than the general patterns in data by overfitting to noise, where accuracy is a way to quantify bias which can be improved by selecting local info and precision quantifies variance which can be improved by selecting info from a larger space compared to bias/accuracy and which can be optimized or smoothed with regularization to remove excess neighboring info
+Data leakage	Problem Type			Data leakage happens when a model has access to info during training that it wont have access to when making predictions
+Model collapse 	Problem Type 		Model collapse refers to the phenomenon where a model's performance degrades due to errors from training on uncurated synthetic data output by another model, occurring as a result of learning errors, sampling errors, or functional approximation errors
+Bayes error rate 	Problem Type 	Bayes error (reproducible error or the minimum possible error) is a combination of latent variables, unmeasurable features, and noise
 
 Binomial distribution 	Probability Distribution	The probability of getting exactly k successes in n independent Bernoulli trials (with the same rate p) is given by the probability mass function (n choose k) * p^k * (1 - p)^(n-k) with mean np and variance np * (1 - p) 	The binomial distribution is used to calculate probabilities for a process where only one of two possible outcomes may occur on each trial, such as coin tosses
 N choose k	Probability Function	n choose k = n!/(k! * (n-k)!)
@@ -328,12 +354,6 @@ Geometric distribution 	Probability Distribution	The pdf indicates the probabili
 Exponential Distribution 	Probability Distribution 	The pdf is f(x|lambda) = lambda * e^(-lambda * x) where the mean is 1/lambda and the variance is 1/(lambda^2)
 Uniform Distribution 	Probability Distribution 	The pdf is f(x|a,b) = 1/(b-a) for x between a and b and 0 for x < a or x > b where the mean is (a + b)/2 and the variance is (b - a)^2/12
 Gaussian Distribution 	Probability Distribution 	The pdf is f(x|mean, variance) = (1/√2 * pi * variance) * e ^ (-1/2 * (x - mean/standard deviation)^2)
-
-Curse of dimensionality	Problem Type 		Phenomena that occur in high dimensional spaces related to increases in sparsity with increases in dimension, resulting in increased data requirements and where high dimensional spaces make all data seem different resulting in difficulty identifying similarities to organize it
-Vanishing Gradient problem	Problem Type		Phenomenon where early layers have smaller weights than later layers due to increased numbers of multiplications during backpropagation, which can introduce instability in training or slow/halt training, occurring mostly in deep networks and specifically recurrent neural networks which use many layers	A solution for RNNs could be a LSTM network, gradient clipping to restrict the gradients within a radius, batch normalization, a multi-level hierarchy of networks pre-trained one level at a time, deep belief networks, residual connections, the ReLU activation function, or weight initialization where distribution of initial weights vary according to activation function used
-Bias vs. variance trade-off	Problem type 		In supervised learning, bias error occurs when the learning algorithm has incorrect assumptions causing it to miss general patterns in data by underfitting, where variance error results from sensitivity to small changes in inputs which can model the noise rather than the general patterns in data by overfitting to noise, where accuracy is a way to quantify bias which can be improved by selecting local info and precision quantifies variance which can be improved by selecting info from a larger space compared to bias/accuracy and which can be optimized or smoothed with regularization to remove excess neighboring info
-Data leakage	Problem Type			Data leakage happens when a model has access to info during training that it wont have access to when making predictions
-Model collapse 	Problem Type 		Model collapse refers to the phenomenon where a model's performance degrades due to errors from training on uncurated synthetic data output by another model, occurring as a result of learning errors, sampling errors, or functional approximation errors
 
 SMOTE
 Hypothesis Testing				commonly used in Outlier Detection
@@ -356,3 +376,6 @@ https://github.com/Tanu-N-Prabhu/Python/tree/master/Machine%20Learning%20Intervi
 https://machinelearningmastery.com/
 https://www.cs.jhu.edu/~ayuille/courses/Stat161-261-Spring14/RevisedLectureNotes2.pdf#:~:text=Hence%20the%20form%20of%20the%20decision%20rule%20%28i.e.	is%20at%20xML%20%3D%201%3D2%28%201%20%2B%201%29.
 https://www.geeksforgeeks.org/machine-learning/decision-tree/
+https://mljourney.com/ml-model-explainability-shap-vs-lime/
+https://www.markovml.com/blog/lime-vs-shap
+https://blog.dailydoseofds.com/p/grid-search-vs-random-search-vs-bayesian
