@@ -79,19 +79,44 @@ Random Forest Regressor	Regression and Feature Selection Embedded Method and Ens
 Few-shot learning 			Using a very small example-to-class ratio for small training sets, for example in a 5-way 1-shot problem there are five classes with one example each, uses a support set to sample training tasks that mimic the use-case scenario during prediction, where each training task has a query image to be classified and the model is trained on several training tasks from the support set in an "episode", where the classes in the support and query sets differ from the support and query sets encountered during training, where one few-shot strategy is to learn a model that produces embeddings so we can find the target class with a nearest-neighbor search among the images in the support set, where the model learns how to produce good embeddings from the support set to classify the query image based on finding the most similar embedding vector		Supervised
 Meta-learning (few shot)	Few shot learning type 		Training updates the model's parameters so it can adapt well to a new task 			Supervised
 
-Entropy	Information uncertainty function	Entropy H(S) = -Σ for all k (pᵢ log₂ pᵢ) where pᵢ is the proportion of the dataset belonging to class i	entropy encodes the number of info bits required to represent information and a decision tree tries to reduce the entropy by splitting the data on features that provide the most information about the target variable
-Cross Entropy Loss	Function Type	-Σ for all n (true label yᵢ * log(predicted probability pi for class i)) where the true label is a one-hot encoded vector which is 1 for the correct class and 0 for incorrect classes	Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
-Binary Cross Entropy Loss 	Loss function 	-1/n * Σ for all n [actual yi * log (predicted yi) + (1 - actual yi) * log(1 - predicted yi) 	Used in binomial logistic regression
-Categorical Cross Entropy Loss 	Loss function - Σ for all n actual yi * log(predicted yi)
-Sparse Categorical Cross Entropy Loss 	Loss function
-Log Loss	Regression Evaluation Metric	-1/n * Σ for all points n Σ for all classes m yij * log(pij)	Used in multinomial logistic regression and neural networks
-R-squared loss	Regression Evaluation Metric 	Ratio of the sum of squares residual (SSR the total variation of predicted values from the mean) and the sum of squares total (SST the total variation of actual values from the mean) = 1 - Σ for all n (actual yi - predicted yi)^2 / Σ for all n (actual y - y mean)^2 = 1 - Mean squared error/Var(y)	The coefficient of determination R2 measures the proportion of the variation in the dependent variable that can be explained by independent variables	Less sensitive to outliers
-Hinge Loss	Classification	max(0, 1 - yᵢ(w·xᵢ + b))
-Huber Loss
 
-Shannon Entropy		information(x) = -log(p(x))	log is the base 2 log or natural log and p(x) is the probability of event x
-Renyi Cross Entropy Loss (generalization of Shannon)
-Kullback-Leibler Divergence (Relative Entropy)	Regression Evaluation Metric			Evaluates difference between two probability distributions
+Loss/error functions	Function Type			Quantifies how well one prediction of the machine learning algorithm compares to the actual target value during training thereby providing the signal for the model's learning algorithm to update weights and parameters
+Mean Absolute Error	Regression Loss Function 	1/n * Σ for all n |actual yj - predicted yj| 		Sensitive to outliers
+Mean Squared Error	Regression Loss Function	1/n * Σ for all n of (actual yᵢ - predicted yᵢ)²		Penalizes larger errors heavily
+Mean Absolute Percentage Error	Regression Loss Function			Used to express the error in terms of percentage	 where the smaller the percentage the better the model performance
+Root Mean Squared Error	Regression Loss Function	√(Σ for all n (actual yi - predicted yi)^2) / N		Indicates how much the data points are spread around the best line and is the standard deviation of the MSE	 where lower value means that the data point lies closer to the best fit line.
+Root Mean Squared Log Error	Regression Loss Function 	√ (Σ for all n (log(actual yi + 1) - log(predicted yi + 1))^2 / N)
+Huber Loss
+Los-cosh Loss 	Regression Loss Function 	Σ log(cosh(predicted yi - actual yi)) 	Log-cosh loss is a smooth alternative to MAE that is less sensitive to outliers
+
+Cross Entropy Loss	Function Type	-Σ for all n (true label yᵢ * log(predicted probability pi for class i)) where the true label is a one-hot encoded vector which is 1 for the correct class and 0 for incorrect classes	Cross entropy is used to measure the distance between two probability distributions such as using the discrete cross-entropy loss (CE) between class label y and the predicted probability p when training logistic regression or neural network classifiers on a dataset of n examples
+
+Binary Cross Entropy Loss 	Binary Classification Loss Function 	-1/n * Σ for all n [actual yi * log (predicted yi) + (1 - actual yi) * log(1 - predicted yi) 	Used in binomial logistic regression, measures how close predictions are to actual class probabilities
+Hinge Loss	SVM Binary Classification Loss Function	max(0, 1 - yᵢ(w·xᵢ + b)) 	Encourages a large margin between classes
+
+Categorical Cross Entropy Loss 	Multiclass Classification Loss Function - Σ for all n actual yi * log(predicted yi) 	Generalization of binary cross entropy for > 2 classes
+Sparse Categorical Cross Entropy Loss 	Multiclass Classification Loss Function with sparse labels 			Optimized for memory, labels don't need to be one-hot		
+KL Divergence 	Probabilistic Classification 		Measures divergence from true distribution
+
+Focal Loss 	Imbalanced Classification Loss Function 			Focuses learning on hard misclassified examples
+Hinge Loss/Margin Ranking Loss 	Ranking Loss Function 			Encourages correct order of relevance
+Triplet Loss 	Loss Function used in Face Recognition, Embeddings 			Encourages anchor-positive closeness and anchor-negative separation
+Dice Loss/IoU Loss 	Image segmentation Loss Function 			Measures overlap and is robust when classes are imbalanced
+Connectionist Temporal Classification Loss 	Sequence model Loss Function 			Enables training without aligned input-output sequences
+Wasserstein Loss 	GAN/WGAN Loss Function 			Stabilizes gradients in training generative models
+
+Log Loss	Regression Loss Function	-1/n * Σ for all points n Σ for all classes m yij * log(pij)	Used in multinomial logistic regression and neural networks
+R-squared loss	Regression Loss Function 	Ratio of the sum of squares residual (SSR the total variation of predicted values from the mean) and the sum of squares total (SST the total variation of actual values from the mean) = 1 - Σ for all n (actual yi - predicted yi)^2 / Σ for all n (actual y - y mean)^2 = 1 - Mean squared error/Var(y)	The coefficient of determination R2 measures the proportion of the variation in the dependent variable that can be explained by independent variables	Less sensitive to outliers
+
+Entropy	Information uncertainty function	Entropy H(S) = -Σ for all k (pᵢ log₂ pᵢ) where pᵢ is the proportion of the dataset belonging to class i	entropy encodes the number of info bits required to represent information and a decision tree tries to reduce the entropy by splitting the data on features that provide the most information about the target variable
+Shannon Entropy 	Entropy type 	The expected amount of information/surprise in a random variable is information(x) = -log(p(x))	log is the base 2 log or natural log and p(x) is the probability of event x
+Cross Entropy 	Entropy type 	The distance between the true distribution p and the predicted distribution q
+Conditional Entropy 	Entropy type 	The average uncertainty remaining in Y given that X is known
+Kullback-Leibler Divergence (Relative Entropy)	Entropy type 	Indicates how a probability distribution diverges from a second expected distribution
+Differential Entropy 	Entropy type 	Differential entropy is entropy for continuous random variables
+Joint Entropy 	Entropy type 	The uncertainty of two variables together 
+Renyi Entropy (generalization of Shannon) 	Entropy type 	Renyi entropy is a tunable generalization of entropy for different sensitivity levels
+Tsallis Entropy 	Entropy type 	Tsallis entropy is another generalization of entropy used in non-extensive systems like complex networks
 
 Gini Impurity	Information impurity function	Gini G(S) = 1 - Σ for all k (pᵢ)²	 The lower the Gini Impurity the better the feature splits the data into distinct categories
 Information Gain	Feature Selection Filter Method	IG = entropy H(S) - entropy H(S|a) = entropy H(S) - Σ for all values v in attribute A |Sv|/|S| * H(Sv) information gain = entropy of a node of the decision tree minus the entropy of a candidate split at node t of a decision tree	Measures how well an attribute reduces uncertainty/entropy where a greedy algorithm would split data based on which attribute maximizes information gain (reduces uncertainty/entropy) in a set S which is calculated using the difference in entropy before and after the split	it tends to choose the most impactful features close to the root of the tree and is a good measure for deciding the relevance of some features	One major drawback of information gain is that the feature that is chosen as the next node in the tree tends to have more unique values
@@ -131,6 +156,8 @@ Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ,ŷᵢ)	Backpropagation
 Neural Networks	Regression							Mean squared error
 Gradient Descent	Optimization function	the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
 Stochastic Gradient Descent 	Optimization function
+Batch Gradient Descent
+Adam Gradient Descent
 Backpropagation	Neural network weight update function			applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
 Multilayer Perception 	Neural Network Type for Classification and Regression 		Neural network with multiple layers of nodes
 Deep learning 	Learning Type		Uses neural networks with many layers 	useful for tasks involving large datasets and high-dimensinoal data
@@ -214,12 +241,15 @@ Determinant of a matrix	Matrix attribute 	The 2x2 determinant is ad - bc and the
 
 z-score	Evaluation Metric	z = (x - mean)/standard deviation		Standardizes x value
 t-score	Evaluation Metric	estimated value - assumed value / standard error	Uses the student's t-distribution to calculate the number of standard deviations from the mean
-Variance	Evaluation Metric	variance = expected value of (x - mean)^2 or for a discrete variable the variance is (Σ for all n pi(xi - mean)^2) and for a continuous variable the integral of (x - mean)^2 * probability density function f(x) * dx, where the variance is defined as the expected value of the squared deviation from the mean of a random variable, where the variance formula differs for specific probability distributions
+Variance	Evaluation Metric	variance = expected value E of (x - mean)^2 for a random variable, or the covariance of a random variable with itself, or the second cumulant of a probability distribution that generates X: E[X^2] - E[X]^2
 Standard deviation	Evaluation Metric	standard deviation = square root of the variance
-Standard error	Evaluation Metric	standard error = standard deviation / √n		
+Standard error	Evaluation Metric	standard error = standard deviation / √n
 Confidence Interval 	Evaluation Metric 	A range of values used to estimate a population parameter like the mean, where a 95% confidence interval indicates that 95 of 100 repeated samples with the same sampling method overlap with the actual population value of the parameter, where the confidence interval reflects the reliability of the sampling method used to generate the intervals
 Kurtosis	Distribution Metric			Kurtosis is a statistical measure that describes the shape of a distribution particularly the "peakedness" or "tailedness" of the data
 Skewness	Distribution Metric		Skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean
+Expected value
+Covariance
+Correlation
 
 Accuracy	Classification Evaluation Metric	TP + TN/TP + TN + FP + FN	
 Precision (Positive Predictive Value)	Classification Evaluation Metric	TP/TP + FP		Weights false positive predictions as important thereby analyzing the positive predictions	Does not consider True Negatives and False Negatives
@@ -240,13 +270,6 @@ Silhouette Score	Clustering Evaluation Metric
 
 Learning Curve	Function Type			Compares how well increasingly large training sets perform on the same test set to evaluate if the model would benefit from more data where if the validation accuracy increases with training set size it indicates underfitting and that more data would be useful and where a gap in training and test set accuracy indicates overfitting and where additional data can decrease both underfitting and overfitting
 
-Loss/error functions	Function Type			Quantifies how well one prediction of the machine learning algorithm compares to the actual target value during training thereby providing the signal for the model's learning algorithm to update weights and parameters
-Mean Absolute Error	Regression Evaluation Metric 	1/n * Σ for all n |actual yj - predicted yj|
-Mean Squared Error	Regression Evaluation Metric	1/n * Σ for all n of (actual yᵢ - predicted yᵢ)²		Penalizes larger errors heavily
-Mean Absolute Percentage Error	Regression Evaluation Metric			Used to express the error in terms of percentage	 where the smaller the percentage the better the model performance
-Root Mean Squared Error	Regression Evaluation Metric	√(Σ for all n (actual yi - predicted yi)^2) / N		Indicates how much the data points are spread around the best line and is the standard deviation of the MSE	 where lower value means that the data point lies closer to the best fit line.
-Root Mean Squared Log Error	Regression Evaluation Metric 	√ (Σ for all n (log(actual yi + 1) - log(predicted yi + 1))^2 / N)
-
 Filter Methods	Feature Selection Method			Evaluate each feature independently with target variable where features with high correlation with target variable are selected as it means this feature has some relation and can help make predictions where these methods are used in the preprocessing phase to remove irrelevant or redundant features based on statistical tests (correlation) or other criteria	Quickly evaluate features without training the model and good for removing redundant or correlated features and Filter methods are often preferred for very large datasets due to their speed	These methods don't consider feature interactions so they may miss feature combinations that improve model performance
 Chi-square test	Feature Selection Filter Method			It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
 Fisher’s Score	Feature Selection Filter Method			Fisher's selects each feature independently according to their scores under Fisher criterion leading to an optimal set of features so a larger the Fisher’s score indicates a better selected feature
@@ -255,6 +278,10 @@ Variance Threshold	Feature Selection Filter Method			variance threshold is an ap
 Mean Absolute Difference	Feature Selection Filter Method			Mean absolute difference is a method is similar to variance threshold method but the difference is there is no square in this method
 Dispersion ratio	Feature Selection Filter Method			It is defined as the ratio of the Arithmetic mean (AM) to that of Geometric mean (GM) for a given feature whose value ranges from +1 to infinity as AM ≥ GM for a given feature where a higher dispersion ratio implies a more relevant feature
 
+Hypothesis Testing				Commonly used in outlier detection, includes t-test, chi-square, ANOVA
+ANOVA
+ANCOVA
+
 Wrapper Method	Feature Selection Method			Greedy algorithms that train algorithms using different combinations of features and computing relations between these subset features and the target variable and add/remove features with stopping criteria being potentially whenever the model performance decreases or a specific number of features is achieved	Can lead to better model performance since they evaluate feature subsets in the context of the model and can capture feature dependencies and interactions	But are computationally more expensive than filter methods especially for large datasets
 Forward selection	Feature Selection Wrapper Method			Forward selection is an iterative approach where we initially start with an empty set of features and keep adding a feature which best improves our model after each iteration where the stopping criterion is where the addition of a new variable does not improve the performance of the model
 Backward elimination	Feature Selection Wrapper Method			Backward elimination is a method that is also an iterative approach where we initially start with all features and after each iteration we remove the least significant feature where the stopping criterion is where no improvement in the performance of the model is observed after the feature is removed
@@ -262,9 +289,10 @@ Recursive elimination	Feature Selection Wrapper Method			Recursive elimination i
 
 Embedded Method	Feature Selection Method			Embedded methods perform feature selection during the model training process and combine the benefits of both filter and wrapper methods and include Lasso regularization, decision trees, random forests, and gradient boosting which all select important features	 where feature selection is integrated into the model training allowing the model to select the most relevant features based on the training process dynamically	More efficient than wrapper methods because the feature selection process is embedded within model training and is often more scalable than wrapper methods and Wrapper and embedded methods are better for capturing complex feature interactions	Works with a specific learning algorithm so the feature selection might not work well with other models
 
-Loss function	Function Type			the loss function L(a(x),y) defines the cost of making decision a(x) when the true state is y
-Cost/objective function	Function Type			An average of the loss function of an entire training set containing several training examples thereby quantifying the model's performance on the whole training dataset
-Risk function	Function Type			the risk function combines the loss function and the decision rule and the probabilities where the risk of a decision rule a(x) is the sum for x,y of the (expected loss(a(x),y) * probability P(x,y)) where the decision rule that minimizes the risk is selected
+Loss function	Function Type			The loss function Loss(a(x),y) defines the cost of making decision a(x) when the true state is y for a single example
+Cost function	Function Type	1/n * Σ for all n Loss(actual yi, predicted yi) 	An average or total of the loss function for an entire training set containing several training examples thereby quantifying the model's performance on the whole training dataset, the expected value of the loss function across the data
+Objective function 	Function Type 	The objective function refers to any function being optimized/minimized/maximized during training, such as the cost function (error term), regularization terms, complexity, sparsity, or accuracy
+Risk function	Function Type			The risk function combines the loss function and the decision rule and the probabilities where the risk of a decision rule a(x) is the Σ for x,y of the (expected loss(a(x),y) * probability P(x,y)) where the decision rule that minimizes the risk is selected
 
 Cross validation	Function Type		Some part of the dataset is reserved for testing the model. There are many types of Cross-Validation out of which K Fold Cross Validation is mostly used
 K-fold cross validation	Cross Validation and Generalization Method			The original dataset is divided into k subsets (folds) and this is repeated k times where 1 fold is used for testing purposes and the rest k-1 folds are used for training the model which generalizes the model well and reduces the error rate, where the performance on each fold is averaged once all folds are trained 	More cross validation folds reduces the chance of overfitting
@@ -356,9 +384,11 @@ Geometric distribution 	Probability Distribution	The pdf indicates the probabili
 Exponential Distribution 	Probability Distribution 	The pdf is f(x|lambda) = lambda * e^(-lambda * x) where the mean is 1/lambda and the variance is 1/(lambda^2)
 Uniform Distribution 	Probability Distribution 	The pdf is f(x|a,b) = 1/(b-a) for x between a and b and 0 for x < a or x > b where the mean is (a + b)/2 and the variance is (b - a)^2/12
 Gaussian Distribution 	Probability Distribution 	The pdf is f(x|mean, variance) = (1/√2 * pi * variance) * e ^ (-1/2 * (x - mean/standard deviation)^2)
+Beta Distribution 	Probability Distribution 
+Gamma Distribution 	Probability Distribution 
+Bernoulli Distribution 	Probability Distribution 
 
 SMOTE
-Hypothesis Testing				commonly used in Outlier Detection
 Connected Components	Graph Algorithms
 Shortest Path	Graph Algorithms
 Pagerank	Graph Algorithms
