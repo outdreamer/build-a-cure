@@ -18,7 +18,9 @@ Gaussian Radial Basis Function Kernel		k(xi, xj) = exp(-γ||xi - xj||^2)
 Polynomial Kernel		k(xi, xj) = (xi * xj) ^ d
 Sigmoid kernel (hyperbolic tangent)		k(xi, xj) = tanh(κ * xi * xj + c)
 
-K-Nearest Neighbors	Classification and Regression and Instance-based Algorithm	Uses a distance metric of euclidean distance d(x, Xi) √(Σ for all n (xj - Xij)^2) for continuous neighbor selection, uses overlap distance for discrete data or pearson's correlation coefficient where the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms such as Large Margin Nearest Neighbor or Neighbourhood components analysis where it classifies based on nearby neighbors with voronoi-like regions formed by voting among nearest points, classifying new points based on the majority class of the k closest data points using distance metrics to nearest neighbors (majority vote from k nearest neighbors for classification, average value of k nearest neighbors for regression) by finding the k closest samples and predicting the label or value	No training phase and non-parametric and effective for well-separated clusters	Slow at prediction time	Supervised		No loss
+K-Nearest Neighbors	Classification and Regression and Instance-based Algorithm	Uses a distance metric of euclidean distance d(x, Xi) √(Σ for all n (xj - Xij)^2) for continuous neighbor selection, uses overlap distance for discrete data or pearson's correlation coefficient where the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms such as Large Margin Nearest Neighbor or Neighbourhood components analysis where it classifies based on nearby neighbors with voronoi-like regions formed by voting among nearest points, classifying new points based on the majority class of the k closest data points using distance metrics to nearest neighbors (majority vote from k nearest neighbors for classification, average value of k nearest neighbors for regression) by finding the k closest samples and predicting the label or value, where the value of k is the number of neighbors the algorithm checks before making a prediction, where a larger k can make predictions more stable but if k is too large the model can become too simple and miss important patterns (underfitting) so cross-validation and the elbow method are useful for selecting k and k should be odd to avoid ties	No training phase and non-parametric (only requires k and a distance metric) and effective for well-separated clusters and works well for classification and regression	Slow at prediction time, struggles with high numbers of features and can overfit when the data is high dimensional or not sanitized	Supervised		No loss
+Elbow Method 	k-nearest neighbors function 		The graph of the error rate or accuracy for different k values indicates a drop in error as k increases at first, where after a certain point the error stops decreasing quickly, so the point where the curve changes direction and looks like an elbow is usually the best choice for k
+
 Learning Vector Quantization 	Instance-based Algorithm 
 Self-Organizing Map (SOM) 	Instance-based Algorithm
 Locally Weighted Learning (LWL) 	Instance-based Algorithm
@@ -33,7 +35,7 @@ Bayesian Network (BN) 	Bayesian Network Type
 
 Class Prior	Probability function	the expected frequency or prior for a given class = number of samples in that class / total number of samples or the class prior can be 1/k if classes are equally probable where prior means before observation so without the influence of other variables (independent probability) where the posterior is with the influence of other variables (conditional probability on some other variable)
 Posterior	Bayesian probability function	posterior = prior * likelihood/evidence or probability (Class k | x) = P(Class k) * P(x|Class k)/P(x) or P(b|a) = P(b) * P(a|b)/P(a)
-Likelihood function	Probability function	P(x|Y)		
+Likelihood function	Probability function	P(x|Y) 	Explains how well a statistical model explains observed data by calculating the probability of seeing that data under different parameter values of the model, constructed from the join probability distribution of the random variable that presumably generated the observations where in contrast in bayesian statistics the estimate of interest is the converse of the likelihood (the posterior probability of the parameter given the observed data, calculated with bayes' rule)
 Decision boundary/surface	Decision function			For example comparing the likelihoods P(x|y = 0) and P(x|y = 1) can help identify the decision boundary separating negative and positive predictions between two distributions https://en.wikipedia.org/wiki/Naive_Bayes_classifier#/media/File:ROC_curves.svg where the decision boundary is a line if the distributions are both gaussian with equal covariance and the decision boundary is a curved surface if theyre gaussian with different covariance
 Decision Threshold,Probability concept		the decision boundary position (the threshold) is determined by the prior + the loss function and the decision boundary structure is determined by the likelihood function where the decision boundary position for two gaussian distributed classes would be where the distributions intersect at 2⃗x·(µ1−µ−1) = |µ1|^2 −|µ2|^2
 Decision rule	Algorithm sub-function	A decision rule takes input x and outputs a decision for example: a decision rule such as y MLE (x) = 1 if x > x MLE, otherwise y MLE (x) = -1
@@ -176,22 +178,27 @@ OPTICS (Ordering Points to Identify the Clustering Structure)	Density-based Clus
 
 Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ,ŷᵢ)	Backpropagation minimizes loss via gradient descent using layers of neurons that apply weighted transformations followed by non-linear functions, learning by backpropagating error and updating weights by gradient descent	Captures complex patterns and non-linear relationships			Cross entropy loss
 Neural Networks	Regression							Mean squared error
-Gradient Descent	Optimization function	the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
-Stochastic Gradient Descent 	Optimization function
-Batch Gradient Descent
-Adam Gradient Descent
-Backpropagation	Neural network weight update function			applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
 Multilayer Perception 	Neural Network Type for Classification and Regression 		Neural network with multiple layers of nodes
 Deep learning 	Learning Type		Uses neural networks with many layers 	useful for tasks involving large datasets and high-dimensinoal data
 Feedforward Neural Networks (FNN) Deep Learning Network Type used for classification and regression 	Basic neural network model 	Easy to train and is useful for simple tasks
 Convolutional Neural Networks (CNN)	Deep Learning Network Type 			Good for handling grid-like data and learns spatial hierachies of features
 Generative Adversarial Networks (GANs)	Deep Learning Network Type 			Useful for generating synthetic data closely resembling real data
 Transformer Networks 	Deep Learning Network Type 			Used in sequence-to-sequence tasks 	Efficiently handles long-range dependencies and parallelizes training
-
 Hopfield Network 	Neural Network Type
 Radial Basis Function Network (RBFN) 	Neural Network Type
 Deep Boltzmann Machine (DBM) Neural Network Type
 Deep Belief Networks (DBN) Neural Network Type
+
+Gradient Descent	Optimization function	the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
+Stochastic Gradient Descent 	Optimization function
+Mini-batch Gradient Descent 	Optimization function
+Adam (Adaptive Moment Estimation) Gradient Descent 	Optimization function
+Nesterov Accelerated Gradient 	Optimization function
+Momentum 	Optimization function
+Adagrad 	Optimization function
+Adadelta 	Optimization function
+
+Backpropagation	Neural network weight update function			applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
 
 Reinforcement Learning 	Learning Type		Q(s,a) ← Q(s,a) + α[r + γ max Q(s’,a’) - Q(s,a)] uses a Bellman equation update 		The model learns by making a sequence of decisions interacting with an environment and receiving rewards/penalties, with a goal of maximizing cumulative reward, categorized into model-based and model-free methods
 Model-based Reinforcement Learning 	Reinforcement Learning Type 		Uses an environment model to predict outcomes and help the agent plan actions by simulating potential results
@@ -228,7 +235,11 @@ Average Pooling 	Neural Network layer type 		Averages inputs in pool
 Flatten 	Neural Network layer type			Converts 2D to 1D
 Dense (Fully Connected) 	Neural Network layer type			All nodes in the layer are connected to all nodes in the next layer
 
-TF-IDF	Vectorization			Optimizes memory usage by creating a sparse matrix by multiplying importance weight (as in how often a word appears in a document) by how unique a word is (to reduce importance of common words) across the entire collection of documents so words appearing in many documents get a lower IDF score and rare words get a higher score and in the process converts text to vectors handling a large vocabulary in the process
+Jaccard similarity 	Similarity metric of sets 	Jaccard(A,B) = | size of intersection between A and B| / | size of union between A and B|
+Cosine similarity
+
+Pointwise Mutual Information of token pairs 	Token pair metric 	PMI(t1,t2) = log( P(t1,t2) / (P(t1) * P(t2)) ) = log(N * c(t1,t2)/(c(t1) * c(t2))) where N is the total number of tokens in the text, c(t1,t2) is the number of times t1 and t2 appear together and c(t1) and c(t2) are the number of times they appear separately	PMI is used to find collocations in text
+TF-IDF	Vectorization 	IDF(t) = log(N/(1 + n(t))) where t is the token, n(t) is the number of documents that t occurs in and N is the total number of documents		Optimizes memory usage by creating a sparse matrix by multiplying importance weight (as in how often a word appears in a document) by how unique a word is (to reduce importance of common words) across the entire collection of documents so words appearing in many documents get a lower IDF score and rare words get a higher score and in the process converts text to vectors handling a large vocabulary in the process
 Word2vec	Vectorization			Uses a two-layer neural network to encode words into embedding vectors for semantic and syntactic similarity using either continuous bag of words or skip gram to infer a word from context or vice versa	skip gram is more effective for infrequent words and CBOW is faster to train
 One-Hot Encoding	Vectorization			Converts a word into a vector with a bit corresponding to the index in the vocabulary with all other bits set to zero 		Using one-hot encoding with categorical variables of high cardinality is suboptimal bc of the curse of dimensionality
 Binary Encoder 	Vectorization
@@ -257,9 +268,10 @@ Sammon Mapping	Dimensionality Reduction Type
 Multidimensional Scaling (MDS)	Dimensionality Reduction Type
 Projection Pursuit	Dimensionality Reduction Type
 Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP)	Dimensionality Reduction Type
-Singular Value Decomposition	Dimensionality Reduction Type
+Singular Value Decomposition (SVD)	Dimensionality Reduction Type
 Neighborhood Component Analysis
 Relief Algorithm
+Fourier and wavelet transforms 
 
 Statistical independence	Concept			refers to the idea that two random variables: X and Y are independent if knowing one does not affect the probability of the other so the joint probability of X and Y is equal to the product of their individual probabilities
 Covariance Matrix	matrix used in PCA			summarizes relationships between different variables
@@ -483,7 +495,7 @@ Sources
 https://medium.com/coders-camp/40-machine-learning-algorithms-with-python-3defd764b961
 https://sebastianraschka.com/books/ml-q-and-ai/#table-of-contents
 https://github.com/Tanu-N-Prabhu/Python/tree/master/Machine%20Learning%20Interview%20Prep%20Questions
-https://machinelearningmastery.com/
+https://machinelearningmastery.com/plot-a-decision-surface-for-machine-learning/
 https://www.cs.jhu.edu/~ayuille/courses/Stat161-261-Spring14/RevisedLectureNotes2.pdf#:~:text=Hence%20the%20form%20of%20the%20decision%20rule%20%28i.e.	is%20at%20xML%20%3D%201%3D2%28%201%20%2B%201%29.
 https://www.geeksforgeeks.org/machine-learning/decision-tree/
 https://mljourney.com/ml-model-explainability-shap-vs-lime/
