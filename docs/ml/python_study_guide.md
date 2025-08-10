@@ -8,7 +8,7 @@ python study guide
 		- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
 		- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
 	- pytest or unittest for unit testing
-	- cprofile for profiling
+	- cprofile and line_profiler and memory_profiler for profiling
 	- pdb for debugging
 	- mypy for linting/static analysis
 		- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
@@ -25,25 +25,34 @@ python study guide
 
 - optimizations
 	- address reasons for bottlenecks (inefficient algorithms with polynomial runtime, memory consumption, IO operations, Global Interpreter Lock which limits concurrent execution)
-		- use cprofile (cprofile.run('function_name'))
+		- use cprofile (cprofile.run('function_name')) and line_profiler and memory_profiler and timeit for timing function calls and pytest-benchmark for identifying bottlenecks
+		- use pypy for JIT compilation
 		- use dicts instead of lists for lookup operations
 		- use list comprehensions which are faster than loops for creating a list
 		- use map function which is faster than list comprehensions for function calls and large datasets: map(lambda x: x * x, range(1000000)) instead of [x * x for x in range(1000000)]
-		- work around the GIL
+		- use zip function to iterate two lists of equal size
+		- work around the GIL to use multiple CPU cores and run multiple tasks simultaneously
 			- use multiprocessing to create separate processes with their own memory space, bypassing the GIL which is useful for CPU bound tasks
 				with multiprocessing.Pool(processes=4) as pool:
 					results = pool.map(square_function, range(10))
 			- use asyncio for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread
 			- use python 3.13 which comes with free thread mode
-		- use numpy (implemented in c) for numerical operations which is much faster than lists for large-scale numerical operations
+			- use multi-threading
+			- use coroutines to create concurrent asynchronous code in python to perform multiple tasks simultaneously by creating simple lightweight threads
+		- use scipy and numpy (implemented in c) for numerical operations which is much faster than lists for large-scale numerical operations
 		- use JIT compilation with numba which automatically compiles the function to machine code which boosts performance
 			from numba import jit
 			@jit(nopython=True)
-
+	- use match-case rather than if-else
 	- use built-in functions which are usually optimized for speed and are often written in C
 	- write generators to return one item at a time rather than all items at once
 	- check membership of an item in a list with the in keyword
 	- load modules only when needed
+	- avoid recursion which takes up a lot of memory and instead use iteration
+	- use cython (a superset of python) to speed up slow code, cython is compiled into c which makes it faster
+		save file with pyx extension and use cythonize command on the file to compile it, after which it can be imported and used like a normal function
+	- use vectorized operations and broadcasting
+	- use pandas to manipulate data which is faster than standard python data structures
 	- use sets and unions instead of loops where possible
 	- use multiple assignment when possible
 	- avoid global variables to help keep track of scope and avoid unnecessary memory usage, also local variables are faster to retrieve than global variables
@@ -55,7 +64,28 @@ python study guide
 	- use keys for sorts using operator.itemgetter()
 	- dont use sets for conditions like checking membership of an item in a list
 	- use linked lists which allocate memory as needed, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists, linked lists are faster at adding elements at the start of the linked list
+	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
+	- use sets to check if an item is in a group of items, dicts to efficiencly store and retrieve data, and tuples to group values together
+	- use lazy loading of data to only load data when needed
+	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
+	- use memory_profiler or psutil to identify memory leaks
 
+- other tips
+	- use context managers to handle resources (files, sockets, db connections) in an efficient way by defining a context in which a resource is used and automatically open and close the resource
+	- use try-except blocks to handle exceptions rather than failing
+	- group errors with ExceptionGroup to handle them all at once
+	- use the traceback module to see detailed error info
+	- use TaskGroups to run similar tasks together as opposed to asyncio.gather which fails on the first exception
+	- use decimal instead of float for calculations
+	- use f"{value:.2f}" to control decimal places
+	- use math module for square roots, logs, and trig functions
+	- use numpy for faster, more complex operations like matrix operations, fourier transforms and statistical operations
+	- use scipy for scientific operations, signal processing, optimization, interpolation, and integration
+
+- term definitions
+	- encapsulation
+	- polymorphism
+	- __init__.py (for shared functions and variables across the package)
 
 - handlers for security bugs
 	- cross site scripting
@@ -87,7 +117,7 @@ python study guide
 		- keep tokens private
 		- use APIs securely
 		- use secure libraries
-		- use SAST (bandit, veracode) and DAST tools
+		- use SAST (bandit, veracode) and DAST tools (burpsuite, OWASP zed attack proxy, arachni)
 		- use SSL/TLS connections, enforce HTTPS to protect against MITM attacks
 		- avoid using root access
 		- set file permissions (0 = none, 1 = x, 2 = w, 3 = w/x, 4 = r, 5 = r/x, 6 = r/w, 7 = r/w/x)
@@ -118,7 +148,7 @@ python study guide
 - attributes
 	- mutable structures are passed by reference, immutable structures are passed by value
 	- dynamically typed
-	- compiled to bytecode then interpreted at runtime
+	- compiles code to bytecode then executed by the python virtual machine and interpreted at runtime
 
 - sources
 	https://www.geeksforgeeks.org/python/python-design-patterns/
