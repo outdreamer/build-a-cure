@@ -22,10 +22,40 @@ python study guide
 - design patterns
 	- creational design patterns help make a system independent of how its objects are created, composed, and represented
 		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
+			- Factory easily adds new class types without changing existing code, avoids tight coupling between sub-classes/objects and creator classes/objects
+			- But the client might have to sub-class the creator class and might create a large number of files
+			- replaces the object construction calls with calls to the factory method
+			- allows an interface or a class to create an object, but lets subclasses decide which class to instantiate
+			- creates objects without exposing logic to the client and uses the same interface to create new objects
 		- abstract factory method: another layer of abstraction over the factory pattern, which works with a super-factory that creates other factories
+			- allows creating families of related objects without specifying their concrete classes, creating a similar type of many objects
+			- provides a way to encapsulate a group of individual factories
+			- replaces object construction calls with calls to the abstract factory method
+			- useful when client doesnt know which type to create, makes it easy to introduce new variants of classes without breaking existing code, and classes created from the factory are compatible
+			- But if there are a lot of classes code can become complex and create a large number of files
 		- singleton method: the singleton pattern guarantees that a class has just one instance and offers a way to access it globally
+			- a way to provide one and only one object of a type like a database connection which should only have one instance at a time
+			- Borg singletons allow multiple instances with shared state
+			- Double checked locking singleton only assigns a lock using the getinstance method when the object is None
+			- classic singleton method uses the static method for creating the getinstance method to return the shared resource
+			- the virtual private constructor __init__ can be used to raise an exception although its not required
+			- an object created with singleton is initialized only when requested for the first time, and it grants global access to the instance of the object, and method classes cant have more than one instance
+			- But it's difficult to use singletons in a multithread environment bc we have to guarantee that the multiple threads cant create a singleton object more than once, and singleton doesnt follow the single responsibility principle bc it solves multiple problems at once, and singleton makes unit testing harder by introducing global state
+			- singleton is recommended where control over global variables is important and is often used in logging, caching, thread pools, and configuration settings and often used with the factory method
 		- prototype method: allows hiding complexity of making new instances from the client, copying an existing object rather than creating a new instance
+			- enables creating new objects by cloning existing objects (making the existing cloned object the prototype), which is efficient when the cost of creating a new object is high and when an object's initial state or configuration is complex
+			- includes:
+				- the prototype interface or abstract class that declares methods for cloning objects, defining the common interface that concrete prototypes have to implement so all prototypes can be cloned consistently, declaring the clone method to produce copies of the prototype
+				- concrete prototypes is a class that implements the prototype interface or extends the abstract class, and is the class of the specific type of object being cloned, defining the details of how cloning should happen for instances of that class and implementing the clone method for specific cloning logic for that class
+				- client is the code that requests the creation of new objects by interacting with the prototype, initiating the cloning process without being aware of the concrete classes involved
+				- clone method is declared in the prototype interface or abstract class, and implemented in concrete prototypes to define specific cloning logic, describing how the object's internal state should be duplicated to create new independent instances
+			- use the prototype method when creating objects is more costly or complex than copying existing ones, when objects need to vary slightly without justifying a whole set of alternate classes, when the system requires dynamic configuration and you want to create objects with configurations at runtime so prototyping a base configuration and cloning it would be useful, and when you want to reduce the cost of initializing an object
+			- dont use the prototype method when object instances are unique and implementing the pattern costs more than it benefits, when object creation is simple and doesnt consume a lot of resources and there is no object variation required, when objects are immutable which are often safely shared without requiring cloning, when the object creation process is easy to understand and manage, when there are only a few variations of objects and creating subclasses or instances with specific configurations is easy
 		- builder method: used to separate construction of a complex object from its representation so the same construction process can create different representations, helping construct a complex object step by step in which the final step returns the object
+			- allows using the same construction code to create different types and representations of the object easily, designed to provide flexibility to solutions to various object creation problems
+			- allow separating business logic and the complex construction code, and constructs objects step by step, allows deferring construction steps, allows calling steps recursively, prevents the client from fetching incomplete data bc it doesn't allow exposing an unfinished object, is useful when constructing various representations of the class involves similar steps that vary in details, in which case the base builder interface defines the construction steps while these steps are implemented by concrete builders
+			- But increases code complexity bc it requires creating multiple new classes, requires the builder class to be mutable, and data members of the class arent guaranteed to be initialized
+	
 	- structural design patterns use inheritance to compose interfaces or implementations, solving problems of composing classes and objects into larger structures which are flexible and efficient
 		- adapter method: converts the interface of a class into another interface expected by the client, letting classes work together that couldnt otherwise bc of incompatible interfaces
 		- bridge method: allows abstraction and implementation to be developed independently, so the client code can access the abstraction part without accessing the implementation part
@@ -34,6 +64,7 @@ python study guide
 		- facade method: provides a unified interface to a set of interfaces in a subsystem, defining a high-level interface that makes the subystem easier to use
 		- flyweight method: provides ways to decrease object count thereby improving applications' required objects structure, used to create a large number of similar objects
 		- proxy method: also called surrogates, handles, and wrappers, closely related in structure but not intent to adapters/decorators
+	
 	- behavioral design patterns relate to algorithms and the assignment of responsibilities between objects, describing not just patterns of objects or classes but the patterns of their communication, characterizing complex control flow that's difficult to follow at run-time
 		- chain of responsibility method: used for loose coupling where a request from the client is passed to a chain of objects to process the request, and later the objects in the chain will decide who will be processing the request and whether the request needs to be sent to the next object in the chain
 		- command method: a transforms a request into an independent object with all of the information requested, an object which can be passed around, stored, and executed at a later time
