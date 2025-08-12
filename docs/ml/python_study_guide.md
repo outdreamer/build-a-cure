@@ -47,6 +47,22 @@ python study guide
 		- visitor method: used to perform an operation on a group of a similar kind of Objects, enabling moving the operational logic from the objects to another class
 
 - version updates
+	- 3.14: deferred evaluation of annotations, template strings, improved error messages, a tail-call-compiled interpreter, a C API for python runtime configuration
+	- 3.13: advanced interactive interpreter, JIT compiler, and a free thread mode
+	- 3.12: enhanced error messages, flexible f-strings, type parameter syntax, module improvement, syntactic formalization of f-strings
+	- 3.11: enhanced performance by 10 - 60%, improved error messages, exception groups, exception notes
+	- 3.10: parenthesized context managers, pattern matching for complex data structures
+	- 3.9: offered string methods, dictionary merge and update operators, pattern matching zoneinfo, improved type hinting
+	- 3.8: new optimizations and features like positional-only parameters and the walrus operators
+	- 3.7: improved performance, data classes to generate __init__ and __repr__ in classes, context variables to manage context-local state
+	- 3.6: formatted string literals, asynchronous generators, underscores in numeric literals
+	- 3.5: type hints/annotations to function arguments and return values, added async, await
+	- 3.4: asyncio and pathlib
+	- 3.0: erased redundant constructs from 2.7, new syntax and semantics, removal of deprecated features, print function
+	- 2.7: improved syntax, set literals, ordered dictionaries
+	- 2.0: list comprehensions and garbage collection
+	- 1.5: unicode support, enhanced standard library, facilitated internationalization
+	- 1.0: exception handling, map, filter, reduce, improved code error management and exceptions
 
 - optimizations
 	- address reasons for bottlenecks (inefficient algorithms with polynomial runtime, memory consumption, IO operations, Global Interpreter Lock which limits concurrent execution)
