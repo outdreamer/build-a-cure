@@ -488,10 +488,22 @@ H2O AutoML
 Manifold Learning
 FastAI
 Retrieval Augmented Generation
+Diffusion Models
+Residual Networks/skip connections
+Knowledge Graphs
+Pointer Networks
 Attention
+FlashAttention
+Energy
+Inductive Bias
+Padding and Packing
+F-beta score
+Chain Rule
+Xavier Initialization
 
 
 Sources
+https://aman.ai/primers/ai/
 https://medium.com/coders-camp/40-machine-learning-algorithms-with-python-3defd764b961
 https://sebastianraschka.com/books/ml-q-and-ai/#table-of-contents
 https://github.com/Tanu-N-Prabhu/Python/tree/master/Machine%20Learning%20Interview%20Prep%20Questions

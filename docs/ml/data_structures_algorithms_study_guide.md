@@ -8,38 +8,44 @@ Data structures and algorithms study guide
 			- a constraint on relevant output values can indicate a smaller alternate output iteration to perform rather than iterating through every possible input value
 
 - data structures
-	- lists
-	- tuples
-	- dictionaries
-	- sets
+	- // is integer division which rounds down to the nearest integer, where negative results of integer division are rounded down toward negative infinity and where / is float division
+	- O(1) operations are average case and can become O(n) in worst case scenarios due to hash collisions which is rare bc of python's resizing and good hash functions
+	- deep copy is required when the element like a list in another element like a list is mutable to avoid linking to a changing object
+	- strings are immutable arrays of unicode characters, each character taking 1 - 4 bytes
+	- lists are ordered, mutable, and can contain duplicates, and has size and capacity, where it doubles the list capacity in a new list when the previous list is full
+	- tuples are ordered, immutable, and can contain duplicates, however if it contains mutable elements, those elements can be modified
+	- dictionaries now maintain the order of insertion and dict keys are immutable
+	- sets are implemented as dictionaries and cant contain duplicates
 	- linked lists
 	- stacks (LIFO)
 	- queues (FIFO)
+	- double ended queue (deque) in python this is implemented as a doubly linked list allowing O(1) operations at both ends
+	- heaps (priority queues) in python heaps are implemented as an array/list with heap properties
 	- trees
 	- graphs
 
 - algorithms
 
-- sorting algorithms
-	- quick sort
-	- merge sort
-	- tim sort
-	- bubble sort
+	- sorting algorithms
+		- quick sort
+		- merge sort
+		- tim sort
+		- bubble sort
 
-- search algorithms
-	- linear search
-	- binary search
+	- search algorithms
+		- linear search
+		- binary search
 
-- graph algorithms
-	- BFS
-	- DFS
-	- djikstra's algorithm
+	- graph algorithms
+		- BFS
+		- DFS
+		- djikstra's algorithm
 
-- dynamic programming
-	- solving problems by breaking them into sub-problems
+	- dynamic programming
+		- solving problems by breaking them into sub-problems
 
-- greedy algorithms
-	- making locally optimal choices like kruskal's algorithm
+	- greedy algorithms
+		- making locally optimal choices like kruskal's algorithm
 
 
 

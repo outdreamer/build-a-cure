@@ -20,6 +20,31 @@ python study guide
 	- regression testing
 
 - design patterns
+	- creational design patterns help make a system independent of how its objects are created, composed, and represented
+		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
+		- abstract factory method: another layer of abstraction over the factory pattern, which works with a super-factory that creates other factories
+		- singleton method: the singleton pattern guarantees that a class has just one instance and offers a way to access it globally
+		- prototype method: allows hiding complexity of making new instances from the client, copying an existing object rather than creating a new instance
+		- builder method: used to separate construction of a complex object from its representation so the same construction process can create different representations, helping construct a complex object step by step in which the final step returns the object
+	- structural design patterns use inheritance to compose interfaces or implementations, solving problems of composing classes and objects into larger structures which are flexible and efficient
+		- adapter method: converts the interface of a class into another interface expected by the client, letting classes work together that couldnt otherwise bc of incompatible interfaces
+		- bridge method: allows abstraction and implementation to be developed independently, so the client code can access the abstraction part without accessing the implementation part
+		- composite method: a partitioning design pattern which characterizes a collection of items that are handled the same as a single instance of that type of object, with intent to compose objects into tree structures to represent part-whole hierarchies
+		- decorator method: allows dynamically adding functionality to an object without affecting the behavior of other existing objects within the same class, using inheritance to extend the behavior of the class which takes place at compile-time so all the instances of that class get the same extended behavior
+		- facade method: provides a unified interface to a set of interfaces in a subsystem, defining a high-level interface that makes the subystem easier to use
+		- flyweight method: provides ways to decrease object count thereby improving applications' required objects structure, used to create a large number of similar objects
+		- proxy method: also called surrogates, handles, and wrappers, closely related in structure but not intent to adapters/decorators
+	- behavioral design patterns relate to algorithms and the assignment of responsibilities between objects, describing not just patterns of objects or classes but the patterns of their communication, characterizing complex control flow that's difficult to follow at run-time
+		- chain of responsibility method: used for loose coupling where a request from the client is passed to a chain of objects to process the request, and later the objects in the chain will decide who will be processing the request and whether the request needs to be sent to the next object in the chain
+		- command method: a transforms a request into an independent object with all of the information requested, an object which can be passed around, stored, and executed at a later time
+		- interpreter method: used to define a grammatical representation for a language and provides an interpreter to deal with this grammar
+		- mediator method: enables decoupling of objects by introducing a layer in between so the interaction between objects happen with the layer
+		- memento method: used to return an object's state to its initial state, enabling creating checkpoints in an application and returning to these checkpoints at a later time
+		- observer method: establishes a one to many dependency between objects, meaning all the dependents (observers) of the subject are immediately updated and notified when the subject changes
+		- state method: where an object modifies its behavior according to its internal state, where if we have to change the behavior of an object based on its state, we can use a state variable in the object and an if-else condition to perform different actions based on the state
+		- strategy method: selecting an object's behavior at runtime, involving encapsulating a family of algorithms into distinct classes that each implement a common interface
+		- template method: defines an algorithm as a collection of skeleton operations where the child classes handle the implementation of the specifics and the parent class maintains the overall structure and flow of the algorithm
+		- visitor method: used to perform an operation on a group of a similar kind of Objects, enabling moving the operational logic from the objects to another class
 
 - version updates
 
