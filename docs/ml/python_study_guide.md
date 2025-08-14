@@ -1,5 +1,23 @@
 python study guide
 
+- questions
+	- what are some AML typologies
+	- what is db normalization
+	- python OOP
+	- whats the difference between python and java
+	- how to use python given limited memory
+	- whats the difference between an interface and an abstraction
+	- describe recursion
+	- heap memory
+	- garbage collection
+	- what is the difference between a stack and a queue
+	- Usage of circuit breaker in microservices
+	- SOLID concepts
+	- Priority Queues
+	- detect a memory leak
+	- File based system design
+	- how to optimize sql queries
+	
 - libraries/tools
 	- black for formatting
 	- pylint/flake8 for PEP compliance
@@ -53,7 +71,7 @@ python study guide
 			- dont use the prototype method when object instances are unique and implementing the pattern costs more than it benefits, when object creation is simple and doesnt consume a lot of resources and there is no object variation required, when objects are immutable which are often safely shared without requiring cloning, when the object creation process is easy to understand and manage, when there are only a few variations of objects and creating subclasses or instances with specific configurations is easy
 		- builder method: used to separate construction of a complex object from its representation so the same construction process can create different representations, helping construct a complex object step by step in which the final step returns the object
 			- allows using the same construction code to create different types and representations of the object easily, designed to provide flexibility to solutions to various object creation problems
-			- allow separating business logic and the complex construction code, and constructs objects step by step, allows deferring construction steps, allows calling steps recursively, prevents the client from fetching incomplete data bc it doesn't allow exposing an unfinished object, is useful when constructing various representations of the class involves similar steps that vary in details, in which case the base builder interface defines the construction steps while these steps are implemented by concrete builders
+			- allows separating business logic and the complex construction code, and constructs objects step by step, allows deferring construction steps, allows calling steps recursively, prevents the client from fetching incomplete data bc it doesn't allow exposing an unfinished object, is useful when constructing various representations of the class involves similar steps that vary in details, in which case the base builder interface defines the construction steps while these steps are implemented by concrete builders
 			- But increases code complexity bc it requires creating multiple new classes, requires the builder class to be mutable, and data members of the class arent guaranteed to be initialized
 	
 	- structural design patterns use inheritance to compose interfaces or implementations, solving problems of composing classes and objects into larger structures which are flexible and efficient
