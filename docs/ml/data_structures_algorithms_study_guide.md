@@ -25,6 +25,7 @@ Data structures and algorithms study guide
 	- trees
 		- binary trees
 	- graphs
+	- priority queue
 
 - problems
 	- invert a binary tree

@@ -3,6 +3,7 @@ python study guide
 - questions
 	- AML typologies
 	- db normalization
+	- data buffer
 	- python OOP
 	- how to use python given limited memory
 	- heap memory
@@ -81,12 +82,82 @@ python study guide
 	
 	- structural design patterns use inheritance to compose interfaces or implementations, solving problems of composing classes and objects into larger structures which are flexible and efficient
 		- adapter method: converts the interface of a class into another interface expected by the client, letting classes work together that couldnt otherwise bc of incompatible interfaces
+			- helps make incompatible objects adaptable to each other by creating a connection between two incompatible interfaces, providing a different interface for a class, thereby enabling integration of classes that were previously incompatible
+			- the client requests to the adapter using the target interface, the adapter translates the request to the adaptee interface, then the result of the call is received by the client
+			- for example, the adapter passes arguments like functions/attributes with different names by using the same parameter, so that same parameter can be used to access the function/attribute instead of the different function/attribute names
+			- the adapter achieves single responsibility bc it separates specific code from primary logic of the client
+			- the adapter is flexible and allows code reusability
+			- the client class is not required to use a different interface thereby allowing the client to remain simple and we can use polymorphism to swap between different implementations of adapters
+			- the new adapter classes can be introduced without violating the open/closed principle
+			- But the adapter increases complexity of the code and requires many adaptation with the adaptee chain to reach the compatibility that we want
+			- adapter is used when we want to make certain classes communicate
+			- when we want to reuse some piece of code like interfaces that lack some functionality, the adapter method is used
 		- bridge method: allows abstraction and implementation to be developed independently, so the client code can access the abstraction part without accessing the implementation part
+			- allows separating implementation-specific abstractions and implementation-independent abstractions so they are developed as single entities, useful for organizing the class hierarchy
+			- the abstraction provides the reference to the implementer
+			- the refined abstraction extends the abstraction to a new level where it takes the specific details one level above and hides the specific elements from the implementers
+			- the implementer defines the interface for implementation classes, which doesnt need to correspond directly to the abstraction interface and can therefore be very different
+			- concrete implementation: the concrete implementation implements the above implementer
+			- the implementation-specific abstractions are separated from the class with the implementation-independent abstractions, such as by passing the implementation-specific abstraction as a parameter to the class with the implementation-independent abstractions
+			- the bridge method follows the single responsibility principle bc it separates abstractions from their implementation so the abstraction and implementation can vary independently
+			- bridge doesnt violate the open/closed principle bc at any time, we can introduce the new abstractions and implementations independently from each other
+			- bridge can be used to implement platform-independent features
+			- But the bridge method is complex bc it introduces new abstraction classes and interfaces, and might negatively impact performance bc the abstraction has to pass messages along with the implementation for the operation to be executed, and is difficult to manage with many interfaces
+			- the bridge method provides run-time binding of an implementation (run-time binding is what we can call a method at run-time instead of compile-time)
+			- the bridge method is used to map independent class hierarchies
 		- composite method: a partitioning design pattern which characterizes a collection of items that are handled the same as a single instance of that type of object, with intent to compose objects into tree structures to represent part-whole hierarchies
+			- composite method describes a group of objects that is treated the same way as a single instance of the same type of object, with intent to compose objects into tree type structures to represent the whole-partial hierarchies
+			- composite method allows composing objects into the tree structure and then allows working with tree structures as an individual object
+			- the operations that can be performed on all the composite objects often have the least common denominator relationship
+			- component: helps implement default behavior for the interface common to all classes, declaring the interface of the objects in the composition and for accessing and managing its child components
+			- leaf: defines behavior for primitive objects in the composition, representing the leaf object
+			- composite: stores the child component and implements child related operations in the component interface
+			- client: manipulates objects in the composition through the component interface
+			- the composite method is used when there are composites that contain components, each of which could be a composite
+			- the composite method follows the open/closed principle bc the introduction of new elements, classes, and interfaces is allowed into the application without breaking the existing code of the client
+			- the composite method allows consuming less memory bc it creates less objects and it has improved execution time by sharing objects, and is flexible by providing flexibility of structure as it defines class hierarchies with primitive and complex objects
+			- But it makes it harder to restrict the type of components of a composite, and is not useful when representing a full or partial hierarchy of objects is not needed, and produces the general tree once the tree structure is defined, and depends on run-time checks to apply constraints bc it doesnt allow using the type system of the language
+			- composite is preferred when producing a nested tree structure is required, and allows organizing structures with common operations so the structures can be handled in the same way
 		- decorator method: allows dynamically adding functionality to an object without affecting the behavior of other existing objects within the same class, using inheritance to extend the behavior of the class which takes place at compile-time so all the instances of that class get the same extended behavior
+			- allows functionality to be added to individual objects dynamically without affecting the functionality of other objects from the same class, which involves decorator classes which wrap concrete components
+			- promotes flexibility and extensibility by allowing composing objects with different combinations of functionality at runtime
+			- follows the open/closed principle since new decorators can be added without modifying existing code
+			- decorators are used where a variety of optional features need to be added in a flexible and reusable manner
+			- add additional functionality like cross-cutting variables such as logging, profiling, caching, error handling or authentication without modifying core logic
+			- component interface: an abstract class or interface that defines the common interface for the concrete components and decorators, specifying the operations that can be applied to the objects
+			- concrete component: these are the basic objects or classes that implement the component interface, they are the objects to which new behavior is added
+			- decorator: an abstract class that also implements the component interface and has a reference to a component object, responsible for adding new behaviors to the wrapped component object
+			- concrete decorator: these are the concrete classes that extend the decorator class, adding specific behaviors to the component, where each concrete decorator can add one or more behaviors to the component
+			- unlike traditional inheritance which can lead to a deep and inflexible class hierarchy, the decorator pattern uses composition, allowing composing objects with different decorators to add the necessary functionality, which avoids the disadvantages of inheritance like tight coupling and rigid hierarchies
+			- decorators allow dynamic behavior modification by allowing application or removal at runtime, which is useful to change object behavior based on changing requirements or user preferences
+			- allows clear code structure
+			- decorators can add complexity, increase the number of classes, increase requirements like managing the correct order of decorators, and overusing decorators is a complicating factor
 		- facade method: provides a unified interface to a set of interfaces in a subsystem, defining a high-level interface that makes the subystem easier to use
+			- helps reduce dependencies between clients and a system, making code more modular and understandable, allows hiding complexities of a system and offering a simpler way to interact with the system, enhancing maintainability and scalability
+			- structuring a system into subsystems helps reduce complexity
+			- minimizing the communication and dependencies between subsystems is useful
+			- one way to minimize communication/dependencies between subsystems is a facade object that provides a simple interface to other functions of a subsystem
+			- facade: a single class that provides a simple interface to a complex subsystem, which delegates client requests to the appropriate subsystem objects without exposing the underlying complexity
+			- subsystem classes: classes that do the work of the system, which provide the actual functionality, which are not directly accessible by clients but are used by the facade
+			- client: entity that interacts with the subsystem through the facade by making requests to the facade
+			- used to simplify complex system, promote loose coupling, hide implementation details, improve code readability and maintainability, implement layers like the business logic layer and hiding the complexities of data access and processing layers, and manage legacy code
+			- avoid the facade if abstraction is unnecessary, if direct access to subsystems is needed, to avoid performance hits by adding extra layers of method calls, when subsytems are simple, and when the facade is tightly coupled with client code so making changes to subsystems requires making changes to the facade and client, which defeats the purpose of decoupling, so that the facade becomes a bottleneck for changes and updates which hinders system flexibility
 		- flyweight method: provides ways to decrease object count thereby improving applications' required objects structure, used to create a large number of similar objects
+			- minimizes object count required at run-time, creating a flyweight object that is shared by multiple contexts, created to be indistinguishable from normal objects
+			- flyweight objects are immutable
+			- to implement flyweight, dictionaries store references to the objects that are already created
+			- fewer objects reduce memory usage and reduces object creation time by sharing objects or sharing common parts of objects
+			- flyweight uses less RAM, improves data caching for fast response time, and improves performance bc it uses less heavy objects
+			- But flyweight breaks encapsulation by moving state outside the object which is less efficient, and flyweight complicates code
+			- flyweight saves space when the application is independent of the object created, and reduces cost in terms of space and time complexity
 		- proxy method: also called surrogates, handles, and wrappers, closely related in structure but not intent to adapters/decorators
+			- allows providing a replacement for another object, using different classes to represent functionality of another class, creating an object having the original object functionality
+			- proxy method controls and manages access to the object being protected
+			- for example the proxy method can avoid multiple database connections, by making one proxy connection to the database which handles multiple queries
+			- the proxy method follows the open/closed principle bc new proxies are easily introduced without changing client code
+			- the proxy works even when the service object is not ready or not available, and the proxy method also provides security and increases performance by avoiding duplication of objects that can be large and memory intensive
+			- But the proxy might create slow responses, and introduces another layer of abstraction which is a problem if the protected code is accessed directly by some clients and some of them use the proxy class, and increases complexity by introducing a lot of new classes
+			- a virtual proxy is used in databases, a protective proxy creaets a protective layer over the application, a remote proxy is used when the service object is located on a remote server so the proxy passes the client request over the network, and a smart proxy provides additional security to the application by intervening with specific actions when the protected object would be accessed
 	
 	- behavioral design patterns relate to algorithms and the assignment of responsibilities between objects, describing not just patterns of objects or classes but the patterns of their communication, characterizing complex control flow that's difficult to follow at run-time
 		- chain of responsibility method: used for loose coupling where a request from the client is passed to a chain of objects to process the request, and later the objects in the chain will decide who will be processing the request and whether the request needs to be sent to the next object in the chain
