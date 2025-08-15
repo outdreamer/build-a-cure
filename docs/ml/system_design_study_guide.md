@@ -1,5 +1,108 @@
 System design study guide 
 
+- network models
 
+	- internet protocol suite (TCP/IP)
+		- link layer: includes protocols relevant to a local network (a link or IP network), where the computers are physically wired on the same network so they dont need a router and MAC addresses to communicate
+		- internet layer: includes protocols relevant to connecting different IP networks like IPv6
+		- transport layer: includes protocols for direct communication channels over the internet like TCP
+		- application layer: includes protocols relevant to applications sending data to and from users over the internet like HTTP
+
+	- open systems interconnection model (OSI)
+		- physical layer: transmits raw data on hardware like Ethernet
+		- data link layer: establishes connections for data transfer between computers in the same physical network like with MAC addresses
+		- network layer: establishes connections for data transfer in packets between computers in different networks, like IP networks
+		- transport layer: transfers data with reliable quality like TCP
+		- session layer: manages data transfer sessions between computers
+		- presentation layer: translates lower layer data formats for use by the application layer
+		- application layer: application-enabling functionality like HTTP
+
+- protocols and how they fit into network models
+	- IP (internet protocol)
+		- allows computers on different physical networks to communicate
+		- is in the internet layer of TCP/IP and the network layer of OSI
+		- defines and works with the packet, the fundamental data unit, and provides addressing as IP addresses so packets can be correctly routed
+		- an IP packet consists of headers and data, the header contains info like the source/destination address, the data is formatted and contains whatever is useful for the next layeres
+	- TCP (transport control protocol)
+		- manages reliability of data transferred with IP
+		- corresponds to the transport layer in TCP/IP and the transport layer of OSI
+		- establishes connections between client and server and then transfers data
+		- TCP builds on IP to add guarantees that data messages are delivered reliably, in order, and checked for errors
+		- if the application needs faster data transfer and doesnt need confirmed connections it can use the similar User Datagram Protocol (UDP) instead, which works at the same layer as TCP but without guarantees about data delivery or ordering which works well for broadcasting
+		- other protocols like TLS encryption and WebSockets build off of TCP bc its fast and reliable
+	- HTTP (hypertext transfer protocol)
+		- lets applications view and modify data over the network
+		- corresponds to the application layer of TCP/IP and application layer of OSI
+		- using HTTP/HTTPS, clients make coded requests to servers which send back coded responses, where HTTP requests and responses are divided into the header which contains request metadata and the body which contains formatted data like JSON data
+		- HTTP uses uniform resource identifiers (URLs) for users to specify what data they're trying to access
+		- the codes in HTTP requests and responses communicate the kind of request or response
+		- HTTP verbs specify what kind of request is being made
+			- GET to read data, POST to create data in the body, PUT to create/update data with the data in the body, DELETE to request deletion of data, OPTIONS to list supported HTTP methods
+		- HTTP status codes indicate the type of response being sent back
+			- 1xx informational response, 2xx successful response, 3xx redirection response, 4xx client error response, 5xx server error response
+		- HTTP includes sessions which can be established and maintained either server side or client side with HTTP cookies, and HTTP supports authentication
+
+- proxies
+	- a proxy is a server or program between a client and application server to provide some intermediary sesrvice to the communication
+	- forward proxy: a forward proxy is between clients and the public internet, with a goal to protect the client pool by filtering outgoing requests and incoming responses
+		- used to enforce terms of use on a network, blocking malicious websites, and anonymizing network traffic using the IP address of the proxy instead of the client
+	- reverse proxy: a reverse proxy is between the public internet and a pool of servers. because of its location as an intermediary, reverse proxies can anonymize cluster servers, terminate SSL, load balance, cache, filter requests, and prevent attacks like DOS detection
+		- for example a reverse proxy can filter out non-GET requests before passing the requests on to the servers that handle the requests, to expose an API that is read-only
+		- a reverse proxy could also terminate TLS so the application servers dont have to handle encryption/decryption, then pass on the requests within a private network so its still secure
+
+- databases
+	- CAP theorem: any distributed database can only have two of three of the following:
+		- consistency: every node provides the most recent data
+		- availability: any node can respond
+		- partition tolerance: the system works even if communication between nodes breaks down
+	- partition tolerance is non-optional so there is a trade-off between consistency and availability
+		- if a system goes down, the system can satisfy consistency by rolling back unfinished operations and waiting to respond until all nodes are stable again, or it can satisfy availability and continue to respond but risk inconsistencies
+	- a CP database provides consistency and partition tolerance and an AP database if it provides availability and partition tolerance
+	- CP databases sync data then send responses, and AP databases send responses then sync data
+	- transactions: series of database operations that are treated as a single unit of work, where the operations must all succeed or all fail, which supports data integrity when a system fails
+		- atomicity: all operations succeed together or fail together
+		- consistency: a successful transaction puts the database in a valid state like with no schema violations
+		- isolation: transactions can be executed concurrently
+		- durability: a committed transaction is persisted to memory
+		- not all databases support ACID transactions, relational database usually support ACID transactions and non-relational databases usually dont
+	- schema: definse the shape of data structure and specifies what data can go where, specifying tables, indexes, and field types
+		- schemas can be strictly enforced across the entire database, loosely enforced on part of the database or might not exist at all, there can be one schema for the whole database or different entries can have different schemas
+		- a strictly enforced schema has the advantage of guaranteeing that queries will return data conforming to the schema, though these guarantees are computationally expensive as they have to be confirmed at every transaction and are difficult to scale especially if the schema specifies how data entries can reference each other, where maintaining these constraints are more difficult, as the reference span clusters and schema rules need to be verified across the network
+	- scaling: vertical scaling adds compute/CPU and memory (RAM, disk, SSD) resources to one computer, where horizontal scaling adds more computers to a cluster
+		- vertical scaling has much lower memory capacity, but horizontal scaling has much higher compute and storage capacity and can be sized dynamically without downtime, however relational databases struggle to scale horizontally
+	- relational databases (mysql, postgresql, oracle) use a relational data model that organizes data in tables with columns of specific data types, where relationships between tables use foreign key columns that reference primary key columns of other tables
+		- relational data models strictly enforce constraints to make sure data values and relationships are always valid against the schema, almost always using ACID transactions to ensure schema conformance
+		- relational databases are also called sql databases
+		- sql is declarative (the requesting entity tells the database what it wants and the database query planner specifies how to get that data)
+		- tuning the query planner is one of the primary optimization techniques for relational databases
+		- indexes allow frequently accessed columns to be grouped in a separate table with a foreign key reference to the original table, speeding up searches using those indexed columns
+		- specially ordering data structures in indexes can make access faster, though writes are slower because each index needs to be updated in addition to the primary table
+		- relational databases are almost always CP databases between guaranteeing consistency is important for the relational model to make sure that regardless of transactions the database is always in a valid state
+		- relational databases are best when there are many-to-many relationships between entities, data needs to follow the schema, and relationships between data need to be accurate at all times
+		- relational databases are hard to scale over distributed clusters (horizontal scaling) bc no matter how the data is split, there will be relationships between data entries on different nodes
+		- relational database nodes need to communicate to normalize (sync) the data, so operations are slower between network communication is slower
+		- relational databases arent useful if the data doesnt have many references, doesnt conform to a schema, or changes structure frequently
+		- some databases implement multi-model support, supporting both relational and non-relational models
+	- non-relational databases (NoSQL databases) are optimized for use cases that need scalability, schema flexibility or specialized query support
+		- non-relational databases can use other query languages than sql but often implement sql or sql-like query support for developers
+		- non-relational databases are either AP or CP databases given the use case theyre optimized for
+		- with AP non-relational databases, eventual consistency is used to ensure that consistency still happens even if its not guaranteed after every transaction
+		- graph databases (neo4j, cosmosdb) have nodes and edges and are good at representing data with relationships, similar to a relational database
+			- in a graph database, queries dont need joins to follow relationship connections because data isnt stored in tables, so theyre suitable for queries that traverse many connections of a graph like social network analytics
+		- document stores (mongodb, couchbase, firebase, couchdb, dynamodb) are usually simple JSON objects with a key identifier
+			- in a relation database documents could be stored in multiple different tables, but a document store might store all relevant info for a user in one document so only one document needs to be accessed at a time
+			- documents can have a variety of schemas which makes it easy to update or create a document without updating the entire database schema
+		- a key value store (redis, dynamodb, cosmosdb, memcached, hazelcast) is similar to a document store but data stored in the value is opaque, so the key value store has no idea what is stored in the value, as it only provides read/overwrite/delete operations
+			- there are no schemas, joins, or indexes, its more like a large hash table, and because of this, key value stores are scalable and particularly useful for caching
+			- when the values are large, key value stores are called an object or blob store, in which case the data might be serialized and optimized for large file sizes
+		- column-family database (cassandra, hbase, cosmosdb): a column family is a set of columns typically retrieved together, modeling data in tables like a relational database but storing column families together in files instead of rows and without enforcing relational constraints
+			- this model boosts performance by limiting how much data needs to be read for data with strong column-family access patterns, and since columns tend to hold repeating info types, they can be compressed to save space which is helpful if data is sparse
+			- this model might group name columns so regardless which components of a name a record has, all the name fields will be retrieved together, which also partitions the data table for horizontal scaling
+		- search engine database (elasticsearch, splunk, solr): provides specialized feature of full text search over large amounts of unstructured text data, possibly from multiple sources and possibly also supporting fuzzy search where results may not be an exact match for the search string
+			- useful for searching documents like system logs
+		- time series database (influxdb, kdb+, prometheus): optimized for data entries that need to be ordered by time, useful for storing real time data streams from system monitors such as errors
+			- time series databases are write heavy and usually provide services for sorting streams as they come in to make sure theyre appended in the correct order, where these databases can be easily partitioned by time range
+	- as scale becomes more important, relational databases can be too expensive so parts of the system can be moved to non-relational alternatives if they dont need strong schemas and consistency guarantees
+	
 https://igotanoffer.com/en/advice/amazon-system-design-interview
 https://www.geeksforgeeks.org/system-design/amazon-system-design-interview-questions/#

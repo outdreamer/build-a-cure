@@ -1,23 +1,28 @@
 python study guide
 
 - questions
-	- what are some AML typologies
-	- what is db normalization
+	- AML typologies
+	- db normalization
 	- python OOP
-	- whats the difference between python and java
 	- how to use python given limited memory
-	- whats the difference between an interface and an abstraction
-	- describe recursion
 	- heap memory
 	- garbage collection
+	- detect a memory leak
+	- whats the difference between python and java
+	- whats the difference between an interface and an abstraction
 	- what is the difference between a stack and a queue
+	- describe recursion
 	- Usage of circuit breaker in microservices
 	- SOLID concepts
-	- Priority Queues
-	- detect a memory leak
-	- File based system design
 	- how to optimize sql queries
-	
+	- thread-safe
+	- mutable structures are passed by reference, immutable structures are passed by value
+	- python is dynamically typed
+	- python compiles code to bytecode which is then executed by the python virtual machine and interpreted at runtime
+	- encapsulation
+	- polymorphism
+	- __init__.py (for shared functions and variables across the package)
+
 - libraries/tools
 	- black for formatting
 	- pylint/flake8 for PEP compliance
@@ -172,11 +177,6 @@ python study guide
 	- use numpy for faster, more complex operations like matrix operations, fourier transforms and statistical operations
 	- use scipy for scientific operations, signal processing, optimization, interpolation, and integration
 
-- term definitions
-	- encapsulation
-	- polymorphism
-	- __init__.py (for shared functions and variables across the package)
-
 - handlers for security bugs
 	- cross site scripting
 	- log injection
@@ -234,11 +234,6 @@ python study guide
 		- set DEBUG=False in prod to avoid publishing overly informative error messages
 		- format strings cautiously
 			- use templating tools like string.template to format strings with parameters to avoid evaluating python statements like f-strings evaluate python statements
-
-- attributes
-	- mutable structures are passed by reference, immutable structures are passed by value
-	- dynamically typed
-	- compiles code to bytecode then executed by the python virtual machine and interpreted at runtime
 
 - sources
 	https://www.geeksforgeeks.org/python/python-design-patterns/
