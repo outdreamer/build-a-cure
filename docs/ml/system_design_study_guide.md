@@ -1,54 +1,56 @@
 System design study guide 
 
-- network models
+- networks
 
-	- internet protocol suite (TCP/IP)
-		- link layer: includes protocols relevant to a local network (a link or IP network), where the computers are physically wired on the same network so they dont need a router and MAC addresses to communicate
-		- internet layer: includes protocols relevant to connecting different IP networks like IPv6
-		- transport layer: includes protocols for direct communication channels over the internet like TCP
-		- application layer: includes protocols relevant to applications sending data to and from users over the internet like HTTP
+	- network models
 
-	- open systems interconnection model (OSI)
-		- physical layer: transmits raw data on hardware like Ethernet
-		- data link layer: establishes connections for data transfer between computers in the same physical network like with MAC addresses
-		- network layer: establishes connections for data transfer in packets between computers in different networks, like IP networks
-		- transport layer: transfers data with reliable quality like TCP
-		- session layer: manages data transfer sessions between computers
-		- presentation layer: translates lower layer data formats for use by the application layer
-		- application layer: application-enabling functionality like HTTP
+		- internet protocol suite (TCP/IP)
+			- link layer: includes protocols relevant to a local network (a link or IP network), where the computers are physically wired on the same network so they dont need a router and MAC addresses to communicate
+			- internet layer: includes protocols relevant to connecting different IP networks like IPv6
+			- transport layer: includes protocols for direct communication channels over the internet like TCP
+			- application layer: includes protocols relevant to applications sending data to and from users over the internet like HTTP
 
-- protocols and how they fit into network models
-	- IP (internet protocol)
-		- allows computers on different physical networks to communicate
-		- is in the internet layer of TCP/IP and the network layer of OSI
-		- defines and works with the packet, the fundamental data unit, and provides addressing as IP addresses so packets can be correctly routed
-		- an IP packet consists of headers and data, the header contains info like the source/destination address, the data is formatted and contains whatever is useful for the next layeres
-	- TCP (transport control protocol)
-		- manages reliability of data transferred with IP
-		- corresponds to the transport layer in TCP/IP and the transport layer of OSI
-		- establishes connections between client and server and then transfers data
-		- TCP builds on IP to add guarantees that data messages are delivered reliably, in order, and checked for errors
-		- if the application needs faster data transfer and doesnt need confirmed connections it can use the similar User Datagram Protocol (UDP) instead, which works at the same layer as TCP but without guarantees about data delivery or ordering which works well for broadcasting
-		- other protocols like TLS encryption and WebSockets build off of TCP bc its fast and reliable
-	- HTTP (hypertext transfer protocol)
-		- lets applications view and modify data over the network
-		- corresponds to the application layer of TCP/IP and application layer of OSI
-		- using HTTP/HTTPS, clients make coded requests to servers which send back coded responses, where HTTP requests and responses are divided into the header which contains request metadata and the body which contains formatted data like JSON data
-		- HTTP uses uniform resource identifiers (URLs) for users to specify what data they're trying to access
-		- the codes in HTTP requests and responses communicate the kind of request or response
-		- HTTP verbs specify what kind of request is being made
-			- GET to read data, POST to create data in the body, PUT to create/update data with the data in the body, DELETE to request deletion of data, OPTIONS to list supported HTTP methods
-		- HTTP status codes indicate the type of response being sent back
-			- 1xx informational response, 2xx successful response, 3xx redirection response, 4xx client error response, 5xx server error response
-		- HTTP includes sessions which can be established and maintained either server side or client side with HTTP cookies, and HTTP supports authentication
+		- open systems interconnection model (OSI)
+			- physical layer: transmits raw data on hardware like Ethernet
+			- data link layer: establishes connections for data transfer between computers in the same physical network like with MAC addresses
+			- network layer: establishes connections for data transfer in packets between computers in different networks, like IP networks
+			- transport layer: transfers data with reliable quality like TCP
+			- session layer: manages data transfer sessions between computers
+			- presentation layer: translates lower layer data formats for use by the application layer
+			- application layer: application-enabling functionality like HTTP
 
-- proxies
-	- a proxy is a server or program between a client and application server to provide some intermediary sesrvice to the communication
-	- forward proxy: a forward proxy is between clients and the public internet, with a goal to protect the client pool by filtering outgoing requests and incoming responses
-		- used to enforce terms of use on a network, blocking malicious websites, and anonymizing network traffic using the IP address of the proxy instead of the client
-	- reverse proxy: a reverse proxy is between the public internet and a pool of servers. because of its location as an intermediary, reverse proxies can anonymize cluster servers, terminate SSL, load balance, cache, filter requests, and prevent attacks like DOS detection
-		- for example a reverse proxy can filter out non-GET requests before passing the requests on to the servers that handle the requests, to expose an API that is read-only
-		- a reverse proxy could also terminate TLS so the application servers dont have to handle encryption/decryption, then pass on the requests within a private network so its still secure
+	- protocols and how they fit into network models
+		- IP (internet protocol)
+			- allows computers on different physical networks to communicate
+			- is in the internet layer of TCP/IP and the network layer of OSI
+			- defines and works with the packet, the fundamental data unit, and provides addressing as IP addresses so packets can be correctly routed
+			- an IP packet consists of headers and data, the header contains info like the source/destination address, the data is formatted and contains whatever is useful for the next layeres
+		- TCP (transport control protocol)
+			- manages reliability of data transferred with IP
+			- corresponds to the transport layer in TCP/IP and the transport layer of OSI
+			- establishes connections between client and server and then transfers data
+			- TCP builds on IP to add guarantees that data messages are delivered reliably, in order, and checked for errors
+			- if the application needs faster data transfer and doesnt need confirmed connections it can use the similar User Datagram Protocol (UDP) instead, which works at the same layer as TCP but without guarantees about data delivery or ordering which works well for broadcasting
+			- other protocols like TLS encryption and WebSockets build off of TCP bc its fast and reliable
+		- HTTP (hypertext transfer protocol)
+			- lets applications view and modify data over the network
+			- corresponds to the application layer of TCP/IP and application layer of OSI
+			- using HTTP/HTTPS, clients make coded requests to servers which send back coded responses, where HTTP requests and responses are divided into the header which contains request metadata and the body which contains formatted data like JSON data
+			- HTTP uses uniform resource identifiers (URLs) for users to specify what data they're trying to access
+			- the codes in HTTP requests and responses communicate the kind of request or response
+			- HTTP verbs specify what kind of request is being made
+				- GET to read data, POST to create data in the body, PUT to create/update data with the data in the body, DELETE to request deletion of data, OPTIONS to list supported HTTP methods
+			- HTTP status codes indicate the type of response being sent back
+				- 1xx informational response, 2xx successful response, 3xx redirection response, 4xx client error response, 5xx server error response
+			- HTTP includes sessions which can be established and maintained either server side or client side with HTTP cookies, and HTTP supports authentication
+
+	- proxies
+		- a proxy is a server or program between a client and application server to provide some intermediary sesrvice to the communication
+		- forward proxy: a forward proxy is between clients and the public internet, with a goal to protect the client pool by filtering outgoing requests and incoming responses
+			- used to enforce terms of use on a network, blocking malicious websites, and anonymizing network traffic using the IP address of the proxy instead of the client
+		- reverse proxy: a reverse proxy is between the public internet and a pool of servers. because of its location as an intermediary, reverse proxies can anonymize cluster servers, terminate SSL, load balance, cache, filter requests, and prevent attacks like DOS detection
+			- for example a reverse proxy can filter out non-GET requests before passing the requests on to the servers that handle the requests, to expose an API that is read-only
+			- a reverse proxy could also terminate TLS so the application servers dont have to handle encryption/decryption, then pass on the requests within a private network so its still secure
 
 - databases
 	- CAP theorem: any distributed database can only have two of three of the following:
@@ -103,6 +105,225 @@ System design study guide
 		- time series database (influxdb, kdb+, prometheus): optimized for data entries that need to be ordered by time, useful for storing real time data streams from system monitors such as errors
 			- time series databases are write heavy and usually provide services for sorting streams as they come in to make sure theyre appended in the correct order, where these databases can be easily partitioned by time range
 	- as scale becomes more important, relational databases can be too expensive so parts of the system can be moved to non-relational alternatives if they dont need strong schemas and consistency guarantees
+
+
+- design patterns
+	- creational design patterns help make a system independent of how its objects are created, composed, and represented
+		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
+			- Factory easily adds new class types without changing existing code, avoids tight coupling between sub-classes/objects and creator classes/objects
+			- But the client might have to sub-class the creator class and might create a large number of files
+			- replaces the object construction calls with calls to the factory method
+			- allows an interface or a class to create an object, but lets subclasses decide which class to instantiate
+			- creates objects without exposing logic to the client and uses the same interface to create new objects
+		- abstract factory method: another layer of abstraction over the factory pattern, which works with a super-factory that creates other factories
+			- allows creating families of related objects without specifying their concrete classes, creating a similar type of many objects
+			- provides a way to encapsulate a group of individual factories
+			- replaces object construction calls with calls to the abstract factory method
+			- useful when client doesnt know which type to create, makes it easy to introduce new variants of classes without breaking existing code, and classes created from the factory are compatible
+			- But if there are a lot of classes code can become complex and create a large number of files
+		- singleton method: the singleton pattern guarantees that a class has just one instance and offers a way to access it globally
+			- a way to provide one and only one object of a type like a database connection which should only have one instance at a time
+			- Borg singletons allow multiple instances with shared state
+			- Double checked locking singleton only assigns a lock using the getinstance method when the object is None
+			- classic singleton method uses the static method for creating the getinstance method to return the shared resource
+			- the virtual private constructor __init__ can be used to raise an exception although its not required
+			- an object created with singleton is initialized only when requested for the first time, and it grants global access to the instance of the object, and method classes cant have more than one instance
+			- But it's difficult to use singletons in a multithread environment bc we have to guarantee that the multiple threads cant create a singleton object more than once, and singleton doesnt follow the single responsibility principle bc it solves multiple problems at once, and singleton makes unit testing harder by introducing global state
+			- singleton is recommended where control over global variables is important and is often used in logging, caching, thread pools, and configuration settings and often used with the factory method
+		- prototype method: allows hiding complexity of making new instances from the client, copying an existing object rather than creating a new instance
+			- enables creating new objects by cloning existing objects (making the existing cloned object the prototype), which is efficient when the cost of creating a new object is high and when an object's initial state or configuration is complex
+			- includes:
+				- the prototype interface or abstract class that declares methods for cloning objects, defining the common interface that concrete prototypes have to implement so all prototypes can be cloned consistently, declaring the clone method to produce copies of the prototype
+				- concrete prototypes is a class that implements the prototype interface or extends the abstract class, and is the class of the specific type of object being cloned, defining the details of how cloning should happen for instances of that class and implementing the clone method for specific cloning logic for that class
+				- client is the code that requests the creation of new objects by interacting with the prototype, initiating the cloning process without being aware of the concrete classes involved
+				- clone method is declared in the prototype interface or abstract class, and implemented in concrete prototypes to define specific cloning logic, describing how the object's internal state should be duplicated to create new independent instances
+			- use the prototype method when creating objects is more costly or complex than copying existing ones, when objects need to vary slightly without justifying a whole set of alternate classes, when the system requires dynamic configuration and you want to create objects with configurations at runtime so prototyping a base configuration and cloning it would be useful, and when you want to reduce the cost of initializing an object
+			- dont use the prototype method when object instances are unique and implementing the pattern costs more than it benefits, when object creation is simple and doesnt consume a lot of resources and there is no object variation required, when objects are immutable which are often safely shared without requiring cloning, when the object creation process is easy to understand and manage, when there are only a few variations of objects and creating subclasses or instances with specific configurations is easy
+		- builder method: used to separate construction of a complex object from its representation so the same construction process can create different representations, helping construct a complex object step by step in which the final step returns the object
+			- allows using the same construction code to create different types and representations of the object easily, designed to provide flexibility to solutions to various object creation problems
+			- allows separating business logic and the complex construction code, and constructs objects step by step, allows deferring construction steps, allows calling steps recursively, prevents the client from fetching incomplete data bc it doesn't allow exposing an unfinished object, is useful when constructing various representations of the class involves similar steps that vary in details, in which case the base builder interface defines the construction steps while these steps are implemented by concrete builders
+			- But increases code complexity bc it requires creating multiple new classes, requires the builder class to be mutable, and data members of the class arent guaranteed to be initialized
 	
-https://igotanoffer.com/en/advice/amazon-system-design-interview
-https://www.geeksforgeeks.org/system-design/amazon-system-design-interview-questions/#
+	- structural design patterns use inheritance to compose interfaces or implementations, solving problems of composing classes and objects into larger structures which are flexible and efficient
+		- adapter method: converts the interface of a class into another interface expected by the client, letting classes work together that couldnt otherwise bc of incompatible interfaces
+			- helps make incompatible objects adaptable to each other by creating a connection between two incompatible interfaces, providing a different interface for a class, thereby enabling integration of classes that were previously incompatible
+			- the client requests to the adapter using the target interface, the adapter translates the request to the adaptee interface, then the result of the call is received by the client
+			- for example, the adapter passes arguments like functions/attributes with different names by using the same parameter, so that same parameter can be used to access the function/attribute instead of the different function/attribute names
+			- the adapter achieves single responsibility bc it separates specific code from primary logic of the client
+			- the adapter is flexible and allows code reusability
+			- the client class is not required to use a different interface thereby allowing the client to remain simple and we can use polymorphism to swap between different implementations of adapters
+			- the new adapter classes can be introduced without violating the open/closed principle
+			- But the adapter increases complexity of the code and requires many adaptation with the adaptee chain to reach the compatibility that we want
+			- adapter is used when we want to make certain classes communicate
+			- when we want to reuse some piece of code like interfaces that lack some functionality, the adapter method is used
+		- bridge method: allows abstraction and implementation to be developed independently, so the client code can access the abstraction part without accessing the implementation part
+			- allows separating implementation-specific abstractions and implementation-independent abstractions so they are developed as single entities, useful for organizing the class hierarchy
+			- the abstraction provides the reference to the implementer
+			- the refined abstraction extends the abstraction to a new level where it takes the specific details one level above and hides the specific elements from the implementers
+			- the implementer defines the interface for implementation classes, which doesnt need to correspond directly to the abstraction interface and can therefore be very different
+			- concrete implementation: the concrete implementation implements the above implementer
+			- the implementation-specific abstractions are separated from the class with the implementation-independent abstractions, such as by passing the implementation-specific abstraction as a parameter to the class with the implementation-independent abstractions
+			- the bridge method follows the single responsibility principle bc it separates abstractions from their implementation so the abstraction and implementation can vary independently
+			- bridge doesnt violate the open/closed principle bc at any time, we can introduce the new abstractions and implementations independently from each other
+			- bridge can be used to implement platform-independent features
+			- But the bridge method is complex bc it introduces new abstraction classes and interfaces, and might negatively impact performance bc the abstraction has to pass messages along with the implementation for the operation to be executed, and is difficult to manage with many interfaces
+			- the bridge method provides run-time binding of an implementation (run-time binding is what we can call a method at run-time instead of compile-time)
+			- the bridge method is used to map independent class hierarchies
+		- composite method: a partitioning design pattern which characterizes a collection of items that are handled the same as a single instance of that type of object, with intent to compose objects into tree structures to represent part-whole hierarchies
+			- composite method describes a group of objects that is treated the same way as a single instance of the same type of object, with intent to compose objects into tree type structures to represent the whole-partial hierarchies
+			- composite method allows composing objects into the tree structure and then allows working with tree structures as an individual object
+			- the operations that can be performed on all the composite objects often have the least common denominator relationship
+			- component: helps implement default behavior for the interface common to all classes, declaring the interface of the objects in the composition and for accessing and managing its child components
+			- leaf: defines behavior for primitive objects in the composition, representing the leaf object
+			- composite: stores the child component and implements child related operations in the component interface
+			- client: manipulates objects in the composition through the component interface
+			- the composite method is used when there are composites that contain components, each of which could be a composite
+			- the composite method follows the open/closed principle bc the introduction of new elements, classes, and interfaces is allowed into the application without breaking the existing code of the client
+			- the composite method allows consuming less memory bc it creates less objects and it has improved execution time by sharing objects, and is flexible by providing flexibility of structure as it defines class hierarchies with primitive and complex objects
+			- But it makes it harder to restrict the type of components of a composite, and is not useful when representing a full or partial hierarchy of objects is not needed, and produces the general tree once the tree structure is defined, and depends on run-time checks to apply constraints bc it doesnt allow using the type system of the language
+			- composite is preferred when producing a nested tree structure is required, and allows organizing structures with common operations so the structures can be handled in the same way
+		- decorator method: allows dynamically adding functionality to an object without affecting the behavior of other existing objects within the same class, using inheritance to extend the behavior of the class which takes place at compile-time so all the instances of that class get the same extended behavior
+			- allows functionality to be added to individual objects dynamically without affecting the functionality of other objects from the same class, which involves decorator classes which wrap concrete components
+			- promotes flexibility and extensibility by allowing composing objects with different combinations of functionality at runtime
+			- follows the open/closed principle since new decorators can be added without modifying existing code
+			- decorators are used where a variety of optional features need to be added in a flexible and reusable manner
+			- add additional functionality like cross-cutting variables such as logging, profiling, caching, error handling or authentication without modifying core logic
+			- component interface: an abstract class or interface that defines the common interface for the concrete components and decorators, specifying the operations that can be applied to the objects
+			- concrete component: these are the basic objects or classes that implement the component interface, they are the objects to which new behavior is added
+			- decorator: an abstract class that also implements the component interface and has a reference to a component object, responsible for adding new behaviors to the wrapped component object
+			- concrete decorator: these are the concrete classes that extend the decorator class, adding specific behaviors to the component, where each concrete decorator can add one or more behaviors to the component
+			- unlike traditional inheritance which can lead to a deep and inflexible class hierarchy, the decorator pattern uses composition, allowing composing objects with different decorators to add the necessary functionality, which avoids the disadvantages of inheritance like tight coupling and rigid hierarchies
+			- decorators allow dynamic behavior modification by allowing application or removal at runtime, which is useful to change object behavior based on changing requirements or user preferences
+			- allows clear code structure
+			- decorators can add complexity, increase the number of classes, increase requirements like managing the correct order of decorators, and overusing decorators is a complicating factor
+		- facade method: provides a unified interface to a set of interfaces in a subsystem, defining a high-level interface that makes the subystem easier to use
+			- helps reduce dependencies between clients and a system, making code more modular and understandable, allows hiding complexities of a system and offering a simpler way to interact with the system, enhancing maintainability and scalability
+			- structuring a system into subsystems helps reduce complexity
+			- minimizing the communication and dependencies between subsystems is useful
+			- one way to minimize communication/dependencies between subsystems is a facade object that provides a simple interface to other functions of a subsystem
+			- facade: a single class that provides a simple interface to a complex subsystem, which delegates client requests to the appropriate subsystem objects without exposing the underlying complexity
+			- subsystem classes: classes that do the work of the system, which provide the actual functionality, which are not directly accessible by clients but are used by the facade
+			- client: entity that interacts with the subsystem through the facade by making requests to the facade
+			- used to simplify complex system, promote loose coupling, hide implementation details, improve code readability and maintainability, implement layers like the business logic layer and hiding the complexities of data access and processing layers, and manage legacy code
+			- avoid the facade if abstraction is unnecessary, if direct access to subsystems is needed, to avoid performance hits by adding extra layers of method calls, when subsytems are simple, and when the facade is tightly coupled with client code so making changes to subsystems requires making changes to the facade and client, which defeats the purpose of decoupling, so that the facade becomes a bottleneck for changes and updates which hinders system flexibility
+		- flyweight method: provides ways to decrease object count thereby improving applications' required objects structure, used to create a large number of similar objects
+			- minimizes object count required at run-time, creating a flyweight object that is shared by multiple contexts, created to be indistinguishable from normal objects
+			- flyweight objects are immutable
+			- to implement flyweight, dictionaries store references to the objects that are already created
+			- fewer objects reduce memory usage and reduces object creation time by sharing objects or sharing common parts of objects
+			- flyweight uses less RAM, improves data caching for fast response time, and improves performance bc it uses less heavy objects
+			- But flyweight breaks encapsulation by moving state outside the object which is less efficient, and flyweight complicates code
+			- flyweight saves space when the application is independent of the object created, and reduces cost in terms of space and time complexity
+		- proxy method: also called surrogates, handles, and wrappers, closely related in structure but not intent to adapters/decorators
+			- allows providing a replacement for another object, using different classes to represent functionality of another class, creating an object having the original object functionality
+			- proxy method controls and manages access to the object being protected
+			- for example the proxy method can avoid multiple database connections, by making one proxy connection to the database which handles multiple queries
+			- the proxy method follows the open/closed principle bc new proxies are easily introduced without changing client code
+			- the proxy works even when the service object is not ready or not available, and the proxy method also provides security and increases performance by avoiding duplication of objects that can be large and memory intensive
+			- But the proxy might create slow responses, and introduces another layer of abstraction which is a problem if the protected code is accessed directly by some clients and some of them use the proxy class, and increases complexity by introducing a lot of new classes
+			- a virtual proxy is used in databases, a protective proxy creaets a protective layer over the application, a remote proxy is used when the service object is located on a remote server so the proxy passes the client request over the network, and a smart proxy provides additional security to the application by intervening with specific actions when the protected object would be accessed
+	
+	- behavioral design patterns relate to algorithms and the assignment of responsibilities between objects, describing not just patterns of objects or classes but the patterns of their communication, characterizing complex control flow that's difficult to follow at run-time
+		- chain of responsibility method: used for loose coupling where a request from the client is passed to a chain of objects to process the request, and later the objects in the chain will decide who will be processing the request and whether the request needs to be sent to the next object in the chain
+			- chain of responsibility is the object version of a set of if/elif/else conditions and allows rearranging condition-action blocks at run-time, allowing passing request along the chain of handlers
+			- it decouples sender and receiver of a request, creating an abstract handler and a set of specific handler for sequential operations which should be performed dynamically
+			- it follows the single responsibility principle by decoupling the classes that invoke operations from classes that perform operations
+			- it follows the open/closed principle by introducing new code classes without breaking existing client code
+			- it increases flexibility of the code while giving responsibilities to the objects
+			- But chain of responsibility doesnt guarantee whether the object will be received, makes debugging difficult bc observing characteristics of operations is difficult, and might decrease performance bc of continuous cycle calls
+			- chain of responsibility is useful when its required to process handlers in a certain order bc the linking is possible in any order, and when sender and receiver of request should be decoupled and when avoiding specifying handlers is useful
+		- command method: transforms a request into an independent object with all of the information requested, an object which can be passed around, stored, and executed at a later time
+			- encapsulates a request as an object, allowing parameterization of clients with different requests and the queuing/logging of requests
+			- promotes the invocation of a method on an object to object status, encapsulating all the info to perform an action
+			- suggests that objects shouldnt send requests directly but instead the request info should be moved to a separate command class with a method that triggers the request
+			- follows the open/closed principle by introducing new commands without breaking existing client code
+			- follows the single responsibility principle by decoupling classes that invoke operations from other classes
+			- allows implementing undo/redo with the command method
+			- allows encapsulating the info needed to perform an action
+			- But increases complexity bc of the layers in between the sender/receiver, increases the quantity of classes, and every command is a ConcreteCommand class that increases the count of classes for implementation and maintenance
+			- it implements reversible operations and is useful when its required to parameterize objects with the operations
+		- interpreter method: used to define a grammatical representation for a language and provides an interpreter to deal with this grammar
+			- enables interpretation and evaluation of expressions or language grammars, allows building an interpreter for a language using symbols or expressions, requiring defining a class for each symbol or expression and implementing an interpret method that evaluates these symbols
+			- AbstractExpression is an abstract class or interface that declares an abstract interpret() method, representing the common interface for all concrete expressions in the language
+			- TerminalExpression is the concrete class implementing the AbstractExpression interface, representing the terminal symbols or leaves in the grammar, which are the building blocks the interpreter uses to interpret the language
+				- in an arithmetic expression interpreter, terminal expressions could include literals like numbers or variables representing numeric values
+				- these terminal expressions would evaluate to their respective values directly without further decomposition
+			- NonterminalExpression is a concrete class implementing the AbstractExpression interface, handling composite expressions which consist of multiple sub-expressions, tasked with providing interpretation logic for such composite expressions
+				- their responsibility is also to coordinate the interpretation process by coordinating interpretation of sub-expressions
+				- this involves coordinating interpretation calls on sub-expressions, aggregating results, and applying necessary modifications to achieve the final interpretation of the whole expression
+				- non-terminal expressions enable traversing expression trees during the interpretation process
+				- they recursively interpret sub-expressions, ensuring each part of the expression contributes to the interpretation
+			- Context contains info that is global to the interpreter and is maintained and modified during the interpretation process, possibly including variables, data structures or other state info the interpreter needs to access or modify while interpreting expressions
+			- Client is responsible for creating the Abstract Syntax Tree and invoking interpret() on the root of the tree, typically created by parsing the input language and constructing a hierarchical representation of the expressions
+			- expression evaluators evaluate mathematical expressions, boolean expressions, etc
+			- compilers and interpreters parse and interpret languages
+			- command processors execute commands based on a defined grammar
+			- use interpreter when its required to interpret or evaluate expressions repeatedlly and the grammar is stable and not too complex, when its required to represent a simple language grammar and its parsing directly in code, when its required to build a simple command processor or scripting language
+			- dont use interpret when the language grammar is difficult and often changes, also interpreted languages are slower than compiled languages, and the interpreter could complicate error prevention and speeding up processes
+		- mediator method: enables decoupling of objects by introducing a layer in between so the interaction between objects happen with the layer
+			- promotes loose coupling between objects by centralizing communication between them, which is useful when you have a complex system with multiple objects that need to interact and its required to avoid tight coupling that can result from direct object-to-object communication
+			- Mediator is an interface or class responsible for defining communication interface between objects, acting as a central hub for communication and containing method allowing objects to send and receive messages
+			- Concrete Mediator is a specific implementation of the Mediator interface, managing the interactions between objects, knowing how to route messages and coordinate actions between objects
+			- Colleague: colleagues are individual objects that need to communicate, are aware of the mediator but dont have direct references to other colleagues, instead sending/receiving messages with the mediator
+			- reduces direct dependencies between objects, promoting a loosely coupled system, only requiring colleagues to know about the mediator which makes it more maintainable and extensible
+			- centralizes communication which can simplify complex interactions, allowing enforcement of rules, coordination of actions, and organization of communication
+			- mediators can be reused/applied to various situations to manage interactions between objects
+			- isolates communication-related logic in one places, following the single responsibility principle
+			- But introducing a mediator can add complexity if there are a small number of objects or if the interactions are simple, and can introduce performance hits since all messages pass through one central point, and requires maintaining the mediator which is challenging in a complex environment or with changing communication requirements, and can turn the mediator into a god object that knows too much about the system and handles too much logic
+		- memento method: used to return an object's state to its initial state, enabling creating checkpoints in an application and returning to these checkpoints at a later time
+			- allows capturing and restoring an object's state without violating encapsulation and without revealing its internal structure, which is useful when implementing undo/redo mechanisms, state persistence across transactions, encapsulation of state management, temporary state storage, snapshot management, and checkpoints in applications, allowing the system to revert to a previous state when needed
+			- originator: the object whose internal state is to be saved and restored, creating a memento containing a snapshot of its current state and using the memento to restore its state later
+			- memento: the object storing the internal state of the originator, containing a snapshot of the originator's state at a point in time, usually immutable to ensure state cant be modified once captured
+			- caretaker: the object responsible for managing the memento, requesting a memento from the originator, holding the memento, and passing the memento back to the originator when needed for state restoration, without modifying or inspecting the contents of the memento
+			- avoid the memento pattern if state management is simple and doesnt require frequent saving or restoration, to avoid high memory usage of mementos if the state is large or changes frequently, if there is no need for state restoration and for security concerns if the state contains sensitive info
+		- observer method: establishes a one to many dependency between objects, meaning all the dependents (observers) of the subject are immediately updated and notified when the subject changes
+			- allows defining or creating a subscription mechanism to send notifications to multiple objects about any new event that happens to the observed publisher object the subscribers are observing, where the publisher needs to be monitored and when there is a change in the publisher, the observers are notified about the change, defining a one-to-many dependency between objects so that when one publisher object changes state, all the dependent observers/subscribers are notified and updated automatically
+			- follows the open/closed principle by introducing subscriber classes without making changes to the client code, establishes relationships between objects at run-time, and carefully describes the coupling present between the object and the observer so there is no need to modify the publisher to add/remove observers
+			- But the observer method can cause memory leaks bc of explicit registering/unregistering of observers caused by the lapsed listener problem, and subscribers get randomly ordered notifications, and can increase code complexity
+			- observer should be used when there are multiple objects dependent on the state of one object, and when notifications are needed
+		- state method: where an object modifies its behavior according to its internal state, where if we have to change the behavior of an object based on its state, we can use a state variable in the object and an if-else condition to perform different actions based on the state
+			- allows an object to change its behavior when there is a change in its internal state, which helps implement the state as a derived class of the state pattern interface
+			- if its necessary to change the behavior of an object based on its state, there can be a state variable in the object and an if/else condition block to perform different actions based on state, which implements an object-oriented finite state machine, implementing state transitions by invoking methods from the pattern's superclass
+			- suggests creating a new class for all possible states of an object and extracting all state-specific behaviors into these classes, where instead of implementing all behaviors on its own, the original object called context stores a reference to one of the state objects representing its current state and delegates state-related work to that state object
+			- follows the open/closed principle allowing introducing new states without changing the content of existing states of the client code
+			- follows single responsibility principle in organizing code of specific states into separate classes
+			- improves cohesion since state-specific behaviors are aggregated into the ConcreteState classes which are in one location in the code
+			- But the state method can make a system overly complex if there are just a few states, changes state at run-time, increases the number of classes, and each state-derived class is coupled to its sibling which introduces dependencies between sub-classes
+		- strategy/policy method: selecting an object's behavior at runtime, involving encapsulating a family of algorithms into distinct classes that each implement a common interface
+			- allows defining a complete family of algorithms, encapsulating each one and putting them into separate classes and allows exchanging objects, which is implemented by dynamically replacing the content of a method defined in a class with the contents of functions defined outside the class, enabling selecting the algorithm at run-time
+			- follows the open/closed principle bc its easy to introduce new strategies without changing the client code
+			- isolates specific details of the algorithms from the client code
+			- encapsulates data structures for implementing the algorithm in strategy classes so the implementation of the algorithm can be changed without affecting the context class
+			- allows switching strategies at run-time
+			- But creates extra objects, creating both the context and the required strategy object, and differences in strategies should be clear to clients to select the best strategy, and increases complexity
+			- strategy is preferred when there are a lot of similar classes that differ in how they execute, and is used to isolate business logic of the class from the algorithmic implementation
+		- template method: defines an algorithm as a collection of skeleton operations where the child classes handle the implementation of the specifics and the parent class maintains the overall structure and flow of the algorithm
+			- defines the skeleton of the operation and allows details to be implemented by the child class, where its subclasses can override the method implementations as needed but the invocation is the same as defined by the abstract class, allowing reusing the same code by making certain changes
+			- provides flexibility since subclasses can decide how to implement the steps of the algorithms, and allows inheritance and therefore code reuse
+			- But the code may become complex, and clients may request the extended version bc the skeleton template has too few algorithms, and by using the template method you may violate the liskov substitution principle
+			- its useful when its required to let clients extend an algorithm, and when there are a lot of similar algorithms with trivial changes to avoid changing all algorithms when one change is required, and enables developing frameworks by enabling code reuse through making code changes
+		- visitor method: used to perform an operation on a group of a similar kind of Objects, enabling moving the operational logic from the objects to another class
+			- allows separating an algorithm from an object structure on which it operates, allows adding new features to an existing class hierarchy dynamically without changing it
+			- is useful for handling communication between objects, like all other behavioral design patterns
+			- visitor is used when its required to perform an operation on a group of similar kinds of objects
+			- visitor consists of a visit method implemented by the visitor and used and called for every element of the data structure, and visitable classes providing accept methods that accept a visitor
+			- client: consumer of classes of the visitor design pattern, accessing the data structure objects and instructing them to accept visitors for future processing
+			- visitor: an abstract class used to declare visit operations for all visitable classes
+			- concrete visitor: each visitor is responsible for different operations, where for each visitor all the visit methods declared in the abstract visitor must be implemented
+			- visitable: accepts operations are declared by the visitable class, acting as the entry point enabling an object to be visited by a visitor
+			- concrete visitable: these classes implement the visitable class and define the accept operation, the visitor object is passed to this object using the accept operation
+			- the visitor method suggests adding new behaviors to a separate visitor class instead of mixing it with the already existing classes, so the original object is passed to the visitor method as a parameter so the method will access all the necessary info
+			- follows the open/closed principle by making it possible to introduce new behavior in a class without making changes in these classes
+			- follows the single responsibility principle in that multiple versions of the same behavior can be operated on the same class
+			- adding an entity in the visitor method is easy since it requires changing the visitor class only and not affecting existing items
+			- updating logic only requires changing the visitor implementation rather than changing all the item classes
+			- But every visitor needs to be updated when a class is added or removed from the hierarchy, and if there are too many visitor classes its hard to extend the interface, and visitors might not have access to private fields of classes theyre supposed to work with
+			- visitor method works well with recursive structures like directory trees or xml structures bc it can visit each node in the recursive structure, and the visitor method is useful when performing operations on all elements of the complex object like a tree
+
+
+- sources
+	https://igotanoffer.com/en/advice/amazon-system-design-interview
+	https://www.geeksforgeeks.org/system-design/amazon-system-design-interview-questions/#
+	https://www.geeksforgeeks.org/python/python-design-patterns/
+
+
