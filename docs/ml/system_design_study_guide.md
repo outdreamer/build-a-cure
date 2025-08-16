@@ -122,6 +122,36 @@ System design study guide
 	- sharding is useful when a database server cant hold all the data, cant compute all the query responses fast enough, and cant handle the number of concurrent connections, and when its required to maintain different geographic regions
 	- eventual consistency for duplicated data or upholding relational constraints must be implemented, and also failovers/backups/maintenance is more complicated
 
+- latency and throughput and availability
+	- latency is the time it takes a single request to travel from its point of origin to its destination and receive a response, combining response time, transmission time, queueing time, human reaction time, updating requester time, and processing time into round trip time, can be measured in seconds/milliseconds/nanoseconds
+		- network latency: how long it takes data to move between two points in a network
+		- system latency: the time it takes for a request to travel to its destination and receive a response
+		- high latency can be caused by high network traffic, bandwidth limitations, geographical distance, server overload, and latency in database queries
+		- adding an index or using a different database model can improve query latency
+		- optimizing paths by minimizing the number of nodes a request has to travel through can improve network latency
+		- caching can improve latency but can also increase it if poorly implemented
+		- protocol choice like HTTP/2 can reduce the amount of protocol overhead for a request and can lower latency, and TCP has congestion avoidance features that can minimize congestion causes of latency
+		- latency measuring tools
+			- ping measures the round trip time, providing an estimate of network latency
+			- traceroute displays the path that data packets take to reach a destination, identifying which network hops contribute to latency
+			- MTR (traceroute with ping) combines traceroute and ping functionality, showing routing information and RTT at each hop on the path
+			- performance profiling tools track resource usage and execution times within a system, providing detailed insights into system latency contributors
+			- application performance monitoring (APM) tools monitor application performance including response times and latency across components
+			- one-way latency is calculated as distance/propagation speed and RTT is twice the one-way latency
+	- throughput is the rate at which a system/process/network can move data or handle operations in a particular period of time, measured in bits per second/bytes per second/transactions per second, etc, which is computed by dividing the total number of operations or objects executed by the time taken
+		- network throughput: the quantity of data that can be sent via a network in a specific amount of time, which helps evaluate effectiveness of communication routes
+		- disk throughput: the speed of data reads/writes to a storage device in bytes per second
+		- processing throughput: the number of operations completed in a unit of time like the number of instructions executed per second, such as operations completed by a CPU or processor
+		- latency is inversely related to throughput, and throughput is the actual amount of data transmitted in a time period and is not the theoretical capacity/bandwidth of the system
+		- for example, latency is how long it takes to go from point a to point b, bandwidth is how wide the communication channel is, and throughput is how much data is transmitted in what amount of time
+		- a network with high throughput can transfer large amounts of data quickly, where low latency means a minimal delay between request and response
+		- throughput reflects system capacity and ability to handle multiple tasks at once, where latency reflects responsiveness and perceived speed of the system by the user
+		- protocol overhead (like handshakes), high network traffic, bandwidth limitations, hardware performance, software efficiency and latency can all impact throughput
+		- network optimization like optimal routing algorithms and efficient network protocols, load balancing, hardware upgrades, software optimization, protocol choice (TCP's congestion avoidance features), compression, improving latency, and caching can all improve throughput
+	- availability is the amount of time that a system can respond, as in the ratio of uptime/(uptime + downtime), which is an important metric bc downtime can harm users, where 99.999% is the gold standard of uptime
+		- hardware failure, software bugs, complex architectures with more points of failure making synchronization and fault tolerance difficult, dependent service outages, request overload, deployment issues can all impact availability
+		- redundancy (failover systems, clustering, data backups/replication, geographic redundancy, automatic testing/deployment/rollbacks) is a solution to unavailability of a system
+
 - design patterns
 	- creational design patterns help make a system independent of how its objects are created, composed, and represented
 		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
