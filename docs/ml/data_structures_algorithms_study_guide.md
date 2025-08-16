@@ -160,7 +160,7 @@ Data structures and algorithms study guide
 	- find the Least Number of Unique Integers after K Removals
 	- find missing numbers of an array
 	- create a character array
-	- Kadane
+	- Kadane's algorithm
 	- visualise a double-linked list
 
 - algorithms
