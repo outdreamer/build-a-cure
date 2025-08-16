@@ -152,6 +152,22 @@ System design study guide
 		- hardware failure, software bugs, complex architectures with more points of failure making synchronization and fault tolerance difficult, dependent service outages, request overload, deployment issues can all impact availability
 		- redundancy (failover systems, clustering, data backups/replication, geographic redundancy, automatic testing/deployment/rollbacks) is a solution to unavailability of a system
 
+- load balancing
+	- a load balancer is a network device or software application that distributes and balances and routes incoming traffic among servers to provide high availability/reliability, efficient usage of servers and high performance
+	- without a load balancer, a server can be a single point of failure and the whole application can go down bc there is no load balancer to route requests to available servers, servers can be overloaded, and has limited scalability in that adding more servers is complex and wont help solve the load problem without a load balancer
+	- load balancers enable horizontal scaling, ensure high availability/reliability, divide traffic among servers, optimize resource usage and prevent bottlenecks, monitor health of servers to direct traffic toward healthy servers, and handle SSL/TLS termination so servers dont need to have SSL/TLS connections
+		- hardware load balancers are devices to control traffic distribution among servers, which are reliable but costly to scale and maintain
+		- software load balancers divide traffic among servers, running on existing infrastructure in contrast to hardware load balancers, and are more scalable and cheaper and more adaptable
+		- cloud load balancers automatically divide traffic without requiring hardware, which is scalable and good for dynamic workloads as they can adjust to traffic spikes
+		- Layer 4 (transport) load balancers use IP addresses and port numbers (TCP/UDP) to divide traffic while operating at the OSI model's transport layer, which are quicker and useful for easy routing jobs bc they dont examine data being sent, managin high traffic with little overhead
+		- layer 7 (application) load balancers function at the OSI model's application layer so they can route traffic according to specific app data like HTTP headers, URLs, cookies, or user sessions, which are able to make complex routing choices like sending traffic to servers based on type of content
+		- global server load balancers (GSLB) distribute traffic across servers in different geographical regions, routing requests to the closest or most responsive server, reducing latency and providing disaster recovery by ensuring service availability across multiple data centers in case of server or region failures
+	- load balancing algorithms decide which request should be directed to which server
+		- static load balancing algorithms involve predetermined assignments of tasks/resources without considering real-time variations, such as round-robin, weighted round-robin, and source IP hash
+		- dynamic load balancing algorithms can direct requests to servers based on the distribution of incoming traffic or computing burden which adjusts to changes in resource availability, network traffic, and server load, like the least connection method or the least response time method
+	- load balancers increase performance/scalability, efficient manage failure, prevent traffic bottlenecks, efficiently use resources, and maintain user sessions
+	- but load balancers introduce a single point of failure, complexity/cost, configuration challenges, and can add latency, and can be challenging to implement SSL termination and end-to-end encryption and SSL inspection
+	
 - design patterns
 	- creational design patterns help make a system independent of how its objects are created, composed, and represented
 		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
