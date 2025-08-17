@@ -65,9 +65,35 @@ python study guide
 				result = sum(data)
 
 	- whats the difference between python and java
+		- Java supports OOP, is compiled and statically typed and platform-independent
+			- java is compiled into bytecode and run on the Java Virtual Machine (JVM), offering better performance
+		- python supports OOP/functional/procedural programming, is interpreted and dynamically typed
+			- python is compiled into bytecode which is then executed by the python virtual machine and interpreted at runtime
+			- python is slower than java since it uses an interpreter, is executed line-by-line, and determines data type at run time
 	- whats the difference between an interface and an abstraction
+		- an abstract class is a blueprint for other classes, implemented with the abc module, which can have abstract methods without implementations and concrete methods with implementations, and cant be instantiated directly, where subclasses have to implement all abstract methods
+		- an interface defines a set of methods that a class has to implement, typically interfaces are implemented without abstract classes having only abstract methods, which is useful for ensuring that behaviors are implemented without specifying how they should be implemented, and doesnt allow any implementations in the interface
 	- what is the difference between a stack and a queue
-	- describe recursion
+		- stacks use LIFO where the last element added is the first to be removed, push/pop operate on the top element, uses list.append for push, list.pop for pop, stacks are useful for undo operations and function calls, where collections.deque can be used for a stack using collections.deque.pop
+		- queues use FIFO where the first element added is the first to be removed, enqueue adds an element to the end and dequeue removes the element from the front, use collections.deque.append for enqueue and collections.deque.popleft for dequeue, queues are useful for task scheduling and buffering, queue can be implemented with lists using list.pop(0) to remove the first item
+		- collections.deque is optimized for fast appends/pops from both sides of the deque, so its more efficient than a list which has inefficient pop(0) operations for queues as all the elements have to be shifted by one when popping from the front of the list
+
+	- recursion
+		- recursion is where a function calls itself to solve a problem by breaking it into smaller subproblems, such as calculations, tree traversals or divide-and-conquer algorithms
+			def recursive(param):
+				if base_case:
+					return base_param_result # prevents infinite recursion with a stopping case
+				if recursive_case:
+					return recursive(modified_params)
+		- tail recursion is where the recursive call is the last thing the function does so no more code is executed after it returns, which is sometimes implemented like a loop to save memory, like where multiplication happens in a parameter definition so the multiplication happens before the recursive call
+		- non-tail recursion is where the function does more work after the recursive call returns so it cant be optimized into a loop, like where there is multiplication after the recursive call by being outside the function call
+		- recursion is easier to implement when the problem is recursive like tree traversals
+		- iteration involves loops (for/while) to repeat a block of code which is usually more memory efficient bc it doesnt involve multiple stack frames like recursion
+		- avoid recursion when the problem can be easily solved with loops, when recursion depth is large which risks a stack overflow, when performance is critical and function call overhead matters
+		- recursion is useful for simplicity and reduced code length, but increases memory overhead especially for deep recursion and has more function calls/returns so may have slower responses and risks stack overflow if the recursion depth exceeds the stack limit
+
+	- stack overflow: occurs when the stack like a call stack (memory used to store active function calls) is full and an attempt to push an element on to it is made, which happens bc the stack has a fixed size or memory limit, which is a common issue in recursive functions where excessive function calls consume the call stack memory like with infinite recursion
+
 	- SOLID concepts
 		- Single Responsibility: a class should only have one responsibility
 		- Open-Closed: entities should be open for extension but closed for modification (add functionality without changing the existing code)
@@ -83,11 +109,17 @@ python study guide
 			- synchronization mechanisms can be used when state has to be shared, like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes), and atomic operations (using operations that are indivisible ensuring that shared data is consistent), though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
 	- passed by value/reference:
 		- mutable structures are passed by reference, immutable structures are passed by value
-	- python is dynamically typed
-		- python compiles code to bytecode which is then executed by the python virtual machine and interpreted at runtime
-	- encapsulation
-	- polymorphism
-	- __init__.py (for shared functions and variables across the package)
+	- encapsulation: bundles data/attributes and methods/functions in a single unit like a class, and restricts direct access to some of the components to protect data integrity and ensure control over how its accessed/modified
+		- internal details of a class are hidden, access modifiers (public, protected, private) control visibility of class attributes and methods, and getter/setter methods allow controlled access to private attributes
+		- public attributes/methods are accessible from anywhere, protected attributes/methods are prefixed with an underscore and are intended to only be accessed within a class/subclasses, private attributes/methods are prefixed with double underscores and not directly accessible outside the class but can be accessed with name mangling
+		- encapsulation allows data security by preventing unauthorized access/modification, code maintainability, and flexibility allowing changes to internal implementation without affecting external code
+	- polymorphism: the ability of a function/method/operator to behave differently based on the object its working with, allowing for flexibility and reusability in code and making it easy to work with objects of different types in the same way
+		- method polymorphism is where different classes have methods with the same name with different functionality
+		- operator polymorphism is where operators like + can perform different operations based on data types, either adding integers or concatenating strings
+		- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
+		- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
+		- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
+	- __init__.py is for shared functions and variables across the package and creating packages, which is executed when a package is imported
 
 - libraries/tools
 	- black for formatting
@@ -111,16 +143,6 @@ python study guide
 		- pentesting: scapy, nmap, impacket, pwntools, beautifulsoup, metasploit
 		- regression testing: unittest, pytest-regressions
 	- monitoring tools
-
-- attack types
-	- SQL injection: malicious queries/scripts inserted into sql created using unvalidated string input
-		- fix: validate sql query input, use ORM with named parameters
-	- XSS: inject malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
-		- fix: validate http input/output, validate database input/output, validate scripts in webpages with content security policies using nonces in scripts, validate user input, encode output before including them in html to prevent execution of scripts, use security headers like Content-Type, avoid using eval() or innerHTML without validation
-	- ARP spoofing: associates the attacker's MAC address with the IP address of another host, causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks
-		- fix: static ARP entries, software to certify or cross-check ARP responses
-	- MITM: https spoofing, ssl/tls stripping, arp spoofing, dns spoofing, session hijacking, man-in-the-browser, wi-fi MITM, email hijacking, replay attacks, fake certificate authority are MITM attack types
-		- fix: mutual authentication, recorded attestments, HTTP public key pinning (whitelist of public key hashes provided by server), using signatures to authenticate DNS records
 
 - version updates
 	- 3.14: deferred evaluation of annotations, template strings, improved error messages, a tail-call-compiled interpreter, a C API for python runtime configuration
@@ -200,10 +222,15 @@ python study guide
 	- use scipy for scientific operations, signal processing, optimization, interpolation, and integration
 
 - handlers for security bugs
-	- cross site scripting
-	- log injection
-	- sql injection
-		- use parameterized sql queries instead of string building
+	- log injection: validate inputs to logs
+	- SQL injection: malicious queries/scripts inserted into sql created using unvalidated string input
+		- fix: validate sql query input, use ORM with named parameters instead of query string building
+	- XSS (cross-site scripting): inject malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
+		- fix: validate http input/output, validate database input/output, validate scripts in webpages with content security policies using nonces in scripts, validate user input, encode output before including them in html to prevent execution of scripts, use security headers like Content-Type, avoid using eval() or innerHTML without validation
+	- ARP spoofing: associates the attacker's MAC address with the IP address of another host, causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks
+		- fix: static ARP entries, software to certify or cross-check ARP responses
+	- MITM: https spoofing, ssl/tls stripping, arp spoofing, dns spoofing, session hijacking, man-in-the-browser, wi-fi MITM, email hijacking, replay attacks, fake certificate authority are MITM attack types
+		- fix: mutual authentication, recorded attestments, HTTP public key pinning (whitelist of public key hashes provided by server), using signatures to authenticate DNS records
 	- security tips
 		- hash and salt passwords with bcrypt
 		- set strict access controls
