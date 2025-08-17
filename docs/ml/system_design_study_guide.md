@@ -233,6 +233,17 @@ System design study guide
 	- adding extra resources is costly and more complex, and optimizing for low latency may reduce throughput and vice versa, and partitioning data can improve scalability by distributing data across nodes but balancing the partition size, minimizing data movement, and ensuring data locality are tradeoffs that are necessary to navigate with partitioning
 
 - distributed systems
+	- a distributed system distributes data and resources over several servers or locations, which enables better scalability and reliability since the system can function in a component failure, though distributed systems are more complex to secure and maintain
+	- distributed system architectures:
+		- client-server architecture: servers provide resources and clients request them, communicating over a network
+		- peer-to-peer architecture: each peer/node in the network acts as both a client and server, sharing resources directly with each other
+		- three-tier architecture: has presentation (UI), application (business logic), and data (database) layers, where layers are separated to allow scaling and maintenance
+		- microservices architecture: the application is split into small independent services which handle specific functions, where these services communicate over a network often using REST APIs or messaging
+		- service-oriented architecture: similar to microservices, SOA organizes functions as services but SOA typically uses an enterprise service bus (ESB) to manage communication between services
+		- event-driven architecture: components interact by sending and responding to events rather than direct requests, where an event triggers specific actions or processes in various parts of the system
+	- distributed systems involve resource sharing where any hardware/software/data can be used anywhere in the system, openness which involves allowing open improvements to the system by sharing it, concurrency where local systems have independent operation systems and resources so can perform concurrent operations, scalability as more processors communicate with more users, fault tolerance by operating even when failures occur, and transparency in which the complexity of the system is hidden from users and local systems are kept private
+	- distributed systems have advantages like scalability as they can easily add more servers/nodes to handle increased demand without complex reconfiguration, reliability/availability/fault tolerance where other components can take over for a failed component, performance where workloads can be split across multiple nodes so tasks are completed faster, resource sharing where data/storage/compute power can be shared across nodes thereby increasing efficiency and reducing costs, geographical distribution where distributed systems can server global users by providing faster access to node resources based on location since nodes can be in different locations
+	- distributed systems have problems like security since resources are shared across multiple nodes, and networking saturation if there is a lag in the network, and complex databases compared to centralized systems, and overloaded networks if every node tries to send data at once
 
 - design patterns
 	- creational design patterns help make a system independent of how its objects are created, composed, and represented
