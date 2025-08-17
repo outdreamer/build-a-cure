@@ -70,13 +70,10 @@ python study guide
 		- python supports OOP/functional/procedural programming, is interpreted and dynamically typed
 			- python is compiled into bytecode which is then executed by the python virtual machine and interpreted at runtime
 			- python is slower than java since it uses an interpreter, is executed line-by-line, and determines data type at run time
+	
 	- whats the difference between an interface and an abstraction
 		- an abstract class is a blueprint for other classes, implemented with the abc module, which can have abstract methods without implementations and concrete methods with implementations, and cant be instantiated directly, where subclasses have to implement all abstract methods
 		- an interface defines a set of methods that a class has to implement, typically interfaces are implemented without abstract classes having only abstract methods, which is useful for ensuring that behaviors are implemented without specifying how they should be implemented, and doesnt allow any implementations in the interface
-	- what is the difference between a stack and a queue
-		- stacks use LIFO where the last element added is the first to be removed, push/pop operate on the top element, uses list.append for push, list.pop for pop, stacks are useful for undo operations and function calls, where collections.deque can be used for a stack using collections.deque.pop
-		- queues use FIFO where the first element added is the first to be removed, enqueue adds an element to the end and dequeue removes the element from the front, use collections.deque.append for enqueue and collections.deque.popleft for dequeue, queues are useful for task scheduling and buffering, queue can be implemented with lists using list.pop(0) to remove the first item
-		- collections.deque is optimized for fast appends/pops from both sides of the deque, so its more efficient than a list which has inefficient pop(0) operations for queues as all the elements have to be shifted by one when popping from the front of the list
 
 	- recursion
 		- recursion is where a function calls itself to solve a problem by breaking it into smaller subproblems, such as calculations, tree traversals or divide-and-conquer algorithms

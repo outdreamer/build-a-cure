@@ -17,14 +17,71 @@ Data structures and algorithms study guide
 	- dictionaries now maintain the order of insertion and dict keys are immutable
 	- sets are implemented as dictionaries and cant contain duplicates
 	- linked lists
-	- stacks (LIFO)
-	- queues (FIFO)
-	- double ended queue (deque) in python this is implemented as a doubly linked list allowing O(1) operations at both ends
-	- heaps (priority queues) in python heaps are implemented as an array/list with heap properties
+
+	- what is the difference between a stack and a queue
+		- stacks use LIFO where the last element added is the first to be removed, push/pop operate on the top element, uses list.append for push, list.pop for pop, stacks are useful for undo operations and function calls, where collections.deque can be used for a stack using collections.deque.pop
+		- queues use FIFO where the first element added is the first to be removed, enqueue adds an element to the end and dequeue removes the element from the front, use collections.deque.append for enqueue and collections.deque.popleft for dequeue, queues are useful for task scheduling and buffering, queue can be implemented with lists using list.pop(0) to remove the first item
+		- collections.deque is optimized for fast appends/pops from both sides of the deque, so its more efficient than a list which has inefficient pop(0) operations for queues as all the elements have to be shifted by one when popping from the front of the list
+		- double-ended queue (deque) in python this is implemented as a doubly linked list allowing O(1) operations at both ends
+	
+	- heap queue and priority queue algorithms
+		- heaps are binary trees for which every parent node has a value less than or equal to any of its children, implemented as an array/list with heap properties
+			- you can transform a populated list into a heap via function heapify
+				pq = []                         # list of entries arranged in a heap
+				entry_finder = {}               # mapping of tasks to entries
+				REMOVED = '<removed-task>'      # placeholder for a removed task
+				counter = itertools.count()     # unique sequence count
+				def add_task(task, priority=0):
+				    'Add a new task or update the priority of an existing task'
+				    if task in entry_finder:
+				        remove_task(task)
+				    count = next(counter)
+				    entry = [priority, count, task]
+				    entry_finder[task] = entry
+				    heappush(pq, entry)
+				def remove_task(task):
+				    'Mark an existing task as REMOVED.  Raise KeyError if not found.'
+				    entry = entry_finder.pop(task)
+				    entry[-1] = REMOVED
+				def pop_task():
+				    'Remove and return the lowest priority task. Raise KeyError if empty.'
+				    while pq:
+				        priority, count, task = heappop(pq)
+				        if task is not REMOVED:
+				            del entry_finder[task]
+				            return task
+				    raise KeyError('pop from an empty priority queue')
+		- a priority queue is a queue where items have priorities, where items with higher priority are dequeued first, and if items have the same priority, theyre dequeued in order of insertion like a queue, which acts like a sorted structure when dequeued
+		- a priority queue is a common use for a heap
+			def insert(q, d):
+			    q.append(d)
+			def delete(q):
+			    try:
+			        m = 0
+			        for i in range(len(q)): # find max value element and remove it
+			            if q[i] > q[m]:
+			                m = i
+			        item = q[m]
+			        del q[m]
+			        return item
+			    except IndexError:
+			        print("Queue empty.")
+			        exit()
+			def is_empty(q):
+			    return len(q) == 0
+			if __name__ == '__main__':
+			    q = []
+			    insert(q, 12)
+			    print(q)
+			    print("Removed elements:")
+			    while not is_empty(q):
+			        print(delete(q))
+		- priority queues are used for task scheduling by priority, in dijkstra's shortest path algorithm to find the shortest path by selecting the nearest node, in huffman encoding to combine least frequent symbols using a priority queue to reduce data size, when merging multiple sorted lists by selecting the smallest element from each list, and a search algorithm (pathfinding) which prioritizes nodes based on cost to find the shortest path in navigation
+		- max priority queues are where the highest priority item is dequeued first, and a min priority queue is where the lowest priority item is dequeued first
+
 	- trees
 		- binary trees
 	- graphs
-	- priority queue
 	- Implement a sliding window algorithm for looking at the last 5 days of stock prices
 	- finding the number of unique digited numbers in a range
 	- Create the largest number possible by switching digits that have the same parity. Process can be repeated until the largest number is created.
@@ -36,7 +93,7 @@ Data structures and algorithms study guide
 	- create a character array
 	- Kadane's algorithm
 	- visualise a double-linked list
-	
+
 - problems
 	- invert a binary tree
 	- implement a binary tree
