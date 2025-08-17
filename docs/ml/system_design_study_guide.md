@@ -245,6 +245,35 @@ System design study guide
 	- distributed systems have advantages like scalability as they can easily add more servers/nodes to handle increased demand without complex reconfiguration, reliability/availability/fault tolerance where other components can take over for a failed component, performance where workloads can be split across multiple nodes so tasks are completed faster, resource sharing where data/storage/compute power can be shared across nodes thereby increasing efficiency and reducing costs, geographical distribution where distributed systems can server global users by providing faster access to node resources based on location since nodes can be in different locations
 	- distributed systems have problems like security since resources are shared across multiple nodes, and networking saturation if there is a lag in the network, and complex databases compared to centralized systems, and overloaded networks if every node tries to send data at once
 
+- fault tolerance
+	- fault tolerance in distributed systems is the capacity to keep operating smoothly despite failures in components, which is crucial for reliability/availability/consistency
+	- by implementing redundancy, replication, and error detection, distributed systems can handle various failure types, ensuring uninterrupted service and data integrity
+	- faults are weaknesses in the system or its components which can lead to error/failure, errors are incorrect results bc of faults, failures are outcomes where the assigned success metric is not achieved
+	- fault tolerance is the ability to function properly even with failures
+	- fault types
+		- transient faults: occur once then disappear, are difficult to find but dont harm the system much, like processor faults
+		- intermittent faults: occur repeatedly, such as when the server hangs up
+		- permanent faults: remain until the component is replaced, which are easy to identify but very damaging, like a burnt-out chip
+	- availability is where the system is available at any time, reliability is where the system works continuously without failure, safety is where the system is safe from unauthorized access even with failures, maintainability is how easily the failed node can be repaired
+	- first fault detection occurs, then fault diagnosis, evidence generation, assessment, and recovery
+	- types of fault tolerance
+		- hardware fault tolerance: involves a backup plan for memory/disk/CPU/other hardware devices, including methods like fault-masking and dynamic recovery
+		- software fault tolerance: software is used to detect invalid output, runtime and programming errors, using static and dynamic methods to detect and provide the solution, and involving adding additional data points like recovery rollback and checkpoints
+		- system fault tolerance: stores the system checkpoints, the memory block, program checkpoints, and detects errors in applications automatically, providing the solution to errors, thereby being reliable and efficient
+	- fault tolerance strategies
+		- redundancy/replication: data is duplicated to ensure availability and durability, and components are duplicated so if one fails the others can take over like redundant servers, network paths, or services
+		- failover mechanisms: active-passive failover is where one active component handles the workload and another passive component is on standby and takes over if the active component fails, where active-active failover is where multiple components handle workloads and share the load, where if one component fails the others continue to handle the workload
+	- error detection techniques
+		- heartbeat mechanisms send regular signals/heartbeats between components to detect failures, and checkpointing periodically saves the system state so if a failure occurs the system can be restored to the last saved state
+	- error recovery methods
+		- rollback recovery is where the system reverts to a previous state after detecting an error using saved checkpoints or logs, and forward recovery is where the system tries to correct or compensate for the failure to continue operating which may involve reprocessing or reconstructing data
+	- design patterns for fault tolerance
+		- circuit breaker pattern: this wraps services in a circuit breaker, so when the service fails the circuit break is activated, so future calls fail fast instead of trying to connect to a failing service repeatedly, preventing cascading failures
+		- bulkhead pattern: this isolates components/services to prevent a failure in one part of the system from affecting others
+		- retry pattern: this automatically retries failed operations bc of transient errors, typically retried with exponential backoff to avoid overwhelming the system
+		- rate limiting pattern: controls the number of requests a system or service can handle in a specific timeframe to prevent overload and ensure fair usage
+		- failover pattern: switches to a backup system/component when the primary one fails, which ensures continuity of service by having redundant systems ready to take over
+
 - design patterns
 	- creational design patterns help make a system independent of how its objects are created, composed, and represented
 		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
