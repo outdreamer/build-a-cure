@@ -220,6 +220,7 @@ python study guide
 	- use math module for square roots, logs, and trig functions
 	- use numpy for faster, more complex operations like matrix operations, fourier transforms and statistical operations
 	- use scipy for scientific operations, signal processing, optimization, interpolation, and integration
+	- // is integer division which rounds down to the nearest integer, where negative results of integer division are rounded down toward negative infinity and where / is float division
 
 - handlers for security bugs
 	- log injection: validate inputs to logs

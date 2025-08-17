@@ -8,7 +8,6 @@ Data structures and algorithms study guide
 			- a constraint on relevant output values can indicate a smaller alternate output iteration to perform rather than iterating through every possible input value
 
 - data structures
-	- // is integer division which rounds down to the nearest integer, where negative results of integer division are rounded down toward negative infinity and where / is float division
 	- O(1) operations are average case and can become O(n) in worst case scenarios due to hash collisions which is rare bc of python's resizing and good hash functions
 	- deep copy is required when the element like a list in another element like a list is mutable to avoid linking to a changing object
 	- strings are immutable arrays of unicode characters, each character taking 1 - 4 bytes
@@ -26,7 +25,18 @@ Data structures and algorithms study guide
 		- binary trees
 	- graphs
 	- priority queue
-
+	- Implement a sliding window algorithm for looking at the last 5 days of stock prices
+	- finding the number of unique digited numbers in a range
+	- Create the largest number possible by switching digits that have the same parity. Process can be repeated until the largest number is created.
+	- Greedy problem 
+	- reverse an array in place
+	- removing the smallest and largest elements and appending their sum to the end of a list, where its fastest to sort the list first using a mergesort
+	- find the Least Number of Unique Integers after K Removals
+	- find missing numbers of an array
+	- create a character array
+	- Kadane's algorithm
+	- visualise a double-linked list
+	
 - problems
 	- invert a binary tree
 	- implement a binary tree
@@ -149,19 +159,6 @@ Data structures and algorithms study guide
 		        else:
 		            j -= 1
 		    return dp[m][n], seq
-
-
-	- Implement a sliding window algorithm for looking at the last 5 days of stock prices
-	- finding the number of unique digited numbers in a range
-	- Create the largest number possible by switching digits that have the same parity. Process can be repeated until the largest number is created.
-	- Greedy problem 
-	- reverse an array in place
-	- removing the smallest and largest elements and appending their sum to the end of a list, where its fastest to sort the list first using a mergesort
-	- find the Least Number of Unique Integers after K Removals
-	- find missing numbers of an array
-	- create a character array
-	- Kadane's algorithm
-	- visualise a double-linked list
 
 - algorithms
 
