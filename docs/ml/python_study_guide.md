@@ -2,24 +2,89 @@ python study guide
 
 - questions
 	- AML typologies
+		- unusual customer behavior, usage of large amounts of cash, smurfing (involving numerous transactions, people, accounts, high volumes of small transactions to avoid detection threshold reporting), unusual insurance claims, association with corruption, currency exchanges, purchase of portable valuable commodities, purchase of valuable assets, commodity exchanges, use of wire transfers, underground baning, trade-based money laundering, gaming activities, abuse of non-profit organizations, investment in capital markets, mingling with legitimate business, use of shell companies, use of offshore banks, use of nominees/trusts/family/third parties, use of foreign bank accounts, identify fraud, new payment tech, use of gatekeepers to obscure beneficiary identity and fund source
 	- db normalization
-	- data buffer
-	- python OOP
+		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
+		- reduces data redundancy by dividing it into multiple related tables
+		- improves query performance
+		- but also increases complexity, reduces flexibility, and adds performance overhead by requiring joining tables
+		- first normal form: each cell contains a single value and records are unique
+		- second normal form: removes partial dependencies by separating tables, removes redundant data and places it in separate tables, requiring non-key attributes to be functional on the primary key
+		- third normal form: ensures non-key attributes are independent of each other which eliminates transitive dependency
+		- boyce-codd normal form: refinement of 3F that requires every determinant to be a candidate key
+		- fourth normal form: addresses multi-valued dependencies, ensuring there are no multiple independent multi-valued facts about an entity in a record
+		- fifth normal form (protection join): relates to reconstructing info from smaller, differently arranged pieces of data
+		- sixth normal form: relates to temporal data (handling changes over time) by decomposing tables further to eliminate all non-temporary redundancy
+	- data buffer: physical memory (often RAM) that temporarily stores data while being moved between different locations, which help synchronize data flow so components operating at different speeds can work together, and buffers optimize performance by reducing the number of I/O operations which are usually slower than in-memory operations, where buffers are used to read/write large files efficiently, networking data is buffered during transmission to optimize performance, and buffers allow slicing/manipulation of large datasets without copying
+		- the buffer protocol allows objects to expose underlying memory to other objects which is useful for zero-copy operations where data is shared without creating copies, and objects like bytes/bytearray/memoryview implement buffers
+		- buffers are useful to get more than one view on the data without holding multiple copies in memory
+		- flush transfers data from the program buffer to the OS buffer or directly to file/disk, allows writing immediately as opposed to waiting for the automatic flusher to flush when the buffer is full or when the file is closed
 	- how to use python given limited memory
+		- set memory limits for a program with the resource module, which can limit number of child processes, number of open files, CPU time or restrict the total address space, after which it will generate MemoryError exceptions when no more memory is available
+		- optimize code for memory efficiency using generators/iterators, avoiding unnecessary copies, using numpy/pandas for handling large datasets, using ulimit or cgroups on linux to restrict memory usage for a python process, use tracemalloc to identify memory bottlenecks in code
 	- heap memory
-	- garbage collection
+		- a private memory area used to store objects and data structures dynamically allocated during runtime
+		- dynamic allocation: memory is allocated on demand when objects are created, objects like lists/dicts/user-defined objects are stored in the heap
+		- garbage collection: the gc automatically frees memory no longer in use which prevents memory leaks, and generational garbage collection helps identify and clean up circular references
+		- the GIL keeps memory management thread-safe so only one thread executes python bytecode at a time
+		- python has its own memory manager that handle heap memory allocation/deallocation, using pools/arenas to optimize memory usage for small objects
+		- python uses a special allocator for small objects (integer, strings) to reduce fragmentation and improve performance
+		- larger objects are allocated directly from the heap
+		- python tracks the reference count to an object, when it drops to zero, the object is eligible for gc
+		- manage heap memory by avoiding creating unnecesssary objects, reusing objects wherever possible, using generators instead of lists, us gc and tracemalloc to debug and monitor memory usage, and delete references to objects when no longer needed
+		- unlike stack memory which is used for static memory allocation and has a fixed size, heap memory allows for allocation of memory at runtime, so the size of the memory can grow or shrink as needed so its useful for storing objects whose size is not known at compile time
+			- heap memory can be accessed from anywhere in the program, whereas stack memory is limited to be accessed by the function in which it was allocated
+			- heap memory is more flexible but can be slower to access than stack memory bc of dynamic allocation/garbage collection overhead
 	- detect a memory leak
+		- memory leak: when objects that are no longer being used are not correctly deallocated by the garbage collector
+		- identify memory leaks:
+			- tracemalloc detects memory consuming lines in python, the code locations where the largest memory blocks are being allocated may indicate a memory leak
+			- gc can identify objects that are not being collected
+			- objgraph visualizes object references to find leaks by identifying objects being retained unnecessarily
+			- memory profiler tracks memory usage line by line, identifying any areas of the code where the memory usage is significantly increasing which may indicate a memory leak
+		- fix memory leaks:
+			- identify when object references are not removed when not needed and remove them by setting them to None or deleting them
+			- use weakref (weak references dont prevent deallocation by the gc), though weak references are useless once the object they reference has been deallocated so the code needs to handle that
+			- identify large lists/arrays that arent needed all at once and use generators instead (use yield keyword) or iterators (implelment a __iter__ and __next__ method in the class)
+			    def data_generator():
+			        for i in range(10 ** 6):
+			            yield i
+			    result = sum(data_generator())
+
+				class DataIterator:
+				    def __init__(self):
+				        self.current = 0
+				    def __iter__(self):
+				        return self
+				    def __next__(self):
+				        if self.current >= 10 ** 6:
+				            raise StopIteration
+				        self.current += 1
+				        return self.current
+				data = DataIterator()
+				result = sum(data)
+
 	- whats the difference between python and java
 	- whats the difference between an interface and an abstraction
 	- what is the difference between a stack and a queue
 	- describe recursion
-	- Usage of circuit breaker in microservices
 	- SOLID concepts
+		- Single Responsibility: a class should only have one responsibility
+		- Open-Closed: entities should be open for extension but closed for modification (add functionality without changing the existing code)
+		- Liskov Substitution: objects of a superclass should be replaceable with objects of its subclasses without changing program correctness
+		- Interface Segregation: clients shouldnt depend on interfaces they dont use, suggesting splitting larger interfaces into smaller interfaces
+		- Dependency Inversion: high-level modules shouldnt depend on low-level modules as both should depend on abstractions, and abstractions shouldnt depend on details, details should depend on abstractions
 	- how to optimize sql queries
-	- thread-safe
-	- mutable structures are passed by reference, immutable structures are passed by value
+		- limit results, select specific fields, use indexes, identify bottlenecks in execution plans using EXPLAIN or EXPLAIN PLAN, avoid correlated subqueries and replace with joins/temporary tables
+	- thread-safe:
+		- functions correctly when accessed by multiple threads concurrently. In a multi-threaded environment, thread-safe code prevents unexpected behavior, race conditions, or data corruption
+		- race conditions: when multiple threads access/modify shared data at once, leading to inconsistent results
+		- fix: avoid shared state completely by re-entrancy (code can be safely interrupted and resumed as threads have their own local state), and immutable objects whose state cant be changed after creation so only read-only data is shared
+			- synchronization mechanisms can be used when state has to be shared, like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes), and atomic operations (using operations that are indivisible ensuring that shared data is consistent), though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
+	- passed by value/reference:
+		- mutable structures are passed by reference, immutable structures are passed by value
 	- python is dynamically typed
-	- python compiles code to bytecode which is then executed by the python virtual machine and interpreted at runtime
+		- python compiles code to bytecode which is then executed by the python virtual machine and interpreted at runtime
 	- encapsulation
 	- polymorphism
 	- __init__.py (for shared functions and variables across the package)
@@ -27,21 +92,35 @@ python study guide
 - libraries/tools
 	- black for formatting
 	- pylint/flake8 for PEP compliance
-	- security testing
-		- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues)
-		- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
-		- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
-	- pytest or unittest for unit testing
 	- cprofile and line_profiler and memory_profiler for profiling
 	- pdb for debugging
-	- mypy for linting/static analysis
-		- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
-	- dynamic analysis
-		- dynamic analysis is done on running apps but misses untested flows
-	- interactive analysis
-		- interactive analysis combines static flaws with limited attacks, identifying for example authentication bypass issues and testing the login endpoint with sample parameters, but requires manual testing expertise to be valuable
-	- pentesting
-	- regression testing
+	- analysis tools
+		- mypy for linting/static analysis
+			- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
+		- dynamic analysis
+			- dynamic analysis is done on running apps but misses untested flows
+		- interactive analysis
+			- interactive analysis combines static flaws with limited attacks, identifying for example authentication bypass issues and testing the login endpoint with sample parameters, but requires manual testing expertise to be valuable
+		- security testing
+			- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues)
+			- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
+			- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
+		- pytest or unittest for unit testing
+		- stress testing: stressor
+		- load testing: locust
+		- pentesting: scapy, nmap, impacket, pwntools, beautifulsoup, metasploit
+		- regression testing: unittest, pytest-regressions
+	- monitoring tools
+
+- attack types
+	- SQL injection: malicious queries/scripts inserted into sql created using unvalidated string input
+		- fix: validate sql query input, use ORM with named parameters
+	- XSS: inject malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
+		- fix: validate http input/output, validate database input/output, validate scripts in webpages with content security policies using nonces in scripts, validate user input, encode output before including them in html to prevent execution of scripts, use security headers like Content-Type, avoid using eval() or innerHTML without validation
+	- ARP spoofing: associates the attacker's MAC address with the IP address of another host, causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks
+		- fix: static ARP entries, software to certify or cross-check ARP responses
+	- MITM: https spoofing, ssl/tls stripping, arp spoofing, dns spoofing, session hijacking, man-in-the-browser, wi-fi MITM, email hijacking, replay attacks, fake certificate authority are MITM attack types
+		- fix: mutual authentication, recorded attestments, HTTP public key pinning (whitelist of public key hashes provided by server), using signatures to authenticate DNS records
 
 - version updates
 	- 3.14: deferred evaluation of annotations, template strings, improved error messages, a tail-call-compiled interpreter, a C API for python runtime configuration
