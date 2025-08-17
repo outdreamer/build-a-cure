@@ -225,6 +225,15 @@ System design study guide
 	- how many message consumers the system has determines whether to use queues or pub/sub: if a message needs only one consumer then a message queue is useful, but if a message needs to have many consumers that all get a copy the pub/sub approach is useful
 	- some features of message brokers include persistence where the messages are saved to persistent storage so they can be recovered if the message broker goes down, replays where messages are stored even after consumption so a service can replay the message stream in failure cases to recover, and ordering where the messages arrive to the consumer in a particular order
 
+- scalability
+	- scalability is the capacity of a system to support growth or manage increasing volumes of work with increased performance, efficiency, dependability, and availability
+	- vertical scaling boosts server capacity with more CPU/memory/storage which is limited bc hardware cant always be upgraded more, horizontal scaling adds more servers/instances, divide and conquer breaks the app into microservices which are scaled as needed when one microservice is used more, and serverless automatically handles scaling like with AWS lambda
+	- factors that can impact scalability include: performance bottlenecks (slow queries, inefficient algorithms, resource contention), efficient resource utilization to avoid bottlenecks and scaling limits, network latency which can delay communication between nodes, the way data is stored/accessed like with distributed databases and caches, concurrency/parallelism which can increase throughput and decrease response times, and system architecture like how components are structured and connected, where using a modular loosely coupled architecture that can be scaled horizontally or vertically is useful for scalability
+	- components that increase scalability: load balancers, caches, database replication, database sharding, microservices, data partitioning, CDNs, and queueing systems
+	- adding extra resources is costly and more complex, and optimizing for low latency may reduce throughput and vice versa, and partitioning data can improve scalability by distributing data across nodes but balancing the partition size, minimizing data movement, and ensuring data locality are tradeoffs that are necessary to navigate with partitioning
+
+- distributed systems
+
 - design patterns
 	- creational design patterns help make a system independent of how its objects are created, composed, and represented
 		- factory method: this pattern is useful to separate the construction of an object from its implementation, so objects can be created without having to define the exact class of object to be created
