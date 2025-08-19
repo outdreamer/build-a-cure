@@ -105,6 +105,7 @@ System design study guide
 		- time series database (influxdb, kdb+, prometheus): optimized for data entries that need to be ordered by time, useful for storing real time data streams from system monitors such as errors
 			- time series databases are write heavy and usually provide services for sorting streams as they come in to make sure theyre appended in the correct order, where these databases can be easily partitioned by time range
 	- as scale becomes more important, relational databases can be too expensive so parts of the system can be moved to non-relational alternatives if they dont need strong schemas and consistency guarantees
+
 - database sharding
 	- a technique for horizontal scaling of databases where data is split across multiple database instances or shards on separate servers to improve performance and reduce the impact of large amounts of data, where each row appears in one shard and each shard has the same schema
 	- shard keys need to be unique across shards, which has a tradeoff between centralized name servers that can optimize logical shards for performance and a distributed algorithm that is faster to compute

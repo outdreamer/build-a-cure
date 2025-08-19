@@ -12,12 +12,55 @@ Data structures and algorithms study guide
 	- deep copy is required when the element like a list in another element like a list is mutable to avoid linking to a changing object
 	- strings are immutable arrays of unicode characters, each character taking 1 - 4 bytes
 		- find how many different substrings with no repeating characters are in a string
+		- O(1) operations for strings include: access by index, length
 	- lists are ordered, mutable, and can contain duplicates, and has size and capacity, where it doubles the list capacity in a new list when the previous list is full
+		- O(1) operations for list include clear, index, length, pop() from end, and store by index
 	- tuples are ordered, immutable, and can contain duplicates, however if it contains mutable elements, those elements can be modified
-	- dictionaries now maintain the order of insertion and dict keys are immutable
+		- O(1) operations for tuples include: access by index
+	- dictionaries now maintain the order of insertion as of python 3.7 and dict keys are immutable
+		- O(1) operations for dict include: clear, length, d.popitem(), d.values(), d.keys(), where delete/pop/get can be O(1) in the average case
 	- sets are implemented as dictionaries and cant contain duplicates
-	- linked lists
+		- O(1) operations for sets include: clear, where add/containment/discard/pop can be O(1) in the average case
+	- lists are slower for inserts, dicts/sets are fast for lookups/inserts but rely on hashing
+	- tuple insertion requires creating a new object as tuples are immutable
+	- linked lists have a next pointer to the next item in the list in one direction
+			class Node:
+			    def __init__(self, data):
+			        self.data = data
+			        self.next = None
 
+			# Create a LinkedList class
+			class LinkedList:
+			    def __init__(self):
+			        self.head = None
+
+			    # Method to add a node at the beginning of the LL
+			    def insertAtBegin(self, data):
+			        new_node = Node(data)
+			        new_node.next = self.head
+			        self.head = new_node
+
+	- trie
+		- a trie is a specialized search tree data structure used to store and retrieve strings from a dictionary or set. Unlike a binary search tree, nodes in a trie do not store their associated key. Instead, each node's position within the trie determines its associated key, with the connections between nodes defined by individual characters rather than the entire key
+		- tries are useful for autocomplete, approximate string matching, spell checking, and IP routing and are preferred to hash tables bc theyre organized by prefixes and dont have hash collisions
+		- Every child node shares a common prefix with its parent node, and the root node represents the empty string
+			from collections import defaultdict
+			def create():
+				T = lambda : defaultdict(T)
+				trie = T()
+				return trie
+			def insert(trie, word):
+			    curr = trie
+			    for c in word:
+			        curr = curr[c]
+			    curr.setdefault("_end")
+			def search_trie(trie, word):
+			    curr_trie = trie
+			    for w in word:
+			        if w not in curr_trie:
+			            return False
+			        curr_trie = curr_trie[w]
+			    return True
 	- what is the difference between a stack and a queue
 		- stacks use LIFO where the last element added is the first to be removed, push/pop operate on the top element, uses list.append for push, list.pop for pop, stacks are useful for undo operations and function calls, where collections.deque can be used for a stack using collections.deque.pop
 		- queues use FIFO where the first element added is the first to be removed, enqueue adds an element to the end and dequeue removes the element from the front, use collections.deque.append for enqueue and collections.deque.popleft for dequeue, queues are useful for task scheduling and buffering, queue can be implemented with lists using list.pop(0) to remove the first item
@@ -29,10 +72,8 @@ Data structures and algorithms study guide
 			- you can transform a populated list into a heap via function heapify
 				pq = []                         # list of entries arranged in a heap
 				entry_finder = {}               # mapping of tasks to entries
-				REMOVED = '<removed-task>'      # placeholder for a removed task
 				counter = itertools.count()     # unique sequence count
 				def add_task(task, priority=0):
-				    'Add a new task or update the priority of an existing task'
 				    if task in entry_finder:
 				        remove_task(task)
 				    count = next(counter)
@@ -40,14 +81,12 @@ Data structures and algorithms study guide
 				    entry_finder[task] = entry
 				    heappush(pq, entry)
 				def remove_task(task):
-				    'Mark an existing task as REMOVED.  Raise KeyError if not found.'
 				    entry = entry_finder.pop(task)
-				    entry[-1] = REMOVED
+				    entry[-1] = 'removed'
 				def pop_task():
-				    'Remove and return the lowest priority task. Raise KeyError if empty.'
 				    while pq:
 				        priority, count, task = heappop(pq)
-				        if task is not REMOVED:
+				        if task is not 'removed':
 				            del entry_finder[task]
 				            return task
 				    raise KeyError('pop from an empty priority queue')
@@ -69,106 +108,55 @@ Data structures and algorithms study guide
 			        exit()
 			def is_empty(q):
 			    return len(q) == 0
-			if __name__ == '__main__':
-			    q = []
-			    insert(q, 12)
-			    print(q)
-			    print("Removed elements:")
-			    while not is_empty(q):
-			        print(delete(q))
+
 		- priority queues are used for task scheduling by priority, in dijkstra's shortest path algorithm to find the shortest path by selecting the nearest node, in huffman encoding to combine least frequent symbols using a priority queue to reduce data size, when merging multiple sorted lists by selecting the smallest element from each list, and a search algorithm (pathfinding) which prioritizes nodes based on cost to find the shortest path in navigation
 		- max priority queues are where the highest priority item is dequeued first, and a min priority queue is where the lowest priority item is dequeued first
-
 	- trees
-		- binary trees
+		- binary trees: trees with at most two child nodes, a left and right node
 	- graphs
-	- Implement a sliding window algorithm for looking at the last 5 days of stock prices
+		- the adjacency matrix of a graph stores the graph in the form of a 2D matrix where rows and columns denote vertices connected by an edge, where each entry in the matrix represents the weight of the edge between those vertices. 
+		
+		def add_edge(mat, i, j):
+		    mat[i][j] = 1  # Graph is 
+		    mat[j][i] = 1  # Undirected
+		
+		def display_adjacency_matrix(mat):
+		    for row in mat:
+        		print(" ".join(map(str, row)))
+
+	- o(n) complexity: one iteration of one list of size n
+	- o(n^2) complexity: one nested iteration of two lists of size n
+	- o(log n) complexity: binary search, recursively splitting a list at midpoint
+	- o(n log n) complexity: best sorting case
+
+- problems
+	- implement a sliding window algorithm for looking at the last 5 days of stock prices
 	- finding the number of unique digited numbers in a range
-	- Create the largest number possible by switching digits that have the same parity. Process can be repeated until the largest number is created.
-	- Greedy problem 
-	- reverse an array in place
+	- Create the largest number possible by switching digits that have the same parity. Process can be repeated until the largest number is created. Parity is whether it is even or odd
 	- removing the smallest and largest elements and appending their sum to the end of a list, where its fastest to sort the list first using a mergesort
 	- find the Least Number of Unique Integers after K Removals
 	- find missing numbers of an array
-	- create a character array
-	- Kadane's algorithm
-	- visualise a double-linked list
-
-- problems
-	- invert a binary tree
-	- implement a binary tree
-
-			from __future__ import annotations
-			import queue
-
-			class TreeNode:
-			    def __init__(self, data):
-			        self.data = data
-			        self.right = None
-			        self.left = None
-
-			def build_tree() -> TreeNode:
-			    check = input("Enter the value of the root node: ").strip().lower()
-			    q: queue.Queue = queue.Queue()
-			    tree_node = TreeNode(int(check))
-			    q.put(tree_node)
-			    while not q.empty():
-			        node_found = q.get()
-			        check = input(f"Enter the left node of {node_found.data}: ").strip().lower() or "n"
-			        if check == "n":
-			            return tree_node
-			        left_node = TreeNode(int(check))
-			        node_found.left = left_node
-			        q.put(left_node)
-			        check = input(f"Enter the right node of {node_found.data}: ").strip().lower() or "n"
-			        if check == "n":
-			            return tree_node
-			        right_node = TreeNode(int(check))
-			        node_found.right = right_node
-			        q.put(right_node)
-			    raise ValueError("Something went wrong")
-
-			def pre_order(node: TreeNode) -> None:
-			    if not isinstance(node, TreeNode) or not node:
-			        return
-			    print(node.data, end=",")
-			    pre_order(node.left)
-			    pre_order(node.right)
-
-			def in_order(node: TreeNode) -> None:
-			    in_order(node.left)
-			    print(node.data, end=",")
-			    in_order(node.right)
-
-			def post_order(node: TreeNode) -> None:
-			    post_order(node.left)
-			    post_order(node.right)
-			    print(node.data, end=",")
-
-	- implement a math calculator
-	- implement a trie
-	- What would be the optimal method to sort a list
-
-			Linear Search is the simplest algorithm, involving a sequential check of each element in the list until the target value is found or the end of the list is reached.
-			 It is suitable for unsorted data and is often implemented by iterating through the list with a loop, returning the index of the first occurrence of the target or -1 if not found.
-			 While straightforward, it is inefficient for large datasets, with a time complexity of O(n).
-
-			Binary Search is a more efficient algorithm designed for sorted lists.
-			 It works by repeatedly dividing the search interval in half. The algorithm compares the target value to the middle element of the list; if they are equal, the search is complete. If the target is less than the middle element, the search continues in the left half; if greater, it continues in the right half.
-			 This process repeats until the target is found or the search interval is empty. Binary Search has a time complexity of O(log n), making it significantly faster than Linear Search for large sorted datasets.
-
-			Interpolation Search is an enhanced version of Binary Search, particularly effective for large, uniformly distributed sorted arrays.
-			 Instead of always checking the middle element, it estimates the position of the target value based on the value of the key and the range of the search space using a formula.
-			 This can lead to faster search times in ideal conditions, with an average time complexity of O(log log n) for uniformly distributed data, although it degrades to O(n) in the worst case.
-
-			Jump Search is another algorithm suitable for sorted arrays.
-			 It works by jumping ahead by a fixed number of steps (typically the square root of the list length) and then performing a linear search within the smaller range once the target is potentially within the current block.
-			 This approach balances the efficiency of Binary Search with the simplicity of Linear Search, resulting in a time complexity of O(√n).
-
-			The choice of algorithm depends on factors such as whether the data is sorted, the size of the dataset, and the frequency of searches.
-			 For unsorted data, Linear Search is the primary option. For sorted data, Binary Search is generally the most efficient choice, while Interpolation Search can be faster for uniformly distributed data, and Jump Search offers a good compromise between simplicity and performance.
-
+		- find max, then find missing numbers in range up to max
 	- Two Sum problem
+	- dijkstra's algorithm
+	- Greedy algorithm problem 
+		- making locally optimal choices like kruskal's algorithm
+	- 2-D DP
+		- dynamic programming: simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner
+
+	- reverse an array in place
+		result = array[::-1]
+
+	- Kadane's algorithm
+		def maxSubarraySum(arr):
+		    res = arr[0]
+		    for i in range(len(arr)):
+		        currSum = 0
+		        for j in range(i, len(arr)):
+		            currSum = currSum + arr[j]
+		            res = max(res, currSum)
+		    return res
+
 	- Fizz Buzz
 		def fizz_buzz(number: int, iterations: int) -> str:
 		    # Prints Fizz if number is a multiple of ``3``, Prints Buzz if its a multiple of ``5``, Prints FizzBuzz if its a multiple of both ``3`` and ``5`` or ``15``, Else Prints The Number Itself.
@@ -190,33 +178,6 @@ Data structures and algorithms study guide
 		        out += " "
 		    return out
 
-	- valid parenthesis
-	- 2-D DP
-	- Longest Common Subsequence
-
-		if x is not None and y is not None
-		    m = len(x)
-		    n = len(y)
-		    dp = [[0] * (n + 1) for _ in range(m + 1)]
-		    for i in range(1, m + 1):
-		        for j in range(1, n + 1):
-		            match = 1 if x[i-1] == y[j-1] else 0
-		            dp[i][j] = max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1] + match)
-		    seq = ""
-		    i, j = m, n
-		    while i > 0 and j > 0:
-		        match = 1 if x[i-1] == y[j-1] else 0
-		        if dp[i][j] == dp[i-1][j-1] + match:
-		            if match == 1:
-		                seq = x[i-1] + seq
-		            i -= 1
-		            j -= 1
-		        elif dp[i][j] == dp[i-1][j]:
-		            i -= 1
-		        else:
-		            j -= 1
-		    return dp[m][n], seq
-
 - algorithms
 
 	- sorting algorithms
@@ -237,22 +198,6 @@ Data structures and algorithms study guide
 			- doesnt guarantee that it will achieve the average runtime complexity
 			- quick sort can degrade down to O(n^2)
 			- trades off memory space for speed which is a limitation for large lists
-			
-			from __future__ import annotations
-			from random import randint
-			def quick_sort(array: list) -> list:
-			    if len(array) <= 1:
-			        return array
-			    low, same, high = [], [], []
-			    pivot = array[randint(0, len(array) - 1)]
-			    for item in array:
-			        if item < pivot:
-			            low.append(item)
-			        elif item == pivot:
-			            same.append(item)
-			        elif item > pivot:
-			            high.append(item)
-			    return quick_sort(low) + same + quick_sort(high)
 
 		- merge sort O(n log2(n))
 			- O(n log2n) is the best possible worst-case runtime that can be achieved by a sorting algorithm
@@ -261,49 +206,12 @@ Data structures and algorithms study guide
 			- easy to parallelize
 			- trades off memory space for speed which is a limitation for large lists
 			
-			def merge_sort(array):
-				def merge(left, right):
-				    if len(left) == 0:
-				        return right
-				    if len(right) == 0:
-				        return left
-				    result = []
-				    index_left = index_right = 0
-				    while len(result) < len(left) + len(right):
-				        if left[index_left] <= right[index_right]:
-				            result.append(left[index_left])
-				            index_left += 1
-				        else:
-				            result.append(right[index_right])
-				            index_right += 1
-				        if index_right == len(right):
-				            result += left[index_left:]
-				            break
-				        if index_left == len(left):
-				            result += right[index_right:]
-				            break
-				    return result
-			    if len(array) <= 1:
-			        return array
-			    midpoint = len(array) // 2
-			    return merge(left=merge_sort(array[:midpoint]), right=merge_sort(array[midpoint:]))
-
 		- insertion sort O(n^2)
 			- insertion sort is faster than bubble sort
 			- Timsort uses insertion sort internally to sort small portions of the input array
-			
-			def insertion_sort(array):
-			    for i in range(1, len(array)):
-			        key_item = array[i]
-			        j = i - 1
-			        while j >= 0 and array[j] > key_item:
-			            array[j + 1] = array[j]
-			            j -= 1
-			        array[j + 1] = key_item
-			    return array
 
 		- tim sort O(nlog2(n))
-			- uses a combination of insertion sort and merge sort to merge already sorted sub-sections into bigger sorted sub-sections and then the final sorted list
+			- uses a combination of insertion sort and merge sort to merge already sorted sub-sections/runs into bigger sorted sub-sections and then the final sorted list
 			- Timsort uses the newly introduced left and right parameters in insertion_sort() to sort the list in place without having to create new arrays like merge sort and Quicksort do
 			- unlike merge sort, Timsort merges subarrays that were previously sorted, which decreases the total number of comparisons required to produce a sorted list
 			- min_run is small to benefit from fast insertion_sort on small arrays
@@ -311,33 +219,6 @@ Data structures and algorithms study guide
 			- in practice, timsort picks a value between 32 and 64 inclusive, such that the length of the list divided by min_run is exactly a power of 2. If that’s not possible, it chooses a value that’s close to, but strictly less than, a power of 2
 			- very fast for small arrays because the algorithm turns into a single insertion sort
 			- bc it’s common to sort arrays that already have some preexisting order, Timsort is a great option
-			
-			def tim_sort(array):
-			    min_run = 32
-			    n = len(array)
-			    for i in range(0, n, min_run):
-			        insertion_sort(array, i, min((i + min_run - 1), n - 1))
-			    size = min_run
-			    while size < n:
-			        for start in range(0, n, size * 2):
-			            midpoint = start + size - 1
-			            end = min((start + size * 2 - 1), (n-1))
-			            merged_array = merge(left=array[start:midpoint + 1], right=array[midpoint + 1:end + 1])
-			            array[start:start + len(merged_array)] = merged_array
-			        size *= 2
-			    return array
-
-			def insertion_sort(array, left=0, right=None):
-			    if right is None:
-			        right = len(array) - 1
-			    for i in range(left + 1, right + 1):
-			        key_item = array[i]
-			        j = i - 1
-			        while j >= left and array[j] > key_item:
-			            array[j + 1] = array[j]
-			            j -= 1
-			        array[j + 1] = key_item
-			    return array
 
 		- heap sort
 			def heapify(unsorted: list[int], index: int, heap_size: int) -> None:
@@ -374,106 +255,8 @@ Data structures and algorithms study guide
 			            break
 			    return array
 
-	- search algorithms
-
-		- linear search
-
-			- basic linear search
-
-			    for index, item in enumerate(sequence):
-			        if item == target:
-			            return index
-			    return -1
-
-			- recursive linear search
-				rec_linear_search
-					if not (0 <= high < len(sequence) and 0 <= low < len(sequence)):
-				        raise Exception("Invalid upper or lower bound!")
-				    if high < low:
-				        return -1
-				    if sequence[low] == target:
-				        return low
-				    if sequence[high] == target:
-				        return high
-				    return rec_linear_search(sequence, low + 1, high - 1, target)
-
-		- binary search
-
-			check if list is sorted:
-				if list(array) != sorted(array):
-			        raise ValueError("array must be sorted in ascending order")
-
-			this basic implementation:
-			    left = 0
-			    right = len(array) - 1
-			    while left <= right:
-			        midpoint = left + (right - left) // 2
-			        current_item = array[midpoint]
-			        if current_item == item:
-			            return midpoint
-			        elif item < current_item:
-			            right = midpoint - 1
-			        else:
-			            left = midpoint + 1
-
-		    or the std lib implementation:
-			    index = bisect.bisect_left(array, item)
-			    if index != len(array) and array[index] == item:
-			        return index
-
-			then return -1 if item not found:
-			    return -1
-
-		- exponential search
-
-		    if list(sorted_collection) != sorted(sorted_collection):
-		        raise ValueError("sorted_collection must be sorted in ascending order")
-		    if sorted_collection[0] == item:
-		        return 0
-		    bound = 1
-		    while bound < len(sorted_collection) and sorted_collection[bound] < item:
-		        bound *= 2
-		    left = bound // 2
-		    right = min(bound, len(sorted_collection) - 1)
-		    return binary_search_by_recursion(sorted_collection, item, left, right)
-
-	- graph algorithms
-
-		- BFS (breadth first search)
-			from queue import Queue
-			vertices: dict[int, list[int]] = {}
-		    def bfs(self, start_vertex: int) -> set[int]:
-		        visited = set(start_vertex)
-		        queue: Queue = Queue()
-		        queue.put(start_vertex)
-		        while not queue.empty():
-		            vertex = queue.get()
-		            for adjacent_vertex in vertices[vertex]:
-		                if adjacent_vertex not in visited:
-		                    queue.put(adjacent_vertex)
-		                    visited.add(adjacent_vertex)
-		        return visited
-
-		- DFS (depth first search)
-			vertices: dict[str, list[str]] = {}
-			def depth_first_search(vertices: dict, start_vertex: str) -> set[str]:
-			    visited = set(start_vertex)
-			    stack = []
-			    stack.append(start_vertex)
-			    while stack:
-			        # Differences from BFS:
-			        # 1) pop last element instead of first one
-			        # 2) add adjacent elements to stack without visiting them
-			        vertex = stack.pop()
-			        visited.add(vertex)
-			        for adjacent_vertex in reversed(vertices[vertex]):
-			            if adjacent_vertex not in visited:
-			                stack.append(adjacent_vertex)
-			    return visited
-
-		- djikstra's algorithm
-
 	- dynamic programming
+
 		- solving problems by breaking them into sub-problems
 
 		- optimal binary search tree O(n^2)
@@ -482,11 +265,9 @@ Data structures and algorithms study guide
 				from random import randint
 
 				class Node:
-
 				    def __init__(self, key, freq):
 				        self.key = key
 				        self.freq = freq
-
 				    def __str__(self):
 				        return f"Node(key={self.key}, freq={self.freq})"
 
@@ -519,11 +300,6 @@ Data structures and algorithms study guide
 
 				nodes = [Node(i, randint(1, 50)) for i in range(10, 0, -1)]
 				find_optimal_binary_search_tree(nodes)
-
-
-	- greedy algorithms
-		- making locally optimal choices like kruskal's algorithm
-
 
 https://visualgo.net/en
 https://github.com/keon/algorithms
