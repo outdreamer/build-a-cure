@@ -1,9 +1,7 @@
 python study guide
 
 - questions
-	- AML typologies
-		- unusual customer behavior, usage of large amounts of cash, smurfing (involving numerous transactions, people, accounts, high volumes of small transactions to avoid detection threshold reporting), unusual insurance claims, association with corruption, currency exchanges, purchase of portable valuable commodities, purchase of valuable assets, commodity exchanges, use of wire transfers, underground banking, trade-based money laundering, gaming activities, abuse of non-profit organizations, investment in capital markets, mingling with legitimate business, use of shell companies, use of offshore banks, use of nominees/trusts/family/third parties, use of foreign bank accounts, identify fraud, new payment tech, use of gatekeepers to obscure beneficiary identity and fund source
-	
+
 	- db normalization
 		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
 		- reduces data redundancy by dividing it into multiple related tables
@@ -113,6 +111,7 @@ python study guide
 			- avoid shared state completely by re-entrancy (code can be safely interrupted and resumed as threads have their own local state)
 			- share immutable objects whose state cant be changed after creation so only read-only data is shared
 			- synchronization mechanisms can be used when state has to be shared, mechanisms like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes) and atomic operations (using operations that are indivisible ensuring that shared data is consistent) though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
+			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
 	
 	- passed by value/reference:
 		- mutable structures are passed by reference, immutable structures are passed by value
@@ -210,7 +209,7 @@ python study guide
 	- use itertools for combinations/permutations
 	- use memoization like decorator caching such as with @functools.lru_cache(maxsize=100)
 	- use keys for sorts using operator.itemgetter(): sorted(data, key=itemgetter(0))
-	- dont use sets for conditions like checking membership of an item in a list, its not usually faster to change format to a set
+	- dont use sets for conditions like checking membership of an item in a list, its not usually faster to change list format to a set
 	- use linked lists which allocate memory as needed for frequent insertions/deletions, as linked lists avoid the overhead of resizing like arrays, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists bc items are accessed sequentially, linked lists are faster at adding elements at the start of the linked list
 	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
 	- use dicts to efficiently store and lookup data, and tuples to group values together

@@ -12,55 +12,29 @@ Data structures and algorithms study guide
 	- deep copy is required when the element like a list in another element like a list is mutable to avoid linking to a changing object
 	- strings are immutable arrays of unicode characters, each character taking 1 - 4 bytes
 		- find how many different substrings with no repeating characters are in a string
-		- O(1) operations for strings include: access by index, length
+		- O(1) operations for strings include: 
+			access by index, length
 	- lists are ordered, mutable, and can contain duplicates, and has size and capacity, where it doubles the list capacity in a new list when the previous list is full
-		- O(1) operations for list include clear, index, length, pop() from end, and store by index
+		- O(1) operations for list include:
+			 clear, index, length, pop() from end, and store by index
 	- tuples are ordered, immutable, and can contain duplicates, however if it contains mutable elements, those elements can be modified
-		- O(1) operations for tuples include: access by index
+		- O(1) operations for tuples include: 
+			access by index
 	- dictionaries now maintain the order of insertion as of python 3.7 and dict keys are immutable
-		- O(1) operations for dict include: clear, length, d.popitem(), d.values(), d.keys(), where delete/pop/get can be O(1) in the average case
+		- O(1) operations for dict include: 
+			clear, length, d.popitem(), d.values(), d.keys(), where delete/pop/get can be O(1) in the average case
 	- sets are implemented as dictionaries and cant contain duplicates
-		- O(1) operations for sets include: clear, where add/containment/discard/pop can be O(1) in the average case
+		- O(1) operations for sets include: 
+			clear, where add/containment/discard/pop can be O(1) in the average case
 	- lists are slower for inserts, dicts/sets are fast for lookups/inserts but rely on hashing
 	- tuple insertion requires creating a new object as tuples are immutable
 	- linked lists have a next pointer to the next item in the list in one direction
-			class Node:
-			    def __init__(self, data):
-			        self.data = data
-			        self.next = None
-
-			# Create a LinkedList class
-			class LinkedList:
-			    def __init__(self):
-			        self.head = None
-
-			    # Method to add a node at the beginning of the LL
-			    def insertAtBegin(self, data):
-			        new_node = Node(data)
-			        new_node.next = self.head
-			        self.head = new_node
 
 	- trie
 		- a trie is a specialized search tree data structure used to store and retrieve strings from a dictionary or set. Unlike a binary search tree, nodes in a trie do not store their associated key. Instead, each node's position within the trie determines its associated key, with the connections between nodes defined by individual characters rather than the entire key
 		- tries are useful for autocomplete, approximate string matching, spell checking, and IP routing and are preferred to hash tables bc theyre organized by prefixes and dont have hash collisions
 		- Every child node shares a common prefix with its parent node, and the root node represents the empty string
-			from collections import defaultdict
-			def create():
-				T = lambda : defaultdict(T)
-				trie = T()
-				return trie
-			def insert(trie, word):
-			    curr = trie
-			    for c in word:
-			        curr = curr[c]
-			    curr.setdefault("_end")
-			def search_trie(trie, word):
-			    curr_trie = trie
-			    for w in word:
-			        if w not in curr_trie:
-			            return False
-			        curr_trie = curr_trie[w]
-			    return True
+
 	- what is the difference between a stack and a queue
 		- stacks use LIFO where the last element added is the first to be removed, push/pop operate on the top element, uses list.append for push, list.pop for pop, stacks are useful for undo operations and function calls, where collections.deque can be used for a stack using collections.deque.pop
 		- queues use FIFO where the first element added is the first to be removed, enqueue adds an element to the end and dequeue removes the element from the front, use collections.deque.append for enqueue and collections.deque.popleft for dequeue, queues are useful for task scheduling and buffering, queue can be implemented with lists using list.pop(0) to remove the first item
@@ -92,37 +66,12 @@ Data structures and algorithms study guide
 				    raise KeyError('pop from an empty priority queue')
 		- a priority queue is a queue where items have priorities, where items with higher priority are dequeued first, and if items have the same priority, theyre dequeued in order of insertion like a queue, which acts like a sorted structure when dequeued
 		- a priority queue is a common use for a heap
-			def insert(q, d):
-			    q.append(d)
-			def delete(q):
-			    try:
-			        m = 0
-			        for i in range(len(q)): # find max value element and remove it
-			            if q[i] > q[m]:
-			                m = i
-			        item = q[m]
-			        del q[m]
-			        return item
-			    except IndexError:
-			        print("Queue empty.")
-			        exit()
-			def is_empty(q):
-			    return len(q) == 0
-
 		- priority queues are used for task scheduling by priority, in dijkstra's shortest path algorithm to find the shortest path by selecting the nearest node, in huffman encoding to combine least frequent symbols using a priority queue to reduce data size, when merging multiple sorted lists by selecting the smallest element from each list, and a search algorithm (pathfinding) which prioritizes nodes based on cost to find the shortest path in navigation
 		- max priority queues are where the highest priority item is dequeued first, and a min priority queue is where the lowest priority item is dequeued first
 	- trees
 		- binary trees: trees with at most two child nodes, a left and right node
 	- graphs
 		- the adjacency matrix of a graph stores the graph in the form of a 2D matrix where rows and columns denote vertices connected by an edge, where each entry in the matrix represents the weight of the edge between those vertices. 
-		
-		def add_edge(mat, i, j):
-		    mat[i][j] = 1  # Graph is 
-		    mat[j][i] = 1  # Undirected
-		
-		def display_adjacency_matrix(mat):
-		    for row in mat:
-        		print(" ".join(map(str, row)))
 
 	- o(n) complexity: one iteration of one list of size n
 	- o(n^2) complexity: one nested iteration of two lists of size n

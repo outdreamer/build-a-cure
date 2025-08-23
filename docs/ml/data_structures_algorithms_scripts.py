@@ -1,4 +1,4 @@
-def is_valid_parentheses(string):
+def is_valid_parentheses(string= "{[()]}"):
 	stack = []
 	forward_chars = ['(', '{', '[']
 	mapping = {')':'(', '}':'{', ']':'['}
@@ -6,26 +6,40 @@ def is_valid_parentheses(string):
 		if s in forward_chars:
 			stack.append(s)
 		else:
-			#backwards chars
 			if stack.pop() == mapping[s]:
 				pass
 			else:
 				return False
 	return len(stack) == 0
 
-input_string = "{[()]}"
 # the first half should equal the second half backwards
 # so iteratively popping the first half off a stack should equal the second half
 
+# linked list
+class Node:
+	def __init__(self, data):
+		self.data = data
+		self.next = None
+
+class LinkedList:
+	def __init__(self):
+		self.head = None
+
+	# Method to add a node at the beginning of the LL
+	def insertAtBegin(self, data):
+		new_node = Node(data)
+		new_node.next = self.head
+		self.head = new_node
+		
 # trie
 def create():
 	return dict()
 
 def insert(trie, word):
-	for c in word:
-		if c not in trie:
-			trie[c] = {}
-		trie = trie[c]
+	for w in word:
+		if w not in trie:
+			trie[w] = {}
+		trie = trie[w]
 	trie["_end"] = True
 
 def search_trie(trie, word):
@@ -179,9 +193,6 @@ class DoublyLinkedList:
 
 
 # implement a binary tree
-#from __future__ import annotations
-#import queue
-
 class TreeNode:
 	def __init__(self, data):
 		self.data = data
@@ -290,7 +301,9 @@ class BinaryTree:
 #        return left
 
 def quick_sort(array: list) -> list:
-	# divides into a low list and a high list around pivot, then sorts each list recursively
+	# selects a random or median pivot
+	# then divides the list into a low list and a same list and a high list around the pivot
+	# then applies quick_sort to the low and high list recursively, returning quick_sort(low) + same + quick_sort(high)
 	# much faster than merge sort, O(n log2(n)) but can degrade to O(n^2)
 	low, same, high = [], [], []
 	pivot = array[randint(0, len(array) - 1)] # can also be median
@@ -304,12 +317,23 @@ def quick_sort(array: list) -> list:
 	return quick_sort(low) + same + quick_sort(high)
 
 def merge_sort(array):
-	# divides input into two lists, then sorts both lists recursively, then merges these sorted lists
-	# bubble/insertion are faster for small lists, uses a lot of memory, O(n log2n)
+	# identifies the midpoint of the list
+	# then divides input into two lists at the midpoint
+	# then sorts both lists recursively with merge_sort
+	# then applies these merge_sorted lists as parameters of merge()
+	# bubble/insertion are faster for small lists, merge_sort uses a lot of memory, O(n log2n)
 	mid = len(array) // 2
 	return merge(left=merge_sort(array[:mid]), right=merge_sort(array[mid:]))
 
 def merge(left, right):
+	# initialize index_left and index_right at 0
+	# while result length is less than sum of left and right length
+	# append the lower of left[index_left] and right[index_right] to the result list:
+	# 	if left[index_left] <= right[index_right], add left[index_left] to the list and increment index_left
+	# 	otherwise if left[index_left] > right[index_right], add right[index_right] and increment index_right
+	# if index_right reaches len(right), append the remainder of left starting at index_left and break
+	# if index_left reaches len(left), append the remainder of right starting at index_right and break
+	# return result
 	result = []
 	index_left = index_right = 0
 	while len(result) < len(left) + len(right):
@@ -327,10 +351,10 @@ def merge(left, right):
 			break
 	return result
 
-def insertion_sort(array): 
-	# starts at second item, for every i in array, saves the right item and sets j = i - 1
-	# while the items left of i are greater than array[i], move the greater item one position to the right and decrease j by 1
-	# then when there are no more greater items, set array[j + 1] to the right_item which is lower than all the moved items and greater than or equal to array[j]
+def insertion_sort(array):
+	# starts at second item, for every i in array, sets j = i - 1 and saves the right_item = array[i]
+	# while array[j] is greater than right_item, move the array[j] one position to the right and decrease j by 1
+	# then when there are no more greater items, set array[j + 1] to the right_item which is lower than all the moved items
 	# insertion sort is faster than bubble sort, O(n^2)
 	for i in range(1, len(array)): # starts at item 1 so it can use the left item as j
 		j = i - 1
@@ -354,6 +378,8 @@ def tim_insertion_sort(array, left=0, right=None):
     return arr
 
 def tim_merge(left, right):
+    # If first item of left < first item of right, return a list of [left[0]] + tim_merge(left[1:], right)
+    # else return a list of [right[0]] + tim_merge(left, right[1:])
     if left[0] < right[0]:
         # If the first element of the left subarray is smaller, recursively merge the left subarray with the right one
         return [left[0]] + tim_merge(left[1:], right)
@@ -362,12 +388,16 @@ def tim_merge(left, right):
         return [right[0]] + tim_merge(left, right[1:])
 
 def tim_sort(arr):
-	# for each i in array, sorts subarrays of size min_run with insertion_sort
-	# then divide the array into merge size, find the mid and endpoint of the left and right subarrays
-	# then merge sorted subarrays array[start:mid] and array[mid:end + 1], then assign the merged array to the original array
-	# then increase the merge size for the next iteration
+	# set min_run = 32 and n = len(array)
+	# for each i in range(0, n, min_run)
+	#    apply insertion_sort(array, i, min(i + min_run - 1, n-1))
+	# then set size = min_run and while size < n
+	# for start in range(0, n, size * 2)
+	#     find the mid (start + size 32) and endpoint (min(start + size 32 * 2 - 1, n - 1)) of the left and right subarrays
+	#     then merge the subarrays with tim_merge(array[start:mid], array[mid:end + 1])
+	#     then assign the merged array to the original array[start:start + len(merged_array)] = merged_array
+	# then increase the merge size by multiplying it by 2
 	# Timsort sorts the list in place without having to create new arrays like merge sort and Quicksort do
-
     min_run = 32
     n = len(array)
     # Traverse the array and do insertion sort on each segment of size min_run
@@ -397,27 +427,35 @@ def tim_sort(arr):
 
 def linear_search(array, val):
 	# O(n)
+	# search each item in the array, checking if it equals val and returning the item if so, otherwise return -1
 	for i, item in enumerate(array):
 		if item == val:
 			return i
 	return -1
 
 def recursive_linear_search(array, low, high, val):
+	# check that left and right are less than the array length
+	# if right < left the val was not found so return -1
+	# if array[left] or array[right] equals val, return left or right
+	# otherwise call search again, with incremented left/right indexes
 	if not (0 <= high < len(array) and 0 <= low < len(array)):
 		raise Exception("Invalid upper/lower bound")
 	if high < low:
 		return -1
 	if array[low] == val:
 		return low
-	if array[high] == val
+	if array[high] == val:
 		return high
 	return recursive_linear_search(array, low + 1, high - 1, val)
 
 def binary_search(array, val):
 	# O(log n)
-	# while left index (starts at 0) is less than right index (starts at len(array) - 1)
-	# repeatedly compares val to the middle element (left + (right - left) // 2)
-	# increases the left index if array[mid] < val and increases the right index otherwise
+	# while left index (starts at 0) is less than or equal to right index (starts at len(array) - 1)
+	# finds the midpoint of left and right
+	# then compares val to the middle element (left + (right - left) // 2)
+	# if array[mid] is val, return mid
+	# otherwise increases the left index if array[mid] < val and if array[mid] > val, decreases the right index
+	# otherwise return -1
 	left = 0
 	right = len(array) - 1
 	while left <= right:
@@ -431,12 +469,18 @@ def binary_search(array, val):
 	return -1
 
 def std_lib_binary_search(array, val):
+	# bisect.bisect_list to get the index to insert val at, otherwise return -1
+	# bisect.insort() to insert val
 	index = bisect.bisect_list(array, val)
 	if index != len(array) and array[index] == val:
 		return index
 	return -1
 
-def exponential_search(array, val)
+def exponential_search(array, val):
+	# if the first item is val, return 0
+	# Otherwise start at index 1 and double the index until the left/right search range is found
+	# the left index is bound // 2 and the right index is bound * 2 until array[bound] > val
+	# then apply Binary Search within that subarray
 	if array[0] == val:
 		return 0
 	# Start at index 1 and double the index until the search range is found.
@@ -462,6 +506,9 @@ def e_binary_search(array, val, left, right):
 vertices: dict[int, list[int]] = {}
 
 def bfs(vertices: dict, start_vertex: int) -> set[int]:
+	# add the start vertex to visited, put the start vertex on the queue
+	# while not queue.empty(), get the vertex and add it to visited, then add the adjacent vertexes to the queue
+	# return visited
 	visited = set(start_vertex)
 	queue: Queue = Queue()
 	queue.put(start_vertex)
@@ -476,6 +523,9 @@ def bfs(vertices: dict, start_vertex: int) -> set[int]:
 
 # dfs - pops last instead of first element, and reverses vertices[vertex]
 def dfs(vertices: dict, start_vertex: int) -> set[int]:
+	# add the start vertex to visited, put the start vertex on the stack
+	# while stack, pop the vertex and add it to visited, then add the reversed adjacent vertexes to the stack
+	# return visited
 	visited = set(start_vertex)
 	stack = []
 	stack.append(start_vertex)

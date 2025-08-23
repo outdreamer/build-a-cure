@@ -322,33 +322,20 @@ Silhouette Score	Clustering Evaluation Metric
 
 Learning Curve	Function Type			Compares how well increasingly large training sets perform on the same test set to evaluate if the model would benefit from more data where if the validation accuracy increases with training set size it indicates underfitting and that more data would be useful and where a gap in training and test set accuracy indicates overfitting and where additional data can decrease both underfitting and overfitting
 
-Filter Methods	Feature Selection Method			Evaluate each feature independently with target variable where features with high correlation with target variable are selected as it means this feature has some relation and can help make predictions where these methods are used in the preprocessing phase to remove irrelevant or redundant features based on statistical tests (correlation) or other criteria	Quickly evaluate features without training the model and good for removing redundant or correlated features and Filter methods are often preferred for very large datasets due to their speed	These methods don't consider feature interactions so they may miss feature combinations that improve model performance
-Chi-square test	Feature Selection Filter Method			It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
-Fisher’s Score	Feature Selection Filter Method			Fisher's selects each feature independently according to their scores under Fisher criterion leading to an optimal set of features so a larger the Fisher’s score indicates a better selected feature
-Pearson’s Correlation Coefficient	Feature Selection Filter Method			pearson's coefficient is a measure of quantifying the association between the two continuous variables and the direction of the relationship with its values ranging from -1 to 1
-Variance Threshold	Feature Selection Filter Method			variance threshold is an approach where all features are removed whose variance doesn’t meet the specific threshold and by default this method removes features having zero variance and the assumption made using this method is higher variance features are likely to contain more information
-Mean Absolute Difference	Feature Selection Filter Method			Mean absolute difference is a method is similar to variance threshold method but the difference is there is no square in this method
-Dispersion ratio	Feature Selection Filter Method			It is defined as the ratio of the Arithmetic mean (AM) to that of Geometric mean (GM) for a given feature whose value ranges from +1 to infinity as AM ≥ GM for a given feature where a higher dispersion ratio implies a more relevant feature
-
 Hypothesis Testing	Statistical test type			Commonly used in outlier detection, includes t-test, chi-square, ANOVA
 One-sample t-test 	Statistical test 		One number predicts y
 Wilcoxon signed rank Statistical test 		One number predicts the signed rank of y
-
 Paired-sample t-test 	Statistical test 		One intercept predicts the pairwise y2 - y1 differences
 Wilcoxon matched pairs 	Statistical test 		One intercept predicts the signed rank of the pairwise differences y2 - y1
-
 Pearson correlation 	Statistical test 		One intercept plus x multiplied by a number (slope) predicts y with continuous x
 Spearman correlation 	Statistical test 		One intercept plus ranked x multipled by a number (slope) predicts ranked y with continuous x
-
 Two-sample t-test 	Statistical test 		An intercept for group 1 (plus a difference if group 2) predicts y with discrete x
 Welch's t-test 	Statistical test 		An intercept for group 1 (plus a difference if group 2) predicts y, with one variance per group instead of one common variance with discrete x
 Mann-Whitney U 	Statistical test 		An intercept for group 1 (plus a difference if group 2) predicts signed rank of y with discrete x
 One-way ANOVA 	Statistical test 		An intercept for group 1 (plus a difference if another group) predicts y with discrete x
 Kruskal-Wallis 	Statistical test 		An intercept for group 1 (plus a difference if another group) predicts rank of y with discrete x
 Goodness of fit 	Statistical test 	An intercept for group 1 (plus a difference if another group) and a family like the poisson family predicts y with discrete x
-
 One-way ANCOVA 	Statistical test 		An intercept for group 1 (plus a difference is another group) plus a slope on x predicts y, with continuous x
-
 Two-way ANOVA 	Statistical test 		An intercept plus x1 terms and x2 terms plus x1,x2 interaction terms (changing one x term changes the other x-term in an interaction term)
 Chi-square test 	Statistical test 	A log(intercept) plus log(x1) terms and log(x2) terms plus log(x1,x2) interaction terms where inputs are proportions and x is discrete and a family like the poisson family
 
@@ -360,7 +347,16 @@ F-test 	Statistical test 	The test statistic in an f-test is the ratio of two sc
 Likelihood ratio test 	Statistical test 		F is a monotone function of the likelihood ratio statistic so the F-test is a likelihood ratio test
 Degrees of freedom 	Statistical test variable 		The number of degrees of freedom is the number of values in the final calculation of a statistic that are free to vary
 
-Wrapper Method	Feature Selection Method			Greedy algorithms that train algorithms using different combinations of features and computing relations between these subset features and the target variable and add/remove features with stopping criteria being potentially whenever the model performance decreases or a specific number of features is achieved	Can lead to better model performance since they evaluate feature subsets in the context of the model and can capture feature dependencies and interactions	But are computationally more expensive than filter methods especially for large datasets
+Feature Selection Methods 	Function Type 		Feature selection methods reduce features and have three main types: Filter, wrapper, and embedded feature selection
+Filter Methods	Feature Selection Method			Evaluate each feature independently with target variable where features with high correlation with target variable are selected as it means this feature has some relation and can help make predictions where these methods are used in the preprocessing phase to remove irrelevant or redundant features based on statistical tests (correlation) or other criteria	Quickly evaluate features without training the model and good for removing redundant or correlated features and Filter methods are often preferred for very large datasets due to their speed	These methods don't consider feature interactions so they may miss feature combinations that improve model performance
+Chi-square test	Feature Selection Filter Method			It is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
+Fisher’s Score	Feature Selection Filter Method			Fisher's selects each feature independently according to their scores under Fisher criterion leading to an optimal set of features so a larger the Fisher’s score indicates a better selected feature
+Pearson’s Correlation Coefficient	Feature Selection Filter Method			pearson's coefficient is a measure of quantifying the association between the two continuous variables and the direction of the relationship with its values ranging from -1 to 1
+Variance Threshold	Feature Selection Filter Method			variance threshold is an approach where all features are removed whose variance doesn’t meet the specific threshold and by default this method removes features having zero variance and the assumption made using this method is higher variance features are likely to contain more information
+Mean Absolute Difference	Feature Selection Filter Method			Mean absolute difference is a method is similar to variance threshold method but the difference is there is no square in this method
+Dispersion ratio	Feature Selection Filter Method			It is defined as the ratio of the Arithmetic mean (AM) to that of Geometric mean (GM) for a given feature whose value ranges from +1 to infinity as AM ≥ GM for a given feature where a higher dispersion ratio implies a more relevant feature
+
+Wrapper Method	Feature Selection Method			Wrapper methods are greedy algorithms that train algorithms using different combinations of features and computing relations between these subset features and the target variable and add/remove features with stopping criteria being potentially whenever the model performance decreases or a specific number of features is achieved	Can lead to better model performance since they evaluate feature subsets in the context of the model and can capture feature dependencies and interactions	But are computationally more expensive than filter methods especially for large datasets
 Forward selection	Feature Selection Wrapper Method			Forward selection is an iterative approach where we initially start with an empty set of features and keep adding a feature which best improves our model after each iteration where the stopping criterion is where the addition of a new variable does not improve the performance of the model
 Backward elimination	Feature Selection Wrapper Method			Backward elimination is a method that is also an iterative approach where we initially start with all features and after each iteration we remove the least significant feature where the stopping criterion is where no improvement in the performance of the model is observed after the feature is removed
 Recursive elimination	Feature Selection Wrapper Method			Recursive elimination is a greedy method that selects features by recursively removing the least important ones where it trains a model and ranks features based on importance and eliminates them one by one until the desired number of features is reached
@@ -516,3 +512,7 @@ https://blog.dailydoseofds.com/p/grid-search-vs-random-search-vs-bayesian
 https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74/
 https://lindeloev.github.io/tests-as-linear/linear_tests_cheat_sheet.pdf
 https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md
+
+To do list:
+- sort by type (regression, machine learning algorithm, probability distribution, dimensionality reduction method, function type, regression evaluation metric, concept, problem type, observation, ensemble method, etc)
+- consolidate columns (math function and parameter explanation in the same column, supervised in the type column, loss function in the math function column)
