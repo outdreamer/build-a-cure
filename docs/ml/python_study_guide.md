@@ -2,24 +2,6 @@ python study guide
 
 - questions
 
-	- db normalization
-		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
-		- reduces data redundancy by dividing it into multiple related tables
-		- improves query performance
-		- but also increases complexity, reduces flexibility, and adds performance overhead by requiring joining tables
-		- first normal form: each cell contains a single value and records are unique
-		- second normal form: removes partial dependencies by separating tables, removes redundant data and places it in separate tables, requiring non-key attributes to be functional on the primary key
-		- third normal form: ensures non-key attributes are independent of each other which eliminates transitive dependency
-		- boyce-codd normal form: refinement of 3F that requires every determinant to be a candidate key
-		- fourth normal form: addresses multi-valued dependencies, ensuring there are no multiple independent multi-valued facts about an entity in a record
-		- fifth normal form (protection join): relates to reconstructing info from smaller, differently arranged pieces of data
-		- sixth normal form: relates to temporal data (handling changes over time) by decomposing tables further to eliminate all non-temporary redundancy
-	
-	- data buffer: physical memory (often RAM) that temporarily stores data while being moved between different locations, which help synchronize data flow so components operating at different speeds can work together, and buffers optimize performance by reducing the number of I/O operations which are usually slower than in-memory operations, where buffers are used to read/write large files efficiently, networking data is buffered during transmission to optimize performance, and buffers allow slicing/manipulation of large datasets without copying
-		- the buffer protocol allows objects to expose underlying memory to other objects which is useful for zero-copy operations where data is shared without creating copies, and objects like bytes/bytearray/memoryview implement buffers
-		- buffers are useful to get more than one view on the data without holding multiple copies in memory
-		- flush transfers data from the program buffer to the OS buffer or directly to file/disk, allows writing immediately as opposed to waiting for the automatic flusher to flush when the buffer is full or when the file is closed
-	
 	- how to use python given limited memory
 		- set memory limits for a program with the resource module, which can limit number of child processes, number of open files, CPU time or restrict the total address space, after which it will generate MemoryError exceptions when no more memory is available
 		- optimize code for memory efficiency using generators/iterators, avoiding unnecessary copies, using numpy/pandas for handling large datasets, using ulimit or cgroups on linux to restrict memory usage for a python process, use tracemalloc to identify memory bottlenecks in code
@@ -67,7 +49,7 @@ python study guide
 				data = DataIterator()
 				result = sum(data)
 
-	- whats the difference between python and java
+	- whats are some similarities/differences between python and java
 		- Java supports OOP, is compiled and statically typed and platform-independent
 			- java is compiled into bytecode and run on the Java Virtual Machine (JVM), offering better performance
 		- python supports OOP/functional/procedural programming, is interpreted and dynamically typed
@@ -78,58 +60,11 @@ python study guide
 		- an abstract class is a blueprint for other classes, implemented with the abc module, which can have abstract methods without implementations and concrete methods with implementations, and cant be instantiated directly, where subclasses have to implement all abstract methods
 		- an interface defines a set of methods that a class has to implement, typically interfaces are implemented with abstract classes having only abstract methods, which is useful for ensuring that behaviors are implemented without specifying how they should be implemented, and doesnt allow any implementations in the interface
 
-	- recursion
-		- recursion is where a function calls itself to solve a problem by breaking it into smaller subproblems, such as calculations, tree traversals or divide-and-conquer algorithms
-			def recursive(param):
-				if base_case:
-					return base_param_result # prevents infinite recursion with a stopping case
-				if recursive_case:
-					return recursive(modified_params)
-		- tail recursion is where the recursive call is the last thing the function does so no more code is executed after it returns, which is sometimes implemented like a loop to save memory, like where multiplication happens in a parameter definition so the multiplication happens before the recursive call
-		- non-tail recursion is where the function does more work after the recursive call returns so it cant be optimized into a loop, like where there is multiplication after the recursive call by being outside the function call
-		- recursion is easier to implement when the problem is recursive like tree traversals
-		- iteration involves loops (for/while) to repeat a block of code which is usually more memory efficient than recursion, bc it doesnt involve multiple stack frames like recursion
-		- avoid recursion when the problem can be easily solved with loops, when recursion depth is large which risks a stack overflow, when performance is critical and function call overhead matters
-		- recursion is useful for simplicity and reduced code length, but increases memory overhead especially for deep recursion and has more function calls/returns so may have slower responses and risks stack overflow if the recursion depth exceeds the stack limit
+	- __init__.py is for shared functions and variables across the package and creating packages, which is executed when a package is imported
 
-	- stack overflow: occurs when the stack like a call stack (memory used to store active function calls) is full and an attempt to push an element on to it is made, which happens bc the stack has a fixed size or memory limit, which is a common issue in recursive functions where excessive function calls consume the call stack memory like with infinite recursion
-
-	- SOLID concepts
-		- Single Responsibility: a class should only have one responsibility
-		- Open-Closed: entities should be open for extension but closed for modification (add functionality without changing the existing code)
-		- Liskov Substitution: objects of a parent superclass should be replaceable with objects of its child subclasses without changing program correctness
-		- Interface Segregation: clients shouldnt depend on interfaces they dont use, suggesting splitting larger interfaces into smaller interfaces
-		- Dependency Inversion: high-level modules shouldnt depend on low-level modules as both should depend on abstractions, and abstractions shouldnt depend on details, details should depend on abstractions
-	
-	- how to optimize sql queries
-		- limit results, select specific fields, use indexes, identify bottlenecks in execution plans using EXPLAIN or EXPLAIN PLAN, avoid correlated subqueries and replace with joins/temporary tables
-	
-	- thread-safe:
-		- functions correctly when accessed by multiple threads concurrently. In a multi-threaded environment, thread-safe code prevents unexpected behavior, race conditions, or data corruption
-		- race conditions: when multiple threads access/modify shared data at once, leading to inconsistent results
-		- fix: 
-			- avoid shared state completely by re-entrancy (code can be safely interrupted and resumed as threads have their own local state)
-			- share immutable objects whose state cant be changed after creation so only read-only data is shared
-			- synchronization mechanisms can be used when state has to be shared, mechanisms like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes) and atomic operations (using operations that are indivisible ensuring that shared data is consistent) though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
-			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
-	
 	- passed by value/reference:
 		- mutable structures are passed by reference, immutable structures are passed by value
 	
-	- encapsulation: bundles data/attributes and methods/functions in a single unit like a class, and restricts direct access to some of the components to protect data integrity and ensure control over how its accessed/modified
-		- internal details of a class are hidden, access modifiers (public, protected, private) control visibility of class attributes and methods, and getter/setter methods allow controlled access to private attributes
-		- public attributes/methods are accessible from anywhere, protected attributes/methods are prefixed with an underscore and are intended to only be accessed within a class/subclasses, private attributes/methods are prefixed with double underscores and not directly accessible outside the class but can be accessed with name mangling
-		- encapsulation allows data security by preventing unauthorized access/modification, code maintainability, and flexibility allowing changes to internal implementation without affecting external code
-	
-	- polymorphism: the ability of a function/method/operator to behave differently based on the object its working with, allowing for flexibility and reusability in code and making it easy to work with objects of different types in the same way
-		- method polymorphism is where different classes have methods with the same name with different functionality
-		- operator polymorphism is where operators like + can perform different operations based on data types, either adding integers or concatenating strings
-		- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
-		- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
-		- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
-	
-	- __init__.py is for shared functions and variables across the package and creating packages, which is executed when a package is imported
-
 - libraries/tools
 	- black for formatting
 	- pylint/flake8 for PEP compliance
@@ -139,14 +74,15 @@ python study guide
 		- coverage analysis: coverage.py
 		- linting/static analysis: mypy
 			- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
-		- dynamic analysis: dynapyt and pyinstrument
+			- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
+		- dynamic analysis: dynapyt, pyinstrument, burpsuite, OWASP zed attack proxy, arachni
 			- dynamic analysis is done on running apps but misses untested flows
 		- interactive analysis: pytest and ipython
-			- interactive analysis combines static flaws with limited attacks, identifying for example authentication bypass issues and testing the login endpoint with sample parameters, but requires manual testing expertise to be valuable
+			- interactive analysis combines static flows with limited attacks, identifying for example authentication bypass issues and testing the login endpoint with sample parameters, but requires manual testing expertise to be valuable
 		- security testing
+			- veracode
 			- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues)
 			- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
-			- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
 		- unit testing: pytest or unittest
 		- stress testing: stressor
 		- load testing: locust
@@ -184,10 +120,8 @@ python study guide
 			- use multiprocessing to create separate processes with their own memory space, bypassing the GIL which is useful for CPU bound tasks
 				with multiprocessing.Pool(processes=4) as pool:
 					results = pool.map(square_function, range(10))
-			- use asyncio for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread
+			- use asyncio/coroutines for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread
 			- use python 3.13 which comes with free thread mode
-			- use multi-threading
-			- use coroutines to create concurrent asynchronous code in python to perform multiple tasks simultaneously by creating simple lightweight threads
 
 	- use match-case rather than if-else
 	- use built-in functions which are usually optimized for speed and are often written in C
@@ -213,7 +147,7 @@ python study guide
 	- use linked lists which allocate memory as needed for frequent insertions/deletions, as linked lists avoid the overhead of resizing like arrays, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists bc items are accessed sequentially, linked lists are faster at adding elements at the start of the linked list
 	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
 	- use dicts to efficiently store and lookup data, and tuples to group values together
-	- use lazy loading of data to only load data when needed, using generators, __getattr__, or  functools.lru_cache
+	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
 	- use scipy and numpy (implemented in c) for numerical operations which is much faster than lists for large-scale numerical operations
 	- use list comprehensions which are faster than loops for creating a list
@@ -236,13 +170,15 @@ python study guide
 - handlers for security bugs
 	- log injection: validate inputs to logs
 	- SQL injection: malicious queries/scripts inserted into sql created using unvalidated string input
-		- fix: validate sql query input, use ORM with named parameters instead of query string building
-	- XSS (cross-site scripting): inject malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
+		- fix: validate sql query input, use ORM like sqlalchemy with named parameters instead of query string building
+	- XSS (cross-site scripting): injections of malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
 		- fix: validate http/user/database input/output, validate scripts in webpages with content security policies using nonces in scripts, encode output before including it in html to prevent execution of scripts with html.escape(user_input), use security headers like Content-Type, avoid using eval() or innerHTML without validation
 	- ARP spoofing: associates the attacker's MAC address with the IP address of another host, causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks
 		- fix: static ARP entries, software to certify or cross-check ARP responses
 	- MITM: https/arp/dns spoofing, ssl/tls stripping, email/session hijacking, man-in-the-browser, wi-fi MITM, replay attacks, fake certificate authority are MITM attack types
 		- fix: mutual authentication, recorded attestments, HTTP public key pinning (pinning public key hashes provided by server), using signatures to authenticate DNS records
+	- Cross-Site Request Forgery (CSRF): 
+		- fix: set up protection by using flask_wtf to use unpredictable CSRF tokens in forms which are verified by servers when requests are made, so that valid requests cant be forged
 	- security tips
 		- hash and salt passwords with bcrypt
 		- set strict access controls
@@ -258,6 +194,8 @@ python study guide
 		- validate emails
 		- use whitelists to support valid requests
 		- use prepared statements to send a query template and then send the values for fields in the template
+			- a prepared statement is a feature where the database pre-compiles SQL code and stores the results, separating it from data, where the query can be executed later
+			- a prepared statement takes the form of a pre-compiled template into which constant values are substituted during each execution
 		- check hashes of downloads
 		- have a secure backup strategy in case of database corruption or sql injection attacks
 		- move credentials to .env files
@@ -266,7 +204,6 @@ python study guide
 		- patch dependencies regularly
 		- rotate keys regularly
 		- handle cookies securely
-		- set up Cross-Site Request Forgery (CSRF) protection by using flask_wtf to use unpredictable CSRF tokens in forms which are verified by servers when requests are made, so that valid requests cant be forged
 		- keep API tokens private
 		- use APIs securely
 		- use secure libraries
@@ -286,7 +223,6 @@ python study guide
 			- schema is a library that validates data structures like from config files, forms, external services or command line parsing or converted from JSON/YAML to python data types
 			- bleach is a library that escapes or strips markup and attributes
 			- jinja is a templating engine that auto-escapes to prevent XSS using markupsafe
-			- use named parameters to prevent SQL injections instead of building a query string, or use object relationship mapping (ORM) tools like sqlalchemy
 		- download packages cautiously
 			- check package names for typos and check snyk advisor or use safety CLI or install pip audit or check github issues/dependabot alerts for known security issues with packages
 			- use pip freeze to record environment-specific package versions

@@ -1,5 +1,83 @@
 System design study guide 
 
+- general
+	
+	- ACID database transaction processing
+		- atomicity: all operations in a transaction are completely successfully or all fail
+		- consistency: a transaction brings the db from on valid state to another
+		- isolation: transactions are executed in isolation from one another, preventing concurrent transactions from impacting each other
+		- durability: once a transaction is committed, it remains committed even in a system failure
+
+	- db normalization
+		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
+		- reduces data redundancy by dividing it into multiple related tables
+		- improves query performance
+		- but also increases complexity, reduces flexibility, and adds performance overhead by requiring joining tables
+		- first normal form: each cell contains a single value and records are unique
+		- second normal form: removes partial dependencies by separating tables, removes redundant data and places it in separate tables, requiring non-key attributes to be functional on the primary key
+		- third normal form: ensures non-key attributes are independent of each other which eliminates transitive dependency
+		- boyce-codd normal form: refinement of 3F that requires every determinant to be a candidate key
+		- fourth normal form: addresses multi-valued dependencies, ensuring there are no multiple independent multi-valued facts about an entity in a record
+		- fifth normal form (protection join): relates to reconstructing info from smaller, differently arranged pieces of data
+		- sixth normal form: relates to temporal data (handling changes over time) by decomposing tables further to eliminate all non-temporary redundancy
+	
+	- data buffer: physical memory (often RAM) that temporarily stores data while being moved between different locations, which help synchronize data flow so components operating at different speeds can work together
+		- buffers optimize performance by reducing the number of I/O operations which are usually slower than in-memory operations
+		- buffers are used to read/write large files efficiently
+		- networking data is buffered during transmission to optimize performance
+		- buffers allow slicing/manipulation of large datasets without copying
+		- the buffer protocol allows objects to expose underlying memory to other objects which is useful for zero-copy operations where data is shared without creating copies
+		- objects like bytes/bytearray/memoryview implement buffers
+		- buffers are useful to get more than one view on the data without holding multiple copies in memory
+		- flush transfers data from the program buffer to the OS buffer or directly to file/disk, allows writing immediately as opposed to waiting for the automatic flusher to flush when the buffer is full or when the file is closed
+	
+	- recursion
+		- recursion is where a function calls itself to solve a problem by breaking it into smaller subproblems, such as calculations, tree traversals or divide-and-conquer algorithms
+			def recursive(param):
+				if base_case:
+					return base_param_result # prevents infinite recursion with a stopping case
+				if recursive_case:
+					return recursive(modified_params)
+		- tail recursion is where the recursive call is the last thing the function does so no more code is executed after it returns, which is sometimes implemented like a loop to save memory, like where multiplication happens in a parameter definition so the multiplication happens before the recursive call
+		- non-tail recursion is where the function does more work after the recursive call returns so it cant be optimized into a loop, like where there is multiplication after the recursive call by being outside the function call
+		- recursion is easier to implement when the problem is recursive like tree traversals
+		- iteration involves loops (for/while) to repeat a block of code which is usually more memory efficient than recursion, bc it doesnt involve multiple stack frames like recursion
+		- avoid recursion when the problem can be easily solved with loops, when recursion depth is large which risks a stack overflow, when performance is critical and function call overhead matters
+		- recursion is useful for simplicity and reduced code length, but increases memory overhead especially for deep recursion and has more function calls/returns so may have slower responses and risks stack overflow if the recursion depth exceeds the stack limit
+
+	- stack overflow: occurs when the stack like a call stack (memory used to store active function calls) is full and an attempt to push an element on to it is made, which happens bc the stack has a fixed size or memory limit, which is a common issue in recursive functions where excessive function calls consume the call stack memory like with infinite recursion
+
+	- SOLID concepts
+		- Single Responsibility: a class should only have one responsibility
+		- Open-Closed: entities should be open for extension but closed for modification (add functionality without changing the existing code)
+		- Liskov Substitution: objects of a parent superclass should be replaceable with objects of its child subclasses without changing program correctness
+		- Interface Segregation: clients shouldnt depend on interfaces they dont use, suggesting splitting larger interfaces into smaller interfaces
+		- Dependency Inversion: high-level modules shouldnt depend on low-level modules as both should depend on abstractions, and abstractions shouldnt depend on details, details should depend on abstractions
+	
+	- how to optimize sql queries
+		- limit results, select specific fields, use indexes, identify bottlenecks in execution plans using EXPLAIN or EXPLAIN PLAN, avoid correlated subqueries and replace with joins/temporary tables
+	
+	- thread-safe:
+		- functions correctly when accessed by multiple threads concurrently. In a multi-threaded environment, thread-safe code prevents unexpected behavior, race conditions, or data corruption
+		- race conditions: when multiple threads access/modify shared data at once, leading to inconsistent results
+		- fix: 
+			- avoid shared state completely by re-entrancy (code can be safely interrupted and resumed as threads have their own local state)
+			- share immutable objects whose state cant be changed after creation so only read-only data is shared
+			- synchronization mechanisms can be used when state has to be shared, mechanisms like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes) and atomic operations (using operations that are indivisible ensuring that shared data is consistent) though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
+			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
+	
+	- encapsulation: bundles data/attributes and methods/functions in a single unit like a class, and restricts direct access to some of the components to protect data integrity and ensure control over how its accessed/modified
+		- internal details of a class are hidden, access modifiers (public, protected, private) control visibility of class attributes and methods, and getter/setter methods allow controlled access to private attributes
+		- public attributes/methods are accessible from anywhere, protected attributes/methods are prefixed with an underscore and are intended to only be accessed within a class/subclasses, private attributes/methods are prefixed with double underscores and not directly accessible outside the class but can be accessed with name mangling
+		- encapsulation allows data security by preventing unauthorized access/modification, code maintainability, and flexibility allowing changes to internal implementation without affecting external code
+	
+	- polymorphism: the ability of a function/method/operator to behave differently based on the object its working with, allowing for flexibility and reusability in code and making it easy to work with objects of different types in the same way
+		- method polymorphism is where different classes have methods with the same name with different functionality
+		- operator polymorphism is where operators like + can perform different operations based on data types, either adding integers or concatenating strings
+		- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
+		- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
+		- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
+
 - networks
 
 	- network models
