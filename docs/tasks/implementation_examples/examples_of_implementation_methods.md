@@ -34,6 +34,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identify useful structures like networks implementing statistical methods to implement interface functions of graphs
+        - for example, implementing statistical and machine learning methods (like principal components analysis and regularization) can be useful to implement a 'reduce' function, which can be applied to 'reduce graphs' so that for example an input concept graph can be reduced as an input to functions like 'explain/define/describe', and similarly other methods can be applied to implement other interface functions applied to graphs
+
     - identify useful structures like 'graph generation methods' to identify patterns in new relevant graphs
         - identify graph generation methods like identifying connections between interface structures (like 'definitions/requirements') and randomly connecting these connections in different ways (like by similar intent or by overlapping node) to identify patterns in their connections and identify all the useful graph variants including these connections
         - identifying structure sets like 'an abstract connection and a specification' or 'a function and structure set and a specification' is useful as an example of structures that can generally create additional variation with minimal cost, as a way of identifying new workflows/useful structures using these structures like 'an abstract connection and a specification'

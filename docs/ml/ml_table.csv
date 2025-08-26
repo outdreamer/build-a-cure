@@ -177,8 +177,8 @@ OPTICS (Ordering Points to Identify the Clustering Structure)	Density-based Clus
 Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ,ŷᵢ)	Backpropagation minimizes loss via gradient descent using layers of neurons that apply weighted transformations followed by non-linear functions, learning by backpropagating error and updating weights by gradient descent	Captures complex patterns and non-linear relationships			Cross entropy loss
 Neural Networks	Regression							Mean squared error
 Multilayer Perception 	Neural Network Type for Classification and Regression 		Neural network with multiple layers of nodes
-Perception 	Neural Network Type for Classification and Regression 	The perceptron learning rule is weight update j = learning rate * (actual yi - predicted yi) * xij	Neural network with multiple layers of nodes, compares true class labels with predicted class labels to compute the error and update the weights
-Adaline 	Neural Network Type 	The Adaline learning rule is weight update j = learning rate * Σ (actual yi - predicted yi) * xij, the Adaline cost function is 1/2 * Σ (actual yi - predicted yi) ^ 2 (sum of squared errors) 	Adaline involves a linear activation function (the identity function) instead of the step function of the perceptron, which has continuous output which makes the cost function differentiable, but Adaline still uses a threshold function to make predictions; compares true class labels to the continuous output of the linear activation function to compute the error and update the weights
+Perception 	Neural Network Type for Classification and Regression 	The perceptron learning rule is new weight = weight + weight update, where weight update j = learning rate * (actual yi - predicted yi) * xij	Neural network with multiple layers of nodes, compares true class labels with predicted class labels to compute the error and update the weights
+Adaline (adaptive linear neuron) 	Neural Network Type 	Adaline uses batch gradient descent, where the Adaline learning rule is new weight = weight + weight update, and where the change in weight j = learning rate * the negative gradient of the cost function, so the weight update j = learning rate * Σ (actual yi - predicted yi) * xij, bc the Adaline cost function is 1/2 * Σ (actual yi - predicted yi) ^ 2 (as in, the sum of squared errors) and the partial derivative of the cost function is - Σ (actual yi - predicted yi) * xij 	Adaline involves a linear activation function (the identity function) instead of the step function of the perceptron, which has continuous output which makes the cost function differentiable, but Adaline still uses a threshold function to make predictions; Adaline compares true class labels to the continuous output of the linear activation function to compute the error and update the weights, as opposed to comparing true to predicted class labels like the perceptron does
 Deep learning 	Learning Type		Uses neural networks with many layers 	useful for tasks involving large datasets and high-dimensinoal data
 Feedforward Neural Networks (FNN) Deep Learning Network Type used for classification and regression 	Basic neural network model 	Easy to train and is useful for simple tasks
 Convolutional Neural Networks (CNN)	Deep Learning Network Type 			Good for handling grid-like data and learns spatial hierachies of features
@@ -189,15 +189,16 @@ Radial Basis Function Network (RBFN) 	Neural Network Type
 Deep Boltzmann Machine (DBM) Neural Network Type
 Deep Belief Networks (DBN) Neural Network Type
 
-Gradient Descent	Optimization function	the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
-Stochastic Gradient Descent 	Optimization function
-Batch Gradient Descent 	Optimization function 		The weight update is calculated based on all examples of the training dataset instead of updating the weights incrementally after each training example
-Mini-batch Gradient Descent 	Optimization function
+Gradient Descent	Optimization function	The gradient of the cost function = the partial derivative of the cost function with respect to each weight wj, where the change in weight j = learning rate * the negative gradient of the cost function
+Stochastic/iterative/online Gradient Descent 	Optimization function 	The weight update j = learning rate * (actual yi - predicted yi) * xij, where cost is the average cost of training examples in each epoch	SGD updates the weights incrementally for each training example, where learning rate is usually an adaptive learning rate that decreases over time as in c1/(number of iterations + c2), which means SGD doesnt reach the global minimum but approaches it. Typically SGD converges faster than gradient descent bc of the more frequent weight updates. Since each gradient is calculated from one example, errors are noisier than in gradient descent, so SGD can escape shallow local minima easily when using nonlinear cost functions, and SGD can be used for online learning 	Converges faster than gradient descent and can escape shallow local minima 	Requires shuffling training data for every epoch to prevent cycles
+Batch Gradient Descent 	Optimization function 		Updates the weights based on the sum of the accumulated errors over all examples of the training dataset
+Mini-batch Gradient Descent 	Optimization function 		Applies batch gradient descent to small batches of the training data like 32 examples at a time, which converges faster bc of the more frequent updates
 Adam (Adaptive Moment Estimation) Gradient Descent 	Optimization function
 Nesterov Accelerated Gradient 	Optimization function
 Momentum 	Optimization function
 Adagrad 	Optimization function
 Adadelta 	Optimization function
+Online learning Learning Type 		The model is trained as new data arrives, so the weights aren't re-initialized before each training example is fit, where the weights are updated for each training example
 
 Backpropagation	Neural network weight update function			applies the chain rule to compute the gradient of the loss function with respect to each weight in the network
 
