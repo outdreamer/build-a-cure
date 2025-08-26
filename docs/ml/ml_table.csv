@@ -177,6 +177,8 @@ OPTICS (Ordering Points to Identify the Clustering Structure)	Density-based Clus
 Neural Networks	Classification	J(θ) = (1/m) Σ Loss(yᵢ,ŷᵢ)	Backpropagation minimizes loss via gradient descent using layers of neurons that apply weighted transformations followed by non-linear functions, learning by backpropagating error and updating weights by gradient descent	Captures complex patterns and non-linear relationships			Cross entropy loss
 Neural Networks	Regression							Mean squared error
 Multilayer Perception 	Neural Network Type for Classification and Regression 		Neural network with multiple layers of nodes
+Perception 	Neural Network Type for Classification and Regression 	The perceptron learning rule is weight update j = learning rate * (actual yi - predicted yi) * xij	Neural network with multiple layers of nodes, compares true class labels with predicted class labels to compute the error and update the weights
+Adaline 	Neural Network Type 	The Adaline learning rule is weight update j = learning rate * Σ (actual yi - predicted yi) * xij, the Adaline cost function is 1/2 * Σ (actual yi - predicted yi) ^ 2 (sum of squared errors) 	Adaline involves a linear activation function (the identity function) instead of the step function of the perceptron, which has continuous output which makes the cost function differentiable, but Adaline still uses a threshold function to make predictions; compares true class labels to the continuous output of the linear activation function to compute the error and update the weights
 Deep learning 	Learning Type		Uses neural networks with many layers 	useful for tasks involving large datasets and high-dimensinoal data
 Feedforward Neural Networks (FNN) Deep Learning Network Type used for classification and regression 	Basic neural network model 	Easy to train and is useful for simple tasks
 Convolutional Neural Networks (CNN)	Deep Learning Network Type 			Good for handling grid-like data and learns spatial hierachies of features
@@ -189,6 +191,7 @@ Deep Belief Networks (DBN) Neural Network Type
 
 Gradient Descent	Optimization function	the update rule θj :=θj − (α ^ ∂/∂θj) * J(θ)
 Stochastic Gradient Descent 	Optimization function
+Batch Gradient Descent 	Optimization function 		The weight update is calculated based on all examples of the training dataset instead of updating the weights incrementally after each training example
 Mini-batch Gradient Descent 	Optimization function
 Adam (Adaptive Moment Estimation) Gradient Descent 	Optimization function
 Nesterov Accelerated Gradient 	Optimization function
