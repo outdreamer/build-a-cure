@@ -157,21 +157,21 @@ https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/relevant_var
 
 ## Summary
 
-	Much of this project automates the problem-solving methods & structures I use mentally - so it can be viewed as meaning, information organization, solution or intelligence automation. Other components of this project include important specific functions, like predicting/finding/using important system filters & finding useful problem type-agnostic insight paths.
-  These components can be used to solve problems like "predicting system behavior more efficiently", by:
+	- Much of this project automates the problem-solving methods & structures I use mentally - so it can be viewed as meaning, information organization, solution or intelligence automation. Other components of this project include important specific functions, like predicting/finding/using important system filters & finding useful problem type-agnostic insight paths.
+  - These components can be used to solve problems like "predicting system behavior more efficiently", by:
     - applying a problem-solving workflow, like 'break into sub-problems, solve independently, aggregate & integrate sub-solutions & test aggregate solution'
       - breaking it into sub-problems, like 'optimize predictions', 'increase prediction accuracy' & 'optimize learning', with a corresponding interface query to link the problem with a solution using info formats (to break into sub-problems & integrate the sub-problem solutions) & a metric to evaluate them
       - identify key components of the problem system 'learning', like 'bias'
       - applying relevant structures, like an insight path having a relevant supported intent like "find & describe change rules of identified key components of the problem system to optimize"
       - retrieving/deriving & applying insights about the mechanics of bias
       - organizing the retrieved information (including bias insights & bias patterns) to fulfill intent 'optimize predictions', with other intents 'increase prediction accuracy' & "make 'learning' system more efficient".
-  You can see how these components - once standardized to the meaning (relevance to problem-solving intent) interface - are formatted with the structures of relevance.
-  - problem intent: optimize learning
-    - apply structure: find object in the learning system that is measurable (predictions)
-    - problem intent: optimize predictions
-      - apply structure: find object in the learning system that allows specific measurements of predictions (prediction metrics, like accuracy)
-      - problem intent: increase prediction accuracy
-  You can derive key components like 'bias' in the 'learning' system with various methods, including:
+  - You can see how these components - once standardized to the meaning (relevance to problem-solving intent) interface - are formatted with the structures of relevance.
+    - problem intent: optimize learning
+      - apply structure: find object in the learning system that is measurable (predictions)
+      - problem intent: optimize predictions
+        - apply structure: find object in the learning system that allows specific measurements of predictions (prediction metrics, like accuracy)
+        - problem intent: increase prediction accuracy
+  - You can derive key components like 'bias' in the 'learning' system with various methods, including:
     - interface-specific definitions:
       - structural definitions of bias include 'applying a rule out of context' 
         - matching this structure or its abstraction (insight path of this structure, like 'identify structures having the mismatch problem type between core/important components') to a structural format of the problem system would enable identifying other alternative structures matching this structural definition (to build the abstract insight path if it doesnt already exist in the database)
