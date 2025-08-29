@@ -34,6 +34,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identify useful structures like function networks that connect relevant structures like 'a function and its optimal position given requirements in the network'
+        - identify function networks like how a log function is useful for standardization requirements, so organizing a network of requirements like 'standardization' and identifying functions to implement those requirements is useful to identify 'optimal function positions', where requirement sequences/queries of the network are logical input/output sequences and all relevant requirements can be connected in a sequence/query of the network
+
     - identify useful structures like "rules of optimal interface interactions, given relevant structures' relevant attributes or other cross-interface relevance structures"
         - identify rules like 'if a change is applied, a relevant boundary becomes uncrossable' to identify useful changes, like how initializing a value at zero makes all future multiplication result in zero so multiplying the value will never result in a value so the variable becomes irrelevant and the boundary between zero and non-zero values becomes uncrossable (where it would be useful to be able to cross this boundary or not have to cross it at all and instead initialize with a non-zero value), so identifying relevant structures like 'boundaries' and their relevant attributes like 'crossability' and how a change will impact these structures' relevant attributes is useful as a way to predict relevant indirect side effects of a change
             - this can be applied to interface structures and their attributes to identify rules to identify when for example, 'requirement-intent similarity crosses relevant thresholds'
