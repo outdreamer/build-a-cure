@@ -5,12 +5,15 @@
 This is a tool to automate problem-solving, specifically to translate problem tasks, such as 'optimize a system', 'create a robust system', 'create a way to execute transactions without trust', 'find a compound to treat this condition' or 'find a variable relationship' into solutions, insights, and other relevant information, automatically.
 
 Q; How is this a weapon of problem destruction?
+
 A: Any interface query that fulfills a problem-solving intent like "connect problem/solution" is a solution automation workflow that can solve all problems.
 
 Q: How is this a math-slaying device?
-A: Similar to how requirements/definitions/similarities are used to automatically find math proofs, this tool identifies all the other interfaces (all the other variables that can be used to identify info from other info), as well as the optimal interaction rules of these variables like optimal graphs of abstract/specific requirements or graphs of optimizations to requirements or graphs of relevant variation across queries/graphs or integration networks of interface networks.
+
+A: Similar to how requirements/definitions/similarities are used to automatically find math proofs, this tool identifies all the other interfaces (all the other variables that can be used to identify info from other info), as well as the optimal interaction structures/rules of these variables like graphs such as optimal graphs of abstract/specific requirements, or cross-interface graphs of definitions/requirements, or graphs of optimizations to requirements, or graphs of relevant variation across queries/graphs, or integration networks of interface networks, or rules about how abstract relevance can be optimally determined before specific relevance, or rules like how interface queries should connect to the meaning interface, or rules about how graphs can be optimized to identify the optimal queries of a graph to organize it for those optimal queries, or identify a graph's optimization sequence connecting the initial/target variants of a graph to optimize the graph until it's simple enough to compress into one variable or one position on another graph of graphs.
 
 Q: What are some examples of solution automation intents/workflows?
+
 A: "connect problem/solution", "connect problem types in a network to identify solution type networks", "connect problem definition/requirements with solution metrics", "specify solution metrics until they're connectible with all problem variables", "connect interactive structures to identify relevant interactions that can connect problems/solutions", "solve similar problems whose solutions can be expanded/iterated/varied to solve the original problem", "identify the comparison/threshold/ratio that is relevant to solving a problem", "identify the relevant graph that encodes comparisons that solve a problem", "identify a function network that aligns with problem-solving intents", "standardize a problem to the concept interface and solve the conceptual interactions first, then standardize to the structure interface to identify structures implementing conceptual solutions", "identify optimal interactions of interface variables" are examples of problem-solving intents/workflows, which can be implemented with interface queries.
 
 ## Relevant Links
