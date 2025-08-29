@@ -2,7 +2,16 @@
 
 ## Intro 
 
-	This is a tool to automate problem-solving, specifically to translate problem tasks, such as 'optimize a system', 'create a robust system', 'create a way to execute transactions without trust', 'find a compound to treat this condition' or 'find a variable relationship' into solutions, insights, and other relevant information, automatically.
+This is a tool to automate problem-solving, specifically to translate problem tasks, such as 'optimize a system', 'create a robust system', 'create a way to execute transactions without trust', 'find a compound to treat this condition' or 'find a variable relationship' into solutions, insights, and other relevant information, automatically.
+
+Q; How is this a weapon of problem destruction?
+A: Any interface query that fulfills a problem-solving intent like "connect problem/solution" is a solution automation workflow that can solve all problems.
+
+Q: How is this a math-slaying device?
+A: Similar to how requirements/definitions/similarities are used to automatically find math proofs, this tool identifies all the other interfaces (all the other variables that can be used to identify info from other info), as well as the optimal interaction rules of these variables like optimal graphs of abstract/specific requirements or graphs of optimizations to requirements or graphs of relevant variation across queries/graphs or integration networks of interface networks.
+
+Q: What are some examples of solution automation intents/workflows?
+A: "connect problem/solution", "connect problem types in a network to identify solution type networks", "connect problem definition/requirements with solution metrics", "specify solution metrics until they're connectible with all problem variables", "connect interactive structures to identify relevant interactions that can connect problems/solutions", "solve similar problems whose solutions can be expanded/iterated/varied to solve the original problem", "identify the comparison/threshold/ratio that is relevant to solving a problem", "identify the relevant graph that encodes comparisons that solve a problem", "identify a function network that aligns with problem-solving intents", "standardize a problem to the concept interface and solve the conceptual interactions first, then standardize to the structure interface to identify structures implementing conceptual solutions", "identify optimal interactions of interface variables" are examples of problem-solving intents/workflows, which can be implemented with interface queries.
 
 ## Relevant Links
 
@@ -46,11 +55,13 @@ https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/relevant_var
 	  	- the main program implementing problem-solving workflows, API service, UI, & product
 	  	- the program that specifically converts problems into solutions, using generated problem-solving workflows & interface queries
 	  	- fulfills high-level user tasks like 'match the input problem with a solution'
+
 	- Interface analysis is:
 	  	- a task-completion (format connection) method that defines interfaces
 	  	- configuration of logic which is also accessible by API, and info objects like imported insights/functions are the content/data
 		- the logic executed on each interface, including how to design an interface query to retrieve the requested relevant information
 		- fulfills granular interface operation tasks like 'find a structure on an interface that matches input' 
+
 	- Solution automation uses components defined in interface analysis, and interface analysis contains input configuration to solution automation (including definitions & rules used to implement interfaces & interface queries)
 
 ## Definitions

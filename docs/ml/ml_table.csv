@@ -33,6 +33,15 @@ Bayesian Belief Network 	Bayesian Network Type
 Bayesian Algor Network (BBN) Bayesian Network Type
 Bayesian Network (BN) 	Bayesian Network Type
 
+
+Π	Notation 	Product of all inputs
+Σ	Notation	Sum of all inputs
+Log 	Function 	Standardizes values according to a base, reduces possibility of numerical underflow which can occur if inputs are small, converts products into sums via the addition trick which can make it easier to find the derivative of a function
+Likelihood function 	Function Type 	P(y|x,w) = Π (probability of a predicted value given x) ^ yi * (1 - probability of a predicted value given x) ^ (1 - yi) 	This likelihood function is maximized in logistic regression			Assumes examples are independent of each other
+Log-likelihood function 	Function Type 	log(P(y|x,w)) = Σ yi * log(probability of a predicted value yi given xi) * (1 - yi) * log(1 - probability of a predicted value yi given xi) 	Applies the log to the likelihood function
+Sigmoid Function 	Function Type 	1/1 + e^-z
+
+
 Class Prior	Probability function	the expected frequency or prior for a given class = number of samples in that class / total number of samples or the class prior can be 1/k if classes are equally probable where prior means before observation so without the influence of other variables (independent probability) where the posterior is with the influence of other variables (conditional probability on some other variable)
 Posterior	Bayesian probability function	posterior = prior * likelihood/evidence or probability (Class k | x) = P(Class k) * P(x|Class k)/P(x) or P(b|a) = P(b) * P(a|b)/P(a)
 Likelihood function	Probability function	P(x|Y) 	Explains how well a statistical model explains observed data by calculating the probability of seeing that data under different parameter values of the model, constructed from the join probability distribution of the random variable that presumably generated the observations where in contrast in bayesian statistics the estimate of interest is the converse of the likelihood (the posterior probability of the parameter given the observed data, calculated with bayes' rule)
