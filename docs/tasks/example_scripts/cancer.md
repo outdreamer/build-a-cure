@@ -693,7 +693,8 @@
 			- use these to get rid of BPA (or side effects): coq10, probiotics (Bifidobacterium breve and Lactobacillus casei, Garden of Life probiotics with many strains), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
-			- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
+			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, sarcosine, taurine, NAC, omega 3's, keto diet, melatonin
+				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- nootropics 
 				- focus/memory: coffee fruit, DMAE, huperzine A, ginkgo, ginseng, oats, rhodiola rosea, bacopa monnieri, theanine, caffeine, creatine, citicoline or alpha GPC, ashwagandha, agmatine, theobromine, kanna (sceletium tortusosum), lion's mane & other medicinal mushrooms, tyrosine, threonine, phosphatidylserine, b vitamins, saffron
@@ -718,6 +719,7 @@
 			- depression
 				- vitamin K, omega 3s, folate, tyrosine
 			- anxiety:
+				- sarcosine, melatonin, CNS depressants
 				- Increased HDAC2 expression decreases the expression of genes important for the maintenance of dendritic spine density such as BDNF, Arc, and NPY, leading to increased anxiety and alcohol-seeking behavior
 					- Nucleus accumbens deep brain stimulation decreases ratings of depression and anxiety in treatment-resistant depression
 					https://pubmed.ncbi.nlm.nih.gov/19914605/
