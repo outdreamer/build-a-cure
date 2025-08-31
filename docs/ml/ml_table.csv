@@ -146,7 +146,7 @@ Wasserstein Loss 	GAN/WGAN Loss Function 			Stabilizes gradients in training gen
 Exponential Loss 	Adaboost Loss Function
 
 Log Loss	Regression Loss Function	-1/n * Σ for all points n Σ for all classes m yij * log(pij)	Used in multinomial logistic regression and neural networks
-R2 loss	Regression Loss Function 	Ratio of the sum of squares residual (SSR the total variation of predicted values from the mean) and the sum of squares total (SST the total variation of actual values from the mean) = 1 - Σ for all n (actual yi - predicted yi)^2 / Σ for all n (actual y - y mean)^2 = 1 - Mean squared error/Var(y)	The coefficient of determination R2 measures the proportion of the variation in the dependent variable that can be explained by independent variables	Less sensitive to outliers
+R2 loss	Regression Loss Function 	Ratio of the sum of squares residual (SSR the total variation of actual vs predicted values) and the sum of squares total (SST the total variation of actual values from the mean) = 1 - Σ for all n (actual yi - predicted yi)^2 / Σ for all n (actual yi - y mean)^2 = 1 - Mean squared error/Var(y)	The coefficient of determination R2 measures the proportion of the variance in the dependent variable that can be explained by independent variables, so rhe highest possible value for r-squared is 1, representing a model that captures 100% of the variance, where a negative r-squared means that our model is doing worse (capturing less variance) than a flat line through mean of our data would	Less sensitive to outliers
 Adjusted R2 loss 	Regression Loss Function
 
 Entropy	Information uncertainty function	Entropy H(S) = -Σ for all k (pᵢ log₂ pᵢ) where pᵢ is the proportion of the dataset belonging to class i	entropy encodes the number of info bits required to represent information and a decision tree tries to reduce the entropy by splitting the data on features that provide the most information about the target variable
@@ -354,7 +354,7 @@ One-way ANCOVA 	Statistical test 		An intercept for group 1 (plus a difference i
 Two-way ANOVA 	Statistical test 		An intercept plus x1 terms and x2 terms plus x1,x2 interaction terms (changing one x term changes the other x-term in an interaction term)
 Chi-square test 	Statistical test 	A log(intercept) plus log(x1) terms and log(x2) terms plus log(x1,x2) interaction terms where inputs are proportions and x is discrete and a family like the poisson family
 
-Student's t-test 	Statistical test 	
+Student's t-test 	Statistical test 	T-tests are used to measure whether a given cofficient is significantly different than zero (the null hypothesis that a particular coefficient equals zero), while F tests are used to measure whether any of the terms in a regression model are significantly different from zero
 ANOVA Statistical test 		Provides a statistical test of whether two or more population means are equal, generalizing the t-test beyond two means, and uses an f-test to compare the means of two groups by analyzing variance, comparing amount of variation between each group means to the amount of variation within each group, where if between-group variation is larger, it means the group means are likely different, based on the law of total variance in which the total variation in a dataset can be broken into components from different variation sources, and where the f-test of ANOVA follows the normality, homogeneity of variance, independence of errors and random sampling assumptions
 ANCOVA 	Statistical test
 MANOVA 	Statistical test
@@ -528,6 +528,7 @@ https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python
 https://lindeloev.github.io/tests-as-linear/linear_tests_cheat_sheet.pdf
 https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md
 https://tomasmiskov.com/kernel-trick.html
+https://mlu-explain.github.io/linear-regression/
 
 To do list:
 - sort by type (regression, machine learning algorithm, probability distribution, dimensionality reduction method, function type, regression evaluation metric, concept, problem type, observation, ensemble method, etc)
