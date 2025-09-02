@@ -34,6 +34,14 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
 
+    - identify useful structures like 'useful graphs to connect in the same graph' (like connecting 'causal concept networks and problem-solution concept structures' and connecting 'different causal networks by problem-solution structures')
+        - identify useful graphs like the graph of structured conceptual problems (like missing info, missing standards, missing balance, imbalanced ratios, excess volatility based on input/output connections, crossed thresholds, etc) and how problem nodes on the graph can be connected with other graphs like causal concept networks and with specific queries/routes on these graphs
+            - this can be implemented by applying structured conceptual problems as a graph layer to other graphs (like causal concept graphs, causal function graphs, etc) to connect problems in different ways on different graphs and integrate these connections on the same graph to create a problem-solving graph with these connections
+            - ideally the same query to solve a problem applied to different graphs would take a similar route through the graph and would connect similar nodes across graphs so that problem-solving queries/routes are more predictable
+            - these connecting graphs can be optimized for connecting problems or organized to group by similar problem structures solved
+        - connecting relevant problem/problem and problem/solution types/concepts can generate the set of problem-solving intents, which is a dynamic set involving relevant unsolved connections
+        - 'identifying the bottleneck/threshold problem that is causing other problems' is an example problem-solving intent that can be connected with a causal structured concept graph
+    
     - identify useful structures like 'graph structures (like sets of graph layers) that implement problem-solving intents on a graph'
         - for example, identify useful graph layers that combine to implement a problem-solving intent like how implementing an error context layer, a problem-solving intent layer, and a solution metric layer can implement a 'connect problem/solution' intent for graphs
 
