@@ -41,6 +41,7 @@
             - these connecting graphs can be optimized for connecting problems or organized to group by similar problem structures solved
         - connecting relevant problem/problem and problem/solution types/concepts can generate the set of problem-solving intents, which is a dynamic set involving relevant unsolved connections
         - 'identifying the bottleneck/threshold problem that is causing other problems' is an example problem-solving intent that can be connected with a causal structured concept graph
+        - identifying structural spectrums of problem-solution structures is useful, like how a 100% structural solution could be the 'ratio of problems/solutions'
     
     - identify useful structures like 'graph structures (like sets of graph layers) that implement problem-solving intents on a graph'
         - for example, identify useful graph layers that combine to implement a problem-solving intent like how implementing an error context layer, a problem-solving intent layer, and a solution metric layer can implement a 'connect problem/solution' intent for graphs

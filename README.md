@@ -6,11 +6,11 @@ This is a tool to automate problem-solving, specifically to translate problem ta
 
 ## FAQ 
 
-Q; How is this a weapon of problem destruction?
+Q: How is this a problem-slaying device?
 
-A: Any interface query that fulfills a problem-solving intent like "connect problem/solution" is a solution automation workflow that can solve all problems. Iterations of interface structures can form interface queries, but some interface queries are more relevant than others because they connect to the problem/solution interface or the meaning interface, or they encode optimal variable interactions.
+A: Any interface query that fulfills a problem-solving intent like "connect problem/solution" or "filter relevant graphs to solve a problem" is a solution automation workflow that can solve all problems. Iterations of interface structures can form interface queries, but some interface queries are more relevant than others because they connect to the problem/solution interface or the meaning interface, or they encode optimal variable interactions.
 
-Q: How is this a math-slaying device?
+Q; How is this a weapon of math destruction?
 
 A: Similar to how requirements/definitions/similarities are used to automatically find math proofs, this tool identifies all the other interfaces (all the other variables that can be used to identify info from other info), as well as the optimal interaction structures/rules of these variables like graphs such as optimal graphs of abstract/specific requirements, or cross-interface graphs of definitions/requirements, or graphs of optimizations to requirements, or graphs of relevant variation across queries/graphs, or integration networks of interface networks, or rules about how abstract relevance can be optimally determined before specific relevance, or rules like how interface queries should connect to the meaning interface, or rules about how graphs can be optimized to identify the optimal queries of a graph to organize it for those optimal queries, or identify a graph's optimization sequence connecting the initial/target variants of a graph to optimize the graph until it's simple enough to compress into one variable or one position on another graph of graphs. The integration of other interfaces with the structural interface also involves interface math, like concept math or network math (the math of interactions of concepts or networks, such as combining networks).
 
