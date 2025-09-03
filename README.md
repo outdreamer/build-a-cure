@@ -20,7 +20,7 @@ A: "connect problem/solution", "connect problem types in a network to identify s
 
 Q: Why is this called build-a-cure?
 
-A: This was named 'build-a-cure' with the intent of solving big problems like cancer, since problem-solving workflows can solve problems such as by identifying interface structures like "ratios of variables/functions" like "ratios of stressors, or ratios of immune activity vs. inflammation required to destroy cancer", as well as solving other big problems like inequality, war, justice distribution, economic organization/optimization with algorithms, automated learning, and other problems with interface structures.
+A: This was originally named 'finder' to represent the fact that it's a way to find solutions to problems, and is now named 'build-a-cure' with the intent of solving big problems like cancer, since problem-solving workflows can solve problems with methods such as identifying interface structures like "ratios of variables/functions" like "ratios of stressors, or ratios of immune activity vs. inflammation required to destroy cancer", as well as solving other big problems like inequality, war, justice distribution, economic organization/optimization with algorithms, automated learning, and other problems with interface structures.
 
 Q: How did you come up with this?
 

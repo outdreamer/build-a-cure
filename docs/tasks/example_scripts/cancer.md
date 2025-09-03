@@ -113,9 +113,9 @@
 
 	- get an air pollution mask, an air purifier that filters out air pollution such as benzene, and a reverse osmosis water purifier, these arent optional for cancer treatment
 		- These are the solutions to avoid chemicals that I've been using:
-			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink Flow water and spring water instead of bottled water (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
+			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink spring water instead of plastic bottled water
 			- an air pollution mask like this one which can attach filtering cartridges that filter out airplane/car fuel pollution: https://www.amazon.com/dp/B07Y2S71T1/
-			- a reverse osmosis purifier like this one to get chemicals out of the water before I used Flow water: https://www.amazon.com/Bluevua-RO100ROPOT-LITE-Countertop-Reverse-Purification/dp/B0BGK3YLTN/
+			- a reverse osmosis purifier like this one to get chemicals out of the water: https://www.amazon.com/Bluevua-RO100ROPOT-LITE-Countertop-Reverse-Purification/dp/B0BGK3YLTN/
 			- an indoor air purifier that filters out airplane/car fuel pollution: https://www.iqair.com/us/products/air-purifiers/gc-multigas
 
 	- cancer treatment with organ damage
@@ -226,6 +226,8 @@
 			- polio: doum palm, guazuma ulmifolia (west indian elm), neem
 			- murine cytomegalovirus (mcmv): nigella sativa (black seed oil)
 			- bovine herpes (bhv): guazuma ulmifolia (west indian elm)
+			- chikungunya: zinc, turmeric, berberine, nigella sativa, EGCG, Trigonostemon cherrieri, Euphorbia amygdaloides, apigenin, chrysin, naringenin, silybin, Vitex negundo, Hyptis suaveolens, Harringtonine, lupenone, β-amyrone, Decalepis hamiltonii, Trigonostemon howii, prostratin, 12-O-tetradecanoylphorbol 13-acetate
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC4703636/
 			- hbv: abutilon figarianum (texas indian-mallow), polygonum cuspidatum (knotweed)
 			- rsv: peppermint, echinacea, licorice, ginseng, Uncinoside A and B, (Selaginella uncinata), genkwanol B/C, and stelleranol (Radix Wikstroemiae), flavone 6-C-monoglycosides (Lophatherum gracile leaves), Sheng-Ma-Ge-Gen-Tang (Cimicifuga foetida L, cimicifugin), chebulagic acid and punicalagin, Resveratrol (prevents airway inflammation during RSV infection)
 			- hmpv (similar to rsv): resveratrol, quercetin
@@ -270,7 +272,7 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7824034/
 			- hepatitis: sophora flavescens, ginseng, astragalus, rosemary, sweet basil, dandelion, licorice, olive leaf, reishi, wormwood, chaga, aloe vera, neem, milk thistle, st john's wort, phyllanthus niruri
 				- hepatitis B: isochlorogenic acid A (Laggera alata), amide alkaloid (piper longum), and dehydrocheilanthifoline (Corydalis saxicola), Xiao-Chai-Hu-Tang, saikosaponins from Bupleurum, Polygonum cuspidatum sieb. et zucc, curcumin
-				- hepatitis C: Milk Thistle, Curcumin, EGCG, griffithsin, ladanein, and tellimagrandin I, chebulagic acid and punicalagin
+				- hepatitis C: Milk Thistle, Curcumin, EGCG, griffithsin, ladanein, tellimagrandin I, chebulagic acid and punicalagin
 			- smallpox: neem, curcumin derivatives
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/37033493/
 			- avoid: CBD and other immunosuppressants
@@ -278,10 +280,11 @@
 		- other antimicrobials:
 			- isatis tinctoria (dyer's woad, or glastum), ajuga bracteosa (bugleweed)
 		- parasitic infections:
-			- example antileishmanials: caffeic acid, berberine, capsaicin, piperine, EGCG, gallic acid, apigenin, ursolic acid, boswellia, tamarind, fagonia indica (dhamasa), withania coagulans (paneer dodi), curcumin, black pepper, moringa stenopetala, aloe vera, ashwagandha, barberry, grape leaf, asparagus racemosus (shatavari), croton pullei glabrior, lippia sidoides (alecrim pimenta), valeriana wallichii, cymbopogon citratus and citral, galipea longiﬂora, calophyllum brasiliense, vanillosmopsis arborea and α-bisabolol, strychnos pseudoquina, physalis angulata, aloe secundiflora, annona muricata acetogenins, annonacinone and corossolone, and platymiscium ﬂoribundum coumarin scoparone, senna spectabilis, thymus capitellatus, chenopodium ambrosioides, arrabidaea chica, bixa orellana, tanacetum parthenium, tridax procumbens (with garlic), baccharis uncinella, mangifera indica, artemisia annua (artemisinin), trichosanthes dioica Roxb. (pointed gourd), croton cajucara (red sacaca), eryngium foetidum, pleumeria pudica, fumaria parviflora, millettia species, tinospora cordifolia with cisplatin, olive leaf, winter cherry 
+			- example antileishmanials: clove, black walnut, oregano, caffeic acid, berberine, capsaicin, piperine, EGCG, gallic acid, apigenin, ursolic acid, boswellia, tamarind, fagonia indica (dhamasa), withania coagulans (paneer dodi), curcumin, black pepper, moringa stenopetala, aloe vera, ashwagandha, barberry, grape leaf, asparagus racemosus (shatavari), croton pullei glabrior, lippia sidoides (alecrim pimenta), valeriana wallichii, cymbopogon citratus and citral, galipea longiﬂora, calophyllum brasiliense, vanillosmopsis arborea and α-bisabolol, strychnos pseudoquina, physalis angulata, aloe secundiflora, annona muricata acetogenins, annonacinone and corossolone, and platymiscium ﬂoribundum coumarin scoparone, senna spectabilis, thymus capitellatus, chenopodium ambrosioides, arrabidaea chica, bixa orellana, tanacetum parthenium, tridax procumbens (with garlic), baccharis uncinella, mangifera indica, artemisia annua (artemisinin), trichosanthes dioica Roxb. (pointed gourd), croton cajucara (red sacaca), eryngium foetidum, pleumeria pudica, fumaria parviflora, millettia species, tinospora cordifolia with cisplatin, olive leaf, winter cherry 
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4789233/
 				- comprehensive list of antileishmanial compounds: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36364404/
 			- malaria: coronopus didymus (jangli halon; bitter cress), cryptolepis sanguinolenta (Ghanaian quinine), neem
+			- chagas: resveratrol, turmeric, Coptis chinensis and berberine
 		- bacterial infections: 
 			- infrared light, keto diet, probiotic kefir/kombucha (broad-spectrum probiotics like Garden of Life with multiple strains)
 			- general antimicrobials: ginger, clove, holy basil, black seed oil, garlic, honey, echinacea, goldenseal, oregano, CBD, banyan, turmeric
@@ -343,7 +346,7 @@
 			- melatonin, greens powder, chlorella/algae/chlorophyll, thiamine, glutathione, potassium bicarbonate, calcium citrate, magnesium, 1g vitamin C powder/day at meals unless vitamin C causes kidney stones for you, intermittent fasting to avoid spending all day creating acid from digestion, avoid high acid foods like coffee/kombucha or foods that require high acid to digest, treat other conditions that cause acidosis like organ failure/damage, low aldosterone, or vitamin deficiencies, avoid keto diet if it causes acidosis, avoid vitamins/supplements that can cause acidosis like zinc/iron in excess
 			- acidosis caused by hypoaldosteronism: fludrocortisone can help with acidosis if acidosis is caused by hypoaldosteronism
 			- acidosis caused by kidney damage: kidney damage treatments like omega-3s can help if acidosis is caused by kidney damage
-			- Flow water and spring water also helped with acidosis/high blood pressure/stomach pain (only drinking alkaline/flow water on its own can cause acidosis or kidney failure in people with organ damage)
+			- spring water also helped with acidosis/high blood pressure/stomach pain
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8401674/
 				- https://pubmed.ncbi.nlm.nih.gov/28117137/
 		- air pollution exposure:
@@ -381,7 +384,7 @@
 				- vasodilators: arginine, niacin, garlic, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin
 				- lowering cortisol: ashwagandha can lower cortisol thereby lowering blood pressure
 			- other substances
-				- maitake, luteolin (artichokes), ginger, fish/omega 3's, magnesium, b vitamins, vitamin d, melatonin, green/oolong tea, probiotics, alkaline Flow water, GABA, lycium, stinging nettle, theanine, lycopene, citrus/hesperidin, oats/beta-glucans, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric, black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
+				- maitake, luteolin (artichokes), ginger, fish/omega 3's, magnesium, b vitamins, vitamin d, melatonin, green/oolong tea, probiotics, alkaline water, GABA, lycium, stinging nettle, theanine, lycopene, citrus/hesperidin, oats/beta-glucans, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric, black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
 				- additional natural RAAS (renin-angiotensin-aldosterone systems) changing substances
 					- ACE-changing substances: Dohaekseunggi-tang, Nigella sativa, Cymodocea Nodosa, Plantago major, Mucuna pruriens, Syzygium cumini, Fucus spiralis, Eucalyptus camaldulensis, Litsea glaucescens, Lens culinaris sprouted, Pleurotus eryngii, Phaseolus vulgaris, Prunus amygdalus, Pistacia vera juice, Boza protein extract, Nitraria sibirica, Amaranthus dubius, Amaranthus hybridus, Asystasia gangetica, Galinsoga parviflora, Justicia flava, Oxygonum sinuatum, Physalis viscosa, Tulbaghia violacea, Bulbus Fritillaria
 					- AGT1R: Apocynum venetum, DanHong, Liuwei Dihuang, Yiqi Huaju, Songling xuemaikang
@@ -471,7 +474,6 @@
 					- https://pubmed.ncbi.nlm.nih.gov/15787344/
 				- periodic low-salt fasting-mimicking diet (FMD) for 5 days/month for 3 months restored normal proteinuria and nephron structure and function, promoted renoprotection, including reduction of proteinuria and improved endothelial function, promote the reprogramming of multiple renal cell types and lead to glomerular damage reversal
 					- https://pubmed.ncbi.nlm.nih.gov/39475573/
-				- avoid excess alkaline/flow water with kidney damage
 				- treat high cholesterol and high blood pressure to avoid making kidney damage worse
 				- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
 					- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
@@ -674,7 +676,7 @@
 				- use probiotics with many strains (like Garden of Life) to help IBS after BPA/similar exposure
 			3. Solution to plastic in containers/bottles:
 				- avoid eating anything stored in plastic for a long time, including bottled water, frozen foods, cereal, etc
-				- drink Flow water and spring water to avoid chemicals from plastic bottles
+				- drink glass bottled or reverse osmosis water to avoid chemicals from plastic bottles
 				- order water with a subscription service that uses glass bottles
 				- boil your water to get plastic out of it
 				- https://www.sciencealert.com/theres-a-surprisingly-simple-way-to-remove-microplastics-from-your-drinking-water
@@ -693,7 +695,7 @@
 			- use these to get rid of BPA (or side effects): coq10, probiotics (Bifidobacterium breve and Lactobacillus casei, Garden of Life probiotics with many strains), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
-			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, sarcosine, taurine, NAC, omega 3's, keto diet, melatonin
+			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, keto diet, melatonin
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- nootropics 
@@ -717,9 +719,11 @@
 				- rosemary for cocaine addiction
 					- https://www.futurity.org/rosemary-extract-compound-cocaine-sensitivity-3245642/
 			- depression
-				- vitamin K, omega 3s, folate, tyrosine
+				- vitamin K, omega 3s, folate, tyrosine, sarcosine (cancer patients should avoid sarcosine)
 			- anxiety:
-				- sarcosine, melatonin, CNS depressants
+				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
+				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
+				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan
 				- Increased HDAC2 expression decreases the expression of genes important for the maintenance of dendritic spine density such as BDNF, Arc, and NPY, leading to increased anxiety and alcohol-seeking behavior
 					- Nucleus accumbens deep brain stimulation decreases ratings of depression and anxiety in treatment-resistant depression
 					https://pubmed.ncbi.nlm.nih.gov/19914605/
