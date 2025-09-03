@@ -33,6 +33,9 @@
     - chatgpt/claude/gemini should be used to find their own optimal queries, like instead of queries like 'tell me a story', queries like 'do we have enough info to understand reality' and 'what light interactions could invalidate reality' and 'what queries should we be running that you can answer optimally' and 'what do you need to fulfill even more optimal queries' and 'what differences havent been trivially connected yet' and 'what variables should be connected or are optimal to connect (what problems should be solved)'
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
+    
+    - identify useful structures like graph iterations like 'problems of filtering/querying problem-solving graphs' which 'filter relevant graphs'
+        - identify useful graphs like graphs to 'solve problems of filtering/querying problem-solving graphs' (like causal problem graphs and graphs of problems connected by variables that create connections between problems) to implement problem-solving intents to connect relevant graphs
 
     - identify useful structures like 'useful graphs to connect in the same graph' (like connecting 'causal concept networks and problem-solution concept structures' and connecting 'different causal networks by problem-solution structures')
         - identify useful graphs like the graph of structured conceptual problems (like missing info, missing standards, missing balance, imbalanced ratios, excess volatility based on input/output connections, crossed thresholds, etc) and how problem nodes on the graph can be connected with other graphs like causal concept networks and with specific queries/routes on these graphs
