@@ -2036,6 +2036,12 @@
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955138/
 			- vortioxetine is useful for glioblastoma
 				- https://www.nature.com/articles/s41591-024-03224-y
+			- inhibit ADAR1
+				- danshen (lithospermic acid) and easter lily (regaloside B)
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC11718369
+			- block glutamate receptors
+				- memantine
+					- https://medicalxpress.com/news/2025-08-pediatric-brain-tumors-blocking-chemical.html
 			- intents related to glioblastoma
 				- inhibit EGFRvIII and wild-type EGFR, ATP dependent multidrug resistance (MDR) pathway proteins P-glycoprotein (P-gp)
 				- change pathways related to DNA repair and apoptosis like receptor tyrosine kinase (RTK), phosphoinositide 3-kinase (PI3K) signaling, and mitogen activated protein kinase (MAPK) signaling
