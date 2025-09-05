@@ -2,9 +2,25 @@ System design study guide
 
 - general
 
+	- the software development life cycle (SDLC) has 6 phases: requirements gathering, design, implementation, testing, deployment, maintenance
+
+	- dependency injection: an object or function receives other objects/functions it requires instead of creating them internally to maintain thread-safety
+
+	- OS process management
+
+		- the RR scheduling algorithm schedules processes with equal priority, allocating time slices to each process that it can run for so all processes get a fair share of CPU time
+
+		- interrupts are signals sent to processes to indicate an event has occurred, signals sent to the CPU by hardware/software, telling the CPU to stop processing and start processing some other task, events such as a keyboard or mouse event or a timer running out which can cause interrupt signals to be sent, where the CPU saves the current process state and starts running the interrupt handler
+
+		- swapping is done so data can be accessed easier, including process swapping which allows moving inactive processes from main memory to disk memory to free up space in main memory, where memory swapping allows moving blocks of memory from main memory to disk memory
+
+		- cycle stealing uses extra unused clock cycles of another task to perform unrelated tasks
+
 	- OOPS principles
-		- Inheritance
-		- Abstraction
+		- Inheritance: 
+			- allows reusing code across classes by sharing attributes and methods between parent/base and child/derived classes, can be hierarchical, hybrid, single, multiple, or multilevel inheritance in python
+		- Abstraction: 
+			- allows defining interfaces to determine how a class is implemented without implementing it in the abstract class or interface
 		- Encapsulation: bundles data/attributes and methods/functions in a single unit like a class, and restricts direct access to some of the components to protect data integrity and ensure control over how its accessed/modified
 			- internal details of a class are hidden, access modifiers (public, protected, private) control visibility of class attributes and methods, and getter/setter methods allow controlled access to private attributes
 			- public attributes/methods are accessible from anywhere, protected attributes/methods are prefixed with an underscore and are intended to only be accessed within a class/subclasses, private attributes/methods are prefixed with double underscores and not directly accessible outside the class but can be accessed with name mangling
@@ -15,29 +31,10 @@ System design study guide
 			- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
 			- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
 			- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
+			- operator overloading allows existing operators to be redefined so they can be used for different purposes
 
-	- ACID database transaction processing
-		- atomicity: all operations in a transaction are completely successfully or all fail
-		- consistency: a transaction brings the db from on valid state to another
-		- isolation: transactions are executed in isolation from one another, preventing concurrent transactions from impacting each other
-		- durability: once a transaction is committed, it remains committed even in a system failure
+	- digital signature: encrypted message digest (message digest can be the hash of the message to create a unique identifier of the data to detect changes in data)
 
-	- DBMS
-		- DBMSs are made to be fault-tolerant and scalable, offering a uniform method of accessing data across applications, and allow changing data storage by adding/removing discs while other system components are in operation
-
-	- db normalization
-		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
-		- reduces data redundancy by dividing it into multiple related tables
-		- improves query performance
-		- but also increases complexity, reduces flexibility, and adds performance overhead by requiring joining tables
-		- first normal form: each cell contains a single value and records are unique
-		- second normal form: removes partial dependencies by separating tables, removes redundant data and places it in separate tables, requiring non-key attributes to be functional on the primary key
-		- third normal form: ensures non-key attributes are independent of each other which eliminates transitive dependency
-		- boyce-codd normal form: refinement of 3F that requires every determinant to be a candidate key
-		- fourth normal form: addresses multi-valued dependencies, ensuring there are no multiple independent multi-valued facts about an entity in a record
-		- fifth normal form (protection join): relates to reconstructing info from smaller, differently arranged pieces of data
-		- sixth normal form: relates to temporal data (handling changes over time) by decomposing tables further to eliminate all non-temporary redundancy
-	
 	- data buffer: physical memory (often RAM) that temporarily stores data while being moved between different locations, which help synchronize data flow so components operating at different speeds can work together
 		- buffers optimize performance by reducing the number of I/O operations which are usually slower than in-memory operations
 		- buffers are used to read/write large files efficiently
@@ -48,6 +45,8 @@ System design study guide
 		- buffers are useful to get more than one view on the data without holding multiple copies in memory
 		- flush transfers data from the program buffer to the OS buffer or directly to file/disk, allows writing immediately as opposed to waiting for the automatic flusher to flush when the buffer is full or when the file is closed
 	
+	- pointer: a pointer is a variable that stores the address of a value in memory
+
 	- recursion
 		- recursion is where a function calls itself to solve a problem by breaking it into smaller subproblems, such as calculations, tree traversals or divide-and-conquer algorithms
 			def recursive(param):
@@ -82,8 +81,18 @@ System design study guide
 			- share immutable objects whose state cant be changed after creation so only read-only data is shared
 			- synchronization mechanisms can be used when state has to be shared, mechanisms like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes) and atomic operations (using operations that are indivisible ensuring that shared data is consistent) though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
 			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
+			- to prevent deadlocks, use mutual exclusion, resource holding, and circular waits
 
 - networks
+
+	- subnet mask: tells computer which part of the IP address is the network and which is the host part, to determine if an IP address is on the same network as the computer requesting the info; if the requesting computer and the requested computer have the same subnet mask, they can assume theyre on the same network
+		- subnetting divides a network into smaller subnets, each with its own IP address and subnet mask, which allows controlling traffic flow and conserving IP addresses and segmenting networks into different security zones
+
+	- network address translation (NAT) tells the computer's network card how to communicate with other computers on the internet by translating IP addresses, allowing multiple devices on a network to use the same IP address, modifying the IP packet headers as they go through a router or firewall
+
+	- tunnel mode: tunnel mode allows for efficient network usage by breaking data into smaller packets and sending them through a tunnel
+
+	- ethernet: a tech standard for local area networks, connecting computers in a limited geographical area using special cables and operating a higher speed than other LAN technologies, using a bus or star topology
 
 	- network models
 
@@ -143,25 +152,71 @@ System design study guide
 			- a reverse proxy could also terminate TLS so the application servers dont have to handle encryption/decryption, then pass on the requests within a private network so its still secure
 
 - databases
+
+	- ACID database transaction processing
+		- atomicity: all operations in a transaction are completely successfully or all fail
+		- consistency: a transaction brings the db from on valid state to another
+		- isolation: transactions are executed in isolation from one another, preventing concurrent transactions from impacting each other
+		- durability: once a transaction is committed, it remains committed even in a system failure
+
+	- DBMS
+		- DBMSs are made to be fault-tolerant and scalable, offering a uniform method of accessing data across applications, and allow changing data storage by adding/removing discs while other system components are in operation
+		- DBMSs have a presentation tier that forwards requests to the application tier, an applicationi tier that processes requests and manaages communication between other tirs, and a database tier that manaages data and maintains security/integrity and ensures efficient data retrieval and storage
+		- data abstraction has a physical level describing how data is stored, a logical level describing what data is stored and data relationships, and a view level showing data from user perspectives
+		- cardinality types include one-to-one, one-to-many, and many-to-many, describing quantities between data entities
+		- there can only be one clustered index per table, as clustered indexes define the order of physical records and optimize for sequential access, whereas non-clustered indexes point to records and keep their pointers separate and optimize for queries on individual columns although non-clustered indexes require more space
+		- commit writes transaction changes to disk ensuring durability
+		- rollback erases all changes since the transaction started, maintaining consistency in case of failure
+		- savepoint creates checkpoints in a transaction to allow rolling back to that point
+		- hashing converts search keys to direct storage addresses, enabling fast data retrieval
+		- inner join returns matching records, left outer join returns all records from the left and matching records from the right, full outer join combines all records from both tables, matching where possible, cross join produces a cartesian product of the two tables
+		- memory alignment aligns the data memory block storage and its access 
+		- referential integrity ensures there are no orphan foreign key values, which prevents modifying primary keys if theyre used as a foreign key
+		- entity integrity ensures the primary key is not null
+		- olap is online analytical processing for data warehouses dealing with large numbers of complex queries, oltp is online transaction processing dealing with large numbers of small transactions of standardized queries which is faster and uses databases
+		- select into creates a temporary table in a sql query
+		- GROUP BY summarizes data with equal values and uses HAVING to filter instead of WHERE, where HAVING filters aggregated values
+		- a checkpoint is an event triggered when the database reaches a point in its performance history, events such as ensuring data is correct
+		- sql correlated subqueries allow querying data already queried
+		- physical, logical, and view schemas are different types of schemas in databases, where the physical schema is the actual database layout, the logical schema is a representation of the data, and a view schema is a subset of the database for a specific purpose, which can have types like relational, object-oriented, and xml
+
+	- db normalization
+		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
+		- reduces data redundancy by dividing it into multiple related tables
+		- improves query performance
+		- but also increases complexity, reduces flexibility, and adds performance overhead by requiring joining tables
+		- first normal form: each cell contains a single value and records are unique
+		- second normal form: removes partial dependencies by separating tables, removes redundant data and places it in separate tables, requiring non-key attributes to be functional on the primary key
+		- third normal form: ensures non-key attributes are independent of each other which eliminates transitive dependency
+		- boyce-codd normal form: refinement of 3F that requires every determinant to be a candidate key
+		- fourth normal form: addresses multi-valued dependencies, ensuring there are no multiple independent multi-valued facts about an entity in a record
+		- fifth normal form (protection join): relates to reconstructing info from smaller, differently arranged pieces of data
+		- sixth normal form: relates to temporal data (handling changes over time) by decomposing tables further to eliminate all non-temporary redundancy
+		- denormalization combines tables to reduce the need for joins to optimize for fast data retrieval, though it makes updates harder bc data can be stored in multiple places and increases storage requirements
+
 	- CAP theorem: any distributed database can only have two of three of the following:
 		- consistency: every node provides the most recent data
 		- availability: any node can respond
 		- partition tolerance: the system works even if communication between nodes breaks down
-	- partition tolerance is non-optional so there is a trade-off between consistency and availability
-		- if a system goes down, the system can satisfy consistency by rolling back unfinished operations and waiting to respond until all nodes are stable again, or it can satisfy availability and continue to respond but risk inconsistencies
-	- a CP database provides consistency and partition tolerance and an AP database if it provides availability and partition tolerance
-	- CP databases sync data then send responses, and AP databases send responses then sync data
+		- partition tolerance is non-optional so there is a trade-off between consistency and availability
+			- if a system goes down, the system can satisfy consistency by rolling back unfinished operations and waiting to respond until all nodes are stable again, or it can satisfy availability and continue to respond but risk inconsistencies
+		- a CP database provides consistency and partition tolerance and an AP database if it provides availability and partition tolerance
+		- CP databases sync data then send responses, and AP databases send responses then sync data
+		
 	- transactions: series of database operations that are treated as a single unit of work, where the operations must all succeed or all fail, which supports data integrity when a system fails
 		- atomicity: all operations succeed together or fail together
 		- consistency: a successful transaction puts the database in a valid state like with no schema violations
 		- isolation: transactions can be executed concurrently
 		- durability: a committed transaction is persisted to memory
 		- not all databases support ACID transactions, relational database usually support ACID transactions and non-relational databases usually dont
+	
 	- schema: definse the shape of data structure and specifies what data can go where, specifying tables, indexes, and field types
 		- schemas can be strictly enforced across the entire database, loosely enforced on part of the database or might not exist at all, there can be one schema for the whole database or different entries can have different schemas
 		- a strictly enforced schema has the advantage of guaranteeing that queries will return data conforming to the schema, though these guarantees are computationally expensive as they have to be confirmed at every transaction and are difficult to scale especially if the schema specifies how data entries can reference each other, where maintaining these constraints are more difficult, as the reference span clusters and schema rules need to be verified across the network
+	
 	- scaling: vertical scaling adds compute/CPU and memory (RAM, disk, SSD) resources to one computer, where horizontal scaling adds more computers to a cluster
 		- vertical scaling has much lower memory capacity, but horizontal scaling has much higher compute and storage capacity and can be sized dynamically without downtime, however relational databases struggle to scale horizontally
+	
 	- relational databases (mysql, postgresql, oracle) use a relational data model that organizes data in tables with columns of specific data types, where relationships between tables use foreign key columns that reference primary key columns of other tables
 		- relational data models strictly enforce constraints to make sure data values and relationships are always valid against the schema, almost always using ACID transactions to ensure schema conformance
 		- relational databases are also called sql databases
@@ -175,6 +230,7 @@ System design study guide
 		- relational database nodes need to communicate to normalize (sync) the data, so operations are slower between network communication is slower
 		- relational databases arent useful if the data doesnt have many references, doesnt conform to a schema, or changes structure frequently
 		- some databases implement multi-model support, supporting both relational and non-relational models
+	
 	- non-relational databases (NoSQL databases) are optimized for use cases that need scalability, schema flexibility or specialized query support
 		- non-relational databases can use other query languages than sql but often implement sql or sql-like query support for developers
 		- non-relational databases are either AP or CP databases given the use case theyre optimized for
@@ -194,24 +250,24 @@ System design study guide
 			- useful for searching documents like system logs
 		- time series database (influxdb, kdb+, prometheus): optimized for data entries that need to be ordered by time, useful for storing real time data streams from system monitors such as errors
 			- time series databases are write heavy and usually provide services for sorting streams as they come in to make sure theyre appended in the correct order, where these databases can be easily partitioned by time range
-	- as scale becomes more important, relational databases can be too expensive so parts of the system can be moved to non-relational alternatives if they dont need strong schemas and consistency guarantees
+		- as scale becomes more important, relational databases can be too expensive so parts of the system can be moved to non-relational alternatives if they dont need strong schemas and consistency guarantees
 
-- database sharding
-	- a technique for horizontal scaling of databases where data is split across multiple database instances or shards on separate servers to improve performance and reduce the impact of large amounts of data, where each row appears in one shard and each shard has the same schema
-	- shard keys need to be unique across shards, which has a tradeoff between centralized name servers that can optimize logical shards for performance and a distributed algorithm that is faster to compute
-	- shards can be configured to be optimized for usage patterns, actual shard sizes, etc
-	- key based sharding (hash based sharding): columns are used to create a hash that is used to identify which shard data should be stored on using a modulus operation, which is useful for the predictable, uniform, and consistent data distribution, and can be optimized to handle range queries efficiently, but if the key is not well-distributed it can result in uneven data distribution and has limited scalability if certain keys are used more often or if the dataset is skewed toward specific key ranges, and selecting an appropriate key is complex and essential for effective key-based sharding, and adding shards using hashing can require a lot of overhead, which is limited by consistent hashing by guaranteeing a minimum of data will need to be moved when a new node is added
-	- horizontal or range-based sharding: divides data by separating it into parts based on range of a value in each record, which has good scalability and improves query performance through parallelization, but coordinating queries across shards can be complex and poorly managed uneven data distribution may lead to uneven queries across shards
-	- vertical sharding: splits columns of a record into separate shards, which improves query performance by allowing each shard to focus on a specific subset of columns which is efficient if queries only use those columns and simplifies queries that require only columns on one shard, but has a potential for creating shard hotspots if they contain highly accessed columns leading to uneven distribution of queries across shards, and making changes to schema is more complex using vertical shards
-	- directory based sharding: creates and maintains a lookup table for the original database where a shard key corresponds to values in a column that is used as the mapping for identifying the shard a record is on before querying that shard, which allows for flexible data distribution where the central directory dynamically manages and updates the mapping of data to shard locations, allows efficient query routing to the appropriate shard using the information in the directory resulting in improved query performance, and can dynamically scale by adding or removing shards without requiring changes to application logic, but has a centralized point of failure in the lookup table and has increased latency by introducing another layer to each query
-	- database sharding can be optimized for even data distribution with consistent hashing, choosing a well-balanced sharding key that doesnt create hotspots, making sure ranges are defined to balance data across servers if using range-based sharding, rebalancing shards when data distribution changes to avoid uneven loads, and automatically distributing data and handling sharding with database tools to maintain balance across shards
-	- alternatives to database sharding include vertical scaling by adding CPU/memory/storage, replication to create copies of the database on multiple servers which helps with load balancing and ensures availability but can lead to synchronization issues, partitioning which splits data on the same server which improves query performance for large datasets, caching data to reduce load on the database, and creating CDNs for read-heavy workloads
-	- sharding improves performance, scalability, can handle more traffic, improves resource utilization reducing the possibility of overloading a server, allows for fault isolation by isolating shards so one failure doesnt take down the system, and is cost efficient by allowing smaller cheaper servers to fulfill queries
-	- but sharding is more complex than a single database, has rebalancing challenges, can handle cross-shard queries slower, requires more monitoring/backups/maintenance, and allows for the possibility of data loss if a shard fails and isnt backed up
-	- denormalization is the process of ensuring there aren't relational constraints between different shards, which is achieved by duplicating and grouping data (like duplicating messages for each user on different shards) so the data can be accessed in a single row
-	- if denormalization isnt possible and cross-shard queries are required, the consistency and availability trade-off applies
-	- sharding is useful when a database server cant hold all the data, cant compute all the query responses fast enough, and cant handle the number of concurrent connections, and when its required to maintain different geographic regions
-	- eventual consistency for duplicated data or upholding relational constraints must be implemented, and also failovers/backups/maintenance is more complicated
+	- database sharding
+		- a technique for horizontal scaling of databases where data is split across multiple database instances or shards on separate servers to improve performance and reduce the impact of large amounts of data, where each row appears in one shard and each shard has the same schema
+		- shard keys need to be unique across shards, which has a tradeoff between centralized name servers that can optimize logical shards for performance and a distributed algorithm that is faster to compute
+		- shards can be configured to be optimized for usage patterns, actual shard sizes, etc
+		- key based sharding (hash based sharding): columns are used to create a hash that is used to identify which shard data should be stored on using a modulus operation, which is useful for the predictable, uniform, and consistent data distribution, and can be optimized to handle range queries efficiently, but if the key is not well-distributed it can result in uneven data distribution and has limited scalability if certain keys are used more often or if the dataset is skewed toward specific key ranges, and selecting an appropriate key is complex and essential for effective key-based sharding, and adding shards using hashing can require a lot of overhead, which is limited by consistent hashing by guaranteeing a minimum of data will need to be moved when a new node is added
+		- horizontal or range-based sharding: divides data by separating it into parts based on range of a value in each record, which has good scalability and improves query performance through parallelization, but coordinating queries across shards can be complex and poorly managed uneven data distribution may lead to uneven queries across shards
+		- vertical sharding: splits columns of a record into separate shards, which improves query performance by allowing each shard to focus on a specific subset of columns which is efficient if queries only use those columns and simplifies queries that require only columns on one shard, but has a potential for creating shard hotspots if they contain highly accessed columns leading to uneven distribution of queries across shards, and making changes to schema is more complex using vertical shards
+		- directory based sharding: creates and maintains a lookup table for the original database where a shard key corresponds to values in a column that is used as the mapping for identifying the shard a record is on before querying that shard, which allows for flexible data distribution where the central directory dynamically manages and updates the mapping of data to shard locations, allows efficient query routing to the appropriate shard using the information in the directory resulting in improved query performance, and can dynamically scale by adding or removing shards without requiring changes to application logic, but has a centralized point of failure in the lookup table and has increased latency by introducing another layer to each query
+		- database sharding can be optimized for even data distribution with consistent hashing, choosing a well-balanced sharding key that doesnt create hotspots, making sure ranges are defined to balance data across servers if using range-based sharding, rebalancing shards when data distribution changes to avoid uneven loads, and automatically distributing data and handling sharding with database tools to maintain balance across shards
+		- alternatives to database sharding include vertical scaling by adding CPU/memory/storage, replication to create copies of the database on multiple servers which helps with load balancing and ensures availability but can lead to synchronization issues, partitioning which splits data on the same server which improves query performance for large datasets, caching data to reduce load on the database, and creating CDNs for read-heavy workloads
+		- sharding improves performance, scalability, can handle more traffic, improves resource utilization reducing the possibility of overloading a server, allows for fault isolation by isolating shards so one failure doesnt take down the system, and is cost efficient by allowing smaller cheaper servers to fulfill queries
+		- but sharding is more complex than a single database, has rebalancing challenges, can handle cross-shard queries slower, requires more monitoring/backups/maintenance, and allows for the possibility of data loss if a shard fails and isnt backed up
+		- denormalization is the process of ensuring there aren't relational constraints between different shards, which is achieved by duplicating and grouping data (like duplicating messages for each user on different shards) so the data can be accessed in a single row
+		- if denormalization isnt possible and cross-shard queries are required, the consistency and availability trade-off applies
+		- sharding is useful when a database server cant hold all the data, cant compute all the query responses fast enough, and cant handle the number of concurrent connections, and when its required to maintain different geographic regions
+		- eventual consistency for duplicated data or upholding relational constraints must be implemented, and also failovers/backups/maintenance is more complicated
 
 - latency and throughput and availability
 	- latency is the time it takes a single request to travel from its point of origin to its destination and receive a response, combining response time, transmission time, queueing time, human reaction time, updating requester time, and processing time into round trip time, can be measured in seconds/milliseconds/nanoseconds
@@ -223,7 +279,7 @@ System design study guide
 		- caching can improve latency but can also increase it if poorly implemented
 		- protocol choice like HTTP/2 can reduce the amount of protocol overhead for a request and can lower latency, and TCP has congestion avoidance features that can minimize congestion causes of latency
 		- latency measuring tools
-			- ping measures the round trip time, providing an estimate of network latency
+			- ping measures the round trip time, providing an estimate of network latency, by checking whether a node is reachable, sending a packet to a device and waiting for a response
 			- traceroute displays the path that data packets take to reach a destination, identifying which network hops contribute to latency
 			- MTR (traceroute with ping) combines traceroute and ping functionality, showing routing information and RTT at each hop on the path
 			- performance profiling tools track resource usage and execution times within a system, providing detailed insights into system latency contributors

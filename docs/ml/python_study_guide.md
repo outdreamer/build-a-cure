@@ -50,12 +50,14 @@ python study guide
 				result = sum(data)
 
 	- whats are some similarities/differences between python and java
-		- Java supports OOP, is compiled and statically typed and platform-independent
-			- java is compiled into bytecode and run on the Java Virtual Machine (JVM), offering better performance
+		- Java supports OOP, is compiled into bytecode and interpreted at runtime by the JVM, and statically typed and platform-independent
+			- java is compiled into bytecode, then translated by the JVM into machine code and run on the Java Virtual Machine (JVM), offering better performance
+			- JIT compilers identify frequently run code which they compile into machine code at runtime which is then cached and reused, compiling byte code into machine code like the JVM
+			- the compilation step ensures portability, where the interpretation and JIT compilation ensure runtime performance
 		- python supports OOP/functional/procedural programming, is interpreted and dynamically typed
 			- python is compiled into bytecode which is then executed by the python virtual machine and interpreted at runtime
 			- python is slower than java since it uses an interpreter, is executed line-by-line, and determines data type at run time
-	
+
 	- whats the difference between an interface and an abstraction
 		- an abstract class is a blueprint for other classes, implemented with the abc module, which can have abstract methods without implementations and concrete methods with implementations, and cant be instantiated directly, where subclasses have to implement all abstract methods
 		- an interface defines a set of methods that a class has to implement, typically interfaces are implemented with abstract classes having only abstract methods, which is useful for ensuring that behaviors are implemented without specifying how they should be implemented, and doesnt allow any implementations in the interface
@@ -64,6 +66,8 @@ python study guide
 
 	- passed by value/reference:
 		- mutable structures are passed by reference, immutable structures are passed by value
+
+	- scopes: local, enclosed, global, and built-in are the scopes in python
 	
 - libraries/tools
 	- black for formatting
@@ -81,7 +85,7 @@ python study guide
 			- interactive analysis combines static flows with limited attacks, identifying for example authentication bypass issues and testing the login endpoint with sample parameters, but requires manual testing expertise to be valuable
 		- security testing
 			- veracode
-			- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues)
+			- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues like unused variables or multiple variable declarations or variables deallocated before usage)
 			- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
 		- unit testing: pytest or unittest
 		- stress testing: stressor
@@ -147,6 +151,7 @@ python study guide
 	- use linked lists which allocate memory as needed for frequent insertions/deletions, as linked lists avoid the overhead of resizing like arrays, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists bc items are accessed sequentially, linked lists are faster at adding elements at the start of the linked list
 	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
 	- use dicts to efficiently store and lookup data, and tuples to group values together
+	- use tuples to consume less memory and access/create faster than lists
 	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
 	- use scipy and numpy (implemented in c) for numerical operations which is much faster than lists for large-scale numerical operations

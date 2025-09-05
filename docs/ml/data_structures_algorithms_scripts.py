@@ -15,6 +15,11 @@ def is_valid_parentheses(string= "{[()]}"):
 # the first half should equal the second half backwards
 # so iteratively popping the first half off a stack should equal the second half
 
+# swap two numbers
+a = a + b
+b = a - b
+a = a - b 
+
 # linked list
 class Node:
 	def __init__(self, data):
@@ -30,7 +35,17 @@ class LinkedList:
 		new_node = Node(data)
 		new_node.next = self.head
 		self.head = new_node
-		
+
+	def reverse(self): # 1 2 3 4 
+		prev = None
+		current = self.head # start current at the first (head) node 1
+		while (current is not None):
+			next_node = current.next # save the value of current's next node, 2, 3
+			current.next = prev # swap current's next value and the previous value current.next = None, current.next = 1
+			prev = current # set previous to current prev = 1, prev = 2
+			current = next_node # set current to the saved next_node value current = 2, current = 3
+		self.head = prev
+
 # trie
 def create():
 	return dict()
@@ -300,6 +315,19 @@ class BinaryTree:
 #    if not right:
 #        return left
 
+
+# sort recommendations
+
+"""
+	"General Purpose (Large Data)": ["Merge Sort", "Quick Sort", "Heap Sort"],
+	"Small Arrays (< 50 elements)": ["Insertion Sort", "Selection Sort"],
+	"Nearly Sorted Data": ["Insertion Sort", "Shell Sort"],
+	"Integers with Limited Range": ["Counting Sort", "Radix Sort"],
+	"Uniformly Distributed Data": ["Bucket Sort"],
+	"Memory Constrained": ["Heap Sort", "Quick Sort", "Shell Sort"],
+	"Stability Required": ["Merge Sort", "Counting Sort", "Radix Sort"],
+"""
+
 def quick_sort(array: list) -> list:
 	# selects a random or median pivot
 	# then divides the list into a low list and a same list and a high list around the pivot
@@ -364,6 +392,39 @@ def insertion_sort(array):
 			j = j - 1
 		array[j + 1] = right_item
 	return array
+
+# Selection Sort (simple, in-place, not stable)
+def selection_sort(a):
+	# time best: "O(n²)", time average: "O(n²)", time worst:"O(n²)", space complexity: "O(1)"
+    a = list(a)
+    n = len(a)
+    for i in range(n):
+        m = i
+        # Find minimum element in remaining unsorted array
+        for j in range(i+1, n):
+            if a[j] < a[m]:
+                m = j
+        if m != i:
+            # Swap found minimum with first element
+            a[i], a[m] = a[m], a[i]
+    return a
+
+# Bubble Sort - Simple comparison-based algorithm, Repeatedly steps through the list, compares adjacent elements and swaps them if wrong order
+def bubble_sort(self, arr: List[int]) -> List[int]:
+    # time best: "O(n)", time average: "O(n²)", time worst:"O(n²)", space complexity: "O(1)"
+	arr = arr.copy()  # Don't modify original
+	n = len(arr)
+	for i in range(n):
+		swapped = False
+		# Last i elements are already sorted
+		for j in range(0, n - i - 1):
+			if arr[j] > arr[j + 1]:
+				arr[j], arr[j + 1] = arr[j + 1], arr[j]
+				swapped = True
+		# If no swapping occurred, array is sorted
+		if not swapped:
+			break
+	return arr
 
 def tim_insertion_sort(array, left=0, right=None):
     if right is None:

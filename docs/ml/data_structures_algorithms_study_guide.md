@@ -191,19 +191,6 @@ Data structures and algorithms study guide
 			        heapify(unsorted, 0, i)
 			    return unsorted
 
-		- bubble sort O(n^2)
-			def bubble_sort_iterative(array: list[Any]) -> list[Any]:
-			    length = len(array)
-			    for i in range(length):
-			        swapped = False
-			        for j in range(n - i - 1):
-			            if array[j] > array[j + 1]:
-			                swapped = True
-			                array[j], array[j + 1] = array[j + 1], array[j]
-			        if not swapped:
-			            break
-			    return array
-
 	- dynamic programming
 
 		- solving problems by breaking them into sub-problems
