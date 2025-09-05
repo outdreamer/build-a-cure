@@ -8,7 +8,7 @@ Data structures and algorithms study guide
 			- a constraint on relevant output values can indicate a smaller alternate output iteration to perform rather than iterating through every possible input value
 
 - data structures
-	- O(1) operations are average case and can become O(n) in worst case scenarios due to hash collisions which is rare bc of python's resizing and good hash functions
+	- O(1) operations can become O(n) in worst case scenarios due to hash collisions which is rare bc of python's resizing and good hash functions
 	- deep copy is required when the element like a list in another element like a list is mutable to avoid linking to a changing object
 	- strings are immutable arrays of unicode characters, each character taking 1 - 4 bytes
 		- find how many different substrings with no repeating characters are in a string
@@ -25,7 +25,7 @@ Data structures and algorithms study guide
 			clear, length, d.popitem(), d.values(), d.keys(), where delete/pop/get can be O(1) in the average case
 	- sets are implemented as dictionaries and cant contain duplicates
 		- O(1) operations for sets include: 
-			clear, where add/containment/discard/pop can be O(1) in the average case
+			clear, where add/contains/discard/pop can be O(1) in the average case
 	- lists are slower for inserts, dicts/sets are fast for lookups/inserts but rely on hashing
 	- tuple insertion requires creating a new object as tuples are immutable
 	- linked lists have a next pointer to the next item in the list in one direction

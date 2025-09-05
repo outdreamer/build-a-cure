@@ -177,13 +177,13 @@ python study guide
 	- SQL injection: malicious queries/scripts inserted into sql created using unvalidated string input
 		- fix: validate sql query input, use ORM like sqlalchemy with named parameters instead of query string building
 	- XSS (cross-site scripting): injections of malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
-		- fix: validate http/user/database input/output, validate scripts in webpages with content security policies using nonces in scripts, encode output before including it in html to prevent execution of scripts with html.escape(user_input), use security headers like Content-Type, avoid using eval() or innerHTML without validation
+		- fix: validate http/user/database input/output, validate scripts in webpages with content security policies using nonces in scripts, escape output before including it in html to prevent execution of scripts with html.escape(user_input), use security headers like Content-Type, avoid using eval() or innerHTML without validation
 	- ARP spoofing: associates the attacker's MAC address with the IP address of another host, causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks
 		- fix: static ARP entries, software to certify or cross-check ARP responses
 	- MITM: https/arp/dns spoofing, ssl/tls stripping, email/session hijacking, man-in-the-browser, wi-fi MITM, replay attacks, fake certificate authority are MITM attack types
 		- fix: mutual authentication, recorded attestments, HTTP public key pinning (pinning public key hashes provided by server), using signatures to authenticate DNS records
 	- Cross-Site Request Forgery (CSRF): 
-		- fix: set up protection by using flask_wtf to use unpredictable CSRF tokens in forms which are verified by servers when requests are made, so that valid requests cant be forged
+		- fix: use flask_wtf to create unpredictable CSRF tokens in forms which are verified by servers when requests are made, so that valid requests cant be forged
 	- security tips
 		- hash and salt passwords with bcrypt
 		- set strict access controls

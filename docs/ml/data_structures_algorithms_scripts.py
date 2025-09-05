@@ -36,7 +36,7 @@ class LinkedList:
 		new_node.next = self.head
 		self.head = new_node
 
-	def reverse(self): # 1 2 3 4 
+	def reverse(self): # reverse a linked list 1 2 3 4 
 		prev = None
 		current = self.head # start current at the first (head) node 1
 		while (current is not None):
