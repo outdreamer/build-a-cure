@@ -1,12 +1,29 @@
 System design study guide 
 
 - general
-	
+
+	- OOPS principles
+		- Inheritance
+		- Abstraction
+		- Encapsulation: bundles data/attributes and methods/functions in a single unit like a class, and restricts direct access to some of the components to protect data integrity and ensure control over how its accessed/modified
+			- internal details of a class are hidden, access modifiers (public, protected, private) control visibility of class attributes and methods, and getter/setter methods allow controlled access to private attributes
+			- public attributes/methods are accessible from anywhere, protected attributes/methods are prefixed with an underscore and are intended to only be accessed within a class/subclasses, private attributes/methods are prefixed with double underscores and not directly accessible outside the class but can be accessed with name mangling
+			- encapsulation allows data security by preventing unauthorized access/modification, code maintainability, and flexibility allowing changes to internal implementation without affecting external code
+		- Polymorphism: the ability of a function/method/operator to behave differently based on the object its working with, allowing for flexibility and reusability in code and making it easy to work with objects of different types in the same way
+			- method polymorphism is where different classes have methods with the same name with different functionality
+			- operator polymorphism is where operators like + can perform different operations based on data types, either adding integers or concatenating strings
+			- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
+			- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
+			- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
+
 	- ACID database transaction processing
 		- atomicity: all operations in a transaction are completely successfully or all fail
 		- consistency: a transaction brings the db from on valid state to another
 		- isolation: transactions are executed in isolation from one another, preventing concurrent transactions from impacting each other
 		- durability: once a transaction is committed, it remains committed even in a system failure
+
+	- DBMS
+		- DBMSs are made to be fault-tolerant and scalable, offering a uniform method of accessing data across applications, and allow changing data storage by adding/removing discs while other system components are in operation
 
 	- db normalization
 		- eliminates insertion/update/deletion anomalies, improves data consistency, so one piece of data is stored in one place reducing the chances of inconsistent data
@@ -65,22 +82,17 @@ System design study guide
 			- share immutable objects whose state cant be changed after creation so only read-only data is shared
 			- synchronization mechanisms can be used when state has to be shared, mechanisms like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes) and atomic operations (using operations that are indivisible ensuring that shared data is consistent) though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
 			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
-	
-	- encapsulation: bundles data/attributes and methods/functions in a single unit like a class, and restricts direct access to some of the components to protect data integrity and ensure control over how its accessed/modified
-		- internal details of a class are hidden, access modifiers (public, protected, private) control visibility of class attributes and methods, and getter/setter methods allow controlled access to private attributes
-		- public attributes/methods are accessible from anywhere, protected attributes/methods are prefixed with an underscore and are intended to only be accessed within a class/subclasses, private attributes/methods are prefixed with double underscores and not directly accessible outside the class but can be accessed with name mangling
-		- encapsulation allows data security by preventing unauthorized access/modification, code maintainability, and flexibility allowing changes to internal implementation without affecting external code
-	
-	- polymorphism: the ability of a function/method/operator to behave differently based on the object its working with, allowing for flexibility and reusability in code and making it easy to work with objects of different types in the same way
-		- method polymorphism is where different classes have methods with the same name with different functionality
-		- operator polymorphism is where operators like + can perform different operations based on data types, either adding integers or concatenating strings
-		- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
-		- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
-		- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
 
 - networks
 
 	- network models
+
+		- IPSEC
+			- an Internet Protocol network's communications can be secured using IPSEC
+				- Authenticating Header: authenticates the sender/recipient of data
+				- Encapsulating Security Payload: encrypts data 
+			- IPSEC offers data integrity (ensuring data hasnt been changed), data origin authentication, encryption (no one can read data except authorized receivers), replay protection, and network-level peer authentication
+			- supports transport and tunnel modes
 
 		- internet protocol suite (TCP/IP)
 			- link layer: includes protocols relevant to a local network (a link or IP network), where the computers are physically wired on the same network so they dont need a router and MAC addresses to communicate

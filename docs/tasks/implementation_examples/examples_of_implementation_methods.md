@@ -34,6 +34,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'relevance variables of graphs/graph layers (like variation)' to 'filter relevant graphs'
+        - identify relevant graph layers to graphs, like how problem-solving intent layers are useful to apply to a graph of problem types (like balance problems) bc these graphs are likely to contain differences (like how balance problems can include problems of equivalence and missing info problems among other problem types) that are useful to connect with multiple problem-oslving intents
+
     - identify useful structures like 'graph iterations' like 'problems of filtering/querying problem-solving graphs' to 'filter/generate relevant graphs'
         - identify useful graphs like graphs to 'solve problems of filtering/querying problem-solving graphs' (like causal problem graphs and graphs of problems connected by variables that create connections between problems) to implement problem-solving intents to connect relevant graphs
         - applying graph layers like 'solution metric variables' connected on a graph of problem-solution structures allows queries like 'concept queries to identify similar concepts of solutions' as well as allowing 'identifying the set of all routes between problem-solution structures to conceptual solution metrics'
