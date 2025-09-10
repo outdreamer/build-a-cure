@@ -458,6 +458,11 @@
 			- fasting to increase polyamines (or increase dietary intake of polyamines) which can help regenerate organs
 				- mTOR activation in these stem cells by fasting also led to production of large quantities of polyamines (small molecules that help cells to grow and divide)
 				- https://www.eurekalert.org/news-releases/1054876
+			- radiofrequency electromagnetic field and pulsed magnetic field therapy
+				- radiofrequency electromagnetic fields (RF-EMF) and pulsed magnetic fields (PMF) have been shown to protect against acute kidney injury in rat models by reducing inflammation, oxidative stress, and apoptosis
+				- https://www.mdpi.com/1648-9144/61/2/238
+				- pulsed electric fields can cause acute kidney injury through hemolysis
+				- https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2024.1426920/full
 		    - avoid bpc-157 to repair damage bc it can cause cancer
 		    - avoid eating food high in AGEs which can harm heart/kidney health
 		    - ketones/keto diet:
@@ -832,7 +837,8 @@
         			- https://www.nature.com/articles/s41586-024-07781-7
         		- weight loss drugs can reduce risk of gallbladder/meningioma/myeloma/pancreatic/ovarian/colorectal/esophageal/endometrial/kidney/liver cancers
         			- https://www.healthline.com/health-news/glp-1-drugs-like-ozempic-may-reduce-risk-of-these-10-cancers#Reduced-risk-of-10-obesity-linked-cancers
-
+        		- inject 2141-V11
+        			- https://www.rockefeller.edu/news/38120-immunotherapy-drug-eliminates-aggressive-cancers-in-clinical-trial/
 			- specific treatments for cancer types
 				- gastric cancer (has some overlap with gallbladder/liver/pancreatic cancer)
 					- avoid: vitamin b3/b9 supplements
