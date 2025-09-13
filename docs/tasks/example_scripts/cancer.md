@@ -619,7 +619,7 @@
 							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8809074/
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
-				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD
+				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD in small amounts to prevent heart attack, monolaurin
 				- sulfuretin
 					- https://phys.org/news/2024-10-natural-compound-blocks-enzyme-involved.html
 				- repair myelin and take nerve repair/regeneration supplements
@@ -700,11 +700,13 @@
 			- use these to get rid of BPA (or side effects): coq10, probiotics (Bifidobacterium breve and Lactobacillus casei, Garden of Life probiotics with many strains), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
+			- memory/cognition: Polygala tenuifolia Willdenow, ginkgo biloba/Cistanche tubulosa, avoid junk food high in saturated fat
+				- https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1573034/full
 			- insomnia: vitamin d, tryptophan, melatonin (melatonin and other sedatives can cause rebound insomnia), treat high serotonin levels which can cause insomnia, avoid medications that can cause insomnia
 			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, keto diet, melatonin
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
-			- nootropics 
+			- nootropics
 				- focus/memory: coffee fruit, DMAE, huperzine A, ginkgo, ginseng, oats, rhodiola rosea, bacopa monnieri, theanine, caffeine, creatine, citicoline or alpha GPC, ashwagandha, agmatine, theobromine, kanna (sceletium tortusosum), lion's mane & other medicinal mushrooms, tyrosine, threonine, phosphatidylserine, b vitamins, saffron
 				- neural antioxidants: coq10, pqq, resveratrol
 				- neural immunity: glutathione, curcumin, propolis
@@ -777,7 +779,7 @@
 				- avoid 12 risk factors for dementia: hypertension, hearing impairment, smoking, obesity, depression, low social contact, low level of education, physical inactivity, diabetes, excessive alcohol consumption, traumatic brain injury, and air pollution
 				- also use an anti-inflammatory diet including eggs/choline and avoid eating food high in AGEs to avoid increasing dementia risk (involves a mostly vegan diet and boiling/steaming food wherever possible), which helps avoid heart/kidney/metabolic diseases as well
 			- alzheimers: 
-				- 40hz waves, a diet including eggs/choline, blarcamesine, lithium, hibiscus, policosanol, uridine, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like lycopene/beta-carotene, resveratrol, DDL-920
+				- 40hz waves, a diet including eggs/choline, low-saturated fat diet, Polygala tenuifolia Willdenow, blarcamesine, lithium, hibiscus, policosanol, uridine, b-vitamins, vitamin E, vitamin C, selenium, omega 3s, vitamin d, betaine, soy isoflavones (daidzin and genistin), s-adenosylmethionine, n-acetyl cysteine, acetyl-l-carnitine, ginseng, curcumin, ginkgo biloba, antioxidants like lycopene/beta-carotene, resveratrol, DDL-920
 					- https://www.uclahealth.org/news/release/molecule-restores-cognition-memory-alzheimers-disease-model
 				- avoid air pollution, avoid anticholinergic medicines, inhibit overstimulation by glutamate with NMDA receptor antagonists like memantine/magnesium/huperzine a/phenylalanine/kynurenic acid from tryptophan, treat inflammation (use an anti-inflammatory diet) and other conditions including autoimmune conditions, reduce homocysteine levels, avoid supplements that use animal products like gelatin that can contain disease-causing prions
 				- treat high blood pressure which is a risk factor for alzheimer's
