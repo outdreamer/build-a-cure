@@ -842,6 +842,11 @@
         			- https://www.healthline.com/health-news/glp-1-drugs-like-ozempic-may-reduce-risk-of-these-10-cancers#Reduced-risk-of-10-obesity-linked-cancers
         		- inject 2141-V11
         			- https://www.rockefeller.edu/news/38120-immunotherapy-drug-eliminates-aggressive-cancers-in-clinical-trial/
+        		- increase myokines with resistance or interval training
+        			- https://pubmed.ncbi.nlm.nih.gov/40608178/
+        			- increases the myokine irisin: vitamin D
+        			- https://www.mdpi.com/1422-0067/24/4/4129
+        			- increase myokine IL-6: lauric acid, palmitic acid, cordyceps, ginseng, reishi, bacillis subtilis, lactobacillus plantarum, alanine, Punica granatum/Ellagic acid
 			- specific treatments for cancer types
 				- gastric cancer (has some overlap with gallbladder/liver/pancreatic cancer)
 					- avoid: vitamin b3/b9 supplements
