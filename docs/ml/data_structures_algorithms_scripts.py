@@ -1,3 +1,31 @@
+# generator for batches
+def batch_generator(data, batch_size):
+    for i in range(0, len(data), batch_size):
+        yield data[i:i + batch_size]
+
+for batch in batch_generator(data, batch_size):
+    process_batch(batch)
+
+def data_generator():
+	for i in range(10 ** 6):
+		yield i
+
+result = sum(data_generator())
+
+class DataIterator:
+	def __init__(self):
+		self.current = 0
+	def __iter__(self):
+		return self
+	def __next__(self):
+		if self.current >= 10 ** 6:
+			raise StopIteration
+		self.current += 1
+		return self.current
+
+data = DataIterator()
+result = sum(data)
+
 def is_valid_parentheses(string= "{[()]}"):
 	stack = []
 	forward_chars = ['(', '{', '[']
