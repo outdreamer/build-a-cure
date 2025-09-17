@@ -34,6 +34,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'graph variables to generate graph manifolds of a useful graph structure like a graph layer' to 'filter relevant graphs'
+        - for example, identifying useful graph variants of a graph layer like a problem-solving intent layer is useful, like how changing adjacency of problem/solution types vs. adjacency of problem types can generate variants of the problem-solving intent layer
+
     - identify useful structures like useful graphs like 'problem types of problem/solution graph similarities' to 'filter relevant graphs'
         - for example, a graph of unique problem/solution structures loses info about clarity of very different causal sequences of problem/solution structures, which is useful to identify problem types like 'missing info' of graphs that require some similarity like each problem type being in the same/unique position
         - relatedly, the 'graph of problem/solution types of machine learning' is incomplete, to position problem types like the 'curse of dimensionality' near to the problem type of 'sparse data sets' and position solution types like 'gathering data' near related solution types like 'generating synthetic data' as well as near related problem types like 'overfitting/underfitting'
