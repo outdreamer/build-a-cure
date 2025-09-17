@@ -36,6 +36,7 @@
     
     - identify useful structures like 'graph variables to generate graph manifolds of a useful graph structure like a graph layer' to 'filter relevant graphs'
         - for example, identifying useful graph variants of a graph layer like a problem-solving intent layer is useful, like how changing adjacency of problem/solution types vs. adjacency of problem types can generate variants of the problem-solving intent layer
+        - the problem-solving intent layer is optimally positioned on a graph of graphs implementing those problem-solving intents, since most problem-solving graphs will implement only a trivial number of problem-solving intents at once
 
     - identify useful structures like useful graphs like 'problem types of problem/solution graph similarities' to 'filter relevant graphs'
         - for example, a graph of unique problem/solution structures loses info about clarity of very different causal sequences of problem/solution structures, which is useful to identify problem types like 'missing info' of graphs that require some similarity like each problem type being in the same/unique position
