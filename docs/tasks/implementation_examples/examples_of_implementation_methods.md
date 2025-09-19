@@ -34,8 +34,12 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
-    - identify useful structures like 'graph layers that represent info about multiple interfaces' to 'filter relevant graphs'
-        - for example, a problem-solving intent graph layer like 'problem-solving requirements' also indicates causal info, which is useful to connect (to connect requirements/cause and also to connect adjacent info of requirements like intents to cause)
+    - identify useful structures like graph distance metrics which can be implemented by known structures to filter relevant graphs
+        - for example, a graph that minimizes solution-problem distance by clustering solutions related to a problem type can implement a 'max problem/solution distance' metric
+        - 'identify optimizations in interface analysis rules which limit the space of solutions' is an unsolved intent that can be solved with graphs
+
+    - identify useful structures like 'graph layers that represent info about multiple interfaces to reduce embedding distances' to 'filter relevant graphs'
+        - for example, a problem-solving intent graph layer like 'problem-solving requirements' also indicates causal info by minimizing the embedding distance to causal info to a distance of 1 step, which is useful to connect (to connect requirements/cause and also to connect adjacent info of requirements like intents to cause)
 
     - identify useful structures like 'graph variables to generate graph manifolds of a useful graph structure like a graph layer' to 'filter relevant graphs'
         - for example, identifying useful graph variants of a graph layer like a problem-solving intent layer is useful, like how changing adjacency of problem/solution types vs. adjacency of problem types can generate variants of the problem-solving intent layer

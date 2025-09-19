@@ -828,6 +828,8 @@
 	        		- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
         	- substances to use with cancer
         		- small amounts of iodine, choline, DHEA, turmeric, ginger, grapes, berries, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, white button/cordyceps/shiitake mushrooms, activated charcoal, omega 3's, hibiscus, beets, probiotic kefir/kombucha for patients with organ damage
+        		- nicotinamide (derived from vitamin b3) can help prevent skin cancer
+        		- aspirin can help prevent colon cancer (avoid with kidney damage)
         		- proteolytic enzymes such as bromelain, trypsin, chymotrypsin, and papain may be useful to prevent metastasis
         			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8067380/
         		- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw can damage kidneys so be careful with the dose)
