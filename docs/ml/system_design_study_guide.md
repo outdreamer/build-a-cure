@@ -4,21 +4,6 @@ System design study guide
 
 	- the software development life cycle (SDLC) has 6 phases: requirements gathering, design, implementation, testing, deployment, maintenance
 
-	- testing types
-		- performance testing
-		- regression testing
-		- security testing
-		- negative testing
-		- exploratory testing
-		- acceptance testing
-		- Functional/UI testing
-		- end-to-end testing
-		- API testing
-		- integration testing
-		- component testing
-		- unit testing
-		- static testing
-
 	- dependency injection: an object or function receives other objects/functions it requires instead of creating them internally to maintain thread-safety
 
 	- OS process management

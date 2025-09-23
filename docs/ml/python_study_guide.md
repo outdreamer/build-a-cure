@@ -57,7 +57,24 @@ python study guide
 	- pylint/flake8 for PEP compliance
 	- cprofile and line_profiler for profiling, use memory_profiler for profiling and identifying memory leaks, use psutil for identifying memory leaks
 	- pdb for debugging
+	- testing types
+		- performance testing
+		- load testing
+		- scale testing
+		- regression testing
+		- security testing
+		- negative testing
+		- exploratory testing
+		- acceptance testing
+		- Functional/UI testing
+		- end-to-end testing
+		- API testing
+		- integration testing
+		- component testing
+		- unit testing
+		- static testing
 	- analysis tools
+		- flameprof for flamegraphs created with cprofile stats
 		- coverage analysis: coverage.py
 		- linting/static analysis: mypy
 			- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
@@ -137,7 +154,7 @@ python study guide
 	- use tuples to consume less memory and access/create faster than lists
 	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
-	- use scipy and numpy (implemented in c) for numerical operations which is much faster than lists for large-scale numerical operations
+	- use scipy and numpy arrays (implemented in c) for numerical operations which are faster for large-scale numerical operations
 	- use list comprehensions which are faster than loops for creating a list
 	- use map function which is faster than list comprehensions for function calls and large datasets: map(lambda x: x * x, range(1000000)) instead of [x * x for x in range(1000000)]
 	- use zip function to iterate two lists of equal size

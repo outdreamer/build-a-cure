@@ -34,6 +34,11 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like unsolved graph intents like identifying a 'continuous graph of abstract solution metric structures across systems' to 'filter relevant graphs'
+        - for example, an unsolved intent is to identify the 'continuous graph of the structures of solution metrics in every relevant (like maximally different) system'
+        - identifying a 'pivot intent graph' is useful, to identify useful 'intent layers/graphs to derive/connect to' in order to identify optimal intents, like when a suboptimal intent is requested by the user, the system connects that suboptimal intent to an intent graph that makes it possible to clearly change/pivot to a more optimal intent
+        - identifying relevant relevance like 'surprising relevance' (like how 'weak/infrequent/indirect connections that are nevertheless important' are useful to identify
+
     - identify useful structures like graph distance metrics which can be implemented by known structures to filter relevant graphs
         - for example, a graph that minimizes solution-problem distance by clustering solutions related to a problem type can implement a 'max problem/solution distance' metric
         - 'identify optimizations in interface analysis rules which limit the space of solutions' is an unsolved intent that can be solved with graphs

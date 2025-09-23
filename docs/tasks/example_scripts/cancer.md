@@ -152,13 +152,13 @@
 			- https://onlinelibrary.wiley.com/doi/full/10.1002/VIW.20220029
 			- active hz ranges for PEMF devices against glioblastoma
 				- https://pubmed.ncbi.nlm.nih.gov/27874284/
-				- PEMF has been found to be effective when its frequency ranges from 0.16 to 480 Hz and the intensity ranges from 0.6 to 250 mT
-				- (100 Hz, 10 mT) or (10 Hz, 5 mT) could promote differentiation and induce apoptosis in U87 cells by affecting the cell cycle or cell division
-				- ELF‐PEMF(120 Hz, 10–20 mT) suppressed tumor angiogenesis
+				- PEMF has been found to be effective when its frequency ranges from 0.16 to 480Hz and the intensity ranges from 0.6 to 250mT
+				- (100Hz, 10 mT) or (10 Hz, 5 mT) could promote differentiation and induce apoptosis in U87 cells by affecting the cell cycle or cell division
+				- ELF‐PEMF(120Hz, 10–20mT) suppressed tumor angiogenesis
 				- ELF‐PEMF could decrease miR‐421, miR‐21, and miR‐17 levels, which were found to be overexpressed in tumor cells and to lead to apoptosis resistance in an epigenetic manner
 				- ELF‐PEMF exerted some effects on glycolysis and TCA cycle pathways and increased ROS levels
 				- ELF‐PEMF influenced ARs and augmented their anti‐tumor effects
-				- extremely low‐frequency PEMF(ELF‐PEMF), a subdivision of PEMF with frequencies between 0 and 300 Hz, has the potential to penetrate the skull and inhibit the growth of glioma cell lines
+				- extremely low‐frequency PEMF(ELF‐PEMF), a subdivision of PEMF with frequencies between 0 and 300Hz, has the potential to penetrate the skull and inhibit the growth of glioma cell lines
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9939155/
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8342182/
 				- https://www.sciencedirect.com/science/article/abs/pii/S0079610723000299
@@ -606,6 +606,15 @@
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
+				- artemisia dracunculus: reduce IL-23, IL-17A, lower cell infiltration, recover brain demyelination, increase antioxidant efficacy
+				- turmeric: reduce IL-17, TGF-beta, IFN-y, IL-6, IL-21, IL-23, STAT3, RORyt, Th17 infiltration/differentiation, decrease astrocyte proliferation, improve myelinogenesis, increase oligodendrocyte activity/differentiation, reduce TUNEL cells, CASP3, Asp353, Cyt-c, increase MBP expression, inhibit IL-12 through JNK-STAT, increase IL-10
+				- ginkgo biloba: inhibit TLR4, Nk-kb, iNOS, IL-1beta, TNF-alpha, increase Arg-1, NTF, regulate microglia and astrocytes balance, induce OPCs generation, myelin production
+				- cannabis sativa: decrease IFN-y, IL-17, IL-6, IL-1beta, TNF-alpha, increase BDNF and MDSCs, reduce CXCL9/10, and t-cell/macrophage infiltration
+				- nigella sativa: decrease reactive astrocytes and decrease mononuclear cells infiltration, increase GSH, decrease NF-kb, reduce TGF-beta1, increase remyelination
+				- panax ginseng: increase Treg generation, Th1/Th17 cell suppression, decrease infiltration of inflammatory cells, modulate CD4+ T cells and CD11b+ macrophage infiltration, increase Foxp3 expression, decrease p38 MAPK/NK-kb, reduce demyelination and axonal damage, reduce pro-inflammatory factors IFN-y, IL-17, TNF-a, increase Th2 shift, inhibit iNOS
+				- ginger: inhibit iNOS and COX2 expression, reduce apoptosis in C57BL/6, reduce IL-12, IL-17, IL-27, IL-33, reduce infiltration of inflammatory cells, decrease CCL20/22 CCR6/4, increase TGF-beta, inhibit leukocyte infiltration
+				- hypericum perforatum: increase neutrophil GSH-Px activity, reduce lipid peroxidatioin, apoptosis, and Ca2+ concentration
+					- https://www.frontiersin.org/files/Articles/985943/fncel-16-985943-HTML/image_m/fncel-16-985943-t001.jpg
 				- periodic fasting-mimicking diet of 2 days can promote stem cell regeneration, suppress inflammation, extend health span, and improve metabolic health
 					- https://pubmed.ncbi.nlm.nih.gov/38287649/
 				- increase interferon-alpha/beta (which increase Mx proteins)
@@ -619,14 +628,16 @@
 							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8809074/
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
-				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, CBD in small amounts to prevent heart attack, monolaurin
+				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, black seed oil, gingko biloba, ginseng, curcumin, CBD (in small amounts to prevent heart attack), monolaurin
+					- https://www.frontiersin.org/files/Articles/985943/fncel-16-985943-HTML/image_m/fncel-16-985943-t001.jpg
+					- https://www.frontiersin.org/articles/10.3389/fncel.2022.985943/full
 				- sulfuretin
 					- https://phys.org/news/2024-10-natural-compound-blocks-enzyme-involved.html
 				- repair myelin and take nerve repair/regeneration supplements
 					- clemastine to block M1R and regenerate myelin
 						- https://medicalxpress.com/news/2024-08-drug-clock-multiple-sclerosis.html
-					- rest/melatonin, iodine, vitamin C, zinc, iron, cholesterol, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, vitamin d/k2, choline/citicoline, b vitamins, probiotics/prebiotics
-					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, niacin, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin, lycopene
+					- rest/melatonin, iodine, vitamin B/C/D/K2, zinc, iron, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, choline/citicoline, probiotics/prebiotics
+					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, vitamin b3, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin, lycopene
 					- treat other conditions that can decrease myelin like thyroid problems
 				- reduce inflammation with anti-inflammatory substances
 		- repair nerves
@@ -657,7 +668,7 @@
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 		- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
-		- chemical sensitivities: 
+		- multiple chemical sensitivities: 
 			- treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
 		- PFAS/pollution/pesticide exposure
 			- avoid plants/products that absorb PFAS (kale, fruit juice, paper used to store butter) and other chemicals like chlormequat (oats) and perchlorate (in food/plastic/bleach, interferes with thyroid function)
@@ -690,6 +701,16 @@
 				- use a home air purifier that filters out fuel gas particles
 				- use a mask that filters out fuel gas particles
 			- use small amounts of diatomaceous earth (avoid if you need to avoid silica), baking soda, vinegar, bleach, and essential oils instead of toxic pesticides (such as organophosphates, carbamates, fumigants, pyrethroids, and the organochlorine pesticides), store food waste in the fridge until it needs to be thrown out, etc
+				https://www.sciencedirect.com/science/article/abs/pii/S0041008X13000549
+				https://www.sciencedirect.com/science/article/abs/pii/S0041008X1100175X?via%3Dihub
+				https://www.cell.com/cell/fulltext/S0092-8674(18)31626-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS009286741831626X%3Fshowall%3Dtrue
+				https://www.frontiersin.org/articles/10.3389/fncel.2022.985943/full
+				https://www.sciencedaily.com/releases/2017/08/170801193353.htm
+				https://pubmed.ncbi.nlm.nih.gov/19042949/
+				https://pubmed.ncbi.nlm.nih.gov/23402800/
+				https://pubmed.ncbi.nlm.nih.gov/18032333/
+				https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/human-health-issues-related-pesticides
+				https://www.researchgate.net/publication/256848318_Harmful_effects_of_pesticides_on_human_health
 		- heavy metal toxicity
 			- calcium glucarate, calcium EDTA, milk thistle, gingko biloba, triphala, chitosan, zeolite, fiber, cilantro, selenium, magnesium, b-vitamins, zinc, iron, glutathione (or sulphurous substances like garlic/broccoli, taurine, methionine, alpha lipoic acid, N-acetyl-cysteine, vitamin C/E, for effects on glutathione), modified citrus pectin with alginate, chlorella to bind to heavy metals
 			- cadmium/lead toxicity: meso-2,3-dimercaptosuccinic acid (DMSA), self-heal (prunella vulgaris), tomatoes, garlic, onions, grapes, berries, methionine, turmeric, cysteine, glutathione, carotenes, pectin, melatonin, vitamin C, iron, calcium, zinc, b vitamins, royal jelly, algae/spirulina/chlorella, probiotics, green tea, ginger, soy, murraya koenigii, naringenin (orange, grapefruit and tomato), puerarin
