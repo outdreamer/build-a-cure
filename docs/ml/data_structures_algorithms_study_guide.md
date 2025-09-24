@@ -43,10 +43,19 @@ Data structures and algorithms study guide
 	
 	- heap queue and priority queue algorithms
 		- heaps are binary trees for which every parent node has a value less than or equal to any of its children, implemented as an array/list with heap properties
+		- In a heap tree, the value in a node is always smaller than both of its children. This is different from a binary search tree, in which only the left node will be smaller than the value of its parent
+		- The completeness property means that the depth of the tree is the base-2 logarithm of the number of elements, rounded up
+		- adding a node to a heap: the node is added to the next open slot at the bottom. Otherwise, a new level is created and then the element is added to the new bottom layer.
+			- Once the node is added, Python compares it to its parent. If the heap property is violated, then the node and its parent are switched, and the check begins again at the parent. 
+			- This continues until the heap property holds or the root has been reached
+			- when popping the smallest element, Python knows that, because of the heap property, the element is at the root of the tree. It replaces the element with the last element at the deepest layer and then checks if the heap property is violated down the branch
+			- an element must always be smaller than the elements that are at twice its index plus one and twice its index plus two
 			- you can transform a populated list into a heap via function heapify
+
 				pq = []                         # list of entries arranged in a heap
 				entry_finder = {}               # mapping of tasks to entries
 				counter = itertools.count()     # unique sequence count
+				
 				def add_task(task, priority=0):
 				    if task in entry_finder:
 				        remove_task(task)
@@ -54,9 +63,11 @@ Data structures and algorithms study guide
 				    entry = [priority, count, task]
 				    entry_finder[task] = entry
 				    heappush(pq, entry)
+
 				def remove_task(task):
 				    entry = entry_finder.pop(task)
 				    entry[-1] = 'removed'
+
 				def pop_task():
 				    while pq:
 				        priority, count, task = heappop(pq)
@@ -64,6 +75,7 @@ Data structures and algorithms study guide
 				            del entry_finder[task]
 				            return task
 				    raise KeyError('pop from an empty priority queue')
+
 		- a priority queue is a queue where items have priorities, where items with higher priority are dequeued first, and if items have the same priority, theyre dequeued in order of insertion like a queue, which acts like a sorted structure when dequeued
 		- a priority queue is a common use for a heap
 		- priority queues are used for task scheduling by priority, in dijkstra's shortest path algorithm to find the shortest path by selecting the nearest node, in huffman encoding to combine least frequent symbols using a priority queue to reduce data size, when merging multiple sorted lists by selecting the smallest element from each list, and a search algorithm (pathfinding) which prioritizes nodes based on cost to find the shortest path in navigation

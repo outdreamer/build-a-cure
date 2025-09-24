@@ -53,51 +53,49 @@ python study guide
 	- scopes: local, enclosed, global, and built-in are the scopes in python
 	
 - libraries/tools
-	- black for formatting
-	- pylint/flake8 for PEP compliance
-	- cprofile and line_profiler for profiling, use memory_profiler for profiling and identifying memory leaks, use psutil for identifying memory leaks
-	- pdb for debugging
+
 	- testing types
 		- performance testing
-		- load testing
+		- load testing: locust
 		- scale testing
-		- regression testing
+		- stress testing: stressor
+		- pentesting: scapy, nmap, impacket, pwntools, beautifulsoup, metasploit
+		- regression testing: unittest, pytest-regressions
 		- security testing
+			- veracode
+			- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues like unused variables or multiple variable declarations or variables deallocated before usage)
+			- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
 		- negative testing
 		- exploratory testing
 		- acceptance testing
 		- Functional/UI testing
-		- end-to-end testing
+		- End-to-end testing
 		- API testing
 		- integration testing
 		- component testing
-		- unit testing
+		- unit testing: pytest or unittest
 		- static testing
-	- analysis tools
-		- flameprof for flamegraphs created with cprofile stats
-		- coverage analysis: coverage.py
-		- linting/static analysis: mypy
+			- linting/static analysis: mypy
 			- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
 			- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
 		- dynamic analysis: dynapyt, pyinstrument, burpsuite, OWASP zed attack proxy, arachni
 			- dynamic analysis is done on running apps but misses untested flows
 		- interactive analysis: pytest and ipython
 			- interactive analysis combines static flows with limited attacks, identifying for example authentication bypass issues and testing the login endpoint with sample parameters, but requires manual testing expertise to be valuable
-		- security testing
-			- veracode
-			- bandit identifies injection attack vectors, cryptographic flaws, security misconfigurations, and credential management issues but cant do taint analysis (data flow issues like unused variables or multiple variable declarations or variables deallocated before usage)
-			- pyt (pytaint) identifies XSS, SQL injections, path traversal attacks
-		- unit testing: pytest or unittest
-		- stress testing: stressor
-		- load testing: locust
-		- pentesting: scapy, nmap, impacket, pwntools, beautifulsoup, metasploit
-		- regression testing: unittest, pytest-regressions
-	- monitoring tools: prometheus with grafana, datadog, sentry, new relic, ELK stack, pyroscope
+
+	- other analysis tools
+		- flameprof for flamegraphs created with cprofile stats
+		- coverage analysis: coverage.py
+		- black for formatting
+		- pylint/flake8 for PEP compliance
+		- cprofile and line_profiler for profiling, use memory_profiler for profiling and identifying memory leaks, use psutil for identifying memory leaks
+		- pdb for debugging
+		- monitoring tools: prometheus with grafana, datadog, sentry, new relic, ELK stack, pyroscope
 
 - version updates
 	- 3.14: deferred evaluation of annotations, template strings, improved error messages, a tail-call-compiled interpreter, a C API for python runtime configuration
 	- 3.13: advanced interactive interpreter, JIT compiler, and a free thread mode
-	- 3.12: enhanced error messages, flexible f-strings, type parameter syntax, module improvement, syntactic formalization of f-strings
+	- 3.12: enhanced error messages, type parameter syntax, module improvement, syntactic formalization of f-strings
 	- 3.11: enhanced performance by 10 - 60%, improved error messages, exception groups, exception notes
 	- 3.10: parenthesized context managers, pattern matching for complex data structures
 	- 3.9: offered string methods, dictionary merge and update operators, pattern matching, zoneinfo, improved type hinting
@@ -115,7 +113,7 @@ python study guide
 - optimizations
 	- address reasons for bottlenecks (inefficient algorithms with polynomial runtime, memory consumption, IO operations, Global Interpreter Lock which limits concurrent execution)
 		- use cprofile (cprofile.run('function_name')) and line_profiler and memory_profiler and timeit for timing function calls and pytest-benchmark for identifying bottlenecks
-		- use pypy for JIT compilation
+		- use pypy or numba for JIT compilation
 			- Just-In-Time (JIT) compilation is a technique used to improve the performance of Python code by compiling parts of the code into machine code at runtime. This allows Python programs to execute faster
 			- use JIT compilation with numba which automatically compiles the function to machine code which boosts performance
 				from numba import jit
@@ -129,8 +127,6 @@ python study guide
 
 	- use match-case rather than if-else
 	- use built-in functions which are usually optimized for speed and are often written in C
-	- write generators to return one item at a time rather than all items at once
-	- check membership of an item in a list with the in keyword
 	- load modules only when needed
 	- avoid recursion which takes up a lot of memory and instead use iteration
 	- use cython (a superset of python) to speed up slow code, cython is compiled into c which makes it faster
@@ -154,7 +150,7 @@ python study guide
 	- use tuples to consume less memory and access/create faster than lists
 	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
-	- use scipy and numpy arrays (implemented in c) for numerical operations which are faster for large-scale numerical operations
+	- use scipy and numpy (implemented in c) for numerical operations
 	- use list comprehensions which are faster than loops for creating a list
 	- use map function which is faster than list comprehensions for function calls and large datasets: map(lambda x: x * x, range(1000000)) instead of [x * x for x in range(1000000)]
 	- use zip function to iterate two lists of equal size
@@ -196,14 +192,14 @@ python study guide
 		- use standard auth libraries like requests-oauthlib or Flask-Login
 		- apply session management to expire tokens/sessions
 		- rate limit API requests
-		- validate emails
+		- validate data like emails
 		- use whitelists to support valid requests
 		- use prepared statements to send a query template and then send the values for fields in the template
 			- a prepared statement is a feature where the database pre-compiles SQL code and stores the results, separating it from data, where the query can be executed later
 			- a prepared statement takes the form of a pre-compiled template into which constant values are substituted during each execution
 		- check hashes of downloads
 		- have a secure backup strategy in case of database corruption or sql injection attacks
-		- move credentials to .env files
+		- store credentials in .env files
 		- use secret managers in prod
 		- gitignore configuration files
 		- patch dependencies regularly

@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 # generator for batches
 def batch_generator(data, batch_size):
     for i in range(0, len(data), batch_size):
         yield data[i:i + batch_size]
 
-for batch in batch_generator(data, batch_size):
+for batch in batch_generator([], 10):
     process_batch(batch)
 
 def data_generator():
@@ -44,9 +46,9 @@ def is_valid_parentheses(string= "{[()]}"):
 # so iteratively popping the first half off a stack should equal the second half
 
 # swap two numbers
-a = a + b
-b = a - b
-a = a - b 
+#a = a + b
+#b = a - b
+#a = a - b 
 
 # linked list
 class Node:
@@ -58,13 +60,12 @@ class LinkedList:
 	def __init__(self):
 		self.head = None
 
-	# Method to add a node at the beginning of the LL
-	def insertAtBegin(self, data):
+	def insert_at_beginning(self, data):
 		new_node = Node(data)
 		new_node.next = self.head
 		self.head = new_node
 
-	def reverse(self): # reverse a linked list 1 2 3 4 
+	def reverse(self):
 		prev = None
 		current = self.head # start current at the first (head) node 1
 		while (current is not None):
@@ -73,6 +74,49 @@ class LinkedList:
 			prev = current # set previous to current prev = 1, prev = 2
 			current = next_node # set current to the saved next_node value current = 2, current = 3
 		self.head = prev
+
+# doubly linked list
+class Node:
+	def __init__(self, data):
+		self.data = data
+		self.prev = None
+		self.next = None
+
+class DoublyLinkedList:
+	def __init__(self):
+		self.head = None
+
+	def insert_at_beginning(self, data):
+		new_node = Node(data)
+		if self.head is None:
+			self.head = new_node
+		else:
+			new_node.next = self.head
+			self.head.prev = new_node
+			self.head = new_node
+
+	def delete_node(self, key):
+		temp = self.head
+		while temp:
+			if temp.data == key:
+				if temp.prev is None:
+					self.head = temp.next
+					if self.head:
+						self.head.prev = None
+				elif temp.next is None:
+					temp.prev.next = None
+				else:
+					temp.prev.next = temp.next
+					temp.next.prev = temp.prev
+				return
+			temp = temp.next
+
+	def traverse(self):
+		temp = self.head
+		while temp:
+			print(temp.data, end=" <-> ")
+			temp = temp.next
+		print("None")
 
 # trie
 def create():
@@ -122,7 +166,6 @@ print('completed', completed)
 searched = search_trie(trie, 'hell')
 print('searched', searched)
 
-
 # priority queue, remove max priority item on delete 
 def insert(queue, d):
 	queue.append(d)
@@ -148,92 +191,62 @@ print("Removed elements:")
 while not len(queue) == 0:
 	print(delete(queue))
 
+import itertools
+pq = []                         # list of entries arranged in a heap
+entry_finder = {}               # mapping of tasks to entries
+counter = itertools.count()     # unique sequence count
+				
+def add_task(task, priority=0):
+	if task in entry_finder:
+		remove_task(task)
+	count = next(counter)
+	entry = [priority, count, task]
+	entry_finder[task] = entry
+	heappush(pq, entry)
+
+def remove_task(task):
+	entry = entry_finder.pop(task)
+	entry[-1] = 'removed'
+
+def pop_task():
+	while pq:
+		priority, count, task = heappop(pq)
+		if task != 'removed':
+			del entry_finder[task]
+			return task
+	raise KeyError('pop from an empty priority queue')
 
 # stack
 from collections import deque
-
 stack = deque()
 stack.append(1)  # Push
 stack.append(2)
 print(stack.pop())  # Output: 2 (LIFO)
 
-
 # queue
-
 from collections import deque
-
 dq = deque()
 dq.append(1)  # Enqueue
 dq.append(2)
 print(dq.popleft())  # Output: 1 (FIFO)
 
 from queue import Queue
-
 q = Queue()
 q.put(1)
 q.put(2)
 print(q.get()) 
 
-
-# heap (pops smallest element first)
-
+# min heap (pops smallest element first)
 import heapq
-
-# Min-Heap
 heap = []
 heapq.heappush(heap, 10)
 heapq.heappush(heap, 5)
 heapq.heappush(heap, 20)
-
 print(heapq.heappop(heap))  # Output: 5 (smallest element)
 
 # a max heap can be implemented with heapq and negative values
 heapq.heappush(heap, -10)  # Push negative values
 max_value = -heapq.heappop(heap)  # Invert back
-
-# doubly linked list
-class Node:
-	def __init__(self, data):
-		self.data = data
-		self.prev = None
-		self.next = None
-
-class DoublyLinkedList:
-	def __init__(self):
-		self.head = None
-
-	def insert_at_beginning(self, data):
-		new_node = Node(data)
-		if self.head is None:
-			self.head = new_node
-		else:
-			new_node.next = self.head
-			self.head.prev = new_node
-			self.head = new_node
-
-	def delete_node(self, key):
-		temp = self.head
-		while temp:
-			if temp.data == key:
-				if temp.prev is None:
-					self.head = temp.next
-					if self.head:
-						self.head.prev = None
-				elif temp.next is None:
-					temp.prev.next = None
-				else:
-					temp.prev.next = temp.next
-					temp.next.prev = temp.prev
-				return
-			temp = temp.next
-
-	def traverse(self):
-		temp = self.head
-		while temp:
-			print(temp.data, end=" <-> ")
-			temp = temp.next
-		print("None")
-
 
 # implement a binary tree
 class TreeNode:
@@ -324,7 +337,6 @@ class BinaryTree:
 			root.right = invert_tree(temp)
 			return root
 
-#from __future__ import annotations
 #from random import randint
 #from queue import Queue
 #import bisect
@@ -333,7 +345,7 @@ class BinaryTree:
 #	if len(array) <= 1:
 #		return array
 
-# for binary and exponential sort
+# for binary and exponential search
 # if list(array) != sorted(array):
 #	raise ValueError("array needs to be sorted in ascending order")
 
@@ -601,7 +613,6 @@ def bfs(vertices: dict, start_vertex: int) -> set[int]:
 	visited = set(start_vertex)
 	queue: Queue = Queue()
 	queue.put(start_vertex)
-	# get the vertex, add the adjacent vertexes
 	while not queue.empty():
 		vertex = queue.get()
 		if vertex not in visited:
@@ -618,7 +629,6 @@ def dfs(vertices: dict, start_vertex: int) -> set[int]:
 	visited = set(start_vertex)
 	stack = []
 	stack.append(start_vertex)
-	# pop the vertex, add the adjacent vertexes
 	while stack:
 		vertex = stack.pop()
 		if vertex not in visited:

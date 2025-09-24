@@ -600,11 +600,11 @@
 				- https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01242-7
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
 			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
-			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps)
+			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps, elderberry, echinacea, vitamin c/d, zinc, probiotics)
 			- avoid other unnatural immune modulators like sucralose/aspartame
 			- balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity)
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
-			- avoid chemicals including BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
+			- avoid chemicals including artificial sweeteners, BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
 				- artemisia dracunculus: reduce IL-23, IL-17A, lower cell infiltration, recover brain demyelination, increase antioxidant efficacy
 				- turmeric: reduce IL-17, TGF-beta, IFN-y, IL-6, IL-21, IL-23, STAT3, RORyt, Th17 infiltration/differentiation, decrease astrocyte proliferation, improve myelinogenesis, increase oligodendrocyte activity/differentiation, reduce TUNEL cells, CASP3, Asp353, Cyt-c, increase MBP expression, inhibit IL-12 through JNK-STAT, increase IL-10
