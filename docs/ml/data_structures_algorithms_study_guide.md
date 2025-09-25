@@ -8,6 +8,7 @@ Data structures and algorithms study guide
 			- a constraint on relevant output values can indicate a smaller alternate output iteration to perform rather than iterating through every possible input value
 
 - data structures
+
 	- O(1) operations can become O(n) in worst case scenarios due to hash collisions which is rare bc of python's resizing and good hash functions
 	- deep copy is required when the element like a list in another element like a list is mutable to avoid linking to a changing object
 	- strings are immutable arrays of unicode characters, each character taking 1 - 4 bytes
@@ -51,37 +52,14 @@ Data structures and algorithms study guide
 			- when popping the smallest element, Python knows that, because of the heap property, the element is at the root of the tree. It replaces the element with the last element at the deepest layer and then checks if the heap property is violated down the branch
 			- an element must always be smaller than the elements that are at twice its index plus one and twice its index plus two
 			- you can transform a populated list into a heap via function heapify
-
-				pq = []                         # list of entries arranged in a heap
-				entry_finder = {}               # mapping of tasks to entries
-				counter = itertools.count()     # unique sequence count
-				
-				def add_task(task, priority=0):
-				    if task in entry_finder:
-				        remove_task(task)
-				    count = next(counter)
-				    entry = [priority, count, task]
-				    entry_finder[task] = entry
-				    heappush(pq, entry)
-
-				def remove_task(task):
-				    entry = entry_finder.pop(task)
-				    entry[-1] = 'removed'
-
-				def pop_task():
-				    while pq:
-				        priority, count, task = heappop(pq)
-				        if task is not 'removed':
-				            del entry_finder[task]
-				            return task
-				    raise KeyError('pop from an empty priority queue')
-
 		- a priority queue is a queue where items have priorities, where items with higher priority are dequeued first, and if items have the same priority, theyre dequeued in order of insertion like a queue, which acts like a sorted structure when dequeued
 		- a priority queue is a common use for a heap
 		- priority queues are used for task scheduling by priority, in dijkstra's shortest path algorithm to find the shortest path by selecting the nearest node, in huffman encoding to combine least frequent symbols using a priority queue to reduce data size, when merging multiple sorted lists by selecting the smallest element from each list, and a search algorithm (pathfinding) which prioritizes nodes based on cost to find the shortest path in navigation
 		- max priority queues are where the highest priority item is dequeued first, and a min priority queue is where the lowest priority item is dequeued first
+	
 	- trees
 		- binary trees: trees with at most two child nodes, a left and right node
+	
 	- graphs
 		- the adjacency matrix of a graph stores the graph in the form of a 2D matrix where rows and columns denote vertices connected by an edge, where each entry in the matrix represents the weight of the edge between those vertices. 
 

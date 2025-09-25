@@ -34,6 +34,9 @@
 
 - how to implement the interface analysis framework as a set of simple functions for an initial version, involving alternate default constant simple structures to combine, such as:    
     
+    - identify useful structures like 'graphs of problem types of problem-solving intents' to 'filter relevant graphs'
+        - for example, a graph that solves problems of problem-solving intents like imbalanced problem-solving intents or missing problem-solving intents is unsolved for
+
     - identify useful structures like unsolved graph intents like identifying a 'continuous graph of abstract solution metric structures across systems' to 'filter relevant graphs'
         - for example, an unsolved intent is to identify the 'continuous graph of the structures of solution metrics in every relevant (like maximally different) system' which can be composed of abstract structures (like the graph of efficient structures of systems on a spectrum other than its defining variables like 'efficiency' or the continuous graph of 'efficient interactions of all interface variable sets')
             - the graph of graph types like 'cluster graphs' and 'vector embedding graphs' and 'graphs of points as combinations' is also not organized/optimized for all solution metric variables

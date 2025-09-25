@@ -97,7 +97,7 @@ python study guide
 	- 3.13: advanced interactive interpreter, JIT compiler, and a free thread mode
 	- 3.12: enhanced error messages, type parameter syntax, module improvement, syntactic formalization of f-strings
 	- 3.11: enhanced performance by 10 - 60%, improved error messages, exception groups, exception notes
-	- 3.10: parenthesized context managers, pattern matching for complex data structures
+	- 3.10: parenthesized context managers, pattern matching for complex data structures, type annotations dont need to be imported and are default
 	- 3.9: offered string methods, dictionary merge and update operators, pattern matching, zoneinfo, improved type hinting
 	- 3.8: new optimizations and features like positional-only parameters and the walrus operators
 	- 3.7: improved performance, data classes to generate __init__ and __repr__ in classes, context variables to manage context-local state, ordered dictionaries by default
@@ -122,8 +122,8 @@ python study guide
 			- use multiprocessing to create separate processes with their own memory space, bypassing the GIL which is useful for CPU bound tasks
 				with multiprocessing.Pool(processes=4) as pool:
 					results = pool.map(square_function, range(10))
-			- use asyncio/coroutines for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread
-			- use python 3.13 which comes with free thread mode
+		- use asyncio/coroutines for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread
+		- use python 3.13 which comes with free thread mode
 
 	- use match-case rather than if-else
 	- use built-in functions which are usually optimized for speed and are often written in C
@@ -135,7 +135,7 @@ python study guide
 		- Broadcasting in NumPy allows us to perform arithmetic operations on arrays of different shapes without reshaping them. It automatically adjusts the smaller array to match the larger array's shape by replicating its values along the necessary dimensions. This makes element-wise operations more efficient by reducing memory usage and eliminating the need for loops
 	- use pandas to manipulate data which is faster than standard python data structures
 	- use sets and unions instead of loops where possible
-	- use multiple assignment when possible
+	- use multiple assignment
 	- avoid global variables to help keep track of scope and avoid unnecessary memory usage, also local variables are faster to retrieve than global variables
 	- use join rather than + to concatenate strings whch avoids creating a new string for each component
 	- use while 1 for infinite loops
@@ -144,9 +144,9 @@ python study guide
 	- use memoization like decorator caching such as with @functools.lru_cache(maxsize=100)
 	- use keys for sorts using operator.itemgetter(): sorted(data, key=itemgetter(0))
 	- dont use sets for conditions like checking membership of an item in a list, its not usually faster to change list format to a set
-	- use linked lists which allocate memory as needed for frequent insertions/deletions, as linked lists avoid the overhead of resizing like arrays, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists bc items are accessed sequentially, linked lists are faster at adding elements at the start of the linked list
+	- use linked lists which allocate memory as needed for frequent insertions/deletions, as linked lists avoid the overhead of resizing like lists, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists bc items are accessed sequentially, linked lists are faster at adding elements at the start of the linked list
 	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
-	- use dicts to efficiently store and lookup data, and tuples to group values together
+	- use dicts to efficiently store/access data, and tuples to group values together
 	- use tuples to consume less memory and access/create faster than lists
 	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed

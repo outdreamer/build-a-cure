@@ -219,14 +219,13 @@ def pop_task():
 # stack
 from collections import deque
 stack = deque()
-stack.append(1)  # Push
+stack.append(1) 
 stack.append(2)
 print(stack.pop())  # Output: 2 (LIFO)
 
 # queue
-from collections import deque
 dq = deque()
-dq.append(1)  # Enqueue
+dq.append(1) 
 dq.append(2)
 print(dq.popleft())  # Output: 1 (FIFO)
 
@@ -338,7 +337,6 @@ class BinaryTree:
 			return root
 
 #from random import randint
-#from queue import Queue
 #import bisect
 
 #check in every sort function
@@ -355,10 +353,7 @@ class BinaryTree:
 #    if not right:
 #        return left
 
-
-# sort recommendations
-
-"""
+""" sort recommendations:
 	"General Purpose (Large Data)": ["Merge Sort", "Quick Sort", "Heap Sort"],
 	"Small Arrays (< 50 elements)": ["Insertion Sort", "Selection Sort"],
 	"Nearly Sorted Data": ["Insertion Sort", "Shell Sort"],
@@ -420,17 +415,17 @@ def merge(left, right):
 	return result
 
 def insertion_sort(array):
-	# starts at second item, for every i in array, sets j = i - 1 and saves the right_item = array[i]
-	# while array[j] is greater than right_item, move the array[j] one position to the right and decrease j by 1
-	# then when there are no more greater items, set array[j + 1] to the right_item which is lower than all the moved items
+	# starts at second item, for every i in array, sets j = i - 1 and saves the key = array[i]
+	# while array[j] > key and j > 0, move the array[j] one position to the right and decrease j by 1
+	# then when there are no more greater items, set array[j + 1] to the key which is lower than all the moved items
 	# insertion sort is faster than bubble sort, O(n^2)
 	for i in range(1, len(array)): # starts at item 1 so it can use the left item as j
 		j = i - 1
-		right_item = array[i] # name it something else so array[j + 1] doesnt overwrite array[i]
-		while j >= 0 and array[j] > right_item: # switch item j and the next right item bc left item > right item
+		key = array[i] # name it something else so array[j + 1] doesnt overwrite array[i]
+		while j >= 0 and array[j] > key: # switch item j and the key bc left item > key
 			array[j + 1] = array[j]
 			j = j - 1
-		array[j + 1] = right_item
+		array[j + 1] = key
 	return array
 
 # Selection Sort (simple, in-place, not stable)
@@ -440,7 +435,7 @@ def selection_sort(a):
     n = len(a)
     for i in range(n):
         m = i
-        # Find minimum element in remaining unsorted array
+        # assign m to i, then to minimum element in remaining unsorted array
         for j in range(i+1, n):
             if a[j] < a[m]:
                 m = j
