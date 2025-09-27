@@ -3,9 +3,15 @@ python study guide
 - questions
 
 	- how to use python given limited memory
-		- set memory limits for a program with the resource module, which can limit number of child processes, number of open files, CPU time or restrict the total address space, after which it will generate MemoryError exceptions when no more memory is available
-		- optimize code for memory efficiency using generators/iterators, avoiding unnecessary copies, using numpy/pandas for handling large datasets, using ulimit or cgroups on linux to restrict memory usage for a python process, use tracemalloc to identify memory bottlenecks in code
-	
+		- set memory limits for a program with the resource module, which can limit the following, after which it will generate MemoryError exceptions when no more memory is available:
+			- the number of child processes, number of open files, CPU time or the total address space
+		- optimize code for memory efficiency using:
+			- generators/iterators
+			- avoiding unnecessary copies
+			- using numpy/pandas for handling large datasets
+			- using ulimit or cgroups on linux to restrict memory usage for a python process
+			- use tracemalloc to identify memory bottlenecks in code
+		
 	- heap memory
 		- a private memory area used to store objects and data structures dynamically allocated during runtime
 		- dynamic allocation: memory is allocated on demand when objects are created, objects like lists/dicts/user-defined objects are stored in the heap
@@ -15,22 +21,27 @@ python study guide
 		- python uses a special allocator for small objects (integer, strings) to reduce fragmentation and improve performance
 		- larger objects are allocated directly from the heap
 		- python tracks the reference count to an object, when it drops to zero, the object is eligible for gc
-		- manage heap memory by avoiding creating unnecesssary objects, reusing objects wherever possible, using generators instead of lists, use gc and tracemalloc to debug and monitor memory usage, and delete references to objects when no longer needed
+		- manage heap memory by: 
+			- avoid creating: avoiding creating unnecesssary objects
+			- reuse: reusing objects wherever possible
+			- delete: delete references to objects when no longer needed
+			- generators: using generators instead of lists
+			- gc/tracemalloc: use gc and tracemalloc to debug and monitor memory usage
 		- unlike stack memory which is used for static memory allocation and has a fixed size, heap memory allows for allocation of memory at runtime, so the size of the memory can grow or shrink as needed so its useful for storing objects whose size is not known at compile time
 			- heap memory can be accessed from anywhere in the program, whereas stack memory is limited to be accessed by the function in which it was allocated
 			- heap memory is more flexible but can be slower to access than stack memory bc of dynamic allocation/garbage collection overhead
 	
 	- detect a memory leak
-		- memory leak: when objects that are no longer being used are not correctly deallocated by the garbage collector
+		- memory leak: when objects that are no longer used are incorrectly deallocated by the garbage collector
 		- identify memory leaks:
 			- tracemalloc detects memory consuming lines in python, the code locations where the largest memory blocks are being allocated may indicate a memory leak
 			- gc can identify objects that are not being collected
 			- objgraph visualizes object references to find leaks by identifying objects being retained unnecessarily
 			- memory profiler tracks memory usage line by line, identifying any areas of the code where the memory usage is significantly increasing which may indicate a memory leak
 		- fix memory leaks:
-			- identify when object references are not removed when not needed and remove them by setting them to None or deleting them
-			- use weakref (weak references dont prevent deallocation by the gc), though weak references are useless once the object they reference has been deallocated so the code needs to handle that
-			- identify large lists/arrays that arent needed all at once and use generators instead (use yield keyword) or iterators (implelment a __iter__ and __next__ method in the class)
+			- delete: identify when object references are not removed when not needed and remove them by setting them to None or deleting them
+			- weakref: use weakref (weak references dont prevent deallocation by the gc), though weak references are useless once the object they reference has been deallocated so the code needs to handle that
+			- generators: identify large lists/arrays that arent needed all at once and use generators instead (use yield keyword) or iterators (implelment a __iter__ and __next__ method in the class)
 
 	- whats are some similarities/differences between python and java
 		- Java supports OOP, is compiled into bytecode and interpreted at runtime by the JVM, and statically typed and platform-independent
@@ -88,7 +99,9 @@ python study guide
 		- coverage analysis: coverage.py
 		- black for formatting
 		- pylint/flake8 for PEP compliance
-		- cprofile and line_profiler for profiling, use memory_profiler for profiling and identifying memory leaks, use psutil for identifying memory leaks
+		- cprofile and line_profiler for profiling
+		- use memory_profiler for profiling and identifying memory leaks
+		- use psutil for identifying memory leaks
 		- pdb for debugging
 		- monitoring tools: prometheus with grafana, datadog, sentry, new relic, ELK stack, pyroscope
 
@@ -127,8 +140,6 @@ python study guide
 
 	- use match-case rather than if-else
 	- use built-in functions which are usually optimized for speed and are often written in C
-	- load modules only when needed
-	- avoid recursion which takes up a lot of memory and instead use iteration
 	- use cython (a superset of python) to speed up slow code, cython is compiled into c which makes it faster
 		save file with pyx extension and use cythonize command on the file to compile it, after which it can be imported and used like a normal function
 	- use vectorized operations and broadcasting with numpy
@@ -136,10 +147,8 @@ python study guide
 	- use pandas to manipulate data which is faster than standard python data structures
 	- use sets and unions instead of loops where possible
 	- use multiple assignment
-	- avoid global variables to help keep track of scope and avoid unnecessary memory usage, also local variables are faster to retrieve than global variables
 	- use join rather than + to concatenate strings whch avoids creating a new string for each component
 	- use while 1 for infinite loops
-	- exit early (raise exceptions or exit first under failure conditions where possible to avoid executing code that will fail)
 	- use itertools for combinations/permutations
 	- use memoization like decorator caching such as with @functools.lru_cache(maxsize=100)
 	- use keys for sorts using operator.itemgetter(): sorted(data, key=itemgetter(0))
@@ -148,12 +157,16 @@ python study guide
 	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
 	- use dicts to efficiently store/access data, and tuples to group values together
 	- use tuples to consume less memory and access/create faster than lists
-	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
 	- use scipy and numpy (implemented in c) for numerical operations
 	- use list comprehensions which are faster than loops for creating a list
 	- use map function which is faster than list comprehensions for function calls and large datasets: map(lambda x: x * x, range(1000000)) instead of [x * x for x in range(1000000)]
 	- use zip function to iterate two lists of equal size
+	- use lazy loading of data to only load data when needed, using generators, __getattr__, or functools.lru_cache
+	- exit early (raise exceptions or exit first under failure conditions where possible to avoid executing code that will fail)
+	- load modules only when needed
+	- avoid recursion which takes up a lot of memory and instead use iteration
+	- avoid global variables to help keep track of scope and avoid unnecessary memory usage, also local variables are faster to retrieve than global variables
 
 - other tips
 	- use context managers to handle resources (files, sockets, db connections) in an efficient way by defining a context in which a resource is used and automatically open and close the resource

@@ -606,6 +606,21 @@
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including artificial sweeteners, BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
+			    - relevant molecules created with sun exposure: melatonin, cortisol, endocannabinoids
+			    - alternate sources of molecules created with sun exposure:
+			        - cortisol: hydrocortisone
+			        - melatonin: tart cherries, bananas, oats, avoid caffeine and alcohol
+			        - endocannabinoids: exercise, vitamin c, omega 3s, and dark chocolate can help maintain or make endocannabinoids
+			        - lumisterol/other vitamin D–like compounds: produced by sunlight
+			        - itaconate: found in rye/wheat bread, inhibits IL-17A, TET2, NLRP3, SDH, KEAP1 thereby inhibiting IL-1beta and TNF and HIF-1alpha, increases ATF3
+			        - cis-urocanic acid: produced from an irradiated metabolite of histidine
+			        - leptin: resembles IL-6
+			        - tachysterol: found in UV-B-irradiated foods such as mushrooms or baker’s yeast
+			        - oxytocin: vitamin D/C can help make oxytocin
+			        - serotonin: exercise, vitamin D, tryptophan, omega 3s, ashwagandha, probiotics, avoid caffeine, avoid artificial sweeteners 
+			        - endorphins: exercise, dark chocolate, wine, inhale lavender/citrus/rosemary/frankincense/ylang ylang
+			        - nitric oxide: arginine, vitamin c, folic acid can boost nitric oxide, and beets/spinach/arugula/chicory/cabbage/cauliflower/carrots/broccoli/parsley/kale contain nitrites
+			    - https://www.scientificamerican.com/article/surprising-ways-that-sunlight-might-heal-autoimmune-diseases/
 				- artemisia dracunculus: reduce IL-23, IL-17A, lower cell infiltration, recover brain demyelination, increase antioxidant efficacy
 				- turmeric: reduce IL-17, TGF-beta, IFN-y, IL-6, IL-21, IL-23, STAT3, RORyt, Th17 infiltration/differentiation, decrease astrocyte proliferation, improve myelinogenesis, increase oligodendrocyte activity/differentiation, reduce TUNEL cells, CASP3, Asp353, Cyt-c, increase MBP expression, inhibit IL-12 through JNK-STAT, increase IL-10
 				- ginkgo biloba: inhibit TLR4, Nk-kb, iNOS, IL-1beta, TNF-alpha, increase Arg-1, NTF, regulate microglia and astrocytes balance, induce OPCs generation, myelin production
@@ -628,7 +643,7 @@
 							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8809074/
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
-				- use vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, black seed oil, gingko biloba, ginseng, curcumin, CBD (in small amounts to prevent heart attack), monolaurin
+				- use hydrocortisone to control inflammation (in small amounts to avoid heart damaage), vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, black seed oil, gingko biloba, ginseng, curcumin, CBD (in small amounts to prevent heart attack), monolaurin
 					- https://www.frontiersin.org/files/Articles/985943/fncel-16-985943-HTML/image_m/fncel-16-985943-t001.jpg
 					- https://www.frontiersin.org/articles/10.3389/fncel.2022.985943/full
 				- sulfuretin

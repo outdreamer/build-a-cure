@@ -429,19 +429,17 @@ def insertion_sort(array):
 	return array
 
 # Selection Sort (simple, in-place, not stable)
-def selection_sort(a):
+def selection_sort(array):
 	# time best: "O(n²)", time average: "O(n²)", time worst:"O(n²)", space complexity: "O(1)"
-    a = list(a)
-    n = len(a)
-    for i in range(n):
+    for i in range(len(array)):
         m = i
         # assign m to i, then to minimum element in remaining unsorted array
-        for j in range(i+1, n):
-            if a[j] < a[m]:
+        for j in range(i+1, len(array)):
+            if array[j] < array[m]:
                 m = j
         if m != i:
             # Swap found minimum with first element
-            a[i], a[m] = a[m], a[i]
+            array[i], array[m] = array[m], array[i]
     return a
 
 # Bubble Sort - Simple comparison-based algorithm, Repeatedly steps through the list, compares adjacent elements and swaps them if wrong order
