@@ -362,6 +362,8 @@
 			- gentle substances: garlic, cranberry, ginger, feverfew, omega 3s, ginkgo, turmeric, chamomile, fenugreek, evening primrose oil, cinnamon, grape seed, melatonin, NAC, bromelain, clopidogrel
 			- harsher substances: aloe, meadowsweet, willow, red clover, dong quai, vitamin E (as an antagonist of vitamin k which clots the blood), cayenne
 			- ginseng has variable effects on clotting and should be avoided for blood thinning and when using warfarin
+		- low blood pressure
+			- hydrocortisone (in small amounts to avoid damaging the heart)
 		- high blood pressure
 			- tyrosine, omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
 			- treat infections like flu/covid which can raise blood pressure
@@ -600,15 +602,15 @@
 				- https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01242-7
 			- be aware of dose-dependent effects like immune-inhibiting/stimulant effects of boswellia at low/high doses
 			- treat vitamin deficiencies associated with autoimmunity like vitamin a deficiency
-			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps, elderberry, echinacea, vitamin c/d, zinc, probiotics)
-			- avoid other unnatural immune modulators like sucralose/aspartame
+			- avoid immune stimulants (like caffeine, excess zinc, medicinal mushrooms such as cordyceps, elderberry, echinacea, probiotics)
+			- avoid other unnatural immune modulators like sucralose/aspartame/acesulfame potassium
 			- balance hormones (estrogen can make some autoimmune conditions worse, vitamin d and cortisol impact immunity)
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including artificial sweeteners, BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
 			    - relevant molecules created with sun exposure: melatonin, cortisol, endocannabinoids
 			    - alternate sources of molecules created with sun exposure:
-			        - cortisol: hydrocortisone
+			        - cortisol: hydrocortisone, grapefruit, licorice, avoid refined carbs and alcohol
 			        - melatonin: tart cherries, bananas, oats, avoid caffeine and alcohol
 			        - endocannabinoids: exercise, vitamin c, omega 3s, and dark chocolate can help maintain or make endocannabinoids
 			        - lumisterol/other vitamin D–like compounds: produced by sunlight
@@ -632,6 +634,8 @@
 					- https://www.frontiersin.org/files/Articles/985943/fncel-16-985943-HTML/image_m/fncel-16-985943-t001.jpg
 				- periodic fasting-mimicking diet of 2 days can promote stem cell regeneration, suppress inflammation, extend health span, and improve metabolic health
 					- https://pubmed.ncbi.nlm.nih.gov/38287649/
+				- MIND (Mediterranean-DASH Intervention for Neurodegenerative Delay) diet for MS fatigue/disability
+					- https://multiplesclerosisnewstoday.com/news-posts/2025/09/25/ectrims-2025-mind-diet-help-reduce-ms-fatigue-disability/
 				- increase interferon-alpha/beta (which increase Mx proteins)
 					- https://pubmed.ncbi.nlm.nih.gov/31648992/ - 'Interferon-β corrects massive gene dysregulation in multiple sclerosis'
 					- substances that increase interferon-beta: 
@@ -643,6 +647,7 @@
 							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8809074/
 				- avoid silica (found in supplements like Zeolite, Alfalfa, Bamboo, Nettle, and Horsetail which contain silica, and products like paint, toothpaste, and Fiji water) and immune stimulants (like pycnogenol)
 				- for silica-based paint fumes, use charcoal, baking soda, vinegar, water to absorb paint fumes
+				- avoid biotin supplements which may increase disease activity
 				- use hydrocortisone to control inflammation (in small amounts to avoid heart damaage), vitamin d, b-vitamins, coq10, carnitine, probiotics, lipoic acid, gotu kola, black seed oil, gingko biloba, ginseng, curcumin, CBD (in small amounts to prevent heart attack), monolaurin
 					- https://www.frontiersin.org/files/Articles/985943/fncel-16-985943-HTML/image_m/fncel-16-985943-t001.jpg
 					- https://www.frontiersin.org/articles/10.3389/fncel.2022.985943/full

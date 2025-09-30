@@ -2,46 +2,42 @@ python study guide
 
 - questions
 
-	- how to use python given limited memory
-		- set memory limits for a program with the resource module, which can limit the following, after which it will generate MemoryError exceptions when no more memory is available:
-			- the number of child processes, number of open files, CPU time or the total address space
-		- optimize code for memory efficiency using:
-			- generators/iterators
-			- avoiding unnecessary copies
-			- using numpy/pandas for handling large datasets
-			- using ulimit or cgroups on linux to restrict memory usage for a python process
-			- use tracemalloc to identify memory bottlenecks in code
-		
 	- heap memory
 		- a private memory area used to store objects and data structures dynamically allocated during runtime
 		- dynamic allocation: memory is allocated on demand when objects are created, objects like lists/dicts/user-defined objects are stored in the heap
-		- garbage collection: the gc automatically frees memory no longer in use which prevents memory leaks, and generational garbage collection helps identify and clean up circular references
-		- the GIL keeps memory management thread-safe so only one thread executes python bytecode at a time
 		- python has its own memory manager that handles heap memory allocation/deallocation, using pools/arenas to optimize memory usage for small objects
 		- python uses a special allocator for small objects (integer, strings) to reduce fragmentation and improve performance
 		- larger objects are allocated directly from the heap
-		- python tracks the reference count to an object, when it drops to zero, the object is eligible for gc
-		- manage heap memory by: 
-			- avoid creating: avoiding creating unnecesssary objects
-			- reuse: reusing objects wherever possible
-			- delete: delete references to objects when no longer needed
-			- generators: using generators instead of lists
-			- gc/tracemalloc: use gc and tracemalloc to debug and monitor memory usage
 		- unlike stack memory which is used for static memory allocation and has a fixed size, heap memory allows for allocation of memory at runtime, so the size of the memory can grow or shrink as needed so its useful for storing objects whose size is not known at compile time
 			- heap memory can be accessed from anywhere in the program, whereas stack memory is limited to be accessed by the function in which it was allocated
 			- heap memory is more flexible but can be slower to access than stack memory bc of dynamic allocation/garbage collection overhead
+		- garbage collection: the gc automatically frees memory no longer in use which prevents memory leaks
+		 	- generational garbage collection helps identify and clean up circular references
+			- python tracks the reference count to an object, when it drops to zero, the object is eligible for gc
+		- the GIL keeps memory management thread-safe so only one thread executes python bytecode at a time
 	
+	- manage memory by: 
+		- avoid creating unnecessary objects/copies
+		- reuse objects where possible
+		- delete references to objects when no longer needed
+		- use generators instead of lists
+		- use gc/tracemalloc to monitor memory usage and identify memory bottlenecks
+		- use numpy/pandas for handling large datasets
+		- use resource module to limit number of child processes/open files/CPU time/total address space 
+		- use ulimit/cgroups on linux to restrict memory usage for a python process
+		
 	- detect a memory leak
-		- memory leak: when objects that are no longer used are incorrectly deallocated by the garbage collector
+		- memory leak: when objects that are no longer used are not correctly deallocated by the garbage collector
 		- identify memory leaks:
-			- tracemalloc detects memory consuming lines in python, the code locations where the largest memory blocks are being allocated may indicate a memory leak
-			- gc can identify objects that are not being collected
+			- tracemalloc detects code locations where the largest memory blocks are allocated which may indicate a memory leak
+			- memory_profiler identifies code where the memory usage is significantly increasing which may indicate a memory leak
+			- gc can identify objects that are not being garbage collected
 			- objgraph visualizes object references to find leaks by identifying objects being retained unnecessarily
-			- memory profiler tracks memory usage line by line, identifying any areas of the code where the memory usage is significantly increasing which may indicate a memory leak
+			- use psutil for identifying memory leaks
 		- fix memory leaks:
-			- delete: identify when object references are not removed when not needed and remove them by setting them to None or deleting them
-			- weakref: use weakref (weak references dont prevent deallocation by the gc), though weak references are useless once the object they reference has been deallocated so the code needs to handle that
-			- generators: identify large lists/arrays that arent needed all at once and use generators instead (use yield keyword) or iterators (implelment a __iter__ and __next__ method in the class)
+			- delete references: identify when object references are not removed when not needed and remove them by setting them to None or deleting them
+			- use weakref: use weakref (weak references dont prevent deallocation by the gc), though weak references are useless once the object they reference has been deallocated so the code needs to handle that
+			- use generators: identify large lists/arrays that arent needed all at once and use generators instead (use yield keyword) or iterators (implelment a __iter__ and __next__ method in the class)
 
 	- whats are some similarities/differences between python and java
 		- Java supports OOP, is compiled into bytecode and interpreted at runtime by the JVM, and statically typed and platform-independent
@@ -85,7 +81,7 @@ python study guide
 		- integration testing
 		- component testing
 		- unit testing: pytest or unittest
-		- static testing
+		- static analysis testing
 			- linting/static analysis: mypy
 			- static analysis identifies bugs in code without being run like XSS and SQL injection attack vectors, authentication bypass issues, and abstract injection points but can identify false positives
 			- pysa improves on static analysis with data dependency and code context awareness to implement taint analysis and avoid false positives, identifying issues like XSS, SQL injections, path injections, OS command executions
@@ -96,19 +92,17 @@ python study guide
 
 	- other analysis tools
 		- flameprof for flamegraphs created with cprofile stats
+		- cprofile and line_profiler and memory_profiler for profiling
 		- coverage analysis: coverage.py
 		- black for formatting
 		- pylint/flake8 for PEP compliance
-		- cprofile and line_profiler for profiling
-		- use memory_profiler for profiling and identifying memory leaks
-		- use psutil for identifying memory leaks
 		- pdb for debugging
 		- monitoring tools: prometheus with grafana, datadog, sentry, new relic, ELK stack, pyroscope
 
 - version updates
 	- 3.14: deferred evaluation of annotations, template strings, improved error messages, a tail-call-compiled interpreter, a C API for python runtime configuration
 	- 3.13: advanced interactive interpreter, JIT compiler, and a free thread mode
-	- 3.12: enhanced error messages, type parameter syntax, module improvement, syntactic formalization of f-strings
+	- 3.12: enhanced error messages, type parameter syntax, module improvements, syntactic formalization of f-strings
 	- 3.11: enhanced performance by 10 - 60%, improved error messages, exception groups, exception notes
 	- 3.10: parenthesized context managers, pattern matching for complex data structures, type annotations dont need to be imported and are default
 	- 3.9: offered string methods, dictionary merge and update operators, pattern matching, zoneinfo, improved type hinting
@@ -155,8 +149,8 @@ python study guide
 	- dont use sets for conditions like checking membership of an item in a list, its not usually faster to change list format to a set
 	- use linked lists which allocate memory as needed for frequent insertions/deletions, as linked lists avoid the overhead of resizing like lists, each item in a linked list can be stored in a different location, although lookup times are slower in linked lists bc items are accessed sequentially, linked lists are faster at adding elements at the start of the linked list
 	- use numpy arrays instead of lists for large data bc numpy arrays use less memory and are faster
-	- use dicts to efficiently store/access data, and tuples to group values together
-	- use tuples to consume less memory and access/create faster than lists
+	- use dicts to efficiently store/access data
+	- use tuples to group values together and consume less memory and access/create faster than lists
 	- use hdfs or parquet formats to save data on disk and load only the parts that are needed
 	- use scipy and numpy (implemented in c) for numerical operations
 	- use list comprehensions which are faster than loops for creating a list
@@ -209,7 +203,6 @@ python study guide
 		- use whitelists to support valid requests
 		- use prepared statements to send a query template and then send the values for fields in the template
 			- a prepared statement is a feature where the database pre-compiles SQL code and stores the results, separating it from data, where the query can be executed later
-			- a prepared statement takes the form of a pre-compiled template into which constant values are substituted during each execution
 		- check hashes of downloads
 		- have a secure backup strategy in case of database corruption or sql injection attacks
 		- store credentials in .env files

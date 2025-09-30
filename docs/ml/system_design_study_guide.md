@@ -663,9 +663,53 @@ System design study guide
 			- visitor method works well with recursive structures like directory trees or xml structures bc it can visit each node in the recursive structure, and the visitor method is useful when performing operations on all elements of the complex object like a tree
 
 
+Cloud Native Distributed System Design Patterns
+	Pattern							Summary
+	Ambassador						Create helper services that send network requests on behalf of a consumer service or application.
+	Anti-Corruption Layer			Implement a façade or adapter layer between a modern application and a legacy system.
+	Asynchronous Request-Reply		Decouple back-end processing from a front-end host. This pattern is useful when back-end processing must be asynchronous, but the front end requires a clear and timely response.
+	Backends for Frontends			Create separate backend services for specific frontend applications or interfaces.
+	Bulkhead						Isolate elements of an application into pools so that if one fails, the others continue to function.
+	Cache-Aside						Load data on demand into a cache from a data store.
+	Choreography					Let individual services decide when and how a business operation is processed, instead of depending on a central orchestrator.
+	Circuit Breaker					Handle faults that might take a variable amount of time to fix when an application connects to a remote service or resource.
+	Claim Check						Split a large message into a claim check and a payload to avoid overwhelming a message bus.
+	Compensating Transaction		Undo the work performed by a sequence of steps that collectively form an eventually consistent operation.
+	Competing Consumers				Enable multiple concurrent consumers to process messages that they receive on the same messaging channel.
+	Compute Resource Consolidation	Consolidate multiple tasks or operations into a single computational unit.
+	CQRS							Separate operations that read data from those that update data by using distinct interfaces.
+	Deployment Stamps				Deploy multiple independent copies of application components, including data stores.
+	Event Sourcing					Use an append-only store to record a full series of events that describe actions taken on data in a domain.
+	External Configuration Store	Move configuration information out of an application deployment package to a centralized location.
+	Federated Identity				Delegate authentication to an external identity provider.
+	Gateway Aggregation				Use a gateway to aggregate multiple individual requests into a single request.
+	Gateway Offloading				Offload shared or specialized service functionality to a gateway proxy.
+	Gateway Routing					Route requests to multiple services by using a single endpoint.
+	Geode							Deploy back-end services across geographically distributed nodes. Each node can handle client requests from any region.
+	Health Endpoint Monitoring		Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
+	Index Table						Create indexes over the fields in data stores that queries frequently reference.
+	Leader Election					Coordinate actions in a distributed application by electing one instance as the leader. The leader manages a collection of collaborating task instances.
+	Materialized View				Generate prepopulated views over the data in one or more data stores when the data is poorly formatted for required query operations.
+	Messaging Bridge				Build an intermediary to enable communication between messaging systems that are otherwise incompatible.
+	Pipes and Filters				Break down a task that performs complex processing into a series of separate elements that can be reused.
+	Priority Queue					Prioritize requests sent to services so that requests with a higher priority are processed more quickly.
+	Publisher/Subscriber			Enable an application to announce events to multiple consumers asynchronously, without coupling senders to receivers.
+	Quarantine						Ensure that external assets meet a team-agreed quality level before the workload consumes them.
+	Queue-Based Load Leveling		Use a queue that creates a buffer between a task and a service to smooth intermittent heavy loads.
+	Rate Limiting					Avoid or minimize throttling errors by controlling the consumption of resources.
+	Retry							Enable applications to handle anticipated temporary failures by retrying failed operations.
+	Saga							Manage data consistency across microservices in distributed transaction scenarios.
+	Scheduler Agent Supervisor		Coordinate a set of actions across distributed services and resources.
+	Sequential Convoy				Process a set of related messages in a defined order without blocking other message groups.
+	Sharding						Divide a data store into a set of horizontal partitions or shards.
+	Sidecar							Deploy components into a separate process or container to provide isolation and encapsulation.
+	Static Content Hosting			Deploy static content to a cloud-based storage service for direct client delivery.
+	Strangler Fig					Incrementally migrate a legacy system by gradually replacing pieces of functionality with new applications and services.
+	Throttling						Control the consumption of resources from applications, tenants, or services.
+	Valet Key						Use a token or key to provide clients with restricted, direct access to a specific resource or service.
+
 - sources
 	https://igotanoffer.com/en/advice/amazon-system-design-interview
 	https://www.geeksforgeeks.org/system-design/amazon-system-design-interview-questions/#
 	https://www.geeksforgeeks.org/python/python-design-patterns/
-
-
+	https://learn.microsoft.com/en-us/azure/architecture/patterns/
