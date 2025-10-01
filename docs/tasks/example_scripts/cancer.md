@@ -365,35 +365,50 @@
 		- low blood pressure
 			- hydrocortisone (in small amounts to avoid damaging the heart)
 		- high blood pressure
-			- tyrosine, omega-3s (specifically icosapent ethyl), which can also prevent heart attack and atherosclerosis
-			- treat infections like flu/covid which can raise blood pressure
+			- omega-3s (specifically in the form of icosapent ethyl), which can also prevent heart attack and atherosclerosis
+			- prevent/treat infections like flu/covid which can raise blood pressure
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
-			- types of substances, by cause/intent:
-				- for high blood pressure caused by diabetic nephropathy: ACE inhibitors or ARBs, which dilate the arteriole exiting the glomerulus, thus reducing the blood pressure within the glomerular capillaries, may slow progression of the disease. Three classes of diabetes medications (GLP-1 agonists, DPP-4 inhibitors, and SGLT2 inhibitors) are also thought to slow the progression of diabetic nephropathy
-				- diuretics for high blood pressure caused by water retention: taurine, celery, gamma-linolenic acid, vitamin b6/c/E, potassium, high gamma/delta tocopherols and tocotrienols, magnesium, calcium, protein, fiber, coq10, l-carnitine, hawthorne
-				- calcium-channel blockers: ala, magnesium, vitamin b6/c/E, NAC, hawthorne, celery, omega-3's, calcium, garlic, taurine
-				- beta blockers: Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants
-				- angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): garlic, seaweed (wakame, etc), tuna, sardine, hawthorne, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate
+				- for high blood pressure caused by diabetic nephropathy: 
+					- ACE inhibitors or ARBs, which dilate the arteriole exiting the glomerulus, thus reducing the blood pressure within the glomerular capillaries, may slow progression of the disease. 
+					- Three classes of diabetes medications (GLP-1 agonists, DPP-4 inhibitors, and SGLT2 inhibitors) are also thought to slow the progression of diabetic nephropathy
+					- GLP-1 agonists: 
+						- gardenia, curcumin, resistant starch, berberine, tea, cinnamon, wheat, soybean, resveratrol
+					- DPP-4 inhibitors: 
+						- chinese rhubarb, ginger
+				- diuretics for high blood pressure caused by water retention: 
+					- taurine, celery, gamma-linolenic acid, vitamin b6/c/E, potassium, high gamma/delta tocopherols and tocotrienols, magnesium, calcium, protein, fiber, coq10, l-carnitine, hawthorn
+				- calcium-channel blockers:
+					- ala, magnesium, vitamin b6/c/E, NAC, hawthorn, celery, omega-3's, calcium, garlic, taurine, Alternanthera sessilis, Capparis aphylla, Coreopsis tinctoria, Gentiana floribunda, Jasonia glutinosa, Juniperus excelsa, Perovskia abrotanoides, Pumpkin seeds, Ranunculus japoniucus, Tiangou Jiangya, Viola odorata, Agelanthus dodoneifolius (Dodoneine), Glycosmis petelotii (N-demethylglypetelotine, Glypetelotine), Peucedanum praeruptorum (Praeruptor C), Polygonum multiflorum (Emodin), Sargassum siliquastrum (Sargachromenol D), Stephaniae tetrandrae (Tetrandrine, Fangchinoline), Stevia rebaudiana (Stevioside)
+				- beta blockers (β-adrenergic receptor inhibitors): 
+					- Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants, Banxia Baizhu Tianma Tang, Paeoniae Rubra, Rhubarbs, Suaeda asparagoides, Nelumbo nucifera (Higenamine 4′-O-β-d-glucoside), Notopterygium incisum (Isoimperatorin), Pimpinella anisum (Trans-anethole)
+				- angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): 
+					- garlic, seaweed (wakame, etc), tuna, sardine, hawthorn, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate
+					- Olive Leaf, Avena sativa, Bothrops jararaca, Bothrops moojeni, Cajanus cajan, green tea (EGCG), Berberine, Coix larchryma-jobi, Egg Yolk, Lithospermic Acid B, Salvia hispanica, Vigna radiata, Ampelopsis Brevipedunculata (Hopeaphenol; Vitisin A, Asparagus officinalis (Asparaptine), Chinese Herb (Pentagalloylglucose, Isochlorogenic acid B, Methyl 3,4-di-O-caffeoylquinate, Epigallocatechin gallate (EGCG/green tea), Epigallocatechin-3-O-Methylgallate), Cleistanthus collinus (Cleistanthins A, B), Clerodendron trichotomum (Acteoside, Isomartynoside, Leucosceptoside A, Martynoside), Delphinium sp. (Cyanin, Delphinidin), Desmodium styracifolium (Carlinoside, Schaftoside, Vicenin 1–3), Dioscorea opposita Thunb. (Diascorin), Eucommia ulmoides (Megastigmane Enantiomersv, Glycyrrhiza glabra (Licochalcone A), Glycyrrhiza uralensis (Echinatinv, Limonium michelsonii (Isolates), Mucuna Pruriens (Genistein), Caffeic Acid, Caffeoyl Acetate, Chlorogenic Acid, Ferulic Acid), Salvia miltiorrhizae (Salvianolic Acid B), Sargassum wightii (O-Heterocyclic Analogues), Tamarix hohenackeri (Chrysoeriol, Quercetin, Isoferulic acid, Methyl-4-O-methylgallate, Gallic acid, Methyl gallate), Toona sinensis (Quercetin, Resveratrol), Xestospongia Cf. Vansoesti (Salsolinol)
+				    - ACE-changing substances: 
+						- Dohaekseunggi-tang, Nigella sativa, Cymodocea Nodosa, Plantago major, Mucuna pruriens, Syzygium cumini, Fucus spiralis, Eucalyptus camaldulensis, Litsea glaucescens, Lens culinaris sprouted, Pleurotus eryngii, Phaseolus vulgaris, Prunus amygdalus, Pistacia vera juice, Boza protein extract, Nitraria sibirica, Amaranthus dubius, Amaranthus hybridus, Asystasia gangetica, Galinsoga parviflora, Justicia flava, Oxygonum sinuatum, Physalis viscosa, Tulbaghia violacea, Bulbus Fritillaria
 				    - mechanism: ACE inhibitors cause relaxation of blood vessels as well as a decrease in blood volume, which leads to lower blood pressure and decreased oxygen demand from the heart. ACE inhibitors inhibit the activity of angiotensin-converting enzyme (an important component of the renin–angiotensin system which converts angiotensin I to angiotensin II), and hydrolyses bradykinin, thereby decreasing the formation of angiotensin II, a vasoconstrictor, and increasing the level of bradykinin, a peptide vasodilator
-				- central alpha agonists (reduced sympathetic nervous system activity): taurine, potassium, zinc, sodium restriction, protein, fiber, vitamin c/b6, coq10, celery, gamma-linolenic acid/dihomo-gamma-linolenic acid, garlic
-				- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
+				- central alpha agonists (reduced sympathetic nervous system activity):
+					- taurine, potassium, zinc, sodium restriction, protein, fiber, vitamin c/b6, coq10, celery, gamma-linolenic acid/dihomo-gamma-linolenic acid, garlic
+				- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): 
+					- potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
 				    - mechanism: ARBs selectively block the activation of the AT1 receptor, preventing the binding of angiotensin II compared to ACE inhibitors, binding to and inhibiting the angiotensin II receptor type 1 (AT1) and thereby blocking the arteriolar contraction and sodium retention effects of renin–angiotensin system. Angiotensin II, through AT1 receptor stimulation, is a major stress hormone and, because (ARBs) block these receptors, in addition to their eliciting anti-hypertensive effects, may be considered for the treatment of stress-related problems like anxiety
-				- direct vasodilators: omega-3's, monounsaturated fatty acids (omega-9 fatty acids), potassium, magnesium, calcium, soy, fiber, garlic, flavonoids, vitamin c/E, coq10, l-arginine, taurine, celery, ala
-				- https://pmc.ncbi.nlm.nih.gov/articles/PMC3989080/
-			- other intents/causes related to or causes of high blood pressure:
-				- lower high blood pressure caused by atherosclerosis: pomegranate, nattokinase/serrapeptase
-				- nitric oxide precursors: celery, beets, spinach, lettuce, other greens with high nitrates
-				- vasodilators: arginine, niacin, garlic, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin
-				- lowering cortisol: ashwagandha can lower cortisol thereby lowering blood pressure
-			- other substances
-				- maitake, luteolin (artichokes), ginger, fish/omega 3's, magnesium, b vitamins, vitamin d, melatonin, green/oolong tea, probiotics, alkaline water, GABA, lycium, stinging nettle, theanine, lycopene, citrus/hesperidin, oats/beta-glucans, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric, black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
-				- additional natural RAAS (renin-angiotensin-aldosterone systems) changing substances
-					- ACE-changing substances: Dohaekseunggi-tang, Nigella sativa, Cymodocea Nodosa, Plantago major, Mucuna pruriens, Syzygium cumini, Fucus spiralis, Eucalyptus camaldulensis, Litsea glaucescens, Lens culinaris sprouted, Pleurotus eryngii, Phaseolus vulgaris, Prunus amygdalus, Pistacia vera juice, Boza protein extract, Nitraria sibirica, Amaranthus dubius, Amaranthus hybridus, Asystasia gangetica, Galinsoga parviflora, Justicia flava, Oxygonum sinuatum, Physalis viscosa, Tulbaghia violacea, Bulbus Fritillaria
-					- AGT1R: Apocynum venetum, DanHong, Liuwei Dihuang, Yiqi Huaju, Songling xuemaikang
-					- ACE inhibitors: Olive Leaf, Avena sativa, Bothrops jararaca, Bothrops moojeni, Cajanus cajan, green tea (EGCG), Berberine, Coix larchryma-jobi, Egg Yolk, Lithospermic Acid B, Salvia hispanica, Vigna radiata, Ampelopsis Brevipedunculata (Hopeaphenol; Vitisin A, Asparagus officinalis (Asparaptine), Chinese Herb (Pentagalloylglucose, Isochlorogenic acid B, Methyl 3,4-di-O-caffeoylquinate, Epigallocatechin gallate, Epigallocatechin-3-O-Methylgallate), Cleistanthus collinus (Cleistanthins A, B), Clerodendron trichotomum (Acteoside, Isomartynoside, Leucosceptoside A, Martynoside), Delphinium sp. (Cyanin, Delphinidin), Desmodium styracifolium (Carlinoside, Schaftoside, Vicenin 1–3), Dioscorea opposita Thunb. (Diascorin), Eucommia ulmoides (Megastigmane Enantiomersv, Glycyrrhiza glabra (Licochalcone A), Glycyrrhiza uralensis (Echinatinv, Limonium michelsonii (Isolates), Mucuna Pruriens (Genistein), Caffeic Acid, Caffeoyl Acetate, Chlorogenic Acid, Ferulic Acid), Salvia miltiorrhizae (Salvianolic Acid B), Sargassum wightii (O-Heterocyclic Analogues), Tamarix hohenackeri (Chrysoeriol, Quercetin, Isoferulic acid, Methyl-4-O-methylgallate, Gallic acid, Methyl gallate), Toona sinensis (Quercetin, Resveratrol), Xestospongia Cf. Vansoesti (Salsolinol)
-					- AGT1R inhibitors: Alisma orientale (23-O-acetylalisol B, Alismol, Alisols A, Alisols B), Astragalus membranaceus (Astragaloside IV), Cynodon dactylon (Linoleoylchloride, Diazoprogesteron, Didodecyl Phthalate), Eucommia ulmoides (Megastigmane Enantiomers), Salvia miltiorrhizae (Salvianolic acid B), Tanshinone IIA
-					- beta blockers (β-adrenergic receptor inhibitors): Banxia Baizhu Tianma Tang, Paeoniae Rubra, Rhubarbs, Suaeda asparagoides, Nelumbo nucifera (Higenamine 4′-O-β-d-glucoside), Notopterygium incisum (Isoimperatorin), Pimpinella anisum (Trans-anethole)
-					- calcium channel blockers: Alternanthera sessilis, Capparis aphylla, Coreopsis tinctoria, Gentiana floribunda, Jasonia glutinosa, Juniperus excelsa, Perovskia abrotanoides, Pumpkin seeds, Ranunculus japoniucus, Tiangou Jiangya, Viola odorata, Agelanthus dodoneifolius (Dodoneine), Glycosmis petelotii (N-demethylglypetelotine, Glypetelotine), Peucedanum praeruptorum (Praeruptor C), Polygonum multiflorum (Emodin), Sargassum siliquastrum (Sargachromenol D), Stephaniae tetrandrae (Tetrandrine, Fangchinoline), Stevia rebaudiana (Stevioside)
+				- AGT1R inhibitors: 
+					- Apocynum venetum, DanHong, Liuwei Dihuang, Yiqi Huaju, Songling xuemaikang, Alisma orientale (23-O-acetylalisol B, Alismol, Alisols A, Alisols B), Astragalus membranaceus (Astragaloside IV), Cynodon dactylon (Linoleoylchloride, Diazoprogesteron, Didodecyl Phthalate), Eucommia ulmoides (Megastigmane Enantiomers), Salvia miltiorrhizae (Salvianolic acid B), Tanshinone IIA
+				- direct vasodilators: 
+					- omega-3's, monounsaturated fatty acids (omega-9 fatty acids), potassium, magnesium, calcium, soy, fiber, garlic, flavonoids, vitamin c/E, coq10, l-arginine, taurine, celery, ala
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC3989080/
+					- other vasodilators: 
+						- niacin, watermelon/citrulline, ginkgo biloba, beets, coq10, pycnogenol (pine bark, peanut skin, grape seed, and witch hazel), cayenne, goldthread/berberine, hawthorn/quercetin, saffron, hibiscus, ginseng, black cumin
+				- for high blood pressure caused by atherosclerosis: 
+					- pomegranate, nattokinase/serrapeptase
+				- nitric oxide precursors: 
+					- celery, beets, spinach, lettuce, other greens with high nitrates
+				- for high blood pressure caused by high cortisol:
+					- ashwagandha can lower cortisol thereby lowering blood pressure
+				- other substances for high blood pressure:
+					- maitake, luteolin (artichokes), ginger, vitamin B/D, melatonin, green/oolong tea, probiotics, GABA, lycium, stinging nettle, theanine, lycopene, citrus/hesperidin, oats/beta-glucans, cinnamon, berries, bananas, nuts, apple cider vinegar, iron, turmeric, black bean (Castanospermum australe), cat’s claw (Uncaria rhynchophylla), Chinese hawthorn (Crataegus pinnatifida), giant dodder (Cuscuta reflexa), Indian plantago (blond psyllium), maritime pine bark (Pinus pinaster), river lily (Crinum glaucum), roselle (Hibiscus sabdariffa), sesame oil (Sesamum indicum), umbrella tree bark (Musanga cecropioides), ozempic
+				- additional natural RAAS (renin-angiotensin-aldosterone systems) changing substances: 
+					- AGT1R inhibitors, calcium-channel blockers, ACE inhibitors, beta blockers
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6912567/
 			- arginine/citrulline/vitamin C together help manage blood pressure
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
@@ -524,7 +539,15 @@
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC10047594/
 					- flu vaccination helps prevent heart attacks
 						- https://www.psychologytoday.com/us/blog/fevered-mind/202508/how-flu-shots-prevent-heart-attacks
-				- SGLT inhibitors
+				- Angiotensin Receptor Neprilysin inhibitor (ARNi) (an angiotensin II receptor blocker and a neprilysin inhibitor)
+					- Ruscus aculeatus Linn (Butcher’s broom)
+						- https://iopscience.iop.org/article/10.1088/1757-899X/546/6/062018
+					- a low-calorie, low-fat, low-carb diet reduced neprilysin
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8006681/
+				- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): 
+					- potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
+				- SGLT1/2 inhibitors: 
+					- nikko maple, (gneyulin a) gnetum, sotogliflozin, rapamycin, metformin
 					- https://www.sciencedirect.com/science/article/pii/S2667031322000112
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC10831928/
 				- cranberry reduces cardiovascular disease risk
@@ -536,19 +559,22 @@
 						- berries, onions, green tea, nitrate-rich vegetables (beets and greens)
 				- vitamin c, indirubin, resveratrol, icariin, bergamot, lupinine, ursinoic acid (angelica ursina), ginseng, and curcumin are useful in cardiac protection and/or stem cell specification, possibly through paracrine signaling regulation
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7833367/
-				- Calcium channel blockers decrease the heart's workload
+				- calcium channel blockers decrease the heart's workload
+					- ala, magnesium, vitamin b6/c/E, NAC, hawthorn, celery, omega-3's, calcium, garlic, taurine, Alternanthera sessilis, Capparis aphylla, Coreopsis tinctoria, Gentiana floribunda, Jasonia glutinosa, Juniperus excelsa, Perovskia abrotanoides, Pumpkin seeds, Ranunculus japoniucus, Tiangou Jiangya, Viola odorata, Agelanthus dodoneifolius (Dodoneine), Glycosmis petelotii (N-demethylglypetelotine, Glypetelotine), Peucedanum praeruptorum (Praeruptor C), Polygonum multiflorum (Emodin), Sargassum siliquastrum (Sargachromenol D), Stephaniae tetrandrae (Tetrandrine, Fangchinoline), Stevia rebaudiana (Stevioside)
 				- far infrared light saunas can reduce strain on the heart
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC4935255/
 				- 'provide cardiac muscle with periods of reduced workload by assisting with blood pumping, potentially creating conditions that enable regeneration'
 					- https://studyfinds.org/heart-muscle-regeneration-cold-war-tests/
-				- use pycnogenol (if you dont have kidney failure), policosanol, prunella vulgaris, coq10, omega 3s, thiamine, and amino acids (including taurine, arginine, l-carnitine, tyrosine), iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis, correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, low salt/potassium diet, treat hypothyroidism and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
+				- use pycnogenol (if you dont have kidney failure), policosanol, prunella vulgaris, coq10, omega 3s, thiamine, and amino acids (including taurine, arginine, l-carnitine, tyrosine), iron, polyunsaturated fatty acids (PUFAs), d-ribose for ATP/PRPP, beets for nitric oxide, nattokinase for atherosclerosis
+					- correct electrolyte imbalances that can occur with kidney damage which make heart failure worse, use a low salt/potassium diet
+					- treat hypothyroidism and high blood pressure and hormonal imbalances that can cause heart damage like low DHEA/high estrogen
 					- https://pubmed.ncbi.nlm.nih.gov/19850206/
 				- isoprenaline can increase CBIN1, which can help heal heart failure
 					- https://pubmed.ncbi.nlm.nih.gov/32614937/
-					- 'can tyrosine increase CBIN1, given that tyrosine is a precursor to catecholamines (which might include synthetic catecholamines like isoprenaline)' is a related question (its been helping with high blood pressure, so possibly)
+					- 'can tyrosine increase CBIN1, given that tyrosine is a precursor to catecholamines (which might include synthetic catecholamines like isoprenaline)' is a related question
 				- inhibit GDF-15 to prevent progression of heart failure with vitamin D
 					- https://academic.oup.com/cardiovascres/advance-article/doi/10.1093/cvr/cvae214/7766065#
-					- vitamin D (calcitriol) upregulates miR-627, which downregulates the expression of KDM3A (which encodes a histone demethylase), increases methylation of histone H3K9, and thereby suppresses expression of proliferative factors such as GDF15
+					- vitamin D (calcitriol) upregulates miR-627, which downregulates the expression of KDM3A (which encodes a histone demethylase), increases methylation of histone H3K9, and thereby suppresses expression of proliferative factors such as GDF-15
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC4890569/
 					- resveratrol, EGCG, berberine and other bitter compounds increase either or both GDF15 and GLP-1
 						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11380393/
@@ -556,9 +582,8 @@
 						- https://pubmed.ncbi.nlm.nih.gov/37964408/
 					- increasing GDF-15 may be useful for treating diabetes
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8885880/
-				- treat high blood pressure and kidney damage and hypothyroidism, which can make heart failure worse
-				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, excess choline, corticosteroids, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
-			- liver damage: 
+				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, excess choline, corticosteroids like hydrocortisone, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
+			- liver damage:
 				- fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
 		- adrenal problems
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
@@ -676,6 +701,7 @@
 				- activate NK2R to decrease body weight, blood glucose, triglycerides and cholesterol, and increase insulin resistance
 					- https://www.nature.com/articles/s41586-024-08207-0?error=cookies_not_supported&code=f00cbe60-f805-41fa-9273-f3bce0d8ee4d
 				- natural alternatives to ozempic to boost GLP-1
+					- gardenia, curcumin, resistant starch, berberine, tea, cinnamon, wheat, soybean, resveratrol
 					- https://pubmed.ncbi.nlm.nih.gov/34981502/
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet

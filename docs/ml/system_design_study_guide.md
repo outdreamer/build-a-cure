@@ -662,11 +662,11 @@ System design study guide
 			- But every visitor needs to be updated when a class is added or removed from the hierarchy, and if there are too many visitor classes its hard to extend the interface, and visitors might not have access to private fields of classes theyre supposed to work with
 			- visitor method works well with recursive structures like directory trees or xml structures bc it can visit each node in the recursive structure, and the visitor method is useful when performing operations on all elements of the complex object like a tree
 
-
 Cloud Native Distributed System Design Patterns
 	Pattern							Summary
 	Ambassador						Create helper services that send network requests on behalf of a consumer service or application.
 	Anti-Corruption Layer			Implement a façade or adapter layer between a modern application and a legacy system.
+	API routing 					Path routing, hostname routing, HTTP header routing
 	Asynchronous Request-Reply		Decouple back-end processing from a front-end host. This pattern is useful when back-end processing must be asynchronous, but the front end requires a clear and timely response.
 	Backends for Frontends			Create separate backend services for specific frontend applications or interfaces.
 	Bulkhead						Isolate elements of an application into pools so that if one fails, the others continue to function.
@@ -691,14 +691,17 @@ Cloud Native Distributed System Design Patterns
 	Leader Election					Coordinate actions in a distributed application by electing one instance as the leader. The leader manages a collection of collaborating task instances.
 	Materialized View				Generate prepopulated views over the data in one or more data stores when the data is poorly formatted for required query operations.
 	Messaging Bridge				Build an intermediary to enable communication between messaging systems that are otherwise incompatible.
+	Microservices
 	Pipes and Filters				Break down a task that performs complex processing into a series of separate elements that can be reused.
+	Polyglot Persistence
 	Priority Queue					Prioritize requests sent to services so that requests with a higher priority are processed more quickly.
 	Publisher/Subscriber			Enable an application to announce events to multiple consumers asynchronously, without coupling senders to receivers.
 	Quarantine						Ensure that external assets meet a team-agreed quality level before the workload consumes them.
 	Queue-Based Load Leveling		Use a queue that creates a buffer between a task and a service to smooth intermittent heavy loads.
 	Rate Limiting					Avoid or minimize throttling errors by controlling the consumption of resources.
 	Retry							Enable applications to handle anticipated temporary failures by retrying failed operations.
-	Saga							Manage data consistency across microservices in distributed transaction scenarios.
+	Saga							Manage data consistency across microservices in distributed transaction scenarios (saga choreography and saga orchestration)
+	Scatter-gather
 	Scheduler Agent Supervisor		Coordinate a set of actions across distributed services and resources.
 	Sequential Convoy				Process a set of related messages in a defined order without blocking other message groups.
 	Sharding						Divide a data store into a set of horizontal partitions or shards.
@@ -706,6 +709,7 @@ Cloud Native Distributed System Design Patterns
 	Static Content Hosting			Deploy static content to a cloud-based storage service for direct client delivery.
 	Strangler Fig					Incrementally migrate a legacy system by gradually replacing pieces of functionality with new applications and services.
 	Throttling						Control the consumption of resources from applications, tenants, or services.
+	Transactional Outbox
 	Valet Key						Use a token or key to provide clients with restricted, direct access to a specific resource or service.
 
 - sources
