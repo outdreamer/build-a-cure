@@ -692,7 +692,7 @@
 			- blessed thistle (cnicin) 
 				- https://scitechdaily.com/completely-new-use-discovered-this-traditional-herb-has-remarkable-nerve-regenerative-properties/
 		- hair loss: 
-			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamin, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, caffeine, deoxy-d-ribose, vitamin d
+			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, high blood sugar, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamins, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, caffeine, deoxy-d-ribose, vitamin d
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
@@ -705,14 +705,36 @@
 					- https://pubmed.ncbi.nlm.nih.gov/34981502/
 			- diabetes
 				- avoid a high advanced glycation end-products (AGE) diet
-					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications - https://en.wikipedia.org/wiki/Diabetic_nephropathy
-				- lower glucose/manage insulin sensitivity: broccoli, dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, and guar gum
-					- https://pubmed.ncbi.nlm.nih.gov/38931176/
-				- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
+					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications
+					- https://en.wikipedia.org/wiki/Diabetic_nephropathy
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
-				- avoid niacin, avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
-		- PCOS
+				- avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
+			    - avoid as they can increase blood sugar: niacin, ginkgo biloba, vitamin C, treat hyperthyroidism
+			    - avoid as they may increase diabetes risk: melatonin (impairs glucose control)
+			    	- https://pmc.ncbi.nlm.nih.gov/articles/PMC7349733/
+			    - low blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, weakness, dizziness, shakiness, anxiety, sweating, fast heartbeat
+			    - high blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, fever, thirst, frequent urination, numbness
+			    - medication types:
+			    	- Glucagon-like peptide-1 (GLP-1) agonists: 
+						- gardenia, turmeric, resistant starch, berberine, tea, cinnamon, wheat, soybean, resveratrol
+					- DPP-4 inhibitors (DPP-4 inactivates incretins such as GLP-1 and GIP)
+						- chinese rhubarb, ginger
+			        - Sodium-glucose cotransporter-2 (SGLT2) inhibitors (increase the excretion of glucose): Peucedanum, viniferin (grape), cinchona tree bark (quinidine/quinine), trihexyphenidyl, procyclidine, biperiden, cloperastine, benztropine, orphenadrine, vesamicol and clemastine 
+			        	- https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1002/prp2.504
+			        - Sulfonylureas (increases insulin release)
+			        - Thiazolidinediones (increases sensitivity to insulin)
+			        - acarbose (decreases absorption of sugar from the intestines)
+			        - Insulin
+			        	- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
+			        	- lower glucose/manage insulin sensitivity: zinc, broccoli, dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, ceylon cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol
+							- https://pubmed.ncbi.nlm.nih.gov/38931176/
+			        - nerve pain: coq10, vitamin d
+			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
+			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
+			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC8298154/
+			        - use ACE inhibitors and ARBs to manage cardiovascular disease risk from diabetes
+      	- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- multiple chemical sensitivities: 
 			- treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution

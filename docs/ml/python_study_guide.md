@@ -129,9 +129,8 @@ python study guide
 			- use multiprocessing to create separate processes with their own memory space, bypassing the GIL which is useful for CPU bound tasks
 				with multiprocessing.Pool(processes=4) as pool:
 					results = pool.map(square_function, range(10))
-		- use asyncio/coroutines for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread
+		- use asyncio/coroutines for IO tasks like HTTP requests or database queries to perform concurrent tasks without blocking the main thread, which uses cooperative multitasking (event loop)
 		- use python 3.13 which comes with free thread mode
-
 	- use match-case rather than if-else
 	- use built-in functions which are usually optimized for speed and are often written in C
 	- use cython (a superset of python) to speed up slow code, cython is compiled into c which makes it faster
@@ -179,6 +178,8 @@ python study guide
 	- log injection: validate inputs to logs
 	- SQL injection: malicious queries/scripts inserted into sql created using unvalidated string input
 		- fix: validate sql query input, use ORM like sqlalchemy with named parameters instead of query string building
+			- use prepared statements to send a query template and then send the values for fields in the template
+			- a prepared statement is a feature where the database pre-compiles SQL code and stores the results, separating it from data, where the query can be executed later
 	- XSS (cross-site scripting): injections of malicious scripts into trusted websites. These scripts are executed in the victim's browser, enabling attackers to steal sensitive information, manipulate website content, or perform unauthorized actions on behalf of the user
 		- fix: validate http/user/database input/output, validate scripts in webpages with content security policies using nonces in scripts, escape output before including it in html to prevent execution of scripts with html.escape(user_input), use security headers like Content-Type, avoid using eval() or innerHTML without validation
 	- ARP spoofing: associates the attacker's MAC address with the IP address of another host, causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks
@@ -191,9 +192,9 @@ python study guide
 		- hash and salt passwords with bcrypt
 		- set strict access controls
 		- monitor query performance
-		- log suspicious patterns
 		- use environment variables for configuration
-		- use structured logging, use logging level control, and avoid logging sensitive data
+		- log suspicious patterns, use structured logging, use logging level control, and avoid logging sensitive data
+			- set DEBUG=False in prod to avoid publishing overly informative error messages
 		- minimize dependencies
 		- use precommit hooks with security scanning tools
 		- use standard auth libraries like requests-oauthlib or Flask-Login
@@ -201,8 +202,6 @@ python study guide
 		- rate limit API requests
 		- validate data like emails
 		- use whitelists to support valid requests
-		- use prepared statements to send a query template and then send the values for fields in the template
-			- a prepared statement is a feature where the database pre-compiles SQL code and stores the results, separating it from data, where the query can be executed later
 		- check hashes of downloads
 		- have a secure backup strategy in case of database corruption or sql injection attacks
 		- store credentials in .env files
@@ -238,7 +237,6 @@ python study guide
 			- avoid GPL, AGPL, LGPL, and EPL and use code with permissive licenses (MIT, Apache, BSD) where possible
 		- dont use the system python version which is unlikely to be current
 		- use virtual environments with venv to isolate projects (including python versions used, libraries, and scripts)
-		- set DEBUG=False in prod to avoid publishing overly informative error messages
 		- format strings cautiously
 			- use templating tools like string.template to format strings with parameters to avoid evaluating python statements, like how f-strings evaluate python statements
 

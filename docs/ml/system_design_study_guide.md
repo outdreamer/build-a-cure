@@ -79,7 +79,10 @@ System design study guide
 		- fix: 
 			- avoid shared state completely by re-entrancy (code can be safely interrupted and resumed as threads have their own local state)
 			- share immutable objects whose state cant be changed after creation so only read-only data is shared
-			- synchronization mechanisms can be used when state has to be shared, mechanisms like mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes) and atomic operations (using operations that are indivisible ensuring that shared data is consistent) though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
+			- synchronization mechanisms can be used when state has to be shared, mechanisms like:
+				- mutual exclusion (ensuring only one thread accesses data at a time using locks or mutexes)
+				- atomic operations (using operations that are indivisible ensuring that shared data is consistent)
+				- though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
 			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
 			- to prevent deadlocks, use mutual exclusion, resource holding, and circular waits
 
@@ -200,7 +203,7 @@ System design study guide
 		- partition tolerance: the system works even if communication between nodes breaks down
 		- partition tolerance is non-optional so there is a trade-off between consistency and availability
 			- if a system goes down, the system can satisfy consistency by rolling back unfinished operations and waiting to respond until all nodes are stable again, or it can satisfy availability and continue to respond but risk inconsistencies
-		- a CP database provides consistency and partition tolerance and an AP database if it provides availability and partition tolerance
+		- a CP database provides consistency and partition tolerance and an AP database provides availability and partition tolerance
 		- CP databases sync data then send responses, and AP databases send responses then sync data
 		
 	- transactions: series of database operations that are treated as a single unit of work, where the operations must all succeed or all fail, which supports data integrity when a system fails
@@ -224,10 +227,10 @@ System design study guide
 		- tuning the query planner is one of the primary optimization techniques for relational databases
 		- indexes allow frequently accessed columns to be grouped in a separate table with a foreign key reference to the original table, speeding up searches using those indexed columns
 		- specially ordering data structures in indexes can make access faster, though writes are slower because each index needs to be updated in addition to the primary table
-		- relational databases are almost always CP databases between guaranteeing consistency is important for the relational model to make sure that regardless of transactions the database is always in a valid state
+		- relational databases are almost always CP databases because guaranteeing consistency is important for the relational model to make sure that regardless of transactions the database is always in a valid state
 		- relational databases are best when there are many-to-many relationships between entities, data needs to follow the schema, and relationships between data need to be accurate at all times
 		- relational databases are hard to scale over distributed clusters (horizontal scaling) bc no matter how the data is split, there will be relationships between data entries on different nodes
-		- relational database nodes need to communicate to normalize (sync) the data, so operations are slower between network communication is slower
+		- relational database nodes need to communicate to normalize (sync) the data, so operations are slower because network communication is slower
 		- relational databases arent useful if the data doesnt have many references, doesnt conform to a schema, or changes structure frequently
 		- some databases implement multi-model support, supporting both relational and non-relational models
 	
@@ -381,13 +384,6 @@ System design study guide
 
 - distributed systems
 	- a distributed system distributes data and resources over several servers or locations, which enables better scalability and reliability since the system can function in a component failure, though distributed systems are more complex to secure and maintain
-	- distributed system architectures:
-		- client-server architecture: servers provide resources and clients request them, communicating over a network
-		- peer-to-peer architecture: each peer/node in the network acts as both a client and server, sharing resources directly with each other
-		- three-tier architecture: has presentation (UI), application (business logic), and data (database) layers, where layers are separated to allow scaling and maintenance
-		- microservices architecture: the application is split into small independent services which handle specific functions, where these services communicate over a network often using REST APIs or messaging
-		- service-oriented architecture: similar to microservices, SOA organizes functions as services but SOA typically uses an enterprise service bus (ESB) to manage communication between services
-		- event-driven architecture: components interact by sending and responding to events rather than direct requests, where an event triggers specific actions or processes in various parts of the system
 	- distributed systems involve resource sharing where any hardware/software/data can be used anywhere in the system, openness which involves allowing open improvements to the system by sharing it, concurrency where local systems have independent operation systems and resources so can perform concurrent operations, scalability as more processors communicate with more users, fault tolerance by operating even when failures occur, and transparency in which the complexity of the system is hidden from users and local systems are kept private
 	- distributed systems have advantages like scalability as they can easily add more servers/nodes to handle increased demand without complex reconfiguration, reliability/availability/fault tolerance where other components can take over for a failed component, performance where workloads can be split across multiple nodes so tasks are completed faster, resource sharing where data/storage/compute power can be shared across nodes thereby increasing efficiency and reducing costs, geographical distribution where distributed systems can server global users by providing faster access to node resources based on location since nodes can be in different locations
 	- distributed systems have problems like security since resources are shared across multiple nodes, and networking saturation if there is a lag in the network, and complex databases compared to centralized systems, and overloaded networks if every node tries to send data at once
@@ -414,12 +410,6 @@ System design study guide
 		- heartbeat mechanisms send regular signals/heartbeats between components to detect failures, and checkpointing periodically saves the system state so if a failure occurs the system can be restored to the last saved state
 	- error recovery methods
 		- rollback recovery is where the system reverts to a previous state after detecting an error using saved checkpoints or logs, and forward recovery is where the system tries to correct or compensate for the failure to continue operating which may involve reprocessing or reconstructing data
-	- design patterns for fault tolerance
-		- circuit breaker pattern: this wraps services in a circuit breaker, so when the service fails the circuit break is activated, so future calls fail fast instead of trying to connect to a failing service repeatedly, preventing cascading failures
-		- bulkhead pattern: this isolates components/services to prevent a failure in one part of the system from affecting others
-		- retry pattern: this automatically retries failed operations bc of transient errors, typically retried with exponential backoff to avoid overwhelming the system
-		- rate limiting pattern: controls the number of requests a system or service can handle in a specific timeframe to prevent overload and ensure fair usage
-		- failover pattern: switches to a backup system/component when the primary one fails, which ensures continuity of service by having redundant systems ready to take over
 
 - event-driven architecture
 	- event-driven architecture is where system components communicate with each other by generating, identifying, and reacting to events, where components are independent so they can function without each other, where when an event takes place, a message is sent, prompting relevant components to respond, which enhances flexibility, scalability, real-time responsiveness, and decentralized communication which enhances reliability and simplifies maintenance
@@ -662,7 +652,7 @@ System design study guide
 			- But every visitor needs to be updated when a class is added or removed from the hierarchy, and if there are too many visitor classes its hard to extend the interface, and visitors might not have access to private fields of classes theyre supposed to work with
 			- visitor method works well with recursive structures like directory trees or xml structures bc it can visit each node in the recursive structure, and the visitor method is useful when performing operations on all elements of the complex object like a tree
 
-Cloud Native Distributed System Design Patterns
+- Cloud Native Distributed System Design Patterns
 	Pattern							Summary
 	Ambassador						Create helper services that send network requests on behalf of a consumer service or application.
 	Anti-Corruption Layer			Implement a façade or adapter layer between a modern application and a legacy system.
@@ -672,48 +662,72 @@ Cloud Native Distributed System Design Patterns
 	Bulkhead						Isolate elements of an application into pools so that if one fails, the others continue to function.
 	Cache-Aside						Load data on demand into a cache from a data store.
 	Choreography					Let individual services decide when and how a business operation is processed, instead of depending on a central orchestrator.
-	Circuit Breaker					Handle faults that might take a variable amount of time to fix when an application connects to a remote service or resource.
+	Circuit Breaker					Handle faults that might take variable time to fix when an app connects to a remote service/resource, wrapping services so when the service fails the 																					circuit break is activated, so future calls fail fast instead of trying to connect to a failing service repeatedly, preventing cascading failures
 	Claim Check						Split a large message into a claim check and a payload to avoid overwhelming a message bus.
 	Compensating Transaction		Undo the work performed by a sequence of steps that collectively form an eventually consistent operation.
 	Competing Consumers				Enable multiple concurrent consumers to process messages that they receive on the same messaging channel.
 	Compute Resource Consolidation	Consolidate multiple tasks or operations into a single computational unit.
-	CQRS							Separate operations that read data from those that update data by using distinct interfaces.
+	CQRS							Command Query Responsibility Segregation: Separates operations that read data from those that update data by using distinct interfaces.
 	Deployment Stamps				Deploy multiple independent copies of application components, including data stores.
 	Event Sourcing					Use an append-only store to record a full series of events that describe actions taken on data in a domain.
 	External Configuration Store	Move configuration information out of an application deployment package to a centralized location.
+	Failover 						Switches to a backup system/component when the primary one fails, which ensures continuity of service by having redundant systems ready to take over
 	Federated Identity				Delegate authentication to an external identity provider.
-	Gateway Aggregation				Use a gateway to aggregate multiple individual requests into a single request.
-	Gateway Offloading				Offload shared or specialized service functionality to a gateway proxy.
+	Gateway Aggregation				Use a gateway to aggregate multiple requests into a single request.
+	Gateway Offloading				Offload shared/specialized service functionality to a gateway proxy.
 	Gateway Routing					Route requests to multiple services by using a single endpoint.
 	Geode							Deploy back-end services across geographically distributed nodes. Each node can handle client requests from any region.
 	Health Endpoint Monitoring		Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
 	Index Table						Create indexes over the fields in data stores that queries frequently reference.
 	Leader Election					Coordinate actions in a distributed application by electing one instance as the leader. The leader manages a collection of collaborating task instances.
-	Materialized View				Generate prepopulated views over the data in one or more data stores when the data is poorly formatted for required query operations.
+	Materialized View				Generate pre-populated views over the data in data stores when the data is poorly formatted for required query operations.
 	Messaging Bridge				Build an intermediary to enable communication between messaging systems that are otherwise incompatible.
-	Microservices
 	Pipes and Filters				Break down a task that performs complex processing into a series of separate elements that can be reused.
-	Polyglot Persistence
+	Polyglot Persistence			Uses multiple database technologies to optimize for different data models, access patterns, and scalability requirements
 	Priority Queue					Prioritize requests sent to services so that requests with a higher priority are processed more quickly.
 	Publisher/Subscriber			Enable an application to announce events to multiple consumers asynchronously, without coupling senders to receivers.
 	Quarantine						Ensure that external assets meet a team-agreed quality level before the workload consumes them.
 	Queue-Based Load Leveling		Use a queue that creates a buffer between a task and a service to smooth intermittent heavy loads.
 	Rate Limiting					Avoid or minimize throttling errors by controlling the consumption of resources.
-	Retry							Enable applications to handle anticipated temporary failures by retrying failed operations.
+	Retry							Enable applications to handle anticipated temporary failures by automatically retrying failed operations bc of transient errors, typically with exponential backoff
 	Saga							Manage data consistency across microservices in distributed transaction scenarios (saga choreography and saga orchestration)
-	Scatter-gather
+									The saga orchestration pattern uses a central coordinator (orchestrator) to help preserve data integrity in distributed transactions that span multiple services
+									The saga choreography pattern helps preserve data integrity in distributed transactions that span multiple services by using event subscriptions
+									In a distributed transaction, multiple services can be called before a transaction is completed. 
+									When the services store data in different data stores, it can be challenging to maintain data consistency across these data stores
+	Scatter-gather					A message routing pattern that broadcasts similar/related requests to multiple recipients, and aggregates their responses back into a single message by using an aggregator component
 	Scheduler Agent Supervisor		Coordinate a set of actions across distributed services and resources.
 	Sequential Convoy				Process a set of related messages in a defined order without blocking other message groups.
 	Sharding						Divide a data store into a set of horizontal partitions or shards.
-	Sidecar							Deploy components into a separate process or container to provide isolation and encapsulation.
+	Sidecar							Deploy components into a separate process/container to provide isolation and encapsulation.
 	Static Content Hosting			Deploy static content to a cloud-based storage service for direct client delivery.
 	Strangler Fig					Incrementally migrate a legacy system by gradually replacing pieces of functionality with new applications and services.
 	Throttling						Control the consumption of resources from applications, tenants, or services.
-	Transactional Outbox
-	Valet Key						Use a token or key to provide clients with restricted, direct access to a specific resource or service.
+	Transactional Outbox			The outbox table resolves the dual write operations issue that occurs when a single operation involves a database write operation and an event notification which can create inconsistencies if one fails
+	Valet Key						Use a token/key to provide clients with restricted, direct access to a specific resource or service.
+
+	- distributed system architectures:
+		- client-server architecture: servers provide resources and clients request them, communicating over a network
+		- peer-to-peer architecture (P2P): each peer/node in the network acts as both a client and server, sharing resources directly with each other
+		- three-tier architecture: has presentation (UI), application (business logic), and data (database) layers, where layers are separated to allow scaling and maintenance
+		- microservices architecture: the application is split into small independent services which handle specific functions, where these services communicate over a network often using REST APIs or messaging
+		- service-oriented architecture (SOA): similar to microservices, SOA organizes functions as services but SOA typically uses an enterprise service bus (ESB) to manage communication between services
+		- event-driven architecture (EDA): components interact by sending and responding to events rather than direct requests, where an event triggers specific actions or processes in various parts of the system
+
+- kubernetes
+	- master node
+		- API server: front end and communication center, coordinates cluster operations
+		- scheduler: assigns pods to nodes based on resource requirements and availability
+		- controller-manager: handles worker failures, tracks workers, performs cluster functions like replication
+		- etcd: key-value database to store cluster data like scheduling info, pods, state info, etc
+	- worker node
+		- kubelet: reads container manifests to check container state and ensure pods are functional
+		- kube-proxy: manages network rules to allow connections to pods, handles load balancing
+		- container runtime (docker/containerd): runs containers
 
 - sources
 	https://igotanoffer.com/en/advice/amazon-system-design-interview
 	https://www.geeksforgeeks.org/system-design/amazon-system-design-interview-questions/#
 	https://www.geeksforgeeks.org/python/python-design-patterns/
 	https://learn.microsoft.com/en-us/azure/architecture/patterns/
+	https://www.geeksforgeeks.org/cloud-computing/kubectl-cheatsheet/

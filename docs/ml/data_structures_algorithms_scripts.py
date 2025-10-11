@@ -397,6 +397,10 @@ def merge(left, right):
 	# if index_right reaches len(right), append the remainder of left starting at index_left and break
 	# if index_left reaches len(left), append the remainder of right starting at index_right and break
 	# return result
+	if not left:
+		return right
+	if not right:
+		return left
 	result = []
 	index_left = index_right = 0
 	while len(result) < len(left) + len(right):
@@ -440,7 +444,7 @@ def selection_sort(array):
         if m != i:
             # Swap found minimum with first element
             array[i], array[m] = array[m], array[i]
-    return a
+    return array
 
 # Bubble Sort - Simple comparison-based algorithm, Repeatedly steps through the list, compares adjacent elements and swaps them if wrong order
 def bubble_sort(self, arr: List[int]) -> List[int]:
