@@ -29,6 +29,7 @@
             - 'what other iterations like "graphs of graphs" of interface structures can be identified/generated which are useful for some intent or some ratio of queries or some solution metric'
         - 'what functions are similar/variants of each other like regularizations or parameterizations of each other'
         - 'what problems exist that cant be solved or cant be trivially solved or cant be trivially solved with some reliable method like transformers or regression'
+        - 'what functions can implement operations like "transformers + sequential training data from all textbooks/blogs = implemented intents like summarization"'
 
     - chatgpt/claude/gemini should be used to find their own optimal queries, like instead of queries like 'tell me a story', queries like 'do we have enough info to understand reality' and 'what light interactions could invalidate reality' and 'what queries should we be running that you can answer optimally' and 'what do you need to fulfill even more optimal queries' and 'what differences havent been trivially connected yet' and 'what variables should be connected or are optimal to connect (what problems should be solved)'
 
