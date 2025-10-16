@@ -52,23 +52,28 @@
 		- Fix nameserver entries at registrar
 		- Use a reliable DNS host (e.g., Cloudflare, Route53)
 
-- slow sql queries
+- Database Problems
 
 	- symptoms	
 		- Web pages or APIs taking too long to load
 		- Database CPU usage spiking
 		- Lock contention or deadlocks
 		- Timeouts in application layer
+		- Queries hang or time out
+		- Data inconsistency
+		- “Lock wait timeout” errors
 	- causes	
 		- Missing indexes
 		- Poor query structure (SELECT *)
 		- Inefficient joins or subqueries
 		- Large table scans
+		- Lock contention
+		- Slow queries
 		- Unoptimized schema (no normalization or too much normalization)
 	- tools
-		- EXPLAIN or EXPLAIN ANALYZE in SQL
+		- EXPLAIN or EXPLAIN ANALYZE query plans in SQL
 		- Database slow query logs
-		- Performance monitoring tools (e.g., pg_stat_statements, New Relic, Datadog)
+		- Performance monitoring tools (e.g., pg_stat_statements, pg_locks / InnoDB status, New Relic, Datadog)
 		- Index and schema inspection tools
 	- solutions	
 		- Add appropriate indexes
@@ -76,23 +81,34 @@
 		- Cache results (e.g., Redis)
 		- Use pagination for large data sets
 		- Archive or partition old data
+		- Tune connection pool
+		- Reduce transaction scope
 
-- stolen credentials
+- Security Vulnerabilities
 
 	- symptoms	
 		- Unauthorized logins
 		- Unusual traffic from suspicious IPs
 		- Reports of account takeover
 		- Credential dumps found online
+		- Data leaks
+		- Alerts from scanners
 	- causes	
 		- SQL injection or XSS
 		- Weak password hashing (MD5, SHA1)
 		- No HTTPS
 		- Compromised third-party library
 		- Leaked API keys or database credentials in code
+		- Lack of input sanitization
+		- Insecure/weak crypto or storage
+		- Hardcoded credentials
+		- Outdated dependencies
 	- tools	
 		- Web server and access logs
 		- Intrusion detection tools (Wazuh, OSSEC)
+		- Static analyzers (SonarQube, Snyk, Bandit)
+		- Dynamic analysis (Burp Suite, OWASP ZAP)
+		- Dependency scanners (Snyk)
 		- Vulnerability scanners (OWASP ZAP, Burp Suite)
 		- git-secrets or truffleHog for secret detection
 		- SIEM dashboards (Splunk, Datadog Security)
@@ -103,76 +119,95 @@
 		- Sanitize user input and validate parameters
 		- Implement rate limiting and 2FA
 		- Conduct security audits and penetration testing
+		- Use prepared statements
+		- Rotate credentials and encrypt secrets
+		- Keep dependencies updated
+		- Implement security headers and CSP
 
-- networking problem
+- Network / Connectivity problems
 
 	- symptoms
 		- Requests timeout or hang
 		- “Host unreachable” / “Connection refused” errors
 		- Packet loss
 		- Slow SSH or HTTP
+		- High latency
 	- causes
 		- Firewall blocking ports
+		- Security groups
 		- Incorrect IP routing
 		- Misconfigured subnet, gateway, or DNS
 		- MTU mismatch
 		- High latency links
+		- Network congestion
 	- tools
 		- ping, traceroute, mtr to trace paths
+		- curl, netcat, tcpdump
 		- netstat, ss, ifconfig, ip addr to inspect interfaces
 		- Packet capture (tcpdump, Wireshark)
 		- Check firewall rules (ufw, iptables, aws ec2 describe-security-groups)
+		- Network logs
 	- solutions
-		- Fix routes, firewall, or security groups
+		- Fix DNS, routes, firewall, or security groups
 		- Restart networking services
 		- Correct DNS or IP settings
 		- Optimize MTU, QoS, or TCP settings
+		- Open correct ports
+		- Use CDN or caching
 
-- load balancer misconfiguration
+- Load Balancer / Proxy Issues
 
 	- symptoms
 		- Some users see errors, others don’t
 		- Uneven traffic distribution
+		- Some users can’t connect
 		- High latency or 502/504 errors
 		- Backend servers idle or overloaded
 	- causes
 		- Incorrect health checks
 		- Sticky session misconfiguration
-		- Wrong backend targets
+		- Wrong/unhealthy backend targets
 		- SSL termination mismatch
-		- Load balancer timeout shorter than backend response
+		- Timeout mismatch: load balancer timeout shorter than backend response
 	- tools
 		- Check load balancer logs & metrics (AWS ELB, Nginx, HAProxy dashboards)
-		- Use curl -I or ab to test responses per backend
+		- Use curl -I per node or ab to test responses per backend
 		- Monitor request distribution
+		- APM traces
 	- solutions
 		- Fix health check endpoints
 		- Align timeouts with backend
 		- Adjust load balancing algorithm (round robin, least connections)
 		- Ensure all targets are registered and healthy
 
-- poor performance
+- Performance / Latency Issues
 
 	- symptoms	
 		- Slow page loads
 		- High bounce rate
 		- Long TTFB (Time to First Byte)
 		- Rendering delays on frontend
+		- High CPU or memory usage
+		- Timeout errors
 	- causes	
 		- Unoptimized assets (large images, non-minified JS/CSS)
 		- Inefficient backend APIs
+		- Inefficient algorithms
 		- No caching or CDN
 		- Blocking JavaScript
 		- Too many HTTP requests
+		- Too many DB queries
 		- Inefficient database or network latency
 		- load balancer misconfiguration
 		- excess log storage taking up memory
+		- Blocking I/O
 	- tools	
 		- Browser dev tools (Network tab, Lighthouse)
 		- GTmetrix, PageSpeed Insights
 		- APM tools (New Relic, Datadog, Dynatrace)
-		- Profiling (Chrome Performance Profiler, React DevTools)
+		- Profiling (Chrome Performance Profiler, React DevTools, perf, Py-spy, pprof)
 		- curl -w and ab (Apache Benchmark) for latency
+		- top, htop
 	- solutions	
 		- Optimize and compress assets (WebP, gzip, Brotli)
 		- Use CDN (Cloudflare, Akamai)
@@ -180,29 +215,61 @@
 		- Lazy load images
 		- Minify JS/CSS and bundle efficiently
 		- Optimize backend response times and DB access
+		- Optimize code paths
+		- Batch DB calls
+		- Use async/non-blocking I/O
 
-- server crash
+- Application/server Crash / Exception
 
 	- symptoms
-		- 500 internal server errors
+		- Program stops unexpectedly
+		- Stack traces in logs
+		- 500 errors in web services
 		- Service restarts or crashes
 		- Log exceptions or segmentation faults
 	- causes
 		- Unhandled exceptions
+		- Null pointers
+		- Out-of-memory
+		- Invalid input
 		- Memory leaks
 		- Race conditions
 		- Dependency version conflicts
 	- tools
-		- Application logs (with structured logging like JSON)
+		- Log analysis
 		- Tracing (OpenTelemetry, Jaeger)
+		- Debugger (gdb, pdb, Visual Studio)
 		- Crash dumps or core dumps
 		- Profilers (e.g., py-spy, perf, gdb)
 	- solutions
-		- Add robust exception handling
+		- Add error handling
+		- Validate inputs
+		- Fix logic errors
+		- Increase memory / tune GC
 		- Monitor memory usage and fix leaks
 		- Add rate limiting and circuit breakers
 		- Use version pinning in dependencies
 		- Write integration and stress tests
+
+- Memory Leaks
+
+	- symptoms
+		- Gradual performance degradation
+		- OOM errors
+		- Increasing memory footprint
+	- causes
+		- Unreleased objects/resources
+		- Cyclic references
+		- Poor GC tuning
+	- tools
+		- Memory profilers (Valgrind, heapdump analyzers)
+		- Runtime metrics (Prometheus/Grafana)
+		- Heap dumps
+	- solutions
+		- Free unused objects
+		- Close resources
+		- Fix cyclic references
+		- Tune GC / increase memory
 
 - Code Not Thread-Safe
 
@@ -277,7 +344,7 @@
 
 	- symptoms
 		- Service fails to start after update
-		- Dependency version conflict
+		- Dependency version conflict or missing dependency
 		- Broken API calls
 		- Config files overwritten or missing
 	- causes
@@ -285,9 +352,11 @@
 		- Library or OS version mismatch
 		- Dependency not pinned
 		- Migration scripts not run
+		- Breaking API changes
+		- Config drift
 	- tools
-		- Check logs (journalctl, application logs)
-		- diff old/new config
+		- Check logs (CI/CD, journalctl, application logs)
+		- diff old/new config/dependencies
 		- Package manager logs (apt history, npm ls, pip freeze)
 		- Rollback deployment in CI/CD
 	- solutions
@@ -338,24 +407,30 @@
 		- Use smart pointers (C++) or managed memory
 		- Enable compiler warnings and sanitizers
 
-- Deadlock (Threads or DB)
+- Deadlock (Threads) / Race Conditions
 
 	- symptoms
-		- System freezes but no crash
+		- System/app freezes but no crash
 		- CPU idle
 		- Threads or queries waiting indefinitely
 	- causes
 		- Two or more processes/threads each holding resources the other needs
 		- Circular lock dependencies
+		- Missing synchronization
+		- Shared mutable state
 	- tools
 		- Thread dump (jstack, pstack)
-		- SHOW ENGINE INNODB STATUS or DB lock graph
+		- Thread analyzers (ThreadSanitizer, Helgrind)
+		- Logging thread IDs
 		- lsof, strace for blocked syscalls
 	- solutions
 		- Lock ordering discipline
 		- Use timeout-based locking
 		- Reduce resource coupling
 		- Avoid nested locks
+		- Use consistent lock order
+		- Add synchronization
+		- Refactor to avoid shared state
 
 - Database Lock / Lock Contention
 
@@ -363,12 +438,13 @@
 		- Queries hang or time out
 		- “Lock wait timeout exceeded” errors
 		- High DB CPU / connection pool saturation
+		- Data corruption
 	- causes
 		- Long-running transactions
 		- Uncommitted changes blocking others
 		- Poor transaction isolation or missing indexes
 	- tools
-		- Database lock monitoring (SHOW ENGINE INNODB STATUS, pg_locks)
+		- Database lock monitoring (SHOW ENGINE INNODB STATUS, DB lock graph, pg_locks)
 		- Slow query logs
 		- APM traces
 		- EXPLAIN to check access paths
@@ -385,13 +461,15 @@
 		- Processes appear as <defunct> in ps output
 		- System resources slowly deplete
 		- Parent process unresponsive
+		- Resource leaks
+		- System slowdown
 	- causes
 		- Parent process not calling wait() after child exits
-		- Orphaned subprocesses from mismanaged code
+		- Orphaned subprocesses from mismanaged subprocess code
 	- tools
 		- `ps aux | grep defunct`
 		- top or htop for zombie count
-		- -strace` parent process
+		- strace parent process
 	- solutions
 
 - Infinite Loop
@@ -415,25 +493,48 @@
 		- Use safe iteration boundaries
 		- Implement circuit breakers for retries
 
-- Cache Misconfiguration
+- CPU Spikes
+
+	- symptoms
+		- 100% CPU usage
+		- System lag or freezing
+		- High power draw
+	- causes
+		- Infinite loops
+		- Busy waiting
+		- Thread starvation
+	- tools
+		- top, htop, pidstat
+		- strace or perf top
+		- Attach debugger
+	- solutions
+		- Add termination conditions
+		- Use async waits
+		- Optimize loops
+		- Fix thread management
+
+- Cache / CDN Issues
 
 	- symptoms
 		- Stale data
 		- Incorrect results until cache cleared
 		- Performance worse than expected
 		- Cache misses too frequent
+		- Performance drop
 	- causes
 		- Wrong TTLs
 		- Cache not invalidated on data change
-		- Key collisions
+		- Cache key collisions
+		- Cache key mismatch
 		- Wrong cache layer (client vs server)
 	- tools
 		- Inspect cache stats (redis-cli info, Memcached stats)
 		- Use cache logging/debug mode
-		- APM to compare hit/miss rates
+		- APM to compare cache hit/miss rates
+		- Cache CLI tools (Redis CLI, Cloudflare analytics)
 	- solutions
 		- Fix cache keys / TTLs
-		- Implement proper invalidation
+		- Implement proper invalidation on data change
 		- Warm caches during deploy
 		- Add versioning to cache keys
 
@@ -444,7 +545,7 @@
 		- “SSL handshake failed” or “certificate not trusted” errors
 		- Insecure connection warnings
 	- causes
-		- Expired or self-signed certificates
+		- Expired/mismatched/self-signed certificates
 		- Missing intermediate certs
 		- Protocol mismatch (TLS1.0 vs TLS1.2)
 		- Wrong hostname (CN mismatch)
@@ -479,226 +580,34 @@
 		- Adjust NAT or routing tables
 		- Apply least privilege principles
 
-- Code Security Vulnerabilities
-
-	- symptoms
-		- Unauthorized access
-		- Data leaks
-		- XSS / SQL injection alerts
-		- Strange input causing errors
-	- causes
-		- Lack of input sanitization
-		- Insecure crypto or storage
-		- Hardcoded credentials
-		- Outdated libraries
-	- tools
-		- Static analyzers (SonarQube, Snyk, Bandit)
-		- Dynamic analysis (Burp Suite, OWASP ZAP)
-		- Dependency scanners
-	- solutions
-		- Sanitize and validate inputs
-		- Use prepared statements
-		- Rotate credentials and encrypt secrets
-		- Keep dependencies updated
-		- Implement security headers and CSP
-
-- Poor Communication Between Shards / Partitions
+- Distributed / Shards / Partition Problem
 
 	- symptoms
 		- Partial data visibility
 		- Writes succeed on some nodes only
 		- Inconsistent replication
 		- High latency on distributed queries
+		- Inconsistent data
+		- Partial results
+		- Replication lag
 	- causes
 		- Network partitions
 		- Misconfigured cluster topology
 		- Inconsistent replication settings
-		- Schema drift between nodes
+		- Schema/Version drift between nodes
+		- Shard imbalance
 	- tools
 		- Cluster logs and health checks (e.g., mongostat, nodetool, kubectl logs)
 		- Distributed tracing (Jaeger, Zipkin)
 		- Network monitoring tools
 	- solutions
 		- Reconfigure cluster consistency
-		- Resync or rebalance shards
+		- Resync or rebalance nodes/shards/partitions
 		- Ensure same schema and version across nodes
 		- Implement retry and idempotency logic
 
-- Application Crash / Exception
-	- symptoms
-		- Program stops unexpectedly
-		- Stack traces in logs
-		- 500 errors in web services
-	- causes
-		- Unhandled exceptions
-		- Null pointers
-		- Out-of-memory
-		- Invalid input
-	- tools
-		- Log analysis
-		- Debugger (gdb, pdb, Visual Studio)
-		- Crash dumps
-	- solutions
-		- Add error handling
-		- Validate inputs
-		- Fix logic errors
-		- Increase memory / tune GC
-
-- Performance / Latency Issues
-	- symptoms
-		- Slow responses
-		- High CPU or memory usage
-		- Timeout errors
-	- causes
-		- Inefficient algorithms
-		- Too many DB queries
-		- Blocking I/O
-		- No caching
-	- tools
-		- Profilers (perf, Py-spy, pprof)
-		- APM tools (Datadog, New Relic)
-		- top, htop
-	- solutions
-		- Optimize code paths
-		- Add caching
-		- Batch DB calls
-		- Use async/non-blocking I/O
-
-- Memory Leaks
-	- symptoms
-		- Gradual performance degradation
-		- OOM errors
-		- Increasing memory footprint
-	- causes
-		- Unreleased objects/resources
-		- Cyclic references
-		- Poor GC tuning
-	- tools
-		- Memory profilers (Valgrind, heapdump analyzers)
-		- Runtime metrics (Prometheus/Grafana)
-		- Heap dumps
-	- solutions
-		- Free unused objects
-		- Close resources
-		- Fix cyclic references
-		- Tune GC / increase memory
-
-- CPU Spikes / Infinite Loop
-	- symptoms
-		- 100% CPU usage
-		- System lag or freezing
-		- High power draw
-	- causes
-		- Infinite loops
-		- Busy waiting
-		- Thread starvation
-	- tools
-		- top, htop, pidstat
-		- strace or perf top
-		- Attach debugger
-	- solutions
-		- Add termination conditions
-		- Use async waits
-		- Optimize loops
-		- Fix thread management
-
-- Deadlocks / Race Conditions
-	- symptoms
-		- App freezes
-		- Threads waiting indefinitely
-		- Data corruption
-	- causes
-		- Circular locking
-		- Missing synchronization
-		- Shared mutable state
-	- tools
-		- Thread analyzers (ThreadSanitizer, Helgrind)
-		- Logging thread IDs
-		- Thread dumps
-	- solutions
-		- Use consistent lock order
-		- Add synchronization
-		- Refactor to avoid shared state
-
-- Database Problems
-	- symptoms
-		- Queries hang or time out
-		- Data inconsistency
-		- “Lock wait timeout” errors
-	- causes
-		- Missing indexes
-		- Lock contention
-		- Slow queries
-		- Bad schema design
-	- tools
-		- EXPLAIN query plans
-		- DB slow query logs
-		- pg_locks / InnoDB status
-	- solutions
-		- Add indexes
-		- Optimize queries
-		- Tune connection pool
-		- Reduce transaction scope
-
-- Network / Connectivity
-	- symptoms
-		- Requests time out
-		- Connection refused
-		- High latency
-	- causes
-		- DNS issues
-		- Firewall or security group
-		- Misconfigured routes
-		- Network congestion
-	- tools
-		- ping, traceroute, curl, netcat, tcpdump
-		- Wireshark
-		- Network logs
-	- solutions
-		- Fix DNS or routing
-		- Open correct ports
-		- Adjust firewall rules
-		- Use CDN or caching
-
-- Load Balancer / Proxy Issues
-	- symptoms
-		- Some users can’t connect
-		- Intermittent 502/504 errors
-		- Uneven traffic
-	- causes
-		- Unhealthy backend targets
-		- Misconfigured sticky sessions
-		- Timeout mismatch
-	- tools
-		- Load balancer logs / dashboards
-		- curl -I per node
-		- APM traces
-	- solutions
-		- Fix backend health checks
-		- Adjust balancing algorithm
-		- Align timeouts
-
-- Security Vulnerabilities
-	- symptoms
-		- Unauthorized access
-		- Data leaks
-		- Alerts from scanners
-	- causes
-		- SQL injection / XSS
-		- Weak crypto
-		- Hardcoded credentials
-		- Outdated dependencies
-	- tools
-		- Static analysis (SonarQube, Bandit)
-		- OWASP ZAP / Burp Suite
-		- Dependency scanners (Snyk)
-	- solutions
-		- Sanitize inputs
-		- Use prepared statements
-		- Encrypt secrets
-		- Patch dependencies
-
 - Filesystem / Resource Limits
+
 	- symptoms
 		- “Too many open files” errors
 		- Disk full
@@ -718,6 +627,7 @@
 		- Rotate logs
 
 - Configuration / Environment Errors
+
 	- symptoms
 		- App works locally but not in production
 		- Missing env variables
@@ -734,84 +644,3 @@
 		- Fix configs / env vars
 		- Version pinning
 		- Use config management (Vault, dotenv)
-
-- Cache / CDN Issues
-	- symptoms
-		- Stale data
-		- Users see old content
-		- Performance drop
-	- causes
-		- Incorrect TTL
-		- Cache not invalidated
-		- Cache key mismatch
-	- tools
-		- Cache hit/miss metrics
-		- Cache CLI tools (Redis CLI, Cloudflare analytics)
-	- solutions
-		- Adjust TTLs
-		- Invalidate cache on data change
-		- Versioned cache keys
-
-- SSL/TLS / HTTPS Problems
-	- symptoms
-		- “Handshake failed” or “certificate invalid” errors
-	- causes
-		- Expired or mismatched cert
-		- Old TLS protocol
-		- Missing intermediate cert
-	- tools
-		- openssl s_client -connect host:443
-		- curl -v
-		- SSL Labs test
-	- solutions
-		- Renew certs
-		- Include full chain
-		- Use TLS ≥ 1.2
-		- Match CN/SAN with domain
-
-- Software Update / Deployment Problem
-	- symptoms
-		- App fails post-deploy
-		- Missing dependency
-		- Version mismatch
-	- causes
-		- Breaking API changes
-		- Skipped migrations
-		- Config drift
-	- tools
-		- CI/CD logs
-		- Dependency diff
-		- Rollback test
-	- solutions
-		- Rollback
-		- Rebuild with pinned versions
-		- Run migrations
-		- Canary or blue-green deploy
-
-- Distributed / Sharding / Partitioning Problem
-	- symptoms
-		- Inconsistent data
-		- Partial results
-		- Replication lag
-	- causes
-		- Network partition
-		- Version drift
-		- Shard imbalance
-	- tools
-		- Cluster health checks (kubectl, nodetool, etc.)
-		- Distributed tracing (Jaeger, Zipkin)
-	- solutions
-		- Resync nodes
-		- Balance partitions
-		- Enforce consistent versions
-
-- Zombie or Orphaned Processes
-	- symptoms
-		- <defunct> entries in ps
-		- Resource leaks
-		- System slowdown
-	- causes
-		- Parent not calling wait()
-		- Mismanaged subprocesses
-	- tools
-		- `ps aux	grep defunct- strace` parent process
