@@ -514,8 +514,6 @@
 				- lycopene (in tomato, papaya, grapefruit, watermelon, apricot, guava) and other carotenoids (in carrots) are associated with greater kidney functionality, so may be protective against and preventative of kidney damage
 					- https://www.nature.com/articles/s41598-019-53674-5
 			    - may help improve kidney damage: Alpha lipoic acid (ALA)/omega 3s to inhibit IL-11, Andrographis paniculata, moringa, NAC, probiotics, prebiotics (resistant starch), resveratrol
-			    	- omega 3s to repair kidney damage by inhibiting IL-11
-			    		- https://www.nature.com/articles/s41467-022-35306-1
 			        - plants to use for kidney stone prevention and fixing kidney damage
 			            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541433/
 			    - berberine may be renoprotective
@@ -600,7 +598,16 @@
             - avoid chocolate, citrus fruits, coffee, soda, spicy foods, tea, tomatoes, dairy
             - uti: d-mannose with cranberry
 		- inflammation: 
-			- avoid animal products, sugar, gluten
+			- avoid animal products, sugar, gluten, fried food, peanuts, alcohol, vegetable oil, refined carbs, preservatives, additives, saturated/trans fats, MSG, genetically modified food, artificial sweeteners, hydrogenated oil
+			- suppress IL-6, a contributor to insulin resistance
+			    - ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
+			    	- https://www.sciencedirect.com/science/article/pii/S2095177923002502
+			    	- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
+        	- inhibit pro-inflammatory cytokines
+        		- inhibit NF-κB to lower dysregulated NF-κB signaling
+        		- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
+        		- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
+        		- lowering levels of the pro-inflammatory cytokines tumor necrosis factor-alpha (TNF-α), interleukin (IL)-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
 			- anti-inflammatory substances
 				- prunella vulgaris, wasabi, bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, dandelion, olive leaf, nettle, vitamin d, resveratrol, ginkgo, ashwagandha, GABA
 				- taurine has anti-tumor activity
@@ -681,7 +688,7 @@
 				- repair myelin and take nerve repair/regeneration supplements
 					- clemastine to block M1R and regenerate myelin
 						- https://medicalxpress.com/news/2024-08-drug-clock-multiple-sclerosis.html
-					- rest/melatonin, iodine, vitamin B/C/D/K2, zinc, iron, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, choline/citicoline, probiotics/prebiotics
+					- rest/melatonin, iodine, vitamin B/C/D/K2, zinc, iron, lithium, oxygen therapy, a keto diet, low-level laser therapy, phosphatidylserine, uridine, pregnenolone, ashwagandha, ginkgo biloba, lion’s mane mushroom, flavonoids (luteolin, quercetin and fisetin), omega 3s, choline/citicoline, probiotics/prebiotics, collagen
 					- increase brain-derived neurotrophic factor (BDNF): saffron, taurine, olive oil, vitamin b3, quercetin, decaf coffee and coffee fruit, DHEA, progesterone, blueberries, zinc, adaptogens (rhodiola, bacopa, ginseng), theanine, NAC, chocolate, lithium, magnesium, prebiotics/resistant starch, resveratrol, omega 3s, green tea, curcumin, lycopene
 					- treat other conditions that can decrease myelin like thyroid problems
 				- reduce inflammation with anti-inflammatory substances
@@ -692,7 +699,7 @@
 			- blessed thistle (cnicin) 
 				- https://scitechdaily.com/completely-new-use-discovered-this-traditional-herb-has-remarkable-nerve-regenerative-properties/
 		- hair loss: 
-			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, high blood sugar, PCOS, and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamins, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, caffeine, deoxy-d-ribose, vitamin d
+			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, diabetes/high blood sugar, PCOS, vitamin deficiencies (vitamin d and iodine and b-vitamins) and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamins, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, caffeine, deoxy-d-ribose, vitamin d
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
@@ -712,6 +719,8 @@
 					- https://en.wikipedia.org/wiki/Diabetic_nephropathy
 				- avoid high acid foods which can raise blood sugar
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6723571/
+				- avoid lying down after eating, which can lead to insulin resistance
+				- eat anti-inflammatory foods like carrots/spinach/broccoli, and foods like resistant starch/vegetables/beans/nuts/avocados/protein to improve insulin sensitivity
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 				- avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
@@ -737,7 +746,7 @@
 			        			- https://www.sciencedirect.com/science/article/pii/S0753332222003353
 			        		- cellobiose, scutellarin, neochlorogenic acid (peach), chondroitin sulfate, amygdalin, fraxin, salvianolic acid A (red sage), desacetyl asperulosidic acid, and quercitrin (buckwheat)
 			        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11063485/
-			        	- inhibit FoxO6/PPARγ signaling (FoxO6 creates glucose and is normally inhibited by insulin but not in diabetes)
+			        	- inhibit FOXO6/PPARγ signaling (FOXO6 creates glucose and is normally inhibited by insulin but not in diabetes)
 			        		- betaine (spinach, beets)
 			        			- https://pubmed.ncbi.nlm.nih.gov/39263959/
 			        		- quercetin and turmeric also inhibit FOXO6
@@ -750,7 +759,6 @@
 			        			- https://www.sciencedirect.com/science/article/pii/S0944711318304835
 			        - suppress IL-6, a contributor to insulin resistance
 			        	- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
-			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
 			        - Insulin
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
@@ -921,13 +929,6 @@
         		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
         	- inhibit intestinal inflammation
         		- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
-        		- https://www.sciencedirect.com/science/article/pii/S2095177923002502
-        		- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
-        		- inhibit pro-inflammatory cytokines
-        			- inhibit NF-κB to lower dysregulated NF-κB signaling
-        			- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
-        			- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
-        			- lowering levels of the pro-inflammatory cytokines tumor necrosis factor-alpha (TNF-α), interleukin (IL)-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
         	- ibd: 
         		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
         		- inhibit ETS2 by inhibiting MEK, upregulate IL-10

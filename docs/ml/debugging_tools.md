@@ -1,15 +1,10 @@
 - identifying vulns with AI
-- Almanax, Corgea, ZeroPath, Gecko, and Amplify
+	- Almanax, Corgea, ZeroPath, Gecko, and Amplify
 
 - create a table like this of symptoms, probable problem root cause, and tools/tests to use to identify whether that problem is relevant to the symptom
-- problem symptoms, probable problem root cause, tool to identify problem, successful test case, solution/fix
+	- problem symptoms, probable problem root cause, tool to identify problem, successful test case, solution/fix
 	    - website credentials being stolen, XSS, XSS scanning tool, check if pysa identifies an XSS in code, if it does then auto-escape output before including it in html and avoid using innerhtml/eval and use nonces in scripts 
 	    - slow query, database lock, check for locks with a query, query returns results, run a query to fix the table with the lock
-- make sure each unknown symptom is in the table as a problem as well
-- make sure there is a tool/solution for each cause/symptom
-
-
-- general problems
 
 	| **Category**                  | **Tools / Commands**                                                		    | **Purpose**                                            
 	| ----------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -26,9 +21,7 @@
 	| **Cluster / Cloud**        	| `kubectl`, `aws logs`, Grafana, Prometheus                   					| Detect communication or scaling issues      					  |
 
 
-- specific problems
-
-- dns not routing correctly
+- DNS problems
 
 	- symptoms	
 		- Website not loading (e.g., ERR_NAME_NOT_RESOLVED)
@@ -37,9 +30,9 @@
 	- causes	
 		- Incorrect DNS records (A, CNAME, MX, etc.)
 		- DNS propagation delay
-		- Misconfigured DNS resolver
+		- Misconfigured DNS resolver or nameserver
 		- Cached old DNS entries
-		- Expired domain or misconfigured nameserver
+		- Expired domain
 	- tools	
 		- dig or nslookup to check DNS records
 		- ping and traceroute to test network path
@@ -77,7 +70,7 @@
 		- Index and schema inspection tools
 	- solutions	
 		- Add appropriate indexes
-		- Optimize queries (avoid SELECT *, use WHERE conditions)
+		- Optimize queries (avoid SELECT *, use WHERE conditions, use LIMIT, use indexed columns, avoid correlated subqueries)
 		- Cache results (e.g., Redis)
 		- Use pagination for large data sets
 		- Archive or partition old data
@@ -97,12 +90,10 @@
 		- SQL injection or XSS
 		- Weak password hashing (MD5, SHA1)
 		- No HTTPS
-		- Compromised third-party library
+		- Compromised/outdated dependencies
 		- Leaked API keys or database credentials in code
 		- Lack of input sanitization
 		- Insecure/weak crypto or storage
-		- Hardcoded credentials
-		- Outdated dependencies
 	- tools	
 		- Web server and access logs
 		- Intrusion detection tools (Wazuh, OSSEC)
@@ -111,16 +102,15 @@
 		- Dependency scanners (Snyk)
 		- Vulnerability scanners (OWASP ZAP, Burp Suite)
 		- git-secrets or truffleHog for secret detection
-		- SIEM dashboards (Splunk, Datadog Security)
+		- SIEM (Security Information and Event Management) dashboards (Splunk, Datadog Security)
 	- solutions	
-		- Rotate all exposed credentials immediately
+		- Rotate all exposed credentials immediately and encrypt secrets
 		- Enforce strong password hashing (bcrypt, Argon2)
 		- Use HTTPS everywhere
 		- Sanitize user input and validate parameters
 		- Implement rate limiting and 2FA
 		- Conduct security audits and penetration testing
 		- Use prepared statements
-		- Rotate credentials and encrypt secrets
 		- Keep dependencies updated
 		- Implement security headers and CSP
 
@@ -137,11 +127,11 @@
 		- Security groups
 		- Incorrect IP routing
 		- Misconfigured subnet, gateway, or DNS
-		- MTU mismatch
+		- MTU (Maximum Transmission Unit) mismatch (devices in a network have different MTU settings, leading to packet fragmentation or drops)
 		- High latency links
 		- Network congestion
 	- tools
-		- ping, traceroute, mtr to trace paths
+		- ping, traceroute, mtr (my traceroute) to trace paths
 		- curl, netcat, tcpdump
 		- netstat, ss, ifconfig, ip addr to inspect interfaces
 		- Packet capture (tcpdump, Wireshark)
@@ -158,9 +148,8 @@
 - Load Balancer / Proxy Issues
 
 	- symptoms
-		- Some users see errors, others don’t
+		- Some users see errors while others don’t or some users can’t connect
 		- Uneven traffic distribution
-		- Some users can’t connect
 		- High latency or 502/504 errors
 		- Backend servers idle or overloaded
 	- causes
@@ -171,7 +160,7 @@
 		- Timeout mismatch: load balancer timeout shorter than backend response
 	- tools
 		- Check load balancer logs & metrics (AWS ELB, Nginx, HAProxy dashboards)
-		- Use curl -I per node or ab to test responses per backend
+		- Use curl -I per node or ab (Apache Benchmark) to test responses per backend
 		- Monitor request distribution
 		- APM traces
 	- solutions
@@ -255,7 +244,7 @@
 
 	- symptoms
 		- Gradual performance degradation
-		- OOM errors
+		- OOM (out of memory) errors
 		- Increasing memory footprint
 	- causes
 		- Unreleased objects/resources
@@ -292,6 +281,26 @@
 		- Add locks, semaphores, or atomic data types
 		- Avoid shared state (use message queues)
 		- Use thread-safe collections or design patterns (immutable objects, producer-consumer)
+
+- Filesystem / Resource Limits
+
+	- symptoms
+		- “Too many open files” errors
+		- Disk full
+		- App can’t write logs
+	- causes
+		- Not closing file handles
+		- Log rotation missing
+		- ulimit too low
+	- tools
+		- lsof, df -h, ulimit -n
+		- strace system calls
+		- OS metrics
+	- solutions
+		- Close files properly
+		- Raise ulimit
+		- Clear disk space
+		- Rotate logs
 
 - Too Many Open Files or Child Processes
 
@@ -556,7 +565,7 @@
 		- SSL Labs test
 	- solutions
 		- Renew or reissue certificates
-		- Install full chain (intermediate + root)
+		- Install full chain (intermediate + root), add the CA certificate into client trusted root store
 		- Match CN/SAN to domain
 		- Enforce modern TLS versions (≥1.2)
 
@@ -605,26 +614,6 @@
 		- Resync or rebalance nodes/shards/partitions
 		- Ensure same schema and version across nodes
 		- Implement retry and idempotency logic
-
-- Filesystem / Resource Limits
-
-	- symptoms
-		- “Too many open files” errors
-		- Disk full
-		- App can’t write logs
-	- causes
-		- Not closing file handles
-		- Log rotation missing
-		- ulimit too low
-	- tools
-		- lsof, df -h, ulimit -n
-		- strace system calls
-		- OS metrics
-	- solutions
-		- Close files properly
-		- Raise ulimit
-		- Clear disk space
-		- Rotate logs
 
 - Configuration / Environment Errors
 
