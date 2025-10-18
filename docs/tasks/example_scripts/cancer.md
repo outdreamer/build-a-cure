@@ -710,10 +710,13 @@
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications
 					- https://en.wikipedia.org/wiki/Diabetic_nephropathy
+				- avoid high acid foods which can raise blood sugar
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6723571/
 				- treat vitamin deficiencies like chromium/b-vitamins, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 				- avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
-			    - avoid as they can increase blood sugar: niacin, ginkgo biloba, vitamin C, treat hyperthyroidism
+			    - avoid as they can increase blood sugar: 
+			    	- niacin, ginkgo biloba, vitamin C, treat hyperthyroidism, corticosteroids, octreotide, beta blockers, epinephrine, thiazide diuretics, statins, pentamidine, protease inhibitors, L-asparaginase, and antipsychotics
 			    - avoid as they may increase diabetes risk: melatonin (impairs glucose control)
 			    	- https://pmc.ncbi.nlm.nih.gov/articles/PMC7349733/
 			    - low blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, weakness, dizziness, shakiness, anxiety, sweating, fast heartbeat
@@ -728,10 +731,26 @@
 			        - Sulfonylureas (increases insulin release)
 			        - Thiazolidinediones (increases sensitivity to insulin)
 			        - acarbose (decreases absorption of sugar from the intestines)
+			        - inhibit FoxO6
+			        	- inhibit FoxO6/PPARγ signaling (FoxO6 creates glucose and is normally inhibited by insulin but not in diabetes)
+			        		- Betaine
+			        	- modulators of FOXO6
+			        		- increases FOXO6: Rhodiola rosea, ashwagandha
+			        		- other modulators of FOXO6: Eleutherococcus senticosus, Rhaponticum carthamoides, and Bryonia alba
+			        		- https://www.sciencedirect.com/science/article/pii/S0944711318304835
+			        		- https://pmc.ncbi.nlm.nih.gov/articles/PMC11053582/
+			        - suppress IL-6, a contributor to insulin resistance
+			        	- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
+			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
 			        - Insulin
-			        	- increase insulin secretion: ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
-			        	- lower glucose/manage insulin sensitivity: zinc, broccoli, dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, ceylon cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol
+			        	- increase insulin secretion: 
+			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
+			        	- lower glucose/manage insulin sensitivity: 
+			        		- zinc, broccoli, dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, ceylon cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol
 							- https://pubmed.ncbi.nlm.nih.gov/38931176/
+						- reduce hyperglycemia: 
+							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
+							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
 			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha
 			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
 			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
@@ -891,6 +910,15 @@
         	- kill bad gut bacteria: berberine
         	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
         		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
+        	- inhibit intestinal inflammation
+        		- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
+        		- https://www.sciencedirect.com/science/article/pii/S2095177923002502
+        		- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
+        		- inhibit pro-inflammatory cytokines
+        			- inhibit NF-κB to lower dysregulated NF-κB signaling
+        			- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
+        			- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
+        			- lowering levels of the pro-inflammatory cytokines tumor necrosis factor-alpha (TNF-α), interleukin (IL)-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
         	- ibd: 
         		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
         		- inhibit ETS2 by inhibiting MEK, upregulate IL-10
