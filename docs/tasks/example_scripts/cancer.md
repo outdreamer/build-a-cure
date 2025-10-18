@@ -487,7 +487,7 @@
 		    - PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
 		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine (not for kidney/liver damage), maca to increase the amount of human growth hormone to recover
-			- kidney damage: fasting, omega 3s, melatonin, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris, lubiprostone to prevent further damage
+			- kidney damage: fasting, omega 3s, melatonin, betaine, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris, lubiprostone to prevent further damage
 				- resistant starch (increases GLP-1, so it helps with kidney disease like ozempic does)
 					- 'RS reduced the serum IS, serum phosphorus, IL-6, and uric acid levels significantly in dialysis patients, while hs-CRP, serum creatinine, BUN, serum paracresol sulfate, and blood lipid showed no significant changes.'
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9314005/
@@ -731,14 +731,23 @@
 			        - Sulfonylureas (increases insulin release)
 			        - Thiazolidinediones (increases sensitivity to insulin)
 			        - acarbose (decreases absorption of sugar from the intestines)
-			        - inhibit FoxO6
+			        - inhibit FOXOs
+			        	- inhibit FOXO1
+			        		- betaine
+			        			- https://www.sciencedirect.com/science/article/pii/S0753332222003353
+			        		- cellobiose, scutellarin, neochlorogenic acid (peach), chondroitin sulfate, amygdalin, fraxin, salvianolic acid A (red sage), desacetyl asperulosidic acid, and quercitrin (buckwheat)
+			        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11063485/
 			        	- inhibit FoxO6/PPARγ signaling (FoxO6 creates glucose and is normally inhibited by insulin but not in diabetes)
-			        		- Betaine
+			        		- betaine (spinach, beets)
+			        			- https://pubmed.ncbi.nlm.nih.gov/39263959/
+			        		- quercetin and turmeric also inhibit FOXO6
+			        			- https://www.scbt.com/p/curcumin-458-37-7
+			        			- https://www.scbt.com/p/quercetin-117-39-5
 			        	- modulators of FOXO6
 			        		- increases FOXO6: Rhodiola rosea, ashwagandha
+			        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11053582/
 			        		- other modulators of FOXO6: Eleutherococcus senticosus, Rhaponticum carthamoides, and Bryonia alba
-			        		- https://www.sciencedirect.com/science/article/pii/S0944711318304835
-			        		- https://pmc.ncbi.nlm.nih.gov/articles/PMC11053582/
+			        			- https://www.sciencedirect.com/science/article/pii/S0944711318304835
 			        - suppress IL-6, a contributor to insulin resistance
 			        	- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
 			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
