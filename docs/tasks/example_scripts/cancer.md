@@ -310,6 +310,7 @@
 			- selenium, l-carnitine, myo-inositol, melatonin, and resveratrol all impact thyroid function
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6770945/
 		- neuropathy/nerve damage:
+			- nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric
 			- arginine/citrulline/vitamin C together and other amino acids help repair nerves by lowering blood pressure and/or growing new neurons
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 				- IKVAV (isoleucine–lysine–valine–alanine–valine), RGD (arginine–glycine–aspartic acid), YIGSR (tyrosine–isoleucine–glycine–serine–arginine), and RADA16 (arginine–alanine–aspartic acid–alanine)
@@ -427,6 +428,38 @@
 		- vitamin deficiency: 
 			- treat causes of vitamin deficiency like anti-vitamins, medications, excess vitamins, and conditions/substances that change metabolism/absorption of vitamins like caffeine/diuretics/phytic acid or hypothyroidism/adrenal insufficiency, also make sure to take vitamins at the right time so they dont neutralize each other like iron/zinc
 			- treat problems processing vitamins (like 'lack of enzymes') with activated forms of vitamins
+			- avoid taking these combinations together which can interfere with absorption or have excessive synergistic effects:
+				- calcium/iron
+				- calcium/magnesium
+				- calcium/potassium
+				- zinc/calcium
+				- zinc/iron
+				- zinc/copper
+				- zinc/magnesium
+				- vitamin c/b12
+				- vitamin e/k
+				- green tea/black tea/turmeric and iron
+				- multiple blood thinning supplements in high doses (fish oil, feverfew, ginkgo, garlic, curcumin, vitamin e, white willow bark, cranberry, milk thistle)
+				- vitamin a/k and blood thinners or fish oil
+				- vitamin d and cholesterol/blood pressure/heart disease medicines
+				- black cohosh and statins
+				- st. johns wort and cholesterol medicines/blood pressure medicines/statins/benzodiazepines
+				- milk thistle and valium
+				- ginkgo and trazadone
+				- ginseng and MAOIs
+				- levothyroxine and calcium/magnesium/iron
+				- diabetes mecicines and berberine/st. john's wort/coq10/cinnamon/aloe
+				- blood pressure medicines and synergistic substances like coq10/grapefruit/ginseng/licorice root/st. john's wort
+				- antidepressants and st. john's wort or 5-htp or SAM-e or ashwagandha or ginseng or maca
+				- antibiotics and iron/calcium/magnesium/manganese/zinc
+				- sedatives: melatonin, valerian, ashwagandha, kava, and st. john’s wort
+				- red yeast rice and vitamin b3
+				- vitamins a/d/e/k should usually be taken separately except vitamin d/k2
+				- adaptogenic blends: ashwagandha, astragalus, brahmi, ginseng, propolis, reishi or cordyceps mushrooms, rhodiola rosea
+			- use these vitamin combinations together:
+				- vitamin d/k2/calcium
+				- magnesium/vitamin d
+				- vitamin c/iron
 			- treat food cravings:
 				- craving: deficient nutrient causing that deficiency
 					- sugar craving: chromium, phosphorus, sulfur, tryptophan
@@ -768,11 +801,19 @@
 						- reduce hyperglycemia: 
 							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
-			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha
+			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric
 			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
 			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
 			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC8298154/
 			        - use ACE inhibitors and ARBs to manage cardiovascular disease risk from diabetes
+				        - angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): 
+							- garlic, seaweed (wakame, etc), tuna, sardine, hawthorn, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate
+							- Olive Leaf, Avena sativa, Bothrops jararaca, Bothrops moojeni, Cajanus cajan, green tea (EGCG), Berberine, Coix larchryma-jobi, Egg Yolk, Lithospermic Acid B, Salvia hispanica, Vigna radiata, Ampelopsis Brevipedunculata (Hopeaphenol; Vitisin A, Asparagus officinalis (Asparaptine), Chinese Herb (Pentagalloylglucose, Isochlorogenic acid B, Methyl 3,4-di-O-caffeoylquinate, Epigallocatechin gallate (EGCG/green tea), Epigallocatechin-3-O-Methylgallate), Cleistanthus collinus (Cleistanthins A, B), Clerodendron trichotomum (Acteoside, Isomartynoside, Leucosceptoside A, Martynoside), Delphinium sp. (Cyanin, Delphinidin), Desmodium styracifolium (Carlinoside, Schaftoside, Vicenin 1–3), Dioscorea opposita Thunb. (Diascorin), Eucommia ulmoides (Megastigmane Enantiomersv, Glycyrrhiza glabra (Licochalcone A), Glycyrrhiza uralensis (Echinatinv, Limonium michelsonii (Isolates), Mucuna Pruriens (Genistein), Caffeic Acid, Caffeoyl Acetate, Chlorogenic Acid, Ferulic Acid), Salvia miltiorrhizae (Salvianolic Acid B), Sargassum wightii (O-Heterocyclic Analogues), Tamarix hohenackeri (Chrysoeriol, Quercetin, Isoferulic acid, Methyl-4-O-methylgallate, Gallic acid, Methyl gallate), Toona sinensis (Quercetin, Resveratrol), Xestospongia Cf. Vansoesti (Salsolinol)
+						    - ACE-changing substances: 
+								- Dohaekseunggi-tang, Nigella sativa, Cymodocea Nodosa, Plantago major, Mucuna pruriens, Syzygium cumini, Fucus spiralis, Eucalyptus camaldulensis, Litsea glaucescens, Lens culinaris sprouted, Pleurotus eryngii, Phaseolus vulgaris, Prunus amygdalus, Pistacia vera juice, Boza protein extract, Nitraria sibirica, Amaranthus dubius, Amaranthus hybridus, Asystasia gangetica, Galinsoga parviflora, Justicia flava, Oxygonum sinuatum, Physalis viscosa, Tulbaghia violacea, Bulbus Fritillaria
+						- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): 
+							- potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
+
       	- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- multiple chemical sensitivities: 
