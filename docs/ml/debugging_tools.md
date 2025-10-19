@@ -1,103 +1,148 @@
-- identifying vulns with AI
-	- Almanax, Corgea, ZeroPath, Gecko, and Amplify
-
 - create a table like this of symptoms, probable problem root cause, and tools/tests to use to identify whether that problem is relevant to the symptom
+	
 	- problem symptoms, probable problem root cause, tool to identify problem, successful test case, solution/fix
 	    - website credentials being stolen, XSS, XSS scanning tool, check if pysa identifies an XSS in code, if it does then auto-escape output before including it in html and avoid using innerhtml/eval and use nonces in scripts 
 	    - slow query, database lock, check for locks with a query, query returns results, run a query to fix the table with the lock
 
+	- Example Symptoms and tests
+		- Slow performance: check if CPU or I/O bound
+		- Crashes: check for an out of memory error or race condition
+		- Timeout: check for a deadlock or infinite loop
+
+- tools by category
+
 	| **Category**                  | **Tools / Commands**                                                		    | **Purpose**                                            
-	| ----------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- |
-	| **Network / Firewall**        | `ping`, `traceroute`, `mtr`, `netcat`, `curl`, `tcpdump`, `nmap`, Wireshark 	| Trace packets, connectivity, protocol and latency issues        |
-	| **System / Process**          | `top`, `htop`, `ps aux`, `lsof`, `ulimit`, `vmstat`, `strace`, `gdb`, `perf`  | Monitor CPU, memory, processes, file handles, syscalls          |
-	| **Application**               | APM tools (Datadog, New Relic, OpenTelemetry)                       			| Trace transactions, measure latency                    		  |
-	| **Threading / Concurrency**   | ThreadSanitizer, Valgrind Helgrind, AddressSanitizer, Java Flight Recorder 	| Detect race conditions, deadlocks, memory and concurrency bugs  |
-	| **Database**				    | `EXPLAIN`									                          			| Identify performance bottlenecks 					   		      |
-	| **Database / Concurrency** 	| `SHOW PROCESSLIST`, `pg_locks`, `EXPLAIN`, transaction logs  					| Diagnose locks, blocking queries, deadlocks 					  |
-	| **Load Balancing**			| HAProxy stats, AWS ELB metrics   									  			| Identify traffic misrouting							   		  |
-	| **Logging / Observability**   | Centralized log tools (ELK, Grafana Loki, CloudWatch)               			| Correlate events and root causes                      		  |
-	| **Cache / Distributed**    	| Redis CLI, Memcached stats, ELK stack logs                   					| Debug stale or inconsistent caching         					  |
-	| **Security / SSL**         	| `openssl`, OWASP ZAP, Burp Suite, `curl -v`, SSL Labs        					| Inspect SSL/TLS certs and vulnerabilities   					  |
-	| **Cluster / Cloud**        	| `kubectl`, `aws logs`, Grafana, Prometheus                   					| Detect communication or scaling issues      					  |
+	| ----------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+	| **Network / Firewall**        | `ping`, `traceroute`, `mtr`, `netcat`, `curl`, `tcpdump`, `nmap`, Wireshark 	| Trace packets, connectivity, protocol and latency issues        				|
+	| **System / Process**          | `top`, `htop`, `ps aux`, `lsof`, `ulimit`, `vmstat`, `strace`, `gdb`, `perf`  | Monitor CPU, memory, processes, file handles, syscalls          				|
+	| **Application**               | APM tools (Datadog, New Relic, OpenTelemetry)                       			| Trace transactions, measure latency                    		  				|
+	| **Threading / Concurrency**   | ThreadSanitizer, Valgrind Helgrind, AddressSanitizer, Java Flight Recorder 	| Detect race conditions, deadlocks, memory and concurrency bugs  				|
+	| **Database / Concurrency** 	| `SHOW PROCESSLIST`, `pg_locks`, `EXPLAIN`, transaction logs, pg_stat_activity | Identify performance bottlenecks, diagnose locks/deadlocks, blocking queries  |
+	| **Load Balancing**			| HAProxy stats, AWS ELB metrics   									  			| Identify traffic misrouting							   		 				|
+	| **Logging / Observability**   | Centralized log tools (ELK, Grafana Loki, CloudWatch)               			| Correlate events and root causes                      		  				|
+	| **Cache / Distributed**    	| Redis CLI, Memcached stats, ELK stack logs                   					| Debug stale or inconsistent caching         					  				|
+	| **Security / SSL**         	| `openssl`, OWASP ZAP, Burp Suite, `curl -v`, SSL Labs        					| Inspect SSL/TLS certs and vulnerabilities   					  				|
+	| **Cluster / Cloud**        	| `kubectl`, `aws logs`, Grafana, Prometheus                   					| Detect communication or scaling issues      					  				|
+    | **Configuration** 			| `env`, `cat /etc/*conf*` 														| Inspect system configuration including environment variables 					|
 
+- server diagnostic process
 
-- System Monitoring & Performance
-	- top	View real-time CPU, memory, and process usage.
-	- htop	Interactive version of top with color, sorting, and process tree view.
-	- vmstat	Display system performance (CPU, memory, I/O, swap).
-	- iostat	Show CPU and disk I/O statistics — useful for diagnosing disk bottlenecks.
-	- sar	Collect and report system activity over time (CPU, memory, I/O, etc.).
-	- free	Display free and used memory (RAM and swap).
-	- uptime	Show system uptime and average CPU load.
-	- dstat	Combined statistics for CPU, disk, network, and I/O in real-time.
-	- mpstat	Show CPU usage per core.
-	- pidstat	Monitor per-process resource usage (CPU, I/O).
-	- lscpu	Display CPU architecture and core information.
+	Connection fails: check network layer                            Server reachable: check server performance
+	     Run `ping <IP>` / `traceroute`                                   High load? Check CPU/memory.  
+	     Ping fails: network/routing issue                                     High CPU: check `top`, `ps`  
+	     Ping ok: DNS issue/firewall block                                     High memory: check `free`, `vmstat`
+	     Check NIC & routes: `ip a`, `ip route`                           If CPU wait (iowait) is high, then Disk or I/O bottleneck: Run `iostat -x`, `iotop`
+	     Check firewall: ufw/iptables                                     If CPU wait (iowait) is low, then CPU-bound issue: Check process threads, infinite loops, runaway app      
+	     Check load balancer: `curl -v`, LB logs                          Check disk space: `df -h`, if disk full: clean logs, tmp, rotate logs, expand volume 
+	     Check DNS: `dig`, `nslookup`: Verify DNS resolution path         Check database: slow I/O, locks, queries, indexes
+	     Network / DNS fix: adjust routes, DNS records                    Fix root cause: optimize DB, tune cache, upgrade disks
+	     Test app/service again: `curl`, `ss -tulwn`, etc
+	     Still broken? Check logs: `/var/log`, `journalctl`
+	     Fix service configuration: restart/rebuild/patch/rollback
 
-- Process & Job Management
-	- ps	Show current running processes.
-	- pstree	Display processes in a tree structure (parent-child relationships).
-	- kill	Terminate processes by PID.
+- tools to identify vulns with AI
+	- Almanax, Corgea, ZeroPath, Gecko, and Amplify
+
+- Monitor Resource Usage tools
+	- Memory leaks: track with valgrind, leaks, or runtime profilers
+	- CPU bottlenecks: profile performance using perf, top, htop, py-spy, or IDE profilers
+	- Disk/IO: check iostat, iotop, or SQL slow query logs
+	- Threads/processes: monitor with ps, pstree, or strace
+
+- Metrics to Check for I/O problems
+	Metric				Meaning									Healthy Range
+	- iowait			% of time CPU waits for I/O				Usually < 5–10%
+	- await				Average wait time per I/O (ms)			< 10–20ms (SSD), < 100ms (HDD)
+	- svctm				Average service time (ms)				Should stay low and consistent
+	- util				% of device busy time					> 80–90% means saturated
+	- tps				I/O transactions per second				Depends on hardware (HDD < 200, SSD > 10k)
+	- read/write KB/s	Throughput								High is OK if latency remains low
+
+- System Monitoring & Performance tools
+	- top		View real-time CPU, memory, and process usage
+	- htop		Interactive version of top with color, sorting, and process tree view
+	- vmstat	Display system performance (CPU, memory, I/O, swap), shows blocked processes (b), wa column for I/O wait
+	- iostat	Show CPU and disk I/O statistics — useful for diagnosing disk bottlenecks, shows detailed per-device I/O performance (latency, throughput, busy%)
+	- sar		Collect and report system activity over time (CPU, memory, I/O, etc), shows historical I/O stats (if sysstat is installed)
+	- free		Display free and used memory (RAM and swap)
+	- uptime	Show system uptime and average CPU load
+	- dstat		Combined statistics for CPU, disk, network, and I/O in real-time
+	- mpstat	Show CPU usage per core
+	- pidstat	Monitor per-process resource usage (CPU, I/O)
+	- lscpu		Display CPU architecture and core information
+	- iotop		Which processes are doing the most I/O
+
+- Process & Job Management tools
+	- ps				Show current running processes.
+	- pstree			Display processes in a tree structure (parent-child relationships).
+	- kill				Terminate processes by PID.
 	- pkill / killall	Kill processes by name.
-	- nice / renice	Adjust process scheduling priority.
-	- jobs	List background jobs in the current shell.
-	- fg / bg	Bring background jobs to foreground or send them to background.
-	- nohup	Run a command immune to hangups (keeps running after logout).
-	- screen / tmux	Persistent terminal multiplexers — manage multiple sessions.
+	- nice / renice		Adjust process scheduling priority.
+	- jobs				List background jobs in the current shell.
+	- fg / bg			Bring background jobs to foreground or send them to background.
+	- nohup				Run a command immune to hangups (keeps running after logout).
+	- screen / tmux		Persistent terminal multiplexers — manage multiple sessions.
 
-- Disk & Filesystem Management
-	- df	Show available and used disk space on mounted filesystems.
-	- du	Display disk usage per file or directory.
-	- lsblk	List block devices (disks, partitions).
+- Disk & Filesystem Management tools
+	- df				Show available and used disk space on mounted filesystems.
+	- du				Display disk usage per file or directory.
+	- lsblk				List block devices (disks, partitions).
 	- fdisk / parted	Partition disks.
 	- mount / umount	Mount or unmount filesystems.
-	- find	Search for files or directories based on patterns or properties.
-	- locate	Quickly find files using a prebuilt index database.
-	- tree	Display directory structure as a tree.
-	- stat	Show detailed file info (permissions, timestamps, size, etc.).
-	- du -sh *	Summarize disk usage by folder in human-readable form.
-	- file	Identify the file type (binary, text, executable, etc.).
+	- find				Search for files or directories based on patterns or properties.
+	- locate			Quickly find files using a prebuilt index database.
+	- tree				Display directory structure as a tree.
+	- stat				Show detailed file info (permissions, timestamps, size, etc.).
+	- du -sh *			Summarize disk usage by folder in human-readable form.
+	- file				Identify the file type (binary, text, executable, etc.).
+	- smartctl			Check disk health (SMART data)
+	- blkid				Identify filesystem type
 
-- Networking & Connectivity
-	- ping	Test network connectivity to a host.
+- Networking I/O & Connectivity tools
+	- ping						Test network connectivity to a host.
 	- traceroute / tracepath	Show path packets take to reach a destination.
-	- nslookup / dig	Query DNS records.
-	- ifconfig / ip addr	View or configure network interfaces.
-	- netstat / ss	Show network connections, sockets, and ports.
-	- telnet / nc (netcat)	Test TCP/UDP connections, debug open ports.
-	- tcpdump	Capture and inspect network packets.
-	- nmap	Network scanner — check open ports, services, hosts.
-	- hostname	Display or set system hostname.
-	- route / ip route	Show or modify routing tables.
+	- nslookup / dig			Query DNS records.
+	- ifconfig / ip addr		View or configure network interfaces.
+	- netstat					Historical connections, packet drops
+	- ss						Active connections and socket states
+	- telnet / nc (netcat)		Test TCP/UDP connections, debug open ports.
+	- tcpdump					Capture and inspect network packets.
+	- nmap						Network scanner — check open ports, services, hosts.
+	- hostname					Display or set system hostname.
+	- route / ip route			Show or modify routing tables.
+	- iftop						Real-time bandwidth per connection
+	- nload						Live upload/download stats
+	- ethtool					NIC status and driver info
+	- iperf 					Bandwidth and throughput testing
 
-- User, Permission & Security Management
-	- whoami	Display the current logged-in username.
-	- id	Show user and group IDs.
-	- sudo	Run commands as another user (usually root).
-	- su	Switch user or become superuser.
-	- groups	Show user’s group memberships.
-	- umask	Set default permission masks for new files.
+- User, Permission & Security Management tools
+	- whoami			Display the current logged-in username.
+	- id				Show user and group IDs.
+	- sudo				Run commands as another user (usually root).
+	- su				Switch user or become superuser.
+	- groups			Show user’s group memberships.
+	- umask				Set default permission masks for new files.
 	- ufw / iptables	Configure firewall rules.
 
-- System & Hardware Information
-	- uname -a	Display kernel and system info.
+- System & Hardware Information tools
+	- uname -a			Display kernel and system info.
 	- lsb_release -a	Show Linux distribution version.
-	- lscpu	Display CPU details.
-	- lsusb	List USB devices.
-	- lspci	List PCI devices.
-	- dmidecode	Show hardware info (BIOS, memory, manufacturer).
-	- dmesg	View kernel ring buffer (hardware/system messages).
-	- who / w	Show logged-in users and their activities.
-	- history	View command history.
+	- lscpu				Display CPU details.
+	- lsusb				List USB devices.
+	- lspci				List PCI devices.
+	- dmidecode			Show hardware info (BIOS, memory, manufacturer).
+	- dmesg				View kernel ring buffer (hardware/system messages), look for hardware I/O errors
+	- who / w			Show logged-in users and their activities.
+	- history			View command history.
 
-- Logging & Diagnostics
+- Logging & Diagnostics tools
 	- journalctl	View systemd logs.
 	- dmesg			View kernel and hardware logs.
 	- tail -f /var/log/syslog	Follow system logs in real time.
 	- last / lastlog	Show recent logins.
 	- logger	Write custom messages to syslog.
 
-- Development, Debugging & Profiling
+- Development, Debugging & Profiling tools
 	- strace	Trace system calls and signals — useful for debugging runtime behavior.
 	- ltrace	Trace library calls.
 	- gdb	GNU debugger — debug compiled programs.
@@ -107,13 +152,80 @@
 	- objdump / nm	Inspect binaries and symbols.
 	- readelf	Display ELF binary information.
 
-- System Control & Services
+- System Control & Services tools
 	- systemctl	Manage systemd services (start, stop, restart, enable).
 	- service	Control SysV init services (legacy).
 	- shutdown / reboot / poweroff	Manage system power states.
 	- cron / crontab	Schedule recurring tasks.
 	- at	Schedule one-time tasks.
-	
+
+
+- I/O Problems
+
+	- Disk Saturation	
+		- causes
+			- Too many read/write ops, logs, DB writes	
+		- symptoms
+			- High disk util%, high await
+		- solutions
+			- Move data to SSDs or faster disks, use RAID 10, or shard storage
+
+	- Slow Storage	
+		- causes
+			- HDD vs SSD, poor RAID setup	
+		- symptoms
+			- High latency per I/O
+		- solutions
+
+	- Filesystem Fragmentation	
+		- causes
+			- Poor layout on disk	
+		- symptoms
+			- Gradual slowdown
+		- solutions
+
+	- Swap Thrashing	
+		- causes
+			- Low RAM leads to excessive swapping
+		- symptoms
+			- High I/O wait, slow system
+		- solutions
+			- Add RAM, reduce memory pressure
+
+	- Network Bottleneck	
+		- causes
+			- Saturated NIC or high latency	
+		- symptoms
+			- Delays in I/O over networked storage
+		- solutions
+
+	- Faulty Disk/Controller	
+		- causes
+			- Hardware degradation	
+		- symptoms
+			- Kernel “I/O error” messages
+		- solutions
+			- Replace disks, check SMART data
+
+	- NFS/Remote I/O	
+		- causes
+			- Slow networked filesystem	
+		- symptoms
+			- I/O waits with normal local disk stats
+		- solutions
+
+	- network storage lag
+		- causes
+		- symptoms
+		- solutions
+			- Optimize NFS/iSCSI, improve bandwidth or reduce hops
+
+	- Poor I/O configuration
+		- causes
+		- symptoms
+		- solutions
+			- Tune kernel parameters (vm.dirty_ratio, vm.swappiness)
+
 - DNS problems
 
 	- symptoms	
@@ -148,11 +260,12 @@
 		- Queries hang or time out
 		- Data inconsistency
 		- “Lock wait timeout” errors
+		- High disk read I/O
 	- causes	
 		- Missing indexes
 		- Poor query structure (SELECT *)
 		- Inefficient joins or subqueries
-		- Large table scans
+		- Full large table scans
 		- Lock contention
 		- Slow queries
 		- Unoptimized schema (no normalization or too much normalization)
@@ -231,9 +344,8 @@
 		- Check firewall rules (ufw, iptables, aws ec2 describe-security-groups)
 		- Network logs
 	- solutions
-		- Fix DNS, routes, firewall, or security groups
+		- Fix DNS, IP, routes, firewall, or security groups settings
 		- Restart networking services
-		- Correct DNS or IP settings
 		- Optimize MTU, QoS, or TCP settings
 		- Open correct ports
 		- Use CDN or caching
@@ -312,7 +424,7 @@
 	- causes
 		- Unhandled exceptions
 		- Null pointers
-		- Out-of-memory
+		- Out-of-memory errors
 		- Invalid input
 		- Memory leaks
 		- Race conditions
@@ -344,7 +456,7 @@
 		- Cyclic references
 		- Poor GC tuning
 	- tools
-		- Memory profilers (Valgrind, heapdump analyzers)
+		- Memory profilers (Valgrind)
 		- Runtime metrics (Prometheus/Grafana)
 		- Heap dumps
 	- solutions
@@ -359,7 +471,7 @@
 		- Random crashes or inconsistent data
 		- Intermittent test failures
 		- Race conditions or deadlocks
-		- High CPU under multithreading
+		- High CPU usage under multithreading
 	- causes
 		- Shared mutable state without synchronization
 		- Improper locking
@@ -382,7 +494,7 @@
 		- Disk full
 		- App can’t write logs
 	- causes
-		- Not closing file handles
+		- Not closing file/socket handles, file descriptor leak
 		- Log rotation missing
 		- ulimit too low
 	- tools
@@ -417,6 +529,26 @@
 		- Kill zombie processes (pkill -9 or kill -9 <pid>)
 		- Raise file descriptor limits (ulimit -n 65535)
 		- Fix code to reuse resources
+
+- Zombie Process
+
+	- symptoms
+		- Processes appear as <defunct> in ps output
+		- System resources slowly deplete
+		- Parent process unresponsive
+		- Resource leaks
+		- System slowdown
+	- causes
+		- Parent process not calling wait() after child exits
+		- Orphaned subprocesses from mismanaged subprocess code
+	- tools
+		- `ps aux | grep defunct`
+		- top or htop for zombie count
+		- strace parent process
+	- solutions
+		- Kill zombie processes (pkill -9 or kill -9 <pid>)
+		- Manage subprocess code
+		- Call wait() after child exits
 
 - High CPU Usage / CPU Starvation
 
@@ -468,25 +600,38 @@
 		- Add version pinning in package files
 		- Implement canary or blue-green deployments
 
-- Race Condition
+- Deadlock (Threads) / Race Conditions
 
 	- symptoms
 		- Random inconsistent results
 		- Hard-to-reproduce bugs
 		- Incorrect counters or data corruption
 		- Occasional crashes under concurrency
+		- System/app freezes but no crash
+		- CPU idle
+		- Threads or queries waiting indefinitely
 	- causes
 		- Shared mutable state accessed unsafely
 		- Missing synchronization primitives
 		- Improper use of threads/futures
+		- Two or more processes/threads each holding resources the other needs
+		- Circular lock dependencies
 	- tools
 		- Thread analyzers (ThreadSanitizer, Helgrind, Go race detector)
 		- Logging with timestamps and thread IDs
 		- Deterministic test frameworks
+		- Thread dump (jstack, pstack)
+		- lsof, strace for blocked syscalls
 	- solutions
 		- Use mutexes, locks, or atomic variables
 		- Avoid shared mutable data
 		- Design for immutability or message passing
+		- Lock ordering discipline
+		- Use timeout-based locking
+		- Reduce resource coupling
+		- Avoid nested locks
+		- Use consistent lock order
+		- Add synchronization
 
 - Segmentation Fault (Segfault)
 
@@ -508,31 +653,6 @@
 		- Validate array bounds
 		- Use smart pointers (C++) or managed memory
 		- Enable compiler warnings and sanitizers
-
-- Deadlock (Threads) / Race Conditions
-
-	- symptoms
-		- System/app freezes but no crash
-		- CPU idle
-		- Threads or queries waiting indefinitely
-	- causes
-		- Two or more processes/threads each holding resources the other needs
-		- Circular lock dependencies
-		- Missing synchronization
-		- Shared mutable state
-	- tools
-		- Thread dump (jstack, pstack)
-		- Thread analyzers (ThreadSanitizer, Helgrind)
-		- Logging thread IDs
-		- lsof, strace for blocked syscalls
-	- solutions
-		- Lock ordering discipline
-		- Use timeout-based locking
-		- Reduce resource coupling
-		- Avoid nested locks
-		- Use consistent lock order
-		- Add synchronization
-		- Refactor to avoid shared state
 
 - Database Lock / Lock Contention
 
@@ -556,23 +676,6 @@
 		- Use shorter locks (autocommit)
 		- Change isolation level (e.g., from SERIALIZABLE → READ COMMITTED)
 		- Kill stale sessions
-
-- Zombie Process
-
-	- symptoms
-		- Processes appear as <defunct> in ps output
-		- System resources slowly deplete
-		- Parent process unresponsive
-		- Resource leaks
-		- System slowdown
-	- causes
-		- Parent process not calling wait() after child exits
-		- Orphaned subprocesses from mismanaged subprocess code
-	- tools
-		- `ps aux | grep defunct`
-		- top or htop for zombie count
-		- strace parent process
-	- solutions
 
 - Infinite Loop
 
@@ -630,10 +733,9 @@
 		- Cache key mismatch
 		- Wrong cache layer (client vs server)
 	- tools
-		- Inspect cache stats (redis-cli info, Memcached stats)
+		- Inspect cache stats (redis-cli info, Memcached stats, Cloudflare analytics)
 		- Use cache logging/debug mode
 		- APM to compare cache hit/miss rates
-		- Cache CLI tools (Redis CLI, Cloudflare analytics)
 	- solutions
 		- Fix cache keys / TTLs
 		- Implement proper invalidation on data change
@@ -647,8 +749,7 @@
 		- “SSL handshake failed” or “certificate not trusted” errors
 		- Insecure connection warnings
 	- causes
-		- Expired/mismatched/self-signed certificates
-		- Missing intermediate certs
+		- Expired/mismatched/missing/self-signed certificates
 		- Protocol mismatch (TLS1.0 vs TLS1.2)
 		- Wrong hostname (CN mismatch)
 	- tools
@@ -685,12 +786,10 @@
 - Distributed / Shards / Partition Problem
 
 	- symptoms
-		- Partial data visibility
+		- Partial results or partial data visibility
 		- Writes succeed on some nodes only
-		- Inconsistent replication
+		- Inconsistent data/replication
 		- High latency on distributed queries
-		- Inconsistent data
-		- Partial results
 		- Replication lag
 	- causes
 		- Network partitions
