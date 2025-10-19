@@ -21,6 +21,99 @@
 	| **Cluster / Cloud**        	| `kubectl`, `aws logs`, Grafana, Prometheus                   					| Detect communication or scaling issues      					  |
 
 
+- System Monitoring & Performance
+	- top	View real-time CPU, memory, and process usage.
+	- htop	Interactive version of top with color, sorting, and process tree view.
+	- vmstat	Display system performance (CPU, memory, I/O, swap).
+	- iostat	Show CPU and disk I/O statistics — useful for diagnosing disk bottlenecks.
+	- sar	Collect and report system activity over time (CPU, memory, I/O, etc.).
+	- free	Display free and used memory (RAM and swap).
+	- uptime	Show system uptime and average CPU load.
+	- dstat	Combined statistics for CPU, disk, network, and I/O in real-time.
+	- mpstat	Show CPU usage per core.
+	- pidstat	Monitor per-process resource usage (CPU, I/O).
+	- lscpu	Display CPU architecture and core information.
+
+- Process & Job Management
+	- ps	Show current running processes.
+	- pstree	Display processes in a tree structure (parent-child relationships).
+	- kill	Terminate processes by PID.
+	- pkill / killall	Kill processes by name.
+	- nice / renice	Adjust process scheduling priority.
+	- jobs	List background jobs in the current shell.
+	- fg / bg	Bring background jobs to foreground or send them to background.
+	- nohup	Run a command immune to hangups (keeps running after logout).
+	- screen / tmux	Persistent terminal multiplexers — manage multiple sessions.
+
+- Disk & Filesystem Management
+	- df	Show available and used disk space on mounted filesystems.
+	- du	Display disk usage per file or directory.
+	- lsblk	List block devices (disks, partitions).
+	- fdisk / parted	Partition disks.
+	- mount / umount	Mount or unmount filesystems.
+	- find	Search for files or directories based on patterns or properties.
+	- locate	Quickly find files using a prebuilt index database.
+	- tree	Display directory structure as a tree.
+	- stat	Show detailed file info (permissions, timestamps, size, etc.).
+	- du -sh *	Summarize disk usage by folder in human-readable form.
+	- file	Identify the file type (binary, text, executable, etc.).
+
+- Networking & Connectivity
+	- ping	Test network connectivity to a host.
+	- traceroute / tracepath	Show path packets take to reach a destination.
+	- nslookup / dig	Query DNS records.
+	- ifconfig / ip addr	View or configure network interfaces.
+	- netstat / ss	Show network connections, sockets, and ports.
+	- telnet / nc (netcat)	Test TCP/UDP connections, debug open ports.
+	- tcpdump	Capture and inspect network packets.
+	- nmap	Network scanner — check open ports, services, hosts.
+	- hostname	Display or set system hostname.
+	- route / ip route	Show or modify routing tables.
+
+- User, Permission & Security Management
+	- whoami	Display the current logged-in username.
+	- id	Show user and group IDs.
+	- sudo	Run commands as another user (usually root).
+	- su	Switch user or become superuser.
+	- groups	Show user’s group memberships.
+	- umask	Set default permission masks for new files.
+	- ufw / iptables	Configure firewall rules.
+
+- System & Hardware Information
+	- uname -a	Display kernel and system info.
+	- lsb_release -a	Show Linux distribution version.
+	- lscpu	Display CPU details.
+	- lsusb	List USB devices.
+	- lspci	List PCI devices.
+	- dmidecode	Show hardware info (BIOS, memory, manufacturer).
+	- dmesg	View kernel ring buffer (hardware/system messages).
+	- who / w	Show logged-in users and their activities.
+	- history	View command history.
+
+- Logging & Diagnostics
+	- journalctl	View systemd logs.
+	- dmesg			View kernel and hardware logs.
+	- tail -f /var/log/syslog	Follow system logs in real time.
+	- last / lastlog	Show recent logins.
+	- logger	Write custom messages to syslog.
+
+- Development, Debugging & Profiling
+	- strace	Trace system calls and signals — useful for debugging runtime behavior.
+	- ltrace	Trace library calls.
+	- gdb	GNU debugger — debug compiled programs.
+	- perf	Analyze CPU performance and hotspots.
+	- valgrind	Detect memory leaks and profiling.
+	- gcc / clang	Compile C/C++ programs.
+	- objdump / nm	Inspect binaries and symbols.
+	- readelf	Display ELF binary information.
+
+- System Control & Services
+	- systemctl	Manage systemd services (start, stop, restart, enable).
+	- service	Control SysV init services (legacy).
+	- shutdown / reboot / poweroff	Manage system power states.
+	- cron / crontab	Schedule recurring tasks.
+	- at	Schedule one-time tasks.
+	
 - DNS problems
 
 	- symptoms	
