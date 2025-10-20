@@ -433,7 +433,7 @@
 		- Log analysis
 		- Tracing (OpenTelemetry, Jaeger)
 		- Debugger (gdb, pdb, Visual Studio)
-		- Crash dumps or core dumps
+		- Crash dumps or core dumps (kill -QUIT <PID> creates core dump of a running process)
 		- Profilers (e.g., py-spy, perf, gdb)
 	- solutions
 		- Add error handling
@@ -676,6 +676,66 @@
 		- Use shorter locks (autocommit)
 		- Change isolation level (e.g., from SERIALIZABLE → READ COMMITTED)
 		- Kill stale sessions
+
+- SQL Query Plan Problems
+
+	- Seq Scan on large table					No index being used					Create index on filter columns
+	- Nested Loop with many rows				Bad join order						Rewrite join or create index
+	- High sort cost							Sorting large results				Create index to match ORDER BY
+	- Rows mismatch (estimated/actual)			Planner misestimation				Run ANALYZE or adjust statistics target
+	- Recheck Cond								Partial index or bitmap recheck		Ensure full index coverage
+	- Filter applied post-index					Not selective enough				Create composite index
+	- Disk spill messages	(verbose plans) 	Not enough memory for sort/hash		Increase work_mem
+
+- Database Index Problems
+
+	- Slow queries despite having indexes							Wrong or missing index 								Create index or use index hints (FORCE INDEX, USE INDEX) or update stats
+	- Sequential (table) scans on large tables						No usable index for WHERE/JOIN condition 
+	- Index not used in query plan (EXPLAIN)						Wrong index/filter order 							Recreate index with correct order or composite key
+	- Index not used from index mismatch							Data type mismatch or function on column			Use functional index or cast properly
+	- High write latency or slow inserts							Too many indexes on a table 						Drop low-usage indexes
+	- High disk usage												Unused or redundant indexes
+	- Queries with “Using filesort” or “Using temporary” (MySQL)	Missing composite index for ORDER BY or GROUP BY
+	- Large/bloated or fragmented indexes							Frequent updates/deletes without vacuuming 			Rebuild or reindex
+	- “Index only scan not possible”								Index doesn’t include all needed columns
+	- Index scan slower than expected 								Poor selectivity (index returns too many rows)		Add more selective column to composite index
+	- Indexes not covering query									Query needs columns not in index					Create a covering index (INCLUDE clause or multi-column index)
+
+	- tools/solutions
+		- check if index exists on filter/join Columns, if not create it
+		- check if data types of the column and filter are equal
+		- check index usage statistics and drop unused indexes
+		- check for index fragmentation/bloat and reindex 
+		- check for redundant/overlapping indexes and drop/merge 
+
+- Memory Corruption
+
+	- preventing memory corruption
+		- Hardware disk errors				Use RAID + ECC memory + S.M.A.R.T. monitoring
+		- Power failures					Enable journaling (InnoDB, WAL) + UPS
+		- Unclean shutdowns					Ensure graceful stop scripts
+		- File system corruption			Use modern FS (ext4, ZFS, XFS) with journaling
+		- DB Software bugs					Keep DB engine up-to-date
+		- In-memory corruption				Use ECC RAM, validate caches
+		- Overclocking or faulty RAM		Run memtest regularly
+
+	- memory corruption tools/solutions
+		- monitor for abnormal heap growth with pmap, top, smem, /proc/<pid>/maps
+		- check system I/O logs: dmesg | grep -i "I/O error" for disk errors that can lead to database corruption errors
+		- check for hardware memory errors: (memtest, fsck, smartctl, iostat, ECC RAM logs: dmesg | grep -i ecc, check /var/log/syslog for kernel memory errors)
+		- check for memory boundary issues with dmalloc
+		- check for memory corruption errors: random crashes, segmentation faults, “Invalid pointer”, “SIGSEGV”, “SIGBUS”, “Bus error”
+		- check for memory allocator corruption errors: double free, heap corruption
+		- check for disk/buffer cache corruption errors: slow performance or I/O errors in logs
+		- check for race conditions causing corruption with ThreadSanitizer and use mutexes/atomic operations
+		- check for buffer overflows with AddressSanitizer and use bounds checks
+		- check for stack overflow and limit recursion depth
+		- use valgrind to detect invalid reads/writes, leaks, use-after-free, double free and fix memory leaks and track ownership correctly
+	
+	- database corruption tools/solutions
+		- check database error logs and core dumps, run consistency/integrity checks: check table or pg_verify_checksums
+		- check for database corruption errors: checksum mismatch, database start fails, page consistency errors, unexpected NULLs, missing rows, or wrong data
+		- fix hardware/disk issues before restoring, identify corruption isolation, then vacuum, repair or backup/restore, reindex, re-run integrity checks
 
 - Infinite Loop
 

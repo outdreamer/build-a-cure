@@ -364,10 +364,11 @@
 			- harsher substances: aloe, meadowsweet, willow, red clover, dong quai, vitamin E (as an antagonist of vitamin k which clots the blood), cayenne
 			- ginseng has variable effects on clotting and should be avoided for blood thinning and when using warfarin
 		- low blood pressure
-			- hydrocortisone (in small amounts to avoid damaging the heart)
+			- caffeine, hydrocortisone (in small amounts to avoid damaging the heart)
 		- high blood pressure
 			- omega-3s (specifically in the form of icosapent ethyl), which can also prevent heart attack and atherosclerosis
 			- prevent/treat infections like flu/covid which can raise blood pressure
+			- avoid refined carbs which can increase insulin which can raise blood pressure, avoid excess salt
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
 				- for high blood pressure caused by diabetic nephropathy: 
 					- ACE inhibitors or ARBs, which dilate the arteriole exiting the glomerulus, thus reducing the blood pressure within the glomerular capillaries, may slow progression of the disease. 
@@ -632,15 +633,31 @@
             - uti: d-mannose with cranberry
 		- inflammation: 
 			- avoid animal products, sugar, gluten, fried food, peanuts, alcohol, vegetable oil, refined carbs, preservatives, additives, saturated/trans fats, MSG, genetically modified food, artificial sweeteners, hydrogenated oil
-			- suppress IL-6, a contributor to insulin resistance
-			    - ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
-			    	- https://www.sciencedirect.com/science/article/pii/S2095177923002502
-			    	- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
         	- inhibit pro-inflammatory cytokines
         		- inhibit NF-κB to lower dysregulated NF-κB signaling
         		- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
         		- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
         		- lowering levels of the pro-inflammatory cytokines tumor necrosis factor-alpha (TNF-α), interleukin (IL)-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
+				- https://www.sciencedirect.com/science/article/pii/S2095177923002502
+				- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
+				- in general its best to suppress TNF-a, IL-1beta, IL-6, IL-8, IL-12, IL-17, IL-23 for anti-inflammatory activity
+				- decrease TNF-α: vitamin d, Turbinaria ornata, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Hyperoside, lonicerin, luteolin, Combretum duarteanum, mango, Grape Seed, Veronica polita, Jasminum grandiflorum, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, Glycyrrhiza Wongam, Garcinia mangostana, its active constituent α-mangostin, German Chamomile, Telfairia occidentalis, Xique-Xique, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Moringa oleifera and Egyptian propolis, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Menthol, Prunus mume and Lactobacillus strain, Rhodiola crenulata, Mother tincture, Cynanchum wilfordii, Ocimum gratissimum, Chestnut shell, Malva parviflora, Curcuma xanthorrhiza, Physalis pubescens, Bruguiera gymnorrhiza
+				- decrease IFN-γ: Black rice bran and β-glucan, Bacillus coagulans and sugar cane, Grape Seed, Dihydroberberine, Sinapic acid, Bruguiera gymnorrhiza
+				- decrease IL-1α: Purple potato, Bacillus coagulans and sugar cane
+				- decrease IL-1β: betaine, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Bacillus coagulans and sugar cane, Purple potato, Combretum duarteanum, mango, Hyperoside, lonicerin, luteolin, Grape Seed, Veronica polita, Jasminum grandiflorum, Acacia saligna, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, German Chamomile, Chitosan, Telfairia occidentalis, Xique-Xique, Aster glehni, Persea americana, Eriocitrin, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Bruguiera gymnorrhiza
+				- decrease IL-2: 
+				- increase IL-4: Ocimum gratissimum
+				- decrease IL-6: Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/cordyceps/cats claw/5-htp 
+				- decrease IL-8: Omega 3s, Chitosan, Grape Seed
+				- increase IL-10: vitamin d, Black rice bran and β-glucan, Ocimum gratissimum, Hibiscus sabdariffa, Aloe vera, Chestnut shell, Combretum duarteanum, Grape Seed, Ipomoea asarifolia, ginger, Bruguiera gymnorrhiza
+				- decrease IL-12: Pycnoporus sanguineus, Prunus mume and Lactobacillus strain, Bacillus coagulans and sugar cane, Zanthoxylum bungeanum
+				- decrease IL-15: Pycnoporus sanguineus
+				- decrease IL-17: Prunus mume and Lactobacillus strain, Xique-Xique, Passiflora edulis, Black rice bran and β-glucan, Purple potato, Sugar cane, Dihydroberberine, Ipomoea asarifolia
+				- decrease IL-17α: Sinapic acid
+				- decrease IL-18: Sinapic acid
+				- increase IL-22: ginger
+				- decrease IL-23: German Chamomile
+
 			- anti-inflammatory substances
 				- prunella vulgaris, wasabi, bromelain, cinnamon, pycnogenol, berberine, broccoli sprouts, chaga/maitake/reishi/shiitake, algae/fucoidan, magnesium, cayenne pepper, coq10, grape seed, fenugreek, propolis/honey/royal jelly (chrysin from pollen), ginger, indole carbinol/DIM, curcumin, omega 3, pomegranate, chamomile, ginseng, boswellia, cloves, garlic, aloe, dandelion, olive leaf, nettle, vitamin d, resveratrol, ginkgo, ashwagandha, GABA
 				- taurine has anti-tumor activity
@@ -790,8 +807,8 @@
 			        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11053582/
 			        		- other modulators of FOXO6: Eleutherococcus senticosus, Rhaponticum carthamoides, and Bryonia alba
 			        			- https://www.sciencedirect.com/science/article/pii/S0944711318304835
-			        - suppress IL-6, a contributor to insulin resistance
-			        	- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
+			        - suppress IL-6, a contributor to insulin resistance and an increasor of blood sugar and cause of diabetic neuropathy
+						- decrease IL-6: Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/cordyceps/cats claw/5-htp 
 			        - Insulin
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
@@ -898,6 +915,8 @@
 			- depression
 				- vitamin K, omega 3s, folate, tyrosine, sarcosine (cancer patients should avoid sarcosine)
 			- anxiety:
+				- suppress IL-6, a contributor to neuroinflammation and disorders like anxiety
+					- decrease IL-6: Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/cordyceps/cats claw/5-htp 
 				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
 				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
 				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan
@@ -969,7 +988,7 @@
         	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
         		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
         	- inhibit intestinal inflammation
-        		- ginger, pomegranate, rosemary, green tea, red lentil, grape, moringa, chamomile, cranberry, purple potatoes, hibiscus, bacillus coagulans, black rice bran, mango, licorice, spinach 
+        		- decrease IL-6: Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/cordyceps/cats claw/5-htp 
         	- ibd: 
         		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
         		- inhibit ETS2 by inhibiting MEK, upregulate IL-10
