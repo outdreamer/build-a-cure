@@ -99,21 +99,22 @@
 	- blkid				Identify filesystem type
 
 - Networking I/O & Connectivity tools
-	- ping						Test network connectivity to a host.
-	- traceroute / tracepath	Show path packets take to reach a destination.
-	- nslookup / dig			Query DNS records.
+	- ping						Test network connectivity to a host, test latency
+	- traceroute / tracepath	Show path packets take to reach a destination, detect routing issues
+	- nslookup / dig			Query DNS records/resolution
 	- ifconfig / ip addr		View or configure network interfaces.
-	- netstat					Historical connections, packet drops
-	- ss						Active connections and socket states
+	- netstat / ss				Historical/active connections, packet drops, socket states, listening ports
 	- telnet / nc (netcat)		Test TCP/UDP connections, debug open ports.
-	- tcpdump					Capture and inspect network packets.
+	- tcpdump / wireshark		Capture and inspect network packets.
 	- nmap						Network scanner — check open ports, services, hosts.
 	- hostname					Display or set system hostname.
 	- route / ip route			Show or modify routing tables.
 	- iftop						Real-time bandwidth per connection
 	- nload						Live upload/download stats
-	- ethtool					NIC status and driver info
-	- iperf 					Bandwidth and throughput testing
+	- ethtool					Check and configure NIC speed, duplex, and offload settings, check driver info
+	- iperf / iperf3			Bandwidth and network throughput testing
+	- ip a, ip route, ip link	Inspect and modify network interfaces and routes
+	- mtr						Continuous traceroute with packet loss statistics.
 
 - User, Permission & Security Management tools
 	- whoami			Display the current logged-in username.
@@ -226,30 +227,6 @@
 		- solutions
 			- Tune kernel parameters (vm.dirty_ratio, vm.swappiness)
 
-- DNS problems
-
-	- symptoms	
-		- Website not loading (e.g., ERR_NAME_NOT_RESOLVED)
-		- Requests go to the wrong server or timeout
-		- Email not being delivered
-	- causes	
-		- Incorrect DNS records (A, CNAME, MX, etc.)
-		- DNS propagation delay
-		- Misconfigured DNS resolver or nameserver
-		- Cached old DNS entries
-		- Expired domain
-	- tools	
-		- dig or nslookup to check DNS records
-		- ping and traceroute to test network path
-		- Online tools like DNSChecker.org
-		- Check domain registrar & DNS provider dashboards
-	- solutions	
-		- Correct A/AAAA/CNAME records
-		- Flush DNS cache locally (ipconfig /flushdns or sudo dscacheutil -flushcache)
-		- Wait for DNS propagation (can take 24–48 hrs)
-		- Fix nameserver entries at registrar
-		- Use a reliable DNS host (e.g., Cloudflare, Route53)
-
 - Database Problems
 
 	- symptoms	
@@ -260,7 +237,7 @@
 		- Queries hang or time out
 		- Data inconsistency
 		- “Lock wait timeout” errors
-		- High disk read I/O
+		- High disk read I/O or high disk utilization.
 	- causes	
 		- Missing indexes
 		- Poor query structure (SELECT *)
@@ -269,19 +246,41 @@
 		- Lock contention
 		- Slow queries
 		- Unoptimized schema (no normalization or too much normalization)
+		- Overloaded or under-configured database resources (CPU, memory, disk).
+		- Corrupted database or corrupted indexes.
 	- tools
 		- EXPLAIN or EXPLAIN ANALYZE query plans in SQL
 		- Database slow query logs
 		- Performance monitoring tools (e.g., pg_stat_statements, pg_locks / InnoDB status, New Relic, Datadog)
 		- Index and schema inspection tools
+		- run checks for database corruptioni
 	- solutions	
-		- Add appropriate indexes
+		- Add appropriate indexes, rebuild indexes if fragmented
 		- Optimize queries (avoid SELECT *, use WHERE conditions, use LIMIT, use indexed columns, avoid correlated subqueries)
 		- Cache results (e.g., Redis)
 		- Use pagination for large data sets
 		- Archive or partition old data
 		- Tune connection pool
 		- Reduce transaction scope
+		- Increase buffer pool size (InnoDB buffer)
+		- Adjust query cache or memory parameters
+
+- Disk Errors or Hardware Failure
+
+	- symptoms
+		- Disk or disk partitions fail to mount
+		- Errors in logs about I/O failure or device errors
+		- Unusual noise or slow disk performance (if using HDDs)
+	- causes
+		- Bad sectors on the disk or SSD wear
+		- Faulty cables or connections
+		- Filesystem corruption
+	- tools
+		Check disk health: Use smartctl (SMART data for HDD/SSD) (sudo smartctl -a /dev/sda)
+		Run filesystem checks: fsck /dev/sda1 for ext4 and xfs_repair /dev/sda1 for xfs
+	- solutions
+		- Replace the disk if physical failure is detected
+		- Ensure RAID redundancy if applicable, and replace failed disks immediately
 
 - Security Vulnerabilities
 
@@ -328,14 +327,16 @@
 		- Packet loss
 		- Slow SSH or HTTP
 		- High latency
+		- Network-dependent services (e.g., web or database) are not reachable.
 	- causes
 		- Firewall blocking ports
-		- Security groups
+		- Security groups misconfiguration
 		- Incorrect IP routing
 		- Misconfigured subnet, gateway, or DNS
 		- MTU (Maximum Transmission Unit) mismatch (devices in a network have different MTU settings, leading to packet fragmentation or drops)
 		- High latency links
-		- Network congestion
+		- Network congestion or bandwidth issues
+		- Hardware failure (e.g., faulty network interface card or cables).
 	- tools
 		- ping, traceroute, mtr (my traceroute) to trace paths
 		- curl, netcat, tcpdump
@@ -343,36 +344,251 @@
 		- Packet capture (tcpdump, Wireshark)
 		- Check firewall rules (ufw, iptables, aws ec2 describe-security-groups)
 		- Network logs
+		- Check for high latency using traceroute or mtr
+		- Use netstat or ss to see open connections and troubleshoot blocked ports:
 	- solutions
 		- Fix DNS, IP, routes, firewall, or security groups settings
 		- Restart networking services
 		- Optimize MTU, QoS, or TCP settings
 		- Open correct ports
 		- Use CDN or caching
+		- Replace or repair faulty hardware (NIC, cables) if identified.
 
-- Load Balancer / Proxy Issues
+- Common Networking Problems
 
-	- symptoms
-		- Some users see errors while others don’t or some users can’t connect
-		- Uneven traffic distribution
-		- High latency or 502/504 errors
-		- Backend servers idle or overloaded
-	- causes
-		- Incorrect health checks
-		- Sticky session misconfiguration
-		- Wrong/unhealthy backend targets
-		- SSL termination mismatch
-		- Timeout mismatch: load balancer timeout shorter than backend response
-	- tools
-		- Check load balancer logs & metrics (AWS ELB, Nginx, HAProxy dashboards)
-		- Use curl -I per node or ab (Apache Benchmark) to test responses per backend
-		- Monitor request distribution
-		- APM traces
-	- solutions
-		- Fix health check endpoints
-		- Align timeouts with backend
-		- Adjust load balancing algorithm (round robin, least connections)
-		- Ensure all targets are registered and healthy
+	- DNS resolution failure	
+		- symptoms
+			- Website or host unreachable (ping: unknown host, curl: Could not resolve host)	
+			- Website not loading (e.g., ERR_NAME_NOT_RESOLVED)
+			- Requests go to the wrong server or timeout
+			- Email not being delivered
+		- causes
+			- Misconfigured DNS resolver or nameserver (/etc/resolv.conf)
+			- Wrong DNS server
+			- DNS cache poisoning
+			- DNS server outage	
+			- Incorrect DNS records (A, CNAME, MX, etc.)
+			- DNS propagation delay
+			- Expired domain
+		- tools
+			- nslookup, dig, host, systemd-resolve --status	to check DNS records
+			- ping and traceroute to test network path
+			- Online tools like DNSChecker.org
+			- Check domain registrar & DNS provider dashboards
+		- solutions
+			- Check /etc/resolv.conf entries
+			- Test with public DNS: 8.8.8.8 or 1.1.1.1
+			- Clear local DNS cache: sudo systemd-resolve --flush-caches or ipconfig /flushdns or sudo dscacheutil -flushcach
+			- Restart systemd-resolved
+			- Correct A/AAAA/CNAME records
+			- Wait for DNS propagation (can take 24–48 hrs)
+			- Fix nameserver entries at registrar
+			- Use a reliable DNS host (e.g., Cloudflare, Route53)
+
+	- Network interface down
+		- symptoms	
+			- No network connectivity; ping fails even to gateway	
+		- causes
+			- Interface disabled
+			- Cable unplugged
+			- NIC driver issue	
+		- tools
+			- ip a, ethtool eth0, nmcli dev status	
+		- solutions
+			- Bring interface up: sudo ip link set eth0 up
+			- Reconnect cable
+			- Restart NetworkManager
+			- Check NIC drivers
+
+	- IP address conflict
+		- symptoms	
+			- Random disconnects; “Duplicate IP address detected”	
+		- causes
+			- Two hosts on same network with same IP	
+		- tools
+			- arp -a, ip neigh show, nmap -sn <subnet>	
+		- solutions
+			- Assign unique static IP or enable DHCP
+			- Clear ARP cache: sudo ip -s -s neigh flush all
+
+	- Routing problem	
+		- symptoms
+			- Can reach local network but not internet	
+		- causes
+			- Default gateway missing or wrong route
+			- Misconfigured routing tables	
+		- tools
+			- ip route, netstat -rn, traceroute <ip>	
+		- solutions
+			- Add correct default route: ip route add default via <gateway>
+			- Fix gateway settings in /etc/netplan/ or /etc/network/interfaces
+
+	- Firewall blocking traffic	
+		- symptoms
+			- Services unreachable (e.g. SSH, HTTP); connection refused	
+		- causes
+			- iptables or ufw rules blocking ports
+			- Cloud provider firewall (AWS, Azure, etc.)	
+		- tools
+			- sudo ufw status, sudo iptables -L -n -v, nc -zv <host> <port>	
+		- solutions
+			- Allow traffic: sudo ufw allow 22/tcp or sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+			- Check cloud security groups
+
+	- Slow network / high latency	
+		- symptoms
+			- Lag, slow file transfers, timeouts	
+		- causes
+			- Network congestion
+			- Faulty cable/switch
+			- Duplex mismatch
+			- Bandwidth throttling	
+		- tools
+			- ping, mtr, iperf3, ethtool, ifconfig	
+		- solutions
+			- Replace bad cable
+			- Match duplex/speed: ethtool -s eth0 speed 1000 duplex full
+			- Use QoS or traffic shaping
+			- Upgrade link capacity
+
+	- Packet loss	
+		- symptoms
+			- Intermittent disconnects or dropped SSH sessions	
+		- causes
+			- Congestion, faulty hardware, MTU mismatch	
+		- tools
+			- ping -c 100 <host>, mtr, tcpdump -n -i eth0	
+		- solutions
+			- Replace hardware/cables
+			- Tune MTU (ip link set mtu 1400 dev eth0)
+			- Check router/switch logs
+
+	- MTU mismatch / packet fragmentation
+		- symptoms	
+			- VPN drops, incomplete file transfers, slow HTTPS	
+		- causes
+			- Path MTU Discovery failing
+			- Encapsulation overhead (VPN, GRE, IPSec)	
+		- tools
+			- ping -M do -s <size> <host>, tracepath <host>	
+		- solutions
+			- Lower MTU (common for VPNs: 1400–1420)
+			- Adjust router MTU or disable DF flag
+
+	- DHCP issues	
+		- symptoms
+			- No IP assigned, network unreachable	
+		- causes
+			- DHCP server down
+			- DHCP scope exhausted	
+		- tools
+			- journalctl -u NetworkManager, tcpdump -i eth0 port 67 or 68	
+		- solutions
+			- Restart DHCP service
+			- Increase DHCP range
+			- Verify client can reach DHCP server
+
+	- SSL/TLS/HTTPS problems
+		- symptoms
+			- HTTPS site fails to load/connection fails
+			- “SSL handshake failed” or “certificate not trusted” errors
+			- Insecure connection warnings
+		- causes
+			- Incorrect chain
+			- Cipher mismatch	
+			- Expired/mismatched/missing/self-signed certificates
+			- Protocol mismatch (TLS1.0 vs TLS1.2)
+			- Wrong hostname (CN mismatch)
+		- tools
+			- openssl s_client -connect host:443 -showcerts
+			- Browser DevTools network tab
+			- curl -v https://...
+			- SSL Labs test
+		- solutions
+			- Renew/reissue certificates (e.g., Let’s Encrypt)
+			- Include full chain including root/intermediate certs in chain, add the CA certificate into client trusted root store
+			- Enforce modern TLS versions (≥1.2)
+			- Match CN/SAN to domain
+
+	- Load Balancer / Proxy Issues
+
+		- symptoms
+			- Some users see errors while others don’t or some users can’t connect, or some requests fail or time out
+			- Uneven traffic distribution
+			- High latency or 502/504 errors
+			- Backend servers idle or overloaded
+		- causes
+			- Incorrect health checks
+			- Sticky session misconfiguration
+			- Wrong/unhealthy backend targets, backend unreachable
+			- SSL termination mismatch
+			- Timeout mismatch: load balancer timeout shorter than backend response
+		- tools
+			- Check load balancer logs & metrics (AWS ELB, Nginx, HAProxy dashboards)
+			- Use curl -I per node or ab (Apache Benchmark) to test responses per backend
+			- Monitor request distribution
+			- APM traces
+		- solutions
+			- Fix health check endpoints
+			- Align timeouts with backend
+			- Adjust load balancing algorithm (round robin, least connections)
+			- Ensure all targets are registered and healthy
+			- Fix backend pool configuration
+			- Enable session persistence if required
+
+	- VPN or tunnel issues	
+		- symptoms
+			- Remote access fails, unstable connection	
+		- causes
+			- MTU mismatch
+			- Misconfigured routing
+			- Key/cert expiry	
+		- tools
+			- ip route, ping, journalctl -u openvpn	
+		- solutions
+			- Reissue VPN keys
+			- Fix routing entries
+			- Adjust MTU or compression settings
+
+	- Proxy or NAT issues
+		- symptoms	
+			- Can’t access external resources	
+		- causes
+			- Wrong proxy configuration
+			- NAT rule misconfigured	
+		- tools
+			- env | grep -i proxy, iptables -t nat -L -n -v
+		- solutions
+
+	- ARP cache issues	
+		- symptoms
+			- Intermittent connectivity	
+		- causes
+			- Stale ARP cache or spoofing	
+		- tools
+			- arp -n, ip neigh show	
+		- solutions
+			- Flush ARP cache: sudo ip -s -s neigh flush all
+			- Use static ARP entries for critical hosts
+
+	- Network driver or firmware bugs	
+		- symptoms
+			- NIC stops working randomly	
+		- causes
+			- Outdated driver
+			- Kernel bug	
+		- tools
+			- dmesg	| grep eth, ethtool -i eth0
+		- solutions
+
+	- DoS / excessive connections	
+		- symptoms
+			- Server unresponsive, high network usage	
+		- causes
+			- Flood of inbound connections	
+		- tools
+			- netstat -an | grep ESTABLISHED
+		- solutions
 
 - Performance / Latency Issues
 
@@ -429,6 +645,9 @@
 		- Memory leaks
 		- Race conditions
 		- Dependency version conflicts
+		- Corrupted files or databases.
+		- Insufficient system resources (e.g., RAM or CPU).
+		- Permission issues on files or directories.
 	- tools
 		- Log analysis
 		- Tracing (OpenTelemetry, Jaeger)
@@ -444,6 +663,8 @@
 		- Add rate limiting and circuit breakers
 		- Use version pinning in dependencies
 		- Write integration and stress tests
+		- Ensure enough system resources are available (CPU, memory, disk space).
+		- Test service startup with debugging: systemctl start <service_name> --debug
 
 - Memory Leaks
 
@@ -451,10 +672,13 @@
 		- Gradual performance degradation
 		- OOM (out of memory) errors
 		- Increasing memory footprint
+		- swapping occurring on the disk
 	- causes
 		- Unreleased objects/resources
 		- Cyclic references
 		- Poor GC tuning
+		- Insufficient RAM for the workload
+		- Cache mismanagement (unused cache blocks not freed)
 	- tools
 		- Memory profilers (Valgrind)
 		- Runtime metrics (Prometheus/Grafana)
@@ -464,6 +688,8 @@
 		- Close resources
 		- Fix cyclic references
 		- Tune GC / increase memory
+		- Limit cache size
+		- Increase server RAM or optimize virtual memory settings (vm.overcommit_memory on Linux)
 
 - Code Not Thread-Safe
 
@@ -860,6 +1086,7 @@
 		- Use async waits
 		- Optimize loops
 		- Fix thread management
+		- Throttle processes or use a load balancer to distribute the load evenly
 
 - Cache / CDN Issues
 
@@ -884,27 +1111,6 @@
 		- Implement proper invalidation on data change
 		- Warm caches during deploy
 		- Add versioning to cache keys
-
-- SSL/TLS/HTTPS Problems
-
-	- symptoms
-		- HTTPS connection fails
-		- “SSL handshake failed” or “certificate not trusted” errors
-		- Insecure connection warnings
-	- causes
-		- Expired/mismatched/missing/self-signed certificates
-		- Protocol mismatch (TLS1.0 vs TLS1.2)
-		- Wrong hostname (CN mismatch)
-	- tools
-		- openssl s_client -connect host:443 -showcerts
-		- Browser DevTools network tab
-		- curl -v https://...
-		- SSL Labs test
-	- solutions
-		- Renew or reissue certificates
-		- Install full chain (intermediate + root), add the CA certificate into client trusted root store
-		- Match CN/SAN to domain
-		- Enforce modern TLS versions (≥1.2)
 
 - Firewall / Security Group Issues	
 
