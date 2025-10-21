@@ -160,6 +160,173 @@
 	- cron / crontab	Schedule recurring tasks.
 	- at	Schedule one-time tasks.
 
+- Software Bugs
+	- Race conditions: Behavior depends on unpredictable timing of threads or processes. May not reproduce consistently.	
+		- symptoms
+			- Intermittent crashes, corrupted data, missing or duplicated output
+		- solutions
+			- Use thread sanitizers, add locks, use deterministic replay (rr, gdb, valgrind), log timestamps, stress-test concurrency
+	- Deadlocks: Multiple threads/processes wait indefinitely for each other’s locks.	
+		- symptoms
+			- Program hangs with no CPU activity, no errors.	
+		- solutions
+			- Use lock order analysis, thread dumps (jstack), or deadlock detectors. Design with timeout-based locks or lock hierarchy
+	- Memory corruption (use-after-free, buffer overflow): May not cause immediate crash; can corrupt unrelated data.	
+		- symptoms
+			- Random crashes, segfaults in unrelated modules.	
+		- solutions
+			- Use AddressSanitizer (ASan), Valgrind, or hardware watchpoints
+	- Heisenbugs (timing-dependent bugs): Vanish or change behavior when observed (e.g., with breakpoints or logging).	
+		- symptoms
+			- Works when debugging, fails in production.	
+		- solutions
+			- Use logging with timestamps, deterministic record/replay debuggers, increase log granularity instead of using breakpoints
+	- Floating-point precision errors: Small rounding differences cascade into major output errors.	
+		- symptoms
+			- Non-deterministic results, NaNs, or diverging numerical algorithms.	
+		- solutions
+			- Use high-precision math libraries, test with tolerances (assertAlmostEqual), or symbolic computation tools
+	- Undefined behavior (UB) in C/C++): Compiler optimizations make incorrect assumptions.	
+		- symptoms
+			- Crashes, wrong results, or silent data corruption.	
+		- solutions
+			- Use UBSan (UndefinedBehaviorSanitizer), Clang sanitizers, or static analyzers like Coverity or cppcheck
+	- Non-reproducible builds: Builds differ across environments, causing “it works on my machine” issues.	
+		- symptoms
+			- Failures only on certain machines or CI/CD.	
+		- solutions
+			- Use Docker, Bazel, Nix, or reproducible build systems. Record compiler and dependency versions
+	- Thread starvation or priority inversion: Threads waiting for CPU or low-priority threads blocking high-priority ones.	
+		- symptoms 
+			- Poor performance, random stalls.	
+		- solutions
+			- Use thread analyzers, change scheduling policy, or limit lock contention
+	- Distributed state or cache incoherency: State replicated across nodes drifts out of sync.	
+		- symptoms
+			- Conflicting data, inconsistent reads
+		- solutions
+			- Use consensus protocols (Raft, Paxos), version vectors, or CRDTs. Log vector clocks and timestamps
+
+- Network and Infrastructure Bugs
+	- Intermittent packet loss / latency spikes: Occur only under certain traffic conditions, may be due to physical layer, congestion, or faulty NIC.	
+		- symptoms
+			- Random disconnects, poor performance, TCP retransmissions.	
+		- solutions
+			- Use mtr, iperf3, tcpdump, ethtool, and time-correlated metrics. Capture packets on both ends
+	- MTU / fragmentation issues: Large packets dropped silently due to mismatched MTU or misconfigured PMTU discovery.	
+		- symptoms
+			- Works for small requests, fails for large ones (e.g., HTTPS).	
+		- solutions
+			- ping -M do -s <size>, tracepath, check tunnel/VPN MTU settings
+	- Asymmetric routing: Request and response take different network paths.	
+		- symptoms
+			- Works intermittently, packets dropped by firewalls on return path.	
+		- solutions
+			- traceroute, NetFlow logs, route analysis on both ends
+	- DNS cache poisoning / stale records: Cached incorrect or outdated DNS entries.	
+		- symptoms
+			- Wrong IP resolved, service unreachable intermittently.	
+		- solutions
+			- Use dig +trace, flush DNS caches, verify TTLs
+	- Network partition (“split-brain”) in clusters: Nodes in a distributed system can’t communicate but still think they’re primary.	
+		- symptoms
+			- Data inconsistency, dual writes, corrupted state.	
+		- solutions
+			- Use quorum-based replication, monitor health checks, design for partition tolerance (CAP theorem)
+	- NAT traversal / firewall state timeouts: Stateful firewalls or NAT devices silently drop idle connections
+		- symptoms
+			- Random disconnections after idle period.	
+		- solutions
+			- Tune TCP keepalives, increase NAT session timeout, or use UDP hole punching
+	- Load balancer sticky session errors: Sessions pinned inconsistently to backend servers.	
+		- symptoms
+			- Authentication/session failures under load.	
+		- solutions
+			- Enable consistent hashing or session replication
+	- TLS handshake or certificate chain issues: Misconfiguration in intermediate certs, SNI mismatch, or cipher suite incompatibility.	
+		- symptoms
+			- HTTPS or SMTP connection failures.	
+		- solutions
+			- Use openssl s_client, test with SSL Labs, renew certs, configure proper chains
+
+- Hardware Bugs
+	- Bit flips / cosmic ray soft errors: Random hardware bit error in RAM or cache.	
+		- symptoms
+			- Random crashes, corrupted computations, checksum failures.	
+		- solutions
+			- ECC memory, error detection codes, redundancy, memtest86+
+	- Race conditions in hardware timing: Timing mismatch between components, especially in embedded systems or FPGAs.	
+		- symptoms
+			- Works at room temperature, fails under stress or cold.	
+		- solutions
+			- Hardware logic analyzers, temperature variation testing, formal timing verification
+	- Thermal throttling or overheating: System performance varies with temperature.	
+		- symptoms
+			- Performance degradation under load.	
+		- solutions
+			- Monitor sensors (lm-sensors, IPMI), improve cooling, clean fans
+	- Power supply instability: Voltage fluctuations causing random resets or data corruption.	
+		- symptoms
+			- Random restarts, sudden crashes.	
+		- solutions
+			- Use UPS, monitor voltage rails, replace PSU
+	- Intermittent hardware faults: Occur randomly, not reproducible.	
+		- symptoms
+			- Random kernel panics, ECC errors, I/O failures.	
+		- solutions
+			- Swap components (RAM, NICs, disks) to isolate; use smartctl, dmesg, or IPMI logs
+	- Bus contention / signal integrity issues: Improper termination, crosstalk, or grounding.	
+		- symptoms
+			- Unreliable data transmission, high CRC errors.	
+		- solutions
+			- Use oscilloscopes, logic analyzers, and PCB design verification tools
+	- Firmware / microcode bugs: Hard to update and diagnose; often vendor-specific
+		- symptoms
+			- Kernel or BIOS errors, device misbehavior.	
+		- solutions
+			- Check firmware updates, apply vendor patches, analyze with fwupdmgr, or downgrade temporarily
+
+- Cross-Domain and System-Level Bugs
+	- Heisenbugs in distributed systems: Only appear at scale or under race conditions between nodes.	
+		- symptoms
+			- Random consistency or latency issues
+		- solutions
+			- Use tracing (Jaeger, OpenTelemetry), distributed logs, and replay testing
+	- Clock skew / time synchronization drift: Nodes disagree on time, breaking distributed coordination or SSL.	
+		- symptoms
+			- Authentication failures, data inconsistency.	
+		- solutions
+			- NTP/PTP monitoring, log timestamps, use monotonic clocks
+	- Data corruption across layers (app → OS → storage): Data silently changed by drivers, firmware, or FS caching.	
+		- symptoms
+			- Hash/checksum mismatches, “phantom writes.”
+		- solutions
+			- End-to-end checksums, fsck, ZFS, RAID scrubbing
+	- Memory leaks across languages (e.g., C in Python extension): Memory management crosses GC and manual boundary
+		- symptoms
+			- Gradual RAM growth, untracked allocations
+		- solutions
+			- Use profilers that support native + managed layers, Valgrind, LeakSanitizer
+	- Security vulnerabilities (timing attacks, race exploits): Involve side channels or timing subtleties.	
+		- symptoms
+			- Intermittent data leaks or privilege escalation
+		- solutions
+			- Static analyzers, fuzzing (AFL, libFuzzer), sandboxing
+	- Eventual consistency anomalies: Data in distributed system lags behind expectations
+		- symptoms
+			- Reads return stale data intermittently
+		- solutions
+			- Tune replication lag, add quorum reads/writes, audit data repair jobs
+	- File descriptor leaks / handle exhaustion: Process opens files/sockets without closing
+		- symptoms
+			- “Too many open files” errors, hangs on I/O
+		- solutions
+			- Use lsof, monitor /proc/<pid>/fd/, enforce limits via ulimit
+	- Non-deterministic startup order bugs: Dependent services start in random order
+		- symptoms
+			- Intermittent boot failures
+		- solutions
+			- Use dependency managers (systemd units with After=), health checks, retries.
 
 - I/O Problems
 
@@ -265,6 +432,60 @@
 		- Increase buffer pool size (InnoDB buffer)
 		- Adjust query cache or memory parameters
 
+- Database Lock / Lock Contention
+
+	- symptoms
+		- Queries hang or time out
+		- “Lock wait timeout exceeded” errors
+		- High DB CPU / connection pool saturation
+		- Data corruption
+	- causes
+		- Long-running transactions
+		- Uncommitted changes blocking others
+		- Poor transaction isolation or missing indexes
+	- tools
+		- Database lock monitoring (SHOW ENGINE INNODB STATUS, DB lock graph, pg_locks)
+		- Slow query logs
+		- APM traces
+		- EXPLAIN to check access paths
+	- solutions
+		- Reduce transaction size
+		- Add indexes
+		- Use shorter locks (autocommit)
+		- Change isolation level (e.g., from SERIALIZABLE → READ COMMITTED)
+		- Kill stale sessions
+
+- SQL Query Plan Problems
+
+	- Seq Scan on large table					No index being used					Create index on filter columns
+	- Nested Loop with many rows				Bad join order						Rewrite join or create index
+	- High sort cost							Sorting large results				Create index to match ORDER BY
+	- Rows mismatch (estimated/actual)			Planner misestimation				Run ANALYZE or adjust statistics target
+	- Recheck Cond								Partial index or bitmap recheck		Ensure full index coverage
+	- Filter applied post-index					Not selective enough				Create composite index
+	- Disk spill messages	(verbose plans) 	Not enough memory for sort/hash		Increase work_mem
+
+- Database Index Problems
+
+	- Slow queries despite having indexes							Wrong or missing index 								Create index or use index hints (FORCE INDEX, USE INDEX) or update stats
+	- Sequential (table) scans on large tables						No usable index for WHERE/JOIN condition 
+	- Index not used in query plan (EXPLAIN)						Wrong index/filter order 							Recreate index with correct order or composite key
+	- Index not used from index mismatch							Data type mismatch or function on column			Use functional index or cast properly
+	- High write latency or slow inserts							Too many indexes on a table 						Drop low-usage indexes
+	- High disk usage												Unused or redundant indexes
+	- Queries with “Using filesort” or “Using temporary” (MySQL)	Missing composite index for ORDER BY or GROUP BY
+	- Large/bloated or fragmented indexes							Frequent updates/deletes without vacuuming 			Rebuild or reindex
+	- “Index only scan not possible”								Index doesn’t include all needed columns
+	- Index scan slower than expected 								Poor selectivity (index returns too many rows)		Add more selective column to composite index
+	- Indexes not covering query									Query needs columns not in index					Create a covering index (INCLUDE clause or multi-column index)
+
+	- tools/solutions
+		- check if index exists on filter/join Columns, if not create it
+		- check if data types of the column and filter are equal
+		- check index usage statistics and drop unused indexes
+		- check for index fragmentation/bloat and reindex 
+		- check for redundant/overlapping indexes and drop/merge 
+
 - Disk Errors or Hardware Failure
 
 	- symptoms
@@ -329,14 +550,13 @@
 		- High latency
 		- Network-dependent services (e.g., web or database) are not reachable.
 	- causes
-		- Firewall blocking ports
-		- Security groups misconfiguration
+		- Firewall blocking ports or security groups misconfiguration
 		- Incorrect IP routing
 		- Misconfigured subnet, gateway, or DNS
 		- MTU (Maximum Transmission Unit) mismatch (devices in a network have different MTU settings, leading to packet fragmentation or drops)
 		- High latency links
 		- Network congestion or bandwidth issues
-		- Hardware failure (e.g., faulty network interface card or cables).
+		- Hardware failure (e.g., faulty network interface card or cables)
 	- tools
 		- ping, traceroute, mtr (my traceroute) to trace paths
 		- curl, netcat, tcpdump
@@ -352,7 +572,7 @@
 		- Optimize MTU, QoS, or TCP settings
 		- Open correct ports
 		- Use CDN or caching
-		- Replace or repair faulty hardware (NIC, cables) if identified.
+		- Replace or repair faulty hardware (NIC, cables) if identified
 
 - Common Networking Problems
 
@@ -423,17 +643,23 @@
 			- Add correct default route: ip route add default via <gateway>
 			- Fix gateway settings in /etc/netplan/ or /etc/network/interfaces
 
-	- Firewall blocking traffic	
+	- Firewall/security group blocking traffic	
 		- symptoms
-			- Services unreachable (e.g. SSH, HTTP); connection refused	
+			- Services unreachable (e.g. SSH, HTTP) from specific networks; connection refused/timeout
+			- Ping or SSH blocked
 		- causes
-			- iptables or ufw rules blocking ports
-			- Cloud provider firewall (AWS, Azure, etc.)	
+			- Port blocked by OS firewall (iptables or ufw rules blocking ports) or cloud security group/firewall (AWS, Azure, etc.)
+			- Wrong inbound/outbound rules
+			- NAT or routing misconfigured
 		- tools
 			- sudo ufw status, sudo iptables -L -n -v, nc -zv <host> <port>	
+			- nmap, netcat (nc), or telnet to test open ports
+			- Cloud security dashboards (AWS, GCP, Azure)
 		- solutions
-			- Allow traffic: sudo ufw allow 22/tcp or sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+			- Allow traffic: sudo ufw allow 22/tcp or sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT or fix inbound/outbound rules
 			- Check cloud security groups
+			- Adjust NAT or routing tables
+			- Apply least privilege principles
 
 	- Slow network / high latency	
 		- symptoms
@@ -691,28 +917,6 @@
 		- Limit cache size
 		- Increase server RAM or optimize virtual memory settings (vm.overcommit_memory on Linux)
 
-- Code Not Thread-Safe
-
-	- symptoms
-		- Random crashes or inconsistent data
-		- Intermittent test failures
-		- Race conditions or deadlocks
-		- High CPU usage under multithreading
-	- causes
-		- Shared mutable state without synchronization
-		- Improper locking
-		- Non-atomic operations
-		- Using non-thread-safe libraries
-	- tools
-		- Add logging around critical sections
-		- Use thread analyzers (ThreadSanitizer, Valgrind’s Helgrind)
-		- Reproduce under stress test (stress-ng, load test scripts)
-		- Enable debug mode with logging for concurrency
-	- solutions
-		- Add locks, semaphores, or atomic data types
-		- Avoid shared state (use message queues)
-		- Use thread-safe collections or design patterns (immutable objects, producer-consumer)
-
 - Filesystem / Resource Limits
 
 	- symptoms
@@ -776,30 +980,6 @@
 		- Manage subprocess code
 		- Call wait() after child exits
 
-- High CPU Usage / CPU Starvation
-
-	- symptoms
-		- Slow response times
-		- System fan spinning hard
-		- 100% CPU usage in top or htop
-		- Processes “stuck”
-	- causes
-		- Infinite loops
-		- Inefficient algorithm
-		- Spinlock or busy-wait
-		- High GC (garbage collection) activity
-		- Background job overload
-	- tools
-		- top, htop, pidstat for CPU usage per process
-		- perf top, strace -p <pid> to trace syscalls
-		- Language profiler (Py-spy, Go pprof, Java Flight Recorder)
-		- APM tracing (Datadog, New Relic)
-	- solutions
-		- Fix infinite loops / optimize algorithms
-		- Use asynchronous or event-driven architecture
-		- Add caching
-		- Tune garbage collector or reduce unnecessary threads
-
 - Software Update Problem
 
 	- symptoms
@@ -825,6 +1005,28 @@
 		- Run migrations properly
 		- Add version pinning in package files
 		- Implement canary or blue-green deployments
+
+- Code Not Thread-Safe
+
+	- symptoms
+		- Random crashes or inconsistent data
+		- Intermittent test failures
+		- Race conditions or deadlocks
+		- High CPU usage under multithreading
+	- causes
+		- Shared mutable state without synchronization
+		- Improper locking
+		- Non-atomic operations
+		- Using non-thread-safe libraries
+	- tools
+		- Add logging around critical sections
+		- Use thread analyzers (ThreadSanitizer, Valgrind’s Helgrind)
+		- Reproduce under stress test (stress-ng, load test scripts)
+		- Enable debug mode with logging for concurrency
+	- solutions
+		- Add locks, semaphores, or atomic data types
+		- Avoid shared state (use message queues)
+		- Use thread-safe collections or design patterns (immutable objects, producer-consumer)
 
 - Deadlock (Threads) / Race Conditions
 
@@ -879,60 +1081,6 @@
 		- Validate array bounds
 		- Use smart pointers (C++) or managed memory
 		- Enable compiler warnings and sanitizers
-
-- Database Lock / Lock Contention
-
-	- symptoms
-		- Queries hang or time out
-		- “Lock wait timeout exceeded” errors
-		- High DB CPU / connection pool saturation
-		- Data corruption
-	- causes
-		- Long-running transactions
-		- Uncommitted changes blocking others
-		- Poor transaction isolation or missing indexes
-	- tools
-		- Database lock monitoring (SHOW ENGINE INNODB STATUS, DB lock graph, pg_locks)
-		- Slow query logs
-		- APM traces
-		- EXPLAIN to check access paths
-	- solutions
-		- Reduce transaction size
-		- Add indexes
-		- Use shorter locks (autocommit)
-		- Change isolation level (e.g., from SERIALIZABLE → READ COMMITTED)
-		- Kill stale sessions
-
-- SQL Query Plan Problems
-
-	- Seq Scan on large table					No index being used					Create index on filter columns
-	- Nested Loop with many rows				Bad join order						Rewrite join or create index
-	- High sort cost							Sorting large results				Create index to match ORDER BY
-	- Rows mismatch (estimated/actual)			Planner misestimation				Run ANALYZE or adjust statistics target
-	- Recheck Cond								Partial index or bitmap recheck		Ensure full index coverage
-	- Filter applied post-index					Not selective enough				Create composite index
-	- Disk spill messages	(verbose plans) 	Not enough memory for sort/hash		Increase work_mem
-
-- Database Index Problems
-
-	- Slow queries despite having indexes							Wrong or missing index 								Create index or use index hints (FORCE INDEX, USE INDEX) or update stats
-	- Sequential (table) scans on large tables						No usable index for WHERE/JOIN condition 
-	- Index not used in query plan (EXPLAIN)						Wrong index/filter order 							Recreate index with correct order or composite key
-	- Index not used from index mismatch							Data type mismatch or function on column			Use functional index or cast properly
-	- High write latency or slow inserts							Too many indexes on a table 						Drop low-usage indexes
-	- High disk usage												Unused or redundant indexes
-	- Queries with “Using filesort” or “Using temporary” (MySQL)	Missing composite index for ORDER BY or GROUP BY
-	- Large/bloated or fragmented indexes							Frequent updates/deletes without vacuuming 			Rebuild or reindex
-	- “Index only scan not possible”								Index doesn’t include all needed columns
-	- Index scan slower than expected 								Poor selectivity (index returns too many rows)		Add more selective column to composite index
-	- Indexes not covering query									Query needs columns not in index					Create a covering index (INCLUDE clause or multi-column index)
-
-	- tools/solutions
-		- check if index exists on filter/join Columns, if not create it
-		- check if data types of the column and filter are equal
-		- check index usage statistics and drop unused indexes
-		- check for index fragmentation/bloat and reindex 
-		- check for redundant/overlapping indexes and drop/merge 
 
 - Memory Corruption
 
@@ -1067,26 +1215,36 @@
 		- Use safe iteration boundaries
 		- Implement circuit breakers for retries
 
-- CPU Spikes
+- High CPU Usage or CPU Starvation/Spikes
 
 	- symptoms
-		- 100% CPU usage
-		- System lag or freezing
+		- 100% CPU usage in top or htop
+		- System lag or freezing, slow response times
 		- High power draw
+		- System fan spinning hard
+		- Processes “stuck”
 	- causes
 		- Infinite loops
 		- Busy waiting
 		- Thread starvation
+		- Inefficient algorithm
+		- Spinlock or busy-wait
+		- High GC (garbage collection) activity
+		- Background job overload
 	- tools
-		- top, htop, pidstat
-		- strace or perf top
+		- top, htop, pidstat for CPU usage per process
+		- perf top, strace -p <pid> to trace syscalls
 		- Attach debugger
+		- Language profiler (Py-spy, Go pprof, Java Flight Recorder)
+		- APM tracing (Datadog, New Relic)
 	- solutions
 		- Add termination conditions
-		- Use async waits
-		- Optimize loops
+		- Use asynchronous or event-driven architecture
+		- Fix infinite loops / optimize algorithms
 		- Fix thread management
 		- Throttle processes or use a load balancer to distribute the load evenly
+		- Add caching
+		- Tune garbage collector or reduce unnecessary threads
 
 - Cache / CDN Issues
 
@@ -1111,26 +1269,6 @@
 		- Implement proper invalidation on data change
 		- Warm caches during deploy
 		- Add versioning to cache keys
-
-- Firewall / Security Group Issues	
-
-	- symptoms
-		- Connection refused / timeout
-		- Service unreachable from specific networks
-		- Ping or SSH blocked	
-	- causes
-		- Port blocked by OS firewall or cloud security group
-		- Wrong inbound/outbound rules
-		- NAT or routing misconfigured
-	- tools
-		- nmap, netcat (nc), or telnet to test open ports
-		- Cloud security dashboards (AWS, GCP, Azure)
-		- iptables -L, ufw status
-	- solutions
-		- Open required ports
-		- Fix inbound/outbound rules
-		- Adjust NAT or routing tables
-		- Apply least privilege principles
 
 - Distributed / Shards / Partition Problem
 
