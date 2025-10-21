@@ -737,6 +737,89 @@
 		- check for database corruption errors: checksum mismatch, database start fails, page consistency errors, unexpected NULLs, missing rows, or wrong data
 		- fix hardware/disk issues before restoring, identify corruption isolation, then vacuum, repair or backup/restore, reindex, re-run integrity checks
 
+- Fragmentation
+
+	- Memory fragmentation	
+		- Memory becomes split into small unusable blocks (heap fragmentation) or scattered pages (virtual memory fragmentation).	
+		- symptoms
+			- Increases memory usage, allocation failures, or OOM errors.
+			- High resident memory (RSS) despite low heap usage.
+			- malloc() or new failures under high memory pressure.
+			- Frequent page faults or swap usage.
+			- Application memory footprint grows steadily without leaks.
+		- tools
+			- pmap <pid>: Shows memory map and fragmentation of virtual memory.
+			- smem / ps_mem: Check proportional set size (PSS) and shared memory usage.
+			- /proc/<pid>/smaps: Shows per-region fragmentation and page usage.
+				- If total allocated memory is large but RSS much larger → memory fragmentation.
+			- malloc_info() / mallinfo(): Inspect heap usage in glibc apps.
+			- Valgrind Massif: Visualizes heap usage over time (valgrind --tool=massif ./app).
+			- perf / eBPF: Track memory allocation/free patterns.
+		- causes/solutions
+			- Frequent alloc/free of different sizes: Use memory pools, slabs, or custom allocators.
+			- Long-lived small allocations: Compact or batch allocations.
+			- Fragmented heap: Restart process or use jemalloc / tcmalloc.
+			- Overcommit issues: Adjust /proc/sys/vm/overcommit_memory.
+
+	- Database fragmentation	
+		- Data and indexes are stored non-contiguously on disk.	
+		- symptoms
+			- Queries slow down over time.
+			- Disk usage grows despite data deletions.
+			- Index scans and I/O stats show excessive reads.
+			- Query plans use more buffers or pages than expected.
+			- Slower reads, larger indexes, higher I/O latency.
+		- tools
+			- PostgreSQL	
+				- VACUUM VERBOSE: Shows dead tuples and bloat.
+				- SELECT * FROM pgstattuple('table'): Shows live/dead tuples, bloat %.
+				- pg_stat_all_tables: Track dead tuples.
+			- MySQL / InnoDB	
+				- SHOW TABLE STATUS: Compare Data_free vs Data_length.
+				- OPTIMIZE TABLE tablename: Defragment table storage.
+			- SQL Server	
+				- sys.dm_db_index_physical_stats: Reports fragmentation percent.
+				- ALTER INDEX … REORGANIZE: Defrag index without rebuild.
+			- Oracle	
+				- ANALYZE TABLE … COMPUTE STATISTICS: Detects fragmentation
+		- solutions
+			- rebuild/vacuum/optimize fragmented indexes/tables, monitor bloat
+
+	- File system fragmentation	
+		- Files are stored in many scattered disk blocks.	
+		- symptoms
+			- Slow I/O performance, longer file access times.
+			- File reads/writes slow down over time.
+			- High disk I/O latency (iostat, sar).
+			- fsck shows fragmented inodes or blocks.
+		- tools
+			- ext4 (e4defrag -c /path): Show fragmentation score.
+			- xfs (xfs_db -c frag -r /dev/sdX): Report file system fragmentation.
+			- NTFS (Windows) (defrag C: /A): Analyze disk fragmentation.
+			- btrfs (filefrag -v filename): Shows number of file extents.
+		- solutions
+			- Run e4defrag /mountpoint or xfs_fsr.
+			- Move large files to a separate disk.
+			- Maintain 20–30% free space on disk to avoid fragmentation.
+			- use modern FS like ext4/XFS/ZFS
+
+	- Network fragmentation	
+		- IP packets are split into multiple fragments due to MTU limits.	
+		- symptoms
+			- Packet loss, reassembly errors, latency, and sometimes crashes.
+			- High latency or packet loss for large payloads.
+			- “Fragmented packet” or “reassembly failed” errors in logs.
+			- MTU mismatch between devices (e.g., VPN or tunnel).
+			- Some services unreachable via specific routes.
+		- tools
+			- ping -M do -s <size> <host>: Check maximum MTU before fragmentation.
+			- tracepath <host>: Shows path MTU discovery (PMTU).
+			- tcpdump -vv: Inspect IP fragmentation flags (MF or frag offset).
+			- wireshark: Detect fragmented and reassembled packets.
+			- ethtool -i eth0: Check NIC offload settings (can affect fragmentation)
+		- solutions
+			- adjust MTUs to be consistent, fix routing, disable tunnel mismatch, avoid double encapsulation
+
 - Infinite Loop
 
 	- symptoms
