@@ -367,8 +367,9 @@
 			- caffeine, hydrocortisone (in small amounts to avoid damaging the heart)
 		- high blood pressure
 			- omega-3s (specifically in the form of icosapent ethyl), which can also prevent heart attack and atherosclerosis
-			- prevent/treat infections like flu/covid which can raise blood pressure
-			- avoid refined carbs which can increase insulin which can raise blood pressure, avoid excess salt
+			- prevent/treat infections like flu/covid which can raise blood pressure, treat thyroid problems and sleep apnea which can cause high blood pressure
+			- avoid excess doses of vitamin c/vitamin d/vitamin e/b-vitamins which can raise blood pressure, also avoid ginkgo, ginseng, bitter orange, licorice, guarana, ephedra, arnica, yohimbe, st. john's wort which can increase blood pressure, make sure youre getting enough potassium
+			- avoid refined carbs which can increase insulin which can raise blood pressure, avoid excess salt/calcium, avoid NSAIDs, decongestants, antidepressants, stimulants, immunosuppressants, and birth control which can also increase blood pressure
 			- diuretics, calcium channel blockers, angiotensin converting enzyme inhibitors (ACE inhibitors), angiotensin receptor blockers (ARBs) are all types of substances used to lower blood pressure from different causes in different ways
 				- for high blood pressure caused by diabetic nephropathy: 
 					- ACE inhibitors or ARBs, which dilate the arteriole exiting the glomerulus, thus reducing the blood pressure within the glomerular capillaries, may slow progression of the disease. 
@@ -634,7 +635,7 @@
 		- inflammation: 
 			- avoid animal products, sugar, gluten, fried food, peanuts, alcohol, vegetable oil, refined carbs, preservatives, additives, saturated/trans fats, MSG, genetically modified food, artificial sweeteners, hydrogenated oil
         	- inhibit pro-inflammatory cytokines
-        		- inhibit NF-κB to lower dysregulated NF-κB signaling
+        		- increase IL-10 to inhibit NF-κB to lower dysregulated NF-κB signaling
         		- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
         		- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
         		- lower levels of tumor necrosis factor-alpha (TNF-α), IL-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
@@ -648,7 +649,7 @@
 				- increase IL-4: Ocimum gratissimum
 				- decrease IL-6: betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
 				- decrease IL-8: Omega 3s, Chitosan, Grape Seed
-				- increase IL-10: vitamin d, Black rice bran and β-glucan, Ocimum gratissimum, Hibiscus sabdariffa, Aloe vera, Chestnut shell, Combretum duarteanum, Grape Seed, Ipomoea asarifolia, ginger, Bruguiera gymnorrhiza
+				- increase IL-10: vitamin d, Black rice bran and β-glucan, Ocimum gratissimum, Hibiscus sabdariffa, Aloe vera, Chestnut shell, Combretum duarteanum, Grape Seed, Ipomoea asarifolia, ginger, Bruguiera gymnorrhiza, Sesame oil, Cinnamon, Garlic, Cayenne/Capsicum, Licorice, Butyrate/Hi-maize, Black Cumin Seed Oil, Mustard, CBD, Curcumin, Boswellia, green tea/EGCG, Melatonin, Nicotinamide/NAD+, Probiotics: B fragilis, L. plantarum, S. boulardii, L casei, Bacillus Subtilis, Andrographis, Baicalin, Olive leaf/Oleuropein, Arabinogalactan, Resveratrol, Honokiol, Colostrum, Synephrine, Statins/Red Yeast Rice, Artemisinin, CoQ10, Hawthorn, Bitter melon
 				- decrease IL-12: Pycnoporus sanguineus, Prunus mume and Lactobacillus strain, Bacillus coagulans and sugar cane, Zanthoxylum bungeanum
 				- decrease IL-15: Pycnoporus sanguineus
 				- decrease IL-17: Prunus mume and Lactobacillus strain, Xique-Xique, Passiflora edulis, Black rice bran and β-glucan, Purple potato, Sugar cane, Dihydroberberine, Ipomoea asarifolia
@@ -688,6 +689,13 @@
 			- treat other conditions like organ damage/thyroid problems/bacterial infections to avoid autoimmune conditions like thyroiditis that can result from organ damage
 			- avoid chemicals including artificial sweeteners, BPA/PFAS/BPA/plastic/antimicrobials/air pollution/water pollution until you know what triggers the autoimmunity
 			- multiple sclerosis:
+				- Patients with MS in the active disease phase have an increased serum level of IL-2, IL-4, IL-6, IL-13, IL-17, IL-21, IL-22 and IL-33 
+					- IL-10 appears to have a beneficial impact in preventing the progression of the disease
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC10932438/
+					- IL-3 is associated with increased disease severity in multiple sclerosis
+						- https://www.cell.com/immunity/fulltext/S1074-7613(23)00177-2
+					- IL-1β is associated with multiple sclerosis
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC5509030/
 			    - relevant molecules created with sun exposure: melatonin, cortisol, endocannabinoids
 			    - alternate sources of molecules created with sun exposure:
 			        - cortisol: hydrocortisone, grapefruit, licorice, avoid refined carbs and alcohol
@@ -769,11 +777,12 @@
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6723571/
 				- avoid lying down after eating, which can lead to insulin resistance
 				- eat anti-inflammatory foods like carrots/spinach/broccoli, and foods like resistant starch/vegetables/beans/nuts/avocados/protein to improve insulin sensitivity
-				- treat vitamin deficiencies like chromium/b-vitamins/vitamin d, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
+				- treat vitamin deficiencies like chromium/b-vitamins/vitamin d/calcium/magnesium, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
 				- Combined supplementation with vitamin D and magnesium improves glycemic control in patients with diabetes; magnesium significantly promotes insulin secretion and action
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9850798/
 				- magnesium-zinc-calcium-vitamin D co-supplementation may reduce biomarkers of inflammation and oxidative stress
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6440090/
+					- Insufficient calcium levels can prevent glucose from properly entering into your cells, which can contribute to high blood sugar
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 				- avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
 			    - avoid as they can increase blood sugar: 
@@ -811,23 +820,22 @@
 			        			- https://www.sciencedirect.com/science/article/pii/S0944711318304835
 			        - avoid/inhibit inhibitors of insulin or insulin receptor signal transduction
 			        	- inhibit IL-1β
-			        	- inhibit IL-6
+			        	- inhibit IL-6, a contributor to insulin resistance and an increasor of blood sugar and cause of diabetic neuropathy
 			        	- inhibit TNF-alpha
 			        	- inhibit NF-κB
 			        	- inhibit JNK pathway
 			        	- https://onlinelibrary.wiley.com/doi/10.1155/2015/508409
-			        - suppress IL-6, a contributor to insulin resistance and an increasor of blood sugar and cause of diabetic neuropathy
-						- decrease IL-6: betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
 			        - Insulin
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 			        	- lower glucose/manage insulin sensitivity: 
-			        		- zinc, broccoli, dark chocolate, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, ceylon cinnamon, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol
+			        		- nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, dark chocolate/ceylon cinnamon (avoid bc of lead), garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol
 							- https://pubmed.ncbi.nlm.nih.gov/38931176/
 						- reduce hyperglycemia: 
 							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
 			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric
+			                - high blood pressure from carbs as a cause of neuropathy: refined carbohydrates can cause rapid spikes in blood glucose levels, which increases insulin production, which raises blood pressure by constricting blood vessels and increasing heart rate
 			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
 			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
 			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC8298154/
@@ -925,7 +933,6 @@
 				- vitamin K, omega 3s, folate, tyrosine, sarcosine (cancer patients should avoid sarcosine)
 			- anxiety:
 				- suppress IL-6, a contributor to neuroinflammation and disorders like anxiety
-					- decrease IL-6: betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
 				- increase IL-4 and IL-10 to suppress anxiety
 				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
 				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
@@ -997,8 +1004,7 @@
         	- kill bad gut bacteria: berberine
         	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
         		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
-        	- inhibit intestinal inflammation
-        		- decrease IL-6: betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
+        	- inhibit intestinal inflammation by inhibiting TNF-alpha, IL-6, and IL-12 and increasing IL-10
         	- ibd: 
         		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
         		- inhibit ETS2 by inhibiting MEK, upregulate IL-10
