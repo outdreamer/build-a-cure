@@ -9,8 +9,6 @@
 		- Crashes: check for an out of memory error or race condition
 		- Timeout: check for a deadlock or infinite loop
 
-	- check for signals of a problem like code samples or packet metadata comparison or settings comparison and identification of the problem
-
 - tools by category
 
 	| **Category**                  | **Tools / Commands**                                                		    | **Purpose**                                            
@@ -315,6 +313,206 @@
 		- tools: filefrag, e4defrag
 		- solution: Defragment filesystem or migrate data.
 
+- System won’t boot (GRUB error)
+	- symptoms: grub rescue> 
+		- error: file '/boot/grub/i386-pc/normal.mod' not found
+		- Cause: GRUB corrupted or missing after disk changes or updates.
+	- solutions: 
+		- Boot from live CD/USB
+			sudo grub-install --boot-directory=/mnt/boot /dev/sda
+			sudo update-grub
+		- If /boot partition was moved, mount it first:
+			sudo mount /dev/sda1 /mnt/boot
+
+- Kernel Panic
+	- symptoms: Kernel panic - not syncing: VFS: Unable to mount root fs
+		- Cause: Missing or corrupt initramfs or kernel modules.
+	- solutions: Boot into recovery or previous kernel from GRUB.
+		- Rebuild initramfs:
+			sudo update-initramfs -u
+		- Reinstall kernel if necessary:
+			sudo apt install --reinstall linux-image-$(uname -r)
+
+- Disk Full
+	- symptoms: df -h
+		Filesystem Size Used Avail Use% Mounted on
+		/dev/sda1   50G  50G    0 100% /
+	- solutions: 
+		- Clean logs:
+			sudo journalctl --vacuum-time=7d
+			sudo rm -rf /var/log/*.gz
+		- Find large files:
+			sudo du -ahx / | sort -rh | head -20
+
+- Filesystem Corruption
+	- symptoms: 
+		sudo dmesg | grep -i "I/O error"
+		sudo fsck /dev/sda1
+	- solutions: Boot into single-user or rescue mode.
+		sudo fsck -f -y /dev/sda1
+		- If recurring, suspect disk hardware failure (smartctl -a /dev/sda).
+
+- File Permissions Broken
+	- symptoms: Permission denied
+	- solutions: 
+		sudo chown -R username:username /path/to/files
+		sudo chmod -R 755 /path/to/dir
+		- For system directories, check /etc/fstab mount options.
+
+- No Internet Connectivity
+	- symptoms
+		ping -c 3 8.8.8.8
+		ping -c 3 google.com
+		- IP reachable but not domain → DNS issue.
+		- Nothing reachable → routing or interface down.
+	- solutions: 
+		sudo systemctl restart NetworkManager
+		sudo dhclient eth0
+		- Check routes: ip route
+
+- Interface Missing
+	- symptoms: ip link show
+	- solutions: 
+		- Check driver module:
+			sudo lshw -C network
+			sudo modprobe <driver_name>
+		- Re-enable interface:
+			sudo ip link set eth0 up
+
+- Firewall Blocking Service
+	- symptoms: 
+		sudo iptables -L -v -n
+		- DROP tcp -- 0.0.0.0/0 0.0.0.0/0 tcp dpt:22
+	- solutions: 
+		sudo iptables -I INPUT -p tcp --dport 22 -j ACCEPT
+		sudo service iptables save
+
+- High CPU Usage
+	- symptoms: 
+		- top
+			PID USER %CPU COMMAND
+			1234 root 98.7 myapp
+	- solutions: 
+		- Identify culprit:
+			ps -fp 1234
+			strace -p 1234
+		- Restart service: sudo systemctl restart myapp.service
+
+- Out of Memory (OOM Killer)
+	- symptoms:
+		- Out of memory: Kill process 2345 (java) score 912 or sacrifice child
+	- solutions: 
+		- Check memory:
+			free -h
+			vmstat 1
+		- Increase swap:
+			sudo fallocate -l 4G /swapfile
+			sudo chmod 600 /swapfile
+			sudo mkswap /swapfile
+			sudo swapon /swapfile
+		- Optimize app memory usage
+
+- Zombie Processes
+	- symptoms: ps aux | grep 'Z'
+	- solutions: 
+		- Restart parent process, if persistent:
+			kill -HUP <parent_pid>
+
+- Broken Dependencies (APT)
+	- symptoms: 
+		- Error: Unmet dependencies. Try 'apt --fix-broken install'
+	- solutions: 
+		sudo apt --fix-broken install
+		sudo apt clean
+		sudo apt update && sudo apt upgrade
+
+- Locked Package Manager
+	- symptoms: 
+		- Could not get lock /var/lib/dpkg/lock
+	- solutions: 
+		sudo rm /var/lib/dpkg/lock-frontend
+		sudo rm /var/lib/apt/lists/lock
+		sudo dpkg --configure -a
+
+- Service Not Starting
+	- symptoms: sudo systemctl status nginx
+		- nginx.service - failed (code=exited, status=1/FAILURE)
+	- solutions: 
+		- View logs:
+			sudo journalctl -xeu nginx
+		- Port already in use → sudo netstat -tulnp | grep 80
+		- Bad config → nginx -t
+
+- Cron Jobs Not Running
+	- symptoms:
+		- Check logs:
+			grep CRON /var/log/syslog
+	- solutions: 
+		- Ensure cron service running:
+			sudo systemctl status cron
+		- Use full paths in scripts (/usr/bin/python not just python).
+
+- “Authentication failure” (sudo)
+	- solutions: 
+		- Unlock account:
+			sudo passwd username
+		- Check sudoers:
+			sudo visudo
+		- Add:
+			username ALL=(ALL) ALL
+
+- SSH Login Denied
+	- symptoms:
+		- Logs:
+			tail -n 20 /var/log/auth.log
+	- solutions: 
+		- Check permissions:
+			chmod 700 ~/.ssh
+			chmod 600 ~/.ssh/authorized_keys
+		- Ensure sshd is running:
+			sudo systemctl restart ssh
+
+- Missing Drivers
+	- symptoms: 
+		lspci -k | grep -A 3 -i network
+		- If “Kernel driver in use” is empty → missing driver.
+	- solutions: 
+		sudo apt install linux-firmware
+		sudo modprobe <driver_name>
+
+- Kernel Module Fails to Load
+	- symptoms: 		
+		- modprobe: ERROR: could not insert 'nvidia': No such device
+	- solutions: 
+		- Reinstall module package.
+		- Check compatibility with uname -r.
+		- Rebuild modules:
+			sudo dkms autoinstall
+
+- Failing Disk
+	- symptoms: 
+		sudo smartctl -a /dev/sda
+			- SMART overall-health self-assessment test result: FAILED
+	- solutions: Backup immediately, replace drive.
+
+- Overheating
+	- symptoms: 
+		sensors
+			- Core 0: +95.0°C (high = +80.0°C)
+	- solutions: Clean fans, reapply thermal paste, ensure proper ventilation.
+
+- USB Devices Not Detected
+	- symptoms: dmesg | grep usb
+	- solutions: 
+		- Reload USB modules:
+			sudo modprobe -r usb_storage && sudo modprobe usb_storage
+
+- Repeated Errors in syslog
+	- symptoms: 
+		sudo journalctl -p 3 -xb
+			- kernel: EXT4-fs error (device sda1): ext4_find_entry:1453: inode ...
+	- solutions: Check disk (fsck), filesystem mount options, and hardware.
+	
 - Networking Diagnostics
 	
 	- Firewall Blocking a Port
@@ -1479,7 +1677,7 @@
 			- Application memory footprint grows steadily without leaks.
 		- tools
 			- pmap <pid>: Shows memory map and fragmentation of virtual memory.
-			- smem / ps_mem: Check proportional set size (PSS) and shared memory usage.
+			- smem / ps_mem: Check proportional set size (PSS) and shared memory/swap space usage
 			- /proc/<pid>/smaps: Shows per-region fragmentation and page usage.
 				- If total allocated memory is large but RSS much larger → memory fragmentation.
 			- malloc_info() / mallinfo(): Inspect heap usage in glibc apps.
@@ -1668,3 +1866,9 @@
 		- Fix configs / env vars
 		- Version pinning
 		- Use config management (Vault, dotenv)
+
+
+- sources
+	- linux commands: https://www.cyberciti.biz/tips/top-linux-monitoring-tools.html
+	- perf commands: https://www.brendangregg.com/perf.html
+	- performance tuning: https://www.linuxjournal.com/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk

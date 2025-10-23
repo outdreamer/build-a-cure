@@ -310,7 +310,7 @@
 			- selenium, l-carnitine, myo-inositol, melatonin, and resveratrol all impact thyroid function
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6770945/
 		- neuropathy/nerve damage:
-			- nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric
+			- nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric, potassium, arginine
 			- arginine/citrulline/vitamin C together and other amino acids help repair nerves by lowering blood pressure and/or growing new neurons
 				- https://www.amazon.com/Jarrow-Formulas-Arginine-Citrulline-Supports-Production/dp/B076PC7CPH
 				- IKVAV (isoleucine–lysine–valine–alanine–valine), RGD (arginine–glycine–aspartic acid), YIGSR (tyrosine–isoleucine–glycine–serine–arginine), and RADA16 (arginine–alanine–aspartic acid–alanine)
@@ -463,7 +463,7 @@
 				- magnesium/vitamin d
 				- vitamin c/iron
 			- treat food cravings:
-				- craving: deficient nutrient causing that deficiency
+				- craving: deficient nutrient causing that craving
 					- sugar craving: chromium, phosphorus, sulfur, tryptophan
 					- sugary/salty/junk food craving: zinc, calcium
 					- chocolate/acidic food cravings: magnesium
@@ -618,7 +618,13 @@
 				- avoid pollution, CBD, caffeine, peppermint, licorice, minoxidil, excess choline, corticosteroids like hydrocortisone, potasssium/salt (added salt isnt actually necessary in the diet), and other substances that can cause heart failure in normal amounts
 			- liver damage:
 				- fasting, hibiscus, artichoke, milk thistle, feverfew, beets, chicory, dandelion, celery, turmeric, ginger, grape seed, berries, decaf coffee, digestive enzymes, treat hormone imbalances like estrogen toxicity which can damage organs like the liver
+				- metabolic dysfunction-associated steatotic liver disease (MASLD): keto diet or low calorie diet
 		- adrenal problems
+			- adrenal insufficiency and related condition symptoms
+			    - cortisol deficiency: severe fatigue, weakness, weight loss, hyperpigmentation, nausea, loss of appetite
+			    - cortisol excess: weight gain, fatigue, easy bruising, muscle weakness, redness in the face, pink stretch marks, mood swings, inappropriate hunger
+			    - fludrocortisone deficiency: reduced blood pressure, nausea/vomiting, dizziness, salt craving, muscle cramps
+			    - fludrocortisone excess: hypertension, ankle swelling, exertion headache
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
 			- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, DHEA (low DHEA can cause heart damage and cancer)
 				- fludrocortisone for symptoms of low aldosterone like salt cravings
@@ -647,7 +653,9 @@
 				- decrease IL-1α: Purple potato, Bacillus coagulans and sugar cane
 				- decrease IL-1β: betaine, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Bacillus coagulans and sugar cane, Purple potato, Combretum duarteanum, mango, Hyperoside, lonicerin, luteolin, Grape Seed, Veronica polita, Jasminum grandiflorum, Acacia saligna, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, German Chamomile, Chitosan, Telfairia occidentalis, Xique-Xique, Aster glehni, Persea americana, Eriocitrin, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Bruguiera gymnorrhiza
 				- increase IL-4: Ocimum gratissimum
-				- decrease IL-6: betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
+				- decrease IL-6: betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch
+					- avoid coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
+					- avoid as they may increase IL-6: lauric acid, palmitic acid, cordyceps, ginseng, reishi, bacillis subtilis, lactobacillus plantarum, alanine, Punica granatum/Ellagic acid
 				- decrease IL-8: Omega 3s, Chitosan, Grape Seed
 				- increase IL-10: vitamin d, Black rice bran and β-glucan, Ocimum gratissimum, Hibiscus sabdariffa, Aloe vera, Chestnut shell, Combretum duarteanum, Grape Seed, Ipomoea asarifolia, ginger, Bruguiera gymnorrhiza, Sesame oil, Cinnamon, Garlic, Cayenne/Capsicum, Licorice, Butyrate/Hi-maize, Black Cumin Seed Oil, Mustard, CBD, Curcumin, Boswellia, green tea/EGCG, Melatonin, Nicotinamide/NAD+, Probiotics: B fragilis, L. plantarum, S. boulardii, L casei, Bacillus Subtilis, Andrographis, Baicalin, Olive leaf/Oleuropein, Arabinogalactan, Resveratrol, Honokiol, Colostrum, Synephrine, Statins/Red Yeast Rice, Artemisinin, CoQ10, Hawthorn, Bitter melon
 				- decrease IL-12: Pycnoporus sanguineus, Prunus mume and Lactobacillus strain, Bacillus coagulans and sugar cane, Zanthoxylum bungeanum
@@ -662,7 +670,7 @@
 				- taurine has anti-tumor activity
 				- boswellic acid can prevent the formation of leukotrienes (molecules that cause inflammation)
 				- These plant compounds (alkaloids) blocked the formation of leukotrienes and prostaglandins, or blocked 5-lipoxygenase (5-LOX, the enzyme that initiates the leukotriene pathway), or blocked LTC4S (the enzyme that makes cysteinyl leukotrienes)
-					- Berbamine (barberries), Tetrandrine (Stephania tetrandra), Velutin (pink banana), Galangin (honey and the herb lesser galangal), Chrysin (honey, propolis, honeycomb, passion flowers, and Oroxylum indicum), Aloe vera (alprogen), Artonin E (Artocarpus elasticus), Boswellia (frankincense), Butterbur compounds (isopetasin and oxopetasan esters), Caffeic acid phenyl ester (propolis), capsaicin (peppers), Curcumin, double palm (dammarane triterpenoid 1), Dystaenia takeshimana coumarins (Psoralen, Xanthotoxin, Scopoletin, Umbelliferone, Marmesin) and flavonoids (Apigenin, Luteolin, Cynaroside), citrus (goshuyuamide), Garcinol (Garcinia indica), Ginger, Green and black tea (Theaflavins, EGCG), American witch hazel (Hamamelitannin, Galloylated proanthocyanidins, Huang-Lian-Jie-Du-Tang (HLJDT, which contains chinese skullcap (baicalein), Coptis Root (Rhizoma coptidis)), lycopene (tomatoes, guava, watermelon, sweet red peppers, grapefruit asparagus, and purple cabbage), methyl jasmonate, oleanolic acid, ursolic acid, Helichrysum picardii, Pygeum africanum, Quercetin (capers, red onion, radicchio, kale, buckwheat, dill, and cilantro), Kaempferol (apples, grapes, tomatoes, green tea, potatoes, onion, and broccoli), Morin (Osage orange, old fustic, and common guava), Myricetin (Japanese raisin tree and vine tea extracts, parsley, cranberries, broad beans, and blueberries), Resveratrol (grapes, blueberries, raspberries, and mulberries), Stemona species alkaloids (Pinosylvin, Dihydropinosylvin, Stilbostemin, Stemofuran, Stemanthrene), Thymoquinone (black cumin seed), Triptolide (thunder god vine)
+					- Berbamine (barberries), Tetrandrine (Stephania tetrandra), Velutin (pink banana), Galangin (honey and the herb lesser galangal), Chrysin (honey, propolis, honeycomb, passion flowers, and Oroxylum indicum), Aloe vera (alprogen), Artonin E (Artocarpus elasticus), Boswellia (frankincense), Butterbur compounds (isopetasin and oxopetasan esters), Caffeic acid phenyl ester (propolis), capsaicin (peppers), Curcumin, double palm (dammarane triterpenoid 1), Dystaenia takeshimana coumarins (Psoralen, Xanthotoxin, Scopoletin, Umbelliferone, Marmesin) and flavonoids (Apigenin, Luteolin, Cynaroside), citrus (goshuyuamide), Garcinol (Garcinia indica), Ginger, Green and black tea (Theaflavins, EGCG), American witch hazel (Hamamelitannin, Galloylated proanthocyanidins, Huang-Lian-Jie-Du-Tang (HLJDT, which contains chinese skullcap (baicalein), Coptis Root (Rhizoma coptidis)), lycopene (tomatoes, guava, watermelon, sweet red peppers, grapefruit, asparagus, and purple cabbage), methyl jasmonate, oleanolic acid, ursolic acid, Helichrysum picardii, Pygeum africanum, Quercetin (capers, red onion, radicchio, kale, buckwheat, dill, and cilantro), Kaempferol (apples, grapes, tomatoes, green tea, potatoes, onion, and broccoli), Morin (Osage orange, old fustic, and common guava), Myricetin (Japanese raisin tree and vine tea extracts, parsley, cranberries, broad beans, and blueberries), Resveratrol (grapes, blueberries, raspberries, and mulberries), Stemona species alkaloids (Pinosylvin, Dihydropinosylvin, Stilbostemin, Stemofuran, Stemanthrene), Thymoquinone (black cumin seed), Triptolide (thunder god vine)
 					- https://selfhacked.com/blog/leukotrienes-inhibitors/
 			- antioxidants (to reduce negative impact of Reactive Oxygen Species) and reduce inflammation
 				- medicines: N-acetylcysteine (NAC) and glycine to increase glutathione, corticosteroids, and dexamethasone
@@ -755,7 +763,7 @@
 			- blessed thistle (cnicin) 
 				- https://scitechdaily.com/completely-new-use-discovered-this-traditional-herb-has-remarkable-nerve-regenerative-properties/
 		- hair loss: 
-			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, diabetes/high blood sugar, PCOS, vitamin deficiencies (vitamin d and iodine and b-vitamins) and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamins, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, caffeine, deoxy-d-ribose, vitamin d
+			- treat dermatological problems (seborrheic dermatitis, fungal/bacterial infections), organ (adrenal/thyroid/kidney/liver) damage problems, diabetes/high blood sugar, PCOS, vitamin deficiencies (vitamin d, potassium, iodine and b-vitamins) and hormone imbalances first, then use choline, iodine, inositol, b-vitamins, multi-vitamins, collagen, biotin, ferritin, msm, pumpkin seed oil, cinnamic acid, caffeine, deoxy-d-ribose, vitamin d
 		- metabolic problems
 			- avoid air pollution containing lipopolysaccharide (LPS) and treat bacterial infections which can cause diabetes, heart disease, and liver problems through increasing lipopolysaccharide levels
 			- obesity:
@@ -767,17 +775,31 @@
 					- gardenia, curcumin, resistant starch, berberine, tea, cinnamon, wheat, soybean, resveratrol
 					- https://pubmed.ncbi.nlm.nih.gov/34981502/
 			- diabetes
+			    - identify the cause of diabetes: 
+			    	- vitamin deficiency: potassium/vitamin d/magnesium/calcium/zinc/vitamin a/vitamin k/chromium/other vitamins should help
+			    	- excess supplements: avoiding excess hydrocortisone/light at night/niacin/melatonin/other medicines that can cause hyperglycemia should help
+			    	- excess liver glucose production: apple cider vinegar should help, losing weight should help with fatty liver which can increase glucose production
+			    	- insulin transport: arginine should help
+			    	- insulin resistance: keto diet should help
+			    	- not enough insulin: bitter melon should help
+			    	- not enough β‐cells: turmeric, ginger, hibiscus should help
+			    	- inflammation: using ginger, turmeric, berberine, vitamin d, grape, chamomile, green tea, probiotics and avoiding acrylamide (chips/bread/chocolate/coffee)/saturated fat/refined carb intake/reishi/ginseng/cordyceps/cats claw/5-htp/melatonin should help
+			    	- inhibited GLP-1: turmeric, berberine, resistant starch, resveratrol should help
 				- use probiotics (preferably kefir) to manage blood sugar and insulin sensitivity
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC8166562/
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6714347/
 				- avoid a high advanced glycation end-products (AGE) diet
 					- Metabolic factors include the formation of advanced glycation end-products (AGEs), which have a central role in the pathophysiology of many of the complications of diabetes mellitus, including cardiovascular complications
+					- avoid high saturated fat foods, highly processed foods, and foods cooked at high temperatures (baked/grilled) and eat vegetables, fruits, legumes, skimmed dairy products, and whole grains
 					- https://en.wikipedia.org/wiki/Diabetic_nephropathy
 				- avoid high acid foods which can raise blood sugar
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6723571/
 				- avoid lying down after eating, which can lead to insulin resistance
 				- eat anti-inflammatory foods like carrots/spinach/broccoli, and foods like resistant starch/vegetables/beans/nuts/avocados/protein to improve insulin sensitivity
-				- treat vitamin deficiencies like chromium/b-vitamins/vitamin d/calcium/magnesium, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
+				- treat vitamin deficiencies like vitamin a/vitamin k/chromium/b-vitamins/vitamin d/calcium/magnesium/potassium, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
+					- Low potassium levels can negatively affect insulin production and increase blood sugar and increase diabetic ketoacidosis
+					- vitamin K helps lower blood glucose and increase insulin sensitivity
+        			- lack of vitamin A led to the death of beta cells, When vitamin A was reintroduced, the number of beta cells stabilized, insulin production increased, and blood glucose levels returned to normal
 				- Combined supplementation with vitamin D and magnesium improves glycemic control in patients with diabetes; magnesium significantly promotes insulin secretion and action
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9850798/
 				- magnesium-zinc-calcium-vitamin D co-supplementation may reduce biomarkers of inflammation and oxidative stress
@@ -829,25 +851,21 @@
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 			        	- lower glucose/manage insulin sensitivity: 
-			        		- nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, dark chocolate/ceylon cinnamon (avoid bc of lead), garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol
+			        		- potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
 							- https://pubmed.ncbi.nlm.nih.gov/38931176/
 						- reduce hyperglycemia: 
 							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
-			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric
-			                - high blood pressure from carbs as a cause of neuropathy: refined carbohydrates can cause rapid spikes in blood glucose levels, which increases insulin production, which raises blood pressure by constricting blood vessels and increasing heart rate
+			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric, potassium, arginine
+			            - high blood pressure from carbs as a cause of neuropathy: refined carbohydrates can cause rapid spikes in blood glucose levels, which increases insulin production, which raises blood pressure by constricting blood vessels and increasing heart rate
 			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
 			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
 			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC8298154/
 			        - use ACE inhibitors and ARBs to manage cardiovascular disease risk from diabetes
 				        - angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): 
-							- garlic, seaweed (wakame, etc), tuna, sardine, hawthorn, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate
-							- Olive Leaf, Avena sativa, Bothrops jararaca, Bothrops moojeni, Cajanus cajan, green tea (EGCG), Berberine, Coix larchryma-jobi, Egg Yolk, Lithospermic Acid B, Salvia hispanica, Vigna radiata, Ampelopsis Brevipedunculata (Hopeaphenol; Vitisin A, Asparagus officinalis (Asparaptine), Chinese Herb (Pentagalloylglucose, Isochlorogenic acid B, Methyl 3,4-di-O-caffeoylquinate, Epigallocatechin gallate (EGCG/green tea), Epigallocatechin-3-O-Methylgallate), Cleistanthus collinus (Cleistanthins A, B), Clerodendron trichotomum (Acteoside, Isomartynoside, Leucosceptoside A, Martynoside), Delphinium sp. (Cyanin, Delphinidin), Desmodium styracifolium (Carlinoside, Schaftoside, Vicenin 1–3), Dioscorea opposita Thunb. (Diascorin), Eucommia ulmoides (Megastigmane Enantiomersv, Glycyrrhiza glabra (Licochalcone A), Glycyrrhiza uralensis (Echinatinv, Limonium michelsonii (Isolates), Mucuna Pruriens (Genistein), Caffeic Acid, Caffeoyl Acetate, Chlorogenic Acid, Ferulic Acid), Salvia miltiorrhizae (Salvianolic Acid B), Sargassum wightii (O-Heterocyclic Analogues), Tamarix hohenackeri (Chrysoeriol, Quercetin, Isoferulic acid, Methyl-4-O-methylgallate, Gallic acid, Methyl gallate), Toona sinensis (Quercetin, Resveratrol), Xestospongia Cf. Vansoesti (Salsolinol)
-						    - ACE-changing substances: 
-								- Dohaekseunggi-tang, Nigella sativa, Cymodocea Nodosa, Plantago major, Mucuna pruriens, Syzygium cumini, Fucus spiralis, Eucalyptus camaldulensis, Litsea glaucescens, Lens culinaris sprouted, Pleurotus eryngii, Phaseolus vulgaris, Prunus amygdalus, Pistacia vera juice, Boza protein extract, Nitraria sibirica, Amaranthus dubius, Amaranthus hybridus, Asystasia gangetica, Galinsoga parviflora, Justicia flava, Oxygonum sinuatum, Physalis viscosa, Tulbaghia violacea, Bulbus Fritillaria
+							- garlic, seaweed (wakame, etc), tuna, sardine, hawthorn, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate, olive, green tea, berberine, quercetin, resveratrol
 						- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): 
 							- potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
-
       	- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- multiple chemical sensitivities: 
@@ -948,8 +966,17 @@
 				- improve kidney/cardiovascular health, which results in hormone dysregulation (vasopressin, angiotensin II, adrenaline, cortisol, estrogen), which are hormones that can cause anxiety
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC3312460/ - 'The link between angiotensin II-mediated anxiety and mood disorders with NADPH oxidase-induced oxidative stress'
 				- increase GABA
-					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava, vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
+					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava (avoid for liver toxicity), vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC9500625/
+					- increases GABA or GABA activity: theanine, passionflower, lemon balm, b vitamins, taurine, valerian, hops, EGCG with vitamin C, ashwagandha, lavender, chinese skullcap, black seed oil
+					- restores GABA receptors: bacopa
+					- activates/strengthens GABA receptors: kava
+		            - binds to GABA receptors: chinese skullcap
+		            - inhibits GABA breakdown: valerian
+		            - inhibits adrenaline: kava
+		            - reduces cortisol/stress: ashwagandha, lavender, omega 3's
+		            - positive allosteric modulators of the GABAA receptor: eugenol, chamomile/apigenin, chamomile/luteolin, EGCG, thymol, nicotinamide, valerian, lavender
+		            - avoid GABA antagonists: ginkgo biloba, kudzu, thujone (sage, mugwort, oregano, mint, wormwood, yarrow)
 				- change HPA axis
 				    - increase IL-1/6/10/tnf-a to activate the HPA axis to handle stress/anxiety
 				        - increase tnf-α (coconut, astragalus)
@@ -996,10 +1023,10 @@
 				- b-vitamins, vitamin C/D/E, omega 3s, coq10, creatine, whey protein, tyrosine/dopa/phenylalanine, phosphatidylserine, DHEA, probiotics/SCFAs
 				- treat inflammation and other conditions including autoimmune conditions, treat organ damage like adrenal problems which can cause hormonal imbalances like low DHEA/cortisol which can over-activate the immune system, avoid immune stimulants that can cause autoimmune diseases, treat thyroid problems which are associated with parkinsons, avoid tobacco/coffee/NSAIDs, avoid air pollution
 		- skin problems:
-			- inflammation: infrared light therapy, saw palmetto, zinc, vitamin c, copper, anti-inflammatory substances, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
+			- inflammation: infrared light therapy, saw palmetto, zinc, vitamin c, copper, anti-inflammatory substances like ginger, avoid excess animal products and other sources of b-vitamins (without exercise to compensate and use the extra vitamins), avoid supplements that can cause skin inflammation like lactoferrin, avoid vegetables that increase dhea like avocado
 			- elasticity: infrared light/heat therapy, collagen, hormones like estrogen/progesterone, hyaluronic acid, senolytics, antioxidants, anti-fibrotics, anti-inflammatory substances, berries, salmon/omega 3s, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
-			- dermatitis: antifungals like ketoconazole, corticosteroids like hydrocortisone, antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd, tea tree oil, coconut oil
+			- dermatitis: antifungals like holy basil/coconut, corticosteroids like hydrocortisone (in small amounts to avoid heart damage), antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd (in small amounts to avoid heart damage), tea tree oil, coconut oil
         - gastrointestinal problems:
         	- kill bad gut bacteria: berberine
         	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
@@ -1033,7 +1060,7 @@
 	        		- fermented/preserved foods which are associated with stomach cancer
 	        		- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
         	- substances to use with cancer
-        		- small amounts of iodine, choline, DHEA, turmeric, ginger, grapes, berries, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, white button/cordyceps/shiitake mushrooms, activated charcoal, omega 3's, hibiscus, beets, probiotic kefir/kombucha for patients with organ damage
+        		- small amounts of black beans, iodine, choline, DHEA, turmeric, ginger, grapes, berries, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, white button/cordyceps/shiitake mushrooms, activated charcoal, omega 3's, hibiscus, beets, probiotic kefir/kombucha are safe for patients with organ damage
         		- nicotinamide (derived from vitamin b3) can help prevent skin cancer but niacin supplements can cause diabetes
         		- aspirin can help prevent colon cancer (avoid with kidney damage)
         		- proteolytic enzymes such as bromelain, trypsin, chymotrypsin, and papain may be useful to prevent metastasis
@@ -1054,7 +1081,6 @@
         			- https://pubmed.ncbi.nlm.nih.gov/40608178/
         			- increases the myokine irisin: vitamin D
         			- https://www.mdpi.com/1422-0067/24/4/4129
-        			- increase myokine IL-6: lauric acid, palmitic acid, cordyceps, ginseng, reishi, bacillis subtilis, lactobacillus plantarum, alanine, Punica granatum/Ellagic acid
 			- specific treatments for cancer types
 				- gastric cancer (has some overlap with gallbladder/liver/pancreatic cancer)
 					- avoid: vitamin b3/b9 supplements
