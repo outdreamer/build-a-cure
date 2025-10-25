@@ -156,6 +156,26 @@ System design study guide
 
 - databases
 
+	- types of database index
+		1. Clustered Index
+			- Sorts and stores the data rows in the table based on the key values. A table can have only one clustered index because the data rows themselves are sorted in this order, Ideal for columns that are frequently used in range queries or sorting (e.g, primary keys).
+		2. Non-Clustered Index
+			- Contains pointers to the actual data rows in the table. A table can have multiple non-clustered indexes, Best for columns used in search conditions or joins but not for sorting.
+		3. Unique Index
+			- Ensures all values in the indexed column(s) are unique, Useful for enforcing uniqueness constraints (e.g, email addresses).
+		4. Composite Index
+			- An index on two or more columns, Useful when queries filter or sort by multiple columns.
+		5. Full-Text Index
+			- Supports full-text queries on character-based columns, Ideal for searching large text fields (e.g, product descriptions).
+		6. Spatial Index
+			- Optimized for spatial data types like geometry or geography, Used in applications involving spatial queries (e.g, GIS systems).
+		7. Filtered Index
+			- A non-clustered index with a WHERE clause to filter rows, Useful for indexing a subset of data to improve performance.
+		8. XML Index
+			- Used to index XML data stored in a column, Optimizes queries on XML data.
+		9. Columnstore Index
+			- Stores data in a columnar forma, optimized for analytical queries, Ideal for data warehousing and large-scale analytics.
+
 	- ACID database transaction processing
 		- atomicity: all operations in a transaction are completely successfully or all fail
 		- consistency: a transaction brings the db from on valid state to another
@@ -705,7 +725,7 @@ System design study guide
 	Throttling						Control the consumption of resources from applications, tenants, or services.
 	Transactional Outbox			The outbox table resolves the dual write operations issue that occurs when a single operation involves a database write operation and an event notification which can create inconsistencies if one fails
 	Valet Key						Use a token/key to provide clients with restricted, direct access to a specific resource or service.
-
+zabbix, splunk, kibana, cloud watch, slack
 	- distributed system architectures:
 		- client-server architecture: servers provide resources and clients request them, communicating over a network
 		- peer-to-peer architecture (P2P): each peer/node in the network acts as both a client and server, sharing resources directly with each other
