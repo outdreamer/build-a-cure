@@ -1,9 +1,5 @@
 - create a table like this of symptoms, probable problem root cause, and tools/tests to use to identify whether that problem is relevant to the symptom
 	
-	- problem symptoms, probable problem root cause, tool to identify problem, successful test case, solution/fix
-	    - website credentials being stolen, XSS, XSS scanning tool, check if pysa identifies an XSS in code, if it does then auto-escape output before including it in html and avoid using innerhtml/eval and use nonces in scripts 
-	    - slow query, database lock, check for locks with a query, query returns results, run a query to fix the table with the lock
-
 	- Example Symptoms and tests
 		- Slow performance: check if CPU or I/O bound
 		- Crashes: check for an out of memory error or race condition
@@ -41,18 +37,18 @@
 	     	Ping ok: DNS issue/firewall block                             	High memory: check `free`, `vmstat`
 	     Check NIC & routes: `ip a`, `ip route`                           If CPU wait (iowait) is high, then Disk or I/O bottleneck: Run `iostat -x`, `iotop`
 	     Check firewall: ufw/iptables                                     If CPU wait (iowait) is low, then CPU-bound issue: Check process threads, infinite loops, runaway app      
-	     Check load balancer: `curl -v`, LB logs                          Check disk space: `df -h`, if disk full: clean logs, tmp, rotate logs, expand volume 
+	     Check load balancer: `curl -v`, LB logs                          Check disk space: `df -h`, if disk full: clean logs/tmp, rotate logs, expand volume 
 	     Check DNS: `dig`, `nslookup`: Verify DNS resolution path         Check database: slow I/O, locks, queries, indexes
 	     Network / DNS fix: adjust routes, DNS records                    Fix root cause: optimize DB, tune cache, upgrade disks
-	     Test app/service again: `curl`, `ss -tulwn`, etc
-	     Still broken? Check logs: `/var/log`, `journalctl`
+	     Test app/service again: `curl`, `ss -tulwn`
+	     Check logs: `/var/log`, `journalctl`
 	     Fix service configuration: restart/rebuild/patch/rollback
 
 - tools to identify vulns with AI
 	- Almanax, Corgea, ZeroPath, Gecko, and Amplify
 
 - Monitor Resource Usage tools
-	- Memory leaks: track with valgrind, leaks, or runtime profilers
+	- Memory leaks: track with valgrind or runtime profilers
 	- CPU bottlenecks: profile performance using perf, top, htop, py-spy, or IDE profilers
 	- Disk/IO: check iostat, iotop, or SQL slow query logs
 	- Threads/processes: monitor with ps, pstree, or strace
@@ -145,28 +141,28 @@
 	- history			View command history.
 
 - Logging & Diagnostics tools
-	- journalctl	View systemd logs.
-	- dmesg			View kernel and hardware logs.
+	- journalctl				View systemd logs.
+	- dmesg						View kernel and hardware logs.
 	- tail -f /var/log/syslog	Follow system logs in real time.
-	- last / lastlog	Show recent logins.
-	- logger	Write custom messages to syslog.
+	- last / lastlog			Show recent logins.
+	- logger					Write custom messages to syslog.
 
 - Development, Debugging & Profiling tools
-	- strace	Trace system calls and signals — useful for debugging runtime behavior.
-	- ltrace	Trace library calls.
-	- gdb	GNU debugger — debug compiled programs.
-	- perf	Analyze CPU performance and hotspots.
-	- valgrind	Detect memory leaks and profiling.
+	- strace		Trace system calls and signals — useful for debugging runtime behavior.
+	- ltrace		Trace library calls.
+	- gdb			GNU debugger — debug compiled programs.
+	- perf			Analyze CPU performance and hotspots.
+	- valgrind		Detect memory leaks and profiling.
 	- gcc / clang	Compile C/C++ programs.
 	- objdump / nm	Inspect binaries and symbols.
-	- readelf	Display ELF binary information.
+	- readelf		Display ELF binary information.
 
 - System Control & Services tools
-	- systemctl	Manage systemd services (start, stop, restart, enable).
-	- service	Control SysV init services (legacy).
+	- systemctl						Manage systemd services (start, stop, restart, enable).
+	- service						Control SysV init services (legacy).
 	- shutdown / reboot / poweroff	Manage system power states.
-	- cron / crontab	Schedule recurring tasks.
-	- at	Schedule one-time tasks.
+	- cron / crontab				Schedule recurring tasks.
+	- at							Schedule one-time tasks.
 
 - System, Hardware and OS-Level Problems
 
@@ -231,7 +227,6 @@
 			- Check firmware updates, apply vendor patches, analyze with fwupdmgr, or downgrade temporarily
 
 	- Infinite Loop / 100% CPU
-
 		- symptoms
 			- Process hangs with 100% CPU and no I/O activity
 				top
@@ -253,10 +248,10 @@
 			- Add loop counter / timeout
 			- Use safe iteration boundaries
 			- Implement circuit breakers for retries
-			- debug control variables.
+			- debug control variables
 			- Attach debugger:
 				strace -p 1234
-				- Seeing repeated syscalls like the following indicates unbounded loop, fix control condition.
+				- Seeing repeated syscalls like the following indicates unbounded loop: fix control condition
 					read(3, "", 0) = 0	
 
 	- High CPU Usage or CPU saturation/starvation/spikes
@@ -293,7 +288,7 @@
 				ps -fp 1234
 				strace -p 1234
 			- Restart service: sudo systemctl restart myapp.service
-		
+
 	- Disk Errors or Hardware Failure
 
 		- symptoms

@@ -27,7 +27,7 @@ System design study guide
 			- encapsulation allows data security by preventing unauthorized access/modification, code maintainability, and flexibility allowing changes to internal implementation without affecting external code
 		- Polymorphism: the ability of a function/method/operator to behave differently based on the object its working with, allowing for flexibility and reusability in code and making it easy to work with objects of different types in the same way
 			- method polymorphism is where different classes have methods with the same name with different functionality
-			- operator polymorphism is where operators like + can perform different operations based on data types, either adding integers or concatenating strings
+			- operator polymorphism is where operators like  can perform different operations based on data types, either adding integers or concatenating strings
 			- function polymorphism is where functions can handle arguments of different types like adding integers or concatenating strings
 			- polymorphism with inheritance is where a child class overrides a method from its parent class, providing its own implementation
 			- polymorphism is useful for code reusability, flexibility by extending functionality through adding new classes/methods, and readability
@@ -85,6 +85,87 @@ System design study guide
 				- though synchronization can lead to deadlocks and negatively impact performance bc it requires acquiring/releasing locks
 			- A deadlock occurs in multithreaded applications when two or more threads are waiting for each other to release resources, causing all of them to be stuck indefinitely
 			- to prevent deadlocks, use mutual exclusion, resource holding, and circular waits
+
+
+- OS
+	- Disk (Physical Storage Device)
+		- A disk is a physical hardware device used to store data persistently, a disk doesn’t understand files or directories — only blocks of binary data.
+		- examples: Hard Disk Drive (HDD), Solid-State Drive (SSD), NVMe Drive, USB Flash Drive
+			/dev/sda → first SATA/SCSI disk
+			/dev/nvme0n1 → first NVMe drive
+			/dev/mmcblk0 → eMMC (embedded flash)
+	- Device
+		- In Linux, a device is an abstraction provided by the kernel representing a physical or virtual hardware component.
+		- Every device (like a disk, keyboard, or network card) is represented as a file in /dev.
+		- Disk devices = block devices (because they read/write blocks of data).
+		- examples: 
+			lsblk
+				# NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+				# sda      8:0    0  100G  0 disk
+				# ├─sda1   8:1    0   96G  0 part /
+				# └─sda2   8:2    0    4G  0 part [SWAP]
+	- Block
+		- A block is the smallest unit of data transfer between the OS and a block device (usually 512 bytes or 4 KB); if the disk is a book, each block is a page.
+		- The OS reads/writes entire blocks, not individual bytes.
+		- Blocks are identified by a block number (offset) and are managed by the block layer of the kernel.
+			sudo blockdev getbsz /dev/sda
+		    	# -> 4096
+	- Partition
+		- A partition divides a single physical disk into multiple logical sections, where each section behaves like a separate disk.
+		- Partitions allow multiple operating systems or filesystems on one disk.
+		- examples:
+			/dev/sda1 → root filesystem (/)
+			/dev/sda2 → swap area
+			/dev/sda3 → home partition
+		- tools: fdisk, parted, lsblk
+			sudo fdisk -l /dev/sda
+	- Filesystem
+		- A filesystem defines how files and directories are organized and stored within a partition, adding structure and metadata on top of raw blocks.
+		- examples: ext4, xfs, btrfs, ntfs, fat32.
+		- a filesystem maps files to blocks on disk, tracks free/used space, does journaling (for crash recovery), handles permissions and metadata
+		- examples:
+			sudo mkfs.ext4 /dev/sda1   # Create filesystem
+			sudo fsck /dev/sda1        # Check/repair filesystem
+	- Volume
+		- A volume is a logical abstraction of storage space that may span multiple disks or partitions.
+		- volume types:
+			- Simple volume: one partition = one volume
+			- Logical volume (LVM): can span multiple disks
+			- RAID volume: combines multiple disks for redundancy/performance
+		- volumes are managed by:
+			- LVM (Logical Volume Manager): /dev/mapper/vgname-lvname
+			- mdadm for RAID
+		- examples:
+			sudo lvs
+				# LV   VG   Attr       LSize  Pool Origin Data%
+				# root vg0  -wi-ao-  50.00g
+	- Mount
+		- Mounting attaches a filesystem to the Linux directory tree, making its files accessible.
+		- Linux has a single unified directory hierarchy starting at /.
+		- You can mount disks or partitions anywhere (e.g., /mnt/data, /home, /boot).
+		- examples:
+			sudo mount /dev/sda1 /mnt
+			df -hT
+				# Filesystem     Type  Size  Used Avail Mounted on
+				# /dev/sda1      ext4   50G   10G   40G /mnt
+		- To persist mounts: edit /etc/fstab.
+	- Kernel
+		- The kernel is the core of the operating system that manages all hardware interactions — including disks, memory, CPUs, and I/O.
+		- the kernel manages storage components like device drivers (for disks, SSDs, RAID, etc.), provides the block device layer, implements VFS (Virtual File System) to unify filesystems, and handles syscalls like read(), write()
+		- The kernel is the “traffic controller” between user programs and hardware.
+		- examples:
+			- Shows the running kernel version
+				uname -r
+
+	- User Space (Applications, Shell, File I/O commands, e.g. cp, cat, ls, vim, docker)
+		- System Calls
+			- Kernel (Device Drivers, Block Layer, Virtual File System (VFS))
+				- Filesystem (ext4, xfs, btrfs, etc.): Organizes files/directories over raw blocks
+					- Partition (/dev/sda1): Defined in partition table (MBR/GPT format)
+						- Disk Device (/dev/sda, /dev/nvme0n1): Physical hardware       
+							- Physical Media (HDD, SSD, NVMe, RAID)  
+
+		- A user program writes a file, the filesystem decides which blocks on a partition to store it, the kernel’s block device driver translates that into hardware commands, the disk stores those bytes on the physical media.
 
 - networks
 
@@ -271,7 +352,7 @@ System design study guide
 			- this model might group name columns so regardless which components of a name a record has, all the name fields will be retrieved together, which also partitions the data table for horizontal scaling
 		- search engine database (elasticsearch, splunk, solr): provides specialized feature of full text search over large amounts of unstructured text data, possibly from multiple sources and possibly also supporting fuzzy search where results may not be an exact match for the search string
 			- useful for searching documents like system logs
-		- time series database (influxdb, kdb+, prometheus): optimized for data entries that need to be ordered by time, useful for storing real time data streams from system monitors such as errors
+		- time series database (influxdb, kdb, prometheus): optimized for data entries that need to be ordered by time, useful for storing real time data streams from system monitors such as errors
 			- time series databases are write heavy and usually provide services for sorting streams as they come in to make sure theyre appended in the correct order, where these databases can be easily partitioned by time range
 		- as scale becomes more important, relational databases can be too expensive so parts of the system can be moved to non-relational alternatives if they dont need strong schemas and consistency guarantees
 
@@ -318,7 +399,7 @@ System design study guide
 		- throughput reflects system capacity and ability to handle multiple tasks at once, where latency reflects responsiveness and perceived speed of the system by the user
 		- protocol overhead (like handshakes), high network traffic, bandwidth limitations, hardware performance, software efficiency and latency can all impact throughput
 		- network optimization like optimal routing algorithms and efficient network protocols, load balancing, hardware upgrades, software optimization, protocol choice (TCP's congestion avoidance features), compression, improving latency, and caching can all improve throughput
-	- availability is the amount of time that a system can respond, as in the ratio of uptime/(uptime + downtime), which is an important metric bc downtime can harm users, where 99.999% is the gold standard of uptime
+	- availability is the amount of time that a system can respond, as in the ratio of uptime/(uptime  downtime), which is an important metric bc downtime can harm users, where 99.999% is the gold standard of uptime
 		- hardware failure, software bugs, complex architectures with more points of failure making synchronization and fault tolerance difficult, dependent service outages, request overload, deployment issues can all impact availability
 		- redundancy (failover systems, clustering, data backups/replication, geographic redundancy, automatic testing/deployment/rollbacks) is a solution to unavailability of a system
 
