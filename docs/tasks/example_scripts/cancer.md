@@ -854,6 +854,8 @@
 			        	- inhibit NF-κB
 			        	- inhibit JNK pathway
 			        	- https://onlinelibrary.wiley.com/doi/10.1155/2015/508409
+			        - improve cognitive dysfunction from encephalopathy
+			        	- Alpha-Lipoic Acid and Metformin
 			        - Insulin
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)

@@ -5,6 +5,10 @@
 		- Crashes: check for an out of memory error or race condition
 		- Timeout: check for a deadlock or infinite loop
 
+- to do:
+	- list logs
+	- finish I/O problems
+
 - tools by category
 
 	| **Category**                  | **Tools / Commands**                                                		    | **Purpose**                                            
@@ -264,7 +268,6 @@
 			- Processes “stuck”
 		- causes
 			- Infinite loops
-			- Busy waiting
 			- Thread starvation
 			- Inefficient algorithm
 			- Spinlock or busy-wait
@@ -291,26 +294,26 @@
 
 	- Disk Errors or Hardware Failure
 
-		- symptoms
-			- Disk or disk partitions fail to mount
-			- Errors in logs about I/O failure or device errors
-			- Unusual noise or slow disk performance (if using HDDs)
-		- causes
-			- Bad sectors on the disk or SSD wear
-			- Faulty cables or connections
-			- Filesystem corruption
-		- tools
-			Check disk health: Use smartctl (SMART data for HDD/SSD) (sudo smartctl -a /dev/sda)
-			Run filesystem checks: fsck /dev/sda1 for ext4 and xfs_repair /dev/sda1 for xfs
-		- solutions
-			- Replace the disk if physical failure is detected
-			- Ensure RAID redundancy if applicable, and replace failed disks immediately
-
-		- Failing Disk
-			- symptoms: 
-				sudo smartctl -a /dev/sda
-					- SMART overall-health self-assessment test result: FAILED
-			- solutions: Backup immediately, replace drive.
+		- Disk failure
+			- symptoms
+				- Disk or disk partitions fail to mount
+				- Errors in logs about I/O failure or device errors, dmesg shows: blk_update_request: I/O error, dev sda, kernel “I/O error” messages
+				- Unusual noise or slow disk performance (if using HDDs)
+				- sudo smartctl -a /dev/sda
+					SMART overall-health self-assessment test result: FAILED
+			- causes
+				- Bad sectors on the disk or SSD wear
+				- Faulty cables or connections
+				- Filesystem corruption
+				- Hardware degradation: faulty disk/controller
+			- tools
+				- dmesg
+				- Check disk health: Use smartctl (SMART data for HDD/SSD) (sudo smartctl -a /dev/sda)
+				- Run filesystem checks: fsck /dev/sda1 for ext4 and xfs_repair /dev/sda1 for xfs
+			- solutions
+				- Replace the disk if physical failure is detected, check SMART data
+				- Ensure RAID redundancy if applicable
+				- Backup, replace drive
 
 		- Disk Full
 			- symptom:
@@ -318,32 +321,32 @@
 					df -h
 						Filesystem      Size  Used Avail Use% Mounted on
 						/dev/sda1        50G   50G     0 100% /
-			- causes: Root filesystem full.
+			- causes: Root filesystem full
 			- tools: df, du
 			- solution: 
-				- Clean /tmp, rotate files, or extend volume.
+				- Clean /tmp, rotate files, or extend volume
 				- Clean logs:
 					sudo journalctl --vacuum-time=7d
 					sudo rm -rf /var/log/\*.gz
 				- Find large files:
 					sudo du -ahx / | sort -rh | head -20
-		
-		- Disk I/O Bottleneck
+
+		- Disk I/O Bottleneck/Disk Saturation
 			- symptom:
+				- High disk util%, high await
 				- iostat -xz 1 shows high %util and %iowait; e.g. %util=99%
 					iostat -xz 1
 						Device:  %util
 						sda       99.5
-			- causes: Disk is saturated — I/O bottleneck.
-			- tools: iostat, vmstat, dstat
+			- causes: 
+				- Disk is saturated — I/O bottleneck
+				- Too many read/write ops, logs, DB writes	
+			- tools: 
+				- iostat, vmstat, dstat
 			- solution: 
 				- optimize queries or add faster storage, or use async I/O
 				- Disk overloaded: Tune queries, optimize disk layout, use SSD, or balance load.
-		
-		- Disk I/O errors
-			- symptom: dmesg shows: blk_update_request: I/O error, dev sda
-			- tools: dmesg, smartctl
-			- solution: Failing disk. Replace hardware.
+				- Move data to SSDs or faster disks, use RAID 10, or shard storage
 
 		- Bad Disk Sector
 			- symptom:
@@ -352,22 +355,6 @@
 			- causes: Bad disk sector.
 			- solution: Run SMART test and replace disk if failing.
 				sudo smartctl -t short /dev/sda
-
-		- Faulty Disk/Controller	
-			- causes
-				- Hardware degradation	
-			- symptoms
-				- Kernel “I/O error” messages
-			- solutions
-				- Replace disks, check SMART data
-
-		- Disk Saturation	
-			- causes
-				- Too many read/write ops, logs, DB writes	
-			- symptoms
-				- High disk util%, high await
-			- solutions
-				- Move data to SSDs or faster disks, use RAID 10, or shard storage
 
 	- Thermal throttling or overheating: System performance varies with temperature.	
 		- symptom:
@@ -400,9 +387,10 @@
 		- solution: Bad cable, duplex mismatch, or faulty NIC.
 
 	- System won’t boot (GRUB error)
-		- symptoms: grub rescue> 
-			- error: file '/boot/grub/i386-pc/normal.mod' not found
-			- Cause: GRUB corrupted or missing after disk changes or updates.
+		- symptoms: 
+			grub rescue> 
+				error: file '/boot/grub/i386-pc/normal.mod' not found
+		- cause: GRUB corrupted or missing after disk changes or updates.
 		- solutions: 
 			- Boot from live CD/USB
 				sudo grub-install --boot-directory=/mnt/boot /dev/sda
@@ -451,10 +439,9 @@
 		- symptoms: sudo systemctl status nginx
 			- nginx.service - failed (code=exited, status=1/FAILURE)
 		- solutions: 
-			- View logs:
-				sudo journalctl -xeu nginx
-			- Port already in use → sudo netstat -tulnp | grep 80
-			- Bad config → nginx -t
+			- View logs: sudo journalctl -xeu nginx
+			- Port already in use: sudo netstat -tulnp | grep 80
+			- Bad config: nginx -t
 
 	- Cron Jobs Not Running
 		- symptoms:
@@ -488,7 +475,7 @@
 	- Missing Drivers
 		- symptoms: 
 			lspci -k | grep -A 3 -i network
-			- If “Kernel driver in use” is empty → missing driver.
+			- If “Kernel driver in use” is empty, then it's a missing driver.
 		- solutions: 
 			sudo apt install linux-firmware
 			sudo modprobe <driver_name>
@@ -511,8 +498,9 @@
 	- Repeated Errors in syslog
 		- symptoms: 
 			sudo journalctl -p 3 -xb
-				- kernel: EXT4-fs error (device sda1): ext4_find_entry:1453: inode ...
-		- solutions: Check disk (fsck), filesystem mount options, and hardware.
+				kernel: EXT4-fs error (device sda1): ext4_find_entry:1453: inode ...
+		- solutions: 
+			- Check disk (fsck), filesystem mount options, and hardware.
 
 - I/O Problems
 
@@ -562,13 +550,12 @@
 	- symptoms	
 		- Web pages or APIs taking too long to load
 		- Database CPU usage spiking
-		- Lock contention or deadlocks
+		- Lock contention or deadlocks, “Lock wait timeout” errors
 		- Timeouts in application layer
 		- Queries hang or time out
 		- Data inconsistency
-		- “Lock wait timeout” errors
 		- High disk read I/O or high disk utilization.
-	- causes	
+	- causes
 		- Missing indexes
 		- Poor query structure (SELECT *)
 		- Inefficient joins or subqueries
@@ -577,13 +564,13 @@
 		- Slow queries
 		- Unoptimized schema (no normalization or too much normalization)
 		- Overloaded or under-configured database resources (CPU, memory, disk).
-		- Corrupted database or corrupted indexes.
+		- Corrupted database or indexes
 	- tools
 		- EXPLAIN or EXPLAIN ANALYZE query plans in SQL
 		- Database slow query logs
 		- Performance monitoring tools (e.g., pg_stat_statements, pg_locks / InnoDB status, New Relic, Datadog)
 		- Index and schema inspection tools
-		- run checks for database corruptioni
+		- run checks for database corruption
 	- solutions	
 		- Add appropriate indexes, rebuild indexes if fragmented
 		- Optimize queries (avoid SELECT *, use WHERE conditions, use LIMIT, use indexed columns, avoid correlated subqueries)
@@ -603,32 +590,33 @@
 	  				Filter: (customer_id = 123)
 		- causes: Sequential scan means no index used.
 		- tools: EXPLAIN, EXPLAIN ANALYZE
-		- solution: Create index:
-			CREATE INDEX idx_col ON table(col);
+		- solution: 
+			- Create index:
+				CREATE INDEX idx_col ON table(col);
 	
 	- Database Connection Exhaustion
 		- symptom:
 			SHOW STATUS LIKE 'Threads_connected';
-			Threads_connected: 200
+				Threads_connected: 200
 			- “Too many connections” error; 
 		- causes: All available connections in use.
 		- tools:
 			- DB logs, DB console
 		- solution: 
 			- Increase pool size or close connections in app or use connection pooling middleware.
-			SET GLOBAL max_connections = 500;
+				SET GLOBAL max_connections = 500;
 	
 	- Corrupted Database Table
 		- symptom:
 			- CHECKDB or pg_verify_checksums or mysqlcheck reports errors
-			mysqlcheck mydb -c -u root -p
-				mydb.users
-				error    : Table is marked as crashed and should be repaired
+				mysqlcheck mydb -c -u root -p
+					mydb.users
+					error    : Table is marked as crashed and should be repaired
 		- tools: 
 			- DB internal check utilities
 		- solution: 
 			- Restore from backup or use page repair.
-			mysqlcheck mydb --repair -u root -p
+				mysqlcheck mydb --repair -u root -p
 
 	- Database Lock / Lock Contention
 
@@ -650,7 +638,7 @@
 			- Reduce transaction size
 			- Add indexes
 			- Use shorter locks (autocommit)
-			- Change isolation level (e.g., from SERIALIZABLE → READ COMMITTED)
+			- Change isolation level (e.g., from SERIALIZABLE to READ COMMITTED)
 			- Kill stale sessions
 
 		- Deadlock
@@ -677,28 +665,21 @@
 		- Rows mismatch (estimated/actual)			Planner misestimation				Run ANALYZE or adjust statistics target
 		- Recheck Cond								Partial index or bitmap recheck		Ensure full index coverage
 		- Filter applied post-index					Not selective enough				Create composite index
-		- Disk spill messages	(verbose plans) 	Not enough memory for sort/hash		Increase work_mem
+		- Disk spill messages (verbose plans) 		Not enough memory for sort/hash		Increase work_mem
 
 	- Database Index Problems
 
 		- Slow queries despite having indexes							Wrong or missing index 								Create index or use index hints (FORCE INDEX, USE INDEX) or update stats
-		- Sequential (table) scans on large tables						No usable index for WHERE/JOIN condition 
+		- Sequential (table) scans on large tables						No usable index for WHERE/JOIN condition  			Check if index exists on filter/join columns, if not create it
 		- Index not used in query plan (EXPLAIN)						Wrong index/filter order 							Recreate index with correct order or composite key
-		- Index not used from index mismatch							Data type mismatch or function on column			Use functional index or cast properly
+		- Index not used from index mismatch							Data type mismatch or function on column			Check if data types of the column/filter are equal, use functional index or cast properly
 		- High write latency or slow inserts							Too many indexes on a table 						Drop low-usage indexes
-		- High disk usage												Unused or redundant indexes
-		- Queries with “Using filesort” or “Using temporary” (MySQL)	Missing composite index for ORDER BY or GROUP BY
-		- Large/bloated or fragmented indexes							Frequent updates/deletes without vacuuming 			Rebuild or reindex
-		- “Index only scan not possible”								Index doesn’t include all needed columns
+		- High disk usage												Unused or redundant indexes							Drop low-usage/redundant indexes or merge redundant indexes
+		- Queries with “Using filesort” or “Using temporary” (MySQL)	Missing composite index for ORDER BY or GROUP BY    Create composite index
+		- Large/bloated or fragmented indexes							Frequent updates/deletes without vacuuming 			Rebuild or reindex, vacuum
+		- “Index only scan not possible”								Index doesn’t include all needed columns			Recreate index
 		- Index scan slower than expected 								Poor selectivity (index returns too many rows)		Add more selective column to composite index
 		- Indexes not covering query									Query needs columns not in index					Create a covering index (INCLUDE clause or multi-column index)
-
-		- tools/solutions
-			- check if index exists on filter/join Columns, if not create it
-			- check if data types of the column and filter are equal
-			- check index usage statistics and drop unused indexes
-			- check for index fragmentation/bloat and reindex 
-			- check for redundant/overlapping indexes and drop/merge 
 
 - Security Vulnerabilities
 
