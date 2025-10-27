@@ -745,7 +745,7 @@
 		- Check firewall rules (ufw, iptables, aws ec2 describe-security-groups)
 		- Network logs
 		- Check for high latency using traceroute or mtr
-		- Use netstat or ss to see open connections and troubleshoot blocked ports:
+		- Use netstat or ss to see open connections and troubleshoot blocked ports
 	- solutions
 		- Fix DNS, IP, routes, firewall, or security groups settings
 		- Restart networking services
@@ -776,8 +776,8 @@
 		- symptoms
 			ping -c 3 8.8.8.8
 			ping -c 3 google.com
-			- IP reachable but not domain → DNS issue.
-			- Nothing reachable → routing or interface down.
+			- IP reachable but not domain: DNS issue
+			- Nothing reachable: routing or interface down
 		- solutions: 
 			sudo systemctl restart NetworkManager
 			sudo dhclient eth0
@@ -785,8 +785,9 @@
 
 	- Port not listening
 		- symptom: netstat -tulnp or ss -lntp shows no process on port
+		- causes: Service not started or misconfigured
 		- tools: ss, netstat
-		- solution: Service not started or misconfigured. Start or check service binding config.
+		- solution: Start or check service binding config
 
 	- Asymmetric routing / firewall drop
 		- symptom: tcpdump sees SYN sent but no SYN-ACK returned
@@ -804,9 +805,8 @@
 			- Ping or SSH blocked
 			- iptables -L -v -n shows DROP policy or rule for target port
 				sudo iptables -L -v -n | grep 443
-				DROP       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:443
+					DROP       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:443
 		- causes: 
-			- Inbound HTTPS traffic (port 443) is being dropped by firewall rules.
 			- Port blocked by OS firewall (iptables or ufw rules blocking ports) or cloud security group/firewall (AWS, Azure, etc.)
 			- Wrong inbound/outbound rules
 			- NAT or routing misconfigured
@@ -845,7 +845,7 @@
 			- check/replace hardware/cables
 			- check router/switch config/logs
 			- Tune MTU (ip link set mtu 1400 dev eth0)
-			- Use iperf3, tcpdump, ethtool, and time-correlated metrics. Capture packets on both ends
+			- Use iperf3, tcpdump, ethtool, and time-correlated metrics to capture packets on both ends
 
 		- SYN Retransmissions
 			- symptom:
@@ -879,7 +879,7 @@
 		- causes
 			- Misconfigured DNS resolver or nameserver (/etc/resolv.conf)
 			- Wrong DNS server
-			- DNS cache poisoning: Wrong IP resolved, service unreachable intermittently
+			- DNS cache poisoning/stale records: wrong IP resolved, service unreachable intermittently, cached incorrect or outdated DNS entries
 			- DNS server outage	
 			- Incorrect DNS records (A, CNAME, MX, etc.)
 			- DNS propagation delay
@@ -890,7 +890,6 @@
 			- Online tools like DNSChecker.org
 			- Check domain registrar & DNS provider dashboards
 		- solutions
-			- Check /etc/resolv.conf entries
 			- Test with public DNS: 8.8.8.8 or 1.1.1.1
 			- Restart systemd-resolved
 			- Correct A/AAAA/CNAME records
@@ -900,8 +899,8 @@
 			- verify upstream DNS
 			- Check cat /etc/resolv.conf and update with:
 				nameserver 8.8.8.8
-			- DNS cache poisoning / stale records: Cached incorrect or outdated DNS entries; Use dig +trace, flush DNS caches, verify TTLs	
-				- Clear local DNS cache: sudo systemd-resolve --flush-caches or ipconfig /flushdns or sudo dscacheutil -flushcache
+			- DNS cache poisoning: Use dig +trace, flush DNS caches, verify TTLs	
+			- Clear local DNS cache: sudo systemd-resolve --flush-caches or ipconfig /flushdns or sudo dscacheutil -flushcache
 
 	- Network interface down
 		- symptoms	
@@ -957,7 +956,7 @@
 			- Use QoS or traffic shaping
 			- Upgrade link capacity
 
-	- MTU mismatch (Fragmentation Needed)/ packet fragmentation
+	- MTU mismatch (Fragmentation Needed)/packet fragmentation
 		- symptoms	
 			- Large packets dropped silently due to mismatched MTU or misconfigured PMTU discovery.
 			- Works for small requests, fails for large ones (e.g., HTTPS).		
@@ -973,7 +972,7 @@
 			- ping -M do -s <size> <host>, tracepath <host>	
 		- solutions
 			- Lower MTU (common for VPNs: 1400–1420) or correct tunnel configuration
-				- Typical fix: set MTU to 1400 on VPN interfaces.
+				- typical fix: set MTU to 1400 on VPN interfaces.
 					sudo ip link set dev eth0 mtu 1400
 			- Adjust router MTU or disable DF flag
 			- check tunnel/VPN MTU settings
@@ -993,44 +992,32 @@
 
 	- SSL/TLS/HTTPS problems
 		- symptoms
-			- HTTPS site fails to load/connection fails
+			- HTTPS site fails to load/connection fails or SMTP connection failures
 			- “SSL handshake failed” or “certificate not trusted” errors
 			- Insecure connection warnings
+			- openssl s_client -connect host:443 shows cert verify error or unsupported cipher
+			- cert expired
+				echo | openssl s_client -connect example.com:443 2>/dev/null | openssl x509 -noout -dates
+					notBefore=Oct  1 00:00:00 2024 GMT
+					notAfter=Oct  1 00:00:00 2025 GMT
 		- causes
 			- Incorrect chain
 			- Cipher mismatch	
 			- Expired/mismatched/missing/self-signed certificates
 			- Protocol mismatch (TLS1.0 vs TLS1.2)
 			- Wrong hostname (CN mismatch)
+			- SNI mismatch
 		- tools
 			- openssl s_client -connect host:443 -showcerts
 			- Browser DevTools network tab
 			- curl -v https://...
 			- SSL Labs test
 		- solutions
-			- Renew/reissue certificates (e.g., Let’s Encrypt)
+			- Renew/reissue certificates (e.g., Let’s Encrypt, reissue from CA)
 			- Include full chain including root/intermediate certs in chain, add the CA certificate into client trusted root store
 			- Enforce modern TLS versions (≥1.2)
 			- Match CN/SAN to domain
-
-		- SSL/TLS handshake or certificate chain issues: 
-			- symptoms
-				- HTTPS or SMTP connection failures
-				- openssl s_client -connect host:443 shows cert verify error or unsupported cipher
-			- causes
-				- Misconfiguration in intermediate certs, SNI mismatch, or cipher suite incompatibility.		
-			- tools: openssl, curl -v
-			- solutions
-				- Use openssl s_client, test with SSL Labs, renew certs, configure proper chains
-				- Wrong cert chain or cipher mismatch. Reinstall intermediate certs, renew cert, or update cipher list.
-
-		- SSL Certificate Expired
-			- symptom:
-				echo | openssl s_client -connect example.com:443 2>/dev/null | openssl x509 -noout -dates
-					notBefore=Oct  1 00:00:00 2024 GMT
-					notAfter=Oct  1 00:00:00 2025 GMT
-			- causes: If current date > notAfter, the cert is expired.
-			- solution: Renew certificate (certbot renew, reissue from CA).
+			- Update cipher list
 		
 	- Load Balancer / Proxy Issues
 		- symptoms
@@ -1038,12 +1025,13 @@
 			- Uneven traffic distribution
 			- High latency or 502/504 errors
 			- Backend servers idle or overloaded
+			- Authentication/session failures under load
 		- causes
 			- Incorrect health checks
-			- Sticky session misconfiguration
 			- Wrong/unhealthy backend targets, backend unreachable
 			- SSL termination mismatch
 			- Timeout mismatch: load balancer timeout shorter than backend response
+			- Sticky session misconfiguration: sessions pinned inconsistently to backend servers
 		- tools
 			- Check load balancer logs & metrics (AWS ELB, Nginx, HAProxy dashboards)
 			- Use curl -I per node or ab (Apache Benchmark) to test responses per backend
@@ -1056,12 +1044,7 @@
 			- Ensure all targets are registered and healthy
 			- Fix backend pool configuration
 			- Enable session persistence if required
-
-		- Load balancer sticky session errors: Sessions pinned inconsistently to backend servers.	
-			- symptoms
-				- Authentication/session failures under load.	
-			- solutions
-				- Enable consistent hashing or session replication
+			- Enable consistent hashing or session replication
 
 	- VPN or tunnel issues	
 		- symptoms
@@ -1069,7 +1052,7 @@
 		- causes
 			- MTU mismatch
 			- Misconfigured routing
-			- Key/cert expiry	
+			- Key/cert expired
 		- tools
 			- ip route, ping, journalctl -u openvpn	
 		- solutions
@@ -1269,99 +1252,6 @@
 		- tools: top, pstree, gdb
 		- solution: Threads created without join/exit; fix thread lifecycle management, join finished threads or use a thread pool.
 
-- Filesystem / Resource Limits
-
-	- symptoms
-		- “Too many open files” errors
-		- Disk full
-		- App can’t write logs
-	- causes
-		- Not closing file/socket handles, file descriptor leak
-		- Log rotation missing
-		- ulimit too low
-	- tools
-		- lsof, df -h, ulimit -n
-		- strace system calls
-		- OS metrics
-	- solutions
-		- Close files properly
-		- Raise ulimit
-		- Clear disk space
-		- Rotate logs
-
-	- File descriptor leaks / handle exhaustion: Process opens files/sockets without closing
-		- symptoms
-			- “Too many open files” errors, hangs on I/O
-		- solutions
-			- Use lsof, monitor /proc/<pid>/fd/, enforce limits via ulimit
-
-	- Too Many Open Files or Child Processes
-		- symptoms
-			- “Too many open files” (EMFILE) error
-			- Resource exhaustion
-			- Slow system or failing new connections
-			- Zombie processes
-			- lsof | wc -l > limit
-				lsof | wc -l
-					10240
-		- causes
-			- File descriptors not closed or file descriptor limit too low
-			- Infinite loop spawning processes
-			- Missing cleanup handlers
-			- OS ulimit too low
-		- tools
-			- lsof to list open files
-			- ps aux or htop to check process count
-			- ulimit -n to check limits
-			- strace -f to trace syscalls
-		- solutions
-			- Close files/sockets after use
-			- Kill zombie processes (pkill -9 or kill -9 <pid>)
-			- Raise file descriptor limits (ulimit -n 65535)
-			- Fix code to reuse resources
-
-	- Out of Memory (OOM Killer)
-		- symptoms:
-			- Out of memory: Kill process 2345 (java) score 912 or sacrifice child
-		- solutions: 
-			- Check memory:
-				free -h
-				vmstat 1
-			- Increase swap:
-				sudo fallocate -l 4G /swapfile
-				sudo chmod 600 /swapfile
-				sudo mkswap /swapfile
-				sudo swapon /swapfile
-			- Optimize app memory usage
-
-	- Swap overuse / memory pressure
-		- symptom: vmstat shows high swap in/out; free -m shows low available memory
-		- tools: vmstat, free, sar
-		- solution: Add RAM, tune swappiness (/proc/sys/vm/swappiness), or fix memory leaks.
-
-	- Zombie Process
-
-		- symptoms
-			- ps aux | grep 'Z' shows <defunct>
-			- Processes appear as <defunct> in ps output
-			- System resources slowly deplete
-			- Parent process unresponsive
-			- Resource leaks
-			- System slowdown
-		- causes
-			- Parent process not calling wait() after child exits
-			- Orphaned subprocesses from mismanaged subprocess code
-		- tools
-			- `ps aux | grep defunct`
-			- top or htop for zombie count
-			- strace parent process
-		- solutions
-			- Kill zombie processes (pkill -9 or kill -9 <pid>)
-			- Manage subprocess code
-			- Call wait() after child exits
-			- Restart parent process, if persistent:
-				kill -HUP <parent_pid>
-
 	- Software Update Problem
 
 		- symptoms
@@ -1488,6 +1378,99 @@
 			- Ensure destination buffer is large enough
 			- Use strncpy(), null pointer dereference or invalid access
 			- run under gdb, inspect backtrace.	
+
+- Filesystem / Resource Limits
+
+	- symptoms
+		- “Too many open files” errors
+		- Disk full
+		- App can’t write logs
+	- causes
+		- Not closing file/socket handles, file descriptor leak
+		- Log rotation missing
+		- ulimit too low
+	- tools
+		- lsof, df -h, ulimit -n
+		- strace system calls
+		- OS metrics
+	- solutions
+		- Close files properly
+		- Raise ulimit
+		- Clear disk space
+		- Rotate logs
+
+	- File descriptor leaks / handle exhaustion: Process opens files/sockets without closing
+		- symptoms
+			- “Too many open files” errors, hangs on I/O
+		- solutions
+			- Use lsof, monitor /proc/<pid>/fd/, enforce limits via ulimit
+
+	- Too Many Open Files or Child Processes
+		- symptoms
+			- “Too many open files” (EMFILE) error
+			- Resource exhaustion
+			- Slow system or failing new connections
+			- Zombie processes
+			- lsof | wc -l > limit
+				lsof | wc -l
+					10240
+		- causes
+			- File descriptors not closed or file descriptor limit too low
+			- Infinite loop spawning processes
+			- Missing cleanup handlers
+			- OS ulimit too low
+		- tools
+			- lsof to list open files
+			- ps aux or htop to check process count
+			- ulimit -n to check limits
+			- strace -f to trace syscalls
+		- solutions
+			- Close files/sockets after use
+			- Kill zombie processes (pkill -9 or kill -9 <pid>)
+			- Raise file descriptor limits (ulimit -n 65535)
+			- Fix code to reuse resources
+
+	- Out of Memory (OOM Killer)
+		- symptoms:
+			- Out of memory: Kill process 2345 (java) score 912 or sacrifice child
+		- solutions: 
+			- Check memory:
+				free -h
+				vmstat 1
+			- Increase swap:
+				sudo fallocate -l 4G /swapfile
+				sudo chmod 600 /swapfile
+				sudo mkswap /swapfile
+				sudo swapon /swapfile
+			- Optimize app memory usage
+
+	- Swap overuse / memory pressure
+		- symptom: vmstat shows high swap in/out; free -m shows low available memory
+		- tools: vmstat, free, sar
+		- solution: Add RAM, tune swappiness (/proc/sys/vm/swappiness), or fix memory leaks.
+
+	- Zombie Process
+
+		- symptoms
+			- ps aux | grep 'Z' shows <defunct>
+			- Processes appear as <defunct> in ps output
+			- System resources slowly deplete
+			- Parent process unresponsive
+			- Resource leaks
+			- System slowdown
+		- causes
+			- Parent process not calling wait() after child exits
+			- Orphaned subprocesses from mismanaged subprocess code
+		- tools
+			- `ps aux | grep defunct`
+			- top or htop for zombie count
+			- strace parent process
+		- solutions
+			- Kill zombie processes (pkill -9 or kill -9 <pid>)
+			- Manage subprocess code
+			- Call wait() after child exits
+			- Restart parent process, if persistent:
+				kill -HUP <parent_pid>
 
 - Memory Corruption
 
