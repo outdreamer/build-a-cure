@@ -169,6 +169,94 @@ System design study guide
 
 - networks
 
+	- Hardware & Link Layer Concepts
+		- NIC (Network Interface Card)				Physical (or virtual) hardware that connects a computer to a network. Each NIC has its own MAC address.			lspci
+		- MAC Address (Media Access Control)		A unique 48-bit identifier for a NIC. Used for communication within the same local network (Layer 2).			Example: 00:1A:2B:3C:4D:5E
+		- Duplex									How data flows on a connection: Half: data flows 1-way at a time, Full: simultaneous send/receive				Check with: ethtool eth0
+		- Bandwidth									Maximum data transfer rate of a connection (e.g., 1 Gbps).														Measure with iperf3
+		- MTU (Maximum Transmission Unit)			Largest packet size (in bytes) that can be transmitted without fragmentation. Default: 1500 bytes for Ethernet.	View: ip link show eth0, Change: ip link set eth0 mtu 1400
+		- ARP (Address Resolution Protocol)			Maps IP addresses to MAC addresses on a local network. Used when sending packets within a LAN.					arp -n or ip neigh show
+		- Link / Layer 2							The local segment that connects devices using MAC addresses.													E.g., Ethernet, Wi-Fi, Switches
+		
+	- Network Layer Concepts
+		- IP (Internet Protocol)					Handles addressing and routing of packets between networks. Each device gets an IP (IPv4 or IPv6).				ip addr show
+		- IPv4 Address								32-bit address like 192.168.1.10. Divided into network and host portions.										CIDR: 192.168.1.0/24
+		- Subnet									Logical division of an IP network; defines which IPs belong to the same local network.							192.168.1.0/24 → 256 addresses
+		- Subnet Mask								Determines the size of the subnet; defines which IPs are local													255.255.255.0 = /24 = 256 IPs.	Convert: /24 → 255.255.255.0
+		- Gateway									Router address used to send packets outside the local subnet.													Example: Default route 192.168.1.1
+		- Route / Routing Table						Decides where packets go next (local, gateway, or drop).														ip route show
+		- NAT (Network Address Translation)			Translates private IPs (like 192.168.x.x) to a single public IP for Internet access.							iptables -t nat -L -n -v
+		- Firewall									Filters network traffic based on rules. Can allow, block, or modify packets.									iptables, ufw, firewalld
+		- QoS (Quality of Service)					Prioritizes certain traffic types to ensure stable performance (e.g., VoIP > downloads).						Implemented via tc (traffic control)
+		- Packet									Basic unit of network data — contains headers (IP/TCP) and payload.												View with: tcpdump -i eth0 -n
+		
+	- Transport Layer Concepts
+		- Port										Virtual communication endpoint (0–65535). Identifies services (e.g., 80 = HTTP, 22 = SSH).						Check: ss -tulnp
+		- TCP (Transmission Control Protocol)		Reliable, connection-oriented protocol ensuring ordered delivery and retransmission. Used by HTTP, SSH, etc.	States: SYN, ACK, FIN, etc.
+		- UDP (User Datagram Protocol)				Fast, connectionless protocol — no delivery guarantees. Used by DNS, video streaming, VoIP.						DNS = UDP 53
+		- Socket									Combination of IP and Port used by processes to communicate.													Example: 192.168.1.10:80
+		- SYN / ACK / FIN							TCP flags used in connection setup and teardown: 																View with `tcpdump -i eth0 'tcp[tcpflags] & (tcp-syn
+														- SYN: synchronize (start handshake)
+														- ACK: acknowledge
+														- FIN: finish connection	
+														- TCP 3-Way Handshake:
+															- 1. Client to Server: SYN
+															- 2. Server to Client: SYN-ACK
+															- 3. Client to Server: ACK (Connection established)
+				
+	- Application Layer Concepts
+		- DNS: Domain Name System					Translates domain names to IP addresses.																		dig example.com, nslookup
+		- DHCP: Dynamic Host Configuration Protocol	Automatically assigns IPs, subnet masks, and gateways to clients.												View leases: cat /var/lib/dhcp/dhclient.leases
+		- VPN: Virtual Private Network				Encrypts traffic and routes it through a secure tunnel. 														Common protocols: OpenVPN, WireGuard, IPSec.	Check tunnel: `ip a
+		- Proxy Server								Intermediary that forwards requests and can cache, filter, or hide client identity.								export http_proxy=http://proxy:8080
+		- HTTP / HTTPS								Application protocols that run on TCP (ports 80/443).															Test with curl -v https://example.com
+		
+	- Diagnostic & Monitoring Concepts
+		- Traceroute								Shows the path packets take through routers.																	traceroute 8.8.8.8
+		- Ping										Tests reachability and latency between hosts.																	ping -c 4 example.com
+		- Netstat / ss								Shows open sockets and listening services.																		ss -tulnp
+		- Tcpdump / Wireshark						Captures and analyzes network packets.																			sudo tcpdump -i eth0
+		- Ifconfig / ip								Configures network interfaces.																					ip addr, ip route
+		- MTR										Combines ping and traceroute for continuous network analysis.													mtr 8.8.8.8
+		
+		- For a client accessing https://example.com:
+			- DNS resolves example.com to 93.184.216.34
+			- Browser opens socket to 93.184.216.34:443
+			- TCP handshake: SYN then SYN-ACK then ACK
+			- TLS (encryption) starts (for HTTPS)
+			- Packets travel through NIC, subnet, gateway, and possibly NAT
+			- The firewall and QoS may filter or prioritize packets
+			- Data arrives on the server’s port 443, which is handled by the kernel and passed to the web server process
+			- Responses are sent back, acknowledged by TCP
+			
+		- protocol communication  steps
+			Step	OSI Layer		Example Action
+			7		Application		Browser requests a web page (HTTP GET)
+			6		Presentation	Data encrypted with TLS
+			5		Session			TLS session established and maintained
+			4		Transport		TCP connection ensures reliable delivery
+			3		Network			IP routes packets to destination
+			2		Data Link		Ethernet frames sent on LAN
+			1		Physical		Bits transmitted over cable or Wi-Fi
+
+	- networking layers
+		
+		- Application Layer       	DNS, HTTP, HTTPS, SSH, SMTP
+		- Presentation Layer		TLS/SSL, JSON, XML, ASN.1, MIME, gzip
+		- Session Layer				RPC, SIP, SSH, SOCKS, PPTP, SMB
+		- Transport Layer         	TCP, UDP, ports, sockets
+		- Network Layer           	IP, Subnet, Gateway, NAT, Routing
+		- Link Layer (Data Link)  	ARP, MAC, Ethernet, MTU, QoS, Duplex
+		- Physical Layer          	NIC, cables, radio signals
+
+		- Each layer depends on the one below it — and all are coordinated by the kernel’s network stack:
+			- User Apps
+			- Sockets & Ports
+			- TCP / UDP (Transport)
+			- IP, Routing, NAT (Network)
+			- Ethernet, ARP, MAC (Link)
+			- NIC, Wires, Wi-Fi (Physical)
+		
 	- subnet mask: tells computer which part of the IP address is the network and which is the host part, to determine if an IP address is on the same network as the computer requesting the info; if the requesting computer and the requested computer have the same subnet mask, they can assume theyre on the same network
 		- subnetting divides a network into smaller subnets, each with its own IP address and subnet mask, which allows controlling traffic flow and conserving IP addresses and segmenting networks into different security zones
 
