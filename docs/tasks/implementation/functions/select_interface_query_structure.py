@@ -64,7 +64,7 @@
                 - if you need to implement it immediately, an interface like intent that is semantically adjacent to the structural & logical interfaces will be more useful 
                 - if you need to identify new types, standardizing to the type interface will be more useful 
             - example interface queries for problem statements: 
-                https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+                https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
               - problem: find a prediction function to predict variables causing an output, like predicting stock price or a diagnosis from symptoms/causative conditions 
                 - interface traversal 
                 - find information (describing variable types, redundancies, missing info, etc) 
@@ -185,10 +185,10 @@
             - As shown in the bottom half of Fig. 14 in the Interface Query Structure example, the organized intent structure of the logical process above can be visualized with embedded shapes. The intent outputs (starting from the most granular layers) which are then integrated by layer using core operations like combine/filter/apply.
 
             - example: here's an example of why different interfaces are more useful in different situations, given a standard problem like 'build a function automatically for a given function intent'. 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/system_analysis.md 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/interface_analysis.md 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/derivation_methods.md 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/system_analysis.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/interface_analysis.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/derivation_methods.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
               1. Intent interface 
               - If you want to build a function automatically, and you have code indexed by intent, then you don't need to write code, you need to write the intent & sub-intent sequence or other structure. I would call that 'standardizing to the intent interface' or 'applying intent structures' to the overall function intent, which is the problem definition ('build a function with this overall intent'). If you already have code indexed by intent, framing a function as a set of intents is trivial. If you don't already have code indexed by intent, the process you use to decompose an overall function intent into a structure of sub-intents is a tool that can be re-used to index existing functions by intent. 
               2. Information interface 

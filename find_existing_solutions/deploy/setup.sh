@@ -52,7 +52,7 @@ ssh_command=$("ssh -i ${keypath} ec2-user@${create_stack_output_ip}")
 source activate tensorflow_p36
 
 # check that git, python3, & pip3 are installed & callable
-git clone https://github.com/outdreamer/build-a-cure.git && cd build-a-cure
+git clone https://github.com/outdreamer/solver.git && cd solver
 
 # assuming you have your libraries listed in a file in your project root called requirements.txt
 pip3 install -r requirements.txt

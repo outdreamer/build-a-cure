@@ -27,7 +27,7 @@ def generate_script_for_task(params):
 			]
 		service_packages = ['elasticsearch', 'logstash', 'kibana'] if params['task'] == 'elk' else []
 		all_commands['init'] = [''.join(['yum install ', ' '.join(init_packages), ' -y'])]
-		all_commands['repo'] = [''.join(["cd ", home_dir, " && git clone https://github.com/outdreamer/build-a-cure.git && cd ./build-a-cure/tasks && pip3 install -r ", params['task'], "_requirements.txt"])]
+		all_commands['repo'] = [''.join(["cd ", home_dir, " && git clone https://github.com/outdreamer/solver.git && cd ./solver/tasks && pip3 install -r ", params['task'], "_requirements.txt"])]
 		if params['task'] == 'elk':
 			all_commands['repo'].extend([
 				"cp ./modified_original/new_async_init.py /usr/local/lib/python3.6/site-packages/elasticsearch/_async/client/__init__.py",
@@ -58,7 +58,7 @@ def generate_script_for_task(params):
 			all_commands['firewall'].append('firewall-cmd --reload')
 		# all_commands['final'] = [] # ['reboot']
 		if params['task'] == 'elk':
-			all_commands['test'] = [''.join(['sleep 60 && cd ', home_dir, '/build-a-cure/tasks && python3 task__test_import.py >> import.txt && curl -X GET http://localhost:9200/_cat/indices?v >> curl.txt'])]
+			all_commands['test'] = [''.join(['sleep 60 && cd ', home_dir, '/solver/tasks && python3 task__test_import.py >> import.txt && curl -X GET http://localhost:9200/_cat/indices?v >> curl.txt'])]
 		for command_type in ['init', 'repo', 'yum_repo', 'service', 'config', 'firewall', 'test']:
 			if command_type in all_commands:
 				if all_commands[command_type] is not None:

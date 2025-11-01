@@ -49,7 +49,7 @@
 
       - workflows are very abstract insight paths (a cross-system, insight-generating sequence) detailing specific interface traversals that can generate solutions automatically    
 
-      - examples of interface queries that function as problem-solving automation workflows: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+      - examples of interface queries that function as problem-solving automation workflows: https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
         The process 400 in application 16887411 runs interface queries to match a problem with its intended solution information (like a strategy) in the intended solution format (strategy formatted as a set of steps in a problem network or vectors reducing a problem shape) 
           - interface queries to solve a problem can be as simple as a query for specific solutions to re-use solutions in the database, or as complex as applying a format to the problem to make calculating the solution trivial) 
 

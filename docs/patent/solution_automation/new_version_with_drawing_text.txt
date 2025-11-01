@@ -61,7 +61,7 @@ BRIEF DESCRIPTION OF THE DRAWINGS
 [0013] Fig. 6 Finding matching interface & problem components is a diagram of an example of determining possible match between the problem system intersection object and the system conflict object.
 [0014] Fig. 7 Applying matching interface components to problem system is a diagram of an example of converting & applying matching interface objects back to the problem system.
 [0015] Fig. 8 Applying solution metric structures to solution structures is a diagram of an example implementation of filtering the solution space with solution metrics.
-[0016] Fig. 9 Subset of Conflict Object is a diagram of example structures forming the definition routes of an example system object on the structural interface. An example of a definition route is documented here: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/definition_routes.json
+[0016] Fig. 9 Subset of Conflict Object is a diagram of example structures forming the definition routes of an example system object on the structural interface. An example of a definition route is documented here: https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/definition_routes.json
 [0017] Fig. 10 General Workflow is an overview of an example process 100 for implementing problem-solving automation workflows, from initial problem formatting to solution matching to solution application & analysis.
 [0018] Fig. 11 is a diagram of an example computing system 300
 *eonew
@@ -71,7 +71,7 @@ DETAILED DESCRIPTION
 	
 	- function: a set of inputs, a sequential list of rules or rule lists (logic tree) applied to the input set, an output set created by changes to the input set executed by the sequential rule list, optionally including side effects from execution. A function may be formatted in a different way, such as a list of attributes, filters, or a network. The function definition includes:
 		- example functions are documented here: 	
-			https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/functions.json
+			https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/functions.json
 		- attributes:
 			- alignment: enforced/optional, core, required, emergent/output (built from core functions, with or without associated intent)
 			- interaction: cooperative/conflicting
@@ -208,7 +208,7 @@ DETAILED DESCRIPTION
 	- does any combination of the above for the origin problem & related problems, potentially neutralizing the problem space itself or converting it to another problem space.
 [0024] This system enables the identification of solution spaces, solution sets achieving different solution metrics within the solution space, and may also identify optimal solutions for a particular problem, problem type, or problem network in a particular problem space. This enables the automation of finding solutions that optimize specific solution metrics defined in a problem statement in a discoverable system (where relevant system objects can be described, core system functions can be derived, solutions can be tested, & success can be measured with some metric & threshold or target value). This enables arriving at insights sooner, building products optimally sooner, inventing products sooner, and predicting patterns sooner, with less data & computational capacity.
 [0025] This system relies on the dependencies:
-	- a database including tables to store found associations & objects in queries, as well as tables storing data sources & solution sources, as well as standard objects & their metadata (such as definition routes & conceptual queries) following the schema specified in my repository: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/objects/schema.md 
+	- a database including tables to store found associations & objects in queries, as well as tables storing data sources & solution sources, as well as standard objects & their metadata (such as definition routes & conceptual queries) following the schema specified in my repository: https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/objects/schema.md 
 	- an example of an object definition includes attributes like:
 		- core spaces: default sets or other structures where this object can develop - core structures (points, filters, limits, boundaries)
 		- core objects

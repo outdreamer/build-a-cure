@@ -67,12 +67,12 @@
 		- https://twitter.com/alienbot123/status/1043549108261281793
 	- math automation (finding/deriving/generating new solution methods to solve math problems)
 		- Lattice multiplication method automation
-			- https://github.com/outdreamer/build-a-cure/tree/master/docs/specific_problem_analysis/math/multiplication.md
+			- https://github.com/outdreamer/solver/tree/master/docs/specific_problem_analysis/math/multiplication.md
 		- Integration method automation
-			- https://github.com/outdreamer/build-a-cure/tree/master/docs/objects/problem_space.svg
+			- https://github.com/outdreamer/solver/tree/master/docs/objects/problem_space.svg
 		- Eigenvector/eigenvalue relationship derivation automation
 			- https://twitter.com/alienbot123/status/1154930391012167680
-			- https://github.com/outdreamer/build-a-cure/tree/master/docs/specific_problem_analysis/math/automate_math_proof_example.md
+			- https://github.com/outdreamer/solver/tree/master/docs/specific_problem_analysis/math/automate_math_proof_example.md
 		- Set generation automation (or solving a related problem, like deriving conversion functions between objects in a set to identify set operations)
 			- using a similar method as this example of attribute/function combination, generate all possible sets:
 			  - https://twitter.com/alienbot123/status/1245950414278627328
@@ -110,7 +110,7 @@
 		- https://twitter.com/alienbot123/status/215463952308637696
 		- https://twitter.com/alienbot123/status/743224678320316420
 		
-	- other useful insights identified/explained are in the primary repo (build-a-cure), my finder repo, or my online emails/messages/posts/blogs, which I have yet to organize
+	- other useful insights identified/explained are in the primary repo (solver), my finder repo, or my online emails/messages/posts/blogs, which I have yet to organize
 	
 	- I identified:
 		- that some functions were inherent to all processes & were interchangeable (find, build, apply, mean, derive)

@@ -60,7 +60,7 @@
 	- project
 	- condemn
 
-- advanced functions: https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/logic.svg
+- advanced functions: https://github.com/outdreamer/solver/blob/master/docs/objects/logic.svg
 	- avoid blame
 	- minimize work
 	- simulate

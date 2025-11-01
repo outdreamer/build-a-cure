@@ -17,7 +17,7 @@
                     - tables to store 
                         - found associations & objects in queries
                         - data sources & solution sources
-                        - standard objects & their metadata (such as definition routes & conceptual queries) following the schema specified in my repository: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/objects/schema.md  
+                        - standard objects & their metadata (such as definition routes & conceptual queries) following the schema specified in my repository: https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/objects/schema.md  
             - optional: 
                 - the problem space context, without which the program will make API calls to fetch data & definitions (including data like alternate definition sources, object behavior rules, latest version of an open-source solution 
         

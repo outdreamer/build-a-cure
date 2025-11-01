@@ -506,7 +506,7 @@
 
 ## Example of mapping concept to structure
 	- diagram:
-		- https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/concept.svg
+		- https://github.com/outdreamer/solver/blob/master/docs/objects/concept.svg
 	- example: 
 		- create a program that checks if a system is robust automatically, regardless of which system
 		- what would a concept like 'robust' mean for a system?

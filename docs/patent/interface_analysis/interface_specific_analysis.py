@@ -10,7 +10,7 @@ BACKGROUND OF THE INVENTION
 
 BRIEF SUMMARY OF THE INVENTION  
 [0004] One or more embodiments of the present disclosure may specify a method applied by the logic of process 400 of the application 16887411 submitted on 05/29/20: 
-[0005] Note: a more readable version of this document with indentation is here: https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/interface_specific_analysis.py 
+[0005] Note: a more readable version of this document with indentation is here: https://github.com/outdreamer/solver/blob/master/docs/tasks/interface_specific_analysis.py 
 [0006] General interface analysis process includes general logic (to standardize information to a format to find relevant components to the information) like: 
     1. convert input information to an interface based on interface object definition (remove information unrelated to dependencies for the causal interface) 
     2. apply an interface to input information (find core causal interface components (like structures, such as directions of dependency) in the input information necessary to do other causal interface operations) 
@@ -273,7 +273,7 @@ DETAILED DESCRIPTION OF THE INVENTION 
                 - if you need to implement it immediately, an interface like intent that is semantically adjacent to the structural & logical interfaces will be more useful 
                 - if you need to identify new types, standardizing to the type interface will be more useful 
             - example interface queries for problem statements: 
-                https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+                https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
               - problem: find a prediction function to predict variables causing an output, like predicting stock price or a diagnosis from symptoms/causative conditions 
                 - interface traversal 
                 - find information (describing variable types, redundancies, missing info, etc) 
@@ -394,10 +394,10 @@ DETAILED DESCRIPTION OF THE INVENTION 
             - As shown in the bottom half of Fig. 14 in the Interface Query Structure example, the organized intent structure of the logical process above can be visualized with embedded shapes. The intent outputs (starting from the most granular layers) which are then integrated by layer using core operations like combine/filter/apply.
             
             - example: here's an example of why different interfaces are more useful in different situations, given a standard problem like 'build a function automatically for a given function intent'. 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/system_analysis.md 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/interface_analysis.md 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/derivation_methods.md 
-              https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/system_analysis.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/interface_analysis.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/core_analysis/derivation_methods.md 
+              https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
               1. Intent interface 
               - If you want to build a function automatically, and you have code indexed by intent, then you don't need to write code, you need to write the intent & sub-intent sequence or other structure. I would call that 'standardizing to the intent interface' or 'applying intent structures' to the overall function intent, which is the problem definition ('build a function with this overall intent'). If you already have code indexed by intent, framing a function as a set of intents is trivial. If you don't already have code indexed by intent, the process you use to decompose an overall function intent into a structure of sub-intents is a tool that can be re-used to index existing functions by intent. 
               2. Information interface 
@@ -484,12 +484,12 @@ DETAILED DESCRIPTION OF THE INVENTION 
           - applying related objects of the interface: 
             - example: applying interface info objects like related questions/insights 
         - the function to traverse an interface is referenced here: 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/math_semantic_map.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/function_to_do.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/to_do.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/ideas.md 
-          https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/README.md 
+          https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/math_semantic_map.md 
+          https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+          https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/function_to_do.md 
+          https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/to_do.md 
+          https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/tasks/ideas.md 
+          https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/README.md 
       - function to find distortions to apply that would generate useful information (example: 'apply core/interaction layer/generative/causative/primary functions to input information') 
       - function to identify & find related objects of an interface 
       - function to apply a distortion function from an interface to input information 
@@ -558,7 +558,7 @@ DETAILED DESCRIPTION OF THE INVENTION 
             causal type cause (what causes causal types), type cause type (what types of type causes are there) 
   - examples 
     - examples of interface queries that function as problem-solving automation workflows 
-        https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
+        https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/specific_methods/problem_solving_matching.md 
       - The following are general examples of a workflow to find a solution to a problem automatically, as described in application 16887411.  
       The process 400 in application 16887411 runs interface queries to match a problem with its intended solution information (like a strategy) in the intended solution format (strategy formatted as a set of steps in a problem network or vectors reducing a problem shape) 
         - interface queries to solve a problem can be as simple as a query for specific solutions to re-use solutions in the database, or as complex as applying a format to the problem to make calculating the solution trivial) 

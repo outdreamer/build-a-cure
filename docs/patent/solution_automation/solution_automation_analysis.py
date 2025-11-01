@@ -192,7 +192,7 @@ BRIEF DESCRIPTION OF THE DRAWINGS
 
 [0015] Fig. 1H Applying solution metric structures to solution structures is a diagram of an example implementation of step 408 of the process of Fig. 4 (applying solution metric structures to solution structures). 
 
-[0016] Fig. 1I Example Object Definition Structures is a diagram of example structures forming the definition routes of an example system object on the structural interface. An example of a definition route is documented here: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/definition_routes.json 
+[0016] Fig. 1I Example Object Definition Structures is a diagram of example structures forming the definition routes of an example system object on the structural interface. An example of a definition route is documented here: https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/find_existing_solutions/system_analysis/maps/definition_routes.json 
 
 [0017] Fig. 1J is a diagram of an example usage of the system. 
 
@@ -432,7 +432,7 @@ DETAILED DESCRIPTION OF THE INVENTION
 
 [0027] This system relies on the dependencies: 
 
-    - a database including tables to store found associations & objects in queries, as well as tables storing data sources & solution sources, as well as standard objects & their metadata (such as definition routes & conceptual queries) following the schema specified in my repository: https://github.com/outdreamer/build-a-cure/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/objects/schema.md  
+    - a database including tables to store found associations & objects in queries, as well as tables storing data sources & solution sources, as well as standard objects & their metadata (such as definition routes & conceptual queries) following the schema specified in my repository: https://github.com/outdreamer/solver/blob/52c3461fdd3ff38284b63f8c2e71542f415d88d9/docs/objects/schema.md  
 
     - an example of an object definition includes attributes like: 
 

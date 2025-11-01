@@ -24,8 +24,8 @@
 		- the fact that we can imagine what a concept is means it can have structure, & interfaces act like standardizing filters:
 		  while they are abstract terms, they have intrinsic physical attributes & map to structures even when they are abstract enough to have few physical attributes
 		- the docs for some implementation strategies are here:
-			https://github.com/outdreamer/build-a-cure/blob/master/docs/core_analysis/derivation_methods.md
-			https://github.com/outdreamer/build-a-cure/blob/master/docs/workflow/problem_solving_matching.md
+			https://github.com/outdreamer/solver/blob/master/docs/core_analysis/derivation_methods.md
+			https://github.com/outdreamer/solver/blob/master/docs/workflow/problem_solving_matching.md
 		- most of my implementation strategies vary on:
 			- the starting point of the analysis (which interface the query starts from)
 			- the structures relevant (which structures or type of graphing method to use)
@@ -40,24 +40,24 @@
 	4. can this really be used to automate math insights? that requires complex thought that cant be automated
 		- whoever told you that is full of
 			Lattice multiplication method automation
-				- https://github.com/outdreamer/build-a-cure/tree/master/docs/specific_problem_analysis/multiplication.md
+				- https://github.com/outdreamer/solver/tree/master/docs/specific_problem_analysis/multiplication.md
 			Integration method automation
-				- https://github.com/outdreamer/build-a-cure/tree/master/docs/objects/problem_space.svg
+				- https://github.com/outdreamer/solver/tree/master/docs/objects/problem_space.svg
 			Eigenvector/eigenvalue relationship derivation automation
 				- https://twitter.com/alienbot123/status/1154930391012167680
-				- https://github.com/outdreamer/build-a-cure/tree/master/docs/specific_problem_analysis/automate_math_proof_example.md
+				- https://github.com/outdreamer/solver/tree/master/docs/specific_problem_analysis/automate_math_proof_example.md
 			Set generation automation
 				- using a similar method as this example of attribute/function combination, generate all possible sets:
 				  https://twitter.com/alienbot123/status/1245950414278627328
-				  <img src="https://github.com/outdreamer/build-a-cure/tree/master/docs/specific_problem_analysis/predict_pathogen_species.png" />
+				  <img src="https://github.com/outdreamer/solver/tree/master/docs/specific_problem_analysis/predict_pathogen_species.png" />
 			- more evidence of damnation - come get your poison:
 				- Problem solving automation workflow identifying structure implementing the concept of randomness, which can be used to generate functions with conceptual properties like high ratio of 'calculatability of answer' to 'verification of answer' (which can also be used to identify structure as an interface that can capture non-structured information like concepts)
-					https://github.com/outdreamer/build-a-cure/tree/master/docs/workflow/problem_solving_matching.md
+					https://github.com/outdreamer/solver/tree/master/docs/workflow/problem_solving_matching.md
 				- Linking relevant concepts to randomness such as average and balance/equality using definition routes as a method of identifying a probability distribution with randomness built-in (distribution with equal probability distributed across outcomes, or alternatively a distribution where each outcome has the same averaged probability value)
 				- Generating the symmetry concept as a combination of objects/attributes/functions like 'reversible changes without losing information', using core component combination analysis
-					https://github.com/outdreamer/build-a-cure/tree/master/find_existing_solutions/system_analysis/core_analysis.py
+					https://github.com/outdreamer/solver/tree/master/find_existing_solutions/system_analysis/core_analysis.py
 				- Identifying bases & other structures as an origin of a prediction function, rather than data sets alone, as alternate routes to a prediction function
-					https://github.com/outdreamer/build-a-cure/tree/master/docs/tasks/problem_workflow_example.md
+					https://github.com/outdreamer/solver/tree/master/docs/tasks/problem_workflow_example.md
 				- generate a function with certain attributes using net intent of structural component operations
 					- to generate a function with ambiguity in input/output relationships (as in multiple inputs produce the same output), introduce an exponent in the dependent variable (like how x^2 + y^2 removes the concept of 'uniqueness' from the input/output relationship, given how exponents use repetition of the same base (x as a base, multiplied by itself), and using how combining different types of repetition can remove 'uniqueness' from the input/output relationship, and using how different pairs of inputs can generate the same outputs with a squaring operation (making squaring the unit operation to fulfills intents like "generate the 'ambiguity' attribute" or "remove the 'uniqueness' attribute")
 				- kernel trick: 

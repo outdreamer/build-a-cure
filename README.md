@@ -25,16 +25,16 @@ A: This tool encodes how I think, which tends to be about cross-interface struct
 ## Relevant Links
 
 Here's a data science study guide for learning purposes:
-https://github.com/outdreamer/build-a-cure/blob/master/docs/ml/ml_table.csv
+https://github.com/outdreamer/solver/blob/master/docs/ml/ml_table.csv
 
 Here's a list of substances to prevent various health conditions that I like to work on whenever I read science news.
-https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/example_scripts/cancer.md?plain=1#L192
+https://github.com/outdreamer/solver/blob/master/docs/tasks/example_scripts/cancer.md?plain=1#L192
 
 Here's a set of diagrams that should help explain my inventions more clearly:
-https://github.com/outdreamer/build-a-cure/tree/master/docs/objects
+https://github.com/outdreamer/solver/tree/master/docs/objects
 
 Here's my latest work on my inventions:
-https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
+https://github.com/outdreamer/solver/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
 
 <<< secret mathematician note that only mathematicians can read >>>
 
@@ -47,13 +47,13 @@ Mathematicians should be working on this:
 I'll work on:
 - identifying new "understanding-generating rules/graphs" like always, if you want to help me, you have to read the docs here first (read at least every 100th entry in that document to understand what it is and why its important): 
 
-https://github.com/outdreamer/build-a-cure/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
+https://github.com/outdreamer/solver/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
 
 Also look at at least 10 - 20 of the most recent of the graphs in the 'objects' folder, like these:
 
-https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/problem_solving_graph.drawio.svg
+https://github.com/outdreamer/solver/blob/master/docs/objects/problem_solving_graph.drawio.svg
 
-https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/relevant_variation_sources.drawio.svg
+https://github.com/outdreamer/solver/blob/master/docs/objects/relevant_variation_sources.drawio.svg
 
 <<< end of secret mathematician note that only mathematicians can read >>>
 
@@ -77,7 +77,7 @@ https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/relevant_var
 
 1. Interface
 	- a standard for comparison (like the causal interface, conceptual interface, pattern interface, structural interface, etc) that is useful for solving various problem types
-    - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/interface.svg
+    - https://github.com/outdreamer/solver/blob/master/docs/objects/interface.svg
 2. Interface query
 	- a way to apply interface standards to convert the input info format (like a problem statement) to the output info format (like a solution space, or solution set)
 3. Insight path 
@@ -109,36 +109,36 @@ https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/relevant_var
 ## Useful Diagrams
 
   - system diagram  
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/system.svg
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/variance.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/system.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/variance.svg
   - function diagram
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/function.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/function.svg
   - problem diagram
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/problem_space.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/problem_space.svg
   - insight path
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/insight.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/insight.svg
   - info problem type
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/problem_space.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/problem_space.svg
   - intent of alternate paths
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/cause.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/cause.svg
   - intent organization
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/intent.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/intent.svg
   - causal structures
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/cause.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/cause.svg
   - variance gaps
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/variance.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/variance.svg
   - perspective
-    https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/perspective.svg
+    https://github.com/outdreamer/solver/blob/master/docs/objects/perspective.svg
   - core functions
     - layer diagrams involve applying layers of chained transforms to core functions to generate new object combinations through paths on these diagrams
     - these diagrams can be applied to objects/attributes/systems, which can be framed as a function
-      - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/solution.svg
-      - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/insight.svg
+      - https://github.com/outdreamer/solver/blob/master/docs/objects/solution.svg
+      - https://github.com/outdreamer/solver/blob/master/docs/objects/insight.svg
   - graphing solution for a problem space
-    - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/function_map.svg
-    - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/map.svg
-    - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/prediction.svg
-    - https://github.com/outdreamer/build-a-cure/blob/master/docs/objects/problem_space.svg
+    - https://github.com/outdreamer/solver/blob/master/docs/objects/function_map.svg
+    - https://github.com/outdreamer/solver/blob/master/docs/objects/map.svg
+    - https://github.com/outdreamer/solver/blob/master/docs/objects/prediction.svg
+    - https://github.com/outdreamer/solver/blob/master/docs/objects/problem_space.svg
 
 ## Components
 

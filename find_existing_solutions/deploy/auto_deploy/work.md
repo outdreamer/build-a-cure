@@ -7,7 +7,7 @@
 
 	- function to pull data from fireeye api & import to elk
 
-	https://github.com/outdreamer/build-a-cure/tree/master/tasks
+	https://github.com/outdreamer/solver/tree/master/tasks
 		- python3 deploy_tf.py --secret "" --access "" --task "destroy_before_run"
 		- python3 deploy_tf.py --secret "" --access "" --task "elk"
 
