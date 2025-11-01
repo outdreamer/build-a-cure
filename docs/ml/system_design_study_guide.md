@@ -169,6 +169,14 @@ System design study guide
 
 - networks
 
+	- Diagnostic & Monitoring Concepts
+		- Traceroute								Shows the path packets take through routers.																	traceroute 8.8.8.8
+		- Ping										Tests reachability and latency between hosts.																	ping -c 4 example.com
+		- Netstat / ss								Shows open sockets and listening services.																		ss -tulnp
+		- Tcpdump / Wireshark						Captures and analyzes network packets.																			sudo tcpdump -i eth0
+		- Ifconfig / ip								Configures network interfaces.																					ip addr, ip route
+		- MTR										Combines ping and traceroute for continuous network analysis.													mtr 8.8.8.8
+		
 	- Hardware & Link Layer Concepts
 		- NIC (Network Interface Card)				Physical (or virtual) hardware that connects a computer to a network. Each NIC has its own MAC address.			lspci
 		- MAC Address (Media Access Control)		A unique 48-bit identifier for a NIC. Used for communication within the same local network (Layer 2).			Example: 00:1A:2B:3C:4D:5E
@@ -203,59 +211,67 @@ System design study guide
 															- 1. Client to Server: SYN
 															- 2. Server to Client: SYN-ACK
 															- 3. Client to Server: ACK (Connection established)
-				
+
+	- Session Layer Concepts
+		- manages communication sessions — meaning how two systems establish, maintain, synchronize, and close long-running connections.
+		- Session establishment, maintenance, and termination: handles when a session starts and ends (HTTP cookies, web sessions, or database connection pooling)
+		- Dialog control: determines whether communication is half-duplex (one-way at a time) or full-duplex (two-way simultaneously) (RPC (Remote Procedure Calls), WebSockets, SSH sessions)
+		- Synchronization points / checkpoints: allows recovery if a session fails — like saving state in a long data transfer (SMB file transfers, streaming protocols (RTSP))
+		- Session recovery / re-establishment: restarting communication without redoing the entire process.
+		- State management: applications using OAuth sessions, VPN tunnels, etc
+		- session layer protocols
+			- RPC (Remote Procedure Call)                 Manages client–server calls and returns
+			- NetBIOS                                     Handles session setup between Windows hosts
+			- PPTP (Point-to-Point Tunneling Protocol)    Manages VPN session control
+			- SQL Session Layer                           Manages persistent connections between clients and databases
+			- SOCKS                                       Session-based proxy protocol for network communication
+			- SIP (Session Initiation Protocol)           Sets up and tears down voice/video sessions (VoIP)
+		- The session layer (TLS handshake) establishes encryption keys and session state.
+			- When you open an SSH connection, the transport layer (TCP) opens a reliable channel.
+			- The session layer logic (within SSH) negotiates authentication, encryption, and keeps the session state alive.
+			- If the network drops, SSH may resume from its last state
+
+	- Presentation Layer Concepts
+		- The presentation layer encrypts and decrypts HTTP messages, and deals with how data is represented, encoded, and transformed so that the receiver can understand it — even if the sender uses a different data format.
+		- Data encoding										JSON, XML, YAML, Protobuf, ASN.1
+		- Compression										gzip, Brotli, zlib
+		- Encryption										TLS/SSL, SSH, AES, RSA
+		- Serialization										Python’s pickle, Java serialization, Google Protocol Buffers
+		- Character encoding								UTF-8, UTF-16, ASCII
+		- protocols
+			- TLS/SSL										Encrypts and authenticates data between hosts
+			- MIME (Multipurpose Internet Mail Extensions)	Defines file type and encoding for email/web
+			- ASN.1 (Abstract Syntax Notation One)			Defines structured data representation (used in SNMP, X.509)
+			- XDR (External Data Representation)			Encodes data in RPC calls
+			- JSON / XML / YAML								Human-readable serialization formats
+			- Protobuf / Avro / Thrift						Efficient binary serialization
+
 	- Application Layer Concepts
+		- The application layer (HTTP) reads or writes the actual web content (HTML, JSON, etc.).
 		- DNS: Domain Name System					Translates domain names to IP addresses.																		dig example.com, nslookup
 		- DHCP: Dynamic Host Configuration Protocol	Automatically assigns IPs, subnet masks, and gateways to clients.												View leases: cat /var/lib/dhcp/dhclient.leases
 		- VPN: Virtual Private Network				Encrypts traffic and routes it through a secure tunnel. 														Common protocols: OpenVPN, WireGuard, IPSec.	Check tunnel: `ip a
 		- Proxy Server								Intermediary that forwards requests and can cache, filter, or hide client identity.								export http_proxy=http://proxy:8080
 		- HTTP / HTTPS								Application protocols that run on TCP (ports 80/443).															Test with curl -v https://example.com
 		
-	- Diagnostic & Monitoring Concepts
-		- Traceroute								Shows the path packets take through routers.																	traceroute 8.8.8.8
-		- Ping										Tests reachability and latency between hosts.																	ping -c 4 example.com
-		- Netstat / ss								Shows open sockets and listening services.																		ss -tulnp
-		- Tcpdump / Wireshark						Captures and analyzes network packets.																			sudo tcpdump -i eth0
-		- Ifconfig / ip								Configures network interfaces.																					ip addr, ip route
-		- MTR										Combines ping and traceroute for continuous network analysis.													mtr 8.8.8.8
-		
-		- For a client accessing https://example.com:
-			- DNS resolves example.com to 93.184.216.34
-			- Browser opens socket to 93.184.216.34:443
-			- TCP handshake: SYN then SYN-ACK then ACK
-			- TLS (encryption) starts (for HTTPS)
-			- Packets travel through NIC, subnet, gateway, and possibly NAT
-			- The firewall and QoS may filter or prioritize packets
-			- Data arrives on the server’s port 443, which is handled by the kernel and passed to the web server process
-			- Responses are sent back, acknowledged by TCP
-			
-		- protocol communication  steps
-			Step	OSI Layer		Example Action
-			7		Application		Browser requests a web page (HTTP GET)
-			6		Presentation	Data encrypted with TLS
-			5		Session			TLS session established and maintained
-			4		Transport		TCP connection ensures reliable delivery
-			3		Network			IP routes packets to destination
-			2		Data Link		Ethernet frames sent on LAN
-			1		Physical		Bits transmitted over cable or Wi-Fi
-
-	- networking layers
-		
-		- Application Layer       	DNS, HTTP, HTTPS, SSH, SMTP
-		- Presentation Layer		TLS/SSL, JSON, XML, ASN.1, MIME, gzip
-		- Session Layer				RPC, SIP, SSH, SOCKS, PPTP, SMB
-		- Transport Layer         	TCP, UDP, ports, sockets
-		- Network Layer           	IP, Subnet, Gateway, NAT, Routing
-		- Link Layer (Data Link)  	ARP, MAC, Ethernet, MTU, QoS, Duplex
-		- Physical Layer          	NIC, cables, radio signals
-
-		- Each layer depends on the one below it — and all are coordinated by the kernel’s network stack:
-			- User Apps
-			- Sockets & Ports
-			- TCP / UDP (Transport)
-			- IP, Routing, NAT (Network)
-			- Ethernet, ARP, MAC (Link)
-			- NIC, Wires, Wi-Fi (Physical)
+	- For a client accessing https://example.com:
+		- DNS resolves example.com to 93.184.216.34
+		- Browser opens socket to 93.184.216.34:443
+		- TCP handshake: SYN then SYN-ACK then ACK
+		- TLS (encryption) starts (for HTTPS)
+		- Packets travel through NIC, subnet, gateway, and possibly NAT
+		- The firewall and QoS may filter or prioritize packets
+		- Data arrives on the server’s port 443, which is handled by the kernel and passed to the web server process
+		- Responses are sent back, acknowledged by TCP
+					
+	- OSI protocol communication steps
+			7		Application		Browser requests a web page (DNS, HTTP, HTTPS, SSH, SMTP)
+			6		Presentation	Data encrypted with TLS (TLS/SSL, SSH, AES, RSA, JSON, XML, ASN.1 (used in SNMP, X.509), XDR (encodes data in RPC calls), MIME, gzip, YAML, zlib, UTF-8, UTF-16, ASCII - Data formatting, encoding, serialization, syntax negotiation, translation, encryption, compression)
+			5		Session			TLS session established and maintained (RPC, SIP, SSH, SOCKS, PPTP, SMB - Connection control, synchronization/coordination, session/dialog management, recovery)
+			4		Transport		TCP connection ensures reliable delivery (TCP, UDP)
+			3		Network			IP routes packets to destination (IP, Subnet, Gateway, NAT, Routing)
+			2		Link/Data Link	Ethernet frames sent on LAN (ARP, MAC, Ethernet, MTU, QoS, Duplex, framing, error detection)
+			1		Physical		Bits transmitted over cable or Wi-Fi (NIC, signaling, wires/cables, radio signals, wi-fi)
 		
 	- subnet mask: tells computer which part of the IP address is the network and which is the host part, to determine if an IP address is on the same network as the computer requesting the info; if the requesting computer and the requested computer have the same subnet mask, they can assume theyre on the same network
 		- subnetting divides a network into smaller subnets, each with its own IP address and subnet mask, which allows controlling traffic flow and conserving IP addresses and segmenting networks into different security zones

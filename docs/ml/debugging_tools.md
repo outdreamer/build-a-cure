@@ -1213,10 +1213,10 @@
 			- Increasing memory footprint
 			- swapping occurring on the disk
 			- RSS steadily increasing in top, ps, or smem; valgrind --leak-check=full output: definitely lost: 128 bytes in 1 blocks
-			valgrind --leak-check=full ./myapp
-				==1234== 256 bytes in 1 blocks are definitely lost in loss record 1 of 1
-				==1234==    at 0x4C2FB55: malloc (vg_replace_malloc.c:299)
-				==1234==    by 0x4005ED: main (leak.c:5)
+				valgrind --leak-check=full ./myapp
+					==1234== 256 bytes in 1 blocks are definitely lost in loss record 1 of 1
+					==1234==    at 0x4C2FB55: malloc (vg_replace_malloc.c:299)
+					==1234==    by 0x4005ED: main (leak.c:5)
 		- causes: 
 			- Memory allocated but never freed
 			- Unreleased objects/resources
