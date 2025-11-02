@@ -4,10 +4,6 @@
 
 		- other queries to run
 
-			- what questions should one ask to solve reality, questions like 'how to connect/graph all disconnected/independent variables in math/physics to solve reality' or 'how to identify generative/restrictive variables/limits of graphs to solve reality'
-
-			- what structures could exist or be created that could end reality before its solved, like a quantum entanglement cascade or a randomness-generating device or a singularity recursion, that could get out of control and destroy the universe before it can be computationally solved, and what could be discovered that could determine reality like how identifying an upper energy limit at any given point in the universe could determine all other energy interaction limits and therefore all other energy interactions
-
 			- what are the important/new/relevant/useful iterations of concepts like 'entangled independent entropy' or 'required information limit cascades' or 'deterministic ambiguity' that can be connected in new theories and what are those theories
 
 			- what is the optimal graph of a system, like should a graph be connected with linear functions, or connected with causal variable interactions, and should nodes be combinations or units, and should the graph be a manifold of states or should it reflect static structures like requirements/definitions
@@ -15,6 +11,109 @@
 			- what contradictions exist between theories about reality that can be solved with logical changes like changing some ambiguous definition to be less ambiguous
 
 			- since core intents like 'implementation' are solved because for example, implementations typically 'trivially vary from requirements/intents', similar to how 'summarization' is solved largely because summaries typically trivially vary from inputs, what intents are still unsolved with current technology, such as inventing and organization?
+
+
+- questions to solve reality
+	
+	- chatgpt query
+
+		- what questions should one ask to solve reality, questions like 'how to connect/graph all disconnected/independent variables in math/physics to solve reality' or 'how to identify generative/restrictive variables/limits of graphs to solve reality'
+
+	- results
+
+		1. STRUCTURE-LEVEL QUESTIONS
+			(What exists? What are the pieces of the puzzle?)
+			Theme	Example Questions	Purpose
+			Concept Enumeration	• What are all the fundamental concepts in math and physics that describe reality?
+			• Are there concepts not yet formalized that are needed to complete the description?	Identify all building blocks of reality-modeling.
+			Representation	• How can each concept be represented equivalently (algebraic, geometric, probabilistic, categorical)?
+			• Which representations compress information best?	Reveal hidden symmetries and redundancies.
+			Interfaces	• How do concepts interface with each other (via definitions, equations, dualities, analogies)?
+			• What interfaces are missing or incomplete?	Define the “edges” between ideas—the structure of reality graphs.
+			Dimensionality	• How many independent dimensions (mathematical or physical) are actually required to describe reality?	Seek minimal sufficient structure.
+
+		2. RELATION-LEVEL QUESTIONS
+			(How do structures interact? What connects them?)
+			Theme	Example Questions	Purpose
+			Connectivity	• How can all disconnected or independent variables in math/physics be connected in one consistent framework?
+			• What defines a valid connection (causal, informational, logical)?	Build the global graph of reality.
+			Causality & Correlation	• Which relationships are causal vs. coincidental?
+			• How does causality emerge from probabilistic or informational laws?	Understand how change and influence arise.
+			Translation & Equivalence	• What transformations link different formulations (e.g., wave–particle, field–geometry)?
+			• Are there universal translation operators across domains?	Find universal conversion principles.
+			Feedback & Self-reference	• How do theories affect the systems that generate them (observer effect, Gödel feedback)?	Capture reflexive dynamics of reality-understanding.
+
+		3. LIMITS AND CONSTRAINT QUESTIONS
+			(What defines what is possible?)
+			Theme	Example Questions	Purpose
+			Generative vs. Restrictive Variables	• Which variables generate new structure (e.g., symmetry, energy)?
+			• Which variables restrict structure (e.g., conservation laws, entropy)?	Identify how novelty and order co-exist.
+			Boundaries of Knowledge	• What are the true epistemic limits (Gödel incompleteness, uncertainty principle)?
+			• Are they absolute or artifacts of current models?	Map where reality is unresolvable vs. just unsolved.
+			Scale Limits	• What are the limits of scale (Planck, cosmological, computational)?
+			• Are there continuous bridges or discrete jumps between scales?	Connect micro and macro physics.
+			Symmetry Limits	• Where do symmetries break and why?
+			• What do these breaks reveal about structure or emergence?	Explain diversity and asymmetry in nature.
+
+		4. DYNAMIC / EVOLUTION QUESTIONS
+			(How does reality evolve, compute, or generate itself?)
+			Theme	Example Questions	Purpose
+			Generative Processes	• What are the primitive generative rules that produce reality (e.g., quantum computation, information flow, cellular automata)?	Identify the universe’s “update rule.”
+			Emergence & Reduction	• How do simple rules yield complex phenomena?
+			• How does complexity reduce back to simplicity?	Understand macro–micro mappings.
+			Optimization Principles	• Does reality minimize (e.g., action, entropy, energy) or maximize (e.g., information, potential)?
+			• Is there a universal optimization function?	Discover reality’s governing function.
+			Time and Change	• What is time fundamentally?
+			• Is time a computation order, a symmetry break, or an emergent dimension?	Clarify the engine of dynamics.
+
+		5. INFORMATION / ENTROPY QUESTIONS
+			(How is information created, stored, or lost?)
+			Theme	Example Questions	Purpose
+			Information Ontology	• What is information physically and mathematically?
+			• Is all of physics information-theoretic at root?	Define the substance of reality.
+			Entropy & Order	• Is entropy a limit or a mechanism for change?
+			• Are there “minimum entropy” states that block understanding?	Understand irreversibility and structure formation.
+			Information Lifetime	• Does information have a lifetime of usefulness?
+			• How does information “expire” or become irrelevant?	Identify where knowledge decays or must be refreshed.
+			Information Flow Across Scales	• How does information transfer between quantum, thermodynamic, and cosmic levels?	Unify all informational dynamics.
+
+		6. COMPLETENESS AND COHERENCE QUESTIONS
+			(How do we know when understanding is “complete” or “self-consistent”?)
+			Theme	Example Questions	Purpose
+			Consistency Tests	• Can every concept/theory be expressed without contradiction in at least one formal system?
+			• What contradictions are resolvable vs. intrinsic?	Ensure coherence of the “reality net.”
+			Coverage Metrics	• What fraction of observable phenomena are derivable from current theory space?
+			• How can we quantify explanatory completeness?	Measure progress toward total understanding.
+			Integration Fixed Points	• When do iterative updates to theories stop producing new contradictions?
+			• Is convergence possible, or is reality indefinitely deep?	Determine when “solving reality” is complete.
+			Meta-consistency	• Is the framework that checks consistency itself consistent?	Ensure no circular incompleteness.
+
+		7. META / SELF-REFERENTIAL QUESTIONS
+			(How should we ask questions about questions?)
+			Theme	Example Questions	Purpose
+			Meta-Generativity	• How can we generate the next most useful question to ask about reality?
+			• What defines an optimally informative question?	Automate curiosity itself.
+			Graph Evolution	• How should the graph of concepts, theories, and questions evolve over time?
+			• What metrics measure progress toward unification?	Govern the self-updating knowledge structure.
+			Observer Dependence	• How does the structure of questions depend on the observer’s level (quantum, biological, computational)?	Include consciousness or perspective in the model.
+			Meta-Symmetry	• Are there symmetries among the types of questions (e.g., every structural question has a dynamic analog)?	Reveal invariants of inquiry itself.
+
+		8. “Grand Synthesis” Meta-Question Templates
+			Type	Template	Goal
+			Connection-Oriented	“How can X be connected to Y in a way that preserves Z?”	Finds structural bridges.
+			Limit-Oriented	“What prevents X from being equivalent to Y, and is that limit fundamental or conventional?”	Identifies true vs. artificial boundaries.
+			Generative-Oriented	“What minimal rule set generates both X and Y?”	Searches for unifying origins.
+			Entropy-Oriented	“Where is information lost or compressed between X and Y?”	Reveals missing or redundant data.
+			Completeness-Oriented	“If we added a new variable or dimension W, would X and Y unify?”	Tests hypothesis-space extensions.
+
+		- To “solve reality,” you must ask questions that:
+			Enumerate all the conceptual elements of reality,
+			Connect them consistently,
+			Define their limits and degrees of freedom,
+			Describe their dynamic evolution,
+			Quantify their informational flow and entropy,
+			Check completeness and self-consistency, and
+			Iterate the meta-level of questioning itself.
 
 - workflow/graph connections to solve reality
 
