@@ -1,10 +1,10 @@
 - connected physics intents
 
-	- chatgpt query:
+	- chatgpt query
 
 		- what physics intents would be useful if they were true/possible, like an intent such as it would be useful if there was a way to "transport information without cost instantaneously" and quantum physics supports this possibility with the concept of "entanglement", so what other intents would be useful if true/possible and how could a physics concept support that useful intent? create a table of other intents that would be useful if true/possible and concepts in physics that could support those intents
 
-	- results:
+	- results
 
 		Table: Useful Physics Intents and Supporting Concepts
 
@@ -147,3 +147,36 @@
 				Why different: RG is physics’ multi-scale simplification; co-design is engineering across scales.
 				Usefulness: apply RG flow ideas to compress or simplify system behavior across hardware/software stack levels.
 				Example outcome: automated abstractions that preserve performance and correctness across scales (device → OS → app).
+
+
+- math/physics connection graphs
+	
+	- chatgpt query
+
+		- what types of graphs would possibly advance understanding in mathematics/physics, like a graph of connectible variables/causes, or a graph of abstract concept definition networks, or a graph of similar patterns across math functions, or a graph of common components of math systems, or a graph connecting math with corresponding physics phenomena indicating patterns/definitions of the related math, or a graph of math functions relevant to physics concepts, or a graph of similar inputs/outputs organizing math functions?
+
+	- results
+
+		- Table: Graph Types That Could Advance Mathematics and Physics
+
+			Graph Type / Intent	What It Connects	What It Could Reveal or Enable	Possible Applications / Discoveries
+			1. Graph of Mathematical Concepts and Their Definitions	Nodes = definitions, edges = uses/depends-on relations	Reveals dependency hierarchy and conceptual redundancy; highlights foundational “choke points.”	Detect unifying axioms; guide automated theorem discovery; optimize curricula.
+			2. Graph of Physical Phenomena ↔ Mathematical Formalisms	Physics concepts (quantum, thermodynamic, relativistic, etc.) linked to the math they use	Shows how math encodes nature’s structures; identifies unexplored mathematical areas that could model new phenomena.	Direct mapping from unsolved physics problems to underused math tools (e.g., linking category theory to quantum gravity).
+			3. Graph of Functions by Input–Output Behavior	Functions linked by similarity of input domain, codomain, symmetry, or invariants	Groups seemingly unrelated formulas by structural behavior rather than symbol form.	Discovery of analogies (e.g., between trigonometric and hyperbolic functions, or between exponential decay and probability distributions).
+			4. Graph of Equations by Transform Relations	Nodes = equations, edges = possible transforms (Fourier, Laplace, Legendre, etc.)	Shows equivalence classes of problems; identifies “transform corridors” between domains.	Automated transform recommendation; new dualities across mathematical physics.
+			5. Graph of Connectible Variables / Causal Dependencies	Nodes = variables or parameters, edges = causal or correlational links	Makes cause–effect structure explicit; separates genuine physical causation from correlation.	Causal modeling of complex systems; foundational clarity in thermodynamics or cosmology.
+			6. Graph of Similar Patterns Across Mathematical Functions	Links functions with isomorphic local structure (e.g., recursion, symmetry, self-similarity)	Reveals pattern universality and scaling principles across domains.	Deep unification (e.g., same functional motif appearing in prime gaps, turbulence, and neural activations).
+			7. Graph of Common Components of Mathematical Systems	Nodes = systems (e.g., group theory, topology), edges = shared substructures (e.g., symmetries, fields)	Exposes “core modules” reused across math; hints at minimal generative structures.	Blueprint for a “periodic table of mathematical structures.”
+			8. Graph of Mathematics ↔ Physics Pattern Correspondence	Links math concepts to physical manifestations (e.g., complex numbers ↔ rotation, Lie groups ↔ symmetries)	Illuminates why specific math appears in nature; could reveal missing mathematical descriptions.	Systematic search for new physical theories via unrepresented mathematical types.
+			9. Graph of Dimensional Analogies	Nodes = quantities or laws; edges = same dimensional/exponent structure	Identifies dimensional symmetries and scaling laws.	Rapid dimensional analysis; new similarity laws in turbulence, cosmology, or condensed matter.
+			10. Graph of Mathematical Dualities	Nodes = theories; edges = dual relations (Fourier, gauge–gravity, particle–wave, algebra–geometry)	Maps all known equivalences; suggests missing duals as “gaps” in the network.	Prediction of new dualities bridging distinct fields (e.g., between information theory and thermodynamics).
+			11. Graph of Mathematical Object Evolution	Tracks historical or logical lineage (e.g., number → vector → tensor → category)	Makes visible the evolution of abstraction and generalization.	Guides automated “next abstraction” generation in AI-assisted mathematics.
+			12. Graph of Proof Dependencies	Nodes = theorems, edges = proof references	Quantifies central theorems, identifies fragile or redundant knowledge.	Automated theorem verification; “topology of mathematics” showing connectivity density.
+			13. Graph of Physical Constants and Equations	Connects constants (ℏ, c, G, k) through equations where they co-occur	Exposes clusters of constants that define physical domains (quantum, relativistic, thermodynamic).	Helps search for unified theories or natural unit systems.
+			14. Graph of Information Flow in Theories	Nodes = variables or observables; edges = information dependency or conservation	Shows what information each theory preserves, loses, or transforms.	Foundations of quantum information and thermodynamics unification.
+			15. Graph of Symmetry Operations and Invariants	Nodes = symmetries; edges = shared invariants or conserved quantities	Unifies disparate conservation laws under symmetry relationships.	Could identify new hidden symmetries or conservation principles.
+			16. Graph of Mathematical Analogies Between Domains	Connects analogues across fields (e.g., electric ↔ fluid flow, potential ↔ entropy)	Makes analogy a first-class structure for discovery.	Accelerates cross-domain problem-solving; machine reasoning by analogy.
+			17. Graph of Equivalence Between Mathematical Representations	Links algebraic, geometric, analytic, and computational forms of the same idea	Shows representational redundancy and cross-convertibility.	Automated translation between representations; deep insight into invariants.
+			18. Graph of Function Composition Networks	Nodes = functions; edges = compositional relationships (f∘g)	Shows hierarchical structure of complex function systems.	Helps study emergent complexity and “functional DNA” of algorithms.
+			19. Graph of Physical Processes by Mathematical Complexity	Orders physical laws by the algorithmic or computational complexity of their governing equations.	Reveals where physics complexity leaps occur and why.	May help classify emergent phenomena (e.g., turbulence) by mathematical complexity class.
+			20. Graph of Inter-disciplinary Equations (Math ↔ Computation ↔ Physics)	Connects equations across domains that share form (e.g., diffusion ↔ heat ↔ option pricing)	Highlights universal dynamics across fields.	Allows discovery of new application areas through structural analogies.
