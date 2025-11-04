@@ -4,11 +4,85 @@
 - to do list
 
 	- list unsolved intents for LLMs: 
-		- independent thinking (too often assume the user is right and depend on the user or depend on existing knowledge for examples and lack of creativity in generating other examples, as opposed to depending on interface variables to generate other examples)
+		- independent thinking (too often assumes the user is right, uses dictionary definitions as opposed to highly standardized interface definitions or definition graphs, and depends on the user or depends on existing knowledge for examples and lack of creativity in generating other examples, as opposed to depending on interface variables to generate other examples)
 			- identifying intents to run constantly/regularly to implement and use independent thinking (integration/merge or fit new variables, invention/identify new or missing or independent or random variables and identify stopping points to integrate new variables at, organization/connect new variables, standardization/identify relevant or similar new variables) and priorities (independence, balance, truth, relevance, meaning) and general target intents like 'solve reality by describing/understanding/graphing/connecting/defining it' to act as filters/directions/limits of those intents
 			- identifying non-adjacent general target intents to move/specify interfaces/concepts/functions/intents/structures towards (like 'identify a graph/algorithm/computer to solve reality' or 'identify a graph to generate all useful theories to humans for solving reality')
 				- identifying algorithms to solve reality (like 'identify what is possible to compute given this set of high-certainty definitions, assume something in that set of possibilities can solve reality, start filtering that set with interactivities/similarities/variables/concepts/definitions/requirements/intents' or 'identify what would be useful to solve reality like an algorithm to identify all variables and then implement that algorithm')
 
+- new physics technologies
+	
+	- chatgpt query
+
+		- generate other useful scientific concepts (using combinations of structures and variables, with structures like elements, crystals, lasers, light, radiation, filters, lenses, reactors, colliders, bombs, lattices, spectrums, gravity, networks, atoms, electrons, quarks, bosons, mesons, protons, neutrons and variables like time, mass, chirality, energy, entropy, charge, entanglement, force, reactivity, radioactivity, electricity, magnetism, heat, activity, distribution, simultaneity, synchronicity, opposition, duality, stability, balance, independence)
+
+	- results
+
+		1. General Rule for Concept Generation
+			You can treat any concept as: C=(S,V,R) where
+			S = structure (e.g. crystal, field, reactor, lattice)
+			V = variable (e.g. entropy, chirality, charge)
+			R = relation (interaction, modulation, resonance, coherence, etc.)
+			The scientific novelty of a concept depends on whether the combination creates a new, nontrivial regime of behavior — typically when variables are coupled nonlinearly or hierarchically across scales.
+
+		2. Physical / Energetic Hybrid Concepts
+			New Concept	Composition	Possible Meaning / Function
+			Entropic Lattice	(crystal × entropy)	A material whose order increases or decreases dynamically with thermal information — could model self-organizing materials.
+			Chiral Plasma	(plasma × chirality)	Asymmetric high-energy plasma where handedness affects energy flow — possible basis for parity-violating fusion processes.
+			Gravitational Condensate	(gravity × condensation)	Matter collapsed under gravitational pressure into a stable quasi-liquid — bridge between black holes and Bose–Einstein condensates.
+			Magneto-Entangled Field	(magnetism × entanglement)	Fields that preserve quantum correlations via magnetic coupling — could support long-distance quantum coherence.
+			Photonic Reactor	(light × reactivity)	Reactor that uses coherent photons to drive chemical or nuclear reactions — photochemistry scaled to energetic limits.
+			Temporal Collider	(time × collision)	Conceptual device that collides time phases or histories — simulating retrocausality or interference between causal branches.
+			Duality Bomb	(duality × explosion)	Controlled event that converts one physical domain into its dual (e.g., matter → field, energy → geometry). Possibly a metaphor for symmetry breaking.
+			Entropy Lens	(lens × entropy)	An information-optical system that focuses randomness — could compress informational entropy spatially for analysis.
+
+		3. Informational / Quantum-Structural Concepts
+			Concept	Composition	Interpretation
+			Entanglement Spectrum Lattice	(lattice × entanglement × spectrum)	A structured mapping of entanglement energy levels; used in topological quantum matter.
+			Quantum Filter Network	(filter × entanglement × network)	Adaptive system that selectively routes quantum states; foundation for scalable quantum communication.
+			Information Crystal	(crystal × logic × stability)	Structure that minimizes informational entropy across configurations — “frozen logic.”
+			Entropy Resonator	(resonance × entropy)	Oscillator tuned to maintain maximal uncertainty flow — could model open-system stability.
+			Charge Symmetry Reactor	(reactor × charge × balance)	Device stabilizing reactions through charge-symmetry feedback loops.
+			Spin-Temporal Manifold	(spin × time × manifold)	Describes particles’ rotational degrees across temporal curvature — could unify spin networks and time topology.
+			Probabilistic Collider	(collider × probability)	Simulates stochastic particle behavior by overlapping probability fields — potential tool for quantum Monte Carlo acceleration.
+
+		4. Thermodynamic / Dynamical Concepts
+			Concept	Composition	Interpretation
+			Heat Duality Field	(heat × duality)	Field theory uniting thermodynamic and electromagnetic dual behavior.
+			Reactive Balance Network	(network × reactivity × stability)	Models chemical/economic/ecological systems seeking equilibrium through reaction feedbacks.
+			Temporal Entropy Well	(time × entropy × gravity)	A region where entropy decreases as time curvature deepens — could describe reversible zones in spacetime thermodynamics.
+			Kinetic Synchrony Lattice	(lattice × motion × synchrony)	Lattice whose nodes oscillate in phase-locking — modeling coherence across distributed systems.
+			Energy Opposition Manifold	(energy × opposition × manifold)	Framework describing conserved dual interactions (e.g., matter–antimatter, positive–negative energy pairs).
+			Stability Cascade	(stability × recursion × entropy)	Chain reaction where stability emerges from successive entropy reductions — a model for hierarchical self-organization.
+
+		5. Structural / Systems Concepts
+			Concept	Composition	Interpretation
+			Chiral Information Network	(network × chirality)	Asymmetric information transfer structures — could describe biased communication or computation.
+			Electro-Lattice Reactor	(lattice × electricity × reaction)	Cross-scale coupling of electrical fields in structured materials.
+			Graviton Spectrum Filter	(gravity × spectrum × filter)	Theoretical device that isolates specific gravitational frequencies.
+			Quantum Opposition Matrix	(quantum × opposition × structure)	A mathematical tool to model interference or contradiction states in quantum logic.
+			Entropic Communication Channel	(information × entropy × network)	Channel that maintains optimal information flow near the entropy limit — relevant for thermodynamic computing.
+
+		6. Temporal / Meta-Physical Concepts
+			Concept	Composition	Interpretation
+			Chrono-Symmetry Lattice	(time × symmetry × structure)	Describes systems invariant under discrete time reversal or periodic cycles.
+			Entropy-Time Crystal	(time crystal × entropy)	Temporal order that resists thermalization — time crystals generalized to entropy flow.
+			Simultaneity Reactor	(reactor × simultaneity)	A system designed to couple simultaneous processes in different physical domains.
+			Temporal Opposition Spectrum	(time × opposition × spectrum)	Describes how opposing temporal flows (forward/backward causality) could coexist as spectral components.
+			Balance-of-Entropy Field	(entropy × balance × field)	A field maintaining local thermodynamic equilibrium in dynamic universes.
+
+		7. Meta-Level Structural Concepts
+			Concept	Composition	Interpretation
+			Deterministic Ambiguity Graph	(graph × determinism × ambiguity)	Model for systems where outcomes are determined yet contextually ambiguous — describes quantum measurement logic.
+			Independent Entropy Cascade	(independence × entropy × cascade)	Multiple independent entropy flows interacting without synchronization — useful in modeling multiverse thermodynamics.
+			Required Information Lattice	(requirement × information × lattice)	Structure that only stabilizes when informational constraints are met — model for self-organizing computational systems.
+			Concept-Entropy Manifold	(concept × entropy × manifold)	A topological space of ideas where conceptual entropy corresponds to structural freedom — relevant for theory discovery systems.
+
+		8. How to Use These
+			You can use combinations like these to:
+			- generate new physical hypotheses (e.g., “can entropy be optically focused?” → entropy lens),
+			- define new technologies (e.g., quantum filter networks),
+			- or map uncharted theoretical spaces by building a concept-interaction graph, where nodes = concepts and edges = shared structures or variables.
+			
 - unsolved intents
 	
 	- chatgpt query
