@@ -641,26 +641,29 @@
 		- inflammation: 
 			- avoid animal products, sugar, gluten, fried food, peanuts, alcohol, vegetable/seed oil, refined carbs, preservatives, additives, saturated/trans fats, MSG, genetically modified food, artificial sweeteners, hydrogenated oil, palm oil
         	- inhibit pro-inflammatory cytokines
-        		- increase IL-10 to inhibit NF-κB to lower dysregulated NF-κB signaling
-        		- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
-        		- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
-        		- lower levels of tumor necrosis factor-alpha (TNF-α), IL-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
-        		- cell-mediated immunity: Th1 cytokines, such as IFN-γ, TNF, and IL-2
-        		- humoral immune responses: Th2 cytokines (IL-4, IL-5, IL-10, and IL-13
-        		- host defense mechanisms against various infections: Th17 cytokines
-        		- T-cells: increased with milk bush, Indian borage, holy basil, neem, garlic, patawali, soap pod, and moringa at different concentrations
-        		- B-cells: increased with soap pod, garlic, emblic, milk bush, neem
-        		- https://www.sciencedirect.com/science/article/pii/S2405844025010734
-				- https://www.sciencedirect.com/science/article/pii/S2095177923002502
-				- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
-				- in general its best to suppress TNF-a, IL-1beta, IL-6, IL-8, IL-12, IL-17, IL-23 for anti-inflammatory activity
+        		- intents to inhibit pro-inflammatory cytokines
+	        		- inhibit NF-κβ to inhibit IL-1beta and IL-6 and TNF-alpha
+	        			- lower levels of tumor necrosis factor-alpha (TNF-α), IL-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
+	        			- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
+	        			- increase IL-10 to inhibit NF-κB to lower dysregulated NF-κB signaling
+	        		- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
+					- in general its best to inhibit IFN-γ, TNF-alpha, IL-1beta, IL-6, IL-8, IL-12, IL-17, and IL-23 for anti-inflammatory activity
+        		- immunity types/components:
+	        		- cell-mediated immunity: Th1 cytokines, such as IFN-γ, TNF, and IL-2
+	        		- humoral immune responses: Th2 cytokines (IL-4, IL-5, IL-10, and IL-13
+	        		- host defense mechanisms against various infections: Th17 cytokines
+	        		- T-cells: increased with milk bush, Indian borage, holy basil, neem, garlic, patawali, soap pod, and moringa at different concentrations
+	        		- B-cells: increased with soap pod, garlic, emblic, milk bush, neem
+	        		- https://www.sciencedirect.com/science/article/pii/S2405844025010734
+					- https://www.sciencedirect.com/science/article/pii/S2095177923002502
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
 				- decrease TNF-α: lavender, vitamin d, Turbinaria ornata, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Hyperoside, lonicerin, luteolin, Combretum duarteanum, mango, Grape Seed, Veronica polita, Jasminum grandiflorum, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, Glycyrrhiza Wongam, Garcinia mangostana, its active constituent α-mangostin, German Chamomile, Telfairia occidentalis, Xique-Xique, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Moringa oleifera and Egyptian propolis, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Menthol, Prunus mume and Lactobacillus strain, Rhodiola crenulata, Mother tincture, Cynanchum wilfordii, Ocimum gratissimum, Chestnut shell, Malva parviflora, Physalis pubescens, Bruguiera gymnorrhiza, garlic, bacopa, avoid holy basil/patawawli
 				- decrease IFN-γ: Black rice bran and β-glucan, Bacillus coagulans and sugar cane, Grape Seed, Dihydroberberine, Sinapic acid, Bruguiera gymnorrhiza, garlic, avoid holy basil/patawali
 				- decrease IL-1α: Purple potato, Bacillus coagulans and sugar cane, garlic
-				- decrease IL-1β: lavender, betaine, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Bacillus coagulans and sugar cane, Purple potato, Combretum duarteanum, mango, Hyperoside, lonicerin, luteolin, Grape Seed, Veronica polita, Jasminum grandiflorum, Acacia saligna, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, German Chamomile, Chitosan, Telfairia occidentalis, Xique-Xique, Aster glehni, Persea americana, Eriocitrin, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Bruguiera gymnorrhiza
+				- decrease IL-1β: lion's mane, lavender, betaine, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Bacillus coagulans and sugar cane, Purple potato, Combretum duarteanum, mango, Hyperoside, lonicerin, luteolin, Grape Seed, Veronica polita, Jasminum grandiflorum, Acacia saligna, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, German Chamomile, Chitosan, Telfairia occidentalis, Xique-Xique, Aster glehni, Persea americana, Eriocitrin, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Bruguiera gymnorrhiza
 				- decrease IL-2: moringa, garlic, avoid patawali
 				- increase IL-4: Ocimum gratissimum, patawali
-				- decrease IL-6: lavender, betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, moringa, bacopa
+				- decrease IL-6: lion's mane, lavender, betaine, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Purple potato, mango, Grape Seed/peel, Veronica polita, Jasminum grandiflorum, cranberry, Ziziphus jujuba, Muscadine grape, Glycyrrhiza inflata, ginger, Glycyrrhiza Wongam, Telfairia occidentalis, Pycnoporus sanguineus, Aster glehni, Persea americana, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Menthol, Prunus mume and Lactobacillus strain, Cannabidivarin, Passiflora edulis, Rhodiola crenulata, Amorphophallus paeoniifolius, Mother tincture, Black rice bran and β-glucan, Ocimum gratissimum, Malva parviflora, Cynanchum wilfordii, Bruguiera gymnorrhiza, B. infantis, S. boulardii, L. casei, L. Salivarius, spinach, choline, vitamin d, olive oil, broccoli, oats, spirulina, jasmine, berries, nuts, legumes, vegetables, stevia, bromelain, ginkgo, berberine, artemisinin, ashwagandha, red sage, tart cherry, quercetin, bitter melon, glutamine, MSM, chrysin, dandelion, glycine, carnosine, arginine, histidine, vitamin b12, zinc, magnesium, chromium, garlic, boswellia, apigenin, luteolin, red yeast rice, bay leaves, pepper, nutmeg, oregano, sage, resistant starch, moringa, bacopa
 					- avoid smoke, coffee and acrylamide (chips/bread/chocolate/coffee), avoid high-fat and high-refined carb intake, avoid aloe/reishi/ginseng/melatonin/cordyceps/cats claw/5-htp 
 					- avoid as they may increase IL-6: lauric acid, palmitic acid, cordyceps, ginseng, reishi, bacillis subtilis, lactobacillus plantarum, alanine, Punica granatum/Ellagic acid, holy basil, patawali
 				- decrease IL-8: Omega 3s, Chitosan, Grape Seed, lavender, garlic
@@ -791,6 +794,7 @@
 			    	- excess liver glucose production: apple cider vinegar should help, losing weight should help with fatty liver which can increase glucose production
 			    	- insulin transport: arginine should help
 			    	- insulin resistance: keto diet should help
+			    	- lower blood sugar by blocking the activity of the enzyme alpha-glucosidase, which breaks down carbs in the small intestine: lion’s mane
 			    	- not enough insulin: bitter melon should help
 			    	- not enough β‐cells: turmeric, ginger, hibiscus should help
 			    	- inflammation: using ginger, turmeric, berberine, vitamin d, grape, chamomile, green tea, probiotics and avoiding acrylamide (chips/bread/chocolate/coffee)/saturated fat/refined carb intake/reishi/ginseng/cordyceps/cats claw/5-htp/melatonin should help
@@ -864,12 +868,12 @@
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 			        	- lower glucose/manage insulin sensitivity: 
-			        		- potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
+			        		- lion's mane, potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
 							- https://pubmed.ncbi.nlm.nih.gov/38931176/
 						- reduce hyperglycemia: 
 							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
-			        - nerve pain: coq10, vitamin d, carnitine, ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric, potassium, arginine
+			        - nerve pain: lion's mane, coq10, vitamin d, carnitine, R-ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric, potassium, arginine
 			            - high blood pressure from carbs as a cause of neuropathy: refined carbohydrates can cause rapid spikes in blood glucose levels, which increases insulin production, which raises blood pressure by constricting blood vessels and increasing heart rate
 			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
 			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
@@ -971,6 +975,8 @@
 				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
 				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
 				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan
+				- avoid caffeine: caffeine is a psychoactive stimulant of the central nervous system that increases alertness/energy by blocking adenosine, which increases anxiety symptoms like high blood pressure and increased heart rate
+				- avoid acidosis which can increase anxiety
 				- Increased HDAC2 expression decreases the expression of genes important for the maintenance of dendritic spine density such as BDNF, Arc, and NPY, leading to increased anxiety and alcohol-seeking behavior
 					- Nucleus accumbens deep brain stimulation decreases ratings of depression and anxiety in treatment-resistant depression
 					https://pubmed.ncbi.nlm.nih.gov/19914605/
@@ -982,9 +988,9 @@
 				- improve kidney/cardiovascular health, which results in hormone dysregulation (vasopressin, angiotensin II, adrenaline, cortisol, estrogen), which are hormones that can cause anxiety
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC3312460/ - 'The link between angiotensin II-mediated anxiety and mood disorders with NADPH oxidase-induced oxidative stress'
 				- increase GABA
-					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava (avoid for liver toxicity), vitamin b6, magnesium, zinc, theanine, theobromine, CBD, mint, chlorella
+					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava (avoid for liver toxicity), vitamin b6, magnesium, zinc, theanine, theobromine, CBD (avoid for heart damage), mint, chlorella
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC9500625/
-					- increases GABA or GABA activity: theanine, passionflower, lemon balm, b vitamins, taurine, valerian, hops, EGCG with vitamin C, ashwagandha, lavender, chinese skullcap, black seed oil
+					- increases GABA or GABA activity: lactic-acid producing probiotic bacteria, theanine, passionflower, lemon balm, b vitamins, taurine, valerian, hops, EGCG with vitamin C, ashwagandha, lavender, chinese skullcap, black seed oil
 					- restores GABA receptors: bacopa
 					- activates/strengthens GABA receptors: kava
 		            - binds to GABA receptors: chinese skullcap

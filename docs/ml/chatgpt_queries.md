@@ -1,5 +1,14 @@
 - chatgpt queries to solve reality
 
+
+- to do list
+
+	- list unsolved intents for LLMs: 
+		- independent thinking (too often assume the user is right and depend on the user or depend on existing knowledge for examples and lack of creativity in generating other examples, as opposed to depending on interface variables to generate other examples)
+			- identifying intents to run constantly/regularly to implement and use independent thinking (integration/merge or fit new variables, invention/identify new or missing or independent or random variables and identify stopping points to integrate new variables at, organization/connect new variables, standardization/identify relevant or similar new variables) and priorities (independence, balance, truth, relevance, meaning) and general target intents like 'solve reality by describing/understanding/graphing/connecting/defining it' to act as filters/directions/limits of those intents
+			- identifying non-adjacent general target intents to move/specify interfaces/concepts/functions/intents/structures towards (like 'identify a graph/algorithm/computer to solve reality' or 'identify a graph to generate all useful theories to humans for solving reality')
+				- identifying algorithms to solve reality (like 'identify what is possible to compute given this set of high-certainty definitions, assume something in that set of possibilities can solve reality, start filtering that set with interactivities/similarities/variables/concepts/definitions/requirements/intents' or 'identify what would be useful to solve reality like an algorithm to identify all variables and then implement that algorithm')
+
 - unsolved intents
 	
 	- chatgpt query
