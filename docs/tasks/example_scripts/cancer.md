@@ -976,21 +976,21 @@
 				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
 				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan
 				- avoid caffeine: caffeine is a psychoactive stimulant of the central nervous system that increases alertness/energy by blocking adenosine, which increases anxiety symptoms like high blood pressure and increased heart rate
-				- avoid acidosis which can increase anxiety
 				- Increased HDAC2 expression decreases the expression of genes important for the maintenance of dendritic spine density such as BDNF, Arc, and NPY, leading to increased anxiety and alcohol-seeking behavior
 					- Nucleus accumbens deep brain stimulation decreases ratings of depression and anxiety in treatment-resistant depression
 					https://pubmed.ncbi.nlm.nih.gov/19914605/
 					- HDAC inhibitors also inhibit the function of accumbal ΔFosB by inducing G9a expression in the nucleus accumbens after prolonged use
 					- HDAC inhibitors include sulforaphane, curcumin, genistein, and cinnamon
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC3092901/
-				- stimulate the vagus nerve: choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- lower side effects of anxiety, like high blood pressure, with beta blockers: Indian snakeroot, berberine, red yeast rice, hawthorn, garlic, potassium, arginine, antioxidants
-				- improve kidney/cardiovascular health, which results in hormone dysregulation (vasopressin, angiotensin II, adrenaline, cortisol, estrogen), which are hormones that can cause anxiety
-					- https://pmc.ncbi.nlm.nih.gov/articles/PMC3312460/ - 'The link between angiotensin II-mediated anxiety and mood disorders with NADPH oxidase-induced oxidative stress'
+				- treat acidosis, thyroid, heart, and adrenal problems which can cause anxiety
+					- improve kidney/cardiovascular health, which results in hormone dysregulation (vasopressin, angiotensin II, adrenaline, cortisol, estrogen), which are hormones that can cause anxiety
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC3312460/ - 'The link between angiotensin II-mediated anxiety and mood disorders with NADPH oxidase-induced oxidative stress'
 				- increase GABA
 					- most of the following will positively impact GABA levels: hops, melatonin, medicinal mushrooms, chamomile, taurine, lemon balm, st johns wort, EGCG, passion flower, ashwagandha, lavender, chinese skullcap, black seed oil, valerian, alpha gpc, bacopa, kava (avoid for liver toxicity), vitamin b6, magnesium, zinc, theanine, theobromine, CBD (avoid for heart damage), mint, chlorella
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC9500625/
-					- increases GABA or GABA activity: lactic-acid producing probiotic bacteria, theanine, passionflower, lemon balm, b vitamins, taurine, valerian, hops, EGCG with vitamin C, ashwagandha, lavender, chinese skullcap, black seed oil
+					- supplements such as B6 may help convert glutamate to GABA, which can be beneficial for reducing anxiety
+					- increases GABA or GABA activity: cold, Lactobacillus and Bifidobacterium, lactic-acid producing probiotic bacteria, theanine, passionflower, lemon balm, b vitamins, taurine, valerian, hops, EGCG with vitamin C, ashwagandha, lavender, chinese skullcap, black seed oil, 5-HTP, gotu kola
 					- restores GABA receptors: bacopa
 					- activates/strengthens GABA receptors: kava
 		            - binds to GABA receptors: chinese skullcap
@@ -999,6 +999,12 @@
 		            - reduces cortisol/stress: ashwagandha, lavender, omega 3's
 		            - positive allosteric modulators of the GABAA receptor: eugenol, chamomile/apigenin, chamomile/luteolin, EGCG, thymol, nicotinamide, valerian, lavender
 		            - avoid GABA antagonists: ginkgo biloba, kudzu, thujone (sage, mugwort, oregano, mint, wormwood, yarrow)
+		        - reduce glutamate: cold, omega 3's, magnesium, vitamin b6/c/e, zinc, theanine, taurine, resveratrol, turmeric, NAC, avoid MSG/aspartame/caffeine
+		        - decrease cortisol: theanine, chamomile, olive oil, phosphatidylserine, ashwagandha, rhodiola, bacopa, lemon balm, omega 3's, vitamin c/e, coq10, glutathione, NAC, turmeric, probiotics, Bright Light Therapy, Transcranial direct current stimulation, Transcranial magnetic stimulation, ginkgo biloba, holy basil, chinese skullcap, avoid caffeine
+		        - increase oxytocin: vitamin d/c, magnesium, taurine, Lactobacillus reuteri, chamomile, Oleoylethanolamide, melatonin, fenugreek, jasmine, clary sage, anise seed, intermittent drinking
+		        - increase serotonin: theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics 
+		        - increase dopamine: theanine, bacopa, tyrosine, phenylalanine, probiotics, avoid saturated fat
+		        - stimulate vagus nerve: zinc, probiotics, choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- change HPA axis
 				    - increase IL-1/6/10/tnf-a to activate the HPA axis to handle stress/anxiety
 				        - increase tnf-α (coconut, astragalus)
