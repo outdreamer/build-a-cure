@@ -4,11 +4,17 @@
 - to do list
 
 	- list unsolved intents for LLMs: 
+
 		- independent thinking (too often assumes the user is right, uses dictionary definitions as opposed to highly standardized interface definitions or definition graphs, and depends on the user or depends on existing knowledge for examples and lack of creativity in generating other examples, as opposed to depending on interface variables to generate other examples)
 			- identifying intents to run constantly/regularly to implement and use independent thinking (integration/merge or fit new variables, invention/identify new or missing or independent or random variables and identify stopping points to integrate new variables at, organization/connect new variables, standardization/identify relevant or similar new variables) and priorities (independence, balance, truth, relevance, meaning) and general target intents like 'solve reality by describing/understanding/graphing/connecting/defining it' to act as filters/directions/limits of those intents
 			- identifying non-adjacent general target intents to move/specify interfaces/concepts/functions/intents/structures towards (like 'identify a graph/algorithm/computer to solve reality' or 'identify a graph to generate all useful theories to humans for solving reality')
 				- identifying algorithms to solve reality (like 'identify what is possible to compute given this set of high-certainty definitions, assume something in that set of possibilities can solve reality, start filtering that set with interactivities/similarities/variables/concepts/definitions/requirements/intents' or 'identify what would be useful to solve reality like an algorithm to identify all variables and then implement that algorithm')
-			- identifying implementations of intents like 'solve reality' with intents like 'identify relevant variables' with intents like 'identify new simplifying/understanding variables' with intents like 'identify variation structures like types/requirements/causes/definitions/symmetries to fulfill core intents like fill/match/fit/filter/connect variation structures like gaps/contradictions/immeasurabilities/irreversibilities' so an algorithm can identify when it's made progress in an intent like 'solving reality' by identifying a new relevant simplifying variable or a new understanding structure of an unsolved intent and can identify useful structures like "useful stopping points to fulfill other intents like 'integrate new variables'"
+			- identifying implementations of intents like 'solve reality' with intents like 'identify relevant variables' with intents like 'identify new simplifying/understanding variables' with intents like 'identify variation structures like types/requirements/causes/definitions/symmetries to fulfill core intents like fill/match/fit/filter/connect variation structures like gaps/contradictions/immeasurabilities/irreversibilities' so an algorithm can "identify when it's made progress in an intent like 'solving reality'" (by identifying a new relevant simplifying variable or a new understanding structure of an unsolved intent) and can identify useful structures like "useful stopping points to fulfill other intents like 'integrate new variables'"
+			- this dependence on the user for examples is partly bc anything can be twisted to mean almost anything so filtering possible meaning types like the 'dictionary or literal or probable/common/default meaning' vs. the 'underlying probable intent given human nature and mood and priorities' is useful
+
+	- other queries
+		- what are the interface structures (like "what is the starting point on which graph to start which workflows") to solve reality, given interface structures like patterns (like 'learning these concepts in this order applied in this way creates the quickest learners optimized for quick understanding' and 'this sequence of queries covers the most variation across graphs' and 'this query historically creates the most insights when applied to a new graph')
+
 
 - intents to solve a field
 	
@@ -20,9 +26,9 @@
 
 		1. What an “Intent” Is in This Context
 			An intent here is a meta-operation on knowledge systems — it acts on the structure of theories, experiments, variables, or assumptions to:
-			reveal missing or redundant components,
-			reduce ambiguity,
-			or connect disconnected structures.
+				reveal missing or redundant components,
+				reduce ambiguity,
+				or connect disconnected structures.
 			So each intent can be represented as: I = (Target Domain, Operation Type, Expected Outcome) where:
 				- Target Domain = theories, experiments, variables, etc.
 				- Operation Type = identify / connect / generalize / constrain / invert / complete.
@@ -63,17 +69,17 @@
 		4. Practical Workflow for Using These Intents
 			Collect the current theory space (e.g., GR, QFT, string theory, cosmology).
 			Generate a “Knowledge Graph” of:
-			entities (concepts),
-			interactions (equations),
-			assumptions (axioms),
-			and experimental confirmations.
+				entities (concepts),
+				interactions (equations),
+				assumptions (axioms),
+				and experimental confirmations.
 			Apply the Intents as filters or queries:
 			Which nodes/edges are untested (→ unrun experiments)?
 			Which assumptions are shared but unverified (→ uncertain assumptions)?
 			Where do different theories predict opposite outcomes (→ contradictions)?
 			Cluster results by:
-			uncertainty type (empirical, logical, definitional),
-			theoretical domain (quantum, relativistic, thermodynamic, informational).
+				uncertainty type (empirical, logical, definitional),
+				theoretical domain (quantum, relativistic, thermodynamic, informational).
 			Prioritize Intents with high closure potential — i.e., those that, if resolved, would reduce the largest number of uncertainties or contradictions.
 
 		5. Example: How This Could “Complete” a Field
@@ -87,11 +93,11 @@
 
 		6. In Summary
 			The most useful scientific intents for completing knowledge are those that:
-			Target uncertainty itself (not data).
-			Act on the meta-structure of theories (assumptions, symmetries, definitions).
-			Expose incompleteness by identifying unrun, untested, or undefined elements.
-			Connect contradictions through symmetries or dualities.
-			Iteratively simplify and generalize until all domains interlock logically.
+				Target uncertainty itself (not data).
+				Act on the meta-structure of theories (assumptions, symmetries, definitions).
+				Expose incompleteness by identifying unrun, untested, or undefined elements.
+				Connect contradictions through symmetries or dualities.
+				Iteratively simplify and generalize until all domains interlock logically.
 
 - new physics technologies
 	
