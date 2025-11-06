@@ -457,7 +457,7 @@
 				- sedatives: melatonin, valerian, ashwagandha, kava, and st. john’s wort
 				- red yeast rice and vitamin b3
 				- vitamins a/d/e/k should usually be taken separately except vitamin d/k2
-				- adaptogenic blends: ashwagandha, astragalus, brahmi, ginseng, propolis, reishi or cordyceps mushrooms, rhodiola rosea
+				- adaptogenic blends: ashwagandha, astragalus, brahmi/bacopa, ginseng, propolis, reishi or cordyceps mushrooms, rhodiola rosea
 			- use these vitamin combinations together:
 				- vitamin d/k2/calcium
 				- magnesium/vitamin d
@@ -938,6 +938,7 @@
 			- use these to get rid of BPA (or side effects): coq10, probiotics (Bifidobacterium breve and Lactobacillus casei, Garden of Life probiotics with many strains), black tea, quercetin, exercise
 				- use these to support glucuronidation to get rid of BPA: sauerkraut, asparagus, pineapple, kimchi, apple cider vinegar, cruciferous vegetables (such as kale, broccoli, and cauliflower), red grapes, citrus fruits, curcumin, rooibos tea, honeybush tea, and rosemary
 		- brain disorders
+			- management of psychiatric disorders with kidney failure: https://pmc.ncbi.nlm.nih.gov/articles/PMC9122172/
 			- memory/cognition: Polygala tenuifolia Willdenow, ginkgo biloba/Cistanche tubulosa, avoid junk food high in saturated fat
 				- https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1573034/full
 			- insomnia: vitamin d, tryptophan, melatonin (melatonin and other sedatives can cause rebound insomnia), treat high serotonin levels which can cause insomnia, avoid medications that can cause insomnia
