@@ -24,17 +24,23 @@ A: This tool encodes how I think, which tends to be about cross-interface struct
 
 ## Relevant Links
 
+Here's a list of ChatGPT queries to solve reality:
+https://github.com/outdreamer/solver/blob/master/docs/ml/chatgpt_queries.md
+
 Here's a data science study guide for learning purposes:
 https://github.com/outdreamer/solver/blob/master/docs/ml/ml_table.csv
-
-Here's a list of substances to prevent various health conditions that I like to work on whenever I read science news.
-https://github.com/outdreamer/solver/blob/master/docs/tasks/example_scripts/cancer.md?plain=1#L192
 
 Here's a set of diagrams that should help explain my inventions more clearly:
 https://github.com/outdreamer/solver/tree/master/docs/objects
 
-Here's my latest work on my inventions:
+Here's my recent work on my inventions:
 https://github.com/outdreamer/solver/blob/master/docs/tasks/implementation_examples/examples_of_implementation_methods.md
+
+Here's my patent applications from a few years ago:
+https://github.com/outdreamer/solver/tree/master/docs/patent
+
+Here's a list of substances to prevent various health conditions that I like to work on whenever I read science news.
+https://github.com/outdreamer/solver/blob/master/docs/tasks/example_scripts/cancer.md
 
 <<< secret mathematician note that only mathematicians can read >>>
 

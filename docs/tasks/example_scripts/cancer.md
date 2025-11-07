@@ -78,7 +78,6 @@
 				- https://www.sciencedaily.com/releases/2024/05/240517164108.htm
 				- the reason this works is probably that the dose is really high, Im drinking a broth that contains 20  - 100 pills or so every day of a very powerful high quality probiotic
 				- I also found this bc I decided to look for a 'magic treatment' like sitosterol almost was for fungal infections (except that it suppressed a tumor suppressor, so dont take sitosterol if you have cancer), and bc I try variable dose sizes bc I know that dose is important, and bc I didnt take the easy way out of asking someone to figure out cancer for me
-				- I got cancer bc I took BPC-157, thinking that it was unlikely to produce brain cancer like it warned on the label and if it did, I would probably be able to figure it out once I had the free information of the symptoms' response to treatments, which is how I identified the best treatments for fungal meningitis
 				- high doses of probiotics can interfere with levothyroxine or thyroid function, so increased doses of levothyroxine may be necessary when taking probiotics for people with thyroid damage, and lower doses of probiotics may be necessary for thyroid patients, partly bc of the metabolites of probiotics like SCFAs or bile acids
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8397005/
 			- another article about other probiotics for cancer treatment
