@@ -25,10 +25,10 @@ A: This tool encodes how I think, which tends to be about cross-interface struct
 ## Relevant Links
 
 Here's a list of ChatGPT queries to solve reality:
-https://github.com/outdreamer/solver/blob/master/docs/ml/chatgpt_queries.md
+https://github.com/outdreamer/solver/blob/master/docs/specific_problem_analysis/ml/chatgpt_queries.md
 
 Here's a data science study guide for learning purposes:
-https://github.com/outdreamer/solver/blob/master/docs/ml/ml_table.csv
+https://github.com/outdreamer/solver/blob/master/docs/specific_problem_analysis/ml/ml_table.csv
 
 Here's a set of diagrams that should help explain my inventions more clearly:
 https://github.com/outdreamer/solver/tree/master/docs/objects
