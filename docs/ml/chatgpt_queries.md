@@ -1,7 +1,7 @@
 - chatgpt queries to solve reality
 
 
-- to do list
+I. To do list
 
 	- list unsolved intents for LLMs: 
 
@@ -31,8 +31,12 @@
 
 		- what is a graph of reality intents like 'if reality is solved before it can change sufficiently from its previous solution (change while its being computed, or the computation itself requires all remaining variation in the universe, thereby preventing changes), reality will end'
 
+		- what are alternate neural network types given 'different network generation/description/limit variables', like a "neural network built by generating interface variable interactions (like 'low/high/morning/night dose of a substance' and 'combinations of substances') so that 'definitely relevant missing variable interactions' (like 'variables that definitely interact but arent in the data set') in the data set are handled with at least a structure like a node position without filtering them out completely and prematurely just bc theyre not present in the data set, and assigning these nodes undefined relevance rather than zero relevance, and specifying variable interactions so that contradictory variables like different functionality at different doses dont 'cancel each other out' or create other error types from 'lack of specificity' or other error types", or a 'neural network built to sets of error types that can be isolated or whose isolatable connections can be causally connected/filtered/limited, like compounding approximation errors or other error types to avoid error types like hallucinations' or a 'neural network to connect relevant graphs like "causal variable graphs" by similar queries or similarities like node/connection/difference/pattern similarities in the graphs' or a 'neural network that estimates variable connection types (like variable connection adjacency/strength/direction) given estimated independence/relevance/variation of the variables'
+			- relatedly, the intent of 'identifying queries of useful graphs' is a remaining unsolved intent bc once there is a real 'causal variable graph connecting all variables' which is not trivial to generate, the intent of identifying optimal queries on this graph is unsolved
 
-- queries and results
+
+
+II. Queries and Results
 
 
 - intents to solve a field
