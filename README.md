@@ -40,7 +40,7 @@ Here's my patent applications from a few years ago:
 https://github.com/outdreamer/solver/tree/master/docs/patent
 
 Here's a list of substances to prevent various health conditions that I like to work on whenever I read science news.
-https://github.com/outdreamer/solver/blob/master/docs/tasks/example_scripts/cancer.md
+https://github.com/outdreamer/solver/blob/master/docs/tasks/example_scripts/health.md
 
 <<< secret mathematician note that only mathematicians can read >>>
 
