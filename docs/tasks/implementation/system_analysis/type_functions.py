@@ -113,7 +113,7 @@ def get_codebase_functions():
 			return function_defs
 	cmd = [f"""grep -r 'def ' {cwd} --include='*.py' >> {output_name}"""]
 	output = subprocess.check_output(cmd,shell=True)
-	''' /Users/jjezewski/Documents/solver/find_existing_solutions/get_vars.py:def get_partial_match(av, word, match_type): '''
+	''' /Users/jjezewski/Documents/solver/docs/find_existing_solutions/get_vars.py:def get_partial_match(av, word, match_type): '''
 	if os.path.exists(output_name):
 		function_defs = get_data(output_name)
 		if function_defs:

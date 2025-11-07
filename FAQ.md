@@ -55,7 +55,7 @@
 					https://github.com/outdreamer/solver/tree/master/docs/workflow/problem_solving_matching.md
 				- Linking relevant concepts to randomness such as average and balance/equality using definition routes as a method of identifying a probability distribution with randomness built-in (distribution with equal probability distributed across outcomes, or alternatively a distribution where each outcome has the same averaged probability value)
 				- Generating the symmetry concept as a combination of objects/attributes/functions like 'reversible changes without losing information', using core component combination analysis
-					https://github.com/outdreamer/solver/tree/master/find_existing_solutions/system_analysis/core_analysis.py
+					https://github.com/outdreamer/solver/tree/master/docs/find_existing_solutions/system_analysis/core_analysis.py
 				- Identifying bases & other structures as an origin of a prediction function, rather than data sets alone, as alternate routes to a prediction function
 					https://github.com/outdreamer/solver/tree/master/docs/tasks/problem_workflow_example.md
 				- generate a function with certain attributes using net intent of structural component operations
