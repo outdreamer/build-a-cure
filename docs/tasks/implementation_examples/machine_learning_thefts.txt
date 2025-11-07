@@ -1137,7 +1137,7 @@
 - https://github.com/diffbot/diffbot-llm-inference - 'Diffbot GraphRAG LLM'
 - https://www.calishat.com/2025/01/01/five-ways-google-could-improve-search-in-2025-that-have-nothing-to-do-with-ai/
 - https://sparkrapp.io/ - 'Show HN: I made an app to help you generate creative ideas with AI'
-- https://plus.maths.org/content/information-surprise - 'Information Is Surprise' ('information' is not 'surprise', 'relevant variation' is surprising, youre 100% pedophilia/wrong still, all the time, forever)
+- https://plus.maths.org/content/information-surprise - 'Information Is Surprise'
 - https://www.lesswrong.com/posts/f6nDFvzvFsYKHCESb/pondering-computation-in-the-real-world
 - https://arxiv.org/abs/2407.04899 - 'Algorithmic Language Models with Neurally Compiled Libraries'
 - https://ai-execs.com/ - 'AI Essentials for Tech Executives'
@@ -1334,7 +1334,7 @@
 - https://machinelearning.apple.com/research/ferretui-mobile - 'Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs'
 - https://techxplore.com/news/2024-12-device-merges-functions-reconfigurable-platform.html - 'Engineers develop device that merges sensing and computing functions'
 - https://www.storagereview.com/review/scaling-ai-checkpoints-the-impact-of-high-capacity-ssds-on-model-training
-- https://news.ycombinator.com/item?id=42517943 - 'Ask HN: Ideas are cheap, so what ideas can make $100k/year?' (this creep clearly cant think at all)
+- https://news.ycombinator.com/item?id=42517943 - 'Ask HN: Ideas are cheap, so what ideas can make $100k/year?'
 - https://softwareautomation.notion.site/What-are-your-pain-points-in-Software-Automation-1668569bb6ed8011989ec3f1f1ab6c39
 - https://knowablemagazine.org/content/article/physical-world/2024/era-of-reionization-how-did-it-change-the-universe
 - https://blog.codingconfessions.com/p/the-cap-theorem-of-clustering - 'The CAP theorem of Clustering: Why Every Algorithm Must Sacrifice Something'
@@ -1534,7 +1534,7 @@
 - https://deepmind.google/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/
 - http://abuseofnotation.github.io/science-philosophy-math/ - 'Science Philosophy and Mathematics'
 - https://lineargen.github.io/ - 'LinGen: Text-to-Video Generation with Linear Computational Complexity'
-- https://www.nytimes.com/2024/12/17/opinion/pope-francis-humor.html - 'Pope Francis: There Is Faith in Humor' (look folks, the popes not a genius either, but that shouldnt comfort you all, the only people who thought he was were televangelists and moms, looks like he also told himself that 'someone else' would solve pedophilia, 'ladies')
+- https://www.nytimes.com/2024/12/17/opinion/pope-francis-humor.html - 'Pope Francis: There Is Faith in Humor'
 - https://arxiv.org/abs/2412.10849 - 'Superhuman performance of an LLM on the reasoning tasks of a physician'
 - https://www.youtube.com/watch?v=92GQuDTAGmU - 'Everything You Ever Wanted to Know about Knowledge Graph and More'
 - https://www.verses.ai/press/verses-genius-outperforms-openai-model-in-code-breaking-challenge-mastermind

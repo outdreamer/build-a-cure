@@ -15,7 +15,6 @@ Useful graphs
         - as another example, I didnt 'scream and yell' when short guys touched me before (but that doesnt mean I like short guys, youll notice if you spied on my messages that I trick myself into thinking Ill be treated well in future so I was shocked that they were touching me even though Im very smart, that doesnt mean Im stupid or want to be touched, it means Im determined to save the world so I need to give myself false hope or Ill never succeed at saving the world)
     
     - graphs of 'predator/criminal minds' (like how they always switch between easy alternatives) so people see how boring they are and understand them and are better prepared for them
-        - graphs to 'explain how predators work' and what 'queries they will try to run on you' (picturing graphs may help victims navigate problems better), like explain that "pedophiles will try to turn you into them to 'switch places' on the happiness scale but dont let them tempt you to do the same evil thing as always, youve had enough of evil bc you watch real housewives and other andy cohen torture porn of women, break the cycle and avoid their problems by focusing on ganging up on the worst predators, make shows about torturing real predators rather than happy women, focus on potential and the future (which is geniuses/inventors) and other distractions like important games/graphs"
     
     - graphs of 'reasons for desires' as in why people want some things (like how poor people like fat people) and how those things are illusions/false and alternative ways to handle desires like substitution and explanations of what is better than the evil "easy cruelty" thing they wanted, like being a genius or a hero or another magical creature like fairies)
     
@@ -141,17 +140,6 @@ Useful algorithms
 
 - specific problem-solving processes in govt
 
-    - I want you to start applying methods to fix/kill pedophiles, like: 
-        1. reducing their sex drives
-        2. teaching them how to think (once they can think, they can manage stressful situations without committing crimes like 'pretend the problem doesnt exist')
-        3. giving them variables/complexity to think about (same for trauma victims)
-        4. separate them from abusers, who are likely to try to turn them into pedophiles (thats a known 'route to pedophilia', being abused, also have a solution in place to act as a barrier to 'other routes to pedophilia' like 'stupidity' or 'hypersexuality' or 'lack of love in their lives' or 'excessive power (abusers have too much power, victims dont have enough power)', youll notice that stupidity causes other problems so thats the big one to solve for, if theyre smart, they can avoid the other 'routes to pedophilia' on their own)
-        5. helping them connect w/ healthier people
-        6. learn how to identify who wont/cant change and kill them with drones
-        7. teach them about dignity so they want dignified porn like 'clever banter/dialogue' (involving more complex functions like 'understanding' and 'inventing')
-
-    - This is the type of 'solution metric set' that you can now feed into chatgpt to identify 'solution implementation algorithms' that are pretty good at 'solving the input problem', after first inputting a problem like 'identify the intents or solution metric sets to solve a problem like pedophilia, to implement with specific solutions' which should return the above intents which can be applied as solution metrics or component intents to solve for.
-
     - So apply the following chatgpt queries to solve a problem:
         1. identify solution metrics (like component intent sets) to solve a problem 
         2. identify specific solution implementations of those 'solution metrics or solution component  intent sets' (where the implementations can fulfill multiple integrated intents)
@@ -168,11 +156,9 @@ Useful algorithms
     - If you dont have dedicated teams, at least make sure your teams are using the tools of OpenAI designed for these intents
 
     - additional specific solution metrics should be applied before shipping a solution, like:
-        - 'will this help pedophiles or geniuses/angels'
+        - 'will this help criminals or geniuses/angels'
         - 'will this contradict any other policies/projects being applied, and if so, how can they be integrated/coordinated'
         - 'will this solution involve violating people in any way, and if so, how, and are these people criminals or not'
-
-    - I can solve a harder problem than pedophilia (turning a straight woman into a bisexual woman, in a 'real' way, not by 'cheap false methods' like 'giving them alcohol', but by 'being a cool woman who is manlier than any man like better at problem-solving', its important to note that I dont want to though, I want a 'job as an inventor and money for my inventions'), so I know I can solve pedophilia, and Ive already made decent progress at finishing that goal, so dont let turdgay ruin it all by killing me, distract him with whores who are really good at pretending to love someone if you cant kill him for some odd reason (it would be really weird if it was impossible to kill a hated pedophile guys, Im pretty sure it'll be possible, even trivial to do that, and he wont stop trying to kill me bc hes so pathetic and obsessed with me, I know how people work and I know that Im pissing the turd off, but I expect him to back off and not kill me anyway, but hes too stupid to be alive so he kept violating/poisoning me, so he deserves insults, I dk why he thinks he wont get them, insults are basically the only tool I have to scare him off other than not working out, I expected someone to intervene way sooner than this, its not that hard to figure out what I want, its the things I dont have yet ('money for my inventions, privacy, and being spoken to by the creeps who violate me since that appears to be the only thing that exists other than me and H (to be informed that I will not be violated anymore and to be offered a job as an inventor)')
 
     - build testing tools to gather new data
         - https://www.nature.com/articles/d41586-024-03990-2 - 'The AI revolution is running out of data. What can researchers do?'
