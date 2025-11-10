@@ -38,7 +38,9 @@ I. To do list
 
 		- what are the base concepts like 'connections between relevant graphs' that iterated interface structures should be applied to (like the 'limit of connections between relevant graphs'), so these base concepts can be connected in a graph of all relevance structures
 
-		- what are all the optimizations for a problem like 'AI drug discovery', such as 'identifying a function map of the bio-system to identify missing substance types, assuming an error like incomplete function coverage of known substance types'
+		- what are all the optimizations for a problem like 'AI drug discovery', such as 'identifying a function map of the bio-system to identify missing substance types, assuming an error like incomplete function coverage of known substance types or incomplete interaction info of known substance types'
+
+		- what is the optimal metadata of queries like 'number of examples' for causes like 'because n number of examples effectively filters possible intents/definitions', or 'number of explicitly stated intents' because 'intents are too variable and ambiguous to be filtered', as in optimal for intents like 'summarization' or 'invention'
 
 
 II. Queries and Results
