@@ -37,7 +37,9 @@ I. To do list
 		- what are the interface variable problems with machine learning like 'machine learning algorithms will generate "complexity" that humans cant "understand"' and 'machine learning can identify "possible causality" that cant be "verified/tested" with existing tools' and 'machine learning algorithms need "test" tools like laboratories to "verify" their results' and what are the solutions to those problems like 'identify new concepts encoding complexity like iterations of interface structures up to n degrees that a human can understand like "validity, relevant validity, relevant consistent validity, cross-interface validity, validity according to the causal variable graph, validity networks, validity in a concept network, etc" so that tests can be generated automatically to evaluate the complexity in sufficiently simple number of concepts/structures that a human can understand like "n-iteration concepts in n networks" that a human is capable of learning and understanding simultaneously or in a similar timeframe and so that these tests can be interpreted by a human within a reasonable time like several minutes/hours that enables decision-making after understanding' and 'identify mismatches in relevant functionality like "identify possibility/verify definition" and correct these mismatches'
 
 		- what are the base concepts like 'connections between relevant graphs' that iterated interface structures should be applied to (like the 'limit of connections between relevant graphs'), so these base concepts can be connected in a graph of all relevance structures
-		
+
+		- what are all the optimizations for a problem like 'AI drug discovery', such as 'identifying a function map of the bio-system to identify missing substance types, assuming an error like incomplete function coverage of known substance types'
+
 
 II. Queries and Results
 
