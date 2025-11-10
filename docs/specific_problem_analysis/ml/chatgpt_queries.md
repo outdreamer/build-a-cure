@@ -41,7 +41,9 @@ I. To do list
 		- what are all the optimizations for a problem like 'AI drug discovery', such as 'identifying a function map of the bio-system to identify missing substance types, assuming an error like incomplete function coverage of known substance types or incomplete interaction info of known substance types'
 
 		- what is the optimal metadata of queries like 'number of examples' for causes like 'because n number of examples effectively filters possible intents/definitions', or 'number of explicitly stated intents' because 'intents are too variable and ambiguous to be filtered', as in optimal for intents like 'summarization' or 'invention'
-			- what is the optimal network of graphs to connect in order to identify useful 'variable interactions in a system' like the 'complete impact of a substance on a bio system'
+			- what is the optimal network of graphs to connect in order to identify useful structures like 'useful variable interactions in a system (like the "complete impact of a substance on a bio system")'
+
+		- similar to how 'LLMs encode how sequences like sentences usually work (capturing sequential word interactions)', what other neural network types encode how 'graphs/networks usually work (capturing node/network interactions)' given structures like 'sequences (like queries/patterns of the graph)' or 'spectrums embedded in a graph' or 'generative variables of the graph' or 'graph layers' or 'graph encoding like node colors', or graph intents like 'optimizing a graph by compressing it into a graph of graphs or optimizing for query types or optimizing it for integrating new nodes' and what optimal graphs can these 'rules about how graphs usually work' generate
 
 
 II. Queries and Results
