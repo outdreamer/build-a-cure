@@ -41,6 +41,7 @@ I. To do list
 		- what are all the optimizations for a problem like 'AI drug discovery', such as 'identifying a function map of the bio-system to identify missing substance types, assuming an error like incomplete function coverage of known substance types or incomplete interaction info of known substance types'
 
 		- what is the optimal metadata of queries like 'number of examples' for causes like 'because n number of examples effectively filters possible intents/definitions', or 'number of explicitly stated intents' because 'intents are too variable and ambiguous to be filtered', as in optimal for intents like 'summarization' or 'invention'
+			- what is the optimal network of graphs to connect in order to identify useful 'variable interactions in a system' like the 'complete impact of a substance on a bio system'
 
 
 II. Queries and Results
