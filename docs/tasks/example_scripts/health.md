@@ -1004,14 +1004,10 @@
 		        - increase serotonin: exercise, vitamin d, omega 3's, ashwagandha, theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics, avoid caffeine and artificial sweeteners
 		        - increase dopamine: theanine, bacopa, tyrosine, phenylalanine, probiotics, avoid saturated fat
 		        - stimulate vagus nerve: zinc, probiotics, choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
-				- change HPA axis
-				    - increase IL-1/6/10/tnf-a to activate the HPA axis to handle stress/anxiety
-				        - increase tnf-α (coconut, astragalus)
-				        - increase il-10 (coconut, ginseng)
-				        - avoid excess turmeric, berberine, holy basil, ginger, garlic, milk thistle, d-limonene, pepper, seaweed, hibiscus, boswellia, and chicory, which decrease il-1/6/10 or tnf-a
+				- deactivate HPA axis which activates to create cortisol
+				    - decrease IL-1/6/10/tnf-a to deactivate the HPA axis to handle stress/anxiety
 				    - if the HPA axis is overactive, suppress its triggers
-					    - infrared light therapy 
-					        - low-level infrared light application decreased the TNF-α, IL-6, and IFN-γ, but had no impact on TGF-β1
+					    - infrared light therapy: low-level infrared light application decreased the TNF-α, IL-6, and IFN-γ, but had no impact on TGF-β1
 			    - balance hormones
 			    	- estrogen, testosterone, ADH/vasopressin, and cortisol impact anxiety
 				    - change ADH/vasopressin levels
