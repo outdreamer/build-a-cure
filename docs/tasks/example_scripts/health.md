@@ -867,8 +867,9 @@
 			        	- increase insulin secretion: 
 			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
 			        	- lower glucose/manage insulin sensitivity: 
-			        		- lion's mane, potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
+			        		- serine, lion's mane, potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
 							- https://pubmed.ncbi.nlm.nih.gov/38931176/
+							- https://pmc.ncbi.nlm.nih.gov/articles/PMC6851881/
 						- reduce hyperglycemia: 
 							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
@@ -941,7 +942,7 @@
 			- memory/cognition: Polygala tenuifolia Willdenow, ginkgo biloba/Cistanche tubulosa, avoid junk food high in saturated fat
 				- https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1573034/full
 			- insomnia: vitamin d, tryptophan, melatonin (melatonin and other sedatives can cause rebound insomnia), treat high serotonin levels which can cause insomnia, avoid medications that can cause insomnia
-			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, melatonin
+			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, melatonin
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- nootropics
