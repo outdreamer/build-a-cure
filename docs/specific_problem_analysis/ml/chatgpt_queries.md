@@ -54,6 +54,9 @@ I. To do list
 
 		- what are the optimal graphs like a 'graph of machine learning algorithms, indicating multiple intent layers of the algorithm, to make error structures in intents and graphs more obvious, like errors in overlapping components across layers or errors in emergent intents on a layer or error areas of a set of machine learning algorithm graphs in a graph of machine learning algorithm graphs', like the graph in https://github.com/outdreamer/solver/blob/master/docs/objects/graph_generation.drawio.svg
 
+		- what are the graphs of useful intents like 'identify requirements from definitions, because definitions are static so their connections are requirements'
+			- what are graphs that implement useful queries, like how a 'concept definition-structure graph' that 'identifies definitions until specific queries are possible' enables queries like 'create complexity n by creating components of complexity (variation m and subtlety x and iteration y and specificity z)', a graph which requires that 'all definitions are connectible to the point where these cross-concept requirements can be identified'
+
 
 II. Queries and Results
 
