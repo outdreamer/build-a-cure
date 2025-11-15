@@ -901,7 +901,7 @@
 				- reverse osmosis water filter
 				- avoid kale/other foods with higher PFAS levels or foods stored in plastic for a long time like frozen foods/cereal
 				- avoid personal care products like soap/toilet paper unless theyre labeled as free of PFAS or if theyre sold at Whole Foods
-				- bloodletting and cholestyramine can reduce pfas in blood
+				- bloodletting and cholestyramine and colesevelam can reduce pfas in blood
 				- buy clothes/products from these stores: 
 					- https://pfascentral.org/pfas-free-products/
 			2. Solution to BPA in cans:
@@ -943,6 +943,7 @@
 				- https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1573034/full
 			- insomnia: vitamin d, tryptophan, melatonin (melatonin and other sedatives can cause rebound insomnia), treat high serotonin levels which can cause insomnia, avoid medications that can cause insomnia
 			- schizophrenia:
+				- Schizophrenia is characterized by abnormalities in glutamatergic pathways related to NMDA receptor hypofunction
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 		        - vitamin b/d/c/e, alpha lipoic acid, glycine, d-serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, ginger, luteolin, Sceletium tortuosum
 		        - chinese herbs: https://pmc.ncbi.nlm.nih.gov/articles/PMC6481906/
@@ -976,7 +977,7 @@
 		            Clozapine (Clozaril) - not for kidney damage patients, excreted by kidney
 		            Iloperidone (Fanapt) - excreted by kidney
 		            Lumateperone (Caplyta) - causes high blood sugar
-		            Lurasidone (Latuda) - caution for kidney damage, causes anxiety, causes high blood pressure, 
+		            Lurasidone (Latuda) - caution for kidney damage, causes anxiety, causes high blood pressure
 		                - lurasidone may improve glucose and cholesterol levels, making it another suitable choice for patients at risk of diabetes
 		                - lurasidone is less likely to cause high blood sugar levels in most patients, but hyperosmolar hyperglycemic syndrome may occur
 		            Olanzapine (Zyprexa) - excreted by kidney
@@ -987,14 +988,15 @@
 		            Ziprasidone (Geodon) - caution for kidney damage
 		            Milnacipran - causes high blood pressure
 		            Cobenfy - causes high blood pressure
-		            - d-serine may cause kidney damage
+		            - d-serine may cause kidney damage, may either increase or reduce anxiety
 		            - daao inhibitor to increase d-serine: risperidone, sodium benzoate, luvadaxistat
 		                - D-amino acid oxidase is used in therapeutic treatments such as regulation of hormones, regulation of hypertension, treatment of schizophrenia
 		                - D-serine is the main endogenous co-agonist of NMDA receptors
 		                - Inhibition of DAAO has been shown to increase D-serine levels
+		                - sodium benzoate may cause anxiety
 		                - Luvadaxistat, a D-amino acid oxidase (DAAO) inhibitor that increases the glutamate co-agonist D-serine levels
 		            - https://pmc.ncbi.nlm.nih.gov/articles/PMC9122172/
-		        - pde4 inhibitors
+		        - PDE4/PDE10A inhibitors
 		            - https://pmc.ncbi.nlm.nih.gov/articles/PMC11747726/
 		            - By increasing cAMP levels, PDE4 inhibitors promote neuronal survival, sweeten synaptic plasticity, and reduce oxidative stress/neurotoxicity, and neuroinflammation
 		            - inhibition of PDE10A and PDE4 would potentially emerge as the most effective in the clinical setting on the control of both positive and negative psychotic symptomatology
@@ -1012,6 +1014,13 @@
 		                    - kanna works to reduce anxiety by mechanisms including inhibition of PDE4 and inhibition of reuptake of 5-HT
 		                - Roflumilast: inhibition of PDE4 obtained by roflumilast ameliorates cognitive patterns in schizophrenia, could cause anxiety or insomnia
 		                - https://en.wikipedia.org/wiki/PDE4_inhibitor
+		            - other schizophrenia treatments
+		            	- Vortioxetine (5-HT multimodal agent): can cause low blood pressure and insomnia, not to be used in combination with other serotonergic drugs like MAOIs or SSRIs
+		            	- Iclepertin (Glycine transporter 1-inhibitor)
+		            	- Ulotaront (Trace-amine associated receptor 1 (TAAR-1) agonist)
+		            		- https://pmc.ncbi.nlm.nih.gov/articles/PMC12244209/
+		            	- Xanomeline (M1/M4–preferring muscarinic receptor agonist) and trospium (KarXT)
+		            		- https://www.sciencedirect.com/science/article/pii/S0006322324013490
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- nootropics
 				- focus/memory: coffee fruit, DMAE, huperzine A, ginkgo, ginseng, oats, rhodiola rosea, bacopa monnieri, theanine, caffeine, creatine, citicoline or alpha GPC, ashwagandha, agmatine, theobromine, kanna (sceletium tortusosum), lion's mane & other medicinal mushrooms, tyrosine, threonine, phosphatidylserine, b vitamins, saffron
@@ -1043,7 +1052,12 @@
 				- increase IL-4 and IL-10 to suppress anxiety
 				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
 				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
-				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan
+				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan, magnesium
+					- NMDA receptor antagonists have been shown to control synaptic plasticity, lowering anxious behavior
+				- NMDA receptor agonists: d-serine
+					- NMDA receptor agonists can reduce the expression of conditioned fear
+					- D-serine, the endogenous agonist of NMDAR, enhances NMDAR function by specifically binding to the glycine site of NMDAR, promoting synaptic plasticity and the regression of fear memories
+					- https://www.sciencedirect.com/science/article/abs/pii/S0166432825001330
 				- avoid caffeine: caffeine is a psychoactive stimulant of the central nervous system that increases alertness/energy by blocking adenosine, which increases anxiety symptoms like high blood pressure and increased heart rate
 				- Increased HDAC2 expression decreases the expression of genes important for the maintenance of dendritic spine density such as BDNF, Arc, and NPY, leading to increased anxiety and alcohol-seeking behavior
 					- Nucleus accumbens deep brain stimulation decreases ratings of depression and anxiety in treatment-resistant depression
@@ -3093,7 +3107,7 @@
 			- that means washing clothes twice before wearing, using non-toxic laundry detergent and soap and anything else that touches your skin, not buying plastic anything such as shower curtains, not trying on new clothes without washing them first, looking for ways to clean PFAS from your water, avoiding food that binds to PFAS such as kale, avoiding soda cans made with BPA (avoiding canned food at all, similarly avoiding ceramic containers that may contain lead, instead using wood/pyrex where possible), etc
 			- these can cause organ failure which can make it more difficult to fight cancer and can also cause cancer directly
 			- plastics in products often accompany other harmful substances like formaldehyde which is a carcinogen
-			- bloodletting and cholestyramine can reduce pfas in blood
+			- bloodletting and cholestyramine and colesevelam can reduce pfas in blood
 		- artificial sweeteners
 			- monk fruit and stevia and possibly xylitol might be the only safe artificial sweeteners other than natural sugars like honey
 		- emulsifiers 
