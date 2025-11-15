@@ -58,7 +58,9 @@ I. To do list
 			- what are graphs that implement useful queries, like how a 'concept definition-structure graph' that 'identifies definitions until specific queries are possible' enables queries like 'create complexity n by creating components of complexity (variation m and subtlety x and iteration y and specificity z)', a graph which requires that 'all definitions are connectible to the point where these cross-concept requirements can be identified'
 
 		- what are the useful graph sequences to generate optimal graphs, like the graph sequence in https://github.com/outdreamer/solver/blob/master/docs/objects/graph_generation.drawio.svg
-		
+
+		- what variables are useful to match, like how its useful to match 'generality' with 'information', like 'this level of generality is acceptable if this level of information is available' (this 'general intent' is acceptable to not specify further if there is sufficient specific information available to implement it, otherwise if not then more specific information is required for implementing such a general intent)
+
 
 II. Queries and Results
 
