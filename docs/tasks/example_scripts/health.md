@@ -942,8 +942,76 @@
 			- memory/cognition: Polygala tenuifolia Willdenow, ginkgo biloba/Cistanche tubulosa, avoid junk food high in saturated fat
 				- https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1573034/full
 			- insomnia: vitamin d, tryptophan, melatonin (melatonin and other sedatives can cause rebound insomnia), treat high serotonin levels which can cause insomnia, avoid medications that can cause insomnia
-			- schizophrenia: vitamin d/c/e, alpha lipoic acid, glycine, serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, melatonin
+			- schizophrenia:
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
+		        - vitamin b/d/c/e, alpha lipoic acid, glycine, d-serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, ginger, luteolin, Sceletium tortuosum
+		        - chinese herbs: https://pmc.ncbi.nlm.nih.gov/articles/PMC6481906/
+		            - Rhizoma Pinelliae
+		            - Bambusae Caulis In Taeniam
+		            - Pericarpium Citri Reticulatae
+		            - Fructus Aurantii Immaturus - immature bitter orange
+		            - Poria Cocos
+		            - Rhizoma Zingiberis - ginger rhizome
+		            - Jujube 
+		            - Radix Glycyrrhizae - licorice root
+		        - The phenothiazine group of antipsychotic medication increases the risk of hypotension in patients with CKD
+		        - most second-generation (atypical) antipsychotic medications are also considered safe in renal diseases as most of them are metabolized in the liver
+		        - Caution needs to be exercised while using antipsychotic medications such as flupentixol, pimozide, trifluoperazine, and zuclopenthixol
+		        - First-generation antipsychotic drugs: less likely to cause high blood sugar than second-generation drugs
+		            Chlorpromazine (Thorazine) - caution for kidney damage
+		            Fluphenazine (Proxlixin)
+		            Haloperidol (Haldol) - safest first generation medicine
+		            Loxapine (Loxitane)
+		            Perphenazine (Trilafon)
+		            Pimozide (Orap)
+		            Thioridazine (Mellaril)
+		            Thiothixene (Navane)
+		            Trifluoperazine (Stelazine)
+		        - Newer antipsychotic drugs
+		            Amisulpride - needs to be avoided in kidney disease, causes high blood pressure
+		            Aripiprazole (Abilify) - causes anxiety
+		            Asenapine (Saphris) - poorly studied in kidney disease, raises blood sugar
+		            Brexpiprazole (Rexulti) - causes high blood sugar
+		            Cariprazine (Vraylar) - causes high blood sugar
+		            Clozapine (Clozaril) - not for kidney damage patients, excreted by kidney
+		            Iloperidone (Fanapt) - excreted by kidney
+		            Lumateperone (Caplyta) - causes high blood sugar
+		            Lurasidone (Latuda) - caution for kidney damage, causes anxiety, causes high blood pressure, 
+		                - lurasidone may improve glucose and cholesterol levels, making it another suitable choice for patients at risk of diabetes
+		                - lurasidone is less likely to cause high blood sugar levels in most patients, but hyperosmolar hyperglycemic syndrome may occur
+		            Olanzapine (Zyprexa) - excreted by kidney
+		            Olanzapine/samidorphan (Lybalvi) - excreted by kidney
+		            Paliperidone (Invega) - excreted by kidney
+		            Quetiapine (Seroquel) - causes a movement disorder, excreted by kidney
+		            Risperidone (Risperdal) - excreted by kidney, increases blood sugar
+		            Ziprasidone (Geodon) - caution for kidney damage
+		            Milnacipran - causes high blood pressure
+		            Cobenfy - causes high blood pressure
+		            - d-serine may cause kidney damage
+		            - daao inhibitor to increase d-serine: risperidone, sodium benzoate, luvadaxistat
+		                - D-amino acid oxidase is used in therapeutic treatments such as regulation of hormones, regulation of hypertension, treatment of schizophrenia
+		                - D-serine is the main endogenous co-agonist of NMDA receptors
+		                - Inhibition of DAAO has been shown to increase D-serine levels
+		                - Luvadaxistat, a D-amino acid oxidase (DAAO) inhibitor that increases the glutamate co-agonist D-serine levels
+		            - https://pmc.ncbi.nlm.nih.gov/articles/PMC9122172/
+		        - pde4 inhibitors
+		            - https://pmc.ncbi.nlm.nih.gov/articles/PMC11747726/
+		            - By increasing cAMP levels, PDE4 inhibitors promote neuronal survival, sweeten synaptic plasticity, and reduce oxidative stress/neurotoxicity, and neuroinflammation
+		            - inhibition of PDE10A and PDE4 would potentially emerge as the most effective in the clinical setting on the control of both positive and negative psychotic symptomatology
+		            - PDE4 inhibitors have been demonstrated to enhance GABAergic neurotransmission and improve cognitive performance
+		            - PDE1 and PDE4 inhibitors appear to improve cognitive function and memory enhancement
+		            - PDE4 inhibitors possess an anti-inflammatory effect by decreasing the production of pro-inflammatory cytokines within the CNS
+		            - Some genes, such as DISC-1, are strongly associated with schizophrenia and encode a scaffold protein that regulates PDE4
+		                - Apremilast: a phthalimide derivative, could cause insomnia
+		                - Caffeine: a weak, non-selective PDE inhibitor, and a metabolite of caffeine, theophylline, is a more potent PDE inhibitor
+		                - Glaucine: an aporphine alkaloid, low-potency PDE4 inhibitor, calcium channel blocker, dopamine antagonist and 5-HT2A positive allosteric modulator - reduces blood pressure
+		                - Ibudilast: inhibits PDE4 to the greatest extent and shows significant inhibition of other PDE subtypes, so acts as a selective PDE4 inhibitor or a non-selective PDE inhibitor depending on dose, may also be useful in the treatment of multiple sclerosis and is a vasodilator, attenuates glial cell activation in the central nervous system, can cause nervousness
+		                - Luteolin: supplement extracted from peanuts and other plants that also possesses IGF-1 properties, may cause low blood pressure, may help reduce anxiety
+		                - Mesembrenone: an alkaloid from the herb Sceletium tortuosum (Kanna)
+		                    - mesembrine: an alkaloid present in Sceletium tortuosum (kanna), and a potent selective serotonin (5-HT) reuptake inhibitor (SSRI)
+		                    - kanna works to reduce anxiety by mechanisms including inhibition of PDE4 and inhibition of reuptake of 5-HT
+		                - Roflumilast: inhibition of PDE4 obtained by roflumilast ameliorates cognitive patterns in schizophrenia, could cause anxiety or insomnia
+		                - https://en.wikipedia.org/wiki/PDE4_inhibitor
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- nootropics
 				- focus/memory: coffee fruit, DMAE, huperzine A, ginkgo, ginseng, oats, rhodiola rosea, bacopa monnieri, theanine, caffeine, creatine, citicoline or alpha GPC, ashwagandha, agmatine, theobromine, kanna (sceletium tortusosum), lion's mane & other medicinal mushrooms, tyrosine, threonine, phosphatidylserine, b vitamins, saffron
