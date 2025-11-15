@@ -57,6 +57,8 @@ I. To do list
 		- what are the graphs of useful intents like 'identify requirements from definitions, because definitions are static so their connections are requirements'
 			- what are graphs that implement useful queries, like how a 'concept definition-structure graph' that 'identifies definitions until specific queries are possible' enables queries like 'create complexity n by creating components of complexity (variation m and subtlety x and iteration y and specificity z)', a graph which requires that 'all definitions are connectible to the point where these cross-concept requirements can be identified'
 
+		- what are the useful graph sequences to generate optimal graphs, like the graph sequence in https://github.com/outdreamer/solver/blob/master/docs/objects/graph_generation.drawio.svg
+		
 
 II. Queries and Results
 
