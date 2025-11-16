@@ -945,6 +945,8 @@
 			- schizophrenia:
 				- Schizophrenia is characterized by abnormalities in glutamatergic pathways related to NMDA receptor hypofunction
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
+				- treat parasitic infections that can cause schizophrenia like toxoplasma gondii
+					- a large amount of antipsychotic medications are known to kill T. gondii tachyzoites in in-vitro cultures of human brain tissue. Examples include fluphenazine, valproic acid, haloperidol, and zuclopenthixol; active toxoplasmosis can be treated with a combination of drugs such as pyrimethamine and sulfadiazine, plus folinic acid
 		        - vitamin b/d/c/e, alpha lipoic acid, glycine, d-serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, ginger, luteolin, Sceletium tortuosum
 		        - chinese herbs: https://pmc.ncbi.nlm.nih.gov/articles/PMC6481906/
 		            - Rhizoma Pinelliae
@@ -1052,6 +1054,8 @@
 				- increase IL-4 and IL-10 to suppress anxiety
 				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
 				- glycine transporter type 1 inhibitors: sarcosine (cancer patients should avoid sarcosine)
+				- suppress non-Hoxb8 microglia and mutant Hoxb8 microglia
+					- https://pubmed.ncbi.nlm.nih.gov/40897864/ 
 				- NMDAR antagonists: phenylalanine, kynurenic acid from tryptophan, magnesium
 					- NMDA receptor antagonists have been shown to control synaptic plasticity, lowering anxious behavior
 				- NMDA receptor agonists: d-serine
@@ -1085,7 +1089,9 @@
 		        - decrease norepinephrine/adrenaline: kava, panax ginseng, holy basil, ashwagandha, astragalus, licorice, rhodiola, cordyceps, black/green tea, indian snakeroot
 		        - increase oxytocin: vitamin d/c, magnesium, taurine, Lactobacillus reuteri, chamomile, Oleoylethanolamide, melatonin, fenugreek, jasmine, clary sage, anise seed, intermittent drinking
 		        - increase serotonin: exercise, vitamin d, omega 3's, ashwagandha, theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics, avoid caffeine and artificial sweeteners
+		        	- serotonin can be either low or high in anxiety
 		        - increase dopamine: theanine, bacopa, tyrosine, phenylalanine, probiotics, avoid saturated fat
+		        	- dopamine can be either low or high in anxiety
 		        - stimulate vagus nerve: zinc, probiotics, choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- deactivate HPA axis which activates to create cortisol
 				    - if the HPA axis is overactive, suppress its triggers

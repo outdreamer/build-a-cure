@@ -62,6 +62,9 @@ I. To do list
 		- what variables are useful to match, like how its useful to match 'generality' with 'information', like 'this level of generality is acceptable if this level of information is available' (this 'general intent' is acceptable to not specify further if there is sufficient specific information available to implement it, otherwise if not then more specific information is required for implementing such a general intent)
 
 		- what queries are useful to identify the future of thinking, like 'which solutions to which problems are non-obvious to brains, identifying what will be obvious to a future brain'
+			- scaled thinking will enable queries like 'what is the error in this deep neural network' with graphs like an 'error-identification graph, applied to subsets of the network iteratively until the error is identified' to avoid 'requiring a graph equal or greater in size to the neural network to model its errors', a graph which would indicate a lack of progress in problem-solving, as opposed to a graph associated with a workflow that can solve the problem if applied iteratively to subsets of the neural network or applied to a subset of variables of the neural network or another 'subset' structure or 'alternate' structure like solving the problem with an 'alternative variant of the neural network' like a 'representative network of the neural network'
+
+		- identify useful equivalences between problems, like how solving the problem of 'identify a graph that solves this problem without requiring iteration at any step' is solving the problem of 'identifying an intelligence algorithm'
 
 
 II. Queries and Results
