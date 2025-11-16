@@ -61,6 +61,8 @@ I. To do list
 
 		- what variables are useful to match, like how its useful to match 'generality' with 'information', like 'this level of generality is acceptable if this level of information is available' (this 'general intent' is acceptable to not specify further if there is sufficient specific information available to implement it, otherwise if not then more specific information is required for implementing such a general intent)
 
+		- what queries are useful to identify the future of thinking, like 'which solutions to which problems are non-obvious to brains, identifying what will be obvious to a future brain'
+
 
 II. Queries and Results
 
