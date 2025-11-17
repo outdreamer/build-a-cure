@@ -66,6 +66,8 @@ I. To do list
 
 		- identify useful equivalences between problems, like how solving the problem of 'identify a graph that solves this problem without requiring iteration at any step' is solving the problem of 'identifying an intelligence algorithm'
 
+		- what are the connections between algorithms/graphs and problems they can solve, like 'what problem types/differences (like the inverse of a problem) can an algorithm/graph solve', and what are the connections between algorithms and graphs like 'what graphs optimize which algorithms', 'what algorithms havent been or cant be replaced by a graph yet', etc
+
 
 II. Queries and Results
 
