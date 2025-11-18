@@ -68,6 +68,8 @@ I. To do list
 
 		- what are the connections between algorithms/graphs and problems they can solve, like 'what problem types/differences (like the inverse of a problem) can an algorithm/graph solve', and what are the connections between algorithms and graphs like 'what graphs optimize which algorithms', 'what algorithms havent been or cant be replaced by a graph yet', etc
 
+		- what are optimal rules to generate graphs, like how 'color can be applied to indicate similarities within sets, and should also indicate similarities across sets, applying an embedded similarity in a similarity (applying color as a spectrum variable to match data types)'
+
 
 II. Queries and Results
 
