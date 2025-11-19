@@ -70,6 +70,8 @@ I. To do list
 
 		- what are optimal rules to generate graphs, like how 'color can be applied to indicate similarities within sets, and should also indicate similarities across sets, applying an embedded similarity in a similarity (applying color as a spectrum variable to match data types)'
 
+		- what are useful rules to generate useful graphs like a 'graph that embeds the most other relevant graphs' by 'embedding graphs in graphs, until the limit of usefulness of embedding graphs in a graph is reached', like how its useful to embed a graph of 'interface interaction rules' (which can determine most possibilities) in the 'variation/uncertainties/possibilities' section of a graph limited by 'constants/certainties/limits/requirements/definitions' as an additional filter of that possibility space
+
 
 II. Queries and Results
 
