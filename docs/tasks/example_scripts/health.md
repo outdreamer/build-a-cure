@@ -14,8 +14,6 @@
 
 - useful sub-intents with associated substances
 
-	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, and quercetin), based on identifying treatments in ncbi.nlm.nih.gov articles, these are not inventions
-
 	- fix your other medical problems so you can fight your medical problems better
 		- some of these substances kill pathogens, some inhibit/suppress pathogen activity indirectly/directly, some boost the immune system, and some help only with specific symptoms rather than the causal pathogen
 		- fungal infections:
@@ -201,14 +199,14 @@
 				- angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): 
 					- garlic, seaweed (wakame, etc), tuna, sardine, hawthorn, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate
 					- Olive Leaf, Avena sativa, Bothrops jararaca, Bothrops moojeni, Cajanus cajan, green tea (EGCG), Berberine, Coix larchryma-jobi, Egg Yolk, Lithospermic Acid B, Salvia hispanica, Vigna radiata, Ampelopsis Brevipedunculata (Hopeaphenol; Vitisin A, Asparagus officinalis (Asparaptine), Chinese Herb (Pentagalloylglucose, Isochlorogenic acid B, Methyl 3,4-di-O-caffeoylquinate, Epigallocatechin gallate (EGCG/green tea), Epigallocatechin-3-O-Methylgallate), Cleistanthus collinus (Cleistanthins A, B), Clerodendron trichotomum (Acteoside, Isomartynoside, Leucosceptoside A, Martynoside), Delphinium sp. (Cyanin, Delphinidin), Desmodium styracifolium (Carlinoside, Schaftoside, Vicenin 1–3), Dioscorea opposita Thunb. (Diascorin), Eucommia ulmoides (Megastigmane Enantiomersv, Glycyrrhiza glabra (Licochalcone A), Glycyrrhiza uralensis (Echinatinv, Limonium michelsonii (Isolates), Mucuna Pruriens (Genistein), Caffeic Acid, Caffeoyl Acetate, Chlorogenic Acid, Ferulic Acid), Salvia miltiorrhizae (Salvianolic Acid B), Sargassum wightii (O-Heterocyclic Analogues), Tamarix hohenackeri (Chrysoeriol, Quercetin, Isoferulic acid, Methyl-4-O-methylgallate, Gallic acid, Methyl gallate), Toona sinensis (Quercetin, Resveratrol), Xestospongia Cf. Vansoesti (Salsolinol)
-				    - ACE-changing substances: 
+					- ACE-changing substances: 
 						- Dohaekseunggi-tang, Nigella sativa, Cymodocea Nodosa, Plantago major, Mucuna pruriens, Syzygium cumini, Fucus spiralis, Eucalyptus camaldulensis, Litsea glaucescens, Lens culinaris sprouted, Pleurotus eryngii, Phaseolus vulgaris, Prunus amygdalus, Pistacia vera juice, Boza protein extract, Nitraria sibirica, Amaranthus dubius, Amaranthus hybridus, Asystasia gangetica, Galinsoga parviflora, Justicia flava, Oxygonum sinuatum, Physalis viscosa, Tulbaghia violacea, Bulbus Fritillaria
-				    - mechanism: ACE inhibitors cause relaxation of blood vessels as well as a decrease in blood volume, which leads to lower blood pressure and decreased oxygen demand from the heart. ACE inhibitors inhibit the activity of angiotensin-converting enzyme (an important component of the renin–angiotensin system which converts angiotensin I to angiotensin II), and hydrolyses bradykinin, thereby decreasing the formation of angiotensin II, a vasoconstrictor, and increasing the level of bradykinin, a peptide vasodilator
+					- mechanism: ACE inhibitors cause relaxation of blood vessels as well as a decrease in blood volume, which leads to lower blood pressure and decreased oxygen demand from the heart. ACE inhibitors inhibit the activity of angiotensin-converting enzyme (an important component of the renin–angiotensin system which converts angiotensin I to angiotensin II), and hydrolyses bradykinin, thereby decreasing the formation of angiotensin II, a vasoconstrictor, and increasing the level of bradykinin, a peptide vasodilator
 				- central alpha agonists (reduced sympathetic nervous system activity):
 					- taurine, potassium, zinc, sodium restriction, protein, fiber, vitamin c/b6, coq10, celery, gamma-linolenic acid/dihomo-gamma-linolenic acid, garlic
 				- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): 
 					- potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
-				    - mechanism: ARBs selectively block the activation of the AT1 receptor, preventing the binding of angiotensin II compared to ACE inhibitors, binding to and inhibiting the angiotensin II receptor type 1 (AT1) and thereby blocking the arteriolar contraction and sodium retention effects of renin–angiotensin system. Angiotensin II, through AT1 receptor stimulation, is a major stress hormone and, because (ARBs) block these receptors, in addition to their eliciting anti-hypertensive effects, may be considered for the treatment of stress-related problems like anxiety
+					- mechanism: ARBs selectively block the activation of the AT1 receptor, preventing the binding of angiotensin II compared to ACE inhibitors, binding to and inhibiting the angiotensin II receptor type 1 (AT1) and thereby blocking the arteriolar contraction and sodium retention effects of renin–angiotensin system. Angiotensin II, through AT1 receptor stimulation, is a major stress hormone and, because (ARBs) block these receptors, in addition to their eliciting anti-hypertensive effects, may be considered for the treatment of stress-related problems like anxiety
 				- AGT1R inhibitors: 
 					- Apocynum venetum, DanHong, Liuwei Dihuang, Yiqi Huaju, Songling xuemaikang, Alisma orientale (23-O-acetylalisol B, Alismol, Alisols A, Alisols B), Astragalus membranaceus (Astragaloside IV), Cynodon dactylon (Linoleoylchloride, Diazoprogesteron, Didodecyl Phthalate), Eucommia ulmoides (Megastigmane Enantiomers), Salvia miltiorrhizae (Salvianolic acid B), Tanshinone IIA
 				- direct vasodilators: 
@@ -332,12 +330,12 @@
 			- avoid the following for patients with organ failure:
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544088/
 				- https://en.wikipedia.org/wiki/List_of_herbs_with_known_adverse_effects
-		    - avoid bpc-157 to repair damage bc it can cause cancer
-		    - avoid eating food high in AGEs which can harm heart/kidney health
-		    - ketones/keto diet:
-		    	- a keto diet can help repair organ daage if it is low in salt/other electrolytes/protein (only eat protein from vegetables and some fish, supplemented with repairing amino acids like glutamate, NAC, tyrosine, taurine, glycine, aspartic acid, histidine and carnitine) bc ketones are protective of the kidneys and are easily used by the heart, though ketones can also increase blood pressure so be careful with ketone supplements
-		    - PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
-		    	- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
+			- avoid bpc-157 to repair damage bc it can cause cancer
+			- avoid eating food high in AGEs which can harm heart/kidney health
+			- ketones/keto diet:
+				- a keto diet can help repair organ daage if it is low in salt/other electrolytes/protein (only eat protein from vegetables and some fish, supplemented with repairing amino acids like glutamate, NAC, tyrosine, taurine, glycine, aspartic acid, histidine and carnitine) bc ketones are protective of the kidneys and are easily used by the heart, though ketones can also increase blood pressure so be careful with ketone supplements
+			- PARP inhibitors (berberine, turmeric, honokiol, resveratrol and EGCG) may help recovery after heart attack
+				- 'Excessive PARP-1 activity may exacerbate the pathogenesis of stroke, myocardial infarction, neurodegeneration, and a number of other disease conditions due to excessive inflammation. Thus, reduction of inflammation by PARP-1 inhibition can mitigate these conditions' - https://en.wikipedia.org/wiki/PARP_inhibitor
 			- use fasting, a keto diet, glutamine, tyrosine, GABA, arginine, lysine (not for kidney/liver damage), maca to increase the amount of human growth hormone to recover
 			- kidney damage: fasting, omega 3s, melatonin, betaine, b vitamins in smaller doses, corn silk, hibiscus, berries, digestive enzymes, prunella vulgaris, lubiprostone to prevent further damage
 				- resistant starch (increases GLP-1, so it helps with kidney disease like ozempic does)
@@ -352,7 +350,7 @@
 				- also 'avoid excess salt for a few weeks' to increase kidney regeneration by increasing CCN1/CYR61
 					- https://medicalxpress.com/news/2024-06-loss-salt-body-fluid-kidney.html
 				- omega 3s to repair kidney damage by inhibiting IL-11 (eat a small amount of salmon every day to help kidneys recover faster)
-				    - https://www.nature.com/articles/s41467-022-35306-1
+					- https://www.nature.com/articles/s41467-022-35306-1
 				- avoiding dietary purines to reduce cancer growth
 					- https://medicalxpress.com/news/2024-07-tumor-growth-fueled-nucleotide-salvage.html
 				- supplements which increase VEGF to induce angiogenesis (should be avoided for cancer): copper, Salvia miltiorrhiza, Carthamus tinctorius, Pueraria lobata, Astragalus, Panax ginseng, Panax notoginseng, Cinnamomum cassia, Rehmannia glutinosa, Leonurus japonicus, Scutellaria baicalensis, and Geum macrophyllum
@@ -365,24 +363,24 @@
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5928447/
 				- lycopene (in tomato, papaya, grapefruit, watermelon, apricot, guava) and other carotenoids (in carrots) are associated with greater kidney functionality, so may be protective against and preventative of kidney damage
 					- https://www.nature.com/articles/s41598-019-53674-5
-			    - may help improve kidney damage: Alpha lipoic acid (ALA)/omega 3s to inhibit IL-11, Andrographis paniculata, moringa, NAC, probiotics, prebiotics (resistant starch), resveratrol
-			        - plants to use for kidney stone prevention and fixing kidney damage
-			            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541433/
-			    - berberine may be renoprotective
-			    	- 'Berberine ameliorates chronic kidney disease through inhibiting the production of gut-derived uremic toxins in the gut microbiota'
-			    		- https://www.sciencedirect.com/science/article/pii/S2211383522005184
-			    - Renal fibrosis is a product of multiple mechanisms including renal hemodynamic changes, glucose metabolism abnormalities associated with oxidative stress as well as inflammatory processes and an overactive renin-angiotensin-aldosterone system (RAAS)
-			    	- this means cardiovascular risk reduction (like with red yeast rice), managing blood glucose (like with a keto diet), managing high blood pressure (like with garlic), and inhibiting the RAA system (like with natural ACE inhibitors and ARBs, etc) is a way to suppress renal fibrosis and avoid making kidney damage or diabetic nephropathy worse
-			    - avoid vitamins A, D, E, and K supplements which can easily build up in the blood in toxic levels with kidney damage
-			    - avoid NSAIDs, ground ivy, peppermint, Aristolochic Acid, Chromium Picolinate, Germanium, L-Lysine, Larrea tridentate (Chaparral), Pausinystalia yohimbe (Yohimbe), Salix daphnoides (Willow Bark), Tripterygium wilfordii hook F (Thunder God Vine), Uncaria tomentosa (Cat's Claw), Hedeoma pulegioides (Pennyroyal), Hydrazine Sulfate, Thevetia peruviana (Yellow Oleander), Huperzinea, Astragalus, Barberry, Goldenrod, Horsetail, Java Tea Leaf, Stinging Nettle, Oregon Grape Root, Parsley Root, Uva Ursi
-			    - kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS), zinc, food with saponins (blue agave syrup, legumes, sunflower seeds, spinach, and tea) can also help prevent kidney stones
-			    	- avoid as they may cause kidney stones: oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
-			    - avoid as they may cause rhabdomyolysis: Artemisia absinthium (Wormwood Oil), Creatine Monohydrate, Glycyrrhiza glabra (Licorice)
+				- may help improve kidney damage: Alpha lipoic acid (ALA)/omega 3s to inhibit IL-11, Andrographis paniculata, moringa, NAC, probiotics, prebiotics (resistant starch), resveratrol
+					- plants to use for kidney stone prevention and fixing kidney damage
+						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8541433/
+				- berberine may be renoprotective
+					- 'Berberine ameliorates chronic kidney disease through inhibiting the production of gut-derived uremic toxins in the gut microbiota'
+						- https://www.sciencedirect.com/science/article/pii/S2211383522005184
+				- Renal fibrosis is a product of multiple mechanisms including renal hemodynamic changes, glucose metabolism abnormalities associated with oxidative stress as well as inflammatory processes and an overactive renin-angiotensin-aldosterone system (RAAS)
+					- this means cardiovascular risk reduction (like with red yeast rice), managing blood glucose (like with a keto diet), managing high blood pressure (like with garlic), and inhibiting the RAA system (like with natural ACE inhibitors and ARBs, etc) is a way to suppress renal fibrosis and avoid making kidney damage or diabetic nephropathy worse
+				- avoid vitamins A, D, E, and K supplements which can easily build up in the blood in toxic levels with kidney damage
+				- avoid NSAIDs, ground ivy, peppermint, Aristolochic Acid, Chromium Picolinate, Germanium, L-Lysine, Larrea tridentate (Chaparral), Pausinystalia yohimbe (Yohimbe), Salix daphnoides (Willow Bark), Tripterygium wilfordii hook F (Thunder God Vine), Uncaria tomentosa (Cat's Claw), Hedeoma pulegioides (Pennyroyal), Hydrazine Sulfate, Thevetia peruviana (Yellow Oleander), Huperzinea, Astragalus, Barberry, Goldenrod, Horsetail, Java Tea Leaf, Stinging Nettle, Oregon Grape Root, Parsley Root, Uva Ursi
+				- kidney stones: bicarbonate, water, lemon juice, basil juice, apple cider vinegar, celery juice, kidney bean broth, dandelion, wheatgrass juice, horsetail (avoid horsetail/silica with MS), zinc, food with saponins (blue agave syrup, legumes, sunflower seeds, spinach, and tea) can also help prevent kidney stones
+					- avoid as they may cause kidney stones: oxalates without calcium, Ascorbic Acid (Vitamin C), Ephedra sinica (Ephedra, Ma-Huang), Vaccinium macrocarpon (Cranberry)
+				- avoid as they may cause rhabdomyolysis: Artemisia absinthium (Wormwood Oil), Creatine Monohydrate, Glycyrrhiza glabra (Licorice)
 				- activated charcoal/probiotics/calcium glucarate/fiber in small amounts to get rid of toxins in blood
 				- avoid substances that can make kidney damage worse in normal doses (chromium, NSAIDs, inositol, vitamin d, quercetin, astaxanthin, thunder god vine, green tea, most other vitamins and supplements except very gentle herbs like ashwagandha in small doses)
 				- avoid high purine foods, high oxalate foods without calcium, protein/refined carbs and high acid foods like coffee, and avoid caffeine which can make kidney/heart/adrenal damage worse
-			    - use these in small amounts to increase klotho to recover from kidney damage:
-			    	- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
+				- use these in small amounts to increase klotho to recover from kidney damage:
+					- omega 3s, corn silk, vitamin d, cordyceps, activated charcoal, probiotics, broccoli, green tea, curcumin, ginseng, resveratrol, zinc, vitamin e, melatonin, senolytics, exercise, arginine, glutamine, lysine, glycine, sulforaphane, chokeberries, dong quai and chuan xiong (ligustilide), gentian root, holy basil, rhubarb, solomon's seal
 			- heart failure:
 				- flu vaccination, melatonin, vitamin d/b1/b9, iron, coffee, green tea, omega 3's, saccharomyces boulardii, alpha-lipoic acid, calcium, glucosamine, cocoa, ribose, flax seeds
 					- other herbs: motherwort, pheasant's eye, lily-of-the-valley, aconite, dandelion, kudzu, oleander, terminalia arjuna, yerba mate
@@ -438,40 +436,40 @@
 				- metabolic dysfunction-associated steatotic liver disease (MASLD): keto diet or low calorie diet
 		- adrenal problems
 			- adrenal insufficiency and related condition symptoms
-			    - cortisol deficiency: severe fatigue, weakness, weight loss, hyperpigmentation, nausea, loss of appetite
-			    - cortisol excess: weight gain, fatigue, easy bruising, muscle weakness, redness in the face, pink stretch marks, mood swings, inappropriate hunger
-			    - fludrocortisone deficiency: reduced blood pressure, nausea/vomiting, dizziness, salt craving, muscle cramps
-			    - fludrocortisone excess: hypertension, ankle swelling, exertion headache
+				- cortisol deficiency: severe fatigue, weakness, weight loss, hyperpigmentation, nausea, loss of appetite
+				- cortisol excess: weight gain, fatigue, easy bruising, muscle weakness, redness in the face, pink stretch marks, mood swings, inappropriate hunger
+				- fludrocortisone deficiency: reduced blood pressure, nausea/vomiting, dizziness, salt craving, muscle cramps
+				- fludrocortisone excess: hypertension, ankle swelling, exertion headache
 			- low DHEA: coconut, avocados, olive oil, nuts, seeds, omega-3s, vitamin d, turmeric, ginger, rosemary, thyme, oregano
 			- low cortisol/adrenal insufficiency: use hydrocortisone/cortisol, b vitamins, resveratrol, keto diet, DHEA (low DHEA can cause heart damage and cancer)
 				- fludrocortisone for symptoms of low aldosterone like salt cravings
 				- avoid causes of low cortisol: lavender, magnesium, theanine, schisandra, olive oil, phosphatidylserine, ashwagandha, rhodiola, magnolia, bacopa, lemon balm, holy basil, betaine, l-ornithine, malaysian ginseng, choline, astragalus, turmeric, zinc, maca, whey protein, inositol, st johns wort, passionflower, lion's mane, valerian, GABA, chamomile, melatonin, omega 3's, vitamin c/d/e/b5/b6/b12, coq10, glutathione, NAC, turmeric, probiotics, Bright Light Therapy, Transcranial direct current stimulation, Transcranial magnetic stimulation, ginkgo biloba, chinese skullcap, avoiding caffeine/refined carbs/alcohol/smoking which cause high cortisol, also low cholesterol is associated with lower cortisol
-		    	- related conditions to adrenal problems include pituitary/hypothalamus imbalance, which can be corrected with: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
-		    	- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen/vasopressin
-                - first dose of hydrocortisone should be taken in the morning at awakening and the last dose 4 to 6 hours before going to sleep
+				- related conditions to adrenal problems include pituitary/hypothalamus imbalance, which can be corrected with: vitamin A/C/D/E, B1/B12, manganese, milk thistle, sagebrush, alfalfa, gotu kola, ashwagandha, eleuthero, holy basil, maca, panax ginseng, rhodiola rosea, schisandra
+				- birth control pills may be helpful or harmful in increasing cortisol, given the connection between cortisol/estrogen/vasopressin
+				- first dose of hydrocortisone should be taken in the morning at awakening and the last dose 4 to 6 hours before going to sleep
 			- high cortisol: hydrocortisone, grapefruit, licorice, refined carbs, caffeine, and alcohol, avoid substances that cause low cortisol
 			- treat thyroid problems/hormonal imbalances and organ damage which can cause adrenal problems
-        - urinary problems like frequent urination
-            - pumpkin seeds, ganoderma lucidum/lingzhi mushroom, corn silk, capsaicin, kohki tea, vitamin c, probiotics, saw palmetto, Gosha-jinki-gan (Rehmania glutinosa, Achyranthes fauriei (Achyranthes root), Cornus officinalis (Japanese cornelian cherry), Paeonia moutan (Mountain peony), Alisma plantago-aquatica (European water-plantain), Dioscorea japonica (Japanese mountain yam), Dioscorea opposita (Chinese yam), Plantago asiatica (plaintain weed), Poria cocos mushrooms, Aconitum carmichaeli (Chinese wolfsbane), Cinnamomum cassia (Chinese cinnamon)
-            - avoid chocolate, citrus fruits, coffee, soda, spicy foods, tea, tomatoes, dairy
-            - uti: d-mannose with cranberry
+		- urinary problems like frequent urination
+			- pumpkin seeds, ganoderma lucidum/lingzhi mushroom, corn silk, capsaicin, kohki tea, vitamin c, probiotics, saw palmetto, Gosha-jinki-gan (Rehmania glutinosa, Achyranthes fauriei (Achyranthes root), Cornus officinalis (Japanese cornelian cherry), Paeonia moutan (Mountain peony), Alisma plantago-aquatica (European water-plantain), Dioscorea japonica (Japanese mountain yam), Dioscorea opposita (Chinese yam), Plantago asiatica (plaintain weed), Poria cocos mushrooms, Aconitum carmichaeli (Chinese wolfsbane), Cinnamomum cassia (Chinese cinnamon)
+			- avoid chocolate, citrus fruits, coffee, soda, spicy foods, tea, tomatoes, dairy
+			- uti: d-mannose with cranberry
 		- inflammation: 
 			- avoid animal products, sugar, gluten, fried food, peanuts, alcohol, vegetable/seed oil, refined carbs, preservatives, additives, saturated/trans fats, MSG, genetically modified food, artificial sweeteners, hydrogenated oil, palm oil
-        	- inhibit pro-inflammatory cytokines
-        		- intents to inhibit pro-inflammatory cytokines
-	        		- inhibit NF-κβ to inhibit IL-1beta and IL-6 and TNF-alpha
-	        			- lower levels of tumor necrosis factor-alpha (TNF-α), IL-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
-	        			- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
-	        			- increase IL-10 to inhibit NF-κB to lower dysregulated NF-κB signaling
-	        		- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
+			- inhibit pro-inflammatory cytokines
+				- intents to inhibit pro-inflammatory cytokines
+					- inhibit NF-κβ to inhibit IL-1beta and IL-6 and TNF-alpha
+						- lower levels of tumor necrosis factor-alpha (TNF-α), IL-1β, and IL-17, via the Jun N-terminal kinase (JNK)1, NF-κβ-p65, and STAT3 pathways
+						- inhibit TNF-α, interferon-gamma (IFN-γ), IL-1β, IL-6, IL-8, and IL-12 which are activated via the JAK-STAT pathway
+						- increase IL-10 to inhibit NF-κB to lower dysregulated NF-κB signaling
+					- inhibit TH17 cells which create inflammatory cytokines, such as IL-17A, IL-21, and IL-22
 					- in general its best to inhibit IFN-γ, TNF-alpha, IL-1beta, IL-6, IL-8, IL-12, IL-17, and IL-23 for anti-inflammatory activity
-        		- immunity types/components:
-	        		- cell-mediated immunity: Th1 cytokines, such as IFN-γ, TNF, and IL-2
-	        		- humoral immune responses: Th2 cytokines (IL-4, IL-5, IL-10, and IL-13
-	        		- host defense mechanisms against various infections: Th17 cytokines
-	        		- T-cells: increased with milk bush, Indian borage, holy basil, neem, garlic, patawali, soap pod, and moringa at different concentrations
-	        		- B-cells: increased with soap pod, garlic, emblic, milk bush, neem
-	        		- https://www.sciencedirect.com/science/article/pii/S2405844025010734
+				- immunity types/components:
+					- cell-mediated immunity: Th1 cytokines, such as IFN-γ, TNF, and IL-2
+					- humoral immune responses: Th2 cytokines (IL-4, IL-5, IL-10, and IL-13
+					- host defense mechanisms against various infections: Th17 cytokines
+					- T-cells: increased with milk bush, Indian borage, holy basil, neem, garlic, patawali, soap pod, and moringa at different concentrations
+					- B-cells: increased with soap pod, garlic, emblic, milk bush, neem
+					- https://www.sciencedirect.com/science/article/pii/S2405844025010734
 					- https://www.sciencedirect.com/science/article/pii/S2095177923002502
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC11866640/
 				- decrease TNF-α: lavender, vitamin d, Turbinaria ornata, Garcinia Kola Heckel, Cinnamaldehyde, Actinidia arguta, Saengshik, Bryophyllum pinnatum, Hibiscus sabdariffa, Bacillus coagulans and sugar cane, Hyperoside, lonicerin, luteolin, Combretum duarteanum, mango, Grape Seed, Veronica polita, Jasminum grandiflorum, cranberry, Atractylodes macrocephala or Taraxacum herba, Muscadine grape, Glycyrrhiza inflata, ginger, Grape peel, Glycyrrhiza Wongam, Garcinia mangostana, its active constituent α-mangostin, German Chamomile, Telfairia occidentalis, Xique-Xique, Pycnoporus sanguineus, Aster glehni, Aloe vera, Persea americana, Moringa oleifera and Egyptian propolis, Eriocitrin, Piceatannol/caffeic acid phenethyl ester, Dihydroberberine, Sinapic acid, Ipomoea asarifolia, Zanthoxylum bungeanum, Menthol, Prunus mume and Lactobacillus strain, Rhodiola crenulata, Mother tincture, Cynanchum wilfordii, Ocimum gratissimum, Chestnut shell, Malva parviflora, Physalis pubescens, Bruguiera gymnorrhiza, garlic, bacopa, infrared red light therapy, avoid holy basil/patawawli
@@ -531,24 +529,24 @@
 						- https://www.cell.com/immunity/fulltext/S1074-7613(23)00177-2
 					- IL-1β is associated with multiple sclerosis
 						- https://pmc.ncbi.nlm.nih.gov/articles/PMC5509030/
-			    - relevant molecules created with sun exposure: melatonin, cortisol, endocannabinoids
-			    - alternate sources of molecules created with sun exposure:
-			        - cortisol: hydrocortisone, grapefruit, licorice, refined carbs, caffeine, and alcohol
-			        - melatonin: tart cherries, bananas, oats, avoid caffeine and alcohol
-			        - endocannabinoids: exercise, vitamin c, omega 3s, and dark chocolate can help maintain or make endocannabinoids
-			        - lumisterol/other vitamin D–like compounds: produced by sunlight
-			        - itaconate: found in rye/wheat bread, inhibits IL-17A, TET2, NLRP3, SDH, KEAP1 thereby inhibiting IL-1beta and TNF and HIF-1alpha, increases ATF3
-			        - cis-urocanic acid: produced from an irradiated metabolite of histidine
-			        - leptin: resembles IL-6
-			        - tachysterol: found in UV-B-irradiated foods such as mushrooms or baker’s yeast
-			        - oxytocin: vitamin D/C can help make oxytocin
-			        - serotonin: exercise, vitamin d, omega 3's, ashwagandha, theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics, avoid caffeine and artificial sweeteners
-			        - endorphins: exercise, dark chocolate, wine, inhale lavender/citrus/rosemary/frankincense/ylang ylang
-			        - nitric oxide: arginine, vitamin c, folic acid can boost nitric oxide, and beets/spinach/arugula/chicory/cabbage/cauliflower/carrots/broccoli/parsley/kale contain nitrites
-			    - https://www.scientificamerican.com/article/surprising-ways-that-sunlight-might-heal-autoimmune-diseases/
-		        - Supplements that boost your immune response (selenium, copper, zinc, and manganese) may worsen autoimmune attacks in MS
-		        	- Large doses of vitamin E and vitamin C can thin your blood, which may lead to MS complications
-		        	- Vitamin C: High doses of vitamin C may promote Fenton’s reaction, which can worsen inflammation in the body
+				- relevant molecules created with sun exposure: melatonin, cortisol, endocannabinoids
+				- alternate sources of molecules created with sun exposure:
+					- cortisol: hydrocortisone, grapefruit, licorice, refined carbs, caffeine, and alcohol
+					- melatonin: tart cherries, bananas, oats, avoid caffeine and alcohol
+					- endocannabinoids: exercise, vitamin c, omega 3s, and dark chocolate can help maintain or make endocannabinoids
+					- lumisterol/other vitamin D–like compounds: produced by sunlight
+					- itaconate: found in rye/wheat bread, inhibits IL-17A, TET2, NLRP3, SDH, KEAP1 thereby inhibiting IL-1beta and TNF and HIF-1alpha, increases ATF3
+					- cis-urocanic acid: produced from an irradiated metabolite of histidine
+					- leptin: resembles IL-6
+					- tachysterol: found in UV-B-irradiated foods such as mushrooms or baker’s yeast
+					- oxytocin: vitamin D/C can help make oxytocin
+					- serotonin: exercise, vitamin d, omega 3's, ashwagandha, theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics, avoid caffeine and artificial sweeteners
+					- endorphins: exercise, dark chocolate, wine, inhale lavender/citrus/rosemary/frankincense/ylang ylang
+					- nitric oxide: arginine, vitamin c, folic acid can boost nitric oxide, and beets/spinach/arugula/chicory/cabbage/cauliflower/carrots/broccoli/parsley/kale contain nitrites
+				- https://www.scientificamerican.com/article/surprising-ways-that-sunlight-might-heal-autoimmune-diseases/
+				- Supplements that boost your immune response (selenium, copper, zinc, and manganese) may worsen autoimmune attacks in MS
+					- Large doses of vitamin E and vitamin C can thin your blood, which may lead to MS complications
+					- Vitamin C: High doses of vitamin C may promote Fenton’s reaction, which can worsen inflammation in the body
 				- artemisia dracunculus: reduce IL-23, IL-17A, lower cell infiltration, recover brain demyelination, increase antioxidant efficacy
 				- turmeric: reduce IL-17, TGF-beta, IFN-y, IL-6, IL-21, IL-23, STAT3, RORyt, Th17 infiltration/differentiation, decrease astrocyte proliferation, improve myelinogenesis, increase oligodendrocyte activity/differentiation, reduce TUNEL cells, CASP3, Asp353, Cyt-c, increase MBP expression, inhibit IL-12 through JNK-STAT, increase IL-10
 				- ginkgo biloba: inhibit TLR4, Nk-kb, iNOS, IL-1beta, TNF-alpha, increase Arg-1, NTF, regulate microglia and astrocytes balance, induce OPCs generation, myelin production
@@ -605,17 +603,17 @@
 					- gardenia, curcumin, resistant starch, berberine, tea, cinnamon, wheat, soybean, resveratrol
 					- https://pubmed.ncbi.nlm.nih.gov/34981502/
 			- diabetes
-			    - identify the cause of diabetes: 
-			    	- vitamin deficiency: potassium/vitamin d/magnesium/calcium/zinc/vitamin a/vitamin k/chromium/other vitamins should help
-			    	- excess supplements: avoiding excess hydrocortisone/light at night/niacin/melatonin/other medicines that can cause hyperglycemia should help
-			    	- excess liver glucose production: apple cider vinegar should help, losing weight should help with fatty liver which can increase glucose production
-			    	- insulin transport: arginine should help
-			    	- insulin resistance: keto diet should help
-			    	- lower blood sugar by blocking the activity of the enzyme alpha-glucosidase, which breaks down carbs in the small intestine: lion’s mane
-			    	- not enough insulin: bitter melon should help
-			    	- not enough β‐cells: turmeric, ginger, hibiscus should help
-			    	- inflammation: using ginger, turmeric, berberine, vitamin d, grape, chamomile, green tea, probiotics and avoiding acrylamide (chips/bread/chocolate/coffee)/saturated fat/refined carb intake/reishi/ginseng/cordyceps/cats claw/5-htp/melatonin should help
-			    	- inhibited GLP-1: turmeric, berberine, resistant starch, resveratrol should help
+				- identify the cause of diabetes: 
+					- vitamin deficiency: potassium/vitamin d/magnesium/calcium/zinc/vitamin a/vitamin k/chromium/other vitamins should help
+					- excess supplements: avoiding excess hydrocortisone/light at night/niacin/melatonin/other medicines that can cause hyperglycemia should help
+					- excess liver glucose production: apple cider vinegar should help, losing weight should help with fatty liver which can increase glucose production
+					- insulin transport: arginine should help
+					- insulin resistance: keto diet should help
+					- lower blood sugar by blocking the activity of the enzyme alpha-glucosidase, which breaks down carbs in the small intestine: lion’s mane
+					- not enough insulin: bitter melon should help
+					- not enough β‐cells: turmeric, ginger, hibiscus should help
+					- inflammation: using ginger, turmeric, berberine, vitamin d, grape, chamomile, green tea, probiotics and avoiding acrylamide (chips/bread/chocolate/coffee)/saturated fat/refined carb intake/reishi/ginseng/cordyceps/cats claw/5-htp/melatonin should help
+					- inhibited GLP-1: turmeric, berberine, resistant starch, resveratrol should help
 				- use probiotics (preferably kefir) to manage blood sugar and insulin sensitivity
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC8166562/
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC6714347/
@@ -630,7 +628,7 @@
 				- treat vitamin deficiencies like vitamin a/vitamin k/chromium/b-vitamins/vitamin d/calcium/magnesium/potassium, treat pancreatitis, treat hormonal imbalances like excess estrogen that can cause diabetes
 					- Low potassium levels can negatively affect insulin production and increase blood sugar and increase diabetic ketoacidosis
 					- vitamin K helps lower blood glucose and increase insulin sensitivity
-        			- lack of vitamin A led to the death of beta cells, When vitamin A was reintroduced, the number of beta cells stabilized, insulin production increased, and blood glucose levels returned to normal
+					- lack of vitamin A led to the death of beta cells, When vitamin A was reintroduced, the number of beta cells stabilized, insulin production increased, and blood glucose levels returned to normal
 				- Combined supplementation with vitamin D and magnesium improves glycemic control in patients with diabetes; magnesium significantly promotes insulin secretion and action
 					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9850798/
 				- magnesium-zinc-calcium-vitamin D co-supplementation may reduce biomarkers of inflammation and oxidative stress
@@ -638,70 +636,70 @@
 					- Insufficient calcium levels can prevent glucose from properly entering into your cells, which can contribute to high blood sugar
 				- treat diabetes to help control methylglyoxal levels, which are associated with higher cancer risk
 				- avoid substances that interact with blood thinners (st. john's wort, vitamin e), avoid trans fats, avoid eating food high in AGEs, reduce exposure to PFAS
-			    - avoid as they can increase blood sugar: 
-			    	- niacin, ginkgo biloba, vitamin C, treat hyperthyroidism, corticosteroids, octreotide, beta blockers, epinephrine, thiazide diuretics, statins, pentamidine, protease inhibitors, L-asparaginase, and antipsychotics
-			    - avoid as they may increase diabetes risk: melatonin (impairs glucose control)
-			    	- https://pmc.ncbi.nlm.nih.gov/articles/PMC7349733/
-			    - low blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, weakness, dizziness, shakiness, anxiety, sweating, fast heartbeat
-			    - high blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, fever, thirst, frequent urination, numbness
-			    - medication types:
-			    	- Glucagon-like peptide-1 (GLP-1) agonists: 
+				- avoid as they can increase blood sugar: 
+					- niacin, ginkgo biloba, vitamin C, treat hyperthyroidism, corticosteroids, octreotide, beta blockers, epinephrine, thiazide diuretics, statins, pentamidine, protease inhibitors, L-asparaginase, and antipsychotics
+				- avoid as they may increase diabetes risk: melatonin (impairs glucose control)
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC7349733/
+				- low blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, weakness, dizziness, shakiness, anxiety, sweating, fast heartbeat
+				- high blood glucose symptoms: headaches, hunger, blurred vision, tingling, fatigue, nerve pain, fever, thirst, frequent urination, numbness
+				- medication types:
+					- Glucagon-like peptide-1 (GLP-1) agonists: 
 						- gardenia, turmeric, resistant starch, berberine, tea, cinnamon, wheat, soybean, resveratrol
 					- DPP-4 inhibitors (DPP-4 inactivates incretins such as GLP-1 and GIP)
 						- chinese rhubarb, ginger
-			        - Sodium-glucose cotransporter-2 (SGLT2) inhibitors (increase the excretion of glucose): Peucedanum, viniferin (grape), cinchona tree bark (quinidine/quinine), trihexyphenidyl, procyclidine, biperiden, cloperastine, benztropine, orphenadrine, vesamicol and clemastine 
-			        	- https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1002/prp2.504
-			        - Sulfonylureas (increases insulin release)
-			        - Thiazolidinediones (increases sensitivity to insulin)
-			        - acarbose (decreases absorption of sugar from the intestines)
-			        - inhibit FOXOs
-			        	- inhibit FOXO1
-			        		- betaine
-			        			- https://www.sciencedirect.com/science/article/pii/S0753332222003353
-			        		- cellobiose, scutellarin, neochlorogenic acid (peach), chondroitin sulfate, amygdalin, fraxin, salvianolic acid A (red sage), desacetyl asperulosidic acid, and quercitrin (buckwheat)
-			        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11063485/
-			        	- inhibit FOXO6/PPARγ signaling (FOXO6 creates glucose and is normally inhibited by insulin but not in diabetes)
-			        		- betaine (spinach, beets)
-			        			- https://pubmed.ncbi.nlm.nih.gov/39263959/
-			        		- quercetin and turmeric also inhibit FOXO6
-			        			- https://www.scbt.com/p/curcumin-458-37-7
-			        			- https://www.scbt.com/p/quercetin-117-39-5
-			        	- modulators of FOXO6
-			        		- increases FOXO6: Rhodiola rosea, ashwagandha
-			        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11053582/
-			        		- other modulators of FOXO6: Eleutherococcus senticosus, Rhaponticum carthamoides, and Bryonia alba
-			        			- https://www.sciencedirect.com/science/article/pii/S0944711318304835
-			        - avoid/inhibit inhibitors of insulin or insulin receptor signal transduction
-			        	- inhibit IL-1β
-			        	- inhibit IL-6, a contributor to insulin resistance and an increasor of blood sugar and cause of diabetic neuropathy
-			        	- inhibit TNF-alpha
-			        	- inhibit NF-κB
-			        	- inhibit JNK pathway
-			        	- https://onlinelibrary.wiley.com/doi/10.1155/2015/508409
-			        - improve cognitive dysfunction from encephalopathy
-			        	- Alpha-Lipoic Acid and Metformin
-			        - gastroparesis: chamomile, ginger
-			        - Insulin
-			        	- increase insulin secretion: 
-			        		- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
-			        	- lower glucose/manage insulin sensitivity: 
-			        		- serine, lion's mane, potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
+					- Sodium-glucose cotransporter-2 (SGLT2) inhibitors (increase the excretion of glucose): Peucedanum, viniferin (grape), cinchona tree bark (quinidine/quinine), trihexyphenidyl, procyclidine, biperiden, cloperastine, benztropine, orphenadrine, vesamicol and clemastine 
+						- https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1002/prp2.504
+					- Sulfonylureas (increases insulin release)
+					- Thiazolidinediones (increases sensitivity to insulin)
+					- acarbose (decreases absorption of sugar from the intestines)
+					- inhibit FOXOs
+						- inhibit FOXO1
+							- betaine
+								- https://www.sciencedirect.com/science/article/pii/S0753332222003353
+							- cellobiose, scutellarin, neochlorogenic acid (peach), chondroitin sulfate, amygdalin, fraxin, salvianolic acid A (red sage), desacetyl asperulosidic acid, and quercitrin (buckwheat)
+								- https://pmc.ncbi.nlm.nih.gov/articles/PMC11063485/
+						- inhibit FOXO6/PPARγ signaling (FOXO6 creates glucose and is normally inhibited by insulin but not in diabetes)
+							- betaine (spinach, beets)
+								- https://pubmed.ncbi.nlm.nih.gov/39263959/
+							- quercetin and turmeric also inhibit FOXO6
+								- https://www.scbt.com/p/curcumin-458-37-7
+								- https://www.scbt.com/p/quercetin-117-39-5
+						- modulators of FOXO6
+							- increases FOXO6: Rhodiola rosea, ashwagandha
+								- https://pmc.ncbi.nlm.nih.gov/articles/PMC11053582/
+							- other modulators of FOXO6: Eleutherococcus senticosus, Rhaponticum carthamoides, and Bryonia alba
+								- https://www.sciencedirect.com/science/article/pii/S0944711318304835
+					- avoid/inhibit inhibitors of insulin or insulin receptor signal transduction
+						- inhibit IL-1β
+						- inhibit IL-6, a contributor to insulin resistance and an increasor of blood sugar and cause of diabetic neuropathy
+						- inhibit TNF-alpha
+						- inhibit NF-κB
+						- inhibit JNK pathway
+						- https://onlinelibrary.wiley.com/doi/10.1155/2015/508409
+					- improve cognitive dysfunction from encephalopathy
+						- Alpha-Lipoic Acid and Metformin
+					- gastroparesis: chamomile, ginger
+					- Insulin
+						- increase insulin secretion: 
+							- ashwagandha, fucoxanthin (kombu brown seaweed), bitter melon, Commiphora myrrha (myrrh)
+						- lower glucose/manage insulin sensitivity: 
+							- serine, lion's mane, potassium, nattokinase, calcium, zinc, broccoli, allulose, fasting, keto diet, omega 3s, vitamin c/d, probiotics, berberine, alpha-lipoic acid, apple cider vinegar, fiber/psyllium husk, green tea (EGCG), bitter melon, resveratrol, magnesium, fenugreek, turmeric, ginger, garlic, basil, dill, fennel, parsley, cumin, nutmeg, oregano, rosemary, Panax ginseng, Siberian ginseng, guar gum, taurine, chromium, inositol, arginine
 							- https://pubmed.ncbi.nlm.nih.gov/38931176/
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC6851881/
 						- reduce hyperglycemia: 
 							- herbacetin (flaxseed), aringenin (citrus), hesperetin (citrus), nobiletin (citrus), tangeretin (citrus peel), fisetin (strawberries, apples, onions, cucumbers), baicalin (chinese skullcap)
 							- https://pmc.ncbi.nlm.nih.gov/articles/PMC7400964/
-			        - nerve pain: lion's mane, coq10, vitamin d, carnitine, R-ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric, potassium, arginine
-			            - high blood pressure from carbs as a cause of neuropathy: refined carbohydrates can cause rapid spikes in blood glucose levels, which increases insulin production, which raises blood pressure by constricting blood vessels and increasing heart rate
-			        - β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
-			        	- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
-			        	- https://pmc.ncbi.nlm.nih.gov/articles/PMC8298154/
-			        - use ACE inhibitors and ARBs to manage cardiovascular disease risk from diabetes
-				        - angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): 
+					- nerve pain: lion's mane, coq10, vitamin d, carnitine, R-ALA, magnesium, fat-soluble vitamin b1, vitamin b12, glutamine, ashwagandha, berberine, turmeric, potassium, arginine
+						- high blood pressure from carbs as a cause of neuropathy: refined carbohydrates can cause rapid spikes in blood glucose levels, which increases insulin production, which raises blood pressure by constricting blood vessels and increasing heart rate
+					- β‐cell regeneration: turmeric, ginger, hibiscus, ginseng, stinging nettle, gymnema sylvestre, moringa, mango, black seed, tarragon
+						- Artemisia dracunculus (Compositae), Centaurium erythraea Rafn (Gentianaceae), Cornus officinalis (Cornaceae), Gynura divaricata (Asteraceae), Hibiscus rosa sinensis (Malvaceae), Lactarius deterrimus (Russulaceae), Myrica rubra (Myricaceae), Panax ginseng (Araliaceae), Tamarindus indica (Fabaceae), Teucrium polium (Lamiaceae), Thymus praecox subsp skorpilii var skorpilii (Lamiaceae), Uncaria tomentosa (Willd) (Rubiaceae), and Woodfordia fruticosa (Lythraceae), Abrus precatorius, Aegle marmelos, Aloe vera, Althaea officinalis, Antidesma bunius, Aronia melanocarpa, Artocarpus altilis, Aster spathulifolius, Atriplex polycarpa, Azadirachta indica, Bougainvillea spectabilis Willd, Calotropis gigantean, Canscora decussata, Carica papaya, Pandanus amaryllifolius, Cassia occidentalis, Chiliadenus iphionoides, Citrullus colocynthis, Clitoria ternatea, Crassocephalum crepidioides, Coccinia grandis, Costus igneus, Curcuma longa, Dacryodes edulis, Eriobotrya japonica, Eurycoma longifolia, Ficus carica, Gastrodia elata, Gossypium herbaceum, Gmelina arborea, Gymnema montanum, Gymnema sylvestre, Hibiscus sabdariffa, Hypoxis argentea, Ichnocarpus frutescens, Khaya senegalensis, Laurus nobilis, Leea macrophylla, Mangifera indica, Momordica charantia, Moringa oleifera, Nypa fruticans, Otostegia persica, Parkia biglobosa, Phyllanthus emblica, Prosopis cineraria, Pseuduvaria macrophylla, Spondias pinnata, Syzygium densiflorum, Swertia macrosperma, Tamarix stricta, Teucrium polium, Tinospora cord folia, Urena lobata, Urtica dioica, Vitex doniana Sweet, Vitellaria paradoxa, Zingiber officinale, Aegle marmelos Correa stem bark, Centella asiatica, Crocus sativus flower, Dendrobium huoshanense, Dioscorea species, Enicostemma species, Hyoscyamus albus seeds, Momordica charantia, Nigella sativa, Nymphaea stellate Willd flower, Protorhus longifolia, Rosa canina fruit, Solanum torvum fruit, Terminalia bellirica rind, Vitex negundo
+						- https://pmc.ncbi.nlm.nih.gov/articles/PMC8298154/
+					- use ACE inhibitors and ARBs to manage cardiovascular disease risk from diabetes
+						- angiotensin-converting enzyme (ACE) inhibitors (also useful for treating heart disease): 
 							- garlic, seaweed (wakame, etc), tuna, sardine, hawthorn, bonito fish, pycnogenol, casein, hydrolyzed whey protein (which can also help with glutathione levels), sour milk and milk peptides, gelatin, sake, omega-3's, egg yolks, zein, zinc, melatonin, pomegranate, olive, green tea, berberine, quercetin, resveratrol
 						- angiotensin receptor blockers/ARBs (also useful for treating stress-related health problems like anxiety, as well as treating kidney damage from diabetes and congestive heart failure): 
 							- potassium, taurine, resveratrol, fiber, garlic, vitamin c/b6, coq10, celery, gamma linolenic acid/dihomo-gamma-linolenic acid
-      	- PCOS
+	  	- PCOS
 			- finasteride/birth control, iron, inositol, magnesium, chromium, turmeric, zinc, evening primrose oil, berberine, maca, licorice, holy basil, ashwagandha, Tribulus terrestris (water chestnut), chasteberry, probiotics, vitamin d/calcium, coq10, keto diet, treat related conditions like diabetes
 		- multiple chemical sensitivities: 
 			- treat adrenal insufficiency, avoid chemicals like PFAS/BPA/plastic/air pollution/water pollution
@@ -765,82 +763,82 @@
 				- correct vitamin deficiencies like zinc deficiency which is associated with some mental disorders like schizophrenia
 				- treat parasitic infections that can cause schizophrenia like toxoplasma gondii
 					- a large amount of antipsychotic medications are known to kill T. gondii tachyzoites in in-vitro cultures of human brain tissue. Examples include fluphenazine, valproic acid, haloperidol, and zuclopenthixol; active toxoplasmosis can be treated with a combination of drugs such as pyrimethamine and sulfadiazine, plus folinic acid
-		        - vitamin b/d/c/e, alpha lipoic acid, glycine, d-serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, ginger, luteolin, Sceletium tortuosum
-		        - chinese herbs: https://pmc.ncbi.nlm.nih.gov/articles/PMC6481906/
-		            - Rhizoma Pinelliae
-		            - Bambusae Caulis In Taeniam
-		            - Pericarpium Citri Reticulatae
-		            - Fructus Aurantii Immaturus - immature bitter orange
-		            - Poria Cocos
-		            - Rhizoma Zingiberis - ginger rhizome
-		            - Jujube 
-		            - Radix Glycyrrhizae - licorice root
-		        - The phenothiazine group of antipsychotic medication increases the risk of hypotension in patients with CKD
-		        - most second-generation (atypical) antipsychotic medications are also considered safe in renal diseases as most of them are metabolized in the liver
-		        - Caution needs to be exercised while using antipsychotic medications such as flupentixol, pimozide, trifluoperazine, and zuclopenthixol
-		        - First-generation antipsychotic drugs: less likely to cause high blood sugar than second-generation drugs
-		            Chlorpromazine (Thorazine) - caution for kidney damage
-		            Fluphenazine (Proxlixin)
-		            Haloperidol (Haldol) - safest first generation medicine
-		            Loxapine (Loxitane)
-		            Perphenazine (Trilafon)
-		            Pimozide (Orap)
-		            Thioridazine (Mellaril)
-		            Thiothixene (Navane)
-		            Trifluoperazine (Stelazine)
-		        - Newer antipsychotic drugs
-		            Amisulpride - needs to be avoided in kidney disease, causes high blood pressure
-		            Aripiprazole (Abilify) - causes anxiety
-		            Asenapine (Saphris) - poorly studied in kidney disease, raises blood sugar
-		            Brexpiprazole (Rexulti) - causes high blood sugar
-		            Cariprazine (Vraylar) - causes high blood sugar
-		            Clozapine (Clozaril) - not for kidney damage patients, excreted by kidney
-		            Iloperidone (Fanapt) - excreted by kidney
-		            Lumateperone (Caplyta) - causes high blood sugar
-		            Lurasidone (Latuda) - caution for kidney damage, causes anxiety, causes high blood pressure
-		                - lurasidone may improve glucose and cholesterol levels, making it another suitable choice for patients at risk of diabetes
-		                - lurasidone is less likely to cause high blood sugar levels in most patients, but hyperosmolar hyperglycemic syndrome may occur
-		            Olanzapine (Zyprexa) - excreted by kidney
-		            Olanzapine/samidorphan (Lybalvi) - excreted by kidney
-		            Paliperidone (Invega) - excreted by kidney
-		            Quetiapine (Seroquel) - causes a movement disorder, excreted by kidney
-		            Risperidone (Risperdal) - excreted by kidney, increases blood sugar
-		            Ziprasidone (Geodon) - caution for kidney damage
-		            Milnacipran - causes high blood pressure
-		            Cobenfy - causes high blood pressure
-		            - d-serine may cause kidney damage, may either increase or reduce anxiety
-		            - daao inhibitor to increase d-serine: risperidone, sodium benzoate, luvadaxistat
-		                - D-amino acid oxidase is used in therapeutic treatments such as regulation of hormones, regulation of hypertension, treatment of schizophrenia
-		                - D-serine is the main endogenous co-agonist of NMDA receptors
-		                - Inhibition of DAAO has been shown to increase D-serine levels
-		                - sodium benzoate may cause anxiety
-		                - Luvadaxistat, a D-amino acid oxidase (DAAO) inhibitor that increases the glutamate co-agonist D-serine levels
-		            - https://pmc.ncbi.nlm.nih.gov/articles/PMC9122172/
-		        - PDE4/PDE10A inhibitors
-		            - https://pmc.ncbi.nlm.nih.gov/articles/PMC11747726/
-		            - By increasing cAMP levels, PDE4 inhibitors promote neuronal survival, sweeten synaptic plasticity, and reduce oxidative stress/neurotoxicity, and neuroinflammation
-		            - inhibition of PDE10A and PDE4 would potentially emerge as the most effective in the clinical setting on the control of both positive and negative psychotic symptomatology
-		            - PDE4 inhibitors have been demonstrated to enhance GABAergic neurotransmission and improve cognitive performance
-		            - PDE1 and PDE4 inhibitors appear to improve cognitive function and memory enhancement
-		            - PDE4 inhibitors possess an anti-inflammatory effect by decreasing the production of pro-inflammatory cytokines within the CNS
-		            - Some genes, such as DISC-1, are strongly associated with schizophrenia and encode a scaffold protein that regulates PDE4
-		                - Apremilast: a phthalimide derivative, could cause insomnia
-		                - Caffeine: a weak, non-selective PDE inhibitor, and a metabolite of caffeine, theophylline, is a more potent PDE inhibitor
-		                - Glaucine: an aporphine alkaloid, low-potency PDE4 inhibitor, calcium channel blocker, dopamine antagonist and 5-HT2A positive allosteric modulator - reduces blood pressure
-		                - Ibudilast: inhibits PDE4 to the greatest extent and shows significant inhibition of other PDE subtypes, so acts as a selective PDE4 inhibitor or a non-selective PDE inhibitor depending on dose, may also be useful in the treatment of multiple sclerosis and is a vasodilator, attenuates glial cell activation in the central nervous system, can cause nervousness
-		                - Luteolin: supplement extracted from peanuts and other plants that also possesses IGF-1 properties, may cause low blood pressure, may help reduce anxiety
-		                - Mesembrenone: an alkaloid from the herb Sceletium tortuosum (Kanna)
-		                    - mesembrine: an alkaloid present in Sceletium tortuosum (kanna), and a potent selective serotonin (5-HT) reuptake inhibitor (SSRI)
-		                    - kanna works to reduce anxiety by mechanisms including inhibition of PDE4 and inhibition of reuptake of 5-HT
-		                - Roflumilast: inhibition of PDE4 obtained by roflumilast ameliorates cognitive patterns in schizophrenia, could cause anxiety or insomnia
-		                - https://en.wikipedia.org/wiki/PDE4_inhibitor
-		            - other schizophrenia treatments
-		            	- Vortioxetine (5-HT multimodal agent): can cause low blood pressure and insomnia, not to be used in combination with other serotonergic drugs like MAOIs or SSRIs
-		            	- Iclepertin (Glycine transporter 1-inhibitor)
-		            	- Ulotaront (Trace-amine associated receptor 1 (TAAR-1) agonist)
-		            		- https://pmc.ncbi.nlm.nih.gov/articles/PMC12244209/
-		            	- Xanomeline (M1/M4–preferring muscarinic receptor agonist) and trospium (KarXT)
-		            		- https://www.sciencedirect.com/science/article/pii/S0006322324013490
+				- vitamin b/d/c/e, alpha lipoic acid, glycine, d-serine, sarcosine (cancer patients should avoid sarcosine), taurine, NAC, omega 3's, ginkgo biloba, sulforaphane, probiotics, keto diet, ginger, luteolin, Sceletium tortuosum
+				- chinese herbs: https://pmc.ncbi.nlm.nih.gov/articles/PMC6481906/
+					- Rhizoma Pinelliae
+					- Bambusae Caulis In Taeniam
+					- Pericarpium Citri Reticulatae
+					- Fructus Aurantii Immaturus - immature bitter orange
+					- Poria Cocos
+					- Rhizoma Zingiberis - ginger rhizome
+					- Jujube 
+					- Radix Glycyrrhizae - licorice root
+				- The phenothiazine group of antipsychotic medication increases the risk of hypotension in patients with CKD
+				- most second-generation (atypical) antipsychotic medications are also considered safe in renal diseases as most of them are metabolized in the liver
+				- Caution needs to be exercised while using antipsychotic medications such as flupentixol, pimozide, trifluoperazine, and zuclopenthixol
+				- First-generation antipsychotic drugs: less likely to cause high blood sugar than second-generation drugs
+					Chlorpromazine (Thorazine) - caution for kidney damage
+					Fluphenazine (Proxlixin)
+					Haloperidol (Haldol) - safest first generation medicine
+					Loxapine (Loxitane)
+					Perphenazine (Trilafon)
+					Pimozide (Orap)
+					Thioridazine (Mellaril)
+					Thiothixene (Navane)
+					Trifluoperazine (Stelazine)
+				- Newer antipsychotic drugs
+					Amisulpride - needs to be avoided in kidney disease, causes high blood pressure
+					Aripiprazole (Abilify) - causes anxiety
+					Asenapine (Saphris) - poorly studied in kidney disease, raises blood sugar
+					Brexpiprazole (Rexulti) - causes high blood sugar
+					Cariprazine (Vraylar) - causes high blood sugar
+					Clozapine (Clozaril) - not for kidney damage patients, excreted by kidney
+					Iloperidone (Fanapt) - excreted by kidney
+					Lumateperone (Caplyta) - causes high blood sugar
+					Lurasidone (Latuda) - caution for kidney damage, causes anxiety, causes high blood pressure
+						- lurasidone may improve glucose and cholesterol levels, making it another suitable choice for patients at risk of diabetes
+						- lurasidone is less likely to cause high blood sugar levels in most patients, but hyperosmolar hyperglycemic syndrome may occur
+					Olanzapine (Zyprexa) - excreted by kidney
+					Olanzapine/samidorphan (Lybalvi) - excreted by kidney
+					Paliperidone (Invega) - excreted by kidney
+					Quetiapine (Seroquel) - causes a movement disorder, excreted by kidney
+					Risperidone (Risperdal) - excreted by kidney, increases blood sugar
+					Ziprasidone (Geodon) - caution for kidney damage
+					Milnacipran - causes high blood pressure
+					Cobenfy - causes high blood pressure
+					- d-serine may cause kidney damage, may either increase or reduce anxiety
+					- daao inhibitor to increase d-serine: risperidone, sodium benzoate, luvadaxistat
+						- D-amino acid oxidase is used in therapeutic treatments such as regulation of hormones, regulation of hypertension, treatment of schizophrenia
+						- D-serine is the main endogenous co-agonist of NMDA receptors
+						- Inhibition of DAAO has been shown to increase D-serine levels
+						- sodium benzoate may cause anxiety
+						- Luvadaxistat, a D-amino acid oxidase (DAAO) inhibitor that increases the glutamate co-agonist D-serine levels
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC9122172/
+				- PDE4/PDE10A inhibitors
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC11747726/
+					- By increasing cAMP levels, PDE4 inhibitors promote neuronal survival, sweeten synaptic plasticity, and reduce oxidative stress/neurotoxicity, and neuroinflammation
+					- inhibition of PDE10A and PDE4 would potentially emerge as the most effective in the clinical setting on the control of both positive and negative psychotic symptomatology
+					- PDE4 inhibitors have been demonstrated to enhance GABAergic neurotransmission and improve cognitive performance
+					- PDE1 and PDE4 inhibitors appear to improve cognitive function and memory enhancement
+					- PDE4 inhibitors possess an anti-inflammatory effect by decreasing the production of pro-inflammatory cytokines within the CNS
+					- Some genes, such as DISC-1, are strongly associated with schizophrenia and encode a scaffold protein that regulates PDE4
+						- Apremilast: a phthalimide derivative, could cause insomnia
+						- Caffeine: a weak, non-selective PDE inhibitor, and a metabolite of caffeine, theophylline, is a more potent PDE inhibitor
+						- Glaucine: an aporphine alkaloid, low-potency PDE4 inhibitor, calcium channel blocker, dopamine antagonist and 5-HT2A positive allosteric modulator - reduces blood pressure
+						- Ibudilast: inhibits PDE4 to the greatest extent and shows significant inhibition of other PDE subtypes, so acts as a selective PDE4 inhibitor or a non-selective PDE inhibitor depending on dose, may also be useful in the treatment of multiple sclerosis and is a vasodilator, attenuates glial cell activation in the central nervous system, can cause nervousness
+						- Luteolin: supplement extracted from peanuts and other plants that also possesses IGF-1 properties, may cause low blood pressure, may help reduce anxiety
+						- Mesembrenone: an alkaloid from the herb Sceletium tortuosum (Kanna)
+							- mesembrine: an alkaloid present in Sceletium tortuosum (kanna), and a potent selective serotonin (5-HT) reuptake inhibitor (SSRI)
+							- kanna works to reduce anxiety by mechanisms including inhibition of PDE4 and inhibition of reuptake of 5-HT
+						- Roflumilast: inhibition of PDE4 obtained by roflumilast ameliorates cognitive patterns in schizophrenia, could cause anxiety or insomnia
+						- https://en.wikipedia.org/wiki/PDE4_inhibitor
+					- other schizophrenia treatments
+						- Vortioxetine (5-HT multimodal agent): can cause low blood pressure and insomnia, not to be used in combination with other serotonergic drugs like MAOIs or SSRIs
+						- Iclepertin (Glycine transporter 1-inhibitor)
+						- Ulotaront (Trace-amine associated receptor 1 (TAAR-1) agonist)
+							- https://pmc.ncbi.nlm.nih.gov/articles/PMC12244209/
+						- Xanomeline (M1/M4–preferring muscarinic receptor agonist) and trospium (KarXT)
+							- https://www.sciencedirect.com/science/article/pii/S0006322324013490
 			- creatine helps with some neurodegenerative disorders: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912287/
 			- nootropics
 				- focus/memory: coffee fruit, DMAE, huperzine A, ginkgo, ginseng, oats, rhodiola rosea, bacopa monnieri, theanine, caffeine, creatine, citicoline or alpha GPC, ashwagandha, agmatine, theobromine, kanna (sceletium tortusosum), lion's mane & other medicinal mushrooms, tyrosine, threonine, phosphatidylserine, b vitamins, saffron
@@ -865,9 +863,9 @@
 			- depression
 				- vitamin K, omega 3s, folate, tyrosine, sarcosine (cancer patients should avoid sarcosine)
 			- anxiety:
-			    - Beta-blockers are commonly prescribed for both conditions due to their ability to block stress hormones that raise heart rate and blood pressure
-	            - Alpha-2 agonists like clonidine and guanfacine also work by stimulating receptors in the brain to reduce sympathetic nervous system activity, leading to decreased heart rate and blood pressure
-	            - Angiotensin receptor blockers (ARBs) and angiotensin-converting enzyme (ACE) inhibitors have been explored for their potential role in managing anxiety
+				- Beta-blockers are commonly prescribed for both conditions due to their ability to block stress hormones that raise heart rate and blood pressure
+				- Alpha-2 agonists like clonidine and guanfacine also work by stimulating receptors in the brain to reduce sympathetic nervous system activity, leading to decreased heart rate and blood pressure
+				- Angiotensin receptor blockers (ARBs) and angiotensin-converting enzyme (ACE) inhibitors have been explored for their potential role in managing anxiety
 				- suppress IL-6, a contributor to neuroinflammation and disorders like anxiety
 				- increase IL-4 and IL-10 to suppress anxiety
 				- melatonin, taurine, apigenin, magnolia, magnesium, rhodiola rosea, saffron, bitter orange, bergamot, CNS depressants
@@ -898,31 +896,31 @@
 					- increases GABA or GABA activity: cold, Lactobacillus and Bifidobacterium, lactic-acid producing probiotic bacteria, theanine, passionflower, lemon balm, b vitamins, taurine, valerian, hops, EGCG with vitamin C, ashwagandha, lavender, chinese skullcap, black seed oil, 5-HTP (avoid for heart impact), gotu kola
 					- restores GABA receptors: bacopa
 					- activates/strengthens GABA receptors: kava
-		            - binds to GABA receptors: chinese skullcap
-		            - inhibits GABA breakdown: valerian
-		            - positive allosteric modulators of the GABAA receptor: eugenol, chamomile/apigenin, chamomile/luteolin, EGCG, thymol, nicotinamide, valerian, lavender
-		            - avoid GABA antagonists: ginkgo biloba, kudzu, thujone (sage, mugwort, oregano, mint, wormwood, yarrow)
-		        - decrease glutamate: cold, omega 3's, magnesium, vitamin b6/c/e, zinc, theanine, taurine, resveratrol, turmeric, NAC, avoid MSG/aspartame/caffeine
-		        - decrease cortisol: lavender, magnesium, theanine, schisandra, olive oil, phosphatidylserine, ashwagandha, rhodiola, magnolia, bacopa, lemon balm, holy basil, betaine, l-ornithine, malaysian ginseng, choline, astragalus, turmeric, zinc, maca, whey protein, inositol, st johns wort, passionflower, lion's mane, valerian, GABA, chamomile, melatonin, omega 3's, vitamin c/d/e/b5/b6/b12, coq10, glutathione, NAC, probiotics, bright light therapy, transcranial direct current stimulation, transcranial magnetic stimulation, ginkgo biloba, chinese skullcap, avoiding caffeine/refined carbs/alcohol/smoking which cause high cortisol, also low cholesterol is associated with lower cortisol
-		        - decrease norepinephrine/adrenaline: kava, panax ginseng, holy basil, ashwagandha, astragalus, licorice, rhodiola, cordyceps, black/green tea, indian snakeroot
-		        - increase oxytocin: vitamin d/c, magnesium, taurine, Lactobacillus reuteri, chamomile, Oleoylethanolamide, melatonin, fenugreek, jasmine, clary sage, anise seed, intermittent drinking
-		        - increase serotonin: exercise, vitamin d, omega 3's, ashwagandha, theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics, avoid caffeine and artificial sweeteners
-		        	- serotonin can be either low or high in anxiety
-		        - increase dopamine: theanine, bacopa, tyrosine, phenylalanine, probiotics, avoid saturated fat
-		        	- dopamine can be either low or high in anxiety
-		        - stimulate vagus nerve: zinc, probiotics, choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
+					- binds to GABA receptors: chinese skullcap
+					- inhibits GABA breakdown: valerian
+					- positive allosteric modulators of the GABAA receptor: eugenol, chamomile/apigenin, chamomile/luteolin, EGCG, thymol, nicotinamide, valerian, lavender
+					- avoid GABA antagonists: ginkgo biloba, kudzu, thujone (sage, mugwort, oregano, mint, wormwood, yarrow)
+				- decrease glutamate: cold, omega 3's, magnesium, vitamin b6/c/e, zinc, theanine, taurine, resveratrol, turmeric, NAC, avoid MSG/aspartame/caffeine
+				- decrease cortisol: lavender, magnesium, theanine, schisandra, olive oil, phosphatidylserine, ashwagandha, rhodiola, magnolia, bacopa, lemon balm, holy basil, betaine, l-ornithine, malaysian ginseng, choline, astragalus, turmeric, zinc, maca, whey protein, inositol, st johns wort, passionflower, lion's mane, valerian, GABA, chamomile, melatonin, omega 3's, vitamin c/d/e/b5/b6/b12, coq10, glutathione, NAC, probiotics, bright light therapy, transcranial direct current stimulation, transcranial magnetic stimulation, ginkgo biloba, chinese skullcap, avoiding caffeine/refined carbs/alcohol/smoking which cause high cortisol, also low cholesterol is associated with lower cortisol
+				- decrease norepinephrine/adrenaline: kava, panax ginseng, holy basil, ashwagandha, astragalus, licorice, rhodiola, cordyceps, black/green tea, indian snakeroot
+				- increase oxytocin: vitamin d/c, magnesium, taurine, Lactobacillus reuteri, chamomile, Oleoylethanolamide, melatonin, fenugreek, jasmine, clary sage, anise seed, intermittent drinking
+				- increase serotonin: exercise, vitamin d, omega 3's, ashwagandha, theanine, bacopa, lemon balm, saffron, sceletium tortuosum, 5-HTP, nigella sativa, tryptophan (eggs, cheese, nuts), sunlight, SAMe, probiotics, avoid caffeine and artificial sweeteners
+					- serotonin can be either low or high in anxiety
+				- increase dopamine: theanine, bacopa, tyrosine, phenylalanine, probiotics, avoid saturated fat
+					- dopamine can be either low or high in anxiety
+				- stimulate vagus nerve: zinc, probiotics, choline/acetylcholine, vitamin B12, magnesium, calcium, sodium, omega 3s
 				- deactivate HPA axis which activates to create cortisol
-				    - if the HPA axis is overactive, suppress its triggers
-				    	- decrease IL-1/6/10/tnf-a to deactivate the HPA axis to handle stress/anxiety
-			    - balance hormones
-			    	- estrogen, testosterone, ADH/vasopressin, and cortisol impact anxiety
-				    - change ADH/vasopressin levels
-				    	- vasopressin has been shown to have anxiogenic effects in the amygdala, while having anxiolytic effects in the hypothalamus
-				    	- vasopressin receptor antagonists have been shown to have anxiolytic effects
-				        - decrease vasopressin: avoid alcohol which decreases vasopressin, avoid caffeine/salt
-				        - increase vasopressin: use omega 3s, turmeric, magnesium which increase somatostatin which inhibits vasopressin/ADH, use glycine (beans, collagen), bitter gourd, carrots, forskolin/rhodiola/berberine to increase ADH
-				        - the main stimuli that trigger ADH release include hyperosmolality, hypovolemia, hypotension, hypoxia, hypoglycemia, strenuous exercise, and angiotensin II
-				        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8637824/
+					- if the HPA axis is overactive, suppress its triggers
+						- decrease IL-1/6/10/tnf-a to deactivate the HPA axis to handle stress/anxiety
+				- balance hormones
+					- estrogen, testosterone, ADH/vasopressin, and cortisol impact anxiety
+					- change ADH/vasopressin levels
+						- vasopressin has been shown to have anxiogenic effects in the amygdala, while having anxiolytic effects in the hypothalamus
+						- vasopressin receptor antagonists have been shown to have anxiolytic effects
+						- decrease vasopressin: avoid alcohol which decreases vasopressin, avoid caffeine/salt
+						- increase vasopressin: use omega 3s, turmeric, magnesium which increase somatostatin which inhibits vasopressin/ADH, use glycine (beans, collagen), bitter gourd, carrots, forskolin/rhodiola/berberine to increase ADH
+						- the main stimuli that trigger ADH release include hyperosmolality, hypovolemia, hypotension, hypoxia, hypoglycemia, strenuous exercise, and angiotensin II
+							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8637824/
 				- inhibit Src kinase (activated by receptor tyrosine kinases such as EGFR and HGF receptors)
 					- Geranium thunbergii/Geraniin, Ambrosia maritoma/Damsin, Danggui longhui wan/Indirubins 
 					- Auriculasin: VEGFR2↓ Inhibition of angiogenesis by modulating VEGFR2-related signaling pathways. Inhibition of VEGFR2 activation, as well as phosphorylation of intracellular downstream protein kinases AKT, mTOR, PI3K, p38, ERK, and Src
@@ -958,64 +956,64 @@
 			- elasticity: infrared light/heat therapy, collagen, hormones like estrogen/progesterone, hyaluronic acid, senolytics, antioxidants, anti-fibrotics, anti-inflammatory substances, berries, salmon/omega 3s, avoid dairy
 			- itching: treat kidney/liver/thyroid damage, treat fungal infections, treat inflammation, take antihistamines/keratolytics, treat dryness, avoid medications that cause itching (like statins)
 			- dermatitis: antifungals like holy basil/coconut, corticosteroids like hydrocortisone (in small amounts to avoid heart damage), antiandrogens like spironolactone, keratolytics (urea, salicylic acid, lactic acid, pyrithione zinc), cbd (in small amounts to avoid heart damage), tea tree oil, coconut oil
-        - gastrointestinal problems:
-        	- kill bad gut bacteria: berberine
-        	- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
-        		- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
-        	- inhibit intestinal inflammation by inhibiting TNF-alpha, IL-6, and IL-12 and increasing IL-10
-        	- ibd/ibs: 
-        		- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
-        		- inhibit ETS2 by inhibiting MEK, upregulate IL-10
-        			- https://www.scientificamerican.com/article/solving-inflammatory-bowel-diseases-mysteries-may-lead-to-new-therapies/
-        		- use probiotics like Limosilactobacillus mucosae and Ligilactobacillus ruminis to increase serotonin production
-        			- https://newatlas.com/health-wellbeing/serotonin-gut-bacteria-ibs/
-        		- use cysteine to repair the gut
-        			- https://www.sciencedaily.com/releases/2025/10/251023031625.htm
-	        - colitis: 
-	        	- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum, Matricaria chamomilla (chamomile), and omega-3 fatty acids
-	        - Crohn's disease: Boswellia serrata (frankincense or shallaki), Artemesia species (wormwood), Tripterygium wilfordii (léi gōng téng), and omega-3 fatty acids
-	        	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5588418/
-        - gallstones:
-        	- milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
-        - pancreatitis:
-        	- fasting, avoid high acid foods like lemon juice, avoid high fat intake, balance hormones
-        - gout: 
-        	- avoid high purine/saturated fat intake, use low-fat dairy products, decaf coffee, vitamin C, fiber, peanuts, fruit to prevent gout, treat insulin problems like insulin resistance, treat lead exposure, treat kidney damage and other causes of gout
-        - stress
-        	- avoid stress which can damage hypothalamus/pituitary/adrenal glands and other organs and which can cause hormonal imbalances which can cause other conditions
-        	- use adaptogenic herbs like ashwagandha/rhodiola/holy basil
-        - cancer
-        	- substances to avoid with cancer
-        		- avoid methylglyoxal (a chemical linked to diabetes, obesity, and poor diet which can increase cancer risk) with phenols/flavonoids (phenols in peanut/apple, anthocyanins in elderberry, EGCG in green tea, genistein in soy)
-	        	- avoid sitosterol supplements which suppress a tumor suppressor, thyroid gland, b-vitamin supplements (vitamin c, iron, zinc supplements can also help cancer growth), sugar, amino acids like methionine and glutamate products like MSG, pollution
-	        	- avoid carcinogens in food, including:
-	        		- excessive hydrazine in mushrooms
-	        		- agglutinin (from peanuts/wheat) which can make some cancers grow
-	        		- acrylamide in fried/roasted foods like potato chips
-	        		- fermented/preserved foods which are associated with stomach cancer
-	        		- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
-        	- substances to use with cancer
-        		- small amounts of black beans, iodine, choline, DHEA, turmeric, ginger, grapes, berries, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, white button/cordyceps/shiitake mushrooms, activated charcoal, omega 3's, hibiscus, beets, probiotic kefir/kombucha are safe for patients with organ damage
-        		- nicotinamide (derived from vitamin b3) can help prevent skin cancer but niacin supplements can cause diabetes
-        		- aspirin can help prevent colon cancer (avoid with kidney damage)
-        		- proteolytic enzymes such as bromelain, trypsin, chymotrypsin, and papain may be useful to prevent metastasis
-        			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8067380/
-        		- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw can damage kidneys so be careful with the dose)
-        		- aripiprazole is highly active against breast, colorectal, lung, and brain cancers in multiple ways
-        			- it modulates key pathways like PI3K/AKT/mTOR and Wnt/β‐catenin, induces apoptosis through mitochondrial dysfunction and ER stress, and overcomes drug resistance by inhibiting P‐glycoprotein activity and expression
-        			- https://pmc.ncbi.nlm.nih.gov/articles/PMC11821285/
-        		- other strategies especially for brain cancer include using pollution-filtering air purifiers/masks, avoiding noise pollution, reverse osmosis water purifiers, sitting up at an angle rather than lying down flat for patients with brain cancer (who also have other conditions like acidosis that might exacerbate brain cancer when lying down), devices like magnetic oscillators or electric field devices, etc
-        		- correct hormone imbalances to help your immune system fight cancer, since hormonal imbalances like 'cortisol/DHEA/aldosterone deficiencies' can cause or increase cancer growth
-        		- keto diet with P-eIF4E inhibitors to prevent cancer from using ketones for energy
-        			- https://www.nature.com/articles/s41586-024-07781-7
-        		- weight loss drugs can reduce risk of gallbladder/meningioma/myeloma/pancreatic/ovarian/colorectal/esophageal/endometrial/kidney/liver cancers
-        			- https://www.healthline.com/health-news/glp-1-drugs-like-ozempic-may-reduce-risk-of-these-10-cancers#Reduced-risk-of-10-obesity-linked-cancers
-        		- inject 2141-V11
-        			- https://www.rockefeller.edu/news/38120-immunotherapy-drug-eliminates-aggressive-cancers-in-clinical-trial/
-        		- increase myokines with resistance or interval training
-        			- https://pubmed.ncbi.nlm.nih.gov/40608178/
-        			- increases the myokine irisin: vitamin D
-        			- https://www.mdpi.com/1422-0067/24/4/4129
+		- gastrointestinal problems:
+			- kill bad gut bacteria: berberine
+			- change HNF4-alpha by changing probiotics to change inflammatory bowel factors
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495071/
+			- inhibit intestinal inflammation by inhibiting TNF-alpha, IL-6, and IL-12 and increasing IL-10
+			- ibd/ibs: 
+				- avoid: inflammatory substances like BPA, VOCs, and pollution, and foods like chocolate, foods high in saturated fat, citrus fruits, coffee, soda, spicy foods, acidic foods, tea, tomatoes, dairy, and common food allergens like corn/gluten, treat other conditions like organ damage and bacterial/fungal imbalances that can cause gastrointestinal inflammation/dysfunction, treat autoimmune diseases, avoid stimulants/immune stimulants like coffee/cordyceps, use anti-stimulants and anti-inflammatory foods like turmeric/ginger
+				- inhibit ETS2 by inhibiting MEK, upregulate IL-10
+					- https://www.scientificamerican.com/article/solving-inflammatory-bowel-diseases-mysteries-may-lead-to-new-therapies/
+				- use probiotics like Limosilactobacillus mucosae and Ligilactobacillus ruminis to increase serotonin production
+					- https://newatlas.com/health-wellbeing/serotonin-gut-bacteria-ibs/
+				- use cysteine to repair the gut
+					- https://www.sciencedaily.com/releases/2025/10/251023031625.htm
+			- colitis: 
+				- wheat grass juice, boswellia, turmeric, ginseng, butyrate, aloe vera, bromelain, psyllium, green tea, germinated barley, andrographis paniculata, tormentil, bilberry, chamomile, evening primrose oil, wormwood, cbd, thunder god vine, mastic gum, Matricaria chamomilla (chamomile), and omega-3 fatty acids
+			- Crohn's disease: Boswellia serrata (frankincense or shallaki), Artemesia species (wormwood), Tripterygium wilfordii (léi gōng téng), and omega-3 fatty acids
+				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5588418/
+		- gallstones:
+			- milk thistle, artichokes, olive oil, cilantro, turmeric, garlic, fennel, digestive enzymes, slippery elm, chanca piedra, melatonin, bile salts, apple cider vinegar
+		- pancreatitis:
+			- fasting, avoid high acid foods like lemon juice, avoid high fat intake, balance hormones
+		- gout: 
+			- avoid high purine/saturated fat intake, use low-fat dairy products, decaf coffee, vitamin C, fiber, peanuts, fruit to prevent gout, treat insulin problems like insulin resistance, treat lead exposure, treat kidney damage and other causes of gout
+		- stress
+			- avoid stress which can damage hypothalamus/pituitary/adrenal glands and other organs and which can cause hormonal imbalances which can cause other conditions
+			- use adaptogenic herbs like ashwagandha/rhodiola/holy basil
+		- cancer
+			- substances to avoid with cancer
+				- avoid methylglyoxal (a chemical linked to diabetes, obesity, and poor diet which can increase cancer risk) with phenols/flavonoids (phenols in peanut/apple, anthocyanins in elderberry, EGCG in green tea, genistein in soy)
+				- avoid sitosterol supplements which suppress a tumor suppressor, thyroid gland, b-vitamin supplements (vitamin c, iron, zinc supplements can also help cancer growth), sugar, amino acids like methionine and glutamate products like MSG, pollution
+				- avoid carcinogens in food, including:
+					- excessive hydrazine in mushrooms
+					- agglutinin (from peanuts/wheat) which can make some cancers grow
+					- acrylamide in fried/roasted foods like potato chips
+					- fermented/preserved foods which are associated with stomach cancer
+					- carcinogenic supplements (aloe vera juice, anthranoids, areca, aristolochic acid, buckthorn, cascara sagrada, senna)
+			- substances to use with cancer
+				- small amounts of black beans, iodine, choline, DHEA, turmeric, ginger, grapes, berries, macadamia nuts, wheat grass, brussel sprouts, broccoli, broccoli sprouts, coconut, modified citrus pectin, ashwagandha, white button/cordyceps/shiitake mushrooms, activated charcoal, omega 3's, hibiscus, beets, probiotic kefir/kombucha are safe for patients with organ damage
+				- nicotinamide (derived from vitamin b3) can help prevent skin cancer but niacin supplements can cause diabetes
+				- aspirin can help prevent colon cancer (avoid with kidney damage)
+				- proteolytic enzymes such as bromelain, trypsin, chymotrypsin, and papain may be useful to prevent metastasis
+					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8067380/
+				- other supplements can be added in small amounts if you dont have organ damage and if they help your specific cancer type (green tea, vitamin D, ginseng, cortisol, thunder god vine, holy basil, cat's claw) and if you can deal with the possible side effects (for example, DHEA has some negative side effects) as some of these substances can cause organ damage in normal doses (quercetin, cortisol, thunder god vine, holy basil, cat's claw can damage kidneys so be careful with the dose)
+				- aripiprazole is highly active against breast, colorectal, lung, and brain cancers in multiple ways
+					- it modulates key pathways like PI3K/AKT/mTOR and Wnt/β‐catenin, induces apoptosis through mitochondrial dysfunction and ER stress, and overcomes drug resistance by inhibiting P‐glycoprotein activity and expression
+					- https://pmc.ncbi.nlm.nih.gov/articles/PMC11821285/
+				- other strategies especially for brain cancer include using pollution-filtering air purifiers/masks, avoiding noise pollution, reverse osmosis water purifiers, sitting up at an angle rather than lying down flat for patients with brain cancer (who also have other conditions like acidosis that might exacerbate brain cancer when lying down), devices like magnetic oscillators or electric field devices, etc
+				- correct hormone imbalances to help your immune system fight cancer, since hormonal imbalances like 'cortisol/DHEA/aldosterone deficiencies' can cause or increase cancer growth
+				- keto diet with P-eIF4E inhibitors to prevent cancer from using ketones for energy
+					- https://www.nature.com/articles/s41586-024-07781-7
+				- weight loss drugs can reduce risk of gallbladder/meningioma/myeloma/pancreatic/ovarian/colorectal/esophageal/endometrial/kidney/liver cancers
+					- https://www.healthline.com/health-news/glp-1-drugs-like-ozempic-may-reduce-risk-of-these-10-cancers#Reduced-risk-of-10-obesity-linked-cancers
+				- inject 2141-V11
+					- https://www.rockefeller.edu/news/38120-immunotherapy-drug-eliminates-aggressive-cancers-in-clinical-trial/
+				- increase myokines with resistance or interval training
+					- https://pubmed.ncbi.nlm.nih.gov/40608178/
+					- increases the myokine irisin: vitamin D
+					- https://www.mdpi.com/1422-0067/24/4/4129
 			- specific treatments for cancer types
 				- gastric cancer (has some overlap with gallbladder/liver/pancreatic cancer)
 					- avoid: vitamin b3/b9 supplements
@@ -1029,15 +1027,15 @@
 
 				- you will probably want to rule out causes/enhancers of your cancer in specific sequences
 
-				    - if you dont care about identifying the cause and want to skip to treatment or prevention, you can start with:
-				    	- the anti-cancer herbs/fruits/vegetables/vitamins referenced below (especially berries, mango, coconut, citrus, mushrooms, broccoli, ginger, garlic, turmeric, ashwagandha, iodine, small amounts like 1 oz of green tea/coffee)
-				    	- a common base of gentle supplements to be used daily (like probiotics/kefir, modified citrus pectin, oatmeal, bromelain, resistant starch)
-				    	- substances to reduce acidosis/inflammation (vitamin C/D, calcium, avoid large amounts of vitamin d if you have organ failure, only get it from sunlight or fish/algae rather than supplements if you have kidney damage)
-				    	- an air pollution mask for outside/travel time and an air purifier for indoor time and a reverse osmosis water purifier for toxins in water (whole foods 365 italian mineral water in glass bottles is the cleanest water)
-				    	- cycling off strong immune response substances every 30 - 60 days to maximize immune response (using one of the 30 - 60 strong substances like wasabi, blue agave syrup each day to maximize the immune response which wears off and comes back after a period of cycling off of it for several weeks)
-				    	- occasionally if youre healthy (without organ damage), you can also supplement with harsher substances like artemisinin, large amounts of coffee/green tea like 4 - 8 oz, thunder god vine, cat's claw, and honokiol (which are effective but are hard on your organs and not for people with organ damage), but these should be avoided unless other treatments arent working
-				    	- high intensity interval training, dopamine cycling, etc
-				    	- avoid dietary carcinogens that can make some cancers worse (potato chips, agglutinin from peanuts/wheat, folic acid/niacin supplements)
+					- if you dont care about identifying the cause and want to skip to treatment or prevention, you can start with:
+						- the anti-cancer herbs/fruits/vegetables/vitamins referenced below (especially berries, mango, coconut, citrus, mushrooms, broccoli, ginger, garlic, turmeric, ashwagandha, iodine, small amounts like 1 oz of green tea/coffee)
+						- a common base of gentle supplements to be used daily (like probiotics/kefir, modified citrus pectin, oatmeal, bromelain, resistant starch)
+						- substances to reduce acidosis/inflammation (vitamin C/D, calcium, avoid large amounts of vitamin d if you have organ failure, only get it from sunlight or fish/algae rather than supplements if you have kidney damage)
+						- an air pollution mask for outside/travel time and an air purifier for indoor time and a reverse osmosis water purifier for toxins in water (whole foods 365 italian mineral water in glass bottles is the cleanest water)
+						- cycling off strong immune response substances every 30 - 60 days to maximize immune response (using one of the 30 - 60 strong substances like wasabi, blue agave syrup each day to maximize the immune response which wears off and comes back after a period of cycling off of it for several weeks)
+						- occasionally if youre healthy (without organ damage), you can also supplement with harsher substances like artemisinin, large amounts of coffee/green tea like 4 - 8 oz, thunder god vine, cat's claw, and honokiol (which are effective but are hard on your organs and not for people with organ damage), but these should be avoided unless other treatments arent working
+						- high intensity interval training, dopamine cycling, etc
+						- avoid dietary carcinogens that can make some cancers worse (potato chips, agglutinin from peanuts/wheat, folic acid/niacin supplements)
 
 					- otherwise, if you want to identify the cause
 						- first you can test if your cancer is caused by air pollution quickly by using an air pollution mask and an air pollution air purifier (and a reverse osmosis water purifier to check if your water is making you sick) for a few days and checking if it helps reduce cancer growth (if your cancer is slow growing, this might take longer and you should start with an anti-inflammatory diet and herbs while also using an air pollution air purifier, rather than letting your cancer get slowly worse for long periods of time just to check if its the air pollution)
@@ -1178,27 +1176,27 @@
 					- the magnetic fields may need to be oscillating/rotating, and you may need multiple devices pointed in multiple directions in order to have an effect
 						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10630398/
 						- uni-directional TTFields had little effect
-	        				- However, multi-directional TTFields caused statistically significant inhibition of tumor growth, reaching 42.6% and 53.4% for two and three directions positioned at 45–90° to each other, respectively
+							- However, multi-directional TTFields caused statistically significant inhibition of tumor growth, reaching 42.6% and 53.4% for two and three directions positioned at 45–90° to each other, respectively
 				- devices
 					- ultrasound
 						- ultrasound devices can be used for surgery by a professional
 					- infrared
 						- all infrared devices should be avoided, they can cause cancer
-				    - electromagnetic
-				        - OMI (can cause cancer)
-				            - 210 microtesla or 2 Gauss
-				            - Frequency range: 1 - 99 Hz
-				        - DCcure (can cause cancer)
-				            - frequency spectrum from 1 Hz to 45 kHz
-				            - electromagnetic field is generated by a current from a square wave signal with intensity of 16v p-p which is divided by a 700kΩ resistor
-				            - field intensity: 80 nanoTesla (equal to 0.8 Milli-Gauss or 0.0008 Gauss)
-				        - Sedona (not clear if it causes cancer, probably causes cancer)
-				            Frequency: 1 - 15 kHz
-				            Intensity: 1 - 100 Gauss, 0.00001 - 0.01 tesla
-				        - open source self-constructed PEMF device (not clear if it causes cancer)
-				    - electric
-				        - Optune (therapeutic electric fields only, not electromagnetic)
-				            - 200 kHz
-				            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7671789/
-				            - TTF treatment also produces a paradoxical increase in clonogenic survival in the U251 GBM cell line (so electric TTF devices may not be as good as PEMF devices for brain cancer)
-				            	- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10630398/
+					- electromagnetic
+						- OMI (can cause cancer)
+							- 210 microtesla or 2 Gauss
+							- Frequency range: 1 - 99 Hz
+						- DCcure (can cause cancer)
+							- frequency spectrum from 1 Hz to 45 kHz
+							- electromagnetic field is generated by a current from a square wave signal with intensity of 16v p-p which is divided by a 700kΩ resistor
+							- field intensity: 80 nanoTesla (equal to 0.8 Milli-Gauss or 0.0008 Gauss)
+						- Sedona (not clear if it causes cancer, probably causes cancer)
+							Frequency: 1 - 15 kHz
+							Intensity: 1 - 100 Gauss, 0.00001 - 0.01 tesla
+						- open source self-constructed PEMF device (not clear if it causes cancer)
+					- electric
+						- Optune (therapeutic electric fields only, not electromagnetic)
+							- 200 kHz
+							- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7671789/
+							- TTF treatment also produces a paradoxical increase in clonogenic survival in the U251 GBM cell line (so electric TTF devices may not be as good as PEMF devices for brain cancer)
+								- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10630398/

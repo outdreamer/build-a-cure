@@ -1,3 +1,5 @@
+	- these are probably useful sub-intents/substances for treating cancer (assuming no liver/kidney damage which would contraindicate the harsher substances like temozolomide, disulfiram, baicelein, celastrol, and quercetin), based on identifying treatments in ncbi.nlm.nih.gov articles
+
 	- useful general cancer targets
 
 		- inhibit RhoGAP class-IX myosins to suppresses the metastatic features of cancer cells
