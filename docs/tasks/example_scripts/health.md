@@ -60,7 +60,7 @@
 								- https://pmc.ncbi.nlm.nih.gov/articles/PMC9408722/
 							- both probiotics/kefir and blue agave are super strong against brain cancer, and have an impact of about 10 - 100x that of a teaspoon of modified citrus pectin
 							- the others in this list all have an impact of about 1 - 5x that of teaspoon of modified citrus pectin
-							- the substances that wear off after a while can be cycled on and off to increase the immune response - I waited 2 months in between wasabi doses and it had the same strong immune response again after 2 months
+							- the substances that wear off after a while can be cycled on and off to increase the immune response
 					- if that diet doesnt work, which it should in most cases caused by inflammation/acidity or pollution/chemicals, then you can try specific protocols according to the type of cancer, like the brain cancer-specific herb protocol used here
 						- mistletoe, valerian, stinging nettle, thyme, mountain germander, rosemary, oregano, yarrow, peppermint, lemon balm, chamomile, hops, st john's wort, glechoma hederacea (ground ivy/evergreen creeper), catnip, artemisia absinthium (common wormwood), artemisia vulgaris (common mugwort), greater celandine, erythrea centaurium, calendula officinalis (marigold), capsella bursa-pastoris (shepherd's purse), betula pendula roth (common birch), basil, althaea officinalis (marshmallow)
 						- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5809810/
@@ -70,14 +70,11 @@
 					- if these dont work, youll want to keep looking for other pollutants/chemicals you might be exposed to that could cause cancer (like alcohol, excessive sunlight, pesticides, toxic cleaning chemicals, processed food, peanuts/wheat which have agglutinin that can make some cancers worse, potato chips which have acrylamide which can make cancer worse, supplements like beta-sitosterol that can suppress tumor-fighting defenses, arginine/b vitamins/vitamin c/vitamin e/iron/zinc which can feed cancer if taken in supplement or other processed form, etc)
 						- also check if your lifestyle variables like circadian rhythm dysregulation are a cause (if the cancer grows more at night, or days when you dont get sunlight, or in different sleeping postures, or when using a nightlight)
 
-		- here's a good probiotic I use (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
+		- here's a good probiotic (Garden of Life RAW Probiotics Colon Care) that has a powerful anti-cancer effect (paired with an air pollution mask and a healthy diet with vitamin C/D)
 			- https://www.amazon.com/Garden-Life-Probiotics-Colon-Stable/dp/B07CZGVXKY/
 			- if your microbiome is messed up, you wont be able to fight cancer optimally, probiotics are a powerful immune booster
-			- how did I figure this out? it wasnt a big leap of inference, I just read a few articles about specific bacteria that had anti-cancer effects and thought I should try the probiotics I knew were good quality at whole foods even though they weren't the same as those mentioned in the articles, and they seem to work
-				- I put them in some soup, sauerkraut, or tea with sugar or wheat flour and let them grow and drink a little bit all day (1 - 2 bottles' worth every day is good for reducing tumor size quickly, although lower doses are recommended for some people like thyroid patients, not sure what the upper limit is on the dose, lactic acid from the bacteria and SCFA/bile acid production which impact the thyroid are probably the dose-limiting factors)
+				- lower doses are recommended for some people like thyroid patients, not sure what the upper limit is on the dose, lactic acid from the bacteria and SCFA/bile acid production which impact the thyroid are probably the dose-limiting factors
 				- https://www.sciencedaily.com/releases/2024/05/240517164108.htm
-				- the reason this works is probably that the dose is really high, Im drinking a broth that contains 20  - 100 pills or so every day of a very powerful high quality probiotic
-				- I also found this bc I decided to look for a 'magic treatment' like sitosterol almost was for fungal infections (except that it suppressed a tumor suppressor, so dont take sitosterol if you have cancer), and bc I try variable dose sizes bc I know that dose is important, and bc I didnt take the easy way out of asking someone to figure out cancer for me
 				- high doses of probiotics can interfere with levothyroxine or thyroid function, so increased doses of levothyroxine may be necessary when taking probiotics for people with thyroid damage, and lower doses of probiotics may be necessary for thyroid patients, partly bc of the metabolites of probiotics like SCFAs or bile acids
 					- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8397005/
 			- another article about other probiotics for cancer treatment
@@ -112,7 +109,6 @@
 
 	- get an air pollution mask, an air purifier that filters out air pollution such as benzene, and a reverse osmosis water purifier, these arent optional for cancer treatment
 		- These are the solutions to avoid chemicals that I've been using:
-			- for food Ive been cooking in Pyrex glass, eating noodles/flour which is stored in paper, drinks/food in glass containers, and occasionally I buy vegetables in plastic like frozen items or fresh baked goods that haven't been sitting in the container for a long time, and I drink spring water instead of plastic bottled water
 			- an air pollution mask like this one which can attach filtering cartridges that filter out airplane/car fuel pollution: https://www.amazon.com/dp/B07Y2S71T1/
 			- a reverse osmosis purifier like this one to get chemicals out of the water: https://www.amazon.com/Bluevua-RO100ROPOT-LITE-Countertop-Reverse-Purification/dp/B0BGK3YLTN/
 			- an indoor air purifier that filters out airplane/car fuel pollution: https://www.iqair.com/us/products/air-purifiers/gc-multigas
@@ -126,7 +122,6 @@
 				- also make sure you take an antacid (I use baking soda/potassium bicarbonate and calcium carbonate/citrate) - unless you have alkalosis or another medical condition like that
 				- also make sure you eat plenty of vegetables with vitamin C (like oranges or bell peppers) or you wont have as good of an anti-cancer immune response
 				- also make sure you get enough vitamin D every morning
-				- also make sure your posture isnt impacting cancer growth, if I lay on my side or lie down totally flat, it seems to make the cancer grow more than if Im elevated and lying on my back
 				- a low-fat diet can improve cancer outcomes
 					- https://cancerandmetabolism.biomedcentral.com/articles/10.1186/s40170-018-0189-0
 					- https://pubmed.ncbi.nlm.nih.gov/1616815/
@@ -144,7 +139,6 @@
 				- note the dosing of wormwood twice a day for higher intensity requirements
 				- active ingredients in these substances: diosmin, thujone, thymol, xanthohumol 
 				- be careful where you buy supplements from, its often better to grow them yourself using seeds than to order non-organic supplements online from other countries, supplements can be contaminated with viruses like those that cause hepatitis
-				- I have taken some of these herbs with success while skipping the herbs I couldnt find online, not all of them are necessary to reduce brain cancer
 			- Diosmin is the active compound in Germander (Teucrium gnaphalodes) and is very powerful against brain cancer cells
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150927/
 		- if you cant take herbs, some devices like pulsed electric fields (PEFs), pulsed electromagnetic fields (PEMFs), and cold atmospheric plasma (CAP) devices may help if you can access the right devices
@@ -327,7 +321,6 @@
 			- deep brain stimulation (DBS) to the lateral hypothalamus (LH) can restore walking in partially paralyzed patients
 				- https://medicalxpress.com/news/2024-12-hypothalamus-paralyzed-patients.html
 			- avoid pesticides/silica and other substances that can cause nerve problems like multiple sclerosis
-			- I had a severe temporary 'brain inflammation' reaction to diatomaceous earth (amorphous silica dust) that might be worth exploring for a research direction, like 'check if there is a substance that can calcify tumor exteriors' if that would be useful for killing tumors
 		- bone damage:
 			- Cissus quadrangularis (Harjor), bamboo, Coelogyne cristata Lin (calcium phosphorus, zinc, and beta-sitosterol), Symphytum officinale (knit bone), Salvia miltiorrhiza (Dan Shen), Equisetum (Horsetail), Terminalia arjuna, Ehretia cymosa, Griffonia simplicifolia, Cassia occidentalis, Cicuta maculata, Curcuma domestica, Dipsacus species, Osyris wightiana wall, Tinospora cordifolia, Uvularia perfoliata, Cedrus deodara, Mesua ferrea (Nagkesar), Acacia arabica (Babool), Commiphora weightu (Guggle), Piper longum (Piplie), Pholidota articulata, C. cristata, Ulmus wallichiana (Chamormou), Vanda cristata, Betula utilis D. Don, Boehmeria Wedd (Gheti), Cassia tora (Chakunda), Coelogyne cristina Lindley (Hadiojen), C. buchanani (Dhadhi bel Asclepiadaceae), Cuscuta reflexa Roxb (Akash bel), Jungle Regia Akbrot Juglandaceae, Neolitsea pallems (Chirar), Phalidom ariculata (Hadiojen), Pinuz raxburghit (Chir), Rheum austral (Dolu), Sinarundinariafalcata (Ringal), Taxus baccata (Thuner), Piper sarmentosum, CBD/THC, comfrey, Symphytum uplandica (not S. officinale or wild comfrey), Arnica (Arnica montana), Cryptolepis buchanani (Ganglong)
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5512407/
@@ -1504,7 +1497,7 @@
 		- Enhancement of P53 protein expression, reducing the expression of proteins P27, P21, NFκB expression and induction of apoptosis, inhibition of the PI3K/Akt pathway, and reduction of the level of acid phosphatase and lipid peroxidation using herbs
 			- alkaloids, phenol compounds, monoterpenes, vinblastine, vincristine, curcumin, Taxol, boswellic acid, and umbelliprenin and compounds such as quercetin, catechin, cucurbitacin, kaempferol, thymol, carvacrol, 1 and 1,8-cineole, α-pinene, myrecene, and β-sitosterol
 				- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871268/
-		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can (this was the cause of most of the growth, until I started wearing this mask or using the IQ Air multi-gas air purifier)
+		- avoid air pollution by wearing a mask that filters benzene/other air pollution as often as you can
 			- https://www.amazon.com/dp/B0BQ2XV5W1?psc=1&ref=ppx_yo2ov_dt_b_product_details
 		- make sure your cortisol is not too low (if your cancer grows at night, it could be bc vitamin D or cortisol is lower at night)
 		- increasing klotho with senolytics/exercise/fasting/supplements
@@ -1712,7 +1705,7 @@
 		- if youre used to using a nightlight and/or your cancer grows more at night, try increasing your cortisol at night using high intensity exercise/stressful noises like alarms/blue light from devices/other artificial light, or substances that increase cortisol like grapefruit/citrus/caffeine/resveratrol/licorice (or steroid hormones like pregnenolone/hydrocortisone/other glucocorticoids/corticosteroids if youre otherwise healthy and can tolerate them)
 			- night is when these hormones naturally decrease and when they decrease, they stop suppressing cancer cell growth (lower cortisol at night is why cancer grows more at night)
 			- it should be fine to lower your cortisol in the morning with supplements/food, since your cortisol will likely increase then anyway, regardless of what else you do in the morning
-			- check if youve disrupted your normal light exposure or exercise timing or vitamin D/melatonin use or other sleep-relevant variable habits/patterns, if youve changed something recently as a possible trigger of cancer, bc I got used to having continuous light exposure, and when I stopped using a nightlight, I got cancer
+			- check if youve disrupted your normal light exposure or exercise timing or vitamin D/melatonin use or other sleep-relevant variable habits/patterns, if youve changed something recently as a possible trigger of cancer
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3380297/ - 'resveratrol increases cortisol synthesis'
 			- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5546099/#:~:text=Table%201.1%20%20%20%20Tumor%20type%20,%5B%2069%2C%2070%5D%20%202%20more%20rows%20
 			- glucocorticoids are contraindicated for some cancers and in some doses/usages
@@ -1773,7 +1766,7 @@
 		- increase parts of the covid/flu/bird flu immune response, which extremely reduced my brain tumor during the active immune response
 			- iodine
 				- The antimicrobial action of iodine is quick and works at low concentrations, and thus it is used in operating theatres. Its specific mode of action is unknown. It penetrates into microorganisms and attacks particular amino acids (such as cysteine and methionine), nucleotides, and fatty acids, ultimately resulting in cell death
-			- I would try reducing and increasing interferon-gamma and TNF-α bc they can both attack and help cancer (as part of the covid immune reponse, they attacked cancer for me), so its useful to find out which function your cancer responds to, by testing both sets of substances
+			- try reducing and increasing interferon-gamma and TNF-α bc they can both attack and help cancer (as part of the covid immune reponse, they attacked cancer for me), so its useful to find out which function your cancer responds to, by testing both sets of substances
 				- such as groups like 'astragalus/milk thistle/quercetin' vs. 'turmeric/boswellia/green tea/resveratrol/holy basil/limonene/berberine' and then a known useful mix like 'quercetin/holy basil' as they are both powerful in my experience
 			- increase CD4+ T cells (astragalus, lauric acid/coconut oil) 
 				- Regulatory T helper 17 cells are generated from CD4+ T cells
@@ -1930,12 +1923,12 @@
 
 		- avoiding carcinogenic substances once cancer is active (which means fasting and also avoiding nutrients in vitamins/supplements such as b-vitamins like niacin/folate/b12, and basically all protein including collagen and the amino acids like methionine listed below, and fats like linoleic acid as well as carbs, and avoiding p53 inhibitors like olive oil, as well as melatonin)
 
-		- I used a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice' or 'holy basil/ashwagandha/milk thistle/moringa' or 'omega 3s/quercetin/aged garlic extract/ashwagandha' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/cats claw/thunder god vine/quercetin, but I avoided them to avoid excess organ damage from multiple supplements)
+		- use a fast/keto/coconut oil diet + substance combinations like 'celastrol/ashwagandha/red yeast rice' or 'holy basil/ashwagandha/milk thistle/moringa' or 'omega 3s/quercetin/aged garlic extract/ashwagandha' to useful effect with aggressive metastatic brain cancer, regardless of other substances (other substances were useful, like baicalein/cats claw/thunder god vine/quercetin, but avoid them to avoid excess organ damage from multiple supplements)
 			- https://www.amazon.com/Thunder-Tripterygium-Wilfordii-Anti-inflammatory-Immunosuppressive/dp/B0145XJQZ2/
 			- https://www.amazon.com/Gaia-Herbs-Ashwagandha-Liquid-Capsules/dp/B06XSTTX7C/
 			- also avoiding excess heat seemed to help (keeping temperature below 76 F), because heat shock proteins can help cancer grow
 			- 'garcinia cambogia, red yeast rice, calestrol, ashwagandha, berberine, moringa, selenium, holy basil, milk thistle, piperlongumine' is a more complete combination with high coverage of functionality
-			- also when I got Covid-19, my brain tumor was reduced without any medicine during the active infection immune response, possibly bc of Covid proteins' binding activity or other interactions with ACE2, "reduction-oxidation (redox) pathways related to cytochrome c", EGFR/VEGFR, HGFR/c-MET, adenine nucleotide translocator (ANT), "damage-associated molecular pattern (DAMP) that alarms the immune system of any potential danger in all cell types to help them mount an appropriate immune defense via activation of pattern recognition receptors (PRRs)", or upregulating these factors in the default covid immune response:
+			- covid-19 impacts brain tumors via an active infection immune response, possibly bc of Covid proteins' binding activity or other interactions with ACE2, "reduction-oxidation (redox) pathways related to cytochrome c", EGFR/VEGFR, HGFR/c-MET, adenine nucleotide translocator (ANT), "damage-associated molecular pattern (DAMP) that alarms the immune system of any potential danger in all cell types to help them mount an appropriate immune defense via activation of pattern recognition receptors (PRRs)", or upregulating these factors in the default covid immune response:
 				- 'increased interleukin (IL)-2, IL-7, interferon-inducible protein 10, granulocyte-colony stimulating factor, macrophage inflammatory protein 1-, monocyte chemoattractant protein 1, and tumor necrosis factor- (TNF-)' or IgG/IgM antibodies
 				- upregulation of cyt c, increased oxidative phosphorylation and ATP production, increase in amide I concentration in mitochondrial membrane potential and increase in ANT
 					- this is bc the mRNA-based COVID-19 vaccine altered mitochondria by: 
