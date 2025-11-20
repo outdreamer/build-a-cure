@@ -72,6 +72,8 @@ I. To do list
 
 		- what are useful rules to generate useful graphs like a 'graph that embeds the most other relevant graphs' by 'embedding graphs in graphs, until the limit of usefulness of embedding graphs in a graph is reached', like how its useful to embed a graph of 'interface interaction rules' (which can determine most possibilities) in the 'variation/uncertainties/possibilities' section of a graph limited by 'constants/certainties/limits/requirements/definitions' as an additional filter of that possibility space
 
+		- what are useful graph sequences/connections/structures, like how a useful connecting sequence between the 'graph of interface interactions' and the 'physical information graph (of physical structures like physics rules)' is a sequence like 'a subset/query graph of queries of the graph of interface interactions' and a 'combination graph of queries of the graph of interface interactions' and a 'combination/subset implementation graph' and an 'implementation concept graph' and an 'implementation structure graph'
+
 
 II. Queries and Results
 
