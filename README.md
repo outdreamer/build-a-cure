@@ -28,8 +28,8 @@ A: I think about interface variables, I think about graphs and optimization, I s
 
 ## Relevant Links
 
-Here's a list of ChatGPT queries to solve reality:
-https://github.com/outdreamer/solver/blob/master/docs/specific_problem_analysis/ml/chatgpt_queries.md
+Here's a list of LLM queries to solve reality:
+https://github.com/outdreamer/solver/blob/master/docs/specific_problem_analysis/ml/queries_to_solve_reality.md
 
 Here's a data science study guide for learning purposes:
 https://github.com/outdreamer/solver/blob/master/docs/specific_problem_analysis/ml/ml_table.csv
