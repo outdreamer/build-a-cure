@@ -22,6 +22,10 @@ Q: How did you come up with this?
 
 A: This tool encodes how I think, which tends to be about cross-interface structures like "structures of meaning/problems/concepts/information" (like error structures like "missing info" and "centralized info" and concept graphs like "concept definition networks"), and it extends this default framework to include all the interfaces like problem/definition/logic/intent/function/structure/concept/info/potential/meaning/utility/relevance and interface interactions like interface queries.
 
+Q: How are you so smart?
+
+A: I think about interface variables, I spend time thinking, I avoid distractions, I practice thinking about thinking/brains, I think about problems/information and how to graph those structures, I use my imagination, I let my mind wander, I think about daily tasks, I think about the highest variation structures I can picture, I think about complex systems/problems, I think about concepts like randomness/independence/balance and their structure, I try to think of new graphs that have never been created before, I try to stretch my brain by doing hard things like "picturing a level of complexity that I've never pictured before", I think about the end/net results of a structure iterated/otherwise processed to see its limits and meaning, I think about matching levels of variation/complexity/other variables, I think about the ultimate meaning of structures, I think about how to identify/generate meaning, I prioritize seeking 'interface variation' (which is real variation, as opposed to trivial variation like 'trivial variants of a graph'), I think about how to connect variables to limits and other opposing structures/independent variables, I try to identify new unsolved intents, and I sometimes use caffeine to speed up my thinking.
+
 ## Relevant Links
 
 Here's a list of ChatGPT queries to solve reality:
