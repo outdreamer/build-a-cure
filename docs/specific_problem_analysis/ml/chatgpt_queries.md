@@ -80,6 +80,8 @@ I. To do list
 
 		- what are creative new graphs, like a graph of 'graphs connected by query sets/sequences that are optimal in those graphs', and what are these graphs useful for, like 'identifying graphs optimized for a query set'
 
+		- given this set of relevant graphs/queries/workflows/optimizations/intents/other interface structures, where and how has interface analysis not been applied yet when it should be applied, like 'what structures/graphs/independent variables arent trivially connected yet that should be' and 'what gaps exist in interface applications like "missing iterations of interface analysis"'
+
 
 II. Queries and Results
 
