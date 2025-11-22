@@ -78,6 +78,8 @@ I. To do list
 
 		- what is the optimal relevant graph sequence like the 'interface interaction graph', 'graph structuring the interface interaction graph', 'interface structures of the interface interaction graph', 'causal graph of the interface interaction graph', 'concept definition graph of the interface structures of the interface interaction graph', 'structural implementation graph of the interface interaction graph', 'graph of interface graphs of the interface interaction graph', for graph queries like 'optimize queries, or optimize the graphs for queries, of any given graph sequence'
 
+		- what are creative new graphs, like a graph of 'graphs connected by query sets/sequences that are optimal in those graphs', and what are these graphs useful for, like 'identifying graphs optimized for a query set'
+
 
 II. Queries and Results
 
