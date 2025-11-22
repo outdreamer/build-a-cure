@@ -84,6 +84,10 @@ I. To do list
 
 		- what are other useful functions to integrate with neural networks, like interface functions like a 'limit function to check if a prediction moved a point closer to a limit involved in a limiting rule'
 
+		- what are the smarter/dumber variants of each neural network type like how a dumber version of LLMs are 'word sequence networks where common word patterns connect rarer nodes' and a smarter version of LLMs 'starts by applying intent optimization and then identifies useful intent interactions and connect variables for each possible intent'
+
+		- what are the ways to use math functions like 'fourier transforms' on neural networks, like how a neural network 'adds component variables of a polynomial' and a fourier transform 'splits a polynomial into component functions', which could be used to 'find functions with common component functions to score similarity of functions and therefore identify a function of each similarity group to test for relevance'
+
 
 II. Queries and Results
 
