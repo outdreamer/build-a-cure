@@ -82,6 +82,8 @@ I. To do list
 
 		- given this set of relevant graphs/queries/workflows/optimizations/intents/other interface structures, where and how has interface analysis not been applied yet when it should be applied, like 'what structures/graphs/independent variables arent trivially connected yet that should be' and 'what gaps exist in interface applications like "missing iterations of interface analysis"'
 
+		- what are other useful functions to integrate with neural networks, like interface functions like a 'limit function to check if a prediction moved a point closer to a limit involved in a limiting rule'
+
 
 II. Queries and Results
 
