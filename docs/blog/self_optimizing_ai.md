@@ -12,6 +12,7 @@ Implementation intent sequences include:
 - generate maximally different AI implementations and identify connections between each implementation and every general error type and invest more in implementing/optimizing the implementations which less trivially/relevantly connect to multiple/important/relevant error types
 - generate relevant graphs of 'useful intents to optimize AI implementations for' and apply this or similarly relevant sets of graphs as a 'requirement boundary on a possibility space' to change/filter implementations in that possibility space
 - identify connections between functions like 'learn' and optimization structures like 'independence' such as how if applied correctly, a 'learning' function (a dependent function) can 'implement/generate independence'
+- identify a 'complete set of useful intents required for self-optimization' (like 'self-evaluation', 'generate relevant variation', 'keep solutions higher variation/relevance than problems, so solution structures can always over-power problem structures', etc) and optimize for those useful intents, so that AI can optimize itself 'optimally'
 
 
 ## Alternate intent sequences
