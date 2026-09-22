@@ -1553,3 +1553,5 @@ I. To do list
 	- identify useful structures like 'optimal graph intent interactions' like how its useful to 'apply variation to one graph while another graph is being applied as a constant, for generally optimal intents like "increasing relevant variation", as a solution to the possibility of "assumed constants having some error", to apply solutions to "probable potential error structures"'
 
 	- identify useful structures like 'graph interaction intents' like how its useful to identify intents like 'search adjacent graphs for the most adjacent graph with enough independent variation to possibly solve some emergent problem in another graph that is not trivially/relevantly solvable with the components/functions/solution structures of that graph'
+
+	- identify useful structures like 'differences between requirements/implementations' like how 'implementations should differ from requirements primarily in specificity, rather than differing in intent or other important variables'
