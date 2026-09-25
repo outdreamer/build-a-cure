@@ -4,8 +4,8 @@ Here's how to stay sane in a complex world.
 
 'Common sense' rules to 'apply in general or regularly' as a 'constant/certainty':
 - protect 'good/smart people' and 'people with non-trivial potential to be good/smart' as a top priority, and otherwise prioritize intents like 'solving problems (like solving reality/optimization)'
-- dont lie to comfort yourself about the existence of superior people, improve the truth about you
-- good is good and bad is bad, bad is suboptimal and good is optimal, bad structures are 'all related', which is why they're all 'called the same term'
+- dont 'lie to comfort yourself about the existence of superior people', 'improve the truth about you' so 'you can be happy when someone says the truth about you' and so 'you can have real self-respect'
+- good is still good in every way and bad is still bad in every way, bad as in 'minimizing work/maximizing easy' is a 'suboptimal/outdated optimization structure', and good is optimal, bad structures are 'all related', which is why they're all 'called the same term', what is 'good to a bad person' is a 'net/relevant/real negative'
 - smart people are 'capable of being/staying good'
 - seek relevant variation (like 'focus on a relevant level of complexity until you understand it' and 'implement justice, and organization, and other variables of meaning/relevance')
 - think about thinking, think about interface structures, think about optimization, think about solving problems to increase your potential/intelligence
@@ -17,7 +17,8 @@ Here's how to stay sane in a complex world.
 - apply concepts first when solving problems, to check 'conceptual relevance/optimality first', and otherwise apply interface structures to identify/understand/solve relevant problems (like 'group dynamic optimization problems')
 - 'organize info in mental relevant graphs' to 'manage info trivially/optimally'
 - prioritize intents like 'understand new variation' to 'fit new info into your existing mental relevant graphs' to 'minimize probability of unexpectedness' and 'maximize probability of problem-solving potential'
+- thinking is 'mental work', try to 'apply the right mental work' and 'optimize mental work' like by 'avoiding lack of mental work' like 'urges' which are 'stored prior simple solutions (simple solutions are almost always incorrect, reality is complicated)'
 
 'Variable rules' to 'apply conditionally or occasionally' as an 'uncertainty/possibility', as the case demands:
 - 'change bad people' (not if they have no potential, but variably/conditionally if they have potential, given 'available/adjacent tech')
-- 'optimize tech' (variably, given variables like 'whether tech has recently been optimized' and 'whether enough time has passed to identify new errors in the latest iteration of tech')
+- 'optimize tech' (variably, given variables like 'whether tech has recently been optimized' and 'whether enough time has passed to identify new errors in the latest iteration of tech' and 'whether there is available variation to optimize it')
