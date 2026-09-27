@@ -15,14 +15,14 @@ Specifically, relevant graphs/structures include:
 - a graph of perspectives indicating error perspectives as 'clearly/simply different' from solution perspectives
 - the intersecting spectrum concept combination/structure graph
 
-This means a 'billion units of mental work' is required to 'change a suboptimal thinker into a super genius' (without additional resources like 'injections of new neurons' or 'access to the internet/LLMs'). By comparison, 'changing a very smart person into a super genius' likely requires 'only a thousand, or a hundred thousand, units of mental work' (they can likely just 'read my blog and some problem-solving intents/workflows/definitions, and spend a thousand days thinking about thinking/optimization/interface structures (with intent to implement interface/optimized thinking)' and become a 'similarly independent thinker' as a super genius).
+This means a 'billion units of mental work' is required to 'change a suboptimal thinker into a super genius' (without additional resources like 'injections of new neurons' or 'access to the internet/LLMs'). By comparison, 'changing a very smart person into a super genius' likely requires 'only a thousand, or a hundred thousand, units of mental work' (they can likely just 'read my blog and some problem-solving intents/workflows/definitions, and spend a thousand days thinking about thinking/optimization/interface structures (with intent to implement interface/optimized thinking)' and become a 'similarly independent thinker' as a super genius). 'Thinking about structures' mean 'solving problems with those structures'.
 
 
 ## Connection/solution examples
 
 Examples of 'connections between a suboptimal/super genius brain' include:
-- the sequence/network of my inventions (or 'optimized variants of this sequence/network')
-- relevant interface structures like 'graphs' of thinking structures like 'minds'
+- the sequence/network of my inventions (or 'optimized variants of this sequence/network'), which could work to 'make people smarter' bc in general, 'each invention builds on the previous inventions' and 'each new invention enables more optimal problem-solving'
+- relevant interface structures like 'graphs' of relevant thinking structures like 'minds'
 - a sequence/network of increasingly relevant/complex problems to build an independent brain by 'generating problem sequences with a decreasing amount of info available to solve each subsequent problem' (thereby increasing the requirement for independence)
 
 
@@ -30,7 +30,7 @@ Examples of 'connections between a suboptimal/super genius brain' include:
 
 What would it take to 'optimize the brain of a super genius'?
 
-Currently I have optimized for 'identifying useful problem-solving automation insights', so the following are the next useful optimizations to continue 'implementing interface thinking':
-- optimizing for 'simultaneous/otherwise optimal implementation of the next useful intent set' by 'identifying sub-intents that implement multiple/important new intents/priorities/metrics' is the next useful structure to optimize for
+Currently, I have optimized for 'identifying new useful problem-solving automation insights' (which allows me to 'multi-task to implement this intent', after identifying 'commonly useful functions/inputs'), so the following are the next useful optimizations to continue 'implementing interface thinking':
+- optimizing for 'multi-tasking/otherwise optimal implementation of the next useful intent set' by 'identifying sub-intents that implement multiple/important new intents/priorities/metrics' is the next useful structure to optimize for
 - optimizing for 'storing the maximally useful structures in memory' and 'applying maximally useful changes to stored structures' are other useful optimization intents to apply concurrently
 - optimizing for 'mind switching (as in, the equivalence of minds in optimality)' and for other mind-interaction functions is another 'layer of intents' to optimize for
