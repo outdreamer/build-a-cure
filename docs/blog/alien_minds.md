@@ -1,6 +1,6 @@
 # Alien Minds
 
-Alien minds can be defined as 'independent minds'.
+Alien minds can be usefully defined as 'independent/new/otherwise relevant minds'.
 
 
 ## Definition
@@ -16,11 +16,13 @@ An 'independent mind' can be defined as:
 ## Examples
 
 Alien minds could be implemented like:
-- a 'maximally different mind' like a 'mind that tests differently than identified species test', like a 'mind where each neuron is a different sense'
+- a 'maximally different mind' like a 'mind that tests/functions differently than identified species test/function', like a 'mind where each neuron is a different sense/test'
 - a 'mind that is different in intent' like 'optimizing physics' or 'distributing physics optimally', which differs from identified species intents like 'simply simulate physics rules using simple identified structures'
+- a mind that solves different problems differently (like 'different functions are trivial for alien minds than identified minds')
+- an extremely new/future mind (since 'alien' means 'different' and 'new' is a component of 'different') like a 'mind that has solved future problems in all probable problem sequences'
 
 
-## Identifiers
+## Other identifiers
 
 Alien minds could be identified like by:
 - identifying the 'most different sequence of problems identifiable' that could cause the 'most differences in minds'
