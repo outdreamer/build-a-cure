@@ -26,7 +26,7 @@ Examples of 'connections between a suboptimal/super genius brain' include:
 - a sequence/network of increasingly relevant/complex problems to build an independent brain by 'generating problem sequences with a decreasing amount of info available to solve each subsequent problem' (thereby increasing the requirement for independence)
 
 
-## Other optimizations of thinking
+## Other relevant optimizations of thinking
 
 What would it take to 'optimize the brain of a super genius'?
 
@@ -34,3 +34,10 @@ Currently, I have optimized for 'identifying new useful problem-solving automati
 - optimizing for 'multi-tasking/otherwise optimal implementation of the next useful intent set' by 'identifying sub-intents that implement multiple/important new intents/priorities/metrics' is the next useful structure to optimize for
 - optimizing for 'storing the maximally useful structures in memory' and 'applying maximally useful changes to stored structures' are other useful optimization intents to apply concurrently
 - optimizing for 'mind switching (as in, the equivalence of minds in optimality)' and for other mind-interaction functions is another 'layer of intents' to optimize for
+
+
+## Barriers to optimizing biological thinking
+
+The following intents may be required to solve for, before the above intents are 'possible/trivial to solve':
+- 'solving addiction (like formatting the problem as "over-using one section/circuit/structure of the brain, and thereby becoming addicted to only using/prioritizing/inhabiting that one section/circuit/structure" or "lack of connectivity/interactivity between different brain regions/structures" or "lack of development of specific powerful brain regions/structures")' so that 'addiction to not thinking' can be trivially/relevantly solved
+- 'solving brain inflammation/lack of new neuron growth or existing neuron count/connectivity/blood flow/other brain structure errors' so that 'core brain structures are optimized to implement intents like "learning"'
