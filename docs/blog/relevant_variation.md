@@ -5,8 +5,8 @@
 
 What is relevant variation?
 
-Variation involves components/variables like 'complexity'. 
-Relevance involves components/variables like 'reusability'. 
+Variation involves components/variables like 'complexity/randomness'. 
+Relevance involves components/variables like 'reusability/recency'. 
 
 So 'relevant variation' can involve:
 - 'usable/analyze-able complexity' (like a 'level of complexity' that is useful or usable by current functionality)
