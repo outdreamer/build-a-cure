@@ -19,3 +19,5 @@ These are 'useful definitions' bc they 'interact with relevance (like by impleme
 The 'useful/relevant/optimal/meaningful definition' is the 'interactive definition' which is 'usefully generalized/specified/otherwise varied' to identify its 'important/optimal interactions' with relevance structures like 'general problem types'.
 
 With a 'useful definition of relevance', problem-solving can be automated (like with the 'definition that usefully implements/optimizes interactions of every relevant graph, and the optimized interactions of relevant graphs with general problem types').
+
+'Definitions' are a structure of 'certainty/structure', which makes them useful for 'automation', and applying them with 'opposing' structures like 'variation' is similarly useful for intents like 'generate relevant variation' which are inputs to optimization intents like 'increase relevance'.
