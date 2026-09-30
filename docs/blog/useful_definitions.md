@@ -11,6 +11,11 @@ The following are examples of 'useful definitions':
 - it's useful to define 'find' as a set of specific functions like 'filter/identify/define/specify/match'
 - it's useful to define 'relevance' as a 'set of optimized interactions between a core set of relevance components and general problem types'
 
+Graph definitions of 'concepts' are similarly useful:
+- the graph of the definition of 'evil' is useful to identify, to implement/describe a connection like 'pure evil is simpler than all other vectors, and all other vectors are superior to pure evil, so pure evil lacks complexity/variation'
+- the graph of the 'find' function like a graph of similar functions is useful to identify 'function clusters/types'
+- the graph of the 'relevance' definition is useful to identify 'causes/optimizations/implementations/specifications/interactions of structures/combinations of relevance components'
+
 
 ## Relevance Interactions
 
