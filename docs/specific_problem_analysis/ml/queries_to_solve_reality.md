@@ -1605,3 +1605,10 @@ I. To do list
 	- identify useful structures like the 'limits of optimality in a graph' to identify the 'maximally optimal solution possible in a graph to identify more optimal graphs to solve problems in with higher optimization limits'
 
 	- identify useful structures like the 'graph of a trivial/otherwise optimal implementation of interface analysis' like a 'graph where solutions are all separated from problems, but are disorganized' compared to a more optimal implementation of interface analysis like where 'problems and solutions are all separated, but are clearly organized (like solution types are surrounded by specific solutions, and solution types oppose problem types in some way like by being in opposite positions/directions)'
+		- example trivial implementations of interface analysis:
+			- generate 'combinations/structures of problem-solving insights' and generate 'specifications of those combinations/structures'
+			- create a 'graph that clusters similar insights/intents' in your repo and apply it as a 'problem-solving graph'
+			- create a 'graph of the definition of relevance' and 'specifying/modifying/applying synonyms' of relevance components/structures
+			- create a 'graph of current implementations' and identify more optimal points on the graph and connections to those points
+			- apply iterated optimizations for a 'set of optimization metrics', until more optimal optimization metric sets are identified
+		- applying 'optimization structures like "multiple combinations of these trivial implementations (in parallel)"' is an 'optimized implementation of interface analysis'
