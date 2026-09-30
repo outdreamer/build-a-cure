@@ -16,6 +16,13 @@ Graph definitions of 'concepts' are similarly useful:
 - the graph of the 'find' function like a graph of similar functions is useful to identify 'function clusters/types'
 - the graph of the 'relevance' definition is useful to identify 'causes/optimizations/implementations/specifications/interactions of structures/combinations of relevance components'
 
+Definitions standardized to 'optimality/relevance' are similarly useful:
+- defining evil in terms of 'optimality' results in a definition like 'a suboptimal outdated optimization as in "minimizing work" that is rarely optimal and only for suboptimal intents'
+- defining 'find' in terms of 'optimality' results in a definition related to interactions like 'optimality filters' and otherwise 'defining/filtering/identifying optimality'
+- defining 'relevance' in terms of 'optimality' is trivial bc theyre already connected by 'conceptual/general similarity' and 'optimality can be formatted as a component of relevance' (relevance/optimality/usefulness/meaning are similarly connected conceptually), though 'relevance' also means 'importance/uniqueness/other components' and 'optimality' means 'the upper limit of possible ideal structures' so they trivially differ
+
+Otherwise standardizing concepts to other interfaces is similarly useful, to 'completely define the concept' by 'connecting it to every independent variable (every interface)'.
+
 
 ## Relevance Interactions
 
