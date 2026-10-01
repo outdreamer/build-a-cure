@@ -1612,5 +1612,8 @@ I. To do list
 			- create a 'graph of current implementations' and identify more optimal points on the graph and connections to those points
 			- apply iterated optimizations for a 'set of optimization metrics', until more optimal optimization metric sets are identified
 		- applying 'optimization structures like "multiple combinations of these trivial implementations (in parallel)"' is an 'optimized implementation of interface analysis'
+		- relatedly, identify relevant graphs of implementations like a 'graph where implementations with equivalent inputs/outputs are in the same sequence and implementations with similar completeness are in a similar position'
 
 	- identify useful structures like 'certainty/deterministic components as relevance components' like how a 'small constant set of structures (like a list of important concepts)' or other optimization definition implementations ('small constant sets' are optimal for intents like 'filter') can be a useful input to 'generating a deterministic graph/codebase from a neural network model' to identify the certainty structures in the model and change them to code
+
+	- identify useful structures like 'useful graphs of functions like "implement"' like how its useful to graph 'implementation' as a 'possible implementation of a connection' as 'any possible connection between input/output, where optimal connection implementations are "direct/simple/clear/generally true/complete/bounded by errors/start from average points/are average connections/are based on understanding/otherwise implement optimality "and suboptimal connection implementations start from 'unrequired starting points' at 'unrequired angles' or are 'overly specific' or otherwise differ from optimal implementations'
