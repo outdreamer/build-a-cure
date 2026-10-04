@@ -36,3 +36,11 @@ Physics/math have even more identified relevant graphs, such as:
 Other graphs which can completely describe the fields include:
 - cross-system interaction graphs (physics/math interactions, physics/biology interactions, chemistry/biology interactions)
 - system optimization graphs (identifying optimal bio-system states and possible/valid connections between these states)
+
+
+## Interface graphs
+
+To complete the field of 'interface analysis', as described elsewhere, the following graph variables are required:
+- a complete set of graphs 'describing all relevant "interface variable" variation'
+- a set of graphs to implement optimal intents like 'constantly optimize the set of relevant graphs for relevant variation (like a high solution/problem ratio)'
+- a set of graphs to 'graph the set of relevant graphs' (implementing 'graphs of relevant graphs')
