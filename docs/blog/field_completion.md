@@ -19,7 +19,7 @@ Comedy is very incomplete and not well-defined, but can be more completed by str
 - the other structures of comedy include:
 	- simple similarities (as in 'callbacks', which are a simple similarity/relevance structure)
 	- otherwise irrelevant/invalid/incorrect similarities
-	- interfaces like 'importance/intent/stupidity'
+	- interfaces like 'importance/intent/stupidity' (as in 'inaccurate importance, and errors in other interface variables')
 - optimal structures of comedy include:
 	- optimal similarities (maximally different similarities across graphs of interfaces)
 
