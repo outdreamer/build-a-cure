@@ -16,3 +16,8 @@ Medium-complexity problems like 'solving physics' can likely be solved with 'non
 ## High complexity problems
 
 High-complexity problems like 'identifying the optimal graph of relevant variation (reality)' can likely be solved with 'non-trivial applications of unidentified optimizations', like by solving the problem-solving intent of 'optimizing graphs' and 'organization/implementation', which, once solved, will likely identify 'optimal applications/implementations of graphs' which are required to solve high complexity problems.
+
+
+## Optimizing problem complexity
+
+Identifying optimal concepts to trivially solve a problem (like 'identifying the concept of a "specific relevant graph to solve the problem of optimizing any graph"', as opposed to applying the more simple concept of 'graphs' as a 'problem-solving concept') is a related intent to 'simplifying complex problems' or 'solving complex problems in a general/simple way', so that 'new relevant higher complexity problems that arent solved by identified concepts/structures/graphs' can be identified.
