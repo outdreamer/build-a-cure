@@ -9,6 +9,7 @@ The 'differences between these mind types' is useful to identify:
 - the difference between 'one simple graph' and 'all of the thousands of relevant graphs/algorithms/connections/definitions/variables/other structures Ive identified' (to 'identify useful structures to apply as inputs to thinking')
 - a thousand days of 'thinking about those relevant structures', like 'thinking to grow/apply new/inactive neurons to comprehend a specific relevant structure' (applying 'thinking' to 'identify optimal insights')
 - a thousand applications of a 'thousand days of thinking', like thinking to 'identify new relevant structures' or 'optimize/integrate/organize relevant structures' (to 'apply optimal insights in a useful way for useful intents')
+- a thousand applications of a 'brain spent applying a thousand applications of a thousand days of thinking' (meaning, rather than just 'generating' this 'brain that has applied a thousand applications of a thousand days of thinking', 'using' that brain a 'thousand more times to identify new insights')
 
 Specifically, relevant graphs/structures include:
 - the useful specification of the graph of the definition of optimality/relevance
