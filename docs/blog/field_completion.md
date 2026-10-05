@@ -16,7 +16,7 @@ Comedy is very incomplete and not well-defined, but can be more completed by str
 - the definition of irrelevance ('invalidities/contradictions/obvious/trivial/simple/irrelevant errors' are 'wrong', so they are funny)
 	- similarly, relevance can be applied as an opposing variable ('connecting everything to frequently irrelevant variables like sex/disgust' is a 'simple source of errors/comedy')
 	- relatedly, 'surprisingly wrong' errors are 'maximally different' errors which involves independence (a component of relevance)
-	- 'irrelevant simple connections' and 'irrelevant surprising connections' describes an 'extremely high ratio of current comedy' and those are 'just a few interface structure combinations' (which is why I say that comedians are 'still working on their first invention', bc they may as well have zero, if they only have those few)
+	- 'irrelevant simple connections (like double meanings)' and 'irrelevant surprising connections (like always doing the obvious wrong thing)' describes an 'extremely high ratio of current comedy' and those are 'just a few interface structure combinations' (which is why I say that comedians are 'still working on their first invention', bc they may as well have zero, if they only have those few)
 - the other structures of comedy include:
 	- simple similarities (as in 'callbacks', which are a simple similarity/relevance structure)
 	- otherwise irrelevant/invalid/incorrect similarities
