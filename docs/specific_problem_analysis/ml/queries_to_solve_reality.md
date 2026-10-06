@@ -1647,3 +1647,5 @@ I. To do list
 
 	- identify useful structures like 'graph layers for the graph of the definition of relevance' to 'identify higher priority/more useful optimizations for different problem types, where each graph layer corresponds to different problem types with different optimal optimizations'
 		- similarly, identify useful structures like 'similarity type like "graph overlap ratio" on one graph like a causal definition graph, and another similarity type like "optimal query similarity or vector direction/position/structure similarity" on another graph like a problem type-concept interaction graph' which equal some 'relevant interaction' like a 'solution to a subset of general problem types' (since 'equals' can be applied similarly as 'means')
+
+	- identify useful structures like 'optimal graph state templates' like how 'every set of concepts can be connected trivially, so a graph of trivial concept structure connections is a useful graph to fill out/specify', where these optimal graph states are 'optimal for some intent set' and also 'useful to connect, like adjacently connectible'
