@@ -1644,3 +1644,5 @@ I. To do list
 	- identify useful structures like 'graphs that optimally enable relevance' like how 'low-complexity graphs allow for "trivial/relative relevance" (which can represent a few useful structure connections, like the connection between general problem/solution types)' but 'more optimized graphs (implementing more relevance components) enable more types/structures of relevance'
 
 	- identify useful structures like 'network variants required for functionality' like how a 'memory and at least one unit/neuron that is for other intents than memory is required to enable functionality like a "identification function of new/different variation that is not already in the memory"'
+
+	- identify useful structures like 'graph layers for the graph of the definition of relevance' to 'identify higher priority/more useful optimizations for different problem types, where each graph layer corresponds to different problem types with different optimal optimizations'
