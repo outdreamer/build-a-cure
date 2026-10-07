@@ -9,7 +9,8 @@ It's useful to identify 'similar/related/equivalent problems' to identify the 'm
 ## Examples
 
 Equivalent problems include:
-- solving the problem of 'graphs' solves the problem of 'equivalence/connection'
+- solving the problem of 'optimizing graphs' solves the problem of 'equivalence/connection'
+- solving the problem of 'identifying relevant graphs and their optimal connections, iterated to a degree where all variation in graph intents is trivially/relevantly connected' solves the problem of 'optimizing graphs'
 - solving the problem of 'relevance' solves the problem of 'optimality'
 - solving the problem of 'definition/structure' solves the problem of 'implementation'
 - solving the problem of 'identifying similar relevance' solves the problem of 'identifying new relevance'
