@@ -12,6 +12,7 @@ Equivalent problems include:
 - solving the problem of 'graphs' solves the problem of 'equivalence/connection'
 - solving the problem of 'relevance' solves the problem of 'optimality'
 - solving the problem of 'definition/structure' solves the problem of 'implementation'
+- solving the problem of 'identifying similar relevance' solves the problem of 'identifying new relevance'
 
 
 ## Related intents
