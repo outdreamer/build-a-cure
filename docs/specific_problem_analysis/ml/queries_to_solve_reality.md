@@ -1669,3 +1669,5 @@ I. To do list
 		- identify metrics to implement a 'useful structure of difference between problems/solutions' like 'problems are always n nodes away from solution nodes to clearly differentiate problems/solutions, until identification intents are implemented'
 	
 	- identify useful structures like the "relevant differences between the 'graph of the optimization definition with "problem types as central nodes" or "optimization structure sets as central nodes"'", and identify relevant 'coordinations/integrations/structures' of these graphs (like where 'problem/solution matches are applied as nodes, so problem/solution match optimality can be structured/identified') and identify whether metrics like 'problem/solution difference structures' are useful to apply on these graphs like 'this "variation of problems" should always be maximally differentiated'
+
+	- identify useful structures like 'optimal problem structures' like how a 'problem can be optimally solved when it can be structured as a set of nodes to connect, which makes the problem a known problem of connecting nodes and optimizing their connections'
