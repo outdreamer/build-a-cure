@@ -15,7 +15,7 @@ These graphs also have other problem/solution structures:
 - problem/solution structures in 'graph variants/alternatives'
 - problem/solution structures in the 'graph lifecycle' (from definition to generation/implementation to optimization)
 - problem/solution structures in 'related graph sequences/graphs'
-- problem/solution structures emerging in the same graph (like 'trivialing some subset of prioritized connections creates suboptimal differences')
+- problem/solution structures 'emerging in the same graph' (like 'trivialing some subset of prioritized connections creates suboptimal differences')
 
 
 ## Other intents related to graph intents
