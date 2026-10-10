@@ -26,3 +26,7 @@ A relevant problem sequence is:
 The problem to solve is: 
 - 'if the concept of "problem" is defined generally as a "difference to connect" (where a 'solution that is a similarity' still requires a 'difference in state'), should problems apply difference in every way and what structures should be different' (like 'should all problems be structured differently from other problems' and 'should problems always be represented as different from solutions' and 'should graphs of problems be as different as possible from graphs of solutions')
 - as in, "to what degree/in what way should a 'graph of the definition of a problem or optimality' be 'integrated into other graphs'"
+
+Since it's now clear that 'reality is a set of graphs constantly self-optimizing' (as in 'reality is solved', in a 'general way', by 'describing its optimal description structure'), the way to implement the intent 'optimize reality' is to:
+- 'optimize the set of graphs, faster/more relevantly than reality is optimizing itself'
+- in parallel, identify/generate/apply optimal optimization algorithms and use them to optimize biological and other types of intelligence so they can continue identifying/generating optimizations to this set of graphs
