@@ -1,0 +1,17 @@
+# Problem-solving Directions
+
+Problem-solving structures like 'optimal problem-solving directions (and networks of directions)' are useful to identify.
+
+For example, solving the 'big three current low-complexity problems' (low-complexity problems like 'war/poverty/disease' which are likely to be solved with some existing/adjacent structure like a 'causal system graph') can be done by identifying those specific graph. But they can also be solved by applying interface analysis to solve a high-complexity problem like 'identifying/optimizing relevant graphs'.
+
+'Solving the problem from multiple directions' and 'solving for multiple important intents' is usually more optimal than 'applying one direction/intent'. 
+
+In this case, since 'identifying/optimizing relevant graphs' solves for multiple important intents like 'increasing important solution metrics like understanding' and 'solving all lower-complexity problems by default (solving higher complexity problems also solves every lower complexity problem)', where 'solving for multiple intents' and 'increasing understanding' are a more optimal set of intents than only solving the problem 'from the bottom-up' (as in, starting by 'identifying causal system graphs for those three specific problems'). 
+
+A 'possible optimality' of the 'bottom-up solution' applied in isolation is that 'solutions to those three problems will be trivially reusable for the next round of higher complexity problems', but that possibility is remote and relatively irrelevant compared to more useful optimizations of other methods.
+
+A useful 'network of directions' applies a problem-solving method from multiple interacting directions, like how 'solving math (a medium-complexity problem)' and 'solving relevant graphs (a high complexity problem)' is an 'investment of computation' with a high 'safety ratio' (a high 'probability of success at solving lower complexity and related problems'), compared to only 'solving the three more important current low-complexity problems'. These problem-solving intents will likely overlap at various points as well, so that 'one can be integrated with the other', or that 'one can be stopped and the other can be continued'.
+
+'Identifying solutions that solve all low-complexity problems' is an example of a solution that is 'unlikely to be identified' by applying the 'bottom-up method', which also includes all high complexity problems and many medium complexity problems as well.
+
+The 'understanding resulting from identifying/optimizing relevant graphs' is useful enough to identify 'low-complexity and medium-complexity intents' that can be 'skipped or trivially defined/compressed', which is more useful than the possible applications/usages of solutions to low-complexity problems. Even in a very lucky case like where 'solutions to low-complexity problems can be iterated/combined trivially to solve all other problems', it is still suboptimal to identify those solutions and combine them iteratively to solve all other problems, and it is still extremely likely that by comparison, solving the problem of 'identifying/optimizing relevant graphs' will payoff much quicker, across a higher ratio of problems, and otherwise more optimally.
