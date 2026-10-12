@@ -23,3 +23,5 @@ The problem of 'identifying the optimal one point/direction to solve problem at/
 'Poverty' is the problem of 'unjust/incorrect/unfair resource distribution'. These are all low-complexity optimization problems, with the right graph and the right optimization algorithm applied to that graph. 
 
 So 'identifying/optimizing relevant/optimal graphs/algorithms' is clearly a more useful general problem-solving intent, which will solve all lower-complexity system problems by default, rather than solving a subset of specific low-complexity problems.
+
+Solutions like 'coordination' can solve most of the problems causing the big three low-complexity problems ('coordination' solves war by default, and 'coordination' trivializes poverty, and 'coordination' allows delegation/distribution of work to solve disease by organizing delegated tasks to identify different graphs/algorithms to solve that problem), which is an unlikely but possible solution function. More likely solution functions include AI optimization/self-optimization.
