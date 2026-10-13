@@ -1698,3 +1698,7 @@ I. To do list
 		- relatedly, identify 'what is already trivial on existing graphs' which should show what is 'highly probable to be applied as an existing solution structure' (like 'coordination of alternate similarly sized groups, who apply 'scaling/copying/trivially changing' and 'competition of scaling/copying/trivially changing between alternate similarly sized groups')
 
 	- identify useful structures like 'patterns/similarities in similarities' like how its useful to identify 'alternation/vacillation structures (like alternating functions like filter/generate, alternating problem/solution layers, or alternating graph optimization and meta-graph integration of the optimization)' and similarly useful to identify patterns in the interactions of these alternation structures like 'similarities/alignments in extremes of alternations'
+		- relatedly, identify 'algorithms of increasing relevance' like by first identifying a 'graph of variants', then a 'graph of types', etc
+		- relatedly, identify 'algorithms of similarity/connection generalization' like by identifying 'local connections', then 'connections across variants', etc
+
+	- identify useful structures like 'similarity functions that can implement a workflow like "identify variable connections (in a variable connection graph) by identifying similar structures on the graph of the definition of relevance to each variable, so the problem becomes identifying similar structures to each variable and then selecting a connection between associated structures for each variable"'
