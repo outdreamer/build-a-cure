@@ -1719,3 +1719,5 @@ I. To do list
 		- similarly, identify structures like the 'ratio of existing structures (like existing AI insights/models/algorithms)' to apply in an optimization network implementation or an optimization interaction network
 
 	- identify useful structures like 'graph problem/solution ratio interactions' like the 'interaction between a ratio of problems solved vs. generated on a graph' (and prioritize any specific interactions of general structures and other useful difference structures)
+
+	- identify useful structures like 'graph optimizations' like how its useful to apply relevant interface variables like 'priorities' to 'organize the graph of the definition of relevance' so it 'solves important problems with optimization structures first in a sequence (as opposed to general problems)'
