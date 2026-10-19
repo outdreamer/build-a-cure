@@ -23,3 +23,5 @@ As a follow-up to the discussion in 'mind_physics_applications.md':
 - 'specific structures of neurons' may be required for 'consciousness' (like 'neurons connected by adjacently stored neurons' or 'neurons with common connections' or 'neurons with a prior coordination connection')
 
 If the above requirements are fulfilled (the number of neurons, the ratio of available neurons to used neurons, the specific type of neuron connections, etc), 'changing a physical structure by thinking' is possible.
+
+For example, bc I frequently think about 'errors', I frequently cause adjacent structures like 'machines' to have errors.
