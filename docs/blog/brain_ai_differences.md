@@ -12,5 +12,12 @@ Brain variables vs. AI variables include:
 - a brain has 'self-analysis functionality' built-in, a function which can be 'run on any sufficiently large set of available neurons, evaluating any other sufficiently small set' (which most AI models do not already implement optimally, which in order to implement, the AI models would need to 'regularly/optimally apply optimization algorithms to subsets/connections/sub-graphs/graph layers/structures of neurons')
 - a brain has 'definition storage that can be updated to reflect new understanding/insights' like 'updating the definition/graph of relevance/optimality, when new variation/graphs identifies a new optimization structure' (most AI models apply definitions statically instead of constantly updating/optimizing their definitions)
 - a brain has 'consciousness functionality' built-in, like 'activating subsets of the brain or the complete brain as required' (most AI models have 'a static set of possible neuron activation patterns')
+- a brain has 'quantum entanglement-generating structure/function', which can 'generate connectivity external to itself' (AI models don't have the equipment to quantumly connect to other AI models/computers/structures)
 
 In these cases, the brain is consistently more capable of 'optimization of relevant variation' compared to most AI models.
+
+AI has advantages over brains involving mostly just 'scaling', which is sometimes all that is required to solve a problem (if it's interface analysis that is being scaled):
+- scaling the 'identification of relevant graphs/algorithms'
+- applying 'more optimizations simultaneously'
+- analyzing more structures for 'optimality and optimization possibilities'
+- generating more relevant variation by applying interface analysis (like 'identifying new relevant graphs' quickly)
